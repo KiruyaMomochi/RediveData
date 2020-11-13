@@ -1,0 +1,253 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500110
+- amb:
+  - amb_adv_room_noise_01
+- ui_visible:
+  - false
+- situation:
+  - 關於鈴的服裝
+- chara_full:
+  - 103811
+  - C
+  - 2
+- fadein:
+  - 103811
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M352_04
+  - 0
+  - 0
+  - 1
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_6040409_000
+- face:
+  - 103811
+  - 2
+- emotion:
+  - twinkle1_R
+  - 103811
+  - -115
+  - 480
+  - se_adv_emote_twinkle_01
+- print:
+  - 栞
+  - 鈴的鎧甲，
+- wait:
+  - 35
+- print:
+  - 栞
+  - 非常可愛呢。
+- wait:
+  - 45
+- print:
+  - 栞
+  - >2-
+
+    而且是媽媽送的東西
+- wait:
+  - 40
+- print:
+  - 栞
+  - 這點也很棒。
+- wait:
+  - 55
+- print:
+  - 栞
+  - >2
+
+- face:
+  - 103811
+  - 6
+- print:
+  - 栞
+  - 如果她能夠再更常穿一些就好了呢……
+- touch: &o0 []
+- choice:
+  - 不適合穿著巡邏
+  - 1
+  - 1
+- choice:
+  - 和平第一
+  - 2
+  - 2
+- choice:
+  - 因為她很珍惜呢
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_6040409_001
+- face:
+  - 103811
+  - 1
+- nod:
+  - 103811
+- print:
+  - 栞
+  - 的確，
+- wait:
+  - 30
+- print:
+  - 栞
+  - 因為那套鎧甲很重，
+- wait:
+  - 35
+- print:
+  - 栞
+  - 所以不太適合穿著巡邏呢。
+- wait:
+  - 60
+- print:
+  - 栞
+  - >2
+
+- face:
+  - 103811
+  - 4
+- print:
+  - 栞
+  - 但是需要穿上鎧甲的工作
+- wait:
+  - 30
+- print:
+  - 栞
+  - 又都是些危險的工作……
+- wait:
+  - 65
+- print:
+  - 栞
+  - 真難如人所願呢。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_6040409_002
+- face:
+  - 103811
+  - 1
+- print:
+  - 栞
+  - 的確，
+- wait:
+  - 30
+- print:
+  - 栞
+  - 不需要穿鎧甲這種危險的東西才是最好的……
+- wait:
+  - 90
+- print:
+  - 栞
+  - >2
+
+- emotion:
+  - heart1_R
+  - 103811
+  - 75
+  - 490
+  - se_adv_emote_heart_01
+- face:
+  - 103811
+  - 2
+- print:
+  - 栞
+  - 但那個樣子的鈴很犯規呢。
+- wait:
+  - 60
+- print:
+  - 栞
+  - 搖搖晃晃的樣子真的很可愛。
+- wait:
+  - 75
+- print:
+  - 栞
+  - >2-
+
+    如果拜託她的話，她會不會願意再穿上呢？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_6040409_003
+- face:
+  - 103811
+  - 1
+- print:
+  - 栞
+  - 雖然我非常能夠理解想要珍惜收到的禮物的心情，
+- wait:
+  - 85
+- print:
+  - 栞
+  - >2-
+
+    但有些東西我覺得要拿來使用才更讓人高興呢。
+- wait:
+  - 80
+- print:
+  - 栞
+  - >2
+
+- nod:
+  - 103811
+- face:
+  - 103811
+  - 2
+- print:
+  - 栞
+  - 不過，
+- wait:
+  - 30
+- print:
+  - 栞
+  - 鈴平安才是最重要的事情。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 103811
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

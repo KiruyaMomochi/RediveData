@@ -1,0 +1,1313 @@
+- title:
+  - 禊 第5話
+- outline:
+  - 禊突然說要和{0}一起去探險。但是兩人在森林中魔物的巢穴裡迷路了。禊使用攜帶的煙霧彈，總算是從魔物們身旁成功地逃了出來。
+- background:
+  - 500030
+- amb:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 禊探險隊出發！
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    當{0}在散步時，
+
+    拿著大量行李的禊走了過來。
+- touch: &o0 []
+- window_visible:
+  - false
+- bgm:
+  - bgm_M11
+- se:
+  - se_adv_step_concrete_run_come_01
+- chara_full:
+  - 100411
+  - C
+  - 2
+- in_L:
+  - 100411
+  - 60
+  - true
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004005_000
+- face:
+  - 100411
+  - 2
+- emotion:
+  - note1_L
+  - 100411
+  - -85
+  - 485
+  - se_adv_emote_note_01
+- print:
+  - 禊
+  - 哥哥、哥哥！
+- wait:
+  - 15
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 我們去探險吧！
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004005_001
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 禊為了探險做了各種準備呦！
+- wait:
+  - 25
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 裝備超齊全的！
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 100411
+  - 6
+- emotion:
+  - question1_R
+  - 100411
+  - 110
+  - 460
+  - se_adv_emote_question_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004005_002
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - 咦？
+- wait:
+  - 10
+- print:
+  - 禊
+  - >2-
+
+    哥哥問禊要去哪？
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 4
+- print:
+  - 禊
+  - 不知道為什麼要去？
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004005_003
+- face:
+  - 100411
+  - 3
+- jump:
+  - 100411
+- print:
+  - 禊
+  - 真是的～那些事情怎樣都好啦！
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2-
+
+    總之禊想要跟哥哥去冒險嘛！
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 就是這樣，我們出發吧！
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+- se:
+  - se_adv_step_concrete_run_go_01
+- out_R:
+  - 100411
+  - 45
+  - true
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500170
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_forest_01
+- bgm:
+  - bgm_M71
+  - 0
+  - 0
+  - 1
+- chara_full:
+  - 100411
+  - LC
+  - 2
+- change:
+  - C
+  - LC
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004005_004
+- face:
+  - 100411
+  - 2
+- emotion:
+  - heart1_R
+  - 100411
+  - 70
+  - 445
+  - se_adv_emote_heart_01
+- jump:
+  - 100411
+- print:
+  - 禊
+  - 和哥哥一起去探險～！
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2-
+
+    呀哈哈哈～！
+- touch: *o0
+- choice:
+  - 妳看起來很開心呢。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004005_005
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 嗯嗯，禊超開心的！
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004005_006
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 其實呀～
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2-
+
+    禊的爸爸是探險家喔～
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004005_007
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 他常常因為探險出門旅行，
+- wait:
+  - 10
+- print:
+  - 禊
+  - >2-
+
+    所以很少待在家裡頭，
+- wait:
+  - 10
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 不過禊最喜歡爸爸了！
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004005_008
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 想到自己可以像爸爸一樣去探險，
+- wait:
+  - 10
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 5
+- print:
+  - 禊
+  - 禊就超級開心的！
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004005_009
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 而且探險總是讓人很興奮吧！
+- wait:
+  - 25
+- print:
+  - 禊
+  - >2
+
+- jump:
+  - 100411
+- print:
+  - 禊
+  - 哥哥，我們一起來尋寶吧～！
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 100411
+  - 6
+- emotion:
+  - notice1_L
+  - 100411
+  - -75
+  - 480
+  - se_adv_emote_common_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004005_010
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - ……哥哥問有沒有寶物？
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 禊不知道。
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004005_011
+- face:
+  - 100411
+  - 2
+- pop:
+  - 100411
+- print:
+  - 禊
+  - 不過只要我們隨便到處走走，
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2-
+
+    寶物應該就會自己跑出來吧？
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004005_012
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - 欸？要禊說一下目的地？
+- wait:
+  - 75
+- print:
+  - 禊
+  - >2-
+
+    其實禊沒有特別去想耶。
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 這樣子比較像在冒險吧！？
+- touch: *o0
+- fadeout:
+  - 100411
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- shake_loop: *o0
+- effect:
+  - 0009
+  - se_adv_bush_02
+- wait:
+  - 45
+- shake_delete: *o0
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 100411
+  - C
+  - 6
+- fadein:
+  - 100411
+  - 30
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004005_013
+- face:
+  - 100411
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100411
+  - 5
+  - 600
+  - se_adv_emote_common_01
+- print:
+  - 禊
+  - 啊，那邊好像有什麼東西！
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 說不定是寶物！？
+- wait:
+  - 15
+- print:
+  - 禊
+  - >2-
+
+    哥哥，我們過去看看吧～！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 10
+  - 1
+- se:
+  - se_adv_step_leaves_run_go_01
+- out_R:
+  - 100411
+  - 45
+  - true
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - se_adv_step_leaves_run_come_01
+- wait:
+  - 15
+- chara_full:
+  - 100411
+  - LC
+  - 4
+- change:
+  - C
+  - LC
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004005_014
+- face:
+  - 100411
+  - 4
+- print:
+  - 禊
+  - 嗚嗚……？
+- wait:
+  - 60
+- print:
+  - 禊
+  - >2-
+
+    什麼東西都沒有？
+- wait:
+  - 60
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 3
+- print:
+  - 禊
+  - 可是剛剛真的有看到會動的東西呀……
+- wait:
+  - 15
+- touch: *o0
+- fadeout:
+  - 100411
+  - 30
+- chara_full:
+  - 1611
+  - RC
+  - 1
+- change:
+  - C
+  - RC
+- fadein:
+  - 1611
+  - 30
+- jingle_start:
+  - bgm_M17_00_intro
+- se:
+  - se_adv_creature_cmn_group_02
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- effect:
+  - 9
+- print:
+  - 魔物
+  - ──呱歐歐歐歐歐
+- shake_screen: *o0
+- print:
+  - 魔物
+  - ！
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 1
+- vo:
+  - vo_adv_1004005_015
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - 嗚哇！
+- wait:
+  - 15
+- print:
+  - 禊
+  - >2-
+
+    是、是魔物！？
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 1612
+  - R
+  - 1
+- fadein:
+  - 1612
+  - 15
+- chara_full:
+  - 1613
+  - L
+  - 1
+- fadein:
+  - 1613
+  - 15
+- bgm:
+  - bgm_M17
+  - 0
+  - 0
+  - 1
+- se:
+  - se_adv_creature_cmn_group_01
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物群
+  - >-
+    ──呱歐歐歐歐歐！
+
+    ──呱歐歐歐歐歐！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100411
+  - C
+  - 6
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004005_016
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - 而且還超級多！？
+- wait:
+  - 15
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 4
+- print:
+  - 禊
+  - 這裡是魔物的巢穴嗎？
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004005_017
+- face:
+  - 100411
+  - 4
+- shake:
+  - 100411
+- print:
+  - 禊
+  - 怎、怎、怎麼辦！？
+- wait:
+  - 25
+- print:
+  - 禊
+  - >2-
+
+    禊和哥哥，被包圍住了？
+- wait:
+  - 10
+- touch: *o0
+- choice:
+  - 冷、冷、冷靜一下！
+  - 2
+- choice:
+  - 哥哥在這裡，沒事的。
+  - 3
+- tag:
+  - 2
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004005_018
+- face:
+  - 100411
+  - 4
+- emotion:
+  - sweat1_R
+  - 100411
+  - 80
+  - 475
+  - se_adv_emote_sweat_01
+- nod:
+  - 100411
+- print:
+  - 禊
+  - 哥哥你才要冷靜一下吧……
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004005_019
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - 咦？看到哥哥慌慌張張的樣子，
+- wait:
+  - 60
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 禊好像反而冷靜下來了？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004005_020
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - 就、就是說啊！
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2-
+
+    只要兩人合作，一定可以找到辦法的！
+- wait:
+  - 40
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 2
+- jump:
+  - 100411
+- print:
+  - 禊
+  - 哥哥，好可靠喔～！
+- touch: *o0
+- tag:
+  - 4
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004005_021
+- face:
+  - 100411
+  - 4
+- print:
+  - 禊
+  - 在探險裡遇到危機是家常便飯。
+- wait:
+  - 10
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 3
+- print:
+  - 禊
+  - 所以禊可是做了很多準備……
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004005_022
+- face:
+  - 100411
+  - 6
+- pop:
+  - 100411
+- print:
+  - 禊
+  - 啊！對了、對了！
+- wait:
+  - 40
+- print:
+  - 禊
+  - >2-
+
+    禊有為了探險而準備的行李！
+- wait:
+  - 10
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 3
+- print:
+  - 禊
+  - 只要使用這些東西……
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004005_023
+- face:
+  - 100411
+  - 4
+- print:
+  - 禊
+  - 嗯嗯……
+- nod:
+  - 100411
+- print:
+  - 禊
+  - 嗯嗯……
+- nod:
+  - 100411
+- wait:
+  - 60
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 找到了！
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 3
+- print:
+  - 禊
+  - 只要用這個煙霧彈的話！
+- wait:
+  - 30
+- touch: *o0
+- fadeout:
+  - 100411
+  - 30
+- flash: *o0
+- effect:
+  - 0024
+  - se_adv_smokeball_01
+- wait:
+  - 15
+- effect:
+  - 0013
+- wait:
+  - 15
+- chara_full:
+  - 100411
+  - C
+  - 3
+- scale:
+  - 100411
+  - 1.3
+  - 3
+- fadein:
+  - 100411
+  - 30
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004005_024
+- face:
+  - 100411
+  - 3
+- pop:
+  - 100411
+- print:
+  - 禊
+  - 哥哥，快趁現在！
+- wait:
+  - 40
+- print:
+  - 禊
+  - >2-
+
+    我們逃走吧～！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+  - 1
+- se:
+  - se_adv_step_leaves_run_go_01
+- out_L:
+  - 100411
+  - 30
+  - true
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- effect_delete:
+  - 0013
+  - 30
+- background:
+  - 500130
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_outdoors_day_01
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- chara_full:
+  - 100411
+  - RC
+  - 4
+- change:
+  - C
+  - RC
+  - 30
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M52
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004005_025
+- face:
+  - 100411
+  - 4
+- print:
+  - 禊
+  - 哈、
+- nod:
+  - 100411
+- print:
+  - 禊
+  - 哈呼……
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 逃到這邊應該就能放心了？
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004005_026
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 魔物也沒有追上來，
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2-
+
+    看來我們是成功逃走了！
+- wait:
+  - 10
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 真是好危險呀～
+- touch: *o0
+- choice:
+  - 我已經受夠探險了……
+  - 5
+- choice:
+  - 禊太莽撞冒失了……
+  - 6
+- tag:
+  - 5
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004005_027
+- face:
+  - 100411
+  - 6
+- pop:
+  - 100411
+- print:
+  - 禊
+  - 欸─！？
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 明明就非常有趣呀～！
+- wait:
+  - 15
+- touch: *o0
+- goto:
+  - 7
+- tag:
+  - 6
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004005_028
+- face:
+  - 100411
+  - 5
+- pop:
+  - 100411
+- print:
+  - 禊
+  - 欸嘿嘿～不要這樣誇獎禊嘛～♪
+- wait:
+  - 15
+- touch: *o0
+- tag:
+  - 7
+- effect:
+  - 0046
+  - se_adv_happy_particle_01
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004005_029
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 呀哈哈哈！真是超有趣的～！
+- wait:
+  - 60
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 沒想到居然會跑到魔物的巢穴裡，
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2-
+
+    真的很有探險的感覺對吧？
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004005_030
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 下一次要去哪裡呢～
+- wait:
+  - 60
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 吶吶，哥哥你覺得哪邊比較好？
+- wait:
+  - 15
+- touch: *o0
+- effect_delete:
+  - 0046
+  - 30
+- fadeout:
+  - 100411
+  - 30
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    雖然遇到了危險，
+
+    但是禊完全沒有學到教訓。
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

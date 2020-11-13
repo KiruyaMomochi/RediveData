@@ -1,0 +1,278 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500997
+- amb:
+  - amb_adv_outdoors_day_01
+- ui_visible:
+  - false
+- situation:
+  - 半藏消失到哪裡去了
+- chara_full:
+  - 103811
+  - C
+  - 6
+- fadein:
+  - 103811
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M288
+  - 0
+  - 0
+  - 1
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_6040410_000
+- face:
+  - 103811
+  - 6
+- print:
+  - 栞
+  - 半藏他們到底消失到哪裡去了呢。
+- wait:
+  - 60
+- print:
+  - 栞
+  - >2
+
+- face:
+  - 103811
+  - 1
+- print:
+  - 栞
+  - 雖然跟喵特一起追蹤了他們的足跡，
+- wait:
+  - 45
+- print:
+  - 栞
+  - >2
+
+- face:
+  - 103811
+  - 4
+- print:
+  - 栞
+  - 卻完全追不上呢……
+- touch: &o0 []
+- choice:
+  - 從黑暗消失到黑暗之中
+  - 1
+  - 1
+- choice:
+  - 他總有一天會被抓到的
+  - 2
+  - 2
+- choice:
+  - 可能離我們意外地近……
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_6040410_001
+- face:
+  - 103811
+  - 6
+- print:
+  - 栞
+  - 從、
+- wait:
+  - 20
+- print:
+  - 栞
+  - 從黑暗到黑暗？
+- wait:
+  - 50
+- print:
+  - 栞
+  - 　他們使用的是那種魔法嗎？
+- wait:
+  - 80
+- print:
+  - 栞
+  - >2
+
+- face:
+  - 103811
+  - 1
+- print:
+  - 栞
+  - 這樣的話
+- wait:
+  - 35
+- print:
+  - 栞
+  - 喵特確實沒辦法追上呢。
+- wait:
+  - 60
+- print:
+  - 栞
+  - >2
+
+- face:
+  - 103811
+  - 6
+- emotion:
+  - question1_R
+  - 103811
+  - 120
+  - 510
+  - se_adv_emote_question_01
+- print:
+  - 栞
+  - 咦？
+- wait:
+  - 20
+- print:
+  - 栞
+  - 　不對嗎？
+- wait:
+  - 45
+- print:
+  - 栞
+  - 　
+- face:
+  - 103811
+  - 4
+- print:
+  - 栞
+  - 那到底是
+- wait:
+  - 40
+- print:
+  - 栞
+  - 怎麼一回事呢……
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_6040410_002
+- face:
+  - 103811
+  - 3
+- nod:
+  - 103811
+- print:
+  - 栞
+  - 是啊。
+- wait:
+  - 40
+- print:
+  - 栞
+  - 做了壞事一定會有報應的。
+- wait:
+  - 70
+- print:
+  - 栞
+  - >2-
+
+    如果下次再看到他們，
+- wait:
+  - 35
+- print:
+  - 栞
+  - 一定要抓住他們。
+- wait:
+  - 50
+- print:
+  - 栞
+  - >2
+
+- face:
+  - 103811
+  - 1
+- print:
+  - 栞
+  - 那個時候
+- wait:
+  - 30
+- print:
+  - 栞
+  - 也要請你幫忙喔。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_6040410_003
+- face:
+  - 103811
+  - 1
+- nod:
+  - 103811
+- print:
+  - 栞
+  - 他們的確
+- wait:
+  - 30
+- print:
+  - 栞
+  - 非常神出鬼沒，
+- wait:
+  - 50
+- print:
+  - 栞
+  - 所以也不是不可能呢。
+- wait:
+  - 55
+- print:
+  - 栞
+  - >2
+
+- face:
+  - 103811
+  - 3
+- print:
+  - 栞
+  - 不要放鬆戒備，
+- wait:
+  - 40
+- print:
+  - 栞
+  - 多放一份心力在警備上吧。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 103811
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

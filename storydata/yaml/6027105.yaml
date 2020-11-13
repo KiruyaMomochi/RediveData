@@ -1,0 +1,271 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500833
+- amb:
+  - amb_adv_jungle_01
+- ui_visible:
+  - false
+- situation:
+  - 艾爾皮斯島怎麼樣？
+- chara_full:
+  - 106611
+  - C
+  - 1
+- fadein:
+  - 106611
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M180_Ver2
+  - 0
+  - 0
+  - 1
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_6027105_000
+- face:
+  - 106611
+  - 1
+- print:
+  - 祈梨
+  - 總覺得在艾爾皮斯島
+- wait:
+  - 30
+- print:
+  - 祈梨
+  - 好像也待滿久了……
+- wait:
+  - 65
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 106611
+  - 6
+- print:
+  - 祈梨
+  - 仔細想想，
+- wait:
+  - 45
+- print:
+  - 祈梨
+  - 我們真的來到了
+- wait:
+  - 35
+- print:
+  - 祈梨
+  - >2-
+
+    很遠的地方耶……
+- touch: &o0 []
+- choice:
+  - 習慣了嗎？
+  - 1
+  - 1
+- choice:
+  - 很開心！
+  - 2
+  - 2
+- choice:
+  - 想回去嗎？
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_6027105_001
+- face:
+  - 106611
+  - 1
+- print:
+  - 祈梨
+  - 還可以啦～
+- wait:
+  - 45
+- print:
+  - 祈梨
+  - >2-
+
+    比起在蘭德索爾每天被使喚的日子好得多了……
+- wait:
+  - 70
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 106611
+  - 6
+- pop:
+  - 106611
+- print:
+  - 祈梨
+  - 我、
+- wait:
+  - 5
+- print:
+  - 祈梨
+  - 我什麼都沒說！　
+- wait:
+  - 20
+- print:
+  - 祈梨
+  - 你快忘了我剛剛說的話！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_6027105_002
+- face:
+  - 106611
+  - 6
+- emotion:
+  - question1_R
+  - 106611
+  - 110
+  - 465
+  - se_adv_emote_question_01
+- print:
+  - 祈梨
+  - 開心……？　
+- wait:
+  - 50
+- face:
+  - 106611
+  - 1
+- print:
+  - 祈梨
+  - 這個嘛……
+- wait:
+  - 50
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 106611
+  - 5
+- print:
+  - 祈梨
+  - 嗯、
+- wait:
+  - 25
+- print:
+  - 祈梨
+  - 嗯～
+- wait:
+  - 30
+- print:
+  - 祈梨
+  - 有嘉夜夜和小哥在……
+- wait:
+  - 40
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 106611
+  - 2
+- print:
+  - 祈梨
+  - 我也過得
+- wait:
+  - 15
+- print:
+  - 祈梨
+  - 還算開心啦？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_6027105_003
+- face:
+  - 106611
+  - 6
+- emotion:
+  - sweat2_R
+  - 106611
+  - 60
+  - 450
+  - se_adv_emote_sweat_02
+- print:
+  - 祈梨
+  - 才、
+- wait:
+  - 10
+- print:
+  - 祈梨
+  - 才沒那種事呢！？
+- wait:
+  - 35
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 106611
+  - 3
+- print:
+  - 祈梨
+  - 我又不是小孩子了！
+- wait:
+  - 40
+- print:
+  - 祈梨
+  - >2-
+
+    你可別小看龍人族喔！
+- wait:
+  - 30
+- print:
+  - 祈梨
+  - 小哥！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 106611
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

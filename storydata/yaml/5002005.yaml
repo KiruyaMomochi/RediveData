@@ -1,0 +1,1209 @@
+- title:
+  - 想傳達的情感
+- outline:
+  - 為了保護鏡華，禊受傷了。鏡華接受了禊所說的：「因為想保護重要的朋友，所以一直想好好道歉。」鏡華也將自己的心情坦率地說了出來。於是兩人終於重修舊好了。
+- background:
+  - 500250
+- amb:
+  - amb_adv_dungeon_01
+- ui_visible:
+  - false
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 想傳達的情感
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- amb_stop:
+  - 1
+- battle: &o0 []
+- background:
+  - 500250
+- wait:
+  - 15
+- black_in: *o0
+- bgm:
+  - bgm_M102
+- amb:
+  - amb_adv_dungeon_01
+- choice:
+  - 背起禊。
+  - 1
+- tag:
+  - 1
+- vo_effect:
+  - 3
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 1
+- vo:
+  - vo_adv_5002005_000
+- face:
+  - 100411
+  - 4
+- se:
+  - se_adv_standup_02
+- print:
+  - 禊
+  - 哥、哥哥……對不起……不過，就算只能放煙霧彈……嘿！
+- wait:
+  - 60
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0024
+  - se_adv_chara_transform_01
+- effect:
+  - 0014
+- wait:
+  - 45
+- se:
+  - se_adv_step_concrete_run_come_01
+- chara_full:
+  - 103611
+  - L
+  - 4
+- change:
+  - C
+  - L
+  - 30
+- fadein:
+  - 103611
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002005_001
+- face:
+  - 103611
+  - 4
+- print:
+  - 鏡華
+  - 禊！？禊沒事嗎！？
+- wait:
+  - 30
+- touch: *o0
+- choice:
+  - 抓起鏡華的手逃跑。
+  - 2
+- choice:
+  - 前往安全的場所！
+  - 3
+- tag:
+  - 2
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002005_002
+- face:
+  - 103611
+  - 6
+- print:
+  - 鏡華
+  - 啊……就是啊，逃跑比較重要啦！
+- wait:
+  - 45
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 103611
+  - 4
+- print:
+  - 鏡華
+  - 禊，再稍微忍耐一下！
+- wait:
+  - 30
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002005_003
+- face:
+  - 103611
+  - 4
+- print:
+  - 鏡華
+  - 好、好的！禊沒事的！沒事的……
+- wait:
+  - 75
+- touch: *o0
+- tag:
+  - 4
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 1
+- vo:
+  - vo_adv_5002005_004
+- face:
+  - 100411
+  - 4
+- print:
+  - 禊
+  - 嘿嘿……果然禊衝得太快了……
+- wait:
+  - 60
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 3
+- vo_effect:
+  - 0
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - L
+  - C
+  - 30
+- fadeout:
+  - 103611
+  - 30
+- wait:
+  - 15
+- effect_delete:
+  - 0014
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500213
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_outdoors_day_01
+- chara_full:
+  - 103611
+  - C
+  - 4
+- fadein:
+  - 103611
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002005_005
+- face:
+  - 103611
+  - 4
+- print:
+  - 鏡華
+  - 哈……哈……來到這裡應該沒事了……！
+- wait:
+  - 60
+- print:
+  - 鏡華
+  - >2-
+
+    禊，沒事吧！？
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 103611
+- chara_full:
+  - 103611
+  - LC
+  - 4
+- chara_full:
+  - 100411
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M100_04
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002005_006
+- face:
+  - 100411
+  - 4
+- print:
+  - 禊
+  - 沒事啦……這種只算是擦傷而已。
+- wait:
+  - 60
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - 和禊比起來，鏡華呢？沒有受傷吧？
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002005_007
+- face:
+  - 103611
+  - 3
+- print:
+  - 鏡華
+  - 我，我怎麼樣都沒關係吧！？
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002005_008
+- face:
+  - 100411
+  - 4
+- print:
+  - 禊
+  - 當然有關係啊……鏡華在生氣嗎？
+- wait:
+  - 90
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002005_009
+- face:
+  - 103611
+  - 3
+- print:
+  - 鏡華
+  - 生氣啊！竟然這麼逞強！
+- wait:
+  - 60
+- print:
+  - 鏡華
+  - >2-
+
+    我和這個人都超擔心的耶！？
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002005_010
+- face:
+  - 100411
+  - 4
+- print:
+  - 禊
+  - 可是，我想保護你們兩個人嘛……
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002005_011
+- face:
+  - 103611
+  - 4
+- print:
+  - 鏡華
+  - 不可以做這種犧牲自己來保護別人的事啦！
+- wait:
+  - 60
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 103611
+  - 3
+- print:
+  - 鏡華
+  - 笨蛋笨蛋笨蛋！禊是大笨蛋！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002005_012
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - ……嘿嘿嘿，又惹妳生氣了……禊果然還是不行啊……
+- wait:
+  - 120
+- print:
+  - 禊
+  - >2-
+
+    好不容易以為可以和好了……
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002005_013
+- face:
+  - 103611
+  - 6
+- emotion:
+  - exclamation1_R
+  - 103611
+  - -15
+  - 610
+  - se_adv_emote_common_01
+- print:
+  - 鏡華
+  - ！
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002005_014
+- face:
+  - 103611
+  - 4
+- print:
+  - 鏡華
+  - ……我也，我也很想和好啊！
+- wait:
+  - 58
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002005_015
+- face:
+  - 100411
+  - 4
+- eye_open:
+  - TRUE
+- print:
+  - 禊
+  - 咦……鏡華願意原諒我嗎？
+- wait:
+  - 69
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002005_016
+- face:
+  - 103611
+  - 4
+- print:
+  - 鏡華
+  - 說什麼原不原諒，都是我太得意忘形才會鬧得不愉快……
+- wait:
+  - 75
+- print:
+  - 鏡華
+  - >2-
+
+    我明明知道，卻意氣用事沒辦法道歉……
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002005_017
+- face:
+  - 103611
+  - 4
+- eye_open:
+  - FALSE
+- print:
+  - 鏡華
+  - 禊……對不起……真的很對不起！
+- wait:
+  - 60
+- touch: *o0
+- eye_open:
+  - TRUE
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002005_018
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - 鏡華……
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002005_019
+- face:
+  - 100411
+  - 4
+- print:
+  - 禊
+  - 禊也是，拜託人家教自己唸書，
+- wait:
+  - 105
+- print:
+  - 禊
+  - >2-
+
+    卻馬上半途而廢……今天也是惹了很多麻煩……
+- wait:
+  - 75
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002005_020
+- face:
+  - 100411
+  - 4
+- eye_open:
+  - FALSE
+- print:
+  - 禊
+  - 對不起啦、鏡華……其實禊，
+- wait:
+  - 75
+- print:
+  - 禊
+  - >2-
+
+    根本不想和鏡華絕交啊……
+- touch: *o0
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002005_021
+- face:
+  - 100411
+  - 5
+- print:
+  - 禊
+  - 因為我很喜歡鏡華嘛。
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002005_022
+- face:
+  - 103611
+  - 2
+- print:
+  - 鏡華
+  - 我也很喜歡禊呀！
+- wait:
+  - 60
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 103611
+  - 2
+- face:
+  - 100411
+  - 2
+- focus:
+  - 103611:100411
+- window_visible:
+  - true
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5002005_023
+- multi_talk:
+  - 103611:100411
+- face:
+  - 1
+  - 2
+- print:
+  - 鏡華・禊
+  - ……
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002005_024
+- face:
+  - 100411
+  - 1
+- emotion:
+  - note1_L
+  - 100411
+  - -85
+  - 485
+  - se_adv_emote_note_01
+- print:
+  - 禊
+  - 嘻嘻……都已經和好了，
+- wait:
+  - 60
+- print:
+  - 禊
+  - >2-
+
+    禊卻好像把鏡華弄哭了呢。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- effect_delete:
+  - 0022
+  - 30
+- fadeout_all:
+  - 30
+- black_out:
+  - 1
+  - 0.5
+- bright_change:
+  - 1
+  - 50
+- still:
+  - 500200401
+- black_in: *o0
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 1
+- vo:
+  - vo_adv_5002005_025
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - 啊，對了……鏡華……這個送給妳。
+- wait:
+  - 90
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_cloth_move_give_01
+- black_out:
+  - 1
+  - 0.5
+- still:
+  - end
+- bright_change:
+  - 1
+  - 100
+- wait:
+  - 5
+- black_in: *o0
+- chara_full:
+  - 103611
+  - LC
+  - 6
+- chara_full:
+  - 100411
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002005_026
+- face:
+  - 103611
+  - 6
+- emotion:
+  - question1_R
+  - 103611
+  - 85
+  - 465
+  - se_adv_emote_question_01
+- print:
+  - 鏡華
+  - 咦？這是，杯子蛋糕？
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002005_027
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 嗯，鏡華說過，吃了杯子蛋糕，煩惱的事就會煙消雲散嘛。
+- wait:
+  - 75
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 5
+- print:
+  - 禊
+  - 所以……因為想和鏡華和好，禊就做了杯子蛋糕。
+- wait:
+  - 75
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002005_028
+- face:
+  - 103611
+  - 2
+- print:
+  - 鏡華
+  - 禊……謝謝妳。可以吃嗎？
+- wait:
+  - 75
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002005_029
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 當然呀。因為原本就是想做給鏡華吃的。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002005_030
+- face:
+  - 103611
+  - 2
+- print:
+  - 鏡華
+  - 欸嘿嘿，這樣啊……那，我就不客氣了。
+- wait:
+  - 105
+- print:
+  - 鏡華
+  - >2
+
+- se:
+  - se_adv_eating_01
+- eye_open:
+  - FALSE
+- print:
+  - 鏡華
+  - 啊嗯……啊，真好吃……
+- wait:
+  - 115
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002005_031
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - 真的嗎？鏡華打起精神了吧？
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002005_032
+- face:
+  - 103611
+  - 2
+- emotion:
+  - note1_L
+  - 103611
+  - -110
+  - 425
+  - se_adv_emote_note_01
+- print:
+  - 鏡華
+  - 嗯……能吃到這麼好吃的杯子蛋糕，
+- wait:
+  - 75
+- print:
+  - 鏡華
+  - >2-
+
+    不管有多麼失落都能振作起來吧！！
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002005_033
+- face:
+  - 103611
+  - 2
+- print:
+  - 鏡華
+  - 真的很謝謝妳，禊！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002005_034
+- face:
+  - 100411
+  - 2
+- pop:
+  - 100411
+- print:
+  - 禊
+  - 太好了，鏡華高興起來了……
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002005_035
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 嘻嘻，平常老是麻煩鏡華……
+- wait:
+  - 90
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 4
+- eye_open:
+  - FALSE
+- print:
+  - 禊
+  - 真的很……謝……謝……
+- wait:
+  - 60
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 103611
+  - 6
+- se:
+  - se_adv_body_sitdown_01
+- updown:
+  - 100411
+  - 0
+  - -100
+  - 0.2
+- fadeout:
+  - 100411
+  - 15
+- se:
+  - se_adv_bodyfall_02
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 4
+  - 1
+- vo:
+  - vo_adv_5002005_036
+- print:
+  - 禊
+  - ……
+- touch: *o0
+- bgm:
+  - stop
+  - 6
+  - 1
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002005_037
+- face:
+  - 103611
+  - 6
+- print:
+  - 鏡華
+  - 禊？喂禊，醒醒啊……禊！！
+- wait:
+  - 60
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 100411
+  - RC
+  - 2
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M99_02
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002005_038
+- face:
+  - 100411
+  - 2
+- emotion:
+  - note1_L
+  - 100411
+  - -85
+  - 485
+  - se_adv_emote_note_01
+- print:
+  - 禊
+  - ……開玩笑的啦──！！
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2-
+
+    被騙了吧──！唉唷，痛痛痛
+- shake:
+  - 100411
+- print:
+  - 禊
+  - ！
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002005_039
+- face:
+  - 103611
+  - 6
+- print:
+  - 鏡華
+  - 妳，妳……禊～！！還在惡作劇！！
+- wait:
+  - 75
+- print:
+  - 鏡華
+  - >2-
+
+    過來，讓我看看妳的傷！我幫妳包紮！
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002005_040
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 嘿嘿嘿，想說會不會嚇一跳嘛。
+- wait:
+  - 75
+- print:
+  - 禊
+  - >2-
+
+    和那種事比起來，鏡華，那頭魔物該怎麼辦才好！？
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002005_041
+- face:
+  - 103611
+  - 1
+- print:
+  - 鏡華
+  - 真是的，才以為剛和好就搞這種把戲……
+- wait:
+  - 75
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 103611
+  - 4
+- print:
+  - 鏡華
+  - 嗯，那道光的攻擊，不想想辦法也不行吶……
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002005_042
+- face:
+  - 100411
+  - 4
+- print:
+  - 禊
+  - 就是說啊，光……光……啊啊啊啊
+- shake:
+  - 100411
+- print:
+  - 禊
+  - ！
+- wait:
+  - 150
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002005_043
+- face:
+  - 103611
+  - 6
+- emotion:
+  - exclamation1_R
+  - 103611
+  - -15
+  - 610
+  - se_adv_emote_common_01
+- print:
+  - 鏡華
+  - 哇！怎，怎麼了，怎麼回事！？
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002005_044
+- face:
+  - 100411
+  - 1
+- emotion:
+  - twinkle1_R
+  - 100411
+  - -135
+  - 440
+  - se_adv_emote_twinkle_01
+- eye_open:
+  - FALSE
+- print:
+  - 禊
+  - 哼哼哼，禊想到了哦……打倒那頭魔物的方法！
+- wait:
+  - 60
+- touch: *o0
+- window_visible:
+  - false
+- vo_effect:
+  - 0
+- fadeout_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- print:
+  - 旁白
+  - >-
+    禊想出了打倒魔物的策略。
+
+    她驕傲地笑著，將她的戰術告訴兩人。
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

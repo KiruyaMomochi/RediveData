@@ -1,0 +1,2229 @@
+- title:
+  - 步未（奇幻） 第2話
+- outline:
+  - 為了準備召開茶會，兩人前去尋找藥草。此時卻出現了魔物，{0}甚至還因為意外而被施了時間魔法，但最後總算成功擊退魔物，平安取得藥草。
+- background:
+  - 501000
+- amb:
+  - amb_adv_outdoors_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 開始準備茶會！
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - ──為了以自己的方式支援夥伴，步未決定舉辦茶會。
+- wait:
+  - 30
+- print:
+  - 旁白
+  - >2-
+
+    在{0}的幫忙下，她開始準備茶會。
+- wait:
+  - 15
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 113011
+  - C
+  - 1
+- fadein:
+  - 113011
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M376
+  - 0
+  - 0
+  - 1
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_000
+- face:
+  - 113011
+  - 1
+- nod:
+  - 113011
+- print:
+  - 步未
+  - ……呼。
+- wait:
+  - 55
+- print:
+  - 步未
+  - >2-
+
+    總之，
+- wait:
+  - 20
+- print:
+  - 步未
+  - 桌椅的布置，
+- wait:
+  - 20
+- print:
+  - 步未
+  - 這樣應該可以了吧。
+- touch: *o0
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_001
+- face:
+  - 113011
+  - 2
+- print:
+  - 步未
+  - 多虧{0}前輩的幫忙，
+- wait:
+  - 20
+- print:
+  - 步未
+  - >2-
+
+    茶會總算是準備得差不多了。
+- touch: *o0
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_002
+- face:
+  - 113011
+  - 1
+- print:
+  - 步未
+  - 接下來只剩茶的部分……
+- wait:
+  - 75
+- print:
+  - 步未
+  - >2
+
+- face:
+  - 113011
+  - 2
+- print:
+  - 步未
+  - 我這就去找找
+- wait:
+  - 15
+- print:
+  - 步未
+  - 能用來泡茶的藥草。
+- touch: *o0
+- choice:
+  - 我陪妳一起找吧。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_003
+- face:
+  - 113011
+  - 6
+- print:
+  - 步未
+  - '{0}前輩……'
+- wait:
+  - 35
+- face:
+  - 113011
+  - 2
+- print:
+  - 步未
+  - 謝謝你！
+- wait:
+  - 50
+- print:
+  - 步未
+  - >2
+
+- face:
+  - 113011
+  - 1
+- print:
+  - 步未
+  - 那麼，
+- wait:
+  - 15
+- print:
+  - 步未
+  - 我負責找這一區，
+- wait:
+  - 35
+- print:
+  - 步未
+  - 那邊就麻煩你了。
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
+- window_visible:
+  - false
+- fadeout:
+  - 113011
+  - 30
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 30
+- black_in: *o0
+- amb:
+  - amb_adv_outdoors_day_01
+- chara_full:
+  - 113011
+  - C
+  - 4
+- fadein:
+  - 113011
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M180_Ver2
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_004
+- face:
+  - 113011
+  - 4
+- emotion:
+  - gloomy1_R
+  - 113011
+  - 35
+  - 525
+  - se_adv_emote_gloomy_01
+- print:
+  - 步未
+  - ──唔～嗯，
+- wait:
+  - 55
+- print:
+  - 步未
+  - 找不到呢……
+- wait:
+  - 85
+- print:
+  - 步未
+  - >2-
+
+    我原本想說這附近植物那麼多，
+- wait:
+  - 30
+- print:
+  - 步未
+  - 一定可以找到的說……
+- touch: *o0
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_005
+- face:
+  - 113011
+  - 4
+- eye_open:
+  - False
+- print:
+  - 步未
+  - 不過，
+- wait:
+  - 15
+- print:
+  - 步未
+  - 得快點找到才行，
+- wait:
+  - 25
+- print:
+  - 步未
+  - 否則璃乃她們就快回來了……
+- wait:
+  - 70
+- print:
+  - 步未
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 步未
+  - 或者就是找其他東西
+- wait:
+  - 45
+- print:
+  - 步未
+  - 來代替……
+- touch: *o0
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_006
+- face:
+  - 113011
+  - 1
+- print:
+  - 步未
+  - 要不要去和{0}前輩商量呢……
+- wait:
+  - 65
+- print:
+  - 步未
+  - >2
+
+- bgm:
+  - stop
+  - 5.5
+- print:
+  - 步未
+  - 記得他
+- wait:
+  - 15
+- print:
+  - 步未
+  - 應該是在對面那邊幫忙找……
+- wait:
+  - 80
+- face:
+  - 113011
+  - 6
+- print:
+  - 步未
+  - 咦？
+- touch: *o0
+- bgm:
+  - bgm_M377_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_007
+- face:
+  - 113011
+  - 6
+- print:
+  - 步未
+  - '{0}前輩……'
+- wait:
+  - 30
+- print:
+  - 步未
+  - 手上
+- wait:
+  - 20
+- print:
+  - 步未
+  - 沾滿了泥巴……
+- wait:
+  - 70
+- print:
+  - 步未
+  - >2-
+
+    連汗也沒擦，
+- wait:
+  - 30
+- print:
+  - 步未
+  - 拼命地在幫我找藥草……
+- touch: *o0
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_008
+- face:
+  - 113011
+  - 4
+- print:
+  - 步未
+  - 然而……
+- wait:
+  - 30
+- print:
+  - 步未
+  - 然而我卻打算
+- wait:
+  - 30
+- print:
+  - 步未
+  - >2-
+
+    如此輕易地就放棄……
+- touch: *o0
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_009
+- face:
+  - 113011
+  - 4
+- print:
+  - 步未
+  - 我……
+- wait:
+  - 20
+- print:
+  - 步未
+  - 老是這樣子……
+- wait:
+  - 35
+- print:
+  - 步未
+  - >2
+
+- face:
+  - 113011
+  - 4
+- print:
+  - 步未
+  - 總是依賴{0}前輩……
+- wait:
+  - 25
+- print:
+  - 步未
+  - >2-
+
+    自己一個人就什麼也辦不到……
+- touch: *o0
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_010
+- face:
+  - 113011
+  - 3
+- print:
+  - 步未
+  - ……這樣下去是不行的！
+- wait:
+  - 25
+- print:
+  - 步未
+  - >2-
+
+    我也要不放棄繼續找才對！
+- touch: *o0
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_011
+- face:
+  - 113011
+  - 3
+- print:
+  - 步未
+  - ……不這麼做的話，
+- wait:
+  - 15
+- print:
+  - 步未
+  - >2-
+
+    我沒有資格和那麼努力的{0}前輩
+- wait:
+  - 15
+- print:
+  - 步未
+  - >2-
+
+    待在一起！
+- touch: *o0
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_012
+- face:
+  - 113011
+  - 3
+- eye_open:
+  - False
+- print:
+  - 步未
+  - 為了回應{0}前輩的溫柔……
+- wait:
+  - 40
+- print:
+  - 步未
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 步未
+  - 也為了多少讓
+- wait:
+  - 15
+- print:
+  - 步未
+  - 璃乃她們感到開心……
+- wait:
+  - 50
+- print:
+  - 步未
+  - >2
+
+- nod:
+  - 113011
+- print:
+  - 步未
+  - 加油吧
+- wait:
+  - 20
+- print:
+  - 步未
+  - 步未～～！
+- touch: *o0
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_013
+- face:
+  - 113011
+  - 3
+- print:
+  - 步未
+  - 從一開始就要仔細搜遍……
+- wait:
+  - 80
+- face:
+  - 113011
+  - 6
+- print:
+  - 步未
+  - 啊！
+- wait:
+  - 25
+- print:
+  - 步未
+  - >2-
+
+    這麼說來，
+- wait:
+  - 30
+- print:
+  - 步未
+  - 我剛才只有在視線所及的範圍尋找……
+- touch: *o0
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_014
+- face:
+  - 113011
+  - 1
+- print:
+  - 步未
+  - 但藥草或許
+- wait:
+  - 15
+- print:
+  - 步未
+  - 就長在樹根處，
+- wait:
+  - 15
+- print:
+  - 步未
+  - >2-
+
+    或是草叢的陰暗處……
+- wait:
+  - 60
+- face:
+  - 113011
+  - 6
+- pop:
+  - 113011
+- print:
+  - 步未
+  - 有了！
+- touch: *o0
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_015
+- face:
+  - 113011
+  - 2
+- print:
+  - 步未
+  - '{0}前輩，'
+- wait:
+  - 15
+- print:
+  - 步未
+  - 我找到藥草了～！
+- wait:
+  - 30
+- print:
+  - 步未
+  - >2-
+
+    在這邊草叢的陰暗處……
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
+- window_visible:
+  - FALSE
+- nod:
+  - 113011
+- se:
+  - se_adv_bush_04
+- wait:
+  - 15
+- fadeout:
+  - 113011
+  - 30
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- text_size:
+  - 50
+- change_window:
+  - 3
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M116_Ver3
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- effect:
+  - 9
+- print:
+  - 魔物
+  - ──咕喔喔喔喔喔！
+- shake_screen: *o0
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 1611
+  - 30
+- chara_full:
+  - 113011
+  - C
+  - 6
+- fadein:
+  - 113011
+  - 30
+- text_size:
+  - 37
+- window_visible:
+  - TRUE
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_016
+- face:
+  - 113011
+  - 6
+- print:
+  - 步未
+  - 哇呀啊啊啊啊～～！
+- shake:
+  - 113011
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- window_visible:
+  - true
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_017
+- face:
+  - 113011
+  - 4
+- print:
+  - 步未
+  - 怎、
+- wait:
+  - 5
+- print:
+  - 步未
+  - 怎麼會有魔物躲在這種地方……！
+- touch: *o0
+- choice:
+  - 快退後！
+  - 2
+- tag:
+  - 2
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_018
+- face:
+  - 113011
+  - 6
+- print:
+  - 步未
+  - 前、
+- wait:
+  - 5
+- print:
+  - 步未
+  - 前輩！！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 113011
+  - 30
+- se:
+  - se_adv_step_leaves_run_armor_go_01
+- effect:
+  - 0009
+- camera_zoom:
+  - 1.2
+  - 5
+- wait:
+  - 15
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- camera_zoom:
+  - 1
+  - 1
+- effect:
+  - 0028
+  - se_adv_weapon_claw_whiff_01
+- wait:
+  - 10
+- effect:
+  - 0045
+  - se_adv_weapon_sword_repel_01
+- wait:
+  - 15
+- background:
+  - 501000
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 113011
+  - C
+  - 6
+- fadein:
+  - 113011
+  - 30
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_019
+- face:
+  - 113011
+  - 6
+- print:
+  - 步未
+  - '{0}前輩在戰鬥……'
+- wait:
+  - 35
+- print:
+  - 步未
+  - >2
+
+- face:
+  - 113011
+  - 1
+- print:
+  - 步未
+  - 我也……
+- wait:
+  - 20
+- face:
+  - 113011
+  - 3
+- print:
+  - 步未
+  - 我也要……！！　
+- touch: *o0
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_020
+- face:
+  - 113011
+  - 3
+- print:
+  - 步未
+  - ……神啊，
+- wait:
+  - 15
+- print:
+  - 步未
+  - 求求你！
+- wait:
+  - 30
+- print:
+  - 步未
+  - >2-
+
+    請
+- wait:
+  - 20
+- print:
+  - 步未
+  - 賜給我勇氣……！　
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 3
+- vo_effect:
+  - 0
+- text_size:
+  - 37
+- window_visible:
+  - TRUE
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_021
+- face:
+  - 113011
+  - 3
+- print:
+  - 步未
+  - ……不准傷害
+- wait:
+  - 20
+- print:
+  - 步未
+  - >2-
+
+    {0}前輩～～～！
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- se:
+  - se_adv_step_leaves_move_01
+- effect:
+  - 0009
+- scale:
+  - 113011
+  - 1.2
+  - 2
+  - 10
+- fadeout:
+  - 113011
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0001
+  - se_adv_throw_normal_01
+- wait:
+  - 5
+- effect:
+  - 0045
+  - se_adv_weapon_sword_repel_01
+- wait:
+  - 15
+- background:
+  - 501000
+- chara_full:
+  - 113011
+  - C
+  - 6
+- fadein:
+  - 113011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_022
+- face:
+  - 113011
+  - 6
+- print:
+  - 步未
+  - 攻、
+- wait:
+  - 10
+- print:
+  - 步未
+  - 攻擊對魔物一點用也沒有……
+- wait:
+  - 40
+- print:
+  - 步未
+  - >2
+
+- face:
+  - 113011
+  - 3
+- print:
+  - 步未
+  - 既、
+- wait:
+  - 15
+- print:
+  - 步未
+  - 既然如此，就用這套服裝……
+- wait:
+  - 20
+- print:
+  - 步未
+  - 用愛麗絲的力量！！
+- wait:
+  - 55
+- print:
+  - 步未
+  - >2-
+
+    時間呀，
+- wait:
+  - 20
+- print:
+  - 步未
+  - 停止吧～～！！
+- wait:
+  - 35
+- print:
+  - 步未
+  - 看招～！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 113011
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- effect:
+  - 0072
+  - se_adv_magic_holy_medium_01
+- wait:
+  - 45
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - TRUE
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──咕喔喔喔喔喔！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 1611
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 113011
+  - C
+  - 6
+- fadein:
+  - 113011
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_023
+- face:
+  - 113011
+  - 6
+- print:
+  - 步未
+  - 奇、
+- wait:
+  - 10
+- print:
+  - 步未
+  - 奇怪……
+- wait:
+  - 15
+- print:
+  - 步未
+  - 時間沒停止？
+- wait:
+  - 40
+- print:
+  - 步未
+  - >2
+
+- face:
+  - 113011
+  - 3
+- print:
+  - 步未
+  - 這樣的話就多試幾次……
+- wait:
+  - 30
+- print:
+  - 步未
+  - 看招！
+- wait:
+  - 10
+- print:
+  - 步未
+  - 嘿！
+- wait:
+  - 10
+- print:
+  - 步未
+  - 嘿呀～！！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 113011
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- effect:
+  - 0072
+  - se_adv_magic_holy_medium_01
+  - 0
+  - L
+- wait:
+  - 15
+- effect:
+  - 0072
+  - se_adv_magic_holy_medium_01
+  - 0
+  - R
+- wait:
+  - 45
+- window_visible:
+  - TRUE
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ……………………
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 1611
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 113011
+  - C
+  - 6
+- fadein:
+  - 113011
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_024
+- face:
+  - 113011
+  - 6
+- print:
+  - 步未
+  - 魔物的動作停下了……！
+- wait:
+  - 50
+- print:
+  - 步未
+  - >2
+
+- face:
+  - 113011
+  - 3
+- print:
+  - 步未
+  - 趁這時候，我就可以打倒它了……
+- wait:
+  - 45
+- print:
+  - 步未
+  - 喝呀～！！
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_step_leaves_run_go_01
+- effect:
+  - 0009
+- scale:
+  - 113011
+  - 1.2
+  - 2
+  - 10
+- fadeout:
+  - 113011
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0033
+  - se_adv_weapon_sword_multi_hit_01
+- wait:
+  - 15
+- background:
+  - 501000
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_04
+- window_visible:
+  - TRUE
+- bgm:
+  - stop
+  - 3
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──嘎喔喔喔喔喔！
+- sway:
+  - 1611
+- touch: *o0
+- window_visible:
+  - FALSE
+- updown:
+  - 1611
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1611
+  - 30
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 113011
+  - C
+  - 6
+- fadein:
+  - 113011
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M140_NoBell
+  - 0
+  - 0
+  - 1
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_025
+- face:
+  - 113011
+  - 6
+- print:
+  - 步未
+  - 太、
+- wait:
+  - 25
+- print:
+  - 步未
+  - 太好了……
+- wait:
+  - 55
+- print:
+  - 步未
+  - >2
+
+- face:
+  - 113011
+  - 4
+- print:
+  - 步未
+  - 總算是想辦法打倒魔物了……
+- wait:
+  - 60
+- face:
+  - 113011
+  - 6
+- print:
+  - 步未
+  - 啊，
+- wait:
+  - 10
+- print:
+  - 步未
+  - '{0}前輩！'
+- wait:
+  - 30
+- print:
+  - 步未
+  - >2-
+
+    你沒事吧！？
+- touch: *o0
+- choice:
+  - ………………
+  - 3
+- tag:
+  - 3
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_026
+- face:
+  - 113011
+  - 6
+- emotion:
+  - question1_R
+  - 113011
+  - 90
+  - 490
+  - se_adv_emote_question_01
+- print:
+  - 步未
+  - 咦，
+- wait:
+  - 15
+- print:
+  - 步未
+  - 奇怪，
+- wait:
+  - 30
+- print:
+  - 步未
+  - '{0}前輩？'
+- wait:
+  - 55
+- print:
+  - 步未
+  - >2
+
+- face:
+  - 113011
+  - 4
+- print:
+  - 步未
+  - 你怎麼了呀……？
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
+- choice:
+  - 身體……動不了……
+  - 4
+- tag:
+  - 4
+- bgm:
+  - bgm_M203_04
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_027
+- face:
+  - 113011
+  - 6
+- print:
+  - 步未
+  - 該、
+- wait:
+  - 10
+- print:
+  - 步未
+  - 該不會是，
+- wait:
+  - 15
+- print:
+  - 步未
+  - 我剛才連續使出停止時間的力量時，
+- wait:
+  - 45
+- print:
+  - 步未
+  - >2
+
+- face:
+  - 113011
+  - 4
+- print:
+  - 步未
+  - 不小心也打中{0}前輩了吧……
+- wait:
+  - 40
+- print:
+  - 步未
+  - >2
+
+- face:
+  - 113011
+  - 6
+- pop:
+  - 113011
+- print:
+  - 步未
+  - 總、
+- wait:
+  - 10
+- print:
+  - 步未
+  - 總之我要想辦法解決這狀況！
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_028
+- face:
+  - 113011
+  - 4
+- print:
+  - 步未
+  - 話、
+- wait:
+  - 15
+- print:
+  - 步未
+  - 話雖這麼說，但要怎麼辦……
+- wait:
+  - 50
+- print:
+  - 步未
+  - >2
+
+- face:
+  - 113011
+  - 6
+- print:
+  - 步未
+  - 總之就先來
+- wait:
+  - 15
+- print:
+  - 步未
+  - >2-
+
+    拉拉看{0}前輩的身體，
+- wait:
+  - 20
+- print:
+  - 步未
+  - 試著移動他好了……
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - TRUE
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_029
+- face:
+  - 113011
+  - 5
+- print:
+  - 步未
+  - 那、
+- wait:
+  - 10
+- print:
+  - 步未
+  - 那那、
+- wait:
+  - 10
+- print:
+  - 步未
+  - 那麼……！
+- wait:
+  - 25
+- print:
+  - 步未
+  - >2-
+
+    我、
+- wait:
+  - 15
+- print:
+  - 步未
+  - 我要從正面拉前輩的手了唷……！！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 113011
+  - 30
+- chara_full:
+  - 113011
+  - C
+  - 5
+- se:
+  - se_adv_cloth_move_normal_01
+- scale:
+  - 113011
+  - 1.2
+  - 2
+- fadein:
+  - 113011
+  - 30
+- se:
+  - se_adv_body_pull_01
+- nod:
+  - 113011
+- wait:
+  - 15
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_030
+- face:
+  - 113011
+  - 6
+- print:
+  - 步未
+  - ……哇、
+- wait:
+  - 10
+- print:
+  - 步未
+  - 哇哇、
+- wait:
+  - 10
+- print:
+  - 步未
+  - 我、
+- wait:
+  - 15
+- print:
+  - 步未
+  - >2-
+
+    我握住{0}前輩的手了……！
+- wait:
+  - 25
+- print:
+  - 步未
+  - >2
+
+- face:
+  - 113011
+  - 5
+- print:
+  - 步未
+  - 而且他的臉也好近……
+- wait:
+  - 30
+- print:
+  - 步未
+  - 我心跳得好快……！！　
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - TRUE
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_031
+- face:
+  - 113011
+  - 5
+- print:
+  - 步未
+  - 呃、
+- wait:
+  - 10
+- print:
+  - 步未
+  - 那個……
+- wait:
+  - 25
+- print:
+  - 步未
+  - >2
+
+- face:
+  - 113011
+  - 3
+- print:
+  - 步未
+  - 總之，
+- wait:
+  - 15
+- print:
+  - 步未
+  - 我先嘗試再更用力拉拉看唷！
+- wait:
+  - 80
+- print:
+  - 步未
+  - >2
+
+- nod:
+  - 113011
+- print:
+  - 步未
+  - 嘿咻……！
+- touch: *o0
+- choice:
+  - 啊……！
+  - 5
+- tag:
+  - 5
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_032
+- face:
+  - 113011
+  - 6
+- emotion:
+  - surprise1_L
+  - 113011
+  - 145
+  - 565
+  - se_adv_emote_common_01
+- print:
+  - 步未
+  - 咦，
+- wait:
+  - 5
+- print:
+  - 步未
+  - '{0}前輩！？'
+- wait:
+  - 10
+- print:
+  - 步未
+  - >2
+
+- face:
+  - 113011
+  - 4
+- print:
+  - 步未
+  - 你、
+- wait:
+  - 10
+- print:
+  - 步未
+  - 你這樣突然動起來的話，會……
+- wait:
+  - 55
+- face:
+  - 113011
+  - 6
+- print:
+  - 步未
+  - 哇呀啊啊啊～～！！！！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 113011
+  - 30
+- bg_pan:
+  - 0
+  - 100
+  - 15
+- se:
+  - se_adv_bodyfall_02
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- bg_pan:
+  - 100
+  - 0
+  - 15
+- chara_full:
+  - 113011
+  - C
+  - 4
+  - 1
+- scale:
+  - 113011
+  - 1.3
+  - 2
+- fadein:
+  - 113011
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - stop
+  - 9.5
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_033
+- face:
+  - 113011
+  - 4
+- print:
+  - 步未
+  - 好痛唷……
+- wait:
+  - 70
+- eye_open:
+  - True
+- print:
+  - 步未
+  - '{0}前輩……'
+- wait:
+  - 25
+- print:
+  - 步未
+  - >2-
+
+    你沒事……
+- wait:
+  - 70
+- face:
+  - 113011
+  - 6
+- print:
+  - 步未
+  - 咿呀啊啊啊！！
+- touch: *o0
+- bgm:
+  - bgm_M24
+  - 0
+  - 0
+  - 1
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_034
+- face:
+  - 113011
+  - 5
+- emotion:
+  - shy1_R
+  - 113011
+  - -95
+  - 505
+  - se_adv_emote_shy_01
+- print:
+  - 步未
+  - 那、
+- wait:
+  - 5
+- print:
+  - 步未
+  - 那那那、
+- wait:
+  - 10
+- print:
+  - 步未
+  - 那個！！
+- wait:
+  - 5
+- print:
+  - 步未
+  - >2-
+
+    這、
+- wait:
+  - 5
+- print:
+  - 步未
+  - 這到底是
+- wait:
+  - 5
+- print:
+  - 步未
+  - 什摸狀況呀！？
+- wait:
+  - 25
+- print:
+  - 步未
+  - >2-
+
+    話說，
+- wait:
+  - 10
+- print:
+  - 步未
+  - 好近、太近了太近了啦～～！！！
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_035
+- face:
+  - 113011
+  - 5
+- print:
+  - 步未
+  - 沒、
+- wait:
+  - 15
+- print:
+  - 步未
+  - 沒想到{0}前輩竟然離我這麼近……
+- wait:
+  - 30
+- print:
+  - 步未
+  - >2-
+
+    我……
+- wait:
+  - 20
+- print:
+  - 步未
+  - 我……
+- wait:
+  - 15
+- print:
+  - 步未
+  - 會、
+- wait:
+  - 15
+- print:
+  - 步未
+  - 會被怎麼樣嗎～～！？　
+- touch: *o0
+- choice:
+  - 藥草沒事呢。
+  - 6
+- tag:
+  - 6
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - TRUE
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_036
+- face:
+  - 113011
+  - 5
+- eye_open:
+  - False
+- print:
+  - 步未
+  - 媽媽……
+- wait:
+  - 30
+- print:
+  - 步未
+  - >2-
+
+    步未
+- wait:
+  - 20
+- print:
+  - 步未
+  - 或許會在異世界轉大人……
+- wait:
+  - 100
+- print:
+  - 步未
+  - >2-
+
+    請原諒
+- wait:
+  - 20
+- print:
+  - 步未
+  - 如此恬不知恥的女兒…………
+- wait:
+  - 80
+- eye_open:
+  - True
+- print:
+  - 步未
+  - 咦？
+- touch: *o0
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_037
+- face:
+  - 113011
+  - 4
+- print:
+  - 步未
+  - 藥草沒事呢，
+- wait:
+  - 70
+- print:
+  - 步未
+  - 是什麼意……
+- wait:
+  - 80
+- face:
+  - 113011
+  - 6
+- print:
+  - 步未
+  - 啊。
+- wait:
+  - 25
+- print:
+  - 步未
+  - >2-
+
+    我倒下去的地方……
+- wait:
+  - 25
+- print:
+  - 步未
+  - >2-
+
+    正好是藥草生長的地方……
+- touch: *o0
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_038
+- face:
+  - 113011
+  - 5
+- print:
+  - 步未
+  - …………唔唔唔唔！！！！
+- shake:
+  - 113011
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 113011
+  - 30
+- se:
+  - se_adv_step_leaves_move_01
+- chara_full:
+  - 113011
+  - C
+  - 5
+- fadein:
+  - 113011
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_039
+- face:
+  - 113011
+  - 5
+- pop:
+  - 113011
+- se:
+  - se_adv_rabbit_jump_01
+- print:
+  - 步未
+  - ……對、
+- wait:
+  - 10
+- print:
+  - 步未
+  - 對對對呀，
+- wait:
+  - 10
+- print:
+  - 步未
+  - 藥草沒事呢。{0}前輩！
+- wait:
+  - 20
+- print:
+  - 步未
+  - >2-
+
+    這樣就能泡好喝的花草茶了！！
+- wait:
+  - 35
+- print:
+  - 步未
+  - >2-
+
+    我立刻就回去
+- wait:
+  - 15
+- print:
+  - 步未
+  - 準備茶會！
+- touch: *o0
+- choice:
+  - 妳說什麼轉大人？
+  - 7
+- tag:
+  - 7
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_1130002_040
+- face:
+  - 113011
+  - 5
+- eye_open:
+  - False
+- emotion:
+  - shy1_R
+  - 113011
+  - -85
+  - 445
+  - se_adv_emote_shy_01
+- print:
+  - 步未
+  - 請、
+- wait:
+  - 15
+- print:
+  - 步未
+  - 請立刻
+- wait:
+  - 30
+- print:
+  - 步未
+  - 忘掉那句話～～！！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 113011
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - ──協助步未取得了藥草，
+- wait:
+  - 30
+- print:
+  - 旁白
+  - >2-
+
+    終於要正式完成了茶會的準備了。
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - FALSE
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

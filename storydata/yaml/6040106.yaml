@@ -1,0 +1,281 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500111
+- amb:
+  - amb_adv_outdoors_day_01
+- ui_visible:
+  - false
+- situation:
+  - 捐贈給我們的金錢
+- chara_full:
+  - 112811
+  - C
+  - 2
+- fadein:
+  - 112811
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M353_04
+  - 0
+  - 0
+  - 1
+- focus:
+  - 112811
+- bust:
+  - 112811
+  - 0
+- vo:
+  - vo_adv_6040106_000
+- face:
+  - 112811
+  - 2
+- print:
+  - 真陽
+  - 真的是、
+- wait:
+  - 40
+- nod:
+  - 112811
+- print:
+  - 真陽
+  - 真的是非常感謝啊……
+- wait:
+  - 60
+- print:
+  - 真陽
+  - >2
+
+- face:
+  - 112811
+  - 5
+- print:
+  - 真陽
+  - 居然會有這種事情……
+- wait:
+  - 60
+- print:
+  - 真陽
+  - >2-
+
+    我啊，
+- wait:
+  - 25
+- print:
+  - 真陽
+  - 到底該怎麼回報
+- wait:
+  - 35
+- print:
+  - 真陽
+  - 這麼大的恩情呢。
+- touch: &o0 []
+- choice:
+  - 拿回牧場吧
+  - 1
+  - 1
+- choice:
+  - 和以前一樣就行了
+  - 2
+  - 2
+- choice:
+  - 去到處兜售吧
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 112811
+- bust:
+  - 112811
+  - 0
+- vo:
+  - vo_adv_6040106_001
+- face:
+  - 112811
+  - 1
+- print:
+  - 真陽
+  - 為了要能夠報恩，
+- wait:
+  - 40
+- print:
+  - 真陽
+  - 首先我們得好好振作呢。
+- wait:
+  - 70
+- print:
+  - 真陽
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 真陽
+  - 得讓來溫泉的人們看見
+- wait:
+  - 50
+- print:
+  - 真陽
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 真陽
+  - 牛群悠閒生活著的
+- wait:
+  - 30
+- print:
+  - 真陽
+  - 和平牧場才行呢。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 112811
+- bust:
+  - 112811
+  - 0
+- vo:
+  - vo_adv_6040106_002
+- face:
+  - 112811
+  - 6
+- emotion:
+  - question1_R
+  - 112811
+  - 135
+  - 415
+  - se_adv_emote_question_01
+- print:
+  - 真陽
+  - 真的嗎？
+- wait:
+  - 35
+- print:
+  - 真陽
+  - 　嗯～
+- wait:
+  - 50
+- face:
+  - 112811
+  - 1
+- print:
+  - 真陽
+  - 的確比起勉強做些什麼，
+- wait:
+  - 30
+- print:
+  - 真陽
+  - 這樣可能還比較好吧。
+- wait:
+  - 60
+- print:
+  - 真陽
+  - >2-
+
+    去各式各樣的地方兜售，
+- wait:
+  - 40
+- eye_open:
+  - False
+- print:
+  - 真陽
+  - 跟各種各樣的人說話，
+- wait:
+  - 40
+- print:
+  - 真陽
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 真陽
+  - 要是
+- wait:
+  - 15
+- print:
+  - 真陽
+  - 想到了什麼感覺能夠辦到的事情，
+- wait:
+  - 35
+- print:
+  - 真陽
+  - 就去做的啦。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 112811
+- bust:
+  - 112811
+  - 0
+- vo:
+  - vo_adv_6040106_003
+- face:
+  - 112811
+  - 2
+- pop:
+  - 112811
+- print:
+  - 真陽
+  - 報恩之旅嗎！
+- wait:
+  - 50
+- print:
+  - 真陽
+  - 　這樣子確實不錯的啦！
+- wait:
+  - 60
+- print:
+  - 真陽
+  - >2-
+
+    把印有伊麗莎白牧場標記的商品
+- wait:
+  - 35
+- print:
+  - 真陽
+  - 帶到很多地方去吧！
+- wait:
+  - 50
+- print:
+  - 真陽
+  - >2
+
+- face:
+  - 112811
+  - 1
+- print:
+  - 真陽
+  - 老哥你也要一起來嗎？
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 112811
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

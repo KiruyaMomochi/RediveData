@@ -1,0 +1,4086 @@
+- title:
+  - 2部 第1章 第11話
+- outline:
+  - 一個神祕之聲，在夢中傾訴。但在明白那聲音究竟是誰的之前，醒過來的{0}就發現自己在牢中了。而醒過來之後，所要面對卻不是審判，而是被安了暗殺王族未遂的罪名，以及即將當場執行的死刑。
+- background:
+  - 500270
+- amb:
+  - amb_adv_wind_01
+- effect:
+  - 0092
+- effect:
+  - 0087
+- situation:
+  - 罪狀是……
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - ……
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    ……
+- touch: &o0 []
+- choice:
+  - 夢……？
+  - 1
+- tag:
+  - 1
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - ……
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    ……
+- touch: *o0
+- choice:
+  - ……愛梅斯大人……？
+  - 2
+- tag:
+  - 2
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - ……
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    ……
+- touch: *o0
+- choice:
+  - ……沒有人在……
+  - 3
+- tag:
+  - 3
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - ……
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    ……
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 3
+- se:
+  - se_adv_whiteout_01
+- black_out:
+  - 1
+  - 1
+- background:
+  - 500380
+- wait:
+  - 30
+- black_in: *o0
+- amb:
+  - amb_adv_mystery_03
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - ……
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    ……
+- touch: *o0
+- choice:
+  - 這裡是……？
+  - 4
+- tag:
+  - 4
+- window_visible:
+  - false
+- chara_full:
+  - 191111
+  - C
+  - 1
+  - 1
+- fadein:
+  - 191111
+  - 30
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- bgm:
+  - bgm_M210_Ver2
+  - 0
+  - 0
+  - 1
+- focus:
+  - 191111
+- bust:
+  - 191111
+  - 0
+- vo:
+  - vo_adv_2101011_000
+- face:
+  - 191111
+  - 1
+- print:
+  - ？？？
+  - >-
+    ……
+
+    ……
+- touch: *o0
+- choice:
+  - 妳是……？
+  - 5
+- tag:
+  - 5
+- focus:
+  - 191111
+- bust:
+  - 191111
+  - 0
+- vo:
+  - vo_adv_2101011_001
+- face:
+  - 191111
+  - 1
+- eye_open:
+  - True
+- print:
+  - ？？？
+  - >-
+    ……
+
+    ……
+- touch: *o0
+- focus:
+  - 191111
+- bust:
+  - 191111
+  - 0
+- vo:
+  - vo_adv_2101011_002
+- face:
+  - 191111
+  - 1
+- print:
+  - ？？？
+  - 終於，
+- touch: *o0
+- focus:
+  - 191111
+- bust:
+  - 191111
+  - 0
+- vo:
+  - vo_adv_2101011_003
+- face:
+  - 191111
+  - 1
+- print:
+  - ？？？
+  - >-
+    終於，
+
+    你們跨越到『全新的可能性』了。
+- touch: *o0
+- choice:
+  - 咦……？
+  - 6
+- tag:
+  - 6
+- focus:
+  - 191111
+- bust:
+  - 191111
+  - 0
+- vo:
+  - vo_adv_2101011_004
+- face:
+  - 191111
+  - 1
+- print:
+  - ？？？
+  - 謀略之星，
+- wait:
+  - 30
+- print:
+  - ？？？
+  - 已然殞落。
+- wait:
+  - 55
+- print:
+  - ？？？
+  - >2-
+
+    是故黑暗，
+- wait:
+  - 30
+- print:
+  - ？？？
+  - 於世界降下了全新之影。
+- touch: *o0
+- focus:
+  - 191111
+- bust:
+  - 191111
+  - 0
+- vo:
+  - vo_adv_2101011_005
+- face:
+  - 191111
+  - 1
+- print:
+  - ？？？
+  - 天選之人們，
+- wait:
+  - 40
+- print:
+  - ？？？
+  - >2-
+
+    究竟能否繼續向前邁進？
+- wait:
+  - 85
+- print:
+  - ？？？
+  - >2-
+
+    亦或是，
+- wait:
+  - 35
+- print:
+  - ？？？
+  - 又得回頭重新來過？
+- touch: *o0
+- focus:
+  - 191111
+- bust:
+  - 191111
+  - 0
+- vo:
+  - vo_adv_2101011_006
+- face:
+  - 191111
+  - 1
+- print:
+  - ？？？
+  - 然而我所能做的，
+- wait:
+  - 50
+- print:
+  - ？？？
+  - >2-
+
+    就只有
+- wait:
+  - 20
+- eye_open:
+  - False
+- print:
+  - ？？？
+  - 靜靜地守望著而已——
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- window_visible:
+  - false
+- fadeout:
+  - 191111
+  - 30
+- effect_delete:
+  - 0092
+  - 30
+- effect_delete:
+  - 0087
+  - 30
+- amb_stop:
+  - 1
+- se:
+  - se_adv_whiteout_02
+- black_out:
+  - 1
+  - 1
+- background:
+  - 500340
+- wait:
+  - 30
+- black_in: *o0
+- amb:
+  - amb_adv_prison_01
+- choice:
+  - ……？
+  - 7
+- tag:
+  - 7
+- chara_full:
+  - 100111
+  - LC
+  - 1
+- chara_full:
+  - 106414
+  - RC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M140_NoBell
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2101011_007
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 啊，
+- wait:
+  - 20
+- print:
+  - 日和
+  - 騎士先生。
+- wait:
+  - 20
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 2
+- print:
+  - 日和
+  - 早呀♪
+- touch: *o0
+- focus:
+  - 106414
+- bust:
+  - 106414
+  - 0
+- vo:
+  - vo_adv_2101011_008
+- face:
+  - 106414
+  - 2
+- emotion:
+  - note1_L
+  - 106414
+  - -95
+  - 415
+  - se_adv_emote_note_01
+- print:
+  - 雪菲
+  - 早，
+- wait:
+  - 15
+- print:
+  - 雪菲
+  - 哈嗚～♪
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105913
+  - RC
+  - 2
+- chara_full:
+  - 100211
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_2101011_009
+- face:
+  - 105913
+  - 2
+- nod:
+  - 105913
+- print:
+  - 可可蘿
+  - 主人……
+- wait:
+  - 40
+- print:
+  - 可可蘿
+  - 您醒過來了呢。
+- touch: *o0
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_2101011_010
+- face:
+  - 100211
+  - 1
+- print:
+  - 優衣
+  - 騎士先生，
+- wait:
+  - 20
+- print:
+  - 優衣
+  - 雖然只有一下下，但你睡著了唷。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106012
+  - RC
+  - 6
+- chara_full:
+  - 100311
+  - LC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_2101011_011
+- face:
+  - 100311
+  - 6
+- print:
+  - 怜
+  - 方才你冷不防就趴倒在地了，
+- wait:
+  - 35
+- print:
+  - 怜
+  - 著實令人嚇了一跳……
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_2101011_012
+- face:
+  - 106012
+  - 6
+- print:
+  - 凱留
+  - 對啊。
+- wait:
+  - 35
+- print:
+  - 凱留
+  - >2
+
+- face:
+  - 106012
+  - 4
+- nod:
+  - 106012
+- print:
+  - 凱留
+  - 我說你啊，
+- wait:
+  - 15
+- print:
+  - 凱留
+  - 沒事嗎？
+- touch: *o0
+- choice:
+  - ……沒事。
+  - 8
+- tag:
+  - 8
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_2101011_013
+- face:
+  - 106012
+  - 1
+- print:
+  - 凱留
+  - 是喔，
+- wait:
+  - 35
+- print:
+  - 凱留
+  - >2-
+
+    那就好……
+- wait:
+  - 45
+- face:
+  - 106012
+  - 6
+- emotion:
+  - surprise1_L
+  - 106012
+  - 165
+  - 540
+  - se_adv_emote_common_01
+- print:
+  - 凱留
+  - 嗯？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105913
+  - RC
+  - 6
+- chara_full:
+  - 100211
+  - LC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_2101011_014
+- face:
+  - 100211
+  - 6
+- print:
+  - 優衣
+  - 啊……
+- wait:
+  - 20
+- print:
+  - 優衣
+  - 騎士先生，
+- wait:
+  - 20
+- print:
+  - 優衣
+  - >2
+
+- face:
+  - 100211
+  - 1
+- print:
+  - 優衣
+  - 你又稍微更能說話了嗎？
+- touch: *o0
+- choice:
+  - ……大概吧……
+  - 9
+- tag:
+  - 9
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_2101011_015
+- face:
+  - 105913
+  - 2
+- print:
+  - 可可蘿
+  - 言語的遣詞談吐，
+- wait:
+  - 30
+- print:
+  - 可可蘿
+  - 又再更精進一步了呢。
+- wait:
+  - 60
+- print:
+  - 可可蘿
+  - >2
+
+- emotion:
+  - twinkle1_R
+  - 105913
+  - -115
+  - 465
+  - se_adv_emote_twinkle_01
+- print:
+  - 可可蘿
+  - 您真是太棒了，
+- wait:
+  - 20
+- print:
+  - 可可蘿
+  - 主人……♪
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100111
+  - LC
+  - 2
+- chara_full:
+  - 100311
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2101011_016
+- face:
+  - 100111
+  - 2
+- nod:
+  - 100111
+- print:
+  - 日和
+  - 太好了……！
+- wait:
+  - 40
+- print:
+  - 日和
+  - >2-
+
+    欸嘿嘿，
+- wait:
+  - 40
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 照這個進度，
+- wait:
+  - 25
+- print:
+  - 日和
+  - 應該馬上
+- wait:
+  - 20
+- print:
+  - 日和
+  - >2-
+
+    就能變回那個帥氣的騎士先生了呢！
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_2101011_017
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 是啊，
+- wait:
+  - 15
+- print:
+  - 怜
+  - 妳說的沒錯。
+- wait:
+  - 35
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 2
+- print:
+  - 怜
+  - 畢竟還是希望{0}
+- wait:
+  - 25
+- print:
+  - 怜
+  - >2-
+
+    是個能夠守護我們背後的存在嘛……
+- touch: *o0
+- choice:
+  - ……
+  - 10
+- tag:
+  - 10
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105913
+  - RC
+  - 6
+- chara_full:
+  - 100211
+  - LC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_2101011_018
+- face:
+  - 100211
+  - 6
+- emotion:
+  - question1_R
+  - 100211
+  - 115
+  - 510
+  - se_adv_emote_question_01
+- print:
+  - 優衣
+  - ……騎士先生，
+- wait:
+  - 40
+- print:
+  - 優衣
+  - 你還很睏嗎？
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_2101011_019
+- face:
+  - 105913
+  - 6
+- print:
+  - 可可蘿
+  - ……還是說，
+- wait:
+  - 40
+- print:
+  - 可可蘿
+  - 您正想要
+- wait:
+  - 30
+- print:
+  - 可可蘿
+  - >2-
+
+    將夢到的夢境回想起來呢？
+- touch: *o0
+- choice:
+  - 夢……
+  - 11
+- tag:
+  - 11
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106012
+  - R
+  - 3
+- chara_full:
+  - 106414
+  - C
+  - 1
+- chara_full:
+  - 100111
+  - L
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 7
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_2101011_020
+- face:
+  - 106012
+  - 3
+- nod:
+  - 106012
+- print:
+  - 凱留
+  - 噓。
+- wait:
+  - 20
+- print:
+  - 凱留
+  - >2-
+
+    稍微安靜一下可蘿仔，
+- wait:
+  - 25
+- print:
+  - 凱留
+  - '{0}。'
+- wait:
+  - 15
+- se:
+  - se_adv_step_prison_walk_group_come_01
+- print:
+  - 凱留
+  - >2-
+
+    ……
+- wait:
+  - 15
+- print:
+  - 凱留
+  - 有人過來了。
+- touch: *o0
+- focus:
+  - 106414
+- bust:
+  - 106414
+  - 0
+- vo:
+  - vo_adv_2101011_021
+- face:
+  - 106414
+  - 1
+- emotion:
+  - question1_R
+  - 106414
+  - 120
+  - 395
+  - se_adv_emote_question_01
+- print:
+  - 雪菲
+  - 嗚～？
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2101011_022
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - ……
+- wait:
+  - 30
+- print:
+  - 日和
+  - 是腳步聲呢。
+- wait:
+  - 55
+- print:
+  - 日和
+  - >2-
+
+    男人有
+- wait:
+  - 50
+- print:
+  - 日和
+  - 五個人……？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0054
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 4312
+  - LC
+  - 1
+- se:
+  - se_adv_step_concrete_walk_heavy_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 4312
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 4312
+- bust:
+  - 4312
+  - 0
+- vo:
+  - vo_adv_2101011_023
+- face:
+  - 4312
+  - 1
+- print:
+  - 士兵１
+  - 豪紳議長，
+- wait:
+  - 20
+- print:
+  - 士兵１
+  - 請往這裡！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 4312
+  - 30
+- chara_full:
+  - 191411
+  - LC
+  - 4
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 191411
+  - 45
+- window_visible:
+  - true
+- bgm:
+  - bgm_M337
+  - 0
+  - 0
+  - 1
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2101011_024
+- face:
+  - 191411
+  - 4
+- print:
+  - 豪紳
+  - 哎呀，
+- wait:
+  - 20
+- print:
+  - 豪紳
+  - 真是的……
+- wait:
+  - 40
+- print:
+  - 豪紳
+  - 真是充滿霉味的地方啊！
+- wait:
+  - 45
+- print:
+  - 豪紳
+  - >2-
+
+    我的高級靴子可都弄髒了……
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 1
+- vo:
+  - vo_adv_2101011_025
+- face:
+  - 106012
+  - 6
+- print:
+  - 凱留
+  - 噁，
+- wait:
+  - 25
+- print:
+  - 凱留
+  - 那傢伙……！
+- touch: *o0
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2101011_026
+- face:
+  - 191411
+  - 1
+- nod:
+  - 191411
+- print:
+  - 豪紳
+  - ……咳咳！
+- wait:
+  - 25
+- print:
+  - 豪紳
+  - >2-
+
+    很好很好，
+- wait:
+  - 65
+- print:
+  - 豪紳
+  - 看來你們似乎很安分呢，
+- wait:
+  - 40
+- print:
+  - 豪紳
+  - 反賊們！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 191411
+  - 30
+- effect:
+  - 0054
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 100111
+  - LC
+  - 6
+- chara_full:
+  - 105913
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2101011_027
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - 你是剛剛，
+- wait:
+  - 40
+- print:
+  - 日和
+  - 在廣場的時候帶走佩可小姐的那個人……
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_2101011_028
+- face:
+  - 105913
+  - 6
+- print:
+  - 可可蘿
+  - 若沒記錯，
+- wait:
+  - 40
+- print:
+  - 可可蘿
+  - 似乎是被稱呼為豪紳的……
+- wait:
+  - 85
+- print:
+  - 可可蘿
+  - 一位貴族的人士？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- split:
+  - 500340
+  - -5
+- split_slide:
+  - 1.1
+  - 500
+  - 15
+  - -700
+  - 50
+  - 120
+- wait:
+  - 15
+- chara_full:
+  - 191411
+  - L
+  - 2
+- chara_full:
+  - 106012
+  - R
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2101011_029
+- face:
+  - 191411
+  - 2
+- print:
+  - 豪紳
+  - 沒錯。
+- wait:
+  - 60
+- print:
+  - 豪紳
+  - >2-
+
+    我乃
+- wait:
+  - 30
+- print:
+  - 豪紳
+  - 蘭德索爾貴族議會議長，
+- wait:
+  - 40
+- print:
+  - 豪紳
+  - 豪紳侯爵！
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_2101011_030
+- face:
+  - 106012
+  - 3
+- nod:
+  - 106012
+- print:
+  - 凱留
+  - 哼……
+- wait:
+  - 30
+- print:
+  - 凱留
+  - 你說你是議長啊？
+- wait:
+  - 45
+- print:
+  - 凱留
+  - >2-
+
+    真那大人不在之後的混亂中，
+- wait:
+  - 40
+- print:
+  - 凱留
+  - >2-
+
+    你混得還算挺不錯的嘛……！
+- touch: *o0
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2101011_031
+- face:
+  - 191411
+  - 7
+- print:
+  - 豪紳
+  - 哦呀哦呀？
+- wait:
+  - 60
+- print:
+  - 豪紳
+  - >2-
+
+    我還想會是誰，
+- wait:
+  - 55
+- print:
+  - 豪紳
+  - 這不是以『前陛下』的肚裡蛔蟲自居的
+- wait:
+  - 50
+- print:
+  - 豪紳
+  - 那隻獸人女孩嗎？
+- wait:
+  - 80
+- print:
+  - 豪紳
+  - >2-
+
+    妳又為何會在這樣的地方呢？
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_2101011_032
+- face:
+  - 106012
+  - 3
+- emotion:
+  - anger1_R
+  - 106012
+  - -110
+  - 510
+  - se_adv_emote_anger_01
+- print:
+  - 凱留
+  - 怎樣啦，
+- wait:
+  - 15
+- print:
+  - 凱留
+  - 在那邊假惺惺！
+- wait:
+  - 45
+- print:
+  - 凱留
+  - >2-
+
+    你這人，
+- wait:
+  - 20
+- print:
+  - 凱留
+  - 在我開庭時的旁聽席上一直偷笑對吧，
+- wait:
+  - 55
+- print:
+  - 凱留
+  - >2-
+
+    我全都記的一清二楚啦！
+- touch: *o0
+- bgm:
+  - stop
+  - 10
+  - 1
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2101011_033
+- face:
+  - 191411
+  - 2
+- nod:
+  - 191411
+- print:
+  - 豪紳
+  - 哼哈哈哈哈。
+- wait:
+  - 60
+- print:
+  - 豪紳
+  - >2-
+
+    在飼主消失以後，
+- wait:
+  - 15
+- print:
+  - 豪紳
+  - >2-
+
+    這可終於被送到該送到的地方了呢，
+- wait:
+  - 65
+- print:
+  - 豪紳
+  - 妳這隻獸人女孩。
+- touch: *o0
+- bgm:
+  - bgm_M326
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2101011_034
+- face:
+  - 191411
+  - 7
+- print:
+  - 豪紳
+  - 野獸果然
+- wait:
+  - 30
+- print:
+  - 豪紳
+  - 還是在籠子裡最合適了呢。
+- wait:
+  - 95
+- print:
+  - 豪紳
+  - >2
+
+- face:
+  - 191411
+  - 3
+- print:
+  - 豪紳
+  - 在擁有悠久歷史的王宮中，
+- wait:
+  - 25
+- print:
+  - 豪紳
+  - 竟然讓有獸臭味的獸人到處逛大街，
+- wait:
+  - 70
+- print:
+  - 豪紳
+  - >2-
+
+    在當時我就非常的不是滋味了啊！
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_2101011_035
+- face:
+  - 106012
+  - 3
+- print:
+  - 凱留
+  - 你這傢伙……！
+- shake:
+  - 106012
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0054
+  - se_adv_transition_01
+  - 180
+- split_slide:
+  - 1
+  - -500
+  - 1
+  - -500
+  - -300
+  - 650
+- split:
+  - 0
+  - 0
+- wait:
+  - 15
+- chara_full:
+  - 100211
+  - L
+  - 4
+- chara_full:
+  - 106414
+  - C
+  - 3
+- chara_full:
+  - 105913
+  - R
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_2101011_036
+- face:
+  - 100211
+  - 4
+- print:
+  - 優衣
+  - 太過分了……！
+- wait:
+  - 35
+- print:
+  - 優衣
+  - >2-
+
+    就算不用
+- wait:
+  - 5
+- print:
+  - 優衣
+  - 講成那樣也……！
+- touch: *o0
+- focus:
+  - 106414
+- bust:
+  - 106414
+  - 0
+- vo:
+  - vo_adv_2101011_037
+- face:
+  - 106414
+  - 3
+- nod:
+  - 106414
+- print:
+  - 雪菲
+  - 嗚～！
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_2101011_038
+- face:
+  - 105913
+  - 4
+- print:
+  - 可可蘿
+  - ……過去，
+- wait:
+  - 25
+- print:
+  - 可可蘿
+  - 曾從真步小姐口中聽聞過。
+- wait:
+  - 45
+- print:
+  - 可可蘿
+  - >2-
+
+    看來此人，便是擁有典型蘭德索爾貴族思想的人物……
+- wait:
+  - 80
+- print:
+  - 可可蘿
+  - >2-
+
+    的模樣呢。
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100111
+  - L
+  - 4
+- chara_full:
+  - 100311
+  - C
+  - 6
+- chara_full:
+  - 106012
+  - R
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M141_Ver2
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_2101011_039
+- face:
+  - 100311
+  - 6
+- print:
+  - 怜
+  - ……豪紳議長，
+- wait:
+  - 30
+- print:
+  - 怜
+  - 希望你能聽我們一言。
+- wait:
+  - 40
+- print:
+  - 怜
+  - >2-
+
+    方才，
+- wait:
+  - 30
+- print:
+  - 怜
+  - 你雖然稱呼我等為反賊……
+- wait:
+  - 55
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 3
+- print:
+  - 怜
+  - 然而此處沒有任何一個人，
+- wait:
+  - 40
+- print:
+  - 怜
+  - 有做出過那樣的行為。
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2101011_040
+- face:
+  - 100111
+  - 4
+- nod:
+  - 100111
+- print:
+  - 日和
+  - 對呀！
+- wait:
+  - 45
+- print:
+  - 日和
+  - >2-
+
+    像這樣把我們關進了牢裡，
+- wait:
+  - 30
+- print:
+  - 日和
+  - 一定是有什麼誤會！
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_2101011_041
+- face:
+  - 106012
+  - 3
+- print:
+  - 凱留
+  - 沒錯沒錯！
+- wait:
+  - 35
+- print:
+  - 凱留
+  - >2-
+
+    讓貪吃佩可……
+- wait:
+  - 20
+- face:
+  - 106012
+  - 6
+- print:
+  - 凱留
+  - 不對，
+- wait:
+  - 30
+- face:
+  - 106012
+  - 3
+- print:
+  - 凱留
+  - 讓尤絲蒂亞娜來跟我們說說！
+- wait:
+  - 40
+- print:
+  - 凱留
+  - >2-
+
+    那樣的話，
+- wait:
+  - 5
+- print:
+  - 凱留
+  - 三兩下就解決了！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0054
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 191411
+  - C
+  - 3
+- fadein:
+  - 191411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2101011_042
+- face:
+  - 191411
+  - 3
+- nod:
+  - 191411
+- print:
+  - 豪紳
+  - 哼哈！
+- wait:
+  - 25
+- print:
+  - 豪紳
+  - >2-
+
+    繼前陛下之後，
+- wait:
+  - 25
+- print:
+  - 豪紳
+  - 這次是打算向尤絲蒂亞娜陛下諂媚了嗎？
+- wait:
+  - 70
+- print:
+  - 豪紳
+  - >2
+
+- face:
+  - 191411
+  - 7
+- print:
+  - 豪紳
+  - 看來對掌權者搖尾巴是妳最擅長的事了呢，
+- wait:
+  - 95
+- print:
+  - 豪紳
+  - 妳這隻獸人女孩。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 191411
+  - 30
+- effect:
+  - 0054
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 106012
+  - C
+  - 3
+- fadein:
+  - 106012
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_2101011_043
+- face:
+  - 106012
+  - 3
+- emotion:
+  - anger1_R
+  - 106012
+  - -110
+  - 510
+  - se_adv_emote_anger_01
+- print:
+  - 凱留
+  - 你說什麼！
+- wait:
+  - 55
+- print:
+  - 凱留
+  - >2-
+
+    先不說陛下，
+- wait:
+  - 30
+- print:
+  - 凱留
+  - 我對貪吃佩可才沒有搖過什麼尾巴啦！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106012
+  - 30
+- effect:
+  - 0054
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 191411
+  - C
+  - 2
+- fadein:
+  - 191411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2101011_044
+- face:
+  - 191411
+  - 2
+- print:
+  - 豪紳
+  - 很好很好！
+- wait:
+  - 75
+- print:
+  - 豪紳
+  - >2-
+
+    那麼就沒有
+- wait:
+  - 25
+- print:
+  - 豪紳
+  - 讓尤絲蒂亞娜陛下
+- wait:
+  - 60
+- print:
+  - 豪紳
+  - >2-
+
+    特地親臨如此汙穢場所的必要了呢。
+- touch: *o0
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2101011_045
+- face:
+  - 191411
+  - 1
+- print:
+  - 豪紳
+  - 更不用說，
+- wait:
+  - 20
+- print:
+  - 豪紳
+  - 陛下本來就是繁忙之身。
+- wait:
+  - 70
+- print:
+  - 豪紳
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 豪紳
+  - 做為蘭德索爾的議長，
+- wait:
+  - 35
+- print:
+  - 豪紳
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 豪紳
+  - 豈能讓陛下因為此等
+- wait:
+  - 45
+- print:
+  - 豪紳
+  - 雞毛蒜皮小事而耽誤了政務。
+- touch: *o0
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2101011_046
+- face:
+  - 191411
+  - 7
+- nod:
+  - 191411
+- print:
+  - 豪紳
+  - 沒錯……
+- wait:
+  - 45
+- print:
+  - 豪紳
+  - 不過是對你們這些貨色
+- wait:
+  - 35
+- print:
+  - 豪紳
+  - >2-
+
+    降下制裁之類的蒜皮小事……
+- wait:
+  - 80
+- print:
+  - 豪紳
+  - >2-
+
+    靠我與【黃金之手】的部隊就足夠了！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 191411
+  - 30
+- effect:
+  - 0054
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 100211
+  - LC
+  - 6
+- chara_full:
+  - 100311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_2101011_047
+- face:
+  - 100211
+  - 6
+- emotion:
+  - surprise1_L
+  - 100211
+  - 150
+  - 555
+  - se_adv_emote_common_01
+- print:
+  - 優衣
+  - 制裁……！？
+- touch: *o0
+- bgm:
+  - bgm_M42_02
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_2101011_048
+- face:
+  - 100311
+  - 6
+- print:
+  - 怜
+  - 等等，
+- wait:
+  - 25
+- print:
+  - 怜
+  - 希望你別如此擅自主張！
+- wait:
+  - 45
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 3
+- print:
+  - 怜
+  - 更何況，
+- wait:
+  - 20
+- print:
+  - 怜
+  - 我們沒有任何該被逮捕的理由，
+- wait:
+  - 40
+- print:
+  - 怜
+  - >2-
+
+    方才不就講過了？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0054
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 191411
+  - C
+  - 2
+- fadein:
+  - 191411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2101011_049
+- face:
+  - 191411
+  - 2
+- print:
+  - 豪紳
+  - 瞧妳這話！
+- wait:
+  - 65
+- print:
+  - 豪紳
+  - >2-
+
+    就是因為「有些什麼」所以你們這些傢伙
+- wait:
+  - 30
+- print:
+  - 豪紳
+  - 才會被送進這個大牢啊。
+- wait:
+  - 60
+- print:
+  - 豪紳
+  - >2
+
+- face:
+  - 191411
+  - 3
+- print:
+  - 豪紳
+  - 通緝犯
+- wait:
+  - 30
+- print:
+  - 豪紳
+  - 與其賊黨！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 191411
+  - 30
+- effect:
+  - 0054
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 106012
+  - RC
+  - 6
+- chara_full:
+  - 100311
+  - LC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_2101011_050
+- face:
+  - 100311
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100311
+  - 0
+  - 660
+  - se_adv_emote_common_01
+- print:
+  - 怜
+  - 通緝犯……！
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_2101011_051
+- face:
+  - 106012
+  - 3
+- nod:
+  - 106012
+- print:
+  - 凱留
+  - 你講的那個人，
+- wait:
+  - 20
+- print:
+  - 凱留
+  - 不是我對吧！？
+- wait:
+  - 25
+- print:
+  - 凱留
+  - >2-
+
+    那你說在這裡頭，
+- wait:
+  - 15
+- print:
+  - 凱留
+  - 到底又有誰是啊！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0054
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 191411
+  - C
+  - 3
+- fadein:
+  - 191411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2101011_052
+- face:
+  - 191411
+  - 3
+- print:
+  - 豪紳
+  - 那就是……
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 1
+- vo:
+  - vo_adv_2101011_053
+- face:
+  - 105913
+  - 4
+- print:
+  - 可可蘿
+  - 那就是？
+- touch: *o0
+- choice:
+  - ……
+  - 12
+- tag:
+  - 12
+- bgm:
+  - stop
+  - 4.5
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2101011_054
+- face:
+  - 191411
+  - 3
+- print:
+  - 豪紳
+  - 那就是，
+- wait:
+  - 15
+- print:
+  - 豪紳
+  - 妳。
+- wait:
+  - 45
+- print:
+  - 豪紳
+  - >2-
+
+    龍人族的女孩子。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 191411
+  - 30
+- effect:
+  - 0054
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 106414
+  - C
+  - 1
+- fadein:
+  - 106414
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M60
+  - 0
+  - 0
+  - 1
+- focus:
+  - 106414
+- bust:
+  - 106414
+  - 0
+- vo:
+  - vo_adv_2101011_055
+- face:
+  - 106414
+  - 1
+- print:
+  - 雪菲
+  - ……雪菲？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106414
+  - 30
+- effect:
+  - 0054
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 191411
+  - C
+  - 1
+- fadein:
+  - 191411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2101011_056
+- face:
+  - 191411
+  - 1
+- nod:
+  - 191411
+- print:
+  - 豪紳
+  - 喔喔。
+- wait:
+  - 15
+- print:
+  - 豪紳
+  - 沒錯。
+- wait:
+  - 45
+- print:
+  - 豪紳
+  - >2-
+
+    妳似乎被稱為雪菲呢。
+- wait:
+  - 80
+- print:
+  - 豪紳
+  - >2
+
+- face:
+  - 191411
+  - 6
+- print:
+  - 豪紳
+  - 原先雖然被預想是一名單獨犯，
+- wait:
+  - 45
+- print:
+  - 豪紳
+  - 但沒想到竟有如此多的夥伴啊！
+- touch: *o0
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 1
+- vo:
+  - vo_adv_2101011_057
+- face:
+  - 100211
+  - 7
+- print:
+  - 優衣
+  - 你說雪菲
+- wait:
+  - 35
+- print:
+  - 優衣
+  - 是通緝犯……！？
+- touch: *o0
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2101011_058
+- face:
+  - 191411
+  - 1
+- print:
+  - 豪紳
+  - 沒錯。
+- wait:
+  - 40
+- print:
+  - 豪紳
+  - >2-
+
+    罪狀是
+- wait:
+  - 35
+- print:
+  - 豪紳
+  - 『暗殺王族未遂』。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 191411
+  - 30
+- effect:
+  - 0054
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 100111
+  - L
+  - 6
+- chara_full:
+  - 100211
+  - C
+  - 6
+- chara_full:
+  - 106012
+  - R
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2101011_059
+- face:
+  - 100111
+  - 6
+- emotion:
+  - surprise1_L
+  - 100111
+  - 150
+  - 550
+  - se_adv_emote_common_01
+- print:
+  - 日和
+  - 暗、
+- wait:
+  - 35
+- print:
+  - 日和
+  - 暗殺王族未遂……！？
+- touch: *o0
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_2101011_060
+- face:
+  - 100211
+  - 4
+- print:
+  - 優衣
+  - 這種事，
+- wait:
+  - 25
+- print:
+  - 優衣
+  - 一定是你們哪裡搞錯了！
+- wait:
+  - 30
+- print:
+  - 優衣
+  - >2-
+
+    雪菲她，
+- wait:
+  - 5
+- print:
+  - 優衣
+  - 怎麼可能
+- wait:
+  - 15
+- print:
+  - 優衣
+  - 做得出那樣的事情！
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_2101011_061
+- face:
+  - 106012
+  - 3
+- nod:
+  - 106012
+- print:
+  - 凱留
+  - 對呀～！　
+- wait:
+  - 30
+- print:
+  - 凱留
+  - 不管是這傢伙還是{0}，
+- wait:
+  - 25
+- print:
+  - 凱留
+  - 都和嬰兒沒兩樣……
+- wait:
+  - 30
+- print:
+  - 凱留
+  - >2-
+
+    不論是寵物的妖精，
+- wait:
+  - 30
+- print:
+  - 凱留
+  - 還是掉到地上的東西都往嘴裡塞，
+- wait:
+  - 15
+- print:
+  - 凱留
+  - >2-
+
+    他們現在可是只有這種程度的智能啊！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0054
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 191411
+  - C
+  - 1
+- fadein:
+  - 191411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2101011_062
+- face:
+  - 191411
+  - 1
+- print:
+  - 豪紳
+  - 『現在』的話，
+- wait:
+  - 15
+- print:
+  - 豪紳
+  - 或許是這樣沒錯。
+- wait:
+  - 50
+- print:
+  - 豪紳
+  - >2
+
+- face:
+  - 191411
+  - 6
+- print:
+  - 豪紳
+  - 那麼……
+- wait:
+  - 35
+- print:
+  - 豪紳
+  - 若是說半年前呢？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 191411
+  - 30
+- effect:
+  - 0054
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 105913
+  - L
+  - 6
+- chara_full:
+  - 106012
+  - R
+  - 6
+- chara_full:
+  - 100311
+  - C
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_2101011_063
+- face:
+  - 106012
+  - 6
+- emotion:
+  - question1_R
+  - 106012
+  - 120
+  - 500
+  - se_adv_emote_question_01
+- print:
+  - 凱留
+  - 咦……？
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_2101011_064
+- face:
+  - 105913
+  - 6
+- print:
+  - 可可蘿
+  - 半年前……
+- wait:
+  - 65
+- face:
+  - 105913
+  - 1
+- print:
+  - 可可蘿
+  - 若是如此，
+- wait:
+  - 35
+- print:
+  - 可可蘿
+  - 那便是霸瞳皇帝仍健在的時期。
+- wait:
+  - 70
+- print:
+  - 可可蘿
+  - >2
+
+- face:
+  - 105913
+  - 6
+- print:
+  - 可可蘿
+  - 也意味著是雪菲小姐
+- wait:
+  - 40
+- print:
+  - 可可蘿
+  - >2-
+
+    尚未與在下等人相遇前之事……
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_2101011_065
+- face:
+  - 100311
+  - 6
+- print:
+  - 怜
+  - ……那麼，
+- wait:
+  - 30
+- print:
+  - 怜
+  - 若雪菲真有
+- wait:
+  - 40
+- print:
+  - 怜
+  - >2-
+
+    『暗殺王族未遂』此一事……
+- wait:
+  - 75
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 3
+- nod:
+  - 100311
+- print:
+  - 怜
+  - 便表示，
+- wait:
+  - 35
+- print:
+  - 怜
+  - 她是以霸瞳皇帝為目標嗎？
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_2101011_066
+- face:
+  - 106012
+  - 6
+- print:
+  - 凱留
+  - 被這麼一講……
+- wait:
+  - 45
+- face:
+  - 106012
+  - 3
+- print:
+  - 凱留
+  - 還真的有過呢，
+- wait:
+  - 25
+- print:
+  - 凱留
+  - 陛下的暗殺未遂事件。
+- wait:
+  - 50
+- print:
+  - 凱留
+  - >2
+
+- face:
+  - 106012
+  - 4
+- print:
+  - 凱留
+  - 但當時我出了城外，
+- wait:
+  - 35
+- print:
+  - 凱留
+  - >2-
+
+    所以詳情我也不是很清楚……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105913
+  - 30
+- chara_full:
+  - 100111
+  - L
+  - 3
+- fadein:
+  - 100111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2101011_067
+- face:
+  - 100111
+  - 3
+- pop:
+  - 100111
+- print:
+  - 日和
+  - 照這樣講的話！
+- wait:
+  - 40
+- print:
+  - 日和
+  - >2-
+
+    如果對霸瞳皇帝出手了就算有罪，
+- wait:
+  - 45
+- print:
+  - 日和
+  - 那們我們不就也——
+- wait:
+  - 10
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - 呣咕！？
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 106012
+  - 6
+- face:
+  - 100311
+  - 6
+- focus:
+  - 100111:100311
+- se:
+  - se_adv_hug_01
+- nod:
+  - 100311
+- shake:
+  - 100111
+- fadeout:
+  - 106012
+  - 30
+- change:
+  - RC
+  - C
+  - 30
+- change:
+  - LC
+  - L
+  - 30
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_2101011_068
+- face:
+  - 100311
+  - 3
+- print:
+  - 怜
+  - 妳等等，
+- wait:
+  - 10
+- print:
+  - 怜
+  - 日和！　
+- touch: *o0
+- bgm:
+  - stop
+  - 6
+  - 1
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2101011_069
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - 怜、
+- wait:
+  - 20
+- print:
+  - 日和
+  - 怜？
+- wait:
+  - 35
+- print:
+  - 日和
+  - >2-
+
+    為什麼妳要塞住我的嘴巴呢？　
+- touch: *o0
+- bgm:
+  - bgm_M134
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_2101011_070
+- face:
+  - 100311
+  - 3
+- print:
+  - 怜
+  - 打倒了霸瞳皇帝的人，
+- wait:
+  - 55
+- print:
+  - 怜
+  - >2-
+
+    是貪吃佩可和王宮騎士團的士兵們……
+- wait:
+  - 65
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 6
+- print:
+  - 怜
+  - 對一般人
+- wait:
+  - 35
+- print:
+  - 怜
+  - 是這樣告知的，妳忘了嗎？　
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2101011_071
+- face:
+  - 100111
+  - 4
+- print:
+  - 日和
+  - 啊，
+- wait:
+  - 25
+- print:
+  - 日和
+  - 對耶……！
+- wait:
+  - 40
+- print:
+  - 日和
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 日和
+  - 比起引起騷動，
+- wait:
+  - 35
+- eye_open:
+  - True
+- print:
+  - 日和
+  - 而導致我們冒險者的工作變得困難，
+- wait:
+  - 50
+- print:
+  - 日和
+  - >2-
+
+    還倒不如把我們的名字給隱瞞……
+- wait:
+  - 50
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - 最後好像是這樣決定的嘛。
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_2101011_072
+- face:
+  - 100311
+  - 6
+- nod:
+  - 100311
+- print:
+  - 怜
+  - 嗯。
+- wait:
+  - 30
+- print:
+  - 怜
+  - >2-
+
+    並且，
+- wait:
+  - 30
+- print:
+  - 怜
+  - 對我們個人來說是如此……
+- wait:
+  - 55
+- face:
+  - 100311
+  - 4
+- print:
+  - 怜
+  - 而在那場決戰之中，
+- wait:
+  - 35
+- print:
+  - 怜
+  - >2-
+
+    還有【動物苑】的
+- wait:
+  - 25
+- print:
+  - 怜
+  - 真琴和香織兩位在場。
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_2101011_073
+- face:
+  - 100311
+  - 4
+- print:
+  - 怜
+  - 她們兩位獸人族的人，
+- wait:
+  - 50
+- print:
+  - 怜
+  - >2-
+
+    如果被曲解成打倒了蘭德索爾的統治者的話……
+- wait:
+  - 70
+- print:
+  - 怜
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 怜
+  - 或許會演變成戰爭，
+- wait:
+  - 45
+- eye_open:
+  - True
+- print:
+  - 怜
+  - 或是什麼棘手的狀況也說不定。
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2101011_074
+- face:
+  - 100111
+  - 4
+- print:
+  - 日和
+  - 是呢……
+- wait:
+  - 55
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - 一直以來都沒有什麼感覺。
+- wait:
+  - 60
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 4
+- print:
+  - 日和
+  - 但看到了像是那個貴族一樣，
+- wait:
+  - 45
+- print:
+  - 日和
+  - 那麼討厭獸人的人之後……
+- wait:
+  - 60
+- print:
+  - 日和
+  - >2-
+
+    就不覺得這只是想太多了而已呢……
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- effect:
+  - 0054
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 191411
+  - C
+  - 3
+- fadein:
+  - 191411
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M271
+  - 0
+  - 0
+  - 1
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2101011_075
+- face:
+  - 191411
+  - 3
+- nod:
+  - 191411
+- print:
+  - 豪紳
+  - 那邊，
+- wait:
+  - 40
+- print:
+  - 豪紳
+  - 妳們在講什麼悄悄話！
+- wait:
+  - 45
+- print:
+  - 豪紳
+  - >2-
+
+    是在討論如何推卸責任嗎！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 191411
+  - 30
+- effect:
+  - 0054
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 100111
+  - LC
+  - 6
+- chara_full:
+  - 100211
+  - RC
+  - 7
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2101011_076
+- face:
+  - 100111
+  - 6
+- emotion:
+  - sweat2_R
+  - 100111
+  - 90
+  - 525
+  - se_adv_emote_sweat_02
+- print:
+  - 日和
+  - 不是呀，
+- wait:
+  - 35
+- print:
+  - 日和
+  - 不是那麼一回事呀！
+- touch: *o0
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_2101011_077
+- face:
+  - 100211
+  - 7
+- print:
+  - 優衣
+  - 對啊，
+- wait:
+  - 35
+- print:
+  - 優衣
+  - 倒不如說正好相反
+- wait:
+  - 25
+- print:
+  - 優衣
+  - 的感覺……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0054
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 191411
+  - C
+  - 6
+- fadein:
+  - 191411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2101011_078
+- face:
+  - 191411
+  - 6
+- emotion:
+  - question1_R
+  - 191411
+  - 130
+  - 550
+  - se_adv_emote_question_01
+- print:
+  - 豪紳
+  - ……嗯？
+- wait:
+  - 35
+- print:
+  - 豪紳
+  - >2
+
+- face:
+  - 191411
+  - 1
+- print:
+  - 豪紳
+  - 算了。
+- wait:
+  - 40
+- print:
+  - 豪紳
+  - >2-
+
+    你們能找什麼話來推卸責任，
+- wait:
+  - 25
+- print:
+  - 豪紳
+  - 大概都不難料想……
+- touch: *o0
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2101011_079
+- face:
+  - 191411
+  - 6
+- print:
+  - 豪紳
+  - 「前陛下是篡位之王，
+- wait:
+  - 70
+- print:
+  - 豪紳
+  - 所以是無罪的才對。」之類的。
+- wait:
+  - 65
+- print:
+  - 豪紳
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 豪紳
+  - 「而且，
+- wait:
+  - 15
+- print:
+  - 豪紳
+  - 這個龍族的女孩子又不是我們的同伴。」之類的……
+- wait:
+  - 75
+- print:
+  - 豪紳
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 豪紳
+  - 差不多就這類的說詞吧。
+- touch: *o0
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2101011_080
+- face:
+  - 191411
+  - 1
+- print:
+  - 豪紳
+  - 然而，
+- wait:
+  - 35
+- print:
+  - 豪紳
+  - >2-
+
+    入侵王城之罪。
+- wait:
+  - 75
+- print:
+  - 豪紳
+  - 破壞公物之罪。
+- wait:
+  - 65
+- print:
+  - 豪紳
+  - 傷害士兵之罪……
+- wait:
+  - 80
+- print:
+  - 豪紳
+  - >2-
+
+    這些罪狀是不會因此消失的。
+- touch: *o0
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2101011_081
+- face:
+  - 191411
+  - 3
+- nod:
+  - 191411
+- print:
+  - 豪紳
+  - 更何況，
+- wait:
+  - 60
+- print:
+  - 豪紳
+  - 這個龍族的女孩子與她的賊黨，
+- wait:
+  - 70
+- print:
+  - 豪紳
+  - >2-
+
+    也沒有人能夠保證
+- wait:
+  - 45
+- print:
+  - 豪紳
+  - 不會再次企圖要刺殺王族。
+- wait:
+  - 85
+- print:
+  - 豪紳
+  - >2-
+
+    因此，
+- wait:
+  - 35
+- print:
+  - 豪紳
+  - 不由本人來對你們降下制裁可不行啊……！
+- touch: *o0
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 1
+- vo:
+  - vo_adv_2101011_082
+- face:
+  - 100211
+  - 4
+- print:
+  - 優衣
+  - 怎麼這樣！　
+- wait:
+  - 30
+- print:
+  - 優衣
+  - 這樣也太強硬了……！
+- touch: *o0
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2101011_083
+- face:
+  - 191411
+  - 7
+- print:
+  - 豪紳
+  - 哪有什麼強硬不強硬！
+- wait:
+  - 75
+- print:
+  - 豪紳
+  - >2
+
+- face:
+  - 191411
+  - 1
+- print:
+  - 豪紳
+  - 我身為一名顯貴紳士，
+- wait:
+  - 60
+- print:
+  - 豪紳
+  - 若不好好保護公主‧尤絲蒂亞娜陛下！
+- wait:
+  - 50
+- print:
+  - 豪紳
+  - >2
+
+- face:
+  - 191411
+  - 3
+- print:
+  - 豪紳
+  - 不好好保護這個國度，
+- wait:
+  - 50
+- print:
+  - 豪紳
+  - 那怎麼可以！
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2101011_084
+- face:
+  - 191411
+  - 3
+- nod:
+  - 191411
+- print:
+  - 豪紳
+  - 【黃金之手】部隊，
+- wait:
+  - 35
+- bgm:
+  - bgm_M167
+- print:
+  - 豪紳
+  - 上箭！
+- wait:
+  - 30
+- print:
+  - 豪紳
+  - >2-
+
+    穿過這監牢的欄縫，
+- wait:
+  - 15
+- print:
+  - 豪紳
+  - 把這群逆賊，
+- wait:
+  - 30
+- print:
+  - 豪紳
+  - 用那正義之矢予以制裁！
+- touch: *o0
+- focus:
+  - 4312
+- bust:
+  - 4312
+  - 1
+- vo:
+  - vo_adv_2101011_085
+- face:
+  - 4312
+  - 1
+- print:
+  - 士兵１
+  - ——是！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_weapon_arrow_loading_long_01
+- fadeout:
+  - 191411
+  - 30
+- effect:
+  - 0054
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 105913
+  - LC
+  - 6
+- chara_full:
+  - 106012
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_2101011_086
+- face:
+  - 105913
+  - 6
+- emotion:
+  - surprise1_L
+  - 105913
+  - 170
+  - 500
+  - se_adv_emote_common_01
+- print:
+  - 可可蘿
+  - 什……！
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_2101011_087
+- face:
+  - 106012
+  - 6
+- print:
+  - 凱留
+  - 你、
+- wait:
+  - 10
+- print:
+  - 凱留
+  - 你打算在這裡直接處刑我們嗎！？
+- wait:
+  - 30
+- print:
+  - 凱留
+  - >2
+
+- face:
+  - 106012
+  - 3
+- print:
+  - 凱留
+  - 就連開庭都沒有……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0054
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 191411
+  - C
+  - 6
+- fadein:
+  - 191411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2101011_088
+- face:
+  - 191411
+  - 6
+- print:
+  - 豪紳
+  - 哦？
+- wait:
+  - 40
+- print:
+  - 豪紳
+  - 妳希望有個審判嗎？
+- wait:
+  - 70
+- print:
+  - 豪紳
+  - >2
+
+- face:
+  - 191411
+  - 3
+- print:
+  - 豪紳
+  - 那麼就在此處，
+- wait:
+  - 35
+- print:
+  - 豪紳
+  - 開一個公平的簡略法庭給你們吧！
+- touch: *o0
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2101011_089
+- face:
+  - 191411
+  - 1
+- print:
+  - 豪紳
+  - 陪審團【黃金之手】的各位！
+- wait:
+  - 85
+- print:
+  - 豪紳
+  - >2-
+
+    你們的意見是！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 191411
+  - 30
+- chara_full:
+  - 4312
+  - LC
+  - 1
+- chara_full:
+  - 4311
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 4311
+- bust:
+  - 4311
+  - 0
+- vo:
+  - vo_adv_2101011_090
+- face:
+  - 4311
+  - 1
+- print:
+  - 士兵２
+  - 有罪！
+- touch: *o0
+- focus:
+  - 4312
+- bust:
+  - 4312
+  - 0
+- vo:
+  - vo_adv_2101011_091
+- face:
+  - 4312
+  - 1
+- print:
+  - 士兵１
+  - 有罪！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 4312
+  - 30
+- chara_full:
+  - 191411
+  - LC
+  - 1
+- fadein:
+  - 191411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2101011_092
+- face:
+  - 191411
+  - 1
+- print:
+  - 豪紳
+  - 那麼判決！　
+- wait:
+  - 75
+- face:
+  - 191411
+  - 3
+- print:
+  - 豪紳
+  - 有罪！　
+- wait:
+  - 45
+- print:
+  - 豪紳
+  - 死刑！
+- wait:
+  - 50
+- print:
+  - 豪紳
+  - >2-
+
+    刑罰為死刑！
+- wait:
+  - 45
+- print:
+  - 豪紳
+  - >2-
+
+    即刻執行死刑！
+- touch: *o0
+- focus:
+  - 4311
+- bust:
+  - 4311
+  - 0
+- vo:
+  - vo_adv_2101011_093
+- face:
+  - 4311
+  - 1
+- nod:
+  - 4311
+- print:
+  - 士兵２
+  - 是！
+- wait:
+  - 25
+- print:
+  - 士兵２
+  - >2-
+
+    立即執行！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0054
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 100111
+  - LC
+  - 4
+- chara_full:
+  - 100311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2101011_094
+- face:
+  - 100111
+  - 4
+- print:
+  - 日和
+  - 住、
+- wait:
+  - 30
+- nod:
+  - 100111
+- print:
+  - 日和
+  - 住手呀！
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_2101011_095
+- face:
+  - 100311
+  - 4
+- print:
+  - 怜
+  - 嗚，
+- wait:
+  - 30
+- print:
+  - 怜
+  - 該怎麼做才好……！
+- touch: *o0
+- choice:
+  - （挺身而出）
+  - 13
+- tag:
+  - 13
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_blanket_move_02
+- camera_zoom:
+  - 1.2
+  - 10
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 1
+- vo:
+  - vo_adv_2101011_096
+- face:
+  - 100211
+  - 6
+- print:
+  - 優衣
+  - 騎士先生！？
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 1
+- vo:
+  - vo_adv_2101011_097
+- face:
+  - 105913
+  - 6
+- print:
+  - 可可蘿
+  - 主人，
+- wait:
+  - 25
+- print:
+  - 可可蘿
+  - 請您退下！
+- touch: *o0
+- focus:
+  - 106414
+- bust:
+  - 106414
+  - 1
+- vo:
+  - vo_adv_2101011_098
+- face:
+  - 106414
+  - 3
+- print:
+  - 雪菲
+  - 噠嗚～！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0054
+  - se_adv_transition_01
+- camera_zoom:
+  - 1
+  - 1
+- wait:
+  - 15
+- chara_full:
+  - 191411
+  - C
+  - 3
+- fadein:
+  - 191411
+  - 30
+- text_size:
+  - 60
+- window_visible:
+  - true
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2101011_099
+- face:
+  - 191411
+  - 3
+- effect:
+  - 9
+- print:
+  - 豪紳
+  - ——放箭！！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 191411
+  - 30
+- text_size:
+  - 23
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

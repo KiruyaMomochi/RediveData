@@ -1,0 +1,1292 @@
+- title:
+  - 禊 第3話
+- outline:
+  - 為了不要掉入陷阱，{0}接受禊的特訓，結果還是中了全部的陷阱。禊說要多對人保持點戒心才行，但{0}坦率地稱讚他是好孩子。
+- background:
+  - 500140
+- amb:
+  - amb_adv_outdoors_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 哥哥的惡作劇特訓！
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    {0}為了不再落入陷阱裡，
+
+    開始接受禊的特訓。
+- touch: &o0 []
+- bgm:
+  - bgm_M14
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 1
+- vo:
+  - vo_adv_1004003_000
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 啊，來了來了！
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 哥哥，這邊這邊─！
+- wait:
+  - 15
+- touch: *o0
+- choice:
+  - 去禊身邊。
+  - 1
+- tag:
+  - 1
+- bgm:
+  - stop
+  - 2
+- window_visible:
+  - false
+- se:
+  - se_adv_step_leaves_walk_armor_go_01
+- camera_zoom:
+  - 1.3
+  - 20
+- wait:
+  - 10
+- se:
+  - se_adv_banana_slip_01
+- shake_once:
+  - 2
+- wait:
+  - 10
+- bgm:
+  - bgm_M15_02_NoIntro
+  - 0
+  - 0
+  - 1
+- se:
+  - se_adv_bodyfall_01
+- shake_screen: *o0
+- wait:
+  - 15
+- camera_zoom:
+  - 1
+  - 15
+- se:
+  - se_adv_step_leaves_run_come_01
+- chara_full:
+  - 100411
+  - C
+  - 2
+- in_R:
+  - 100411
+  - 45
+  - true
+- window_visible:
+  - true
+- vo_effect:
+  - 0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004003_001
+- face:
+  - 100411
+  - 2
+- emotion:
+  - twinkle1_R
+  - 100411
+  - -135
+  - 440
+  - se_adv_emote_twinkle_01
+- print:
+  - 禊
+  - 哥哥中招囉──！
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 哥哥～你是不是忘記今天的目的了？
+- wait:
+  - 70
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 3
+- print:
+  - 禊
+  - 今天特訓的目的是讓為了哥哥不再落入陷阱中喔？
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004003_002
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 哥哥不可以因為還沒到集合時間就鬆懈了～
+- wait:
+  - 60
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 3
+- print:
+  - 禊
+  - 人在大意的時候，最容易落入陷阱了。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004003_003
+- face:
+  - 100411
+  - 1
+- emotion:
+  - note1_L
+  - 100411
+  - -85
+  - 485
+  - se_adv_emote_note_01
+- print:
+  - 禊
+  - 為了讓哥哥這個老實人
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2-
+
+    不再輕易地被人惡整或落入陷阱裡，
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 今天禊要幫哥哥特訓一下！
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004003_004
+- face:
+  - 100411
+  - 1
+- jump:
+  - 100411
+- print:
+  - 禊
+  - 那我們就從這個果汁開始吧！
+- wait:
+  - 60
+- print:
+  - 禊
+  - >2-
+
+    兩個杯子一個量比較多、一個比較少，有一杯是超辣果汁呦！
+- wait:
+  - 75
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 那麼～哥哥要喝哪一杯？
+- wait:
+  - 15
+- touch: *o0
+- choice:
+  - 量多的那杯。
+  - 2
+- choice:
+  - 量少的那邊。
+  - 3
+- tag:
+  - 2
+- fadeout:
+  - 100411
+  - 30
+- shake_once:
+  - 2
+- wait:
+  - 15
+- effect:
+  - 0012
+  - se_adv_flash_01
+- text_size:
+  - 56
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - '{0}'
+  - ！！！
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 100411
+  - C
+  - 1
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - true
+- text_size:
+  - 23
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004003_005
+- face:
+  - 100411
+  - 1
+- emotion:
+  - twinkle1_R
+  - 100411
+  - -135
+  - 440
+  - se_adv_emote_twinkle_01
+- print:
+  - 禊
+  - 很辣嗎？很辣嗎？
+- jump:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 真是太可惜了～♪
+- wait:
+  - 90
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 正確答案是～兩邊都是超辣果汁喔！
+- wait:
+  - 75
+- print:
+  - 禊
+  - >2-
+
+    不只超辣量還比較多，真的是錯得很徹底呢～♪
+- wait:
+  - 10
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- fadeout:
+  - 100411
+  - 30
+- shake_once:
+  - 2
+- wait:
+  - 15
+- effect:
+  - 0012
+  - se_adv_flash_01
+- text_size:
+  - 56
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - '{0}'
+  - ！！！
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 100411
+  - C
+  - 1
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - true
+- text_size:
+  - 23
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004003_006
+- face:
+  - 100411
+  - 1
+- emotion:
+  - twinkle1_R
+  - 100411
+  - -135
+  - 440
+  - se_adv_emote_twinkle_01
+- print:
+  - 禊
+  - 很辣嗎？
+- jump:
+  - 100411
+  - 2
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 呀哈哈哈！
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2-
+
+    真是太可惜了～♪正確答案是量多的那邊……
+- wait:
+  - 75
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 才怪，兩邊都是超辣果汁～！
+- wait:
+  - 30
+- touch: *o0
+- tag:
+  - 4
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004003_007
+- face:
+  - 100411
+  - 3
+- jump:
+  - 100411
+- print:
+  - 禊
+  - 接下來是這個繩索！
+- wait:
+  - 60
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 切斷某一條繩索後，會掉下一個金屬臉盆呦！
+- wait:
+  - 60
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 右邊？左邊？哥哥要選哪邊？
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 100411
+  - 6
+- emotion:
+  - question1_R
+  - 100411
+  - 110
+  - 460
+  - se_adv_emote_question_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004003_008
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - ……哥哥說不管切斷哪邊都會有臉盆掉下來？
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 才不會這樣，哥哥放心吧～
+- touch: *o0
+- choice:
+  - 右邊。
+  - 5
+- choice:
+  - 左邊。
+  - 6
+- tag:
+  - 5
+- fadeout:
+  - 100411
+  - 30
+- effect:
+  - 0001
+  - se_adv_rope_cut_01
+- wait:
+  - 30
+- shake_loop: *o0
+- effect:
+  - 0017
+  - '@non'
+- se:
+  - se_adv_metal_tab_hit_01
+- wait:
+  - 30
+- shake_delete: *o0
+- chara_full:
+  - 100411
+  - C
+  - 2
+- fadein:
+  - 100411
+  - 30
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004003_009
+- face:
+  - 100411
+  - 2
+- emotion:
+  - heart1_R
+  - 100411
+  - 70
+  - 445
+  - se_adv_emote_heart_01
+- print:
+  - 禊
+  - 呀哈哈哈！
+- jump:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 真是太可惜了～！
+- wait:
+  - 60
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 右邊是錯誤選擇～！
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004003_010
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 雖然水盆砸到聲音很大，但不會痛喔～
+- wait:
+  - 10
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 對吧，其實沒有那麼痛吧？
+- wait:
+  - 15
+- touch: *o0
+- goto:
+  - 7
+- tag:
+  - 6
+- fadeout:
+  - 100411
+  - 30
+- effect:
+  - 0001
+  - se_adv_rope_cut_01
+- wait:
+  - 30
+- white_out:
+  - 0.7
+  - 0.5
+- se:
+  - se_adv_water_trap_01
+- wait:
+  - 15
+- white_in: *o0
+- chara_full:
+  - 100411
+  - C
+  - 2
+- fadein:
+  - 100411
+  - 30
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004003_011
+- face:
+  - 100411
+  - 2
+- emotion:
+  - heart1_R
+  - 100411
+  - 70
+  - 445
+  - se_adv_emote_heart_01
+- print:
+  - 禊
+  - 正確選擇～！
+- jump:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 右邊是錯誤選擇的金屬臉盆！
+- wait:
+  - 75
+- print:
+  - 禊
+  - >2-
+
+    左邊則會灑下超多的水～！
+- wait:
+  - 60
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 欸嘿嘿～♪
+- touch: *o0
+- tag:
+  - 7
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004003_012
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 那再接下來，則是陷阱地洞了～
+- wait:
+  - 75
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 右邊和左邊，哥哥要選哪邊……
+- wait:
+  - 30
+- touch: *o0
+- fadeout:
+  - 100411
+  - 30
+- se:
+  - se_adv_step_concrete_walk_armor_go_01
+- camera_zoom:
+  - 1.3
+  - 20
+- wait:
+  - 10
+- se:
+  - se_adv_bush_01
+- shake_once:
+  - 2
+- black_out:
+  - 1
+  - 0.5
+- se:
+  - se_adv_bodyfall_01
+- bg_pan:
+  - 0
+  - -50
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- bg_pan:
+  - -50
+  - 0
+  - 15
+- flash: *o0
+- wait:
+  - 30
+- effect:
+  - 0024
+  - se_adv_smokeball_01
+- shake_screen: *o0
+- wait:
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 5
+- camera_zoom:
+  - 1
+  - 1
+- wait:
+  - 15
+- chara_full:
+  - 100411
+  - RC
+  - 2
+- se:
+  - se_adv_step_concrete_move_01
+- change:
+  - C
+  - RC
+- fadein:
+  - 100411
+  - 30
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004003_013
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 呼呼呼呼……
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2-
+
+    哥哥居然全部的陷阱都中招了～♪
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 對於設下陷阱的人來說，惡整哥哥真的很有成就感呢～
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004003_014
+- face:
+  - 100411
+  - 4
+- print:
+  - 禊
+  - ……不過哥哥這樣真的讓人很擔心呢。
+- wait:
+  - 25
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 3
+- print:
+  - 禊
+  - 哥哥實在太老實了。
+- wait:
+  - 40
+- print:
+  - 禊
+  - >2-
+
+    要稍微懷疑別人一下才行呀。
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004003_015
+- face:
+  - 100411
+  - 4
+- print:
+  - 禊
+  - 哎呀，不過這也是哥哥的優點啦。
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004003_016
+- face:
+  - 100411
+  - 3
+- pop:
+  - 100411
+- print:
+  - 禊
+  - 一定要把禊想成是一個『老是說謊的壞孩子─！』，
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2-
+
+    這樣才可以啊！
+- touch: *o0
+- choice:
+  - 我覺得禊是個好孩子。
+  - 8
+- tag:
+  - 8
+- window_visible:
+  - false
+- face:
+  - 100411
+  - 6
+- emotion:
+  - shy1_R
+  - 100411
+  - -90
+  - 445
+  - se_adv_emote_shy_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004003_017
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - 欸！？哥、哥哥在說啥呀！
+- wait:
+  - 40
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 5
+- print:
+  - 禊
+  - 才沒有這種事呢～
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 4
+- print:
+  - 禊
+  - 禊老是對哥哥惡作劇……
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004003_018
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - ……因為禊很認真地教哥哥怎樣才不會被惡整？
+- wait:
+  - 10
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 4
+- print:
+  - 禊
+  - 那是因為哥哥實在太老實了，禊很擔心哥哥的關係……
+- wait:
+  - 30
+- touch: *o0
+- effect:
+  - 0044
+  - se_adv_happy_particle_01
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004003_019
+- face:
+  - 100411
+  - 5
+- print:
+  - 禊
+  - 因為、禊從來沒有被說過是一個好孩子……
+- wait:
+  - 25
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 所、所以有點害羞呢～欸嘿嘿～♪
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004003_020
+- face:
+  - 100411
+  - 5
+- jump:
+  - 100411
+- print:
+  - 禊
+  - 今、今天的課就上到這裡！結束了！
+- wait:
+  - 55
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 哥哥，我們回蘭德索爾吧！
+- wait:
+  - 15
+- touch: *o0
+- effect_delete:
+  - 0044
+  - 30
+- window_visible:
+  - false
+- face:
+  - 100411
+  - 6
+- emotion:
+  - notice1_L
+  - 100411
+  - -75
+  - 480
+  - se_adv_emote_common_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004003_021
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - ……啊！
+- face:
+  - 100411
+  - 3
+- print:
+  - 禊
+  - 哥哥，不可以走那邊！
+- wait:
+  - 25
+- print:
+  - 禊
+  - >2-
+
+    那邊有洞呀！
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2-
+
+    不可以走那邊，要走這邊才……
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - 咦？
+- wait:
+  - 45
+- touch: *o0
+- bgm:
+  - stop
+  - 6
+  - 1
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004003_022
+- face:
+  - 100411
+  - 4
+- print:
+  - 禊
+  - 禊有在這邊設下陷阱嗎……
+- wait:
+  - 10
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 這樣的話，那邊的路是……
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - 咦？哎呀呀？
+- wait:
+  - 40
+- touch: *o0
+- bgm:
+  - bgm_M51
+- window_visible:
+  - false
+- change:
+  - LC
+  - C
+- wait:
+  - 15
+- change:
+  - RC
+  - LC
+- wait:
+  - 30
+- change:
+  - C
+  - RC
+- wait:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004003_023
+- face:
+  - 100411
+  - 4
+- emotion:
+  - sweat2_R
+  - 100411
+  - 80
+  - 490
+  - se_adv_emote_sweat_02
+- jump:
+  - 100411
+- print:
+  - 禊
+  - 禊、禊搞不清楚了───！！！？？？
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004003_024
+- face:
+  - 100411
+  - 3
+- nod:
+  - 100411
+- print:
+  - 禊
+  - 讓人誤以為這邊有陷阱，其實是在另一邊……
+- wait:
+  - 60
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 4
+- print:
+  - 禊
+  - 不過其實那是偽裝，真正的陷阱在那邊……
+- wait:
+  - 60
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - 然後相反的這邊……再給人出奇不意……
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004003_025
+- face:
+  - 100411
+  - 4
+- emotion:
+  - drop1_R
+  - 100411
+  - 75
+  - 620
+  - se_adv_emote_drop_01
+- print:
+  - 禊
+  - 啊啊──！禊回不了家啦───！！
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2-
+
+    怎麼辦，哥哥───！
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 於是禊因為自己設下的惡作劇而進退不得、無計可施。
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0025
+  - se_adv_cold_wind_01
+- wait:
+  - 45
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

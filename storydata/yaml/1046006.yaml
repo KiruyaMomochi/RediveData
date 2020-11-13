@@ -1,0 +1,2489 @@
+- title:
+  - 珠希 第6話
+- outline:
+  - '{0}幫助被逮捕的珠希脫逃。其實幻影貓被抓住等一連串的事件，全都是奸商惡德伊的陰謀。珠希一行人打倒了惡德伊後，把他的錢都發送到城鎮裡。'
+- background:
+  - 500010
+- amb:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 幻影貓再現
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    {0}，
+
+    在打倒惡徒「惡德伊商會」的珠希的鼓勵之下，
+
+    成為收到小偷犯罪預告的那戶人家的保鑣。
+- touch: &o0 []
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    當真正抓到小偷時，發現居然是珠希。
+
+    珠希說著一定有什麼搞錯了，
+
+    但美少女義賊・幻影貓的真正身分被暴露在眾人面前。
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    雖然珠希就這樣被王宮騎士團帶走，
+
+    但王宮騎士團離開之後，
+
+    不知為何掉下了「惡德伊商會」的名片。
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - bgm_M21
+- chara_full:
+  - 311
+  - RC
+  - 3
+- chara_full:
+  - 1011
+  - LC
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1046006_000
+- face:
+  - 311
+  - 3
+- pop:
+  - 311
+- print:
+  - 男性１
+  - 喂，你聽說幻影貓的事情了嗎？
+- wait:
+  - 60
+- print:
+  - 男性１
+  - >2-
+
+    她到好人家中偷竊，
+- wait:
+  - 45
+- print:
+  - 男性１
+  - >2-
+
+    被王宮騎士團抓住的傳聞……
+- touch: *o0
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_1046006_001
+- face:
+  - 1011
+  - 3
+- nod:
+  - 1011
+- print:
+  - 男性２
+  - 嗯嗯。
+- wait:
+  - 30
+- print:
+  - 男性２
+  - >2-
+
+    她居然從好人那裡偷錢，終於暴露身分了。
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1011
+  - 30
+- chara_full:
+  - 411
+  - LC
+  - 4
+- fadein:
+  - 411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1046006_002
+- face:
+  - 411
+  - 4
+- print:
+  - 女性
+  - 我明明那麼相信幻影貓，
+- wait:
+  - 45
+- print:
+  - 女性
+  - >2-
+
+    有種被背叛的心情……
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1046006_003
+- face:
+  - 311
+  - 4
+- print:
+  - 男性１
+  - 果然，沒有什麼義賊嘛。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 6
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500340
+- bg_pan:
+  - -170
+  - -170
+  - 0
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_wind_02
+- bg_pan:
+  - -170
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    在墮落的義賊・幻影貓的話題，
+
+    傳遍整個城鎮的當晚――
+- touch: *o0
+- window_visible:
+  - false
+- se_effect:
+  - 3
+- vo_effect:
+  - 3
+- se:
+  - se_adv_step_concrete_walk_armor_come_01
+- wait:
+  - 30
+- choice:
+  - ……珠希。
+  - 1
+- tag:
+  - 1
+- bgm:
+  - bgm_M19
+  - 0
+  - 0
+  - 1
+- chara_full:
+  - 104611
+  - C
+  - 6
+- fadein:
+  - 104611
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_004
+- face:
+  - 104611
+  - 6
+- print:
+  - 珠希
+  - '……喵？ '
+- face:
+  - 104611
+  - 4
+- print:
+  - 珠希
+  - 有聲音從單人牢房外傳來喵……
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 104611
+  - 6
+- emotion:
+  - exclamation1_R
+  - 104611
+  - 25
+  - 640
+  - se_adv_emote_common_01
+- pop:
+  - 104611
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_005
+- face:
+  - 104611
+  - 6
+- print:
+  - 珠希
+  - 這個聲音是……！？
+- wait:
+  - 60
+- print:
+  - 珠希
+  - >2-
+
+    你為什麼會在這裡……
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_006
+- face:
+  - 104611
+  - 6
+- print:
+  - 珠希
+  - 你說來跟我說話嗎……？
+- wait:
+  - 75
+- print:
+  - 珠希
+  - >2
+
+- face:
+  - 104611
+  - 1
+- print:
+  - 珠希
+  - 這樣啊……你居然為了跟我說話，
+- wait:
+  - 120
+- print:
+  - 珠希
+  - >2-
+
+    特地到拘留所來喵……
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_007
+- face:
+  - 104611
+  - 4
+- print:
+  - 珠希
+  - ……{0}。
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_008
+- face:
+  - 104611
+  - 4
+- face:
+  - 104611
+  - 3
+- print:
+  - 珠希
+  - 我可能已經無法再和你說話了……
+- wait:
+  - 90
+- print:
+  - 珠希
+  - >2
+
+- nod:
+  - 104611
+- print:
+  - 珠希
+  - 所以我要為一直以來發生的所有事情道歉喵。
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_009
+- face:
+  - 104611
+  - 4
+- print:
+  - 珠希
+  - ……對不起，一直以來瞞著你許多義賊的事喵。
+- wait:
+  - 120
+- print:
+  - 珠希
+  - >2-
+
+    而且，
+- wait:
+  - 45
+- print:
+  - 珠希
+  - >2-
+
+    還讓你參與了行動……
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_010
+- face:
+  - 104611
+  - 4
+- print:
+  - 珠希
+  - 可能我最近太順利了，
+- nod:
+  - 104611
+- wait:
+  - 75
+- print:
+  - 珠希
+  - >2-
+
+    所以太得意忘形了喵……
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_011
+- face:
+  - 104611
+  - 4
+- print:
+  - 珠希
+  - 因為如此，我也沒有好好調查，
+- wait:
+  - 90
+- print:
+  - 珠希
+  - >2-
+
+    就到無辜的人家中偷竊了喵……
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_012
+- face:
+  - 104611
+  - 1
+- eye_open:
+  - False
+- print:
+  - 珠希
+  - 現在想起來，
+- wait:
+  - 75
+- print:
+  - 珠希
+  - >2-
+
+    那個時候你阻止我真是太好了喵。
+- wait:
+  - 90
+- print:
+  - 珠希
+  - >2
+
+- face:
+  - 104611
+  - 4
+- eye_open:
+  - False
+- print:
+  - 珠希
+  - 說實話，我應該聽你的話慎重行事才對喵……
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_013
+- face:
+  - 104611
+  - 4
+- print:
+  - 珠希
+  - 我真的很抱歉喵……
+- wait:
+  - 60
+- print:
+  - 珠希
+  - >2-
+
+    也許，他們會追溯過去的事，
+- wait:
+  - 60
+- print:
+  - 珠希
+  - >2-
+
+    你也會被追究責任也說不定喵。
+- touch: *o0
+- effect_delete:
+  - 0011
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_014
+- face:
+  - 104611
+  - 3
+- print:
+  - 珠希
+  - 但是，不用擔心喵。
+- wait:
+  - 60
+- print:
+  - 珠希
+  - >2
+
+- face:
+  - 104611
+  - 1
+- print:
+  - 珠希
+  - 無論如何，
+- wait:
+  - 30
+- print:
+  - 珠希
+  - >2-
+
+    我會為了不讓你之後被問罪而努力喵。
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_015
+- face:
+  - 104611
+  - 3
+- print:
+  - 珠希
+  - 全部，
+- nod:
+  - 104611
+- print:
+  - 珠希
+  - 全─部都是我的錯……
+- wait:
+  - 105
+- print:
+  - 珠希
+  - >2-
+
+    即使在法庭上，我也會這麼作證的喵。
+- wait:
+  - 60
+- print:
+  - 珠希
+  - >2
+
+- face:
+  - 104611
+  - 4
+- print:
+  - 珠希
+  - 所以──
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_016
+- face:
+  - 104611
+  - 4
+- print:
+  - 珠希
+  - 所以，在這次談話之後，
+- wait:
+  - 105
+- print:
+  - 珠希
+  - >2-
+
+    你……和我就是沒有關係的人喵。
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_017
+- face:
+  - 104611
+  - 2
+- print:
+  - 珠希
+  - 一直以來受你照顧了喵。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_018
+- face:
+  - 104611
+  - 1
+- print:
+  - 珠希
+  - 重新回想的話，我總是受到你的幫助喵。
+- wait:
+  - 120
+- print:
+  - 珠希
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 珠希
+  - 初次見面時也是……小貓不見的時候也是……
+- wait:
+  - 120
+- print:
+  - 珠希
+  - >2-
+
+    我當義賊的時候也是……
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_019
+- face:
+  - 104611
+  - 2
+- print:
+  - 珠希
+  - 喂。
+- wait:
+  - 45
+- print:
+  - 珠希
+  - >2-
+
+    至今為止和你一起度過的時光，我很開心喵。
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_020
+- face:
+  - 104611
+  - 5
+- print:
+  - 珠希
+  - ……謝謝你喵……
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_021
+- face:
+  - 104611
+  - 2
+- print:
+  - 珠希
+  - 那麼，還有三秒，
+- wait:
+  - 60
+- print:
+  - 珠希
+  - >2-
+
+    你和我就是沒有關係的人喵。
+- face:
+  - 104611
+  - 1
+- print:
+  - 珠希
+  - 三、二、
+- face:
+  - 104611
+  - 4
+- print:
+  - 珠希
+  - 一……
+- wait:
+  - 105
+- touch: *o0
+- choice:
+  - 將手中握住的東西丟向牆壁。
+  - 2
+- tag:
+  - 2
+- se:
+  - se_adv_weapon_punch_set_01
+- bgm:
+  - stop
+  - 3
+  - 1
+- fadeout:
+  - 104611
+  - 30
+- shake_once:
+  - 2
+- effect:
+  - 0010
+  - se_adv_explosion_house_01
+- white_out:
+  - 1
+  - 0.3
+- wait:
+  - 15
+- white_in: *o0
+- effect:
+  - 0013
+- se_effect:
+  - 0
+- vo_effect:
+  - 0
+- chara_full:
+  - 104611
+  - C
+  - 6
+  - 1
+- fadein:
+  - 104611
+  - 30
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_022
+- face:
+  - 104611
+  - 6
+- print:
+  - 珠希
+  - 喵嗚？
+- shake:
+  - 104611
+- wait:
+  - 15
+- print:
+  - 珠希
+  - >2-
+
+    喵───！？
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_023
+- face:
+  - 104611
+  - 4
+- print:
+  - 珠希
+  - 咳，
+- face:
+  - 104611
+  - 3
+- print:
+  - 珠希
+  - 喵嗚！
+- wait:
+  - 45
+- print:
+  - 珠希
+  - >2
+
+- face:
+  - 104611
+  - 3
+- eye_open:
+  - TRUE
+- print:
+  - 珠希
+  - 發、發生什麼事了喵……！？
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 104611
+  - 6
+- emotion:
+  - notice1_L
+  - 104611
+  - -60
+  - 520
+  - se_adv_emote_common_01
+- pop:
+  - 104611
+- wait:
+  - 15
+- window_visible:
+  - true
+- bgm:
+  - bgm_M13
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_024
+- face:
+  - 104611
+  - 6
+- print:
+  - 珠希
+  - 這是……拘留所的牆壁被……
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_025
+- face:
+  - 104611
+  - 6
+- print:
+  - 珠希
+  - 難道，你是來救我的喵……？
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_026
+- face:
+  - 104611
+  - 3
+- print:
+  - 珠希
+  - 嗅嗅……這個味道是火藥……？
+- wait:
+  - 60
+- print:
+  - 珠希
+  - >2
+
+- face:
+  - 104611
+  - 6
+- print:
+  - 珠希
+  - 難道你用炸彈炸毀牢房了喵……？
+- wait:
+  - 45
+- touch: *o0
+- fadeout:
+  - 104611
+  - 30
+- chara_full:
+  - 104611
+  - C
+  - 4
+- scale:
+  - 104611
+  - 1.3
+  - 2
+- fadein:
+  - 104611
+  - 30
+- effect:
+  - 0009
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_027
+- face:
+  - 104611
+  - 4
+- print:
+  - 珠希
+  - 笨蛋笨蛋！
+- pop:
+  - 104611
+- wait:
+  - 30
+- print:
+  - 珠希
+  - >2-
+
+    你為了讓我從拘留所逃走而炸毀牆壁……
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_028
+- face:
+  - 104611
+  - 3
+- print:
+  - 珠希
+  - 搞不好你也有可能會變成逃犯的喵。
+- wait:
+  - 90
+- print:
+  - 珠希
+  - >2
+
+- face:
+  - 104611
+  - 4
+- print:
+  - 珠希
+  - 但還是覺得……太好了喵！？
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 7
+- wait:
+  - 15
+- face:
+  - 104611
+  - 4
+- emotion:
+  - question1_R
+  - 104611
+  - 170
+  - 530
+  - '*non'
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_029
+- face:
+  - 104611
+  - 4
+- print:
+  - 珠希
+  - ……咦？
+- wait:
+  - 45
+- print:
+  - 珠希
+  - >2-
+
+    你叫我看後面……
+- face:
+  - 104611
+  - 6
+- pop:
+  - 104611
+- print:
+  - 珠希
+  - 啊──！ 這裡是！
+- wait:
+  - 105
+- touch: *o0
+- fadeout:
+  - 104611
+  - 30
+- black_out:
+  - 1
+  - 0.3
+- effect_delete:
+  - 0013
+- background:
+  - 500012
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- amb:
+  - amb_adv_outdoors_night_02
+- chara_full:
+  - 104611
+  - C
+  - 6
+- fadein:
+  - 104611
+  - 30
+- bgm:
+  - bgm_M21_03
+  - 0
+  - 0
+  - 1
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_030
+- face:
+  - 104611
+  - 6
+- print:
+  - 珠希
+  - 這裡是之前我曾經偷竊過的宅邸……
+- wait:
+  - 90
+- print:
+  - 珠希
+  - >2
+
+- face:
+  - 104611
+  - 3
+- print:
+  - 珠希
+  - 是惡德伊商會的宅邸喵！
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_031
+- face:
+  - 104611
+  - 6
+- print:
+  - 珠希
+  - 這裡不是拘留所嗎喵……？
+- wait:
+  - 60
+- print:
+  - 珠希
+  - >2
+
+- face:
+  - 104611
+  - 3
+- print:
+  - 珠希
+  - 也就是說，那個騎士團是惡德伊的手下？
+- wait:
+  - 45
+- print:
+  - 珠希
+  - >2
+
+- face:
+  - 104611
+  - 4
+- print:
+  - 珠希
+  - 就算如此，惡德伊為什麼要做這種事……
+- wait:
+  - 30
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1046006_032
+- face:
+  - 1
+  - 1
+- print:
+  - ？？？
+  - 你們，站住！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_033
+- face:
+  - 104611
+  - 6
+- emotion:
+  - exclamation1_R
+  - 104611
+  - 25
+  - 640
+  - se_adv_emote_common_01
+- print:
+  - 珠希
+  - ！？
+- wait:
+  - 30
+- print:
+  - 珠希
+  - >2
+
+- face:
+  - 104611
+  - 3
+- print:
+  - 珠希
+  - 你是……惡德伊！
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- change:
+  - R
+  - C
+  - 30
+- wait:
+  - 15
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- bgm:
+  - bgm_M42_02
+- chara_full:
+  - 911
+  - L
+  - 1
+- change:
+  - LC
+  - L
+  - 30
+- fadein:
+  - 911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_034
+- face:
+  - 104611
+  - 3
+- pop:
+  - 104611
+- print:
+  - 珠希
+  - 惡德伊，為什麼你要這樣做喵。
+- wait:
+  - 75
+- print:
+  - 珠希
+  - >2-
+
+    想向我復仇的話，直接引誘我到這裡就好了喵。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1046006_035
+- face:
+  - 911
+  - 1
+- print:
+  - 惡德伊
+  - 呵呵呵，前陣子受你的照顧了呢，珠希。
+- wait:
+  - 75
+- print:
+  - 惡德伊
+  - >2-
+
+    你問我為什麼要這樣做……？
+- wait:
+  - 45
+- print:
+  - 惡德伊
+  - >2-
+
+    因為就算殺了你，也無法完成我的復仇！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_036
+- face:
+  - 104611
+  - 6
+- print:
+  - 珠希
+  - 完成復仇，喵……？
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1046006_037
+- face:
+  - 911
+  - 3
+- print:
+  - 惡德伊
+  - 我的目的就是……
+- wait:
+  - 90
+- print:
+  - 惡德伊
+  - >2-
+
+    讓最近在社會上，受到吹捧的義賊・幻影貓的名聲
+- wait:
+  - 60
+- print:
+  - 惡德伊
+  - >2-
+
+    跌到谷底喔。
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1046006_038
+- face:
+  - 911
+  - 3
+- print:
+  - 惡德伊
+  - 我想著只要在意見箱內投入信件，她會不會就得意忘形，
+- wait:
+  - 60
+- print:
+  - 惡德伊
+  - >2-
+
+    到窮人的家中偷竊呢，
+- wait:
+  - 60
+- print:
+  - 惡德伊
+  - >2
+
+- face:
+  - 911
+  - 2
+- print:
+  - 惡德伊
+  - 果然如我所料。
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_039
+- face:
+  - 104611
+  - 3
+- pop:
+  - 104611
+- print:
+  - 珠希
+  - 你到底是多奸詐狡猾的人啊喵……！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1046006_040
+- face:
+  - 911
+  - 1
+- print:
+  - 惡德伊
+  - 不過，幻影貓。
+- wait:
+  - 45
+- print:
+  - 惡德伊
+  - >2-
+
+    你會馬上得意忘形是事實。
+- wait:
+  - 60
+- print:
+  - 惡德伊
+  - >2
+
+- pop:
+  - 911
+- print:
+  - 惡德伊
+  - 即使如此，你還是打算要繼續當義賊嗎？
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1046006_041
+- face:
+  - 911
+  - 1
+- print:
+  - 惡德伊
+  - 不知何時妳又會被像我這樣的人欺騙呢！
+- wait:
+  - 90
+- print:
+  - 惡德伊
+  - >2
+
+- face:
+  - 911
+  - 2
+- print:
+  - 惡德伊
+  - 哈────哈哈哈！
+- touch: *o0
+- bgm:
+  - stop
+  - 6
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_042
+- face:
+  - 104611
+  - 4
+- print:
+  - 珠希
+  - ……的確，
+- wait:
+  - 60
+- print:
+  - 珠希
+  - >2-
+
+    前陣子的我也許不小心犯了錯喵。
+- touch: *o0
+- bgm:
+  - bgm_M67
+  - 0
+  - 0
+  - 1
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_043
+- face:
+  - 104611
+  - 3
+- print:
+  - 珠希
+  - ……
+- nod:
+  - 104611
+- print:
+  - 珠希
+  - 但是，
+- wait:
+  - 60
+- print:
+  - 珠希
+  - >2-
+
+    今後的我和至今的我有不同之處喵。
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1046006_044
+- face:
+  - 911
+  - 6
+- print:
+  - 惡德伊
+  - ……和至今的妳有不同之處嗎……？
+- wait:
+  - 90
+- print:
+  - 惡德伊
+  - >2
+
+- face:
+  - 911
+  - 3
+- print:
+  - 惡德伊
+  - 那是什麼！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_045
+- face:
+  - 104611
+  - 3
+- pop:
+  - 104611
+- print:
+  - 珠希
+  - 那就是我的身邊有這傢伙喵！
+- wait:
+  - 45
+- print:
+  - 珠希
+  - >2
+
+- face:
+  - 104611
+  - 4
+- print:
+  - 珠希
+  - 的確，我是很任性，
+- wait:
+  - 90
+- print:
+  - 珠希
+  - >2-
+
+    有時可能沒有仔細思考就魯莽行事喵。
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_046
+- face:
+  - 104611
+  - 4
+- print:
+  - 珠希
+  - 若只有我一個人的話，有時也許會犯錯……
+- face:
+  - 104611
+  - 3
+- print:
+  - 珠希
+  - 但是……！
+- wait:
+  - 75
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_047
+- face:
+  - 104611
+  - 3
+- print:
+  - 珠希
+  - 但是，若有這傢伙在我身邊的話……！
+- wait:
+  - 75
+- print:
+  - 珠希
+  - >2
+
+- face:
+  - 104611
+  - 2
+- print:
+  - 珠希
+  - 兩人的話就會不同喵！
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_048
+- face:
+  - 104611
+  - 1
+- print:
+  - 珠希
+  - 而且，即使兩人都犯了錯，
+- wait:
+  - 75
+- print:
+  - 珠希
+  - >2
+
+- face:
+  - 104611
+  - 2
+- print:
+  - 珠希
+  - 也已經做好一起下地獄的覺悟喵！
+- touch: *o0
+- bgm:
+  - stop
+  - 6
+  - 1
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1046006_049
+- face:
+  - 911
+  - 3
+- print:
+  - 惡德伊
+  - 可惡……妳這小鬼啊啊！
+- wait:
+  - 75
+- print:
+  - 惡德伊
+  - >2
+
+- pop:
+  - 911
+- print:
+  - 惡德伊
+  - 去死吧！！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_armor_come_01
+- fadeout_all:
+  - 30
+- choice:
+  - 珠希，危險！
+  - 3
+- choice:
+  - 保護珠希。
+  - 4
+- tag:
+  - 3
+- window_visible:
+  - true
+- chara_full:
+  - 104611
+  - LC
+  - 1
+- se:
+  - se_adv_move_fast_01
+- change:
+  - C
+  - LC
+  - 30
+- fadein:
+  - 104611
+  - 30
+- se:
+  - se_adv_weapon_hammer_whiff_01
+- bgm:
+  - bgm_M18
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_050
+- face:
+  - 104611
+  - 1
+- print:
+  - 珠希
+  - 放心喵！
+- wait:
+  - 30
+- print:
+  - 珠希
+  - >2
+
+- face:
+  - 104611
+  - 3
+- print:
+  - 珠希
+  - 嘿、咻！
+- wait:
+  - 15
+- touch: *o0
+- goto:
+  - 5
+- tag:
+  - 4
+- window_visible:
+  - true
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 01
+- effect:
+  - 01
+  - se_adv_weapon_axe_hit_01
+  - 270
+- effect:
+  - 45
+- wait:
+  - 15
+- background:
+  - 500012
+- wait:
+  - 15
+- bgm:
+  - bgm_M18
+- chara_full:
+  - 911
+  - C
+  - 3
+- fadein:
+  - 911
+  - 30
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1046006_051
+- face:
+  - 911
+  - 3
+- print:
+  - 惡德伊
+  - 可惡
+- pop:
+  - 911
+- print:
+  - 惡德伊
+  - ！
+- wait:
+  - 15
+- print:
+  - 惡德伊
+  - >2-
+
+    你這小子不要妨礙我！
+- wait:
+  - 30
+- touch: *o0
+- fadeout:
+  - 911
+  - 30
+- chara_full:
+  - 104611
+  - C
+  - 3
+- fadein:
+  - 104611
+  - 30
+- tag:
+  - 5
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_052
+- face:
+  - 104611
+  - 3
+- print:
+  - 珠希
+  - 喵，喵，
+- shake:
+  - 104611
+- print:
+  - 珠希
+  - 喵！
+- wait:
+  - 60
+- print:
+  - 珠希
+  - >2-
+
+    這個……如何喵？
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- scale:
+  - 104611
+  - 1.3
+  - 2
+  - 5
+- fadeout:
+  - 104611
+  - 15
+- chara_full:
+  - 911
+  - C
+  - 6
+- se:
+  - se_adv_weapon_punch_hit_01
+- fadein_all:
+  - 30
+- se:
+  - se_adv_step_dirt_move_01
+- effect:
+  - 0009
+- emotion:
+  - surprise1_L
+  - 911
+  - 130
+  - 620
+  - '*non'
+- sway:
+  - 911
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1046006_053
+- face:
+  - 911
+  - 6
+- print:
+  - 惡德伊
+  - 呃……！？ 放、放開我！
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- window_visible:
+  - true
+- text_size:
+  - 50
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 1
+- vo:
+  - vo_adv_1046006_054
+- face:
+  - 104611
+  - 3
+- print:
+  - 珠希
+  - 就是現在喵！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 911
+  - 30
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 16
+  - se_adv_weapon_sword_hit_01
+- wait:
+  - 30
+- background:
+  - 500012
+- chara_full:
+  - 911
+  - C
+  - 4
+  - 1
+- fadein:
+  - 911
+  - 30
+- window_visible:
+  - true
+- text_size:
+  - 23
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1046006_055
+- face:
+  - 911
+  - 4
+- print:
+  - 惡德伊
+  - '喀啊……！ '
+- eye_open:
+  - TRUE
+- print:
+  - 惡德伊
+  - 這、這……不可能……
+- wait:
+  - 60
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+- window_visible:
+  - false
+- se:
+  - se_adv_cloth_move_normal_01
+- updown:
+  - 911
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 911
+  - 30
+- shake_loop: *o0
+- se:
+  - se_adv_bodyfall_02
+- wait:
+  - 15
+- shake_delete: *o0
+- chara_full:
+  - 104611
+  - C
+  - 1
+- fadein:
+  - 104611
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M36_02_Strings
+  - 0
+  - 0
+  - 1
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_056
+- face:
+  - 104611
+  - 1
+- print:
+  - 珠希
+  - 做得好喵。
+- wait:
+  - 30
+- print:
+  - 珠希
+  - >2-
+
+    惡德伊好像昏過去了喵。
+- wait:
+  - 45
+- print:
+  - 珠希
+  - >2
+
+- face:
+  - 104611
+  - 3
+- print:
+  - 珠希
+  - 我們趁現在逃走吧喵！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_dirt_move_01
+- change:
+  - LC
+  - C
+  - 30
+- wait:
+  - 15
+- face:
+  - 104611
+  - 6
+- shake:
+  - 104611
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_057
+- face:
+  - 104611
+  - 6
+- print:
+  - 珠希
+  - 啊……對了，既然如此……！
+- wait:
+  - 60
+- print:
+  - 珠希
+  - >2
+
+- face:
+  - 104611
+  - 1
+- print:
+  - 珠希
+  - 你稍等我一下喵！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_dirt_run_go_01
+- out_R:
+  - 104611
+  - 45
+  - true
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- wait:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - se_adv_step_dirt_run_come_01
+- wait:
+  - 30
+- chara_full:
+  - 104611
+  - RC
+  - 1
+- change:
+  - C
+  - RC
+  - 30
+- fadein:
+  - 104611
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_058
+- face:
+  - 104611
+  - 3
+- print:
+  - 珠希
+  - …………嘿咻。
+- nod:
+  - 104611
+- face:
+  - 104611
+  - 1
+- print:
+  - 珠希
+  - 呼。
+- wait:
+  - 60
+- touch: *o0
+- se:
+  - se_adv_metal_drop_01
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_059
+- face:
+  - 104611
+  - 1
+- print:
+  - 珠希
+  - 你看這個包袱喵。
+- wait:
+  - 60
+- print:
+  - 珠希
+  - >2
+
+- face:
+  - 104611
+  - 2
+- print:
+  - 珠希
+  - 喵哈哈，大收獲喵。
+- wait:
+  - 60
+- print:
+  - 珠希
+  - >2-
+
+    是惡德伊商會靠惡劣手段所存的錢喵。
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_060
+- face:
+  - 104611
+  - 1
+- print:
+  - 珠希
+  - 將這些發送出去的話，不僅能讓惡德伊嚐到苦頭，
+- wait:
+  - 45
+- print:
+  - 珠希
+  - "\n也能讓城鎮裡的大家開心喵！ "
+- face:
+  - 104611
+  - 2
+- print:
+  - 珠希
+  - 所以，發送……
+- face:
+  - 104611
+  - 6
+- print:
+  - 珠希
+  - 啊！
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_061
+- face:
+  - 104611
+  - 4
+- print:
+  - 珠希
+  - 可以……
+- shake:
+  - 104611
+- print:
+  - 珠希
+  - 將這些發送出去嗎喵？ {0}？
+- wait:
+  - 45
+- touch: *o0
+- choice:
+  - 放手去做吧！
+  - 6
+- tag:
+  - 6
+- effect:
+  - 0046
+  - se_adv_happy_particle_01
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1046006_062
+- face:
+  - 104611
+  - 1
+- print:
+  - 珠希
+  - ……謝謝你喵。
+- wait:
+  - 15
+- print:
+  - 珠希
+  - >2
+
+- face:
+  - 104611
+  - 2
+- print:
+  - 珠希
+  - 那麼，我去囉喵！
+- wait:
+  - 15
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
+- effect_delete:
+  - 0046
+  - 30
+- fadeout:
+  - 104611
+  - 30
+- white_out:
+  - 1
+  - 1
+- still_unit:
+  - 104631
+- effect:
+  - 22
+- bgm:
+  - bgm_M06
+- white_in: *o0
+- se_effect:
+  - 3
+- vo_effect:
+  - 3
+- se:
+  - se_adv_paper_and_coin_throw_01
+- window_visible:
+  - true
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 1
+- vo:
+  - vo_adv_1046006_063
+- face:
+  - 104611
+  - 1
+- print:
+  - 珠希
+  - 來吧，大家！
+- wait:
+  - 30
+- print:
+  - 珠希
+  - >2
+
+- face:
+  - 104611
+  - 2
+- print:
+  - 珠希
+  - 你們盡情地將這些錢發出去吧喵！
+- wait:
+  - 15
+- touch: *o0
+- se:
+  - se_adv_cat_many_01
+- focus:
+  - 1711
+- bust:
+  - 1711
+  - 0
+- print:
+  - 貓咪們
+  - 喵─！
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 1
+- vo:
+  - vo_adv_1046006_064
+- face:
+  - 104611
+  - 2
+- print:
+  - 珠希
+  - 乖乖！
+- wait:
+  - 45
+- print:
+  - 珠希
+  - >2
+
+- face:
+  - 104611
+  - 3
+- print:
+  - 珠希
+  - 那麼，大家出發吧喵！
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 1
+- vo:
+  - vo_adv_1046006_065
+- face:
+  - 104611
+  - 1
+- print:
+  - 珠希
+  - 喵───！ 城鎮的大家喵！
+- wait:
+  - 90
+- print:
+  - 珠希
+  - >2-
+
+    這是幻影貓對造成大家困擾的賠禮喵──！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 1
+- vo:
+  - vo_adv_1046006_066
+- face:
+  - 104611
+  - 1
+- print:
+  - 珠希
+  - ……這樣就可以了。
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 1
+- vo:
+  - vo_adv_1046006_067
+- face:
+  - 104611
+  - 2
+- print:
+  - 珠希
+  - 喵，喵，喵─！
+- wait:
+  - 45
+- print:
+  - 珠希
+  - >2-
+
+    也要到我前陣子搞錯而去偷竊，造成對方困擾的那戶人家
+- wait:
+  - 60
+- print:
+  - 珠希
+  - >2
+
+- face:
+  - 104611
+  - 3
+- print:
+  - 珠希
+  - 好好發送才行喵！
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 1
+- vo:
+  - vo_adv_1046006_068
+- face:
+  - 104611
+  - 2
+- print:
+  - 珠希
+  - ……喂。
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 1
+- vo:
+  - vo_adv_1046006_069
+- face:
+  - 104611
+  - 4
+- print:
+  - 珠希
+  - 雖然我很任性，輕率……
+- wait:
+  - 75
+- print:
+  - 珠希
+  - >2-
+
+    會犯錯……
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 1
+- vo:
+  - vo_adv_1046006_070
+- face:
+  - 104611
+  - 5
+- print:
+  - 珠希
+  - ……今後也請多多指教喵！
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- print:
+  - 旁白
+  - >-
+    {0}與笑著說話的珠希，
+
+    為了將剩下的錢發送出去，
+
+    一起奔馳在夜晚的城鎮中。
+- touch: *o0
+- window_visible:
+  - false
+- se_effect:
+  - 0
+- vo_effect:
+  - 0
+- effect_delete:
+  - 22
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

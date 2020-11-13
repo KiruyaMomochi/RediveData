@@ -1,0 +1,256 @@
+- title:
+  - 拉姆的優點
+- outline:
+  - ' '
+- background:
+  - 500110
+- amb:
+  - amb_adv_room_noise_day_01
+- ui_visible:
+  - false
+- situation:
+  - 拉姆的優點
+- chara_full:
+  - 109711
+  - C
+  - 1
+- fadein:
+  - 109711
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M180_Ver2
+  - 0
+  - 0
+  - 1
+- focus:
+  - 109711
+- bust:
+  - 109711
+  - 0
+- vo:
+  - vo_adv_6017207_000
+- face:
+  - 109711
+  - 1
+- print:
+  - 雷姆
+  - 問這個有點突然，
+- wait:
+  - 30
+- print:
+  - 雷姆
+  - 可否請您說幾個姐姐的優點。
+- wait:
+  - 40
+- print:
+  - 雷姆
+  - >2
+
+- face:
+  - 109711
+  - 3
+- print:
+  - 雷姆
+  - 如果您說錯了……
+- wait:
+  - 50
+- print:
+  - 雷姆
+  - >2
+
+- face:
+  - 109711
+  - 1
+- print:
+  - 雷姆
+  - 可要對自己說的話負責喔。
+- touch: &o0 []
+- choice:
+  - 態度很囂張。
+  - 1
+  - 1
+- choice:
+  - 不工作。
+  - 2
+  - 2
+- choice:
+  - 臉皮很厚，總是跟我們撒嬌。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 109711
+- bust:
+  - 109711
+  - 0
+- vo:
+  - vo_adv_6017207_001
+- face:
+  - 109711
+  - 1
+- eye_open:
+  - False
+- print:
+  - 雷姆
+  - 這個答案還可以。
+- wait:
+  - 55
+- print:
+  - 雷姆
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 雷姆
+  - 那讓人難以望其項背的囂張態度，
+- wait:
+  - 55
+- print:
+  - 雷姆
+  - 總是讓雷姆佩服不已。
+- wait:
+  - 50
+- print:
+  - 雷姆
+  - >2-
+
+    為了讓姐姐能夠一直維持這種不加掩飾的真實模樣，
+- wait:
+  - 50
+- face:
+  - 109711
+  - 2
+- print:
+  - 雷姆
+  - 雷姆以後也會繼續努力。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 109711
+- bust:
+  - 109711
+  - 0
+- vo:
+  - vo_adv_6017207_002
+- face:
+  - 109711
+  - 1
+- emotion:
+  - note1_L
+  - 109711
+  - -90
+  - 470
+  - se_adv_emote_note_01
+- print:
+  - 雷姆
+  - 答得真好！
+- wait:
+  - 45
+- print:
+  - 雷姆
+  - 雷姆會連姐姐的工作也一起完成，
+- wait:
+  - 50
+- print:
+  - 雷姆
+  - >2-
+
+    好好照顧姐姐。
+- wait:
+  - 45
+- eye_open:
+  - False
+- print:
+  - 雷姆
+  - 不論是以女僕或是以妹妹的角度來看，
+- wait:
+  - 35
+- print:
+  - 雷姆
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 雷姆
+  - 能夠如此帶給別人成就感，真的很了不起。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 109711
+- bust:
+  - 109711
+  - 0
+- vo:
+  - vo_adv_6017207_003
+- face:
+  - 109711
+  - 2
+- emotion:
+  - twinkle1_R
+  - 109711
+  - -110
+  - 480
+  - se_adv_emote_twinkle_01
+- print:
+  - 雷姆
+  - 您真有眼光！
+- wait:
+  - 45
+- print:
+  - 雷姆
+  - >2-
+
+    不論是什麼樣的難題，
+- wait:
+  - 30
+- print:
+  - 雷姆
+  - 姐姐總是能用她的開朗打破僵局……
+- wait:
+  - 55
+- print:
+  - 雷姆
+  - >2
+
+- face:
+  - 109711
+  - 1
+- print:
+  - 雷姆
+  - 所以我們現在才能像這樣
+- wait:
+  - 35
+- print:
+  - 雷姆
+  - 受到各位的照顧。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 109711
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

@@ -1,0 +1,1525 @@
+- title:
+  - 優衣 第5話
+- outline:
+  - 陪著優衣買書時，店員以為兩人看作情侶，說情侶的話有折扣。在優衣煩惱的時候，{0}接受了打折。這個行為讓優衣的心情變得複雜了起來。
+- background:
+  - 500030
+- amb:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 一點一滴的在往前……
+- bgm:
+  - bgm_M71
+- chara_full:
+  - 100211
+  - RC
+  - 1
+- chara_full:
+  - 311
+  - LC
+  - 2
+- fadein_all:
+  - 30
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_1002005_000
+- face:
+  - 100211
+  - 1
+- print:
+  - 優衣
+  - 好
+- nod:
+  - 100211
+- print:
+  - 優衣
+  - 了……
+- wait:
+  - 20
+- print:
+  - 優衣
+  - >2
+
+- face:
+  - 100211
+  - 2
+- print:
+  - 優衣
+  - 真是謝謝了呢。
+- touch: &o0 []
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1002005_001
+- face:
+  - 311
+  - 2
+- print:
+  - 店員１
+  - 如果又有不錯的魔法書進貨了的話會再通知妳喔～。
+- touch: *o0
+- window_visible:
+  - false
+- focus:
+  - 100211
+- face:
+  - 100211
+  - 2
+- emotion:
+  - note1_L
+  - 100211
+  - -60
+  - 520
+  - '*non'
+- wait:
+  - 30
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - R
+  - RC
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- chara_full:
+  - 100211
+  - LC
+  - 4
+- change:
+  - C
+  - LC
+  - 60
+- fadein:
+  - 100211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_1002005_002
+- face:
+  - 100211
+  - 4
+- print:
+  - 優衣
+  - 好像，有點重呢……
+- wait:
+  - 20
+- print:
+  - 優衣
+  - >2-
+
+    才剛逛第一間店而已就好像買太多了呢……
+- touch: *o0
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_1002005_003
+- face:
+  - 100211
+  - 4
+- print:
+  - 優衣
+  - （但是最近，必須使用魔法的機會比起以前有所增加，
+- wait:
+  - 85
+- print:
+  - 優衣
+  - >2
+
+- face:
+  - 100211
+  - 3
+- print:
+  - 優衣
+  - 所以我得努力學習，讓自己能使用各式各樣的魔法才行呢……）
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- wait:
+  - 15
+- choice:
+  - 打招呼並示意要幫忙拿書。
+  - 1
+- tag:
+  - 1
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - TRUE
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_1002005_004
+- face:
+  - 100211
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100211
+  - 10
+  - 650
+  - se_adv_emote_common_01
+- print:
+  - 優衣
+  - 騎士先生！
+- wait:
+  - 10
+- print:
+  - 優衣
+  - >2
+
+- face:
+  - 100211
+  - 1
+- print:
+  - 優衣
+  - 請妳不用在意。雖然有點重，但我一個人也能搬得動的。
+- wait:
+  - 75
+- touch: *o0
+- choice:
+  - 還是不放心。
+  - 2
+- tag:
+  - 2
+- window_visible:
+  - false
+- face:
+  - 100211
+  - 6
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_1002005_005
+- face:
+  - 100211
+  - 5
+- print:
+  - 優衣
+  - ……謝謝你。
+- wait:
+  - 20
+- print:
+  - 優衣
+  - >2
+
+- face:
+  - 100211
+  - 1
+- print:
+  - 優衣
+  - ……那個，我可以再去逛一間書店嗎？
+- wait:
+  - 20
+- print:
+  - 優衣
+  - >2
+
+- face:
+  - 100211
+  - 2
+- print:
+  - 優衣
+  - 我還想再買一些魔法書呢。
+- touch: *o0
+- window_visible:
+  - false
+- change:
+  - RC
+  - C
+- fadeout:
+  - 100211
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 500030
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 100211
+  - LC
+  - 5
+- change:
+  - C
+  - LC
+- fadein:
+  - 100211
+  - 30
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_1002005_006
+- face:
+  - 100211
+  - 5
+- print:
+  - 優衣
+  - （騎士先生果然是個溫柔的人……
+- wait:
+  - 10
+- print:
+  - 優衣
+  - >2
+
+- face:
+  - 100211
+  - 2
+- print:
+  - 優衣
+  - 在夢境中，也是幫助過我好幾次了呢……）
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_1002005_007
+- face:
+  - 100211
+  - 5
+- print:
+  - 優衣
+  - （能和騎士先生兩人一同逛街購物，就好像約會一樣呢……）
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_1002005_008
+- face:
+  - 100211
+  - 7
+- print:
+  - 優衣
+  - （約會……
+- shake:
+  - 100211
+- print:
+  - 優衣
+  - 一這麼想，就似乎感到心跳加速了呢……！
+- wait:
+  - 20
+- print:
+  - 優衣
+  - >2
+
+- face:
+  - 100211
+  - 3
+- print:
+  - 優衣
+  - 我得保持冷靜才行呢……
+- eye_open:
+  - FALSE
+- print:
+  - 優衣
+  - 吸氣～，吐氣～……）
+- wait:
+  - 20
+- touch: *o0
+- window_visible:
+  - false
+- nod:
+  - 100211
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_1002005_009
+- face:
+  - 100211
+  - 7
+- eye_open:
+  - True
+- shake:
+  - 100211
+- print:
+  - 優衣
+  - （……完全冷靜不下來呀！）
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - R
+  - C
+  - 60
+- fadeout:
+  - 100211
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100211
+  - L
+  - 1
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 30
+- fadein:
+  - 100211
+  - 30
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_1002005_010
+- face:
+  - 100211
+  - 6
+- emotion:
+  - notice1_L
+  - 100211
+  - -55
+  - 540
+  - se_adv_emote_common_01
+- print:
+  - 優衣
+  - 啊！這裡就是剛才所說的另一間書店呢！
+- wait:
+  - 20
+- print:
+  - 優衣
+  - >2
+
+- face:
+  - 100211
+  - 4
+- print:
+  - 優衣
+  - 差點就走過頭了呢……
+- face:
+  - 100211
+  - 1
+- print:
+  - 優衣
+  - 打擾了！
+- wait:
+  - 10
+- touch: *o0
+- bgm:
+  - stop
+  - 4
+- se:
+  - se_adv_door_shop_open_01
+- wait:
+  - 15
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_1002005_011
+- face:
+  - 100211
+  - 6
+- print:
+  - 優衣
+  - （咦……？這間書店是……）
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- bgm:
+  - bgm_M11
+  - 0
+  - 0
+  - 1
+- chara_full:
+  - 1211
+  - RC
+  - 1
+- fadein:
+  - 1211
+  - 30
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 1211
+- bust:
+  - 1211
+  - 0
+- vo:
+  - vo_adv_1002005_012
+- face:
+  - 1211
+  - 1
+- print:
+  - 店員２
+  - 歡迎光臨～。
+- wait:
+  - 10
+- print:
+  - 店員２
+  - >2
+
+- face:
+  - 1211
+  - 2
+- print:
+  - 店員２
+  - 上次妳問有沒有進貨的那本新書，已經到貨囉！
+- wait:
+  - 10
+- touch: *o0
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_1002005_013
+- face:
+  - 100211
+  - 7
+- print:
+  - 優衣
+  - （弄，弄錯了～！
+- wait:
+  - 20
+- print:
+  - 優衣
+  - >2-
+
+    這裡不是販賣魔法書的書店……！）
+- touch: *o0
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_1002005_014
+- face:
+  - 100211
+  - 4
+- print:
+  - 優衣
+  - 呃……
+- face:
+  - 100211
+  - 3
+- print:
+  - 優衣
+  - 我想應該沒有這回事的……
+- wait:
+  - 20
+- touch: *o0
+- focus:
+  - 1211
+- bust:
+  - 1211
+  - 0
+- vo:
+  - vo_adv_1002005_015
+- face:
+  - 1211
+  - 6
+- print:
+  - 店員２
+  - 是嗎？那把它賣給其他人也沒問題囉？
+- wait:
+  - 20
+- print:
+  - 店員２
+  - >2
+
+- face:
+  - 1211
+  - 2
+- print:
+  - 店員２
+  - 這一期的月刊戀愛指南！
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_1002005_016
+- face:
+  - 100211
+  - 7
+- emotion:
+  - sweat2_R
+  - 100211
+  - 95
+  - 520
+  - '*non'
+- print:
+  - 優衣
+  - （不要把書名唸出來呀～！
+- wait:
+  - 75
+- print:
+  - 優衣
+  - >2
+
+- face:
+  - 100211
+  - 4
+- print:
+  - 優衣
+  - 嗚嗚嗚……真是害羞到讓人想趕快逃離這裡呢……）
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_1002005_017
+- face:
+  - 100211
+  - 7
+- print:
+  - 優衣
+  - 哇
+- sway:
+  - 100211
+- print:
+  - 優衣
+  - 哇哇哇哇……！
+- wait:
+  - 55
+- print:
+  - 優衣
+  - >2-
+
+    才、才不是呢！
+- wait:
+  - 20
+- print:
+  - 優衣
+  - >2
+
+- face:
+  - 100211
+  - 4
+- print:
+  - 優衣
+  - 今天我是來……！
+- touch: *o0
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_1002005_018
+- face:
+  - 100211
+  - 4
+- print:
+  - 優衣
+  - （雖然我的確有預約這本書，但不太想被騎士先生知道我有買這樣內容的書……）
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_1002005_019
+- face:
+  - 100211
+  - 4
+- print:
+  - 優衣
+  - （可是這本書，一進貨沒過多久就會賣完，
+- wait:
+  - 20
+- print:
+  - 優衣
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 優衣
+  - 如果找到的時候沒有立刻買下的話就沒機會再拿到手了……）
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- eye_open:
+  - true
+- wait:
+  - 15
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_1002005_020
+- face:
+  - 100211
+  - 4
+- print:
+  - 優衣
+  - ……我改變心意了，請給我1本吧。
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_money_give_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 1211
+- bust:
+  - 1211
+  - 0
+- vo:
+  - vo_adv_1002005_021
+- face:
+  - 1211
+  - 1
+- print:
+  - 店員２
+  - 謝謝惠顧。因為妳今天和男朋友一起來就給妳打折吧。
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_1002005_022
+- face:
+  - 100211
+  - 7
+- emotion:
+  - shy1_R
+  - 100211
+  - -90
+  - 490
+  - se_adv_emote_shy_01
+- print:
+  - 優衣
+  - 男、
+- shake:
+  - 100211
+- print:
+  - 優衣
+  - 男、男、男朋友！？
+- wait:
+  - 65
+- print:
+  - 優衣
+  - >2
+
+- face:
+  - 100211
+  - 4
+- print:
+  - 優衣
+  - 騎、騎士先生和我才不是……！
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 1211
+- bust:
+  - 1211
+  - 0
+- vo:
+  - vo_adv_1002005_023
+- face:
+  - 1211
+  - 6
+- print:
+  - 店員２
+  - 是我誤會啦？
+- face:
+  - 1211
+  - 1
+- print:
+  - 店員２
+  - 今天在這一帶的店，
+- wait:
+  - 55
+- print:
+  - 店員２
+  - >2-
+
+    情侶檔購物的話會打折喔。
+- touch: *o0
+- focus:
+  - 1211
+- bust:
+  - 1211
+  - 0
+- vo:
+  - vo_adv_1002005_024
+- face:
+  - 1211
+  - 2
+- print:
+  - 店員２
+  - 哎呀～，因為他好像有幫妳拿東西，
+- wait:
+  - 20
+- print:
+  - 店員２
+  - >2-
+
+    我還以為是妳的男朋友陪妳來逛街買東西的說……
+- touch: *o0
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_1002005_025
+- face:
+  - 100211
+  - 4
+- print:
+  - 優衣
+  - （雖然今天買了太多書想節省一下，
+- wait:
+  - 70
+- print:
+  - 優衣
+  - >2-
+
+    但說謊又好像不太好呢……）
+- touch: *o0
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_1002005_026
+- face:
+  - 100211
+  - 4
+- eye_open:
+  - False
+- print:
+  - 優衣
+  - （此外，我也還沒對騎士先生告白，
+- eye_open:
+  - True
+- wait:
+  - 55
+- print:
+  - 優衣
+  - >2-
+
+    沒有資格得到優惠呀……）
+- touch: *o0
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_1002005_027
+- face:
+  - 100211
+  - 4
+- print:
+  - 優衣
+  - 對不起。其實……
+- wait:
+  - 10
+- touch: *o0
+- choice:
+  - 麻煩請給我們打折。
+  - 3
+- tag:
+  - 3
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_1002005_028
+- face:
+  - 100211
+  - 6
+- emotion:
+  - surprise1_L
+  - 100211
+  - 150
+  - 555
+  - se_adv_emote_common_01
+- print:
+  - 優衣
+  - 咦……！？
+- face:
+  - 100211
+  - 7
+- print:
+  - 優衣
+  - 咦咦！？
+- wait:
+  - 20
+- print:
+  - 優衣
+  - >2-
+
+    騎、騎士先生！？為為為為為、為什麼……！？
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 1211
+- bust:
+  - 1211
+  - 0
+- vo:
+  - vo_adv_1002005_029
+- face:
+  - 1211
+  - 2
+- print:
+  - 店員２
+  - 好的～。那就算折扣價囉。
+- wait:
+  - 20
+- print:
+  - 店員２
+  - >2
+
+- face:
+  - 1211
+  - 1
+- print:
+  - 店員２
+  - 這是妳的書。這裡是找零。
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_book_catch_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_1002005_030
+- face:
+  - 100211
+  - 8
+- print:
+  - 優衣
+  - 哇哇哇哇哇……！
+- wait:
+  - 85
+- print:
+  - 優衣
+  - >2
+
+- nod:
+  - 100211
+- print:
+  - 優衣
+  - 謝、謝謝了……！
+- wait:
+  - 20
+- touch: *o0
+- focus:
+  - 1211
+- bust:
+  - 1211
+  - 0
+- vo:
+  - vo_adv_1002005_031
+- face:
+  - 1211
+  - 2
+- print:
+  - 店員２
+  - 謝謝惠顧。要和男朋友好好相處啊～
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_door_open_03
+- se:
+  - se_adv_step_concrete_run_go_01
+- out_L:
+  - 100211
+  - 45
+  - true
+- fadeout:
+  - 1211
+  - 30
+- bgm:
+  - stop
+  - 2
+  - 1
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 500030
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- bgm:
+  - bgm_M67_02
+- chara_full:
+  - 100211
+  - C
+  - 4
+- fadein:
+  - 100211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_1002005_032
+- face:
+  - 100211
+  - 4
+- print:
+  - 優衣
+  - 那個……騎、騎士先生。剛才那件事……謝、謝謝！
+- wait:
+  - 60
+- touch: *o0
+- choice:
+  - 書本有變便宜真是太好了。
+  - 4
+- tag:
+  - 4
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_1002005_033
+- face:
+  - 100211
+  - 6
+- emotion:
+  - sweat2_R
+  - 100211
+  - 95
+  - 520
+  - '*non'
+- print:
+  - 優衣
+  - 嗯、嗯！
+- face:
+  - 100211
+  - 5
+- print:
+  - 優衣
+  - 說的沒錯呢！啊哈哈……！
+- wait:
+  - 50
+- touch: *o0
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_1002005_034
+- face:
+  - 100211
+  - 4
+- print:
+  - 優衣
+  - （難道……就算在剛才那位店員以外的其他路人眼裡，
+- wait:
+  - 70
+- print:
+  - 優衣
+  - >2-
+
+    我們兩人，也像是一對情侶嗎……？
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_1002005_035
+- face:
+  - 100211
+  - 6
+- print:
+  - 優衣
+  - （這是表示我們的情誼已經如此融洽的意思嗎！？
+- wait:
+  - 20
+- print:
+  - 優衣
+  - >2
+
+- face:
+  - 100211
+  - 5
+- print:
+  - 優衣
+  - ……我喜歡……騎士先生。
+- wait:
+  - 70
+- print:
+  - 優衣
+  - >2-
+
+    但騎士先生對我，又是抱著怎麼樣的想法呢……？）
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - FALSE
+- vo_effect:
+  - 0
+- bright_change:
+  - 1
+  - 100
+- fadeout:
+  - 100211
+  - 30
+- se:
+  - se_adv_step_concrete_move_01
+- chara_full:
+  - 100211
+  - C
+  - 3
+- scale:
+  - 100211
+  - 1.3
+  - 2
+- fadein:
+  - 100211
+  - 30
+- change_window:
+  - 1
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_1002005_036
+- face:
+  - 100211
+  - 3
+- print:
+  - 優衣
+  - ……騎、
+- shake:
+  - 100211
+- print:
+  - 優衣
+  - 騎騎、騎士先生！
+- wait:
+  - 40
+- print:
+  - 優衣
+  - >2
+
+- face:
+  - 100211
+  - 4
+- print:
+  - 優衣
+  - 那個……我、你對我的看法是……！
+- wait:
+  - 40
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 100211
+  - 8
+- wait:
+  - 30
+- fadeout:
+  - 100211
+  - 30
+- chara_full:
+  - 100211
+  - C
+  - 8
+- fadein:
+  - 100211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_1002005_037
+- face:
+  - 100211
+  - 8
+- emotion:
+  - sweat2_R
+  - 100211
+  - 95
+  - 520
+  - se_adv_emote_sweat_02
+- print:
+  - 優衣
+  - ……沒、沒事的什麼都沒有！
+- wait:
+  - 20
+- print:
+  - 優衣
+  - >2
+
+- face:
+  - 100211
+  - 7
+- print:
+  - 優衣
+  - 真是不好意思！剛才的事請忘記吧！
+- wait:
+  - 70
+- print:
+  - 優衣
+  - >2
+
+- face:
+  - 100211
+  - 4
+- print:
+  - 優衣
+  - ……嗚嗚……
+- touch: *o0
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_1002005_038
+- face:
+  - 100211
+  - 1
+- print:
+  - 優衣
+  - 嗯，剛才買的書就請你幫忙拿回公會之家可以嗎？
+- wait:
+  - 100
+- print:
+  - 優衣
+  - >2
+
+- face:
+  - 100211
+  - 2
+- pop:
+  - 100211
+- print:
+  - 優衣
+  - 對、對了！就請你喝我上次買到的美味好茶來當作謝禮吧！
+- wait:
+  - 55
+- touch: *o0
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_1002005_039
+- face:
+  - 100211
+  - 7
+- print:
+  - 優衣
+  - （不行呀～……
+- shake:
+  - 100211
+- print:
+  - 優衣
+  - 緊張到想說的話都說不出口～！
+- wait:
+  - 125
+- print:
+  - 優衣
+  - >2
+
+- face:
+  - 100211
+  - 4
+- print:
+  - 優衣
+  - 誰來救救我呀～！真琴～……！）
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - FALSE
+- vo_effect:
+  - 0
+- fadeout:
+  - 100211
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

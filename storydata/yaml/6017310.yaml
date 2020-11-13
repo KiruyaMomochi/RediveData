@@ -1,0 +1,246 @@
+- title:
+  - 努力打工的理由
+- outline:
+  - ' '
+- background:
+  - 500010
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - false
+- situation:
+  - 努力打工的理由
+- chara_full:
+  - 109811
+  - C
+  - 6
+- fadein:
+  - 109811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M229_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 109811
+- bust:
+  - 109811
+  - 0
+- vo:
+  - vo_adv_6017310_000
+- face:
+  - 109811
+  - 6
+- print:
+  - 拉姆
+  - 你，
+- wait:
+  - 25
+- print:
+  - 拉姆
+  - 好像做很多工作耶。
+- wait:
+  - 35
+- print:
+  - 拉姆
+  - >2-
+
+    為什麼你要這麼努力打工？
+- touch: &o0 []
+- choice:
+  - 為了賺錢。
+  - 1
+  - 1
+- choice:
+  - 我喜歡工作。
+  - 2
+  - 2
+- choice:
+  - 為了重要的同伴。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 109811
+- bust:
+  - 109811
+  - 0
+- vo:
+  - vo_adv_6017310_001
+- face:
+  - 109811
+  - 1
+- print:
+  - 拉姆
+  - 嗯，這倒是。
+- wait:
+  - 50
+- print:
+  - 拉姆
+  - >2
+
+- face:
+  - 109811
+  - 2
+- print:
+  - 拉姆
+  - 不過，你真的很努力，
+- wait:
+  - 15
+- print:
+  - 拉姆
+  - 我要好好地獎勵你。
+- wait:
+  - 30
+- print:
+  - 拉姆
+  - >2
+
+- nod:
+  - 109811
+- print:
+  - 拉姆
+  - 順便讓你
+- wait:
+  - 15
+- print:
+  - 拉姆
+  - 幫忙做拉姆的工作。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 109811
+- bust:
+  - 109811
+  - 0
+- vo:
+  - vo_adv_6017310_002
+- face:
+  - 109811
+  - 2
+- print:
+  - 拉姆
+  - 真是令人欽佩的回答。
+- wait:
+  - 35
+- print:
+  - 拉姆
+  - >2-
+
+    既然這樣，
+- wait:
+  - 20
+- print:
+  - 拉姆
+  - 那就讓你代替拉姆
+- wait:
+  - 15
+- print:
+  - 拉姆
+  - 去打掃育幼院吧。
+- wait:
+  - 75
+- print:
+  - 拉姆
+  - >2-
+
+    ……
+- face:
+  - 109811
+  - 4
+- emotion:
+  - sweat1_R
+  - 109811
+  - -35
+  - 500
+  - se_adv_emote_sweat_01
+- print:
+  - 拉姆
+  - 你答應得這麼爽快，害我都有點愧疚了。
+- wait:
+  - 85
+- print:
+  - 拉姆
+  - 我就跟你一起做吧。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 109811
+- bust:
+  - 109811
+  - 0
+- vo:
+  - vo_adv_6017310_003
+- face:
+  - 109811
+  - 2
+- print:
+  - 拉姆
+  - ……
+- nod:
+  - 109811
+- print:
+  - 拉姆
+  - 這個回答很好。
+- wait:
+  - 40
+- print:
+  - 拉姆
+  - 實在是太棒了。
+- wait:
+  - 35
+- print:
+  - 拉姆
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 拉姆
+  - 請你千萬不要忘了這份心情。
+- wait:
+  - 80
+- print:
+  - 拉姆
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 拉姆
+  - 那麼，
+- wait:
+  - 30
+- print:
+  - 拉姆
+  - 拉姆也來認真工作好了。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 109811
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

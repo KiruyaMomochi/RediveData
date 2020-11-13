@@ -1,0 +1,4483 @@
+- title:
+  - 克蘿依 第1話
+- outline:
+  - 在有很多小混混出沒的混亂居酒屋打工的克蘿依，跟迷路的{0}相遇了。並認同了從醉酒的客人手中保護自己的{0}。
+- background:
+  - 500032
+- amb:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 克蘿依工作日誌／居酒屋篇
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    在蘭德索爾的郊外，有一家小小的便宜酒館――
+
+    以鬧事者的聚集場所聞名，
+
+    凡是素行良好的人都不會想靠近的『暴怒亭』。
+- touch: &o0 []
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    在醉漢們豪爽的咆嘯聲和歡呼聲交錯的店裡，
+
+    有一位彷彿不屬於這裡的年輕少女，冷冰冰、淡然地服侍著客人。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500050
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_restaurant_01
+- chara_full:
+  - 110811
+  - C
+  - 1
+- fadein:
+  - 110811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M13_03_NoIntro
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_000
+- face:
+  - 110811
+  - 1
+- print:
+  - 克蘿依
+  - 唷，
+- wait:
+  - 5
+- print:
+  - 克蘿依
+  - 久等了――
+- touch: *o0
+- se:
+  - se_adv_serve_food_01
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_001
+- face:
+  - 110811
+  - 1
+- nod:
+  - 110811
+- print:
+  - 克蘿依
+  - 來，
+- wait:
+  - 20
+- print:
+  - 克蘿依
+  - 這好像是某種超級辣的肉類――
+- wait:
+  - 30
+- print:
+  - 克蘿依
+  - >2-
+
+    然後，這大概是某種奇怪的蔬菜汁――
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 110811
+  - 30
+- chara_full:
+  - 311
+  - RC
+  - 6
+- chara_full:
+  - 110811
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1108001_002
+- face:
+  - 311
+  - 6
+- emotion:
+  - question1_R
+  - 311
+  - 125
+  - 555
+  - se_adv_emote_question_01
+- print:
+  - 無賴１
+  - 啊啊？　
+- wait:
+  - 30
+- print:
+  - 無賴１
+  - 我有點這個嗎？
+- wait:
+  - 55
+- print:
+  - 無賴１
+  - >2
+
+- face:
+  - 311
+  - 4
+- print:
+  - 無賴１
+  - 喂克蘿依，
+- wait:
+  - 30
+- print:
+  - 無賴１
+  - 妳是不是
+- wait:
+  - 20
+- print:
+  - 無賴１
+  - 出錯餐了？
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_003
+- face:
+  - 110811
+  - 1
+- print:
+  - 克蘿依
+  - 沒有。
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - 大概啦。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 311
+  - 30
+- chara_full:
+  - 1111
+  - RC
+  - 2
+- fadein:
+  - 1111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_1108001_004
+- face:
+  - 1111
+  - 2
+- nod:
+  - 1111
+- print:
+  - 無賴２
+  - 克蘿依！　
+- wait:
+  - 25
+- print:
+  - 無賴２
+  - 我們這邊要再加點酒！　
+- wait:
+  - 35
+- print:
+  - 無賴２
+  - 把酒，
+- wait:
+  - 15
+- print:
+  - 無賴２
+  - 拿過來！
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_005
+- face:
+  - 110811
+  - 6
+- emotion:
+  - exclamation1_R
+  - 110811
+  - 30
+  - 600
+  - se_adv_emote_common_01
+- print:
+  - 克蘿依
+  - 咦，等等――等一下客人。
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - >2-
+
+    那已經是第五杯了沒關係嗎。
+- touch: *o0
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_1108001_006
+- face:
+  - 1111
+  - 3
+- print:
+  - 無賴２
+  - 欸，
+- wait:
+  - 10
+- print:
+  - 無賴２
+  - 妳在說什麼。
+- wait:
+  - 45
+- print:
+  - 無賴２
+  - >2
+
+- face:
+  - 1111
+  - 1
+- print:
+  - 無賴２
+  - 我的身體才沒有虛弱到
+- wait:
+  - 45
+- print:
+  - 無賴２
+  - 需要被妳這小鬼擔心呀。
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_007
+- face:
+  - 110811
+  - 1
+- nod:
+  - 110811
+- print:
+  - 克蘿依
+  - 不，
+- wait:
+  - 25
+- print:
+  - 克蘿依
+  - 你的肝臟怎麼樣是無所謂啦，
+- wait:
+  - 35
+- print:
+  - 克蘿依
+  - 錢啊錢，
+- wait:
+  - 20
+- print:
+  - 克蘿依
+  - 是在說錢的事。
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_008
+- face:
+  - 110811
+  - 4
+- print:
+  - 克蘿依
+  - 因為這裡的店長，
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - 腦子有問題。
+- wait:
+  - 35
+- print:
+  - 克蘿依
+  - >2-
+
+    一旦有客人喝酒賒帳，
+- wait:
+  - 20
+- eye_open:
+  - False
+- print:
+  - 克蘿依
+  - 就會怪店員管理不周，
+- wait:
+  - 60
+- print:
+  - 克蘿依
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 克蘿依
+  - 我可是會莫名其妙地被罵呢，
+- wait:
+  - 30
+- print:
+  - 克蘿依
+  - 所以拜託饒了我吧。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 911
+  - C
+  - 3
+- fadein:
+  - 911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1108001_009
+- face:
+  - 911
+  - 3
+- nod:
+  - 911
+- print:
+  - 不成材店長
+  - 我聽到了唷，
+- wait:
+  - 15
+- print:
+  - 不成材店長
+  - 克蘿依！
+- wait:
+  - 35
+- print:
+  - 不成材店長
+  - >2-
+
+    妳說誰的腦子有問題？
+- wait:
+  - 55
+- print:
+  - 不成材店長
+  - >2-
+
+    妳這傢伙，
+- wait:
+  - 30
+- print:
+  - 不成材店長
+  - 我要把妳的工資全部
+- wait:
+  - 30
+- print:
+  - 不成材店長
+  - 扣光光！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_wood_walk_go_01
+- change:
+  - LC
+  - C
+  - 30
+- fadeout:
+  - 911
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 110811
+  - LC
+  - 4
+- chara_full:
+  - 911
+  - R
+  - 3
+- se:
+  - se_adv_step_wood_walk_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - R
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_010
+- face:
+  - 110811
+  - 4
+- emotion:
+  - gloomy1_R
+  - 110811
+  - 55
+  - 485
+  - se_adv_emote_gloomy_01
+- print:
+  - 克蘿依
+  - 你就是不想付薪水罷了，
+- wait:
+  - 65
+- print:
+  - 克蘿依
+  - >2
+
+- face:
+  - 110811
+  - 1
+- print:
+  - 克蘿依
+  - 我要是提告的話，可是會很輕鬆地打贏官司呢――
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1108001_011
+- face:
+  - 911
+  - 2
+- nod:
+  - 911
+- print:
+  - 不成材店長
+  - 哼！　
+- wait:
+  - 25
+- print:
+  - 不成材店長
+  - 不過，
+- wait:
+  - 10
+- print:
+  - 不成材店長
+  - 妳沒辦法這麼做吧克蘿依。
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1108001_012
+- face:
+  - 911
+  - 1
+- print:
+  - 不成材店長
+  - 妳啊，
+- wait:
+  - 15
+- print:
+  - 不成材店長
+  - 不是對家裡和學校都
+- wait:
+  - 10
+- print:
+  - 不成材店長
+  - 隱瞞打工的事情嗎？
+- wait:
+  - 60
+- print:
+  - 不成材店長
+  - >2
+
+- face:
+  - 911
+  - 2
+- print:
+  - 不成材店長
+  - 所以才會淪落到這種
+- wait:
+  - 45
+- print:
+  - 不成材店長
+  - 偏僻又遊走法律邊緣的店
+- wait:
+  - 35
+- print:
+  - 不成材店長
+  - 工作不是嗎？
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_013
+- face:
+  - 110811
+  - 1
+- nod:
+  - 110811
+- print:
+  - 克蘿依
+  - 啊
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - 沒錯是這樣呢，
+- wait:
+  - 20
+- eye_open:
+  - False
+- print:
+  - 克蘿依
+  - 真感激您讓我在這裡工作喔。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 311
+  - LC
+  - 6
+- chara_full:
+  - 1111
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1108001_014
+- face:
+  - 311
+  - 6
+- print:
+  - 無賴１
+  - 喂喂，
+- wait:
+  - 15
+- print:
+  - 無賴１
+  - 等等老闆！
+- wait:
+  - 40
+- print:
+  - 無賴１
+  - >2-
+
+    別把話講得這麼難聽嘛？
+- wait:
+  - 75
+- print:
+  - 無賴１
+  - >2
+
+- face:
+  - 311
+  - 1
+- print:
+  - 無賴１
+  - 說什麼違法，
+- wait:
+  - 35
+- print:
+  - 無賴１
+  - 我們
+- wait:
+  - 20
+- print:
+  - 無賴１
+  - 可沒有在賭錢喔。
+- touch: *o0
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_1108001_015
+- face:
+  - 1111
+  - 1
+- nod:
+  - 1111
+- print:
+  - 無賴２
+  - 對，
+- wait:
+  - 25
+- print:
+  - 無賴２
+  - 只是單純地在玩
+- wait:
+  - 20
+- print:
+  - 無賴２
+  - 遊戲唷。
+- wait:
+  - 60
+- print:
+  - 無賴２
+  - >2
+
+- face:
+  - 1111
+  - 2
+- print:
+  - 無賴２
+  - 雖然，
+- wait:
+  - 15
+- print:
+  - 無賴２
+  - 偶爾走出店外後會慷慨地，
+- wait:
+  - 80
+- print:
+  - 無賴２
+  - >2-
+
+    對贏家道上一些祝賀之意而已啦，
+- wait:
+  - 115
+- print:
+  - 無賴２
+  - 嘿嘿嘿。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 110811
+  - C
+  - 1
+- fadein:
+  - 110811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_016
+- face:
+  - 110811
+  - 1
+- eye_open:
+  - False
+- print:
+  - 克蘿依
+  - 唉……
+- wait:
+  - 20
+- eye_open:
+  - True
+- print:
+  - 克蘿依
+  - 聽不到
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - 聽不到，
+- wait:
+  - 20
+- print:
+  - 克蘿依
+  - 嘿。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 110811
+  - 30
+- chara_full:
+  - 311
+  - LC
+  - 1
+- chara_full:
+  - 1111
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1108001_017
+- face:
+  - 311
+  - 1
+- nod:
+  - 311
+- print:
+  - 無賴１
+  - 沒錯，
+- wait:
+  - 65
+- print:
+  - 無賴１
+  - 我們在玩的
+- wait:
+  - 20
+- print:
+  - 無賴１
+  - 只是一般的遊戲罷了。
+- wait:
+  - 45
+- print:
+  - 無賴１
+  - >2
+
+- face:
+  - 311
+  - 2
+- print:
+  - 無賴１
+  - 也就是說，
+- wait:
+  - 40
+- bgm:
+  - stop
+  - 6
+  - 1
+- print:
+  - 無賴１
+  - 就算輸了也沒有付錢的義務。
+- touch: *o0
+- bgm:
+  - bgm_M97
+  - 0
+  - 0
+  - 0
+  - 1
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_1108001_018
+- face:
+  - 1111
+  - 3
+- print:
+  - 無賴２
+  - ……
+- wait:
+  - 30
+- print:
+  - 無賴２
+  - 你說什麼？
+- wait:
+  - 55
+- print:
+  - 無賴２
+  - >2-
+
+    喂，
+- wait:
+  - 5
+- print:
+  - 無賴２
+  - 你這傢伙。
+- wait:
+  - 30
+- print:
+  - 無賴２
+  - >2-
+
+    你該不會
+- wait:
+  - 30
+- print:
+  - 無賴２
+  - 打算賴帳
+- wait:
+  - 30
+- print:
+  - 無賴２
+  - 不付剛剛輸的錢吧……？
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1108001_019
+- face:
+  - 311
+  - 6
+- print:
+  - 無賴１
+  - 啊啊？　
+- wait:
+  - 30
+- print:
+  - 無賴１
+  - 是要付什麼？　
+- wait:
+  - 50
+- face:
+  - 311
+  - 2
+- print:
+  - 無賴１
+  - 這不就是普通的遊戲嗎？
+- touch: *o0
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_1108001_020
+- face:
+  - 1111
+  - 3
+- emotion:
+  - anger1_R
+  - 1111
+  - -100
+  - 620
+  - se_adv_emote_anger_01
+- print:
+  - 無賴２
+  - 你這傢伙……
+- wait:
+  - 45
+- print:
+  - 無賴２
+  - 別開玩笑了，
+- wait:
+  - 25
+- print:
+  - 無賴２
+  - 我要宰了你！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 110811
+  - LC
+  - 6
+- chara_full:
+  - 911
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_021
+- face:
+  - 110811
+  - 6
+- emotion:
+  - sweat1_R
+  - 110811
+  - 85
+  - 495
+  - se_adv_emote_sweat_01
+- print:
+  - 克蘿依
+  - 啊討厭，
+- wait:
+  - 10
+- print:
+  - 克蘿依
+  - 這裡的客人總是一言不合就……
+- wait:
+  - 75
+- print:
+  - 克蘿依
+  - >2
+
+- face:
+  - 110811
+  - 1
+- print:
+  - 克蘿依
+  - 是無所謂啦，
+- wait:
+  - 30
+- print:
+  - 克蘿依
+  - 你們要鬧事的話可以去外面鬧嗎。
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1108001_022
+- face:
+  - 911
+  - 2
+- nod:
+  - 911
+- print:
+  - 不成材店長
+  - 哇哈哈！　
+- wait:
+  - 75
+- print:
+  - 不成材店長
+  - 不錯嘛，
+- wait:
+  - 30
+- print:
+  - 不成材店長
+  - 今晚愈來愈熱鬧了！
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_023
+- face:
+  - 110811
+  - 6
+- print:
+  - 克蘿依
+  - 不對吧，快阻止他們。
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - >2-
+
+    我是不會去阻止啦，
+- wait:
+  - 5
+- print:
+  - 克蘿依
+  - 但你得去阻止啦。
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1108001_024
+- face:
+  - 911
+  - 1
+- print:
+  - 不成材店長
+  - 來，
+- wait:
+  - 20
+- print:
+  - 不成材店長
+  - 光臨本店的臭傢伙們！
+- wait:
+  - 60
+- print:
+  - 不成材店長
+  - >2
+
+- face:
+  - 911
+  - 2
+- print:
+  - 不成材店長
+  - 誰會在今天的主要活動，
+- wait:
+  - 30
+- print:
+  - 不成材店長
+  - 贏得勝利呢！？
+- wait:
+  - 50
+- print:
+  - 不成材店長
+  - >2-
+
+    一注從 10000 盧幣起跳，
+- wait:
+  - 40
+- print:
+  - 不成材店長
+  - 下好離手――！
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_025
+- face:
+  - 110811
+  - 4
+- nod:
+  - 110811
+- print:
+  - 克蘿依
+  - 喂，別煽動他們啊。
+- wait:
+  - 5
+- print:
+  - 克蘿依
+  - >2-
+
+    不要在這裡找商機啦。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 110811
+  - C
+  - 4
+- fadein:
+  - 110811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_026
+- face:
+  - 110811
+  - 4
+- emotion:
+  - gloomy1_R
+  - 110811
+  - 55
+  - 485
+  - se_adv_emote_gloomy_01
+- eye_open:
+  - False
+- print:
+  - 克蘿依
+  - 呼……
+- wait:
+  - 35
+- eye_open:
+  - True
+- print:
+  - 克蘿依
+  - 參與的人
+- wait:
+  - 30
+- print:
+  - 克蘿依
+  - 全都腦子有問題。
+- wait:
+  - 45
+- print:
+  - 克蘿依
+  - >2-
+
+    還真是，
+- wait:
+  - 10
+- print:
+  - 克蘿依
+  - 沒救了的店……
+- wait:
+  - 30
+- print:
+  - 克蘿依
+  - 我快沒力了。
+- touch: *o0
+- se:
+  - se_adv_door_shop_open_01
+- se:
+  - se_adv_step_wood_walk_armor_come_01
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_027
+- face:
+  - 110811
+  - 4
+- print:
+  - 克蘿依
+  - 不過
+- wait:
+  - 30
+- print:
+  - 克蘿依
+  - 客人倒是絡繹不絕……
+- wait:
+  - 55
+- print:
+  - 克蘿依
+  - >2
+
+- face:
+  - 110811
+  - 1
+- print:
+  - 克蘿依
+  - 嗨，
+- wait:
+  - 5
+- print:
+  - 克蘿依
+  - 歡迎光臨――
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+- choice:
+  - 妳好。
+  - 1
+- tag:
+  - 1
+- bgm:
+  - bgm_M129_NoB
+  - 0
+  - 0
+  - 1
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_028
+- face:
+  - 110811
+  - 6
+- print:
+  - 克蘿依
+  - 啊，
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - 你好。
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_029
+- face:
+  - 110811
+  - 1
+- nod:
+  - 110811
+- print:
+  - 克蘿依
+  - 那個――，
+- wait:
+  - 20
+- print:
+  - 克蘿依
+  - 因為現在活動進行地很熱絡――
+- wait:
+  - 35
+- print:
+  - 克蘿依
+  - >2-
+
+    說不定會飛來
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - 狗狗餐盤、瓶子之類的東西，
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - >2-
+
+    不過，
+- wait:
+  - 5
+- print:
+  - 克蘿依
+  - 這就是我們這間店的風格，
+- wait:
+  - 10
+- print:
+  - 克蘿依
+  - 請多見諒。
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_030
+- face:
+  - 110811
+  - 6
+- print:
+  - 克蘿依
+  - 話說，
+- wait:
+  - 10
+- print:
+  - 克蘿依
+  - 這位客人……
+- wait:
+  - 10
+- print:
+  - 克蘿依
+  - 也太年輕了吧？　
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_031
+- face:
+  - 110811
+  - 6
+- print:
+  - 克蘿依
+  - 看起來和我同年……
+- wait:
+  - 50
+- print:
+  - 克蘿依
+  - 還是，
+- wait:
+  - 10
+- face:
+  - 110811
+  - 1
+- print:
+  - 克蘿依
+  - 比我年輕一點？
+- wait:
+  - 25
+- print:
+  - 克蘿依
+  - >2-
+
+    明顯就是未成年嘛。
+- wait:
+  - 30
+- print:
+  - 克蘿依
+  - >2-
+
+    應該不是
+- wait:
+  - 10
+- print:
+  - 克蘿依
+  - 能進這種店的年紀吧？　
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_032
+- face:
+  - 110811
+  - 1
+- eye_open:
+  - False
+- print:
+  - 克蘿依
+  - ……不過，
+- wait:
+  - 30
+- print:
+  - 克蘿依
+  - 都好啦無所謂。
+- wait:
+  - 30
+- print:
+  - 克蘿依
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 克蘿依
+  - 我也沒有什麼立場可以說人家，
+- wait:
+  - 30
+- print:
+  - 克蘿依
+  - >2-
+
+    如果連客人身分都一一放在心上，
+- wait:
+  - 20
+- print:
+  - 克蘿依
+  - 就沒辦法在這種店裡打工了。
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_033
+- face:
+  - 110811
+  - 1
+- nod:
+  - 110811
+- print:
+  - 克蘿依
+  - 那個――
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - 客人？　
+- wait:
+  - 20
+- print:
+  - 克蘿依
+  - 怎麼一直站著。
+- touch: *o0
+- choice:
+  - 我想問一下路。
+  - 2
+- tag:
+  - 2
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_034
+- face:
+  - 110811
+  - 4
+- emotion:
+  - question1_R
+  - 110811
+  - 125
+  - 445
+  - se_adv_emote_question_01
+- print:
+  - 克蘿依
+  - 啊？　
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - 太吵了我聽不太到，
+- wait:
+  - 20
+- print:
+  - 克蘿依
+  - 你說什麼。
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_035
+- face:
+  - 110811
+  - 1
+- print:
+  - 克蘿依
+  - 話說，總之先坐下吧。
+- wait:
+  - 30
+- print:
+  - 克蘿依
+  - >2-
+
+    有話要說的話等點餐完我再聽你說。
+- wait:
+  - 35
+- print:
+  - 克蘿依
+  - >2-
+
+    坐吧檯可以嗎？
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_036
+- face:
+  - 110811
+  - 6
+- print:
+  - 克蘿依
+  - 好像……
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - 在發呆呢，
+- wait:
+  - 20
+- print:
+  - 克蘿依
+  - 這位小兄弟。
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_037
+- face:
+  - 110811
+  - 1
+- print:
+  - 克蘿依
+  - 怎麼看
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - 都不像是會常來這種地方的人，
+- wait:
+  - 45
+- print:
+  - 克蘿依
+  - >2-
+
+    看來，大概是第一次來吧。
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_038
+- face:
+  - 110811
+  - 6
+- print:
+  - 克蘿依
+  - 不過感覺骨子裡是認真的人，
+- wait:
+  - 50
+- print:
+  - 克蘿依
+  - 到底是怎麼回事。
+- wait:
+  - 35
+- print:
+  - 克蘿依
+  - >2
+
+- face:
+  - 110811
+  - 1
+- print:
+  - 克蘿依
+  - 大概只是稍稍和父母吵架
+- wait:
+  - 20
+- print:
+  - 克蘿依
+  - 就來個離家出走，
+- wait:
+  - 50
+- print:
+  - 克蘿依
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 克蘿依
+  - 或是遇上不順心的事
+- wait:
+  - 10
+- print:
+  - 克蘿依
+  - 就開始憧憬小混混的生活……
+- wait:
+  - 30
+- eye_open:
+  - True
+- print:
+  - 克蘿依
+  - 之類的吧。
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_039
+- face:
+  - 110811
+  - 6
+- print:
+  - 克蘿依
+  - 不過，
+- wait:
+  - 5
+- print:
+  - 克蘿依
+  - 這也不奇怪，
+- wait:
+  - 20
+- print:
+  - 克蘿依
+  - 每個男生都有這種時期。
+- wait:
+  - 60
+- print:
+  - 克蘿依
+  - >2
+
+- face:
+  - 110811
+  - 4
+- print:
+  - 克蘿依
+  - 唉，
+- wait:
+  - 20
+- print:
+  - 克蘿依
+  - 真無聊。
+- wait:
+  - 35
+- print:
+  - 克蘿依
+  - >2-
+
+    我們家的弟弟還要再幾年
+- wait:
+  - 50
+- print:
+  - 克蘿依
+  - 才會進入叛逆期呢……
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_040
+- face:
+  - 110811
+  - 1
+- print:
+  - 克蘿依
+  - 沒辦法，
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - >2-
+
+    隨便弄點無酒精飲料
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - 讓他喝完回家好了……
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- bgm:
+  - stop
+  - 3
+  - 1
+- fadeout:
+  - 110811
+  - 30
+- chara_full:
+  - 311
+  - C
+  - 1
+- chara_full:
+  - 1111
+  - R
+  - 1
+- se:
+  - se_adv_step_wood_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - C
+  - 45
+- change:
+  - RC
+  - R
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - true
+- bgm:
+  - bgm_M11_Ver2
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1108001_041
+- face:
+  - 311
+  - 1
+- nod:
+  - 311
+- print:
+  - 無賴１
+  - 哦，
+- wait:
+  - 10
+- print:
+  - 無賴１
+  - 小兄弟。
+- wait:
+  - 20
+- print:
+  - 無賴１
+  - >2-
+
+    沒見過你呢。
+- wait:
+  - 25
+- print:
+  - 無賴１
+  - 從中央（城鎮）那邊過來的嗎？
+- touch: *o0
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_1108001_042
+- face:
+  - 1111
+  - 1
+- print:
+  - 無賴２
+  - 媽媽
+- wait:
+  - 15
+- print:
+  - 無賴２
+  - 應該有給你零用錢吧？
+- wait:
+  - 45
+- print:
+  - 無賴２
+  - >2
+
+- face:
+  - 1111
+  - 2
+- print:
+  - 無賴２
+  - 我知道一個很有趣的遊戲唷，
+- wait:
+  - 52
+- print:
+  - 無賴２
+  - 陪我玩玩吧。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 110811
+  - LC
+  - 1
+- chara_full:
+  - 311
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_043
+- face:
+  - 110811
+  - 1
+- nod:
+  - 110811
+- print:
+  - 克蘿依
+  - 啊――
+- wait:
+  - 5
+- print:
+  - 克蘿依
+  - 抱歉，
+- wait:
+  - 5
+- print:
+  - 克蘿依
+  - 這傢伙是我這邊的人。
+- wait:
+  - 30
+- print:
+  - 克蘿依
+  - >2-
+
+    想找碴的話你可以找別人嗎。
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1108001_044
+- face:
+  - 311
+  - 2
+- emotion:
+  - exclamation1_R
+  - 311
+  - 20
+  - 700
+  - se_adv_emote_common_01
+- print:
+  - 無賴１
+  - 喔？　
+- wait:
+  - 25
+- print:
+  - 無賴１
+  - 什麼啊克蘿依，
+- wait:
+  - 45
+- print:
+  - 無賴１
+  - 原來是妳的男人啊？
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_045
+- face:
+  - 110811
+  - 4
+- print:
+  - 克蘿依
+  - 好噁心。
+- wait:
+  - 10
+- print:
+  - 克蘿依
+  - >2-
+
+    噁心歸噁心，
+- wait:
+  - 20
+- print:
+  - 克蘿依
+  - 不過隨你怎麼說。
+- wait:
+  - 10
+- print:
+  - 克蘿依
+  - >2
+
+- face:
+  - 110811
+  - 1
+- print:
+  - 克蘿依
+  - 好了散了散了。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 110811
+  - C
+  - 4
+- fadein:
+  - 110811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_046
+- face:
+  - 110811
+  - 4
+- nod:
+  - 110811
+- print:
+  - 克蘿依
+  - 你看，
+- wait:
+  - 10
+- print:
+  - 克蘿依
+  - 小兄弟。
+- wait:
+  - 20
+- print:
+  - 克蘿依
+  - >2-
+
+    一直呆站在入口的話，
+- wait:
+  - 20
+- print:
+  - 克蘿依
+  - 無聊的大人就會靠過來。
+- wait:
+  - 35
+- print:
+  - 克蘿依
+  - >2
+
+- face:
+  - 110811
+  - 1
+- print:
+  - 克蘿依
+  - 進來店裡，
+- wait:
+  - 25
+- print:
+  - 克蘿依
+  - 來這坐吧。
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+- choice:
+  - 謝謝店長。
+  - 3
+- tag:
+  - 3
+- bgm:
+  - bgm_M140_NoBell
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_047
+- face:
+  - 110811
+  - 1
+- print:
+  - 克蘿依
+  - 克蘿依。
+- wait:
+  - 20
+- print:
+  - 克蘿依
+  - >2-
+
+    只是個工讀生唷。
+- wait:
+  - 45
+- print:
+  - 克蘿依
+  - 你是誰？
+- touch: *o0
+- choice:
+  - 我是{0}。
+  - 4
+- tag:
+  - 4
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_048
+- face:
+  - 110811
+  - 1
+- print:
+  - 克蘿依
+  - 嗯――
+- wait:
+  - 20
+- print:
+  - 克蘿依
+  - 這樣啊。
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_049
+- face:
+  - 110811
+  - 1
+- nod:
+  - 110811
+- se:
+  - se_adv_coffee_cup_02
+- print:
+  - 克蘿依
+  - 算了，
+- wait:
+  - 10
+- print:
+  - 克蘿依
+  - 我請你吧。
+- wait:
+  - 20
+- print:
+  - 克蘿依
+  - 只限一杯唷。
+- touch: *o0
+- choice:
+  - 這個是？
+  - 5
+- tag:
+  - 5
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_050
+- face:
+  - 110811
+  - 1
+- print:
+  - 克蘿依
+  - 『黑色森林的蒼穹』。
+- wait:
+  - 45
+- print:
+  - 克蘿依
+  - >2-
+
+    在我們精靈種族中流傳的……
+- wait:
+  - 65
+- face:
+  - 110811
+  - 6
+- print:
+  - 克蘿依
+  - 就是，
+- wait:
+  - 5
+- print:
+  - 克蘿依
+  - 怎麼說，
+- wait:
+  - 20
+- print:
+  - 克蘿依
+  - 藥草飲料？
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_051
+- face:
+  - 110811
+  - 1
+- print:
+  - 克蘿依
+  - 雖然這麼說……
+- wait:
+  - 20
+- print:
+  - 克蘿依
+  - 但也已經終結了呢，
+- wait:
+  - 30
+- print:
+  - 克蘿依
+  - 那個氏族。
+- touch: *o0
+- choice:
+  - 什麼意思？
+  - 6
+- tag:
+  - 6
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_052
+- face:
+  - 110811
+  - 6
+- print:
+  - 克蘿依
+  - 嗯……
+- wait:
+  - 30
+- print:
+  - 克蘿依
+  - 我聽說好像是，
+- wait:
+  - 45
+- print:
+  - 克蘿依
+  - >2
+
+- face:
+  - 110811
+  - 1
+- print:
+  - 克蘿依
+  - 以前棲息的森林
+- wait:
+  - 18
+- print:
+  - 克蘿依
+  - 因為受到很嚴重的災害而消失了？
+- wait:
+  - 45
+- print:
+  - 克蘿依
+  - >2-
+
+    所以大家
+- wait:
+  - 10
+- print:
+  - 克蘿依
+  - 四散各處。
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_053
+- face:
+  - 110811
+  - 1
+- nod:
+  - 110811
+- print:
+  - 克蘿依
+  - 我從懂事以後
+- wait:
+  - 30
+- print:
+  - 克蘿依
+  - 就生活在人類社會的角落，
+- wait:
+  - 50
+- print:
+  - 克蘿依
+  - >2
+
+- face:
+  - 110811
+  - 4
+- print:
+  - 克蘿依
+  - 所以就算聽到出生以前的事，
+- wait:
+  - 45
+- print:
+  - 克蘿依
+  - >2-
+
+    還真的不太懂呢。
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_054
+- face:
+  - 110811
+  - 1
+- print:
+  - 克蘿依
+  - 所以，
+- wait:
+  - 5
+- print:
+  - 克蘿依
+  - 我對那個果汁……
+- wait:
+  - 40
+- face:
+  - 110811
+  - 6
+- print:
+  - 克蘿依
+  - 啊，
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - 不對，飲料，
+- wait:
+  - 30
+- print:
+  - 克蘿依
+  - >2
+
+- face:
+  - 110811
+  - 1
+- print:
+  - 克蘿依
+  - 說實在的我對那個
+- wait:
+  - 10
+- print:
+  - 克蘿依
+  - 並沒有什麼感情――
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_055
+- face:
+  - 110811
+  - 2
+- nod:
+  - 110811
+- print:
+  - 克蘿依
+  - ――但是，
+- wait:
+  - 35
+- print:
+  - 克蘿依
+  - 我的母親卻好像不是那樣呢。
+- wait:
+  - 45
+- print:
+  - 克蘿依
+  - >2-
+
+    從以前就
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - 常常做給我喝呢。
+- wait:
+  - 45
+- print:
+  - 克蘿依
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 克蘿依
+  - 是所謂的故鄉的味道？　
+- wait:
+  - 30
+- eye_open:
+  - True
+- print:
+  - 克蘿依
+  - 很感傷吧。
+- touch: *o0
+- choice:
+  - 很感傷。
+  - 7
+- choice:
+  - 很好喝。
+  - 8
+- tag:
+  - 7
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_056
+- face:
+  - 110811
+  - 2
+- print:
+  - 克蘿依
+  - 是嗎？　
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - 那真是太好了。
+- wait:
+  - 35
+- print:
+  - 克蘿依
+  - >2
+
+- face:
+  - 110811
+  - 6
+- print:
+  - 克蘿依
+  - 不過，
+- wait:
+  - 5
+- print:
+  - 克蘿依
+  - 你能理解嗎……
+- touch: *o0
+- goto:
+  - 9
+- tag:
+  - 8
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_057
+- face:
+  - 110811
+  - 4
+- emotion:
+  - sweat1_R
+  - 110811
+  - 85
+  - 495
+  - se_adv_emote_sweat_01
+- print:
+  - 克蘿依
+  - 那是騙人的吧。
+- wait:
+  - 25
+- print:
+  - 克蘿依
+  - >2-
+
+    只是單純地很苦而已吧。
+- wait:
+  - 30
+- print:
+  - 克蘿依
+  - >2-
+
+    或者該說是味覺已經死亡了嗎。
+- touch: *o0
+- tag:
+  - 9
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_058
+- face:
+  - 110811
+  - 1
+- print:
+  - 克蘿依
+  - 算了，
+- wait:
+  - 10
+- print:
+  - 克蘿依
+  - 不過，
+- wait:
+  - 25
+- print:
+  - 克蘿依
+  - 謝謝。
+- wait:
+  - 30
+- print:
+  - 克蘿依
+  - >2
+
+- face:
+  - 110811
+  - 2
+- print:
+  - 克蘿依
+  - 你啊，大概是好人呢。
+- wait:
+  - 20
+- print:
+  - 克蘿依
+  - 雖然不是很清楚。
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_059
+- face:
+  - 110811
+  - 1
+- nod:
+  - 110811
+- print:
+  - 克蘿依
+  - 那麼？
+- wait:
+  - 30
+- print:
+  - 克蘿依
+  - >2-
+
+    {0}，
+- wait:
+  - 10
+- print:
+  - 克蘿依
+  - 是家裡發生了什麼不開心的事嗎。
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_060
+- face:
+  - 110811
+  - 1
+- eye_open:
+  - False
+- print:
+  - 克蘿依
+  - 我是無所謂啦，
+- wait:
+  - 35
+- eye_open:
+  - True
+- print:
+  - 克蘿依
+  - 不過早點回家對你比較好吧。
+- wait:
+  - 30
+- print:
+  - 克蘿依
+  - >2
+
+- face:
+  - 110811
+  - 4
+- print:
+  - 克蘿依
+  - 我覺得這種沒救了的店，
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - 好像
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - 不太適合你呢。
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_061
+- face:
+  - 110811
+  - 1
+- nod:
+  - 110811
+- print:
+  - 克蘿依
+  - 雖然我不會
+- wait:
+  - 30
+- print:
+  - 克蘿依
+  - 叫你不要做壞事，
+- wait:
+  - 35
+- print:
+  - 克蘿依
+  - >2-
+
+    不過那些很遜的事情，
+- wait:
+  - 20
+- print:
+  - 克蘿依
+  - 還是放棄別做了吧？
+- touch: *o0
+- choice:
+  - 雖然想回去可是回不去。
+  - 10
+- tag:
+  - 10
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_062
+- face:
+  - 110811
+  - 4
+- print:
+  - 克蘿依
+  - 啊――，
+- wait:
+  - 20
+- print:
+  - 克蘿依
+  - 算了――
+- wait:
+  - 35
+- print:
+  - 克蘿依
+  - >2-
+
+    你應該也有你的苦衷……
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_063
+- face:
+  - 110811
+  - 4
+- print:
+  - 克蘿依
+  - 你想沉淪是你的自由喔？
+- wait:
+  - 35
+- print:
+  - 克蘿依
+  - >2
+
+- face:
+  - 110811
+  - 1
+- print:
+  - 克蘿依
+  - 不過，
+- wait:
+  - 10
+- print:
+  - 克蘿依
+  - 不能讓父母或是兄弟姊妹擔心喔。
+- wait:
+  - 45
+- print:
+  - 克蘿依
+  - >2-
+
+    那可不行。
+- wait:
+  - 20
+- print:
+  - 克蘿依
+  - 那樣很遜喔。
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_064
+- face:
+  - 110811
+  - 4
+- print:
+  - 克蘿依
+  - 那麼，
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - 那麼今天就先回去吧。
+- wait:
+  - 30
+- print:
+  - 克蘿依
+  - >2-
+
+    吶，
+- wait:
+  - 10
+- nod:
+  - 110811
+- se:
+  - se_adv_money_give_01
+- print:
+  - 克蘿依
+  - 好了，
+- wait:
+  - 20
+- print:
+  - 克蘿依
+  - 阿姨給你100盧幣。
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
+- choice:
+  - 迷了路所以回不去。
+  - 11
+- tag:
+  - 11
+- bgm:
+  - bgm_M180_Ver2
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_065
+- face:
+  - 110811
+  - 6
+- emotion:
+  - question1_R
+  - 110811
+  - 125
+  - 445
+  - se_adv_emote_question_01
+- print:
+  - 克蘿依
+  - 啊？
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_066
+- face:
+  - 110811
+  - 6
+- print:
+  - 克蘿依
+  - 迷……
+- wait:
+  - 45
+- face:
+  - 110811
+  - 4
+- print:
+  - 克蘿依
+  - 欸，什麼。
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - >2-
+
+    難道是那個？　
+- wait:
+  - 25
+- print:
+  - 克蘿依
+  - 你迷路了？
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_067
+- face:
+  - 110811
+  - 6
+- print:
+  - 克蘿依
+  - 啊，
+- wait:
+  - 25
+- print:
+  - 克蘿依
+  - 所以才想問去中央（城鎮）的路……？
+- wait:
+  - 50
+- print:
+  - 克蘿依
+  - >2-
+
+    啊――，
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - 是因為這種……
+- wait:
+  - 35
+- face:
+  - 110811
+  - 1
+- print:
+  - 克蘿依
+  - 原來如此，
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - 不是客人呢。
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_068
+- face:
+  - 110811
+  - 6
+- nod:
+  - 110811
+- print:
+  - 克蘿依
+  - 所以說？　
+- wait:
+  - 25
+- print:
+  - 克蘿依
+  - 原來不是誤入歧途的少年啊。
+- wait:
+  - 65
+- print:
+  - 克蘿依
+  - >2
+
+- face:
+  - 110811
+  - 4
+- print:
+  - 克蘿依
+  - 啊這樣啊，
+- wait:
+  - 25
+- print:
+  - 克蘿依
+  - 嗯――。
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_069
+- face:
+  - 110811
+  - 4
+- eye_open:
+  - False
+- print:
+  - 克蘿依
+  - 噗……
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_070
+- face:
+  - 110811
+  - 4
+- eye_open:
+  - True
+- nod:
+  - 110811
+- print:
+  - 克蘿依
+  - 不，
+- wait:
+  - 5
+- print:
+  - 克蘿依
+  - 沒什麼啦，
+- wait:
+  - 10
+- print:
+  - 克蘿依
+  - 是我太早下判斷誤會你了。
+- wait:
+  - 40
+- print:
+  - 克蘿依
+  - >2-
+
+    雖然無所謂啦，
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - 但可以的話，
+- wait:
+  - 5
+- print:
+  - 克蘿依
+  - >2-
+
+    這種狀況還是盡早和我說好嗎。
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - 不然會浪費時間。
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_071
+- face:
+  - 110811
+  - 1
+- print:
+  - 克蘿依
+  - 還有
+- wait:
+  - 10
+- print:
+  - 克蘿依
+  - 100盧幣可以還我嗎。
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 4
+- se:
+  - se_adv_money_give_01
+- nod:
+  - 110811
+- wait:
+  - 15
+- fadeout:
+  - 110811
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 811
+  - C
+  - 3
+- fadein:
+  - 811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M94
+  - 0
+  - 0
+  - 1
+  - 2
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1108001_072
+- face:
+  - 811
+  - 3
+- emotion:
+  - anger1_R
+  - 811
+  - -120
+  - 545
+  - se_adv_emote_anger_01
+- print:
+  - 旅行的暴徒
+  - 啊啊可惡！
+- wait:
+  - 45
+- print:
+  - 旅行的暴徒
+  - >2-
+
+    每個人都一副蠢樣！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 811
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 110811
+  - C
+  - 4
+- fadein:
+  - 110811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_073
+- face:
+  - 110811
+  - 4
+- emotion:
+  - gloomy1_R
+  - 110811
+  - 55
+  - 485
+  - se_adv_emote_gloomy_01
+- print:
+  - 克蘿依
+  - 啊……
+- wait:
+  - 20
+- print:
+  - 克蘿依
+  - 又是無聊的客人在大鬧了。
+- wait:
+  - 90
+- print:
+  - 克蘿依
+  - >2
+
+- face:
+  - 110811
+  - 1
+- print:
+  - 克蘿依
+  - 你也是，
+- wait:
+  - 5
+- print:
+  - 克蘿依
+  - 喂，
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - 趁現在還沒被牽連快點回去吧。
+- wait:
+  - 45
+- print:
+  - 克蘿依
+  - >2-
+
+    走出店後往東走，
+- wait:
+  - 40
+- print:
+  - 克蘿依
+  - 會走到稍微寬闊一點的路上――
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 110811
+  - 30
+- chara_full:
+  - 811
+  - R
+  - 3
+- chara_full:
+  - 110811
+  - LC
+  - 1
+- se:
+  - se_adv_step_wood_walk_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - R
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1108001_074
+- face:
+  - 811
+  - 3
+- print:
+  - 旅行的暴徒
+  - 喔？　
+- wait:
+  - 45
+- print:
+  - 旅行的暴徒
+  - 怎樣，
+- wait:
+  - 20
+- print:
+  - 旅行的暴徒
+  - 小兄弟。
+- wait:
+  - 35
+- print:
+  - 旅行的暴徒
+  - >2-
+
+    你在看什麼。
+- wait:
+  - 50
+- print:
+  - 旅行的暴徒
+  - >2-
+
+    看我輸得很慘
+- wait:
+  - 40
+- print:
+  - 旅行的暴徒
+  - 有那麼好玩嗎，
+- wait:
+  - 40
+- print:
+  - 旅行的暴徒
+  - 啊啊！？
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_075
+- face:
+  - 110811
+  - 4
+- nod:
+  - 110811
+- print:
+  - 克蘿依
+  - 啊討厭，
+- wait:
+  - 10
+- print:
+  - 克蘿依
+  - 別這樣別這樣。
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - 煩死了。
+- wait:
+  - 30
+- print:
+  - 克蘿依
+  - >2
+
+- face:
+  - 110811
+  - 1
+- print:
+  - 克蘿依
+  - 明明是個大人還遷怒一個正經的小孩，
+- wait:
+  - 45
+- print:
+  - 克蘿依
+  - 也太無聊了。
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1108001_076
+- face:
+  - 811
+  - 3
+- emotion:
+  - anger1_R
+  - 811
+  - -120
+  - 545
+  - se_adv_emote_anger_01
+- print:
+  - 旅行的暴徒
+  - 吵死了，
+- wait:
+  - 25
+- print:
+  - 旅行的暴徒
+  - 別小看我！
+- touch: *o0
+- window_visible:
+  - false
+- focus:
+  - 110811:811
+- face:
+  - 110811
+  - 6
+- se:
+  - se_adv_jar_break_01
+- nod:
+  - 811
+- emotion:
+  - exclamation1_R
+  - 110811
+  - 30
+  - 600
+  - se_adv_emote_common_01
+- wait:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_077
+- face:
+  - 110811
+  - 6
+- print:
+  - 克蘿依
+  - 嗚啊，
+- wait:
+  - 10
+- print:
+  - 克蘿依
+  - 毀損器物。
+- wait:
+  - 30
+- print:
+  - 克蘿依
+  - 還有傷害未遂。
+- wait:
+  - 55
+- print:
+  - 克蘿依
+  - >2
+
+- face:
+  - 110811
+  - 4
+- print:
+  - 克蘿依
+  - 喝酒喝到發神經，
+- wait:
+  - 25
+- print:
+  - 克蘿依
+  - 眼神都已經不正常了……
+- wait:
+  - 60
+- print:
+  - 克蘿依
+  - >2-
+
+    這該怎麼說？　
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - 已經有點笑不出來了呢？
+- touch: *o0
+- bgm:
+  - stop
+  - 6
+  - 1
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_078
+- face:
+  - 110811
+  - 1
+- nod:
+  - 110811
+- print:
+  - 克蘿依
+  - 店長――，
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - 這個該怎麼……
+- wait:
+  - 45
+- face:
+  - 110811
+  - 6
+- print:
+  - 克蘿依
+  - 欸，
+- wait:
+  - 10
+- print:
+  - 克蘿依
+  - 不在啊！
+- touch: *o0
+- bgm:
+  - bgm_M42_02
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1108001_079
+- face:
+  - 811
+  - 3
+- print:
+  - 旅行的暴徒
+  - 唷，
+- wait:
+  - 15
+- print:
+  - 旅行的暴徒
+  - 這位姐姐。
+- wait:
+  - 30
+- print:
+  - 旅行的暴徒
+  - >2-
+
+    這家店，
+- wait:
+  - 30
+- print:
+  - 旅行的暴徒
+  - 現在是怎麼樣？
+- wait:
+  - 45
+- print:
+  - 旅行的暴徒
+  - >2-
+
+    打算怎麼賠償我啊，
+- wait:
+  - 45
+- print:
+  - 旅行的暴徒
+  - 啊啊？
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_080
+- face:
+  - 110811
+  - 4
+- print:
+  - 克蘿依
+  - 啊討厭，
+- wait:
+  - 20
+- print:
+  - 克蘿依
+  - 一定要
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - 動用我的拳頭嗎……
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_081
+- face:
+  - 110811
+  - 1
+- print:
+  - 克蘿依
+  - 怎麼辦……
+- wait:
+  - 30
+- print:
+  - 克蘿依
+  - 醉成這樣，
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - >2-
+
+    我只要出手
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - 就能瞬間擊潰――
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_082
+- face:
+  - 110811
+  - 4
+- print:
+  - 克蘿依
+  - ――但若引起騷動，
+- wait:
+  - 25
+- print:
+  - 克蘿依
+  - 傳到衛兵的耳朵裡，
+- wait:
+  - 75
+- print:
+  - 克蘿依
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 克蘿依
+  - 這家店就會遭到搜查，
+- wait:
+  - 25
+- print:
+  - 克蘿依
+  - 並被勒令停業吧。
+- wait:
+  - 50
+- print:
+  - 克蘿依
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 克蘿依
+  - 說真的，
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - 若少了一個打工，
+- wait:
+  - 25
+- print:
+  - 克蘿依
+  - 實在會很困擾
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_083
+- face:
+  - 110811
+  - 4
+- print:
+  - 克蘿依
+  - 沒辦法，
+- wait:
+  - 25
+- print:
+  - 克蘿依
+  - 那就由我，
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - 先接受這拳吧，
+- wait:
+  - 50
+- print:
+  - 克蘿依
+  - >2
+
+- face:
+  - 110811
+  - 1
+- print:
+  - 克蘿依
+  - 這樣一來，這男人，
+- wait:
+  - 25
+- print:
+  - 克蘿依
+  - 會嚇一跳，酒也會醒吧……
+- touch: *o0
+- window_visible:
+  - false
+- eye_open:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1108001_084
+- face:
+  - 811
+  - 3
+- emotion:
+  - exclamation1_R
+  - 811
+  - -20
+  - 660
+  - se_adv_emote_common_01
+- print:
+  - 旅行的暴徒
+  - 喔喔？　
+- wait:
+  - 50
+- print:
+  - 旅行的暴徒
+  - 這位姐姐，
+- wait:
+  - 30
+- print:
+  - 旅行的暴徒
+  - 妳還真是胸襟開闊呢。
+- wait:
+  - 60
+- print:
+  - 旅行的暴徒
+  - >2-
+
+    居然想自己忍耐啊。
+- wait:
+  - 85
+- print:
+  - 旅行的暴徒
+  - >2-
+
+    好……
+- wait:
+  - 30
+- print:
+  - 旅行的暴徒
+  - 那麼，
+- wait:
+  - 20
+- print:
+  - 旅行的暴徒
+  - 如妳所願！
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1108001_085
+- face:
+  - 811
+  - 3
+- nod:
+  - 811
+- print:
+  - 旅行的暴徒
+  - 看招！！
+- touch: *o0
+- bgm:
+  - stop
+  - 5
+- choice:
+  - 介入兩個人之間。
+  - 12
+- tag:
+  - 12
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_step_wood_move_armor_01
+- effect:
+  - 0009
+- camera_zoom:
+  - 1.3
+  - 5
+- effect_delete:
+  - 0009
+- effect:
+  - 0019
+  - se_adv_weapon_punch_hit_01
+- wait:
+  - 15
+- effect:
+  - 0079
+  - se_adv_kick_ground_01
+- wait:
+  - 15
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- chara_full:
+  - 110811
+  - C
+  - 3
+  - 1
+- fadein:
+  - 110811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_086
+- face:
+  - 110811
+  - 3
+- print:
+  - 克蘿依
+  - …………
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_087
+- face:
+  - 110811
+  - 6
+- eye_open:
+  - True
+- print:
+  - 克蘿依
+  - …………奇怪？　
+- wait:
+  - 25
+- print:
+  - 克蘿依
+  - 不會痛。
+- touch: *o0
+- bgm:
+  - bgm_M123_Introcut
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_088
+- face:
+  - 110811
+  - 6
+- emotion:
+  - surprise1_L
+  - 110811
+  - 215
+  - 540
+  - se_adv_emote_common_01
+- print:
+  - 克蘿依
+  - 咦！？
+- wait:
+  - 35
+- print:
+  - 克蘿依
+  - >2-
+
+    {0}……
+- wait:
+  - 35
+- print:
+  - 克蘿依
+  - >2-
+
+    等等，為什麼……
+- wait:
+  - 20
+- print:
+  - 克蘿依
+  - 沒事吧！？
+- touch: *o0
+- choice:
+  - 雖然會痛但沒事。
+  - 13
+- tag:
+  - 13
+- choice:
+  - 讓我休息一下。
+  - 14
+- tag:
+  - 14
+- bgm:
+  - stop
+  - 7
+  - 1
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_089
+- face:
+  - 110811
+  - 1
+- nod:
+  - 110811
+- print:
+  - 克蘿依
+  - 啊……
+- wait:
+  - 35
+- print:
+  - 克蘿依
+  - >2-
+
+    好吧，
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - 你先休息。
+- wait:
+  - 65
+- print:
+  - 克蘿依
+  - >2
+
+- face:
+  - 110811
+  - 3
+- print:
+  - 克蘿依
+  - 剩下的我來處理。
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - bgm_M43
+- fadeout:
+  - 110811
+  - 30
+- camera_zoom:
+  - 1
+  - 10
+- chara_full:
+  - 811
+  - C
+  - 6
+- fadein:
+  - 811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1108001_090
+- face:
+  - 811
+  - 6
+- print:
+  - 旅行的暴徒
+  - 喔，
+- wait:
+  - 20
+- print:
+  - 旅行的暴徒
+  - 喔喔……
+- wait:
+  - 40
+- print:
+  - 旅行的暴徒
+  - 妳幹什麼，
+- wait:
+  - 15
+- print:
+  - 旅行的暴徒
+  - 那個眼神……
+- wait:
+  - 45
+- print:
+  - 旅行的暴徒
+  - >2
+
+- face:
+  - 811
+  - 3
+- print:
+  - 旅行的暴徒
+  - 還、
+- wait:
+  - 15
+- print:
+  - 旅行的暴徒
+  - 還不知道我有多強嗎？
+- wait:
+  - 30
+- print:
+  - 旅行的暴徒
+  - >2-
+
+    我是當地百戰百勝的最強戰士，
+- wait:
+  - 35
+- print:
+  - 旅行的暴徒
+  - 又被稱做
+- wait:
+  - 15
+- print:
+  - 旅行的暴徒
+  - 鐵腕的――
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 811
+  - 30
+- chara_full:
+  - 110811
+  - C
+  - 3
+- fadein:
+  - 110811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_091
+- face:
+  - 110811
+  - 3
+- print:
+  - 克蘿依
+  - 吵死了，
+- wait:
+  - 10
+- print:
+  - 克蘿依
+  - 雜碎。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_move_fast_02
+- effect:
+  - 0009
+- scale:
+  - 110811
+  - 1.2
+  - 2
+  - 10
+- fadeout:
+  - 110811
+  - 10
+- effect_delete:
+  - 0009
+- chara_full:
+  - 811
+  - C
+  - 6
+- fadein:
+  - 811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1108001_092
+- face:
+  - 811
+  - 6
+- emotion:
+  - surprise1_L
+  - 811
+  - 110
+  - 580
+  - se_adv_emote_common_01
+- print:
+  - 旅行的暴徒
+  - 什……
+- wait:
+  - 30
+- print:
+  - 旅行的暴徒
+  - 消失了！？　
+- wait:
+  - 15
+- print:
+  - 旅行的暴徒
+  - 那，
+- wait:
+  - 10
+- print:
+  - 旅行的暴徒
+  - 那個女的，
+- wait:
+  - 15
+- print:
+  - 旅行的暴徒
+  - 去哪了……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 811
+  - 30
+- chara_full:
+  - 110811
+  - RC
+  - 3
+- chara_full:
+  - 811
+  - LC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_093
+- face:
+  - 110811
+  - 3
+- print:
+  - 克蘿依
+  - 我說啊。
+- wait:
+  - 20
+- print:
+  - 克蘿依
+  - >2-
+
+    鬧得太過頭了吧。
+- wait:
+  - 25
+- print:
+  - 克蘿依
+  - >2-
+
+    你打算對我的客人做什麼。
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1108001_094
+- face:
+  - 811
+  - 6
+- print:
+  - 旅行的暴徒
+  - 噫噫噫！？
+- shake:
+  - 811
+- wait:
+  - 20
+- print:
+  - 旅行的暴徒
+  - >2-
+
+    這、
+- wait:
+  - 15
+- print:
+  - 旅行的暴徒
+  - 這傢伙，
+- wait:
+  - 20
+- print:
+  - 旅行的暴徒
+  - 什麼時候跑到背後的……！
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_095
+- face:
+  - 110811
+  - 3
+- nod:
+  - 110811
+- print:
+  - 克蘿依
+  - 所以啊，
+- wait:
+  - 25
+- print:
+  - 克蘿依
+  - 我不是說了很吵嗎。
+- wait:
+  - 35
+- print:
+  - 克蘿依
+  - 你們可以安靜一下嗎。
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1108001_096
+- face:
+  - 811
+  - 6
+- print:
+  - 旅行的暴徒
+  - 唔唔……
+- wait:
+  - 30
+- print:
+  - 旅行的暴徒
+  - 妳是什麼人，
+- wait:
+  - 10
+- print:
+  - 旅行的暴徒
+  - 妳這傢伙……
+- wait:
+  - 20
+- print:
+  - 旅行的暴徒
+  - >2-
+
+    打、
+- wait:
+  - 15
+- print:
+  - 旅行的暴徒
+  - 打算
+- wait:
+  - 20
+- print:
+  - 旅行的暴徒
+  - 對我做什麼……？
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_097
+- face:
+  - 110811
+  - 1
+- print:
+  - 克蘿依
+  - 不是要，
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - 解決我嗎？
+- wait:
+  - 35
+- print:
+  - 克蘿依
+  - >2-
+
+    你說剛剛這麼說了吧。
+- wait:
+  - 40
+- print:
+  - 克蘿依
+  - >2
+
+- nod:
+  - 110811
+- print:
+  - 克蘿依
+  - 好唷，
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - 就來做個了結吧。
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_098
+- face:
+  - 110811
+  - 3
+- print:
+  - 克蘿依
+  - ……馬上就結束了
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - 你別動。
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1108001_099
+- face:
+  - 811
+  - 6
+- emotion:
+  - sweat2_R
+  - 811
+  - 40
+  - 535
+  - se_adv_emote_sweat_02
+- print:
+  - 旅行的暴徒
+  - 嗚、
+- wait:
+  - 15
+- print:
+  - 旅行的暴徒
+  - 嗚哇啊啊啊啊啊啊！
+- wait:
+  - 25
+- print:
+  - 旅行的暴徒
+  - >2-
+
+    對不起啊啊啊啊――！！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 6
+- se:
+  - se_adv_bodyfall_03
+- out_L:
+  - 811
+  - 30
+  - true
+- se:
+  - se_adv_door_shop_open_01
+- change:
+  - C
+  - RC
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_100
+- face:
+  - 110811
+  - 4
+- print:
+  - 克蘿依
+  - 噗……
+- wait:
+  - 30
+- print:
+  - 克蘿依
+  - >2-
+
+    真無聊。
+- wait:
+  - 35
+- face:
+  - 110811
+  - 1
+- print:
+  - 克蘿依
+  - 不要再來了。
+- touch: *o0
+- bgm:
+  - bgm_M34
+  - 0
+  - 0
+  - 1
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_101
+- face:
+  - 110811
+  - 3
+- nod:
+  - 110811
+- print:
+  - 克蘿依
+  - '{0}也是。'
+- wait:
+  - 30
+- print:
+  - 克蘿依
+  - >2-
+
+    我不是說了嗎，
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - >2-
+
+    別做些
+- wait:
+  - 10
+- print:
+  - 克蘿依
+  - 讓家人擔心的事。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 110811
+  - 30
+- se:
+  - se_adv_cloth_move_normal_01
+- chara_full:
+  - 110811
+  - C
+  - 1
+- scale:
+  - 110811
+  - 1.2
+  - 2
+- fadein:
+  - 110811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_102
+- face:
+  - 110811
+  - 1
+- eye_open:
+  - False
+- print:
+  - 克蘿依
+  - 算了……
+- wait:
+  - 45
+- print:
+  - 克蘿依
+  - 不過，
+- wait:
+  - 35
+- eye_open:
+  - True
+- print:
+  - 克蘿依
+  - 我修正一句話。
+- wait:
+  - 50
+- print:
+  - 克蘿依
+  - >2-
+
+    你，
+- wait:
+  - 5
+- print:
+  - 克蘿依
+  - 果然，
+- wait:
+  - 25
+- print:
+  - 克蘿依
+  - 不是很遜的傢伙。
+- touch: *o0
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_1108001_103
+- face:
+  - 110811
+  - 2
+- nod:
+  - 110811
+- print:
+  - 克蘿依
+  - 謝啦。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 110811
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    克蘿依用冰水，
+
+    溫柔地幫{0}冰敷腫脹的臉頰。
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

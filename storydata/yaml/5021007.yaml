@@ -1,0 +1,1235 @@
+- title:
+  - 重要的贈禮
+- outline:
+  - 真步將{0}叫到了公會小屋。想要為了夏天發生的事情道謝，真步將手做的玩偶送給了真琴、香織，最後則將跟自己非常相似的玩偶送給了{0}。
+- background:
+  - 500060
+- amb:
+  - amb_adv_room_noise_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 重要的贈禮
+- chara_full:
+  - 101011
+  - C
+  - 1
+- fadein:
+  - 101011
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M246
+  - 0
+  - 0
+  - 1
+- focus:
+  - 101011
+- bust:
+  - 101011
+  - 0
+- vo:
+  - vo_adv_5021007_000
+- face:
+  - 101011
+  - 1
+- print:
+  - 真步
+  - 大家
+- wait:
+  - 30
+- face:
+  - 101011
+  - 2
+- print:
+  - 真步
+  - 可以聚過來一下嗎～？
+- touch: &o0 []
+- window_visible:
+  - false
+- fadeout:
+  - 101011
+  - 30
+- chara_full:
+  - 104311
+  - C
+  - 6
+- chara_full:
+  - 101711
+  - R
+  - 1
+- se:
+  - se_adv_step_rug_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - C
+  - 45
+- change:
+  - RC
+  - R
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 104311
+- bust:
+  - 104311
+  - 0
+- vo:
+  - vo_adv_5021007_001
+- face:
+  - 104311
+  - 6
+- print:
+  - 真琴
+  - 妳要做什麼，
+- wait:
+  - 10
+- print:
+  - 真琴
+  - 公主？
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_5021007_002
+- face:
+  - 101711
+  - 1
+- nod:
+  - 101711
+- print:
+  - 香織
+  - 難不成想要一起跳舞嗎～？
+- touch: *o0
+- focus:
+  - 104311
+- bust:
+  - 104311
+  - 0
+- vo:
+  - vo_adv_5021007_003
+- face:
+  - 104311
+  - 1
+- print:
+  - 真琴
+  - 咦？
+- wait:
+  - 25
+- print:
+  - 真琴
+  - 　搞什麼，
+- wait:
+  - 15
+- print:
+  - 真琴
+  - 原來{0}也在啊。
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_5021007_004
+- face:
+  - 101711
+  - 2
+- print:
+  - 香織
+  - 這麼多人不跳舞就太可惜啦～♪
+- touch: *o0
+- choice:
+  - 跳舞吧，香織。
+  - 1
+- choice:
+  - 跳舞吧，真琴。
+  - 2
+- tag:
+  - 1
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_5021007_005
+- face:
+  - 101711
+  - 2
+- emotion:
+  - note1_L
+  - 101711
+  - -105
+  - 485
+  - se_adv_emote_note_01
+- print:
+  - 香織
+  - 好耶～♪
+- wait:
+  - 45
+- print:
+  - 香織
+  - >2
+
+- face:
+  - 101711
+  - 1
+- print:
+  - 香織
+  - 那麼伴奏就交給真琴負責啦～♪
+- touch: *o0
+- focus:
+  - 104311
+- bust:
+  - 104311
+  - 0
+- vo:
+  - vo_adv_5021007_006
+- face:
+  - 104311
+  - 6
+- print:
+  - 真琴
+  - 不，我根本不會伴奏啊！？
+- touch: *o0
+- goto:
+  - 3
+- tag:
+  - 2
+- face:
+  - 101711
+  - 1
+- focus:
+  - 104311
+- bust:
+  - 104311
+  - 0
+- vo:
+  - vo_adv_5021007_007
+- face:
+  - 104311
+  - 6
+- emotion:
+  - exclamation1_R
+  - 104311
+  - 5
+  - 690
+  - se_adv_emote_common_01
+- print:
+  - 真琴
+  - 咦，
+- wait:
+  - 15
+- print:
+  - 真琴
+  - 為什麼！？
+- wait:
+  - 30
+- print:
+  - 真琴
+  - >2
+
+- face:
+  - 104311
+  - 4
+- print:
+  - 真琴
+  - 真的要嗎？
+- wait:
+  - 40
+- print:
+  - 真琴
+  - 　呃、
+- wait:
+  - 30
+- print:
+  - 真琴
+  - 那麼，
+- wait:
+  - 15
+- face:
+  - 104311
+  - 5
+- print:
+  - 真琴
+  - 真是拿你沒辦法……
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_5021007_008
+- face:
+  - 101711
+  - 2
+- pop:
+  - 101711
+- print:
+  - 香織
+  - 那我來伴奏吧～♪
+- touch: *o0
+- tag:
+  - 3
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 104311
+  - L
+  - 1
+- chara_full:
+  - 101011
+  - C
+  - 2
+- chara_full:
+  - 101711
+  - R
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101011
+- bust:
+  - 101011
+  - 0
+- vo:
+  - vo_adv_5021007_009
+- face:
+  - 101011
+  - 2
+- nod:
+  - 101011
+- print:
+  - 真步
+  - 好了好了。
+- wait:
+  - 55
+- print:
+  - 真步
+  - >2
+
+- face:
+  - 101011
+  - 1
+- print:
+  - 真步
+  - 要跳舞可以，
+- wait:
+  - 50
+- print:
+  - 真步
+  - 但在那之前
+- wait:
+  - 30
+- print:
+  - 真步
+  - 人家有東西要想送給你們。
+- touch: *o0
+- focus:
+  - 104311
+- bust:
+  - 104311
+  - 0
+- vo:
+  - vo_adv_5021007_010
+- face:
+  - 104311
+  - 6
+- emotion:
+  - question1_R
+  - 104311
+  - 115
+  - 535
+  - se_adv_emote_question_01
+- print:
+  - 真琴
+  - 送給我們？
+- touch: *o0
+- bgm:
+  - stop
+  - 12
+  - 1
+- focus:
+  - 101011
+- bust:
+  - 101011
+  - 0
+- vo:
+  - vo_adv_5021007_011
+- face:
+  - 101011
+  - 1
+- nod:
+  - 101011
+- print:
+  - 真步
+  - 對呀。
+- wait:
+  - 40
+- print:
+  - 真步
+  - 那個，
+- wait:
+  - 30
+- print:
+  - 真步
+  - 前陣子
+- wait:
+  - 15
+- print:
+  - 真步
+  - 不是給你們添麻煩了嗎？
+- wait:
+  - 60
+- print:
+  - 真步
+  - >2
+
+- face:
+  - 101011
+  - 2
+- print:
+  - 真步
+  - 所以，
+- wait:
+  - 20
+- print:
+  - 真步
+  - 這也是為了平時的感謝之意，
+- wait:
+  - 40
+- print:
+  - 真步
+  - 人家想送禮物給你們。
+- touch: *o0
+- window_visible:
+  - false
+- focus:
+  - 104311:101711:101011
+- se:
+  - se_adv_hug_01
+- nod:
+  - 101011
+- wait:
+  - 10
+- face:
+  - 104311
+  - 6
+- face:
+  - 101711
+  - 6
+- shake:
+  - 104311:101711
+- face:
+  - 101011
+  - 1
+- window_visible:
+  - true
+- bgm:
+  - bgm_M247
+- focus:
+  - 104311
+- bust:
+  - 104311
+  - 0
+- vo:
+  - vo_adv_5021007_012
+- face:
+  - 104311
+  - 6
+- emotion:
+  - twinkle1_R
+  - 104311
+  - -115
+  - 545
+  - se_adv_emote_twinkle_01
+- print:
+  - 真琴
+  - 喔喔……
+- wait:
+  - 45
+- print:
+  - 真琴
+  - 這是
+- wait:
+  - 10
+- print:
+  - 真琴
+  - 以我為原型的玩偶嗎？
+- wait:
+  - 35
+- print:
+  - 真琴
+  - >2
+
+- face:
+  - 104311
+  - 5
+- print:
+  - 真琴
+  - 真是好可、
+- wait:
+  - 40
+- nod:
+  - 104311
+- print:
+  - 真琴
+  - 呃不，
+- wait:
+  - 25
+- print:
+  - 真琴
+  - 是做得相當出色……！
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_5021007_013
+- face:
+  - 101711
+  - 2
+- pop:
+  - 101711
+- print:
+  - 香織
+  - 無敵開心呀～！
+- wait:
+  - 55
+- print:
+  - 香織
+  - 　真步手真靈巧呢～！
+- touch: *o0
+- face:
+  - 104311
+  - 1
+- face:
+  - 101711
+  - 1
+- focus:
+  - 101011
+- bust:
+  - 101011
+  - 0
+- vo:
+  - vo_adv_5021007_014
+- face:
+  - 101011
+  - 2
+- print:
+  - 真步
+  - 看到你們這麼喜歡，人家也好高興。
+- wait:
+  - 85
+- print:
+  - 真步
+  - >2
+
+- face:
+  - 101011
+  - 1
+- print:
+  - 真步
+  - 霞也很喜歡的樣子，
+- wait:
+  - 70
+- print:
+  - 真步
+  - 有試著做出來真是太好了。
+- touch: *o0
+- focus:
+  - 104311
+- bust:
+  - 104311
+  - 0
+- vo:
+  - vo_adv_5021007_015
+- face:
+  - 104311
+  - 6
+- print:
+  - 真琴
+  - 這樣好嗎？
+- wait:
+  - 30
+- print:
+  - 真琴
+  - 　真的可以收下禮物嗎。
+- wait:
+  - 40
+- print:
+  - 真琴
+  - >2
+
+- face:
+  - 104311
+  - 4
+- print:
+  - 真琴
+  - 我們也沒做什麼……
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_5021007_016
+- face:
+  - 101711
+  - 1
+- print:
+  - 香織
+  - 我們只是順著自己的想法行動啊～♪
+- touch: *o0
+- focus:
+  - 101011
+- bust:
+  - 101011
+  - 0
+- vo:
+  - vo_adv_5021007_017
+- face:
+  - 101011
+  - 2
+- nod:
+  - 101011
+- print:
+  - 真步
+  - 沒關係的。
+- wait:
+  - 50
+- face:
+  - 101011
+  - 1
+- print:
+  - 真步
+  - 這裡面可是
+- wait:
+  - 35
+- print:
+  - 真步
+  - 人家對你們的一番心意。
+- touch: *o0
+- focus:
+  - 104311
+- bust:
+  - 104311
+  - 0
+- vo:
+  - vo_adv_5021007_018
+- face:
+  - 104311
+  - 6
+- print:
+  - 真琴
+  - 心意？
+- touch: *o0
+- focus:
+  - 101011
+- bust:
+  - 101011
+  - 0
+- vo:
+  - vo_adv_5021007_019
+- face:
+  - 101011
+  - 1
+- nod:
+  - 101011
+- print:
+  - 真步
+  - 沒錯。
+- wait:
+  - 30
+- print:
+  - 真步
+  - >2-
+
+    「人家很重視你們」，
+- wait:
+  - 70
+- face:
+  - 101011
+  - 2
+- print:
+  - 真步
+  - 這就是人家的心意。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 104311
+  - LC
+  - 1
+- chara_full:
+  - 101711
+  - RC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_5021007_020
+- face:
+  - 101711
+  - 2
+- pop:
+  - 101711
+- print:
+  - 香織
+  - 謝謝妳～真步！
+- wait:
+  - 60
+- print:
+  - 香織
+  - >2-
+
+    果然應該要跳舞呀～
+- wait:
+  - 35
+- print:
+  - 香織
+  - 真琴也一起來跳，
+- wait:
+  - 30
+- print:
+  - 香織
+  - 來吧～！
+- touch: *o0
+- window_visible:
+  - false
+- focus:
+  - 104311:101711
+- se:
+  - se_adv_knock_back_01
+- nod:
+  - 101711
+- wait:
+  - 10
+- face:
+  - 104311
+  - 6
+- shake:
+  - 104311
+- window_visible:
+  - true
+- focus:
+  - 104311
+- bust:
+  - 104311
+  - 0
+- vo:
+  - vo_adv_5021007_021
+- face:
+  - 104311
+  - 6
+- emotion:
+  - sweat2_R
+  - 104311
+  - 80
+  - 560
+  - se_adv_emote_sweat_02
+- print:
+  - 真琴
+  - 喂、
+- wait:
+  - 10
+- print:
+  - 真琴
+  - 住手別拉啊！
+- wait:
+  - 45
+- print:
+  - 真琴
+  - >2
+
+- face:
+  - 104311
+  - 1
+- print:
+  - 真琴
+  - 好啦、
+- wait:
+  - 15
+- print:
+  - 真琴
+  - 知道了知道了！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 101011
+  - C
+  - 2
+- fadein:
+  - 101011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101011
+- bust:
+  - 101011
+  - 0
+- vo:
+  - vo_adv_5021007_022
+- face:
+  - 101011
+  - 2
+- print:
+  - 真步
+  - 呵呵。
+- wait:
+  - 45
+- face:
+  - 101011
+  - 6
+- print:
+  - 真步
+  - 啊，
+- wait:
+  - 20
+- print:
+  - 真步
+  - 王子先生。
+- wait:
+  - 40
+- print:
+  - 真步
+  - >2
+
+- face:
+  - 101011
+  - 1
+- print:
+  - 真步
+  - 讓你久等了，
+- wait:
+  - 30
+- print:
+  - 真步
+  - 對不起。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101011
+  - 30
+- chara_full:
+  - 101011
+  - C
+  - 1
+- scale:
+  - 101011
+  - 1.2
+  - 2
+- se:
+  - se_adv_step_rug_move_01
+- fadein:
+  - 101011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101011
+- bust:
+  - 101011
+  - 0
+- vo:
+  - vo_adv_5021007_023
+- face:
+  - 101011
+  - 1
+- print:
+  - 真步
+  - 給你，
+- wait:
+  - 40
+- print:
+  - 真步
+  - 這個是王子先生的
+- wait:
+  - 25
+- print:
+  - 真步
+  - 玩偶。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_hug_01
+- nod:
+  - 101011
+- wait:
+  - 15
+- window_visible:
+  - true
+- choice:
+  - 謝謝。
+  - 4
+- tag:
+  - 4
+- focus:
+  - 101011
+- bust:
+  - 101011
+  - 0
+- vo:
+  - vo_adv_5021007_024
+- face:
+  - 101011
+  - 2
+- print:
+  - 真步
+  - 還有……
+- wait:
+  - 45
+- print:
+  - 真步
+  - 另一個。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 101011
+  - 30
+- white_out:
+  - 1
+  - 1
+- bg_color:
+  - 255
+  - 255
+  - 255
+- still:
+  - 502100701
+- wait:
+  - 15
+- se:
+  - se_adv_happy_particle_01
+- white_in: *o0
+- window_visible:
+  - TRUE
+- focus:
+  - 101011
+- bust:
+  - 101011
+  - 1
+- vo:
+  - vo_adv_5021007_025
+- face:
+  - 101011
+  - 5
+- print:
+  - 真步
+  - 這個
+- wait:
+  - 55
+- print:
+  - 真步
+  - 也願意收下來嗎。
+- touch: *o0
+- focus:
+  - 101011
+- bust:
+  - 101011
+  - 1
+- vo:
+  - vo_adv_5021007_026
+- face:
+  - 101011
+  - 5
+- print:
+  - 真步
+  - 這個是
+- wait:
+  - 30
+- print:
+  - 真步
+  - 人家的玩偶。
+- touch: *o0
+- focus:
+  - 101011
+- bust:
+  - 101011
+  - 1
+- vo:
+  - vo_adv_5021007_027
+- face:
+  - 101011
+  - 1
+- print:
+  - 真步
+  - 雖說也可以我自己留下來好好地珍惜，
+- touch: *o0
+- focus:
+  - 101011
+- bust:
+  - 101011
+  - 1
+- vo:
+  - vo_adv_5021007_028
+- face:
+  - 101011
+  - 1
+- print:
+  - 真步
+  - 但果然還是
+- wait:
+  - 45
+- face:
+  - 101011
+  - 2
+- print:
+  - 真步
+  - 希望能
+- wait:
+  - 25
+- print:
+  - 真步
+  - 交由某人愛惜呢。
+- touch: *o0
+- focus:
+  - 101011
+- bust:
+  - 101011
+  - 1
+- vo:
+  - vo_adv_5021007_029
+- face:
+  - 101011
+  - 1
+- print:
+  - 真步
+  - 因為你知道的，
+- wait:
+  - 35
+- print:
+  - 真步
+  - 心意終究會傳達到，
+- wait:
+  - 40
+- print:
+  - 真步
+  - 對吧？
+- wait:
+  - 55
+- print:
+  - 真步
+  - >2-
+
+    王子先生如果願意珍惜，
+- wait:
+  - 65
+- print:
+  - 真步
+  - 人家和那孩子
+- wait:
+  - 45
+- print:
+  - 真步
+  - >2
+
+- face:
+  - 101011
+  - 2
+- print:
+  - 真步
+  - 也一定
+- wait:
+  - 30
+- face:
+  - 101011
+  - 1
+- print:
+  - 真步
+  - 會感到
+- wait:
+  - 10
+- print:
+  - 真步
+  - 很開心呢。
+- touch: *o0
+- focus:
+  - 101011
+- bust:
+  - 101011
+  - 1
+- vo:
+  - vo_adv_5021007_030
+- face:
+  - 101011
+  - 5
+- print:
+  - 真步
+  - 你願意
+- wait:
+  - 65
+- print:
+  - 真步
+  - 接受它嗎？
+- touch: *o0
+- choice:
+  - 嗯。我會珍惜它的。
+  - 5
+- tag:
+  - 5
+- still:
+  - 502100702
+- wait:
+  - 15
+- focus:
+  - 101011
+- bust:
+  - 101011
+  - 1
+- vo:
+  - vo_adv_5021007_031
+- face:
+  - 101011
+  - 2
+- print:
+  - 真步
+  - 謝謝你，
+- wait:
+  - 30
+- print:
+  - 真步
+  - 王子先生。
+- touch: *o0
+- focus:
+  - 101011
+- bust:
+  - 101011
+  - 1
+- vo:
+  - vo_adv_5021007_032
+- face:
+  - 101011
+  - 1
+- print:
+  - 真步
+  - 等到某一天那孩子也有靈魂時，
+- wait:
+  - 85
+- print:
+  - 真步
+  - >2-
+
+    它一定會
+- wait:
+  - 30
+- print:
+  - 真步
+  - 替我好好地保護王子先生。
+- touch: *o0
+- focus:
+  - 101011
+- bust:
+  - 101011
+  - 1
+- vo:
+  - vo_adv_5021007_033
+- face:
+  - 101011
+  - 6
+- print:
+  - 真步
+  - 嗯？
+- wait:
+  - 45
+- print:
+  - 真步
+  - 　你說人家沒有自己的玩偶怎麼辦？
+- wait:
+  - 65
+- print:
+  - 真步
+  - >2
+
+- face:
+  - 101011
+  - 1
+- print:
+  - 真步
+  - 至於這點
+- wait:
+  - 25
+- print:
+  - 真步
+  - 就不必擔心了唷。
+- wait:
+  - 65
+- print:
+  - 真步
+  - >2-
+
+    人家還有
+- wait:
+  - 40
+- print:
+  - 真步
+  - 這座城堡裡的夥伴們在呀――
+- touch: *o0
+- focus:
+  - 101011
+- bust:
+  - 101011
+  - 1
+- vo:
+  - vo_adv_5021007_034
+- face:
+  - 101011
+  - 2
+- print:
+  - 真步
+  - 而且，保護人家的這個角色，
+- wait:
+  - 60
+- print:
+  - 真步
+  - >2-
+
+    王子先生會負責擔任不是嗎……♪
+- touch: *o0
+- window_visible:
+  - FALSE
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- movie:
+  - 502100701
+- end: *o0

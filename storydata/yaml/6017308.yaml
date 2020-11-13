@@ -1,0 +1,275 @@
+- title:
+  - 拉姆的千里眼
+- outline:
+  - ' '
+- background:
+  - 500351
+- amb:
+  - amb_adv_outdoors_morning_01
+- ui_visible:
+  - false
+- situation:
+  - 拉姆的千里眼
+- chara_full:
+  - 109811
+  - C
+  - 1
+- fadein:
+  - 109811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M203
+  - 0
+  - 0
+  - 1
+- focus:
+  - 109811
+- bust:
+  - 109811
+  - 0
+- vo:
+  - vo_adv_6017308_000
+- face:
+  - 109811
+  - 1
+- print:
+  - 拉姆
+  - 雷姆也真是的，怎麼跑到那裡去了。
+- wait:
+  - 50
+- print:
+  - 拉姆
+  - >2
+
+- emotion:
+  - notice1_L
+  - 109811
+  - -60
+  - 520
+  - se_adv_emote_common_01
+- face:
+  - 109811
+  - 6
+- print:
+  - 拉姆
+  - 咦？　
+- wait:
+  - 35
+- print:
+  - 拉姆
+  - 哦～
+- wait:
+  - 30
+- print:
+  - 拉姆
+  - 這個叫做千里眼……
+- wait:
+  - 40
+- print:
+  - 拉姆
+  - >2
+
+- face:
+  - 109811
+  - 1
+- print:
+  - 拉姆
+  - 嗯，
+- wait:
+  - 15
+- print:
+  - 拉姆
+  - 可以看見很多東西喔。
+- wait:
+  - 50
+- print:
+  - 拉姆
+  - 我可不是因為懶得解釋才這麼說的喔！
+- touch: &o0 []
+- choice:
+  - 這是偷窺？
+  - 1
+  - 1
+- choice:
+  - 我也想要。
+  - 2
+  - 2
+- choice:
+  - 誰都可以看得到嗎？
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 109811
+- bust:
+  - 109811
+  - 0
+- vo:
+  - vo_adv_6017308_001
+- face:
+  - 109811
+  - 3
+- emotion:
+  - anger1_R
+  - 109811
+  - -50
+  - 520
+  - se_adv_emote_anger_01
+- print:
+  - 拉姆
+  - 這種說法真是直接又失禮。
+- wait:
+  - 60
+- print:
+  - 拉姆
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 拉姆
+  - 繼巴魯斯之後第一次感覺這麼火大，
+- wait:
+  - 30
+- eye_open:
+  - True
+- print:
+  - 拉姆
+  - 你給我好好改正那種想法。
+- wait:
+  - 40
+- print:
+  - 拉姆
+  - >2-
+
+    否則，
+- wait:
+  - 30
+- print:
+  - 拉姆
+  - 我就監視並找出你的秘密，再到處散布。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 109811
+- bust:
+  - 109811
+  - 0
+- vo:
+  - vo_adv_6017308_002
+- face:
+  - 109811
+  - 2
+- print:
+  - 拉姆
+  - 這種天賦，可是只有像拉姆這樣才華洋溢的女僕才擁有哦。
+- wait:
+  - 80
+- print:
+  - 拉姆
+  - >2-
+
+    ……
+- face:
+  - 109811
+  - 4
+- emotion:
+  - sweat1_R
+  - 109811
+  - -35
+  - 500
+  - se_adv_emote_sweat_01
+- print:
+  - 拉姆
+  - 你怎麼那麼容易
+- wait:
+  - 40
+- print:
+  - 拉姆
+  - 上當啊。
+- wait:
+  - 35
+- print:
+  - 拉姆
+  - >2-
+
+    你應該學會懷疑別人。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 109811
+- bust:
+  - 109811
+  - 0
+- vo:
+  - vo_adv_6017308_003
+- face:
+  - 109811
+  - 1
+- print:
+  - 拉姆
+  - 只能看到波長相符的生物喔。
+- wait:
+  - 40
+- print:
+  - 拉姆
+  - >2-
+
+    比方說，
+- wait:
+  - 30
+- nod:
+  - 109811
+- print:
+  - 拉姆
+  - 要看雷姆的話，一下就能看見了。
+- wait:
+  - 30
+- eye_open:
+  - False
+- print:
+  - 拉姆
+  - 不曉得看你的話會怎麼樣？
+- wait:
+  - 35
+- print:
+  - 拉姆
+  - >2-
+
+    ……
+- wait:
+  - 30
+- eye_open:
+  - True
+- print:
+  - 拉姆
+  - 輕輕鬆鬆就看到了耶。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 109811
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

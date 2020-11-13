@@ -1,0 +1,1704 @@
+- title:
+  - 戰鬥競技場
+- outline:
+  - 在街上散步的{0}等人，意外地誤闖進某個奇怪的空間中。那裡稱為『戰鬥競技場』，是個人們能跨越時空競爭的鬥技場。在管理員米奈娃β的鼓勵下，一行人下定決心要參加鬥技大會。
+- background:
+  - 500030
+- amb:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 超時空鬥技大會，開幕了！
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    某一天，
+
+    {0}與【美食殿堂】的人，
+
+    共同在蘭德索爾中散步。
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- bgm:
+  - bgm_M51
+- se:
+  - se_adv_step_concrete_walk_armor_come_01
+- wait:
+  - 10
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 45
+- chara_full:
+  - 105812
+  - LC
+  - 4
+  - 1
+- chara_full:
+  - 106012
+  - RC
+  - 3
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bright_change:
+  - 1
+  - 50
+- effect:
+  - 0011
+  - se_adv_emote_gloomy_01
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_4002001_000
+- face:
+  - 105812
+  - 4
+- print:
+  - 貪吃佩可
+  - 啊嗚～……
+- nod:
+  - 105812
+- wait:
+  - 45
+- print:
+  - 貪吃佩可
+  - >2-
+
+    肚子好餓～、
+- wait:
+  - 60
+- print:
+  - 貪吃佩可
+  - 肚子好餓～……
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_4002001_001
+- face:
+  - 106012
+  - 3
+- print:
+  - 凱留
+  - …………
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_4002001_002
+- face:
+  - 105812
+  - 4
+- eye_open:
+  - TRUE
+- print:
+  - 貪吃佩可
+  - 肚子餓～、
+- wait:
+  - 45
+- eye_open:
+  - FALSE
+- print:
+  - 貪吃佩可
+  - 我好餓～……
+- wait:
+  - 75
+- print:
+  - 貪吃佩可
+  - >2-
+
+    我是肚子餓得咕嚕咕嚕叫的
+- wait:
+  - 45
+- print:
+  - 貪吃佩可
+  - 貪吃佩可～……
+- touch: *o0
+- effect_delete:
+  - 0011
+  - 15
+- bright_change:
+  - 1
+  - 100
+- wait:
+  - 15
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_4002001_003
+- face:
+  - 106012
+  - 3
+- eye_open:
+  - TRUE
+- emotion:
+  - anger1_R
+  - 106012
+  - -110
+  - 510
+  - se_adv_emote_anger_01
+- print:
+  - 凱留
+  - 吵死了！
+- wait:
+  - 30
+- print:
+  - 凱留
+  - >2
+
+- pop:
+  - 106012
+- print:
+  - 凱留
+  - 不要在碎碎念了，
+- wait:
+  - 15
+- print:
+  - 凱留
+  - 我會生氣的喔！？
+- wait:
+  - 30
+- print:
+  - 凱留
+  - >2-
+
+    我也是肚子餓到心情不是很好的說？
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_4002001_004
+- face:
+  - 105812
+  - 4
+- eye_open:
+  - TRUE
+- print:
+  - 貪吃佩可
+  - 小凱留就算沒有肚子餓，
+- token: *o0
+- print:
+  - 貪吃佩可
+  - >2-
+
+    不都也是常常生氣的樣子～
+- token: *o0
+- print:
+  - 貪吃佩可
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - 貪吃佩可
+  - 根本就是愛生氣小公主～
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_4002001_005
+- face:
+  - 106012
+  - 3
+- print:
+  - 凱留
+  - 誰是愛生氣小公主！
+- token: *o0
+- print:
+  - 凱留
+  - >2-
+
+    不要用奇怪的方式叫我，
+- token: *o0
+- print:
+  - 凱留
+  - >2
+
+- face:
+  - 106012
+  - 2
+- print:
+  - 凱留
+  - 妳是想說我像公主一樣可愛嗎！？
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_4002001_006
+- face:
+  - 105812
+  - 4
+- eye_open:
+  - TRUE
+- print:
+  - 貪吃佩可
+  - 雖然沒有說公主就一定可愛～……
+- wait:
+  - 60
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 1
+- print:
+  - 貪吃佩可
+  - 不要再到處亂叫了，
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - 這樣肚子反而會更餓喔。
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_4002001_007
+- face:
+  - 106012
+  - 4
+- emotion:
+  - sweat1_R
+  - 106012
+  - 80
+  - 495
+  - se_adv_emote_sweat_01
+- print:
+  - 凱留
+  - 也是～。
+- wait:
+  - 60
+- print:
+  - 凱留
+  - >2-
+
+    今天不知道怎麼了，
+- wait:
+  - 45
+- print:
+  - 凱留
+  - >2-
+
+    到處都找不到地方吃飯……
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_4002001_008
+- face:
+  - 106012
+  - 1
+- print:
+  - 凱留
+  - 趕快隨便找一家店，
+- token: *o0
+- print:
+  - 凱留
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - 凱留
+  - 去大吃一頓順便消除一下壓力。
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_4002001_009
+- face:
+  - 106012
+  - 6
+- eye_open:
+  - TRUE
+- emotion:
+  - notice1_L
+  - 106012
+  - -77
+  - 517
+  - se_adv_emote_common_01
+- print:
+  - 凱留
+  - 咦，
+- wait:
+  - 30
+- print:
+  - 凱留
+  - 哎呀？
+- wait:
+  - 15
+- print:
+  - 凱留
+  - >2
+
+- face:
+  - 106012
+  - 3
+- print:
+  - 凱留
+  - 那個，貪吃佩可，
+- wait:
+  - 30
+- print:
+  - 凱留
+  - >2-
+
+    {0}跟可蘿仔呢？
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_4002001_010
+- face:
+  - 106012
+  - 4
+- print:
+  - 凱留
+  - 好像沒在附近，
+- wait:
+  - 30
+- print:
+  - 凱留
+  - >2-
+
+    難道說……
+- wait:
+  - 30
+- face:
+  - 106012
+  - 6
+- print:
+  - 凱留
+  - 跟我們走失了嗎？
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_4002001_011
+- face:
+  - 105812
+  - 6
+- print:
+  - 貪吃佩可
+  - 唉呦？
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 4
+- print:
+  - 貪吃佩可
+  - 很不妙呢！
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_4002001_012
+- face:
+  - 105812
+  - 3
+- jump:
+  - 105812
+- print:
+  - 貪吃佩可
+  - >-
+    小可蘿～！
+
+    {0}！
+- wait:
+  - 15
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 4
+- print:
+  - 貪吃佩可
+  - 你們在哪裡啊，
+- wait:
+  - 45
+- print:
+  - 貪吃佩可
+  - 有聽到的話就回個聲吧～！
+- touch: *o0
+- window_visible:
+  - FALSE
+- focus:
+  - 105812:106012
+- face:
+  - 105812
+  - 6
+- face:
+  - 106012
+  - 6
+- emotion:
+  - exclamation1_R
+  - 105812
+  - 5
+  - 650
+  - se_adv_emote_common_01
+- emotion:
+  - exclamation1_R
+  - 106012
+  - 10
+  - 635
+  - '*non'
+- wait:
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_4002001_013
+- face:
+  - 106012
+  - 6
+- print:
+  - 凱留
+  - 嗯？
+- token: *o0
+- print:
+  - 凱留
+  - >2
+
+- face:
+  - 106012
+  - 3
+- print:
+  - 凱留
+  - 好像從那個方向
+- wait:
+  - 15
+- print:
+  - 凱留
+  - >2-
+
+    好像傳來{0}的聲音！
+- touch: *o0
+- face:
+  - 105812
+  - 3
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_4002001_014
+- face:
+  - 106012
+  - 3
+- jump:
+  - 106012
+- print:
+  - 凱留
+  - 走吧，貪吃佩可，
+- token: *o0
+- print:
+  - 凱留
+  - >2-
+
+    有種莫名的不祥預感……！
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 3
+- se:
+  - se_adv_step_concrete_run_armor_go_01
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - L
+  - LC
+  - 30
+- change:
+  - C
+  - RC
+  - 30
+- fadeout_all:
+  - 30
+- wait:
+  - 10
+- white_out:
+  - 1
+  - 1
+- background:
+  - 500380
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- white_in: *o0
+- amb:
+  - amb_adv_arena_01
+- chara_full:
+  - 105913
+  - LC
+  - 4
+- fadein:
+  - 105913
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_4002001_015
+- face:
+  - 105913
+  - 4
+- emotion:
+  - sweat2_R
+  - 105913
+  - 100
+  - 490
+  - se_adv_emote_sweat_02
+- print:
+  - 可可蘿
+  - 貪吃佩可小姐～！
+- jump:
+  - 105913
+- wait:
+  - 45
+- print:
+  - 可可蘿
+  - >2-
+
+    凱留小姐～！
+- wait:
+  - 45
+- print:
+  - 可可蘿
+  - >2
+
+- face:
+  - 105913
+  - 2
+- print:
+  - 可可蘿
+  - 在這裡啊！
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_step_concrete_run_armor_come_01
+- wait:
+  - 10
+- se:
+  - se_adv_step_concrete_run_come_01
+- fadeout:
+  - 105913
+  - 30
+- chara_full:
+  - 105913
+  - L
+  - 2
+- chara_full:
+  - 105812
+  - C
+  - 6
+- chara_full:
+  - 106012
+  - R
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M39
+  - 0
+  - 0
+  - 1
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_4002001_016
+- face:
+  - 105812
+  - 6
+- emotion:
+  - exclamation1_R
+  - 105812
+  - 5
+  - 650
+  - se_adv_emote_common_01
+- print:
+  - 貪吃佩可
+  - 啊，
+- token: *o0
+- print:
+  - 貪吃佩可
+  - 找到了！
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 3
+- jump:
+  - 105812
+- print:
+  - 貪吃佩可
+  - 妳們這樣不可以喔～
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - 怎麼擅自到處亂走！
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - >2-
+
+    我們可是很擔心的？
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_4002001_017
+- face:
+  - 105913
+  - 4
+- emotion:
+  - sweat1_R
+  - 105913
+  - 95
+  - 500
+  - se_adv_emote_sweat_01
+- print:
+  - 可可蘿
+  - 真、
+- token: *o0
+- print:
+  - 可可蘿
+  - 真的很對不起。
+- wait:
+  - 45
+- print:
+  - 可可蘿
+  - >2-
+
+    不過，
+- wait:
+  - 30
+- print:
+  - 可可蘿
+  - 我們也不知道發生了什麼事情……
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_4002001_018
+- face:
+  - 105913
+  - 3
+- print:
+  - 可可蘿
+  - 只是普通的走著。
+- wait:
+  - 60
+- print:
+  - 可可蘿
+  - >2-
+
+    一回過神來，
+- wait:
+  - 30
+- print:
+  - 可可蘿
+  - >2
+
+- face:
+  - 105913
+  - 4
+- print:
+  - 可可蘿
+  - 就來到了這個詭異的空間了。
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_4002001_019
+- face:
+  - 106012
+  - 6
+- emotion:
+  - question1_R
+  - 106012
+  - 120
+  - 500
+  - se_adv_emote_question_01
+- print:
+  - 凱留
+  - 嗯～？
+- wait:
+  - 45
+- print:
+  - 凱留
+  - >2-
+
+    這個空間
+- wait:
+  - 30
+- print:
+  - 凱留
+  - 到底是什麼呢？
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_4002001_020
+- face:
+  - 106012
+  - 3
+- print:
+  - 凱留
+  - 雖然很廣闊，
+- token: *o0
+- print:
+  - 凱留
+  - >2
+
+- face:
+  - 106012
+  - 4
+- print:
+  - 凱留
+  - 不過，在蘭德索爾有這樣子的建築物嗎？
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_4002001_021
+- face:
+  - 105913
+  - 4
+- print:
+  - 可可蘿
+  - 嗯～。
+- wait:
+  - 45
+- print:
+  - 可可蘿
+  - >2-
+
+    感覺好像不小心進入了異世界一樣……
+- wait:
+  - 105
+- print:
+  - 可可蘿
+  - >2
+
+- face:
+  - 105913
+  - 1
+- print:
+  - 可可蘿
+  - 到底是哪裡呢，
+- wait:
+  - 30
+- print:
+  - 可可蘿
+  - 這個地方？
+- touch: *o0
+- bgm:
+  - stop
+  - 10
+  - 1
+- vo_effect:
+  - 4
+- focus:
+  - 191111
+- bust:
+  - 191111
+  - 0
+- vo:
+  - vo_adv_4002001_022
+- face:
+  - 191111
+  - 1
+- print:
+  - ？？？
+  - 這裡是『戰鬥競技場』……
+- wait:
+  - 45
+- print:
+  - ？？？
+  - >2-
+
+    受到太陽與星辰
+- wait:
+  - 15
+- print:
+  - ？？？
+  - 祝福的人們，
+- wait:
+  - 45
+- print:
+  - ？？？
+  - >2-
+
+    穿越時空互相競爭的鬥技場。
+- touch: *o0
+- window_visible:
+  - false
+- vo_effect:
+  - 0
+- focus:
+  - 105812:106012:105913
+- face:
+  - 105913
+  - 6
+- face:
+  - 105812
+  - 6
+- face:
+  - 106012
+  - 6
+- wait:
+  - 30
+- fadeout_all:
+  - 30
+- bgm:
+  - bgm_M01
+- chara_full:
+  - 191111
+  - C
+  - 1
+- fadein:
+  - 191111
+  - 30
+- wait:
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 106011
+- bust:
+  - 106011
+  - 1
+- vo:
+  - vo_adv_4002001_023
+- face:
+  - 106011
+  - 6
+- print:
+  - 凱留
+  - ……！？
+- wait:
+  - 15
+- print:
+  - 凱留
+  - >2-
+
+    妳是誰！
+- touch: *o0
+- vo_effect:
+  - 4
+- focus:
+  - 191111
+- bust:
+  - 191111
+  - 0
+- vo:
+  - vo_adv_4002001_024
+- face:
+  - 191111
+  - 1
+- print:
+  - ？？？
+  - 抱歉。
+- token: *o0
+- print:
+  - ？？？
+  - >2-
+
+    禮貌上應該先報上姓名的。
+- touch: *o0
+- focus:
+  - 191111
+- bust:
+  - 191111
+  - 0
+- vo:
+  - vo_adv_4002001_025
+- face:
+  - 191111
+  - 2
+- print:
+  - 米奈娃β
+  - 我是米奈β。
+- wait:
+  - 75
+- print:
+  - 米奈娃β
+  - >2-
+
+    是這個『戰鬥競技場』的管理人。
+- touch: *o0
+- vo_effect:
+  - 0
+- focus:
+  - 105811
+- bust:
+  - 105811
+  - 1
+- vo:
+  - vo_adv_4002001_026
+- face:
+  - 105811
+  - 4
+- print:
+  - 貪吃佩可
+  - 米、
+- token: *o0
+- print:
+  - 貪吃佩可
+  - 米奈……
+- token: *o0
+- print:
+  - 貪吃佩可
+  - 貝塔小姐？
+- touch: *o0
+- vo_effect:
+  - 4
+- focus:
+  - 191111
+- bust:
+  - 191111
+  - 0
+- vo:
+  - vo_adv_4002001_027
+- face:
+  - 191111
+  - 2
+- print:
+  - 米奈娃β
+  - 是的。
+- token: *o0
+- print:
+  - 米奈娃β
+  - >2-
+
+    正式說起來，
+- wait:
+  - 15
+- print:
+  - 米奈娃β
+  - 有個更長的稱號……
+- wait:
+  - 75
+- print:
+  - 米奈娃β
+  - >2
+
+- face:
+  - 191111
+  - 3
+- print:
+  - 米奈娃β
+  - 不過為了方便，還是叫這樣就好。
+- touch: *o0
+- focus:
+  - 191111
+- bust:
+  - 191111
+  - 0
+- vo:
+  - vo_adv_4002001_028
+- face:
+  - 191111
+  - 2
+- eye_open:
+  - FALSE
+- print:
+  - 米奈娃β
+  - 不過
+- wait:
+  - 15
+- print:
+  - 米奈娃β
+  - 不用太過於在意我，
+- wait:
+  - 75
+- print:
+  - 米奈娃β
+  - >2-
+
+    我只是像個沒有靈魂的人偶。
+- touch: *o0
+- focus:
+  - 191111
+- bust:
+  - 191111
+  - 0
+- vo:
+  - vo_adv_4002001_029
+- face:
+  - 191111
+  - 1
+- eye_open:
+  - TRUE
+- print:
+  - 米奈娃β
+  - 只是遵從程式的指令，
+- token: *o0
+- print:
+  - 米奈娃β
+  - >2-
+
+    默默的執行該做的事情而已。
+- touch: *o0
+- focus:
+  - 191111
+- bust:
+  - 191111
+  - 0
+- vo:
+  - vo_adv_4002001_030
+- face:
+  - 191111
+  - 2
+- eye_open:
+  - FALSE
+- print:
+  - 米奈娃β
+  - 話雖如此。
+- token: *o0
+- print:
+  - 米奈娃β
+  - >2
+
+- eye_open:
+  - TRUE
+- print:
+  - 米奈娃β
+  - 既然你們到達了這個地方，
+- wait:
+  - 30
+- print:
+  - 米奈娃β
+  - >2-
+
+    代表你們已經具備了資格。
+- touch: *o0
+- focus:
+  - 191111
+- bust:
+  - 191111
+  - 0
+- vo:
+  - vo_adv_4002001_031
+- face:
+  - 191111
+  - 2
+- print:
+  - 米奈娃β
+  - 如果可以的話，
+- token: *o0
+- print:
+  - 米奈娃β
+  - >2-
+
+    不妨參加這裡舉辦的
+- wait:
+  - 30
+- print:
+  - 米奈娃β
+  - 『鬥技大會』試看看呢？
+- touch: *o0
+- vo_effect:
+  - 0
+- fadeout:
+  - 191111
+  - 30
+- chara_full:
+  - 105811
+  - C
+  - 4
+- chara_full:
+  - 106011
+  - R
+  - 6
+- chara_full:
+  - 105911
+  - L
+  - 6
+- fadein_all:
+  - 30
+- focus:
+  - 106011
+- bust:
+  - 106011
+  - 0
+- vo:
+  - vo_adv_4002001_032
+- face:
+  - 106011
+  - 6
+- print:
+  - 凱留
+  - 鬥、
+- token: *o0
+- print:
+  - 凱留
+  - 『鬥技大會』？
+- wait:
+  - 45
+- print:
+  - 凱留
+  - >2
+
+- face:
+  - 106011
+  - 3
+- print:
+  - 凱留
+  - 那是什麼東西，
+- wait:
+  - 30
+- print:
+  - 凱留
+  - 舉辦非官方的活動可是違反法律的！
+- touch: *o0
+- vo_effect:
+  - 4
+- focus:
+  - 191111
+- bust:
+  - 191111
+  - 1
+- vo:
+  - vo_adv_4002001_033
+- face:
+  - 191111
+  - 1
+- print:
+  - 米奈娃β
+  - 已經有取得認可了。
+- token: *o0
+- print:
+  - 米奈娃β
+  - >2-
+
+    妳看，
+- token: *o0
+- print:
+  - 米奈娃β
+  - 這是蓋過國王認可的文件。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_paper_crumple_01
+- wait:
+  - 15
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 106011
+- bust:
+  - 106011
+  - 0
+- vo:
+  - vo_adv_4002001_034
+- face:
+  - 106011
+  - 3
+- print:
+  - 凱留
+  - 給我看看。
+- nod:
+  - 106011
+- wait:
+  - 60
+- print:
+  - 凱留
+  - >2-
+
+    ……
+- face:
+  - 106011
+  - 6
+- print:
+  - 凱留
+  - 是真的，
+- wait:
+  - 30
+- print:
+  - 凱留
+  - 這份公文真的沒有任何問題。
+- touch: *o0
+- focus:
+  - 105811
+- bust:
+  - 105811
+  - 0
+- vo:
+  - vo_adv_4002001_035
+- face:
+  - 105811
+  - 6
+- print:
+  - 貪吃佩可
+  - 嗯～、
+- wait:
+  - 30
+- nod:
+  - 105811
+- print:
+  - 貪吃佩可
+  - 是真的呢。
+- wait:
+  - 45
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105811
+  - 3
+- print:
+  - 貪吃佩可
+  - 雖然同意的是好幾任以前的國王……
+- wait:
+  - 60
+- print:
+  - 貪吃佩可
+  - >2-
+
+    連我都沒見過，
+- wait:
+  - 15
+- print:
+  - 貪吃佩可
+  - 是好久好久以前的祖先。
+- touch: *o0
+- focus:
+  - 105911
+- bust:
+  - 105911
+  - 0
+- vo:
+  - vo_adv_4002001_036
+- face:
+  - 105911
+  - 6
+- emotion:
+  - question1_R
+  - 105911
+  - 120
+  - 465
+  - se_adv_emote_question_01
+- print:
+  - 可可蘿
+  - 什麼？
+- wait:
+  - 45
+- print:
+  - 可可蘿
+  - >2-
+
+    妳說祖先是……？
+- touch: *o0
+- focus:
+  - 105811
+- bust:
+  - 105811
+  - 0
+- vo:
+  - vo_adv_4002001_037
+- face:
+  - 105811
+  - 2
+- emotion:
+  - sweat2_R
+  - 105811
+  - 80
+  - 530
+  - se_adv_emote_sweat_02
+- print:
+  - 貪吃佩可
+  - 啊，沒有，
+- token: *o0
+- print:
+  - 貪吃佩可
+  - 我什麼都沒有說……
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105811
+  - 1
+- jump:
+  - 105811
+- print:
+  - 貪吃佩可
+  - 總之，
+- wait:
+  - 15
+- print:
+  - 貪吃佩可
+  - 像『鬥技大會』這個東西，
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - >2-
+
+    我覺得沒有必要參加。
+- touch: *o0
+- focus:
+  - 105811
+- bust:
+  - 105811
+  - 0
+- vo:
+  - vo_adv_4002001_038
+- face:
+  - 105811
+  - 1
+- print:
+  - 貪吃佩可
+  - 好像只要有出場，
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105811
+  - 2
+- print:
+  - 貪吃佩可
+  - 就能夠獲得豪華獎品的樣子。
+- touch: *o0
+- focus:
+  - 105811
+- bust:
+  - 105811
+  - 0
+- vo:
+  - vo_adv_4002001_039
+- face:
+  - 105811
+  - 3
+- print:
+  - 貪吃佩可
+  - 獎品的內容似乎沒有在書面上說明，
+- token: *o0
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105811
+  - 5
+- print:
+  - 貪吃佩可
+  - 究竟可以得到什麼呢～
+- touch: *o0
+- focus:
+  - 105811
+- bust:
+  - 105811
+  - 0
+- vo:
+  - vo_adv_4002001_040
+- face:
+  - 105811
+  - 2
+- emotion:
+  - twinkle1_R
+  - 105811
+  - 135
+  - 475
+  - se_adv_emote_twinkle_01
+- print:
+  - 貪吃佩可
+  - 就個人來說
+- token: *o0
+- print:
+  - 貪吃佩可
+  - 比較想要綜合水果籃，
+- wait:
+  - 45
+- print:
+  - 貪吃佩可
+  - >2-
+
+    或是一年份的白米。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- chara_full:
+  - 191111
+  - C
+  - 1
+- fadein:
+  - 191111
+  - 30
+- window_visible:
+  - true
+- vo_effect:
+  - 4
+- focus:
+  - 191111
+- bust:
+  - 191111
+  - 0
+- vo:
+  - vo_adv_4002001_041
+- face:
+  - 191111
+  - 1
+- print:
+  - 米奈娃β
+  - 如果那就是您的願望的話，
+- wait:
+  - 30
+- print:
+  - 米奈娃β
+  - 也可以去準備喔。
+- wait:
+  - 45
+- print:
+  - 米奈娃β
+  - >2
+
+- face:
+  - 191111
+  - 2
+- print:
+  - 米奈娃β
+  - 我是達成願望的系統殘渣，
+- wait:
+  - 90
+- print:
+  - 米奈娃β
+  - >2-
+
+    將會回應各種願望。
+- touch: *o0
+- focus:
+  - 191111
+- bust:
+  - 191111
+  - 0
+- vo:
+  - vo_adv_4002001_042
+- face:
+  - 191111
+  - 6
+- print:
+  - 米奈娃β
+  - 如果會覺得有點詭異的，
+- wait:
+  - 60
+- print:
+  - 米奈娃β
+  - >2
+
+- face:
+  - 191111
+  - 2
+- print:
+  - 米奈娃β
+  - 可以想像只是單純的從事工作而已。
+- touch: *o0
+- focus:
+  - 191111
+- bust:
+  - 191111
+  - 0
+- vo:
+  - vo_adv_4002001_043
+- face:
+  - 191111
+  - 1
+- print:
+  - 米奈娃β
+  - 只要付出一定程度的勞力，
+- token: *o0
+- print:
+  - 米奈娃β
+  - >2-
+
+    就會給予報酬……
+- wait:
+  - 30
+- face:
+  - 191111
+  - 2
+- print:
+  - 米奈娃β
+  - 差不多就這種感覺。
+- touch: *o0
+- focus:
+  - 191111
+- bust:
+  - 191111
+  - 0
+- vo:
+  - vo_adv_4002001_044
+- face:
+  - 191111
+  - 6
+- print:
+  - 米奈娃β
+  - 不過，反正也不是強制參加，
+- wait:
+  - 45
+- print:
+  - 米奈娃β
+  - >2
+
+- face:
+  - 191111
+  - 1
+- print:
+  - 米奈娃β
+  - 當有想到，再過來參加就夠了。
+- wait:
+  - 75
+- print:
+  - 米奈娃β
+  - >2-
+
+    絕對不會有所虧損的。
+- touch: *o0
+- focus:
+  - 191111
+- bust:
+  - 191111
+  - 0
+- vo:
+  - vo_adv_4002001_045
+- face:
+  - 191111
+  - 2
+- print:
+  - 米奈娃β
+  - 『戰鬥競技場』
+- wait:
+  - 15
+- print:
+  - 米奈娃β
+  - >2-
+
+    會一直衷心地等待各位參加的。
+- touch: *o0
+- fadeout:
+  - 191111
+  - 30
+- vo_effect:
+  - 0
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

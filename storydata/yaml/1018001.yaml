@@ -1,0 +1,851 @@
+- title:
+  - 伊緒 第1話
+- outline:
+  - '{0}救了被藤蔓纏住而無法動彈的伊緒。和救命恩人道完謝，才決定不要再給別人添麻煩的她，又再被藤蔓纏住了。'
+- background:
+  - 500170
+- amb:
+  - amb_adv_forest_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 太過性感的遇難者
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    {0}順道散步，
+
+    來到了森林入口。
+- touch: &o0 []
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1018001_000
+- face:
+  - 1
+  - 4
+- print:
+  - ？？？
+  - 啊啊～！
+- wait:
+  - 30
+- print:
+  - ？？？
+  - >2-
+
+    誰、誰來救救我呀～
+- shake_text: *o0
+- print:
+  - ？？？
+  - ！
+- wait:
+  - 15
+- touch: *o0
+- choice:
+  - 到聲音來源處查看。
+  - 1
+- tag:
+  - 1
+- window_visible:
+  - false
+- se:
+  - se_adv_step_dirt_run_go_01
+- white_out:
+  - 1
+  - 1
+- still:
+  - 101800101
+  - 1
+- wait:
+  - 15
+- white_in: *o0
+- window_visible:
+  - true
+- bgm:
+  - bgm_M67
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1018001_001
+- face:
+  - 1
+  - 2
+- print:
+  - ？？？
+  - 有誰來幫我了嗎！？
+- wait:
+  - 30
+- print:
+  - ？？？
+  - >2-
+
+    ……太、太好了～
+- touch: *o0
+- se:
+  - se_adv_twine_ivy_02
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1018001_002
+- face:
+  - 1
+  - 5
+- print:
+  - ？？？
+  - 那個～ 其、其實……
+- wait:
+  - 75
+- print:
+  - ？？？
+  - >2-
+
+    我被植物的藤蔓給纏住了……
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1018001_003
+- face:
+  - 1
+  - 4
+- print:
+  - ？？？
+  - 如果可以自己拔出來就好了，
+- wait:
+  - 10
+- print:
+  - ？？？
+  - >2-
+
+    但是手夠不到～！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1018001_004
+- face:
+  - 1
+  - 4
+- print:
+  - ？？？
+  - 嗚嗚……拜、拜託了！
+- wait:
+  - 60
+- print:
+  - ？？？
+  - >2-
+
+    趕快幫我鬆開來～！
+- touch: *o0
+- choice:
+  - 立刻幫忙。
+  - 2
+- choice:
+  - 這個植物是……
+  - 3
+- tag:
+  - 2
+- window_visible:
+  - false
+- still_move:
+  - 0
+  - -860
+  - 30
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 1
+- vo:
+  - vo_adv_1018001_005
+- face:
+  - 101811
+  - 2
+- print:
+  - ？？？
+  - 哇～！謝謝。
+- wait:
+  - 60
+- print:
+  - ？？？
+  - >2
+
+- face:
+  - 101811
+  - 1
+- print:
+  - ？？？
+  - 要溫柔一點唷？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- window_visible:
+  - false
+- still_move:
+  - 0
+  - -860
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 1
+- vo:
+  - vo_adv_1018001_006
+- face:
+  - 101811
+  - 6
+- print:
+  - ？？？
+  - 欸？植物想要吃我？
+- wait:
+  - 20
+- print:
+  - ？？？
+  - >2
+
+- face:
+  - 101811
+  - 4
+- print:
+  - ？？？
+  - 這種事情……
+- touch: *o0
+- se_effect:
+  - 6
+- se:
+  - se_adv_creature_leaves_middle_01
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 1
+- vo:
+  - vo_adv_1018001_007
+- face:
+  - 101811
+  - 6
+- print:
+  - ？？？
+  - 啊ーーー！
+- wait:
+  - 10
+- print:
+  - ？？？
+  - >2
+
+- face:
+  - 101811
+  - 4
+- print:
+  - ？？？
+  - 嘴、嘴巴打開了！
+- wait:
+  - 40
+- print:
+  - ？？？
+  - >2-
+
+    快、快救救我ーーー
+- shake_text: *o0
+- print:
+  - ？？？
+  - ！
+- touch: *o0
+- se_effect:
+  - 0
+- tag:
+  - 4
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 3
+- white_out:
+  - 1
+  - 1
+- se:
+  - se_adv_scissors_cut_rope
+- se:
+  - se_adv_cloth_move_normal_02
+- still:
+  - end
+- wait:
+  - 30
+- white_in: *o0
+- chara_full:
+  - 101811
+  - C
+  - 4
+- fadein:
+  - 101811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M53
+  - 0
+  - 0
+  - 1
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_1018001_008
+- face:
+  - 101811
+  - 4
+- nod:
+  - 101811
+- print:
+  - ？？？
+  - 呼……得救了～
+- wait:
+  - 90
+- print:
+  - ？？？
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - ？？？
+  - 終、終於可以動了……
+- touch: *o0
+- eye_open:
+  - TRUE
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_1018001_009
+- face:
+  - 101811
+  - 4
+- print:
+  - ？？？
+  - 本來打算自己想辦法的，
+- wait:
+  - 10
+- print:
+  - ？？？
+  - >2
+
+- face:
+  - 101811
+  - 5
+- print:
+  - ？？？
+  - 但只要動一下藤蔓就到處勒得越來越緊，
+- wait:
+  - 45
+- print:
+  - ？？？
+  - >2-
+
+    動彈不得。
+- touch: *o0
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_1018001_010
+- face:
+  - 101811
+  - 4
+- print:
+  - ？？？
+  - 要是你沒有來，
+- wait:
+  - 30
+- print:
+  - ？？？
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - ？？？
+  - 我恐怕會一直被纏住……
+- touch: *o0
+- eye_open:
+  - TRUE
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_1018001_011
+- face:
+  - 101811
+  - 1
+- print:
+  - ？？？
+  - 我叫做伊緒。
+- wait:
+  - 60
+- print:
+  - ？？？
+  - >2
+
+- face:
+  - 101811
+  - 2
+- print:
+  - ？？？
+  - 你叫什麼名字？
+- touch: *o0
+- window_visible:
+  - false
+- nod:
+  - 101811
+- nod:
+  - 101811
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_1018001_012
+- face:
+  - 101811
+  - 1
+- print:
+  - 伊緒
+  - 哼～
+- wait:
+  - 30
+- print:
+  - 伊緒
+  - >2
+
+- face:
+  - 101811
+  - 2
+- print:
+  - 伊緒
+  - 謝謝你幫了大忙！
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_dirt_move_01
+- fadeout:
+  - 101811
+  - 30
+- chara_full:
+  - 101811
+  - C
+  - 5
+- scale:
+  - 101811
+  - 1.5
+  - 1
+- fadein:
+  - 101811
+  - 30
+- shake_loop: *o0
+- effect:
+  - 0044
+  - se_adv_happy_particle_01
+- se:
+  - se_adv_hug_02
+- wait:
+  - 15
+- shake_delete: *o0
+- se:
+  - se_adv_cloth_move_normal_03
+- window_visible:
+  - true
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_1018001_013
+- face:
+  - 101811
+  - 5
+- print:
+  - 伊緒
+  - 這一帶還會出現魔物，
+- wait:
+  - 10
+- print:
+  - 伊緒
+  - >2-
+
+    你真是我的救命恩人！
+- wait:
+  - 10
+- touch: *o0
+- effect_delete:
+  - 0044
+  - 30
+- choice:
+  - 好、好柔軟……
+  - 5
+- tag:
+  - 5
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_1018001_014
+- face:
+  - 101811
+  - 6
+- print:
+  - 伊緒
+  - 欸？好柔軟……你說我的胸部！？
+- wait:
+  - 100
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 101811
+  - 6
+- emotion:
+  - exclamation1_R
+  - 101811
+  - 60
+  - 695
+  - se_adv_emote_common_01
+- shake:
+  - 101811
+- wait:
+  - 15
+- emotion_end:
+  - 101811
+- fadeout:
+  - 101811
+  - 30
+- chara_full:
+  - 101811
+  - C
+  - 6
+- fadein:
+  - 101811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_1018001_015
+- face:
+  - 101811
+  - 6
+- print:
+  - 伊緒
+  - 啊！抱、抱歉。我竟然突然抱住你。
+- wait:
+  - 45
+- print:
+  - 伊緒
+  - >2
+
+- face:
+  - 101811
+  - 4
+- print:
+  - 伊緒
+  - 很痛苦嗎？
+- touch: *o0
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_1018001_016
+- face:
+  - 101811
+  - 5
+- print:
+  - 伊緒
+  - 總、總之！
+- wait:
+  - 20
+- print:
+  - 伊緒
+  - >2-
+
+    真的謝謝你
+- nod:
+  - 101811
+- print:
+  - 伊緒
+  - ！
+- touch: *o0
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_1018001_017
+- face:
+  - 101811
+  - 1
+- print:
+  - 伊緒
+  - 我會小心不要再被魔物襲擊了。
+- wait:
+  - 60
+- print:
+  - 伊緒
+  - >2
+
+- face:
+  - 101811
+  - 2
+- print:
+  - 伊緒
+  - 不能再添麻煩了。
+- touch: *o0
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_1018001_018
+- face:
+  - 101811
+  - 1
+- print:
+  - 伊緒
+  - >-
+    那麼，再會。
+
+    我先走了！
+- face:
+  - 101811
+  - 2
+- print:
+  - 伊緒
+  - 再見～
+- wait:
+  - 30
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
+- se:
+  - se_adv_step_dirt_run_go_01
+- window_visible:
+  - false
+- change:
+  - LC
+  - C
+  - 30
+- fadeout:
+  - 101811
+  - 30
+- effect:
+  - 38
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 30
+- effect:
+  - 0009
+- se_effect:
+  - 6
+- se:
+  - se_adv_creature_leaves_middle_01
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──呱歐歐歐歐歐
+- shake_screen: *o0
+- print:
+  - 魔物
+  - ！
+- touch: *o0
+- window_visible:
+  - false
+- se_effect:
+  - 0
+- chara_full:
+  - 101811
+  - RC
+  - 1
+- change:
+  - C
+  - RC
+- fadein:
+  - 101811
+  - 30
+- focus:
+  - 101811
+- bgm:
+  - bgm_M15_02_NoIntro
+- face:
+  - 101811
+  - 6
+- emotion:
+  - surprise1_L
+  - 101811
+  - 165
+  - 580
+  - se_adv_emote_common_01
+- shake:
+  - 101811
+- wait:
+  - 5
+- window_visible:
+  - true
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_1018001_019
+- face:
+  - 101811
+  - 6
+- print:
+  - 伊緒
+  - 啊！？
+- wait:
+  - 10
+- print:
+  - 伊緒
+  - >2-
+
+    這裡也有植物的魔物！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101811
+  - 30
+- white_out:
+  - 1
+  - 1
+- still:
+  - 101800101
+  - 1
+  - 500
+- wait:
+  - 15
+- white_in: *o0
+- window_visible:
+  - true
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 1
+- vo:
+  - vo_adv_1018001_020
+- face:
+  - 101811
+  - 4
+- print:
+  - 伊緒
+  - 來、來人啊～！
+- wait:
+  - 55
+- print:
+  - 伊緒
+  - >2-
+
+    喂，救救我啊～！！
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 1
+- vo:
+  - vo_adv_1018001_021
+- face:
+  - 101811
+  - 4
+- print:
+  - 伊緒
+  - 啊～！我明明才說不要再靠別人幫忙了～！
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

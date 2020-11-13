@@ -1,0 +1,1581 @@
+- title:
+  - 怜 第1話
+- outline:
+  - 因為擊退魔物的工作而來到森林的{0}，遇到了接連擊倒魔物的怜。怜打斷{0}的修練並給予簡單的指導後，從他的動作發現他資質不錯，約好要為他特訓。
+- background:
+  - 500170
+- amb:
+  - amb_adv_forest_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 強心指導員
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    為了修練，
+
+    怜獨自來到森林深處。
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 100312
+  - C
+  - 3
+- fadein:
+  - 100312
+  - 30
+- bgm:
+  - bgm_M43
+- window_visible:
+  - true
+- focus:
+  - 100312
+- bust:
+  - 100312
+  - 0
+- vo:
+  - vo_adv_1003001_000
+- face:
+  - 100312
+  - 3
+- print:
+  - 怜
+  - 喝！
+- touch: *o0
+- window_visible:
+  - false
+- change:
+  - R
+  - C
+  - 15
+- fadeout:
+  - 100312
+  - 15
+- bg_color:
+  - 0
+  - 0
+  - 0
+- wait:
+  - 10
+- effect:
+  - 0016
+  - se_adv_weapon_sword_hit_02
+- wait:
+  - 15
+- background:
+  - 500170
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──嘰歐歐歐歐歐
+- shake:
+  - 1611
+- print:
+  - 魔物
+  - ！
+- touch: *o0
+- window_visible:
+  - false
+- updown:
+  - 1611
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1611
+  - 30
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- chara_full:
+  - 100312
+  - C
+  - 1
+- fadein:
+  - 100312
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100312
+- bust:
+  - 100312
+  - 0
+- vo:
+  - vo_adv_1003001_001
+- face:
+  - 100312
+  - 1
+- print:
+  - 怜
+  - 這種程度的話，拿來熱身正好……
+- wait:
+  - 30
+- touch: *o0
+- se_effect:
+  - 3
+- se:
+  - se_adv_creature_cmn_03
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 1
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──呱歐歐歐歐歐！
+- touch: *o0
+- window_visible:
+  - false
+- se_effect:
+  - 0
+- focus:
+  - 100312
+- face:
+  - 100312
+  - 3
+- emotion:
+  - exclamation1_R
+  - 100312
+  - 0
+  - 660
+  - '*non'
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100312
+- bust:
+  - 100312
+  - 0
+- vo:
+  - vo_adv_1003001_002
+- face:
+  - 100312
+  - 3
+- print:
+  - 怜
+  - 是魔物的聲音啊……
+- face:
+  - 100312
+  - 6
+- print:
+  - 怜
+  - 咦？
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 100312
+- bust:
+  - 100312
+  - 0
+- vo:
+  - vo_adv_1003001_003
+- face:
+  - 100312
+  - 3
+- print:
+  - 怜
+  - 有人在傳出聲音的地方……
+- wait:
+  - 75
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100312
+  - 6
+- print:
+  - 怜
+  - 那個背影是……！
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 100312
+  - 3
+- wait:
+  - 15
+- fadeout:
+  - 100312
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 100311
+  - LC
+  - 2
+- change:
+  - C
+  - LC
+- fadein:
+  - 100311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003001_004
+- face:
+  - 100311
+  - 2
+- print:
+  - 怜
+  - 呦，果然是你啊。
+- wait:
+  - 55
+- print:
+  - 怜
+  - >2-
+
+    你在這種地方做什麼呢？
+- touch: *o0
+- choice:
+  - 擊退魔物的工作。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003001_005
+- face:
+  - 100311
+  - 6
+- print:
+  - 怜
+  - 只有你嗎……？
+- wait:
+  - 45
+- print:
+  - 怜
+  - >2-
+
+    我記得這附近的魔物是沒那麼凶暴沒錯……
+- wait:
+  - 20
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 嗯，就算一個人也總會有辦法的。
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 100311
+  - 6
+- emotion:
+  - notice1_L
+  - 100311
+  - -85
+  - 555
+  - se_adv_emote_common_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003001_006
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 啊啊，我不是來工作的。
+- wait:
+  - 55
+- print:
+  - 怜
+  - >2-
+
+    是為了磨練自己的實力，才來跟魔物戰鬥的。
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003001_007
+- face:
+  - 100311
+  - 3
+- print:
+  - 怜
+  - 既然你是因工作而來那也沒辦法，
+- wait:
+  - 10
+- print:
+  - 怜
+  - >2-
+
+    但不要打擾我修練。
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 知道了嗎？
+- wait:
+  - 10
+- touch: *o0
+- se:
+  - se_adv_creature_cmn_04
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 1
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──呱歐歐歐歐歐！
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003001_008
+- face:
+  - 100311
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100311
+  - 0
+  - 660
+  - '*non'
+- print:
+  - 怜
+  - 那是剛才在嘶吼的傢伙吧。
+- wait:
+  - 60
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 2
+- print:
+  - 怜
+  - 那傢伙我要了！ 那麼再會了！
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100311
+  - 15
+- chara_full:
+  - 100312
+  - C
+  - 3
+- fadein:
+  - 100312
+  - 15
+- wait:
+  - 15
+- se:
+  - se_adv_step_dirt_run_go_01
+- out_R:
+  - 100312
+  - 30
+  - true
+- wait:
+  - 15
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 30
+- chara_full:
+  - 100312
+  - C
+  - 3
+- fadein:
+  - 100312
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100312
+- bust:
+  - 100312
+  - 0
+- vo:
+  - vo_adv_1003001_009
+- face:
+  - 100312
+  - 3
+- print:
+  - 怜
+  - 喝！ 哈！！
+- wait:
+  - 10
+- touch: *o0
+- fadeout:
+  - 100312
+  - 15
+- bg_color:
+  - 0
+  - 0
+  - 0
+- wait:
+  - 10
+- effect:
+  - 0016
+  - se_adv_weapon_sword_hit_02
+- wait:
+  - 15
+- background:
+  - 500170
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_02
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──嘰歐歐歐歐歐
+- shake:
+  - 1611
+- print:
+  - 魔物
+  - ！
+- touch: *o0
+- window_visible:
+  - false
+- updown:
+  - 1611
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1611
+  - 30
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- chara_full:
+  - 100312
+  - C
+  - 1
+  - 1
+- fadein:
+  - 100312
+  - 30
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100312
+- bust:
+  - 100312
+  - 0
+- vo:
+  - vo_adv_1003001_010
+- face:
+  - 100312
+  - 1
+- eye_open:
+  - TRUE
+- print:
+  - 怜
+  - 嗯，今天狀況很好。
+- wait:
+  - 20
+- print:
+  - 怜
+  - >2-
+
+    這樣的話，再往森林深處前進一點也──
+- touch: *o0
+- se_effect:
+  - 3
+- se:
+  - se_adv_creature_cmn_03
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 1
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──呱歐歐歐歐歐！
+- touch: *o0
+- window_visible:
+  - false
+- se_effect:
+  - 0
+- focus:
+  - 100312
+- face:
+  - 100312
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100312
+  - 0
+  - 660
+  - se_adv_emote_common_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100312
+- bust:
+  - 100312
+  - 0
+- vo:
+  - vo_adv_1003001_011
+- face:
+  - 100312
+  - 3
+- print:
+  - 怜
+  - 看來他那邊也出現了魔物。
+- wait:
+  - 10
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100312
+  - 1
+- print:
+  - 怜
+  - 機會難得。就讓我見識他的實力吧。
+- wait:
+  - 30
+- touch: *o0
+- fadeout:
+  - 100312
+  - 15
+- chara_full:
+  - 100311
+  - C
+  - 3
+- fadein:
+  - 100311
+  - 15
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003001_012
+- face:
+  - 100311
+  - 3
+- print:
+  - 怜
+  - 魔物種類是……即使在這附近，也算是相當弱的傢伙。
+- wait:
+  - 65
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 那就不用擔心了。
+- touch: *o0
+- se:
+  - se_adv_creature_raybattle_01
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003001_013
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 敵人的行動也很慢。只要攻擊那裡的話……
+- wait:
+  - 90
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 4
+- print:
+  - 怜
+  - 為何不攻擊那裡呢……？
+- touch: *o0
+- se:
+  - se_adv_creature_raybattle_02
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003001_014
+- face:
+  - 100311
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100311
+  - 0
+  - 660
+  - '*non'
+- print:
+  - 怜
+  - 啊啊！ 這樣子拖拖拉拉的，敵人要反擊了！
+- wait:
+  - 35
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 3
+- print:
+  - 怜
+  - 不過那種程度的攻擊的話輕鬆就能迴避──
+- touch: *o0
+- window_visible:
+  - false
+- wait:
+  - 15
+- face:
+  - 100311
+  - 4
+- wait:
+  - 30
+- emotion_end:
+  - 100311
+- fadeout:
+  - 100311
+  - 15
+- chara_full:
+  - 100312
+  - C
+  - 3
+- fadein:
+  - 100312
+  - 15
+- wait:
+  - 15
+- se:
+  - se_adv_step_dirt_run_go_01
+- out_L:
+  - 100312
+  - 30
+  - true
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - LC
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_step_dirt_run_come_01
+- chara_full:
+  - 100312
+  - R
+  - 3
+- in_R:
+  - 100312
+  - 30
+  - true
+- focus:
+  - 100312:1611
+- window_visible:
+  - true
+- focus:
+  - 100312
+- bust:
+  - 100312
+  - 0
+- vo:
+  - vo_adv_1003001_015
+- face:
+  - 100312
+  - 3
+- print:
+  - 怜
+  - 我忍無可忍了！ 呀！
+- wait:
+  - 60
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 15
+- effect:
+  - 0016
+  - se_adv_weapon_sword_hit_02
+- wait:
+  - 30
+- chara_full:
+  - 1611
+  - LC
+  - 1
+- chara_full:
+  - 100312
+  - RC
+  - 3
+- fadein_all:
+  - 30
+- se:
+  - se_adv_creature_cmn_05
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- effect:
+  - 9
+- print:
+  - 魔物
+  - ──呱歐歐歐歐歐！
+- touch: *o0
+- focus:
+  - 100312
+- bust:
+  - 100312
+  - 0
+- vo:
+  - vo_adv_1003001_016
+- face:
+  - 100312
+  - 3
+- print:
+  - 怜
+  - 休想得逞！
+- wait:
+  - 45
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100312
+  - 1
+- print:
+  - 怜
+  - '{0}，沒事吧？'
+- wait:
+  - 15
+- print:
+  - 怜
+  - >2-
+
+    我也來幫忙！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100312
+  - C
+  - 4
+- scale:
+  - 100312
+  - 1.3
+  - 2
+- fadein:
+  - 100312
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100312
+- bust:
+  - 100312
+  - 0
+- vo:
+  - vo_adv_1003001_017
+- face:
+  - 100312
+  - 4
+- print:
+  - 怜
+  - 就那樣讓你獨自戰鬥的話，
+- wait:
+  - 10
+- print:
+  - 怜
+  - >2-
+
+    我也會太過在意而無法修練啊。
+- touch: *o0
+- focus:
+  - 100312
+- bust:
+  - 100312
+  - 0
+- vo:
+  - vo_adv_1003001_018
+- face:
+  - 100312
+  - 3
+- print:
+  - 怜
+  - 但是你必須自己完成被委託的工作。
+- wait:
+  - 30
+- print:
+  - 怜
+  - >2-
+
+    就算我打倒魔物也沒有意義。
+- wait:
+  - 10
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100312
+  - 1
+- print:
+  - 怜
+  - 我會給你指示，你就聽從我的指示行動。
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 100312
+- bust:
+  - 100312
+  - 0
+- vo:
+  - vo_adv_1003001_019
+- face:
+  - 100312
+  - 1
+- print:
+  - 怜
+  - 這種魔物在攻擊後，會露出很大的破綻。
+- wait:
+  - 20
+- print:
+  - 怜
+  - >2-
+
+    確實迴避，然後反擊。
+- face:
+  - 100312
+  - 3
+- print:
+  - 怜
+  - 懂了嗎？
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- wait:
+  - 15
+- face:
+  - 100312
+  - 2
+- nod:
+  - 100312
+- wait:
+  - 30
+- face:
+  - 100312
+  - 3
+- wait:
+  - 15
+- change:
+  - RC
+  - C
+- fadeout:
+  - 100312
+  - 30
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100312
+- bust:
+  - 100312
+  - 1
+- vo:
+  - vo_adv_1003001_020
+- face:
+  - 100312
+  - 3
+- print:
+  - 怜
+  - 仔細觀察對手的行動……就是那裡！
+- wait:
+  - 45
+- touch: *o0
+- se:
+  - se_adv_creature_cmn_03
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- effect:
+  - 9
+- print:
+  - 魔物
+  - ──呱歐歐歐歐歐！
+- touch: *o0
+- choice:
+  - 迴避攻擊，接著反擊。
+  - 2
+- tag:
+  - 2
+- fadeout:
+  - 1611
+  - 30
+- effect:
+  - 0028
+  - se_adv_weapon_sword_hit_01
+- wait:
+  - 15
+- se:
+  - se_adv_step_dirt_move_01
+- effect:
+  - 0009
+- camera_zoom:
+  - 1.3
+  - 5
+- black_out:
+  - 1
+  - 0.2
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- camera_zoom:
+  - 1
+  - 1
+- wait:
+  - 5
+- black_in: *o0
+- effect:
+  - 0016
+  - se_adv_weapon_sword_hit_02
+- wait:
+  - 30
+- background:
+  - 500170
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_02
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──嘰歐歐歐歐歐
+- shake:
+  - 1611
+- print:
+  - 魔物
+  - ！
+- touch: *o0
+- window_visible:
+  - false
+- updown:
+  - 1611
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1611
+  - 30
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- chara_full:
+  - 100312
+  - RC
+  - 2
+- se:
+  - se_adv_step_dirt_move_01
+- change:
+  - C
+  - RC
+- fadein:
+  - 100312
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100312
+- bust:
+  - 100312
+  - 0
+- vo:
+  - vo_adv_1003001_021
+- face:
+  - 100312
+  - 2
+- emotion:
+  - twinkle1_R
+  - 100312
+  - -135
+  - 470
+  - se_adv_emote_twinkle_01
+- print:
+  - 怜
+  - 做的好！ 有心的話還是做得到的嘛。
+- wait:
+  - 55
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100312
+  - 1
+- print:
+  - 怜
+  - 只是隨便給你點建議，你就能按照指示行動，
+- wait:
+  - 45
+- print:
+  - 怜
+  - >2-
+
+    你似乎有天份呢。
+- touch: *o0
+- focus:
+  - 100312
+- bust:
+  - 100312
+  - 0
+- vo:
+  - vo_adv_1003001_022
+- face:
+  - 100312
+  - 2
+- print:
+  - 怜
+  - 好，就趁勢打倒下一隻魔物吧！
+- wait:
+  - 10
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+- fadeout:
+  - 100312
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 500171
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_forest_01
+- chara_full:
+  - 100311
+  - C
+  - 1
+- fadein:
+  - 100311
+  - 30
+- bgm:
+  - bgm_M53
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003001_023
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 呼……差不多都打倒了。
+- wait:
+  - 55
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 2
+- print:
+  - 怜
+  - 也快天黑了，那我們回去吧。
+- wait:
+  - 30
+- touch: *o0
+- choice:
+  - 真抱歉打擾妳修練。
+  - 3
+- choice:
+  - 感謝妳幫我。
+  - 4
+- tag:
+  - 3
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003001_024
+- face:
+  - 100311
+  - 6
+- print:
+  - 怜
+  - 用不著道歉。
+- wait:
+  - 45
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 我也得到了想起初衷的好機會。
+- touch: *o0
+- goto:
+  - 5
+- tag:
+  - 4
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003001_025
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 我沒做什麼值得你道謝的事。
+- wait:
+  - 10
+- print:
+  - 怜
+  - >2-
+
+    我只是給你建議而已。
+- touch: *o0
+- tag:
+  - 5
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003001_026
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 但是對你而言，或許是很好的訓練呢。
+- wait:
+  - 65
+- print:
+  - 怜
+  - >2-
+
+    光是今天不就成長了許多？
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003001_027
+- face:
+  - 100311
+  - 2
+- print:
+  - 怜
+  - 你似乎很有天份，
+- wait:
+  - 30
+- print:
+  - 怜
+  - >2-
+
+    往後也持續鍛鍊的話，一定可以練就好身手。
+- wait:
+  - 10
+- touch: *o0
+- choice:
+  - 今後希望妳也能指導我。
+  - 6
+- tag:
+  - 6
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003001_028
+- face:
+  - 100311
+  - 4
+- print:
+  - 怜
+  - 該不該指導你呢？……
+- wait:
+  - 60
+- print:
+  - 怜
+  - >2-
+
+    ……
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 呵呵，開玩笑的。
+- wait:
+  - 55
+- print:
+  - 怜
+  - >2-
+
+    好吧。我很樂意。
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003001_029
+- face:
+  - 100311
+  - 2
+- print:
+  - 怜
+  - 你就是一起以索爾之塔最高層為目標的夥伴了。
+- wait:
+  - 90
+- print:
+  - 怜
+  - >2-
+
+    如果是為了讓夥伴變強、我會不惜餘力協助的。
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 100311
+  - 6
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003001_030
+- face:
+  - 100311
+  - 6
+- print:
+  - 怜
+  - ……怎麼了嗎？
+- touch: *o0
+- choice:
+  - 笑容很可愛。
+  - 7
+- tag:
+  - 7
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003001_031
+- face:
+  - 100311
+  - 5
+- emotion:
+  - exclamation1_R
+  - 100311
+  - 0
+  - 660
+  - se_adv_emote_common_01
+- print:
+  - 怜
+  - 你、你、
+- shake:
+  - 100311
+- print:
+  - 怜
+  - 你在說什麼啊！？
+- wait:
+  - 25
+- print:
+  - 怜
+  - >2-
+
+    這樣捉弄我很不好喔，真是的……
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003001_032
+- face:
+  - 100311
+  - 4
+- print:
+  - 怜
+  - 沒想到會稱讚我的笑容……
+- wait:
+  - 90
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 但是……不知為何被你稱讚，不會感到不舒服呢。
+- wait:
+  - 40
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003001_033
+- face:
+  - 100311
+  - 2
+- print:
+  - 怜
+  - 總而言之。為了讓你能成為傑出的騎士，
+- wait:
+  - 20
+- print:
+  - 怜
+  - >2-
+
+    今後我也會嚴格地鍛鍊你喔。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100311
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    從那天開始，怜的特訓就開始了，
+
+    {0}漸漸地提升了實力。
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

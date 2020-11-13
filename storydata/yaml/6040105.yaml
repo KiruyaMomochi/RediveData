@@ -1,0 +1,296 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500995
+- amb:
+  - amb_adv_outdoors_day_01
+- ui_visible:
+  - false
+- situation:
+  - 關於栞
+- chara_full:
+  - 103311
+  - C
+  - 1
+- fadein:
+  - 103311
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M352_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 103311
+- bust:
+  - 103311
+  - 0
+- vo:
+  - vo_adv_6040105_000
+- face:
+  - 103311
+  - 1
+- print:
+  - 真陽
+  - 平常栞栞就很努力了，
+- wait:
+  - 50
+- print:
+  - 真陽
+  - >2
+
+- face:
+  - 103311
+  - 2
+- print:
+  - 真陽
+  - 這種時候也受到她的幫助，
+- wait:
+  - 40
+- print:
+  - 真陽
+  - 真的很感謝她。
+- wait:
+  - 55
+- print:
+  - 真陽
+  - >2
+
+- face:
+  - 103311
+  - 4
+- print:
+  - 真陽
+  - 沒辦法讓她好好療養，
+- wait:
+  - 35
+- print:
+  - 真陽
+  - 讓我感到相當抱歉呢。
+- touch: &o0 []
+- choice:
+  - 栞她沒問題的
+  - 1
+  - 1
+- choice:
+  - 傳達妳的感謝之意吧
+  - 2
+  - 2
+- choice:
+  - 再多依賴她一點吧
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 103311
+- bust:
+  - 103311
+  - 0
+- vo:
+  - vo_adv_6040105_001
+- face:
+  - 103311
+  - 1
+- print:
+  - 真陽
+  - 栞栞也是這麼說的啦。
+- wait:
+  - 45
+- face:
+  - 103311
+  - 2
+- print:
+  - 真陽
+  - 她真的是個好孩子呢。
+- wait:
+  - 60
+- print:
+  - 真陽
+  - >2
+
+- face:
+  - 103311
+  - 6
+- nod:
+  - 103311
+- print:
+  - 真陽
+  - 可是
+- wait:
+  - 30
+- print:
+  - 真陽
+  - 也不能一直依賴她呢。
+- wait:
+  - 55
+- print:
+  - 真陽
+  - >2
+
+- face:
+  - 103311
+  - 1
+- print:
+  - 真陽
+  - 我也要繼續加油啊！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 103311
+- bust:
+  - 103311
+  - 0
+- vo:
+  - vo_adv_6040105_002
+- face:
+  - 103311
+  - 1
+- print:
+  - 真陽
+  - 想要做一些
+- wait:
+  - 40
+- print:
+  - 真陽
+  - 能讓栞栞高興的事情呢。
+- wait:
+  - 50
+- face:
+  - 103311
+  - 6
+- print:
+  - 真陽
+  - 該做什麼事比較好呢。
+- wait:
+  - 45
+- print:
+  - 真陽
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 真陽
+  - 對身體好的料理……
+- wait:
+  - 50
+- eye_open:
+  - True
+- print:
+  - 真陽
+  - 平常
+- wait:
+  - 30
+- print:
+  - 真陽
+  - 就很注重了呢，
+- wait:
+  - 55
+- print:
+  - 真陽
+  - 我想想……
+- wait:
+  - 70
+- print:
+  - 真陽
+  - >2
+
+- face:
+  - 103311
+  - 2
+- emotion:
+  - note1_L
+  - 103311
+  - -105
+  - 465
+  - se_adv_emote_note_01
+- print:
+  - 真陽
+  - 帶些可愛的動物給她看吧！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 103311
+- bust:
+  - 103311
+  - 0
+- vo:
+  - vo_adv_6040105_003
+- face:
+  - 103311
+  - 4
+- print:
+  - 真陽
+  - 嗯～
+- wait:
+  - 40
+- print:
+  - 真陽
+  - 雖然不想加重她的負擔，
+- wait:
+  - 40
+- print:
+  - 真陽
+  - >2-
+
+    但要是太顧慮她的話，
+- wait:
+  - 30
+- print:
+  - 真陽
+  - 反而會惹栞栞生氣呢。
+- wait:
+  - 60
+- print:
+  - 真陽
+  - >2
+
+- nod:
+  - 103311
+- face:
+  - 103311
+  - 1
+- print:
+  - 真陽
+  - 我知道了。
+- wait:
+  - 30
+- print:
+  - 真陽
+  - 在合理的範圍內
+- wait:
+  - 30
+- print:
+  - 真陽
+  - 更依賴她一些吧。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 103311
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

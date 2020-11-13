@@ -1,0 +1,295 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500740
+- amb:
+  - amb_adv_room_noise_01
+- ui_visible:
+  - FALSE
+- situation:
+  - どこが恐いの
+- chara_full:
+  - 110811
+  - C
+  - 1
+- fadein:
+  - 110811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M203
+  - 0
+  - 0
+  - 1
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_6023108_000
+- face:
+  - 110811
+  - 1
+- print:
+  - クロエ
+  - なんかさー、
+- wait:
+  - 35
+- print:
+  - クロエ
+  - クラスの子たちとか、
+- wait:
+  - 10
+- print:
+  - クロエ
+  - >2-
+
+    うちのこと謎に恐がってンだよねー
+- wait:
+  - 45
+- print:
+  - クロエ
+  - >2
+
+- nod:
+  - 110811
+- print:
+  - クロエ
+  - え、なんでよ、
+- wait:
+  - 20
+- print:
+  - クロエ
+  - うちのどこがそんな恐いのかな。
+- touch: &o0 []
+- choice:
+  - 顔。
+  - 1
+  - 1
+- choice:
+  - 声。
+  - 2
+  - 2
+- choice:
+  - 全身から湧き立つ禍々しいオーラ。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_6023108_001
+- face:
+  - 110811
+  - 1
+- print:
+  - クロエ
+  - 顔。
+- wait:
+  - 20
+- print:
+  - クロエ
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - クロエ
+  - なるほど、顔か。
+- wait:
+  - 25
+- print:
+  - クロエ
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - クロエ
+  - うん、
+- wait:
+  - 10
+- print:
+  - クロエ
+  - 顔はどうしようもない。
+- wait:
+  - 15
+- print:
+  - クロエ
+  - 生まれつきだから。
+- wait:
+  - 10
+- print:
+  - クロエ
+  - ごめん諦めて。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_6023108_002
+- face:
+  - 110811
+  - 4
+- print:
+  - クロエ
+  - えー、
+- wait:
+  - 20
+- print:
+  - クロエ
+  - そおかな、
+- wait:
+  - 25
+- print:
+  - クロエ
+  - そんな声してるぅ？
+- wait:
+  - 50
+- print:
+  - クロエ
+  - >2-
+
+    ふみゅう、
+- wait:
+  - 35
+- print:
+  - クロエ
+  - 自分ではよく分かんにゃいけど……
+- wait:
+  - 75
+- print:
+  - クロエ
+  - >2
+
+- face:
+  - 110811
+  - 1
+- print:
+  - クロエ
+  - おい。
+- wait:
+  - 20
+- print:
+  - クロエ
+  - なんだその目は。
+- wait:
+  - 20
+- print:
+  - クロエ
+  - 呆れか。
+- wait:
+  - 15
+- print:
+  - クロエ
+  - 憐れみか。
+- wait:
+  - 25
+- nod:
+  - 110811
+- print:
+  - クロエ
+  - やめろ見るな。
+- wait:
+  - 40
+- face:
+  - 110811
+  - 3
+- print:
+  - クロエ
+  - 見るな。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_6023108_003
+- face:
+  - 110811
+  - 3
+- print:
+  - クロエ
+  - あ？　
+- wait:
+  - 30
+- print:
+  - クロエ
+  - なんだァ、
+- wait:
+  - 10
+- print:
+  - クロエ
+  - てめえ……
+- wait:
+  - 35
+- print:
+  - クロエ
+  - うちがいつそんなオーラ放った？
+- wait:
+  - 60
+- print:
+  - クロエ
+  - >2
+
+- nod:
+  - 110811
+- print:
+  - クロエ
+  - あんたに脅迫とか恫喝とかしたことあるか？　
+- wait:
+  - 60
+- print:
+  - クロエ
+  - 言ってみろゴルァ！
+- wait:
+  - 35
+- print:
+  - クロエ
+  - >2-
+
+    声を荒げて脅したことなんか一度もねえだろ！　
+- wait:
+  - 45
+- print:
+  - クロエ
+  - 天使だコノヤロウ！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 110811
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

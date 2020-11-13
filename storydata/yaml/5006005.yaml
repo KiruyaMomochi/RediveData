@@ -1,0 +1,2669 @@
+- title:
+  - 獸人街的暴動
+- outline:
+  - 追趕著無人鎧甲的純等人，一邊幫助著獸人居住區的居民們，一邊為了將魔物所造成的傷害降到最小限度而持續奮鬥著。看著純的這些行動，居民們的心境也漸漸出現了轉變。
+- background:
+  - 500030
+- amb:
+  - amb_adv_noisy_03
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 獸人街的暴動
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 一小時後。
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 713
+  - LC
+  - 1
+- chara_full:
+  - 714
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M93
+  - 0
+  - 0
+  - 1
+- se:
+  - se_adv_creature_armor_01
+- focus:
+  - 713
+- bust:
+  - 713
+  - 0
+- face:
+  - 713
+  - 1
+- print:
+  - 魔物A
+  - ──咕喔喔喔喔喔！
+- touch: *o0
+- se:
+  - se_adv_creature_armor_02
+- focus:
+  - 714
+- bust:
+  - 714
+  - 0
+- face:
+  - 714
+  - 1
+- print:
+  - 魔物B
+  - ──咕喔喔喔喔喔！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 104711
+  - LC
+  - 1
+- se:
+  - se_adv_step_concrete_run_heavy_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 30
+- fadein:
+  - 104711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_5006005_000
+- face:
+  - 104711
+  - 1
+- nod:
+  - 104711
+- print:
+  - 純
+  - 喝、
+- wait:
+  - 15
+- print:
+  - 純
+  - 喝！　
+- wait:
+  - 38
+- print:
+  - 純
+  - 總算是趕上了！
+- wait:
+  - 45
+- print:
+  - 純
+  - >2-
+
+    我這樣不太能奔跑呢，
+- wait:
+  - 55
+- print:
+  - 純
+  - 因為鎧甲太重了。
+- touch: *o0
+- choice:
+  - 脫下來就好了不是嗎？
+  - 1
+- tag:
+  - 1
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_5006005_001
+- face:
+  - 104711
+  - 1
+- print:
+  - 純
+  - 不，
+- wait:
+  - 16
+- print:
+  - 純
+  - 你也知道我必須遵守家訓……
+- wait:
+  - 64
+- print:
+  - 純
+  - >2-
+
+    是說少年，
+- wait:
+  - 21
+- print:
+  - 純
+  - 你怎麼也跟過來了？
+- wait:
+  - 44
+- print:
+  - 純
+  - >2-
+
+    你還是
+- wait:
+  - 16
+- print:
+  - 純
+  - 趕緊避難為上喔？
+- touch: *o0
+- choice:
+  - 請讓我幫忙。
+  - 2
+- tag:
+  - 2
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_5006005_002
+- face:
+  - 104711
+  - 1
+- nod:
+  - 104711
+- print:
+  - 純
+  - 唔～……
+- wait:
+  - 38
+- print:
+  - 純
+  - >2-
+
+    嗯，
+- wait:
+  - 28
+- print:
+  - 純
+  - 雖說能加強夥伴的能力這點很派得上用場。
+- wait:
+  - 112
+- print:
+  - 純
+  - >2-
+
+    但真的很危險，
+- wait:
+  - 26
+- print:
+  - 純
+  - 請盡量離遠一點。
+- touch: *o0
+- bgm:
+  - stop
+  - 5.5
+  - 1
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_5006005_003
+- face:
+  - 104711
+  - 1
+- print:
+  - 純
+  - 總之……
+- wait:
+  - 40
+- print:
+  - 純
+  - >2-
+
+    已經無路可逃了喔，
+- wait:
+  - 30
+- print:
+  - 純
+  - 快乖乖就範！
+- touch: *o0
+- effect:
+  - 0009
+- bgm:
+  - bgm_M41
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_5006005_004
+- face:
+  - 104711
+  - 1
+- print:
+  - 純
+  - 【王宮騎士團（NIGHTMARE）】的全員，快包圍敵人！
+- wait:
+  - 35
+- print:
+  - 純
+  - >2-
+
+    先擊倒削弱他們再進行綑綁！
+- wait:
+  - 60
+- print:
+  - 純
+  - >2-
+
+    若是抵抗，即使砍斷手腳也在所不惜！
+- touch: *o0
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_5006005_005
+- face:
+  - 104711
+  - 1
+- print:
+  - 純
+  - 敵人可是沒有肉身這樣不可思議的存在……
+- wait:
+  - 60
+- print:
+  - 純
+  - >2-
+
+    恐怕是與寄宿著生命的鎧甲同類，
+- wait:
+  - 65
+- print:
+  - 純
+  - 這種程度的攻擊是殺不死的！
+- wait:
+  - 50
+- print:
+  - 純
+  - >2-
+
+    也因此不會沾上敵人的血，
+- wait:
+  - 30
+- print:
+  - 純
+  - 不需懷著罪惡感也能安心入睡！
+- touch: *o0
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_5006005_006
+- face:
+  - 104711
+  - 1
+- print:
+  - 純
+  - 光明正大地！
+- wait:
+  - 35
+- print:
+  - 純
+  - >2-
+
+    就像故事中正義的一方打倒敵人一般，
+- wait:
+  - 72
+- print:
+  - 純
+  - >2-
+
+    華麗的擊退敵人吧！
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 2
+- bright_change:
+  - 1
+  - 50
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_5006005_007
+- face:
+  - 104711
+  - 1
+- nod:
+  - 104711
+- print:
+  - 純
+  - 呼……
+- wait:
+  - 45
+- print:
+  - 純
+  - 雖然我不太習慣大聲說話，
+- wait:
+  - 35
+- print:
+  - 純
+  - 但這還是必要的呢。
+- wait:
+  - 55
+- print:
+  - 純
+  - >2-
+
+    看到自己的冒牌貨到處施暴，
+- wait:
+  - 54
+- print:
+  - 純
+  - >2-
+
+    而【王宮騎士團】的成員們皆受到動搖。
+- touch: *o0
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_5006005_008
+- face:
+  - 104711
+  - 1
+- print:
+  - 純
+  - 若我表現的堅定一點，
+- wait:
+  - 60
+- print:
+  - 純
+  - 大家應該也能安心下來的。
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- bright_change:
+  - 1
+  - 100
+- vo_effect:
+  - 0
+- fadeout:
+  - 104711
+  - 30
+- se:
+  - se_adv_step_concrete_run_armor_come_01
+- wait:
+  - 15
+- chara_full:
+  - 104711
+  - LC
+  - 1
+- chara_full:
+  - 100511
+  - R
+  - 1
+- change:
+  - RC
+  - R
+  - 30
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5006005_009
+- face:
+  - 100511
+  - 1
+- print:
+  - 茉莉
+  - 純！
+- wait:
+  - 35
+- print:
+  - 茉莉
+  - >2
+
+- face:
+  - 100511
+  - 6
+- emotion:
+  - sweat2_R
+  - 100511
+  - 105
+  - 470
+  - se_adv_emote_sweat_02
+- print:
+  - 茉莉
+  - 這這這、
+- wait:
+  - 27
+- print:
+  - 茉莉
+  - 這是什麼情況！？
+- touch: *o0
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_5006005_010
+- face:
+  - 104711
+  - 1
+- print:
+  - 純
+  - 茉、
+- wait:
+  - 15
+- print:
+  - 純
+  - 茉莉？
+- wait:
+  - 40
+- print:
+  - 純
+  - >2-
+
+    啊啊，
+- wait:
+  - 25
+- print:
+  - 純
+  - 這麼說來茉莉住在這附近嘛……？
+- wait:
+  - 70
+- print:
+  - 純
+  - >2-
+
+    真的太危險了，
+- wait:
+  - 25
+- print:
+  - 純
+  - 身為新人的你應該快點去安全的地方避難。
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5006005_011
+- face:
+  - 100511
+  - 1
+- print:
+  - 茉莉
+  - 不，
+- wait:
+  - 25
+- print:
+  - 茉莉
+  - 我也要參加戰鬥！
+- wait:
+  - 40
+- print:
+  - 茉莉
+  - 　
+- pop:
+  - 100511
+- print:
+  - 茉莉
+  - 因為這可是我的城鎮！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100511
+  - C
+  - 1
+- chara_full:
+  - 104711
+  - L
+  - 1
+- chara_full:
+  - 103711
+  - R
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103711
+- bust:
+  - 103711
+  - 0
+- vo:
+  - vo_adv_5006005_012
+- face:
+  - 103711
+  - 1
+- print:
+  - 智
+  - 而且戰力也不夠是吧，
+- wait:
+  - 30
+- print:
+  - 智
+  - 純？
+- wait:
+  - 20
+- print:
+  - 智
+  - >2
+
+- face:
+  - 103711
+  - 2
+- print:
+  - 智
+  - 請讓我助你一臂之力。
+- touch: *o0
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_5006005_013
+- face:
+  - 104711
+  - 1
+- print:
+  - 純
+  - 小智也是……
+- wait:
+  - 35
+- print:
+  - 純
+  - >2
+
+- emotion:
+  - notice1_L
+  - 104711
+  - -70
+  - 585
+  - se_adv_emote_common_01
+- print:
+  - 純
+  - 咦，
+- wait:
+  - 20
+- print:
+  - 純
+  - 為什麼你們兩個都在這邊呢？
+- touch: *o0
+- focus:
+  - 103711
+- bust:
+  - 103711
+  - 0
+- vo:
+  - vo_adv_5006005_014
+- face:
+  - 103711
+  - 1
+- print:
+  - 智
+  - 只是剛好而已。
+- wait:
+  - 30
+- print:
+  - 智
+  - >2
+
+- face:
+  - 103711
+  - 2
+- print:
+  - 智
+  - 剛跟茉莉吃完飯後，
+- wait:
+  - 30
+- print:
+  - 智
+  - >2-
+
+    正要送他回家的途中，就遇到這怪事。
+- touch: *o0
+- bgm:
+  - stop
+  - 7.5
+- focus:
+  - 103711
+- bust:
+  - 103711
+  - 0
+- vo:
+  - vo_adv_5006005_015
+- face:
+  - 103711
+  - 4
+- emotion:
+  - question1_R
+  - 103711
+  - 105
+  - 520
+  - se_adv_emote_question_01
+- print:
+  - 智
+  - 這些傢伙
+- wait:
+  - 15
+- print:
+  - 智
+  - 在搞什麼？
+- wait:
+  - 30
+- print:
+  - 智
+  - >2-
+
+    有兩個純……
+- wait:
+  - 30
+- print:
+  - 智
+  - >2-
+
+    是傳說中的
+- wait:
+  - 5
+- print:
+  - 智
+  - 『闇影』嗎？
+- touch: *o0
+- bgm:
+  - bgm_M60
+  - 0
+  - 0
+  - 1
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_5006005_016
+- face:
+  - 104711
+  - 1
+- print:
+  - 純
+  - 我覺得不同，
+- wait:
+  - 30
+- print:
+  - 純
+  - 但也不是很清楚。
+- wait:
+  - 45
+- print:
+  - 純
+  - >2-
+
+    而且也不清楚真實身分，也無法坐視不管……
+- wait:
+  - 90
+- print:
+  - 純
+  - >2-
+
+    這些傢伙模仿我們的模樣，
+- wait:
+  - 45
+- print:
+  - 純
+  - 並且為所欲為。
+- touch: *o0
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_5006005_017
+- face:
+  - 104711
+  - 1
+- print:
+  - 純
+  - 絕對不可原諒！。
+- wait:
+  - 45
+- print:
+  - 純
+  - >2-
+
+    就是因為這些傢伙，
+- wait:
+  - 30
+- print:
+  - 純
+  - >2-
+
+    所以才覺得被大家討厭吧，
+- wait:
+  - 40
+- print:
+  - 純
+  - 害我心理那麼煩躁。
+- touch: *o0
+- focus:
+  - 103711
+- bust:
+  - 103711
+  - 0
+- vo:
+  - vo_adv_5006005_018
+- face:
+  - 103711
+  - 1
+- nod:
+  - 103711
+- print:
+  - 智
+  - 啊啊……
+- wait:
+  - 30
+- print:
+  - 智
+  - >2-
+
+    原來如此，
+- wait:
+  - 32
+- print:
+  - 智
+  - 這麼一來就說得過去了。
+- touch: *o0
+- focus:
+  - 103711
+- bust:
+  - 103711
+  - 0
+- vo:
+  - vo_adv_5006005_019
+- face:
+  - 103711
+  - 1
+- print:
+  - 智
+  - 沒想到是冒牌貨呢……
+- wait:
+  - 67
+- print:
+  - 智
+  - >2-
+
+    我都沒想到，
+- wait:
+  - 35
+- print:
+  - 智
+  - >2-
+
+    明明之前也有聽到關於『闇影』的目擊情報的說。
+- touch: *o0
+- focus:
+  - 103711
+- bust:
+  - 103711
+  - 0
+- vo:
+  - vo_adv_5006005_020
+- face:
+  - 103711
+  - 4
+- eye_open:
+  - False
+- print:
+  - 智
+  - 看來我還是不夠成熟呢。
+- wait:
+  - 70
+- print:
+  - 智
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 智
+  - 被純的冒牌貨那樣對待，
+- wait:
+  - 57
+- print:
+  - 智
+  - >2-
+
+    我受的傷好像比自己想像的還要重。
+- touch: *o0
+- focus:
+  - 103711
+- bust:
+  - 103711
+  - 0
+- vo:
+  - vo_adv_5006005_021
+- face:
+  - 103711
+  - 1
+- print:
+  - 智
+  - 我竟然都沒想到，
+- wait:
+  - 45
+- nod:
+  - 103711
+- print:
+  - 智
+  - 還懷疑你，真抱歉。
+- touch: *o0
+- bgm:
+  - stop
+  - 12
+  - 1
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5006005_022
+- face:
+  - 100511
+  - 4
+- print:
+  - 茉莉
+  - 我也要反省……
+- wait:
+  - 60
+- print:
+  - 茉莉
+  - >2
+
+- face:
+  - 100511
+  - 1
+- print:
+  - 茉莉
+  - 冒牌的英雄這種老套的劇情，
+- wait:
+  - 82
+- print:
+  - 茉莉
+  - >2-
+
+    為何我沒有立刻發現呢？
+- touch: *o0
+- bgm:
+  - bgm_M67_03
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_5006005_023
+- face:
+  - 104711
+  - 1
+- nod:
+  - 104711
+- print:
+  - 純
+  - 嘻嘻。
+- wait:
+  - 30
+- print:
+  - 純
+  - 這也沒辦法吧，
+- wait:
+  - 30
+- print:
+  - 純
+  - 因為外觀一模一樣呀……
+- wait:
+  - 65
+- print:
+  - 純
+  - >2-
+
+    希望我們關係越來越親，
+- wait:
+  - 103
+- print:
+  - 純
+  - >2-
+
+    親到一眼就能分出本尊跟冒牌貨的差別。
+- touch: *o0
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_5006005_024
+- face:
+  - 104711
+  - 1
+- print:
+  - 純
+  - 為了達成那目標。
+- wait:
+  - 65
+- print:
+  - 純
+  - >2-
+
+    別為了互相懷疑的事而受傷，
+- wait:
+  - 73
+- print:
+  - 純
+  - >2-
+
+    為了成為互相友愛的夥伴……
+- touch: *o0
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_5006005_025
+- face:
+  - 104711
+  - 1
+- print:
+  - 純
+  - 一起攜手解決，
+- wait:
+  - 45
+- print:
+  - 純
+  - 這些可怕又不尋常的事件吧。
+- touch: *o0
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_5006005_026
+- face:
+  - 104711
+  - 1
+- print:
+  - 純
+  - 你們兩個
+- wait:
+  - 25
+- print:
+  - 純
+  - 都會幫我吧？
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5006005_027
+- face:
+  - 100511
+  - 2
+- pop:
+  - 100511
+- print:
+  - 茉莉
+  - 當然！
+- wait:
+  - 33
+- print:
+  - 茉莉
+  - >2
+
+- face:
+  - 100511
+  - 1
+- print:
+  - 茉莉
+  - 必須要向
+- wait:
+  - 58
+- print:
+  - 茉莉
+  - 爸爸跟媽媽，還有住在獸人居住區的大家證明……
+- wait:
+  - 55
+- print:
+  - 茉莉
+  - >2-
+
+    做壞事的是冒牌貨！
+- touch: *o0
+- focus:
+  - 103711
+- bust:
+  - 103711
+  - 0
+- vo:
+  - vo_adv_5006005_028
+- face:
+  - 103711
+  - 1
+- print:
+  - 智
+  - 嗯。
+- wait:
+  - 27
+- print:
+  - 智
+  - >2-
+
+    不僅打倒敵人，還能洗刷純的汙名，
+- wait:
+  - 60
+- print:
+  - 智
+  - 真是一石二鳥呢。
+- touch: *o0
+- focus:
+  - 103711
+- bust:
+  - 103711
+  - 0
+- vo:
+  - vo_adv_5006005_029
+- face:
+  - 103711
+  - 6
+- emotion:
+  - notice1_L
+  - 103711
+  - -65
+  - 535
+  - se_adv_emote_common_01
+- print:
+  - 智
+  - 該不會，
+- wait:
+  - 30
+- print:
+  - 智
+  - 你就是為了這個而把敵人追到獸人居住區的？
+- wait:
+  - 77
+- print:
+  - 智
+  - >2
+
+- face:
+  - 103711
+  - 2
+- print:
+  - 智
+  - 唉呀還真的服了你，
+- wait:
+  - 43
+- print:
+  - 智
+  - 竟然還有這種方法呢？
+- touch: *o0
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_5006005_030
+- face:
+  - 104711
+  - 1
+- print:
+  - 純
+  - 咦……
+- wait:
+  - 27
+- print:
+  - 純
+  - >2-
+
+    不、
+- wait:
+  - 18
+- print:
+  - 純
+  - 我只是專心追了過來，剛好到了這個地方而已。
+- touch: *o0
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_5006005_031
+- face:
+  - 104711
+  - 1
+- print:
+  - 純
+  - 可真辛苦呢。
+- wait:
+  - 40
+- print:
+  - 純
+  - >2-
+
+    而且克莉絲還
+- wait:
+  - 33
+- print:
+  - 純
+  - >2-
+
+    利用直屬部下一直搗亂。
+- touch: *o0
+- focus:
+  - 103711
+- bust:
+  - 103711
+  - 0
+- vo:
+  - vo_adv_5006005_032
+- face:
+  - 103711
+  - 4
+- print:
+  - 智
+  - 你說克莉絲提娜她？
+- wait:
+  - 43
+- print:
+  - 智
+  - >2-
+
+    哦……？
+- touch: *o0
+- choice:
+  - 真的很辛苦呀。
+  - 3
+- tag:
+  - 3
+- focus:
+  - 103711
+- bust:
+  - 103711
+  - 0
+- vo:
+  - vo_adv_5006005_033
+- face:
+  - 103711
+  - 6
+- emotion:
+  - notice1_L
+  - 103711
+  - -65
+  - 535
+  - se_adv_emote_common_01
+- print:
+  - 智
+  - 咦，{0}！
+- wait:
+  - 35
+- print:
+  - 智
+  - >2
+
+- face:
+  - 103711
+  - 1
+- print:
+  - 智
+  - 你還真是一如往常的沒有存在感呢，
+- wait:
+  - 30
+- print:
+  - 智
+  - 你怎麼在這裡呢？
+- wait:
+  - 37
+- print:
+  - 智
+  - >2
+
+- face:
+  - 103711
+  - 2
+- print:
+  - 智
+  - 嘿嘿，
+- wait:
+  - 35
+- print:
+  - 智
+  - 是不是剛剛
+- wait:
+  - 25
+- print:
+  - 智
+  - 正在跟純約會呢……♪
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5006005_034
+- face:
+  - 100511
+  - 6
+- pop:
+  - 100511
+- print:
+  - 茉莉
+  - 咦，
+- wait:
+  - 35
+- print:
+  - 茉莉
+  - 你們兩個是那種關係嗎？
+- wait:
+  - 50
+- print:
+  - 茉莉
+  - >2-
+
+    怎、
+- wait:
+  - 22
+- print:
+  - 茉莉
+  - 怎麼心情有點複雜！
+- wait:
+  - 113
+- print:
+  - 茉莉
+  - >2-
+
+    但是，
+- wait:
+  - 29
+- print:
+  - 茉莉
+  - 如果是純的話……？
+- touch: *o0
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_5006005_035
+- face:
+  - 104711
+  - 1
+- emotion:
+  - sweat2_R
+  - 104711
+  - 80
+  - 575
+  - se_adv_emote_sweat_02
+- print:
+  - 純
+  - 才、
+- wait:
+  - 15
+- print:
+  - 純
+  - 才不是。
+- wait:
+  - 30
+- print:
+  - 純
+  - >2-
+
+    我們才不是那種關係呢，
+- wait:
+  - 45
+- print:
+  - 純
+  - >2-
+
+    雖然跟少年真的滿要好的。
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 104714
+  - C
+  - 1
+- bgm:
+  - bgm_M109
+  - 0
+  - 0
+  - 1
+- fadein:
+  - 104714
+  - 30
+- window_visible:
+  - true
+- se:
+  - se_adv_creature_armor_03
+- focus:
+  - 104714
+- bust:
+  - 104714
+  - 0
+- face:
+  - 104714
+  - 1
+- print:
+  - 純？
+  - ──咕喔喔喔喔喔！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 104714
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 100511
+  - LC
+  - 1
+- chara_full:
+  - 103711
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103711
+- bust:
+  - 103711
+  - 0
+- vo:
+  - vo_adv_5006005_036
+- face:
+  - 103711
+  - 1
+- print:
+  - 智
+  - ……
+- pop:
+  - 103711
+- print:
+  - 智
+  - 啊！　
+- wait:
+  - 30
+- print:
+  - 智
+  - 可不是能輕鬆聊天的時候呢，
+- wait:
+  - 30
+- print:
+  - 智
+  - >2-
+
+    不然簡直就像被敵人追到無路可逃自暴自棄一樣！
+- wait:
+  - 62
+- print:
+  - 智
+  - >2-
+
+    都開始不顧一切亂來了！
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5006005_037
+- face:
+  - 100511
+  - 1
+- print:
+  - 茉莉
+  - 唔、
+- wait:
+  - 35
+- print:
+  - 茉莉
+  - 這可是最終決戰！
+- wait:
+  - 45
+- print:
+  - 茉莉
+  - >2
+
+- face:
+  - 100511
+  - 2
+- print:
+  - 茉莉
+  - 燃起鬥志了！
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5006005_038
+- face:
+  - 100511
+  - 1
+- print:
+  - 茉莉
+  - 破壞和平的壞人們，
+- wait:
+  - 35
+- print:
+  - 茉莉
+  - >2-
+
+    就由我們【王宮騎士團（NIGHTMARE）】來擊退！
+- wait:
+  - 45
+- print:
+  - 茉莉
+  - >2-
+
+    英雄的守則第2條，
+- wait:
+  - 45
+- print:
+  - 茉莉
+  - 正義終將獲得勝利……！
+- touch: *o0
+- focus:
+  - 103711
+- bust:
+  - 103711
+  - 0
+- vo:
+  - vo_adv_5006005_039
+- face:
+  - 103711
+  - 1
+- nod:
+  - 103711
+- print:
+  - 智
+  - 嗯。
+- wait:
+  - 27
+- print:
+  - 智
+  - >2-
+
+    而這次，
+- wait:
+  - 30
+- print:
+  - 智
+  - 我們的正義可是無庸置疑的。
+- wait:
+  - 58
+- print:
+  - 智
+  - >2-
+
+    就像平常一樣，
+- wait:
+  - 12
+- print:
+  - 智
+  - 快刀斬亂麻吧……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 713
+  - LC
+  - 1
+- chara_full:
+  - 714
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- se:
+  - se_adv_creature_armor_01
+- focus:
+  - 713
+- bust:
+  - 713
+  - 0
+- face:
+  - 713
+  - 1
+- print:
+  - 魔物A
+  - ──咕喔喔喔喔喔！
+- touch: *o0
+- se:
+  - se_adv_creature_armor_02
+- focus:
+  - 714
+- bust:
+  - 714
+  - 0
+- face:
+  - 714
+  - 1
+- print:
+  - 魔物B
+  - ──咕喔喔喔喔喔！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 104711
+  - LC
+  - 1
+- chara_full:
+  - 100511
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_5006005_040
+- face:
+  - 104711
+  - 1
+- emotion:
+  - question1_R
+  - 104711
+  - 110
+  - 540
+  - se_adv_emote_question_01
+- print:
+  - 純
+  - 唔？
+- wait:
+  - 30
+- print:
+  - 純
+  - >2-
+
+    小心點，
+- wait:
+  - 15
+- print:
+  - 純
+  - 那些傢伙看起來有點奇怪！
+- touch: *o0
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_5006005_041
+- face:
+  - 104711
+  - 1
+- print:
+  - 純
+  - 茉莉，
+- wait:
+  - 20
+- print:
+  - 純
+  - 戰鬥就交給我們，你來負責引導居民避難！
+- wait:
+  - 90
+- print:
+  - 純
+  - >2-
+
+    你可是住在這裡的孩子，
+- wait:
+  - 55
+- print:
+  - 純
+  - >2-
+
+    雖然人們對我們反感，但你的話他們會聽的！
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5006005_042
+- face:
+  - 100511
+  - 1
+- pop:
+  - 100511
+- print:
+  - 茉莉
+  - 了、
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - 了解！
+- wait:
+  - 30
+- print:
+  - 茉莉
+  - 　這就是所謂的適才適所吧！
+- wait:
+  - 65
+- print:
+  - 茉莉
+  - >2-
+
+    各位～
+- wait:
+  - 25
+- print:
+  - 茉莉
+  - 請快往家裡避難！
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5006005_043
+- face:
+  - 100511
+  - 6
+- emotion:
+  - notice1_L
+  - 100511
+  - -50
+  - 490
+  - se_adv_emote_common_01
+- print:
+  - 茉莉
+  - 啊……
+- wait:
+  - 25
+- print:
+  - 茉莉
+  - >2-
+
+    糟糕，
+- wait:
+  - 25
+- print:
+  - 茉莉
+  - 噴水池那邊有些人來不及逃！
+- touch: *o0
+- focus:
+  - 413
+- bust:
+  - 413
+  - 1
+- vo:
+  - vo_adv_5006005_044
+- face:
+  - 413
+  - 4
+- print:
+  - 獸人女性
+  - 噫，
+- wait:
+  - 15
+- print:
+  - 獸人女性
+  - 噫……
+- touch: *o0
+- focus:
+  - 415
+- bust:
+  - 415
+  - 1
+- vo:
+  - vo_adv_5006005_045
+- face:
+  - 415
+  - 4
+- print:
+  - 獸人少女
+  - 嗚嗚嗚嗚，
+- wait:
+  - 45
+- print:
+  - 獸人少女
+  - 好恐怖呀～！
+- touch: *o0
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_5006005_046
+- face:
+  - 104711
+  - 1
+- print:
+  - 純
+  - ……不行。
+- wait:
+  - 30
+- print:
+  - 純
+  - >2-
+
+    好像有小孩跌倒受傷，
+- wait:
+  - 35
+- print:
+  - 純
+  - 無法動彈的樣子。
+- touch: *o0
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_5006005_047
+- face:
+  - 104711
+  - 1
+- print:
+  - 純
+  - 似乎是他的母親想抱著他逃跑，
+- wait:
+  - 55
+- print:
+  - 純
+  - >2-
+
+    卻被敵人包圍了。
+- touch: *o0
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_5006005_048
+- face:
+  - 104711
+  - 1
+- print:
+  - 純
+  - 放心吧！
+- wait:
+  - 30
+- print:
+  - 純
+  - >2-
+
+    現在立刻去把你救出來！
+- touch: *o0
+- focus:
+  - 413
+- bust:
+  - 413
+  - 1
+- vo:
+  - vo_adv_5006005_049
+- face:
+  - 413
+  - 4
+- print:
+  - 獸人女性
+  - 嗚嗚喔，
+- wait:
+  - 15
+- print:
+  - 獸人女性
+  - 別過來！
+- wait:
+  - 30
+- print:
+  - 獸人女性
+  - >2-
+
+    拜託一定要救這個孩子！
+- touch: *o0
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_5006005_050
+- face:
+  - 104711
+  - 1
+- print:
+  - 純
+  - ……即使叫我不要過去，我還是得過去，
+- wait:
+  - 45
+- print:
+  - 純
+  - 這是我的職責！
+- wait:
+  - 35
+- print:
+  - 純
+  - >2-
+
+    然後，
+- wait:
+  - 23
+- print:
+  - 純
+  - 不只是這個孩子，
+- wait:
+  - 31
+- print:
+  - 純
+  - 我一定也會救妳的！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 714
+  - RC
+  - 1
+- chara_full:
+  - 413
+  - LC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- se:
+  - se_adv_creature_armor_01
+- focus:
+  - 714
+- bust:
+  - 714
+  - 0
+- face:
+  - 714
+  - 1
+- print:
+  - 魔物B
+  - ──咕喔喔喔喔喔！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- change_window:
+  - 2
+- bright_change:
+  - 1
+  - 50
+- vo_effect:
+  - 3
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 104711
+  - C
+  - 1
+- fadein:
+  - 104711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_5006005_051
+- face:
+  - 104711
+  - 1
+- print:
+  - 純
+  - 唔，
+- wait:
+  - 30
+- print:
+  - 純
+  - 來不及！
+- wait:
+  - 30
+- print:
+  - 純
+  - >2-
+
+    用全力飛撲過去，
+- wait:
+  - 20
+- print:
+  - 純
+  - 用這肉身當盾牌！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_heavy_go_01
+- change_window:
+  - 1
+- bright_change:
+  - 1
+  - 100
+- vo_effect:
+  - 0
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 104711
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 714
+  - C
+  - 1
+- fadein:
+  - 714
+  - 30
+- window_visible:
+  - true
+- se:
+  - se_adv_creature_armor_02
+- focus:
+  - 714
+- bust:
+  - 714
+  - 0
+- face:
+  - 714
+  - 1
+- print:
+  - 魔物B
+  - ──咕喔喔喔喔喔！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 3
+  - 1
+- effect:
+  - 0009
+  - se_adv_transition_01
+- scale:
+  - 714
+  - 1.3
+  - 1
+- fadeout:
+  - 714
+  - 30
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect_delete:
+  - 0009
+- effect:
+  - 0028
+  - se_adv_weapon_sword_large_hit_01
+- wait:
+  - 15
+- background:
+  - 500030
+- chara_full:
+  - 413
+  - RC
+  - 4
+- chara_full:
+  - 104713
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- se:
+  - se_adv_weapon_claw_hit_01
+- focus:
+  - 104713
+- shake:
+  - 104713
+- window_visible:
+  - true
+- focus:
+  - 413
+- bust:
+  - 413
+  - 0
+- vo:
+  - vo_adv_5006005_052
+- face:
+  - 413
+  - 4
+- print:
+  - 獸人女性
+  - 噫……？
+- touch: *o0
+- bgm:
+  - bgm_M130
+- focus:
+  - 104713
+- bust:
+  - 104713
+  - 0
+- vo:
+  - vo_adv_5006005_053
+- face:
+  - 104713
+  - 1
+- print:
+  - 純
+  - ……
+- nod:
+  - 104713
+- print:
+  - 純
+  - 太好了，
+- wait:
+  - 30
+- print:
+  - 純
+  - 沒事吧？　
+- wait:
+  - 30
+- print:
+  - 純
+  - 真是千鈞一髮呢？
+- wait:
+  - 50
+- print:
+  - 純
+  - >2-
+
+    雖然你們可能不想被我碰到，
+- wait:
+  - 50
+- print:
+  - 純
+  - >2-
+
+    但我得先把你們抱到安全的地方待著！
+- touch: *o0
+- focus:
+  - 413
+- bust:
+  - 413
+  - 0
+- vo:
+  - vo_adv_5006005_054
+- face:
+  - 413
+  - 6
+- print:
+  - 獸人女性
+  - 你、
+- wait:
+  - 30
+- print:
+  - 獸人女性
+  - 你……
+- wait:
+  - 25
+- print:
+  - 獸人女性
+  - 有血！
+- wait:
+  - 30
+- print:
+  - 獸人女性
+  - >2
+
+- face:
+  - 413
+  - 4
+- print:
+  - 獸人女性
+  - 劍、
+- wait:
+  - 15
+- print:
+  - 獸人女性
+  - 劍
+- wait:
+  - 20
+- print:
+  - 獸人女性
+  - 刺穿了鎧甲……！
+- touch: *o0
+- focus:
+  - 104713
+- bust:
+  - 104713
+  - 0
+- vo:
+  - vo_adv_5006005_055
+- face:
+  - 104713
+  - 2
+- print:
+  - 純
+  - 這只是小傷，
+- wait:
+  - 45
+- print:
+  - 純
+  - 用恢復魔法一下就能治好的。
+- wait:
+  - 55
+- print:
+  - 純
+  - >2-
+
+    比起這種事，
+- wait:
+  - 35
+- print:
+  - 純
+  - 你們沒事就好。
+- touch: *o0
+- focus:
+  - 413
+- bust:
+  - 413
+  - 0
+- vo:
+  - vo_adv_5006005_056
+- face:
+  - 413
+  - 4
+- print:
+  - 獸人女性
+  - …………
+- touch: *o0
+- focus:
+  - 104713
+- bust:
+  - 104713
+  - 0
+- vo:
+  - vo_adv_5006005_057
+- face:
+  - 104713
+  - 6
+- print:
+  - 純
+  - ……
+- emotion:
+  - exclamation1_R
+  - 104713
+  - -5
+  - 690
+  - se_adv_emote_common_01
+- print:
+  - 純
+  - 啊！
+- wait:
+  - 30
+- print:
+  - 純
+  - >2-
+
+    我還想說臉怎麼感受到風，
+- wait:
+  - 45
+- print:
+  - 純
+  - 原來是頭盔不見了！
+- wait:
+  - 30
+- print:
+  - 純
+  - >2-
+
+    因，
+- wait:
+  - 15
+- print:
+  - 純
+  - 因為剛剛的衝擊而脫落了嗎？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 413
+  - 30
+- chara_full:
+  - 415
+  - RC
+  - 4
+- fadein:
+  - 415
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 415
+- bust:
+  - 415
+  - 0
+- vo:
+  - vo_adv_5006005_058
+- face:
+  - 415
+  - 4
+- print:
+  - 獸人少女
+  - 大，
+- wait:
+  - 15
+- print:
+  - 獸人少女
+  - 大哥哥……
+- wait:
+  - 25
+- print:
+  - 獸人少女
+  - >2
+
+- face:
+  - 415
+  - 1
+- print:
+  - 獸人少女
+  - 你說的頭盔，
+- wait:
+  - 20
+- print:
+  - 獸人少女
+  - 是這個嗎？
+- touch: *o0
+- focus:
+  - 104713
+- bust:
+  - 104713
+  - 0
+- vo:
+  - vo_adv_5006005_059
+- face:
+  - 104713
+  - 1
+- print:
+  - 純
+  - 喔，
+- wait:
+  - 25
+- print:
+  - 純
+  - 原來掉在那種地方。
+- wait:
+  - 50
+- print:
+  - 純
+  - >2
+
+- face:
+  - 104713
+  - 2
+- print:
+  - 純
+  - 謝謝你告訴我。
+- wait:
+  - 45
+- print:
+  - 純
+  - >2-
+
+    但是，我不是
+- wait:
+  - 43
+- print:
+  - 純
+  - 『哥哥』，
+- wait:
+  - 15
+- print:
+  - 純
+  - 是『姊姊』喔？
+- touch: *o0
+- bgm:
+  - stop
+  - 1
+- se:
+  - se_adv_creature_armor_01
+- focus:
+  - 714
+- bust:
+  - 714
+  - 1
+- face:
+  - 714
+  - 1
+- print:
+  - 魔物B
+  - ──咕喔喔喔喔喔！
+- touch: *o0
+- bgm:
+  - bgm_M57
+  - 0
+  - 0
+  - 1
+- focus:
+  - 104713
+- bust:
+  - 104713
+  - 0
+- vo:
+  - vo_adv_5006005_060
+- face:
+  - 104713
+  - 1
+- print:
+  - 純
+  - ……唔，
+- wait:
+  - 30
+- print:
+  - 純
+  - 敵人慢慢聚集過來了呢。
+- wait:
+  - 58
+- print:
+  - 純
+  - >2-
+
+    等下再去撿頭盔吧，
+- wait:
+  - 44
+- print:
+  - 純
+  - 現在還是讓他們避難要緊。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 103711
+  - LC
+  - 3
+- chara_full:
+  - 100511
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103711
+- bust:
+  - 103711
+  - 0
+- vo:
+  - vo_adv_5006005_061
+- face:
+  - 103711
+  - 3
+- print:
+  - 智
+  - 純，
+- wait:
+  - 15
+- print:
+  - 智
+  - 我來掩護！
+- wait:
+  - 15
+- print:
+  - 智
+  - >2-
+
+    我會確保退路，
+- wait:
+  - 20
+- print:
+  - 智
+  - 快把那些人帶往安全的地方！
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5006005_062
+- face:
+  - 100511
+  - 1
+- pop:
+  - 100511
+- print:
+  - 茉莉
+  - 總，
+- wait:
+  - 20
+- print:
+  - 茉莉
+  - 總之先藏到這個家裡吧！
+- wait:
+  - 52
+- print:
+  - 茉莉
+  - >2
+
+- face:
+  - 100511
+  - 2
+- print:
+  - 茉莉
+  - 這裡
+- wait:
+  - 16
+- print:
+  - 茉莉
+  - 是自己的家所以請放心吧！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 104713
+  - C
+  - 1
+- fadein:
+  - 104713
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104713
+- bust:
+  - 104713
+  - 0
+- vo:
+  - vo_adv_5006005_063
+- face:
+  - 104713
+  - 1
+- print:
+  - 純
+  - 嗯，
+- wait:
+  - 15
+- print:
+  - 純
+  - 我知道了。
+- wait:
+  - 37
+- print:
+  - 純
+  - >2-
+
+    好……
+- wait:
+  - 25
+- print:
+  - 純
+  - 繼續加油
+- wait:
+  - 30
+- print:
+  - 純
+  - 工作吧。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

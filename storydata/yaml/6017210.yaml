@@ -1,0 +1,245 @@
+- title:
+  - 因為這是攜帶式的
+- outline:
+  - ' '
+- background:
+  - 500351
+- amb:
+  - amb_adv_outdoors_morning_01
+- ui_visible:
+  - false
+- situation:
+  - 因為這是攜帶式的
+- chara_full:
+  - 109711
+  - C
+  - 1
+- fadein:
+  - 109711
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M203
+  - 0
+  - 0
+  - 1
+- focus:
+  - 109711
+- bust:
+  - 109711
+  - 0
+- vo:
+  - vo_adv_6017210_000
+- face:
+  - 109711
+  - 1
+- print:
+  - 雷姆
+  - 您是問我的鐵球嗎？
+- wait:
+  - 40
+- print:
+  - 雷姆
+  - >2
+
+- face:
+  - 109711
+  - 2
+- print:
+  - 雷姆
+  - 是的，
+- wait:
+  - 20
+- print:
+  - 雷姆
+  - 因為是攜帶式的所以攜帶方便。
+- wait:
+  - 50
+- print:
+  - 雷姆
+  - >2
+
+- nod:
+  - 109711
+- print:
+  - 雷姆
+  - 是的……
+- se:
+  - se_adv_rezero_rem_chain_02
+- wait:
+  - 20
+- print:
+  - 雷姆
+  - 就像這樣。
+- touch: &o0 []
+- choice:
+  - 妳是從哪裡拿出來的？
+  - 1
+  - 1
+- choice:
+  - 真的不重嗎？
+  - 2
+  - 2
+- choice:
+  - 感覺被打到很痛……
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 109711
+- bust:
+  - 109711
+  - 0
+- vo:
+  - vo_adv_6017210_001
+- face:
+  - 109711
+  - 6
+- print:
+  - 雷姆
+  - 您問我從哪裡拿出來……
+- wait:
+  - 30
+- print:
+  - 雷姆
+  - 就只是
+- wait:
+  - 5
+- nod:
+  - 109711
+- print:
+  - 雷姆
+  - 像這樣……
+- se:
+  - se_adv_rezero_rem_chain_02
+- wait:
+  - 30
+- print:
+  - 雷姆
+  - >2
+
+- face:
+  - 109711
+  - 1
+- print:
+  - 雷姆
+  - 真的很方便攜帶。
+- wait:
+  - 35
+- print:
+  - 雷姆
+  - >2-
+
+    因為是攜帶式的。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 109711
+- bust:
+  - 109711
+  - 0
+- vo:
+  - vo_adv_6017210_002
+- face:
+  - 109711
+  - 1
+- print:
+  - 雷姆
+  - 沒那回事。
+- wait:
+  - 35
+- print:
+  - 雷姆
+  - >2-
+
+    它比外表看起來還要輕。
+- wait:
+  - 40
+- print:
+  - 雷姆
+  - >2
+
+- face:
+  - 109711
+  - 2
+- print:
+  - 雷姆
+  - 因為是攜帶式的。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 109711
+- bust:
+  - 109711
+  - 0
+- vo:
+  - vo_adv_6017210_003
+- face:
+  - 109711
+  - 1
+- print:
+  - 雷姆
+  - 只是女僕的防身裝備，
+- wait:
+  - 35
+- print:
+  - 雷姆
+  - 沒什麼大不了的喔？
+- wait:
+  - 45
+- print:
+  - 雷姆
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 雷姆
+  - 這和愛蜜莉雅大人的精靈術
+- wait:
+  - 35
+- eye_open:
+  - True
+- print:
+  - 雷姆
+  - 以及羅茲瓦爾大人的魔法不能比。
+- wait:
+  - 50
+- print:
+  - 雷姆
+  - >2
+
+- face:
+  - 109711
+  - 2
+- print:
+  - 雷姆
+  - 因為只是攜帶式的而已。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 109711
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

@@ -1,0 +1,270 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 501060
+- amb:
+  - amb_adv_outdoors_morning_01
+- ui_visible:
+  - false
+- situation:
+  - 關於牛郎
+- chara_full:
+  - 113311
+  - C
+  - 4
+- fadein:
+  - 113311
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M13_02_Strings
+  - 0
+  - 0
+  - 1
+- focus:
+  - 113311
+- bust:
+  - 113311
+  - 0
+- vo:
+  - vo_adv_6044206_000
+- face:
+  - 113311
+  - 4
+- print:
+  - 七七香
+  - 沒想到牛郎會是那種負心漢～
+- wait:
+  - 85
+- print:
+  - 七七香
+  - >2
+
+- face:
+  - 113311
+  - 3
+- print:
+  - 七七香
+  - 再說，
+- wait:
+  - 20
+- print:
+  - 七七香
+  - 明明都有小織女那樣的超級美少女了，
+- wait:
+  - 70
+- print:
+  - 七七香
+  - >2-
+
+    居然還想和其他女孩子打情罵俏，實在是太奢侈了！
+- touch: &o0 []
+- choice:
+  - 奢侈？
+  - 1
+  - 1
+- choice:
+  - 織女好可憐。
+  - 2
+  - 2
+- choice:
+  - 如果是七七香會怎麼辦？
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 113311
+- bust:
+  - 113311
+  - 0
+- vo:
+  - vo_adv_6044206_001
+- face:
+  - 113311
+  - 3
+- pop:
+  - 113311
+- print:
+  - 七七香
+  - 沒有錯！
+- wait:
+  - 35
+- print:
+  - 七七香
+  - 他太貪心了！
+- wait:
+  - 20
+- print:
+  - 七七香
+  - 不要臉！
+- wait:
+  - 35
+- print:
+  - 七七香
+  - >2-
+
+    自古以來，
+- wait:
+  - 30
+- print:
+  - 七七香
+  - 沉溺於慾望都會自毀其身啊。
+- wait:
+  - 70
+- print:
+  - 七七香
+  - >2-
+
+    也就是說，牛郎──！
+- wait:
+  - 50
+- print:
+  - 七七香
+  - 你給我皮繃緊等著瞧──！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 113311
+- bust:
+  - 113311
+  - 0
+- vo:
+  - vo_adv_6044206_002
+- face:
+  - 113311
+  - 4
+- nod:
+  - 113311
+- print:
+  - 七七香
+  - 是啊……
+- wait:
+  - 35
+- print:
+  - 七七香
+  - >2
+
+- face:
+  - 113311
+  - 1
+- print:
+  - 七七香
+  - 也就是說，
+- wait:
+  - 20
+- face:
+  - 113311
+  - 2
+- print:
+  - 七七香
+  - 這時候果然要輪到魔法少女出場了──！
+- wait:
+  - 80
+- print:
+  - 七七香
+  - >2
+
+- face:
+  - 113311
+  - 3
+- print:
+  - 七七香
+  - 看我用有點刺激的魔法
+- wait:
+  - 55
+- print:
+  - 七七香
+  - 來說服牛郎閣下吧──！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 113311
+- bust:
+  - 113311
+  - 0
+- vo:
+  - vo_adv_6044206_003
+- face:
+  - 113311
+  - 6
+- emotion:
+  - question1_R
+  - 113311
+  - 145
+  - 480
+  - se_adv_emote_question_01
+- print:
+  - 七七香
+  - 咦，
+- wait:
+  - 10
+- print:
+  - 七七香
+  - 我會怎麼辦？
+- wait:
+  - 35
+- print:
+  - 七七香
+  - >2
+
+- face:
+  - 113311
+  - 4
+- print:
+  - 七七香
+  - 我想當然會
+- wait:
+  - 30
+- print:
+  - 七七香
+  - 很傷心吧。
+- wait:
+  - 45
+- print:
+  - 七七香
+  - 我還是會希望自己喜歡上的男人，
+- wait:
+  - 35
+- print:
+  - 七七香
+  - >2-
+
+    眼中能夠只有自己啊……
+- wait:
+  - 55
+- face:
+  - 113311
+  - 6
+- print:
+  - 七七香
+  - 啊，你都讓我說些什麼啦！？
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 113311
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

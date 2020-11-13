@@ -1,0 +1,250 @@
+- title:
+  - 蘭德索爾有好多精靈族
+- outline:
+  - ' '
+- background:
+  - 500030
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - false
+- situation:
+  - 蘭德索爾有好多精靈族
+- chara_full:
+  - 109911
+  - C
+  - 6
+- fadein:
+  - 109911
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M33
+  - 0
+  - 0
+  - 1
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_6017108_000
+- face:
+  - 109911
+  - 6
+- print:
+  - 愛蜜莉雅
+  - 除了咲戀小姐和可可蘿以外，
+- wait:
+  - 45
+- print:
+  - 愛蜜莉雅
+  - >2-
+
+    蘭德索爾還有很多精靈族呢。
+- wait:
+  - 60
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 4
+- print:
+  - 愛蜜莉雅
+  - 在露格尼卡，
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 精靈族是不會走在街上的……
+- touch: &o0 []
+- choice:
+  - 妳很開心嗎？
+  - 1
+  - 1
+- choice:
+  - 也有妖精住在森林裡面喔。
+  - 3
+  - 3
+- choice:
+  - 是嗎？
+  - 2
+  - 2
+- tag:
+  - 1
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_6017108_001
+- face:
+  - 109911
+  - 1
+- nod:
+  - 109911
+- print:
+  - 愛蜜莉雅
+  - ……嗯。
+- wait:
+  - 35
+- print:
+  - 愛蜜莉雅
+  - >2-
+
+    真的，
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 蘭德索爾
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 對我而言
+- wait:
+  - 15
+- print:
+  - 愛蜜莉雅
+  - 是一個奇蹟般的國家――
+- wait:
+  - 60
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 2
+- print:
+  - 愛蜜莉雅
+  - 在這裡，
+- wait:
+  - 40
+- print:
+  - 愛蜜莉雅
+  - 能認識你們幾位
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 真的是太好了。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_6017108_002
+- face:
+  - 109911
+  - 6
+- print:
+  - 愛蜜莉雅
+  - 的確
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 和其他種族比起來並不多，
+- wait:
+  - 50
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 不過還蠻常在路上看到？
+- wait:
+  - 60
+- print:
+  - 愛蜜莉雅
+  - >2-
+
+    當然，
+- wait:
+  - 15
+- print:
+  - 愛蜜莉雅
+  - 也有可能是因為我特別在意才這麼覺得。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_6017108_003
+- face:
+  - 109911
+  - 6
+- print:
+  - 愛蜜莉雅
+  - 原來是這樣呀。
+- wait:
+  - 35
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 有機會的話
+- wait:
+  - 15
+- print:
+  - 愛蜜莉雅
+  - 真想去瞧瞧。
+- wait:
+  - 40
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 2
+- nod:
+  - 109911
+- print:
+  - 愛蜜莉雅
+  - 當然，
+- wait:
+  - 20
+- print:
+  - 愛蜜莉雅
+  - 也要找咲戀小姐和可可蘿一起去。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 109911
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

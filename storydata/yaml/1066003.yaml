@@ -1,0 +1,2365 @@
+- title:
+  - 祈梨 第3話
+- outline:
+  - 祈梨為了洗刷辦事不力的污名，出門替公會採買物品，卻不小心把用來採買的錢花在了自己喜歡的東西上。提出要以下剋上的祈梨，最後在{0}的陪同下返回了公會道歉。
+- background:
+  - 500890
+- amb:
+  - amb_adv_wind_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 秘密任務
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 在蘭德索爾的巷弄間閒逛的{0}，
+- wait:
+  - 30
+- print:
+  - 旁白
+  - >2-
+
+    被一個有些熟悉的叫喚聲攔了下來。
+- wait:
+  - 15
+- touch: &o0 []
+- bgm:
+  - bgm_M13_Intro
+  - 0
+  - 0
+  - 1
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_000
+- face:
+  - 106611
+  - 1
+- print:
+  - ？？？
+  - 喂，
+- wait:
+  - 15
+- print:
+  - ？？？
+  - 那邊那個你！
+- wait:
+  - 40
+- print:
+  - ？？？
+  - >2-
+
+    給我把手高舉過頭，
+- wait:
+  - 50
+- print:
+  - ？？？
+  - 慢慢地轉過身來！
+- wait:
+  - 65
+- print:
+  - ？？？
+  - >2-
+
+    要是敢輕舉妄動的話，
+- wait:
+  - 50
+- print:
+  - ？？？
+  - 你知道會有什麼下場吧……？
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
+- window_visible:
+  - false
+- se:
+  - se_adv_cloth_move_normal_01
+- chara_full:
+  - 106611
+  - C
+  - 6
+- fadein:
+  - 106611
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M274
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_001
+- face:
+  - 106611
+  - 6
+- print:
+  - 祈梨
+  - 果然是小哥啊。
+- wait:
+  - 65
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 106611
+  - 1
+- print:
+  - 祈梨
+  - 話說回來，
+- wait:
+  - 20
+- print:
+  - 祈梨
+  - 小哥在這裡做什麼？
+- touch: *o0
+- choice:
+  - 我在散步。
+  - 1
+- choice:
+  - 我迷路了。
+  - 2
+- tag:
+  - 1
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_002
+- face:
+  - 106611
+  - 6
+- pop:
+  - 106611
+- print:
+  - 祈梨
+  - '散步？ '
+- wait:
+  - 35
+- print:
+  - 祈梨
+  - 小哥還真是毫無危機意識耶……
+- wait:
+  - 50
+- print:
+  - 祈梨
+  - >2-
+
+    這裡可是幫派的地盤喔？
+- wait:
+  - 45
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 106611
+  - 1
+- print:
+  - 祈梨
+  - 幸好發現你的人是我呢。
+- touch: *o0
+- goto:
+  - 3
+- tag:
+  - 2
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_003
+- face:
+  - 106611
+  - 3
+- nod:
+  - 106611
+- print:
+  - 祈梨
+  - 唉……
+- wait:
+  - 35
+- print:
+  - 祈梨
+  - 小哥你到底有多傻啊？
+- wait:
+  - 60
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 106611
+  - 1
+- print:
+  - 祈梨
+  - 不過正好，
+- wait:
+  - 40
+- print:
+  - 祈梨
+  - >2-
+
+    我要去外面辦點事，
+- wait:
+  - 30
+- print:
+  - 祈梨
+  - 就順便帶你出去吧。
+- touch: *o0
+- tag:
+  - 3
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_004
+- face:
+  - 106611
+  - 6
+- print:
+  - 祈梨
+  - 那我在做什麼？
+- wait:
+  - 50
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 106611
+  - 2
+- print:
+  - 祈梨
+  - 我的話……
+- wait:
+  - 60
+- print:
+  - 祈梨
+  - '哼哼哼！ '
+- wait:
+  - 50
+- print:
+  - 祈梨
+  - 不瞞你說，
+- wait:
+  - 55
+- print:
+  - 祈梨
+  - 是在執行機密任務喔！
+- touch: *o0
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_005
+- face:
+  - 106611
+  - 6
+- emotion:
+  - question1_R
+  - 106611
+  - 110
+  - 465
+  - se_adv_emote_question_01
+- print:
+  - 祈梨
+  - '欸？ '
+- wait:
+  - 20
+- print:
+  - 祈梨
+  - 之前那筆生意後來怎麼樣了？
+- wait:
+  - 55
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 106611
+  - 1
+- print:
+  - 祈梨
+  - 結果最後，
+- wait:
+  - 50
+- eye_open:
+  - False
+- print:
+  - 祈梨
+  - 「島上出現了高人氣的攤販
+- wait:
+  - 70
+- print:
+  - 祈梨
+  - 這樣一來
+- wait:
+  - 10
+- print:
+  - 祈梨
+  - >2-
+
+    不是也能夠
+- wait:
+  - 25
+- print:
+  - 祈梨
+  - 大賺一筆嘛～」
+- wait:
+  - 50
+- eye_open:
+  - True
+- print:
+  - 祈梨
+  - 老大這麼說了。
+- touch: *o0
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_006
+- face:
+  - 106611
+  - 2
+- nod:
+  - 106611
+- print:
+  - 祈梨
+  - 也就是說，
+- wait:
+  - 30
+- print:
+  - 祈梨
+  - 這都是我的功勞！
+- wait:
+  - 55
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 106611
+  - 1
+- print:
+  - 祈梨
+  - 然後呢，
+- wait:
+  - 20
+- print:
+  - 祈梨
+  - 這次是公會那邊……
+- wait:
+  - 40
+- print:
+  - 祈梨
+  - 也就是【龍族巢穴】的任務，
+- wait:
+  - 45
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 106611
+  - 2
+- print:
+  - 祈梨
+  - '很驚人喔！ '
+- wait:
+  - 30
+- print:
+  - 祈梨
+  - 竟然是要把從某個遺跡出土的物品帶回去。
+- touch: *o0
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_007
+- face:
+  - 106611
+  - 1
+- print:
+  - 祈梨
+  - 雖然，
+- wait:
+  - 25
+- print:
+  - 祈梨
+  - 我只是要去商店裡取貨而已啦……
+- wait:
+  - 70
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 106611
+  - 2
+- print:
+  - 祈梨
+  - 不過這可是關乎公會重要預算的大任務！
+- wait:
+  - 75
+- print:
+  - 祈梨
+  - >2-
+
+    是只有我這種幹部才能勝任的。
+- touch: *o0
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_008
+- face:
+  - 106611
+  - 6
+- emotion:
+  - notice1_L
+  - 106611
+  - -80
+  - 480
+  - se_adv_emote_common_01
+- print:
+  - 祈梨
+  - '嗯？ '
+- wait:
+  - 35
+- print:
+  - 祈梨
+  - '怎麼了？ '
+- wait:
+  - 30
+- print:
+  - 祈梨
+  - 小哥有興趣嗎？
+- wait:
+  - 55
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 106611
+  - 2
+- print:
+  - 祈梨
+  - ……一般來說，
+- wait:
+  - 30
+- print:
+  - 祈梨
+  - 這種任務是不允許外行人參與的喔～？
+- wait:
+  - 80
+- print:
+  - 祈梨
+  - >2
+
+- bgm:
+  - stop
+  - 6.5
+- print:
+  - 祈梨
+  - 但如果小哥無論如何
+- wait:
+  - 35
+- print:
+  - 祈梨
+  - 都想跟著來的話，
+- wait:
+  - 30
+- print:
+  - 祈梨
+  - 我也不是不能考慮一下啦。
+- touch: *o0
+- bgm:
+  - bgm_M51
+  - 0
+  - 0
+  - 1
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_009
+- face:
+  - 106611
+  - 6
+- nod:
+  - 106611
+- print:
+  - 祈梨
+  - 才不是因為
+- wait:
+  - 15
+- print:
+  - 祈梨
+  - 我自己一個人會感到不安喔。
+- wait:
+  - 40
+- print:
+  - 祈梨
+  - "\n絕對不是這樣喔？ "
+- wait:
+  - 35
+- face:
+  - 106611
+  - 3
+- print:
+  - 祈梨
+  - 這點希望小哥能理解。
+- touch: *o0
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_010
+- face:
+  - 106611
+  - 1
+- print:
+  - 祈梨
+  - 總覺得小哥一直都在小看我……
+- wait:
+  - 65
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 106611
+  - 2
+- print:
+  - 祈梨
+  - 所以這次我
+- wait:
+  - 45
+- print:
+  - 祈梨
+  - 非得展現出我能幹的一面不可！
+- touch: *o0
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_011
+- face:
+  - 106611
+  - 2
+- nod:
+  - 106611
+- print:
+  - 祈梨
+  - 總之，
+- wait:
+  - 15
+- print:
+  - 祈梨
+  - 小哥想要一起去對吧！
+- wait:
+  - 55
+- print:
+  - 祈梨
+  - >2-
+
+    哼哼哼，
+- wait:
+  - 25
+- print:
+  - 祈梨
+  - '真拿你沒轍！ '
+- wait:
+  - 25
+- print:
+  - 祈梨
+  - 那你就跟我來吧！
+- wait:
+  - 45
+- print:
+  - 祈梨
+  - >2-
+
+    準備突擊囉～！
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- window_visible:
+  - false
+- fadeout:
+  - 106611
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500030
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_town_day_01
+- chara_full:
+  - 106611
+  - C
+  - 6
+- fadein:
+  - 106611
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M12
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_012
+- face:
+  - 106611
+  - 6
+- print:
+  - 祈梨
+  - 我記得那間店是在這附近……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106611
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 101311
+  - RC
+  - 2
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - RC
+  - 45
+- fadein:
+  - 101311
+  - 45
+- emotion:
+  - note1_L
+  - 101311
+  - -95
+  - 505
+  - se_adv_emote_note_01
+- wait:
+  - 40
+- emotion_end:
+  - 101311
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - LC
+  - C
+  - 30
+- fadeout:
+  - 101311
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 106611
+  - C
+  - 6
+- fadein:
+  - 106611
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_013
+- face:
+  - 106611
+  - 6
+- emotion:
+  - question1_R
+  - 106611
+  - 110
+  - 465
+  - se_adv_emote_question_01
+- print:
+  - 祈梨
+  - '嗯？ '
+- wait:
+  - 30
+- print:
+  - 祈梨
+  - '剛才那是誰啊？ '
+- wait:
+  - 40
+- print:
+  - 祈梨
+  - 還真是樂在其中耶……
+- touch: *o0
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_014
+- face:
+  - 106611
+  - 2
+- print:
+  - 祈梨
+  - 算了，不重要。
+- wait:
+  - 30
+- print:
+  - 祈梨
+  - 現在應該專注在任務上。
+- wait:
+  - 65
+- print:
+  - 祈梨
+  - >2
+
+- nod:
+  - 106611
+- print:
+  - 祈梨
+  - '店長～！ '
+- wait:
+  - 25
+- print:
+  - 祈梨
+  - 你在嗎～？
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 106611
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 106611
+  - L
+  - 2
+- chara_full:
+  - 511
+  - RC
+  - 1
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 511
+- bust:
+  - 511
+  - 0
+- vo:
+  - vo_adv_1066003_015
+- face:
+  - 511
+  - 1
+- print:
+  - 雜貨店
+  - 我在這裡，
+- wait:
+  - 15
+- print:
+  - 雜貨店
+  - 有什麼事嗎？
+- touch: *o0
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_016
+- face:
+  - 106611
+  - 2
+- nod:
+  - 106611
+- print:
+  - 祈梨
+  - 這裡是【龍族巢穴】。
+- wait:
+  - 35
+- face:
+  - 106611
+  - 1
+- print:
+  - 祈梨
+  - 我們來領取
+- wait:
+  - 25
+- print:
+  - 祈梨
+  - 說好的那樣物品了。
+- touch: *o0
+- bgm:
+  - stop
+  - 9.5
+- focus:
+  - 511
+- bust:
+  - 511
+  - 0
+- vo:
+  - vo_adv_1066003_017
+- face:
+  - 511
+  - 6
+- print:
+  - 雜貨店
+  - '啊啊！ '
+- wait:
+  - 30
+- face:
+  - 511
+  - 4
+- print:
+  - 雜貨店
+  - 啊……
+- wait:
+  - 30
+- print:
+  - 雜貨店
+  - 關於這個啊，
+- wait:
+  - 50
+- print:
+  - 雜貨店
+  - >2-
+
+    那物品
+- wait:
+  - 35
+- print:
+  - 雜貨店
+  - 已經被剛剛的客人……
+- touch: *o0
+- bgm:
+  - bgm_M244
+  - 0
+  - 0
+  - 1
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_018
+- face:
+  - 106611
+  - 6
+- emotion:
+  - surprise1_L
+  - 106611
+  - 155
+  - 500
+  - se_adv_emote_common_01
+- print:
+  - 祈梨
+  - '啥～！？ '
+- wait:
+  - 15
+- print:
+  - 祈梨
+  - 你怎麼可以這樣！
+- wait:
+  - 45
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 106611
+  - 3
+- print:
+  - 祈梨
+  - 我們可是掌管這一帶的【龍族巢穴】耶！？
+- wait:
+  - 50
+- print:
+  - 祈梨
+  - >2-
+
+    你竟然不把提前打過招呼的我們放在眼裡，
+- wait:
+  - 50
+- print:
+  - 祈梨
+  - 還真是大膽！
+- touch: *o0
+- focus:
+  - 511
+- bust:
+  - 511
+  - 0
+- vo:
+  - vo_adv_1066003_019
+- face:
+  - 511
+  - 4
+- print:
+  - 雜貨店
+  - 這個嘛，
+- wait:
+  - 10
+- print:
+  - 雜貨店
+  - 按先後順序來說或許是這樣沒錯……
+- wait:
+  - 50
+- print:
+  - 雜貨店
+  - >2
+
+- face:
+  - 511
+  - 2
+- print:
+  - 雜貨店
+  - 但剛才那位客人可是願意出
+- wait:
+  - 35
+- print:
+  - 雜貨店
+  - 比你們多一倍的價格啊，
+- wait:
+  - 50
+- print:
+  - 雜貨店
+  - 嘿嘿嘿。
+- touch: *o0
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_020
+- face:
+  - 106611
+  - 3
+- pop:
+  - 106611
+- print:
+  - 祈梨
+  - 你作為生意人該有的誠信呢！
+- wait:
+  - 55
+- print:
+  - 祈梨
+  - >2-
+
+    你知不知道你能在這裡悠哉地做生意
+- wait:
+  - 50
+- print:
+  - 祈梨
+  - 都是多虧了誰啊！？
+- touch: *o0
+- focus:
+  - 511
+- bust:
+  - 511
+  - 0
+- vo:
+  - vo_adv_1066003_021
+- face:
+  - 511
+  - 4
+- print:
+  - 雜貨店
+  - 話是這麼說沒錯啦，
+- wait:
+  - 50
+- print:
+  - 雜貨店
+  - 不過這附近可沒有任何一家道具店
+- wait:
+  - 55
+- print:
+  - 雜貨店
+  - >2-
+
+    敢得罪收藏家啊……
+- touch: *o0
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_022
+- face:
+  - 106611
+  - 3
+- emotion:
+  - anger1_R
+  - 106611
+  - -105
+  - 460
+  - se_adv_emote_anger_01
+- print:
+  - 祈梨
+  - 可惡～
+- wait:
+  - 30
+- print:
+  - 祈梨
+  - 既然如此我就去把那個買家教訓一頓……
+- touch: *o0
+- focus:
+  - 511
+- bust:
+  - 511
+  - 0
+- vo:
+  - vo_adv_1066003_023
+- face:
+  - 511
+  - 3
+- print:
+  - 雜貨店
+  - ……我不會害妳的，
+- wait:
+  - 30
+- print:
+  - 雜貨店
+  - 妳還是死了這條心吧……
+- wait:
+  - 45
+- print:
+  - 雜貨店
+  - >2
+
+- face:
+  - 511
+  - 1
+- print:
+  - 雜貨店
+  - 其他東西的話倒是可以便宜賣妳，
+- wait:
+  - 45
+- print:
+  - 雜貨店
+  - >2-
+
+    所以能不能不再計較這件事？
+- touch: *o0
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_024
+- face:
+  - 106611
+  - 3
+- print:
+  - 祈梨
+  - 就算你說其他東西，
+- wait:
+  - 30
+- print:
+  - 祈梨
+  - 我們在找的可是很特別的……
+- wait:
+  - 75
+- print:
+  - 祈梨
+  - >2
+
+- emotion:
+  - notice1_L
+  - 106611
+  - -80
+  - 480
+  - se_adv_emote_common_01
+- face:
+  - 106611
+  - 6
+- print:
+  - 祈梨
+  - '嗯？ '
+- wait:
+  - 40
+- print:
+  - 祈梨
+  - 等一下。
+- touch: *o0
+- bgm:
+  - stop
+  - 5.5
+  - 1
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_025
+- face:
+  - 106611
+  - 6
+- print:
+  - 祈梨
+  - 那個東西……
+- wait:
+  - 55
+- print:
+  - 祈梨
+  - >2-
+
+    該、
+- wait:
+  - 40
+- print:
+  - 祈梨
+  - 該不會是……
+- touch: *o0
+- bgm:
+  - bgm_M288
+- focus:
+  - 511
+- bust:
+  - 511
+  - 0
+- vo:
+  - vo_adv_1066003_026
+- face:
+  - 511
+  - 2
+- print:
+  - 雜貨店
+  - 嘿嘿嘿，
+- wait:
+  - 45
+- print:
+  - 雜貨店
+  - 客人您真有眼光。
+- wait:
+  - 65
+- print:
+  - 雜貨店
+  - 那可是舊物喔？
+- touch: *o0
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_027
+- face:
+  - 106611
+  - 6
+- print:
+  - 祈梨
+  - 這，
+- wait:
+  - 15
+- pop:
+  - 106611
+- print:
+  - 祈梨
+  - 這個非買不可！！
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500032
+- wait:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_wind_01
+- chara_full:
+  - 106611
+  - C
+  - 2
+- fadein:
+  - 106611
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_028
+- face:
+  - 106611
+  - 2
+- nod:
+  - 106611
+- print:
+  - 祈梨
+  - 嘿嘿……
+- wait:
+  - 40
+- print:
+  - 祈梨
+  - 太好了……
+- touch: *o0
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_029
+- face:
+  - 106611
+  - 4
+- print:
+  - 祈梨
+  - 我……
+- wait:
+  - 55
+- print:
+  - 祈梨
+  - 搞砸了……
+- touch: *o0
+- text_size:
+  - 40
+- bgm:
+  - bgm_M13_03_NoIntro
+  - 0
+  - 0
+  - 1
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_030
+- face:
+  - 106611
+  - 7
+- pop:
+  - 106611
+- effect:
+  - 9
+- print:
+  - 祈梨
+  - 我搞砸了啊啊啊啊～！
+- touch: *o0
+- text_size:
+  - 23
+- bright_change:
+  - 1
+  - 50
+- effect:
+  - 0047
+  - se_adv_emote_gloomy_01
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_031
+- face:
+  - 106611
+  - 4
+- eye_open:
+  - False
+- print:
+  - 祈梨
+  - 嗚嗚，
+- wait:
+  - 60
+- print:
+  - 祈梨
+  - 為什麼那種店裡……
+- wait:
+  - 45
+- print:
+  - 祈梨
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 祈梨
+  - 會賣慈樂之音全國巡演的當地周邊商品組啦～！
+- wait:
+  - 120
+- print:
+  - 祈梨
+  - >2-
+
+    看到了那種東西我怎麼可能不心動嘛～！！
+- touch: *o0
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_032
+- face:
+  - 106611
+  - 3
+- nod:
+  - 106611
+- print:
+  - 祈梨
+  - 這全部都是那個店長的錯！
+- wait:
+  - 60
+- face:
+  - 106611
+  - 4
+- print:
+  - 祈梨
+  - 他為什麼就這麼剛好地
+- wait:
+  - 20
+- print:
+  - 祈梨
+  - >2-
+
+    擺出了完全正中我喜好的商品啦！
+- wait:
+  - 65
+- print:
+  - 祈梨
+  - 那個我找了很久的遊戲也是、
+- wait:
+  - 30
+- print:
+  - 祈梨
+  - "\n那本之前沒買到的雜誌也是！ "
+- wait:
+  - 55
+- eye_open:
+  - False
+- print:
+  - 祈梨
+  - 為什麼，
+- wait:
+  - 35
+- print:
+  - 祈梨
+  - 到底為什麼……
+- touch: *o0
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_033
+- face:
+  - 106611
+  - 4
+- print:
+  - 祈梨
+  - 嗚嗚……
+- wait:
+  - 50
+- eye_open:
+  - True
+- print:
+  - 祈梨
+  - 害我一時鬼迷心竅對公會的預算動了手……
+- wait:
+  - 90
+- print:
+  - 祈梨
+  - >2-
+
+    這下子，
+- wait:
+  - 55
+- print:
+  - 祈梨
+  - 我絕對會被當成肅清對象收拾掉啦……
+- touch: *o0
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_034
+- face:
+  - 106611
+  - 4
+- print:
+  - 祈梨
+  - 錯的是那個店長，
+- wait:
+  - 50
+- print:
+  - 祈梨
+  - 還有
+- wait:
+  - 20
+- print:
+  - 祈梨
+  - 那個早我們一步買走物品的奇怪女人……
+- wait:
+  - 70
+- print:
+  - 祈梨
+  - >2
+
+- pop:
+  - 106611
+- face:
+  - 106611
+  - 7
+- print:
+  - 祈梨
+  - 還有還有
+- wait:
+  - 20
+- print:
+  - 祈梨
+  - 明明在旁邊看著卻不阻止我的小哥～！！
+- wait:
+  - 95
+- print:
+  - 祈梨
+  - >2-
+
+    嗚哇哇哇～～！
+- touch: *o0
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_035
+- face:
+  - 106611
+  - 4
+- eye_open:
+  - False
+- print:
+  - 祈梨
+  - 乾脆就這樣離家出走算了～！
+- wait:
+  - 100
+- print:
+  - 祈梨
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 祈梨
+  - 不過那樣的話，
+- wait:
+  - 50
+- print:
+  - 祈梨
+  - 我今晚就要餓著肚子露宿街頭了……
+- wait:
+  - 80
+- print:
+  - 祈梨
+  - 嗚嗚……
+- touch: *o0
+- bright_change:
+  - 1
+  - 100
+- effect_delete:
+  - 0047
+  - 15
+- bgm:
+  - stop
+  - 7
+  - 1
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_036
+- face:
+  - 106611
+  - 6
+- emotion:
+  - notice2_L
+  - 106611
+  - -130
+  - 460
+  - se_adv_emote_nortice_01
+- print:
+  - 祈梨
+  - 啊……
+- wait:
+  - 35
+- print:
+  - 祈梨
+  - 不對，
+- wait:
+  - 35
+- print:
+  - 祈梨
+  - 還有另外一個辦法……
+- wait:
+  - 75
+- print:
+  - 祈梨
+  - >2
+
+- bgm:
+  - bgm_M11_Ver2
+- print:
+  - 祈梨
+  - 只要我把老大幹掉……
+- wait:
+  - 75
+- print:
+  - 祈梨
+  - 公會就會落入我手中……
+- wait:
+  - 60
+- print:
+  - 祈梨
+  - >2-
+
+    那樣的話，
+- wait:
+  - 30
+- print:
+  - 祈梨
+  - 預算也就全部都是我的了！
+- touch: *o0
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_037
+- face:
+  - 106611
+  - 3
+- print:
+  - 祈梨
+  - 現、
+- wait:
+  - 25
+- print:
+  - 祈梨
+  - 現在正是
+- wait:
+  - 35
+- print:
+  - 祈梨
+  - 以下剋上的最佳時機……
+- wait:
+  - 60
+- print:
+  - 祈梨
+  - 我、
+- wait:
+  - 45
+- print:
+  - 祈梨
+  - 我要做給你看！！
+- touch: *o0
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_038
+- face:
+  - 106611
+  - 7
+- pop:
+  - 106611
+- print:
+  - 祈梨
+  - 啊，
+- wait:
+  - 20
+- print:
+  - 祈梨
+  - 這根本不～可～能～嘛～
+- touch: *o0
+- choice:
+  - 妳冷靜下來了？
+  - 4
+- choice:
+  - 沒事吧？
+  - 5
+- tag:
+  - 4
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_039
+- face:
+  - 106611
+  - 4
+- print:
+  - 祈梨
+  - 嗚嗚……
+- wait:
+  - 100
+- print:
+  - 祈梨
+  - 稍微有冷靜一點點了……
+- wait:
+  - 140
+- print:
+  - 祈梨
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 祈梨
+  - 冷靜下來認真思考得出的結論……
+- wait:
+  - 75
+- print:
+  - 祈梨
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 祈梨
+  - 我果然不可能贏過老大啦～
+- touch: *o0
+- goto:
+  - 6
+- tag:
+  - 5
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_040
+- face:
+  - 106611
+  - 4
+- print:
+  - 祈梨
+  - 才不可能沒事，
+- wait:
+  - 55
+- eye_open:
+  - False
+- print:
+  - 祈梨
+  - 嗚嗚嗚……
+- wait:
+  - 45
+- eye_open:
+  - True
+- print:
+  - 祈梨
+  - 不過，
+- wait:
+  - 25
+- print:
+  - 祈梨
+  - 我想起一件事了……
+- wait:
+  - 60
+- print:
+  - 祈梨
+  - >2-
+
+    嘉夜夜
+- wait:
+  - 50
+- print:
+  - 祈梨
+  - 對我說過「妳只有在花錢的時候才像個幫派份子啊」。
+- wait:
+  - 95
+- print:
+  - 祈梨
+  - >2-
+
+    呵呵……
+- wait:
+  - 35
+- print:
+  - 祈梨
+  - 也就是說，這就是
+- wait:
+  - 40
+- print:
+  - 祈梨
+  - 我作為幫派份子的生活方式……
+- touch: *o0
+- tag:
+  - 6
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_041
+- face:
+  - 106611
+  - 7
+- pop:
+  - 106611
+- print:
+  - 祈梨
+  - '完蛋了啦～！ '
+- wait:
+  - 60
+- print:
+  - 祈梨
+  - 我只剩死路一條了……
+- wait:
+  - 65
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 106611
+  - 4
+- print:
+  - 祈梨
+  - 呵呵，
+- wait:
+  - 45
+- print:
+  - 祈梨
+  - 這麼說來我的人生還真是短暫呢……
+- touch: *o0
+- choice:
+  - 掏出自己的錢。
+  - 7
+- tag:
+  - 7
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_042
+- face:
+  - 106611
+  - 4
+- print:
+  - 祈梨
+  - 不用了啦，
+- wait:
+  - 10
+- print:
+  - 祈梨
+  - 小哥……
+- wait:
+  - 30
+- print:
+  - 祈梨
+  - 我都知道……
+- wait:
+  - 45
+- print:
+  - 祈梨
+  - >2-
+
+    反正你身上的錢也不多吧？
+- touch: *o0
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_043
+- face:
+  - 106611
+  - 6
+- print:
+  - 祈梨
+  - 你說
+- wait:
+  - 20
+- print:
+  - 祈梨
+  - 你最近有開始打工？
+- wait:
+  - 65
+- print:
+  - 祈梨
+  - "\n咦……？ "
+- wait:
+  - 35
+- print:
+  - 祈梨
+  - 該不會……
+- wait:
+  - 35
+- print:
+  - 祈梨
+  - 我
+- wait:
+  - 15
+- print:
+  - 祈梨
+  - '有救了？ '
+- wait:
+  - 45
+- face:
+  - 106611
+  - 2
+- pop:
+  - 106611
+- print:
+  - 祈梨
+  - 太好了──！！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_money_give_01
+- nod:
+  - 106611
+- wait:
+  - 15
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 4.5
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_044
+- face:
+  - 106611
+  - 4
+- print:
+  - 祈梨
+  - 小哥果然還是沒什麼錢嘛──！！
+- touch: *o0
+- bgm:
+  - bgm_M123
+  - 0
+  - 0
+  - 1
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_045
+- face:
+  - 106611
+  - 4
+- eye_open:
+  - False
+- print:
+  - 祈梨
+  - 呵呵，
+- wait:
+  - 55
+- eye_open:
+  - True
+- print:
+  - 祈梨
+  - 小哥，
+- wait:
+  - 40
+- print:
+  - 祈梨
+  - 這是你最後一次見到我了。
+- wait:
+  - 55
+- print:
+  - 祈梨
+  - 謝謝你平時對我的照顧……
+- wait:
+  - 45
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 106611
+  - 1
+- print:
+  - 祈梨
+  - 不對，
+- wait:
+  - 20
+- print:
+  - 祈梨
+  - 我果然沒有什麼你照顧過我的印象……
+- wait:
+  - 70
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 106611
+  - 4
+- print:
+  - 祈梨
+  - ……算了，都無所謂了。
+- wait:
+  - 45
+- print:
+  - 祈梨
+  - 呵呵……
+- wait:
+  - 45
+- print:
+  - 祈梨
+  - 永別了……
+- touch: *o0
+- choice:
+  - 替她頂罪。
+  - 8
+- choice:
+  - 一起去道歉。
+  - 9
+- tag:
+  - 8
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_046
+- face:
+  - 106611
+  - 6
+- print:
+  - 祈梨
+  - 這怎麼行……
+- wait:
+  - 30
+- print:
+  - 祈梨
+  - 我沒辦法出賣小哥啦……
+- wait:
+  - 60
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 106611
+  - 4
+- print:
+  - 祈梨
+  - 要是你當時有阻止我的話就能平安無事、
+- wait:
+  - 40
+- print:
+  - 祈梨
+  - 要是你當時有借我錢的話就能逃過一劫
+- wait:
+  - 25
+- print:
+  - 祈梨
+  - >2-
+
+    就算有這種可能……
+- wait:
+  - 45
+- nod:
+  - 106611
+- print:
+  - 祈梨
+  - 就算有這種可能我也不能出賣你！
+- touch: *o0
+- goto:
+  - 10
+- tag:
+  - 9
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_047
+- face:
+  - 106611
+  - 6
+- print:
+  - 祈梨
+  - 那樣的話，
+- wait:
+  - 25
+- print:
+  - 祈梨
+  - 小哥你的下場也會很淒慘喔！
+- wait:
+  - 55
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 106611
+  - 4
+- print:
+  - 祈梨
+  - 老大的懲罰
+- wait:
+  - 40
+- print:
+  - 祈梨
+  - 可完全不是說笑的……！
+- wait:
+  - 75
+- print:
+  - 祈梨
+  - >2
+
+- nod:
+  - 106611
+- print:
+  - 祈梨
+  - ……唉，
+- wait:
+  - 35
+- print:
+  - 祈梨
+  - 小哥……
+- wait:
+  - 45
+- print:
+  - 祈梨
+  - 你真的太沒有危機意識了……
+- touch: *o0
+- tag:
+  - 10
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_048
+- face:
+  - 106611
+  - 1
+- print:
+  - 祈梨
+  - 不過，
+- wait:
+  - 30
+- print:
+  - 祈梨
+  - 說的也是，
+- wait:
+  - 50
+- print:
+  - 祈梨
+  - 一味逃避也解決不了問題。
+- wait:
+  - 70
+- print:
+  - 祈梨
+  - >2-
+
+    小哥都說到這個份上了，我怎麼可以逃跑……
+- wait:
+  - 100
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 106611
+  - 4
+- print:
+  - 祈梨
+  - ……我就乖乖地
+- wait:
+  - 55
+- print:
+  - 祈梨
+  - 回去自首吧。
+- touch: *o0
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_049
+- face:
+  - 106611
+  - 3
+- nod:
+  - 106611
+- print:
+  - 祈梨
+  - 沒問題的。
+- wait:
+  - 45
+- print:
+  - 祈梨
+  - 我已經習慣挨罵了！
+- wait:
+  - 65
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 106611
+  - 4
+- print:
+  - 祈梨
+  - 完完完、
+- wait:
+  - 40
+- print:
+  - 祈梨
+  - 完全不會害怕喔？
+- touch: *o0
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_050
+- face:
+  - 106611
+  - 3
+- print:
+  - 祈梨
+  - 所以，
+- wait:
+  - 60
+- print:
+  - 祈梨
+  - 小哥就只要好好地看著
+- wait:
+  - 45
+- print:
+  - 祈梨
+  - 我的生活之道就行了！
+- wait:
+  - 70
+- print:
+  - 祈梨
+  - >2-
+
+    ……不可以移開視線喔！
+- touch: *o0
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_1066003_051
+- face:
+  - 106611
+  - 4
+- print:
+  - 祈梨
+  - 嗚嗚……
+- shake:
+  - 106611
+- wait:
+  - 40
+- print:
+  - 祈梨
+  - 但果然還是好可怕……
+- wait:
+  - 115
+- print:
+  - 祈梨
+  - >2-
+
+    這次就特別
+- wait:
+  - 35
+- print:
+  - 祈梨
+  - 允許小哥牽著我的手。
+- wait:
+  - 70
+- print:
+  - 祈梨
+  - 只有這次喔？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106611
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 祈梨就這樣被拉著手，回到了【龍族巢穴】的公會小屋。
+- wait:
+  - 30
+- print:
+  - 旁白
+  - >2-
+
+    而等待著她的是，跪坐著寫五個小時的悔過書、沒收兩個月的零用錢等等
+- wait:
+  - 30
+- print:
+  - 旁白
+  - >2-
+
+    殘酷的命運……
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

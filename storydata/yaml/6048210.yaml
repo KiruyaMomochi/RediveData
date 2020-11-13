@@ -1,0 +1,232 @@
+- title:
+  - ラフィを見送って
+- outline:
+  - ' '
+- background:
+  - 500011
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - ラフィを見送って
+- chara_full:
+  - 113711
+  - C
+  - 6
+- fadein:
+  - 113711
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M405
+  - 0
+  - 0
+  - 1
+- focus:
+  - 113711
+- bust:
+  - 113711
+  - 0
+- vo:
+  - vo_adv_6048210_000
+- face:
+  - 113711
+  - 6
+- print:
+  - 茜里
+  - ラフィちゃん、
+- wait:
+  - 15
+- print:
+  - 茜里
+  - 帰っちゃったね。
+- wait:
+  - 45
+- print:
+  - 茜里
+  - >2
+
+- face:
+  - 113711
+  - 4
+- print:
+  - 茜里
+  - 賑やかな子だったから、
+- wait:
+  - 45
+- print:
+  - 茜里
+  - ちょっと寂しいかも。
+- touch: &o0 []
+- choice:
+  - 今度はアカリがエンジェルだよ。
+  - 1
+  - 1
+- choice:
+  - きっとまた会えるよ。
+  - 2
+  - 2
+- choice:
+  - 今度こそ願いをかなえてくれるかも。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 113711
+- bust:
+  - 113711
+  - 0
+- vo:
+  - vo_adv_6048210_001
+- face:
+  - 113711
+  - 1
+- print:
+  - 茜里
+  - エンジェルの姿にしてもらっちゃったもんね。
+- wait:
+  - 55
+- print:
+  - 茜里
+  - >2
+
+- face:
+  - 113711
+  - 2
+- print:
+  - 茜里
+  - よーし、
+- wait:
+  - 30
+- print:
+  - 茜里
+  - いっぱいエンジェルのお仕事頑張って、
+- wait:
+  - 45
+- print:
+  - 茜里
+  - >2-
+
+    ラフィちゃんをびっくりさせちゃおうね♪
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 113711
+- bust:
+  - 113711
+  - 0
+- vo:
+  - vo_adv_6048210_002
+- face:
+  - 113711
+  - 1
+- nod:
+  - 113711
+- print:
+  - 茜里
+  - そうだよね！　
+- wait:
+  - 30
+- print:
+  - 茜里
+  - 今度会ったときは
+- wait:
+  - 20
+- print:
+  - 茜里
+  - ランドソルをいっぱい案内して、
+- wait:
+  - 30
+- print:
+  - 茜里
+  - >2
+
+- face:
+  - 113711
+  - 2
+- print:
+  - 茜里
+  - ギルドのみんなにも紹介してあげよっと！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 113711
+- bust:
+  - 113711
+  - 0
+- vo:
+  - vo_adv_6048210_003
+- face:
+  - 113711
+  - 2
+- print:
+  - 茜里
+  - うん、
+- wait:
+  - 20
+- print:
+  - 茜里
+  - ラフィちゃんならきっとできるよね。
+- wait:
+  - 50
+- print:
+  - 茜里
+  - >2
+
+- face:
+  - 113711
+  - 1
+- print:
+  - 茜里
+  - でも、
+- wait:
+  - 25
+- print:
+  - 茜里
+  - 願い事はちゃんと自分でかなえるよ。
+- wait:
+  - 60
+- print:
+  - 茜里
+  - >2
+
+- face:
+  - 113711
+  - 2
+- print:
+  - 茜里
+  - だって
+- wait:
+  - 30
+- print:
+  - 茜里
+  - アカリもエンジェルだもんね♪
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - FALSE
+- fadeout:
+  - 113711
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

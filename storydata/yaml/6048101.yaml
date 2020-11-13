@@ -1,0 +1,297 @@
+- title:
+  - 關於菈菲
+- outline:
+  - ' '
+- background:
+  - 500010
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 關於菈菲
+- chara_full:
+  - 113811
+  - C
+  - 6
+- fadein:
+  - 113811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M407
+  - 0
+  - 0
+  - 1
+- focus:
+  - 113811
+- bust:
+  - 113811
+  - 0
+- vo:
+  - vo_adv_6048101_000
+- face:
+  - 113811
+  - 6
+- emotion:
+  - surprise1_L
+  - 113811
+  - 165
+  - 480
+  - se_adv_emote_common_01
+- print:
+  - 依里
+  - 這、
+- wait:
+  - 20
+- print:
+  - 依里
+  - 這是怎麼回事啊！
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2-
+
+    明明說會實現願望的，
+- wait:
+  - 35
+- print:
+  - 依里
+  - 這不是只有身體變了嗎？
+- wait:
+  - 50
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 113811
+  - 4
+- print:
+  - 依里
+  - 那孩子
+- wait:
+  - 20
+- print:
+  - 依里
+  - 到底想要做什麼啊……
+- touch: &o0 []
+- choice:
+  - 我也不太懂。
+  - 1
+  - 1
+- choice:
+  - 是新人的惡作劇？
+  - 2
+  - 2
+- choice:
+  - 願望真的實現了吧？
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 113811
+- bust:
+  - 113811
+  - 0
+- vo:
+  - vo_adv_6048101_001
+- face:
+  - 113811
+  - 1
+- print:
+  - 依里
+  - 蘭德索爾這地方
+- wait:
+  - 15
+- print:
+  - 依里
+  - 雖然有很多怪人，
+- wait:
+  - 35
+- print:
+  - 依里
+  - >2-
+
+    但那她
+- wait:
+  - 10
+- print:
+  - 依里
+  - 特別神秘啊！
+- wait:
+  - 65
+- face:
+  - 113811
+  - 2
+- print:
+  - 依里
+  - 倒
+- wait:
+  - 30
+- print:
+  - 依里
+  - 是個讓人無法討厭的孩子呢。
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2-
+
+    感覺像是
+- wait:
+  - 45
+- print:
+  - 依里
+  - 非常需要照顧的妹妹吧？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 113811
+- bust:
+  - 113811
+  - 0
+- vo:
+  - vo_adv_6048101_002
+- face:
+  - 113811
+  - 1
+- print:
+  - 依里
+  - 你認識的人裡面
+- wait:
+  - 35
+- print:
+  - 依里
+  - 好像有個很愛惡作劇的孩子吧？
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 113811
+  - 6
+- print:
+  - 依里
+  - 像是這套衣服
+- wait:
+  - 30
+- print:
+  - 依里
+  - 就做得很用心呢，
+- wait:
+  - 45
+- print:
+  - 依里
+  - 是不是和那孩子有什麼關係……
+- wait:
+  - 105
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 113811
+  - 2
+- print:
+  - 依里
+  - 不可能有那種事吧？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 113811
+- bust:
+  - 113811
+  - 0
+- vo:
+  - vo_adv_6048101_003
+- face:
+  - 113811
+  - 3
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 113811
+- print:
+  - 依里
+  - 才沒有呢！
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 113811
+  - 1
+- print:
+  - 依里
+  - ……
+- wait:
+  - 15
+- print:
+  - 依里
+  - 不過，
+- wait:
+  - 30
+- print:
+  - 依里
+  - 要說這單純只是小孩子的惡作劇……
+- wait:
+  - 45
+- print:
+  - 依里
+  - 感覺也不太一樣呢。
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 113811
+  - 2
+- print:
+  - 依里
+  - 雖然很不可靠，
+- wait:
+  - 45
+- print:
+  - 依里
+  - 但她確實
+- wait:
+  - 10
+- print:
+  - 依里
+  - 是很認真的吧？
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 113811
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

@@ -1,0 +1,290 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500010
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - false
+- situation:
+  - 暗黑的姐姐
+- chara_full:
+  - 112311
+  - C
+  - 4
+- fadein:
+  - 112311
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M288
+  - 0
+  - 0
+  - 1
+- focus:
+  - 112311
+- bust:
+  - 112311
+  - 0
+- vo:
+  - vo_adv_6033208_000
+- face:
+  - 112311
+  - 4
+- print:
+  - Purely★栞
+  - 暗黑的姐姐……
+- wait:
+  - 60
+- print:
+  - Purely★栞
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - Purely★栞
+  - 如果
+- wait:
+  - 20
+- print:
+  - Purely★栞
+  - 初音姊姊
+- wait:
+  - 25
+- print:
+  - Purely★栞
+  - 變成暗黑的姊姊，
+- wait:
+  - 50
+- print:
+  - Purely★栞
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - Purely★栞
+  - 我會……
+- touch: &o0 []
+- choice:
+  - 一起打倒她吧。
+  - 1
+  - 1
+- choice:
+  - 變成暗黑的妹妹……？
+  - 2
+  - 2
+- choice:
+  - 如果是初音的話沒問題的。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 112311
+- bust:
+  - 112311
+  - 0
+- vo:
+  - vo_adv_6033208_001
+- face:
+  - 112311
+  - 1
+- print:
+  - Purely★栞
+  - 對呢。
+- wait:
+  - 35
+- print:
+  - Purely★栞
+  - 如果不好好打倒她的話，
+- wait:
+  - 25
+- print:
+  - Purely★栞
+  - 蘭德索爾的和平就……
+- wait:
+  - 45
+- print:
+  - Purely★栞
+  - >2
+
+- face:
+  - 112311
+  - 6
+- emotion:
+  - surprise1_L
+  - 112311
+  - 170
+  - 505
+  - se_adv_emote_common_01
+- print:
+  - Purely★栞
+  - 咦！？　
+- wait:
+  - 15
+- print:
+  - Purely★栞
+  - 不能打倒她啦！
+- wait:
+  - 25
+- print:
+  - Purely★栞
+  - >2
+
+- face:
+  - 112311
+  - 3
+- print:
+  - Purely★栞
+  - 要拯救她才對！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 112311
+- bust:
+  - 112311
+  - 0
+- vo:
+  - vo_adv_6033208_002
+- face:
+  - 112311
+  - 4
+- eye_open:
+  - False
+- print:
+  - Purely★栞
+  - 如果姊姊希望我變成那樣的話
+- wait:
+  - 70
+- print:
+  - Purely★栞
+  - ……
+- wait:
+  - 15
+- print:
+  - Purely★栞
+  - >2
+
+- eye_open:
+  - True
+- face:
+  - 112311
+  - 3
+- print:
+  - Purely★栞
+  - 不對，
+- wait:
+  - 25
+- print:
+  - Purely★栞
+  - 姊姊才不會說這種話。
+- wait:
+  - 45
+- print:
+  - Purely★栞
+  - >2-
+
+    我會阻止她的。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 112311
+- bust:
+  - 112311
+  - 0
+- vo:
+  - vo_adv_6033208_003
+- face:
+  - 112311
+  - 2
+- nod:
+  - 112311
+- print:
+  - Purely★栞
+  - 沒錯！　
+- wait:
+  - 35
+- print:
+  - Purely★栞
+  - 姊姊才不會
+- wait:
+  - 20
+- print:
+  - Purely★栞
+  - 發生這種事呢！
+- wait:
+  - 40
+- print:
+  - Purely★栞
+  - >2
+
+- face:
+  - 112311
+  - 1
+- print:
+  - Purely★栞
+  - 初音姊姊永遠都會是
+- wait:
+  - 30
+- print:
+  - Purely★栞
+  - 我目標中的
+- wait:
+  - 35
+- print:
+  - Purely★栞
+  - 姊姊。
+- wait:
+  - 40
+- print:
+  - Purely★栞
+  - >2
+
+- face:
+  - 112311
+  - 2
+- emotion:
+  - twinkle1_R
+  - 112311
+  - -105
+  - 470
+  - se_adv_emote_twinkle_01
+- print:
+  - Purely★栞
+  - 反倒應該說是
+- wait:
+  - 20
+- print:
+  - Purely★栞
+  - 光明的姊姊！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 112311
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

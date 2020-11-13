@@ -1,0 +1,251 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500111
+- amb:
+  - amb_adv_room_noise_01
+- ui_visible:
+  - false
+- situation:
+  - 捐贈給我們的金錢
+- chara_full:
+  - 105211
+  - C
+  - 1
+- fadein:
+  - 105211
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M353_04
+  - 0
+  - 0
+  - 1
+- focus:
+  - 105211
+- bust:
+  - 105211
+  - 0
+- vo:
+  - vo_adv_6040306_000
+- face:
+  - 105211
+  - 1
+- print:
+  - 莉瑪
+  - 真陽曾經去兜售過的村莊那裡的村民們，
+- wait:
+  - 55
+- print:
+  - 莉瑪
+  - >2-
+
+    還有咲戀育幼院的孩子們
+- wait:
+  - 25
+- print:
+  - 莉瑪
+  - 都有捐錢給我們。
+- wait:
+  - 50
+- print:
+  - 莉瑪
+  - >2
+
+- face:
+  - 105211
+  - 2
+- print:
+  - 莉瑪
+  - 真的很感激他們呢……
+- touch: &o0 []
+- choice:
+  - 得回禮呢
+  - 1
+  - 1
+- choice:
+  - 都是多虧了真陽
+  - 2
+  - 2
+- choice:
+  - 得好好使用呢
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 105211
+- bust:
+  - 105211
+  - 0
+- vo:
+  - vo_adv_6040306_001
+- face:
+  - 105211
+  - 2
+- print:
+  - 莉瑪
+  - 雖然不知道我們能做些什麼，
+- wait:
+  - 55
+- print:
+  - 莉瑪
+  - 但只要是能做得到的事，
+- wait:
+  - 25
+- print:
+  - 莉瑪
+  - >2-
+
+    我們都想盡力去做。
+- wait:
+  - 40
+- nod:
+  - 105211
+- face:
+  - 105211
+  - 1
+- print:
+  - 莉瑪
+  - 如果除了真陽以外，
+- wait:
+  - 25
+- print:
+  - 莉瑪
+  - >-
+    我也
+
+    能去兜售的話，
+- wait:
+  - 50
+- print:
+  - 莉瑪
+  - 是不是就能將牧場製品
+- wait:
+  - 35
+- print:
+  - 莉瑪
+  - 送到更多人手上了呢。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 105211
+- bust:
+  - 105211
+  - 0
+- vo:
+  - vo_adv_6040306_002
+- face:
+  - 105211
+  - 1
+- print:
+  - 莉瑪
+  - 都是多虧了她去過各式各樣的地方兜售，
+- wait:
+  - 45
+- print:
+  - 莉瑪
+  - 因此認識了許多的人。
+- wait:
+  - 60
+- print:
+  - 莉瑪
+  - >2
+
+- nod:
+  - 105211
+- face:
+  - 105211
+  - 2
+- print:
+  - 莉瑪
+  - 我覺得這是只有真陽
+- wait:
+  - 25
+- print:
+  - 莉瑪
+  - 才能辦到的事情呢。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 105211
+- bust:
+  - 105211
+  - 0
+- vo:
+  - vo_adv_6040306_003
+- face:
+  - 105211
+  - 1
+- print:
+  - 莉瑪
+  - 這些錢要用在
+- wait:
+  - 30
+- print:
+  - 莉瑪
+  - 重建遭遇詐欺的那些農業公會上，
+- wait:
+  - 50
+- print:
+  - 莉瑪
+  - >2-
+
+    所以得謹慎地使用才行呢。
+- wait:
+  - 40
+- nod:
+  - 105211
+- face:
+  - 105211
+  - 2
+- print:
+  - 莉瑪
+  - 事情結束之後，
+- wait:
+  - 25
+- print:
+  - 莉瑪
+  - 想和大家
+- wait:
+  - 30
+- print:
+  - 莉瑪
+  - >-
+    一起送好吃的東西
+
+    給村民們以及
+- wait:
+  - 30
+- print:
+  - 莉瑪
+  - 咲戀育幼院的孩子們呢。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 105211
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

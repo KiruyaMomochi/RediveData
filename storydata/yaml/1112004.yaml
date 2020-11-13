@@ -1,0 +1,2278 @@
+- title:
+  - 禊（萬聖節） 第4話
+- outline:
+  - 結束遊行的歸途中，{0}跟禊被光包圍而作了夢。禊在公園找到了父親藏起來的萬聖節用服裝，很開心地穿上了服裝參加了遊行。
+- background:
+  - 505032
+- amb:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 萬聖節永不停息！
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    結束喧鬧的萬聖節遊行，
+
+    正踏上歸途的禊和{0}。
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 111211
+  - C
+  - 2
+- fadein:
+  - 111211
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M136_Outside
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112004_000
+- face:
+  - 111211
+  - 2
+- emotion:
+  - note1_L
+  - 111211
+  - -100
+  - 390
+  - se_adv_emote_note_01
+- print:
+  - 禊
+  - 很開心呢，
+- wait:
+  - 15
+- print:
+  - 禊
+  - 哥哥！
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 6
+- print:
+  - 禊
+  - 啊啊――
+- wait:
+  - 30
+- print:
+  - 禊
+  - 禊明明好想再玩的說——
+- wait:
+  - 55
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 4
+- print:
+  - 禊
+  - 不過因為很暗了只能回家了呢――
+- touch: *o0
+- effect:
+  - 0005
+  - se_adv_holylight_01
+- amb_stop:
+  - 1
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112004_001
+- face:
+  - 111211
+  - 6
+- print:
+  - 禊
+  - 咦？　
+- wait:
+  - 20
+- print:
+  - 禊
+  - 哥哥又在發光了哦！
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 1
+- print:
+  - 禊
+  - 哥哥是不想回家到發光了嗎～！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 111211
+  - 30
+- effect:
+  - 0006
+  - se_adv_whiteout_01
+- bgm:
+  - stop
+  - 2
+  - 1
+- white_out:
+  - 1
+  - 1
+- bg_color:
+  - 255
+  - 255
+  - 255
+- effect_delete:
+  - 0005
+- effect_delete:
+  - 0006
+- insert: *o0
+- background:
+  - 510100
+- wait:
+  - 30
+- white_in: *o0
+- amb:
+  - amb_adv_home_area_jpn_01
+- wait:
+  - 30
+- chara_full:
+  - 100431
+  - C
+  - 1
+- fadein:
+  - 100431
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M74
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1112004_002
+- face:
+  - 100431
+  - 1
+- pop:
+  - 100431
+- print:
+  - 禊
+  - 啊，
+- wait:
+  - 15
+- print:
+  - 禊
+  - 哥哥！
+- wait:
+  - 15
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100431
+  - 2
+- print:
+  - 禊
+  - 來得正好！
+- touch: *o0
+- choice:
+  - 怎麼了呢？
+  - 1
+- tag:
+  - 1
+- se:
+  - se_adv_paper_move_05
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1112004_003
+- face:
+  - 100431
+  - 1
+- nod:
+  - 100431
+- print:
+  - 禊
+  - 你看你看！
+- wait:
+  - 20
+- print:
+  - 禊
+  - >2-
+
+    收到了出外探險的爸爸寄來的信！
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1112004_004
+- face:
+  - 100431
+  - 1
+- print:
+  - 禊
+  - 然後呢！　
+- wait:
+  - 20
+- print:
+  - 禊
+  - 裡面放著藏寶圖！
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100431
+  - 6
+- print:
+  - 禊
+  - 你看！　
+- wait:
+  - 10
+- print:
+  - 禊
+  - 這裡有叉叉的記號！
+- wait:
+  - 40
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100431
+  - 1
+- print:
+  - 禊
+  - 一定有寶藏哦！
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1112004_005
+- face:
+  - 100431
+  - 1
+- print:
+  - 禊
+  - 哥哥也一起來尋寶吧！
+- wait:
+  - 50
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100431
+  - 2
+- pop:
+  - 100431
+- print:
+  - 禊
+  - 好，
+- wait:
+  - 10
+- print:
+  - 禊
+  - 出發～！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 100431
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- bgm:
+  - stop
+  - 1.5
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 510070
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_park_day_01
+- chara_full:
+  - 100431
+  - LC
+  - 6
+- se:
+  - se_adv_step_leaves_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 100431
+  - 45
+- window_visible:
+  - true
+- bgm:
+  - bgm_M190
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1112004_006
+- face:
+  - 100431
+  - 6
+- print:
+  - 禊
+  - 雖然叉叉記號的地點在這附近……
+- wait:
+  - 75
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100431
+  - 4
+- print:
+  - 禊
+  - 不過只是個空地呢――
+- touch: *o0
+- choice:
+  - 好像有什麼東西掉在這裡。
+  - 2
+- tag:
+  - 2
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1112004_007
+- face:
+  - 100431
+  - 6
+- print:
+  - 禊
+  - 嗯？　
+- wait:
+  - 30
+- print:
+  - 禊
+  - 小小的木箱？　
+- wait:
+  - 60
+- face:
+  - 100431
+  - 4
+- print:
+  - 禊
+  - 是什麼啊……
+- wait:
+  - 25
+- se:
+  - se_adv_tresurebox_open_01
+- nod:
+  - 100431
+- wait:
+  - 20
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100431
+  - 1
+- print:
+  - 禊
+  - 哇！　
+- wait:
+  - 25
+- print:
+  - 禊
+  - 裡面有鑰匙！！
+- wait:
+  - 35
+- print:
+  - 禊
+  - >2-
+
+    這個是寶藏的鑰匙吧！？
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1112004_008
+- face:
+  - 100431
+  - 1
+- emotion:
+  - twinkle1_R
+  - 100431
+  - -125
+  - 450
+  - se_adv_emote_twinkle_01
+- print:
+  - 禊
+  - 寶箱在哪裡？
+- wait:
+  - 50
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100431
+  - 2
+- print:
+  - 禊
+  - 更努力找的話一定可以找得到呢！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100431
+  - 30
+- bgm:
+  - stop
+  - 2
+  - 1
+- black_out:
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- wait:
+  - 30
+- black_in: *o0
+- amb:
+  - amb_adv_park_day_01
+- chara_full:
+  - 100431
+  - C
+  - 4
+- fadein:
+  - 100431
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M51
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1112004_009
+- face:
+  - 100431
+  - 4
+- emotion:
+  - drop1_R
+  - 100431
+  - 57
+  - 615
+  - se_adv_emote_drop_01
+- print:
+  - 禊
+  - 果然還是找不到――！！
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1112004_010
+- face:
+  - 100431
+  - 6
+- print:
+  - 禊
+  - 什麼――？　
+- wait:
+  - 10
+- print:
+  - 禊
+  - 哥哥。
+- wait:
+  - 25
+- print:
+  - 禊
+  - >2-
+
+    把地圖拿出來再看一次嗎？
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1112004_011
+- face:
+  - 100431
+  - 4
+- print:
+  - 禊
+  - 嗯――
+- wait:
+  - 20
+- face:
+  - 100431
+  - 1
+- print:
+  - 禊
+  - 哥哥都這麼說的話……
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1.5
+- se:
+  - se_adv_papers_blow
+- nod:
+  - 100431
+- wait:
+  - 15
+- face:
+  - 100431
+  - 6
+- shake:
+  - 100431
+- window_visible:
+  - true
+- bgm:
+  - bgm_M244
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1112004_012
+- face:
+  - 100431
+  - 6
+- emotion:
+  - surprise1_L
+  - 100431
+  - 140
+  - 500
+  - se_adv_emote_common_01
+- print:
+  - 禊
+  - 啊――！！
+- wait:
+  - 25
+- print:
+  - 禊
+  - >2-
+
+    地圖飛走了――！！
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100431
+  - 3
+- print:
+  - 禊
+  - 等等――！！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_leaves_run_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 100431
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100431
+  - LC
+  - 6
+- se:
+  - se_adv_step_leaves_run_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 30
+- fadein:
+  - 100431
+  - 30
+- se:
+  - se_adv_paper_move_01
+- nod:
+  - 100431
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1112004_013
+- face:
+  - 100431
+  - 4
+- print:
+  - 禊
+  - 雖然有找到地圖，
+- wait:
+  - 40
+- print:
+  - 禊
+  - 不過髒掉了……
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2-
+
+    明明是好不容易才從爸爸那邊獲得的地圖……
+- touch: *o0
+- eye_open:
+  - true
+- choice:
+  - 沒事的喔。
+  - 3
+- choice:
+  - 爸爸……
+  - 4
+- tag:
+  - 3
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1112004_014
+- face:
+  - 100431
+  - 4
+- nod:
+  - 100431
+- print:
+  - 禊
+  - 可是，
+- wait:
+  - 5
+- print:
+  - 禊
+  - 不僅濕掉了，
+- wait:
+  - 35
+- print:
+  - 禊
+  - 還沾著一些泥土……
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2-
+
+    而且因為是紙不能洗……
+- wait:
+  - 70
+- eye_open:
+  - False
+- print:
+  - 禊
+  - 怎麼辦……
+- touch: *o0
+- eye_open:
+  - true
+- goto:
+  - 5
+- tag:
+  - 4
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1112004_015
+- face:
+  - 100431
+  - 4
+- emotion:
+  - gloomy1_R
+  - 100431
+  - 15
+  - 485
+  - se_adv_emote_gloomy_01
+- print:
+  - 禊
+  - 禊如果能更小心點的話……
+- touch: *o0
+- tag:
+  - 5
+- bgm:
+  - stop
+  - 5
+  - 1
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1112004_016
+- face:
+  - 100431
+  - 6
+- print:
+  - 禊
+  - 咦？　
+- wait:
+  - 25
+- print:
+  - 禊
+  - 不是這樣？
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100431
+  - 4
+- print:
+  - 禊
+  - 好好再看一次地圖？
+- touch: *o0
+- bgm:
+  - bgm_M65
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1112004_017
+- face:
+  - 100431
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100431
+  - -5
+  - 600
+  - se_adv_emote_common_01
+- print:
+  - 禊
+  - 啊！！
+- wait:
+  - 20
+- print:
+  - 禊
+  - >2-
+
+    叉叉的記號變多了！！
+- wait:
+  - 40
+- print:
+  - 禊
+  - >2-
+
+    這是什麼！！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_tickle_02
+- nod:
+  - 100431
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1112004_018
+- face:
+  - 100431
+  - 6
+- print:
+  - 禊
+  - 因為被水淋濕，隱藏的記號才顯現出來的嗎？
+- wait:
+  - 90
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100431
+  - 1
+- print:
+  - 禊
+  - 這樣啊！　
+- wait:
+  - 30
+- print:
+  - 禊
+  - 爸爸，
+- wait:
+  - 10
+- print:
+  - 禊
+  - 交給了禊
+- wait:
+  - 20
+- print:
+  - 禊
+  - >2-
+
+    有點困難的地圖呢！
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1112004_019
+- face:
+  - 100431
+  - 1
+- pop:
+  - 100431
+- print:
+  - 禊
+  - 哥哥！
+- wait:
+  - 15
+- print:
+  - 禊
+  - >2-
+
+    我們去看看這個新的叉叉記號的地方吧！！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_leaves_run_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 100431
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- bgm:
+  - stop
+  - 1.5
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_park_day_01
+- se:
+  - se_adv_step_leaves_walk_come_01
+- camera_zoom:
+  - 1.3
+  - 20
+- se:
+  - se_adv_pitfall_02
+- wait:
+  - 10
+- shake_once:
+  - 2
+- black_out:
+  - 1
+  - 0.5
+- bg_color:
+  - 0
+  - 0
+  - 0
+- camera_zoom:
+  - 1
+  - 5
+- wait:
+  - 15
+- black_in: *o0
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- bgm:
+  - bgm_M11
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 1
+- vo:
+  - vo_adv_1112004_020
+- face:
+  - 100431
+  - 6
+- print:
+  - 禊
+  - 哇！
+- wait:
+  - 20
+- print:
+  - 禊
+  - >2-
+
+    哥哥突然掉到了陷阱裡！
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 1
+- vo:
+  - vo_adv_1112004_021
+- face:
+  - 100431
+  - 4
+- print:
+  - 禊
+  - 哥哥等我一下！
+- wait:
+  - 15
+- print:
+  - 禊
+  - >2-
+
+    我現在就來救你！
+- touch: *o0
+- choice:
+  - 底下有東西喔。
+  - 6
+- tag:
+  - 6
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 1
+- vo:
+  - vo_adv_1112004_022
+- face:
+  - 100431
+  - 6
+- print:
+  - 禊
+  - 咦？　
+- wait:
+  - 20
+- print:
+  - 禊
+  - 有埋著什麼嗎？
+- wait:
+  - 40
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100431
+  - 1
+- print:
+  - 禊
+  - 要幫我挖出來嗎？　
+- wait:
+  - 35
+- face:
+  - 100431
+  - 2
+- print:
+  - 禊
+  - 謝謝！　
+- wait:
+  - 5
+- print:
+  - 禊
+  - 哥哥！
+- touch: *o0
+- window_visible:
+  - false
+- vo_effect:
+  - 0
+- se:
+  - se_adv_tree_climb_01
+- black_out:
+  - 1
+  - 1
+- background:
+  - 510070
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 100431
+  - C
+  - 1
+- fadein:
+  - 100431
+  - 30
+- se:
+  - se_adv_cloth_move_give_01
+- nod:
+  - 100431
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1112004_023
+- face:
+  - 100431
+  - 1
+- print:
+  - 禊
+  - 哇！　
+- wait:
+  - 20
+- print:
+  - 禊
+  - 是寶箱！！
+- wait:
+  - 35
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100431
+  - 6
+- print:
+  - 禊
+  - 剛剛找到的鑰匙能不能用呢……
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_lockpick_04
+- nod:
+  - 100431
+- wait:
+  - 15
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 4
+  - 1
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1112004_024
+- face:
+  - 100431
+  - 1
+- print:
+  - 禊
+  - 打開了！　
+- wait:
+  - 30
+- face:
+  - 100431
+  - 6
+- print:
+  - 禊
+  - 裡面是……
+- se:
+  - se_adv_tresurebox_open_02
+- wait:
+  - 55
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100431
+  - 2
+- emotion:
+  - twinkle1_R
+  - 100431
+  - -125
+  - 450
+  - se_adv_emote_twinkle_01
+- bgm:
+  - bgm_M33
+- print:
+  - 禊
+  - 哇――！！　
+- wait:
+  - 25
+- print:
+  - 禊
+  - 裡面有衣服！　
+- wait:
+  - 40
+- print:
+  - 禊
+  - 是爸爸送的禮物！
+- wait:
+  - 35
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100431
+  - 1
+- print:
+  - 禊
+  - 裡面也有留言的卡片！　
+- wait:
+  - 25
+- print:
+  - 禊
+  - 哥哥！
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1112004_025
+- face:
+  - 100431
+  - 6
+- se:
+  - se_adv_tresurebox_open_02
+- print:
+  - 禊
+  - 萬聖節快樂，
+- wait:
+  - 35
+- print:
+  - 禊
+  - 禊…………
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2
+
+- pop:
+  - 100431
+- print:
+  - 禊
+  - 啊――――！
+- wait:
+  - 20
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100431
+  - 2
+- print:
+  - 禊
+  - 今天是萬聖節啊――！
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1112004_026
+- face:
+  - 100431
+  - 1
+- print:
+  - 禊
+  - 明明本來想去萬聖節遊行，
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2-
+
+    因為收到信太開心就完全忘了！
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1112004_027
+- face:
+  - 100431
+  - 1
+- print:
+  - 禊
+  - 是要禊穿著這件衣服享受萬聖節
+- wait:
+  - 40
+- print:
+  - 禊
+  - 的意思吧！
+- wait:
+  - 35
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100431
+  - 2
+- print:
+  - 禊
+  - 謝謝！　
+- wait:
+  - 5
+- print:
+  - 禊
+  - 爸爸！
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1112004_028
+- face:
+  - 100431
+  - 1
+- print:
+  - 禊
+  - 得快點加緊腳步準備惡作劇才行！
+- wait:
+  - 50
+- print:
+  - 禊
+  - >2
+
+- nod:
+  - 100431
+- print:
+  - 禊
+  - 禊，
+- wait:
+  - 10
+- print:
+  - 禊
+  - 要回去穿上這件衣服再回來，
+- wait:
+  - 25
+- print:
+  - 禊
+  - >2-
+
+    晚上再見吧！　
+- wait:
+  - 20
+- print:
+  - 禊
+  - 哥哥！
+- touch: *o0
+- choice:
+  - 救救我……
+  - 7
+- tag:
+  - 7
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1112004_029
+- face:
+  - 100431
+  - 6
+- emotion:
+  - sweat2_R
+  - 100431
+  - 70
+  - 480
+  - se_adv_emote_sweat_02
+- print:
+  - 禊
+  - 哇―――！　
+- wait:
+  - 15
+- print:
+  - 禊
+  - 忘記了！
+- wait:
+  - 25
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100431
+  - 4
+- print:
+  - 禊
+  - 哥哥對不起！　
+- wait:
+  - 15
+- print:
+  - 禊
+  - 現在就去救你！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_creak_rope_move_cloth_01
+- se_pause:
+  - se_adv_creak_rope_move_cloth_01
+  - 1.5
+- nod:
+  - 100431
+- wait:
+  - 15
+- fadeout:
+  - 100431
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 2
+- black_out:
+  - 1
+  - 1
+- bg_color:
+  - 255
+  - 255
+  - 255
+- still:
+  - 111200401
+- wait:
+  - 45
+- effect:
+  - 0022
+- black_in: *o0
+- amb:
+  - amb_adv_room_noise_night_01
+- se:
+  - se_adv_happy_particle_01
+- window_visible:
+  - true
+- bgm:
+  - bgm_M266
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 1
+- vo:
+  - vo_adv_1112004_030
+- face:
+  - 100431
+  - 1
+- print:
+  - 禊
+  - 哥哥！
+- wait:
+  - 25
+- print:
+  - 禊
+  - >2-
+
+    不給糖就搗蛋！
+- touch: *o0
+- choice:
+  - 給糖果。
+  - 8
+- tag:
+  - 8
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 1
+- vo:
+  - vo_adv_1112004_031
+- face:
+  - 100431
+  - 2
+- print:
+  - 禊
+  - 謝謝！
+- wait:
+  - 5
+- print:
+  - 禊
+  - >2-
+
+    哥哥！！
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100431
+  - 1
+- print:
+  - 禊
+  - 看――招！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_firecracker_01
+- flash: *o0
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 1
+- vo:
+  - vo_adv_1112004_032
+- face:
+  - 100431
+  - 1
+- print:
+  - 禊
+  - 這是送我糖果的回禮摔炮唷！！
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2-
+
+    嚇到了？
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 1
+- vo:
+  - vo_adv_1112004_033
+- face:
+  - 100431
+  - 2
+- print:
+  - 禊
+  - 啊哈哈！　
+- wait:
+  - 25
+- print:
+  - 禊
+  - 哥哥的眼睛在轉圈圈！
+- wait:
+  - 40
+- print:
+  - 禊
+  - >2-
+
+    也太驚訝了啦～！　
+- wait:
+  - 45
+- face:
+  - 100431
+  - 1
+- print:
+  - 禊
+  - 不過好玩就好～！
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 1
+- vo:
+  - vo_adv_1112004_034
+- face:
+  - 100431
+  - 1
+- print:
+  - 禊
+  - 那麼，
+- wait:
+  - 5
+- print:
+  - 禊
+  - 哥哥……
+- wait:
+  - 25
+- print:
+  - 禊
+  - >2-
+
+    禊穿著的衣服
+- wait:
+  - 35
+- print:
+  - 禊
+  - 看起來怎麼樣？
+- touch: *o0
+- choice:
+  - 非常適合妳。
+  - 9
+- tag:
+  - 9
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 1
+- vo:
+  - vo_adv_1112004_035
+- face:
+  - 100431
+  - 5
+- print:
+  - 禊
+  - 謝謝！　
+- wait:
+  - 10
+- print:
+  - 禊
+  - 哥哥！
+- wait:
+  - 25
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100431
+  - 1
+- print:
+  - 禊
+  - 爸爸，
+- wait:
+  - 20
+- print:
+  - 禊
+  - 有好好地幫禊選了很適合禊的衣服呢！
+- wait:
+  - 50
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100431
+  - 2
+- print:
+  - 禊
+  - 欸嘿嘿～
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1112004_036
+- face:
+  - 1
+  - 1
+- print:
+  - 男子
+  - 不給糖就搗蛋！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1112004_037
+- face:
+  - 1
+  - 1
+- print:
+  - 女子
+  - 不給我糖果
+- wait:
+  - 25
+- print:
+  - 女子
+  - 我就要搗蛋囉～！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1112004_038
+- face:
+  - 1
+  - 1
+- print:
+  - 女性
+  - 哎呀哎呀，
+- wait:
+  - 20
+- print:
+  - 女性
+  - 好可愛的裝扮呢～
+- wait:
+  - 40
+- print:
+  - 女性
+  - >2-
+
+    給你很多糖果唷～
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 1
+- vo:
+  - vo_adv_1112004_039
+- face:
+  - 100431
+  - 1
+- print:
+  - 禊
+  - 哥哥！
+- wait:
+  - 15
+- print:
+  - 禊
+  - >2-
+
+    我們也去要糖果吧！
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 1
+- vo:
+  - vo_adv_1112004_040
+- face:
+  - 100431
+  - 6
+- print:
+  - 禊
+  - 咦？　
+- wait:
+  - 30
+- print:
+  - 禊
+  - 哥哥得去分發糖果嗎？
+- wait:
+  - 60
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100431
+  - 1
+- print:
+  - 禊
+  - 那麼和禊一起邊走邊發糖果就好啦！
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 1
+- vo:
+  - vo_adv_1112004_041
+- face:
+  - 100431
+  - 1
+- print:
+  - 禊
+  - 你說沒問題嗎？　
+- wait:
+  - 55
+- face:
+  - 100431
+  - 2
+- print:
+  - 禊
+  - 謝謝！
+- wait:
+  - 35
+- print:
+  - 禊
+  - >2-
+
+    欸嘿嘿，
+- wait:
+  - 15
+- print:
+  - 禊
+  - 能和哥哥走在一起好開心啊～
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 1
+- vo:
+  - vo_adv_1112004_042
+- face:
+  - 100431
+  - 1
+- print:
+  - 禊
+  - 想要明年，
+- wait:
+  - 25
+- print:
+  - 禊
+  - 後年都，
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2-
+
+    像這樣永遠一起過萬聖節啊～
+- wait:
+  - 65
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100431
+  - 2
+- print:
+  - 禊
+  - 可以嗎？　
+- wait:
+  - 10
+- print:
+  - 禊
+  - 哥哥！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0005
+  - se_adv_holylight_01
+- effect:
+  - 0006
+  - se_adv_whiteout_01
+- bgm:
+  - stop
+  - 2
+  - 1
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0005
+- effect_delete:
+  - 0006
+- effect_delete:
+  - 0022
+- amb_stop:
+  - 1
+- background:
+  - 500270
+- still:
+  - end
+- wait:
+  - 15
+- effect:
+  - 0029
+- effect:
+  - 0026
+- effect:
+  - 0015
+  - se_adv_whiteout_02
+- white_in: *o0
+- wait:
+  - 60
+- amb:
+  - amb_adv_wind_01
+- bgm:
+  - bgm_M40
+- chara_full:
+  - 190011
+  - C
+  - 4
+  - 1
+- fadein:
+  - 190011
+  - 30
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1112004_043
+- face:
+  - 190011
+  - 4
+- print:
+  - 愛梅斯
+  - 好耀眼！
+- wait:
+  - 40
+- print:
+  - 愛梅斯
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 愛梅斯
+  - 禊散發的純真眼神好耀眼啊！
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1112004_044
+- face:
+  - 190011
+  - 1
+- print:
+  - 愛梅斯
+  - 永遠一起、
+- wait:
+  - 25
+- print:
+  - 愛梅斯
+  - 嗎……
+- wait:
+  - 30
+- face:
+  - 190011
+  - 2
+- print:
+  - 愛梅斯
+  - 還真的是，
+- wait:
+  - 25
+- print:
+  - 愛梅斯
+  - 很棒的詞彙呢。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1112004_045
+- face:
+  - 190011
+  - 1
+- print:
+  - 愛梅斯
+  - 你要好好珍惜，
+- wait:
+  - 30
+- print:
+  - 愛梅斯
+  - 純粹又直率的禊喔。
+- wait:
+  - 35
+- print:
+  - 愛梅斯
+  - >2
+
+- face:
+  - 190011
+  - 3
+- print:
+  - 愛梅斯
+  - 不可以做出，
+- wait:
+  - 20
+- print:
+  - 愛梅斯
+  - 背叛之類的事喔。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1112004_046
+- face:
+  - 190011
+  - 1
+- print:
+  - 愛梅斯
+  - 不過，
+- wait:
+  - 25
+- print:
+  - 愛梅斯
+  - 你的話應該沒問題呢。
+- wait:
+  - 40
+- print:
+  - 愛梅斯
+  - >2
+
+- face:
+  - 190011
+  - 2
+- print:
+  - 愛梅斯
+  - 和禊一樣，
+- wait:
+  - 25
+- print:
+  - 愛梅斯
+  - 我也相信著你。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 190011
+  - 30
+- bgm:
+  - stop
+  - 3
+- effect:
+  - 0006
+  - se_adv_whiteout_01
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0006
+- effect_delete:
+  - 0029
+- effect_delete:
+  - 0026
+- amb_stop:
+  - 1
+- background:
+  - 505032
+- wait:
+  - 30
+- white_in: *o0
+- amb:
+  - amb_adv_town_day_01
+- vo_effect:
+  - 0
+- wait:
+  - 30
+- chara_full:
+  - 111211
+  - C
+  - 4
+  - 1
+- fadein:
+  - 111211
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M267
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112004_047
+- face:
+  - 111211
+  - 4
+- eye_open:
+  - True
+- emotion:
+  - question1_R
+  - 111211
+  - 110
+  - 420
+  - se_adv_emote_question_01
+- print:
+  - 禊
+  - 咦……
+- wait:
+  - 40
+- print:
+  - 禊
+  - 禊睡著了嗎？
+- wait:
+  - 70
+- print:
+  - 禊
+  - >2-
+
+    因為到處跑來跑去所以累了嗎～
+- touch: *o0
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112004_048
+- face:
+  - 111211
+  - 1
+- print:
+  - 禊
+  - 好像做了一場對哥哥惡作劇，
+- wait:
+  - 25
+- print:
+  - 禊
+  - >2-
+
+    又一起萬聖節遊行的夢。
+- wait:
+  - 70
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 2
+- print:
+  - 禊
+  - 果然對哥哥惡作劇最好玩了啊！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 111211
+  - 30
+- se:
+  - se_adv_cloth_move_normal_01
+- chara_full:
+  - 111211
+  - C
+  - 1
+- scale:
+  - 111211
+  - 1.3
+  - 3
+- fadein:
+  - 111211
+  - 30
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- window_visible:
+  - true
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112004_049
+- face:
+  - 111211
+  - 1
+- print:
+  - 禊
+  - 所以接下來也，
+- wait:
+  - 35
+- print:
+  - 禊
+  - >2
+
+- nod:
+  - 111211
+- print:
+  - 禊
+  - 永～～遠和禊在一起吧，
+- wait:
+  - 40
+- face:
+  - 111211
+  - 2
+- print:
+  - 禊
+  - 哥哥！
+- touch: *o0
+- window_visible:
+  - false
+- effect_delete:
+  - 0022
+  - 30
+- fadeout:
+  - 111211
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    心思已經飛越到和{0}一起共度的未來，
+
+    禊露出了無憂無慮的笑容。
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

@@ -1,0 +1,289 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500353
+- amb:
+  - amb_adv_outdoors_night_02
+- ui_visible:
+  - FALSE
+- situation:
+  - 朋友
+- chara_full:
+  - 111111
+  - C
+  - 2
+- fadein:
+  - 111111
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M267_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_6025210_000
+- face:
+  - 111111
+  - 2
+- print:
+  - 鏡華
+  - 美美和禊
+- wait:
+  - 30
+- print:
+  - 鏡華
+  - 都是我
+- wait:
+  - 25
+- eye_open:
+  - False
+- print:
+  - 鏡華
+  - 很重要的朋友。
+- wait:
+  - 50
+- print:
+  - 鏡華
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 鏡華
+  - 朋友，
+- wait:
+  - 30
+- print:
+  - 鏡華
+  - 真的很棒呢。
+- touch: &o0 []
+- choice:
+  - 能互相幫忙。
+  - 1
+  - 1
+- choice:
+  - 會互相責備。
+  - 2
+  - 2
+- choice:
+  - 會互相信任。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_6025210_001
+- face:
+  - 111111
+  - 2
+- print:
+  - 鏡華
+  - 是啊。
+- wait:
+  - 35
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 111111
+  - 1
+- print:
+  - 鏡華
+  - 如果沒有美美和禊，
+- wait:
+  - 45
+- print:
+  - 鏡華
+  - 我一定很意氣消沉。
+- wait:
+  - 45
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 111111
+  - 2
+- print:
+  - 鏡華
+  - 還有你也是，
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 謝謝你
+- wait:
+  - 15
+- print:
+  - 鏡華
+  - 救了我。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_6025210_002
+- face:
+  - 111111
+  - 2
+- print:
+  - 鏡華
+  - 還有這一點呢。
+- wait:
+  - 50
+- face:
+  - 111111
+  - 4
+- print:
+  - 鏡華
+  - 我感覺自己
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - >2-
+
+    老是在責備禊……
+- wait:
+  - 45
+- face:
+  - 111111
+  - 1
+- print:
+  - 鏡華
+  - 可是，
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 禊在重要的時刻
+- wait:
+  - 20
+- print:
+  - 鏡華
+  - >2-
+
+    也會責備我、鼓勵我。
+- wait:
+  - 50
+- face:
+  - 111111
+  - 5
+- print:
+  - 鏡華
+  - 我很感謝她，
+- wait:
+  - 20
+- print:
+  - 鏡華
+  - 這點要保密哦？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_6025210_003
+- face:
+  - 111111
+  - 2
+- nod:
+  - 111111
+- print:
+  - 鏡華
+  - 是的。
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 我
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 很相信美美和禊。
+- wait:
+  - 50
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 111111
+  - 1
+- print:
+  - 鏡華
+  - 她們兩個
+- wait:
+  - 35
+- print:
+  - 鏡華
+  - 也相信著我吧。
+- wait:
+  - 55
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 111111
+  - 5
+- print:
+  - 鏡華
+  - 啊，
+- wait:
+  - 15
+- print:
+  - 鏡華
+  - 我也相信著你，
+- wait:
+  - 45
+- print:
+  - 鏡華
+  - 所以……
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 111111
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

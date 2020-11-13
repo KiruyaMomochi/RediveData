@@ -1,0 +1,1335 @@
+- title:
+  - 惠理子（情人節） 第3話
+- outline:
+  - 在廚房裡開始製作巧克力的惠理子。完成的巧克力味道特別好，{0}問裡面放了什麼。惠理子開心地笑著回答說：「是叫做愛情的藥。」
+- background:
+  - 500040
+- amb:
+  - amb_adv_room_noise_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 醍醐味在心裡
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    情人節當天。
+
+    在蘭德索爾城裡四處都
+
+    飄著甜甜的香味。
+- touch: &o0 []
+- se:
+  - se_adv_cooking_boil_01
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    在那之中，{0}
+
+    一個人待在公會小屋休息時，
+
+    聽見廚房傳來某種聲響。
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    {0}慢慢地接近發出聲響的
+
+    方向――
+- touch: *o0
+- choice:
+  - 悄悄地偷瞄了廚房。
+  - 1
+- choice:
+  - 一口氣進去廚房看看。
+  - 2
+- tag:
+  - 1
+- window_visible:
+  - false
+- white_out:
+  - 1
+  - 0.5
+- bg_color:
+  - 255
+  - 255
+  - 255
+- still_unit:
+  - 109031
+- se:
+  - se_adv_cloth_move_normal_01
+- wait:
+  - 15
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- white_in: *o0
+- window_visible:
+  - true
+- bgm:
+  - bgm_M190
+  - 0
+  - 0
+  - 1
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 1
+- vo:
+  - vo_adv_1090003_000
+- face:
+  - 109011
+  - 2
+- print:
+  - 惠理子
+  - 您好，{0}大人……
+- wait:
+  - 63
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 109011
+  - 1
+- print:
+  - 惠理子
+  - 我來借一下廚房喔。
+- touch: *o0
+- goto:
+  - 3
+- tag:
+  - 2
+- window_visible:
+  - false
+- white_out:
+  - 1
+  - 0.5
+- bg_color:
+  - 255
+  - 255
+  - 255
+- still_unit:
+  - 109031
+- se:
+  - se_adv_door_open_03
+- wait:
+  - 15
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- white_in: *o0
+- window_visible:
+  - true
+- bgm:
+  - bgm_M190
+  - 0
+  - 0
+  - 1
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 1
+- vo:
+  - vo_adv_1090003_001
+- face:
+  - 109011
+  - 6
+- print:
+  - 惠理子
+  - 哎呀，
+- wait:
+  - 25
+- print:
+  - 惠理子
+  - '{0}大人……'
+- wait:
+  - 52
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 109011
+  - 1
+- print:
+  - 惠理子
+  - 您的精神非常好呢。
+- touch: *o0
+- tag:
+  - 3
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 1
+- vo:
+  - vo_adv_1090003_002
+- face:
+  - 109011
+  - 1
+- print:
+  - 惠理子
+  - 我想要
+- wait:
+  - 40
+- print:
+  - 惠理子
+  - >-
+    讓{0}大人
+
+    品嘗剛作好的
+- wait:
+  - 35
+- print:
+  - 惠理子
+  - 巧克力，
+- wait:
+  - 35
+- print:
+  - 惠理子
+  - >2-
+
+    所以直接過來製作了。
+- touch: *o0
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 1
+- vo:
+  - vo_adv_1090003_003
+- face:
+  - 109011
+  - 2
+- print:
+  - 惠理子
+  - 當然，
+- wait:
+  - 25
+- print:
+  - 惠理子
+  - 您不需要跟我道謝也沒關係……
+- touch: *o0
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 1
+- vo:
+  - vo_adv_1090003_004
+- face:
+  - 109011
+  - 5
+- print:
+  - 惠理子
+  - 我們是命中註定要結合的人，
+- wait:
+  - 70
+- print:
+  - 惠理子
+  - >2-
+
+    不需要靠言語表達……
+- touch: *o0
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 1
+- vo:
+  - vo_adv_1090003_005
+- face:
+  - 109011
+  - 1
+- print:
+  - 惠理子
+  - 我只是想讓
+- wait:
+  - 47
+- print:
+  - 惠理子
+  - >-
+    {0}大人
+
+    感到開心而已……
+- touch: *o0
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 1
+- vo:
+  - vo_adv_1090003_006
+- face:
+  - 109011
+  - 1
+- print:
+  - 惠理子
+  - 那麼，
+- wait:
+  - 25
+- print:
+  - 惠理子
+  - 我借用一下廚房，
+- wait:
+  - 42
+- print:
+  - 惠理子
+  - >2-
+
+    {0}大人請去休息吧。
+- touch: *o0
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 1
+- vo:
+  - vo_adv_1090003_007
+- face:
+  - 109011
+  - 1
+- print:
+  - 惠理子
+  - 首先要
+- wait:
+  - 35
+- print:
+  - 惠理子
+  - 把水煮沸……
+- wait:
+  - 60
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 109011
+  - 6
+- print:
+  - 惠理子
+  - 啊，
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 這個材料是提味用的，
+- wait:
+  - 65
+- face:
+  - 109011
+  - 1
+- print:
+  - 惠理子
+  - 要和這裡的材料混合……
+- touch: *o0
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 1
+- vo:
+  - vo_adv_1090003_008
+- face:
+  - 109011
+  - 1
+- print:
+  - 惠理子
+  - 等顏色改變後，
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 把它攪拌到變得滑順為止，
+- wait:
+  - 75
+- print:
+  - 惠理子
+  - >2-
+
+    此時再加入提味，
+- wait:
+  - 63
+- print:
+  - 惠理子
+  - 繼續攪拌到出現光澤……
+- touch: *o0
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 1
+- vo:
+  - vo_adv_1090003_009
+- face:
+  - 109011
+  - 1
+- print:
+  - 惠理子
+  - 然後，
+- wait:
+  - 32
+- print:
+  - 惠理子
+  - 再把巧克力放到滾水中加熱融化……
+- touch: *o0
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 1
+- vo:
+  - vo_adv_1090003_010
+- face:
+  - 109011
+  - 5
+- print:
+  - 惠理子
+  - ……啊啊，
+- wait:
+  - 48
+- print:
+  - 惠理子
+  - 完成這個之時，
+- wait:
+  - 57
+- print:
+  - 惠理子
+  - >2-
+
+    {0}大人就會成為我的俘虜……
+- wait:
+  - 103
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 109011
+  - 2
+- print:
+  - 惠理子
+  - 不對，
+- wait:
+  - 25
+- print:
+  - 惠理子
+  - 他已經是我的俘虜了呢……
+- wait:
+  - 67
+- print:
+  - 惠理子
+  - 嘻嘻……
+- touch: *o0
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 1
+- vo:
+  - vo_adv_1090003_011
+- face:
+  - 109011
+  - 1
+- print:
+  - 惠理子
+  - 好，
+- wait:
+  - 45
+- print:
+  - 惠理子
+  - 再來是放入我自己調配的
+- wait:
+  - 72
+- print:
+  - 惠理子
+  - >2-
+
+    精心提煉的特製材料
+- wait:
+  - 88
+- print:
+  - 惠理子
+  - 就……
+- touch: *o0
+- choice:
+  - 我來幫忙吧？
+  - 4
+- choice:
+  - 那個試管裡面放了什麼？
+  - 5
+- tag:
+  - 4
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 1
+- vo:
+  - vo_adv_1090003_012
+- face:
+  - 109011
+  - 5
+- print:
+  - 惠理子
+  - 啊，
+- wait:
+  - 43
+- print:
+  - 惠理子
+  - 真是的……
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 您不可以看啦。
+- wait:
+  - 50
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 109011
+  - 1
+- print:
+  - 惠理子
+  - 這個試管裡
+- wait:
+  - 38
+- print:
+  - 惠理子
+  - 是我祕傳的材料。
+- touch: *o0
+- goto:
+  - 6
+- tag:
+  - 5
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 1
+- vo:
+  - vo_adv_1090003_013
+- face:
+  - 109011
+  - 2
+- print:
+  - 惠理子
+  - 完全沒有放
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 對身體有害之物。
+- wait:
+  - 60
+- print:
+  - 惠理子
+  - >2-
+
+    請您相信我，
+- wait:
+  - 40
+- print:
+  - 惠理子
+  - 耐心等候吧。
+- wait:
+  - 40
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 109011
+  - 1
+- print:
+  - 惠理子
+  - 我會將好吃的巧克力拿過去給您的。
+- touch: *o0
+- tag:
+  - 6
+- window_visible:
+  - false
+- effect_delete:
+  - 0022
+  - 30
+- white_out:
+  - 1
+  - 0.5
+- background:
+  - 500040
+- still_unit:
+  - end
+- wait:
+  - 15
+- white_in: *o0
+- chara_full:
+  - 109011
+  - C
+  - 1
+- fadein:
+  - 109011
+  - 30
+- window_visible:
+  - true
+- se:
+  - se_adv_coffee_cup_01
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 0
+- vo:
+  - vo_adv_1090003_014
+- face:
+  - 109011
+  - 1
+- nod:
+  - 109011
+- print:
+  - 惠理子
+  - 讓您久等了。
+- wait:
+  - 60
+- print:
+  - 惠理子
+  - >2-
+
+    這個就是
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 我的特製巧克力。
+- touch: *o0
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 0
+- vo:
+  - vo_adv_1090003_015
+- face:
+  - 109011
+  - 1
+- print:
+  - 惠理子
+  - 味道如何？　
+- wait:
+  - 45
+- face:
+  - 109011
+  - 2
+- print:
+  - 惠理子
+  - 是普通的巧克力吧？
+- touch: *o0
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 0
+- vo:
+  - vo_adv_1090003_016
+- face:
+  - 109011
+  - 2
+- print:
+  - 惠理子
+  - 嘻嘻……
+- wait:
+  - 55
+- face:
+  - 109011
+  - 6
+- print:
+  - 惠理子
+  - 外觀很美吧？
+- wait:
+  - 70
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 109011
+  - 1
+- print:
+  - 惠理子
+  - 裡面也是喔。
+- touch: *o0
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 0
+- vo:
+  - vo_adv_1090003_017
+- face:
+  - 109011
+  - 1
+- print:
+  - 惠理子
+  - 來，
+- wait:
+  - 38
+- print:
+  - 惠理子
+  - 請您品嚐吧。
+- touch: *o0
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 0
+- vo:
+  - vo_adv_1090003_018
+- face:
+  - 109011
+  - 6
+- emotion:
+  - question1_R
+  - 109011
+  - 100
+  - 520
+  - se_adv_emote_question_01
+- print:
+  - 惠理子
+  - 嗯，
+- wait:
+  - 55
+- print:
+  - 惠理子
+  - 吃這個還需要勇氣嗎？
+- wait:
+  - 92
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 109011
+  - 1
+- print:
+  - 惠理子
+  - 欸，
+- wait:
+  - 40
+- print:
+  - 惠理子
+  - 雖然是我做的，
+- wait:
+  - 53
+- print:
+  - 惠理子
+  - >2-
+
+    您也不需要這樣跟我客氣！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 109011
+  - 30
+- chara_full:
+  - 109011
+  - C
+  - 1
+- scale:
+  - 109011
+  - 1.2
+  - 2
+- se:
+  - se_adv_step_wood_move_01
+- fadein:
+  - 109011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 0
+- vo:
+  - vo_adv_1090003_019
+- face:
+  - 109011
+  - 1
+- print:
+  - 惠理子
+  - 把嘴張開……
+- wait:
+  - 82
+- face:
+  - 109011
+  - 5
+- print:
+  - 惠理子
+  - 啊～
+- wait:
+  - 30
+- eye_open:
+  - FALSE
+- print:
+  - 惠理子
+  - 嗯。
+- touch: *o0
+- window_visible:
+  - false
+- eye_open:
+  - TRUE
+- se:
+  - se_adv_cloth_move_give_01
+- nod:
+  - 109011
+- wait:
+  - 15
+- se:
+  - se_adv_eating_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 0
+- vo:
+  - vo_adv_1090003_020
+- face:
+  - 109011
+  - 2
+- print:
+  - 惠理子
+  - 嘻嘻……
+- wait:
+  - 53
+- print:
+  - 惠理子
+  - 味道如何呢？
+- wait:
+  - 85
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 109011
+  - 6
+- print:
+  - 惠理子
+  - 甜中帶著微苦，
+- wait:
+  - 57
+- print:
+  - 惠理子
+  - 非常好吃嗎？
+- touch: *o0
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 0
+- vo:
+  - vo_adv_1090003_021
+- face:
+  - 109011
+  - 5
+- emotion:
+  - heart1_R
+  - 109011
+  - 75
+  - 485
+  - se_adv_emote_heart_01
+- print:
+  - 惠理子
+  - 哎呀，
+- wait:
+  - 20
+- print:
+  - 惠理子
+  - 我好開心……
+- wait:
+  - 50
+- face:
+  - 109011
+  - 2
+- print:
+  - 惠理子
+  - 嘻嘻……
+- touch: *o0
+- bgm:
+  - stop
+  - 11
+  - 1
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 0
+- vo:
+  - vo_adv_1090003_022
+- face:
+  - 109011
+  - 6
+- print:
+  - 惠理子
+  - ……
+- wait:
+  - 67
+- print:
+  - 惠理子
+  - 您對身體會發生什麼事感到很不安嗎？
+- wait:
+  - 100
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 109011
+  - 1
+- print:
+  - 惠理子
+  - 不過，
+- wait:
+  - 27
+- print:
+  - 惠理子
+  - 什麼都不會發生的。
+- touch: *o0
+- bgm:
+  - bgm_M191
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 0
+- vo:
+  - vo_adv_1090003_023
+- face:
+  - 109011
+  - 1
+- nod:
+  - 109011
+- print:
+  - 惠理子
+  - 因為，
+- wait:
+  - 35
+- print:
+  - 惠理子
+  - 我根本沒有放任何的藥物進去。
+- wait:
+  - 120
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 109011
+  - 6
+- print:
+  - 惠理子
+  - 那個試管裡……
+- wait:
+  - 55
+- print:
+  - 惠理子
+  - 裝了什麼嗎？
+- touch: *o0
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 0
+- vo:
+  - vo_adv_1090003_024
+- face:
+  - 109011
+  - 1
+- print:
+  - 惠理子
+  - 那裡面是對身體完全無害的
+- wait:
+  - 60
+- print:
+  - 惠理子
+  - >2-
+
+    水果糖漿和利口酒。
+- touch: *o0
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 0
+- vo:
+  - vo_adv_1090003_025
+- face:
+  - 109011
+  - 5
+- print:
+  - 惠理子
+  - 我
+- wait:
+  - 40
+- print:
+  - 惠理子
+  - 這次只是
+- wait:
+  - 45
+- print:
+  - 惠理子
+  - 單純地
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 想讓{0}大人
+- wait:
+  - 15
+- print:
+  - 惠理子
+  - >2-
+
+    品嚐巧克力……
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_wood_move_01
+- fadeout:
+  - 109011
+  - 30
+- chara_full:
+  - 109011
+  - C
+  - 1
+- fadein:
+  - 109011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 0
+- vo:
+  - vo_adv_1090003_026
+- face:
+  - 109011
+  - 1
+- print:
+  - 惠理子
+  - 您覺得如何呢？　
+- wait:
+  - 37
+- print:
+  - 惠理子
+  - 我做的巧克力的味道。
+- touch: *o0
+- choice:
+  - 從未吃過的美味。
+  - 7
+- choice:
+  - 好吃的讓人還想再吃。
+  - 8
+- tag:
+  - 7
+- effect:
+  - 0044
+  - se_adv_happy_particle_01
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 0
+- vo:
+  - vo_adv_1090003_027
+- face:
+  - 109011
+  - 5
+- pop:
+  - 109011
+- print:
+  - 惠理子
+  - 哎呀……
+- wait:
+  - 38
+- print:
+  - 惠理子
+  - 我就是想聽您這麼說才做的。
+- wait:
+  - 50
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 109011
+  - 2
+- print:
+  - 惠理子
+  - '{0}大人，我現在'
+- wait:
+  - 35
+- print:
+  - 惠理子
+  - 覺得好幸福呀。
+- touch: *o0
+- goto:
+  - 9
+- tag:
+  - 8
+- effect:
+  - 0044
+  - se_adv_happy_particle_01
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 0
+- vo:
+  - vo_adv_1090003_028
+- face:
+  - 109011
+  - 1
+- nod:
+  - 109011
+- print:
+  - 惠理子
+  - 是啊，
+- wait:
+  - 50
+- print:
+  - 惠理子
+  - 只要{0}大人想吃的話，
+- wait:
+  - 48
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 109011
+  - 5
+- print:
+  - 惠理子
+  - 不管是在何時何地，
+- wait:
+  - 57
+- print:
+  - 惠理子
+  - 要吃多少我都會做給您吃。
+- touch: *o0
+- tag:
+  - 9
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 0
+- vo:
+  - vo_adv_1090003_029
+- face:
+  - 109011
+  - 4
+- print:
+  - 惠理子
+  - 現在想起來，
+- wait:
+  - 40
+- print:
+  - 惠理子
+  - 我總是想要引起{0}大人的注意，
+- wait:
+  - 60
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 109011
+  - 1
+- print:
+  - 惠理子
+  - 時常感到焦慮不安。
+- wait:
+  - 62
+- print:
+  - 惠理子
+  - >2-
+
+    可是，
+- wait:
+  - 26
+- print:
+  - 惠理子
+  - 這次我覺得非常的滿足。
+- touch: *o0
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 0
+- vo:
+  - vo_adv_1090003_030
+- face:
+  - 109011
+  - 5
+- print:
+  - 惠理子
+  - 是因為只靠我的力量
+- wait:
+  - 48
+- print:
+  - 惠理子
+  - 就被稱讚做得很美味嗎……
+- touch: *o0
+- window_visible:
+  - false
+- effect_delete:
+  - 0044
+  - 30
+- face:
+  - 109011
+  - 6
+- emotion:
+  - question1_R
+  - 109011
+  - 100
+  - 520
+  - se_adv_emote_question_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 0
+- vo:
+  - vo_adv_1090003_031
+- face:
+  - 109011
+  - 6
+- print:
+  - 惠理子
+  - 咦？　
+- wait:
+  - 43
+- print:
+  - 惠理子
+  - 你說沒有加任何的藥物
+- wait:
+  - 72
+- print:
+  - 惠理子
+  - 是真的嗎？
+- wait:
+  - 70
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 109011
+  - 1
+- print:
+  - 惠理子
+  - 啊，
+- wait:
+  - 33
+- print:
+  - 惠理子
+  - 要說的話只放了……
+- touch: *o0
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 0
+- vo:
+  - vo_adv_1090003_032
+- face:
+  - 109011
+  - 5
+- print:
+  - 惠理子
+  - 我放了滿滿的
+- wait:
+  - 57
+- print:
+  - 惠理子
+  - 叫作愛情的藥呢。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 109011
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 惠理子如此說著，對我露出了爽朗的笑容。
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

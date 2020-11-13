@@ -1,0 +1,1477 @@
+- title:
+  - 宮子（萬聖節） 第2話
+- outline:
+  - 在宮子的計畫中，只要說了「害怕萬聖節限定布丁」的話，就能夠吃到很多布丁。但是，{0}聽信了那些話，並將宮子儲藏起來的布丁全部都吃掉了。
+- background:
+  - 505030
+- amb:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 布丁好可怕
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    {0}正在鬧區買東西，
+
+    此時，跟平常不太一樣的宮子來到了他的身邊。
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 108211
+  - LC
+  - 1
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 108211
+  - 45
+- bgm:
+  - bgm_M136_Outside
+  - 0
+  - 0
+  - 1
+- window_visible:
+  - true
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_000
+- face:
+  - 108211
+  - 1
+- print:
+  - 宮子
+  - '{0}！　終於找到你了～！'
+- touch: *o0
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_001
+- face:
+  - 108211
+  - 1
+- print:
+  - 宮子
+  - 有件事想要問你所以才到這裡來的。
+- wait:
+  - 65
+- print:
+  - 宮子
+  - >2-
+
+    {0}有害怕的東西嗎？
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 108211
+  - 6
+- emotion:
+  - notice1_L
+  - 108211
+  - -65
+  - 500
+  - se_adv_emote_common_01
+- wait:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_002
+- face:
+  - 108211
+  - 6
+- print:
+  - 宮子
+  - 我、
+- wait:
+  - 15
+- print:
+  - 宮子
+  - 我沒有什麼特別的意思喔！　
+- wait:
+  - 48
+- face:
+  - 108211
+  - 3
+- print:
+  - 宮子
+  - 有點好奇而已！
+- wait:
+  - 38
+- print:
+  - 宮子
+  - >2
+
+- pop:
+  - 108211
+- print:
+  - 宮子
+  - 好啦，快點回答吧！
+- touch: *o0
+- choice:
+  - 回答「魔物」。
+  - 1
+- choice:
+  - 回答「幽靈」。
+  - 2
+- tag:
+  - 1
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_003
+- face:
+  - 108211
+  - 4
+- print:
+  - 宮子
+  - 魔物嗎～？
+- wait:
+  - 55
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 108211
+  - 1
+- print:
+  - 宮子
+  - 都幾歲的人了，居然還會害怕魔物，真是沒用來的～
+- touch: *o0
+- goto:
+  - 3
+- tag:
+  - 2
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_004
+- face:
+  - 108211
+  - 1
+- print:
+  - 宮子
+  - 幽～靈～？　
+- wait:
+  - 35
+- print:
+  - 宮子
+  - 你怕那種東西嗎～？　
+- wait:
+  - 55
+- face:
+  - 108211
+  - 3
+- print:
+  - 宮子
+  - 真是沒用的傢伙來的！
+- wait:
+  - 60
+- print:
+  - 宮子
+  - >2
+
+- pop:
+  - 108211
+- print:
+  - 宮子
+  - 幽靈什麼的到處都有喲！
+- wait:
+  - 55
+- print:
+  - 宮子
+  - >2-
+
+    宮子啊，總是看得到喲！
+- touch: *o0
+- tag:
+  - 3
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_005
+- face:
+  - 108211
+  - 3
+- print:
+  - 宮子
+  - 好土唷，
+- wait:
+  - 27
+- print:
+  - 宮子
+  - 你這個笨蛋！
+- touch: *o0
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_006
+- face:
+  - 108211
+  - 3
+- eye_open:
+  - False
+- print:
+  - 宮子
+  - 人家本來想像的是更恐怖的東西，
+- wait:
+  - 60
+- print:
+  - 宮子
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 宮子
+  - 害我失望了呢！
+- touch: *o0
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_007
+- face:
+  - 108211
+  - 1
+- print:
+  - 宮子
+  - 就當是為了沒用的你，
+- wait:
+  - 40
+- print:
+  - 宮子
+  - 只好告訴你宮子害怕的東西來的！
+- wait:
+  - 95
+- print:
+  - 宮子
+  - >2-
+
+    現在的你，一副很想知道的表情喲！
+- wait:
+  - 70
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 108211
+  - 2
+- emotion:
+  - note1_L
+  - 108211
+  - -95
+  - 460
+  - se_adv_emote_note_01
+- print:
+  - 宮子
+  - 宮子很溫柔來的～！
+- touch: *o0
+- bgm:
+  - stop
+  - 9
+  - 1
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_008
+- face:
+  - 108211
+  - 3
+- nod:
+  - 108211
+- print:
+  - 宮子
+  - 把耳朵挖乾淨聽得更清楚一點喲！
+- wait:
+  - 60
+- print:
+  - 宮子
+  - >2-
+
+    你可別跟其他人說喲！　
+- wait:
+  - 40
+- print:
+  - 宮子
+  - 把耳朵靠過來吧！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 108211
+  - 30
+- chara_full:
+  - 108211
+  - C
+  - 4
+- scale:
+  - 108211
+  - 1.2
+  - 2
+- fadein:
+  - 108211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_009
+- face:
+  - 108211
+  - 4
+- print:
+  - 宮子
+  - 一直以來我都沒跟你說……
+- wait:
+  - 70
+- print:
+  - 宮子
+  - 其實宮子啊……
+- wait:
+  - 65
+- print:
+  - 宮子
+  - 最害怕布丁來的……
+- touch: *o0
+- choice:
+  - 妳很喜歡那個吧？
+  - 4
+- choice:
+  - 怎麼可能……
+  - 5
+- tag:
+  - 4
+- bgm:
+  - bgm_M00
+- bgm:
+  - stop
+  - 0
+- bgm:
+  - bgm_M136_03
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_010
+- face:
+  - 108211
+  - 6
+- emotion:
+  - sweat2_R
+  - 108211
+  - 90
+  - 490
+  - se_adv_emote_sweat_02
+- print:
+  - 宮子
+  - 那、那是以前的我啦！　
+- wait:
+  - 60
+- face:
+  - 108211
+  - 3
+- print:
+  - 宮子
+  - 最近才開始討厭的喲！
+- touch: *o0
+- goto:
+  - 6
+- tag:
+  - 5
+- bgm:
+  - bgm_M00
+- bgm:
+  - stop
+  - 0
+- bgm:
+  - bgm_M136_03
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_011
+- face:
+  - 108211
+  - 4
+- nod:
+  - 108211
+- print:
+  - 宮子
+  - 真的啦～！
+- wait:
+  - 45
+- print:
+  - 宮子
+  - 　
+- eye_open:
+  - False
+- print:
+  - 宮子
+  - 啊啊啊啊啊，布丁好可怕來的～！！
+- touch: *o0
+- eye_open:
+  - true
+- tag:
+  - 6
+- window_visible:
+  - false
+- fadeout:
+  - 108211
+  - 30
+- chara_full:
+  - 108211
+  - C
+  - 3
+- scale:
+  - 108211
+  - 1.0
+  - 2
+- fadein:
+  - 108211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_012
+- face:
+  - 108211
+  - 3
+- print:
+  - 宮子
+  - 所以，
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 只要一想到布丁，我就會覺得不太舒服喔！
+- wait:
+  - 90
+- print:
+  - 宮子
+  - >2-
+
+    特別是萬聖節限定的布丁最可怕來的！
+- touch: *o0
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_013
+- face:
+  - 108211
+  - 3
+- print:
+  - 宮子
+  - 明明就只是個布丁，卻使用了最上等的南瓜呢！
+- wait:
+  - 82
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 108211
+  - 1
+- print:
+  - 宮子
+  - 那滑順濃醇的甜味跟生奶油簡直就是絕配，驚為天人喲！
+- touch: *o0
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_014
+- face:
+  - 108211
+  - 5
+- print:
+  - 宮子
+  - 可以說是只有這個時期才能吃到的
+- wait:
+  - 55
+- print:
+  - 宮子
+  - 特別布丁來的！
+- touch: *o0
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_015
+- face:
+  - 108211
+  - 6
+- emotion:
+  - notice1_L
+  - 108211
+  - -65
+  - 500
+  - se_adv_emote_common_01
+- print:
+  - 宮子
+  - 啊？
+- wait:
+  - 28
+- print:
+  - 宮子
+  - 那表情……你不相信我嗎？　
+- wait:
+  - 90
+- face:
+  - 108211
+  - 3
+- print:
+  - 宮子
+  - 宮子真的很怕布丁來的！
+- touch: *o0
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_016
+- face:
+  - 108211
+  - 4
+- print:
+  - 宮子
+  - 嗚……
+- shake:
+  - 108211
+- wait:
+  - 25
+- print:
+  - 宮子
+  - 光是說了布丁的事我就快要掛了……
+- wait:
+  - 100
+- print:
+  - 宮子
+  - 我要回去了……
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+- window_visible:
+  - false
+- change:
+  - RC
+  - C
+  - 45
+- fadeout:
+  - 108211
+  - 45
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 108211
+  - C
+  - 2
+- fadein:
+  - 108211
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M51
+  - 0
+  - 0
+  - 1
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_017
+- face:
+  - 108211
+  - 2
+- print:
+  - 宮子
+  - 呵呵呵……
+- wait:
+  - 45
+- print:
+  - 宮子
+  - 看來進行得很順利呢。
+- wait:
+  - 55
+- print:
+  - 宮子
+  - >2
+
+- pop:
+  - 108211
+- print:
+  - 宮子
+  - 超完美來的！　
+- wait:
+  - 23
+- print:
+  - 宮子
+  - 宮子是個天才來的！！
+- wait:
+  - 42
+- print:
+  - 宮子
+  - 　
+- emotion:
+  - twinkle1_R
+  - 108211
+  - -120
+  - 485
+  - se_adv_emote_twinkle_01
+- print:
+  - 宮子
+  - 演技派來的～！！！
+- touch: *o0
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_018
+- face:
+  - 108211
+  - 1
+- print:
+  - 宮子
+  - 只要說成這樣，
+- wait:
+  - 32
+- print:
+  - 宮子
+  - 為了讓宮子感到害怕，
+- wait:
+  - 43
+- print:
+  - 宮子
+  - >2-
+
+    應該就會特地準備很～多的布丁才對喲！
+- touch: *o0
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_019
+- face:
+  - 108211
+  - 5
+- print:
+  - 宮子
+  - 萬聖節限定布丁……
+- wait:
+  - 50
+- face:
+  - 108211
+  - 2
+- pop:
+  - 108211
+- print:
+  - 宮子
+  - 好期待來的～
+- touch: *o0
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_020
+- face:
+  - 108211
+  - 4
+- print:
+  - 宮子
+  - 啊嗚……
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 一想到布丁的事，就突然好想吃喲。
+- wait:
+  - 78
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 108211
+  - 1
+- emotion:
+  - note1_L
+  - 108211
+  - -95
+  - 460
+  - se_adv_emote_note_01
+- print:
+  - 宮子
+  - 趕快回去吃事先留下來的布丁吧～♪
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
+- window_visible:
+  - false
+- fadeout:
+  - 108211
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 500260
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_mystery_03
+- chara_full:
+  - 108211
+  - LC
+  - 2
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 108211
+  - 45
+- window_visible:
+  - true
+- bgm:
+  - bgm_M31
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_021
+- face:
+  - 108211
+  - 2
+- emotion:
+  - note1_L
+  - 108211
+  - -95
+  - 460
+  - se_adv_emote_note_01
+- print:
+  - 宮子
+  - 布丁布丁～♪　
+- wait:
+  - 40
+- print:
+  - 宮子
+  - 宮子的布丁正在等著我～♪
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_dish_02
+- wait:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_022
+- face:
+  - 108211
+  - 6
+- emotion:
+  - question1_R
+  - 108211
+  - 110
+  - 490
+  - se_adv_emote_question_01
+- print:
+  - 宮子
+  - 嗯？　
+- wait:
+  - 28
+- print:
+  - 宮子
+  - 那是什麼聲音？　
+- wait:
+  - 48
+- print:
+  - 宮子
+  - 今天伊莉亞她們應該不在才對……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 108211
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 108211
+  - LC
+  - 6
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 108211
+  - 45
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 3.5
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_023
+- face:
+  - 108211
+  - 6
+- print:
+  - 宮子
+  - ……咦，
+- emotion:
+  - surprise1_L
+  - 108211
+  - 135
+  - 545
+  - se_adv_emote_common_01
+- print:
+  - 宮子
+  - '{0}！？　'
+- wait:
+  - 10
+- face:
+  - 108211
+  - 4
+- print:
+  - 宮子
+  - 你怎麼會在這裡……
+- touch: *o0
+- bgm:
+  - bgm_M133
+  - 0
+  - 0
+  - 1
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_024
+- face:
+  - 108211
+  - 6
+- print:
+  - 宮子
+  - 啊！　
+- wait:
+  - 20
+- print:
+  - 宮子
+  - 你、你手上拿著的……
+- wait:
+  - 70
+- print:
+  - 宮子
+  - 是宮子的布丁！？
+- wait:
+  - 40
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 108211
+  - 4
+- print:
+  - 宮子
+  - 地、地上也有被吃的精光的容器～！
+- touch: *o0
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_025
+- face:
+  - 108211
+  - 6
+- print:
+  - 宮子
+  - 空的、
+- wait:
+  - 20
+- print:
+  - 宮子
+  - 空的、
+- wait:
+  - 20
+- print:
+  - 宮子
+  - 空的、
+- wait:
+  - 20
+- print:
+  - 宮子
+  - 空的！！　
+- wait:
+  - 20
+- print:
+  - 宮子
+  - 全都被吃掉了！
+- wait:
+  - 45
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 108211
+  - 4
+- pop:
+  - 108211
+- print:
+  - 宮子
+  - 你看你做了什麼好事～！？
+- touch: *o0
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_026
+- face:
+  - 108211
+  - 7
+- print:
+  - 宮子
+  - 啊啊啊啊啊……
+- wait:
+  - 33
+- print:
+  - 宮子
+  - 宮子的布丁……
+- wait:
+  - 45
+- print:
+  - 宮子
+  - 人家很努力忍耐才留下來的布丁……
+- wait:
+  - 90
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 108211
+  - 3
+- emotion:
+  - anger1_R
+  - 108211
+  - -105
+  - 535
+  - se_adv_emote_anger_01
+- print:
+  - 宮子
+  - 你到底有何居心！　
+- wait:
+  - 35
+- print:
+  - 宮子
+  - 就這麼討厭宮子嗎！？
+- wait:
+  - 45
+- print:
+  - 宮子
+  - >2-
+
+    先聽你怎麼回答再決定要怎麼詛咒你！
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 108211
+  - 6
+- emotion:
+  - notice1_L
+  - 108211
+  - -65
+  - 500
+  - se_adv_emote_common_01
+- wait:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 9
+  - 1
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_027
+- face:
+  - 108211
+  - 6
+- print:
+  - 宮子
+  - ……咦，
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 為了幫助很害怕布丁的宮子，
+- wait:
+  - 75
+- print:
+  - 宮子
+  - >2-
+
+    所以才來把宮子的布丁給吃掉？
+- touch: *o0
+- bgm:
+  - bgm_M137
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_028
+- face:
+  - 108211
+  - 4
+- print:
+  - 宮子
+  - 怎、怎麼會……
+- wait:
+  - 65
+- print:
+  - 宮子
+  - 嗚嗚……
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 你的溫柔導致了我的失策……
+- wait:
+  - 80
+- print:
+  - 宮子
+  - >2
+
+- pop:
+  - 108211
+- print:
+  - 宮子
+  - 作戰失敗來的～！
+- touch: *o0
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_029
+- face:
+  - 108211
+  - 4
+- eye_open:
+  - False
+- print:
+  - 宮子
+  - 嗚嗚嗚，
+- wait:
+  - 35
+- print:
+  - 宮子
+  - 人家不行了……
+- wait:
+  - 35
+- print:
+  - 宮子
+  - 對任何事情都提不起勁……
+- wait:
+  - 60
+- print:
+  - 宮子
+  - >2-
+
+    宮子的未來是一片黑暗來的……
+- touch: *o0
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_030
+- face:
+  - 108211
+  - 4
+- eye_open:
+  - True
+- print:
+  - 宮子
+  - 我的人生只為了萬聖節限定布丁存在的說……
+- touch: *o0
+- choice:
+  - 我去買萬聖節限定布丁給妳吃。
+  - 7
+- tag:
+  - 7
+- bgm:
+  - stop
+  - 3
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_031
+- face:
+  - 108211
+  - 6
+- emotion:
+  - exclamation1_R
+  - 108211
+  - 15
+  - 635
+  - se_adv_emote_common_01
+- print:
+  - 宮子
+  - 咦！　真的嗎！？
+- touch: *o0
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- bgm:
+  - bgm_M65
+  - 0
+  - 0
+  - 1
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_032
+- face:
+  - 108211
+  - 2
+- pop:
+  - 108211
+- print:
+  - 宮子
+  - 太好了～
+- wait:
+  - 35
+- print:
+  - 宮子
+  - '{0}果然是個好人來的～！'
+- touch: *o0
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_033
+- face:
+  - 108211
+  - 2
+- emotion:
+  - note1_L
+  - 108211
+  - -95
+  - 460
+  - se_adv_emote_note_01
+- print:
+  - 宮子
+  - 可以吃到布丁了～♪　
+- wait:
+  - 45
+- print:
+  - 宮子
+  - 宮子果然是個天才來的～
+- touch: *o0
+- effect_delete:
+  - 0022
+  - 15
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_034
+- face:
+  - 108211
+  - 1
+- print:
+  - 宮子
+  - 啊，
+- wait:
+  - 20
+- print:
+  - 宮子
+  - 宮子被你吃掉的布丁，
+- wait:
+  - 45
+- print:
+  - 宮子
+  - >2-
+
+    從明天開始慢慢還給我的話就原諒你！
+- touch: *o0
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_035
+- face:
+  - 108211
+  - 1
+- print:
+  - 宮子
+  - 每天還給我5個就好！　
+- wait:
+  - 60
+- face:
+  - 108211
+  - 3
+- print:
+  - 宮子
+  - 要是晚還的話，就要加上利息來的！
+- touch: *o0
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_036
+- face:
+  - 108211
+  - 1
+- print:
+  - 宮子
+  - 關於萬聖節限定布丁，
+- wait:
+  - 30
+- print:
+  - 宮子
+  - >2-
+
+    我已經想好要店裡最大的鬼怪級大小了！
+- wait:
+  - 92
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 108211
+  - 2
+- pop:
+  - 108211
+- print:
+  - 宮子
+  - 那是派對用的超大布丁來的！　
+- wait:
+  - 55
+- print:
+  - 宮子
+  - 不過如果是宮子的話，一個人也吃得完喲！
+- touch: *o0
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082002_037
+- face:
+  - 108211
+  - 5
+- print:
+  - 宮子
+  - 可以吃到那麼大的布丁，
+- wait:
+  - 63
+- print:
+  - 宮子
+  - 幸福到讓我覺得有點害怕～
+- wait:
+  - 80
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 108211
+  - 2
+- print:
+  - 宮子
+  - 果然宮子害怕的東西，
+- wait:
+  - 55
+- print:
+  - 宮子
+  - 或許真的是布丁沒錯呢～！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 108211
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    雖然跟當初的預定不一樣，
+
+    但還是順利地得到了萬聖節限定布丁，
+
+    宮子感到十分滿足。
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

@@ -1,0 +1,331 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500750
+- amb:
+  - amb_adv_room_noise_01
+- ui_visible:
+  - FALSE
+- situation:
+  - チエルについて
+- chara_full:
+  - 111011
+  - C
+  - 6
+- fadein:
+  - 111011
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M255_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_6023304_000
+- face:
+  - 111011
+  - 6
+- emotion:
+  - sweat1_R
+  - 111011
+  - 80
+  - 455
+  - se_adv_emote_sweat_01
+- print:
+  - ユニ
+  - ど、
+- wait:
+  - 20
+- print:
+  - ユニ
+  - どうした後輩、
+- wait:
+  - 40
+- print:
+  - ユニ
+  - 今日はエキセントリックな御登場じゃないか。
+- wait:
+  - 60
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 111011
+  - 4
+- print:
+  - ユニ
+  - さてはチエル君に
+- wait:
+  - 25
+- print:
+  - ユニ
+  - なにか吹きこまれてきたな……
+- wait:
+  - 70
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 111011
+  - 1
+- print:
+  - ユニ
+  - 彼女の悪戯は
+- wait:
+  - 35
+- print:
+  - ユニ
+  - 親愛表現だろうが、
+- wait:
+  - 45
+- print:
+  - ユニ
+  - 君は彼女をどう思っているね？
+- touch: &o0 []
+- choice:
+  - かわいい。
+  - 1
+  - 1
+- choice:
+  - おかしい。
+  - 2
+  - 2
+- choice:
+  - かしこい。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_6023304_001
+- face:
+  - 111011
+  - 1
+- eye_open:
+  - False
+- print:
+  - ユニ
+  - 同感だ。
+- wait:
+  - 40
+- eye_open:
+  - True
+- print:
+  - ユニ
+  - 彼女は持って生まれた特質を
+- wait:
+  - 30
+- print:
+  - ユニ
+  - 最大限に享受している。
+- wait:
+  - 70
+- print:
+  - ユニ
+  - >2-
+
+    世に「女の子」などと呼称されるジェンダーを
+- wait:
+  - 40
+- print:
+  - ユニ
+  - 全霊で満喫している。
+- wait:
+  - 60
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 111011
+  - 2
+- print:
+  - ユニ
+  - その自由で瑞々しい生き様を、
+- wait:
+  - 55
+- print:
+  - ユニ
+  - ぼくらは可愛いと形容するのだろう。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_6023304_002
+- face:
+  - 111011
+  - 2
+- print:
+  - ユニ
+  - まあ、
+- wait:
+  - 10
+- print:
+  - ユニ
+  - そう言ってやるな。
+- wait:
+  - 40
+- print:
+  - ユニ
+  - 彼女のああいう戯れ言や振る舞いは、
+- wait:
+  - 60
+- print:
+  - ユニ
+  - >2-
+
+    他者を楽しませたい
+- wait:
+  - 20
+- print:
+  - ユニ
+  - 道化の精神だ。
+- wait:
+  - 55
+- print:
+  - ユニ
+  - ああ見えて芯は……
+- wait:
+  - 45
+- face:
+  - 111011
+  - 6
+- wait:
+  - 30
+- print:
+  - ユニ
+  - なに？
+- wait:
+  - 65
+- print:
+  - ユニ
+  - >2
+
+- nod:
+  - 111011
+- print:
+  - ユニ
+  - ああ、
+- wait:
+  - 30
+- print:
+  - ユニ
+  - 頭がおかしいという意味ではないのか。
+- wait:
+  - 65
+- face:
+  - 111011
+  - 1
+- print:
+  - ユニ
+  - 失敬、
+- wait:
+  - 20
+- print:
+  - ユニ
+  - 早とちりだ。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_6023304_003
+- face:
+  - 111011
+  - 1
+- nod:
+  - 111011
+- print:
+  - ユニ
+  - そうだな。
+- wait:
+  - 40
+- print:
+  - ユニ
+  - 大脳皮質に情報を詰めこんだだけのぼくとは
+- wait:
+  - 55
+- print:
+  - ユニ
+  - 本質的に違う。
+- wait:
+  - 60
+- print:
+  - ユニ
+  - >2-
+
+    彼女の賢さは
+- wait:
+  - 35
+- print:
+  - ユニ
+  - もっと根源に由来する。
+- wait:
+  - 60
+- face:
+  - 111011
+  - 2
+- print:
+  - ユニ
+  - ああいうのが本物なのだろう。
+- wait:
+  - 65
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 111011
+  - 1
+- print:
+  - ユニ
+  - ……あまりにちぇるちぇるしていて日頃は忘れがちだがな。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 110811
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

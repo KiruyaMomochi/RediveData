@@ -1,0 +1,1438 @@
+- title:
+  - 深月 第4話
+- outline:
+  - 深月和{0}做了不可思議的『夢』。為了收集數據前來動物園，深月好像心情有點沉重。一被動物碰到就大驚小怪的深月向他求救。其實深月不太擅長和動物相處。
+- background:
+  - 500200
+- amb:
+  - amb_adv_wind_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 危險的接觸
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - '{0}伴隨著深月前往出診。'
+- touch: &o0 []
+- window_visible:
+  - false
+- bgm:
+  - bgm_M13
+  - 0
+  - 0
+  - 1
+- chara_full:
+  - 105111
+  - C
+  - 4
+- fadein:
+  - 105111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_1051004_000
+- face:
+  - 105111
+  - 4
+- print:
+  - 深月
+  - 不好意思呢，
+- nod:
+  - 105111
+- print:
+  - 深月
+  - 明明不是做實驗卻讓你跟著來。
+- wait:
+  - 30
+- touch: *o0
+- choice:
+  - 只要不是做實驗的話什麼時候都可以陪妳。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_1051004_001
+- face:
+  - 105111
+  - 6
+- print:
+  - 深月
+  - 哎呀，你真無情。
+- wait:
+  - 60
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 5
+- print:
+  - 深月
+  - 不也挺好的嗎，什麼事都是人生經驗唷？
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_1051004_002
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 今天的病人是在這一帶從事挖採的人哦。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_1051004_003
+- face:
+  - 105111
+  - 6
+- print:
+  - 深月
+  - 雖然以難以伺候聞名，我可是完全不在意的哦。
+- wait:
+  - 55
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 大概是在醫生面前的關係，所以是位話有點多的大叔呢。
+- wait:
+  - 30
+- touch: *o0
+- choice:
+  - ……妳有不擅長的東西嗎？
+  - 2
+- tag:
+  - 2
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_1051004_004
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 有還是有的唷？
+- wait:
+  - 105
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 4
+- eye_open:
+  - FALSE
+- print:
+  - 深月
+  - ……不過不太想讓人知道呢，我不擅長的東西。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0005
+  - se_adv_holylight_01
+- amb_stop:
+  - 1
+- eye_open:
+  - TRUE
+- face:
+  - 105111
+  - 6
+- emotion:
+  - surprise1_L
+  - 105111
+  - 110
+  - 590
+  - '*non'
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_1051004_005
+- face:
+  - 105111
+  - 6
+- print:
+  - 深月
+  - ……哎呀？
+- wait:
+  - 10
+- print:
+  - 深月
+  - >2-
+
+    這道光是怎麼回事？
+- wait:
+  - 10
+- print:
+  - 深月
+  - >2-
+
+    不知道怎的……
+- face:
+  - 105111
+  - 4
+- print:
+  - 深月
+  - 突然、好睏……
+- wait:
+  - 90
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 3
+  - 1
+- fadeout:
+  - 105111
+  - 30
+- effect:
+  - 06
+  - se_adv_whiteout_01
+- white_out:
+  - 1
+  - 1
+- bg_color:
+  - 255
+  - 255
+  - 255
+- effect_delete:
+  - 05
+- effect_delete:
+  - 06
+- insert: *o0
+- background:
+  - 510140
+- wait:
+  - 30
+- white_in: *o0
+- amb:
+  - amb_adv_zoo_01
+- wait:
+  - 30
+- bgm:
+  - bgm_M74
+- chara_full:
+  - 105131
+  - C
+  - 4
+- fadein:
+  - 105131
+  - 30
+- bright_change:
+  - 1
+  - 50
+- effect:
+  - 0047
+  - se_adv_emote_gloomy_01
+- window_visible:
+  - true
+- focus:
+  - 105131
+- bust:
+  - 105131
+  - 0
+- vo:
+  - vo_adv_1051004_006
+- face:
+  - 105131
+  - 4
+- print:
+  - 深月
+  - 為什麼我會在動物園……
+- wait:
+  - 75
+- print:
+  - 深月
+  - >2-
+
+    呼……
+- nod:
+  - 105131
+- print:
+  - 深月
+  - 感覺好沈重。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 105131
+- bust:
+  - 105131
+  - 0
+- vo:
+  - vo_adv_1051004_007
+- face:
+  - 105131
+  - 4
+- print:
+  - 深月
+  - 我的確是說過為了實驗想要動物的數據，
+- wait:
+  - 105
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105131
+  - 3
+- print:
+  - 深月
+  - 不過這樣不就沒了找你幫忙的意義了嗎。
+- touch: *o0
+- window_visible:
+  - false
+- effect_delete:
+  - 0047
+  - 30
+- bright_change:
+  - 1
+  - 100
+- face:
+  - 105131
+  - 6
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 105131
+- bust:
+  - 105131
+  - 0
+- vo:
+  - vo_adv_1051004_008
+- face:
+  - 105131
+  - 6
+- print:
+  - 深月
+  - ……自己來收集是最好的？
+- wait:
+  - 10
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105131
+  - 4
+- print:
+  - 深月
+  - 這個……的確是這樣沒錯。
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 105131
+- bust:
+  - 105131
+  - 0
+- vo:
+  - vo_adv_1051004_009
+- face:
+  - 105131
+  - 4
+- print:
+  - 深月
+  - 算了，既然都變成這樣就沒辦法了呢。
+- wait:
+  - 55
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105131
+  - 3
+- print:
+  - 深月
+  - 只好硬著頭皮去了。
+- wait:
+  - 30
+- touch: *o0
+- bgm:
+  - stop
+  - 3.3
+- window_visible:
+  - false
+- fadeout:
+  - 105131
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 105131
+  - C
+  - 2
+- fadein:
+  - 105131
+  - 30
+- effect:
+  - 0044
+  - se_adv_happy_particle_01
+- window_visible:
+  - true
+- bgm:
+  - bgm_M75
+  - 0
+  - 0
+  - 1
+- focus:
+  - 105131
+- bust:
+  - 105131
+  - 0
+- vo:
+  - vo_adv_1051004_010
+- face:
+  - 105131
+  - 2
+- print:
+  - 深月
+  - 嘻嘻……原來還挺抗拒的，不過這裡 出乎意外地有趣呢。
+- wait:
+  - 60
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105131
+  - 1
+- print:
+  - 深月
+  - 尤其是熊啊大象啊之類的……
+- wait:
+  - 45
+- print:
+  - 深月
+  - >2-
+
+    還有老虎也是，真棒。
+- touch: *o0
+- focus:
+  - 105131
+- bust:
+  - 105131
+  - 0
+- vo:
+  - vo_adv_1051004_011
+- face:
+  - 105131
+  - 2
+- print:
+  - 深月
+  - 看著大型的動物真有意思。
+- wait:
+  - 10
+- print:
+  - 深月
+  - >2-
+
+    想像戰鬥時要如何攻擊才能打倒牠們之類的也很有趣呢。
+- wait:
+  - 30
+- touch: *o0
+- effect_delete:
+  - 0044
+  - 30
+- focus:
+  - 105131
+- bust:
+  - 105131
+  - 0
+- vo:
+  - vo_adv_1051004_012
+- face:
+  - 105131
+  - 1
+- print:
+  - 深月
+  - 接著要去哪裡？
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 105131
+  - 6
+- shake:
+  - 105131
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 105131
+- bust:
+  - 105131
+  - 0
+- vo:
+  - vo_adv_1051004_013
+- face:
+  - 105131
+  - 6
+- print:
+  - 深月
+  - 欸……接觸區！？
+- wait:
+  - 55
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105131
+  - 4
+- shake:
+  - 105131
+- print:
+  - 深月
+  - 這、這、這樣的話我可不去！太危險了！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 105131
+- bust:
+  - 105131
+  - 0
+- vo:
+  - vo_adv_1051004_014
+- face:
+  - 105131
+  - 4
+- emotion:
+  - drop1_R
+  - 105131
+  - 57
+  - 705
+  - se_adv_emote_drop_01
+- print:
+  - 深月
+  - 啊啊，不過還需要收集數據……
+- wait:
+  - 75
+- print:
+  - 深月
+  - >2-
+
+    嗚嗚……明白了。
+- wait:
+  - 75
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105131
+  - 3
+- print:
+  - 深月
+  - 我去就好了是吧，去就去！
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105131
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 105131
+  - C
+  - 1
+- fadein:
+  - 105131
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105131
+- bust:
+  - 105131
+  - 0
+- vo:
+  - vo_adv_1051004_015
+- face:
+  - 105131
+  - 6
+- print:
+  - 深月
+  - 嘿，動物的種類還挺多的呢。
+- wait:
+  - 105
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105131
+  - 1
+- print:
+  - 深月
+  - 對了……兔子之類的我一直都覺得很可愛呢。
+- wait:
+  - 60
+- print:
+  - 深月
+  - >2-
+
+    如果只是看的話……
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 105131
+  - 6
+- emotion:
+  - surprise1_L
+  - 105131
+  - 150
+  - 590
+  - se_adv_emote_common_01
+- pop:
+  - 105131
+- wait:
+  - 5
+- window_visible:
+  - true
+- focus:
+  - 105131
+- bust:
+  - 105131
+  - 0
+- vo:
+  - vo_adv_1051004_016
+- face:
+  - 105131
+  - 6
+- print:
+  - 深月
+  - 碰、碰碰看……！？
+- wait:
+  - 40
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105131
+  - 3
+- print:
+  - 深月
+  - 一來就接觸太高難度了啦！
+- touch: *o0
+- choice:
+  - 試試看餵食？
+  - 3
+- choice:
+  - 試試看抱起來？
+  - 4
+- tag:
+  - 3
+- focus:
+  - 105131
+- bust:
+  - 105131
+  - 0
+- vo:
+  - vo_adv_1051004_017
+- face:
+  - 105131
+  - 6
+- print:
+  - 深月
+  - 餵食！？
+- pop:
+  - 105131
+- wait:
+  - 10
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105131
+  - 4
+- print:
+  - 深月
+  - 不、不過我餵的話可能會堵住牠的喉嚨……
+- wait:
+  - 10
+- touch: *o0
+- goto:
+  - 5
+- tag:
+  - 4
+- focus:
+  - 105131
+- bust:
+  - 105131
+  - 0
+- vo:
+  - vo_adv_1051004_018
+- face:
+  - 105131
+  - 4
+- print:
+  - 深月
+  - 就、
+- shake:
+  - 105131
+- print:
+  - 深月
+  - 就算你這樣說……
+- wait:
+  - 55
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105131
+  - 3
+- print:
+  - 深月
+  - 我不知道該怎樣拿捏力氣，說不定會惹怒牠……
+- wait:
+  - 30
+- touch: *o0
+- tag:
+  - 5
+- bgm:
+  - stop
+  - 3.2
+  - 1
+- window_visible:
+  - false
+- fadeout:
+  - 105131
+  - 30
+- white_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- still:
+  - 105100401
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- bgm:
+  - bgm_M51
+- white_in: *o0
+- amb:
+  - amb_adv_zoo_01
+  - 3
+- pan:
+  - 600
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- wait:
+  - 5
+- se:
+  - se_adv_zoo_monkeys_01
+- window_visible:
+  - true
+- focus:
+  - 105131
+- bust:
+  - 105131
+  - 1
+- vo:
+  - vo_adv_1051004_019
+- face:
+  - 105131
+  - 6
+- print:
+  - 深月
+  - 啊！？
+- wait:
+  - 15
+- print:
+  - 深月
+  - >2-
+
+    猴、猴子爬到我的肩膀上！？
+- wait:
+  - 30
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105131
+  - 4
+- print:
+  - 深月
+  - 快點，幫我拿開！
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 105131
+- bust:
+  - 105131
+  - 1
+- vo:
+  - vo_adv_1051004_020
+- face:
+  - 105131
+  - 4
+- print:
+  - 深月
+  - 那個……說實話我不太擅長親近動物……！
+- wait:
+  - 70
+- touch: *o0
+- focus:
+  - 105131
+- bust:
+  - 105131
+  - 1
+- vo:
+  - vo_adv_1051004_021
+- face:
+  - 105131
+  - 6
+- print:
+  - 深月
+  - 不是討厭或是害怕牠們啦！？
+- wait:
+  - 10
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105131
+  - 4
+- print:
+  - 深月
+  - 只不過……不知道要怎麼樣跟牠們相處……！
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 105131
+- bust:
+  - 105131
+  - 1
+- vo:
+  - vo_adv_1051004_022
+- face:
+  - 105131
+  - 4
+- print:
+  - 深月
+  - 從遠處看的話還好……
+- wait:
+  - 10
+- print:
+  - 深月
+  - >2-
+
+    不過要在這種近距離，
+- wait:
+  - 40
+- print:
+  - 深月
+  - >2-
+
+    還要接觸牠們……！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_zoo_monkeys_02
+- wait:
+  - 15
+- change_window:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 105131
+- bust:
+  - 105131
+  - 1
+- vo:
+  - vo_adv_1051004_023
+- face:
+  - 105131
+  - 4
+- print:
+  - 深月
+  - ……已、已經是極限了！
+- wait:
+  - 70
+- print:
+  - 深月
+  - >2-
+
+    我們快點回去吧！
+- touch: *o0
+- window_visible:
+  - false
+- wait:
+  - 15
+- bgm:
+  - stop
+  - 3
+- effect:
+  - 05
+  - se_adv_holylight_01
+- effect:
+  - 06
+  - se_adv_whiteout_01
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 05
+- effect_delete:
+  - 06
+- effect_delete:
+  - 0022
+- still:
+  - end
+- background:
+  - 500270
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- effect:
+  - 0029
+- effect:
+  - 0026
+- effect:
+  - 15
+  - se_adv_whiteout_02
+- white_in: *o0
+- amb:
+  - amb_adv_wind_01
+- vo_effect:
+  - 3
+- wait:
+  - 60
+- bgm:
+  - bgm_M40
+  - 0
+  - 0
+  - 1
+- chara_full:
+  - 190011
+  - C
+  - 2
+- fadein:
+  - 190011
+  - 30
+- change_window:
+  - 1
+- window_visible:
+  - true
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1051004_024
+- face:
+  - 190011
+  - 2
+- print:
+  - 愛梅斯
+  - 好的，辛苦了～♪
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1051004_025
+- face:
+  - 190011
+  - 1
+- print:
+  - 愛梅斯
+  - '你看見的，是如同夢境一般的情景唷。 '
+- wait:
+  - 60
+- print:
+  - 愛梅斯
+  - "\n你醒來以後幾乎都會忘記的， "
+- wait:
+  - 30
+- print:
+  - 愛梅斯
+  - >2-
+
+    所以沒關係，不用太在意哦。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1051004_026
+- face:
+  - 190011
+  - 6
+- print:
+  - 愛梅斯
+  - 深月原來不擅長親近動物呢。
+- wait:
+  - 45
+- print:
+  - 愛梅斯
+  - >2
+
+- face:
+  - 190011
+  - 1
+- print:
+  - 愛梅斯
+  - 我稍微有點意外哦。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1051004_027
+- face:
+  - 190011
+  - 2
+- print:
+  - 愛梅斯
+  - 只要靠近動物就會慌張起來，
+- wait:
+  - 60
+- print:
+  - 愛梅斯
+  - >2
+
+- face:
+  - 190011
+  - 5
+- print:
+  - 愛梅斯
+  - 深月也有可愛之處呢。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1051004_028
+- face:
+  - 190011
+  - 2
+- print:
+  - 愛梅斯
+  - 你看，她平時總是一直做實驗，
+- wait:
+  - 70
+- print:
+  - 愛梅斯
+  - >2-
+
+    不會展現這種像女孩子的一面吧？
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1051004_029
+- face:
+  - 190011
+  - 5
+- print:
+  - 愛梅斯
+  - 成熟女人示弱的場面，很棒對吧。
+- wait:
+  - 55
+- print:
+  - 愛梅斯
+  - >2-
+
+    然後你就會想保護她之類的……
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1051004_030
+- face:
+  - 190011
+  - 6
+- print:
+  - 愛梅斯
+  - 哎呀，怎麼說些無關緊要的事了呢。
+- wait:
+  - 75
+- print:
+  - 愛梅斯
+  - >2
+
+- face:
+  - 190011
+  - 2
+- print:
+  - 愛梅斯
+  - 這次就先聊到這裡吧。
+- wait:
+  - 45
+- print:
+  - 愛梅斯
+  - >2-
+
+    再見囉～♪
+- touch: *o0
+- window_visible:
+  - false
+- vo_effect:
+  - 0
+- fadeout:
+  - 190011
+  - 30
+- effect:
+  - 06
+  - se_adv_whiteout_01
+- bgm:
+  - stop
+  - 3
+  - 1
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 06
+- effect_delete:
+  - 29
+- effect_delete:
+  - 26
+- background:
+  - 500200
+- amb_stop:
+  - 1
+- wait:
+  - 30
+- white_in: *o0
+- amb:
+  - amb_adv_wind_01
+- wait:
+  - 30
+- chara_full:
+  - 105111
+  - C
+  - 4
+  - 1
+- fadein:
+  - 105111
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M52
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_1051004_031
+- face:
+  - 105111
+  - 4
+- print:
+  - 深月
+  - 嗯嗯……？
+- eye_open:
+  - TRUE
+- print:
+  - 深月
+  - ……難道，我睡著了……？
+- wait:
+  - 80
+- print:
+  - 深月
+  - >2-
+
+    竟然在這種地方睡著，看來我也累了呢……？
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_1051004_032
+- face:
+  - 105111
+  - 4
+- print:
+  - 深月
+  - 話說回來，還真是討厭的夢呢……
+- wait:
+  - 90
+- print:
+  - 深月
+  - >2-
+
+    居然做了要和動物接觸的夢……
+- touch: *o0
+- choice:
+  - 妳是指猴子？
+  - 6
+- tag:
+  - 6
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_1051004_033
+- face:
+  - 105111
+  - 6
+- emotion:
+  - surprise1_L
+  - 105111
+  - 110
+  - 590
+  - se_adv_emote_common_01
+- print:
+  - 深月
+  - 欸？ 嗯，
+- face:
+  - 105111
+  - 4
+- print:
+  - 深月
+  - 對唷。小隻的那種……
+- wait:
+  - 60
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 6
+- print:
+  - 深月
+  - 該不會你也做了同一個夢……？
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_tickle_02
+- nod:
+  - 105111
+- nod:
+  - 105111
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_1051004_034
+- face:
+  - 105111
+  - 6
+- print:
+  - 深月
+  - ……嘿，竟然有這種不可思議的事情呢。
+- wait:
+  - 55
+- print:
+  - 深月
+  - >2-
+
+    真有意思呀。
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_1051004_035
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 真想確認一下，
+- wait:
+  - 10
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 還會不會發生同樣的現象呢……
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_1051004_036
+- face:
+  - 105111
+  - 5
+- print:
+  - 深月
+  - 喂，你呀。一會兒要不要來我家？
+- wait:
+  - 85
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 我有很多想嘗試的事呢……♪
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    感到不妙的{0}，
+
+    全力從那裡逃了出來。
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

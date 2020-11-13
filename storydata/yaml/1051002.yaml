@@ -1,0 +1,1206 @@
+- title:
+  - 深月 第2話
+- outline:
+  - '{0}在月光學院遇到深月，聞了奇妙的玫瑰香氣後進入了催眠狀態。和深月透漏了關於喪失記憶等各種事情的他，讓深月對這個實驗品產生了更大的興趣。'
+- background:
+  - 500080
+- amb:
+  - amb_adv_room_noise_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 催眠術・測試
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    {0}為了完成被派遣的任務而到訪了月光學院，
+
+    並在某間教室裡發現了熟悉的人影。
+- touch: &o0 []
+- window_visible:
+  - false
+- bgm:
+  - bgm_M04_02NoIntro01
+  - 0
+  - 0
+  - 1
+- chara_full:
+  - 105111
+  - C
+  - 6
+- fadein:
+  - 105111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_1051002_000
+- face:
+  - 105111
+  - 6
+- print:
+  - 深月
+  - 哎呀？
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 居然能在這種地方碰見你，好巧哦。
+- wait:
+  - 20
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 你在工作嗎？我也是因為工作在這裡哦。
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_1051002_001
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 偶爾我會給這裡的學生上課。
+- wait:
+  - 25
+- print:
+  - 深月
+  - >2-
+
+    相對地，我做實驗時就可以借用這裡的教室。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_1051002_002
+- face:
+  - 105111
+  - 4
+- print:
+  - 深月
+  - 我現在也正好在為實驗做準備……
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 105111
+  - 6
+- emotion:
+  - notice2_L
+  - 105111
+  - -165
+  - 570
+  - se_adv_emote_nortice_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_1051002_003
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 對了！要不你現在就來當我的實驗品？
+- wait:
+  - 20
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 之前不是約好了的嗎？
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_1051002_004
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 放心吧。這次並不是什麼危險的實驗。
+- wait:
+  - 20
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 4
+- print:
+  - 深月
+  - ……大概。
+- touch: *o0
+- choice:
+  - 逃走。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_1051002_005
+- face:
+  - 105111
+  - 4
+- print:
+  - 深月
+  - 你已經要回去了嗎？……真可惜。
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 3
+  - 1
+- fadeout:
+  - 105111
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- shake_loop: *o0
+- se:
+  - se_adv_door_not_open_01
+- wait:
+  - 30
+- shake_delete: *o0
+- window_visible:
+  - true
+- bgm:
+  - bgm_M14
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 1
+- vo:
+  - vo_adv_1051002_006
+- face:
+  - 105111
+  - 4
+- print:
+  - 深月
+  - ……怎麼了？難道門開不了嗎？
+- wait:
+  - 40
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 105111
+  - C
+  - 2
+- fadein:
+  - 105111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_1051002_007
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 其實呢，我在教室裡施展了結界魔法。
+- wait:
+  - 70
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 3
+- print:
+  - 深月
+  - 我不解除的話，無論是誰也無法進出。
+- wait:
+  - 30
+- touch: *o0
+- eye_open:
+  - TRUE
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_1051002_008
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 嚇到你了？
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 平時是為了不讓實驗動物逃走而用的，
+- wait:
+  - 55
+- print:
+  - 深月
+  - >2-
+
+    不過……
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 有備無患嘛♪
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105111
+  - 30
+- chara_full:
+  - 105111
+  - C
+  - 2
+- scale:
+  - 105111
+  - 1.3
+  - 1
+- fadein:
+  - 105111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_1051002_009
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 反正你無路可逃了，
+- face:
+  - 105111
+  - 5
+- print:
+  - 深月
+  - 快點死心過來幫忙吧。
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 3
+- fadeout:
+  - 105111
+  - 30
+- white_out:
+  - 1
+  - 1
+- bg_color:
+  - 255
+  - 255
+  - 255
+- still:
+  - 105100201
+- wait:
+  - 15
+- bgm:
+  - bgm_M21_02
+  - 0
+  - 0
+  - 1
+- white_in: *o0
+- amb:
+  - amb_adv_mystery_02
+- window_visible:
+  - true
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 1
+- vo:
+  - vo_adv_1051002_010
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 我最近在為這種會產生特殊香氣的薔薇做品種改良哦。
+- wait:
+  - 75
+- print:
+  - 深月
+  - >2-
+
+    就是這個……你看。這種花的色調很棒對吧？
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 1
+- vo:
+  - vo_adv_1051002_011
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 來聞一下這種花的香氣……
+- wait:
+  - 20
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 這樣一來你就會對我言聽計從了哦……
+- wait:
+  - 45
+- touch: *o0
+- choice:
+  - 停止呼吸。
+  - 2
+- choice:
+  - 盡可能保持距離。
+  - 3
+- tag:
+  - 2
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 1
+- vo:
+  - vo_adv_1051002_012
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 嘻嘻嘻……看你能忍到什麼時候？
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 1
+- vo:
+  - vo_adv_1051002_013
+- face:
+  - 105111
+  - 5
+- print:
+  - 深月
+  - ……快忍不住了吧？
+- wait:
+  - 10
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - >
+    牙一咬吸氣吧。
+- face:
+  - 105111
+  - 3
+- print:
+  - 深月
+  - 來……請放輕鬆……
+- wait:
+  - 30
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 1
+- vo:
+  - vo_adv_1051002_014
+- face:
+  - 105111
+  - 6
+- print:
+  - 深月
+  - 哎呀，你以為走遠點就可以了？
+- wait:
+  - 70
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 4
+- print:
+  - 深月
+  - 很可惜，
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 因為有結界所以教室裡會充滿香氣哦。
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 1
+- vo:
+  - vo_adv_1051002_015
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 我已經喝了解藥，能對香氣的效果免疫
+- wait:
+  - 75
+- print:
+  - 深月
+  - >2-
+
+    但你呢……
+- wait:
+  - 45
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 你看，香氣越來越濃了唷。
+- wait:
+  - 30
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- vo_effect:
+  - 2
+- still:
+  - 105100202
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 8
+  - 1
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 1
+- vo:
+  - vo_adv_1051002_016
+- face:
+  - 105111
+  - 5
+- print:
+  - 深月
+  - 嘻嘻……你剛剛吸進去了吧？
+- wait:
+  - 105
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 馬上就會有效果了唷。
+- touch: *o0
+- bgm:
+  - bgm_M39
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 1
+- vo:
+  - vo_adv_1051002_017
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 你越來越想睡了吧？
+- wait:
+  - 75
+- print:
+  - 深月
+  - >2-
+
+    來，過來在這裡坐下。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 1
+- vo:
+  - vo_adv_1051002_018
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 好了，我要確認一下催眠術的效果唷。
+- wait:
+  - 105
+- print:
+  - 深月
+  - >2-
+
+    你的名字是？
+- touch: *o0
+- choice:
+  - ……{0}。
+  - 5
+- tag:
+  - 5
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 1
+- vo:
+  - vo_adv_1051002_019
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 嘻嘻嘻，真是乖孩子。
+- wait:
+  - 75
+- print:
+  - 深月
+  - >2-
+
+    催眠已經開始有效果了呢。
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 1
+- vo:
+  - vo_adv_1051002_020
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 那麼就來下一個問題了唷。
+- wait:
+  - 75
+- print:
+  - 深月
+  - >2-
+
+    告訴我，對你來說最丟臉的往事是什麼？
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 1
+- vo:
+  - vo_adv_1051002_021
+- face:
+  - 105111
+  - 6
+- print:
+  - 深月
+  - ……欸？ 沒有？
+- wait:
+  - 20
+- print:
+  - 深月
+  - >2-
+
+    怎麼可能……
+- face:
+  - 105111
+  - 4
+- print:
+  - 深月
+  - 丟臉的回憶應該是最深刻的啊……
+- wait:
+  - 135
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 你能告訴我為什麼沒有丟臉的回憶嗎？
+- touch: *o0
+- choice:
+  - 我沒有記憶。
+  - 6
+- tag:
+  - 6
+- window_visible:
+  - false
+- vo_effect:
+  - 4
+- still:
+  - 105100202
+- window_visible:
+  - true
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 1
+- vo:
+  - vo_adv_1051002_022
+- face:
+  - 105111
+  - 6
+- print:
+  - 深月
+  - 喪失記憶……
+- face:
+  - 105111
+  - 4
+- print:
+  - 深月
+  - 原來如此。
+- wait:
+  - 135
+- print:
+  - 深月
+  - >2-
+
+    憑這簡單的技法可能無法幫你恢復記憶……
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 1
+- vo:
+  - vo_adv_1051002_023
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 那麼把你現在對自己所認知的一切統統告訴我？
+- wait:
+  - 70
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 1
+- vo:
+  - vo_adv_1051002_024
+- face:
+  - 105111
+  - 6
+- print:
+  - 深月
+  - ……欸，還發生了這種事情……然後呢？
+- wait:
+  - 30
+- print:
+  - 深月
+  - >2-
+
+    嗯……
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 這還挺有意思的呢……
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 1
+- vo:
+  - vo_adv_1051002_025
+- face:
+  - 105111
+  - 6
+- print:
+  - 深月
+  - ……公主騎士？ 能使女孩子變強的神力？
+- wait:
+  - 100
+- print:
+  - 深月
+  - >2-
+
+    這種事情也做得到嗎？
+- wait:
+  - 75
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - ……真有趣呢。關於神力的事，能說得再詳細點嗎……！
+- wait:
+  - 60
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 10
+- transition:
+  - 52
+  - 1.5
+- still:
+  - end
+- bg_color:
+  - 0
+  - 0
+  - 0
+- wait:
+  - 5
+- transition_resume: *o0
+- window_visible:
+  - true
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 1
+- vo:
+  - vo_adv_1051002_026
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - ……我現在開始數到三，你就會醒過來哦。
+- wait:
+  - 105
+- print:
+  - 深月
+  - >2-
+
+    一……二……三！
+- wait:
+  - 90
+- touch: *o0
+- window_visible:
+  - false
+- vo_effect:
+  - 0
+- transition:
+  - 52
+  - 1.5
+- amb_stop:
+  - 0.5
+  - amb_adv_mystery_02
+- wait:
+  - 15
+- background:
+  - 500080
+- transition_resume: *o0
+- chara_full:
+  - 105111
+  - C
+  - 1
+- fadein:
+  - 105111
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M67
+  - 0
+  - 0
+  - 1
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_1051002_027
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - ……早啊。感覺怎樣？
+- wait:
+  - 90
+- print:
+  - 深月
+  - >2-
+
+    剛剛我聽了不少關於你的事哦。
+- wait:
+  - 30
+- touch: *o0
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_1051002_028
+- face:
+  - 105111
+  - 5
+- print:
+  - 深月
+  - 記憶喪失還有特殊能力……
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 你的背景真是精彩，
+- wait:
+  - 75
+- print:
+  - 深月
+  - >2-
+
+    不只把你當作實驗品，我對你整個人都產生興趣了哦！
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_1051002_029
+- face:
+  - 105111
+  - 5
+- print:
+  - 深月
+  - 這樣一來就得對你進行更仔細的身體檢查了呢！
+- wait:
+  - 75
+- print:
+  - 深月
+  - >2-
+
+    嘻嘻嘻……有意義的調查真令人興奮！
+- wait:
+  - 45
+- touch: *o0
+- effect_delete:
+  - 0022
+  - 30
+- choice:
+  - 趁現在逃走。
+  - 7
+- tag:
+  - 7
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_move_01
+- fadeout:
+  - 105111
+  - 30
+- chara_full:
+  - 105111
+  - C
+  - 2
+- scale:
+  - 105111
+  - 1.3
+  - 1
+- fadein:
+  - 105111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_1051002_030
+- face:
+  - 105111
+  - 6
+- emotion:
+  - question1_R
+  - 105111
+  - 85
+  - 560
+  - se_adv_emote_question_01
+- print:
+  - 深月
+  - 哎呀，你要去哪裡？ 雖然我已經解開了結界魔法……
+- wait:
+  - 30
+- print:
+  - 深月
+  - "\n你不陪我做檢查了嗎？ "
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 不會弄疼你的唷…… 嗯？
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_1051002_031
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 因為以後也要讓你參與各種不同的實驗，
+- wait:
+  - 10
+- print:
+  - 深月
+  - >2-
+
+    我必須要對你全身上下的每個部位都完全掌握哦。
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_1051002_032
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 要是服用了不適當的藥物，後果不堪設想哦。
+- wait:
+  - 105
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 為了不讓這種事情發生，我必須由頭到尾地
+- wait:
+  - 75
+- print:
+  - 深月
+  - >2-
+
+    把你的身體調查清楚。
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_1051002_033
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - ……你要乖乖的。
+- face:
+  - 105111
+  - 3
+- print:
+  - 深月
+  - 還有不少地方要確認呢……
+- wait:
+  - 130
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 好了，要開始了唷！
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105111
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    無法抵抗的{0}
+
+    除了重要部位以外，都被完完全全地調查了一遍……
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

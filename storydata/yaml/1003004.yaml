@@ -1,0 +1,1806 @@
+- title:
+  - 怜 第4話
+- outline:
+  - 在兩人做的「夢」裡，有著大小姐氣質的怜的樣子。怜只有在{0}的面前會恢復本來的樣子。醒來後的怜透漏自己高貴的血統，{0}接受了。
+- background:
+  - 500030
+- amb:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 毫無虛假的笑容
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    這是{0}為了準備修練，
+
+    和怜一起出門買糧食時發生的事情。
+- touch: &o0 []
+- window_visible:
+  - false
+- bgm:
+  - bgm_M53
+- chara_full:
+  - 100311
+  - C
+  - 3
+- fadein:
+  - 100311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003004_000
+- face:
+  - 100311
+  - 3
+- print:
+  - 怜
+  - 嗯……接著要買什麼好呢。
+- wait:
+  - 105
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 問你一下，購物清單上還有什麼――
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 100311
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100311
+  - 0
+  - 660
+  - se_adv_emote_common_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003004_001
+- face:
+  - 100311
+  - 3
+- print:
+  - 怜
+  - 不好了！
+- wait:
+  - 10
+- print:
+  - 怜
+  - >2-
+
+    你快來這邊一下！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_walk_armor_go_02
+- out_L:
+  - 100311
+  - 45
+  - true
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 500010
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- chara_full:
+  - 100311
+  - RC
+  - 3
+- change:
+  - C
+  - RC
+  - 30
+- fadein:
+  - 100311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003004_002
+- face:
+  - 100311
+  - 3
+- print:
+  - 怜
+  - ……還好，到了這邊應該可以放心了。
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003004_003
+- face:
+  - 100311
+  - 4
+- print:
+  - 怜
+  - 不好意思。
+- wait:
+  - 10
+- print:
+  - 怜
+  - >2-
+
+    我看到家裡的人了。
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003004_004
+- face:
+  - 100311
+  - 4
+- print:
+  - 怜
+  - 並不是不想見到他們，
+- wait:
+  - 70
+- print:
+  - 怜
+  - >2-
+
+    只是因為現在跟你在一起……
+- touch: *o0
+- effect:
+  - 0005
+  - se_adv_holylight_01
+- amb_stop:
+  - 1
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003004_005
+- face:
+  - 100311
+  - 6
+- shake:
+  - 100311
+- print:
+  - 怜
+  - 嗚！這道光芒是怎麼回事！？
+- wait:
+  - 50
+- print:
+  - 怜
+  - >2-
+
+    好刺眼……！
+- touch: *o0
+- bgm:
+  - stop
+  - 4
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003004_006
+- face:
+  - 100311
+  - 4
+- print:
+  - 怜
+  - 什麼也……
+- wait:
+  - 10
+- print:
+  - 怜
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - 怜
+  - 看不見了……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100311
+  - 30
+- effect:
+  - 0006
+  - se_adv_whiteout_01
+- white_out:
+  - 1
+  - 1
+- bg_color:
+  - 255
+  - 255
+  - 255
+- effect_delete:
+  - 0005
+- effect_delete:
+  - 0006
+- insert: *o0
+- background:
+  - 510350
+- wait:
+  - 30
+- white_in: *o0
+- amb:
+  - amb_adv_gaya_cmn_01
+- amb:
+  - amb_adv_city_jpnstreet_01
+- wait:
+  - 30
+- bgm:
+  - bgm_M74
+  - 0
+  - 0
+  - 1
+- window_visible:
+  - true
+- focus:
+  - 1231
+- bust:
+  - 1231
+  - 0
+- vo:
+  - vo_adv_1003004_007
+- face:
+  - 1231
+  - 1
+- print:
+  - 女學生
+  - 士條同學也是這麼認為嗎？
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 100331
+  - C
+  - 1
+- fadein:
+  - 100331
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100331
+- bust:
+  - 100331
+  - 0
+- vo:
+  - vo_adv_1003004_008
+- face:
+  - 100331
+  - 1
+- print:
+  - 怜
+  - 委員會的事嗎？
+- wait:
+  - 45
+- print:
+  - 怜
+  - >2-
+
+    請不用擔心。妳沒有任何的錯。
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 100331
+- bust:
+  - 100331
+  - 0
+- vo:
+  - vo_adv_1003004_009
+- face:
+  - 100331
+  - 2
+- print:
+  - 怜
+  - 這件事可以交給我來處理嗎？
+- wait:
+  - 20
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100331
+  - 1
+- print:
+  - 怜
+  - 我會好好地將大家的意見做個統整。
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 1231
+- bust:
+  - 1231
+  - 0
+- vo:
+  - vo_adv_1003004_010
+- face:
+  - 1231
+  - 2
+- print:
+  - 女學生
+  - 太好了！ 真的可以嗎？
+- wait:
+  - 30
+- print:
+  - 女學生
+  - >2-
+
+    那就萬事拜託妳呢。
+- touch: *o0
+- focus:
+  - 1231
+- bust:
+  - 1231
+  - 0
+- vo:
+  - vo_adv_1003004_011
+- face:
+  - 1231
+  - 1
+- print:
+  - 女學生
+  - 感謝妳，士條同學。
+- wait:
+  - 60
+- print:
+  - 女學生
+  - >2-
+
+    請問妳待會有時間嗎？
+- wait:
+  - 10
+- print:
+  - 女學生
+  - >2-
+
+    那個……妳方便的話，今天的事情，我想向妳道謝。
+- wait:
+  - 20
+- touch: *o0
+- focus:
+  - 100331
+- bust:
+  - 100331
+  - 0
+- vo:
+  - vo_adv_1003004_012
+- face:
+  - 100331
+  - 6
+- print:
+  - 怜
+  - 道謝就不用了。有妳這份心意就足夠了。
+- wait:
+  - 80
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100331
+  - 1
+- print:
+  - 怜
+  - 而且我待會跟別人有約……
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 1231
+- bust:
+  - 1231
+  - 0
+- vo:
+  - vo_adv_1003004_013
+- face:
+  - 1231
+  - 6
+- print:
+  - 女學生
+  - 原來是這樣啊？
+- wait:
+  - 30
+- print:
+  - 女學生
+  - >2-
+
+    那麼明天學校再見喔。
+- wait:
+  - 60
+- print:
+  - 女學生
+  - >2-
+
+    我先告辭了。
+- touch: *o0
+- focus:
+  - 100331
+- bust:
+  - 100331
+  - 0
+- vo:
+  - vo_adv_1003004_014
+- face:
+  - 100331
+  - 2
+- print:
+  - 怜
+  - 嗯，明天見。
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 7
+  - 1
+- wait:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100331
+- bust:
+  - 100331
+  - 0
+- vo:
+  - vo_adv_1003004_015
+- face:
+  - 100331
+  - 4
+- print:
+  - 怜
+  - ……呼。
+- wait:
+  - 10
+- print:
+  - 怜
+  - >2-
+
+    預定外的商談，花了不少時間。
+- wait:
+  - 20
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100331
+  - 1
+- print:
+  - 怜
+  - 差不多到約定的時間了……
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 100331
+  - 6
+- emotion:
+  - notice1_L
+  - 100331
+  - -80
+  - 540
+  - se_adv_emote_common_01
+- wait:
+  - 30
+- emotion_end:
+  - 100331
+- fadeout:
+  - 100331
+  - 30
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- chara_full:
+  - 100331
+  - C
+  - 2
+- scale:
+  - 100331
+  - 1.3
+  - 2
+- fadein:
+  - 100331
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M72
+- focus:
+  - 100331
+- bust:
+  - 100331
+  - 0
+- vo:
+  - vo_adv_1003004_016
+- face:
+  - 100331
+  - 2
+- print:
+  - 怜
+  - 呦，是你啊。你已經到了啊。
+- wait:
+  - 65
+- print:
+  - 怜
+  - >2-
+
+    那麼走吧。
+- touch: *o0
+- window_visible:
+  - false
+- change:
+  - RC
+  - C
+- fadeout:
+  - 100331
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 510150
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_restaurant_01
+- chara_full:
+  - 100331
+  - C
+  - 3
+- fadein:
+  - 100331
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100331
+- bust:
+  - 100331
+  - 0
+- vo:
+  - vo_adv_1003004_017
+- face:
+  - 100331
+  - 3
+- print:
+  - 怜
+  - 關於下次要挑戰的任務……
+- wait:
+  - 10
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100331
+  - 1
+- print:
+  - 怜
+  - 是時候該提高難度了吧？
+- touch: *o0
+- focus:
+  - 100331
+- bust:
+  - 100331
+  - 0
+- vo:
+  - vo_adv_1003004_018
+- face:
+  - 100331
+  - 2
+- print:
+  - 怜
+  - 你也變強了許多，
+- wait:
+  - 45
+- print:
+  - 怜
+  - >2-
+
+    我們也熟悉彼此的行動，變得更容易發動協力攻擊了。
+- wait:
+  - 75
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100331
+  - 1
+- print:
+  - 怜
+  - 作為提升到下一個階段的時期，你不覺得正好嗎？
+- wait:
+  - 30
+- touch: *o0
+- choice:
+  - 我有變得那麼強嗎？
+  - 1
+- choice:
+  - 無論發生什麼事我都會保護怜。
+  - 2
+- tag:
+  - 1
+- face:
+  - 100331
+  - 6
+- wait:
+  - 15
+- focus:
+  - 100331
+- bust:
+  - 100331
+  - 0
+- vo:
+  - vo_adv_1003004_019
+- face:
+  - 100331
+  - 6
+- print:
+  - 怜
+  - 謙虛……
+- face:
+  - 100331
+  - 4
+- print:
+  - 怜
+  - 感覺好像也不是呢。
+- wait:
+  - 105
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100331
+  - 3
+- print:
+  - 怜
+  - 你應該對自己多點自信。
+- touch: *o0
+- focus:
+  - 100331
+- bust:
+  - 100331
+  - 0
+- vo:
+  - vo_adv_1003004_020
+- face:
+  - 100331
+  - 1
+- print:
+  - 怜
+  - 你確實一直有在變強喔。
+- wait:
+  - 10
+- print:
+  - 怜
+  - >2-
+
+    我這麼說準沒錯。
+- touch: *o0
+- goto:
+  - 3
+- tag:
+  - 2
+- focus:
+  - 100331
+- bust:
+  - 100331
+  - 0
+- vo:
+  - vo_adv_1003004_021
+- face:
+  - 100331
+  - 4
+- print:
+  - 怜
+  - 真的到了那時候，
+- wait:
+  - 30
+- print:
+  - 怜
+  - >2-
+
+    我也會保護你的，不用擔心喔。
+- touch: *o0
+- tag:
+  - 3
+- focus:
+  - 100331
+- bust:
+  - 100331
+  - 0
+- vo:
+  - vo_adv_1003004_022
+- face:
+  - 100331
+  - 1
+- print:
+  - 怜
+  - 總之先提升任務難度……
+- wait:
+  - 90
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100331
+  - 2
+- print:
+  - 怜
+  - 那麼……要挑戰哪個呢♪
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 100331
+  - 6
+- emotion:
+  - notice1_L
+  - 100331
+  - -80
+  - 540
+  - se_adv_emote_common_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100331
+- bust:
+  - 100331
+  - 0
+- vo:
+  - vo_adv_1003004_023
+- face:
+  - 100331
+  - 6
+- print:
+  - 怜
+  - ……
+- face:
+  - 100331
+  - 4
+- print:
+  - 怜
+  - 你臉色很難看喔，沒事吧？
+- wait:
+  - 55
+- print:
+  - 怜
+  - >2-
+
+    你那麼不安的話，再來接低難度的任務也沒關係喔。
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 100331
+  - 6
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100331
+- bust:
+  - 100331
+  - 0
+- vo:
+  - vo_adv_1003004_024
+- face:
+  - 100331
+  - 6
+- print:
+  - 怜
+  - 你說不是這個原因？
+- wait:
+  - 60
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100331
+  - 3
+- print:
+  - 怜
+  - 那你在想什麼呢？
+- wait:
+  - 10
+- touch: *o0
+- choice:
+  - 那個在車站跟妳說話的人……
+  - 4
+- tag:
+  - 4
+- focus:
+  - 100331
+- bust:
+  - 100331
+  - 0
+- vo:
+  - vo_adv_1003004_025
+- face:
+  - 100331
+  - 4
+- print:
+  - 怜
+  - 啊……被你看到了啊。
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 100331
+- bust:
+  - 100331
+  - 0
+- vo:
+  - vo_adv_1003004_026
+- face:
+  - 100331
+  - 4
+- print:
+  - 怜
+  - 那個人是學校的……
+- face:
+  - 100331
+  - 1
+- print:
+  - 怜
+  - 同班同學喔。
+- wait:
+  - 90
+- print:
+  - 怜
+  - >2-
+
+    也許你已經知道了，
+- wait:
+  - 30
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100331
+  - 3
+- print:
+  - 怜
+  - 我現在就讀的是間名校喔。
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 100331
+- bust:
+  - 100331
+  - 0
+- vo:
+  - vo_adv_1003004_027
+- face:
+  - 100331
+  - 4
+- print:
+  - 怜
+  - 即使是跟朋友說話，
+- wait:
+  - 45
+- print:
+  - 怜
+  - >2-
+
+    也不得不用那種死板的說話方式。
+- touch: *o0
+- focus:
+  - 100331
+- bust:
+  - 100331
+  - 0
+- vo:
+  - vo_adv_1003004_028
+- face:
+  - 100331
+  - 1
+- print:
+  - 怜
+  - 我家的情況也跟在學校一樣。
+- wait:
+  - 90
+- print:
+  - 怜
+  - >2-
+
+    雖然習慣後就沒那麼辛苦了……
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 100331
+- bust:
+  - 100331
+  - 0
+- vo:
+  - vo_adv_1003004_029
+- face:
+  - 100331
+  - 4
+- emotion:
+  - gloomy1_R
+  - 100331
+  - 35
+  - 550
+  - '*non'
+- print:
+  - 怜
+  - ……果然還是很麻煩呢。
+- wait:
+  - 10
+- print:
+  - 怜
+  - >2-
+
+    那間學校的氛圍跟我不太合的樣子。
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 100331
+- bust:
+  - 100331
+  - 0
+- vo:
+  - vo_adv_1003004_030
+- face:
+  - 100331
+  - 1
+- print:
+  - 怜
+  - 和阿斯特朗的夥伴在一起的時候，我可以用原本的說話方式交談，
+- wait:
+  - 60
+- print:
+  - 怜
+  - >2-
+
+    所以感覺輕鬆多了。
+- touch: *o0
+- focus:
+  - 100331
+- bust:
+  - 100331
+  - 0
+- vo:
+  - vo_adv_1003004_031
+- face:
+  - 100331
+  - 2
+- print:
+  - 怜
+  - 我……和你在一起時候最感到開心喔。
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- wait:
+  - 30
+- face:
+  - 100331
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100331
+  - -5
+  - 670
+  - se_adv_emote_common_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100331
+- bust:
+  - 100331
+  - 0
+- vo:
+  - vo_adv_1003004_032
+- face:
+  - 100331
+  - 6
+- print:
+  - 怜
+  - 啊……那個，不是，不是這樣的！
+- wait:
+  - 60
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100331
+  - 4
+- print:
+  - 怜
+  - 我只是把想到的話說出來而已……
+- touch: *o0
+- focus:
+  - 100331
+- bust:
+  - 100331
+  - 0
+- vo:
+  - vo_adv_1003004_033
+- face:
+  - 100331
+  - 5
+- emotion:
+  - shy1_R
+  - 100331
+  - -95
+  - 505
+  - se_adv_emote_shy_01
+- print:
+  - 怜
+  - ………………
+- touch: *o0
+- focus:
+  - 100331
+- bust:
+  - 100331
+  - 0
+- vo:
+  - vo_adv_1003004_034
+- face:
+  - 100331
+  - 3
+- print:
+  - 怜
+  - 比起
+- jump:
+  - 100331
+- print:
+  - 怜
+  - 那個！
+- wait:
+  - 20
+- print:
+  - 怜
+  - >2-
+
+    我們繼續討論任務的事情吧！
+- wait:
+  - 10
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100331
+  - 2
+- print:
+  - 怜
+  - 來，你也提出些意見吧！
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100331
+  - 30
+- bgm:
+  - stop
+  - 3
+- effect:
+  - 0005
+  - se_adv_holylight_01
+- effect:
+  - 0006
+  - se_adv_whiteout_01
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0005
+- effect_delete:
+  - 0006
+- background:
+  - 500270
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- effect:
+  - 0029
+- effect:
+  - 0026
+- effect:
+  - 0015
+  - se_adv_whiteout_02
+- white_in: *o0
+- amb:
+  - amb_adv_wind_01
+- vo_effect:
+  - 3
+- wait:
+  - 60
+- bgm:
+  - bgm_M40
+  - 0
+  - 0
+  - 1
+- chara_full:
+  - 190011
+  - C
+  - 1
+- fadein:
+  - 190011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1003004_035
+- face:
+  - 190011
+  - 1
+- print:
+  - 愛梅斯
+  - 好的，辛苦了。
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1003004_036
+- face:
+  - 190011
+  - 1
+- print:
+  - 愛梅斯
+  - '你剛剛看見的，是如同夢境一般的情景唷。 '
+- wait:
+  - 20
+- print:
+  - 愛梅斯
+  - >2
+
+- face:
+  - 190011
+  - 2
+- print:
+  - 愛梅斯
+  - '我想你醒來以後很快就會忘記的， '
+- wait:
+  - 10
+- print:
+  - 愛梅斯
+  - >2-
+
+    所以沒關係，現在不用太在意哦。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1003004_037
+- face:
+  - 190011
+  - 6
+- print:
+  - 愛梅斯
+  - 話說回來，怜是大小姐呢。
+- wait:
+  - 70
+- print:
+  - 愛梅斯
+  - >2
+
+- face:
+  - 190011
+  - 4
+- print:
+  - 愛梅斯
+  - 看她平常跟你在一起的樣子，
+- wait:
+  - 10
+- print:
+  - 愛梅斯
+  - >2-
+
+    很難想像呢。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1003004_038
+- face:
+  - 190011
+  - 2
+- print:
+  - 愛梅斯
+  - 我對大小姐生活還挺憧憬的呢。
+- wait:
+  - 85
+- print:
+  - 愛梅斯
+  - >2
+
+- face:
+  - 190011
+  - 4
+- print:
+  - 愛梅斯
+  - 但是作為大小姐才有的苦處，
+- wait:
+  - 60
+- print:
+  - 愛梅斯
+  - >2-
+
+    只有她自己才明白呢。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1003004_039
+- face:
+  - 190011
+  - 2
+- print:
+  - 愛梅斯
+  - 她和你在一起的時候，真的很有朝氣呢。
+- wait:
+  - 60
+- print:
+  - 愛梅斯
+  - >2-
+
+    如果她自己覺得這樣就很滿足了，
+- wait:
+  - 45
+- print:
+  - 愛梅斯
+  - >2-
+
+    你也一如往常和她相處不就好了？
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1003004_040
+- face:
+  - 190011
+  - 2
+- print:
+  - 愛梅斯
+  - 那麼閒聊就到這裡。
+- wait:
+  - 20
+- print:
+  - 愛梅斯
+  - >2
+
+- face:
+  - 190011
+  - 5
+- print:
+  - 愛梅斯
+  - 下次見囉～ ♪
+- touch: *o0
+- window_visible:
+  - false
+- vo_effect:
+  - 0
+- fadeout:
+  - 190011
+  - 30
+- effect:
+  - 0006
+  - se_adv_whiteout_01
+- bgm:
+  - stop
+  - 3
+  - 1
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0006
+- effect_delete:
+  - 29
+- effect_delete:
+  - 26
+- background:
+  - 500030
+- amb_stop:
+  - 1
+- wait:
+  - 30
+- white_in: *o0
+- amb:
+  - amb_adv_town_day_01
+- wait:
+  - 30
+- bgm:
+  - bgm_M53
+- chara_full:
+  - 100311
+  - C
+  - 4
+- fadein:
+  - 100311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003004_041
+- face:
+  - 100311
+  - 4
+- emotion:
+  - notice1_L
+  - 100311
+  - -85
+  - 555
+  - se_adv_emote_common_01
+- print:
+  - 怜
+  - 嗯？ ……這裡是？
+- wait:
+  - 70
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 3
+- print:
+  - 怜
+  - 和剛剛一樣的地方……？
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003004_042
+- face:
+  - 100311
+  - 6
+- print:
+  - 怜
+  - 你也睡著了呢……
+- wait:
+  - 10
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 4
+- print:
+  - 怜
+  - 為什麼會在這種地方……？
+- wait:
+  - 20
+- print:
+  - 怜
+  - >2-
+
+    還做了奇怪的夢……
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003004_043
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 對了，我和你在咖啡廳……
+- wait:
+  - 100
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 6
+- print:
+  - 怜
+  - 難道你跟我做了同樣的夢？
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003004_044
+- face:
+  - 100311
+  - 4
+- emotion:
+  - gloomy1_R
+  - 100311
+  - 40
+  - 540
+  - '*non'
+- print:
+  - 怜
+  - 這樣啊……感覺好像被看到很糗的地方。
+- wait:
+  - 20
+- print:
+  - 怜
+  - >2-
+
+    連在夢中
+- eye_open:
+  - FALSE
+- print:
+  - 怜
+  - 我也被家中的事所束縛呢……
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003004_045
+- face:
+  - 100311
+  - 1
+- eye_open:
+  - TRUE
+- print:
+  - 怜
+  - 就是我們睡著前，我跟你說的那件事。
+- wait:
+  - 20
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 4
+- print:
+  - 怜
+  - 剛才看到家裡的人，然後我就逃跑了。
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003004_046
+- face:
+  - 100311
+  - 3
+- print:
+  - 怜
+  - 我好歹也是貴族的大小姐呢。
+- wait:
+  - 10
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 4
+- print:
+  - 怜
+  - 和相關的人見面時，只能用層層禮節的談吐方式來交談。
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003004_047
+- face:
+  - 100311
+  - 4
+- print:
+  - 怜
+  - 實在不想被你看到那樣的我……
+- wait:
+  - 10
+- print:
+  - 怜
+  - >2-
+
+    因為在你面前我不需要掩飾自己，
+- wait:
+  - 10
+- print:
+  - 怜
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - 怜
+  - 所以我不想再回到從前的我了。
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003004_048
+- face:
+  - 100311
+  - 3
+- eye_open:
+  - TRUE
+- print:
+  - 怜
+  - 不久前……在離家出走之前，
+- wait:
+  - 55
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 我就像在夢中和朋友說話一樣，
+- wait:
+  - 45
+- print:
+  - 怜
+  - >2-
+
+    用所謂大小姐的說話方式來和人交談呢。
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003004_049
+- face:
+  - 100311
+  - 1
+- eye_open:
+  - FALSE
+- print:
+  - 怜
+  - 很奇怪對吧？
+- wait:
+  - 10
+- print:
+  - 怜
+  - >2
+
+- eye_open:
+  - TRUE
+- face:
+  - 100311
+  - 4
+- print:
+  - 怜
+  - 還是說……你比較喜歡那種說話方式的我？
+- wait:
+  - 10
+- touch: *o0
+- choice:
+  - 保持現在這樣就好了。
+  - 5
+- tag:
+  - 5
+- window_visible:
+  - false
+- face:
+  - 100311
+  - 6
+- wait:
+  - 15
+- effect:
+  - 0044
+  - se_adv_happy_particle_01
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003004_050
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 太好了……在你面前，我不想偽裝自己。
+- wait:
+  - 80
+- print:
+  - 怜
+  - >2-
+
+    希望能和至今為止一樣。
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003004_051
+- face:
+  - 100311
+  - 2
+- print:
+  - 怜
+  - 今後真正的我也請你多指教了。
+- wait:
+  - 10
+- touch: *o0
+- effect_delete:
+  - 0044
+  - 30
+- fadeout:
+  - 100311
+  - 30
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    在接受了真正的自己的{0}面前，
+
+    怜露出了真誠的笑容。
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

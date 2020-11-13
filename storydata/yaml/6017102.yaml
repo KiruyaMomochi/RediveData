@@ -1,0 +1,242 @@
+- title:
+  - 帕克的真實身分
+- outline:
+  - ' '
+- background:
+  - 500110
+- amb:
+  - amb_adv_room_noise_day_01
+- ui_visible:
+  - false
+- situation:
+  - 帕克的真實身分
+- chara_full:
+  - 109911
+  - C
+  - 6
+- fadein:
+  - 109911
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M229_A
+  - 0
+  - 0
+  - 1
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_6017102_000
+- face:
+  - 109911
+  - 6
+- print:
+  - 愛蜜莉雅
+  - 你說帕克嗎？　
+- wait:
+  - 40
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 嗯，
+- wait:
+  - 25
+- print:
+  - 愛蜜莉雅
+  - 的確會很讓人在意呢。
+- wait:
+  - 60
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 6
+- print:
+  - 愛蜜莉雅
+  - 在這個世界裡，
+- wait:
+  - 35
+- print:
+  - 愛蜜莉雅
+  - 似乎也沒有類似的存在……
+- touch: &o0 []
+- choice:
+  - 會唱會跳的偶像貓真的好稀奇。
+  - 2
+  - 2
+- choice:
+  - 大精靈真的很了不起耶。
+  - 1
+  - 1
+- choice:
+  - 能飛在空中還會說話的貓很神奇耶。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_6017102_001
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 他雖然很可愛
+- wait:
+  - 20
+- print:
+  - 愛蜜莉雅
+  - 很親人，
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 但他可是了不起的精靈喔。
+- wait:
+  - 50
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 2
+- nod:
+  - 109911
+- print:
+  - 愛蜜莉雅
+  - 不過，
+- wait:
+  - 20
+- print:
+  - 愛蜜莉雅
+  - 如果你願意和他成為好朋友，我會很高興的。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_6017102_002
+- face:
+  - 109911
+  - 4
+- emotion:
+  - sweat1_R
+  - 109911
+  - 80
+  - 515
+  - se_adv_emote_sweat_01
+- print:
+  - 愛蜜莉雅
+  - 帕克也真是的，
+- wait:
+  - 25
+- print:
+  - 愛蜜莉雅
+  - 又開這種玩笑。
+- wait:
+  - 60
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 會唱歌跳舞是真的，
+- wait:
+  - 45
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 4
+- print:
+  - 愛蜜莉雅
+  - 不過說是偶像貓
+- wait:
+  - 45
+- print:
+  - 愛蜜莉雅
+  - 就有點亂說話了……
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_6017102_003
+- face:
+  - 109911
+  - 6
+- print:
+  - 愛蜜莉雅
+  - 他其實不是貓，
+- wait:
+  - 35
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 不過看似在蘭德索爾精靈是很稀有的存在，
+- wait:
+  - 50
+- face:
+  - 109911
+  - 2
+- print:
+  - 愛蜜莉雅
+  - 所以會這樣想也是當然的。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 109911
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

@@ -1,0 +1,1255 @@
+- title:
+  - 空花 第5話
+- outline:
+  - 一直在幫助空花練習跳舞的{0}，提議空花去參加舞蹈大會。大會當天，空花一緊張後，就開始在腦袋裡幻想亂七八糟的事。不過，空花的舞蹈受到周圍觀眾的喝采。
+- background:
+  - 500010
+- amb:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 在眾目睽睽之下
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    今天{0}也
+
+    陪著空花練習跳舞了。
+- touch: &o0 []
+- window_visible:
+  - false
+- bgm:
+  - bgm_M37
+  - 0
+  - 0
+  - 1
+- chara_full:
+  - 104511
+  - C
+  - 4
+- fadein:
+  - 104511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045005_000
+- face:
+  - 104511
+  - 4
+- print:
+  - 空花
+  - 虐待狂先生手上拿的是什麼東西啊？
+- wait:
+  - 75
+- print:
+  - 空花
+  - >2-
+
+    雖然有點像傳單……
+- wait:
+  - 75
+- print:
+  - 空花
+  - >2
+
+- face:
+  - 104511
+  - 1
+- print:
+  - 空花
+  - ……空花也想看，可以嗎？
+- wait:
+  - 45
+- touch: *o0
+- se:
+  - se_adv_paper_move_05
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045005_001
+- face:
+  - 104511
+  - 4
+- print:
+  - 空花
+  - 這是……舞蹈大會的通知單嗎？
+- wait:
+  - 105
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 104511
+  - 6
+- emotion:
+  - exclamation1_R
+  - 104511
+  - -5
+  - 650
+  - se_adv_emote_common_01
+- pop:
+  - 104511
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045005_002
+- face:
+  - 104511
+  - 6
+- print:
+  - 空花
+  - 欸欸！
+- wait:
+  - 30
+- print:
+  - 空花
+  - >2-
+
+    空花要參加這場大會嗎！？
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045005_003
+- face:
+  - 104511
+  - 4
+- print:
+  - 空花
+  - 不行的啦……
+- wait:
+  - 30
+- print:
+  - 空花
+  - >2-
+
+    空花對跳舞還沒有自信……
+- wait:
+  - 45
+- print:
+  - 空花
+  - >2
+
+- shake:
+  - 104511
+- print:
+  - 空花
+  - 而且很害羞。
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045005_004
+- face:
+  - 104511
+  - 6
+- print:
+  - 空花
+  - 啊！
+- pop:
+  - 104511
+- print:
+  - 空花
+  - 虐待狂先生打算看空花出醜的樣子，
+- wait:
+  - 45
+- print:
+  - 空花
+  - >2
+
+- face:
+  - 104511
+  - 2
+- print:
+  - 空花
+  - 然後引以為樂吧？
+- touch: *o0
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045005_005
+- face:
+  - 104511
+  - 2
+- emotion:
+  - shy1_R
+  - 104511
+  - -100
+  - 485
+  - '*non'
+- print:
+  - 空花
+  - 即使因為羞恥而痛苦的空花，
+- wait:
+  - 30
+- print:
+  - 空花
+  - >2-
+
+    也依然無法違抗虐待狂先生的命令……(流口水)。
+- wait:
+  - 75
+- touch: *o0
+- choice:
+  - 妳不需要勉強……
+  - 1
+- choice:
+  - 無論如何都希望妳參加。
+  - 2
+- tag:
+  - 1
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045005_006
+- face:
+  - 104511
+  - 2
+- print:
+  - 空花
+  - 這是欲擒故縱對吧……
+- wait:
+  - 45
+- print:
+  - 空花
+  - >2
+
+- face:
+  - 104511
+  - 5
+- print:
+  - 空花
+  - 虐待狂先生真是高手！？
+- wait:
+  - 15
+- touch: *o0
+- goto:
+  - 3
+- tag:
+  - 2
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045005_007
+- face:
+  - 104511
+  - 5
+- print:
+  - 空花
+  - 嘻……
+- shake:
+  - 104511
+- print:
+  - 空花
+  - 嘻嘻……
+- wait:
+  - 60
+- print:
+  - 空花
+  - >2-
+
+    被虐待狂先生這樣強迫的話、
+- wait:
+  - 45
+- print:
+  - 空花
+  - >2-
+
+    空花也就沒辦法再抵抗了……
+- touch: *o0
+- tag:
+  - 3
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045005_008
+- face:
+  - 104511
+  - 4
+- print:
+  - 空花
+  - 既然虐待狂先生都這樣說了……
+- wait:
+  - 45
+- print:
+  - 空花
+  - >2
+
+- face:
+  - 104511
+  - 1
+- print:
+  - 空花
+  - 空花知道了。
+- wait:
+  - 30
+- print:
+  - 空花
+  - >2
+
+- pop:
+  - 104511
+- print:
+  - 空花
+  - 空花參加舞蹈大會！
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 104511
+  - 6
+- emotion:
+  - question1_R
+  - 104511
+  - 115
+  - 495
+  - se_adv_emote_question_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045005_009
+- face:
+  - 104511
+  - 6
+- print:
+  - 空花
+  - ……欸？正式上場之前，做更多練習？
+- wait:
+  - 60
+- print:
+  - 空花
+  - >2
+
+- face:
+  - 104511
+  - 5
+- print:
+  - 空花
+  - 嘻嘻……這樣我們會變得更加激情對吧。
+- wait:
+  - 90
+- print:
+  - 空花
+  - >2-
+
+    (流口水)。
+- touch: *o0
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045005_010
+- face:
+  - 104511
+  - 2
+- print:
+  - 空花
+  - 好、好的、空花很期待……
+- wait:
+  - 30
+- print:
+  - 空花
+  - >2
+
+- face:
+  - 104511
+  - 1
+- print:
+  - 空花
+  - 哦不是、空花會加油！
+- wait:
+  - 15
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
+- fadeout:
+  - 104511
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 500032
+- amb_stop:
+  - 3
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_crowd_concert_02
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 舞蹈大會，當天──
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 104511
+  - C
+  - 1
+- fadein:
+  - 104511
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M51
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045005_011
+- face:
+  - 104511
+  - 6
+- print:
+  - 空花
+  - 已已已、
+- shake:
+  - 104511
+- print:
+  - 空花
+  - 已經是正式上場的時候了嗎！？
+- wait:
+  - 60
+- print:
+  - 空花
+  - >2
+
+- face:
+  - 104511
+  - 4
+- print:
+  - 空花
+  - 空花還沒有什麼自信說……！
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 1
+- vo:
+  - vo_adv_1045005_012
+- face:
+  - 311
+  - 1
+- print:
+  - 司儀
+  - 欸─，那麼麻煩下一位！
+- wait:
+  - 30
+- print:
+  - 司儀
+  - >2-
+
+    空花小姐請上台。
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045005_013
+- face:
+  - 104511
+  - 6
+- print:
+  - 空花
+  - 輪到空花了嗎！？
+- wait:
+  - 45
+- print:
+  - 空花
+  - >2
+
+- face:
+  - 104511
+  - 4
+- print:
+  - 空花
+  - 虐待狂先生……空花這次還是退出……
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_body_push_03
+- face:
+  - 104511
+  - 6
+- shake_loop: *o0
+- se:
+  - se_adv_body_push_03
+- wait:
+  - 15
+- shake_delete: *o0
+- window_visible:
+  - true
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045005_014
+- face:
+  - 104511
+  - 6
+- print:
+  - 空花
+  - 呀啊！
+- wait:
+  - 15
+- print:
+  - 空花
+  - >2-
+
+    不、不要推空花！
+- wait:
+  - 30
+- print:
+  - 空花
+  - >2-
+
+    被這樣用力推的話！
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 1
+- vo:
+  - vo_adv_1045005_015
+- face:
+  - 311
+  - 1
+- print:
+  - 司儀
+  - 接下來是空花小姐上場！
+- wait:
+  - 45
+- print:
+  - 司儀
+  - >2-
+
+    那麼請為我們跳舞吧！
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+- window_visible:
+  - false
+- se:
+  - se_adv_step_rug_run_go_01
+- change:
+  - RC
+  - C
+- fadeout:
+  - 104511
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 30
+- se:
+  - se_adv_step_rug_run_come_01
+- chara_full:
+  - 104511
+  - LC
+  - 6
+- change:
+  - C
+  - LC
+- fadein:
+  - 104511
+  - 30
+- focus:
+  - 104511
+- pop:
+  - 104511
+- wait:
+  - 15
+- window_visible:
+  - true
+- bgm:
+  - bgm_M13
+  - 0
+  - 0
+  - 1
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045005_016
+- face:
+  - 104511
+  - 6
+- print:
+  - 空花
+  - 欸欸欸欸欸！
+- wait:
+  - 30
+- print:
+  - 空花
+  - >2
+
+- face:
+  - 104511
+  - 2
+- print:
+  - 空花
+  - 虐待狂先生硬把我推上台的……
+- wait:
+  - 75
+- print:
+  - 空花
+  - >2-
+
+    已經逃不了了……！
+- touch: *o0
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045005_017
+- face:
+  - 104511
+  - 5
+- print:
+  - 空花
+  - 啊、啊……
+- shake:
+  - 104511
+- wait:
+  - 60
+- print:
+  - 空花
+  - >2-
+
+    在眾目睽睽之下做這種事！
+- wait:
+  - 75
+- print:
+  - 空花
+  - >2-
+
+    實在是太害羞了，空花整個人都變得不對勁！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 1
+- vo:
+  - vo_adv_1045005_018
+- face:
+  - 411
+  - 1
+- print:
+  - 酒館的店員
+  - 空花─！
+- wait:
+  - 15
+- print:
+  - 酒館的店員
+  - >2-
+
+    加油─！
+- touch: *o0
+- window_visible:
+  - false
+- focus:
+  - 104511
+- face:
+  - 104511
+  - 6
+- emotion:
+  - notice1_L
+  - 104511
+  - -70
+  - 535
+  - se_adv_emote_common_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045005_019
+- face:
+  - 104511
+  - 6
+- print:
+  - 空花
+  - 啊，同事們也來為我加油……
+- wait:
+  - 75
+- print:
+  - 空花
+  - >2
+
+- face:
+  - 104511
+  - 4
+- print:
+  - 空花
+  - 像這樣……被這麼多熟人看著……
+- wait:
+  - 75
+- print:
+  - 空花
+  - >2
+
+- face:
+  - 104511
+  - 5
+- print:
+  - 空花
+  - 空花要丟臉丟到家了！
+- wait:
+  - 45
+- touch: *o0
+- effect:
+  - 0044
+  - se_adv_happy_particle_01
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045005_020
+- face:
+  - 104511
+  - 6
+- print:
+  - 空花
+  - 啊！該不會這些都是虐待狂先生的計畫……！？
+- wait:
+  - 45
+- print:
+  - 空花
+  - >2
+
+- face:
+  - 104511
+  - 5
+- print:
+  - 空花
+  - 目的是為了羞辱空花對吧……嘻。
+- wait:
+  - 105
+- print:
+  - 空花
+  - >2
+
+- face:
+  - 104511
+  - 3
+- print:
+  - 空花
+  - 就像是「喜歡一邊做一邊被別人注視」
+- face:
+  - 104511
+  - 5
+- print:
+  - 空花
+  - 這樣吧？
+- touch: *o0
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045005_021
+- face:
+  - 104511
+  - 5
+- print:
+  - 空花
+  - 嘻嘻……虐待狂先生的特訓也超狂野的。
+- wait:
+  - 60
+- print:
+  - 空花
+  - >2-
+
+    即使做到腰都站不直了，也硬要繼續……
+- wait:
+  - 60
+- print:
+  - 空花
+  - >2-
+
+    就算高潮之後也一直做一直做……
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045005_022
+- face:
+  - 104511
+  - 2
+- print:
+  - 空花
+  - 看著空花痛苦的表情，應該很享受吧。
+- wait:
+  - 75
+- print:
+  - 空花
+  - >2-
+
+    不愧是虐待狂先生！
+- wait:
+  - 30
+- print:
+  - 空花
+  - >2
+
+- face:
+  - 104511
+  - 5
+- shake:
+  - 104511
+- print:
+  - 空花
+  - 嘻……嘻嘻嘻……
+- wait:
+  - 30
+- touch: *o0
+- effect_delete:
+  - 0044
+  - 30
+- fadeout:
+  - 104511
+  - 30
+- chara_full:
+  - 411
+  - RC
+  - 4
+- chara_full:
+  - 1211
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1045005_023
+- face:
+  - 411
+  - 4
+- print:
+  - 酒館店員１
+  - 她、
+- shake:
+  - 411
+- print:
+  - 酒館店員１
+  - 她好像一邊跳舞，一邊念念有詞……？
+- wait:
+  - 45
+- print:
+  - 酒館店員１
+  - >2-
+
+    那個男的對空花做了什麼特訓？
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 1211
+- bust:
+  - 1211
+  - 0
+- vo:
+  - vo_adv_1045005_024
+- face:
+  - 1211
+  - 1
+- print:
+  - 酒館店員２
+  - 但是，你看！
+- pop:
+  - 1211
+- wait:
+  - 15
+- print:
+  - 酒館店員２
+  - >2-
+
+    空花跳得比平常更好呢！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1045005_025
+- face:
+  - 1
+  - 1
+- print:
+  - 觀眾們
+  - 喔喔喔喔喔！！
+- wait:
+  - 30
+- print:
+  - 觀眾們
+  - >2-
+
+    這舞蹈跳得多麼熱情啊！！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 104511
+  - C
+  - 5
+- fadein:
+  - 104511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045005_026
+- face:
+  - 104511
+  - 5
+- print:
+  - 空花
+  - 啊啊！！
+- shake:
+  - 104511
+- print:
+  - 空花
+  - 啊啊啊！！
+- wait:
+  - 60
+- print:
+  - 空花
+  - >2-
+
+    一想起和虐待狂先生做的練習，
+- wait:
+  - 30
+- print:
+  - 空花
+  - >2-
+
+    身體自然而然就有反應了！！
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
+- fadeout:
+  - 104511
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 3
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_city_street_01
+- bgm:
+  - bgm_M19
+- chara_full:
+  - 104511
+  - C
+  - 4
+- fadein:
+  - 104511
+  - 30
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045005_027
+- face:
+  - 104511
+  - 4
+- emotion:
+  - drop1_R
+  - 104511
+  - 80
+  - 660
+  - '*non'
+- print:
+  - 空花
+  - 嗚嗚……
+- wait:
+  - 45
+- print:
+  - 空花
+  - >2-
+
+    空花盡力了，不過只得到參加獎……
+- wait:
+  - 75
+- print:
+  - 空花
+  - >2-
+
+    難得虐待狂先生陪我做了這麼多練習……
+- wait:
+  - 15
+- touch: *o0
+- choice:
+  - 妳剛剛跳得很美喔。
+  - 4
+- tag:
+  - 4
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045005_028
+- face:
+  - 104511
+  - 6
+- print:
+  - 空花
+  - 欸？
+- shake:
+  - 104511
+- print:
+  - 空花
+  - 很很很、很美！？
+- wait:
+  - 30
+- print:
+  - 空花
+  - >2
+
+- face:
+  - 104511
+  - 5
+- print:
+  - 空花
+  - 居然給空花這樣直白的讚賞……
+- touch: *o0
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045005_029
+- face:
+  - 104511
+  - 2
+- emotion:
+  - shy1_R
+  - 104511
+  - -100
+  - 485
+  - '*non'
+- print:
+  - 空花
+  - 虐待狂先生說空花很美……
+- wait:
+  - 60
+- print:
+  - 空花
+  - >2-
+
+    這……這，也就是說……
+- wait:
+  - 45
+- print:
+  - 空花
+  - >2
+
+- face:
+  - 104511
+  - 5
+- print:
+  - 空花
+  - 喜、喜歡──空花
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045005_030
+- face:
+  - 104511
+  - 5
+- print:
+  - 空花
+  - 啊哇哇哇哇哇！
+- shake:
+  - 104511
+- wait:
+  - 15
+- print:
+  - 空花
+  - >2-
+
+    太、太害羞了啦啦啦！！
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- out_R:
+  - 104511
+  - 45
+  - true
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    {0}一臉不可思議地凝視著
+
+    滿臉通紅逃跑的空花……
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

@@ -1,0 +1,495 @@
+- title:
+  - 做為怜的護衛
+- outline:
+  - 為找回{0}的記憶，怜和他一起到了露娜之塔。站在塔的入口前，怜感到一股可疑的氣息，在跟蹤他們。原來是跟著他們的紡希。
+- background:
+  - 500420
+- amb:
+  - amb_adv_forest_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 做為怜的護衛
+- chara_full:
+  - 100311
+  - C
+  - 6
+- fadein:
+  - 100311
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M156
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_7005000_000
+- face:
+  - 100311
+  - 6
+- print:
+  - 怜
+  - 這就是露娜之塔……
+- wait:
+  - 65
+- print:
+  - 怜
+  - 好大的建築物呢。
+- wait:
+  - 75
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 如果攻下這裡的話，
+- wait:
+  - 40
+- print:
+  - 怜
+  - 說不定你的記憶就能恢復呢。
+- touch: &o0 []
+- bgm:
+  - stop
+  - 8.5
+  - 1
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_7005000_001
+- face:
+  - 100311
+  - 3
+- nod:
+  - 100311
+- print:
+  - 怜
+  - 對了，
+- wait:
+  - 30
+- print:
+  - 怜
+  - 從剛剛開始就感覺到有人在監視著。
+- wait:
+  - 65
+- print:
+  - 怜
+  - >2-
+
+    可能是敵人，
+- wait:
+  - 25
+- print:
+  - 怜
+  - 不要大意喔。
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 3
+- window_visible:
+  - true
+- bgm:
+  - bgm_M21
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_7005000_002
+- face:
+  - 100311
+  - 3
+- print:
+  - 怜
+  - 已經知道你在那裡了！
+- wait:
+  - 45
+- print:
+  - 怜
+  - >2-
+
+    別再躲著，
+- wait:
+  - 25
+- print:
+  - 怜
+  - 不如直接現身吧？
+- touch: *o0
+- bgm:
+  - stop
+  - 6
+- window_visible:
+  - false
+- change_window:
+  - 1
+- fadeout:
+  - 100311
+  - 30
+- chara_full:
+  - 105411
+  - L
+  - 4
+- chara_full:
+  - 100311
+  - RC
+  - 3
+- se:
+  - se_adv_step_leaves_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_7005000_003
+- face:
+  - 105411
+  - 4
+- print:
+  - 紡希
+  - ……啊，
+- wait:
+  - 30
+- print:
+  - 紡希
+  - 果然被發現了呀……
+- touch: *o0
+- bgm:
+  - bgm_M203
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_7005000_004
+- face:
+  - 100311
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100311
+  - 0
+  - 660
+  - se_adv_emote_common_01
+- print:
+  - 怜
+  - 紡希！？　
+- wait:
+  - 30
+- print:
+  - 怜
+  - 妳為什麼會在這裡？
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_7005000_005
+- face:
+  - 105411
+  - 6
+- print:
+  - 紡希
+  - 要說為什麼，
+- wait:
+  - 20
+- face:
+  - 105411
+  - 3
+- print:
+  - 紡希
+  - 因為騎士先生跟怜一起走來，
+- wait:
+  - 35
+- print:
+  - 紡希
+  - >2-
+
+    所以我也跟過來了！
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_7005000_006
+- face:
+  - 105411
+  - 3
+- eye_open:
+  - FALSE
+- print:
+  - 紡希
+  - 真是的……
+- wait:
+  - 35
+- eye_open:
+  - TRUE
+- print:
+  - 紡希
+  - 趁我不在竟然對怜放電，
+- wait:
+  - 60
+- print:
+  - 紡希
+  - >2
+
+- face:
+  - 105411
+  - 4
+- print:
+  - 紡希
+  - 還真是一如往常地不像話呢，
+- wait:
+  - 35
+- print:
+  - 紡希
+  - 騎士先生。
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_7005000_007
+- face:
+  - 100311
+  - 6
+- emotion:
+  - sweat2_R
+  - 100311
+  - 70
+  - 530
+  - se_adv_emote_sweat_02
+- print:
+  - 怜
+  - 放、
+- wait:
+  - 15
+- print:
+  - 怜
+  - 放電！？
+- wait:
+  - 35
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 5
+- print:
+  - 怜
+  - 他、
+- wait:
+  - 15
+- print:
+  - 怜
+  - 他才沒做這種事呢！
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_7005000_008
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 會到這裡
+- wait:
+  - 25
+- print:
+  - 怜
+  - 是為了要讓他恢復記憶。
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_7005000_009
+- face:
+  - 105411
+  - 1
+- print:
+  - 紡希
+  - 那我也可以跟著你們嗎？
+- wait:
+  - 40
+- print:
+  - 紡希
+  - >2
+
+- face:
+  - 105411
+  - 2
+- print:
+  - 紡希
+  - 為了不讓怜發生意外
+- wait:
+  - 25
+- print:
+  - 紡希
+  - 由我來負責擔任護衛吧！
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_7005000_010
+- face:
+  - 105411
+  - 1
+- print:
+  - 紡希
+  - 騎士先生。
+- wait:
+  - 25
+- face:
+  - 105411
+  - 3
+- print:
+  - 紡希
+  - 為了避免你對怜做壞事，
+- wait:
+  - 35
+- print:
+  - 紡希
+  - 我會好好監視你的，
+- wait:
+  - 35
+- print:
+  - 紡希
+  - >2-
+
+    請做好覺悟吧！
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_7005000_011
+- face:
+  - 105411
+  - 6
+- print:
+  - 紡希
+  - ……不過嘛，
+- wait:
+  - 35
+- face:
+  - 105411
+  - 4
+- nod:
+  - 105411
+- print:
+  - 紡希
+  - 稍——微幫忙
+- wait:
+  - 40
+- print:
+  - 紡希
+  - 讓騎士先生的記憶回復這件事
+- wait:
+  - 20
+- print:
+  - 紡希
+  - >2-
+
+    我也是可以勉強答應的唷。
+- touch: *o0
+- face:
+  - 105411
+  - 1
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_7005000_012
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 有紡希在，
+- wait:
+  - 35
+- print:
+  - 怜
+  - 我們就能安心進攻了吧……
+- wait:
+  - 65
+- print:
+  - 怜
+  - >2-
+
+    一定會恢復你的記憶，
+- wait:
+  - 30
+- face:
+  - 100311
+  - 2
+- print:
+  - 怜
+  - 加油吧！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

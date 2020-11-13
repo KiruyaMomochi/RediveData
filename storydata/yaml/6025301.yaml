@@ -1,0 +1,256 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 505032
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 度過萬聖節的方式
+- chara_full:
+  - 111211
+  - C
+  - 2
+- fadein:
+  - 111211
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M266
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_6025301_000
+- face:
+  - 111211
+  - 2
+- pop:
+  - 111211
+- print:
+  - 禊
+  - 萬聖節快樂！　
+- wait:
+  - 15
+- print:
+  - 禊
+  - 哥哥！
+- wait:
+  - 20
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 1
+- print:
+  - 禊
+  - 禊要去大肆的惡作劇，
+- wait:
+  - 40
+- print:
+  - 禊
+  - >2-
+
+    哥哥你要做什麼呢？
+- touch: &o0 []
+- choice:
+  - 分發點心。
+  - 1
+  - 1
+- choice:
+  - 去惡作劇。
+  - 2
+  - 2
+- choice:
+  - 吃南瓜。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_6025301_001
+- face:
+  - 111211
+  - 1
+- nod:
+  - 111211
+- print:
+  - 禊
+  - 哥哥還真成熟呢！
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2-
+
+    要給禊很多的點心呢！
+- wait:
+  - 50
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 6
+- print:
+  - 禊
+  - 咦？　
+- wait:
+  - 15
+- print:
+  - 禊
+  - 一人一個？　
+- wait:
+  - 55
+- face:
+  - 111211
+  - 4
+- print:
+  - 禊
+  - 哪有這樣的～！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_6025301_002
+- face:
+  - 111211
+  - 2
+- print:
+  - 禊
+  - 哇～！　
+- wait:
+  - 20
+- print:
+  - 禊
+  - 我們一樣呢！
+- wait:
+  - 25
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 1
+- print:
+  - 禊
+  - 那我們一起去惡作劇吧！
+- wait:
+  - 50
+- print:
+  - 禊
+  - >2
+
+- nod:
+  - 111211
+- print:
+  - 禊
+  - 啊！　
+- wait:
+  - 15
+- print:
+  - 禊
+  - 但是禊果然還是
+- wait:
+  - 25
+- print:
+  - 禊
+  - 想對哥哥惡作劇呢～！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_6025301_003
+- face:
+  - 111211
+  - 6
+- emotion:
+  - question1_R
+  - 111211
+  - 110
+  - 420
+  - se_adv_emote_question_01
+- print:
+  - 禊
+  - 吃南瓜嗎？
+- wait:
+  - 50
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 4
+- print:
+  - 禊
+  - 真的有人這樣度過萬聖節嗎～？
+- wait:
+  - 70
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 6
+- print:
+  - 禊
+  - 像是把作南瓜燈剩下的部份吃掉
+- wait:
+  - 45
+- print:
+  - 禊
+  - 嗎？
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 111211
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

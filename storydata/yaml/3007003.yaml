@@ -1,0 +1,3378 @@
+- title:
+  - 破曉之星 第3話
+- outline:
+  - 雖說對於一直馬不停蹄地幫助他人的日和，優衣和怜也不禁嘆氣，但仍舊接受了前往火山摘取告白用花朵的委託。原以為會與在火山繞著花朵打轉的傭兵們產生紛爭，但在弄清了原來是委託對象戀人的請求後，兩人順利地結婚了。
+- background:
+  - 500040
+- amb:
+  - amb_adv_room_noise_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 贈與你盛開於火山之花
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    一個人完成給公會的委託任務後，
+
+    怜很疲憊地回到了公會小屋。
+- touch: &o0 []
+- window_visible:
+  - false
+- se:
+  - se_adv_door_open_01
+- wait:
+  - 30
+- se:
+  - se_adv_step_rug_walk_come_01
+- wait:
+  - 15
+- chara_full:
+  - 100311
+  - R
+  - 4
+- change:
+  - RC
+  - R
+  - 60
+- fadein:
+  - 100311
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M37
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_3007003_000
+- face:
+  - 100311
+  - 4
+- print:
+  - 怜
+  - 我回來了。
+- face:
+  - 100311
+  - 6
+- print:
+  - 怜
+  - 日和還沒回來嗎？
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 100211
+  - L
+  - 1
+- change:
+  - LC
+  - L
+- fadein:
+  - 100211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_3007003_001
+- face:
+  - 100211
+  - 2
+- print:
+  - 優衣
+  - 歡迎回來。她剛剛才出門呢。
+- wait:
+  - 20
+- print:
+  - 優衣
+  - >2
+
+- face:
+  - 100211
+  - 6
+- print:
+  - 優衣
+  - 妳們沒有擦身而過嗎？
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_3007003_002
+- face:
+  - 100311
+  - 4
+- print:
+  - 怜
+  - 沒有耶。……
+- face:
+  - 100311
+  - 3
+- print:
+  - 怜
+  - 該不會，
+- wait:
+  - 40
+- print:
+  - 怜
+  - >2-
+
+    她又跑去四處搜尋任務的委託人了吧――
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_door_open_01
+- wait:
+  - 15
+- se:
+  - se_adv_step_rug_walk_come_01
+- wait:
+  - 15
+- chara_full:
+  - 100111
+  - R
+  - 2
+- change:
+  - C
+  - R
+- fadein:
+  - 100111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_3007003_003
+- face:
+  - 100111
+  - 2
+- emotion:
+  - note1_L
+  - 100111
+  - -70
+  - 515
+  - se_adv_emote_note_01
+- jump:
+  - 100111
+- print:
+  - 日和
+  - 我回來了～！怜、優衣，
+- wait:
+  - 60
+- print:
+  - 日和
+  - >2-
+
+    有事情想委託我們幫忙的人，
+- wait:
+  - 45
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 我找到了喔～！
+- touch: *o0
+- fadeout:
+  - 100111
+  - 30
+- chara_full:
+  - 100211
+  - LC
+  - 6
+- chara_full:
+  - 100311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_3007003_004
+- face:
+  - 100211
+  - 4
+- emotion:
+  - sweat1_R
+  - 100211
+  - 95
+  - 495
+  - se_adv_emote_sweat_01
+- print:
+  - 優衣
+  - ……歡，歡迎回來。日和妳呀……
+- wait:
+  - 40
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_3007003_005
+- face:
+  - 100311
+  - 4
+- eye_open:
+  - False
+- print:
+  - 怜
+  - ……真是的。
+- wait:
+  - 10
+- print:
+  - 怜
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 怜
+  - 把對方趕回去也不太好。就聽聽看吧。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100111
+  - C
+  - 2
+- fadein:
+  - 100111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_3007003_006
+- face:
+  - 100111
+  - 2
+- print:
+  - 日和
+  - 謝謝！　
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 你可以進來了！
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 6
+- se:
+  - se_adv_door_open_02
+- wait:
+  - 15
+- se:
+  - se_adv_step_rug_walk_come_01
+- change:
+  - LC
+  - C
+- wait:
+  - 15
+- chara_full:
+  - 311
+  - R
+  - 1
+- change:
+  - RC
+  - R
+- fadein:
+  - 311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_3007003_007
+- face:
+  - 311
+  - 1
+- print:
+  - 男性
+  - 那就不客氣了。
+- face:
+  - 311
+  - 4
+- print:
+  - 男性
+  - 真不好意思，在你們忙的時候……
+- wait:
+  - 20
+- touch: *o0
+- fadeout:
+  - 100111
+  - 30
+- chara_full:
+  - 100311
+  - LC
+  - 1
+- fadein:
+  - 100311
+  - 30
+- bgm:
+  - bgm_M04
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_3007003_008
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 沒關係的啦。
+- face:
+  - 100311
+  - 2
+- print:
+  - 怜
+  - 那麼，能說明一下要給我們的委託內容嗎？
+- wait:
+  - 70
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_3007003_009
+- face:
+  - 311
+  - 1
+- print:
+  - 男性
+  - 這次想委託各位幫忙的，是往返火山期間的護衛任務。
+- wait:
+  - 15
+- print:
+  - 男性
+  - >2
+
+- face:
+  - 311
+  - 3
+- print:
+  - 男性
+  - 各位是否有聽說過在這個時期，只有在火山才能夠採集到的稀有種類花朵的事情？
+- wait:
+  - 90
+- touch: *o0
+- fadeout:
+  - 100311
+  - 30
+- chara_full:
+  - 100211
+  - LC
+  - 1
+- fadein:
+  - 100211
+  - 30
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_3007003_010
+- face:
+  - 100211
+  - 1
+- print:
+  - 優衣
+  - 有聽過謠傳。那是很眩目逼人的紅色花朵，
+- wait:
+  - 40
+- print:
+  - 優衣
+  - >2
+
+- face:
+  - 100211
+  - 5
+- print:
+  - 優衣
+  - 如果把它送給心上人的話便能傳達愛意之類。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_3007003_011
+- face:
+  - 311
+  - 3
+- print:
+  - 男性
+  - 其實我，想把那朵「結縁花」送給戀人……
+- wait:
+  - 85
+- print:
+  - 男性
+  - >2
+
+- face:
+  - 311
+  - 5
+- print:
+  - 男性
+  - 然後……向她求婚。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_3007003_012
+- face:
+  - 100211
+  - 2
+- emotion:
+  - twinkle1_R
+  - 100211
+  - -115
+  - 520
+  - se_adv_emote_twinkle_01
+- print:
+  - 優衣
+  - 求婚！　好棒喔！
+- wait:
+  - 75
+- print:
+  - 優衣
+  - >2
+
+- emotion_end:
+  - 100211
+- face:
+  - 100211
+  - 4
+- print:
+  - 優衣
+  - ……怜。那個，我……
+- wait:
+  - 60
+- touch: *o0
+- fadeout:
+  - 311
+  - 30
+- chara_full:
+  - 100311
+  - RC
+  - 4
+- fadein:
+  - 100311
+  - 30
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_3007003_013
+- face:
+  - 100311
+  - 4
+- print:
+  - 怜
+  - 唉……我說日和妳啊。為甚麼總是那樣輕易答應別人？
+- wait:
+  - 75
+- print:
+  - 怜
+  - >2-
+
+    公會經營可不是做慈善事業啊。
+- wait:
+  - 60
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 3
+- print:
+  - 怜
+  - 優衣妳也是，太容易被人情綁住不是好事喔。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_3007003_014
+- face:
+  - 100211
+  - 4
+- print:
+  - 優衣
+  - 抱歉……
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_3007003_015
+- face:
+  - 100311
+  - 3
+- print:
+  - 怜
+  - ……話雖如此，如果冷淡地拒絕這種委託的話，
+- wait:
+  - 20
+- print:
+  - 怜
+  - >2-
+
+    也會影響工會的信譽。
+- face:
+  - 100311
+  - 2
+- print:
+  - 怜
+  - 那我們就接下吧。
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_3007003_016
+- face:
+  - 100211
+  - 1
+- print:
+  - 優衣
+  - 怜……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100111
+  - LC
+  - 2
+- chara_full:
+  - 311
+  - RC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_3007003_017
+- face:
+  - 311
+  - 2
+- pop:
+  - 311
+- print:
+  - 男性
+  - 非常感謝妳們！
+- wait:
+  - 10
+- print:
+  - 男性
+  - >2-
+
+    請多多指教！
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_3007003_018
+- face:
+  - 100111
+  - 2
+- emotion:
+  - twinkle1_R
+  - 100111
+  - -110
+  - 525
+  - se_adv_emote_twinkle_01
+- print:
+  - 日和
+  - 怜……謝謝～！
+- wait:
+  - 75
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 4
+- print:
+  - 日和
+  - 還以為妳會說不可以呢……
+- face:
+  - 100111
+  - 5
+- print:
+  - 日和
+  - 嘻嘻。
+- wait:
+  - 30
+- touch: *o0
+- fadeout:
+  - 311
+  - 30
+- chara_full:
+  - 100311
+  - RC
+  - 4
+- fadein:
+  - 100311
+  - 30
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_3007003_019
+- face:
+  - 100311
+  - 4
+- print:
+  - 怜
+  - 真是的……
+- wait:
+  - 45
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 3
+- print:
+  - 怜
+  - 不過，等這個任務結束之後隔天大家都得好好休息。明白嗎？
+- wait:
+  - 120
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_3007003_020
+- face:
+  - 100111
+  - 2
+- pop:
+  - 100111
+- print:
+  - 日和
+  - 好的～！好～！大家往貝利奧火山前進吧～！！
+- wait:
+  - 60
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 3
+  - 1
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 500220
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_volcano_lava
+- bgm:
+  - bgm_M17_02
+- chara_full:
+  - 100312
+  - C
+  - 3
+- fadein:
+  - 100312
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100312
+- bust:
+  - 100312
+  - 0
+- vo:
+  - vo_adv_3007003_021
+- face:
+  - 100312
+  - 3
+- print:
+  - 怜
+  - 喝！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0009
+- scale:
+  - 100312
+  - 1.3
+  - 2
+  - 5
+- fadeout:
+  - 100312
+  - 30
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect_delete:
+  - 0009
+- wait:
+  - 10
+- effect:
+  - 0016
+  - se_adv_weapon_sword_hit_02
+- wait:
+  - 30
+- background:
+  - 500220
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_05
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──嘰歐歐歐歐歐
+- shake:
+  - 1611
+- print:
+  - 魔物
+  - ！
+- touch: *o0
+- window_visible:
+  - false
+- updown:
+  - 1611
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1611
+  - 30
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- chara_full:
+  - 100311
+  - C
+  - 3
+- fadein:
+  - 100311
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 9
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_3007003_022
+- face:
+  - 100311
+  - 3
+- eye_open:
+  - False
+- print:
+  - 怜
+  - 呼……
+- eye_open:
+  - True
+- print:
+  - 怜
+  - 這是最後一匹了吧。
+- wait:
+  - 105
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 4
+- print:
+  - 怜
+  - 因為這附近不太有人會靠近，
+- wait:
+  - 60
+- print:
+  - 怜
+  - >2-
+
+    比起城鎮附近來說魔物多了很多啊……
+- touch: *o0
+- choice:
+  - 辛苦了
+  - 1
+- tag:
+  - 1
+- bgm:
+  - bgm_M04
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_3007003_023
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 這沒什麼啦。
+- wait:
+  - 45
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 2
+- print:
+  - 怜
+  - 比起這個，感謝你願意和我們一起前來。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- change:
+  - RC
+  - C
+- wait:
+  - 15
+- chara_full:
+  - 100111
+  - LC
+  - 1
+- fadein:
+  - 100111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_3007003_024
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 根據花店老闆所言，如果來到這個高度的話，
+- wait:
+  - 60
+- print:
+  - 日和
+  - >2-
+
+    說不定就能找到！
+- wait:
+  - 45
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 2
+- print:
+  - 日和
+  - 大家努力找吧～！
+- touch: *o0
+- choice:
+  - 喔─！
+  - 2
+- tag:
+  - 2
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100211
+  - LC
+  - 5
+- chara_full:
+  - 311
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_3007003_025
+- face:
+  - 100211
+  - 5
+- print:
+  - 優衣
+  - 喔，
+- face:
+  - 100211
+  - 2
+- jump:
+  - 100211
+- print:
+  - 優衣
+  - 喔♪
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_3007003_026
+- face:
+  - 311
+  - 2
+- print:
+  - 男性
+  - 請多多指教！
+- touch: *o0
+- bgm:
+  - stop
+  - 6
+  - 1
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_volcano_lava
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - ──數小時之後
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 100311
+  - C
+  - 4
+- chara_full:
+  - 100111
+  - L
+  - 3
+- se:
+  - se_adv_step_dirt_walk_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - C
+- change:
+  - LC
+  - L
+- fadein_all:
+  - 30
+- bgm:
+  - bgm_M21
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_3007003_027
+- face:
+  - 100311
+  - 4
+- print:
+  - 怜
+  - 我們也滿用心去找了，但還是找不到呢……
+- wait:
+  - 20
+- print:
+  - 怜
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 怜
+  - 不愧是被稱為稀少種類…
+- eye_open:
+  - True
+- print:
+  - 怜
+  - …
+- touch: *o0
+- choice:
+  - 不放棄繼續尋找
+  - 4
+- tag:
+  - 4
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_3007003_028
+- face:
+  - 100111
+  - 4
+- print:
+  - 日和
+  - 雖然還差一點點就會抵達禁止進入的管制區……
+- wait:
+  - 75
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 3
+- print:
+  - 日和
+  - 只要不放棄一定能找到的！
+- wait:
+  - 45
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 2
+- jump:
+  - 100111
+- print:
+  - 日和
+  - 大家加油吧～！
+- touch: *o0
+- bgm:
+  - stop
+  - 6
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100211
+  - L
+  - 1
+- chara_full:
+  - 311
+  - C
+  - 6
+- se:
+  - se_adv_step_dirt_walk_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - C
+- change:
+  - LC
+  - L
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- se:
+  - se_adv_emote_nortice_02
+- emotion:
+  - notice1_L
+  - 311
+  - -65
+  - 600
+  - '*non'
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_3007003_029
+- face:
+  - 311
+  - 6
+- print:
+  - 男性
+  - ……找到了。
+- face:
+  - 311
+  - 2
+- print:
+  - 男性
+  - 我找到了！！
+- wait:
+  - 20
+- print:
+  - 男性
+  - >2-
+
+    看看這個！就在這裡盛開著！！
+- wait:
+  - 40
+- touch: *o0
+- bgm:
+  - bgm_M67
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_3007003_030
+- face:
+  - 100211
+  - 6
+- print:
+  - 優衣
+  - ……真的呢……！
+- wait:
+  - 10
+- print:
+  - 優衣
+  - >2
+
+- face:
+  - 100211
+  - 2
+- print:
+  - 優衣
+  - 恭喜恭喜！
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_3007003_031
+- face:
+  - 311
+  - 2
+- print:
+  - 男性
+  - 非、非常感謝！
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100111
+  - LC
+  - 6
+- chara_full:
+  - 100311
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_3007003_032
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - 這就是結緣花……！
+- wait:
+  - 75
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 2
+- print:
+  - 日和
+  - 能在火山開花真是了不起的事情呢！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_3007003_033
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 是啊。在這種對植物生長來說極為嚴苛的環境還能開花……真令人感受的生命的奧妙啊。
+- wait:
+  - 90
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 311
+  - C
+  - 1
+- fadein:
+  - 311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_3007003_034
+- face:
+  - 311
+  - 1
+- print:
+  - 男性
+  - ……
+- nod:
+  - 311
+- print:
+  - 男性
+  - 這樣就好了。如果求婚成功的話，我會和戀人把從花朵取得的種子帶回這裡種植。這麼做的話，下一個想傳達內心想法的人也會來到這裡尋找花朵吧。
+- wait:
+  - 135
+- touch: *o0
+- fadeout:
+  - 311
+  - 30
+- chara_full:
+  - 100111
+  - LC
+  - 1
+- chara_full:
+  - 100311
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_3007003_035
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 這是個好主意。
+- wait:
+  - 45
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 3
+- print:
+  - 怜
+  - 那麼，在魔物還沒出現之前下山吧。
+- wait:
+  - 30
+- touch: *o0
+- bgm:
+  - stop
+  - 5
+  - 1
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_3007003_036
+- face:
+  - 100111
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100111
+  - 10
+  - 650
+  - se_adv_emote_common_01
+- print:
+  - 日和
+  - 怜，妳看！
+- wait:
+  - 10
+- print:
+  - 日和
+  - >2-
+
+    有人正從底下爬上來呢！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- se:
+  - se_adv_step_dirt_walk_come_01
+- chara_full:
+  - 311
+  - LC
+  - 6
+- fadein:
+  - 311
+  - 30
+- chara_full:
+  - 911
+  - R
+  - 1
+- in_R:
+  - 911
+  - 45
+  - true
+- window_visible:
+  - true
+- bgm:
+  - bgm_M21
+  - 0
+  - 0
+  - 1
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_3007003_037
+- face:
+  - 911
+  - 6
+- print:
+  - ？？？
+  - 你們手上拿著的花～
+- wait:
+  - 30
+- print:
+  - ？？？
+  - >2-
+
+    該不會就是結緣的花吧！？
+- face:
+  - 911
+  - 2
+- print:
+  - ？？？
+  - 我沒說錯吧？
+- wait:
+  - 60
+- print:
+  - ？？？
+  - >2-
+
+    可以把這個花讓給我嗎？
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_3007003_038
+- face:
+  - 311
+  - 4
+- emotion:
+  - sweat2_R
+  - 311
+  - 85
+  - 590
+  - '*non'
+- print:
+  - 男性
+  - 那、那是……
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100111
+  - LC
+  - 4
+- chara_full:
+  - 100311
+  - RC
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_3007003_039
+- face:
+  - 100111
+  - 4
+- print:
+  - 日和
+  - 請問，為甚麼會想要這朵花呢？
+- wait:
+  - 20
+- print:
+  - 日和
+  - >2-
+
+    請把理由告訴我們――
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_3007003_040
+- face:
+  - 100311
+  - 3
+- print:
+  - 怜
+  - ……日和，優衣。看看他們的裝扮。
+- wait:
+  - 30
+- print:
+  - 怜
+  - >2-
+
+    在火山穿著那麼周到的武裝，肯定不是一般人。
+- wait:
+  - 75
+- print:
+  - 怜
+  - >2-
+
+    恐怕是傭兵。不要再多說了立刻保持距離吧。
+- wait:
+  - 30
+- touch: *o0
+- fadeout:
+  - 100311
+  - 30
+- chara_full:
+  - 100211
+  - RC
+  - 3
+- fadein:
+  - 100211
+  - 30
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_3007003_041
+- face:
+  - 100211
+  - 3
+- print:
+  - 優衣
+  - 嗯，嗯……！
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_3007003_042
+- face:
+  - 100111
+  - 4
+- print:
+  - 日和
+  - 嗯……雖然不見得是恐怖的人……
+- face:
+  - 100111
+  - 3
+- print:
+  - 日和
+  - 知道了！
+- wait:
+  - 105
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 911
+  - R
+  - 4
+- chara_full:
+  - 100311
+  - LC
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_3007003_043
+- face:
+  - 100311
+  - 3
+- print:
+  - 怜
+  - 真抱歉，這不是為了拱手交給你們的東西。
+- wait:
+  - 20
+- print:
+  - 怜
+  - >2-
+
+    不好意思了。
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_3007003_044
+- face:
+  - 911
+  - 4
+- pop:
+  - 911
+- print:
+  - 傭兵
+  - 欸～拜託啦！我們是傭兵耶！如果連這種小事
+- wait:
+  - 70
+- print:
+  - 傭兵
+  - >2-
+
+    都做不好的話，可是很傷我們的自尊耶！
+- wait:
+  - 45
+- print:
+  - 傭兵
+  - >2
+
+- face:
+  - 911
+  - 1
+- print:
+  - 傭兵
+  - 我可以付你們錢！再考慮一下吧！
+- wait:
+  - 30
+- touch: *o0
+- fadeout:
+  - 911
+  - 30
+- change:
+  - C
+  - LC
+- wait:
+  - 15
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_3007003_045
+- face:
+  - 100311
+  - 6
+- print:
+  - 怜
+  - 無論如何都不讓步是嗎……
+- wait:
+  - 10
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 3
+- print:
+  - 怜
+  - 麻煩你帶著那個人，馬上離開這裡吧。
+- wait:
+  - 60
+- print:
+  - 怜
+  - >2-
+
+    我們也會在阻止那些傢伙的行動後追上的。
+- touch: *o0
+- choice:
+  - 千萬不要勉強
+  - 5
+- choice:
+  - 請妳一定要追上來
+  - 6
+- tag:
+  - 5
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_3007003_046
+- face:
+  - 100311
+  - 2
+- print:
+  - 怜
+  - 謝謝。
+- face:
+  - 100311
+  - 3
+- print:
+  - 怜
+  - 請你也小心。
+- wait:
+  - 10
+- touch: *o0
+- goto:
+  - 7
+- tag:
+  - 6
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_3007003_047
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 我知道。真抱歉老是麻煩你。
+- wait:
+  - 40
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 2
+- print:
+  - 怜
+  - ……謝謝你。
+- touch: *o0
+- tag:
+  - 7
+- fadeout:
+  - 100311
+  - 15
+- chara_full:
+  - 100312
+  - C
+  - 3
+- fadein:
+  - 100312
+  - 15
+- focus:
+  - 100312
+- bust:
+  - 100312
+  - 0
+- vo:
+  - vo_adv_3007003_048
+- face:
+  - 100312
+  - 3
+- print:
+  - 怜
+  - 你們快走吧！　這裡交給我們！
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100312
+  - 30
+- se:
+  - se_adv_step_dirt_run_armor_go_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 911
+- bust:
+  - 911
+  - 1
+- vo:
+  - vo_adv_3007003_049
+- face:
+  - 911
+  - 6
+- print:
+  - 傭兵
+  - 啊！喂！小伙子等一下嘛！
+- wait:
+  - 20
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_dirt_run_go_02
+- effect:
+  - 0009
+- camera_zoom:
+  - 1.3
+  - 10
+- wait:
+  - 15
+- effect:
+  - 0004
+  - se_adv_transition_01
+- camera_zoom:
+  - 1
+  - 1
+- wait:
+  - 15
+- chara_full:
+  - 100211
+  - L
+  - 3
+- chara_full:
+  - 911
+  - R
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_3007003_050
+- face:
+  - 100211
+  - 3
+- print:
+  - 優衣
+  - 抱歉
+- pop:
+  - 100211
+- print:
+  - 優衣
+  - ！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0072
+  - se_adv_magic_cmn_medium_01
+  - 0
+  - R
+- flash: *o0
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_3007003_051
+- face:
+  - 911
+  - 4
+- eye_open:
+  - False
+- shake:
+  - 911
+- print:
+  - 傭兵
+  - 嗚哇！好刺眼！眼睛睜不開……！
+- wait:
+  - 20
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100111
+  - C
+  - 3
+- fadein:
+  - 100111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_3007003_052
+- face:
+  - 100111
+  - 3
+- print:
+  - 日和
+  - 就在現在吧！　我們上吧，怜、優衣！
+- wait:
+  - 20
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_dirt_run_go_02
+- bgm:
+  - stop
+  - 3.7
+  - 1
+- out_L:
+  - 100111
+  - 45
+  - true
+- se:
+  - se_adv_step_dirt_run_armor_go_02
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_volcano_lava
+- chara_full:
+  - 100211
+  - R
+  - 1
+- change:
+  - RC
+  - R
+- fadein:
+  - 100211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_3007003_053
+- face:
+  - 100211
+  - 1
+- print:
+  - 優衣
+  - 照這樣的話應該能順利逃走呢……
+- face:
+  - 100211
+  - 2
+- print:
+  - 優衣
+  - 太好了。
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 811
+  - L
+  - 1
+- se:
+  - se_adv_step_dirt_walk_come_01
+- in_L:
+  - 811
+  - 45
+  - true
+- focus:
+  - 100211:811
+- face:
+  - 100211
+  - 6
+- wait:
+  - 15
+- window_visible:
+  - true
+- bgm:
+  - bgm_M42_02
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_3007003_054
+- face:
+  - 811
+  - 1
+- emotion:
+  - notice1_L
+  - 811
+  - -120
+  - 545
+  - se_adv_emote_common_01
+- print:
+  - 傭兵２
+  - 咦……？　
+- face:
+  - 811
+  - 4
+- print:
+  - 傭兵２
+  - 欸～！
+- wait:
+  - 20
+- print:
+  - 傭兵２
+  - >2-
+
+    你們在前面有碰到我的同伴嗎？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100111
+  - RC
+  - 6
+- chara_full:
+  - 100311
+  - LC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_3007003_055
+- face:
+  - 100311
+  - 3
+- print:
+  - 怜
+  - 有分隊嗎……！
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_3007003_056
+- face:
+  - 100111
+  - 6
+- emotion:
+  - sweat2_R
+  - 100111
+  - 90
+  - 525
+  - '*non'
+- shake:
+  - 100111
+- print:
+  - 日和
+  - 嗯、嗯～……
+- face:
+  - 100111
+  - 2
+- print:
+  - 日和
+  - 沒有碰到呢？
+- wait:
+  - 55
+- touch: *o0
+- fadeout:
+  - 100311
+  - 30
+- chara_full:
+  - 100211
+  - LC
+  - 4
+- fadein:
+  - 100211
+  - 30
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_3007003_057
+- face:
+  - 100211
+  - 4
+- emotion:
+  - sweat1_R
+  - 100211
+  - 95
+  - 495
+  - se_adv_emote_sweat_01
+- print:
+  - 優衣
+  - 日和……那種態度馬上就被拆穿了啦……！
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 911
+  - C
+  - 4
+- se:
+  - se_adv_step_dirt_run_armor_come_01
+- in_R:
+  - 911
+  - 45
+  - true
+- window_visible:
+  - true
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_3007003_058
+- face:
+  - 911
+  - 4
+- print:
+  - 傭兵
+  - 欸～你們等一下啦！
+- face:
+  - 911
+  - 6
+- print:
+  - 傭兵
+  - 咦？你們終於趕上來啦？
+- wait:
+  - 90
+- touch: *o0
+- fadeout:
+  - 911
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 100111
+  - RC
+  - 6
+- chara_full:
+  - 311
+  - LC
+  - 6
+- fadein_all:
+  - 30
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_3007003_059
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - 怎麼辦？
+- face:
+  - 100111
+  - 4
+- print:
+  - 日和
+  - 我們被夾攻了！
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_3007003_060
+- face:
+  - 311
+  - 4
+- print:
+  - 男性
+  - 對不起……都是因為我的委託……
+- wait:
+  - 55
+- print:
+  - 男性
+  - >2
+
+- face:
+  - 311
+  - 3
+- print:
+  - 男性
+  - 事到如今只好乖乖的把花交給他們――
+- wait:
+  - 10
+- touch: *o0
+- fadeout:
+  - 100111
+  - 30
+- chara_full:
+  - 411
+  - RC
+  - 3
+- se:
+  - se_adv_step_dirt_run_come_01
+- in_R:
+  - 411
+  - 45
+  - true
+- bgm:
+  - stop
+  - 10
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_3007003_061
+- face:
+  - 411
+  - 3
+- pop:
+  - 411
+- print:
+  - 女性
+  - ――你們給我等一下！
+- wait:
+  - 20
+- print:
+  - 女性
+  - >2-
+
+    幹嘛讓這群人對你們保持警戒呀！
+- wait:
+  - 10
+- print:
+  - 女性
+  - >2
+
+- face:
+  - 411
+  - 4
+- print:
+  - 女性
+  - 真的很抱歉，我的部下造成各位的困擾――
+- wait:
+  - 10
+- touch: *o0
+- bgm:
+  - bgm_M67_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_3007003_062
+- face:
+  - 311
+  - 6
+- print:
+  - 男性
+  - ……妳怎麼會出現在這裡？
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_3007003_063
+- face:
+  - 411
+  - 6
+- emotion:
+  - exclamation1_R
+  - 411
+  - 0
+  - 665
+  - se_adv_emote_common_01
+- print:
+  - 女性
+  - 你……！還有、那花是……！
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 1
+- vo:
+  - vo_adv_3007003_064
+- face:
+  - 911
+  - 6
+- print:
+  - 傭兵
+  - 什麼嘛～原來是小姐認識的人啊！
+- wait:
+  - 40
+- print:
+  - 傭兵
+  - >2
+
+- face:
+  - 911
+  - 2
+- print:
+  - 傭兵
+  - 如果是這樣的話，早點告訴我們不就好了嘛！
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_3007003_065
+- face:
+  - 411
+  - 4
+- print:
+  - 女性
+  - ……真的非常抱歉！
+- wait:
+  - 30
+- print:
+  - 女性
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 女性
+  - 其實呢……
+- touch: *o0
+- window_visible:
+  - false
+- black_out:
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- wait:
+  - 30
+- black_in: *o0
+- amb:
+  - amb_adv_volcano_lava
+- window_visible:
+  - TRUE
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_3007003_066
+- face:
+  - 311
+  - 6
+- print:
+  - 男性
+  - 妳是這班人所屬的傭兵團團長的女兒……？
+- wait:
+  - 20
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_3007003_067
+- face:
+  - 411
+  - 4
+- print:
+  - 女性
+  - 我一直想對你坦白……
+- wait:
+  - 45
+- print:
+  - 女性
+  - >2-
+
+    但一想到不知你能不能接受，就感到很害怕。
+- wait:
+  - 75
+- print:
+  - 女性
+  - >2-
+
+    所以想送你結緣之花再說明一切……
+- wait:
+  - 60
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 911
+  - R
+  - 4
+- chara_full:
+  - 100111
+  - LC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_3007003_068
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - 原來如此！　有想過傭兵先生為甚麼
+- wait:
+  - 75
+- print:
+  - 日和
+  - >2-
+
+    想要結緣的花，
+- wait:
+  - 45
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 2
+- print:
+  - 日和
+  - 原來是這個原因喔。
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_3007003_069
+- face:
+  - 911
+  - 4
+- print:
+  - 傭兵
+  - 因為小姐說什麼要一個人上火山，
+- wait:
+  - 60
+- print:
+  - 傭兵
+  - >2-
+
+    我們才擔心地跟上來啦！接著就發現你們已經拿到了這個花，
+- wait:
+  - 120
+- print:
+  - 傭兵
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - 傭兵
+  - 所以想請你們賣給我，結果你們就一直逃跑，還真是狼狽啊！
+- touch: *o0
+- fadeout:
+  - 100111
+  - 30
+- chara_full:
+  - 100211
+  - LC
+  - 4
+- fadein:
+  - 100211
+  - 30
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_3007003_070
+- face:
+  - 100211
+  - 4
+- print:
+  - 優衣
+  - 剛才對不起。我們不明就裡就誤會了……
+- wait:
+  - 10
+- touch: *o0
+- fadeout:
+  - 100211
+  - 30
+- chara_full:
+  - 100311
+  - LC
+  - 4
+- fadein:
+  - 100311
+  - 30
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_3007003_071
+- face:
+  - 100311
+  - 4
+- print:
+  - 怜
+  - 真丟臉……
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_3007003_072
+- face:
+  - 911
+  - 2
+- eye_open:
+  - True
+- print:
+  - 傭兵
+  - 沒關係啦！
+- face:
+  - 911
+  - 1
+- print:
+  - 傭兵
+  - ……不過之後的發展
+- wait:
+  - 20
+- print:
+  - 傭兵
+  - >2-
+
+    就要看這兩個人了吧！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 311
+  - LC
+  - 1
+- chara_full:
+  - 411
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_3007003_073
+- face:
+  - 311
+  - 1
+- print:
+  - 男性
+  - ………說實話，雖然現在還有點混亂，但對你的感覺是不會改變的。
+- wait:
+  - 20
+- print:
+  - 男性
+  - >2-
+
+    我衷心希望，妳可以收下這朵花！
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_3007003_074
+- face:
+  - 411
+  - 5
+- print:
+  - 女性
+  - ……好的！
+- face:
+  - 411
+  - 2
+- print:
+  - 女性
+  - 我很樂意！
+- wait:
+  - 75
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 811
+  - RC
+  - 2
+- chara_full:
+  - 100211
+  - LC
+  - 5
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_3007003_075
+- face:
+  - 100211
+  - 5
+- print:
+  - 優衣
+  - 太好了……！　二人的心意真的相通了！
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_3007003_076
+- face:
+  - 811
+  - 2
+- shake:
+  - 811
+- print:
+  - 傭兵２
+  - 嗚喔喔喔！那位小姐終於……！！
+- wait:
+  - 75
+- touch: *o0
+- fadeout:
+  - 811
+  - 30
+- chara_full:
+  - 100111
+  - RC
+  - 2
+- fadein:
+  - 100111
+  - 30
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_3007003_077
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 恭喜恭喜！　
+- face:
+  - 100111
+  - 2
+- jump:
+  - 100111
+  - 2
+- print:
+  - 日和
+  - 萬歲！
+- wait:
+  - 75
+- touch: *o0
+- window_visible:
+  - false
+- effect_delete:
+  - 0022
+  - 30
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- in_R:
+  - 1611
+  - 30
+  - true
+- window_visible:
+  - true
+- se:
+  - se_adv_creature_cmn_01
+- bgm:
+  - bgm_M17
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──呱歐歐歐歐歐
+- shake_screen: *o0
+- print:
+  - 魔物
+  - ！
+- touch: *o0
+- fadeout:
+  - 1611
+  - 30
+- chara_full:
+  - 100211
+  - LC
+  - 6
+- chara_full:
+  - 100312
+  - RC
+  - 3
+- fadein_all:
+  - 30
+- se:
+  - se_adv_step_dirt_move_01
+- focus:
+  - 100312
+- bust:
+  - 100312
+  - 0
+- vo:
+  - vo_adv_3007003_078
+- face:
+  - 100312
+  - 3
+- emotion:
+  - surprise1_L
+  - 100312
+  - 150
+  - 560
+  - '*non'
+- print:
+  - 怜
+  - 該死的魔物們，對聲音有所反應而聚集過來了嗎……！
+- wait:
+  - 30
+- touch: *o0
+- choice:
+  - 先讓他們兩人逃走吧！
+  - 8
+- tag:
+  - 8
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_3007003_079
+- face:
+  - 100211
+  - 3
+- print:
+  - 優衣
+  - 那個……傭兵先生們，
+- wait:
+  - 45
+- print:
+  - 優衣
+  - >2-
+
+    也能請你們幫忙一下嗎？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 911
+  - R
+  - 1
+- chara_full:
+  - 100111
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- se:
+  - se_adv_weapon_axe_set_01
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_3007003_080
+- face:
+  - 911
+  - 1
+- print:
+  - 傭兵
+  - 好啊！
+- face:
+  - 911
+  - 2
+- print:
+  - 傭兵
+  - 如果能夠幫助小姐的話，我們當然很樂意啊！
+- wait:
+  - 10
+- touch: *o0
+- se:
+  - se_adv_weapon_punch_set_01
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_3007003_081
+- face:
+  - 100111
+  - 2
+- print:
+  - 日和
+  - 在有困難的時候就要互相幫助幫助，對吧！
+- wait:
+  - 20
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 3
+- print:
+  - 日和
+  - 好～！一個接一個撂倒牠們喔！　
+- pop:
+  - 100111
+- print:
+  - 日和
+  - 喝呀～！
+- wait:
+  - 60
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 911
+  - 30
+- se:
+  - se_adv_step_dirt_run_go_01
+- effect:
+  - 0009
+- change:
+  - C
+  - LC
+  - 15
+- scale:
+  - 100111
+  - 1.3
+  - 2
+  - 15
+- bgm:
+  - stop
+  - 4
+- fadeout:
+  - 100111
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 500040
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_room_noise_day_01
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    日和一行人順利地打倒了魔物。
+
+    幾天後，那位男性寫的信寄到了她們手上。
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 100111
+  - C
+  - 1
+- fadein:
+  - 100111
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M52
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_3007003_082
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 「……今後為了讓二人能變得幸福，
+- wait:
+  - 55
+- print:
+  - 日和
+  - >2-
+
+    我一邊接受她父親的鍛鍊，同時以成為未來的傭兵團團長作為目標。
+- wait:
+  - 135
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 2
+- print:
+  - 日和
+  - 這次真的很謝謝妳們的幫忙。」
+- touch: *o0
+- fadeout:
+  - 100111
+  - 30
+- chara_full:
+  - 100211
+  - LC
+  - 1
+- chara_full:
+  - 100311
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_3007003_083
+- face:
+  - 100211
+  - 2
+- print:
+  - 優衣
+  - 兩人看起來很幸福真是太好了呢。
+- face:
+  - 100211
+  - 4
+- print:
+  - 優衣
+  - 先前遇到傭兵們時還在想會變成怎樣的說……
+- wait:
+  - 120
+- touch: *o0
+- se:
+  - se_adv_emote_drop_04
+- emotion:
+  - gloomy1_R
+  - 100311
+  - 40
+  - 540
+  - '*non'
+- face:
+  - 100311
+  - 4
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_3007003_084
+- face:
+  - 100311
+  - 4
+- print:
+  - 怜
+  - 唉……沒想到我也會向日和一樣粗心會錯意……
+- wait:
+  - 10
+- touch: *o0
+- fadeout:
+  - 100211
+  - 30
+- chara_full:
+  - 100111
+  - LC
+  - 2
+- fadein:
+  - 100111
+  - 30
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_3007003_085
+- face:
+  - 100111
+  - 2
+- print:
+  - 日和
+  - 打起精神吧，怜！　
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 和我一樣是不值得高興的嗎？
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_3007003_086
+- face:
+  - 100311
+  - 4
+- print:
+  - 怜
+  - 不是那個問題啦……
+- touch: *o0
+- fadeout:
+  - 100111
+  - 30
+- chara_full:
+  - 100211
+  - LC
+  - 1
+- fadein:
+  - 100211
+  - 30
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_3007003_087
+- face:
+  - 100211
+  - 2
+- print:
+  - 優衣
+  - ……呵呵呵。
+- wait:
+  - 45
+- print:
+  - 優衣
+  - >2-
+
+    對不起。
+- face:
+  - 100211
+  - 1
+- print:
+  - 優衣
+  - 我忍不住……
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_3007003_088
+- face:
+  - 100311
+  - 5
+- emotion:
+  - sweat2_R
+  - 100311
+  - 70
+  - 530
+  - se_adv_emote_sweat_02
+- shake:
+  - 100311
+- print:
+  - 怜
+  - 拜託別再取笑我了啦～！
+- wait:
+  - 10
+- print:
+  - 怜
+  - >2-
+
+    我有好好反省了～！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    ──日和她們在歡笑之餘，
+
+    也感受到在不斷完成公會收到的委託的過程中，
+
+    彼此之間的羈絆越來越深厚了。
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

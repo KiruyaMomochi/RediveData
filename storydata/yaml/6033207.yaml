@@ -1,0 +1,238 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500010
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - false
+- situation:
+  - 新魔法
+- chara_full:
+  - 112311
+  - C
+  - 2
+- fadein:
+  - 112311
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M317_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 112311
+- bust:
+  - 112311
+  - 0
+- vo:
+  - vo_adv_6033207_000
+- face:
+  - 112311
+  - 2
+- print:
+  - Purely★栞
+  - 多虧師傅
+- wait:
+  - 35
+- print:
+  - Purely★栞
+  - 我才能習得新的魔法。
+- wait:
+  - 70
+- print:
+  - Purely★栞
+  - >2
+
+- nod:
+  - 112311
+- print:
+  - Purely★栞
+  - 請教這件事
+- wait:
+  - 35
+- print:
+  - Purely★栞
+  - 果然很重要呢。
+- touch: &o0 []
+- choice:
+  - 不要學得太過頭了唷……
+  - 1
+  - 1
+- choice:
+  - 以愛的力量必殺必中☆
+  - 2
+  - 2
+- choice:
+  - 有時繞遠路也是很重要呢。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 112311
+- bust:
+  - 112311
+  - 0
+- vo:
+  - vo_adv_6033207_001
+- face:
+  - 112311
+  - 6
+- emotion:
+  - question1_R
+  - 112311
+  - 130
+  - 480
+  - se_adv_emote_question_01
+- print:
+  - Purely★栞
+  - 為什麼呢？
+- wait:
+  - 35
+- print:
+  - Purely★栞
+  - >2
+
+- face:
+  - 112311
+  - 1
+- print:
+  - Purely★栞
+  - 師傅是很棒的人唷。
+- wait:
+  - 50
+- print:
+  - Purely★栞
+  - >2
+
+- face:
+  - 112311
+  - 6
+- print:
+  - Purely★栞
+  - 為什麼你露出有點複雜的表情呢？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 112311
+- bust:
+  - 112311
+  - 0
+- vo:
+  - vo_adv_6033207_002
+- face:
+  - 112311
+  - 2
+- print:
+  - Purely★栞
+  - 你
+- wait:
+  - 15
+- print:
+  - Purely★栞
+  - 真的很仔細地在關注著我呢。
+- wait:
+  - 80
+- print:
+  - Purely★栞
+  - >2-
+
+    我很開心……
+- wait:
+  - 40
+- face:
+  - 112311
+  - 6
+- emotion:
+  - question1_R
+  - 112311
+  - 130
+  - 480
+  - se_adv_emote_question_01
+- print:
+  - Purely★栞
+  - 咦？
+- wait:
+  - 35
+- print:
+  - Purely★栞
+  - >2-
+
+    你說你是在試自己能不能也射出愛之箭？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 112311
+- bust:
+  - 112311
+  - 0
+- vo:
+  - vo_adv_6033207_003
+- face:
+  - 112311
+  - 6
+- pop:
+  - 112311
+- print:
+  - Purely★栞
+  - 才、
+- wait:
+  - 25
+- print:
+  - Purely★栞
+  - 才不是繞遠路呢！
+- wait:
+  - 45
+- print:
+  - Purely★栞
+  - >2
+
+- face:
+  - 112311
+  - 3
+- print:
+  - Purely★栞
+  - 我可是認真地在修行！
+- wait:
+  - 40
+- print:
+  - Purely★栞
+  - >2-
+
+    你到底在說些什麼啊，
+- wait:
+  - 30
+- print:
+  - Purely★栞
+  - 真是的。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 112311
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

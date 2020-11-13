@@ -1,0 +1,238 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 501000
+- amb:
+  - amb_adv_outdoors_day_01
+- ui_visible:
+  - false
+- situation:
+  - 關於愛麗絲
+- chara_full:
+  - 106612
+  - C
+  - 1
+- fadein:
+  - 106612
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M376
+  - 0
+  - 0
+  - 1
+- focus:
+  - 106612
+- bust:
+  - 106612
+  - 0
+- vo:
+  - vo_adv_6042407_000
+- face:
+  - 106612
+  - 1
+- print:
+  - 祈梨
+  - 那個叫愛麗絲的生物
+- wait:
+  - 35
+- print:
+  - 祈梨
+  - 到底是怎麼回事啊。
+- wait:
+  - 55
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 106612
+  - 6
+- print:
+  - 祈梨
+  - 她好像
+- wait:
+  - 35
+- print:
+  - 祈梨
+  - 也不是魔物……
+- touch: &o0 []
+- choice:
+  - 她是小動物？
+  - 1
+  - 1
+- choice:
+  - 她是我們重要的同伴。
+  - 2
+  - 2
+- choice:
+  - 她很可愛吧。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 106612
+- bust:
+  - 106612
+  - 0
+- vo:
+  - vo_adv_6042407_001
+- face:
+  - 106612
+  - 1
+- print:
+  - 祈梨
+  - 我是不太清楚啦，
+- wait:
+  - 55
+- print:
+  - 祈梨
+  - 但你為什麼要看向我？
+- wait:
+  - 85
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 106612
+  - 6
+- print:
+  - 祈梨
+  - 什麼？
+- wait:
+  - 45
+- print:
+  - 祈梨
+  - 你說我和她同樣是小動物類型的？
+- wait:
+  - 75
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 106612
+  - 3
+- print:
+  - 祈梨
+  - 小哥你的腦袋沒壞掉吧！？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 106612
+- bust:
+  - 106612
+  - 0
+- vo:
+  - vo_adv_6042407_002
+- face:
+  - 106612
+  - 1
+- print:
+  - 祈梨
+  - 同伴
+- wait:
+  - 30
+- print:
+  - 祈梨
+  - 嗎……
+- wait:
+  - 60
+- face:
+  - 106612
+  - 2
+- print:
+  - 祈梨
+  - 也是呢。
+- wait:
+  - 45
+- print:
+  - 祈梨
+  - >2-
+
+    重要的不是她的外表，
+- wait:
+  - 30
+- print:
+  - 祈梨
+  - 而是內心才對！
+- wait:
+  - 65
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 106612
+  - 3
+- print:
+  - 祈梨
+  - ……小哥你幹麼一直盯著我看啦！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 106612
+- bust:
+  - 106612
+  - 0
+- vo:
+  - vo_adv_6042407_003
+- face:
+  - 106612
+  - 6
+- print:
+  - 祈梨
+  - 小哥
+- wait:
+  - 30
+- print:
+  - 祈梨
+  - 喜歡那種奇幻華麗的生物啊……
+- wait:
+  - 70
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 106612
+  - 1
+- print:
+  - 祈梨
+  - 不過也是啦？
+- wait:
+  - 40
+- print:
+  - 祈梨
+  - 我也覺得她有那麼一點點可愛唷？
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 106612
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

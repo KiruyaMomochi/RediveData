@@ -1,0 +1,1246 @@
+- title:
+  - 碧 第6話
+- outline:
+  - 位於精靈之森入口的大樹被弄倒，導致結界損壞。{0}為了讓碧從襲來的兇惡魔物手中逃離而受了傷。但是，靠著碧的機智擊退了魔物，擺脫了危機。
+- background:
+  - 500190
+- amb:
+  - amb_adv_forest_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 希望你能陪在身邊
+- se:
+  - se_adv_step_leaves_move_01
+- chara_full:
+  - 104011
+  - C
+  - 2
+- bgm:
+  - bgm_M37
+  - 0
+  - 0
+  - 1
+- fadein:
+  - 104011
+  - 30
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_1040006_000
+- face:
+  - 104011
+  - 2
+- pop:
+  - 104011
+- print:
+  - 碧
+  - 午安！
+- wait:
+  - 30
+- print:
+  - 碧
+  - >2
+
+- face:
+  - 104011
+  - 1
+- print:
+  - 碧
+  - 那個……關於BB團的活動，今天做什麼好呢……？
+- wait:
+  - 75
+- touch: &o0 []
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_1040006_001
+- face:
+  - 104011
+  - 4
+- print:
+  - 碧
+  - 不過，今天有一件事情令我很在意……
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_1040006_002
+- face:
+  - 104011
+  - 4
+- print:
+  - 碧
+  - 還好。只是有點在意而已……
+- wait:
+  - 75
+- print:
+  - 碧
+  - >2
+
+- face:
+  - 104011
+  - 3
+- print:
+  - 碧
+  - 今天早上，森林入口的大樹被弄倒了。
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_1040006_003
+- face:
+  - 104011
+  - 3
+- eye_open:
+  - False
+- print:
+  - 碧
+  - 從那棵樹被弄倒來看，
+- wait:
+  - 90
+- print:
+  - 碧
+  - >2-
+
+    有可能是部分結界損壞了……
+- wait:
+  - 30
+- touch: *o0
+- eye_open:
+  - true
+- window_visible:
+  - false
+- face:
+  - 104011
+  - 6
+- emotion:
+  - notice1_L
+  - 104011
+  - -60
+  - 525
+  - se_adv_emote_common_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_1040006_004
+- face:
+  - 104011
+  - 6
+- print:
+  - 碧
+  - 啊，那個，在這個森林和人類的城鎮，
+- wait:
+  - 90
+- print:
+  - 碧
+  - >2-
+
+    佈有讓魔物們十分討厭的結界。如果結界被破壞，
+- wait:
+  - 90
+- print:
+  - 碧
+  - >2
+
+- face:
+  - 104011
+  - 4
+- print:
+  - 碧
+  - 魔物就會出現在森林和城鎮……
+- wait:
+  - 45
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
+- fadeout:
+  - 104011
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- se:
+  - se_adv_creature_cmn_01
+- effect:
+  - 0009
+- bgm:
+  - bgm_M17
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 1
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──呱歐歐歐歐歐
+- shake_screen: *o0
+- print:
+  - 魔物
+  - ！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_monster_run_01
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- se_pause:
+  - se_adv_step_monster_run_01
+  - 1
+- chara_full:
+  - 104011
+  - C
+  - 6
+- fadein:
+  - 104011
+  - 30
+- emotion:
+  - surprise1_L
+  - 104011
+  - 160
+  - 535
+  - '*non'
+- window_visible:
+  - true
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_1040006_005
+- face:
+  - 104011
+  - 6
+- print:
+  - 碧
+  - ……？剛才的是魔物的叫聲……是從哪裡傳出來的……？
+- wait:
+  - 75
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_monster_run_01
+- wait:
+  - 15
+- change:
+  - LC
+  - C
+- wait:
+  - 5
+- chara_full:
+  - 1614
+  - RC
+  - 1
+- in_R:
+  - 1614
+  - 45
+  - true
+- wait:
+  - 15
+- se:
+  - se_adv_creature_cmn_04
+- window_visible:
+  - true
+- focus:
+  - 1614
+- bust:
+  - 1614
+  - 0
+- face:
+  - 1614
+  - 1
+- print:
+  - 魔物
+  - ──呱歐歐歐歐歐
+- effect:
+  - 9
+- print:
+  - 魔物
+  - ！
+- touch: *o0
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_1040006_006
+- face:
+  - 104011
+  - 4
+- emotion:
+  - surprise1_L
+  - 104011
+  - 160
+  - 535
+  - '*non'
+- print:
+  - 碧
+  - 啊
+- shake:
+  - 104011
+- print:
+  - 碧
+  - ！
+- touch: *o0
+- choice:
+  - 碧，危險！
+  - 1
+- tag:
+  - 1
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0028
+  - se_adv_weapon_sword_hit_01
+- shake_screen: *o0
+- chara_full:
+  - 104011
+  - C
+  - 6
+- fadein:
+  - 104011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_1040006_007
+- face:
+  - 104011
+  - 6
+- print:
+  - 碧
+  - 呀─、{0}！
+- touch: *o0
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_1040006_008
+- face:
+  - 104011
+  - 4
+- print:
+  - 碧
+  - 你、你竟然為了保護我……
+- wait:
+  - 60
+- print:
+  - 碧
+  - >2-
+
+    背部受到攻擊了……
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 104011
+  - 6
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_1040006_009
+- face:
+  - 104011
+  - 6
+- print:
+  - 碧
+  - 你說你沒事……？
+- wait:
+  - 30
+- print:
+  - 碧
+  - >2
+
+- face:
+  - 104011
+  - 4
+- print:
+  - 碧
+  - 但、但你看上去不太好啊！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_1040006_010
+- face:
+  - 104011
+  - 1
+- print:
+  - 碧
+  - 啊，對方又攻擊了！
+- wait:
+  - 15
+- touch: *o0
+- choice:
+  - 迎戰。
+  - 2
+- tag:
+  - 2
+- fadeout:
+  - 104011
+  - 30
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- effect:
+  - 01
+  - se_adv_weapon_sword_hit_01
+- shake:
+  - 1611
+- se:
+  - se_adv_creature_cmn_05
+- effect:
+  - 0009
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──呱歐歐歐歐歐！
+- touch: *o0
+- fadeout:
+  - 1611
+  - 30
+- chara_full:
+  - 104011
+  - C
+  - 6
+- fadein:
+  - 104011
+  - 30
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_1040006_011
+- face:
+  - 104011
+  - 6
+- print:
+  - 碧
+  - >
+    我、我也要戰鬥！
+- face:
+  - 104011
+  - 3
+- print:
+  - 碧
+  - 雖然對手看起來很強，但兩人聯手的話……
+- wait:
+  - 30
+- touch: *o0
+- choice:
+  - 碧，快逃……
+  - 3
+- tag:
+  - 3
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_1040006_012
+- face:
+  - 104011
+  - 4
+- print:
+  - 碧
+  - 但是……！
+- touch: *o0
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_1040006_013
+- face:
+  - 104011
+  - 3
+- print:
+  - 碧
+  - 嗚……
+- shake:
+  - 104011
+- print:
+  - 碧
+  - ！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_leaves_run_go_01
+- bgm:
+  - stop
+  - 7
+- out_L:
+  - 104011
+  - 45
+  - true
+- wait:
+  - 15
+- window_visible:
+  - true
+- transition:
+  - 52
+  - 1.5
+- bg_color:
+  - 0
+  - 0
+  - 0
+- transition_resume: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    碧急忙往{0}身後跑。
+
+    正當{0}想著，碧應該順利逃掉了的時候……
+- touch: *o0
+- window_visible:
+  - false
+- white_out:
+  - 1
+  - 1
+- still_unit:
+  - 104031
+- wait:
+  - 15
+- effect:
+  - 22
+  - se_adv_happy_particle_01
+- bgm:
+  - bgm_M07
+  - 0
+  - 0
+  - 1
+- white_in: *o0
+- window_visible:
+  - true
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 1
+- vo:
+  - vo_adv_1040006_014
+- face:
+  - 104011
+  - 3
+- print:
+  - 碧
+  - 不！
+- wait:
+  - 30
+- print:
+  - 碧
+  - >2-
+
+    我不會丟下你，自己一個人逃跑的！
+- touch: *o0
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 1
+- vo:
+  - vo_adv_1040006_015
+- face:
+  - 104011
+  - 3
+- print:
+  - 碧
+  - '我只是退到方便射箭的距離而已！ '
+- wait:
+  - 60
+- print:
+  - 碧
+  - "\n我最重視的BB團和…… "
+- wait:
+  - 60
+- print:
+  - 碧
+  - >2-
+
+    你，必須由我來守護！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 1
+- vo:
+  - vo_adv_1040006_016
+- face:
+  - 104011
+  - 4
+- print:
+  - 碧
+  - 現在要……擊敗對方才贏！
+- wait:
+  - 90
+- print:
+  - 碧
+  - >2-
+
+    使用特殊的箭……
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_weapon_arrow_loading_long_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 1
+- vo:
+  - vo_adv_1040006_017
+- face:
+  - 104011
+  - 3
+- print:
+  - 碧
+  - 呼……
+- touch: *o0
+- window_visible:
+  - false
+- window_visible:
+  - true
+- text_size:
+  - 50
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 1
+- vo:
+  - vo_adv_1040006_018
+- face:
+  - 104011
+  - 3
+- print:
+  - 碧
+  - 看招……！退魔之箭！
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_magic_holy_small_2
+- white_out:
+  - 1
+  - 1
+- still_unit:
+  - end
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect_delete:
+  - 22
+- wait:
+  - 15
+- white_in: *o0
+- se:
+  - se_adv_magic_holy_large_01
+- effect:
+  - 2
+- se:
+  - se_adv_arrow_01
+- wait:
+  - 15
+- background:
+  - 500190
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- flash: *o0
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - true
+- text_size:
+  - 23
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──呱歐歐歐歐歐
+- shake_screen: *o0
+- print:
+  - 魔物
+  - ！
+- touch: *o0
+- fadeout:
+  - 1611
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 1
+- vo:
+  - vo_adv_1040006_019
+- face:
+  - 104011
+  - 6
+- print:
+  - 碧
+  - 太好了，射中了！
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0004
+  - se_adv_transition_01
+- se:
+  - se_adv_step_leaves_run_come_01
+- wait:
+  - 30
+- chara_full:
+  - 104011
+  - LC
+  - 4
+- change:
+  - C
+  - LC
+- fadein:
+  - 104011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_1040006_020
+- face:
+  - 104011
+  - 4
+- print:
+  - 碧
+  - 怎麼樣……我做到了吧……
+- wait:
+  - 15
+- touch: *o0
+- fadeout:
+  - 104011
+  - 30
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_04
+- effect:
+  - 0009
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──呱歐歐歐歐歐
+- shake_screen: *o0
+- print:
+  - 魔物
+  - ！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_monster_run_01
+- effect:
+  - 0009
+- scale:
+  - 1611
+  - 1.3
+  - 2
+  - 5
+- fadeout:
+  - 1611
+  - 10
+- effect_delete:
+  - 0009
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 104011
+  - C
+  - 7
+- fadein:
+  - 104011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_1040006_021
+- face:
+  - 104011
+  - 7
+- print:
+  - 碧
+  - 哇、
+- shake:
+  - 104011
+- print:
+  - 碧
+  - 哇啊，完全沒有用啊……
+- face:
+  - 104011
+  - 4
+- print:
+  - 碧
+  - 呀！
+- wait:
+  - 45
+- print:
+  - 碧
+  - >2-
+
+    牠、牠朝這邊衝過來了……
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_1040006_022
+- face:
+  - 104011
+  - 6
+- print:
+  - 碧
+  - 嗚……！請等一下……那個地方是！
+- wait:
+  - 75
+- print:
+  - 碧
+  - >2
+
+- face:
+  - 104011
+  - 3
+- print:
+  - 碧
+  - 對了！
+- touch: *o0
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_1040006_023
+- face:
+  - 104011
+  - 3
+- print:
+  - 碧
+  - 請按下那邊的開關！
+- touch: *o0
+- choice:
+  - 我知道了。
+  - 4
+- tag:
+  - 4
+- se:
+  - se_adv_creature_cmn_02
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 1
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ……？
+- touch: *o0
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_1040006_024
+- face:
+  - 104011
+  - 3
+- print:
+  - 碧
+  - 剛才按的就是之前在BB團的特訓時使用過的
+- wait:
+  - 45
+- print:
+  - 碧
+  - >2-
+
+    『突破極限交朋友的絕命賽』的開關！
+- wait:
+  - 45
+- print:
+  - 碧
+  - >2-
+
+    只要一按，木樁就會飛過來……！
+- touch: *o0
+- fadeout:
+  - 104011
+  - 30
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- effect:
+  - 17
+  - se_adv_weapon_punch_hit_04
+- flash: *o0
+- out_R:
+  - 1611
+  - 30
+  - true
+- wait:
+  - 15
+- se:
+  - se_adv_comic_fall_down_01
+- se:
+  - se_adv_creature_cmn_01
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 1
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──嘰歐歐歐歐歐！
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 木樁直接打中魔物，並將牠打落深淵了……
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 104011
+  - C
+  - 4
+- fadein:
+  - 104011
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M19
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_1040006_025
+- face:
+  - 104011
+  - 4
+- print:
+  - 碧
+  - 呼、
+- nod:
+  - 104011
+- print:
+  - 碧
+  - 呼、好不容易……打敗了……
+- wait:
+  - 100
+- touch: *o0
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_1040006_026
+- face:
+  - 104011
+  - 4
+- print:
+  - 碧
+  - 謝、謝謝你……
+- wait:
+  - 15
+- print:
+  - 碧
+  - >2-
+
+    啊哈哈……腳還在發抖……哆哆嗦嗦的……
+- wait:
+  - 45
+- touch: *o0
+- fadeout:
+  - 104011
+  - 30
+- se:
+  - se_adv_step_leaves_move_01
+- chara_full:
+  - 104011
+  - C
+  - 4
+- scale:
+  - 104011
+  - 1.3
+  - 2
+- fadein:
+  - 104011
+  - 30
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_1040006_027
+- face:
+  - 104011
+  - 4
+- print:
+  - 碧
+  - ……你是BB團的團長……
+- wait:
+  - 120
+- print:
+  - 碧
+  - >2-
+
+    如果你不在的話，就再也交不到朋友了……
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_1040006_028
+- face:
+  - 104011
+  - 4
+- print:
+  - 碧
+  - '請答應我你不會消失不見…… '
+- wait:
+  - 90
+- print:
+  - 碧
+  - "\n就算我因為你的保護而獲救，我 "
+- wait:
+  - 90
+- print:
+  - 碧
+  - >2-
+
+    也不會很開心……
+- touch: *o0
+- choice:
+  - 我答應妳。
+  - 5
+- tag:
+  - 5
+- effect:
+  - 0044
+  - se_adv_happy_particle_01
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_1040006_029
+- face:
+  - 104011
+  - 2
+- print:
+  - 碧
+  - 好的！因為BB團是……永垂不朽的！
+- wait:
+  - 105
+- touch: *o0
+- effect_delete:
+  - 0044
+  - 30
+- fadeout:
+  - 104011
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    {0}和碧
+
+    兩人相視而笑……
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

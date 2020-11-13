@@ -1,0 +1,677 @@
+- title:
+  - 疾風之冥姬和傳說的吸血鬼
+- outline:
+  - 為了尋找恢復吸血鬼力量的線索，還有計畫恢復{0}記憶的伊莉亞，以及一半是為了興趣而同行的杏奈。帶著各自的想法，傳說的吸血鬼跟疾風之冥姬一同開始攻略露娜之塔。
+- background:
+  - 500420
+- amb:
+  - amb_adv_forest_02
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 疾風之冥姬和傳說的吸血鬼
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    為了找回遺失的記憶之鑰，{0}和極力尋找線索
+
+    以重獲全盛時期力量的伊莉亞一起前往露娜之塔。
+- touch: &o0 []
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    途中，加入為了尋求小說創作題材而在街道閒晃的杏奈，
+
+    3人來到通往露娜之塔的祠堂。
+- touch: *o0
+- window_visible:
+  - FALSE
+- chara_full:
+  - 100911
+  - RC
+  - 1
+- chara_full:
+  - 104412
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M156
+  - 0
+  - 0
+  - 1
+  - 0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_7007000_000
+- face:
+  - 100911
+  - 1
+- print:
+  - 杏奈
+  - 這就是吉格魯特失去的記憶沉眠之所，
+- wait:
+  - 60
+- print:
+  - 杏奈
+  - 露娜之塔嗎……
+- wait:
+  - 60
+- print:
+  - 杏奈
+  - >2
+
+- emotion:
+  - note1_L
+  - 100911
+  - -105
+  - 535
+  - se_adv_emote_note_01
+- face:
+  - 100911
+  - 2
+- print:
+  - 杏奈
+  - 呵呵，
+- wait:
+  - 25
+- print:
+  - 杏奈
+  - 好痛……
+- wait:
+  - 25
+- print:
+  - 杏奈
+  - 我的魔瞳好痛……！
+- touch: *o0
+- focus:
+  - 104412
+- bust:
+  - 104412
+  - 0
+- vo:
+  - vo_adv_7007000_001
+- face:
+  - 104412
+  - 2
+- nod:
+  - 104412
+- print:
+  - 伊莉亞
+  - 喔喔。
+- wait:
+  - 55
+- print:
+  - 伊莉亞
+  - 感覺很有氣氛嘛。
+- wait:
+  - 75
+- print:
+  - 伊莉亞
+  - >2-
+
+    你做好覺悟了嗎？
+- touch: *o0
+- choice:
+  - 當然。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 104412
+- bust:
+  - 104412
+  - 0
+- vo:
+  - vo_adv_7007000_002
+- face:
+  - 104412
+  - 2
+- print:
+  - 伊莉亞
+  - 唔呣，
+- wait:
+  - 35
+- print:
+  - 伊莉亞
+  - 真有膽識。
+- wait:
+  - 55
+- print:
+  - 伊莉亞
+  - >2
+
+- face:
+  - 104412
+  - 1
+- print:
+  - 伊莉亞
+  - 妳是「移動龍卷風」吧？
+- wait:
+  - 55
+- print:
+  - 伊莉亞
+  - 妳又如何呢？
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100911
+  - C
+  - 1
+- fadein:
+  - 100911
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - stop
+  - 4
+  - 1
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_7007000_003
+- face:
+  - 100911
+  - 1
+- print:
+  - 杏奈
+  - 這麼說來
+- wait:
+  - 20
+- print:
+  - 杏奈
+  - 還沒自我介紹呢！
+- wait:
+  - 35
+- print:
+  - 杏奈
+  - >2
+
+- emotion:
+  - twinkle1_R
+  - 100911
+  - -120
+  - 495
+  - se_adv_emote_twinkle_01
+- face:
+  - 100911
+  - 2
+- bgm:
+  - bgm_M06
+  - 0.5
+  - 0
+  - 0
+  - 0
+- print:
+  - 杏奈
+  - 我的名字是安妮羅潔‧馮‧修特帕魯！
+- wait:
+  - 45
+- print:
+  - 杏奈
+  - >2-
+
+    人稱
+- wait:
+  - 15
+- print:
+  - 杏奈
+  - 疾風之冥姬！　
+- wait:
+  - 50
+- face:
+  - 100911
+  - 1
+- print:
+  - 杏奈
+  - 隨妳高興怎麼叫都可以！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 100911
+  - 30
+- chara_full:
+  - 100911
+  - RC
+  - 1
+- chara_full:
+  - 104412
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 104412
+- bust:
+  - 104412
+  - 0
+- vo:
+  - vo_adv_7007000_004
+- face:
+  - 104412
+  - 1
+- print:
+  - 伊莉亞
+  - 唔呣，
+- wait:
+  - 35
+- print:
+  - 伊莉亞
+  - 那麼
+- wait:
+  - 25
+- print:
+  - 伊莉亞
+  - 妾身就稱呼妳為修特帕魯吧。
+- wait:
+  - 65
+- print:
+  - 伊莉亞
+  - >2
+
+- face:
+  - 104412
+  - 6
+- print:
+  - 伊莉亞
+  - 話說回來，
+- wait:
+  - 20
+- print:
+  - 伊莉亞
+  - 妳所說的吉格魯特指的是{0}嗎？
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_7007000_005
+- face:
+  - 100911
+  - 1
+- nod:
+  - 100911
+- print:
+  - 杏奈
+  - 當然！　
+- wait:
+  - 30
+- print:
+  - 杏奈
+  - 熾炎戰鬼煉獄血盟暗黑團的第二連隊長，
+- wait:
+  - 65
+- print:
+  - 杏奈
+  - >2-
+
+    兼我的前世宿敵與
+- wait:
+  - 50
+- print:
+  - 杏奈
+  - 盟友……
+- wait:
+  - 40
+- face:
+  - 100911
+  - 2
+- print:
+  - 杏奈
+  - 他就是
+- wait:
+  - 20
+- print:
+  - 杏奈
+  - 閃光的吉格魯特！
+- touch: *o0
+- focus:
+  - 104412
+- bust:
+  - 104412
+  - 0
+- vo:
+  - vo_adv_7007000_006
+- face:
+  - 104412
+  - 6
+- print:
+  - 伊莉亞
+  - 哼嗯……
+- wait:
+  - 35
+- face:
+  - 104412
+  - 1
+- print:
+  - 伊莉亞
+  - 真是個有趣的傢伙。
+- wait:
+  - 60
+- print:
+  - 伊莉亞
+  - >2-
+
+    不愧是{0}的朋友。
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_7007000_007
+- face:
+  - 100911
+  - 1
+- print:
+  - 杏奈
+  - 這麼說來，
+- wait:
+  - 30
+- print:
+  - 杏奈
+  - 「傳說的吸血鬼」
+- wait:
+  - 30
+- print:
+  - 杏奈
+  - 這個名號
+- wait:
+  - 20
+- print:
+  - 杏奈
+  - >2-
+
+    也相當響亮啊。
+- wait:
+  - 45
+- print:
+  - 杏奈
+  - >2
+
+- face:
+  - 100911
+  - 2
+- print:
+  - 杏奈
+  - 不愧是吉格魯特，
+- wait:
+  - 30
+- print:
+  - 杏奈
+  - 在魔族之間也很吃得開呢！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- chara_full:
+  - 104412
+  - C
+  - 1
+- fadein:
+  - 104412
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - stop
+  - 7
+- focus:
+  - 104412
+- bust:
+  - 104412
+  - 0
+- vo:
+  - vo_adv_7007000_008
+- face:
+  - 104412
+  - 1
+- nod:
+  - 104412
+- print:
+  - 伊莉亞
+  - 對了，
+- wait:
+  - 35
+- print:
+  - 伊莉亞
+  - 妾身也來自我介紹吧。
+- wait:
+  - 65
+- print:
+  - 伊莉亞
+  - >2
+
+- face:
+  - 104412
+  - 2
+- bgm:
+  - bgm_M13
+  - 0
+  - 0
+  - 1
+  - 0
+- print:
+  - 伊莉亞
+  - 妾身名叫伊莉亞。
+- wait:
+  - 55
+- print:
+  - 伊莉亞
+  - >2-
+
+    統御黑夜之人，
+- wait:
+  - 45
+- print:
+  - 伊莉亞
+  - 伊莉亞‧奧恩斯坦。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 104412
+  - 30
+- chara_full:
+  - 100911
+  - RC
+  - 1
+- chara_full:
+  - 104412
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_7007000_009
+- face:
+  - 100911
+  - 1
+- print:
+  - 杏奈
+  - 那麼，
+- wait:
+  - 25
+- print:
+  - 杏奈
+  - 我就稱呼妳為
+- wait:
+  - 25
+- print:
+  - 杏奈
+  - 奧恩斯坦大臣吧。
+- wait:
+  - 50
+- print:
+  - 杏奈
+  - >2
+
+- emotion:
+  - twinkle1_R
+  - 100911
+  - -120
+  - 495
+  - se_adv_emote_twinkle_01
+- face:
+  - 100911
+  - 2
+- print:
+  - 杏奈
+  - 呵呵呵，
+- wait:
+  - 40
+- print:
+  - 杏奈
+  - 聽起來是個充滿黑闇魔力的名字呢！
+- touch: *o0
+- choice:
+  - 自我介紹結束了嗎？
+  - 2
+- tag:
+  - 2
+- focus:
+  - 104412
+- bust:
+  - 104412
+  - 0
+- vo:
+  - vo_adv_7007000_010
+- face:
+  - 104412
+  - 1
+- nod:
+  - 104412
+- print:
+  - 伊莉亞
+  - 嗯，
+- wait:
+  - 35
+- print:
+  - 伊莉亞
+  - 那我們也差不多該進去了吧。
+- touch: *o0
+- focus:
+  - 104412
+- bust:
+  - 104412
+  - 0
+- vo:
+  - vo_adv_7007000_011
+- face:
+  - 104412
+  - 1
+- print:
+  - 伊莉亞
+  - 既然關係到{0}的記憶，
+- wait:
+  - 55
+- print:
+  - 伊莉亞
+  - >2-
+
+    一定也和取回妾身力量
+- wait:
+  - 45
+- print:
+  - 伊莉亞
+  - 的事情有關聯。
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_7007000_012
+- face:
+  - 100911
+  - 1
+- print:
+  - 杏奈
+  - 那麼，
+- wait:
+  - 25
+- print:
+  - 杏奈
+  - 現在開始進行露娜之塔攻略戰！
+- wait:
+  - 65
+- print:
+  - 杏奈
+  - >2
+
+- pop:
+  - 100911
+- face:
+  - 100911
+  - 2
+- print:
+  - 杏奈
+  - 熾炎戰鬼煉獄血盟暗黑團，
+- wait:
+  - 60
+- print:
+  - 杏奈
+  - 出擊！！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

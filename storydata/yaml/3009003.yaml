@@ -1,0 +1,2066 @@
+- title:
+  - 森林守衛 第3話
+- outline:
+  - 自覺沒有前輩風範而苦惱的初音，因為準確地提出建言，幫助了文件計算錯誤而煩惱的碧，而被讚美是一位好前輩。在此時美里來訪，告知了碧晉升為正式公會成員的消息，碧與初音兩人都非常高興。
+- background:
+  - 500130
+- amb:
+  - amb_adv_outdoors_morning_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 總是很可靠的前輩
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 當{0}正走在街上時――
+- touch: &o0 []
+- window_visible:
+  - false
+- bgm:
+  - bgm_M04
+  - 0
+  - 0
+  - 1
+- window_visible:
+  - true
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 1
+- vo:
+  - vo_adv_3009003_000
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - 嗯～……
+- wait:
+  - 45
+- print:
+  - 初音
+  - 該怎麼辦才好呢～？
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_step_concrete_walk_armor_go_01
+- wait:
+  - 30
+- chara_full:
+  - 101211
+  - C
+  - 6
+- fadein:
+  - 101211
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_3009003_001
+- face:
+  - 101211
+  - 6
+- emotion:
+  - notice1_L
+  - 101211
+  - -75
+  - 545
+  - se_adv_emote_common_01
+- print:
+  - 初音
+  - 啊，{0}！
+- token: *o0
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 2
+- print:
+  - 初音
+  - 欸嘿嘿――
+- wait:
+  - 30
+- print:
+  - 初音
+  - 真是巧遇呢！　
+- wait:
+  - 30
+- print:
+  - 初音
+  - 閃亮亮！
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_3009003_002
+- face:
+  - 101211
+  - 6
+- print:
+  - 初音
+  - 咦？　
+- token: *o0
+- print:
+  - 初音
+  - 我看起來
+- wait:
+  - 15
+- print:
+  - 初音
+  - 面有難色嗎？
+- wait:
+  - 75
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - 嗯……
+- wait:
+  - 30
+- print:
+  - 初音
+  - 其實我有點煩惱……
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_3009003_003
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - 我覺得
+- wait:
+  - 30
+- print:
+  - 初音
+  - 好像還沒有讓小碧
+- wait:
+  - 30
+- print:
+  - 初音
+  - >2-
+
+    見識到我像個前輩的樣子――
+- wait:
+  - 45
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 1
+- print:
+  - 初音
+  - 該怎麼做，
+- wait:
+  - 30
+- print:
+  - 初音
+  - 才能更有前輩的風範呢？
+- touch: *o0
+- choice:
+  - 只有本人才知道吧。
+  - 1
+- choice:
+  - 像是為後輩做些希望妳幫她做的事情之類？
+  - 2
+- tag:
+  - 1
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_3009003_004
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - 說的也是呢～
+- wait:
+  - 60
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 1
+- print:
+  - 初音
+  - 果然還是得問小碧啊～
+- touch: *o0
+- goto:
+  - 3
+- tag:
+  - 2
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_3009003_005
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - 嗯～……
+- wait:
+  - 60
+- print:
+  - 初音
+  - >2-
+
+    小碧希望我為她做什麼呢？
+- touch: *o0
+- tag:
+  - 3
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_3009003_006
+- face:
+  - 101211
+  - 1
+- jump:
+  - 101211
+- print:
+  - 初音
+  - 好！
+- token: *o0
+- print:
+  - 初音
+  - >2-
+
+    既然這樣，
+- token: *o0
+- print:
+  - 初音
+  - 就直接去問本人吧！
+- wait:
+  - 45
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 2
+- print:
+  - 初音
+  - '{0}也一起來！'
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - RC
+  - C
+- bgm:
+  - stop
+  - 3.5
+  - 1
+- fadeout:
+  - 101211
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 500180
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_forest_01
+- chara_full:
+  - 101211
+  - LC
+  - 1
+- chara_full:
+  - 104011
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M37
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_3009003_007
+- face:
+  - 101211
+  - 1
+- print:
+  - 初音
+  - ――就是這樣，
+- jump:
+  - 101211
+- wait:
+  - 30
+- print:
+  - 初音
+  - 小碧！
+- wait:
+  - 15
+- print:
+  - 初音
+  - >2-
+
+    我來問妳了喔！
+- touch: *o0
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_3009003_008
+- face:
+  - 104011
+  - 4
+- print:
+  - 碧
+  - 就是這樣……
+- wait:
+  - 15
+- print:
+  - 碧
+  - 指的是哪樣啊！？
+- wait:
+  - 45
+- print:
+  - 碧
+  - >2-
+
+    而且不只初音，
+- wait:
+  - 45
+- print:
+  - 碧
+  - 連{0}也……
+- wait:
+  - 30
+- print:
+  - 碧
+  - >2
+
+- face:
+  - 104011
+  - 7
+- print:
+  - 碧
+  - 那、
+- wait:
+  - 15
+- print:
+  - 碧
+  - 那、
+- wait:
+  - 15
+- print:
+  - 碧
+  - 那樣看著我的話……
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_3009003_009
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - 啊～
+- wait:
+  - 15
+- print:
+  - 初音
+  - 對不起對不起～
+- wait:
+  - 30
+- print:
+  - 初音
+  - 我不是有意要嚇妳的。
+- touch: *o0
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_3009003_010
+- face:
+  - 104011
+  - 5
+- emotion:
+  - shy1_R
+  - 104011
+  - -90
+  - 480
+  - '*non'
+- print:
+  - 碧
+  - 不、
+- wait:
+  - 15
+- print:
+  - 碧
+  - 不會……
+- wait:
+  - 30
+- print:
+  - 碧
+  - 我沒有
+- wait:
+  - 30
+- print:
+  - 碧
+  - 被嚇到……
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_3009003_011
+- face:
+  - 101211
+  - 1
+- print:
+  - 初音
+  - 那個，
+- wait:
+  - 30
+- print:
+  - 初音
+  - 我有點事想要問小碧！
+- wait:
+  - 45
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - 因為我
+- wait:
+  - 15
+- print:
+  - 初音
+  - 完全沒有前輩的樣子，
+- wait:
+  - 45
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 1
+- print:
+  - 初音
+  - 妳覺得我該怎麼做，才能展現出前輩的風範呢？
+- touch: *o0
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_3009003_012
+- face:
+  - 104011
+  - 8
+- emotion:
+  - sweat1_R
+  - 104011
+  - 95
+  - 585
+  - se_adv_emote_sweat_01
+- print:
+  - 碧
+  - 咦咦～！？　
+- wait:
+  - 15
+- face:
+  - 104011
+  - 4
+- print:
+  - 碧
+  - 這
+- wait:
+  - 15
+- print:
+  - 碧
+  - 這種問題要問我嗎！？
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_3009003_013
+- face:
+  - 101211
+  - 2
+- print:
+  - 初音
+  - 嗯，
+- token: *o0
+- print:
+  - 初音
+  - 就是要問！　
+- token: *o0
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - 我前陣子當嚮導時
+- wait:
+  - 30
+- print:
+  - 初音
+  - >2-
+
+    也在最後睡著了，
+- wait:
+  - 45
+- print:
+  - 初音
+  - 我覺得這樣很糟糕――，
+- wait:
+  - 45
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 1
+- print:
+  - 初音
+  - 所以一直很在意這件事。
+- touch: *o0
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_3009003_014
+- face:
+  - 104011
+  - 1
+- print:
+  - 碧
+  - 原來如此……
+- wait:
+  - 60
+- print:
+  - 碧
+  - 那個，
+- wait:
+  - 30
+- print:
+  - 碧
+  - 我覺得沒那回事喔……
+- wait:
+  - 45
+- print:
+  - 碧
+  - >2-
+
+    初音妳，
+- wait:
+  - 30
+- print:
+  - 碧
+  - 那個……
+- wait:
+  - 45
+- face:
+  - 104011
+  - 5
+- print:
+  - 碧
+  - 是個很可靠的前輩。
+- touch: *o0
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_3009003_015
+- face:
+  - 104011
+  - 1
+- print:
+  - 碧
+  - 嗯、
+- wait:
+  - 30
+- print:
+  - 碧
+  - 真要說起來的話……
+- wait:
+  - 60
+- print:
+  - 碧
+  - >2
+
+- face:
+  - 104011
+  - 4
+- shake:
+  - 104011
+- print:
+  - 碧
+  - 一直做得不好的，
+- wait:
+  - 30
+- print:
+  - 碧
+  - 其實是我……
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_3009003_016
+- face:
+  - 101211
+  - 6
+- print:
+  - 初音
+  - 嗯～……？　
+- wait:
+  - 45
+- print:
+  - 初音
+  - 小碧，怎麼了？
+- wait:
+  - 30
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - 發生什麼事了嗎？
+- touch: *o0
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_3009003_017
+- face:
+  - 104011
+  - 1
+- print:
+  - 碧
+  - 其實……
+- wait:
+  - 45
+- print:
+  - 碧
+  - 我把今天交易的貨物
+- wait:
+  - 45
+- print:
+  - 碧
+  - >2-
+
+    整理在文件上。
+- wait:
+  - 60
+- print:
+  - 碧
+  - >2
+
+- face:
+  - 104011
+  - 4
+- print:
+  - 碧
+  - 但是，
+- wait:
+  - 30
+- print:
+  - 碧
+  - 計算時出了錯……
+- touch: *o0
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_3009003_018
+- face:
+  - 104011
+  - 4
+- print:
+  - 碧
+  - 造成了許多人的麻煩……
+- token: *o0
+- print:
+  - 碧
+  - >2-
+
+    現在正在緊急地修改文件。
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_3009003_019
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - 原來是這樣啊……
+- wait:
+  - 75
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 1
+- print:
+  - 初音
+  - ……對了！　
+- wait:
+  - 30
+- print:
+  - 初音
+  - 那份文件現在在妳身上嗎？
+- wait:
+  - 30
+- print:
+  - 初音
+  - >2-
+
+    讓我看一下！
+- touch: *o0
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_3009003_020
+- face:
+  - 104011
+  - 6
+- print:
+  - 碧
+  - 咦？　
+- token: *o0
+- print:
+  - 碧
+  - 好的，
+- wait:
+  - 45
+- face:
+  - 104011
+  - 1
+- print:
+  - 碧
+  - 就在這裡。
+- wait:
+  - 15
+- print:
+  - 碧
+  - 請看……
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_paper_move_01
+- wait:
+  - 15
+- window_visible:
+  - TRUE
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_3009003_021
+- face:
+  - 101211
+  - 2
+- print:
+  - 初音
+  - 謝謝～！
+- wait:
+  - 60
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 1
+- print:
+  - 初音
+  - 我看看～……
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_3009003_022
+- face:
+  - 101211
+  - 2
+- emotion:
+  - twinkle1_R
+  - 101211
+  - 130
+  - 490
+  - se_adv_emote_twinkle_01
+- jump:
+  - 101211
+- print:
+  - 初音
+  - 閃亮亮！　
+- token: *o0
+- print:
+  - 初音
+  - 果然～！　
+- wait:
+  - 45
+- print:
+  - 初音
+  - 妳看這裡。
+- wait:
+  - 30
+- print:
+  - 初音
+  - 中間算錯了。
+- wait:
+  - 45
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 1
+- print:
+  - 初音
+  - 精靈之森的交易物品，
+- wait:
+  - 30
+- print:
+  - 初音
+  - 在每個城鎮都有不同價格喔～。
+- wait:
+  - 60
+- print:
+  - 初音
+  - >2-
+
+    但是但是，
+- wait:
+  - 30
+- print:
+  - 初音
+  - 謄寫在文件上的順序並非按照每個不同價格――。
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_3009003_023
+- face:
+  - 101211
+  - 1
+- print:
+  - 初音
+  - 所以呢，
+- wait:
+  - 30
+- print:
+  - 初音
+  - 不要同時計算……
+- wait:
+  - 60
+- print:
+  - 初音
+  - 要像這樣，
+- wait:
+  - 15
+- print:
+  - 初音
+  - 盡量將
+- wait:
+  - 15
+- print:
+  - 初音
+  - >2-
+
+    交易行情相同的城鎮集中……
+- wait:
+  - 75
+- print:
+  - 初音
+  - 再分開計算各自的總數。
+- wait:
+  - 60
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 2
+- print:
+  - 初音
+  - 最後再將那些數字加總計算看看？
+- touch: *o0
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_3009003_024
+- face:
+  - 104011
+  - 6
+- emotion:
+  - notice1_L
+  - 104011
+  - -60
+  - 525
+  - se_adv_emote_common_01
+- print:
+  - 碧
+  - ……啊！
+- wait:
+  - 30
+- print:
+  - 碧
+  - 原來如此……！
+- wait:
+  - 30
+- print:
+  - 碧
+  - >2
+
+- face:
+  - 104011
+  - 1
+- print:
+  - 碧
+  - 這樣子的確
+- wait:
+  - 15
+- print:
+  - 碧
+  - 非常容易理解！
+- touch: *o0
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_3009003_025
+- face:
+  - 104011
+  - 2
+- print:
+  - 碧
+  - 初音，
+- wait:
+  - 30
+- print:
+  - 碧
+  - 謝謝……！
+- wait:
+  - 30
+- print:
+  - 碧
+  - >2-
+
+    下次應該不會再算錯了！
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_3009003_026
+- face:
+  - 101211
+  - 2
+- print:
+  - 初音
+  - 太好了！
+- wait:
+  - 30
+- print:
+  - 初音
+  - >2-
+
+    有幫到妳的話
+- wait:
+  - 15
+- print:
+  - 初音
+  - 就太好了～♪
+- touch: *o0
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_3009003_027
+- face:
+  - 104011
+  - 6
+- print:
+  - 碧
+  - ……那、
+- token: *o0
+- print:
+  - 碧
+  - 那個！
+- jump:
+  - 104011
+- token: *o0
+- print:
+  - 碧
+  - >2
+
+- face:
+  - 104011
+  - 3
+- print:
+  - 碧
+  - 初音！
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_3009003_028
+- face:
+  - 101211
+  - 6
+- print:
+  - 初音
+  - 嗯？　
+- token: *o0
+- print:
+  - 初音
+  - 什麼事？
+- token: *o0
+- print:
+  - 初音
+  - >2-
+
+    還有不清楚的地方嗎？
+- touch: *o0
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_3009003_029
+- face:
+  - 104011
+  - 4
+- print:
+  - 碧
+  - 不是……
+- token: *o0
+- print:
+  - 碧
+  - 不是那樣……
+- wait:
+  - 75
+- print:
+  - 碧
+  - >2
+
+- face:
+  - 104011
+  - 5
+- print:
+  - 碧
+  - 初音妳～
+- wait:
+  - 45
+- print:
+  - 碧
+  - 果然是好前輩！
+- wait:
+  - 45
+- print:
+  - 碧
+  - >2
+
+- face:
+  - 104011
+  - 2
+- print:
+  - 碧
+  - 就像現在這樣，
+- wait:
+  - 30
+- print:
+  - 碧
+  - 妳一直都在幫助我……
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_3009003_030
+- face:
+  - 101211
+  - 6
+- emotion:
+  - twinkle1_R
+  - 101211
+  - 130
+  - 490
+  - se_adv_emote_twinkle_01
+- print:
+  - 初音
+  - 真的嗎！？
+- wait:
+  - 30
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 5
+- print:
+  - 初音
+  - 欸嘿嘿～，
+- wait:
+  - 45
+- print:
+  - 初音
+  - 被小碧誇獎，
+- wait:
+  - 30
+- face:
+  - 101211
+  - 2
+- print:
+  - 初音
+  - 真開心～！
+- touch: *o0
+- window_visible:
+  - false
+- focus:
+  - 104011:101211
+- face:
+  - 104011
+  - 7
+- se:
+  - se_adv_hug_04
+- shake:
+  - 104011
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_3009003_031
+- face:
+  - 104011
+  - 7
+- emotion:
+  - shy1_R
+  - 104011
+  - -90
+  - 480
+  - se_adv_emote_shy_01
+- jump:
+  - 104011
+- print:
+  - 碧
+  - 哇！？　
+- token: *o0
+- print:
+  - 碧
+  - 請、請、請妳不要突然抱住我！
+- token: *o0
+- print:
+  - 碧
+  - >2
+
+- face:
+  - 104011
+  - 5
+- print:
+  - 碧
+  - 我我、
+- wait:
+  - 30
+- print:
+  - 碧
+  - 我、我知道妳很開心啦！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 10
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_step_leaves_walk_come_01
+- wait:
+  - 15
+- chara_full:
+  - 101511
+  - RC
+  - 2
+- change:
+  - C
+  - RC
+  - 45
+- fadein:
+  - 101511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_3009003_032
+- face:
+  - 101511
+  - 2
+- print:
+  - 美里
+  - 哎呀哎呀。
+- wait:
+  - 30
+- print:
+  - 美里
+  - 兩個人感情真好呢。
+- wait:
+  - 90
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 小碧，
+- wait:
+  - 30
+- print:
+  - 美里
+  - 文件修改好了嗎？
+- touch: *o0
+- fadeout:
+  - 101511
+  - 30
+- chara_full:
+  - 104011
+  - RC
+  - 5
+- chara_full:
+  - 101211
+  - LC
+  - 2
+- fadein_all:
+  - 30
+- bgm:
+  - bgm_M04
+  - 0
+  - 0
+  - 1
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_3009003_033
+- face:
+  - 104011
+  - 6
+- emotion:
+  - sweat2_R
+  - 104011
+  - 105
+  - 515
+  - '*non'
+- print:
+  - 碧
+  - 啊！　
+- wait:
+  - 15
+- print:
+  - 碧
+  - 對、
+- wait:
+  - 15
+- print:
+  - 碧
+  - 對不起！
+- wait:
+  - 15
+- print:
+  - 碧
+  - >2-
+
+    再一下下！
+- wait:
+  - 15
+- print:
+  - 碧
+  - >2
+
+- face:
+  - 104011
+  - 7
+- print:
+  - 碧
+  - 我、我、我會立刻修改好！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 101511
+  - C
+  - 2
+- fadein:
+  - 101511
+  - 50
+- window_visible:
+  - true
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_3009003_034
+- face:
+  - 101511
+  - 2
+- print:
+  - 美里
+  - 還有時間，
+- wait:
+  - 30
+- print:
+  - 美里
+  - 慢慢來沒關係喔。
+- wait:
+  - 60
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 我來這裡，
+- wait:
+  - 30
+- print:
+  - 美里
+  - 是有重要的事情要告訴妳。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 104011
+  - RC
+  - 6
+- chara_full:
+  - 101211
+  - LC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_3009003_035
+- face:
+  - 104011
+  - 6
+- print:
+  - 碧
+  - 重、
+- token: *o0
+- print:
+  - 碧
+  - 重要的事……？
+- wait:
+  - 45
+- print:
+  - 碧
+  - >2
+
+- face:
+  - 104011
+  - 4
+- shake:
+  - 104011
+- print:
+  - 碧
+  - 難、難難難、
+- token: *o0
+- print:
+  - 碧
+  - 難道是我
+- token: *o0
+- print:
+  - 碧
+  - 被開除了……！
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_3009003_036
+- face:
+  - 101211
+  - 3
+- emotion:
+  - surprise1_L
+  - 101211
+  - 145
+  - 545
+  - se_adv_emote_common_01
+- jump:
+  - 101211
+- print:
+  - 初音
+  - 怎麼會！　
+- wait:
+  - 45
+- print:
+  - 初音
+  - 只是計算錯誤這種小事就要開除，
+- wait:
+  - 15
+- print:
+  - 初音
+  - 真過分！
+- wait:
+  - 30
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - 我也會
+- wait:
+  - 15
+- print:
+  - 初音
+  - 多多從旁協助小碧的，
+- wait:
+  - 15
+- print:
+  - 初音
+  - 請原諒她吧！
+- touch: *o0
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_3009003_037
+- face:
+  - 104011
+  - 6
+- print:
+  - 碧
+  - 初音……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 101511
+  - RC
+  - 6
+- chara_full:
+  - 104011
+  - LC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_3009003_038
+- face:
+  - 101511
+  - 6
+- print:
+  - 美里
+  - 哎呀哎呀。
+- wait:
+  - 30
+- print:
+  - 美里
+  - 妳們兩個怎麼了？
+- wait:
+  - 60
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 不要擔心，
+- wait:
+  - 30
+- print:
+  - 美里
+  - 不是要開除唷。
+- touch: *o0
+- bgm:
+  - stop
+  - 9
+  - 1
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_3009003_039
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 小碧。
+- token: *o0
+- print:
+  - 美里
+  - 妳見習成員的身分就到今天為止。
+- wait:
+  - 90
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 2
+- print:
+  - 美里
+  - 妳已經晉升為正式公會成員了喔。
+- wait:
+  - 75
+- print:
+  - 美里
+  - 恭喜。
+- touch: *o0
+- bgm:
+  - bgm_M67
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_3009003_040
+- face:
+  - 104011
+  - 6
+- print:
+  - 碧
+  - ……
+- emotion:
+  - exclamation1_R
+  - 104011
+  - 15
+  - 650
+  - se_adv_emote_common_01
+- face:
+  - 104011
+  - 8
+- print:
+  - 碧
+  - 咦咦～！？　
+- token: *o0
+- print:
+  - 碧
+  - 我、我成為正式公會成員！？
+- token: *o0
+- print:
+  - 碧
+  - >2
+
+- face:
+  - 104011
+  - 4
+- print:
+  - 碧
+  - 但是但是，
+- token: *o0
+- print:
+  - 碧
+  - 我今天犯了那種錯誤……！
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_3009003_041
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 不論是誰都難免會失敗呀。
+- wait:
+  - 60
+- print:
+  - 美里
+  - 若是有人做錯，
+- wait:
+  - 45
+- print:
+  - 美里
+  - >2-
+
+    只要像今天妳們兩人一樣，
+- wait:
+  - 30
+- print:
+  - 美里
+  - 成員彼此互相幫助就好了。
+- wait:
+  - 60
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 2
+- print:
+  - 美里
+  - 也因此，
+- wait:
+  - 30
+- print:
+  - 美里
+  - 才會需要同伴呀。
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_3009003_042
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 如果遇到困難的時候，
+- wait:
+  - 45
+- print:
+  - 美里
+  - 就依靠別人。
+- wait:
+  - 75
+- print:
+  - 美里
+  - >2-
+
+    若有人似乎遇到困難的話，
+- wait:
+  - 45
+- print:
+  - 美里
+  - 就聽聽他怎麼說。
+- wait:
+  - 75
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 2
+- print:
+  - 美里
+  - 記住這兩點，
+- wait:
+  - 60
+- print:
+  - 美里
+  - 今後也要努力喔。
+- touch: *o0
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_3009003_043
+- face:
+  - 104011
+  - 4
+- print:
+  - 碧
+  - ……嗚……
+- wait:
+  - 75
+- shake:
+  - 104011
+- print:
+  - 碧
+  - 嗚哇！　
+- wait:
+  - 30
+- print:
+  - 碧
+  - 美里老師～！
+- wait:
+  - 75
+- print:
+  - 碧
+  - >2
+
+- face:
+  - 104011
+  - 5
+- print:
+  - 碧
+  - 謝謝……！
+- wait:
+  - 30
+- print:
+  - 碧
+  - >2-
+
+    我
+- wait:
+  - 30
+- print:
+  - 碧
+  - 會更努力的……！！
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_3009003_044
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 哎呀哎呀哎呀。
+- wait:
+  - 45
+- print:
+  - 美里
+  - 到現在還是個愛哭鬼呢。
+- wait:
+  - 60
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 2
+- print:
+  - 美里
+  - 會可惜了這張可愛的臉喔？
+- touch: *o0
+- choice:
+  - 恭喜了。
+  - 4
+- tag:
+  - 4
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_3009003_045
+- face:
+  - 104011
+  - 4
+- print:
+  - 碧
+  - ……嗚、
+- wait:
+  - 45
+- face:
+  - 104011
+  - 2
+- print:
+  - 碧
+  - 謝，
+- wait:
+  - 30
+- print:
+  - 碧
+  - 謝謝……
+- touch: *o0
+- fadeout:
+  - 101511
+  - 30
+- chara_full:
+  - 101211
+  - RC
+  - 2
+- fadein:
+  - 101211
+  - 30
+- effect:
+  - 0044
+  - se_adv_happy_particle_01
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_3009003_046
+- face:
+  - 101211
+  - 2
+- jump:
+  - 101211
+- print:
+  - 初音
+  - 小碧――！　
+- wait:
+  - 30
+- print:
+  - 初音
+  - 真的真的恭喜妳～！！
+- wait:
+  - 30
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 1
+- print:
+  - 初音
+  - 今後也一起努力吧☆
+- touch: *o0
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_3009003_047
+- face:
+  - 104011
+  - 5
+- print:
+  - 碧
+  - ……好的！
+- token: *o0
+- print:
+  - 碧
+  - >2
+
+- face:
+  - 104011
+  - 2
+- print:
+  - 碧
+  - 我才要
+- wait:
+  - 15
+- print:
+  - 碧
+  - 請妳今後多多指教！
+- touch: *o0
+- effect_delete:
+  - 0044
+  - 30
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    碧的眼裡流下了大大顆的淚珠，
+
+    但是她回應大家的笑容卻是無比的耀眼。
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

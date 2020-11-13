@@ -1,0 +1,2002 @@
+- title:
+  - 千歌 第3話
+- outline:
+  - 魔物出現在因聽聞千歌的自主練習的傳聞，而來到森林的粉絲面前。千歌唱喚出精靈擊退了魔物。一直沒辦法在大家面前唱出偶像歌曲的千歌，為了粉絲決定要克服這個弱點。
+- background:
+  - 500010
+- amb:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 獻給喜歡我的人
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    為了陪伴千歌進行現場演唱的練習，
+
+    {0}正在等著跟千歌碰面。
+- touch: &o0 []
+- window_visible:
+  - false
+- bgm:
+  - bgm_M68
+  - 0
+  - 0
+  - 1
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- chara_full:
+  - 104211
+  - LC
+  - 2
+- change:
+  - C
+  - LC
+  - 30
+- fadein:
+  - 104211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_000
+- face:
+  - 104211
+  - 2
+- print:
+  - 千歌
+  - 你好。
+- wait:
+  - 30
+- print:
+  - 千歌
+  - >2-
+
+    時間剛剛好呢。
+- face:
+  - 104211
+  - 1
+- print:
+  - 千歌
+  - 那麼，我們出發吧。
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_001
+- face:
+  - 104211
+  - 4
+- print:
+  - 千歌
+  - 果然在有人煙的地方練習，我還是會覺得害羞……
+- wait:
+  - 90
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 1
+- print:
+  - 千歌
+  - 我們去平常去的森林吧。
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_002
+- face:
+  - 104211
+  - 3
+- print:
+  - 千歌
+  - 雖然可能會出現魔物，
+- wait:
+  - 45
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 5
+- print:
+  - 千歌
+  - 但跟你在一起的話，我一定能好好對付牠們的。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_003
+- face:
+  - 104211
+  - 5
+- print:
+  - 千歌
+  - 只要跟你在一起，
+- wait:
+  - 45
+- print:
+  - 千歌
+  - >2-
+
+    令人恐懼的事物之類的就會消失無蹤……
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_004
+- face:
+  - 104211
+  - 6
+- print:
+  - 千歌
+  - ……
+- emotion:
+  - sweat2_R
+  - 104211
+  - 75
+  - 540
+  - '*non'
+- jump:
+  - 104211
+- print:
+  - 千歌
+  - 啊，沒什麼，什麼事都沒有。
+- wait:
+  - 45
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 1
+- print:
+  - 千歌
+  - 那麼，我們趕快去練習吧。
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 104211
+  - 30
+- bgm:
+  - stop
+  - 6
+  - 1
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 500170
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_forest_01
+- chara_full:
+  - 104211
+  - C
+  - 3
+- fadein:
+  - 104211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_005
+- face:
+  - 104211
+  - 3
+- print:
+  - 千歌
+  - ……你、
+- shake:
+  - 104211
+- print:
+  - 千歌
+  - 你覺得如何呢？
+- wait:
+  - 15
+- touch: *o0
+- choice:
+  - ……感覺妳狀況不太好。
+  - 1
+- tag:
+  - 1
+- bgm:
+  - bgm_M19
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_006
+- face:
+  - 104211
+  - 4
+- print:
+  - 千歌
+  - 嗯……我自己也覺得唱得不太好。
+- wait:
+  - 60
+- print:
+  - 千歌
+  - >2-
+
+    不知道為什麼，我覺得自己好像被很多人看著……
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_007
+- face:
+  - 104211
+  - 1
+- print:
+  - 千歌
+  - 很奇怪對吧？
+- wait:
+  - 45
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 4
+- print:
+  - 千歌
+  - 這裡應該只有你在而已啊……
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_008
+- face:
+  - 104211
+  - 4
+- print:
+  - 千歌
+  - 儘管如此，我卻感受到像是他人視線般的氣息……
+- wait:
+  - 90
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 3
+- print:
+  - 千歌
+  - 有如在大家面前唱歌時一樣……
+- touch: *o0
+- fadeout:
+  - 104211
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 6
+- bgm:
+  - stop
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_01
+- bgm:
+  - bgm_M17
+  - 0
+  - 0
+  - 1
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- print:
+  - 魔物
+  - ──呱歐歐歐歐歐
+- shake_screen: *o0
+- print:
+  - 魔物
+  - ！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1042003_009
+- effect:
+  - 9
+- print:
+  - ？？？
+  - 呀啊啊啊啊啊！
+- wait:
+  - 30
+- print:
+  - ？？？
+  - >2-
+
+    是、是魔、魔物啊──！！
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1611
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 104211
+  - C
+  - 6
+- fadein:
+  - 104211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_010
+- face:
+  - 104211
+  - 6
+- emotion:
+  - exclamation1_R
+  - 104211
+  - 10
+  - 645
+  - se_adv_emote_common_01
+- print:
+  - 千歌
+  - 不是只有……魔物的聲音……！？
+- wait:
+  - 60
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 3
+- print:
+  - 千歌
+  - 剛剛我們確實聽到了慘叫聲吧！？
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_011
+- face:
+  - 104211
+  - 3
+- print:
+  - 千歌
+  - 我們趕快去救他們吧！
+- pop:
+  - 104211
+- wait:
+  - 30
+- print:
+  - 千歌
+  - >2-
+
+    聲音是從那邊傳來的！
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_leaves_run_go_01
+- change:
+  - LC
+  - C
+  - 15
+- bgm:
+  - stop
+  - 3.5
+  - 1
+- fadeout:
+  - 104211
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- bgm:
+  - bgm_M17_02
+- amb:
+  - amb_adv_forest_01
+- chara_full:
+  - 1411
+  - LC
+  - 4
+- fadein:
+  - 1411
+  - 30
+- se:
+  - se_adv_step_dirt_run_come_01
+- wait:
+  - 15
+- chara_full:
+  - 104211
+  - RC
+  - 3
+- in_R:
+  - 104211
+  - 45
+  - true
+- window_visible:
+  - true
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_012
+- face:
+  - 104211
+  - 3
+- print:
+  - 千歌
+  - 你們還好嗎――！？
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1042003_013
+- face:
+  - 1411
+  - 6
+- print:
+  - 親衛隊長
+  - ──千、
+- shake:
+  - 1411
+- print:
+  - 親衛隊長
+  - 千歌……！
+- wait:
+  - 45
+- print:
+  - 親衛隊長
+  - >2
+
+- face:
+  - 1411
+  - 4
+- pop:
+  - 1411
+- print:
+  - 親衛隊長
+  - 那個，我、我們是千歌的粉絲……！
+- wait:
+  - 45
+- print:
+  - 親衛隊長
+  - >2-
+
+    因為聽說了妳似乎在森林中練習的傳言……所以就……！
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_014
+- face:
+  - 104211
+  - 6
+- emotion:
+  - exclamation1_R
+  - 104211
+  - 10
+  - 645
+  - '*non'
+- print:
+  - 千歌
+  - 我的粉絲……？
+- wait:
+  - 90
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 4
+- print:
+  - 千歌
+  - 你們是為了我，所以才來到這樣的森林深處……？
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1411
+  - 30
+- chara_full:
+  - 311
+  - LC
+  - 6
+- fadein:
+  - 311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1042003_015
+- face:
+  - 311
+  - 6
+- print:
+  - 親衛隊員
+  - 對、對不起！
+- wait:
+  - 45
+- print:
+  - 親衛隊員
+  - >2-
+
+    我們雖然知道會很危險，
+- wait:
+  - 30
+- print:
+  - 親衛隊員
+  - >2
+
+- face:
+  - 311
+  - 4
+- print:
+  - 親衛隊員
+  - 但沒想到真的有魔物出現……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- effect:
+  - 9
+- print:
+  - 魔物
+  - ──呱歐歐歐歐歐
+- shake_screen: *o0
+- print:
+  - 魔物
+  - ！
+- touch: *o0
+- fadeout:
+  - 1611
+  - 30
+- chara_full:
+  - 1411
+  - LC
+  - 4
+- chara_full:
+  - 104211
+  - RC
+  - 3
+- fadein_all:
+  - 30
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1042003_016
+- face:
+  - 1411
+  - 4
+- print:
+  - 親衛隊長
+  - 呀啊啊啊啊！
+- shake:
+  - 1411
+- print:
+  - 親衛隊長
+  - ！
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_017
+- face:
+  - 104211
+  - 3
+- print:
+  - 千歌
+  - 有話等等再說吧。請大家退到後面去！
+- wait:
+  - 60
+- print:
+  - 千歌
+  - >2-
+
+    首要之務是先把魔物給打倒！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2.5
+- fadeout_all:
+  - 30
+- black_out:
+  - 1
+  - 1
+- still:
+  - 104200101
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- bgm:
+  - bgm_M01
+  - 0
+  - 0
+  - 1
+- black_in: *o0
+- window_visible:
+  - true
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 1
+- vo:
+  - vo_adv_1042003_018
+- face:
+  - 104211
+  - 3
+- print:
+  - 千歌
+  - '{0}，我現在要來唱喚精靈，'
+- wait:
+  - 15
+- print:
+  - 千歌
+  - 請你幫忙轉移魔物的注意。
+- wait:
+  - 30
+- print:
+  - 千歌
+  - >2-
+
+    拜託你了！
+- touch: *o0
+- se:
+  - se_adv_song_call_fairy_01
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- print:
+  - 精靈
+  - ──！
+- touch: *o0
+- window_visible:
+  - false
+- white_out:
+  - 1
+  - 1
+- still:
+  - end
+- wait:
+  - 15
+- white_in: *o0
+- amb:
+  - amb_adv_forest_01
+- effect:
+  - 0075
+  - se_adv_magic_wind_medium_01
+- wait:
+  - 30
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──嘰歐歐歐歐歐
+- shake_screen: *o0
+- print:
+  - 魔物
+  - ！
+- touch: *o0
+- window_visible:
+  - false
+- updown:
+  - 1611
+  - 0
+  - -150
+  - 0.2
+- bgm:
+  - stop
+  - 4.5
+  - 1
+- fadeout:
+  - 1611
+  - 30
+- shake_loop: *o0
+- se:
+  - se_adv_monster_deff_01
+- wait:
+  - 15
+- shake_delete: *o0
+- chara_full:
+  - 104211
+  - RC
+  - 4
+- chara_full:
+  - 311
+  - LC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_019
+- face:
+  - 104211
+  - 4
+- print:
+  - 千歌
+  - 呼……
+- face:
+  - 104211
+  - 2
+- print:
+  - 千歌
+  - 總算是打敗牠們了呢。
+- wait:
+  - 60
+- touch: *o0
+- bgm:
+  - bgm_M52
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1042003_020
+- face:
+  - 311
+  - 4
+- print:
+  - 親衛隊員
+  - 我、
+- nod:
+  - 311
+- print:
+  - 親衛隊員
+  - 我們得救了。
+- wait:
+  - 105
+- print:
+  - 親衛隊員
+  - >2
+
+- face:
+  - 311
+  - 2
+- print:
+  - 親衛隊員
+  - 千歌，謝謝妳！
+- wait:
+  - 45
+- print:
+  - 親衛隊員
+  - >2-
+
+    妳戰鬥的樣子也非常帥氣喔！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_021
+- face:
+  - 104211
+  - 3
+- print:
+  - 千歌
+  - ──！
+- touch: *o0
+- fadeout:
+  - 311
+  - 30
+- chara_full:
+  - 1411
+  - LC
+  - 6
+- fadein:
+  - 1411
+  - 30
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1042003_022
+- face:
+  - 1411
+  - 6
+- emotion:
+  - sweat2_R
+  - 1411
+  - 75
+  - 600
+  - '*non'
+- print:
+  - 親衛隊長
+  - 咦、咦？千歌……？
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_023
+- face:
+  - 104211
+  - 4
+- print:
+  - 千歌
+  - 請你們不要做出這麼危險的事情……！
+- wait:
+  - 30
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 3
+- print:
+  - 千歌
+  - 在這附近，真的經常有魔物出現。
+- wait:
+  - 60
+- print:
+  - 千歌
+  - >2-
+
+    而你們卻什麼武器都沒帶就跑進森林裡……！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_024
+- face:
+  - 104211
+  - 4
+- print:
+  - 千歌
+  - 如果大家發生了什麼事情的話，
+- shake:
+  - 104211
+- print:
+  - 千歌
+  - 我……！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1042003_025
+- face:
+  - 1411
+  - 6
+- print:
+  - 親衛隊長
+  - 千、千歌……對不起啊。
+- wait:
+  - 60
+- print:
+  - 親衛隊長
+  - >2
+
+- face:
+  - 1411
+  - 4
+- print:
+  - 親衛隊長
+  - 我們並沒有那種打算……
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_026
+- face:
+  - 104211
+  - 4
+- print:
+  - 千歌
+  - ……如果你們有在反省的話，那就好了。
+- wait:
+  - 120
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 1
+- print:
+  - 千歌
+  - 相反的……
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_027
+- face:
+  - 104211
+  - 2
+- print:
+  - 千歌
+  - 你們說你們是我的粉絲，
+- wait:
+  - 45
+- print:
+  - 千歌
+  - >2-
+
+    而且還說想聽我唱歌，
+- wait:
+  - 60
+- print:
+  - 千歌
+  - >2-
+
+    這讓我非常的高興。
+- face:
+  - 104211
+  - 5
+- print:
+  - 千歌
+  - 謝謝你們。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_028
+- face:
+  - 104211
+  - 4
+- print:
+  - 千歌
+  - ……剛剛一時慌了手腳，真是不好意思。
+- wait:
+  - 60
+- print:
+  - 千歌
+  - >2-
+
+    不過，真的發生了什麼事的話就太遲了……
+- wait:
+  - 90
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 3
+- print:
+  - 千歌
+  - 就請你們今後不要再做出這麼危險的事情囉。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1042003_029
+- face:
+  - 1411
+  - 3
+- print:
+  - 親衛隊長
+  - ……當、
+- pop:
+  - 1411
+- print:
+  - 親衛隊長
+  - 當然啊！
+- wait:
+  - 30
+- print:
+  - 親衛隊長
+  - >2-
+
+    我們跟妳約定好！
+- touch: *o0
+- fadeout:
+  - 1411
+  - 30
+- chara_full:
+  - 311
+  - LC
+  - 6
+- fadein:
+  - 311
+  - 30
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1042003_030
+- face:
+  - 311
+  - 6
+- print:
+  - 親衛隊員
+  - 妳竟然會這麼擔心我們的事……！
+- wait:
+  - 75
+- print:
+  - 親衛隊員
+  - >2
+
+- face:
+  - 311
+  - 4
+- print:
+  - 親衛隊員
+  - 果然千歌最棒了！！
+- wait:
+  - 45
+- print:
+  - 親衛隊員
+  - >2
+
+- face:
+  - 311
+  - 2
+- print:
+  - 親衛隊員
+  - 我們會一直支持千歌的喔……！
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_031
+- face:
+  - 104211
+  - 2
+- print:
+  - 千歌
+  - 謝謝你們。
+- wait:
+  - 45
+- print:
+  - 千歌
+  - >2-
+
+    ……
+- face:
+  - 104211
+  - 3
+- print:
+  - 千歌
+  - 這裡可能還會有魔物出現，
+- wait:
+  - 60
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 2
+- print:
+  - 千歌
+  - 我們回去城鎮上吧。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 311
+  - 30
+- chara_full:
+  - 1411
+  - LC
+  - 4
+- fadein:
+  - 1411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1042003_032
+- face:
+  - 1411
+  - 4
+- print:
+  - 親衛隊長
+  - 那個……話說，那邊那位像騎士的人是誰？
+- wait:
+  - 105
+- print:
+  - 親衛隊長
+  - >2
+
+- face:
+  - 1411
+  - 6
+- print:
+  - 親衛隊長
+  - 該、
+- shake:
+  - 1411
+- print:
+  - 親衛隊長
+  - 該不會……
+- wait:
+  - 15
+- touch: *o0
+- choice:
+  - 我是經紀人。
+  - 2
+- choice:
+  - 我是護衛。
+  - 3
+- tag:
+  - 2
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_033
+- face:
+  - 104211
+  - 6
+- emotion:
+  - sweat2_R
+  - 104211
+  - 75
+  - 540
+  - '*non'
+- jump:
+  - 104211
+- print:
+  - 千歌
+  - 對、對！他是我們的經紀人！
+- wait:
+  - 30
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 2
+- print:
+  - 千歌
+  - 像今天這樣去城鎮外練習時，
+- wait:
+  - 60
+- print:
+  - 千歌
+  - >2-
+
+    我也會請他做我的護衛喔？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_034
+- face:
+  - 104211
+  - 6
+- emotion:
+  - sweat2_R
+  - 104211
+  - 75
+  - 540
+  - '*non'
+- print:
+  - 千歌
+  - 嗯、
+- pop:
+  - 104211
+- print:
+  - 千歌
+  - 嗯嗯！就是這樣！
+- wait:
+  - 45
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 2
+- print:
+  - 千歌
+  - 我有請護衛好好地跟著我並保護我。
+- wait:
+  - 30
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 1411
+  - 30
+- chara_full:
+  - 311
+  - LC
+  - 6
+- fadein:
+  - 311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1042003_035
+- face:
+  - 311
+  - 6
+- print:
+  - 親衛隊員
+  - 原來是這樣啊……
+- wait:
+  - 45
+- print:
+  - 親衛隊員
+  - >2
+
+- face:
+  - 311
+  - 2
+- print:
+  - 親衛隊員
+  - 下次我們再來看妳練習時，也會請人當我們的護衛喔！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_036
+- face:
+  - 104211
+  - 4
+- emotion:
+  - sweat1_R
+  - 104211
+  - 95
+  - 475
+  - se_adv_emote_sweat_01
+- print:
+  - 千歌
+  - 那個……可以的話，請你們不要公開我在練習的事情……
+- wait:
+  - 75
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 1
+- print:
+  - 千歌
+  - 總之今天就告一段落，我們回城鎮去吧。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_leaves_walk_go_01
+- change:
+  - C
+  - LC
+  - 30
+- change:
+  - R
+  - RC
+  - 30
+- bgm:
+  - stop
+  - 2.5
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 500011
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_town_day_01
+- chara_full:
+  - 104211
+  - C
+  - 2
+- fadein:
+  - 104211
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M67
+  - 0
+  - 0
+  - 1
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_037
+- face:
+  - 104211
+  - 2
+- print:
+  - 千歌
+  - '今天真是謝謝你了。 '
+- wait:
+  - 30
+- print:
+  - 千歌
+  - >2-
+
+    沒有人受傷，
+- face:
+  - 104211
+  - 4
+- print:
+  - 千歌
+  - 真是太好了……
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_038
+- face:
+  - 104211
+  - 4
+- print:
+  - 千歌
+  - 可是，這也只是結果論呀。
+- wait:
+  - 75
+- print:
+  - 千歌
+  - >2-
+
+    如果因為我，害我的粉絲們陷入危險的話……
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_039
+- face:
+  - 104211
+  - 4
+- eye_open:
+  - FALSE
+- print:
+  - 千歌
+  - 我明明是身處要保護大家的立場……
+- wait:
+  - 60
+- print:
+  - 千歌
+  - >2
+
+- eye_open:
+  - TRUE
+- print:
+  - 千歌
+  - 發生這種事情可是不行的呢。
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_040
+- face:
+  - 104211
+  - 1
+- print:
+  - 千歌
+  - 可是，要我在城鎮內練習……
+- wait:
+  - 75
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 4
+- print:
+  - 千歌
+  - 我還不太習慣在別人面前唱歌。
+- touch: *o0
+- choice:
+  - 妳可以再有自信一點。
+  - 5
+- tag:
+  - 5
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_041
+- face:
+  - 104211
+  - 6
+- emotion:
+  - exclamation1_R
+  - 104211
+  - 10
+  - 645
+  - se_adv_emote_common_01
+- print:
+  - 千歌
+  - ……你說自信嗎？
+- wait:
+  - 75
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 1
+- nod:
+  - 104211
+- print:
+  - 千歌
+  - 的確，要在粉絲們面前唱歌的話，
+- wait:
+  - 75
+- print:
+  - 千歌
+  - >2-
+
+    必須要相信自己跟自己的歌聲呢。
+- wait:
+  - 30
+- touch: *o0
+- choice:
+  - 我希望妳能把歌聲傳達給更多的人。
+  - 6
+- tag:
+  - 6
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_042
+- face:
+  - 104211
+  - 1
+- print:
+  - 千歌
+  - ……說的也是呢。
+- wait:
+  - 75
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 3
+- print:
+  - 千歌
+  - 今後，我的歌聲會傳達給更多的人。
+- wait:
+  - 90
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 2
+- print:
+  - 千歌
+  - 如果總是這樣自己一個人獨唱的話，是改變不了什麼的呢。
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_043
+- face:
+  - 104211
+  - 2
+- print:
+  - 千歌
+  - ……在森林裡的練習，就這樣結束吧。
+- wait:
+  - 75
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 4
+- print:
+  - 千歌
+  - 如果像今天這樣，粉絲也跟過來的話就危險了。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_044
+- face:
+  - 104211
+  - 3
+- print:
+  - 千歌
+  - 為了讓自己更有自信，我得習慣在大眾面前唱歌才行。
+- wait:
+  - 60
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 1
+- print:
+  - 千歌
+  - 今後，我想開始進行為達成此目標的練習。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_045
+- face:
+  - 104211
+  - 9
+- print:
+  - 千歌
+  - 如果喜歡我歌聲的人，在這世上有任何一人存在的話……
+- wait:
+  - 105
+- print:
+  - 千歌
+  - >2
+
+- emotion:
+  - twinkle1_R
+  - 104211
+  - -135
+  - 480
+  - se_adv_emote_twinkle_01
+- face:
+  - 104211
+  - 5
+- print:
+  - 千歌
+  - ……為了報答像這樣的人，今後我也會繼續唱下去。
+- wait:
+  - 30
+- touch: *o0
+- choice:
+  - 我很喜歡。
+  - 7
+- tag:
+  - 7
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_046
+- face:
+  - 104211
+  - 6
+- print:
+  - 千歌
+  - 咦……咦咦！？
+- wait:
+  - 45
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 4
+- print:
+  - 千歌
+  - 喜、喜喜、喜歡……！？
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 104211
+  - 6
+- emotion:
+  - notice1_L
+  - 104211
+  - -75
+  - 535
+  - '*non'
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_047
+- face:
+  - 104211
+  - 6
+- print:
+  - 千歌
+  - ……是指我唱的歌嗎？
+- wait:
+  - 75
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 5
+- print:
+  - 千歌
+  - 說、說的也是呢！你是在說唱歌的事情吧！
+- wait:
+  - 45
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 4
+- print:
+  - 千歌
+  - ……嚇我一跳……
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_1042003_048
+- face:
+  - 104211
+  - 2
+- nod:
+  - 104211
+- print:
+  - 千歌
+  - 謝謝你喜歡聽我唱歌。
+- wait:
+  - 90
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 5
+- print:
+  - 千歌
+  - ……可是，為什麼呢？
+- wait:
+  - 45
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 4
+- print:
+  - 千歌
+  - 我覺得有一點遺憾呢……
+- wait:
+  - 15
+- touch: *o0
+- fadeout:
+  - 104211
+  - 30
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    千歌不曉得理由，
+
+    但心中感到莫名的失落。
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out: *o0
+- end: *o0

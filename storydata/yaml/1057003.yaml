@@ -1,0 +1,1402 @@
+- title:
+  - 吉塔 第3話
+- outline:
+  - 吉塔和{0}舉辦紀念組成騎空團的同樂會。確認了互相信賴的關係的吉塔和{0}，氣氛到達了最高點。吉塔由衷地感謝有夥伴在一起的時光的喜悅。
+- background:
+  - 500010
+- amb:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 有伙伴的喜悅
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    {0}與吉塔結束了工作，
+
+    一同在蘭德索爾裡散步聊天。
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 105711
+  - C
+  - 6
+- fadein:
+  - 105711
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M04
+  - 0
+  - 0
+  - 1
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057003_000
+- face:
+  - 105711
+  - 6
+- print:
+  - 吉塔
+  - 吶，你明天有空嗎？
+- wait:
+  - 10
+- print:
+  - 吉塔
+  - >2
+
+- face:
+  - 105711
+  - 2
+- print:
+  - 吉塔
+  - 如果有空的話，要不要一起吃個午飯？
+- wait:
+  - 40
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057003_001
+- face:
+  - 105711
+  - 1
+- print:
+  - 吉塔
+  - >-
+    我們還沒有慶祝你加入騎空團，
+
+    我也想辦個同樂會……
+- face:
+  - 105711
+  - 4
+- print:
+  - 吉塔
+  - 怎麼樣？
+- wait:
+  - 55
+- touch: *o0
+- choice:
+  - 一起慶祝吧。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057003_002
+- face:
+  - 105711
+  - 2
+- emotion:
+  - note1_L
+  - 105711
+  - -90
+  - 490
+  - se_adv_emote_note_01
+- print:
+  - 吉塔
+  - 太好了～！謝謝！
+- face:
+  - 105711
+  - 1
+- print:
+  - 吉塔
+  - 那就明天見！
+- wait:
+  - 35
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 3.5
+  - 1
+- se:
+  - se_adv_step_concrete_run_go_01
+- out_L:
+  - 105711
+  - 60
+  - true
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 500030
+- bg_pan:
+  - 0
+  - -170
+  - 0
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 次日──。
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 105711
+  - C
+  - 2
+- fadein:
+  - 105711
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M53
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057003_003
+- face:
+  - 105711
+  - 2
+- print:
+  - 吉塔
+  - 喂～！
+- jump:
+  - 105711
+  - 2
+- print:
+  - 吉塔
+  - 這裡這裡～！
+- wait:
+  - 10
+- print:
+  - 吉塔
+  - >2
+
+- face:
+  - 105711
+  - 4
+- print:
+  - 吉塔
+  - 我連早飯也沒吃，肚子已經餓扁了……
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057003_004
+- face:
+  - 105711
+  - 1
+- emotion:
+  - twinkle1_R
+  - 105711
+  - -110
+  - 490
+  - se_adv_emote_twinkle_01
+- print:
+  - 吉塔
+  - 昨天已經先預約好餐廳了。
+- face:
+  - 105711
+  - 2
+- print:
+  - 吉塔
+  - 我來帶路！
+- wait:
+  - 10
+- touch: *o0
+- se:
+  - se_adv_step_concrete_walk_go_01
+- fadeout:
+  - 105711
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 105711
+  - LC
+  - 1
+- chara_full:
+  - 1511
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- focus:
+  - 1511
+- bust:
+  - 1511
+  - 0
+- vo:
+  - vo_adv_1057003_005
+- face:
+  - 1511
+  - 6
+- print:
+  - 女性
+  - 唉呀，小吉塔。
+- face:
+  - 1511
+  - 1
+- print:
+  - 女性
+  - 那個人就是新的騎空士嗎？
+- wait:
+  - 40
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057003_006
+- face:
+  - 105711
+  - 2
+- print:
+  - 吉塔
+  - 阿姨！妳好！
+- wait:
+  - 10
+- print:
+  - 吉塔
+  - >2-
+
+    沒有
+- face:
+  - 105711
+  - 1
+- print:
+  - 吉塔
+  - 錯哦，他非常可靠。
+- wait:
+  - 20
+- touch: *o0
+- window_visible:
+  - false
+- focus:
+  - 1511
+- face:
+  - 1511
+  - 2
+- emotion:
+  - twinkle1_R
+  - 1511
+  - 110
+  - 490
+  - se_adv_emote_twinkle_01
+- pop:
+  - 1511
+- wait:
+  - 30
+- emotion_end:
+  - 1511
+- fadeout:
+  - 1511
+  - 30
+- se:
+  - se_adv_step_concrete_walk_come_01
+- chara_full:
+  - 311
+  - RC
+  - 1
+- in_R:
+  - 311
+  - 60
+  - true
+- window_visible:
+  - true
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1057003_007
+- face:
+  - 311
+  - 2
+- print:
+  - 男性
+  - 小吉塔！
+- pop:
+  - 311
+- print:
+  - 男性
+  - 防具已經修理好了，
+- wait:
+  - 10
+- print:
+  - 男性
+  - >2-
+
+    明天就過來拿吧！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057003_008
+- face:
+  - 105711
+  - 2
+- print:
+  - 吉塔
+  - 我知道了～！
+- nod:
+  - 105711
+- print:
+  - 吉塔
+  - 謝謝～！
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_walk_go_01
+- fadeout_all:
+  - 30
+- wait:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 111
+  - RC
+  - 6
+- chara_full:
+  - 105711
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 111
+- bust:
+  - 111
+  - 0
+- vo:
+  - vo_adv_1057003_009
+- face:
+  - 111
+  - 6
+- print:
+  - 小孩
+  - 是吉塔～！
+- face:
+  - 111
+  - 2
+- print:
+  - 小孩
+  - 妳好！妳在做什麼～？
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057003_010
+- face:
+  - 105711
+  - 2
+- emotion:
+  - note1_L
+  - 105711
+  - -90
+  - 490
+  - se_adv_emote_note_01
+- print:
+  - 吉塔
+  - >-
+    妳好！
+
+    現在
+- face:
+  - 105711
+  - 1
+- print:
+  - 吉塔
+  - 要和騎空團的夥伴一起去吃飯。
+- wait:
+  - 40
+- touch: *o0
+- fadeout:
+  - 111
+  - 30
+- chara_full:
+  - 211
+  - RC
+  - 1
+- fadein:
+  - 211
+  - 30
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1057003_011
+- face:
+  - 211
+  - 1
+- print:
+  - 小孩
+  - 好好哦～！
+- pop:
+  - 211
+- print:
+  - 小孩
+  - 我也想要加入騎空團！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057003_012
+- face:
+  - 105711
+  - 2
+- print:
+  - 吉塔
+  - 好吧～♪就等妳長大，
+- face:
+  - 105711
+  - 1
+- print:
+  - 吉塔
+  - 再讓妳加入騎空團。
+- wait:
+  - 25
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105711
+  - C
+  - 1
+- window_visible:
+  - true
+- fadein:
+  - 105711
+  - 30
+- choice:
+  - 真受歡迎呢。
+  - 2
+- tag:
+  - 2
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057003_013
+- face:
+  - 105711
+  - 1
+- print:
+  - 吉塔
+  - >
+    雖然不久前才開始在這個城鎮生活，
+- face:
+  - 105711
+  - 2
+- print:
+  - 吉塔
+  - 不過大家都很溫柔，受到很多的幫助。
+- wait:
+  - 75
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057003_014
+- face:
+  - 105711
+  - 1
+- print:
+  - 吉塔
+  - 所以很快就和所有人打好關係了……
+- wait:
+  - 10
+- print:
+  - 吉塔
+  - >2-
+
+    現在
+- face:
+  - 105711
+  - 2
+- print:
+  - 吉塔
+  - 與其說他們是鄰居，不如說像是家人。
+- wait:
+  - 20
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057003_015
+- face:
+  - 105711
+  - 1
+- print:
+  - 吉塔
+  - ……不過呢，你對我來說，
+- wait:
+  - 10
+- print:
+  - 吉塔
+  - >2-
+
+    也已經像是家人了哦？
+- face:
+  - 105711
+  - 2
+- print:
+  - 吉塔
+  - 畢竟是同個騎空團的夥伴呀！
+- wait:
+  - 90
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057003_016
+- face:
+  - 105711
+  - 4
+- print:
+  - 吉塔
+  - 不過和你待在一起時與其說是家人，感覺更像是兄弟呢。
+- wait:
+  - 60
+- print:
+  - 吉塔
+  - >2
+
+- face:
+  - 105711
+  - 3
+- print:
+  - 吉塔
+  - 你會是那邊呢……？唔～嗯……
+- wait:
+  - 90
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057003_017
+- face:
+  - 105711
+  - 1
+- print:
+  - 吉塔
+  - 你沒有給人哥哥的感覺……
+- face:
+  - 105711
+  - 2
+- print:
+  - 吉塔
+  - 所以是弟弟吧！
+- wait:
+  - 10
+- print:
+  - 吉塔
+  - >2
+
+- face:
+  - 105711
+  - 6
+- print:
+  - 吉塔
+  - 從現在開始，你可以叫我姊姊也沒關係哦？
+- wait:
+  - 75
+- touch: *o0
+- choice:
+  - 姊姊。
+  - 3
+- tag:
+  - 3
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057003_018
+- face:
+  - 105711
+  - 2
+- print:
+  - 吉塔
+  - 什麼事～。怎麼了嗎？
+- wait:
+  - 10
+- print:
+  - 吉塔
+  - >2
+
+- face:
+  - 105711
+  - 5
+- print:
+  - 吉塔
+  - 開玩笑的……欸嘿嘿。
+- wait:
+  - 40
+- touch: *o0
+- se:
+  - se_adv_step_concrete_walk_go_01
+- bgm:
+  - stop
+  - 10
+- fadeout:
+  - 105711
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 105711
+  - C
+  - 6
+- fadein:
+  - 105711
+  - 30
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057003_019
+- face:
+  - 105711
+  - 6
+- print:
+  - 吉塔
+  - 啊！在我們聊天時就到了呢。
+- wait:
+  - 10
+- print:
+  - 吉塔
+  - >2-
+
+    這裡
+- face:
+  - 105711
+  - 1
+- print:
+  - 吉塔
+  - 就是我預約的店家。進去吧進去吧！
+- wait:
+  - 70
+- touch: *o0
+- se:
+  - se_adv_step_concrete_walk_go_01
+- fadeout:
+  - 105711
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 500050
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_door_open_01
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_restaurant_01
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 1
+- vo:
+  - vo_adv_1057003_020
+- face:
+  - 105711
+  - 2
+- print:
+  - 吉塔
+  - 你好～！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - bgm_M31
+  - 0
+  - 0
+  - 1
+- chara_full:
+  - 105711
+  - RC
+  - 2
+- chara_full:
+  - 411
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1057003_021
+- face:
+  - 411
+  - 1
+- print:
+  - 店員
+  - 歡迎光臨─！
+- face:
+  - 411
+  - 6
+- print:
+  - 店員
+  - 唉呀，這不是吉塔嗎。
+- wait:
+  - 20
+- print:
+  - 店員
+  - >2
+
+- face:
+  - 411
+  - 2
+- print:
+  - 店員
+  - 幫妳留好的座位在那裡，決定好要點什麼後，
+- wait:
+  - 60
+- print:
+  - 店員
+  - >2-
+
+    再叫我吧！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_wood_walk_go_01
+- out_L:
+  - 411
+  - 60
+  - true
+- change:
+  - C
+  - RC
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057003_022
+- face:
+  - 105711
+  - 2
+- print:
+  - 吉塔
+  - >
+    好的～！
+- face:
+  - 105711
+  - 6
+- print:
+  - 吉塔
+  - 我看看，菜單菜單─……
+- wait:
+  - 10
+- print:
+  - 吉塔
+  - >2
+
+- face:
+  - 105711
+  - 2
+- print:
+  - 吉塔
+  - 來，拿去。有什麼想吃的東西嗎？
+- wait:
+  - 75
+- touch: *o0
+- choice:
+  - 我要姊姊喜歡吃的東西。
+  - 4
+- tag:
+  - 4
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057003_023
+- face:
+  - 105711
+  - 1
+- print:
+  - 吉塔
+  - 說的也是呢─。姊姊喜歡吃的東西是─……
+- wait:
+  - 60
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 105711
+  - 6
+- emotion:
+  - exclamation1_R
+  - 105711
+  - 20
+  - 645
+  - se_adv_emote_common_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057003_024
+- face:
+  - 105711
+  - 3
+- print:
+  - 吉塔
+  - 唔，
+- jump:
+  - 105711
+- print:
+  - 吉塔
+  - 不對！
+- wait:
+  - 10
+- print:
+  - 吉塔
+  - >2-
+
+    該不會，你剛才是在鬧我對吧？
+- wait:
+  - 20
+- print:
+  - 吉塔
+  - >2
+
+- face:
+  - 105711
+  - 4
+- print:
+  - 吉塔
+  - 真是的……之後要好好叫我的名字。
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057003_025
+- face:
+  - 105711
+  - 2
+- print:
+  - 吉塔
+  - ……呵呵，開玩笑的哦─。
+- wait:
+  - 10
+- print:
+  - 吉塔
+  - >2
+
+- face:
+  - 105711
+  - 5
+- print:
+  - 吉塔
+  - 這是報復你剛剛鬧我。嚇了一跳嗎？
+- wait:
+  - 90
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057003_026
+- face:
+  - 105711
+  - 1
+- print:
+  - 吉塔
+  - 我想想，這間店的這個，還有這個特別好吃！
+- wait:
+  - 75
+- print:
+  - 吉塔
+  - >2-
+
+    總之就先點這兩個吧？
+- wait:
+  - 60
+- print:
+  - 吉塔
+  - >2
+
+- pop:
+  - 105711
+- print:
+  - 吉塔
+  - 不好意思─！
+- wait:
+  - 45
+- touch: *o0
+- fadeout:
+  - 105711
+  - 30
+- effect:
+  - 0009
+- focus:
+  - 411
+- bust:
+  - 411
+  - 1
+- vo:
+  - vo_adv_1057003_027
+- face:
+  - 411
+  - 1
+- print:
+  - 店員
+  - 好的─！請稍等─！
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 105711
+  - C
+  - 6
+- fadein:
+  - 105711
+  - 30
+- emotion:
+  - question1_R
+  - 105711
+  - 125
+  - 515
+  - se_adv_emote_question_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057003_028
+- face:
+  - 105711
+  - 6
+- print:
+  - 吉塔
+  - >-
+    ……怎麼了嗎？
+
+    一直
+- face:
+  - 105711
+  - 4
+- print:
+  - 吉塔
+  - 盯著我看，我的臉上有沾到什麼嗎？
+- wait:
+  - 40
+- touch: *o0
+- choice:
+  - 妳好像很開心，太好了。
+  - 5
+- tag:
+  - 5
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057003_029
+- face:
+  - 105711
+  - 6
+- print:
+  - 吉塔
+  - >
+    我看起來很開心……？
+- face:
+  - 105711
+  - 1
+- print:
+  - 吉塔
+  - 嗯……我呢，
+- face:
+  - 105711
+  - 2
+- print:
+  - 吉塔
+  - 現在非常開心哦。
+- wait:
+  - 120
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057003_030
+- face:
+  - 105711
+  - 1
+- print:
+  - 吉塔
+  - >
+    能像這樣和夥伴聊天，互相開玩笑，
+- face:
+  - 105711
+  - 4
+- print:
+  - 吉塔
+  - 在不久前還只是想像中的景象呢……
+- wait:
+  - 60
+- touch: *o0
+- fadeout:
+  - 105711
+  - 30
+- chara_full:
+  - 105711
+  - C
+  - 5
+- scale:
+  - 105711
+  - 1.3
+  - 2
+- fadein:
+  - 105711
+  - 30
+- effect:
+  - 0044
+  - se_adv_happy_particle_01
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057003_031
+- face:
+  - 105711
+  - 5
+- print:
+  - 吉塔
+  - 可是現在，
+- token: *o0
+- print:
+  - 吉塔
+  - >
+    有如此氣味相投的夥伴……
+- token: *o0
+- print:
+  - 吉塔
+  - >
+    有你在我的面前。
+- eye_open:
+  - False
+- print:
+  - 吉塔
+  - 真的非常令人開心，令人快樂……
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057003_032
+- face:
+  - 105711
+  - 5
+- token: *o0
+- eye_open:
+  - True
+- print:
+  - 吉塔
+  - 今天阿，
+- token: *o0
+- print:
+  - 吉塔
+  - 想把這份心情傳達給你。
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057003_033
+- face:
+  - 105711
+  - 2
+- print:
+  - 吉塔
+  - 真的很謝謝你，加入了騎空團！
+- wait:
+  - 30
+- print:
+  - 吉塔
+  - >2-
+
+    今後也請多多指教了呢！
+- wait:
+  - 45
+- touch: *o0
+- effect_delete:
+  - 0044
+  - 30
+- fadeout:
+  - 105711
+  - 30
+- chara_full:
+  - 105711
+  - C
+  - 5
+- bright_change:
+  - 1
+  - 50
+- fadein:
+  - 105711
+  - 30
+- vo_effect:
+  - 3
+- change_window:
+  - 2
+- window_visible:
+  - true
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057003_034
+- face:
+  - 105711
+  - 5
+- print:
+  - 吉塔
+  - （……我看起來很開心呢，是因為你在身邊哦。
+- wait:
+  - 45
+- print:
+  - 吉塔
+  - >2
+
+- face:
+  - 105711
+  - 2
+- print:
+  - 吉塔
+  - 因為呀，和你相遇之後，發生的盡是些快樂的事情。）
+- wait:
+  - 75
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057003_035
+- face:
+  - 105711
+  - 5
+- print:
+  - 吉塔
+  - （從今以後，還想要和你一起體驗
+- wait:
+  - 40
+- print:
+  - 吉塔
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 吉塔
+  - 許許多多不同的事情呢……）
+- touch: *o0
+- fadeout:
+  - 105711
+  - 30
+- vo_effect:
+  - 0
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    吉塔在心中這麼想著，面對同桌的
+
+    {0}露出了微笑。
+- touch: *o0
+- window_visible:
+  - FALSE
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

@@ -1,0 +1,265 @@
+- title:
+  - 拉姆眼中的愛蜜莉雅
+- outline:
+  - ' '
+- background:
+  - 500110
+- amb:
+  - amb_adv_room_noise_day_01
+- ui_visible:
+  - false
+- situation:
+  - 拉姆眼中的愛蜜莉雅
+- chara_full:
+  - 109811
+  - C
+  - 6
+- fadein:
+  - 109811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M229_A
+  - 0
+  - 0
+  - 1
+- focus:
+  - 109811
+- bust:
+  - 109811
+  - 0
+- vo:
+  - vo_adv_6017307_000
+- face:
+  - 109811
+  - 6
+- emotion:
+  - notice1_L
+  - 109811
+  - -60
+  - 520
+  - se_adv_emote_common_01
+- print:
+  - 拉姆
+  - 你想知道愛蜜莉雅大人的事？
+- wait:
+  - 80
+- print:
+  - 拉姆
+  - >2
+
+- face:
+  - 109811
+  - 1
+- print:
+  - 拉姆
+  - 你有興趣我是沒意見，
+- wait:
+  - 30
+- print:
+  - 拉姆
+  - 但我沒有什麼可說明的。
+- wait:
+  - 60
+- print:
+  - 拉姆
+  - >2-
+
+    她是
+- wait:
+  - 20
+- print:
+  - 拉姆
+  - 很重要的客人。
+- touch: &o0 []
+- choice:
+  - 她是什麼樣的人呢？
+  - 1
+  - 1
+- choice:
+  - 她是精靈族吧？
+  - 2
+  - 2
+- choice:
+  - 她真的很美。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 109811
+- bust:
+  - 109811
+  - 0
+- vo:
+  - vo_adv_6017307_001
+- face:
+  - 109811
+  - 1
+- print:
+  - 拉姆
+  - 以拉姆的立場，
+- wait:
+  - 25
+- eye_open:
+  - False
+- print:
+  - 拉姆
+  - 我能說的不多。
+- wait:
+  - 50
+- print:
+  - 拉姆
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 拉姆
+  - 拉姆反而想問你是怎麼看她的。
+- wait:
+  - 40
+- print:
+  - 拉姆
+  - >2
+
+- face:
+  - 109811
+  - 3
+- print:
+  - 拉姆
+  - 根據回答再決定要不要殺……
+- wait:
+  - 40
+- face:
+  - 109811
+  - 2
+- print:
+  - 拉姆
+  - 沒什麼，
+- wait:
+  - 20
+- print:
+  - 拉姆
+  - 我說笑的。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 109811
+- bust:
+  - 109811
+  - 0
+- vo:
+  - vo_adv_6017307_002
+- face:
+  - 109811
+  - 1
+- eye_open:
+  - False
+- print:
+  - 拉姆
+  - 雖然不知道和這個世界的精靈是不是一樣。
+- wait:
+  - 50
+- print:
+  - 拉姆
+  - >2
+
+- eye_open:
+  - True
+- nod:
+  - 109811
+- print:
+  - 拉姆
+  - 不過外表看起來是沒有什麼不同。
+- wait:
+  - 60
+- print:
+  - 拉姆
+  - >2-
+
+    你是不是因為失去記憶，
+- wait:
+  - 25
+- print:
+  - 拉姆
+  - 對什麼都很好奇啊。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 109811
+- bust:
+  - 109811
+  - 0
+- vo:
+  - vo_adv_6017307_003
+- face:
+  - 109811
+  - 1
+- nod:
+  - 109811
+- print:
+  - 拉姆
+  - 的確。
+- wait:
+  - 25
+- print:
+  - 拉姆
+  - 她很美。
+- wait:
+  - 40
+- print:
+  - 拉姆
+  - >2
+
+- face:
+  - 109811
+  - 3
+- print:
+  - 拉姆
+  - 我認識一個男人
+- wait:
+  - 15
+- eye_open:
+  - False
+- print:
+  - 拉姆
+  - 嘴上掛著這句話，學不乖拼命想接近她，
+- wait:
+  - 40
+- print:
+  - 拉姆
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 拉姆
+  - 希望你不會像他那樣不知天高地厚。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - FALSE
+- fadeout:
+  - 109811
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

@@ -1,0 +1,269 @@
+- title:
+  - 毛茸茸的關係
+- outline:
+  - ' '
+- background:
+  - 500110
+- amb:
+  - amb_adv_room_noise_day_01
+- ui_visible:
+  - false
+- situation:
+  - 毛茸茸的關係
+- chara_full:
+  - 109911
+  - C
+  - 6
+- fadein:
+  - 109911
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M229_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_6017103_000
+- face:
+  - 109911
+  - 6
+- print:
+  - 愛蜜莉雅
+  - 你問帕克和我
+- wait:
+  - 20
+- print:
+  - 愛蜜莉雅
+  - 是什麼關係？
+- wait:
+  - 60
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 4
+- print:
+  - 愛蜜莉雅
+  - 嗯……
+- wait:
+  - 45
+- print:
+  - 愛蜜莉雅
+  - 要怎麼解釋才好呢。
+- touch: &o0 []
+- choice:
+  - 爸爸和女兒？
+  - 1
+  - 1
+- choice:
+  - 寵物和飼主？
+  - 2
+  - 2
+- choice:
+  - 戀人關係？
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_6017103_001
+- face:
+  - 109911
+  - 1
+- nod:
+  - 109911
+- print:
+  - 愛蜜莉雅
+  - 嗯，
+- wait:
+  - 25
+- print:
+  - 愛蜜莉雅
+  - 這個答案應該最接近實際的情況。
+- wait:
+  - 45
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 6
+- print:
+  - 愛蜜莉雅
+  - 咦，
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 這不是你自己講的嗎？
+- wait:
+  - 25
+- print:
+  - 愛蜜莉雅
+  - 怎麼一臉驚訝？
+- wait:
+  - 50
+- print:
+  - 愛蜜莉雅
+  - >2-
+
+    啊，
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 因為我沒有毛茸茸的？　
+- wait:
+  - 40
+- face:
+  - 109911
+  - 2
+- print:
+  - 愛蜜莉雅
+  - 要不要摸摸看我的頭髮？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_6017103_002
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 看起來是很可愛沒錯，
+- wait:
+  - 35
+- print:
+  - 愛蜜莉雅
+  - 不過帕克是精靈喔。
+- wait:
+  - 40
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 6
+- print:
+  - 愛蜜莉雅
+  - 真要說的話，
+- wait:
+  - 35
+- face:
+  - 109911
+  - 2
+- print:
+  - 愛蜜莉雅
+  - 應該算監護人吧。
+- wait:
+  - 45
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- nod:
+  - 109911
+- print:
+  - 愛蜜莉雅
+  - 當然，
+- wait:
+  - 25
+- print:
+  - 愛蜜莉雅
+  - 帕克是我的監護人喔。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_6017103_003
+- face:
+  - 109911
+  - 2
+- emotion:
+  - note1_L
+  - 109911
+  - -80
+  - 490
+  - se_adv_emote_note_01
+- print:
+  - 愛蜜莉雅
+  - 呵呵，
+- wait:
+  - 35
+- print:
+  - 愛蜜莉雅
+  - 雖然我們關係的確很親密。
+- wait:
+  - 65
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - 愛蜜莉雅
+  - 不過我們算是……
+- wait:
+  - 65
+- eye_open:
+  - TRUE
+- print:
+  - 愛蜜莉雅
+  - 比戀人更重要的
+- wait:
+  - 25
+- print:
+  - 愛蜜莉雅
+  - 家人吧。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 109911
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

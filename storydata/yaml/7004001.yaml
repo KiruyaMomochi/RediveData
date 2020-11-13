@@ -1,0 +1,1139 @@
+- title:
+  - 鬼抓人真危險
+- outline:
+  - 【小小甜心】和【咲戀姊妹花】決定來場「捉迷藏對決」。但是因為禊的惡作劇讓{0}倒下，在勝負不明的狀態下結束了。
+- background:
+  - 500430
+- amb:
+  - amb_adv_guildhouse_mist_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 鬼抓人真危險
+- chara_full:
+  - 100411
+  - RC
+  - 1
+- chara_full:
+  - 102311
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- bgm:
+  - bgm_M203_Inside
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_7004001_000
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 第一場比賽……
+- wait:
+  - 45
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 就決定是「鬼抓人」了！
+- touch: &o0 []
+- focus:
+  - 102311
+- bust:
+  - 102311
+  - 0
+- vo:
+  - vo_adv_7004001_001
+- face:
+  - 102311
+  - 1
+- print:
+  - '綾音 '
+  - 沒問題！
+- wait:
+  - 15
+- print:
+  - '綾音 '
+  - >2
+
+- pop:
+  - 102311
+- print:
+  - '綾音 '
+  - 我可是不會輸的！
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_7004001_002
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 那哥哥當鬼呦～
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 預備，
+- wait:
+  - 15
+- print:
+  - 禊
+  - 開始！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - L
+  - LC
+  - 30
+- change:
+  - C
+  - RC
+  - 30
+- fadeout_all:
+  - 30
+- window_visible:
+  - true
+- choice:
+  - 抓住鏡華。
+  - 1
+- choice:
+  - 抓住綾音。
+  - 2
+- tag:
+  - 1
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- camera_zoom:
+  - 1.2
+  - 5
+- effect:
+  - 0009
+- wait:
+  - 5
+- black_out:
+  - 1
+  - 0.5
+- camera_zoom:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 103611
+  - C
+  - 6
+- scale:
+  - 103611
+  - 1.3
+  - 3
+  - 5
+- fadein:
+  - 103611
+  - 30
+- se:
+  - se_adv_hug_02
+- shake:
+  - 103611
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_7004001_003
+- face:
+  - 103611
+  - 6
+- print:
+  - 鏡華
+  - 呀！
+- wait:
+  - 30
+- print:
+  - 鏡華
+  - >2-
+
+    不、
+- wait:
+  - 10
+- print:
+  - 鏡華
+  - 不要亂碰奇怪的地方啦！
+- wait:
+  - 35
+- print:
+  - 鏡華
+  - >2-
+
+    我要啟動防御魔石了喔！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 103611
+  - 30
+- goto:
+  - 3
+- tag:
+  - 2
+- chara_full:
+  - 102311
+  - C
+  - 6
+- fadein:
+  - 102311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 2111
+- bust:
+  - 2111
+  - 1
+- vo:
+  - vo_adv_7004001_004
+- print:
+  - 噗吉
+  - 『綾音！
+- wait:
+  - 15
+- print:
+  - 噗吉
+  - 　小子要來這裡了！？』
+- touch: *o0
+- focus:
+  - 102311
+- bust:
+  - 102311
+  - 0
+- vo:
+  - vo_adv_7004001_005
+- face:
+  - 102311
+  - 1
+- print:
+  - '綾音 '
+  - 哥哥，
+- wait:
+  - 15
+- print:
+  - '綾音 '
+  - 別過來！
+- wait:
+  - 35
+- print:
+  - '綾音 '
+  - >2
+
+- face:
+  - 102311
+  - 3
+- print:
+  - '綾音 '
+  - 噗吉全力揮～擊！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_whoosh_speed_01
+- effect:
+  - 0009
+- scale:
+  - 102311
+  - 1.3
+  - 3
+  - 15
+- fadeout:
+  - 102311
+  - 15
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect_delete:
+  - 0009
+- effect:
+  - 0078
+  - se_adv_weapon_hammer_whiff_long_01
+- se:
+  - se_adv_comic_punch_04
+- effect:
+  - 0079
+  - '@79'
+- wait:
+  - 30
+- background:
+  - 500430
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- wait:
+  - 15
+- goto:
+  - 3
+- tag:
+  - 3
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 102011
+  - RC
+  - 2
+- chara_full:
+  - 102111
+  - LC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102011
+- bust:
+  - 102011
+  - 0
+- vo:
+  - vo_adv_7004001_006
+- face:
+  - 102011
+  - 2
+- emotion:
+  - note1_L
+  - 102011
+  - -100
+  - 475
+  - se_adv_emote_note_01
+- print:
+  - 美美
+  - 嚕拉拉，
+- wait:
+  - 20
+- print:
+  - 美美
+  - 嚕拉拉～♪
+- wait:
+  - 55
+- print:
+  - 美美
+  - >2-
+
+    哥～哥、
+- wait:
+  - 30
+- print:
+  - 美美
+  - 在這邊呦～♪
+- touch: *o0
+- focus:
+  - 102111
+- bust:
+  - 102111
+  - 0
+- vo:
+  - vo_adv_7004001_007
+- face:
+  - 102111
+  - 2
+- print:
+  - 胡桃
+  - 哥、
+- wait:
+  - 10
+- print:
+  - 胡桃
+  - 哥哥，
+- wait:
+  - 30
+- print:
+  - 胡桃
+  - 在這邊喔～♪
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100411
+  - C
+  - 1
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_7004001_008
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 哥哥！
+- wait:
+  - 25
+- print:
+  - 禊
+  - >2-
+
+    認真投入鬼抓人很好，
+- wait:
+  - 40
+- print:
+  - 禊
+  - 但可要留心腳步呦～☆
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100411
+- shake_once:
+  - 3
+- se:
+  - se_adv_knock_back_03
+- wait:
+  - 10
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- chara_full:
+  - 100411
+  - C
+  - 2
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_7004001_009
+- face:
+  - 100411
+  - 2
+- pop:
+  - 100411
+- print:
+  - 禊
+  - 太好了！
+- wait:
+  - 25
+- print:
+  - 禊
+  - 　中了超強黏著劑陷阱了☆
+- wait:
+  - 55
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 封鎖哥哥的行動♪
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 1
+- vo:
+  - vo_adv_7004001_010
+- face:
+  - 103611
+  - 4
+- print:
+  - 鏡華
+  - ……禊。
+- wait:
+  - 20
+- print:
+  - 鏡華
+  - >2-
+
+    若封鎖了{0}的行動，
+- wait:
+  - 30
+- print:
+  - 鏡華
+  - >2-
+
+    就玩不成鬼抓人囉？
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_7004001_011
+- face:
+  - 100411
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100411
+  - 5
+  - 600
+  - se_adv_emote_common_01
+- print:
+  - 禊
+  - 啊啊！？
+- wait:
+  - 25
+- print:
+  - 禊
+  - 　說的沒錯……
+- wait:
+  - 35
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 4
+- print:
+  - 禊
+  - 一看到哥哥，
+- wait:
+  - 15
+- print:
+  - 禊
+  - 就不小心惡作劇了說～
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 102311
+  - RC
+  - 3
+- chara_full:
+  - 102111
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102311
+- bust:
+  - 102311
+  - 0
+- vo:
+  - vo_adv_7004001_012
+- face:
+  - 102311
+  - 3
+- emotion:
+  - anger1_R
+  - 102311
+  - 95
+  - 490
+  - se_adv_emote_anger_01
+- print:
+  - '綾音 '
+  - 禊——！
+- wait:
+  - 30
+- print:
+  - '綾音 '
+  - 　別做多餘的事——！
+- touch: *o0
+- focus:
+  - 102111
+- bust:
+  - 102111
+  - 0
+- vo:
+  - vo_adv_7004001_013
+- face:
+  - 102111
+  - 1
+- print:
+  - 胡桃
+  - 哥、
+- wait:
+  - 10
+- print:
+  - 胡桃
+  - 哥哥，
+- wait:
+  - 30
+- print:
+  - 胡桃
+  - 把鞋脫了就能動了喔？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_tickle_02
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 102011
+  - C
+  - 1
+- fadein:
+  - 102011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102011
+- bust:
+  - 102011
+  - 0
+- vo:
+  - vo_adv_7004001_014
+- face:
+  - 102011
+  - 1
+- print:
+  - 美美
+  - 那麼就，
+- wait:
+  - 25
+- print:
+  - 美美
+  - 繼續開始吧！
+- wait:
+  - 50
+- print:
+  - 美美
+  - >2
+
+- face:
+  - 102011
+  - 2
+- print:
+  - 美美
+  - 哥～哥，
+- wait:
+  - 30
+- print:
+  - 美美
+  - 我在這裡呦～♪
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_move_01
+- camera_zoom:
+  - 1.3
+  - 15
+- wait:
+  - 5
+- face:
+  - 102011
+  - 6
+- wait:
+  - 5
+- fadeout:
+  - 102011
+  - 10
+- bg_pan:
+  - 0
+  - 100
+  - 6
+- wait:
+  - 3
+- se:
+  - se_adv_pitfall_02
+- black_out:
+  - 1
+  - 0.3
+- bg_color:
+  - 0
+  - 0
+  - 0
+- bg_pan:
+  - 0
+  - 0
+  - 0
+- wait:
+  - 15
+- black_in: *o0
+- vo_effect:
+  - 4
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 1
+- vo:
+  - vo_adv_7004001_015
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 呀啊啊！　
+- wait:
+  - 15
+- print:
+  - 禊
+  - 哥哥這次掉到陷阱洞穴裡了呢～☆
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 不愧是哥哥。
+- wait:
+  - 20
+- print:
+  - 禊
+  - >2-
+
+    簡直是掉進陷阱的天才呢～☆
+- touch: *o0
+- focus:
+  - 102311
+- bust:
+  - 102311
+  - 1
+- vo:
+  - vo_adv_7004001_016
+- face:
+  - 102311
+  - 3
+- print:
+  - '綾音 '
+  - 禊——！
+- wait:
+  - 35
+- print:
+  - '綾音 '
+  - 　這樣可比不出高下喔！
+- touch: *o0
+- focus:
+  - 102011
+- bust:
+  - 102011
+  - 1
+- vo:
+  - vo_adv_7004001_017
+- face:
+  - 102011
+  - 4
+- print:
+  - 美美
+  - 哥、
+- wait:
+  - 10
+- print:
+  - 美美
+  - 哥哥、
+- wait:
+  - 25
+- print:
+  - 美美
+  - 不要緊吧！？
+- wait:
+  - 40
+- print:
+  - 美美
+  - >2-
+
+    馬上
+- wait:
+  - 10
+- print:
+  - 美美
+  - 把你拉上來呦。
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 1
+- vo:
+  - vo_adv_7004001_018
+- face:
+  - 103611
+  - 1
+- print:
+  - 鏡華
+  - 我也來幫忙。
+- wait:
+  - 40
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 103611
+  - 3
+- print:
+  - 鏡華
+  - 嘿咻，
+- wait:
+  - 30
+- print:
+  - 鏡華
+  - 嘿咻，
+- wait:
+  - 30
+- print:
+  - 鏡華
+  - 嘿咻……
+- touch: *o0
+- window_visible:
+  - false
+- vo_effect:
+  - 3
+- se:
+  - se_adv_body_carry_back_01
+- black_out: *o0
+- background:
+  - 500430
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 102111
+  - LC
+  - 3
+- chara_full:
+  - 102011
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102111
+- bust:
+  - 102111
+  - 0
+- vo:
+  - vo_adv_7004001_019
+- face:
+  - 102111
+  - 3
+- print:
+  - 胡桃
+  - 嘿咻……
+- wait:
+  - 46
+- print:
+  - 胡桃
+  - >2
+
+- nod:
+  - 102111
+- print:
+  - 胡桃
+  - 沒、
+- wait:
+  - 15
+- print:
+  - 胡桃
+  - 沒事吧？
+- wait:
+  - 65
+- print:
+  - 胡桃
+  - >2
+
+- face:
+  - 102111
+  - 1
+- print:
+  - 胡桃
+  - 不介意的話，
+- wait:
+  - 17
+- print:
+  - 胡桃
+  - 可以枕在我的腿上休息一下……
+- touch: *o0
+- focus:
+  - 102011
+- bust:
+  - 102011
+  - 0
+- vo:
+  - vo_adv_7004001_020
+- face:
+  - 102011
+  - 1
+- print:
+  - 美美
+  - 啊，
+- wait:
+  - 25
+- print:
+  - 美美
+  - 美美這邊有水喔。
+- wait:
+  - 75
+- print:
+  - 美美
+  - >2
+
+- face:
+  - 102011
+  - 2
+- print:
+  - 美美
+  - 來，
+- wait:
+  - 15
+- print:
+  - 美美
+  - 哥哥，
+- wait:
+  - 30
+- print:
+  - 美美
+  - 我餵你喝。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 102311
+  - LC
+  - 4
+- chara_full:
+  - 100411
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102311
+- bust:
+  - 102311
+  - 0
+- vo:
+  - vo_adv_7004001_021
+- face:
+  - 102311
+  - 4
+- print:
+  - '綾音 '
+  - ……
+- wait:
+  - 10
+- print:
+  - '綾音 '
+  - 好狡猾！
+- wait:
+  - 50
+- print:
+  - '綾音 '
+  - 　我也想照顧哥哥！
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_7004001_022
+- face:
+  - 100411
+  - 6
+- pop:
+  - 100411
+- print:
+  - 禊
+  - 啊啊，
+- wait:
+  - 15
+- print:
+  - 禊
+  - 禊也要、禊也要！
+- wait:
+  - 35
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 哥哥、來，水！
+- touch: *o0
+- choice:
+  - 噗！
+  - 4
+- tag:
+  - 4
+- face:
+  - 102311
+  - 6
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_7004001_023
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 嘎哈哈哈……
+- wait:
+  - 45
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - 不對。
+- wait:
+  - 30
+- print:
+  - 禊
+  - 不、
+- wait:
+  - 10
+- print:
+  - 禊
+  - 不小心把超辣的果汁……
+- wait:
+  - 55
+- print:
+  - 禊
+  - >2
+
+- pop:
+  - 100411
+- print:
+  - 禊
+  - 哥哥，你沒事吧————！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 就這樣，「鬼抓人對決」自然的結束了。
+- touch: *o0
+- window_visible:
+  - false
+- vo_effect:
+  - 0
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

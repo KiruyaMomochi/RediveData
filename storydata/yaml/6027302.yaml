@@ -1,0 +1,309 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500750
+- amb:
+  - amb_adv_room_noise_01
+- ui_visible:
+  - FALSE
+- situation:
+  - ユニという女
+- chara_full:
+  - 111011
+  - C
+  - 1
+- fadein:
+  - 111011
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M255
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_6023302_000
+- face:
+  - 111011
+  - 1
+- print:
+  - ユニ
+  - やあ同志、
+- wait:
+  - 40
+- print:
+  - ユニ
+  - 今日も知識を育んでいるかね。
+- wait:
+  - 90
+- print:
+  - ユニ
+  - >2
+
+- emotion:
+  - question1_R
+  - 111011
+  - 130
+  - 425
+  - se_adv_emote_question_01
+- face:
+  - 111011
+  - 6
+- print:
+  - ユニ
+  - なに、
+- wait:
+  - 25
+- print:
+  - ユニ
+  - ぼくについて知りたい？
+- wait:
+  - 65
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 111011
+  - 1
+- print:
+  - ユニ
+  - よかろう、
+- wait:
+  - 25
+- print:
+  - ユニ
+  - なんなりと聞きたまえ。
+- touch: &o0 []
+- choice:
+  - 趣味や特技は？
+  - 1
+  - 1
+- choice:
+  - 身長や体重は？
+  - 2
+  - 2
+- choice:
+  - 星座や血液型は？
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_6023302_001
+- face:
+  - 111011
+  - 6
+- print:
+  - ユニ
+  - 学問以外であれば、
+- wait:
+  - 55
+- print:
+  - ユニ
+  - そうさな、
+- wait:
+  - 50
+- face:
+  - 111011
+  - 2
+- print:
+  - ユニ
+  - 芸術方面にも多少の造詣はあるぞ。
+- wait:
+  - 80
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 111011
+  - 1
+- print:
+  - ユニ
+  - もっとも、
+- wait:
+  - 20
+- print:
+  - ユニ
+  - ぼくの独創的な作品群は
+- wait:
+  - 60
+- print:
+  - ユニ
+  - 余人の理解が及ばないらしい。
+- wait:
+  - 60
+- print:
+  - ユニ
+  - >2-
+
+    人類にはまだ早いなどと評されたよ。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_6023302_002
+- face:
+  - 111011
+  - 1
+- print:
+  - ユニ
+  - 身長１７０センチ、
+- wait:
+  - 55
+- print:
+  - ユニ
+  - 体重６０キロ。
+- wait:
+  - 45
+- print:
+  - ユニ
+  - >2-
+
+    スリーサイズは上から順に
+- wait:
+  - 45
+- print:
+  - ユニ
+  - ９０・
+- wait:
+  - 25
+- print:
+  - ユニ
+  - ５５・
+- wait:
+  - 30
+- print:
+  - ユニ
+  - ９０の予定だ。
+- wait:
+  - 55
+- print:
+  - ユニ
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - ユニ
+  - 現在は途上の段階だがな。
+- wait:
+  - 55
+- eye_open:
+  - True
+- print:
+  - ユニ
+  - はい次の質問。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_6023302_003
+- face:
+  - 111011
+  - 1
+- nod:
+  - 111011
+- print:
+  - ユニ
+  - ふむ……
+- wait:
+  - 40
+- face:
+  - 111011
+  - 6
+- print:
+  - ユニ
+  - 君はアレかね。
+- wait:
+  - 45
+- print:
+  - ユニ
+  - 星座占いや
+- wait:
+  - 20
+- print:
+  - ユニ
+  - 血液型診断を信じるクチかね。
+- wait:
+  - 85
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 111011
+  - 1
+- print:
+  - ユニ
+  - 構わんよ。
+- wait:
+  - 40
+- print:
+  - ユニ
+  - 思想も信仰も個人の自由さ。
+- wait:
+  - 70
+- print:
+  - ユニ
+  - その手の本に言わせれば、
+- wait:
+  - 55
+- print:
+  - ユニ
+  - >2-
+
+    ぼくは適応力のうお座・
+- wait:
+  - 50
+- print:
+  - ユニ
+  - 寛容性のО型ということらしいからな。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 110811
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

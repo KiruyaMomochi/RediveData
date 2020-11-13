@@ -1,0 +1,376 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500010
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - false
+- situation:
+  - 魔法生物的生態調查
+- chara_full:
+  - 101411
+  - C
+  - 1
+- fadein:
+  - 101411
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M317
+  - 0
+  - 0
+  - 1
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_6033110_000
+- face:
+  - 101411
+  - 1
+- print:
+  - 霞
+  - 這麼說來，
+- wait:
+  - 25
+- print:
+  - 霞
+  - 其實我們對摩拉的瞭解並不多呢，
+- wait:
+  - 60
+- print:
+  - 霞
+  - >2
+
+- face:
+  - 101411
+  - 4
+- emotion:
+  - question1_R
+  - 101411
+  - 110
+  - 515
+  - se_adv_emote_question_01
+- print:
+  - 霞
+  - 歸根究柢，
+- wait:
+  - 25
+- print:
+  - 霞
+  - 牠究竟是一個怎樣的存在呢？
+- touch: &o0 []
+- choice:
+  - 總之先強化一下。
+  - 1
+  - 1
+- choice:
+  - 想摸摸看牠的頭。
+  - 2
+  - 2
+- choice:
+  - 魔法國度的魔法生物唷！
+  - 3
+  - 3
+- tag:
+  - 1
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- window_visible:
+  - false
+- effect:
+  - 0076
+  - se_adv_magic_cmn_medium_02
+- face:
+  - 101411
+  - 6
+- wait:
+  - 15
+- se:
+  - se_adv_magical_transform_01
+- effect:
+  - 0099
+- wait:
+  - 55
+- fadeout:
+  - 101411
+  - 1
+- effect_delete:
+  - 0076
+  - 15
+- chara_full:
+  - 112211
+  - C
+  - 6
+- fadein:
+  - 112211
+  - 1
+- window_visible:
+  - true
+- bgm:
+  - bgm_M316
+- focus:
+  - 112211
+- bust:
+  - 112211
+  - 0
+- vo:
+  - vo_adv_6033110_001
+- face:
+  - 112211
+  - 6
+- print:
+  - Misty★霞
+  - 咦！？　
+- wait:
+  - 15
+- face:
+  - 112211
+  - 8
+- print:
+  - Misty★霞
+  - 魔、
+- wait:
+  - 15
+- print:
+  - Misty★霞
+  - 魔法偵探Misty★霞，
+- wait:
+  - 40
+- print:
+  - Misty★霞
+  - 用魔法的力量開始搜查♪
+- wait:
+  - 60
+- print:
+  - Misty★霞
+  - >2
+
+- face:
+  - 112211
+  - 3
+- emotion:
+  - anger1_R
+  - 112211
+  - -110
+  - 505
+  - se_adv_emote_anger_01
+- print:
+  - Misty★霞
+  - 現在為什麼要讓我變身啦！？　
+- wait:
+  - 45
+- print:
+  - Misty★霞
+  - 你，
+- wait:
+  - 15
+- print:
+  - Misty★霞
+  - 根本什麼都沒想吧！
+- wait:
+  - 35
+- print:
+  - Misty★霞
+  - >2-
+
+    完全沒思考
+- wait:
+  - 30
+- print:
+  - Misty★霞
+  - 總之就讓我變身了對吧！？
+- touch: *o0
+- bgm:
+  - stop
+  - 1.5
+- window_visible:
+  - FALSE
+- fadeout:
+  - 112211
+  - 30
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_6033110_002
+- face:
+  - 101411
+  - 6
+- print:
+  - 霞
+  - ……
+- wait:
+  - 45
+- print:
+  - 霞
+  - 助手先生，
+- wait:
+  - 25
+- print:
+  - 霞
+  - 不管對誰都會摸頭呢。
+- wait:
+  - 80
+- face:
+  - 101411
+  - 4
+- print:
+  - 霞
+  - 尤其是對女孩子。
+- wait:
+  - 60
+- print:
+  - 霞
+  - >2-
+
+    要是出什麼差錯可是會被抓走的唷？　
+- wait:
+  - 80
+- face:
+  - 101411
+  - 1
+- print:
+  - 霞
+  - 不過，
+- wait:
+  - 20
+- print:
+  - 霞
+  - 有我在你身邊應該沒問題呢。
+- wait:
+  - 65
+- print:
+  - 霞
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 霞
+  - 你被抓的時候，
+- wait:
+  - 40
+- print:
+  - 霞
+  - 我就會狠下心來……
+- wait:
+  - 65
+- eye_open:
+  - True
+- print:
+  - 霞
+  - 說說而已啦。
+- wait:
+  - 30
+- face:
+  - 101411
+  - 2
+- print:
+  - 霞
+  - 只是開個玩笑唷。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 101411
+  - 30
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_6033110_003
+- face:
+  - 101411
+  - 6
+- emotion:
+  - surprise1_L
+  - 101411
+  - 145
+  - 550
+  - se_adv_emote_common_01
+- print:
+  - 霞
+  - 為、
+- wait:
+  - 20
+- print:
+  - 霞
+  - 為什麼你突然開始模仿摩拉了啦！？
+- wait:
+  - 50
+- print:
+  - 霞
+  - >2
+
+- face:
+  - 101411
+  - 4
+- print:
+  - 霞
+  - 而且
+- wait:
+  - 20
+- print:
+  - 霞
+  - 還像摩拉一樣開始纏著我，
+- wait:
+  - 45
+- print:
+  - 霞
+  - >2-
+
+    到底是想要……
+- wait:
+  - 45
+- face:
+  - 101411
+  - 6
+- print:
+  - 霞
+  - 別、
+- wait:
+  - 20
+- print:
+  - 霞
+  - 別再繼續下去了～～！！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 101411
+  - 30
+- tag:
+  - 4
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

@@ -1,0 +1,272 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 501000
+- amb:
+  - amb_adv_outdoors_day_01
+- ui_visible:
+  - false
+- situation:
+  - 工作？
+- chara_full:
+  - 106711
+  - C
+  - 6
+- fadein:
+  - 106711
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M274_03
+  - 0
+  - 0
+  - 1
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_6042501_000
+- face:
+  - 106711
+  - 6
+- emotion:
+  - question1_R
+  - 106711
+  - 110
+  - 525
+  - se_adv_emote_question_01
+- print:
+  - 帆稀
+  - 嗯～？
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 你看起來
+- wait:
+  - 15
+- print:
+  - 帆稀
+  - 有事想問我呢？
+- wait:
+  - 55
+- print:
+  - 帆稀
+  - >2
+
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 是想問
+- wait:
+  - 10
+- print:
+  - 帆稀
+  - 我為什麼會出現在那種道具店裡
+- wait:
+  - 50
+- print:
+  - 帆稀
+  - 對吧？
+- touch: &o0 []
+- choice:
+  - 是因為公會的工作？
+  - 1
+  - 1
+- choice:
+  - 是因為幫派的工作？
+  - 2
+  - 2
+- choice:
+  - 妳今天休息嗎？
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_6042501_001
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 答對了～♪
+- wait:
+  - 55
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 我們的公會【龍族巢穴】也不是
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - >2-
+
+    成天只會打打殺殺喔？
+- wait:
+  - 60
+- face:
+  - 106711
+  - 4
+- print:
+  - 帆稀
+  - 我也總是提醒祈梨，
+- wait:
+  - 20
+- print:
+  - 帆稀
+  - >2-
+
+    這種不起眼的調查
+- wait:
+  - 45
+- print:
+  - 帆稀
+  - 才是我們公會
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - 最重要的目的呢～
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_6042501_002
+- face:
+  - 106711
+  - 3
+- print:
+  - 帆稀
+  - 真遺憾～
+- wait:
+  - 20
+- print:
+  - 帆稀
+  - 猜錯了喔～
+- wait:
+  - 60
+- print:
+  - 帆稀
+  - >2
+
+- face:
+  - 106711
+  - 4
+- print:
+  - 帆稀
+  - 尋找古文書這種事
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - 基本上賺不了什麼錢呢～
+- wait:
+  - 70
+- print:
+  - 帆稀
+  - >2
+
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 以幫派的立場來說，
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - 我們不會接這種工作喔？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_6042501_003
+- face:
+  - 106711
+  - 6
+- print:
+  - 帆稀
+  - 我也希望是那樣呢～
+- wait:
+  - 65
+- print:
+  - 帆稀
+  - >2
+
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 不過，
+- wait:
+  - 20
+- print:
+  - 帆稀
+  - 這是我們公會【龍族巢穴】的工作喔。
+- wait:
+  - 50
+- print:
+  - 帆稀
+  - >2-
+
+    你在旁邊看著也挺無聊的吧？
+- wait:
+  - 60
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 來幫幫忙吧☆
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 106711
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

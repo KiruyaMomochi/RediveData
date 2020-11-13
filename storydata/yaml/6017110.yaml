@@ -1,0 +1,243 @@
+- title:
+  - 關於蘭德索爾的美乃滋
+- outline:
+  - ' '
+- background:
+  - 500110
+- amb:
+  - amb_adv_room_noise_day_01
+- ui_visible:
+  - false
+- situation:
+  - 關於蘭德索爾的美乃滋
+- chara_full:
+  - 109911
+  - C
+  - 1
+- fadein:
+  - 109911
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M203
+  - 0
+  - 0
+  - 1
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_6017110_000
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 話說，
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 有一種調味料
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 叫做美乃滋――
+- wait:
+  - 50
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 6
+- print:
+  - 愛蜜莉雅
+  - 蘭德索爾也有這種調味料嗎？
+- touch: &o0 []
+- choice:
+  - 有嗎？
+  - 3
+  - 3
+- choice:
+  - 有。
+  - 2
+  - 2
+- choice:
+  - 妳該不會是美乃滋迷？
+  - 1
+  - 1
+- tag:
+  - 1
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_6017110_001
+- face:
+  - 109911
+  - 2
+- emotion:
+  - note1_L
+  - 109911
+  - -80
+  - 490
+  - se_adv_emote_note_01
+- print:
+  - 愛蜜莉雅
+  - 呵呵，
+- wait:
+  - 25
+- print:
+  - 愛蜜莉雅
+  - 我喜歡美乃滋，
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 不過還不算美乃滋迷。
+- wait:
+  - 50
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 美乃滋迷，
+- wait:
+  - 25
+- print:
+  - 愛蜜莉雅
+  - 若沒有美乃滋
+- wait:
+  - 15
+- print:
+  - 愛蜜莉雅
+  - 就會受不了吧？
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - >2-
+
+    因為昴就曾經變得很奇怪。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_6017110_002
+- face:
+  - 109911
+  - 6
+- emotion:
+  - notice1_L
+  - 109911
+  - -55
+  - 540
+  - se_adv_emote_common_01
+- print:
+  - 愛蜜莉雅
+  - 原來如此，
+- wait:
+  - 40
+- print:
+  - 愛蜜莉雅
+  - 難不成它其實是很知名的調味料？
+- wait:
+  - 60
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 這樣昴
+- wait:
+  - 25
+- print:
+  - 愛蜜莉雅
+  - 就不用忍受戒斷症狀之苦了。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_6017110_003
+- face:
+  - 109911
+  - 4
+- print:
+  - 愛蜜莉雅
+  - 嗯……
+- wait:
+  - 40
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 如果沒有的話
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 就請拉姆製作好
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 2
+- print:
+  - 愛蜜莉雅
+  - 在蘭德索爾推廣好了？
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 109911
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

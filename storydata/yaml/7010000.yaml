@@ -1,0 +1,992 @@
+- title:
+  - 校外教學開始了
+- outline:
+  - 美里和{0}為了找尋記憶中的線索，而到訪露娜之塔。並且和到那裡尋找校外教學場地的伊緒會合。{0}在兩位老師的引領之下到了塔中。
+- background:
+  - 500420
+- amb:
+  - amb_adv_forest_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 校外教學開始了
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 通往露娜之塔途中的祠堂，有一對男女的身影。
+- wait:
+  - 30
+- print:
+  - 旁白
+  - >2-
+
+    女性將一隻手，伸向男性的頭上——
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 101511
+  - C
+  - 1
+- scale:
+  - 101511
+  - 1.2
+  - 2
+- fadein:
+  - 101511
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M156
+  - 0
+  - 0
+  - 1
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_7010000_000
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 雖然路程有點遠，
+- wait:
+  - 50
+- print:
+  - 美里
+  - 但還是努力走過來了呢。
+- wait:
+  - 55
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 2
+- print:
+  - 美里
+  - 好孩子好孩子～
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_body_shake_head_01
+- nod:
+  - 101511
+- wait:
+  - 10
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- window_visible:
+  - TRUE
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_7010000_001
+- face:
+  - 101511
+  - 6
+- print:
+  - 美里
+  - 話說回來，
+- wait:
+  - 30
+- print:
+  - 美里
+  - 真是個不可思議的地方呢。
+- wait:
+  - 60
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 這裡生長的植物們，
+- wait:
+  - 55
+- print:
+  - 美里
+  - 和精靈族之村完全不同呢～
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_bush_04
+- wait:
+  - 15
+- face:
+  - 101511
+  - 6
+- emotion:
+  - question1_R
+  - 101511
+  - 125
+  - 515
+  - se_adv_emote_question_01
+- wait:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_7010000_002
+- face:
+  - 101511
+  - 6
+- print:
+  - 美里
+  - 哎呀？　
+- wait:
+  - 40
+- print:
+  - 美里
+  - 是誰在這種地方呢？
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- window_visible:
+  - FALSE
+- fadeout:
+  - 101511
+  - 30
+- chara_full:
+  - 101811
+  - LC
+  - 4
+- se:
+  - se_adv_step_leaves_run_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 30
+- fadein:
+  - 101811
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M203
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_7010000_003
+- face:
+  - 101811
+  - 4
+- emotion:
+  - gloomy1_R
+  - 101811
+  - 75
+  - 570
+  - se_adv_emote_gloomy_01
+- print:
+  - 伊緒
+  - 嗯啊～！　
+- wait:
+  - 45
+- print:
+  - 伊緒
+  - 好癢喔～！
+- touch: *o0
+- choice:
+  - 怎麼了伊緒？
+  - 1
+- tag:
+  - 1
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_7010000_004
+- face:
+  - 101811
+  - 6
+- print:
+  - 伊緒
+  - ……啊！　
+- wait:
+  - 20
+- print:
+  - 伊緒
+  - '{0}，'
+- wait:
+  - 15
+- print:
+  - 伊緒
+  - 來得正好！
+- wait:
+  - 45
+- print:
+  - 伊緒
+  - >2
+
+- face:
+  - 101811
+  - 4
+- print:
+  - 伊緒
+  - 葉子掉進了衣服裡……
+- wait:
+  - 65
+- print:
+  - 伊緒
+  - 能幫我拿出來嗎？
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 101811
+  - 30
+- se:
+  - se_adv_step_leaves_move_01
+- chara_full:
+  - 101811
+  - C
+  - 4
+- scale:
+  - 101811
+  - 1.2
+  - 1
+- fadein:
+  - 101811
+  - 30
+- eye_open:
+  - false
+- face:
+  - 101811
+  - 4
+- se:
+  - se_adv_tickle_02
+- shake:
+  - 101811
+- window_visible:
+  - TRUE
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_7010000_005
+- face:
+  - 101811
+  - 4
+- print:
+  - 伊緒
+  - 啊！　
+- wait:
+  - 25
+- print:
+  - 伊緒
+  - 不是那裡啦～
+- wait:
+  - 50
+- print:
+  - 伊緒
+  - >2-
+
+    好像掉進了更深的地方。
+- touch: *o0
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_7010000_006
+- face:
+  - 101811
+  - 4
+- print:
+  - 伊緒
+  - 還有，
+- wait:
+  - 40
+- print:
+  - 伊緒
+  - 你的手也弄得我癢的受不了啦！
+- wait:
+  - 65
+- print:
+  - 伊緒
+  - >2-
+
+    快點拿出來～！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 101811
+  - 30
+- chara_full:
+  - 101511
+  - RC
+  - 6
+- chara_full:
+  - 101811
+  - LC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_7010000_007
+- face:
+  - 101511
+  - 6
+- print:
+  - 美里
+  - 哎呀哎呀哎呀～
+- wait:
+  - 65
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 2
+- print:
+  - 美里
+  - 晴朗的天氣，
+- wait:
+  - 35
+- print:
+  - 美里
+  - 在這樣的森林裡～
+- touch: *o0
+- window_visible:
+  - FALSE
+- face:
+  - 101511
+  - 1
+- focus:
+  - 101811
+- se:
+  - se_adv_tickle_02
+- shake:
+  - 101811
+- window_visible:
+  - TRUE
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_7010000_008
+- face:
+  - 101811
+  - 2
+- print:
+  - 伊緒
+  - 太好了～
+- wait:
+  - 75
+- print:
+  - 伊緒
+  - 好像拿出來了呢。
+- wait:
+  - 40
+- print:
+  - 伊緒
+  - 謝謝你！
+- wait:
+  - 30
+- print:
+  - 伊緒
+  - >2-
+
+    ……
+- wait:
+  - 15
+- face:
+  - 101811
+  - 6
+- print:
+  - 伊緒
+  - 話說回來，
+- wait:
+  - 25
+- print:
+  - 伊緒
+  - 你為什麼會在這裡呢？
+- wait:
+  - 45
+- print:
+  - 伊緒
+  - >2
+
+- bgm:
+  - stop
+  - 4
+- print:
+  - 伊緒
+  - 那位是？
+- touch: *o0
+- face:
+  - 101811
+  - 1
+- bgm:
+  - bgm_M190
+  - 0
+  - 0
+  - 1
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_7010000_009
+- face:
+  - 101511
+  - 2
+- nod:
+  - 101511
+- print:
+  - 美里
+  - 初次見面，
+- wait:
+  - 35
+- print:
+  - 美里
+  - 我是
+- wait:
+  - 30
+- print:
+  - 美里
+  - 在精靈族之村擔任幼教老師的美里。
+- wait:
+  - 75
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 聽說
+- wait:
+  - 25
+- print:
+  - 美里
+  - 這裡有與他的記憶相關的線索，
+- wait:
+  - 55
+- print:
+  - 美里
+  - >2-
+
+    散步時順便繞過來的～
+- touch: *o0
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_7010000_010
+- face:
+  - 101811
+  - 1
+- print:
+  - 伊緒
+  - 哎呀，
+- wait:
+  - 20
+- print:
+  - 伊緒
+  - 原來如此呢！
+- wait:
+  - 35
+- print:
+  - 伊緒
+  - >2
+
+- face:
+  - 101811
+  - 6
+- print:
+  - 伊緒
+  - 這裡居然是那樣的地方……
+- touch: *o0
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_7010000_011
+- face:
+  - 101811
+  - 1
+- nod:
+  - 101811
+- print:
+  - 伊緒
+  - 我是
+- wait:
+  - 40
+- print:
+  - 伊緒
+  - 在【月光學院】擔任教師的伊緒。
+- wait:
+  - 50
+- print:
+  - 伊緒
+  - >2
+
+- face:
+  - 101811
+  - 2
+- print:
+  - 伊緒
+  - 是{0}的導師。
+- touch: *o0
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_7010000_012
+- face:
+  - 101811
+  - 1
+- print:
+  - 伊緒
+  - 今天是
+- wait:
+  - 25
+- print:
+  - 伊緒
+  - 為了尋找適合校外教學的場地。
+- wait:
+  - 75
+- print:
+  - 伊緒
+  - >2
+
+- face:
+  - 101811
+  - 4
+- print:
+  - 伊緒
+  - 說來慚愧，
+- wait:
+  - 35
+- print:
+  - 伊緒
+  - 因為途中迷了路
+- wait:
+  - 20
+- print:
+  - 伊緒
+  - 所以才到了這裡……
+- touch: *o0
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_7010000_013
+- face:
+  - 101811
+  - 6
+- print:
+  - 伊緒
+  - 總感覺，
+- wait:
+  - 15
+- print:
+  - 伊緒
+  - 這裡看起來是十分古老的建築物，
+- wait:
+  - 50
+- print:
+  - 伊緒
+  - >2
+
+- face:
+  - 101811
+  - 2
+- print:
+  - 伊緒
+  - 或許正好能作為歷史課的教材。
+- wait:
+  - 65
+- print:
+  - 伊緒
+  - >2
+
+- face:
+  - 101811
+  - 1
+- print:
+  - 伊緒
+  - 美里老師，
+- wait:
+  - 35
+- print:
+  - 伊緒
+  - 能讓我也一起行動嗎？
+- touch: *o0
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_7010000_014
+- face:
+  - 101811
+  - 1
+- print:
+  - 伊緒
+  - 不只為了校外教學，
+- wait:
+  - 30
+- face:
+  - 101811
+  - 2
+- print:
+  - 伊緒
+  - 也為了{0}，
+- wait:
+  - 25
+- print:
+  - 伊緒
+  - >2-
+
+    作為老師
+- wait:
+  - 25
+- print:
+  - 伊緒
+  - 我也想幫上一些忙……
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_7010000_015
+- face:
+  - 101511
+  - 2
+- nod:
+  - 101511
+- print:
+  - 美里
+  - 當然沒問題～
+- wait:
+  - 55
+- print:
+  - 美里
+  - >2-
+
+    對{0}來說，
+- wait:
+  - 20
+- print:
+  - 美里
+  - 導護的老師有兩位的話，
+- wait:
+  - 45
+- print:
+  - 美里
+  - 心裡也會更踏實吧。
+- touch: *o0
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_7010000_016
+- face:
+  - 101811
+  - 6
+- emotion:
+  - question1_R
+  - 101811
+  - 130
+  - 545
+  - se_adv_emote_question_01
+- print:
+  - 伊緒
+  - ……？　
+- wait:
+  - 35
+- print:
+  - 伊緒
+  - 有兩位老師是…
+- wait:
+  - 60
+- print:
+  - 伊緒
+  - 美里老師是幼教老師對吧？
+- wait:
+  - 55
+- print:
+  - 伊緒
+  - >2-
+
+    為什麼會是{0}的老師呢？
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_7010000_017
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 他在村子的幼稚園裡，
+- wait:
+  - 50
+- print:
+  - 美里
+  - 和其他的孩子一起
+- wait:
+  - 50
+- print:
+  - 美里
+  - 被我照顧的呦～
+- wait:
+  - 45
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 2
+- print:
+  - 美里
+  - 因為是最年長的哥哥，
+- wait:
+  - 35
+- print:
+  - 美里
+  - >2-
+
+    不用我費太多心力，
+- wait:
+  - 35
+- print:
+  - 美里
+  - 是個非常好的孩子呢～
+- touch: *o0
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_7010000_018
+- face:
+  - 101811
+  - 6
+- emotion:
+  - exclamation1_R
+  - 101811
+  - 25
+  - 670
+  - se_adv_emote_common_01
+- print:
+  - 伊緒
+  - 咦？　
+- wait:
+  - 30
+- print:
+  - 伊緒
+  - 也在幼稚園上學嗎？
+- wait:
+  - 50
+- print:
+  - 伊緒
+  - >2
+
+- face:
+  - 101811
+  - 4
+- print:
+  - 伊緒
+  - '{0}，'
+- wait:
+  - 20
+- print:
+  - 伊緒
+  - 你今年是幾歲來著？
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_7010000_019
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 好了，
+- wait:
+  - 25
+- print:
+  - 美里
+  - 就別站著閒聊了，
+- wait:
+  - 40
+- print:
+  - 美里
+  - 先往前進吧～
+- touch: *o0
+- choice:
+  - 這地方有點危險要小心喔。
+  - 3
+- tag:
+  - 3
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_7010000_020
+- face:
+  - 101511
+  - 2
+- print:
+  - 美里
+  - '{0}不用擔心任何事呦。'
+- wait:
+  - 60
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 來吧
+- wait:
+  - 35
+- print:
+  - 美里
+  - 伊緒老師也一起走囉～
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_step_leaves_walk_go_01
+- change:
+  - R
+  - RC
+  - 30
+- fadeout:
+  - 101511
+  - 30
+- change:
+  - C
+  - LC
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_7010000_021
+- face:
+  - 101811
+  - 6
+- emotion:
+  - sweat2_R
+  - 101811
+  - 85
+  - 545
+  - se_adv_emote_sweat_02
+- print:
+  - 伊緒
+  - 咦咦～！？　
+- wait:
+  - 25
+- print:
+  - 伊緒
+  - 兩位等等我～！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 101811
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

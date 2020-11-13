@@ -1,0 +1,287 @@
+- title:
+  - 推薦的蘭德索爾美食
+- outline:
+  - ' '
+- background:
+  - 500110
+- amb:
+  - amb_adv_room_noise_day_01
+- ui_visible:
+  - false
+- situation:
+  - 推薦的蘭德索爾美食
+- chara_full:
+  - 109711
+  - C
+  - 1
+- fadein:
+  - 109711
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M31
+  - 0
+  - 0
+  - 1
+- focus:
+  - 109711
+- bust:
+  - 109711
+  - 0
+- vo:
+  - vo_adv_6017201_000
+- face:
+  - 109711
+  - 1
+- nod:
+  - 109711
+- print:
+  - 雷姆
+  - 到目前為止，
+- wait:
+  - 20
+- print:
+  - 雷姆
+  - 你都吃了些什麼樣的美食呢？
+- wait:
+  - 55
+- print:
+  - 雷姆
+  - >2-
+
+    如果在露格尼卡王國
+- wait:
+  - 25
+- print:
+  - 雷姆
+  - 能找到相同食材的話，我也想做做看。
+- wait:
+  - 50
+- print:
+  - 雷姆
+  - >2
+
+- face:
+  - 109711
+  - 2
+- print:
+  - 雷姆
+  - 方便的話，
+- wait:
+  - 25
+- print:
+  - 雷姆
+  - 請讓我拿來作為參考。
+- touch: &o0 []
+- choice:
+  - 軟泥怪丼飯。
+  - 1
+  - 1
+- choice:
+  - 公主飯。
+  - 2
+  - 2
+- choice:
+  - 可可蘿煮的粥。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 109711
+- bust:
+  - 109711
+  - 0
+- vo:
+  - vo_adv_6017201_001
+- face:
+  - 109711
+  - 6
+- emotion:
+  - exclamation1_R
+  - 109711
+  - 25
+  - 605
+  - se_adv_emote_common_01
+- print:
+  - 雷姆
+  - 這、
+- wait:
+  - 15
+- print:
+  - 雷姆
+  - 這是用軟泥怪這種魔物當作食材製成的食物嗎！？
+- wait:
+  - 70
+- print:
+  - 雷姆
+  - >2-
+
+    未知的世界
+- wait:
+  - 35
+- print:
+  - 雷姆
+  - 有自己當地的文化，
+- wait:
+  - 30
+- print:
+  - 雷姆
+  - 實在很有意思。
+- wait:
+  - 40
+- print:
+  - 雷姆
+  - >2
+
+- face:
+  - 109711
+  - 1
+- print:
+  - 雷姆
+  - 如果能找到
+- wait:
+  - 25
+- print:
+  - 雷姆
+  - 替代的食材，
+- wait:
+  - 35
+- print:
+  - 雷姆
+  - 我也想試試看。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 109711
+- bust:
+  - 109711
+  - 0
+- vo:
+  - vo_adv_6017201_002
+- face:
+  - 109711
+  - 6
+- print:
+  - 雷姆
+  - 【美食殿堂】的各位
+- wait:
+  - 30
+- print:
+  - 雷姆
+  - 也會自己耕種呢。
+- wait:
+  - 50
+- print:
+  - 雷姆
+  - >2
+
+- face:
+  - 109711
+  - 1
+- print:
+  - 雷姆
+  - 這種對食物的熱情，
+- wait:
+  - 45
+- face:
+  - 109711
+  - 2
+- print:
+  - 雷姆
+  - 真的讓雷姆非常佩服。
+- wait:
+  - 50
+- print:
+  - 雷姆
+  - >2-
+
+    自己用心培育出來的白米，
+- wait:
+  - 60
+- print:
+  - 雷姆
+  - 一定很好吃。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 109711
+- bust:
+  - 109711
+  - 0
+- vo:
+  - vo_adv_6017201_003
+- face:
+  - 109711
+  - 2
+- nod:
+  - 109711
+- print:
+  - 雷姆
+  - 呵呵，
+- wait:
+  - 35
+- print:
+  - 雷姆
+  - 果然
+- wait:
+  - 25
+- print:
+  - 雷姆
+  - 沒有美食能勝過家的味道呢。
+- wait:
+  - 75
+- print:
+  - 雷姆
+  - >2
+
+- face:
+  - 109711
+  - 1
+- print:
+  - 雷姆
+  - 有個人，
+- wait:
+  - 20
+- print:
+  - 雷姆
+  - 雷姆也想要親手做菜給他吃。
+- wait:
+  - 60
+- print:
+  - 雷姆
+  - >2-
+
+    如果有機會，
+- wait:
+  - 35
+- print:
+  - 雷姆
+  - 雷姆一定親自熬粥給他嘗嘗看。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - FALSE
+- fadeout:
+  - 109711
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

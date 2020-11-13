@@ -1,0 +1,306 @@
+- title:
+  - 渡假計畫
+- outline:
+  - ' '
+- background:
+  - 500680
+- amb:
+  - amb_adv_seaside_01
+- ui_visible:
+  - false
+- situation:
+  - 渡假計畫
+- chara_full:
+  - 110211
+  - C
+  - 1
+- fadein:
+  - 110211
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M238
+  - 0
+  - 0
+  - 1
+- focus:
+  - 110211
+- bust:
+  - 110211
+  - 0
+- vo:
+  - vo_adv_6019201_000
+- face:
+  - 110211
+  - 1
+- print:
+  - 美咲
+  - 你打算
+- wait:
+  - 10
+- print:
+  - 美咲
+  - 在海邊玩什麼？
+- wait:
+  - 50
+- print:
+  - 美咲
+  - >2
+
+- face:
+  - 110211
+  - 2
+- emotion:
+  - twinkle1_R
+  - 110211
+  - -100
+  - 390
+  - se_adv_emote_twinkle_01
+- print:
+  - 美咲
+  - 說來聽聽，讓具有熱帶風情又華麗的我，
+- wait:
+  - 40
+- print:
+  - 美咲
+  - >2-
+
+    作為渡假的參考！
+- touch: &o0 []
+- choice:
+  - 想要游泳。
+  - 1
+  - 1
+- choice:
+  - 想要享受夏日美食。
+  - 2
+  - 2
+- choice:
+  - 舉辦打西瓜大會。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 110211
+- bust:
+  - 110211
+  - 0
+- vo:
+  - vo_adv_6019201_001
+- face:
+  - 110211
+  - 6
+- emotion:
+  - surprise1_L
+  - 110211
+  - 145
+  - 500
+  - se_adv_emote_common_01
+- print:
+  - 美咲
+  - 游、
+- wait:
+  - 30
+- print:
+  - 美咲
+  - 游泳！？
+- wait:
+  - 30
+- print:
+  - 美咲
+  - >2
+
+- face:
+  - 110211
+  - 4
+- print:
+  - 美咲
+  - 我不會游……
+- wait:
+  - 55
+- face:
+  - 110211
+  - 6
+- print:
+  - 美咲
+  - 沒、
+- wait:
+  - 15
+- print:
+  - 美咲
+  - 沒事啦！
+- wait:
+  - 35
+- print:
+  - 美咲
+  - >2
+
+- face:
+  - 110211
+  - 3
+- print:
+  - 美咲
+  - 如果你陪我的話，
+- wait:
+  - 35
+- print:
+  - 美咲
+  - 我可以考慮看看！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 110211
+- bust:
+  - 110211
+  - 0
+- vo:
+  - vo_adv_6019201_002
+- face:
+  - 110211
+  - 2
+- pop:
+  - 110211
+- print:
+  - 美咲
+  - 果然沒錯呢～！？
+- wait:
+  - 40
+- print:
+  - 美咲
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 美咲
+  - 刨冰上加
+- wait:
+  - 25
+- print:
+  - 美咲
+  - 冰淇淋，
+- wait:
+  - 30
+- eye_open:
+  - True
+- print:
+  - 美咲
+  - 還有島上採的熱帶水果，
+- wait:
+  - 45
+- print:
+  - 美咲
+  - >2-
+
+    做成水果冰也很不錯呢～！　
+- wait:
+  - 55
+- print:
+  - 美咲
+  - 我快等不及了～！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 110211
+- bust:
+  - 110211
+  - 0
+- vo:
+  - vo_adv_6019201_003
+- face:
+  - 110211
+  - 6
+- print:
+  - 美咲
+  - 打、
+- wait:
+  - 25
+- print:
+  - 美咲
+  - 打西瓜，
+- wait:
+  - 30
+- face:
+  - 110211
+  - 4
+- print:
+  - 美咲
+  - 你覺得我會做那麼孩子氣的事嗎……
+- wait:
+  - 85
+- print:
+  - 美咲
+  - >2
+
+- face:
+  - 110211
+  - 6
+- print:
+  - 美咲
+  - 可是好像很有趣，
+- wait:
+  - 35
+- print:
+  - 美咲
+  - 是嗎……？　
+- wait:
+  - 50
+- face:
+  - 110211
+  - 4
+- print:
+  - 美咲
+  - 唔唔～
+- wait:
+  - 45
+- face:
+  - 110211
+  - 6
+- nod:
+  - 110211
+- print:
+  - 美咲
+  - 既然你都那樣說了，
+- wait:
+  - 45
+- print:
+  - 美咲
+  - >2-
+
+    陪你玩一下也可以啦？　
+- wait:
+  - 45
+- face:
+  - 110211
+  - 3
+- print:
+  - 美咲
+  - 是因為你拜託我才做的喔！？
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 110211
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

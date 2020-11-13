@@ -1,0 +1,2770 @@
+- title:
+  - 禊（萬聖節） 第1話
+- outline:
+  - '{0}在因萬聖節熱鬧的街道上走著，並跟禊一起參加了尋找糖果大會。雖然大會快結束時有狗狗跑入造成會場的混亂，但是兩人成功抓住了狗狗，獲得了特別的獎品。'
+- background:
+  - 505034
+- amb:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 尋找糖果大騷動！
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    {0}走在受到萬聖節節慶影響
+
+    而熱絡不已的蘭德索爾街道上，
+
+    然後遇到了好像在尋找什麼的禊。
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 111211
+  - C
+  - 4
+- bgm:
+  - bgm_M136_Outside
+  - 0
+  - 0
+  - 1
+- fadein:
+  - 111211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112001_000
+- face:
+  - 111211
+  - 4
+- se:
+  - se_adv_bush_03
+- nod:
+  - 111211
+- print:
+  - 禊
+  - 嗯――，
+- wait:
+  - 25
+- print:
+  - 禊
+  - 沒有呢――
+- wait:
+  - 40
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 6
+- print:
+  - 禊
+  - 總覺得在這附近啊――
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_walk_armor_come_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112001_001
+- face:
+  - 111211
+  - 1
+- emotion:
+  - notice1_L
+  - 111211
+  - -85
+  - 465
+  - se_adv_emote_common_01
+- print:
+  - 禊
+  - 啊，
+- wait:
+  - 10
+- print:
+  - 禊
+  - 哥哥！　
+- wait:
+  - 20
+- print:
+  - 禊
+  - 來得正好！
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2-
+
+    和禊一起來找糖果吧！
+- touch: *o0
+- choice:
+  - 弄丟糖果了嗎？
+  - 1
+- choice:
+  - 掉到地上的糖果不能吃喔。
+  - 2
+- tag:
+  - 1
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112001_002
+- face:
+  - 111211
+  - 4
+- pop:
+  - 111211
+- print:
+  - 禊
+  - 不是不是！
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 1
+- print:
+  - 禊
+  - 禊沒有弄丟糖果，
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2-
+
+    而是在玩遊戲喔，
+- wait:
+  - 35
+- print:
+  - 禊
+  - 尋找藏在城鎮裡糖果的遊戲――！
+- touch: *o0
+- goto:
+  - 3
+- tag:
+  - 2
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112001_003
+- face:
+  - 111211
+  - 3
+- pop:
+  - 111211
+- print:
+  - 禊
+  - 禊才不會做那種事！　
+- wait:
+  - 40
+- face:
+  - 111211
+  - 1
+- print:
+  - 禊
+  - 禊沒有弄丟糖果，
+- wait:
+  - 25
+- print:
+  - 禊
+  - >2-
+
+    而是在玩――尋找藏在城鎮裡糖果的遊戲喔！
+- touch: *o0
+- tag:
+  - 3
+- window_visible:
+  - false
+- fadeout:
+  - 111211
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 1411
+  - C
+  - 2
+- fadein:
+  - 1411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1112001_004
+- face:
+  - 1411
+  - 2
+- print:
+  - 主辦人
+  - 還有很多糖果沒被發現，
+- wait:
+  - 30
+- print:
+  - 主辦人
+  - 來找吧～！
+- wait:
+  - 35
+- print:
+  - 主辦人
+  - >2-
+
+    好酒沉甕底，
+- wait:
+  - 35
+- print:
+  - 主辦人
+  - 努力到最後一刻吧～！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1411
+  - 30
+- chara_full:
+  - 212
+  - LC
+  - 1
+- chara_full:
+  - 112
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 212
+- bust:
+  - 212
+  - 0
+- vo:
+  - vo_adv_1112001_005
+- face:
+  - 212
+  - 1
+- nod:
+  - 212
+- print:
+  - 女子
+  - 要找到一大堆唷！
+- touch: *o0
+- focus:
+  - 112
+- bust:
+  - 112
+  - 0
+- vo:
+  - vo_adv_1112001_006
+- face:
+  - 112
+  - 1
+- print:
+  - 男子
+  - 我不會輸的唷～！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 111211
+  - C
+  - 1
+- fadein:
+  - 111211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112001_007
+- face:
+  - 111211
+  - 1
+- pop:
+  - 111211
+- print:
+  - 禊
+  - 你看，
+- wait:
+  - 20
+- print:
+  - 禊
+  - 也有來找糖果的小朋友對吧！
+- touch: *o0
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112001_008
+- face:
+  - 111211
+  - 6
+- print:
+  - 禊
+  - 大家都是和爸爸媽媽一起找，
+- wait:
+  - 50
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 4
+- print:
+  - 禊
+  - 情況對禊有點不利呢～
+- touch: *o0
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112001_009
+- face:
+  - 111211
+  - 1
+- emotion:
+  - note1_L
+  - 111211
+  - -100
+  - 390
+  - se_adv_emote_note_01
+- print:
+  - 禊
+  - 如果和哥哥一起的話，
+- wait:
+  - 10
+- print:
+  - 禊
+  - 感覺就能找到很多
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2-
+
+    一起來找吧！
+- touch: *o0
+- choice:
+  - 我明白了。
+  - 4
+- tag:
+  - 4
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112001_010
+- face:
+  - 111211
+  - 2
+- print:
+  - 禊
+  - 謝謝！
+- wait:
+  - 25
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 1
+- print:
+  - 禊
+  - 找到的糖果就一人一半吧！
+- touch: *o0
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112001_011
+- face:
+  - 111211
+  - 1
+- print:
+  - 禊
+  - 這邊感覺好像有糖果，
+- wait:
+  - 30
+- print:
+  - 禊
+  - 哥哥也一起來找……
+- wait:
+  - 40
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 6
+- pop:
+  - 111211
+- print:
+  - 禊
+  - 啊！　
+- wait:
+  - 15
+- print:
+  - 禊
+  - 有了！！
+- touch: *o0
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112001_012
+- face:
+  - 111211
+  - 2
+- emotion:
+  - twinkle1_R
+  - 111211
+  - -100
+  - 385
+  - se_adv_emote_twinkle_01
+- print:
+  - 禊
+  - 欸嘿嘿～
+- wait:
+  - 25
+- print:
+  - 禊
+  - >2-
+
+    禊的直覺，
+- wait:
+  - 15
+- print:
+  - 禊
+  - 很厲害吧！　
+- wait:
+  - 25
+- face:
+  - 111211
+  - 1
+- print:
+  - 禊
+  - 因為老是在設陷阱，
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2-
+
+    大概就會知道
+- wait:
+  - 15
+- print:
+  - 禊
+  - 藏在哪裡呢～♪
+- touch: *o0
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112001_013
+- face:
+  - 111211
+  - 1
+- print:
+  - 禊
+  - 哥哥
+- wait:
+  - 20
+- print:
+  - 禊
+  - 來幫禊一起找覺得可疑的地方吧！
+- wait:
+  - 70
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 6
+- print:
+  - 禊
+  - 下一個要找的地方是～
+- wait:
+  - 55
+- print:
+  - 禊
+  - 我看看～
+- touch: *o0
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112001_014
+- face:
+  - 111211
+  - 1
+- emotion:
+  - notice1_L
+  - 111211
+  - -85
+  - 465
+  - se_adv_emote_common_01
+- print:
+  - 禊
+  - 啊，
+- wait:
+  - 20
+- print:
+  - 禊
+  - 那個草叢好像也有的感覺！
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 2
+- print:
+  - 禊
+  - 我們走吧！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 111211
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 111211
+  - LC
+  - 1
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 30
+- fadein:
+  - 111211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112001_015
+- face:
+  - 111211
+  - 1
+- nod:
+  - 111211
+- print:
+  - 禊
+  - 你看，
+- wait:
+  - 15
+- print:
+  - 禊
+  - 像這個草叢的空隙之間
+- wait:
+  - 45
+- print:
+  - 禊
+  - 好像剛剛好能拿來藏對吧！
+- wait:
+  - 35
+- print:
+  - 禊
+  - >2-
+
+    哥哥，
+- wait:
+  - 5
+- print:
+  - 禊
+  - 來找找看！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 111211
+  - 30
+- se:
+  - se_adv_step_concrete_move_01
+- camera_zoom:
+  - 1.2
+  - 15
+- se:
+  - se_adv_bush_03
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- choice:
+  - 有了。
+  - 5
+- tag:
+  - 5
+- se:
+  - se_adv_step_concrete_move_01
+- camera_zoom:
+  - 1
+  - 15
+- chara_full:
+  - 111211
+  - C
+  - 2
+- fadein:
+  - 111211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112001_016
+- face:
+  - 111211
+  - 2
+- emotion:
+  - note1_L
+  - 111211
+  - -100
+  - 390
+  - se_adv_emote_note_01
+- print:
+  - 禊
+  - 太好了呢！
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 1
+- print:
+  - 禊
+  - 那麼去下個地點找吧！
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 111211
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_town_day_01
+- chara_full:
+  - 111211
+  - C
+  - 2
+- fadein:
+  - 111211
+  - 30
+- bgm:
+  - bgm_M135_Ver2
+- window_visible:
+  - true
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112001_017
+- face:
+  - 111211
+  - 2
+- emotion:
+  - note1_L
+  - 111211
+  - -100
+  - 390
+  - se_adv_emote_note_01
+- print:
+  - 禊
+  - 在長椅背面發現糖果～♪
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 111211
+  - 1
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 111211
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 111211
+  - LC
+  - 1
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 30
+- fadein:
+  - 111211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112001_018
+- face:
+  - 111211
+  - 1
+- pop:
+  - 111211
+- print:
+  - 禊
+  - 啊，
+- se:
+  - se_adv_coffee_cup_02
+- wait:
+  - 20
+- print:
+  - 禊
+  - 發現南瓜裡面有巧克力～～♪
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 111211
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 1411
+  - C
+  - 6
+- fadein:
+  - 1411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1112001_019
+- face:
+  - 1411
+  - 6
+- print:
+  - 主辦人
+  - 啊～～
+- wait:
+  - 15
+- print:
+  - 主辦人
+  - 哦，
+- wait:
+  - 15
+- print:
+  - 主辦人
+  - >2
+
+- face:
+  - 1411
+  - 1
+- print:
+  - 主辦人
+  - 收到這裡只剩下最後一個糖果的情報～！
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1112001_020
+- face:
+  - 1411
+  - 2
+- print:
+  - 主辦人
+  - 找到的小朋友
+- wait:
+  - 25
+- print:
+  - 主辦人
+  - >2-
+
+    可以得到這個萬聖節特製
+- wait:
+  - 30
+- print:
+  - 主辦人
+  - >2-
+
+    糖果組合籃，
+- wait:
+  - 30
+- print:
+  - 主辦人
+  - 努力來找吧～！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1411
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 111211
+  - C
+  - 6
+- fadein:
+  - 111211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112001_021
+- face:
+  - 111211
+  - 6
+- pop:
+  - 111211
+- print:
+  - 禊
+  - 哥哥聽到了嗎！？
+- wait:
+  - 20
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 1
+- print:
+  - 禊
+  - 是可以一口氣拿到很多糖果的機會唷！
+- wait:
+  - 50
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 3
+- print:
+  - 禊
+  - 努力找到它吧！
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+- window_visible:
+  - false
+- fadeout:
+  - 111211
+  - 30
+- black_out:
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- wait:
+  - 30
+- black_in: *o0
+- amb:
+  - amb_adv_town_day_01
+- chara_full:
+  - 111211
+  - LC
+  - 4
+- chara_full:
+  - 212
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M11_Ver2
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112001_022
+- face:
+  - 111211
+  - 4
+- emotion:
+  - gloomy1_R
+  - 111211
+  - 20
+  - 465
+  - se_adv_emote_gloomy_01
+- print:
+  - 禊
+  - 完全找不到啊～！
+- wait:
+  - 50
+- print:
+  - 禊
+  - >2-
+
+    明明找了各式各樣的地方～！
+- touch: *o0
+- focus:
+  - 212
+- bust:
+  - 212
+  - 0
+- vo:
+  - vo_adv_1112001_023
+- face:
+  - 212
+  - 4
+- print:
+  - 女子
+  - 真的還有嗎～？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 1411
+  - C
+  - 2
+- fadein:
+  - 1411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1112001_024
+- face:
+  - 1411
+  - 2
+- nod:
+  - 1411
+- print:
+  - 主辦人
+  - 啊啊，
+- wait:
+  - 15
+- print:
+  - 主辦人
+  - 還好好的……
+- touch: *o0
+- se:
+  - se_adv_dog_voice_02
+- focus:
+  - 1811
+- bust:
+  - 1811
+  - 1
+- face:
+  - 1811
+  - 1
+- print:
+  - 狗
+  - 汪汪！！
+- touch: *o0
+- bgm:
+  - stop
+  - 1.5
+  - 1
+- window_visible:
+  - false
+- focus:
+  - 1411
+- face:
+  - 1411
+  - 6
+- se:
+  - se_adv_rabbit_jump_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- se:
+  - se_adv_bodyfall_03
+- wait:
+  - 8
+- window_visible:
+  - true
+- bgm:
+  - bgm_M133
+  - 0
+  - 0
+  - 0
+  - 0.3
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1112001_025
+- face:
+  - 1411
+  - 6
+- emotion:
+  - exclamation1_R
+  - 1411
+  - 10
+  - 715
+  - se_adv_emote_common_01
+- print:
+  - 主辦人
+  - 啊！？　
+- wait:
+  - 10
+- print:
+  - 主辦人
+  - 籃子被！！
+- wait:
+  - 15
+- print:
+  - 主辦人
+  - >2
+
+- face:
+  - 1411
+  - 4
+- print:
+  - 主辦人
+  - 等、
+- wait:
+  - 10
+- print:
+  - 主辦人
+  - 等一下～！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - LC
+  - C
+  - 30
+- fadeout:
+  - 1411
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 111211
+  - C
+  - 2
+- fadein:
+  - 111211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112001_026
+- face:
+  - 111211
+  - 2
+- print:
+  - 禊
+  - 啊哈哈！
+- wait:
+  - 25
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 1
+- print:
+  - 禊
+  - 那隻狗狗，
+- wait:
+  - 10
+- print:
+  - 禊
+  - 好像在說來抓我啊！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 111211
+  - 30
+- window_visible:
+  - true
+- se:
+  - se_adv_dog_voice_02
+- focus:
+  - 1811
+- bust:
+  - 1811
+  - 1
+- face:
+  - 1811
+  - 1
+- print:
+  - 狗
+  - 汪汪！！
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 111211
+  - LC
+  - 1
+- chara_full:
+  - 1411
+  - R
+  - 4
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - R
+  - 30
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1112001_027
+- face:
+  - 1411
+  - 4
+- print:
+  - 主辦人
+  - 呼，
+- wait:
+  - 15
+- nod:
+  - 1411
+- print:
+  - 主辦人
+  - 呼……！
+- wait:
+  - 20
+- print:
+  - 主辦人
+  - >2-
+
+    那個籃子裡面
+- wait:
+  - 20
+- print:
+  - 主辦人
+  - 還有活動的營運費用啊！
+- wait:
+  - 45
+- print:
+  - 主辦人
+  - >2-
+
+    有沒有人
+- wait:
+  - 15
+- print:
+  - 主辦人
+  - 能幫我抓住牠～！！
+- touch: *o0
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112001_028
+- face:
+  - 111211
+  - 1
+- pop:
+  - 111211
+- print:
+  - 禊
+  - 吶，
+- wait:
+  - 5
+- print:
+  - 禊
+  - 叔叔！
+- wait:
+  - 15
+- print:
+  - 禊
+  - >2-
+
+    抓到那個狗狗的話，
+- wait:
+  - 20
+- print:
+  - 禊
+  - >2-
+
+    可以當作找到最後的糖果嗎？
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1112001_029
+- face:
+  - 1411
+  - 6
+- print:
+  - 主辦人
+  - 咦？　
+- wait:
+  - 25
+- print:
+  - 主辦人
+  - 啊，
+- wait:
+  - 10
+- print:
+  - 主辦人
+  - 好啊！
+- wait:
+  - 20
+- print:
+  - 主辦人
+  - >2
+
+- face:
+  - 1411
+  - 1
+- print:
+  - 主辦人
+  - 當然好囉！
+- touch: *o0
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112001_030
+- face:
+  - 111211
+  - 2
+- emotion:
+  - twinkle1_R
+  - 111211
+  - -100
+  - 385
+  - se_adv_emote_twinkle_01
+- print:
+  - 禊
+  - 太好了――！！
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 1
+- print:
+  - 禊
+  - 我們努力來抓住牠吧，
+- wait:
+  - 15
+- print:
+  - 禊
+  - 哥哥！
+- touch: *o0
+- bgm:
+  - stop
+  - 1.5
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - L
+  - LC
+  - 30
+- fadeout_all:
+  - 30
+- chara_full:
+  - 112
+  - C
+  - 1
+- fadein:
+  - 112
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M12
+  - 0
+  - 0
+  - 1
+- focus:
+  - 112
+- bust:
+  - 112
+  - 0
+- vo:
+  - vo_adv_1112001_031
+- face:
+  - 112
+  - 1
+- print:
+  - 男子
+  - 我們也不會輸的唷！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - LC
+  - C
+  - 30
+- fadeout:
+  - 112
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- se:
+  - se_adv_dog_voice_02
+- focus:
+  - 1811
+- bust:
+  - 1811
+  - 1
+- face:
+  - 1811
+  - 1
+- print:
+  - 狗
+  - 汪汪！！
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 111211
+  - RC
+  - 2
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - RC
+  - 30
+- fadein:
+  - 111211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112001_032
+- face:
+  - 111211
+  - 2
+- emotion:
+  - note1_L
+  - 111211
+  - -100
+  - 390
+  - se_adv_emote_note_01
+- print:
+  - 禊
+  - 啊哈哈！
+- wait:
+  - 20
+- print:
+  - 禊
+  - >2-
+
+    狗狗好可愛～♪
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 111211
+  - 30
+- chara_full:
+  - 212
+  - C
+  - 1
+- chara_full:
+  - 112
+  - R
+  - 1
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - C
+  - 30
+- change:
+  - RC
+  - R
+  - 30
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 212
+- bust:
+  - 212
+  - 0
+- vo:
+  - vo_adv_1112001_033
+- face:
+  - 212
+  - 1
+- print:
+  - 女子
+  - 等等等等～！
+- wait:
+  - 30
+- print:
+  - 女子
+  - >2
+
+- face:
+  - 212
+  - 2
+- print:
+  - 女子
+  - 啊哈哈，
+- wait:
+  - 25
+- print:
+  - 女子
+  - 完全追不上啊～！
+- touch: *o0
+- face:
+  - 212
+  - 1
+- focus:
+  - 112
+- bust:
+  - 112
+  - 0
+- vo:
+  - vo_adv_1112001_034
+- face:
+  - 112
+  - 2
+- pop:
+  - 112
+- print:
+  - 男子
+  - 啊哈哈哈哈～！
+- wait:
+  - 25
+- print:
+  - 男子
+  - >2-
+
+    跑得好～快！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 1411
+  - C
+  - 4
+- fadein:
+  - 1411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1112001_035
+- face:
+  - 1411
+  - 4
+- emotion:
+  - sweat1_R
+  - 1411
+  - 60
+  - 615
+  - se_adv_emote_sweat_01
+- print:
+  - 主辦人
+  - 玩得很開心是沒關係啦，
+- wait:
+  - 35
+- print:
+  - 主辦人
+  - 不過不快點幫我抓到的話，
+- wait:
+  - 30
+- print:
+  - 主辦人
+  - >2-
+
+    叔叔真的會很困擾呢～……
+- wait:
+  - 50
+- print:
+  - 主辦人
+  - >2
+
+- face:
+  - 1411
+  - 6
+- print:
+  - 主辦人
+  - 快點幫我抓起來的話我會很感謝的～
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1411
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 111211
+  - C
+  - 3
+- fadein:
+  - 111211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112001_036
+- face:
+  - 111211
+  - 3
+- pop:
+  - 111211
+- print:
+  - 禊
+  - 咦～
+- wait:
+  - 35
+- print:
+  - 禊
+  - 禊還想再玩一下啦～！
+- touch: *o0
+- choice:
+  - 不要糖果了嗎？
+  - 6
+- tag:
+  - 6
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112001_037
+- face:
+  - 111211
+  - 6
+- print:
+  - 禊
+  - 啊！　
+- wait:
+  - 15
+- print:
+  - 禊
+  - 對耶！
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 1
+- print:
+  - 禊
+  - 沒抓到就沒有糖果了呢！
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2-
+
+    和狗狗玩一玩太開心就忘了！
+- touch: *o0
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112001_038
+- face:
+  - 111211
+  - 4
+- emotion:
+  - gloomy1_R
+  - 111211
+  - 20
+  - 465
+  - se_adv_emote_gloomy_01
+- print:
+  - 禊
+  - 嗯～
+- wait:
+  - 40
+- print:
+  - 禊
+  - 不過只靠禊和哥哥好像沒辦法抓住呢～
+- wait:
+  - 75
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 1
+- print:
+  - 禊
+  - 對了！　
+- wait:
+  - 15
+- print:
+  - 禊
+  - 靠大家的力量一起來抓吧！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 111211
+  - 30
+- chara_full:
+  - 212
+  - LC
+  - 6
+- chara_full:
+  - 112
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 112
+- bust:
+  - 112
+  - 0
+- vo:
+  - vo_adv_1112001_039
+- face:
+  - 112
+  - 6
+- print:
+  - 男子
+  - 靠大家的力量？
+- touch: *o0
+- focus:
+  - 212
+- bust:
+  - 212
+  - 0
+- vo:
+  - vo_adv_1112001_040
+- face:
+  - 212
+  - 6
+- print:
+  - 女子
+  - 抓得到狗狗嗎～？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 111211
+  - C
+  - 1
+- fadein:
+  - 111211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112001_041
+- face:
+  - 111211
+  - 1
+- pop:
+  - 111211
+- print:
+  - 禊
+  - 嗯！
+- wait:
+  - 20
+- print:
+  - 禊
+  - >2-
+
+    大家一起從不同方向追狗狗吧！
+- touch: *o0
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112001_042
+- face:
+  - 111211
+  - 1
+- print:
+  - 禊
+  - 那麼，哥哥！
+- wait:
+  - 10
+- print:
+  - 禊
+  - >2-
+
+    你先朝著狗狗跑吧！
+- wait:
+  - 50
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 3
+- bgm:
+  - stop
+  - 4
+  - 1
+- print:
+  - 禊
+  - 那就，
+- wait:
+  - 20
+- print:
+  - 禊
+  - 準備――……
+- wait:
+  - 40
+- face:
+  - 111211
+  - 1
+- pop:
+  - 111211
+- bgm:
+  - bgm_M05
+  - 0
+  - 0
+  - 0
+  - 0.2
+- print:
+  - 禊
+  - 開始！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 111211
+  - 30
+- effect:
+  - 0009
+- se:
+  - se_adv_step_concrete_run_armor_go_01
+- camera_zoom:
+  - 1.3
+  - 15
+- effect_delete:
+  - 0009
+- window_visible:
+  - true
+- se:
+  - se_adv_dog_voice_02
+- focus:
+  - 1811
+- bust:
+  - 1811
+  - 1
+- face:
+  - 1811
+  - 1
+- print:
+  - 狗
+  - 汪汪！！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 5
+- camera_zoom:
+  - 1
+  - 1
+- wait:
+  - 10
+- chara_full:
+  - 111211
+  - C
+  - 1
+- fadein:
+  - 111211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112001_043
+- face:
+  - 111211
+  - 1
+- emotion:
+  - exclamation1_R
+  - 111211
+  - 5
+  - 570
+  - se_adv_emote_common_01
+- print:
+  - 禊
+  - 啊，
+- wait:
+  - 15
+- print:
+  - 禊
+  - 跑去那邊了喔！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 111211
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 112
+  - LC
+  - 1
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 30
+- fadein:
+  - 112
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 112
+- bust:
+  - 112
+  - 0
+- vo:
+  - vo_adv_1112001_044
+- face:
+  - 112
+  - 1
+- print:
+  - 男子
+  - 交給我吧！
+- wait:
+  - 35
+- print:
+  - 男子
+  - >2
+
+- face:
+  - 112
+  - 3
+- print:
+  - 男子
+  - 不會讓你過去的喔！
+- touch: *o0
+- se:
+  - se_adv_dog_voice_01
+- focus:
+  - 1811
+- bust:
+  - 1811
+  - 1
+- face:
+  - 1811
+  - 1
+- print:
+  - 狗
+  - 汪！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 112
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 212
+  - RC
+  - 1
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - C
+  - 30
+- fadein:
+  - 212
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 212
+- bust:
+  - 212
+  - 0
+- vo:
+  - vo_adv_1112001_045
+- face:
+  - 212
+  - 1
+- print:
+  - 女子
+  - 這裡也不會讓你過的喔！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 212
+  - 30
+- window_visible:
+  - true
+- se:
+  - se_adv_dog_voice_02
+- focus:
+  - 1811
+- bust:
+  - 1811
+  - 1
+- face:
+  - 1811
+  - 1
+- print:
+  - 狗
+  - 汪汪！！
+- touch: *o0
+- window_visible:
+  - false
+- white_out:
+  - 1
+  - 1
+- bg_color:
+  - 255
+  - 255
+  - 255
+- still:
+  - 111200101
+- wait:
+  - 15
+- white_in: *o0
+- window_visible:
+  - true
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 1
+- vo:
+  - vo_adv_1112001_046
+- face:
+  - 111211
+  - 2
+- print:
+  - 禊
+  - 啊哈哈！
+- wait:
+  - 15
+- print:
+  - 禊
+  - >2-
+
+    這裡是死胡同喔――！
+- touch: *o0
+- se:
+  - se_adv_dog_voice_06
+- focus:
+  - 1811
+- bust:
+  - 1811
+  - 1
+- face:
+  - 1811
+  - 1
+- print:
+  - 狗
+  - 啊嗚――……
+- touch: *o0
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 1
+- vo:
+  - vo_adv_1112001_047
+- face:
+  - 111211
+  - 1
+- print:
+  - 禊
+  - 好乖好～乖，
+- wait:
+  - 35
+- print:
+  - 禊
+  - 是乖孩子呢～
+- wait:
+  - 40
+- print:
+  - 禊
+  - >2-
+
+    來，
+- wait:
+  - 20
+- print:
+  - 禊
+  - 放開糖果吧――
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_cloth_move_give_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- se:
+  - se_adv_dog_voice_01
+- focus:
+  - 1811
+- bust:
+  - 1811
+  - 1
+- face:
+  - 1811
+  - 1
+- print:
+  - 狗
+  - 汪！
+- touch: *o0
+- bgm:
+  - stop
+  - 3.5
+- window_visible:
+  - false
+- white_out:
+  - 1
+  - 1
+- background:
+  - 505034
+- still:
+  - end
+- wait:
+  - 15
+- white_in: *o0
+- chara_full:
+  - 111211
+  - LC
+  - 1
+- chara_full:
+  - 1411
+  - R
+  - 2
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - R
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - true
+- bgm:
+  - bgm_M266
+  - 0
+  - 0
+  - 1
+  - 0.2
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1112001_048
+- face:
+  - 1411
+  - 2
+- print:
+  - 主辦人
+  - 哎呀――
+- wait:
+  - 20
+- print:
+  - 主辦人
+  - 總算抓到了呢。
+- wait:
+  - 35
+- print:
+  - 主辦人
+  - >2-
+
+    太好了太好了――
+- touch: *o0
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112001_049
+- face:
+  - 111211
+  - 6
+- nod:
+  - 111211
+- print:
+  - 禊
+  - 吶，
+- wait:
+  - 5
+- print:
+  - 禊
+  - 叔叔！
+- wait:
+  - 20
+- print:
+  - 禊
+  - >2-
+
+    雖然抓到狗狗了，
+- wait:
+  - 20
+- print:
+  - 禊
+  - 不過最後的糖果藏在哪裡呢？
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1112001_050
+- face:
+  - 1411
+  - 6
+- print:
+  - 主辦人
+  - 咦？　
+- wait:
+  - 25
+- print:
+  - 主辦人
+  - 啊、
+- wait:
+  - 10
+- print:
+  - 主辦人
+  - 不、
+- wait:
+  - 15
+- print:
+  - 主辦人
+  - 其實啊……
+- wait:
+  - 40
+- print:
+  - 主辦人
+  - >2
+
+- face:
+  - 1411
+  - 1
+- print:
+  - 主辦人
+  - 那個糖果組合籃就是
+- wait:
+  - 35
+- print:
+  - 主辦人
+  - 叫做最後的糖果啊。
+- touch: *o0
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112001_051
+- face:
+  - 111211
+  - 6
+- emotion:
+  - surprise1_L
+  - 111211
+  - 135
+  - 480
+  - se_adv_emote_common_01
+- print:
+  - 禊
+  - 咦～～！？
+- wait:
+  - 35
+- print:
+  - 禊
+  - >2-
+
+    這個就是最後的糖果！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 111211
+  - 30
+- chara_full:
+  - 112
+  - LC
+  - 3
+- fadein:
+  - 112
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 112
+- bust:
+  - 112
+  - 0
+- vo:
+  - vo_adv_1112001_052
+- face:
+  - 112
+  - 3
+- pop:
+  - 112
+- print:
+  - 男子
+  - 這種事誰猜得到啦～！！
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1112001_053
+- face:
+  - 1411
+  - 2
+- print:
+  - 主辦人
+  - 啊哈哈，
+- wait:
+  - 30
+- print:
+  - 主辦人
+  - 抱歉抱歉。
+- wait:
+  - 25
+- print:
+  - 主辦人
+  - >2
+
+- face:
+  - 1411
+  - 1
+- print:
+  - 主辦人
+  - 那麼……
+- wait:
+  - 20
+- print:
+  - 主辦人
+  - 因為是這個小妹妹抓到狗，
+- wait:
+  - 45
+- print:
+  - 主辦人
+  - >2-
+
+    最後的糖果
+- wait:
+  - 30
+- print:
+  - 主辦人
+  - 就給妳囉？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 112
+  - 30
+- chara_full:
+  - 111211
+  - LC
+  - 1
+- fadein:
+  - 111211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112001_054
+- face:
+  - 111211
+  - 1
+- nod:
+  - 111211
+- print:
+  - 禊
+  - 不！
+- wait:
+  - 25
+- print:
+  - 禊
+  - >2-
+
+    因為是大家一起抓到的，
+- wait:
+  - 25
+- print:
+  - 禊
+  - 大家一起平分比較好！
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1112001_055
+- face:
+  - 1411
+  - 2
+- print:
+  - 主辦人
+  - 原來如此，
+- wait:
+  - 45
+- print:
+  - 主辦人
+  - 妳說的也有道理。
+- wait:
+  - 50
+- print:
+  - 主辦人
+  - >2
+
+- face:
+  - 1411
+  - 1
+- print:
+  - 主辦人
+  - 那麼，
+- wait:
+  - 15
+- print:
+  - 主辦人
+  - 這些糖果就是你們的了！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 212
+  - LC
+  - 6
+- chara_full:
+  - 112
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 212
+- bust:
+  - 212
+  - 0
+- vo:
+  - vo_adv_1112001_056
+- face:
+  - 212
+  - 6
+- print:
+  - 女子
+  - 真的可以嗎――？
+- wait:
+  - 25
+- print:
+  - 女子
+  - >2
+
+- face:
+  - 212
+  - 2
+- print:
+  - 女子
+  - 謝謝！
+- touch: *o0
+- focus:
+  - 112
+- bust:
+  - 112
+  - 0
+- vo:
+  - vo_adv_1112001_057
+- face:
+  - 112
+  - 2
+- pop:
+  - 112
+- print:
+  - 男子
+  - 哇――！
+- wait:
+  - 30
+- print:
+  - 男子
+  - >2-
+
+    有好多糖果――！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 111211
+  - C
+  - 1
+- fadein:
+  - 111211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_1112001_058
+- face:
+  - 111211
+  - 1
+- print:
+  - 禊
+  - 雖然得到的糖果變少了，
+- wait:
+  - 30
+- face:
+  - 111211
+  - 2
+- emotion:
+  - note1_L
+  - 111211
+  - -100
+  - 390
+  - se_adv_emote_note_01
+- print:
+  - 禊
+  - 不過因為很好玩所以沒關係對吧！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 111211
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 禊和孩子們開心地笑著。
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

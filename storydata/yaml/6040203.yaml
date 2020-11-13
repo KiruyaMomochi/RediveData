@@ -1,0 +1,291 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500995
+- amb:
+  - amb_adv_outdoors_day_01
+- ui_visible:
+  - false
+- situation:
+  - 關於栞
+- chara_full:
+  - 102611
+  - C
+  - 6
+- fadein:
+  - 102611
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M352_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 102611
+- bust:
+  - 102611
+  - 0
+- vo:
+  - vo_adv_6040203_000
+- face:
+  - 102611
+  - 6
+- print:
+  - 鈴
+  - 小栞
+- wait:
+  - 15
+- print:
+  - 鈴
+  - 真的很努力呢。
+- wait:
+  - 50
+- print:
+  - 鈴
+  - >2-
+
+    要是我的話絕對模仿不來呢。
+- wait:
+  - 60
+- face:
+  - 102611
+  - 1
+- nod:
+  - 102611
+- print:
+  - 鈴
+  - 不過，
+- wait:
+  - 15
+- print:
+  - 鈴
+  - 既然小栞正在努力，
+- wait:
+  - 35
+- print:
+  - 鈴
+  - >2-
+
+    我也沒辦法偷懶了呢……
+- wait:
+  - 50
+- face:
+  - 102611
+  - 2
+- print:
+  - 鈴
+  - 至少
+- wait:
+  - 15
+- print:
+  - 鈴
+  - 現在是這樣。
+- touch: &o0 []
+- choice:
+  - 擔心她會不會逞強
+  - 1
+  - 1
+- choice:
+  - 傳達妳的感謝之意吧
+  - 2
+  - 2
+- choice:
+  - 再多依賴她一點吧
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 102611
+- bust:
+  - 102611
+  - 0
+- vo:
+  - vo_adv_6040203_001
+- face:
+  - 102611
+  - 1
+- print:
+  - 鈴
+  - 是啊。
+- wait:
+  - 40
+- nod:
+  - 102611
+- print:
+  - 鈴
+  - 不過
+- wait:
+  - 15
+- print:
+  - 鈴
+  - 這部分我們都會注意，沒問題的啦。
+- wait:
+  - 60
+- print:
+  - 鈴
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 鈴
+  - 小栞能辦到的事情
+- wait:
+  - 25
+- print:
+  - 鈴
+  - 就拜託小栞，
+- wait:
+  - 25
+- print:
+  - 鈴
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 鈴
+  - 其他的事情
+- wait:
+  - 20
+- print:
+  - 鈴
+  - 就由我們來努力吧。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 102611
+- bust:
+  - 102611
+  - 0
+- vo:
+  - vo_adv_6040203_002
+- face:
+  - 102611
+  - 6
+- print:
+  - 鈴
+  - 感謝
+- wait:
+  - 40
+- print:
+  - 鈴
+  - 呀。
+- wait:
+  - 35
+- face:
+  - 102611
+  - 5
+- print:
+  - 鈴
+  - 這種事很令人害羞呢。
+- wait:
+  - 85
+- print:
+  - 鈴
+  - >2
+
+- face:
+  - 102611
+  - 1
+- print:
+  - 鈴
+  - 偷偷在她枕頭旁邊放些什麼吧。
+- wait:
+  - 65
+- print:
+  - 鈴
+  - >2
+
+- face:
+  - 102611
+  - 4
+- print:
+  - 鈴
+  - …………
+- wait:
+  - 15
+- print:
+  - 鈴
+  - 希望不會被錯當成小偷，
+- wait:
+  - 30
+- print:
+  - 鈴
+  - 然後被她用弓射就好了。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 102611
+- bust:
+  - 102611
+  - 0
+- vo:
+  - vo_adv_6040203_003
+- face:
+  - 102611
+  - 2
+- emotion:
+  - note1_L
+  - 102611
+  - -140
+  - 465
+  - se_adv_emote_note_01
+- print:
+  - 鈴
+  - 這麼做
+- wait:
+  - 25
+- print:
+  - 鈴
+  - 小栞會很開心吧。
+- wait:
+  - 55
+- print:
+  - 鈴
+  - >2
+
+- face:
+  - 102611
+  - 6
+- print:
+  - 鈴
+  - 不過我們已經很依賴她了呢。
+- wait:
+  - 55
+- print:
+  - 鈴
+  - >2-
+
+    拿捏分寸真是件困難的事耶～
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 102611
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

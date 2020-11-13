@@ -1,0 +1,592 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 509010
+- amb:
+  - amb_adv_room_noise_01
+- ui_visible:
+  - false
+- effect:
+  - 0101
+- bgm:
+  - bgm_M321_2C
+  - 0
+  - 0
+  - 1
+- wait:
+  - 17
+- se:
+  - se_adv_login_birthday_01
+- wait:
+  - 100
+- ui_visible:
+  - true
+- chara_full:
+  - 104011
+  - C
+  - 4
+- fadein:
+  - 104011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_1040500_000
+- face:
+  - 104011
+  - 4
+- print:
+  - 碧
+  - 發、
+- wait:
+  - 15
+- print:
+  - 碧
+  - 發生什麼事了？　
+- wait:
+  - 25
+- print:
+  - 碧
+  - 突然收到召集……
+- wait:
+  - 70
+- print:
+  - 碧
+  - >2
+
+- face:
+  - 104011
+  - 8
+- print:
+  - 碧
+  - 難不成
+- wait:
+  - 20
+- print:
+  - 碧
+  - 發生了什麼會對BB團的活動造成影響的重大事件！？
+- touch: &o0 []
+- choice:
+  - 生日快樂。
+  - 1
+- choice:
+  - 今天是妳的生日吧？
+  - 2
+- choice:
+  - 現在，我們要來舉行BB生日活動！
+  - 3
+- tag:
+  - 1
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_1040500_001
+- face:
+  - 104011
+  - 6
+- print:
+  - 碧
+  - 啊，
+- wait:
+  - 15
+- print:
+  - 碧
+  - 是。
+- wait:
+  - 20
+- print:
+  - 碧
+  - 生日快樂～。
+- wait:
+  - 45
+- print:
+  - 碧
+  - >2
+
+- face:
+  - 104011
+  - 6
+- print:
+  - 碧
+  - 所以，
+- wait:
+  - 25
+- print:
+  - 碧
+  - 是哪裡的哪位先生女士，
+- wait:
+  - 55
+- print:
+  - 碧
+  - >2
+
+- face:
+  - 104011
+  - 1
+- print:
+  - 碧
+  - 觸發了生日會這種現充的活動啊？
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 104011
+  - 2
+- se:
+  - se_adv_tickle_02
+- effect:
+  - 0102
+- wait:
+  - 25
+- se:
+  - se_adv_login_birthday_02
+- wait:
+  - 40
+- effect:
+  - 0021
+  - se_adv_happy_particle_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_1040500_002
+- face:
+  - 104011
+  - 6
+- emotion:
+  - notice1_L
+  - 104011
+  - -60
+  - 525
+  - se_adv_emote_common_01
+- print:
+  - 碧
+  - 咦？　
+- wait:
+  - 25
+- print:
+  - 碧
+  - 我、
+- wait:
+  - 25
+- print:
+  - 碧
+  - 是我嗎？　
+- wait:
+  - 45
+- print:
+  - 碧
+  - 是我生日？
+- wait:
+  - 45
+- print:
+  - 碧
+  - >2
+
+- face:
+  - 104011
+  - 5
+- print:
+  - 碧
+  - 你竟然要幫我這種邊緣人慶生……！！
+- wait:
+  - 50
+- print:
+  - 碧
+  - >2
+
+- face:
+  - 104011
+  - 6
+- print:
+  - 碧
+  - 這種事發生在我身上真的可以嗎？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- window_visible:
+  - false
+- face:
+  - 104011
+  - 6
+- se:
+  - se_adv_tickle_02
+- effect:
+  - 0102
+- wait:
+  - 25
+- se:
+  - se_adv_login_birthday_02
+- wait:
+  - 40
+- effect:
+  - 0021
+  - se_adv_happy_particle_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_1040500_003
+- face:
+  - 104011
+  - 7
+- emotion:
+  - sweat2_R
+  - 104011
+  - 105
+  - 515
+  - se_adv_emote_sweat_02
+- print:
+  - 碧
+  - 咦咦咦咦咦！
+- wait:
+  - 15
+- print:
+  - 碧
+  - >2-
+
+    為為為、
+- wait:
+  - 15
+- print:
+  - 碧
+  - 為什麼你會知道這件事？
+- touch: *o0
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_1040500_004
+- face:
+  - 104011
+  - 6
+- print:
+  - 碧
+  - 我我我、
+- wait:
+  - 15
+- print:
+  - 碧
+  - 我的
+- wait:
+  - 20
+- print:
+  - 碧
+  - 我的生日這種小事，
+- wait:
+  - 25
+- face:
+  - 104011
+  - 7
+- print:
+  - 碧
+  - >-
+    就跟今天掉了幾根睫毛一樣
+
+    不值得記住啊！
+- wait:
+  - 55
+- print:
+  - 碧
+  - >2
+
+- face:
+  - 104011
+  - 4
+- print:
+  - 碧
+  - 為什麼你會記住那麼沒有意義的事情呢……？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_1040500_005
+- face:
+  - 104011
+  - 6
+- print:
+  - 碧
+  - BB生日活動是什麼……
+- wait:
+  - 80
+- face:
+  - 104011
+  - 4
+- print:
+  - 碧
+  - 啊？
+- wait:
+  - 25
+- print:
+  - 碧
+  - >-
+    邊緣人為了邊緣人所舉辦的
+
+    邊緣人生日派對？　
+- wait:
+  - 80
+- face:
+  - 104011
+  - 1
+- print:
+  - 碧
+  - 那還真的是
+- wait:
+  - 30
+- print:
+  - 碧
+  - 等級相當高的邊緣人呢！
+- wait:
+  - 40
+- print:
+  - 碧
+  - >2
+
+- face:
+  - 104011
+  - 4
+- print:
+  - 碧
+  - 那種人真的存在嗎？
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 104011
+  - 6
+- se:
+  - se_adv_tickle_02
+- effect:
+  - 0102
+- wait:
+  - 25
+- se:
+  - se_adv_login_birthday_02
+- wait:
+  - 40
+- effect:
+  - 0021
+  - se_adv_happy_particle_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_1040500_006
+- face:
+  - 104011
+  - 8
+- print:
+  - 碧
+  - 有耶！　
+- wait:
+  - 20
+- pop:
+  - 104011
+- face:
+  - 104011
+  - 7
+- print:
+  - 碧
+  - 是我！　
+- wait:
+  - 15
+- print:
+  - 碧
+  - 就是我！
+- wait:
+  - 30
+- print:
+  - 碧
+  - >2
+
+- face:
+  - 104011
+  - 8
+- print:
+  - 碧
+  - 今天是我的生日！
+- wait:
+  - 45
+- print:
+  - 碧
+  - >2
+
+- face:
+  - 104011
+  - 4
+- print:
+  - 碧
+  - 因為太邊緣人到
+- wait:
+  - 20
+- print:
+  - 碧
+  - 連我自己都忘了……
+- touch: *o0
+- tag:
+  - 4
+- effect_delete:
+  - 0021
+  - 15
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_1040500_007
+- face:
+  - 104011
+  - 6
+- print:
+  - 碧
+  - 原、
+- wait:
+  - 25
+- print:
+  - 碧
+  - 原來
+- wait:
+  - 15
+- print:
+  - 碧
+  - 這就是所謂的驚喜啊……
+- wait:
+  - 65
+- face:
+  - 104011
+  - 5
+- print:
+  - 碧
+  - 不過我真的很開心。
+- wait:
+  - 55
+- print:
+  - 碧
+  - >2
+
+- face:
+  - 104011
+  - 2
+- print:
+  - 碧
+  - 有了這個
+- wait:
+  - 25
+- print:
+  - 碧
+  - 就算再當邊緣人10年我都能夠忍受……
+- touch: *o0
+- focus:
+  - 104011
+- bust:
+  - 104011
+  - 0
+- vo:
+  - vo_adv_1040500_008
+- face:
+  - 104011
+  - 6
+- pop:
+  - 104011
+- print:
+  - 碧
+  - 啊！
+- wait:
+  - 15
+- print:
+  - 碧
+  - 這樣不行！
+- wait:
+  - 65
+- print:
+  - 碧
+  - >2
+
+- face:
+  - 104011
+  - 1
+- print:
+  - 碧
+  - 今後BB團的活動……
+- wait:
+  - 40
+- print:
+  - 碧
+  - 我要比以往更加努力才行！
+- wait:
+  - 40
+- print:
+  - 碧
+  - >2
+
+- face:
+  - 104011
+  - 2
+- print:
+  - 碧
+  - 欸嘿嘿……
+- touch: *o0
+- window_visible:
+  - false
+- ui_visible:
+  - false
+- fadeout:
+  - 104011
+  - 30
+- bright_change:
+  - 1
+  - 40
+- wait:
+  - 5
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0101
+- end: *o0

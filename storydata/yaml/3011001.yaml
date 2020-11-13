@@ -1,0 +1,6307 @@
+- title:
+  - 暮光流星群 第1話
+- outline:
+  - 流浪者流夏抵達了蘭德索爾，並在此遭遇了某個事件。與此同時，和同樣在探尋「暮光之都」的杏奈、七七香、深月及惠理子相遇，並組成了公會「暮光流星群」。
+- background:
+  - 500030
+- amb:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 尋找黃昏
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    在一如往常的蘭德索爾街道上，
+
+    有一個旅行者帶著數位男性漫步著。
+- touch: &o0 []
+- bgm:
+  - bgm_M04_02NoIntro01
+- window_visible:
+  - false
+- chara_full:
+  - 105611
+  - L
+  - 6
+- change:
+  - LC
+  - L
+- fadein:
+  - 105611
+  - 30
+- window_visible:
+  - true
+- se:
+  - se_adv_step_concrete_move_01
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_000
+- face:
+  - 105611
+  - 6
+- print:
+  - 流夏
+  - 哇……雖然之前曾聽說過，但這裡真的是個很大的地方呢！
+- wait:
+  - 75
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105611
+  - 2
+- print:
+  - 流夏
+  - 這樣的話這裡也會有很多情報吧！
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 1011
+  - R
+  - 1
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - R
+  - 45
+- fadein:
+  - 1011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_3011001_001
+- face:
+  - 1011
+  - 1
+- print:
+  - 優男
+  - 那邊的那位旅人～如果妳餓了的話，
+- wait:
+  - 75
+- print:
+  - 優男
+  - >2-
+
+    要不要和我一起用餐？
+- face:
+  - 1011
+  - 2
+- print:
+  - 優男
+  - 我很有趣的喔～
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_002
+- face:
+  - 105611
+  - 4
+- print:
+  - 流夏
+  - 啊～……雖然我現在的確是餓了……
+- wait:
+  - 55
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105611
+  - 1
+- print:
+  - 流夏
+  - 難得你邀請我，但是很抱歉啊！我還有事要做呢！
+- wait:
+  - 60
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 811
+  - RC
+  - 4
+- chara_full:
+  - 911
+  - LC
+  - 4
+- fadein_all:
+  - 30
+- emotion:
+  - gloomy1_R
+  - 911
+  - 25
+  - 585
+  - '*non'
+- emotion:
+  - gloomy1_R
+  - 811
+  - 20
+  - 530
+  - se_adv_emote_gloomy_01
+- window_visible:
+  - true
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_3011001_003
+- face:
+  - 1
+  - 1
+- focus:
+  - 811:911
+- print:
+  - 受傷的男子們
+  - 鳴、鳴……
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105611
+  - LC
+  - 6
+- chara_full:
+  - 1011
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_004
+- face:
+  - 105611
+  - 6
+- print:
+  - 流夏
+  - 喔～你說這群人嗎？
+- face:
+  - 105611
+  - 2
+- print:
+  - 流夏
+  - 他們是剛才我捉到的通緝犯。
+- wait:
+  - 35
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105611
+  - 1
+- print:
+  - 流夏
+  - 欸！你知道該把這群人送去哪裡嗎？
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_3011001_005
+- face:
+  - 1011
+  - 4
+- emotion:
+  - sweat2_R
+  - 1011
+  - 70
+  - 590
+  - '*non'
+- print:
+  - 優男
+  - 通、通緝犯的話，應該送到騎士團那裡吧……
+- wait:
+  - 100
+- print:
+  - 優男
+  - >2
+
+- face:
+  - 1011
+  - 1
+- print:
+  - 優男
+  - 妳好像很忙呢！我們就下次再一起用餐吧……
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_006
+- face:
+  - 105611
+  - 1
+- print:
+  - 流夏
+  - 有緣的話一定會再見的。
+- wait:
+  - 10
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105611
+  - 6
+- print:
+  - 流夏
+  - ……話說回來，你身上有很香的味道耶！
+- wait:
+  - 105
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105611
+  - 1
+- print:
+  - 流夏
+  - 好像是香甜美味的東西……
+- touch: *o0
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_3011001_007
+- face:
+  - 1011
+  - 2
+- print:
+  - 優男
+  - 哈哈哈……其實我剛才已經自己一個人先用過餐了。
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_008
+- face:
+  - 105611
+  - 6
+- print:
+  - 流夏
+  - 你已經吃過飯了還邀請我嗎？
+- face:
+  - 105611
+  - 2
+- print:
+  - 流夏
+  - 你真有趣呢！
+- wait:
+  - 85
+- print:
+  - 流夏
+  - >2-
+
+    你把那間餐廳的位置也告訴我吧――
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 4
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_step_concrete_walk_go_01
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 500050
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_restaurant_01
+- amb:
+  - amb_adv_gaya_cmn_01
+- chara_full:
+  - 105611
+  - L
+  - 6
+- change:
+  - LC
+  - L
+- fadein:
+  - 105611
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_009
+- face:
+  - 105611
+  - 6
+- print:
+  - 流夏
+  - 嗯……
+- face:
+  - 105611
+  - 1
+- print:
+  - 流夏
+  - 這間餐廳氣氛非常好呢！
+- wait:
+  - 105
+- print:
+  - 流夏
+  - >2-
+
+    好期待會端出什麼料理呢！
+- wait:
+  - 90
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105611
+  - 2
+- print:
+  - 流夏
+  - 反正也得到了不少獎金，就久違地吃飽一點吧！
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 105111
+  - R
+  - 1
+- change:
+  - RC
+  - R
+- fadein:
+  - 105111
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M13
+  - 0
+  - 0
+  - 1
+- se:
+  - se_adv_step_wood_move_01
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_3011001_010
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - ――欸～那邊那位小姐～
+- wait:
+  - 25
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 可以坐妳的旁邊嗎？
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_011
+- face:
+  - 105611
+  - 1
+- print:
+  - 流夏
+  - 請隨便坐吧！妳是這裡的常客嗎？
+- wait:
+  - 65
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105611
+  - 2
+- print:
+  - 流夏
+  - 如果是的話，就告訴我妳的推薦餐點吧！
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_3011001_012
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 我推薦的是甜點類的布丁喔！雖然不知道合不合妳的胃口。
+- wait:
+  - 20
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 我是深月，請多多指教喔！
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_013
+- face:
+  - 105611
+  - 2
+- print:
+  - 流夏
+  - 我叫流夏，多多指教。
+- wait:
+  - 20
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105611
+  - 6
+- print:
+  - 流夏
+  - 妳說布丁嗎？……雖然我沒吃過，
+- face:
+  - 105611
+  - 1
+- print:
+  - 流夏
+  - 不過待會來點看看吧！
+- wait:
+  - 100
+- print:
+  - 流夏
+  - >2-
+
+    順便打聽一下，妳知不知道什麼報酬豐厚的工作啊？
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_3011001_014
+- face:
+  - 105111
+  - 6
+- emotion:
+  - notice1_L
+  - 105111
+  - -110
+  - 585
+  - se_adv_emote_common_01
+- print:
+  - 深月
+  - 唉呀～原來這才是妳真正想問的嗎？
+- wait:
+  - 75
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 報酬豐厚的工作有是有啦～
+- wait:
+  - 45
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - ……我看妳好像武藝非常高強呢！
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_015
+- face:
+  - 105611
+  - 6
+- print:
+  - 流夏
+  - ……如果妳知道我的實力的話，事情就好辦了。
+- wait:
+  - 10
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105611
+  - 2
+- print:
+  - 流夏
+  - 所以呢？妳決定怎樣？
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_3011001_016
+- face:
+  - 105111
+  - 6
+- print:
+  - 深月
+  - 妳不要急，
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 我們先閒聊一下吧！
+- wait:
+  - 90
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 我啊～平常的工作雖然是一位科學家，但也在做一些很像醫生會做的事呢！
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_3011001_017
+- face:
+  - 105111
+  - 4
+- print:
+  - 深月
+  - 最近常有一些奇怪的患者送到我這邊來～
+- wait:
+  - 75
+- print:
+  - 深月
+  - >2-
+
+    大家都不知為何毫無體力和魔力……
+- face:
+  - 105111
+  - 1
+- wait:
+  - 90
+- print:
+  - 深月
+  - >2-
+
+    我有點在意就去調查了一下，發現原因是出在一件魔法道具。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_018
+- face:
+  - 105611
+  - 6
+- emotion:
+  - notice1_L
+  - 105611
+  - -82
+  - 575
+  - '*non'
+- print:
+  - 流夏
+  - 魔法道具就是用魔法、藥草或是鍊金術之類的東西所做出來的武器吧？
+- wait:
+  - 75
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105611
+  - 3
+- print:
+  - 流夏
+  - 應該是會增強體力和魔力的道具才對……
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_3011001_019
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 但患者們卻是得到相反的效果。
+- face:
+  - 105111
+  - 6
+- print:
+  - 深月
+  - 我調查過患者的家，發現了透過秘密交易的手段而得到的魔法手鐲。
+- wait:
+  - 85
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 4
+- print:
+  - 深月
+  - 原本應該是為了強化身體和魔法而買的東西……
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_020
+- face:
+  - 105611
+  - 3
+- print:
+  - 流夏
+  - ……但實際上把魔法道具戴在身上的人，卻全部出現了這種副作用。
+- eye_open:
+  - False
+- print:
+  - 流夏
+  - 那些人就是妳的患者們嗎？
+- wait:
+  - 40
+- print:
+  - 流夏
+  - >2
+
+- eye_open:
+  - True
+- face:
+  - 105611
+  - 1
+- print:
+  - 流夏
+  - 所以呢？妳想要我做些什麼呢？
+- wait:
+  - 135
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_3011001_021
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 我想請妳找出販賣這個魔法道具的犯人。
+- wait:
+  - 90
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 如果使用藥草製作出的魔法道具在市場上流通的話，
+- wait:
+  - 60
+- print:
+  - 深月
+  - >2-
+
+    大家可能也會對我的藥草研究產生誤解呢！
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_022
+- face:
+  - 105611
+  - 2
+- print:
+  - 流夏
+  - 如果是這樣的話事情就簡單啦！
+- wait:
+  - 75
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105611
+  - 1
+- print:
+  - 流夏
+  - 這件事包在我身上，妳就放一百二十個心吧
+- face:
+  - 105611
+  - 6
+- print:
+  - 流夏
+  - ！
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+  - 1
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- amb_stop:
+  - 1
+  - amb_adv_gaya_cmn_01
+- amb_stop:
+  - 1
+  - amb_adv_restaurant_01
+- se:
+  - se_adv_door_open_slam_01
+- wait:
+  - 10
+- se:
+  - se_adv_gaya_surprised_01
+- wait:
+  - 15
+- amb:
+  - amb_adv_noisy_01
+- window_visible:
+  - true
+- bgm:
+  - bgm_M06
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 1
+- vo:
+  - vo_adv_3011001_023
+- face:
+  - 100911
+  - 2
+- print:
+  - ？？？
+  - ──呵呵呵……哈哈哈……哈～哈哈哈！
+- wait:
+  - 90
+- touch: *o0
+- window_visible:
+  - false
+- black_out:
+  - 1
+  - 1
+- still:
+  - 100900101
+- wait:
+  - 15
+- black_in: *o0
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 1
+- vo:
+  - vo_adv_3011001_024
+- face:
+  - 100911
+  - 2
+- print:
+  - 修特帕魯
+  - 找到妳啦！通緝犯！
+- face:
+  - 100911
+  - 1
+- print:
+  - 修特帕魯
+  - 我～正是那疾風之冥姬，
+- wait:
+  - 70
+- print:
+  - 修特帕魯
+  - >2-
+
+    安妮羅潔·馮·修特帕魯！
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 外號熾炎戰鬼煉獄血盟暗黑團團長！
+- wait:
+  - 60
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 1
+- print:
+  - 修特帕魯
+  - 乖乖束手就擒吧！
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 1
+- vo:
+  - vo_adv_3011001_025
+- face:
+  - 105611
+  - 6
+- print:
+  - 流夏
+  - 這種地方竟然又有通緝犯啊……
+- wait:
+  - 10
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105611
+  - 1
+- print:
+  - 流夏
+  - 不過其他人的事跟我無關。
+- face:
+  - 105611
+  - 3
+- print:
+  - 流夏
+  - 深月，繼續說下去吧！
+- wait:
+  - 30
+- print:
+  - 流夏
+  - >2-
+
+    我想盡可能地先了解相關的資訊。
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 1
+- vo:
+  - vo_adv_3011001_026
+- face:
+  - 105111
+  - 4
+- print:
+  - 深月
+  - 犯人恐怕是連這裡的黑道也不太認識的生面孔吧！
+- wait:
+  - 105
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 還有找尋犯人的線索，就是製作魔法道具的藥草。
+- wait:
+  - 90
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 3
+- print:
+  - 深月
+  - 這種藥草有很特殊的──
+- touch: *o0
+- window_visible:
+  - false
+- black_out:
+  - 1
+  - 1
+- still:
+  - end
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 105111
+  - C
+  - 6
+- chara_full:
+  - 105611
+  - L
+  - 6
+- se:
+  - se_adv_step_wood_run_come_01
+- bgm:
+  - stop
+  - 2
+- fadein_all:
+  - 30
+- chara_full:
+  - 100911
+  - R
+  - 3
+- in_R:
+  - 100911
+  - 30
+  - true
+- window_visible:
+  - true
+- bgm:
+  - bgm_M51
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_3011001_027
+- face:
+  - 100911
+  - 3
+- emotion:
+  - anger1_R
+  - 100911
+  - -110
+  - 550
+  - se_adv_emote_anger_01
+- jump:
+  - 100911
+- print:
+  - 修特帕魯
+  - 喂！！不要無視我啊！！
+- wait:
+  - 40
+- print:
+  - 修特帕魯
+  - >2-
+
+    我在跟妳說話啦！穿著陌生服裝的女人！
+- wait:
+  - 105
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 1
+- print:
+  - 修特帕魯
+  - 看看這張通緝令＜捲軸＞！
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_paper_move_02
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_028
+- face:
+  - 105611
+  - 6
+- print:
+  - 流夏
+  - ……這的確跟我的樣子很相似耶！
+- wait:
+  - 75
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105611
+  - 3
+- print:
+  - 流夏
+  - 不過很抱歉，我不是上面的這個人喔！
+- wait:
+  - 45
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105611
+  - 2
+- print:
+  - 流夏
+  - 我是剛才才到達這裡的。
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_3011001_029
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 妳在說啥啊！我剛想起……罪名是非法販賣魔法道具！
+- wait:
+  - 85
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 1
+- jump:
+  - 100911
+- print:
+  - 修特帕魯
+  - 都已經發布通緝令了，你再怎麼狡辯也沒用了！
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_030
+- face:
+  - 105611
+  - 6
+- print:
+  - 流夏
+  - 妳先等一下啦！我才不可能做這種事情呢！
+- wait:
+  - 105
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105611
+  - 3
+- print:
+  - 流夏
+  - 我來這個地方也是因為――
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_3011001_031
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 廢話少說！嚐嚐我的煉獄之炎吧
+- jump:
+  - 100911
+- print:
+  - 修特帕魯
+  - ！
+- wait:
+  - 75
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- bg_color:
+  - 0
+  - 0
+  - 0
+- wait:
+  - 10
+- effect:
+  - 0071
+  - se_adv_magic_fire_large_01
+- wait:
+  - 15
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- wait:
+  - 15
+- background:
+  - 500050
+- chara_full:
+  - 105611
+  - RC
+  - 6
+- chara_full:
+  - 100911
+  - R
+  - 6
+- focus:
+  - 105611:100911
+- se:
+  - se_adv_knock_back_01
+- change:
+  - LC
+  - RC
+  - 15
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_032
+- face:
+  - 105611
+  - 6
+- print:
+  - 流夏
+  - 唉呀！
+- face:
+  - 105611
+  - 3
+- print:
+  - 流夏
+  - 妳突然就攻擊真是不講理呢！
+- wait:
+  - 75
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_3011001_033
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 妳好樣的！竟然避開了我的豪嵐炎殺劍……！
+- wait:
+  - 115
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 1
+- print:
+  - 修特帕魯
+  - 但第二次一定會擊中！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_034
+- face:
+  - 105611
+  - 4
+- print:
+  - 流夏
+  - 妳還要繼續打嗎？我平常是一定會反擊的……
+- wait:
+  - 105
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105611
+  - 4
+- print:
+  - 流夏
+  - 我們先從離開餐廳吧！會給其他客人帶來麻煩的。
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_3011001_035
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 喂！
+- jump:
+  - 100911
+- print:
+  - 修特帕魯
+  - 等等！妳別逃跑啊！和我戰鬥啊！
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- change:
+  - C
+  - LC
+- wait:
+  - 10
+- chara_full:
+  - 105111
+  - L
+  - 2
+- fadein:
+  - 105111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_3011001_036
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 杏奈，我也來幫忙。
+- wait:
+  - 60
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 畢竟還有通緝令，有必要請她詳細交代清楚呢！
+- wait:
+  - 120
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 3
+- print:
+  - 深月
+  - ……如果她真的是犯人的話就無法原諒她了。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_037
+- face:
+  - 105611
+  - 6
+- print:
+  - 流夏
+  - 喂喂！連妳也懷疑我嗎？
+- wait:
+  - 75
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105611
+  - 4
+- print:
+  - 流夏
+  - 真是的，就沒有人願意聽聽我的說法嗎？
+- wait:
+  - 75
+- print:
+  - 流夏
+  - >2-
+
+    明明魔法道具的事我也是剛剛才聽說的……
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_3011001_038
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 我也不是真的非常懷疑妳啦！
+- wait:
+  - 60
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 3
+- print:
+  - 深月
+  - 如果妳想證明自己的清白，可以跟我一起去自警團那嗎？
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_039
+- face:
+  - 105611
+  - 4
+- print:
+  - 流夏
+  - 雙方都各說各話啊……
+- wait:
+  - 60
+- print:
+  - 流夏
+  - >2-
+
+    真是的……
+- face:
+  - 105611
+  - 3
+- print:
+  - 流夏
+  - 看來現在只能逃跑了呢！
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_knock_back_01
+- change:
+  - R
+  - C
+  - 15
+- wait:
+  - 5
+- focus:
+  - 100911:105111
+- face:
+  - 105111
+  - 6
+- emotion:
+  - exclamation1_R
+  - 105111
+  - -45
+  - 695
+  - se_adv_emote_common_01
+- emotion:
+  - surprise1_L
+  - 100911
+  - 140
+  - 535
+  - se_adv_emote_common_01
+- shake:
+  - 100911
+- wait:
+  - 15
+- bgm:
+  - stop
+  - 5
+  - 1
+- se:
+  - se_adv_step_wood_run_go_01
+- out_R:
+  - 105611
+  - 30
+  - true
+- wait:
+  - 30
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 500010
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_town_day_01
+- effect:
+  - 0017
+  - se_adv_comic_punch_01
+- bgm:
+  - bgm_M11
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- chara_full:
+  - 101311
+  - C
+  - 6
+- chara_full:
+  - 105611
+  - LC
+  - 6
+- change:
+  - RC
+  - C
+  - 15
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_3011001_040
+- face:
+  - 101311
+  - 6
+- emotion:
+  - exclamation1_R
+  - 101311
+  - 20
+  - 625
+  - '*non'
+- shake:
+  - 101311
+- print:
+  - 七七香
+  - 哇！？好危險啊！
+- face:
+  - 101311
+  - 2
+- print:
+  - 七七香
+  - 等等！在街角撞到美女，
+- wait:
+  - 120
+- print:
+  - 七七香
+  - >2-
+
+    這是什麼令人心動的情節啊？
+- wait:
+  - 15
+- print:
+  - 七七香
+  - >2
+
+- face:
+  - 101311
+  - 4
+- print:
+  - 七七香
+  - 可惡！如果有咬著一塊麵包就更好了！
+- touch: *o0
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_3011001_041
+- face:
+  - 101311
+  - 5
+- print:
+  - 七七香
+  - 接著命中註定的戀愛就開始了……雖然有點灑狗血，
+- face:
+  - 101311
+  - 3
+- print:
+  - 七七香
+  - 不過就是這樣才棒啊！
+- wait:
+  - 90
+- print:
+  - 七七香
+  - >2-
+
+    而且兩個人都是女生，女同性戀的愛情故事即將展開！
+- wait:
+  - 105
+- print:
+  - 七七香
+  - >2
+
+- face:
+  - 101311
+  - 5
+- print:
+  - 七七香
+  - 哇！期待已久的願望要實現了嗎？
+- wait:
+  - 10
+- touch: *o0
+- effect_delete:
+  - 0022
+  - 30
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_042
+- face:
+  - 105611
+  - 4
+- emotion:
+  - sweat1_R
+  - 105611
+  - 80
+  - 590
+  - se_adv_emote_sweat_01
+- print:
+  - 流夏
+  - 那個～……我聽不懂妳在說什麼，
+- face:
+  - 105611
+  - 1
+- print:
+  - 流夏
+  - 很抱歉喔！
+- wait:
+  - 70
+- print:
+  - 流夏
+  - >2-
+
+    不好意思啦！我有點急事。
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 4
+- fadeout:
+  - 101311
+  - 30
+- face:
+  - 105611
+  - 3
+- wait:
+  - 30
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - RC
+  - LC
+- fadeout:
+  - 105611
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 30
+- bgm:
+  - bgm_M51
+- chara_full:
+  - 100911
+  - LC
+  - 3
+- in_L:
+  - 100911
+  - 45
+  - true
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_3011001_043
+- face:
+  - 100911
+  - 3
+- emotion:
+  - anger1_R
+  - 100911
+  - -110
+  - 550
+  - se_adv_emote_anger_01
+- jump:
+  - 100911
+  - 1
+- print:
+  - 修特帕魯
+  - 還想走！妳死心吧！
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 101311
+  - RC
+  - 6
+- fadein:
+  - 101311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_3011001_044
+- face:
+  - 101311
+  - 6
+- emotion:
+  - notice1_L
+  - 101311
+  - -75
+  - 525
+  - se_adv_emote_common_01
+- print:
+  - 七七香
+  - 喔喔？是杏奈美眉啊！還真巧呢！
+- wait:
+  - 60
+- print:
+  - 七七香
+  - >2
+
+- face:
+  - 101311
+  - 2
+- print:
+  - 七七香
+  - 我正想把妳借我的書還給妳呢～♪
+- wait:
+  - 60
+- print:
+  - 七七香
+  - >2
+
+- face:
+  - 101311
+  - 1
+- print:
+  - 七七香
+  - 就是那本有提到古代魔法道具的書。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_3011001_045
+- face:
+  - 100911
+  - 6
+- print:
+  - 修特帕魯
+  - 我的盟友七七香！
+- face:
+  - 100911
+  - 2
+- print:
+  - 修特帕魯
+  - 來得正好！
+- wait:
+  - 60
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 她是通緝犯啊！快點幫我捉住她！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_3011001_046
+- face:
+  - 101311
+  - 6
+- print:
+  - 七七香
+  - 原來如此，故事是這種發展啊～
+- face:
+  - 101311
+  - 2
+- print:
+  - 七七香
+  - 好吧！
+- wait:
+  - 75
+- print:
+  - 七七香
+  - >2-
+
+    賞金就按９比１分配吧！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_3011001_047
+- face:
+  - 100911
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100911
+  - -10
+  - 640
+  - se_adv_emote_common_01
+- print:
+  - 修特帕魯
+  - 妳只要1成啊！？
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_3011001_048
+- face:
+  - 101311
+  - 1
+- jump:
+  - 101311
+- print:
+  - 七七香
+  - 呿呿呿！因為是由最強的我本人出馬幫忙，
+- wait:
+  - 30
+- print:
+  - 七七香
+  - >2-
+
+    當然我要拿9成獎金啦！這是常識。
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_3011001_049
+- face:
+  - 100911
+  - 4
+- emotion:
+  - drop1_R
+  - 100911
+  - 70
+  - 640
+  - se_adv_emote_drop_01
+- shake:
+  - 100911
+- print:
+  - 修特帕魯
+  - 妳也拿太多了吧！至少嗯……
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 拜託妳拿一半就好！
+- wait:
+  - 105
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 4
+- print:
+  - 修特帕魯
+  - 那個……其實我這個月買太多書了，生活費已經……
+- wait:
+  - 70
+- touch: *o0
+- window_visible:
+  - false
+- focus:
+  - 100911:101311
+- face:
+  - 101311
+  - 6
+- face:
+  - 100911
+  - 6
+- se:
+  - se_adv_step_concrete_run_go_01
+- wait:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_3011001_050
+- face:
+  - 101311
+  - 4
+- print:
+  - 七七香
+  - ……在妳和我討價還價之間，
+- wait:
+  - 10
+- print:
+  - 七七香
+  - >2-
+
+    通緝犯已經逃跑了……
+- face:
+  - 101311
+  - 3
+- print:
+  - 七七香
+  - 第三部完！！
+- wait:
+  - 75
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_3011001_051
+- face:
+  - 100911
+  - 6
+- jump:
+  - 100911
+- print:
+  - 修特帕魯
+  - 糟糕！不可以讓她跑掉……
+- wait:
+  - 70
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 之後再討論獎金如何分配吧！現在得先追捕她才行！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_3011001_052
+- face:
+  - 101311
+  - 3
+- emotion:
+  - twinkle1_R
+  - 101311
+  - -110
+  - 505
+  - se_adv_emote_twinkle_01
+- print:
+  - 七七香
+  - 我明白了！走吧！
+- wait:
+  - 60
+- print:
+  - 七七香
+  - >2
+
+- emotion_end:
+  - 101311
+- face:
+  - 101311
+  - 6
+- print:
+  - 七七香
+  - ……咦？不過這前面是……
+- wait:
+  - 60
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 3
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 500020
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_park_day_01
+- bgm:
+  - bgm_M21
+  - 0
+  - 0
+  - 1
+- se:
+  - se_adv_step_concrete_run_come_01
+- chara_full:
+  - 105611
+  - C
+  - 6
+- in_L:
+  - 105611
+  - 60
+  - true
+- window_visible:
+  - true
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_053
+- face:
+  - 105611
+  - 6
+- emotion:
+  - exclamation1_R
+  - 105611
+  - 10
+  - 685
+  - se_adv_emote_common_01
+- print:
+  - 流夏
+  - 是死胡同嗎……
+- face:
+  - 105611
+  - 4
+- print:
+  - 流夏
+  - 這次真的是沒辦法了。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105611
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- se:
+  - se_adv_step_concrete_move_01
+- wait:
+  - 15
+- chara_full:
+  - 105111
+  - L
+  - 1
+- chara_full:
+  - 101311
+  - C
+  - 1
+- chara_full:
+  - 100911
+  - R
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_3011001_054
+- face:
+  - 100911
+  - 2
+- jump:
+  - 100911
+- print:
+  - 修特帕魯
+  - 哈哈哈！通緝犯妳逃不了啦！
+- wait:
+  - 45
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 1
+- print:
+  - 修特帕魯
+  - 這裡的居民，
+- wait:
+  - 45
+- print:
+  - 修特帕魯
+  - >2-
+
+    沒有人不知道這裡是死胡同喔！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_3011001_055
+- face:
+  - 105111
+  - 4
+- print:
+  - 深月
+  - 「沒有人不知道」這句話也太誇張了，雖然是很有名沒錯啦！
+- wait:
+  - 70
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 3
+- print:
+  - 深月
+  - 流夏，可以乖乖地跟我們走嗎？
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_3011001_056
+- face:
+  - 101311
+  - 3
+- emotion:
+  - notice1_L
+  - 101311
+  - -75
+  - 525
+  - se_adv_emote_common_01
+- print:
+  - 七七香
+  - ……嗯？嗯嗯？嗯嗯嗯？
+- wait:
+  - 70
+- print:
+  - 七七香
+  - >2
+
+- face:
+  - 101311
+  - 6
+- print:
+  - 七七香
+  - ……這個通緝犯，難道是……
+- wait:
+  - 60
+- print:
+  - 七七香
+  - >2
+
+- face:
+  - 101311
+  - 2
+- print:
+  - 七七香
+  - 好！
+- jump:
+  - 101311
+- print:
+  - 七七香
+  - 接招！
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0009
+- se:
+  - se_adv_paper_throw_01
+- wait:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 1
+- vo:
+  - vo_adv_3011001_057
+- face:
+  - 101311
+  - 4
+- print:
+  - 七七香
+  - 啊～！不小心手滑，
+- face:
+  - 101311
+  - 2
+- print:
+  - 七七香
+  - 把上頭寫著如何調配藥草
+- wait:
+  - 30
+- print:
+  - 七七香
+  - >2-
+
+    製作魔法道具的書丟向了通緝犯～！
+- wait:
+  - 60
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 105611
+  - C
+  - 6
+- fadein:
+  - 105611
+  - 30
+- se:
+  - se_adv_book_catch_01
+- jump:
+  - 105611
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_058
+- face:
+  - 105611
+  - 6
+- print:
+  - 流夏
+  - 那個……
+- face:
+  - 105611
+  - 4
+- print:
+  - 流夏
+  - 妳雖然說是手滑，
+- wait:
+  - 75
+- print:
+  - 流夏
+  - >2-
+
+    但妳很明顯是用盡全力投的呢……
+- wait:
+  - 60
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105611
+  - 3
+- print:
+  - 流夏
+  - 而且還直直地朝我飛過來……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105611
+  - 30
+- chara_full:
+  - 105111
+  - L
+  - 6
+- chara_full:
+  - 101311
+  - C
+  - 1
+- chara_full:
+  - 100911
+  - R
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_3011001_059
+- face:
+  - 100911
+  - 3
+- emotion:
+  - anger1_R
+  - 100911
+  - -110
+  - 550
+  - se_adv_emote_anger_01
+- jump:
+  - 100911
+- print:
+  - 修特帕魯
+  - 喂！七七香！為什麼把那本書丟給敵人啊！？
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_3011001_060
+- face:
+  - 101311
+  - 1
+- print:
+  - 七七香
+  - 就是這麼一回事啊！……以杏奈美眉的說法，
+- wait:
+  - 105
+- print:
+  - 七七香
+  - >2
+
+- face:
+  - 101311
+  - 2
+- print:
+  - 七七香
+  - 應該是因為我的第六感在作祟吧？
+- face:
+  - 101311
+  - 1
+- print:
+  - 七七香
+  - 那個人啊～
+- wait:
+  - 90
+- print:
+  - 七七香
+  - >2-
+
+    如果照我來看，她根本不會製作魔法道具啦！
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105611
+  - C
+  - 6
+- fadein:
+  - 105611
+  - 30
+- window_visible:
+  - true
+- se:
+  - se_adv_paper_pickup_01
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_061
+- face:
+  - 105611
+  - 6
+- print:
+  - 流夏
+  - 讓我看看……這是什麼書呀？
+- wait:
+  - 60
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105611
+  - 4
+- print:
+  - 流夏
+  - 完全不明白上面寫了什麼耶……
+- wait:
+  - 60
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105611
+  - 3
+- print:
+  - 流夏
+  - 單詞是看得懂啦～調配……燉煮……
+- face:
+  - 105611
+  - 4
+- print:
+  - 流夏
+  - 粉末？
+- wait:
+  - 90
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 1
+- vo:
+  - vo_adv_3011001_062
+- face:
+  - 100911
+  - 6
+- print:
+  - 修特帕魯
+  - ……這是怎麼一回事啊？
+- wait:
+  - 75
+- print:
+  - 修特帕魯
+  - >2-
+
+    她不是製造魔法道具私下販賣嗎？
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_063
+- face:
+  - 105611
+  - 3
+- print:
+  - 流夏
+  - 很抱歉啊！虧妳這麼死命地追過來，
+- wait:
+  - 10
+- print:
+  - 流夏
+  - >2-
+
+    但我幾乎無法施展魔法喔～
+- wait:
+  - 10
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105611
+  - 4
+- print:
+  - 流夏
+  - 更不了解魔法道具是什麼，也從來沒使用過。
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105611
+  - 30
+- chara_full:
+  - 105111
+  - L
+  - 6
+- chara_full:
+  - 101311
+  - C
+  - 2
+- chara_full:
+  - 100911
+  - R
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_3011001_064
+- face:
+  - 105111
+  - 4
+- print:
+  - 深月
+  - 的確那時即使坐在妳旁邊，也沒有感覺到什麼魔力呢……
+- wait:
+  - 120
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 那麼～妳真的不是犯人吧？
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_3011001_065
+- face:
+  - 100911
+  - 4
+- jump:
+  - 100911
+- print:
+  - 修特帕魯
+  - 深月！妳瘋了嗎？既然都已經發布通緝令了，她就是通緝犯啊！
+- wait:
+  - 75
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 1
+- print:
+  - 修特帕魯
+  - 嫌疑犯就得接受懲罰！吃我一記終極魔法吧！
+- wait:
+  - 75
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 來吧！魔瞳解放術式，盟約外典第666章……啟始！
+- wait:
+  - 105
+- touch: *o0
+- se:
+  - se_adv_magic_anna_01
+- face:
+  - 101311
+  - 6
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_3011001_066
+- face:
+  - 105111
+  - 6
+- print:
+  - 深月
+  - 那個詠唱……杏奈請妳停下來！
+- wait:
+  - 40
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 4
+- print:
+  - 深月
+  - 妳想把周圍的建築物都破壞掉嗎！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100911
+  - C
+  - 2
+- fadein:
+  - 100911
+  - 30
+- se:
+  - se_adv_magic_anna_02
+- effect:
+  - 0041
+- bright_change:
+  - 1
+  - 50
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_3011001_067
+- face:
+  - 100911
+  - 2
+- print:
+  - 修特帕魯
+  - 吃我疾風之冥姬全力的一擊吧！
+- wait:
+  - 115
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 深淵悠久=翠翔裂空斬～
+- effect:
+  - 9
+- print:
+  - 修特帕魯
+  - ！
+- wait:
+  - 30
+- touch: *o0
+- se_pause: *o0
+- se:
+  - se_adv_magic_anna_03
+- effect_delete:
+  - 0041
+  - 15
+- bright_change:
+  - 1
+  - 100
+- fadeout:
+  - 100911
+  - 30
+- chara_full:
+  - 105612
+  - C
+  - 4
+- fadein:
+  - 105612
+  - 30
+- focus:
+  - 105612
+- bust:
+  - 105612
+  - 0
+- vo:
+  - vo_adv_3011001_068
+- face:
+  - 105612
+  - 4
+- print:
+  - 流夏
+  - ――真拿她沒辦法，她好像沒有要停的意思呢……
+- wait:
+  - 40
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105612
+  - 3
+- print:
+  - 流夏
+  - ……哈！！！！！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0009
+- se:
+  - se_adv_weapon_sword_set_02
+- bgm:
+  - stop
+  - 2
+  - 1
+- scale:
+  - 105612
+  - 1.3
+  - 1
+  - 5
+- fadeout:
+  - 105612
+  - 15
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect_delete:
+  - 0009
+- se:
+  - se_adv_magic_dark_large_01
+- effect:
+  - 0070
+  - '@non'
+- wait:
+  - 30
+- bgm:
+  - bgm_M17
+- effect:
+  - 0016
+  - se_adv_weapon_katana_impact_02
+- effect_delete:
+  - 0070
+- effect:
+  - 0045
+- wait:
+  - 45
+- background:
+  - 500020
+- wait:
+  - 15
+- effect:
+  - 0014
+- chara_full:
+  - 105111
+  - L
+  - 6
+- chara_full:
+  - 101311
+  - C
+  - 6
+- chara_full:
+  - 100911
+  - R
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_3011001_069
+- face:
+  - 100911
+  - 6
+- emotion:
+  - surprise1_L
+  - 100911
+  - 140
+  - 535
+  - '*non'
+- print:
+  - 修特帕魯
+  - ……我、我的魔法被斬開了……！？
+- wait:
+  - 75
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_3011001_070
+- face:
+  - 101311
+  - 6
+- emotion:
+  - twinkle1_R
+  - 101311
+  - -110
+  - 505
+  - se_adv_emote_twinkle_01
+- print:
+  - 七七香
+  - 用刀切開魔法什麼的，
+- face:
+  - 101311
+  - 2
+- print:
+  - 七七香
+  - 這熱血的故事發展來啦！
+- wait:
+  - 75
+- print:
+  - 七七香
+  - >2
+
+- shake:
+  - 101311
+- print:
+  - 七七香
+  - 啊～受不了啦！現在這個畫面值得永久保存呢！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_3011001_071
+- face:
+  - 105111
+  - 6
+- print:
+  - 深月
+  - 這不是開玩笑的時候喔……
+- wait:
+  - 30
+- print:
+  - 深月
+  - >2-
+
+    她好像比我想像中更強呢！
+- wait:
+  - 15
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 4
+- print:
+  - 深月
+  - 如果繼續戰鬥下去的話，我們這邊的人都會被打敗的……
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_3011001_072
+- face:
+  - 100911
+  - 4
+- jump:
+  - 100911
+- print:
+  - 修特帕魯
+  - 妳幹嘛那麼沒自信啊！？
+- wait:
+  - 10
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 我是絕不會退縮的！
+- wait:
+  - 10
+- print:
+  - 修特帕魯
+  - >2-
+
+    賭上疾風之冥姬之名吧！
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_3011001_073
+- face:
+  - 101311
+  - 1
+- print:
+  - 七七香
+  - 好了啦～杏奈美眉。談判技巧和賺取獎金都是必要的啊！
+- wait:
+  - 105
+- print:
+  - 七七香
+  - >2
+
+- face:
+  - 101311
+  - 2
+- print:
+  - 七七香
+  - 不用戰鬥就能讓通緝犯投降的話超級帥氣喔！
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_3011001_074
+- face:
+  - 100911
+  - 5
+- emotion:
+  - notice1_L
+  - 100911
+  - -95
+  - 535
+  - se_adv_emote_common_01
+- print:
+  - 修特帕魯
+  - ……也、也是……
+- wait:
+  - 85
+- print:
+  - 修特帕魯
+  - >2-
+
+    ……那沒辦法了。
+- wait:
+  - 60
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 1
+- print:
+  - 修特帕魯
+  - 要和平地協商也是可以啦！
+- touch: *o0
+- window_visible:
+  - false
+- effect_delete:
+  - 0014
+  - 30
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105611
+  - C
+  - 3
+- fadein:
+  - 105611
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_075
+- face:
+  - 105611
+  - 3
+- print:
+  - 流夏
+  - 討論已經結束了嗎？
+- face:
+  - 105611
+  - 2
+- print:
+  - 流夏
+  - 我剛才就已經說過，
+- wait:
+  - 75
+- print:
+  - 流夏
+  - >2-
+
+    這次發生的事件跟我一點關係也沒有。
+- wait:
+  - 90
+- print:
+  - 流夏
+  - >2-
+
+    如果這樣妳們仍然要打的話我奉陪
+- face:
+  - 105611
+  - 3
+- print:
+  - 流夏
+  - ……決定如何？
+- wait:
+  - 60
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 8
+- se:
+  - se_adv_step_concrete_move_01
+- chara_full:
+  - 102711
+  - L
+  - 1
+- fadein:
+  - 102711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_3011001_076
+- face:
+  - 102711
+  - 1
+- print:
+  - 惠理子
+  - ──大家～不用擔心，。
+- wait:
+  - 105
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 2
+- print:
+  - 惠理子
+  - 我會證明這個人是無辜的。
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - bgm_M13
+  - 0
+  - 0
+  - 1
+- face:
+  - 105611
+  - 6
+- focus:
+  - 105611
+- change:
+  - RC
+  - C
+  - 15
+- wait:
+  - 10
+- window_visible:
+  - true
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_077
+- face:
+  - 105611
+  - 6
+- print:
+  - 流夏
+  - 什麼時候出現的……！！
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_3011001_078
+- face:
+  - 102711
+  - 2
+- print:
+  - 惠理子
+  - 呵呵……
+- face:
+  - 102711
+  - 1
+- print:
+  - 惠理子
+  - 我從剛才開始一直都在這裡了耶！
+- wait:
+  - 75
+- print:
+  - 惠理子
+  - >2-
+
+    妳沒有注意到嗎？
+- face:
+  - 102711
+  - 2
+- print:
+  - 惠理子
+  - 初次見面。我名叫惠理子。
+- wait:
+  - 105
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_079
+- face:
+  - 105611
+  - 6
+- print:
+  - 流夏
+  - 竟然有人能無聲無息地走到我背後……
+- wait:
+  - 75
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105611
+  - 3
+- print:
+  - 流夏
+  - ……妳是什麼人？
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_3011001_080
+- face:
+  - 102711
+  - 1
+- print:
+  - 惠理子
+  - 請不要在意，我只是個開花店的人。
+- face:
+  - 102711
+  - 2
+- print:
+  - 惠理子
+  - 呵呵……
+- wait:
+  - 105
+- touch: *o0
+- window_visible:
+  - false
+- change:
+  - R
+  - RC
+- change:
+  - C
+  - L
+  - 45
+- wait:
+  - 30
+- chara_full:
+  - 105111
+  - L
+  - 6
+- fadein:
+  - 105111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_3011001_081
+- face:
+  - 105111
+  - 6
+- print:
+  - 深月
+  - 惠理子，
+- face:
+  - 105111
+  - 4
+- print:
+  - 深月
+  - 妳說妳可以證明流夏是清白的，是真的嗎？
+- wait:
+  - 20
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_3011001_082
+- face:
+  - 102711
+  - 1
+- print:
+  - 惠理子
+  - 是的。雖然我也沒有證據……
+- face:
+  - 102711
+  - 2
+- print:
+  - 惠理子
+  - 但是我可以替她辯護。
+- wait:
+  - 20
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_3011001_083
+- face:
+  - 102711
+  - 1
+- print:
+  - 惠理子
+  - 杏奈手上的通緝令，是剛剛才發布的……
+- wait:
+  - 55
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 3
+- print:
+  - 惠理子
+  - 但是我和深月找尋犯人已經有蠻長的一段時間了。
+- wait:
+  - 135
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 1
+- print:
+  - 惠理子
+  - 其實刊載藥草調配方法的書，之前有被偷走過一次。
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_3011001_084
+- face:
+  - 102711
+  - 3
+- print:
+  - 惠理子
+  - 我想說犯人應該是偷了書，
+- wait:
+  - 120
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 1
+- print:
+  - 惠理子
+  - 並且利用上頭的調配方法製作魔法道具……
+- wait:
+  - 75
+- print:
+  - 惠理子
+  - >2-
+
+    所以我就拜託杏奈和七七香幫我調查能找到犯人的線索。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_3011001_085
+- face:
+  - 102711
+  - 4
+- print:
+  - 惠理子
+  - 就在我們發現之前，剛來這城鎮的流夏小姐
+- wait:
+  - 10
+- print:
+  - 惠理子
+  - >2-
+
+    立刻成為了通緝的目標，
+- face:
+  - 102711
+  - 1
+- print:
+  - 惠理子
+  - 而杏奈就拿到了通緝令……
+- wait:
+  - 85
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 2
+- print:
+  - 惠理子
+  - 要說這是偶然，不覺得有點太巧了嗎？
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_3011001_086
+- face:
+  - 105111
+  - 6
+- print:
+  - 深月
+  - ……把流夏變成懸賞對象，散佈通緝令的人才是真正的犯人。
+- wait:
+  - 105
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 妳是這個意思吧？
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_087
+- face:
+  - 105611
+  - 4
+- print:
+  - 流夏
+  - ……我們大家都被真正的犯人算計了嗎？
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_3011001_088
+- face:
+  - 105111
+  - 4
+- print:
+  - 深月
+  - 流夏似乎根本不了解魔法道具，這說法我能接受耶！
+- wait:
+  - 85
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 流夏，剛才懷疑妳，真的很抱歉！我最近疑心病有點重……
+- wait:
+  - 25
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 101311
+  - LC
+  - 2
+- chara_full:
+  - 100911
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_3011001_089
+- face:
+  - 101311
+  - 2
+- emotion:
+  - note1_L
+  - 101311
+  - -95
+  - 505
+  - se_adv_emote_note_01
+- print:
+  - 七七香
+  - 我一開始就覺得流夏不是犯人喔～♪
+- wait:
+  - 60
+- print:
+  - 七七香
+  - >2
+
+- face:
+  - 101311
+  - 3
+- print:
+  - 七七香
+  - 我那時腦中靈光一閃，
+- face:
+  - 101311
+  - 1
+- print:
+  - 七七香
+  - 就認為～這個人長得不像犯人唷！
+- wait:
+  - 75
+- print:
+  - 七七香
+  - >2-
+
+    我真厲害！
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_3011001_090
+- face:
+  - 100911
+  - 6
+- jump:
+  - 100911
+- print:
+  - 修特帕魯
+  - 不，請等等！雖然發出這個通緝令的人是匿名的，
+- wait:
+  - 70
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 但也沒有證據能證明她的清白――
+- touch: *o0
+- window_visible:
+  - false
+- change:
+  - L
+  - LC
+- change:
+  - C
+  - RC
+- wait:
+  - 15
+- chara_full:
+  - 102711
+  - R
+  - 1
+- in_R:
+  - 102711
+  - 60
+  - true
+- window_visible:
+  - true
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_3011001_091
+- face:
+  - 102711
+  - 1
+- print:
+  - 惠理子
+  - 妳對於我的說明，有什麼不滿嗎？
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_3011001_092
+- face:
+  - 100911
+  - 6
+- print:
+  - 修特帕魯
+  - 咦？
+- face:
+  - 100911
+  - 4
+- shake:
+  - 100911
+- print:
+  - 修特帕魯
+  - 不……這個、應該怎說才好……
+- wait:
+  - 65
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_3011001_093
+- face:
+  - 102711
+  - 3
+- emotion:
+  - dots1_R
+  - 102711
+  - -115
+  - 510
+  - se_adv_emote_dots_01
+- print:
+  - 惠理子
+  - （凝視）……
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_3011001_094
+- face:
+  - 100911
+  - 4
+- emotion:
+  - sweat2_R
+  - 100911
+  - 80
+  - 505
+  - se_adv_emote_sweat_02
+- shake:
+  - 100911
+- print:
+  - 修特帕魯
+  - 沒、沒事……
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_3011001_095
+- face:
+  - 102711
+  - 2
+- print:
+  - 惠理子
+  - 呵呵呵……
+- face:
+  - 102711
+  - 1
+- print:
+  - 惠理子
+  - 如果妳能理解那就太好了。
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105611
+  - RC
+  - 4
+- chara_full:
+  - 105111
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_096
+- face:
+  - 105611
+  - 4
+- print:
+  - 流夏
+  - 真是的……
+- face:
+  - 105611
+  - 1
+- print:
+  - 流夏
+  - 妳叫惠理子吧？因為妳的幫忙消除了我的嫌疑。
+- wait:
+  - 85
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105611
+  - 2
+- print:
+  - 流夏
+  - 多謝妳啊！
+- face:
+  - 105611
+  - 4
+- print:
+  - 流夏
+  - 我來這裡還不到一天，
+- wait:
+  - 85
+- print:
+  - 流夏
+  - >2-
+
+    沒想到會捲入這樣的紛爭之中啊……
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_hungry_01
+- wait:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_097
+- face:
+  - 105611
+  - 6
+- print:
+  - 流夏
+  - 唉呀！餓到肚子都在叫了呢……
+- wait:
+  - 75
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105611
+  - 4
+- print:
+  - 流夏
+  - 話說回來，我什麼東西都還沒吃呢！
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_3011001_098
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 我們確實給妳添麻煩了，
+- wait:
+  - 10
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 如果願意的話，我在剛才的餐廳請妳吃飯吧！
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 3
+  - 1
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_step_concrete_walk_go_01
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 500050
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_restaurant_01
+- amb:
+  - amb_adv_gaya_cmn_01
+- chara_full:
+  - 105611
+  - C
+  - 1
+- fadein:
+  - 105611
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_099
+- face:
+  - 105611
+  - 1
+- eye_open:
+  - False
+- print:
+  - 流夏
+  - 嗯
+- nod:
+  - 105611
+- print:
+  - 流夏
+  - ……嗯……
+- eye_open:
+  - True
+- face:
+  - 105611
+  - 2
+- print:
+  - 流夏
+  - 呼呀～！
+- wait:
+  - 30
+- print:
+  - 流夏
+  - >2-
+
+    ……然後呢？那個魔法道具的手鐲是怎樣做的啊？
+- wait:
+  - 75
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105611
+  - 30
+- chara_full:
+  - 105111
+  - LC
+  - 1
+- chara_full:
+  - 102711
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_3011001_100
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 手鐲是由很常見的金子做出來的唷！
+- wait:
+  - 25
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 在魔法陣上面鑄造時，淋上加入藥草粉末的水讓它冷卻。
+- wait:
+  - 70
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 這樣製造出來的魔法道具就會有和藥草一樣的味道喔！
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_bush_02
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_3011001_101
+- face:
+  - 102711
+  - 1
+- print:
+  - 惠理子
+  - 順帶一提，這個就是那種藥草。
+- wait:
+  - 85
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 2
+- print:
+  - 惠理子
+  - 我想或許它能成為線索，就事先準備好了。
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105611
+  - C
+  - 6
+- fadein:
+  - 105611
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_102
+- face:
+  - 105611
+  - 6
+- print:
+  - 流夏
+  - ……嗯？是藥草卻有一種香甜美味的味道……
+- wait:
+  - 85
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105611
+  - 3
+- print:
+  - 流夏
+  - ……等一下！這味道好像在哪裡聞過……
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_rug_walk_come_01
+- wait:
+  - 30
+- change:
+  - LC
+  - C
+- wait:
+  - 30
+- bgm:
+  - bgm_M21
+- chara_full:
+  - 1011
+  - R
+  - 6
+- change:
+  - RC
+  - R
+- fadein:
+  - 1011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_3011001_103
+- face:
+  - 1011
+  - 6
+- print:
+  - 優男
+  - ……咦、咦～！？
+- face:
+  - 1011
+  - 3
+- print:
+  - 優男
+  - 妳為什麼在這裡！？
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_104
+- face:
+  - 105611
+  - 6
+- print:
+  - 流夏
+  - 你是我中午遇到的……
+- wait:
+  - 75
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105611
+  - 1
+- print:
+  - 流夏
+  - 介紹這間餐廳給我的人不就是你嗎？
+- wait:
+  - 45
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105611
+  - 2
+- print:
+  - 流夏
+  - 所以我來這裡吃飯啊～這又不是什麼奇怪的事？
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_3011001_105
+- face:
+  - 1011
+  - 4
+- print:
+  - 優男
+  - 不是啦！因為、妳應該……
+- wait:
+  - 80
+- print:
+  - 優男
+  - >2
+
+- face:
+  - 1011
+  - 1
+- print:
+  - 優男
+  - 不好意思，我還有事，先走了……
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- focus:
+  - 105611
+- face:
+  - 105611
+  - 6
+- emotion:
+  - exclamation1_R
+  - 105611
+  - 10
+  - 685
+  - se_adv_emote_common_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_106
+- face:
+  - 105611
+  - 6
+- print:
+  - 流夏
+  - ……我想起來了！
+- wait:
+  - 30
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105611
+  - 3
+- print:
+  - 流夏
+  - 這藥草的味道……跟中午時你身上的味道一樣！
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105111
+  - LC
+  - 6
+- chara_full:
+  - 102711
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_3011001_107
+- face:
+  - 105111
+  - 6
+- print:
+  - 深月
+  - 跟這個藥草的味道一樣……
+- wait:
+  - 90
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 3
+- print:
+  - 深月
+  - 喂！我可以稍微問你一些事嗎？
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_3011001_108
+- face:
+  - 102711
+  - 1
+- print:
+  - 惠理子
+  - 為了讓你老實說，
+- wait:
+  - 60
+- print:
+  - 惠理子
+  - >2-
+
+    首先得讓你喝點藥才行呢……
+- wait:
+  - 90
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 2
+- print:
+  - 惠理子
+  - 呵呵呵……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 1011
+  - C
+  - 6
+- fadein:
+  - 1011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_3011001_109
+- face:
+  - 1011
+  - 6
+- shake:
+  - 1011
+- print:
+  - 優男
+  - ……嗚、嗚哇啊啊啊啊！
+- wait:
+  - 45
+- print:
+  - 優男
+  - >2
+
+- face:
+  - 1011
+  - 4
+- print:
+  - 優男
+  - 救命啊～！！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+- se:
+  - se_adv_step_wood_run_go_01
+- out_R:
+  - 1011
+  - 45
+  - true
+- wait:
+  - 15
+- se:
+  - se_adv_door_open_01
+- bgm:
+  - bgm_M18
+  - 0
+  - 0
+  - 1
+- chara_full:
+  - 100911
+  - L
+  - 6
+- chara_full:
+  - 101311
+  - C
+  - 6
+- chara_full:
+  - 105611
+  - R
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_3011001_110
+- face:
+  - 101311
+  - 6
+- print:
+  - 七七香
+  - 那人逃跑了！難道，
+- face:
+  - 101311
+  - 3
+- print:
+  - 七七香
+  - 那人才是真犯人！？
+- wait:
+  - 75
+- print:
+  - 七七香
+  - >2
+
+- pop:
+  - 101311
+- print:
+  - 七七香
+  - 走吧～！不可以被那人逃跑喔！
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_111
+- face:
+  - 105611
+  - 2
+- print:
+  - 流夏
+  - 那麼～我們去懲罰那個好不容易找到的壞人吧！
+- wait:
+  - 40
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 500012
+- amb_stop:
+  - 1
+  - amb_adv_restaurant_01
+- amb_stop:
+  - 1
+  - amb_adv_gaya_cmn_01
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_outdoors_night_02
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 30
+- chara_full:
+  - 100911
+  - C
+  - 3
+- in_L:
+  - 100911
+  - 45
+  - true
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_3011001_112
+- face:
+  - 100911
+  - 3
+- emotion:
+  - exclamation1_R
+  - 100911
+  - -10
+  - 640
+  - se_adv_emote_common_01
+- jump:
+  - 100911
+- print:
+  - 修特帕魯
+  - 找到啦！在那裡！
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100911
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 1011
+  - R
+  - 2
+- chara_full:
+  - 811
+  - C
+  - 1
+- chara_full:
+  - 911
+  - L
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_3011001_113
+- face:
+  - 1011
+  - 2
+- print:
+  - 優男
+  - 上當了呢！
+- face:
+  - 1011
+  - 3
+- print:
+  - 優男
+  - 你們～把那些女人都幹掉吧！
+- wait:
+  - 45
+- touch: *o0
+- se:
+  - se_adv_weapon_dagger_set_01
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_3011001_114
+- face:
+  - 911
+  - 1
+- print:
+  - 手下１
+  - 是的大哥！收到！
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 101311
+  - LC
+  - 6
+- chara_full:
+  - 105612
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_3011001_115
+- face:
+  - 101311
+  - 6
+- print:
+  - 七七香
+  - 總覺得這裡好像有很多人品很差的人耶！？
+- wait:
+  - 75
+- touch: *o0
+- focus:
+  - 105612
+- bust:
+  - 105612
+  - 0
+- vo:
+  - vo_adv_3011001_116
+- face:
+  - 105612
+  - 3
+- print:
+  - 流夏
+  - 是埋伏嗎……看來對方也相當謹慎呢！
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 1011
+  - R
+  - 2
+- chara_full:
+  - 811
+  - C
+  - 1
+- chara_full:
+  - 911
+  - L
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_3011001_117
+- face:
+  - 1011
+  - 1
+- print:
+  - 優男
+  - 所以我們一直以來都沒有被人發現啊……
+- wait:
+  - 10
+- print:
+  - 優男
+  - >2
+
+- face:
+  - 1011
+  - 3
+- print:
+  - 優男
+  - 你們～幹掉他們吧！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_3011001_118
+- face:
+  - 911
+  - 1
+- print:
+  - 手下１
+  - 嘿嘿嘿……大哥，對她們怎麼樣都可以吧？
+- wait:
+  - 90
+- print:
+  - 手下１
+  - >2
+
+- face:
+  - 911
+  - 2
+- print:
+  - 手下１
+  - 首先從這位纖細的小姐下手吧！！
+- touch: *o0
+- se:
+  - se_adv_weapon_axe_set_01
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 102711
+  - C
+  - 6
+- fadein:
+  - 102711
+  - 30
+- wait:
+  - 20
+- window_visible:
+  - false
+- fadeout:
+  - 102711
+  - 30
+- effect:
+  - 0001
+- wait:
+  - 5
+- effect:
+  - 0001
+  - '@non'
+  - 270
+- se:
+  - se_adv_weapon_sword_impact_02
+- effect:
+  - 0019
+  - '@non'
+- effect:
+  - 0045
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- chara_full:
+  - 102711
+  - C
+  - 2
+- fadein:
+  - 102711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_3011001_119
+- face:
+  - 102711
+  - 2
+- print:
+  - 惠理子
+  - 呵呵……
+- face:
+  - 102711
+  - 1
+- print:
+  - 惠理子
+  - 我是不討厭熱情如火的人啦。
+- wait:
+  - 90
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 3
+- print:
+  - 惠理子
+  - 但是，我心裡已經有喜歡的人了――
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0009
+- se:
+  - se_adv_weapon_axe_set_01
+- bgm:
+  - stop
+  - 1.5
+  - 1
+- scale:
+  - 102711
+  - 1.3
+  - 2
+  - 5
+- fadeout:
+  - 102711
+  - 15
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect_delete:
+  - 0009
+- wait:
+  - 10
+- se_effect:
+  - 3
+- effect:
+  - 0016
+  - '@non'
+- se:
+  - se_adv_weapon_axe_hit_01
+- bgm:
+  - bgm_M17_03
+- se_effect:
+  - 0
+- wait:
+  - 30
+- background:
+  - 500012
+- chara_full:
+  - 911
+  - C
+  - 4
+- fadein:
+  - 911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_3011001_120
+- face:
+  - 911
+  - 4
+- print:
+  - 手下１
+  - ――砰
+- shake:
+  - 911
+- print:
+  - 手下１
+  - ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 911
+  - 30
+- black_out:
+  - 1
+  - 1
+- still:
+  - 301100101
+- wait:
+  - 15
+- black_in: *o0
+- window_visible:
+  - true
+- focus:
+  - 811
+- bust:
+  - 811
+  - 1
+- vo:
+  - vo_adv_3011001_121
+- face:
+  - 811
+  - 6
+- print:
+  - 手下２
+  - 那個女人竟然可以輕易地揮動那巨斧……
+- wait:
+  - 90
+- print:
+  - 手下２
+  - >2
+
+- face:
+  - 811
+  - 4
+- print:
+  - 手下２
+  - ……等、等一下！那巨斧和那毛骨悚然的笑容……
+- wait:
+  - 105
+- print:
+  - 手下２
+  - >2
+
+- face:
+  - 811
+  - 6
+- print:
+  - 手下２
+  - 難道，她是這個地方傳說中最強的『殺手』嗎……！？
+- wait:
+  - 40
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 1
+- vo:
+  - vo_adv_3011001_122
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 呼呼呼……有這麼多實驗品……
+- wait:
+  - 150
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 新的藥剛做好，真是幫了我個大忙呢！
+- wait:
+  - 75
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 3
+- print:
+  - 深月
+  - 久違地解放一下……我的「單眼」吧？
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 1
+- vo:
+  - vo_adv_3011001_123
+- face:
+  - 100911
+  - 2
+- print:
+  - 修特帕魯
+  - 哈哈哈！你們的好運就到此結束了！
+- wait:
+  - 90
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 1
+- print:
+  - 修特帕魯
+  - 我名叫安妮羅潔·馮·修特帕魯！
+- wait:
+  - 75
+- print:
+  - 修特帕魯
+  - >2-
+
+    是熾炎戰鬼煉獄血盟暗黑團的團長――
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 1
+- vo:
+  - vo_adv_3011001_124
+- face:
+  - 101311
+  - 2
+- print:
+  - 七七香
+  - 鏗鏗鏗！壞人就由可愛到不行的魔法少女七七香
+- wait:
+  - 55
+- print:
+  - 七七香
+  - >2-
+
+    來解決吧☆　如果身上有什麼稀有的書我會手下留情喔！
+- wait:
+  - 60
+- print:
+  - 七七香
+  - >2
+
+- face:
+  - 101311
+  - 1
+- print:
+  - 七七香
+  - 由昏死模式調整成睡眠模式喔～！
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 1
+- vo:
+  - vo_adv_3011001_125
+- face:
+  - 911
+  - 6
+- print:
+  - 手下３
+  - 裡面不是只有『殺手』……！？
+- wait:
+  - 45
+- print:
+  - 手下３
+  - >2-
+
+    還有『單眼惡魔』和『移動龍卷風』的修特帕魯，
+- wait:
+  - 105
+- print:
+  - 手下３
+  - >2-
+
+    再加上『收藏家』嗎……！？
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 1
+- vo:
+  - vo_adv_3011001_126
+- face:
+  - 811
+  - 6
+- print:
+  - 手下２
+  - 這不是真的吧……裡面不都是這地區數一數二的厲害人物嗎！
+- wait:
+  - 70
+- print:
+  - 手下２
+  - >2-
+
+    我、我們怎麼可能是妳們的對手啊！
+- face:
+  - 811
+  - 4
+- print:
+  - 手下２
+  - 快逃啊～！！
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_armor_go_01
+- wait:
+  - 5
+- se:
+  - se_adv_step_concrete_run_go_01
+- black_out:
+  - 1
+  - 1
+- still:
+  - end
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 1011
+  - C
+  - 6
+- fadein:
+  - 1011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_3011001_127
+- face:
+  - 1011
+  - 6
+- jump:
+  - 1011
+- print:
+  - 優男
+  - 等一下！你們要去哪裡呀！？
+- face:
+  - 1011
+  - 3
+- print:
+  - 優男
+  - 回來呀！！
+- wait:
+  - 40
+- touch: *o0
+- fadeout:
+  - 1011
+- chara_full:
+  - 105612
+  - C
+  - 1
+- fadein:
+  - 105612
+  - 30
+- se:
+  - se_adv_weapon_sword_set_01
+- focus:
+  - 105612
+- bust:
+  - 105612
+  - 0
+- vo:
+  - vo_adv_3011001_128
+- face:
+  - 105612
+  - 1
+- print:
+  - 流夏
+  - 有一群不管用的手下真是辛苦你了呢！
+- wait:
+  - 10
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105612
+  - 3
+- print:
+  - 流夏
+  - ……在我落入你的圈套之前，我會把你收拾乾淨的喔？
+- wait:
+  - 10
+- touch: *o0
+- fadeout:
+  - 105612
+- chara_full:
+  - 1011
+  - C
+  - 3
+- fadein:
+  - 1011
+  - 30
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_3011001_129
+- face:
+  - 1011
+  - 3
+- print:
+  - 優男
+  - 竟然看小看我！我有用魔法道具強化了我的肉體啦！
+- wait:
+  - 105
+- print:
+  - 優男
+  - >2
+
+- effect:
+  - 9
+- print:
+  - 優男
+  - 接我這招吧！
+- touch: *o0
+- fadeout:
+  - 1011
+  - 30
+- chara_full:
+  - 105612
+  - C
+  - 3
+- fadein:
+  - 105612
+  - 30
+- wait:
+  - 10
+- effect:
+  - 0001
+  - se_adv_weapon_sword_whiff_01
+  - 0
+  - R
+- change:
+  - L
+  - C
+  - 15
+- wait:
+  - 30
+- focus:
+  - 105612
+- bust:
+  - 105612
+  - 0
+- vo:
+  - vo_adv_3011001_130
+- face:
+  - 105612
+  - 4
+- print:
+  - 流夏
+  - ……真是的，我很失望耶！
+- wait:
+  - 60
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105612
+  - 3
+- print:
+  - 流夏
+  - 用了道具後也只有這種程度啊……
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- change:
+  - C
+  - L
+- wait:
+  - 10
+- window_visible:
+  - true
+- focus:
+  - 105612
+- bust:
+  - 105612
+  - 0
+- vo:
+  - vo_adv_3011001_131
+- face:
+  - 105612
+  - 2
+- print:
+  - 流夏
+  - 下次一定要請我大吃一頓唷！
+- wait:
+  - 60
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105612
+  - 3
+- print:
+  - 流夏
+  - 用妳的獎金喔――！！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0009
+- scale:
+  - 105612
+  - 1.3
+  - 1
+  - 5
+- fadeout:
+  - 105612
+  - 15
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect_delete:
+  - 0009
+- wait:
+  - 10
+- se:
+  - se_adv_weapon_katana_impact_02
+- effect:
+  - 0016
+- wait:
+  - 30
+- background:
+  - 500012
+- chara_full:
+  - 1011
+  - C
+  - 4
+- fadein:
+  - 1011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_3011001_132
+- face:
+  - 1011
+  - 4
+- print:
+  - 優男
+  - 嗚啊啊啊啊啊！
+- shake:
+  - 1011
+- print:
+  - 優男
+  - ！
+- touch: *o0
+- window_visible:
+  - false
+- updown:
+  - 1011
+  - 0
+  - -80
+  - 0.1
+- bgm:
+  - stop
+  - 4
+- fadeout:
+  - 1011
+  - 30
+- se:
+  - se_adv_bodyfall_02
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 500050
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_restaurant_01
+- amb:
+  - amb_adv_gaya_cmn_01
+- wait:
+  - 15
+- bgm:
+  - bgm_M52
+  - 0
+  - 0
+  - 1
+- chara_full:
+  - 101311
+  - C
+  - 1
+- fadein:
+  - 101311
+  - 30
+- window_visible:
+  - true
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_3011001_133
+- face:
+  - 101311
+  - 1
+- print:
+  - 七七香
+  - ……呃～那麼！
+- wait:
+  - 45
+- print:
+  - 七七香
+  - >2
+
+- face:
+  - 101311
+  - 2
+- jump:
+  - 101311
+- print:
+  - 七七香
+  - 慶祝解決這件事情而乾杯！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_3011001_134
+- face:
+  - 1
+  - 1
+- print:
+  - 一夥
+  - 乾杯～！
+- touch: *o0
+- effect_delete:
+  - 0022
+  - 30
+- fadeout:
+  - 101311
+  - 30
+- chara_full:
+  - 105111
+  - L
+  - 1
+- chara_full:
+  - 105611
+  - C
+  - 1
+- chara_full:
+  - 102711
+  - R
+  - 1
+- fadein_all:
+  - 30
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_3011001_135
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 全部的犯人都抓到了，魔法道具也全都毀壞了呢！
+- wait:
+  - 105
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 這全靠流夏的幫忙呢！謝謝。
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_136
+- face:
+  - 105611
+  - 2
+- print:
+  - 流夏
+  - 我也得到了許多獎金，真的是得救了呢～
+- wait:
+  - 90
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105611
+  - 1
+- print:
+  - 流夏
+  - 沒有什麼比擁有很多旅費更好的事了！
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_3011001_137
+- face:
+  - 105111
+  - 6
+- print:
+  - 深月
+  - 話說回來，蘭德索爾也是妳旅程途中順道經過的呢！
+- wait:
+  - 70
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 妳是有什麼目的的嗎？
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_138
+- face:
+  - 105611
+  - 1
+- print:
+  - 流夏
+  - ……妳們知道『暮光之都』嗎？
+- wait:
+  - 105
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105611
+  - 3
+- print:
+  - 流夏
+  - 我啊～正在找那裡製作出的刀喔！
+- wait:
+  - 105
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105611
+  - 4
+- print:
+  - 流夏
+  - 很可笑吧？竟然會相信這種像是童話故事中的傳說。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_3011001_139
+- face:
+  - 102711
+  - 6
+- print:
+  - 惠理子
+  - ……是這樣嗎？
+- face:
+  - 102711
+  - 2
+- print:
+  - 惠理子
+  - 呵呵呵……
+- wait:
+  - 105
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 5
+- print:
+  - 惠理子
+  - 我們好像命中注定要見面呢……
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_140
+- face:
+  - 105611
+  - 6
+- emotion:
+  - question1_R
+  - 105611
+  - 115
+  - 545
+  - se_adv_emote_question_01
+- print:
+  - 流夏
+  - ……命中注定？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100911
+  - LC
+  - 3
+- chara_full:
+  - 101311
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_3011001_141
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 這個是不能讓機關知道的高度機密情報……
+- wait:
+  - 60
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 2
+- print:
+  - 修特帕魯
+  - 其實我們也在找尋暮光之都喔！
+- face:
+  - 100911
+  - 1
+- print:
+  - 修特帕魯
+  - 這不是什麼可笑的事。
+- wait:
+  - 75
+- print:
+  - 修特帕魯
+  - >2-
+
+    暮光之都是真實存在的！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_3011001_142
+- face:
+  - 101311
+  - 2
+- emotion:
+  - note1_L
+  - 101311
+  - -95
+  - 505
+  - se_adv_emote_note_01
+- print:
+  - 七七香
+  - 其實啊～我們也是在調查暮光之都相關情報的時候
+- wait:
+  - 105
+- print:
+  - 七七香
+  - >2-
+
+    認識的喔～！　
+- face:
+  - 101311
+  - 3
+- print:
+  - 七七香
+  - 然後又在這裡遇到新的夥伴！？
+- wait:
+  - 105
+- print:
+  - 七七香
+  - >2
+
+- face:
+  - 101311
+  - 5
+- print:
+  - 七七香
+  - 哇～這是什麼啊！完全是一件讓人熱血沸騰的事啊～！
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105111
+  - LC
+  - 6
+- chara_full:
+  - 105611
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_3011001_143
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 新的夥伴……
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 這樣不錯耶！
+- wait:
+  - 135
+- print:
+  - 深月
+  - >2-
+
+    反正機會難得，不如就我們這五個人結成公會吧？
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 這樣子
+- wait:
+  - 75
+- print:
+  - 深月
+  - >2-
+
+    要交換情報也會更方便，大家工作起來一定會更順利的。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_144
+- face:
+  - 105611
+  - 6
+- print:
+  - 流夏
+  - 公會啊……
+- face:
+  - 105611
+  - 1
+- print:
+  - 流夏
+  - 還真有趣呢！我也想待在這城鎮一段時間。
+- wait:
+  - 65
+- print:
+  - 流夏
+  - >2-
+
+    能幫忙收集情報也很不錯……
+- face:
+  - 105611
+  - 2
+- print:
+  - 流夏
+  - 這提議算我一份吧！
+- wait:
+  - 60
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100911
+  - RC
+  - 2
+- chara_full:
+  - 102711
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_3011001_145
+- face:
+  - 100911
+  - 2
+- emotion:
+  - twinkle1_R
+  - 100911
+  - -120
+  - 495
+  - se_adv_emote_twinkle_01
+- print:
+  - 修特帕魯
+  - 呼……非得要我加入嗎？
+- face:
+  - 100911
+  - 5
+- print:
+  - 修特帕魯
+  - 那就沒辦法了！
+- wait:
+  - 115
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 2
+- print:
+  - 修特帕魯
+  - 我這疾風之冥姬，就借給你們這禁忌的力量吧！
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_3011001_146
+- face:
+  - 102711
+  - 2
+- print:
+  - 惠理子
+  - 我也贊成喔……今後也請多多關照了。
+- wait:
+  - 75
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 6
+- print:
+  - 惠理子
+  - 那麼，由誰來擔任公會長呢……？
+- wait:
+  - 60
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105611
+  - C
+  - 4
+- fadein:
+  - 105611
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_147
+- face:
+  - 105611
+  - 4
+- print:
+  - 流夏
+  - 該選誰好呢……
+- face:
+  - 105611
+  - 3
+- print:
+  - 流夏
+  - 等、等一下！
+- wait:
+  - 120
+- print:
+  - 流夏
+  - >2-
+
+    妳們為什麼都看著我呀？
+- wait:
+  - 60
+- touch: *o0
+- fadeout:
+  - 105611
+  - 30
+- chara_full:
+  - 105111
+  - LC
+  - 1
+- chara_full:
+  - 101311
+  - RC
+  - 2
+- fadein_all:
+  - 30
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_3011001_148
+- face:
+  - 101311
+  - 2
+- emotion:
+  - note1_L
+  - 101311
+  - -95
+  - 505
+  - se_adv_emote_note_01
+- print:
+  - 七七香
+  - 唉呀～我們是這個城鎮中知名的問題人物嘛！
+- wait:
+  - 100
+- print:
+  - 七七香
+  - >2-
+
+    每一個人都沒有領導能力，所以不適合做什麼公會長！
+- wait:
+  - 100
+- print:
+  - 七七香
+  - >2
+
+- face:
+  - 101311
+  - 1
+- print:
+  - 七七香
+  - 這裡我認為只有流夏你適合做公會長唷！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_3011001_149
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 七七香說得沒錯呢！
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 我們都是有難言之隱的喔！
+- wait:
+  - 55
+- print:
+  - 深月
+  - >2-
+
+    我是密醫，惠理子是保鏢，杏奈是獎金獵人。
+- wait:
+  - 60
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 4
+- print:
+  - 深月
+  - 我們都很難大搖大擺地參加公會的。
+- wait:
+  - 30
+- touch: *o0
+- fadeout:
+  - 101311
+  - 30
+- chara_full:
+  - 105611
+  - RC
+  - 6
+- fadein:
+  - 105611
+  - 30
+- se:
+  - se_adv_step_wood_move_01
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_150
+- face:
+  - 105611
+  - 6
+- jump:
+  - 105611
+- print:
+  - 流夏
+  - 先等一下，妳是密醫啊！？
+- wait:
+  - 55
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105611
+  - 3
+- print:
+  - 流夏
+  - 我怎麼不知道啊！
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_3011001_151
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 我沒說過嗎？
+- wait:
+  - 60
+- print:
+  - 深月
+  - >2
+
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 會使用那種魔法道具的「急診病人」一定不是好東西吧？
+- wait:
+  - 60
+- print:
+  - 深月
+  - >2-
+
+    所以以捉犯人作為條件，抓到之後全部的人都成為了我的實驗品呢♪
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_3011001_152
+- face:
+  - 105611
+  - 4
+- emotion:
+  - sweat1_R
+  - 105611
+  - 80
+  - 590
+  - se_adv_emote_sweat_01
+- print:
+  - 流夏
+  - ……真是的，妳們每一個人還真是深藏不漏呢！
+- wait:
+  - 100
+- print:
+  - 流夏
+  - >2
+
+- emotion_end:
+  - 105611
+- face:
+  - 105611
+  - 2
+- print:
+  - 流夏
+  - 沒辦法了，就由我當公會會長吧！
+- wait:
+  - 60
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    在這個事件之後，被認為是蘭德索爾中最危險的公會─
+
+    「暮光流星群」成立了。
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

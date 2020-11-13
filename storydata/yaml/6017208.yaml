@@ -1,0 +1,271 @@
+- title:
+  - 雷姆的閱讀習慣
+- outline:
+  - ' '
+- background:
+  - 500110
+- amb:
+  - amb_adv_room_noise_day_01
+- ui_visible:
+  - false
+- situation:
+  - 雷姆的閱讀習慣
+- chara_full:
+  - 109711
+  - C
+  - 1
+- fadein:
+  - 109711
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M229_A
+  - 0
+  - 0
+  - 1
+- focus:
+  - 109711
+- bust:
+  - 109711
+  - 0
+- vo:
+  - vo_adv_6017208_000
+- face:
+  - 109711
+  - 1
+- print:
+  - 雷姆
+  - 我想趁在蘭德索爾的時候，
+- wait:
+  - 30
+- print:
+  - 雷姆
+  - 學習一些這裡的文化。
+- wait:
+  - 45
+- print:
+  - 雷姆
+  - >2-
+
+    有沒有什麼參考文獻
+- wait:
+  - 35
+- print:
+  - 雷姆
+  - 可以了解這裡的文化和風土民情呢？
+- touch: &o0 []
+- choice:
+  - 武士道。
+  - 1
+  - 1
+- choice:
+  - 魔法少女鈴鈴噹。
+  - 2
+  - 2
+- choice:
+  - 盟約外典第666章。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 109711
+- bust:
+  - 109711
+  - 0
+- vo:
+  - vo_adv_6017208_001
+- face:
+  - 109711
+  - 6
+- print:
+  - 雷姆
+  - 這份文獻紀載的是
+- wait:
+  - 35
+- print:
+  - 雷姆
+  - 東國……這塊土地的內容吧。
+- wait:
+  - 65
+- print:
+  - 雷姆
+  - >2
+
+- nod:
+  - 109711
+- print:
+  - 雷姆
+  - 嗯，
+- wait:
+  - 40
+- print:
+  - 雷姆
+  - 裡面有出現
+- wait:
+  - 15
+- print:
+  - 雷姆
+  - 忍者和武士這幾個單字。
+- wait:
+  - 65
+- print:
+  - 雷姆
+  - >2-
+
+    我記得
+- wait:
+  - 30
+- print:
+  - 雷姆
+  - 昴也曾經提過一樣的東西……
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 109711
+- bust:
+  - 109711
+  - 0
+- vo:
+  - vo_adv_6017208_002
+- face:
+  - 109711
+  - 1
+- print:
+  - 雷姆
+  - 這是會搬上劇場演出的那種
+- wait:
+  - 50
+- print:
+  - 雷姆
+  - 兒童文學著作對吧！
+- wait:
+  - 55
+- print:
+  - 雷姆
+  - >2-
+
+    如果是住在這個城鎮的人
+- wait:
+  - 35
+- print:
+  - 雷姆
+  - 小時候都會看的書籍，
+- wait:
+  - 35
+- print:
+  - 雷姆
+  - >2-
+
+    應該相當有參考價值。
+- wait:
+  - 50
+- face:
+  - 109711
+  - 2
+- emotion:
+  - note1_L
+  - 109711
+  - -90
+  - 470
+  - se_adv_emote_note_01
+- print:
+  - 雷姆
+  - 謝謝您。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 109711
+- bust:
+  - 109711
+  - 0
+- vo:
+  - vo_adv_6017208_003
+- face:
+  - 109711
+  - 4
+- emotion:
+  - sweat2_R
+  - 109711
+  - 90
+  - 495
+  - se_adv_emote_sweat_02
+- print:
+  - 雷姆
+  - 盟、
+- wait:
+  - 20
+- print:
+  - 雷姆
+  - 盟約外典第666章
+- wait:
+  - 60
+- print:
+  - 雷姆
+  - 嗎……？
+- wait:
+  - 35
+- print:
+  - 雷姆
+  - >2
+
+- face:
+  - 109711
+  - 6
+- print:
+  - 雷姆
+  - 總覺得
+- wait:
+  - 15
+- print:
+  - 雷姆
+  - 是一份內容多到很恐怖的文獻，
+- wait:
+  - 40
+- print:
+  - 雷姆
+  - 雖然不知道能不能讀完，
+- wait:
+  - 45
+- print:
+  - 雷姆
+  - >2
+
+- face:
+  - 109711
+  - 1
+- print:
+  - 雷姆
+  - 不過既然您推薦了，
+- wait:
+  - 30
+- print:
+  - 雷姆
+  - 那雷姆就挑戰看看！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 109711
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

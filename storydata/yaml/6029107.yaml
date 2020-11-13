@@ -1,0 +1,293 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500860
+- amb:
+  - amb_adv_wind_01
+- ui_visible:
+  - false
+- situation:
+  - 去泡溫泉吧
+- chara_full:
+  - 111611
+  - C
+  - 2
+- fadein:
+  - 111611
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M282
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111611
+- bust:
+  - 111611
+  - 0
+- vo:
+  - vo_adv_6029107_000
+- face:
+  - 111611
+  - 2
+- print:
+  - 望
+  - 能順利挖到溫泉真的是太好了！　
+- wait:
+  - 70
+- face:
+  - 111611
+  - 1
+- print:
+  - 望
+  - 感覺會是一個
+- wait:
+  - 35
+- print:
+  - 望
+  - >2-
+
+    能夠享受自然又好玩的溫泉呢。
+- wait:
+  - 45
+- print:
+  - 望
+  - 一想到我就覺得好期待唷！
+- wait:
+  - 50
+- print:
+  - 望
+  - >2-
+
+    完成以後
+- wait:
+  - 20
+- print:
+  - 望
+  - 我一定要去泡！
+- touch: &o0 []
+- choice:
+  - 一起去吧。
+  - 1
+  - 1
+- choice:
+  - 一起泡吧。
+  - 2
+  - 2
+- choice:
+  - 把風的工作就交給我吧。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 111611
+- bust:
+  - 111611
+  - 0
+- vo:
+  - vo_adv_6029107_001
+- face:
+  - 111611
+  - 2
+- emotion:
+  - note1_L
+  - 111611
+  - -85
+  - 465
+  - se_adv_emote_note_01
+- print:
+  - 望
+  - 說得也是！
+- wait:
+  - 15
+- print:
+  - 望
+  - 我們一起去吧！
+- wait:
+  - 40
+- print:
+  - 望
+  - >2
+
+- face:
+  - 111611
+  - 6
+- print:
+  - 望
+  - ……咦？　
+- wait:
+  - 25
+- print:
+  - 望
+  - 怎麼感覺好像做了一個很不得了的約定……？
+- wait:
+  - 85
+- print:
+  - 望
+  - >2
+
+- face:
+  - 111611
+  - 1
+- print:
+  - 望
+  - 不、
+- wait:
+  - 10
+- print:
+  - 望
+  - 不過這樣也不錯！　
+- wait:
+  - 25
+- print:
+  - 望
+  - 嗯！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 111611
+- bust:
+  - 111611
+  - 0
+- vo:
+  - vo_adv_6029107_002
+- face:
+  - 111611
+  - 6
+- print:
+  - 望
+  - 咦！
+- wait:
+  - 15
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 111611
+- print:
+  - 望
+  - 咦咦！？　
+- wait:
+  - 15
+- print:
+  - 望
+  - 你說一起……
+- wait:
+  - 25
+- print:
+  - 望
+  - 咦咦～！？
+- wait:
+  - 30
+- print:
+  - 望
+  - >2
+
+- face:
+  - 111611
+  - 4
+- print:
+  - 望
+  - 可，
+- wait:
+  - 15
+- print:
+  - 望
+  - 可是我是偶像……
+- wait:
+  - 45
+- print:
+  - 望
+  - 不過，
+- wait:
+  - 25
+- print:
+  - 望
+  - 如果你不介意的話，
+- wait:
+  - 45
+- print:
+  - 望
+  - >2-
+
+    那個……
+- wait:
+  - 50
+- face:
+  - 111611
+  - 6
+- print:
+  - 望
+  - 果、
+- wait:
+  - 20
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 111611
+- print:
+  - 望
+  - 果然還是不可以啦！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 111611
+- bust:
+  - 111611
+  - 0
+- vo:
+  - vo_adv_6029107_003
+- face:
+  - 111611
+  - 6
+- emotion:
+  - surprise1_L
+  - 111611
+  - 155
+  - 535
+  - se_adv_emote_common_01
+- print:
+  - 望
+  - 為什麼會變成那樣！？
+- wait:
+  - 55
+- print:
+  - 望
+  - >2-
+
+    ……不過，
+- wait:
+  - 25
+- print:
+  - 望
+  - 感覺就像我專屬的保鑣一樣，感覺有點開心？
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 111611
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

@@ -1,0 +1,311 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500730
+- amb:
+  - amb_adv_outdoors_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - どこから来たの
+- chara_full:
+  - 110811
+  - C
+  - 1
+- fadein:
+  - 110811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M180_Ver2
+  - 0
+  - 0
+  - 1
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_6023107_000
+- face:
+  - 110811
+  - 1
+- print:
+  - クロエ
+  - 今度ユニ先輩にランドソルの案内することンなってさ。
+- wait:
+  - 70
+- print:
+  - クロエ
+  - >2
+
+- nod:
+  - 110811
+- print:
+  - クロエ
+  - ま、
+- wait:
+  - 30
+- print:
+  - クロエ
+  - あの人山奥育ちだから、
+- wait:
+  - 40
+- print:
+  - クロエ
+  - 都会の街とか珍しいんだろうね。
+- wait:
+  - 60
+- print:
+  - クロエ
+  - >2-
+
+    あんたは？　
+- wait:
+  - 25
+- print:
+  - クロエ
+  - ドソル生まれのドソル育ち？
+- touch: &o0 []
+- choice:
+  - 家はない。
+  - 1
+  - 1
+- choice:
+  - 記憶がない。
+  - 2
+  - 2
+- choice:
+  - 僕には何もない。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_6023107_001
+- face:
+  - 110811
+  - 1
+- print:
+  - クロエ
+  - 家はない。
+- wait:
+  - 45
+- print:
+  - クロエ
+  - >2
+
+- nod:
+  - 110811
+- print:
+  - クロエ
+  - あー、
+- wait:
+  - 15
+- print:
+  - クロエ
+  - そうなんだ。
+- wait:
+  - 35
+- print:
+  - クロエ
+  - >2-
+
+    うん、
+- wait:
+  - 40
+- print:
+  - クロエ
+  - まあ、
+- wait:
+  - 10
+- print:
+  - クロエ
+  - 人生色々あるよね。
+- wait:
+  - 70
+- eye_open:
+  - False
+- print:
+  - クロエ
+  - えっと……
+- wait:
+  - 65
+- eye_open:
+  - True
+- print:
+  - クロエ
+  - 良かったらうち来る？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_6023107_002
+- face:
+  - 110811
+  - 6
+- print:
+  - クロエ
+  - あー……
+- wait:
+  - 30
+- print:
+  - クロエ
+  - そうだったね、
+- wait:
+  - 15
+- print:
+  - クロエ
+  - ごめん。
+- wait:
+  - 35
+- print:
+  - クロエ
+  - >2
+
+- face:
+  - 110811
+  - 1
+- nod:
+  - 110811
+- print:
+  - クロエ
+  - したら、
+- wait:
+  - 10
+- print:
+  - クロエ
+  - あんたも一緒にガイドしてあげるよ。
+- wait:
+  - 30
+- print:
+  - クロエ
+  - >2-
+
+    知んないけど、
+- wait:
+  - 30
+- face:
+  - 110811
+  - 2
+- print:
+  - クロエ
+  - 無くなった分は新しく作ればいんじゃないの。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_6023107_003
+- face:
+  - 110811
+  - 6
+- print:
+  - クロエ
+  - えっ……
+- wait:
+  - 20
+- print:
+  - クロエ
+  - あ、いや……
+- wait:
+  - 25
+- print:
+  - クロエ
+  - そんなことはない、
+- wait:
+  - 30
+- print:
+  - クロエ
+  - と思うよ？
+- wait:
+  - 50
+- print:
+  - クロエ
+  - >2
+
+- face:
+  - 110811
+  - 1
+- print:
+  - クロエ
+  - たしかにあんたはアレだけど、
+- wait:
+  - 45
+- nod:
+  - 110811
+- print:
+  - クロエ
+  - ほら、
+- wait:
+  - 25
+- print:
+  - クロエ
+  - 立派にアレだし、
+- wait:
+  - 35
+- print:
+  - クロエ
+  - >2-
+
+    結構アレなとこもアレじゃん。
+- wait:
+  - 35
+- print:
+  - クロエ
+  - だから
+- wait:
+  - 30
+- print:
+  - クロエ
+  - アレだと思うよ。
+- wait:
+  - 35
+- face:
+  - 110811
+  - 2
+- print:
+  - クロエ
+  - ね。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 110811
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

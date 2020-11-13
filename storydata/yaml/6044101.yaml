@@ -1,0 +1,306 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 501030
+- amb:
+  - amb_adv_seaside_01
+- ui_visible:
+  - false
+- situation:
+  - 在海邊做的事
+- chara_full:
+  - 113111
+  - C
+  - 6
+- fadein:
+  - 113111
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M381
+  - 0
+  - 0
+  - 1
+- focus:
+  - 113111
+- bust:
+  - 113111
+  - 0
+- vo:
+  - vo_adv_6044101_000
+- face:
+  - 113111
+  - 6
+- print:
+  - 流夏
+  - 來海邊是不錯，
+- wait:
+  - 50
+- print:
+  - 流夏
+  - 不過光是游泳也會累。
+- wait:
+  - 75
+- print:
+  - 流夏
+  - >2-
+
+    我想做點其他事情放鬆一下，
+- wait:
+  - 70
+- print:
+  - 流夏
+  - 但該做什麼才好……
+- wait:
+  - 65
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 113111
+  - 1
+- print:
+  - 流夏
+  - 你
+- wait:
+  - 25
+- print:
+  - 流夏
+  - 有沒有什麼想做的事？
+- touch: &o0 []
+- choice:
+  - 找寄居蟹。
+  - 1
+  - 1
+- choice:
+  - 玩沙子。
+  - 2
+  - 2
+- choice:
+  - 睡覺。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 113111
+- bust:
+  - 113111
+  - 0
+- vo:
+  - vo_adv_6044101_001
+- face:
+  - 113111
+  - 2
+- print:
+  - 流夏
+  - 喔，
+- wait:
+  - 20
+- print:
+  - 流夏
+  - 那似乎也不錯。
+- wait:
+  - 45
+- print:
+  - 流夏
+  - 大概
+- wait:
+  - 10
+- print:
+  - 流夏
+  - 這附近就有……
+- wait:
+  - 40
+- nod:
+  - 113111
+- print:
+  - 流夏
+  - 嘿咻！
+- wait:
+  - 30
+- print:
+  - 流夏
+  - >2-
+
+    那麼，
+- wait:
+  - 25
+- print:
+  - 流夏
+  - 要抓幾隻？
+- wait:
+  - 45
+- print:
+  - 流夏
+  - 如果要能吃飽，大概十隻左右……
+- wait:
+  - 60
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 113111
+  - 6
+- print:
+  - 流夏
+  - 咦，
+- wait:
+  - 20
+- print:
+  - 流夏
+  - 你問為什麼？
+- wait:
+  - 40
+- print:
+  - 流夏
+  - 難道不是要抓來吃的嗎？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 113111
+- bust:
+  - 113111
+  - 0
+- vo:
+  - vo_adv_6044101_002
+- face:
+  - 113111
+  - 6
+- print:
+  - 流夏
+  - 玩沙啊……
+- wait:
+  - 60
+- face:
+  - 113111
+  - 1
+- print:
+  - 流夏
+  - 啊，
+- wait:
+  - 20
+- print:
+  - 流夏
+  - 對了。
+- wait:
+  - 40
+- print:
+  - 流夏
+  - 我剛好有想嘗試的事情，
+- wait:
+  - 35
+- print:
+  - 流夏
+  - >2-
+
+    你可以幫我把沙子堆起來嗎？
+- wait:
+  - 50
+- print:
+  - 流夏
+  - 對，
+- wait:
+  - 15
+- print:
+  - 流夏
+  - 就是那種感覺。
+- wait:
+  - 60
+- face:
+  - 113111
+  - 3
+- nod:
+  - 113111
+- se:
+  - se_adv_weapon_sword_whiff_01
+- print:
+  - 流夏
+  - 喝！
+- wait:
+  - 45
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 113111
+  - 4
+- print:
+  - 流夏
+  - ……嗯～
+- wait:
+  - 45
+- print:
+  - 流夏
+  - 要靠著刀用斬擊來雕塑形狀似乎有困難。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 113111
+- bust:
+  - 113111
+  - 0
+- vo:
+  - vo_adv_6044101_003
+- face:
+  - 113111
+  - 2
+- print:
+  - 流夏
+  - 在這種陽光充足的地方睡覺也很舒服呢。
+- wait:
+  - 85
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 113111
+  - 1
+- print:
+  - 流夏
+  - ……這麼說來，
+- wait:
+  - 25
+- print:
+  - 流夏
+  - 我在那邊有看到吊床。
+- wait:
+  - 45
+- print:
+  - 流夏
+  - >2-
+
+    讓我們來享受一下悠閒搖曳的時光吧。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 113111
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

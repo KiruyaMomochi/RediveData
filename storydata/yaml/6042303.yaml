@@ -1,0 +1,279 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 501000
+- amb:
+  - amb_adv_outdoors_day_01
+- ui_visible:
+  - false
+- situation:
+  - 救世主璃乃
+- chara_full:
+  - 100113
+  - C
+  - 6
+- fadein:
+  - 100113
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M376_03
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100113
+- bust:
+  - 100113
+  - 0
+- vo:
+  - vo_adv_6042303_000
+- face:
+  - 100113
+  - 6
+- print:
+  - 日和
+  - 璃乃竟然被選為拯救這個世界的救世主，
+- wait:
+  - 65
+- face:
+  - 100113
+  - 2
+- print:
+  - 日和
+  - 真厲害呢！
+- wait:
+  - 45
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100113
+  - 1
+- print:
+  - 日和
+  - 我也要加把勁，
+- wait:
+  - 25
+- print:
+  - 日和
+  - 幫上璃乃的忙～！
+- touch: &o0 []
+- choice:
+  - 希望妳能成為璃乃的助力。
+  - 1
+  - 1
+- choice:
+  - 我會幫助日和的。
+  - 2
+  - 2
+- choice:
+  - 一起加油吧。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 100113
+- bust:
+  - 100113
+  - 0
+- vo:
+  - vo_adv_6042303_001
+- face:
+  - 100113
+  - 1
+- nod:
+  - 100113
+- print:
+  - 日和
+  - 這是當然的！
+- wait:
+  - 40
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100113
+  - 2
+- print:
+  - 日和
+  - 欸嘿嘿，
+- wait:
+  - 35
+- print:
+  - 日和
+  - 說出這番話的騎士先生，
+- wait:
+  - 35
+- print:
+  - 日和
+  - 就像璃乃真正的哥哥一樣呢！
+- wait:
+  - 55
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100113
+  - 5
+- print:
+  - 日和
+  - ……
+- wait:
+  - 15
+- print:
+  - 日和
+  - 總覺得
+- wait:
+  - 30
+- print:
+  - 日和
+  - 有一點點羨慕璃乃。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 100113
+- bust:
+  - 100113
+  - 0
+- vo:
+  - vo_adv_6042303_002
+- face:
+  - 100113
+  - 6
+- emotion:
+  - question1_R
+  - 100113
+  - 115
+  - 515
+  - se_adv_emote_question_01
+- print:
+  - 日和
+  - 咦？
+- wait:
+  - 30
+- print:
+  - 日和
+  - 騎士先生要幫助我，
+- wait:
+  - 50
+- print:
+  - 日和
+  - 幫助璃乃？
+- wait:
+  - 60
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100113
+  - 2
+- print:
+  - 日和
+  - 欸嘿嘿……
+- wait:
+  - 50
+- face:
+  - 100113
+  - 1
+- print:
+  - 日和
+  - 這樣啊。
+- wait:
+  - 40
+- print:
+  - 日和
+  - 有了騎士先生的幫助
+- wait:
+  - 35
+- print:
+  - 日和
+  - >2-
+
+    簡直是如虎添翼呢！
+- wait:
+  - 45
+- face:
+  - 100113
+  - 2
+- print:
+  - 日和
+  - 我們來幫助璃乃
+- wait:
+  - 35
+- print:
+  - 日和
+  - 拯救這個世界吧！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 100113
+- bust:
+  - 100113
+  - 0
+- vo:
+  - vo_adv_6042303_003
+- face:
+  - 100113
+  - 1
+- nod:
+  - 100113
+- print:
+  - 日和
+  - 嗯！
+- wait:
+  - 30
+- print:
+  - 日和
+  - 有我、騎士先生，
+- wait:
+  - 30
+- print:
+  - 日和
+  - 還有步未也在，
+- wait:
+  - 35
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100113
+  - 2
+- print:
+  - 日和
+  - 我們不會讓璃乃遇到任何危險的唷～！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 100113
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

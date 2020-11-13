@@ -1,0 +1,1380 @@
+- title:
+  - 雪 第6話
+- outline:
+  - 雪參加了選美活動，得到了獎金和獎品。用獎品的魔法之鏡創造分身後，兩位雪爭吵著自己才是最可愛的人。被迫擔任判定的角色的{0}，感到不知所措。
+- background:
+  - 500030
+- amb:
+  - amb_adv_crowd_concert_02
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 究極的雪vs至高的雪
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 雪參加了蘭德索爾的選美活動。
+- touch: &o0 []
+- window_visible:
+  - false
+- bgm:
+  - bgm_M36
+  - 0
+  - 0
+  - 1
+- chara_full:
+  - 311
+  - C
+  - 1
+- fadein:
+  - 311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1008006_000
+- face:
+  - 311
+  - 1
+- print:
+  - 司儀
+  - 優勝者，是第8號參賽者！
+- wait:
+  - 40
+- print:
+  - 司儀
+  - >2-
+
+    雪！！
+- touch: *o0
+- fadeout:
+  - 311
+  - 30
+- chara_full:
+  - 100811
+  - C
+  - 6
+- fadein:
+  - 100811
+  - 30
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008006_001
+- face:
+  - 100811
+  - 6
+- print:
+  - 雪
+  - 我是優勝！？
+- face:
+  - 100811
+  - 2
+- print:
+  - 雪
+  - 太好了―！
+- wait:
+  - 75
+- print:
+  - 雪
+  - >2
+
+- face:
+  - 100811
+  - 1
+- print:
+  - 雪
+  - 嗯，不過以我的可愛程度，這是理所當然的結果對吧？
+- wait:
+  - 60
+- touch: *o0
+- window_visible:
+  - false
+- change:
+  - LC
+  - C
+- wait:
+  - 15
+- chara_full:
+  - 311
+  - RC
+  - 1
+- fadein:
+  - 311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1008006_002
+- face:
+  - 311
+  - 1
+- print:
+  - 司儀
+  - 接下來，就頒發給優勝者獎金，以及次獎的獎品――。
+- wait:
+  - 60
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 3.2
+  - 1
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500031
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_town_day_01
+- chara_full:
+  - 100811
+  - C
+  - 1
+- fadein:
+  - 100811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M71
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008006_003
+- face:
+  - 100811
+  - 1
+- emotion:
+  - notice1_L
+  - 100811
+  - -85
+  - 525
+  - se_adv_emote_common_01
+- print:
+  - 雪
+  - 啊―，
+- wait:
+  - 10
+- print:
+  - 雪
+  - >2-
+
+    你有在看嗎？
+- wait:
+  - 30
+- print:
+  - 雪
+  - >2
+
+- face:
+  - 100811
+  - 2
+- print:
+  - 雪
+  - 我在選美比賽得到優勝唷！
+- wait:
+  - 10
+- touch: *o0
+- choice:
+  - 恭喜你。 你非常漂亮。
+  - 1
+- choice:
+  - 選美比賽……女孩子的比賽？
+  - 2
+- tag:
+  - 1
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008006_004
+- face:
+  - 100811
+  - 2
+- print:
+  - 雪
+  - 呵呵，謝謝呢。
+- wait:
+  - 40
+- print:
+  - 雪
+  - >2-
+
+    出自你口中的祝賀，
+- wait:
+  - 30
+- print:
+  - 雪
+  - >2-
+
+    比起其他人的更讓我更開心呢。
+- wait:
+  - 15
+- touch: *o0
+- goto:
+  - 3
+- tag:
+  - 2
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008006_005
+- face:
+  - 100811
+  - 1
+- print:
+  - 雪
+  - 這麼在意芝麻小事可是不行的唷。
+- wait:
+  - 40
+- print:
+  - 雪
+  - >2-
+
+    美麗當前，和性別可是沒有關係的。
+- wait:
+  - 30
+- touch: *o0
+- tag:
+  - 3
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008006_006
+- face:
+  - 100811
+  - 1
+- print:
+  - 雪
+  - 來嘛，你看看。
+- wait:
+  - 45
+- print:
+  - 雪
+  - >2-
+
+    我還拿到獎金了唷。
+- wait:
+  - 10
+- print:
+  - 雪
+  - >2
+
+- face:
+  - 100811
+  - 2
+- print:
+  - 雪
+  - 呵呵，是一大筆錢唷……
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 100811
+  - 4
+- effect:
+  - 0025
+  - se_adv_cold_wind_01
+- wait:
+  - 60
+- window_visible:
+  - true
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008006_007
+- face:
+  - 100811
+  - 4
+- eye_open:
+  - FALSE
+- print:
+  - 雪
+  - 嗯，不過之前擅自把公會的財產賣掉了，
+- wait:
+  - 60
+- print:
+  - 雪
+  - >2-
+
+    所以變成把東西贖回來的資金了呢……
+- touch: *o0
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008006_008
+- face:
+  - 100811
+  - 1
+- eye_open:
+  - TRUE
+- print:
+  - 雪
+  - 只要有這些錢，似乎就能全部贖回來了，
+- wait:
+  - 60
+- print:
+  - 雪
+  - >2-
+
+    大家應該也會原諒我了吧。
+- touch: *o0
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008006_009
+- face:
+  - 100811
+  - 3
+- print:
+  - 雪
+  - 啊，不過我不是為了錢才參加選美的唷。
+- wait:
+  - 40
+- print:
+  - 雪
+  - >2
+
+- face:
+  - 100811
+  - 1
+- print:
+  - 雪
+  - 獎金說到底也只是順便拿的呢。
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008006_010
+- face:
+  - 100811
+  - 6
+- print:
+  - 雪
+  - 我真的想要的，是這個次獎獎品唷。
+- wait:
+  - 75
+- print:
+  - 雪
+  - >2
+
+- face:
+  - 100811
+  - 1
+- print:
+  - 雪
+  - 這是一面魔法之鏡呀。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008006_011
+- face:
+  - 100811
+  - 1
+- print:
+  - 雪
+  - 據說只要用這個，就能創造分身。
+- wait:
+  - 75
+- print:
+  - 雪
+  - >2
+
+- face:
+  - 100811
+  - 2
+- print:
+  - 雪
+  - 可愛的我就會變成兩個人唷？
+- touch: *o0
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008006_012
+- face:
+  - 100811
+  - 4
+- print:
+  - 雪
+  - 如果是普通的鏡子，不管怎麼調角度就是有很難看到的地方呢。
+- wait:
+  - 90
+- print:
+  - 雪
+  - >2-
+
+    為了好好呵護我的全身，這個是一定要的啦。
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008006_013
+- face:
+  - 100811
+  - 2
+- emotion:
+  - note1_L
+  - 100811
+  - -90
+  - 530
+  - se_adv_emote_note_01
+- print:
+  - 雪
+  - 真是期待呢～趕快來用用看！
+- wait:
+  - 60
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+- window_visible:
+  - false
+- face:
+  - 100811
+  - 1
+- nod:
+  - 100811
+- fadeout:
+  - 100811
+  - 30
+- effect:
+  - 0024
+  - se_adv_chara_transform_01
+- wait:
+  - 15
+- chara_full:
+  - 100811
+  - C
+  - 1
+- fadein:
+  - 100811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M11
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008006_014
+- face:
+  - 100811
+  - 6
+- print:
+  - 雪
+  - 好厲害！
+- wait:
+  - 30
+- print:
+  - 雪
+  - >2-
+
+    我真的變成兩個人了！
+- touch: *o0
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008006_015
+- face:
+  - 100811
+  - 5
+- print:
+  - 雪
+  - 啊啊，我果然很可愛呢……
+- wait:
+  - 75
+- print:
+  - 雪
+  - >2-
+
+    多麼地美麗啊。
+- touch: *o0
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008006_016
+- face:
+  - 100811
+  - 4
+- print:
+  - 雪
+  - 唔～嗯……
+- nod:
+  - 100811
+- print:
+  - 雪
+  - 不過，果然分身還是不行呢。
+- wait:
+  - 75
+- print:
+  - 雪
+  - >2-
+
+    我覺得還是我比較可愛唷。
+- touch: *o0
+- fadeout:
+  - 100811
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100811
+  - C
+  - 6
+- fadein:
+  - 100811
+  - 30
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008006_017
+- face:
+  - 100811
+  - 6
+- emotion:
+  - question1_R
+  - 100811
+  - 100
+  - 500
+  - '*non'
+- print:
+  - 分身雪
+  - 你在說什麼？
+- wait:
+  - 45
+- print:
+  - 分身雪
+  - >2-
+
+    當然是我比較可愛唷。
+- touch: *o0
+- fadeout:
+  - 100811
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 100811
+  - C
+  - 6
+- fadein:
+  - 100811
+  - 30
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008006_018
+- face:
+  - 100811
+  - 6
+- shake:
+  - 100811
+- print:
+  - 雪
+  - 什……！？
+- wait:
+  - 10
+- print:
+  - 雪
+  - >2
+
+- face:
+  - 100811
+  - 3
+- print:
+  - 雪
+  - 明明只是分身，還真敢說呢……
+- wait:
+  - 60
+- print:
+  - 雪
+  - >2-
+
+    絕對是我比較可愛！
+- wait:
+  - 30
+- touch: *o0
+- fadeout:
+  - 100811
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100811
+  - C
+  - 3
+- fadein:
+  - 100811
+  - 30
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008006_019
+- face:
+  - 100811
+  - 3
+- print:
+  - 分身雪
+  - 不對，
+- pop:
+  - 100811
+- print:
+  - 分身雪
+  - 可愛的是我才對唷！
+- wait:
+  - 60
+- print:
+  - 分身雪
+  - >2
+
+- face:
+  - 100811
+  - 2
+- print:
+  - 分身雪
+  - 你看，這個瀏海的處理方式……是我比較厲害對吧。
+- wait:
+  - 75
+- touch: *o0
+- fadeout:
+  - 100811
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 100811
+  - C
+  - 1
+- fadein:
+  - 100811
+  - 30
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008006_020
+- face:
+  - 100811
+  - 1
+- print:
+  - 雪
+  - 那又怎樣呢。
+- wait:
+  - 45
+- print:
+  - 雪
+  - >2
+
+- face:
+  - 100811
+  - 2
+- pop:
+  - 100811
+- print:
+  - 雪
+  - 像我，可是整頭頭髮都散發出可愛氣息唷。
+- wait:
+  - 15
+- touch: *o0
+- fadeout:
+  - 100811
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100811
+  - C
+  - 3
+- fadein:
+  - 100811
+  - 30
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008006_021
+- face:
+  - 100811
+  - 3
+- print:
+  - 分身雪
+  - 既然這樣，我全身都很可愛唷！
+- wait:
+  - 45
+- touch: *o0
+- fadeout:
+  - 100811
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 100811
+  - C
+  - 3
+- fadein:
+  - 100811
+  - 30
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008006_022
+- face:
+  - 100811
+  - 3
+- print:
+  - 雪
+  - 如果是全身，那當然就是我比較可愛呢！
+- wait:
+  - 45
+- print:
+  - 雪
+  - >2
+
+- face:
+  - 100811
+  - 4
+- print:
+  - 雪
+  - 明明是我的分身，美感卻令人懷疑……
+- wait:
+  - 15
+- touch: *o0
+- fadeout:
+  - 100811
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100811
+  - C
+  - 3
+- fadein:
+  - 100811
+  - 30
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008006_023
+- face:
+  - 100811
+  - 3
+- print:
+  - 分身雪
+  - 那是我的台詞才對吧。
+- wait:
+  - 45
+- print:
+  - 分身雪
+  - >2
+
+- face:
+  - 100811
+  - 4
+- print:
+  - 分身雪
+  - 明明是我，卻完全察覺不到真正的可愛……
+- wait:
+  - 30
+- touch: *o0
+- fadeout:
+  - 100811
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 100811
+  - C
+  - 1
+- fadein:
+  - 100811
+  - 30
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008006_024
+- face:
+  - 100811
+  - 1
+- print:
+  - 雪
+  - 呵呵，竟然敢找我吵架，真是好膽量呢。
+- wait:
+  - 75
+- print:
+  - 雪
+  - >2
+
+- face:
+  - 100811
+  - 2
+- print:
+  - 雪
+  - 那就問問這個人吧。
+- wait:
+  - 30
+- touch: *o0
+- fadeout:
+  - 100811
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100811
+  - C
+  - 3
+- fadein:
+  - 100811
+  - 30
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008006_025
+- face:
+  - 100811
+  - 1
+- print:
+  - 分身雪
+  - 不錯呢。
+- wait:
+  - 30
+- print:
+  - 分身雪
+  - >2
+
+- face:
+  - 100811
+  - 2
+- print:
+  - 分身雪
+  - 如果是這個人，就能清楚
+- wait:
+  - 30
+- print:
+  - 分身雪
+  - >2-
+
+    分出誰比較可愛了。
+- touch: *o0
+- fadeout:
+  - 100811
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 100811
+  - C
+  - 1
+- fadein:
+  - 100811
+  - 30
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008006_026
+- face:
+  - 100811
+  - 3
+- print:
+  - 雪
+  - 你認為我和分身，誰比較可愛？
+- touch: *o0
+- choice:
+  - 都很可愛喔。
+  - 4
+- choice:
+  - 這我沒有辦法選……
+  - 5
+- tag:
+  - 4
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008006_027
+- face:
+  - 100811
+  - 3
+- emotion:
+  - anger1_R
+  - 100811
+  - -115
+  - 535
+  - se_adv_emote_anger_01
+- print:
+  - 雪
+  - 那是理所當然的吧！
+- wait:
+  - 60
+- print:
+  - 雪
+  - >2-
+
+    我是在問你可愛的我們之間，
+- wait:
+  - 30
+- print:
+  - 雪
+  - >2-
+
+    誰比較可愛。
+- touch: *o0
+- goto:
+  - 6
+- tag:
+  - 5
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008006_028
+- face:
+  - 100811
+  - 4
+- print:
+  - 雪
+  - 如果你不選出一個，我們會很困擾的。
+- wait:
+  - 10
+- print:
+  - 雪
+  - >2
+
+- face:
+  - 100811
+  - 3
+- print:
+  - 雪
+  - 靠近點，再仔細看看！
+- wait:
+  - 25
+- touch: *o0
+- tag:
+  - 6
+- fadeout:
+  - 100811
+  - 30
+- chara_full:
+  - 100811
+  - C
+  - 3
+- scale:
+  - 100811
+  - 1.3
+  - 2
+- se:
+  - se_adv_step_concrete_move_01
+- fadein:
+  - 100811
+  - 30
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008006_029
+- face:
+  - 100811
+  - 3
+- print:
+  - 雪
+  - 就只能靠你來決定了！
+- wait:
+  - 15
+- touch: *o0
+- fadeout:
+  - 100811
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100811
+  - C
+  - 1
+- scale:
+  - 100811
+  - 1.3
+  - 2
+- se:
+  - se_adv_step_concrete_move_01
+- fadein:
+  - 100811
+  - 30
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008006_030
+- face:
+  - 100811
+  - 1
+- print:
+  - 分身雪
+  - 我，還有我……誰比較可愛？
+- wait:
+  - 30
+- touch: *o0
+- se:
+  - se_adv_cloth_move_normal_01
+- fadeout:
+  - 100811
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 100811
+  - C
+  - 3
+- scale:
+  - 100811
+  - 1.3
+  - 2
+- se:
+  - se_adv_step_concrete_move_01
+- fadein:
+  - 100811
+  - 30
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008006_031
+- face:
+  - 100811
+  - 3
+- print:
+  - 雪
+  - 來吧，快點說出來吧！
+- wait:
+  - 40
+- print:
+  - 雪
+  - >2-
+
+    說我比較可愛！
+- touch: *o0
+- se:
+  - se_adv_cloth_move_normal_01
+- fadeout:
+  - 100811
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100811
+  - C
+  - 2
+- scale:
+  - 100811
+  - 1.3
+  - 2
+- se:
+  - se_adv_step_concrete_move_01
+- fadein:
+  - 100811
+  - 30
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008006_032
+- face:
+  - 100811
+  - 2
+- print:
+  - 分身雪
+  - 不對，可愛的是我對吧！
+- wait:
+  - 15
+- touch: *o0
+- choice:
+  - ……溜之大吉！
+  - 7
+- tag:
+  - 7
+- fadeout:
+  - 100811
+  - 30
+- se:
+  - se_adv_step_concrete_run_go_01
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 100811
+  - C
+  - 6
+- scale:
+  - 100811
+  - 1.3
+  - 2
+- fadein:
+  - 100811
+  - 30
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008006_033
+- face:
+  - 100811
+  - 6
+- print:
+  - 雪
+  - 啊！
+- face:
+  - 100811
+  - 3
+- print:
+  - 雪
+  - 你要去哪裡！？
+- wait:
+  - 15
+- touch: *o0
+- fadeout:
+  - 100811
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100811
+  - C
+  - 3
+- scale:
+  - 100811
+  - 1.3
+  - 2
+- fadein:
+  - 100811
+  - 30
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008006_034
+- face:
+  - 100811
+  - 3
+- print:
+  - 分身雪
+  - 在你說出誰比較可愛之前，不會讓你逃走的唷！
+- wait:
+  - 30
+- touch: *o0
+- fadeout:
+  - 100811
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    於是在魔法的效果消失之前，
+
+    {0}不斷被兩位雪四處追趕……
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

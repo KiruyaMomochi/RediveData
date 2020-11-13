@@ -1,0 +1,4285 @@
+- title:
+  - 第14章 第7話
+- outline:
+  - '{0}解救了因為魔物而跟同伴分散的優衣。在【慈樂之音】的幫助下跟{0}會合的真琴等人，團結一心地開始討伐闇影。'
+- background:
+  - 500780
+- amb:
+  - amb_adv_monsters_outdoor_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 被指引的少女們
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 於首都蘭德索爾之中，
+- wait:
+  - 30
+- print:
+  - 旁白
+  - >2-
+
+    那些和{0}牽起羈絆的少女們。
+- touch: &o0 []
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 她們如今，仍然還在拼了命地戰鬥著……
+- wait:
+  - 30
+- print:
+  - 旁白
+  - >2-
+
+    然而她們卻因霸瞳皇帝所操縱的魔物們，
+- wait:
+  - 30
+- print:
+  - 旁白
+  - >2-
+
+    導致與夥伴們分散，並且也各自皆陷入了絕境之中。
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - true
+- bgm:
+  - bgm_M109
+  - 0
+  - 0
+  - 1
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- effect:
+  - 9
+- print:
+  - 魔物
+  - ――咕喔喔喔喔喔！
+- shake_screen: *o0
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1611
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100312
+  - C
+  - 3
+- fadein:
+  - 100312
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100312
+- bust:
+  - 100312
+  - 0
+- vo:
+  - vo_adv_2014007_000
+- face:
+  - 100312
+  - 3
+- print:
+  - 怜
+  - 喝……！
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_step_concrete_move_01
+- effect:
+  - 0009
+- scale:
+  - 100312
+  - 1.2
+  - 1
+  - 10
+- fadeout:
+  - 100312
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- se:
+  - se_adv_weapon_sword_multi_hit_01
+- effect:
+  - 0033
+- wait:
+  - 15
+- background:
+  - 500780
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- wait:
+  - 10
+- se:
+  - se_adv_creature_cmn_04
+- sway:
+  - 1611
+- wait:
+  - 15
+- updown:
+  - 1611
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1611
+  - 15
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- wait:
+  - 15
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 100312
+  - C
+  - 3
+- fadein:
+  - 100312
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100312
+- bust:
+  - 100312
+  - 0
+- vo:
+  - vo_adv_2014007_001
+- face:
+  - 100312
+  - 3
+- nod:
+  - 100312
+- print:
+  - 怜
+  - 可惡！
+- wait:
+  - 25
+- print:
+  - 怜
+  - >2-
+
+    這可真是完全被孤立起來了呢……！
+- wait:
+  - 45
+- print:
+  - 怜
+  - >2-
+
+    優衣，
+- wait:
+  - 15
+- print:
+  - 怜
+  - 日和！　
+- wait:
+  - 15
+- print:
+  - 怜
+  - 妳們在哪裡！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100312
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_monsters_outdoor_01
+- chara_full:
+  - 106113
+  - LC
+  - 3
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 30
+- fadein:
+  - 106113
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_2014007_002
+- face:
+  - 106113
+  - 3
+- print:
+  - 矛依未
+  - ……哈啊，
+- wait:
+  - 30
+- nod:
+  - 106113
+- print:
+  - 矛依未
+  - 哈啊……！
+- wait:
+  - 25
+- print:
+  - 矛依未
+  - >2-
+
+    不論是哪個方向都有一大堆魔物啊，
+- wait:
+  - 35
+- print:
+  - 矛依未
+  - >2-
+
+    都快要搞不清楚自己是往哪裡在跑了呀……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106113
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_monsters_outdoor_01
+- chara_full:
+  - 101112
+  - RC
+  - 4
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - RC
+  - 30
+- fadein:
+  - 101112
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 0
+- vo:
+  - vo_adv_2014007_003
+- face:
+  - 101112
+  - 4
+- pop:
+  - 101112
+- print:
+  - 璃乃
+  - 嗚哇啊～！
+- wait:
+  - 55
+- print:
+  - 璃乃
+  - >2-
+
+    靜流姐，
+- wait:
+  - 35
+- print:
+  - 璃乃
+  - 妳在哪裡啊～！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101112
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_monsters_outdoor_01
+- chara_full:
+  - 100111
+  - C
+  - 3
+- fadein:
+  - 100111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2014007_004
+- face:
+  - 100111
+  - 3
+- emotion:
+  - gloomy1_R
+  - 100111
+  - 55
+  - 535
+  - se_adv_emote_gloomy_01
+- print:
+  - 日和
+  - 唔唔～……
+- wait:
+  - 40
+- print:
+  - 日和
+  - 以為看到了個被魔物追的小孩，所以
+- wait:
+  - 35
+- print:
+  - 日和
+  - >2-
+
+    想說不去救不行，
+- wait:
+  - 15
+- print:
+  - 日和
+  - 結果竟然是個闇影啊……！
+- wait:
+  - 40
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - 大家都在哪呀～！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100111
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_monsters_outdoor_01
+- chara_full:
+  - 104911
+  - C
+  - 1
+- fadein:
+  - 104911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_2014007_005
+- face:
+  - 104911
+  - 1
+- print:
+  - 靜流
+  - 在這些魔物的動作中，
+- wait:
+  - 30
+- print:
+  - 靜流
+  - 能感受到背後操縱者的意志……！
+- wait:
+  - 55
+- print:
+  - 靜流
+  - >2
+
+- face:
+  - 104911
+  - 4
+- print:
+  - 靜流
+  - 照這麼下去，
+- wait:
+  - 15
+- print:
+  - 靜流
+  - 就算是姐姐我也快沒戲唱了啊……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 104911
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_monsters_outdoor_01
+- chara_full:
+  - 101711
+  - C
+  - 4
+- fadein:
+  - 101711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_2014007_006
+- face:
+  - 101711
+  - 4
+- print:
+  - 香織
+  - 可是……
+- wait:
+  - 25
+- pop:
+  - 101711
+- print:
+  - 香織
+  - 該怎麼辦呀！？
+- wait:
+  - 20
+- print:
+  - 香織
+  - >2-
+
+    開始就連真琴的味道也逐漸聞不出來了呀！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101711
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_monsters_outdoor_01
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- effect:
+  - 9
+- print:
+  - 魔物
+  - ――咕喔喔喔喔喔！
+- shake_screen: *o0
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1611
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100211
+  - RC
+  - 4
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - RC
+  - 30
+- fadein:
+  - 100211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_2014007_007
+- face:
+  - 100211
+  - 4
+- print:
+  - 優衣
+  - 呼、
+- wait:
+  - 25
+- nod:
+  - 100211
+- print:
+  - 優衣
+  - 呼……！
+- wait:
+  - 25
+- print:
+  - 優衣
+  - >2-
+
+    別、
+- wait:
+  - 20
+- print:
+  - 優衣
+  - 別過來呀～！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - LC
+  - C
+  - 30
+- fadeout:
+  - 100211
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 1614
+  - RC
+  - 1
+- se:
+  - se_adv_step_monster_move_01
+- change:
+  - C
+  - RC
+  - 30
+- fadein:
+  - 1614
+  - 30
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - true
+- focus:
+  - 1614
+- bust:
+  - 1614
+  - 0
+- face:
+  - 1614
+  - 1
+- print:
+  - 魔物
+  - ――咕喔喔喔喔喔！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1614
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100211
+  - RC
+  - 4
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - RC
+  - 30
+- fadein:
+  - 100211
+  - 30
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_2014007_008
+- face:
+  - 100211
+  - 4
+- print:
+  - 優衣
+  - 哈啊、
+- wait:
+  - 25
+- print:
+  - 優衣
+  - 哈啊……！　
+- wait:
+  - 20
+- eye_open:
+  - FALSE
+- print:
+  - 優衣
+  - 怎麼辦……！
+- wait:
+  - 30
+- print:
+  - 優衣
+  - >2
+
+- eye_open:
+  - TRUE
+- print:
+  - 優衣
+  - 因為只有我一個人，
+- wait:
+  - 40
+- print:
+  - 優衣
+  - 在一邊詠唱魔法的途中，
+- wait:
+  - 30
+- print:
+  - 優衣
+  - 還必須
+- wait:
+  - 15
+- print:
+  - 優衣
+  - >2-
+
+    一邊從魔物手中逃跑才行……
+- wait:
+  - 35
+- print:
+  - 優衣
+  - 連能夠喘息的
+- wait:
+  - 20
+- print:
+  - 優衣
+  - 時間也都……！　
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- face:
+  - 100211
+  - 6
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_2014007_009
+- face:
+  - 1
+  - 1
+- print:
+  - ？？？
+  - ――請繼續跑起來！
+- wait:
+  - 30
+- print:
+  - ？？？
+  - >2-
+
+    接著請往該處的小巷內，
+- wait:
+  - 5
+- print:
+  - ？？？
+  - 全力衝進去！
+- touch: *o0
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_2014007_010
+- face:
+  - 100211
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100211
+  - 10
+  - 650
+  - se_adv_emote_common_01
+- print:
+  - 優衣
+  - 咦？
+- wait:
+  - 15
+- print:
+  - 優衣
+  - 是、
+- wait:
+  - 15
+- print:
+  - 優衣
+  - 是誰！？　
+- wait:
+  - 30
+- face:
+  - 100211
+  - 4
+- print:
+  - 優衣
+  - 不是日和，也不是怜……
+- wait:
+  - 40
+- print:
+  - 優衣
+  - >2-
+
+    難不成，
+- wait:
+  - 15
+- print:
+  - 優衣
+  - 是通訊魔法――
+- wait:
+  - 30
+- print:
+  - 優衣
+  - >2
+
+- face:
+  - 100211
+  - 7
+- print:
+  - 優衣
+  - ――哇呀！
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
+- window_visible:
+  - false
+- updown:
+  - 100211
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 100211
+  - 30
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- bgm:
+  - bgm_M242_Short
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 1
+- vo:
+  - vo_adv_2014007_011
+- face:
+  - 100211
+  - 6
+- print:
+  - 優衣
+  - 竟然摔倒了！　
+- wait:
+  - 40
+- face:
+  - 100211
+  - 4
+- print:
+  - 優衣
+  - 在這種時候……！　
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ――咕喔喔喔喔喔！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0009
+- se:
+  - se_adv_step_monster_move_01
+- scale:
+  - 1611
+  - 1.2
+  - 2
+  - 10
+- fadeout:
+  - 1611
+  - 10
+- effect_delete:
+  - 0009
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100211
+  - C
+  - 4
+- fadein:
+  - 100211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_2014007_012
+- face:
+  - 100211
+  - 4
+- print:
+  - 優衣
+  - 啊、
+- wait:
+  - 25
+- print:
+  - 優衣
+  - 啊……！
+- shake:
+  - 100211
+- wait:
+  - 30
+- print:
+  - 優衣
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - 優衣
+  - 騎士先生……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100211
+  - 30
+- se:
+  - se_adv_step_concrete_run_armor_go_01
+- effect:
+  - 0009
+- camera_zoom:
+  - 1.2
+  - 5
+- wait:
+  - 15
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- camera_zoom:
+  - 1
+  - 1
+- effect:
+  - 0028
+  - se_adv_weapon_claw_repel_01
+- wait:
+  - 10
+- effect:
+  - 0045
+  - se_adv_weapon_sword_repel_01
+- wait:
+  - 15
+- se:
+  - se_adv_weapon_sword_hit_01
+- effect:
+  - 0001
+- wait:
+  - 15
+- background:
+  - 500780
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- wait:
+  - 10
+- se:
+  - se_adv_creature_cmn_04
+- bgm:
+  - stop
+  - 2
+- sway:
+  - 1611
+- wait:
+  - 15
+- updown:
+  - 1611
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1611
+  - 15
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- chara_full:
+  - 100211
+  - C
+  - 6
+- fadein:
+  - 100211
+  - 30
+- window_visible:
+  - true
+- choice:
+  - 優衣！
+  - 1
+- choice:
+  - 沒有受傷吧！？
+  - 2
+- tag:
+  - 1
+- bgm:
+  - bgm_M24_Intro
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_2014007_013
+- face:
+  - 100211
+  - 6
+- print:
+  - 優衣
+  - 騎、
+- wait:
+  - 10
+- print:
+  - 優衣
+  - 騎士先生！？
+- wait:
+  - 45
+- print:
+  - 優衣
+  - >2
+
+- face:
+  - 100211
+  - 1
+- print:
+  - 優衣
+  - 你來
+- wait:
+  - 20
+- print:
+  - 優衣
+  - 找我了啊……！
+- touch: *o0
+- goto:
+  - 3
+- tag:
+  - 2
+- bgm:
+  - bgm_M24_Intro
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_2014007_014
+- face:
+  - 100211
+  - 6
+- print:
+  - 優衣
+  - 嗯、
+- wait:
+  - 5
+- print:
+  - 優衣
+  - 嗯！
+- wait:
+  - 20
+- print:
+  - 優衣
+  - >2
+
+- face:
+  - 100211
+  - 1
+- print:
+  - 優衣
+  - 謝謝你，
+- wait:
+  - 45
+- face:
+  - 100211
+  - 6
+- print:
+  - 優衣
+  - 但是為什麼你會在這……？
+- touch: *o0
+- tag:
+  - 3
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_2014007_015
+- face:
+  - 100211
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100211
+  - 10
+  - 650
+  - se_adv_emote_common_01
+- print:
+  - 優衣
+  - ……啊，
+- wait:
+  - 5
+- print:
+  - 優衣
+  - 危險！
+- wait:
+  - 30
+- print:
+  - 優衣
+  - >2
+
+- face:
+  - 100211
+  - 3
+- print:
+  - 優衣
+  - 又有一隻大的過來了唷！
+- touch: *o0
+- choice:
+  - 不用擔心！
+  - 4
+- choice:
+  - 小凱留，拜託了！
+  - 5
+- tag:
+  - 4
+- tag:
+  - 5
+- bgm:
+  - stop
+  - 2
+  - 1
+- window_visible:
+  - false
+- fadeout:
+  - 100211
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 106011
+  - RC
+  - 3
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - RC
+  - 30
+- fadein:
+  - 106011
+  - 30
+- change_window:
+  - 3
+- window_visible:
+  - true
+- se:
+  - se_adv_kyaru_magic_01
+- bgm:
+  - bgm_M57
+- focus:
+  - 106011
+- bust:
+  - 106011
+  - 0
+- vo:
+  - vo_adv_2014007_016
+- face:
+  - 106011
+  - 3
+- print:
+  - 凱留
+  - 看招呀啊啊！
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- fadeout:
+  - 106011
+  - 30
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0070
+  - se_adv_magic_dark_medium_01
+- wait:
+  - 45
+- background:
+  - 500780
+- se:
+  - se_adv_magic_earth_large_01
+- shake_screen: *o0
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 105811
+  - LC
+  - 3
+- chara_full:
+  - 105911
+  - RC
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105911
+- bust:
+  - 105911
+  - 0
+- vo:
+  - vo_adv_2014007_017
+- face:
+  - 105911
+  - 3
+- print:
+  - 可可蘿
+  - 由在下來弄倒它！
+- wait:
+  - 25
+- print:
+  - 可可蘿
+  - >2-
+
+    最後一手就麻煩您了！　
+- wait:
+  - 15
+- print:
+  - 可可蘿
+  - 貪吃佩可小姐！
+- touch: *o0
+- focus:
+  - 105811
+- bust:
+  - 105811
+  - 0
+- vo:
+  - vo_adv_2014007_018
+- face:
+  - 105811
+  - 3
+- nod:
+  - 105811
+- print:
+  - 貪吃佩可
+  - 好喔～！
+- touch: *o0
+- focus:
+  - 105811
+- bust:
+  - 105811
+  - 0
+- vo:
+  - vo_adv_2014007_019
+- face:
+  - 105811
+  - 3
+- print:
+  - 貪吃佩可
+  - 看～劍～！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- fadeout_all:
+  - 30
+- bg_color:
+  - 0
+  - 0
+  - 0
+- se:
+  - se_adv_weapon_sword_multi_hit_01
+- effect:
+  - 0033
+- wait:
+  - 15
+- se:
+  - se_adv_weapon_sword_hit_02
+- effect:
+  - 0016
+- wait:
+  - 15
+- background:
+  - 500780
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_04
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ――嘎喔喔喔喔喔！
+- shake_screen: *o0
+- touch: *o0
+- window_visible:
+  - false
+- updown:
+  - 1611
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1611
+  - 15
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100211
+  - C
+  - 6
+- fadein:
+  - 100211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_2014007_020
+- face:
+  - 100211
+  - 6
+- print:
+  - 優衣
+  - 騎士先生，
+- wait:
+  - 20
+- print:
+  - 優衣
+  - 還有【美食殿堂】的各位……
+- wait:
+  - 30
+- face:
+  - 100211
+  - 1
+- nod:
+  - 100211
+- print:
+  - 優衣
+  - 真是太好了！
+- wait:
+  - 35
+- print:
+  - 優衣
+  - >2-
+
+    你們都沒事呢！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100211
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0033
+  - se_adv_weapon_sword_multi_hit_01
+- wait:
+  - 15
+- background:
+  - 500780
+- chara_full:
+  - 1611
+  - C
+  - 1
+- chara_full:
+  - 1612
+  - L
+  - 1
+- chara_full:
+  - 1613
+  - R
+  - 1
+- fadein_all:
+  - 30
+- focus:
+  - 1611:1612:1613
+- se:
+  - se_adv_creature_cmn_04
+- window_visible:
+  - true
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物群
+  - ――嘎喔喔喔喔喔！
+- touch: *o0
+- window_visible:
+  - false
+- updown:
+  - 1611
+  - 0
+  - -150
+  - 0.2
+- updown:
+  - 1612
+  - 0
+  - -150
+  - 0.2
+- updown:
+  - 1613
+  - 0
+  - -150
+  - 0.2
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100211
+  - LC
+  - 1
+- chara_full:
+  - 104311
+  - R
+  - 1
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - R
+  - RC
+  - 30
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104311
+- bust:
+  - 104311
+  - 0
+- vo:
+  - vo_adv_2014007_021
+- face:
+  - 104311
+  - 1
+- print:
+  - 真琴
+  - 我也在唷！
+- wait:
+  - 25
+- print:
+  - 真琴
+  - >2-
+
+    誘導多謝啦，
+- wait:
+  - 10
+- print:
+  - 真琴
+  - 【慈樂之音】！
+- touch: *o0
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_2014007_022
+- face:
+  - 100211
+  - 1
+- print:
+  - 優衣
+  - 真琴也在。
+- wait:
+  - 40
+- print:
+  - 優衣
+  - >2
+
+- face:
+  - 100211
+  - 6
+- print:
+  - 優衣
+  - 妳說【慈樂之音】……
+- wait:
+  - 30
+- print:
+  - 優衣
+  - 是那個，
+- wait:
+  - 15
+- print:
+  - 優衣
+  - 偶像的？
+- touch: *o0
+- focus:
+  - 104311
+- bust:
+  - 104311
+  - 0
+- vo:
+  - vo_adv_2014007_023
+- face:
+  - 104311
+  - 1
+- nod:
+  - 104311
+- print:
+  - 真琴
+  - 是啊――
+- wait:
+  - 20
+- print:
+  - 真琴
+  - 是她們對我們使用通訊魔法，
+- wait:
+  - 40
+- print:
+  - 真琴
+  - >2-
+
+    然後告訴我們要往哪裡去的。
+- wait:
+  - 40
+- face:
+  - 104311
+  - 6
+- print:
+  - 真琴
+  - 雖這樣講，
+- wait:
+  - 20
+- print:
+  - 真琴
+  - 但負責在整理源頭情報的
+- wait:
+  - 35
+- print:
+  - 真琴
+  - >2-
+
+    是{0}就是了呢。
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 100111
+  - RC
+  - 1
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - RC
+  - 30
+- fadein:
+  - 100111
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M103
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2014007_024
+- face:
+  - 100111
+  - 1
+- pop:
+  - 100111
+- print:
+  - 日和
+  - 喂——！
+- wait:
+  - 25
+- print:
+  - 日和
+  - >2-
+
+    優衣！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100111
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100211
+  - C
+  - 1
+- fadein:
+  - 100211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_2014007_025
+- face:
+  - 100211
+  - 1
+- print:
+  - 優衣
+  - 啊，
+- wait:
+  - 25
+- print:
+  - 優衣
+  - 日和！
+- wait:
+  - 35
+- print:
+  - 優衣
+  - >2
+
+- face:
+  - 100211
+  - 7
+- print:
+  - 優衣
+  - 還、
+- wait:
+  - 15
+- print:
+  - 優衣
+  - 還有……？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100211
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 104911
+  - LC
+  - 6
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 30
+- fadein:
+  - 104911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_2014007_026
+- face:
+  - 104911
+  - 6
+- emotion:
+  - notice1_L
+  - 104911
+  - -100
+  - 580
+  - se_adv_emote_common_01
+- print:
+  - 靜流
+  - 咦咦？
+- wait:
+  - 25
+- print:
+  - 靜流
+  - >2-
+
+    雖然按照講的過來這看看了……
+- wait:
+  - 35
+- print:
+  - 靜流
+  - >2-
+
+    怎麼這，
+- wait:
+  - 15
+- print:
+  - 靜流
+  - 有一大堆女孩子呢？
+- touch: *o0
+- window_visible:
+  - false
+- change:
+  - LC
+  - C
+  - 30
+- chara_full:
+  - 101112
+  - R
+  - 6
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - R
+  - 30
+- fadein:
+  - 101112
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 0
+- vo:
+  - vo_adv_2014007_027
+- face:
+  - 101112
+  - 6
+- pop:
+  - 101112
+- print:
+  - 璃乃
+  - 啊～！
+- wait:
+  - 25
+- print:
+  - 璃乃
+  - >2-
+
+    靜流姐～！
+- wait:
+  - 40
+- print:
+  - 璃乃
+  - >2
+
+- face:
+  - 101112
+  - 4
+- print:
+  - 璃乃
+  - 終於找到妳了啦……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 104311
+  - LC
+  - 1
+- chara_full:
+  - 101711
+  - R
+  - 2
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - R
+  - 30
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_2014007_028
+- face:
+  - 101711
+  - 2
+- emotion:
+  - note1_L
+  - 101711
+  - -105
+  - 485
+  - se_adv_emote_note_01
+- print:
+  - 香織
+  - 真琴～♪
+- wait:
+  - 35
+- print:
+  - 香織
+  - >2-
+
+    太好了，
+- wait:
+  - 15
+- print:
+  - 香織
+  - 終於遇到妳了～
+- wait:
+  - 35
+- print:
+  - 香織
+  - >2
+
+- face:
+  - 101711
+  - 1
+- print:
+  - 香織
+  - 有相信指示實在太好了～♪
+- touch: *o0
+- focus:
+  - 104311
+- bust:
+  - 104311
+  - 0
+- vo:
+  - vo_adv_2014007_029
+- face:
+  - 104311
+  - 1
+- print:
+  - 真琴
+  - 香織！　
+- wait:
+  - 15
+- print:
+  - 真琴
+  - 妳沒事嗎！
+- wait:
+  - 15
+- print:
+  - 真琴
+  - >2-
+
+    ……
+- wait:
+  - 15
+- face:
+  - 104311
+  - 6
+- print:
+  - 真琴
+  - 咦，
+- wait:
+  - 25
+- print:
+  - 真琴
+  - 怎麼總覺得有一堆人，
+- wait:
+  - 10
+- print:
+  - 真琴
+  - >2-
+
+    都開始在這聚集起來了啊……！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 100311
+  - RC
+  - 6
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - RC
+  - 30
+- fadein:
+  - 100311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_2014007_030
+- face:
+  - 100311
+  - 6
+- print:
+  - 怜
+  - 優衣――！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100311
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100211
+  - C
+  - 1
+- fadein:
+  - 100211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_2014007_031
+- face:
+  - 100211
+  - 1
+- print:
+  - 優衣
+  - 怜也來了！
+- wait:
+  - 25
+- print:
+  - 優衣
+  - >2
+
+- pop:
+  - 100211
+- print:
+  - 優衣
+  - 我們在這喔～！
+- touch: *o0
+- window_visible:
+  - false
+- change:
+  - LC
+  - C
+  - 30
+- chara_full:
+  - 100311
+  - R
+  - 1
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - R
+  - 30
+- fadein:
+  - 100311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_2014007_032
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 抱歉，
+- wait:
+  - 20
+- print:
+  - 怜
+  - 竟和大家走散了……
+- wait:
+  - 40
+- print:
+  - 怜
+  - >2-
+
+    有受傷嗎？
+- touch: *o0
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_2014007_033
+- face:
+  - 100211
+  - 1
+- print:
+  - 優衣
+  - 沒有唷，
+- wait:
+  - 5
+- print:
+  - 優衣
+  - 沒事！
+- wait:
+  - 30
+- print:
+  - 優衣
+  - >2
+
+- face:
+  - 100211
+  - 6
+- print:
+  - 優衣
+  - 怜也是，
+- wait:
+  - 15
+- print:
+  - 優衣
+  - 從【慈樂之音】的人那邊接到通訊魔法嗎？
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_2014007_034
+- face:
+  - 100311
+  - 1
+- nod:
+  - 100311
+- print:
+  - 怜
+  - 啊啊，
+- wait:
+  - 5
+- print:
+  - 怜
+  - 沒錯――
+- wait:
+  - 35
+- print:
+  - 怜
+  - 聽得見嗎？
+- wait:
+  - 30
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 2
+- print:
+  - 怜
+  - 託紡希妳們的福，真是幫了大忙呢。
+- wait:
+  - 35
+- print:
+  - 怜
+  - 謝謝妳。
+- touch: *o0
+- face:
+  - 100211
+  - 1
+- face:
+  - 100311
+  - 1
+- se:
+  - se_adv_magic_cmn_search_01
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 1
+- vo:
+  - vo_adv_2014007_035
+- face:
+  - 105411
+  - 2
+- print:
+  - 紡希
+  - 耶～！　
+- wait:
+  - 35
+- print:
+  - 紡希
+  - 被怜大人給稱讚了啊～！
+- wait:
+  - 40
+- print:
+  - 紡希
+  - >2
+
+- face:
+  - 105411
+  - 1
+- print:
+  - 紡希
+  - 各位，
+- wait:
+  - 15
+- print:
+  - 紡希
+  - 看起來像是安全會合了的樣子，太好了呢！
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 1
+- vo:
+  - vo_adv_2014007_036
+- face:
+  - 105411
+  - 4
+- print:
+  - 紡希
+  - 老實說是希望怜大人，
+- wait:
+  - 35
+- print:
+  - 紡希
+  - 可以到我的身邊來就是了……
+- wait:
+  - 50
+- print:
+  - 紡希
+  - >2
+
+- face:
+  - 105411
+  - 1
+- print:
+  - 紡希
+  - 但遺憾的是，
+- wait:
+  - 25
+- print:
+  - 紡希
+  - 現在我們在空中，
+- wait:
+  - 35
+- print:
+  - 紡希
+  - >2
+
+- face:
+  - 105411
+  - 2
+- print:
+  - 紡希
+  - 所以就只能從這裡支援怜大人們了！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100111
+  - LC
+  - 1
+- chara_full:
+  - 101711
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2014007_037
+- face:
+  - 100111
+  - 1
+- emotion:
+  - notice1_L
+  - 100111
+  - -50
+  - 540
+  - se_adv_emote_common_01
+- print:
+  - 日和
+  - 啊，
+- wait:
+  - 10
+- print:
+  - 日和
+  - 是飛空艇～！
+- wait:
+  - 40
+- print:
+  - 日和
+  - >2-
+
+    原來是這樣，
+- wait:
+  - 20
+- print:
+  - 日和
+  - 是從那上面把通訊魔法送給我們的呀！
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_2014007_038
+- face:
+  - 101711
+  - 2
+- pop:
+  - 101711
+- print:
+  - 香織
+  - 【慈樂之音】的大家，
+- wait:
+  - 35
+- print:
+  - 香織
+  - 謝謝妳們呀～♪
+- touch: *o0
+- face:
+  - 101711
+  - 1
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 1
+- vo:
+  - vo_adv_2014007_039
+- face:
+  - 105411
+  - 2
+- print:
+  - 紡希
+  - 不用客氣～！　
+- wait:
+  - 35
+- face:
+  - 105411
+  - 4
+- print:
+  - 紡希
+  - 雖然是想要這樣說的啦……
+- wait:
+  - 40
+- print:
+  - 紡希
+  - >2
+
+- face:
+  - 105411
+  - 1
+- print:
+  - 紡希
+  - 但真要道謝的話，
+- wait:
+  - 10
+- print:
+  - 紡希
+  - 就謝那邊那個騎士先生吧。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 101112
+  - C
+  - 6
+- fadein:
+  - 101112
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 0
+- vo:
+  - vo_adv_2014007_040
+- face:
+  - 101112
+  - 6
+- emotion:
+  - question1_R
+  - 101112
+  - 115
+  - 510
+  - se_adv_emote_question_01
+- print:
+  - 璃乃
+  - 咦？
+- wait:
+  - 15
+- print:
+  - 璃乃
+  - 哥哥？
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 1
+- vo:
+  - vo_adv_2014007_041
+- face:
+  - 104211
+  - 1
+- print:
+  - 千歌
+  - '{0}……'
+- wait:
+  - 35
+- print:
+  - 千歌
+  - >2-
+
+    還有，
+- wait:
+  - 25
+- print:
+  - 千歌
+  - 在另一頭盡了全力的
+- wait:
+  - 10
+- print:
+  - 千歌
+  - >2-
+
+    魔法使的各位，
+- wait:
+  - 40
+- print:
+  - 千歌
+  - 打從心底由衷的感謝妳們……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101112
+  - 30
+- bg_pan:
+  - 0
+  - -150
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 106011
+- bust:
+  - 106011
+  - 1
+- vo:
+  - vo_adv_2014007_042
+- face:
+  - 106011
+  - 4
+- print:
+  - 凱留
+  - 雖然要飛在空中一邊接通這通訊魔法，
+- wait:
+  - 45
+- print:
+  - 凱留
+  - 比我想像中的還要難得多了……！
+- wait:
+  - 40
+- print:
+  - 凱留
+  - >2
+
+- face:
+  - 106011
+  - 3
+- print:
+  - 凱留
+  - 但我做得到，
+- wait:
+  - 15
+- print:
+  - 凱留
+  - 做得到……
+- wait:
+  - 30
+- print:
+  - 凱留
+  - 畢竟我可是天才呀！
+- wait:
+  - 40
+- print:
+  - 凱留
+  - >2-
+
+    而且，
+- wait:
+  - 30
+- print:
+  - 凱留
+  - 這也算是還欠她們的人情呀～！
+- touch: *o0
+- window_visible:
+  - false
+- bg_pan:
+  - -150
+  - 0
+  - 15
+- chara_full:
+  - 105811
+  - LC
+  - 1
+- chara_full:
+  - 100211
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_2014007_043
+- face:
+  - 100211
+  - 1
+- print:
+  - 優衣
+  - 原來如此，
+- wait:
+  - 45
+- print:
+  - 優衣
+  - 是那孩子從空中
+- wait:
+  - 35
+- print:
+  - 優衣
+  - 找到我們的呀！
+- touch: *o0
+- focus:
+  - 105811
+- bust:
+  - 105811
+  - 0
+- vo:
+  - vo_adv_2014007_044
+- face:
+  - 105811
+  - 1
+- nod:
+  - 105811
+- print:
+  - 貪吃佩可
+  - 對唷！
+- wait:
+  - 20
+- print:
+  - 貪吃佩可
+  - >2-
+
+    除了小凱留以外，
+- wait:
+  - 10
+- print:
+  - 貪吃佩可
+  - 還有【惡魔偽王國軍】的人們，
+- wait:
+  - 15
+- print:
+  - 貪吃佩可
+  - >2-
+
+    她們也飛在城鎮的空中，
+- wait:
+  - 25
+- print:
+  - 貪吃佩可
+  - 一起協助我們大家唷！
+- touch: *o0
+- choice:
+  - 各位，妳們沒事真是太好了！
+  - 6
+- tag:
+  - 6
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 104911
+  - LC
+  - 6
+- chara_full:
+  - 101112
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_2014007_045
+- face:
+  - 104911
+  - 6
+- nod:
+  - 104911
+- print:
+  - 靜流
+  - 是這樣呀……
+- wait:
+  - 25
+- print:
+  - 靜流
+  - 因為霸瞳皇帝的關係所以被各自拆散的我們，
+- wait:
+  - 40
+- print:
+  - 靜流
+  - >2-
+
+    是弟弟把我們給全部集合起來的呢♪
+- wait:
+  - 40
+- print:
+  - 靜流
+  - >2
+
+- face:
+  - 104911
+  - 2
+- print:
+  - 靜流
+  - 好棒好棒棒！　
+- wait:
+  - 25
+- print:
+  - 靜流
+  - 讓姐姐來給你摸摸頭吧♪
+- touch: *o0
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 0
+- vo:
+  - vo_adv_2014007_046
+- face:
+  - 101112
+  - 2
+- emotion:
+  - note1_L
+  - 101112
+  - -70
+  - 530
+  - se_adv_emote_note_01
+- print:
+  - 璃乃
+  - 欸嘿嘿♪
+- wait:
+  - 20
+- print:
+  - 璃乃
+  - >2-
+
+    雖然聽不太懂什麼意思，
+- wait:
+  - 20
+- print:
+  - 璃乃
+  - 但我也一起來給你摸摸頭吧，
+- wait:
+  - 40
+- print:
+  - 璃乃
+  - >2-
+
+    哥哥～♪
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105911
+  - C
+  - 6
+- fadein:
+  - 105911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105911
+- bust:
+  - 105911
+  - 0
+- vo:
+  - vo_adv_2014007_047
+- face:
+  - 105911
+  - 6
+- print:
+  - 可可蘿
+  - 不管是在這裡的各位……
+- wait:
+  - 45
+- print:
+  - 可可蘿
+  - 或者是天上的各位。
+- wait:
+  - 50
+- print:
+  - 可可蘿
+  - >2-
+
+    理所當然地
+- wait:
+  - 40
+- print:
+  - 可可蘿
+  - 皆是主人的舊識……
+- wait:
+  - 70
+- print:
+  - 可可蘿
+  - >2
+
+- face:
+  - 105911
+  - 4
+- print:
+  - 可可蘿
+  - 這真的是，
+- wait:
+  - 45
+- print:
+  - 可可蘿
+  - 這可真的是，
+- wait:
+  - 45
+- print:
+  - 可可蘿
+  - 主人您呀……
+- touch: *o0
+- focus:
+  - 105911
+- bust:
+  - 105911
+  - 0
+- vo:
+  - vo_adv_2014007_048
+- face:
+  - 105911
+  - 6
+- emotion:
+  - notice1_L
+  - 105911
+  - -60
+  - 485
+  - se_adv_emote_common_01
+- print:
+  - 可可蘿
+  - ……啊啊，
+- wait:
+  - 35
+- print:
+  - 可可蘿
+  - 現在不是能夠在這困惑的場合了。
+- wait:
+  - 50
+- print:
+  - 可可蘿
+  - >2
+
+- face:
+  - 105911
+  - 1
+- print:
+  - 可可蘿
+  - 各位，
+- wait:
+  - 20
+- print:
+  - 可可蘿
+  - 儘管有些不好意思，
+- wait:
+  - 35
+- print:
+  - 可可蘿
+  - >2-
+
+    但不知道
+- wait:
+  - 20
+- print:
+  - 可可蘿
+  - 能否向各位，
+- wait:
+  - 30
+- print:
+  - 可可蘿
+  - 稍微借個耳朵聽聽主人他的一番話呢？
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
+- choice:
+  - 希望，大家能把力量借給我。
+  - 7
+- tag:
+  - 7
+- bgm:
+  - bgm_M175_Ver2
+- focus:
+  - 105911
+- bust:
+  - 105911
+  - 0
+- vo:
+  - vo_adv_2014007_049
+- face:
+  - 105911
+  - 4
+- print:
+  - 可可蘿
+  - 在各位之中，
+- wait:
+  - 30
+- print:
+  - 可可蘿
+  - 儘管自然是有過去曾經發生過對立的人……
+- wait:
+  - 65
+- print:
+  - 可可蘿
+  - >2
+
+- nod:
+  - 105911
+- print:
+  - 可可蘿
+  - 然而於此，
+- wait:
+  - 25
+- print:
+  - 可可蘿
+  - 還望各位能放下心中的疙瘩，
+- wait:
+  - 35
+- print:
+  - 可可蘿
+  - >2-
+
+    和在下等人，
+- wait:
+  - 20
+- print:
+  - 可可蘿
+  - 一同攜手合作。
+- touch: *o0
+- choice:
+  - 為了阻止霸瞳皇帝的野心……
+  - 8
+- choice:
+  - 拜託大家了！
+  - 9
+- tag:
+  - 8
+- tag:
+  - 9
+- window_visible:
+  - false
+- fadeout:
+  - 105911
+  - 30
+- chara_full:
+  - 104911
+  - LC
+  - 1
+- chara_full:
+  - 104311
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104311
+- bust:
+  - 104311
+  - 0
+- vo:
+  - vo_adv_2014007_050
+- face:
+  - 104311
+  - 1
+- print:
+  - 真琴
+  - ……算了，
+- wait:
+  - 25
+- nod:
+  - 104311
+- print:
+  - 真琴
+  - 我可是沒差唷。
+- wait:
+  - 45
+- print:
+  - 真琴
+  - >2-
+
+    之前的那時候，
+- wait:
+  - 20
+- print:
+  - 真琴
+  - 先出手的
+- wait:
+  - 10
+- print:
+  - 真琴
+  - >2-
+
+    也是【拉比林斯】的人嘛？
+- touch: *o0
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_2014007_051
+- face:
+  - 104911
+  - 4
+- print:
+  - 靜流
+  - 嗯～……
+- wait:
+  - 35
+- print:
+  - 靜流
+  - 那時候啊，
+- wait:
+  - 20
+- print:
+  - 靜流
+  - 是因為得要確保諾維姆的安全
+- wait:
+  - 10
+- print:
+  - 靜流
+  - >2-
+
+    『這下沒辦法啦～』
+- wait:
+  - 30
+- print:
+  - 靜流
+  - ――才會像那樣逼不得已的嘛。
+- wait:
+  - 35
+- print:
+  - 靜流
+  - >2
+
+- face:
+  - 104911
+  - 6
+- print:
+  - 靜流
+  - 所以現在
+- wait:
+  - 25
+- print:
+  - 靜流
+  - 我們沒有打算要和誰敵對喔？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100111
+  - LC
+  - 2
+- chara_full:
+  - 100211
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2014007_052
+- face:
+  - 100111
+  - 2
+- print:
+  - 日和
+  - 我們
+- wait:
+  - 10
+- print:
+  - 日和
+  - 當然也是沒問題的唷！
+- wait:
+  - 30
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 讓大家一起同心協力吧！
+- wait:
+  - 50
+- print:
+  - 日和
+  - >2
+
+- pop:
+  - 100111
+- print:
+  - 日和
+  - 有困難的時候
+- wait:
+  - 30
+- print:
+  - 日和
+  - 就是要互相幫助幫助，
+- wait:
+  - 30
+- face:
+  - 100111
+  - 2
+- print:
+  - 日和
+  - 對吧！
+- touch: *o0
+- choice:
+  - 各位，謝謝妳們。
+  - 10
+- tag:
+  - 10
+- face:
+  - 100111
+  - 1
+- focus:
+  - 100211
+- bust:
+  - 100211
+  - 0
+- vo:
+  - vo_adv_2014007_053
+- face:
+  - 100211
+  - 1
+- nod:
+  - 100211
+- print:
+  - 優衣
+  - 不，
+- wait:
+  - 25
+- print:
+  - 優衣
+  - 我們才應該要謝謝你呀，
+- wait:
+  - 5
+- print:
+  - 優衣
+  - 騎士先生！
+- wait:
+  - 35
+- print:
+  - 優衣
+  - >2
+
+- face:
+  - 100211
+  - 4
+- print:
+  - 優衣
+  - 雖然是這種狀況下，……
+- wait:
+  - 30
+- face:
+  - 100211
+  - 1
+- print:
+  - 優衣
+  - 但是我，
+- wait:
+  - 35
+- print:
+  - 優衣
+  - >2-
+
+    能看到大家像這樣攜手合作，
+- wait:
+  - 20
+- print:
+  - 優衣
+  - 很開心唷。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105911
+  - LC
+  - 1
+- chara_full:
+  - 100311
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_2014007_054
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 可可蘿……
+- wait:
+  - 35
+- print:
+  - 怜
+  - 還有你。
+- wait:
+  - 50
+- print:
+  - 怜
+  - >2-
+
+    看來你們幾個，
+- wait:
+  - 25
+- print:
+  - 怜
+  - 對此現況具有相當的把握，
+- wait:
+  - 65
+- print:
+  - 怜
+  - >2
+
+- nod:
+  - 100311
+- print:
+  - 怜
+  - 說吧。
+- wait:
+  - 35
+- print:
+  - 怜
+  - 我們究竟該做什麼才行？
+- touch: *o0
+- bgm:
+  - stop
+  - 4
+- bgm:
+  - bgm_M95_Ver2
+  - 0
+  - 0
+  - 1
+  - 3
+- focus:
+  - 105911
+- bust:
+  - 105911
+  - 0
+- vo:
+  - vo_adv_2014007_055
+- face:
+  - 105911
+  - 2
+- print:
+  - 可可蘿
+  - 非常感謝各位。
+- wait:
+  - 45
+- print:
+  - 可可蘿
+  - >2
+
+- face:
+  - 105911
+  - 1
+- print:
+  - 可可蘿
+  - 那麼……
+- wait:
+  - 40
+- print:
+  - 可可蘿
+  - 各位，
+- wait:
+  - 20
+- print:
+  - 可可蘿
+  - 首先請大家專注在處理闇影身上。
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_2014007_056
+- face:
+  - 100311
+  - 6
+- print:
+  - 怜
+  - 處理闇影嗎？
+- wait:
+  - 55
+- print:
+  - 怜
+  - >2-
+
+    確實當下，
+- wait:
+  - 10
+- print:
+  - 怜
+  - 這個城內，
+- wait:
+  - 35
+- print:
+  - 怜
+  - >2-
+
+    除了魔物之外也充斥著不少的闇影……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 104911
+  - LC
+  - 1
+- chara_full:
+  - 101711
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_2014007_057
+- face:
+  - 101711
+  - 6
+- print:
+  - 香織
+  - 可是，
+- wait:
+  - 25
+- print:
+  - 香織
+  - 闇影和魔物不一樣，
+- wait:
+  - 40
+- print:
+  - 香織
+  - >2-
+
+    不但不會攻擊我們，
+- wait:
+  - 20
+- print:
+  - 香織
+  - 而且大多還會自己跑掉唷～？
+- touch: *o0
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_2014007_058
+- face:
+  - 104911
+  - 1
+- nod:
+  - 104911
+- print:
+  - 靜流
+  - 嗯……
+- wait:
+  - 15
+- print:
+  - 靜流
+  - 比起這麼做，
+- wait:
+  - 20
+- print:
+  - 靜流
+  - >2-
+
+    不如讓我們集合在場所有人的力量，
+- wait:
+  - 30
+- print:
+  - 靜流
+  - 將敵人的頭頭……
+- wait:
+  - 30
+- print:
+  - 靜流
+  - >2-
+
+    將霸瞳皇帝直接給擊倒，
+- wait:
+  - 35
+- print:
+  - 靜流
+  - 會不會還比較快呢？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105911
+  - LC
+  - 4
+- chara_full:
+  - 104311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105911
+- bust:
+  - 105911
+  - 0
+- vo:
+  - vo_adv_2014007_059
+- face:
+  - 105911
+  - 4
+- print:
+  - 可可蘿
+  - 在下能明白各位的心情……
+- wait:
+  - 40
+- face:
+  - 105911
+  - 1
+- print:
+  - 可可蘿
+  - 然而，
+- wait:
+  - 45
+- print:
+  - 可可蘿
+  - >2-
+
+    當下，
+- wait:
+  - 25
+- print:
+  - 可可蘿
+  - 一部份在此城內徘徊的魔物，
+- wait:
+  - 45
+- print:
+  - 可可蘿
+  - 和近乎所有的闇影，
+- wait:
+  - 35
+- print:
+  - 可可蘿
+  - >2-
+
+    似乎皆是能
+- wait:
+  - 30
+- print:
+  - 可可蘿
+  - 向霸瞳皇帝提供有益情報的終端。
+- touch: *o0
+- focus:
+  - 105911
+- bust:
+  - 105911
+  - 0
+- vo:
+  - vo_adv_2014007_060
+- face:
+  - 105911
+  - 6
+- nod:
+  - 105911
+- print:
+  - 可可蘿
+  - 只要牠們還留於此處，
+- wait:
+  - 35
+- print:
+  - 可可蘿
+  - 霸瞳皇帝就能
+- wait:
+  - 35
+- print:
+  - 可可蘿
+  - 預測我方的攻擊，
+- wait:
+  - 35
+- print:
+  - 可可蘿
+  - >2-
+
+    並且進行迴避……
+- wait:
+  - 35
+- face:
+  - 105911
+  - 1
+- print:
+  - 可可蘿
+  - 如此這般。
+- wait:
+  - 50
+- print:
+  - 可可蘿
+  - 是從變貌大妃的似似花小姐那，
+- wait:
+  - 40
+- print:
+  - 可可蘿
+  - >2-
+
+    在方才不久前
+- wait:
+  - 25
+- print:
+  - 可可蘿
+  - 所聽聞的一番話。
+- touch: *o0
+- focus:
+  - 104311
+- bust:
+  - 104311
+  - 0
+- vo:
+  - vo_adv_2014007_061
+- face:
+  - 104311
+  - 6
+- print:
+  - 真琴
+  - 簡單講……
+- wait:
+  - 20
+- print:
+  - 真琴
+  - 就是為了封鎖他的眼睛，
+- wait:
+  - 25
+- print:
+  - 真琴
+  - 所以得先把雜魚們都幹掉嗎？
+- wait:
+  - 65
+- print:
+  - 真琴
+  - >2
+
+- face:
+  - 104311
+  - 3
+- print:
+  - 真琴
+  - 雖然有點麻煩……
+- wait:
+  - 35
+- print:
+  - 真琴
+  - 但不管魔物還是闇影，
+- wait:
+  - 20
+- print:
+  - 真琴
+  - >2-
+
+    到最後都不全部揍飛也不行嘛，都一樣呢。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 104911
+  - LC
+  - 1
+- chara_full:
+  - 101112
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 0
+- vo:
+  - vo_adv_2014007_062
+- face:
+  - 101112
+  - 6
+- nod:
+  - 101112
+- print:
+  - 璃乃
+  - 唔呣唔呣！
+- wait:
+  - 35
+- print:
+  - 璃乃
+  - >2-
+
+    就是俗話說『射賊先射王，騎人先騎馬』
+- wait:
+  - 40
+- face:
+  - 101112
+  - 2
+- print:
+  - 璃乃
+  - 對吧！
+- touch: *o0
+- face:
+  - 101112
+  - 1
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_2014007_063
+- face:
+  - 104911
+  - 2
+- print:
+  - 靜流
+  - 是「射人先射馬，擒賊先擒王」
+- wait:
+  - 35
+- print:
+  - 靜流
+  - 唷，
+- wait:
+  - 10
+- print:
+  - 靜流
+  - 璃乃。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100111
+  - LC
+  - 6
+- chara_full:
+  - 100311
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2014007_064
+- face:
+  - 100111
+  - 6
+- pop:
+  - 100111
+- print:
+  - 日和
+  - 但是呀但是呀，
+- wait:
+  - 35
+- print:
+  - 日和
+  - 要說全部的闇影，
+- wait:
+  - 10
+- print:
+  - 日和
+  - >2-
+
+    可是不知道到底有多少隻唷？
+- wait:
+  - 45
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 4
+- print:
+  - 日和
+  - 而且，
+- wait:
+  - 25
+- print:
+  - 日和
+  - 蘭德索爾還非常的大呀……！
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_2014007_065
+- face:
+  - 100311
+  - 4
+- print:
+  - 怜
+  - 說得也對…‥
+- wait:
+  - 40
+- print:
+  - 怜
+  - 儘管並非是不可能之事，
+- wait:
+  - 35
+- print:
+  - 怜
+  - >2-
+
+    但自然也得耗費不少相應的時間。
+- wait:
+  - 55
+- print:
+  - 怜
+  - >2
+
+- nod:
+  - 100311
+- print:
+  - 怜
+  - 而就在這期間，
+- wait:
+  - 25
+- print:
+  - 怜
+  - 我可不認為霸瞳皇帝會就此輕易放過我們……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105811
+  - C
+  - 3
+- fadein:
+  - 105811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105811
+- bust:
+  - 105811
+  - 0
+- vo:
+  - vo_adv_2014007_066
+- face:
+  - 105811
+  - 3
+- print:
+  - 貪吃佩可
+  - 霸瞳皇帝，
+- wait:
+  - 40
+- print:
+  - 貪吃佩可
+  - 他現在
+- wait:
+  - 10
+- print:
+  - 貪吃佩可
+  - 正被我們所拜託的克莉絲提娜他們拖延著腳步中。
+- wait:
+  - 45
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105811
+  - 1
+- print:
+  - 貪吃佩可
+  - 如果是那個人的話，
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - 我想應該不會簡簡單單就被打敗了才是。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105811
+  - 30
+- chara_full:
+  - 104311
+  - LC
+  - 4
+- chara_full:
+  - 101711
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104311
+- bust:
+  - 104311
+  - 0
+- vo:
+  - vo_adv_2014007_067
+- face:
+  - 104311
+  - 4
+- print:
+  - 真琴
+  - 克莉絲提娜……
+- wait:
+  - 35
+- print:
+  - 真琴
+  - 那傢伙嗎……
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_2014007_068
+- face:
+  - 101711
+  - 4
+- nod:
+  - 101711
+- print:
+  - 香織
+  - 不過嘛，
+- wait:
+  - 20
+- print:
+  - 香織
+  - 雖然是個討厭的傢伙……
+- wait:
+  - 30
+- print:
+  - 香織
+  - >2
+
+- face:
+  - 101711
+  - 1
+- print:
+  - 香織
+  - 但如果是當夥伴的話就很可靠呢～！
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105811
+  - LC
+  - 1
+- chara_full:
+  - 105911
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M292
+- focus:
+  - 105911
+- bust:
+  - 105911
+  - 0
+- vo:
+  - vo_adv_2014007_069
+- face:
+  - 105911
+  - 1
+- print:
+  - 可可蘿
+  - 並且……
+- wait:
+  - 30
+- print:
+  - 可可蘿
+  - 當下，
+- wait:
+  - 25
+- print:
+  - 可可蘿
+  - 主人似乎從拉比林斯達小姐那，
+- wait:
+  - 35
+- print:
+  - 可可蘿
+  - >2-
+
+    被託付了兩種的力量。
+- wait:
+  - 55
+- print:
+  - 可可蘿
+  - >2
+
+- face:
+  - 105911
+  - 3
+- print:
+  - 可可蘿
+  - 其一為，
+- wait:
+  - 25
+- print:
+  - 可可蘿
+  - 能與『七冠』抗衡之劍。
+- wait:
+  - 65
+- face:
+  - 105911
+  - 1
+- print:
+  - 可可蘿
+  - 並且……
+- touch: *o0
+- focus:
+  - 105811
+- bust:
+  - 105811
+  - 0
+- vo:
+  - vo_adv_2014007_070
+- face:
+  - 105811
+  - 1
+- nod:
+  - 105811
+- print:
+  - 貪吃佩可
+  - 另外一個是，
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - >2-
+
+    比平常提升了更多效果的，
+- wait:
+  - 40
+- print:
+  - 貪吃佩可
+  - >2-
+
+    能夠替我們進行強化的力量！
+- touch: *o0
+- focus:
+  - 105911
+- bust:
+  - 105911
+  - 0
+- vo:
+  - vo_adv_2014007_071
+- face:
+  - 105911
+  - 1
+- print:
+  - 可可蘿
+  - 還請各位，
+- wait:
+  - 25
+- print:
+  - 可可蘿
+  - 在此效果的範圍內散開……
+- wait:
+  - 50
+- print:
+  - 可可蘿
+  - >2-
+
+    並且一面配合著主人進行移動，
+- wait:
+  - 30
+- print:
+  - 可可蘿
+  - 一面將敵人各個擊破。
+- touch: *o0
+- focus:
+  - 105811
+- bust:
+  - 105811
+  - 0
+- vo:
+  - vo_adv_2014007_072
+- face:
+  - 105811
+  - 6
+- print:
+  - 貪吃佩可
+  - 雖然會變成得依靠空中的小凱留，
+- wait:
+  - 25
+- print:
+  - 貪吃佩可
+  - 和【慈樂之音】的人來提供情報，
+- wait:
+  - 40
+- print:
+  - 貪吃佩可
+  - >2-
+
+    並且會是一場必須到處跑來跑去的戰鬥……
+- wait:
+  - 40
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105811
+  - 1
+- print:
+  - 貪吃佩可
+  - 但請大家能夠相信他，
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - 並且助我們一臂之力！
+- touch: *o0
+- focus:
+  - 105911
+- bust:
+  - 105911
+  - 0
+- vo:
+  - vo_adv_2014007_073
+- face:
+  - 105911
+  - 2
+- nod:
+  - 105911
+- print:
+  - 可可蘿
+  - 那麼，
+- wait:
+  - 25
+- print:
+  - 可可蘿
+  - 主人。
+- wait:
+  - 35
+- print:
+  - 可可蘿
+  - >2-
+
+    就拜託您，
+- wait:
+  - 25
+- print:
+  - 可可蘿
+  - 對各位一同進行強化了……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0088
+  - se_adv_magic_cmn_medium_02
+- wait:
+  - 30
+- window_visible:
+  - true
+- choice:
+  - 大家，要上囉！
+  - 11
+- tag:
+  - 11
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_2014007_074
+- face:
+  - 1
+  - 1
+- print:
+  - 一夥
+  - 喔喔～！
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+- effect_delete:
+  - 0088
+  - 30
+- black_out:
+  - 1
+  - 1
+- end: *o0

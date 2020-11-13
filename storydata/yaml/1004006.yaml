@@ -1,0 +1,1415 @@
+- title:
+  - 禊 第6話
+- outline:
+  - 兩人再次外出去探險。這次雖然用了地圖來到了洞窟，但沒有找到寶物等等的東西。兩人不小心讓洞穴崩塌了。兩人找到軌道車，乘坐著軌道車總算是逃離了洞穴。
+- background:
+  - 500010
+- amb:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 寶藏的地圖有危險的香氣！
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 有一天，{0}被禊叫了出來。
+- touch: &o0 []
+- window_visible:
+  - false
+- bgm:
+  - bgm_M11
+- chara_full:
+  - 100411
+  - C
+  - 2
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004006_000
+- face:
+  - 100411
+  - 2
+- emotion:
+  - twinkle1_R
+  - 100411
+  - -135
+  - 440
+  - se_adv_emote_twinkle_01
+- jump:
+  - 100411
+- print:
+  - 禊
+  - 哥哥，我們再去探險吧～！
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 100411
+  - 6
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004006_001
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - ……欸？
+- wait:
+  - 15
+- print:
+  - 禊
+  - >2-
+
+    上次探險遇到了很多危險的事情？
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004006_002
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 沒問題的！
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 之後不可能再發生跑進魔物巢穴
+- wait:
+  - 10
+- print:
+  - 禊
+  - >2-
+
+    這種事，絕對不會的啦！
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004006_003
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 而且這一次我們有目的地呦！
+- wait:
+  - 10
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 3
+- print:
+  - 禊
+  - 哥哥你看，這個地圖！
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 這是禊在爸爸的房間裡找到的～
+- touch: *o0
+- window_visible:
+  - false
+- nod:
+  - 100411
+- se:
+  - se_adv_paper_move_02
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004006_004
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 這一定是藏寶地圖！
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 哥哥你看，這裡有一個「？」的記號吧？
+- wait:
+  - 25
+- print:
+  - 禊
+  - >2-
+
+    這裡一定藏著很棒的寶物！
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004006_005
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 所以呢，
+- wait:
+  - 15
+- print:
+  - 禊
+  - >2-
+
+    和哥哥一起去尋寶探險，
+- jump:
+  - 100411
+- print:
+  - 禊
+  - 我們出發囉～！
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+- se:
+  - se_adv_step_concrete_run_go_01
+- out_R:
+  - 100411
+  - 45
+  - true
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500240
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_cave_with_water_01
+- se:
+  - se_adv_step_dirt_walk_come_01
+- wait:
+  - 15
+- chara_full:
+  - 100411
+  - LC
+  - 1
+- change:
+  - C
+  - LC
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - true
+- vo_effect:
+  - 4
+- bgm:
+  - bgm_M21
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004006_006
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 哥哥，「？」記號的位置，
+- wait:
+  - 40
+- print:
+  - 禊
+  - >2-
+
+    好像是指洞窟的深處呢！
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004006_007
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - 爸爸有來過這裡嗎？
+- wait:
+  - 60
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 既然有記號的話，他一定有來過吧？
+- wait:
+  - 10
+- touch: *o0
+- effect:
+  - 0046
+  - se_adv_happy_particle_01
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004006_008
+- face:
+  - 100411
+  - 2
+- jump:
+  - 100411
+- print:
+  - 禊
+  - 太棒了─！這裡是爸爸也來探險過的洞窟～！
+- wait:
+  - 75
+- print:
+  - 禊
+  - >2-
+
+    呀哈哈哈─！
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004006_009
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 你看你看，哥哥！
+- wait:
+  - 15
+- print:
+  - 禊
+  - >2-
+
+    距離「？」記號的地方，已經不遠了！
+- wait:
+  - 10
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 我們趕快前進吧～！
+- touch: *o0
+- window_visible:
+  - false
+- effect_delete:
+  - 0046
+  - 30
+- se:
+  - se_adv_step_dirt_walk_go_01
+- change:
+  - R
+  - C
+  - 30
+- fadeout:
+  - 100411
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - se_adv_step_dirt_walk_come_01
+- wait:
+  - 15
+- chara_full:
+  - 100411
+  - LC
+  - 6
+- change:
+  - C
+  - LC
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004006_010
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - 那個……
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 4
+- print:
+  - 禊
+  - 「？」記號的位置，應該在這附近吧？
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004006_011
+- face:
+  - 100411
+  - 4
+- print:
+  - 禊
+  - 嗚嗚？好像沒有東西耶？
+- wait:
+  - 90
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 3
+- print:
+  - 禊
+  - 這個該不會只是普通的地圖吧？
+- touch: *o0
+- choice:
+  - 這邊的牆壁上……
+  - 1
+- tag:
+  - 1
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004006_012
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - 哥哥，怎麼了？
+- wait:
+  - 15
+- print:
+  - 禊
+  - >2-
+
+    有什麼東西嗎？
+- touch: *o0
+- window_visible:
+  - false
+- change:
+  - RC
+  - C
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004006_013
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - 啊，是有「X」記號的石頭！
+- wait:
+  - 40
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 這個石頭被埋在牆壁裡？
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004006_014
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 「X」記號讓人聯想到寶物呢！
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 這個石頭說不定是隱藏門的按鈕呢！？
+- wait:
+  - 25
+- print:
+  - 禊
+  - >2-
+
+    快拿下來看看！
+- touch: *o0
+- choice:
+  - 真讓人興奮呢。
+  - 2
+- choice:
+  - 還是不要碰比較好吧……
+  - 3
+- tag:
+  - 2
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004006_015
+- face:
+  - 100411
+  - 1
+- emotion:
+  - twinkle1_R
+  - 100411
+  - -135
+  - 440
+  - se_adv_emote_twinkle_01
+- print:
+  - 禊
+  - 哥哥也終於體會到這種感受了吧！
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 等我們找到寶物後，就兩個人平分呦！
+- wait:
+  - 15
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004006_016
+- face:
+  - 100411
+  - 4
+- emotion:
+  - gloomy1_R
+  - 100411
+  - 55
+  - 475
+  - se_adv_emote_gloomy_01
+- print:
+  - 禊
+  - 欸，這樣多無聊呀！
+- wait:
+  - 60
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 3
+- print:
+  - 禊
+  - 就算哥哥說不行，禊也要拿下來！
+- touch: *o0
+- tag:
+  - 4
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004006_017
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 那禊要拿下來囉～
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 3
+- pop:
+  - 100411
+- print:
+  - 禊
+  - 嘿呀！
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
+- fadeout:
+  - 100411
+  - 30
+- shake_loop: *o0
+- se:
+  - se_adv_switch_large_01
+- wait:
+  - 15
+- shake_delete: *o0
+- chara_full:
+  - 100411
+  - C
+  - 1
+- fadein:
+  - 100411
+  - 30
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004006_018
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 啊，輕易地就拿下來了！
+- wait:
+  - 75
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - ……不過沒有發生什麼事情耶？
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_earthquake_01
+- shake_loop: *o0
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004006_019
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - 咦？
+- wait:
+  - 15
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 4
+- print:
+  - 禊
+  - 這、這是什麼聲音？
+- wait:
+  - 40
+- print:
+  - 禊
+  - >2-
+
+    地面好像也在震動……？
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0013
+  - se_adv_earthquake_02_lp
+- bgm:
+  - bgm_M03
+- sway:
+  - 100411
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004006_020
+- face:
+  - 100411
+  - 6
+- emotion:
+  - surprise1_L
+  - 100411
+  - -100
+  - 490
+  - se_adv_emote_common_01
+- print:
+  - 禊
+  - 哇！哇！
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2-
+
+    洞窟開始崩塌了！？
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004006_021
+- face:
+  - 100411
+  - 3
+- print:
+  - 禊
+  - 這個「X」記號不是寶物的意思，
+- wait:
+  - 10
+- print:
+  - 禊
+  - >2-
+
+    而是不能碰觸的意思嗎？
+- wait:
+  - 10
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 4
+- print:
+  - 禊
+  - 失敗、真失敗……
+- touch: *o0
+- choice:
+  - 要趕快逃走呀！
+  - 5
+- tag:
+  - 5
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004006_022
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - 嗯嗯，哥哥說的對。
+- wait:
+  - 40
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 4
+- print:
+  - 禊
+  - 不過……我們已經走到洞窟深處，
+- wait:
+  - 25
+- print:
+  - 禊
+  - >2-
+
+    用跑的也不知道來不來得及？
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 100411
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100411
+  - 5
+  - 600
+  - se_adv_emote_common_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004006_023
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - 啊！哥哥，你看那個！
+- wait:
+  - 25
+- print:
+  - 禊
+  - >2-
+
+    那邊有軌道車耶！
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 100411
+  - 3
+- change:
+  - L
+  - C
+  - 30
+- wait:
+  - 15
+- nod:
+  - 100411
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004006_024
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - 而且好像還能動。
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 這麼一來在洞窟完全崩塌前，
+- wait:
+  - 15
+- print:
+  - 禊
+  - >2-
+
+    我們應該來得及逃走吧？
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004006_025
+- face:
+  - 100411
+  - 3
+- jump:
+  - 100411
+- print:
+  - 禊
+  - 快點快點，哥哥也坐上來！
+- wait:
+  - 25
+- print:
+  - 禊
+  - >2-
+
+    兩個人一起逃出去吧！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_switch_large_02
+- fadeout:
+  - 100411
+  - 30
+- se_pause:
+  - se_adv_earthquake_02_lp
+  - 0.5
+- white_out:
+  - 1
+  - 0.5
+- effect_delete:
+  - 0013
+  - 30
+- shake_delete: *o0
+- still_unit:
+  - 100431
+- wait:
+  - 15
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- white_in: *o0
+- se:
+  - se_adv_dolly_lp_01
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 1
+- vo:
+  - vo_adv_1004006_026
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 呀哈哈哈！好快好快～！
+- wait:
+  - 60
+- print:
+  - 禊
+  - >2-
+
+    坐上軌道車感覺好像在探險，超開心的～！
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 1
+- vo:
+  - vo_adv_1004006_027
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - 欸？現在不是該開心的時候？
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 哥哥你不要說這種話，和禊一起享受嘛！
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 1
+- vo:
+  - vo_adv_1004006_028
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 很難得才能坐到軌道車，
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2-
+
+    不享受一下就太可惜了！
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 呀哈哈哈～！！
+- touch: *o0
+- window_visible:
+  - false
+- se_pause:
+  - se_adv_dolly_lp_01
+  - 0.5
+- bgm:
+  - stop
+  - 1.5
+- white_out:
+  - 1
+  - 0.5
+- effect_delete:
+  - 0022
+  - 30
+- amb_stop:
+  - 1
+- still_unit:
+  - end
+- background:
+  - 500141
+- wait:
+  - 15
+- white_in: *o0
+- amb:
+  - amb_adv_outdoors_day_01
+- bgm:
+  - bgm_M52
+  - 0
+  - 0
+  - 1
+- chara_full:
+  - 100411
+  - C
+  - 2
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004006_029
+- face:
+  - 100411
+  - 2
+- emotion:
+  - twinkle1_R
+  - 100411
+  - -135
+  - 440
+  - se_adv_emote_twinkle_01
+- print:
+  - 禊
+  - 啊啊～好開心呀～！
+- wait:
+  - 75
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 而且也安全地從洞窟裡逃出來了，
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2-
+
+    今天的探險也是超成功！
+- touch: *o0
+- choice:
+  - 結果，寶物到底是……？
+  - 6
+- choice:
+  - 剛才好危險……
+  - 7
+- tag:
+  - 6
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004006_030
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - 嗯？話說回來，什麼寶物都沒有呢～
+- wait:
+  - 60
+- touch: *o0
+- goto:
+  - 8
+- tag:
+  - 7
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004006_031
+- face:
+  - 100411
+  - 3
+- pop:
+  - 100411
+- print:
+  - 禊
+  - 探險那有不危險的！
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 它有標示「Ｘ」，已經算非常貼心了。
+- wait:
+  - 15
+- touch: *o0
+- tag:
+  - 8
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004006_032
+- face:
+  - 100411
+  - 4
+- emotion:
+  - question1_R
+  - 100411
+  - 110
+  - 460
+  - se_adv_emote_question_01
+- print:
+  - 禊
+  - 嗯～結果這份到底是什麼地圖呢？
+- wait:
+  - 55
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 4
+- print:
+  - 禊
+  - 去「？」記號的地方後，還發現了軌道車…
+- eye_open:
+  - False
+- print:
+  - 禊
+  - …
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- eye_open:
+  - true
+- face:
+  - 100411
+  - 6
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004006_033
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - 咦？……這麼說來這張地圖，
+- wait:
+  - 20
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 其實是告訴我們如何找到軌道車嗎？
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004006_034
+- face:
+  - 100411
+  - 2
+- emotion:
+  - twinkle1_R
+  - 100411
+  - -135
+  - 440
+  - se_adv_emote_twinkle_01
+- jump:
+  - 100411
+- print:
+  - 禊
+  - 說不定這個是爸爸替禊製作的
+- wait:
+  - 10
+- print:
+  - 禊
+  - >2-
+
+    探險用地圖！？
+- touch: *o0
+- choice:
+  - ……真、真是找麻煩。
+  - 9
+- tag:
+  - 9
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004006_035
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 啊，在軌道車裡還有地圖耶！
+- wait:
+  - 25
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 2
+- print:
+  - 禊
+  - 哥哥，下一次我們換去這邊看看吧！
+- wait:
+  - 15
+- touch: *o0
+- fadeout:
+  - 100411
+  - 30
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    和全身無力的{0}相比，
+
+    禊可是幹勁十足……
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

@@ -1,0 +1,1500 @@
+- title:
+  - 美里 第1話
+- outline:
+  - 在美里幫助吃了毒蘑菇，而失去意識的{0}後，意識到無法將既喪失記憶又如孩子般純真的{0}給棄之不顧的美里，決定照顧其起居。
+- background:
+  - 500180
+- amb:
+  - amb_adv_forest_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 聖母降臨
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 美里正在執行公會的工作，巡視著森林。
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 101511
+  - L
+  - 1
+- se:
+  - se_adv_step_leaves_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - L
+  - 45
+- fadein:
+  - 101511
+  - 30
+- bgm:
+  - bgm_M04
+- window_visible:
+  - true
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_000
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 嗯……聽說最近這一帶，有孩子看見了小魔物，
+- wait:
+  - 75
+- print:
+  - 美里
+  - >2-
+
+    因此我才過來巡視的……看來似乎沒什麼異常呢。
+- wait:
+  - 90
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_001
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 也有經常在這裡遊玩的孩子，
+- wait:
+  - 60
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 4
+- print:
+  - 美里
+  - 老師我好擔心啊……
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 101511
+  - 6
+- emotion:
+  - notice1_L
+  - 101511
+  - -80
+  - 545
+  - se_adv_emote_common_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_002
+- face:
+  - 101511
+  - 6
+- print:
+  - 美里
+  - ……哎呀？
+- wait:
+  - 45
+- print:
+  - 美里
+  - >2-
+
+    唉唷唉唷糟糕了！
+- wait:
+  - 45
+- print:
+  - 美里
+  - 有人倒在那裡呢。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_leaves_run_go_01
+- change:
+  - R
+  - C
+  - 30
+- fadeout:
+  - 101511
+  - 30
+- effect:
+  - 04
+  - se_adv_transition_01
+- wait:
+  - 15
+- se:
+  - se_adv_step_leaves_run_come_01
+- wait:
+  - 15
+- chara_full:
+  - 101511
+  - L
+  - 4
+- change:
+  - C
+  - L
+  - 30
+- fadein:
+  - 101511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_003
+- face:
+  - 101511
+  - 4
+- print:
+  - 美里
+  - 沒事吧――？
+- wait:
+  - 45
+- print:
+  - 美里
+  - >2-
+
+    怎麼了嗎？說給老師聽聽看。
+- wait:
+  - 35
+- touch: *o0
+- choice:
+  - 身體麻痺動彈不得。
+  - 1
+- choice:
+  - 吃下蘑菇後就變成這樣了。
+  - 2
+- tag:
+  - 1
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_004
+- face:
+  - 101511
+  - 6
+- emotion:
+  - question1_R
+  - 101511
+  - 120
+  - 510
+  - se_adv_emote_question_01
+- print:
+  - 美里
+  - 麻痺了？哎呀哎呀哎呀，難不成，
+- wait:
+  - 105
+- print:
+  - 美里
+  - >2-
+
+    是誤食了什麼東西嗎？
+- touch: *o0
+- goto:
+  - 3
+- tag:
+  - 2
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_005
+- face:
+  - 101511
+  - 6
+- emotion:
+  - question1_R
+  - 101511
+  - 120
+  - 510
+  - se_adv_emote_question_01
+- print:
+  - 美里
+  - 蘑菇？哎呀哎呀，
+- wait:
+  - 75
+- print:
+  - 美里
+  - >2-
+
+    或許那就是使你身體麻痺的原因也說不定喔。
+- touch: *o0
+- tag:
+  - 3
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_006
+- face:
+  - 101511
+  - 4
+- print:
+  - 美里
+  - 一定是毒蘑菇呢……
+- wait:
+  - 60
+- print:
+  - 美里
+  - >2-
+
+    從外表看來就相當嚇人對吧？
+- touch: *o0
+- choice:
+  - 因為肚子實在太餓了……
+  - 4
+- tag:
+  - 4
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_007
+- face:
+  - 101511
+  - 4
+- print:
+  - 美里
+  - 真可憐，現在馬上幫你解毒喔～
+- wait:
+  - 40
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101511
+  - 30
+- chara_full:
+  - 101511
+  - C
+  - 1
+- scale:
+  - 101511
+  - 1.3
+  - 2
+- se:
+  - se_adv_step_leaves_move_01
+- fadein:
+  - 101511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_008
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 先暫時稍微忍耐一下――
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101511
+  - 30
+- bgm:
+  - stop
+  - 2
+- effect:
+  - 04
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- jingle_start:
+  - bgm_M17_00_intro
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- effect:
+  - 9
+- print:
+  - 魔物
+  - ──咕喔喔喔喔
+- shake_screen: *o0
+- print:
+  - 魔物
+  - ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1611
+  - 30
+- effect:
+  - 04
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 101511
+  - C
+  - 6
+- fadein:
+  - 101511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_009
+- face:
+  - 101511
+  - 6
+- emotion:
+  - exclamation1_R
+  - 101511
+  - 15
+  - 660
+  - se_adv_emote_common_01
+- print:
+  - 美里
+  - 哎呀哎呀！小魔物究竟是何時……
+- wait:
+  - 90
+- print:
+  - 美里
+  - >2-
+
+    老師嚇了一跳呢。
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_010
+- face:
+  - 101511
+  - 1
+- nod:
+  - 101511
+- print:
+  - 美里
+  - 抱歉呢。先當個乖孩子等著喔。
+- wait:
+  - 75
+- print:
+  - 美里
+  - >2-
+
+    我去和小魔物溝通一下唷。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_leaves_walk_go_01
+- change:
+  - R
+  - C
+  - 45
+- fadeout:
+  - 101511
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- se:
+  - se_adv_step_leaves_walk_come_01
+- wait:
+  - 15
+- chara_full:
+  - 101511
+  - L
+  - 1
+- chara_full:
+  - 1611
+  - RC
+  - 1
+- change:
+  - LC
+  - L
+  - 45
+- fadein_all:
+  - 30
+- bgm:
+  - bgm_M01
+  - 0
+  - 0
+  - 1
+- window_visible:
+  - true
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_011
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 你好啊～
+- wait:
+  - 40
+- print:
+  - 美里
+  - >2-
+
+    你就是在這一帶徘徊的小魔物吧～
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_012
+- face:
+  - 101511
+  - 4
+- print:
+  - 美里
+  - 對不起喔。
+- wait:
+  - 30
+- print:
+  - 美里
+  - >2-
+
+    孩子們都很害怕，所以要請你回家――
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_leaves_run_armor_go_01
+- wait:
+  - 10
+- se_pause:
+  - se_adv_step_leaves_run_armor_go_01
+  - 0.5
+- wait:
+  - 5
+- wait:
+  - 10
+- window_visible:
+  - true
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_013
+- face:
+  - 101511
+  - 6
+- print:
+  - 美里
+  - 哎呀哎呀，這種狀況下跑到前面來是很危險的唷。
+- wait:
+  - 30
+- touch: *o0
+- se:
+  - se_adv_creature_cmn_01
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──咕喔喔喔喔！
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_014
+- face:
+  - 101511
+  - 2
+- print:
+  - 美里
+  - 小魔物也沒事的唷～
+- wait:
+  - 30
+- touch: *o0
+- se:
+  - se_adv_creature_cmn_01
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──咕喔喔喔喔
+- shake:
+  - 1611
+- print:
+  - 魔物
+  - ！
+- touch: *o0
+- face:
+  - 101511
+  - 6
+- window_visible:
+  - false
+- effect:
+  - 09
+- se:
+  - se_adv_step_monster_move_02
+- scale:
+  - 1611
+  - 1.3
+  - 2
+  - 5
+- fadeout:
+  - 1611
+  - 30
+- se_pause:
+  - se_adv_step_monster_move_02
+  - 0.5
+- effect_delete:
+  - 09
+- bg_color:
+  - 0
+  - 0
+  - 0
+- fadeout:
+  - 101511
+  - 0
+- effect:
+  - 28
+  - se_adv_weapon_claw_hit_01
+- wait:
+  - 15
+- background:
+  - 500180
+- effect:
+  - 0079
+  - '@79'
+- se:
+  - se_adv_kick_ground_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- chara_full:
+  - 101511
+  - C
+  - 6
+- fadein:
+  - 101511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_015
+- face:
+  - 101511
+  - 6
+- emotion:
+  - exclamation1_R
+  - 101511
+  - 15
+  - 660
+  - se_adv_emote_common_01
+- print:
+  - 美里
+  - 哎呀哎呀！沒事吧～？
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_016
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 小魔物也突然嚇了一跳對吧──
+- wait:
+  - 75
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 2
+- print:
+  - 美里
+  - 真是對不起喔。好──啦，乖孩子乖孩子……
+- wait:
+  - 75
+- touch: *o0
+- se:
+  - se_adv_creature_friendly_03
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 1
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──咕喔喔喔……
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_017
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 沒什麼好害怕的唷。
+- wait:
+  - 45
+- print:
+  - 美里
+  - >2-
+
+    沒有人會欺負你的喔……
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_018
+- face:
+  - 101511
+  - 2
+- print:
+  - 美里
+  - 回家吧。
+- wait:
+  - 45
+- print:
+  - 美里
+  - >2-
+
+    爸爸和媽媽，一定都在擔心著喔。
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101511
+  - 30
+- effect:
+  - 04
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- window_visible:
+  - true
+- se:
+  - se_adv_creature_friendly_04
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──咕嗚……咕嗚……
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_monster_run_01
+- change:
+  - R
+  - C
+  - 30
+- fadeout:
+  - 1611
+  - 30
+- se_pause:
+  - se_adv_step_monster_run_01
+  - 0.5
+- wait:
+  - 15
+- effect:
+  - 04
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 101511
+  - C
+  - 1
+- fadein:
+  - 101511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_019
+- face:
+  - 101511
+  - 1
+- nod:
+  - 101511
+- print:
+  - 美里
+  - 嗯……是個懂事的好孩子，真是幫大忙了。
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 4
+  - 1
+- face:
+  - 101511
+  - 6
+- emotion:
+  - notice1_L
+  - 101511
+  - -80
+  - 545
+  - se_adv_emote_common_01
+- wait:
+  - 30
+- emotion_end:
+  - 101511
+- fadeout:
+  - 101511
+  - 30
+- se:
+  - se_adv_step_leaves_move_01
+- chara_full:
+  - 101511
+  - C
+  - 6
+- scale:
+  - 101511
+  - 1.2
+  - 2
+- fadein:
+  - 101511
+  - 30
+- bgm:
+  - bgm_M52
+- window_visible:
+  - true
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_020
+- face:
+  - 101511
+  - 6
+- print:
+  - 美里
+  - 哎呀哎呀，受傷了呢。
+- wait:
+  - 75
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 麻痺的身體狀況下，太逞強是不行的唷。
+- touch: *o0
+- choice:
+  - 因為魔物過來了。
+  - 5
+- tag:
+  - 5
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_021
+- face:
+  - 101511
+  - 6
+- print:
+  - 美里
+  - 為了要保護我嗎？
+- wait:
+  - 75
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 真是個非常溫柔的人呢。
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_022
+- face:
+  - 101511
+  - 2
+- emotion:
+  - twinkle1_R
+  - 101511
+  - -130
+  - 515
+  - se_adv_emote_twinkle_01
+- print:
+  - 美里
+  - 老師很高興喔～
+- wait:
+  - 60
+- print:
+  - 美里
+  - >2-
+
+    謝謝……
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_hug_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- window_visible:
+  - true
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_023
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 很有勇氣呢。
+- wait:
+  - 135
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 5
+- nod:
+  - 101511
+- print:
+  - 美里
+  - 好孩子好孩子，真乖真乖。
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_024
+- face:
+  - 101511
+  - 2
+- emotion:
+  - note1_L
+  - 101511
+  - -100
+  - 525
+  - se_adv_emote_note_01
+- print:
+  - 美里
+  - 痛痛、痛痛，飛走囉──♪
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101511
+  - 30
+- effect:
+  - 0008
+  - se_adv_magic_cmn_healing_medium_01
+- wait:
+  - 60
+- chara_full:
+  - 101511
+  - C
+  - 2
+- fadein:
+  - 101511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_025
+- face:
+  - 101511
+  - 2
+- print:
+  - 美里
+  - 呵呵呵，怎麼樣。
+- wait:
+  - 75
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 這樣一來，中毒跟受傷都不要緊了喔。
+- touch: *o0
+- window_visible:
+  - false
+- nod:
+  - 101511
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_026
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - ……嗯，已經沒事了。
+- wait:
+  - 75
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 6
+- print:
+  - 美里
+  - 話說如此，還真是不可思議呢～
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_027
+- face:
+  - 101511
+  - 4
+- print:
+  - 美里
+  - 那個毒蘑菇，雖然外表也相當驚人，但在大陸上算是非常有名，
+- wait:
+  - 75
+- print:
+  - 美里
+  - >2-
+
+    幾乎沒有人會食用唷……
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_028
+- face:
+  - 101511
+  - 4
+- print:
+  - 美里
+  - 就連小魔物也不會吃呢……
+- wait:
+  - 75
+- print:
+  - 美里
+  - >2-
+
+    你不知道嗎？
+- touch: *o0
+- choice:
+  - 因為喪失記憶了所以不是很清楚。
+  - 6
+- tag:
+  - 6
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_029
+- face:
+  - 101511
+  - 6
+- emotion:
+  - exclamation1_R
+  - 101511
+  - 15
+  - 660
+  - se_adv_emote_common_01
+- print:
+  - 美里
+  - 哎呀哎呀哎呀！
+- wait:
+  - 45
+- print:
+  - 美里
+  - >2-
+
+    若是這樣，不知道也是有可能的呢。
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_030
+- face:
+  - 101511
+  - 4
+- print:
+  - 美里
+  - 一路走來想必相當辛苦吧……
+- wait:
+  - 90
+- print:
+  - 美里
+  - >2-
+
+    真是不容易呢。
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- vo_effect:
+  - 3
+- change_window:
+  - 2
+- window_visible:
+  - true
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_031
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - （雖說如此，但是因為肚子餓了，就把生長在地面上的毒蘑菇給大口吃下去，真是不得了呢～）
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_032
+- face:
+  - 101511
+  - 4
+- print:
+  - 美里
+  - 簡直就像個什麼都放進嘴裡的
+- wait:
+  - 30
+- print:
+  - 美里
+  - 小孩子一樣……
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- vo_effect:
+  - 0
+- change_window:
+  - 1
+- face:
+  - 101511
+  - 6
+- emotion:
+  - notice1_L
+  - 101511
+  - -80
+  - 545
+  - se_adv_emote_common_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_033
+- face:
+  - 101511
+  - 6
+- print:
+  - 美里
+  - 哎呀哎呀，對了～。
+- wait:
+  - 60
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 2
+- print:
+  - 美里
+  - 老師想到了一個好主意♪
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_034
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 其實我呢，
+- wait:
+  - 45
+- print:
+  - 美里
+  - 在精靈族之村中擔任幼稚園的老師。
+- wait:
+  - 90
+- print:
+  - 美里
+  - >2-
+
+    然後呢，
+- wait:
+  - 45
+- print:
+  - 美里
+  - 若你願意的話……
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_035
+- face:
+  - 101511
+  - 2
+- emotion:
+  - twinkle1_R
+  - 101511
+  - -130
+  - 515
+  - se_adv_emote_twinkle_01
+- print:
+  - 美里
+  - 讓我當你的老師如何呢～？
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_036
+- face:
+  - 101511
+  - 4
+- print:
+  - 美里
+  - 若是再次吃到毒蘑菇之類的就糟糕了……
+- wait:
+  - 75
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 重要的是，我想還有許多事情能夠教你唷。
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_037
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 當然，討厭的話也不會強迫你的。
+- wait:
+  - 75
+- print:
+  - 美里
+  - >2-
+
+    ……覺得如何呢？
+- touch: *o0
+- choice:
+  - 請多多指教。
+  - 7
+- tag:
+  - 7
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_038
+- face:
+  - 101511
+  - 2
+- print:
+  - 美里
+  - 哎呀哎呀，太好了呢～
+- wait:
+  - 90
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 也請你多多指教喔
+- nod:
+  - 101511
+- print:
+  - 美里
+  - 。
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015001_039
+- face:
+  - 101511
+  - 2
+- emotion:
+  - note1_L
+  - 101511
+  - -100
+  - 525
+  - se_adv_emote_note_01
+- print:
+  - 美里
+  - 請稱呼我為美里老師喔♪
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - '{0}也成為美里所照顧的孩子們之一。'
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

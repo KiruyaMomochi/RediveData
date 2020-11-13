@@ -1,0 +1,282 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 505032
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - false
+- situation:
+  - 度過萬聖節的方式
+- chara_full:
+  - 111311
+  - C
+  - 2
+- fadein:
+  - 111311
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M266_03
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111311
+- bust:
+  - 111311
+  - 0
+- vo:
+  - vo_adv_6025101_000
+- face:
+  - 111311
+  - 2
+- print:
+  - 美美
+  - 萬聖節快樂，
+- wait:
+  - 30
+- print:
+  - 美美
+  - 哥哥！
+- wait:
+  - 45
+- print:
+  - 美美
+  - >2
+
+- face:
+  - 111311
+  - 1
+- print:
+  - 美美
+  - 美美呀，
+- wait:
+  - 30
+- print:
+  - 美美
+  - 想要在萬聖節好好的大玩特玩，
+- wait:
+  - 50
+- print:
+  - 美美
+  - >2
+
+- face:
+  - 111311
+  - 6
+- print:
+  - 美美
+  - 該做些什麼才好呢？
+- touch: &o0 []
+- choice:
+  - 分發點心。
+  - 1
+  - 1
+- choice:
+  - 去惡作劇。
+  - 2
+  - 2
+- choice:
+  - 吃南瓜。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 111311
+- bust:
+  - 111311
+  - 0
+- vo:
+  - vo_adv_6025101_001
+- face:
+  - 111311
+  - 1
+- print:
+  - 美美
+  - 要去發點心嗎～？
+- wait:
+  - 45
+- print:
+  - 美美
+  - >2
+
+- face:
+  - 111311
+  - 2
+- print:
+  - 美美
+  - 好像很有趣呢～！
+- wait:
+  - 55
+- print:
+  - 美美
+  - >2
+
+- face:
+  - 111311
+  - 6
+- print:
+  - 美美
+  - ……
+- wait:
+  - 55
+- print:
+  - 美美
+  - 要分發的點心，
+- wait:
+  - 45
+- print:
+  - 美美
+  - 如果吃一點的話
+- wait:
+  - 40
+- print:
+  - 美美
+  - 可以嗎？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 111311
+- bust:
+  - 111311
+  - 0
+- vo:
+  - vo_adv_6025101_002
+- face:
+  - 111311
+  - 1
+- pop:
+  - 111311
+- print:
+  - 美美
+  - 哇――！　
+- wait:
+  - 25
+- print:
+  - 美美
+  - 惡作劇好像很有趣！
+- wait:
+  - 70
+- print:
+  - 美美
+  - >2-
+
+    是不是可以請禊教我呀？
+- wait:
+  - 60
+- print:
+  - 美美
+  - >2
+
+- face:
+  - 111311
+  - 2
+- print:
+  - 美美
+  - 哥哥，
+- wait:
+  - 15
+- print:
+  - 美美
+  - 我們一起去請教她吧。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 111311
+- bust:
+  - 111311
+  - 0
+- vo:
+  - vo_adv_6025101_003
+- face:
+  - 111311
+  - 6
+- print:
+  - 美美
+  - 南瓜？　
+- wait:
+  - 50
+- face:
+  - 111311
+  - 1
+- print:
+  - 美美
+  - 啊，
+- wait:
+  - 20
+- print:
+  - 美美
+  - 這樣啊！
+- wait:
+  - 40
+- print:
+  - 美美
+  - >2-
+
+    有很多的
+- wait:
+  - 20
+- print:
+  - 美美
+  - 南瓜點心呢！　
+- wait:
+  - 50
+- print:
+  - 美美
+  - 從什麼開始吃好呢～
+- wait:
+  - 60
+- print:
+  - 美美
+  - >2
+
+- face:
+  - 111311
+  - 6
+- print:
+  - 美美
+  - 蛋糕？　
+- wait:
+  - 30
+- print:
+  - 美美
+  - 布丁？　
+- wait:
+  - 40
+- face:
+  - 111311
+  - 2
+- print:
+  - 美美
+  - 真苦惱呢～
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 111311
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

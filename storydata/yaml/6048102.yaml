@@ -1,0 +1,268 @@
+- title:
+  - 天使的服裝
+- outline:
+  - ' '
+- background:
+  - 500010
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 天使的服裝
+- chara_full:
+  - 113811
+  - C
+  - 4
+  - 1
+- fadein:
+  - 113811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M404
+  - 0
+  - 0
+  - 1
+- focus:
+  - 113811
+- bust:
+  - 113811
+  - 0
+- vo:
+  - vo_adv_6048102_000
+- face:
+  - 113811
+  - 4
+- emotion:
+  - gloomy1_R
+  - 113811
+  - 50
+  - 505
+  - se_adv_emote_gloomy_01
+- print:
+  - 依里
+  - 嗚嗚……
+- wait:
+  - 55
+- print:
+  - 依里
+  - 明明就是【惡魔偽王國軍】，
+- wait:
+  - 10
+- print:
+  - 依里
+  - >2-
+
+    卻穿著天使的衣服……
+- wait:
+  - 50
+- eye_open:
+  - TRUE
+- print:
+  - 依里
+  - 總覺得無法冷靜下來啊……
+- touch: &o0 []
+- choice:
+  - 既是惡魔又是天使……？
+  - 1
+  - 1
+- choice:
+  - 加入天使公會怎麼樣？
+  - 2
+  - 2
+- choice:
+  - 很可愛喔！
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 113811
+- bust:
+  - 113811
+  - 0
+- vo:
+  - vo_adv_6048102_001
+- face:
+  - 113811
+  - 4
+- nod:
+  - 113811
+- print:
+  - 依里
+  - 嗯，
+- wait:
+  - 30
+- print:
+  - 依里
+  - 真的很麻煩呢。
+- wait:
+  - 70
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 113811
+  - 3
+- print:
+  - 依里
+  - 一開始思考就停不下來了，
+- wait:
+  - 35
+- print:
+  - 依里
+  - 這個話題到此為止，
+- wait:
+  - 30
+- print:
+  - 依里
+  - 聽到了沒！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 113811
+- bust:
+  - 113811
+  - 0
+- vo:
+  - vo_adv_6048102_002
+- face:
+  - 113811
+  - 4
+- print:
+  - 依里
+  - 等等，
+- wait:
+  - 15
+- print:
+  - 依里
+  - 從來沒聽過那種公會啊！
+- wait:
+  - 70
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 113811
+  - 6
+- print:
+  - 依里
+  - 可是
+- wait:
+  - 30
+- print:
+  - 依里
+  - 用現在這個樣子
+- wait:
+  - 10
+- print:
+  - 依里
+  - >-
+    待在
+
+    【惡魔偽王國軍】裡好嗎？
+- wait:
+  - 45
+- face:
+  - 113811
+  - 3
+- pop:
+  - 113811
+- print:
+  - 依里
+  - 啊～討厭！
+- wait:
+  - 30
+- print:
+  - 依里
+  - 不要說這種讓人擔心的話！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 113811
+- bust:
+  - 113811
+  - 0
+- vo:
+  - vo_adv_6048102_003
+- face:
+  - 113811
+  - 4
+- emotion:
+  - shy1_R
+  - 113811
+  - -75
+  - 470
+  - se_adv_emote_shy_01
+- print:
+  - 依里
+  - 你、
+- wait:
+  - 15
+- print:
+  - 依里
+  - 你的感想什麼的才不重要呢！
+- wait:
+  - 65
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 113811
+  - 6
+- print:
+  - 依里
+  - 不過，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 穿成這個樣子
+- wait:
+  - 20
+- print:
+  - 依里
+  - 的確很可愛呢。
+- wait:
+  - 65
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 113811
+  - 4
+- print:
+  - 依里
+  - 總覺得心情好複雜啊……
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 113811
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

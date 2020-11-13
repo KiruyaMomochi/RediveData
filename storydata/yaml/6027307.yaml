@@ -1,0 +1,323 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500740
+- amb:
+  - amb_adv_room_noise_01
+- ui_visible:
+  - FALSE
+- situation:
+  - おすすめスポットは？
+- chara_full:
+  - 111011
+  - C
+  - 1
+- fadein:
+  - 111011
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M203
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_6023307_000
+- face:
+  - 111011
+  - 1
+- print:
+  - ユニ
+  - 存知のとおり、
+- wait:
+  - 30
+- print:
+  - ユニ
+  - ぼくは外出というものを好まない。
+- wait:
+  - 60
+- print:
+  - ユニ
+  - >2-
+
+    反して、
+- wait:
+  - 30
+- print:
+  - ユニ
+  - 君は意欲的に
+- wait:
+  - 20
+- print:
+  - ユニ
+  - 方々へ出向いているらしいじゃないか。
+- wait:
+  - 65
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 111011
+  - 2
+- print:
+  - ユニ
+  - この引きこもりの知的好奇心を
+- wait:
+  - 35
+- print:
+  - ユニ
+  - くすぐるスポットはないものかね。
+- touch: &o0 []
+- choice:
+  - マルジェン海岸。
+  - 1
+  - 1
+- choice:
+  - オーエド町。
+  - 2
+  - 2
+- choice:
+  - 象牙の塔。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_6023307_001
+- face:
+  - 111011
+  - 6
+- print:
+  - ユニ
+  - 海水浴場か……
+- wait:
+  - 80
+- face:
+  - 111011
+  - 4
+- print:
+  - ユニ
+  - 率直に言ってまるで惹かれないが、
+- wait:
+  - 75
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 111011
+  - 1
+- print:
+  - ユニ
+  - 山育ちの身ゆえ、
+- wait:
+  - 40
+- print:
+  - ユニ
+  - 後学のためにも一度ぐらいは
+- wait:
+  - 30
+- print:
+  - ユニ
+  - 訪れておくべきか。
+- wait:
+  - 75
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 111011
+  - 4
+- print:
+  - ユニ
+  - しかし、
+- wait:
+  - 40
+- print:
+  - ユニ
+  - あの水着とかいう破廉恥な衣装は……
+- wait:
+  - 75
+- eye_open:
+  - False
+- print:
+  - ユニ
+  - うぬぬぬ……
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_6023307_002
+- face:
+  - 111011
+  - 6
+- emotion:
+  - notice1_L
+  - 111011
+  - -82
+  - 455
+  - se_adv_emote_common_01
+- print:
+  - ユニ
+  - おお、
+- wait:
+  - 20
+- print:
+  - ユニ
+  - 聞いたことがある。
+- wait:
+  - 50
+- face:
+  - 111011
+  - 1
+- print:
+  - ユニ
+  - トーゴク情緒あふれる粋な街らしいな。
+- wait:
+  - 65
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 111011
+  - 4
+- print:
+  - ユニ
+  - しかし
+- wait:
+  - 30
+- print:
+  - ユニ
+  - 極東の文化というのはどうなのだ……
+- wait:
+  - 70
+- print:
+  - ユニ
+  - 腐った大豆や魚の死骸、
+- wait:
+  - 50
+- print:
+  - ユニ
+  - >2-
+
+    何にでもびちゃびちゃソイソースをかけて食すと言うぞ。
+- wait:
+  - 75
+- print:
+  - ユニ
+  - ううむ。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_6023307_003
+- face:
+  - 111011
+  - 6
+- print:
+  - ユニ
+  - 象牙の塔？　
+- wait:
+  - 50
+- print:
+  - ユニ
+  - あの、
+- wait:
+  - 5
+- print:
+  - ユニ
+  - 希少な古文書がわんさか眠っているという？
+- wait:
+  - 75
+- print:
+  - ユニ
+  - >2-
+
+    よし行こう……
+- wait:
+  - 20
+- face:
+  - 111011
+  - 3
+- pop:
+  - 111011
+- se:
+  - se_adv_rabbit_jump_01
+- print:
+  - ユニ
+  - って、
+- wait:
+  - 5
+- print:
+  - ユニ
+  - ソレここの図書館棟ー！　
+- wait:
+  - 50
+- face:
+  - 111011
+  - 4
+- print:
+  - ユニ
+  - じゃないんだよ。
+- wait:
+  - 45
+- print:
+  - ユニ
+  - >2-
+
+    知的なぼくに
+- wait:
+  - 20
+- print:
+  - ユニ
+  - 生涯初のノリツッコミをさせるんじゃあないよ。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 110811
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

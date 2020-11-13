@@ -1,0 +1,1641 @@
+- title:
+  - 初音 第2話
+- outline:
+  - 呈現著睡眠狀態但因為超能力而在空中飛行的初音。追著他的{0}則是被捲入各種麻煩。初音醒來後得知{0}一直在守護自己，除了表示感謝，也把他從魔物旁拯救出來。
+- background:
+  - 500032
+- amb:
+  - amb_adv_outdoors_night_02
+  - 1
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 睡美人的冒險
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    正當{0}要回家時，
+
+    看見正在空中飛的初音。
+- touch: &o0 []
+- window_visible:
+  - false
+- bgm:
+  - bgm_M11_02_Edit
+- chara_full:
+  - 101211
+  - C
+  - 2
+  - 1
+- fadein:
+  - 101211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_1012002_000
+- face:
+  - 101211
+  - 2
+- emotion:
+  - sleep1_L
+  - 101211
+  - -85
+  - 485
+  - se_adv_emote_sleep_01
+- print:
+  - 初音
+  - 呼嚕呼嚕……
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_magic_hatsune_01
+- out_R:
+  - 101211
+  - 80
+  - true
+- choice:
+  - 追上去。
+  - 1
+- tag:
+  - 1
+- se:
+  - se_adv_step_concrete_run_armor_go_01
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 500012
+- wait:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 101211
+  - C
+  - 2
+  - 1
+- fadein:
+  - 101211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_1012002_001
+- face:
+  - 101211
+  - 2
+- emotion:
+  - sleep1_L
+  - 101211
+  - -85
+  - 485
+  - se_adv_emote_sleep_01
+- print:
+  - 初音
+  - 呼嚕……呼嚕……
+- wait:
+  - 75
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+- fadeout:
+  - 101211
+  - 30
+- se:
+  - se_adv_step_concrete_walk_armor_come_01
+- wait:
+  - 60
+- bgm:
+  - bgm_M21
+  - 0
+  - 0
+  - 1
+- focus:
+  - 911
+- bust:
+  - 911
+  - 1
+- vo:
+  - vo_adv_1012002_002
+- face:
+  - 911
+  - 1
+- print:
+  - 無賴１
+  - 喂，你看啊。
+- wait:
+  - 30
+- print:
+  - 無賴１
+  - >2
+
+- face:
+  - 911
+  - 2
+- print:
+  - 無賴１
+  - 竟然有個女的睡在這裡？
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 1
+- vo:
+  - vo_adv_1012002_003
+- face:
+  - 811
+  - 1
+- print:
+  - 無賴２
+  - 嘿嘿嘿，總之先搶走她身上值錢的東西，
+- wait:
+  - 105
+- print:
+  - 無賴２
+  - >2
+
+- face:
+  - 811
+  - 2
+- print:
+  - 無賴２
+  - 再順便讓我們稍微享受一下吧。
+- touch: *o0
+- choice:
+  - 救她。
+  - 2
+- tag:
+  - 2
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_step_concrete_run_armor_come_01
+- wait:
+  - 60
+- window_visible:
+  - TRUE
+- chara_full:
+  - 911
+  - LC
+  - 3
+- chara_full:
+  - 811
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1012002_004
+- face:
+  - 911
+  - 3
+- print:
+  - 無賴１
+  - '啊？ '
+- pop:
+  - 911
+- print:
+  - 無賴１
+  - 搞什麼，你這傢伙！
+- wait:
+  - 50
+- print:
+  - 無賴１
+  - >2-
+
+    打算妨礙我們嗎？
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 101211
+  - R
+  - 1
+  - 1
+- se:
+  - se_adv_magic_hatsune_01
+- in_L:
+  - 101211
+  - 80
+  - true
+- wait:
+  - 30
+- out_R:
+  - 101211
+  - 80
+  - true
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 911
+  - LC
+  - 6
+- chara_full:
+  - 811
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1012002_005
+- face:
+  - 911
+  - 6
+- emotion:
+  - exclamation1_R
+  - 911
+  - -15
+  - 715
+  - '*non'
+- print:
+  - 無賴１
+  - 喂！
+- wait:
+  - 10
+- print:
+  - 無賴１
+  - >2-
+
+    在我們說話的時候，那個女的不見了喔！？
+- wait:
+  - 75
+- print:
+  - 無賴１
+  - >2-
+
+    她去哪裡了！？
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1012002_006
+- face:
+  - 811
+  - 3
+- print:
+  - 無賴２
+  - 你這傢伙做了什麼嗎？
+- wait:
+  - 30
+- print:
+  - 無賴２
+  - >2-
+
+    竟敢救走我們的獵物！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_step_concrete_run_armor_go_01
+- effect:
+  - 9
+- camera_zoom:
+  - 1.3
+  - 15
+- wait:
+  - 10
+- window_visible:
+  - TRUE
+- focus:
+  - 911
+- bust:
+  - 911
+  - 1
+- vo:
+  - vo_adv_1012002_007
+- face:
+  - 911
+  - 3
+- print:
+  - 無賴１
+  - 啊，站住！
+- wait:
+  - 40
+- print:
+  - 無賴１
+  - >2-
+
+    你想逃走嗎！？
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+  - 1
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500092
+- camera_zoom:
+  - 1
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_outdoors_night_02
+- chara_full:
+  - 101211
+  - C
+  - 2
+  - 1
+- fadein:
+  - 101211
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M11_02_Edit
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_1012002_008
+- face:
+  - 101211
+  - 2
+- emotion:
+  - sleep1_L
+  - 101211
+  - -85
+  - 485
+  - se_adv_emote_sleep_01
+- print:
+  - 初音
+  - 呼嚕呼嚕……呼嚕呼嚕……呼嚕呼嚕……
+- wait:
+  - 150
+- touch: *o0
+- fadeout:
+  - 101211
+  - 30
+- chara_full:
+  - 711
+  - C
+  - 1
+- fadein:
+  - 711
+  - 30
+- focus:
+  - 711
+- bust:
+  - 711
+  - 0
+- vo:
+  - vo_adv_1012002_009
+- face:
+  - 711
+  - 1
+- print:
+  - 王宮騎士
+  - 什、
+- pop:
+  - 711
+- print:
+  - 王宮騎士
+  - 什麼！？ 有個在皇宮前面睡著的傢伙！
+- wait:
+  - 20
+- touch: *o0
+- focus:
+  - 711
+- bust:
+  - 711
+  - 0
+- vo:
+  - vo_adv_1012002_010
+- face:
+  - 711
+  - 1
+- print:
+  - 王宮騎士
+  - 可疑的傢伙……逮捕她吧！
+- wait:
+  - 45
+- touch: *o0
+- choice:
+  - 將她從皇宮前面拉離。
+  - 3
+- tag:
+  - 3
+- se:
+  - se_adv_stepadd_armor_heavy_01_move_01
+- focus:
+  - 711
+- bust:
+  - 711
+  - 0
+- vo:
+  - vo_adv_1012002_011
+- face:
+  - 711
+  - 1
+- print:
+  - 王宮騎士
+  - 你也是這傢伙的同夥嗎！？ 一起逮捕！
+- wait:
+  - 10
+- touch: *o0
+- fadeout:
+  - 711
+  - 30
+- chara_full:
+  - 101211
+  - C
+  - 4
+  - 1
+- fadein:
+  - 101211
+  - 30
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_1012002_012
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - 嗯～……
+- shake:
+  - 101211
+- print:
+  - 初音
+  - 要起來還太早了啦。
+- wait:
+  - 120
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 2
+- print:
+  - 初音
+  - ……呼嚕呼嚕。
+- touch: *o0
+- fadeout:
+  - 101211
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500202
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_outdoors_night_01
+- chara_full:
+  - 101211
+  - C
+  - 2
+  - 1
+- fadein:
+  - 101211
+  - 30
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_1012002_013
+- face:
+  - 101211
+  - 2
+- emotion:
+  - sleep1_L
+  - 101211
+  - -85
+  - 485
+  - se_adv_emote_sleep_01
+- print:
+  - 初音
+  - 呼嚕呼嚕……呼嚕呼嚕……呼嚕呼嚕……呼嚕呼嚕……
+- wait:
+  - 135
+- touch: *o0
+- fadeout:
+  - 101211
+  - 30
+- se:
+  - se_adv_creature_cmn_01
+- chara_full:
+  - 1611
+  - C
+  - 2
+  - 1
+- fadein:
+  - 1611
+  - 30
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──呱歐歐歐歐歐
+- shake_screen: *o0
+- print:
+  - 魔物
+  - ！
+- touch: *o0
+- fadeout:
+  - 1611
+  - 30
+- chara_full:
+  - 101211
+  - C
+  - 4
+  - 1
+- fadein:
+  - 101211
+  - 30
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_1012002_014
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - 嗯……嗯嗯～？
+- wait:
+  - 55
+- print:
+  - 初音
+  - >2-
+
+    感覺有魔物的聲音～嗯呀嗯呀……？
+- wait:
+  - 120
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_1012002_015
+- face:
+  - 101211
+  - 2
+- print:
+  - 初音
+  - 但是……家裡不可能會有魔物……
+- wait:
+  - 150
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 2
+- print:
+  - 初音
+  - 啊，原來這是夢……
+- nod:
+  - 101211
+- print:
+  - 初音
+  - 太好了～
+- wait:
+  - 80
+- print:
+  - 初音
+  - >2-
+
+    那麼，晚安～
+- wait:
+  - 10
+- touch: *o0
+- choice:
+  - 揹著她逃離魔物。
+  - 4
+- tag:
+  - 4
+- window_visible:
+  - false
+- se:
+  - se_adv_body_carry_back_01
+- shake_once:
+  - 3
+- chara_full:
+  - 101211
+  - C
+  - 4
+  - 1
+- scale:
+  - 101211
+  - 1.3
+  - 2
+- fadein:
+  - 101211
+  - 30
+- window_visible:
+  - true
+- se:
+  - se_adv_step_dirt_run_armor_go_01
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_1012002_016
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - 唔……
+- shake:
+  - 101211
+- print:
+  - 初音
+  - 在搖晃？
+- wait:
+  - 90
+- print:
+  - 初音
+  - >2-
+
+    真不好睡啊……
+- face:
+  - 101211
+  - 2
+- print:
+  - 初音
+  - 呼嚕呼嚕……
+- wait:
+  - 90
+- touch: *o0
+- fadeout:
+  - 101211
+  - 30
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 4
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500162
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_seaside_01
+  - 1
+- chara_full:
+  - 101211
+  - C
+  - 2
+  - 1
+- in_L:
+  - 101211
+  - 80
+  - true
+- wait:
+  - 20
+- fadeout:
+  - 101211
+  - 30
+- se:
+  - se_adv_magic_water_small_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- vo_effect:
+  - 4
+- bgm:
+  - bgm_M51
+  - 0
+  - 0
+  - 1
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 1
+  - 1
+- vo:
+  - vo_adv_1012002_017
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - 呼嚕呼嚕……咕嚕咕嚕……
+- wait:
+  - 120
+- print:
+  - 初音
+  - >2-
+
+    嗚，好痛苦……無法呼吸……咕嚕咕嚕……
+- wait:
+  - 115
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 1
+  - 1
+- vo:
+  - vo_adv_1012002_018
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - 但素豪想睡……呼嚕呼嚕……咕嚕咕嚕……
+- wait:
+  - 165
+- touch: *o0
+- choice:
+  - 將她從海中拉起。
+  - 5
+- tag:
+  - 5
+- window_visible:
+  - false
+- se:
+  - se_adv_water_pick_01
+- wait:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- background:
+  - 500210
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_wind_01
+- se:
+  - se_adv_magic_hatsune_01
+- wait:
+  - 15
+- chara_full:
+  - 101211
+  - C
+  - 2
+  - 1
+- fadein:
+  - 101211
+  - 30
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_1012002_019
+- face:
+  - 101211
+  - 2
+- emotion:
+  - sleep1_L
+  - 101211
+  - -85
+  - 485
+  - se_adv_emote_sleep_01
+- print:
+  - 初音
+  - 呼嚕呼嚕……呼嚕呼嚕……呼嚕呼嚕……呼嚕呼嚕……
+- wait:
+  - 165
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- face:
+  - 101211
+  - 1
+- jump:
+  - 101211
+- wait:
+  - 15
+- window_visible:
+  - TRUE
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_1012002_020
+- face:
+  - 101211
+  - 2
+- eye_open:
+  - true
+- print:
+  - 初音
+  - 嗯～！ 睡得好飽～！
+- wait:
+  - 90
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 1
+- print:
+  - 初音
+  - 初音完全恢復了！ 閃亮亮☆
+- wait:
+  - 55
+- touch: *o0
+- effect_delete:
+  - 0022
+  - 30
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_1012002_021
+- face:
+  - 101211
+  - 6
+- print:
+  - 初音
+  - ……咦？ 這是哪裡？
+- wait:
+  - 55
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - 為什麼我會在這裡～？
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_1012002_022
+- face:
+  - 101211
+  - 6
+- print:
+  - 初音
+  - 啊，你也在！
+- wait:
+  - 20
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - 你好像很想睡……怎麼了嗎？
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_1012002_023
+- face:
+  - 101211
+  - 6
+- print:
+  - 初音
+  - 咦！？
+- wait:
+  - 10
+- print:
+  - 初音
+  - >2-
+
+    因為我邊睡邊飛，你很擔心……？
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_1012002_024
+- face:
+  - 101211
+  - 5
+- print:
+  - 初音
+  - 是這樣啊～
+- wait:
+  - 45
+- print:
+  - 初音
+  - >2-
+
+    你不眠不休在照顧我呢！
+- wait:
+  - 20
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 2
+- print:
+  - 初音
+  - 謝謝！
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_1012002_025
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - 我有時會在睡夢中不小心使用超能力，
+- wait:
+  - 85
+- print:
+  - 初音
+  - >2-
+
+    不知不覺就輕飄飄地飛起來呢……
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_1012002_026
+- face:
+  - 101211
+  - 1
+- print:
+  - 初音
+  - 因為給你添麻煩了，
+- wait:
+  - 30
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 2
+- print:
+  - 初音
+  - 我必須為此道歉
+- wait:
+  - 30
+- print:
+  - 初音
+  - >2-
+
+    及感謝你照顧我！
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_1012002_027
+- face:
+  - 101211
+  - 1
+- emotion:
+  - twinkle1_R
+  - 101211
+  - 130
+  - 490
+  - se_adv_emote_twinkle_01
+- print:
+  - 初音
+  - 有什麼希望我做的嗎？
+- wait:
+  - 30
+- print:
+  - 初音
+  - >2-
+
+    我什麼都能為你做喔！
+- touch: *o0
+- choice:
+  - 不用什麼謝禮喔。
+  - 6
+- choice:
+  - 妳剛剛說什麼都可以？
+  - 7
+- tag:
+  - 6
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_1012002_028
+- face:
+  - 101211
+  - 4
+- shake:
+  - 101211
+- print:
+  - 初音
+  - 咦～，不要那樣說嘛！
+- wait:
+  - 10
+- print:
+  - 初音
+  - >2-
+
+    我會過意不去的！
+- wait:
+  - 75
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 3
+- print:
+  - 初音
+  - 喂，讓我為你做點什麼嘛～！
+- touch: *o0
+- goto:
+  - 8
+- tag:
+  - 7
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_1012002_029
+- face:
+  - 101211
+  - 2
+- print:
+  - 初音
+  - '嗯！ '
+- pop:
+  - 101211
+- print:
+  - 初音
+  - 只要是我做得到的事，什麼都可以喔！
+- wait:
+  - 70
+- print:
+  - 初音
+  - >2-
+
+    放心交給我吧！
+- touch: *o0
+- tag:
+  - 8
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_1012002_030
+- face:
+  - 101211
+  - 1
+- print:
+  - 初音
+  - 因為我有超能力，大部分的事情――
+- wait:
+  - 45
+- touch: *o0
+- bgm:
+  - stop
+  - 1.5
+  - 1
+- fadeout:
+  - 101211
+  - 30
+- wait:
+  - 15
+- bgm:
+  - bgm_M03
+- effect:
+  - 9
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_01
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──呱歐歐歐歐歐
+- shake_screen: *o0
+- print:
+  - 魔物
+  - ！
+- touch: *o0
+- fadeout:
+  - 1611
+  - 30
+- chara_full:
+  - 101211
+  - C
+  - 6
+- fadein:
+  - 101211
+  - 30
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_1012002_031
+- face:
+  - 101211
+  - 6
+- print:
+  - 初音
+  - 哇！ 是、是魔物！？
+- wait:
+  - 70
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - 不得了了！
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_1012002_032
+- face:
+  - 101211
+  - 6
+- emotion:
+  - notice2_L
+  - 101211
+  - -115
+  - 550
+  - se_adv_emote_nortice_01
+- print:
+  - 初音
+  - 啊，對了！
+- wait:
+  - 20
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 1
+- print:
+  - 初音
+  - 作為你照顧我的謝禮，這次就讓我幫你吧！
+- wait:
+  - 20
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 3
+- print:
+  - 初音
+  - 用瞬間移動來逃離魔物吧！ 嘿噫！
+- wait:
+  - 20
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0006
+  - se_adv_magic_hatsune_01
+- bgm:
+  - stop
+  - 2
+- white_out:
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- background:
+  - 500240
+- fadeout:
+  - 101211
+  - 5
+- effect_delete:
+  - 0006
+- wait:
+  - 15
+- white_in:
+  - 1
+  - 1
+- amb:
+  - amb_adv_cave_with_water_01
+  - 1
+- se:
+  - se_adv_magic_cmn_warp_01
+- chara_full:
+  - 101211
+  - C
+  - 1
+- fadein:
+  - 101211
+  - 30
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- bgm:
+  - bgm_M52
+  - 0
+  - 0
+  - 1
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_1012002_033
+- face:
+  - 101211
+  - 1
+- print:
+  - 初音
+  - 到了～！
+- wait:
+  - 10
+- print:
+  - 初音
+  - >2-
+
+    一瞬間就逃掉了喔！ 很厲害吧？
+- wait:
+  - 55
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 2
+- print:
+  - 初音
+  - 耶～，勝利勝利！
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_1012002_034
+- face:
+  - 101211
+  - 6
+- emotion:
+  - notice1_L
+  - 101211
+  - -75
+  - 545
+  - se_adv_emote_common_01
+- print:
+  - 初音
+  - 咦？ 但是，我們瞬間移動到了未知的洞穴……
+- wait:
+  - 110
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - 你知道出口的方向嗎？
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_1012002_035
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - 不知道對吧……
+- wait:
+  - 45
+- print:
+  - 初音
+  - >2-
+
+    我也不知道該往哪走比較好……
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_1012002_036
+- face:
+  - 101211
+  - 2
+- print:
+  - 初音
+  - 但是，沒――事，沒――事！
+- wait:
+  - 30
+- print:
+  - 初音
+  - >2
+
+- pop:
+  - 101211
+- print:
+  - 初音
+  - 沒關係喔～！
+- wait:
+  - 30
+- print:
+  - 初音
+  - >2-
+
+    只要再用我的超能力移動……
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - 呼哇～
+- wait:
+  - 105
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_1012002_037
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - 啊……因為使用了瞬間移動，又變得想睡了……
+- wait:
+  - 160
+- print:
+  - 初音
+  - >2
+
+- eye_open:
+  - false
+- face:
+  - 101211
+  - 2
+- print:
+  - 初音
+  - 嗯呀～
+- touch: *o0
+- window_visible:
+  - false
+- updown:
+  - 101211
+  - 0
+  - -150
+  - 0.5
+- fadeout:
+  - 101211
+  - 15
+- se:
+  - se_adv_bodyfall_02
+- wait:
+  - 15
+- window_visible:
+  - TRUE
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 1
+- vo:
+  - vo_adv_1012002_038
+- face:
+  - 101211
+  - 4
+- eye_open:
+  - false
+- print:
+  - 初音
+  - 對不起喔……晚安……
+- wait:
+  - 60
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 2
+- print:
+  - 初音
+  - 呼嚕呼嚕……
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    不管等多久，初音都沒有醒來，
+
+    {0}只好扛著初音，
+
+    拼命地尋找洞穴的出口……
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

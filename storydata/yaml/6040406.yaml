@@ -1,0 +1,275 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500111
+- amb:
+  - amb_adv_room_noise_01
+- ui_visible:
+  - false
+- situation:
+  - 捐贈給我們的金錢
+- chara_full:
+  - 103811
+  - C
+  - 1
+- fadein:
+  - 103811
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M353_04
+  - 0
+  - 0
+  - 1
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_6040406_000
+- face:
+  - 103811
+  - 1
+- print:
+  - 栞
+  - 鎮上跟村裡的各位，
+- wait:
+  - 50
+- print:
+  - 栞
+  - 還有
+- wait:
+  - 25
+- print:
+  - 栞
+  - >-
+    咲戀育幼院的孩子們
+
+    捐贈的金錢，
+- wait:
+  - 60
+- face:
+  - 103811
+  - 2
+- print:
+  - 栞
+  - 真的讓人非常、
+- wait:
+  - 45
+- nod:
+  - 103811
+- print:
+  - 栞
+  - 非常地感激呢。
+- wait:
+  - 60
+- print:
+  - 栞
+  - >2
+
+- face:
+  - 103811
+  - 1
+- print:
+  - 栞
+  - 得好好回應
+- wait:
+  - 35
+- print:
+  - 栞
+  - 大家的心意才行呢。
+- touch: &o0 []
+- choice:
+  - 首先要找回和平的牧場
+  - 1
+  - 1
+- choice:
+  - 都是多虧了真陽呢
+  - 2
+  - 2
+- choice:
+  - 得要報恩呢
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_6040406_001
+- face:
+  - 103811
+  - 2
+- nod:
+  - 103811
+- print:
+  - 栞
+  - 沒錯呢。
+- wait:
+  - 35
+- print:
+  - 栞
+  - 我希望能讓來泡溫泉的人們，
+- wait:
+  - 40
+- print:
+  - 栞
+  - >2-
+
+    也看看真正的【伊麗莎白牧場】呢。
+- wait:
+  - 45
+- print:
+  - 栞
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 栞
+  - 看看我們那既熱鬧又溫暖，
+- wait:
+  - 45
+- eye_open:
+  - True
+- print:
+  - 栞
+  - 一如往常的容身之處。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_6040406_002
+- face:
+  - 103811
+  - 1
+- print:
+  - 栞
+  - 多虧了她到各種城鎮和村莊去兜售時，
+- wait:
+  - 60
+- print:
+  - 栞
+  - >-
+    和非常多的人
+
+    交流過呢。
+- wait:
+  - 65
+- nod:
+  - 103811
+- face:
+  - 103811
+  - 2
+- print:
+  - 栞
+  - 不只如此，
+- wait:
+  - 45
+- print:
+  - 栞
+  - >-
+    也因為真陽
+
+    她為人很溫暖的緣故。
+- wait:
+  - 80
+- print:
+  - 栞
+  - 別人可沒辦法模仿呢。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_6040406_003
+- face:
+  - 103811
+  - 6
+- print:
+  - 栞
+  - 報恩……
+- wait:
+  - 60
+- print:
+  - 栞
+  - 應該要做什麼才能回報呢。
+- wait:
+  - 60
+- print:
+  - 栞
+  - >2-
+
+    大家會開心的事情……
+- wait:
+  - 60
+- nod:
+  - 103811
+- face:
+  - 103811
+  - 2
+- print:
+  - 栞
+  - 這個嘛，
+- wait:
+  - 35
+- print:
+  - 栞
+  - 既然這樣的話，
+- wait:
+  - 35
+- print:
+  - 栞
+  - >2-
+
+    我就來想想要怎麼樣能讓
+- wait:
+  - 15
+- print:
+  - 栞
+  - 大家在泡溫泉時
+- wait:
+  - 20
+- print:
+  - 栞
+  - 能更加舒服的方法吧。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 103811
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

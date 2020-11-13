@@ -1,0 +1,2614 @@
+- title:
+  - 愛蜜莉雅 第 3 話
+- outline:
+  - 愛蜜莉雅照顧因疲憊而昏睡的可可蘿。愛蜜莉雅笑著說，{0}等人就像她的弟弟妹妹一般。在她無私的照護下，可可蘿完全放鬆地枕在她的腿上睡著。
+- background:
+  - 500120
+- amb:
+  - amb_adv_room_noise_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 就像姐妹一樣
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    早晨，耳裡傳來輕輕地鳥叫聲。
+
+    慢慢地睜開眼睛，然後爬起身子。
+- touch: &o0 []
+- focus:
+  - 100011
+- bust:
+  - 100011
+  - 0
+- face:
+  - 100011
+  - 1
+- print:
+  - '{0}'
+  - ……
+- touch: *o0
+- focus:
+  - 100011
+- bust:
+  - 100011
+  - 0
+- face:
+  - 100011
+  - 6
+- print:
+  - '{0}'
+  - ……？
+- touch: *o0
+- choice:
+  - 若是平常可可蘿都會來叫我起床。
+  - 1
+- tag:
+  - 1
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500110
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_room_noise_day_01
+- window_visible:
+  - TRUE
+- choice:
+  - 可可蘿？
+  - 2
+- tag:
+  - 2
+- window_visible:
+  - false
+- chara_full:
+  - 105912
+  - C
+  - 4
+- fadein:
+  - 105912
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M35
+  - 0
+  - 0
+  - 1
+- focus:
+  - 105912
+- bust:
+  - 105912
+  - 0
+- vo:
+  - vo_adv_1099003_000
+- face:
+  - 105912
+  - 4
+- print:
+  - 可可蘿
+  - 啊、
+- wait:
+  - 25
+- print:
+  - 可可蘿
+  - 主人……
+- wait:
+  - 50
+- print:
+  - 可可蘿
+  - >2
+
+- nod:
+  - 105912
+- print:
+  - 可可蘿
+  - 早安
+- wait:
+  - 20
+- print:
+  - 可可蘿
+  - ……
+- touch: *o0
+- focus:
+  - 105912
+- bust:
+  - 105912
+  - 0
+- vo:
+  - vo_adv_1099003_001
+- face:
+  - 105912
+  - 4
+- print:
+  - 可可蘿
+  - 早上沒能去叫您起床，
+- wait:
+  - 50
+- print:
+  - 可可蘿
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - 可可蘿
+  - 真的非常抱歉……
+- touch: *o0
+- focus:
+  - 105912
+- bust:
+  - 105912
+  - 0
+- vo:
+  - vo_adv_1099003_002
+- face:
+  - 105912
+  - 4
+- eye_open:
+  - True
+- print:
+  - 可可蘿
+  - 感覺
+- wait:
+  - 35
+- print:
+  - 可可蘿
+  - >2-
+
+    早上起來時
+- wait:
+  - 30
+- print:
+  - 可可蘿
+  - 有點發燒……
+- touch: *o0
+- focus:
+  - 105912
+- bust:
+  - 105912
+  - 0
+- vo:
+  - vo_adv_1099003_003
+- face:
+  - 105912
+  - 4
+- eye_open:
+  - FALSE
+- print:
+  - 可可蘿
+  - 啊……
+- touch: *o0
+- choice:
+  - 危險！
+  - 3
+- tag:
+  - 3
+- bgm:
+  - stop
+  - 3.5
+  - 1
+- window_visible:
+  - false
+- fadeout:
+  - 105912
+  - 30
+- se:
+  - se_adv_cloth_move_normal_01
+- camera_zoom:
+  - 1.3
+  - 15
+- chara_full:
+  - 105912
+  - C
+  - 4
+  - 1
+- fadein:
+  - 105912
+  - 30
+- se:
+  - se_adv_body_handshake_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- window_visible:
+  - true
+- bgm:
+  - bgm_M123
+  - 0
+  - 0
+  - 0
+  - 2
+- focus:
+  - 105912
+- bust:
+  - 105912
+  - 0
+- vo:
+  - vo_adv_1099003_004
+- face:
+  - 105912
+  - 4
+- eye_open:
+  - TRUE
+- print:
+  - 可可蘿
+  - 謝、
+- wait:
+  - 45
+- print:
+  - 可可蘿
+  - 謝謝您，
+- wait:
+  - 35
+- print:
+  - 可可蘿
+  - 主人……
+- wait:
+  - 45
+- print:
+  - 可可蘿
+  - >2-
+
+    在我快倒下的時候，
+- wait:
+  - 30
+- print:
+  - 可可蘿
+  - 扶住我……
+- touch: *o0
+- focus:
+  - 105912
+- bust:
+  - 105912
+  - 0
+- vo:
+  - vo_adv_1099003_005
+- face:
+  - 105912
+  - 4
+- nod:
+  - 105912
+- print:
+  - 可可蘿
+  - 呼、
+- wait:
+  - 40
+- nod:
+  - 105912
+- print:
+  - 可可蘿
+  - 呼……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105912
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- camera_zoom:
+  - 1
+  - 5
+- wait:
+  - 15
+- chara_full:
+  - 109911
+  - LC
+  - 1
+- se:
+  - se_adv_step_wood_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 109911
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_1099003_006
+- face:
+  - 109911
+  - 6
+- print:
+  - 愛蜜莉雅
+  - 哎呀？
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 早安兩位，
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 你們怎麼了？
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 109911
+  - 6
+- emotion:
+  - notice1_L
+  - 109911
+  - -55
+  - 540
+  - se_adv_emote_common_01
+- wait:
+  - 45
+- emotion_end:
+  - 109911
+- window_visible:
+  - true
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_1099003_007
+- face:
+  - 109911
+  - 6
+- print:
+  - 愛蜜莉雅
+  - 咦？　
+- wait:
+  - 25
+- print:
+  - 愛蜜莉雅
+  - 可可蘿的身體不舒服？
+- wait:
+  - 50
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 3
+- print:
+  - 愛蜜莉雅
+  - 不好了！　
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 讓我看一下！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 109911
+  - 30
+- chara_full:
+  - 105912
+  - C
+  - 4
+- fadein:
+  - 105912
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105912
+- bust:
+  - 105912
+  - 0
+- vo:
+  - vo_adv_1099003_008
+- face:
+  - 105912
+  - 4
+- print:
+  - 可可蘿
+  - 呼、
+- wait:
+  - 45
+- nod:
+  - 105912
+- print:
+  - 可可蘿
+  - 呼……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105912
+  - 30
+- chara_full:
+  - 109911
+  - C
+  - 4
+- fadein:
+  - 109911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_1099003_009
+- face:
+  - 109911
+  - 4
+- print:
+  - 愛蜜莉雅
+  - 真的
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 非～常難受的樣子。
+- wait:
+  - 55
+- print:
+  - 愛蜜莉雅
+  - >2-
+
+    而且還有發燒，
+- wait:
+  - 25
+- print:
+  - 愛蜜莉雅
+  - 她應該很難過……
+- wait:
+  - 35
+- se:
+  - se_adv_magic_cmn_search_01
+- wait:
+  - 30
+- face:
+  - 109911
+  - 6
+- print:
+  - 愛蜜莉雅
+  - 嗯。
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_1099003_010
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 體內的魔力似乎沒有騷亂。
+- wait:
+  - 55
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 2
+- nod:
+  - 109911
+- print:
+  - 愛蜜莉雅
+  - 我想一定是
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 累積的疲勞爆發了。
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_1099003_011
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 因為可可蘿
+- wait:
+  - 25
+- print:
+  - 愛蜜莉雅
+  - >2-
+
+    是個非～常努力的人啊。
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 109911
+  - 6
+- se:
+  - se_adv_wood_crash_soft_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- window_visible:
+  - true
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_1099003_012
+- face:
+  - 109911
+  - 3
+- nod:
+  - 109911
+- print:
+  - 愛蜜莉雅
+  - 喂～
+- wait:
+  - 45
+- print:
+  - 愛蜜莉雅
+  - 我知道你很擔心她，
+- wait:
+  - 45
+- print:
+  - 愛蜜莉雅
+  - >2-
+
+    但是你那樣慌慌張張的又怎麼行呢。
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_1099003_013
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 你別慌了，
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - >2-
+
+    快點從育幼院裡
+- wait:
+  - 25
+- print:
+  - 愛蜜莉雅
+  - 找出能退燒的藥。
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_1099003_014
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 這裡
+- wait:
+  - 5
+- print:
+  - 愛蜜莉雅
+  - 小孩子有很多，
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 2
+- print:
+  - 愛蜜莉雅
+  - 我想一定會準備藥的。
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_1099003_015
+- face:
+  - 109911
+  - 2
+- print:
+  - 愛蜜莉雅
+  - 我趁這段時間
+- wait:
+  - 25
+- print:
+  - 愛蜜莉雅
+  - >2-
+
+    把可可蘿
+- wait:
+  - 10
+- print:
+  - 愛蜜莉雅
+  - 送到房間去。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 109911
+  - 30
+- chara_full:
+  - 109911
+  - LC
+  - 1
+- chara_full:
+  - 105912
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_1099003_016
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 嘿咻……！
+- touch: *o0
+- window_visible:
+  - false
+- focus:
+  - 109911:105912
+- face:
+  - 105912
+  - 6
+- se:
+  - se_adv_body_carry_back_01
+- nod:
+  - 109911
+- wait:
+  - 5
+- shake:
+  - 105912
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 105912
+- bust:
+  - 105912
+  - 0
+- vo:
+  - vo_adv_1099003_017
+- face:
+  - 105912
+  - 6
+- print:
+  - 可可蘿
+  - 不、
+- wait:
+  - 20
+- print:
+  - 可可蘿
+  - 不可以，
+- wait:
+  - 20
+- print:
+  - 可可蘿
+  - 愛蜜莉雅小姐……
+- wait:
+  - 50
+- print:
+  - 可可蘿
+  - >2
+
+- face:
+  - 105912
+  - 4
+- print:
+  - 可可蘿
+  - 在下怎麼能這麼勞煩妳……
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_1099003_018
+- face:
+  - 109911
+  - 3
+- print:
+  - 愛蜜莉雅
+  - 不～行，
+- wait:
+  - 40
+- print:
+  - 愛蜜莉雅
+  - 我不聽妳的意見。
+- wait:
+  - 45
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 加油過頭而倒下去的人，
+- wait:
+  - 40
+- print:
+  - 愛蜜莉雅
+  - >2-
+
+    我才不會再讓妳
+- wait:
+  - 20
+- print:
+  - 愛蜜莉雅
+  - 繼續加油了。
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_1099003_019
+- face:
+  - 109911
+  - 2
+- print:
+  - 愛蜜莉雅
+  - 快點把身體養好，
+- wait:
+  - 40
+- print:
+  - 愛蜜莉雅
+  - >2-
+
+    等妳恢復精神了，
+- wait:
+  - 25
+- print:
+  - 愛蜜莉雅
+  - 再讓妳繼續加油。
+- touch: *o0
+- focus:
+  - 105912
+- bust:
+  - 105912
+  - 0
+- vo:
+  - vo_adv_1099003_020
+- face:
+  - 105912
+  - 4
+- eye_open:
+  - FALSE
+- print:
+  - 可可蘿
+  - 嗚、
+- wait:
+  - 55
+- eye_open:
+  - TRUE
+- print:
+  - 可可蘿
+  - 主人……
+- touch: *o0
+- choice:
+  - 好好休息喔。
+  - 4
+- tag:
+  - 4
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_1099003_021
+- face:
+  - 109911
+  - 2
+- print:
+  - 愛蜜莉雅
+  - 嗯，
+- wait:
+  - 15
+- print:
+  - 愛蜜莉雅
+  - 做得很好。
+- wait:
+  - 35
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 那麼，
+- wait:
+  - 15
+- print:
+  - 愛蜜莉雅
+  - 好好抓住我喔。
+- touch: *o0
+- focus:
+  - 105912
+- bust:
+  - 105912
+  - 0
+- vo:
+  - vo_adv_1099003_022
+- face:
+  - 105912
+  - 4
+- print:
+  - 可可蘿
+  - 主人、
+- wait:
+  - 30
+- print:
+  - 可可蘿
+  - 愛蜜莉雅小姐
+- wait:
+  - 60
+- print:
+  - 可可蘿
+  - >2-
+
+    真是給你們添麻煩了……
+- touch: *o0
+- choice:
+  - 有困難就是要互相幫助啊。
+  - 5
+- choice:
+  - 我才不覺得麻煩喔。
+  - 6
+- tag:
+  - 5
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_1099003_023
+- face:
+  - 109911
+  - 2
+- emotion:
+  - note1_L
+  - 109911
+  - -80
+  - 490
+  - se_adv_emote_note_01
+- print:
+  - 愛蜜莉雅
+  - 嗯，
+- wait:
+  - 20
+- print:
+  - 愛蜜莉雅
+  - 是啊，
+- wait:
+  - 25
+- print:
+  - 愛蜜莉雅
+  - 非～常了不起。
+- wait:
+  - 45
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 可可蘿也別擔心。
+- touch: *o0
+- goto:
+  - 7
+- tag:
+  - 6
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_1099003_024
+- face:
+  - 109911
+  - 1
+- nod:
+  - 109911
+- print:
+  - 愛蜜莉雅
+  - 就是說呢，
+- wait:
+  - 40
+- print:
+  - 愛蜜莉雅
+  - >2-
+
+    如果是為了喜歡的人，
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 才不會覺得是麻煩呀。
+- touch: *o0
+- tag:
+  - 7
+- focus:
+  - 105912
+- bust:
+  - 105912
+  - 0
+- vo:
+  - vo_adv_1099003_025
+- face:
+  - 105912
+  - 2
+- print:
+  - 可可蘿
+  - ……非常
+- wait:
+  - 30
+- print:
+  - 可可蘿
+  - 謝謝您。
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_1099003_026
+- face:
+  - 109911
+  - 2
+- print:
+  - 愛蜜莉雅
+  - 嗯，
+- wait:
+  - 25
+- print:
+  - 愛蜜莉雅
+  - 不用客氣！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- bgm:
+  - stop
+  - 1.5
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500120
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_room_noise_day_01
+- chara_full:
+  - 109911
+  - C
+  - 1
+- fadein:
+  - 109911
+  - 30
+- wait:
+  - 10
+- se:
+  - se_adv_door_open_01
+- se:
+  - se_adv_step_wood_walk_come_01
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M140_Ver2
+  - 0
+  - 0
+  - 1
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_1099003_027
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 啊，
+- wait:
+  - 20
+- print:
+  - 愛蜜莉雅
+  - 有找到藥嗎？
+- wait:
+  - 35
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 6
+- print:
+  - 愛蜜莉雅
+  - 欸，
+- wait:
+  - 15
+- print:
+  - 愛蜜莉雅
+  - 你怎麼會變得這麼狼狽？
+- touch: *o0
+- window_visible:
+  - false
+- emotion:
+  - question1_R
+  - 109911
+  - 135
+  - 480
+  - se_adv_emote_question_01
+- wait:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_1099003_028
+- face:
+  - 109911
+  - 6
+- print:
+  - 愛蜜莉雅
+  - 因為在找藥，
+- wait:
+  - 35
+- print:
+  - 愛蜜莉雅
+  - >2-
+
+    結果很多東西從櫃子上掉下來？
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_1099003_029
+- face:
+  - 109911
+  - 6
+- print:
+  - 愛蜜莉雅
+  - 但是，
+- wait:
+  - 20
+- print:
+  - 愛蜜莉雅
+  - 有好好把藥保護住了
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - ……
+- wait:
+  - 45
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 4
+- print:
+  - 愛蜜莉雅
+  - 你啊，
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 真的不管做什麼都會變成大冒險呢。
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_1099003_030
+- face:
+  - 109911
+  - 1
+- nod:
+  - 109911
+- print:
+  - 愛蜜莉雅
+  - 嗯嗯，
+- wait:
+  - 35
+- print:
+  - 愛蜜莉雅
+  - 謝謝。
+- wait:
+  - 25
+- print:
+  - 愛蜜莉雅
+  - >2-
+
+    那麼，
+- wait:
+  - 20
+- print:
+  - 愛蜜莉雅
+  - 之後
+- wait:
+  - 15
+- print:
+  - 愛蜜莉雅
+  - 得把這個藥餵給可可蘿吃才行。
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_1099003_031
+- face:
+  - 109911
+  - 6
+- print:
+  - 愛蜜莉雅
+  - 是啊……
+- wait:
+  - 60
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 嗯，
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 可可蘿，
+- wait:
+  - 25
+- print:
+  - 愛蜜莉雅
+  - 可以稍微
+- wait:
+  - 10
+- print:
+  - 愛蜜莉雅
+  - 把頭抬高嗎？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 109911
+  - 30
+- chara_full:
+  - 105912
+  - RC
+  - 6
+- chara_full:
+  - 109911
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105912
+- bust:
+  - 105912
+  - 0
+- vo:
+  - vo_adv_1099003_032
+- face:
+  - 105912
+  - 6
+- print:
+  - 可可蘿
+  - 頭、
+- wait:
+  - 35
+- print:
+  - 可可蘿
+  - 是嗎？
+- wait:
+  - 50
+- print:
+  - 可可蘿
+  - >2
+
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 可可蘿
+  - 好，
+- wait:
+  - 40
+- face:
+  - 105912
+  - 1
+- print:
+  - 可可蘿
+  - 那麼
+- wait:
+  - 20
+- print:
+  - 可可蘿
+  - 該怎麼做……
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_1099003_033
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 這麼做。
+- wait:
+  - 35
+- print:
+  - 愛蜜莉雅
+  - >2-
+
+    ……
+- se:
+  - se_adv_cloth_move_normal_01
+- nod:
+  - 109911
+- print:
+  - 愛蜜莉雅
+  - 嘿咻。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- bgm:
+  - stop
+  - 1.5
+  - 1
+- white_out:
+  - 1
+  - 1
+- bg_color:
+  - 255
+  - 255
+  - 255
+- still:
+  - 109900301
+- wait:
+  - 15
+- white_in: *o0
+- bgm:
+  - bgm_M230
+- window_visible:
+  - TRUE
+- focus:
+  - 105912
+- bust:
+  - 105912
+  - 1
+- vo:
+  - vo_adv_1099003_034
+- face:
+  - 105912
+  - 6
+- print:
+  - 可可蘿
+  - 啊，
+- wait:
+  - 30
+- print:
+  - 可可蘿
+  - 那個……
+- wait:
+  - 55
+- print:
+  - 可可蘿
+  - 愛蜜莉雅小姐？　
+- wait:
+  - 50
+- print:
+  - 可可蘿
+  - 這個是……
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 1
+- vo:
+  - vo_adv_1099003_035
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 膝枕喔。
+- wait:
+  - 50
+- print:
+  - 愛蜜莉雅
+  - >2-
+
+    妳看，
+- wait:
+  - 25
+- print:
+  - 愛蜜莉雅
+  - 這麼做
+- wait:
+  - 15
+- print:
+  - 愛蜜莉雅
+  - 就比較好吃藥了對吧？
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 1
+- vo:
+  - vo_adv_1099003_036
+- face:
+  - 109911
+  - 2
+- print:
+  - 愛蜜莉雅
+  - 來、
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 嘴巴張開。
+- touch: *o0
+- focus:
+  - 105912
+- bust:
+  - 105912
+  - 1
+- vo:
+  - vo_adv_1099003_037
+- face:
+  - 105912
+  - 1
+- print:
+  - 可可蘿
+  - 啊、
+- wait:
+  - 40
+- print:
+  - 可可蘿
+  - 啊～嗯……
+- touch: *o0
+- se:
+  - se_adv_eating_01
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 1
+- vo:
+  - vo_adv_1099003_038
+- face:
+  - 109911
+  - 2
+- print:
+  - 愛蜜莉雅
+  - 嗯，
+- wait:
+  - 20
+- print:
+  - 愛蜜莉雅
+  - 很好很好。
+- wait:
+  - 40
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 之後
+- wait:
+  - 20
+- print:
+  - 愛蜜莉雅
+  - 把藥含住吞下去，
+- wait:
+  - 25
+- print:
+  - 愛蜜莉雅
+  - 好，來。
+- touch: *o0
+- focus:
+  - 105912
+- bust:
+  - 105912
+  - 1
+- vo:
+  - vo_adv_1099003_039
+- face:
+  - 105912
+  - 4
+- print:
+  - 可可蘿
+  - 嗯唔嗯唔……
+- wait:
+  - 70
+- print:
+  - 可可蘿
+  - 吞下。
+- wait:
+  - 55
+- print:
+  - 可可蘿
+  - >2
+
+- face:
+  - 105912
+  - 1
+- print:
+  - 可可蘿
+  - 已經吞下去了……
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 1
+- vo:
+  - vo_adv_1099003_040
+- face:
+  - 109911
+  - 2
+- print:
+  - 愛蜜莉雅
+  - 做得很好！
+- wait:
+  - 40
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 那
+- wait:
+  - 20
+- print:
+  - 愛蜜莉雅
+  - 之後就是好好休息。
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 1
+- vo:
+  - vo_adv_1099003_041
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 稍微睡過之後，
+- wait:
+  - 35
+- print:
+  - 愛蜜莉雅
+  - >2-
+
+    一定就能馬上恢復精神了。
+- touch: *o0
+- focus:
+  - 105912
+- bust:
+  - 105912
+  - 1
+- vo:
+  - vo_adv_1099003_042
+- face:
+  - 105912
+  - 2
+- print:
+  - 可可蘿
+  - 好的、
+- wait:
+  - 40
+- print:
+  - 可可蘿
+  - 非常
+- wait:
+  - 40
+- print:
+  - 可可蘿
+  - 謝謝……
+- wait:
+  - 50
+- eye_open:
+  - FALSE
+- print:
+  - 可可蘿
+  - 您……
+- touch: *o0
+- window_visible:
+  - false
+- window_visible:
+  - true
+- focus:
+  - 105912
+- bust:
+  - 105912
+  - 1
+  - 1
+- vo:
+  - vo_adv_1099003_043
+- face:
+  - 105912
+  - 1
+- eye_open:
+  - FALSE
+- print:
+  - 可可蘿
+  - 呼～呼～
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 1
+- vo:
+  - vo_adv_1099003_044
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 她果然
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 非～常疲勞了呢。
+- wait:
+  - 65
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 2
+- print:
+  - 愛蜜莉雅
+  - 居然這麼快就睡著了。
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 1
+- vo:
+  - vo_adv_1099003_045
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 也辛苦你了。
+- wait:
+  - 40
+- print:
+  - 愛蜜莉雅
+  - >2-
+
+    可可蘿
+- wait:
+  - 20
+- print:
+  - 愛蜜莉雅
+  - 會好起來的，別擔心。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_rabbit_jump_01
+- wait:
+  - 15
+- se:
+  - se_adv_rabbit_jump_01
+- window_visible:
+  - true
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 1
+- vo:
+  - vo_adv_1099003_046
+- face:
+  - 109911
+  - 6
+- print:
+  - 愛蜜莉雅
+  - 啊，
+- wait:
+  - 20
+- print:
+  - 愛蜜莉雅
+  - 喂～
+- wait:
+  - 25
+- print:
+  - 愛蜜莉雅
+  - 這怎麼行呢。
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 3
+- print:
+  - 愛蜜莉雅
+  - 就算再開心，
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 也別在睡著的人身邊跳來跳去呀。
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 1
+- vo:
+  - vo_adv_1099003_047
+- face:
+  - 109911
+  - 4
+- print:
+  - 愛蜜莉雅
+  - 真是的
+- wait:
+  - 10
+- print:
+  - 愛蜜莉雅
+  - ……
+- wait:
+  - 40
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 不過，
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 我非～常能理解你的心情。
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 1
+- vo:
+  - vo_adv_1099003_048
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 畢竟你和可可蘿
+- wait:
+  - 20
+- print:
+  - 愛蜜莉雅
+  - 是家人啊。
+- wait:
+  - 55
+- print:
+  - 愛蜜莉雅
+  - >2-
+
+    為了家人時喜時憂
+- wait:
+  - 35
+- print:
+  - 愛蜜莉雅
+  - 這也是當然的呀。
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 1
+- vo:
+  - vo_adv_1099003_049
+- face:
+  - 109911
+  - 6
+- print:
+  - 愛蜜莉雅
+  - 之前也有
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 和你
+- wait:
+  - 15
+- print:
+  - 愛蜜莉雅
+  - 聊過家人的事情對吧。
+- wait:
+  - 65
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 我
+- wait:
+  - 45
+- print:
+  - 愛蜜莉雅
+  - 對於你和可可蘿的關係，
+- wait:
+  - 40
+- print:
+  - 愛蜜莉雅
+  - 其實有點羨慕呢。
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 1
+- vo:
+  - vo_adv_1099003_050
+- face:
+  - 109911
+  - 4
+- print:
+  - 愛蜜莉雅
+  - 但我也
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 有帕克在我身邊所以並不會寂寞。
+- wait:
+  - 60
+- print:
+  - 愛蜜莉雅
+  - >2-
+
+    只是，
+- wait:
+  - 35
+- print:
+  - 愛蜜莉雅
+  - 這種像是兄弟姊妹關係的親人，
+- wait:
+  - 45
+- print:
+  - 愛蜜莉雅
+  - 我卻一個都沒有。
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 1
+- vo:
+  - vo_adv_1099003_051
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 所以，
+- wait:
+  - 25
+- print:
+  - 愛蜜莉雅
+  - 有兄弟姊妹
+- wait:
+  - 25
+- print:
+  - 愛蜜莉雅
+  - 會是什麼樣的感覺呢，
+- wait:
+  - 45
+- print:
+  - 愛蜜莉雅
+  - >2-
+
+    我偶爾
+- wait:
+  - 15
+- print:
+  - 愛蜜莉雅
+  - 會淡淡地去想。
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 1
+- vo:
+  - vo_adv_1099003_052
+- face:
+  - 109911
+  - 2
+- print:
+  - 愛蜜莉雅
+  - 我要是
+- wait:
+  - 40
+- print:
+  - 愛蜜莉雅
+  - 有著哥哥姐姐、
+- wait:
+  - 45
+- print:
+  - 愛蜜莉雅
+  - >2-
+
+    或弟弟妹妹的話，
+- wait:
+  - 40
+- print:
+  - 愛蜜莉雅
+  - 又會是怎樣的關係呢？
+- touch: *o0
+- focus:
+  - 105912
+- bust:
+  - 105912
+  - 1
+  - 1
+- vo:
+  - vo_adv_1099003_053
+- face:
+  - 105912
+  - 1
+- eye_open:
+  - FALSE
+- print:
+  - 可可蘿
+  - ……姐。
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 1
+- vo:
+  - vo_adv_1099003_054
+- face:
+  - 109911
+  - 6
+- print:
+  - 愛蜜莉雅
+  - 嗯……
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 剛才的
+- wait:
+  - 20
+- print:
+  - 愛蜜莉雅
+  - 是夢話嗎？
+- wait:
+  - 45
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 可可蘿，
+- wait:
+  - 20
+- print:
+  - 愛蜜莉雅
+  - 妳剛才
+- wait:
+  - 15
+- print:
+  - 愛蜜莉雅
+  - 說什麼……
+- touch: *o0
+- focus:
+  - 105912
+- bust:
+  - 105912
+  - 1
+  - 1
+- vo:
+  - vo_adv_1099003_055
+- face:
+  - 105912
+  - 2
+- eye_open:
+  - FALSE
+- print:
+  - 可可蘿
+  - 姐姐……
+- touch: *o0
+- window_visible:
+  - FALSE
+- white_out:
+  - 1
+  - 1
+- background:
+  - 500120
+- still:
+  - end
+- wait:
+  - 15
+- white_in: *o0
+- chara_full:
+  - 109911
+  - C
+  - 6
+- fadein:
+  - 109911
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_1099003_056
+- face:
+  - 109911
+  - 6
+- print:
+  - 愛蜜莉雅
+  - 啊……
+- touch: *o0
+- choice:
+  - 在這裡的大家就是家人喔。
+  - 8
+- tag:
+  - 8
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_1099003_057
+- face:
+  - 109911
+  - 6
+- print:
+  - 愛蜜莉雅
+  - 大家就是家人……
+- wait:
+  - 55
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 那是指
+- wait:
+  - 25
+- print:
+  - 愛蜜莉雅
+  - 【咲戀育幼院】
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 的大家嗎？
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_1099003_058
+- face:
+  - 109911
+  - 6
+- print:
+  - 愛蜜莉雅
+  - 我們也能
+- wait:
+  - 45
+- print:
+  - 愛蜜莉雅
+  - 加入
+- wait:
+  - 25
+- print:
+  - 愛蜜莉雅
+  - 那之中嗎？
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_1099003_059
+- face:
+  - 109911
+  - 6
+- print:
+  - 愛蜜莉雅
+  - 這裡的大家就是家人……
+- wait:
+  - 75
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 2
+- emotion:
+  - note1_L
+  - 109911
+  - -80
+  - 490
+  - se_adv_emote_note_01
+- print:
+  - 愛蜜莉雅
+  - 呵呵，
+- wait:
+  - 45
+- print:
+  - 愛蜜莉雅
+  - 這樣啊。
+- wait:
+  - 45
+- print:
+  - 愛蜜莉雅
+  - 原來如此。
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_1099003_060
+- face:
+  - 109911
+  - 2
+- print:
+  - 愛蜜莉雅
+  - 真是的，
+- wait:
+  - 40
+- print:
+  - 愛蜜莉雅
+  - 我
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 憧憬的事情一下子就全實現了。
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_1099003_061
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 不只是可可蘿，
+- wait:
+  - 35
+- print:
+  - 愛蜜莉雅
+  - >2-
+
+    還有鈴莓和綾音、
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 胡桃也是。
+- wait:
+  - 35
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 2
+- print:
+  - 愛蜜莉雅
+  - 其他的所有人
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 也都是我的弟弟妹妹對吧？
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_1099003_062
+- face:
+  - 109911
+  - 6
+- print:
+  - 愛蜜莉雅
+  - 咲戀小姐明明
+- wait:
+  - 15
+- print:
+  - 愛蜜莉雅
+  - 比我還小，
+- wait:
+  - 35
+- print:
+  - 愛蜜莉雅
+  - >2-
+
+    但是卻非～常有姐姐
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 的感覺呢……
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_1099003_063
+- face:
+  - 109911
+  - 1
+- nod:
+  - 109911
+- print:
+  - 愛蜜莉雅
+  - 可是，
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 那也讓人非～常高興。
+- wait:
+  - 55
+- print:
+  - 愛蜜莉雅
+  - >2-
+
+    而且，
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 還有像你
+- wait:
+  - 15
+- print:
+  - 愛蜜莉雅
+  - 這麼可愛的弟弟呢。
+- touch: *o0
+- choice:
+  - 不是哥哥嗎？
+  - 9
+- tag:
+  - 9
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_1099003_064
+- face:
+  - 109911
+  - 2
+- emotion:
+  - note1_L
+  - 109911
+  - -80
+  - 490
+  - se_adv_emote_note_01
+- print:
+  - 愛蜜莉雅
+  - 呵呵，
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 不～行。
+- wait:
+  - 35
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 因為你
+- wait:
+  - 25
+- print:
+  - 愛蜜莉雅
+  - 光是為了可可蘿
+- wait:
+  - 25
+- print:
+  - 愛蜜莉雅
+  - 就這樣慌慌張張的了。
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_1099003_065
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 看到你那個樣子，
+- wait:
+  - 20
+- print:
+  - 愛蜜莉雅
+  - >2-
+
+    一點都沒有像哥哥的感覺呀。
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_1099003_066
+- face:
+  - 109911
+  - 2
+- nod:
+  - 109911
+- print:
+  - 愛蜜莉雅
+  - 所以，
+- wait:
+  - 25
+- print:
+  - 愛蜜莉雅
+  - 你是我的
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 弟弟唷。
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_1099003_067
+- face:
+  - 109911
+  - 2
+- print:
+  - 愛蜜莉雅
+  - 今後如果
+- wait:
+  - 25
+- print:
+  - 愛蜜莉雅
+  - >2-
+
+    有遇到什麼不安的事情，
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 要來依靠我喔。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 109911
+  - 30
+- white_out:
+  - 1
+  - 1
+- bg_color:
+  - 255
+  - 255
+  - 255
+- still:
+  - 109900301
+- wait:
+  - 15
+- white_in: *o0
+- window_visible:
+  - true
+- focus:
+  - 105912
+- bust:
+  - 105912
+  - 1
+  - 1
+- vo:
+  - vo_adv_1099003_068
+- face:
+  - 105912
+  - 1
+- eye_open:
+  - FALSE
+- print:
+  - 可可蘿
+  - 嗯、
+- wait:
+  - 50
+- print:
+  - 可可蘿
+  - 嗯……
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 1
+- vo:
+  - vo_adv_1099003_069
+- face:
+  - 109911
+  - 2
+- print:
+  - 愛蜜莉雅
+  - 好乖好乖，
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 好可愛好可愛。
+- wait:
+  - 55
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 要好好休息，
+- wait:
+  - 35
+- print:
+  - 愛蜜莉雅
+  - 然後讓我再看到妳恢復精神的樣子喔。
+- touch: *o0
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 1
+- vo:
+  - vo_adv_1099003_070
+- face:
+  - 109911
+  - 2
+- print:
+  - 愛蜜莉雅
+  - 在那之前，
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 請好好
+- wait:
+  - 35
+- print:
+  - 愛蜜莉雅
+  - 休息吧……
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    【咲戀育幼院】中
+
+    度過了一段溫柔的時間。
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- still:
+  - end
+- end: *o0

@@ -1,0 +1,1327 @@
+- title:
+  - 宮子 第2話
+- outline:
+  - 宮子要求{0}交出布丁。她附身在{0}的身上，發現了他為自己而買的布丁。她放棄了附身在他身上。兩人一起開心地吃布丁。
+- background:
+  - 500010
+- amb:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 布丁布丁布丁～！
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 在{0}散步的那時候……
+- touch: &o0 []
+- window_visible:
+  - false
+- window_visible:
+  - true
+- bgm:
+  - bgm_M21
+  - 0
+  - 0
+  - 1
+- focus:
+  - 711
+- bust:
+  - 711
+  - 1
+- vo:
+  - vo_adv_1007002_000
+- face:
+  - 711
+  - 1
+- print:
+  - 王宮騎士？
+  - 那邊的人給我站住！
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_walk_heavy_come_01
+- wait:
+  - 15
+- chara_full:
+  - 711
+  - C
+  - 1
+- in_R:
+  - 711
+  - 45
+  - true
+- window_visible:
+  - true
+- focus:
+  - 711
+- bust:
+  - 711
+  - 0
+- vo:
+  - vo_adv_1007002_001
+- face:
+  - 711
+  - 1
+- print:
+  - 王宮騎士？
+  - 你……很可疑耶？非常非常地可疑。
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 711
+- bust:
+  - 711
+  - 0
+- vo:
+  - vo_adv_1007002_002
+- face:
+  - 711
+  - 1
+- pop:
+  - 711
+- print:
+  - 王宮騎士？
+  - 為了處罰你所以判你死刑！
+- wait:
+  - 60
+- print:
+  - 王宮騎士？
+  - >2-
+
+    如果不想死的話――
+- touch: *o0
+- bgm:
+  - stop
+  - 8
+  - 1
+- focus:
+  - 711
+- bust:
+  - 711
+  - 0
+- vo:
+  - vo_adv_1007002_003
+- face:
+  - 711
+  - 1
+- emotion:
+  - twinkle1_R
+  - 711
+  - -115
+  - 555
+  - se_adv_emote_twinkle_01
+- print:
+  - 王宮騎士？
+  - 就把布丁交出來的～！
+- wait:
+  - 45
+- print:
+  - 王宮騎士？
+  - >2-
+
+    你不交出來就是死刑來的～
+- wait:
+  - 60
+- print:
+  - 王宮騎士？
+  - >2-
+
+    快拿出布丁來的～！
+- touch: *o0
+- choice:
+  - 是宮子嗎？
+  - 1
+- tag:
+  - 1
+- bgm:
+  - bgm_M11_02_Edit
+- focus:
+  - 711
+- bust:
+  - 711
+  - 0
+- vo:
+  - vo_adv_1007002_004
+- face:
+  - 711
+  - 1
+- emotion:
+  - exclamation1_R
+  - 711
+  - 20
+  - 685
+  - se_adv_emote_common_01
+- print:
+  - 王宮騎士？
+  - 你、你怎麼知道宮子附身在這個人身上來的！？
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- updown:
+  - 711
+  - 0
+  - -100
+  - 0.2
+- fadeout:
+  - 711
+  - 30
+- shake_loop: *o0
+- se:
+  - se_adv_armor_drop_01
+- wait:
+  - 30
+- shake_delete: *o0
+- chara_full:
+  - 100711
+  - C
+  - 7
+- fadein:
+  - 100711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007002_005
+- face:
+  - 100711
+  - 7
+- emotion:
+  - drop1_R
+  - 100711
+  - 100
+  - 640
+  - se_adv_emote_drop_01
+- print:
+  - 宮子
+  - 嗯～，已經露出馬腳的話也沒辦法了～
+- wait:
+  - 95
+- print:
+  - 宮子
+  - >2-
+
+    宮子這次只好放棄了～
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007002_006
+- face:
+  - 100711
+  - 4
+- print:
+  - 宮子
+  - 咻―――………………
+- touch: *o0
+- window_visible:
+  - false
+- change:
+  - L
+  - C
+  - 60
+- fadeout:
+  - 100711
+  - 30
+- bgm:
+  - stop
+  - 3
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500030
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_noisy_02
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    隔天――
+
+    {0}買完東西之後――
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - bgm_M03
+  - 0
+  - 0
+  - 1
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- vo:
+  - vo_adv_1007002_007
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物？
+  - ──呱歐歐歐歐歐
+- shake_screen: *o0
+- print:
+  - 魔物？
+  - ！
+- touch: *o0
+- window_visible:
+  - FALSE
+- effect:
+  - 0009
+- scale:
+  - 1611
+  - 1.3
+  - 2
+  - 15
+- fadeout:
+  - 1611
+  - 30
+- chara_full:
+  - 411
+  - LC
+  - 4
+- chara_full:
+  - 311
+  - RC
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1007002_008
+- face:
+  - 411
+  - 4
+- emotion:
+  - surprise1_L
+  - 411
+  - 140
+  - 570
+  - se_adv_emote_common_01
+- print:
+  - 路人１
+  - >-
+    啊！
+
+    有魔物唷！？
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1007002_009
+- face:
+  - 311
+  - 3
+- jump:
+  - 311
+- print:
+  - 路人２
+  - 牠跑去那邊了！
+- wait:
+  - 30
+- print:
+  - 路人２
+  - >2-
+
+    站在那邊的人，危險啊！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- effect:
+  - 0009
+- scale:
+  - 1611
+  - 1.3
+  - 2
+  - 15
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- vo:
+  - vo_adv_1007002_010
+- face:
+  - 1611
+  - 1
+- shake:
+  - 161199
+- print:
+  - 魔物？
+  - 呱歐─，我要吃掉你來的！
+- wait:
+  - 90
+- print:
+  - 魔物？
+  - >2-
+
+    不想被吃掉的話就交出布丁來的～！
+- touch: *o0
+- choice:
+  - 是宮子對吧？
+  - 2
+- tag:
+  - 2
+- window_visible:
+  - false
+- amb_stop:
+  - 3
+- bgm:
+  - stop
+  - 3
+  - 1
+- emotion:
+  - surprise1_L
+  - 1611
+  - 225
+  - 515
+  - se_adv_emote_common_01
+- shake:
+  - 1611
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- vo:
+  - vo_adv_1007002_011
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物？
+  - …………
+- touch: *o0
+- fadeout:
+  - 1611
+  - 30
+- effect:
+  - 0024
+  - se_adv_chara_transform_01
+- wait:
+  - 30
+- chara_full:
+  - 100711
+  - C
+  - 7
+- fadein:
+  - 100711
+  - 30
+- bgm:
+  - bgm_M51
+- amb:
+  - amb_adv_town_day_01
+  - 3
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007002_012
+- face:
+  - 100711
+  - 7
+- print:
+  - 宮子
+  - 嗚……還以為穿上魔物的玩偶裝，
+- wait:
+  - 10
+- print:
+  - 宮子
+  - >2-
+
+    就能騙倒你了……
+- wait:
+  - 10
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - 為什麼你知道是宮子呢～？
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007002_013
+- face:
+  - 100711
+  - 6
+- emotion:
+  - notice2_L
+  - 100711
+  - -105
+  - 545
+  - se_adv_emote_nortice_01
+- print:
+  - 宮子
+  - 啊！說起來你是
+- wait:
+  - 20
+- print:
+  - 宮子
+  - >2-
+
+    所謂靈感很強的人來的！
+- wait:
+  - 90
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - 是因為那樣才知道是宮子的嗎！？
+- wait:
+  - 10
+- touch: *o0
+- choice:
+  - …………從妳說話的語尾。
+  - 3
+- tag:
+  - 3
+- window_visible:
+  - false
+- face:
+  - 100711
+  - 6
+- emotion:
+  - dots1_R
+  - 100711
+  - -90
+  - 505
+  - se_adv_emote_dots_01
+- wait:
+  - 60
+- window_visible:
+  - true
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007002_014
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - …………
+- face:
+  - 100711
+  - 4
+- shake:
+  - 100711
+- print:
+  - 宮子
+  - 太、太失敗來的～！！
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007002_015
+- face:
+  - 100711
+  - 7
+- print:
+  - 宮子
+  - 嗚～～奪取布丁作戰失敗來的～……
+- wait:
+  - 150
+- print:
+  - 宮子
+  - >2-
+
+    可是宮子還是很想吃布丁呢～
+- wait:
+  - 75
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - ……既然這樣只好使出殺手鐧來的！
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007002_016
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - 那就是附身到你身上唷～
+- wait:
+  - 75
+- print:
+  - 宮子
+  - >2
+
+- pop:
+  - 100711
+- print:
+  - 宮子
+  - 嘿，看宮子的～
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+- window_visible:
+  - false
+- effect:
+  - 0009
+- scale:
+  - 100711
+  - 1.3
+  - 2
+  - 10
+- fadeout:
+  - 100711
+  - 30
+- se:
+  - se_adv_ghost_01
+- white_out:
+  - 0.5
+- effect:
+  - 0024
+  - se_adv_chara_transform_01
+- white_in: *o0
+- wait:
+  - 30
+- chara_full:
+  - 100011
+  - C
+  - 1
+- fadein:
+  - 100011
+  - 30
+- effect:
+  - 0046
+  - se_adv_happy_particle_01
+- window_visible:
+  - true
+- bgm:
+  - bgm_M11
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100011
+- bust:
+  - 100011
+  - 0
+- vo:
+  - vo_adv_1007002_017
+- face:
+  - 100011
+  - 1
+- jump:
+  - 100011
+- print:
+  - 宮子
+  - 耶～成功了～！
+- wait:
+  - 60
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100011
+  - 2
+- print:
+  - 宮子
+  - 這樣宮子就能隨便操控這傢伙的身體來的～！
+- touch: *o0
+- focus:
+  - 100011
+- bust:
+  - 100011
+  - 0
+- vo:
+  - vo_adv_1007002_018
+- face:
+  - 100011
+  - 2
+- print:
+  - 宮子
+  - 用這傢伙的錢去買布丁囉～
+- wait:
+  - 10
+- print:
+  - 宮子
+  - >2-
+
+    能買多少就買多少囉～！
+- wait:
+  - 10
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100011
+  - 1
+- print:
+  - 宮子
+  - 這是一場布丁盛典來的～♪
+- touch: *o0
+- window_visible:
+  - false
+- effect_delete:
+  - 0046
+  - 30
+- se:
+  - se_adv_step_concrete_run_armor_go_02
+- out_R:
+  - 100011
+  - 60
+  - true
+- wait:
+  - 15
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100011
+  - C
+  - 1
+- se:
+  - se_adv_step_concrete_run_armor_come_01
+- in_L:
+  - 100011
+  - 60
+  - true
+- window_visible:
+  - true
+- focus:
+  - 100011
+- bust:
+  - 100011
+  - 0
+- vo:
+  - vo_adv_1007002_019
+- face:
+  - 100011
+  - 2
+- print:
+  - 宮子
+  - 布丁店老～闆！
+- wait:
+  - 30
+- print:
+  - 宮子
+  - >2-
+
+    從這一頭到那一頭所有種類的布丁都拿來唷～♪
+- wait:
+  - 75
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100011
+  - 1
+- jump:
+  - 100011
+- print:
+  - 宮子
+  - 錢不成問題來的～！　通通拿來吧！就這樣～♪
+- wait:
+  - 90
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 100011
+  - 6
+- emotion:
+  - notice1_L
+  - 100011
+  - -85
+  - 600
+  - se_adv_emote_common_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100011
+- bust:
+  - 100011
+  - 0
+- vo:
+  - vo_adv_1007002_020
+- face:
+  - 100011
+  - 6
+- print:
+  - 宮子
+  - 嗯？
+- wait:
+  - 10
+- print:
+  - 宮子
+  - >2-
+
+    這傢伙拿著什麼東西呀？
+- wait:
+  - 90
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100011
+  - 4
+- print:
+  - 宮子
+  - 是商店的袋子……裡面是什麼呢～？
+- touch: *o0
+- focus:
+  - 100011
+- bust:
+  - 100011
+  - 0
+- vo:
+  - vo_adv_1007002_021
+- face:
+  - 100011
+  - 6
+- print:
+  - 宮子
+  - 啊，是布丁來的～！
+- wait:
+  - 60
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100011
+  - 2
+- print:
+  - 宮子
+  - 哇，宮子根本不需要來買的～
+- wait:
+  - 75
+- print:
+  - 宮子
+  - >2-
+
+    這傢伙正好有布丁來的，真是賺到了～嗯哼～♪
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 100011
+- bust:
+  - 100011
+  - 0
+- vo:
+  - vo_adv_1007002_022
+- face:
+  - 100011
+  - 6
+- print:
+  - 宮子
+  - ……咦？
+- wait:
+  - 10
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100011
+  - 3
+- print:
+  - 宮子
+  - 可是為什麼這傢伙拿著布丁呢？
+- wait:
+  - 75
+- print:
+  - 宮子
+  - >2-
+
+    總共有兩個布丁和兩支湯匙來的～
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100011
+- bust:
+  - 100011
+  - 0
+- vo:
+  - vo_adv_1007002_023
+- face:
+  - 100011
+  - 6
+- print:
+  - 宮子
+  - 啊！宮子想起來了，
+- wait:
+  - 45
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100011
+  - 1
+- print:
+  - 宮子
+  - 我們約好要一起去玩的……
+- touch: *o0
+- focus:
+  - 100011
+- bust:
+  - 100011
+  - 0
+- vo:
+  - vo_adv_1007002_024
+- face:
+  - 100011
+  - 4
+- face:
+  - 100011
+  - 4
+- print:
+  - 宮子
+  - ……這該不會，是要給宮子的吧？
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 100011
+- bust:
+  - 100011
+  - 0
+- vo:
+  - vo_adv_1007002_025
+- face:
+  - 100011
+  - 4
+- print:
+  - 宮子
+  - …………
+- touch: *o0
+- se:
+  - se_adv_emote_drop_04
+- focus:
+  - 100011
+- bust:
+  - 100011
+  - 0
+- vo:
+  - vo_adv_1007002_026
+- face:
+  - 100011
+  - 3
+- emotion:
+  - gloomy1_R
+  - 100011
+  - 60
+  - 570
+  - '*non'
+- print:
+  - 宮子
+  - 嗯～
+- wait:
+  - 45
+- print:
+  - 宮子
+  - >2-
+
+    宮子不要附身了～
+- touch: *o0
+- fadeout:
+  - 100011
+  - 30
+- se:
+  - se_adv_transition_01
+- bgm:
+  - stop
+  - 2
+  - 1
+- white_out:
+  - 0.5
+- effect:
+  - 0024
+  - se_adv_chara_transform_01
+- white_in: *o0
+- wait:
+  - 30
+- transition:
+  - 52
+  - 1.5
+- transition_resume: *o0
+- wait:
+  - 30
+- choice:
+  - 蛤！我是誰！？
+  - 4
+- choice:
+  - 我是宮子來的～
+  - 5
+- tag:
+  - 4
+- bgm:
+  - bgm_M52
+- chara_full:
+  - 100711
+  - C
+  - 3
+- fadein:
+  - 100711
+  - 30
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007002_027
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - 你就是你呀～
+- pop:
+  - 100711
+- print:
+  - 宮子
+  - 振作一點～！
+- wait:
+  - 105
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 4
+- print:
+  - 宮子
+  - 這裡看起來有幾根手指頭來的？
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 100711
+  - 6
+- emotion:
+  - notice1_L
+  - 100711
+  - -60
+  - 540
+  - se_adv_emote_common_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007002_028
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - ……藏在衣服裡面所以看不到？
+- wait:
+  - 60
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 2
+- print:
+  - 宮子
+  - 很好很好，你很正常來的～♪
+- wait:
+  - 30
+- touch: *o0
+- goto:
+  - 6
+- tag:
+  - 5
+- bgm:
+  - bgm_M52
+- chara_full:
+  - 100711
+  - C
+  - 6
+- fadein:
+  - 100711
+  - 30
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007002_029
+- face:
+  - 100711
+  - 6
+- emotion:
+  - sweat2_R
+  - 100711
+  - 90
+  - 520
+  - se_adv_emote_sweat_02
+- shake:
+  - 100711
+- print:
+  - 宮子
+  - 才、才不是的～！
+- wait:
+  - 40
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - 宮子遠比你
+- wait:
+  - 10
+- print:
+  - 宮子
+  - >2-
+
+    更有魅力來的～！
+- shake:
+  - 100711
+- print:
+  - 宮子
+  - 噗――――！
+- wait:
+  - 10
+- touch: *o0
+- tag:
+  - 6
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007002_030
+- face:
+  - 100711
+  - 4
+- print:
+  - 宮子
+  - 宮子擅自附身到你身上真是抱歉～
+- wait:
+  - 60
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 5
+- print:
+  - 宮子
+  - 吶吶，那個布丁……
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 100711
+  - 6
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007002_031
+- face:
+  - 100711
+  - 1
+- emotion:
+  - heart1_R
+  - 100711
+  - 90
+  - 490
+  - se_adv_emote_heart_01
+- print:
+  - 宮子
+  - 果真是為了宮子買的嗎？
+- wait:
+  - 90
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 2
+- print:
+  - 宮子
+  - 耶～是布丁來的～
+- wait:
+  - 20
+- print:
+  - 宮子
+  - >2-
+
+    我們一起吃吧～！
+- touch: *o0
+- fadeout:
+  - 100711
+  - 30
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    和{0}一起開心吃著布丁的宮子，
+
+    感到心滿意足。
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

@@ -1,0 +1,1485 @@
+- title:
+  - 美里 第2話
+- outline:
+  - 在森林裡遇見美里的{0}，開始幫起美里製作花冠。而被教導如何製作花冠的{0}，決定將那頂花冠送給美里作為禮物。
+- background:
+  - 500190
+- amb:
+  - amb_adv_forest_02
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 重要之日的禮物
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    因為快遞的工作而來到精靈之森的{0}，
+
+    與正要外出的美里相遇了。
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 101511
+  - C
+  - 2
+- fadein:
+  - 101511
+  - 30
+- bgm:
+  - bgm_M71
+- window_visible:
+  - true
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_000
+- face:
+  - 101511
+  - 2
+- print:
+  - 美里
+  - >-
+    哎呀哎呀，這不是{0}嗎。
+
+    你好呀～。
+- wait:
+  - 30
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 今天怎麼了呢～？
+- touch: *o0
+- choice:
+  - 快遞工作的回程途中。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_001
+- face:
+  - 101511
+  - 1
+- face:
+  - 101511
+  - 2
+- print:
+  - 美里
+  - 那真是辛苦了。
+- wait:
+  - 45
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 2
+- print:
+  - 美里
+  - 呵呵，好好的完成了工作，很了不起呢～
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_002
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 老師接下來要準備幼稚園的活動唷。
+- wait:
+  - 105
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 4
+- print:
+  - 美里
+  - 難得遇見你，卻輪到我要工作了呢～
+- wait:
+  - 45
+- touch: *o0
+- choice:
+  - 工作也結束了，幫美里老師的忙。
+  - 2
+- tag:
+  - 2
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_003
+- face:
+  - 101511
+  - 6
+- print:
+  - 美里
+  - 哎呀哎呀，
+- wait:
+  - 30
+- print:
+  - 美里
+  - 你要幫我嗎？真開心呢～
+- wait:
+  - 30
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 2
+- print:
+  - 美里
+  - '{0}'
+- wait:
+  - 45
+- print:
+  - 美里
+  - 真的很溫柔呢。
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_004
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 那麼既然機會難得，就恭敬不如從命吧。
+- wait:
+  - 60
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101511
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 500180
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 101511
+  - C
+  - 2
+- fadein:
+  - 101511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_005
+- face:
+  - 101511
+  - 2
+- nod:
+  - 101511
+- print:
+  - 美里
+  - 嗯，就在這附近開始吧。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_006
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 因為本月份生日的孩子並不多，
+- wait:
+  - 75
+- print:
+  - 美里
+  - >2-
+
+    因此數量不需要那麼多呢～
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 101511
+  - 6
+- emotion:
+  - question1_R
+  - 101511
+  - 120
+  - 510
+  - se_adv_emote_question_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_007
+- face:
+  - 101511
+  - 6
+- print:
+  - 美里
+  - 嗯？
+- wait:
+  - 30
+- print:
+  - 美里
+  - 哎呀哎呀，
+- wait:
+  - 15
+- print:
+  - 美里
+  - 真對不起哦。
+- wait:
+  - 30
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 什麼都沒有跟你說明呢。
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_008
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 這是每個月慣例的活動，為了當月份生日的孩子們，
+- wait:
+  - 105
+- print:
+  - 美里
+  - >2-
+
+    大家會盛大的慶祝喔。
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_009
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 然後呢，一開始會給那些孩子們戴上用花朵做成的花冠。
+- wait:
+  - 75
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 2
+- print:
+  - 美里
+  - 表示「今天你們是主角喔～」的意思♪
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_010
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 今天正是為了蒐集那些花而來的♪
+- wait:
+  - 45
+- print:
+  - 美里
+  - 一個人的話有點辛苦，
+- wait:
+  - 60
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 2
+- print:
+  - 美里
+  - '{0}能來真是幫大忙了。'
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_011
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 那麼就開始吧。
+- wait:
+  - 60
+- print:
+  - 美里
+  - >2-
+
+    我想應該有藍色的花朵，能幫我蒐集來嗎？
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_012
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 那是本月份的誕生花喔。
+- wait:
+  - 80
+- print:
+  - 美里
+  - >2-
+
+    全部收集完後，再一起做成花冠吧。
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_013
+- face:
+  - 101511
+  - 2
+- emotion:
+  - note1_L
+  - 101511
+  - -100
+  - 525
+  - se_adv_emote_note_01
+- print:
+  - 美里
+  - 收集花朵開始囉開始囉～♪
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101511
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 101511
+  - C
+  - 6
+- fadein:
+  - 101511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_014
+- face:
+  - 101511
+  - 6
+- emotion:
+  - notice1_L
+  - 101511
+  - -80
+  - 545
+  - se_adv_emote_common_01
+- print:
+  - 美里
+  - 啊，沒錯喔就是那種花。
+- wait:
+  - 75
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 非常漂亮對吧──。
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_015
+- face:
+  - 101511
+  - 2
+- print:
+  - 美里
+  - 摘花的時候，
+- wait:
+  - 45
+- print:
+  - 美里
+  - >2-
+
+    要好好的道謝喔～
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_016
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 花朵小姐，謝謝你們。
+- wait:
+  - 55
+- print:
+  - 美里
+  - >2-
+
+    會做成漂亮的花冠的喔～
+- touch: *o0
+- choice:
+  - 謝謝花朵小姐。
+  - 3
+- choice:
+  - 會做成漂亮的花冠喔。
+  - 4
+- tag:
+  - 3
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_017
+- face:
+  - 101511
+  - 2
+- emotion:
+  - note1_L
+  - 101511
+  - -100
+  - 525
+  - se_adv_emote_note_01
+- print:
+  - 美里
+  - 呵呵呵，沒錯沒錯。
+- wait:
+  - 75
+- print:
+  - 美里
+  - >2-
+
+    花朵小姐也正在說不客氣呢。
+- touch: *o0
+- goto:
+  - 5
+- tag:
+  - 4
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_018
+- face:
+  - 101511
+  - 2
+- emotion:
+  - note1_L
+  - 101511
+  - -100
+  - 525
+  - se_adv_emote_note_01
+- print:
+  - 美里
+  - 呵呵呵，花朵們一定也會高興的。
+- wait:
+  - 90
+- print:
+  - 美里
+  - >2-
+
+    要好好地感謝大自然才行呢──
+- touch: *o0
+- tag:
+  - 5
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_019
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 來，繼續收集花朵吧～
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101511
+  - 30
+- bgm:
+  - stop
+  - 3
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 101511
+  - C
+  - 1
+- fadein:
+  - 101511
+  - 30
+- bgm:
+  - bgm_M04
+  - 0
+  - 0
+  - 1
+- window_visible:
+  - true
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_020
+- face:
+  - 101511
+  - 1
+- nod:
+  - 101511
+- print:
+  - 美里
+  - 呼，
+- wait:
+  - 30
+- print:
+  - 美里
+  - 蒐集了好～多呢。
+- wait:
+  - 75
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 2
+- print:
+  - 美里
+  - 這全都多虧了{0}哦，
+- wait:
+  - 45
+- print:
+  - 美里
+  - 謝謝你。
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_021
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 生日一年只有一次，
+- wait:
+  - 60
+- print:
+  - 美里
+  - >2-
+
+    想讓它成為會留在回憶中的特別日子。
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_022
+- face:
+  - 101511
+  - 2
+- emotion:
+  - twinkle1_R
+  - 101511
+  - -130
+  - 515
+  - se_adv_emote_twinkle_01
+- print:
+  - 美里
+  - 這麼一來，似乎能做出讓大家開心的美麗花冠了喔。
+- wait:
+  - 90
+- print:
+  - 美里
+  - >2-
+
+    趕快來製作吧。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101511
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 101511
+  - C
+  - 2
+- fadein:
+  - 101511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_023
+- face:
+  - 101511
+  - 2
+- emotion:
+  - note1_L
+  - 101511
+  - -100
+  - 525
+  - se_adv_emote_note_01
+- print:
+  - 美里
+  - 沒錯沒錯，做得很好喔。
+- wait:
+  - 75
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 然後讓花莖部分朝上～
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101511
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 101511
+  - C
+  - 1
+- fadein:
+  - 101511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_024
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 哎呀哎呀，這樣的話稍微有點繞的太鬆了喔。
+- wait:
+  - 120
+- print:
+  - 美里
+  - >2
+
+- nod:
+  - 101511
+- face:
+  - 101511
+  - 2
+- print:
+  - 美里
+  - 像這樣子，快速捲起來，再握緊……沒錯～呵呵呵。
+- wait:
+  - 105
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_025
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 領悟得很快呢～
+- wait:
+  - 45
+- print:
+  - 美里
+  - >2-
+
+    這樣一來或許馬上就會追過老師了……
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 101511
+  - 6
+- emotion:
+  - notice1_L
+  - 101511
+  - -80
+  - 545
+  - se_adv_emote_common_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_026
+- face:
+  - 101511
+  - 6
+- print:
+  - 美里
+  - 啊，對了。
+- wait:
+  - 45
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 機會難得，也告訴老師你的生日──
+- wait:
+  - 30
+- touch: *o0
+- choice:
+  - 告訴她生日。
+  - 6
+- tag:
+  - 6
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_027
+- face:
+  - 101511
+  - 6
+- print:
+  - 美里
+  - 哎呀哎呀，這樣子啊。
+- wait:
+  - 60
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 那麼生日的那個月，必須好好慶祝呢～
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_028
+- face:
+  - 101511
+  - 2
+- emotion:
+  - note1_L
+  - 101511
+  - -100
+  - 525
+  - se_adv_emote_note_01
+- print:
+  - 美里
+  - 老師會幹勁十足的做蛋糕的喔。
+- wait:
+  - 90
+- print:
+  - 美里
+  - >2-
+
+    呵呵呵，現在就開始期待了呢。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_029
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 啊，那裡穿出的部分要顛倒唷～
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101511
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 101511
+  - C
+  - 1
+- fadein:
+  - 101511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_030
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 最後在那裡把花莖插進去……
+- wait:
+  - 115
+- print:
+  - 美里
+  - >2
+
+- emotion:
+  - twinkle1_R
+  - 101511
+  - -130
+  - 515
+  - se_adv_emote_twinkle_01
+- face:
+  - 101511
+  - 2
+- print:
+  - 美里
+  - 完成了～啪啪啪啪～（拍手聲）
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_031
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 哎呀哎呀，明明是第一次卻很擅長呢──
+- wait:
+  - 75
+- print:
+  - 美里
+  - >2-
+
+    照這狀態繼續製作吧。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101511
+  - 30
+- se:
+  - se_adv_step_leaves_move_01
+- chara_full:
+  - 101511
+  - C
+  - 1
+- scale:
+  - 101511
+  - 1.2
+  - 2
+- fadein:
+  - 101511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_032
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - ……不過在這之前，來。
+- wait:
+  - 75
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_033
+- face:
+  - 101511
+  - 2
+- print:
+  - 美里
+  - 謝謝你的幫忙～
+- wait:
+  - 60
+- print:
+  - 美里
+  - >2-
+
+    這個花冠是禮物喔。呵呵，相當適合呢。
+- wait:
+  - 75
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 3.5
+  - 1
+- face:
+  - 101511
+  - 6
+- emotion:
+  - question1_R
+  - 101511
+  - 120
+  - 510
+  - se_adv_emote_question_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 0
+- vo:
+  - vo_adv_1015002_034
+- face:
+  - 101511
+  - 6
+- print:
+  - 美里
+  - ……哎呀？哎呀哎呀～
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101511
+  - 30
+- white_out:
+  - 1
+  - 1
+- still:
+  - 101500201
+- wait:
+  - 15
+- white_in: *o0
+- bgm:
+  - bgm_M67
+- window_visible:
+  - true
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 1
+- vo:
+  - vo_adv_1015002_035
+- face:
+  - 101511
+  - 6
+- print:
+  - 美里
+  - ……這個，是要給老師的嗎？
+- wait:
+  - 15
+- touch: *o0
+- choice:
+  - 這是收到花冠的回禮。
+  - 7
+- tag:
+  - 7
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 1
+- vo:
+  - vo_adv_1015002_036
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 哎呀哎呀，明明我也是作為謝禮送給你的，卻又收到回禮了。
+- wait:
+  - 75
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 2
+- print:
+  - 美里
+  - 呵呵呵……真是非常的高興呢。適合嗎？
+- wait:
+  - 105
+- touch: *o0
+- choice:
+  - 很可愛。
+  - 8
+- choice:
+  - 很漂亮。
+  - 9
+- tag:
+  - 8
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 1
+- vo:
+  - vo_adv_1015002_037
+- face:
+  - 101511
+  - 5
+- print:
+  - 美里
+  - 哎呀哎呀，被說可愛什麼的，真害羞呢。
+- wait:
+  - 120
+- print:
+  - 美里
+  - >2-
+
+    都是託了花冠的福。
+- touch: *o0
+- goto:
+  - 10
+- tag:
+  - 9
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 1
+- vo:
+  - vo_adv_1015002_038
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 哎呀哎呀，真是能言善道的人啊～
+- wait:
+  - 90
+- print:
+  - 美里
+  - >2-
+
+    從哪裡學來的呢。　
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 1
+- vo:
+  - vo_adv_1015002_039
+- face:
+  - 101511
+  - 2
+- print:
+  - 美里
+  - 看起來漂亮，也都是託了花冠的福唷。
+- touch: *o0
+- tag:
+  - 10
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 1
+- vo:
+  - vo_adv_1015002_040
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 那麼，我就充滿感謝的收下了。
+- wait:
+  - 90
+- print:
+  - 美里
+  - >2
+
+- face:
+  - 101511
+  - 2
+- print:
+  - 美里
+  - 當做寶物吧……
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 1
+- vo:
+  - vo_adv_1015002_041
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 呵呵……孩子們也常像這樣，
+- wait:
+  - 75
+- print:
+  - 美里
+  - >2-
+
+    以回禮的名義，送給我各種東西呢。
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 1
+- vo:
+  - vo_adv_1015002_042
+- face:
+  - 101511
+  - 1
+- print:
+  - 美里
+  - 雖然對我來說，那些孩子們的笑容就已經是最棒的回禮了，
+- wait:
+  - 105
+- print:
+  - 美里
+  - >2-
+
+    儘管如此，無論到幾歲，能收到實質的禮物，都還是會很高興呢。
+- wait:
+  - 90
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 1
+- vo:
+  - vo_adv_1015002_043
+- face:
+  - 101511
+  - 2
+- print:
+  - 美里
+  - 因為禮物能讓人感到如此幸福，
+- wait:
+  - 90
+- print:
+  - 美里
+  - >2-
+
+    所以孩子們才這麼期待生日來臨吧。
+- touch: *o0
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 1
+- vo:
+  - vo_adv_1015002_044
+- face:
+  - 101511
+  - 2
+- print:
+  - 美里
+  - ……呵呵呵，那麼接著，
+- wait:
+  - 90
+- print:
+  - 美里
+  - >2-
+
+    也來製作給孩子們的花冠吧。
+- touch: *o0
+- window_visible:
+  - false
+- vo_effect:
+  - 3
+- change_window:
+  - 2
+- window_visible:
+  - true
+- focus:
+  - 101511
+- bust:
+  - 101511
+  - 1
+- vo:
+  - vo_adv_1015002_045
+- face:
+  - 101511
+  - 5
+- print:
+  - 美里
+  - （你真是個純粹又坦率的好孩子呢……
+- wait:
+  - 90
+- print:
+  - 美里
+  - >2-
+
+    正因如此，總覺得不能放著你不管。）
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- vo_effect:
+  - 0
+- change_window:
+  - 1
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    時間安穩的流逝著，
+
+    枝葉間灑落的陽光將兩人包覆於其中。
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

@@ -1,0 +1,229 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 505032
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 適合我嗎？
+- chara_full:
+  - 111211
+  - C
+  - 6
+- fadein:
+  - 111211
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M266_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_6025305_000
+- face:
+  - 111211
+  - 6
+- print:
+  - 禊
+  - 有好多人扮裝呢～
+- wait:
+  - 60
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 1
+- print:
+  - 禊
+  - 大家的打扮都好有趣呀～
+- wait:
+  - 60
+- print:
+  - 禊
+  - >2
+
+- nod:
+  - 111211
+- print:
+  - 禊
+  - 喏，哥哥！　
+- wait:
+  - 10
+- print:
+  - 禊
+  - 禊的扮裝怎麼樣？
+- touch: &o0 []
+- choice:
+  - 好像很好吃。
+  - 1
+  - 1
+- choice:
+  - 很可愛。
+  - 2
+  - 2
+- choice:
+  - 好像很方便惡作劇。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_6025305_001
+- face:
+  - 111211
+  - 6
+- print:
+  - 禊
+  - 好、
+- wait:
+  - 25
+- print:
+  - 禊
+  - 好像很好吃？
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 1
+- nod:
+  - 111211
+- print:
+  - 禊
+  - 啊，
+- wait:
+  - 20
+- print:
+  - 禊
+  - 因為是南瓜吧～！！
+- wait:
+  - 35
+- print:
+  - 禊
+  - >2-
+
+    什麼都想要吃，
+- wait:
+  - 25
+- print:
+  - 禊
+  - 哥哥真是貪吃鬼呢～！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_6025305_002
+- face:
+  - 111211
+  - 6
+- print:
+  - 禊
+  - 可愛嗎？
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2
+
+- nod:
+  - 111211
+- print:
+  - 禊
+  - 沒想到你會那樣說呢～
+- wait:
+  - 70
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 4
+- print:
+  - 禊
+  - 真是搞不懂！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_6025305_003
+- face:
+  - 111211
+  - 1
+- pop:
+  - 111211
+- print:
+  - 禊
+  - 對吧～？
+- wait:
+  - 25
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 2
+- print:
+  - 禊
+  - 很方便行動，
+- wait:
+  - 20
+- print:
+  - 禊
+  - 超級適合惡作劇的！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 111211
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

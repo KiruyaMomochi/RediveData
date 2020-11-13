@@ -1,0 +1,225 @@
+- title:
+  - 拉姆擅長的魔法
+- outline:
+  - ' '
+- background:
+  - 500351
+- amb:
+  - amb_adv_outdoors_morning_01
+- ui_visible:
+  - false
+- situation:
+  - 拉姆擅長的魔法
+- chara_full:
+  - 109811
+  - C
+  - 2
+- fadein:
+  - 109811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M203
+  - 0
+  - 0
+  - 1
+- focus:
+  - 109811
+- bust:
+  - 109811
+  - 0
+- vo:
+  - vo_adv_6017306_000
+- face:
+  - 109811
+  - 2
+- nod:
+  - 109811
+- print:
+  - 拉姆
+  - 拉姆擅長的是風系的魔法。
+- wait:
+  - 55
+- print:
+  - 拉姆
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 拉姆
+  - 不論是誰，
+- wait:
+  - 15
+- eye_open:
+  - True
+- print:
+  - 拉姆
+  - 我都能把他碎屍萬段。
+- wait:
+  - 50
+- print:
+  - 拉姆
+  - >2
+
+- face:
+  - 109811
+  - 1
+- print:
+  - 拉姆
+  - 不過不能很常用就是了。
+- touch: &o0 []
+- choice:
+  - 好可怕喔。
+  - 1
+  - 1
+- choice:
+  - 好厲害喔。
+  - 2
+  - 2
+- choice:
+  - 好方便喔。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 109811
+- bust:
+  - 109811
+  - 0
+- vo:
+  - vo_adv_6017306_001
+- face:
+  - 109811
+  - 2
+- print:
+  - 拉姆
+  - 放心吧。
+- wait:
+  - 30
+- print:
+  - 拉姆
+  - 我不會對你使出這個魔法。
+- wait:
+  - 50
+- print:
+  - 拉姆
+  - >2
+
+- face:
+  - 109811
+  - 3
+- print:
+  - 拉姆
+  - 除非你與拉姆為敵。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 109811
+- bust:
+  - 109811
+  - 0
+- vo:
+  - vo_adv_6017306_002
+- face:
+  - 109811
+  - 2
+- emotion:
+  - twinkle1_R
+  - 109811
+  - -60
+  - 475
+  - se_adv_emote_twinkle_01
+- print:
+  - 拉姆
+  - 這是當然。
+- wait:
+  - 20
+- print:
+  - 拉姆
+  - 我可是拉姆。
+- wait:
+  - 35
+- print:
+  - 拉姆
+  - >2-
+
+    既然這樣，你想不想親眼見識一下？　
+- wait:
+  - 40
+- print:
+  - 拉姆
+  - ……
+- face:
+  - 109811
+  - 4
+- print:
+  - 拉姆
+  - 開玩笑的啦。
+- wait:
+  - 40
+- print:
+  - 拉姆
+  - >2-
+
+    請你不要用那麼興奮的眼神看著我。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 109811
+- bust:
+  - 109811
+  - 0
+- vo:
+  - vo_adv_6017306_003
+- face:
+  - 109811
+  - 4
+- emotion:
+  - sweat1_R
+  - 109811
+  - -35
+  - 500
+  - se_adv_emote_sweat_01
+- print:
+  - 拉姆
+  - 雖然我不曉得你腦中有什麼想像，
+- wait:
+  - 40
+- print:
+  - 拉姆
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 拉姆
+  - 不過肯定跟巴魯斯差不了多少吧。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 109811
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

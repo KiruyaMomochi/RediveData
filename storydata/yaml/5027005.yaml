@@ -1,0 +1,2257 @@
+- title:
+  - 潛伏於叢林遺跡之物
+- outline:
+  - 在危急的一刻救了智的【龍族巢穴】跟茉莉。在謎之遺跡跟襲擊者面前，帆稀說出了這一次的目的是尋找巨龍及跟龍有關的遺跡。但是，跟襲擊者之間的對話沒能成立，只能面對火焰的吐息。
+- background:
+  - 500830
+- amb:
+  - amb_adv_jungle_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 潛伏於叢林遺跡之物
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 嘉夜她們所在的公會──【龍族巢穴】和茉莉一行人，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    為了尋找智以及龍，在茂密的樹林中前進著。
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 100511
+  - LC
+  - 4
+- se:
+  - se_adv_step_leaves_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 100511
+  - 45
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M233_Ver2
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5027005_000
+- face:
+  - 100511
+  - 4
+- print:
+  - 茉莉
+  - 這個方向對嗎？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100511
+  - 30
+- chara_full:
+  - 106711
+  - RC
+  - 1
+- chara_full:
+  - 106611
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_5027005_001
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 沒問題，
+- wait:
+  - 20
+- print:
+  - 帆稀
+  - 方向正確～♪
+- wait:
+  - 45
+- print:
+  - 帆稀
+  - >2-
+
+    以我剛剛
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 『看到』的內容的話☆
+- touch: *o0
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_5027005_002
+- face:
+  - 106611
+  - 1
+- print:
+  - 祈梨
+  - 老大這種時候特別可靠，讓人很放心。
+- wait:
+  - 80
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 106611
+  - 6
+- print:
+  - 祈梨
+  - 嘉夜夜，
+- wait:
+  - 20
+- print:
+  - 祈梨
+  - 妳那邊有沒有發現什麼？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106511
+  - C
+  - 6
+- fadein:
+  - 106511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106511
+- bust:
+  - 106511
+  - 0
+- vo:
+  - vo_adv_5027005_003
+- face:
+  - 106511
+  - 6
+- se:
+  - se_adv_cloth_move_normal_01
+- nod:
+  - 106511
+- print:
+  - 嘉夜
+  - 這個，
+- wait:
+  - 25
+- print:
+  - 嘉夜
+  - 是那個石板吧？
+- wait:
+  - 50
+- print:
+  - 嘉夜
+  - >2
+
+- face:
+  - 106511
+  - 4
+- print:
+  - 嘉夜
+  - 會掉在這裡就表示……
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_tottering_tree_02
+- fadeout:
+  - 106511
+  - 30
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- chara_full:
+  - 100511
+  - LC
+  - 6
+- chara_full:
+  - 106511
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5027005_004
+- face:
+  - 100511
+  - 6
+- print:
+  - 茉莉
+  - 樹在搖晃！？
+- touch: *o0
+- focus:
+  - 106511
+- bust:
+  - 106511
+  - 0
+- vo:
+  - vo_adv_5027005_005
+- face:
+  - 106511
+  - 3
+- nod:
+  - 106511
+- print:
+  - 嘉夜
+  - 在那裡！
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- window_visible:
+  - false
+- se:
+  - se_adv_step_leaves_run_go_01
+- change:
+  - C
+  - LC
+  - 30
+- change:
+  - R
+  - RC
+  - 30
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500850
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_jungle_01
+- chara_full:
+  - 100511
+  - L
+  - 3
+- chara_full:
+  - 103711
+  - RC
+  - 3
+- se:
+  - se_adv_step_leaves_run_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 30
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M130
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5027005_006
+- face:
+  - 100511
+  - 3
+- print:
+  - 茉莉
+  - 小智姐！！
+- touch: *o0
+- focus:
+  - 103711
+- bust:
+  - 103711
+  - 0
+- vo:
+  - vo_adv_5027005_007
+- face:
+  - 103711
+  - 6
+- emotion:
+  - surprise1_L
+  - 103711
+  - 145
+  - 565
+  - se_adv_emote_common_01
+- print:
+  - 智
+  - 咦！？
+- wait:
+  - 15
+- print:
+  - 智
+  - 　為什麼茉莉妳會在這裡？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106511
+  - LC
+  - 4
+- chara_full:
+  - 106611
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106511
+- bust:
+  - 106511
+  - 0
+- vo:
+  - vo_adv_5027005_008
+- face:
+  - 106511
+  - 4
+- print:
+  - 嘉夜
+  - 妳這樣問就不對了。
+- wait:
+  - 35
+- print:
+  - 嘉夜
+  - >2
+
+- nod:
+  - 106511
+- print:
+  - 嘉夜
+  - 而且說起來，那是我們要問妳的才對。
+- touch: *o0
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_5027005_009
+- face:
+  - 106611
+  - 3
+- print:
+  - 祈梨
+  - 一個人跑出去還被逼到絕境，
+- wait:
+  - 30
+- print:
+  - 祈梨
+  - 真是不像話！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100511
+  - LC
+  - 4
+- chara_full:
+  - 103711
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103711
+- bust:
+  - 103711
+  - 0
+- vo:
+  - vo_adv_5027005_010
+- face:
+  - 103711
+  - 6
+- print:
+  - 智
+  - ……
+- wait:
+  - 45
+- face:
+  - 103711
+  - 4
+- nod:
+  - 103711
+- print:
+  - 智
+  - 嗯，
+- wait:
+  - 25
+- print:
+  - 智
+  - 妳說得沒錯。
+- wait:
+  - 45
+- print:
+  - 智
+  - >2-
+
+    光靠我一個人，
+- wait:
+  - 30
+- print:
+  - 智
+  - 沒辦法像你們這樣
+- wait:
+  - 20
+- print:
+  - 智
+  - 把事情處理好。
+- wait:
+  - 45
+- print:
+  - 智
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 智
+  - 這樣一來任務也失敗了……
+- wait:
+  - 45
+- eye_open:
+  - True
+- print:
+  - 智
+  - 我
+- wait:
+  - 10
+- print:
+  - 智
+  - 沒有臉見茉莉……
+- touch: *o0
+- choice:
+  - 妳一個人已經做得很好了。
+  - 1
+- choice:
+  - 茉莉也很擔心妳喔。
+  - 2
+- tag:
+  - 1
+- focus:
+  - 103711
+- bust:
+  - 103711
+  - 0
+- vo:
+  - vo_adv_5027005_011
+- face:
+  - 103711
+  - 6
+- print:
+  - 智
+  - 你這個人……
+- wait:
+  - 55
+- face:
+  - 103711
+  - 2
+- print:
+  - 智
+  - 真是的，
+- wait:
+  - 35
+- print:
+  - 智
+  - 敗給你了。
+- touch: *o0
+- goto:
+  - 3
+- tag:
+  - 2
+- focus:
+  - 103711
+- bust:
+  - 103711
+  - 0
+- vo:
+  - vo_adv_5027005_012
+- face:
+  - 103711
+  - 4
+- print:
+  - 智
+  - 嗯……
+- wait:
+  - 35
+- nod:
+  - 103711
+- print:
+  - 智
+  - 抱歉，
+- wait:
+  - 25
+- print:
+  - 智
+  - 茉莉。
+- touch: *o0
+- tag:
+  - 3
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5027005_013
+- face:
+  - 100511
+  - 4
+- eye_open:
+  - False
+- print:
+  - 茉莉
+  - 嗚哇～！！
+- shake:
+  - 100511
+- wait:
+  - 60
+- print:
+  - 茉莉
+  - 　
+- eye_open:
+  - True
+- print:
+  - 茉莉
+  - 小智姐！
+- wait:
+  - 30
+- print:
+  - 茉莉
+  - >2-
+
+    竟然丟下我跑掉，太過分了！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106511
+  - LC
+  - 1
+- chara_full:
+  - 106611
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106511
+- bust:
+  - 106511
+  - 0
+- vo:
+  - vo_adv_5027005_014
+- face:
+  - 106511
+  - 1
+- nod:
+  - 106511
+- print:
+  - 嘉夜
+  - 喂喂，
+- wait:
+  - 35
+- print:
+  - 嘉夜
+  - 看來妳也很受愛戴嘛。
+- wait:
+  - 55
+- print:
+  - 嘉夜
+  - >2-
+
+    與其說什麼沒臉見她，
+- wait:
+  - 45
+- print:
+  - 嘉夜
+  - 不如別做這種讓夥伴擔心的事情啦。
+- wait:
+  - 85
+- print:
+  - 嘉夜
+  - >2
+
+- face:
+  - 106511
+  - 6
+- print:
+  - 嘉夜
+  - 而且，所謂的夥伴
+- wait:
+  - 30
+- print:
+  - 嘉夜
+  - 沒什麼幫不幫得上的分別吧？
+- touch: *o0
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_5027005_015
+- face:
+  - 106611
+  - 6
+- print:
+  - 祈梨
+  - 對嘉夜夜來說也是嗎……？
+- touch: *o0
+- focus:
+  - 106511
+- bust:
+  - 106511
+  - 0
+- vo:
+  - vo_adv_5027005_016
+- face:
+  - 106511
+  - 1
+- print:
+  - 嘉夜
+  - 那當然？
+- touch: *o0
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_5027005_017
+- face:
+  - 106611
+  - 2
+- emotion:
+  - note1_L
+  - 106611
+  - -90
+  - 400
+  - se_adv_emote_note_01
+- print:
+  - 祈梨
+  - ……欸嘿嘿，
+- wait:
+  - 30
+- print:
+  - 祈梨
+  - 這樣啊。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 103711
+  - LC
+  - 2
+- chara_full:
+  - 106711
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103711
+- bust:
+  - 103711
+  - 0
+- vo:
+  - vo_adv_5027005_018
+- face:
+  - 103711
+  - 2
+- nod:
+  - 103711
+- print:
+  - 智
+  - 哈哈……
+- wait:
+  - 35
+- face:
+  - 103711
+  - 1
+- print:
+  - 智
+  - 真傷腦筋。
+- wait:
+  - 35
+- print:
+  - 智
+  - >2-
+
+    竟然被監視的對象說教。
+- wait:
+  - 55
+- print:
+  - 智
+  - >2
+
+- face:
+  - 103711
+  - 4
+- print:
+  - 智
+  - 不過，
+- wait:
+  - 25
+- print:
+  - 智
+  - 妳說得沒錯。
+- wait:
+  - 30
+- print:
+  - 智
+  - 我讓各位擔心了呢。
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_5027005_019
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 這是個需要讓妳這麼拼命的任務嗎～？
+- wait:
+  - 95
+- print:
+  - 帆稀
+  - >2
+
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 【王宮騎士團（NIGHTMARE）】的小姐☆
+- touch: *o0
+- focus:
+  - 103711
+- bust:
+  - 103711
+  - 0
+- vo:
+  - vo_adv_5027005_020
+- face:
+  - 103711
+  - 6
+- emotion:
+  - exclamation1_R
+  - 103711
+  - 15
+  - 650
+  - se_adv_emote_nortice_02
+- print:
+  - 智
+  - 沒想到妳連這個都知道了啊……
+- wait:
+  - 55
+- print:
+  - 智
+  - >2
+
+- face:
+  - 103711
+  - 4
+- print:
+  - 智
+  - 我投降了，
+- wait:
+  - 35
+- print:
+  - 智
+  - 完全逃不出妳的手掌心呢。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106711
+  - 30
+- chara_full:
+  - 106511
+  - RC
+  - 1
+- fadein:
+  - 106511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106511
+- bust:
+  - 106511
+  - 0
+- vo:
+  - vo_adv_5027005_021
+- face:
+  - 106511
+  - 1
+- print:
+  - 嘉夜
+  - 撇下我們偷跑的人
+- wait:
+  - 40
+- print:
+  - 嘉夜
+  - 還真敢講耶。
+- touch: *o0
+- focus:
+  - 103711
+- bust:
+  - 103711
+  - 0
+- vo:
+  - vo_adv_5027005_022
+- face:
+  - 103711
+  - 4
+- print:
+  - 智
+  - 因為焦急和競爭意識
+- wait:
+  - 45
+- eye_open:
+  - False
+- print:
+  - 智
+  - 而失去冷靜，
+- wait:
+  - 55
+- print:
+  - 智
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 智
+  - 我果然
+- wait:
+  - 25
+- print:
+  - 智
+  - 還不夠成熟呢。
+- wait:
+  - 65
+- face:
+  - 103711
+  - 1
+- print:
+  - 智
+  - 我要再次
+- wait:
+  - 25
+- print:
+  - 智
+  - 正式跟妳道謝，
+- wait:
+  - 15
+- print:
+  - 智
+  - 茉莉。
+- wait:
+  - 25
+- print:
+  - 智
+  - >2
+
+- face:
+  - 103711
+  - 2
+- print:
+  - 智
+  - 謝謝妳來救我，我真的很高興。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100511
+  - LC
+  - 6
+- chara_full:
+  - 106611
+  - RC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5027005_023
+- face:
+  - 100511
+  - 6
+- emotion:
+  - twinkle1_R
+  - 100511
+  - -100
+  - 465
+  - se_adv_emote_twinkle_01
+- print:
+  - 茉莉
+  - 小智姐！！
+- touch: *o0
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_5027005_024
+- face:
+  - 106611
+  - 2
+- pop:
+  - 106611
+- print:
+  - 祈梨
+  - 喔？
+- wait:
+  - 20
+- print:
+  - 祈梨
+  - 一開始就這麼坦率的話就可愛多了嘛
+- wait:
+  - 50
+- print:
+  - 祈梨
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 祈梨
+  - 之後要好好感謝我祈梨大人，然後成為我的手下……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106711
+  - C
+  - 1
+- fadein:
+  - 106711
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 11
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_5027005_025
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 那個
+- wait:
+  - 15
+- print:
+  - 帆稀
+  - 各位～
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 不好意思在大家聊得開心的時候打擾～……
+- wait:
+  - 65
+- print:
+  - 帆稀
+  - >2
+
+- face:
+  - 106711
+  - 6
+- print:
+  - 帆稀
+  - 昨晚
+- wait:
+  - 15
+- print:
+  - 帆稀
+  - 的……
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 『那個』
+- wait:
+  - 15
+- print:
+  - 帆稀
+  - 是牠沒錯吧？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106711
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- window_visible:
+  - true
+- bgm:
+  - bgm_M21
+  - 0
+  - 0
+  - 1
+- focus:
+  - 12311
+- bust:
+  - 12311
+  - 1
+- vo:
+  - vo_adv_5027005_026
+- face:
+  - 12311
+  - 1
+- print:
+  - 龍？
+  - ……
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 所有人的視線都集中到帆稀的手所指向的地方。
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    那隻巨大生物，就像是在打量般地盯著眾人看。
+- touch: *o0
+- window_visible:
+  - FALSE
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 106511
+  - LC
+  - 6
+- chara_full:
+  - 106711
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 106511
+- bust:
+  - 106511
+  - 0
+- vo:
+  - vo_adv_5027005_027
+- face:
+  - 106511
+  - 6
+- nod:
+  - 106511
+- print:
+  - 嘉夜
+  - 我說，
+- wait:
+  - 15
+- print:
+  - 嘉夜
+  - 老大……
+- wait:
+  - 35
+- print:
+  - 嘉夜
+  - 我們在找的龍……
+- wait:
+  - 50
+- print:
+  - 嘉夜
+  - >2
+
+- face:
+  - 106511
+  - 4
+- print:
+  - 嘉夜
+  - 是這傢伙沒錯嗎？
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_5027005_028
+- face:
+  - 106711
+  - 6
+- print:
+  - 帆稀
+  - 祈梨妳之前直接遇到過牠吧，
+- wait:
+  - 60
+- print:
+  - 帆稀
+  - 妳怎麼看？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106611
+  - C
+  - 6
+- fadein:
+  - 106611
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_5027005_029
+- face:
+  - 106611
+  - 6
+- print:
+  - 祈梨
+  - 唔……
+- wait:
+  - 50
+- face:
+  - 106611
+  - 1
+- print:
+  - 祈梨
+  - 有這麼醜嗎？
+- touch: *o0
+- focus:
+  - 12311
+- bust:
+  - 12311
+  - 1
+- vo:
+  - vo_adv_5027005_030
+- face:
+  - 12311
+  - 1
+- print:
+  - 龍？
+  - 咕喔！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106611
+  - 30
+- chara_full:
+  - 106711
+  - C
+  - 1
+- fadein:
+  - 106711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_5027005_031
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 拉格，
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 你能和牠對話嗎？
+- touch: *o0
+- bust:
+  - 0
+  - 1
+- vo:
+  - vo_adv_5027005_032
+- face:
+  - 1
+  - 1
+- print:
+  - 拉格
+  - 嘎喔！
+- touch: *o0
+- focus:
+  - 12311
+- bust:
+  - 12311
+  - 1
+- vo:
+  - vo_adv_5027005_033
+- face:
+  - 12311
+  - 1
+- print:
+  - 龍？
+  - 咕喔喔喔……
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 0
+  - 1
+- vo:
+  - vo_adv_5027005_034
+- face:
+  - 1
+  - 1
+- print:
+  - 拉格
+  - 嘎嘎嘎。
+- touch: *o0
+- face:
+  - 106711
+  - 4
+- focus:
+  - 12311
+- bust:
+  - 12311
+  - 1
+- vo:
+  - vo_adv_5027005_035
+- face:
+  - 12311
+  - 1
+- print:
+  - 龍？
+  - 咕喔……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106711
+  - 30
+- chara_full:
+  - 106511
+  - RC
+  - 4
+- chara_full:
+  - 100511
+  - LC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106511
+- bust:
+  - 106511
+  - 0
+- vo:
+  - vo_adv_5027005_036
+- face:
+  - 106511
+  - 4
+- emotion:
+  - sweat1_R
+  - 106511
+  - 80
+  - 520
+  - se_adv_emote_sweat_01
+- print:
+  - 嘉夜
+  - ……總覺得，
+- wait:
+  - 20
+- print:
+  - 嘉夜
+  - 好像語言不通的樣子。
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5027005_037
+- face:
+  - 100511
+  - 6
+- print:
+  - 茉莉
+  - 難不成，
+- wait:
+  - 30
+- print:
+  - 茉莉
+  - 這傢伙
+- wait:
+  - 20
+- print:
+  - 茉莉
+  - 就是龍嗎！？
+- touch: *o0
+- focus:
+  - 12311
+- bust:
+  - 12311
+  - 1
+- vo:
+  - vo_adv_5027005_038
+- face:
+  - 12311
+  - 1
+- print:
+  - 龍？
+  - 咕喔！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106711
+  - RC
+  - 6
+- chara_full:
+  - 103711
+  - LC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_5027005_039
+- face:
+  - 106711
+  - 6
+- print:
+  - 帆稀
+  - 我原本是這麼認為的……
+- wait:
+  - 75
+- face:
+  - 106711
+  - 4
+- nod:
+  - 106711
+- print:
+  - 帆稀
+  - 嗯～……
+- wait:
+  - 60
+- print:
+  - 帆稀
+  - >2-
+
+    不再仔細一點確認的話，
+- wait:
+  - 45
+- print:
+  - 帆稀
+  - 沒辦法確定是不是我們在找的目標呢☆
+- touch: *o0
+- bgm:
+  - stop
+  - 10.5
+  - 1
+- focus:
+  - 103711
+- bust:
+  - 103711
+  - 0
+- vo:
+  - vo_adv_5027005_040
+- face:
+  - 103711
+  - 6
+- print:
+  - 智
+  - 難不成，
+- wait:
+  - 30
+- print:
+  - 智
+  - 妳們的公會
+- wait:
+  - 30
+- print:
+  - 智
+  - 【龍族巢穴】
+- wait:
+  - 30
+- print:
+  - 智
+  - >2-
+
+    是在尋找
+- wait:
+  - 15
+- print:
+  - 智
+  - 龍以及與龍有關的遺跡……？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106711
+  - 30
+- chara_full:
+  - 106511
+  - RC
+  - 6
+- fadein:
+  - 106511
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M288
+- focus:
+  - 106511
+- bust:
+  - 106511
+  - 0
+- vo:
+  - vo_adv_5027005_041
+- face:
+  - 106511
+  - 6
+- nod:
+  - 106511
+- print:
+  - 嘉夜
+  - 算是啦。
+- wait:
+  - 30
+- face:
+  - 106511
+  - 1
+- print:
+  - 嘉夜
+  - 雖說是龍人族，
+- wait:
+  - 30
+- print:
+  - 嘉夜
+  - 但就連我們自己
+- wait:
+  - 15
+- print:
+  - 嘉夜
+  - >2-
+
+    也搞不清楚龍人族的起源是什麼。
+- wait:
+  - 45
+- print:
+  - 嘉夜
+  - 所以才要進行調查。
+- wait:
+  - 40
+- print:
+  - 嘉夜
+  - >2
+
+- face:
+  - 106511
+  - 6
+- print:
+  - 嘉夜
+  - 嗯？
+- wait:
+  - 25
+- print:
+  - 嘉夜
+  - 你沒跟她們講嗎？
+- touch: *o0
+- choice:
+  - 我沒說過嗎？
+  - 4
+- tag:
+  - 4
+- focus:
+  - 103711
+- bust:
+  - 103711
+  - 0
+- vo:
+  - vo_adv_5027005_042
+- face:
+  - 103711
+  - 6
+- emotion:
+  - surprise1_L
+  - 103711
+  - 145
+  - 565
+  - se_adv_emote_common_01
+- print:
+  - 智
+  - 咦！？
+- wait:
+  - 20
+- print:
+  - 智
+  - 　你早就知道
+- wait:
+  - 25
+- print:
+  - 智
+  - 這次來的目的了嗎！？
+- wait:
+  - 45
+- print:
+  - 智
+  - >2
+
+- face:
+  - 103711
+  - 4
+- print:
+  - 智
+  - 唉……
+- wait:
+  - 45
+- print:
+  - 智
+  - 什麼嘛，
+- wait:
+  - 30
+- print:
+  - 智
+  - 早知道一開始問你就好了……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100511
+  - LC
+  - 4
+- chara_full:
+  - 106711
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5027005_043
+- face:
+  - 100511
+  - 4
+- print:
+  - 茉莉
+  - 我還以為
+- wait:
+  - 25
+- print:
+  - 茉莉
+  - 你是要加入幫派去做壞事哩……
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_5027005_044
+- face:
+  - 106711
+  - 4
+- nod:
+  - 106711
+- print:
+  - 帆稀
+  - 沒想到妳們是這樣看待我們的，真讓人遺憾啊～……
+- wait:
+  - 85
+- print:
+  - 帆稀
+  - >2
+
+- face:
+  - 106711
+  - 6
+- print:
+  - 帆稀
+  - 我們
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 看起來真的那麼像壞人嗎？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106611
+  - RC
+  - 1
+- chara_full:
+  - 106511
+  - LC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_5027005_045
+- face:
+  - 106611
+  - 1
+- print:
+  - 祈梨
+  - 我不想被罵所以不想回答……
+- touch: *o0
+- focus:
+  - 106511
+- bust:
+  - 106511
+  - 0
+- vo:
+  - vo_adv_5027005_046
+- face:
+  - 106511
+  - 4
+- eye_open:
+  - False
+- emotion:
+  - sweat1_R
+  - 106511
+  - 80
+  - 520
+  - se_adv_emote_sweat_01
+- print:
+  - 嘉夜
+  - ……不予置評呢。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 103711
+  - LC
+  - 4
+- chara_full:
+  - 106711
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103711
+- bust:
+  - 103711
+  - 0
+- vo:
+  - vo_adv_5027005_047
+- face:
+  - 103711
+  - 4
+- print:
+  - 智
+  - 妳們打算利用龍
+- wait:
+  - 30
+- print:
+  - 智
+  - 來做什麼？
+- wait:
+  - 40
+- print:
+  - 智
+  - >2
+
+- face:
+  - 103711
+  - 6
+- print:
+  - 智
+  - 錯誤的世界
+- wait:
+  - 35
+- print:
+  - 智
+  - 指的是在皇家統治下的國家嗎？
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_5027005_048
+- face:
+  - 106711
+  - 6
+- nod:
+  - 106711
+- print:
+  - 帆稀
+  - 原來如此，
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - 被妳聽到那段話了啊～……
+- wait:
+  - 55
+- print:
+  - 帆稀
+  - >2-
+
+    不過那個時候
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 我也沒有在『看』，
+- wait:
+  - 30
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 這也沒辦法～☆
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_5027005_049
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 我們
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 並沒有打算
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 在找到龍後
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 對蘭德索爾做什麼。
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - >2
+
+- face:
+  - 106711
+  - 4
+- print:
+  - 帆稀
+  - 所謂的錯誤，是指
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 地理和歷史、
+- wait:
+  - 50
+- print:
+  - 帆稀
+  - 常識和記憶，
+- wait:
+  - 50
+- print:
+  - 帆稀
+  - 以及這個世界的所有一切。
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_5027005_050
+- face:
+  - 106711
+  - 6
+- nod:
+  - 106711
+- print:
+  - 帆稀
+  - 這件事情，
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 妳應該
+- wait:
+  - 15
+- print:
+  - 帆稀
+  - 也有感覺到過吧？
+- wait:
+  - 75
+- print:
+  - 帆稀
+  - >2
+
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 這個世界
+- wait:
+  - 45
+- print:
+  - 帆稀
+  - 現在……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106611
+  - C
+  - 3
+- fadein:
+  - 106611
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_5027005_051
+- face:
+  - 106611
+  - 3
+- pop:
+  - 106611
+- print:
+  - 祈梨
+  - 現在這些事情根本不重要啦！！
+- wait:
+  - 45
+- print:
+  - 祈梨
+  - >2-
+
+    先想想這隻醜龍該怎麼辦！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106611
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- se:
+  - se_adv_earthquake_01_short
+- shake_loop: *o0
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 4.5
+- focus:
+  - 12311
+- bust:
+  - 12311
+  - 1
+- vo:
+  - vo_adv_5027005_052
+- face:
+  - 12311
+  - 1
+- print:
+  - 龍？
+  - 咕喔喔……！
+- touch: *o0
+- window_visible:
+  - false
+- shake_delete: *o0
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 103711
+  - LC
+  - 6
+- chara_full:
+  - 106511
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M290
+  - 0
+  - 0
+  - 1
+- focus:
+  - 103711
+- bust:
+  - 103711
+  - 0
+- vo:
+  - vo_adv_5027005_053
+- face:
+  - 103711
+  - 6
+- print:
+  - 智
+  - 等等！
+- wait:
+  - 20
+- print:
+  - 智
+  - 　
+- face:
+  - 103711
+  - 3
+- print:
+  - 智
+  - 牠看起來……！
+- touch: *o0
+- focus:
+  - 106511
+- bust:
+  - 106511
+  - 0
+- vo:
+  - vo_adv_5027005_054
+- face:
+  - 106511
+  - 6
+- print:
+  - 嘉夜
+  - 喔？
+- wait:
+  - 25
+- print:
+  - 嘉夜
+  - 　
+- face:
+  - 106511
+  - 1
+- print:
+  - 嘉夜
+  - 怎樣？
+- wait:
+  - 25
+- print:
+  - 嘉夜
+  - 　想打架嗎你？
+- wait:
+  - 45
+- print:
+  - 嘉夜
+  - >2
+
+- nod:
+  - 106511
+- print:
+  - 嘉夜
+  - 很好！
+- wait:
+  - 20
+- print:
+  - 嘉夜
+  - 放馬過來！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 12311
+- bust:
+  - 12311
+  - 1
+- vo:
+  - vo_adv_5027005_055
+- face:
+  - 12311
+  - 1
+- effect:
+  - 9
+- print:
+  - 龍？
+  - 嘶～～～……
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 103711
+  - C
+  - 6
+- fadein:
+  - 103711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103711
+- bust:
+  - 103711
+  - 0
+- vo:
+  - vo_adv_5027005_056
+- face:
+  - 103711
+  - 6
+- emotion:
+  - surprise1_L
+  - 103711
+  - 145
+  - 565
+  - se_adv_emote_nortice_02
+- print:
+  - 智
+  - 難道是
+- wait:
+  - 30
+- print:
+  - 智
+  - 牠襲擊營地時用的那招！？
+- wait:
+  - 40
+- print:
+  - 智
+  - >2
+
+- face:
+  - 103711
+  - 3
+- print:
+  - 智
+  - 各位，
+- wait:
+  - 15
+- print:
+  - 智
+  - 快逃！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 103711
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 龍因為嘉夜的挑釁，開始大口大口的吸氣。
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    面對即將來襲的龍之吐息，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    智跳出來擋在茉莉前面，打算要保護她。
+- touch: *o0
+- window_visible:
+  - FALSE
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

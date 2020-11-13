@@ -1,0 +1,1797 @@
+- title:
+  - 忍（萬聖節） 第3話
+- outline:
+  - 忍為了想舉辦舞會的幽靈們，準備了南瓜燈籠。忍希望大家能在舞會上玩得開心，所以舞會的成功使忍感到非常幸福。
+- background:
+  - 505032
+- amb:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 親手打造的舞會
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    在鎮上的人逐漸聚集而來之後，
+
+    萬聖節舞會終於開始了――
+- touch: &o0 []
+- window_visible:
+  - false
+- se:
+  - se_adv_earthquake_01_short
+- effect:
+  - 0013
+- shake_loop: *o0
+- wait:
+  - 45
+- shake_delete: *o0
+- effect_delete:
+  - 0013
+  - 15
+- chara_full:
+  - 108111
+  - C
+  - 1
+- fadein:
+  - 108111
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M135_Outside
+  - 0
+  - 0
+  - 1
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 0
+- vo:
+  - vo_adv_1081003_000
+- face:
+  - 108111
+  - 6
+- print:
+  - 忍
+  - 咦？　
+- wait:
+  - 30
+- print:
+  - 忍
+  - 我們也想好好地跟大家一起跳舞，
+- wait:
+  - 60
+- print:
+  - 忍
+  - 這樣啊……
+- wait:
+  - 55
+- face:
+  - 108111
+  - 1
+- nod:
+  - 108111
+- print:
+  - 忍
+  - 說得也是呢。
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 108111
+  - 6
+- emotion:
+  - notice1_L
+  - 108111
+  - -65
+  - 525
+  - se_adv_emote_common_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 0
+- vo:
+  - vo_adv_1081003_001
+- face:
+  - 108111
+  - 1
+- print:
+  - 忍
+  - 是的。
+- wait:
+  - 30
+- print:
+  - 忍
+  - 幽靈們說舞會感覺很好玩，
+- wait:
+  - 45
+- print:
+  - 忍
+  - 很羨慕大家……
+- wait:
+  - 60
+- print:
+  - 忍
+  - >2
+
+- face:
+  - 108111
+  - 4
+- print:
+  - 忍
+  - 聽他們這麼說感覺有點落寞呢。
+- touch: *o0
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 0
+- vo:
+  - vo_adv_1081003_002
+- face:
+  - 108111
+  - 1
+- print:
+  - 忍
+  - 雖然說也是可以像剛剛那樣，
+- wait:
+  - 30
+- print:
+  - 忍
+  - 讓他們附身到我身上跳舞，
+- wait:
+  - 100
+- print:
+  - 忍
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - 忍
+  - 但一次也只能讓一個人跳到舞。
+- touch: *o0
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 0
+- vo:
+  - vo_adv_1081003_003
+- face:
+  - 108111
+  - 4
+- eye_open:
+  - TRUE
+- print:
+  - 忍
+  - 實在很想幫幫大家，
+- wait:
+  - 45
+- print:
+  - 忍
+  - >2-
+
+    但是該怎麼做才好呢……
+- touch: *o0
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 0
+- vo:
+  - vo_adv_1081003_004
+- face:
+  - 108111
+  - 6
+- emotion:
+  - question1_R
+  - 108111
+  - 125
+  - 485
+  - se_adv_emote_question_01
+- print:
+  - 忍
+  - 咦？　
+- wait:
+  - 30
+- print:
+  - 忍
+  - 能讓幽靈們可以放心跳舞的地方
+- wait:
+  - 60
+- print:
+  - 忍
+  - 嗎？
+- wait:
+  - 65
+- print:
+  - 忍
+  - >2
+
+- face:
+  - 108111
+  - 2
+- nod:
+  - 108111
+- print:
+  - 忍
+  - 我知道了。
+- wait:
+  - 40
+- print:
+  - 忍
+  - 這樣的話，
+- wait:
+  - 30
+- print:
+  - 忍
+  - 我們就去那邊吧。
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - LC
+  - C
+  - 30
+- fadeout:
+  - 108111
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500264
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_mystery_03
+- chara_full:
+  - 108111
+  - RC
+  - 2
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - RC
+  - 45
+- fadein:
+  - 108111
+  - 45
+- window_visible:
+  - true
+- bgm:
+  - bgm_M137
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 0
+- vo:
+  - vo_adv_1081003_005
+- face:
+  - 108111
+  - 2
+- print:
+  - 忍
+  - 這個靈異地點，即使在靈能力者當中也沒有多少人知道。
+- wait:
+  - 135
+- print:
+  - 忍
+  - >2
+
+- pop:
+  - 108111
+- print:
+  - 忍
+  - 如果要和幽靈們跳舞的話，
+- wait:
+  - 45
+- print:
+  - 忍
+  - 這裡是最適合的地方。
+- touch: *o0
+- vo_effect:
+  - 4
+- focus:
+  - 2412
+- bust:
+  - 2412
+  - 1
+- vo:
+  - vo_adv_1081003_006
+- face:
+  - 2412
+  - 1
+- print:
+  - 骷髏老爸
+  - 忍，妳想得太週到了！　
+- wait:
+  - 45
+- print:
+  - 骷髏老爸
+  - 如果是這裡的話，不但沒人，
+- wait:
+  - 20
+- print:
+  - 骷髏老爸
+  - >2-
+
+    也超適合當作舞會會場！
+- touch: *o0
+- focus:
+  - 2412
+- bust:
+  - 2412
+  - 1
+- vo:
+  - vo_adv_1081003_007
+- face:
+  - 2412
+  - 1
+- print:
+  - 骷髏老爸
+  - 嗯……
+- wait:
+  - 30
+- print:
+  - 骷髏老爸
+  - 不過，
+- wait:
+  - 15
+- print:
+  - 骷髏老爸
+  - 既然有這機會，就要找來很多幽靈，
+- wait:
+  - 25
+- print:
+  - 骷髏老爸
+  - >2-
+
+    辦個盛大的舞會。
+- touch: *o0
+- vo_effect:
+  - 0
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 0
+- vo:
+  - vo_adv_1081003_008
+- face:
+  - 108111
+  - 1
+- print:
+  - 忍
+  - 那是……
+- wait:
+  - 60
+- face:
+  - 108111
+  - 2
+- nod:
+  - 108111
+- print:
+  - 忍
+  - 嗯，
+- wait:
+  - 30
+- print:
+  - 忍
+  - 說的也是。
+- touch: *o0
+- vo_effect:
+  - 4
+- focus:
+  - 2412
+- bust:
+  - 2412
+  - 1
+- vo:
+  - vo_adv_1081003_009
+- face:
+  - 2412
+  - 1
+- print:
+  - 骷髏老爸
+  - 那麼
+- wait:
+  - 15
+- print:
+  - 骷髏老爸
+  - 『這裡是舞會會場』得這麼去宣傳一下才行呢。
+- wait:
+  - 60
+- print:
+  - 骷髏老爸
+  - >2-
+
+    用幽靈們也能瞭解的方法。
+- touch: *o0
+- vo_effect:
+  - 0
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 0
+- vo:
+  - vo_adv_1081003_010
+- face:
+  - 108111
+  - 6
+- emotion:
+  - question1_R
+  - 108111
+  - 125
+  - 485
+  - se_adv_emote_question_01
+- print:
+  - 忍
+  - 宣傳？　
+- wait:
+  - 55
+- face:
+  - 108111
+  - 2
+- print:
+  - 忍
+  - 嗯，
+- wait:
+  - 35
+- print:
+  - 忍
+  - 這樣的話……
+- touch: *o0
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 0
+- vo:
+  - vo_adv_1081003_011
+- face:
+  - 108111
+  - 2
+- pop:
+  - 108111
+- print:
+  - 忍
+  - 我們來做南瓜燈籠吧。
+- wait:
+  - 45
+- print:
+  - 忍
+  - >2-
+
+    那是象徵萬聖節的應景道具。
+- touch: *o0
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 0
+- vo:
+  - vo_adv_1081003_012
+- face:
+  - 108111
+  - 1
+- print:
+  - 忍
+  - 而且，
+- wait:
+  - 30
+- print:
+  - 忍
+  - 那個還有可以吸引善良靈魂，
+- wait:
+  - 45
+- print:
+  - 忍
+  - 驅除惡靈的效果。
+- wait:
+  - 60
+- print:
+  - 忍
+  - >2-
+
+    我想這樣大家也會比較放心。
+- touch: *o0
+- choice:
+  - 我來幫忙。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 0
+- vo:
+  - vo_adv_1081003_013
+- face:
+  - 108111
+  - 2
+- nod:
+  - 108111
+- print:
+  - 忍
+  - 謝謝你。
+- wait:
+  - 60
+- print:
+  - 忍
+  - 那麼，我們就去附近的農場吧。
+- wait:
+  - 75
+- print:
+  - 忍
+  - >2-
+
+    還是得先準備南瓜才行呢。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 108111
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 108111
+  - C
+  - 5
+- fadein:
+  - 108111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 0
+- vo:
+  - vo_adv_1081003_014
+- face:
+  - 108111
+  - 5
+- emotion:
+  - note1_L
+  - 108111
+  - -90
+  - 480
+  - se_adv_emote_note_01
+- print:
+  - 忍
+  - 拿到了很多因為外觀破損
+- wait:
+  - 45
+- print:
+  - 忍
+  - 所以沒辦法拿去賣的南瓜耶。
+- touch: *o0
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 0
+- vo:
+  - vo_adv_1081003_015
+- face:
+  - 108111
+  - 2
+- print:
+  - 忍
+  - 雖然我是第一次做南瓜燈籠，
+- wait:
+  - 60
+- print:
+  - 忍
+  - >2-
+
+    但還是會努力加油的。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_walk_go_01
+- wait:
+  - 15
+- change:
+  - LC
+  - C
+  - 30
+- fadeout:
+  - 108111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 1
+- vo:
+  - vo_adv_1081003_016
+- face:
+  - 108111
+  - 3
+- print:
+  - 忍
+  - 嗯……嘿咻。
+- wait:
+  - 75
+- print:
+  - 忍
+  - 這邊要像
+- wait:
+  - 45
+- print:
+  - 忍
+  - 這樣
+- wait:
+  - 30
+- print:
+  - 忍
+  - 吧……
+- wait:
+  - 45
+- print:
+  - 忍
+  - 嘿。
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 108111
+  - LC
+  - 1
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - C
+  - 45
+- fadein:
+  - 108111
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 0
+- vo:
+  - vo_adv_1081003_017
+- face:
+  - 108111
+  - 1
+- print:
+  - 忍
+  - 如何呢？　
+- wait:
+  - 45
+- face:
+  - 108111
+  - 2
+- print:
+  - 忍
+  - 先完成了第一個。
+- touch: *o0
+- choice:
+  - 好恐怖！
+  - 2
+- choice:
+  - 比骷髏老爸還漂亮呢。
+  - 3
+- tag:
+  - 2
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 0
+- vo:
+  - vo_adv_1081003_018
+- face:
+  - 108111
+  - 2
+- pop:
+  - 108111
+- print:
+  - 忍
+  - 呵呵，
+- wait:
+  - 30
+- print:
+  - 忍
+  - 我就把這當作是在誇獎我吧。
+- touch: *o0
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 0
+- vo:
+  - vo_adv_1081003_019
+- face:
+  - 108111
+  - 2
+- print:
+  - 忍
+  - 想說做得誇張一點，
+- wait:
+  - 45
+- print:
+  - 忍
+  - >2-
+
+    比較適合拿來驅除惡靈。
+- wait:
+  - 95
+- print:
+  - 忍
+  - 所以刻意這麼做的。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- vo_effect:
+  - 4
+- focus:
+  - 2412
+- bust:
+  - 2412
+  - 1
+- vo:
+  - vo_adv_1081003_020
+- face:
+  - 2412
+  - 1
+- print:
+  - 骷髏老爸
+  - 比我還漂亮？　
+- wait:
+  - 45
+- print:
+  - 骷髏老爸
+  - 怎麼可能會……
+- wait:
+  - 30
+- print:
+  - 骷髏老爸
+  - 喔，嗯。
+- wait:
+  - 45
+- print:
+  - 骷髏老爸
+  - >2-
+
+    真不愧是忍，
+- wait:
+  - 45
+- print:
+  - 骷髏老爸
+  - 真的是很棒的南瓜燈籠呢。
+- touch: *o0
+- focus:
+  - 2412
+- bust:
+  - 2412
+  - 1
+- vo:
+  - vo_adv_1081003_021
+- face:
+  - 2412
+  - 1
+- print:
+  - 骷髏老爸
+  - 是說小伙子啊，
+- wait:
+  - 30
+- print:
+  - 骷髏老爸
+  - 你覺得我適合用「漂亮」兩個字來形容的嗎！？
+- wait:
+  - 45
+- print:
+  - 骷髏老爸
+  - >2-
+
+    嗚哇，
+- wait:
+  - 15
+- print:
+  - 骷髏老爸
+  - 好噁心！　
+- wait:
+  - 30
+- print:
+  - 骷髏老爸
+  - 別過來這邊！
+- touch: *o0
+- vo_effect:
+  - 0
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 0
+- vo:
+  - vo_adv_1081003_022
+- face:
+  - 108111
+  - 2
+- pop:
+  - 108111
+- print:
+  - 忍
+  - 呵呵……
+- wait:
+  - 30
+- print:
+  - 忍
+  - 爸爸，
+- wait:
+  - 30
+- print:
+  - 忍
+  - 感覺你好像很開心。
+- wait:
+  - 45
+- print:
+  - 忍
+  - 太好了呢。
+- touch: *o0
+- tag:
+  - 4
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 0
+- vo:
+  - vo_adv_1081003_023
+- face:
+  - 108111
+  - 1
+- eye_open:
+  - FALSE
+- print:
+  - 忍
+  - 因為算是很習慣雕刻了。
+- wait:
+  - 60
+- print:
+  - 忍
+  - >2
+
+- eye_open:
+  - TRUE
+- print:
+  - 忍
+  - 畢竟常會接到製作詛咒雕像的工作。
+- touch: *o0
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 0
+- vo:
+  - vo_adv_1081003_024
+- face:
+  - 108111
+  - 2
+- print:
+  - 忍
+  - 不過還請放心。
+- wait:
+  - 45
+- print:
+  - 忍
+  - 在做這個的時候沒有加上詛咒唷。
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 108111
+  - 1
+- emotion:
+  - notice1_L
+  - 108111
+  - -65
+  - 525
+  - se_adv_emote_common_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 0
+- vo:
+  - vo_adv_1081003_025
+- face:
+  - 108111
+  - 1
+- print:
+  - 忍
+  - ……啊，
+- wait:
+  - 30
+- print:
+  - 忍
+  - 這樣啊。
+- touch: *o0
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 0
+- vo:
+  - vo_adv_1081003_026
+- face:
+  - 108111
+  - 1
+- nod:
+  - 108111
+- print:
+  - 忍
+  - 不會，
+- wait:
+  - 30
+- print:
+  - 忍
+  - 不好意思。
+- wait:
+  - 45
+- print:
+  - 忍
+  - 仔細想想，
+- wait:
+  - 45
+- print:
+  - 忍
+  - >2-
+
+    我好像從來沒有用這種心情來進行雕刻呢。
+- touch: *o0
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 0
+- vo:
+  - vo_adv_1081003_027
+- face:
+  - 108111
+  - 2
+- print:
+  - 忍
+  - 像今天這樣，
+- wait:
+  - 40
+- eye_open:
+  - FALSE
+- print:
+  - 忍
+  - 想讓幽靈們開心一下……
+- wait:
+  - 110
+- print:
+  - 忍
+  - >2
+
+- eye_open:
+  - TRUE
+- print:
+  - 忍
+  - 為了其他人的幸福拿起雕刻刀，
+- wait:
+  - 75
+- print:
+  - 忍
+  - 我想都是過去從未有過的經驗。
+- touch: *o0
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 0
+- vo:
+  - vo_adv_1081003_028
+- face:
+  - 108111
+  - 2
+- print:
+  - 忍
+  - 我……
+- wait:
+  - 45
+- print:
+  - 忍
+  - 想要讓更多幽靈，
+- wait:
+  - 30
+- print:
+  - 忍
+  - 都聚集到這裡來。
+- touch: *o0
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 0
+- vo:
+  - vo_adv_1081003_029
+- face:
+  - 108111
+  - 5
+- print:
+  - 忍
+  - 然後，
+- wait:
+  - 45
+- print:
+  - 忍
+  - 如果大家都能玩得開心，
+- wait:
+  - 75
+- print:
+  - 忍
+  - 那就好了……
+- touch: *o0
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 0
+- vo:
+  - vo_adv_1081003_030
+- face:
+  - 108111
+  - 2
+- print:
+  - 忍
+  - 來，
+- wait:
+  - 30
+- print:
+  - 忍
+  - 我們繼續動手吧。
+- wait:
+  - 45
+- print:
+  - 忍
+  - >2
+
+- emotion:
+  - note1_L
+  - 108111
+  - -90
+  - 480
+  - se_adv_emote_note_01
+- print:
+  - 忍
+  - 得多做一些南瓜燈籠才行。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 108111
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 108111
+  - C
+  - 1
+- fadein:
+  - 108111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 0
+- vo:
+  - vo_adv_1081003_031
+- face:
+  - 108111
+  - 2
+- eye_open:
+  - FALSE
+- print:
+  - 忍
+  - 呼……
+- wait:
+  - 45
+- eye_open:
+  - TRUE
+- print:
+  - 忍
+  - 總算及時完成
+- wait:
+  - 30
+- print:
+  - 忍
+  - 準備了呢。
+- touch: *o0
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 0
+- vo:
+  - vo_adv_1081003_032
+- face:
+  - 108111
+  - 2
+- print:
+  - 忍
+  - 那麼，
+- wait:
+  - 30
+- print:
+  - 忍
+  - 要來點亮南瓜燈籠囉――
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+- window_visible:
+  - false
+- fadeout:
+  - 30
+- white_out:
+  - 1
+  - 1
+- amb_stop:
+  - 2
+- still_unit:
+  - 108131
+- wait:
+  - 15
+- white_in: *o0
+- amb:
+  - amb_adv_gaya_cmn_01
+- bgm:
+  - bgm_M139
+  - 0
+  - 0
+  - 1
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 1
+- vo:
+  - vo_adv_1081003_033
+- face:
+  - 108111
+  - 2
+- print:
+  - 忍
+  - 各位
+- wait:
+  - 15
+- print:
+  - 忍
+  - 晚安。
+- touch: *o0
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 1
+- vo:
+  - vo_adv_1081003_034
+- face:
+  - 108111
+  - 5
+- print:
+  - 忍
+  - 今天歡迎大家來參加萬聖節舞會，
+- wait:
+  - 60
+- print:
+  - 忍
+  - >2-
+
+    希望大家都能玩得愉快。
+- touch: *o0
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 1
+- vo:
+  - vo_adv_1081003_035
+- face:
+  - 108111
+  - 2
+- print:
+  - 忍
+  - '{0}，'
+- wait:
+  - 30
+- print:
+  - 忍
+  - 你能看得到幽靈嗎？
+- touch: *o0
+- choice:
+  - 看得到。
+  - 5
+- tag:
+  - 5
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 1
+- vo:
+  - vo_adv_1081003_036
+- face:
+  - 108111
+  - 5
+- print:
+  - 忍
+  - 太好了……
+- wait:
+  - 45
+- print:
+  - 忍
+  - 透過南瓜燈籠發出的光，
+- wait:
+  - 45
+- print:
+  - 忍
+  - >2-
+
+    好像讓大家順利地顯現在現世了。
+- touch: *o0
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 1
+- vo:
+  - vo_adv_1081003_037
+- face:
+  - 108111
+  - 2
+- print:
+  - 忍
+  - 居然能聚集到這麼多幽靈……
+- wait:
+  - 60
+- face:
+  - 108111
+  - 5
+- print:
+  - 忍
+  - 我真是太開心了。
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 1
+- vo:
+  - vo_adv_1081003_038
+- face:
+  - 311
+  - 1
+- print:
+  - 男性亡靈
+  - 喔喔～
+- wait:
+  - 30
+- print:
+  - 男性亡靈
+  - 沒想到有機會參加這種舞會！
+- wait:
+  - 45
+- print:
+  - 男性亡靈
+  - >2
+
+- face:
+  - 311
+  - 2
+- print:
+  - 男性亡靈
+  - 感覺自己好像活了過來！
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 1
+- vo:
+  - vo_adv_1081003_039
+- face:
+  - 311
+  - 1
+- print:
+  - 男性亡靈
+  - 你們就是這場舞會的主辦人嗎？
+- touch: *o0
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 1
+- vo:
+  - vo_adv_1081003_040
+- face:
+  - 108111
+  - 2
+- print:
+  - 忍
+  - 是的
+- wait:
+  - 30
+- print:
+  - 忍
+  - 沒錯。
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 1
+- vo:
+  - vo_adv_1081003_041
+- face:
+  - 311
+  - 1
+- print:
+  - 男性亡靈
+  - 謝謝你們給我們這麼棒的萬聖節！　
+- wait:
+  - 30
+- print:
+  - 男性亡靈
+  - 真的很感謝你們。
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 1
+- vo:
+  - vo_adv_1081003_042
+- face:
+  - 411
+  - 1
+- print:
+  - 女性亡靈
+  - 哎呀？　
+- wait:
+  - 15
+- print:
+  - 女性亡靈
+  - 莫非您就是骷髏頭先生？
+- wait:
+  - 45
+- print:
+  - 女性亡靈
+  - >2-
+
+    我從已經成佛的一對夫婦那邊，
+- wait:
+  - 30
+- print:
+  - 女性亡靈
+  - 有聽過您的事情唷。
+- touch: *o0
+- vo_effect:
+  - 4
+- focus:
+  - 2412
+- bust:
+  - 2412
+  - 1
+- vo:
+  - vo_adv_1081003_043
+- face:
+  - 2412
+  - 1
+- print:
+  - 骷髏老爸
+  - 呼呼喔喔喔喔……
+- wait:
+  - 45
+- print:
+  - 骷髏老爸
+  - 多、
+- wait:
+  - 15
+- print:
+  - 骷髏老爸
+  - 多麼漂亮的美女啊！
+- touch: *o0
+- vo_effect:
+  - 0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 1
+- vo:
+  - vo_adv_1081003_044
+- face:
+  - 411
+  - 1
+- print:
+  - 女性亡靈
+  - 你願意跟我跳支舞嗎？
+- touch: *o0
+- vo_effect:
+  - 4
+- focus:
+  - 2412
+- bust:
+  - 2412
+  - 1
+- vo:
+  - vo_adv_1081003_045
+- face:
+  - 2412
+  - 1
+- print:
+  - 骷髏老爸
+  - 好、好啊！　我很樂意～！！
+- touch: *o0
+- focus:
+  - 2412
+- bust:
+  - 2412
+  - 1
+- vo:
+  - vo_adv_1081003_046
+- face:
+  - 2412
+  - 1
+- print:
+  - 骷髏老爸
+  - 哦哦哦！　
+- wait:
+  - 45
+- print:
+  - 骷髏老爸
+  - 今晚是萬聖節！　
+- wait:
+  - 25
+- print:
+  - 骷髏老爸
+  - 萬聖節快樂。
+- wait:
+  - 30
+- print:
+  - 骷髏老爸
+  - >2-
+
+    來，
+- wait:
+  - 20
+- print:
+  - 骷髏老爸
+  - 開始跳舞啦！　
+- wait:
+  - 30
+- print:
+  - 骷髏老爸
+  - 今晚的主角就是我們！
+- touch: *o0
+- vo_effect:
+  - 0
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 1
+- vo:
+  - vo_adv_1081003_047
+- face:
+  - 108111
+  - 5
+- print:
+  - 忍
+  - 爸爸也真是的，
+- wait:
+  - 30
+- print:
+  - 忍
+  - 居然這麼開心……
+- wait:
+  - 30
+- print:
+  - 忍
+  - 呵呵。
+- touch: *o0
+- bgm:
+  - stop
+  - 6
+  - 1
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 1
+- vo:
+  - vo_adv_1081003_048
+- face:
+  - 108111
+  - 2
+- print:
+  - 忍
+  - 太好了……
+- wait:
+  - 45
+- print:
+  - 忍
+  - 成功看到大家臉上露出開心的笑容。
+- touch: *o0
+- bgm:
+  - bgm_M137_03
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 1
+- vo:
+  - vo_adv_1081003_049
+- face:
+  - 108111
+  - 2
+- print:
+  - 忍
+  - 那個，
+- wait:
+  - 45
+- print:
+  - 忍
+  - 我們要不要也來
+- wait:
+  - 60
+- print:
+  - 忍
+  - 跳支舞呢？
+- wait:
+  - 45
+- print:
+  - 忍
+  - >2-
+
+    難得有這個機會嘛。
+- touch: *o0
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 1
+- vo:
+  - vo_adv_1081003_050
+- face:
+  - 108111
+  - 5
+- print:
+  - 忍
+  - 那個……
+- wait:
+  - 60
+- print:
+  - 忍
+  - 都是因為{0}的關係，
+- wait:
+  - 60
+- print:
+  - 忍
+  - >2-
+
+    才讓我有辦法好好享受萬聖節。
+- touch: *o0
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 1
+- vo:
+  - vo_adv_1081003_051
+- face:
+  - 108111
+  - 5
+- print:
+  - 忍
+  - 所謂的萬聖節……
+- wait:
+  - 45
+- print:
+  - 忍
+  - 原來是如此幸福，
+- wait:
+  - 60
+- print:
+  - 忍
+  - 能讓人感到如此溫暖的節日。
+- touch: *o0
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 1
+- vo:
+  - vo_adv_1081003_052
+- face:
+  - 108111
+  - 5
+- print:
+  - 忍
+  - 今天感覺可以跟大家一起開心玩樂，
+- wait:
+  - 45
+- print:
+  - 忍
+  - 跳舞直到天明……
+- wait:
+  - 60
+- print:
+  - 忍
+  - >2-
+
+    就是會這麼想呢。
+- touch: *o0
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 1
+- vo:
+  - vo_adv_1081003_053
+- face:
+  - 108111
+  - 6
+- print:
+  - 忍
+  - 咦？　
+- wait:
+  - 30
+- print:
+  - 忍
+  - 你願意陪我嗎？　
+- wait:
+  - 60
+- face:
+  - 108111
+  - 5
+- print:
+  - 忍
+  - 我很開心，
+- wait:
+  - 45
+- print:
+  - 忍
+  - 真的。
+- touch: *o0
+- focus:
+  - 108111
+- bust:
+  - 108111
+  - 1
+- vo:
+  - vo_adv_1081003_054
+- face:
+  - 108111
+  - 5
+- print:
+  - 忍
+  - ……很謝謝你帶給我
+- wait:
+  - 45
+- print:
+  - 忍
+  - 這麼棒的萬聖節。
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    小忍一臉害羞地，與{0}牽著手，
+
+    開心地加入了幽靈們的舞會。
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- still_unit:
+  - end
+- effect_delete:
+  - 0022
+- wait:
+  - 15
+- end: *o0

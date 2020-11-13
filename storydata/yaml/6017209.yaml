@@ -1,0 +1,263 @@
+- title:
+  - 雷姆眼中的愛蜜莉雅
+- outline:
+  - ' '
+- background:
+  - 500110
+- amb:
+  - amb_adv_room_noise_day_01
+- ui_visible:
+  - false
+- situation:
+  - 雷姆眼中的愛蜜莉雅
+- chara_full:
+  - 109711
+  - C
+  - 6
+- fadein:
+  - 109711
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M229
+  - 0
+  - 0
+  - 1
+- focus:
+  - 109711
+- bust:
+  - 109711
+  - 0
+- vo:
+  - vo_adv_6017209_000
+- face:
+  - 109711
+  - 6
+- print:
+  - 雷姆
+  - 愛蜜莉雅大人嗎？　
+- wait:
+  - 45
+- face:
+  - 109711
+  - 1
+- nod:
+  - 109711
+- print:
+  - 雷姆
+  - 是的，
+- wait:
+  - 20
+- print:
+  - 雷姆
+  - 她是一位很棒的人。
+- wait:
+  - 50
+- print:
+  - 雷姆
+  - >2
+
+- face:
+  - 109711
+  - 6
+- print:
+  - 雷姆
+  - 您問我
+- wait:
+  - 35
+- print:
+  - 雷姆
+  - 優秀的地方是哪裡嗎……？
+- wait:
+  - 40
+- print:
+  - 雷姆
+  - >2
+
+- face:
+  - 109711
+  - 1
+- print:
+  - 雷姆
+  - 您覺得呢？
+- touch: &o0 []
+- choice:
+  - 她很漂亮。
+  - 1
+  - 1
+- choice:
+  - 她很善良。
+  - 2
+  - 2
+- choice:
+  - 她很強。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 109711
+- bust:
+  - 109711
+  - 0
+- vo:
+  - vo_adv_6017209_001
+- face:
+  - 109711
+  - 1
+- nod:
+  - 109711
+- print:
+  - 雷姆
+  - 是的。
+- wait:
+  - 20
+- face:
+  - 109711
+  - 4
+- print:
+  - 雷姆
+  - 不過，
+- wait:
+  - 15
+- print:
+  - 雷姆
+  - 她也因為精靈族的美貌
+- wait:
+  - 40
+- eye_open:
+  - False
+- print:
+  - 雷姆
+  - 而吃了不少苦頭。
+- wait:
+  - 40
+- print:
+  - 雷姆
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 雷姆
+  - 還請您不要單用外表
+- wait:
+  - 30
+- print:
+  - 雷姆
+  - 來評斷愛蜜莉雅大人。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 109711
+- bust:
+  - 109711
+  - 0
+- vo:
+  - vo_adv_6017209_002
+- face:
+  - 109711
+  - 1
+- print:
+  - 雷姆
+  - 是的，
+- wait:
+  - 20
+- print:
+  - 雷姆
+  - 她是一位很善良的人。
+- wait:
+  - 55
+- print:
+  - 雷姆
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 雷姆
+  - 正因為這樣，
+- wait:
+  - 30
+- print:
+  - 雷姆
+  - 昴他才會……
+- wait:
+  - 45
+- print:
+  - 雷姆
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 雷姆
+  - 不，
+- wait:
+  - 25
+- face:
+  - 109711
+  - 2
+- print:
+  - 雷姆
+  - 沒事……
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 109711
+- bust:
+  - 109711
+  - 0
+- vo:
+  - vo_adv_6017209_003
+- face:
+  - 109711
+  - 1
+- print:
+  - 雷姆
+  - 愛蜜莉雅大人她和大精靈大人締結契約，
+- wait:
+  - 55
+- print:
+  - 雷姆
+  - >2-
+
+    在露格尼卡也是首屈一指的精靈術士。
+- wait:
+  - 60
+- print:
+  - 雷姆
+  - >2
+
+- nod:
+  - 109711
+- print:
+  - 雷姆
+  - 還請您千萬不得無禮。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 109711
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

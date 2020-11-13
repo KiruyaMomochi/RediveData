@@ -1,0 +1,2359 @@
+- title:
+  - 被解放的魔物們
+- outline:
+  - 各自趕到與魔物戰鬥著的栞的身邊的{0}與初音。見到即使受到攻擊仍能自行恢復的魔物的３人，解開了圖鑑並發現書籤原來就是封印魔物的鑰匙。
+- background:
+  - 500191
+- amb:
+  - amb_adv_outdoors_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 被解放的魔物們
+- vo_effect:
+  - 3
+- change_window:
+  - 2
+- window_visible:
+  - true
+- bgm:
+  - bgm_M17
+  - 0
+  - 0
+  - 1
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_5001004_000
+- face:
+  - 103811
+  - 1
+- print:
+  - 栞
+  - 姐姐──！
+- touch: &o0 []
+- window_visible:
+  - false
+- vo_effect:
+  - 0
+- change_window:
+  - 1
+- chara_full:
+  - 101211
+  - C
+  - 6
+- fadein:
+  - 101211
+  - 30
+- effect:
+  - 0012
+  - se_adv_flash_01
+- shake:
+  - 101211
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_5001004_001
+- face:
+  - 101211
+  - 6
+- print:
+  - 初音
+  - 小栞有危險了！
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 101211
+  - 3
+- wait:
+  - 30
+- effect:
+  - 0006
+  - se_adv_magic_hatsune_01
+- white_out:
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- background:
+  - 500151
+- fadeout:
+  - 101211
+  - 5
+- effect_delete:
+  - 0006
+- wait:
+  - 15
+- white_in: *o0
+- amb:
+  - amb_adv_pasture_01
+- chara_full:
+  - 101211
+  - C
+  - 4
+- se:
+  - se_adv_magic_cmn_warp_01
+- fadein:
+  - 101211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_5001004_002
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - 小栞！咦，奇怪！？剛才確實聽到聲音了……
+- wait:
+  - 90
+- print:
+  - 初音
+  - >2-
+
+    小栞在哪裡！？啊，欸……這是我送給她的圖鑑魔物？
+- wait:
+  - 90
+- touch: *o0
+- choice:
+  - 初音？
+  - 1
+- choice:
+  - 妳怎麼會在這裡？
+  - 2
+- tag:
+  - 1
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_5001004_003
+- face:
+  - 101211
+  - 6
+- print:
+  - 初音
+  - 啊，{0}！
+- wait:
+  - 15
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 4
+- jump:
+  - 101211
+- print:
+  - 初音
+  - 小栞呢！？小栞在哪裡！？
+- wait:
+  - 30
+- print:
+  - 初音
+  - >2-
+
+    她可能有危險了！
+- touch: *o0
+- goto:
+  - 3
+- tag:
+  - 2
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_5001004_004
+- face:
+  - 101211
+  - 6
+- print:
+  - 初音
+  - 啊，{0}！
+- wait:
+  - 15
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - 我聽見了小栞呼喊的聲音，用超能力飛過來了！
+- wait:
+  - 75
+- print:
+  - 初音
+  - >2-
+
+    欸，小栞在哪裡！？
+- touch: *o0
+- tag:
+  - 3
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_5001004_005
+- face:
+  - 101211
+  - 4
+- eye_open:
+  - FALSE
+- print:
+  - 初音
+  - 我，要是我能早點過來的話……！
+- wait:
+  - 45
+- touch: *o0
+- choice:
+  - 肯定就在附近的。
+  - 4
+- tag:
+  - 4
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_5001004_006
+- face:
+  - 101211
+  - 4
+- eye_open:
+  - TRUE
+- print:
+  - 初音
+  - 嗯……說得也是。我應該要趕緊找她而不是一直在這哭著……
+- wait:
+  - 75
+- print:
+  - 初音
+  - >2-
+
+    小栞……小栞！妳在哪裡―！？
+- wait:
+  - 75
+- touch: *o0
+- focus:
+  - 103812
+- bust:
+  - 103812
+  - 1
+- vo:
+  - vo_adv_5001004_007
+- face:
+  - 103812
+  - 3
+- print:
+  - 栞
+  - ──呀！　
+- wait:
+  - 30
+- print:
+  - 栞
+  - 哎！
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_5001004_008
+- face:
+  - 101211
+  - 6
+- emotion:
+  - exclamation1_R
+  - 101211
+  - 5
+  - 635
+  - se_adv_emote_common_01
+- print:
+  - 初音
+  - 是小栞的聲音！
+- wait:
+  - 30
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 3
+- print:
+  - 初音
+  - 是從那裡傳來的！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 3
+  - 1
+- se:
+  - se_adv_step_dirt_run_go_01
+- out_R:
+  - 101211
+  - 45
+  - true
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500171
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_forest_01
+- se:
+  - se_adv_creature_majin_01
+- window_visible:
+  - true
+- bgm:
+  - bgm_M17_02
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 1
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物群
+  - ──咕哦哦哦哦哦！
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 103812
+  - C
+  - 3
+- fadein:
+  - 103812
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103812
+- bust:
+  - 103812
+  - 0
+- vo:
+  - vo_adv_5001004_009
+- face:
+  - 103812
+  - 3
+- print:
+  - 栞
+  - 啊
+- nod:
+  - 103812
+- print:
+  - 栞
+  - ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 103812
+  - 30
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0002
+  - se_adv_weapon_arrow_fly_01
+  - 30
+- effect:
+  - 0045
+- wait:
+  - 5
+- effect:
+  - 0002
+  - se_adv_weapon_arrow_fly_01
+  - 0
+- wait:
+  - 15
+- background:
+  - 500171
+- chara_full:
+  - 1614
+  - C
+  - 1
+- fadein:
+  - 1614
+  - 30
+- se:
+  - se_adv_weapon_punch_hit_01
+- shake:
+  - 1614
+- window_visible:
+  - true
+- se:
+  - se_adv_creature_majin_02
+- focus:
+  - 1614
+- bust:
+  - 1614
+  - 0
+- face:
+  - 1614
+  - 1
+- print:
+  - 魔物１
+  - ──嘰哦哦哦哦哦！
+- touch: *o0
+- window_visible:
+  - false
+- updown:
+  - 1614
+  - 0
+  - -150
+  - 0.2
+- se:
+  - se_adv_bodyfall_01
+- fadeout:
+  - 1614
+  - 30
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- wait:
+  - 10
+- window_visible:
+  - true
+- focus:
+  - 103812
+- bust:
+  - 103812
+  - 1
+- vo:
+  - vo_adv_5001004_010
+- face:
+  - 103812
+  - 2
+- print:
+  - 栞
+  - 好！　
+- wait:
+  - 30
+- print:
+  - 栞
+  - 打倒它了──！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0008
+  - se_adv_magic_cmn_healing_medium_01
+- chara_full:
+  - 1614
+  - C
+  - 1
+- fadein:
+  - 1614
+  - 60
+- wait:
+  - 15
+- se:
+  - se_adv_creature_majin_03
+- window_visible:
+  - true
+- focus:
+  - 1614
+- bust:
+  - 1614
+  - 0
+- face:
+  - 1614
+  - 1
+- effect:
+  - 9
+- print:
+  - 魔物１
+  - ──咕哦哦哦哦哦！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1614
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 103812
+  - C
+  - 6
+- fadein:
+  - 103812
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103812
+- bust:
+  - 103812
+  - 0
+- vo:
+  - vo_adv_5001004_011
+- face:
+  - 103812
+  - 6
+- emotion:
+  - surprise1_L
+  - 103812
+  - 170
+  - 545
+  - se_adv_emote_common_01
+- print:
+  - 栞
+  - 什麼！？恢、恢復回來了！？怎麼會！？
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 103812
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 1
+- vo:
+  - vo_adv_5001004_012
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - ……栞！小栞！
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 103812
+  - RC
+  - 4
+- fadein:
+  - 103812
+  - 30
+- se:
+  - se_adv_step_leaves_run_come_01
+- wait:
+  - 15
+- chara_full:
+  - 101211
+  - LC
+  - 4
+- in_L:
+  - 101211
+  - 30
+  - true
+- window_visible:
+  - true
+- focus:
+  - 103812
+- bust:
+  - 103812
+  - 0
+- vo:
+  - vo_adv_5001004_013
+- face:
+  - 103812
+  - 6
+- emotion:
+  - notice1_L
+  - 103812
+  - -53
+  - 530
+  - se_adv_emote_common_01
+- print:
+  - 栞
+  - 姊姊──
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 103812
+  - 15
+- chara_full:
+  - 103811
+  - RC
+  - 6
+- fadein:
+  - 103811
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_5001004_014
+- face:
+  - 101211
+  - 2
+- print:
+  - 初音
+  - 小栞！妳沒事太好了～！
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- focus:
+  - 101211:103811
+- se:
+  - se_adv_jump_and_hug_01
+- pop:
+  - 101211
+- face:
+  - 103811
+  - 6
+- shake:
+  - 103811
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_5001004_015
+- face:
+  - 103811
+  - 4
+- print:
+  - 栞
+  - 唔……姊姊，現在不是做這種事的時候啊……
+- wait:
+  - 75
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_5001004_016
+- face:
+  - 101211
+  - 6
+- print:
+  - 初音
+  - 啊！說得對！
+- wait:
+  - 45
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 2
+- print:
+  - 初音
+  - 不過沒事的！姐姐我會用魔法來打敗它的！
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_5001004_017
+- face:
+  - 101211
+  - 1
+- print:
+  - 初音
+  - 閃亮亮☆ 包在我身上吧！
+- wait:
+  - 60
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 2
+- print:
+  - 初音
+  - 嘿──噫！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1.5
+- fadeout_all:
+  - 30
+- bgm:
+  - bgm_M03
+  - 0
+  - 0
+  - 1
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 1614
+  - C
+  - 1
+- fadein:
+  - 1614
+  - 30
+- wait:
+  - 5
+- effect:
+  - 0072
+  - se_adv_magic_cmn_medium_02
+- shake:
+  - 1614
+- wait:
+  - 30
+- effect:
+  - 0008
+  - se_adv_magic_cmn_healing_medium_01
+- wait:
+  - 45
+- se:
+  - se_adv_creature_majin_01
+- window_visible:
+  - true
+- focus:
+  - 1614
+- bust:
+  - 1614
+  - 0
+- face:
+  - 1614
+  - 1
+- effect:
+  - 9
+- print:
+  - 魔物１
+  - ──咕哦哦哦哦哦！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1614
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 101211
+  - LC
+  - 6
+- chara_full:
+  - 103811
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_5001004_018
+- face:
+  - 101211
+  - 6
+- emotion:
+  - sweat2_R
+  - 101211
+  - 80
+  - 520
+  - se_adv_emote_sweat_02
+- print:
+  - 初音
+  - 咦咦！？為、為什麼打不倒它！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_5001004_019
+- face:
+  - 103811
+  - 4
+- print:
+  - 栞
+  - 箭矢的傷害也能夠馬上恢復過來……
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_5001004_020
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - 沒聽說過有這種魔物啊！會是從哪裡冒出來的。
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_5001004_021
+- face:
+  - 103811
+  - 4
+- print:
+  - 栞
+  - 是……是從那本圖鑑裡突然冒出來的……
+- wait:
+  - 25
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_5001004_022
+- face:
+  - 101211
+  - 6
+- emotion:
+  - surprise1_L
+  - 101211
+  - 145
+  - 545
+  - se_adv_emote_common_01
+- print:
+  - 初音
+  - 從那本書！？這是怎麼回事！？
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_5001004_023
+- face:
+  - 103811
+  - 1
+- print:
+  - 栞
+  - 我想肯定能從書裡找到什麼頭緒，
+- wait:
+  - 75
+- print:
+  - 栞
+  - >2
+
+- face:
+  - 103811
+  - 4
+- print:
+  - 栞
+  - 但我拼命從魔物那裡逃開卻把書給丟在一旁了……
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_5001004_024
+- face:
+  - 101211
+  - 1
+- print:
+  - 初音
+  - 好！既然這樣那我們就把書給拿回來……
+- wait:
+  - 75
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - 啊啊，但也不能放著小栞在這裡不管啊！
+- wait:
+  - 15
+- touch: *o0
+- choice:
+  - 我留下來。
+  - 5
+- tag:
+  - 5
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_5001004_025
+- face:
+  - 101211
+  - 6
+- emotion:
+  - twinkle1_R
+  - 101211
+  - 130
+  - 490
+  - se_adv_emote_twinkle_01
+- print:
+  - 初音
+  - '{0}！　謝謝你！'
+- wait:
+  - 10
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 1
+- print:
+  - 初音
+  - 小栞，
+- wait:
+  - 15
+- print:
+  - 初音
+  - 我馬上就會回來的！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_leaves_run_go_01
+- out_L:
+  - 101211
+  - 30
+  - true
+- wait:
+  - 15
+- change:
+  - C
+  - RC
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_5001004_026
+- face:
+  - 103811
+  - 4
+- print:
+  - 栞
+  - 對不起
+- wait:
+  - 30
+- print:
+  - 栞
+  - '{0}，把你給捲進來了。'
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 103811
+  - 15
+- chara_full:
+  - 103812
+  - C
+  - 3
+- fadein:
+  - 103812
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 103812
+- bust:
+  - 103812
+  - 0
+- vo:
+  - vo_adv_5001004_027
+- face:
+  - 103812
+  - 3
+- print:
+  - 栞
+  - 在姊姊回來這裡之前，就拜託你了！
+- wait:
+  - 30
+- touch: *o0
+- se:
+  - se_adv_creature_majin_02
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 1
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物群
+  - ──咕哦哦哦哦哦！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 103812
+  - 30
+- bgm:
+  - stop
+  - 3
+  - 1
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500151
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_pasture_01
+- se:
+  - se_adv_step_dirt_run_come_01
+- bgm:
+  - bgm_M14
+- wait:
+  - 15
+- chara_full:
+  - 101211
+  - C
+  - 4
+- in_R:
+  - 101211
+  - 45
+  - true
+- window_visible:
+  - true
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_5001004_028
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - 呼、呼……記得、是放在這附近……找到了！
+- wait:
+  - 90
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_papers_blow
+- fadeout:
+  - 101211
+  - 30
+- amb_stop:
+  - 0.5
+- black_out:
+  - 1
+  - 1
+- battle: *o0
+- background:
+  - 500151
+- wait:
+  - 15
+- black_in: *o0
+- amb:
+  - amb_adv_pasture_01
+- chara_full:
+  - 101211
+  - C
+  - 4
+- fadein:
+  - 101211
+  - 30
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_5001004_029
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - 唔，跑走了……不、不過這圖鑑裡一定有記載什麼方法吧！
+- wait:
+  - 90
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 101211
+  - 1
+- nod:
+  - 101211
+- se:
+  - se_adv_magazine_flap_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_5001004_030
+- face:
+  - 101211
+  - 6
+- print:
+  - 初音
+  - ……這、這是古代語！？我看不懂啊～！
+- wait:
+  - 45
+- print:
+  - 初音
+  - >2-
+
+    感覺小栞……能讀得懂！如果是小栞的話！
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_5001004_031
+- face:
+  - 101211
+  - 3
+- print:
+  - 初音
+  - 我必須趕快回去了！欸，書和……書籤也在這裡！
+- wait:
+  - 75
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 1
+- print:
+  - 初音
+  - 等等我哦，小栞、{0}！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0006
+  - se_adv_magic_hatsune_01
+- bgm:
+  - stop
+  - 3
+- white_out:
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- background:
+  - 500171
+- fadeout:
+  - 101211
+  - 5
+- effect_delete:
+  - 0006
+- wait:
+  - 15
+- white_in: *o0
+- bgm:
+  - bgm_M25
+  - 0
+  - 0
+  - 1
+- amb:
+  - amb_adv_forest_01
+- chara_full:
+  - 103812
+  - RC
+  - 3
+- fadein:
+  - 103812
+  - 30
+- se:
+  - se_adv_step_leaves_run_come_01
+- wait:
+  - 15
+- chara_full:
+  - 101211
+  - LC
+  - 1
+- in_L:
+  - 101211
+  - 30
+  - true
+- window_visible:
+  - true
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_5001004_032
+- face:
+  - 101211
+  - 1
+- print:
+  - 初音
+  - 小栞！　
+- wait:
+  - 30
+- print:
+  - 初音
+  - '{0}！　久等了ー！'
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 103812
+  - 15
+- chara_full:
+  - 103811
+  - RC
+  - 2
+- se:
+  - se_adv_step_leaves_move_01
+- fadein:
+  - 103811
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_5001004_033
+- face:
+  - 103811
+  - 2
+- print:
+  - 栞
+  - 姊姊。知道了些什麼嗎？
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_5001004_034
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - 抱歉小栞，我看不懂書上所寫的古代語……
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_5001004_035
+- face:
+  - 103811
+  - 2
+- print:
+  - 栞
+  - 不……姊姊能幫我把書拿回來，謝謝妳。
+- wait:
+  - 60
+- print:
+  - 栞
+  - >2
+
+- face:
+  - 103811
+  - 3
+- print:
+  - 栞
+  - 這本書在哪裡一定寫有把魔物封印起來的方法……
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_5001004_036
+- face:
+  - 101211
+  - 1
+- print:
+  - 初音
+  - 小栞目前讀到的內容裡，有提過那樣的事情嗎？
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_5001004_037
+- face:
+  - 103811
+  - 4
+- print:
+  - 栞
+  - 就我的印象裡面好像沒這麼寫……等一下。
+- wait:
+  - 135
+- print:
+  - 栞
+  - >2-
+
+    還有最後一個部分還沒讀到，可能是寫在後面……
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- nod:
+  - 103811
+- se:
+  - se_adv_paper_move_04
+- wait:
+  - 15
+- fadeout_all:
+  - 30
+- black_out:
+  - 1
+  - 0.5
+- bright_change:
+  - 1
+  - 50
+- still:
+  - 500100401
+- black_in: *o0
+- window_visible:
+  - true
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 1
+- vo:
+  - vo_adv_5001004_038
+- face:
+  - 103811
+  - 6
+- print:
+  - 栞
+  - 有了！……這是一本將魔物封印在裡面的圖鑑……
+- wait:
+  - 120
+- print:
+  - 栞
+  - >2
+
+- face:
+  - 103811
+  - 3
+- print:
+  - 栞
+  - ……書籤是封印魔物的鑰匙，遠離了這本圖鑑魔法效力就會減弱，
+- wait:
+  - 150
+- print:
+  - 栞
+  - >2-
+
+    魔物便會從圖鑑中解放出來……
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 1
+- vo:
+  - vo_adv_5001004_039
+- face:
+  - 101211
+  - 6
+- print:
+  - 初音
+  - 鑰匙？是書籤嗎？
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- black_out:
+  - 1
+  - 0.5
+- still:
+  - end
+  - 500100401
+- bright_change:
+  - 1
+  - 100
+- wait:
+  - 5
+- black_in: *o0
+- chara_full:
+  - 103811
+  - RC
+  - 1
+- chara_full:
+  - 101211
+  - LC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_5001004_040
+- face:
+  - 103811
+  - 1
+- print:
+  - 栞
+  - 嗯……我想可能是我把那個書籤，夾在其他喜歡的書裡了，
+- wait:
+  - 60
+- print:
+  - 栞
+  - >2
+
+- face:
+  - 103811
+  - 4
+- print:
+  - 栞
+  - 魔法效果才會因此減弱了。
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_5001004_041
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - 原來是這麼重要的東西嗎……
+- wait:
+  - 75
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 1
+- print:
+  - 初音
+  - 然後呢？有將它再次封印住的方法嗎？
+- wait:
+  - 15
+- touch: *o0
+- se:
+  - se_adv_paper_move_04
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_5001004_042
+- face:
+  - 103811
+  - 1
+- print:
+  - 栞
+  - 等我一下……啊，應該……是這個吧。
+- wait:
+  - 120
+- print:
+  - 栞
+  - >2
+
+- face:
+  - 103811
+  - 1
+- print:
+  - 栞
+  - 要將魔物再次封印，就必須讓書籤
+- wait:
+  - 75
+- print:
+  - 栞
+  - >2-
+
+    觸碰到魔物才行……
+- touch: *o0
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_5001004_043
+- face:
+  - 103811
+  - 6
+- print:
+  - 栞
+  - 原來如此，這個書籤就是封印魔法的術式嗎！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_5001004_044
+- face:
+  - 101211
+  - 1
+- print:
+  - 初音
+  - 那麼只要讓這個書籤碰到魔物的話！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_5001004_045
+- face:
+  - 103811
+  - 2
+- print:
+  - 栞
+  - 就能再次，將它封印起來了……！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_5001004_046
+- face:
+  - 101211
+  - 2
+- jump:
+  - 101211
+- print:
+  - 初音
+  - 太好了──！厲害，小栞妳太厲害了！
+- wait:
+  - 45
+- touch: *o0
+- choice:
+  - 我、我快到極限了……
+  - 6
+- tag:
+  - 6
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_5001004_047
+- face:
+  - 101211
+  - 4
+- emotion:
+  - sweat2_R
+  - 101211
+  - 80
+  - 520
+  - se_adv_emote_sweat_02
+- print:
+  - 初音
+  - 哇ー！　
+- wait:
+  - 20
+- print:
+  - 初音
+  - 小、
+- wait:
+  - 15
+- print:
+  - 初音
+  - 小栞！　
+- wait:
+  - 15
+- print:
+  - 初音
+  - '{0}他！'
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1.5
+  - 1
+- fadeout:
+  - 103811
+  - 15
+- chara_full:
+  - 103812
+  - RC
+  - 3
+- fadein:
+  - 103812
+  - 15
+- window_visible:
+  - true
+- bgm:
+  - bgm_M41
+- focus:
+  - 103812
+- bust:
+  - 103812
+  - 0
+- vo:
+  - vo_adv_5001004_048
+- face:
+  - 103812
+  - 3
+- print:
+  - 栞
+  - '{0}，'
+- wait:
+  - 30
+- print:
+  - 栞
+  - 請快趴下！
+- wait:
+  - 30
+- print:
+  - 栞
+  - >2-
+
+    我要把書籤綁在箭矢上射出去了！
+- touch: *o0
+- se:
+  - se_adv_weapon_arrow_loading_middle_01
+- focus:
+  - 103812
+- bust:
+  - 103812
+  - 0
+- vo:
+  - vo_adv_5001004_049
+- face:
+  - 103812
+  - 3
+- print:
+  - 栞
+  - 喝啊啊啊！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- effect:
+  - 0002
+  - se_adv_weapon_arrow_fly_01
+- effect:
+  - 0045
+- wait:
+  - 30
+- se:
+  - se_adv_creature_majin_03
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物１
+  - ──嘰哦哦哦哦哦！
+- sway:
+  - 1611
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0070
+  - se_adv_magic_dark_medium_01
+- wait:
+  - 30
+- effect:
+  - 0024
+  - se_adv_smokeball_01
+- fadeout:
+  - 1611
+  - 15
+- wait:
+  - 40
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 103812
+  - RC
+  - 3
+- chara_full:
+  - 101211
+  - LC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103812
+- bust:
+  - 103812
+  - 0
+- vo:
+  - vo_adv_5001004_050
+- face:
+  - 103812
+  - 2
+- print:
+  - 栞
+  - 封印……成功……還有一隻！
+- wait:
+  - 75
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_5001004_051
+- face:
+  - 101211
+  - 1
+- print:
+  - 初音
+  - 回收箭矢就交給我來吧！來，小栞！魔力傳遞！
+- wait:
+  - 75
+- touch: *o0
+- window_visible:
+  - false
+- focus:
+  - 103812
+- effect:
+  - 0072
+  - se_adv_magic_cmn_medium_02
+  - 0
+  - RC
+- wait:
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 103812
+- bust:
+  - 103812
+  - 0
+- vo:
+  - vo_adv_5001004_052
+- face:
+  - 103812
+  - 2
+- print:
+  - 栞
+  - 姊姊，謝謝妳了。
+- wait:
+  - 60
+- print:
+  - 栞
+  - >2
+
+- face:
+  - 103812
+  - 3
+- print:
+  - 栞
+  - ……嘶――、喝――……喝呀
+- se:
+  - se_adv_weapon_arrow_shot_small_01
+- print:
+  - 栞
+  - ！
+- wait:
+  - 150
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- effect:
+  - 0002
+  - se_adv_weapon_arrow_fly_01
+  - 40
+- effect:
+  - 0045
+- wait:
+  - 30
+- se:
+  - se_adv_creature_majin_02
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物２
+  - ──嘰哦哦哦哦哦！
+- sway:
+  - 1611
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 3
+- effect:
+  - 0070
+  - se_adv_magic_dark_medium_01
+- wait:
+  - 30
+- effect:
+  - 0024
+  - se_adv_smokeball_01
+- fadeout:
+  - 1611
+  - 15
+- wait:
+  - 40
+- chara_full:
+  - 103811
+  - RC
+  - 1
+- chara_full:
+  - 101211
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- bgm:
+  - bgm_M34
+  - 0
+  - 0
+  - 1
+- window_visible:
+  - true
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_5001004_053
+- face:
+  - 103811
+  - 1
+- print:
+  - 栞
+  - 呼……擺脫危機了，應該是吧……從書裡逃出來的魔物有三隻。
+- wait:
+  - 150
+- print:
+  - 栞
+  - >2-
+
+    得再找到最後一隻才行。
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_5001004_054
+- face:
+  - 101211
+  - 6
+- emotion:
+  - notice1_L
+  - 101211
+  - -75
+  - 545
+  - se_adv_emote_common_01
+- print:
+  - 初音
+  - 咦？小栞妳有看到那一隻魔物鳥嗎？
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_5001004_055
+- face:
+  - 103811
+  - 6
+- emotion:
+  - question1_R
+  - 103811
+  - 120
+  - 510
+  - se_adv_emote_question_01
+- print:
+  - 栞
+  - 魔物鳥？沒有，和出現在我面前的不太一樣……怎麼回事？
+- wait:
+  - 90
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_5001004_056
+- face:
+  - 101211
+  - 1
+- print:
+  - 初音
+  - 剛才去取書的時候，那隻魔物鳥就跑了出來，
+- wait:
+  - 75
+- print:
+  - 初音
+  - >2
+
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - 它大概逃到哪裡去了吧……
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_tickle_01
+- shake:
+  - 101211
+- wait:
+  - 15
+- eye_open:
+  - FALSE
+- se:
+  - se_adv_littering_01
+- updown:
+  - 101211
+  - 0
+  - -100
+  - 0.2
+- fadeout:
+  - 101211
+  - 15
+- focus:
+  - 103811
+- face:
+  - 103811
+  - 6
+- se:
+  - se_adv_bodyfall_02
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- change:
+  - C
+  - RC
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_5001004_057
+- face:
+  - 103811
+  - 4
+- print:
+  - 栞
+  - 姊、姊姊！？
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 1
+  - 1
+- vo:
+  - vo_adv_5001004_058
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - 呼……對不起哦小栞、{0}……
+- wait:
+  - 105
+- print:
+  - 初音
+  - >2-
+
+    超能力用過了頭……睡意湧上來了……
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 1
+  - 1
+- vo:
+  - vo_adv_5001004_059
+- face:
+  - 101211
+  - 4
+- print:
+  - 初音
+  - '{0}……'
+- wait:
+  - 45
+- print:
+  - 初音
+  - 小栞就……
+- wait:
+  - 45
+- print:
+  - 初音
+  - 拜託你了……
+- wait:
+  - 75
+- print:
+  - 初音
+  - 呼嚕……
+- touch: *o0
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_5001004_060
+- face:
+  - 103811
+  - 4
+- print:
+  - 栞
+  - 姊姊……
+- wait:
+  - 30
+- face:
+  - 103811
+  - 2
+- print:
+  - 栞
+  - 好好休息吧。
+- wait:
+  - 75
+- print:
+  - 栞
+  - >2
+
+- face:
+  - 103811
+  - 1
+- print:
+  - 栞
+  - '{0}，'
+- wait:
+  - 30
+- print:
+  - 栞
+  - 就由我們來追擊逃跑的魔物吧。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 103811
+  - 30
+- chara_full:
+  - 103811
+  - C
+  - 1
+- scale:
+  - 103811
+  - 1.3
+  - 2
+- se:
+  - se_adv_step_leaves_move_01
+- fadein:
+  - 103811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_5001004_061
+- face:
+  - 103811
+  - 1
+- print:
+  - 栞
+  - 你看……圖鑑上還有兩隻是空白的……
+- wait:
+  - 120
+- print:
+  - 栞
+  - >2
+
+- face:
+  - 103811
+  - 3
+- print:
+  - 栞
+  - 這邊是我看到的魔物，姊姊看到的是……應該是席茲吧。
+- wait:
+  - 105
+- touch: *o0
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_5001004_062
+- face:
+  - 103811
+  - 4
+- print:
+  - 栞
+  - 這是非常難應付的魔物……我們追丟的魔物也是
+- wait:
+  - 90
+- print:
+  - 栞
+  - >2-
+
+    相當凶猛的肉食獸……我們趕緊去將它封印起來吧。
+- wait:
+  - 60
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 103811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    {0}把睡著的初音背了起來，
+
+    和小栞一同前去封印魔物。
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

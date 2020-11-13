@@ -1,0 +1,309 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500740
+- amb:
+  - amb_adv_room_noise_01
+- ui_visible:
+  - FALSE
+- situation:
+  - あだ名つけてくんない
+- chara_full:
+  - 110811
+  - C
+  - 1
+- fadein:
+  - 110811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M255
+  - 0
+  - 0
+  - 1
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_6023109_000
+- face:
+  - 110811
+  - 1
+- print:
+  - クロエ
+  - どーでもいいけど、
+- wait:
+  - 30
+- print:
+  - クロエ
+  - >2-
+
+    チエルのこと
+- wait:
+  - 10
+- print:
+  - クロエ
+  - 誰も「ちえるん」って呼んでないのマジウケるな。
+- wait:
+  - 70
+- print:
+  - クロエ
+  - >2
+
+- face:
+  - 110811
+  - 6
+- print:
+  - クロエ
+  - ハ？　
+- wait:
+  - 30
+- print:
+  - クロエ
+  - うちのあだ名？　
+- wait:
+  - 30
+- face:
+  - 110811
+  - 1
+- print:
+  - クロエ
+  - べつにないけど……
+- wait:
+  - 45
+- print:
+  - クロエ
+  - なんかいい案あるの。
+- touch: &o0 []
+- choice:
+  - クロちゃん。
+  - 1
+  - 1
+- choice:
+  - 黒き夜の疾風。
+  - 2
+  - 2
+- choice:
+  - 愛想わる子。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_6023109_001
+- face:
+  - 110811
+  - 1
+- eye_open:
+  - False
+- print:
+  - クロエ
+  - ふつー。
+- wait:
+  - 15
+- print:
+  - クロエ
+  - １０点。
+- wait:
+  - 15
+- print:
+  - クロエ
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - クロエ
+  - こちらからは以上です。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_6023109_002
+- face:
+  - 110811
+  - 7
+- print:
+  - クロエ
+  - ええ？　
+- wait:
+  - 5
+- print:
+  - クロエ
+  - 何ソレ、
+- wait:
+  - 10
+- print:
+  - クロエ
+  - はっず。
+- wait:
+  - 20
+- print:
+  - クロエ
+  - 黒き……
+- wait:
+  - 20
+- nod:
+  - 110811
+- print:
+  - クロエ
+  - >-
+    え、なんて？
+
+    ちょ、もっかい言って。
+- wait:
+  - 25
+- face:
+  - 110811
+  - 1
+- print:
+  - クロエ
+  - 黒き夜の疾風。
+- wait:
+  - 70
+- print:
+  - クロエ
+  - ふーん。
+- wait:
+  - 75
+- print:
+  - クロエ
+  - >2-
+
+    まあ、いいけど……
+- wait:
+  - 35
+- face:
+  - 110811
+  - 2
+- print:
+  - クロエ
+  - てゆか、
+- wait:
+  - 30
+- print:
+  - クロエ
+  - いいじゃん。
+- wait:
+  - 20
+- print:
+  - クロエ
+  - ７兆点、
+- wait:
+  - 20
+- print:
+  - クロエ
+  - 優勝。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_6023109_003
+- face:
+  - 110811
+  - 2
+- print:
+  - クロエ
+  - へー、
+- wait:
+  - 5
+- print:
+  - クロエ
+  - ウケる。面白いこと言うじゃん。
+- wait:
+  - 35
+- print:
+  - クロエ
+  - >2
+
+- face:
+  - 110811
+  - 1
+- print:
+  - クロエ
+  - で、
+- wait:
+  - 5
+- print:
+  - クロエ
+  - 誰だ。
+- wait:
+  - 25
+- print:
+  - クロエ
+  - 誰に吹きこまれた。
+- wait:
+  - 20
+- print:
+  - クロエ
+  - チエルか。
+- wait:
+  - 10
+- print:
+  - クロエ
+  - チエルが言ったのか。
+- wait:
+  - 20
+- print:
+  - クロエ
+  - >2
+
+- nod:
+  - 110811
+- print:
+  - クロエ
+  - よし、
+- wait:
+  - 10
+- print:
+  - クロエ
+  - ちょっと呼んでこい。
+- wait:
+  - 25
+- print:
+  - クロエ
+  - いいから呼んでこい。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 110811
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

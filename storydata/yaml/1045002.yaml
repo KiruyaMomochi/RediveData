@@ -1,0 +1,845 @@
+- title:
+  - 空花 第2話
+- outline:
+  - '{0}在城鎮裡遇到了空花。詢問空花看起來心情不好的原因，她說雖然自己在酒吧擔任舞孃，但對於跳舞沒什麼自信。{0}決定幫忙她練習跳舞。'
+- background:
+  - 500010
+- amb:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 首先先從交往開始
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 空花在路上走著走著就遇到了{0}。
+- touch: &o0 []
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 30
+- chara_full:
+  - 104511
+  - C
+  - 4
+  - 1
+- fadein:
+  - 104511
+  - 30
+- effect:
+  - 11
+  - se_adv_emote_gloomy_01
+- bright_change:
+  - 1
+  - 50
+- window_visible:
+  - true
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045002_000
+- face:
+  - 104511
+  - 4
+- print:
+  - 空花
+  - 空、空花到底應該怎麼做……
+- wait:
+  - 30
+- touch: *o0
+- effect_delete:
+  - 11
+  - 30
+- bright_change:
+  - 1
+  - 100
+- wait:
+  - 15
+- eye_open:
+  - TRUE
+- bgm:
+  - bgm_M11_02_Edit
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045002_001
+- face:
+  - 104511
+  - 6
+- print:
+  - 空花
+  - 哈！虐待狂先生，在這種地方相遇
+- wait:
+  - 40
+- print:
+  - 空花
+  - >2-
+
+    真是巧耶。
+- touch: *o0
+- window_visible:
+  - false
+- emotion:
+  - question1_R
+  - 104511
+  - 115
+  - 495
+  - se_adv_emote_question_01
+- face:
+  - 104511
+  - 1
+- nod:
+  - 104511
+  - 0
+- nod:
+  - 104511
+  - 0
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045002_002
+- face:
+  - 104511
+  - 1
+- print:
+  - 空花
+  - 空花看起來心情不好的樣子？
+- touch: *o0
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045002_003
+- face:
+  - 104511
+  - 6
+- print:
+  - 空花
+  - 欸！
+- pop:
+  - 104511
+- print:
+  - 空花
+  - 看得出來！？
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045002_004
+- face:
+  - 104511
+  - 1
+- print:
+  - 空花
+  - 該不會虐待狂先生
+- wait:
+  - 45
+- print:
+  - 空花
+  - >2
+
+- face:
+  - 104511
+  - 6
+- print:
+  - 空花
+  - 還有隱藏版的特殊能力吧……！
+- touch: *o0
+- effect:
+  - 44
+  - se_adv_happy_particle_01
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045002_005
+- face:
+  - 104511
+  - 2
+- print:
+  - 空花
+  - ……他、他要是使用這股力量，
+- wait:
+  - 75
+- print:
+  - 空花
+  - >2-
+
+    整個世界不管是誰
+- wait:
+  - 60
+- print:
+  - 空花
+  - >2-
+
+    瞬間都會變成剛出生的樣子！
+- wait:
+  - 30
+- print:
+  - 空花
+  - >2
+
+- face:
+  - 104511
+  - 5
+- nod:
+  - 104511
+- print:
+  - 空花
+  - 嘻、嘻嘻……
+- touch: *o0
+- effect_delete:
+  - 0044
+  - 30
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045002_006
+- face:
+  - 104511
+  - 1
+- print:
+  - 空花
+  - ……欸？空花好像很有精神所以你就要回去了？
+- wait:
+  - 75
+- print:
+  - 空花
+  - >2
+
+- face:
+  - 104511
+  - 3
+- pop:
+  - 104511
+- print:
+  - 空花
+  - 請、請等一下。
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045002_007
+- face:
+  - 104511
+  - 4
+- print:
+  - 空花
+  - 到剛剛為止確實都很沒有精神。
+- wait:
+  - 60
+- print:
+  - 空花
+  - >2-
+
+    多虧了虐待狂先生空花才打起一點精神。
+- touch: *o0
+- choice:
+  - 妳說說看吧？
+  - 1
+- tag:
+  - 1
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045002_008
+- face:
+  - 104511
+  - 2
+- print:
+  - 空花
+  - 該、該不會
+- wait:
+  - 45
+- print:
+  - 空花
+  - >2-
+
+    要用空花的身體做交換吧……(流口水)。
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_walk_armor_go_01
+- fadeout:
+  - 104511
+  - 30
+- wait:
+  - 30
+- chara_full:
+  - 104511
+  - C
+  - 6
+- scale:
+  - 104511
+  - 1.3
+  - 2
+- fadein:
+  - 104511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045002_009
+- face:
+  - 104511
+  - 6
+- pop:
+  - 104511
+- print:
+  - 空花
+  - '{0}先生，別、別走？'
+- wait:
+  - 30
+- print:
+  - 空花
+  - >2
+
+- face:
+  - 104511
+  - 1
+- print:
+  - 空花
+  - 空花說，空花說就是了。
+- wait:
+  - 15
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+- fadeout:
+  - 104511
+  - 30
+- chara_full:
+  - 104511
+  - C
+  - 4
+- fadein:
+  - 104511
+  - 30
+- bgm:
+  - bgm_M51
+  - 0
+  - 0
+  - 1
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045002_010
+- face:
+  - 104511
+  - 4
+- print:
+  - 空花
+  - ……其實，空、空花
+- wait:
+  - 75
+- print:
+  - 空花
+  - >2-
+
+    獲取報酬的代價，
+- wait:
+  - 60
+- print:
+  - 空花
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - 空花
+  - 就是過度操勞自己的身體。
+- touch: *o0
+- eye_open:
+  - TRUE
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045002_011
+- face:
+  - 104511
+  - 4
+- print:
+  - 空花
+  - 簡單來說……
+- wait:
+  - 30
+- print:
+  - 空花
+  - >2-
+
+    就是在那邊的酒吧，
+- wait:
+  - 30
+- print:
+  - 空花
+  - >2-
+
+    擔任舞孃……
+- touch: *o0
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045002_012
+- face:
+  - 104511
+  - 4
+- print:
+  - 空花
+  - 空花是新人……
+- wait:
+  - 30
+- print:
+  - 空花
+  - >2-
+
+    而且沒想到
+- wait:
+  - 30
+- print:
+  - 空花
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - 空花
+  - 舞技比別人落後很多……
+- touch: *o0
+- window_visible:
+  - false
+- eye_open:
+  - TRUE
+- face:
+  - 104511
+  - 1
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045002_013
+- face:
+  - 104511
+  - 1
+- print:
+  - 空花
+  - 欸，比別人落後的原因嗎？
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045002_014
+- face:
+  - 104511
+  - 4
+- print:
+  - 空花
+  - 對、對自己的舞蹈還沒有自信……
+- wait:
+  - 105
+- print:
+  - 空花
+  - >2-
+
+    再加上……被這麼多人的眼睛
+- wait:
+  - 45
+- print:
+  - 空花
+  - >2-
+
+    盯著看，
+- eye_open:
+  - FALSE
+- print:
+  - 空花
+  - 覺得很難為情……
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045002_015
+- face:
+  - 104511
+  - 1
+- print:
+  - 空花
+  - 空花想多少做一些努力也好，
+- wait:
+  - 30
+- print:
+  - 空花
+  - >2-
+
+    所、
+- pop:
+  - 104511
+- print:
+  - 空花
+  - 所以，剛剛在這裡練習。
+- touch: *o0
+- choice:
+  - 那麼我來跟妳做喲。
+  - 2
+- tag:
+  - 2
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045002_016
+- face:
+  - 104511
+  - 6
+- print:
+  - 空花
+  - 欸欸！跟、跟空花做嗎！？
+- wait:
+  - 30
+- print:
+  - 空花
+  - >2
+
+- face:
+  - 104511
+  - 2
+- print:
+  - 空花
+  - 就在光天化日之下……嗎？
+- wait:
+  - 45
+- print:
+  - 空花
+  - >2
+
+- shake:
+  - 104511
+- print:
+  - 空花
+  - 真、真不愧是虐待狂先生……(流口水)。
+- wait:
+  - 60
+- touch: *o0
+- effect:
+  - 44
+  - se_adv_happy_particle_01
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045002_017
+- face:
+  - 104511
+  - 5
+- print:
+  - 空花
+  - 這、這種事情，空花……
+- wait:
+  - 30
+- print:
+  - 空花
+  - >2-
+
+    雖然是第一次，
+- wait:
+  - 30
+- print:
+  - 空花
+  - >2-
+
+    但既然虐待狂先生這麼說了……
+- touch: *o0
+- effect_delete:
+  - 0044
+  - 30
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045002_018
+- face:
+  - 104511
+  - 6
+- print:
+  - 空花
+  - 欸？
+- wait:
+  - 30
+- print:
+  - 空花
+  - >2-
+
+    大概跟空花想的不一樣……
+- face:
+  - 104511
+  - 4
+- wait:
+  - 75
+- print:
+  - 空花
+  - >2-
+
+    是一起做……練習？
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045002_019
+- face:
+  - 104511
+  - 6
+- print:
+  - 空花
+  - ……
+- pop:
+  - 104511
+- print:
+  - 空花
+  - 呀、呀啊！
+- wait:
+  - 60
+- print:
+  - 空花
+  - >2-
+
+    空空空、空花又
+- wait:
+  - 15
+- print:
+  - 空花
+  - >2-
+
+    異想天開地誤會了……！
+- touch: *o0
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045002_020
+- face:
+  - 104511
+  - 2
+- print:
+  - 空花
+  - 這、這是第二次
+- wait:
+  - 60
+- print:
+  - 空花
+  - >2
+
+    被虐待狂先生看到
+- eye_open:
+  - FALSE
+- print:
+  - 空花
+  - 丟臉的樣子呢……
+- touch: *o0
+- eye_open:
+  - TRUE
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045002_021
+- face:
+  - 104511
+  - 1
+- print:
+  - 空花
+  - ……空花這個涉世未深的少女真不該失態。
+- touch: *o0
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045002_022
+- face:
+  - 104511
+  - 2
+- print:
+  - 空花
+  - 空花不能成為新娘了。
+- wait:
+  - 75
+- print:
+  - 空花
+  - >2-
+
+    因為已經被虐待狂先生玷汙了。
+- touch: *o0
+- window_visible:
+  - false
+- window_visible:
+  - TRUE
+- text_size:
+  - 30
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045002_023
+- face:
+  - 104511
+  - 5
+- print:
+  - 空花
+  - ……乾、
+- pop:
+  - 104511
+- print:
+  - 空花
+  - 乾脆，一鼓作氣大搞特搞！
+- wait:
+  - 60
+- touch: *o0
+- window_visible:
+  - false
+- window_visible:
+  - TRUE
+- text_size:
+  - 23
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_1045002_024
+- face:
+  - 104511
+  - 5
+- print:
+  - 空花
+  - 嘻、
+- shake:
+  - 104511
+- print:
+  - 空花
+  - 嘻嘻……(流口水)。
+- wait:
+  - 75
+- touch: *o0
+- fadeout:
+  - 104511
+  - 30
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 無意間{0}理解了空花的舞技無法進步的原因。
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

@@ -1,0 +1,279 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500997
+- amb:
+  - amb_adv_outdoors_day_01
+- ui_visible:
+  - false
+- situation:
+  - 半藏消失到哪裡去了
+- chara_full:
+  - 105211
+  - C
+  - 1
+- fadein:
+  - 105211
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M288
+  - 0
+  - 0
+  - 1
+- focus:
+  - 105211
+- bust:
+  - 105211
+  - 0
+- vo:
+  - vo_adv_6040310_000
+- face:
+  - 105211
+  - 1
+- print:
+  - 莉瑪
+  - 半藏？　
+- wait:
+  - 30
+- print:
+  - 莉瑪
+  - 他
+- wait:
+  - 30
+- print:
+  - 莉瑪
+  - 到底消失到哪裡去了呢。
+- wait:
+  - 45
+- print:
+  - 莉瑪
+  - >2
+
+- face:
+  - 105211
+  - 4
+- print:
+  - 莉瑪
+  - 因為他做了壞事，
+- wait:
+  - 30
+- print:
+  - 莉瑪
+  - 希望可以確實地被逮捕，
+- wait:
+  - 50
+- print:
+  - 莉瑪
+  - >2-
+
+    但是卻完全找不到他的下落呢……
+- touch: &o0 []
+- choice:
+  - 從黑暗消失到黑暗之中
+  - 1
+  - 1
+- choice:
+  - 只靠金錢維持的關係
+  - 2
+  - 2
+- choice:
+  - 可能離我們意外地近……
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 105211
+- bust:
+  - 105211
+  - 0
+- vo:
+  - vo_adv_6040310_001
+- face:
+  - 105211
+  - 6
+- emotion:
+  - question1_R
+  - 105211
+  - 125
+  - 530
+  - se_adv_emote_question_01
+- print:
+  - 莉瑪
+  - 從、
+- wait:
+  - 25
+- print:
+  - 莉瑪
+  - 從黑暗中消失到黑暗……？
+- wait:
+  - 65
+- print:
+  - 莉瑪
+  - >2
+
+- face:
+  - 105211
+  - 1
+- print:
+  - 莉瑪
+  - 嗯～
+- wait:
+  - 30
+- print:
+  - 莉瑪
+  - 不過他們的確是一群
+- wait:
+  - 40
+- print:
+  - 莉瑪
+  - 使用奇怪的魔法？
+- wait:
+  - 20
+- print:
+  - 莉瑪
+  - 的人呢。
+- wait:
+  - 65
+- print:
+  - 莉瑪
+  - >2-
+
+    能確實地抓住他們就好了……
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 105211
+- bust:
+  - 105211
+  - 0
+- vo:
+  - vo_adv_6040310_002
+- face:
+  - 105211
+  - 4
+- nod:
+  - 105211
+- print:
+  - 莉瑪
+  - 真的是這樣呢……
+- wait:
+  - 40
+- print:
+  - 莉瑪
+  - 雖然並不想同情監察官，
+- wait:
+  - 50
+- print:
+  - 莉瑪
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 莉瑪
+  - 不過那種關係真是有點令人難過呢。
+- wait:
+  - 75
+- print:
+  - 莉瑪
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 莉瑪
+  - 明明除了錢之外
+- wait:
+  - 25
+- print:
+  - 莉瑪
+  - 也有其他很重要的東西啊。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 105211
+- bust:
+  - 105211
+  - 0
+- vo:
+  - vo_adv_6040310_003
+- face:
+  - 105211
+  - 6
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 105211
+- print:
+  - 莉瑪
+  - 等等！　
+- wait:
+  - 30
+- print:
+  - 莉瑪
+  - 不要說這麼恐怖的話啦！？
+- wait:
+  - 45
+- print:
+  - 莉瑪
+  - >2
+
+- face:
+  - 105211
+  - 1
+- print:
+  - 莉瑪
+  - ……不過，
+- wait:
+  - 20
+- print:
+  - 莉瑪
+  - 如果出現了，
+- wait:
+  - 20
+- print:
+  - 莉瑪
+  - 希望這次一定要抓到他們呢。
+- wait:
+  - 45
+- print:
+  - 莉瑪
+  - >2-
+
+    到那時候
+- wait:
+  - 20
+- print:
+  - 莉瑪
+  - 請你也要幫忙喔。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 105211
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

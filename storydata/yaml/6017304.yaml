@@ -1,0 +1,281 @@
+- title:
+  - 女僕裝很稀奇？
+- outline:
+  - ' '
+- background:
+  - 500110
+- amb:
+  - amb_adv_room_noise_day_01
+- ui_visible:
+  - false
+- situation:
+  - 女僕裝很稀奇？
+- chara_full:
+  - 109811
+  - C
+  - 3
+- fadein:
+  - 109811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M180_Ver2
+  - 0
+  - 0
+  - 1
+- focus:
+  - 109811
+- bust:
+  - 109811
+  - 0
+- vo:
+  - vo_adv_6017304_000
+- face:
+  - 109811
+  - 3
+- print:
+  - 拉姆
+  - 你是怎麼了，
+- wait:
+  - 20
+- print:
+  - 拉姆
+  - 幹嘛一直盯著這邊看。
+- wait:
+  - 50
+- print:
+  - 拉姆
+  - >2
+
+- emotion:
+  - question1_R
+  - 109811
+  - 145
+  - 460
+  - se_adv_emote_question_01
+- face:
+  - 109811
+  - 6
+- print:
+  - 拉姆
+  - 你說這套衣服很稀奇？
+- wait:
+  - 55
+- print:
+  - 拉姆
+  - >2
+
+- face:
+  - 109811
+  - 1
+- print:
+  - 拉姆
+  - 我記得育幼院裡也有個穿女僕裝的女孩啊。
+- touch: &o0 []
+- choice:
+  - 感覺很強。
+  - 1
+  - 1
+- choice:
+  - 和雷姆穿的不同。
+  - 2
+  - 2
+- choice:
+  - 很適合妳。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 109811
+- bust:
+  - 109811
+  - 0
+- vo:
+  - vo_adv_6017304_001
+- face:
+  - 109811
+  - 3
+- print:
+  - 拉姆
+  - 竟然對一個女孩子說她看起來很強，
+- wait:
+  - 35
+- print:
+  - 拉姆
+  - 你應該重新投胎才對。
+- wait:
+  - 50
+- print:
+  - 拉姆
+  - >2
+
+- face:
+  - 109811
+  - 1
+- print:
+  - 拉姆
+  - 不過，
+- wait:
+  - 25
+- eye_open:
+  - False
+- print:
+  - 拉姆
+  - 從某個角度來看女僕裝也是一種戰鬥裝，
+- wait:
+  - 45
+- eye_open:
+  - True
+- print:
+  - 拉姆
+  - 也許是因為這樣
+- wait:
+  - 10
+- print:
+  - 拉姆
+  - >2-
+
+    所以看起來很強。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 109811
+- bust:
+  - 109811
+  - 0
+- vo:
+  - vo_adv_6017304_002
+- face:
+  - 109811
+  - 6
+- print:
+  - 拉姆
+  - 是嗎？　
+- wait:
+  - 30
+- print:
+  - 拉姆
+  - 設計概念應該是一樣的啊。
+- wait:
+  - 50
+- print:
+  - 拉姆
+  - >2
+
+- face:
+  - 109811
+  - 3
+- print:
+  - 拉姆
+  - 如果是說胸部大小的話，那你真的是太膚淺了……
+- wait:
+  - 85
+- print:
+  - 拉姆
+  - >2
+
+- face:
+  - 109811
+  - 6
+- print:
+  - 拉姆
+  - 咦？　
+- wait:
+  - 35
+- print:
+  - 拉姆
+  - 髮飾的位置？　
+- wait:
+  - 50
+- face:
+  - 109811
+  - 1
+- print:
+  - 拉姆
+  - 喔～
+- wait:
+  - 15
+- print:
+  - 拉姆
+  - 沒錯。
+- wait:
+  - 30
+- print:
+  - 拉姆
+  - 的確不同。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 109811
+- bust:
+  - 109811
+  - 0
+- vo:
+  - vo_adv_6017304_003
+- face:
+  - 109811
+  - 2
+- emotion:
+  - twinkle1_R
+  - 109811
+  - -60
+  - 475
+  - se_adv_emote_twinkle_01
+- print:
+  - 拉姆
+  - 這是當然的。
+- wait:
+  - 30
+- print:
+  - 拉姆
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 拉姆
+  - 嗯，我很了解你想讚美拉姆的心情。
+- wait:
+  - 50
+- print:
+  - 拉姆
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 拉姆
+  - 來吧，
+- wait:
+  - 20
+- print:
+  - 拉姆
+  - 盡情地讚美拉姆吧。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 109811
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

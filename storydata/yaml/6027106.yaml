@@ -1,0 +1,285 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500850
+- amb:
+  - amb_adv_jungle_01
+- ui_visible:
+  - false
+- situation:
+  - 似龍生物怎麼樣？
+- chara_full:
+  - 106611
+  - C
+  - 1
+- fadein:
+  - 106611
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M203
+  - 0
+  - 0
+  - 1
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_6027106_000
+- face:
+  - 106611
+  - 1
+- print:
+  - 祈梨
+  - 小哥你對似龍生物，
+- wait:
+  - 40
+- print:
+  - 祈梨
+  - 有什麼看法呢？
+- touch: &o0 []
+- choice:
+  - 很可愛。
+  - 1
+  - 1
+- choice:
+  - 很沒出息。
+  - 2
+  - 2
+- choice:
+  - 很像某個人。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_6027106_001
+- face:
+  - 106611
+  - 2
+- emotion:
+  - twinkle1_R
+  - 106611
+  - -115
+  - 405
+  - se_adv_emote_twinkle_01
+- print:
+  - 祈梨
+  - 我相信
+- wait:
+  - 25
+- print:
+  - 祈梨
+  - 只要打磨，牠就會發亮的喔。
+- wait:
+  - 50
+- print:
+  - 祈梨
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 祈梨
+  - 和我一樣，
+- wait:
+  - 25
+- print:
+  - 祈梨
+  - 內在潛藏著神秘的力量！
+- wait:
+  - 50
+- print:
+  - 祈梨
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 祈梨
+  - 現在就馬上去找牠鍛鍊吧！　
+- wait:
+  - 35
+- print:
+  - 祈梨
+  - 小哥！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_6027106_002
+- face:
+  - 106611
+  - 6
+- emotion:
+  - exclamation1_R
+  - 106611
+  - 10
+  - 590
+  - se_adv_emote_common_01
+- print:
+  - 祈梨
+  - 什麼！　
+- wait:
+  - 25
+- face:
+  - 106611
+  - 3
+- print:
+  - 祈梨
+  - 才沒那種事呢！
+- wait:
+  - 35
+- print:
+  - 祈梨
+  - >2-
+
+    那傢伙雖然不是很機伶，
+- wait:
+  - 30
+- print:
+  - 祈梨
+  - 但也是拼命地努力活著。
+- wait:
+  - 45
+- print:
+  - 祈梨
+  - >2-
+
+    沒錯！　
+- wait:
+  - 20
+- print:
+  - 祈梨
+  - 和小哥你一樣！　
+- wait:
+  - 45
+- face:
+  - 106611
+  - 6
+- print:
+  - 祈梨
+  - ……
+- wait:
+  - 20
+- print:
+  - 祈梨
+  - 咦？
+- wait:
+  - 30
+- print:
+  - 祈梨
+  - 我說的話傷到你了嗎！？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_6027106_003
+- face:
+  - 106611
+  - 6
+- nod:
+  - 106611
+- print:
+  - 祈梨
+  - ……的確。
+- wait:
+  - 45
+- print:
+  - 祈梨
+  - 感覺很像某個人……
+- wait:
+  - 75
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 106611
+  - 4
+- eye_open:
+  - False
+- print:
+  - 祈梨
+  - 嗯～
+- wait:
+  - 55
+- print:
+  - 祈梨
+  - 到底是誰呢……
+- wait:
+  - 70
+- face:
+  - 106611
+  - 6
+- eye_open:
+  - True
+- print:
+  - 祈梨
+  - 嘉夜夜？　
+- wait:
+  - 45
+- print:
+  - 祈梨
+  - 老大？
+- wait:
+  - 55
+- print:
+  - 祈梨
+  - >2-
+
+    ……
+- wait:
+  - 35
+- print:
+  - 祈梨
+  - 小哥。
+- wait:
+  - 55
+- print:
+  - 祈梨
+  - 你為什麼要用手指著我？
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 106611
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

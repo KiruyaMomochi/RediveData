@@ -1,0 +1,276 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500680
+- amb:
+  - amb_adv_seaside_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 吵架的經驗
+- chara_full:
+  - 110011
+  - C
+  - 4
+  - 1
+- fadein:
+  - 110011
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M123_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 110011
+- bust:
+  - 110011
+  - 0
+- vo:
+  - vo_adv_6019103_000
+- face:
+  - 110011
+  - 4
+- emotion:
+  - gloomy1_R
+  - 110011
+  - 65
+  - 520
+  - se_adv_emote_gloomy_01
+- print:
+  - 鈴奈
+  - 想說難得可以創造快樂的回憶，
+- wait:
+  - 45
+- print:
+  - 鈴奈
+  - 才邀請美咲，
+- wait:
+  - 30
+- print:
+  - 鈴奈
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 鈴奈
+  - 為什麼事情會變成這樣子～……
+- wait:
+  - 55
+- print:
+  - 鈴奈
+  - >2
+
+- face:
+  - 110011
+  - 6
+- print:
+  - 鈴奈
+  - 喏喏喏，
+- wait:
+  - 20
+- print:
+  - 鈴奈
+  - 秀才你曾經和誰吵架過嗎？
+- touch: &o0 []
+- choice:
+  - 我不太懂吵架。
+  - 1
+  - 1
+- choice:
+  - 每天都會和各種人吵架啊。
+  - 2
+  - 2
+- choice:
+  - 只會和魔物吵架。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 110011
+- bust:
+  - 110011
+  - 0
+- vo:
+  - vo_adv_6019103_001
+- face:
+  - 110011
+  - 1
+- nod:
+  - 110011
+- print:
+  - 鈴奈
+  - 這樣啊，
+- wait:
+  - 30
+- print:
+  - 鈴奈
+  - 秀才
+- wait:
+  - 20
+- print:
+  - 鈴奈
+  - 和人來往也是秀才，
+- wait:
+  - 25
+- print:
+  - 鈴奈
+  - >2-
+
+    感覺你從沒吵架過？
+- wait:
+  - 40
+- print:
+  - 鈴奈
+  - >2
+
+- face:
+  - 110011
+  - 7
+- print:
+  - 鈴奈
+  - 不愧是秀才呢～！！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 110011
+- bust:
+  - 110011
+  - 0
+- vo:
+  - vo_adv_6019103_002
+- face:
+  - 110011
+  - 6
+- pop:
+  - 110011
+- print:
+  - 鈴奈
+  - 真的嗎？　
+- wait:
+  - 40
+- print:
+  - 鈴奈
+  - 原來秀才你是那種人？
+- wait:
+  - 40
+- print:
+  - 鈴奈
+  - >2
+
+- face:
+  - 110011
+  - 2
+- print:
+  - 鈴奈
+  - 是說，
+- wait:
+  - 15
+- print:
+  - 鈴奈
+  - 我知道你那是在開玩笑啦～！
+- wait:
+  - 60
+- print:
+  - 鈴奈
+  - >2
+
+- face:
+  - 110011
+  - 1
+- print:
+  - 鈴奈
+  - 可是，
+- wait:
+  - 15
+- print:
+  - 鈴奈
+  - 你是想開玩笑來鼓勵我吧？　
+- wait:
+  - 40
+- face:
+  - 110011
+  - 7
+- print:
+  - 鈴奈
+  - 謝謝你！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 110011
+- bust:
+  - 110011
+  - 0
+- vo:
+  - vo_adv_6019103_003
+- face:
+  - 110011
+  - 6
+- print:
+  - 鈴奈
+  - 那個不叫吵架，
+- wait:
+  - 45
+- face:
+  - 110011
+  - 1
+- print:
+  - 鈴奈
+  - 不過要是活動時有魔物來襲，
+- wait:
+  - 40
+- print:
+  - 鈴奈
+  - >2-
+
+    你一定會保護我吧？
+- wait:
+  - 45
+- print:
+  - 鈴奈
+  - >2
+
+- face:
+  - 110011
+  - 2
+- emotion:
+  - note1_L
+  - 110011
+  - -75
+  - 525
+  - se_adv_emote_note_01
+- print:
+  - 鈴奈
+  - 就拜託你當保鏢囉～！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 110011
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

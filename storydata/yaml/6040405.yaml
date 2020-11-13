@@ -1,0 +1,295 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500995
+- amb:
+  - amb_adv_outdoors_day_01
+- ui_visible:
+  - false
+- situation:
+  - 關於莉瑪
+- chara_full:
+  - 103811
+  - C
+  - 2
+- fadein:
+  - 103811
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M352_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_6040405_000
+- face:
+  - 103811
+  - 2
+- print:
+  - 栞
+  - 莉瑪
+- wait:
+  - 25
+- print:
+  - 栞
+  - 真的
+- wait:
+  - 10
+- print:
+  - 栞
+  - 力氣很大，很可靠呢。
+- wait:
+  - 75
+- print:
+  - 栞
+  - >2
+
+- face:
+  - 103811
+  - 6
+- print:
+  - 栞
+  - 一直都只有我單方面受到她的幫助，
+- wait:
+  - 45
+- print:
+  - 栞
+  - 雖然想報答她，
+- wait:
+  - 45
+- print:
+  - 栞
+  - >2
+
+- face:
+  - 103811
+  - 4
+- print:
+  - 栞
+  - 但要換我來揹莉瑪果然很困難呢……
+- touch: &o0 []
+- choice:
+  - 送她禮物吧
+  - 1
+  - 1
+- choice:
+  - 一起戰鬥吧
+  - 2
+  - 2
+- choice:
+  - 要來鍛鍊身體看看嗎？
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_6040405_001
+- face:
+  - 103811
+  - 2
+- nod:
+  - 103811
+- print:
+  - 栞
+  - 如果送她可愛的飾品之類的，
+- wait:
+  - 30
+- print:
+  - 栞
+  - 她似乎會很高興呢。
+- wait:
+  - 50
+- print:
+  - 栞
+  - >2
+
+- face:
+  - 103811
+  - 1
+- print:
+  - 栞
+  - 送蘋果形狀的墜飾怎麼樣？
+- wait:
+  - 55
+- print:
+  - 栞
+  - >2-
+
+    下次我想自己做來
+- wait:
+  - 15
+- print:
+  - 栞
+  - 送給她。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_6040405_002
+- face:
+  - 103811
+  - 6
+- emotion:
+  - question1_R
+  - 103811
+  - 120
+  - 510
+  - se_adv_emote_question_01
+- print:
+  - 栞
+  - 咦？
+- wait:
+  - 20
+- print:
+  - 栞
+  - 　要、
+- wait:
+  - 25
+- print:
+  - 栞
+  - 要我騎在莉瑪身上戰鬥嗎？
+- wait:
+  - 75
+- print:
+  - 栞
+  - >2
+
+- face:
+  - 103811
+  - 1
+- print:
+  - 栞
+  - 雖然好像真的可以好好戰鬥的樣子……
+- wait:
+  - 75
+- print:
+  - 栞
+  - >2
+
+- face:
+  - 103811
+  - 2
+- print:
+  - 栞
+  - 還有沒有其他的想法呢？　
+- wait:
+  - 55
+- print:
+  - 栞
+  - 有可能讓莉瑪開心的想法。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_6040405_003
+- face:
+  - 103811
+  - 4
+- emotion:
+  - sweat1_R
+  - 103811
+  - 95
+  - 495
+  - se_adv_emote_sweat_01
+- print:
+  - 栞
+  - 就算鍛鍊身體，
+- wait:
+  - 45
+- print:
+  - 栞
+  - 要揹起莉瑪應該還是很困難……
+- wait:
+  - 50
+- print:
+  - 栞
+  - >2
+
+- face:
+  - 103811
+  - 1
+- print:
+  - 栞
+  - 不、
+- wait:
+  - 15
+- print:
+  - 栞
+  - 不對！
+- wait:
+  - 25
+- print:
+  - 栞
+  - 　凡事都要挑戰呢！
+- wait:
+  - 50
+- print:
+  - 栞
+  - >-
+    　我想要在身體狀況不錯時
+
+    好好訓練看看！
+- wait:
+  - 75
+- print:
+  - 栞
+  - 　
+- face:
+  - 103811
+  - 6
+- print:
+  - 栞
+  - 咦？
+- wait:
+  - 30
+- print:
+  - 栞
+  - 　你是在開玩笑的嗎？
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 103811
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

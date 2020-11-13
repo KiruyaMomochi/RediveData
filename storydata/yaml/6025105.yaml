@@ -1,0 +1,235 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 505032
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - false
+- situation:
+  - 適合我嗎？
+- chara_full:
+  - 111311
+  - C
+  - 1
+- fadein:
+  - 111311
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M266_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111311
+- bust:
+  - 111311
+  - 0
+- vo:
+  - vo_adv_6025105_000
+- face:
+  - 111311
+  - 1
+- nod:
+  - 111311
+- print:
+  - 美美
+  - 哇～
+- wait:
+  - 35
+- print:
+  - 美美
+  - 有好多人扮裝哦～
+- wait:
+  - 65
+- print:
+  - 美美
+  - >2-
+
+    大家都好厲害呢～
+- wait:
+  - 60
+- print:
+  - 美美
+  - >2
+
+- face:
+  - 111311
+  - 6
+- print:
+  - 美美
+  - 哥哥，
+- wait:
+  - 30
+- print:
+  - 美美
+  - 美美的服裝
+- wait:
+  - 30
+- print:
+  - 美美
+  - 適合我嗎？
+- touch: &o0 []
+- choice:
+  - 好可怕呀～
+  - 1
+  - 1
+- choice:
+  - 很可愛。
+  - 2
+  - 2
+- choice:
+  - 很酷呢。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 111311
+- bust:
+  - 111311
+  - 0
+- vo:
+  - vo_adv_6025105_001
+- face:
+  - 111311
+  - 1
+- print:
+  - 美美
+  - 欸嘿嘿～
+- wait:
+  - 30
+- face:
+  - 111311
+  - 3
+- pop:
+  - 111311
+- print:
+  - 美美
+  - 吼歐～！
+- wait:
+  - 35
+- print:
+  - 美美
+  - >2-
+
+    我要吃了你喔～！
+- wait:
+  - 65
+- print:
+  - 美美
+  - >2
+
+- face:
+  - 111311
+  - 1
+- print:
+  - 美美
+  - 啊，
+- wait:
+  - 30
+- print:
+  - 美美
+  - 美美扮的是兔子先生，
+- wait:
+  - 40
+- print:
+  - 美美
+  - 沒辦法吃掉哥哥呢～
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 111311
+- bust:
+  - 111311
+  - 0
+- vo:
+  - vo_adv_6025105_002
+- face:
+  - 111311
+  - 2
+- emotion:
+  - note1_L
+  - 111311
+  - -90
+  - 420
+  - se_adv_emote_note_01
+- print:
+  - 美美
+  - 欸嘿嘿～♪　
+- wait:
+  - 20
+- print:
+  - 美美
+  - 謝謝你～
+- wait:
+  - 40
+- print:
+  - 美美
+  - >2-
+
+    得到哥哥稱讚了～♪
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 111311
+- bust:
+  - 111311
+  - 0
+- vo:
+  - vo_adv_6025105_003
+- face:
+  - 111311
+  - 6
+- print:
+  - 美美
+  - 很酷嗎～？
+- wait:
+  - 60
+- print:
+  - 美美
+  - >2-
+
+    有很酷的兔子先生嗎～？
+- wait:
+  - 70
+- print:
+  - 美美
+  - >2
+
+- face:
+  - 111311
+  - 1
+- print:
+  - 美美
+  - 真想看看呢～
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 111311
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

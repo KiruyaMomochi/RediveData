@@ -1,0 +1,262 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500036
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - false
+- situation:
+  - 聖誕老人的服裝
+- chara_full:
+  - 111511
+  - C
+  - 6
+- fadein:
+  - 111511
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M282_03
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111511
+- bust:
+  - 111511
+  - 0
+- vo:
+  - vo_adv_6029205_000
+- face:
+  - 111511
+  - 6
+- print:
+  - 克莉絲提娜
+  - 嗯？
+- wait:
+  - 30
+- print:
+  - 克莉絲提娜
+  - 　你幹嘛盯著我看，
+- wait:
+  - 35
+- print:
+  - 克莉絲提娜
+  - 很沒禮貌喔？
+- wait:
+  - 40
+- print:
+  - 克莉絲提娜
+  - >2
+
+- face:
+  - 111511
+  - 1
+- print:
+  - 克莉絲提娜
+  - 喔～
+- wait:
+  - 25
+- print:
+  - 克莉絲提娜
+  - 你覺得我穿這衣服很稀奇是嗎？
+- wait:
+  - 55
+- print:
+  - 克莉絲提娜
+  - >2-
+
+    看都看了，
+- wait:
+  - 22
+- print:
+  - 克莉絲提娜
+  - 那就說幾句感想吧？
+- touch: &o0 []
+- choice:
+  - 很浮誇。
+  - 1
+  - 1
+- choice:
+  - 很漂亮。
+  - 2
+  - 2
+- choice:
+  - 很可愛。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 111511
+- bust:
+  - 111511
+  - 0
+- vo:
+  - vo_adv_6029205_001
+- face:
+  - 111511
+  - 2
+- emotion:
+  - twinkle1_R
+  - 111511
+  - -125
+  - 505
+  - se_adv_emote_twinkle_01
+- print:
+  - 克莉絲提娜
+  - 啊哈哈☆
+- wait:
+  - 35
+- print:
+  - 克莉絲提娜
+  - >2-
+
+    看來你已經很懂得如何捧我了，
+- wait:
+  - 47
+- print:
+  - 克莉絲提娜
+  - 小子♪
+- wait:
+  - 32
+- print:
+  - 克莉絲提娜
+  - >2
+
+- face:
+  - 111511
+  - 1
+- print:
+  - 克莉絲提娜
+  - 這個是非常適合華麗的克莉絲提娜的回答。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 111511
+- bust:
+  - 111511
+  - 0
+- vo:
+  - vo_adv_6029205_002
+- face:
+  - 111511
+  - 4
+- print:
+  - 克莉絲提娜
+  - 這是什麼普通的答案啊。
+- wait:
+  - 50
+- print:
+  - 克莉絲提娜
+  - >2-
+
+    太常被讚美了，所以我一點感覺都沒有。
+- wait:
+  - 45
+- print:
+  - 克莉絲提娜
+  - >2
+
+- face:
+  - 111511
+  - 3
+- print:
+  - 克莉絲提娜
+  - 重來！
+- wait:
+  - 35
+- nod:
+  - 111511
+- print:
+  - 克莉絲提娜
+  - 來吧！
+- wait:
+  - 25
+- print:
+  - 克莉絲提娜
+  - 講別的感想。
+- wait:
+  - 40
+- print:
+  - 克莉絲提娜
+  - 好好取悅我吧。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 111511
+- bust:
+  - 111511
+  - 0
+- vo:
+  - vo_adv_6029205_003
+- face:
+  - 111511
+  - 1
+- eye_open:
+  - False
+- print:
+  - 克莉絲提娜
+  - ……沒想到你會這麼說。
+- wait:
+  - 45
+- print:
+  - 克莉絲提娜
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 克莉絲提娜
+  - 你啊！
+- wait:
+  - 25
+- print:
+  - 克莉絲提娜
+  - 看著我的外表竟然能夠說出這種感想來？
+- wait:
+  - 83
+- print:
+  - 克莉絲提娜
+  - >2
+
+- nod:
+  - 111511
+- print:
+  - 克莉絲提娜
+  - 真沒辦法，
+- wait:
+  - 40
+- print:
+  - 克莉絲提娜
+  - 那以後我就自稱為可愛的克莉絲提娜好了。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 111511
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

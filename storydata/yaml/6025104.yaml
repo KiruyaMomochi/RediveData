@@ -1,0 +1,203 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 505032
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - false
+- situation:
+  - 都市傳說
+- chara_full:
+  - 111311
+  - C
+  - 6
+- fadein:
+  - 111311
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M269
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111311
+- bust:
+  - 111311
+  - 0
+- vo:
+  - vo_adv_6025104_000
+- face:
+  - 111311
+  - 6
+- print:
+  - 美美
+  - 哥哥，
+- wait:
+  - 30
+- print:
+  - 美美
+  - 你聽過都市傳說嗎～？
+- wait:
+  - 75
+- print:
+  - 美美
+  - >2-
+
+    是鏡華跟我說的，
+- wait:
+  - 40
+- print:
+  - 美美
+  - >2-
+
+    美美不太曉得呢～
+- touch: &o0 []
+- choice:
+  - 很酷呢。
+  - 1
+  - 1
+- choice:
+  - 我聽說過哦。
+  - 2
+  - 2
+- choice:
+  - 蘭德索爾的傳說？
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 111311
+- bust:
+  - 111311
+  - 0
+- vo:
+  - vo_adv_6025104_001
+- face:
+  - 111311
+  - 1
+- nod:
+  - 111311
+- print:
+  - 美美
+  - 喏～
+- wait:
+  - 30
+- print:
+  - 美美
+  - >2-
+
+    傳說是指
+- wait:
+  - 25
+- print:
+  - 美美
+  - 怎麼樣的傳說呀～？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 111311
+- bust:
+  - 111311
+  - 0
+- vo:
+  - vo_adv_6025104_002
+- face:
+  - 111311
+  - 2
+- nod:
+  - 111311
+- print:
+  - 美美
+  - 哇～♪　
+- wait:
+  - 30
+- print:
+  - 美美
+  - 哥哥好厲害！
+- wait:
+  - 55
+- print:
+  - 美美
+  - >2
+
+- face:
+  - 111311
+  - 1
+- print:
+  - 美美
+  - 哥哥，
+- wait:
+  - 15
+- print:
+  - 美美
+  - 你聽過怎樣的傳說呢～？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 111311
+- bust:
+  - 111311
+  - 0
+- vo:
+  - vo_adv_6025104_003
+- face:
+  - 111311
+  - 6
+- print:
+  - 美美
+  - 蘭德索爾的傳說～？
+- wait:
+  - 55
+- print:
+  - 美美
+  - >2
+
+- face:
+  - 111311
+  - 1
+- print:
+  - 美美
+  - 好像有很多呢～
+- wait:
+  - 55
+- print:
+  - 美美
+  - >2
+
+- nod:
+  - 111311
+- print:
+  - 美美
+  - 真想問問看不同的人呢～
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 111311
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

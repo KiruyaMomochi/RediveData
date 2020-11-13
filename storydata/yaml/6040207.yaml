@@ -1,0 +1,270 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500997
+- amb:
+  - amb_adv_outdoors_day_01
+- ui_visible:
+  - false
+- situation:
+  - 關於溫泉
+- chara_full:
+  - 102611
+  - C
+  - 2
+- fadein:
+  - 102611
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M352
+  - 0
+  - 0
+  - 1
+- focus:
+  - 102611
+- bust:
+  - 102611
+  - 0
+- vo:
+  - vo_adv_6040207_000
+- face:
+  - 102611
+  - 2
+- nod:
+  - 102611
+- print:
+  - 鈴
+  - 大家
+- wait:
+  - 25
+- print:
+  - 鈴
+  - 都很喜歡溫泉真是太好了。
+- wait:
+  - 60
+- print:
+  - 鈴
+  - >2-
+
+    不枉費我們那麼努力宣傳呢。
+- wait:
+  - 65
+- print:
+  - 鈴
+  - >2
+
+- face:
+  - 102611
+  - 6
+- print:
+  - 鈴
+  - 大家都被那個雕像？
+- wait:
+  - 55
+- print:
+  - 鈴
+  - 　
+- face:
+  - 102611
+  - 1
+- print:
+  - 鈴
+  - 給嚇到了，
+- wait:
+  - 40
+- print:
+  - 鈴
+  - 很有趣呢。
+- touch: &o0 []
+- choice:
+  - 真不愧是製作人
+  - 1
+  - 1
+- choice:
+  - 空氣很清新呢
+  - 2
+  - 2
+- choice:
+  - 好想放鬆一下呢
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 102611
+- bust:
+  - 102611
+  - 0
+- vo:
+  - vo_adv_6040207_001
+- face:
+  - 102611
+  - 2
+- print:
+  - 鈴
+  - 是啊。
+- wait:
+  - 35
+- print:
+  - 鈴
+  - 比真陽更有搞笑的品味……
+- wait:
+  - 35
+- emotion:
+  - question1_R
+  - 102611
+  - 40
+  - 455
+  - se_adv_emote_question_01
+- face:
+  - 102611
+  - 6
+- print:
+  - 鈴
+  - 咦？
+- wait:
+  - 35
+- print:
+  - 鈴
+  - >2-
+
+    不是那樣嗎？
+- wait:
+  - 30
+- print:
+  - 鈴
+  - 　那是怎麼樣啊？
+- wait:
+  - 70
+- print:
+  - 鈴
+  - >2
+
+- face:
+  - 102611
+  - 4
+- print:
+  - 鈴
+  - 突然
+- wait:
+  - 15
+- print:
+  - 鈴
+  - 開始覺得那位製作人有點恐怖呢。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 102611
+- bust:
+  - 102611
+  - 0
+- vo:
+  - vo_adv_6040207_002
+- face:
+  - 102611
+  - 2
+- print:
+  - 鈴
+  - 溫泉與大自然比肩而鄰，
+- wait:
+  - 45
+- print:
+  - 鈴
+  - 就這樣成為了不錯的觀光地呢。
+- wait:
+  - 75
+- print:
+  - 鈴
+  - >2-
+
+    不過規模變得越大，
+- wait:
+  - 35
+- face:
+  - 102611
+  - 4
+- print:
+  - 鈴
+  - 似乎也代表會變得越來越忙，
+- wait:
+  - 40
+- print:
+  - 鈴
+  - >2
+
+- eye_open:
+  - False
+- eye_open:
+  - False
+- print:
+  - 鈴
+  - 這樣我的心情也有點複雜就是了……
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 102611
+- bust:
+  - 102611
+  - 0
+- vo:
+  - vo_adv_6040207_003
+- face:
+  - 102611
+  - 6
+- nod:
+  - 102611
+- print:
+  - 鈴
+  - 就是說啊！
+- wait:
+  - 35
+- print:
+  - 鈴
+  - 　難得有溫泉竟然還得一直工作！
+- wait:
+  - 65
+- print:
+  - 鈴
+  - >2
+
+- face:
+  - 102611
+  - 2
+- print:
+  - 鈴
+  - ……不過，
+- wait:
+  - 25
+- print:
+  - 鈴
+  - 真陽好像很高興，所以也不錯啦。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 102611
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

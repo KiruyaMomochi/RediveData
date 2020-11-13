@@ -1,0 +1,281 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500036
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - false
+- situation:
+  - 聖誕演唱會
+- chara_full:
+  - 111611
+  - C
+  - 1
+- fadein:
+  - 111611
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M283_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111611
+- bust:
+  - 111611
+  - 0
+- vo:
+  - vo_adv_6029105_000
+- face:
+  - 111611
+  - 1
+- print:
+  - 望
+  - 你來看我們的
+- wait:
+  - 15
+- print:
+  - 望
+  - 聖誕演唱會了對吧。
+- wait:
+  - 40
+- print:
+  - 望
+  - >2
+
+- nod:
+  - 111611
+- print:
+  - 望
+  - 你覺得怎麼樣？　
+- wait:
+  - 15
+- print:
+  - 望
+  - 請你告訴我最真實的感想。
+- touch: &o0 []
+- choice:
+  - 很棒喔。
+  - 1
+  - 1
+- choice:
+  - 這是最棒的演唱會！
+  - 2
+  - 2
+- choice:
+  - 唱歌。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 111611
+- bust:
+  - 111611
+  - 0
+- vo:
+  - vo_adv_6029105_001
+- face:
+  - 111611
+  - 2
+- emotion:
+  - note1_L
+  - 111611
+  - -85
+  - 465
+  - se_adv_emote_note_01
+- print:
+  - 望
+  - 呵呵，
+- wait:
+  - 20
+- print:
+  - 望
+  - 你這麼說讓我好開心。
+- wait:
+  - 40
+- print:
+  - 望
+  - >2
+
+- face:
+  - 111611
+  - 1
+- print:
+  - 望
+  - 下次你來，
+- wait:
+  - 15
+- print:
+  - 望
+  - 我一定會從舞台上
+- wait:
+  - 10
+- print:
+  - 望
+  - >2-
+
+    找到你的！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 111611
+- bust:
+  - 111611
+  - 0
+- vo:
+  - vo_adv_6029105_002
+- face:
+  - 111611
+  - 2
+- emotion:
+  - twinkle1_R
+  - 111611
+  - -85
+  - 450
+  - se_adv_emote_twinkle_01
+- print:
+  - 望
+  - 嗯，
+- wait:
+  - 15
+- print:
+  - 望
+  - 謝謝！
+- wait:
+  - 30
+- print:
+  - 望
+  - >2
+
+- face:
+  - 111611
+  - 1
+- print:
+  - 望
+  - 下次的演唱會我一定會表演得更棒，
+- wait:
+  - 30
+- print:
+  - 望
+  - >2
+
+- face:
+  - 111611
+  - 7
+- print:
+  - 望
+  - 所以你一定要再來看喔！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 111611
+- bust:
+  - 111611
+  - 0
+- vo:
+  - vo_adv_6029105_003
+- face:
+  - 111611
+  - 6
+- print:
+  - 望
+  - 哇～
+- wait:
+  - 15
+- print:
+  - 望
+  - 剛剛的新歌，
+- wait:
+  - 15
+- print:
+  - 望
+  - 你已經記起來了嗎……？
+- wait:
+  - 35
+- print:
+  - 望
+  - >2
+
+- face:
+  - 111611
+  - 2
+- print:
+  - 望
+  - 謝謝。
+- wait:
+  - 20
+- print:
+  - 望
+  - 我好高興！　
+- wait:
+  - 40
+- nod:
+  - 111611
+- print:
+  - 望
+  - 欸嘿嘿，
+- wait:
+  - 20
+- face:
+  - 111611
+  - 1
+- print:
+  - 望
+  - 那、
+- wait:
+  - 10
+- print:
+  - 望
+  - 下次要不要一起唱唱看？
+- wait:
+  - 60
+- print:
+  - 望
+  - >2-
+
+    你說你可能沒辦法唱得很好聽？　
+- wait:
+  - 50
+- face:
+  - 111611
+  - 2
+- print:
+  - 望
+  - 沒關係啦，
+- wait:
+  - 25
+- print:
+  - 望
+  - 我會教你的！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 111611
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

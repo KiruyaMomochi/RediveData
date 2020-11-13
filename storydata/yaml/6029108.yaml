@@ -1,0 +1,253 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500037
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - false
+- situation:
+  - 謀反的馴鹿
+- chara_full:
+  - 111611
+  - C
+  - 4
+- fadein:
+  - 111611
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M180_Ver2
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111611
+- bust:
+  - 111611
+  - 0
+- vo:
+  - vo_adv_6029108_000
+- face:
+  - 111611
+  - 4
+- print:
+  - 望
+  - 我們得趕快阻止
+- wait:
+  - 15
+- print:
+  - 望
+  - 菁英馴鹿先生牠們！
+- wait:
+  - 35
+- print:
+  - 望
+  - >2-
+
+    一定是因為我們一直勉強牠們做些很亂來的事情……！
+- touch: &o0 []
+- choice:
+  - 和馴鹿牠們好好溝通吧。
+  - 1
+  - 1
+- choice:
+  - 大家一起跟牠們道歉吧。
+  - 2
+  - 2
+- choice:
+  - 我想變成馴鹿看看。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 111611
+- bust:
+  - 111611
+  - 0
+- vo:
+  - vo_adv_6029108_001
+- face:
+  - 111611
+  - 1
+- print:
+  - 望
+  - 即使語言不通，
+- wait:
+  - 30
+- print:
+  - 望
+  - 一定也能找到方法表達我們的想法的！
+- wait:
+  - 50
+- print:
+  - 望
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 望
+  - 我
+- wait:
+  - 20
+- print:
+  - 望
+  - 覺得好像知道該怎麼辦了。
+- wait:
+  - 60
+- print:
+  - 望
+  - >2
+
+- eye_open:
+  - True
+- nod:
+  - 111611
+- print:
+  - 望
+  - 沒問題。
+- wait:
+  - 30
+- print:
+  - 望
+  - 我一定會
+- wait:
+  - 5
+- print:
+  - 望
+  - 想辦法解決！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 111611
+- bust:
+  - 111611
+  - 0
+- vo:
+  - vo_adv_6029108_002
+- face:
+  - 111611
+  - 4
+- nod:
+  - 111611
+- print:
+  - 望
+  - 嗯……
+- wait:
+  - 30
+- print:
+  - 望
+  - 如果牠們願意聽我們說倒還好……
+- wait:
+  - 35
+- print:
+  - 望
+  - >2-
+
+    不過牠們那麼生氣，
+- wait:
+  - 35
+- print:
+  - 望
+  - 可能得先讓牠們冷靜下來才行。
+- wait:
+  - 60
+- print:
+  - 望
+  - >2
+
+- face:
+  - 111611
+  - 1
+- print:
+  - 望
+  - 和製作人跟伊莉亞一起
+- wait:
+  - 30
+- print:
+  - 望
+  - 加油吧！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 111611
+- bust:
+  - 111611
+  - 0
+- vo:
+  - vo_adv_6029108_003
+- face:
+  - 111611
+  - 6
+- emotion:
+  - surprise1_L
+  - 111611
+  - 155
+  - 535
+  - se_adv_emote_common_01
+- print:
+  - 望
+  - 你的好奇心真旺盛耶！？
+- wait:
+  - 50
+- print:
+  - 望
+  - >2
+
+- face:
+  - 111611
+  - 4
+- print:
+  - 望
+  - 不，
+- wait:
+  - 15
+- print:
+  - 望
+  - 我覺得這很像你會說的話……
+- wait:
+  - 60
+- face:
+  - 111611
+  - 3
+- print:
+  - 望
+  - 要是你變成了馴鹿的話，
+- wait:
+  - 35
+- print:
+  - 望
+  - >2-
+
+    我會好好的照顧你的！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 111611
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

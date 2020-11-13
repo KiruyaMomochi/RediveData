@@ -1,0 +1,1409 @@
+- title:
+  - 怜 第3話
+- outline:
+  - 興趣是海釣的怜，遇到為了取得食材而垂下釣魚線的{0}。就在這時從沒見過的大魚上鉤了。兩人合作一起成功地釣上來，作為釣魚好友關係也更加深刻了。
+- background:
+  - 500160
+- amb:
+  - amb_adv_seaside_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 只屬兩人的約定
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 怜利用休假來海釣。
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 100311
+  - C
+  - 2
+- fadein:
+  - 100311
+  - 30
+- bgm:
+  - bgm_M02
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003003_000
+- face:
+  - 100311
+  - 2
+- print:
+  - 怜
+  - 今天能找到這麼好的地方，真是太好了。
+- wait:
+  - 10
+- print:
+  - 怜
+  - >2-
+
+    又安靜，收穫也豐富……真是最棒的休假。
+- wait:
+  - 120
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003003_001
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 像這樣悠哉地釣魚，
+- eye_open:
+  - FALSE
+- print:
+  - 怜
+  - 讓人感到心情平靜……
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- eye_open:
+  - true
+- face:
+  - 100311
+  - 6
+- emotion:
+  - notice1_L
+  - 100311
+  - -85
+  - 555
+  - se_adv_emote_common_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003003_002
+- face:
+  - 100311
+  - 6
+- print:
+  - 怜
+  - 嗯……？
+- wait:
+  - 10
+- print:
+  - 怜
+  - >2-
+
+    那是……除了我之外還有其他人在釣魚啊。
+- wait:
+  - 70
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - ……我還在想是誰呢，不就是他嗎。
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_dirt_walk_go_01
+- change:
+  - RC
+  - C
+- fadeout:
+  - 100311
+  - 30
+- wait:
+  - 15
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- se:
+  - se_adv_step_dirt_walk_come_01
+- wait:
+  - 15
+- chara_full:
+  - 100311
+  - LC
+  - 2
+- change:
+  - C
+  - LC
+- fadein:
+  - 100311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003003_003
+- face:
+  - 100311
+  - 2
+- print:
+  - 怜
+  - 呦。你也會釣魚啊。
+- wait:
+  - 55
+- print:
+  - 怜
+  - >2-
+
+    今天這附近的魚很好釣喔。
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 100311
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100311
+  - 0
+  - 660
+  - se_adv_emote_common_01
+- bgm:
+  - stop
+  - 3
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003003_004
+- face:
+  - 100311
+  - 6
+- print:
+  - 怜
+  - 你的魚上鉤了喔！
+- wait:
+  - 40
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 3
+- print:
+  - 怜
+  - 不趕快收線的話！
+- touch: *o0
+- choice:
+  - 努力拉竿。
+  - 1
+- tag:
+  - 1
+- bgm:
+  - bgm_M15_02_NoIntro
+  - 0
+  - 0
+  - 1
+- fadeout:
+  - 100311
+  - 30
+- se:
+  - se_adv_fishing_hit_01
+- shake_once:
+  - 1
+- wait:
+  - 30
+- shake_once:
+  - 1
+- wait:
+  - 30
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 1
+- vo:
+  - vo_adv_1003003_005
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 好，就是這樣……！
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 1
+- vo:
+  - vo_adv_1003003_006
+- face:
+  - 100311
+  - 4
+- print:
+  - 怜
+  - 不，不行啊……！
+- wait:
+  - 25
+- print:
+  - 怜
+  - >2-
+
+    照這樣下去，你會被拖到海裡去的！
+- wait:
+  - 45
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 3
+- print:
+  - 怜
+  - 究竟是什麼樣的大魚……
+- touch: *o0
+- window_visible:
+  - false
+- bg_pan:
+  - 0
+  - -100
+  - 10
+- wait:
+  - 10
+- bg_pan:
+  - -100
+  - 0
+  - 5
+- se:
+  - se_adv_magic_water_large_01
+- shake_screen: *o0
+- chara_full:
+  - 100311
+  - C
+  - 6
+- fadein:
+  - 100311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003003_007
+- face:
+  - 100311
+  - 6
+- emotion:
+  - surprise1_L
+  - 100311
+  - 150
+  - 560
+  - se_adv_emote_common_01
+- print:
+  - 怜
+  - 什……！？ 剛才跳起來的是……！！
+- wait:
+  - 20
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 4
+- print:
+  - 怜
+  - 那麼巨大的魚，我從來沒見過……
+- wait:
+  - 30
+- touch: *o0
+- fadeout:
+  - 100311
+  - 15
+- chara_full:
+  - 100312
+  - C
+  - 3
+- fadein:
+  - 100312
+  - 15
+- focus:
+  - 100312
+- bust:
+  - 100312
+  - 0
+- vo:
+  - vo_adv_1003003_008
+- face:
+  - 100312
+  - 3
+- print:
+  - 怜
+  - 以牠為對手的話，用那樣的釣具，你只會被往海裡拉！
+- wait:
+  - 40
+- print:
+  - 怜
+  - >2-
+
+    事情變成那樣的話，我就砍了牠！
+- touch: *o0
+- se:
+  - se_adv_creature_cmn_01
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- print:
+  - 巨大魚
+  - ──呱歐歐歐歐歐！
+- touch: *o0
+- focus:
+  - 100312
+- bust:
+  - 100312
+  - 0
+- vo:
+  - vo_adv_1003003_009
+- face:
+  - 100312
+  - 6
+- print:
+  - 怜
+  - 牠注意到我們這邊了！
+- wait:
+  - 10
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100312
+  - 3
+- print:
+  - 怜
+  - 正好！ 看我將你碎屍萬段！
+- wait:
+  - 20
+- print:
+  - 怜
+  - >2-
+
+    ……密斯脫拉突風！！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0030
+  - se_adv_transition_01
+- change:
+  - R
+  - C
+  - 15
+- wait:
+  - 5
+- fadeout:
+  - 100312
+  - 10
+- effect_delete:
+  - 0030
+  - 30
+- wait:
+  - 5
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0016
+  - se_adv_weapon_sword_hit_02
+  - 180
+- wait:
+  - 45
+- background:
+  - 500160
+- wait:
+  - 20
+- se:
+  - se_adv_bodyfall_01
+- shake_screen: *o0
+- bgm:
+  - stop
+  - 1.5
+  - 1
+- wait:
+  - 15
+- chara_full:
+  - 100311
+  - C
+  - 3
+- fadein:
+  - 100311
+  - 30
+- bgm:
+  - bgm_M04
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003003_010
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 呼……剛才真是驚險。
+- wait:
+  - 55
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 2
+- print:
+  - 怜
+  - 但是能釣起那麼大的魚，你真了不起。
+- wait:
+  - 10
+- touch: *o0
+- choice:
+  - 把魚讓給怜。
+  - 2
+- tag:
+  - 2
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003003_011
+- face:
+  - 100311
+  - 6
+- print:
+  - 怜
+  - 要給我嗎？
+- wait:
+  - 45
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 4
+- print:
+  - 怜
+  - 但這是你釣起來的魚……
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 100311
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100311
+  - 0
+  - 660
+  - se_adv_emote_common_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003003_012
+- face:
+  - 100311
+  - 6
+- print:
+  - 怜
+  - 幫助你的謝禮……？
+- wait:
+  - 90
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 如果是這樣，我就不客氣收下了。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003003_013
+- face:
+  - 100311
+  - 4
+- emotion:
+  - sweat1_R
+  - 100311
+  - 85
+  - 480
+  - se_adv_emote_sweat_01
+- print:
+  - 怜
+  - ……雖然想這麼說，
+- wait:
+  - 10
+- print:
+  - 怜
+  - >2-
+
+    看你一臉那麼想要這條魚，我很為難呢。
+- wait:
+  - 10
+- print:
+  - 怜
+  - >2-
+
+    是你說要讓給我的喔。
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003003_014
+- face:
+  - 100311
+  - 6
+- print:
+  - 怜
+  - 話說回來，你為何會來這裡釣魚呢？
+- wait:
+  - 10
+- touch: *o0
+- choice:
+  - 為了食材。
+  - 3
+- tag:
+  - 3
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003003_015
+- face:
+  - 100311
+  - 4
+- print:
+  - 怜
+  - 嗯……話雖如此，你卻一條魚也還沒釣上來。
+- wait:
+  - 20
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_hungry_02
+- wait:
+  - 15
+- face:
+  - 100311
+  - 6
+- wait:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003003_016
+- face:
+  - 100311
+  - 2
+- print:
+  - 怜
+  - 哈哈哈，肚子叫得那麼大聲。
+- wait:
+  - 105
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 我現在要在這裡烤剛剛釣的魚，要一起吃嗎？
+- wait:
+  - 40
+- print:
+  - 怜
+  - >2-
+
+    因為我一個人再怎麼說也吃不完。
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003003_017
+- face:
+  - 100311
+  - 2
+- print:
+  - 怜
+  - 你肚子餓了吧？
+- wait:
+  - 10
+- print:
+  - 怜
+  - >2-
+
+    不用客氣來吃吧。
+- touch: *o0
+- fadeout:
+  - 100311
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 100311
+  - C
+  - 6
+- fadein:
+  - 100311
+  - 30
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003003_018
+- face:
+  - 100311
+  - 6
+- print:
+  - 怜
+  - ……你的吃相真驚人。
+- touch: *o0
+- choice:
+  - 妳做料理很行呢。
+  - 4
+- choice:
+  - 妳是我的救命恩人。
+  - 5
+- tag:
+  - 4
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003003_019
+- face:
+  - 100311
+  - 4
+- print:
+  - 怜
+  - 這個能算是料理嗎？
+- wait:
+  - 75
+- print:
+  - 怜
+  - >2-
+
+    我除了簡單的烹飪之外，其它的都不會做。
+- wait:
+  - 60
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 不過被你稱讚，我還是很開心喔。
+- wait:
+  - 10
+- touch: *o0
+- goto:
+  - 6
+- tag:
+  - 5
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003003_020
+- face:
+  - 100311
+  - 2
+- emotion:
+  - note1_L
+  - 100311
+  - -120
+  - 530
+  - se_adv_emote_note_01
+- print:
+  - 怜
+  - 呵呵，太誇張了。
+- wait:
+  - 60
+- print:
+  - 怜
+  - >2-
+
+    能讓你那麼高興，我的努力也有價值了。
+- wait:
+  - 10
+- touch: *o0
+- tag:
+  - 6
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003003_021
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 你接下來如何打算？
+- wait:
+  - 10
+- print:
+  - 怜
+  - >2-
+
+    我還想要再釣一會，你方便的話要不要一起呢？
+- wait:
+  - 10
+- touch: *o0
+- choice:
+  - 我要把剛才吃的份釣回來還妳。
+  - 7
+- tag:
+  - 7
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003003_022
+- face:
+  - 100311
+  - 6
+- print:
+  - 怜
+  - 不用還也沒關係的說。
+- wait:
+  - 10
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 我知道了，我就不懷期待的等著。
+- wait:
+  - 20
+- print:
+  - 怜
+  - >2-
+
+    那麼我們開始吧。
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+- fadeout:
+  - 100311
+  - 30
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 100311
+  - C
+  - 6
+- fadein:
+  - 100311
+  - 30
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003003_023
+- face:
+  - 100311
+  - 6
+- emotion:
+  - notice1_L
+  - 100311
+  - -85
+  - 555
+  - se_adv_emote_common_01
+- print:
+  - 怜
+  - 喔……？
+- wait:
+  - 10
+- print:
+  - 怜
+  - >2-
+
+    你的釣竿，魚鉤快鬆脫了喔。
+- wait:
+  - 55
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 3
+- print:
+  - 怜
+  - 要多留意一下。
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003003_024
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 對對，確實地重新綁好……
+- wait:
+  - 85
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 3
+- print:
+  - 怜
+  - 等等。你不覺得綁法很奇怪嗎？
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003003_025
+- face:
+  - 100311
+  - 4
+- emotion:
+  - sweat1_R
+  - 100311
+  - 85
+  - 480
+  - se_adv_emote_sweat_01
+- print:
+  - 怜
+  - ……你該不會是釣魚菜鳥吧？
+- wait:
+  - 90
+- print:
+  - 怜
+  - >2-
+
+    那樣的話釣不到也是理所當然的。
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003003_026
+- face:
+  - 100311
+  - 3
+- print:
+  - 怜
+  - 真是的……拿你沒辦法。
+- wait:
+  - 75
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 我來教你。
+- touch: *o0
+- bgm:
+  - bgm_M53
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003003_027
+- face:
+  - 100311
+  - 3
+- print:
+  - 怜
+  - 首先重要的是好好地保養釣魚當天要用的魚鉤和線。
+- wait:
+  - 135
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 不珍惜道具的話，無論如何都釣不到魚的。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003003_028
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 綁的方式
+- nod:
+  - 100311
+- print:
+  - 怜
+  - 是把這個如此這般……這樣就好了！
+- wait:
+  - 135
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 2
+- print:
+  - 怜
+  - 懂了嗎？
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003003_029
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 接著是釣魚的地方喔。
+- wait:
+  - 45
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 4
+- print:
+  - 怜
+  - 在沒有魚的地方垂釣也沒有任何意義。
+- wait:
+  - 75
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 2
+- print:
+  - 怜
+  - 這個附近很好釣，所以今天不用換地方也沒關係。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1003003_030
+- face:
+  - 100311
+  - 3
+- print:
+  - 怜
+  - 再來是拋竿的遠近，
+- wait:
+  - 20
+- print:
+  - 怜
+  - >2-
+
+    落點的深淺……
+- face:
+  - 100311
+  - 2
+- print:
+  - 怜
+  - 諸如此類的，
+- wait:
+  - 20
+- print:
+  - 怜
+  - >2-
+
+    我會一面實際操作一面教你，你得努力跟上。
+- wait:
+  - 10
+- touch: *o0
+- fadeout:
+  - 100311
+  - 30
+- white_out:
+  - 1
+  - 1
+- still:
+  - 100300301
+- wait:
+  - 15
+- white_in: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 1
+- vo:
+  - vo_adv_1003003_031
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - ……比我想像中釣得還多呢。
+- wait:
+  - 40
+- print:
+  - 怜
+  - >2-
+
+    太好了，我們都大豐收呢。
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 1
+- vo:
+  - vo_adv_1003003_032
+- face:
+  - 100311
+  - 2
+- print:
+  - 怜
+  - 你釣魚的天分也不錯呢。
+- wait:
+  - 45
+- print:
+  - 怜
+  - >2-
+
+    我只是稍微點一下，你就能釣上這麼多魚。
+- wait:
+  - 10
+- touch: *o0
+- choice:
+  - 請收我為釣魚的徒弟，師傅。
+  - 8
+- tag:
+  - 8
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 1
+- vo:
+  - vo_adv_1003003_033
+- face:
+  - 100311
+  - 6
+- print:
+  - 怜
+  - 師傅！？
+- wait:
+  - 45
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 5
+- print:
+  - 怜
+  - 被你那麼叫，感覺很不好意思……
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 1
+- vo:
+  - vo_adv_1003003_034
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 而且我只是放不下有困難的夥伴而已。
+- wait:
+  - 90
+- print:
+  - 怜
+  - >2-
+
+    不用放在心上。
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 1
+- vo:
+  - vo_adv_1003003_035
+- face:
+  - 100311
+  - 2
+- print:
+  - 怜
+  - 再說……想道謝的反而是我。
+- wait:
+  - 70
+- print:
+  - 怜
+  - >2-
+
+    因為我也釣得很開心。
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 1
+- vo:
+  - vo_adv_1003003_036
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 因為我釣魚通常都是一個人居多啊。
+- wait:
+  - 10
+- print:
+  - 怜
+  - >2-
+
+    所以今天久違地跟他人一起釣魚……很開心喔。
+- wait:
+  - 20
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 1
+- vo:
+  - vo_adv_1003003_037
+- face:
+  - 100311
+  - 2
+- print:
+  - 怜
+  - 只要你願意的話，要不要再一起去釣魚呢？
+- wait:
+  - 30
+- touch: *o0
+- choice:
+  - 我會開心地去。
+  - 9
+- tag:
+  - 9
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 1
+- vo:
+  - vo_adv_1003003_038
+- face:
+  - 100311
+  - 2
+- print:
+  - 怜
+  - 太好了，這是只屬於我們兩人的約定喔。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    除了至今為止的關係之外，
+
+    {0}和怜也成了釣友。
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

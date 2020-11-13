@@ -1,0 +1,234 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500036
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - false
+- situation:
+  - 禮物造成大混亂？
+- chara_full:
+  - 111511
+  - C
+  - 2
+- fadein:
+  - 111511
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M173
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111511
+- bust:
+  - 111511
+  - 0
+- vo:
+  - vo_adv_6029206_000
+- face:
+  - 111511
+  - 2
+- nod:
+  - 111511
+- print:
+  - 克莉絲提娜
+  - 怎麼樣啊，小子！
+- wait:
+  - 30
+- print:
+  - 克莉絲提娜
+  - 你玩得開心嗎？
+- wait:
+  - 45
+- print:
+  - 克莉絲提娜
+  - >2-
+
+    你聽見了吧！
+- wait:
+  - 25
+- print:
+  - 克莉絲提娜
+  - 收到聖誕老人禮物的人們那開心的聲音！
+- wait:
+  - 60
+- print:
+  - 克莉絲提娜
+  - >2-
+
+    這就是聖誕節喔♪
+- wait:
+  - 43
+- print:
+  - 克莉絲提娜
+  - 　好好地看清楚囉！
+- touch: &o0 []
+- choice:
+  - 真開心呢。
+  - 1
+  - 1
+- choice:
+  - 這樣真的是聖誕節嗎……？
+  - 2
+  - 2
+- choice:
+  - 我好像聽到尖叫聲……
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 111511
+- bust:
+  - 111511
+  - 0
+- vo:
+  - vo_adv_6029206_001
+- face:
+  - 111511
+  - 2
+- emotion:
+  - twinkle1_R
+  - 111511
+  - -125
+  - 505
+  - se_adv_emote_twinkle_01
+- print:
+  - 克莉絲提娜
+  - 對吧？　
+- wait:
+  - 30
+- print:
+  - 克莉絲提娜
+  - 好～
+- wait:
+  - 25
+- print:
+  - 克莉絲提娜
+  - 那我再來送些更讓人快樂的聖誕節禮物吧！
+- wait:
+  - 50
+- print:
+  - 克莉絲提娜
+  - >2-
+
+    克莉絲提娜聖誕老人送的禮物
+- wait:
+  - 35
+- print:
+  - 克莉絲提娜
+  - 可是別有風情喔……☆
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 111511
+- bust:
+  - 111511
+  - 0
+- vo:
+  - vo_adv_6029206_002
+- face:
+  - 111511
+  - 3
+- print:
+  - 克莉絲提娜
+  - 你懷疑嗎？
+- wait:
+  - 45
+- print:
+  - 克莉絲提娜
+  - >2-
+
+    聖誕老人送禮物給大家，
+- wait:
+  - 40
+- print:
+  - 克莉絲提娜
+  - 沒有什麼不對啊？
+- wait:
+  - 45
+- print:
+  - 克莉絲提娜
+  - >2
+
+- face:
+  - 111511
+  - 1
+- print:
+  - 克莉絲提娜
+  - 那些細枝末節就別介意了。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 111511
+- bust:
+  - 111511
+  - 0
+- vo:
+  - vo_adv_6029206_003
+- face:
+  - 111511
+  - 1
+- print:
+  - 克莉絲提娜
+  - 這就是所謂的開心到尖叫。
+- wait:
+  - 55
+- print:
+  - 克莉絲提娜
+  - >2
+
+- face:
+  - 111511
+  - 2
+- print:
+  - 克莉絲提娜
+  - 這是聖誕老人才有的福利呢……♪
+- wait:
+  - 40
+- print:
+  - 克莉絲提娜
+  - >2
+
+- nod:
+  - 111511
+- print:
+  - 克莉絲提娜
+  - 跟我來！
+- wait:
+  - 30
+- print:
+  - 克莉絲提娜
+  - 來去聆聽更多尖叫聲吧！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 111511
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

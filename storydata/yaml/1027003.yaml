@@ -1,0 +1,1542 @@
+- title:
+  - 惠理子 第3話
+- outline:
+  - 不允許其他女性將情書交給{0}的惠理子，動身前往信中寫的相會之處。此時，在那設陷埋伏的女性盜賊們，被惠理子反擊，報仇了雪恨。
+- background:
+  - 500010
+- amb:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 恐怖的情書
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - '{0}被一位素未謀面的女性叫住。'
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 1211
+  - C
+  - 5
+- fadein:
+  - 1211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1211
+- bust:
+  - 1211
+  - 0
+- vo:
+  - vo_adv_1027003_000
+- face:
+  - 1211
+  - 5
+- print:
+  - 女性
+  - 那個～
+- wait:
+  - 45
+- print:
+  - 女性
+  - 這是情書！　
+- wait:
+  - 45
+- face:
+  - 1211
+  - 2
+- nod:
+  - 1211
+- print:
+  - 女性
+  - 不介意的話請你看一下！
+- wait:
+  - 30
+- print:
+  - 女性
+  - >2-
+
+    我思慕著你寫下了這封情書！
+- touch: *o0
+- choice:
+  - 打開來讀。
+  - 1
+- choice:
+  - 該怎麼辦。
+  - 2
+- tag:
+  - 1
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 1211
+  - 30
+- chara_full:
+  - 102711
+  - C
+  - 3
+- fadein:
+  - 102711
+  - 30
+- bgm:
+  - bgm_M13
+  - 0
+  - 0
+  - 1
+- window_visible:
+  - true
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027003_001
+- face:
+  - 102711
+  - 3
+- print:
+  - 惠理子
+  - 由我來……
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 代您……
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 讀那封信……
+- touch: *o0
+- goto:
+  - 3
+- tag:
+  - 2
+- window_visible:
+  - false
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 1211
+  - 30
+- chara_full:
+  - 102711
+  - C
+  - 3
+- fadein:
+  - 102711
+  - 30
+- bgm:
+  - bgm_M13
+  - 0
+  - 0
+  - 1
+- window_visible:
+  - true
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027003_002
+- face:
+  - 102711
+  - 3
+- print:
+  - 惠理子
+  - 當然是應該立即丟掉它了。
+- token: *o0
+- print:
+  - 惠理子
+  - >2
+
+- shake:
+  - 102711
+- print:
+  - 惠理子
+  - 請撕掉毀掉丟掉扔掉燒掉它……
+- touch: *o0
+- tag:
+  - 3
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027003_003
+- face:
+  - 102711
+  - 6
+- print:
+  - 惠理子
+  - 唉呀……
+- wait:
+  - 45
+- print:
+  - 惠理子
+  - 這好像是……
+- wait:
+  - 45
+- face:
+  - 102711
+  - 3
+- shake:
+  - 102711
+- print:
+  - 惠理子
+  - 情書……
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 的……
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 樣子……
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 呢……
+- touch: *o0
+- shake_loop: *o0
+- effect:
+  - 0027
+  - se_adv_angry_burning_01
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027003_004
+- face:
+  - 102711
+  - 4
+- print:
+  - 惠理子
+  - 不能原諒不能原諒不能原諒不能原諒不能原諒不能原諒……
+- wait:
+  - 150
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 3
+- print:
+  - 惠理子
+  - 竟敢對屬於我的{0}大人送秋波……！
+- touch: *o0
+- shake_delete: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027003_005
+- face:
+  - 102711
+  - 3
+- print:
+  - 惠理子
+  - 這樣的東西……
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 這樣的髒東西
+- wait:
+  - 45
+- print:
+  - 惠理子
+  - 要立即處理！
+- wait:
+  - 45
+- print:
+  - 惠理子
+  - >2-
+
+    {0}大人，
+- wait:
+  - 45
+- print:
+  - 惠理子
+  - 我們一起去燒掉它吧。
+- touch: *o0
+- window_visible:
+  - false
+- effect_delete:
+  - 0027
+  - 15
+- se:
+  - se_adv_step_dirt_walk_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 102711
+  - 30
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500220
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_angry_burning_01
+- chara_full:
+  - 102711
+  - C
+  - 3
+- fadein:
+  - 102711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027003_006
+- face:
+  - 102711
+  - 3
+- shake:
+  - 102711
+- print:
+  - 惠理子
+  - 骯髒的垃圾……
+- wait:
+  - 75
+- print:
+  - 惠理子
+  - 就要燒得一乾二淨連灰燼都不剩……
+- wait:
+  - 60
+- print:
+  - 惠理子
+  - >2-
+
+    最好是用火山的地獄業火……
+- wait:
+  - 105
+- print:
+  - 惠理子
+  - >2
+
+- shake:
+  - 102711
+- print:
+  - 惠理子
+  - 燃燒吧燃燒吧燃燒吧燃燒吧燃燒吧燃燒吧燃燒吧燃燒吧燃燒吧……
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027003_007
+- face:
+  - 102711
+  - 1
+- print:
+  - 惠理子
+  - 垃圾就要像垃圾一樣……
+- wait:
+  - 60
+- print:
+  - 惠理子
+  - 好好地處理掉……
+- wait:
+  - 90
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 2
+- jump:
+  - 102711
+- print:
+  - 惠理子
+  - 那麼……
+- wait:
+  - 45
+- print:
+  - 惠理子
+  - '{0}大人……'
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 我們出發吧。
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027003_008
+- face:
+  - 102711
+  - 1
+- print:
+  - 惠理子
+  - 當然是去信中內容約好的地方
+- wait:
+  - 60
+- print:
+  - 惠理子
+  - 呢……
+- wait:
+  - 60
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 3
+- print:
+  - 惠理子
+  - 將膽敢接近{0}大人的母狗
+- wait:
+  - 45
+- print:
+  - 惠理子
+  - >2-
+
+    好好地懲罰一番……
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027003_009
+- face:
+  - 102711
+  - 3
+- print:
+  - 惠理子
+  - 為了讓她……
+- token: *o0
+- print:
+  - 惠理子
+  - 不再跟{0}大人扯上任何關係……
+- token: *o0
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 2
+- print:
+  - 惠理子
+  - 我會徹底地擊潰她……
+- wait:
+  - 90
+- print:
+  - 惠理子
+  - 嘻嘻。
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 4
+  - 1
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 102711
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 0.5
+- background:
+  - 500240
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_dungeon_01
+- se:
+  - se_adv_step_dirt_walk_come_01
+- wait:
+  - 15
+- chara_full:
+  - 102711
+  - C
+  - 3
+- change:
+  - LC
+  - RC
+  - 30
+- fadein:
+  - 102711
+  - 30
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027003_010
+- face:
+  - 102711
+  - 3
+- print:
+  - 惠理子
+  - ……地圖上所標示的地點，
+- wait:
+  - 45
+- print:
+  - 惠理子
+  - >2-
+
+    應該在洞窟
+- wait:
+  - 45
+- print:
+  - 惠理子
+  - 的附近……
+- wait:
+  - 45
+- print:
+  - 惠理子
+  - 才對……？
+- touch: *o0
+- fadeout:
+  - 102711
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 911
+  - L
+  - 1
+- chara_full:
+  - 1211
+  - C
+  - 1
+- chara_full:
+  - 811
+  - R
+  - 1
+- fadein_all:
+  - 30
+- bgm:
+  - bgm_M14
+- focus:
+  - 1211
+- bust:
+  - 1211
+  - 0
+- vo:
+  - vo_adv_1027003_011
+- face:
+  - 1211
+  - 2
+- print:
+  - 女性
+  - 啊哈哈哈！　
+- wait:
+  - 60
+- print:
+  - 女性
+  - 那傢伙真的來了呢？
+- wait:
+  - 45
+- print:
+  - 女性
+  - >2
+
+- face:
+  - 1211
+  - 1
+- print:
+  - 女性
+  - 他完全上鉤了呢！
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1027003_012
+- face:
+  - 811
+  - 2
+- print:
+  - 無賴１
+  - 因為大姐太有魅力呀。
+- wait:
+  - 60
+- print:
+  - 無賴１
+  - >2
+
+- pop:
+  - 811
+- print:
+  - 無賴１
+  - 真不愧是大姐！
+- touch: *o0
+- focus:
+  - 1211
+- bust:
+  - 1211
+  - 0
+- vo:
+  - vo_adv_1027003_013
+- face:
+  - 1211
+  - 2
+- print:
+  - 女性
+  - 呵呵，
+- wait:
+  - 15
+- print:
+  - 女性
+  - 不用這樣大力稱讚我。
+- wait:
+  - 45
+- print:
+  - 女性
+  - >2
+
+- face:
+  - 1211
+  - 6
+- print:
+  - 女性
+  - 嗯？　
+- wait:
+  - 45
+- print:
+  - 女性
+  - 多了個不相關的女人……
+- wait:
+  - 60
+- print:
+  - 女性
+  - 算了，無所謂啦。
+- wait:
+  - 30
+- print:
+  - 女性
+  - >2
+
+- face:
+  - 1211
+  - 3
+- print:
+  - 女性
+  - 小子們，
+- wait:
+  - 45
+- print:
+  - 女性
+  - 解決掉他們！
+- touch: *o0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1027003_014
+- multi_talk:
+  - 811:911
+- face:
+  - 1
+  - 1
+- focus:
+  - 811:911
+- print:
+  - 無賴們
+  - 是的！
+- token: *o0
+- print:
+  - 無賴們
+  - 大姐！
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1027003_015
+- face:
+  - 811
+  - 3
+- print:
+  - 無賴１
+  - 喂喂，
+- wait:
+  - 30
+- shake:
+  - 811
+- print:
+  - 無賴１
+  - 你們這些傢伙！
+- wait:
+  - 30
+- print:
+  - 無賴１
+  - >2-
+
+    如果要命的話，
+- wait:
+  - 15
+- print:
+  - 無賴１
+  - 快點把所有的錢交出來！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 911
+  - LC
+  - 3
+- chara_full:
+  - 811
+  - RC
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 1
+- vo:
+  - vo_adv_1027003_016
+- face:
+  - 102711
+  - 6
+- print:
+  - 惠理子
+  - 搞什麼……
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 你們是誰？
+- wait:
+  - 45
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 3
+- print:
+  - 惠理子
+  - 我……
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 有事情要找……
+- wait:
+  - 45
+- print:
+  - 惠理子
+  - 那個女人。
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1027003_017
+- face:
+  - 911
+  - 6
+- print:
+  - 無賴２
+  - 妳還沒搞清楚狀況嗎？
+- wait:
+  - 60
+- print:
+  - 無賴２
+  - >2
+
+- face:
+  - 911
+  - 3
+- shake:
+  - 911
+- print:
+  - 無賴２
+  - 總之把值錢的東西交出來！
+- wait:
+  - 60
+- print:
+  - 無賴２
+  - >2-
+
+    如果妳不聽話，
+- wait:
+  - 60
+- print:
+  - 無賴２
+  - 我就來硬的——
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1.5
+- effect:
+  - 0001
+  - se_adv_weapon_sword_hit_01
+  - 0
+  - LC
+- wait:
+  - 15
+- window_visible:
+  - true
+- bgm:
+  - bgm_M17
+  - 0
+  - 0
+  - 1
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1027003_018
+- face:
+  - 911
+  - 6
+- print:
+  - 無賴２
+  - 嗚！？
+- touch: *o0
+- bust:
+  - 102711
+  - 1
+- vo:
+  - vo_adv_1027003_019
+- face:
+  - 102711
+  - 3
+- print:
+  - 惠理子
+  - 你們很……
+- wait:
+  - 45
+- print:
+  - 惠理子
+  - 礙事……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0016
+  - se_adv_weapon_sword_large_hit_01
+- wait:
+  - 30
+- background:
+  - 500240
+- chara_full:
+  - 911
+  - LC
+  - 6
+- chara_full:
+  - 811
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1027003_020
+- multi_talk:
+  - 811:911
+- face:
+  - 1
+  - 1
+- focus:
+  - 811:911
+- print:
+  - 無賴們
+  - 嗚哇哇哇！？
+- touch: *o0
+- window_visible:
+  - false
+- updown:
+  - 911
+  - 0
+  - -150
+  - 0.1
+- updown:
+  - 811
+  - 0
+  - -150
+  - 0.1
+- fadeout_all:
+  - 30
+- shake_loop: *o0
+- se:
+  - se_adv_bodyfall_01
+- wait:
+  - 30
+- shake_delete: *o0
+- chara_full:
+  - 1211
+  - LC
+  - 6
+- fadein:
+  - 1211
+  - 30
+- se:
+  - se_adv_emote_nortice_02
+- window_visible:
+  - true
+- focus:
+  - 1211
+- bust:
+  - 1211
+  - 0
+- vo:
+  - vo_adv_1027003_021
+- face:
+  - 1211
+  - 6
+- emotion:
+  - surprise1_L
+  - 1211
+  - 135
+  - 575
+  - '*non'
+- print:
+  - 女性
+  - 騙、
+- wait:
+  - 30
+- print:
+  - 女性
+  - 騙人……！？　
+- wait:
+  - 30
+- print:
+  - 女性
+  - 竟然全軍覆沒了……！？
+- wait:
+  - 45
+- print:
+  - 女性
+  - >2
+
+- face:
+  - 1211
+  - 4
+- print:
+  - 女性
+  - 難、
+- wait:
+  - 15
+- print:
+  - 女性
+  - 難不成妳是……
+- wait:
+  - 45
+- print:
+  - 女性
+  - 人稱『破壞者』的
+- wait:
+  - 30
+- print:
+  - 女性
+  - 惠理子？
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_dirt_move_01
+- chara_full:
+  - 102711
+  - R
+  - 3
+- change:
+  - RC
+  - R
+  - 30
+- fadein:
+  - 102711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027003_022
+- face:
+  - 102711
+  - 3
+- print:
+  - 惠理子
+  - ……那邊的女人，
+- wait:
+  - 45
+- print:
+  - 惠理子
+  - >2-
+
+    我們終於可以兩個人……
+- wait:
+  - 60
+- print:
+  - 惠理子
+  - 好好聊聊了呢……
+- wait:
+  - 60
+- face:
+  - 102711
+  - 2
+- print:
+  - 惠理子
+  - 嘻嘻。
+- touch: *o0
+- focus:
+  - 1211
+- bust:
+  - 1211
+  - 0
+- vo:
+  - vo_adv_1027003_023
+- face:
+  - 1211
+  - 4
+- print:
+  - 女性
+  - 噫、
+- wait:
+  - 15
+- shake:
+  - 1211
+- print:
+  - 女性
+  - 噫！？
+- wait:
+  - 15
+- print:
+  - 女性
+  - >2
+
+- face:
+  - 1211
+  - 3
+- print:
+  - 女性
+  - 找、找、找、
+- wait:
+  - 30
+- print:
+  - 女性
+  - 找我有什麼事！？
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027003_024
+- face:
+  - 102711
+  - 3
+- print:
+  - 惠理子
+  - 妳竟敢對{0}大人送秋波……
+- wait:
+  - 60
+- print:
+  - 惠理子
+  - 真是罪該萬死。
+- wait:
+  - 75
+- print:
+  - 惠理子
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - 惠理子
+  - 這位大人可不是其他女人能隨便接近的人……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 102711
+  - C
+  - 3
+- bgm:
+  - stop
+  - 1.5
+  - 1
+- fadein:
+  - 102711
+  - 30
+- effect:
+  - 0027
+  - se_adv_angry_burning_01
+- window_visible:
+  - true
+- bgm:
+  - bgm_M17_02
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027003_025
+- face:
+  - 102711
+  - 3
+- eye_open:
+  - FALSE
+- print:
+  - 惠理子
+  - '{0}大人是屬於我的……'
+- wait:
+  - 90
+- print:
+  - 惠理子
+  - 是只屬於我的……
+- wait:
+  - 105
+- shake:
+  - 102711
+- eye_open:
+  - TRUE
+- print:
+  - 惠理子
+  - 只屬於我……！！
+- wait:
+  - 90
+- print:
+  - 惠理子
+  - >2-
+
+    眼睛、
+- wait:
+  - 10
+- print:
+  - 惠理子
+  - 耳朵、
+- wait:
+  - 10
+- print:
+  - 惠理子
+  - 鼻子、
+- wait:
+  - 10
+- print:
+  - 惠理子
+  - 嘴巴、
+- wait:
+  - 10
+- print:
+  - 惠理子
+  - 毛髮、
+- wait:
+  - 10
+- print:
+  - 惠理子
+  - 脖子、
+- wait:
+  - 10
+- print:
+  - 惠理子
+  - 胸部、
+- wait:
+  - 10
+- print:
+  - 惠理子
+  - 腰部、
+- wait:
+  - 10
+- print:
+  - 惠理子
+  - 腹部、
+- wait:
+  - 10
+- print:
+  - 惠理子
+  - 背部、
+- wait:
+  - 10
+- print:
+  - 惠理子
+  - 手
+- wait:
+  - 10
+- print:
+  - 惠理子
+  - 腳都是……！
+- touch: *o0
+- effect_delete:
+  - 0027
+  - 15
+- fadeout:
+  - 102711
+  - 30
+- wait:
+  - 15
+- chara_full:
+  - 1211
+  - LC
+  - 3
+- chara_full:
+  - 102711
+  - RC
+  - 3
+- fadein_all:
+  - 30
+- focus:
+  - 1211
+- bust:
+  - 1211
+  - 0
+- vo:
+  - vo_adv_1027003_026
+- face:
+  - 1211
+  - 3
+- print:
+  - 女性
+  - 妳、
+- wait:
+  - 15
+- print:
+  - 女性
+  - 妳在說什麼啦！　
+- wait:
+  - 15
+- print:
+  - 女性
+  - 那封情書只是陷阱而已！
+- wait:
+  - 45
+- print:
+  - 女性
+  - >2-
+
+    我對他這樣呆頭呆腦的傢伙沒興趣啦！
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027003_027
+- face:
+  - 102711
+  - 6
+- print:
+  - 惠理子
+  - 哎呀……
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 是這樣嗎……
+- touch: *o0
+- focus:
+  - 1211
+- bust:
+  - 1211
+  - 0
+- vo:
+  - vo_adv_1027003_028
+- face:
+  - 1211
+  - 6
+- print:
+  - 女性
+  - 妳、
+- token: *o0
+- print:
+  - 女性
+  - 妳總算明白了……？
+- wait:
+  - 45
+- print:
+  - 女性
+  - >2
+
+- face:
+  - 1211
+  - 2
+- nod:
+  - 1211
+- print:
+  - 女性
+  - 太好了，
+- wait:
+  - 15
+- print:
+  - 女性
+  - 這樣就得救——
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027003_029
+- face:
+  - 102711
+  - 6
+- print:
+  - 惠理子
+  - 沒興趣……？
+- shake:
+  - 102711
+- wait:
+  - 90
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 3
+- print:
+  - 惠理子
+  - 妳竟敢侮辱{0}大人……
+- wait:
+  - 90
+- print:
+  - 惠理子
+  - 不可饒恕……！
+- touch: *o0
+- focus:
+  - 1211
+- bust:
+  - 1211
+  - 0
+- vo:
+  - vo_adv_1027003_030
+- face:
+  - 1211
+  - 6
+- print:
+  - 女性
+  - 結果還是不行嗎！？
+- wait:
+  - 45
+- print:
+  - 女性
+  - >2
+
+- face:
+  - 1211
+  - 4
+- shake:
+  - 1211
+- print:
+  - 女性
+  - 誰、
+- wait:
+  - 15
+- print:
+  - 女性
+  - 誰來救命呀！！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_dirt_run_go_01
+- out_L:
+  - 1211
+  - 45
+  - true
+- window_visible:
+  - true
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027003_031
+- face:
+  - 102711
+  - 3
+- print:
+  - 惠理子
+  - 逃跑……
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 也是沒用的……
+- wait:
+  - 45
+- print:
+  - 惠理子
+  - >2-
+
+    接近{0}大人的女人……
+- wait:
+  - 75
+- print:
+  - 惠理子
+  - >2-
+
+    我不會讓她活著回去……！
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027003_032
+- face:
+  - 102711
+  - 2
+- print:
+  - 惠理子
+  - 嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻……
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_dirt_run_go_01
+- change:
+  - C
+  - RC
+  - 30
+- fadeout:
+  - 102711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    雖然就結果來說惠理子從流氓手中保護了自己，
+
+    但是{0}心中恐怖的感覺變得更強烈，
+
+    實在一點都無法放心。
+- touch: *o0
+- window_visible:
+  - false
+- vo_effect:
+  - 0
+- bgm:
+  - stop
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

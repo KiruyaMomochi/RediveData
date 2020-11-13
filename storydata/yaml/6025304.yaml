@@ -1,0 +1,236 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 505032
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 都市傳說
+- chara_full:
+  - 111211
+  - C
+  - 6
+- fadein:
+  - 111211
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M269
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_6025304_000
+- face:
+  - 111211
+  - 6
+- print:
+  - 禊
+  - 哥哥，
+- wait:
+  - 20
+- print:
+  - 禊
+  - 你聽過都市傳說嗎？
+- wait:
+  - 55
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 4
+- print:
+  - 禊
+  - 我聽鏡華說的，
+- wait:
+  - 15
+- print:
+  - 禊
+  - 但我不太懂～
+- touch: &o0 []
+- choice:
+  - 很酷呢。
+  - 1
+  - 1
+- choice:
+  - 我聽說過。
+  - 2
+  - 2
+- choice:
+  - 蘭德索爾的傳說？
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_6025304_001
+- face:
+  - 111211
+  - 3
+- print:
+  - 禊
+  - 聽說不酷，
+- wait:
+  - 30
+- nod:
+  - 111211
+- print:
+  - 禊
+  - 好像傳的沸沸揚揚的，
+- wait:
+  - 35
+- print:
+  - 禊
+  - >2-
+
+    說是變得越來越可怕！
+- wait:
+  - 30
+- print:
+  - 禊
+  - >2-
+
+    ……
+- wait:
+  - 10
+- face:
+  - 111211
+  - 6
+- print:
+  - 禊
+  - 啊！　
+- wait:
+  - 20
+- print:
+  - 禊
+  - 禊變聰明了！？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_6025304_002
+- face:
+  - 111211
+  - 6
+- print:
+  - 禊
+  - 聽朋友的朋友說的？
+- wait:
+  - 60
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 1
+- nod:
+  - 111211
+- print:
+  - 禊
+  - 對，
+- wait:
+  - 15
+- print:
+  - 禊
+  - 那好像就是都市傳說哦！
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 4
+- print:
+  - 禊
+  - 結果什麼也沒搞清楚呢！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_6025304_003
+- face:
+  - 111211
+  - 6
+- nod:
+  - 111211
+- print:
+  - 禊
+  - 蘭德索爾的傳說是什麼啊，
+- wait:
+  - 30
+- print:
+  - 禊
+  - 哥哥！？
+- wait:
+  - 25
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 4
+- print:
+  - 禊
+  - 又出現奇怪的傳說了啦！
+- wait:
+  - 55
+- print:
+  - 禊
+  - >2-
+
+    不知道的話就說不知道啦～！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 111211
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

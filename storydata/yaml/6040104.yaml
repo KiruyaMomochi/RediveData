@@ -1,0 +1,241 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500995
+- amb:
+  - amb_adv_outdoors_day_01
+- ui_visible:
+  - false
+- situation:
+  - 關於鈴
+- chara_full:
+  - 103311
+  - C
+  - 6
+- fadein:
+  - 103311
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M352_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 103311
+- bust:
+  - 103311
+  - 0
+- vo:
+  - vo_adv_6040104_000
+- face:
+  - 103311
+  - 6
+- print:
+  - 真陽
+  - 鈴鈴在
+- wait:
+  - 15
+- print:
+  - 真陽
+  - 認真努力著……
+- wait:
+  - 50
+- eye_open:
+  - False
+- print:
+  - 真陽
+  - 雖然我真的很高興，
+- wait:
+  - 50
+- print:
+  - 真陽
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 真陽
+  - 但果然還是
+- wait:
+  - 20
+- print:
+  - 真陽
+  - 像在作夢一樣的啦。
+- touch: &o0 []
+- choice:
+  - 希望她變回原樣嗎？
+  - 1
+  - 1
+- choice:
+  - 得給她一點獎勵呢
+  - 2
+  - 2
+- choice:
+  - 因為是為了夥伴們呢
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 103311
+- bust:
+  - 103311
+  - 0
+- vo:
+  - vo_adv_6040104_001
+- face:
+  - 103311
+  - 1
+- print:
+  - 真陽
+  - 雖然一直都在叫她去工作去工作的，
+- wait:
+  - 55
+- print:
+  - 真陽
+  - >2-
+
+    但還是會想念原本那個在偷懶的鈴鈴呢。
+- wait:
+  - 90
+- print:
+  - 真陽
+  - >2
+
+- face:
+  - 103311
+  - 2
+- print:
+  - 真陽
+  - 能夠跟往常一樣，
+- wait:
+  - 30
+- print:
+  - 真陽
+  - 真的是一件值得感謝的事情呢。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 103311
+- bust:
+  - 103311
+  - 0
+- vo:
+  - vo_adv_6040104_002
+- face:
+  - 103311
+  - 6
+- print:
+  - 真陽
+  - 對鈴鈴來說的獎勵，
+- wait:
+  - 60
+- emotion:
+  - question1_R
+  - 103311
+  - 115
+  - 455
+  - se_adv_emote_question_01
+- print:
+  - 真陽
+  - 就是讓她休息，
+- wait:
+  - 20
+- print:
+  - 真陽
+  - 是嗎？
+- wait:
+  - 50
+- print:
+  - 真陽
+  - >2
+
+- face:
+  - 103311
+  - 4
+- print:
+  - 真陽
+  - 可是沒辦法讓她休息呢……
+- wait:
+  - 65
+- print:
+  - 真陽
+  - >2
+
+- face:
+  - 103311
+  - 1
+- print:
+  - 真陽
+  - 那就把我的全新搞笑段子當成禮物吧！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 103311
+- bust:
+  - 103311
+  - 0
+- vo:
+  - vo_adv_6040104_003
+- face:
+  - 103311
+  - 2
+- nod:
+  - 103311
+- print:
+  - 真陽
+  - 鈴鈴其實很溫柔呢。
+- wait:
+  - 70
+- print:
+  - 真陽
+  - >2
+
+- face:
+  - 103311
+  - 1
+- print:
+  - 真陽
+  - 雖然一直都知道
+- wait:
+  - 20
+- print:
+  - 真陽
+  - 她不是只會偷懶的人，
+- wait:
+  - 40
+- print:
+  - 真陽
+  - >2-
+
+    但真沒想到她會這麼可靠的啦。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 103311
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

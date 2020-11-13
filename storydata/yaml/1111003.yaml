@@ -1,0 +1,2052 @@
+- title:
+  - 鏡華（萬聖節） 第3話
+- outline:
+  - 遊行途中，鏡華因為跟{0}走散而感到不安。在人群中奔跑並大聲呼喊的{0}平安地跟鏡華會合，為了不再走散而牽起了手。
+- background:
+  - 505034
+- amb:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 迷路的遊行騎士
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    {0}跟鏡華兩人繼續的
+
+    在蘭德索爾開心地逛著街。
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 111111
+  - C
+  - 6
+- fadein:
+  - 111111
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M266
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_1111003_000
+- face:
+  - 111111
+  - 6
+- print:
+  - 鏡華
+  - 啊，
+- wait:
+  - 20
+- print:
+  - 鏡華
+  - 已經這麼晚了……！
+- wait:
+  - 30
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 111111
+  - 1
+- print:
+  - 鏡華
+  - 人變多了呢。
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 111111
+  - 1
+- emotion:
+  - notice1_L
+  - 111111
+  - -60
+  - 440
+  - se_adv_emote_common_01
+- wait:
+  - 45
+- emotion_end:
+  - 111111
+- window_visible:
+  - true
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_1111003_001
+- face:
+  - 111111
+  - 1
+- print:
+  - 鏡華
+  - ……你露出很不可思議的表情呢。
+- wait:
+  - 55
+- print:
+  - 鏡華
+  - >2-
+
+    也就是說，
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 你不知道接下來有什麼事情對吧？
+- wait:
+  - 60
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 111111
+  - 2
+- print:
+  - 鏡華
+  - 那麼
+- wait:
+  - 15
+- print:
+  - 鏡華
+  - 就讓我告訴你吧。
+- touch: *o0
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_1111003_002
+- face:
+  - 111111
+  - 2
+- nod:
+  - 111111
+- print:
+  - 鏡華
+  - 到了晚上，
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 會有萬聖節遊行喔。
+- wait:
+  - 30
+- print:
+  - 鏡華
+  - >2-
+
+    因為想要靠近一點看，
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 所以人們現在就開始聚集了。
+- touch: *o0
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_1111003_003
+- face:
+  - 111111
+  - 2
+- print:
+  - 鏡華
+  - 那麼，我們出發吧。
+- touch: *o0
+- choice:
+  - 要去哪裡？
+  - 1
+- choice:
+  - 加入大家一起去遊行吧！
+  - 2
+- tag:
+  - 1
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_1111003_004
+- face:
+  - 111111
+  - 1
+- nod:
+  - 111111
+- print:
+  - 鏡華
+  - 那還用說嗎。
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - >2-
+
+    遊行會經過的地方啊！
+- touch: *o0
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_1111003_005
+- face:
+  - 111111
+  - 2
+- print:
+  - 鏡華
+  - 會有很多孩子們聚集，
+- wait:
+  - 40
+- print:
+  - 鏡華
+  - >2-
+
+    是發糖果最好的機會呢。
+- touch: *o0
+- goto:
+  - 3
+- tag:
+  - 2
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_1111003_006
+- face:
+  - 111111
+  - 6
+- pop:
+  - 111111
+- print:
+  - 鏡華
+  - 才不是！
+- wait:
+  - 30
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 111111
+  - 1
+- print:
+  - 鏡華
+  - 我今天是要來做什麼的，
+- wait:
+  - 35
+- print:
+  - 鏡華
+  - 你忘記了嗎？
+- touch: *o0
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_1111003_007
+- face:
+  - 111111
+  - 2
+- print:
+  - 鏡華
+  - 是要發糖果
+- wait:
+  - 20
+- print:
+  - 鏡華
+  - 給孩子們啊！
+- wait:
+  - 45
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 111111
+  - 4
+- print:
+  - 鏡華
+  - 還記得嗎？　
+- wait:
+  - 40
+- print:
+  - 鏡華
+  - ……那是真的嗎～？
+- touch: *o0
+- tag:
+  - 3
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- window_visible:
+  - false
+- fadeout:
+  - 111111
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_town_day_01
+- chara_full:
+  - 111111
+  - LC
+  - 2
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 111111
+  - 45
+- window_visible:
+  - true
+- bgm:
+  - bgm_M136_Outside
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_1111003_008
+- face:
+  - 111111
+  - 2
+- print:
+  - 鏡華
+  - 這附近好像不錯呢。
+- wait:
+  - 45
+- print:
+  - 鏡華
+  - >2-
+
+    能夠看到遊行，
+- wait:
+  - 30
+- print:
+  - 鏡華
+  - 也很寬敞，
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 感覺會聚集很多人呢。
+- touch: *o0
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_1111003_009
+- face:
+  - 111111
+  - 1
+- print:
+  - 鏡華
+  - 那麼，
+- wait:
+  - 20
+- se:
+  - se_adv_bag_search_01
+- nod:
+  - 111111
+- print:
+  - 鏡華
+  - 把糖果拿出來
+- wait:
+  - 20
+- print:
+  - 鏡華
+  - 吧……
+- wait:
+  - 40
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 111111
+  - 2
+- print:
+  - 鏡華
+  - 嗯，
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 沒有被壓壞呢。
+- wait:
+  - 30
+- print:
+  - 鏡華
+  - 太好了～
+- touch: *o0
+- choice:
+  - 好像很好吃的杯子蛋糕呢。
+  - 4
+- tag:
+  - 4
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_1111003_010
+- face:
+  - 111111
+  - 2
+- print:
+  - 鏡華
+  - 對吧？　
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 是請母親大人幫忙，
+- wait:
+  - 30
+- print:
+  - 鏡華
+  - >2-
+
+    做得非常美味的
+- wait:
+  - 20
+- print:
+  - 鏡華
+  - 自信作品喔！
+- wait:
+  - 50
+- print:
+  - 鏡華
+  - >2-
+
+    你的份也……
+- wait:
+  - 50
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 111111
+- bgm:
+  - stop
+  - 2
+- print:
+  - 鏡華
+  - 啊！
+- touch: *o0
+- bgm:
+  - bgm_M135_Outside_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_1111003_011
+- face:
+  - 111111
+  - 2
+- print:
+  - 鏡華
+  - 請看那邊，
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 遊行好像走過來了呢。
+- wait:
+  - 50
+- print:
+  - 鏡華
+  - >2
+
+- emotion:
+  - twinkle1_R
+  - 111111
+  - -105
+  - 400
+  - se_adv_emote_twinkle_01
+- print:
+  - 鏡華
+  - 哇啊～
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 比想像的
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 還要更華麗呢！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1111003_012
+- face:
+  - 1
+  - 1
+- print:
+  - 女子１
+  - 大姐姐，
+- wait:
+  - 30
+- print:
+  - 女子１
+  - 不給糖就搗蛋！
+- touch: *o0
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_1111003_013
+- face:
+  - 111111
+  - 6
+- emotion:
+  - question1_R
+  - 111111
+  - 125
+  - 400
+  - se_adv_emote_question_01
+- print:
+  - 鏡華
+  - 咦？
+- wait:
+  - 30
+- print:
+  - 鏡華
+  - >2-
+
+    對、
+- wait:
+  - 10
+- print:
+  - 鏡華
+  - 對了！　
+- wait:
+  - 20
+- print:
+  - 鏡華
+  - 現在不是玩的時候！
+- wait:
+  - 35
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 111111
+  - 1
+- print:
+  - 鏡華
+  - 得好好的發糖果呢！
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
+- window_visible:
+  - FALSE
+- fadeout:
+  - 111111
+  - 30
+- white_out:
+  - 1
+  - 1
+- bg_color:
+  - 255
+  - 255
+  - 255
+- still:
+  - 111100301
+- wait:
+  - 15
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- white_in: *o0
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M266_03
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 1
+- vo:
+  - vo_adv_1111003_014
+- face:
+  - 111111
+  - 2
+- print:
+  - 鏡華
+  - 那麼……
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - >2-
+
+    來，
+- wait:
+  - 10
+- print:
+  - 鏡華
+  - 給你們！
+- touch: *o0
+- se:
+  - se_adv_tickle_02
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1111003_015
+- face:
+  - 1
+  - 1
+- print:
+  - 女子１
+  - 好厲害！　
+- wait:
+  - 40
+- print:
+  - 女子１
+  - 這個點心
+- wait:
+  - 25
+- print:
+  - 女子１
+  - 好可愛！
+- wait:
+  - 40
+- print:
+  - 女子１
+  - >2-
+
+    大姐姐，
+- wait:
+  - 10
+- print:
+  - 女子１
+  - 謝謝妳！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1111003_016
+- face:
+  - 1
+  - 1
+- print:
+  - 女子１
+  - 好香喔～……
+- wait:
+  - 75
+- se:
+  - se_adv_eating_01
+- print:
+  - 女子１
+  - 啊嗯！
+- wait:
+  - 15
+- print:
+  - 女子１
+  - >2-
+
+    嚼嚼嗯……
+- wait:
+  - 45
+- print:
+  - 女子１
+  - 嗚哇，
+- wait:
+  - 35
+- print:
+  - 女子１
+  - 好好吃！
+- touch: *o0
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 1
+- vo:
+  - vo_adv_1111003_017
+- face:
+  - 111111
+  - 2
+- print:
+  - 鏡華
+  - 呵呵♪
+- wait:
+  - 20
+- print:
+  - 鏡華
+  - >2-
+
+    你們高興的話，
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 姐姐也很高興喔。
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1111003_018
+- face:
+  - 1
+  - 1
+- print:
+  - 男孩 1
+  - 啊，
+- wait:
+  - 15
+- print:
+  - 男孩 1
+  - 是剛剛的姐姐！
+- wait:
+  - 40
+- print:
+  - 男孩 1
+  - >2-
+
+    那個姐姐的杯子蛋糕，
+- wait:
+  - 15
+- print:
+  - 男孩 1
+  - >2-
+
+    超級好吃的喔！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1111003_019
+- face:
+  - 1
+  - 1
+- print:
+  - 女子２
+  - 是嗎？
+- wait:
+  - 30
+- print:
+  - 女子２
+  - >2-
+
+    那
+- wait:
+  - 10
+- print:
+  - 女子２
+  - 我也想要吃！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1111003_020
+- face:
+  - 1
+  - 1
+- print:
+  - 男孩 2
+  - 我也還想要再吃！
+- wait:
+  - 50
+- print:
+  - 男孩 2
+  - >2-
+
+    再給我一個嘛，
+- wait:
+  - 10
+- print:
+  - 男孩 2
+  - 姐姐！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1111003_021
+- face:
+  - 1
+  - 1
+- print:
+  - 女子１
+  - 啊，
+- wait:
+  - 15
+- print:
+  - 女子１
+  - 那我也
+- wait:
+  - 10
+- print:
+  - 女子１
+  - 想要再來一個！
+- touch: *o0
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 1
+- vo:
+  - vo_adv_1111003_022
+- face:
+  - 111111
+  - 6
+- print:
+  - 鏡華
+  - 不行喔，
+- wait:
+  - 20
+- print:
+  - 鏡華
+  - 一個人只能拿一個。
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1111003_023
+- face:
+  - 1
+  - 1
+- print:
+  - 男孩 1
+  - 欸～
+- wait:
+  - 30
+- print:
+  - 男孩 1
+  - 還想要嘛～！
+- touch: *o0
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 1
+- vo:
+  - vo_adv_1111003_024
+- face:
+  - 111111
+  - 4
+- print:
+  - 鏡華
+  - 嗯……
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 真沒辦法呢。
+- wait:
+  - 50
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 111111
+  - 2
+- print:
+  - 鏡華
+  - 大家，
+- wait:
+  - 15
+- print:
+  - 鏡華
+  - 都只能再拿一個喔！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1111003_025
+- face:
+  - 1
+  - 1
+- print:
+  - 孩子們
+  - 耶！
+- touch: *o0
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 1
+- vo:
+  - vo_adv_1111003_026
+- face:
+  - 111111
+  - 6
+- print:
+  - 鏡華
+  - 哇！？
+- wait:
+  - 20
+- print:
+  - 鏡華
+  - >2-
+
+    突然間
+- wait:
+  - 20
+- print:
+  - 鏡華
+  - 多了好多孩子！？
+- touch: *o0
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 1
+- vo:
+  - vo_adv_1111003_027
+- face:
+  - 111111
+  - 1
+- print:
+  - 鏡華
+  - 好了好了大家―！
+- wait:
+  - 40
+- print:
+  - 鏡華
+  - >2-
+
+    都會給你們
+- wait:
+  - 15
+- print:
+  - 鏡華
+  - 杯子蛋糕的！
+- wait:
+  - 30
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 111111
+  - 2
+- print:
+  - 鏡華
+  - 不要推擠，
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 要有禮貌的等著喔―！
+- touch: *o0
+- window_visible:
+  - FALSE
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 1
+- vo:
+  - vo_adv_1111003_028
+- face:
+  - 111111
+  - 2
+- print:
+  - 鏡華
+  - 我現在
+- wait:
+  - 30
+- print:
+  - 鏡華
+  - 非常的像個大姐姐！
+- wait:
+  - 40
+- print:
+  - 鏡華
+  - >2-
+
+    總覺得
+- wait:
+  - 20
+- print:
+  - 鏡華
+  - 非常的像大人呢！　
+- touch: *o0
+- window_visible:
+  - FALSE
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1111003_029
+- face:
+  - 1
+  - 1
+- print:
+  - 女子２
+  - 姐姐，
+- wait:
+  - 10
+- print:
+  - 女子２
+  - 謝謝妳―！
+- wait:
+  - 25
+- print:
+  - 女子２
+  - >2-
+
+    掰掰～！
+- touch: *o0
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 1
+- vo:
+  - vo_adv_1111003_030
+- face:
+  - 111111
+  - 2
+- print:
+  - 鏡華
+  - 嗯，
+- wait:
+  - 15
+- print:
+  - 鏡華
+  - 掰掰♪
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_children_step_02
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0022
+  - 30
+- background:
+  - 505034
+- still:
+  - end
+- wait:
+  - 15
+- white_in: *o0
+- chara_full:
+  - 111111
+  - C
+  - 2
+- fadein:
+  - 111111
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M136_Outside
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_1111003_031
+- face:
+  - 111111
+  - 2
+- print:
+  - 鏡華
+  - ……呼，
+- wait:
+  - 30
+- print:
+  - 鏡華
+  - 走掉了呢。
+- wait:
+  - 30
+- print:
+  - 鏡華
+  - >2-
+
+    大家都很開心呢，
+- wait:
+  - 30
+- print:
+  - 鏡華
+  - 太好了～！
+- touch: *o0
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_1111003_032
+- face:
+  - 111111
+  - 2
+- nod:
+  - 111111
+- print:
+  - 鏡華
+  - 好了，
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 現在
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 去那邊看看吧！
+- wait:
+  - 35
+- print:
+  - 鏡華
+  - >2-
+
+    也想要把點心發給
+- wait:
+  - 35
+- print:
+  - 鏡華
+  - 還沒有拿過的孩子們呢！
+- wait:
+  - 50
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 111111
+  - 1
+- print:
+  - 鏡華
+  - ……聽到了嗎，{0}？
+- touch: *o0
+- bgm:
+  - stop
+  - 6
+  - 1
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_1111003_033
+- face:
+  - 111111
+  - 6
+- emotion:
+  - question1_R
+  - 111111
+  - 125
+  - 400
+  - se_adv_emote_question_01
+- print:
+  - 鏡華
+  - ……咦？
+- wait:
+  - 15
+- print:
+  - 鏡華
+  - >2-
+
+    {0}不在……？
+- wait:
+  - 40
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 111111
+  - 4
+- print:
+  - 鏡華
+  - 該不會……
+- wait:
+  - 20
+- print:
+  - 鏡華
+  - 走散了……？
+- touch: *o0
+- bgm:
+  - bgm_M137
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_1111003_034
+- face:
+  - 111111
+  - 4
+- print:
+  - 鏡華
+  - ……這麼說起來，
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 這裡是哪裡啊……？
+- wait:
+  - 35
+- print:
+  - 鏡華
+  - >2-
+
+    太專心在發點心了，
+- wait:
+  - 40
+- print:
+  - 鏡華
+  - 完全不記得
+- wait:
+  - 25
+- eye_open:
+  - FALSE
+- print:
+  - 鏡華
+  - 是怎麼走到這裡來的……
+- touch: *o0
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_1111003_035
+- face:
+  - 111111
+  - 6
+- eye_open:
+  - True
+- print:
+  - 鏡華
+  - 嗯，
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 總之得先去找那個人呢。
+- wait:
+  - 40
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 111111
+  - 4
+- print:
+  - 鏡華
+  - 可、可是，
+- wait:
+  - 15
+- print:
+  - 鏡華
+  - 有好多人……
+- wait:
+  - 45
+- print:
+  - 鏡華
+  - 要在這裡找到他……
+- touch: *o0
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_1111003_036
+- face:
+  - 111111
+  - 4
+- emotion:
+  - sweat2_R
+  - 111111
+  - 75
+  - 450
+  - se_adv_emote_sweat_02
+- print:
+  - 鏡華
+  - 唔……
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 怎麼辦……！
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - >2-
+
+    不管往哪邊，
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 都只有不認識的人……
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_1111003_037
+- face:
+  - 111111
+  - 4
+- print:
+  - 鏡華
+  - 我
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 明明變得像個大姐姐了……
+- wait:
+  - 45
+- print:
+  - 鏡華
+  - >2-
+
+    只是那個人不在而已，
+- wait:
+  - 30
+- eye_open:
+  - FALSE
+- print:
+  - 鏡華
+  - 居然就會變得這麼不安……
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - TRUE
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_1111003_038
+- face:
+  - 111111
+  - 4
+- eye_open:
+  - True
+- print:
+  - 鏡華
+  - ――……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 111111
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1111003_039
+- face:
+  - 1
+  - 1
+- print:
+  - 男性
+  - 好痛！　
+- wait:
+  - 30
+- print:
+  - 男性
+  - 喂，
+- wait:
+  - 15
+- print:
+  - 男性
+  - 那邊的小哥！
+- wait:
+  - 25
+- print:
+  - 男性
+  - >2-
+
+    別撞過來啊！　
+- wait:
+  - 20
+- print:
+  - 男性
+  - 趕什麼啊！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1111003_040
+- face:
+  - 1
+  - 1
+- print:
+  - 女性
+  - 小哥，
+- wait:
+  - 30
+- print:
+  - 女性
+  - 雖然不知道你在著急什麼，
+- wait:
+  - 30
+- print:
+  - 女性
+  - >2-
+
+    但是在這種人群中
+- wait:
+  - 20
+- print:
+  - 女性
+  - 奔跑可是很危險的！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 111111
+  - C
+  - 4
+  - 1
+- fadein:
+  - 111111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_1111003_041
+- face:
+  - 111111
+  - 4
+- print:
+  - 鏡華
+  - 嗚嗚……
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 鏡華
+  - 總覺得
+- wait:
+  - 20
+- print:
+  - 鏡華
+  - 那邊好像有點吵鬧……？
+- touch: *o0
+- choice:
+  - 喂～！　鏡華！
+  - 5
+- tag:
+  - 5
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_1111003_042
+- face:
+  - 111111
+  - 6
+- emotion:
+  - exclamation1_R
+  - 111111
+  - 15
+  - 570
+  - se_adv_emote_common_01
+- print:
+  - 鏡華
+  - 啊，
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 這個聲音是……！
+- touch: *o0
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_1111003_043
+- face:
+  - 111111
+  - 4
+- print:
+  - 鏡華
+  - 發出很大的聲音，
+- wait:
+  - 45
+- print:
+  - 鏡華
+  - >2-
+
+    在叫我……
+- touch: *o0
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_1111003_044
+- face:
+  - 111111
+  - 1
+- print:
+  - 鏡華
+  - 很拚命的在找我……！
+- wait:
+  - 60
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 111111
+  - 3
+- print:
+  - 鏡華
+  - 我、
+- wait:
+  - 15
+- print:
+  - 鏡華
+  - 我得、
+- wait:
+  - 20
+- print:
+  - 鏡華
+  - 回應他……！
+- touch: *o0
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_1111003_045
+- face:
+  - 111111
+  - 1
+- print:
+  - 鏡華
+  - 在……
+- wait:
+  - 20
+- pop:
+  - 111111
+- print:
+  - 鏡華
+  - 在這邊！
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - >2-
+
+    我在這裡！
+- touch: *o0
+- se:
+  - se_adv_step_concrete_run_armor_come_01
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_1111003_046
+- face:
+  - 111111
+  - 4
+- print:
+  - 鏡華
+  - 真、
+- wait:
+  - 15
+- print:
+  - 鏡華
+  - 真是的！
+- wait:
+  - 15
+- print:
+  - 鏡華
+  - >2-
+
+    你跑去哪裡了啦！
+- wait:
+  - 35
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 111111
+  - 5
+- print:
+  - 鏡華
+  - 我很擔心你呢！
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+- choice:
+  - 對不起。
+  - 6
+- tag:
+  - 6
+- bgm:
+  - bgm_M267
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_1111003_047
+- face:
+  - 111111
+  - 1
+- nod:
+  - 111111
+- print:
+  - 鏡華
+  - ……嗯，
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 你好像也
+- wait:
+  - 20
+- print:
+  - 鏡華
+  - 很拼命地在找我，
+- wait:
+  - 60
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 111111
+  - 5
+- print:
+  - 鏡華
+  - 也好好地重新遇上了，
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 沒關係了……
+- touch: *o0
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_1111003_048
+- face:
+  - 111111
+  - 1
+- print:
+  - 鏡華
+  - 只不過呀，
+- wait:
+  - 30
+- print:
+  - 鏡華
+  - 居然會迷路，
+- wait:
+  - 35
+- print:
+  - 鏡華
+  - >2-
+
+    {0}真是很令人困擾的人呢。
+- wait:
+  - 50
+- print:
+  - 鏡華
+  - >2-
+
+    如果我沒有跟在你身邊，
+- wait:
+  - 30
+- print:
+  - 鏡華
+  - 會很令人擔心呢！
+- touch: *o0
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_1111003_049
+- face:
+  - 111111
+  - 2
+- print:
+  - 鏡華
+  - 好了，
+- wait:
+  - 20
+- print:
+  - 鏡華
+  - 把手伸出來。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 111111
+  - 30
+- chara_full:
+  - 111111
+  - C
+  - 2
+- scale:
+  - 111111
+  - 1.3
+  - 3
+- se:
+  - se_adv_step_concrete_move_01
+- fadein:
+  - 111111
+  - 30
+- se:
+  - se_adv_body_handshake_01
+- nod:
+  - 111111
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_1111003_050
+- face:
+  - 111111
+  - 2
+- print:
+  - 鏡華
+  - 如果不這樣牽著手的話，
+- wait:
+  - 35
+- print:
+  - 鏡華
+  - 你一定
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - >2-
+
+    馬上又會走散呢。
+- wait:
+  - 50
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 111111
+  - 5
+- print:
+  - 鏡華
+  - ……可以
+- wait:
+  - 20
+- print:
+  - 鏡華
+  - 吧？
+- touch: *o0
+- choice:
+  - 嗯，拜託了。
+  - 7
+- tag:
+  - 7
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_1111003_051
+- face:
+  - 111111
+  - 2
+- nod:
+  - 111111
+- print:
+  - 鏡華
+  - 好的，
+- wait:
+  - 20
+- print:
+  - 鏡華
+  - 被拜託了呢。
+- touch: *o0
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_1111003_052
+- face:
+  - 111111
+  - 2
+- print:
+  - 鏡華
+  - 呵呵，
+- wait:
+  - 20
+- print:
+  - 鏡華
+  - 這樣就安心了呢。
+- wait:
+  - 45
+- print:
+  - 鏡華
+  - >2-
+
+    我會好好握住你的。
+- touch: *o0
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_1111003_053
+- face:
+  - 111111
+  - 5
+- print:
+  - 鏡華
+  - ……絕對
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 不能離開我喔？
+- touch: *o0
+- window_visible:
+  - FALSE
+- effect_delete:
+  - 0022
+  - 30
+- fadeout:
+  - 111111
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    一邊感受著相握的手傳來的體溫，
+
+    鏡華一邊開心地笑了。
+- touch: *o0
+- window_visible:
+  - FALSE
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

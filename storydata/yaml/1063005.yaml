@@ -1,0 +1,1451 @@
+- title:
+  - 亞里莎 第5話
+- outline:
+  - 在討伐魔物的工作途中，{0}向亞里莎學習弓箭。突然出現在兩人面前的魔物，亞里莎一時間感到緊張，但{0}的話讓她冷靜下來，並順利擊倒魔物。
+- background:
+  - 500140
+- amb:
+  - amb_adv_outdoors_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 精靈的弓術
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - '{0}和亞里莎為了擊退魔物的工作，來到了普拉諾平原。'
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 106311
+  - L
+  - 1
+- change:
+  - C
+  - L
+- fadein:
+  - 106311
+  - 30
+- bgm:
+  - bgm_M04
+- window_visible:
+  - true
+- focus:
+  - 106311
+- bust:
+  - 106311
+  - 0
+- vo:
+  - vo_adv_1063005_000
+- face:
+  - 106311
+  - 1
+- print:
+  - 亞里莎
+  - 之前發現魔物的地方，
+- wait:
+  - 45
+- print:
+  - 亞里莎
+  - >2-
+
+    是這附近……沒錯吧？
+- wait:
+  - 40
+- touch: *o0
+- focus:
+  - 106311
+- bust:
+  - 106311
+  - 0
+- vo:
+  - vo_adv_1063005_001
+- face:
+  - 106311
+  - 3
+- print:
+  - 亞里莎
+  - 好過分哦，竟然把好不容易種出來的蔬菜吃掉。
+- wait:
+  - 75
+- print:
+  - 亞里莎
+  - >2-
+
+    ……我們得做點什麼才行！
+- touch: *o0
+- focus:
+  - 106311
+- bust:
+  - 106311
+  - 0
+- vo:
+  - vo_adv_1063005_002
+- face:
+  - 106311
+  - 1
+- print:
+  - 亞里莎
+  - 聽說是像是鳥一樣會在空中飛翔的魔物……
+- wait:
+  - 100
+- print:
+  - 亞里莎
+  - >2
+
+- face:
+  - 106311
+  - 2
+- print:
+  - 亞里莎
+  - 不過，有我的弓在就放心吧！
+- wait:
+  - 60
+- print:
+  - 亞里莎
+  - >2-
+
+    而且也有你陪著！
+- touch: *o0
+- choice:
+  - 我也想射射看弓箭。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 106311
+- bust:
+  - 106311
+  - 0
+- vo:
+  - vo_adv_1063005_003
+- face:
+  - 106311
+  - 6
+- emotion:
+  - notice1_L
+  - 106311
+  - -65
+  - 545
+  - se_adv_emote_common_01
+- print:
+  - 亞里莎
+  - 咦，難道你對射箭也有興趣嗎？
+- wait:
+  - 75
+- print:
+  - 亞里莎
+  - >2
+
+- face:
+  - 106311
+  - 1
+- print:
+  - 亞里莎
+  - 雖然有點難，不過習慣後就非常方便呢！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 106311
+- bust:
+  - 106311
+  - 0
+- vo:
+  - vo_adv_1063005_004
+- face:
+  - 106311
+  - 6
+- print:
+  - 亞里莎
+  - 那個……如果可以的話，我來教你吧？
+- wait:
+  - 105
+- print:
+  - 亞里莎
+  - >2
+
+- face:
+  - 106311
+  - 4
+- print:
+  - 亞里莎
+  - 雖然不像蘿莎麗亞那麼厲害……
+- wait:
+  - 20
+- touch: *o0
+- choice:
+  - 老師，請教我射箭。
+  - 2
+- choice:
+  - 師父，請從射箭的基礎教我。
+  - 3
+- tag:
+  - 2
+- focus:
+  - 106311
+- bust:
+  - 106311
+  - 0
+- vo:
+  - vo_adv_1063005_005
+- face:
+  - 106311
+  - 2
+- print:
+  - 亞里莎
+  - 的確，
+- wait:
+  - 15
+- print:
+  - 亞里莎
+  - 如果{0}會使用弓箭我也比較放心呢！
+- wait:
+  - 70
+- print:
+  - 亞里莎
+  - >2
+
+- face:
+  - 106311
+  - 1
+- print:
+  - 亞里莎
+  - 雖然不像老師教得那麼好……
+- wait:
+  - 55
+- print:
+  - 亞里莎
+  - >2-
+
+    但既然{0}都這麼說的話，
+- wait:
+  - 30
+- print:
+  - 亞里莎
+  - 我知道了！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 106311
+- bust:
+  - 106311
+  - 0
+- vo:
+  - vo_adv_1063005_006
+- face:
+  - 106311
+  - 6
+- emotion:
+  - sweat2_R
+  - 106311
+  - 50
+  - 485
+  - '*non'
+- print:
+  - 亞里莎
+  - 這、這也不是什麼多厲害的事啦……
+- wait:
+  - 75
+- print:
+  - 亞里莎
+  - >2
+
+- face:
+  - 106311
+  - 2
+- print:
+  - 亞里莎
+  - 但如果是你的請求，我會努力教你的！
+- wait:
+  - 30
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 106311
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 500140
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 106311
+  - C
+  - 2
+- fadein:
+  - 106311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106311
+- bust:
+  - 106311
+  - 0
+- vo:
+  - vo_adv_1063005_007
+- face:
+  - 106311
+  - 2
+- print:
+  - 亞里莎
+  - 一開始不要想得太複雜，
+- wait:
+  - 40
+- print:
+  - 亞里莎
+  - >2-
+
+    總之先試試看就對了
+- pop:
+  - 106311
+- print:
+  - 亞里莎
+  - 。
+- touch: *o0
+- focus:
+  - 106311
+- bust:
+  - 106311
+  - 0
+- vo:
+  - vo_adv_1063005_008
+- face:
+  - 106311
+  - 1
+- print:
+  - 亞里莎
+  - 第一次應該很難擊中，不過沒關係！
+- wait:
+  - 75
+- print:
+  - 亞里莎
+  - >2-
+
+    慢慢適應就好了！
+- wait:
+  - 40
+- print:
+  - 亞里莎
+  - >2-
+
+    那麼，擺擺看姿勢吧。
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_weapon_arrow_loading_short_01
+- wait:
+  - 30
+- se:
+  - se_adv_weapon_arrow_fly_01
+- wait:
+  - 45
+- face:
+  - 106311
+  - 6
+- se:
+  - se_adv_weapon_arrow_string_break_01
+- wait:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106311
+- bust:
+  - 106311
+  - 0
+- vo:
+  - vo_adv_1063005_009
+- face:
+  - 106311
+  - 6
+- print:
+  - 亞里莎
+  - ……嗯，要再更，該怎麼說？
+- wait:
+  - 75
+- print:
+  - 亞里莎
+  - >2-
+
+    要再更沉著一點……
+- wait:
+  - 45
+- print:
+  - 亞里莎
+  - >2
+
+- face:
+  - 106311
+  - 1
+- print:
+  - 亞里莎
+  - 然後，把呼吸……
+- wait:
+  - 15
+- touch: *o0
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 106311
+- bust:
+  - 106311
+  - 0
+- vo:
+  - vo_adv_1063005_010
+- face:
+  - 106311
+  - 1
+- eye_open:
+  - False
+- print:
+  - 亞里莎
+  - （……這個感覺，好懷念啊。
+- wait:
+  - 100
+- print:
+  - 亞里莎
+  - >2-
+
+    以前，蘿莎麗亞也是像這樣教我的嗎。
+- wait:
+  - 105
+- print:
+  - 亞里莎
+  - >2-
+
+    姿勢要像大地一樣，呼吸要像微風一樣……）
+- wait:
+  - 75
+- touch: *o0
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- eye_open:
+  - true
+- window_visible:
+  - true
+- focus:
+  - 106311
+- bust:
+  - 106311
+  - 0
+- vo:
+  - vo_adv_1063005_011
+- face:
+  - 106311
+  - 1
+- print:
+  - 亞里莎
+  - 像大地，
+- wait:
+  - 30
+- print:
+  - 亞里莎
+  - 和微風一樣……
+- wait:
+  - 45
+- print:
+  - 亞里莎
+  - >2
+
+- face:
+  - 106311
+  - 4
+- print:
+  - 亞里莎
+  - 不，
+- nod:
+  - 106311
+- wait:
+  - 45
+- print:
+  - 亞里莎
+  - 抱歉，
+- wait:
+  - 30
+- print:
+  - 亞里莎
+  - 這樣說的話很難懂吧……
+- wait:
+  - 75
+- print:
+  - 亞里莎
+  - >2
+
+- face:
+  - 106311
+  - 1
+- print:
+  - 亞里莎
+  - 嗯…
+- wait:
+  - 30
+- print:
+  - 亞里莎
+  - 要像是這種感覺……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106311
+  - 30
+- chara_full:
+  - 106311
+  - C
+  - 1
+- scale:
+  - 106311
+  - 1.3
+  - 2
+- fadein:
+  - 106311
+  - 30
+- window_visible:
+  - true
+- se:
+  - se_adv_weapon_arrow_loading_middle_01
+- focus:
+  - 106311
+- bust:
+  - 106311
+  - 0
+- vo:
+  - vo_adv_1063005_012
+- face:
+  - 106311
+  - 1
+- print:
+  - 亞里莎
+  - ……
+- touch: *o0
+- choice:
+  - 怎麼了嗎？
+  - 5
+- tag:
+  - 5
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- focus:
+  - 106311
+- bust:
+  - 106311
+  - 0
+- vo:
+  - vo_adv_1063005_013
+- face:
+  - 106311
+  - 6
+- print:
+  - 亞里莎
+  - 啊，
+- wait:
+  - 30
+- print:
+  - 亞里莎
+  - 沒什麼！
+- wait:
+  - 30
+- print:
+  - 亞里莎
+  - >2
+
+- face:
+  - 106311
+  - 1
+- print:
+  - 亞里莎
+  - 只是想說{0}的背，
+- wait:
+  - 30
+- print:
+  - 亞里莎
+  - >2-
+
+    好寬啊。
+- touch: *o0
+- focus:
+  - 106311
+- bust:
+  - 106311
+  - 0
+- vo:
+  - vo_adv_1063005_014
+- face:
+  - 106311
+  - 2
+- print:
+  - 亞里莎
+  - 因為是男孩子，這也是當然的嘛！
+- wait:
+  - 60
+- print:
+  - 亞里莎
+  - >2-
+
+    ……不過我還是第一次對男孩子做這樣的事。
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 106311
+- bust:
+  - 106311
+  - 0
+- vo:
+  - vo_adv_1063005_015
+- face:
+  - 106311
+  - 2
+- print:
+  - 亞里莎
+  - ……肩膀也是，手臂也是，完全都不同呢。
+- wait:
+  - 60
+- print:
+  - 亞里莎
+  - >2-
+
+    真不可思議……
+- touch: *o0
+- window_visible:
+  - false
+- effect_delete:
+  - 0022
+  - 30
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 106311
+- bust:
+  - 106311
+  - 0
+- vo:
+  - vo_adv_1063005_016
+- face:
+  - 106311
+  - 5
+- print:
+  - 亞里莎
+  - ……奇怪，
+- wait:
+  - 30
+- print:
+  - 亞里莎
+  - 怎麼回事？
+- wait:
+  - 45
+- print:
+  - 亞里莎
+  - >2-
+
+    胸口，
+- wait:
+  - 30
+- print:
+  - 亞里莎
+  - 好痛苦……
+- wait:
+  - 40
+- print:
+  - 亞里莎
+  - 的樣子。
+- wait:
+  - 30
+- print:
+  - 亞里莎
+  - >2-
+
+    只要觸碰到{0}的話，
+- wait:
+  - 30
+- print:
+  - 亞里莎
+  - 就覺得……
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- fadeout:
+  - 106311
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 10
+- chara_full:
+  - 1611
+  - C
+  - 1
+- in_L:
+  - 1611
+  - 30
+  - true
+- jingle_start:
+  - bgm_M17_00_intro
+- se:
+  - se_adv_creature_cmn_01
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──呱歐歐歐歐歐
+- shake_screen: *o0
+- print:
+  - 魔物
+  - ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1611
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 106311
+  - C
+  - 6
+- fadein:
+  - 106311
+  - 30
+- bgm:
+  - bgm_M17
+  - 0
+  - 0
+  - 1
+- se:
+  - se_adv_emote_nortice_02
+- emotion:
+  - exclamation1_R
+  - 106311
+  - -20
+  - 650
+  - se_adv_emote_common_01
+- window_visible:
+  - true
+- focus:
+  - 106311
+- bust:
+  - 106311
+  - 0
+- vo:
+  - vo_adv_1063005_017
+- face:
+  - 106311
+  - 6
+- print:
+  - 亞里莎
+  - 咦！？
+- wait:
+  - 15
+- print:
+  - 亞里莎
+  - >2-
+
+    有魔物！？
+- wait:
+  - 30
+- print:
+  - 亞里莎
+  - >2
+
+- face:
+  - 106311
+  - 3
+- print:
+  - 亞里莎
+  - ……唔，可惡！
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106311
+  - 20
+- bg_color:
+  - 0
+  - 0
+  - 0
+- wait:
+  - 10
+- effect:
+  - 0002
+  - se_adv_weapon_arrow_fly_01
+  - 10
+- wait:
+  - 3
+- effect:
+  - 0002
+  - se_adv_weapon_arrow_fly_02
+  - 30
+- wait:
+  - 15
+- background:
+  - 500140
+- chara_full:
+  - 106311
+  - C
+  - 6
+- fadein:
+  - 106311
+  - 20
+- window_visible:
+  - true
+- se:
+  - se_adv_creature_cmn_02
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──呱歐歐歐歐歐！
+- touch: *o0
+- focus:
+  - 106311
+- bust:
+  - 106311
+  - 0
+- vo:
+  - vo_adv_1063005_018
+- face:
+  - 106311
+  - 6
+- print:
+  - 亞里莎
+  - ……唔！射偏了！
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 106311
+  - 3
+- fadeout:
+  - 106311
+  - 20
+- bg_color:
+  - 0
+  - 0
+  - 0
+- wait:
+  - 10
+- effect:
+  - 0002
+  - se_adv_weapon_arrow_fly_01
+  - 10
+- wait:
+  - 3
+- effect:
+  - 0002
+  - se_adv_weapon_arrow_fly_02
+  - 30
+- wait:
+  - 15
+- effect:
+  - 0002
+  - se_adv_weapon_arrow_fly_03
+  - 340
+  - R
+- wait:
+  - 3
+- effect:
+  - 0002
+  - se_adv_weapon_arrow_fly_01
+  - 350
+  - R
+- wait:
+  - 15
+- background:
+  - 500140
+- chara_full:
+  - 106311
+  - C
+  - 6
+- fadein:
+  - 106311
+  - 20
+- window_visible:
+  - true
+- se:
+  - se_adv_creature_cmn_02
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──呱歐歐歐歐歐！
+- touch: *o0
+- focus:
+  - 106311
+- bust:
+  - 106311
+  - 0
+- vo:
+  - vo_adv_1063005_019
+- face:
+  - 106311
+  - 6
+- print:
+  - 亞里莎
+  - 好快……！
+- wait:
+  - 30
+- print:
+  - 亞里莎
+  - >2-
+
+    不過……！
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- vo_effect:
+  - 3
+- change_window:
+  - 2
+- window_visible:
+  - true
+- focus:
+  - 106311
+- bust:
+  - 106311
+  - 0
+- vo:
+  - vo_adv_1063005_020
+- face:
+  - 106311
+  - 4
+- print:
+  - 亞里莎
+  - 既然在{0}的面前……
+- wait:
+  - 30
+- print:
+  - 亞里莎
+  - >2-
+
+    我怎麼能輸呢……！
+- wait:
+  - 45
+- print:
+  - 亞里莎
+  - >2-
+
+    冷靜下來……
+- shake:
+  - 106311
+- wait:
+  - 30
+- print:
+  - 亞里莎
+  - 冷靜下來……！
+- touch: *o0
+- bright_change:
+  - 1
+  - 100
+- vo_effect:
+  - 0
+- change_window:
+  - 1
+- window_visible:
+  - true
+- choice:
+  - 不要慌張冷靜下來。
+  - 6
+- tag:
+  - 6
+- focus:
+  - 106311
+- bust:
+  - 106311
+  - 0
+- vo:
+  - vo_adv_1063005_021
+- face:
+  - 106311
+  - 2
+- print:
+  - 亞里莎
+  - 嗯！
+- wait:
+  - 15
+- print:
+  - 亞里莎
+  - >2-
+
+    謝謝！
+- wait:
+  - 30
+- print:
+  - 亞里莎
+  - >2
+
+- face:
+  - 106311
+  - 1
+- eye_open:
+  - FALSE
+- print:
+  - 亞里莎
+  - 要像大地一樣，要像微風一樣――
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 60
+- change_window:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 106311
+- bust:
+  - 106311
+  - 0
+- vo:
+  - vo_adv_1063005_022
+- face:
+  - 106311
+  - 3
+- eye_open:
+  - TRUE
+- print:
+  - 亞里莎
+  - 喝啊啊啊！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106311
+  - 20
+- chara_full:
+  - 1611
+  - L
+  - 1
+- change:
+  - C
+  - L
+  - 10
+- fadein:
+  - 1611
+  - 10
+- effect:
+  - 0002
+  - se_adv_weapon_arrow_fly_01
+  - 10
+- effect:
+  - 0045
+- wait:
+  - 3
+- effect:
+  - 0002
+  - se_adv_weapon_arrow_fly_02
+  - 30
+- wait:
+  - 3
+- effect:
+  - 0002
+  - se_adv_weapon_arrow_fly_01
+  - 40
+  - R
+- wait:
+  - 15
+- text_size:
+  - 23
+- change_window:
+  - 1
+- se:
+  - se_adv_creature_cmn_03
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──嘰歐歐歐歐歐
+- sway:
+  - 1611
+- print:
+  - 魔物
+  - ！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1
+  - 1
+- updown:
+  - 1611
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1611
+  - 20
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- wait:
+  - 10
+- chara_full:
+  - 106311
+  - C
+  - 1
+- fadein:
+  - 106311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106311
+- bust:
+  - 106311
+  - 0
+- vo:
+  - vo_adv_1063005_023
+- face:
+  - 106311
+  - 1
+- print:
+  - 亞里莎
+  - 好！
+- wait:
+  - 15
+- print:
+  - 亞里莎
+  - 射中了！
+- jump:
+  - 106311
+- wait:
+  - 5
+- print:
+  - 亞里莎
+  - >2
+
+- face:
+  - 106311
+  - 2
+- print:
+  - 亞里莎
+  - '{0}，我辦到了哦！'
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106311
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 500141
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 106311
+  - C
+  - 1
+- fadein:
+  - 106311
+  - 30
+- bgm:
+  - bgm_M52
+- window_visible:
+  - true
+- focus:
+  - 106311
+- bust:
+  - 106311
+  - 0
+- vo:
+  - vo_adv_1063005_024
+- face:
+  - 106311
+  - 1
+- print:
+  - 亞里莎
+  - 這些應該就是全部了吧？
+- wait:
+  - 90
+- print:
+  - 亞里莎
+  - >2-
+
+    等等再去委託人那邊報告完就結束了呢！
+- touch: *o0
+- focus:
+  - 106311
+- bust:
+  - 106311
+  - 0
+- vo:
+  - vo_adv_1063005_025
+- face:
+  - 106311
+  - 2
+- print:
+  - 亞里莎
+  - '{0}，謝謝你。'
+- wait:
+  - 45
+- print:
+  - 亞里莎
+  - >2-
+
+    剛剛在教{0}的時候……
+- wait:
+  - 45
+- print:
+  - 亞里莎
+  - >2-
+
+    我
+- wait:
+  - 20
+- print:
+  - 亞里莎
+  - 回想起了一些事情。
+- touch: *o0
+- focus:
+  - 106311
+- bust:
+  - 106311
+  - 0
+- vo:
+  - vo_adv_1063005_026
+- face:
+  - 106311
+  - 2
+- eye_open:
+  - FALSE
+- print:
+  - 亞里莎
+  - ……以前蘿莎麗亞她，也是這樣教我的。
+- wait:
+  - 75
+- print:
+  - 亞里莎
+  - >2-
+
+    說姿勢要像大地一樣，呼吸要像微風一樣。
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 106311
+- bust:
+  - 106311
+  - 0
+- vo:
+  - vo_adv_1063005_027
+- face:
+  - 106311
+  - 4
+- eye_open:
+  - TRUE
+- print:
+  - 亞里莎
+  - ……抱歉呢。
+- wait:
+  - 20
+- print:
+  - 亞里莎
+  - >2-
+
+    如果是蘿莎麗亞的話，一定能教得更好……
+- wait:
+  - 30
+- touch: *o0
+- choice:
+  - 才沒那回事。我希望妳還能再多教我。
+  - 7
+- tag:
+  - 7
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- focus:
+  - 106311
+- bust:
+  - 106311
+  - 0
+- vo:
+  - vo_adv_1063005_028
+- face:
+  - 106311
+  - 6
+- print:
+  - 亞里莎
+  - ……真的嗎？
+- wait:
+  - 45
+- print:
+  - 亞里莎
+  - >2
+
+- face:
+  - 106311
+  - 2
+- print:
+  - 亞里莎
+  - 欸嘿嘿，那麼……嗯！
+- wait:
+  - 50
+- print:
+  - 亞里莎
+  - >2-
+
+    之後再一起練習吧！
+- touch: *o0
+- focus:
+  - 106311
+- bust:
+  - 106311
+  - 0
+- vo:
+  - vo_adv_1063005_029
+- face:
+  - 106311
+  - 2
+- print:
+  - 亞里莎
+  - 雖然沒有像蘿莎麗亞那麼厲害……
+- wait:
+  - 45
+- print:
+  - 亞里莎
+  - >2-
+
+    不過如果是為了你，
+- wait:
+  - 30
+- print:
+  - 亞里莎
+  - >2-
+
+    我會非常努力的哦！
+- wait:
+  - 30
+- touch: *o0
+- fadeout:
+  - 106311
+  - 30
+- effect_delete:
+  - 0022
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 在那之後，和笑瞇瞇的亞里莎一起踏上歸途。
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

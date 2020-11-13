@@ -1,0 +1,236 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500997
+- amb:
+  - amb_adv_outdoors_day_01
+- ui_visible:
+  - false
+- situation:
+  - 半藏消失到哪裡去了
+- chara_full:
+  - 112711
+  - C
+  - 6
+- fadein:
+  - 112711
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M288
+  - 0
+  - 0
+  - 1
+- focus:
+  - 112711
+- bust:
+  - 112711
+  - 0
+- vo:
+  - vo_adv_6040210_000
+- face:
+  - 112711
+  - 6
+- print:
+  - 鈴
+  - 半藏那傢伙
+- wait:
+  - 35
+- print:
+  - 鈴
+  - 消失到哪裡去了啊。
+- wait:
+  - 45
+- print:
+  - 鈴
+  - >2
+
+- face:
+  - 112711
+  - 4
+- print:
+  - 鈴
+  - 沒有抓到他
+- wait:
+  - 25
+- print:
+  - 鈴
+  - 就覺得事情還沒有結束呢。
+- touch: &o0 []
+- choice:
+  - 從黑暗消失到黑暗之中
+  - 1
+  - 1
+- choice:
+  - 他總有一天會被抓到的
+  - 2
+  - 2
+- choice:
+  - 可能離我們意外地近……
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 112711
+- bust:
+  - 112711
+  - 0
+- vo:
+  - vo_adv_6040210_001
+- face:
+  - 112711
+  - 6
+- nod:
+  - 112711
+- print:
+  - 鈴
+  - 真的有這種感覺呢。
+- wait:
+  - 55
+- print:
+  - 鈴
+  - >2-
+
+    因為半藏他們好像只是為了錢而行動，
+- wait:
+  - 45
+- print:
+  - 鈴
+  - >2-
+
+    所以我想應該是可以安心了……
+- wait:
+  - 45
+- face:
+  - 112711
+  - 4
+- print:
+  - 鈴
+  - 不過，該怎麼說才好呢～
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 112711
+- bust:
+  - 112711
+  - 0
+- vo:
+  - vo_adv_6040210_002
+- face:
+  - 112711
+  - 4
+- print:
+  - 鈴
+  - 雖然要逮到他們應該
+- wait:
+  - 25
+- print:
+  - 鈴
+  - 會花不少功夫，
+- wait:
+  - 45
+- print:
+  - 鈴
+  - 但還是希望他們會被抓到呢。
+- wait:
+  - 45
+- print:
+  - 鈴
+  - >2
+
+- nod:
+  - 112711
+- face:
+  - 112711
+  - 3
+- print:
+  - 鈴
+  - 讓他們得到害我工作的報應吧。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 112711
+- bust:
+  - 112711
+  - 0
+- vo:
+  - vo_adv_6040210_003
+- face:
+  - 112711
+  - 4
+- print:
+  - 鈴
+  - 他們不會做這種會露出馬腳的事情啦。
+- wait:
+  - 60
+- print:
+  - 鈴
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 鈴
+  - 一定
+- wait:
+  - 20
+- print:
+  - 鈴
+  - 已經逃到很遠的地方去了。
+- wait:
+  - 55
+- print:
+  - 鈴
+  - >2
+
+- eye_open:
+  - True
+- emotion:
+  - gloomy1_R
+  - 112711
+  - 20
+  - 450
+  - se_adv_emote_gloomy_01
+- print:
+  - 鈴
+  - 真的
+- wait:
+  - 25
+- print:
+  - 鈴
+  - 不想再看到那些傢伙
+- wait:
+  - 25
+- print:
+  - 鈴
+  - 第二次了呢。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 112711
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

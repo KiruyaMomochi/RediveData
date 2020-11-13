@@ -1,0 +1,243 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 505032
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - false
+- situation:
+  - 來吃點心吧
+- chara_full:
+  - 111311
+  - C
+  - 2
+- fadein:
+  - 111311
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M266_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111311
+- bust:
+  - 111311
+  - 0
+- vo:
+  - vo_adv_6025103_000
+- face:
+  - 111311
+  - 2
+- emotion:
+  - note1_L
+  - 111311
+  - -90
+  - 420
+  - se_adv_emote_note_01
+- print:
+  - 美美
+  - 哥哥你看你看～
+- wait:
+  - 50
+- print:
+  - 美美
+  - >2-
+
+    我拿到了好多點心～
+- wait:
+  - 60
+- print:
+  - 美美
+  - >2
+
+- face:
+  - 111311
+  - 1
+- print:
+  - 美美
+  - 我們一起吃吧！
+- touch: &o0 []
+- choice:
+  - 我想吃美味的點心。
+  - 1
+  - 1
+- choice:
+  - 我想吃可愛的點心。
+  - 2
+  - 2
+- choice:
+  - 我想吃奇怪的點心。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 111311
+- bust:
+  - 111311
+  - 0
+- vo:
+  - vo_adv_6025103_001
+- face:
+  - 111311
+  - 6
+- print:
+  - 美美
+  - 美味的點心～？
+- wait:
+  - 65
+- print:
+  - 美美
+  - >2
+
+- face:
+  - 111311
+  - 1
+- print:
+  - 美美
+  - 嗯～
+- wait:
+  - 30
+- print:
+  - 美美
+  - 美美覺得美味的是～
+- wait:
+  - 65
+- print:
+  - 美美
+  - >2
+
+- nod:
+  - 111311
+- print:
+  - 美美
+  - 來，
+- wait:
+  - 20
+- print:
+  - 美美
+  - 這個餅乾很美味哦～♪
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 111311
+- bust:
+  - 111311
+  - 0
+- vo:
+  - vo_adv_6025103_002
+- face:
+  - 111311
+  - 1
+- pop:
+  - 111311
+- print:
+  - 美美
+  - 那麼，
+- wait:
+  - 15
+- print:
+  - 美美
+  - 就給你這個！
+- wait:
+  - 35
+- print:
+  - 美美
+  - >2
+
+- face:
+  - 111311
+  - 2
+- print:
+  - 美美
+  - 是兔子先生造型的糖果！
+- wait:
+  - 45
+- print:
+  - 美美
+  - >2-
+
+    甜甜的很好吃哦～
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 111311
+- bust:
+  - 111311
+  - 0
+- vo:
+  - vo_adv_6025103_003
+- face:
+  - 111311
+  - 6
+- print:
+  - 美美
+  - 奇怪的～？
+- wait:
+  - 60
+- print:
+  - 美美
+  - >2
+
+- face:
+  - 111311
+  - 1
+- print:
+  - 美美
+  - 那麼，
+- wait:
+  - 15
+- pop:
+  - 111311
+- print:
+  - 美美
+  - 給你這個！　
+- wait:
+  - 30
+- print:
+  - 美美
+  - 是會在口中改變味道的口香糖哦～
+- wait:
+  - 60
+- print:
+  - 美美
+  - >2
+
+- face:
+  - 111311
+  - 2
+- print:
+  - 美美
+  - 很有趣呢～
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 111311
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

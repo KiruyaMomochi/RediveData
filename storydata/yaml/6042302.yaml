@@ -1,0 +1,288 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 501000
+- amb:
+  - amb_adv_outdoors_day_01
+- ui_visible:
+  - false
+- situation:
+  - 充滿不可思議的世界！
+- chara_full:
+  - 100113
+  - C
+  - 6
+- fadein:
+  - 100113
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M376
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100113
+- bust:
+  - 100113
+  - 0
+- vo:
+  - vo_adv_6042302_000
+- face:
+  - 100113
+  - 6
+- print:
+  - 日和
+  - 這裡
+- wait:
+  - 35
+- print:
+  - 日和
+  - 真是不可思議的世界呢。
+- wait:
+  - 55
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100113
+  - 1
+- print:
+  - 日和
+  - 竟然有像椅子一樣的巨大蘑菇！
+- wait:
+  - 55
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100113
+  - 4
+- print:
+  - 日和
+  - 真想讓優衣和怜也見識看看呀～
+- touch: &o0 []
+- choice:
+  - 想和大家一起來呢。
+  - 1
+  - 1
+- choice:
+  - 那顆樹的果實看起來也很好吃……
+  - 2
+  - 2
+- choice:
+  - 我想回蘭德索爾……
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 100113
+- bust:
+  - 100113
+  - 0
+- vo:
+  - vo_adv_6042302_001
+- face:
+  - 100113
+  - 1
+- nod:
+  - 100113
+- print:
+  - 日和
+  - 嗯！
+- wait:
+  - 50
+- print:
+  - 日和
+  - >2-
+
+    ……總覺得突然
+- wait:
+  - 20
+- print:
+  - 日和
+  - 有點想念她們了。
+- wait:
+  - 50
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100113
+  - 2
+- print:
+  - 日和
+  - 好，
+- wait:
+  - 30
+- print:
+  - 日和
+  - 我要努力打敗黑之王，
+- wait:
+  - 45
+- print:
+  - 日和
+  - 然後回到原本的世界～！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 100113
+- bust:
+  - 100113
+  - 0
+- vo:
+  - vo_adv_6042302_002
+- face:
+  - 100113
+  - 6
+- print:
+  - 日和
+  - 啊，
+- wait:
+  - 25
+- print:
+  - 日和
+  - 難道說騎士先生
+- wait:
+  - 30
+- print:
+  - 日和
+  - 肚子餓了嗎？
+- wait:
+  - 40
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100113
+  - 1
+- print:
+  - 日和
+  - 那麼，
+- wait:
+  - 15
+- print:
+  - 日和
+  - 我去摘果實回來！
+- wait:
+  - 35
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100113
+  - 2
+- print:
+  - 日和
+  - 欸嘿嘿！
+- wait:
+  - 25
+- print:
+  - 日和
+  - 有困難的時候
+- wait:
+  - 20
+- print:
+  - 日和
+  - 就應該互相幫助幫助♪
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 100113
+- bust:
+  - 100113
+  - 0
+- vo:
+  - vo_adv_6042302_003
+- face:
+  - 100113
+  - 6
+- print:
+  - 日和
+  - 騎士先生該不會是……
+- wait:
+  - 40
+- print:
+  - 日和
+  - 得了思鄉病吧！？
+- wait:
+  - 40
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100113
+  - 1
+- print:
+  - 日和
+  - 這種時候就要……
+- wait:
+  - 50
+- pop:
+  - 100113
+- print:
+  - 日和
+  - 加油～
+- wait:
+  - 20
+- print:
+  - 日和
+  - 加油～
+- wait:
+  - 15
+- print:
+  - 日和
+  - 騎士先生！
+- wait:
+  - 60
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100113
+  - 2
+- print:
+  - 日和
+  - 欸嘿嘿，
+- wait:
+  - 45
+- print:
+  - 日和
+  - 打起精神來嘛！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 100113
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

@@ -1,0 +1,3519 @@
+- title:
+  - 優花梨 第10話
+- outline:
+  - 禁酒開始過了數日，優花梨一邊忍耐誘惑一邊專心地工作。想跟{0}一起去討伐魔物來轉換心情的她，卻因為一時大意陷入險境，只能喝下麥酒來突破險境。
+- background:
+  - 500070
+- amb:
+  - amb_adv_room_noise_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 搖擺不定的自制心
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 自禁酒宣言後數日。
+- wait:
+  - 30
+- print:
+  - 旁白
+  - >2-
+
+    {0}很在意優花梨的情況，
+- wait:
+  - 30
+- print:
+  - 旁白
+  - >2-
+
+    便來到了【墨丘利財團】的公會小屋。
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 103411
+  - C
+  - 1
+- fadein:
+  - 103411
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M122
+  - 0
+  - 0
+  - 1
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_000
+- face:
+  - 103411
+  - 1
+- se:
+  - se_adv_paper_move_04
+- print:
+  - 優花梨
+  - 啊，
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - 這裡的計算有錯。
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - >2-
+
+    看來是沒加到這部分的數字。
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - >2-
+
+    我這裡先做更正吧。
+- touch: *o0
+- se:
+  - se_adv_paper_pickup_04
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_001
+- face:
+  - 103411
+  - 6
+- print:
+  - 優花梨
+  - 嗯，
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 這份文件
+- wait:
+  - 10
+- print:
+  - 優花梨
+  - 總算是送來了啊。
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - >2
+
+- face:
+  - 103411
+  - 4
+- print:
+  - 優花梨
+  - 明明就拜託過這種申請要早點送過來了。
+- wait:
+  - 50
+- print:
+  - 優花梨
+  - >2-
+
+    還有很多資料都沒填到……
+- wait:
+  - 35
+- nod:
+  - 103411
+- print:
+  - 優花梨
+  - 得聯絡退回才行。
+- touch: *o0
+- se:
+  - se_adv_paper_move_06
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_002
+- face:
+  - 103411
+  - 1
+- print:
+  - 優花梨
+  - 這月的營業額報告書……
+- wait:
+  - 70
+- print:
+  - 優花梨
+  - 雖然有穩定上升，
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - >2-
+
+    但還有不少能改進的地方。
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - >2
+
+- face:
+  - 103411
+  - 2
+- print:
+  - 優花梨
+  - 來整理削減不必要經費的方案吧。
+- touch: *o0
+- se:
+  - se_adv_paper_move_05
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_003
+- face:
+  - 103411
+  - 1
+- print:
+  - 優花梨
+  - 接下來是……
+- wait:
+  - 45
+- emotion:
+  - notice1_L
+  - 103411
+  - -70
+  - 555
+  - se_adv_emote_common_01
+- print:
+  - 優花梨
+  - 好，
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 哎呀，
+- wait:
+  - 15
+- print:
+  - 優花梨
+  - 這不是{0}嗎？
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - >2-
+
+    怎麼了？
+- touch: *o0
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_004
+- face:
+  - 103411
+  - 4
+- print:
+  - 優花梨
+  - 抱歉，
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - 我現在正在忙。
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - >2-
+
+    沒什麼空能陪你聊天。
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 103411
+  - 6
+- emotion:
+  - question1_R
+  - 103411
+  - 120
+  - 485
+  - se_adv_emote_question_01
+- wait:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_005
+- face:
+  - 103411
+  - 6
+- print:
+  - 優花梨
+  - 嗯？　
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - 怎麼了？
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - >2-
+
+    一臉驚訝的樣子……
+- touch: *o0
+- choice:
+  - 在精明地工作著。
+  - 1
+- choice:
+  - 說話沒有含糊不清。
+  - 2
+- tag:
+  - 1
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_006
+- face:
+  - 103411
+  - 2
+- print:
+  - 優花梨
+  - 呵呵。
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 謝謝。
+- wait:
+  - 45
+- print:
+  - 優花梨
+  - >2
+
+- face:
+  - 103411
+  - 6
+- print:
+  - 優花梨
+  - 嗯？　
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - ……難道我一直都被認為講話含糊不清嗎？
+- touch: *o0
+- goto:
+  - 3
+- tag:
+  - 2
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_007
+- face:
+  - 103411
+  - 6
+- print:
+  - 優花梨
+  - 你到底是怎麼看待我的啊……
+- wait:
+  - 50
+- print:
+  - 優花梨
+  - >2
+
+- face:
+  - 103411
+  - 4
+- print:
+  - 優花梨
+  - 不，
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - 的確是我每次都讓你看到那樣的一面。
+- touch: *o0
+- tag:
+  - 3
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_008
+- face:
+  - 103411
+  - 1
+- nod:
+  - 103411
+- print:
+  - 優花梨
+  - 雖然我總是讓{0}見到我鬆懈的一面，
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - >2-
+
+    但這
+- wait:
+  - 15
+- print:
+  - 優花梨
+  - 才是原本的我喔。
+- touch: *o0
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_009
+- face:
+  - 103411
+  - 1
+- print:
+  - 優花梨
+  - 你明白嗎？　
+- wait:
+  - 30
+- face:
+  - 103411
+  - 2
+- print:
+  - 優花梨
+  - 真的？
+- touch: *o0
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_010
+- face:
+  - 103411
+  - 6
+- emotion:
+  - exclamation1_R
+  - 103411
+  - 15
+  - 635
+  - se_adv_emote_common_01
+- print:
+  - 優花梨
+  - ……啊，
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 都已經這個時間了。
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - >2
+
+- face:
+  - 103411
+  - 2
+- print:
+  - 優花梨
+  - 差不多該去喝……
+- wait:
+  - 45
+- face:
+  - 103411
+  - 6
+- print:
+  - 優花梨
+  - 啊，不對不對！
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - >2
+
+- face:
+  - 103411
+  - 4
+- print:
+  - 優花梨
+  - 差點就要一副理所當然的樣子說出口了……
+- wait:
+  - 40
+- eye_open:
+  - FALSE
+- print:
+  - 優花梨
+  - 真可怕……
+- touch: *o0
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_011
+- face:
+  - 103411
+  - 3
+- eye_open:
+  - True
+- print:
+  - 優花梨
+  - 不可以，
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - 優花梨！
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - >2-
+
+    妳不是已經發誓要禁酒了嗎！
+- touch: *o0
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_012
+- face:
+  - 103411
+  - 4
+- nod:
+  - 103411
+- print:
+  - 優花梨
+  - 抱歉，
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 我要接著繼續處理沒做完的工作，
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - >2-
+
+    所以沒辦法和你一起去吃飯！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 103411
+  - 30
+- amb_stop:
+  - 0.5
+- bgm:
+  - stop
+  - 2
+  - 1
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 30
+- black_in: *o0
+- amb:
+  - amb_adv_room_noise_01
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 隔天――
+- touch: *o0
+- window_visible:
+  - FALSE
+- chara_full:
+  - 103411
+  - C
+  - 2
+- fadein:
+  - 103411
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M113_Ver2
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_013
+- face:
+  - 103411
+  - 2
+- emotion:
+  - note1_L
+  - 103411
+  - -95
+  - 530
+  - se_adv_emote_note_01
+- print:
+  - 優花梨
+  - 今天的工作量也很多呢。
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - >2-
+
+    好，
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - 要拿出幹勁來囉～！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 103411
+  - 30
+- amb_stop:
+  - 0.5
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 30
+- black_in: *o0
+- amb:
+  - amb_adv_room_noise_01
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 再隔天――
+- touch: *o0
+- window_visible:
+  - FALSE
+- chara_full:
+  - 103411
+  - C
+  - 1
+- fadein:
+  - 103411
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_014
+- face:
+  - 103411
+  - 1
+- print:
+  - 優花梨
+  - 呵、
+- wait:
+  - 15
+- print:
+  - 優花梨
+  - 呵呵……
+- shake:
+  - 103411
+- wait:
+  - 15
+- print:
+  - 優花梨
+  - 沒事，
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 沒事的，優花梨！
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - >2
+
+- face:
+  - 103411
+  - 3
+- print:
+  - 優花梨
+  - 我是為工作而生的！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 103411
+  - 30
+- amb_stop:
+  - 0.5
+- bgm:
+  - stop
+  - 4
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 30
+- black_in: *o0
+- amb:
+  - amb_adv_room_noise_01
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 接著，一週後――
+- touch: *o0
+- window_visible:
+  - FALSE
+- chara_full:
+  - 103411
+  - C
+  - 6
+- fadein:
+  - 103411
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M244
+  - 0
+  - 0
+  - 1
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_015
+- face:
+  - 103411
+  - 6
+- se:
+  - se_adv_paper_pickup_04
+- nod:
+  - 103411
+- print:
+  - 優花梨
+  - 呃……
+- wait:
+  - 45
+- print:
+  - 優花梨
+  - 這邊的文件很香……
+- wait:
+  - 45
+- print:
+  - 優花梨
+  - >2-
+
+    這裡的數字很順口呢……
+- touch: *o0
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_016
+- face:
+  - 103411
+  - 2
+- print:
+  - 優花梨
+  - 每天加班之後，
+- wait:
+  - 45
+- print:
+  - 優花梨
+  - 總覺得
+- wait:
+  - 15
+- print:
+  - 優花梨
+  - 心情都嗨起來了……！
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - >2
+
+- face:
+  - 103411
+  - 1
+- print:
+  - 優花梨
+  - 這種時候
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 就想一口氣乾下那個
+- wait:
+  - 45
+- face:
+  - 103411
+  - 2
+- print:
+  - 優花梨
+  - ……
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 呵呵呵呵呵……
+- shake:
+  - 103411
+- touch: *o0
+- choice:
+  - 妳還好吧？
+  - 4
+- tag:
+  - 4
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_017
+- face:
+  - 103411
+  - 2
+- print:
+  - 優花梨
+  - 酒？
+- touch: *o0
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_018
+- face:
+  - 103411
+  - 6
+- emotion:
+  - surprise1_L
+  - 103411
+  - 165
+  - 525
+  - se_adv_emote_common_01
+- print:
+  - 優花梨
+  - 啊！？　
+- wait:
+  - 15
+- print:
+  - 優花梨
+  - 我、
+- wait:
+  - 15
+- print:
+  - 優花梨
+  - 我沒事！
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - >2
+
+- face:
+  - 103411
+  - 3
+- print:
+  - 優花梨
+  - 我可是優花梨，
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - 成熟的姐姐！
+- touch: *o0
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_019
+- face:
+  - 103411
+  - 6
+- print:
+  - 優花梨
+  - 我、
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - 我可沒有在勉強自己喔！
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - >2
+
+- face:
+  - 103411
+  - 3
+- print:
+  - 優花梨
+  - 成熟的姐姐
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - 連自制心都很強的！
+- touch: *o0
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_020
+- face:
+  - 103411
+  - 3
+- print:
+  - 優花梨
+  - 就、
+- wait:
+  - 20
+- nod:
+  - 103411
+- print:
+  - 優花梨
+  - 就是啊，
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - 我不應該一直關在房間裡工作！
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - >2-
+
+    偶爾也該外出活動一下身體……
+- touch: *o0
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_021
+- face:
+  - 103411
+  - 6
+- se:
+  - se_adv_paper_pickup_04
+- print:
+  - 優花梨
+  - 呃……
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - 我記得剛才的文件……！
+- touch: *o0
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_022
+- face:
+  - 103411
+  - 1
+- emotion:
+  - notice1_L
+  - 103411
+  - -70
+  - 555
+  - se_adv_emote_common_01
+- print:
+  - 優花梨
+  - 找到了，
+- wait:
+  - 15
+- print:
+  - 優花梨
+  - 就是這個！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 103411
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- bgm:
+  - stop
+  - 1.5
+  - 1
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500130
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_outdoors_day_01
+- window_visible:
+  - TRUE
+- chara_full:
+  - 103411
+  - C
+  - 6
+- fadein:
+  - 103411
+  - 30
+- bgm:
+  - bgm_M216
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_023
+- face:
+  - 103411
+  - 6
+- print:
+  - 優花梨
+  - '{0}真的也要陪我來嗎？'
+- wait:
+  - 60
+- print:
+  - 優花梨
+  - >2-
+
+    雖然是讓人放心多了……
+- wait:
+  - 55
+- face:
+  - 103411
+  - 1
+- print:
+  - 優花梨
+  - 不，
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - 謝謝。
+- touch: *o0
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_024
+- face:
+  - 103411
+  - 1
+- nod:
+  - 103411
+- print:
+  - 優花梨
+  - 那我先說明情況，
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - >2-
+
+    【墨丘利財團】的流通路線
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - >2-
+
+    接獲有魔物出現的報告。
+- touch: *o0
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_025
+- face:
+  - 103411
+  - 4
+- print:
+  - 優花梨
+  - 這種事情原本
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 應該去拜託騎士團之類的地方。
+- wait:
+  - 45
+- print:
+  - 優花梨
+  - >2
+
+- face:
+  - 103411
+  - 1
+- print:
+  - 優花梨
+  - 不過，
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 與其等騎士團行動，
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 不如靠自己行動還更快。
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 103411
+  - 6
+- emotion:
+  - notice1_L
+  - 103411
+  - -70
+  - 555
+  - se_adv_emote_common_01
+- wait:
+  - 45
+- emotion_end:
+  - 103411
+- window_visible:
+  - true
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_026
+- face:
+  - 103411
+  - 6
+- print:
+  - 優花梨
+  - 怎麼？　
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - 一臉那麼擔心的表情。
+- wait:
+  - 45
+- print:
+  - 優花梨
+  - >2
+
+- face:
+  - 103411
+  - 3
+- print:
+  - 優花梨
+  - 居然擔心姐姐，太囂張囉。
+- wait:
+  - 60
+- print:
+  - 優花梨
+  - >2
+
+- face:
+  - 103411
+  - 1
+- print:
+  - 優花梨
+  - 別看我這樣，
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - 我原本姑且也是個聖騎士。
+- touch: *o0
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_027
+- face:
+  - 103411
+  - 1
+- nod:
+  - 103411
+- print:
+  - 優花梨
+  - 而且只要活動身體，
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - >2-
+
+    就不需要去想些多餘的事情了……！
+- touch: *o0
+- bgm:
+  - stop
+  - 3.5
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_028
+- face:
+  - 103411
+  - 6
+- emotion:
+  - exclamation1_R
+  - 103411
+  - 15
+  - 635
+  - se_adv_emote_common_01
+- print:
+  - 優花梨
+  - 啊！　
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - 找到了！
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - >2-
+
+    肯定就是那隻魔物！
+- touch: *o0
+- bgm:
+  - bgm_M288
+  - 0
+  - 0
+  - 1
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_029
+- face:
+  - 103411
+  - 6
+- print:
+  - 優花梨
+  - 在那附近的是……
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - 運貨馬車？
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - >2-
+
+    看來剛好正在受到襲擊！
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - >2
+
+- face:
+  - 103411
+  - 4
+- print:
+  - 優花梨
+  - 都不曉得這時機到底是好還是不好了……！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 103411
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - TRUE
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ――咕喔喔喔喔喔！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 1611
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 103411
+  - C
+  - 6
+- fadein:
+  - 103411
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_030
+- face:
+  - 103411
+  - 6
+- print:
+  - 優花梨
+  - 不過，
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - 駕馬車的人似乎已經逃走了。
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - >2
+
+- face:
+  - 103411
+  - 1
+- print:
+  - 優花梨
+  - 既然如此，
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - 我們就盡快做出適當的處置吧！
+- touch: *o0
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_031
+- face:
+  - 103411
+  - 1
+- print:
+  - 優花梨
+  - '{0}麻煩你支援我！'
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - >2-
+
+    好，要上囉……
+- wait:
+  - 35
+- face:
+  - 103411
+  - 6
+- emotion:
+  - notice1_L
+  - 103411
+  - -70
+  - 555
+  - se_adv_emote_common_01
+- print:
+  - 優花梨
+  - 欸，
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - 咦？
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - >2-
+
+    魔物變多了……
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 2
+  - 1
+- fadeout:
+  - 103411
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- se:
+  - se_adv_creature_cmn_group_02
+- chara_full:
+  - 1611
+  - C
+  - 1
+- chara_full:
+  - 1612
+  - L
+  - 1
+- chara_full:
+  - 1613
+  - R
+  - 1
+- wait:
+  - 15
+- bgm:
+  - bgm_M03
+- fadein:
+  - 1611
+  - 30
+- wait:
+  - 15
+- fadein:
+  - 1612
+  - 30
+- wait:
+  - 15
+- fadein:
+  - 1613
+  - 30
+- se:
+  - se_adv_creature_cmn_05
+- focus:
+  - 1611:1612:1613
+- window_visible:
+  - TRUE
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- effect:
+  - 9
+- print:
+  - 魔物
+  - ――咕喔喔喔喔喔！
+- shake_screen: *o0
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 103411
+  - C
+  - 6
+- fadein:
+  - 103411
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_032
+- face:
+  - 103411
+  - 6
+- emotion:
+  - exclamation1_R
+  - 103411
+  - 15
+  - 635
+  - se_adv_emote_nortice_02
+- print:
+  - 優花梨
+  - ……這是怎回事。
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - >2-
+
+    數量比報告的還要多耶！
+- wait:
+  - 55
+- print:
+  - 優花梨
+  - >2-
+
+    我沒聽說是魔物群啊～！
+- touch: *o0
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_033
+- face:
+  - 103411
+  - 4
+- print:
+  - 優花梨
+  - 不過
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 都已經被看到了，
+- wait:
+  - 55
+- print:
+  - 優花梨
+  - 只好硬著頭皮上了……！
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_034
+- face:
+  - 103411
+  - 1
+- print:
+  - 優花梨
+  - 可不能給{0}造成麻煩啊……！
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - >2
+
+- face:
+  - 103411
+  - 3
+- print:
+  - 優花梨
+  - 身為成熟的姐姐，
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 我必須幫助他！　
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - TRUE
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_035
+- face:
+  - 103411
+  - 3
+- print:
+  - 優花梨
+  - 喝！
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_step_dirt_run_go_01
+- effect:
+  - 0009
+- scale:
+  - 103411
+  - 1.2
+  - 2
+  - 10
+- fadeout:
+  - 103411
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0001
+  - se_adv_weapon_sword_hit_01
+- wait:
+  - 15
+- background:
+  - 500130
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_04
+- window_visible:
+  - TRUE
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ――嘎喔喔喔喔喔！
+- sway:
+  - 1611
+- touch: *o0
+- window_visible:
+  - FALSE
+- updown:
+  - 1611
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1611
+  - 30
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- chara_full:
+  - 103411
+  - C
+  - 1
+- fadein:
+  - 103411
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_036
+- face:
+  - 103411
+  - 1
+- print:
+  - 優花梨
+  - 數量雖然多，
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 但這點程度看來沒什麼問題！
+- touch: *o0
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_037
+- face:
+  - 103411
+  - 1
+- nod:
+  - 103411
+- print:
+  - 優花梨
+  - 要大膽上囉！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 103411
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0072
+  - se_adv_magic_holy_medium_01
+- wait:
+  - 30
+- background:
+  - 500130
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_04
+- window_visible:
+  - TRUE
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ――嘎喔喔喔喔喔！
+- sway:
+  - 1611
+- touch: *o0
+- window_visible:
+  - FALSE
+- updown:
+  - 1611
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1611
+  - 30
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 103411
+  - C
+  - 1
+- fadein:
+  - 103411
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_038
+- face:
+  - 103411
+  - 1
+- print:
+  - 優花梨
+  - 很順利呢！
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - >2
+
+- nod:
+  - 103411
+- print:
+  - 優花梨
+  - 哦，
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - 你別想過去那裡！
+- touch: *o0
+- choice:
+  - 好驚人的戰鬥姿態……！
+  - 5
+- tag:
+  - 5
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_039
+- face:
+  - 103411
+  - 1
+- print:
+  - 優花梨
+  - 我不是說過了嗎？
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - >2-
+
+    不需要擔心。
+- touch: *o0
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_040
+- face:
+  - 103411
+  - 2
+- emotion:
+  - note1_L
+  - 103411
+  - -95
+  - 530
+  - se_adv_emote_note_01
+- print:
+  - 優花梨
+  - 呵呵，
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 稍微對我刮目相看了嗎？
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_041
+- face:
+  - 103411
+  - 2
+- print:
+  - 優花梨
+  - 嗯嗯，
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - 果然這樣活動身體，
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - >2-
+
+    就能忘了麥酒，感覺真不錯～！　
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- fadeout:
+  - 103411
+  - 30
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 30
+- black_in: *o0
+- amb:
+  - amb_adv_outdoors_day_01
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_04
+- window_visible:
+  - TRUE
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ――嘎喔喔喔喔喔！
+- sway:
+  - 1611
+- touch: *o0
+- window_visible:
+  - FALSE
+- updown:
+  - 1611
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1611
+  - 30
+- bgm:
+  - stop
+  - 3
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 103411
+  - C
+  - 1
+- fadein:
+  - 103411
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_042
+- face:
+  - 103411
+  - 1
+- nod:
+  - 103411
+- print:
+  - 優花梨
+  - 呼，
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - 這就是最後了！
+- touch: *o0
+- bgm:
+  - bgm_M140_NoBell
+  - 0
+  - 0
+  - 1
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_043
+- face:
+  - 103411
+  - 1
+- print:
+  - 優花梨
+  - 以防萬一，
+- wait:
+  - 15
+- print:
+  - 優花梨
+  - 先確認一下被襲擊的運貨馬車吧。
+- wait:
+  - 55
+- print:
+  - 優花梨
+  - >2
+
+- se:
+  - se_adv_bag_search_01
+- print:
+  - 優花梨
+  - 運送的貨物是……
+- wait:
+  - 45
+- face:
+  - 103411
+  - 6
+- print:
+  - 優花梨
+  - 木桶？
+- touch: *o0
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_044
+- face:
+  - 103411
+  - 6
+- print:
+  - 優花梨
+  - 撞壞了，
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - 裡面……
+- wait:
+  - 45
+- print:
+  - 優花梨
+  - >2
+
+- face:
+  - 103411
+  - 4
+- emotion:
+  - question1_R
+  - 103411
+  - 120
+  - 485
+  - se_adv_emote_question_01
+- print:
+  - 優花梨
+  - 嗯？　
+- wait:
+  - 70
+- print:
+  - 優花梨
+  - 這香氣是……
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 103411
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- bgm:
+  - bgm_M276
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - TRUE
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ――咕喔喔喔喔喔！
+- touch: *o0
+- choice:
+  - 保護優花梨。
+  - 8
+- tag:
+  - 8
+- window_visible:
+  - FALSE
+- fadeout:
+  - 1611
+  - 30
+- se:
+  - se_adv_step_dirt_run_armor_go_01
+- effect:
+  - 0009
+- camera_zoom:
+  - 1.2
+  - 5
+- wait:
+  - 15
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- camera_zoom:
+  - 1
+  - 1
+- se:
+  - se_adv_weapon_claw_whiff_01
+- effect:
+  - 0028
+- wait:
+  - 10
+- background:
+  - 500130
+- se:
+  - se_adv_weapon_claw_hit_01
+- effect:
+  - 0079
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- se:
+  - se_adv_knock_back_01
+- wait:
+  - 15
+- chara_full:
+  - 103411
+  - C
+  - 6
+- fadein:
+  - 103411
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_045
+- face:
+  - 103411
+  - 6
+- emotion:
+  - surprise1_L
+  - 103411
+  - 165
+  - 525
+  - se_adv_emote_common_01
+- print:
+  - 優花梨
+  - 咦，
+- wait:
+  - 15
+- print:
+  - 優花梨
+  - '{0}！？'
+- touch: *o0
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_046
+- face:
+  - 103411
+  - 6
+- print:
+  - 優花梨
+  - 喂……
+- wait:
+  - 10
+- print:
+  - 優花梨
+  - 你還好嗎！？
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - >2-
+
+    沒事？　
+- wait:
+  - 70
+- face:
+  - 103411
+  - 4
+- print:
+  - 優花梨
+  - 太好了……！
+- touch: *o0
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_047
+- face:
+  - 103411
+  - 4
+- eye_open:
+  - False
+- print:
+  - 優花梨
+  - 可是，
+- wait:
+  - 5
+- print:
+  - 優花梨
+  - 該怎麼辦……
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 優花梨
+  - 我又
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - 給你添麻煩了……！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 103411
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- se:
+  - se_adv_creature_cmn_group_02
+- chara_full:
+  - 1611
+  - C
+  - 1
+- chara_full:
+  - 1612
+  - L
+  - 1
+- chara_full:
+  - 1613
+  - R
+  - 1
+- wait:
+  - 15
+- fadein:
+  - 1611
+  - 30
+- wait:
+  - 15
+- fadein:
+  - 1612
+  - 30
+- wait:
+  - 15
+- fadein:
+  - 1613
+  - 30
+- se:
+  - se_adv_creature_cmn_05
+- focus:
+  - 1611:1612:1613
+- window_visible:
+  - TRUE
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- effect:
+  - 9
+- print:
+  - 魔物
+  - ――咕喔喔喔喔喔！
+- shake_screen: *o0
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 103411
+  - C
+  - 6
+- fadein:
+  - 103411
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_048
+- face:
+  - 103411
+  - 6
+- emotion:
+  - notice1_L
+  - 103411
+  - -70
+  - 555
+  - se_adv_emote_common_01
+- print:
+  - 優花梨
+  - 啊……
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 魔物……
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 變多了……？
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - >2-
+
+    牠呼叫了同伴！？
+- touch: *o0
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_049
+- face:
+  - 103411
+  - 4
+- print:
+  - 優花梨
+  - 對不起，
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - 真對不起……
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - 都是我的錯……！
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_050
+- face:
+  - 103411
+  - 3
+- print:
+  - 優花梨
+  - 怎麼辦，
+- wait:
+  - 15
+- print:
+  - 優花梨
+  - 要逃走嗎？　
+- wait:
+  - 30
+- face:
+  - 103411
+  - 6
+- print:
+  - 優花梨
+  - 可是我們被包圍了，
+- wait:
+  - 55
+- print:
+  - 優花梨
+  - >2-
+
+    我也沒辦法背著他逃離魔物……
+- wait:
+  - 45
+- face:
+  - 103411
+  - 4
+- print:
+  - 優花梨
+  - 該怎麼辦？
+- wait:
+  - 45
+- print:
+  - 優花梨
+  - >2-
+
+    我
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - 明明是個姐姐……
+- wait:
+  - 60
+- eye_open:
+  - FALSE
+- print:
+  - 優花梨
+  - 腦袋卻
+- wait:
+  - 15
+- print:
+  - 優花梨
+  - 一片混亂……！　
+- touch: *o0
+- choice:
+  - 把這個喝下去！
+  - 10
+- tag:
+  - 10
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - TRUE
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_051
+- face:
+  - 103411
+  - 6
+- eye_open:
+  - True
+- emotion:
+  - question1_R
+  - 103411
+  - 120
+  - 485
+  - se_adv_emote_question_01
+- print:
+  - 優花梨
+  - ……咦？
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - >2-
+
+    你雙手上拿著的液體是……
+- wait:
+  - 55
+- face:
+  - 103411
+  - 3
+- print:
+  - 優花梨
+  - 不，
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - >2-
+
+    我不可能會搞錯的……
+- touch: *o0
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_052
+- face:
+  - 103411
+  - 3
+- print:
+  - 優花梨
+  - 那香氣……
+- wait:
+  - 45
+- print:
+  - 優花梨
+  - 顏色……
+- wait:
+  - 45
+- print:
+  - 優花梨
+  - 是麥酒吧！？
+- wait:
+  - 45
+- print:
+  - 優花梨
+  - >2
+
+- face:
+  - 103411
+  - 6
+- print:
+  - 優花梨
+  - 這麼說，
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 那輛運貨馬車上載的貨物果然是……！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 103411
+  - 30
+- se:
+  - se_adv_step_dirt_move_01
+- camera_zoom:
+  - 1.2
+  - 15
+- chara_full:
+  - 103411
+  - C
+  - 6
+- fadein:
+  - 103411
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_053
+- face:
+  - 103411
+  - 6
+- pop:
+  - 103411
+- print:
+  - 優花梨
+  - 等、
+- wait:
+  - 15
+- print:
+  - 優花梨
+  - 等等，{0}！？
+- wait:
+  - 10
+- print:
+  - 優花梨
+  - >2-
+
+    為什麼要把那個拿靠近我的嘴邊？
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - >2
+
+- face:
+  - 103411
+  - 3
+- print:
+  - 優花梨
+  - 不行，
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - 不可以！　
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 我已經決定好要禁酒了！
+- touch: *o0
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_054
+- face:
+  - 103411
+  - 2
+- print:
+  - 優花梨
+  - 哇……
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 好香的味道、
+- wait:
+  - 35
+- face:
+  - 103411
+  - 6
+- print:
+  - 優花梨
+  - 不是啦，
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - 我說你還挺強硬的耶！
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - >2
+
+- face:
+  - 103411
+  - 3
+- print:
+  - 優花梨
+  - 現在正在戰鬥啊！？　
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - 而且還被魔物包圍耶！？
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 103411
+  - 6
+- emotion:
+  - question1_R
+  - 103411
+  - 150
+  - 490
+  - se_adv_emote_question_01
+- wait:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_055
+- face:
+  - 103411
+  - 6
+- print:
+  - 優花梨
+  - 不要想多餘的事？
+- wait:
+  - 55
+- print:
+  - 優花梨
+  - >2-
+
+    不，我的確
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - 是一直在想些多餘的事情……！
+- touch: *o0
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_056
+- face:
+  - 103411
+  - 6
+- print:
+  - 優花梨
+  - 喝下這個就總會有辦法？
+- wait:
+  - 55
+- print:
+  - 優花梨
+  - >2-
+
+    能激發隱藏在我體內的力量……！？
+- wait:
+  - 55
+- print:
+  - 優花梨
+  - >2
+
+- face:
+  - 103411
+  - 4
+- print:
+  - 優花梨
+  - 姐姐我
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - 完全不懂你在說些什麼……！
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 3
+- se:
+  - se_adv_swallow_01
+- nod:
+  - 103411
+- wait:
+  - 15
+- window_visible:
+  - TRUE
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_057
+- face:
+  - 103411
+  - 3
+- print:
+  - 優花梨
+  - 唔……！
+- shake:
+  - 103411
+- touch: *o0
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_058
+- face:
+  - 103411
+  - 2
+- emotion:
+  - note1_L
+  - 103411
+  - -110
+  - 535
+  - se_adv_emote_note_01
+- print:
+  - 優花梨
+  - 啊，
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - 好好喝……！
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - >2-
+
+    浸染了全身……！
+- touch: *o0
+- bgm:
+  - bgm_M192
+  - 0
+  - 0
+  - 1
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_059
+- face:
+  - 103411
+  - 8
+- print:
+  - 優花梨
+  - 嗯～
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - 真是的，
+- wait:
+  - 15
+- print:
+  - 優花梨
+  - 你這不是害人喝下去了嗎！
+- wait:
+  - 50
+- print:
+  - 優花梨
+  - >2
+
+- face:
+  - 103411
+  - 2
+- print:
+  - 優花梨
+  - 唔啊，好久沒喝了，
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - 真是
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - 超暢快……！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 103411
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- camera_zoom:
+  - 1
+  - 5
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - TRUE
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ――咕喔喔喔喔喔！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 1611
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- camera_zoom:
+  - 1.2
+  - 5
+- wait:
+  - 15
+- chara_full:
+  - 103411
+  - C
+  - 8
+- fadein:
+  - 103411
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_060
+- face:
+  - 103411
+  - 8
+- print:
+  - 優花梨
+  - 咦，
+- wait:
+  - 45
+- print:
+  - 優花梨
+  - 再多喝一點？
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - >2
+
+- se:
+  - se_adv_swallow_01
+- nod:
+  - 103411
+- print:
+  - 優花梨
+  - 討厭，
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 不要這樣啦～！
+- wait:
+  - 55
+- print:
+  - 優花梨
+  - >2-
+
+    你為什麼要讓人家喝～！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 103411
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- camera_zoom:
+  - 1
+  - 5
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ――咕喔喔喔喔喔！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1611
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 103411
+  - C
+  - 8
+- fadein:
+  - 103411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_061
+- face:
+  - 103411
+  - 8
+- emotion:
+  - anger1_R
+  - 103411
+  - -95
+  - 550
+  - se_adv_emote_anger_01
+- print:
+  - 優花梨
+  - 那邊的很吵耶！　
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - 給我坐下！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 103411
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- bg_color:
+  - 0
+  - 0
+  - 0
+- se:
+  - se_adv_magic_holy_large_01
+- effect:
+  - 0072
+- wait:
+  - 30
+- background:
+  - 500130
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_04
+- window_visible:
+  - TRUE
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ――嘎喔喔喔喔喔！
+- sway:
+  - 1611
+- touch: *o0
+- window_visible:
+  - FALSE
+- updown:
+  - 1611
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1611
+  - 30
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 103411
+  - C
+  - 8
+- fadein:
+  - 103411
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_062
+- face:
+  - 103411
+  - 8
+- nod:
+  - 103411
+- print:
+  - 優花梨
+  - 啊啊，真是的，
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - 好啊！
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - >2-
+
+    我就盡情
+- wait:
+  - 15
+- print:
+  - 優花梨
+  - 大鬧給你看～！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 103411
+  - 30
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0033
+  - se_adv_weapon_sword_multi_hit_01
+- wait:
+  - 15
+- effect:
+  - 0072
+  - se_adv_magic_holy_medium_01
+- wait:
+  - 30
+- background:
+  - 500130
+- se:
+  - se_adv_explosion_house_01
+- se:
+  - se_adv_explosion_small_04
+- effect:
+  - 0014
+- shake_screen: *o0
+- se:
+  - se_adv_collapse_02_lp
+- se_pause:
+  - se_adv_collapse_02_lp
+  - 6
+- chara_full:
+  - 103411
+  - C
+  - 8
+- fadein:
+  - 103411
+  - 30
+- change_window:
+  - 3
+- text_size:
+  - 38
+- window_visible:
+  - TRUE
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_063
+- face:
+  - 103411
+  - 8
+- print:
+  - 優花梨
+  - 少小看
+- wait:
+  - 40
+- pop:
+  - 103411
+- print:
+  - 優花梨
+  - 姐姐我了～！
+- touch: *o0
+- window_visible:
+  - FALSE
+- change_window:
+  - 1
+- text_size:
+  - 23
+- fadeout:
+  - 103411
+  - 30
+- effect_delete:
+  - 0014
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 2
+  - 1
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 30
+- black_in: *o0
+- amb:
+  - amb_adv_outdoors_day_01
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 就這樣，捨棄迷惘盡情大鬧的優花梨，
+- wait:
+  - 30
+- print:
+  - 旁白
+  - >2-
+
+    將魔物給一網打盡了。
+- touch: *o0
+- window_visible:
+  - FALSE
+- chara_full:
+  - 103411
+  - C
+  - 6
+- fadein:
+  - 103411
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M51
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_064
+- face:
+  - 103411
+  - 6
+- emotion:
+  - question1_R
+  - 103411
+  - 120
+  - 485
+  - se_adv_emote_question_01
+- print:
+  - 優花梨
+  - 咦？
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - >2-
+
+    是……
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - 是怎麼了……？
+- touch: *o0
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_065
+- face:
+  - 103411
+  - 4
+- print:
+  - 優花梨
+  - 我、
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 我說你，
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - 怎麼好像
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - 被燒焦了！？　
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - 怎麼了！？
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - >2
+
+- face:
+  - 103411
+  - 6
+- print:
+  - 優花梨
+  - 被波及了？　
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 什麼！？
+- touch: *o0
+- focus:
+  - 103411
+- bust:
+  - 103411
+  - 0
+- vo:
+  - vo_adv_1034010_066
+- face:
+  - 103411
+  - 4
+- pop:
+  - 103411
+- print:
+  - 優花梨
+  - 到底發生什麼事了～～～～～！？
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 103411
+  - 30
+- bgm:
+  - stop
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

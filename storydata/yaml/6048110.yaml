@@ -1,0 +1,253 @@
+- title:
+  - 送別菈菲
+- outline:
+  - ' '
+- background:
+  - 500011
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 送別菈菲
+- chara_full:
+  - 113811
+  - C
+  - 6
+- fadein:
+  - 113811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M164
+  - 0
+  - 0
+  - 1
+- focus:
+  - 113811
+- bust:
+  - 113811
+  - 0
+- vo:
+  - vo_adv_6048110_000
+- face:
+  - 113811
+  - 6
+- print:
+  - 依里
+  - 菈菲……
+- wait:
+  - 25
+- print:
+  - 依里
+  - 走了呢……
+- wait:
+  - 40
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 113811
+  - 1
+- print:
+  - 依里
+  - 結果到最後都慌慌張張，
+- wait:
+  - 45
+- print:
+  - 依里
+  - 沒辦法悠閒度過啊。
+- touch: &o0 []
+- choice:
+  - 天使的工作要加油呢！
+  - 1
+  - 1
+- choice:
+  - 真希望她再來玩呢！
+  - 2
+  - 2
+- choice:
+  - 下一次會施加什麼魔法呢？
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 113811
+- bust:
+  - 113811
+  - 0
+- vo:
+  - vo_adv_6048110_001
+- face:
+  - 113811
+  - 2
+- print:
+  - 依里
+  - 因為又變成天使了嘛！
+- wait:
+  - 50
+- print:
+  - 依里
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - 依里
+  - 雖然沒辦法使出像那孩子一樣的魔法，
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 依里
+  - 不過說不定
+- wait:
+  - 30
+- print:
+  - 依里
+  - 做我能做到的事也不錯呢。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 113811
+- bust:
+  - 113811
+  - 0
+- vo:
+  - vo_adv_6048110_002
+- face:
+  - 113811
+  - 2
+- nod:
+  - 113811
+- print:
+  - 依里
+  - ……對啊，
+- wait:
+  - 35
+- print:
+  - 依里
+  - 發生一堆事件，
+- wait:
+  - 25
+- print:
+  - 依里
+  - 那孩子什麼都沒玩到呢。
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2-
+
+    下次要緊緊跟在她身邊玩，
+- wait:
+  - 40
+- print:
+  - 依里
+  - 以避免她又胡亂使出魔法才行啊！
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - 依里
+  - ……以朋友的身份，
+- wait:
+  - 30
+- eye_open:
+  - True
+- print:
+  - 依里
+  - 同時也是姊姊的身分……
+- wait:
+  - 35
+- print:
+  - 依里
+  - 呢。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 113811
+- bust:
+  - 113811
+  - 0
+- vo:
+  - vo_adv_6048110_003
+- face:
+  - 113811
+  - 4
+- print:
+  - 依里
+  - 快住手！
+- wait:
+  - 30
+- print:
+  - 依里
+  - 一想到還會有那樣的遭遇就覺得很恐怖啊！
+- wait:
+  - 90
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 113811
+  - 6
+- print:
+  - 依里
+  - 雖然有負責監督的弓箭待在身邊，
+- wait:
+  - 45
+- print:
+  - 依里
+  - 應該沒問題才是……
+- wait:
+  - 75
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 113811
+  - 2
+- print:
+  - 依里
+  - 真希望她能好好成長呢。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 113811
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

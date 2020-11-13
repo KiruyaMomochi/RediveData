@@ -1,0 +1,267 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500833
+- amb:
+  - amb_adv_jungle_01
+- ui_visible:
+  - false
+- situation:
+  - 幫派的工作是？
+- chara_full:
+  - 106611
+  - C
+  - 2
+- fadein:
+  - 106611
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M274_03
+  - 0
+  - 0
+  - 1
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_6027103_000
+- face:
+  - 106611
+  - 2
+- print:
+  - 祈梨
+  - 幫派的工作嗎？
+- wait:
+  - 40
+- print:
+  - 祈梨
+  - >2
+
+- nod:
+  - 106611
+- print:
+  - 祈梨
+  - 問得很好！
+- wait:
+  - 40
+- print:
+  - 祈梨
+  - >2-
+
+    我可是家族的高級幹部祈梨大人！
+- wait:
+  - 45
+- print:
+  - 祈梨
+  - 你想問什麼就問吧！
+- touch: &o0 []
+- choice:
+  - 簡單嗎？
+  - 1
+  - 1
+- choice:
+  - 開心嗎？
+  - 2
+  - 2
+- choice:
+  - 很閒嗎？
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_6027103_001
+- face:
+  - 106611
+  - 2
+- eye_open:
+  - False
+- print:
+  - 祈梨
+  - 只要我出手，
+- wait:
+  - 15
+- print:
+  - 祈梨
+  - 不管什麼工作都輕而易舉！
+- wait:
+  - 45
+- print:
+  - 祈梨
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 祈梨
+  - 再拿更大一點的工作來吧！
+- wait:
+  - 55
+- print:
+  - 祈梨
+  - >2
+
+- pop:
+  - 106611
+- print:
+  - 祈梨
+  - 我要變成大人物，
+- wait:
+  - 20
+- print:
+  - 祈梨
+  - 把欠款什麼的都一筆勾銷！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_6027103_002
+- face:
+  - 106611
+  - 2
+- nod:
+  - 106611
+- print:
+  - 祈梨
+  - 嗯，
+- wait:
+  - 20
+- print:
+  - 祈梨
+  - 有嘉夜夜在，
+- wait:
+  - 25
+- print:
+  - 祈梨
+  - 而且手下也都是一些不錯的傢伙。
+- wait:
+  - 40
+- print:
+  - 祈梨
+  - >2-
+
+    我想我應該有混幫派的天分！
+- wait:
+  - 60
+- print:
+  - 祈梨
+  - >2-
+
+    如果是小哥你的話
+- wait:
+  - 30
+- print:
+  - 祈梨
+  - 我也可以收你當小弟喔。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_6027103_003
+- face:
+  - 106611
+  - 1
+- emotion:
+  - gloomy1_R
+  - 106611
+  - 60
+  - 470
+  - se_adv_emote_gloomy_01
+- print:
+  - 祈梨
+  - 感覺老大派給我的工作，
+- wait:
+  - 40
+- print:
+  - 祈梨
+  - 好像都只有簡單的工作。
+- wait:
+  - 65
+- print:
+  - 祈梨
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 祈梨
+  - ……總覺得有種不被信任的感覺，
+- wait:
+  - 35
+- eye_open:
+  - True
+- print:
+  - 祈梨
+  - 心裡有點悶悶的。
+- wait:
+  - 70
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 106611
+  - 6
+- print:
+  - 祈梨
+  - 開、
+- wait:
+  - 15
+- print:
+  - 祈梨
+  - 開玩笑的，開玩笑的啦！　
+- wait:
+  - 35
+- print:
+  - 祈梨
+  - 重要的工作
+- wait:
+  - 25
+- print:
+  - 祈梨
+  - 我也有好好在做！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 106611
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

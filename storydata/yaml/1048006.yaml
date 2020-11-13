@@ -1,0 +1,1729 @@
+- title:
+  - 美冬 第6話
+- outline:
+  - 獲得傭兵工作的美冬充滿幹勁。{0}指出契約書寫著的可疑內容，美冬因為不聽勸告，陷入了被盜賊陷害的大危機。事情總算是平安落幕，而美冬也好好反省了。
+- background:
+  - 500140
+- amb:
+  - amb_adv_outdoors_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 奇妙花店的護衛任務
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    某天，{0}和美冬為了訓練前往平原時，
+
+    美冬自豪地遞出一張紙。
+- touch: &o0 []
+- window_visible:
+  - false
+- bgm:
+  - bgm_M37
+  - 0
+  - 0
+  - 1
+- chara_full:
+  - 104811
+  - C
+  - 2
+- fadein:
+  - 104811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1048006_000
+- face:
+  - 104811
+  - 2
+- emotion:
+  - twinkle1_R
+  - 104811
+  - -135
+  - 470
+  - se_adv_emote_twinkle_01
+- print:
+  - 美冬
+  - 喂，你！
+- wait:
+  - 15
+- print:
+  - 美冬
+  - >2-
+
+    我拿到新的傭兵契約了喔！ 你看這張紙！
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1048006_001
+- face:
+  - 104811
+  - 1
+- print:
+  - 美冬
+  - 是希望委託我護送載花的馬車去花店喔。
+- wait:
+  - 90
+- print:
+  - 美冬
+  - >2
+
+- face:
+  - 104811
+  - 2
+- print:
+  - 美冬
+  - 不知道為什麼報酬非常高！
+- touch: *o0
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1048006_002
+- face:
+  - 104811
+  - 1
+- print:
+  - 美冬
+  - 當然，身為徒弟的你也要幫忙喔！
+- wait:
+  - 30
+- touch: *o0
+- choice:
+  - 仔細看契約書。
+  - 1
+- tag:
+  - 1
+- window_visible:
+  - false
+- face:
+  - 104811
+  - 6
+- emotion:
+  - question1_R
+  - 104811
+  - 100
+  - 510
+  - se_adv_emote_question_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1048006_003
+- face:
+  - 104811
+  - 6
+- print:
+  - 美冬
+  - ……咦？ 契約書有不合理的條文？
+- wait:
+  - 105
+- print:
+  - 美冬
+  - >2
+
+- face:
+  - 104811
+  - 4
+- print:
+  - 美冬
+  - 是什麼是什麼……？
+- touch: *o0
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1048006_004
+- face:
+  - 104811
+  - 4
+- print:
+  - 美冬
+  - 「如未能保護好商品，
+- wait:
+  - 90
+- print:
+  - 美冬
+  - >2-
+
+    則需以護衛者本人作為賠償。
+- wait:
+  - 75
+- print:
+  - 美冬
+  - >2
+
+- face:
+  - 104811
+  - 3
+- print:
+  - 美冬
+  - 不得拒絕。」……
+- shake:
+  - 104811
+- print:
+  - 美冬
+  - 上面這麼寫？
+- wait:
+  - 75
+- touch: *o0
+- choice:
+  - 不覺得危險嗎？
+  - 2
+- tag:
+  - 2
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1048006_005
+- face:
+  - 104811
+  - 4
+- print:
+  - 美冬
+  - 嗯，確實令人在意……
+- face:
+  - 104811
+  - 3
+- print:
+  - 美冬
+  - 但是不用擔心。
+- wait:
+  - 75
+- print:
+  - 美冬
+  - >2-
+
+    我們已訓練多年，變得夠強大了。
+- wait:
+  - 105
+- print:
+  - 美冬
+  - >2-
+
+    才不會輕易輸給盜賊呢！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 3
+  - 1
+- fadeout:
+  - 104811
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 500320
+- shake_anime:
+  - 1
+- amb_stop:
+  - 3
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_carriage_01
+- window_visible:
+  - true
+- bgm:
+  - bgm_M71
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    美冬不顧擔心的{0}，時間來到運送當天。
+
+    兩人在馬車上待命。
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 104811
+  - C
+  - 2
+- fadein:
+  - 104811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1048006_006
+- face:
+  - 104811
+  - 2
+- print:
+  - 美冬
+  - 呼呼――。在馬車上的旅行
+- wait:
+  - 90
+- print:
+  - 美冬
+  - >2-
+
+    也很優雅，真不錯呢！
+- touch: *o0
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1048006_007
+- face:
+  - 104811
+  - 5
+- print:
+  - 美冬
+  - ……我知道啦。
+- face:
+  - 104811
+  - 3
+- print:
+  - 美冬
+  - 工作，工作。
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1048006_008
+- face:
+  - 104811
+  - 6
+- emotion:
+  - exclamation1_R
+  - 104811
+  - 0
+  - 660
+  - se_adv_emote_common_01
+- print:
+  - 美冬
+  - 那個，對面好像有什麼正朝著這裡接近喔？ 是什麼呢……
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 3
+- fadeout:
+  - 104811
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 500130
+- shake_anime:
+  - 0
+- amb_stop:
+  - 1
+- amb:
+  - amb_adv_outdoors_day_01
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- chara_full:
+  - 811
+  - RC
+  - 1
+- change:
+  - C
+  - RC
+  - 45
+- fadein:
+  - 811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M11
+  - 0
+  - 0
+  - 1
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1048006_009
+- face:
+  - 811
+  - 1
+- print:
+  - 盜賊１
+  - 喔喔――。我們是很可怕很可怕的山賊――。
+- wait:
+  - 60
+- print:
+  - 盜賊１
+  - >2-
+
+    我們要搶走馬車上的花喔。沒有什麼可疑的地方喔――。
+- wait:
+  - 45
+- touch: *o0
+- choice:
+  - 說話的語氣真平淡啊……
+  - 3
+- tag:
+  - 3
+- window_visible:
+  - false
+- fadeout:
+  - 811
+  - 30
+- chara_full:
+  - 104811
+  - C
+  - 2
+- fadein:
+  - 104811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1048006_010
+- face:
+  - 104811
+  - 2
+- print:
+  - 美冬
+  - 呵呵呵，已從事傭兵多年的我們是絕對不會輸的喔！
+- wait:
+  - 105
+- print:
+  - 美冬
+  - >2
+
+- face:
+  - 104811
+  - 3
+- print:
+  - 美冬
+  - 喝啊啊啊啊啊！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 104811
+  - 30
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0016
+  - se_adv_weapon_sword_hit_02
+- wait:
+  - 30
+- background:
+  - 500130
+- chara_full:
+  - 911
+  - LC
+  - 4
+- chara_full:
+  - 811
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- shake:
+  - 801:901
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1048006_011
+- face:
+  - 911
+  - 4
+- print:
+  - 盜賊２
+  - 呃啊，被――幹――掉――了――。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 911
+  - 30
+- se:
+  - se_adv_bodyfall_02
+- window_visible:
+  - true
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1048006_012
+- face:
+  - 811
+  - 4
+- print:
+  - 盜賊１
+  - 我們輸了――。喂，趁還沒有受傷前快開溜吧――。
+- wait:
+  - 90
+- print:
+  - 盜賊１
+  - >2-
+
+    我可不會付你危險津貼喔――。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- fadeout:
+  - 811
+  - 30
+- chara_full:
+  - 104811
+  - C
+  - 2
+- fadein:
+  - 104811
+  - 30
+- amb:
+  - amb_adv_carriage_01
+- window_visible:
+  - true
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1048006_013
+- face:
+  - 104811
+  - 2
+- emotion:
+  - note1_L
+  - 104811
+  - -125
+  - 500
+  - se_adv_emote_note_01
+- print:
+  - 美冬
+  - '啊哈哈！ '
+- pop:
+  - 104811
+- print:
+  - 美冬
+  - 真是不中用的傢伙們呢！
+- wait:
+  - 75
+- print:
+  - 美冬
+  - >2-
+
+    還沒好好較量一下就逃了！
+- touch: *o0
+- choice:
+  - 不覺得這再怎麼說都很可疑嗎……？
+  - 4
+- tag:
+  - 4
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1048006_014
+- face:
+  - 104811
+  - 1
+- print:
+  - 美冬
+  - 不，
+- face:
+  - 104811
+  - 2
+- print:
+  - 美冬
+  - 是我們變得太強了喔……呵呵呵。
+- wait:
+  - 105
+- print:
+  - 美冬
+  - >2-
+
+    你似乎也擔心過頭了呢。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1048006_015
+- face:
+  - 104811
+  - 6
+- print:
+  - 美冬
+  - 啊，我看到目的地的花店就在那裡喔！
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 104811
+  - 6
+- wait:
+  - 15
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 7
+  - 1
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1048006_016
+- face:
+  - 104811
+  - 6
+- print:
+  - 美冬
+  - '咦……？ '
+- face:
+  - 104811
+  - 4
+- print:
+  - 美冬
+  - 雖說是花店，
+- wait:
+  - 75
+- print:
+  - 美冬
+  - >2-
+
+    店員卻都是非常強壯的男性們呢……
+- face:
+  - 104811
+  - 2
+- print:
+  - 美冬
+  - 算了，無所謂。
+- wait:
+  - 75
+- touch: *o0
+- se:
+  - se_adv_knock_back_01
+- amb_stop:
+  - 1
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1048006_017
+- face:
+  - 104811
+  - 1
+- print:
+  - 美冬
+  - '花店的各位！ '
+- face:
+  - 104811
+  - 2
+- print:
+  - 美冬
+  - 我們順利的擊退山賊，
+- wait:
+  - 75
+- print:
+  - 美冬
+  - >2-
+
+    保護了花喔！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1048006_018
+- face:
+  - 1
+  - 1
+- print:
+  - 花店？
+  - 嘿嘿嘿，是嗎……喂，去確認裝貨台！
+- wait:
+  - 90
+- touch: *o0
+- bgm:
+  - bgm_M21_02
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1048006_019
+- face:
+  - 1
+  - 1
+- print:
+  - 花店員工？
+  - 啊――！ 老大……不是，店長，
+- wait:
+  - 75
+- print:
+  - 花店員工？
+  - >2-
+
+    裝貨台是空的喔！
+- touch: *o0
+- face:
+  - 104811
+  - 6
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1048006_020
+- face:
+  - 1
+  - 1
+- print:
+  - 花店？
+  - 哎哎哎呀！ 怎麼回事！ 喂，那邊的大姐，
+- wait:
+  - 120
+- print:
+  - 花店？
+  - >2-
+
+    妳看看馬車裡面！ 這不是空的嗎！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1048006_021
+- face:
+  - 104811
+  - 3
+- emotion:
+  - sweat2_R
+  - 104811
+  - 60
+  - 540
+  - '*non'
+- print:
+  - 美冬
+  - 這不可能啊！ 我們明明將山賊
+- wait:
+  - 45
+- print:
+  - 美冬
+  - >2-
+
+    全部擊退了……
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1048006_022
+- face:
+  - 1
+  - 1
+- print:
+  - 花店？
+  - 不，花一定是趁你們不注意的空檔被偷走的！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1048006_023
+- face:
+  - 104811
+  - 6
+- print:
+  - 美冬
+  - 但我不相信，我明明應該……
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1048006_024
+- face:
+  - 104811
+  - 4
+- print:
+  - 美冬
+  - 有好好……保護的……
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1048006_025
+- face:
+  - 1
+  - 1
+- print:
+  - 花店？
+  - 欸嘿嘿。妳的聲音是不是變得越來越小啦。
+- wait:
+  - 165
+- print:
+  - 花店？
+  - >2-
+
+    那麼，根據契約書，要將妳如何處置
+- wait:
+  - 90
+- print:
+  - 花店？
+  - >2-
+
+    都是我們的自由。
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1048006_026
+- face:
+  - 1
+  - 1
+- print:
+  - 花店員工？
+  - 大姐可是上等貨呢，用高價將她當作奴隸賣掉吧！
+- wait:
+  - 90
+- print:
+  - 花店員工？
+  - >2-
+
+    畢竟契約書上是這麼寫的啊！
+- touch: *o0
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1048006_027
+- face:
+  - 104811
+  - 4
+- eye_open:
+  - False
+- print:
+  - 美冬
+  - 沒辦法了……
+- touch: *o0
+- eye_open:
+  - true
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1048006_028
+- face:
+  - 104811
+  - 4
+- print:
+  - 美冬
+  - 對不起。
+- wait:
+  - 30
+- print:
+  - 美冬
+  - >2-
+
+    我似乎
+- shake:
+  - 104811
+- eye_open:
+  - False
+- print:
+  - 美冬
+  - 不能再指導你這個徒弟了……
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- eye_open:
+  - true
+- face:
+  - 104811
+  - 6
+- emotion:
+  - notice1_L
+  - 104811
+  - -88
+  - 525
+  - se_adv_emote_common_01
+- wait:
+  - 5
+- window_visible:
+  - true
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1048006_029
+- face:
+  - 104811
+  - 6
+- print:
+  - 美冬
+  - 那個，你怎麼了？
+- wait:
+  - 60
+- print:
+  - 美冬
+  - >2-
+
+    一直在意地偷瞄馬車的車夫……
+- wait:
+  - 15
+- touch: *o0
+- choice:
+  - ……你為什麼想要逃跑？
+  - 5
+- choice:
+  - 感覺很可疑。
+  - 6
+- tag:
+  - 5
+- fadeout:
+  - 104811
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 1411
+  - C
+  - 6
+- fadein:
+  - 1411
+  - 30
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1048006_030
+- face:
+  - 1411
+  - 6
+- print:
+  - 車夫
+  - '啊……！？ '
+- shake:
+  - 1411
+- print:
+  - 車夫
+  - 糟、糟了……被發現了……
+- wait:
+  - 45
+- touch: *o0
+- goto:
+  - 7
+- tag:
+  - 6
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1048006_031
+- face:
+  - 104811
+  - 6
+- emotion:
+  - surprise1_L
+  - 104811
+  - 150
+  - 560
+  - se_adv_emote_common_01
+- print:
+  - 美冬
+  - '……咦？ '
+- face:
+  - 104811
+  - 3
+- jump:
+  - 104811
+- print:
+  - 美冬
+  - 請、請等一下！ 那邊的車夫！
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_armor_go_01
+- change:
+  - LC
+  - C
+  - 45
+- fadeout:
+  - 104811
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 1411
+  - C
+  - 6
+- fadein:
+  - 1411
+  - 30
+- window_visible:
+  - true
+- tag:
+  - 7
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1048006_032
+- face:
+  - 1411
+  - 6
+- print:
+  - 車夫
+  - 嗚哇！
+- wait:
+  - 15
+- print:
+  - 車夫
+  - >2
+
+- face:
+  - 1411
+  - 4
+- print:
+  - 車夫
+  - 等、等一下，不要動粗啊！
+- wait:
+  - 45
+- print:
+  - 車夫
+  - >2-
+
+    我會全盤托出的！ 好嗎！
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1048006_033
+- face:
+  - 1411
+  - 3
+- print:
+  - 車夫
+  - 我、我只是受雇於那些傢伙而已！
+- wait:
+  - 60
+- print:
+  - 車夫
+  - >2-
+
+    那些傢伙不是什麼開花店的，是盜賊團，
+- wait:
+  - 45
+- print:
+  - 車夫
+  - >2-
+
+    這輛馬車一開始就沒有裝什麼貨物！！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1411
+  - 30
+- chara_full:
+  - 911
+  - LC
+  - 3
+- chara_full:
+  - 811
+  - RC
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1048006_034
+- face:
+  - 811
+  - 3
+- print:
+  - 盜賊１
+  - 笨、笨蛋，竟然自己招認，還說個不停！
+- wait:
+  - 30
+- print:
+  - 盜賊１
+  - >2
+
+- face:
+  - 811
+  - 4
+- pop:
+  - 811
+- print:
+  - 盜賊１
+  - 可惡，快逃！
+- wait:
+  - 15
+- touch: *o0
+- bgm:
+  - stop
+  - 6
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - C
+  - LC
+  - 30
+- change:
+  - R
+  - RC
+  - 30
+- fadeout_all:
+  - 30
+- chara_full:
+  - 104811
+  - C
+  - 6
+- fadein:
+  - 104811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1048006_035
+- face:
+  - 104811
+  - 6
+- print:
+  - 美冬
+  - 不是開花店的……
+- face:
+  - 104811
+  - 3
+- print:
+  - 美冬
+  - 是盜賊團？
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 38
+- window_visible:
+  - true
+- bgm:
+  - bgm_M17
+  - 0
+  - 0
+  - 1
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1048006_036
+- face:
+  - 104811
+  - 3
+- print:
+  - 美冬
+  - 給、
+- shake:
+  - 104811
+- print:
+  - 美冬
+  - 給我站住啊啊啊！ 喝啊啊啊啊啊啊！
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_armor_go_01
+- scale:
+  - 104811
+  - 1.3
+  - 2
+  - 5
+- effect:
+  - 0009
+- fadeout:
+  - 104811
+  - 30
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0016
+  - se_adv_weapon_sword_hit_02
+- wait:
+  - 30
+- background:
+  - 500130
+- chara_full:
+  - 911
+  - LC
+  - 6
+- chara_full:
+  - 811
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- text_size:
+  - 60
+- window_visible:
+  - true
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1048006_037
+- face:
+  - 1
+  - 1
+- shake:
+  - 811:911
+- print:
+  - 盜賊們
+  - 嗚哇啊啊啊啊！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 23
+- bgm:
+  - stop
+  - 3
+  - 1
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- se:
+  - se_adv_bodyfall_02
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 500131
+- amb_stop:
+  - 2
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_outdoors_day_01
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    美冬他們將盜賊團一夥人一網打盡，
+
+    並將那群傢伙直接交給了王宮騎士團。
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 104811
+  - C
+  - 4
+- fadein:
+  - 104811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M52
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1048006_038
+- face:
+  - 104811
+  - 4
+- print:
+  - 美冬
+  - ……呼，
+- nod:
+  - 104811
+- print:
+  - 美冬
+  - 正如你所說……
+- wait:
+  - 75
+- print:
+  - 美冬
+  - >2-
+
+    似乎是個危險的任務呢。
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 104811
+  - 6
+- nod:
+  - 104811
+- nod:
+  - 104811
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1048006_039
+- face:
+  - 104811
+  - 6
+- print:
+  - 美冬
+  - 那個，
+- face:
+  - 104811
+  - 4
+- print:
+  - 美冬
+  - 你在生氣嗎？
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1048006_040
+- face:
+  - 104811
+  - 4
+- print:
+  - 美冬
+  - 也是啊，對不起，讓你擔心了。
+- wait:
+  - 105
+- print:
+  - 美冬
+  - >2-
+
+    差一點就不能再繼續指導你了呢。
+- wait:
+  - 105
+- print:
+  - 美冬
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 美冬
+  - 我作為師父實在是不及格……
+- touch: *o0
+- window_visible:
+  - false
+- eye_open:
+  - true
+- eye_open:
+  - true
+- face:
+  - 104811
+  - 6
+- emotion:
+  - question1_R
+  - 104811
+  - 100
+  - 510
+  - se_adv_emote_question_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1048006_041
+- face:
+  - 104811
+  - 6
+- print:
+  - 美冬
+  - 咦？ 不是這樣？
+- wait:
+  - 105
+- print:
+  - 美冬
+  - >2
+
+- face:
+  - 104811
+  - 4
+- print:
+  - 美冬
+  - 你只是單純的……擔心我嗎？
+- wait:
+  - 45
+- touch: *o0
+- effect:
+  - 0044
+  - se_adv_happy_particle_01
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1048006_042
+- face:
+  - 104811
+  - 5
+- eye_open:
+  - FALSE
+- print:
+  - 美冬
+  - 我、我、那個、不太習慣這種事……
+- wait:
+  - 90
+- print:
+  - 美冬
+  - >2
+
+- eye_open:
+  - TRUE
+- print:
+  - 美冬
+  - 因為一直以來，除了我自己以外，都沒人會擔心我……
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1048006_043
+- face:
+  - 104811
+  - 5
+- face:
+  - 104811
+  - 2
+- print:
+  - 美冬
+  - 那、那個……
+- wait:
+  - 75
+- print:
+  - 美冬
+  - >2-
+
+    謝、謝謝……
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1048006_044
+- face:
+  - 104811
+  - 2
+- print:
+  - 美冬
+  - 從現在開始，我會多聽你的話喔！
+- wait:
+  - 45
+- print:
+  - 美冬
+  - >2
+
+- face:
+  - 104811
+  - 4
+- print:
+  - 美冬
+  - 那個，總、總覺得我似乎變了很多呢……
+- wait:
+  - 75
+- print:
+  - 美冬
+  - >2-
+
+    該怎麼說呢，那個……
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1048006_045
+- face:
+  - 104811
+  - 5
+- print:
+  - 美冬
+  - 啊，不、不知道為什麼臉頰好燙啊――！
+- wait:
+  - 45
+- print:
+  - 美冬
+  - >2
+
+- shake:
+  - 104811
+- print:
+  - 美冬
+  - '到底是為什麼呢！ '
+- face:
+  - 104811
+  - 2
+- print:
+  - 美冬
+  - 啊哈哈！
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- effect_delete:
+  - 0044
+  - 30
+- fadeout:
+  - 104811
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    {0}帶著微笑注視著
+
+    邊說話邊往自己臉上拼命搧風的美冬。
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

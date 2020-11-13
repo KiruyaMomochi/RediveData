@@ -1,0 +1,2715 @@
+- title:
+  - 惡徒們的陰謀
+- outline:
+  - 杏奈聽到了貴族等人的秘密談話中邪惡的種種，氣得進入戰鬥狀態。在戰鬥中，{0}為了掩護杏奈而倒下。杏奈背著他逃出洞窟，和前來會合的流夏與七七香一起往村子撤退。
+- background:
+  - 500240
+- amb:
+  - amb_adv_cave_with_water_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 惡徒們的陰謀
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    杏奈與{0}正在進行採掘作業，
+
+    但因為沒有休息不停工作，體力早就來到了極限。
+- touch: &o0 []
+- window_visible:
+  - false
+- vo_effect:
+  - 4
+- chara_full:
+  - 100911
+  - C
+  - 4
+  - 1
+- fadein:
+  - 100911
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M21
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5008004_000
+- face:
+  - 100911
+  - 4
+- print:
+  - 修特帕魯
+  - 哈，
+- wait:
+  - 20
+- eye_open:
+  - TRUE
+- print:
+  - 修特帕魯
+  - 哈，
+- wait:
+  - 40
+- nod:
+  - 100911
+- print:
+  - 修特帕魯
+  - 哈啊……
+- wait:
+  - 70
+- print:
+  - 修特帕魯
+  - >2-
+
+    還沒到
+- wait:
+  - 20
+- print:
+  - 修特帕魯
+  - 午休時間嗎……？
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5008004_001
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 乾脆放棄用手挖，
+- wait:
+  - 45
+- print:
+  - 修特帕魯
+  - >2-
+
+    直接用魔法破壞不就好了嗎……
+- touch: *o0
+- choice:
+  - 這樣洞窟會出大事的……
+  - 1
+- choice:
+  - 就這麼做吧……
+  - 2
+- tag:
+  - 1
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5008004_002
+- face:
+  - 100911
+  - 1
+- nod:
+  - 100911
+- print:
+  - 修特帕魯
+  - 的確，
+- wait:
+  - 25
+- print:
+  - 修特帕魯
+  - 只要有我疾風之冥姬的一擊，根本小事一樁。
+- wait:
+  - 110
+- print:
+  - 修特帕魯
+  - >2-
+
+    擁有強大的魔力還真令人困擾啊，
+- wait:
+  - 80
+- eye_open:
+  - False
+- print:
+  - 修特帕魯
+  - 呵、呵、呵……
+- wait:
+  - 85
+- eye_open:
+  - True
+- face:
+  - 100911
+  - 4
+- print:
+  - 修特帕魯
+  - 唉。
+- touch: *o0
+- goto:
+  - 3
+- tag:
+  - 2
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5008004_003
+- face:
+  - 100911
+  - 1
+- emotion:
+  - twinkle1_R
+  - 100911
+  - -120
+  - 495
+  - se_adv_emote_twinkle_01
+- print:
+  - 修特帕魯
+  - 吉格魯特也這麼想嗎？　
+- wait:
+  - 30
+- face:
+  - 100911
+  - 2
+- print:
+  - 修特帕魯
+  - 那麼，馬上來――
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5008004_004
+- face:
+  - 100911
+  - 6
+- pop:
+  - 100911
+- print:
+  - 修特帕魯
+  - 不對，等一下。
+- wait:
+  - 30
+- face:
+  - 100911
+  - 4
+- print:
+  - 修特帕魯
+  - 如果在這裡施放魔法的話，
+- wait:
+  - 50
+- print:
+  - 修特帕魯
+  - >2-
+
+    似乎也會把其他工人一起給炸飛的。
+- wait:
+  - 60
+- eye_open:
+  - FALSE
+- print:
+  - 修特帕魯
+  - 還是算了吧……
+- touch: *o0
+- eye_open:
+  - TRUE
+- tag:
+  - 3
+- window_visible:
+  - false
+- fadeout:
+  - 100911
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 2511
+  - LC
+  - 1
+- chara_full:
+  - 1111
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_5008004_005
+- face:
+  - 2511
+  - 1
+- print:
+  - 貴族
+  - 進度如何？
+- touch: *o0
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_5008004_006
+- face:
+  - 1111
+  - 1
+- print:
+  - 現場監督
+  - 是的，
+- wait:
+  - 15
+- print:
+  - 現場監督
+  - 雖然停滯了一段時間，
+- wait:
+  - 30
+- print:
+  - 現場監督
+  - 但最近幾天都有達成目標。
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_5008004_007
+- face:
+  - 2511
+  - 1
+- nod:
+  - 2511
+- print:
+  - 貴族
+  - 很好。
+- wait:
+  - 30
+- print:
+  - 貴族
+  - 我這裡也得到資料了。
+- wait:
+  - 35
+- print:
+  - 貴族
+  - 這下總算能開始解讀了。
+- touch: *o0
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_5008004_008
+- face:
+  - 1111
+  - 2
+- print:
+  - 現場監督
+  - 那真是太好了！　
+- wait:
+  - 30
+- face:
+  - 1111
+  - 1
+- print:
+  - 現場監督
+  - 那麼，
+- wait:
+  - 15
+- print:
+  - 現場監督
+  - 裡面請。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - C
+  - LC
+  - 45
+- change:
+  - R
+  - RC
+  - 45
+- fadeout_all:
+  - 45
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100911
+  - C
+  - 6
+- fadein:
+  - 100911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5008004_009
+- face:
+  - 100911
+  - 6
+- print:
+  - 修特帕魯
+  - ……吉格魯特。
+- wait:
+  - 25
+- print:
+  - 修特帕魯
+  - 你看那邊。
+- wait:
+  - 35
+- print:
+  - 修特帕魯
+  - >2-
+
+    一看就很了不起的傢伙，
+- wait:
+  - 30
+- print:
+  - 修特帕魯
+  - 和監督人員往洞窟深處走去了。
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5008004_010
+- face:
+  - 100911
+  - 1
+- nod:
+  - 100911
+- print:
+  - 修特帕魯
+  - 我們跟在後面吧。
+- wait:
+  - 45
+- print:
+  - 修特帕魯
+  - 這是調查的絕佳機會。
+- touch: *o0
+- bgm:
+  - stop
+  - 1.5
+  - 1
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - RC
+  - C
+  - 45
+- fadeout:
+  - 100911
+  - 45
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 2511
+  - LC
+  - 4
+- chara_full:
+  - 1111
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M46
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_5008004_011
+- face:
+  - 2511
+  - 4
+- print:
+  - 貴族
+  - 當鄰近村子的勞動力用盡的時候，一時間我還在想該怎麼辦……
+- wait:
+  - 105
+- print:
+  - 貴族
+  - >2
+
+- face:
+  - 2511
+  - 1
+- print:
+  - 貴族
+  - 看來在蘭德索爾發出的徵人廣告，
+- wait:
+  - 45
+- print:
+  - 貴族
+  - 十分有效果呢。
+- touch: *o0
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_5008004_012
+- face:
+  - 1111
+  - 1
+- nod:
+  - 1111
+- print:
+  - 現場監督
+  - 是。
+- wait:
+  - 25
+- print:
+  - 現場監督
+  - 一大群的蠢蛋，
+- wait:
+  - 30
+- print:
+  - 現場監督
+  - 被這傳單上的內容吸引而來了。
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_5008004_013
+- face:
+  - 2511
+  - 8
+- print:
+  - 貴族
+  - 附三餐、
+- wait:
+  - 30
+- print:
+  - 貴族
+  - 住宿設施完善，
+- wait:
+  - 25
+- print:
+  - 貴族
+  - >2-
+
+    有前輩們親切細心的指導，
+
+    是個大受好評如在家般舒適的陽光職場――
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_5008004_014
+- face:
+  - 2511
+  - 2
+- pop:
+  - 2511
+- print:
+  - 貴族
+  - 哈哈，
+- wait:
+  - 45
+- print:
+  - 貴族
+  - 不管看幾次都覺得
+- wait:
+  - 10
+- print:
+  - 貴族
+  - 這真是我的傑作！
+- wait:
+  - 40
+- print:
+  - 貴族
+  - >2
+
+- face:
+  - 2511
+  - 1
+- print:
+  - 貴族
+  - 沒想到會被這種東西欺騙，跑到這種偏僻的深山裡來，
+- wait:
+  - 60
+- print:
+  - 貴族
+  - >2-
+
+    果然平民的思考就是讓人無法理解！
+- touch: *o0
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_5008004_015
+- face:
+  - 1111
+  - 1
+- print:
+  - 現場監督
+  - 也來了不少
+- wait:
+  - 30
+- print:
+  - 現場監督
+  - >-
+    像是通緝犯，
+
+    或是另有隱情的人。
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_5008004_016
+- face:
+  - 2511
+  - 1
+- print:
+  - 貴族
+  - 嗯。
+- wait:
+  - 20
+- print:
+  - 貴族
+  - 看來沒有錢就無法生存的現實，
+- wait:
+  - 40
+- print:
+  - 貴族
+  - >2-
+
+    是不分貴賤的啊。
+- touch: *o0
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_5008004_017
+- face:
+  - 1111
+  - 1
+- nod:
+  - 1111
+- print:
+  - 現場監督
+  - 您說得沒錯。
+- wait:
+  - 30
+- print:
+  - 現場監督
+  - >2-
+
+    畢竟沒有錢要生活下去是很艱辛的。
+- touch: *o0
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_5008004_018
+- face:
+  - 1111
+  - 1
+- print:
+  - 現場監督
+  - 而且，
+- wait:
+  - 20
+- print:
+  - 現場監督
+  - 這張傳單的內容，
+- wait:
+  - 40
+- print:
+  - 現場監督
+  - 並沒有任何一字一句是錯的。
+- wait:
+  - 45
+- print:
+  - 現場監督
+  - >2
+
+- face:
+  - 1111
+  - 2
+- print:
+  - 現場監督
+  - 我們供應了食物，
+- wait:
+  - 35
+- print:
+  - 現場監督
+  - 也確實提供了睡眠的地方。
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_5008004_019
+- face:
+  - 2511
+  - 2
+- pop:
+  - 2511
+- print:
+  - 貴族
+  - 哈哈哈！　
+- wait:
+  - 40
+- face:
+  - 2511
+  - 8
+- print:
+  - 貴族
+  - 讓人吃從村子裡搶來的食物，
+- wait:
+  - 40
+- print:
+  - 貴族
+  - >2-
+
+    和睡在如家畜小屋般的乾草床上，你還真能說啊！
+- touch: *o0
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_5008004_020
+- face:
+  - 1111
+  - 2
+- print:
+  - 現場監督
+  - 這麼說真是嚴格呢，
+- wait:
+  - 30
+- print:
+  - 現場監督
+  - 哈哈哈……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 100911
+  - C
+  - 6
+- fadein:
+  - 100911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5008004_021
+- face:
+  - 100911
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100911
+  - -10
+  - 640
+  - se_adv_emote_common_01
+- print:
+  - 修特帕魯
+  - 他、
+- wait:
+  - 15
+- print:
+  - 修特帕魯
+  - 他說什麼！？　
+- wait:
+  - 30
+- print:
+  - 修特帕魯
+  - 我們剛才吃的東西，
+- wait:
+  - 35
+- print:
+  - 修特帕魯
+  - >2-
+
+    居然是從別人那裡搶來的食物……
+- wait:
+  - 75
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 可惡的傢伙，
+- wait:
+  - 15
+- print:
+  - 修特帕魯
+  - 居然做這種壞事！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100911
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 2511
+  - LC
+  - 1
+- chara_full:
+  - 1111
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_5008004_022
+- face:
+  - 2511
+  - 1
+- nod:
+  - 2511
+- print:
+  - 貴族
+  - 那麼……
+- wait:
+  - 35
+- print:
+  - 貴族
+  - 採掘速度也再次上軌道了，
+- wait:
+  - 45
+- print:
+  - 貴族
+  - >2-
+
+    我的計畫也終於要大功告成了。
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_5008004_023
+- face:
+  - 2511
+  - 1
+- print:
+  - 貴族
+  - 只要以我帶回來的這份文獻為基礎解讀古文書的話，
+- wait:
+  - 60
+- print:
+  - 貴族
+  - 我就能逼近神……
+- wait:
+  - 45
+- print:
+  - 貴族
+  - >2
+
+- face:
+  - 2511
+  - 8
+- print:
+  - 貴族
+  - 不對，
+- wait:
+  - 15
+- print:
+  - 貴族
+  - 我就能得到連神都能超越的力量。
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_5008004_024
+- face:
+  - 2511
+  - 3
+- print:
+  - 貴族
+  - 如此一來，
+- wait:
+  - 30
+- print:
+  - 貴族
+  - 就算要推翻蘭德索爾的王政，
+- wait:
+  - 40
+- print:
+  - 貴族
+  - 也是輕而易舉。
+- wait:
+  - 30
+- print:
+  - 貴族
+  - >2
+
+- face:
+  - 2511
+  - 8
+- print:
+  - 貴族
+  - 然後，
+- wait:
+  - 15
+- print:
+  - 貴族
+  - 我將成為新的王。
+- touch: *o0
+- face:
+  - 2511
+  - 1
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 1
+- vo:
+  - vo_adv_5008004_025
+- face:
+  - 100911
+  - 6
+- print:
+  - 修特帕魯
+  - 推翻王政？　
+- wait:
+  - 60
+- print:
+  - 修特帕魯
+  - 成為新的王……？
+- wait:
+  - 60
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 這些傢伙
+- wait:
+  - 15
+- print:
+  - 修特帕魯
+  - 居然有這種企圖。
+- touch: *o0
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_5008004_026
+- face:
+  - 1111
+  - 1
+- print:
+  - 現場監督
+  - 等那計畫成功之時，
+- wait:
+  - 30
+- print:
+  - 現場監督
+  - 請務必也分些好處給我……
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_5008004_027
+- face:
+  - 2511
+  - 1
+- print:
+  - 貴族
+  - 我明白。
+- wait:
+  - 25
+- print:
+  - 貴族
+  - >2
+
+- face:
+  - 2511
+  - 2
+- print:
+  - 貴族
+  - 你那個拐騙平民的才能，
+- wait:
+  - 45
+- print:
+  - 貴族
+  - 就讓你在我的新政府擔任要角好好發揮吧。
+- touch: *o0
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_5008004_028
+- face:
+  - 1111
+  - 1
+- nod:
+  - 1111
+- print:
+  - 現場監督
+  - 哈哈！　
+- wait:
+  - 30
+- face:
+  - 1111
+  - 2
+- print:
+  - 現場監督
+  - 這是我的榮幸！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100911
+  - C
+  - 3
+- fadein:
+  - 100911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5008004_029
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 剛才的話你聽到了嗎？
+- wait:
+  - 30
+- print:
+  - 修特帕魯
+  - 吉格魯特。
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5008004_030
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 我對政治沒有興趣。
+- wait:
+  - 60
+- print:
+  - 修特帕魯
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 修特帕魯
+  - 雖然沒有興趣，
+- wait:
+  - 30
+- eye_open:
+  - True
+- pop:
+  - 100911
+- print:
+  - 修特帕魯
+  - 但我絕對不接受有那種國王的國家。
+- touch: *o0
+- bgm:
+  - stop
+  - 7
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5008004_031
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 因為工作過頭身體好沉重，
+- wait:
+  - 60
+- print:
+  - 修特帕魯
+  - 但我可不能在這裡退縮……！
+- touch: *o0
+- bgm:
+  - bgm_M47
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5008004_032
+- face:
+  - 100911
+  - 1
+- pop:
+  - 100911
+- print:
+  - 修特帕魯
+  - 走吧！　
+- wait:
+  - 20
+- print:
+  - 修特帕魯
+  - 我要在這裡粉碎那些傢伙的野心！
+- wait:
+  - 45
+- print:
+  - 修特帕魯
+  - >2-
+
+    賭上「熾炎戰鬼煉獄血盟暗黑團」之名！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 100911
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 2511
+  - LC
+  - 1
+- chara_full:
+  - 1111
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_5008004_033
+- face:
+  - 2511
+  - 1
+- print:
+  - 貴族
+  - 那麼，
+- wait:
+  - 25
+- print:
+  - 貴族
+  - 我要開始解讀古文書了。
+- wait:
+  - 60
+- print:
+  - 貴族
+  - >2
+
+- face:
+  - 2511
+  - 3
+- print:
+  - 貴族
+  - 你就
+- wait:
+  - 20
+- print:
+  - 貴族
+  - 盡快挖掘那個吧。
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 3
+- text_size:
+  - 30
+- window_visible:
+  - true
+- face:
+  - 2511
+  - 6
+- face:
+  - 1111
+  - 6
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 1
+- vo:
+  - vo_adv_5008004_034
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 到此為止了，這些惡徒！！
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- window_visible:
+  - true
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_5008004_035
+- face:
+  - 1111
+  - 6
+- print:
+  - 現場監督
+  - 你們是，
+- wait:
+  - 15
+- print:
+  - 現場監督
+  - 新來的……
+- wait:
+  - 30
+- face:
+  - 1111
+  - 3
+- print:
+  - 現場監督
+  - 是侵入者！　
+- wait:
+  - 30
+- print:
+  - 現場監督
+  - 警衛～！
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_5008004_036
+- face:
+  - 2511
+  - 1
+- print:
+  - 貴族
+  - ……你們聽到剛才的話了？　
+- wait:
+  - 60
+- print:
+  - 貴族
+  - 小姐。
+- wait:
+  - 15
+- print:
+  - 貴族
+  - 還有少年。
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_5008004_037
+- face:
+  - 2511
+  - 1
+- eye_open:
+  - False
+- print:
+  - 貴族
+  - 真是的……
+- wait:
+  - 30
+- eye_open:
+  - True
+- print:
+  - 貴族
+  - 年輕真是
+- wait:
+  - 15
+- print:
+  - 貴族
+  - 麻煩的東西呢。
+- wait:
+  - 40
+- print:
+  - 貴族
+  - >2-
+
+    好奇心
+- wait:
+  - 25
+- print:
+  - 貴族
+  - 會害你們自取滅亡的。
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_5008004_038
+- face:
+  - 2511
+  - 3
+- print:
+  - 貴族
+  - 喂，
+- wait:
+  - 15
+- print:
+  - 貴族
+  - 動手。
+- wait:
+  - 30
+- print:
+  - 貴族
+  - >2-
+
+    之後交給你了――
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - L
+  - LC
+  - 30
+- fadeout_all:
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100911
+  - C
+  - 3
+- fadein:
+  - 100911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5008004_039
+- face:
+  - 100911
+  - 3
+- pop:
+  - 100911
+- print:
+  - 修特帕魯
+  - 別想逃，惡人！　
+- wait:
+  - 25
+- print:
+  - 修特帕魯
+  - 滾開，
+- wait:
+  - 15
+- print:
+  - 修特帕魯
+  - 我沒空理小嘍囉！！
+- wait:
+  - 45
+- print:
+  - 修特帕魯
+  - >2-
+
+    喝啊啊啊！！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_armor_go_01
+- effect:
+  - 0009
+- scale:
+  - 100911
+  - 1.2
+  - 1
+  - 10
+- fadeout:
+  - 100911
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0001
+  - se_adv_weapon_dagger_whiff_01
+- wait:
+  - 3
+- effect:
+  - 0045
+- wait:
+  - 3
+- effect:
+  - 0001
+  - se_adv_weapon_claw_whiff_02
+  - -110
+- wait:
+  - 15
+- background:
+  - 500240
+- chara_full:
+  - 1111
+  - C
+  - 1
+- scale:
+  - 1111
+  - 1.2
+  - 1
+- fadein:
+  - 1111
+  - 10
+- scale:
+  - 1111
+  - 1
+  - 2
+  - 5
+- se:
+  - se_adv_knock_back_01
+- pop:
+  - 1111
+- window_visible:
+  - true
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_5008004_040
+- face:
+  - 1111
+  - 1
+- print:
+  - 現場監督
+  - 怎麼了？　
+- wait:
+  - 30
+- print:
+  - 現場監督
+  - 完全沒有力量啊？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1111
+  - 30
+- chara_full:
+  - 100911
+  - C
+  - 3
+- fadein:
+  - 100911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5008004_041
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 可惡，
+- wait:
+  - 20
+- face:
+  - 100911
+  - 4
+- print:
+  - 修特帕魯
+  - 如果是能夠自由使用魔法的地方，
+- wait:
+  - 45
+- print:
+  - 修特帕魯
+  - >2-
+
+    這樣的傢伙
+- wait:
+  - 30
+- print:
+  - 修特帕魯
+  - 我一瞬間就能排除了啊……！
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5008004_042
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 吉格魯特！　
+- wait:
+  - 15
+- print:
+  - 修特帕魯
+  - 要突破包圍囉！　
+- wait:
+  - 30
+- pop:
+  - 100911
+- print:
+  - 修特帕魯
+  - 跟在我後頭！！
+- touch: *o0
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 1
+- vo:
+  - vo_adv_5008004_043
+- face:
+  - 1111
+  - 3
+- print:
+  - 現場監督
+  - 趁現在！　
+- wait:
+  - 15
+- print:
+  - 現場監督
+  - 除掉女人！！
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5008004_044
+- face:
+  - 100911
+  - 6
+- print:
+  - 修特帕魯
+  - 糟糕，
+- wait:
+  - 15
+- print:
+  - 修特帕魯
+  - 是射擊武器――！！
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 4
+- window_visible:
+  - true
+- choice:
+  - 杏奈！！
+  - 4
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 100911
+  - 30
+- effect:
+  - 0009
+- se:
+  - se_adv_step_concrete_run_go_01
+- camera_zoom:
+  - 1.3
+  - 5
+- wait:
+  - 5
+- effect:
+  - 0002
+  - se_adv_weapon_arrow_fly_01
+- wait:
+  - 3
+- effect:
+  - 0002
+  - se_adv_weapon_arrow_fly_01
+  - 10
+- wait:
+  - 3
+- effect:
+  - 0002
+  - se_adv_weapon_arrow_fly_01
+  - 20
+- wait:
+  - 15
+- effect:
+  - 0079
+  - se_adv_weapon_claw_hit_01
+- shake_delete: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- bgm:
+  - stop
+  - 4.5
+  - 1
+- camera_zoom:
+  - 1
+  - 5
+- chara_full:
+  - 100911
+  - C
+  - 6
+- fadein:
+  - 100911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5008004_045
+- face:
+  - 100911
+  - 6
+- print:
+  - 修特帕魯
+  - 咦？　
+- wait:
+  - 45
+- face:
+  - 100911
+  - 4
+- print:
+  - 修特帕魯
+  - 啊……
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- window_visible:
+  - true
+- bgm:
+  - bgm_M60
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5008004_046
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 吉格魯特！？
+- wait:
+  - 30
+- print:
+  - 修特帕魯
+  - >2-
+
+    回答我啊！！　
+- wait:
+  - 30
+- print:
+  - 修特帕魯
+  - 喂！！　
+- wait:
+  - 10
+- print:
+  - 修特帕魯
+  - 吉格魯特！！
+- shake:
+  - 100911
+- touch: *o0
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 1
+- vo:
+  - vo_adv_5008004_047
+- face:
+  - 1111
+  - 1
+- print:
+  - 現場監督
+  - 除掉男人了！　
+- wait:
+  - 15
+- face:
+  - 1111
+  - 3
+- print:
+  - 現場監督
+  - 剩下一人了！
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5008004_048
+- face:
+  - 100911
+  - 4
+- eye_open:
+  - False
+- print:
+  - 修特帕魯
+  - 你保護了我……
+- wait:
+  - 60
+- eye_open:
+  - True
+- print:
+  - 修特帕魯
+  - 為什麼要做這種蠢事！！
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5008004_049
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 拜託你回答我啊！　
+- wait:
+  - 30
+- eye_open:
+  - False
+- print:
+  - 修特帕魯
+  - 可惡，
+- wait:
+  - 15
+- eye_open:
+  - True
+- print:
+  - 修特帕魯
+  - 他失去意識了嗎……！？
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5008004_050
+- face:
+  - 100911
+  - 4
+- print:
+  - 修特帕魯
+  - 這樣下去會被逮到的！
+- wait:
+  - 40
+- print:
+  - 修特帕魯
+  - >2-
+
+    總之，
+- wait:
+  - 10
+- print:
+  - 修特帕魯
+  - 現在先把吉格魯特帶到安全的地方……！
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 4
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5008004_051
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 看招！　
+- wait:
+  - 30
+- effect:
+  - 9
+- print:
+  - 修特帕魯
+  - 滅裂閃光彈！！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100911
+  - 30
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0024
+  - se_adv_chara_transform_01
+- wait:
+  - 15
+- background:
+  - 500240
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 7
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 1
+- vo:
+  - vo_adv_5008004_052
+- face:
+  - 1111
+  - 4
+- print:
+  - 現場監督
+  - 唔……！！　
+- wait:
+  - 25
+- print:
+  - 現場監督
+  - 閃光彈啊，
+- wait:
+  - 15
+- print:
+  - 現場監督
+  - 真是囂張！
+- wait:
+  - 30
+- print:
+  - 現場監督
+  - >2
+
+- face:
+  - 1111
+  - 3
+- print:
+  - 現場監督
+  - 快追！　給我追！　
+- wait:
+  - 15
+- print:
+  - 現場監督
+  - 絕對別讓他們逃了！！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- bgm:
+  - bgm_M134
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 1
+- vo:
+  - vo_adv_5008004_053
+- face:
+  - 100911
+  - 4
+- print:
+  - 修特帕魯
+  - 吉格魯特，
+- wait:
+  - 25
+- print:
+  - 修特帕魯
+  - 再忍耐一下就好了。
+- wait:
+  - 45
+- print:
+  - 修特帕魯
+  - 我們要離開洞窟了！
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- se:
+  - se_adv_body_handshake_02
+- chara_full:
+  - 100911
+  - C
+  - 3
+- fadein:
+  - 100911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5008004_054
+- face:
+  - 100911
+  - 3
+- eye_open:
+  - False
+- print:
+  - 修特帕魯
+  - 雖然身體已經累到極限了，
+- wait:
+  - 45
+- eye_open:
+  - True
+- print:
+  - 修特帕魯
+  - 但我可不能倒下！
+- wait:
+  - 60
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 4
+- print:
+  - 修特帕魯
+  - 快動，
+- wait:
+  - 30
+- print:
+  - 修特帕魯
+  - 快動啊，
+- wait:
+  - 25
+- print:
+  - 修特帕魯
+  - 我的身體啊！　
+- wait:
+  - 60
+- print:
+  - 修特帕魯
+  - 拜託啊……！！
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5008004_055
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 這次輪到我
+- wait:
+  - 30
+- print:
+  - 修特帕魯
+  - 保護吉格魯特了……！！
+- touch: *o0
+- bgm:
+  - stop
+  - 1.5
+  - 1
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- fadeout:
+  - 100911
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 500200
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_wind_01
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- chara_full:
+  - 100911
+  - LC
+  - 4
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 100911
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5008004_056
+- face:
+  - 100911
+  - 4
+- print:
+  - 修特帕魯
+  - 哈啊，
+- wait:
+  - 30
+- nod:
+  - 100911
+- print:
+  - 修特帕魯
+  - 哈啊……
+- wait:
+  - 45
+- print:
+  - 修特帕魯
+  - 可惡……
+- wait:
+  - 40
+- eye_open:
+  - False
+- print:
+  - 修特帕魯
+  - 已經，不行了——
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100911
+  - 30
+- effect:
+  - 0053
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 105611
+  - R
+  - 6
+- chara_full:
+  - 101311
+  - C
+  - 6
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - R
+  - 30
+- change:
+  - LC
+  - C
+  - 30
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M130
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_5008004_057
+- face:
+  - 105611
+  - 3
+- print:
+  - 流夏
+  - 杏奈！　{0}！！
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_5008004_058
+- face:
+  - 101311
+  - 6
+- print:
+  - 七七香
+  - 杏奈美眉！？　
+- wait:
+  - 30
+- face:
+  - 101311
+  - 4
+- print:
+  - 七七香
+  - 妳為什麼會渾身是傷……
+- wait:
+  - 45
+- face:
+  - 101311
+  - 6
+- pop:
+  - 101311
+- print:
+  - 七七香
+  - >2-
+
+    啊！？　{0}！　你還好吧！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0053
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 100911
+  - C
+  - 4
+- fadein:
+  - 100911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5008004_059
+- face:
+  - 100911
+  - 4
+- eye_open:
+  - True
+- print:
+  - 修特帕魯
+  - 七七香……
+- wait:
+  - 50
+- print:
+  - 修特帕魯
+  - 流夏……
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 1
+- vo:
+  - vo_adv_5008004_060
+- face:
+  - 105611
+  - 3
+- emotion:
+  - exclamation1_R
+  - 105611
+  - 10
+  - 685
+  - se_adv_emote_common_01
+- print:
+  - 流夏
+  - '{0}……！？　喂，'
+- wait:
+  - 15
+- print:
+  - 流夏
+  - 振作點啊！！
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5008004_061
+- face:
+  - 100911
+  - 4
+- print:
+  - 修特帕魯
+  - 抱歉……
+- wait:
+  - 30
+- print:
+  - 修特帕魯
+  - 為了保護我，
+- wait:
+  - 30
+- print:
+  - 修特帕魯
+  - 吉格魯特他……
+- wait:
+  - 90
+- print:
+  - 修特帕魯
+  - >2-
+
+    請把他、帶到……
+- wait:
+  - 30
+- print:
+  - 修特帕魯
+  - 安全的、
+- wait:
+  - 30
+- eye_open:
+  - False
+- print:
+  - 修特帕魯
+  - 地方――
+- touch: *o0
+- window_visible:
+  - false
+- updown:
+  - 100911
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 100911
+  - 30
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- effect:
+  - 0053
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 101311
+  - LC
+  - 6
+- chara_full:
+  - 105611
+  - RC
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_5008004_062
+- face:
+  - 101311
+  - 6
+- pop:
+  - 101311
+- print:
+  - 七七香
+  - 杏奈美眉！？
+- wait:
+  - 30
+- print:
+  - 七七香
+  - >2
+
+- face:
+  - 101311
+  - 4
+- print:
+  - 七七香
+  - 流流、
+- wait:
+  - 25
+- print:
+  - 七七香
+  - 流夏姐、
+- wait:
+  - 15
+- print:
+  - 七七香
+  - 要怎麼辦！！
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_5008004_063
+- face:
+  - 105611
+  - 3
+- print:
+  - 流夏
+  - 只能先暫時撤退了。
+- wait:
+  - 45
+- print:
+  - 流夏
+  - 把他們兩人搬到村子去！
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_5008004_064
+- face:
+  - 105611
+  - 3
+- print:
+  - 流夏
+  - 七七香，
+- wait:
+  - 30
+- print:
+  - 流夏
+  - 先破壞洞窟的入口。
+- wait:
+  - 30
+- print:
+  - 流夏
+  - >2-
+
+    這樣多少可以拖延時間。
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_5008004_065
+- face:
+  - 101311
+  - 1
+- nod:
+  - 101311
+- print:
+  - 七七香
+  - 了解！
+- wait:
+  - 45
+- print:
+  - 七七香
+  - >2
+
+- face:
+  - 101311
+  - 3
+- print:
+  - 七七香
+  - 嘿呀呀呀！！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - L
+  - LC
+  - 30
+- fadeout_all:
+  - 30
+- effect:
+  - 0075
+  - se_adv_magic_wind_medium_01
+- wait:
+  - 30
+- se:
+  - se_adv_crash_rock_01
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- effect:
+  - 0053
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 105611
+  - C
+  - 3
+- fadein:
+  - 105611
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_5008004_066
+- face:
+  - 105611
+  - 3
+- print:
+  - 流夏
+  - …………
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 1
+- vo:
+  - vo_adv_5008004_067
+- face:
+  - 101311
+  - 1
+- print:
+  - 七七香
+  - 流夏姐，
+- wait:
+  - 15
+- print:
+  - 七七香
+  - 入口塌了！
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_5008004_068
+- face:
+  - 105611
+  - 3
+- print:
+  - 流夏
+  - ……
+- nod:
+  - 105611
+- print:
+  - 流夏
+  - 嗯，
+- wait:
+  - 30
+- print:
+  - 流夏
+  - 那就走吧。
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_5008004_069
+- face:
+  - 105611
+  - 3
+- print:
+  - 流夏
+  - 居然敢傷害我們重要的夥伴。
+- wait:
+  - 45
+- print:
+  - 流夏
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 流夏
+  - 這筆帳，
+- wait:
+  - 30
+- eye_open:
+  - True
+- print:
+  - 流夏
+  - 我會好好跟你們討回來的……！
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- fadeout_all:
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

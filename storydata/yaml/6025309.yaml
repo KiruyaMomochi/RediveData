@@ -1,0 +1,224 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500353
+- amb:
+  - amb_adv_outdoors_night_02
+- ui_visible:
+  - FALSE
+- situation:
+  - 萬聖節派對
+- chara_full:
+  - 111211
+  - C
+  - 1
+- fadein:
+  - 111211
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M267_03
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_6025309_000
+- face:
+  - 111211
+  - 1
+- print:
+  - 禊
+  - 多虧了哥哥，
+- wait:
+  - 20
+- print:
+  - 禊
+  - 我才能再見到美美和鏡華，
+- wait:
+  - 35
+- print:
+  - 禊
+  - >2-
+
+    總算能開萬聖節派對了！
+- touch: &o0 []
+- choice:
+  - 真期待！
+  - 1
+  - 1
+- choice:
+  - 有很多點心！
+  - 2
+  - 2
+- choice:
+  - 有很多的鬼！
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_6025309_001
+- face:
+  - 111211
+  - 2
+- nod:
+  - 111211
+- print:
+  - 禊
+  - 嗯！　
+- wait:
+  - 20
+- print:
+  - 禊
+  - 禊也超級期待！
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 1
+- print:
+  - 禊
+  - 要讓我做很多惡作劇哦，
+- wait:
+  - 30
+- print:
+  - 禊
+  - 哥哥！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_6025309_002
+- face:
+  - 111211
+  - 6
+- print:
+  - 禊
+  - 真貪心呢～！
+- wait:
+  - 35
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 1
+- print:
+  - 禊
+  - 哥哥的份會由禊幫你吃掉的！
+- wait:
+  - 55
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 2
+- print:
+  - 禊
+  - 開玩笑的啦！　
+- wait:
+  - 25
+- nod:
+  - 111211
+- print:
+  - 禊
+  - 一起吃很多的點心吧！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_6025309_003
+- face:
+  - 111211
+  - 6
+- pop:
+  - 111211
+- print:
+  - 禊
+  - 咦！？　
+- wait:
+  - 25
+- face:
+  - 111211
+  - 4
+- print:
+  - 禊
+  - 我已經受夠鬼了啦～！
+- wait:
+  - 75
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 1
+- print:
+  - 禊
+  - 啊，
+- wait:
+  - 15
+- print:
+  - 禊
+  - 是指扮裝的孩子嗎～！
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2-
+
+    嚇我一跳～
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 111211
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - false
+- end: *o0

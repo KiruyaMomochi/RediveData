@@ -1,0 +1,277 @@
+- title:
+  - 關於茜里
+- outline:
+  - ' '
+- background:
+  - 500010
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 關於茜里
+- chara_full:
+  - 102211
+  - C
+  - 2
+- fadein:
+  - 102211
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M405
+  - 0
+  - 0
+  - 1
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_6048109_000
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - 進入茜里的身體，
+- wait:
+  - 40
+- print:
+  - 依里
+  - 讓我又重新
+- wait:
+  - 25
+- print:
+  - 依里
+  - 思考了很多
+- wait:
+  - 15
+- print:
+  - 依里
+  - >2-
+
+    那個孩子的事情呢！
+- touch: &o0 []
+- choice:
+  - 比如什麼事？
+  - 1
+  - 1
+- choice:
+  - 茜里一定也想了很多。
+  - 2
+  - 2
+- choice:
+  - 想念茜里的身體？
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_6048109_001
+- face:
+  - 102211
+  - 2
+- emotion:
+  - note1_L
+  - 102211
+  - -135
+  - 545
+  - se_adv_emote_note_01
+- print:
+  - 依里
+  - 這還用說嗎？
+- wait:
+  - 35
+- print:
+  - 依里
+  - 就是不管誰說什麼，
+- wait:
+  - 35
+- print:
+  - 依里
+  - 那孩子就是最棒的妹妹呢！
+- wait:
+  - 75
+- print:
+  - 依里
+  - >2-
+
+    我就清楚
+- wait:
+  - 15
+- print:
+  - 依里
+  - 明白了這一件事而已！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_6048109_002
+- face:
+  - 102211
+  - 6
+- emotion:
+  - question1_R
+  - 102211
+  - 70
+  - 520
+  - se_adv_emote_question_01
+- print:
+  - 依里
+  - 是、
+- wait:
+  - 30
+- print:
+  - 依里
+  - 這樣嗎？
+- wait:
+  - 35
+- print:
+  - 依里
+  - 沒有因為我的身體
+- wait:
+  - 35
+- print:
+  - 依里
+  - 留下什麼不好的回憶嗎？
+- wait:
+  - 70
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 4
+- print:
+  - 依里
+  - 如果過得開心的話就好了……
+- wait:
+  - 80
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - 嗯！
+- wait:
+  - 25
+- print:
+  - 依里
+  - 這是個好機會，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 去好好和茜里聊一聊吧。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_6048109_003
+- face:
+  - 102211
+  - 4
+- print:
+  - 依里
+  - 唔，
+- shake:
+  - 102211
+- wait:
+  - 25
+- print:
+  - 依里
+  - 那個份量
+- wait:
+  - 30
+- print:
+  - 依里
+  - 我說不定
+- wait:
+  - 30
+- print:
+  - 依里
+  - 的確有點羨慕。
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 不過
+- wait:
+  - 20
+- print:
+  - 依里
+  - 我可是那孩子的姊姊喔？
+- wait:
+  - 40
+- print:
+  - 依里
+  - 等到哪一天一定……
+- wait:
+  - 50
+- face:
+  - 102211
+  - 3
+- print:
+  - 依里
+  - 等等，
+- wait:
+  - 20
+- print:
+  - 依里
+  - >2-
+
+    你想讓我說什麼啊笨蛋！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 102211
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

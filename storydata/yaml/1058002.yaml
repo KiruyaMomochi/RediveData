@@ -1,0 +1,2046 @@
+- title:
+  - 貪吃佩可 第2話
+- outline:
+  - '{0}不小心剩下太多食材，於是帶去貪吃佩可的店裡。他對著要幫忙料理的貪吃佩可拜託著教自己料理的笨拙動作，逗得貪吃佩可會心一笑。'
+- background:
+  - 500050
+- amb:
+  - amb_adv_room_noise_01
+- bg_pan:
+  - -170
+  - 50
+- situation:
+  - 歡迎帶來好吃的東西！
+- se:
+  - se_adv_door_open_01
+- bgm:
+  - bgm_M37
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1058002_000
+- face:
+  - 1
+  - 1
+- print:
+  - ？？？
+  - 歡迎光臨～☆
+- touch: &o0 []
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1058002_001
+- face:
+  - 1
+  - 4
+- print:
+  - ？？？
+  - 抱歉！
+- wait:
+  - 10
+- print:
+  - ？？？
+  - >2-
+
+    現在已經過了最後點餐的時間了，
+- wait:
+  - 10
+- print:
+  - ？？？
+  - >2-
+
+    即使現在來店，我們也沒辦法出菜喔？
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1058002_002
+- face:
+  - 1
+  - 1
+- print:
+  - ？？？
+  - 這張優待券給您，
+- wait:
+  - 10
+- print:
+  - ？？？
+  - >2
+
+- face:
+  - 1
+  - 2
+- print:
+  - ？？？
+  - 請您明天再來光顧本店♪
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_wood_walk_armor_come_01
+- wait:
+  - 15
+- chara_full:
+  - 105812
+  - LC
+  - 6
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 105812
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_003
+- face:
+  - 105812
+  - 6
+- emotion:
+  - notice1_L
+  - 105812
+  - -75
+  - 535
+  - se_adv_emote_common_01
+- print:
+  - 貪吃佩可
+  - 咦？
+- wait:
+  - 10
+- print:
+  - 貪吃佩可
+  - >2
+
+    {0}！
+- face:
+  - 105812
+  - 2
+- jump:
+  - 105812
+- print:
+  - 貪吃佩可
+  - 阿囉哈～☆
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_004
+- face:
+  - 105812
+  - 2
+- print:
+  - 貪吃佩可
+  - 你蠻常來這間店呢，
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 1
+- print:
+  - 貪吃佩可
+  - 你喜歡這裡的魚料理嗎？
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_005
+- face:
+  - 105812
+  - 2
+- emotion:
+  - twinkle1_R
+  - 105812
+  - 135
+  - 475
+  - se_adv_emote_twinkle_01
+- jump:
+  - 105812
+- print:
+  - 貪吃佩可
+  - 我懂的！
+- wait:
+  - 10
+- print:
+  - 貪吃佩可
+  - >2-
+
+    這裡的海鮮很好吃呢♪
+- wait:
+  - 10
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 5
+- print:
+  - 貪吃佩可
+  - 像是獨特的醬油風味和魚內臟的苦味！
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_006
+- face:
+  - 105812
+  - 2
+- shake:
+  - 105812
+- print:
+  - 貪吃佩可
+  - 喔唷！
+- wait:
+  - 15
+- print:
+  - 貪吃佩可
+  - >2-
+
+    會讓人上癮呢～！
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_007
+- face:
+  - 105812
+  - 3
+- print:
+  - 貪吃佩可
+  - >
+    竟然懂得這味，
+- face:
+  - 105812
+  - 5
+- print:
+  - 貪吃佩可
+  - '{0}很內行喔！'
+- wait:
+  - 15
+- print:
+  - 貪吃佩可
+  - >2-
+
+    美食家喔～♪
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 105812
+  - 6
+- emotion:
+  - notice1_L
+  - 105812
+  - -75
+  - 535
+  - se_adv_emote_common_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_008
+- face:
+  - 105812
+  - 6
+- print:
+  - 貪吃佩可
+  - 嗯？
+- wait:
+  - 10
+- print:
+  - 貪吃佩可
+  - >2-
+
+    你說今天不是來當客人？
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_009
+- face:
+  - 105812
+  - 4
+- print:
+  - 貪吃佩可
+  - 那你為什麼要來店裡？
+- wait:
+  - 10
+- print:
+  - 貪吃佩可
+  - >2-
+
+    迷路了嗎？
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_010
+- face:
+  - 105812
+  - 1
+- print:
+  - 貪吃佩可
+  - 我最後再收拾一下就可以下班了，
+- wait:
+  - 45
+- print:
+  - 貪吃佩可
+  - >2-
+
+    要我為你帶路嗎？
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 105812
+  - 6
+- nod:
+  - 105812
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_011
+- face:
+  - 105812
+  - 6
+- print:
+  - 貪吃佩可
+  - 哼哼。
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - >2-
+
+    小可蘿不小心弄錯，買了太多魚嗎？
+- wait:
+  - 60
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 3
+- print:
+  - 貪吃佩可
+  - 你說不知道該怎麼處理那些魚，才來店裡的嗎？
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_012
+- face:
+  - 105812
+  - 1
+- print:
+  - 貪吃佩可
+  - 與其讓那些魚腐爛，
+- wait:
+  - 10
+- print:
+  - 貪吃佩可
+  - >2-
+
+    你認為拿給別人做成魚料理還比較好嗎？
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_013
+- face:
+  - 105812
+  - 2
+- emotion:
+  - twinkle1_R
+  - 105812
+  - 135
+  - 475
+  - se_adv_emote_twinkle_01
+- nod:
+  - 105812
+- print:
+  - 貪吃佩可
+  - 原來如此！
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - >2-
+
+    你說的很有道理呢～
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 1
+- print:
+  - 貪吃佩可
+  - 這是不浪費的精神呢♪
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_014
+- face:
+  - 105812
+  - 6
+- print:
+  - 貪吃佩可
+  - 小可蘿
+- wait:
+  - 10
+- print:
+  - 貪吃佩可
+  - >2-
+
+    雖然給人一種很可靠的感覺。
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_015
+- face:
+  - 105812
+  - 2
+- print:
+  - 貪吃佩可
+  - 沒想到她也會犯這種錯呢，
+- wait:
+  - 15
+- print:
+  - 貪吃佩可
+  - >2-
+
+    真是令人意外！
+- wait:
+  - 15
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 5
+- print:
+  - 貪吃佩可
+  - 好可愛啊♪
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_016
+- face:
+  - 105812
+  - 4
+- print:
+  - 貪吃佩可
+  - 可是啊。
+- wait:
+  - 10
+- print:
+  - 貪吃佩可
+  - >2-
+
+    剛剛我也告訴你了，
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - >2-
+
+    這間店正要打烊呢～
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_017
+- face:
+  - 105812
+  - 3
+- print:
+  - 貪吃佩可
+  - 話說回來。
+- wait:
+  - 10
+- print:
+  - 貪吃佩可
+  - >2-
+
+    這間店是禁止客人攜帶食材入內的。
+- wait:
+  - 45
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 4
+- print:
+  - 貪吃佩可
+  - 即使是料理用的食材也不行？
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 105812
+  - 6
+- emotion:
+  - sweat2_R
+  - 105812
+  - 80
+  - 530
+  - se_adv_emote_sweat_02
+- pop:
+  - 105812
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_018
+- face:
+  - 105812
+  - 6
+- print:
+  - 貪吃佩可
+  - 唉唷，不要露出那樣的表情啦！
+- wait:
+  - 45
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 3
+- print:
+  - 貪吃佩可
+  - 放心吧！
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_019
+- face:
+  - 105812
+  - 3
+- print:
+  - 貪吃佩可
+  - 只要有我在的一天，
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - >2-
+
+    絕對不會輕易地任由料理用的食材腐爛的！
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_020
+- face:
+  - 105812
+  - 3
+- print:
+  - 貪吃佩可
+  - 嗯……
+- wait:
+  - 75
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 1
+- print:
+  - 貪吃佩可
+  - 我去跟店長商量一下，
+- wait:
+  - 15
+- print:
+  - 貪吃佩可
+  - >2-
+
+    請他讓我們使用廚房。
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_021
+- face:
+  - 105812
+  - 1
+- print:
+  - 貪吃佩可
+  - 為了便於保存，這些魚一部分醃製或做成魚干，
+- wait:
+  - 10
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 2
+- jump:
+  - 105812
+- print:
+  - 貪吃佩可
+  - 一部分稍微料理一下，然後就在這裡吃掉吧♪
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_022
+- face:
+  - 105812
+  - 1
+- print:
+  - 貪吃佩可
+  - >-
+    就這樣做，
+
+    沒問題吧？
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_023
+- face:
+  - 105812
+  - 3
+- print:
+  - 貪吃佩可
+  - >-
+    啊，
+
+    當然我吃掉的份，會付材料費給你的！
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 105812
+  - 6
+- emotion:
+  - notice1_L
+  - 105812
+  - -75
+  - 535
+  - se_adv_emote_common_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_024
+- face:
+  - 105812
+  - 6
+- print:
+  - 貪吃佩可
+  - ……你不收錢嗎？
+- wait:
+  - 10
+- print:
+  - 貪吃佩可
+  - >2-
+
+    反正任由它腐爛，
+- wait:
+  - 15
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 4
+- print:
+  - 貪吃佩可
+  - 也只是變成廚餘而已？
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_025
+- face:
+  - 105812
+  - 3
+- print:
+  - 貪吃佩可
+  - 不行不行，
+- wait:
+  - 10
+- print:
+  - 貪吃佩可
+  - >2-
+
+    錢的事情不能馬虎！
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 1
+- print:
+  - 貪吃佩可
+  - 你一定要收下～♪
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_026
+- face:
+  - 105812
+  - 1
+- print:
+  - 貪吃佩可
+  - >-
+    那麼
+
+    就請你稍待片刻囉。
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 2
+- print:
+  - 貪吃佩可
+  - 我去料理一下，馬上就好～♪
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_027
+- face:
+  - 105812
+  - 1
+- print:
+  - 貪吃佩可
+  - >-
+    {0}，
+
+    如果還吃得下，就盡量吃喔？
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_028
+- face:
+  - 105812
+  - 1
+- print:
+  - 貪吃佩可
+  - 請把魚
+- wait:
+  - 15
+- print:
+  - 貪吃佩可
+  - >2-
+
+    給我。
+- touch: *o0
+- window_visible:
+  - false
+- camera_zoom:
+  - 1.3
+  - 30
+- wait:
+  - 15
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_029
+- face:
+  - 105812
+  - 6
+- print:
+  - 貪吃佩可
+  - 喔，好重的魚腥味～！
+- wait:
+  - 60
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 2
+- print:
+  - 貪吃佩可
+  - 不愧是新鮮的海產☆
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_030
+- face:
+  - 105812
+  - 5
+- shake:
+  - 105812
+- print:
+  - 貪吃佩可
+  - 就是這個啦，
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - >2-
+
+    這股氣味讓人欲罷不能啊～！
+- wait:
+  - 60
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 2
+- print:
+  - 貪吃佩可
+  - 太讚了吧☆
+- touch: *o0
+- window_visible:
+  - false
+- effect_delete:
+  - 0022
+  - 30
+- camera_zoom:
+  - 1
+  - 30
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_031
+- face:
+  - 105812
+  - 1
+- print:
+  - 貪吃佩可
+  - 那麼我就去做料理囉！
+- wait:
+  - 20
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 2
+- print:
+  - 貪吃佩可
+  - >-
+    {0}，
+
+    你就坐在那邊等我吧！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_wood_walk_armor_go_01
+- change:
+  - RC
+  - C
+  - 45
+- fadeout:
+  - 105812
+  - 30
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 1
+- vo:
+  - vo_adv_1058002_032
+- face:
+  - 105812
+  - 2
+- print:
+  - 貪吃佩可
+  - 店長～！
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - >2-
+
+    廚房借我用一下喔～♪
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+- wait:
+  - 15
+- se:
+  - se_adv_step_wood_move_01
+- chara_full:
+  - 105812
+  - RC
+  - 2
+- change:
+  - C
+  - RC
+  - 45
+- se:
+  - se_adv_step_wood_walk_go_01
+- fadein:
+  - 105812
+  - 30
+- bgm:
+  - bgm_M04_02NoIntro01
+  - 0
+  - 0
+  - 1
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_033
+- face:
+  - 105812
+  - 6
+- emotion:
+  - notice1_L
+  - 105812
+  - -75
+  - 535
+  - se_adv_emote_common_01
+- print:
+  - 貪吃佩可
+  - >-
+    ……咦？
+
+    {0}為什麼要跟我一起來？
+- wait:
+  - 45
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 5
+- print:
+  - 貪吃佩可
+  - 真是不堪寂寞呢～♪
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 105812
+  - 6
+- nod:
+  - 105812
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_034
+- face:
+  - 105812
+  - 6
+- print:
+  - 貪吃佩可
+  - 嗯？
+- wait:
+  - 10
+- print:
+  - 貪吃佩可
+  - >2-
+
+    你想要我教你
+- wait:
+  - 15
+- print:
+  - 貪吃佩可
+  - >2-
+
+    如何做料理嗎？
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_035
+- face:
+  - 105812
+  - 1
+- print:
+  - 貪吃佩可
+  - 每餐都讓小可蘿來做，感覺過意不去，
+- wait:
+  - 60
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 2
+- print:
+  - 貪吃佩可
+  - 所以自己也想學會如何做料理～？
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_036
+- face:
+  - 105812
+  - 2
+- emotion:
+  - twinkle1_R
+  - 105812
+  - 135
+  - 475
+  - se_adv_emote_twinkle_01
+- print:
+  - 貪吃佩可
+  - OK！
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 1
+- print:
+  - 貪吃佩可
+  - >-
+    沒錯，
+
+    做料理也是很愉快的喔！
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_037
+- face:
+  - 105812
+  - 1
+- print:
+  - 貪吃佩可
+  - 最近很流行料理型男呢～
+- wait:
+  - 10
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 2
+- print:
+  - 貪吃佩可
+  - 很受歡迎的喔！
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - >2
+
+- jump:
+  - 105812
+- print:
+  - 貪吃佩可
+  - 咻咻♪
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_038
+- face:
+  - 105812
+  - 1
+- print:
+  - 貪吃佩可
+  - 那麼把手洗一洗，
+- wait:
+  - 10
+- print:
+  - 貪吃佩可
+  - >2-
+
+    然後消毒一下吧～
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 4
+- print:
+  - 貪吃佩可
+  - 怎麼做你知道嗎？
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_039
+- face:
+  - 105812
+  - 2
+- print:
+  - 貪吃佩可
+  - 圍裙我這裡有備用的，
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - >2-
+
+    讓我來幫你繫上喔♪
+- touch: *o0
+- fadeout:
+  - 105812
+  - 30
+- wait:
+  - 15
+- chara_full:
+  - 105812
+  - C
+  - 1
+- scale:
+  - 105812
+  - 1.3
+  - 2
+- fadein:
+  - 105812
+  - 30
+- face:
+  - 105812
+  - 4
+- nod:
+  - 105812
+- shake_loop: *o0
+- se:
+  - se_adv_cloth_move_normal_02
+- wait:
+  - 10
+- shake_delete: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_040
+- face:
+  - 105812
+  - 4
+- emotion:
+  - sweat2_R
+  - 105812
+  - 100
+  - 535
+  - '*non'
+- print:
+  - 貪吃佩可
+  - 啊，不要亂動啦。
+- wait:
+  - 10
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 1
+- print:
+  - 貪吃佩可
+  - 你覺得很癢嗎？
+- touch: *o0
+- choice:
+  - 抵抗。
+  - 1
+- choice:
+  - 「聽話。」
+  - 2
+- tag:
+  - 1
+- window_visible:
+  - false
+- shake_once:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_041
+- face:
+  - 105812
+  - 6
+- emotion:
+  - exclamation1_R
+  - 105812
+  - 30
+  - 650
+  - se_adv_emote_common_01
+- print:
+  - 貪吃佩可
+  - 唉唷，竟然敢抵抗！
+- wait:
+  - 10
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 3
+- print:
+  - 貪吃佩可
+  - 真囂張～！
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 5
+- print:
+  - 貪吃佩可
+  - 你討厭的表情也好可愛♪
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_hug_03
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_042
+- face:
+  - 105812
+  - 2
+- print:
+  - 貪吃佩可
+  - 看招看招，
+- jump:
+  - 105812
+- print:
+  - 貪吃佩可
+  - 是這裡吧！
+- wait:
+  - 10
+- print:
+  - 貪吃佩可
+  - >2-
+
+    就是這裡很癢吧～
+- wait:
+  - 10
+- print:
+  - 貪吃佩可
+  - >2-
+
+    咕嘰咕嘰♪
+- touch: *o0
+- window_visible:
+  - false
+- nod:
+  - 105812
+- face:
+  - 105812
+  - 5
+- shake_loop: *o0
+- se:
+  - se_adv_tickle_03
+- wait:
+  - 10
+- shake_delete: *o0
+- pop:
+  - 105812
+- face:
+  - 105812
+  - 6
+- se:
+  - se_adv_hug_02
+- shake_once:
+  - 1
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_043
+- face:
+  - 105812
+  - 4
+- emotion:
+  - sweat2_R
+  - 105812
+  - 100
+  - 535
+  - se_adv_emote_sweat_02
+- print:
+  - 貪吃佩可
+  - 呼、呼……
+- wait:
+  - 20
+- print:
+  - 貪吃佩可
+  - >2
+
+- nod:
+  - 105812
+- print:
+  - 貪吃佩可
+  - 抱歉，
+- wait:
+  - 10
+- print:
+  - 貪吃佩可
+  - >2-
+
+    玩得太開心，有點捉弄過頭了！
+- touch: *o0
+- fadeout:
+  - 105812
+  - 30
+- wait:
+  - 15
+- chara_full:
+  - 105812
+  - C
+  - 3
+- fadein:
+  - 105812
+  - 30
+- wait:
+  - 15
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_044
+- face:
+  - 105812
+  - 3
+- print:
+  - 貪吃佩可
+  - 失禮啦！
+- wait:
+  - 10
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 1
+- print:
+  - 貪吃佩可
+  - 我有在反省了～♪
+- touch: *o0
+- goto:
+  - 3
+- tag:
+  - 2
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_045
+- face:
+  - 105812
+  - 6
+- emotion:
+  - notice1_L
+  - 105812
+  - -100
+  - 550
+  - se_adv_emote_common_01
+- print:
+  - 貪吃佩可
+  - 唉唷，
+- wait:
+  - 10
+- print:
+  - 貪吃佩可
+  - >2-
+
+    任我擺佈呢！
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_046
+- face:
+  - 105812
+  - 1
+- print:
+  - 貪吃佩可
+  - 無論什麼都逆來順受，
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - >2-
+
+    {0}！
+- wait:
+  - 15
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 2
+- print:
+  - 貪吃佩可
+  - 真有男子氣概！
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_047
+- face:
+  - 105812
+  - 2
+- print:
+  - 貪吃佩可
+  - >-
+    看招，
+
+    咕嘰咕嘰～♪
+- wait:
+  - 10
+- print:
+  - 貪吃佩可
+  - >2-
+
+    咕嘰咕嘰咕嘰～……♪
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_tickle_03
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- face:
+  - 105812
+  - 5
+- nod:
+  - 105812
+- se:
+  - se_adv_tickle_03
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- face:
+  - 105812
+  - 4
+- wait:
+  - 10
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_048
+- face:
+  - 105812
+  - 4
+- emotion:
+  - drop1_R
+  - 105812
+  - 100
+  - 670
+  - se_adv_emote_drop_01
+- print:
+  - 貪吃佩可
+  - >-
+    ……我感覺好像在欺負
+
+    不懂世事的孩子。
+- touch: *o0
+- fadeout:
+  - 105812
+  - 30
+- chara_full:
+  - 105812
+  - C
+  - 3
+- fadein:
+  - 105812
+  - 30
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_049
+- face:
+  - 105812
+  - 3
+- nod:
+  - 105812
+- print:
+  - 貪吃佩可
+  - 抱歉！
+- wait:
+  - 15
+- print:
+  - 貪吃佩可
+  - >2-
+
+    玩笑就開到這，
+- wait:
+  - 15
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 1
+- print:
+  - 貪吃佩可
+  - 來做料理吧♪
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_050
+- face:
+  - 105812
+  - 3
+- print:
+  - 貪吃佩可
+  - 做料理就跟戰爭一樣，
+- wait:
+  - 10
+- print:
+  - 貪吃佩可
+  - >2-
+
+    而這個廚房就是戰場！
+- wait:
+  - 10
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 2
+- print:
+  - 貪吃佩可
+  - 在這裡可不能鬧著玩呢～♪
+- touch: *o0
+- tag:
+  - 3
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_051
+- face:
+  - 105812
+  - 1
+- print:
+  - 貪吃佩可
+  - 準備好了嗎？
+- wait:
+  - 40
+- print:
+  - 貪吃佩可
+  - >2-
+
+    嗯，用那邊的毛巾把手擦乾吧～？
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_052
+- face:
+  - 105812
+  - 6
+- print:
+  - 貪吃佩可
+  - 嗯……
+- wait:
+  - 10
+- print:
+  - 貪吃佩可
+  - >2-
+
+    雖然全部都交給我來做比較快，
+- wait:
+  - 10
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 1
+- print:
+  - 貪吃佩可
+  - 但這次我就在旁邊給你指示吧？
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_053
+- face:
+  - 105812
+  - 2
+- print:
+  - 貪吃佩可
+  - 料理的入門，
+- wait:
+  - 10
+- print:
+  - 貪吃佩可
+  - >2-
+
+    就讓我來教{0}吧～♪
+- touch: *o0
+- amb:
+  - amb_adv_restaurant_kitchen_01
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_054
+- face:
+  - 105812
+  - 5
+- emotion:
+  - shy1_R
+  - 105812
+  - -95
+  - 505
+  - se_adv_emote_shy_01
+- print:
+  - 貪吃佩可
+  - 嘻嘻。
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - >2-
+
+    像這樣並肩做料理，
+- wait:
+  - 10
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 2
+- print:
+  - 貪吃佩可
+  - 好像新婚夫婦喔♪
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 105812
+  - 6
+- emotion:
+  - surprise1_L
+  - 105812
+  - 155
+  - 550
+  - se_adv_emote_common_01
+- jump:
+  - 105812
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_055
+- face:
+  - 105812
+  - 6
+- print:
+  - 貪吃佩可
+  - 嗚哇？
+- wait:
+  - 10
+- print:
+  - 貪吃佩可
+  - >2-
+
+    {0}，停下來！
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_056
+- face:
+  - 105812
+  - 4
+- print:
+  - 貪吃佩可
+  - 你拿菜刀方式很奇怪，
+- wait:
+  - 10
+- print:
+  - 貪吃佩可
+  - >2-
+
+    這樣會受傷的喔～？
+- wait:
+  - 15
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 3
+- print:
+  - 貪吃佩可
+  - 危險危險！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105812
+  - 30
+- chara_full:
+  - 105812
+  - C
+  - 1
+- scale:
+  - 105812
+  - 1.3
+  - 2
+- fadein:
+  - 105812
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_057
+- face:
+  - 105812
+  - 1
+- print:
+  - 貪吃佩可
+  - 要這樣，
+- nod:
+  - 105812
+- print:
+  - 貪吃佩可
+  - 像這樣拿才對……？
+- wait:
+  - 85
+- print:
+  - 貪吃佩可
+  - >2-
+
+    明白了嗎？
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 2
+- print:
+  - 貪吃佩可
+  - 沒錯，很好很好～♪
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_1058002_058
+- face:
+  - 105812
+  - 2
+- emotion:
+  - note1_L
+  - 105812
+  - -110
+  - 530
+  - se_adv_emote_note_01
+- print:
+  - 貪吃佩可
+  - 啊哈哈。
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 5
+- print:
+  - 貪吃佩可
+  - 與其說是新婚夫婦，
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - >2-
+
+    我倒覺得像是有了小孩呢……♪
+- touch: *o0
+- fadeout:
+  - 105812
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

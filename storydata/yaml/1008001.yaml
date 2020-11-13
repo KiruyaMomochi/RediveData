@@ -1,0 +1,1402 @@
+- title:
+  - 雪 第1話
+- outline:
+  - '{0}去救疑似被魔物襲擊的雪時，她正沉迷於自己鏡中的身影。之後，雖然鏡子破掉了，但因為眾多碎片映照出自己的身影，雪便又滿足了。'
+- background:
+  - 500130
+- amb:
+  - amb_adv_forest_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 太過美麗的邂逅
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    {0}在城鎮的郊外散步時，
+
+    突然聽到了慘叫聲。
+- touch: &o0 []
+- window_visible:
+  - false
+- window_visible:
+  - true
+- text_size:
+  - 70
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1008001_000
+- face:
+  - 1
+  - 4
+- print:
+  - ？？？
+  - 呀啊～！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 23
+- bgm:
+  - bgm_M17
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 500170
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 1614
+  - RC
+  - 1
+- chara_full:
+  - 100811
+  - LC
+  - 6
+- fadein_all:
+  - 30
+- se:
+  - se_adv_creature_cmn_04
+- window_visible:
+  - true
+- focus:
+  - 1614
+- bust:
+  - 1614
+  - 0
+- face:
+  - 1614
+  - 1
+- print:
+  - 魔物
+  - ──呱歐歐歐歐歐
+- shake_screen: *o0
+- print:
+  - 魔物
+  - ！
+- touch: *o0
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008001_001
+- face:
+  - 100811
+  - 6
+- emotion:
+  - surprise1_L
+  - 100811
+  - 130
+  - 555
+  - se_adv_emote_common_01
+- print:
+  - ？？？
+  - 呀啊～！
+- shake:
+  - 100811
+- wait:
+  - 45
+- print:
+  - ？？？
+  - >2-
+
+    怎、怎麼會這樣……！
+- wait:
+  - 60
+- print:
+  - ？？？
+  - >2
+
+- face:
+  - 100811
+  - 4
+- print:
+  - ？？？
+  - 這可是……大、大、大危機唷！？
+- wait:
+  - 35
+- touch: *o0
+- choice:
+  - 擊退魔物。
+  - 1
+- tag:
+  - 1
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0009
+  - se_adv_transition_01
+- se:
+  - se_adv_step_leaves_run_armor_go_01
+- camera_zoom:
+  - 1.3
+  - 5
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect_delete:
+  - 0009
+- camera_zoom:
+  - 1
+  - 5
+- effect:
+  - 0016
+  - se_adv_weapon_sword_hit_02
+- wait:
+  - 30
+- background:
+  - 500170
+- chara_full:
+  - 1614
+  - C
+  - 1
+- fadein:
+  - 1614
+  - 30
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - true
+- focus:
+  - 1614
+- bust:
+  - 1614
+  - 0
+- face:
+  - 1614
+  - 1
+- print:
+  - 魔物
+  - ──嘰歐歐歐歐歐
+- shake:
+  - 1614
+- print:
+  - 魔物
+  - ！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+- updown:
+  - 1614
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1614
+  - 30
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- white_out:
+  - 1
+  - 1
+- bg_color:
+  - 255
+  - 255
+  - 255
+- still:
+  - 100800101
+- wait:
+  - 15
+- white_in: *o0
+- window_visible:
+  - true
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 1
+- vo:
+  - vo_adv_1008001_002
+- face:
+  - 100811
+  - 6
+- print:
+  - ？？？
+  - 嗯？好像有點吵呢。
+- wait:
+  - 60
+- print:
+  - ？？？
+  - >2
+
+- face:
+  - 100811
+  - 1
+- print:
+  - ？？？
+  - 發生了什麼事嗎？
+- touch: *o0
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 1
+- vo:
+  - vo_adv_1008001_003
+- face:
+  - 100811
+  - 6
+- print:
+  - ？？？
+  - 咦……魔物？危機？
+- wait:
+  - 30
+- print:
+  - ？？？
+  - >2
+
+- face:
+  - 100811
+  - 4
+- print:
+  - ？？？
+  - 你在說什麼？
+- touch: *o0
+- bgm:
+  - bgm_M13
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 1
+- vo:
+  - vo_adv_1008001_004
+- face:
+  - 100811
+  - 1
+- print:
+  - ？？？
+  - 我只是被映於鏡中的自己可愛的樣子給嚇到而已唷。
+- wait:
+  - 105
+- print:
+  - ？？？
+  - >2
+
+- face:
+  - 100811
+  - 2
+- print:
+  - ？？？
+  - 仔細欣賞吧！看看我的臉龐！
+- wait:
+  - 70
+- print:
+  - ？？？
+  - >2-
+
+    美麗地無可比擬，可愛動人……！
+- wait:
+  - 30
+- touch: *o0
+- se:
+  - se_adv_emote_twinkle_01
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 1
+- vo:
+  - vo_adv_1008001_005
+- face:
+  - 100811
+  - 4
+- print:
+  - ？？？
+  - 就因為實在是太可愛了，
+- wait:
+  - 15
+- print:
+  - ？？？
+  - >2-
+
+    所以在沉迷於欣賞自己容貌的時候，
+- wait:
+  - 45
+- print:
+  - ？？？
+  - >2-
+
+    被魔物包圍這種小事，都沒察覺到呢。
+- wait:
+  - 15
+- touch: *o0
+- still:
+  - 100800102
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 1
+- vo:
+  - vo_adv_1008001_006
+- face:
+  - 100811
+  - 1
+- print:
+  - ？？？
+  - 但是你幫助了我呢。
+- wait:
+  - 40
+- print:
+  - ？？？
+  - >2
+
+- face:
+  - 100811
+  - 2
+- print:
+  - ？？？
+  - 讓我獻上感謝之意吧。
+- touch: *o0
+- se:
+  - se_adv_emote_note_01
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 1
+- vo:
+  - vo_adv_1008001_007
+- face:
+  - 100811
+  - 2
+- print:
+  - ？？？
+  - 話說回來，能夠幫助這麼可愛的我，
+- wait:
+  - 20
+- print:
+  - ？？？
+  - >2-
+
+    你也很開心對吧？
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 1
+- vo:
+  - vo_adv_1008001_008
+- face:
+  - 100811
+  - 6
+- print:
+  - ？？？
+  - 咦？你問我為什麼自己一個人待在這種地方？
+- wait:
+  - 20
+- touch: *o0
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 1
+- vo:
+  - vo_adv_1008001_009
+- face:
+  - 100811
+  - 1
+- print:
+  - ？？？
+  - 你對我很有興趣對吧？
+- wait:
+  - 45
+- print:
+  - ？？？
+  - >2
+
+- face:
+  - 100811
+  - 2
+- print:
+  - ？？？
+  - 真拿你沒辦法，就特別告訴你吧。
+- wait:
+  - 45
+- touch: *o0
+- still:
+  - 100800101
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 1
+- vo:
+  - vo_adv_1008001_010
+- face:
+  - 100811
+  - 1
+- print:
+  - ？？？
+  - 一開始我是和人組隊，前來討伐魔物的。
+- wait:
+  - 30
+- print:
+  - ？？？
+  - >2-
+
+    然而當我開始每隔5分鐘就照照鏡子，
+- wait:
+  - 60
+- print:
+  - ？？？
+  - >2-
+
+    似乎就這樣被同伴丟下了……
+- touch: *o0
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 1
+- vo:
+  - vo_adv_1008001_011
+- face:
+  - 100811
+  - 4
+- print:
+  - ？？？
+  - 不過，這也是沒有辦法的事情嘛。
+- wait:
+  - 75
+- print:
+  - ？？？
+  - >2-
+
+    畢竟我是這麼地美麗呀！
+- wait:
+  - 90
+- print:
+  - ？？？
+  - >2-
+
+    照鏡子的時間會增加，也是理所當然的唷。
+- wait:
+  - 30
+- touch: *o0
+- still:
+  - 100800102
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 1
+- vo:
+  - vo_adv_1008001_012
+- face:
+  - 100811
+  - 1
+- print:
+  - ？？？
+  - 我說，你也這麼想沒錯吧？
+- wait:
+  - 10
+- touch: *o0
+- choice:
+  - 非常能夠理解。
+  - 2
+- choice:
+  - 我不太懂……
+  - 3
+- tag:
+  - 2
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 1
+- vo:
+  - vo_adv_1008001_013
+- face:
+  - 100811
+  - 2
+- print:
+  - ？？？
+  - 沒錯吧？
+- wait:
+  - 30
+- print:
+  - ？？？
+  - >2-
+
+    我的美貌，是比任何事都重要的唷！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 1
+- vo:
+  - vo_adv_1008001_014
+- face:
+  - 100811
+  - 1
+- print:
+  - ？？？
+  - 看來你也略懂審美，
+- wait:
+  - 45
+- print:
+  - ？？？
+  - >2-
+
+    就特別允許你，可以更靠近一點欣賞我的臉龐唷？
+- wait:
+  - 30
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 1
+- vo:
+  - vo_adv_1008001_015
+- face:
+  - 100811
+  - 4
+- print:
+  - ？？？
+  - 你這個人真是不行……
+- wait:
+  - 45
+- print:
+  - ？？？
+  - >2-
+
+    竟然無法理解我的美貌，
+- wait:
+  - 30
+- print:
+  - ？？？
+  - >2-
+
+    真是個可憐的人呢。
+- touch: *o0
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 1
+- vo:
+  - vo_adv_1008001_016
+- face:
+  - 100811
+  - 1
+- print:
+  - ？？？
+  - 因為你實在是太可憐了，
+- wait:
+  - 10
+- print:
+  - ？？？
+  - >2
+
+- face:
+  - 100811
+  - 2
+- print:
+  - ？？？
+  - 就讓你多欣賞我，來磨練你的美感吧。
+- wait:
+  - 10
+- touch: *o0
+- tag:
+  - 4
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 1
+- vo:
+  - vo_adv_1008001_017
+- face:
+  - 100811
+  - 1
+- print:
+  - ？？？
+  - 來吧，隨你高興盡情地欣賞吧。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- white_out:
+  - 1
+  - 0.5
+- background:
+  - 500170
+- still:
+  - end
+- wait:
+  - 15
+- white_in: *o0
+- chara_full:
+  - 100811
+  - C
+  - 1
+- fadein:
+  - 100811
+  - 30
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 1
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──呱歐歐歐歐歐
+- shake_text: *o0
+- print:
+  - 魔物
+  - ！
+- touch: *o0
+- window_visible:
+  - false
+- focus:
+  - 100811
+- face:
+  - 100811
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100811
+  - -5
+  - 645
+  - se_adv_emote_common_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008001_018
+- face:
+  - 100811
+  - 1
+- print:
+  - ？？？
+  - 魔物似乎又跑過來了呢。
+- wait:
+  - 10
+- print:
+  - ？？？
+  - >2-
+
+    看來是被我的美貌給吸引過來的。
+- wait:
+  - 10
+- print:
+  - ？？？
+  - >2
+
+- face:
+  - 100811
+  - 4
+- print:
+  - ？？？
+  - 唉唉，多麼罪孽深重的美貌呀……
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008001_019
+- face:
+  - 100811
+  - 2
+- print:
+  - ？？？
+  - 所以說呢，
+- wait:
+  - 15
+- print:
+  - ？？？
+  - >2-
+
+    你願意替我打倒魔物嗎？
+- touch: *o0
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008001_020
+- face:
+  - 100811
+  - 1
+- emotion:
+  - twinkle1_R
+  - 100811
+  - -135
+  - 480
+  - se_adv_emote_twinkle_01
+- print:
+  - ？？？
+  - 我呢，在欣賞映於鏡中的自己，
+- wait:
+  - 55
+- print:
+  - ？？？
+  - >2-
+
+    還有觀察自己的美貌就夠忙了呢。
+- touch: *o0
+- window_visible:
+  - false
+- change:
+  - LC
+  - C
+  - 30
+- se:
+  - se_adv_step_monster_move_02
+- chara_full:
+  - 1614
+  - R
+  - 1
+- in_R:
+  - 1614
+  - 30
+  - true
+- face:
+  - 100811
+  - 6
+- bgm:
+  - stop
+  - 2
+  - 1
+- se:
+  - se_adv_creature_cmn_05
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- effect:
+  - 9
+- print:
+  - 魔物
+  - ──呱歐歐歐歐歐！
+- touch: *o0
+- bgm:
+  - bgm_M17
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008001_021
+- face:
+  - 100811
+  - 6
+- print:
+  - ？？？
+  - 咦、咦！？
+- wait:
+  - 25
+- print:
+  - ？？？
+  - >2-
+
+    魔物似乎朝我這邊過來了說！？
+- wait:
+  - 20
+- print:
+  - ？？？
+  - >2
+
+- face:
+  - 100811
+  - 3
+- print:
+  - ？？？
+  - 我說你呀！趕緊想想辦法呀！
+- wait:
+  - 10
+- touch: *o0
+- choice:
+  - 扛起她然後溜之大吉。
+  - 5
+- tag:
+  - 5
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- wait:
+  - 15
+- se:
+  - se_adv_body_carry_back_01
+- chara_full:
+  - 100811
+  - C
+  - 6
+- scale:
+  - 100811
+  - 1.3
+  - 2
+- fadein:
+  - 100811
+  - 30
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- window_visible:
+  - true
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008001_022
+- face:
+  - 100811
+  - 6
+- print:
+  - ？？？
+  - 唔哇！
+- wait:
+  - 15
+- print:
+  - ？？？
+  - >2
+
+- face:
+  - 100811
+  - 3
+- print:
+  - ？？？
+  - 等等！你在做什麼呀！？
+- wait:
+  - 30
+- print:
+  - ？？？
+  - >2-
+
+    我可沒說過你可以碰我唷！
+- touch: *o0
+- se:
+  - se_adv_step_leaves_run_armor_go_01
+- window_visible:
+  - false
+- fadeout:
+  - 100811
+  - 30
+- bgm:
+  - stop
+  - 2
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500130
+- wait:
+  - 15
+- se:
+  - se_adv_step_dirt_run_armor_come_01
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_outdoors_day_01
+- chara_full:
+  - 100811
+  - C
+  - 4
+- fadein:
+  - 100811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M52
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008001_023
+- face:
+  - 100811
+  - 4
+- print:
+  - ？？？
+  - 呼……
+- nod:
+  - 100811
+- wait:
+  - 10
+- print:
+  - ？？？
+  - >2-
+
+    看來總算是逃脫了呢。
+- touch: *o0
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008001_024
+- face:
+  - 100811
+  - 1
+- print:
+  - ？？？
+  - 因為有你幫忙扛著我，
+- wait:
+  - 30
+- print:
+  - ？？？
+  - >2-
+
+    讓我毫無疲憊地輕鬆度過危機呢。
+- touch: *o0
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008001_025
+- face:
+  - 100811
+  - 2
+- emotion:
+  - twinkle1_R
+  - 100811
+  - -135
+  - 480
+  - se_adv_emote_twinkle_01
+- print:
+  - ？？？
+  - 說起來，如果是為了這麼可愛的我，
+- wait:
+  - 20
+- print:
+  - ？？？
+  - >2-
+
+    而想要全力以赴努力幹活的話，也是理所當然的呢。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008001_026
+- face:
+  - 100811
+  - 1
+- print:
+  - ？？？
+  - 不過我是受到你幫助了呢。
+- wait:
+  - 55
+- print:
+  - ？？？
+  - >2
+
+- face:
+  - 100811
+  - 2
+- print:
+  - ？？？
+  - 我就特別告訴你我的名字吧。
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008001_027
+- face:
+  - 100811
+  - 1
+- print:
+  - 雪
+  - 我叫做雪。
+- wait:
+  - 10
+- print:
+  - 雪
+  - >2-
+
+    你的名字呢？
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_tickle_02
+- nod:
+  - 100811
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008001_028
+- face:
+  - 100811
+  - 1
+- print:
+  - 雪
+  - 今後請多多指教囉。
+- wait:
+  - 10
+- print:
+  - 雪
+  - >2
+
+- face:
+  - 100811
+  - 2
+- print:
+  - 雪
+  - 把我抱起來的這筆帳可是很高昂的唷。
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008001_029
+- face:
+  - 100811
+  - 1
+- print:
+  - 雪
+  - 走吧，魔物可能會再追上來也說不定。
+- wait:
+  - 25
+- print:
+  - 雪
+  - >2
+
+- nod:
+  - 100811
+- print:
+  - 雪
+  - 趕緊回到城鎮比較――
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1
+  - 1
+- se:
+  - se_adv_handmirror_fall_01
+- face:
+  - 100811
+  - 6
+- shake:
+  - 100811
+- wait:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M11
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008001_030
+- face:
+  - 100811
+  - 6
+- print:
+  - 雪
+  - 啊、啊啊！？
+- wait:
+  - 30
+- print:
+  - 雪
+  - >2-
+
+    我的鏡子掉到地上破掉了！？
+- wait:
+  - 45
+- print:
+  - 雪
+  - >2
+
+- face:
+  - 100811
+  - 3
+- print:
+  - 雪
+  - 都是你粗魯地扛著我跑的關係啦！
+- touch: *o0
+- bright_change:
+  - 1
+  - 50
+- effect:
+  - 0011
+  - se_adv_emote_gloomy_01
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008001_031
+- face:
+  - 100811
+  - 4
+- print:
+  - 雪
+  - 啊啊……怎麼會這樣！
+- wait:
+  - 90
+- print:
+  - 雪
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - 雪
+  - 不敢相信……
+- touch: *o0
+- choice:
+  - 抱、抱歉……
+  - 6
+- tag:
+  - 6
+- bright_change:
+  - 1
+  - 100
+- effect_delete:
+  - 0011
+  - 30
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008001_032
+- face:
+  - 100811
+  - 1
+- eye_open:
+  - TRUE
+- print:
+  - 雪
+  - 不，你沒有必要道歉唷！
+- wait:
+  - 40
+- print:
+  - 雪
+  - >2
+
+- face:
+  - 100811
+  - 2
+- print:
+  - 雪
+  - 因為呀，你看看這個！
+- wait:
+  - 55
+- print:
+  - 雪
+  - >2-
+
+    破裂鏡面的每塊碎片，都把我映照出來了唷！？
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008001_033
+- face:
+  - 100811
+  - 1
+- emotion:
+  - twinkle1_R
+  - 100811
+  - -135
+  - 480
+  - se_adv_emote_twinkle_01
+- print:
+  - 雪
+  - 有無數個我，都朝我這裡全神凝視……
+- wait:
+  - 75
+- print:
+  - 雪
+  - >2
+
+- face:
+  - 100811
+  - 5
+- print:
+  - 雪
+  - 啊啊，是多麼地美呀！
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_1008001_034
+- face:
+  - 100811
+  - 1
+- print:
+  - 雪
+  - 原來鏡子也有這樣的用法呢！
+- wait:
+  - 75
+- print:
+  - 雪
+  - >2-
+
+    多虧了你，讓我有了新發現唷。
+- wait:
+  - 60
+- print:
+  - 雪
+  - >2
+
+- face:
+  - 100811
+  - 2
+- nod:
+  - 100811
+- print:
+  - 雪
+  - 真是感謝你！
+- wait:
+  - 30
+- touch: *o0
+- fadeout:
+  - 100811
+  - 30
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    在那之後，
+
+    雪持續注視著破掉的鏡子好一段時間。
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

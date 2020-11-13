@@ -1,0 +1,268 @@
+- title:
+  - 和雷姆變熟了？
+- outline:
+  - ' '
+- background:
+  - 500351
+- amb:
+  - amb_adv_outdoors_day_01
+- ui_visible:
+  - false
+- situation:
+  - 和拉姆變熟了嗎？
+- chara_full:
+  - 109911
+  - C
+  - 6
+- fadein:
+  - 109911
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M229_A
+  - 0
+  - 0
+  - 1
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_6017105_000
+- face:
+  - 109911
+  - 6
+- print:
+  - 愛蜜莉雅
+  - 你會和拉姆聊天嗎？
+- wait:
+  - 50
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 4
+- print:
+  - 愛蜜莉雅
+  - 她雖然有點怕生……
+- wait:
+  - 50
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 1
+- print:
+  - 愛蜜莉雅
+  - 不過她真的是個很好的女孩，
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 請你跟她好好相處喔。
+- touch: &o0 []
+- choice:
+  - 怕生……？
+  - 1
+  - 1
+- choice:
+  - 姐姐最棒了。
+  - 2
+  - 2
+- choice:
+  - 愛蜜莉雅和她感情很好嗎？
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_6017105_001
+- face:
+  - 109911
+  - 1
+- nod:
+  - 109911
+- print:
+  - 愛蜜莉雅
+  - 沒錯，
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 她很怕生。
+- wait:
+  - 40
+- print:
+  - 愛蜜莉雅
+  - >2-
+
+    不過如果你和她變得很要好，
+- wait:
+  - 20
+- print:
+  - 愛蜜莉雅
+  - 就會知道她其實很溫柔。
+- wait:
+  - 50
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- face:
+  - 109911
+  - 2
+- print:
+  - 愛蜜莉雅
+  - 昴也
+- wait:
+  - 20
+- print:
+  - 愛蜜莉雅
+  - 馬上就跟她變得很要好。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_6017105_002
+- face:
+  - 109911
+  - 2
+- emotion:
+  - note1_L
+  - 109911
+  - -80
+  - 490
+  - se_adv_emote_note_01
+- print:
+  - 愛蜜莉雅
+  - 呵呵，
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 看來你跟雷姆也處得很好，太好了。
+- wait:
+  - 48
+- print:
+  - 愛蜜莉雅
+  - >2-
+
+    照這個狀況的話應該沒什麼問題，
+- wait:
+  - 45
+- print:
+  - 愛蜜莉雅
+  - 那我就放心了。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 109911
+- bust:
+  - 109911
+  - 0
+- vo:
+  - vo_adv_6017105_003
+- face:
+  - 109911
+  - 4
+- print:
+  - 愛蜜莉雅
+  - 唔……
+- shake:
+  - 109911
+- wait:
+  - 40
+- print:
+  - 愛蜜莉雅
+  - 其實，
+- wait:
+  - 35
+- print:
+  - 愛蜜莉雅
+  - 我也想跟她
+- wait:
+  - 15
+- print:
+  - 愛蜜莉雅
+  - 變得更要好。
+- wait:
+  - 60
+- print:
+  - 愛蜜莉雅
+  - >2-
+
+    不過，
+- wait:
+  - 30
+- print:
+  - 愛蜜莉雅
+  - 畢竟我們是主僕關係，
+- wait:
+  - 40
+- print:
+  - 愛蜜莉雅
+  - 所以有點距離……
+- wait:
+  - 50
+- print:
+  - 愛蜜莉雅
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - 愛蜜莉雅
+  - 唉……
+- wait:
+  - 50
+- eye_open:
+  - TRUE
+- print:
+  - 愛蜜莉雅
+  - 看來還是沒辦法變得像
+- wait:
+  - 45
+- print:
+  - 愛蜜莉雅
+  - 咲戀和鈴莓他們那樣。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 109911
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

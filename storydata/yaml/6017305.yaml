@@ -1,0 +1,248 @@
+- title:
+  - 想了解雷姆
+- outline:
+  - ' '
+- background:
+  - 500110
+- amb:
+  - amb_adv_room_noise_day_01
+- ui_visible:
+  - false
+- situation:
+  - 你想了解雷姆
+- chara_full:
+  - 109811
+  - C
+  - 6
+- fadein:
+  - 109811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M229_A
+  - 0
+  - 0
+  - 1
+- focus:
+  - 109811
+- bust:
+  - 109811
+  - 0
+- vo:
+  - vo_adv_6017305_000
+- face:
+  - 109811
+  - 6
+- print:
+  - 拉姆
+  - 你想要更了解雷姆？
+- wait:
+  - 40
+- print:
+  - 拉姆
+  - >2
+
+- face:
+  - 109811
+  - 1
+- print:
+  - 拉姆
+  - 雖然我不知道你知道這個要做什麼，
+- wait:
+  - 20
+- print:
+  - 拉姆
+  - 不過我就告訴你吧。
+- wait:
+  - 30
+- print:
+  - 拉姆
+  - >2
+
+- face:
+  - 109811
+  - 2
+- nod:
+  - 109811
+- print:
+  - 拉姆
+  - 想知道什麼就儘管問拉姆吧。
+- touch: &o0 []
+- choice:
+  - 她是什麼樣的人？
+  - 1
+  - 1
+- choice:
+  - 她喜歡的人是誰？
+  - 2
+  - 2
+- choice:
+  - 妳喜歡雷姆嗎？
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 109811
+- bust:
+  - 109811
+  - 0
+- vo:
+  - vo_adv_6017305_001
+- face:
+  - 109811
+  - 1
+- print:
+  - 拉姆
+  - 嗯。
+- wait:
+  - 35
+- face:
+  - 109811
+  - 2
+- print:
+  - 拉姆
+  - 她真的是個完美的妹妹。
+- wait:
+  - 50
+- print:
+  - 拉姆
+  - >2-
+
+    家事做得好，
+- wait:
+  - 30
+- eye_open:
+  - False
+- print:
+  - 拉姆
+  - 懂得體貼他人，人又善良。
+- wait:
+  - 35
+- print:
+  - 拉姆
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 拉姆
+  - 真的和拉姆一模一樣。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 109811
+- bust:
+  - 109811
+  - 0
+- vo:
+  - vo_adv_6017305_002
+- face:
+  - 109811
+  - 2
+- print:
+  - 拉姆
+  - 雷姆喜歡的人
+- wait:
+  - 15
+- nod:
+  - 109811
+- print:
+  - 拉姆
+  - 當然是我拉姆啊。
+- wait:
+  - 40
+- print:
+  - 拉姆
+  - >2
+
+- face:
+  - 109811
+  - 3
+- print:
+  - 拉姆
+  - 雖然她最近好像跟眼神兇惡的男人走得很近。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 109811
+- bust:
+  - 109811
+  - 0
+- vo:
+  - vo_adv_6017305_003
+- face:
+  - 109811
+  - 2
+- nod:
+  - 109811
+- print:
+  - 拉姆
+  - 她是我心愛的妹妹。
+- wait:
+  - 35
+- print:
+  - 拉姆
+  - 這一點是不會變的。
+- wait:
+  - 45
+- print:
+  - 拉姆
+  - >2
+
+- face:
+  - 109811
+  - 3
+- print:
+  - 拉姆
+  - 所以，
+- wait:
+  - 30
+- print:
+  - 拉姆
+  - 不管發生什麼事我都會保護她。
+- wait:
+  - 50
+- print:
+  - 拉姆
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 拉姆
+  - 就算捨棄一切，
+- wait:
+  - 25
+- eye_open:
+  - True
+- print:
+  - 拉姆
+  - 也絕對會守護到底。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 109811
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

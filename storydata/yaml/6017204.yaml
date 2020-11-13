@@ -1,0 +1,281 @@
+- title:
+  - 在異世界也依然可愛的姊姊
+- outline:
+  - ' '
+- background:
+  - 500110
+- amb:
+  - amb_adv_room_noise_day_01
+- ui_visible:
+  - false
+- situation:
+  - 在異世界也依然可愛的姐姐
+- chara_full:
+  - 109711
+  - C
+  - 5
+- fadein:
+  - 109711
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M229_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 109711
+- bust:
+  - 109711
+  - 0
+- vo:
+  - vo_adv_6017204_000
+- face:
+  - 109711
+  - 5
+- emotion:
+  - heart1_R
+  - 109711
+  - 85
+  - 440
+  - se_adv_emote_heart_01
+- print:
+  - 雷姆
+  - 唉……
+- wait:
+  - 60
+- print:
+  - 雷姆
+  - 姐姐
+- wait:
+  - 35
+- face:
+  - 109711
+  - 2
+- print:
+  - 雷姆
+  - 就算到了異世界也還是這麼可愛。
+- touch: &o0 []
+- choice:
+  - 嗯，的確。
+  - 1
+  - 1
+- choice:
+  - 真想照顧她。
+  - 2
+  - 2
+- choice:
+  - 可可蘿也不輸她。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 109711
+- bust:
+  - 109711
+  - 0
+- vo:
+  - vo_adv_6017204_001
+- face:
+  - 109711
+  - 1
+- print:
+  - 雷姆
+  - 您
+- wait:
+  - 20
+- print:
+  - 雷姆
+  - 真有眼光。
+- wait:
+  - 40
+- face:
+  - 109711
+  - 3
+- print:
+  - 雷姆
+  - 不過，
+- wait:
+  - 15
+- print:
+  - 雷姆
+  - 坐這山望那山可是不行的。
+- wait:
+  - 45
+- print:
+  - 雷姆
+  - >2
+
+- face:
+  - 109711
+  - 1
+- print:
+  - 雷姆
+  - 我不會把
+- wait:
+  - 30
+- print:
+  - 雷姆
+  - 您剛剛的發言告訴貪吃佩可小姐他們。
+- wait:
+  - 50
+- print:
+  - 雷姆
+  - >2
+
+- face:
+  - 109711
+  - 2
+- print:
+  - 雷姆
+  - 您的周遭
+- wait:
+  - 25
+- print:
+  - 雷姆
+  - 也聚集了不少像姐姐一樣優秀的女子。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 109711
+- bust:
+  - 109711
+  - 0
+- vo:
+  - vo_adv_6017204_002
+- face:
+  - 109711
+  - 1
+- print:
+  - 雷姆
+  - 果然
+- wait:
+  - 20
+- print:
+  - 雷姆
+  - 您也這樣想嗎？　
+- wait:
+  - 40
+- face:
+  - 109711
+  - 3
+- print:
+  - 雷姆
+  - 不過，
+- wait:
+  - 25
+- print:
+  - 雷姆
+  - 照顧姐姐
+- wait:
+  - 30
+- print:
+  - 雷姆
+  - >2-
+
+    是雷姆的特權。
+- wait:
+  - 50
+- face:
+  - 109711
+  - 1
+- print:
+  - 雷姆
+  - 照顧她會有一種非常幸福
+- wait:
+  - 30
+- print:
+  - 雷姆
+  - >2-
+
+    又滿足的感覺。
+- wait:
+  - 50
+- face:
+  - 109711
+  - 2
+- print:
+  - 雷姆
+  - 雖然雷姆以外的人無法嘗到這種感受。
+- wait:
+  - 40
+- print:
+  - 雷姆
+  - 呵呵。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 109711
+- bust:
+  - 109711
+  - 0
+- vo:
+  - vo_adv_6017204_003
+- face:
+  - 109711
+  - 1
+- print:
+  - 雷姆
+  - 每個人心底的那個人都不一樣呢。
+- wait:
+  - 50
+- print:
+  - 雷姆
+  - >2
+
+- face:
+  - 109711
+  - 3
+- print:
+  - 雷姆
+  - 不過，
+- wait:
+  - 20
+- print:
+  - 雷姆
+  - 雷姆對姐姐的愛可不會輸給您。
+- wait:
+  - 60
+- print:
+  - 雷姆
+  - >2
+
+- face:
+  - 109711
+  - 1
+- print:
+  - 雷姆
+  - 我想
+- wait:
+  - 15
+- print:
+  - 雷姆
+  - 這一定會是一場難分軒輊的比試。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 109711
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

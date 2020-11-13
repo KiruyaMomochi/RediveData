@@ -1,0 +1,1254 @@
+- title:
+  - 惠理子 第5話
+- outline:
+  - 被假的惠理子以生日的名義所邀請的{0}，遭到魔物攻擊而流了血。惠理子採集了那些血，打算用煉金術製造出兩人的孩子，但因為裝取血液的容器被魔物破壞，計畫以失敗告終。
+- background:
+  - 500110
+- amb:
+  - amb_adv_room_noise_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 最棒的生日禮物
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - '{0}收到了惠理子的信。'
+- touch: &o0 []
+- bgm:
+  - bgm_M13
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1027005_000
+- face:
+  - 1
+  - 1
+- print:
+  - 惠理子的信
+  - 『今天是我的生日，
+- wait:
+  - 60
+- print:
+  - 惠理子的信
+  - 我非常想見您一面。』
+- touch: *o0
+- choice:
+  - 去見面。
+  - 1
+- tag:
+  - 1
+- window_visible:
+  - false
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500240
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_cave_with_water_01
+- chara_full:
+  - 102711
+  - C
+  - 1
+- fadein:
+  - 102711
+  - 30
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027005_001
+- face:
+  - 102711
+  - 1
+- print:
+  - 惠理子
+  - 啊，
+- wait:
+  - 45
+- print:
+  - 惠理子
+  - '{0}大人。'
+- wait:
+  - 60
+- print:
+  - 惠理子
+  - >2-
+
+    您是來見我嗎？
+- wait:
+  - 60
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 5
+- print:
+  - 惠理子
+  - 謝謝您，我很開心……
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 我好開心……
+- touch: *o0
+- fadeout:
+  - 102711
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 1
+- bgm:
+  - stop
+  - 1.5
+- fadein:
+  - 1611
+  - 30
+- jingle_start:
+  - bgm_M17_00_intro
+- se:
+  - se_adv_creature_cmn_01
+- effect:
+  - 0009
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ――呱歐歐歐歐歐！
+- shake_screen: *o0
+- touch: *o0
+- fadeout:
+  - 1611
+  - 30
+- chara_full:
+  - 102711
+  - C
+  - 6
+- fadein:
+  - 102711
+  - 30
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027005_002
+- face:
+  - 102711
+  - 6
+- print:
+  - 惠理子
+  - 呀啊！　
+- wait:
+  - 15
+- print:
+  - 惠理子
+  - 是魔物啊！
+- touch: *o0
+- bgm:
+  - stop
+  - 1
+- bgm:
+  - bgm_M17
+  - 0
+  - 0
+  - 1
+- choice:
+  - 保護惠理子。
+  - 2
+- tag:
+  - 2
+- fadeout:
+  - 102711
+  - 30
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0028
+  - se_adv_weapon_claw_hit_01
+- wait:
+  - 30
+- background:
+  - 500240
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- chara_full:
+  - 102711
+  - C
+  - 6
+- fadein:
+  - 102711
+  - 30
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027005_003
+- face:
+  - 102711
+  - 6
+- print:
+  - 惠理子
+  - '{0}大人！　'
+- wait:
+  - 60
+- face:
+  - 102711
+  - 4
+- print:
+  - 惠理子
+  - 您為了保護我，
+- wait:
+  - 45
+- print:
+  - 惠理子
+  - 受傷了……！
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027005_004
+- face:
+  - 102711
+  - 3
+- print:
+  - 惠理子
+  - 竟敢傷害{0}大人……
+- wait:
+  - 75
+- print:
+  - 惠理子
+  - 你作好覺悟了吧？
+- touch: *o0
+- fadeout:
+  - 102711
+  - 30
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0016
+  - se_adv_weapon_sword_hit_02
+- wait:
+  - 30
+- background:
+  - 500240
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_05
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ――嘰歐歐歐歐歐！
+- shake:
+  - 1611
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 10
+  - 1
+- updown:
+  - 1611
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1611
+  - 30
+- shake_loop: *o0
+- se:
+  - se_adv_bodyfall_01
+- wait:
+  - 15
+- shake_delete: *o0
+- chara_full:
+  - 102711
+  - C
+  - 1
+- fadein:
+  - 102711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027005_005
+- face:
+  - 102711
+  - 1
+- print:
+  - 惠理子
+  - 我已經收拾了魔物。
+- wait:
+  - 60
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 4
+- print:
+  - 惠理子
+  - 因為我的關係，真的非常抱歉。
+- wait:
+  - 75
+- print:
+  - 惠理子
+  - >2-
+
+    居然讓{0}大人您受傷了…
+- touch: *o0
+- fadeout:
+  - 102711
+  - 30
+- chara_full:
+  - 102711
+  - C
+  - 4
+- scale:
+  - 102711
+  - 1.3
+  - 2
+- se:
+  - se_adv_cloth_move_normal_01
+- fadein:
+  - 102711
+  - 30
+- nod:
+  - 102711
+- wait:
+  - 15
+- bgm:
+  - bgm_M19
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027005_006
+- face:
+  - 102711
+  - 6
+- print:
+  - 惠理子
+  - 糟糕！　
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 您流血了……！
+- wait:
+  - 60
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 4
+- print:
+  - 惠理子
+  - 我現在就替您治療！　
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 請不要動！
+- touch: *o0
+- choice:
+  - 謝謝妳替我治療。
+  - 3
+- choice:
+  - 雖然有點晚了，還是跟妳說聲生日快樂。
+  - 4
+- tag:
+  - 3
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027005_007
+- face:
+  - 102711
+  - 5
+- emotion:
+  - heart1_R
+  - 102711
+  - 85
+  - 500
+  - se_adv_emote_heart_01
+- print:
+  - 惠理子
+  - 嘻嘻……
+- wait:
+  - 60
+- print:
+  - 惠理子
+  - '{0}大人的血……'
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027005_008
+- face:
+  - 102711
+  - 6
+- print:
+  - 惠理子
+  - ……治療？
+- wait:
+  - 60
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 2
+- print:
+  - 惠理子
+  - 沒錯，
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 當然是治療了。
+- wait:
+  - 60
+- print:
+  - 惠理子
+  - 我沒有做什麼多餘的事呢。
+- touch: *o0
+- goto:
+  - 5
+- tag:
+  - 4
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027005_009
+- face:
+  - 102711
+  - 6
+- print:
+  - 惠理子
+  - 生日？
+- wait:
+  - 75
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 1
+- print:
+  - 惠理子
+  - ……啊，
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 沒錯，
+- wait:
+  - 15
+- print:
+  - 惠理子
+  - 是這樣呢。
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 2
+- print:
+  - 惠理子
+  - 是指我的生日這件事呢。
+- touch: *o0
+- tag:
+  - 5
+- fadeout:
+  - 102711
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 1
+- bgm:
+  - stop
+  - 1.5
+- fadein:
+  - 1611
+  - 30
+- bgm:
+  - bgm_M17
+  - 0
+  - 0
+  - 1
+- se:
+  - se_adv_creature_middle_01
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ――呱歐歐歐歐歐！
+- shake_screen: *o0
+- touch: *o0
+- fadeout:
+  - 1611
+  - 30
+- chara_full:
+  - 102711
+  - C
+  - 6
+- fadein:
+  - 102711
+  - 30
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027005_010
+- face:
+  - 102711
+  - 6
+- print:
+  - 惠理子
+  - 嘖……
+- token: *o0
+- print:
+  - 惠理子
+  - 又是魔物……
+- wait:
+  - 60
+- print:
+  - 惠理子
+  - 明明一隻就已經足夠了……
+- wait:
+  - 90
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 3
+- print:
+  - 惠理子
+  - 這個「能散發魔物喜歡的香味的藥」，
+- wait:
+  - 105
+- print:
+  - 惠理子
+  - >2-
+
+    藥效有點太強了呢。
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027005_011
+- face:
+  - 102711
+  - 1
+- eye_open:
+  - False
+- print:
+  - 惠理子
+  - 算了，
+- wait:
+  - 15
+- print:
+  - 惠理子
+  - 無所謂。
+- wait:
+  - 45
+- print:
+  - 惠理子
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 惠理子
+  - '{0}大人的血液也已經採集到了，'
+- wait:
+  - 60
+- print:
+  - 惠理子
+  - >2-
+
+    我們快點收拾牠吧……
+- touch: *o0
+- fadeout:
+  - 102711
+  - 30
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0016
+  - se_adv_weapon_sword_hit_02
+- wait:
+  - 30
+- background:
+  - 500240
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_middle_02
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ――嘰歐歐歐歐歐！
+- shake:
+  - 1611
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+  - 1
+- updown:
+  - 1611
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1611
+  - 30
+- shake_loop: *o0
+- se:
+  - se_adv_bodyfall_01
+- wait:
+  - 15
+- shake_delete: *o0
+- chara_full:
+  - 102711
+  - C
+  - 1
+- fadein:
+  - 102711
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M13_03_NoIntro
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027005_012
+- face:
+  - 102711
+  - 1
+- emotion:
+  - note1_L
+  - 102711
+  - -90
+  - 535
+  - se_adv_emote_note_01
+- print:
+  - 惠理子
+  - 一切都在我的意料之內……
+- wait:
+  - 120
+- print:
+  - 惠理子
+  - >2
+
+- emotion_end:
+  - 102711
+- face:
+  - 102711
+  - 6
+- print:
+  - 惠理子
+  - 哎呀？　
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - '{0}大人……'
+- wait:
+  - 45
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 2
+- print:
+  - 惠理子
+  - 您看來一臉疑問呢，
+- wait:
+  - 90
+- print:
+  - 惠理子
+  - 嘻嘻……
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027005_013
+- face:
+  - 102711
+  - 1
+- print:
+  - 惠理子
+  - 其實……
+- wait:
+  - 45
+- print:
+  - 惠理子
+  - >-
+    為了採集{0}
+
+    大人的血液，
+- wait:
+  - 45
+- print:
+  - 惠理子
+  - 我稍微演了一場戲呢。
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027005_014
+- face:
+  - 102711
+  - 2
+- print:
+  - 惠理子
+  - 生日什麼的其實是騙您的呢。
+- token: *o0
+- print:
+  - 惠理子
+  - >2-
+
+    我的生日是7月30日。
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027005_015
+- face:
+  - 102711
+  - 4
+- print:
+  - 惠理子
+  - 剛才的魔物，
+- wait:
+  - 45
+- print:
+  - 惠理子
+  - 也是我吸引來的。
+- wait:
+  - 60
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 2
+- nod:
+  - 102711
+- print:
+  - 惠理子
+  - 對不起。
+- wait:
+  - 45
+- print:
+  - 惠理子
+  - >2-
+
+    這一切都是為了我們的將來……
+- wait:
+  - 75
+- print:
+  - 惠理子
+  - 嘻嘻……
+- touch: *o0
+- effect:
+  - 0044
+  - se_adv_happy_particle_01
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027005_016
+- face:
+  - 102711
+  - 5
+- print:
+  - 惠理子
+  - 我的血液和
+- wait:
+  - 60
+- print:
+  - 惠理子
+  - '{0}大人的血液……'
+- wait:
+  - 75
+- print:
+  - 惠理子
+  - >2-
+
+    只要將這些作為鍊金術的材料，
+- wait:
+  - 60
+- print:
+  - 惠理子
+  - 就可以創造出我們的孩子！
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027005_017
+- face:
+  - 102711
+  - 1
+- print:
+  - 惠理子
+  - '{0}大人的血液，'
+- wait:
+  - 45
+- print:
+  - 惠理子
+  - 我確實的
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 收下了。
+- wait:
+  - 45
+- print:
+  - 惠理子
+  - >2-
+
+    這就是最棒的生日禮物。
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027005_018
+- face:
+  - 102711
+  - 2
+- print:
+  - 惠理子
+  - 下次見面的時候，
+- wait:
+  - 45
+- print:
+  - 惠理子
+  - 孩子也會一起來看您。
+- wait:
+  - 60
+- print:
+  - 惠理子
+  - >2-
+
+    請您先想好他的名字呢……
+- wait:
+  - 75
+- print:
+  - 惠理子
+  - 嘻嘻……
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 3
+- effect_delete:
+  - 0044
+  - 30
+- change:
+  - LC
+  - C
+- wait:
+  - 15
+- chara_full:
+  - 1614
+  - R
+  - 1
+- change:
+  - RC
+  - R
+  - 30
+- fadein:
+  - 1614
+  - 30
+- window_visible:
+  - true
+- se:
+  - se_adv_creature_attack_01
+- bgm:
+  - bgm_M17_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 1614
+- bust:
+  - 1614
+  - 0
+- face:
+  - 1614
+  - 1
+- print:
+  - 魔物
+  - ――呱歐歐歐歐歐！
+- shake_screen: *o0
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027005_019
+- face:
+  - 102711
+  - 6
+- emotion:
+  - surprise1_L
+  - 102711
+  - 140
+  - 555
+  - se_adv_emote_common_01
+- print:
+  - 惠理子
+  - 呀啊！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- shake_loop: *o0
+- se:
+  - se_adv_glass_break_01
+- wait:
+  - 30
+- shake_delete: *o0
+- chara_full:
+  - 102711
+  - C
+  - 4
+- fadein:
+  - 102711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027005_020
+- face:
+  - 102711
+  - 4
+- print:
+  - 惠理子
+  - 啊！　
+- wait:
+  - 45
+- print:
+  - 惠理子
+  - '{0}大人的血液被……！'
+- wait:
+  - 60
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 3
+- shake:
+  - 102711
+- print:
+  - 惠理子
+  - 你這可惡的臭蟲――――！！！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_dirt_run_go_01
+- scale:
+  - 102711
+  - 1.3
+  - 2
+  - 5
+- effect:
+  - 0009
+- fadeout:
+  - 102711
+  - 30
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0016
+  - se_adv_weapon_sword_hit_02
+- wait:
+  - 30
+- background:
+  - 500240
+- chara_full:
+  - 1614
+  - C
+  - 1
+- fadein:
+  - 1614
+  - 30
+- window_visible:
+  - true
+- se:
+  - se_adv_creature_cmn_04
+- bgm:
+  - stop
+  - 3
+  - 1
+- focus:
+  - 1614
+- bust:
+  - 1614
+  - 0
+- face:
+  - 1614
+  - 1
+- print:
+  - 魔物
+  - ――嘰歐歐歐歐歐！
+- shake:
+  - 1614
+- touch: *o0
+- window_visible:
+  - false
+- updown:
+  - 1614
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1614
+  - 30
+- shake_loop: *o0
+- se:
+  - se_adv_bodyfall_01
+- wait:
+  - 45
+- shake_delete: *o0
+- chara_full:
+  - 102711
+  - C
+  - 6
+- fadein:
+  - 102711
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M13_03_NoIntro
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027005_021
+- face:
+  - 102711
+  - 6
+- print:
+  - 惠理子
+  - ……………………{0}大人。
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_1027005_022
+- face:
+  - 102711
+  - 2
+- print:
+  - 惠理子
+  - 因為明天
+- wait:
+  - 15
+- print:
+  - 惠理子
+  - 是我的生日……
+- touch: *o0
+- fadeout:
+  - 102711
+  - 30
+- vo_effect:
+  - 0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 這一次，{0}當然看穿了惠理子的謊言。
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

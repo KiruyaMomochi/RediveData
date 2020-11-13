@@ -1,0 +1,293 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 501030
+- amb:
+  - amb_adv_seaside_01
+- ui_visible:
+  - false
+- situation:
+  - 防曬要怎麼辦？
+- chara_full:
+  - 113111
+  - C
+  - 1
+- fadein:
+  - 113111
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M113_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 113111
+- bust:
+  - 113111
+  - 0
+- vo:
+  - vo_adv_6044103_000
+- face:
+  - 113111
+  - 1
+- print:
+  - 流夏
+  - 太陽光曬起來是很舒服，
+- wait:
+  - 40
+- face:
+  - 113111
+  - 4
+- print:
+  - 流夏
+  - 但曬傷很讓人煩惱呢。
+- wait:
+  - 55
+- print:
+  - 流夏
+  - >2-
+
+    希望曬到的地方明天不會發疼……
+- wait:
+  - 55
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 113111
+  - 6
+- print:
+  - 流夏
+  - 你
+- wait:
+  - 25
+- print:
+  - 流夏
+  - 有做什麼防曬對策嗎？
+- touch: &o0 []
+- choice:
+  - 沒有，所以很擔心。
+  - 1
+  - 1
+- choice:
+  - 我喜歡曬黑一點。
+  - 2
+  - 2
+- choice:
+  - 我塗了防曬油！
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 113111
+- bust:
+  - 113111
+  - 0
+- vo:
+  - vo_adv_6044103_001
+- face:
+  - 113111
+  - 4
+- nod:
+  - 113111
+- print:
+  - 流夏
+  - 就是啊。
+- wait:
+  - 45
+- print:
+  - 流夏
+  - 玩樂的時候是不會在意，
+- wait:
+  - 45
+- print:
+  - 流夏
+  - >2-
+
+    但等隔天皮膚開始刺痛就會後悔了。
+- wait:
+  - 90
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 113111
+  - 6
+- print:
+  - 流夏
+  - ……現在補塗防曬油，
+- wait:
+  - 35
+- print:
+  - 流夏
+  - 應該也有用吧。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 113111
+- bust:
+  - 113111
+  - 0
+- vo:
+  - vo_adv_6044103_002
+- face:
+  - 113111
+  - 6
+- print:
+  - 流夏
+  - 嘿～
+- wait:
+  - 35
+- print:
+  - 流夏
+  - 小哥你，
+- wait:
+  - 20
+- print:
+  - 流夏
+  - 是太陽曬久了也不會曬傷的類型嗎？
+- wait:
+  - 75
+- print:
+  - 流夏
+  - >2-
+
+    曬黑的人看起來
+- wait:
+  - 40
+- print:
+  - 流夏
+  - 很有活力所以你很喜歡？
+- wait:
+  - 80
+- print:
+  - 流夏
+  - 原來如此。
+- wait:
+  - 65
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 113111
+  - 1
+- print:
+  - 流夏
+  - ……這機會正好，
+- wait:
+  - 40
+- face:
+  - 113111
+  - 2
+- print:
+  - 流夏
+  - 我也來稍微曬個太陽吧。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 113111
+- bust:
+  - 113111
+  - 0
+- vo:
+  - vo_adv_6044103_003
+- face:
+  - 113111
+  - 2
+- print:
+  - 流夏
+  - 所以你已經做好完美對策了嗎？
+- wait:
+  - 45
+- print:
+  - 流夏
+  - 很了不起喔。
+- wait:
+  - 25
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 113111
+  - 6
+- emotion:
+  - question1_R
+  - 113111
+  - 115
+  - 530
+  - se_adv_emote_question_01
+- print:
+  - 流夏
+  - ……
+- wait:
+  - 20
+- print:
+  - 流夏
+  - 你說來之前在公會小屋時，
+- wait:
+  - 40
+- print:
+  - 流夏
+  - 就有人幫你塗好了……？
+- wait:
+  - 55
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 113111
+  - 4
+- print:
+  - 流夏
+  - 不對，
+- wait:
+  - 5
+- print:
+  - 流夏
+  - 我說你啊。
+- wait:
+  - 30
+- print:
+  - 流夏
+  - 那個
+- wait:
+  - 15
+- print:
+  - 流夏
+  - 不管怎麼想，都早就沒效了吧？
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 113111
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

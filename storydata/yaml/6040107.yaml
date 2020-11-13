@@ -1,0 +1,274 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500997
+- amb:
+  - amb_adv_outdoors_day_01
+- ui_visible:
+  - false
+- situation:
+  - 關於溫泉
+- chara_full:
+  - 103311
+  - C
+  - 2
+- fadein:
+  - 103311
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M352_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 103311
+- bust:
+  - 103311
+  - 0
+- vo:
+  - vo_adv_6040107_000
+- face:
+  - 103311
+  - 2
+- emotion:
+  - note1_L
+  - 103311
+  - -105
+  - 465
+  - se_adv_emote_note_01
+- print:
+  - 真陽
+  - 大家都很喜歡溫泉真是太好了。
+- wait:
+  - 75
+- print:
+  - 真陽
+  - >2
+
+- face:
+  - 103311
+  - 6
+- print:
+  - 真陽
+  - 雖然有點太過奢華了，
+- wait:
+  - 40
+- face:
+  - 103311
+  - 1
+- print:
+  - 真陽
+  - 不過大家好像
+- wait:
+  - 20
+- print:
+  - 真陽
+  - 連這點都很享受呢。
+- touch: &o0 []
+- choice:
+  - 不愧是製作人
+  - 1
+  - 1
+- choice:
+  - 也可以享受大自然
+  - 2
+  - 2
+- choice:
+  - 想要放輕鬆呢
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 103311
+- bust:
+  - 103311
+  - 0
+- vo:
+  - vo_adv_6040107_001
+- face:
+  - 103311
+  - 6
+- print:
+  - 真陽
+  - 雖然搞不懂那個外觀到底是怎麼一回事，
+- wait:
+  - 55
+- print:
+  - 真陽
+  - >2
+
+- nod:
+  - 103311
+- face:
+  - 103311
+  - 1
+- print:
+  - 真陽
+  - 但她不愧是藝術表演的專家呢。
+- wait:
+  - 60
+- print:
+  - 真陽
+  - >2-
+
+    就是所謂的
+- wait:
+  - 20
+- print:
+  - 真陽
+  - 先見之明吧。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 103311
+- bust:
+  - 103311
+  - 0
+- vo:
+  - vo_adv_6040107_002
+- face:
+  - 103311
+  - 1
+- print:
+  - 真陽
+  - 對我們來說
+- wait:
+  - 25
+- eye_open:
+  - False
+- print:
+  - 真陽
+  - 牧場的景色一點也不稀奇，
+- wait:
+  - 60
+- print:
+  - 真陽
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 真陽
+  - 但對鎮上的人們來說，
+- wait:
+  - 30
+- print:
+  - 真陽
+  - 想必就十分少見了吧。
+- wait:
+  - 65
+- print:
+  - 真陽
+  - >2
+
+- face:
+  - 103311
+  - 4
+- print:
+  - 真陽
+  - 如果牛群們也在的話，
+- wait:
+  - 25
+- print:
+  - 真陽
+  - 就能讓他們更開心了呢。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 103311
+- bust:
+  - 103311
+  - 0
+- vo:
+  - vo_adv_6040107_003
+- face:
+  - 103311
+  - 4
+- print:
+  - 真陽
+  - 我們雖然也想要悠閒地泡溫泉，
+- wait:
+  - 50
+- print:
+  - 真陽
+  - 但那也是之後的事情了呢。
+- wait:
+  - 65
+- print:
+  - 真陽
+  - >2
+
+- nod:
+  - 103311
+- face:
+  - 103311
+  - 1
+- print:
+  - 真陽
+  - 全部結束之後，
+- wait:
+  - 35
+- print:
+  - 真陽
+  - 大家再一起泡溫泉吧。
+- wait:
+  - 60
+- print:
+  - 真陽
+  - >2
+
+- face:
+  - 103311
+  - 4
+- print:
+  - 真陽
+  - 不過再怎麼說
+- wait:
+  - 30
+- print:
+  - 真陽
+  - 也沒辦法跟老哥你一起泡吧……
+- wait:
+  - 70
+- face:
+  - 103311
+  - 6
+- print:
+  - 真陽
+  - 你、
+- wait:
+  - 30
+- print:
+  - 真陽
+  - 你說是我的話就沒關係？
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 103311
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

@@ -1,0 +1,284 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500036
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - false
+- situation:
+  - 目標是成為聖誕老人
+- chara_full:
+  - 111611
+  - C
+  - 1
+- fadein:
+  - 111611
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M173_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111611
+- bust:
+  - 111611
+  - 0
+- vo:
+  - vo_adv_6029106_000
+- face:
+  - 111611
+  - 1
+- print:
+  - 望
+  - 製作人和伊莉亞她們兩人
+- wait:
+  - 30
+- print:
+  - 望
+  - >2-
+
+    都準備了我意想不到的禮物。
+- wait:
+  - 60
+- print:
+  - 望
+  - >2
+
+- face:
+  - 111611
+  - 6
+- print:
+  - 望
+  - 雖然有時候會覺得她們做得有點過火……
+- wait:
+  - 40
+- face:
+  - 111611
+  - 1
+- print:
+  - 望
+  - 不過，我也不會輸的！
+- touch: &o0 []
+- choice:
+  - 維持現狀就可以了。
+  - 1
+  - 1
+- choice:
+  - 我覺得她們做得太過火了。
+  - 2
+  - 2
+- choice:
+  - 超越那兩個人吧。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 111611
+- bust:
+  - 111611
+  - 0
+- vo:
+  - vo_adv_6029106_001
+- face:
+  - 111611
+  - 6
+- emotion:
+  - question1_R
+  - 111611
+  - 120
+  - 475
+  - se_adv_emote_question_01
+- print:
+  - 望
+  - 咦？　
+- wait:
+  - 15
+- print:
+  - 望
+  - 你的意思是
+- wait:
+  - 40
+- print:
+  - 望
+  - 我只要照自己的方式來就好了……？
+- wait:
+  - 45
+- print:
+  - 望
+  - >2
+
+- face:
+  - 111611
+  - 1
+- print:
+  - 望
+  - 這樣啊。
+- wait:
+  - 35
+- print:
+  - 望
+  - 說的也是呢！　
+- wait:
+  - 25
+- print:
+  - 望
+  - 我要用自己的禮物讓大家感到開心才行，
+- wait:
+  - 40
+- print:
+  - 望
+  - >2-
+
+    否則的話當聖誕老人就沒有意義了！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 111611
+- bust:
+  - 111611
+  - 0
+- vo:
+  - vo_adv_6029106_002
+- face:
+  - 111611
+  - 6
+- emotion:
+  - notice1_L
+  - 111611
+  - -60
+  - 515
+  - se_adv_emote_common_01
+- print:
+  - 望
+  - 啊，
+- wait:
+  - 15
+- print:
+  - 望
+  - 果然你也這麼想嗎？
+- wait:
+  - 55
+- print:
+  - 望
+  - >2
+
+- face:
+  - 111611
+  - 1
+- print:
+  - 望
+  - 不過，
+- wait:
+  - 25
+- print:
+  - 望
+  - 她們的禮物充滿了玩心和驚喜，
+- wait:
+  - 25
+- print:
+  - 望
+  - 真的很厲害。
+- wait:
+  - 35
+- print:
+  - 望
+  - >2
+
+- face:
+  - 111611
+  - 2
+- print:
+  - 望
+  - 如果真的有那樣的聖誕老人的話，
+- wait:
+  - 20
+- print:
+  - 望
+  - 一定會很開心。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 111611
+- bust:
+  - 111611
+  - 0
+- vo:
+  - vo_adv_6029106_003
+- face:
+  - 111611
+  - 3
+- nod:
+  - 111611
+- print:
+  - 望
+  - 嗯！
+- wait:
+  - 25
+- print:
+  - 望
+  - 如果沒有這樣的衝勁，
+- wait:
+  - 20
+- print:
+  - 望
+  - >2-
+
+    是沒辦法帶給大家快樂的！
+- wait:
+  - 50
+- print:
+  - 望
+  - >2
+
+- face:
+  - 111611
+  - 1
+- print:
+  - 望
+  - 好～
+- wait:
+  - 20
+- print:
+  - 望
+  - 我還要更努力！
+- wait:
+  - 30
+- face:
+  - 111611
+  - 7
+- print:
+  - 望
+  - 請你繼續為我加油打氣！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 111611
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

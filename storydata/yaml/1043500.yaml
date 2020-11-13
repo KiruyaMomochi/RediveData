@@ -1,0 +1,680 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 509010
+- amb:
+  - amb_adv_room_noise_01
+- ui_visible:
+  - false
+- effect:
+  - 0101
+- bgm:
+  - bgm_M321_2C
+  - 0
+  - 0
+  - 1
+- wait:
+  - 17
+- se:
+  - se_adv_login_birthday_01
+- wait:
+  - 100
+- ui_visible:
+  - true
+- chara_full:
+  - 104311
+  - C
+  - 1
+- fadein:
+  - 104311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104311
+- bust:
+  - 104311
+  - 0
+- vo:
+  - vo_adv_1043500_000
+- face:
+  - 104311
+  - 1
+- print:
+  - 真琴
+  - 喔，
+- wait:
+  - 15
+- print:
+  - 真琴
+  - '{0}你來啦。'
+- wait:
+  - 25
+- print:
+  - 真琴
+  - 時間剛好呢。
+- wait:
+  - 50
+- print:
+  - 真琴
+  - >2
+
+- face:
+  - 104311
+  - 6
+- print:
+  - 真琴
+  - 咦？　
+- wait:
+  - 25
+- print:
+  - 真琴
+  - 我只是剛好提早到了而已啦。
+- wait:
+  - 55
+- print:
+  - 真琴
+  - >2
+
+- face:
+  - 104311
+  - 5
+- print:
+  - 真琴
+  - 才、
+- wait:
+  - 5
+- print:
+  - 真琴
+  - 才不是因為太興奮喔！　
+- wait:
+  - 55
+- face:
+  - 104311
+  - 6
+- print:
+  - 真琴
+  - 比起這個，
+- wait:
+  - 15
+- print:
+  - 真琴
+  - 今天有什麼事啊？
+- touch: &o0 []
+- choice:
+  - 給她布偶。
+  - 1
+- choice:
+  - 給她製作點心的書。
+  - 2
+- choice:
+  - 給她可愛的衣服。
+  - 3
+- tag:
+  - 1
+- window_visible:
+  - false
+- face:
+  - 104311
+  - 1
+- se:
+  - se_adv_tickle_02
+- effect:
+  - 0102
+- wait:
+  - 25
+- se:
+  - se_adv_login_birthday_02
+- wait:
+  - 40
+- effect:
+  - 0021
+  - se_adv_happy_particle_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 104311
+- bust:
+  - 104311
+  - 0
+- vo:
+  - vo_adv_1043500_001
+- face:
+  - 104311
+  - 4
+- print:
+  - 真琴
+  - 突、
+- wait:
+  - 15
+- print:
+  - 真琴
+  - 突然給我這個是……
+- wait:
+  - 80
+- face:
+  - 104311
+  - 6
+- print:
+  - 真琴
+  - 啊！　
+- wait:
+  - 45
+- print:
+  - 真琴
+  - 這是生日禮物嗎？
+- wait:
+  - 65
+- print:
+  - 真琴
+  - >2
+
+- face:
+  - 104311
+  - 5
+- print:
+  - 真琴
+  - 雖然是很感謝啦，
+- wait:
+  - 30
+- print:
+  - 真琴
+  - 你居然送我布偶啊……
+- wait:
+  - 65
+- print:
+  - 真琴
+  - >2
+
+- face:
+  - 104311
+  - 4
+- print:
+  - 真琴
+  - 抱歉，
+- wait:
+  - 15
+- print:
+  - 真琴
+  - 這個我不能收。
+- wait:
+  - 40
+- face:
+  - 104311
+  - 1
+- print:
+  - 真琴
+  - 你的好意我心領了啦。
+- touch: *o0
+- focus:
+  - 104311
+- bust:
+  - 104311
+  - 0
+- vo:
+  - vo_adv_1043500_002
+- face:
+  - 104311
+  - 5
+- emotion:
+  - shy1_R
+  - 104311
+  - -95
+  - 530
+  - se_adv_emote_shy_01
+- print:
+  - 真琴
+  - ……不過
+- wait:
+  - 30
+- print:
+  - 真琴
+  - 可惡啊，
+- wait:
+  - 30
+- print:
+  - 真琴
+  - 真的超可愛的啦，
+- wait:
+  - 20
+- print:
+  - 真琴
+  - 這個。
+- wait:
+  - 40
+- print:
+  - 真琴
+  - >2
+
+- face:
+  - 104311
+  - 6
+- print:
+  - 真琴
+  - 真……
+- wait:
+  - 25
+- print:
+  - 真琴
+  - 真沒辦法，
+- wait:
+  - 55
+- print:
+  - 真琴
+  - 你拿著這個陪我一起回家吧。
+- wait:
+  - 85
+- print:
+  - 真琴
+  - >2
+
+- face:
+  - 104311
+  - 5
+- print:
+  - 真琴
+  - 你問為什麼……
+- wait:
+  - 45
+- print:
+  - 真琴
+  - 拿著這個在路上走不是很讓人害羞嗎！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- window_visible:
+  - false
+- face:
+  - 104311
+  - 1
+- se:
+  - se_adv_tickle_02
+- effect:
+  - 0102
+- wait:
+  - 25
+- se:
+  - se_adv_login_birthday_02
+- wait:
+  - 40
+- effect:
+  - 0021
+  - se_adv_happy_particle_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 104311
+- bust:
+  - 104311
+  - 0
+- vo:
+  - vo_adv_1043500_003
+- face:
+  - 104311
+  - 6
+- print:
+  - 真琴
+  - 嗯？　
+- wait:
+  - 30
+- print:
+  - 真琴
+  - 突然間怎麼了。
+- wait:
+  - 45
+- print:
+  - 真琴
+  - 咦，
+- wait:
+  - 30
+- print:
+  - 真琴
+  - 慶祝我的生日？
+- wait:
+  - 60
+- print:
+  - 真琴
+  - >2
+
+- face:
+  - 104311
+  - 1
+- print:
+  - 真琴
+  - 你意外地很機靈呢。
+- wait:
+  - 45
+- face:
+  - 104311
+  - 6
+- print:
+  - 真琴
+  - 哼嗯，
+- wait:
+  - 45
+- print:
+  - 真琴
+  - 點心的食譜啊。
+- wait:
+  - 45
+- print:
+  - 真琴
+  - >2
+
+- face:
+  - 104311
+  - 2
+- print:
+  - 真琴
+  - 收到不錯的東西了呢，
+- wait:
+  - 20
+- print:
+  - 真琴
+  - 謝謝你啦。
+- touch: *o0
+- focus:
+  - 104311
+- bust:
+  - 104311
+  - 0
+- vo:
+  - vo_adv_1043500_004
+- face:
+  - 104311
+  - 6
+- print:
+  - 真琴
+  - 不過你啊，
+- wait:
+  - 40
+- print:
+  - 真琴
+  - 這是在暗示我，要我做點心嗎？
+- wait:
+  - 80
+- print:
+  - 真琴
+  - >2
+
+- face:
+  - 104311
+  - 1
+- print:
+  - 真琴
+  - 是可以啦。
+- wait:
+  - 45
+- print:
+  - 真琴
+  - 難得的機會，來做蛋糕吧！
+- wait:
+  - 50
+- print:
+  - 真琴
+  - >2
+
+- face:
+  - 104311
+  - 4
+- print:
+  - 真琴
+  - 雖然自己做自己的生日蛋糕
+- wait:
+  - 40
+- print:
+  - 真琴
+  - 好像哪裡怪怪的。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- window_visible:
+  - false
+- face:
+  - 104311
+  - 1
+- se:
+  - se_adv_tickle_02
+- effect:
+  - 0102
+- wait:
+  - 25
+- se:
+  - se_adv_login_birthday_02
+- wait:
+  - 40
+- effect:
+  - 0021
+  - se_adv_happy_particle_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 104311
+- bust:
+  - 104311
+  - 0
+- vo:
+  - vo_adv_1043500_005
+- face:
+  - 104311
+  - 6
+- print:
+  - 真琴
+  - 咦，
+- wait:
+  - 15
+- print:
+  - 真琴
+  - 生日禮物？　
+- wait:
+  - 50
+- print:
+  - 真琴
+  - 原來你記得我的生日啊。
+- wait:
+  - 70
+- print:
+  - 真琴
+  - >2
+
+- face:
+  - 104311
+  - 5
+- emotion:
+  - shy1_R
+  - 104311
+  - -95
+  - 530
+  - se_adv_emote_shy_01
+- print:
+  - 真琴
+  - ……雖然是很高興，
+- wait:
+  - 45
+- print:
+  - 真琴
+  - 不過為什麼送我的禮物
+- wait:
+  - 35
+- print:
+  - 真琴
+  - >-
+    是公主會喜歡的
+
+    那種輕飄飄的衣服啦！　
+- wait:
+  - 45
+- face:
+  - 104311
+  - 4
+- print:
+  - 真琴
+  - 太奇怪了吧！
+- touch: *o0
+- focus:
+  - 104311
+- bust:
+  - 104311
+  - 0
+- vo:
+  - vo_adv_1043500_006
+- face:
+  - 104311
+  - 4
+- print:
+  - 真琴
+  - 不過
+- wait:
+  - 15
+- print:
+  - 真琴
+  - 難得的禮物也不能浪費……
+- wait:
+  - 85
+- print:
+  - 真琴
+  - >2
+
+- face:
+  - 104311
+  - 1
+- print:
+  - 真琴
+  - 知道了，
+- wait:
+  - 30
+- print:
+  - 真琴
+  - 我就開心地收下吧。
+- wait:
+  - 35
+- print:
+  - 真琴
+  - 之後會在家裡穿穿看的。
+- wait:
+  - 60
+- print:
+  - 真琴
+  - >2
+
+- face:
+  - 104311
+  - 6
+- print:
+  - 真琴
+  - 啊？　
+- wait:
+  - 30
+- print:
+  - 真琴
+  - 你想看我穿起來的樣子？　
+- wait:
+  - 30
+- face:
+  - 104311
+  - 5
+- print:
+  - 真琴
+  - 絕對不會給你看的啦！
+- touch: *o0
+- tag:
+  - 4
+- effect_delete:
+  - 0021
+  - 15
+- focus:
+  - 104311
+- bust:
+  - 104311
+  - 0
+- vo:
+  - vo_adv_1043500_007
+- face:
+  - 104311
+  - 5
+- print:
+  - 真琴
+  - ……沒想到你居然會幫我過生日呢。
+- wait:
+  - 80
+- print:
+  - 真琴
+  - >2
+
+- face:
+  - 104311
+  - 1
+- print:
+  - 真琴
+  - 這種事情，
+- wait:
+  - 20
+- print:
+  - 真琴
+  - 比想像中還讓人高興呢。
+- wait:
+  - 55
+- nod:
+  - 104311
+- print:
+  - 真琴
+  - 好，
+- wait:
+  - 25
+- print:
+  - 真琴
+  - 你現在過來我們店裡吧。
+- wait:
+  - 40
+- print:
+  - 真琴
+  - >2
+
+- face:
+  - 104311
+  - 2
+- print:
+  - 真琴
+  - 難得的機會嘛，
+- wait:
+  - 25
+- print:
+  - 真琴
+  - 就開個派對好好慶祝一下吧！
+- touch: *o0
+- window_visible:
+  - false
+- ui_visible:
+  - false
+- fadeout:
+  - 104311
+  - 30
+- bright_change:
+  - 1
+  - 40
+- wait:
+  - 5
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0101
+- end: *o0

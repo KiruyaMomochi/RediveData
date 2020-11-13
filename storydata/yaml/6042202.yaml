@@ -1,0 +1,305 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 501000
+- amb:
+  - amb_adv_outdoors_day_01
+- ui_visible:
+  - false
+- situation:
+  - 不可思議的世界
+- chara_full:
+  - 113011
+  - C
+  - 4
+- fadein:
+  - 113011
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M203
+  - 0
+  - 0
+  - 1
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_6042202_000
+- face:
+  - 113011
+  - 4
+- nod:
+  - 113011
+- print:
+  - 步未
+  - 嗚嗚……
+- wait:
+  - 45
+- print:
+  - 步未
+  - 這個世界究竟是怎麼一回事……？
+- wait:
+  - 75
+- print:
+  - 步未
+  - >2-
+
+    無論是植物或
+- wait:
+  - 40
+- print:
+  - 步未
+  - 建築物之類的
+- wait:
+  - 50
+- print:
+  - 步未
+  - 都和蘭德索爾完全不同……
+- wait:
+  - 90
+- print:
+  - 步未
+  - >2
+
+- face:
+  - 113011
+  - 6
+- print:
+  - 步未
+  - 我、
+- wait:
+  - 20
+- print:
+  - 步未
+  - 我到底該
+- wait:
+  - 35
+- print:
+  - 步未
+  - 躲在哪裡才好……？
+- touch: &o0 []
+- choice:
+  - 不需要躲起來。
+  - 1
+  - 1
+- choice:
+  - 待在我身後。
+  - 2
+  - 2
+- choice:
+  - 我數十秒喔。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_6042202_001
+- face:
+  - 113011
+  - 4
+- pop:
+  - 113011
+- print:
+  - 步未
+  - 咿嗚，
+- wait:
+  - 25
+- print:
+  - 步未
+  - 前輩正專注地看著我……！
+- wait:
+  - 75
+- print:
+  - 步未
+  - >2
+
+- face:
+  - 113011
+  - 5
+- print:
+  - 步未
+  - 果然還是好羞恥……！
+- wait:
+  - 60
+- print:
+  - 步未
+  - >2
+
+- face:
+  - 113011
+  - 3
+- print:
+  - 步未
+  - 前輩，請等我一下，
+- wait:
+  - 40
+- print:
+  - 步未
+  - 我現在
+- wait:
+  - 10
+- print:
+  - 步未
+  - 就去躲起來……！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_6042202_002
+- face:
+  - 113011
+  - 6
+- print:
+  - 步未
+  - 待待、
+- wait:
+  - 10
+- print:
+  - 步未
+  - 待在前輩的身後！？
+- wait:
+  - 55
+- print:
+  - 步未
+  - >2
+
+- face:
+  - 113011
+  - 1
+- print:
+  - 步未
+  - 在那種近距離下看著前輩，
+- wait:
+  - 45
+- print:
+  - 步未
+  - 這樣真的可以嗎……？
+- wait:
+  - 75
+- print:
+  - 步未
+  - >2
+
+- face:
+  - 113011
+  - 4
+- print:
+  - 步未
+  - 我、
+- wait:
+  - 20
+- print:
+  - 步未
+  - 我我、
+- wait:
+  - 20
+- eye_open:
+  - False
+- print:
+  - 步未
+  - 我做不到！
+- wait:
+  - 35
+- eye_open:
+  - True
+- print:
+  - 步未
+  - 我去躲在那邊的蘑菇後面就好了～！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 113011
+- bust:
+  - 113011
+  - 0
+- vo:
+  - vo_adv_6042202_003
+- face:
+  - 113011
+  - 6
+- print:
+  - 步未
+  - 咦？
+- wait:
+  - 20
+- print:
+  - 步未
+  - 十秒？
+- wait:
+  - 60
+- print:
+  - 步未
+  - >2-
+
+    難道
+- wait:
+  - 20
+- print:
+  - 步未
+  - 是要玩捉迷藏嗎？
+- wait:
+  - 55
+- print:
+  - 步未
+  - >2
+
+- face:
+  - 113011
+  - 4
+- print:
+  - 步未
+  - 怎麼這麼突然……
+- wait:
+  - 50
+- face:
+  - 113011
+  - 6
+- print:
+  - 步未
+  - 啊，
+- wait:
+  - 15
+- print:
+  - 步未
+  - 前輩已經開始倒數了！？
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 113011
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

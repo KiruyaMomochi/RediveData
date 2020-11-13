@@ -1,0 +1,2266 @@
+- title:
+  - 禊探險隊出發！
+- outline:
+  - 探險的當天，前來集合的禊與鏡華間的氣氛依然顯得非常尷尬。在這樣的情況下，得知美美因高燒而相當不舒服的３人，為了取得可有效治療發燒的藥草，出發前去位在高山的迷宮探險。
+- background:
+  - 500130
+- amb:
+  - amb_adv_outdoors_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 禊探險隊出發！
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    探險當天，禊和{0}
+
+    提早來到街道上等待鏡華和美美。
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 100411
+  - C
+  - 4
+- fadein:
+  - 100411
+  - 30
+- bgm:
+  - bgm_M100_04
+  - 0
+  - 0
+  - 1
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002003_000
+- face:
+  - 100411
+  - 4
+- emotion:
+  - drop1_R
+  - 100411
+  - 75
+  - 620
+  - se_adv_emote_drop_01
+- print:
+  - 禊
+  - 唔──，好尷尬哦～
+- wait:
+  - 75
+- print:
+  - 禊
+  - >2-
+
+    鏡華來了的話，要用什麼樣的表情和她說話才好啊──
+- touch: *o0
+- choice:
+  - 照平常的樣子就行了。
+  - 1
+- choice:
+  - 不用勉強說出口也沒關係。
+  - 2
+- tag:
+  - 1
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002003_001
+- face:
+  - 100411
+  - 4
+- print:
+  - 禊
+  - 那很難啦～！哥哥不會懂的啦──！
+- wait:
+  - 45
+- touch: *o0
+- goto:
+  - 3
+- tag:
+  - 2
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002003_002
+- face:
+  - 100411
+  - 4
+- print:
+  - 禊
+  - 那怎麼行呢──！
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2-
+
+    如果禊都不說話，真的會變得一片沉默唷！
+- touch: *o0
+- tag:
+  - 3
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 4
+  - 1
+- fadeout:
+  - 100411
+  - 30
+- chara_full:
+  - 100411
+  - RC
+  - 4
+- chara_full:
+  - 103611
+  - L
+  - 4
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 45
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002003_003
+- face:
+  - 103611
+  - 4
+- print:
+  - 鏡華
+  - ……久等了。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_emote_nortice_02
+- emotion:
+  - exclamation1_R
+  - 100411
+  - 5
+  - 600
+  - '*non'
+- window_visible:
+  - true
+- bgm:
+  - bgm_M99
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002003_004
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - 哇！嚇我一跳！
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 4
+- print:
+  - 禊
+  - 啊，是鏡華。那個，那個……早，早安！
+- wait:
+  - 90
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002003_005
+- face:
+  - 103611
+  - 4
+- print:
+  - 鏡華
+  - 嗯、
+- nod:
+  - 103611
+- wait:
+  - 15
+- print:
+  - 鏡華
+  - 嗯……
+- wait:
+  - 30
+- print:
+  - 鏡華
+  - 早安。
+- wait:
+  - 30
+- print:
+  - 鏡華
+  - >2-
+
+    {0}，
+- wait:
+  - 30
+- print:
+  - 鏡華
+  - 你也早安。
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 100411
+  - 4
+- face:
+  - 103611
+  - 4
+- emotion:
+  - dots1_R
+  - 100411
+  - -95
+  - 460
+  - se_adv_emote_dots_01
+- emotion:
+  - dots1_R
+  - 103611
+  - -110
+  - 445
+  - '*non'
+- focus:
+  - 103611:100411
+- window_visible:
+  - true
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5002003_006
+- multi_talk:
+  - 103611:100411
+- face:
+  - 1
+  - 4
+- print:
+  - 鏡華・禊
+  - ……
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002003_007
+- face:
+  - 103611
+  - 1
+- print:
+  - 鏡華
+  - 決、
+- wait:
+  - 15
+- print:
+  - 鏡華
+  - >-
+    決定好要去哪裡探險了嗎！？
+
+    {0}！
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002003_008
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 對，對啊哥哥！吶吶，到底要去哪呢？
+- wait:
+  - 35
+- touch: *o0
+- choice:
+  - 美美來了再一起想吧。
+  - 4
+- tag:
+  - 4
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002003_009
+- face:
+  - 103611
+  - 4
+- emotion:
+  - question1_R
+  - 103611
+  - 85
+  - 465
+  - se_adv_emote_question_01
+- print:
+  - 鏡華
+  - 咦？美美還沒來嗎？
+- wait:
+  - 75
+- print:
+  - 鏡華
+  - >2-
+
+    她會遲到還真稀奇呢……難，難道是迷路了嗎！
+- wait:
+  - 90
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002003_010
+- face:
+  - 100411
+  - 6
+- emotion:
+  - sweat2_R
+  - 100411
+  - 80
+  - 490
+  - se_adv_emote_sweat_02
+- print:
+  - 禊
+  - 哎呀！如果是這樣就糟了！得去接她才行！
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002003_011
+- face:
+  - 103611
+  - 1
+- print:
+  - 鏡華
+  - 總，總之先去美美的家走一趟吧！
+- wait:
+  - 75
+- print:
+  - 鏡華
+  - >2-
+
+    畢竟也可能是睡過頭了！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 5
+- se:
+  - se_adv_step_dirt_run_go_01
+- change:
+  - L
+  - LC
+  - 30
+- fadeout:
+  - 103611
+  - 30
+- se:
+  - se_adv_step_dirt_run_go_01
+- change:
+  - LC
+  - RC
+  - 45
+- fadeout:
+  - 100411
+  - 30
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500020
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_outdoors_day_01
+- chara_full:
+  - 103611
+  - LC
+  - 1
+- chara_full:
+  - 100411
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- se:
+  - se_adv_door_knock_01
+- wait:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002003_012
+- face:
+  - 100411
+  - 4
+- print:
+  - 禊
+  - 美美！美美！在的話回句話吧！
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100411
+  - R
+  - 4
+- chara_full:
+  - 103611
+  - C
+  - 1
+- chara_full:
+  - 102011
+  - L
+  - 4
+  - 1
+- se:
+  - se_adv_door_open_02
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M100
+  - 0
+  - 0
+  - 1
+- focus:
+  - 102011
+- bust:
+  - 102011
+  - 0
+- vo:
+  - vo_adv_5002003_013
+- face:
+  - 102011
+  - 4
+- print:
+  - 美美
+  - 咳咳……在～。
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002003_014
+- face:
+  - 103611
+  - 6
+- print:
+  - 鏡華
+  - 美美！怎、怎麼了嗎？
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 102011
+- bust:
+  - 102011
+  - 0
+- vo:
+  - vo_adv_5002003_015
+- face:
+  - 102011
+  - 6
+- print:
+  - 美美
+  - 啊，大家啊～、咿嘻嘻～……美美發燒了呢……
+- wait:
+  - 120
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002003_016
+- face:
+  - 100411
+  - 6
+- emotion:
+  - surprise1_L
+  - 100411
+  - -100
+  - 490
+  - se_adv_emote_common_01
+- print:
+  - 禊
+  - 咦！？妳、妳沒事吧？
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 102011
+- bust:
+  - 102011
+  - 0
+- vo:
+  - vo_adv_5002003_017
+- face:
+  - 102011
+  - 1
+- print:
+  - 美美
+  - 嗯，沒事……咳咳！
+- wait:
+  - 50
+- print:
+  - 美美
+  - >2-
+
+    哎唷……大家對不起，美美今天沒辦法出門了～
+- wait:
+  - 75
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002003_018
+- face:
+  - 103611
+  - 4
+- print:
+  - 鏡華
+  - 沒關係沒關係，好好休息吧。
+- wait:
+  - 75
+- print:
+  - 鏡華
+  - >2-
+
+    對不起呢，擅自跑來打擾？
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 102011
+- bust:
+  - 102011
+  - 0
+- vo:
+  - vo_adv_5002003_019
+- face:
+  - 102011
+  - 2
+- emotion:
+  - note1_L
+  - 102011
+  - -100
+  - 475
+  - se_adv_emote_note_01
+- print:
+  - 美美
+  - 怎麼會。美美看到大家，精神就好了一點呢～♪
+- wait:
+  - 150
+- print:
+  - 美美
+  - >2-
+
+    鏡華和禊看起來已經和好了，真是太好了～♪
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002003_020
+- face:
+  - 100411
+  - 4
+- emotion:
+  - exclamation1_R
+  - 100411
+  - 5
+  - 600
+  - se_adv_emote_common_01
+- print:
+  - 禊
+  - 唔！那、那個嘛……
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 102011
+- bust:
+  - 102011
+  - 0
+- vo:
+  - vo_adv_5002003_021
+- face:
+  - 102011
+  - 1
+- print:
+  - 美美
+  - 那美美要回被窩裡囉？
+- wait:
+  - 90
+- print:
+  - 美美
+  - >2
+
+- face:
+  - 102011
+  - 2
+- print:
+  - 美美
+  - 大家再見呢……
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_door_open_01
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_step_rug_walk_go_02
+- chara_full:
+  - 100411
+  - RC
+  - 4
+- chara_full:
+  - 103611
+  - LC
+  - 4
+- fadein_all:
+  - 30
+- se_pause:
+  - se_adv_step_rug_walk_go_02
+  - 0.5
+- window_visible:
+  - true
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5002003_022
+- multi_talk:
+  - 103611:100411
+- face:
+  - 1
+  - 4
+- print:
+  - 鏡華・禊
+  - ……
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002003_023
+- face:
+  - 103611
+  - 4
+- print:
+  - 鏡華
+  - ……美美好像很不舒服呢……
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002003_024
+- face:
+  - 100411
+  - 4
+- print:
+  - 禊
+  - 嗯……因為是在我們面前所以硬撐著，好像很吃力的樣子。
+- wait:
+  - 75
+- print:
+  - 禊
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - 禊
+  - ……嗚哇！要是我們有治療疾病的能力就好了！
+- wait:
+  - 30
+- touch: *o0
+- eye_open:
+  - TRUE
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002003_025
+- face:
+  - 103611
+  - 4
+- print:
+  - 鏡華
+  - 畢竟我也不會打敗病菌的魔法……啊，對了！
+- wait:
+  - 105
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002003_026
+- face:
+  - 103611
+  - 1
+- print:
+  - 鏡華
+  - 先前曾經在教科書上看到過，
+- wait:
+  - 75
+- print:
+  - 鏡華
+  - >2-
+
+    有一種對嚴重發燒很有效的藥草！
+- wait:
+  - 75
+- print:
+  - 鏡華
+  - >2-
+
+    還寫著只要喝下之後，很快就會退燒，恢復精神！
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002003_027
+- face:
+  - 100411
+  - 6
+- emotion:
+  - notice1_L
+  - 100411
+  - -75
+  - 480
+  - se_adv_emote_common_01
+- print:
+  - 禊
+  - 那是什麼－！也就是說只要喝下那種藥草，
+- wait:
+  - 60
+- print:
+  - 禊
+  - >2-
+
+    美美就能恢復精神了！？
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002003_028
+- face:
+  - 103611
+  - 1
+- print:
+  - 鏡華
+  - 我讀到的教科書上是那麼寫的沒錯！
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002003_029
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 那我們今天就到那裡去探險吧！去找藥草！
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002003_030
+- face:
+  - 103611
+  - 6
+- emotion:
+  - exclamation1_R
+  - 103611
+  - -15
+  - 610
+  - se_adv_emote_common_01
+- print:
+  - 鏡華
+  - 咦！？可是有藥草的地方也會有魔物之類――
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002003_031
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 哥哥也準備 OK 了嗎？
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 100411
+  - 2
+- emotion:
+  - note1_L
+  - 100411
+  - -85
+  - 485
+  - se_adv_emote_note_01
+- print:
+  - 禊
+  - 很好，為了美美！禊探險隊，出發！
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- change:
+  - R
+  - RC
+  - 15
+- se:
+  - se_adv_step_concrete_run_go_01
+- fadeout:
+  - 100411
+  - 30
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002003_032
+- face:
+  - 103611
+  - 6
+- print:
+  - 鏡華
+  - 啊，等一下禊！
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 3
+  - 1
+- change:
+  - RC
+  - LC
+  - 45
+- se:
+  - se_adv_step_concrete_run_go_01
+- fadeout:
+  - 103611
+  - 30
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500213
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_outdoors_day_01
+- chara_full:
+  - 103611
+  - LC
+  - 1
+- chara_full:
+  - 100411
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- bgm:
+  - bgm_M71
+- window_visible:
+  - true
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002003_033
+- face:
+  - 103611
+  - 1
+- print:
+  - 鏡華
+  - 藥草似乎就生長在穿過這座山之處。
+- wait:
+  - 90
+- print:
+  - 鏡華
+  - >2-
+
+    因為魔物也棲息在那裡，所以要慎重―
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002003_034
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - 禊先走了喔！
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- change:
+  - R
+  - RC
+  - 15
+- se:
+  - se_adv_step_leaves_run_go_01
+- fadeout:
+  - 100411
+  - 30
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002003_035
+- face:
+  - 103611
+  - 6
+- print:
+  - 鏡華
+  - 禊真是的，又自己跑了！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 1
+- vo:
+  - vo_adv_5002003_036
+- face:
+  - 100411
+  - 3
+- print:
+  - 禊
+  - 哥哥和鏡華走得太慢了嘛！我等不及了啦！
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002003_037
+- face:
+  - 103611
+  - 4
+- emotion:
+  - gloomy1_R
+  - 103611
+  - 30
+  - 490
+  - se_adv_emote_gloomy_01
+- print:
+  - 鏡華
+  - 唉……果然還是很尷尬……
+- wait:
+  - 90
+- print:
+  - 鏡華
+  - >2-
+
+    這樣子到底能不能和好呢……
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- change:
+  - R
+  - C
+  - 45
+- se:
+  - se_adv_step_leaves_run_go_01
+- fadeout:
+  - 103611
+  - 30
+- wait:
+  - 15
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- se:
+  - se_adv_step_leaves_run_come_01
+- chara_full:
+  - 100411
+  - C
+  - 3
+- change:
+  - R
+  - C
+  - 45
+- fadein:
+  - 100411
+  - 30
+- se:
+  - se_adv_step_dirt_run_come_01
+- chara_full:
+  - 103611
+  - L
+  - 3
+- in_L:
+  - 103611
+  - 45
+  - true
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002003_038
+- face:
+  - 103611
+  - 3
+- print:
+  - 鏡華
+  - 禊，步調稍微放慢點！
+- wait:
+  - 75
+- print:
+  - 鏡華
+  - >2-
+
+    這樣下去的話會走散唷！
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002003_039
+- face:
+  - 100411
+  - 3
+- print:
+  - 禊
+  - 我，我知道了啦……！
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- vo_effect:
+  - 3
+- change_window:
+  - 2
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002003_040
+- face:
+  - 100411
+  - 4
+- print:
+  - 禊
+  - 果然鏡華她，
+- wait:
+  - 30
+- print:
+  - 禊
+  - 還在生我的氣……
+- wait:
+  - 30
+- print:
+  - 禊
+  - 比平常都還要可怕……
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002003_041
+- face:
+  - 103611
+  - 4
+- print:
+  - 鏡華
+  - （走得這麼快……果然是不想和我在一起……）
+- wait:
+  - 60
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- vo_effect:
+  - 0
+- change_window:
+  - 1
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002003_042
+- face:
+  - 100411
+  - 3
+- print:
+  - 禊
+  - 真是的！哥哥振作點啦！
+- wait:
+  - 60
+- print:
+  - 禊
+  - >2-
+
+    禊替你加油，趕快過來哦！
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002003_043
+- face:
+  - 103611
+  - 1
+- print:
+  - 鏡華
+  - 和那個人的距離漸漸拉開了……
+- wait:
+  - 60
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 103611
+  - 3
+- print:
+  - 鏡華
+  - 真是的，都是禊越走越遠的關係啦……！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002003_044
+- face:
+  - 100411
+  - 3
+- print:
+  - 禊
+  - 可是，我想要快點讓美美恢復健康嘛！
+- wait:
+  - 60
+- print:
+  - 禊
+  - >2-
+
+    所以不走快點怎麼行――！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 3
+- fadeout_all:
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- effect:
+  - 0009
+- se:
+  - se_adv_creature_cmn_01
+- jingle_start:
+  - bgm_M17_00_intro
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物１
+  - ──咕喔喔喔喔
+- shake_screen: *o0
+- print:
+  - 魔物１
+  - ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1611
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- bgm:
+  - bgm_M17_03
+  - 0
+  - 0
+  - 1
+- chara_full:
+  - 100411
+  - R
+  - 6
+- chara_full:
+  - 103611
+  - L
+  - 6
+- fadein_all:
+  - 30
+- se:
+  - se_adv_emote_nortice_02
+- emotion:
+  - exclamation1_R
+  - 100411
+  - 5
+  - 600
+  - '*non'
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002003_045
+- face:
+  - 100411
+  - 6
+- pop:
+  - 100411
+- print:
+  - 禊
+  - 哇──！什麼東西啊──！？
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002003_046
+- face:
+  - 103611
+  - 6
+- emotion:
+  - surprise1_L
+  - 103611
+  - 130
+  - 515
+  - '*non'
+- print:
+  - 鏡華
+  - 魔、魔物？禊！很危險快過來這裡──！
+- wait:
+  - 60
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - R
+  - 1
+- fadein:
+  - 1611
+  - 30
+- chara_full:
+  - 1612
+  - L
+  - 1
+- se:
+  - se_adv_creature_cmn_02
+- fadein:
+  - 1612
+  - 30
+- wait:
+  - 15
+- se:
+  - se_adv_creature_cmn_04
+- focus:
+  - 1612
+- bust:
+  - 1612
+  - 0
+- face:
+  - 1612
+  - 1
+- print:
+  - 魔物２
+  - ──咕喔喔喔喔
+- shake_screen: *o0
+- print:
+  - 魔物２
+  - ！
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 1
+- vo:
+  - vo_adv_5002003_047
+- face:
+  - 103611
+  - 6
+- print:
+  - 鏡華
+  - 還、還有一隻！？怎麼會……！　
+- wait:
+  - 45
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 103611
+  - 4
+- print:
+  - 鏡華
+  - 那個人還沒……
+- wait:
+  - 45
+- print:
+  - 鏡華
+  - >2-
+
+    別、別過來啊──！
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0073
+  - se_adv_magic_water_medium_01
+  - 0
+  - R
+- shake:
+  - 1611
+- wait:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 1
+- vo:
+  - vo_adv_5002003_048
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - 鏡華！？好，好吧，禊也豁出去了！呀啊！
+- wait:
+  - 75
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0003
+  - se_adv_weapon_punch_hit_02
+- wait:
+  - 10
+- background:
+  - 500213
+- chara_full:
+  - 1612
+  - L
+  - 1
+- chara_full:
+  - 1611
+  - R
+  - 1
+- fadein_all:
+  - 30
+- shake:
+  - 1611
+- wait:
+  - 15
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物１
+  - ──咕喔喔喔喔！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 103611
+  - C
+  - 4
+- fadein:
+  - 103611
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002003_049
+- face:
+  - 103611
+  - 4
+- print:
+  - 鏡華
+  - 咿嗚！也、也不必叫那麼大聲吧！
+- wait:
+  - 45
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 103611
+  - 1
+- print:
+  - 鏡華
+  - 這裡就和禊聯手對付了！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_magic_failure_01
+- nod:
+  - 103611
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002003_050
+- face:
+  - 103611
+  - 3
+- print:
+  - 鏡華
+  - 慢著、禊……！隨便動來動去！
+- wait:
+  - 60
+- print:
+  - 鏡華
+  - >2-
+
+    魔法會打不中的！
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 1
+- vo:
+  - vo_adv_5002003_051
+- face:
+  - 100411
+  - 3
+- print:
+  - 禊
+  - 可是，它們一下接一下地攻擊過來嘛！
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002003_052
+- face:
+  - 103611
+  - 3
+- print:
+  - 鏡華
+  - 到底要攻擊哪一邊，好好決定吧
+- pop:
+  - 103611
+- print:
+  - 鏡華
+  - ！
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 103611
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 100411
+  - C
+  - 3
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002003_053
+- face:
+  - 100411
+  - 3
+- print:
+  - 禊
+  - 就算妳這麼說……啊！？
+- wait:
+  - 45
+- touch: *o0
+- se:
+  - se_adv_creature_cmn_02
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 1
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物２
+  - ──咕喔喔喔喔！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100411
+  - 30
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0028
+  - se_adv_weapon_claw_hit_01
+- wait:
+  - 15
+- background:
+  - 500213
+- chara_full:
+  - 100411
+  - C
+  - 6
+- scale:
+  - 100411
+  - 1.3
+  - 3
+- fadein:
+  - 100411
+  - 30
+- effect:
+  - 0009
+- face:
+  - 100411
+  - 4
+- eye_open:
+  - FALSE
+- wait:
+  - 15
+- se:
+  - se_adv_kick_ground_01
+- scale:
+  - 100411
+  - 1
+  - 2
+  - 5
+- shake_screen: *o0
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002003_054
+- face:
+  - 100411
+  - 4
+- eye_open:
+  - TRUE
+- print:
+  - 禊
+  - 啊嗚！痛……
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 1
+- vo:
+  - vo_adv_5002003_055
+- face:
+  - 103611
+  - 4
+- print:
+  - 鏡華
+  - 禊！這裡先退下！我來想辦法！
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002003_056
+- face:
+  - 100411
+  - 4
+- print:
+  - 禊
+  - 可是，一個人實在……啊，哥哥！
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100411
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 103611
+  - C
+  - 1
+- fadein:
+  - 103611
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002003_057
+- face:
+  - 103611
+  - 1
+- print:
+  - 鏡華
+  - 謝、謝謝你！
+- wait:
+  - 45
+- print:
+  - 鏡華
+  - >2-
+
+    就這樣吸引魔物吧！
+- wait:
+  - 45
+- print:
+  - 鏡華
+  - >2-
+
+    我也……就是現在！嘿──噫！
+- wait:
+  - 60
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 103611
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 1612
+  - L
+  - 1
+- chara_full:
+  - 1611
+  - R
+  - 1
+- fadein_all:
+  - 30
+- effect:
+  - 0073
+  - se_adv_magic_water_medium_01
+  - 0
+  - L
+- shake:
+  - 1612
+- wait:
+  - 30
+- se:
+  - se_adv_creature_cmn_03
+- window_visible:
+  - true
+- focus:
+  - 1612
+- bust:
+  - 1612
+  - 0
+- face:
+  - 1612
+  - 1
+- print:
+  - 魔物２
+  - ──嘎喔喔喔喔喔
+- sway:
+  - 1612
+- print:
+  - 魔物２
+  - ！
+- touch: *o0
+- window_visible:
+  - false
+- updown:
+  - 1612
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1612
+  - 30
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- window_visible:
+  - true
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 1
+- vo:
+  - vo_adv_5002003_058
+- face:
+  - 103611
+  - 1
+- print:
+  - 鏡華
+  - 成功了！接下來另一隻也處理掉吧！
+- wait:
+  - 30
+- touch: *o0
+- se:
+  - se_adv_creature_cmn_04
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物１
+  - ──咕喔喔喔喔！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 10
+  - 1
+- se:
+  - se_adv_step_monster_run_go_01
+- out_R:
+  - 1611
+  - 45
+  - true
+- se_pause:
+  - se_adv_step_monster_run_go_01
+  - 0.5
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100411
+  - C
+  - 6
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002003_059
+- face:
+  - 100411
+  - 6
+- print:
+  - 禊
+  - ……咦？逃走了？……怎，怎麼樣！　
+- wait:
+  - 90
+- print:
+  - 禊
+  - >2-
+
+    惹上鏡華和哥哥就是這樣啦！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100411
+  - 30
+- chara_full:
+  - 100411
+  - RC
+  - 1
+- chara_full:
+  - 103611
+  - L
+  - 1
+- se:
+  - se_adv_step_leaves_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 45
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M100
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002003_060
+- face:
+  - 103611
+  - 1
+- print:
+  - 鏡華
+  - 禊，妳都受傷了，不能亂動哦！
+- wait:
+  - 60
+- print:
+  - 鏡華
+  - >2-
+
+    來，我幫妳包紮，讓我看看傷口吧！
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002003_061
+- face:
+  - 100411
+  - 4
+- print:
+  - 禊
+  - 痛痛！嗚嗚，對不起……
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002003_062
+- face:
+  - 103611
+  - 4
+- print:
+  - 鏡華
+  - 真是的……每次都衝著跑出去才會這樣……
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002003_063
+- face:
+  - 100411
+  - 4
+- print:
+  - 禊
+  - ……那個……嗯……
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_cloth_move_normal_03
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002003_064
+- face:
+  - 103611
+  - 2
+- print:
+  - 鏡華
+  - 好了，這樣就沒問題了。　
+- wait:
+  - 60
+- print:
+  - 鏡華
+  - >2-
+
+    藥草的話，應該走進前面的迷宮就有了吧。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5002003_065
+- face:
+  - 100411
+  - 1
+- print:
+  - 禊
+  - ……嗯，嗯！嘿嘿嘿……好！
+- wait:
+  - 60
+- print:
+  - 禊
+  - >2-
+
+    我們走吧鏡華、哥哥！目標藥草，Let's GO！
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- print:
+  - 旁白
+  - >-
+    三個人為了取得藥草，
+
+    朝著迷宮走了進去。
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

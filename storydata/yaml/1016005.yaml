@@ -1,0 +1,1470 @@
+- title:
+  - 鈴奈 第5話
+- outline:
+  - 因為鈴奈算錯數字導致{0}的錢不夠用。兩人為了增加金錢而進去賭場。因為好像能靠鈴奈的好運大賺一筆，但最後全都輸光了。
+- background:
+  - 500010
+- amb:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 賭場泡沫
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 那是在{0}買東西的時候――
+- touch: &o0 []
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- chara_full:
+  - 101611
+  - LC
+  - 6
+- change:
+  - C
+  - LC
+- fadein:
+  - 101611
+  - 30
+- focus:
+  - 101611
+- emotion:
+  - notice1_L
+  - 101611
+  - -65
+  - 525
+  - se_adv_emote_common_01
+- wait:
+  - 15
+- bgm:
+  - bgm_M05
+  - 0
+  - 0
+  - 1
+- window_visible:
+  - true
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 0
+- vo:
+  - vo_adv_1016005_000
+- face:
+  - 101611
+  - 6
+- print:
+  - 鈴奈
+  - 啊，是秀才！
+- wait:
+  - 45
+- print:
+  - 鈴奈
+  - >2
+
+- face:
+  - 101611
+  - 2
+- print:
+  - 鈴奈
+  - 哈嚕～
+- wait:
+  - 30
+- print:
+  - 鈴奈
+  - >2
+
+- face:
+  - 101611
+  - 1
+- print:
+  - 鈴奈
+  - 在做什麼呢？
+- touch: *o0
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 0
+- vo:
+  - vo_adv_1016005_001
+- face:
+  - 101611
+  - 6
+- print:
+  - 鈴奈
+  - 在買東西嗎？
+- wait:
+  - 30
+- print:
+  - 鈴奈
+  - >2
+
+- face:
+  - 101611
+  - 1
+- print:
+  - 鈴奈
+  - 啊，原來是幫別人跑腿呀。
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 0
+- vo:
+  - vo_adv_1016005_002
+- face:
+  - 101611
+  - 1
+- print:
+  - 鈴奈
+  - 看你在這邊東張西望，怎麼了嗎？
+- wait:
+  - 30
+- print:
+  - 鈴奈
+  - >2
+
+- face:
+  - 101611
+  - 6
+- print:
+  - 鈴奈
+  - ……不知道店在哪裡嗎？
+- touch: *o0
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 0
+- vo:
+  - vo_adv_1016005_003
+- face:
+  - 101611
+  - 1
+- print:
+  - 鈴奈
+  - 原來如此。
+- wait:
+  - 10
+- print:
+  - 鈴奈
+  - >2
+
+- face:
+  - 101611
+  - 2
+- print:
+  - 鈴奈
+  - 那麼人家來幫你吧。
+- wait:
+  - 40
+- print:
+  - 鈴奈
+  - >2
+
+- face:
+  - 101611
+  - 1
+- print:
+  - 鈴奈
+  - 首先要去哪裡呢？
+- touch: *o0
+- window_visible:
+  - FALSE
+- face:
+  - 101611
+  - 6
+- nod:
+  - 101611
+- nod:
+  - 101611
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 0
+- vo:
+  - vo_adv_1016005_004
+- face:
+  - 101611
+  - 6
+- emotion:
+  - notice1_L
+  - 101611
+  - -65
+  - 525
+  - se_adv_emote_common_01
+- print:
+  - 鈴奈
+  - 水果攤？
+- wait:
+  - 30
+- print:
+  - 鈴奈
+  - >2
+
+- face:
+  - 101611
+  - 2
+- print:
+  - 鈴奈
+  - 水果攤的話，不就在那邊嗎。
+- wait:
+  - 45
+- print:
+  - 鈴奈
+  - >2-
+
+    簡單～簡單～
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 4
+  - 1
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - RC
+  - C
+- fadeout:
+  - 101611
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 500030
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- chara_full:
+  - 101611
+  - LC
+  - 1
+- change:
+  - C
+  - LC
+- fadein:
+  - 101611
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M04_03NoIntro02
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 0
+- vo:
+  - vo_adv_1016005_005
+- face:
+  - 101611
+  - 1
+- print:
+  - 鈴奈
+  - 看，就是這裡喔。
+- wait:
+  - 40
+- print:
+  - 鈴奈
+  - >2-
+
+    要買什麼？
+- wait:
+  - 30
+- print:
+  - 鈴奈
+  - >2
+
+- face:
+  - 101611
+  - 6
+- print:
+  - 鈴奈
+  - 蘋果 3 個？
+- face:
+  - 101611
+  - 4
+- print:
+  - 鈴奈
+  - ' 咦，不覺得有點少嗎？'
+- wait:
+  - 55
+- touch: *o0
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 0
+- vo:
+  - vo_adv_1016005_006
+- face:
+  - 101611
+  - 1
+- print:
+  - 鈴奈
+  - 你看嘛，一個 70 盧幣對吧？
+- wait:
+  - 75
+- print:
+  - 鈴奈
+  - >2
+
+- face:
+  - 101611
+  - 4
+- print:
+  - 鈴奈
+  - 這麼便宜，多買一些不好嗎？
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 0
+- vo:
+  - vo_adv_1016005_007
+- face:
+  - 101611
+  - 3
+- print:
+  - 鈴奈
+  - 呃，最大的是 9……
+- wait:
+  - 75
+- print:
+  - 鈴奈
+  - >2-
+
+    因為 7x9=46，
+- wait:
+  - 45
+- print:
+  - 鈴奈
+  - >2
+
+- face:
+  - 101611
+  - 2
+- print:
+  - 鈴奈
+  - 所以買 9 個也才 460 盧幣喔！
+- wait:
+  - 15
+- touch: *o0
+- choice:
+  - 咦？好像算錯了？
+  - 1
+- choice:
+  - 確實很便宜。
+  - 2
+- tag:
+  - 1
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 0
+- vo:
+  - vo_adv_1016005_008
+- face:
+  - 101611
+  - 3
+- print:
+  - 鈴奈
+  - 欸～，才沒那回事呢。
+- wait:
+  - 60
+- print:
+  - 鈴奈
+  - >2-
+
+    七九四十六……
+- face:
+  - 101611
+  - 2
+- print:
+  - 鈴奈
+  - 七九四六，
+- wait:
+  - 60
+- print:
+  - 鈴奈
+  - >2
+
+- face:
+  - 101611
+  - 1
+- print:
+  - 鈴奈
+  - 人家還記得！
+- touch: *o0
+- goto:
+  - 3
+- tag:
+  - 2
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 0
+- vo:
+  - vo_adv_1016005_009
+- face:
+  - 101611
+  - 2
+- emotion:
+  - twinkle1_R
+  - 101611
+  - -110
+  - 520
+  - se_adv_emote_twinkle_01
+- print:
+  - 鈴奈
+  - 對吧？
+- wait:
+  - 30
+- print:
+  - 鈴奈
+  - >2
+
+- face:
+  - 101611
+  - 1
+- print:
+  - 鈴奈
+  - 人家就說買多一點才划算嘛！
+- touch: *o0
+- tag:
+  - 3
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 0
+- vo:
+  - vo_adv_1016005_010
+- face:
+  - 101611
+  - 1
+- print:
+  - 鈴奈
+  - 那就買吧。
+- wait:
+  - 45
+- print:
+  - 鈴奈
+  - >2
+
+- pop:
+  - 101611
+- print:
+  - 鈴奈
+  - 不好意～思，請給人家 9 個蘋～果！
+- wait:
+  - 10
+- touch: *o0
+- fadeout:
+  - 101611
+  - 30
+- change:
+  - RC
+  - C
+- wait:
+  - 15
+- chara_full:
+  - 101611
+  - LC
+  - 1
+- chara_full:
+  - 1411
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1016005_011
+- face:
+  - 1411
+  - 1
+- print:
+  - 店長
+  - 好的好的，蘋果 9 個對吧。
+- wait:
+  - 60
+- print:
+  - 店長
+  - >2-
+
+    總共 630 盧幣。
+- touch: *o0
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 0
+- vo:
+  - vo_adv_1016005_012
+- face:
+  - 101611
+  - 6
+- jump:
+  - 101611
+- print:
+  - 鈴奈
+  - 騙人！？
+- wait:
+  - 10
+- print:
+  - 鈴奈
+  - >2
+
+- face:
+  - 101611
+  - 4
+- print:
+  - 鈴奈
+  - 630……真的假的！？
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1016005_013
+- face:
+  - 1411
+  - 1
+- print:
+  - 店長
+  - 來，這是找零。
+- wait:
+  - 40
+- print:
+  - 店長
+  - >2
+
+- face:
+  - 1411
+  - 2
+- print:
+  - 店長
+  - 多謝惠顧～
+- touch: *o0
+- fadeout:
+  - 1411
+  - 30
+- change:
+  - C
+  - LC
+- wait:
+  - 15
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 0
+- vo:
+  - vo_adv_1016005_014
+- face:
+  - 101611
+  - 4
+- emotion:
+  - drop1_R
+  - 101611
+  - 85
+  - 650
+  - se_adv_emote_drop_01
+- print:
+  - 鈴奈
+  - …………抱歉。
+- wait:
+  - 45
+- print:
+  - 鈴奈
+  - >2-
+
+    人家算錯了……
+- wait:
+  - 75
+- print:
+  - 鈴奈
+  - >2-
+
+    九九乘法的七的部分不太會背。
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 101611
+  - 6
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 0
+- vo:
+  - vo_adv_1016005_015
+- face:
+  - 101611
+  - 6
+- print:
+  - 鈴奈
+  - ……你願意原諒人家啊？
+- wait:
+  - 45
+- print:
+  - 鈴奈
+  - >2
+
+- face:
+  - 101611
+  - 5
+- print:
+  - 鈴奈
+  - 秀才真的超溫柔。
+- wait:
+  - 75
+- print:
+  - 鈴奈
+  - >2
+
+- face:
+  - 101611
+  - 4
+- print:
+  - 鈴奈
+  - 可是錢還夠嗎？ 還有東西要買吧？
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 0
+- vo:
+  - vo_adv_1016005_016
+- face:
+  - 101611
+  - 6
+- print:
+  - 鈴奈
+  - 錢不夠買剩下的東西……？
+- wait:
+  - 10
+- print:
+  - 鈴奈
+  - >2
+
+- face:
+  - 101611
+  - 4
+- print:
+  - 鈴奈
+  - 這樣啊……嗯～，該怎麼辦？
+- wait:
+  - 75
+- touch: *o0
+- fadeout:
+  - 101611
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 311
+  - C
+  - 1
+- fadein:
+  - 311
+  - 30
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1016005_017
+- face:
+  - 311
+  - 1
+- print:
+  - 招客
+  - 我們是本日新開幕的賭場！
+- wait:
+  - 55
+- print:
+  - 招客
+  - >2
+
+- face:
+  - 311
+  - 2
+- print:
+  - 招客
+  - 歡迎大家來試試手氣！！
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 311
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 101611
+  - C
+  - 6
+- fadein:
+  - 101611
+  - 30
+- emotion:
+  - notice2_L
+  - 101611
+  - -100
+  - 560
+  - se_adv_emote_nortice_01
+- pop:
+  - 101611
+- wait:
+  - 5
+- window_visible:
+  - TRUE
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 0
+- vo:
+  - vo_adv_1016005_018
+- face:
+  - 101611
+  - 6
+- print:
+  - 鈴奈
+  - 啊～！
+- wait:
+  - 30
+- print:
+  - 鈴奈
+  - >2-
+
+    秀才，就是那個，那個！
+- wait:
+  - 40
+- print:
+  - 鈴奈
+  - >2
+
+- face:
+  - 101611
+  - 1
+- print:
+  - 鈴奈
+  - 盧幣不夠的話，只要讓它變多就好了！
+- wait:
+  - 30
+- touch: *o0
+- choice:
+  - 走吧！
+  - 4
+- choice:
+  - 不，可是……
+  - 5
+- tag:
+  - 4
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 0
+- vo:
+  - vo_adv_1016005_019
+- face:
+  - 101611
+  - 2
+- pop:
+  - 101611
+- print:
+  - 鈴奈
+  - 我就知道秀才一定會贊成！
+- wait:
+  - 45
+- print:
+  - 鈴奈
+  - >2
+
+- face:
+  - 101611
+  - 1
+- print:
+  - 鈴奈
+  - 就這麼決定囉！
+- touch: *o0
+- goto:
+  - 6
+- tag:
+  - 5
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 0
+- vo:
+  - vo_adv_1016005_020
+- face:
+  - 101611
+  - 2
+- print:
+  - 鈴奈
+  - 安～啦，安～啦！
+- wait:
+  - 40
+- print:
+  - 鈴奈
+  - >2
+
+- face:
+  - 101611
+  - 1
+- print:
+  - 鈴奈
+  - 我們一起的話，一定會有辦法的！
+- wait:
+  - 15
+- touch: *o0
+- tag:
+  - 6
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 0
+- vo:
+  - vo_adv_1016005_021
+- face:
+  - 101611
+  - 2
+- print:
+  - 鈴奈
+  - 就是這樣，
+- wait:
+  - 30
+- print:
+  - 鈴奈
+  - >2-
+
+    趕快朝賭場出～發吧！
+- wait:
+  - 15
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+- se:
+  - se_adv_step_concrete_walk_go_01
+- window_visible:
+  - false
+- change:
+  - RC
+  - C
+- fadeout:
+  - 101611
+  - 30
+- wait:
+  - 15
+- white_out:
+  - 1
+  - 0.5
+- amb_stop:
+  - 1
+- still:
+  - 101600501
+  - 1
+  - 500
+- wait:
+  - 15
+- effect:
+  - 22
+  - se_adv_happy_particle_01
+- bgm:
+  - bgm_M15_02_NoIntro
+  - 0
+  - 0
+  - 1
+- white_in: *o0
+- amb:
+  - amb_adv_gaya_cmn_01
+- se:
+  - se_adv_gaya_surprised_02
+- window_visible:
+  - true
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 1
+- vo:
+  - vo_adv_1016005_022
+- face:
+  - 101611
+  - 2
+- print:
+  - 鈴奈
+  - 太好了～！
+- wait:
+  - 45
+- print:
+  - 鈴奈
+  - >2-
+
+    又中了大獎～！
+- wait:
+  - 60
+- print:
+  - 鈴奈
+  - >2
+
+- face:
+  - 101611
+  - 5
+- print:
+  - 鈴奈
+  - 人家今天簡直有如神助！
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 1
+- vo:
+  - vo_adv_1016005_023
+- face:
+  - 101611
+  - 2
+- print:
+  - 鈴奈
+  - 秀才也高興一點嘛～！
+- wait:
+  - 10
+- print:
+  - 鈴奈
+  - >2-
+
+    大賺了一筆喔！
+- touch: *o0
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 1
+- vo:
+  - vo_adv_1016005_024
+- face:
+  - 101611
+  - 1
+- print:
+  - 鈴奈
+  - 雖然不太明白，不過賭場還真簡單呢？
+- wait:
+  - 60
+- print:
+  - 鈴奈
+  - >2
+
+- face:
+  - 101611
+  - 2
+- print:
+  - 鈴奈
+  - 隨便下注個數字，就不斷中獎！
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 1
+- vo:
+  - vo_adv_1016005_025
+- face:
+  - 101611
+  - 2
+- print:
+  - 鈴奈
+  - 喂喂喂，秀才！
+- wait:
+  - 25
+- print:
+  - 鈴奈
+  - >2
+
+- face:
+  - 101611
+  - 1
+- print:
+  - 鈴奈
+  - 機會難得，就多賺一些錢吧！
+- wait:
+  - 15
+- touch: *o0
+- choice:
+  - 好，來試試看吧。
+  - 7
+- choice:
+  - 差不多見好就收比較保險……
+  - 8
+- tag:
+  - 7
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 1
+- vo:
+  - vo_adv_1016005_026
+- face:
+  - 101611
+  - 2
+- print:
+  - 鈴奈
+  - 看你一副躍躍欲試呢！
+- wait:
+  - 30
+- print:
+  - 鈴奈
+  - >2-
+
+    就用這股氣勢中獎吧～！
+- wait:
+  - 30
+- touch: *o0
+- goto:
+  - 9
+- tag:
+  - 8
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 1
+- vo:
+  - vo_adv_1016005_027
+- face:
+  - 101611
+  - 3
+- print:
+  - 鈴奈
+  - 膽怯可不好喔。
+- wait:
+  - 45
+- print:
+  - 鈴奈
+  - >2
+
+- face:
+  - 101611
+  - 2
+- print:
+  - 鈴奈
+  - 放手一搏吧～！
+- touch: *o0
+- tag:
+  - 9
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 1
+- vo:
+  - vo_adv_1016005_028
+- face:
+  - 101611
+  - 1
+- print:
+  - 鈴奈
+  - 那麼接下來全部押在黑 4 上面喔。
+- wait:
+  - 70
+- print:
+  - 鈴奈
+  - >2-
+
+    因為人家是 4 月出生。
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_bet_coin_slide_01
+- still_move:
+  - 0
+  - -400
+- wait:
+  - 15
+- se:
+  - se_adv_roulette_spin_01
+- window_visible:
+  - true
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 1
+- vo:
+  - vo_adv_1016005_029
+- face:
+  - 101611
+  - 6
+- print:
+  - 鈴奈
+  - 啊，輪盤轉了！
+- wait:
+  - 20
+- print:
+  - 鈴奈
+  - >2
+
+- face:
+  - 101611
+  - 3
+- print:
+  - 鈴奈
+  - ４來吧！ ４來吧！ ４來吧！
+- wait:
+  - 20
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 3
+  - 1
+- se:
+  - se_adv_roulette_stop_01
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 22
+  - 30
+- still:
+  - end
+- background:
+  - 500032
+- wait:
+  - 15
+- white_in: *o0
+- amb_stop:
+  - 1
+- amb:
+  - amb_adv_outdoors_night_02
+- chara_full:
+  - 101611
+  - C
+  - 4
+- fadein:
+  - 101611
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M52
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 0
+- vo:
+  - vo_adv_1016005_030
+- face:
+  - 101611
+  - 4
+- eye_open:
+  - FALSE
+- emotion:
+  - drop1_R
+  - 101611
+  - 85
+  - 650
+  - se_adv_emote_drop_01
+- print:
+  - 鈴奈
+  - ……抱歉。
+- wait:
+  - 30
+- print:
+  - 鈴奈
+  - >2
+
+- eye_open:
+  - TRUE
+- print:
+  - 鈴奈
+  - 在最後的最後失手了……
+- touch: *o0
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 0
+- vo:
+  - vo_adv_1016005_031
+- face:
+  - 101611
+  - 4
+- print:
+  - 鈴奈
+  - 籌碼全部沒了，
+- wait:
+  - 60
+- print:
+  - 鈴奈
+  - >2-
+
+    這樣也不能買東西了……
+- wait:
+  - 60
+- print:
+  - 鈴奈
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 鈴奈
+  - 如果人家沒有貪心的話……
+- touch: *o0
+- choice:
+  - 可是我玩得很開心。
+  - 10
+- tag:
+  - 10
+- effect:
+  - 0046
+  - se_adv_happy_particle_01
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 0
+- vo:
+  - vo_adv_1016005_032
+- face:
+  - 101611
+  - 6
+- eye_open:
+  - TRUE
+- print:
+  - 鈴奈
+  - 真的？
+- wait:
+  - 10
+- print:
+  - 鈴奈
+  - >2
+
+- face:
+  - 101611
+  - 5
+- pop:
+  - 101611
+- print:
+  - 鈴奈
+  - 人家也玩得超開心喔！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 0
+- vo:
+  - vo_adv_1016005_033
+- face:
+  - 101611
+  - 1
+- print:
+  - 鈴奈
+  - 雖然中大獎也很開心，
+- wait:
+  - 10
+- print:
+  - 鈴奈
+  - >2-
+
+    但最後竟然失手了……
+- wait:
+  - 10
+- print:
+  - 鈴奈
+  - >2
+
+- face:
+  - 101611
+  - 2
+- print:
+  - 鈴奈
+  - 啊哈哈！ 超好笑～
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 0
+- vo:
+  - vo_adv_1016005_034
+- face:
+  - 101611
+  - 4
+- print:
+  - 鈴奈
+  - 啊～，可是怎麼辦？
+- wait:
+  - 55
+- print:
+  - 鈴奈
+  - >2-
+
+    已經沒辦法再繼續買東西了對吧？
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 0
+- vo:
+  - vo_adv_1016005_035
+- face:
+  - 101611
+  - 6
+- print:
+  - 鈴奈
+  - 咦？ 只要退貨就可以了？
+- wait:
+  - 55
+- print:
+  - 鈴奈
+  - >2
+
+- face:
+  - 101611
+  - 1
+- print:
+  - 鈴奈
+  - 啊，原來如此。只要把蘋果退還給水果攤就好了嘛！
+- wait:
+  - 45
+- print:
+  - 鈴奈
+  - >2
+
+- face:
+  - 101611
+  - 2
+- print:
+  - 鈴奈
+  - 不愧是秀才，真聰明～！
+- wait:
+  - 30
+- touch: *o0
+- effect_delete:
+  - 0046
+  - 30
+- fadeout:
+  - 101611
+  - 30
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    兩人邊向老闆道歉邊退貨，
+
+    總算買完了東西。
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

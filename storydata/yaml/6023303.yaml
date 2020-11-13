@@ -1,0 +1,287 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500750
+- amb:
+  - amb_adv_room_noise_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 關於克蘿依
+- chara_full:
+  - 111011
+  - C
+  - 6
+- fadein:
+  - 111011
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M255_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_6023303_000
+- face:
+  - 111011
+  - 6
+- emotion:
+  - question1_R
+  - 111011
+  - 130
+  - 425
+  - se_adv_emote_question_01
+- print:
+  - 優妮
+  - 克蘿依嗎？　
+- wait:
+  - 50
+- print:
+  - 優妮
+  - 她說今天要打工，已經回去囉。
+- wait:
+  - 70
+- print:
+  - 優妮
+  - >2
+
+- face:
+  - 111011
+  - 1
+- print:
+  - 優妮
+  - 她有點工作狂的傾向，
+- wait:
+  - 35
+- print:
+  - 優妮
+  - 說擔心也是蠻擔心的。
+- wait:
+  - 65
+- print:
+  - 優妮
+  - >2
+
+- face:
+  - 111011
+  - 6
+- print:
+  - 優妮
+  - 我說你啊，
+- wait:
+  - 30
+- print:
+  - 優妮
+  - 你對克蘿依的印象如何呢？
+- touch: &o0 []
+- choice:
+  - 很強悍。
+  - 1
+  - 1
+- choice:
+  - 很溫柔。
+  - 2
+  - 2
+- choice:
+  - 很可怕。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_6023303_001
+- face:
+  - 111011
+  - 1
+- nod:
+  - 111011
+- print:
+  - 優妮
+  - 嗯，
+- wait:
+  - 30
+- print:
+  - 優妮
+  - 她的身心都極其強韌。
+- wait:
+  - 65
+- face:
+  - 111011
+  - 6
+- print:
+  - 優妮
+  - 究竟是為什麼呢？
+- wait:
+  - 40
+- print:
+  - 優妮
+  - >2
+
+- face:
+  - 111011
+  - 1
+- print:
+  - 優妮
+  - 她對於自己的私事
+- wait:
+  - 35
+- print:
+  - 優妮
+  - 都不怎麼多提，
+- wait:
+  - 40
+- print:
+  - 優妮
+  - >2-
+
+    不過一定是有什麼原因讓她變成這樣的吧。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_6023303_002
+- face:
+  - 111011
+  - 1
+- print:
+  - 優妮
+  - 可能也是身為長女的關係，
+- wait:
+  - 50
+- face:
+  - 111011
+  - 2
+- print:
+  - 優妮
+  - 別看她那樣，她很會照顧人呢。
+- wait:
+  - 75
+- print:
+  - 優妮
+  - >2-
+
+    她家裡面歲數差很多的年幼弟弟們
+- wait:
+  - 50
+- print:
+  - 優妮
+  - 好像有三個。
+- wait:
+  - 55
+- print:
+  - 優妮
+  - >2
+
+- nod:
+  - 111011
+- print:
+  - 優妮
+  - 我想她大概把你
+- wait:
+  - 30
+- print:
+  - 優妮
+  - 當成她第四個弟弟了吧。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_6023303_003
+- face:
+  - 111011
+  - 4
+- print:
+  - 優妮
+  - 正是。
+- wait:
+  - 45
+- print:
+  - 優妮
+  - 她就像是進食後的肉食動物。
+- wait:
+  - 70
+- print:
+  - 優妮
+  - >2
+
+- face:
+  - 111011
+  - 1
+- print:
+  - 優妮
+  - 對我們的玩笑話，
+- wait:
+  - 40
+- print:
+  - 優妮
+  - 她平時就像是用尾巴趕蒼蠅那樣，
+- wait:
+  - 70
+- print:
+  - 優妮
+  - >2
+
+- face:
+  - 111011
+  - 6
+- print:
+  - 優妮
+  - 不過要是真的惹她生氣的話……
+- wait:
+  - 80
+- face:
+  - 111011
+  - 4
+- print:
+  - 優妮
+  - 唔哇哇哇哇太可怕了……
+- shake:
+  - 111011
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 111011
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

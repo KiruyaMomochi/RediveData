@@ -1,0 +1,2219 @@
+- title:
+  - 栞（魔法少女） 第4話
+- outline:
+  - 栞跟{0}來到了遊樂園約會，栞卻因為比往常還要興奮而身體不適暈倒了。煩惱著自己是否命中注定無法變得有活力時，便被他安慰了可以之後再次前來遊樂園。
+- background:
+  - 500010
+- amb:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 夢想中的我，我心中的理想
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 蘭德索爾街上明顯地不再出現魔物之後的某日。
+- wait:
+  - 30
+- print:
+  - 旁白
+  - >2-
+
+    兩人約好要一起出門，但是栞……
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 103811
+  - C
+  - 1
+- fadein:
+  - 103811
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M317
+  - 0
+  - 0
+  - 1
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_1123004_000
+- face:
+  - 103811
+  - 1
+- print:
+  - 栞
+  - 那個……
+- wait:
+  - 25
+- print:
+  - 栞
+  - 可以
+- wait:
+  - 5
+- print:
+  - 栞
+  - 說一些有點任性的話嗎？
+- touch: *o0
+- choice:
+  - 突然間怎麼了嗎？
+  - 1
+- tag:
+  - 1
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_1123004_001
+- face:
+  - 103811
+  - 2
+- nod:
+  - 103811
+- print:
+  - 栞
+  - 今天呢，
+- wait:
+  - 20
+- print:
+  - 栞
+  - 那個，
+- wait:
+  - 25
+- print:
+  - 栞
+  - 想要活動一下身體呢。
+- wait:
+  - 55
+- print:
+  - 栞
+  - >2-
+
+    去休閒樂園之類的，
+- wait:
+  - 30
+- print:
+  - 栞
+  - 或是運動公園……
+- touch: *o0
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_1123004_002
+- face:
+  - 103811
+  - 1
+- print:
+  - 栞
+  - 我不會勉強你一定要陪我一起去……
+- wait:
+  - 45
+- print:
+  - 栞
+  - >2-
+
+    只是平常
+- wait:
+  - 25
+- print:
+  - 栞
+  - 都不會去那些地方，
+- wait:
+  - 40
+- print:
+  - 栞
+  - 所以覺得偶爾去去看也不錯呢。
+- wait:
+  - 50
+- print:
+  - 栞
+  - >2
+
+- face:
+  - 103811
+  - 4
+- print:
+  - 栞
+  - 不可以……
+- wait:
+  - 20
+- print:
+  - 栞
+  - 嗎？
+- touch: *o0
+- choice:
+  - 就這麼辦。
+  - 2
+- choice:
+  - 雖然有點擔心，但好吧。
+  - 3
+- tag:
+  - 2
+- tag:
+  - 3
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_1123004_003
+- face:
+  - 103811
+  - 2
+- print:
+  - 栞
+  - 真的嗎？
+- wait:
+  - 35
+- print:
+  - 栞
+  - >2
+
+- emotion:
+  - note1_L
+  - 103811
+  - -90
+  - 490
+  - se_adv_emote_note_01
+- print:
+  - 栞
+  - 欸嘿嘿，
+- wait:
+  - 30
+- print:
+  - 栞
+  - 謝謝你。
+- touch: *o0
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_1123004_004
+- face:
+  - 103811
+  - 2
+- print:
+  - 栞
+  - 那麼就
+- wait:
+  - 25
+- print:
+  - 栞
+  - 出發——
+- touch: *o0
+- effect:
+  - 0005
+  - se_adv_holylight_01
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_1123004_005
+- face:
+  - 103811
+  - 6
+- print:
+  - 栞
+  - 這是什麼，
+- wait:
+  - 25
+- print:
+  - 栞
+  - 這光芒是…………
+- wait:
+  - 45
+- face:
+  - 103811
+  - 4
+- print:
+  - 栞
+  - 呀啊！？
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
+- window_visible:
+  - FALSE
+- fadeout:
+  - 103811
+  - 30
+- effect:
+  - 0006
+  - se_adv_whiteout_01
+- white_out:
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- insert: *o0
+- bg_color:
+  - 255
+  - 255
+  - 255
+- effect_delete:
+  - 0005
+- effect_delete:
+  - 0006
+- background:
+  - 510320
+- wait:
+  - 30
+- white_in: *o0
+- amb:
+  - amb_adv_themepark_01
+- wait:
+  - 30
+- chara_full:
+  - 103831
+  - C
+  - 2
+- fadein:
+  - 103831
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M75
+- focus:
+  - 103831
+- bust:
+  - 103831
+  - 0
+- vo:
+  - vo_adv_1123004_006
+- face:
+  - 103831
+  - 2
+- emotion:
+  - note1_L
+  - 103831
+  - -90
+  - 535
+  - se_adv_emote_note_01
+- print:
+  - 栞
+  - '{0}，這邊——！'
+- touch: *o0
+- choice:
+  - 今天特別有活力呢。
+  - 4
+- tag:
+  - 4
+- focus:
+  - 103831
+- bust:
+  - 103831
+  - 0
+- vo:
+  - vo_adv_1123004_007
+- face:
+  - 103831
+  - 6
+- print:
+  - 栞
+  - 是嗎？
+- wait:
+  - 45
+- print:
+  - 栞
+  - >2-
+
+    我覺得跟往常一樣呢。
+- touch: *o0
+- choice:
+  - 這麼興奮沒問題嗎？
+  - 5
+- tag:
+  - 5
+- focus:
+  - 103831
+- bust:
+  - 103831
+  - 0
+- vo:
+  - vo_adv_1123004_008
+- face:
+  - 103831
+  - 2
+- nod:
+  - 103831
+- print:
+  - 栞
+  - 請不用擔心我。
+- wait:
+  - 50
+- print:
+  - 栞
+  - >2-
+
+    就算是我
+- wait:
+  - 35
+- print:
+  - 栞
+  - 也不會一直都
+- wait:
+  - 40
+- print:
+  - 栞
+  - 那麼虛弱的。
+- touch: *o0
+- focus:
+  - 103831
+- bust:
+  - 103831
+  - 0
+- vo:
+  - vo_adv_1123004_009
+- face:
+  - 103831
+  - 6
+- emotion:
+  - exclamation1_R
+  - 103831
+  - -15
+  - 645
+  - se_adv_emote_common_01
+- print:
+  - 栞
+  - 啊，
+- wait:
+  - 20
+- print:
+  - 栞
+  - 你看一下。
+- wait:
+  - 35
+- print:
+  - 栞
+  - 你看，
+- wait:
+  - 30
+- print:
+  - 栞
+  - 那個在旋轉的東西。
+- wait:
+  - 55
+- print:
+  - 栞
+  - >2-
+
+    那是
+- wait:
+  - 30
+- print:
+  - 栞
+  - 什麼樣的遊樂設施呢？
+- wait:
+  - 55
+- print:
+  - 栞
+  - >2
+
+- face:
+  - 103831
+  - 2
+- print:
+  - 栞
+  - 好，
+- wait:
+  - 30
+- print:
+  - 栞
+  - 我們去坐坐看吧！
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+- window_visible:
+  - false
+- fadeout:
+  - 103831
+  - 30
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 30
+- black_in: *o0
+- amb:
+  - amb_adv_themepark_01
+- chara_full:
+  - 103831
+  - C
+  - 6
+- fadein:
+  - 103831
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M72
+  - 0
+  - 0
+  - 1
+- focus:
+  - 103831
+- bust:
+  - 103831
+  - 0
+- vo:
+  - vo_adv_1123004_010
+- face:
+  - 103831
+  - 6
+- print:
+  - 栞
+  - 呼……
+- wait:
+  - 40
+- print:
+  - 栞
+  - >2-
+
+    離心鞦韆
+- wait:
+  - 40
+- print:
+  - 栞
+  - 的速度原來這麼快啊。
+- wait:
+  - 55
+- print:
+  - 栞
+  - >2-
+
+    用看的跟實際去坐的感覺
+- wait:
+  - 35
+- print:
+  - 栞
+  - 差很多呢。
+- touch: *o0
+- focus:
+  - 103831
+- bust:
+  - 103831
+  - 0
+- vo:
+  - vo_adv_1123004_011
+- face:
+  - 103831
+  - 4
+- nod:
+  - 103831
+- print:
+  - 栞
+  - 咳咳、
+- wait:
+  - 20
+- print:
+  - 栞
+  - 咳咳……
+- touch: *o0
+- choice:
+  - 沒事嗎？
+  - 6
+- tag:
+  - 6
+- focus:
+  - 103831
+- bust:
+  - 103831
+  - 0
+- vo:
+  - vo_adv_1123004_012
+- face:
+  - 103831
+  - 4
+- print:
+  - 栞
+  - 沒事的。
+- wait:
+  - 45
+- print:
+  - 栞
+  - >2
+
+- face:
+  - 103831
+  - 2
+- print:
+  - 栞
+  - ……欸嘿嘿，
+- wait:
+  - 30
+- print:
+  - 栞
+  - 有點
+- wait:
+  - 15
+- print:
+  - 栞
+  - 嚇到了呢。
+- touch: *o0
+- focus:
+  - 103831
+- bust:
+  - 103831
+  - 0
+- vo:
+  - vo_adv_1123004_013
+- face:
+  - 103831
+  - 2
+- emotion:
+  - notice1_L
+  - 103831
+  - -80
+  - 545
+  - se_adv_emote_common_01
+- print:
+  - 栞
+  - 啊，
+- wait:
+  - 25
+- print:
+  - 栞
+  - 你看
+- wait:
+  - 30
+- print:
+  - 栞
+  - 那個。
+- wait:
+  - 35
+- print:
+  - 栞
+  - >2-
+
+    寫著「完全變身專區」
+- wait:
+  - 35
+- print:
+  - 栞
+  - 呢……
+- touch: *o0
+- focus:
+  - 103831
+- bust:
+  - 103831
+  - 0
+- vo:
+  - vo_adv_1123004_014
+- face:
+  - 103831
+  - 2
+- nod:
+  - 103831
+- print:
+  - 栞
+  - 你看，
+- wait:
+  - 25
+- print:
+  - 栞
+  - 租借服裝
+- wait:
+  - 30
+- print:
+  - 栞
+  - 真多呢。
+- wait:
+  - 45
+- print:
+  - 栞
+  - 好像有很多的東西呢。
+- wait:
+  - 60
+- print:
+  - 栞
+  - >2-
+
+    很難得的機會呢，
+- wait:
+  - 30
+- print:
+  - 栞
+  - 要不要
+- wait:
+  - 25
+- print:
+  - 栞
+  - 去看看呢？
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
+- window_visible:
+  - false
+- fadeout:
+  - 103831
+  - 30
+- se:
+  - se_adv_cloth_move_normal_03
+- white_out:
+  - 1
+  - 1
+- bg_color:
+  - 255
+  - 255
+  - 255
+- still:
+  - 112300401
+- wait:
+  - 30
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- white_in: *o0
+- window_visible:
+  - true
+- bgm:
+  - bgm_M316_03
+- focus:
+  - 103831
+- bust:
+  - 103831
+  - 1
+- vo:
+  - vo_adv_1123004_015
+- face:
+  - 103831
+  - 6
+- print:
+  - 栞
+  - …………
+- touch: *o0
+- focus:
+  - 103831
+- bust:
+  - 103831
+  - 1
+- vo:
+  - vo_adv_1123004_016
+- face:
+  - 103831
+  - 5
+- print:
+  - 栞
+  - 那個…………
+- wait:
+  - 35
+- print:
+  - 栞
+  - 怎麼樣
+- wait:
+  - 35
+- print:
+  - 栞
+  - 呢？
+- touch: *o0
+- choice:
+  - 非常適合妳喔。
+  - 7
+- choice:
+  - 就像真的魔法少女一樣呢。
+  - 8
+- tag:
+  - 7
+- tag:
+  - 8
+- focus:
+  - 103831
+- bust:
+  - 103831
+  - 1
+- vo:
+  - vo_adv_1123004_017
+- face:
+  - 103831
+  - 2
+- print:
+  - 栞
+  - 欸嘿嘿……
+- wait:
+  - 35
+- print:
+  - 栞
+  - 好開心。
+- touch: *o0
+- focus:
+  - 103831
+- bust:
+  - 103831
+  - 1
+- vo:
+  - vo_adv_1123004_018
+- face:
+  - 103831
+  - 2
+- print:
+  - 栞
+  - 這是魔法少女主題的服裝喔。
+- wait:
+  - 65
+- print:
+  - 栞
+  - >2-
+
+    一直很想
+- wait:
+  - 30
+- print:
+  - 栞
+  - 穿穿看
+- wait:
+  - 25
+- print:
+  - 栞
+  - 這種服裝呢。
+- touch: *o0
+- focus:
+  - 103831
+- bust:
+  - 103831
+  - 1
+- vo:
+  - vo_adv_1123004_019
+- face:
+  - 103831
+  - 2
+- print:
+  - 栞
+  - 瞄準
+- wait:
+  - 40
+- print:
+  - 栞
+  - 純真的心！
+- wait:
+  - 40
+- print:
+  - 栞
+  - >2-
+
+    魔法箭矢，
+- wait:
+  - 40
+- print:
+  - 栞
+  - 爆擊！
+- touch: *o0
+- focus:
+  - 103831
+- bust:
+  - 103831
+  - 1
+- vo:
+  - vo_adv_1123004_020
+- face:
+  - 103831
+  - 2
+- print:
+  - 栞
+  - ……什麼的，
+- wait:
+  - 45
+- print:
+  - 栞
+  - 欸嘿嘿。
+- wait:
+  - 45
+- print:
+  - 栞
+  - >2-
+
+    請你看看
+- wait:
+  - 35
+- print:
+  - 栞
+  - 這個，
+- wait:
+  - 35
+- print:
+  - 栞
+  - 連這種姿勢
+- wait:
+  - 40
+- print:
+  - 栞
+  - 也能擺出來喔。
+- touch: *o0
+- choice:
+  - 不要太拼命了喔。
+  - 9
+- tag:
+  - 9
+- focus:
+  - 103831
+- bust:
+  - 103831
+  - 1
+- vo:
+  - vo_adv_1123004_021
+- face:
+  - 103831
+  - 2
+- print:
+  - 栞
+  - 沒事的！
+- wait:
+  - 40
+- print:
+  - 栞
+  - >2-
+
+    我對今天的
+- wait:
+  - 30
+- print:
+  - 栞
+  - 體力
+- wait:
+  - 25
+- print:
+  - 栞
+  - 有自信——
+- touch: *o0
+- focus:
+  - 103831
+- bust:
+  - 103831
+  - 1
+- vo:
+  - vo_adv_1123004_022
+- face:
+  - 103831
+  - 6
+- print:
+  - 栞
+  - 咦，
+- wait:
+  - 40
+- print:
+  - 栞
+  - 奇怪……
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+- window_visible:
+  - false
+- effect_delete:
+  - 0022
+  - 30
+- se:
+  - se_adv_bodyfall_02
+- amb_stop:
+  - 1
+- white_out:
+  - 1
+  - 1
+- background:
+  - 510321
+- still:
+  - end
+- wait:
+  - 30
+- white_in: *o0
+- amb:
+  - amb_adv_themepark_01
+- chara_full:
+  - 103831
+  - C
+  - 4
+  - 1
+- fadein:
+  - 103831
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M34
+  - 0
+  - 0
+  - 1
+- focus:
+  - 103831
+- bust:
+  - 103831
+  - 0
+- vo:
+  - vo_adv_1123004_023
+- face:
+  - 103831
+  - 6
+- eye_open:
+  - TRUE
+- print:
+  - 栞
+  - 咦，
+- wait:
+  - 35
+- print:
+  - 栞
+  - 我…………？
+- touch: *o0
+- focus:
+  - 103831
+- bust:
+  - 103831
+  - 0
+- vo:
+  - vo_adv_1123004_024
+- face:
+  - 103831
+  - 4
+- print:
+  - 栞
+  - 這樣啊……
+- wait:
+  - 50
+- print:
+  - 栞
+  - 結果
+- wait:
+  - 30
+- print:
+  - 栞
+  - 我還是倒下了呢。
+- wait:
+  - 60
+- print:
+  - 栞
+  - >2
+
+- nod:
+  - 103831
+- print:
+  - 栞
+  - 對不起，
+- wait:
+  - 35
+- print:
+  - 栞
+  - 明明
+- wait:
+  - 20
+- print:
+  - 栞
+  - 你這麼擔心我……
+- touch: *o0
+- focus:
+  - 103831
+- bust:
+  - 103831
+  - 0
+- vo:
+  - vo_adv_1123004_025
+- face:
+  - 103831
+  - 1
+- print:
+  - 栞
+  - 自己也
+- wait:
+  - 35
+- print:
+  - 栞
+  - 覺得很不可思議呢，
+- wait:
+  - 45
+- print:
+  - 栞
+  - 今天一直
+- wait:
+  - 40
+- print:
+  - 栞
+  - 覺得自己身體沒問題。
+- wait:
+  - 45
+- print:
+  - 栞
+  - >2
+
+- face:
+  - 103831
+  - 4
+- print:
+  - 栞
+  - 總是
+- wait:
+  - 20
+- print:
+  - 栞
+  - 讓你一直擔心我，
+- wait:
+  - 60
+- print:
+  - 栞
+  - >2-
+
+    所以今天
+- wait:
+  - 25
+- print:
+  - 栞
+  - 想要好好努力一下
+- wait:
+  - 30
+- print:
+  - 栞
+  - 呢…………
+- wait:
+  - 30
+- eye_open:
+  - False
+- print:
+  - 栞
+  - 對不起。
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 103831
+- bust:
+  - 103831
+  - 0
+- vo:
+  - vo_adv_1123004_026
+- face:
+  - 103831
+  - 4
+- eye_open:
+  - TRUE
+- print:
+  - 栞
+  - 果然
+- wait:
+  - 35
+- print:
+  - 栞
+  - 我是……
+- wait:
+  - 45
+- print:
+  - 栞
+  - >2-
+
+    命中注定
+- wait:
+  - 25
+- print:
+  - 栞
+  - 沒辦法變得健康嗎……
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- face:
+  - 103831
+  - 6
+- window_visible:
+  - TRUE
+- se:
+  - se_adv_step_concrete_run_come_01
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1123004_027
+- face:
+  - 1
+  - 1
+- print:
+  - 女子
+  - 啊，
+- wait:
+  - 15
+- print:
+  - 女子
+  - 在這裡！
+- wait:
+  - 15
+- print:
+  - 女子
+  - >2-
+
+    你看，
+- wait:
+  - 15
+- print:
+  - 女子
+  - 是剛剛的姐姐！
+- touch: *o0
+- focus:
+  - 103831
+- bust:
+  - 103831
+  - 0
+- vo:
+  - vo_adv_1123004_028
+- face:
+  - 103831
+  - 6
+- emotion:
+  - question1_R
+  - 103831
+  - 85
+  - 505
+  - se_adv_emote_question_01
+- print:
+  - 栞
+  - 咦？
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1123004_029
+- face:
+  - 1
+  - 1
+- print:
+  - 男子
+  - 什麼嘛，
+- wait:
+  - 15
+- print:
+  - 男子
+  - 真不像樣，
+- wait:
+  - 30
+- print:
+  - 男子
+  - >2-
+
+    女人還真是虛弱啊。
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1123004_030
+- face:
+  - 1
+  - 1
+- print:
+  - 女子
+  - 魔法少女大姐姐，
+- wait:
+  - 20
+- print:
+  - 女子
+  - 妳還好嗎？
+- wait:
+  - 30
+- print:
+  - 女子
+  - >2-
+
+    妳被壞人打倒了嗎？
+- touch: *o0
+- focus:
+  - 103831
+- bust:
+  - 103831
+  - 0
+- vo:
+  - vo_adv_1123004_031
+- face:
+  - 103831
+  - 6
+- print:
+  - 栞
+  - 該不會……
+- wait:
+  - 35
+- print:
+  - 栞
+  - 你們剛剛
+- wait:
+  - 30
+- print:
+  - 栞
+  - 看到了？
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1123004_032
+- face:
+  - 1
+  - 1
+- print:
+  - 男子
+  - 呿，
+- wait:
+  - 25
+- print:
+  - 男子
+  - 剛剛還覺得
+- wait:
+  - 20
+- print:
+  - 男子
+  - 妳很酷呢。
+- wait:
+  - 45
+- print:
+  - 男子
+  - >2-
+
+    快點
+- wait:
+  - 30
+- print:
+  - 男子
+  - 好起來啦。
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1123004_033
+- face:
+  - 1
+  - 1
+- print:
+  - 女子
+  - 大姐姐
+- wait:
+  - 15
+- print:
+  - 女子
+  - 是遊樂園的人吧。
+- wait:
+  - 20
+- print:
+  - 女子
+  - >2-
+
+    純真之箭，
+- wait:
+  - 15
+- print:
+  - 女子
+  - 要再來表演喔。
+- touch: *o0
+- focus:
+  - 103831
+- bust:
+  - 103831
+  - 0
+- vo:
+  - vo_adv_1123004_034
+- face:
+  - 103831
+  - 4
+- print:
+  - 栞
+  - 那個、
+- wait:
+  - 40
+- print:
+  - 栞
+  - 這……
+- touch: *o0
+- choice:
+  - 恢復活力之後再過來吧。
+  - 10
+- tag:
+  - 10
+- focus:
+  - 103831
+- bust:
+  - 103831
+  - 0
+- vo:
+  - vo_adv_1123004_035
+- face:
+  - 103831
+  - 2
+- nod:
+  - 103831
+- print:
+  - 栞
+  - ……好的。
+- wait:
+  - 30
+- print:
+  - 栞
+  - >2-
+
+    還想要再跟{0}
+- wait:
+  - 40
+- print:
+  - 栞
+  - 一起來呢。
+- touch: *o0
+- focus:
+  - 103831
+- bust:
+  - 103831
+  - 0
+- vo:
+  - vo_adv_1123004_036
+- face:
+  - 103831
+  - 2
+- print:
+  - 栞
+  - 吶，
+- wait:
+  - 30
+- print:
+  - 栞
+  - 你們兩位。
+- wait:
+  - 45
+- print:
+  - 栞
+  - >2-
+
+    姐姐
+- wait:
+  - 30
+- print:
+  - 栞
+  - 一定會再次
+- wait:
+  - 35
+- print:
+  - 栞
+  - 變成魔法少女，
+- wait:
+  - 45
+- print:
+  - 栞
+  - 再回來的喔。
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
+- window_visible:
+  - FALSE
+- fadeout:
+  - 103831
+  - 30
+- effect:
+  - 0005
+  - se_adv_holylight_01
+- effect:
+  - 0006
+  - se_adv_whiteout_01
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0005
+- effect_delete:
+  - 0006
+- amb_stop:
+  - 1
+- background:
+  - 500270
+- wait:
+  - 15
+- effect:
+  - 0029
+- effect:
+  - 0026
+- effect:
+  - 0015
+  - se_adv_whiteout_02
+- white_in: *o0
+- amb:
+  - amb_adv_wind_01
+- bgm:
+  - bgm_M40
+- wait:
+  - 60
+- chara_full:
+  - 190011
+  - C
+  - 2
+- fadein:
+  - 190011
+  - 30
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1123004_037
+- face:
+  - 190011
+  - 2
+- print:
+  - 愛梅斯
+  - 好了——，
+- wait:
+  - 15
+- print:
+  - 愛梅斯
+  - 辛苦了。
+- wait:
+  - 30
+- print:
+  - 愛梅斯
+  - >2-
+
+    夢裡的感覺如何呢？
+- wait:
+  - 40
+- print:
+  - 愛梅斯
+  - >2
+
+- face:
+  - 190011
+  - 1
+- print:
+  - 愛梅斯
+  - 嗯，
+- wait:
+  - 5
+- print:
+  - 愛梅斯
+  - 反正醒來之後都會忘記，
+- wait:
+  - 30
+- print:
+  - 愛梅斯
+  - 應該也不需要太過在意就是了。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1123004_038
+- face:
+  - 190011
+  - 4
+- print:
+  - 愛梅斯
+  - 栞的
+- wait:
+  - 20
+- print:
+  - 愛梅斯
+  - 身體狀況總是不太好，
+- wait:
+  - 30
+- print:
+  - 愛梅斯
+  - 好像也一直對此很煩惱呢。
+- wait:
+  - 40
+- print:
+  - 愛梅斯
+  - >2
+
+- face:
+  - 190011
+  - 1
+- print:
+  - 愛梅斯
+  - 因為總是讓你擔心呢。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1123004_039
+- face:
+  - 190011
+  - 1
+- print:
+  - 愛梅斯
+  - 所以才會，太過拼命想要讓你看見充滿活力的樣子呢。
+- wait:
+  - 65
+- print:
+  - 愛梅斯
+  - >2
+
+- face:
+  - 190011
+  - 4
+- print:
+  - 愛梅斯
+  - 栞的這種個性，
+- wait:
+  - 20
+- print:
+  - 愛梅斯
+  - 該說是真的很堅強嗎。
+- wait:
+  - 40
+- print:
+  - 愛梅斯
+  - >2-
+
+    我想你應該也瞭解吧，
+- wait:
+  - 20
+- print:
+  - 愛梅斯
+  - 就原諒她吧。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1123004_040
+- face:
+  - 190011
+  - 2
+- print:
+  - 愛梅斯
+  - 這次大概就是這樣了。
+- wait:
+  - 30
+- print:
+  - 愛梅斯
+  - >2-
+
+    那麼，
+- wait:
+  - 15
+- print:
+  - 愛梅斯
+  - 再見啦。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 190011
+  - 30
+- bgm:
+  - stop
+  - 2.5
+- effect:
+  - 0006
+  - se_adv_whiteout_01
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0006
+- effect_delete:
+  - 0029
+- effect_delete:
+  - 0026
+- background:
+  - 500011
+- amb_stop:
+  - 1
+- wait:
+  - 30
+- white_in: *o0
+- vo_effect:
+  - 0
+- amb:
+  - amb_adv_town_day_01
+- wait:
+  - 30
+- chara_full:
+  - 103811
+  - C
+  - 4
+  - 1
+- fadein:
+  - 103811
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M318_03
+  - 0
+  - 0
+  - 1
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_1123004_041
+- face:
+  - 103811
+  - 4
+- print:
+  - 栞
+  - ……啊哈～
+- wait:
+  - 75
+- print:
+  - 栞
+  - >2
+
+- eye_open:
+  - TRUE
+- face:
+  - 103811
+  - 6
+- print:
+  - 栞
+  - 咦？　
+- wait:
+  - 40
+- print:
+  - 栞
+  - 為什麼我
+- wait:
+  - 30
+- print:
+  - 栞
+  - 會在這裡……
+- touch: *o0
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_1123004_042
+- face:
+  - 103811
+  - 6
+- emotion:
+  - exclamation1_R
+  - 103811
+  - 15
+  - 660
+  - se_adv_emote_common_01
+- print:
+  - 栞
+  - ……不好了，
+- wait:
+  - 30
+- print:
+  - 栞
+  - 都這種時間了！
+- wait:
+  - 20
+- print:
+  - 栞
+  - >2
+
+- face:
+  - 103811
+  - 4
+- print:
+  - 栞
+  - '{0}，請醒醒！'
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_1123004_043
+- face:
+  - 103811
+  - 4
+- print:
+  - 栞
+  - 想說難得可以一起出門……
+- wait:
+  - 65
+- print:
+  - 栞
+  - >2-
+
+    這樣子的話
+- wait:
+  - 20
+- print:
+  - 栞
+  - 就只是午睡約會而已啊。
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - TRUE
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_1123004_044
+- face:
+  - 103811
+  - 2
+- nod:
+  - 103811
+- print:
+  - 栞
+  - 對了，
+- wait:
+  - 25
+- print:
+  - 栞
+  - 現在要不要去咖啡廳呢？
+- wait:
+  - 35
+- print:
+  - 栞
+  - >2-
+
+    也還有時間呢。
+- touch: *o0
+- choice:
+  - 在時間結束之前好好聊天吧。
+  - 11
+- tag:
+  - 11
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_1123004_045
+- face:
+  - 103811
+  - 2
+- emotion:
+  - twinkle1_R
+  - 103811
+  - -115
+  - 480
+  - se_adv_emote_twinkle_01
+- print:
+  - 栞
+  - 欸嘿嘿……
+- wait:
+  - 25
+- print:
+  - 栞
+  - >2-
+
+    其實我
+- wait:
+  - 25
+- print:
+  - 栞
+  - 知道一間時尚的店——
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
+- window_visible:
+  - false
+- change_window:
+  - 3
+- face:
+  - 103811
+  - 6
+- window_visible:
+  - true
+- bgm:
+  - bgm_M03
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 1
+- vo:
+  - vo_adv_1123004_046
+- face:
+  - 1411
+  - 6
+- print:
+  - 居民
+  - 嗚哇——！
+- wait:
+  - 15
+- print:
+  - 居民
+  - >2-
+
+    又有魔物出現了—！！
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- window_visible:
+  - true
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_1123004_047
+- face:
+  - 103811
+  - 6
+- print:
+  - 栞
+  - …………
+- touch: *o0
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_1123004_048
+- face:
+  - 103811
+  - 1
+- print:
+  - 栞
+  - 是從姊姊那邊聽說——
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 103811
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- text_size:
+  - 38
+- change_window:
+  - 3
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - TRUE
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- effect:
+  - 9
+- print:
+  - 反逆獸
+  - ――咕喔喔喔喔喔！
+- shake_screen: *o0
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- window_visible:
+  - true
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 1
+- vo:
+  - vo_adv_1123004_049
+- face:
+  - 1411
+  - 4
+- print:
+  - 居民
+  - 誰快來——！
+- wait:
+  - 15
+- print:
+  - 居民
+  - >2-
+
+    有沒有人能打倒牠——！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1611
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 103811
+  - C
+  - 2
+- fadein:
+  - 103811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_1123004_050
+- face:
+  - 103811
+  - 2
+- emotion:
+  - note1_L
+  - 103811
+  - -90
+  - 490
+  - se_adv_emote_note_01
+- print:
+  - 栞
+  - ……呵呵。
+- wait:
+  - 35
+- print:
+  - 栞
+  - >2-
+
+    真是的，
+- wait:
+  - 25
+- print:
+  - 栞
+  - 難得可以一起出門，都泡湯了呢。
+- touch: *o0
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_1123004_051
+- face:
+  - 103811
+  - 2
+- print:
+  - 栞
+  - 不過，
+- wait:
+  - 30
+- print:
+  - 栞
+  - 總覺得這也很有我們的風格呢。
+- wait:
+  - 60
+- print:
+  - 栞
+  - >2
+
+- face:
+  - 103811
+  - 1
+- print:
+  - 栞
+  - 我們上吧，{0}。
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+- window_visible:
+  - false
+- se:
+  - se_adv_magical_transform_01
+- effect:
+  - 0099
+- wait:
+  - 55
+- fadeout:
+  - 103811
+  - 1
+- chara_full:
+  - 112311
+  - C
+  - 1
+- fadein:
+  - 112311
+  - 1
+- window_visible:
+  - true
+- bgm:
+  - bgm_M316
+  - 0
+  - 0
+  - 1
+- focus:
+  - 112311
+- bust:
+  - 112311
+  - 0
+- vo:
+  - vo_adv_1123004_052
+- face:
+  - 112311
+  - 1
+- nod:
+  - 112311
+- print:
+  - Purely★栞
+  - 瞄準純真的心！
+- wait:
+  - 45
+- print:
+  - Purely★栞
+  - >2-
+
+    魔法箭矢，
+- wait:
+  - 25
+- print:
+  - Purely★栞
+  - 爆擊！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 112311
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 魔法獵人Purely★栞，
+- wait:
+  - 30
+- print:
+  - 旁白
+  - >2-
+
+    今天也跟{0}合力
+- wait:
+  - 30
+- print:
+  - 旁白
+  - >2-
+
+    一同打倒了反逆獸。
+- touch: *o0
+- window_visible:
+  - FALSE
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

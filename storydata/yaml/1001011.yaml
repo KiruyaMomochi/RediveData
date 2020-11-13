@@ -1,0 +1,3521 @@
+- title:
+  - 日和 第11話
+- outline:
+  - 在夢境當中，日和了解到自己想幫助人的理由，原來是因為想回報小時候曾受過{0}的幫助。日和醒來之後，覺得要是能夢境成真就太好了。
+- background:
+  - 500030
+- amb:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 流浪貓的回憶
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - '{0}散步的時候，'
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    恰巧遇見拿著大件行李的日和。
+- wait:
+  - 15
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 100111
+  - C
+  - 2
+- fadein:
+  - 100111
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M12
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001011_000
+- face:
+  - 100111
+  - 2
+- print:
+  - 日和
+  - 騎士先生！　
+- wait:
+  - 15
+- print:
+  - 日和
+  - 嗨嗨―！
+- wait:
+  - 20
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 你好！　
+- wait:
+  - 40
+- print:
+  - 日和
+  - 今天你……
+- wait:
+  - 25
+- face:
+  - 100111
+  - 6
+- nod:
+  - 100111
+- se:
+  - se_adv_body_carry_back_01
+- print:
+  - 日和
+  - 嘿咻……
+- wait:
+  - 25
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 在作什麼呢？
+- touch: *o0
+- choice:
+  - 我在散步唷。
+  - 1
+- choice:
+  - 日和妳在做什麼呀？
+  - 2
+- tag:
+  - 1
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001011_001
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 原來是散步呀―！　
+- wait:
+  - 40
+- face:
+  - 100111
+  - 6
+- nod:
+  - 100111
+- se:
+  - se_adv_body_carry_back_01
+- print:
+  - 日和
+  - 真是好、
+- wait:
+  - 25
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 天氣呢……！
+- wait:
+  - 55
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - 啊啊，
+- wait:
+  - 15
+- print:
+  - 日和
+  - 你問這個行李嗎？　
+- wait:
+  - 25
+- print:
+  - 日和
+  - 那個……
+- touch: *o0
+- goto:
+  - 3
+- tag:
+  - 2
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001011_002
+- face:
+  - 100111
+  - 6
+- emotion:
+  - question1_R
+  - 100111
+  - 115
+  - 515
+  - se_adv_emote_question_01
+- print:
+  - 日和
+  - 我嗎？　
+- wait:
+  - 25
+- print:
+  - 日和
+  - 那個，
+- wait:
+  - 10
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 我呀……
+- touch: *o0
+- tag:
+  - 3
+- window_visible:
+  - FALSE
+- fadeout:
+  - 100111
+  - 30
+- chara_full:
+  - 100111
+  - LC
+  - 1
+- chara_full:
+  - 611
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 611
+- bust:
+  - 611
+  - 0
+- vo:
+  - vo_adv_1001011_003
+- face:
+  - 611
+  - 6
+- print:
+  - 老奶奶
+  - 小哥，
+- wait:
+  - 30
+- print:
+  - 老奶奶
+  - 你是這孩子的
+- wait:
+  - 20
+- print:
+  - 老奶奶
+  - 朋友嗎？
+- wait:
+  - 40
+- print:
+  - 老奶奶
+  - >2-
+
+    能不能幫我背一下行李呢？
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001011_004
+- face:
+  - 100111
+  - 2
+- print:
+  - 日和
+  - 啊哈哈……
+- wait:
+  - 40
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 其實這是，
+- wait:
+  - 30
+- print:
+  - 日和
+  - 這位奶奶的行李，
+- wait:
+  - 45
+- print:
+  - 日和
+  - >2-
+
+    因為很重她看起來很困擾的樣子，
+- wait:
+  - 45
+- print:
+  - 日和
+  - 所以我無法坐視不管！
+- touch: *o0
+- choice:
+  - 我來幫忙。
+  - 4
+- tag:
+  - 4
+- face:
+  - 611
+  - 1
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001011_005
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - 可以嗎？　
+- wait:
+  - 30
+- face:
+  - 100111
+  - 2
+- print:
+  - 日和
+  - 謝謝！
+- wait:
+  - 35
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 1
+- nod:
+  - 100111
+- se:
+  - se_adv_body_carry_back_01
+- print:
+  - 日和
+  - 那我們兩個人一起搬吧！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- bgm:
+  - stop
+  - 1
+  - 1
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500020
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_home_area_jpn_02
+- chara_full:
+  - 100111
+  - LC
+  - 1
+- chara_full:
+  - 611
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M173_NoBell
+  - 0
+  - 0
+  - 0
+- focus:
+  - 611
+- bust:
+  - 611
+  - 0
+- vo:
+  - vo_adv_1001011_006
+- face:
+  - 611
+  - 1
+- print:
+  - 老奶奶
+  - 到這裡就是我家了。
+- wait:
+  - 65
+- face:
+  - 611
+  - 2
+- print:
+  - 老奶奶
+  - 你們真是幫了大忙。
+- wait:
+  - 45
+- print:
+  - 老奶奶
+  - >2-
+
+    很重吧？
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001011_007
+- face:
+  - 100111
+  - 2
+- emotion:
+  - note1_L
+  - 100111
+  - -70
+  - 515
+  - se_adv_emote_note_01
+- print:
+  - 日和
+  - 完全不會！
+- wait:
+  - 45
+- print:
+  - 日和
+  - >2-
+
+    有困難的時候就互相幫助幫助！　
+- wait:
+  - 50
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 對吧，
+- wait:
+  - 15
+- print:
+  - 日和
+  - 騎士先生！
+- touch: *o0
+- focus:
+  - 611
+- bust:
+  - 611
+  - 0
+- vo:
+  - vo_adv_1001011_008
+- face:
+  - 611
+  - 2
+- print:
+  - 老奶奶
+  - 謝謝啊。
+- wait:
+  - 60
+- print:
+  - 老奶奶
+  - 下次
+- wait:
+  - 35
+- print:
+  - 老奶奶
+  - 讓我表達謝意吧。
+- wait:
+  - 75
+- print:
+  - 老奶奶
+  - >2
+
+- face:
+  - 611
+  - 1
+- print:
+  - 老奶奶
+  - 再見。
+- wait:
+  - 35
+- print:
+  - 老奶奶
+  - 回去時請小心呢。
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - R
+  - RC
+  - 30
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100111
+  - C
+  - 1
+- fadein:
+  - 100111
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001011_009
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 幫人之後，
+- wait:
+  - 45
+- print:
+  - 日和
+  - 心情總會變得很暢快呢！
+- wait:
+  - 45
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 2
+- print:
+  - 日和
+  - 騎士先生。
+- wait:
+  - 40
+- print:
+  - 日和
+  - 謝謝你的幫忙！
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001011_010
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - ……這麼說來我到底，
+- wait:
+  - 60
+- print:
+  - 日和
+  - >2-
+
+    為什麼會這麼想幫助別人呢？
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 100111
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001011_011
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - 騎士先生！？　
+- wait:
+  - 35
+- print:
+  - 日和
+  - 表情別那麼吃驚啦！
+- wait:
+  - 40
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 不知道從什麼時候開始呢。
+- wait:
+  - 55
+- print:
+  - 日和
+  - 只要看到有困難的人，
+- wait:
+  - 40
+- print:
+  - 日和
+  - 我的身體就會自然而然動起來。
+- touch: *o0
+- effect:
+  - 0005
+  - se_adv_holylight_01
+- amb_stop:
+  - 1
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001011_012
+- face:
+  - 100111
+  - 4
+- print:
+  - 日和
+  - 嗯～……
+- wait:
+  - 45
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - 話說
+- wait:
+  - 25
+- print:
+  - 日和
+  - 這是什麼光！？
+- wait:
+  - 35
+- print:
+  - 日和
+  - >2
+
+- pop:
+  - 100111
+- print:
+  - 日和
+  - 往旁邊去啦！　
+- wait:
+  - 75
+- print:
+  - 日和
+  - 奇怪？　
+- wait:
+  - 40
+- print:
+  - 日和
+  - 打不到……
+- wait:
+  - 75
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 4
+- print:
+  - 日和
+  - 又、
+- wait:
+  - 55
+- eye_open:
+  - False
+- print:
+  - 日和
+  - 變得、
+- wait:
+  - 50
+- print:
+  - 日和
+  - 好想睡了……
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 100111
+  - 30
+- bgm:
+  - stop
+  - 2
+  - 0
+- effect:
+  - 0006
+  - se_adv_whiteout_01
+- white_out:
+  - 1
+  - 1
+- bg_color:
+  - 255
+  - 255
+  - 255
+- effect_delete:
+  - 0005
+- effect_delete:
+  - 0006
+- background:
+  - 510121
+- wait:
+  - 30
+- white_in: *o0
+- amb:
+  - amb_adv_home_area_jpn_02
+- wait:
+  - 30
+- chara_full:
+  - 100131
+  - LC
+  - 2
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 30
+- fadein:
+  - 100131
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M72
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100131
+- bust:
+  - 100131
+  - 0
+- vo:
+  - vo_adv_1001011_013
+- face:
+  - 100131
+  - 2
+- emotion:
+  - note1_L
+  - 100131
+  - -85
+  - 525
+  - se_adv_emote_note_01
+- print:
+  - 日和
+  - 學長―！　
+- wait:
+  - 30
+- print:
+  - 日和
+  - 嗨嗨―！　
+- wait:
+  - 40
+- face:
+  - 100131
+  - 1
+- print:
+  - 日和
+  - 學長也是現在要回去嗎？
+- wait:
+  - 50
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100131
+  - 6
+- print:
+  - 日和
+  - 啊～，
+- wait:
+  - 25
+- face:
+  - 100131
+  - 1
+- print:
+  - 日和
+  - 莫非剛剛有順道去別的地方嗎？
+- touch: *o0
+- focus:
+  - 100131
+- bust:
+  - 100131
+  - 0
+- vo:
+  - vo_adv_1001011_014
+- face:
+  - 100131
+  - 6
+- nod:
+  - 100131
+- print:
+  - 日和
+  - 我……
+- wait:
+  - 45
+- face:
+  - 100131
+  - 1
+- print:
+  - 日和
+  - 之前的傷勢雖然已經復原了，
+- wait:
+  - 55
+- print:
+  - 日和
+  - >2-
+
+    但慎重起見
+- wait:
+  - 20
+- print:
+  - 日和
+  - 暫停一陣子的社團活動在休息唷。
+- touch: *o0
+- focus:
+  - 100131
+- bust:
+  - 100131
+  - 0
+- vo:
+  - vo_adv_1001011_015
+- face:
+  - 100131
+  - 1
+- print:
+  - 日和
+  - 因此呢，
+- wait:
+  - 30
+- print:
+  - 日和
+  - 無意間時間就變多了呢。
+- wait:
+  - 40
+- print:
+  - 日和
+  - >2-
+
+    所以跑來公園消磨時間。
+- touch: *o0
+- focus:
+  - 100131
+- bust:
+  - 100131
+  - 0
+- vo:
+  - vo_adv_1001011_016
+- face:
+  - 100131
+  - 2
+- nod:
+  - 100131
+- print:
+  - 日和
+  - 但是
+- wait:
+  - 30
+- print:
+  - 日和
+  - 竟然能碰到學長，
+- wait:
+  - 40
+- print:
+  - 日和
+  - >2-
+
+    跑來公園
+- wait:
+  - 15
+- print:
+  - 日和
+  - 好像很Lucky呢
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 100131
+  - 30
+- effect:
+  - 0053
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 231
+  - C
+  - 4
+  - 1
+- fadein:
+  - 231
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - stop
+  - 8
+  - 1
+- focus:
+  - 231
+- bust:
+  - 231
+  - 0
+- vo:
+  - vo_adv_1001011_017
+- face:
+  - 231
+  - 4
+- print:
+  - 女子
+  - 嗚、
+- shake:
+  - 231
+- wait:
+  - 10
+- print:
+  - 女子
+  - 嗚嗚……
+- wait:
+  - 45
+- eye_open:
+  - True
+- print:
+  - 女子
+  - 媽媽……
+- wait:
+  - 45
+- print:
+  - 女子
+  - >2-
+
+    妳去哪裡了？
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 231
+  - 30
+- effect:
+  - 0053
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100131
+  - C
+  - 6
+- fadein:
+  - 100131
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M201
+  - 0
+  - 0
+  - 0
+- focus:
+  - 100131
+- bust:
+  - 100131
+  - 0
+- vo:
+  - vo_adv_1001011_018
+- face:
+  - 100131
+  - 6
+- print:
+  - 日和
+  - ……
+- wait:
+  - 15
+- print:
+  - 日和
+  - 那個孩子，
+- wait:
+  - 30
+- print:
+  - 日和
+  - 難道是迷路嗎？
+- wait:
+  - 35
+- print:
+  - 日和
+  - >2
+
+- nod:
+  - 100131
+- print:
+  - 日和
+  - 學長！　
+- wait:
+  - 15
+- print:
+  - 日和
+  - 我們一起去幫她吧！
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 100131
+  - 30
+- effect:
+  - 0053
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 100131
+  - L
+  - 1
+- chara_full:
+  - 231
+  - RC
+  - 4
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - TRUE
+- focus:
+  - 100131
+- bust:
+  - 100131
+  - 0
+- vo:
+  - vo_adv_1001011_019
+- face:
+  - 100131
+  - 2
+- print:
+  - 日和
+  - 妳好！　
+- wait:
+  - 55
+- nod:
+  - 100131
+- face:
+  - 100131
+  - 1
+- print:
+  - 日和
+  - 那個。
+- wait:
+  - 30
+- print:
+  - 日和
+  - 怎麼了呢？
+- wait:
+  - 35
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100131
+  - 6
+- print:
+  - 日和
+  - 和媽媽走散了嗎？
+- touch: *o0
+- focus:
+  - 231
+- bust:
+  - 231
+  - 0
+- vo:
+  - vo_adv_1001011_020
+- face:
+  - 231
+  - 4
+- print:
+  - 女子
+  - 嗚嗚……
+- wait:
+  - 45
+- eye_open:
+  - False
+- print:
+  - 女子
+  - 呃嗚……
+- wait:
+  - 35
+- print:
+  - 女子
+  - >2-
+
+    呼嗚……
+- shake:
+  - 231
+- touch: *o0
+- focus:
+  - 100131
+- bust:
+  - 100131
+  - 0
+- vo:
+  - vo_adv_1001011_021
+- face:
+  - 100131
+  - 6
+- print:
+  - 日和
+  - 啊啊，
+- wait:
+  - 25
+- print:
+  - 日和
+  - 不要哭呀―！！
+- wait:
+  - 35
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100131
+  - 4
+- print:
+  - 日和
+  - 嗯～，
+- wait:
+  - 40
+- print:
+  - 日和
+  - 有可以讓這孩子冷靜下來的東西嗎。
+- touch: *o0
+- focus:
+  - 100131
+- bust:
+  - 100131
+  - 0
+- vo:
+  - vo_adv_1001011_022
+- face:
+  - 100131
+  - 6
+- emotion:
+  - notice2_L
+  - 100131
+  - -115
+  - 540
+  - se_adv_emote_nortice_01
+- print:
+  - 日和
+  - 啊！　
+- wait:
+  - 20
+- print:
+  - 日和
+  - 對了！　
+- wait:
+  - 25
+- se:
+  - se_adv_bag_search_03
+- print:
+  - 日和
+  - 嗯～我應該是放在這裡……
+- wait:
+  - 80
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100131
+  - 1
+- print:
+  - 日和
+  - 嗯，
+- wait:
+  - 10
+- print:
+  - 日和
+  - 找到了！
+- touch: *o0
+- focus:
+  - 100131
+- bust:
+  - 100131
+  - 0
+- vo:
+  - vo_adv_1001011_023
+- face:
+  - 100131
+  - 2
+- nod:
+  - 100131
+- print:
+  - 日和
+  - 喵喵！
+- wait:
+  - 45
+- print:
+  - 日和
+  - >2-
+
+    妳是
+- wait:
+  - 20
+- print:
+  - 日和
+  - 自己正在找媽媽
+- wait:
+  - 25
+- print:
+  - 日和
+  - 的堅強孩子喵！
+- wait:
+  - 40
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100131
+  - 1
+- print:
+  - 日和
+  - 看到這隻小貓，
+- wait:
+  - 20
+- print:
+  - 日和
+  - 就能打起精神唷喵！
+- touch: *o0
+- focus:
+  - 231
+- bust:
+  - 231
+  - 0
+- vo:
+  - vo_adv_1001011_024
+- face:
+  - 231
+  - 4
+- print:
+  - 女子
+  - 嗚……
+- shake:
+  - 231
+- wait:
+  - 5
+- eye_open:
+  - True
+- print:
+  - 女子
+  - 呃嗚，
+- wait:
+  - 85
+- print:
+  - 女子
+  - 啊，是小貓呢……
+- wait:
+  - 50
+- print:
+  - 女子
+  - >2
+
+- face:
+  - 231
+  - 6
+- print:
+  - 女子
+  - 姐姐。
+- wait:
+  - 25
+- print:
+  - 女子
+  - 這隻小貓，
+- wait:
+  - 15
+- print:
+  - 女子
+  - 已經破破爛爛的呢？
+- touch: *o0
+- focus:
+  - 100131
+- bust:
+  - 100131
+  - 0
+- vo:
+  - vo_adv_1001011_025
+- face:
+  - 100131
+  - 1
+- print:
+  - 日和
+  - 這隻小貓呢，
+- wait:
+  - 40
+- face:
+  - 100131
+  - 2
+- print:
+  - 日和
+  - 可是姐姐重要的小貓朋友唷。
+- wait:
+  - 75
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100131
+  - 1
+- print:
+  - 日和
+  - 牠只要看到有困難的人
+- wait:
+  - 45
+- print:
+  - 日和
+  - 就會幫忙，是個好孩子唷。
+- touch: *o0
+- focus:
+  - 100131
+- bust:
+  - 100131
+  - 0
+- vo:
+  - vo_adv_1001011_026
+- face:
+  - 100131
+  - 2
+- nod:
+  - 100131
+- print:
+  - 日和
+  - 所以，
+- wait:
+  - 20
+- print:
+  - 日和
+  - 為了找到妳的媽媽，
+- wait:
+  - 50
+- print:
+  - 日和
+  - >2-
+
+    小貓也會一起幫忙唷喵！
+- touch: *o0
+- focus:
+  - 100131
+- bust:
+  - 100131
+  - 0
+- vo:
+  - vo_adv_1001011_027
+- face:
+  - 100131
+  - 1
+- print:
+  - 日和
+  - 妳看，
+- wait:
+  - 30
+- print:
+  - 日和
+  - 因為小貓也會一起幫忙，所以妳不孤單吧？
+- wait:
+  - 75
+- print:
+  - 日和
+  - >2-
+
+    不要再哭了唷。
+- wait:
+  - 55
+- print:
+  - 日和
+  - 來一起
+- wait:
+  - 15
+- print:
+  - 日和
+  - 找媽媽吧。
+- wait:
+  - 45
+- face:
+  - 100131
+  - 2
+- print:
+  - 日和
+  - 好嗎？
+- touch: *o0
+- focus:
+  - 231
+- bust:
+  - 231
+  - 0
+- vo:
+  - vo_adv_1001011_028
+- face:
+  - 231
+  - 4
+- nod:
+  - 231
+- print:
+  - 女子
+  - ……嗯。
+- wait:
+  - 30
+- print:
+  - 女子
+  - 我不哭。
+- wait:
+  - 55
+- print:
+  - 女子
+  - >2
+
+- face:
+  - 231
+  - 1
+- print:
+  - 女子
+  - 謝謝妳，
+- wait:
+  - 20
+- print:
+  - 女子
+  - 小貓。
+- wait:
+  - 25
+- print:
+  - 女子
+  - 姐姐。
+- touch: *o0
+- focus:
+  - 100131
+- bust:
+  - 100131
+  - 0
+- vo:
+  - vo_adv_1001011_029
+- face:
+  - 100131
+  - 2
+- emotion:
+  - note1_L
+  - 100131
+  - -85
+  - 525
+  - se_adv_emote_note_01
+- print:
+  - 日和
+  - 真了不起呢―！
+- wait:
+  - 40
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100131
+  - 1
+- print:
+  - 日和
+  - 妳露出笑容很好呢！
+- touch: *o0
+- focus:
+  - 100131
+- bust:
+  - 100131
+  - 0
+- vo:
+  - vo_adv_1001011_030
+- face:
+  - 100131
+  - 1
+- print:
+  - 日和
+  - 那個，
+- wait:
+  - 30
+- print:
+  - 日和
+  - 這隻小貓，
+- wait:
+  - 15
+- print:
+  - 日和
+  - >2-
+
+    是姐姐重要的人給我的東西。
+- touch: *o0
+- focus:
+  - 100131
+- bust:
+  - 100131
+  - 0
+- vo:
+  - vo_adv_1001011_031
+- face:
+  - 100131
+  - 1
+- print:
+  - 日和
+  - 希望有天
+- wait:
+  - 30
+- print:
+  - 日和
+  - 遇見那個人的時候能道謝，
+- wait:
+  - 50
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100131
+  - 2
+- print:
+  - 日和
+  - 所以我總是把小貓帶在身上唷。
+- touch: *o0
+- choice:
+  - 日和，那是……
+  - 5
+- tag:
+  - 5
+- face:
+  - 231
+  - 6
+- focus:
+  - 100131
+- bust:
+  - 100131
+  - 0
+- vo:
+  - vo_adv_1001011_032
+- face:
+  - 100131
+  - 6
+- print:
+  - 日和
+  - 學長，
+- wait:
+  - 60
+- print:
+  - 日和
+  - 你有看過這個嗎？
+- wait:
+  - 60
+- print:
+  - 日和
+  - >2-
+
+    那個，
+- wait:
+  - 20
+- print:
+  - 日和
+  - 該不會是……
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- amb_stop:
+  - 1
+- white_out:
+  - 1
+  - 1
+- background:
+  - 510353
+- wait:
+  - 15
+- effect:
+  - 0020
+- white_in: *o0
+- amb:
+  - amb_adv_gaya_cmn_01
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M28
+  - 0
+  - 0
+  - 1
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1001011_033
+- face:
+  - 1
+  - 1
+- print:
+  - 年幼的日和
+  - 嗚哇～，
+- wait:
+  - 75
+- print:
+  - 年幼的日和
+  - 嗚哇～。
+- wait:
+  - 100
+- print:
+  - 年幼的日和
+  - 媽媽，
+- wait:
+  - 80
+- print:
+  - 年幼的日和
+  - 妳在哪裡呀―！
+- wait:
+  - 55
+- print:
+  - 年幼的日和
+  - >2-
+
+    媽～媽……！
+- touch: *o0
+- choice:
+  - ……這個，給妳。
+  - 6
+- tag:
+  - 6
+- window_visible:
+  - false
+- se:
+  - se_adv_body_handshake_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1001011_034
+- face:
+  - 1
+  - 1
+- print:
+  - 年幼的日和
+  - 嗚嗚……
+- wait:
+  - 30
+- print:
+  - 年幼的日和
+  - 呃嗚……
+- wait:
+  - 60
+- print:
+  - 年幼的日和
+  - >2-
+
+    咦？　
+- wait:
+  - 55
+- print:
+  - 年幼的日和
+  - 這是什麼……
+- wait:
+  - 40
+- print:
+  - 年幼的日和
+  - 小貓……？
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1001011_035
+- face:
+  - 1
+  - 1
+- print:
+  - 年幼的日和
+  - ……呃嗚，
+- wait:
+  - 45
+- print:
+  - 年幼的日和
+  - 謝謝。
+- touch: *o0
+- choice:
+  - 媽媽來之前，我來陪妳吧。
+  - 7
+- tag:
+  - 7
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1001011_036
+- face:
+  - 1
+  - 1
+- print:
+  - 年幼的日和
+  - 真的嗎……？　
+- wait:
+  - 30
+- print:
+  - 年幼的日和
+  - ……
+- wait:
+  - 45
+- print:
+  - 年幼的日和
+  - 大哥哥
+- wait:
+  - 30
+- print:
+  - 年幼的日和
+  - 你好溫柔呢。
+- wait:
+  - 45
+- print:
+  - 年幼的日和
+  - >2-
+
+    謝謝你―！　
+- wait:
+  - 45
+- print:
+  - 年幼的日和
+  - 我叫做
+- wait:
+  - 15
+- print:
+  - 年幼的日和
+  - 日和！
+- wait:
+  - 40
+- print:
+  - 年幼的日和
+  - >2-
+
+    哥哥叫什麼呢，
+- wait:
+  - 25
+- print:
+  - 年幼的日和
+  - 告訴我！
+- touch: *o0
+- window_visible:
+  - FALSE
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 30
+- black_in: *o0
+- amb:
+  - amb_adv_gaya_cmn_01
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1001011_037
+- face:
+  - 1
+  - 1
+- print:
+  - 年幼的日和
+  - 然後呢～，
+- wait:
+  - 20
+- print:
+  - 年幼的日和
+  - 媽媽她呀―？
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_dirt_run_come_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1001011_038
+- face:
+  - 1
+  - 1
+- print:
+  - 日和的母親
+  - 日和，
+- wait:
+  - 25
+- print:
+  - 日和的母親
+  - 原來妳在這裡啊！
+- wait:
+  - 25
+- print:
+  - 日和的母親
+  - >2-
+
+    我找了妳好久！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1001011_039
+- face:
+  - 1
+  - 1
+- print:
+  - 年幼的日和
+  - 你看！　
+- wait:
+  - 45
+- print:
+  - 年幼的日和
+  - 媽媽，
+- wait:
+  - 25
+- print:
+  - 年幼的日和
+  - 妳過來找我了！
+- wait:
+  - 50
+- print:
+  - 年幼的日和
+  - >2-
+
+    就跟大哥哥說的一樣！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1001011_040
+- face:
+  - 1
+  - 1
+- print:
+  - 日和的母親
+  - 謝謝。
+- wait:
+  - 25
+- print:
+  - 日和的母親
+  - 你
+- wait:
+  - 10
+- print:
+  - 日和的母親
+  - 真是個好孩子呢。
+- wait:
+  - 35
+- print:
+  - 日和的母親
+  - >2-
+
+    日和，
+- wait:
+  - 20
+- print:
+  - 日和的母親
+  - 有謝謝大哥哥了嗎？
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1001011_041
+- face:
+  - 1
+  - 1
+- print:
+  - 年幼的日和
+  - 嗯！　
+- wait:
+  - 45
+- print:
+  - 年幼的日和
+  - 奇怪？　
+- wait:
+  - 25
+- print:
+  - 年幼的日和
+  - 已經走掉了嗎？
+- wait:
+  - 50
+- print:
+  - 年幼的日和
+  - >2-
+
+    大哥哥，
+- wait:
+  - 30
+- print:
+  - 年幼的日和
+  - 謝謝你―！
+- touch: *o0
+- choice:
+  - 有困難的時候就要互相！
+  - 8
+- tag:
+  - 8
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1001011_042
+- face:
+  - 1
+  - 1
+- print:
+  - 年幼的日和
+  - 有困難的時候
+- wait:
+  - 45
+- print:
+  - 年幼的日和
+  - 就要互相……？
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1001011_043
+- face:
+  - 1
+  - 1
+- print:
+  - 年幼的日和
+  - 咦，
+- wait:
+  - 60
+- print:
+  - 年幼的日和
+  - 那個……
+- wait:
+  - 30
+- print:
+  - 年幼的日和
+  - >2-
+
+    所以……
+- wait:
+  - 30
+- print:
+  - 年幼的日和
+  - 有困難的時候
+- wait:
+  - 30
+- print:
+  - 年幼的日和
+  - 互相互相相！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1001011_044
+- face:
+  - 1
+  - 1
+- print:
+  - 年幼的日和
+  - 大哥哥有困難的話，
+- wait:
+  - 30
+- print:
+  - 年幼的日和
+  - 我會去幫你的！
+- wait:
+  - 40
+- print:
+  - 年幼的日和
+  - >2-
+
+    我們約好了唷―！　
+- wait:
+  - 60
+- print:
+  - 年幼的日和
+  - 再見―！　
+- wait:
+  - 25
+- print:
+  - 年幼的日和
+  - 拜拜～！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_dirt_run_go_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1001011_045
+- face:
+  - 1
+  - 1
+- print:
+  - 年幼的日和
+  - 啊，
+- wait:
+  - 30
+- print:
+  - 年幼的日和
+  - 小貓！　
+- wait:
+  - 45
+- print:
+  - 年幼的日和
+  - 必須要還給大哥哥才行！
+- wait:
+  - 40
+- print:
+  - 年幼的日和
+  - >2-
+
+    ……
+- wait:
+  - 55
+- print:
+  - 年幼的日和
+  - 還會
+- wait:
+  - 40
+- print:
+  - 年幼的日和
+  - 再見面吧。
+- wait:
+  - 50
+- print:
+  - 年幼的日和
+  - 大哥哥。
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
+- window_visible:
+  - false
+- vo_effect:
+  - 0
+- amb_stop:
+  - 1
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0020
+- background:
+  - 510121
+- wait:
+  - 15
+- white_in: *o0
+- amb:
+  - amb_adv_home_area_jpn_02
+- chara_full:
+  - 100131
+  - LC
+  - 6
+- chara_full:
+  - 231
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M34
+  - 0
+  - 0
+  - 0
+- focus:
+  - 100131
+- bust:
+  - 100131
+  - 0
+- vo:
+  - vo_adv_1001011_046
+- face:
+  - 100131
+  - 6
+- print:
+  - 日和
+  - 難道
+- wait:
+  - 40
+- print:
+  - 日和
+  - 那時候幫助我的，
+- wait:
+  - 20
+- print:
+  - 日和
+  - 那位男生就是……
+- touch: *o0
+- focus:
+  - 231
+- bust:
+  - 231
+  - 0
+- vo:
+  - vo_adv_1001011_047
+- face:
+  - 231
+  - 6
+- emotion:
+  - notice1_L
+  - 231
+  - -75
+  - 475
+  - se_adv_emote_common_01
+- print:
+  - 女子
+  - 啊！　
+- wait:
+  - 15
+- print:
+  - 女子
+  - 是媽媽！
+- wait:
+  - 30
+- print:
+  - 女子
+  - >2
+
+- face:
+  - 231
+  - 1
+- print:
+  - 女子
+  - 媽媽～！　
+- wait:
+  - 30
+- print:
+  - 女子
+  - 我在這裡唷―！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_dirt_run_come_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1001011_048
+- face:
+  - 1
+  - 1
+- print:
+  - 母親
+  - 啊啊真是，
+- wait:
+  - 30
+- print:
+  - 母親
+  - 原來在這裡呀……！
+- wait:
+  - 20
+- print:
+  - 母親
+  - >2-
+
+    我找了妳好久！
+- touch: *o0
+- focus:
+  - 100131
+- bust:
+  - 100131
+  - 0
+- vo:
+  - vo_adv_1001011_049
+- face:
+  - 100131
+  - 2
+- print:
+  - 日和
+  - 能找到媽媽真是太好了―！
+- wait:
+  - 55
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100131
+  - 1
+- print:
+  - 日和
+  - 這樣就能放心了呢！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1001011_050
+- face:
+  - 1
+  - 1
+- print:
+  - 母親
+  - 能夠幫忙看著這孩子，
+- wait:
+  - 20
+- print:
+  - 母親
+  - 真的謝謝妳。
+- wait:
+  - 25
+- print:
+  - 母親
+  - >2-
+
+    該怎麼跟妳道謝才好呢……
+- touch: *o0
+- focus:
+  - 100131
+- bust:
+  - 100131
+  - 0
+- vo:
+  - vo_adv_1001011_051
+- face:
+  - 100131
+  - 6
+- pop:
+  - 100131
+- print:
+  - 日和
+  - 哪裡的話！
+- wait:
+  - 35
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100131
+  - 1
+- print:
+  - 日和
+  - 困難的時候
+- wait:
+  - 20
+- print:
+  - 日和
+  - 互相幫助幫助！
+- touch: *o0
+- focus:
+  - 231
+- bust:
+  - 231
+  - 0
+- vo:
+  - vo_adv_1001011_052
+- face:
+  - 231
+  - 1
+- print:
+  - 女子
+  - 姐姐，
+- wait:
+  - 20
+- print:
+  - 女子
+  - 哥哥，
+- wait:
+  - 15
+- face:
+  - 231
+  - 2
+- print:
+  - 女子
+  - 謝謝你們！
+- wait:
+  - 25
+- print:
+  - 女子
+  - >2-
+
+    掰掰～！
+- touch: *o0
+- face:
+  - 231
+  - 1
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - R
+  - RC
+  - 30
+- fadeout:
+  - 231
+  - 30
+- change:
+  - C
+  - LC
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 100131
+- bust:
+  - 100131
+  - 0
+- vo:
+  - vo_adv_1001011_053
+- face:
+  - 100131
+  - 2
+- print:
+  - 日和
+  - 掰掰～！
+- wait:
+  - 70
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100131
+  - 1
+- print:
+  - 日和
+  - ……那位媽媽能夠跟孩子團聚，
+- wait:
+  - 35
+- print:
+  - 日和
+  - 真是太好了―
+- touch: *o0
+- focus:
+  - 100131
+- bust:
+  - 100131
+  - 0
+- vo:
+  - vo_adv_1001011_054
+- face:
+  - 100131
+  - 6
+- print:
+  - 日和
+  - ……
+- wait:
+  - 20
+- nod:
+  - 100131
+- print:
+  - 日和
+  - 那個，
+- wait:
+  - 10
+- print:
+  - 日和
+  - 學長。
+- wait:
+  - 50
+- print:
+  - 日和
+  - 我
+- wait:
+  - 25
+- print:
+  - 日和
+  - 剛剛回憶起
+- wait:
+  - 30
+- print:
+  - 日和
+  - >2-
+
+    收到這個小貓鑰匙圈
+- wait:
+  - 15
+- print:
+  - 日和
+  - 的事呢。
+- touch: *o0
+- focus:
+  - 100131
+- bust:
+  - 100131
+  - 0
+- vo:
+  - vo_adv_1001011_055
+- face:
+  - 100131
+  - 4
+- print:
+  - 日和
+  - 與那孩子同樣年紀的時候，
+- wait:
+  - 20
+- print:
+  - 日和
+  - 我和媽媽走散，
+- wait:
+  - 55
+- print:
+  - 日和
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 日和
+  - 那時我覺得這個世上
+- wait:
+  - 50
+- eye_open:
+  - True
+- print:
+  - 日和
+  - 只剩我孤單一人……
+- touch: *o0
+- focus:
+  - 100131
+- bust:
+  - 100131
+  - 0
+- vo:
+  - vo_adv_1001011_056
+- face:
+  - 100131
+  - 6
+- print:
+  - 日和
+  - ……原來是學長呢。
+- wait:
+  - 60
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100131
+  - 1
+- print:
+  - 日和
+  - 那時候你幫助了正在哭泣的我。
+- touch: *o0
+- choice:
+  - 有這回事嗎……
+  - 9
+- tag:
+  - 9
+- focus:
+  - 100131
+- bust:
+  - 100131
+  - 0
+- vo:
+  - vo_adv_1001011_057
+- face:
+  - 100131
+  - 2
+- print:
+  - 日和
+  - 沒辦法想起來也是正常的事呢。
+- wait:
+  - 60
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100131
+  - 1
+- print:
+  - 日和
+  - 因為學長，
+- wait:
+  - 45
+- print:
+  - 日和
+  - 在那之後也陸續幫過很多人吧？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100131
+  - 30
+- white_out:
+  - 1
+  - 1
+- bg_color:
+  - 255
+  - 255
+  - 255
+- still:
+  - 100101101
+- wait:
+  - 15
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- white_in: *o0
+- window_visible:
+  - TRUE
+- focus:
+  - 100131
+- bust:
+  - 100131
+  - 1
+- vo:
+  - vo_adv_1001011_058
+- face:
+  - 100131
+  - 1
+- print:
+  - 日和
+  - ……謝謝你，
+- wait:
+  - 5
+- print:
+  - 日和
+  - 學長。
+- wait:
+  - 45
+- print:
+  - 日和
+  - >2-
+
+    還有，
+- wait:
+  - 25
+- print:
+  - 日和
+  - 雖然有些遲了，
+- wait:
+  - 20
+- print:
+  - 日和
+  - 這隻小貓，
+- wait:
+  - 35
+- print:
+  - 日和
+  - 要還給學長呢。
+- touch: *o0
+- focus:
+  - 100131
+- bust:
+  - 100131
+  - 1
+- vo:
+  - vo_adv_1001011_059
+- face:
+  - 100131
+  - 1
+- print:
+  - 日和
+  - 因為這隻小貓一直陪伴在我身旁。
+- wait:
+  - 85
+- print:
+  - 日和
+  - >2-
+
+    因為學長
+- wait:
+  - 35
+- print:
+  - 日和
+  - 幫助了我，
+- wait:
+  - 55
+- print:
+  - 日和
+  - 所以我才能變成現在的我。
+- touch: *o0
+- focus:
+  - 100131
+- bust:
+  - 100131
+  - 1
+- vo:
+  - vo_adv_1001011_060
+- face:
+  - 100131
+  - 1
+- print:
+  - 日和
+  - 對學長來說，
+- wait:
+  - 55
+- print:
+  - 日和
+  - 我是眾多幫助過的其中一個。
+- wait:
+  - 80
+- print:
+  - 日和
+  - >2-
+
+    雖然如此，
+- wait:
+  - 35
+- print:
+  - 日和
+  - 但對那時候的我來說，
+- wait:
+  - 55
+- print:
+  - 日和
+  - 你就是唯一的英雄。
+- wait:
+  - 75
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100131
+  - 2
+- print:
+  - 日和
+  - ……那時候謝謝你。
+- wait:
+  - 50
+- print:
+  - 日和
+  - 大哥哥。
+- touch: *o0
+- choice:
+  - 那個就送給日和了。
+  - 10
+- choice:
+  - 妳可以一直留著唷。
+  - 11
+- tag:
+  - 10
+- window_visible:
+  - false
+- still:
+  - 100101102
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100131
+- bust:
+  - 100131
+  - 1
+- vo:
+  - vo_adv_1001011_061
+- face:
+  - 100131
+  - 6
+- print:
+  - 日和
+  - 可以嗎……？　
+- wait:
+  - 50
+- face:
+  - 100131
+  - 1
+- print:
+  - 日和
+  - 那麼
+- wait:
+  - 25
+- print:
+  - 日和
+  - 我今後也會
+- wait:
+  - 30
+- print:
+  - 日和
+  - 一直、
+- wait:
+  - 50
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100131
+  - 2
+- print:
+  - 日和
+  - 一直
+- wait:
+  - 30
+- print:
+  - 日和
+  - 一直
+- wait:
+  - 15
+- print:
+  - 日和
+  - 一～直
+- wait:
+  - 45
+- print:
+  - 日和
+  - 好好珍惜的！
+- touch: *o0
+- goto:
+  - 12
+- tag:
+  - 11
+- window_visible:
+  - false
+- still:
+  - 100101102
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100131
+- bust:
+  - 100131
+  - 1
+- vo:
+  - vo_adv_1001011_062
+- face:
+  - 100131
+  - 1
+- print:
+  - 日和
+  - 真的嗎？　
+- wait:
+  - 55
+- face:
+  - 100131
+  - 2
+- print:
+  - 日和
+  - 謝謝！　
+- wait:
+  - 35
+- print:
+  - 日和
+  - 就像那時候一樣，
+- wait:
+  - 35
+- print:
+  - 日和
+  - >2-
+
+    如果我感到寂寞或痛苦時，
+- wait:
+  - 45
+- print:
+  - 日和
+  - 就會讓這孩子來幫我！
+- touch: *o0
+- tag:
+  - 12
+- focus:
+  - 100131
+- bust:
+  - 100131
+  - 1
+- vo:
+  - vo_adv_1001011_063
+- face:
+  - 100131
+  - 5
+- print:
+  - 日和
+  - ……那個學長。
+- wait:
+  - 60
+- print:
+  - 日和
+  - 我啊，
+- wait:
+  - 25
+- print:
+  - 日和
+  - 因為很憧憬那時候的學長，
+- wait:
+  - 65
+- print:
+  - 日和
+  - >2-
+
+    所以想跟學長一樣，
+- wait:
+  - 35
+- print:
+  - 日和
+  - 去幫助有困難的人唷。
+- touch: *o0
+- focus:
+  - 100131
+- bust:
+  - 100131
+  - 1
+- vo:
+  - vo_adv_1001011_064
+- face:
+  - 100131
+  - 5
+- print:
+  - 日和
+  - 還有因為那天我真的很開心，
+- wait:
+  - 70
+- print:
+  - 日和
+  - >2-
+
+    也希望其他人
+- wait:
+  - 25
+- print:
+  - 日和
+  - 也能感受到同樣的心情……
+- touch: *o0
+- focus:
+  - 100131
+- bust:
+  - 100131
+  - 1
+- vo:
+  - vo_adv_1001011_065
+- face:
+  - 100131
+  - 1
+- print:
+  - 日和
+  - 總有一天我也想
+- wait:
+  - 35
+- print:
+  - 日和
+  - 幫助我最喜歡的學長，
+- wait:
+  - 60
+- print:
+  - 日和
+  - >2-
+
+    所以各方面
+- wait:
+  - 25
+- print:
+  - 日和
+  - 我會更加更加努力的！
+- touch: *o0
+- focus:
+  - 100131
+- bust:
+  - 100131
+  - 1
+- vo:
+  - vo_adv_1001011_066
+- face:
+  - 100131
+  - 6
+- print:
+  - 日和
+  - ……啊！　
+- wait:
+  - 35
+- print:
+  - 日和
+  - 剛、
+- wait:
+  - 15
+- print:
+  - 日和
+  - 剛剛說的最喜歡，
+- wait:
+  - 45
+- print:
+  - 日和
+  - >2-
+
+    是指最喜歡的夥伴的意思啦！
+- touch: *o0
+- focus:
+  - 100131
+- bust:
+  - 100131
+  - 1
+- vo:
+  - vo_adv_1001011_067
+- face:
+  - 100131
+  - 5
+- print:
+  - 日和
+  - 已、
+- wait:
+  - 25
+- print:
+  - 日和
+  - 已經天黑了呢……！　
+- wait:
+  - 45
+- print:
+  - 日和
+  - 我們差不多該回家了！
+- wait:
+  - 45
+- print:
+  - 日和
+  - >2-
+
+    我們來比賽跑到出口吧！　
+- wait:
+  - 35
+- print:
+  - 日和
+  - 預～備，
+- wait:
+  - 30
+- print:
+  - 日和
+  - 開始―！
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 0
+- window_visible:
+  - false
+- effect:
+  - 0005
+  - se_adv_holylight_01
+- effect:
+  - 0006
+  - se_adv_whiteout_01
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0022
+- effect_delete:
+  - 0005
+- effect_delete:
+  - 0006
+- still:
+  - end
+- background:
+  - 500270
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- effect:
+  - 0029
+- effect:
+  - 0026
+- effect:
+  - 0015
+  - se_adv_whiteout_02
+- white_in: *o0
+- amb:
+  - amb_adv_wind_01
+- bgm:
+  - bgm_M40
+- wait:
+  - 60
+- chara_full:
+  - 190011
+  - C
+  - 2
+- fadein:
+  - 190011
+  - 30
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1001011_068
+- face:
+  - 190011
+  - 2
+- print:
+  - 愛梅斯
+  - 好了，
+- wait:
+  - 15
+- print:
+  - 愛梅斯
+  - 辛苦了～！
+- wait:
+  - 35
+- print:
+  - 愛梅斯
+  - >2
+
+- face:
+  - 190011
+  - 1
+- print:
+  - 愛梅斯
+  - 與其說日和很堅強呢，
+- wait:
+  - 30
+- print:
+  - 愛梅斯
+  - 倒不如說其實是單純呢。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1001011_069
+- face:
+  - 190011
+  - 1
+- print:
+  - 愛梅斯
+  - 沒想到小時候你幫她的行動，
+- wait:
+  - 45
+- print:
+  - 愛梅斯
+  - >2-
+
+    竟對日和產生那麼重大的影響，真讓人吃驚呢。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1001011_070
+- face:
+  - 190011
+  - 2
+- print:
+  - 愛梅斯
+  - 希望今後你與日和的行動，
+- wait:
+  - 30
+- print:
+  - 愛梅斯
+  - >2-
+
+    能跟各式各樣的人產生連結就好呢。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1001011_071
+- face:
+  - 190011
+  - 6
+- print:
+  - 愛梅斯
+  - 不過，
+- wait:
+  - 5
+- print:
+  - 愛梅斯
+  - 日和常常
+- wait:
+  - 20
+- print:
+  - 愛梅斯
+  - 因為直覺及突然靈光一閃就行動了，
+- wait:
+  - 45
+- print:
+  - 愛梅斯
+  - >2
+
+- face:
+  - 190011
+  - 2
+- print:
+  - 愛梅斯
+  - 你可要
+- wait:
+  - 5
+- print:
+  - 愛梅斯
+  - 好好跟在後面幫助她啊。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1001011_072
+- face:
+  - 190011
+  - 2
+- print:
+  - 愛梅斯
+  - 就交給日和最喜歡的你，
+- wait:
+  - 50
+- print:
+  - 愛梅斯
+  - 對吧。
+- wait:
+  - 20
+- print:
+  - 愛梅斯
+  - 呵呵！
+- wait:
+  - 30
+- print:
+  - 愛梅斯
+  - >2-
+
+    那麼這次就到這裡吧。
+- wait:
+  - 30
+- emotion:
+  - note1_L
+  - 190011
+  - -80
+  - 510
+  - '*non'
+- print:
+  - 愛梅斯
+  - 再見～♪
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 190011
+  - 30
+- effect:
+  - 0006
+  - se_adv_whiteout_01
+- bgm:
+  - stop
+  - 1
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0006
+- effect_delete:
+  - 0029
+- effect_delete:
+  - 0026
+- background:
+  - 500030
+- amb_stop:
+  - 1
+- wait:
+  - 30
+- white_in: *o0
+- vo_effect:
+  - 0
+- amb:
+  - amb_adv_outdoors_day_01
+- wait:
+  - 30
+- chara_full:
+  - 100111
+  - C
+  - 4
+  - 1
+- fadein:
+  - 100111
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M108
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001011_073
+- face:
+  - 100111
+  - 4
+- print:
+  - 日和
+  - 嗯～……
+- wait:
+  - 70
+- eye_open:
+  - True
+- face:
+  - 100111
+  - 6
+- pop:
+  - 100111
+- print:
+  - 日和
+  - 啊！　
+- wait:
+  - 30
+- print:
+  - 日和
+  - 我
+- wait:
+  - 15
+- print:
+  - 日和
+  - 又睡著了嗎！？
+- wait:
+  - 70
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 4
+- print:
+  - 日和
+  - 感覺我做了
+- wait:
+  - 50
+- print:
+  - 日和
+  - 一個讓人既懷念又非常重要的夢……
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001011_074
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - ……雖然只記得模糊片段，
+- wait:
+  - 60
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 不過夢境當中，
+- wait:
+  - 30
+- print:
+  - 日和
+  - 好像也有出現小時候的我呢。
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001011_075
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - ……
+- wait:
+  - 60
+- print:
+  - 日和
+  - 說不定
+- wait:
+  - 30
+- print:
+  - 日和
+  - 我，
+- wait:
+  - 45
+- print:
+  - 日和
+  - >2-
+
+    很久以前
+- wait:
+  - 25
+- print:
+  - 日和
+  - 就已經跟騎士先生見過面了
+- wait:
+  - 30
+- print:
+  - 日和
+  - 呢？
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001011_076
+- face:
+  - 100111
+  - 2
+- pop:
+  - 100111
+- print:
+  - 日和
+  - ……怎麼可能呢！
+- wait:
+  - 45
+- print:
+  - 日和
+  - >2-
+
+    一定是睡到迷糊了吧，
+- wait:
+  - 35
+- print:
+  - 日和
+  - 我真是的！
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001011_077
+- face:
+  - 100111
+  - 5
+- print:
+  - 日和
+  - ……但是，
+- wait:
+  - 45
+- print:
+  - 日和
+  - 如果真的
+- wait:
+  - 50
+- print:
+  - 日和
+  - 以前有跟騎士先生相遇過，
+- wait:
+  - 70
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 2
+- print:
+  - 日和
+  - 那樣就太好了呢……
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- fadeout:
+  - 100111
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    如果夢境發生的事能成真的話該有多好，
+
+    日和偷偷抱持著這樣的想法。
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

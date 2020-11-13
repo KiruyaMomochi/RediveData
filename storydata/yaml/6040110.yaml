@@ -1,0 +1,285 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500997
+- amb:
+  - amb_adv_outdoors_day_01
+- ui_visible:
+  - false
+- situation:
+  - 半藏消失到哪裡去了
+- chara_full:
+  - 112811
+  - C
+  - 4
+- fadein:
+  - 112811
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M288
+  - 0
+  - 0
+  - 1
+- focus:
+  - 112811
+- bust:
+  - 112811
+  - 0
+- vo:
+  - vo_adv_6040110_000
+- face:
+  - 112811
+  - 4
+- print:
+  - 真陽
+  - 被拋棄的監察官
+- wait:
+  - 40
+- print:
+  - 真陽
+  - 有一點可憐的啦。
+- wait:
+  - 60
+- print:
+  - 真陽
+  - >2
+
+- face:
+  - 112811
+  - 6
+- print:
+  - 真陽
+  - 不過那位
+- wait:
+  - 30
+- print:
+  - 真陽
+  - 叫做半藏的人
+- wait:
+  - 30
+- print:
+  - 真陽
+  - 到底消失到哪裡去了呢……
+- wait:
+  - 60
+- print:
+  - 真陽
+  - >2
+
+- face:
+  - 112811
+  - 4
+- print:
+  - 真陽
+  - 雖然說也不需要同情他呢。
+- touch: &o0 []
+- choice:
+  - 從黑暗消失到黑暗之中
+  - 1
+  - 1
+- choice:
+  - 他總有一天會被抓到的
+  - 2
+  - 2
+- choice:
+  - 可能離我們意外地近……
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 112811
+- bust:
+  - 112811
+  - 0
+- vo:
+  - vo_adv_6040110_001
+- face:
+  - 112811
+  - 6
+- print:
+  - 真陽
+  - 就是這種感覺呢。
+- wait:
+  - 50
+- print:
+  - 真陽
+  - 是不是什麼魔法啊。
+- wait:
+  - 65
+- print:
+  - 真陽
+  - >2
+
+- face:
+  - 112811
+  - 4
+- print:
+  - 真陽
+  - 因為就連王宮騎士團都找不到他，
+- wait:
+  - 50
+- print:
+  - 真陽
+  - 真的是相當厲害的高手啦。
+- wait:
+  - 65
+- print:
+  - 真陽
+  - >2
+
+- face:
+  - 112811
+  - 6
+- nod:
+  - 112811
+- print:
+  - 真陽
+  - 哎呀～
+- wait:
+  - 30
+- print:
+  - 真陽
+  - 我們居然能夠打贏他呢。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 112811
+- bust:
+  - 112811
+  - 0
+- vo:
+  - vo_adv_6040110_002
+- face:
+  - 112811
+  - 1
+- nod:
+  - 112811
+- print:
+  - 真陽
+  - 就是所謂的因果報應，
+- wait:
+  - 30
+- print:
+  - 真陽
+  - 對吧。
+- wait:
+  - 45
+- print:
+  - 真陽
+  - 希望他能好好地贖罪呢。
+- wait:
+  - 70
+- print:
+  - 真陽
+  - >2
+
+- face:
+  - 112811
+  - 4
+- print:
+  - 真陽
+  - 我不希望再有人
+- wait:
+  - 35
+- print:
+  - 真陽
+  - 碰上比這糟糕的事情了啦。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 112811
+- bust:
+  - 112811
+  - 0
+- vo:
+  - vo_adv_6040110_003
+- face:
+  - 112811
+  - 4
+- emotion:
+  - sweat2_R
+  - 112811
+  - 90
+  - 465
+  - se_adv_emote_sweat_02
+- print:
+  - 真陽
+  - 不、
+- wait:
+  - 15
+- print:
+  - 真陽
+  - 不要說這麼恐怖的事情啦！
+- wait:
+  - 60
+- print:
+  - 真陽
+  - >2
+
+- face:
+  - 112811
+  - 6
+- print:
+  - 真陽
+  - 不過，
+- wait:
+  - 25
+- print:
+  - 真陽
+  - 因為他真的很神出鬼沒，
+- wait:
+  - 45
+- print:
+  - 真陽
+  - 哪天又突然出現在眼前
+- wait:
+  - 25
+- print:
+  - 真陽
+  - >2-
+
+    也不是不可能呢。
+- wait:
+  - 50
+- face:
+  - 112811
+  - 1
+- print:
+  - 真陽
+  - 真的跑出來的話
+- wait:
+  - 30
+- print:
+  - 真陽
+  - 就要努力抓住他的啦！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 112811
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

@@ -1,0 +1,2244 @@
+- title:
+  - 香織（夏日） 第1話
+- outline:
+  - 香織在海邊的派對演奏。香織在檢查樂器時發現弦斷掉了，用讓人類、動物、魔物都翩翩起舞的音樂，抓住了魔物的心，並用魔物的鬍鬚修補了弦。
+- background:
+  - 500030
+- amb:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 指尖彈奏之弦與奏響的思念
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    夏季的某一天，
+
+    {0}正在蘭德索爾的廣場上散步。
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 101711
+  - RC
+  - 1
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - RC
+  - 30
+- fadein:
+  - 101711
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M12
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1105001_000
+- face:
+  - 101711
+  - 1
+- emotion:
+  - notice1_L
+  - 101711
+  - -90
+  - 520
+  - se_adv_emote_common_01
+- print:
+  - 香織
+  - 啊～
+- wait:
+  - 10
+- print:
+  - 香織
+  - 有了有了！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 101711
+  - 30
+- chara_full:
+  - 101711
+  - C
+  - 2
+- se:
+  - se_adv_step_concrete_move_01
+- scale:
+  - 101711
+  - 1.2
+  - 2
+- fadein:
+  - 101711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1105001_001
+- face:
+  - 101711
+  - 2
+- pop:
+  - 101711
+- print:
+  - 香織
+  - 找到你了～！　
+- wait:
+  - 45
+- face:
+  - 101711
+  - 1
+- print:
+  - 香織
+  - 我本來還覺得很快就能找到呢，
+- wait:
+  - 40
+- print:
+  - 香織
+  - >2-
+
+    {0}還真是神出鬼沒呢～
+- wait:
+  - 60
+- print:
+  - 香織
+  - >2
+
+- face:
+  - 101711
+  - 2
+- print:
+  - 香織
+  - 不過在蘭德索爾跑來跑去
+- wait:
+  - 45
+- print:
+  - 香織
+  - 也是不錯的運動呀～♪
+- touch: *o0
+- window_visible:
+  - FALSE
+- face:
+  - 101711
+  - 6
+- se:
+  - se_adv_tickle_01
+- shake:
+  - 101711
+- window_visible:
+  - TRUE
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1105001_002
+- face:
+  - 101711
+  - 6
+- print:
+  - 香織
+  - 嗯？　
+- wait:
+  - 25
+- print:
+  - 香織
+  - 你要幫我擦汗嗎～？
+- wait:
+  - 50
+- print:
+  - 香織
+  - >2
+
+- face:
+  - 101711
+  - 2
+- print:
+  - 香織
+  - 啊哈～
+- wait:
+  - 25
+- print:
+  - 香織
+  - '{0}你人真好呢～♪'
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1105001_003
+- face:
+  - 101711
+  - 1
+- print:
+  - 香織
+  - 那我們走吧！
+- touch: *o0
+- choice:
+  - 要去哪裡？
+  - 1
+- tag:
+  - 1
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1105001_004
+- face:
+  - 101711
+  - 2
+- nod:
+  - 101711
+- print:
+  - 香織
+  - 好了啦好了啦～♪
+- touch: *o0
+- choice:
+  - ……咦？
+  - 2
+- tag:
+  - 2
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1105001_005
+- face:
+  - 101711
+  - 2
+- emotion:
+  - note1_L
+  - 101711
+  - -125
+  - 485
+  - se_adv_emote_note_01
+- print:
+  - 香織
+  - 沒什麼、
+- wait:
+  - 20
+- print:
+  - 香織
+  - 沒什麼～♪
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 101711
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- bgm:
+  - stop
+  - 1.5
+  - 1
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500160
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_seaside_01
+- chara_full:
+  - 101711
+  - RC
+  - 2
+- se:
+  - se_adv_step_dirt_run_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - RC
+  - 30
+- fadein:
+  - 101711
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M246
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1105001_006
+- face:
+  - 101711
+  - 2
+- print:
+  - 香織
+  - 抵～達～！
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1105001_007
+- face:
+  - 101711
+  - 6
+- emotion:
+  - question1_R
+  - 101711
+  - 100
+  - 515
+  - se_adv_emote_question_01
+- print:
+  - 香織
+  - 嗯？　
+- wait:
+  - 30
+- print:
+  - 香織
+  - 怎麼了嗎～？
+- wait:
+  - 30
+- print:
+  - 香織
+  - >2-
+
+    為什麼露出好像踩到眼鏡蛇的表情～？
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1105001_008
+- face:
+  - 101711
+  - 6
+- print:
+  - 香織
+  - 你以為跟之前一樣
+- wait:
+  - 25
+- print:
+  - 香織
+  - 要去火山嗎？
+- wait:
+  - 60
+- print:
+  - 香織
+  - >2
+
+- face:
+  - 101711
+  - 1
+- print:
+  - 香織
+  - 今天不是喔～
+- wait:
+  - 50
+- print:
+  - 香織
+  - 夏天去火山實在太熱了嘛～♪
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1105001_009
+- face:
+  - 101711
+  - 1
+- nod:
+  - 101711
+- print:
+  - 香織
+  - 今天啊，
+- wait:
+  - 30
+- print:
+  - 香織
+  - 在那邊的舞台有舞會喔～
+- wait:
+  - 50
+- print:
+  - 香織
+  - >2
+
+- face:
+  - 101711
+  - 2
+- print:
+  - 香織
+  - 大家一起吃吃喝喝熱熱鬧鬧，
+- wait:
+  - 30
+- print:
+  - 香織
+  - 一起跳舞的宴會喔～
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1105001_010
+- face:
+  - 101711
+  - 1
+- print:
+  - 香織
+  - 其實啊，
+- wait:
+  - 30
+- print:
+  - 香織
+  - 我被人拜託在宴會上演奏呢～
+- wait:
+  - 50
+- print:
+  - 香織
+  - >2
+
+- face:
+  - 101711
+  - 2
+- print:
+  - 香織
+  - 說是請我
+- wait:
+  - 35
+- print:
+  - 香織
+  - 演奏故鄉的樂器～♪
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1105001_011
+- face:
+  - 101711
+  - 1
+- print:
+  - 香織
+  - 所以啊，我想要讓{0}也聽聽看我的演奏，
+- wait:
+  - 55
+- print:
+  - 香織
+  - >2-
+
+    就把你帶過來啦～♪
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1105001_012
+- face:
+  - 101711
+  - 6
+- nod:
+  - 101711
+- print:
+  - 香織
+  - ……這麼說起來，
+- wait:
+  - 45
+- print:
+  - 香織
+  - 有點強行就把你給拉來了，
+- wait:
+  - 50
+- print:
+  - 香織
+  - >2-
+
+    你會有其他事情要辦嗎？　
+- wait:
+  - 55
+- face:
+  - 101711
+  - 4
+- print:
+  - 香織
+  - >-
+    因為找到{0}太開心了，
+
+    不小心就
+- wait:
+  - 30
+- print:
+  - 香織
+  - 一頭熱起來了呢～
+- touch: *o0
+- choice:
+  - 沒關係。
+  - 3
+- choice:
+  - 我隨時都有空喔。
+  - 4
+- tag:
+  - 3
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1105001_013
+- face:
+  - 101711
+  - 1
+- pop:
+  - 101711
+- print:
+  - 香織
+  - 太好了～
+- wait:
+  - 45
+- print:
+  - 香織
+  - >2-
+
+    不要總是衝動行事，
+- wait:
+  - 35
+- print:
+  - 香織
+  - 我經常被霞這樣說呢～
+- touch: *o0
+- goto:
+  - 5
+- tag:
+  - 4
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1105001_014
+- face:
+  - 101711
+  - 6
+- nod:
+  - 101711
+- print:
+  - 香織
+  - 是這樣嗎～？　
+- wait:
+  - 40
+- face:
+  - 101711
+  - 1
+- print:
+  - 香織
+  - 那以後有什麼事情的時候，
+- wait:
+  - 45
+- print:
+  - 香織
+  - >2-
+
+    我都會帶{0}一起去喔～♪
+- wait:
+  - 45
+- print:
+  - 香織
+  - >2
+
+- face:
+  - 101711
+  - 6
+- print:
+  - 香織
+  - 有空的話沒關係對吧～？
+- touch: *o0
+- tag:
+  - 5
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1105001_015
+- face:
+  - 101711
+  - 2
+- nod:
+  - 101711
+- print:
+  - 香織
+  - 我放心了～！
+- wait:
+  - 45
+- print:
+  - 香織
+  - >2
+
+- face:
+  - 101711
+  - 1
+- print:
+  - 香織
+  - 那麼那麼，
+- wait:
+  - 10
+- print:
+  - 香織
+  - 我去換衣服囉～
+- wait:
+  - 50
+- print:
+  - 香織
+  - >2-
+
+    說到海邊
+- wait:
+  - 20
+- print:
+  - 香織
+  - 當然就是泳裝囉～♪
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_dirt_walk_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 101711
+  - 30
+- bgm:
+  - stop
+  - 3
+- black_out:
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- se:
+  - se_adv_cloth_castoff_02
+- wait:
+  - 60
+- black_in: *o0
+- amb:
+  - amb_adv_seaside_01
+- chara_full:
+  - 110511
+  - RC
+  - 1
+- se:
+  - se_adv_step_dirt_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - RC
+  - 45
+- fadein:
+  - 110511
+  - 45
+- window_visible:
+  - true
+- bgm:
+  - bgm_M245_Ver2
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_016
+- face:
+  - 110511
+  - 1
+- print:
+  - 香織
+  - 久等了～！
+- touch: *o0
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_017
+- face:
+  - 110511
+  - 2
+- emotion:
+  - note1_L
+  - 110511
+  - -95
+  - 465
+  - se_adv_emote_note_01
+- print:
+  - 香織
+  - 陽光直接照射到肌膚上
+- wait:
+  - 45
+- print:
+  - 香織
+  - 真是舒服呢～♪
+- wait:
+  - 50
+- print:
+  - 香織
+  - >2
+
+- face:
+  - 110511
+  - 6
+- print:
+  - 香織
+  - 嗯？　
+- wait:
+  - 40
+- print:
+  - 香織
+  - 為什麼一副不可思議的表情～？
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_tickle_02
+- nod:
+  - 110511
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_018
+- face:
+  - 110511
+  - 6
+- print:
+  - 香織
+  - 跟平常沒什麼差別？
+- wait:
+  - 55
+- print:
+  - 香織
+  - >2
+
+- face:
+  - 110511
+  - 1
+- print:
+  - 香織
+  - 才沒這回事呢～？
+- touch: *o0
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_019
+- face:
+  - 110511
+  - 1
+- print:
+  - 香織
+  - 布料比較少，
+- wait:
+  - 40
+- print:
+  - 香織
+  - 材質也不一樣喔――？
+- wait:
+  - 50
+- print:
+  - 香織
+  - >2
+
+- face:
+  - 110511
+  - 2
+- print:
+  - 香織
+  - 來來來，
+- wait:
+  - 20
+- print:
+  - 香織
+  - 摸摸看～♪
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 110511
+  - 30
+- se:
+  - se_adv_step_dirt_move_01
+- camera_zoom:
+  - 1.2
+  - 15
+- chara_full:
+  - 110511
+  - C
+  - 1
+- fadein:
+  - 110511
+  - 30
+- se:
+  - se_adv_cloth_move_normal_01
+- shake:
+  - 110511
+- window_visible:
+  - true
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_020
+- face:
+  - 110511
+  - 1
+- print:
+  - 香織
+  - 對吧～
+- wait:
+  - 15
+- print:
+  - 香織
+  - 不一樣對吧～？
+- wait:
+  - 40
+- print:
+  - 香織
+  - >2
+
+- face:
+  - 110511
+  - 2
+- nod:
+  - 110511
+- print:
+  - 香織
+  - 嗯，
+- wait:
+  - 20
+- print:
+  - 香織
+  - 懂了的話就好～♪
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 110511
+  - 30
+- se:
+  - se_adv_step_dirt_move_01
+- camera_zoom:
+  - 1
+  - 15
+- chara_full:
+  - 110511
+  - C
+  - 2
+- fadein:
+  - 110511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_021
+- face:
+  - 110511
+  - 2
+- emotion:
+  - twinkle1_R
+  - 110511
+  - -105
+  - 470
+  - se_adv_emote_twinkle_01
+- print:
+  - 香織
+  - 嗯～
+- wait:
+  - 45
+- print:
+  - 香織
+  - 換上泳裝之後
+- wait:
+  - 30
+- print:
+  - 香織
+  - 總覺得能聽見海洋的聲音呢～
+- wait:
+  - 60
+- print:
+  - 香織
+  - >2
+
+- face:
+  - 110511
+  - 1
+- print:
+  - 香織
+  - 過來吧～
+- wait:
+  - 30
+- print:
+  - 香織
+  - 過來吧～
+- wait:
+  - 10
+- print:
+  - 香織
+  - 像是在這麼說呢～
+- touch: *o0
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_022
+- face:
+  - 110511
+  - 1
+- nod:
+  - 110511
+- print:
+  - 香織
+  - 但是，
+- wait:
+  - 30
+- print:
+  - 香織
+  - 我要好好忍耐想衝進海裡的衝動。
+- wait:
+  - 60
+- print:
+  - 香織
+  - >2-
+
+    派對是晚上開始，
+- wait:
+  - 30
+- print:
+  - 香織
+  - 所以得趁現在好好練習呢～！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_cloth_move_give_01
+- nod:
+  - 110511
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_023
+- face:
+  - 110511
+  - 1
+- print:
+  - 香織
+  - 這就是今天
+- wait:
+  - 25
+- print:
+  - 香織
+  - 要演奏的樂器喔～
+- wait:
+  - 50
+- print:
+  - 香織
+  - >2
+
+- face:
+  - 110511
+  - 2
+- print:
+  - 香織
+  - 這個叫作三線喔～
+- wait:
+  - 45
+- print:
+  - 香織
+  - 形狀很有趣吧～？
+- touch: *o0
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_024
+- face:
+  - 110511
+  - 1
+- print:
+  - 香織
+  - 在我的故鄉，
+- wait:
+  - 40
+- print:
+  - 香織
+  - 每個小孩都會跟爺爺奶奶學習怎麼彈～
+- wait:
+  - 65
+- print:
+  - 香織
+  - >2-
+
+    我一演奏啊，
+- wait:
+  - 50
+- print:
+  - 香織
+  - 不論人還是動物，
+- wait:
+  - 30
+- face:
+  - 110511
+  - 2
+- print:
+  - 香織
+  - 就連魔物都會開始跳舞喔～♪
+- touch: *o0
+- bgm:
+  - stop
+  - 4
+  - 1
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_025
+- face:
+  - 110511
+  - 1
+- pop:
+  - 110511
+- print:
+  - 香織
+  - 那就
+- wait:
+  - 25
+- print:
+  - 香織
+  - 稍微來彈彈看吧～
+- touch: *o0
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_026
+- face:
+  - 110511
+  - 2
+- emotion:
+  - note1_L
+  - 110511
+  - -95
+  - 465
+  - se_adv_sanshin_01
+- print:
+  - 香織
+  - ～♪
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_rope_cut_01
+- flash: *o0
+- face:
+  - 110511
+  - 6
+- pop:
+  - 110511
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_027
+- face:
+  - 110511
+  - 6
+- print:
+  - 香織
+  - 啊！
+- touch: *o0
+- bgm:
+  - bgm_M51
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_028
+- face:
+  - 110511
+  - 4
+- emotion:
+  - drop1_R
+  - 110511
+  - 65
+  - 640
+  - se_adv_emote_drop_01
+- print:
+  - 香織
+  - 唉呀～
+- wait:
+  - 45
+- print:
+  - 香織
+  - >2-
+
+    弦剛好就斷掉了呢～
+- touch: *o0
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_029
+- face:
+  - 110511
+  - 4
+- print:
+  - 香織
+  - 明明就有經常在換弦呢～？
+- wait:
+  - 50
+- print:
+  - 香織
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - 香織
+  - 時機真糟呢～
+- touch: *o0
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_030
+- face:
+  - 110511
+  - 6
+- eye_open:
+  - TRUE
+- print:
+  - 香織
+  - 嗯？　
+- wait:
+  - 30
+- print:
+  - 香織
+  - 比起正式上場的時候斷掉要好～？
+- wait:
+  - 75
+- print:
+  - 香織
+  - >2
+
+- face:
+  - 110511
+  - 1
+- print:
+  - 香織
+  - 時機可以說是不錯嗎～？
+- touch: *o0
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_031
+- face:
+  - 110511
+  - 4
+- emotion:
+  - gloomy1_R
+  - 110511
+  - 50
+  - 495
+  - se_adv_emote_gloomy_01
+- print:
+  - 香織
+  - 啊～
+- wait:
+  - 30
+- print:
+  - 香織
+  - 不過
+- wait:
+  - 30
+- print:
+  - 香織
+  - 沒有帶替換用的弦來呢～
+- wait:
+  - 60
+- print:
+  - 香織
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 香織
+  - 嗯～。
+- wait:
+  - 30
+- print:
+  - 香織
+  - 真是困擾啊～
+- touch: *o0
+- choice:
+  - 有沒有人有替換的弦呢？
+  - 6
+- tag:
+  - 6
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_032
+- face:
+  - 110511
+  - 4
+- eye_open:
+  - True
+- print:
+  - 香織
+  - 誰嗎……
+- wait:
+  - 65
+- face:
+  - 110511
+  - 6
+- print:
+  - 香織
+  - 誰啊？
+- touch: *o0
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_033
+- face:
+  - 110511
+  - 2
+- print:
+  - 香織
+  - 那個啊～！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 110511
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- bgm:
+  - stop
+  - 2
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500170
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_forest_01
+- chara_full:
+  - 110511
+  - LC
+  - 1
+- se:
+  - se_adv_step_leaves_run_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 30
+- fadein:
+  - 110511
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M12
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_034
+- face:
+  - 110511
+  - 1
+- print:
+  - 香織
+  - 記得應該是
+- wait:
+  - 15
+- print:
+  - 香織
+  - 在這邊～
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 110511
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 1614
+  - C
+  - 1
+- fadein:
+  - 1614
+  - 30
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - TRUE
+- focus:
+  - 1614
+- bust:
+  - 1614
+  - 0
+- face:
+  - 1614
+  - 1
+- effect:
+  - 9
+- print:
+  - 魔物
+  - ──嗚喔喔喔喔喔！
+- shake_screen: *o0
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 1614
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 110511
+  - C
+  - 2
+- fadein:
+  - 110511
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_035
+- face:
+  - 110511
+  - 2
+- emotion:
+  - note1_L
+  - 110511
+  - -95
+  - 465
+  - se_adv_emote_note_01
+- print:
+  - 香織
+  - 有了有了～♪
+- touch: *o0
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_036
+- face:
+  - 110511
+  - 1
+- print:
+  - 香織
+  - 這孩子的鬍鬚很強韌又有彈性，
+- wait:
+  - 60
+- print:
+  - 香織
+  - >2-
+
+    正好可以拿來當樂器的弦呢～♪
+- touch: *o0
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_037
+- face:
+  - 110511
+  - 2
+- nod:
+  - 110511
+- print:
+  - 香織
+  - 看起來毛髮也～
+- wait:
+  - 15
+- print:
+  - 香織
+  - 很濃密～
+- wait:
+  - 15
+- print:
+  - 香織
+  - 很可愛吧～？
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 110511
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 1614
+  - C
+  - 2
+- fadein:
+  - 1614
+  - 30
+- window_visible:
+  - TRUE
+- se:
+  - se_adv_creature_cmn_01
+- focus:
+  - 1614
+- bust:
+  - 1614
+  - 0
+- face:
+  - 1614
+  - 1
+- print:
+  - 魔物
+  - ──嗚喔喔喔喔喔！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 1614
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 110511
+  - C
+  - 6
+- fadein:
+  - 110511
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_038
+- face:
+  - 110511
+  - 6
+- emotion:
+  - question1_R
+  - 110511
+  - 135
+  - 445
+  - se_adv_emote_question_01
+- print:
+  - 香織
+  - 嗯？　
+- wait:
+  - 15
+- print:
+  - 香織
+  - 很危險？　
+- wait:
+  - 45
+- face:
+  - 110511
+  - 1
+- print:
+  - 香織
+  - 沒問題的～
+- wait:
+  - 55
+- print:
+  - 香織
+  - >2-
+
+    這孩子只是警戒心很強，
+- wait:
+  - 45
+- print:
+  - 香織
+  - 不會攻擊人的～♪
+- touch: *o0
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_039
+- face:
+  - 110511
+  - 4
+- nod:
+  - 110511
+- print:
+  - 香織
+  - 不過，
+- wait:
+  - 30
+- print:
+  - 香織
+  - 就算說「請給我鬍鬚～」，
+- wait:
+  - 35
+- print:
+  - 香織
+  - >2-
+
+    好像也不是這樣
+- wait:
+  - 15
+- print:
+  - 香織
+  - 就會乖乖給我的氣氛呢～
+- touch: *o0
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_040
+- face:
+  - 110511
+  - 1
+- print:
+  - 香織
+  - 這種時候
+- wait:
+  - 20
+- face:
+  - 110511
+  - 2
+- print:
+  - 香織
+  - 就要用這個啦～！
+- wait:
+  - 35
+- print:
+  - 香織
+  - >2-
+
+    該讓三線出場囉～♪
+- touch: *o0
+- bgm:
+  - stop
+  - 4.5
+  - 1
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_041
+- face:
+  - 110511
+  - 1
+- print:
+  - 香織
+  - 雖然有一根弦斷掉了，
+- wait:
+  - 45
+- face:
+  - 110511
+  - 2
+- print:
+  - 香織
+  - 不過只要這樣彈～♪
+- touch: *o0
+- window_visible:
+  - FALSE
+- emotion:
+  - note1_L
+  - 110511
+  - -95
+  - 465
+  - se_adv_sanshin_02
+- wait:
+  - 45
+- emotion_end:
+  - 110511
+- fadeout:
+  - 110511
+  - 45
+- chara_full:
+  - 110511
+  - LC
+  - 2
+- chara_full:
+  - 1614
+  - R
+  - 1
+- se:
+  - se_adv_step_monster_move_01
+- change:
+  - RC
+  - R
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - TRUE
+- se:
+  - se_adv_creature_friendly_01
+- focus:
+  - 1614
+- bust:
+  - 1614
+  - 0
+- face:
+  - 1614
+  - 1
+- nod:
+  - 1614
+- print:
+  - 魔物
+  - ――嘰歐歐歐歐歐！
+- touch: *o0
+- bgm:
+  - bgm_M246_Ver2_02
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_042
+- face:
+  - 110511
+  - 1
+- print:
+  - 香織
+  - 你看～
+- wait:
+  - 20
+- print:
+  - 香織
+  - 牠變得乖乖的了吧～？
+- wait:
+  - 55
+- print:
+  - 香織
+  - >2-
+
+    這些孩子啊，
+- wait:
+  - 30
+- print:
+  - 香織
+  - 用這些長長的鬍鬚
+- wait:
+  - 40
+- print:
+  - 香織
+  - 來感受聲音喔～
+- touch: *o0
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_043
+- face:
+  - 110511
+  - 2
+- print:
+  - 香織
+  - 聽到好聽的聲音的時候啊，
+- wait:
+  - 35
+- print:
+  - 香織
+  - 就能傳達彼此的感情了喔～♪
+- touch: *o0
+- se:
+  - se_adv_creature_friendly_02
+- focus:
+  - 1614
+- bust:
+  - 1614
+  - 0
+- face:
+  - 1614
+  - 1
+- pop:
+  - 1614
+- print:
+  - 魔物
+  - ――嘰歐歐歐歐歐！
+- touch: *o0
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_044
+- face:
+  - 110511
+  - 2
+- emotion:
+  - note1_L
+  - 110511
+  - -95
+  - 465
+  - se_adv_emote_note_01
+- print:
+  - 香織
+  - 啊哈～
+- wait:
+  - 30
+- print:
+  - 香織
+  - 好癢喔～♪
+- touch: *o0
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_045
+- face:
+  - 110511
+  - 1
+- print:
+  - 香織
+  - 那麼，
+- wait:
+  - 30
+- print:
+  - 香織
+  - 可以給我一點你的鬍鬚嗎～？
+- touch: *o0
+- se:
+  - se_adv_creature_friendly_04
+- focus:
+  - 1614
+- bust:
+  - 1614
+  - 0
+- face:
+  - 1614
+  - 1
+- print:
+  - 魔物
+  - ──呀喔喔喔喔喔！
+- touch: *o0
+- window_visible:
+  - false
+- focus:
+  - 110511:1614
+- se:
+  - se_adv_cloth_move_hard_01
+- nod:
+  - 110511
+- wait:
+  - 10
+- se:
+  - se_adv_body_touch_01
+- shake:
+  - 1614
+- window_visible:
+  - true
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_046
+- face:
+  - 110511
+  - 2
+- print:
+  - 香織
+  - 謝謝～
+- wait:
+  - 45
+- print:
+  - 香織
+  - 幫大忙了呢～！
+- wait:
+  - 35
+- print:
+  - 香織
+  - >2
+
+- face:
+  - 110511
+  - 1
+- print:
+  - 香織
+  - 那就
+- wait:
+  - 15
+- print:
+  - 香織
+  - 在這裡換弦吧～
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- chara_full:
+  - 110511
+  - C
+  - 1
+- fadein:
+  - 110511
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_047
+- face:
+  - 110511
+  - 1
+- se:
+  - se_adv_cloth_move_normal_02
+- print:
+  - 香織
+  - 把這邊捻在一起、
+- wait:
+  - 45
+- print:
+  - 香織
+  - >2
+
+- nod:
+  - 110511
+- se:
+  - se_adv_tickle_03
+- print:
+  - 香織
+  - 那邊纏起來、
+- wait:
+  - 30
+- print:
+  - 香織
+  - 這裡綁起來，
+- wait:
+  - 45
+- print:
+  - 香織
+  - >2
+
+- face:
+  - 110511
+  - 6
+- print:
+  - 香織
+  - 然後再把弦台立起來，
+- wait:
+  - 30
+- print:
+  - 香織
+  - 一點一點的調音～
+- wait:
+  - 15
+- print:
+  - 香織
+  - 弄成和弦的話～
+- touch: *o0
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_048
+- face:
+  - 110511
+  - 2
+- emotion:
+  - twinkle1_R
+  - 110511
+  - -105
+  - 470
+  - se_adv_emote_twinkle_01
+- print:
+  - 香織
+  - 完成～♪
+- wait:
+  - 45
+- print:
+  - 香織
+  - >2
+
+- face:
+  - 110511
+  - 1
+- print:
+  - 香織
+  - 這樣就完好如初，
+- wait:
+  - 40
+- face:
+  - 110511
+  - 2
+- print:
+  - 香織
+  - 不對，
+- wait:
+  - 20
+- print:
+  - 香織
+  - 變成比之前還要好的聲音了～！
+- touch: *o0
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_049
+- face:
+  - 110511
+  - 1
+- print:
+  - 香織
+  - 稍微彈彈看吧～♪
+- touch: *o0
+- window_visible:
+  - FALSE
+- emotion:
+  - note1_L
+  - 110511
+  - -95
+  - 465
+  - se_adv_sanshin_03
+- wait:
+  - 45
+- emotion_end:
+  - 110511
+- window_visible:
+  - TRUE
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_050
+- face:
+  - 110511
+  - 2
+- pop:
+  - 110511
+- print:
+  - 香織
+  - 如何～？　
+- wait:
+  - 35
+- print:
+  - 香織
+  - 身體好像要擅自動起來～？
+- wait:
+  - 55
+- print:
+  - 香織
+  - >2-
+
+    不用忍耐，
+- wait:
+  - 15
+- print:
+  - 香織
+  - 跳起舞來就好了喔～♪
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 110511
+  - 30
+- chara_full:
+  - 1614
+  - C
+  - 1
+- fadein:
+  - 1614
+  - 30
+- se:
+  - se_adv_creature_friendly_02
+- window_visible:
+  - TRUE
+- focus:
+  - 1614
+- bust:
+  - 1614
+  - 0
+- face:
+  - 1614
+  - 1
+- pop:
+  - 1614
+- print:
+  - 魔物
+  - ――咕哦哦哦哦哦！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 1614
+  - 30
+- chara_full:
+  - 110511
+  - C
+  - 2
+- fadein:
+  - 110511
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_051
+- face:
+  - 110511
+  - 2
+- print:
+  - 香織
+  - 你看，
+- wait:
+  - 30
+- print:
+  - 香織
+  - 這些孩子們也很開心呢～♪
+- touch: *o0
+- focus:
+  - 110511
+- bust:
+  - 110511
+  - 0
+- vo:
+  - vo_adv_1105001_052
+- face:
+  - 110511
+  - 2
+- emotion:
+  - note1_L
+  - 110511
+  - -95
+  - 465
+  - se_adv_sanshin_01
+- print:
+  - 香織
+  - ～♪
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 110511
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    之後好一段時間，
+
+    森林中迴盪著悅耳的音色。
+- touch: *o0
+- window_visible:
+  - FALSE
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

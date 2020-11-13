@@ -1,0 +1,239 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500353
+- amb:
+  - amb_adv_outdoors_night_02
+- ui_visible:
+  - FALSE
+- situation:
+  - 萬聖節派對
+- chara_full:
+  - 111111
+  - C
+  - 2
+- fadein:
+  - 111111
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M267_03
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_6025209_000
+- face:
+  - 111111
+  - 2
+- print:
+  - 鏡華
+  - 多虧了你，
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 我才能和美美與禊見面。
+- wait:
+  - 45
+- print:
+  - 鏡華
+  - >2-
+
+    這下總算
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 可以辦萬聖節派對了。
+- touch: &o0 []
+- choice:
+  - 真期待！
+  - 1
+  - 1
+- choice:
+  - 有很多點心！
+  - 2
+  - 2
+- choice:
+  - 有很多的鬼！
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_6025209_001
+- face:
+  - 111111
+  - 6
+- pop:
+  - 111111
+- print:
+  - 鏡華
+  - 哇哇！？
+- wait:
+  - 20
+- print:
+  - 鏡華
+  - >2-
+
+    別突然那麼興奮啦！
+- wait:
+  - 35
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 111111
+  - 4
+- print:
+  - 鏡華
+  - 害我嚇了一跳！！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_6025209_002
+- face:
+  - 111111
+  - 1
+- nod:
+  - 111111
+- print:
+  - 鏡華
+  - 真是的，
+- wait:
+  - 30
+- print:
+  - 鏡華
+  - 真拿你沒辦法耶。
+- wait:
+  - 40
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 111111
+  - 2
+- print:
+  - 鏡華
+  - 我會把你的份也拿來的。
+- wait:
+  - 40
+- print:
+  - 鏡華
+  - >2-
+
+    請多吃一點哦。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_6025209_003
+- face:
+  - 111111
+  - 6
+- pop:
+  - 111111
+- print:
+  - 鏡華
+  - 鬼、
+- wait:
+  - 10
+- print:
+  - 鏡華
+  - 鬼！？　
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 在哪裡！　
+- wait:
+  - 20
+- print:
+  - 鏡華
+  - 在哪裡呀！？
+- wait:
+  - 45
+- print:
+  - 鏡華
+  - >2-
+
+    ……啊！？　
+- wait:
+  - 25
+- face:
+  - 111111
+  - 4
+- print:
+  - 鏡華
+  - 你是說扮裝的孩子們嗎…
+- wait:
+  - 60
+- print:
+  - 鏡華
+  - >2-
+
+    太好了～。
+- wait:
+  - 40
+- face:
+  - 111111
+  - 3
+- print:
+  - 鏡華
+  - 我、
+- wait:
+  - 15
+- print:
+  - 鏡華
+  - 我才不是在害怕呢！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 111111
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

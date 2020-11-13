@@ -1,0 +1,245 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500353
+- amb:
+  - amb_adv_outdoors_night_02
+- ui_visible:
+  - FALSE
+- situation:
+  - 優秀的姐姐
+- chara_full:
+  - 111211
+  - C
+  - 1
+- fadein:
+  - 111211
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M267
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_6025308_000
+- face:
+  - 111211
+  - 1
+- print:
+  - 禊
+  - 和花在一起時的美美，
+- wait:
+  - 30
+- print:
+  - 禊
+  - 就是很優秀的姐姐呢！
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 6
+- print:
+  - 禊
+  - 禊也能成為那樣子的姐姐嗎？
+- wait:
+  - 65
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 1
+- print:
+  - 禊
+  - 要怎麼做才能變成那樣？
+- touch: &o0 []
+- choice:
+  - 教她惡作劇。
+  - 1
+  - 1
+- choice:
+  - 只要溫柔就行了。
+  - 2
+  - 2
+- choice:
+  - 只要變得可靠就行了。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_6025308_001
+- face:
+  - 111211
+  - 6
+- print:
+  - 禊
+  - 要我教惡作劇嗎？
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 1
+- print:
+  - 禊
+  - 那麼我們馬上就能加深感情呢！
+- wait:
+  - 50
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 4
+- nod:
+  - 111211
+- print:
+  - 禊
+  - 可是那樣，
+- wait:
+  - 15
+- print:
+  - 禊
+  - 與其說是當姐姐，
+- wait:
+  - 20
+- print:
+  - 禊
+  - 好像是師父吧……？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_6025308_002
+- face:
+  - 111211
+  - 6
+- print:
+  - 禊
+  - 要溫柔嗎～
+- wait:
+  - 60
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 4
+- print:
+  - 禊
+  - 那就不能惡作劇了吧～
+- wait:
+  - 65
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 6
+- pop:
+  - 111211
+- print:
+  - 禊
+  - ……我覺得辦不到！！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 111211
+- bust:
+  - 111211
+  - 0
+- vo:
+  - vo_adv_6025308_003
+- face:
+  - 111211
+  - 1
+- print:
+  - 禊
+  - 變可靠嗎～
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2
+
+- nod:
+  - 111211
+- face:
+  - 111211
+  - 2
+- print:
+  - 禊
+  - 那就多去探險，
+- wait:
+  - 20
+- print:
+  - 禊
+  - 變得可靠吧～！
+- wait:
+  - 45
+- print:
+  - 禊
+  - >2
+
+- face:
+  - 111211
+  - 1
+- print:
+  - 禊
+  - 哥哥也會幫忙對吧！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 111211
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - false
+- end: *o0

@@ -1,0 +1,304 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500750
+- amb:
+  - amb_adv_room_noise_01
+- ui_visible:
+  - false
+- situation:
+  - 先輩のプレゼン
+- chara_full:
+  - 110911
+  - C
+  - 4
+- fadein:
+  - 110911
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M51
+  - 0
+  - 0
+  - 1
+- focus:
+  - 110911
+- bust:
+  - 110911
+  - 0
+- vo:
+  - vo_adv_6038109_000
+- face:
+  - 110911
+  - 4
+- emotion:
+  - drop1_R
+  - 110911
+  - 60
+  - 640
+  - se_adv_emote_drop_01
+- print:
+  - チエル
+  - せんぷぁ～い……
+- wait:
+  - 45
+- print:
+  - チエル
+  - メルクリちゃんの資金援助、
+- wait:
+  - 35
+- print:
+  - チエル
+  - もらい損ねました……
+- wait:
+  - 55
+- print:
+  - チエル
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - チエル
+  - 企画自体は良かったはずなんですけど、
+- wait:
+  - 45
+- eye_open:
+  - TRUE
+- print:
+  - チエル
+  - プレゼンって難しいですねえ。
+- wait:
+  - 50
+- print:
+  - チエル
+  - >2
+
+- face:
+  - 110911
+  - 1
+- print:
+  - チエル
+  - ちょっと先輩もやってみてください。
+- wait:
+  - 35
+- print:
+  - チエル
+  - 自分の長所をＰＲするんです。
+- touch: &o0 []
+- choice:
+  - つよい。
+  - 1
+  - 1
+- choice:
+  - やさしい。
+  - 2
+  - 2
+- choice:
+  - 僕には何もない。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 110911
+- bust:
+  - 110911
+  - 0
+- vo:
+  - vo_adv_6038109_001
+- face:
+  - 110911
+  - 6
+- emotion:
+  - question1_R
+  - 110911
+  - 105
+  - 475
+  - se_adv_emote_question_01
+- print:
+  - チエル
+  - 強い……
+- wait:
+  - 40
+- print:
+  - チエル
+  - でしたっけ？　
+- wait:
+  - 40
+- print:
+  - チエル
+  - あ、
+- wait:
+  - 15
+- print:
+  - チエル
+  - 精神的にってことです？　
+- wait:
+  - 35
+- face:
+  - 110911
+  - 1
+- print:
+  - チエル
+  - それならまあ。
+- wait:
+  - 30
+- print:
+  - チエル
+  - >2-
+
+    うちら着替えよっかーみたいな流れになっても、
+- wait:
+  - 30
+- print:
+  - チエル
+  - >-
+    ぼけーっとして
+
+    教室から一向に出て行く気配ないトコとか
+- wait:
+  - 45
+- print:
+  - チエル
+  - 「強っ！」て思いますけど。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 110911
+- bust:
+  - 110911
+  - 0
+- vo:
+  - vo_adv_6038109_002
+- face:
+  - 110911
+  - 2
+- print:
+  - チエル
+  - あー、
+- wait:
+  - 20
+- print:
+  - チエル
+  - いいですよね「優しい」。
+- wait:
+  - 40
+- face:
+  - 110911
+  - 1
+- print:
+  - チエル
+  - 強いとか賢いとか何々が得意とかは、
+- wait:
+  - 55
+- print:
+  - チエル
+  - >2-
+
+    努力だったり才能だったりが必要ですけど、
+- wait:
+  - 50
+- face:
+  - 110911
+  - 2
+- print:
+  - チエル
+  - 優しいだけは何も要らない、
+- wait:
+  - 40
+- print:
+  - チエル
+  - >2-
+
+    誰でも自称した瞬間に獲得できる、
+- wait:
+  - 45
+- nod:
+  - 110911
+- print:
+  - チエル
+  - 実質ただの「無」ですもんね！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 110911
+- bust:
+  - 110911
+  - 0
+- vo:
+  - vo_adv_6038109_003
+- face:
+  - 110911
+  - 6
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 110911
+- print:
+  - チエル
+  - 大謙虚！　
+- wait:
+  - 45
+- print:
+  - チエル
+  - なるほど、
+- wait:
+  - 20
+- print:
+  - チエル
+  - その奥ゆかしさは確かに先輩の長所かもです。
+- wait:
+  - 55
+- print:
+  - チエル
+  - >2
+
+- face:
+  - 110911
+  - 1
+- print:
+  - チエル
+  - いますもんね、
+- wait:
+  - 35
+- print:
+  - チエル
+  - >-
+    世間の評価４０～５０点なのに何故か８５点ぐらいの
+
+    目線からモノ申してくる人。
+- wait:
+  - 85
+- print:
+  - チエル
+  - 自己肯定感は先輩ぐらいが丁度よきですね。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 110911
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

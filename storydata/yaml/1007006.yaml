@@ -1,0 +1,1403 @@
+- title:
+  - 宮子 第6話
+- outline:
+  - 在洞窟裡迷路的{0}和宮子。為了他死掉後能多個幽靈朋友而開心，但突然意識到自此也會失去買布丁的幫手。幽靈只要自己當就好，宮子天真無邪的笑著。
+- background:
+  - 500240
+- amb:
+  - amb_adv_cave_with_water_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 布丁的引導
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - '{0}和宮子一起造訪了某座洞窟。'
+- touch: &o0 []
+- window_visible:
+  - false
+- bgm:
+  - bgm_M11_02_Edit
+  - 0
+  - 0
+  - 1
+- chara_full:
+  - 100711
+  - LC
+  - 2
+- change:
+  - C
+  - LC
+- fadein:
+  - 100711
+  - 30
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007006_000
+- face:
+  - 100711
+  - 2
+- nod:
+  - 100711
+- print:
+  - 宮子
+  - 嚼啊嚼～♪布丁好好吃來的～♪
+- wait:
+  - 120
+- print:
+  - 宮子
+  - >2-
+
+    嚼啊嚼……
+- wait:
+  - 15
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - 嗯嗯？
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007006_001
+- face:
+  - 100711
+  - 4
+- emotion:
+  - drop1_R
+  - 100711
+  - 100
+  - 640
+  - se_adv_emote_drop_01
+- print:
+  - 宮子
+  - 布、
+- shake:
+  - 100711
+- print:
+  - 宮子
+  - 布丁沒有了……
+- wait:
+  - 75
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - 喂，快交出布丁來的～
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 100711
+  - 6
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007006_002
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - ……你沒有布丁嗎？
+- wait:
+  - 60
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - 那我們回蘭德索爾吧～
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007006_003
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - 而且到底要在這個洞窟走到什麼時候來的？
+- wait:
+  - 75
+- print:
+  - 宮子
+  - >2-
+
+    你說或許可以找到宮子變成幽靈的線索，
+- wait:
+  - 90
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 4
+- print:
+  - 宮子
+  - 但是卻完全到不了目的地來的……
+- touch: *o0
+- choice:
+  - 我們迷路了……
+  - 1
+- tag:
+  - 1
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007006_004
+- face:
+  - 100711
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100711
+  - 20
+  - 645
+  - se_adv_emote_common_01
+- print:
+  - 宮子
+  - 欸！
+- wait:
+  - 10
+- print:
+  - 宮子
+  - >2-
+
+    真的嗎？
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - 你來亂的嗎！！
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_throw_comedy_01
+- effect:
+  - 0009
+- nod:
+  - 100711
+- wait:
+  - 5
+- fadeout:
+  - 100711
+  - 30
+- effect:
+  - 0017
+  - se_adv_comic_punch_02
+- shake_once:
+  - 2
+- wait:
+  - 15
+- window_visible:
+  - true
+- choice:
+  - 不要亂丟布丁空盒！
+  - 2
+- tag:
+  - 2
+- chara_full:
+  - 100711
+  - C
+  - 3
+- fadein:
+  - 100711
+  - 30
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007006_005
+- face:
+  - 100711
+  - 3
+- emotion:
+  - anger1_R
+  - 100711
+  - -90
+  - 535
+  - se_adv_emote_anger_01
+- print:
+  - 宮子
+  - 再堅持下去也是白費力氣來的―
+- wait:
+  - 10
+- print:
+  - 宮子
+  - >2-
+
+    我們趕快回去吃布丁吧～
+- wait:
+  - 60
+- print:
+  - 宮子
+  - >2-
+
+    就當作懲罰，布丁要由你請客的―！
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 100711
+  - 6
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007006_006
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - ……不知道回去的路了？
+- wait:
+  - 75
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 4
+- print:
+  - 宮子
+  - 那我們不就沒辦法從這裡出去了！
+- wait:
+  - 10
+- touch: *o0
+- bright_change:
+  - 1
+  - 50
+- effect:
+  - 0011
+  - se_adv_emote_gloomy_01
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007006_007
+- face:
+  - 100711
+  - 4
+- print:
+  - 宮子
+  - 接下來要找出口在哪？
+- wait:
+  - 45
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 7
+- pop:
+  - 100711
+- print:
+  - 宮子
+  - 才不要咧～！不想再繼續走了～！
+- wait:
+  - 105
+- print:
+  - 宮子
+  - >2
+
+- pop:
+  - 100711
+- print:
+  - 宮子
+  - 宮子走到累了～！
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007006_008
+- face:
+  - 100711
+  - 4
+- print:
+  - 宮子
+  - 雖然宮子一直用飄的，沒走半步路來的，
+- wait:
+  - 60
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - 但是宮子還是累慘了～！
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007006_009
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - 啊啊！還是布丁比較重要來的！
+- wait:
+  - 85
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 4
+- print:
+  - 宮子
+  - 如果就這樣困在洞窟裡面，就沒辦法吃布丁了……
+- wait:
+  - 120
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 7
+- print:
+  - 宮子
+  - 要是吃不到布丁，宮子會死掉的！
+- wait:
+  - 10
+- touch: *o0
+- choice:
+  - 妳明明已經是幽靈了？
+  - 3
+- tag:
+  - 3
+- bright_change:
+  - 1
+  - 100
+- effect_delete:
+  - 0011
+  - 15
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007006_010
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - 啊，宮子早就死掉了喔～
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007006_011
+- face:
+  - 100711
+  - 7
+- print:
+  - 宮子
+  - 可是吃不到布丁的話太難過了～
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 100711
+  - 6
+- emotion:
+  - notice1_L
+  - 100711
+  - -60
+  - 540
+  - se_adv_emote_common_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007006_012
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - 嗯嗯？
+- wait:
+  - 10
+- print:
+  - 宮子
+  - >2-
+
+    為什麼你從剛剛就一直東張西望來的？
+- wait:
+  - 20
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 4
+- print:
+  - 宮子
+  - ……因為擔心魔物會不會在這裡出現？
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007006_013
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - 嗯嗯……如果被魔物襲擊的話的確就糟糕了……
+- wait:
+  - 100
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 4
+- print:
+  - 宮子
+  - 宮子已經不是活人了所以沒差，
+- wait:
+  - 60
+- print:
+  - 宮子
+  - >2-
+
+    但那樣你也會死掉的……
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - 嗯？
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007006_014
+- face:
+  - 100711
+  - 6
+- emotion:
+  - notice2_L
+  - 100711
+  - -105
+  - 545
+  - se_adv_emote_nortice_01
+- print:
+  - 宮子
+  - 啊啊！如果你死掉了，我們兩個都是幽靈來的！
+- wait:
+  - 20
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 2
+- print:
+  - 宮子
+  - 那樣也是一個方法呀～！
+- wait:
+  - 10
+- print:
+  - 宮子
+  - >2-
+
+    只有我們兩個是幽靈，所以宮子會一直陪你的～
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007006_015
+- face:
+  - 100711
+  - 5
+- print:
+  - 宮子
+  - 嗯哼～兩個人在一起，
+- wait:
+  - 75
+- print:
+  - 宮子
+  - >2-
+
+    感覺像夫婦來的～♪
+- touch: *o0
+- bgm:
+  - stop
+  - 2.2
+  - 1
+- fadeout:
+  - 100711
+  - 30
+- vo_effect:
+  - 0
+- se:
+  - se_adv_flashback_comedy_01
+- amb_stop:
+  - 1
+- effect:
+  - 0026
+- background:
+  - 500041
+- wait:
+  - 30
+- amb:
+  - amb_adv_room_noise_01
+- bgm:
+  - bgm_M19
+- chara_full:
+  - 100711
+  - C
+  - 2
+- scale:
+  - 100711
+  - 1.3
+  - 2
+- fadein:
+  - 100711
+  - 30
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007006_016
+- face:
+  - 100711
+  - 2
+- print:
+  - 宮子
+  - 歡迎回家，老公大人～♪
+- wait:
+  - 55
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 1
+- print:
+  - 宮子
+  - 要先吃飯呢～？還是先洗澡呢～？
+- wait:
+  - 30
+- touch: *o0
+- choice:
+  - 先吃飯好了。
+  - 4
+- choice:
+  - 先洗澡好了。
+  - 5
+- tag:
+  - 4
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007006_017
+- face:
+  - 100711
+  - 1
+- print:
+  - 宮子
+  - 好的！今天的晚餐是……布丁來的～
+- wait:
+  - 75
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 2
+- print:
+  - 宮子
+  - 老公大人快拿出布丁呀～♪
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007006_018
+- face:
+  - 100711
+  - 6
+- emotion:
+  - question1_R
+  - 100711
+  - 140
+  - 510
+  - se_adv_emote_question_01
+- print:
+  - 宮子
+  - 嗯？布丁是老公大人要準備的呀～
+- wait:
+  - 85
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - 那是理所當然來的～！
+- wait:
+  - 45
+- print:
+  - 宮子
+  - >2-
+
+    快點拿出來啊―！
+- touch: *o0
+- fadeout:
+  - 100711
+  - 30
+- goto:
+  - 6
+- tag:
+  - 5
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007006_019
+- face:
+  - 100711
+  - 2
+- emotion:
+  - twinkle1_R
+  - 100711
+  - -145
+  - 490
+  - se_adv_emote_twinkle_01
+- print:
+  - 宮子
+  - 好的！那宮子先去洗澡～♪
+- wait:
+  - 85
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 1
+- print:
+  - 宮子
+  - 老公大人先準備好晚餐吧～
+- touch: *o0
+- fadeout:
+  - 100711
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 100711
+  - RC
+  - 2
+- change:
+  - C
+  - RC
+- fadein:
+  - 100711
+  - 30
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007006_020
+- face:
+  - 100711
+  - 2
+- print:
+  - 宮子
+  - 哼哼哼～♪
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007006_021
+- face:
+  - 100711
+  - 2
+- print:
+  - 宮子
+  - 宮子洗好澡了～♪
+- wait:
+  - 75
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 1
+- print:
+  - 宮子
+  - 呼～真是舒爽來的～
+- wait:
+  - 75
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 2
+- print:
+  - 宮子
+  - 洗完澡宮子要吃布丁來的～
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007006_022
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - 嗯？為什麼你沒有準備好布丁來的？
+- wait:
+  - 70
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - 快點拿出來啊―！
+- touch: *o0
+- fadeout:
+  - 100711
+  - 30
+- tag:
+  - 6
+- wait:
+  - 15
+- bgm:
+  - stop
+  - 5
+- se:
+  - se_adv_transition_comedy_02
+- white_out:
+  - 1
+  - 0.5
+- effect_delete:
+  - 0026
+- amb_stop:
+  - 1
+- background:
+  - 500240
+- wait:
+  - 15
+- white_in: *o0
+- amb:
+  - amb_adv_cave_with_water_01
+- chara_full:
+  - 100711
+  - C
+  - 4
+- fadein:
+  - 100711
+  - 30
+- vo_effect:
+  - 3
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007006_023
+- face:
+  - 100711
+  - 4
+- print:
+  - 宮子
+  - 嗯……？
+- wait:
+  - 10
+- print:
+  - 宮子
+  - >2-
+
+    等等……
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 100711
+  - 6
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007006_024
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - 因為兩個人都是幽靈，所以是買不了布丁的！！
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007006_025
+- face:
+  - 100711
+  - 4
+- emotion:
+  - sweat2_R
+  - 100711
+  - 90
+  - 520
+  - se_adv_emote_sweat_02
+- print:
+  - 宮子
+  - 這樣好困擾呢～
+- wait:
+  - 30
+- print:
+  - 宮子
+  - >2-
+
+    宮子不能沒有布丁來的～！
+- wait:
+  - 30
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 7
+- print:
+  - 宮子
+  - 你不能跟宮子一樣死掉的～！！
+- touch: *o0
+- window_visible:
+  - false
+- sway:
+  - 100711
+- wait:
+  - 5
+- effect:
+  - 0017
+  - se_adv_comic_punch_03
+- wait:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007006_026
+- face:
+  - 100711
+  - 4
+- print:
+  - 宮子
+  - 嗚……
+- face:
+  - 100711
+  - 7
+- print:
+  - 宮子
+  - 好痛來的～
+- wait:
+  - 20
+- print:
+  - 宮子
+  - >2-
+
+    好像踢到東西了～
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007006_027
+- face:
+  - 100711
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100711
+  - 20
+  - 645
+  - se_adv_emote_common_01
+- print:
+  - 宮子
+  - 啊！是宮子剛剛吃的布丁空盒來的。
+- wait:
+  - 20
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007006_028
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - ……仔細看看，這裡掉了好多喔～
+- wait:
+  - 70
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 1
+- print:
+  - 宮子
+  - 這麼說起來，宮子一邊走一邊一直吃著布丁來的……
+- wait:
+  - 40
+- touch: *o0
+- bgm:
+  - bgm_M05
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007006_029
+- face:
+  - 100711
+  - 6
+- emotion:
+  - notice2_L
+  - 100711
+  - -105
+  - 545
+  - se_adv_emote_nortice_01
+- print:
+  - 宮子
+  - 啊！
+- wait:
+  - 10
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 2
+- print:
+  - 宮子
+  - 只要照著這些空盒的位置走，就能走到出口了～
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007006_030
+- face:
+  - 100711
+  - 2
+- jump:
+  - 100711
+- print:
+  - 宮子
+  - 太好了～都是宮子的功勞來的～
+- wait:
+  - 75
+- print:
+  - 宮子
+  - >2-
+
+    我們趕快回去吧～
+- touch: *o0
+- window_visible:
+  - false
+- change:
+  - L
+  - C
+- fadeout:
+  - 100711
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500171
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_outdoors_day_01
+- chara_full:
+  - 100711
+  - RC
+  - 2
+- change:
+  - C
+  - RC
+- fadein:
+  - 100711
+  - 30
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- window_visible:
+  - true
+- vo_effect:
+  - 0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007006_031
+- face:
+  - 100711
+  - 2
+- jump:
+  - 100711
+- print:
+  - 宮子
+  - 哇，順利出來了～
+- wait:
+  - 75
+- print:
+  - 宮子
+  - >2-
+
+    幸虧有宮子來的～咳咳♪
+- wait:
+  - 105
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 1
+- print:
+  - 宮子
+  - 為了讚賞宮子的功勞，你要請宮子吃布丁來的！
+- wait:
+  - 10
+- touch: *o0
+- effect_delete:
+  - 0022
+  - 30
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007006_032
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - 嗯嗯？……今天累慘了所以你要回去了？
+- wait:
+  - 100
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 3
+- shake:
+  - 100711
+- print:
+  - 宮子
+  - 不―可―以―！
+- wait:
+  - 45
+- print:
+  - 宮子
+  - >2-
+
+    宮子的肚子餓扁了！快一起吃布丁來的～！
+- wait:
+  - 45
+- touch: *o0
+- fadeout:
+  - 100711
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500050
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_gaya_cmn_01
+- chara_full:
+  - 100711
+  - C
+  - 2
+- scale:
+  - 100711
+  - 1.3
+  - 2
+- fadein:
+  - 100711
+  - 30
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007006_033
+- face:
+  - 100711
+  - 2
+- emotion:
+  - heart1_R
+  - 100711
+  - 110
+  - 500
+  - se_adv_emote_heart_01
+- print:
+  - 宮子
+  - 嚼啊嚼……
+- wait:
+  - 45
+- print:
+  - 宮子
+  - >2-
+
+    和你一起吃的布丁特別好吃來的～！
+- wait:
+  - 60
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 5
+- print:
+  - 宮子
+  - 你還是不要變成幽靈比較好來的～
+- touch: *o0
+- fadeout:
+  - 100711
+  - 30
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 宮子露出了天真無邪的笑容。
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

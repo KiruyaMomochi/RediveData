@@ -1,0 +1,288 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 501030
+- amb:
+  - amb_adv_seaside_01
+- ui_visible:
+  - false
+- situation:
+  - 七七香的泳衣
+- chara_full:
+  - 113111
+  - C
+  - 1
+- fadein:
+  - 113111
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M113_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 113111
+- bust:
+  - 113111
+  - 0
+- vo:
+  - vo_adv_6044110_000
+- face:
+  - 113111
+  - 6
+- print:
+  - 流夏
+  - 我問你，
+- wait:
+  - 40
+- print:
+  - 流夏
+  - 七七香的泳衣……
+- wait:
+  - 35
+- print:
+  - 流夏
+  - 你覺得如何？
+- wait:
+  - 40
+- print:
+  - 流夏
+  - >2
+
+- nod:
+  - 113111
+- print:
+  - 流夏
+  - 你看，
+- wait:
+  - 20
+- print:
+  - 流夏
+  - 那件泳裝
+- wait:
+  - 25
+- print:
+  - 流夏
+  - 有點花俏不是嗎？
+- wait:
+  - 35
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 113111
+  - 4
+- print:
+  - 流夏
+  - 我很好奇
+- wait:
+  - 20
+- print:
+  - 流夏
+  - 你有什麼感想，
+- wait:
+  - 45
+- print:
+  - 流夏
+  - 覺得好不好
+- wait:
+  - 45
+- print:
+  - 流夏
+  - 之類的。
+- touch: &o0 []
+- choice:
+  - 我覺得很花俏。
+  - 1
+  - 1
+- choice:
+  - 我覺得不錯。
+  - 2
+  - 2
+- choice:
+  - 我覺得很有七七香的風格。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 113111
+- bust:
+  - 113111
+  - 0
+- vo:
+  - vo_adv_6044110_001
+- face:
+  - 113111
+  - 6
+- print:
+  - 流夏
+  - 那種泳裝
+- wait:
+  - 20
+- print:
+  - 流夏
+  - 到底是從哪裡弄來的啊。
+- wait:
+  - 65
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 113111
+  - 1
+- print:
+  - 流夏
+  - 不過，
+- wait:
+  - 25
+- print:
+  - 流夏
+  - 每個人都有自己適合的風格……
+- wait:
+  - 55
+- print:
+  - 流夏
+  - 像我啊，
+- wait:
+  - 20
+- print:
+  - 流夏
+  - >2-
+
+    就比較適合這種內斂的泳裝。
+- wait:
+  - 80
+- face:
+  - 113111
+  - 2
+- emotion:
+  - note1_L
+  - 113111
+  - -135
+  - 505
+  - se_adv_emote_note_01
+- print:
+  - 流夏
+  - 感覺挺不錯的吧？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 113111
+- bust:
+  - 113111
+  - 0
+- vo:
+  - vo_adv_6044110_002
+- face:
+  - 113111
+  - 6
+- nod:
+  - 113111
+- print:
+  - 流夏
+  - 嘿～
+- wait:
+  - 20
+- print:
+  - 流夏
+  - 是這樣嗎。
+- wait:
+  - 45
+- print:
+  - 流夏
+  - 你喜歡那種泳裝啊……
+- wait:
+  - 55
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 113111
+  - 2
+- print:
+  - 流夏
+  - 看來你也是男人呢。
+- wait:
+  - 50
+- print:
+  - 流夏
+  - 總覺得有些放心了。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 113111
+- bust:
+  - 113111
+  - 0
+- vo:
+  - vo_adv_6044110_003
+- face:
+  - 113111
+  - 2
+- nod:
+  - 113111
+- print:
+  - 流夏
+  - 的確是如此。
+- wait:
+  - 55
+- eye_open:
+  - False
+- print:
+  - 流夏
+  - 我就實在沒辦法穿上那種泳裝。
+- wait:
+  - 80
+- print:
+  - 流夏
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 流夏
+  - 真是的，
+- wait:
+  - 35
+- print:
+  - 流夏
+  - 我們公會的成員
+- wait:
+  - 25
+- print:
+  - 流夏
+  - 各個都很有個性不會讓人覺得無聊呢。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 113111
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

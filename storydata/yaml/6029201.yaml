@@ -1,0 +1,265 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500036
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - false
+- situation:
+  - 聖誕節是怎樣的日子？
+- chara_full:
+  - 111511
+  - C
+  - 6
+- fadein:
+  - 111511
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M282
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111511
+- bust:
+  - 111511
+  - 0
+- vo:
+  - vo_adv_6029201_000
+- face:
+  - 111511
+  - 6
+- print:
+  - 克莉絲提娜
+  - 小子！
+- wait:
+  - 40
+- print:
+  - 克莉絲提娜
+  - 你認為聖誕節是什麼樣的日子？
+- wait:
+  - 55
+- print:
+  - 克莉絲提娜
+  - >2
+
+- face:
+  - 111511
+  - 1
+- print:
+  - 克莉絲提娜
+  - 希望你的答案能夠取悅我……♪
+- touch: &o0 []
+- choice:
+  - 吃蛋糕的日子。
+  - 1
+  - 1
+- choice:
+  - 很冷的日子。
+  - 2
+  - 2
+- choice:
+  - 是聖誕老人送禮物的日子。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 111511
+- bust:
+  - 111511
+  - 0
+- vo:
+  - vo_adv_6029201_001
+- face:
+  - 111511
+  - 4
+- print:
+  - 克莉絲提娜
+  - 真的很像小子你會說的話。
+- wait:
+  - 50
+- print:
+  - 克莉絲提娜
+  - 和我猜的一樣，是個無聊的答案。
+- wait:
+  - 65
+- print:
+  - 克莉絲提娜
+  - >2
+
+- face:
+  - 111511
+  - 6
+- print:
+  - 克莉絲提娜
+  - ……怎麼啦！
+- wait:
+  - 15
+- print:
+  - 克莉絲提娜
+  - 一臉想要什麼東西的表情。
+- wait:
+  - 55
+- print:
+  - 克莉絲提娜
+  - >2-
+
+    是想吃蛋糕了嗎？
+- wait:
+  - 40
+- face:
+  - 111511
+  - 1
+- print:
+  - 克莉絲提娜
+  - ……你這個人啊，
+- wait:
+  - 20
+- print:
+  - 克莉絲提娜
+  - 真拿你沒辦法。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 111511
+- bust:
+  - 111511
+  - 0
+- vo:
+  - vo_adv_6029201_002
+- face:
+  - 111511
+  - 6
+- print:
+  - 克莉絲提娜
+  - 怎麼？你很冷嗎？　
+- wait:
+  - 35
+- print:
+  - 克莉絲提娜
+  - 你還真是柔弱呢。
+- wait:
+  - 30
+- print:
+  - 克莉絲提娜
+  - >2
+
+- face:
+  - 111511
+  - 1
+- print:
+  - 克莉絲提娜
+  - 這點寒冷，
+- wait:
+  - 25
+- print:
+  - 克莉絲提娜
+  - 只要動一下身體就能克服了。
+- wait:
+  - 55
+- print:
+  - 克莉絲提娜
+  - >2
+
+- se:
+  - se_adv_weapon_sword_set_01
+- nod:
+  - 111511
+- print:
+  - 克莉絲提娜
+  - 來吧！
+- wait:
+  - 40
+- print:
+  - 克莉絲提娜
+  - 拔出你腰間的劍。
+- wait:
+  - 45
+- face:
+  - 111511
+  - 2
+- print:
+  - 克莉絲提娜
+  - 讓我們揮劍交鋒，
+- wait:
+  - 30
+- print:
+  - 克莉絲提娜
+  - 感情和睦地取暖吧……♪
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 111511
+- bust:
+  - 111511
+  - 0
+- vo:
+  - vo_adv_6029201_003
+- face:
+  - 111511
+  - 2
+- emotion:
+  - twinkle1_R
+  - 111511
+  - -125
+  - 505
+  - se_adv_emote_twinkle_01
+- print:
+  - 克莉絲提娜
+  - 啊哈哈☆　
+- wait:
+  - 40
+- print:
+  - 克莉絲提娜
+  - 你的回答就跟小朋友一樣。
+- wait:
+  - 55
+- print:
+  - 克莉絲提娜
+  - >2-
+
+    我本來期待的是個稍微成熟一點的答案的說，
+- wait:
+  - 60
+- print:
+  - 克莉絲提娜
+  - >2
+
+- face:
+  - 111511
+  - 1
+- print:
+  - 克莉絲提娜
+  - 不過小子你這樣或許就夠了……♪
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 111511
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

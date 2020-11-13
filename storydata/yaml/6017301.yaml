@@ -1,0 +1,221 @@
+- title:
+  - 喜歡的食物
+- outline:
+  - ' '
+- background:
+  - 500110
+- amb:
+  - amb_adv_room_noise_day_01
+- ui_visible:
+  - false
+- situation:
+  - 喜歡的食物
+- chara_full:
+  - 109811
+  - C
+  - 1
+- fadein:
+  - 109811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M229
+  - 0
+  - 0
+  - 1
+- focus:
+  - 109811
+- bust:
+  - 109811
+  - 0
+- vo:
+  - vo_adv_6017301_000
+- face:
+  - 109811
+  - 1
+- print:
+  - 拉姆
+  - 你，
+- wait:
+  - 15
+- print:
+  - 拉姆
+  - 喜歡的食物是什麼？
+- wait:
+  - 55
+- print:
+  - 拉姆
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 拉姆
+  - 我是沒有什麼特別的意思啦。
+- wait:
+  - 30
+- eye_open:
+  - True
+- print:
+  - 拉姆
+  - 只是
+- wait:
+  - 15
+- print:
+  - 拉姆
+  - 因為受人幫助，
+- wait:
+  - 20
+- print:
+  - 拉姆
+  - >2-
+
+    我覺得至少應該知道你的喜好而已。
+- touch: &o0 []
+- choice:
+  - 白飯吧。
+  - 1
+  - 1
+- choice:
+  - 我應該是麵包派。
+  - 2
+  - 2
+- choice:
+  - 我喜歡蒸番薯。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 109811
+- bust:
+  - 109811
+  - 0
+- vo:
+  - vo_adv_6017301_001
+- face:
+  - 109811
+  - 3
+- nod:
+  - 109811
+- print:
+  - 拉姆
+  - 真普通。
+- wait:
+  - 30
+- print:
+  - 拉姆
+  - 普通到很無聊。
+- wait:
+  - 30
+- print:
+  - 拉姆
+  - >2-
+
+    改成番薯吧。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 109811
+- bust:
+  - 109811
+  - 0
+- vo:
+  - vo_adv_6017301_002
+- face:
+  - 109811
+  - 3
+- print:
+  - 拉姆
+  - 我沒有問你是哪一派啊。
+- wait:
+  - 30
+- print:
+  - 拉姆
+  - >2
+
+- nod:
+  - 109811
+- print:
+  - 拉姆
+  - 不過我很推薦番薯喔。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 109811
+- bust:
+  - 109811
+  - 0
+- vo:
+  - vo_adv_6017301_003
+- face:
+  - 109811
+  - 2
+- emotion:
+  - note1_L
+  - 109811
+  - -70
+  - 470
+  - se_adv_emote_note_01
+- print:
+  - 拉姆
+  - 呵呵。
+- wait:
+  - 25
+- print:
+  - 拉姆
+  - 你的品味不錯呢。
+- wait:
+  - 35
+- print:
+  - 拉姆
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 拉姆
+  - 既然這樣，那我就做給你真正美味的蒸番薯吧。
+- wait:
+  - 55
+- print:
+  - 拉姆
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 拉姆
+  - 能夠吃到拉姆的蒸番薯，
+- wait:
+  - 20
+- print:
+  - 拉姆
+  - 你可要心懷感謝喔。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 109811
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

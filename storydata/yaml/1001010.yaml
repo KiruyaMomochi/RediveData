@@ -1,0 +1,3570 @@
+- title:
+  - 日和 第10話
+- outline:
+  - 日和{0}在執行護衛商隊的任務時，擊退了惡徒襲擊。日和為了阻止其他同行護衛過度傷害惡徒，反被痛罵是天真的人，但她發誓不論是誰她都會幫助。
+- background:
+  - 500010
+- amb:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 該被幫助的壞人
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    那天{0}與日和，
+
+    接受了某個商隊的護衛委託。
+- wait:
+  - 15
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 100111
+  - L
+  - 1
+- chara_full:
+  - 1111
+  - RC
+  - 1
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M94
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_000
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - 騎士先生你看！　
+- wait:
+  - 25
+- print:
+  - 日和
+  - 好像還有其他護衛的夥伴呢！
+- wait:
+  - 55
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 真不虧是
+- wait:
+  - 20
+- print:
+  - 日和
+  - 大型商隊呢！
+- touch: *o0
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_1001010_001
+- face:
+  - 1111
+  - 6
+- print:
+  - 護衛１
+  - 你們也是接受這次護衛委託的傢伙嗎……
+- wait:
+  - 50
+- print:
+  - 護衛１
+  - >2
+
+- face:
+  - 1111
+  - 3
+- print:
+  - 護衛１
+  - 可別來拖累啊？
+- touch: *o0
+- face:
+  - 100111
+  - 6
+- window_visible:
+  - false
+- fadeout:
+  - 1111
+  - 30
+- chara_full:
+  - 1011
+  - RC
+  - 2
+- fadein:
+  - 1011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_1001010_002
+- face:
+  - 1011
+  - 2
+- print:
+  - 護衛2
+  - 嘿嘿，
+- wait:
+  - 35
+- print:
+  - 護衛2
+  - 膽敢途中礙事的傢伙，
+- wait:
+  - 30
+- print:
+  - 護衛2
+  - 不管惡徒還是魔物，
+- wait:
+  - 45
+- print:
+  - 護衛2
+  - >2-
+
+    我都會把他一刀劈成兩半！　
+- wait:
+  - 45
+- face:
+  - 1011
+  - 1
+- nod:
+  - 1011
+- print:
+  - 護衛2
+  - 吶！
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - R
+  - RC
+  - 30
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100111
+  - C
+  - 6
+- fadein:
+  - 100111
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_003
+- face:
+  - 100111
+  - 6
+- pop:
+  - 100111
+- print:
+  - 日和
+  - 好～！　
+- wait:
+  - 45
+- face:
+  - 100111
+  - 4
+- print:
+  - 日和
+  - ……總覺得都是些可怕的人呢。
+- wait:
+  - 60
+- print:
+  - 日和
+  - >2-
+
+    護衛的任務，
+- wait:
+  - 15
+- print:
+  - 日和
+  - 他們能好好執行嗎？
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_004
+- face:
+  - 100111
+  - 4
+- print:
+  - 日和
+  - 騎士先生。
+- wait:
+  - 45
+- print:
+  - 日和
+  - 我
+- wait:
+  - 15
+- print:
+  - 日和
+  - 好像稍微有點不安呢……
+- touch: *o0
+- choice:
+  - 沒問題吧？
+  - 1
+- choice:
+  - 沒事嗎？
+  - 2
+- tag:
+  - 1
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_005
+- face:
+  - 100111
+  - 4
+- print:
+  - 日和
+  - 現在……
+- wait:
+  - 55
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 沒問題
+- wait:
+  - 15
+- print:
+  - 日和
+  - 了。
+- wait:
+  - 45
+- nod:
+  - 100111
+- print:
+  - 日和
+  - 嗯。
+- wait:
+  - 20
+- print:
+  - 日和
+  - 已經沒問題了。
+- wait:
+  - 35
+- print:
+  - 日和
+  - >2-
+
+    騎士先生也和我一起，
+- wait:
+  - 40
+- print:
+  - 日和
+  - 不管遇到什麼都會沒問題的！
+- touch: *o0
+- goto:
+  - 3
+- tag:
+  - 2
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_006
+- face:
+  - 100111
+  - 1
+- nod:
+  - 100111
+- print:
+  - 日和
+  - 嗯……
+- wait:
+  - 25
+- print:
+  - 日和
+  - 沒事唷。
+- wait:
+  - 40
+- face:
+  - 100111
+  - 4
+- print:
+  - 日和
+  - 只是
+- wait:
+  - 25
+- print:
+  - 日和
+  - 有點、
+- wait:
+  - 20
+- print:
+  - 日和
+  - 有點不安而已。
+- wait:
+  - 40
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 欸嘿嘿，
+- wait:
+  - 30
+- print:
+  - 日和
+  - 謝謝你的關心！
+- touch: *o0
+- tag:
+  - 3
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 1
+- vo:
+  - vo_adv_1001010_007
+- face:
+  - 1411
+  - 6
+- print:
+  - 男性
+  - 喂喂，
+- wait:
+  - 10
+- print:
+  - 男性
+  - 你們兩個！
+- wait:
+  - 25
+- print:
+  - 男性
+  - >2-
+
+    差不多該出發了，
+- wait:
+  - 15
+- print:
+  - 男性
+  - 請就定位！
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_008
+- face:
+  - 100111
+  - 1
+- pop:
+  - 100111
+- print:
+  - 日和
+  - 知道了―！
+- wait:
+  - 35
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 2
+- print:
+  - 日和
+  - 騎士先生我們出發吧！　
+- wait:
+  - 40
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 光在這裡一直在意著，
+- wait:
+  - 25
+- print:
+  - 日和
+  - 也沒辦法解決事情呢！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 100111
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- bgm:
+  - stop
+  - 2
+  - 1
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500170
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_outdoors_night_01
+- chara_full:
+  - 1411
+  - C
+  - 3
+- fadein:
+  - 1411
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M288
+  - 0
+  - 0
+  - 1
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1001010_009
+- face:
+  - 1411
+  - 3
+- print:
+  - 男性
+  - 現在開始要從這一口氣穿過森林！
+- wait:
+  - 40
+- print:
+  - 男性
+  - >2-
+
+    大家，
+- wait:
+  - 25
+- print:
+  - 男性
+  - 比起剛剛提高戒備周圍！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 1411
+  - 30
+- chara_full:
+  - 100111
+  - C
+  - 3
+- fadein:
+  - 100111
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_010
+- face:
+  - 100111
+  - 3
+- nod:
+  - 100111
+- print:
+  - 日和
+  - 知道了！
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_011
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - ……
+- wait:
+  - 40
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 這樣穿越昏暗的森林前進時，
+- wait:
+  - 70
+- print:
+  - 日和
+  - >2-
+
+    就讓我想起
+- wait:
+  - 25
+- print:
+  - 日和
+  - 之前跟騎士先生你們一起來到森林
+- wait:
+  - 45
+- print:
+  - 日和
+  - 的事呢。
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_012
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 那時候，
+- wait:
+  - 30
+- print:
+  - 日和
+  - 有個假扮成魔物的盜賊，
+- wait:
+  - 30
+- print:
+  - 日和
+  - >2-
+
+    朝著我們襲擊……
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 3
+  - 1
+- se:
+  - se_adv_bush_03
+- face:
+  - 100111
+  - 6
+- emotion:
+  - notice1_L
+  - 100111
+  - -50
+  - 540
+  - se_adv_emote_common_01
+- wait:
+  - 45
+- emotion_end:
+  - 100111
+- window_visible:
+  - true
+- bgm:
+  - bgm_M14
+  - 0
+  - 0
+  - 0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_013
+- face:
+  - 100111
+  - 3
+- print:
+  - 日和
+  - ……稍等。
+- wait:
+  - 30
+- print:
+  - 日和
+  - 剛剛，
+- wait:
+  - 15
+- print:
+  - 日和
+  - 我好像聽到了聲響……
+- wait:
+  - 60
+- print:
+  - 日和
+  - >2-
+
+    從森林的入口開始
+- wait:
+  - 30
+- print:
+  - 日和
+  - 我們好像就一直被跟蹤……
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_014
+- face:
+  - 100111
+  - 3
+- pop:
+  - 100111
+- print:
+  - 日和
+  - 大家抱歉！
+- wait:
+  - 30
+- print:
+  - 日和
+  - >2-
+
+    請稍微停下腳步！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 100111
+  - 30
+- chara_full:
+  - 100111
+  - LC
+  - 3
+- chara_full:
+  - 1411
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1001010_015
+- face:
+  - 1411
+  - 6
+- print:
+  - 男性
+  - 發生什麼事了嗎？
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_016
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - 好像有人還是魔物包圍我們了呢！
+- wait:
+  - 60
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 3
+- print:
+  - 日和
+  - 請大家一邊擴大隊形，
+- wait:
+  - 25
+- print:
+  - 日和
+  - 這樣行進吧！
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1001010_017
+- face:
+  - 1411
+  - 6
+- emotion:
+  - surprise1_L
+  - 1411
+  - 155
+  - 615
+  - se_adv_emote_common_01
+- print:
+  - 男性
+  - 真的嗎！？
+- wait:
+  - 30
+- print:
+  - 男性
+  - >2
+
+- face:
+  - 1411
+  - 3
+- print:
+  - 男性
+  - 好，
+- wait:
+  - 20
+- print:
+  - 男性
+  - 全員戒備就防禦姿勢！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 911
+  - LC
+  - 1
+- chara_full:
+  - 811
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1001010_018
+- face:
+  - 911
+  - 1
+- print:
+  - 惡徒1
+  - 嘖！　
+- wait:
+  - 30
+- print:
+  - 惡徒1
+  - 這群傢伙發現了嗎！
+- wait:
+  - 35
+- print:
+  - 惡徒1
+  - >2-
+
+    直覺真強的傢伙！　
+- wait:
+  - 45
+- face:
+  - 911
+  - 3
+- print:
+  - 惡徒1
+  - 發動攻擊！
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1001010_019
+- face:
+  - 811
+  - 1
+- nod:
+  - 811
+- print:
+  - 惡徒2
+  - 哦！
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_step_leaves_run_go_01
+- change:
+  - C
+  - RC
+  - 30
+- change:
+  - L
+  - LC
+  - 30
+- fadeout_all:
+  - 30
+- bgm:
+  - stop
+  - 2
+  - 0
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100111
+  - C
+  - 6
+- fadein:
+  - 100111
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M102
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_020
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - 果然現身了！
+- wait:
+  - 40
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 3
+- print:
+  - 日和
+  - 就是你們在跟蹤我們啊！
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_021
+- face:
+  - 100111
+  - 3
+- print:
+  - 日和
+  - 大家一起合力打倒他們！　
+- wait:
+  - 45
+- pop:
+  - 100111
+- print:
+  - 日和
+  - 要上囉—！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 100111
+  - 30
+- chara_full:
+  - 1111
+  - C
+  - 1
+- fadein:
+  - 1111
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_1001010_022
+- face:
+  - 1111
+  - 1
+- print:
+  - 護衛１
+  - 剛好覺得護衛任務有點無聊的說。
+- wait:
+  - 50
+- print:
+  - 護衛１
+  - >2
+
+- face:
+  - 1111
+  - 3
+- print:
+  - 護衛１
+  - 獵物來得正好！　
+- wait:
+  - 30
+- print:
+  - 護衛１
+  - 喝啊！
+- touch: *o0
+- window_visible:
+  - FALSE
+- effect:
+  - 0009
+- se:
+  - se_adv_step_leaves_run_go_01
+- scale:
+  - 1111
+  - 1.2
+  - 1
+  - 10
+- fadeout:
+  - 1111
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0001
+  - se_adv_weapon_sword_hit_01
+- wait:
+  - 5
+- effect:
+  - 0045
+  - se_adv_weapon_sword_repel_01
+- wait:
+  - 15
+- background:
+  - 500170
+- chara_full:
+  - 911
+  - C
+  - 3
+- scale:
+  - 911
+  - 1.2
+  - 1
+- fadein:
+  - 911
+  - 15
+- se:
+  - se_adv_sliding_dirt_01
+- scale:
+  - 911
+  - 1
+  - 1
+  - 5
+- window_visible:
+  - TRUE
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1001010_023
+- face:
+  - 911
+  - 3
+- print:
+  - 惡徒1
+  - 嘖！　
+- wait:
+  - 30
+- print:
+  - 惡徒1
+  - 還真行呀！
+- wait:
+  - 40
+- print:
+  - 惡徒1
+  - >2-
+
+    嘿啊！
+- touch: *o0
+- window_visible:
+  - FALSE
+- effect:
+  - 0009
+- se:
+  - se_adv_step_leaves_run_go_01
+- scale:
+  - 911
+  - 1.1
+  - 1
+  - 10
+- fadeout:
+  - 911
+  - 10
+- effect_delete:
+  - 0009
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100111
+  - C
+  - 3
+- fadein:
+  - 100111
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_024
+- face:
+  - 100111
+  - 3
+- pop:
+  - 100111
+- print:
+  - 日和
+  - 哎呀！　
+- wait:
+  - 20
+- print:
+  - 日和
+  - 不能讓你如願！
+- wait:
+  - 35
+- print:
+  - 日和
+  - >2-
+
+    接招―！
+- touch: *o0
+- window_visible:
+  - FALSE
+- effect:
+  - 0009
+- se:
+  - se_adv_step_leaves_run_go_01
+- scale:
+  - 100111
+  - 1.2
+  - 2
+  - 10
+- fadeout:
+  - 100111
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0003
+  - se_adv_weapon_punch_hit_02
+- wait:
+  - 10
+- se:
+  - se_adv_weapon_sword_impact_01
+- effect:
+  - 0045
+- wait:
+  - 15
+- background:
+  - 500170
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 1011
+  - C
+  - 3
+- fadein:
+  - 1011
+  - 30
+- change_window:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_1001010_025
+- face:
+  - 1011
+  - 3
+- print:
+  - 護衛2
+  - 我怎麼可能會輸啊！
+- touch: *o0
+- window_visible:
+  - FALSE
+- change_window:
+  - 1
+- effect:
+  - 0009
+- se:
+  - se_adv_step_leaves_run_go_01
+- scale:
+  - 1011
+  - 1.1
+  - 1
+  - 10
+- fadeout:
+  - 1011
+  - 10
+- effect_delete:
+  - 0009
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 811
+  - C
+  - 6
+- fadein:
+  - 811
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1001010_026
+- face:
+  - 811
+  - 6
+- emotion:
+  - exclamation1_R
+  - 811
+  - -20
+  - 660
+  - se_adv_emote_common_01
+- print:
+  - 惡徒2
+  - 唔喔！　
+- wait:
+  - 30
+- face:
+  - 811
+  - 3
+- print:
+  - 惡徒2
+  - 這傢伙好像變得很麻煩啊……！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 811
+  - 15
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0001
+  - se_adv_weapon_sword_hit_01
+- wait:
+  - 5
+- effect:
+  - 0045
+  - se_adv_weapon_sword_repel_01
+- wait:
+  - 15
+- background:
+  - 500170
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 100111
+  - C
+  - 1
+- fadein:
+  - 100111
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_027
+- face:
+  - 100111
+  - 1
+- pop:
+  - 100111
+- print:
+  - 日和
+  - 感覺不錯呢！
+- wait:
+  - 30
+- print:
+  - 日和
+  - >2-
+
+    就這樣突破包圍吧！　
+- wait:
+  - 35
+- face:
+  - 100111
+  - 3
+- print:
+  - 日和
+  - 唔啊―！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0009
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- se:
+  - se_adv_step_leaves_run_go_01
+- scale:
+  - 100111
+  - 1.2
+  - 2
+  - 10
+- fadeout:
+  - 100111
+  - 10
+- effect_delete:
+  - 0009
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 30
+- black_in: *o0
+- amb:
+  - amb_adv_forest_01
+- chara_full:
+  - 911
+  - LC
+  - 4
+- chara_full:
+  - 811
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M129
+  - 0
+  - 0
+  - 1
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1001010_028
+- face:
+  - 911
+  - 4
+- print:
+  - 惡徒1
+  - 疼呀呀呀呀……
+- shake:
+  - 911
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1001010_029
+- face:
+  - 811
+  - 4
+- print:
+  - 惡徒2
+  - 可惡……！
+- shake:
+  - 811
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100111
+  - LC
+  - 6
+- chara_full:
+  - 1411
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_030
+- face:
+  - 100111
+  - 6
+- nod:
+  - 100111
+- print:
+  - 日和
+  - 呼……
+- wait:
+  - 30
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 好像沒有其他同伴了呢。
+- wait:
+  - 45
+- print:
+  - 日和
+  - >2-
+
+    已經沒問題了！
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1001010_031
+- face:
+  - 1411
+  - 1
+- print:
+  - 男性
+  - 是啊。
+- wait:
+  - 30
+- print:
+  - 男性
+  - 多虧妳察覺到他們的跟蹤，
+- wait:
+  - 30
+- print:
+  - 男性
+  - >2-
+
+    才能把損失降到最低呢。
+- wait:
+  - 35
+- print:
+  - 男性
+  - 真是幫了大忙。
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1001010_032
+- face:
+  - 1411
+  - 6
+- print:
+  - 男性
+  - 但是現在看來，
+- wait:
+  - 35
+- print:
+  - 男性
+  - 我們還是先返回蘭德索爾一趟，
+- wait:
+  - 20
+- print:
+  - 男性
+  - >2-
+
+    重新整頓後再出發會比較好。
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_033
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - 還要把這些人
+- wait:
+  - 15
+- print:
+  - 日和
+  - 移交給王宮騎士團，
+- wait:
+  - 45
+- print:
+  - 日和
+  - 有很多要辦理的事呢。
+- wait:
+  - 45
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 如果可以的話，
+- wait:
+  - 25
+- print:
+  - 日和
+  - 我們可以幫忙你辦理移交唷！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- chara_full:
+  - 1111
+  - LC
+  - 3
+- chara_full:
+  - 911
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_1001010_034
+- face:
+  - 1111
+  - 3
+- print:
+  - 護衛１
+  - 這幫傢伙，
+- wait:
+  - 30
+- print:
+  - 護衛１
+  - 居然敢襲擊老子我們，
+- wait:
+  - 30
+- print:
+  - 護衛１
+  - 可真有膽啊。
+- wait:
+  - 55
+- print:
+  - 護衛１
+  - >2
+
+- nod:
+  - 1111
+- print:
+  - 護衛１
+  - 喝啊！　
+- wait:
+  - 20
+- print:
+  - 護衛１
+  - 這傢伙！
+- touch: *o0
+- bgm:
+  - stop
+  - 1
+  - 1
+- window_visible:
+  - false
+- focus:
+  - 1111:911
+- effect:
+  - 0019
+  - se_adv_weapon_punch_hit_01
+  - 0
+  - RC
+- shake:
+  - 911
+- window_visible:
+  - true
+- bgm:
+  - bgm_M21
+  - 0
+  - 0
+  - 0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1001010_035
+- face:
+  - 911
+  - 4
+- eye_open:
+  - False
+- print:
+  - 惡徒1
+  - 好痛……
+- wait:
+  - 65
+- eye_open:
+  - True
+- print:
+  - 惡徒1
+  - 快住手了……
+- wait:
+  - 25
+- print:
+  - 惡徒1
+  - >2-
+
+    我再也
+- wait:
+  - 5
+- print:
+  - 惡徒1
+  - 不敢做這種事了……
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- chara_full:
+  - 1011
+  - LC
+  - 3
+- chara_full:
+  - 811
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_1001010_036
+- face:
+  - 1011
+  - 3
+- print:
+  - 護衛2
+  - 惡徒所說的話，
+- wait:
+  - 45
+- print:
+  - 護衛2
+  - 怎麼可能相信啊！
+- wait:
+  - 35
+- print:
+  - 護衛2
+  - >2
+
+- nod:
+  - 1011
+- print:
+  - 護衛2
+  - 喝啊！　
+- wait:
+  - 10
+- print:
+  - 護衛2
+  - 去死吧！
+- touch: *o0
+- window_visible:
+  - false
+- focus:
+  - 1011:811
+- effect:
+  - 0019
+  - se_adv_weapon_punch_hit_01
+  - 0
+  - RC
+- shake:
+  - 811
+- window_visible:
+  - true
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1001010_037
+- face:
+  - 811
+  - 4
+- print:
+  - 惡徒2
+  - 別、
+- wait:
+  - 10
+- print:
+  - 惡徒2
+  - 別打了……
+- wait:
+  - 35
+- eye_open:
+  - False
+- print:
+  - 惡徒2
+  - 請幫幫我……
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100111
+  - C
+  - 6
+- fadein:
+  - 100111
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_038
+- face:
+  - 100111
+  - 6
+- emotion:
+  - surprise1_L
+  - 100111
+  - 150
+  - 550
+  - se_adv_emote_common_01
+- print:
+  - 日和
+  - 為什麼還在攻擊他們！？　
+- wait:
+  - 40
+- face:
+  - 100111
+  - 4
+- print:
+  - 日和
+  - 你做得太超過了！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 100111
+  - 30
+- chara_full:
+  - 100111
+  - LC
+  - 4
+- chara_full:
+  - 1111
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_1001010_039
+- face:
+  - 1111
+  - 1
+- print:
+  - 護衛１
+  - 不能讓他們這樣子回去蘭德索爾！
+- wait:
+  - 50
+- print:
+  - 護衛１
+  - >2
+
+- face:
+  - 1111
+  - 3
+- print:
+  - 護衛１
+  - 要像我們這樣，
+- wait:
+  - 20
+- print:
+  - 護衛１
+  - 動手打到他們動彈不得才行！
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_040
+- face:
+  - 100111
+  - 3
+- pop:
+  - 100111
+- print:
+  - 日和
+  - 等一下！　
+- wait:
+  - 40
+- print:
+  - 日和
+  - 這些人已經在反省了！
+- wait:
+  - 40
+- print:
+  - 日和
+  - >2-
+
+    沒必要
+- wait:
+  - 10
+- print:
+  - 日和
+  - 讓他們經歷更多痛苦呀！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 1111
+  - 30
+- chara_full:
+  - 1011
+  - RC
+  - 3
+- fadein:
+  - 1011
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_1001010_041
+- face:
+  - 1011
+  - 3
+- emotion:
+  - anger1_R
+  - 1011
+  - -105
+  - 610
+  - se_adv_emote_anger_01
+- print:
+  - 護衛2
+  - 啊？　
+- wait:
+  - 35
+- print:
+  - 護衛2
+  - 為什麼妳要包庇惡徒啊。
+- wait:
+  - 60
+- print:
+  - 護衛2
+  - >2-
+
+    好了，
+- wait:
+  - 30
+- print:
+  - 護衛2
+  - 不想受傷的話現在就給我讓開！
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_042
+- face:
+  - 100111
+  - 3
+- nod:
+  - 100111
+- print:
+  - 日和
+  - 我不會讓開的！
+- wait:
+  - 45
+- print:
+  - 日和
+  - >2
+
+- bgm:
+  - bgm_M95
+  - 0
+  - 0
+  - 0
+- print:
+  - 日和
+  - 我絕對
+- wait:
+  - 40
+- print:
+  - 日和
+  - 不會從這裡移開的……！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- chara_full:
+  - 911
+  - LC
+  - 4
+- chara_full:
+  - 811
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1001010_043
+- face:
+  - 911
+  - 4
+- print:
+  - 惡徒1
+  - 妳、
+- wait:
+  - 40
+- print:
+  - 惡徒1
+  - 妳……
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1001010_044
+- face:
+  - 811
+  - 4
+- print:
+  - 惡徒2
+  - 噢嗚……
+- shake:
+  - 811
+- wait:
+  - 35
+- print:
+  - 惡徒2
+  - 嗚嗚……
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- chara_full:
+  - 1111
+  - RC
+  - 3
+  - 1
+- chara_full:
+  - 100111
+  - LC
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_1001010_045
+- face:
+  - 1111
+  - 3
+- print:
+  - 護衛１
+  - 那個，
+- wait:
+  - 45
+- print:
+  - 護衛１
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 護衛１
+  - 我們只協助委託人就好！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1111
+  - 30
+- chara_full:
+  - 1011
+  - RC
+  - 3
+- fadein:
+  - 1011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_1001010_046
+- face:
+  - 1011
+  - 3
+- print:
+  - 護衛2
+  - 而且，我們要給
+- wait:
+  - 35
+- print:
+  - 護衛2
+  - 做壞事的這些傢伙
+- wait:
+  - 25
+- print:
+  - 護衛2
+  - 一些懲罰。
+- wait:
+  - 45
+- print:
+  - 護衛2
+  - >2-
+
+    想偷別人的東西。
+- wait:
+  - 40
+- print:
+  - 護衛2
+  - 這些懲罰是理所當然的吧？
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_047
+- face:
+  - 100111
+  - 3
+- pop:
+  - 100111
+- print:
+  - 日和
+  - 那樣子是不對的！
+- wait:
+  - 45
+- print:
+  - 日和
+  - >2-
+
+    那些，
+- wait:
+  - 30
+- print:
+  - 日和
+  - 並不是你們有資格能做的事！
+- touch: *o0
+- choice:
+  - 真的有點太超過了。
+  - 4
+- choice:
+  - 已經夠了。
+  - 5
+- tag:
+  - 4
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_048
+- face:
+  - 100111
+  - 3
+- pop:
+  - 100111
+- print:
+  - 日和
+  - 對呀！　
+- wait:
+  - 45
+- print:
+  - 日和
+  - 雖說他們做了壞事，
+- wait:
+  - 30
+- print:
+  - 日和
+  - >2-
+
+    但也沒必要傷害已經逮捕的人呢！
+- touch: *o0
+- goto:
+  - 6
+- tag:
+  - 5
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_049
+- face:
+  - 100111
+  - 4
+- print:
+  - 日和
+  - 這種傷害明明是沒必要的……
+- wait:
+  - 75
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 3
+- print:
+  - 日和
+  - 雖然做出壞事，
+- wait:
+  - 40
+- print:
+  - 日和
+  - 但他們也一樣是人啊！
+- touch: *o0
+- tag:
+  - 6
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- chara_full:
+  - 1111
+  - LC
+  - 3
+- chara_full:
+  - 1411
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_1001010_050
+- face:
+  - 1111
+  - 3
+- nod:
+  - 1111
+- print:
+  - 護衛１
+  - 嘖，
+- wait:
+  - 35
+- print:
+  - 護衛１
+  - 真囉嗦呀！
+- wait:
+  - 40
+- print:
+  - 護衛１
+  - >2-
+
+    人只要做過一次壞事，
+- wait:
+  - 35
+- print:
+  - 護衛１
+  - 被人怎樣對待也是沒辦法的！
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1001010_051
+- face:
+  - 1411
+  - 4
+- print:
+  - 男性
+  - 嗯嗯……
+- wait:
+  - 30
+- print:
+  - 男性
+  - 對、
+- wait:
+  - 15
+- print:
+  - 男性
+  - 對呀……
+- wait:
+  - 35
+- print:
+  - 男性
+  - >2-
+
+    反正他們原本
+- wait:
+  - 25
+- print:
+  - 男性
+  - 就是惡徒……
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 1111
+  - 30
+- chara_full:
+  - 100111
+  - LC
+  - 4
+- fadein:
+  - 100111
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_052
+- face:
+  - 100111
+  - 4
+- print:
+  - 日和
+  - 但是……
+- wait:
+  - 30
+- print:
+  - 日和
+  - 你這麼說，
+- wait:
+  - 45
+- print:
+  - 日和
+  - 就會變成無論多麼微小的壞事，
+- wait:
+  - 30
+- print:
+  - 日和
+  - >2-
+
+    都可以當成藉口
+- wait:
+  - 10
+- print:
+  - 日和
+  - 變成傷害他人的理由。
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_053
+- face:
+  - 100111
+  - 3
+- pop:
+  - 100111
+- print:
+  - 日和
+  - 那樣子是錯的！
+- wait:
+  - 45
+- print:
+  - 日和
+  - >2-
+
+    所以，
+- wait:
+  - 30
+- print:
+  - 日和
+  - 不可以在這裡繼續傷害這些人了！
+- touch: *o0
+- bgm:
+  - stop
+  - 3.5
+  - 0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1001010_054
+- face:
+  - 1411
+  - 1
+- print:
+  - 男性
+  - ……
+- wait:
+  - 30
+- print:
+  - 男性
+  - 知道啦。
+- wait:
+  - 30
+- print:
+  - 男性
+  - >2
+
+- bgm:
+  - bgm_M318
+  - 0
+  - 0
+  - 1
+- print:
+  - 男性
+  - 妳都這麼說了，
+- wait:
+  - 35
+- print:
+  - 男性
+  - 就回蘭德索爾把惡徒移交給王宮騎士團吧。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- chara_full:
+  - 911
+  - LC
+  - 6
+- chara_full:
+  - 811
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1001010_055
+- face:
+  - 911
+  - 6
+- print:
+  - 惡徒1
+  - ……那、
+- wait:
+  - 35
+- print:
+  - 惡徒1
+  - 那個、
+- wait:
+  - 5
+- print:
+  - 惡徒1
+  - 妳呀。
+- wait:
+  - 60
+- print:
+  - 惡徒1
+  - >2
+
+- face:
+  - 911
+  - 4
+- print:
+  - 惡徒1
+  - 為何，
+- wait:
+  - 5
+- print:
+  - 惡徒1
+  - 這樣保護
+- wait:
+  - 35
+- print:
+  - 惡徒1
+  - 我們這些惡徒呢……？
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1001010_056
+- face:
+  - 811
+  - 4
+- print:
+  - 惡徒2
+  - 多麼寬大的胸懷啊……
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 911
+  - 30
+- chara_full:
+  - 100111
+  - LC
+  - 6
+- fadein:
+  - 100111
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_057
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - 你問為什麼……
+- wait:
+  - 60
+- face:
+  - 100111
+  - 4
+- print:
+  - 日和
+  - 因為你們遇到困難了呀。
+- wait:
+  - 45
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 對吧，
+- wait:
+  - 20
+- print:
+  - 日和
+  - 騎士先生？
+- touch: *o0
+- choice:
+  - 有困難的時候互相幫助幫助！
+  - 7
+- tag:
+  - 7
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1001010_058
+- face:
+  - 811
+  - 5
+- print:
+  - 惡徒2
+  - ……
+- wait:
+  - 30
+- print:
+  - 惡徒2
+  - 騙人
+- wait:
+  - 25
+- print:
+  - 惡徒2
+  - 的吧？
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_059
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 這種時候我可不會說謊哦！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 100111
+  - 30
+- chara_full:
+  - 911
+  - LC
+  - 2
+- fadein:
+  - 911
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1001010_060
+- face:
+  - 911
+  - 2
+- print:
+  - 惡徒1
+  - 哈哈哈……
+- wait:
+  - 60
+- face:
+  - 911
+  - 1
+- print:
+  - 惡徒1
+  - 太厲害了，
+- wait:
+  - 15
+- print:
+  - 惡徒1
+  - 你們兩位。
+- wait:
+  - 90
+- print:
+  - 惡徒1
+  - >2
+
+- face:
+  - 911
+  - 4
+- print:
+  - 惡徒1
+  - 真的很抱歉。
+- wait:
+  - 65
+- print:
+  - 惡徒1
+  - 我會老實贖罪的……
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1001010_061
+- face:
+  - 811
+  - 4
+- print:
+  - 惡徒2
+  - 已經
+- wait:
+  - 20
+- print:
+  - 惡徒2
+  - 不會再做壞事了，
+- wait:
+  - 35
+- print:
+  - 惡徒2
+  - 回到蘭德索爾後我就去自首。
+- wait:
+  - 35
+- print:
+  - 惡徒2
+  - >2-
+
+    而且，
+- wait:
+  - 30
+- print:
+  - 惡徒2
+  - 小姐妳所說的我們都會聽從。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 911
+  - 30
+- chara_full:
+  - 100111
+  - LC
+  - 6
+- fadein:
+  - 100111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_062
+- face:
+  - 100111
+  - 6
+- nod:
+  - 100111
+- print:
+  - 日和
+  - ……那麼，
+- wait:
+  - 20
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 在抵達蘭德索爾之前，
+- wait:
+  - 40
+- print:
+  - 日和
+  - >2-
+
+    絕對不會再使用武器了，
+- wait:
+  - 30
+- print:
+  - 日和
+  - 能這樣
+- wait:
+  - 25
+- print:
+  - 日和
+  - 答應我嗎？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 811
+  - 30
+- chara_full:
+  - 911
+  - RC
+  - 6
+- fadein:
+  - 911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1001010_063
+- face:
+  - 911
+  - 6
+- print:
+  - 惡徒1
+  - 啊啊，
+- wait:
+  - 25
+- print:
+  - 惡徒1
+  - 那個當然沒問題……
+- wait:
+  - 45
+- print:
+  - 惡徒1
+  - >2
+
+- face:
+  - 911
+  - 4
+- print:
+  - 惡徒1
+  - 但是不沒收我們的武器行嗎……？
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_064
+- face:
+  - 100111
+  - 1
+- nod:
+  - 100111
+- print:
+  - 日和
+  - 嗯！　
+- wait:
+  - 30
+- face:
+  - 100111
+  - 2
+- print:
+  - 日和
+  - 因為我
+- wait:
+  - 20
+- print:
+  - 日和
+  - 相信
+- wait:
+  - 20
+- print:
+  - 日和
+  - 你們所說的話！
+- wait:
+  - 40
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 所以，
+- wait:
+  - 20
+- print:
+  - 日和
+  - 請不要再做壞事了。
+- wait:
+  - 45
+- print:
+  - 日和
+  - 好嗎？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 911
+  - 30
+- chara_full:
+  - 811
+  - RC
+  - 1
+- fadein:
+  - 811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1001010_065
+- face:
+  - 811
+  - 1
+- print:
+  - 惡徒2
+  - 啊，
+- wait:
+  - 10
+- print:
+  - 惡徒2
+  - 是的……！　
+- wait:
+  - 15
+- print:
+  - 惡徒2
+  - 當然！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 1111
+  - C
+  - 3
+- fadein:
+  - 1111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_1001010_066
+- face:
+  - 1111
+  - 3
+- print:
+  - 護衛１
+  - 嘖，
+- wait:
+  - 30
+- print:
+  - 護衛１
+  - 什麼啊那個女的……
+- wait:
+  - 35
+- print:
+  - 護衛１
+  - >2-
+
+    不關她的事突然跳出來。
+- wait:
+  - 40
+- print:
+  - 護衛１
+  - 真無聊。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 1111
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- bgm:
+  - stop
+  - 1
+  - 1
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500090
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_wind_01
+- chara_full:
+  - 712
+  - C
+  - 1
+- fadein:
+  - 712
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M247
+  - 0
+  - 0
+  - 1
+- focus:
+  - 712
+- bust:
+  - 712
+  - 0
+- vo:
+  - vo_adv_1001010_067
+- face:
+  - 712
+  - 1
+- print:
+  - 王宮騎士隊長
+  - 那麼，
+- wait:
+  - 20
+- print:
+  - 王宮騎士隊長
+  - 惡徒們就移交給我們了。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 712
+  - 30
+- chara_full:
+  - 911
+  - LC
+  - 1
+- chara_full:
+  - 811
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1001010_068
+- face:
+  - 811
+  - 1
+- print:
+  - 惡徒2
+  - 小姐，
+- wait:
+  - 30
+- print:
+  - 惡徒2
+  - 承蒙妳
+- wait:
+  - 10
+- print:
+  - 惡徒2
+  - 的照顧。
+- wait:
+  - 35
+- print:
+  - 惡徒2
+  - 真的很抱歉……
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1001010_069
+- face:
+  - 911
+  - 1
+- print:
+  - 惡徒1
+  - 那位小哥，
+- wait:
+  - 30
+- print:
+  - 惡徒1
+  - 也謝謝你呢。
+- wait:
+  - 40
+- face:
+  - 911
+  - 2
+- print:
+  - 惡徒1
+  - ……你們是
+- wait:
+  - 30
+- print:
+  - 惡徒1
+  - 我們的救命恩人。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100111
+  - C
+  - 1
+- fadein:
+  - 100111
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_070
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 我才是，
+- wait:
+  - 25
+- nod:
+  - 100111
+- print:
+  - 日和
+  - 謝謝你！
+- wait:
+  - 45
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 2
+- print:
+  - 日和
+  - 你們有好好遵守約定，
+- wait:
+  - 45
+- print:
+  - 日和
+  - 我很高興呢！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100111
+  - 30
+- chara_full:
+  - 911
+  - C
+  - 1
+- fadein:
+  - 911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1001010_071
+- face:
+  - 911
+  - 1
+- print:
+  - 惡徒1
+  - ……像妳這樣的人，
+- wait:
+  - 35
+- print:
+  - 惡徒1
+  - 要是
+- wait:
+  - 35
+- print:
+  - 惡徒1
+  - 我們能早點遇到就好了。
+- wait:
+  - 65
+- print:
+  - 惡徒1
+  - >2
+
+- face:
+  - 911
+  - 2
+- print:
+  - 惡徒1
+  - 那我們走了。
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 911
+  - 30
+- chara_full:
+  - 100111
+  - C
+  - 6
+- fadein:
+  - 100111
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_072
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - ……
+- wait:
+  - 55
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 走掉了呢。
+- wait:
+  - 55
+- print:
+  - 日和
+  - >2-
+
+    那些人，
+- wait:
+  - 40
+- print:
+  - 日和
+  - 如果有好好反省就好呢。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 100111
+  - 30
+- chara_full:
+  - 1111
+  - C
+  - 3
+- fadein:
+  - 1111
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_1001010_073
+- face:
+  - 1111
+  - 3
+- nod:
+  - 1111
+- print:
+  - 護衛１
+  - 哼，
+- wait:
+  - 25
+- print:
+  - 護衛１
+  - 哪可能每次都讓妳這麼順利呀！
+- touch: *o0
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_1001010_074
+- face:
+  - 1111
+  - 3
+- print:
+  - 護衛１
+  - 像你們這樣天真的人，
+- wait:
+  - 25
+- print:
+  - 護衛１
+  - 總有一天會吃到苦頭的！
+- touch: *o0
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_1001010_075
+- face:
+  - 1111
+  - 3
+- print:
+  - 護衛１
+  - 別再讓我們遇到了！　
+- wait:
+  - 50
+- print:
+  - 護衛１
+  - 掰啦！
+- wait:
+  - 40
+- print:
+  - 護衛１
+  - >2-
+
+    反正一定會橫死在某處吧，
+- wait:
+  - 35
+- print:
+  - 護衛１
+  - 笨蛋們！
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - C
+  - LC
+  - 30
+- fadeout:
+  - 1111
+  - 30
+- chara_full:
+  - 100111
+  - C
+  - 6
+- fadein:
+  - 100111
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_076
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - ……
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_077
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - 天真的人……
+- wait:
+  - 65
+- face:
+  - 100111
+  - 4
+- print:
+  - 日和
+  - 我
+- wait:
+  - 30
+- print:
+  - 日和
+  - 真的很天真嗎？
+- wait:
+  - 70
+- print:
+  - 日和
+  - >2-
+
+    即使惡徒也想要幫助他們，
+- wait:
+  - 50
+- print:
+  - 日和
+  - 這樣的作法真的有錯嗎。
+- touch: *o0
+- choice:
+  - 沒有這回事唷。
+  - 8
+- choice:
+  - 日和很了不起唷。
+  - 9
+- tag:
+  - 8
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_078
+- face:
+  - 100111
+  - 4
+- nod:
+  - 100111
+- print:
+  - 日和
+  - ……嗯，
+- wait:
+  - 35
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 是吧。
+- wait:
+  - 75
+- print:
+  - 日和
+  - >2-
+
+    不管眼前誰有困難，
+- wait:
+  - 45
+- print:
+  - 日和
+  - 我都無法置之不理！
+- touch: *o0
+- goto:
+  - 10
+- tag:
+  - 9
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_079
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - 沒什麼了不起的唷。
+- wait:
+  - 60
+- print:
+  - 日和
+  - >2
+
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 等我回過神，
+- wait:
+  - 10
+- print:
+  - 日和
+  - 發現身體早已先行動而已。
+- touch: *o0
+- tag:
+  - 10
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_080
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 騎士先生。
+- wait:
+  - 45
+- face:
+  - 100111
+  - 2
+- print:
+  - 日和
+  - 這樣鼓勵我，
+- wait:
+  - 35
+- print:
+  - 日和
+  - 謝謝你。
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_1001010_081
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 被人說我天真也沒關係。
+- wait:
+  - 55
+- print:
+  - 日和
+  - >2-
+
+    今後
+- wait:
+  - 20
+- print:
+  - 日和
+  - 我要不斷不斷地，
+- wait:
+  - 40
+- face:
+  - 100111
+  - 2
+- pop:
+  - 100111
+- print:
+  - 日和
+  - 不論是誰
+- wait:
+  - 25
+- print:
+  - 日和
+  - 都要繼續幫助他們！
+- touch: *o0
+- window_visible:
+  - FALSE
+- effect_delete:
+  - 0022
+  - 30
+- fadeout:
+  - 100111
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    重新打起精神的日和，
+
+    在心中暗自強烈地發誓。
+- touch: *o0
+- window_visible:
+  - FALSE
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

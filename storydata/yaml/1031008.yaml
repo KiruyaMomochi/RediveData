@@ -1,0 +1,1632 @@
+- title:
+  - 忍 第8話
+- outline:
+  - 忍一行人做了其他世界的「夢」。因為忍的疏忽，骷髏老爸被偷走了。不過借助{0}的背後靈們的幫助，平安無事地找回來，被許多幽靈所愛著的他也受到了稱讚。
+- background:
+  - 500010
+- amb:
+  - amb_adv_outdoors_morning_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 某名竊賊的慘劇
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    忍和{0}在蘭德索爾散步時，
+
+    突然被奇妙的光芒環繞。
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 103111
+  - C
+  - 6
+- fadein:
+  - 103111
+  - 30
+- effect:
+  - 05
+  - se_adv_holylight_01
+- amb_stop:
+  - 1
+- emotion:
+  - surprise1_L
+  - 103111
+  - 155
+  - 565
+  - '*non'
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031008_000
+- face:
+  - 103111
+  - 4
+- print:
+  - 忍
+  - 又是這道光……好、好刺眼……
+- wait:
+  - 75
+- touch: *o0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031008_001
+- face:
+  - 103111
+  - 6
+- eye_open:
+  - FALSE
+- print:
+  - 忍
+  - 哇！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 103111
+  - 30
+- effect:
+  - 0006
+  - se_adv_whiteout_01
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0005
+- effect_delete:
+  - 0006
+- background:
+  - 510351
+- wait:
+  - 30
+- white_in: *o0
+- bgm:
+  - bgm_M72
+  - 0
+  - 0
+  - 1
+- amb:
+  - amb_adv_city_jpnstreet_01
+- wait:
+  - 30
+- chara_full:
+  - 103133
+  - C
+  - 1
+- fadein:
+  - 103133
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103133
+- bust:
+  - 103133
+  - 0
+- vo:
+  - vo_adv_1031008_002
+- face:
+  - 103133
+  - 1
+- print:
+  - 忍
+  - 啊，你好。
+- wait:
+  - 20
+- print:
+  - 忍
+  - >2-
+
+    我現在在做什麼嗎？我在看雜誌。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_paper_move_03
+- wait:
+  - 15
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 7
+  - 1
+- focus:
+  - 103133
+- bust:
+  - 103133
+  - 0
+- vo:
+  - vo_adv_1031008_003
+- face:
+  - 103133
+  - 2
+- print:
+  - 忍
+  - 這本靈異週刊很有趣唷。
+- wait:
+  - 90
+- print:
+  - 忍
+  - >2
+
+- pop:
+  - 103133
+- print:
+  - 忍
+  - 對吧，爸爸？
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 103133
+- bust:
+  - 103133
+  - 0
+- vo:
+  - vo_adv_1031008_004
+- face:
+  - 103133
+  - 6
+- print:
+  - 忍
+  - ……爸爸？
+- touch: *o0
+- bgm:
+  - bgm_M21
+- focus:
+  - 103133
+- bust:
+  - 103133
+  - 0
+- vo:
+  - vo_adv_1031008_005
+- face:
+  - 103133
+  - 6
+- emotion:
+  - sweat2_R
+  - 103133
+  - 80
+  - 520
+  - '*non'
+- print:
+  - 忍
+  - ……不好了。不知道什麼時候
+- wait:
+  - 75
+- print:
+  - 忍
+  - >2-
+
+    我父親被掉包成假貨了。
+- wait:
+  - 75
+- print:
+  - 忍
+  - >2
+
+- face:
+  - 103133
+  - 4
+- print:
+  - 忍
+  - 看來是被偷走了。
+- touch: *o0
+- choice:
+  - 是不是妳父親的粉絲帶走了呢？
+  - 1
+- choice:
+  - 會不會是想要求贖金的綁架事件呢？
+  - 2
+- tag:
+  - 1
+- focus:
+  - 103133
+- bust:
+  - 103133
+  - 0
+- vo:
+  - vo_adv_1031008_006
+- face:
+  - 103133
+  - 1
+- print:
+  - 忍
+  - 不會的。
+- wait:
+  - 10
+- print:
+  - 忍
+  - >2-
+
+    因為我父親沒有半個粉絲，所以那是不可能的。
+- touch: *o0
+- goto:
+  - 3
+- tag:
+  - 2
+- focus:
+  - 103133
+- bust:
+  - 103133
+  - 0
+- vo:
+  - vo_adv_1031008_007
+- face:
+  - 103133
+  - 1
+- print:
+  - 忍
+  - 我想那也不可能。
+- wait:
+  - 45
+- print:
+  - 忍
+  - >2
+
+- face:
+  - 103133
+  - 4
+- print:
+  - 忍
+  - 因為幾乎沒有人會相信
+- wait:
+  - 60
+- print:
+  - 忍
+  - >2-
+
+    那個骷髏頭是我的父親。
+- wait:
+  - 15
+- touch: *o0
+- tag:
+  - 3
+- focus:
+  - 103133
+- bust:
+  - 103133
+  - 0
+- vo:
+  - vo_adv_1031008_008
+- face:
+  - 103133
+  - 3
+- print:
+  - 忍
+  - 我想這可能是某個骨董仲介商搞的鬼，
+- wait:
+  - 20
+- print:
+  - 忍
+  - >2-
+
+    一定是想把我父親賣到某個地方。
+- touch: *o0
+- focus:
+  - 103133
+- bust:
+  - 103133
+  - 0
+- vo:
+  - vo_adv_1031008_009
+- face:
+  - 103133
+  - 3
+- print:
+  - 忍
+  - 我父親附身的骷髏頭名為『椿丘水晶骷髏頭』，
+- wait:
+  - 105
+- print:
+  - 忍
+  - >2-
+
+    被認為是古代文明歐帕茲時空錯位文物而引起話題。
+- touch: *o0
+- focus:
+  - 103133
+- bust:
+  - 103133
+  - 0
+- vo:
+  - vo_adv_1031008_010
+- face:
+  - 103133
+  - 1
+- print:
+  - 忍
+  - 不過實際上是我父親在路邊攤買的便宜貨。
+- wait:
+  - 30
+- touch: *o0
+- choice:
+  - 我去找出犯人。
+  - 4
+- choice:
+  - 報警處理吧。
+  - 5
+- tag:
+  - 4
+- se:
+  - se_adv_step_concrete_run_go_01
+- focus:
+  - 103133
+- bust:
+  - 103133
+  - 0
+- vo:
+  - vo_adv_1031008_011
+- face:
+  - 103133
+  - 4
+- emotion:
+  - exclamation1_R
+  - 103133
+  - 10
+  - 635
+  - se_adv_emote_common_01
+- print:
+  - 忍
+  - 啊，請等一下！
+- wait:
+  - 10
+- touch: *o0
+- se:
+  - se_adv_step_concrete_run_go_01
+- window_visible:
+  - false
+- change:
+  - RC
+  - C
+  - 45
+- fadeout:
+  - 103133
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 510030
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_gamecenter_01
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- chara_full:
+  - 103133
+  - LC
+  - 4
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 103133
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103133
+- bust:
+  - 103133
+  - 0
+- vo:
+  - vo_adv_1031008_012
+- face:
+  - 103133
+  - 4
+- print:
+  - 忍
+  - 呼呼…
+- nod:
+  - 103133
+- print:
+  - 忍
+  - >-
+    …
+
+    等……等等……請等一下……
+- wait:
+  - 90
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - RC
+  - C
+  - 45
+- fadeout:
+  - 103133
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 510101
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_home_area_jpn_01
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- chara_full:
+  - 103133
+  - LC
+  - 4
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 103133
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103133
+- bust:
+  - 103133
+  - 0
+- vo:
+  - vo_adv_1031008_013
+- face:
+  - 103133
+  - 4
+- print:
+  - 忍
+  - 呼呼……
+- nod:
+  - 103133
+- print:
+  - 忍
+  - >2
+
+- shake:
+  - 103133
+- print:
+  - 忍
+  - 等、等等我……
+- wait:
+  - 60
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - RC
+  - C
+  - 45
+- fadeout:
+  - 103133
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 510351
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_city_jpnstreet_01
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- chara_full:
+  - 103133
+  - LC
+  - 4
+- change:
+  - C
+  - LC
+  - 30
+- fadein:
+  - 103133
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103133
+- bust:
+  - 103133
+  - 0
+- vo:
+  - vo_adv_1031008_014
+- face:
+  - 103133
+  - 4
+- print:
+  - 忍
+  - 呼呼……
+- nod:
+  - 103133
+- wait:
+  - 75
+- print:
+  - 忍
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 忍
+  - 呼～～……
+- eye_open:
+  - True
+- print:
+  - 忍
+  - 總算追上你了……
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 103133
+- bust:
+  - 103133
+  - 0
+- vo:
+  - vo_adv_1031008_015
+- face:
+  - 103133
+  - 3
+- emotion:
+  - sweat2_R
+  - 103133
+  - 80
+  - 520
+  - '*non'
+- print:
+  - 忍
+  - 那個，不知道犯人的長相和服裝的話，
+- wait:
+  - 105
+- print:
+  - 忍
+  - >2-
+
+    要找出來實在太困難了。
+- touch: *o0
+- goto:
+  - 6
+- tag:
+  - 5
+- focus:
+  - 103133
+- bust:
+  - 103133
+  - 0
+- vo:
+  - vo_adv_1031008_016
+- face:
+  - 103133
+  - 1
+- print:
+  - 忍
+  - 不用了。在這個城鎮，
+- wait:
+  - 100
+- print:
+  - 忍
+  - >2-
+
+    我想我會比警察更快找到犯人。
+- touch: *o0
+- tag:
+  - 6
+- focus:
+  - 103133
+- bust:
+  - 103133
+  - 0
+- vo:
+  - vo_adv_1031008_017
+- face:
+  - 103133
+  - 3
+- print:
+  - 忍
+  - 就交給我吧。
+- wait:
+  - 60
+- print:
+  - 忍
+  - >2-
+
+    這裡可是有很多只有我能對話的目擊者。
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 103133
+- bust:
+  - 103133
+  - 0
+- vo:
+  - vo_adv_1031008_018
+- face:
+  - 103133
+  - 2
+- print:
+  - 忍
+  - 你看。
+- pop:
+  - 103133
+- print:
+  - 忍
+  - 跟在你後面的女性也說
+- wait:
+  - 20
+- print:
+  - 忍
+  - >2-
+
+    她看到犯人了喔。
+- wait:
+  - 10
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+- fadeout:
+  - 103133
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 510281
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_city_jpnstreet_03
+- chara_full:
+  - 1331
+  - RC
+  - 1
+- fadein:
+  - 1331
+  - 30
+- bgm:
+  - bgm_M14
+  - 0
+  - 0
+  - 1
+- focus:
+  - 1331
+- bust:
+  - 1331
+  - 0
+- vo:
+  - vo_adv_1031008_019
+- face:
+  - 1331
+  - 1
+- print:
+  - 小偷
+  - 嘿嘿嘿……
+- wait:
+  - 45
+- print:
+  - 小偷
+  - >2-
+
+    用這個傳聞中的骷髏頭，
+- wait:
+  - 15
+- print:
+  - 小偷
+  - >2-
+
+    來大撈一筆吧。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- chara_full:
+  - 103133
+  - L
+  - 3
+- change:
+  - LC
+  - L
+  - 30
+- fadein:
+  - 103133
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103133
+- bust:
+  - 103133
+  - 0
+- vo:
+  - vo_adv_1031008_020
+- face:
+  - 103133
+  - 3
+- print:
+  - 忍
+  - 找到了。
+- wait:
+  - 10
+- print:
+  - 忍
+  - >2-
+
+    你就是偷走我父親的犯人吧。
+- wait:
+  - 10
+- print:
+  - 忍
+  - >2-
+
+    把我父親還來。
+- touch: *o0
+- focus:
+  - 1331
+- bust:
+  - 1331
+  - 0
+- vo:
+  - vo_adv_1031008_021
+- face:
+  - 1331
+  - 3
+- print:
+  - 小偷
+  - 呿！被發現了嗎！？
+- wait:
+  - 25
+- print:
+  - 小偷
+  - >2
+
+- jump:
+  - 1331
+- print:
+  - 小偷
+  - 妳別來瞎攪和，快滾到一邊去！
+- wait:
+  - 15
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
+- window_visible:
+  - false
+- focus:
+  - 103133
+- face:
+  - 103133
+  - 6
+- se:
+  - se_adv_comic_punch_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- wait:
+  - 15
+- se:
+  - se_adv_bodyfall_02
+- change:
+  - L
+  - LC
+  - 10
+- wait:
+  - 15
+- window_visible:
+  - true
+- bgm:
+  - bgm_M18
+- focus:
+  - 103133
+- bust:
+  - 103133
+  - 0
+- vo:
+  - vo_adv_1031008_022
+- face:
+  - 103133
+  - 6
+- print:
+  - 忍
+  - 啊
+- shake:
+  - 103133
+- print:
+  - 忍
+  - ！
+- touch: *o0
+- focus:
+  - 1331
+- bust:
+  - 1331
+  - 0
+- vo:
+  - vo_adv_1031008_023
+- face:
+  - 1331
+  - 1
+- print:
+  - 小偷
+  - 嘿，妳就乖乖地倒在那裡吧！
+- wait:
+  - 20
+- print:
+  - 小偷
+  - >2-
+
+    後會無期啦！
+- touch: *o0
+- se:
+  - se_adv_magic_dark_small_01
+- focus:
+  - 1331
+- bust:
+  - 1331
+  - 0
+- vo:
+  - vo_adv_1031008_024
+- face:
+  - 1331
+  - 1
+- emotion:
+  - question1_R
+  - 1331
+  - 55
+  - 550
+  - '*non'
+- print:
+  - 小偷
+  - ……嗯？骷髏頭變紅了――
+- wait:
+  - 10
+- touch: *o0
+- se:
+  - se_adv_magic_fire_medium_01
+- focus:
+  - 1331
+- bust:
+  - 1331
+  - 0
+- vo:
+  - vo_adv_1031008_025
+- face:
+  - 1331
+  - 6
+- shake:
+  - 1331
+- print:
+  - 小偷
+  - 好燙燙燙燙！
+- wait:
+  - 15
+- print:
+  - 小偷
+  - >2-
+
+    搞、搞什麼啊，怎麼回事！？燙得拿不了啊！？
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 103133
+- bust:
+  - 103133
+  - 0
+- vo:
+  - vo_adv_1031008_026
+- face:
+  - 103133
+  - 1
+- print:
+  - 忍
+  - 一定是因為小偷揍飛了我，所以我父親生氣了。
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 1331
+- bust:
+  - 1331
+  - 0
+- vo:
+  - vo_adv_1031008_027
+- face:
+  - 1331
+  - 4
+- print:
+  - 小偷
+  - 好、好恐怖的骷髏頭……
+- wait:
+  - 30
+- print:
+  - 小偷
+  - >2
+
+- face:
+  - 1331
+  - 3
+- print:
+  - 小偷
+  - 這種鬼玩意兒我不要了啦！！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 9
+- se:
+  - se_adv_step_concrete_run_go_01
+- out_R:
+  - 1331
+  - 30
+  - TRUE
+- window_visible:
+  - true
+- focus:
+  - 103133
+- bust:
+  - 103133
+  - 0
+- vo:
+  - vo_adv_1031008_028
+- face:
+  - 103133
+  - 6
+- print:
+  - 忍
+  - 啊，小偷逃走了。
+- wait:
+  - 85
+- print:
+  - 忍
+  - >2
+
+- face:
+  - 103133
+  - 1
+- print:
+  - 忍
+  - 不過既然我父親平安無事回來了，就不用去追他了。
+- wait:
+  - 60
+- touch: *o0
+- fadeout:
+  - 103133
+  - 30
+- white_out:
+  - 1
+  - 1
+- still:
+  - 103100801
+  - 1
+  - 1
+- wait:
+  - 15
+- bgm:
+  - bgm_M19
+  - 0
+  - 0
+  - 1
+- white_in: *o0
+- wait:
+  - 15
+- pan:
+  - 550
+- effect:
+  - 22
+  - se_adv_happy_particle_01
+- wait:
+  - 15
+- focus:
+  - 103132
+- bust:
+  - 103132
+  - 1
+- vo:
+  - vo_adv_1031008_029
+- face:
+  - 103132
+  - 2
+- print:
+  - 忍
+  - 太好了，爸爸。
+- wait:
+  - 60
+- print:
+  - 忍
+  - >2-
+
+    這個人幫忙我一起找你喔。
+- wait:
+  - 90
+- print:
+  - 忍
+  - >2-
+
+    所以爸爸也向他道謝吧。
+- touch: *o0
+- focus:
+  - 103132
+- bust:
+  - 103132
+  - 1
+- vo:
+  - vo_adv_1031008_030
+- face:
+  - 103132
+  - 1
+- print:
+  - 忍
+  - 嗯嗯……
+- wait:
+  - 45
+- print:
+  - 忍
+  - >2
+
+- face:
+  - 103132
+  - 3
+- print:
+  - 忍
+  - 我父親說
+- wait:
+  - 75
+- print:
+  - 忍
+  - >2
+
+- face:
+  - 103132
+  - 1
+- print:
+  - 忍
+  - 『我說過不准再接近忍了！我要揍死你喔！』
+- touch: *o0
+- focus:
+  - 103132
+- bust:
+  - 103132
+  - 1
+- vo:
+  - vo_adv_1031008_031
+- face:
+  - 103132
+  - 2
+- print:
+  - 忍
+  - 爸爸真是的，這麼害臊。
+- wait:
+  - 10
+- touch: *o0
+- focus:
+  - 103132
+- bust:
+  - 103132
+  - 1
+- vo:
+  - vo_adv_1031008_032
+- face:
+  - 103132
+  - 1
+- print:
+  - 忍
+  - 這次多虧了
+- wait:
+  - 60
+- print:
+  - 忍
+  - >2-
+
+    聚集在這裡的眾多幽靈們，
+- wait:
+  - 60
+- print:
+  - 忍
+  - >2-
+
+    才能順利地找到我父親。
+- touch: *o0
+- focus:
+  - 103132
+- bust:
+  - 103132
+  - 1
+- vo:
+  - vo_adv_1031008_033
+- face:
+  - 103132
+  - 2
+- print:
+  - 忍
+  - 竟然有這麼多的幽靈一起來幫忙……
+- wait:
+  - 10
+- print:
+  - 忍
+  - >2-
+
+    這都是因為你平常做人很成功的關係。
+- touch: *o0
+- focus:
+  - 103132
+- bust:
+  - 103132
+  - 1
+- vo:
+  - vo_adv_1031008_034
+- face:
+  - 103132
+  - 5
+- print:
+  - 忍
+  - 真是太了不起了。
+- touch: *o0
+- window_visible:
+  - false
+- effect_delete:
+  - 22
+  - 30
+- wait:
+  - 15
+- bgm:
+  - stop
+  - 3
+  - 1
+- effect:
+  - 0005
+  - se_adv_holylight_01
+- effect:
+  - 0006
+  - se_adv_whiteout_01
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0005
+- effect_delete:
+  - 0006
+- still:
+  - end
+- background:
+  - 500270
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- effect:
+  - 0029
+- effect:
+  - 0026
+- effect:
+  - 0015
+  - se_adv_whiteout_02
+- white_in: *o0
+- amb:
+  - amb_adv_wind_01
+- vo_effect:
+  - 3
+- wait:
+  - 60
+- bgm:
+  - bgm_M40
+- chara_full:
+  - 190011
+  - C
+  - 4
+- fadein:
+  - 190011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1031008_035
+- face:
+  - 190011
+  - 4
+- print:
+  - 愛梅斯
+  - 自己的父親被偷走卻沒發現……
+- wait:
+  - 75
+- print:
+  - 愛梅斯
+  - >2-
+
+    忍也真是個隨性的孩子呢。
+- wait:
+  - 45
+- print:
+  - 愛梅斯
+  - >2-
+
+    但還好最後順利找回來了～
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1031008_036
+- face:
+  - 190011
+  - 1
+- print:
+  - 愛梅斯
+  - 如何呢？這是我給你的禮物！ 你做了個好『夢』嗎？
+- wait:
+  - 40
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1031008_037
+- face:
+  - 190011
+  - 2
+- print:
+  - 愛梅斯
+  - 這是我依照你跟忍以前的記憶創造出來的『夢』，
+- wait:
+  - 10
+- print:
+  - 愛梅斯
+  - >2-
+
+    原來現在的你會採取這樣的行動呀。
+- wait:
+  - 10
+- print:
+  - 愛梅斯
+  - >2-
+
+    我看了也很開心呢。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1031008_038
+- face:
+  - 190011
+  - 2
+- emotion:
+  - note1_L
+  - 190011
+  - -80
+  - 510
+  - se_adv_emote_note_01
+- print:
+  - 愛梅斯
+  - 那麼，下次見囉～ ♪
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- vo_effect:
+  - 0
+- fadeout:
+  - 190011
+  - 30
+- effect:
+  - 0006
+  - se_adv_whiteout_01
+- bgm:
+  - stop
+  - 3
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0006
+- effect_delete:
+  - 29
+- effect_delete:
+  - 26
+- background:
+  - 500010
+- amb_stop:
+  - 1
+- wait:
+  - 30
+- white_in: *o0
+- amb:
+  - amb_adv_town_day_01
+- wait:
+  - 30
+- bgm:
+  - bgm_M52
+  - 0
+  - 0
+  - 1
+- chara_full:
+  - 103111
+  - C
+  - 6
+- fadein:
+  - 103111
+  - 30
+- emotion:
+  - notice1_L
+  - 103111
+  - -50
+  - 530
+  - se_adv_emote_common_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031008_039
+- face:
+  - 103111
+  - 6
+- print:
+  - 忍
+  - ……啊，
+- wait:
+  - 30
+- print:
+  - 忍
+  - >2-
+
+    你醒來了嗎？
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_cloth_move_normal_01
+- wait:
+  - 15
+- window_visible:
+  - TRUE
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031008_040
+- face:
+  - 103111
+  - 1
+- print:
+  - 忍
+  - 我也睡到剛剛唷。
+- wait:
+  - 10
+- print:
+  - 忍
+  - >2-
+
+    和上次一樣，我夢到了一個奇妙世界。
+- wait:
+  - 135
+- print:
+  - 忍
+  - >2-
+
+    你也做了一樣的夢嗎？
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 103111
+  - 6
+- nod:
+  - 103111
+- nod:
+  - 103111
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031008_041
+- face:
+  - 103111
+  - 1
+- print:
+  - 忍
+  - ……這樣呀。
+- wait:
+  - 10
+- print:
+  - 忍
+  - >2-
+
+    果然是很不可思議的夢呢。
+- wait:
+  - 10
+- print:
+  - 忍
+  - >2-
+
+    這會不會是某種心電感應呢？
+- touch: *o0
+- fadeout:
+  - 103111
+  - 30
+- se:
+  - se_adv_step_concrete_move_01
+- chara_full:
+  - 103111
+  - C
+  - 2
+- scale:
+  - 103111
+  - 1.3
+  - 2
+- fadein:
+  - 103111
+  - 30
+- effect:
+  - 0044
+  - se_adv_happy_particle_01
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031008_042
+- face:
+  - 103111
+  - 2
+- print:
+  - 忍
+  - 不過，
+- wait:
+  - 10
+- print:
+  - 忍
+  - >2
+
+- face:
+  - 103111
+  - 5
+- print:
+  - 忍
+  - 你在夢裡面也幫忙找我父親，謝謝。
+- wait:
+  - 20
+- print:
+  - 忍
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - 忍
+  - 你在夢裡面也很溫柔呢。
+- wait:
+  - 45
+- touch: *o0
+- effect_delete:
+  - 0044
+  - 30
+- fadeout:
+  - 103111
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    忍和{0}的心中都想要
+
+    再做一次這令人感覺奇妙又懷念的夢。
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

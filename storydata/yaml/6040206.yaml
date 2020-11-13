@@ -1,0 +1,282 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500111
+- amb:
+  - amb_adv_outdoors_day_01
+- ui_visible:
+  - false
+- situation:
+  - 捐贈給我們的金錢
+- chara_full:
+  - 112711
+  - C
+  - 1
+- fadein:
+  - 112711
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M353_04
+  - 0
+  - 0
+  - 1
+- focus:
+  - 112711
+- bust:
+  - 112711
+  - 0
+- vo:
+  - vo_adv_6040206_000
+- face:
+  - 112711
+  - 1
+- nod:
+  - 112711
+- print:
+  - 鈴
+  - 真沒想到會以這種形式籌到錢呢。
+- wait:
+  - 75
+- print:
+  - 鈴
+  - >2
+
+- face:
+  - 112711
+  - 2
+- print:
+  - 鈴
+  - 與其
+- wait:
+  - 30
+- print:
+  - 鈴
+  - 說是【伊麗莎白牧場】被愛著，
+- wait:
+  - 15
+- print:
+  - 鈴
+  - >2-
+
+    不如說是真陽受到大家的喜愛呢。
+- touch: &o0 []
+- choice:
+  - 必須拿回牧場呢
+  - 1
+  - 1
+- choice:
+  - 得好好回報呢
+  - 2
+  - 2
+- choice:
+  - 拼命認真工作吧
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 112711
+- bust:
+  - 112711
+  - 0
+- vo:
+  - vo_adv_6040206_001
+- face:
+  - 112711
+  - 1
+- print:
+  - 鈴
+  - 必須先從這件事開始做起呢。
+- wait:
+  - 35
+- print:
+  - 鈴
+  - >2-
+
+    得拿回牧場，
+- wait:
+  - 30
+- print:
+  - 鈴
+  - 然後給他們超乎期待的回報才行。
+- wait:
+  - 50
+- print:
+  - 鈴
+  - >2
+
+- nod:
+  - 112711
+- face:
+  - 112711
+  - 2
+- print:
+  - 鈴
+  - 如果是為了達成這個目的，我也會加油的。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 112711
+- bust:
+  - 112711
+  - 0
+- vo:
+  - vo_adv_6040206_002
+- face:
+  - 112711
+  - 1
+- print:
+  - 鈴
+  - 能給的回報
+- wait:
+  - 40
+- print:
+  - 鈴
+  - 果然還是乳製品之類的吧。
+- wait:
+  - 70
+- print:
+  - 鈴
+  - >2-
+
+    真陽會很忙呢。
+- wait:
+  - 55
+- face:
+  - 112711
+  - 6
+- print:
+  - 鈴
+  - 嗯～
+- wait:
+  - 30
+- print:
+  - 鈴
+  - 看來在回報完恩情之前，
+- wait:
+  - 40
+- print:
+  - 鈴
+  - >2-
+
+    連我也得工作了吧。
+- wait:
+  - 60
+- face:
+  - 112711
+  - 4
+- nod:
+  - 112711
+- print:
+  - 鈴
+  - 唉……
+- wait:
+  - 35
+- print:
+  - 鈴
+  - 到底什麼時候才能回到原本的日常生活呀。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 112711
+- bust:
+  - 112711
+  - 0
+- vo:
+  - vo_adv_6040206_003
+- face:
+  - 112711
+  - 1
+- print:
+  - 鈴
+  - 是啊。
+- wait:
+  - 40
+- print:
+  - 鈴
+  - 拿回牧場跟牛群之後
+- wait:
+  - 45
+- print:
+  - 鈴
+  - 就能向大家報恩……
+- wait:
+  - 40
+- print:
+  - 鈴
+  - >2
+
+- emotion:
+  - notice1_L
+  - 112711
+  - -100
+  - 460
+  - se_adv_emote_common_01
+- face:
+  - 112711
+  - 6
+- print:
+  - 鈴
+  - 呃，
+- wait:
+  - 30
+- print:
+  - 鈴
+  - 先等一下。
+- wait:
+  - 30
+- print:
+  - 鈴
+  - 拿回牧場之後我可不工作喔？
+- wait:
+  - 70
+- print:
+  - 鈴
+  - >2
+
+- face:
+  - 112711
+  - 1
+- print:
+  - 鈴
+  - ……嗯，
+- wait:
+  - 25
+- print:
+  - 鈴
+  - 如果只是要稍微工作一下的話，
+- wait:
+  - 35
+- print:
+  - 鈴
+  - 還可以啦。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 112711
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

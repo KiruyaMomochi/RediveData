@@ -1,0 +1,1172 @@
+- title:
+  - 露娜 第1話
+- outline:
+  - '{0}在森林外面遇見了露娜。露娜說著正在找「朋友」，襲擊了過來。{0}擊退露娜之後，露娜向著森林的深處逃跑了。'
+- background:
+  - 500172
+- amb:
+  - amb_adv_forest_02
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 請跟我做朋友！
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 接獲魔物們越發猖獗的通知，
+- wait:
+  - 30
+- print:
+  - 旁白
+  - >2-
+
+    {0}造訪了蘭德索爾外圍的森林。
+- touch: &o0 []
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 前腳才一踏入，就聽見了魔物的咆哮聲。
+- wait:
+  - 30
+- print:
+  - 旁白
+  - >2-
+
+    {0}馬上急忙趕往現場……
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_forest_02
+- chara_full:
+  - 1611
+  - C
+  - 1
+- bgm:
+  - bgm_M03
+  - 0
+  - 0
+  - 1
+  - 0.2
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - TRUE
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- effect:
+  - 9
+- print:
+  - 魔物
+  - ――咕喔喔喔喔喔！
+- shake_screen: *o0
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1611
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 魔物大聲咆哮著。
+- wait:
+  - 30
+- print:
+  - 旁白
+  - >2
+
+- se:
+  - se_adv_weapon_sword_set_03
+- print:
+  - 旁白
+  - '{0}將劍緊握手中――'
+- touch: *o0
+- window_visible:
+  - FALSE
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- focus:
+  - 1611
+- effect:
+  - 0070
+  - se_adv_magic_dark_medium_01
+- wait:
+  - 45
+- bgm:
+  - stop
+  - 2.7
+  - 1
+- se:
+  - se_adv_creature_cmn_04
+- window_visible:
+  - TRUE
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ――嘎喔喔喔喔喔！
+- shake_screen: *o0
+- touch: *o0
+- window_visible:
+  - FALSE
+- updown:
+  - 1611
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1611
+  - 30
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 20
+- shake_delete: *o0
+- wait:
+  - 15
+- chara_full:
+  - 111411
+  - RC
+  - 1
+- se:
+  - se_adv_step_leaves_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - RC
+  - 45
+- fadein:
+  - 111411
+  - 45
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_MS06
+  - 0
+  - 0
+  - 0
+  - 0.7
+- focus:
+  - 111411
+- bust:
+  - 111411
+  - 0
+- vo:
+  - vo_adv_1114001_000
+- face:
+  - 111411
+  - 1
+- print:
+  - ？？？
+  - ……為什麼逃走呢。
+- touch: *o0
+- se:
+  - se_adv_step_leaves_walk_armor_come_01
+- choice:
+  - 剛才是妳嗎？
+  - 1
+- tag:
+  - 1
+- focus:
+  - 111411
+- bust:
+  - 111411
+  - 0
+- vo:
+  - vo_adv_1114001_001
+- face:
+  - 111411
+  - 6
+- pop:
+  - 111411
+- print:
+  - ？？？
+  - ……
+- wait:
+  - 25
+- print:
+  - ？？？
+  - >2
+
+- face:
+  - 111411
+  - 4
+- print:
+  - ？？？
+  - 你，
+- wait:
+  - 20
+- print:
+  - ？？？
+  - 是誰……？
+- touch: *o0
+- choice:
+  - 我是{0}。
+  - 2
+- tag:
+  - 2
+- focus:
+  - 111411
+- bust:
+  - 111411
+  - 0
+- vo:
+  - vo_adv_1114001_002
+- face:
+  - 111411
+  - 4
+- print:
+  - ？？？
+  - ……不認識的人。
+- touch: *o0
+- choice:
+  - 妳呢？
+  - 3
+- tag:
+  - 3
+- focus:
+  - 111411
+- bust:
+  - 111411
+  - 0
+- vo:
+  - vo_adv_1114001_003
+- face:
+  - 111411
+  - 1
+- print:
+  - 露娜
+  - ……
+- wait:
+  - 25
+- print:
+  - 露娜
+  - >2-
+
+    …………露娜。
+- touch: *o0
+- focus:
+  - 111411
+- bust:
+  - 111411
+  - 0
+- vo:
+  - vo_adv_1114001_004
+- face:
+  - 111411
+  - 1
+- print:
+  - 露娜
+  - ……大哥哥，
+- wait:
+  - 20
+- print:
+  - 露娜
+  - 你來這裡做什麼呢。
+- wait:
+  - 40
+- print:
+  - 露娜
+  - >2
+
+- face:
+  - 111411
+  - 3
+- print:
+  - 露娜
+  - 露娜，
+- wait:
+  - 25
+- print:
+  - 露娜
+  - 討厭……
+- wait:
+  - 35
+- print:
+  - 露娜
+  - 不認識的人。
+- touch: *o0
+- choice:
+  - 因為魔物跑出來作亂，我是來消滅它們的。
+  - 4
+- tag:
+  - 4
+- focus:
+  - 111411
+- bust:
+  - 111411
+  - 0
+- vo:
+  - vo_adv_1114001_005
+- face:
+  - 111411
+  - 6
+- emotion:
+  - question1_R
+  - 111411
+  - 100
+  - 440
+  - se_adv_emote_question_01
+- print:
+  - 露娜
+  - 魔物？
+- wait:
+  - 35
+- print:
+  - 露娜
+  - >2
+
+- face:
+  - 111411
+  - 3
+- print:
+  - 露娜
+  - ……露娜，
+- wait:
+  - 25
+- print:
+  - 露娜
+  - 討厭魔物。
+- touch: *o0
+- focus:
+  - 111411
+- bust:
+  - 111411
+  - 0
+- vo:
+  - vo_adv_1114001_006
+- face:
+  - 111411
+  - 3
+- print:
+  - 露娜
+  - 因為不會跟我當朋友……
+- wait:
+  - 40
+- print:
+  - 露娜
+  - >2-
+
+    而且還會逃跑。
+- touch: *o0
+- choice:
+  - 朋友？
+  - 5
+- tag:
+  - 5
+- focus:
+  - 111411
+- bust:
+  - 111411
+  - 0
+- vo:
+  - vo_adv_1114001_007
+- face:
+  - 111411
+  - 4
+- eye_open:
+  - False
+- print:
+  - 露娜
+  - ……
+- touch: *o0
+- focus:
+  - 111411
+- bust:
+  - 111411
+  - 0
+- vo:
+  - vo_adv_1114001_008
+- face:
+  - 111411
+  - 4
+- eye_open:
+  - True
+- print:
+  - 露娜
+  - 露娜，
+- wait:
+  - 25
+- print:
+  - 露娜
+  - 想要有朋友呢。
+- touch: *o0
+- focus:
+  - 111411
+- bust:
+  - 111411
+  - 0
+- vo:
+  - vo_adv_1114001_009
+- face:
+  - 111411
+  - 4
+- nod:
+  - 111411
+- print:
+  - 露娜
+  - 因為……
+- wait:
+  - 25
+- print:
+  - 露娜
+  - 我很寂寞。
+- wait:
+  - 45
+- print:
+  - 露娜
+  - >2-
+
+    但是，
+- wait:
+  - 25
+- print:
+  - 露娜
+  - 大家都會逃走。
+- wait:
+  - 40
+- print:
+  - 露娜
+  - >2-
+
+    為什麼呢……？
+- touch: *o0
+- choice:
+  - 這裡很危險我們先離開這個森林吧。
+  - 6
+- tag:
+  - 6
+- focus:
+  - 111411
+- bust:
+  - 111411
+  - 0
+- vo:
+  - vo_adv_1114001_010
+- face:
+  - 111411
+  - 1
+- print:
+  - 露娜
+  - ……我沒關係唷。
+- wait:
+  - 40
+- print:
+  - 露娜
+  - >2-
+
+    但是，
+- wait:
+  - 20
+- print:
+  - 露娜
+  - 作為交換……
+- touch: *o0
+- focus:
+  - 111411
+- bust:
+  - 111411
+  - 0
+- vo:
+  - vo_adv_1114001_011
+- face:
+  - 111411
+  - 2
+- nod:
+  - 111411
+- print:
+  - 露娜
+  - ――你可以當露娜的朋友嗎？
+- touch: *o0
+- choice:
+  - 好啊。
+  - 7
+- tag:
+  - 7
+- focus:
+  - 111411
+- bust:
+  - 111411
+  - 0
+- vo:
+  - vo_adv_1114001_012
+- face:
+  - 111411
+  - 6
+- pop:
+  - 111411
+- print:
+  - 露娜
+  - 真的嗎！？
+- wait:
+  - 25
+- print:
+  - 露娜
+  - >2
+
+- face:
+  - 111411
+  - 2
+- print:
+  - 露娜
+  - 太好了！
+- touch: *o0
+- focus:
+  - 111411
+- bust:
+  - 111411
+  - 0
+- vo:
+  - vo_adv_1114001_013
+- face:
+  - 111411
+  - 2
+- print:
+  - 露娜
+  - 那麼……
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+- window_visible:
+  - false
+- black_out:
+  - 1
+  - 0.5
+- fadeout:
+  - 111411
+  - 5
+- se:
+  - se_adv_luna_magic_01
+- chara_full:
+  - 111412
+  - C
+  - 2
+- fadein:
+  - 111412
+  - 5
+- black_in: *o0
+- window_visible:
+  - true
+- bgm:
+  - bgm_MS03
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 111412
+- bust:
+  - 111412
+  - 0
+- vo:
+  - vo_adv_1114001_014
+- face:
+  - 111412
+  - 2
+- print:
+  - 露娜
+  - 絕對，
+- wait:
+  - 25
+- print:
+  - 露娜
+  - 不能逃走唷！
+- touch: *o0
+- choice:
+  - 危險！
+  - 8
+- tag:
+  - 8
+- window_visible:
+  - false
+- fadeout:
+  - 111412
+  - 30
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0070
+  - se_adv_magic_dark_medium_01
+- wait:
+  - 45
+- background:
+  - 500172
+- se:
+  - se_adv_knock_back_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- wait:
+  - 15
+- chara_full:
+  - 111412
+  - C
+  - 6
+- fadein:
+  - 111412
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 111412
+- bust:
+  - 111412
+  - 0
+- vo:
+  - vo_adv_1114001_015
+- face:
+  - 111412
+  - 6
+- print:
+  - 露娜
+  - >-
+    ……！
+
+    為什麼！？
+- wait:
+  - 35
+- print:
+  - 露娜
+  - >2
+
+- face:
+  - 111412
+  - 4
+- print:
+  - 露娜
+  - 為什麼，
+- wait:
+  - 15
+- print:
+  - 露娜
+  - 不能為我死掉呢！
+- touch: *o0
+- focus:
+  - 111412
+- bust:
+  - 111412
+  - 0
+- vo:
+  - vo_adv_1114001_016
+- face:
+  - 111412
+  - 3
+- print:
+  - 露娜
+  - 大哥哥也是騙子……！
+- wait:
+  - 45
+- print:
+  - 露娜
+  - >2-
+
+    跟魔物都一樣！
+- touch: *o0
+- window_visible:
+  - false
+- black_out:
+  - 1
+  - 0.5
+- fadeout:
+  - 111412
+  - 5
+- chara_full:
+  - 111411
+  - C
+  - 3
+- fadein:
+  - 111411
+  - 5
+- black_in: *o0
+- window_visible:
+  - true
+- focus:
+  - 111411
+- bust:
+  - 111411
+  - 0
+- vo:
+  - vo_adv_1114001_017
+- face:
+  - 111411
+  - 3
+- nod:
+  - 111411
+- print:
+  - 露娜
+  - ……、
+- wait:
+  - 30
+- print:
+  - 露娜
+  - 算了！
+- touch: *o0
+- bgm:
+  - stop
+  - 4
+  - 1
+- focus:
+  - 111411
+- bust:
+  - 111411
+  - 0
+- vo:
+  - vo_adv_1114001_018
+- face:
+  - 111411
+  - 3
+- print:
+  - 露娜
+  - 什麼大哥哥，
+- wait:
+  - 25
+- print:
+  - 露娜
+  - 最討厭了！
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_step_leaves_run_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 111411
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 說完露娜就跳進樹叢內。
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - '{0}放棄了追上露娜，'
+- wait:
+  - 30
+- print:
+  - 旁白
+  - >2-
+
+    決定先打敗森林的魔物。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500132
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_outdoors_night_02
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - '{0}成功討伐魔物後，離開了森林。'
+- wait:
+  - 30
+- print:
+  - 旁白
+  - >2-
+
+    接著，在森林的出口站著一位老婆婆。
+- touch: *o0
+- window_visible:
+  - FALSE
+- chara_full:
+  - 611
+  - C
+  - 3
+- fadein:
+  - 611
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M134
+  - 0
+  - 0
+  - 0
+  - 0.3
+- focus:
+  - 611
+- bust:
+  - 611
+  - 0
+- vo:
+  - vo_adv_1114001_019
+- face:
+  - 611
+  - 3
+- nod:
+  - 611
+- print:
+  - 老奶奶
+  - ……那邊的那位。
+- wait:
+  - 70
+- print:
+  - 老奶奶
+  - >2-
+
+    你剛剛進了那座森林吧。
+- touch: *o0
+- focus:
+  - 611
+- bust:
+  - 611
+  - 0
+- vo:
+  - vo_adv_1114001_020
+- face:
+  - 611
+  - 6
+- print:
+  - 老奶奶
+  - 有沒有看見一位女孩子呢？
+- wait:
+  - 50
+- print:
+  - 老奶奶
+  - >2-
+
+    年紀還很小……
+- touch: *o0
+- choice:
+  - 有看見。
+  - 9
+- tag:
+  - 9
+- focus:
+  - 611
+- bust:
+  - 611
+  - 0
+- vo:
+  - vo_adv_1114001_021
+- face:
+  - 611
+  - 3
+- nod:
+  - 611
+- print:
+  - 老奶奶
+  - 啊，
+- wait:
+  - 15
+- print:
+  - 老奶奶
+  - 是嗎……
+- wait:
+  - 45
+- print:
+  - 老奶奶
+  - >2-
+
+    我對那個孩子做了很過分的事。
+- touch: *o0
+- focus:
+  - 611
+- bust:
+  - 611
+  - 0
+- vo:
+  - vo_adv_1114001_022
+- face:
+  - 611
+  - 4
+- print:
+  - 老奶奶
+  - ……希望她能原諒我。
+- wait:
+  - 45
+- print:
+  - 老奶奶
+  - >2-
+
+    那個孩子，
+- wait:
+  - 35
+- print:
+  - 老奶奶
+  - 還什麼都不知情呢。
+- wait:
+  - 60
+- print:
+  - 老奶奶
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 老奶奶
+  - 全部都……
+- touch: *o0
+- focus:
+  - 611
+- bust:
+  - 611
+  - 0
+- vo:
+  - vo_adv_1114001_023
+- face:
+  - 611
+  - 4
+- eye_open:
+  - True
+- print:
+  - 老奶奶
+  - 不對的人……是我呀。
+- wait:
+  - 50
+- print:
+  - 老奶奶
+  - >2-
+
+    我對
+- wait:
+  - 20
+- print:
+  - 老奶奶
+  - 在這個森林中發生的事……
+- touch: *o0
+- focus:
+  - 611
+- bust:
+  - 611
+  - 0
+- vo:
+  - vo_adv_1114001_024
+- face:
+  - 611
+  - 6
+- emotion:
+  - exclamation1_R
+  - 611
+  - -5
+  - 630
+  - se_adv_emote_common_01
+- print:
+  - 老奶奶
+  - ……啊啊、
+- wait:
+  - 25
+- print:
+  - 老奶奶
+  - 不行。
+- wait:
+  - 35
+- print:
+  - 老奶奶
+  - >2
+
+- face:
+  - 611
+  - 1
+- print:
+  - 老奶奶
+  - 老人家的陳年往事，
+- wait:
+  - 45
+- print:
+  - 老奶奶
+  - 你應該不想聽吧。
+- wait:
+  - 45
+- print:
+  - 老奶奶
+  - >2
+
+- face:
+  - 611
+  - 2
+- print:
+  - 老奶奶
+  - 不好意思呢。
+- touch: *o0
+- focus:
+  - 611
+- bust:
+  - 611
+  - 0
+- vo:
+  - vo_adv_1114001_025
+- face:
+  - 611
+  - 3
+- nod:
+  - 611
+- print:
+  - 老奶奶
+  - 總之，
+- wait:
+  - 30
+- print:
+  - 老奶奶
+  - 最好不要靠近這裡唷。
+- wait:
+  - 60
+- print:
+  - 老奶奶
+  - >2-
+
+    很危險的……
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_step_dirt_walk_go_01
+- change:
+  - RC
+  - C
+  - 45
+- fadeout:
+  - 611
+  - 45
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 目送老婆婆離去的背影，
+- wait:
+  - 30
+- print:
+  - 旁白
+  - >2-
+
+    {0}隨後就返回了蘭德索爾。
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

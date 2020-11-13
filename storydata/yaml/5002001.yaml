@@ -1,0 +1,891 @@
+- title:
+  - 一起探險的邀請
+- outline:
+  - 即使對與禊的爭執有所反省，卻仍無法坦率地道歉的鏡華，前來找{0}商量。{0}提議說：「試著邀請禊去探險，以藉此重修舊好吧。」
+- background:
+  - 500190
+- amb:
+  - amb_adv_forest_02
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 一起探險的邀請
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    和禊吵架後過了一個晚上，
+
+    鏡華也對昨天的事稍微反省了一番。
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 103611
+  - C
+  - 4
+- fadein:
+  - 103611
+  - 30
+- bgm:
+  - bgm_M100
+- window_visible:
+  - true
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002001_000
+- face:
+  - 103611
+  - 4
+- emotion:
+  - drop1_R
+  - 103611
+  - 65
+  - 620
+  - se_adv_emote_drop_01
+- print:
+  - 鏡華
+  - 唉，昨天是不是說得太過分了啊……說什麼絕交……
+- wait:
+  - 90
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002001_001
+- face:
+  - 103611
+  - 1
+- print:
+  - 鏡華
+  - 可，可是，是禊自己跑來要我教她唸書的啊，
+- wait:
+  - 45
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 103611
+  - 4
+- print:
+  - 鏡華
+  - 只因為聽不懂就任性地不學了……
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002001_002
+- face:
+  - 103611
+  - 4
+- eye_open:
+  - FALSE
+- print:
+  - 鏡華
+  - ……我也有不好的地方吧。
+- wait:
+  - 108
+- print:
+  - 鏡華
+  - >2-
+
+    被叫做老師就得意忘形了……
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002001_003
+- face:
+  - 103611
+  - 4
+- eye_open:
+  - TRUE
+- print:
+  - 鏡華
+  - 是不是再也不能一起玩了呢……
+- wait:
+  - 30
+- touch: *o0
+- choice:
+  - 早安。
+  - 1
+- choice:
+  - 拍拍鏡華的肩膀。
+  - 2
+- tag:
+  - 1
+- se:
+  - se_adv_emote_nortice_02
+- emotion:
+  - surprise1_L
+  - 103611
+  - 130
+  - 515
+  - '*non'
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002001_004
+- face:
+  - 103611
+  - 6
+- print:
+  - 鏡華
+  - 呀啊！你，你這個人啊！
+- wait:
+  - 45
+- print:
+  - 鏡華
+  - >2-
+
+    不要突然跑來搭話啦！這樣不是會嚇到人嗎！
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002001_005
+- face:
+  - 103611
+  - 3
+- print:
+  - 鏡華
+  - 鬼鬼祟祟地從背後接近，你果然就是可疑人物！
+- wait:
+  - 55
+- touch: *o0
+- goto:
+  - 3
+- tag:
+  - 2
+- window_visible:
+  - false
+- se:
+  - se_adv_shoulder_01
+- wait:
+  - 30
+- eye_open:
+  - true
+- se:
+  - se_adv_emote_nortice_02
+- emotion:
+  - exclamation1_R
+  - 103611
+  - -15
+  - 610
+  - '*non'
+- window_visible:
+  - true
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002001_006
+- face:
+  - 103611
+  - 6
+- print:
+  - 鏡華
+  - 唉唷！
+- shake:
+  - 103611
+- print:
+  - 鏡華
+  - 是，是誰啊！？
+- wait:
+  - 63
+- print:
+  - 鏡華
+  - >2-
+
+    ……真是，你這個人啊……請不要突然拍人的肩膀啦！　
+- wait:
+  - 120
+- print:
+  - 鏡華
+  - >2-
+
+    好可怕……不是，是會嚇到人的啦！
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002001_007
+- face:
+  - 103611
+  - 1
+- print:
+  - 鏡華
+  - 更何況，未經允許就觸碰女孩子的身體……
+- wait:
+  - 105
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 103611
+  - 3
+- print:
+  - 鏡華
+  - 你果然是個變態！一定沒錯！
+- wait:
+  - 45
+- touch: *o0
+- tag:
+  - 3
+- window_visible:
+  - false
+- face:
+  - 103611
+  - 6
+- emotion:
+  - question1_R
+  - 103611
+  - 85
+  - 465
+  - se_adv_emote_question_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002001_008
+- face:
+  - 103611
+  - 6
+- print:
+  - 鏡華
+  - ……咦？覺得我會因為昨天的事而失落，所以來看我的情況如何？
+- wait:
+  - 70
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002001_009
+- face:
+  - 103611
+  - 1
+- print:
+  - 鏡華
+  - 多，多管閒事！
+- wait:
+  - 60
+- print:
+  - 鏡華
+  - >2-
+
+    我精神飽滿，所以沒什麼好擔心的！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002001_010
+- face:
+  - 103611
+  - 1
+- print:
+  - 鏡華
+  - 至於禊……就這樣了。
+- wait:
+  - 75
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 103611
+  - 4
+- print:
+  - 鏡華
+  - 反正都已經絕交了……
+- wait:
+  - 30
+- touch: *o0
+- choice:
+  - 不和好嗎？
+  - 4
+- tag:
+  - 4
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002001_011
+- face:
+  - 103611
+  - 3
+- print:
+  - 鏡華
+  - 要是那麼簡單就不會這麼辛苦了！
+- wait:
+  - 75
+- print:
+  - 鏡華
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - 鏡華
+  - 不過，好吧……如果禊一定要的話，
+- wait:
+  - 60
+- print:
+  - 鏡華
+  - >2-
+
+    也不是不行和好……
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002001_012
+- face:
+  - 103611
+  - 1
+- eye_open:
+  - TRUE
+- print:
+  - 鏡華
+  - 只不過，彼此沒有達成共識的話，
+- wait:
+  - 65
+- print:
+  - 鏡華
+  - >2-
+
+    就算道歉也沒有意義不是嗎？
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002001_013
+- face:
+  - 103611
+  - 1
+- print:
+  - 鏡華
+  - 當然，我也有不對的地方……
+- wait:
+  - 90
+- print:
+  - 鏡華
+  - >2-
+
+    這點我至少明白。
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002001_014
+- face:
+  - 103611
+  - 4
+- print:
+  - 鏡華
+  - 可是明白歸明白……絕交都已經說出口了……
+- wait:
+  - 110
+- print:
+  - 鏡華
+  - >2-
+
+    要是沒有什麼契機的話……實在沒辦法道歉……
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002001_015
+- face:
+  - 103611
+  - 4
+- print:
+  - 鏡華
+  - 畢竟我也不喜歡現在這種狀態。
+- wait:
+  - 110
+- print:
+  - 鏡華
+  - >2-
+
+    可是，說要和好，實在太困難了……
+- wait:
+  - 128
+- print:
+  - 鏡華
+  - >2-
+
+    因為像這樣和朋友吵架還是第一次……
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002001_016
+- face:
+  - 103611
+  - 4
+- eye_open:
+  - FALSE
+- print:
+  - 鏡華
+  - ……教科書上又沒有教人重修舊好的方法……
+- wait:
+  - 45
+- touch: *o0
+- choice:
+  - 我們大家一起去探險吧！
+  - 5
+- tag:
+  - 5
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002001_017
+- face:
+  - 103611
+  - 6
+- eye_open:
+  - TRUE
+- emotion:
+  - question1_R
+  - 103611
+  - 85
+  - 465
+  - se_adv_emote_question_01
+- print:
+  - 鏡華
+  - 咦？為、為什麼突然？說要探險……
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002001_018
+- face:
+  - 103611
+  - 4
+- print:
+  - 鏡華
+  - 如果是要讓我打起精神就不必了……現在沒有那種心情。
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002001_019
+- face:
+  - 103611
+  - 1
+- print:
+  - 鏡華
+  - 更何況、喜歡探險的人是禊啊，
+- wait:
+  - 75
+- print:
+  - 鏡華
+  - >2-
+
+    不是應該找她去才對嗎？
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 103611
+  - 6
+- emotion:
+  - notice1_L
+  - 103611
+  - -80
+  - 475
+  - se_adv_emote_common_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002001_020
+- face:
+  - 103611
+  - 6
+- print:
+  - 鏡華
+  - ……如果和禊一起去她喜歡的探險，
+- wait:
+  - 60
+- print:
+  - 鏡華
+  - >2-
+
+    應該可以順其自然地和好？
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002001_021
+- face:
+  - 103611
+  - 4
+- print:
+  - 鏡華
+  - 那麼單純的辦法，真的沒問題嗎……
+- wait:
+  - 110
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 103611
+  - 1
+- print:
+  - 鏡華
+  - 不過，畢竟是禊喜歡的活動……說不定效果會很不錯呢。
+- wait:
+  - 85
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002001_022
+- face:
+  - 103611
+  - 4
+- print:
+  - 鏡華
+  - 啊，可是要怎麼樣邀請她才好……
+- wait:
+  - 75
+- print:
+  - 鏡華
+  - >2-
+
+    現在就算去找她，也不知道她願不願意聽我說話……
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002001_023
+- face:
+  - 103611
+  - 1
+- print:
+  - 鏡華
+  - 如果是信的話……沒錯！就是寫信！
+- wait:
+  - 120
+- print:
+  - 鏡華
+  - >2-
+
+    就來寫一封邀請禊去探險的邀請函吧！
+- wait:
+  - 60
+- print:
+  - 鏡華
+  - >2-
+
+    既然這麼決定了……請等我一下！
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- change:
+  - R
+  - C
+  - 30
+- se:
+  - se_adv_step_leaves_walk_go_01
+- fadeout:
+  - 103611
+  - 30
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 103611
+  - C
+  - 1
+- fadein:
+  - 103611
+- window_visible:
+  - true
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002001_024
+- face:
+  - 103611
+  - 1
+- print:
+  - 鏡華
+  - 那麼……探險邀請函……
+- wait:
+  - 105
+- print:
+  - 鏡華
+  - >2-
+
+    給禊……我們找美美 3 個人一起去探險吧……
+- wait:
+  - 90
+- print:
+  - 鏡華
+  - >2-
+
+    我在蘭德索爾外面等候……鏡華上……這樣可以嗎？
+- wait:
+  - 135
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 103611
+  - 30
+- chara_full:
+  - 103611
+  - C
+  - 1
+- scale:
+  - 103611
+  - 1.3
+  - 3
+- se:
+  - se_adv_step_leaves_move_01
+- fadein:
+  - 103611
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002001_025
+- face:
+  - 103611
+  - 1
+- print:
+  - 鏡華
+  - 那麼……{0}，
+- wait:
+  - 30
+- print:
+  - 鏡華
+  - >2-
+
+    你能不能，
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 把這個交給禊呢？
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_paper_move_01
+- nod:
+  - 103611
+- wait:
+  - 15
+- se:
+  - se_adv_paper_move_04
+- window_visible:
+  - true
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002001_026
+- face:
+  - 103611
+  - 2
+- print:
+  - 鏡華
+  - ……謝謝你！
+- wait:
+  - 60
+- print:
+  - 鏡華
+  - >2-
+
+    禊願不願意來呢……
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_5002001_027
+- face:
+  - 103611
+  - 1
+- print:
+  - 鏡華
+  - 沒問題吧？既然是最喜歡的探險，應該會來吧！
+- wait:
+  - 130
+- print:
+  - 鏡華
+  - >2-
+
+    {0}，信就拜託你了。
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 103611
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- print:
+  - 旁白
+  - >-
+    {0}收下了鏡華的信。
+
+    和她約定了一定要把信交給禊，於是往蘭德索爾出發了。
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

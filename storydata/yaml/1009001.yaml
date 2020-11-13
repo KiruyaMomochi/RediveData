@@ -1,0 +1,1787 @@
+- title:
+  - 杏奈 第1話
+- outline:
+  - '{0}協助正在追著通緝犯的少女杏奈。對於初次見面就能有默契地協力合作的{0}，將他認定為前世的盟友『閃光的吉格魯特』。'
+- background:
+  - 500010
+- amb:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 邂逅，閃光的吉格魯特！
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 這是{0}在街上散步的時候發生的事。
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 100911
+  - C
+  - 3
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- in_L:
+  - 100911
+  - 45
+  - true
+- window_visible:
+  - true
+- bgm:
+  - bgm_M17
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_1009001_000
+- face:
+  - 100911
+  - 3
+- jump:
+  - 100911
+- print:
+  - ？？？
+  - 站住！ 通緝犯！
+- wait:
+  - 40
+- print:
+  - ？？？
+  - >2-
+
+    你就乖乖地束手就擒吧！
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- out_R:
+  - 100911
+  - 45
+  - true
+- effect:
+  - 0004
+  - se_adv_transition_01
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- chara_full:
+  - 811
+  - L
+  - 2
+- change:
+  - C
+  - L
+- fadein:
+  - 811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1009001_001
+- face:
+  - 811
+  - 2
+- print:
+  - 通緝犯
+  - 誰會聽妳的話乖乖站住啊！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0009
+- scale:
+  - 811
+  - 1.3
+  - 2
+  - 5
+- fadeout:
+  - 811
+  - 15
+- se:
+  - se_adv_comic_punch_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- chara_full:
+  - 811
+  - C
+  - 3
+- scale:
+  - 811
+  - 1.3
+  - 2
+- fadein:
+  - 811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1009001_002
+- face:
+  - 811
+  - 3
+- emotion:
+  - anger1_R
+  - 811
+  - -180
+  - 565
+  - se_adv_emote_anger_01
+- print:
+  - 通緝犯
+  - 很痛耶！ 你的眼晴長在哪裡啊！ 給我小心點啊！
+- wait:
+  - 45
+- touch: *o0
+- se:
+  - se_adv_step_concrete_run_go_01
+- window_visible:
+  - false
+- change:
+  - R
+  - C
+  - 15
+- fadeout:
+  - 811
+  - 30
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- chara_full:
+  - 100911
+  - L
+  - 6
+- change:
+  - C
+  - L
+- fadein:
+  - 100911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_1009001_003
+- face:
+  - 100911
+  - 6
+- print:
+  - ？？？
+  - 那邊的那位無名之人，你沒事吧？
+- wait:
+  - 75
+- print:
+  - ？？？
+  - >2
+
+- face:
+  - 100911
+  - 3
+- print:
+  - ？？？
+  - 我現在正在追捕那個通緝犯……
+- wait:
+  - 90
+- print:
+  - ？？？
+  - >2
+
+- face:
+  - 100911
+  - 4
+- print:
+  - ？？？
+  - 卻把你牽扯進來了，抱歉。
+- eye_open:
+  - FALSE
+- print:
+  - ？？？
+  - 那傢伙的罪也是我的罪……
+- wait:
+  - 90
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_1009001_004
+- face:
+  - 100911
+  - 6
+- eye_open:
+  - TRUE
+- print:
+  - ？？？
+  - 噢，不好意思……我應該先報上我的名字才對。
+- wait:
+  - 75
+- print:
+  - ？？？
+  - >2
+
+- face:
+  - 100911
+  - 2
+- print:
+  - ？？？
+  - 我神聖的名字……你聽好了！
+- wait:
+  - 45
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+- fadeout:
+  - 100911
+  - 30
+- se:
+  - se_adv_magic_anna_04
+- white_out:
+  - 1
+  - 0.5
+- amb_stop:
+  - 1
+- still:
+  - 100900101
+- wait:
+  - 15
+- white_in: *o0
+- bgm:
+  - bgm_M06
+  - 0
+  - 0
+  - 1
+- amb:
+  - amb_adv_magic_thunder_01
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 1
+- vo:
+  - vo_adv_1009001_005
+- face:
+  - 100911
+  - 2
+- print:
+  - ？？？
+  - ──呵呵呵……哈哈哈……哈～哈哈哈！
+- wait:
+  - 90
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 1
+- vo:
+  - vo_adv_1009001_006
+- face:
+  - 100911
+  - 1
+- print:
+  - 修特帕魯
+  - 我的大名是那安妮羅潔·馮·修特帕魯！
+- wait:
+  - 75
+- print:
+  - 修特帕魯
+  - >2-
+
+    外號疾風之冥姬！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 1
+- vo:
+  - vo_adv_1009001_007
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 別稱「熾炎戰鬼煉獄血盟暗黑團」團長！
+- wait:
+  - 120
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 2
+- print:
+  - 修特帕魯
+  - 身為暗黑騎士的我，結束了最後之戰，是舊世界的英雄喔！
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 1
+- vo:
+  - vo_adv_1009001_008
+- face:
+  - 100911
+  - 1
+- print:
+  - 修特帕魯
+  - 我們今天相遇也算是一種緣份。
+- wait:
+  - 60
+- print:
+  - 修特帕魯
+  - >2-
+
+    這次就特別讓你的名字也烙印在我的靈魂中――
+- wait:
+  - 45
+- touch: *o0
+- choice:
+  - 通緝犯要逃走了。
+  - 1
+- tag:
+  - 1
+- amb_stop:
+  - 1
+- amb:
+  - amb_adv_town_day_01
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 1
+- vo:
+  - vo_adv_1009001_009
+- face:
+  - 100911
+  - 6
+- print:
+  - 修特帕魯
+  - 嗯嗯……？ 怎麼了，為什麼說些理所當然的話？
+- wait:
+  - 65
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 通緝犯逃走不是很正常的嗎……
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- white_out:
+  - 1
+  - 0.5
+- still:
+  - end
+- wait:
+  - 15
+- white_in: *o0
+- chara_full:
+  - 100911
+  - C
+  - 6
+- fadein:
+  - 100911
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 0.5
+  - 1
+- bgm:
+  - bgm_M11
+  - 0
+  - 0
+  - 0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_1009001_010
+- face:
+  - 100911
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100911
+  - -10
+  - 640
+  - se_adv_emote_common_01
+- print:
+  - 修特帕魯
+  - 糟了！ 他什麼時候跑得那麼遠了……！
+- wait:
+  - 90
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 得趕緊追上他才行！
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_1009001_011
+- face:
+  - 100911
+  - 3
+- jump:
+  - 100911
+- print:
+  - 修特帕魯
+  - 對了！ 你也來幫我吧！
+- wait:
+  - 60
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 1
+- print:
+  - 修特帕魯
+  - 如果你幫忙的話，我就把賞金分給你……意下如何？
+- wait:
+  - 60
+- touch: *o0
+- choice:
+  - 接受條件。
+  - 2
+- tag:
+  - 2
+- bgm:
+  - stop
+  - 0.5
+- bgm:
+  - bgm_M06
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_1009001_012
+- face:
+  - 100911
+  - 2
+- print:
+  - 修特帕魯
+  - 這樣子啊，你願意幫我啊！
+- wait:
+  - 60
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 那現在立刻去追捕那他吧！
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_1009001_013
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 我會就這樣追趕在後，然後把通緝犯引誘到某個地方。
+- wait:
+  - 90
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 1
+- print:
+  - 修特帕魯
+  - 你則事先前往那個地方，埋伏著等待他出現吧。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_1009001_014
+- face:
+  - 100911
+  - 1
+- print:
+  - 修特帕魯
+  - 這樣的話，我們便能把他們一網打盡了。
+- wait:
+  - 90
+- print:
+  - 修特帕魯
+  - >2
+
+- emotion:
+  - twinkle1_R
+  - 100911
+  - -120
+  - 495
+  - se_adv_emote_twinkle_01
+- face:
+  - 100911
+  - 2
+- eye_open:
+  - FALSE
+- print:
+  - 修特帕魯
+  - 呵……這個作戰計劃真完美啊。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_1009001_015
+- face:
+  - 100911
+  - 2
+- eye_open:
+  - TRUE
+- jump:
+  - 100911
+- print:
+  - 修特帕魯
+  - 出發吧！ 為了我們的榮譽與獎金！
+- wait:
+  - 45
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
+- se:
+  - se_adv_step_concrete_run_go_01
+- window_visible:
+  - false
+- out_R:
+  - 100911
+  - 45
+  - true
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500020
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- bgm:
+  - bgm_M03
+- amb:
+  - amb_adv_outdoors_day_01
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- chara_full:
+  - 811
+  - LC
+  - 1
+- change:
+  - LC
+  - RC
+  - 30
+- focus:
+  - 811
+- fadein:
+  - 811
+  - 30
+- se:
+  - se_adv_step_concrete_run_go_01
+- chara_full:
+  - 100911
+  - L
+  - 3
+- in_L:
+  - 100911
+  - 45
+  - true
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_1009001_016
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 站住，通緝犯！
+- wait:
+  - 45
+- print:
+  - 修特帕魯
+  - >2-
+
+    我不會讓你逃走的！
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1009001_017
+- face:
+  - 811
+  - 1
+- print:
+  - 通緝犯
+  - 嘿，你追得到我的話就試試看啊！
+- wait:
+  - 10
+- touch: *o0
+- se:
+  - se_adv_step_concrete_run_go_01
+- window_visible:
+  - false
+- out_R:
+  - 811
+  - 30
+  - true
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_1009001_018
+- face:
+  - 100911
+  - 6
+- print:
+  - 修特帕魯
+  - 糟了！ 如果他在那裡轉彎的話，就不能逼他跑向那裡了……！
+- wait:
+  - 45
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 這樣的話……！ 看招！
+- wait:
+  - 45
+- touch: *o0
+- fadeout:
+  - 100911
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- se:
+  - se_adv_step_concrete_run_go_01
+- chara_full:
+  - 811
+  - C
+  - 1
+- in_L:
+  - 811
+  - 45
+  - true
+- wait:
+  - 10
+- effect:
+  - 0010
+  - se_adv_explosion_small_01
+- face:
+  - 811
+  - 6
+- change:
+  - R
+  - C
+  - 15
+- wait:
+  - 15
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1009001_019
+- face:
+  - 811
+  - 6
+- print:
+  - 通緝犯
+  - '嗚哇！ '
+- face:
+  - 811
+  - 2
+- print:
+  - 通緝犯
+  - ……哈哈哈，你在攻擊誰啊？
+- wait:
+  - 55
+- print:
+  - 通緝犯
+  - >2-
+
+    根本打不中我呢！ 這樣我就能逃走囉！
+- wait:
+  - 30
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+- se:
+  - se_adv_step_concrete_run_go_01
+- window_visible:
+  - false
+- out_R:
+  - 811
+  - 30
+  - true
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 100911
+  - C
+  - 1
+- fadein:
+  - 100911
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M14
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_1009001_020
+- face:
+  - 100911
+  - 1
+- eye_open:
+  - FALSE
+- print:
+  - 修特帕魯
+  - 呵呵呵……成功誘導他跑去那裡了。
+- wait:
+  - 75
+- print:
+  - 修特帕魯
+  - >2
+
+- eye_open:
+  - TRUE
+- print:
+  - 修特帕魯
+  - 之後就是按照作戰計劃，在那裡埋伏……
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- wait:
+  - 15
+- face:
+  - 100911
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100911
+  - -10
+  - 640
+  - se_adv_emote_common_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_1009001_021
+- face:
+  - 100911
+  - 6
+- print:
+  - 修特帕魯
+  - 糟了！ 我忘了告訴那個男人埋伏的位置了！
+- wait:
+  - 75
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 4
+- print:
+  - 修特帕魯
+  - 這樣下去的話計畫會――！
+- touch: *o0
+- fadeout:
+  - 100911
+  - 30
+- bgm:
+  - stop
+  - 0.5
+  - 1
+- effect:
+  - 0004
+  - se_adv_transition_01
+- bgm:
+  - bgm_M17
+- wait:
+  - 15
+- chara_full:
+  - 811
+  - C
+  - 1
+- fadein:
+  - 811
+  - 30
+- choice:
+  - 朝通緝犯撲過去。
+  - 3
+- tag:
+  - 3
+- effect:
+  - 0009
+- face:
+  - 811
+  - 6
+- camera_zoom:
+  - 1.3
+  - 5
+- se:
+  - se_adv_bodyfall_02
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1009001_022
+- face:
+  - 811
+  - 6
+- print:
+  - 通緝犯
+  - 嗚啊！
+- sway:
+  - 811
+- wait:
+  - 10
+- print:
+  - 通緝犯
+  - >2
+
+- face:
+  - 811
+  - 3
+- print:
+  - 通緝犯
+  - 你、你這傢伙！
+- wait:
+  - 45
+- print:
+  - 通緝犯
+  - >2-
+
+    什麼時候先跑到這裡的！？
+- touch: *o0
+- fadeout:
+  - 811
+  - 30
+- wait:
+  - 15
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 5
+- camera_zoom:
+  - 1
+  - 1
+- wait:
+  - 15
+- chara_full:
+  - 100911
+  - C
+  - 6
+- fadein:
+  - 100911
+  - 30
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_1009001_023
+- face:
+  - 100911
+  - 6
+- print:
+  - 修特帕魯
+  - 咦……？ 成功了……？
+- wait:
+  - 70
+- print:
+  - 修特帕魯
+  - >2-
+
+    為什麼……
+- touch: *o0
+- window_visible:
+  - false
+- emotion:
+  - notice1_L
+  - 100911
+  - -95
+  - 535
+  - se_adv_emote_common_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_1009001_024
+- face:
+  - 100911
+  - 3
+- jump:
+  - 100911
+- print:
+  - 修特帕魯
+  - 比起這種事，現在要先抓住那個通緝犯！
+- wait:
+  - 90
+- print:
+  - 修特帕魯
+  - >2-
+
+    你！ 絕對不要讓那傢伙逃走啊！
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - R
+  - C
+  - 15
+- fadeout:
+  - 100911
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500091
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_outdoor_castle_01
+- bgm:
+  - bgm_M71
+  - 0
+  - 0
+  - 1
+- chara_full:
+  - 100911
+  - C
+  - 2
+- fadein:
+  - 100911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_1009001_025
+- face:
+  - 100911
+  - 2
+- print:
+  - 修特帕魯
+  - ……你做得很好呢。
+- wait:
+  - 45
+- print:
+  - 修特帕魯
+  - >2-
+
+    幸虧有你，我輕易地抓到通緝犯了。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_1009001_026
+- face:
+  - 100911
+  - 1
+- print:
+  - 修特帕魯
+  - 你收下這個吧。
+- wait:
+  - 45
+- print:
+  - 修特帕魯
+  - >2-
+
+    這是抓住那傢伙所得到的一半獎金。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_money_give_01
+- nod:
+  - 100911
+  - 0
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_1009001_027
+- face:
+  - 100911
+  - 4
+- print:
+  - 修特帕魯
+  - 但是……虧你還知道那個地方呢？
+- wait:
+  - 105
+- print:
+  - 修特帕魯
+  - >2-
+
+    我應該沒有告訴你集合地點才對……
+- wait:
+  - 15
+- touch: *o0
+- choice:
+  - 我總覺得應該是那個地方。
+  - 4
+- tag:
+  - 4
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_1009001_028
+- face:
+  - 100911
+  - 1
+- print:
+  - 修特帕魯
+  - 原來如此……不用我說明，你也能明白我的想法……
+- wait:
+  - 90
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 100911
+  - 6
+- bgm:
+  - stop
+  - 0.5
+  - 1
+- effect:
+  - 0012
+  - se_adv_flash_01
+- shake:
+  - 100911
+- wait:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M06
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_1009001_029
+- face:
+  - 100911
+  - 2
+- print:
+  - 修特帕魯
+  - ……呵呵。哈哈哈、哈哈哈！
+- wait:
+  - 75
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 1
+- print:
+  - 修特帕魯
+  - 這樣啊，原來是這樣啊……！ 絕對沒有錯！
+- wait:
+  - 105
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_1009001_030
+- face:
+  - 100911
+  - 1
+- emotion:
+  - twinkle1_R
+  - 100911
+  - -120
+  - 495
+  - se_adv_emote_twinkle_01
+- print:
+  - 修特帕魯
+  - 你一定是我前世的宿敵兼盟友！ 閃光的吉格魯特！
+- wait:
+  - 75
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 2
+- print:
+  - 修特帕魯
+  - 沒想到你也轉世了啊！
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_1009001_031
+- face:
+  - 100911
+  - 3
+- pop:
+  - 100911
+- print:
+  - 修特帕魯
+  - 我絕對沒有認錯人！
+- wait:
+  - 45
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 2
+- print:
+  - 修特帕魯
+  - 你能夠馬上理解我的想法，這就是最好的證據！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_1009001_032
+- face:
+  - 100911
+  - 4
+- print:
+  - 修特帕魯
+  - 我一直都沒注意到，真是抱歉……
+- wait:
+  - 75
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 2
+- print:
+  - 修特帕魯
+  - 但是，從今以後就不同了！
+- wait:
+  - 45
+- print:
+  - 修特帕魯
+  - >2-
+
+    讓我們像前世一樣，把自己的名字傳遍全世界吧！
+- wait:
+  - 45
+- touch: *o0
+- effect:
+  - 0009
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_1009001_033
+- face:
+  - 100911
+  - 1
+- print:
+  - 修特帕魯
+  - 你就是閃光的吉格魯特！
+- wait:
+  - 90
+- print:
+  - 修特帕魯
+  - >2-
+
+    對吧，閃光的吉格魯特？
+- wait:
+  - 15
+- touch: *o0
+- choice:
+  - 我不是吉格魯特。
+  - 5
+- tag:
+  - 5
+- bgm:
+  - stop
+  - 0.5
+- effect:
+  - 0009
+- bgm:
+  - bgm_M11_02_Edit
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_1009001_034
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 不對！ 你就是閃光的吉格魯特啊！
+- wait:
+  - 100
+- print:
+  - 修特帕魯
+  - >2-
+
+    對吧，閃光的吉格魯特……？
+- wait:
+  - 15
+- touch: *o0
+- choice:
+  - 我不是吉格魯特。
+  - 6
+- tag:
+  - 6
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_1009001_035
+- face:
+  - 100911
+  - 4
+- print:
+  - 修特帕魯
+  - 不、
+- shake:
+  - 100911
+- print:
+  - 修特帕魯
+  - 不可能的……！
+- wait:
+  - 75
+- print:
+  - 修特帕魯
+  - >2-
+
+    你就是閃光的吉格魯特！
+- wait:
+  - 90
+- print:
+  - 修特帕魯
+  - >2-
+
+    對吧，閃光的吉格魯特……！？
+- wait:
+  - 30
+- touch: *o0
+- choice:
+  - ……我是閃光的吉格魯特。
+  - 7
+- tag:
+  - 7
+- bgm:
+  - stop
+  - 0.5
+  - 1
+- window_visible:
+  - false
+- bgm:
+  - bgm_M06
+- face:
+  - 100911
+  - 6
+- emotion:
+  - twinkle1_R
+  - 100911
+  - -120
+  - 495
+  - se_adv_emote_twinkle_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_1009001_036
+- face:
+  - 100911
+  - 2
+- print:
+  - 修特帕魯
+  - 喔喔，果然是這樣啊！！
+- wait:
+  - 45
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 6
+- print:
+  - 修特帕魯
+  - ……你好像一副有難言之隱的表情，怎麼了呢？
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_1009001_037
+- face:
+  - 100911
+  - 1
+- print:
+  - 修特帕魯
+  - 這樣啊，你是因為突然相遇而感到不知所措吧。
+- wait:
+  - 60
+- print:
+  - 修特帕魯
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - 修特帕魯
+  - 你這份心情我也明白。我也很驚訝呢
+- eye_open:
+  - TRUE
+- print:
+  - 修特帕魯
+  - 。
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_1009001_038
+- face:
+  - 100911
+  - 2
+- pop:
+  - 100911
+- print:
+  - 修特帕魯
+  - 但這是值得高興的事啊！
+- wait:
+  - 75
+- print:
+  - 修特帕魯
+  - >2-
+
+    因為我們能以這種方式跟前世的盟友再度相遇！
+- wait:
+  - 30
+- touch: *o0
+- effect:
+  - 0046
+  - se_adv_happy_particle_01
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_1009001_039
+- face:
+  - 100911
+  - 1
+- eye_open:
+  - FALSE
+- print:
+  - 修特帕魯
+  - 這也是一種緣份呢。吉格魯特啊！
+- wait:
+  - 75
+- print:
+  - 修特帕魯
+  - >2
+
+- eye_open:
+  - TRUE
+- print:
+  - 修特帕魯
+  - 我現在任命你成為「熾炎戰鬼煉獄血盟暗黑團」的副團長。
+- wait:
+  - 180
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 2
+- print:
+  - 修特帕魯
+  - 並賜予你跟前世一樣的暗黑騎士身份！
+- wait:
+  - 45
+- touch: *o0
+- choice:
+  - 不用了。
+  - 8
+- choice:
+  - 不勝感激……
+  - 9
+- tag:
+  - 8
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_1009001_040
+- face:
+  - 100911
+  - 1
+- print:
+  - 修特帕魯
+  - 不用害羞啦「第二連隊長」。
+- wait:
+  - 45
+- print:
+  - 修特帕魯
+  - >2-
+
+    這個職位只有你能勝任。交給你了！
+- wait:
+  - 75
+- touch: *o0
+- goto:
+  - 10
+- tag:
+  - 9
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_1009001_041
+- face:
+  - 100911
+  - 2
+- print:
+  - 修特帕魯
+  - 不用這麼拘謹啦。 你不是我的夥伴嗎。
+- wait:
+  - 45
+- touch: *o0
+- tag:
+  - 10
+- effect_delete:
+  - 0046
+  - 30
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_1009001_042
+- face:
+  - 100911
+  - 1
+- print:
+  - 修特帕魯
+  - 那麼團員就有我跟吉格魯特兩個人……
+- wait:
+  - 90
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 5
+- print:
+  - 修特帕魯
+  - 我們一起攜手打倒「機關」，保護新世界吧。
+- wait:
+  - 90
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_1009001_043
+- face:
+  - 100911
+  - 1
+- print:
+  - 修特帕魯
+  - 那麼再見了。 你沒有忘記我們的暗語吧？
+- wait:
+  - 120
+- print:
+  - 修特帕魯
+  - >2
+
+- emotion:
+  - twinkle1_R
+  - 100911
+  - -120
+  - 495
+  - se_adv_emote_twinkle_01
+- face:
+  - 100911
+  - 2
+- print:
+  - 修特帕魯
+  - 「吾等乃飛舞於煉獄，一陣疾風！」
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- out_R:
+  - 100911
+  - 45
+  - true
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    自稱「疾風之冥姬」的
+
+    修特帕魯，留下了不知名的暗語之後就離開了。
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

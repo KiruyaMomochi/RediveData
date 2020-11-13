@@ -1,0 +1,282 @@
+- title:
+  - 你有兄弟姊妹嗎？
+- outline:
+  - ' '
+- background:
+  - 500110
+- amb:
+  - amb_adv_room_noise_day_01
+- ui_visible:
+  - false
+- situation:
+  - 有兄弟姊妹嗎？
+- chara_full:
+  - 109811
+  - C
+  - 1
+- fadein:
+  - 109811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M229_A
+  - 0
+  - 0
+  - 1
+- focus:
+  - 109811
+- bust:
+  - 109811
+  - 0
+- vo:
+  - vo_adv_6017302_000
+- face:
+  - 109811
+  - 1
+- print:
+  - 拉姆
+  - 你有兄弟姊妹嗎？
+- wait:
+  - 55
+- print:
+  - 拉姆
+  - >2
+
+- emotion:
+  - notice1_L
+  - 109811
+  - -60
+  - 520
+  - se_adv_emote_common_01
+- face:
+  - 109811
+  - 6
+- print:
+  - 拉姆
+  - 啊，
+- wait:
+  - 30
+- print:
+  - 拉姆
+  - 這麼說來，
+- wait:
+  - 15
+- print:
+  - 拉姆
+  - 你好像是失去記憶了呢。
+- wait:
+  - 50
+- print:
+  - 拉姆
+  - >2
+
+- face:
+  - 109811
+  - 1
+- print:
+  - 拉姆
+  - 那
+- wait:
+  - 15
+- print:
+  - 拉姆
+  - 你會想要兄弟姊妹嗎？
+- touch: &o0 []
+- choice:
+  - 沒有特別想要。
+  - 1
+  - 1
+- choice:
+  - 我想要像雷姆一樣的妹妹。
+  - 2
+  - 2
+- choice:
+  - 我想要像拉姆一樣的姐姐。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 109811
+- bust:
+  - 109811
+  - 0
+- vo:
+  - vo_adv_6017302_001
+- face:
+  - 109811
+  - 3
+- print:
+  - 拉姆
+  - 這種時候就算說謊也應該要說想要才對吧。
+- wait:
+  - 50
+- print:
+  - 拉姆
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 拉姆
+  - 說得也是，
+- wait:
+  - 35
+- eye_open:
+  - True
+- print:
+  - 拉姆
+  - 那麼
+- wait:
+  - 25
+- print:
+  - 拉姆
+  - 我就告訴你我妹妹的一些優點吧。
+- wait:
+  - 50
+- print:
+  - 拉姆
+  - >2
+
+- nod:
+  - 109811
+- print:
+  - 拉姆
+  - 給我在那裡坐好。
+- wait:
+  - 30
+- print:
+  - 拉姆
+  - 坐直，
+- wait:
+  - 5
+- print:
+  - 拉姆
+  - 正座坐好。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 109811
+- bust:
+  - 109811
+  - 0
+- vo:
+  - vo_adv_6017302_002
+- face:
+  - 109811
+  - 2
+- print:
+  - 拉姆
+  - 雖然想說
+- wait:
+  - 20
+- eye_open:
+  - False
+- print:
+  - 拉姆
+  - 你眼光真的很不錯，
+- wait:
+  - 15
+- print:
+  - 拉姆
+  - 不過很遺憾。
+- wait:
+  - 35
+- print:
+  - 拉姆
+  - >2
+
+- eye_open:
+  - True
+- face:
+  - 109811
+  - 3
+- print:
+  - 拉姆
+  - 雷姆是拉姆的妹妹唷。
+- wait:
+  - 30
+- print:
+  - 拉姆
+  - 我是不會讓給你的。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 109811
+- bust:
+  - 109811
+  - 0
+- vo:
+  - vo_adv_6017302_003
+- face:
+  - 109811
+  - 2
+- emotion:
+  - twinkle1_R
+  - 109811
+  - -60
+  - 475
+  - se_adv_emote_twinkle_01
+- print:
+  - 拉姆
+  - 哼，那當然。
+- wait:
+  - 35
+- eye_open:
+  - False
+- print:
+  - 拉姆
+  - 不過，
+- wait:
+  - 20
+- eye_open:
+  - True
+- print:
+  - 拉姆
+  - 你還早一百年呢。
+- wait:
+  - 60
+- print:
+  - 拉姆
+  - >2-
+
+    如果你願意代替拉姆
+- wait:
+  - 25
+- print:
+  - 拉姆
+  - 煮飯掃地洗衣的話，
+- wait:
+  - 30
+- print:
+  - 拉姆
+  - >2-
+
+    倒是可以考慮看看喔？
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 109811
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

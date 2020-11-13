@@ -1,0 +1,298 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500038
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - false
+- situation:
+  - 發燙的心
+- chara_full:
+  - 111611
+  - C
+  - 2
+- fadein:
+  - 111611
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M283_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111611
+- bust:
+  - 111611
+  - 0
+- vo:
+  - vo_adv_6029110_000
+- face:
+  - 111611
+  - 2
+- print:
+  - 望
+  - 太舒服了，泡到都有點頭暈了呢。
+- wait:
+  - 70
+- print:
+  - 望
+  - >2
+
+- face:
+  - 111611
+  - 5
+- print:
+  - 望
+  - 被你看到剛洗完澡的樣子，
+- wait:
+  - 45
+- print:
+  - 望
+  - 有點害羞呢。
+- touch: &o0 []
+- choice:
+  - 真的很舒服。
+  - 1
+  - 1
+- choice:
+  - 頭昏昏的。
+  - 2
+  - 2
+- choice:
+  - 妳的臉很紅喔。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 111611
+- bust:
+  - 111611
+  - 0
+- vo:
+  - vo_adv_6029110_001
+- face:
+  - 111611
+  - 1
+- print:
+  - 望
+  - 呵呵。
+- wait:
+  - 30
+- print:
+  - 望
+  - 難怪會泡過頭呢。
+- wait:
+  - 50
+- print:
+  - 望
+  - >2
+
+- face:
+  - 111611
+  - 6
+- print:
+  - 望
+  - 啊！
+- wait:
+  - 15
+- print:
+  - 望
+  - 不過要記得補充水分喔！
+- wait:
+  - 45
+- print:
+  - 望
+  - >2
+
+- face:
+  - 111611
+  - 1
+- print:
+  - 望
+  - 這個，
+- wait:
+  - 10
+- print:
+  - 望
+  - 是真陽送的牛奶……
+- wait:
+  - 45
+- face:
+  - 111611
+  - 2
+- print:
+  - 望
+  - 要不要一起喝？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 111611
+- bust:
+  - 111611
+  - 0
+- vo:
+  - vo_adv_6029110_002
+- face:
+  - 111611
+  - 6
+- emotion:
+  - exclamation1_R
+  - 111611
+  - 20
+  - 615
+  - se_adv_emote_common_01
+- print:
+  - 望
+  - 你還好嗎！？　
+- wait:
+  - 20
+- print:
+  - 望
+  - 你重心有點不穩耶！
+- wait:
+  - 25
+- print:
+  - 望
+  - >2-
+
+    來，
+- wait:
+  - 10
+- print:
+  - 望
+  - 抓著我。
+- wait:
+  - 65
+- print:
+  - 望
+  - ……
+- wait:
+  - 30
+- face:
+  - 111611
+  - 1
+- print:
+  - 望
+  - 你的身體，
+- wait:
+  - 15
+- print:
+  - 望
+  - 好溫暖。
+- wait:
+  - 50
+- print:
+  - 望
+  - >2
+
+- face:
+  - 111611
+  - 5
+- print:
+  - 望
+  - ……好像連我
+- wait:
+  - 15
+- print:
+  - 望
+  - 都覺得有點昏了。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 111611
+- bust:
+  - 111611
+  - 0
+- vo:
+  - vo_adv_6029110_003
+- face:
+  - 111611
+  - 6
+- print:
+  - 望
+  - 咦？　
+- wait:
+  - 15
+- print:
+  - 望
+  - 可能是因為溫泉泡太久了吧。
+- wait:
+  - 45
+- print:
+  - 望
+  - >2
+
+- face:
+  - 111611
+  - 4
+- print:
+  - 望
+  - 真是的，
+- wait:
+  - 30
+- print:
+  - 望
+  - 不要一直盯著我看嘛！　
+- wait:
+  - 20
+- print:
+  - 望
+  - 我會渾身發燙的！
+- wait:
+  - 50
+- print:
+  - 望
+  - >2
+
+- face:
+  - 111611
+  - 6
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 111611
+- print:
+  - 望
+  - 哇！
+- wait:
+  - 25
+- print:
+  - 望
+  - 你的臉
+- wait:
+  - 10
+- print:
+  - 望
+  - 不要湊過來啦！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 111611
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

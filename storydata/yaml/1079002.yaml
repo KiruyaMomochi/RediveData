@@ -1,0 +1,2064 @@
+- title:
+  - 珠希（夏日） 第2話
+- outline:
+  - 珠希和{0}，以及認識的少女一起尋找能夠招來幸福的貓咪形狀貝殼。而在尋找的途中，發現貝殼的女孩子遭到了魔物的襲擊。珠希則奮不顧身地救了女孩子一命。
+- background:
+  - 500160
+- amb:
+  - amb_adv_seaside_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 找尋幸福的貝殼……
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    在瑪爾傑海岸熱鬧的海水浴場開放活動中，
+
+    {0}悠閒地走在沙灘上。
+- touch: &o0 []
+- bgm:
+  - bgm_M122
+  - 0
+  - 0
+  - 1
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 1
+- vo:
+  - vo_adv_1079002_000
+- face:
+  - 107911
+  - 1
+- print:
+  - 珠希
+  - 喂―！
+- wait:
+  - 15
+- print:
+  - 珠希
+  - 　{0}―！
+- wait:
+  - 20
+- print:
+  - 珠希
+  - 　
+- face:
+  - 107911
+  - 2
+- print:
+  - 珠希
+  - 你來的正好啊喵！
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 107911
+  - LC
+  - 1
+- se:
+  - se_adv_step_dirt_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 107911
+  - 45
+- wait:
+  - 10
+- se:
+  - se_adv_rabbit_jump_01
+- wait:
+  - 10
+- se:
+  - se_adv_step_dirt_run_go_02
+- window_visible:
+  - true
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 0
+- vo:
+  - vo_adv_1079002_001
+- face:
+  - 107911
+  - 6
+- print:
+  - 珠希
+  - 欸，幹嘛逃走啊喵！
+- wait:
+  - 30
+- print:
+  - 珠希
+  - 　
+- face:
+  - 107911
+  - 3
+- print:
+  - 珠希
+  - 給我站住喵！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 107911
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 107911
+  - C
+  - 1
+- scale:
+  - 107911
+  - 1.3
+  - 2
+- fadein:
+  - 107911
+  - 30
+- window_visible:
+  - true
+- se:
+  - se_adv_body_handshake_01
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 0
+- vo:
+  - vo_adv_1079002_002
+- face:
+  - 107911
+  - 1
+- nod:
+  - 107911
+- print:
+  - 珠希
+  - 呵，
+- wait:
+  - 30
+- print:
+  - 珠希
+  - 抓到你了喵！
+- wait:
+  - 30
+- print:
+  - 珠希
+  - >-
+    　
+
+    要是我把手放開了你就要逃掉了就保持這樣和你說了喵。
+- touch: *o0
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 0
+- vo:
+  - vo_adv_1079002_003
+- face:
+  - 107911
+  - 7
+- emotion:
+  - twinkle1_R
+  - 107911
+  - -95
+  - 510
+  - se_adv_emote_twinkle_01
+- print:
+  - 珠希
+  - 我們一起來找貓形貝殼吧喵！
+- face:
+  - 107911
+  - 1
+- touch: *o0
+- choice:
+  - 有這種東西嗎？
+  - 1
+- choice:
+  - 攤位放著不管嗎？
+  - 2
+- tag:
+  - 1
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 0
+- vo:
+  - vo_adv_1079002_004
+- face:
+  - 107911
+  - 1
+- pop:
+  - 107911
+- print:
+  - 珠希
+  - 真的有啊喵！
+- wait:
+  - 15
+- print:
+  - 珠希
+  - 　我親眼見過的喵！
+- touch: *o0
+- goto:
+  - 3
+- tag:
+  - 2
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 0
+- vo:
+  - vo_adv_1079002_005
+- face:
+  - 107911
+  - 1
+- print:
+  - 珠希
+  - 現在比起攤位我更想找貓形的貝殼！
+- touch: *o0
+- tag:
+  - 3
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 0
+- vo:
+  - vo_adv_1079002_006
+- face:
+  - 107911
+  - 1
+- print:
+  - 珠希
+  - 就在剛才來買鯛魚燒的客人，
+- wait:
+  - 45
+- print:
+  - 珠希
+  - >2-
+
+    我看到他戴著有貓型貝殼串在一起的裝飾品呢喵！
+- touch: *o0
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 0
+- vo:
+  - vo_adv_1079002_007
+- face:
+  - 107911
+  - 2
+- emotion:
+  - note1_L
+  - 107911
+  - -80
+  - 540
+  - se_adv_emote_note_01
+- print:
+  - 珠希
+  - 那種貝殼呀
+- wait:
+  - 30
+- print:
+  - 珠希
+  - 聽說可以帶來幸福呢喵！
+- wait:
+  - 45
+- print:
+  - 珠希
+  - >2-
+
+    不僅是貓的形狀
+- wait:
+  - 30
+- print:
+  - 珠希
+  - 還能為帶來幸福真是太讚了喵～♪
+- touch: *o0
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 0
+- vo:
+  - vo_adv_1079002_008
+- face:
+  - 107911
+  - 1
+- print:
+  - 珠希
+  - 哎～呀，
+- wait:
+  - 30
+- print:
+  - 珠希
+  - 你是逃不開我的魔掌的。
+- wait:
+  - 30
+- print:
+  - 珠希
+  - 我是不會放手的喵！
+- wait:
+  - 30
+- print:
+  - 珠希
+  - >2
+
+- face:
+  - 107911
+  - 2
+- print:
+  - 珠希
+  - 我們一起來找貓形貝殼吧喵！
+- touch: *o0
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 0
+- vo:
+  - vo_adv_1079002_009
+- face:
+  - 107911
+  - 1
+- print:
+  - 珠希
+  - 我啊，
+- wait:
+  - 15
+- print:
+  - 珠希
+  - 讓生活中充斥著喜愛的東西便是我的信條啊喵。
+- wait:
+  - 60
+- print:
+  - 珠希
+  - >2
+
+- face:
+  - 107911
+  - 2
+- print:
+  - 珠希
+  - 而貓形貝殼就是其中之一了喵～
+- touch: *o0
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 0
+- vo:
+  - vo_adv_1079002_010
+- face:
+  - 107911
+  - 1
+- pop:
+  - 107911
+- print:
+  - 珠希
+  - 來吧，
+- wait:
+  - 15
+- print:
+  - 珠希
+  - 快一起到海邊找找了喵～♪
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+  - 1
+- fadeout:
+  - 107911
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 107911
+  - C
+  - 1
+- fadein:
+  - 107911
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M113
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 0
+- vo:
+  - vo_adv_1079002_011
+- face:
+  - 107911
+  - 1
+- print:
+  - 珠希
+  - 貓形貝殼快出來吧喵～
+- wait:
+  - 65
+- face:
+  - 107911
+  - 2
+- print:
+  - 珠希
+  - 我會把你弄的漂漂亮亮的喵～♪
+- touch: *o0
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 0
+- vo:
+  - vo_adv_1079002_012
+- face:
+  - 107911
+  - 1
+- print:
+  - 珠希
+  - 我也希望{0}可以努力幫忙找找呢喵～
+- wait:
+  - 45
+- print:
+  - 珠希
+  - >2
+
+- face:
+  - 107911
+  - 2
+- print:
+  - 珠希
+  - 我的幸福人生就仰賴你了喵～
+- touch: *o0
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 0
+- vo:
+  - vo_adv_1079002_013
+- face:
+  - 107911
+  - 1
+- print:
+  - 珠希
+  - 貓形的貝殼……
+- wait:
+  - 60
+- print:
+  - 珠希
+  - 該是把它作成墜飾好呢、
+- wait:
+  - 45
+- print:
+  - 珠希
+  - 還是胸針比較好呢喵。
+- touch: *o0
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 0
+- vo:
+  - vo_adv_1079002_014
+- face:
+  - 107911
+  - 2
+- eye_open:
+  - False
+- print:
+  - 珠希
+  - 把貝殼弄到手我的攤位，
+- wait:
+  - 45
+- print:
+  - 珠希
+  - 客人們一定會連日擁進，
+- wait:
+  - 45
+- print:
+  - 珠希
+  - >2-
+
+    搞不好沒多久就能成為有錢人了……
+- touch: *o0
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 0
+- vo:
+  - vo_adv_1079002_015
+- face:
+  - 107911
+  - 1
+- eye_open:
+  - True
+- emotion:
+  - notice1_L
+  - 107911
+  - -80
+  - 560
+  - se_adv_emote_common_01
+- print:
+  - 珠希
+  - 啊，
+- wait:
+  - 15
+- print:
+  - 珠希
+  - 我也會用謝禮好好報答{0}的喵。
+- wait:
+  - 30
+- print:
+  - 珠希
+  - >2-
+
+    我做的鯛魚燒
+- wait:
+  - 30
+- print:
+  - 珠希
+  - 會特別為你做個優惠的喵！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 107911
+  - 30
+- chara_full:
+  - 107911
+  - LC
+  - 1
+- chara_full:
+  - 211
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1079002_016
+- face:
+  - 211
+  - 6
+- emotion:
+  - notice1_L
+  - 211
+  - -75
+  - 475
+  - se_adv_emote_common_01
+- print:
+  - 女子
+  - 啊，
+- wait:
+  - 15
+- print:
+  - 女子
+  - 是鯛魚燒姐姐！
+- wait:
+  - 30
+- print:
+  - 女子
+  - 　
+- face:
+  - 211
+  - 1
+- print:
+  - 女子
+  - 你在這裡做什麼？
+- token: *o0
+- touch: *o0
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 0
+- vo:
+  - vo_adv_1079002_017
+- face:
+  - 107911
+  - 2
+- print:
+  - 珠希
+  - 哦，
+- wait:
+  - 30
+- print:
+  - 珠希
+  - 是一直跟我買鯛魚燒的小女孩啊喵！
+- wait:
+  - 45
+- print:
+  - 珠希
+  - >2
+
+- face:
+  - 107911
+  - 1
+- print:
+  - 珠希
+  - 現在我們
+- wait:
+  - 30
+- print:
+  - 珠希
+  - 正在尋找貓形的貝殼哦！
+- touch: *o0
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1079002_018
+- face:
+  - 211
+  - 6
+- pop:
+  - 211
+- print:
+  - 女子
+  - 咦？
+- wait:
+  - 15
+- print:
+  - 女子
+  - 　貓形的貝殼！？
+- wait:
+  - 45
+- print:
+  - 女子
+  - 　
+- face:
+  - 211
+  - 2
+- print:
+  - 女子
+  - 好像很好玩
+- wait:
+  - 30
+- print:
+  - 女子
+  - 我也要來幫忙～！
+- touch: *o0
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 0
+- vo:
+  - vo_adv_1079002_019
+- face:
+  - 107911
+  - 2
+- print:
+  - 珠希
+  - 真的喵！？
+- wait:
+  - 30
+- print:
+  - 珠希
+  - 　真高興喵～♪
+- touch: *o0
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 0
+- vo:
+  - vo_adv_1079002_020
+- face:
+  - 107911
+  - 1
+- print:
+  - 珠希
+  - 找的人越多越省事呢喵。
+- touch: *o0
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1079002_021
+- face:
+  - 211
+  - 2
+- pop:
+  - 211
+- print:
+  - 女子
+  - 那麼我，
+- wait:
+  - 15
+- print:
+  - 女子
+  - 就到那邊找找看了哦—！
+- touch: *o0
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 0
+- vo:
+  - vo_adv_1079002_022
+- face:
+  - 107911
+  - 2
+- nod:
+  - 107911
+- print:
+  - 珠希
+  - 麻煩你了喵—！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 107911
+  - LC
+  - 4
+- chara_full:
+  - 211
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M51
+  - 0
+  - 0
+  - 1
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 0
+- vo:
+  - vo_adv_1079002_023
+- face:
+  - 107911
+  - 4
+- print:
+  - 珠希
+  - 唔～，
+- wait:
+  - 45
+- print:
+  - 珠希
+  - 感覺都找不太到啊喵……
+- touch: *o0
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1079002_024
+- face:
+  - 211
+  - 4
+- print:
+  - 女子
+  - 貓形的貝殼，
+- wait:
+  - 35
+- print:
+  - 女子
+  - 畢竟也沒看過呢—
+- touch: *o0
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 0
+- vo:
+  - vo_adv_1079002_025
+- face:
+  - 107911
+  - 4
+- eye_open:
+  - False
+- print:
+  - 珠希
+  - 剛才找到的
+- wait:
+  - 30
+- print:
+  - 珠希
+  - 有像櫻花貝和海螺之類的東西，
+- wait:
+  - 60
+- print:
+  - 珠希
+  - >2-
+
+    還有海膽外殼、
+- wait:
+  - 30
+- print:
+  - 珠希
+  - 和珍珠貝……
+- touch: *o0
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 0
+- vo:
+  - vo_adv_1079002_026
+- face:
+  - 107911
+  - 4
+- eye_open:
+  - True
+- print:
+  - 珠希
+  - 雖然都很漂亮也很值錢，
+- wait:
+  - 45
+- print:
+  - 珠希
+  - >2-
+
+    但我只想要那個貓形的貝殼啊喵！
+- touch: *o0
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1079002_027
+- face:
+  - 211
+  - 6
+- emotion:
+  - notice1_L
+  - 211
+  - -75
+  - 475
+  - se_adv_emote_common_01
+- print:
+  - 女子
+  - 咦？
+- wait:
+  - 30
+- print:
+  - 女子
+  - 　掉在那塊岩石上的東西、
+- wait:
+  - 45
+- print:
+  - 女子
+  - 該不會就是貓形貝殼了吧？
+- touch: *o0
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 0
+- vo:
+  - vo_adv_1079002_028
+- face:
+  - 107911
+  - 6
+- emotion:
+  - surprise1_L
+  - 107911
+  - 155
+  - 555
+  - se_adv_emote_common_01
+- print:
+  - 珠希
+  - 欸！？
+- wait:
+  - 15
+- print:
+  - 珠希
+  - 　在哪裡喵？
+- touch: *o0
+- bgm:
+  - stop
+  - 3.5
+  - 1
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1079002_029
+- face:
+  - 211
+  - 2
+- print:
+  - 女子
+  - 我去幫妳撿過來吧—！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_dirt_walk_go_01
+- change:
+  - R
+  - RC
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- split:
+  - 500160
+  - 5
+- split_slide:
+  - 1
+  - 350
+  - 15
+  - -650
+  - -150
+  - -50
+- bgm:
+  - bgm_M12
+- wait:
+  - 15
+- chara_full:
+  - 107911
+  - L
+  - 1
+- chara_full:
+  - 211
+  - R
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 0
+- vo:
+  - vo_adv_1079002_030
+- face:
+  - 107911
+  - 1
+- print:
+  - 珠希
+  - 當心腳下啊喵—！
+- touch: *o0
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1079002_031
+- face:
+  - 211
+  - 2
+- print:
+  - 女子
+  - 嗯，
+- wait:
+  - 15
+- print:
+  - 女子
+  - 稍微有點晃
+- wait:
+  - 30
+- print:
+  - 女子
+  - 不過沒問題的！
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 211
+  - 6
+- face:
+  - 107911
+  - 6
+- emotion:
+  - exclamation1_R
+  - 211
+  - 5
+  - 585
+  - se_adv_emote_common_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- face:
+  - 107911
+  - 1
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1079002_032
+- face:
+  - 211
+  - 6
+- print:
+  - 女子
+  - 到手了！
+- wait:
+  - 30
+- print:
+  - 女子
+  - 　
+- face:
+  - 211
+  - 1
+- print:
+  - 女子
+  - 果然真的是貓形的貝殼呢姐姐！
+- touch: *o0
+- se:
+  - se_adv_creature_leaves_middle_01
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- print:
+  - ？？？
+  - 喀擦喀擦
+- touch: *o0
+- face:
+  - 107911
+  - 6
+- bgm:
+  - stop
+  - 5
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1079002_033
+- face:
+  - 211
+  - 6
+- print:
+  - 女子
+  - 欸！？
+- wait:
+  - 15
+- print:
+  - 女子
+  - 　
+- face:
+  - 211
+  - 4
+- print:
+  - 女子
+  - 剛才，
+- wait:
+  - 30
+- print:
+  - 女子
+  - 是不是有聽見什麼聲音……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- split:
+  - 0
+  - 0
+- wait:
+  - 15
+- jingle_start:
+  - bgm_M17_00_intro
+- se:
+  - se_adv_creature_slime_03
+- se:
+  - se_adv_collapse_02_lp
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- se_pause:
+  - se_adv_collapse_02_lp
+  - 1
+- window_visible:
+  - true
+- focus:
+  - 211
+- bust:
+  - 211
+  - 1
+- vo:
+  - vo_adv_1079002_034
+- face:
+  - 211
+  - 4
+- print:
+  - 女子
+  - 呀啊啊啊啊啊！
+- wait:
+  - 45
+- print:
+  - 女子
+  - 　這是什麼啊！
+- wait:
+  - 15
+- print:
+  - 女子
+  - 　明明剛才都還是岩石的啊！
+- touch: *o0
+- bgm:
+  - bgm_M17
+  - 0
+  - 0
+  - 1
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 1
+- vo:
+  - vo_adv_1079002_035
+- face:
+  - 107911
+  - 3
+- print:
+  - 珠希
+  - 那個東西、
+- wait:
+  - 30
+- print:
+  - 珠希
+  - 並不是岩石而是擬態的棘刺蟹啊喵！？
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- window_visible:
+  - true
+- se:
+  - se_adv_creature_leaves_middle_01
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 棘刺蟹
+  - 喀擦喀擦
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_creature_slime_02
+- chara_full:
+  - 1612
+  - R
+  - 1
+- fadein:
+  - 1612
+  - 30
+- chara_full:
+  - 1613
+  - L
+  - 1
+- fadein:
+  - 1613
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 211
+- bust:
+  - 211
+  - 1
+- vo:
+  - vo_adv_1079002_036
+- face:
+  - 211
+  - 4
+- print:
+  - 女子
+  - 呀……
+- shake:
+  - 211
+- wait:
+  - 30
+- print:
+  - 女子
+  - 它們變得越來越多了！
+- touch: *o0
+- focus:
+  - 211
+- bust:
+  - 211
+  - 1
+- vo:
+  - vo_adv_1079002_037
+- face:
+  - 211
+  - 6
+- face:
+  - 211
+  - 4
+- print:
+  - 女子
+  - 啊，
+- wait:
+  - 15
+- print:
+  - 女子
+  - 剛才撿到的貝殼不見了……！
+- wait:
+  - 30
+- print:
+  - 女子
+  - 　
+- face:
+  - 211
+  - 4
+- print:
+  - 女子
+  - 怎麼辦，
+- wait:
+  - 30
+- print:
+  - 女子
+  - 跑到哪裡去了…！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 107911
+  - C
+  - 3
+- fadein:
+  - 107911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 0
+- vo:
+  - vo_adv_1079002_038
+- face:
+  - 107911
+  - 3
+- print:
+  - 珠希
+  - 當心有危險啊喵！
+- wait:
+  - 30
+- print:
+  - 珠希
+  - 　這邊交給我，你先逃開吧喵！
+- touch: *o0
+- se:
+  - se_adv_creature_leaves_middle_03
+- bgm:
+  - stop
+  - 4
+  - 1
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 1
+- face:
+  - 1611
+  - 1
+- print:
+  - 棘刺蟹
+  - 咕嘟咕嘟咕嘟—
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 107911
+  - 30
+- se:
+  - se_adv_bubble_splat_01
+- white_out:
+  - 1
+  - 1
+- still_unit:
+  - 107931
+- wait:
+  - 15
+- white_in: *o0
+- bgm:
+  - bgm_M15_02_NoIntro
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- wait:
+  - 10
+- window_visible:
+  - true
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 1
+- vo:
+  - vo_adv_1079002_039
+- face:
+  - 107911
+  - 6
+- print:
+  - 珠希
+  - 喵啊！？
+- wait:
+  - 30
+- print:
+  - 珠希
+  - 　這是什麼啊！？
+- wait:
+  - 15
+- print:
+  - 珠希
+  - 　
+- face:
+  - 107911
+  - 4
+- print:
+  - 珠希
+  - 感覺被噴到什麼了喵！
+- touch: *o0
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 1
+- vo:
+  - vo_adv_1079002_040
+- face:
+  - 107911
+  - 4
+- print:
+  - 珠希
+  - 這、
+- wait:
+  - 15
+- print:
+  - 珠希
+  - 這是泡沫！？
+- wait:
+  - 30
+- print:
+  - 珠希
+  - 　喵啊！？
+- wait:
+  - 15
+- print:
+  - 珠希
+  - 　討厭啊喵！
+- touch: *o0
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 1
+- vo:
+  - vo_adv_1079002_041
+- face:
+  - 107911
+  - 4
+- print:
+  - 珠希
+  - 變得濕答答的喵！
+- wait:
+  - 30
+- print:
+  - 珠希
+  - 　我討厭水啊喵—！
+- wait:
+  - 15
+- print:
+  - 珠希
+  - 　糾纏在一起啦喵！　
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_swish_multi_01
+- wait:
+  - 20
+- se_pause:
+  - se_adv_swish_multi_01
+  - 0.5
+- se:
+  - se_adv_comic_punch_04
+- wait:
+  - 15
+- se:
+  - se_adv_creature_leaves_middle_02
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 1
+- face:
+  - 1611
+  - 1
+- print:
+  - 棘刺蟹
+  - 喀擦喀擦
+- touch: *o0
+- focus:
+  - 211
+- bust:
+  - 211
+  - 1
+- vo:
+  - vo_adv_1079002_042
+- face:
+  - 211
+  - 6
+- print:
+  - 女子
+  - 好厲害！
+- wait:
+  - 30
+- print:
+  - 女子
+  - 　生氣的姐姐
+- wait:
+  - 30
+- print:
+  - 女子
+  - 開始和魔物打在一塊了！
+- touch: *o0
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 1
+- vo:
+  - vo_adv_1079002_043
+- face:
+  - 107911
+  - 4
+- print:
+  - 珠希
+  - 別過來喵！
+- wait:
+  - 30
+- print:
+  - 珠希
+  - 　別靠近喵！
+- wait:
+  - 15
+- print:
+  - 珠希
+  - 　竟然敢把我弄濕啊喵！
+- touch: *o0
+- window_visible:
+  - false
+- white_out:
+  - 1
+  - 1
+- still_unit:
+  - end
+- effect_delete:
+  - 0022
+- wait:
+  - 15
+- white_in: *o0
+- chara_full:
+  - 107911
+  - C
+  - 4
+- fadein:
+  - 107911
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 9
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 0
+- vo:
+  - vo_adv_1079002_044
+- face:
+  - 107911
+  - 4
+- nod:
+  - 107911
+- print:
+  - 珠希
+  - 呼……呼……
+- wait:
+  - 60
+- print:
+  - 珠希
+  - 不、
+- wait:
+  - 15
+- print:
+  - 珠希
+  - 不知不覺
+- wait:
+  - 30
+- print:
+  - 珠希
+  - 魔物就倒下了啊喵……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 107911
+  - 30
+- chara_full:
+  - 107911
+  - LC
+  - 1
+- chara_full:
+  - 211
+  - R
+  - 4
+- change:
+  - RC
+  - R
+  - 45
+- se:
+  - se_adv_step_dirt_run_come_01
+- fadein_all:
+  - 45
+- window_visible:
+  - true
+- bgm:
+  - bgm_M123
+  - 0
+  - 0
+  - 1
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1079002_045
+- face:
+  - 211
+  - 4
+- print:
+  - 女子
+  - 姐姐！
+- wait:
+  - 30
+- print:
+  - 女子
+  - 　你沒事吧！？
+- touch: *o0
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 0
+- vo:
+  - vo_adv_1079002_046
+- face:
+  - 107911
+  - 1
+- nod:
+  - 107911
+- print:
+  - 珠希
+  - 我沒事的喵。
+- wait:
+  - 45
+- face:
+  - 107911
+  - 2
+- print:
+  - 珠希
+  - 而且，
+- wait:
+  - 15
+- print:
+  - 珠希
+  - 貝殼也是
+- wait:
+  - 45
+- print:
+  - 珠希
+  - 安然無恙的喵。
+- touch: *o0
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1079002_047
+- face:
+  - 211
+  - 1
+- print:
+  - 女子
+  - 哇，
+- wait:
+  - 15
+- print:
+  - 女子
+  - 好厲害！
+- wait:
+  - 30
+- print:
+  - 女子
+  - 　你還把掉下的貝殼、
+- wait:
+  - 30
+- print:
+  - 女子
+  - 給撿回來了呢！
+- wait:
+  - 30
+- print:
+  - 女子
+  - >2
+
+- face:
+  - 211
+  - 2
+- print:
+  - 女子
+  - 能找到它真是太好了呢、
+- wait:
+  - 30
+- print:
+  - 女子
+  - 姐姐！
+- touch: *o0
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 0
+- vo:
+  - vo_adv_1079002_048
+- face:
+  - 107911
+  - 2
+- pop:
+  - 107911
+- print:
+  - 珠希
+  - 嗯，
+- wait:
+  - 30
+- face:
+  - 107911
+  - 1
+- print:
+  - 珠希
+  - 不過，
+- wait:
+  - 15
+- print:
+  - 珠希
+  - 我要把它送給你喵。
+- touch: *o0
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1079002_049
+- face:
+  - 211
+  - 6
+- emotion:
+  - notice1_L
+  - 211
+  - -75
+  - 475
+  - se_adv_emote_common_01
+- print:
+  - 女子
+  - 咦？
+- wait:
+  - 30
+- print:
+  - 女子
+  - 　
+- face:
+  - 211
+  - 4
+- print:
+  - 女子
+  - 但是……
+- wait:
+  - 30
+- print:
+  - 女子
+  - 這不就是姐姐你很想要的貝殼嗎……
+- touch: *o0
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 0
+- vo:
+  - vo_adv_1079002_050
+- face:
+  - 107911
+  - 1
+- print:
+  - 珠希
+  - 我不會介意的喵。
+- wait:
+  - 45
+- print:
+  - 珠希
+  - 因為最初撿到的人是妳呀。
+- wait:
+  - 45
+- print:
+  - 珠希
+  - >2
+
+- face:
+  - 107911
+  - 2
+- print:
+  - 珠希
+  - 只要帶著這個，
+- wait:
+  - 30
+- print:
+  - 珠希
+  - 妳就會變得幸福起來了喵。
+- touch: *o0
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1079002_051
+- face:
+  - 211
+  - 1
+- print:
+  - 女子
+  - 啊，
+- wait:
+  - 30
+- print:
+  - 女子
+  - 謝謝妳……
+- wait:
+  - 45
+- print:
+  - 女子
+  - 真的是非常可愛的貝殼呢。
+- wait:
+  - 45
+- print:
+  - 女子
+  - >2
+
+- face:
+  - 211
+  - 2
+- print:
+  - 女子
+  - 我，
+- wait:
+  - 30
+- print:
+  - 女子
+  - 我要拿去給媽媽瞧瞧！
+- wait:
+  - 30
+- print:
+  - 女子
+  - 　那就再見嘍姐姐！
+- touch: *o0
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 0
+- vo:
+  - vo_adv_1079002_052
+- face:
+  - 107911
+  - 2
+- print:
+  - 珠希
+  - 嗯，
+- wait:
+  - 30
+- nod:
+  - 107911
+- print:
+  - 珠希
+  - 要再過來攤位這邊玩啊喵～
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 107911
+  - C
+  - 1
+- fadein:
+  - 107911
+  - 30
+- window_visible:
+  - true
+- choice:
+  - 你怎麼會如此捨得？
+  - 4
+- choice:
+  - 你不會是哭了吧？
+  - 5
+- tag:
+  - 4
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 0
+- vo:
+  - vo_adv_1079002_053
+- face:
+  - 107911
+  - 3
+- print:
+  - 珠希
+  - 真煩呢喵！
+- jump:
+  - 107911
+- wait:
+  - 30
+- print:
+  - 珠希
+  - 　貝殼我再去找找看就好了喵！
+- touch: *o0
+- goto:
+  - 6
+- tag:
+  - 5
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 0
+- vo:
+  - vo_adv_1079002_054
+- face:
+  - 107911
+  - 4
+- emotion:
+  - sweat2_R
+  - 107911
+  - 100
+  - 525
+  - se_adv_emote_sweat_02
+- print:
+  - 珠希
+  - 我、
+- wait:
+  - 30
+- print:
+  - 珠希
+  - 我才沒有哭呢喵！
+- wait:
+  - 45
+- print:
+  - 珠希
+  - 　這不過是、
+- wait:
+  - 30
+- print:
+  - 珠希
+  - 泡泡跑進眼睛裡去了而已喵！
+- touch: *o0
+- tag:
+  - 6
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 0
+- vo:
+  - vo_adv_1079002_055
+- face:
+  - 107911
+  - 1
+- print:
+  - 珠希
+  - 怕給那孩子造成可怕的回憶，
+- wait:
+  - 45
+- print:
+  - 珠希
+  - 這樣就好了喵。
+- touch: *o0
+- focus:
+  - 107911
+- bust:
+  - 107911
+  - 0
+- vo:
+  - vo_adv_1079002_056
+- face:
+  - 107911
+  - 2
+- print:
+  - 珠希
+  - 況且，
+- wait:
+  - 30
+- print:
+  - 珠希
+  - 那孩子還會過來買鯛魚燒的，
+- wait:
+  - 45
+- print:
+  - 珠希
+  - >2-
+
+    這樣我也會很高興的喵。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 107911
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    雖然把非常想要的貝殼給送了出去，
+
+    珠希還是依然一臉滿足的樣子笑了起來。
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

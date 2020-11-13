@@ -1,0 +1,262 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 501060
+- amb:
+  - amb_adv_outdoors_morning_01
+- ui_visible:
+  - false
+- situation:
+  - 關於牛郎
+- chara_full:
+  - 113111
+  - C
+  - 3
+- fadein:
+  - 113111
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M13_02_Strings
+  - 0
+  - 0
+  - 1
+- focus:
+  - 113111
+- bust:
+  - 113111
+  - 0
+- vo:
+  - vo_adv_6044106_000
+- face:
+  - 113111
+  - 3
+- print:
+  - 流夏
+  - 話又說回來，
+- wait:
+  - 35
+- print:
+  - 流夏
+  - 牛郎那傢伙真是令人難以置信。
+- wait:
+  - 60
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 113111
+  - 4
+- print:
+  - 流夏
+  - 有那麼可愛的織女陪伴，
+- wait:
+  - 55
+- print:
+  - 流夏
+  - >2-
+
+    居然還對其他女人移情別戀？
+- wait:
+  - 55
+- print:
+  - 流夏
+  - 真是難以置信。
+- touch: &o0 []
+- choice:
+  - 我覺得很過分。
+  - 1
+  - 1
+- choice:
+  - 他其實不喜歡織女嗎？
+  - 2
+  - 2
+- choice:
+  - 我不是很懂。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 113111
+- bust:
+  - 113111
+  - 0
+- vo:
+  - vo_adv_6044106_001
+- face:
+  - 113111
+  - 3
+- nod:
+  - 113111
+- print:
+  - 流夏
+  - 是啊，
+- wait:
+  - 30
+- print:
+  - 流夏
+  - 真是個無藥可救的色狼。
+- wait:
+  - 60
+- print:
+  - 流夏
+  - >2-
+
+    那種傢伙需要被狠狠教訓一頓。
+- wait:
+  - 70
+- print:
+  - 流夏
+  - >2-
+
+    我們來協助織女
+- wait:
+  - 30
+- print:
+  - 流夏
+  - 好好地懲戒他一番吧。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 113111
+- bust:
+  - 113111
+  - 0
+- vo:
+  - vo_adv_6044106_002
+- face:
+  - 113111
+  - 6
+- print:
+  - 流夏
+  - 我想
+- wait:
+  - 25
+- print:
+  - 流夏
+  - 應該還是有喜歡吧。
+- wait:
+  - 70
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 113111
+  - 4
+- print:
+  - 流夏
+  - 但那種渣男藉口最多了，
+- wait:
+  - 60
+- nod:
+  - 113111
+- print:
+  - 流夏
+  - 比如說「我最愛的是妳！」
+- wait:
+  - 40
+- print:
+  - 流夏
+  - 之類的。
+- wait:
+  - 45
+- print:
+  - 流夏
+  - >2-
+
+    這種理論怎麼可能說得通啊，
+- wait:
+  - 40
+- eye_open:
+  - False
+- print:
+  - 流夏
+  - 真是沒救了。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 113111
+- bust:
+  - 113111
+  - 0
+- vo:
+  - vo_adv_6044106_003
+- face:
+  - 113111
+  - 1
+- nod:
+  - 113111
+- print:
+  - 流夏
+  - 你不用懂也沒關係。
+- wait:
+  - 55
+- print:
+  - 流夏
+  - >2-
+
+    你就維持這個樣子，
+- wait:
+  - 35
+- print:
+  - 流夏
+  - 坦率地
+- wait:
+  - 25
+- print:
+  - 流夏
+  - 做你自己就行了。
+- wait:
+  - 40
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 113111
+  - 2
+- print:
+  - 流夏
+  - 你
+- wait:
+  - 25
+- print:
+  - 流夏
+  - 這種單純的性格，
+- wait:
+  - 50
+- print:
+  - 流夏
+  - 我覺得很好喔。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 113111
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

@@ -1,0 +1,280 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500750
+- amb:
+  - amb_adv_room_noise_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 琪愛兒如何？
+- chara_full:
+  - 110811
+  - C
+  - 1
+- fadein:
+  - 110811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M255_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_6023104_000
+- face:
+  - 110811
+  - 1
+- nod:
+  - 110811
+- print:
+  - 克蘿依
+  - 你啊，
+- wait:
+  - 25
+- print:
+  - 克蘿依
+  - 老是被琪愛兒耍著玩。
+- wait:
+  - 50
+- print:
+  - 克蘿依
+  - >2-
+
+    如果你真心覺得她很煩，
+- wait:
+  - 15
+- print:
+  - 克蘿依
+  - 我是可以不著痕跡的跟她說啦。
+- wait:
+  - 40
+- print:
+  - 克蘿依
+  - >2-
+
+    說老實話，
+- wait:
+  - 10
+- print:
+  - 克蘿依
+  - 你覺得她怎麼樣？
+- touch: &o0 []
+- choice:
+  - 很可愛。
+  - 1
+  - 1
+- choice:
+  - 很有趣。
+  - 2
+  - 2
+- choice:
+  - 很切嚕。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_6023104_001
+- face:
+  - 110811
+  - 6
+- emotion:
+  - sweat1_R
+  - 110811
+  - 85
+  - 495
+  - se_adv_emote_sweat_01
+- print:
+  - 克蘿依
+  - 太單純了……
+- wait:
+  - 40
+- face:
+  - 110811
+  - 1
+- print:
+  - 克蘿依
+  - 不過，
+- wait:
+  - 5
+- print:
+  - 克蘿依
+  - 算了。
+- wait:
+  - 20
+- print:
+  - 克蘿依
+  - 我也是可以理解。
+- wait:
+  - 45
+- print:
+  - 克蘿依
+  - >2-
+
+    因為那傢伙臉就長那樣，大家很容易只看到她的外表，
+- wait:
+  - 45
+- print:
+  - 克蘿依
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - 克蘿依
+  - 其實她內在也是一樣呢。
+- wait:
+  - 60
+- eye_open:
+  - TRUE
+- print:
+  - 克蘿依
+  - 那樣的人才叫真的可愛。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_6023104_002
+- face:
+  - 110811
+  - 6
+- print:
+  - 克蘿依
+  - 心胸真寬大。
+- wait:
+  - 65
+- print:
+  - 克蘿依
+  - 簡直就是看到孫子惡作劇，還露出微笑的爺爺奶奶嘛。
+- wait:
+  - 85
+- print:
+  - 克蘿依
+  - >2
+
+- face:
+  - 110811
+  - 1
+- print:
+  - 克蘿依
+  - 不過，
+- wait:
+  - 5
+- print:
+  - 克蘿依
+  - 我懂啦。
+- wait:
+  - 40
+- print:
+  - 克蘿依
+  - 我的弟弟們也是自大，就像她那樣子。
+- wait:
+  - 60
+- print:
+  - 克蘿依
+  - >2-
+
+    只要他們精力充沛就滿足了呢。
+- wait:
+  - 40
+- nod:
+  - 110811
+- print:
+  - 克蘿依
+  - 不過很煩人就是了。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 110811
+- bust:
+  - 110811
+  - 0
+- vo:
+  - vo_adv_6023104_003
+- face:
+  - 110811
+  - 1
+- print:
+  - 克蘿依
+  - 沒錯。
+- wait:
+  - 45
+- print:
+  - 克蘿依
+  - >2
+
+- face:
+  - 110811
+  - 3
+- print:
+  - 克蘿依
+  - 不對，那是啥啦。
+- wait:
+  - 10
+- print:
+  - 克蘿依
+  - 什麼叫作很切嚕。
+- wait:
+  - 20
+- print:
+  - 克蘿依
+  - >2-
+
+    不准說奇怪的話。
+- wait:
+  - 45
+- nod:
+  - 110811
+- print:
+  - 克蘿依
+  - 因為你
+- wait:
+  - 5
+- print:
+  - 克蘿依
+  - 又不是琪愛兒。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 110811
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

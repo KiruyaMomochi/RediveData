@@ -1,0 +1,234 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500036
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - false
+- situation:
+  - 偶像問卷調查
+- chara_full:
+  - 111511
+  - C
+  - 2
+- fadein:
+  - 111511
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M282
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111511
+- bust:
+  - 111511
+  - 0
+- vo:
+  - vo_adv_6029204_000
+- face:
+  - 111511
+  - 2
+- print:
+  - 克莉絲提娜
+  - 小伙子你對偶像有興趣嗎？
+- wait:
+  - 50
+- print:
+  - 克莉絲提娜
+  - >2
+
+- face:
+  - 111511
+  - 1
+- print:
+  - 克莉絲提娜
+  - 你對偶像的什麼地方感興趣啊？說說看！
+- wait:
+  - 45
+- print:
+  - 克莉絲提娜
+  - >2-
+
+    好讓我拿來參考。
+- touch: &o0 []
+- choice:
+  - 我喜歡歌曲。
+  - 1
+  - 1
+- choice:
+  - 很會跳舞。
+  - 2
+  - 2
+- choice:
+  - 衣服很可愛。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 111511
+- bust:
+  - 111511
+  - 0
+- vo:
+  - vo_adv_6029204_001
+- face:
+  - 111511
+  - 6
+- print:
+  - 克莉絲提娜
+  - 喔？
+- wait:
+  - 30
+- print:
+  - 克莉絲提娜
+  - 的確，音樂有股能捉住人心的力量。
+- wait:
+  - 85
+- print:
+  - 克莉絲提娜
+  - >2
+
+- face:
+  - 111511
+  - 1
+- print:
+  - 克莉絲提娜
+  - 下次的演唱會
+- wait:
+  - 25
+- print:
+  - 克莉絲提娜
+  - 就把舞蹈動作跟服裝設計得簡單一點，
+- wait:
+  - 35
+- print:
+  - 克莉絲提娜
+  - >2-
+
+    把表演的重點放在音樂好了。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 111511
+- bust:
+  - 111511
+  - 0
+- vo:
+  - vo_adv_6029204_002
+- face:
+  - 111511
+  - 2
+- nod:
+  - 111511
+- print:
+  - 克莉絲提娜
+  - 啊～
+- wait:
+  - 27
+- print:
+  - 克莉絲提娜
+  - 完成後的表演很吸引人吧？
+- wait:
+  - 56
+- print:
+  - 克莉絲提娜
+  - >2-
+
+    看來你似乎有好好在看，我放心了。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 111511
+- bust:
+  - 111511
+  - 0
+- vo:
+  - vo_adv_6029204_003
+- face:
+  - 111511
+  - 6
+- print:
+  - 克莉絲提娜
+  - 嗯。
+- wait:
+  - 20
+- print:
+  - 克莉絲提娜
+  - 挺懂的嘛！
+- wait:
+  - 25
+- print:
+  - 克莉絲提娜
+  - 小子。
+- wait:
+  - 30
+- print:
+  - 克莉絲提娜
+  - >2
+
+- face:
+  - 111511
+  - 1
+- print:
+  - 克莉絲提娜
+  - 竟然不把目光放在歌曲還有舞蹈上，
+- wait:
+  - 35
+- print:
+  - 克莉絲提娜
+  - 只看服裝……
+- wait:
+  - 45
+- print:
+  - 克莉絲提娜
+  - >2
+
+- face:
+  - 111511
+  - 2
+- print:
+  - 克莉絲提娜
+  - 不，
+- wait:
+  - 10
+- print:
+  - 克莉絲提娜
+  - 沒關係。
+- wait:
+  - 30
+- print:
+  - 克莉絲提娜
+  - 滿足這種需求也是很重要的。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 111511
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

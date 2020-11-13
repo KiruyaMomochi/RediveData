@@ -1,0 +1,237 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 505032
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - false
+- situation:
+  - 一起來惡作劇吧
+- chara_full:
+  - 111311
+  - C
+  - 3
+- fadein:
+  - 111311
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M266
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111311
+- bust:
+  - 111311
+  - 0
+- vo:
+  - vo_adv_6025102_000
+- face:
+  - 111311
+  - 3
+- print:
+  - 美美
+  - 不給我點心的話，
+- wait:
+  - 40
+- pop:
+  - 111311
+- print:
+  - 美美
+  - 我就要惡作劇囉～
+- wait:
+  - 65
+- print:
+  - 美美
+  - >2
+
+- face:
+  - 111311
+  - 1
+- print:
+  - 美美
+  - 欸嘿嘿～
+- wait:
+  - 40
+- print:
+  - 美美
+  - 要對哥哥做什麼惡作劇呢～
+- touch: &o0 []
+- choice:
+  - 開心的惡作劇。
+  - 1
+  - 1
+- choice:
+  - 挖洞陷阱。
+  - 2
+  - 2
+- choice:
+  - 給妳點心。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 111311
+- bust:
+  - 111311
+  - 0
+- vo:
+  - vo_adv_6025102_001
+- face:
+  - 111311
+  - 6
+- print:
+  - 美美
+  - 開心嗎～？
+- wait:
+  - 55
+- print:
+  - 美美
+  - >2
+
+- face:
+  - 111311
+  - 2
+- print:
+  - 美美
+  - 那麼，
+- wait:
+  - 25
+- print:
+  - 美美
+  - 我們一起當兔子先生吧！
+- wait:
+  - 45
+- print:
+  - 美美
+  - >2
+
+- pop:
+  - 111311
+- se:
+  - se_adv_rabbit_jump_01
+- print:
+  - 美美
+  - 蹦蹦跳～♪
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 111311
+- bust:
+  - 111311
+  - 0
+- vo:
+  - vo_adv_6025102_002
+- face:
+  - 111311
+  - 6
+- print:
+  - 美美
+  - 挖洞陷阱～？
+- wait:
+  - 65
+- print:
+  - 美美
+  - >2
+
+- face:
+  - 111311
+  - 4
+- print:
+  - 美美
+  - 要怎麼做才好……
+- wait:
+  - 60
+- print:
+  - 美美
+  - >2
+
+- face:
+  - 111311
+  - 1
+- print:
+  - 美美
+  - 得請禊教教我才行呢～
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 111311
+- bust:
+  - 111311
+  - 0
+- vo:
+  - vo_adv_6025102_003
+- face:
+  - 111311
+  - 2
+- emotion:
+  - note1_L
+  - 111311
+  - -90
+  - 420
+  - se_adv_emote_note_01
+- print:
+  - 美美
+  - 哇～
+- wait:
+  - 30
+- print:
+  - 美美
+  - 謝謝你～！
+- wait:
+  - 50
+- print:
+  - 美美
+  - >2
+
+- face:
+  - 111311
+  - 6
+- print:
+  - 美美
+  - 咦？　
+- wait:
+  - 30
+- face:
+  - 111311
+  - 4
+- print:
+  - 美美
+  - 拿了點心，
+- wait:
+  - 60
+- print:
+  - 美美
+  - 就不能惡作劇了嗎？
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 111311
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

@@ -1,0 +1,215 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 505032
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - false
+- situation:
+  - 靈界是什麼？
+- chara_full:
+  - 111311
+  - C
+  - 6
+- fadein:
+  - 111311
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M269
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111311
+- bust:
+  - 111311
+  - 0
+- vo:
+  - vo_adv_6025106_000
+- face:
+  - 111311
+  - 6
+- nod:
+  - 111311
+- print:
+  - 美美
+  - 哥哥，
+- wait:
+  - 30
+- print:
+  - 美美
+  - >2-
+
+    是鏡華和禊說的，
+- wait:
+  - 40
+- print:
+  - 美美
+  - >2-
+
+    靈界
+- wait:
+  - 20
+- print:
+  - 美美
+  - 是指
+- wait:
+  - 20
+- print:
+  - 美美
+  - 什麼？　
+- wait:
+  - 35
+- print:
+  - 美美
+  - 是什麼樣的地方？
+- touch: &o0 []
+- choice:
+  - 幽靈居住的世界。
+  - 1
+  - 1
+- choice:
+  - 偶爾能去的地方。
+  - 2
+  - 2
+- choice:
+  - 到底是什麼呢。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 111311
+- bust:
+  - 111311
+  - 0
+- vo:
+  - vo_adv_6025106_001
+- face:
+  - 111311
+  - 6
+- pop:
+  - 111311
+- print:
+  - 美美
+  - 裡面住著幽靈嗎～？
+- wait:
+  - 60
+- print:
+  - 美美
+  - >2
+
+- face:
+  - 111311
+  - 1
+- print:
+  - 美美
+  - 有很多嗎～
+- wait:
+  - 40
+- print:
+  - 美美
+  - >2
+
+- face:
+  - 111311
+  - 2
+- print:
+  - 美美
+  - 好像很有趣呢～
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 111311
+- bust:
+  - 111311
+  - 0
+- vo:
+  - vo_adv_6025106_002
+- face:
+  - 111311
+  - 6
+- print:
+  - 美美
+  - 偶爾能去嗎～？
+- wait:
+  - 55
+- print:
+  - 美美
+  - >2
+
+- face:
+  - 111311
+  - 1
+- print:
+  - 美美
+  - 哥哥去過好多的地方，
+- wait:
+  - 35
+- print:
+  - 美美
+  - 真厲害呢～
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 111311
+- bust:
+  - 111311
+  - 0
+- vo:
+  - vo_adv_6025106_003
+- face:
+  - 111311
+  - 1
+- print:
+  - 美美
+  - 如果哥哥不知道的話，
+- wait:
+  - 35
+- print:
+  - 美美
+  - >2
+
+- nod:
+  - 111311
+- print:
+  - 美美
+  - 美美大概也不知道～
+- wait:
+  - 55
+- print:
+  - 美美
+  - >2-
+
+    到底是什麼呢～？
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 111311
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

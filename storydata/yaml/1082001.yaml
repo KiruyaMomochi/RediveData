@@ -1,0 +1,2298 @@
+- title:
+  - 宮子（萬聖節） 第1話
+- outline:
+  - 宮子參加了{0}打工的心靈之旅，並揚言要讓他們知道真正的恐怖。宮子擊退了亂入進心靈之旅的流氓，並從工作人員那裡收到了狼女的變裝組做為謝禮。
+- background:
+  - 505030
+- amb:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 歡迎參加靈異旅行！
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    萬聖節即將到來，蘭德索爾也變得熱鬧了起來。
+
+    在前往打工的{0}面前，
+
+    尋找布丁的宮子出現了。
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 100711
+  - C
+  - 2
+- fadein:
+  - 100711
+  - 30
+- bgm:
+  - bgm_M139_Outside
+  - 0
+  - 0
+  - 1
+- window_visible:
+  - true
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1082001_000
+- face:
+  - 100711
+  - 2
+- print:
+  - 宮子
+  - '{0}，這麼巧，在這裡遇見你！'
+- wait:
+  - 80
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 1
+- print:
+  - 宮子
+  - 你知道什麼日子快要到了嗎？
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 100711
+  - 2
+- se:
+  - se_adv_tickle_02
+- nod:
+  - 100711
+  - 1
+- wait:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1082001_001
+- face:
+  - 100711
+  - 2
+- emotion:
+  - note1_L
+  - 100711
+  - -70
+  - 520
+  - se_adv_emote_note_01
+- print:
+  - 宮子
+  - 沒錯，就是萬聖節來的！　
+- wait:
+  - 60
+- print:
+  - 宮子
+  - 因為宮子是真正的幽靈，
+- wait:
+  - 55
+- print:
+  - 宮子
+  - >2-
+
+    所以一定可以拿到很多的布丁～♪
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1082001_002
+- face:
+  - 100711
+  - 1
+- print:
+  - 宮子
+  - 所以呢，
+- wait:
+  - 35
+- print:
+  - 宮子
+  - 人家是「不給布丁就搗蛋」來的～
+- wait:
+  - 55
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 2
+- print:
+  - 宮子
+  - 要給我布丁才行～
+- touch: *o0
+- choice:
+  - 我沒錢……
+  - 1
+- choice:
+  - 等我打工結束。
+  - 2
+- tag:
+  - 1
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1082001_003
+- face:
+  - 100711
+  - 3
+- pop:
+  - 100711
+- print:
+  - 宮子
+  - 這沒關係的！　
+- wait:
+  - 42
+- print:
+  - 宮子
+  - 如果是這樣的話，就為了宮子努力地工作賺錢吧！
+- touch: *o0
+- goto:
+  - 3
+- tag:
+  - 2
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1082001_004
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - 那種事怎樣都好吧～
+- wait:
+  - 63
+- print:
+  - 宮子
+  - >2-
+
+    世界上沒有其他事情比宮子的布丁還重要來的～
+- touch: *o0
+- tag:
+  - 3
+- window_visible:
+  - false
+- emotion:
+  - notice1_L
+  - 100711
+  - -60
+  - 540
+  - se_adv_emote_common_01
+- face:
+  - 100711
+  - 6
+- wait:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1082001_005
+- face:
+  - 100711
+  - 1
+- nod:
+  - 100711
+- print:
+  - 宮子
+  - 嗯嗯，
+- wait:
+  - 35
+- print:
+  - 宮子
+  - 你是要去靈異旅行扮鬼嗎？
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1082001_006
+- face:
+  - 100711
+  - 2
+- print:
+  - 宮子
+  - 嚇人好像很好玩來的！
+- wait:
+  - 63
+- print:
+  - 宮子
+  - >2-
+
+    也帶宮子一起去～！　
+- wait:
+  - 45
+- print:
+  - 宮子
+  - 就算不帶我去，我也會跟去的～！
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
+- window_visible:
+  - false
+- fadeout:
+  - 100711
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500034
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_town_day_01
+- chara_full:
+  - 100711
+  - LC
+  - 1
+- chara_full:
+  - 311
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- bgm:
+  - bgm_M136_Outside
+- window_visible:
+  - true
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1082001_007
+- face:
+  - 311
+  - 1
+- print:
+  - 員工
+  - 嗨，
+- wait:
+  - 22
+- print:
+  - 員工
+  - 要扮鬼的工讀生就是你們對吧？
+- wait:
+  - 60
+- print:
+  - 員工
+  - >2-
+
+    今天就請多指教囉。
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1082001_008
+- face:
+  - 100711
+  - 2
+- nod:
+  - 100711
+- print:
+  - 宮子
+  - 包在我身上～！　
+- wait:
+  - 37
+- print:
+  - 宮子
+  - 就讓宮子來讓大家知道，什麼是真正的恐怖！
+- touch: *o0
+- face:
+  - 100711
+  - 1
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1082001_009
+- face:
+  - 311
+  - 2
+- print:
+  - 員工
+  - 啊哈哈哈，
+- wait:
+  - 30
+- print:
+  - 員工
+  - 真是可靠啊～！
+- wait:
+  - 35
+- print:
+  - 員工
+  - >2-
+
+    那些預約的客人們，
+- wait:
+  - 23
+- print:
+  - 員工
+  - 也都很期待唷！
+- wait:
+  - 35
+- print:
+  - 員工
+  - >2
+
+- face:
+  - 311
+  - 1
+- print:
+  - 員工
+  - 我們有準備一些扮裝的衣服，
+- wait:
+  - 35
+- print:
+  - 員工
+  - 去選喜歡的穿吧。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100711
+  - C
+  - 6
+- fadein:
+  - 100711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1082001_010
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - 有好多唷～！
+- wait:
+  - 52
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 1
+- print:
+  - 宮子
+  - '{0}要選什麼？'
+- touch: *o0
+- choice:
+  - 我自己準備了扮演魔物的衣服。
+  - 4
+- tag:
+  - 4
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1082001_011
+- face:
+  - 100711
+  - 1
+- print:
+  - 宮子
+  - 你準備的還真齊全～
+- wait:
+  - 75
+- print:
+  - 宮子
+  - >2-
+
+    那宮子……
+- wait:
+  - 55
+- face:
+  - 100711
+  - 4
+- se:
+  - se_adv_cloth_move_normal_02
+- print:
+  - 宮子
+  - 唔～嗯，
+- wait:
+  - 45
+- eye_open:
+  - False
+- print:
+  - 宮子
+  - 嗯～唔……
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1082001_012
+- face:
+  - 100711
+  - 6
+- eye_open:
+  - True
+- emotion:
+  - notice1_L
+  - 100711
+  - -60
+  - 540
+  - se_adv_emote_common_01
+- print:
+  - 宮子
+  - 啊，這件！　
+- wait:
+  - 25
+- face:
+  - 100711
+  - 2
+- print:
+  - 宮子
+  - 我要選這個！　
+- wait:
+  - 33
+- print:
+  - 宮子
+  - 感覺好恐怖來的～！
+- wait:
+  - 53
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 1
+- print:
+  - 宮子
+  - 我去換衣服，在這邊等我一下喲！
+- touch: *o0
+- window_visible:
+  - false
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 100711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 1
+- vo:
+  - vo_adv_1082001_013
+- face:
+  - 100711
+  - 1
+- se:
+  - se_adv_cloth_move_normal_03
+- print:
+  - 宮子
+  - 窸窸窣窣，
+- wait:
+  - 40
+- print:
+  - 宮子
+  - 窸窸窣窣
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 108211
+  - RC
+  - 2
+- change:
+  - C
+  - RC
+  - 45
+- fadein:
+  - 108211
+  - 45
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- window_visible:
+  - true
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082001_014
+- face:
+  - 108211
+  - 2
+- nod:
+  - 108211
+- print:
+  - 宮子
+  - 鏘～！　
+- wait:
+  - 28
+- print:
+  - 宮子
+  - 人家是狼女來的～！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 108211
+  - 30
+- chara_full:
+  - 108211
+  - C
+  - 3
+- scale:
+  - 108211
+  - 1.2
+  - 2
+- fadein:
+  - 108211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082001_015
+- face:
+  - 108211
+  - 3
+- pop:
+  - 108211
+- print:
+  - 宮子
+  - 吼～，
+- wait:
+  - 40
+- print:
+  - 宮子
+  - 不給人家布丁的話就搗蛋來的～！
+- touch: *o0
+- effect_delete:
+  - 0022
+  - 15
+- choice:
+  - 很可愛呢。
+  - 5
+- choice:
+  - 要、要被吃掉了～
+  - 6
+- tag:
+  - 5
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082001_016
+- face:
+  - 108211
+  - 3
+- print:
+  - 宮子
+  - 才不是那樣呢！　
+- wait:
+  - 27
+- print:
+  - 宮子
+  - 要更吃驚才對喲！
+- wait:
+  - 45
+- print:
+  - 宮子
+  - >2-
+
+    宮子可是冷血無情的狼女來的！　
+- wait:
+  - 95
+- pop:
+  - 108211
+- face:
+  - 108211
+  - 1
+- print:
+  - 宮子
+  - 啊嗚來的～！
+- touch: *o0
+- goto:
+  - 7
+- tag:
+  - 6
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082001_017
+- face:
+  - 108211
+  - 2
+- print:
+  - 宮子
+  - 呵呵呵～
+- wait:
+  - 57
+- print:
+  - 宮子
+  - 給我布丁就原諒你！
+- wait:
+  - 70
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 108211
+  - 1
+- print:
+  - 宮子
+  - 宮子不是肉食系也不是草食系。
+- wait:
+  - 73
+- face:
+  - 108211
+  - 2
+- nod:
+  - 108211
+- print:
+  - 宮子
+  - 是布丁系來的！
+- touch: *o0
+- face:
+  - 108211
+  - 1
+- tag:
+  - 7
+- focus:
+  - 311
+- bust:
+  - 311
+  - 1
+- vo:
+  - vo_adv_1082001_018
+- face:
+  - 311
+  - 1
+- print:
+  - 員工
+  - 很好！　
+- wait:
+  - 20
+- print:
+  - 員工
+  - 那麼就請你們兩個在墓地待機吧！
+- wait:
+  - 45
+- print:
+  - 員工
+  - >2-
+
+    我會把客人帶過去，
+- wait:
+  - 25
+- print:
+  - 員工
+  - 到時可要好好地嚇他們唷！
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+- window_visible:
+  - false
+- fadeout:
+  - 108211
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 500535
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_mystery_03
+- chara_full:
+  - 108211
+  - C
+  - 1
+- fadein:
+  - 108211
+  - 30
+- bgm:
+  - bgm_M136
+  - 0
+  - 0
+  - 1
+- window_visible:
+  - true
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082001_019
+- face:
+  - 108211
+  - 1
+- print:
+  - 宮子
+  - 已經有好幾個扮鬼的人做好準備了。
+- wait:
+  - 93
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 108211
+  - 2
+- nod:
+  - 108211
+- print:
+  - 宮子
+  - 我們也在這邊準備吧～！
+- touch: *o0
+- window_visible:
+  - false
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 108211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 1
+- vo:
+  - vo_adv_1082001_020
+- face:
+  - 108211
+  - 2
+- print:
+  - 宮子
+  - 呵呵……
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 宮子現在這樣，
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 終於像是在做幽靈會做的事情！
+- wait:
+  - 75
+- print:
+  - 宮子
+  - >2-
+
+    好期待喲～！　
+- wait:
+  - 50
+- face:
+  - 108211
+  - 6
+- print:
+  - 宮子
+  - 啊，馬上就有人過來了！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- se:
+  - se_adv_step_concrete_walk_come_01
+- chara_full:
+  - 411
+  - LC
+  - 1
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 411
+  - 45
+- wait:
+  - 15
+- fadeout:
+  - 411
+  - 30
+- chara_full:
+  - 1611
+  - C
+  - 1
+- scale:
+  - 1611
+  - 1.2
+  - 2
+- fadein:
+  - 1611
+  - 30
+- window_visible:
+  - true
+- effect:
+  - 0009
+  - se_adv_whoosh_speed_01
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- vo:
+  - vo_adv_1082001_021
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物({0})
+  - ――吼歐歐歐歐歐！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1611
+  - 30
+- chara_full:
+  - 411
+  - C
+  - 2
+- fadein:
+  - 411
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1082001_022
+- face:
+  - 411
+  - 2
+- print:
+  - 女性
+  - 呀――！　
+- wait:
+  - 25
+- print:
+  - 女性
+  - 是魔物幽靈——！
+- touch: *o0
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 1
+- vo:
+  - vo_adv_1082001_023
+- face:
+  - 108211
+  - 2
+- print:
+  - 宮子
+  - '{0}，感覺不錯來的！　'
+- wait:
+  - 25
+- print:
+  - 宮子
+  - 宮子也要試試看～
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 411
+  - 30
+- chara_full:
+  - 108211
+  - LC
+  - 3
+- chara_full:
+  - 411
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082001_024
+- face:
+  - 108211
+  - 3
+- pop:
+  - 108211
+- print:
+  - 宮子
+  - 吼歐～！　
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 快把布丁交出來喲～！
+- wait:
+  - 45
+- print:
+  - 宮子
+  - >2-
+
+    不給我的話，
+- wait:
+  - 25
+- print:
+  - 宮子
+  - 就把你變成布丁給吃掉來的～！
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1082001_025
+- face:
+  - 411
+  - 4
+- print:
+  - 女性
+  - 呀――！　
+- wait:
+  - 32
+- print:
+  - 女性
+  - 別把我變成布丁――！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - R
+  - RC
+  - 30
+- fadeout_all:
+  - 30
+- chara_full:
+  - 108211
+  - C
+  - 2
+- fadein:
+  - 108211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082001_026
+- face:
+  - 108211
+  - 2
+- print:
+  - 宮子
+  - 嘿嘿嘿，
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 大家好像都很開心來的。
+- wait:
+  - 50
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 108211
+  - 1
+- print:
+  - 宮子
+  - 開始有萬聖節的感覺喲！
+- touch: *o0
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082001_027
+- face:
+  - 108211
+  - 2
+- pop:
+  - 108211
+- print:
+  - 宮子
+  - 吼歐吼歐～！　
+- wait:
+  - 38
+- print:
+  - 宮子
+  - 人家要繼續多嚇嚇大家喲～！
+- touch: *o0
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082001_028
+- face:
+  - 108211
+  - 6
+- emotion:
+  - question1_R
+  - 108211
+  - 110
+  - 490
+  - se_adv_emote_question_01
+- print:
+  - 宮子
+  - ……奇怪？　
+- wait:
+  - 20
+- print:
+  - 宮子
+  - 入口那邊好像發生了什麼事。
+- wait:
+  - 60
+- print:
+  - 宮子
+  - >2-
+
+    我去看看～
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
+- window_visible:
+  - false
+- fadeout:
+  - 108211
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_town_day_01
+- chara_full:
+  - 811
+  - RC
+  - 1
+- chara_full:
+  - 311
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M135_Short
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1082001_029
+- face:
+  - 811
+  - 1
+- print:
+  - 無賴
+  - 啊？　
+- wait:
+  - 28
+- print:
+  - 無賴
+  - 這是什麼……靈異旅行？
+- wait:
+  - 70
+- print:
+  - 無賴
+  - >2
+
+- face:
+  - 811
+  - 3
+- nod:
+  - 811
+- print:
+  - 無賴
+  - 哼，
+- wait:
+  - 25
+- print:
+  - 無賴
+  - 因為萬聖節要到了，所以你們才搞了這種無聊的玩意啊。
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1082001_030
+- face:
+  - 311
+  - 1
+- print:
+  - 員工
+  - 這位客人，
+- wait:
+  - 25
+- print:
+  - 員工
+  - 現在馬上就可以入場……
+- wait:
+  - 30
+- print:
+  - 員工
+  - >2-
+
+    招待你來場
+- wait:
+  - 30
+- print:
+  - 員工
+  - 恐怖的靈異旅行。
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1082001_031
+- face:
+  - 811
+  - 3
+- pop:
+  - 811
+- print:
+  - 無賴
+  - 哈！　
+- wait:
+  - 20
+- print:
+  - 無賴
+  - 我才不相信有什麼幽靈勒！
+- wait:
+  - 60
+- print:
+  - 無賴
+  - >2-
+
+    來啊，
+- wait:
+  - 20
+- print:
+  - 無賴
+  - 有辦法的話就來嚇我看看啊！
+- wait:
+  - 30
+- print:
+  - 無賴
+  - >2
+
+- face:
+  - 811
+  - 1
+- print:
+  - 無賴
+  - 不過啊，
+- wait:
+  - 20
+- print:
+  - 無賴
+  - 要是我一點都不害怕的話，可要罰錢喔～！
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1082001_032
+- face:
+  - 311
+  - 6
+- print:
+  - 員工
+  - 罰、罰錢！？　
+- wait:
+  - 40
+- face:
+  - 311
+  - 4
+- print:
+  - 員工
+  - 這個嘛……
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1082001_033
+- face:
+  - 811
+  - 3
+- print:
+  - 無賴
+  - 怎樣，不敢是吧！？
+- wait:
+  - 60
+- print:
+  - 無賴
+  - >2-
+
+    連嚇人的自信都沒有，就別來做這種事情啦！
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1082001_034
+- face:
+  - 311
+  - 4
+- print:
+  - 員工
+  - 唔……
+- wait:
+  - 33
+- face:
+  - 311
+  - 3
+- print:
+  - 員工
+  - 那麼，
+- wait:
+  - 25
+- nod:
+  - 311
+- print:
+  - 員工
+  - '就讓你見識一下吧！ '
+- wait:
+  - 30
+- print:
+  - 員工
+  - 世界上最恐怖的魔物怨靈！
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_mystery_03
+- chara_full:
+  - 1611
+  - C
+  - 1
+- scale:
+  - 1611
+  - 1.2
+  - 2
+- fadein:
+  - 1611
+  - 30
+- bgm:
+  - bgm_M46_02
+  - 0
+  - 0
+  - 1
+- window_visible:
+  - true
+- effect:
+  - 0009
+  - se_adv_whoosh_speed_01
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- vo:
+  - vo_adv_1082001_035
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物({0})
+  - ――吼歐歐歐歐歐！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1611
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 811
+  - C
+  - 3
+- fadein:
+  - 811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1082001_036
+- face:
+  - 811
+  - 3
+- print:
+  - 無賴
+  - 吵死了！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_rug_run_armor_go_01
+- effect:
+  - 0009
+- scale:
+  - 811
+  - 1.2
+  - 1
+  - 10
+- fadeout:
+  - 811
+  - 10
+- effect_delete:
+  - 0009
+- se:
+  - se_adv_weapon_punch_hit_04
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 108211
+  - C
+  - 6
+- fadein:
+  - 108211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082001_037
+- face:
+  - 108211
+  - 6
+- pop:
+  - 108211
+- print:
+  - 宮子
+  - >
+    啊啊！　{0}！
+- face:
+  - 108211
+  - 3
+- print:
+  - 宮子
+  - 怎、怎麼打人啦，這樣太超過了！
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 1
+- vo:
+  - vo_adv_1082001_038
+- face:
+  - 811
+  - 3
+- print:
+  - 無賴
+  - 一點都不恐怖唷～！　
+- wait:
+  - 43
+- print:
+  - 無賴
+  - 來啊來啊，怎麼了！？　
+- wait:
+  - 30
+- print:
+  - 無賴
+  - 趕快過來嚇我啊！
+- wait:
+  - 45
+- print:
+  - 無賴
+  - >2
+
+- face:
+  - 811
+  - 2
+- print:
+  - 無賴
+  - 我可是驅鬼獵人啊，嘎哈哈哈哈！
+- touch: *o0
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082001_039
+- face:
+  - 108211
+  - 3
+- print:
+  - 宮子
+  - 唔～
+- wait:
+  - 42
+- print:
+  - 宮子
+  - 真是讓人火大的傢伙來的……
+- wait:
+  - 58
+- face:
+  - 108211
+  - 6
+- emotion:
+  - notice1_L
+  - 108211
+  - -65
+  - 500
+  - se_adv_emote_common_01
+- print:
+  - 宮子
+  - 啊，對了！
+- touch: *o0
+- face:
+  - 108211
+  - 1
+- focus:
+  - 811
+- bust:
+  - 811
+  - 1
+- vo:
+  - vo_adv_1082001_040
+- face:
+  - 811
+  - 1
+- print:
+  - 無賴
+  - 哼，
+- wait:
+  - 35
+- print:
+  - 無賴
+  - 這點程度連試膽都算不上啊。
+- wait:
+  - 45
+- print:
+  - 無賴
+  - >2-
+
+    來吧，
+- wait:
+  - 15
+- print:
+  - 無賴
+  - 按照我們說好的，把罰金給我拿出來！
+- touch: *o0
+- effect:
+  - 0041
+  - se_adv_magic_dark_large_01
+- bright_change:
+  - 1
+  - 50
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082001_041
+- face:
+  - 108211
+  - 3
+- print:
+  - 宮子
+  - ……我要對你下詛咒……
+- wait:
+  - 53
+- print:
+  - 宮子
+  - 在你身邊作祟來的……
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 1
+- vo:
+  - vo_adv_1082001_042
+- face:
+  - 811
+  - 6
+- emotion:
+  - notice1_L
+  - 811
+  - -120
+  - 545
+  - se_adv_emote_common_01
+- print:
+  - 無賴
+  - 哦？　
+- wait:
+  - 20
+- face:
+  - 811
+  - 1
+- print:
+  - 無賴
+  - 這次是怎樣的幽靈啊～？
+- wait:
+  - 40
+- print:
+  - 無賴
+  - >2-
+
+    就算想嚇我也是沒……
+- wait:
+  - 40
+- print:
+  - 無賴
+  - 用……
+- touch: *o0
+- bgm:
+  - stop
+  - 1.5
+  - 1
+- window_visible:
+  - false
+- effect_delete:
+  - 0041
+  - 15
+- bright_change:
+  - 1
+  - 100
+- fadeout:
+  - 108211
+  - 30
+- black_out:
+  - 1
+  - 1
+- still_unit:
+  - 108231
+- wait:
+  - 15
+- bgm:
+  - bgm_M135
+- black_in: *o0
+- window_visible:
+  - true
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 1
+- vo:
+  - vo_adv_1082001_043
+- face:
+  - 108211
+  - 3
+- print:
+  - 宮子
+  - 我～好～恨～好～恨～來的！
+- wait:
+  - 140
+- print:
+  - 宮子
+  - >2-
+
+    把你靈魂變成布丁來的～！
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 1
+- vo:
+  - vo_adv_1082001_044
+- face:
+  - 811
+  - 6
+- print:
+  - 無賴
+  - 嗚、嗚、嗚哇啊啊啊啊！
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 1
+- vo:
+  - vo_adv_1082001_045
+- face:
+  - 811
+  - 6
+- print:
+  - 無賴
+  - 這、
+- wait:
+  - 20
+- print:
+  - 無賴
+  - 這傢伙是怎樣……
+- wait:
+  - 30
+- print:
+  - 無賴
+  - 飄在空中！？
+- wait:
+  - 20
+- print:
+  - 無賴
+  - >2-
+
+    而、
+- wait:
+  - 15
+- print:
+  - 無賴
+  - 而且腳還是透明的……
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 1
+- vo:
+  - vo_adv_1082001_046
+- face:
+  - 811
+  - 6
+- print:
+  - 無賴
+  - 該不會是真正的幽靈！？
+- touch: *o0
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 1
+- vo:
+  - vo_adv_1082001_047
+- face:
+  - 108211
+  - 3
+- print:
+  - 宮子
+  - 膽敢打擾宮子的安眠，不可原諒來的……
+- wait:
+  - 105
+- print:
+  - 宮子
+  - >2-
+
+    給我吧，
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 快把你的靈魂給我～！
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 1
+- vo:
+  - vo_adv_1082001_048
+- face:
+  - 811
+  - 6
+- print:
+  - 無賴
+  - 呀啊啊啊啊啊啊啊！　
+- wait:
+  - 35
+- print:
+  - 無賴
+  - 救、
+- wait:
+  - 15
+- print:
+  - 無賴
+  - 救救我啊～！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2.5
+- se:
+  - se_adv_step_dirt_run_go_01
+- wait:
+  - 15
+- black_out:
+  - 1
+  - 1
+- still_unit:
+  - end
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 108211
+  - LC
+  - 2
+- chara_full:
+  - 311
+  - RC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M136_03
+  - 0
+  - 0
+  - 1
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082001_049
+- face:
+  - 108211
+  - 2
+- pop:
+  - 108211
+- print:
+  - 宮子
+  - 太棒了！　
+- wait:
+  - 28
+- print:
+  - 宮子
+  - 大成功來的！
+- wait:
+  - 47
+- print:
+  - 宮子
+  - >2-
+
+    不准再出現在我們面前來的～！
+- touch: *o0
+- face:
+  - 108211
+  - 1
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1082001_050
+- face:
+  - 311
+  - 2
+- print:
+  - 員工
+  - 哎呀～妳好厲害唷！　
+- wait:
+  - 55
+- print:
+  - 員工
+  - 沒想到妳能把他趕跑！
+- wait:
+  - 40
+- print:
+  - 員工
+  - >2
+
+- face:
+  - 311
+  - 1
+- print:
+  - 員工
+  - 可是，妳是怎麼浮在空中的啊？　
+- wait:
+  - 40
+- print:
+  - 員工
+  - 看起來好像也沒什麼機關……
+- touch: *o0
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082001_051
+- face:
+  - 108211
+  - 1
+- emotion:
+  - note1_L
+  - 108211
+  - -95
+  - 460
+  - se_adv_emote_note_01
+- print:
+  - 宮子
+  - 宮子是幽靈，所以浮在空中是理所當然來的～
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1082001_052
+- face:
+  - 311
+  - 6
+- print:
+  - 員工
+  - 咦？　
+- wait:
+  - 20
+- face:
+  - 311
+  - 2
+- print:
+  - 員工
+  - 啊哈哈哈哈。
+- wait:
+  - 30
+- print:
+  - 員工
+  - 這笑話不錯唷～
+- wait:
+  - 47
+- print:
+  - 員工
+  - >2
+
+- face:
+  - 311
+  - 1
+- print:
+  - 員工
+  - 不過，真的是幫了我一個大忙。
+- wait:
+  - 55
+- print:
+  - 員工
+  - 雖然很想拿個什麼來答謝妳……
+- touch: *o0
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082001_053
+- face:
+  - 108211
+  - 1
+- nod:
+  - 108211
+- print:
+  - 宮子
+  - 嗯～，
+- wait:
+  - 55
+- face:
+  - 108211
+  - 2
+- print:
+  - 宮子
+  - 如果是這樣的話，我想要這套扮裝衣服！
+- wait:
+  - 60
+- print:
+  - 宮子
+  - >2-
+
+    我真的好喜歡！
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1082001_054
+- face:
+  - 311
+  - 2
+- print:
+  - 員工
+  - 喔～，
+- wait:
+  - 10
+- print:
+  - 員工
+  - 好啊好啊！
+- wait:
+  - 15
+- print:
+  - 員工
+  - >2
+
+- face:
+  - 311
+  - 1
+- print:
+  - 員工
+  - 那麼，那套扮裝服裝就送給妳吧！　
+- wait:
+  - 45
+- face:
+  - 311
+  - 2
+- print:
+  - 員工
+  - 真的謝謝你。
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 505032
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_town_day_01
+- chara_full:
+  - 108211
+  - C
+  - 2
+- fadein:
+  - 108211
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M137_08
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082001_055
+- face:
+  - 108211
+  - 2
+- pop:
+  - 108211
+- print:
+  - 宮子
+  - 哇～，哇～！　
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 好開心來的～
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 108211
+  - 6
+- emotion:
+  - question1_R
+  - 108211
+  - 110
+  - 490
+  - se_adv_emote_question_01
+- wait:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082001_056
+- face:
+  - 108211
+  - 6
+- print:
+  - 宮子
+  - 嗯～？　
+- wait:
+  - 35
+- print:
+  - 宮子
+  - 你以為宮子會要求布丁嗎？
+- wait:
+  - 80
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 108211
+  - 1
+- print:
+  - 宮子
+  - 你在說什麼啊，
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 我會跟{0}要布丁來的！
+- touch: *o0
+- focus:
+  - 108211
+- bust:
+  - 108211
+  - 0
+- vo:
+  - vo_adv_1082001_057
+- face:
+  - 108211
+  - 2
+- print:
+  - 宮子
+  - 這樣不但能吃到布丁，
+- wait:
+  - 35
+- print:
+  - 宮子
+  - 還能拿到扮裝服裝，
+- wait:
+  - 45
+- print:
+  - 宮子
+  - >2
+
+- emotion:
+  - heart1_R
+  - 108211
+  - 65
+  - 490
+  - se_adv_emote_heart_01
+- print:
+  - 宮子
+  - 萬聖節真是太棒了～！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 108211
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    宮子穿上扮裝服裝，開心地在四周轉來轉去，
+
+    布丁～布丁～♪很開心地在唱著歌。
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

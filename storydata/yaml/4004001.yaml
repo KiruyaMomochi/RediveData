@@ -1,0 +1,1237 @@
+- title:
+  - 機械莉瑪來襲！　王都毀滅前的倒數　第 1 話
+- outline:
+  - '{0}和【美食殿】一行人在蘭德索爾的鬧區邊吃邊逛非常開心。突然，蘭德索爾一帶襲來一股劇烈的震動。貪吃佩可一行人望向天空，看見不明的龐然大物。'
+- background:
+  - 500030
+- amb:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 災難前來吐口水
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    {0}和【美食殿堂】的成員一起，
+
+    在蘭德索爾的鬧區邊走邊吃著。
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 105812
+  - LC
+  - 2
+- chara_full:
+  - 106012
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M31
+  - 0
+  - 0
+  - 1
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_4004001_000
+- face:
+  - 105812
+  - 2
+- se:
+  - se_adv_eating_01
+- nod:
+  - 105812
+- print:
+  - 貪吃佩可
+  - 嚼嚼嚼☆
+- wait:
+  - 35
+- print:
+  - 貪吃佩可
+  - >2-
+
+    嗯——，
+- wait:
+  - 30
+- face:
+  - 105812
+  - 7
+- print:
+  - 貪吃佩可
+  - 這裡的饅頭，
+- wait:
+  - 25
+- print:
+  - 貪吃佩可
+  - 超好吃！
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 2
+- print:
+  - 貪吃佩可
+  - 太讚了吧☆
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_4004001_001
+- face:
+  - 106012
+  - 4
+- emotion:
+  - sweat1_R
+  - 106012
+  - 80
+  - 495
+  - se_adv_emote_sweat_01
+- print:
+  - 凱留
+  - 喂，
+- wait:
+  - 25
+- print:
+  - 凱留
+  - 那是第幾個了啊。
+- wait:
+  - 35
+- print:
+  - 凱留
+  - >2-
+
+    妳是不會吃膩嗎？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105913
+  - C
+  - 2
+- scale:
+  - 105913
+  - 1.3
+  - 3
+- fadein:
+  - 105913
+  - 30
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- window_visible:
+  - true
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_4004001_002
+- face:
+  - 105913
+  - 2
+- print:
+  - 可可蘿
+  - 主人也來品嚐吧。
+- wait:
+  - 55
+- print:
+  - 可可蘿
+  - >2-
+
+    來，
+- wait:
+  - 15
+- nod:
+  - 105913
+- print:
+  - 可可蘿
+  - 啊——……
+- wait:
+  - 35
+- print:
+  - 可可蘿
+  - >2-
+
+    請張開嘴巴。
+- touch: *o0
+- window_visible:
+  - false
+- effect_delete:
+  - 0022
+  - 30
+- fadeout:
+  - 105913
+  - 30
+- bgm:
+  - stop
+  - 3
+  - 1
+- se:
+  - se_adv_earthquake_02
+- amb_stop:
+  - 1
+- amb:
+  - amb_adv_noisy_03
+- se:
+  - se_adv_earthquake_02_lp
+- se:
+  - se_adv_gaya_surprised_01
+- shake_loop: *o0
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    在{0}張開嘴巴的同時，
+
+    嘈雜的巨響一起震驚了這一帶。
+- touch: *o0
+- se:
+  - se_adv_earthquake_01
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 1
+- vo:
+  - vo_adv_4004001_003
+- face:
+  - 105913
+  - 6
+- print:
+  - 可可蘿
+  - ！？
+- wait:
+  - 30
+- print:
+  - 可可蘿
+  - >2
+
+- face:
+  - 105913
+  - 3
+- print:
+  - 可可蘿
+  - 主人，
+- wait:
+  - 20
+- print:
+  - 可可蘿
+  - 請小心！
+- touch: *o0
+- window_visible:
+  - false
+- black_out:
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- se_pause:
+  - se_adv_earthquake_02_lp
+  - 1
+- shake_delete: *o0
+- wait:
+  - 30
+- black_in: *o0
+- amb:
+  - amb_adv_noisy_03
+- chara_full:
+  - 105812
+  - L
+  - 6
+- chara_full:
+  - 105913
+  - C
+  - 6
+- chara_full:
+  - 106012
+  - R
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M93_Noperc
+  - 0
+  - 0
+  - 0
+  - 1
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_4004001_004
+- face:
+  - 105812
+  - 6
+- print:
+  - 貪吃佩可
+  - ……好、
+- wait:
+  - 15
+- print:
+  - 貪吃佩可
+  - 好像平靜下來了呢？
+- wait:
+  - 40
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 4
+- print:
+  - 貪吃佩可
+  - 剛剛的搖晃，
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - 到底是發生了什麼事……？
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_4004001_005
+- face:
+  - 106012
+  - 4
+- print:
+  - 凱留
+  - 只是普通的地震吧？
+- wait:
+  - 60
+- print:
+  - 凱留
+  - >2
+
+- face:
+  - 106012
+  - 1
+- print:
+  - 凱留
+  - 還是說，
+- wait:
+  - 20
+- print:
+  - 凱留
+  - 是妳的肚子在叫吧？
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_4004001_006
+- face:
+  - 105812
+  - 1
+- print:
+  - 貪吃佩可
+  - 也許是這樣呢～
+- wait:
+  - 40
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 2
+- emotion:
+  - note1_L
+  - 105812
+  - -85
+  - 530
+  - se_adv_emote_note_01
+- print:
+  - 貪吃佩可
+  - 饅頭太好吃了，
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - 還想再多吃點呢～
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_4004001_007
+- face:
+  - 105913
+  - 6
+- print:
+  - 可可蘿
+  - 咦，
+- wait:
+  - 35
+- print:
+  - 可可蘿
+  - 那個是……？
+- touch: *o0
+- bgm:
+  - stop
+  - 1.5
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 190811
+  - RC
+  - 3
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - RC
+  - 30
+- fadein:
+  - 190811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M21
+  - 0
+  - 0
+  - 1
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_4004001_008
+- face:
+  - 190811
+  - 3
+- pop:
+  - 190811
+- print:
+  - 花凜
+  - 大家，
+- wait:
+  - 20
+- print:
+  - 花凜
+  - 發生了不得了的事！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 190811
+  - 30
+- chara_full:
+  - 105812
+  - LC
+  - 1
+- chara_full:
+  - 190811
+  - RC
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_4004001_009
+- face:
+  - 105812
+  - 1
+- print:
+  - 貪吃佩可
+  - 花凜小姐，
+- wait:
+  - 20
+- face:
+  - 105812
+  - 2
+- print:
+  - 貪吃佩可
+  - 阿囉哈～☆
+- wait:
+  - 25
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 6
+- print:
+  - 貪吃佩可
+  - 竟然那麼慌張的樣子，
+- wait:
+  - 18
+- print:
+  - 貪吃佩可
+  - 很難得呢！
+- touch: *o0
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_4004001_010
+- face:
+  - 190811
+  - 6
+- print:
+  - 花凜
+  - 是、
+- wait:
+  - 10
+- print:
+  - 花凜
+  - 是非常不得了的緊急狀況！
+- wait:
+  - 40
+- print:
+  - 花凜
+  - >2
+
+- face:
+  - 190811
+  - 3
+- print:
+  - 花凜
+  - 剛剛的震動是因為
+- wait:
+  - 30
+- print:
+  - 花凜
+  - 突然從蘭德索爾遙遠的西邊出現，
+- wait:
+  - 45
+- print:
+  - 花凜
+  - >2-
+
+    與王宮一樣大的
+- wait:
+  - 40
+- print:
+  - 花凜
+  - 未知巨大物體的攻擊！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105812
+  - 30
+- chara_full:
+  - 105913
+  - LC
+  - 6
+- fadein:
+  - 105913
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_4004001_011
+- face:
+  - 105913
+  - 6
+- print:
+  - 可可蘿
+  - 花凜小姐，
+- wait:
+  - 25
+- print:
+  - 可可蘿
+  - 請冷靜下來。
+- wait:
+  - 40
+- print:
+  - 可可蘿
+  - >2
+
+- face:
+  - 105913
+  - 4
+- print:
+  - 可可蘿
+  - 妳說的未知物體是……？
+- wait:
+  - 55
+- print:
+  - 可可蘿
+  - >2
+
+- face:
+  - 105913
+  - 1
+- print:
+  - 可可蘿
+  - 沒有
+- wait:
+  - 25
+- print:
+  - 可可蘿
+  - 更詳細的情報嗎？
+- touch: *o0
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_4004001_012
+- face:
+  - 190811
+  - 4
+- print:
+  - 花凜
+  - 那個……
+- wait:
+  - 25
+- print:
+  - 花凜
+  - 我們【公會管理協會】掌握到的情報……
+- wait:
+  - 60
+- print:
+  - 花凜
+  - >2-
+
+    只知道那個東西所造成的損害一面擴大，
+- wait:
+  - 32
+- print:
+  - 花凜
+  - 並一面
+- wait:
+  - 10
+- print:
+  - 花凜
+  - >
+    朝著這裡過來
+- wait:
+  - 20
+- print:
+  - 花凜
+  - 而已……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105913
+  - 30
+- chara_full:
+  - 106012
+  - LC
+  - 3
+- fadein:
+  - 106012
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_4004001_013
+- face:
+  - 106012
+  - 3
+- nod:
+  - 106012
+- print:
+  - 凱留
+  - 是是。
+- wait:
+  - 40
+- print:
+  - 凱留
+  - >2-
+
+    於是
+- wait:
+  - 15
+- print:
+  - 凱留
+  - 就和平常一樣
+- wait:
+  - 18
+- print:
+  - 凱留
+  - 想要委託調查和討伐，
+- wait:
+  - 30
+- print:
+  - 凱留
+  - 沒錯吧。
+- touch: *o0
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_4004001_014
+- face:
+  - 190811
+  - 3
+- print:
+  - 花凜
+  - 是的。
+- wait:
+  - 30
+- print:
+  - 花凜
+  - >2-
+
+    只是這次因為敵人很棘手，
+- wait:
+  - 30
+- print:
+  - 花凜
+  - 所以【公會管理協會】
+- wait:
+  - 30
+- print:
+  - 花凜
+  - 正在四處號召
+- wait:
+  - 10
+- print:
+  - 花凜
+  - >2-
+
+    所有的公會。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105812
+  - C
+  - 6
+- fadein:
+  - 105812
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 6
+  - 1
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_4004001_015
+- face:
+  - 105812
+  - 6
+- emotion:
+  - notice1_L
+  - 105812
+  - -75
+  - 535
+  - se_adv_emote_common_01
+- print:
+  - 貪吃佩可
+  - 啊，
+- wait:
+  - 20
+- print:
+  - 貪吃佩可
+  - 請看天空！
+- wait:
+  - 20
+- print:
+  - 貪吃佩可
+  - 　好像有什麼飛過來了！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105812
+  - 30
+- bg_pan:
+  - 0
+  - -100
+  - 15
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    貪吃佩可一行人仰望的天空，下起了謎樣的液體。
+
+    被太陽光映照著，顯得十分閃亮。
+- touch: *o0
+- window_visible:
+  - false
+- effect_delete:
+  - 0022
+  - 5
+- amb_stop:
+  - 1
+- amb:
+  - amb_adv_noisy_02
+- se:
+  - se_adv_roborima_fall_01
+- se:
+  - se_adv_gaya_surprised_02
+- bg_pan:
+  - -100
+  - 0
+  - 15
+- chara_full:
+  - 105812
+  - LC
+  - 6
+- chara_full:
+  - 106012
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M192
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_4004001_016
+- face:
+  - 105812
+  - 6
+- emotion:
+  - sweat2_R
+  - 105812
+  - 80
+  - 530
+  - se_adv_emote_sweat_02
+- print:
+  - 貪吃佩可
+  - 啊啊——！
+- wait:
+  - 38
+- print:
+  - 貪吃佩可
+  - 　街上變得黏答答
+- wait:
+  - 20
+- print:
+  - 貪吃佩可
+  - 濕淋淋的～！
+- wait:
+  - 32
+- print:
+  - 貪吃佩可
+  - >2
+
+- face:
+  - 105812
+  - 4
+- print:
+  - 貪吃佩可
+  - 饅頭店屋也變得濕淋淋的，
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - >2-
+
+    這樣的話，
+- wait:
+  - 5
+- print:
+  - 貪吃佩可
+  - 就不能再來一份了耶……
+- wait:
+  - 50
+- eye_open:
+  - FALSE
+- print:
+  - 貪吃佩可
+  - 嗚嗚……
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_4004001_017
+- face:
+  - 106012
+  - 4
+- print:
+  - 凱留
+  - 好臭——！
+- shake:
+  - 106012
+- wait:
+  - 35
+- print:
+  - 凱留
+  - >2
+
+- face:
+  - 106012
+  - 6
+- print:
+  - 凱留
+  - 這是什麼，
+- wait:
+  - 20
+- print:
+  - 凱留
+  - 魔物的口水……？
+- wait:
+  - 45
+- print:
+  - 凱留
+  - 　
+- face:
+  - 106012
+  - 4
+- print:
+  - 凱留
+  - 哦欸欸～
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 190811
+  - C
+  - 3
+- fadein:
+  - 190811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_4004001_018
+- face:
+  - 190811
+  - 3
+- print:
+  - 花凜
+  - 預估最多只剩下24小時……
+- wait:
+  - 40
+- print:
+  - 花凜
+  - >2-
+
+    這是我們僅剩的緩衝時間了。
+- wait:
+  - 55
+- face:
+  - 190811
+  - 4
+- print:
+  - 花凜
+  - 明天的這個時候，
+- wait:
+  - 35
+- print:
+  - 花凜
+  - >2-
+
+    能夠活著站在這個蘭德索爾的人
+- wait:
+  - 35
+- eye_open:
+  - FALSE
+- print:
+  - 花凜
+  - 已經一個都沒有了吧……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 190811
+  - 30
+- chara_full:
+  - 106012
+  - LC
+  - 3
+- chara_full:
+  - 190811
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_4004001_019
+- face:
+  - 106012
+  - 3
+- print:
+  - 凱留
+  - 妳形容得很誇張，
+- wait:
+  - 25
+- print:
+  - 凱留
+  - 反正也不是什麼大事吧？
+- wait:
+  - 30
+- print:
+  - 凱留
+  - >2
+
+- nod:
+  - 106012
+- print:
+  - 凱留
+  - 再說了
+- wait:
+  - 25
+- print:
+  - 凱留
+  - 像王宮般大的東西，
+- wait:
+  - 40
+- face:
+  - 106012
+  - 1
+- print:
+  - 凱留
+  - 怎麼可能突然出現――
+- touch: *o0
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_4004001_020
+- face:
+  - 190811
+  - 4
+- print:
+  - 花凜
+  - 我們比平常準備了更多的……
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_4004001_021
+- face:
+  - 106012
+  - 6
+- emotion:
+  - question1_R
+  - 106012
+  - 120
+  - 500
+  - se_adv_emote_question_01
+- print:
+  - 凱留
+  - 啊？
+- touch: *o0
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_4004001_022
+- face:
+  - 190811
+  - 3
+- print:
+  - 花凜
+  - 是指這次的報酬。
+- wait:
+  - 40
+- print:
+  - 花凜
+  - >2-
+
+    因為是蘭德索爾的危機，
+- wait:
+  - 25
+- print:
+  - 花凜
+  - 當然也會準備相對應的――
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_4004001_023
+- face:
+  - 106012
+  - 6
+- pop:
+  - 106012
+- print:
+  - 凱留
+  - 真、
+- wait:
+  - 15
+- print:
+  - 凱留
+  - 真的嗎？
+- wait:
+  - 25
+- print:
+  - 凱留
+  - >2
+
+- face:
+  - 106012
+  - 1
+- print:
+  - 凱留
+  - 就算妳等等說——！
+- wait:
+  - 10
+- print:
+  - 凱留
+  - 　
+- face:
+  - 106012
+  - 3
+- print:
+  - 凱留
+  - 其實是騙人的，
+- wait:
+  - 10
+- print:
+  - 凱留
+  - 我也不管唷！？
+- wait:
+  - 30
+- print:
+  - 凱留
+  - >2
+
+- face:
+  - 106012
+  - 2
+- print:
+  - 凱留
+  - 你們，
+- wait:
+  - 20
+- print:
+  - 凱留
+  - 別慢吞吞的，要走囉！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- bgm:
+  - stop
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- movie:
+  - 400400101
+- end: *o0

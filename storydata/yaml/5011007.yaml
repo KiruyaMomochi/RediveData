@@ -1,0 +1,1465 @@
+- title:
+  - 愛就在戰鬥之後
+- outline:
+  - 情人節當天。{0}被叫到某個餐廳，拿到了璃乃親手做的巧克力。在那之後，他也收到了靜流等人的巧克力，度過了一個甜蜜的情人節。
+- background:
+  - 500010
+- amb:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 愛就在戰鬥之後
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 事件過後數天，來到情人節當天。
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 101112
+  - RC
+  - 5
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - RC
+  - 45
+- fadein:
+  - 101112
+  - 45
+- window_visible:
+  - true
+- bgm:
+  - bgm_M191
+  - 0
+  - 0
+  - 1
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 0
+- vo:
+  - vo_adv_5011007_000
+- face:
+  - 101112
+  - 5
+- print:
+  - 璃乃
+  - 唔唔，
+- shake:
+  - 101112
+- wait:
+  - 15
+- face:
+  - 101112
+  - 1
+- print:
+  - 璃乃
+  - 就快到和哥哥約好的地點了……！
+- touch: *o0
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 0
+- vo:
+  - vo_adv_5011007_001
+- face:
+  - 101112
+  - 2
+- print:
+  - 璃乃
+  - 總覺得好緊張讓人靜不下來。
+- touch: *o0
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 0
+- vo:
+  - vo_adv_5011007_002
+- face:
+  - 101112
+  - 1
+- print:
+  - 璃乃
+  - 這是給小可注入愛情，
+- wait:
+  - 35
+- print:
+  - 璃乃
+  - 重新長出來的可可亞。
+- wait:
+  - 40
+- print:
+  - 璃乃
+  - >2-
+
+    用這個做成的「LoveDestiny」，
+- wait:
+  - 30
+- print:
+  - 璃乃
+  - >2
+
+- face:
+  - 101112
+  - 2
+- emotion:
+  - twinkle1_R
+  - 101112
+  - 150
+  - 485
+  - se_adv_emote_twinkle_01
+- print:
+  - 璃乃
+  - 絕對會是很好吃的巧克力！
+- touch: *o0
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 0
+- vo:
+  - vo_adv_5011007_003
+- face:
+  - 101112
+  - 1
+- print:
+  - 璃乃
+  - 不過……
+- wait:
+  - 25
+- print:
+  - 璃乃
+  - 和姊姊的比起來，感覺做得還不夠好……
+- wait:
+  - 80
+- print:
+  - 璃乃
+  - >2-
+
+    但是，
+- wait:
+  - 25
+- print:
+  - 璃乃
+  - 小可也有在旁邊看著，
+- wait:
+  - 35
+- print:
+  - 璃乃
+  - >2
+
+- face:
+  - 101112
+  - 2
+- print:
+  - 璃乃
+  - 所以一定會順利的對吧？
+- touch: *o0
+- focus:
+  - 10911
+- bust:
+  - 10911
+  - 1
+- vo:
+  - vo_adv_5011007_004
+- face:
+  - 10911
+  - 1
+- print:
+  - 可可亞烏拉
+  - 巧克♪
+- touch: *o0
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 0
+- vo:
+  - vo_adv_5011007_005
+- face:
+  - 101112
+  - 2
+- print:
+  - 璃乃
+  - 呵呵。
+- wait:
+  - 30
+- print:
+  - 璃乃
+  - >2
+
+- face:
+  - 101112
+  - 6
+- print:
+  - 璃乃
+  - 啊，到了！
+- wait:
+  - 25
+- print:
+  - 璃乃
+  - 　
+- face:
+  - 101112
+  - 1
+- print:
+  - 璃乃
+  - 就是這裡！
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - LC
+  - C
+  - 30
+- fadeout:
+  - 101112
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500050
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_restaurant_01
+- se:
+  - se_adv_door_shop_open_01
+- chara_full:
+  - 101112
+  - LC
+  - 4
+- se:
+  - se_adv_step_wood_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 101112
+  - 45
+- window_visible:
+  - true
+- bgm:
+  - bgm_M37
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 0
+- vo:
+  - vo_adv_5011007_006
+- face:
+  - 101112
+  - 4
+- print:
+  - 璃乃
+  - 呃……
+- wait:
+  - 53
+- print:
+  - 璃乃
+  - 哥哥
+- wait:
+  - 35
+- face:
+  - 101112
+  - 5
+- print:
+  - 璃乃
+  - 在哪裡呢？
+- touch: *o0
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 0
+- vo:
+  - vo_adv_5011007_007
+- face:
+  - 101112
+  - 1
+- print:
+  - 璃乃
+  - 啊，
+- wait:
+  - 15
+- print:
+  - 璃乃
+  - 在那裡的是哥哥
+- wait:
+  - 35
+- face:
+  - 101112
+  - 6
+- print:
+  - 璃乃
+  - 和……
+- wait:
+  - 35
+- print:
+  - 璃乃
+  - >2
+
+- pop:
+  - 101112
+- print:
+  - 璃乃
+  - 姐姐還有惠理子！？
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+- window_visible:
+  - false
+- fadeout:
+  - 101112
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 109011
+  - RC
+  - 3
+- chara_full:
+  - 109111
+  - LC
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M13_03_NoIntro
+  - 0
+  - 0
+  - 1
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 0
+- vo:
+  - vo_adv_5011007_008
+- face:
+  - 109011
+  - 3
+- print:
+  - 惠理子
+  - ……也就是說，
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 比賽時靜流做的是
+- wait:
+  - 40
+- print:
+  - 惠理子
+  - 料理全餐，
+- wait:
+  - 35
+- print:
+  - 惠理子
+  - >2-
+
+    而不是巧克力，
+- wait:
+  - 40
+- face:
+  - 109011
+  - 2
+- print:
+  - 惠理子
+  - 所以是我贏了。
+- touch: *o0
+- focus:
+  - 109111
+- bust:
+  - 109111
+  - 0
+- vo:
+  - vo_adv_5011007_009
+- face:
+  - 109111
+  - 3
+- print:
+  - 靜流
+  - 裡面不是也有巧克力嗎！
+- wait:
+  - 30
+- print:
+  - 靜流
+  - >2-
+
+    妳那樣說的話，
+- wait:
+  - 15
+- print:
+  - 靜流
+  - 使用媚藥不就是犯規嗎？
+- wait:
+  - 47
+- print:
+  - 靜流
+  - >2
+
+- face:
+  - 109111
+  - 1
+- print:
+  - 靜流
+  - 而且還沒有效果，
+- wait:
+  - 30
+- print:
+  - 靜流
+  - 也就是失敗作吧。
+- touch: *o0
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 0
+- vo:
+  - vo_adv_5011007_010
+- face:
+  - 109011
+  - 6
+- pop:
+  - 109011
+- print:
+  - 惠理子
+  - 什麼，
+- wait:
+  - 48
+- face:
+  - 109011
+  - 3
+- print:
+  - 惠理子
+  - 我的調合很完美……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 109011
+  - R
+  - 1
+- chara_full:
+  - 101112
+  - L
+  - 4
+- chara_full:
+  - 109111
+  - C
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 0
+- vo:
+  - vo_adv_5011007_011
+- face:
+  - 101112
+  - 4
+- emotion:
+  - gloomy1_R
+  - 101112
+  - 55
+  - 540
+  - se_adv_emote_gloomy_01
+- print:
+  - 璃乃
+  - ……妳們兩個還在爭論那種事情啊？
+- touch: *o0
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 0
+- vo:
+  - vo_adv_5011007_012
+- face:
+  - 109011
+  - 3
+- print:
+  - 惠理子
+  - 璃乃這次是擔任主持人的，
+- wait:
+  - 38
+- print:
+  - 惠理子
+  - 妳快點說說她。
+- touch: *o0
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 0
+- vo:
+  - vo_adv_5011007_013
+- face:
+  - 101112
+  - 6
+- pop:
+  - 101112
+- print:
+  - 璃乃
+  - 咦咦！？　
+- wait:
+  - 27
+- face:
+  - 101112
+  - 4
+- print:
+  - 璃乃
+  - 那個……
+- touch: *o0
+- focus:
+  - 109111
+- bust:
+  - 109111
+  - 0
+- vo:
+  - vo_adv_5011007_014
+- face:
+  - 109111
+  - 3
+- print:
+  - 靜流
+  - 璃乃
+- wait:
+  - 18
+- print:
+  - 靜流
+  - 能明白姐姐的主張吧？
+- touch: *o0
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 0
+- vo:
+  - vo_adv_5011007_015
+- face:
+  - 101112
+  - 4
+- nod:
+  - 101112
+- print:
+  - 璃乃
+  - 不是，
+- wait:
+  - 15
+- print:
+  - 璃乃
+  - 那個……
+- wait:
+  - 30
+- face:
+  - 101112
+  - 3
+- print:
+  - 璃乃
+  - 妳們也差不多該和好了啦。
+- wait:
+  - 48
+- print:
+  - 璃乃
+  - >2
+
+- face:
+  - 101112
+  - 4
+- print:
+  - 璃乃
+  - 哥、
+- wait:
+  - 12
+- print:
+  - 璃乃
+  - 哥哥你也說點什麼啦！
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
+- choice:
+  - 小可變得很有精神了呢。
+  - 1
+- tag:
+  - 1
+- face:
+  - 109111
+  - 1
+- face:
+  - 109011
+  - 1
+- bgm:
+  - bgm_M190
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 0
+- vo:
+  - vo_adv_5011007_016
+- face:
+  - 101112
+  - 1
+- print:
+  - 璃乃
+  - 啊，
+- wait:
+  - 18
+- face:
+  - 101112
+  - 2
+- print:
+  - 璃乃
+  - 看得出來嗎？
+- wait:
+  - 33
+- print:
+  - 璃乃
+  - >2-
+
+    我在那之後好好照料牠，牠就完全好起來了！
+- touch: *o0
+- focus:
+  - 109111
+- bust:
+  - 109111
+  - 0
+- vo:
+  - vo_adv_5011007_017
+- face:
+  - 109111
+  - 2
+- print:
+  - 靜流
+  - 真的很有精神呢。
+- touch: *o0
+- face:
+  - 101112
+  - 1
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 0
+- vo:
+  - vo_adv_5011007_018
+- face:
+  - 109011
+  - 6
+- print:
+  - 惠理子
+  - 不覺得變得比以前又更大了嗎？
+- touch: *o0
+- face:
+  - 109111
+  - 1
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 0
+- vo:
+  - vo_adv_5011007_019
+- face:
+  - 101112
+  - 1
+- pop:
+  - 101112
+- print:
+  - 璃乃
+  - 對吧對吧！
+- wait:
+  - 37
+- print:
+  - 璃乃
+  - >2
+
+- face:
+  - 101112
+  - 2
+- print:
+  - 璃乃
+  - 可以看著家人成長，真的非常開心。
+- touch: *o0
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 0
+- vo:
+  - vo_adv_5011007_020
+- face:
+  - 109011
+  - 1
+- print:
+  - 惠理子
+  - 不過……
+- wait:
+  - 25
+- print:
+  - 惠理子
+  - 魔物居然會保護人類，
+- wait:
+  - 55
+- print:
+  - 惠理子
+  - >2-
+
+    真是出乎意料。
+- touch: *o0
+- face:
+  - 101112
+  - 1
+- focus:
+  - 109111
+- bust:
+  - 109111
+  - 0
+- vo:
+  - vo_adv_5011007_021
+- face:
+  - 109111
+  - 6
+- print:
+  - 靜流
+  - 就是說啊，
+- wait:
+  - 40
+- face:
+  - 109111
+  - 1
+- print:
+  - 靜流
+  - 也是有這種難得的事情呢。
+- touch: *o0
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 0
+- vo:
+  - vo_adv_5011007_022
+- face:
+  - 101112
+  - 6
+- print:
+  - 璃乃
+  - 是這樣嗎？
+- wait:
+  - 40
+- print:
+  - 璃乃
+  - >2
+
+- face:
+  - 101112
+  - 1
+- print:
+  - 璃乃
+  - 我隱隱約約能明白喔！　
+- wait:
+  - 48
+- face:
+  - 101112
+  - 2
+- print:
+  - 璃乃
+  - 對吧？
+- touch: *o0
+- focus:
+  - 10911
+- bust:
+  - 10911
+  - 1
+- vo:
+  - vo_adv_5011007_023
+- face:
+  - 10911
+  - 1
+- print:
+  - 可可亞烏拉
+  - 巧克♪
+- touch: *o0
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 0
+- vo:
+  - vo_adv_5011007_024
+- face:
+  - 109011
+  - 6
+- emotion:
+  - question1_R
+  - 109011
+  - 100
+  - 520
+  - se_adv_emote_question_01
+- print:
+  - 惠理子
+  - ……？
+- touch: *o0
+- focus:
+  - 109111
+- bust:
+  - 109111
+  - 0
+- vo:
+  - vo_adv_5011007_025
+- face:
+  - 109111
+  - 6
+- emotion:
+  - question1_R
+  - 109111
+  - 100
+  - 530
+  - se_adv_emote_question_01
+- print:
+  - 靜流
+  - ……？
+- touch: *o0
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 0
+- vo:
+  - vo_adv_5011007_026
+- face:
+  - 101112
+  - 1
+- print:
+  - 璃乃
+  - 妳們意外地遲鈍耶～
+- wait:
+  - 40
+- print:
+  - 璃乃
+  - >2
+
+- face:
+  - 101112
+  - 2
+- print:
+  - 璃乃
+  - 就是愛啊，
+- wait:
+  - 20
+- print:
+  - 璃乃
+  - 愛！！
+- touch: *o0
+- choice:
+  - 妳說愛，是指想保護珍視之人的心情？
+  - 2
+- tag:
+  - 2
+- focus:
+  - 109011:109111
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5011007_027
+- multi_talk:
+  - 109111:109011
+- face:
+  - 1
+  - 1
+- print:
+  - 靜流、惠理子
+  - 啊……
+- wait:
+  - 52
+- face:
+  - 109111
+  - 2
+- face:
+  - 109011
+  - 2
+- print:
+  - 靜流、惠理子
+  - 嘻嘻。
+- touch: *o0
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 0
+- vo:
+  - vo_adv_5011007_028
+- face:
+  - 101112
+  - 1
+- nod:
+  - 101112
+- print:
+  - 璃乃
+  - 所～以說，
+- wait:
+  - 32
+- print:
+  - 璃乃
+  - >2-
+
+    也請妳們兩人
+- wait:
+  - 18
+- print:
+  - 璃乃
+  - 差不多該和好了。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 109111
+  - LC
+  - 2
+- chara_full:
+  - 109011
+  - RC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 109111
+- bust:
+  - 109111
+  - 0
+- vo:
+  - vo_adv_5011007_029
+- face:
+  - 109111
+  - 2
+- print:
+  - 靜流
+  - 不過，
+- wait:
+  - 18
+- print:
+  - 靜流
+  - 這應該是沒辦法和好的事情吧！
+- touch: *o0
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 0
+- vo:
+  - vo_adv_5011007_030
+- face:
+  - 109011
+  - 2
+- print:
+  - 惠理子
+  - 說得沒錯。
+- touch: *o0
+- focus:
+  - 109111
+- bust:
+  - 109111
+  - 0
+- vo:
+  - vo_adv_5011007_031
+- face:
+  - 109111
+  - 1
+- print:
+  - 靜流
+  - 因為
+- wait:
+  - 25
+- print:
+  - 靜流
+  - 情人節是……
+- wait:
+  - 45
+- emotion:
+  - note1_L
+  - 109111
+  - -105
+  - 495
+  - se_adv_emote_note_01
+- face:
+  - 109111
+  - 2
+- print:
+  - 靜流
+  - 戰爭對吧？
+- touch: *o0
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 0
+- vo:
+  - vo_adv_5011007_032
+- face:
+  - 109011
+  - 1
+- print:
+  - 惠理子
+  - 情人節大家都是情敵！
+- touch: *o0
+- focus:
+  - 109111
+- bust:
+  - 109111
+  - 0
+- vo:
+  - vo_adv_5011007_033
+- face:
+  - 109111
+  - 1
+- print:
+  - 靜流
+  - 惠理子，
+- wait:
+  - 27
+- print:
+  - 靜流
+  - 我果然得再和妳
+- wait:
+  - 30
+- print:
+  - 靜流
+  - 分一次勝負才行呢。
+- touch: *o0
+- focus:
+  - 109011
+- bust:
+  - 109011
+  - 0
+- vo:
+  - vo_adv_5011007_034
+- face:
+  - 109011
+  - 1
+- nod:
+  - 109011
+- print:
+  - 惠理子
+  - 我才是，
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 正如我所願。
+- wait:
+  - 55
+- print:
+  - 惠理子
+  - >2-
+
+    下次我絕對會把妳
+- wait:
+  - 40
+- print:
+  - 惠理子
+  - 打得體無完膚。
+- touch: *o0
+- focus:
+  - 109111
+- bust:
+  - 109111
+  - 0
+- vo:
+  - vo_adv_5011007_035
+- face:
+  - 109111
+  - 2
+- print:
+  - 靜流
+  - 那句話，
+- wait:
+  - 23
+- print:
+  - 靜流
+  - 就原原本本還給妳。
+- touch: *o0
+- focus:
+  - 109111
+- bust:
+  - 109111
+  - 0
+- vo:
+  - vo_adv_5011007_036
+- face:
+  - 109111
+  - 1
+- print:
+  - 靜流
+  - 那～
+- wait:
+  - 20
+- print:
+  - 靜流
+  - 就借用這裡的廚房
+- wait:
+  - 30
+- print:
+  - 靜流
+  - 再比試一次吧！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_wood_walk_go_01
+- change:
+  - R
+  - RC
+  - 30
+- change:
+  - C
+  - LC
+  - 30
+- fadeout_all:
+  - 30
+- chara_full:
+  - 101112
+  - C
+  - 6
+- fadein:
+  - 101112
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 0
+- vo:
+  - vo_adv_5011007_037
+- face:
+  - 101112
+  - 6
+- print:
+  - 璃乃
+  - 啊～
+- wait:
+  - 25
+- print:
+  - 璃乃
+  - 走掉了……
+- touch: *o0
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 0
+- vo:
+  - vo_adv_5011007_038
+- face:
+  - 101112
+  - 1
+- print:
+  - 璃乃
+  - 真是拿她們兩人沒辦法。
+- touch: *o0
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 0
+- vo:
+  - vo_adv_5011007_039
+- face:
+  - 101112
+  - 1
+- print:
+  - 璃乃
+  - 不過，
+- wait:
+  - 20
+- print:
+  - 璃乃
+  - 她們明明說情人節「大家」都是情敵，
+- wait:
+  - 60
+- print:
+  - 璃乃
+  - >2
+
+- face:
+  - 101112
+  - 2
+- print:
+  - 璃乃
+  - 卻還丟下我一個人，
+- wait:
+  - 40
+- print:
+  - 璃乃
+  - 也太大意了吧。
+- touch: *o0
+- bgm:
+  - stop
+  - 1.5
+- window_visible:
+  - false
+- fadeout:
+  - 101112
+  - 30
+- chara_full:
+  - 101112
+  - C
+  - 1
+- scale:
+  - 101112
+  - 1.2
+  - 2
+- se:
+  - se_adv_cloth_move_give_01
+- fadein:
+  - 101112
+  - 30
+- effect:
+  - 0021
+  - se_adv_happy_particle_01
+- window_visible:
+  - true
+- bgm:
+  - bgm_M191_04
+  - 0
+  - 0
+  - 1
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 0
+- vo:
+  - vo_adv_5011007_040
+- face:
+  - 101112
+  - 1
+- nod:
+  - 101112
+- print:
+  - 璃乃
+  - 給你，
+- wait:
+  - 15
+- print:
+  - 璃乃
+  - 哥哥。
+- wait:
+  - 30
+- print:
+  - 璃乃
+  - >2
+
+- face:
+  - 101112
+  - 2
+- print:
+  - 璃乃
+  - 這是我們給你的巧克力，
+- wait:
+  - 43
+- print:
+  - 璃乃
+  - 請收下！
+- touch: *o0
+- choice:
+  - 『LoveDestiny』做出來了啊。
+  - 3
+- tag:
+  - 3
+- effect_delete:
+  - 0021
+  - 15
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 0
+- vo:
+  - vo_adv_5011007_041
+- face:
+  - 101112
+  - 6
+- pop:
+  - 101112
+- print:
+  - 璃乃
+  - 你還記得嗎！？
+- wait:
+  - 55
+- print:
+  - 璃乃
+  - >2
+
+- face:
+  - 101112
+  - 1
+- print:
+  - 璃乃
+  - 這是我和小可給你的
+- wait:
+  - 25
+- print:
+  - 璃乃
+  - 情人節禮物。
+- wait:
+  - 40
+- print:
+  - 璃乃
+  - >2-
+
+    請你馬上吃吃看！
+- touch: *o0
+- se:
+  - se_adv_eating_01
+- choice:
+  - 嗯，非常好吃唷！
+  - 4
+- tag:
+  - 4
+- window_visible:
+  - false
+- emotion:
+  - heart1_R
+  - 101112
+  - 60
+  - 520
+  - se_adv_emote_heart_01
+- face:
+  - 101112
+  - 2
+- wait:
+  - 30
+- emotion_end:
+  - 101112
+- fadeout:
+  - 101112
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    收到她們充滿愛情的巧克力，
+
+    {0}度過了甜蜜的情人節。
+- touch: *o0
+- window_visible:
+  - false
+- black_out:
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- bg_color:
+  - 0
+  - 0
+  - 0
+- wait:
+  - 15
+- black_in: *o0
+- window_visible:
+  - true
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 1
+- vo:
+  - vo_adv_5011007_042
+- face:
+  - 101112
+  - 5
+- print:
+  - 璃乃
+  - 要一起變幸福喔，
+- wait:
+  - 45
+- print:
+  - 璃乃
+  - 哥哥♪
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- movie:
+  - 501100701
+- end: *o0

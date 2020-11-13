@@ -1,0 +1,2643 @@
+- title:
+  - 紡希 第1話
+- outline:
+  - 紡希和初次見面的{0}前往森林。在收集製作衣服的素材途中，兩人成為朋友。但來到店裡的怜口中，知道和{0}認識後，卻開始懷疑是接近怜的可疑男子。
+- background:
+  - 500030
+- amb:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 打工的騎士先生
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    {0}看見了一份招募打工的張貼告示，
+
+    前往了招募地址所在的一間裁縫店。
+- touch: &o0 []
+- bgm:
+  - bgm_M68
+  - 0
+  - 0
+  - 1
+- window_visible:
+  - false
+- chara_full:
+  - 105411
+  - C
+  - 2
+- fadein:
+  - 105411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_000
+- face:
+  - 105411
+  - 2
+- emotion:
+  - note1_L
+  - 105411
+  - -110
+  - 470
+  - se_adv_emote_note_01
+- nod:
+  - 105411
+- print:
+  - ？？？
+  - 謝謝您的惠顧――！
+- wait:
+  - 30
+- print:
+  - ？？？
+  - >2-
+
+    歡迎您再次光臨――！
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 105411
+  - 6
+- emotion:
+  - notice1_L
+  - 105411
+  - -88
+  - 535
+  - se_adv_emote_common_01
+- wait:
+  - 30
+- emotion_end:
+  - 105411
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_001
+- face:
+  - 105411
+  - 3
+- print:
+  - ？？？
+  - ……那邊的那位！你幹什麼？來我的店是有什麼事情嗎？
+- wait:
+  - 60
+- print:
+  - ？？？
+  - >2-
+
+    從剛才就一直看見你站在店門前的？
+- touch: *o0
+- choice:
+  - 我是看到了這裡在招募打工而來的。
+  - 1
+- choice:
+  - 已經沒有打工需求了嗎？
+  - 2
+- tag:
+  - 1
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_002
+- face:
+  - 105411
+  - 1
+- print:
+  - ？？？
+  - 你是來打工的嗎！既然如此就直接說啊！
+- wait:
+  - 30
+- touch: *o0
+- goto:
+  - 3
+- tag:
+  - 2
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_003
+- face:
+  - 105411
+  - 4
+- print:
+  - ？？？
+  - 打工？
+- wait:
+  - 30
+- face:
+  - 105411
+  - 6
+- print:
+  - ？？？
+  - ……對了！
+- pop:
+  - 105411
+- wait:
+  - 30
+- print:
+  - ？？？
+  - >2-
+
+    我都忘記自己在招人了！
+- touch: *o0
+- tag:
+  - 3
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_004
+- face:
+  - 105411
+  - 4
+- print:
+  - 紡希
+  - 真是對不起。還以為是什麼可疑人士……
+- wait:
+  - 60
+- print:
+  - 紡希
+  - >2
+
+- face:
+  - 105411
+  - 1
+- print:
+  - 紡希
+  - 我是委託人紡希。非常感謝你的到來！
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 2
+- bright_change:
+  - 1
+  - 50
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_005
+- face:
+  - 105411
+  - 4
+- print:
+  - 紡希
+  - （……雖然體格和相貌看起來都不是很靠得住的樣子，
+- wait:
+  - 60
+- print:
+  - 紡希
+  - >2
+
+- face:
+  - 105411
+  - 1
+- print:
+  - 紡希
+  - 不過能增加人手就是萬幸了，總之就先錄取了吧！）
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- bright_change:
+  - 1
+  - 100
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_006
+- face:
+  - 105411
+  - 2
+- emotion:
+  - twinkle1_R
+  - 105411
+  - -140
+  - 485
+  - se_adv_emote_twinkle_01
+- print:
+  - 紡希
+  - 今天就請多多指教了！打工的騎士先生！
+- wait:
+  - 60
+- print:
+  - 紡希
+  - >2-
+
+    那我們現在就馬上進入工作吧！
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_007
+- face:
+  - 105411
+  - 1
+- print:
+  - 紡希
+  - 為了蒐集製作服裝
+- wait:
+  - 30
+- print:
+  - 紡希
+  - 所必要、用來當作染料原料的果實，
+- wait:
+  - 45
+- print:
+  - 紡希
+  - 我們出發去森林吧！
+- wait:
+  - 30
+- print:
+  - 紡希
+  - >2-
+
+    前往森林的路上再做自我介紹吧。
+- touch: *o0
+- bgm:
+  - stop
+  - 4
+  - 1
+- window_visible:
+  - false
+- fadeout:
+  - 105411
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500130
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_outdoors_day_01
+- chara_full:
+  - 105411
+  - C
+  - 1
+- fadein:
+  - 105411
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M71
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_008
+- face:
+  - 105411
+  - 1
+- print:
+  - 紡希
+  - 我所屬的是一個名叫慈樂之音的公會。
+- wait:
+  - 60
+- print:
+  - 紡希
+  - >2-
+
+    雖然是個進行偶像活動的公會，
+- wait:
+  - 30
+- print:
+  - 紡希
+  - 但我並不是偶像。
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_009
+- face:
+  - 105411
+  - 1
+- print:
+  - 紡希
+  - 我擔任幕後的工作，主要的職務是服裝製作和演唱會的運營。
+- wait:
+  - 90
+- print:
+  - 紡希
+  - >2
+
+- face:
+  - 105411
+  - 2
+- print:
+  - 紡希
+  - 由於演唱會和服裝的評價不錯，目前獨自開了一間裁縫店。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_010
+- face:
+  - 105411
+  - 1
+- print:
+  - 紡希
+  - 騎士先生下次如果需要訂製服裝的話，歡迎來本店試試。
+- wait:
+  - 75
+- print:
+  - 紡希
+  - >2
+
+- face:
+  - 105411
+  - 2
+- print:
+  - 紡希
+  - 要是能像怜大人一樣為我宣傳那可就幫了大忙了！
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_011
+- face:
+  - 105411
+  - 6
+- emotion:
+  - notice2_L
+  - 105411
+  - -135
+  - 510
+  - se_adv_emote_nortice_01
+- print:
+  - 紡希
+  - 對了！還得說說怜大人的事呢！
+- wait:
+  - 75
+- print:
+  - 紡希
+  - >2
+
+- face:
+  - 105411
+  - 2
+- print:
+  - 紡希
+  - 聽好了喔？怜大人是我的熟客，也是我的恩人。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_012
+- face:
+  - 105411
+  - 2
+- print:
+  - 紡希
+  - 今天要請你跟我一起收集，製作怜大人的衣服所需要的素材呦！
+- wait:
+  - 90
+- print:
+  - 紡希
+  - >2
+
+- face:
+  - 105411
+  - 1
+- print:
+  - 紡希
+  - 首先需要跟你說一下怜大人是何許人呢……！
+- wait:
+  - 30
+- touch: *o0
+- bgm:
+  - stop
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 105411
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500170
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_forest_01
+- chara_full:
+  - 105411
+  - C
+  - 2
+- fadein:
+  - 105411
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M53
+  - 0
+  - 0
+  - 1
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_013
+- face:
+  - 105411
+  - 2
+- emotion:
+  - twinkle1_R
+  - 105411
+  - -140
+  - 485
+  - se_adv_emote_twinkle_01
+- print:
+  - 紡希
+  - ──那時，怜大人把我從魔物手中救了出來！
+- wait:
+  - 75
+- print:
+  - 紡希
+  - >2-
+
+    接納了人族兼魔族的我，
+- wait:
+  - 60
+- print:
+  - 紡希
+  - >2-
+
+    是一位擁有非常出色和高潔之心的人唷！
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_014
+- face:
+  - 105411
+  - 2
+- print:
+  - 紡希
+  - 所以，如果是為了怜大人我就算是赴湯蹈火也在所不辭……！
+- wait:
+  - 105
+- print:
+  - 紡希
+  - >2-
+
+    而且我也加入了她的粉絲俱樂部，和會員們一起聊怜大人的事情……
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_015
+- face:
+  - 105411
+  - 6
+- emotion:
+  - question1_R
+  - 105411
+  - 95
+  - 500
+  - se_adv_emote_question_01
+- print:
+  - 紡希
+  - ……欸？已經到了啊。
+- wait:
+  - 45
+- print:
+  - 紡希
+  - >2-
+
+    難道我，一直都在嘰里咕嚕地說個不停的嗎……？
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_016
+- face:
+  - 105411
+  - 4
+- print:
+  - 紡希
+  - 真是不好意思……我似乎是說過頭了。
+- wait:
+  - 75
+- print:
+  - 紡希
+  - >2
+
+- face:
+  - 105411
+  - 1
+- print:
+  - 紡希
+  - 我們還是整理一下心情，著手開始工作吧！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_017
+- face:
+  - 105411
+  - 1
+- print:
+  - 紡希
+  - 這次需要騎士先生收集的是，這種樹木所長出來的果實。
+- wait:
+  - 60
+- print:
+  - 紡希
+  - >2-
+
+    採收的方法是有訣竅的。聽好了喔？
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_018
+- face:
+  - 105411
+  - 1
+- nod:
+  - 105411
+- se:
+  - se_adv_tree_climb_01
+- print:
+  - 紡希
+  - 像這樣，用手指夾住莖的部分……輕輕地彎折起來……
+- wait:
+  - 60
+- touch: *o0
+- se:
+  - se_adv_rabbit_jump_01
+- wait:
+  - 3
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_019
+- face:
+  - 105411
+  - 2
+- print:
+  - 紡希
+  - 好了！採收到了！
+- wait:
+  - 45
+- print:
+  - 紡希
+  - >2-
+
+    果實和莖都很脆弱，所以採收時要多加小心唷。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_020
+- face:
+  - 105411
+  - 1
+- print:
+  - 紡希
+  - 來吧騎士先生，你來試試看！
+- wait:
+  - 60
+- print:
+  - 紡希
+  - >2-
+
+    沒錯沒錯，輕輕地輕輕地……啊這麼用力的話就！
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_body_tread_01
+- wait:
+  - 10
+- se:
+  - se_adv_water_gun_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_021
+- face:
+  - 105411
+  - 1
+- emotion:
+  - sweat1_R
+  - 105411
+  - 80
+  - 540
+  - se_adv_emote_sweat_01
+- print:
+  - 紡希
+  - ……啊哈哈。變得一臉紫色了呢……
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 2
+- bright_change:
+  - 1
+  - 50
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_022
+- face:
+  - 105411
+  - 4
+- print:
+  - 紡希
+  - （這個人沒問題吧？
+- wait:
+  - 45
+- print:
+  - 紡希
+  - >2-
+
+    該說是手法太差，還是太笨拙了……）
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- bright_change:
+  - 1
+  - 100
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_023
+- face:
+  - 105411
+  - 1
+- print:
+  - 紡希
+  - 算了，沒關係，第一次嘗試嘛！
+- wait:
+  - 30
+- print:
+  - 紡希
+  - >2
+
+- face:
+  - 105411
+  - 2
+- print:
+  - 紡希
+  - 振作起來再挑戰一次！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105411
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 105411
+  - C
+  - 2
+- fadein:
+  - 105411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_024
+- face:
+  - 105411
+  - 2
+- emotion:
+  - note1_L
+  - 105411
+  - -110
+  - 470
+  - se_adv_emote_note_01
+- print:
+  - 紡希
+  - 感覺不錯喔！有變得比較熟練了呢！
+- wait:
+  - 60
+- print:
+  - 紡希
+  - >2
+
+- face:
+  - 105411
+  - 1
+- print:
+  - 紡希
+  - 這樣不用我看著應該也沒問題了吧……
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_025
+- face:
+  - 105411
+  - 1
+- print:
+  - 紡希
+  - 我去採收那一側樹木的果實，這裡就交給你囉！
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 3
+  - 1
+- se:
+  - se_adv_step_leaves_walk_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 105411
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 105411
+  - LC
+  - 1
+- se:
+  - se_adv_step_leaves_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 105411
+  - 45
+- change_window:
+  - 2
+- bright_change:
+  - 1
+  - 50
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- bgm:
+  - bgm_M04
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_026
+- face:
+  - 105411
+  - 1
+- print:
+  - 紡希
+  - 這種果實的顏色，對這次的服裝來說是絕對必要的，
+- wait:
+  - 60
+- print:
+  - 紡希
+  - >2-
+
+    因此無論如何都非採到不可！
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_027
+- face:
+  - 105411
+  - 3
+- print:
+  - 紡希
+  - （但是偏偏都在這麼高的位置……！
+- wait:
+  - 60
+- print:
+  - 紡希
+  - >2-
+
+    唔……就差那麼一點了！這東西！）
+- wait:
+  - 75
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- bright_change:
+  - 1
+  - 100
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_028
+- face:
+  - 105411
+  - 3
+- print:
+  - 紡希
+  - 只要我拿出實力這點程度的事根本不足挂齒！
+- wait:
+  - 30
+- print:
+  - 紡希
+  - >2
+
+- jump:
+  - 105411
+  - 2
+- print:
+  - 紡希
+  - 喝！嘿噫！這東西！嘿啊！喔啦啊！
+- wait:
+  - 90
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105411
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- se:
+  - se_adv_step_leaves_move_01
+- camera_zoom:
+  - 1.2
+  - 10
+- chara_full:
+  - 105411
+  - C
+  - 3
+- fadein:
+  - 105411
+  - 30
+- window_visible:
+  - true
+- choice:
+  - 妳不用太勉強。
+  - 4
+- choice:
+  - 這樣可以嗎？
+  - 5
+- tag:
+  - 4
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_029
+- face:
+  - 105411
+  - 6
+- emotion:
+  - exclamation1_R
+  - 105411
+  - -10
+  - 655
+  - se_adv_emote_common_01
+- print:
+  - 紡希
+  - 呀啊！？怎、怎麼了嗎，突然間的！？
+- wait:
+  - 30
+- touch: *o0
+- bgm:
+  - stop
+  - 8
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_030
+- face:
+  - 105411
+  - 6
+- print:
+  - 紡希
+  - 採集果實的方法嗎？請你就這樣擰住它的蒂頭……
+- wait:
+  - 45
+- touch: *o0
+- goto:
+  - 6
+- tag:
+  - 5
+- bgm:
+  - stop
+  - 9
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_031
+- face:
+  - 105411
+  - 6
+- print:
+  - 紡希
+  - 欸？啊、啊啊……是的！請把那個果實摘下來！
+- wait:
+  - 50
+- touch: *o0
+- tag:
+  - 6
+- window_visible:
+  - false
+- se:
+  - se_adv_tree_climb_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_032
+- face:
+  - 105411
+  - 6
+- print:
+  - 紡希
+  - 非常……謝謝你！
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105411
+  - 30
+- se:
+  - se_adv_step_leaves_move_01
+- camera_zoom:
+  - 1
+  - 15
+- chara_full:
+  - 105411
+  - C
+  - 6
+- fadein:
+  - 105411
+  - 30
+- change_window:
+  - 2
+- bright_change:
+  - 1
+  - 50
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- bgm:
+  - bgm_M67
+  - 0
+  - 0
+  - 1
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_033
+- face:
+  - 105411
+  - 6
+- print:
+  - 紡希
+  - （嚇、嚇了我一跳啊……！突然就在我後面！
+- wait:
+  - 60
+- print:
+  - 紡希
+  - >2
+
+- face:
+  - 105411
+  - 5
+- print:
+  - 紡希
+  - 而且，又這麼靠近……）
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_034
+- face:
+  - 105411
+  - 5
+- print:
+  - 紡希
+  - （等一下！只不過是和男生的臉靠近了一點而已，
+- wait:
+  - 60
+- print:
+  - 紡希
+  - >2-
+
+    心跳個什麼勁啊！冷靜──，紡希妳給我冷靜點！）
+- wait:
+  - 50
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
+- window_visible:
+  - false
+- change_window:
+  - 1
+- bright_change:
+  - 1
+  - 100
+- vo_effect:
+  - 0
+- fadeout:
+  - 105411
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - true
+- jingle_start:
+  - bgm_M17_00_intro
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- effect:
+  - 9
+- print:
+  - 魔物
+  - ──呱歐歐歐歐歐
+- shake_screen: *o0
+- print:
+  - 魔物
+  - ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1611
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 105411
+  - C
+  - 6
+- fadein:
+  - 105411
+  - 30
+- se:
+  - se_adv_emote_nortice_02
+- emotion:
+  - surprise1_L
+  - 105411
+  - 140
+  - 540
+  - '*non'
+- window_visible:
+  - true
+- bgm:
+  - bgm_M17
+  - 0
+  - 0
+  - 1
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_035
+- face:
+  - 105411
+  - 6
+- print:
+  - 紡希
+  - 魔物！？居然在這種時候出現……！
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_036
+- face:
+  - 105411
+  - 3
+- print:
+  - 紡希
+  - 看我把它給綁起來！嘿噫！
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105411
+  - 30
+- se:
+  - se_adv_tsumugi_strings_01
+- effect:
+  - 0009
+- wait:
+  - 15
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 1
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──呱歐歐歐歐歐！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_weapon_hammer_whiff_01
+- wait:
+  - 2
+- shake_once:
+  - 3
+- wait:
+  - 5
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 105411
+  - C
+  - 6
+- fadein:
+  - 105411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_037
+- face:
+  - 105411
+  - 6
+- print:
+  - 紡希
+  - 被它躲開了！？
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 2
+- bright_change:
+  - 1
+  - 50
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_038
+- face:
+  - 105411
+  - 3
+- print:
+  - 紡希
+  - （被繞住了，這樣下去很危險……！）
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- bright_change:
+  - 1
+  - 100
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- choice:
+  - 我會用劍保護妳的。
+  - 7
+- choice:
+  - 我來做誘餌。
+  - 8
+- tag:
+  - 7
+- window_visible:
+  - false
+- fadeout:
+  - 105411
+  - 10
+- effect:
+  - 0009
+- se:
+  - se_adv_step_leaves_move_01
+- camera_zoom:
+  - 1.3
+  - 5
+- wait:
+  - 5
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- camera_zoom:
+  - 1
+  - 5
+- effect:
+  - 28
+  - se_adv_weapon_claw_whiff_01
+- wait:
+  - 5
+- effect:
+  - 01
+  - se_adv_weapon_sword_hit_01
+  - 180
+- effect:
+  - 45
+  - se_adv_weapon_sword_large_repel_01
+- wait:
+  - 30
+- background:
+  - 500170
+- chara_full:
+  - 105411
+  - C
+  - 6
+- fadein:
+  - 105411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_039
+- face:
+  - 105411
+  - 6
+- print:
+  - 紡希
+  - 騎士先生厲害！就像真的騎士一樣！
+- wait:
+  - 60
+- print:
+  - 紡希
+  - >2
+
+- face:
+  - 105411
+  - 3
+- print:
+  - 紡希
+  - 但怎麼才一次就變得一副軟弱無力的樣子了？你還是讓開吧！
+- wait:
+  - 45
+- touch: *o0
+- goto:
+  - 9
+- tag:
+  - 8
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_040
+- face:
+  - 105411
+  - 6
+- print:
+  - 紡希
+  - 騎、騎士先生？
+- wait:
+  - 45
+- print:
+  - 紡希
+  - >2
+
+- face:
+  - 105411
+  - 4
+- print:
+  - 紡希
+  - 可別為了幫助我而太勉強啊！
+- touch: *o0
+- tag:
+  - 9
+- window_visible:
+  - false
+- change_window:
+  - 2
+- bright_change:
+  - 1
+  - 50
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_041
+- face:
+  - 105411
+  - 3
+- print:
+  - 紡希
+  - 但是現在的話……！
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- bright_change:
+  - 1
+  - 100
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_042
+- face:
+  - 105411
+  - 3
+- print:
+  - 紡希
+  - 騎士先生，最後一擊就麻煩你了！
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105411
+  - 30
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0001
+  - se_adv_weapon_sword_hit_01
+  - 20
+- wait:
+  - 5
+- effect:
+  - 0001
+  - se_adv_weapon_sword_hit_01
+  - 50
+- effect:
+  - 0045
+- wait:
+  - 30
+- background:
+  - 500170
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_04
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ――嘰歐歐歐歐歐
+- sway:
+  - 1611
+- print:
+  - 魔物
+  - ！
+- touch: *o0
+- bgm:
+  - stop
+  - 9
+  - 1
+- window_visible:
+  - false
+- updown:
+  - 1611
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1611
+  - 30
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 1
+- vo:
+  - vo_adv_1054001_043
+- face:
+  - 105411
+  - 1
+- print:
+  - 紡希
+  - 呼……呼……成、成功了呢……！
+- wait:
+  - 105
+- print:
+  - 紡希
+  - >2-
+
+    啊哈哈哈哈……啊，咦？站都站不起來了……
+- wait:
+  - 60
+- touch: *o0
+- choice:
+  - 把手借給了紡希。
+  - 10
+- tag:
+  - 10
+- window_visible:
+  - false
+- se:
+  - se_adv_body_handshake_01
+- bgm:
+  - bgm_M34
+- shake_once:
+  - 3
+- wait:
+  - 15
+- chara_full:
+  - 105411
+  - C
+  - 4
+- fadein:
+  - 105411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_044
+- face:
+  - 105411
+  - 4
+- print:
+  - 紡希
+  - 謝、謝謝你……
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 2
+- bright_change:
+  - 1
+  - 50
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_045
+- face:
+  - 105411
+  - 4
+- print:
+  - 紡希
+  - （雖然剛剛變得那麼軟弱，
+- wait:
+  - 30
+- print:
+  - 紡希
+  - >2
+
+- face:
+  - 105411
+  - 5
+- print:
+  - 紡希
+  - 但騎士先生，意外地力氣很大呢……）
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- bright_change:
+  - 1
+  - 100
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_046
+- face:
+  - 105411
+  - 1
+- print:
+  - 紡希
+  - 好了好了！安全採收到果實了，我們回鎮上去吧！
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105411
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500030
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_town_day_01
+- chara_full:
+  - 105411
+  - C
+  - 2
+- fadein:
+  - 105411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_047
+- face:
+  - 105411
+  - 2
+- print:
+  - 紡希
+  - 騎士先生，
+- wait:
+  - 30
+- print:
+  - 紡希
+  - 今天辛苦你了！
+- wait:
+  - 30
+- print:
+  - 紡希
+  - 這些，
+- se:
+  - se_adv_money_give_01
+- wait:
+  - 15
+- print:
+  - 紡希
+  - 是今天的報酬。
+- wait:
+  - 30
+- print:
+  - 紡希
+  - >2
+
+- face:
+  - 105411
+  - 1
+- print:
+  - 紡希
+  - 那個……
+- wait:
+  - 30
+- print:
+  - 紡希
+  - 不介意的話請稍微休息一下。
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 2
+- bright_change:
+  - 1
+  - 50
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_048
+- face:
+  - 105411
+  - 4
+- print:
+  - 紡希
+  - （……明明只要把錢給了就可以讓他回去了，
+- wait:
+  - 45
+- print:
+  - 紡希
+  - >2-
+
+    為什麼我還是把他留住了呢……？）
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_049
+- face:
+  - 105411
+  - 5
+- print:
+  - 紡希
+  - 一開始以為他很靠不住但人挺不錯的，
+- wait:
+  - 60
+- print:
+  - 紡希
+  - >2-
+
+    幫我從魔物手中救出來，想好好答謝人家一下……）
+- wait:
+  - 45
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+- window_visible:
+  - false
+- change_window:
+  - 1
+- bright_change:
+  - 1
+  - 100
+- vo_effect:
+  - 0
+- fadeout:
+  - 105411
+  - 30
+- chara_full:
+  - 105411
+  - LC
+  - 1
+- chara_full:
+  - 100311
+  - R
+  - 2
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - R
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - true
+- bgm:
+  - bgm_M33
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1054001_050
+- face:
+  - 100311
+  - 2
+- print:
+  - 怜
+  - 嗨，紡希。妳好啊。咦……？
+- wait:
+  - 70
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_051
+- face:
+  - 105411
+  - 2
+- print:
+  - 紡希
+  - 是、是的！歡迎光臨欸欸欸欸欸欸！？是怜大人！？
+- wait:
+  - 60
+- print:
+  - 紡希
+  - >2
+
+- emotion:
+  - sweat2_R
+  - 105411
+  - 65
+  - 520
+  - se_adv_emote_sweat_02
+- print:
+  - 紡希
+  - 歡歡歡歡迎您的到來！今天有什麼我可以為您效勞的嗎？
+- wait:
+  - 45
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1054001_052
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 我是來確認之前委託訂製的服裝做好了沒，
+- wait:
+  - 75
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 2
+- print:
+  - 怜
+  - 結果沒想到會在這裡碰到{0}啊。
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_053
+- face:
+  - 105411
+  - 6
+- print:
+  - 紡希
+  - ……咦？剛才的名字是……！
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 2
+- bright_change:
+  - 1
+  - 50
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_054
+- face:
+  - 105411
+  - 3
+- print:
+  - 紡希
+  - （是最近在粉絲俱樂部裡謠傳和怜大人很親近的那個
+- wait:
+  - 60
+- print:
+  - 紡希
+  - >2-
+
+    可疑男子……！？)
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- bright_change:
+  - 1
+  - 100
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1054001_055
+- face:
+  - 100311
+  - 6
+- print:
+  - 怜
+  - 而且還真是出了我意料之外呢。你居然認識紡希啊。
+- wait:
+  - 105
+- print:
+  - 怜
+  - >2
+
+- face:
+  - 100311
+  - 2
+- print:
+  - 怜
+  - 要是你在服裝上有什麼問題的話儘管來找紡希商量。
+- wait:
+  - 40
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1054001_056
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 有點……不，雖然滿怪的，但本領確實是沒話說的。
+- wait:
+  - 75
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 2
+- bright_change:
+  - 1
+  - 50
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_057
+- face:
+  - 105411
+  - 6
+- print:
+  - 紡希
+  - （該不會難道！難道騎士先生，就是謠傳中的那個人！？
+- wait:
+  - 90
+- print:
+  - 紡希
+  - >2
+
+- face:
+  - 105411
+  - 4
+- print:
+  - 紡希
+  - 騙人的吧……我現在才第一次聽到這個名字啊……）
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_058
+- face:
+  - 105411
+  - 6
+- print:
+  - 紡希
+  - （是這樣啊！忘記一開始得問名字啊啊啊！
+- wait:
+  - 90
+- print:
+  - 紡希
+  - >2
+
+- face:
+  - 105411
+  - 3
+- print:
+  - 紡希
+  - 要是聽到了這個名字我絕對會馬上拒絕掉他的說……！）
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_059
+- face:
+  - 105411
+  - 4
+- print:
+  - 紡希
+  - （……但是看上去一副無害又善良的騎士先生，
+- wait:
+  - 60
+- print:
+  - 紡希
+  - >2-
+
+    也不可以靠近怜大人，又做這樣那樣的事啊……）
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_060
+- face:
+  - 105411
+  - 6
+- print:
+  - 紡希
+  - （……該不會，也假裝對我很好，
+- wait:
+  - 60
+- print:
+  - 紡希
+  - >2-
+
+    用相同手段來討好怜大人嗎……！？）
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_061
+- face:
+  - 105411
+  - 3
+- print:
+  - 紡希
+  - 一定是這樣！
+- wait:
+  - 15
+- print:
+  - 紡希
+  - 好危險啊……！
+- wait:
+  - 45
+- print:
+  - 紡希
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 紡希
+  - 哼！
+- wait:
+  - 15
+- print:
+  - 紡希
+  - 如果你以為這招對我也通用的話就大錯特錯了哦！
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_062
+- face:
+  - 105411
+  - 4
+- eye_open:
+  - True
+- print:
+  - 紡希
+  - ……嗯ー，
+- wait:
+  - 30
+- print:
+  - 紡希
+  - 真的是這樣子嗎……
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- bright_change:
+  - 1
+  - 100
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1054001_063
+- face:
+  - 100311
+  - 6
+- emotion:
+  - question1_R
+  - 100311
+  - 100
+  - 510
+  - se_adv_emote_question_01
+- print:
+  - 怜
+  - 紡希？怎麼了嗎，沒事吧？
+- wait:
+  - 50
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_064
+- face:
+  - 105411
+  - 6
+- print:
+  - 紡希
+  - 是！？對、對不起怜大人！有什麼事嗎！？
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1054001_065
+- face:
+  - 100311
+  - 1
+- print:
+  - 怜
+  - 剛才也提到了，關於我委託訂製的服裝。
+- wait:
+  - 65
+- print:
+  - 怜
+  - >2-
+
+    很在意是不是已經做好了。
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_066
+- face:
+  - 105411
+  - 2
+- print:
+  - 紡希
+  - 剛才才和騎士先生一起去採作為染料用的果實回來而已！
+- wait:
+  - 60
+- print:
+  - 紡希
+  - >2
+
+- face:
+  - 105411
+  - 1
+- print:
+  - 紡希
+  - 我想再過幾天就可以完成了！
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1054001_067
+- face:
+  - 100311
+  - 2
+- print:
+  - 怜
+  - 這樣啊。那我大概下禮拜看看時間再過來一趟吧。
+- wait:
+  - 35
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_068
+- face:
+  - 105411
+  - 2
+- print:
+  - 紡希
+  - 是！再麻煩您了！
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_1054001_069
+- face:
+  - 100311
+  - 2
+- print:
+  - 怜
+  - '{0}。要和紡希和睦相處哦。'
+- wait:
+  - 65
+- print:
+  - 怜
+  - >2-
+
+    紡希妳也是。那就下次見囉。
+- wait:
+  - 35
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - R
+  - RC
+  - 30
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105411
+  - C
+  - 2
+- fadein:
+  - 105411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_070
+- face:
+  - 105411
+  - 2
+- emotion:
+  - note1_L
+  - 105411
+  - -110
+  - 470
+  - se_adv_emote_note_01
+- print:
+  - 紡希
+  - 歡迎再次光臨，怜大人！
+- wait:
+  - 20
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 105411
+  - 1
+- emotion:
+  - dots1_R
+  - 105411
+  - -115
+  - 470
+  - se_adv_emote_dots_01
+- wait:
+  - 60
+- emotion_end:
+  - 105411
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_071
+- face:
+  - 105411
+  - 3
+- print:
+  - 紡希
+  - ……沒想到騎士先生，
+- wait:
+  - 30
+- print:
+  - 紡希
+  - >2-
+
+    就是那個靠近怜大人的可疑男子……！
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_1054001_072
+- face:
+  - 105411
+  - 3
+- print:
+  - 紡希
+  - 我……！
+- wait:
+  - 30
+- print:
+  - 紡希
+  - >2-
+
+    我可是……最討厭你這種人了啊～
+- pop:
+  - 105411
+- print:
+  - 紡希
+  - ！
+- wait:
+  - 45
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105411
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - '{0}不明所以地被態度驟變的紡希，用繩子捆綁了起來，並扔出了店門外。'
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

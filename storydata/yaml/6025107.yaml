@@ -1,0 +1,204 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500820
+- amb:
+  - amb_adv_mystery_03
+- ui_visible:
+  - false
+- situation:
+  - 是花哦
+- chara_full:
+  - 111311
+  - C
+  - 2
+- fadein:
+  - 111311
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M136_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111311
+- bust:
+  - 111311
+  - 0
+- vo:
+  - vo_adv_6025107_000
+- face:
+  - 111311
+  - 2
+- emotion:
+  - note1_L
+  - 111311
+  - -90
+  - 420
+  - se_adv_emote_note_01
+- print:
+  - 美美
+  - 欸嘿嘿～
+- wait:
+  - 40
+- print:
+  - 美美
+  - >2
+
+- face:
+  - 111311
+  - 1
+- print:
+  - 美美
+  - 剛才遇到花了～♪
+- touch: &o0 []
+- choice:
+  - 真可愛呢。
+  - 1
+  - 1
+- choice:
+  - 你們感情很好呢。
+  - 2
+  - 2
+- choice:
+  - 一起玩吧。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 111311
+- bust:
+  - 111311
+  - 0
+- vo:
+  - vo_adv_6025107_001
+- face:
+  - 111311
+  - 2
+- print:
+  - 美美
+  - 對吧～
+- wait:
+  - 25
+- nod:
+  - 111311
+- print:
+  - 美美
+  - 她真的是
+- wait:
+  - 15
+- print:
+  - 美美
+  - 很～可愛的孩子呢～
+- wait:
+  - 50
+- print:
+  - 美美
+  - >2
+
+- face:
+  - 111311
+  - 1
+- print:
+  - 美美
+  - 哥哥也一起來玩吧～
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 111311
+- bust:
+  - 111311
+  - 0
+- vo:
+  - vo_adv_6025107_002
+- face:
+  - 111311
+  - 1
+- nod:
+  - 111311
+- print:
+  - 美美
+  - 嗯！　
+- wait:
+  - 25
+- print:
+  - 美美
+  - 我們感情很好哦～
+- wait:
+  - 50
+- print:
+  - 美美
+  - >2-
+
+    都一起玩呢～♪
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 111311
+- bust:
+  - 111311
+  - 0
+- vo:
+  - vo_adv_6025107_003
+- face:
+  - 111311
+  - 1
+- print:
+  - 美美
+  - 嗯♪
+- wait:
+  - 30
+- print:
+  - 美美
+  - >2
+
+- face:
+  - 111311
+  - 2
+- print:
+  - 美美
+  - 一起變成兔子先生吧～
+- wait:
+  - 60
+- print:
+  - 美美
+  - >2
+
+- pop:
+  - 111311
+- se:
+  - se_adv_rabbit_jump_01
+- print:
+  - 美美
+  - 蹦蹦跳～♪
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 111311
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

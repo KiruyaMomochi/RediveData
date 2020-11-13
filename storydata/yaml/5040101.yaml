@@ -1,0 +1,825 @@
+- title:
+  - 牧場的四農士　貧窮農場奮鬥記！ 下回預告
+- outline:
+  - 面對突如其來的公會財產被沒收的騷動，【伊麗莎白牧場】的成員們決定上下一心奮鬥到底！
+- background:
+  - 500150
+- amb:
+  - amb_adv_pasture_01
+- bg_pan:
+  - -170
+  - 0
+- chara_full:
+  - 102611
+  - LC
+  - 1
+- chara_full:
+  - 103311
+  - RC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M352
+  - 0
+  - 0
+  - 1
+- focus:
+  - 103311
+- bust:
+  - 103311
+  - 0
+- vo:
+  - vo_adv_5040101_000
+- face:
+  - 103311
+  - 2
+- emotion:
+  - note1_L
+  - 103311
+  - -105
+  - 465
+  - se_adv_emote_note_01
+- print:
+  - 真陽
+  - 印有伊麗莎白牧場標記的商品
+- wait:
+  - 30
+- print:
+  - 真陽
+  - 今天也全賣完的啦。
+- wait:
+  - 55
+- print:
+  - 真陽
+  - >2
+
+- face:
+  - 103311
+  - 1
+- print:
+  - 真陽
+  - 看到上門的顧客笑容滿面的樣子
+- wait:
+  - 30
+- print:
+  - 真陽
+  - >2
+
+- face:
+  - 103311
+  - 2
+- print:
+  - 真陽
+  - 連我也跟著開心起來了啦。
+- touch: &o0 []
+- focus:
+  - 102611
+- bust:
+  - 102611
+  - 0
+- vo:
+  - vo_adv_5040101_001
+- face:
+  - 102611
+  - 4
+- print:
+  - 鈴
+  - 真虧妳可以每天
+- wait:
+  - 25
+- print:
+  - 鈴
+  - 每天
+- wait:
+  - 15
+- print:
+  - 鈴
+  - 都這樣工作啊～
+- wait:
+  - 60
+- print:
+  - 鈴
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - 鈴
+  - 比起工作，
+- wait:
+  - 30
+- eye_open:
+  - TRUE
+- print:
+  - 鈴
+  - 我還是比較想玩新的遊戲呢。
+- wait:
+  - 60
+- print:
+  - 鈴
+  - >2
+
+- face:
+  - 102611
+  - 1
+- print:
+  - 鈴
+  - 怎麼不快點送來呢～
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 103811
+  - LC
+  - 2
+- se:
+  - se_adv_step_dirt_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 103811
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_5040101_002
+- face:
+  - 103811
+  - 2
+- print:
+  - 栞
+  - 真陽、
+- wait:
+  - 30
+- print:
+  - 栞
+  - 鈴。
+- wait:
+  - 25
+- print:
+  - 栞
+  - >2-
+
+    牧場巡視的工作結束囉。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 103811
+  - 30
+- chara_full:
+  - 102611
+  - LC
+  - 1
+- chara_full:
+  - 103311
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103311
+- bust:
+  - 103311
+  - 0
+- vo:
+  - vo_adv_5040101_003
+- face:
+  - 103311
+  - 4
+- print:
+  - 真陽
+  - 妳又把工作都丟給栞栞一個人……
+- touch: *o0
+- focus:
+  - 102611
+- bust:
+  - 102611
+  - 0
+- vo:
+  - vo_adv_5040101_004
+- face:
+  - 102611
+  - 3
+- print:
+  - 鈴
+  - 有什麼關係～
+- wait:
+  - 45
+- print:
+  - 鈴
+  - >2
+
+- face:
+  - 102611
+  - 1
+- print:
+  - 鈴
+  - 小栞身體狀況不好的時候
+- wait:
+  - 25
+- print:
+  - 鈴
+  - 我都有好好工作啊～？
+- touch: *o0
+- focus:
+  - 103311
+- bust:
+  - 103311
+  - 0
+- vo:
+  - vo_adv_5040101_005
+- face:
+  - 103311
+  - 3
+- pop:
+  - 103311
+- print:
+  - 真陽
+  - 正常來說每天都要工作才對的啦！
+- touch: *o0
+- focus:
+  - 102611
+- bust:
+  - 102611
+  - 0
+- vo:
+  - vo_adv_5040101_006
+- face:
+  - 102611
+  - 6
+- print:
+  - 鈴
+  - 正常指的是什麼？
+- wait:
+  - 40
+- print:
+  - 鈴
+  - 　
+- face:
+  - 102611
+  - 1
+- print:
+  - 鈴
+  - 我想要保有自己的特色啦。
+- wait:
+  - 50
+- print:
+  - 鈴
+  - >2-
+
+    我反而覺得
+- wait:
+  - 15
+- print:
+  - 鈴
+  - 那才叫正常不是嗎？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 102611
+  - L
+  - 1
+- chara_full:
+  - 103311
+  - C
+  - 1
+- chara_full:
+  - 103811
+  - R
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_5040101_007
+- face:
+  - 103811
+  - 2
+- print:
+  - 栞
+  - 鈴，
+- wait:
+  - 25
+- print:
+  - 栞
+  - >2-
+
+    只要遇到這種事
+- wait:
+  - 30
+- print:
+  - 栞
+  - 腦筋就轉得特別快耶。
+- touch: *o0
+- focus:
+  - 102611
+- bust:
+  - 102611
+  - 0
+- vo:
+  - vo_adv_5040101_008
+- face:
+  - 102611
+  - 2
+- nod:
+  - 102611
+- print:
+  - 鈴
+  - 沒錯沒錯！
+- wait:
+  - 15
+- print:
+  - 鈴
+  - 我的腦袋啊…………
+- wait:
+  - 45
+- face:
+  - 102611
+  - 4
+- print:
+  - 鈴
+  - 咦，
+- wait:
+  - 10
+- print:
+  - 鈴
+  - 小栞。
+- wait:
+  - 25
+- print:
+  - 鈴
+  - 妳剛剛那不是誇獎吧。
+- wait:
+  - 50
+- print:
+  - 鈴
+  - >2
+
+- face:
+  - 102611
+  - 1
+- print:
+  - 鈴
+  - 不管什麼時候
+- wait:
+  - 15
+- print:
+  - 鈴
+  - 我的腦筋都轉得很快好嗎。
+- wait:
+  - 45
+- print:
+  - 鈴
+  - 只是限於特定用途而已啦。
+- touch: *o0
+- focus:
+  - 103311
+- bust:
+  - 103311
+  - 0
+- vo:
+  - vo_adv_5040101_009
+- face:
+  - 103311
+  - 4
+- print:
+  - 真陽
+  - 希望妳可以有效運用它，
+- wait:
+  - 15
+- print:
+  - 真陽
+  - 不要限制什麼特定用途的啦。
+- wait:
+  - 75
+- print:
+  - 真陽
+  - >2
+
+- face:
+  - 103311
+  - 6
+- print:
+  - 真陽
+  - 說起來，
+- wait:
+  - 15
+- print:
+  - 真陽
+  - 我今天都還沒有看到莉瑪莉瑪耶，
+- wait:
+  - 45
+- print:
+  - 真陽
+  - 她去哪了？
+- touch: *o0
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_5040101_010
+- face:
+  - 103811
+  - 6
+- print:
+  - 栞
+  - 妳要找莉瑪的話，
+- wait:
+  - 25
+- print:
+  - 栞
+  - 剛剛在森林裡……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_step_dirt_walk_come_01
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 4512
+  - L
+  - 1
+- chara_full:
+  - 13311
+  - C
+  - 1
+- chara_full:
+  - 4513
+  - R
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 7
+  - 1
+- focus:
+  - 13311
+- bust:
+  - 13311
+  - 0
+- vo:
+  - vo_adv_5040101_011
+- face:
+  - 13311
+  - 1
+- print:
+  - ？？？
+  - 開始徵收家畜。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 102611
+  - L
+  - 6
+- chara_full:
+  - 103311
+  - C
+  - 6
+- chara_full:
+  - 103811
+  - R
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M21
+- focus:
+  - 102611
+- bust:
+  - 102611
+  - 0
+- vo:
+  - vo_adv_5040101_012
+- face:
+  - 102611
+  - 6
+- emotion:
+  - question1_R
+  - 102611
+  - 40
+  - 455
+  - se_adv_emote_question_01
+- print:
+  - 鈴
+  - 啊？
+- wait:
+  - 30
+- print:
+  - 鈴
+  - 　徵收……
+- wait:
+  - 45
+- print:
+  - 鈴
+  - 家畜？
+- touch: *o0
+- focus:
+  - 103311
+- bust:
+  - 103311
+  - 0
+- vo:
+  - vo_adv_5040101_013
+- face:
+  - 103311
+  - 6
+- print:
+  - 真陽
+  - 你、
+- wait:
+  - 15
+- print:
+  - 真陽
+  - 你們幾個想幹嘛！？
+- wait:
+  - 25
+- print:
+  - 真陽
+  - >2-
+
+    從哪兒冒出來的！？
+- touch: *o0
+- focus:
+  - 103811
+- bust:
+  - 103811
+  - 0
+- vo:
+  - vo_adv_5040101_014
+- face:
+  - 103811
+  - 6
+- emotion:
+  - exclamation1_R
+  - 103811
+  - 15
+  - 660
+  - se_adv_emote_common_01
+- print:
+  - 栞
+  - 真陽！
+- wait:
+  - 15
+- print:
+  - 栞
+  - 　妳看那邊！
+- wait:
+  - 25
+- print:
+  - 栞
+  - >2-
+
+    他們正在把牛隻們趕到馬車上！！
+- touch: *o0
+- focus:
+  - 103311
+- bust:
+  - 103311
+  - 0
+- vo:
+  - vo_adv_5040101_015
+- face:
+  - 103311
+  - 4
+- print:
+  - 真陽
+  - 住手！
+- wait:
+  - 25
+- print:
+  - 真陽
+  - 　
+- pop:
+  - 103311
+- print:
+  - 真陽
+  - 別這樣……！！
+- wait:
+  - 25
+- print:
+  - 真陽
+  - >2-
+
+    你們要把我們的牛
+- wait:
+  - 30
+- print:
+  - 真陽
+  - 帶到哪裡去啊！
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- white_out:
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- bg_color:
+  - 250
+  - 245
+  - 210
+- wait:
+  - 15
+- se:
+  - se_adv_happy_particle_01
+- effect:
+  - 0022
+- white_in: *o0
+- chara_full:
+  - 102611
+  - L
+  - 2
+- chara_full:
+  - 103311
+  - C
+  - 2
+- chara_full:
+  - 103811
+  - R
+  - 2
+- fadein_all:
+  - 30
+- focus:
+  - 103811:102611:103311
+- text_size:
+  - 35
+- window_visible:
+  - true
+- bgm:
+  - bgm_M351
+  - 0
+  - 0
+  - 1
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5040101_016
+- multi_talk:
+  - 103811:102611:103311
+- face:
+  - 1
+  - 1
+- print:
+  - 真陽等人
+  - 下一回，
+- wait:
+  - 30
+- print:
+  - 真陽等人
+  - 「牧場的四農士
+- wait:
+  - 30
+- print:
+  - 真陽等人
+  - 　貧窮農場奮鬥記！」
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0022
+  - 30
+- text_size:
+  - 23
+- background:
+  - 500170
+- wait:
+  - 15
+- white_in: *o0
+- amb:
+  - amb_adv_forest_01
+- chara_full:
+  - 105211
+  - C
+  - 1
+  - 1
+- fadein:
+  - 105211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105211
+- bust:
+  - 105211
+  - 0
+- vo:
+  - vo_adv_5040101_017
+- face:
+  - 105211
+  - 1
+- emotion:
+  - sleep1_L
+  - 105211
+  - -45
+  - 545
+  - se_adv_emote_sleep_01
+- print:
+  - 莉瑪
+  - 嗯～……
+- wait:
+  - 25
+- print:
+  - 莉瑪
+  - 呼嚕呼嚕……
+- wait:
+  - 45
+- print:
+  - 莉瑪
+  - >2-
+
+    大家一起……
+- wait:
+  - 40
+- print:
+  - 莉瑪
+  - 吃好吃的蘋果……
+- wait:
+  - 75
+- print:
+  - 莉瑪
+  - >2-
+
+    呼～……
+- wait:
+  - 65
+- print:
+  - 莉瑪
+  - 嗯……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105211
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

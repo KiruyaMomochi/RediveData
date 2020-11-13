@@ -1,0 +1,1201 @@
+- title:
+  - 東國狂熱者如是說
+- outline:
+  - 漸顯疲態的一行人決定稍作休息。妮諾拿出自備的東國風食物招待流夏他們。不過因為流夏無心的一句話，妮諾開始敘述自己對於東國的熱烈憧憬，流夏則完全被妮諾的氣勢壓倒。
+- background:
+  - 500430
+- amb:
+  - amb_adv_guildhouse_mist_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 東國狂熱者如是說
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 一行人繼續探索露娜之塔，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    但是遲遲未見像是記憶線索的東西。
+- wait:
+  - 15
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 105611
+  - LC
+  - 6
+- chara_full:
+  - 103011
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M157_Inside
+  - 0
+  - 0
+  - 0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_7011003_000
+- face:
+  - 105611
+  - 6
+- nod:
+  - 105611
+- print:
+  - 流夏
+  - 呼，
+- wait:
+  - 45
+- print:
+  - 流夏
+  - 雖然原本就覺得
+- wait:
+  - 25
+- print:
+  - 流夏
+  - 沒那麼容易找到呢。
+- wait:
+  - 55
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105611
+  - 4
+- print:
+  - 流夏
+  - 剛好現在有點累了，
+- wait:
+  - 50
+- face:
+  - 105611
+  - 1
+- print:
+  - 流夏
+  - 要不要在這裡稍微休息一下？
+- touch: *o0
+- choice:
+  - 肚子餓了。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_7011003_001
+- face:
+  - 105611
+  - 1
+- print:
+  - 流夏
+  - 也是呢。
+- wait:
+  - 50
+- face:
+  - 105611
+  - 6
+- print:
+  - 流夏
+  - 話雖如此，
+- wait:
+  - 25
+- print:
+  - 流夏
+  - 但是我們沒帶食物……
+- touch: *o0
+- bgm:
+  - stop
+  - 1
+  - 0
+- bgm:
+  - bgm_M224
+  - 0
+  - 0
+  - 1
+- focus:
+  - 103011
+- bust:
+  - 103011
+  - 0
+- vo:
+  - vo_adv_7011003_002
+- face:
+  - 103011
+  - 2
+- emotion:
+  - notice1_L
+  - 103011
+  - -83
+  - 527
+  - se_adv_emote_common_01
+- print:
+  - 妮諾
+  - 交給我吧！　
+- wait:
+  - 45
+- face:
+  - 103011
+  - 3
+- print:
+  - 妮諾
+  - 空著肚子
+- wait:
+  - 35
+- print:
+  - 妮諾
+  - 豈能戰鬥！
+- wait:
+  - 55
+- print:
+  - 妮諾
+  - >2
+
+- face:
+  - 103011
+  - 2
+- print:
+  - 妮諾
+  - 我準備了足夠的兵糧是也！　
+- wait:
+  - 45
+- face:
+  - 103011
+  - 1
+- print:
+  - 妮諾
+  - 來吧，
+- wait:
+  - 20
+- print:
+  - 妮諾
+  - 大姐頭也請用。
+- touch: *o0
+- window_visible:
+  - false
+- focus:
+  - 103011:105611
+- se:
+  - se_adv_cloth_move_give_01
+- nod:
+  - 103011
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_7011003_003
+- face:
+  - 105611
+  - 6
+- print:
+  - 流夏
+  - 包在竹葉裡的飯糰，
+- wait:
+  - 50
+- face:
+  - 105611
+  - 1
+- print:
+  - 流夏
+  - 還有竹筒水壺嗎。
+- touch: *o0
+- focus:
+  - 103011
+- bust:
+  - 103011
+  - 0
+- vo:
+  - vo_adv_7011003_004
+- face:
+  - 103011
+  - 1
+- print:
+  - 妮諾
+  - 內餡包著梅子、
+- wait:
+  - 45
+- print:
+  - 妮諾
+  - 鮭魚、
+- wait:
+  - 30
+- print:
+  - 妮諾
+  - 和鰹魚乾是也！
+- wait:
+  - 30
+- print:
+  - 妮諾
+  - >2
+
+- face:
+  - 103011
+  - 2
+- print:
+  - 妮諾
+  - 吃完以後，
+- wait:
+  - 25
+- print:
+  - 妮諾
+  - 還有甜饅頭可以享用！
+- wait:
+  - 25
+- print:
+  - 妮諾
+  - >2-
+
+    請各位
+- wait:
+  - 20
+- print:
+  - 妮諾
+  - 盡量多吃一點！
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_7011003_005
+- face:
+  - 105611
+  - 2
+- print:
+  - 流夏
+  - 哈哈，
+- wait:
+  - 35
+- print:
+  - 流夏
+  - 妳
+- wait:
+  - 25
+- print:
+  - 流夏
+  - 真的很喜歡東國呢。
+- touch: *o0
+- focus:
+  - 103011
+- bust:
+  - 103011
+  - 0
+- vo:
+  - vo_adv_7011003_006
+- face:
+  - 103011
+  - 2
+- emotion:
+  - note1_L
+  - 103011
+  - -110
+  - 515
+  - se_adv_emote_note_01
+- print:
+  - 妮諾
+  - 是的！　
+- wait:
+  - 30
+- face:
+  - 103011
+  - 1
+- print:
+  - 妮諾
+  - 我從早上
+- wait:
+  - 25
+- print:
+  - 妮諾
+  - 到晚上，
+- wait:
+  - 30
+- print:
+  - 妮諾
+  - 沒日沒夜
+- wait:
+  - 25
+- print:
+  - 妮諾
+  - >2-
+
+    腦中想的都是有關東國的事情！
+- touch: *o0
+- focus:
+  - 103011
+- bust:
+  - 103011
+  - 0
+- vo:
+  - vo_adv_7011003_007
+- face:
+  - 103011
+  - 6
+- print:
+  - 妮諾
+  - 這麼說來，
+- wait:
+  - 30
+- print:
+  - 妮諾
+  - 以大姐頭的和服、
+- wait:
+  - 45
+- print:
+  - 妮諾
+  - 武士刀、
+- wait:
+  - 30
+- print:
+  - 妮諾
+  - 劍術看來……
+- wait:
+  - 55
+- print:
+  - 妮諾
+  - >2
+
+- pop:
+  - 103011
+- face:
+  - 103011
+  - 1
+- print:
+  - 妮諾
+  - 難不成
+- wait:
+  - 30
+- print:
+  - 妮諾
+  - 大姐頭出身自東國嗎？
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_7011003_008
+- face:
+  - 105611
+  - 1
+- eye_open:
+  - False
+- print:
+  - 流夏
+  - 這個嘛，
+- wait:
+  - 30
+- print:
+  - 流夏
+  - 誰知道呢。
+- wait:
+  - 40
+- eye_open:
+  - True
+- print:
+  - 流夏
+  - 我四處流浪，早已經不記得了。
+- touch: *o0
+- focus:
+  - 103011
+- bust:
+  - 103011
+  - 0
+- vo:
+  - vo_adv_7011003_009
+- face:
+  - 103011
+  - 2
+- emotion:
+  - twinkle1_R
+  - 103011
+  - -135
+  - 475
+  - se_adv_emote_twinkle_01
+- print:
+  - 妮諾
+  - 神秘的浪人劍士！　
+- wait:
+  - 60
+- print:
+  - 妮諾
+  - 真是令人憧憬！
+- touch: *o0
+- focus:
+  - 103011
+- bust:
+  - 103011
+  - 0
+- vo:
+  - vo_adv_7011003_010
+- face:
+  - 103011
+  - 1
+- nod:
+  - 103011
+- print:
+  - 妮諾
+  - 哈～
+- wait:
+  - 30
+- print:
+  - 妮諾
+  - 我也希望有一天
+- wait:
+  - 35
+- print:
+  - 妮諾
+  - 能夠去東國看看。
+- wait:
+  - 40
+- print:
+  - 妮諾
+  - >2
+
+- face:
+  - 103011
+  - 3
+- print:
+  - 妮諾
+  - 希望能親眼
+- wait:
+  - 35
+- print:
+  - 妮諾
+  - 看看富士山是也！
+- touch: *o0
+- focus:
+  - 103011
+- bust:
+  - 103011
+  - 0
+- vo:
+  - vo_adv_7011003_011
+- face:
+  - 103011
+  - 2
+- print:
+  - 妮諾
+  - 富士山是
+- wait:
+  - 20
+- print:
+  - 妮諾
+  - 東國首屈一指的聖山！
+- wait:
+  - 40
+- print:
+  - 妮諾
+  - >2
+
+- face:
+  - 103011
+  - 1
+- print:
+  - 妮諾
+  - 時常被畫進
+- wait:
+  - 30
+- print:
+  - 妮諾
+  - 浮世繪裡！
+- touch: *o0
+- focus:
+  - 103011
+- bust:
+  - 103011
+  - 0
+- vo:
+  - vo_adv_7011003_012
+- face:
+  - 103011
+  - 4
+- print:
+  - 妮諾
+  - 雖然我
+- wait:
+  - 30
+- print:
+  - 妮諾
+  - 也只有在浮世繪裡看過。
+- wait:
+  - 50
+- print:
+  - 妮諾
+  - >2
+
+- face:
+  - 103011
+  - 1
+- print:
+  - 妮諾
+  - 當統一天下之際，
+- wait:
+  - 50
+- print:
+  - 妮諾
+  - 和將軍一起從山頂
+- wait:
+  - 60
+- print:
+  - 妮諾
+  - >2
+
+- face:
+  - 103011
+  - 2
+- print:
+  - 妮諾
+  - 俯瞰太平盛世
+- wait:
+  - 30
+- print:
+  - 妮諾
+  - 就是我的夢想是也！
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_7011003_013
+- face:
+  - 105611
+  - 6
+- print:
+  - 流夏
+  - 啊、
+- wait:
+  - 15
+- print:
+  - 流夏
+  - 啊啊……
+- wait:
+  - 25
+- print:
+  - 流夏
+  - 是嗎……
+- touch: *o0
+- focus:
+  - 103011
+- bust:
+  - 103011
+  - 0
+- vo:
+  - vo_adv_7011003_014
+- face:
+  - 103011
+  - 3
+- print:
+  - 妮諾
+  - 東國的
+- wait:
+  - 15
+- print:
+  - 妮諾
+  - 獨特飲食文化也是不容錯過的一大特色是也！
+- wait:
+  - 45
+- print:
+  - 妮諾
+  - >2
+
+- face:
+  - 103011
+  - 1
+- print:
+  - 妮諾
+  - 米飯料理
+- wait:
+  - 35
+- print:
+  - 妮諾
+  - 每一種都
+- wait:
+  - 30
+- print:
+  - 妮諾
+  - 非常美味是也！
+- touch: *o0
+- focus:
+  - 103011
+- bust:
+  - 103011
+  - 0
+- vo:
+  - vo_adv_7011003_015
+- face:
+  - 103011
+  - 2
+- emotion:
+  - twinkle1_R
+  - 103011
+  - -135
+  - 475
+  - se_adv_emote_twinkle_01
+- print:
+  - 妮諾
+  - 其中最美味的東國料理之王，
+- wait:
+  - 60
+- print:
+  - 妮諾
+  - 非壽司莫屬是也！
+- wait:
+  - 50
+- print:
+  - 妮諾
+  - >2
+
+- face:
+  - 103011
+  - 1
+- print:
+  - 妮諾
+  - 不僅蘊含職人的精湛廚藝，
+- wait:
+  - 50
+- print:
+  - 妮諾
+  - 那美麗的外觀也堪稱是可以吃的藝術品是也！
+- touch: *o0
+- focus:
+  - 103011
+- bust:
+  - 103011
+  - 0
+- vo:
+  - vo_adv_7011003_016
+- face:
+  - 103011
+  - 1
+- pop:
+  - 103011
+- print:
+  - 妮諾
+  - 另外，
+- wait:
+  - 30
+- print:
+  - 妮諾
+  - 說起得以和壽司齊名的
+- wait:
+  - 35
+- print:
+  - 妮諾
+  - 東國代表性料理，
+- wait:
+  - 40
+- face:
+  - 103011
+  - 2
+- print:
+  - 妮諾
+  - 就不得不提蕎麥麵！
+- wait:
+  - 50
+- print:
+  - 妮諾
+  - >2
+
+- face:
+  - 103011
+  - 1
+- print:
+  - 妮諾
+  - 那是價格便宜的
+- wait:
+  - 25
+- print:
+  - 妮諾
+  - 平民美食！
+- touch: *o0
+- focus:
+  - 103011
+- bust:
+  - 103011
+  - 0
+- vo:
+  - vo_adv_7011003_017
+- face:
+  - 103011
+  - 2
+- print:
+  - 妮諾
+  - 發出簌簌的聲音
+- wait:
+  - 20
+- face:
+  - 103011
+  - 1
+- print:
+  - 妮諾
+  - 大口吸麵的感覺，
+- wait:
+  - 35
+- print:
+  - 妮諾
+  - 真的非常爽快是也！
+- wait:
+  - 45
+- print:
+  - 妮諾
+  - >2
+
+- face:
+  - 103011
+  - 4
+- print:
+  - 妮諾
+  - 不過之前
+- wait:
+  - 30
+- print:
+  - 妮諾
+  - 大聲吸義大利麵，
+- wait:
+  - 35
+- print:
+  - 妮諾
+  - 卻被莫妮卡罵了……
+- touch: *o0
+- focus:
+  - 103011
+- bust:
+  - 103011
+  - 0
+- vo:
+  - vo_adv_7011003_018
+- face:
+  - 103011
+  - 2
+- nod:
+  - 103011
+- print:
+  - 妮諾
+  - 大姐頭喜歡吃
+- wait:
+  - 35
+- print:
+  - 妮諾
+  - 哪種東國料理呢？
+- touch: *o0
+- bgm:
+  - stop
+  - 3.5
+  - 1
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_7011003_019
+- face:
+  - 105611
+  - 6
+- print:
+  - 流夏
+  - 啊、
+- wait:
+  - 10
+- print:
+  - 流夏
+  - 啊啊……
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M244
+  - 0
+  - 0
+  - 0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_7011003_020
+- face:
+  - 105611
+  - 4
+- print:
+  - 流夏
+  - 啊啊，
+- wait:
+  - 20
+- eye_open:
+  - False
+- print:
+  - 流夏
+  - 這種感覺……
+- wait:
+  - 40
+- eye_open:
+  - True
+- print:
+  - 流夏
+  - 好熟悉啊。
+- wait:
+  - 45
+- print:
+  - 流夏
+  - >2-
+
+    一提到自己感興趣的話題，
+- wait:
+  - 30
+- print:
+  - 流夏
+  - 說話速度就會變得異常地快速。
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_7011003_021
+- face:
+  - 105611
+  - 2
+- print:
+  - 流夏
+  - 雖然感興趣的東西不同，
+- wait:
+  - 50
+- print:
+  - 流夏
+  - 但是和我們公會的七七香一樣啊……
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- window_visible:
+  - TRUE
+- focus:
+  - 103011
+- bust:
+  - 103011
+  - 0
+- vo:
+  - vo_adv_7011003_022
+- face:
+  - 103011
+  - 6
+- print:
+  - 妮諾
+  - 大姐頭……
+- wait:
+  - 35
+- nod:
+  - 103011
+- print:
+  - 妮諾
+  - 大姐頭？　
+- wait:
+  - 30
+- print:
+  - 妮諾
+  - 妳有聽我講話嗎？
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_7011003_023
+- face:
+  - 105611
+  - 6
+- print:
+  - 流夏
+  - 啊，
+- wait:
+  - 15
+- print:
+  - 流夏
+  - 啊啊抱歉，
+- wait:
+  - 30
+- print:
+  - 流夏
+  - 我剛剛稍微發呆了一下。
+- wait:
+  - 30
+- print:
+  - 流夏
+  - >2
+
+- face:
+  - 105611
+  - 1
+- print:
+  - 流夏
+  - 那麼，
+- wait:
+  - 10
+- print:
+  - 流夏
+  - 妳剛剛在說什麼？
+- touch: *o0
+- focus:
+  - 103011
+- bust:
+  - 103011
+  - 0
+- vo:
+  - vo_adv_7011003_024
+- face:
+  - 103011
+  - 2
+- print:
+  - 妮諾
+  - 是！　
+- wait:
+  - 25
+- face:
+  - 103011
+  - 1
+- print:
+  - 妮諾
+  - 剛剛講到
+- wait:
+  - 30
+- print:
+  - 妮諾
+  - 我要和將軍、大姐頭
+- wait:
+  - 35
+- print:
+  - 妮諾
+  - >2-
+
+    前往東國
+- wait:
+  - 25
+- print:
+  - 妮諾
+  - 一邊周遊各地
+- wait:
+  - 55
+- print:
+  - 妮諾
+  - >2
+
+- face:
+  - 103011
+  - 3
+- print:
+  - 妮諾
+  - 一邊懲奸除惡，
+- wait:
+  - 45
+- face:
+  - 103011
+  - 2
+- print:
+  - 妮諾
+  - 展開維護世界和平的旅程是也！
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_7011003_025
+- face:
+  - 105611
+  - 4
+- emotion:
+  - sweat1_R
+  - 105611
+  - 80
+  - 590
+  - se_adv_emote_sweat_01
+- print:
+  - 流夏
+  - 放、
+- wait:
+  - 15
+- print:
+  - 流夏
+  - 放過我吧！　
+- wait:
+  - 30
+- print:
+  - 流夏
+  - >-
+    不要把我牽扯進
+
+    那種奇妙的旅程中啦！
+- touch: *o0
+- focus:
+  - 103011
+- bust:
+  - 103011
+  - 0
+- vo:
+  - vo_adv_7011003_026
+- face:
+  - 103011
+  - 6
+- print:
+  - 妮諾
+  - 咦——！　
+- wait:
+  - 30
+- print:
+  - 妮諾
+  - 連人數也剛剛好的說！
+- wait:
+  - 60
+- print:
+  - 妮諾
+  - >2
+
+- pop:
+  - 103011
+- print:
+  - 妮諾
+  - 啊！　
+- wait:
+  - 15
+- face:
+  - 103011
+  - 4
+- print:
+  - 妮諾
+  - 可是可是這麼一來，
+- wait:
+  - 55
+- print:
+  - 妮諾
+  - 我負責的女忍者角色，
+- wait:
+  - 65
+- print:
+  - 妮諾
+  - >2
+
+- face:
+  - 103011
+  - 5
+- print:
+  - 妮諾
+  - 每次的入浴場面就會被看光光了是也！
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_7011003_027
+- face:
+  - 105611
+  - 4
+- print:
+  - 流夏
+  - 妳在胡說什麼啊，
+- wait:
+  - 40
+- eye_open:
+  - False
+- print:
+  - 流夏
+  - 真是的……
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 之後，妮諾仍然沒有停止談論有關東國的話題，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    導致一行人遲遲無法前進。
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 1
+  - 0
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- vo_effect:
+  - 0
+- end: *o0

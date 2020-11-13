@@ -1,0 +1,271 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500159
+- amb:
+  - amb_adv_outdoors_day_01
+- ui_visible:
+  - false
+- situation:
+  - 關於半藏
+- chara_full:
+  - 103311
+  - C
+  - 4
+- fadein:
+  - 103311
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M288
+  - 0
+  - 0
+  - 1
+- focus:
+  - 103311
+- bust:
+  - 103311
+  - 0
+- vo:
+  - vo_adv_6040101_000
+- face:
+  - 103311
+  - 4
+- print:
+  - 真陽
+  - 那位叫做半藏的人，
+- wait:
+  - 30
+- print:
+  - 真陽
+  - 壓迫感強到好可怕的啦。
+- wait:
+  - 60
+- print:
+  - 真陽
+  - >2
+
+- face:
+  - 103311
+  - 6
+- print:
+  - 真陽
+  - 打扮也很奇怪，
+- wait:
+  - 35
+- print:
+  - 真陽
+  - 他到底是什麼人啊。
+- touch: &o0 []
+- choice:
+  - 是護衛
+  - 1
+  - 1
+- choice:
+  - 是黑暗居民
+  - 2
+  - 2
+- choice:
+  - 我認識打扮相似的人
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 103311
+- bust:
+  - 103311
+  - 0
+- vo:
+  - vo_adv_6040101_001
+- face:
+  - 103311
+  - 6
+- nod:
+  - 103311
+- print:
+  - 真陽
+  - 他的確
+- wait:
+  - 25
+- print:
+  - 真陽
+  - 保護了監察官大人，
+- wait:
+  - 55
+- print:
+  - 真陽
+  - >2
+
+- face:
+  - 103311
+  - 4
+- print:
+  - 真陽
+  - 但是總～覺得應該不只是那樣呢。
+- wait:
+  - 70
+- print:
+  - 真陽
+  - >2
+
+- face:
+  - 103311
+  - 1
+- print:
+  - 真陽
+  - 不過，
+- wait:
+  - 10
+- print:
+  - 真陽
+  - 我再怎麼想也沒用吧。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 103311
+- bust:
+  - 103311
+  - 0
+- vo:
+  - vo_adv_6040101_002
+- face:
+  - 103311
+  - 6
+- emotion:
+  - question1_R
+  - 103311
+  - 115
+  - 455
+  - se_adv_emote_question_01
+- print:
+  - 真陽
+  - 黑、
+- wait:
+  - 15
+- print:
+  - 真陽
+  - 黑暗居民？
+- wait:
+  - 40
+- print:
+  - 真陽
+  - 　這個稱呼感覺有點帥氣的啦。
+- wait:
+  - 50
+- print:
+  - 真陽
+  - >2-
+
+    老哥
+- wait:
+  - 10
+- print:
+  - 真陽
+  - 也想要打扮成那樣嗎？
+- wait:
+  - 45
+- print:
+  - 真陽
+  - >2
+
+- face:
+  - 103311
+  - 1
+- print:
+  - 真陽
+  - 我
+- wait:
+  - 10
+- print:
+  - 真陽
+  - 倒是比較喜歡老哥往常的裝扮呢。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 103311
+- bust:
+  - 103311
+  - 0
+- vo:
+  - vo_adv_6040101_003
+- face:
+  - 103311
+  - 1
+- print:
+  - 真陽
+  - 原來有會打扮成那樣的孩子啊。
+- wait:
+  - 50
+- print:
+  - 真陽
+  - 蘭德索爾還真是廣闊呢。
+- wait:
+  - 50
+- print:
+  - 真陽
+  - >2
+
+- emotion:
+  - question1_R
+  - 103311
+  - 115
+  - 455
+  - se_adv_emote_question_01
+- face:
+  - 103311
+  - 6
+- print:
+  - 真陽
+  - 嗯？
+- wait:
+  - 20
+- print:
+  - 真陽
+  - 　難道那是
+- wait:
+  - 50
+- print:
+  - 真陽
+  - 都市人的打扮風格？
+- wait:
+  - 50
+- print:
+  - 真陽
+  - >2
+
+- face:
+  - 103311
+  - 4
+- print:
+  - 真陽
+  - 不過也沒有在街上看過那種裝扮啊……
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 103311
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

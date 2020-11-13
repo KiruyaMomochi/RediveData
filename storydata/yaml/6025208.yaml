@@ -1,0 +1,251 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500353
+- amb:
+  - amb_adv_outdoors_night_02
+- ui_visible:
+  - FALSE
+- situation:
+  - 優秀的姐姐
+- chara_full:
+  - 111111
+  - C
+  - 2
+- fadein:
+  - 111111
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M267
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_6025208_000
+- face:
+  - 111111
+  - 2
+- print:
+  - 鏡華
+  - 和花在一起時的美美，
+- wait:
+  - 30
+- print:
+  - 鏡華
+  - 就是很厲害的姐姐呢。
+- wait:
+  - 45
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 111111
+  - 1
+- print:
+  - 鏡華
+  - 我也能成為
+- wait:
+  - 40
+- print:
+  - 鏡華
+  - 那樣子的姐姐嗎？
+- touch: &o0 []
+- choice:
+  - 一起去做點心。
+  - 1
+  - 1
+- choice:
+  - 只要溫柔就行了。
+  - 2
+  - 2
+- choice:
+  - 只要變得可靠就行了。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_6025208_001
+- face:
+  - 111111
+  - 1
+- print:
+  - 鏡華
+  - 做點心嗎……
+- wait:
+  - 50
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 111111
+  - 2
+- nod:
+  - 111111
+- print:
+  - 鏡華
+  - 的確
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 我也有那種經驗，
+- wait:
+  - 40
+- print:
+  - 鏡華
+  - >2-
+
+    說不定可以成為好姐姐。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_6025208_002
+- face:
+  - 111111
+  - 1
+- print:
+  - 鏡華
+  - 溫柔
+- wait:
+  - 30
+- print:
+  - 鏡華
+  - 嗎……
+- wait:
+  - 35
+- nod:
+  - 111111
+- print:
+  - 鏡華
+  - 那和寵溺不一樣吧。
+- wait:
+  - 60
+- print:
+  - 鏡華
+  - >2-
+
+    成為姐姐之道
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 真艱難。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 111111
+- bust:
+  - 111111
+  - 0
+- vo:
+  - vo_adv_6025208_003
+- face:
+  - 111111
+  - 1
+- print:
+  - 鏡華
+  - 變得可靠……
+- wait:
+  - 50
+- nod:
+  - 111111
+- print:
+  - 鏡華
+  - 的確
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 在有個萬一時，
+- wait:
+  - 20
+- print:
+  - 鏡華
+  - 要很可靠才行呢。
+- wait:
+  - 55
+- print:
+  - 鏡華
+  - >2
+
+- face:
+  - 111111
+  - 2
+- print:
+  - 鏡華
+  - 就那個層面來說，
+- wait:
+  - 30
+- print:
+  - 鏡華
+  - 美美真的
+- wait:
+  - 25
+- print:
+  - 鏡華
+  - 是很優秀的姐姐。
+- wait:
+  - 50
+- print:
+  - 鏡華
+  - >2-
+
+    美美姐姐，
+- wait:
+  - 15
+- print:
+  - 鏡華
+  - 這樣子
+- wait:
+  - 15
+- print:
+  - 鏡華
+  - 叫她試試吧……
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 111111
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0
