@@ -1,0 +1,291 @@
+- title:
+  - 關於鬼屋
+- outline:
+  - ' '
+- background:
+  - 501132
+- amb:
+  - amb_adv_outdoors_night_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 關於鬼屋
+- chara_full:
+  - 105411
+  - C
+  - 4
+- fadein:
+  - 105411
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M180_Ver2
+  - 0
+  - 0
+  - 1
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_6050106_000
+- face:
+  - 105411
+  - 4
+- print:
+  - 紡希
+  - 鬼屋……
+- wait:
+  - 40
+- eye_open:
+  - False
+- print:
+  - 紡希
+  - 鬼屋啊……
+- wait:
+  - 60
+- print:
+  - 紡希
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 紡希
+  - 一開始思考就覺得萬事皆難呢。
+- wait:
+  - 70
+- print:
+  - 紡希
+  - >2
+
+- face:
+  - 105411
+  - 6
+- print:
+  - 紡希
+  - 騎士先生，
+- wait:
+  - 25
+- print:
+  - 紡希
+  - 你有什麼想法嗎？
+- touch: &o0 []
+- choice:
+  - 招攬很多客人。
+  - 1
+  - 1
+- choice:
+  - 從後面嚇人。
+  - 2
+  - 2
+- choice:
+  - 設置陷阱。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_6050106_001
+- face:
+  - 105411
+  - 4
+- emotion:
+  - gloomy1_R
+  - 105411
+  - 35
+  - 525
+  - se_adv_emote_gloomy_01
+- print:
+  - 紡希
+  - 所以說為此該怎麼做啦……
+- wait:
+  - 75
+- face:
+  - 105411
+  - 1
+- print:
+  - 紡希
+  - 也不是，
+- wait:
+  - 30
+- print:
+  - 紡希
+  - 這也是很重要呢，
+- wait:
+  - 50
+- print:
+  - 紡希
+  - >2-
+
+    因為首先得要累積經驗嘛！
+- wait:
+  - 50
+- face:
+  - 105411
+  - 6
+- print:
+  - 紡希
+  - 不過招攬客人
+- wait:
+  - 20
+- print:
+  - 紡希
+  - >2-
+
+    是騎士先生的工作喔？
+- wait:
+  - 25
+- print:
+  - 紡希
+  - 你的責任重大，
+- wait:
+  - 30
+- face:
+  - 105411
+  - 2
+- print:
+  - 紡希
+  - 請好好加油呢！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_6050106_002
+- face:
+  - 105411
+  - 6
+- print:
+  - 紡希
+  - 所謂的鬼屋，基本上是禁止直接接觸的吧？
+- wait:
+  - 90
+- print:
+  - 紡希
+  - >2
+
+- face:
+  - 105411
+  - 6
+- print:
+  - 紡希
+  - 可是，如果
+- wait:
+  - 30
+- print:
+  - 紡希
+  - 能對怜大人可以做出那種事……
+- wait:
+  - 55
+- face:
+  - 105411
+  - 4
+- print:
+  - 紡希
+  - 不行呢，
+- wait:
+  - 40
+- print:
+  - 紡希
+  - >2-
+
+    只覺得之後被發現一定會被罵。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_6050106_003
+- face:
+  - 105411
+  - 6
+- print:
+  - 紡希
+  - 這、
+- wait:
+  - 20
+- print:
+  - 紡希
+  - 這想法意外的很粗暴呢。
+- wait:
+  - 45
+- print:
+  - 紡希
+  - >2-
+
+    咦？
+- wait:
+  - 25
+- print:
+  - 紡希
+  - 用蒟蒻砸臉？
+- wait:
+  - 35
+- face:
+  - 105411
+  - 4
+- print:
+  - 紡希
+  - 是、
+- wait:
+  - 15
+- print:
+  - 紡希
+  - 是那樣啊……
+- wait:
+  - 45
+- print:
+  - 紡希
+  - >2
+
+- face:
+  - 105411
+  - 1
+- print:
+  - 紡希
+  - 總之，
+- wait:
+  - 20
+- print:
+  - 紡希
+  - 這意見先留下來當候補吧！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 105411
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

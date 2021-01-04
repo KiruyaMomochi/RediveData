@@ -1,0 +1,3821 @@
+- title:
+  - モニカ（マジカル） 第1話
+- outline:
+  - 魔法提督を名乗るには威厳が欠けていると悩むモニカ。子どもの心を掴むことで威厳を手に入れられると思い至った彼女は、子どもたちと遊び、心を通わせることで魔法提督への第一歩を踏み出すのであった。
+- background:
+  - 500030
+- amb:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 掴め、子どもたちの心！
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - その日、モニカは難しい顔で一人街を歩いていた。
+- wait:
+  - 30
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 105311
+  - C
+  - 4
+- se:
+  - se_adv_step_concrete_move_01
+- fadein:
+  - 105311
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M180_Ver2
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 105311
+- bust:
+  - 105311
+  - 0
+- vo:
+  - vo_adv_1142001_000
+- face:
+  - 105311
+  - 4
+- print:
+  - モニカ
+  - むう、
+- wait:
+  - 55
+- print:
+  - モニカ
+  - 一体どうすればいいものか……
+- wait:
+  - 70
+- print:
+  - モニカ
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - モニカ
+  - 誰かに相談するべきか、
+- wait:
+  - 45
+- eye_open:
+  - True
+- print:
+  - モニカ
+  - いや、
+- wait:
+  - 10
+- print:
+  - モニカ
+  - しかし……
+- wait:
+  - 45
+- face:
+  - 105311
+  - 6
+- print:
+  - モニカ
+  - ぬぁっ！
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_body_bump_01
+- effect:
+  - 0017
+- shake:
+  - 105311
+- window_visible:
+  - TRUE
+- focus:
+  - 105311
+- bust:
+  - 105311
+  - 0
+- vo:
+  - vo_adv_1142001_001
+- face:
+  - 105311
+  - 6
+- print:
+  - モニカ
+  - す、
+- wait:
+  - 25
+- print:
+  - モニカ
+  - すまない……
+- wait:
+  - 25
+- face:
+  - 105311
+  - 4
+- print:
+  - モニカ
+  - 考え事をしていて
+- wait:
+  - 25
+- print:
+  - モニカ
+  - 前方確認を怠って……
+- wait:
+  - 45
+- print:
+  - モニカ
+  - >2
+
+- face:
+  - 105311
+  - 1
+- print:
+  - モニカ
+  - ん？　
+- wait:
+  - 35
+- print:
+  - モニカ
+  - なんだ
+- wait:
+  - 10
+- print:
+  - モニカ
+  - '{0}か。'
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- choice:
+  - 危ないよ？
+  - 1
+- tag:
+  - 1
+- bgm:
+  - bgm_M422
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 105311
+- bust:
+  - 105311
+  - 0
+- vo:
+  - vo_adv_1142001_002
+- face:
+  - 105311
+  - 4
+- nod:
+  - 105311
+- print:
+  - モニカ
+  - いや、
+- wait:
+  - 10
+- print:
+  - モニカ
+  - まったくだ。
+- wait:
+  - 30
+- print:
+  - モニカ
+  - >2-
+
+    街の平和を守る者として、
+- wait:
+  - 45
+- print:
+  - モニカ
+  - こんなことではいかんな……
+- touch: *o0
+- choice:
+  - 何か困ってるの？
+  - 2
+- tag:
+  - 2
+- focus:
+  - 105311
+- bust:
+  - 105311
+  - 0
+- vo:
+  - vo_adv_1142001_003
+- face:
+  - 105311
+  - 4
+- print:
+  - モニカ
+  - 困っていると言うより、
+- wait:
+  - 45
+- print:
+  - モニカ
+  - 悩んでいるというべきか。
+- wait:
+  - 75
+- print:
+  - モニカ
+  - >2
+
+- face:
+  - 105311
+  - 1
+- print:
+  - モニカ
+  - よし、
+- wait:
+  - 30
+- print:
+  - モニカ
+  - ここで会ったのも何かの縁だ、
+- wait:
+  - 45
+- print:
+  - モニカ
+  - 少し話を聞いてくれるだろうか。
+- touch: *o0
+- focus:
+  - 105311
+- bust:
+  - 105311
+  - 0
+- vo:
+  - vo_adv_1142001_004
+- face:
+  - 105311
+  - 1
+- print:
+  - モニカ
+  - 知っての通り
+- wait:
+  - 20
+- print:
+  - モニカ
+  - 私は軍人にして魔法少女、
+- wait:
+  - 60
+- print:
+  - モニカ
+  - >2-
+
+    魔法提督ラブリー★モニカだ。
+- touch: *o0
+- focus:
+  - 105311
+- bust:
+  - 105311
+  - 0
+- vo:
+  - vo_adv_1142001_005
+- face:
+  - 105311
+  - 4
+- print:
+  - モニカ
+  - だが、
+- wait:
+  - 30
+- print:
+  - モニカ
+  - 思ったのだ。
+- wait:
+  - 35
+- print:
+  - モニカ
+  - >2-
+
+    私にはまだ、
+- wait:
+  - 35
+- print:
+  - モニカ
+  - 魔法提督を名乗るには
+- wait:
+  - 45
+- print:
+  - モニカ
+  - 欠けているものがある。
+- touch: *o0
+- focus:
+  - 105311
+- bust:
+  - 105311
+  - 0
+- vo:
+  - vo_adv_1142001_006
+- face:
+  - 105311
+  - 1
+- print:
+  - モニカ
+  - '{0}、'
+- wait:
+  - 25
+- print:
+  - モニカ
+  - 何だか分かるか？
+- touch: *o0
+- choice:
+  - 背の高さ？
+  - 3
+- choice:
+  - ヒゲでは？
+  - 4
+- tag:
+  - 3
+- focus:
+  - 105311
+- bust:
+  - 105311
+  - 0
+- vo:
+  - vo_adv_1142001_007
+- face:
+  - 105311
+  - 3
+- pop:
+  - 105311
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - モニカ
+  - 違う！
+- wait:
+  - 40
+- print:
+  - モニカ
+  - >2
+
+- face:
+  - 105311
+  - 4
+- print:
+  - モニカ
+  - ……いや、
+- wait:
+  - 20
+- print:
+  - モニカ
+  - 当たらずといえども遠からず、
+- wait:
+  - 60
+- print:
+  - モニカ
+  - か？
+- wait:
+  - 35
+- print:
+  - モニカ
+  - >2
+
+- face:
+  - 105311
+  - 1
+- print:
+  - モニカ
+  - だが
+- wait:
+  - 20
+- print:
+  - モニカ
+  - 私はすぐに成長するから、
+- wait:
+  - 40
+- print:
+  - モニカ
+  - それはいいのだ！
+- touch: *o0
+- goto:
+  - 5
+- tag:
+  - 4
+- focus:
+  - 105311
+- bust:
+  - 105311
+  - 0
+- vo:
+  - vo_adv_1142001_008
+- face:
+  - 105311
+  - 3
+- emotion:
+  - anger1_R
+  - 105311
+  - 100
+  - 470
+  - se_adv_emote_anger_01
+- print:
+  - モニカ
+  - 大間違いだ！
+- wait:
+  - 45
+- print:
+  - モニカ
+  - >2-
+
+    私にヒゲを生やして
+- wait:
+  - 25
+- print:
+  - モニカ
+  - どうするのだ！
+- wait:
+  - 45
+- print:
+  - モニカ
+  - >2
+
+- face:
+  - 105311
+  - 6
+- print:
+  - モニカ
+  - ……いや、
+- wait:
+  - 40
+- print:
+  - モニカ
+  - ヒゲか……
+- wait:
+  - 55
+- print:
+  - モニカ
+  - ある意味では正しい、
+- wait:
+  - 50
+- print:
+  - モニカ
+  - のかもしれん。
+- touch: *o0
+- tag:
+  - 5
+- focus:
+  - 105311
+- bust:
+  - 105311
+  - 0
+- vo:
+  - vo_adv_1142001_009
+- face:
+  - 105311
+  - 1
+- print:
+  - モニカ
+  - 答えは
+- wait:
+  - 30
+- print:
+  - モニカ
+  - 威厳だ。
+- touch: *o0
+- focus:
+  - 105311
+- bust:
+  - 105311
+  - 0
+- vo:
+  - vo_adv_1142001_010
+- face:
+  - 105311
+  - 1
+- print:
+  - モニカ
+  - 提督にとって、
+- wait:
+  - 25
+- print:
+  - モニカ
+  - 誰もが認めるほどの強さや、
+- wait:
+  - 40
+- print:
+  - モニカ
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - モニカ
+  - 優れた指揮能力は必要不可欠。
+- wait:
+  - 60
+- print:
+  - モニカ
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - モニカ
+  - それなくして大艦隊など率いることはできない。
+- touch: *o0
+- focus:
+  - 105311
+- bust:
+  - 105311
+  - 0
+- vo:
+  - vo_adv_1142001_011
+- face:
+  - 105311
+  - 4
+- print:
+  - モニカ
+  - だがな、
+- wait:
+  - 35
+- print:
+  - モニカ
+  - それらを兼ね備えていても、
+- wait:
+  - 35
+- print:
+  - モニカ
+  - >2-
+
+    威厳なき上官に
+- wait:
+  - 40
+- print:
+  - モニカ
+  - 部下は果たしてついてくるだろうか？
+- wait:
+  - 55
+- print:
+  - モニカ
+  - >2
+
+- face:
+  - 105311
+  - 3
+- nod:
+  - 105311
+- print:
+  - モニカ
+  - いや！　
+- wait:
+  - 25
+- print:
+  - モニカ
+  - 威厳なき上官は上官にあらず、
+- wait:
+  - 55
+- print:
+  - モニカ
+  - なめられて終わりだ。
+- touch: *o0
+- focus:
+  - 105311
+- bust:
+  - 105311
+  - 0
+- vo:
+  - vo_adv_1142001_012
+- face:
+  - 105311
+  - 4
+- print:
+  - モニカ
+  - それを私は
+- wait:
+  - 40
+- print:
+  - モニカ
+  - ランドソルに来て
+- wait:
+  - 30
+- print:
+  - モニカ
+  - 嫌というほど味わったからな。
+- wait:
+  - 85
+- print:
+  - モニカ
+  - >2
+
+- face:
+  - 105311
+  - 3
+- print:
+  - モニカ
+  - ……私は提督たりうるだけの威厳がほしい。
+- wait:
+  - 60
+- print:
+  - モニカ
+  - >2
+
+- face:
+  - 105311
+  - 1
+- print:
+  - モニカ
+  - だから、
+- wait:
+  - 25
+- print:
+  - モニカ
+  - どうすれば威厳が身につくのか、
+- wait:
+  - 40
+- print:
+  - モニカ
+  - ずっと
+- wait:
+  - 20
+- print:
+  - モニカ
+  - 考えていたのだ。
+- touch: *o0
+- focus:
+  - 105311
+- bust:
+  - 105311
+  - 0
+- vo:
+  - vo_adv_1142001_013
+- face:
+  - 105311
+  - 4
+- print:
+  - モニカ
+  - 難しい任務をこなせば
+- wait:
+  - 50
+- print:
+  - モニカ
+  - 羨望の眼差しを得られるだろうか、
+- wait:
+  - 50
+- print:
+  - モニカ
+  - >2
+
+- face:
+  - 105311
+  - 6
+- print:
+  - モニカ
+  - あるいは
+- wait:
+  - 25
+- print:
+  - モニカ
+  - 多くの人を助ければ
+- wait:
+  - 35
+- print:
+  - モニカ
+  - 尊敬の念を
+- wait:
+  - 30
+- print:
+  - モニカ
+  - 集められるのか。
+- wait:
+  - 55
+- print:
+  - モニカ
+  - >2
+
+- face:
+  - 105311
+  - 4
+- print:
+  - モニカ
+  - はてさて、
+- wait:
+  - 40
+- print:
+  - モニカ
+  - どうしたものか……
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+- window_visible:
+  - FALSE
+- fadeout:
+  - 105311
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 211
+  - LC
+  - 4
+- chara_full:
+  - 411
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M244
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1142001_014
+- face:
+  - 211
+  - 4
+- pop:
+  - 211
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - 子ども１
+  - ねーねー
+- wait:
+  - 20
+- print:
+  - 子ども１
+  - ママー、
+- wait:
+  - 25
+- print:
+  - 子ども１
+  - 魔法少女ソーセージ買って買ってぇ！
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1142001_015
+- face:
+  - 411
+  - 3
+- print:
+  - 母親
+  - もう、
+- wait:
+  - 20
+- print:
+  - 母親
+  - この前買ってあげたでしょ？
+- touch: *o0
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1142001_016
+- face:
+  - 211
+  - 3
+- print:
+  - 子ども１
+  - この前はノーマルカードしか出なかったんだもん！
+- wait:
+  - 55
+- print:
+  - 子ども１
+  - >2
+
+- face:
+  - 211
+  - 4
+- print:
+  - 子ども１
+  - 私もみんなと同じレアカードがほしいの！
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1142001_017
+- face:
+  - 411
+  - 4
+- print:
+  - 母親
+  - 仕方ないわねぇ。
+- wait:
+  - 60
+- face:
+  - 411
+  - 1
+- print:
+  - 母親
+  - それじゃあ
+- wait:
+  - 20
+- print:
+  - 母親
+  - 帰ったらお部屋のお片づけをして、
+- wait:
+  - 40
+- print:
+  - 母親
+  - >2-
+
+    ご飯は好き嫌いせずにちゃんと食べるのよ？
+- wait:
+  - 50
+- print:
+  - 母親
+  - >2
+
+- face:
+  - 411
+  - 2
+- print:
+  - 母親
+  - そうしたら買ってあげるわ。
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1142001_018
+- face:
+  - 411
+  - 2
+- print:
+  - 母親
+  - カードもいいけど、
+- wait:
+  - 30
+- print:
+  - 母親
+  - ちゃんといい子にしてないと
+- wait:
+  - 30
+- print:
+  - 母親
+  - >2-
+
+    魔法少女に嫌われちゃうわよ？
+- touch: *o0
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1142001_019
+- face:
+  - 211
+  - 6
+- print:
+  - 子ども１
+  - わ、
+- wait:
+  - 10
+- nod:
+  - 211
+- print:
+  - 子ども１
+  - 分かった、
+- wait:
+  - 10
+- print:
+  - 子ども１
+  - いい子にする！
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 105311
+  - C
+  - 2
+- fadein:
+  - 105311
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M65
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 105311
+- bust:
+  - 105311
+  - 0
+- vo:
+  - vo_adv_1142001_020
+- face:
+  - 105311
+  - 2
+- print:
+  - モニカ
+  - ふふ、
+- wait:
+  - 50
+- print:
+  - モニカ
+  - かわいいものだな。
+- wait:
+  - 60
+- print:
+  - モニカ
+  - >2
+
+- face:
+  - 105311
+  - 1
+- print:
+  - モニカ
+  - 魔法少女が
+- wait:
+  - 30
+- print:
+  - モニカ
+  - 子どもたちの心を掴んでいるようで、
+- wait:
+  - 45
+- print:
+  - モニカ
+  - うれしい限りだ。
+- touch: *o0
+- focus:
+  - 105311
+- bust:
+  - 105311
+  - 0
+- vo:
+  - vo_adv_1142001_021
+- face:
+  - 105311
+  - 6
+- emotion:
+  - notice1_L
+  - 105311
+  - -80
+  - 503
+  - se_adv_emote_common_01
+- print:
+  - モニカ
+  - ……ん？　
+- wait:
+  - 45
+- print:
+  - モニカ
+  - 子どもの心……
+- wait:
+  - 60
+- print:
+  - モニカ
+  - >2
+
+- face:
+  - 105311
+  - 2
+- print:
+  - モニカ
+  - そうか、
+- wait:
+  - 15
+- print:
+  - モニカ
+  - これだ！　
+- wait:
+  - 30
+- print:
+  - モニカ
+  - これだったのだ！
+- touch: *o0
+- focus:
+  - 105311
+- bust:
+  - 105311
+  - 0
+- vo:
+  - vo_adv_1142001_022
+- face:
+  - 105311
+  - 1
+- print:
+  - モニカ
+  - 貴公、
+- wait:
+  - 20
+- print:
+  - モニカ
+  - 今すぐモーラを連れてきてくれるか！
+- wait:
+  - 35
+- print:
+  - モニカ
+  - >2-
+
+    非常招集だ！　
+- wait:
+  - 30
+- print:
+  - モニカ
+  - 急ぎで頼む！
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+- window_visible:
+  - false
+- fadeout:
+  - 105311
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500890
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_outdoors_day_01
+- chara_full:
+  - 114211
+  - LC
+  - 3
+- chara_full:
+  - 4211
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M129_NoB_02
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_1142001_023
+- face:
+  - 114211
+  - 3
+- print:
+  - ラブリー★モニカ
+  - みなの者、
+- wait:
+  - 25
+- print:
+  - ラブリー★モニカ
+  - よく集まってくれた。
+- wait:
+  - 45
+- print:
+  - ラブリー★モニカ
+  - >2-
+
+    これより
+- wait:
+  - 20
+- print:
+  - ラブリー★モニカ
+  - 緊急の魔法提督会議をはじめる。
+- touch: *o0
+- focus:
+  - 4211
+- bust:
+  - 4211
+  - 0
+- vo:
+  - vo_adv_1142001_024
+- face:
+  - 4211
+  - 6
+- print:
+  - モーラ
+  - その前にモニカちゃん、
+- wait:
+  - 55
+- print:
+  - モーラ
+  - >2-
+
+    ボク
+- wait:
+  - 25
+- print:
+  - モーラ
+  - いきなり騎士さまに鞄に詰められて運ばれてきたんだけど、
+- wait:
+  - 65
+- print:
+  - モーラ
+  - >2-
+
+    どういうことなの……？
+- touch: *o0
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_1142001_025
+- face:
+  - 114211
+  - 1
+- print:
+  - ラブリー★モニカ
+  - 本日の議題は──
+- wait:
+  - 30
+- print:
+  - ラブリー★モニカ
+  - >2-
+
+    「魔法提督に相応しい
+- wait:
+  - 45
+- print:
+  - ラブリー★モニカ
+  - 威厳を得る方法」だ。
+- touch: *o0
+- focus:
+  - 4211
+- bust:
+  - 4211
+  - 0
+- vo:
+  - vo_adv_1142001_026
+- face:
+  - 4211
+  - 8
+- emotion:
+  - sweat1_R
+  - 4211
+  - 55
+  - 440
+  - se_adv_emote_sweat_01
+- print:
+  - モーラ
+  - あっ、
+- wait:
+  - 20
+- print:
+  - モーラ
+  - これ問答無用なヤツだ。
+- wait:
+  - 55
+- print:
+  - モーラ
+  - >2
+
+- face:
+  - 4211
+  - 1
+- print:
+  - モーラ
+  - えっと……
+- wait:
+  - 25
+- print:
+  - モーラ
+  - 威厳を
+- wait:
+  - 15
+- print:
+  - モーラ
+  - 得る方法……？
+- touch: *o0
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_1142001_027
+- face:
+  - 114211
+  - 1
+- print:
+  - ラブリー★モニカ
+  - 私は先ほど、
+- wait:
+  - 30
+- print:
+  - ラブリー★モニカ
+  - 子どもたちの間で
+- wait:
+  - 30
+- print:
+  - ラブリー★モニカ
+  - 魔法少女が人気なのを目の当たりにした。
+- wait:
+  - 70
+- print:
+  - ラブリー★モニカ
+  - >2
+
+- face:
+  - 114211
+  - 2
+- print:
+  - ラブリー★モニカ
+  - 夢や希望に満ちた子どもたちに人気があるというのは
+- wait:
+  - 45
+- print:
+  - ラブリー★モニカ
+  - >2-
+
+    素晴らしいことだ。
+- wait:
+  - 30
+- face:
+  - 114211
+  - 1
+- print:
+  - ラブリー★モニカ
+  - そうだろう、
+- wait:
+  - 5
+- print:
+  - ラブリー★モニカ
+  - モーラ？
+- touch: *o0
+- focus:
+  - 4211
+- bust:
+  - 4211
+  - 0
+- vo:
+  - vo_adv_1142001_028
+- face:
+  - 4211
+  - 1
+- nod:
+  - 4211
+- print:
+  - モーラ
+  - うん、
+- wait:
+  - 20
+- print:
+  - モーラ
+  - まあそうだね。
+- wait:
+  - 30
+- print:
+  - モーラ
+  - >2
+
+- face:
+  - 4211
+  - 6
+- print:
+  - モーラ
+  - えっと
+- wait:
+  - 10
+- print:
+  - モーラ
+  - モニカちゃん、
+- wait:
+  - 25
+- print:
+  - モーラ
+  - 話が
+- wait:
+  - 20
+- print:
+  - モーラ
+  - 全然見えてこないんだけど……
+- touch: *o0
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_1142001_029
+- face:
+  - 114211
+  - 6
+- print:
+  - ラブリー★モニカ
+  - 分からんのか？
+- wait:
+  - 50
+- print:
+  - ラブリー★モニカ
+  - >2
+
+- face:
+  - 114211
+  - 1
+- bgm:
+  - stop
+  - 5.5
+  - 1
+- print:
+  - ラブリー★モニカ
+  - では
+- wait:
+  - 20
+- print:
+  - ラブリー★モニカ
+  - そのふわもこボディでも理解できるように説明しよう。
+- touch: *o0
+- face:
+  - 4211
+  - 1
+- bgm:
+  - bgm_M422_02
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_1142001_030
+- face:
+  - 114211
+  - 1
+- print:
+  - ラブリー★モニカ
+  - 知っての通り
+- wait:
+  - 30
+- print:
+  - ラブリー★モニカ
+  - 私は提督たる資質は
+- wait:
+  - 45
+- print:
+  - ラブリー★モニカ
+  - 十分備えた大人の女性だが、
+- wait:
+  - 70
+- print:
+  - ラブリー★モニカ
+  - >2
+
+- face:
+  - 114211
+  - 4
+- print:
+  - ラブリー★モニカ
+  - いかんせん
+- wait:
+  - 30
+- print:
+  - ラブリー★モニカ
+  - 威厳不足は否めない。
+- touch: *o0
+- focus:
+  - 4211
+- bust:
+  - 4211
+  - 0
+- vo:
+  - vo_adv_1142001_031
+- face:
+  - 4211
+  - 7
+- print:
+  - モーラ
+  - さすがモニカちゃん、
+- wait:
+  - 30
+- print:
+  - モーラ
+  - >2-
+
+    自信があふれつつも謙虚だね！
+- touch: *o0
+- face:
+  - 4211
+  - 1
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_1142001_032
+- face:
+  - 114211
+  - 1
+- print:
+  - ラブリー★モニカ
+  - そこで子どもたちの出番だ。
+- wait:
+  - 55
+- print:
+  - ラブリー★モニカ
+  - >2
+
+- face:
+  - 114211
+  - 2
+- print:
+  - ラブリー★モニカ
+  - まずは彼らに
+- wait:
+  - 30
+- print:
+  - ラブリー★モニカ
+  - 魔法少女の偉大さ、
+- wait:
+  - 35
+- print:
+  - ラブリー★モニカ
+  - 素晴らしさを伝える。
+- wait:
+  - 45
+- print:
+  - ラブリー★モニカ
+  - >2
+
+- face:
+  - 114211
+  - 1
+- print:
+  - ラブリー★モニカ
+  - 大人と違いピュアな彼らには、
+- wait:
+  - 45
+- print:
+  - ラブリー★モニカ
+  - 私が威厳ある存在に見えるだろう。
+- touch: *o0
+- focus:
+  - 4211
+- bust:
+  - 4211
+  - 0
+- vo:
+  - vo_adv_1142001_033
+- face:
+  - 4211
+  - 1
+- nod:
+  - 4211
+- print:
+  - モーラ
+  - うん……
+- wait:
+  - 20
+- print:
+  - モーラ
+  - それでそれで？
+- touch: *o0
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_1142001_034
+- face:
+  - 114211
+  - 2
+- print:
+  - ラブリー★モニカ
+  - やがて子どもたちを通じて、
+- wait:
+  - 40
+- print:
+  - ラブリー★モニカ
+  - >2-
+
+    魔法提督ラブリー★モニカの存在は
+- wait:
+  - 45
+- print:
+  - ラブリー★モニカ
+  - その
+- wait:
+  - 15
+- print:
+  - ラブリー★モニカ
+  - 親や家族にも広がる。
+- touch: *o0
+- face:
+  - 4211
+  - 6
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_1142001_035
+- face:
+  - 114211
+  - 1
+- nod:
+  - 114211
+- print:
+  - ラブリー★モニカ
+  - するとどうだ、
+- wait:
+  - 40
+- print:
+  - ラブリー★モニカ
+  - 大人たちの目に映るのは
+- wait:
+  - 35
+- print:
+  - ラブリー★モニカ
+  - もうちびっ子ではない、
+- wait:
+  - 45
+- print:
+  - ラブリー★モニカ
+  - >2-
+
+    威厳溢れる
+- wait:
+  - 30
+- print:
+  - ラブリー★モニカ
+  - 魔法提督の姿なのだ！
+- wait:
+  - 75
+- print:
+  - ラブリー★モニカ
+  - >2
+
+- face:
+  - 114211
+  - 2
+- print:
+  - ラブリー★モニカ
+  - うむ、
+- wait:
+  - 15
+- print:
+  - ラブリー★モニカ
+  - 我ながら完璧な計画だな！
+- touch: *o0
+- focus:
+  - 4211
+- bust:
+  - 4211
+  - 0
+- vo:
+  - vo_adv_1142001_036
+- face:
+  - 4211
+  - 8
+- print:
+  - モーラ
+  - う、
+- wait:
+  - 20
+- print:
+  - モーラ
+  - う～ん……
+- wait:
+  - 30
+- print:
+  - モーラ
+  - 完璧……？
+- touch: *o0
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_1142001_037
+- face:
+  - 114211
+  - 6
+- print:
+  - ラブリー★モニカ
+  - どうしたモーラ、
+- wait:
+  - 30
+- print:
+  - ラブリー★モニカ
+  - なにか意見でもあるのか？
+- wait:
+  - 50
+- print:
+  - ラブリー★モニカ
+  - >2
+
+- face:
+  - 114211
+  - 1
+- print:
+  - ラブリー★モニカ
+  - 発言があるなら挙手するがいい。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 4211
+  - C
+  - 6
+- fadein:
+  - 4211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 4211
+- bust:
+  - 4211
+  - 0
+- vo:
+  - vo_adv_1142001_038
+- face:
+  - 4211
+  - 6
+- print:
+  - モーラ
+  - ……ねぇ騎士さま。
+- wait:
+  - 45
+- print:
+  - モーラ
+  - >2-
+
+    本当にこれでいいのかなぁ？
+- touch: *o0
+- choice:
+  - やってみよう。
+  - 6
+- tag:
+  - 6
+- focus:
+  - 4211
+- bust:
+  - 4211
+  - 0
+- vo:
+  - vo_adv_1142001_039
+- face:
+  - 4211
+  - 6
+- print:
+  - モーラ
+  - うん……
+- wait:
+  - 25
+- face:
+  - 4211
+  - 1
+- print:
+  - モーラ
+  - 騎士さまがそう言うなら……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 4211
+  - 30
+- chara_full:
+  - 114211
+  - C
+  - 2
+- fadein:
+  - 114211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_1142001_040
+- face:
+  - 114211
+  - 2
+- emotion:
+  - twinkle1_R
+  - 114211
+  - -110
+  - 395
+  - se_adv_emote_twinkle_01
+- print:
+  - ラブリー★モニカ
+  - よし、
+- wait:
+  - 25
+- print:
+  - ラブリー★モニカ
+  - そうと決まれば
+- wait:
+  - 25
+- print:
+  - ラブリー★モニカ
+  - 街へと向かうぞ！
+- wait:
+  - 35
+- print:
+  - ラブリー★モニカ
+  - >2
+
+- face:
+  - 114211
+  - 1
+- print:
+  - ラブリー★モニカ
+  - 魔法提督ラブリー★モニカ、
+- wait:
+  - 35
+- print:
+  - ラブリー★モニカ
+  - 威厳アップ作戦
+- wait:
+  - 30
+- print:
+  - ラブリー★モニカ
+  - 開始だ！
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+- window_visible:
+  - false
+- amb_stop:
+  - 2
+- fadeout_all:
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- amb:
+  - amb_adv_outdoors_day_01
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 211
+  - R
+  - 4
+- chara_full:
+  - 415
+  - C
+  - 4
+- chara_full:
+  - 5411
+  - L
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- se:
+  - se_adv_paper_card_01
+- bgm:
+  - bgm_M323
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1142001_041
+- face:
+  - 211
+  - 4
+- emotion:
+  - gloomy1_R
+  - 211
+  - 20
+  - 490
+  - se_adv_emote_gloomy_01
+- print:
+  - 子ども１
+  - うぅ、
+- wait:
+  - 25
+- print:
+  - 子ども１
+  - またノーマルだ……
+- wait:
+  - 50
+- print:
+  - 子ども１
+  - レアカード出ないよ～……
+- touch: *o0
+- focus:
+  - 415
+- bust:
+  - 415
+  - 0
+- vo:
+  - vo_adv_1142001_042
+- face:
+  - 415
+  - 4
+- print:
+  - 子ども２
+  - ソーセージもたまっちゃったね……
+- wait:
+  - 45
+- print:
+  - 子ども２
+  - >2-
+
+    こんなに食べちゃうと、
+- wait:
+  - 30
+- print:
+  - 子ども２
+  - ごはんが食べられなくなっちゃうよ……
+- touch: *o0
+- focus:
+  - 5411
+- bust:
+  - 5411
+  - 0
+- vo:
+  - vo_adv_1142001_043
+- face:
+  - 5411
+  - 1
+- nod:
+  - 5411
+- print:
+  - 子ども３
+  - ふふん、
+- wait:
+  - 20
+- print:
+  - 子ども３
+  - 情けないわね。
+- wait:
+  - 30
+- print:
+  - 子ども３
+  - あなたは魔法少女に嫌われてるから
+- wait:
+  - 30
+- print:
+  - 子ども３
+  - >2-
+
+    レアカードが来ないのよ。
+- wait:
+  - 45
+- face:
+  - 5411
+  - 2
+- se:
+  - se_adv_paper_card_01
+- print:
+  - 子ども３
+  - 見て！　
+- wait:
+  - 15
+- print:
+  - 子ども３
+  - この美しく輝くカードたちを！
+- touch: *o0
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1142001_044
+- face:
+  - 211
+  - 3
+- print:
+  - 子ども１
+  - 箱買いしただけのくせに……
+- wait:
+  - 100
+- face:
+  - 211
+  - 4
+- print:
+  - 子ども１
+  - でも、
+- wait:
+  - 30
+- print:
+  - 子ども１
+  - こんなに出ないってことは、
+- wait:
+  - 50
+- print:
+  - 子ども１
+  - >2-
+
+    やっぱり魔法少女に嫌われてるのかな～？
+- touch: *o0
+- bgm:
+  - stop
+  - 4
+  - 1
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1142001_045
+- face:
+  - 1
+  - 1
+- print:
+  - ？？？
+  - それは違うぞ、
+- wait:
+  - 20
+- print:
+  - ？？？
+  - 少女よ！
+- touch: *o0
+- face:
+  - 415
+  - 6
+- face:
+  - 5411
+  - 6
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1142001_046
+- face:
+  - 211
+  - 6
+- print:
+  - 子ども１
+  - え？
+- touch: *o0
+- bgm:
+  - bgm_M11_Short
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1142001_047
+- face:
+  - 1
+  - 1
+- print:
+  - ？？？
+  - 愛と希望あるところに
+- wait:
+  - 45
+- print:
+  - ？？？
+  - 魔法少女
+- wait:
+  - 25
+- print:
+  - ？？？
+  - あり！
+- touch: *o0
+- focus:
+  - 5411
+- bust:
+  - 5411
+  - 0
+- vo:
+  - vo_adv_1142001_048
+- face:
+  - 5411
+  - 6
+- print:
+  - 子ども３
+  - だ、
+- wait:
+  - 15
+- pop:
+  - 5411
+- print:
+  - 子ども３
+  - 誰なの！
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- bgm:
+  - bgm_M421_WithIntro
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1142001_049
+- face:
+  - 1
+  - 1
+- print:
+  - ？？？
+  - 望みとあらば
+- wait:
+  - 20
+- print:
+  - ？？？
+  - お見せしよう！
+- wait:
+  - 30
+- print:
+  - ？？？
+  - >2-
+
+    ラブリー！　
+- wait:
+  - 5
+- print:
+  - ？？？
+  - キュアリー！　
+- wait:
+  - 10
+- print:
+  - ？？？
+  - ブレイブリー！
+- wait:
+  - 25
+- print:
+  - ？？？
+  - >2-
+
+    マジカルレベル
+- wait:
+  - 20
+- print:
+  - ？？？
+  - ・インフィニット！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_magical_transform_01
+- effect:
+  - 0099
+- wait:
+  - 55
+- chara_full:
+  - 114211
+  - C
+  - 1
+- fadein:
+  - 114211
+  - 1
+- window_visible:
+  - true
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_1142001_050
+- face:
+  - 114211
+  - 1
+- print:
+  - ラブリー★モニカ
+  - 魔法提督ラブリー★モニカ！
+- wait:
+  - 55
+- print:
+  - ラブリー★モニカ
+  - >2
+
+- face:
+  - 114211
+  - 2
+- print:
+  - ラブリー★モニカ
+  - 空に代わって
+- wait:
+  - 45
+- print:
+  - ラブリー★モニカ
+  - 指揮を
+- wait:
+  - 20
+- print:
+  - ラブリー★モニカ
+  - 執る！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 114211
+  - 30
+- chara_full:
+  - 114211
+  - LC
+  - 1
+- chara_full:
+  - 5411
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 5411
+- bust:
+  - 5411
+  - 0
+- vo:
+  - vo_adv_1142001_051
+- face:
+  - 5411
+  - 6
+- emotion:
+  - exclamation1_R
+  - 5411
+  - -5
+  - 585
+  - se_adv_emote_common_01
+- print:
+  - 子ども３
+  - そ、
+- wait:
+  - 20
+- print:
+  - 子ども３
+  - その格好、
+- wait:
+  - 35
+- print:
+  - 子ども３
+  - ウ、
+- wait:
+  - 10
+- print:
+  - 子ども３
+  - ウソでしょ……？
+- wait:
+  - 25
+- print:
+  - 子ども３
+  - >2-
+
+    本物の、
+- wait:
+  - 35
+- print:
+  - 子ども３
+  - 魔法少女なの？
+- touch: *o0
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_1142001_052
+- face:
+  - 114211
+  - 1
+- nod:
+  - 114211
+- print:
+  - ラブリー★モニカ
+  - もちろん本物だ。
+- wait:
+  - 45
+- print:
+  - ラブリー★モニカ
+  - >2-
+
+    少女よ、
+- wait:
+  - 25
+- print:
+  - ラブリー★モニカ
+  - そのカードを見せてくれないか？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 5411
+  - 30
+- chara_full:
+  - 211
+  - RC
+  - 6
+- fadein:
+  - 211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1142001_053
+- face:
+  - 211
+  - 6
+- print:
+  - 子ども１
+  - え、
+- wait:
+  - 15
+- print:
+  - 子ども１
+  - あ……
+- wait:
+  - 20
+- face:
+  - 211
+  - 1
+- print:
+  - 子ども１
+  - はい！
+- touch: *o0
+- window_visible:
+  - false
+- focus:
+  - 114211:211
+- se:
+  - se_adv_paper_card_01
+- nod:
+  - 211
+- wait:
+  - 30
+- window_visible:
+  - true
+- se:
+  - se_adv_cloth_move_give_01
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_1142001_054
+- face:
+  - 114211
+  - 1
+- print:
+  - ラブリー★モニカ
+  - ラブリー★モニカ、
+- wait:
+  - 70
+- print:
+  - ラブリー★モニカ
+  - と。
+- wait:
+  - 30
+- print:
+  - ラブリー★モニカ
+  - >2
+
+- face:
+  - 114211
+  - 2
+- print:
+  - ラブリー★モニカ
+  - 魔法提督直筆のサインだ。
+- touch: *o0
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_1142001_055
+- face:
+  - 114211
+  - 1
+- print:
+  - ラブリー★モニカ
+  - どうだ、
+- wait:
+  - 30
+- print:
+  - ラブリー★モニカ
+  - この世に一枚しかないノーマルカードだぞ？
+- wait:
+  - 45
+- print:
+  - ラブリー★モニカ
+  - >2
+
+- face:
+  - 114211
+  - 2
+- print:
+  - ラブリー★モニカ
+  - 受け取るがいい！
+- touch: *o0
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1142001_056
+- face:
+  - 211
+  - 6
+- print:
+  - 子ども１
+  - えっ、
+- wait:
+  - 25
+- print:
+  - 子ども１
+  - いいの……！？
+- touch: *o0
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_1142001_057
+- face:
+  - 114211
+  - 2
+- nod:
+  - 114211
+- print:
+  - ラブリー★モニカ
+  - もちろんだ。
+- wait:
+  - 35
+- print:
+  - ラブリー★モニカ
+  - >2
+
+- face:
+  - 114211
+  - 1
+- print:
+  - ラブリー★モニカ
+  - だが
+- wait:
+  - 15
+- print:
+  - ラブリー★モニカ
+  - 一つ
+- wait:
+  - 15
+- print:
+  - ラブリー★モニカ
+  - 約束してくれ。
+- touch: *o0
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_1142001_058
+- face:
+  - 114211
+  - 1
+- print:
+  - ラブリー★モニカ
+  - ノーマルカードだからといって
+- wait:
+  - 40
+- print:
+  - ラブリー★モニカ
+  - 残念に思わないでほしい。
+- wait:
+  - 45
+- print:
+  - ラブリー★モニカ
+  - >2-
+
+    どんなものにも意味はある。
+- touch: *o0
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_1142001_059
+- face:
+  - 114211
+  - 2
+- print:
+  - ラブリー★モニカ
+  - どんなときも
+- wait:
+  - 30
+- print:
+  - ラブリー★モニカ
+  - 愛と希望を持って、
+- wait:
+  - 20
+- print:
+  - ラブリー★モニカ
+  - 生きてゆくのだ！
+- touch: *o0
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1142001_060
+- face:
+  - 211
+  - 6
+- print:
+  - 子ども１
+  - うっ、
+- wait:
+  - 20
+- face:
+  - 211
+  - 1
+- nod:
+  - 211
+- print:
+  - 子ども１
+  - うん……！
+- wait:
+  - 30
+- print:
+  - 子ども１
+  - >2-
+
+    ありがとうラブリー★モニカ！
+- wait:
+  - 40
+- print:
+  - 子ども１
+  - >2
+
+- face:
+  - 211
+  - 2
+- print:
+  - 子ども１
+  - これからはどんなカードでも大切にする……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 114211
+  - C
+  - 1
+- se:
+  - se_adv_cloth_move_give_01
+- fadein:
+  - 114211
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 8
+  - 1
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_1142001_061
+- face:
+  - 114211
+  - 1
+- print:
+  - ラブリー★モニカ
+  - そして
+- wait:
+  - 30
+- print:
+  - ラブリー★モニカ
+  - このソーセージも、
+- wait:
+  - 30
+- print:
+  - ラブリー★モニカ
+  - >2-
+
+    残すのは勿体ないぞ。
+- wait:
+  - 60
+- print:
+  - ラブリー★モニカ
+  - >2-
+
+    愛と希望で、
+- wait:
+  - 40
+- nod:
+  - 114211
+- se:
+  - se_adv_eating_01
+- bgm:
+  - bgm_M12
+- print:
+  - ラブリー★モニカ
+  - もぐもぐ……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 114211
+  - 30
+- chara_full:
+  - 415
+  - RC
+  - 6
+- chara_full:
+  - 5411
+  - LC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 415
+- bust:
+  - 415
+  - 0
+- vo:
+  - vo_adv_1142001_062
+- face:
+  - 415
+  - 6
+- emotion:
+  - notice1_L
+  - 415
+  - -40
+  - 465
+  - se_adv_emote_common_01
+- print:
+  - 子ども２
+  - わあ、
+- wait:
+  - 20
+- print:
+  - 子ども２
+  - あっという間にソーセージがなくなってくよ！
+- touch: *o0
+- focus:
+  - 5411
+- bust:
+  - 5411
+  - 0
+- vo:
+  - vo_adv_1142001_063
+- face:
+  - 5411
+  - 6
+- print:
+  - 子ども３
+  - こ、
+- wait:
+  - 20
+- print:
+  - 子ども３
+  - これが本物の魔法少女、
+- wait:
+  - 45
+- print:
+  - 子ども３
+  - なのね……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 114211
+  - C
+  - 2
+- se:
+  - se_adv_cloth_move_normal_01
+- fadein:
+  - 114211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_1142001_064
+- face:
+  - 114211
+  - 2
+- nod:
+  - 114211
+- print:
+  - ラブリー★モニカ
+  - ふぅ、
+- wait:
+  - 50
+- print:
+  - ラブリー★モニカ
+  - ごちそうさま。
+- wait:
+  - 65
+- print:
+  - ラブリー★モニカ
+  - >2
+
+- face:
+  - 114211
+  - 1
+- print:
+  - ラブリー★モニカ
+  - さて諸君！　
+- wait:
+  - 30
+- print:
+  - ラブリー★モニカ
+  - 魔法少女は好きか？
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1142001_065
+- face:
+  - 1
+  - 1
+- print:
+  - 子どもたち
+  - はい、
+- wait:
+  - 15
+- print:
+  - 子どもたち
+  - 大好きです！
+- touch: *o0
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_1142001_066
+- face:
+  - 114211
+  - 2
+- print:
+  - ラブリー★モニカ
+  - ふふ、
+- wait:
+  - 40
+- print:
+  - ラブリー★モニカ
+  - みんないい目をしているな。
+- wait:
+  - 60
+- print:
+  - ラブリー★モニカ
+  - >2
+
+- face:
+  - 114211
+  - 1
+- print:
+  - ラブリー★モニカ
+  - そんな諸君たちに
+- wait:
+  - 30
+- print:
+  - ラブリー★モニカ
+  - 私が
+- wait:
+  - 20
+- print:
+  - ラブリー★モニカ
+  - 魔法少女というものを
+- wait:
+  - 30
+- print:
+  - ラブリー★モニカ
+  - とくと教えてやろう。
+- touch: *o0
+- focus:
+  - 211
+- bust:
+  - 211
+  - 1
+- vo:
+  - vo_adv_1142001_067
+- face:
+  - 211
+  - 6
+- print:
+  - 子ども１
+  - ホ、
+- wait:
+  - 15
+- print:
+  - 子ども１
+  - ホントに？　
+- wait:
+  - 20
+- face:
+  - 211
+  - 2
+- print:
+  - 子ども１
+  - やったー！
+- touch: *o0
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_1142001_068
+- face:
+  - 114211
+  - 1
+- print:
+  - ラブリー★モニカ
+  - それでは少女たちよ、
+- wait:
+  - 45
+- print:
+  - ラブリー★モニカ
+  - 私のことは
+- wait:
+  - 35
+- print:
+  - ラブリー★モニカ
+  - 提督と呼ぶがいい！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 114211
+  - 30
+- chara_full:
+  - 211
+  - R
+  - 6
+- chara_full:
+  - 415
+  - C
+  - 6
+- chara_full:
+  - 5411
+  - L
+  - 6
+- fadein_all:
+  - 30
+- focus:
+  - 211:415:5411
+- window_visible:
+  - true
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1142001_069
+- multi_talk:
+  - 211:415:5411
+- face:
+  - 1
+  - 6
+- print:
+  - 子どもたち
+  - は、
+- wait:
+  - 10
+- nod:
+  - 211:415:5411
+- print:
+  - 子どもたち
+  - はい！　
+- wait:
+  - 10
+- print:
+  - 子どもたち
+  - 提督！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 114211
+  - C
+  - 2
+- fadein:
+  - 114211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_1142001_070
+- face:
+  - 114211
+  - 2
+- emotion:
+  - twinkle1_R
+  - 114211
+  - -110
+  - 395
+  - se_adv_emote_twinkle_01
+- print:
+  - ラブリー★モニカ
+  - 提督、
+- wait:
+  - 45
+- print:
+  - ラブリー★モニカ
+  - ああ……
+- wait:
+  - 30
+- print:
+  - ラブリー★モニカ
+  - やはりいい響きだ。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 114211
+  - 30
+- chara_full:
+  - 114211
+  - LC
+  - 2
+- chara_full:
+  - 211
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1142001_071
+- face:
+  - 211
+  - 6
+- print:
+  - 子ども１
+  - あの、
+- wait:
+  - 35
+- print:
+  - 子ども１
+  - 提督……？
+- touch: *o0
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_1142001_072
+- face:
+  - 114211
+  - 6
+- print:
+  - ラブリー★モニカ
+  - はっ……
+- wait:
+  - 35
+- face:
+  - 114211
+  - 1
+- nod:
+  - 114211
+- print:
+  - ラブリー★モニカ
+  - ゴホン、
+- wait:
+  - 30
+- print:
+  - ラブリー★モニカ
+  - 失礼。
+- wait:
+  - 30
+- print:
+  - ラブリー★モニカ
+  - >2-
+
+    では
+- wait:
+  - 20
+- print:
+  - ラブリー★モニカ
+  - 大事なことを伝えよう。
+- wait:
+  - 55
+- print:
+  - ラブリー★モニカ
+  - 魔法は
+- wait:
+  - 25
+- print:
+  - ラブリー★モニカ
+  - 確かに強力な力だが、
+- wait:
+  - 45
+- print:
+  - ラブリー★モニカ
+  - >2-
+
+    それだけでは
+- wait:
+  - 20
+- print:
+  - ラブリー★モニカ
+  - 強い魔法少女とは言えない。
+- touch: *o0
+- face:
+  - 211
+  - 1
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_1142001_073
+- face:
+  - 114211
+  - 1
+- print:
+  - ラブリー★モニカ
+  - 魔法を活かし、
+- wait:
+  - 30
+- print:
+  - ラブリー★モニカ
+  - そして
+- wait:
+  - 20
+- print:
+  - ラブリー★モニカ
+  - いざというときに頼れるのは
+- wait:
+  - 35
+- print:
+  - ラブリー★モニカ
+  - >2-
+
+    己の肉体、
+- wait:
+  - 40
+- print:
+  - ラブリー★モニカ
+  - そして
+- wait:
+  - 20
+- print:
+  - ラブリー★モニカ
+  - 知識や経験だ。
+- wait:
+  - 45
+- print:
+  - ラブリー★モニカ
+  - >2-
+
+    諸君らにはそれを教えてやろう。
+- touch: *o0
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_1142001_074
+- face:
+  - 114211
+  - 2
+- print:
+  - ラブリー★モニカ
+  - さあ、
+- wait:
+  - 30
+- print:
+  - ラブリー★モニカ
+  - まずは
+- wait:
+  - 25
+- print:
+  - ラブリー★モニカ
+  - 魔法少女の心得からだ！
+- wait:
+  - 55
+- print:
+  - ラブリー★モニカ
+  - >2-
+
+    じっくりと聞くがいい！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 211
+  - 30
+- chara_full:
+  - 415
+  - RC
+  - 2
+- fadein:
+  - 415
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 415
+- bust:
+  - 415
+  - 0
+- vo:
+  - vo_adv_1142001_075
+- face:
+  - 415
+  - 2
+- print:
+  - 子ども２
+  - わー
+- wait:
+  - 30
+- print:
+  - 子ども２
+  - 面白そう！
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500030
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_town_day_01
+- chara_full:
+  - 114211
+  - LC
+  - 1
+- chara_full:
+  - 211
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M163_1A
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_1142001_076
+- face:
+  - 114211
+  - 1
+- print:
+  - ラブリー★モニカ
+  - お菓子というのは奥が深い。
+- wait:
+  - 60
+- print:
+  - ラブリー★モニカ
+  - 一人で食べるのもいいが、
+- wait:
+  - 40
+- print:
+  - ラブリー★モニカ
+  - >2-
+
+    みんなで食べるともっと美味しさが増すのだ。
+- wait:
+  - 60
+- face:
+  - 114211
+  - 2
+- print:
+  - ラブリー★モニカ
+  - >-
+    種類がたくさんあるものを
+
+    買って、
+- wait:
+  - 30
+- print:
+  - ラブリー★モニカ
+  - 分け合いながら食べるのがお得だぞ！
+- touch: *o0
+- face:
+  - 114211
+  - 1
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1142001_077
+- face:
+  - 211
+  - 6
+- emotion:
+  - twinkle1_R
+  - 211
+  - -130
+  - 420
+  - se_adv_emote_twinkle_01
+- print:
+  - 子ども１
+  - す、
+- wait:
+  - 25
+- print:
+  - 子ども１
+  - すごい、
+- wait:
+  - 35
+- face:
+  - 211
+  - 2
+- print:
+  - 子ども１
+  - 提督あたまいいー！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500130
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_outdoors_day_01
+- chara_full:
+  - 114211
+  - C
+  - 1
+- fadein:
+  - 114211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_1142001_078
+- face:
+  - 114211
+  - 1
+- print:
+  - ラブリー★モニカ
+  - 敏捷性と
+- wait:
+  - 15
+- print:
+  - ラブリー★モニカ
+  - 持久力を鍛える訓練だ。
+- wait:
+  - 45
+- print:
+  - ラブリー★モニカ
+  - >2
+
+- face:
+  - 114211
+  - 2
+- pop:
+  - 114211
+- print:
+  - ラブリー★モニカ
+  - さあ、
+- wait:
+  - 15
+- print:
+  - ラブリー★モニカ
+  - 私を捕まえてみせろ！
+- touch: *o0
+- face:
+  - 114211
+  - 1
+- window_visible:
+  - false
+- se:
+  - se_adv_step_dirt_run_go_01
+- change:
+  - LC
+  - C
+  - 30
+- fadeout:
+  - 114211
+  - 30
+- chara_full:
+  - 5411
+  - RC
+  - 6
+- se:
+  - se_adv_step_dirt_run_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - RC
+  - 30
+- fadein:
+  - 5411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 5411
+- bust:
+  - 5411
+  - 0
+- vo:
+  - vo_adv_1142001_079
+- face:
+  - 5411
+  - 6
+- print:
+  - 子ども３
+  - ま、
+- wait:
+  - 30
+- print:
+  - 子ども３
+  - 待って提督！　
+- wait:
+  - 35
+- print:
+  - 子ども３
+  - は、
+- wait:
+  - 20
+- print:
+  - 子ども３
+  - 速すぎるわよー！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 5411
+  - 30
+- chara_full:
+  - 114211
+  - LC
+  - 1
+- chara_full:
+  - 415
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_1142001_080
+- face:
+  - 114211
+  - 1
+- print:
+  - ラブリー★モニカ
+  - 疲れたときはしっかりと休むのだ！
+- wait:
+  - 45
+- print:
+  - ラブリー★モニカ
+  - >2
+
+- face:
+  - 114211
+  - 2
+- print:
+  - ラブリー★モニカ
+  - エネルギーを補充するのも忘れずにな！
+- touch: *o0
+- face:
+  - 114211
+  - 1
+- window_visible:
+  - false
+- focus:
+  - 114211:415
+- se:
+  - se_adv_cloth_move_give_01
+- se:
+  - se_adv_drink_02
+- nod:
+  - 114211
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 415
+- bust:
+  - 415
+  - 0
+- vo:
+  - vo_adv_1142001_081
+- face:
+  - 415
+  - 2
+- print:
+  - 子ども２
+  - んー、
+- wait:
+  - 25
+- print:
+  - 子ども２
+  - 走った後のお菓子とジュースおいしいね。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500010
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_town_day_01
+- chara_full:
+  - 114211
+  - C
+  - 2
+- fadein:
+  - 114211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_1142001_082
+- face:
+  - 114211
+  - 2
+- emotion:
+  - twinkle1_R
+  - 114211
+  - -110
+  - 395
+  - se_adv_emote_twinkle_01
+- print:
+  - ラブリー★モニカ
+  - ははははは！
+- wait:
+  - 40
+- print:
+  - ラブリー★モニカ
+  - >2-
+
+    私に続け
+- wait:
+  - 20
+- print:
+  - ラブリー★モニカ
+  - 子どもたち、
+- wait:
+  - 30
+- print:
+  - ラブリー★モニカ
+  - いや、
+- wait:
+  - 30
+- print:
+  - ラブリー★モニカ
+  - わが精鋭たちよ！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1142001_083
+- face:
+  - 1
+  - 1
+- print:
+  - 子どもたち
+  - はい！　
+- wait:
+  - 15
+- print:
+  - 子どもたち
+  - 提督！
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
+- window_visible:
+  - false
+- se_pause:
+  - amb_adv_town_day_01
+  - 2
+- fadeout:
+  - 114211
+  - 30
+- black_out:
+  - 1
+  - 1
+- background:
+  - 500011
+- wait:
+  - 15
+- amb:
+  - amb_adv_outdoors_day_01
+- black_in:
+  - 30
+- chara_full:
+  - 114211
+  - C
+  - 1
+- fadein:
+  - 114211
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M52
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_1142001_084
+- face:
+  - 114211
+  - 1
+- nod:
+  - 114211
+- print:
+  - ラブリー★モニカ
+  - どうだ？　
+- wait:
+  - 25
+- print:
+  - ラブリー★モニカ
+  - 魔法提督ラブリー★モニカ、
+- wait:
+  - 30
+- print:
+  - ラブリー★モニカ
+  - 威厳アップ作戦は！
+- wait:
+  - 45
+- print:
+  - ラブリー★モニカ
+  - >2
+
+- face:
+  - 114211
+  - 2
+- print:
+  - ラブリー★モニカ
+  - 作戦通り、
+- wait:
+  - 30
+- print:
+  - ラブリー★モニカ
+  - 子どもたちは
+- wait:
+  - 20
+- print:
+  - ラブリー★モニカ
+  - 私を提督と慕い
+- wait:
+  - 35
+- print:
+  - ラブリー★モニカ
+  - 尊敬していただろう！
+- wait:
+  - 50
+- print:
+  - ラブリー★モニカ
+  - >2
+
+- face:
+  - 114211
+  - 1
+- print:
+  - ラブリー★モニカ
+  - 魔法提督への第一歩は
+- wait:
+  - 55
+- print:
+  - ラブリー★モニカ
+  - 成功といったところだな。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 114211
+  - 30
+- chara_full:
+  - 4211
+  - C
+  - 6
+- fadein:
+  - 4211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 4211
+- bust:
+  - 4211
+  - 0
+- vo:
+  - vo_adv_1142001_085
+- face:
+  - 4211
+  - 6
+- emotion:
+  - sweat1_R
+  - 4211
+  - 55
+  - 440
+  - se_adv_emote_sweat_01
+- print:
+  - モーラ
+  - ……いや、
+- wait:
+  - 10
+- print:
+  - モーラ
+  - はたから見たら
+- wait:
+  - 30
+- print:
+  - モーラ
+  - >2-
+
+    子どもと一緒に遊んでるようにしか
+- wait:
+  - 30
+- print:
+  - モーラ
+  - 見えなかったよ？
+- touch: *o0
+- choice:
+  - でも、すごく楽しそうだった。
+  - 7
+- tag:
+  - 7
+- focus:
+  - 4211
+- bust:
+  - 4211
+  - 0
+- vo:
+  - vo_adv_1142001_086
+- face:
+  - 4211
+  - 1
+- print:
+  - モーラ
+  - まあ、
+- wait:
+  - 25
+- print:
+  - モーラ
+  - 確かにそうだね。
+- wait:
+  - 35
+- print:
+  - モーラ
+  - >2
+
+- face:
+  - 4211
+  - 6
+- print:
+  - モーラ
+  - 魔法提督への道は
+- wait:
+  - 40
+- print:
+  - モーラ
+  - まだまだ
+- wait:
+  - 30
+- print:
+  - モーラ
+  - 遠そうな気がするよ……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 4211
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - モーラと{0}は温かい目で
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - >2-
+
+    モニカを見守るのだった。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

@@ -1,0 +1,2697 @@
+- title:
+  - ようこそハロウィンパーク
+- outline:
+  - 仕立て屋として注文された衣装を納品しに、ハロウィンパークなる街を訪れたツムギたち。そこで出会ったマツリに誘われ、{0}一行はお化け屋敷を見物しに向かうのだった。
+- background:
+  - 500130
+- amb:
+  - amb_adv_outdoors_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - ようこそハロウィンパーク
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - '{0}は大きな荷物を背負い、'
+- wait:
+  - 30
+- print:
+  - ナレーション
+  - >2-
+
+    ツムギとレイと共に街道を歩いていた。
+- wait:
+  - 15
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 105411
+  - LC
+  - 3
+- chara_full:
+  - 100311
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M71
+  - 0
+  - 0
+  - 1
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050000_000
+- face:
+  - 105411
+  - 3
+- nod:
+  - 105411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ツムギ
+  - ほらほら騎士さん、
+- wait:
+  - 25
+- print:
+  - ツムギ
+  - もっとキビキビ歩いてください。
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050000_001
+- face:
+  - 100311
+  - 1
+- print:
+  - レイ
+  - 急ぐなら、
+- wait:
+  - 25
+- print:
+  - レイ
+  - 私も半分持つとしよう。
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050000_002
+- face:
+  - 105411
+  - 6
+- print:
+  - ツムギ
+  - レイ様に荷物持ちをさせられるわけないじゃないですか！
+- wait:
+  - 55
+- print:
+  - ツムギ
+  - >2
+
+- face:
+  - 105411
+  - 1
+- print:
+  - ツムギ
+  - それに騎士さんにはバイト代を払ってるんですから、
+- wait:
+  - 30
+- print:
+  - ツムギ
+  - >2-
+
+    なんの問題もありませんよ。
+- wait:
+  - 30
+- face:
+  - 105411
+  - 2
+- print:
+  - ツムギ
+  - ね、
+- wait:
+  - 10
+- print:
+  - ツムギ
+  - 騎士さん？
+- touch: *o0
+- choice:
+  - 慣れてる。
+  - 1
+- tag:
+  - 1
+- face:
+  - 105411
+  - 1
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050000_003
+- face:
+  - 100311
+  - 6
+- print:
+  - レイ
+  - 確かに。
+- wait:
+  - 30
+- print:
+  - レイ
+  - キミはよく配達の仕事をしているからね。
+- wait:
+  - 55
+- print:
+  - レイ
+  - >2
+
+- face:
+  - 100311
+  - 1
+- print:
+  - レイ
+  - でも私だって、
+- wait:
+  - 30
+- print:
+  - レイ
+  - 力仕事は得意な方だと思うけど。
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050000_004
+- face:
+  - 105411
+  - 2
+- emotion:
+  - note1_L
+  - 105411
+  - -110
+  - 470
+  - se_adv_emote_note_01
+- print:
+  - ツムギ
+  - レイ様は厚意でついて来てくれてるんだから、
+- wait:
+  - 30
+- print:
+  - ツムギ
+  - >2-
+
+    何もしなくて大丈夫です！
+- wait:
+  - 40
+- print:
+  - ツムギ
+  - >2
+
+- face:
+  - 105411
+  - 1
+- print:
+  - ツムギ
+  - 居てくれるだけで十分助かってますから！
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050000_005
+- face:
+  - 100311
+  - 4
+- print:
+  - レイ
+  - ツムギがそう言うならいいけど……
+- wait:
+  - 60
+- print:
+  - レイ
+  - >2
+
+- face:
+  - 100311
+  - 6
+- print:
+  - レイ
+  - ところで、
+- wait:
+  - 20
+- print:
+  - レイ
+  - 彼が背負っているものは何？
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050000_006
+- face:
+  - 105411
+  - 1
+- nod:
+  - 105411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ツムギ
+  - 私が作った衣装です。
+- wait:
+  - 45
+- print:
+  - ツムギ
+  - >2-
+
+    これからお客さんのところに納品に行くんですよ。
+- touch: *o0
+- bgm:
+  - stop
+  - 7
+  - 1
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050000_007
+- face:
+  - 100311
+  - 6
+- emotion:
+  - question1_R
+  - 100311
+  - 100
+  - 510
+  - se_adv_emote_question_01
+- print:
+  - レイ
+  - 衣装だけで
+- wait:
+  - 20
+- print:
+  - レイ
+  - こんなにたくさん？
+- wait:
+  - 30
+- print:
+  - レイ
+  - >2-
+
+    どこかのギルドの制服でも作ったの？
+- touch: *o0
+- bgm:
+  - bgm_M190
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050000_008
+- face:
+  - 105411
+  - 1
+- print:
+  - ツムギ
+  - 今から行く町は、
+- wait:
+  - 25
+- print:
+  - ツムギ
+  - ハロウィンパークっていう通り名がつくくらい
+- wait:
+  - 40
+- print:
+  - ツムギ
+  - >2-
+
+    ハロウィンが盛んな町なんです。
+- wait:
+  - 35
+- print:
+  - ツムギ
+  - >2
+
+- face:
+  - 105411
+  - 2
+- print:
+  - ツムギ
+  - 今年は大掛かりなパレードをやるみたいで、
+- wait:
+  - 40
+- print:
+  - ツムギ
+  - その衣装です。
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050000_009
+- face:
+  - 105411
+  - 1
+- print:
+  - ツムギ
+  - 前に
+- wait:
+  - 10
+- print:
+  - ツムギ
+  - カルミナのライブで行ったことがあるんですけど、
+- wait:
+  - 30
+- print:
+  - ツムギ
+  - >2
+
+- face:
+  - 105411
+  - 2
+- print:
+  - ツムギ
+  - 町の飾り付けなんかも本当にすごくてびっくりしました。
+- touch: *o0
+- face:
+  - 105411
+  - 1
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050000_010
+- face:
+  - 100311
+  - 1
+- print:
+  - レイ
+  - そんな町から注文が来るなんて、
+- wait:
+  - 50
+- print:
+  - レイ
+  - >2
+
+- face:
+  - 100311
+  - 2
+- print:
+  - レイ
+  - ツムギの腕は
+- wait:
+  - 15
+- print:
+  - レイ
+  - だいぶ認められているんだね。
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050000_011
+- face:
+  - 105411
+  - 6
+- print:
+  - ツムギ
+  - そう、
+- wait:
+  - 30
+- print:
+  - ツムギ
+  - でしょうか……
+- wait:
+  - 50
+- face:
+  - 105411
+  - 1
+- print:
+  - ツムギ
+  - でも、
+- wait:
+  - 25
+- print:
+  - ツムギ
+  - そう言ってもらえるのはうれしいです。
+- wait:
+  - 40
+- print:
+  - ツムギ
+  - >2
+
+- face:
+  - 105411
+  - 2
+- print:
+  - ツムギ
+  - ここ最近はず～～
+- wait:
+  - 30
+- print:
+  - ツムギ
+  - っと部屋にこもって仕事漬けでしたからね！
+- wait:
+  - 40
+- print:
+  - ツムギ
+  - >2-
+
+    頑張ったかいがあります！
+- touch: *o0
+- choice:
+  - よかったね。
+  - 2
+- tag:
+  - 2
+- face:
+  - 100311
+  - 1
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050000_012
+- face:
+  - 105411
+  - 2
+- print:
+  - ツムギ
+  - 騎士さんも素材集め、
+- wait:
+  - 30
+- print:
+  - ツムギ
+  - 手伝っていただいてありがとうございました。
+- wait:
+  - 40
+- print:
+  - ツムギ
+  - >2
+
+- face:
+  - 105411
+  - 1
+- print:
+  - ツムギ
+  - 騎士さんがいなかったら、
+- wait:
+  - 20
+- print:
+  - ツムギ
+  - 今回の依頼はこなせませんでしたよ。
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050000_013
+- face:
+  - 100311
+  - 6
+- print:
+  - レイ
+  - そんなに大変だったのなら、
+- wait:
+  - 30
+- print:
+  - レイ
+  - >2-
+
+    私にも言ってくれればよかったのに。
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050000_014
+- face:
+  - 105411
+  - 6
+- print:
+  - ツムギ
+  - そ、
+- wait:
+  - 15
+- print:
+  - ツムギ
+  - それは！
+- wait:
+  - 30
+- print:
+  - ツムギ
+  - >2
+
+- face:
+  - 105411
+  - 3
+- print:
+  - ツムギ
+  - 騎士さんの方が
+- wait:
+  - 15
+- print:
+  - ツムギ
+  - こき使うにはちょうどよかったってだけです！
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050000_015
+- face:
+  - 100311
+  - 2
+- nod:
+  - 100311
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - レイ
+  - ふふっ、
+- wait:
+  - 20
+- print:
+  - レイ
+  - 分かったよ。
+- wait:
+  - 35
+- print:
+  - レイ
+  - >2
+
+- face:
+  - 100311
+  - 1
+- print:
+  - レイ
+  - それにしても、
+- wait:
+  - 35
+- print:
+  - レイ
+  - やっぱり手持ち無沙汰なのは落ち着かないな。
+- wait:
+  - 65
+- print:
+  - レイ
+  - >2-
+
+    キミ、
+- wait:
+  - 25
+- print:
+  - レイ
+  - 荷物を少し分けてくれないか？
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050000_016
+- face:
+  - 105411
+  - 6
+- emotion:
+  - exclamation1_R
+  - 105411
+  - -10
+  - 655
+  - se_adv_emote_common_01
+- print:
+  - ツムギ
+  - あ、
+- wait:
+  - 10
+- print:
+  - ツムギ
+  - いいって言ってるのに！
+- wait:
+  - 25
+- print:
+  - ツムギ
+  - >2
+
+- face:
+  - 105411
+  - 4
+- print:
+  - ツムギ
+  - レイ様が持つなら私も持ちますよ！
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050000_017
+- face:
+  - 100311
+  - 6
+- print:
+  - レイ
+  - そう？　
+- wait:
+  - 35
+- print:
+  - レイ
+  - でもツムギは仕事明けで疲れているだろう？
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050000_018
+- face:
+  - 105411
+  - 1
+- nod:
+  - 105411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ツムギ
+  - 少しくらいなら平気です。
+- wait:
+  - 35
+- print:
+  - ツムギ
+  - >2-
+
+    ３人で手分けして
+- wait:
+  - 20
+- print:
+  - ツムギ
+  - サクッと運んじゃいましょう！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- bgm:
+  - stop
+  - 2
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 501130
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_town_day_01
+- chara_full:
+  - 105411
+  - LC
+  - 2
+- chara_full:
+  - 511
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M135_Outside
+  - 0
+  - 0
+  - 1
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050000_019
+- face:
+  - 105411
+  - 2
+- print:
+  - ツムギ
+  - 頼まれていた、
+- wait:
+  - 20
+- print:
+  - ツムギ
+  - パレード用の衣装をお持ちしました。
+- touch: *o0
+- face:
+  - 105411
+  - 1
+- focus:
+  - 511
+- bust:
+  - 511
+  - 0
+- vo:
+  - vo_adv_5050000_020
+- face:
+  - 511
+  - 2
+- nod:
+  - 511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 町長
+  - おぉ、
+- wait:
+  - 20
+- print:
+  - 町長
+  - ありがとうございます。
+- wait:
+  - 40
+- print:
+  - 町長
+  - >2-
+
+    これで今年のハロウィンも
+- wait:
+  - 25
+- print:
+  - 町長
+  - 大いに盛り上がりそうじゃ。
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050000_021
+- face:
+  - 105411
+  - 1
+- print:
+  - ツムギ
+  - お役に立てたなら何よりです。
+- wait:
+  - 40
+- print:
+  - ツムギ
+  - >2
+
+- face:
+  - 105411
+  - 2
+- print:
+  - ツムギ
+  - 楽しいパレードになるといいですね。
+- touch: *o0
+- face:
+  - 105411
+  - 1
+- focus:
+  - 511
+- bust:
+  - 511
+  - 0
+- vo:
+  - vo_adv_5050000_022
+- face:
+  - 511
+  - 2
+- print:
+  - 町長
+  - そこは期待していてくだされ。
+- wait:
+  - 45
+- print:
+  - 町長
+  - >2-
+
+    町中のお化け屋敷と協力して
+- wait:
+  - 40
+- print:
+  - 町長
+  - 盛大なものに……
+- wait:
+  - 35
+- print:
+  - 町長
+  - >2
+
+- face:
+  - 511
+  - 6
+- print:
+  - 町長
+  - ああ、
+- wait:
+  - 10
+- print:
+  - 町長
+  - ちょうどいいところに。
+- wait:
+  - 20
+- print:
+  - 町長
+  - おーい、
+- wait:
+  - 15
+- print:
+  - 町長
+  - 組合長！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 511
+  - LC
+  - 1
+- chara_full:
+  - 1411
+  - R
+  - 6
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - R
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_5050000_023
+- face:
+  - 1411
+  - 6
+- print:
+  - 組合長
+  - どうした、
+- wait:
+  - 10
+- print:
+  - 組合長
+  - 町長。
+- touch: *o0
+- focus:
+  - 511
+- bust:
+  - 511
+  - 0
+- vo:
+  - vo_adv_5050000_024
+- face:
+  - 511
+  - 2
+- print:
+  - 町長
+  - こちらは
+- wait:
+  - 20
+- print:
+  - 町長
+  - パークのお化け屋敷を
+- wait:
+  - 15
+- print:
+  - 町長
+  - 一手に取り仕切っている組合長じゃ。
+- wait:
+  - 55
+- print:
+  - 町長
+  - >2-
+
+    そしてこちらは
+- wait:
+  - 20
+- print:
+  - 町長
+  - 今回パレードの衣装を作ってくださった
+- wait:
+  - 30
+- print:
+  - 町長
+  - ツムギさん。
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_5050000_025
+- face:
+  - 1411
+  - 1
+- print:
+  - 組合長
+  - おお、
+- wait:
+  - 30
+- print:
+  - 組合長
+  - 腕がいいって聞いていたから
+- wait:
+  - 25
+- print:
+  - 組合長
+  - >2-
+
+    こんなに若い嬢ちゃんとは思わなかったよ。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 511
+  - 30
+- chara_full:
+  - 105411
+  - LC
+  - 6
+- fadein:
+  - 105411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050000_026
+- face:
+  - 105411
+  - 6
+- print:
+  - ツムギ
+  - そ、
+- wait:
+  - 20
+- print:
+  - ツムギ
+  - そんな腕がいいだなんて……
+- wait:
+  - 50
+- face:
+  - 105411
+  - 1
+- print:
+  - ツムギ
+  - ありがとうございます。
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_5050000_027
+- face:
+  - 1411
+  - 2
+- print:
+  - 組合長
+  - 嬢ちゃんに負けないよう、
+- wait:
+  - 25
+- print:
+  - 組合長
+  - 最高の仕掛けを用意してるから、
+- wait:
+  - 30
+- print:
+  - 組合長
+  - >2-
+
+    楽しみにしていてくれや。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1411
+  - 30
+- chara_full:
+  - 511
+  - RC
+  - 1
+- fadein:
+  - 511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 511
+- bust:
+  - 511
+  - 0
+- vo:
+  - vo_adv_5050000_028
+- face:
+  - 511
+  - 1
+- print:
+  - 町長
+  - それじゃあワシらは
+- wait:
+  - 15
+- print:
+  - 町長
+  - パレードの打ち合わせがあるので、
+- wait:
+  - 25
+- print:
+  - 町長
+  - >2-
+
+    これで失礼します。
+- wait:
+  - 35
+- print:
+  - 町長
+  - >2
+
+- face:
+  - 511
+  - 2
+- print:
+  - 町長
+  - 改めて、
+- wait:
+  - 30
+- print:
+  - 町長
+  - 素晴らしい衣装をありがとうございました。
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 3.5
+  - 1
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - R
+  - RC
+  - 30
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105411
+  - C
+  - 1
+- fadein:
+  - 105411
+  - 30
+- window_visible:
+  - true
+- choice:
+  - 喜んでもらえたね。
+  - 3
+- tag:
+  - 3
+- bgm:
+  - bgm_M68
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050000_029
+- face:
+  - 105411
+  - 4
+- print:
+  - ツムギ
+  - 満足してもらえるか不安でしたけど、
+- wait:
+  - 45
+- face:
+  - 105411
+  - 1
+- print:
+  - ツムギ
+  - 無事に終わってよかったです。
+- wait:
+  - 40
+- print:
+  - ツムギ
+  - >2-
+
+    レイ様、
+- wait:
+  - 15
+- print:
+  - ツムギ
+  - 騎士さん、
+- wait:
+  - 30
+- face:
+  - 105411
+  - 2
+- print:
+  - ツムギ
+  - お付き合いいただきありがとうございました。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105411
+  - 30
+- chara_full:
+  - 105411
+  - LC
+  - 1
+- chara_full:
+  - 100311
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050000_030
+- face:
+  - 100311
+  - 1
+- print:
+  - レイ
+  - ツムギなら大丈夫……
+- wait:
+  - 55
+- face:
+  - 100311
+  - 6
+- print:
+  - レイ
+  - と言いたいところだけど、
+- wait:
+  - 35
+- print:
+  - レイ
+  - >2-
+
+    この町を見ると不安になる気持ちも分かるかな。
+- wait:
+  - 70
+- print:
+  - レイ
+  - >2
+
+- face:
+  - 100311
+  - 6
+- print:
+  - レイ
+  - なんていうか、
+- wait:
+  - 30
+- print:
+  - レイ
+  - 本当にすごい町だね。
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050000_031
+- face:
+  - 105411
+  - 1
+- nod:
+  - 105411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ツムギ
+  - ランドソルもハロウィンが盛んですけど、
+- wait:
+  - 30
+- print:
+  - ツムギ
+  - >2-
+
+    気合いの入り方が違いますよね。
+- wait:
+  - 50
+- print:
+  - ツムギ
+  - >2
+
+- face:
+  - 105411
+  - 2
+- print:
+  - ツムギ
+  - さすがハロウィンパーク、
+- wait:
+  - 20
+- print:
+  - ツムギ
+  - って感じです。
+- touch: *o0
+- face:
+  - 105411
+  - 1
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050000_032
+- face:
+  - 100311
+  - 1
+- print:
+  - レイ
+  - ツムギの衣装を着た人たちが
+- wait:
+  - 30
+- print:
+  - レイ
+  - この町を歩くんだね。
+- wait:
+  - 50
+- print:
+  - レイ
+  - >2
+
+- face:
+  - 100311
+  - 2
+- print:
+  - レイ
+  - その光景は見てみたいかな。
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050000_033
+- face:
+  - 105411
+  - 2
+- emotion:
+  - twinkle1_R
+  - 105411
+  - -140
+  - 485
+  - se_adv_emote_twinkle_01
+- print:
+  - ツムギ
+  - いいですね！　
+- wait:
+  - 25
+- print:
+  - ツムギ
+  - 二人で仮装してハロウィンを楽しみましょう！
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050000_034
+- face:
+  - 100311
+  - 6
+- print:
+  - レイ
+  - あ、
+- wait:
+  - 5
+- print:
+  - レイ
+  - いや、
+- wait:
+  - 15
+- print:
+  - レイ
+  - 私はそういうのは……
+- wait:
+  - 50
+- face:
+  - 100311
+  - 4
+- print:
+  - レイ
+  - 普通に見るだけじゃ
+- wait:
+  - 25
+- print:
+  - レイ
+  - ダメかな？
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050000_035
+- face:
+  - 105411
+  - 6
+- print:
+  - ツムギ
+  - え〜っ、
+- wait:
+  - 30
+- print:
+  - ツムギ
+  - レイ様に似合う衣装が何通りも思い浮かんでいるのに。
+- wait:
+  - 75
+- print:
+  - ツムギ
+  - >2
+
+- face:
+  - 105411
+  - 4
+- print:
+  - ツムギ
+  - どうしても……
+- wait:
+  - 25
+- print:
+  - ツムギ
+  - ダメですか？
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050000_036
+- face:
+  - 100311
+  - 4
+- emotion:
+  - sweat1_R
+  - 100311
+  - 85
+  - 480
+  - se_adv_emote_sweat_01
+- print:
+  - レイ
+  - い、
+- wait:
+  - 20
+- print:
+  - レイ
+  - いやぁ……
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2.5
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100511
+  - L
+  - 1
+- chara_full:
+  - 105411
+  - RC
+  - 1
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - true
+- bgm:
+  - bgm_M266
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050000_037
+- face:
+  - 100511
+  - 1
+- emotion:
+  - notice1_L
+  - 100511
+  - -50
+  - 490
+  - se_adv_emote_common_01
+- print:
+  - マツリ
+  - >-
+    あれ？　{0}さんじゃないッスか。
+
+    こんなところで会うなんて奇遇ッスね！
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050000_038
+- face:
+  - 105411
+  - 6
+- print:
+  - ツムギ
+  - あなたは……
+- wait:
+  - 25
+- print:
+  - ツムギ
+  - >-
+    【王宮騎士団（NIGHTMARE）】の
+
+    マツリさん、
+- wait:
+  - 15
+- print:
+  - ツムギ
+  - でしたっけ？
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050000_039
+- face:
+  - 100511
+  - 6
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 100511
+- print:
+  - マツリ
+  - わわっ！？　
+- wait:
+  - 30
+- print:
+  - マツリ
+  - カルミナのツムギさんじゃないッスか！
+- wait:
+  - 45
+- print:
+  - マツリ
+  - >2-
+
+    カルミナの出演予定はなかったはずですけど……
+- wait:
+  - 60
+- print:
+  - マツリ
+  - あ！
+- wait:
+  - 30
+- print:
+  - マツリ
+  - >2
+
+- face:
+  - 100511
+  - 1
+- print:
+  - マツリ
+  - ひょっとして
+- wait:
+  - 15
+- print:
+  - マツリ
+  - シークレットゲストッスか！？
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050000_040
+- face:
+  - 105411
+  - 6
+- print:
+  - ツムギ
+  - いえ、
+- wait:
+  - 25
+- print:
+  - ツムギ
+  - 私は仕立て屋の仕事で来ただけですけど……
+- wait:
+  - 50
+- print:
+  - ツムギ
+  - 何の話ですか？
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050000_041
+- face:
+  - 100511
+  - 1
+- print:
+  - マツリ
+  - 自分は
+- wait:
+  - 25
+- print:
+  - マツリ
+  - トラタイガーのハロウィン特別ショーを見に来たんス。
+- wait:
+  - 50
+- print:
+  - マツリ
+  - >2-
+
+    だから
+- wait:
+  - 20
+- print:
+  - マツリ
+  - カルミナも何かやるのかなって思ったんスけど……
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050000_042
+- face:
+  - 100511
+  - 6
+- print:
+  - マツリ
+  - よく見たら
+- wait:
+  - 35
+- print:
+  - マツリ
+  - '{0}さんの隣に居るおねえさんは'
+- wait:
+  - 20
+- print:
+  - マツリ
+  - >2-
+
+    カルミナのメンバーさんじゃないッスね。
+- wait:
+  - 35
+- print:
+  - マツリ
+  - >2
+
+- face:
+  - 100511
+  - 2
+- print:
+  - マツリ
+  - きれいな人だから
+- wait:
+  - 15
+- print:
+  - マツリ
+  - つい勘違いしちゃったッス。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100511
+  - L
+  - 1
+- chara_full:
+  - 105411
+  - C
+  - 6
+- chara_full:
+  - 100311
+  - R
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050000_043
+- face:
+  - 100311
+  - 6
+- emotion:
+  - question1_R
+  - 100311
+  - 100
+  - 510
+  - se_adv_emote_question_01
+- print:
+  - レイ
+  - '{0}の隣？　'
+- wait:
+  - 65
+- print:
+  - レイ
+  - ひょっとして、
+- wait:
+  - 25
+- print:
+  - レイ
+  - 私のこと……？
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050000_044
+- face:
+  - 105411
+  - 1
+- nod:
+  - 105411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ツムギ
+  - むむっ！
+- wait:
+  - 20
+- print:
+  - ツムギ
+  - >2-
+
+    レイ様の美しさに気が付くとはいい目をしてますね！　
+- wait:
+  - 50
+- print:
+  - ツムギ
+  - マツリさん！
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050000_045
+- face:
+  - 100511
+  - 6
+- print:
+  - マツリ
+  - そうッスか？
+- wait:
+  - 30
+- print:
+  - マツリ
+  - >2
+
+- face:
+  - 100511
+  - 1
+- print:
+  - マツリ
+  - 別に
+- wait:
+  - 15
+- print:
+  - マツリ
+  - 目がよくなくても
+- wait:
+  - 30
+- print:
+  - マツリ
+  - きれいに見えると思うッスけど……
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050000_046
+- face:
+  - 100311
+  - 5
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - レイ
+  - ……あの、
+- wait:
+  - 30
+- print:
+  - レイ
+  - そんなにまじまじと見ないでもらえると、
+- wait:
+  - 45
+- print:
+  - レイ
+  - 助かる……
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050000_047
+- face:
+  - 100511
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100511
+  - 25
+  - 595
+  - se_adv_emote_common_01
+- print:
+  - マツリ
+  - わっ！　
+- wait:
+  - 10
+- print:
+  - マツリ
+  - ごめんなさいッス！　
+- wait:
+  - 20
+- print:
+  - マツリ
+  - あんまり
+- wait:
+  - 10
+- print:
+  - マツリ
+  - きれいだったから
+- wait:
+  - 20
+- print:
+  - マツリ
+  - つい……
+- wait:
+  - 35
+- print:
+  - マツリ
+  - >2
+
+- face:
+  - 100511
+  - 1
+- print:
+  - マツリ
+  - 自分、
+- wait:
+  - 15
+- print:
+  - マツリ
+  - 【王宮騎士団（NIGHTMARE）】のマツリッス。
+- wait:
+  - 10
+- print:
+  - マツリ
+  - >2-
+
+    よろしくお願いするッス！
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050000_048
+- face:
+  - 100311
+  - 6
+- print:
+  - レイ
+  - わ、
+- wait:
+  - 25
+- print:
+  - レイ
+  - 私は
+- wait:
+  - 15
+- print:
+  - レイ
+  - 【トゥインクルウィッシュ】のレイだ。
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050000_049
+- face:
+  - 100511
+  - 1
+- print:
+  - マツリ
+  - きれいなおねえさんは
+- wait:
+  - 15
+- print:
+  - マツリ
+  - レイさんって言うんスね！
+- wait:
+  - 40
+- print:
+  - マツリ
+  - >2
+
+- face:
+  - 100511
+  - 2
+- print:
+  - マツリ
+  - よろしくッス！
+- touch: *o0
+- face:
+  - 100511
+  - 1
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050000_050
+- face:
+  - 100311
+  - 1
+- nod:
+  - 100311
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - レイ
+  - よろしくマツリ。
+- wait:
+  - 35
+- print:
+  - レイ
+  - >2
+
+- face:
+  - 100311
+  - 5
+- print:
+  - レイ
+  - それと、
+- wait:
+  - 25
+- print:
+  - レイ
+  - き、
+- wait:
+  - 15
+- print:
+  - レイ
+  - きれいなおねえさんで
+- wait:
+  - 25
+- print:
+  - レイ
+  - 覚えなくていいからね？
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050000_051
+- face:
+  - 105411
+  - 6
+- print:
+  - ツムギ
+  - レイ様の貴重な表情を引き出すなんて！
+- wait:
+  - 55
+- print:
+  - ツムギ
+  - >2
+
+- face:
+  - 105411
+  - 2
+- print:
+  - ツムギ
+  - マツリさん、
+- wait:
+  - 20
+- print:
+  - ツムギ
+  - あなたやりますね！
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050000_052
+- face:
+  - 100511
+  - 6
+- print:
+  - マツリ
+  - よく分からないッスけど、
+- wait:
+  - 40
+- print:
+  - マツリ
+  - >2
+
+- face:
+  - 100511
+  - 1
+- print:
+  - マツリ
+  - カルミナのツムギさんに
+- wait:
+  - 15
+- print:
+  - マツリ
+  - 褒められちゃったッス！
+- touch: *o0
+- face:
+  - 105411
+  - 1
+- bgm:
+  - stop
+  - 11
+  - 1
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050000_053
+- face:
+  - 100311
+  - 6
+- nod:
+  - 100311
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - レイ
+  - それよりマツリ。
+- wait:
+  - 35
+- print:
+  - レイ
+  - >2-
+
+    キミは
+- wait:
+  - 25
+- print:
+  - レイ
+  - トラタイガー？　
+- wait:
+  - 30
+- print:
+  - レイ
+  - のショーを見に来たって
+- wait:
+  - 15
+- print:
+  - レイ
+  - >2-
+
+    言っていたけど、
+- wait:
+  - 25
+- print:
+  - レイ
+  - 時間は大丈夫なのかな？
+- touch: *o0
+- bgm:
+  - bgm_M136
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050000_054
+- face:
+  - 100511
+  - 1
+- print:
+  - マツリ
+  - ショーならもう見てきたッス！
+- wait:
+  - 30
+- print:
+  - マツリ
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - マツリ
+  - トラタイガーのかっこよさを思い出しながら町を歩いてたら
+- wait:
+  - 55
+- print:
+  - マツリ
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - マツリ
+  - '{0}さんの姿を見かけたので'
+- wait:
+  - 25
+- print:
+  - マツリ
+  - 声を掛けたッス。
+- touch: *o0
+- choice:
+  - いいなぁ……
+  - 4
+- tag:
+  - 4
+- face:
+  - 100311
+  - 1
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050000_055
+- face:
+  - 100511
+  - 2
+- print:
+  - マツリ
+  - 安心するッス！　
+- wait:
+  - 35
+- print:
+  - マツリ
+  - ショーはハロウィンシーズン中
+- wait:
+  - 20
+- print:
+  - マツリ
+  - 何回かやるッスよ！
+- wait:
+  - 35
+- print:
+  - マツリ
+  - >2
+
+- face:
+  - 100511
+  - 1
+- print:
+  - マツリ
+  - 次は一緒に見に行くッス！
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050000_056
+- face:
+  - 100511
+  - 1
+- nod:
+  - 100511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - マツリ
+  - ところで、
+- wait:
+  - 35
+- print:
+  - マツリ
+  - ツムギさんたちは
+- wait:
+  - 15
+- print:
+  - マツリ
+  - このあと予定あるッスか？
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050000_057
+- face:
+  - 105411
+  - 6
+- print:
+  - ツムギ
+  - いえ、
+- wait:
+  - 20
+- print:
+  - ツムギ
+  - 仕事は終わったのであとは何もありませんけど……？
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050000_058
+- face:
+  - 100511
+  - 4
+- print:
+  - マツリ
+  - それならちょっと
+- wait:
+  - 25
+- print:
+  - マツリ
+  - 付き合ってほしいところがあるッス。
+- wait:
+  - 50
+- print:
+  - マツリ
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - マツリ
+  - 自分一人で行くのは
+- wait:
+  - 30
+- print:
+  - マツリ
+  - ちょっと、
+- wait:
+  - 45
+- eye_open:
+  - True
+- print:
+  - マツリ
+  - その、
+- wait:
+  - 40
+- print:
+  - マツリ
+  - 不安というか……
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050000_059
+- face:
+  - 100311
+  - 6
+- print:
+  - レイ
+  - 【王宮騎士団（NIGHTMARE）】関係の何かかな？
+- wait:
+  - 25
+- print:
+  - レイ
+  - >2
+
+- face:
+  - 100311
+  - 1
+- print:
+  - レイ
+  - 手伝えることがあるなら、
+- wait:
+  - 15
+- print:
+  - レイ
+  - 喜んで。
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050000_060
+- face:
+  - 100511
+  - 6
+- print:
+  - マツリ
+  - そういうんじゃないッス。
+- wait:
+  - 15
+- print:
+  - マツリ
+  - 自分今日は非番なので。
+- wait:
+  - 60
+- print:
+  - マツリ
+  - >2
+
+- face:
+  - 100511
+  - 4
+- print:
+  - マツリ
+  - だから、
+- wait:
+  - 35
+- print:
+  - マツリ
+  - えっと……
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050000_061
+- face:
+  - 105411
+  - 4
+- print:
+  - ツムギ
+  - まさか、
+- wait:
+  - 30
+- print:
+  - ツムギ
+  - 言いづらいところに付き合わせようっていうんですか？
+- touch: *o0
+- bgm:
+  - stop
+  - 10.5
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050000_062
+- face:
+  - 100511
+  - 6
+- print:
+  - マツリ
+  - そ、
+- wait:
+  - 10
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 100511
+- print:
+  - マツリ
+  - そんなことないッスよ！
+- wait:
+  - 30
+- print:
+  - マツリ
+  - >2
+
+- face:
+  - 100511
+  - 4
+- print:
+  - マツリ
+  - ただ、
+- wait:
+  - 15
+- print:
+  - マツリ
+  - 自分と一緒に
+- wait:
+  - 45
+- face:
+  - 100511
+  - 3
+- print:
+  - マツリ
+  - お、
+- wait:
+  - 45
+- print:
+  - マツリ
+  - お化け屋敷に行ってほしいんス！
+- touch: *o0
+- bgm:
+  - bgm_M139
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050000_063
+- face:
+  - 100311
+  - 6
+- print:
+  - レイ
+  - お化け屋敷か。
+- wait:
+  - 45
+- print:
+  - レイ
+  - >2-
+
+    さっきの組合長が仕切っていると言っていたやつだよね。
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050000_064
+- face:
+  - 105411
+  - 6
+- print:
+  - ツムギ
+  - ナイスタイミングというか
+- wait:
+  - 25
+- print:
+  - ツムギ
+  - なんというか、
+- wait:
+  - 25
+- print:
+  - ツムギ
+  - ですね。
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050000_065
+- face:
+  - 100511
+  - 6
+- print:
+  - マツリ
+  - タイミングとかはよく分からないッスけど、
+- wait:
+  - 50
+- print:
+  - マツリ
+  - >2
+
+- face:
+  - 100511
+  - 4
+- print:
+  - マツリ
+  - ハロウィンパークのお化け屋敷は
+- wait:
+  - 25
+- print:
+  - マツリ
+  - すごく怖いらしいんで
+- wait:
+  - 35
+- print:
+  - マツリ
+  - >2-
+
+    行ってみたいんスけど、
+- wait:
+  - 45
+- eye_open:
+  - FALSE
+- print:
+  - マツリ
+  - 一人で行くのは、
+- wait:
+  - 35
+- print:
+  - マツリ
+  - その、
+- wait:
+  - 45
+- eye_open:
+  - True
+- print:
+  - マツリ
+  - ちょっと……
+- wait:
+  - 55
+- print:
+  - マツリ
+  - ッス。
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050000_066
+- face:
+  - 105411
+  - 6
+- print:
+  - ツムギ
+  - んー……
+- wait:
+  - 45
+- print:
+  - ツムギ
+  - >-
+    どんな人たちが
+
+    私の衣装と歩くのかも気になるし、
+- wait:
+  - 60
+- face:
+  - 105411
+  - 1
+- print:
+  - ツムギ
+  - いいですよ。
+- wait:
+  - 15
+- print:
+  - ツムギ
+  - 行きましょう。
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050000_067
+- face:
+  - 100311
+  - 1
+- nod:
+  - 100311
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - レイ
+  - ツムギの仕事のためとなると、
+- wait:
+  - 40
+- print:
+  - レイ
+  - 断れないね。
+- wait:
+  - 35
+- print:
+  - レイ
+  - >2-
+
+    私も行くよ。
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050000_068
+- face:
+  - 100511
+  - 1
+- emotion:
+  - twinkle1_R
+  - 100511
+  - -100
+  - 465
+  - se_adv_emote_twinkle_01
+- print:
+  - マツリ
+  - ほんとッスか！　
+- wait:
+  - 30
+- face:
+  - 100511
+  - 2
+- print:
+  - マツリ
+  - それじゃあみんなで行くッスよ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - 意気揚々と歩きだすマツリに続き、
+- wait:
+  - 30
+- print:
+  - ナレーション
+  - >2-
+
+    {0}たちはお化け屋敷を目指すのだった。
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

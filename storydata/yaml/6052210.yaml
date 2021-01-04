@@ -1,0 +1,306 @@
+- title:
+  - 魔法剣士として
+- outline:
+  - ' '
+- background:
+  - 500010
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 魔法剣士として
+- chara_full:
+  - 103711
+  - C
+  - 1
+- fadein:
+  - 103711
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M423_02
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 103711
+- bust:
+  - 103711
+  - 0
+- vo:
+  - vo_adv_6052210_000
+- face:
+  - 103711
+  - 1
+- print:
+  - トモ
+  - 憧れの魔法少女になって、
+- wait:
+  - 45
+- print:
+  - トモ
+  - 一つの事件を解決することができた。
+- wait:
+  - 65
+- print:
+  - トモ
+  - >2
+
+- face:
+  - 103711
+  - 3
+- print:
+  - トモ
+  - でも私は
+- wait:
+  - 30
+- print:
+  - トモ
+  - まだまだ魔法少女として未熟だ。
+- wait:
+  - 70
+- print:
+  - トモ
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - トモ
+  - 愛と希望……
+- wait:
+  - 50
+- eye_open:
+  - True
+- face:
+  - 103711
+  - 2
+- print:
+  - トモ
+  - 魔法剣士として、
+- wait:
+  - 25
+- print:
+  - トモ
+  - もっと自分の心を鍛えないとね！
+- touch: &o0 []
+- choice:
+  - 僕も手伝うよ。
+  - 1
+  - 1
+- choice:
+  - 立派な魔法少女だよ。
+  - 2
+  - 2
+- choice:
+  - 愛と希望の特訓だ！
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 103711
+- bust:
+  - 103711
+  - 0
+- vo:
+  - vo_adv_6052210_001
+- face:
+  - 103711
+  - 2
+- nod:
+  - 103711
+- print:
+  - トモ
+  - ああ、
+- wait:
+  - 20
+- print:
+  - トモ
+  - ありがとう。
+- wait:
+  - 30
+- print:
+  - トモ
+  - >2-
+
+    今まで
+- wait:
+  - 20
+- print:
+  - トモ
+  - 魔法少女と一緒に戦ってきたあなたがいれば、
+- wait:
+  - 55
+- print:
+  - トモ
+  - >2-
+
+    もっと成長できる気がするよ……
+- wait:
+  - 45
+- print:
+  - トモ
+  - よろしくね♪
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 103711
+- bust:
+  - 103711
+  - 0
+- vo:
+  - vo_adv_6052210_002
+- face:
+  - 103711
+  - 2
+- print:
+  - トモ
+  - そう言ってもらえるとうれしいな。
+- wait:
+  - 55
+- print:
+  - トモ
+  - >2
+
+- face:
+  - 103711
+  - 1
+- print:
+  - トモ
+  - でも、
+- wait:
+  - 20
+- print:
+  - トモ
+  - まだ私は憧れたままな気がするんだ。
+- wait:
+  - 70
+- print:
+  - トモ
+  - >2-
+
+    ちゃんと、
+- wait:
+  - 20
+- print:
+  - トモ
+  - 魔法少女を自分のものにできるよう
+- wait:
+  - 45
+- print:
+  - トモ
+  - 頑張るよ。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 103711
+- bust:
+  - 103711
+  - 0
+- vo:
+  - vo_adv_6052210_003
+- face:
+  - 103711
+  - 6
+- print:
+  - トモ
+  - 愛と希望の特訓って
+- wait:
+  - 45
+- print:
+  - トモ
+  - 何をやるの？　
+- wait:
+  - 75
+- face:
+  - 103711
+  - 4
+- print:
+  - トモ
+  - ……何も考えてなさそうだね。
+- wait:
+  - 80
+- print:
+  - トモ
+  - >2-
+
+    そうだね、
+- wait:
+  - 40
+- print:
+  - トモ
+  - じゃあ……
+- wait:
+  - 40
+- face:
+  - 103711
+  - 1
+- print:
+  - トモ
+  - こうして、
+- wait:
+  - 15
+- print:
+  - トモ
+  - 抱きついてみたり……
+- wait:
+  - 20
+- se:
+  - se_adv_hug_01
+- nod:
+  - 103711
+- wait:
+  - 45
+- face:
+  - 103711
+  - 5
+- print:
+  - トモ
+  - うん。
+- wait:
+  - 25
+- print:
+  - トモ
+  - >2-
+
+    なんか
+- wait:
+  - 25
+- print:
+  - トモ
+  - 思わず変身しちゃいそうなくらい、
+- wait:
+  - 50
+- print:
+  - トモ
+  - ドキドキしてきた……♪
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 103711
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

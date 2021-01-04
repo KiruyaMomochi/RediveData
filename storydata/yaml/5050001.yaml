@@ -1,0 +1,6820 @@
+- title:
+  - ハロウィンのお化けたち
+- outline:
+  - ツムギたちがお化け屋敷で目にしたのは、熱心に頑張るも空回りし続けるちょっと間抜けなお化けたちだった。そんな彼らの様子を見かねた{0}たちは、お化け屋敷の改善を手伝うことに。
+- background:
+  - 501140
+- amb:
+  - amb_adv_mystery_03
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - ハロウィンのお化けたち
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - ハロウィンパークのお化け屋敷にやってきた
+- wait:
+  - 30
+- print:
+  - ナレーション
+  - >2-
+
+    {0}たちは、スタッフの姿を探しキョロキョロと
+- wait:
+  - 30
+- print:
+  - ナレーション
+  - >2-
+
+    周囲を見回していた。
+- wait:
+  - 15
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 100511
+  - LC
+  - 6
+- chara_full:
+  - 105411
+  - RC
+  - 6
+- se:
+  - se_adv_step_wood_move_01
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M139_Outside
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_000
+- face:
+  - 100511
+  - 6
+- print:
+  - マツリ
+  - すみませ～ん！　
+- wait:
+  - 30
+- print:
+  - マツリ
+  - 誰かいないッスか～！
+- touch: *o0
+- window_visible:
+  - false
+- focus:
+  - 100511:105411
+- emotion:
+  - dots1_R
+  - 100511
+  - -80
+  - 450
+  - se_adv_emote_dots_01
+- emotion:
+  - dots1_R
+  - 105411
+  - -115
+  - 470
+  - non
+- wait:
+  - 60
+- emotion_end:
+  - 100511
+- emotion_end:
+  - 105411
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_001
+- face:
+  - 105411
+  - 4
+- print:
+  - ツムギ
+  - 誰もいませんね……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5050001_002
+- face:
+  - 1
+  - 1
+- print:
+  - ？？？
+  - わわっ！　
+- wait:
+  - 5
+- print:
+  - ？？？
+  - みんな！　
+- wait:
+  - 5
+- print:
+  - ？？？
+  - お客さんだよ！
+- wait:
+  - 15
+- print:
+  - ？？？
+  - >2-
+
+    準備して！　
+- wait:
+  - 10
+- print:
+  - ？？？
+  - ほら、
+- wait:
+  - 10
+- print:
+  - ？？？
+  - 早く早く！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0032
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 100511
+  - LC
+  - 4
+- chara_full:
+  - 100311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_003
+- face:
+  - 100511
+  - 4
+- print:
+  - マツリ
+  - なんか
+- wait:
+  - 15
+- print:
+  - マツリ
+  - タイミングが悪かったみたいッスね。
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050001_004
+- face:
+  - 100311
+  - 4
+- print:
+  - レイ
+  - そうみたいだね。
+- wait:
+  - 45
+- print:
+  - レイ
+  - 少し
+- wait:
+  - 15
+- print:
+  - レイ
+  - 待ってみようか。
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+  - 1
+- fadeout_all:
+  - 30
+- chara_full:
+  - 5711
+  - C
+  - 8
+- se:
+  - se_adv_cold_wind_01
+- se_pause:
+  - se_adv_cold_wind_01
+  - 1.3
+- se:
+  - se_adv_creature_flap_01
+- se_pause:
+  - se_adv_creature_flap_01
+  - 1.5
+- updown:
+  - 5711
+  - 0
+  - -150
+  - 0.2
+- fadein:
+  - 5711
+  - 15
+- updown:
+  - 5711
+  - 0
+  - 150
+  - 0.5
+- window_visible:
+  - true
+- bgm:
+  - bgm_M414
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_005
+- face:
+  - 5711
+  - 8
+- print:
+  - ？？？
+  - ボクたちのお化け屋敷へようこそ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 5711
+  - 30
+- chara_full:
+  - 100511
+  - LC
+  - 1
+- chara_full:
+  - 5711
+  - RC
+  - 8
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_006
+- face:
+  - 100511
+  - 1
+- emotion:
+  - notice1_L
+  - 100511
+  - -50
+  - 490
+  - se_adv_emote_common_01
+- print:
+  - マツリ
+  - あ、
+- wait:
+  - 15
+- print:
+  - マツリ
+  - よかった。
+- wait:
+  - 15
+- print:
+  - マツリ
+  - >2-
+
+    案内の人居たんスね。
+- touch: *o0
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_007
+- face:
+  - 5711
+  - 4
+- print:
+  - ？？？
+  - やっぱり
+- wait:
+  - 25
+- print:
+  - ？？？
+  - 怖がってもらえない……
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_008
+- face:
+  - 100511
+  - 6
+- emotion:
+  - question1_R
+  - 100511
+  - 120
+  - 450
+  - se_adv_emote_question_01
+- print:
+  - マツリ
+  - ん？　
+- wait:
+  - 25
+- print:
+  - マツリ
+  - なにか言ったッスか？
+- touch: *o0
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_009
+- face:
+  - 5711
+  - 6
+- nod:
+  - 5711
+- print:
+  - マシュー
+  - んーん！　
+- wait:
+  - 10
+- print:
+  - マシュー
+  - なんでもない！
+- wait:
+  - 15
+- print:
+  - マシュー
+  - >2
+
+- face:
+  - 5711
+  - 1
+- print:
+  - マシュー
+  - ボクはこのお化け屋敷の案内人、
+- wait:
+  - 35
+- print:
+  - マシュー
+  - マシューだよ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105411
+  - LC
+  - 4
+- chara_full:
+  - 100311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_010
+- face:
+  - 105411
+  - 4
+- print:
+  - ツムギ
+  - なんだかかわいらしいキャストですけど
+- wait:
+  - 35
+- print:
+  - ツムギ
+  - >2-
+
+    着ぐるみの出来はすごいですね……
+- wait:
+  - 60
+- face:
+  - 105411
+  - 6
+- print:
+  - ツムギ
+  - 本物の火の玉みたいです。
+- wait:
+  - 50
+- print:
+  - ツムギ
+  - >2-
+
+    魔法を使ってるんでしょうか。
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050001_011
+- face:
+  - 100311
+  - 6
+- print:
+  - レイ
+  - いつ現れたのか全く分からなかった。
+- wait:
+  - 60
+- print:
+  - レイ
+  - >2-
+
+    ひょっとしたらそういう魔法もかかっているのかもしれない。
+- wait:
+  - 60
+- print:
+  - レイ
+  - >2
+
+- face:
+  - 100311
+  - 1
+- print:
+  - レイ
+  - 魔法を駆使したお化け屋敷か……
+- wait:
+  - 65
+- print:
+  - レイ
+  - 楽しめそうだね。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 5711
+  - C
+  - 3
+- fadein:
+  - 5711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_012
+- face:
+  - 5711
+  - 3
+- print:
+  - マシュー
+  - このお化け屋敷には
+- wait:
+  - 25
+- print:
+  - マシュー
+  - 怖いお化けがたくさん居るよ。
+- wait:
+  - 45
+- print:
+  - マシュー
+  - >2
+
+- face:
+  - 5711
+  - 8
+- print:
+  - マシュー
+  - キミたちは無事に
+- wait:
+  - 15
+- print:
+  - マシュー
+  - 抜け出すことができるかな？
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_cold_wind_01
+- se_pause:
+  - se_adv_cold_wind_01
+  - 1.3
+- se:
+  - se_adv_creature_flap_01
+- se_pause:
+  - se_adv_creature_flap_01
+  - 1.5
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 5711
+  - 30
+- chara_full:
+  - 100511
+  - C
+  - 6
+- fadein:
+  - 100511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_013
+- face:
+  - 100511
+  - 6
+- emotion:
+  - question1_R
+  - 100511
+  - 120
+  - 450
+  - se_adv_emote_question_01
+- print:
+  - マツリ
+  - あ、
+- wait:
+  - 10
+- print:
+  - マツリ
+  - あれ？　
+- wait:
+  - 15
+- print:
+  - マツリ
+  - マシューさん、
+- wait:
+  - 35
+- print:
+  - マツリ
+  - どこ行ったんスか？
+- wait:
+  - 65
+- print:
+  - マツリ
+  - >2-
+
+    消えちゃったッス……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100511
+  - 30
+- chara_full:
+  - 105411
+  - LC
+  - 6
+- chara_full:
+  - 100311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050001_014
+- face:
+  - 100311
+  - 6
+- print:
+  - レイ
+  - 進んでいいってことかな。
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_015
+- face:
+  - 105411
+  - 1
+- print:
+  - ツムギ
+  - とりあえず行ってみましょう。
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050001_016
+- face:
+  - 100311
+  - 1
+- nod:
+  - 100311
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - レイ
+  - ああ、
+- wait:
+  - 15
+- print:
+  - レイ
+  - 楽しみだね。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_wood_walk_go_01
+- change:
+  - C
+  - LC
+  - 30
+- change:
+  - R
+  - RC
+  - 30
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100511
+  - C
+  - 6
+- fadein:
+  - 100511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_017
+- face:
+  - 100511
+  - 6
+- pop:
+  - 100511
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - マツリ
+  - あ、
+- wait:
+  - 15
+- print:
+  - マツリ
+  - 置いていかないでほしいッス！
+- wait:
+  - 40
+- print:
+  - マツリ
+  - >2
+
+- face:
+  - 100511
+  - 3
+- print:
+  - マツリ
+  - ほら、
+- wait:
+  - 20
+- print:
+  - マツリ
+  - '{0}さんもぼさっとしてないで行くッスよ！'
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_wood_run_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 100511
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- bgm:
+  - stop
+  - 1.5
+- transition:
+  - 18
+  - 0.5
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 5811
+  - C
+  - 9
+- fadein:
+  - 5811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M266
+  - 0
+  - 0
+  - 1
+- focus:
+  - 5811
+- bust:
+  - 5811
+  - 0
+- vo:
+  - vo_adv_5050001_018
+- face:
+  - 5811
+  - 9
+- print:
+  - オオカミ男
+  - よ、
+- wait:
+  - 30
+- nod:
+  - 5811
+- print:
+  - オオカミ男
+  - ようこそ、
+- wait:
+  - 50
+- print:
+  - オオカミ男
+  - オイラたちのお化け屋敷へ～♪
+- touch: *o0
+- se:
+  - se_adv_cloth_move_normal_01
+- focus:
+  - 5811
+- bust:
+  - 5811
+  - 0
+- vo:
+  - vo_adv_5050001_019
+- face:
+  - 5811
+  - 9
+- print:
+  - オオカミ男
+  - 怖いよ～
+- wait:
+  - 25
+- print:
+  - オオカミ男
+  - 怖いよ～♪
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 5811
+  - 30
+- chara_full:
+  - 105411
+  - LC
+  - 4
+- chara_full:
+  - 5811
+  - RC
+  - 9
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_020
+- face:
+  - 105411
+  - 4
+- emotion:
+  - sweat1_R
+  - 105411
+  - 80
+  - 540
+  - se_adv_emote_sweat_01
+- print:
+  - ツムギ
+  - な、
+- wait:
+  - 15
+- print:
+  - ツムギ
+  - なんでしょう、
+- wait:
+  - 25
+- print:
+  - ツムギ
+  - これ……？
+- touch: *o0
+- focus:
+  - 5811
+- bust:
+  - 5811
+  - 0
+- vo:
+  - vo_adv_5050001_021
+- face:
+  - 5811
+  - 9
+- nod:
+  - 5811
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - オオカミ男
+  - 怖がらせているんだよ～♪
+- wait:
+  - 50
+- print:
+  - オオカミ男
+  - >2-
+
+    怖がって～♪　
+- wait:
+  - 40
+- print:
+  - オオカミ男
+  - 悲鳴を
+- wait:
+  - 30
+- print:
+  - オオカミ男
+  - あげて～♪
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100511
+  - LC
+  - 6
+- chara_full:
+  - 100311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_022
+- face:
+  - 100511
+  - 6
+- print:
+  - マツリ
+  - 歌っているようにしか
+- wait:
+  - 25
+- print:
+  - マツリ
+  - 見えないッスよね？
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050001_023
+- face:
+  - 100311
+  - 4
+- print:
+  - レイ
+  - そ、
+- wait:
+  - 25
+- print:
+  - レイ
+  - そうだね……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100311
+  - 30
+- chara_full:
+  - 105411
+  - RC
+  - 4
+- fadein:
+  - 105411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_024
+- face:
+  - 105411
+  - 4
+- print:
+  - ツムギ
+  - この町のお化け屋敷はすごく怖いんですよね……？
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_025
+- face:
+  - 100511
+  - 3
+- nod:
+  - 100511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - マツリ
+  - 油断させて
+- wait:
+  - 20
+- print:
+  - マツリ
+  - 怖がらせるつもりかもしれないッス。
+- wait:
+  - 45
+- print:
+  - マツリ
+  - >2-
+
+    気を抜かずに進むッスよ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- bgm:
+  - stop
+  - 1.5
+  - 1
+- transition:
+  - 18
+  - 0.5
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 105411
+  - L
+  - 1
+- chara_full:
+  - 5911
+  - RC
+  - 6
+- se:
+  - se_adv_step_wood_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - true
+- se:
+  - se_adv_cloth_move_give_01
+- focus:
+  - 5911
+- bust:
+  - 5911
+  - 0
+- vo:
+  - vo_adv_5050001_026
+- face:
+  - 5911
+  - 6
+- print:
+  - ミイラ
+  - ……あっ。
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_027
+- face:
+  - 105411
+  - 6
+- emotion:
+  - question1_R
+  - 105411
+  - 95
+  - 500
+  - se_adv_emote_question_01
+- print:
+  - ツムギ
+  - あっ？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105411
+  - 30
+- chara_full:
+  - 100311
+  - LC
+  - 6
+- se:
+  - se_adv_step_wood_move_01
+- fadein:
+  - 100311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050001_028
+- face:
+  - 100311
+  - 6
+- print:
+  - レイ
+  - まだ準備中だったのかな？
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 38
+- window_visible:
+  - true
+- bgm:
+  - bgm_M135_Short
+- focus:
+  - 5911
+- bust:
+  - 5911
+  - 0
+- vo:
+  - vo_adv_5050001_029
+- face:
+  - 5911
+  - 8
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 5911
+- print:
+  - ミイラ
+  - うぉおおおおおおおお！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 23
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050001_030
+- face:
+  - 100311
+  - 6
+- print:
+  - レイ
+  - そんなに慌てなくてもいいよ。
+- wait:
+  - 30
+- print:
+  - レイ
+  - >2-
+
+    タイミングが悪かったね。
+- wait:
+  - 30
+- print:
+  - レイ
+  - 出直そうか？
+- touch: *o0
+- focus:
+  - 5911
+- bust:
+  - 5911
+  - 0
+- vo:
+  - vo_adv_5050001_031
+- face:
+  - 5911
+  - 4
+- print:
+  - ミイラ
+  - 何言ってんだ？　
+- wait:
+  - 35
+- print:
+  - ミイラ
+  - オレサマは怖がらせてるんだぜ？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100311
+  - 30
+- chara_full:
+  - 105411
+  - LC
+  - 6
+- fadein:
+  - 105411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_032
+- face:
+  - 105411
+  - 6
+- emotion:
+  - sweat1_R
+  - 105411
+  - 80
+  - 540
+  - se_adv_emote_sweat_01
+- print:
+  - ツムギ
+  - いやいやいや。
+- wait:
+  - 15
+- print:
+  - ツムギ
+  - あんなグダグダな登場して何言ってるんですか。
+- wait:
+  - 30
+- print:
+  - ツムギ
+  - >2-
+
+    やり直していいですよ。
+- touch: *o0
+- focus:
+  - 5911
+- bust:
+  - 5911
+  - 0
+- vo:
+  - vo_adv_5050001_033
+- face:
+  - 5911
+  - 4
+- print:
+  - ミイラ
+  - グダグダ？　
+- wait:
+  - 40
+- print:
+  - ミイラ
+  - なんのことだ？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105411
+  - 30
+- chara_full:
+  - 100511
+  - LC
+  - 6
+- fadein:
+  - 100511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_034
+- face:
+  - 100511
+  - 6
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 100511
+- print:
+  - マツリ
+  - いや、あんた全然隠れてなかったじゃないッスか！
+- touch: *o0
+- focus:
+  - 5911
+- bust:
+  - 5911
+  - 0
+- vo:
+  - vo_adv_5050001_035
+- face:
+  - 5911
+  - 4
+- print:
+  - ミイラ
+  - 隠れたらお客さんがいつ来るか
+- wait:
+  - 30
+- print:
+  - ミイラ
+  - 分からなくなっちゃうじゃん。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100511
+  - L
+  - 4
+- chara_full:
+  - 105411
+  - C
+  - 4
+- chara_full:
+  - 100311
+  - R
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100511:100311:105411
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5050001_036
+- face:
+  - 1
+  - 1
+- print:
+  - 三人
+  - …………
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_037
+- face:
+  - 105411
+  - 4
+- print:
+  - ツムギ
+  - あの〜、
+- wait:
+  - 30
+- print:
+  - ツムギ
+  - ここって本当にお化け屋敷……
+- wait:
+  - 40
+- print:
+  - ツムギ
+  - ですよね？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105411
+  - LC
+  - 4
+- chara_full:
+  - 5911
+  - RC
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 5911
+- bust:
+  - 5911
+  - 0
+- vo:
+  - vo_adv_5050001_038
+- face:
+  - 5911
+  - 3
+- print:
+  - ミイラ
+  - そうだぞ！　
+- wait:
+  - 25
+- print:
+  - ミイラ
+  - だからこうして怖がらせてるんじゃないか！
+- wait:
+  - 45
+- print:
+  - ミイラ
+  - >2
+
+- nod:
+  - 5911
+- print:
+  - ミイラ
+  - さ、
+- wait:
+  - 15
+- print:
+  - ミイラ
+  - オレサマの出番は終わりだ。
+- wait:
+  - 40
+- print:
+  - ミイラ
+  - 先に進んでくれ。
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_039
+- face:
+  - 105411
+  - 4
+- print:
+  - ツムギ
+  - は、
+- wait:
+  - 15
+- print:
+  - ツムギ
+  - はぁ……
+- wait:
+  - 40
+- print:
+  - ツムギ
+  - それじゃあ言われた通り先に進みますよ。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- bgm:
+  - stop
+  - 1.5
+- transition:
+  - 18
+  - 0.5
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 6011
+  - C
+  - 3
+- fadein:
+  - 6011
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M139
+  - 0
+  - 0
+  - 1
+- focus:
+  - 6011
+- bust:
+  - 6011
+  - 0
+- vo:
+  - vo_adv_5050001_040
+- face:
+  - 6011
+  - 3
+- print:
+  - 小悪魔
+  - よくぞここまでたどり着いたな。
+- wait:
+  - 40
+- print:
+  - 小悪魔
+  - 褒めてやろう。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 6011
+  - 30
+- chara_full:
+  - 100511
+  - LC
+  - 1
+- chara_full:
+  - 105411
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_041
+- face:
+  - 100511
+  - 1
+- print:
+  - マツリ
+  - お！　
+- wait:
+  - 25
+- print:
+  - マツリ
+  - 今度はなんかそれっぽいッスね！
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_042
+- face:
+  - 105411
+  - 1
+- nod:
+  - 105411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ツムギ
+  - そうですね。
+- wait:
+  - 30
+- print:
+  - ツムギ
+  - 一応期待してみましょうか。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 6011
+  - C
+  - 3
+- fadein:
+  - 6011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 6011
+- bust:
+  - 6011
+  - 0
+- vo:
+  - vo_adv_5050001_043
+- face:
+  - 6011
+  - 3
+- print:
+  - 小悪魔
+  - おまえたちの前には二つの道がある。
+- wait:
+  - 55
+- print:
+  - 小悪魔
+  - >2-
+
+    片方は光へ続く道、
+- wait:
+  - 60
+- print:
+  - 小悪魔
+  - もう一つは地獄へ続く道だ。
+- wait:
+  - 60
+- print:
+  - 小悪魔
+  - >2-
+
+    心して進め。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 6011
+  - 30
+- chara_full:
+  - 100511
+  - LC
+  - 6
+- chara_full:
+  - 100311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_044
+- face:
+  - 100511
+  - 6
+- emotion:
+  - question1_R
+  - 100511
+  - 120
+  - 450
+  - se_adv_emote_question_01
+- print:
+  - マツリ
+  - え？　
+- wait:
+  - 25
+- print:
+  - マツリ
+  - それだけッスか？
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050001_045
+- face:
+  - 100311
+  - 6
+- print:
+  - レイ
+  - 地獄へ続く道が怖いんじゃないかな。
+- wait:
+  - 60
+- print:
+  - レイ
+  - >2
+
+- face:
+  - 100311
+  - 1
+- print:
+  - レイ
+  - とりあえず進んでみよう。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_wood_walk_go_01
+- change:
+  - C
+  - LC
+  - 30
+- change:
+  - R
+  - RC
+  - 30
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- bgm:
+  - stop
+  - 1.5
+  - 1
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 501131
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_town_day_01
+- chara_full:
+  - 100511
+  - L
+  - 6
+- chara_full:
+  - 105411
+  - C
+  - 6
+- chara_full:
+  - 100311
+  - R
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M180_Ver2
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_046
+- face:
+  - 100511
+  - 6
+- print:
+  - マツリ
+  - 外に出ちゃったッス……
+- wait:
+  - 55
+- print:
+  - マツリ
+  - >2
+
+- face:
+  - 100511
+  - 4
+- print:
+  - マツリ
+  - 正しい道選んじゃったみたいッスね……
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050001_047
+- face:
+  - 100311
+  - 6
+- emotion:
+  - sweat1_R
+  - 100311
+  - 85
+  - 480
+  - se_adv_emote_sweat_01
+- print:
+  - レイ
+  - こ、
+- wait:
+  - 25
+- print:
+  - レイ
+  - これで終わり？
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_048
+- face:
+  - 105411
+  - 4
+- print:
+  - ツムギ
+  - なんだったんですか、
+- wait:
+  - 25
+- print:
+  - ツムギ
+  - このお化け屋敷。
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_049
+- face:
+  - 100511
+  - 1
+- nod:
+  - 100511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - マツリ
+  - きっと
+- wait:
+  - 10
+- print:
+  - マツリ
+  - もう一つの道が怖かったんスよ！
+- wait:
+  - 40
+- print:
+  - マツリ
+  - >2-
+
+    確かめに行くッス！
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_050
+- face:
+  - 105411
+  - 4
+- print:
+  - ツムギ
+  - あの感じだと期待できないと思いますけど……
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050001_051
+- face:
+  - 100311
+  - 4
+- print:
+  - レイ
+  - そう、
+- wait:
+  - 30
+- print:
+  - レイ
+  - だね……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100511
+  - C
+  - 1
+- fadein:
+  - 100511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_052
+- face:
+  - 100511
+  - 1
+- print:
+  - マツリ
+  - それなら
+- wait:
+  - 15
+- print:
+  - マツリ
+  - 自分一人で確かめてくるッス！
+- wait:
+  - 50
+- print:
+  - マツリ
+  - >2
+
+- face:
+  - 100511
+  - 6
+- print:
+  - マツリ
+  - あ、
+- wait:
+  - 30
+- print:
+  - マツリ
+  - やっぱり
+- wait:
+  - 30
+- print:
+  - マツリ
+  - '{0}さんには一緒に来てほしいッス！'
+- wait:
+  - 50
+- print:
+  - マツリ
+  - >2
+
+- face:
+  - 100511
+  - 3
+- print:
+  - マツリ
+  - こ、
+- wait:
+  - 15
+- print:
+  - マツリ
+  - 怖いからとかじゃないッスよ！
+- touch: *o0
+- choice:
+  - 行く！
+  - 1
+- tag:
+  - 1
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_053
+- face:
+  - 100511
+  - 1
+- nod:
+  - 100511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - マツリ
+  - 感謝するッス！　
+- wait:
+  - 45
+- face:
+  - 100511
+  - 2
+- print:
+  - マツリ
+  - それじゃあ、
+- wait:
+  - 15
+- print:
+  - マツリ
+  - 行ってくるッス！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - LC
+  - C
+  - 30
+- fadeout:
+  - 100511
+  - 30
+- chara_full:
+  - 105411
+  - C
+  - 4
+- fadein:
+  - 105411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_054
+- face:
+  - 105411
+  - 4
+- print:
+  - ツムギ
+  - 無駄な気はしますけど……
+- wait:
+  - 45
+- print:
+  - ツムギ
+  - いってらっしゃい。
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 2
+- fadeout:
+  - 105411
+  - 30
+- bgm:
+  - stop
+  - 2
+- black_out:
+  - 1
+  - 1
+- amb:
+  - amb_adv_town_day_01
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 100511
+  - L
+  - 6
+- chara_full:
+  - 105411
+  - RC
+  - 1
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - true
+- bgm:
+  - bgm_M244
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_055
+- face:
+  - 100511
+  - 6
+- emotion:
+  - question1_R
+  - 100511
+  - 120
+  - 450
+  - se_adv_emote_question_01
+- print:
+  - マツリ
+  - あ、
+- wait:
+  - 40
+- print:
+  - マツリ
+  - あれ？
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_056
+- face:
+  - 105411
+  - 6
+- print:
+  - ツムギ
+  - おかえりなさい。
+- wait:
+  - 25
+- print:
+  - ツムギ
+  - きちんと怖かったですか？
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_057
+- face:
+  - 100511
+  - 4
+- print:
+  - マツリ
+  - いやそれが、
+- wait:
+  - 35
+- print:
+  - マツリ
+  - さっきと違う道を選んだのに
+- wait:
+  - 45
+- print:
+  - マツリ
+  - >2-
+
+    また外に出ちゃったッス……
+- wait:
+  - 60
+- face:
+  - 100511
+  - 6
+- print:
+  - マツリ
+  - どういう
+- wait:
+  - 10
+- print:
+  - マツリ
+  - ことッスか？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105411
+  - 30
+- chara_full:
+  - 6011
+  - RC
+  - 2
+- fadein:
+  - 6011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 6011
+- bust:
+  - 6011
+  - 0
+- vo:
+  - vo_adv_5050001_058
+- face:
+  - 6011
+  - 2
+- emotion:
+  - note1_L
+  - 6011
+  - -120
+  - 345
+  - se_adv_emote_note_01
+- print:
+  - 小悪魔
+  - あはは！
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_059
+- face:
+  - 100511
+  - 6
+- print:
+  - マツリ
+  - あ、
+- wait:
+  - 10
+- print:
+  - マツリ
+  - あんたはさっきの！　
+- wait:
+  - 30
+- print:
+  - マツリ
+  - これはどういうことッスか！
+- touch: *o0
+- focus:
+  - 6011
+- bust:
+  - 6011
+  - 0
+- vo:
+  - vo_adv_5050001_060
+- face:
+  - 6011
+  - 1
+- print:
+  - 小悪魔
+  - どっちの道進んでも外に出ちゃうんだよ！　
+- wait:
+  - 45
+- print:
+  - 小悪魔
+  - 怖いだろ！　
+- wait:
+  - 30
+- face:
+  - 6011
+  - 2
+- print:
+  - 小悪魔
+  - あはは！
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_061
+- face:
+  - 100511
+  - 1
+- print:
+  - マツリ
+  - あ、
+- wait:
+  - 15
+- print:
+  - マツリ
+  - そういうことだったスか。
+- wait:
+  - 35
+- face:
+  - 100511
+  - 2
+- print:
+  - マツリ
+  - これは一本取られたッス！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105411
+  - C
+  - 4
+- fadein:
+  - 105411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_062
+- face:
+  - 105411
+  - 4
+- nod:
+  - 105411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ツムギ
+  - いや、
+- wait:
+  - 15
+- print:
+  - ツムギ
+  - マツリさんが二周したから分かっただけで、
+- wait:
+  - 35
+- print:
+  - ツムギ
+  - >2-
+
+    普通のお客さんは正しい道を選んだとしか思わないですよ？
+- wait:
+  - 60
+- print:
+  - ツムギ
+  - >2-
+
+    だいたいそれのどこが怖いんですか？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105411
+  - 30
+- chara_full:
+  - 100511
+  - LC
+  - 6
+- chara_full:
+  - 6011
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100511:6011
+- bgm:
+  - stop
+  - 3
+  - 1
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5050001_063
+- multi_talk:
+  - 100511:6011
+- face:
+  - 1
+  - 1
+- print:
+  - 二人
+  - ………………
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 38
+- change_window:
+  - 3
+- window_visible:
+  - true
+- bgm:
+  - bgm_M11_02_Edit
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5050001_064
+- multi_talk:
+  - 100511:6011
+- face:
+  - 1
+  - 1
+- se:
+  - se_adv_mie_01
+- effect:
+  - 9
+- print:
+  - 二人
+  - …………ほんとだ！！！！
+- touch: *o0
+- window_visible:
+  - false
+- effect_delete:
+  - 0009
+- text_size:
+  - 23
+- change_window:
+  - 1
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105411
+  - LC
+  - 6
+- chara_full:
+  - 100311
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050001_065
+- face:
+  - 100311
+  - 4
+- emotion:
+  - sweat1_R
+  - 100311
+  - 85
+  - 480
+  - se_adv_emote_sweat_01
+- print:
+  - レイ
+  - あはは……
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_066
+- face:
+  - 105411
+  - 4
+- eye_open:
+  - FALSE
+- print:
+  - ツムギ
+  - はぁ～……
+- wait:
+  - 30
+- eye_open:
+  - True
+- print:
+  - ツムギ
+  - なんなんですか、
+- wait:
+  - 15
+- print:
+  - ツムギ
+  - このお化け屋敷は。
+- wait:
+  - 40
+- print:
+  - ツムギ
+  - >2
+
+- face:
+  - 105411
+  - 3
+- print:
+  - ツムギ
+  - まったく怖くないし、
+- wait:
+  - 30
+- print:
+  - ツムギ
+  - 何がしたいのかも分からないし。
+- touch: *o0
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 1
+- vo:
+  - vo_adv_5050001_067
+- face:
+  - 5711
+  - 4
+- print:
+  - マシュー
+  - 怖くなかった……？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100511
+  - C
+  - 6
+- fadein:
+  - 100511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_068
+- face:
+  - 100511
+  - 6
+- emotion:
+  - notice1_L
+  - 100511
+  - -50
+  - 490
+  - se_adv_emote_common_01
+- print:
+  - マツリ
+  - この声、
+- wait:
+  - 30
+- print:
+  - マツリ
+  - 入り口で会った
+- wait:
+  - 10
+- print:
+  - マツリ
+  - マシューさんッスか？
+- wait:
+  - 30
+- print:
+  - マツリ
+  - >2-
+
+    どこにいるッス？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 5711
+  - C
+  - 8
+- se:
+  - se_adv_cold_wind_01
+- se_pause:
+  - se_adv_cold_wind_01
+  - 1.3
+- se:
+  - se_adv_creature_flap_01
+- se_pause:
+  - se_adv_creature_flap_01
+  - 1.5
+- updown:
+  - 5711
+  - 0
+  - -150
+  - 0.2
+- fadein:
+  - 5711
+  - 15
+- updown:
+  - 5711
+  - 0
+  - 150
+  - 0.5
+- window_visible:
+  - true
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_069
+- face:
+  - 5711
+  - 8
+- print:
+  - マシュー
+  - ここだよ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 5711
+  - 30
+- chara_full:
+  - 105411
+  - LC
+  - 4
+- chara_full:
+  - 5711
+  - RC
+  - 8
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_070
+- face:
+  - 105411
+  - 4
+- nod:
+  - 105411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ツムギ
+  - ああ、
+- wait:
+  - 10
+- print:
+  - ツムギ
+  - マシューさん。
+- wait:
+  - 20
+- print:
+  - ツムギ
+  - すみません、
+- wait:
+  - 15
+- print:
+  - ツムギ
+  - 見えていませんでした。
+- touch: *o0
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_071
+- face:
+  - 5711
+  - 4
+- print:
+  - マシュー
+  - ボ、
+- wait:
+  - 25
+- print:
+  - マシュー
+  - ボク
+- wait:
+  - 20
+- print:
+  - マシュー
+  - いきなり出てきたんだけどな……
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_072
+- face:
+  - 105411
+  - 6
+- emotion:
+  - question1_R
+  - 105411
+  - 95
+  - 500
+  - se_adv_emote_question_01
+- print:
+  - ツムギ
+  - ん？　
+- wait:
+  - 15
+- print:
+  - ツムギ
+  - どういうことですか？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 5711
+  - C
+  - 1
+- fadein:
+  - 5711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_073
+- face:
+  - 5711
+  - 1
+- print:
+  - マシュー
+  - ほら、
+- wait:
+  - 10
+- print:
+  - マシュー
+  - こんな風に！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_cold_wind_01
+- se_pause:
+  - se_adv_cold_wind_01
+  - 1.3
+- se:
+  - se_adv_creature_flap_01
+- se_pause:
+  - se_adv_creature_flap_01
+  - 1.5
+- updown:
+  - 5711
+  - 0
+  - -150
+  - 0.3
+- fadeout:
+  - 5711
+  - 15
+- chara_full:
+  - 100511
+  - LC
+  - 6
+- chara_full:
+  - 100311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_074
+- face:
+  - 100511
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100511
+  - 25
+  - 595
+  - se_adv_emote_common_01
+- print:
+  - マツリ
+  - すごい！　
+- wait:
+  - 20
+- print:
+  - マツリ
+  - マシューさんが消えたッス！
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050001_075
+- face:
+  - 100311
+  - 6
+- print:
+  - レイ
+  - 姿を消す魔法か……
+- wait:
+  - 55
+- face:
+  - 100311
+  - 1
+- print:
+  - レイ
+  - 本当にすごいな。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100311
+  - 30
+- chara_full:
+  - 5711
+  - RC
+  - 4
+- se:
+  - se_adv_cold_wind_01
+- se_pause:
+  - se_adv_cold_wind_01
+  - 1.3
+- se:
+  - se_adv_creature_flap_01
+- se_pause:
+  - se_adv_creature_flap_01
+  - 1.5
+- updown:
+  - 5711
+  - 0
+  - -150
+  - 0.2
+- fadein:
+  - 5711
+  - 15
+- updown:
+  - 5711
+  - 0
+  - 150
+  - 0.5
+- window_visible:
+  - true
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_076
+- face:
+  - 5711
+  - 4
+- print:
+  - マシュー
+  - 魔法じゃないよ！　
+- wait:
+  - 25
+- print:
+  - マシュー
+  - もう！　
+- wait:
+  - 5
+- print:
+  - マシュー
+  - なんで怖がってくれないのさ！
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_077
+- face:
+  - 100511
+  - 6
+- print:
+  - マツリ
+  - 今度は急に出てきたッス！　
+- wait:
+  - 40
+- print:
+  - マツリ
+  - どうなってるッスか？
+- touch: *o0
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_078
+- face:
+  - 5711
+  - 1
+- print:
+  - マシュー
+  - 体の形を変えただけだよ？
+- wait:
+  - 45
+- print:
+  - マシュー
+  - >2-
+
+    ボクはウィルオウィスプのお化けだからね！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100511
+  - 30
+- chara_full:
+  - 105411
+  - LC
+  - 6
+- fadein:
+  - 105411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_079
+- face:
+  - 105411
+  - 6
+- nod:
+  - 105411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ツムギ
+  - なるほど。
+- wait:
+  - 20
+- print:
+  - ツムギ
+  - そういう設定ですか。
+- wait:
+  - 45
+- print:
+  - ツムギ
+  - >2
+
+- face:
+  - 105411
+  - 1
+- print:
+  - ツムギ
+  - お化け屋敷らしくていいと思います。
+- touch: *o0
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_080
+- face:
+  - 5711
+  - 4
+- print:
+  - マシュー
+  - 設定じゃないよ！　
+- wait:
+  - 25
+- print:
+  - マシュー
+  - 本物のお化けだもん！　
+- wait:
+  - 30
+- print:
+  - マシュー
+  - ね？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 5711
+  - 30
+- chara_full:
+  - 6011
+  - RC
+  - 1
+- fadein:
+  - 6011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 6011
+- bust:
+  - 6011
+  - 0
+- vo:
+  - vo_adv_5050001_081
+- face:
+  - 6011
+  - 1
+- print:
+  - エディ
+  - ああ。
+- wait:
+  - 15
+- print:
+  - エディ
+  - オレたちはみんなお化けだぞ？　
+- wait:
+  - 45
+- print:
+  - エディ
+  - オレは
+- wait:
+  - 15
+- print:
+  - エディ
+  - イタズラ悪魔のエディ。
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_082
+- face:
+  - 105411
+  - 4
+- print:
+  - ツムギ
+  - はぁ……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 5711
+  - C
+  - 3
+- fadein:
+  - 5711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_083
+- face:
+  - 5711
+  - 3
+- print:
+  - マシュー
+  - まだ信じてないね！　
+- wait:
+  - 45
+- face:
+  - 5711
+  - 1
+- print:
+  - マシュー
+  - おーい、
+- wait:
+  - 30
+- print:
+  - マシュー
+  - みんな出てきてー！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 3
+- fadeout:
+  - 5711
+  - 30
+- wait:
+  - 10
+- chara_full:
+  - 5811
+  - C
+  - 1
+- chara_full:
+  - 5911
+  - R
+  - 1
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - C
+  - 45
+- change:
+  - RC
+  - R
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - true
+- bgm:
+  - bgm_M414_03
+  - 0
+  - 0
+  - 1
+- focus:
+  - 5911
+- bust:
+  - 5911
+  - 0
+- vo:
+  - vo_adv_5050001_084
+- face:
+  - 5911
+  - 1
+- print:
+  - ミイラ
+  - なんだ～？
+- touch: *o0
+- focus:
+  - 5811
+- bust:
+  - 5811
+  - 0
+- vo:
+  - vo_adv_5050001_085
+- face:
+  - 5811
+  - 1
+- print:
+  - オオカミ男
+  - どうしたの～？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100511
+  - LC
+  - 1
+- chara_full:
+  - 5711
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_086
+- face:
+  - 5711
+  - 1
+- print:
+  - マシュー
+  - ミイラのヒューズと
+- wait:
+  - 10
+- print:
+  - マシュー
+  - オオカミ男のビクターだよ！
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_087
+- face:
+  - 100511
+  - 1
+- print:
+  - マツリ
+  - ヒューズさんと
+- wait:
+  - 20
+- print:
+  - マツリ
+  - ビクターさんッスか。
+- wait:
+  - 30
+- face:
+  - 100511
+  - 2
+- print:
+  - マツリ
+  - よろしくッス。
+- touch: *o0
+- face:
+  - 100511
+  - 1
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_088
+- face:
+  - 5711
+  - 3
+- print:
+  - マシュー
+  - ほら！　
+- wait:
+  - 15
+- print:
+  - マシュー
+  - お化けだよ！　
+- wait:
+  - 15
+- print:
+  - マシュー
+  - 怖くない！？
+- wait:
+  - 15
+- print:
+  - マシュー
+  - >2-
+
+    悲鳴をあげたくならない！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105411
+  - LC
+  - 4
+- chara_full:
+  - 100311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_089
+- face:
+  - 105411
+  - 4
+- emotion:
+  - sweat1_R
+  - 105411
+  - 80
+  - 540
+  - se_adv_emote_sweat_01
+- print:
+  - ツムギ
+  - 怖くないかと言われても……
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050001_090
+- face:
+  - 100311
+  - 4
+- print:
+  - レイ
+  - どちらかといえば
+- wait:
+  - 25
+- print:
+  - レイ
+  - かわいい、
+- wait:
+  - 35
+- print:
+  - レイ
+  - だな。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100311
+  - 30
+- chara_full:
+  - 5711
+  - RC
+  - 4
+- fadein:
+  - 5711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_091
+- face:
+  - 5711
+  - 4
+- emotion:
+  - drop1_R
+  - 5711
+  - 65
+  - 550
+  - se_adv_emote_drop_01
+- print:
+  - マシュー
+  - そんなぁ……
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_092
+- face:
+  - 105411
+  - 4
+- print:
+  - ツムギ
+  - 何を残念がってるのかさっぱり分からないんですけど……
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+  - 1
+- fadeout_all:
+  - 30
+- chara_full:
+  - 6011
+  - LC
+  - 4
+- chara_full:
+  - 5911
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M123
+- focus:
+  - 5911
+- bust:
+  - 5911
+  - 0
+- vo:
+  - vo_adv_5050001_093
+- face:
+  - 5911
+  - 4
+- print:
+  - ヒューズ
+  - マシュー、
+- wait:
+  - 25
+- print:
+  - ヒューズ
+  - 諦めようぜ。
+- wait:
+  - 35
+- print:
+  - ヒューズ
+  - >2-
+
+    どうせ
+- wait:
+  - 10
+- print:
+  - ヒューズ
+  - オレサマたちは
+- wait:
+  - 15
+- print:
+  - ヒューズ
+  - 何やってもダメなんだよ。
+- touch: *o0
+- focus:
+  - 6011
+- bust:
+  - 6011
+  - 0
+- vo:
+  - vo_adv_5050001_094
+- face:
+  - 6011
+  - 4
+- nod:
+  - 6011
+- print:
+  - エディ
+  - そうだな……
+- wait:
+  - 30
+- print:
+  - エディ
+  - >2-
+
+    きっと今年も
+- wait:
+  - 20
+- print:
+  - エディ
+  - 誰を怖がらせることなく霊界に帰るんだよ……
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+- choice:
+  - キミたち霊界から来たの？
+  - 2
+- tag:
+  - 2
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105411
+  - LC
+  - 6
+- chara_full:
+  - 5711
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M288
+  - 0
+  - 0
+  - 1
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_095
+- face:
+  - 5711
+  - 6
+- print:
+  - マシュー
+  - そうだよ！　
+- wait:
+  - 20
+- print:
+  - マシュー
+  - おにいちゃん
+- wait:
+  - 10
+- print:
+  - マシュー
+  - 霊界を知ってるの！？
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_096
+- face:
+  - 105411
+  - 4
+- print:
+  - ツムギ
+  - 騎士さん、
+- wait:
+  - 15
+- print:
+  - ツムギ
+  - 別に乗ってあげなくても……
+- wait:
+  - 35
+- face:
+  - 105411
+  - 6
+- print:
+  - ツムギ
+  - って、
+- wait:
+  - 20
+- print:
+  - ツムギ
+  - あれ？
+- wait:
+  - 30
+- print:
+  - ツムギ
+  - >2-
+
+    その顔はそういうんじゃなさそうですね。
+- wait:
+  - 50
+- print:
+  - ツムギ
+  - >2-
+
+    本当に霊界を知ってるんですか？
+- touch: *o0
+- choice:
+  - いろいろあった。
+  - 3
+- choice:
+  - 行ったことがある。
+  - 4
+- tag:
+  - 3
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_097
+- face:
+  - 105411
+  - 4
+- print:
+  - ツムギ
+  - 騎士さんが言ういろいろって本当にいろいろすぎて、
+- wait:
+  - 45
+- print:
+  - ツムギ
+  - >2-
+
+    不思議と納得しちゃうんですよね……
+- wait:
+  - 40
+- print:
+  - ツムギ
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - ツムギ
+  - 何言ってるかはさっぱり分からないんですけど。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100311
+  - C
+  - 4
+- fadein:
+  - 100311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050001_098
+- face:
+  - 100311
+  - 4
+- print:
+  - レイ
+  - そ、
+- wait:
+  - 10
+- print:
+  - レイ
+  - そうだね。
+- wait:
+  - 45
+- print:
+  - レイ
+  - >2
+
+- face:
+  - 100311
+  - 6
+- print:
+  - レイ
+  - でも
+- wait:
+  - 15
+- print:
+  - レイ
+  - 彼がそう言うなら
+- wait:
+  - 30
+- print:
+  - レイ
+  - この子たちは本当に……
+- wait:
+  - 45
+- print:
+  - レイ
+  - お化け？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100311
+  - 30
+- chara_full:
+  - 105411
+  - LC
+  - 4
+- chara_full:
+  - 5711
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- goto:
+  - 5
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100511
+  - C
+  - 6
+- fadein:
+  - 100511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_099
+- face:
+  - 100511
+  - 6
+- emotion:
+  - surprise1_L
+  - 100511
+  - 150
+  - 495
+  - se_adv_emote_common_01
+- print:
+  - マツリ
+  - 霊界にッスか！？
+- wait:
+  - 45
+- print:
+  - マツリ
+  - >2-
+
+    {0}さん、
+- wait:
+  - 25
+- print:
+  - マツリ
+  - 本当にいろんなところに行ってるッスね。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100511
+  - 30
+- chara_full:
+  - 105411
+  - LC
+  - 3
+- chara_full:
+  - 5711
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_100
+- face:
+  - 105411
+  - 3
+- print:
+  - ツムギ
+  - そんな衝撃的なことをサラッと言わないでください！
+- wait:
+  - 45
+- print:
+  - ツムギ
+  - >2
+
+- face:
+  - 105411
+  - 6
+- print:
+  - ツムギ
+  - え？　
+- wait:
+  - 10
+- print:
+  - ツムギ
+  - っていうことは
+- wait:
+  - 10
+- print:
+  - ツムギ
+  - この子たち本当にお化けなんですか？
+- touch: *o0
+- tag:
+  - 5
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_101
+- face:
+  - 105411
+  - 4
+- print:
+  - ツムギ
+  - そんなのありえない、
+- wait:
+  - 20
+- print:
+  - ツムギ
+  - って言いたいところですけど……
+- wait:
+  - 60
+- print:
+  - ツムギ
+  - >2
+
+- face:
+  - 105411
+  - 6
+- print:
+  - ツムギ
+  - そう言われると納得いくところもありますね。
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_102
+- face:
+  - 105411
+  - 6
+- print:
+  - ツムギ
+  - マシューさんの衣装、
+- wait:
+  - 25
+- print:
+  - ツムギ
+  - 作り物って感じじゃありませんし。
+- wait:
+  - 50
+- print:
+  - ツムギ
+  - >2-
+
+    ちょっといいですか。
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 5711
+  - 6
+- focus:
+  - 105411:5711
+- nod:
+  - 105411
+- se:
+  - se_adv_body_pull_01
+- shake:
+  - 5711
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_103
+- face:
+  - 5711
+  - 5
+- print:
+  - マシュー
+  - わわっ、
+- wait:
+  - 25
+- print:
+  - マシュー
+  - くすぐったいよ～
+- touch: *o0
+- se:
+  - se_adv_cloth_move_normal_01
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_104
+- face:
+  - 105411
+  - 6
+- print:
+  - ツムギ
+  - やっぱり。
+- wait:
+  - 35
+- print:
+  - ツムギ
+  - この感じ、
+- wait:
+  - 20
+- print:
+  - ツムギ
+  - 作り物じゃないです。
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 5711
+  - 1
+- fadeout:
+  - 105411
+  - 30
+- chara_full:
+  - 100311
+  - LC
+  - 6
+- fadein:
+  - 100311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050001_105
+- face:
+  - 100311
+  - 6
+- print:
+  - レイ
+  - い、
+- wait:
+  - 15
+- print:
+  - レイ
+  - いや……
+- wait:
+  - 20
+- print:
+  - レイ
+  - そもそもお化けってなんだい？　
+- wait:
+  - 30
+- print:
+  - レイ
+  - 魔物とは違うの？
+- touch: *o0
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_106
+- face:
+  - 5711
+  - 3
+- nod:
+  - 5711
+- print:
+  - マシュー
+  - 違うよ！　
+- wait:
+  - 20
+- print:
+  - マシュー
+  - 魔物は人を襲う悪いやつでしょ！
+- wait:
+  - 45
+- print:
+  - マシュー
+  - >2-
+
+    ボクたちはそんなことしないもん！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 5711
+  - 30
+- chara_full:
+  - 5911
+  - RC
+  - 3
+- fadein:
+  - 5911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 5911
+- bust:
+  - 5911
+  - 0
+- vo:
+  - vo_adv_5050001_107
+- face:
+  - 5911
+  - 3
+- print:
+  - ヒューズ
+  - ああ！　
+- wait:
+  - 25
+- print:
+  - ヒューズ
+  - お化けは
+- wait:
+  - 15
+- print:
+  - ヒューズ
+  - 人を怖がらせて食べるだけだ！
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050001_108
+- face:
+  - 100311
+  - 6
+- emotion:
+  - question1_R
+  - 100311
+  - 100
+  - 510
+  - se_adv_emote_question_01
+- print:
+  - レイ
+  - ……え？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100511
+  - LC
+  - 6
+- chara_full:
+  - 105411
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_109
+- face:
+  - 105411
+  - 4
+- print:
+  - ツムギ
+  - そ、
+- wait:
+  - 30
+- print:
+  - ツムギ
+  - それって……
+- touch: *o0
+- bgm:
+  - bgm_M357
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_110
+- face:
+  - 100511
+  - 6
+- print:
+  - マツリ
+  - めちゃくちゃ悪いやつじゃないッスか！
+- wait:
+  - 30
+- print:
+  - マツリ
+  - >2
+
+- face:
+  - 100511
+  - 3
+- print:
+  - マツリ
+  - そんなのが町に居るなんて！　
+- wait:
+  - 40
+- print:
+  - マツリ
+  - 成敗してやるッス！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+- fadeout_all:
+  - 30
+- chara_full:
+  - 5711
+  - LC
+  - 6
+- chara_full:
+  - 5811
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M274
+  - 0
+  - 0
+  - 1
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_111
+- face:
+  - 5711
+  - 6
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 5711
+- print:
+  - マシュー
+  - わー！　
+- wait:
+  - 10
+- print:
+  - マシュー
+  - 違う！　
+- wait:
+  - 10
+- print:
+  - マシュー
+  - 違うよ！　
+- wait:
+  - 15
+- print:
+  - マシュー
+  - 大事なものが抜けてる！
+- wait:
+  - 20
+- print:
+  - マシュー
+  - >2-
+
+    ボクたちは、
+- wait:
+  - 10
+- print:
+  - マシュー
+  - 人が怖がってあげる悲鳴を食べるんだ！
+- touch: *o0
+- focus:
+  - 5811
+- bust:
+  - 5811
+  - 0
+- vo:
+  - vo_adv_5050001_112
+- face:
+  - 5811
+  - 4
+- print:
+  - ビクター
+  - でもオイラたち……
+- wait:
+  - 45
+- print:
+  - ビクター
+  - >2-
+
+    一度も悲鳴、
+- wait:
+  - 35
+- print:
+  - ビクター
+  - 食べたことない……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 6011
+  - LC
+  - 4
+- chara_full:
+  - 5911
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 6011
+- bust:
+  - 6011
+  - 0
+- vo:
+  - vo_adv_5050001_113
+- face:
+  - 6011
+  - 4
+- print:
+  - エディ
+  - 悲鳴って
+- wait:
+  - 40
+- print:
+  - エディ
+  - どんな味なんだろうな……
+- touch: *o0
+- focus:
+  - 5911
+- bust:
+  - 5911
+  - 0
+- vo:
+  - vo_adv_5050001_114
+- face:
+  - 5911
+  - 4
+- nod:
+  - 5911
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ヒューズ
+  - きっとおいしいんだろうぜ……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100511
+  - L
+  - 4
+- chara_full:
+  - 105411
+  - C
+  - 6
+- chara_full:
+  - 100311
+  - R
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_115
+- face:
+  - 100511
+  - 4
+- emotion:
+  - sweat1_R
+  - 100511
+  - 100
+  - 475
+  - se_adv_emote_sweat_01
+- print:
+  - マツリ
+  - せ、
+- wait:
+  - 45
+- print:
+  - マツリ
+  - 成敗
+- wait:
+  - 30
+- print:
+  - マツリ
+  - した方が……
+- wait:
+  - 55
+- print:
+  - マツリ
+  - いいんスかね？
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050001_116
+- face:
+  - 100311
+  - 6
+- print:
+  - レイ
+  - えっと……
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_117
+- face:
+  - 105411
+  - 4
+- print:
+  - ツムギ
+  - そこはまぁ
+- wait:
+  - 25
+- print:
+  - ツムギ
+  - >-
+    【王宮騎士団（NIGHTMARE）】である
+
+    マツリさんの判断にお任せですかね？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 5711
+  - LC
+  - 6
+- chara_full:
+  - 6011
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_118
+- face:
+  - 5711
+  - 6
+- emotion:
+  - surprise1_L
+  - 5711
+  - 145
+  - 410
+  - se_adv_emote_common_01
+- print:
+  - マシュー
+  - 【王宮騎士団（NIGHTMARE）】！？
+- wait:
+  - 20
+- print:
+  - マシュー
+  - >2-
+
+    ど、
+- wait:
+  - 10
+- print:
+  - マシュー
+  - どうしよう！　
+- wait:
+  - 10
+- print:
+  - マシュー
+  - 一番バレちゃいけない人にバレちゃったよ！
+- touch: *o0
+- focus:
+  - 6011
+- bust:
+  - 6011
+  - 0
+- vo:
+  - vo_adv_5050001_119
+- face:
+  - 6011
+  - 6
+- print:
+  - エディ
+  - お、
+- wait:
+  - 15
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 6011
+- print:
+  - エディ
+  - おまえなんでお化けってバラしたんだよ！
+- wait:
+  - 40
+- print:
+  - エディ
+  - >2-
+
+    バラしちゃダメって言われてただろ！
+- touch: *o0
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_120
+- face:
+  - 5711
+  - 4
+- print:
+  - マシュー
+  - だ、
+- wait:
+  - 5
+- print:
+  - マシュー
+  - だって、
+- wait:
+  - 15
+- print:
+  - マシュー
+  - お化けって言えば悲鳴あげてくれるかな、
+- wait:
+  - 40
+- print:
+  - マシュー
+  - って！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100511
+  - LC
+  - 6
+- chara_full:
+  - 5811
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 5811
+- bust:
+  - 5811
+  - 0
+- vo:
+  - vo_adv_5050001_121
+- face:
+  - 5811
+  - 4
+- print:
+  - ビクター
+  - や、
+- wait:
+  - 10
+- print:
+  - ビクター
+  - やめて、
+- wait:
+  - 30
+- print:
+  - ビクター
+  - オイラ、
+- wait:
+  - 10
+- print:
+  - ビクター
+  - 痛いのはイヤだよ……
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_122
+- face:
+  - 100511
+  - 4
+- emotion:
+  - sweat1_R
+  - 100511
+  - 100
+  - 475
+  - se_adv_emote_sweat_01
+- print:
+  - マツリ
+  - あの、
+- wait:
+  - 15
+- print:
+  - マツリ
+  - なんか、
+- wait:
+  - 30
+- print:
+  - マツリ
+  - 自分が悪いことしてる気になるんスけど……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100311
+  - LC
+  - 6
+- chara_full:
+  - 5711
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050001_123
+- face:
+  - 100311
+  - 6
+- print:
+  - レイ
+  - とりあえず、
+- wait:
+  - 30
+- print:
+  - レイ
+  - もう少しだけ話を聞いてみてもいいんじゃないかな。
+- touch: *o0
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_124
+- face:
+  - 5711
+  - 4
+- print:
+  - マシュー
+  - 話す！　
+- wait:
+  - 10
+- pop:
+  - 5711
+- print:
+  - マシュー
+  - 話すよ！　
+- wait:
+  - 15
+- print:
+  - マシュー
+  - 全部話すから！
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 2
+- fadeout_all:
+  - 30
+- bgm:
+  - stop
+  - 2
+  - 1
+- black_out:
+  - 1
+  - 1
+- amb:
+  - amb_adv_town_day_01
+- wait:
+  - 30
+- black_in: *o0
+- chara_full:
+  - 100511
+  - LC
+  - 1
+- chara_full:
+  - 5911
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M414_02
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_125
+- face:
+  - 100511
+  - 1
+- nod:
+  - 100511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - マツリ
+  - なるほど。
+- wait:
+  - 30
+- print:
+  - マツリ
+  - >2-
+
+    お化けっていうのは
+- wait:
+  - 30
+- print:
+  - マツリ
+  - 毎年
+- wait:
+  - 15
+- print:
+  - マツリ
+  - ハロウィンの時期だけこっちに来て、
+- wait:
+  - 35
+- print:
+  - マツリ
+  - >2-
+
+    人の悲鳴を食べることで成長するんスね。
+- touch: *o0
+- focus:
+  - 5911
+- bust:
+  - 5911
+  - 0
+- vo:
+  - vo_adv_5050001_126
+- face:
+  - 5911
+  - 1
+- print:
+  - ヒューズ
+  - このお化け屋敷も
+- wait:
+  - 25
+- print:
+  - ヒューズ
+  - 悲鳴を食べるためにがんばってるんだぜ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105411
+  - LC
+  - 4
+- chara_full:
+  - 5711
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_127
+- face:
+  - 105411
+  - 4
+- print:
+  - ツムギ
+  - 全然怖くないお化け屋敷でしたけどね。
+- touch: *o0
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_128
+- face:
+  - 5711
+  - 4
+- nod:
+  - 5711
+- print:
+  - マシュー
+  - うん……
+- wait:
+  - 30
+- print:
+  - マシュー
+  - 毎年毎年全然怖がってもらえなくて。
+- wait:
+  - 75
+- print:
+  - マシュー
+  - >2-
+
+    だからボクたち
+- wait:
+  - 25
+- print:
+  - マシュー
+  - ずーっと一人前になれないんだ……
+- wait:
+  - 55
+- print:
+  - マシュー
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - マシュー
+  - どこがいけないのかな……？
+- touch: *o0
+- window_visible:
+  - false
+- eye_open:
+  - true
+- fadeout:
+  - 105411
+  - 30
+- chara_full:
+  - 100511
+  - LC
+  - 4
+- fadein:
+  - 100511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_129
+- face:
+  - 100511
+  - 4
+- print:
+  - マツリ
+  - そう言われても……
+- touch: *o0
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_130
+- face:
+  - 5711
+  - 3
+- pop:
+  - 5711
+- print:
+  - マシュー
+  - もう他のお化けたちに馬鹿にされるのは嫌なんだ！
+- wait:
+  - 45
+- print:
+  - マシュー
+  - >2
+
+- face:
+  - 5711
+  - 4
+- print:
+  - マシュー
+  - お願い！　
+- wait:
+  - 15
+- print:
+  - マシュー
+  - ボクたちのどこがダメなのか教えて！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105411
+  - LC
+  - 6
+- chara_full:
+  - 5911
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_131
+- face:
+  - 105411
+  - 6
+- print:
+  - ツムギ
+  - いいんですか？
+- wait:
+  - 25
+- print:
+  - ツムギ
+  - >2-
+
+    そういうことはお客さんに聞くものじゃないと思いますよ。
+- wait:
+  - 45
+- print:
+  - ツムギ
+  - >2-
+
+    少しは自分たちで考えたらどうなんですか？
+- touch: *o0
+- focus:
+  - 5911
+- bust:
+  - 5911
+  - 0
+- vo:
+  - vo_adv_5050001_132
+- face:
+  - 5911
+  - 4
+- print:
+  - ヒューズ
+  - 考えた結果が……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 5911
+  - 30
+- chara_full:
+  - 6011
+  - RC
+  - 4
+- fadein:
+  - 6011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 6011
+- bust:
+  - 6011
+  - 0
+- vo:
+  - vo_adv_5050001_133
+- face:
+  - 6011
+  - 4
+- print:
+  - エディ
+  - 見てもらった通り、
+- wait:
+  - 45
+- print:
+  - エディ
+  - なんだよな……
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_134
+- face:
+  - 105411
+  - 4
+- emotion:
+  - gloomy1_R
+  - 105411
+  - 35
+  - 525
+  - se_adv_emote_gloomy_01
+- print:
+  - ツムギ
+  - うっ……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 5711
+  - C
+  - 4
+- fadein:
+  - 5711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_135
+- face:
+  - 5711
+  - 4
+- print:
+  - マシュー
+  - で、
+- wait:
+  - 5
+- print:
+  - マシュー
+  - でも
+- wait:
+  - 15
+- print:
+  - マシュー
+  - 一度くらい悲鳴を食べてみたいんだ！　
+- wait:
+  - 40
+- print:
+  - マシュー
+  - だから……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 5711
+  - 30
+- text_size:
+  - 38
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5050001_136
+- face:
+  - 1
+  - 1
+- effect:
+  - 9
+- se:
+  - se_adv_blanket_move_02
+- print:
+  - お化けたち
+  - お願い！
+- touch: *o0
+- window_visible:
+  - false
+- effect_delete:
+  - 0009
+- text_size:
+  - 23
+- chara_full:
+  - 105411
+  - C
+  - 4
+- fadein:
+  - 105411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_137
+- face:
+  - 105411
+  - 4
+- print:
+  - ツムギ
+  - そんな全員で言われても……
+- wait:
+  - 80
+- print:
+  - ツムギ
+  - >2
+
+- face:
+  - 105411
+  - 3
+- print:
+  - ツムギ
+  - はぁ～……
+- wait:
+  - 35
+- print:
+  - ツムギ
+  - 分かりましたよ。
+- wait:
+  - 30
+- print:
+  - ツムギ
+  - >2-
+
+    教えればいいんですよね、
+- wait:
+  - 15
+- print:
+  - ツムギ
+  - 教えれば。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105411
+  - 30
+- chara_full:
+  - 105411
+  - LC
+  - 3
+- chara_full:
+  - 5711
+  - RC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 3.5
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_138
+- face:
+  - 5711
+  - 2
+- print:
+  - マシュー
+  - ありがとう！
+- touch: *o0
+- face:
+  - 5711
+  - 1
+- bgm:
+  - bgm_M12
+  - 0
+  - 0
+  - 1
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_139
+- face:
+  - 105411
+  - 3
+- nod:
+  - 105411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ツムギ
+  - まずオオカミ男のビクターさん！
+- wait:
+  - 40
+- print:
+  - ツムギ
+  - >2-
+
+    あなたは鋭い牙や爪があるんだからそれで怖がらせてください！
+- wait:
+  - 65
+- print:
+  - ツムギ
+  - >2-
+
+    歌とか聞かされてもなごむだけです！　
+- wait:
+  - 30
+- print:
+  - ツムギ
+  - むしろ吠えてください！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 5711
+  - 30
+- chara_full:
+  - 5811
+  - RC
+  - 2
+- fadein:
+  - 5811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 5811
+- bust:
+  - 5811
+  - 0
+- vo:
+  - vo_adv_5050001_140
+- face:
+  - 5811
+  - 2
+- print:
+  - ビクター
+  - わ、
+- wait:
+  - 20
+- print:
+  - ビクター
+  - 分かった～
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_141
+- face:
+  - 105411
+  - 3
+- nod:
+  - 105411
+- se:
+  - se_adv_step_concrete_move_02
+- print:
+  - ツムギ
+  - 次にミイラのヒューズさん！　
+- wait:
+  - 25
+- print:
+  - ツムギ
+  - ボケっと立ってないでください！
+- wait:
+  - 20
+- print:
+  - ツムギ
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - ツムギ
+  - せっかく怖そうな見た目をしてるんだから、
+- wait:
+  - 30
+- print:
+  - ツムギ
+  - >2
+
+- eye_open:
+  - TRUE
+- print:
+  - ツムギ
+  - 置物のふりしていきなり動くくらいしてください！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 5811
+  - 30
+- chara_full:
+  - 5911
+  - RC
+  - 2
+- fadein:
+  - 5911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 5911
+- bust:
+  - 5911
+  - 0
+- vo:
+  - vo_adv_5050001_142
+- face:
+  - 5911
+  - 2
+- print:
+  - ヒューズ
+  - なるほど！　
+- wait:
+  - 30
+- print:
+  - ヒューズ
+  - それならお客さんの動きも見えるな！
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_143
+- face:
+  - 105411
+  - 3
+- print:
+  - ツムギ
+  - そして、
+- wait:
+  - 25
+- print:
+  - ツムギ
+  - イタズラ悪魔のエディさん。
+- wait:
+  - 30
+- print:
+  - ツムギ
+  - >2-
+
+    あなたはワケの分からないいたずらをしないで、
+- wait:
+  - 20
+- print:
+  - ツムギ
+  - >2-
+
+    きちんと怖い道を用意してください。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 5911
+  - 30
+- chara_full:
+  - 6011
+  - RC
+  - 2
+- fadein:
+  - 6011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 6011
+- bust:
+  - 6011
+  - 0
+- vo:
+  - vo_adv_5050001_144
+- face:
+  - 6011
+  - 2
+- print:
+  - エディ
+  - おう、
+- wait:
+  - 15
+- print:
+  - エディ
+  - 分かったぜ！
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_145
+- face:
+  - 105411
+  - 3
+- print:
+  - ツムギ
+  - 最後にマシューさん。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 6011
+  - 30
+- chara_full:
+  - 5711
+  - RC
+  - 6
+- fadein:
+  - 5711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_146
+- face:
+  - 5711
+  - 6
+- print:
+  - マシュー
+  - ゴクリ……
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_147
+- face:
+  - 105411
+  - 3
+- eye_open:
+  - FALSE
+- print:
+  - ツムギ
+  - あなたは姿を現す演出を工夫してください。
+- wait:
+  - 60
+- print:
+  - ツムギ
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - ツムギ
+  - 活きる見せ方はいくらでもあると思いますよ。
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_148
+- face:
+  - 105411
+  - 3
+- nod:
+  - 105411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ツムギ
+  - はい、
+- wait:
+  - 10
+- print:
+  - ツムギ
+  - 以上です。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5050001_149
+- face:
+  - 1
+  - 1
+- print:
+  - お化けたち
+  - …………
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 105411
+  - C
+  - 4
+- se:
+  - se_adv_step_concrete_move_01
+- fadein:
+  - 105411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_150
+- face:
+  - 105411
+  - 4
+- print:
+  - ツムギ
+  - それじゃあ、
+- wait:
+  - 15
+- print:
+  - ツムギ
+  - 私たちはこれで……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105411
+  - 30
+- chara_full:
+  - 105411
+  - LC
+  - 6
+- chara_full:
+  - 5711
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_151
+- face:
+  - 5711
+  - 6
+- print:
+  - マシュー
+  - ま、
+- wait:
+  - 5
+- print:
+  - マシュー
+  - 待って！！
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_152
+- face:
+  - 105411
+  - 6
+- print:
+  - ツムギ
+  - なんですか？　
+- wait:
+  - 25
+- print:
+  - ツムギ
+  - 言えって言われたから言っただけですよ。
+- touch: *o0
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_153
+- face:
+  - 5711
+  - 4
+- print:
+  - マシュー
+  - あの、
+- wait:
+  - 25
+- print:
+  - マシュー
+  - さ……
+- wait:
+  - 55
+- print:
+  - マシュー
+  - ボクたちを怖くするの、
+- wait:
+  - 30
+- print:
+  - マシュー
+  - 手伝ってくれないかな？
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_154
+- face:
+  - 105411
+  - 4
+- emotion:
+  - question1_R
+  - 105411
+  - 95
+  - 500
+  - se_adv_emote_question_01
+- print:
+  - ツムギ
+  - はい……？
+- touch: *o0
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_155
+- face:
+  - 5711
+  - 1
+- nod:
+  - 5711
+- print:
+  - マシュー
+  - おねえちゃん、
+- wait:
+  - 5
+- print:
+  - マシュー
+  - すごくいいアドバイスをくれたでしょ！
+- wait:
+  - 40
+- print:
+  - マシュー
+  - >2-
+
+    ボクたちだけじゃ全然気付けなかったよ……
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_156
+- face:
+  - 105411
+  - 4
+- eye_open:
+  - FALSE
+- print:
+  - ツムギ
+  - そこは自分で気付きましょうよ。
+- wait:
+  - 45
+- print:
+  - ツムギ
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - ツムギ
+  - だいたいなんで私がそんなこと……
+- touch: *o0
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_157
+- face:
+  - 5711
+  - 3
+- print:
+  - マシュー
+  - ボクたち
+- wait:
+  - 10
+- print:
+  - マシュー
+  - 悲鳴を食べて一人前のお化けになりたいんだ！
+- wait:
+  - 40
+- print:
+  - マシュー
+  - >2-
+
+    そのためには怖くならなきゃいけないんだ！
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
+- choice:
+  - 手伝うよ。
+  - 6
+- tag:
+  - 6
+- bgm:
+  - bgm_M173_NoBell
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_158
+- face:
+  - 105411
+  - 6
+- emotion:
+  - surprise1_L
+  - 105411
+  - 140
+  - 540
+  - se_adv_emote_common_01
+- print:
+  - ツムギ
+  - 騎士さん！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 5711
+  - 30
+- chara_full:
+  - 100511
+  - RC
+  - 1
+- fadein:
+  - 100511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_159
+- face:
+  - 100511
+  - 1
+- print:
+  - マツリ
+  - 自分も手伝うッス！
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_160
+- face:
+  - 105411
+  - 6
+- print:
+  - ツムギ
+  - マツリさんまで！？
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_161
+- face:
+  - 100511
+  - 1
+- nod:
+  - 100511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - マツリ
+  - 助けを求める人たちを放ってはおけないッス！
+- wait:
+  - 55
+- print:
+  - マツリ
+  - >2-
+
+    たとえそれがお化けでも！
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_162
+- face:
+  - 105411
+  - 4
+- print:
+  - ツムギ
+  - それはもっともな理由ですけど……
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_163
+- face:
+  - 100511
+  - 2
+- print:
+  - マツリ
+  - それになんか面白そうッス！
+- touch: *o0
+- face:
+  - 100511
+  - 1
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_164
+- face:
+  - 105411
+  - 4
+- print:
+  - ツムギ
+  - そっちが本音ですよね。
+- wait:
+  - 40
+- print:
+  - ツムギ
+  - >2
+
+- face:
+  - 105411
+  - 3
+- print:
+  - ツムギ
+  - だいたい二人とも、
+- wait:
+  - 20
+- print:
+  - ツムギ
+  - お化け屋敷のこと分かるんですか？
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_165
+- face:
+  - 100511
+  - 6
+- print:
+  - マツリ
+  - 分からないッスけど、
+- wait:
+  - 40
+- face:
+  - 100511
+  - 1
+- print:
+  - マツリ
+  - マシューさんたちの助けにはなれる気がするッス。
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_166
+- face:
+  - 105411
+  - 4
+- print:
+  - ツムギ
+  - そ、
+- wait:
+  - 25
+- print:
+  - ツムギ
+  - それは否定できないですね。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100511
+  - 30
+- chara_full:
+  - 100311
+  - RC
+  - 4
+- fadein:
+  - 100311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050001_167
+- face:
+  - 100311
+  - 4
+- print:
+  - レイ
+  - あはは……
+- wait:
+  - 40
+- face:
+  - 100311
+  - 1
+- print:
+  - レイ
+  - まぁ、
+- wait:
+  - 15
+- print:
+  - レイ
+  - 改善点は分かっているからね。
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_168
+- face:
+  - 105411
+  - 6
+- print:
+  - ツムギ
+  - ま、
+- wait:
+  - 25
+- print:
+  - ツムギ
+  - まさかレイ様も手伝うとか言いだしませんよね？
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050001_169
+- face:
+  - 100311
+  - 6
+- print:
+  - レイ
+  - 助けてあげたい気持ちはあるけど……
+- wait:
+  - 45
+- print:
+  - レイ
+  - こういうことには
+- wait:
+  - 15
+- print:
+  - レイ
+  - 疎いから。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100511
+  - LC
+  - 2
+- chara_full:
+  - 5711
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_170
+- face:
+  - 100511
+  - 2
+- print:
+  - マツリ
+  - 人手が増えるだけでも助かるッスよね。
+- touch: *o0
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_171
+- face:
+  - 5711
+  - 2
+- emotion:
+  - note1_L
+  - 5711
+  - -120
+  - 360
+  - se_adv_emote_note_01
+- print:
+  - マシュー
+  - うん！　
+- wait:
+  - 10
+- print:
+  - マシュー
+  - すっごくうれしい！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105411
+  - LC
+  - 6
+- chara_full:
+  - 100311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050001_172
+- face:
+  - 100311
+  - 6
+- print:
+  - レイ
+  - そ、
+- wait:
+  - 15
+- print:
+  - レイ
+  - そうか。
+- wait:
+  - 35
+- face:
+  - 100311
+  - 1
+- print:
+  - レイ
+  - じゃあ、
+- wait:
+  - 20
+- print:
+  - レイ
+  - 私も手伝うよ。
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_173
+- face:
+  - 105411
+  - 6
+- emotion:
+  - surprise1_L
+  - 105411
+  - 140
+  - 540
+  - se_adv_emote_common_01
+- print:
+  - ツムギ
+  - レイ様～～～～！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100311
+  - 30
+- chara_full:
+  - 100511
+  - RC
+  - 6
+- fadein:
+  - 100511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_174
+- face:
+  - 100511
+  - 6
+- print:
+  - マツリ
+  - ツムギさんはどうしてそんなしぶるんスか？
+- wait:
+  - 45
+- print:
+  - マツリ
+  - >2
+
+- face:
+  - 100511
+  - 4
+- print:
+  - マツリ
+  - 自分たちのなかで
+- wait:
+  - 25
+- print:
+  - マツリ
+  - 一番適任じゃないッスか。
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_175
+- face:
+  - 105411
+  - 4
+- print:
+  - ツムギ
+  - いや、
+- wait:
+  - 15
+- print:
+  - ツムギ
+  - なにが適任なんですか……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100511
+  - 30
+- chara_full:
+  - 5711
+  - RC
+  - 4
+- fadein:
+  - 5711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_176
+- face:
+  - 5711
+  - 4
+- print:
+  - マシュー
+  - ツムギ？　
+- wait:
+  - 45
+- print:
+  - マシュー
+  - ツムギ？
+- wait:
+  - 45
+- print:
+  - マシュー
+  - >2-
+
+    どこかで聞いた気が……
+- wait:
+  - 80
+- print:
+  - マシュー
+  - ツムギ……
+- wait:
+  - 45
+- eye_open:
+  - FALSE
+- print:
+  - マシュー
+  - ツムギ……
+- wait:
+  - 60
+- eye_open:
+  - True
+- print:
+  - マシュー
+  - ツムギ……
+- wait:
+  - 90
+- face:
+  - 5711
+  - 6
+- emotion:
+  - surprise1_L
+  - 5711
+  - 145
+  - 410
+  - se_adv_emote_common_01
+- print:
+  - マシュー
+  - ああ！！！！
+- touch: *o0
+- bgm:
+  - stop
+  - 4
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_177
+- face:
+  - 105411
+  - 6
+- emotion:
+  - exclamation1_R
+  - 105411
+  - -10
+  - 655
+  - se_adv_emote_common_01
+- print:
+  - ツムギ
+  - キャッ！？　
+- wait:
+  - 5
+- print:
+  - ツムギ
+  - な、
+- wait:
+  - 10
+- print:
+  - ツムギ
+  - なんです
+- wait:
+  - 5
+- print:
+  - ツムギ
+  - いきなり！
+- touch: *o0
+- bgm:
+  - bgm_M68
+  - 0
+  - 0
+  - 1
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_178
+- face:
+  - 5711
+  - 6
+- print:
+  - マシュー
+  - ひょっとして
+- wait:
+  - 10
+- print:
+  - マシュー
+  - カルミナのツムギちゃん！？
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_179
+- face:
+  - 105411
+  - 6
+- print:
+  - ツムギ
+  - そ、
+- wait:
+  - 15
+- print:
+  - ツムギ
+  - そうですけど……
+- touch: *o0
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_180
+- face:
+  - 5711
+  - 1
+- nod:
+  - 5711
+- print:
+  - マシュー
+  - ボ、
+- wait:
+  - 10
+- print:
+  - マシュー
+  - ボク前に
+- wait:
+  - 5
+- print:
+  - マシュー
+  - カルミナのライブ見たことあるんだ！
+- wait:
+  - 30
+- print:
+  - マシュー
+  - >2-
+
+    ライブ、
+- wait:
+  - 20
+- print:
+  - マシュー
+  - なんていうか、
+- wait:
+  - 45
+- face:
+  - 5711
+  - 2
+- print:
+  - マシュー
+  - すっごく楽しかったよ！
+- touch: *o0
+- face:
+  - 5711
+  - 1
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_181
+- face:
+  - 105411
+  - 6
+- print:
+  - ツムギ
+  - そ、
+- wait:
+  - 15
+- print:
+  - ツムギ
+  - それは……
+- wait:
+  - 25
+- face:
+  - 105411
+  - 1
+- print:
+  - ツムギ
+  - ありがとうございます。
+- touch: *o0
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_182
+- face:
+  - 5711
+  - 4
+- print:
+  - マシュー
+  - でも、
+- wait:
+  - 10
+- print:
+  - マシュー
+  - そっか……
+- wait:
+  - 40
+- print:
+  - マシュー
+  - ツムギちゃんに手伝ってもらうのは無理だよね。
+- wait:
+  - 75
+- print:
+  - マシュー
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - マシュー
+  - カルミナのお仕事とか忙しいだろうし……
+- touch: *o0
+- eye_open:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_183
+- face:
+  - 105411
+  - 6
+- print:
+  - ツムギ
+  - い、
+- wait:
+  - 10
+- print:
+  - ツムギ
+  - いえ……
+- wait:
+  - 15
+- print:
+  - ツムギ
+  - >2-
+
+    カルミナの方はしばらくスケジュールに空きがありますし、
+- wait:
+  - 40
+- print:
+  - ツムギ
+  - >2
+
+- face:
+  - 105411
+  - 4
+- print:
+  - ツムギ
+  - 仕立て屋の仕事は片づいたので、
+- wait:
+  - 30
+- print:
+  - ツムギ
+  - 時間がないわけではないんですけど……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 5711
+  - 30
+- chara_full:
+  - 100311
+  - RC
+  - 1
+- fadein:
+  - 100311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050001_184
+- face:
+  - 100311
+  - 1
+- print:
+  - レイ
+  - ツムギが居てくれたら、
+- wait:
+  - 40
+- print:
+  - レイ
+  - 私も心強いんだけどな。
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_185
+- face:
+  - 105411
+  - 4
+- print:
+  - ツムギ
+  - レイ様にそう言われてしまうと……
+- wait:
+  - 60
+- eye_open:
+  - FALSE
+- print:
+  - ツムギ
+  - いや、
+- wait:
+  - 10
+- print:
+  - ツムギ
+  - でも……
+- wait:
+  - 25
+- eye_open:
+  - True
+- face:
+  - 105411
+  - 6
+- print:
+  - ツムギ
+  - は！！
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050001_186
+- face:
+  - 100311
+  - 6
+- emotion:
+  - question1_R
+  - 100311
+  - 100
+  - 510
+  - se_adv_emote_question_01
+- print:
+  - レイ
+  - ツ、
+- wait:
+  - 15
+- print:
+  - レイ
+  - ツムギ？　
+- wait:
+  - 30
+- print:
+  - レイ
+  - いきなりどうしたんだ？
+- wait:
+  - 25
+- print:
+  - レイ
+  - >2-
+
+    私のことを
+- wait:
+  - 15
+- print:
+  - レイ
+  - ジッと見つめて。
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_187
+- face:
+  - 105411
+  - 1
+- nod:
+  - 105411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ツムギ
+  - なんでもありません。
+- wait:
+  - 15
+- print:
+  - ツムギ
+  - お気になさらず。
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_188
+- face:
+  - 105411
+  - 3
+- print:
+  - ツムギ
+  - それよりマシューさん。
+- wait:
+  - 30
+- print:
+  - ツムギ
+  - >2-
+
+    私もあなたたちのお化け屋敷手伝ってもいいです。
+- wait:
+  - 45
+- print:
+  - ツムギ
+  - >2-
+
+    ただし、
+- wait:
+  - 15
+- print:
+  - ツムギ
+  - 条件があります。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100311
+  - 30
+- chara_full:
+  - 5711
+  - RC
+  - 1
+- fadein:
+  - 5711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 5711
+- bust:
+  - 5711
+  - 0
+- vo:
+  - vo_adv_5050001_189
+- face:
+  - 5711
+  - 1
+- print:
+  - マシュー
+  - なになに！？　
+- wait:
+  - 10
+- print:
+  - マシュー
+  - なんでも言って！
+- wait:
+  - 10
+- print:
+  - マシュー
+  - >2
+
+- face:
+  - 5711
+  - 2
+- print:
+  - マシュー
+  - ボクたちにできることなら何でも聞くよ！
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_190
+- face:
+  - 105411
+  - 1
+- nod:
+  - 105411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ツムギ
+  - いえ、
+- wait:
+  - 15
+- print:
+  - ツムギ
+  - 条件を聞くのはあなたたちではありません。
+- wait:
+  - 35
+- print:
+  - ツムギ
+  - >2-
+
+    それは……
+- touch: *o0
+- window_visible:
+  - FALSE
+- amb_stop:
+  - 2
+- fadeout_all:
+  - 30
+- bgm:
+  - stop
+  - 2
+  - 1
+- black_out:
+  - 1
+  - 1
+- background:
+  - 501132
+- amb:
+  - amb_adv_town_day_01
+- wait:
+  - 30
+- black_in: *o0
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - お化けたちとの邂逅から数日がたったハロウィンパーク。
+- wait:
+  - 30
+- print:
+  - ナレーション
+  - >2-
+
+    お化け屋敷の前にぼんやりと佇む{0}の姿があった。
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - FALSE
+- chara_full:
+  - 100511
+  - L
+  - 1
+- chara_full:
+  - 105411
+  - C
+  - 3
+- chara_full:
+  - 100311
+  - R
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M136_Outside_02
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_191
+- face:
+  - 105411
+  - 3
+- nod:
+  - 105411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ツムギ
+  - いいですか、
+- wait:
+  - 10
+- print:
+  - ツムギ
+  - 騎士さん。
+- wait:
+  - 15
+- print:
+  - ツムギ
+  - >2-
+
+    絶対に覗いちゃダメですからね。
+- wait:
+  - 35
+- print:
+  - ツムギ
+  - 絶対ですよ。
+- touch: *o0
+- choice:
+  - 分かった。
+  - 7
+- tag:
+  - 7
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050001_192
+- face:
+  - 100511
+  - 1
+- print:
+  - マツリ
+  - それじゃあ自分たちは着替えてくるッス。
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050001_193
+- face:
+  - 100311
+  - 4
+- eye_open:
+  - FALSE
+- print:
+  - レイ
+  - はぁ……
+- wait:
+  - 40
+- eye_open:
+  - TRUE
+- print:
+  - レイ
+  - ツムギが手伝う条件がこんなこととは……
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050001_194
+- face:
+  - 105411
+  - 1
+- emotion:
+  - twinkle1_R
+  - 105411
+  - -140
+  - 485
+  - se_adv_emote_twinkle_01
+- print:
+  - ツムギ
+  - こんなことなんかじゃないですよ！！
+- wait:
+  - 30
+- print:
+  - ツムギ
+  - >2
+
+- face:
+  - 105411
+  - 2
+- print:
+  - ツムギ
+  - ほらほら早く行きましょう、
+- wait:
+  - 10
+- print:
+  - ツムギ
+  - レイ様！
+- wait:
+  - 25
+- print:
+  - ツムギ
+  - >2-
+
+    騎士さんも楽しみに待っててくださいね！
+- touch: *o0
+- window_visible:
+  - FALSE
+- amb_stop:
+  - 2
+- fadeout_all:
+  - 30
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- movie:
+  - 505000101
+- end: *o0

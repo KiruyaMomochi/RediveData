@@ -1,0 +1,1954 @@
+- title:
+  - 本証：私は彼の姉である
+- outline:
+  - 『弟くんのために』と張り切るシズルの活躍で順調に塔を攻略する一行。だが会話の中でシズルと{0}が血縁関係にないことを知り困惑するユニは、シズルを正気に戻してあげようと決意する。
+- background:
+  - 500430
+- amb:
+  - amb_adv_guildhouse_mist_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 本証：私は彼の姉である
+- se_effect:
+  - 3
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - ルナの塔に入った一行はたびたび魔物の襲撃を受けたが、
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - >2-
+
+    シズルの活躍によってそのたび容易に危機を退けていた。
+- wait:
+  - 30
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 104911
+  - C
+  - 3
+- fadein:
+  - 104911
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M127
+  - 0
+  - 0
+  - 1
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_7015001_000
+- face:
+  - 104911
+  - 3
+- print:
+  - シズル
+  - 弟くんの邪魔をする悪者は許さないよ！
+- wait:
+  - 40
+- print:
+  - シズル
+  - >2-
+
+    お姉ちゃんチョーップ！
+- touch: *o0
+- window_visible:
+  - FALSE
+- effect:
+  - 0009
+- se:
+  - se_adv_step_concrete_run_armor_go_01
+- scale:
+  - 104911
+  - 1.2
+  - 2
+  - 10
+- fadeout:
+  - 104911
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0019
+  - se_adv_weapon_punch_hit_01
+- wait:
+  - 15
+- background:
+  - 500430
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_04
+- window_visible:
+  - TRUE
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──ギャオオオオオッ！
+- sway:
+  - 1611
+- touch: *o0
+- window_visible:
+  - FALSE
+- updown:
+  - 1611
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1611
+  - 30
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 111011
+  - C
+  - 6
+- fadein:
+  - 111011
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015001_001
+- face:
+  - 111011
+  - 6
+- print:
+  - ユニ
+  - ううむ、
+- wait:
+  - 40
+- print:
+  - ユニ
+  - シズル君と言ったか、
+- wait:
+  - 55
+- print:
+  - ユニ
+  - 流石だな。
+- wait:
+  - 55
+- print:
+  - ユニ
+  - >2-
+
+    迷いのない見事な剣筋──
+- wait:
+  - 60
+- print:
+  - ユニ
+  - もといチョップ筋だ。
+- wait:
+  - 55
+- print:
+  - ユニ
+  - >2-
+
+    いともたやすく道が切り開かれてゆくではないか。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 111011
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 104911
+  - C
+  - 5
+- fadein:
+  - 104911
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_7015001_002
+- face:
+  - 104911
+  - 5
+- print:
+  - シズル
+  - '{0}くんを守るためなら、'
+- wait:
+  - 20
+- print:
+  - シズル
+  - >2-
+
+    お姉ちゃんは鬼にも邪にもなれちゃうからね。
+- wait:
+  - 45
+- print:
+  - シズル
+  - >2
+
+- emotion:
+  - note1_L
+  - 104911
+  - -120
+  - 520
+  - se_adv_emote_note_01
+- face:
+  - 104911
+  - 2
+- print:
+  - シズル
+  - お姉ちゃんパワー全開だ、
+- wait:
+  - 25
+- print:
+  - シズル
+  - ぞっと♪
+- touch: *o0
+- window_visible:
+  - FALSE
+- effect:
+  - 0009
+- se:
+  - se_adv_step_concrete_run_armor_go_01
+- scale:
+  - 104911
+  - 1.2
+  - 2
+  - 10
+- fadeout:
+  - 104911
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0019
+  - se_adv_weapon_punch_hit_01
+- wait:
+  - 15
+- background:
+  - 500430
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_04
+- window_visible:
+  - TRUE
+- bgm:
+  - stop
+  - 3.5
+  - 1
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──ギャオオオオオッ！
+- sway:
+  - 1611
+- touch: *o0
+- window_visible:
+  - FALSE
+- updown:
+  - 1611
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1611
+  - 30
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 111011
+  - C
+  - 6
+- fadein:
+  - 111011
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M157_Inside
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015001_003
+- face:
+  - 111011
+  - 6
+- print:
+  - ユニ
+  - 魔物の一群が瞬く間に壊滅とは……
+- wait:
+  - 100
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 111011
+  - 1
+- nod:
+  - 111011
+- print:
+  - ユニ
+  - なるほど、
+- wait:
+  - 35
+- print:
+  - ユニ
+  - 任せろと豪語するだけのことはある。
+- wait:
+  - 85
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 111011
+  - 2
+- print:
+  - ユニ
+  - これならか弱いぼくも
+- wait:
+  - 50
+- print:
+  - ユニ
+  - 暢気に後方軍師面が出来るというもの。
+- touch: *o0
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015001_004
+- face:
+  - 111011
+  - 7
+- emotion:
+  - twinkle1_R
+  - 111011
+  - -115
+  - 400
+  - se_adv_emote_twinkle_01
+- print:
+  - ユニ
+  - 我が前に敵は無し！
+- wait:
+  - 50
+- print:
+  - ユニ
+  - >2-
+
+    全軍いざ進めぇー！　
+- wait:
+  - 50
+- print:
+  - ユニ
+  - ふははー
+- wait:
+  - 40
+- print:
+  - ユニ
+  - 皆殺しだー！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 111011
+  - 30
+- chara_full:
+  - 111011
+  - LC
+  - 7
+- chara_full:
+  - 104911
+  - R
+  - 4
+- se:
+  - se_adv_step_concrete_run_armor_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - R
+  - 30
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_7015001_005
+- face:
+  - 104911
+  - 4
+- print:
+  - シズル
+  - 弟くん大丈夫？　
+- wait:
+  - 20
+- print:
+  - シズル
+  - 疲れてない？　
+- wait:
+  - 20
+- print:
+  - シズル
+  - ちょっと休憩にしようか？
+- touch: *o0
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015001_006
+- face:
+  - 111011
+  - 4
+- print:
+  - ユニ
+  - 軍師の指令を右から左へ流すんじゃあないよ。
+- wait:
+  - 95
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 111011
+  - 1
+- print:
+  - ユニ
+  - なに、
+- wait:
+  - 30
+- print:
+  - ユニ
+  - 彼の体力ならば問題はない、
+- wait:
+  - 65
+- print:
+  - ユニ
+  - さっき自分でそう言ってた。
+- wait:
+  - 65
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 111011
+  - 4
+- print:
+  - ユニ
+  - むしろ空気も読まずに溌溂としていた。
+- touch: *o0
+- choice:
+  - まだまだ元気。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_7015001_007
+- face:
+  - 104911
+  - 6
+- print:
+  - シズル
+  - 本当に？　
+- wait:
+  - 30
+- print:
+  - シズル
+  - 無理しちゃ駄目だよ？
+- wait:
+  - 35
+- print:
+  - シズル
+  - >2
+
+- face:
+  - 104911
+  - 5
+- print:
+  - シズル
+  - もし誰か学校の先輩に気を遣ってるならこっそり言ってね。
+- wait:
+  - 70
+- print:
+  - シズル
+  - >2
+
+- face:
+  - 104911
+  - 2
+- nod:
+  - 104911
+- print:
+  - シズル
+  - 大丈夫、
+- wait:
+  - 30
+- print:
+  - シズル
+  - お姉ちゃん決して悪いようにはしないから。
+- touch: *o0
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015001_008
+- face:
+  - 111011
+  - 6
+- print:
+  - ユニ
+  - なにやら物騒な父兄がいるな……
+- wait:
+  - 60
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 111011
+  - 4
+- print:
+  - ユニ
+  - 先輩ちょっと大人しくしてよっと。
+- touch: *o0
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_7015001_009
+- face:
+  - 104911
+  - 6
+- print:
+  - シズル
+  - あれ？
+- wait:
+  - 15
+- print:
+  - シズル
+  - >2-
+
+    どうしたのユニちゃん、
+- wait:
+  - 15
+- print:
+  - シズル
+  - 急に両手で口を塞いじゃって。
+- wait:
+  - 40
+- print:
+  - シズル
+  - >2
+
+- face:
+  - 104911
+  - 2
+- print:
+  - シズル
+  - まさか本当にスクハラの心当たりがあるわけじゃないよね？
+- touch: *o0
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015001_010
+- face:
+  - 111011
+  - 4
+- print:
+  - ユニ
+  - やめたまえ。
+- wait:
+  - 35
+- print:
+  - ユニ
+  - >2-
+
+    圧の強い笑顔で人を上から見下ろすのはやめたまえ。
+- touch: *o0
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_7015001_011
+- face:
+  - 104911
+  - 6
+- print:
+  - シズル
+  - あ、そっか！　
+- wait:
+  - 15
+- print:
+  - シズル
+  - 私、背が高いから自然と……
+- wait:
+  - 70
+- print:
+  - シズル
+  - >2
+
+- face:
+  - 104911
+  - 2
+- nod:
+  - 104911
+- print:
+  - シズル
+  - ごめんね、
+- wait:
+  - 10
+- print:
+  - シズル
+  - これから気を付けるね、
+- wait:
+  - 25
+- print:
+  - シズル
+  - ユニちゃん。
+- touch: *o0
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015001_012
+- face:
+  - 111011
+  - 1
+- print:
+  - ユニ
+  - 結構だ。
+- wait:
+  - 25
+- print:
+  - ユニ
+  - >2-
+
+    わざわざ膝を折って目線を合わせなくてよろしい。
+- touch: *o0
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_7015001_013
+- face:
+  - 104911
+  - 4
+- print:
+  - シズル
+  - えぇー、
+- wait:
+  - 15
+- print:
+  - シズル
+  - どうすれば……
+- wait:
+  - 35
+- print:
+  - シズル
+  - >2-
+
+    ねえ{0}君。
+- wait:
+  - 25
+- print:
+  - シズル
+  - >2-
+
+    私、
+- wait:
+  - 15
+- print:
+  - シズル
+  - ユニちゃんに嫌われちゃったのかなあ。
+- touch: *o0
+- choice:
+  - 大丈夫、ユニ先輩はいつもこんな感じ。
+  - 2
+- tag:
+  - 2
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015001_014
+- face:
+  - 111011
+  - 1
+- nod:
+  - 111011
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ユニ
+  - いかにも。
+- wait:
+  - 35
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 111011
+  - 2
+- print:
+  - ユニ
+  - 愛くるしい外見に反して
+- wait:
+  - 60
+- print:
+  - ユニ
+  - 慇懃無礼と畏怖されがちなぼくだよ。
+- wait:
+  - 70
+- print:
+  - ユニ
+  - >2-
+
+    クールユニで申し訳ない。
+- touch: *o0
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_7015001_015
+- face:
+  - 104911
+  - 2
+- print:
+  - シズル
+  - 可愛い！
+- wait:
+  - 25
+- print:
+  - シズル
+  - >2
+
+- face:
+  - 104911
+  - 5
+- print:
+  - シズル
+  - お姉ちゃんこの子抱きかかえてもいい？
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_cloth_move_hard_01
+- focus:
+  - 111011:104911
+- se:
+  - se_adv_hug_01
+- pop:
+  - 104911
+- wait:
+  - 5
+- face:
+  - 111011
+  - 4
+- shake:
+  - 111011
+- window_visible:
+  - TRUE
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015001_016
+- face:
+  - 111011
+  - 4
+- print:
+  - ユニ
+  - やめたまえ。
+- wait:
+  - 40
+- print:
+  - ユニ
+  - >2
+
+- bgm:
+  - stop
+  - 7.5
+- print:
+  - ユニ
+  - 同い年の才媛を両手で持ちあげ高い高いするのはやめたまえ。
+- touch: *o0
+- bgm:
+  - bgm_M140_Ver2
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015001_017
+- face:
+  - 111011
+  - 2
+- print:
+  - ユニ
+  - しかし{0}後輩、
+- wait:
+  - 35
+- print:
+  - ユニ
+  - 良かったじゃないか。
+- wait:
+  - 45
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 111011
+  - 1
+- print:
+  - ユニ
+  - 記憶を失くして
+- wait:
+  - 40
+- print:
+  - ユニ
+  - 家も家族もない
+- wait:
+  - 35
+- print:
+  - ユニ
+  - 天涯孤独の身だと聞いていたが、
+- wait:
+  - 70
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 111011
+  - 2
+- print:
+  - ユニ
+  - いつの間にやらこんな素敵な姉君と再会を果たしていたのだな。
+- touch: *o0
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_7015001_018
+- face:
+  - 104911
+  - 6
+- print:
+  - シズル
+  - えっ！　
+- wait:
+  - 15
+- print:
+  - シズル
+  - 素敵なお姉ちゃんだなんて！
+- wait:
+  - 30
+- print:
+  - シズル
+  - >2
+
+- face:
+  - 104911
+  - 2
+- print:
+  - シズル
+  - そんな、
+- wait:
+  - 15
+- print:
+  - シズル
+  - ユニちゃんったら本当のこと言わないで♪
+- touch: *o0
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015001_019
+- face:
+  - 111011
+  - 1
+- print:
+  - ユニ
+  - 安心したまえ、
+- wait:
+  - 30
+- print:
+  - ユニ
+  - 社交辞令だ。
+- wait:
+  - 50
+- print:
+  - ユニ
+  - >2-
+
+    シズル君の人となりを評せるほど、
+- wait:
+  - 55
+- print:
+  - ユニ
+  - 我々はまだ時を重ねておらん。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- chara_full:
+  - 111011
+  - C
+  - 2
+- fadein:
+  - 111011
+  - 30
+- window_visible:
+  - TRUE
+- se:
+  - se_adv_cloth_move_normal_03
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015001_020
+- face:
+  - 111011
+  - 2
+- nod:
+  - 111011
+- se:
+  - se_adv_step_concrete_move_02
+- print:
+  - ユニ
+  - だが{0}君に姉がいたことを喜んでいるのは事実だ。
+- wait:
+  - 75
+- print:
+  - ユニ
+  - >2-
+
+    ぼくとて里に帰れば
+- wait:
+  - 45
+- print:
+  - ユニ
+  - 家族と呼んでくれる自称父親は数人いるが、
+- wait:
+  - 90
+- print:
+  - ユニ
+  - >2-
+
+    それは成り行きが積もった結果の優しい嘘に過ぎない。
+- touch: *o0
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015001_021
+- face:
+  - 111011
+  - 2
+- print:
+  - ユニ
+  - 誤解を恐れず言えば、
+- wait:
+  - 40
+- print:
+  - ユニ
+  - 羨望すら覚えるよ。
+- wait:
+  - 55
+- print:
+  - ユニ
+  - >2-
+
+    ぼくがどれだけ焦がれても得られない、
+- wait:
+  - 45
+- print:
+  - ユニ
+  - 血の繋がりという絆にはな。
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- choice:
+  - そういうのじゃないよ。
+  - 3
+- tag:
+  - 3
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015001_022
+- face:
+  - 111011
+  - 6
+- emotion:
+  - question1_R
+  - 111011
+  - 130
+  - 425
+  - se_adv_emote_question_01
+- print:
+  - ユニ
+  - ……うん？
+- touch: *o0
+- bgm:
+  - bgm_M203_Inside_05
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015001_023
+- face:
+  - 111011
+  - 6
+- print:
+  - ユニ
+  - はて、
+- wait:
+  - 30
+- print:
+  - ユニ
+  - なんだって？　
+- wait:
+  - 30
+- face:
+  - 111011
+  - 4
+- print:
+  - ユニ
+  - どういうことだね？
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 111011
+  - 30
+- chara_full:
+  - 111011
+  - LC
+  - 4
+- chara_full:
+  - 104911
+  - RC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_7015001_024
+- face:
+  - 104911
+  - 2
+- print:
+  - シズル
+  - お姉ちゃんと{0}くんは、
+- wait:
+  - 30
+- print:
+  - シズル
+  - >2-
+
+    血の繋がりさえ超えた運命のきょうだいなの！
+- touch: *o0
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015001_025
+- face:
+  - 111011
+  - 6
+- nod:
+  - 111011
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ユニ
+  - ほう……
+- wait:
+  - 40
+- print:
+  - ユニ
+  - >2-
+
+    つまり血縁関係はない、
+- wait:
+  - 45
+- print:
+  - ユニ
+  - と……？
+- touch: *o0
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015001_026
+- face:
+  - 111011
+  - 6
+- print:
+  - ユニ
+  - すると？　
+- wait:
+  - 45
+- face:
+  - 111011
+  - 4
+- print:
+  - ユニ
+  - うん？
+- wait:
+  - 45
+- print:
+  - ユニ
+  - >2-
+
+    君らの近親の誰かしかが戸籍上なんらかの縁故を結んだとか、
+- wait:
+  - 125
+- print:
+  - ユニ
+  - >2-
+
+    そういった類のアレかね。
+- touch: *o0
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_7015001_027
+- face:
+  - 104911
+  - 6
+- print:
+  - シズル
+  - んーん、
+- wait:
+  - 15
+- print:
+  - シズル
+  - べつに。
+- touch: *o0
+- window_visible:
+  - FALSE
+- focus:
+  - 111011
+- emotion:
+  - dots1_R
+  - 111011
+  - -95
+  - 405
+  - se_adv_emote_dots_01
+- wait:
+  - 60
+- emotion_end:
+  - 111011
+- window_visible:
+  - TRUE
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015001_028
+- face:
+  - 111011
+  - 4
+- print:
+  - ユニ
+  - 難しいな。
+- wait:
+  - 45
+- print:
+  - ユニ
+  - >2-
+
+    どういうことだ……
+- wait:
+  - 35
+- face:
+  - 111011
+  - 1
+- print:
+  - ユニ
+  - 血縁はない、
+- wait:
+  - 35
+- print:
+  - ユニ
+  - 義理の関係でもない。
+- wait:
+  - 65
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 111011
+  - 4
+- print:
+  - ユニ
+  - つまりシズル君、
+- wait:
+  - 35
+- print:
+  - ユニ
+  - 君は{0}君にとってただの他人──
+- touch: *o0
+- window_visible:
+  - FALSE
+- text_size:
+  - 40
+- window_visible:
+  - TRUE
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_7015001_029
+- face:
+  - 104911
+  - 2
+- print:
+  - シズル
+  - お姉ちゃんだよ！
+- touch: *o0
+- window_visible:
+  - FALSE
+- text_size:
+  - 23
+- window_visible:
+  - TRUE
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015001_030
+- face:
+  - 111011
+  - 4
+- print:
+  - ユニ
+  - いや、
+- wait:
+  - 20
+- print:
+  - ユニ
+  - しかし情報を整理すると、
+- wait:
+  - 55
+- print:
+  - ユニ
+  - 結果ただの他人──
+- touch: *o0
+- window_visible:
+  - FALSE
+- text_size:
+  - 50
+- window_visible:
+  - TRUE
+- se:
+  - se_adv_stepadd_armor_norm_01_move_01　
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_7015001_031
+- face:
+  - 104911
+  - 2
+- pop:
+  - 104911
+- se:
+  - se_adv_step_concrete_move_04
+- print:
+  - シズル
+  - 運命のお姉ちゃんだよ！
+- touch: *o0
+- window_visible:
+  - FALSE
+- text_size:
+  - 23
+- window_visible:
+  - TRUE
+- bgm:
+  - stop
+  - 3
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015001_032
+- face:
+  - 111011
+  - 4
+- eye_open:
+  - False
+- print:
+  - ユニ
+  - …………
+- touch: *o0
+- bgm:
+  - bgm_M11_Inside_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015001_033
+- face:
+  - 111011
+  - 4
+- eye_open:
+  - True
+- print:
+  - ユニ
+  - ＯＫロゼッタ、
+- wait:
+  - 30
+- print:
+  - ユニ
+  - 彼女はいったい何を言っているんだ。
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_7015001_034
+- face:
+  - 1
+  - 1
+- print:
+  - ロゼッタ
+  - ぽーん！
+- wait:
+  - 30
+- print:
+  - ロゼッタ
+  - >2-
+
+    解析不能です！
+- wait:
+  - 40
+- print:
+  - ロゼッタ
+  - >2-
+
+    被疑者の供述を裏付ける物証は存在しません！
+- touch: *o0
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_7015001_035
+- face:
+  - 104911
+  - 6
+- print:
+  - シズル
+  - そんなの関係ないの。
+- wait:
+  - 40
+- print:
+  - シズル
+  - >2
+
+- face:
+  - 104911
+  - 5
+- print:
+  - シズル
+  - だって、
+- wait:
+  - 15
+- print:
+  - シズル
+  - お姉ちゃんは心の底からお姉ちゃんなんだから。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- chara_full:
+  - 111011
+  - C
+  - 4
+- fadein:
+  - 111011
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015001_036
+- face:
+  - 111011
+  - 4
+- print:
+  - ユニ
+  - などと申されておるが……
+- wait:
+  - 55
+- print:
+  - ユニ
+  - どうだろうか。
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_7015001_037
+- face:
+  - 1
+  - 1
+- print:
+  - ロゼッタ
+  - ぽーん！
+- wait:
+  - 35
+- print:
+  - ロゼッタ
+  - >2-
+
+    偽証、
+- wait:
+  - 20
+- print:
+  - ロゼッタ
+  - もしくは認知機能に障害を負っている可能性があります！
+- touch: *o0
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015001_038
+- face:
+  - 111011
+  - 6
+- print:
+  - ユニ
+  - ううむ、
+- wait:
+  - 40
+- print:
+  - ユニ
+  - 嘘を言っているようには見えん。
+- wait:
+  - 60
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 111011
+  - 1
+- print:
+  - ユニ
+  - 見たまえ、
+- wait:
+  - 35
+- print:
+  - ユニ
+  - あの姉であることに一分の疑いもない姉々とした目を。
+- wait:
+  - 115
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 111011
+  - 4
+- print:
+  - ユニ
+  - となれば後者か……
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_7015001_039
+- face:
+  - 1
+  - 1
+- print:
+  - ロゼッタ
+  - 端的に換言すると、
+- wait:
+  - 50
+- print:
+  - ロゼッタ
+  - 気の毒なひとです！
+- touch: *o0
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015001_040
+- face:
+  - 111011
+  - 4
+- print:
+  - ユニ
+  - 安易に個人の事情を邪推するべきではないが……
+- wait:
+  - 80
+- print:
+  - ユニ
+  - >2-
+
+    あるいはそう思い込むことでしか解決できない、
+- wait:
+  - 65
+- print:
+  - ユニ
+  - >2-
+
+    何らかの複雑な背景があったのやもしれんな。
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_7015001_041
+- face:
+  - 1
+  - 1
+- print:
+  - ロゼッタ
+  - 石の目にも涙！　
+- wait:
+  - 35
+- print:
+  - ロゼッタ
+  - うえぇぇーん！
+- touch: *o0
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015001_042
+- face:
+  - 111011
+  - 1
+- print:
+  - ユニ
+  - '{0}後輩。'
+- wait:
+  - 25
+- print:
+  - ユニ
+  - >2-
+
+    君も難儀だろうが、
+- wait:
+  - 45
+- print:
+  - ユニ
+  - しばし彼女の妄言に付き合ってやるといい。
+- wait:
+  - 80
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 111011
+  - 2
+- print:
+  - ユニ
+  - 若干ちぇるってる人物の扱いにはそろそろ慣れているだろう。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 111011
+  - 30
+- chara_full:
+  - 111011
+  - LC
+  - 4
+- chara_full:
+  - 104911
+  - RC
+  - 5
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015001_043
+- face:
+  - 111011
+  - 4
+- print:
+  - ユニ
+  - そしてシズル君。
+- wait:
+  - 40
+- print:
+  - ユニ
+  - >2-
+
+    いいだろう、
+- wait:
+  - 25
+- print:
+  - ユニ
+  - 君がお姉ちゃんとやらであることを、
+- wait:
+  - 45
+- print:
+  - ユニ
+  - >2-
+
+    ぼくは一旦呑みこもう。
+- touch: *o0
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_7015001_044
+- face:
+  - 104911
+  - 6
+- print:
+  - シズル
+  - 一生呑みこんでもらって大丈夫だけど、
+- wait:
+  - 35
+- print:
+  - シズル
+  - >2
+
+- face:
+  - 104911
+  - 2
+- print:
+  - シズル
+  - ありがとうユニちゃん、
+- wait:
+  - 20
+- print:
+  - シズル
+  - お姉ちゃんうれしいよ。
+- touch: *o0
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015001_045
+- face:
+  - 111011
+  - 2
+- nod:
+  - 111011
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ユニ
+  - ああ。
+- wait:
+  - 25
+- print:
+  - ユニ
+  - >2-
+
+    急がなくていい、
+- wait:
+  - 45
+- print:
+  - ユニ
+  - 少しずつ現実と向き合って行こう。
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- window_visible:
+  - TRUE
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_7015001_046
+- face:
+  - 104911
+  - 5
+- print:
+  - シズル
+  - いつかユニちゃんにも分かってもらえるよう、
+- wait:
+  - 25
+- print:
+  - シズル
+  - お姉ちゃん頑張るぞ！　
+- touch: *o0
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015001_047
+- face:
+  - 111011
+  - 3
+- print:
+  - ユニ
+  - いつかシズル君が正気に戻れるよう、
+- wait:
+  - 50
+- print:
+  - ユニ
+  - ぼかあ頑張るぞ！　
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- fadeout_all:
+  - 30
+- se:
+  - amb_adv_guildhouse_mist_01
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - 胸のうちにそれぞれ正反対の決意を固める二人であった。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 1
+  - 1
+- se_pause:
+  - amb_adv_guildhouse_mist_01
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

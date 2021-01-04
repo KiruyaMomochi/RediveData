@@ -1,0 +1,568 @@
+- title:
+  - 響け！　絶叫！　ハロウィンゴーストフェスティバル 次回予告
+- outline:
+  - お化け屋敷のプロデュースを依頼されたツムギたち。依頼主はまさかの人物で……！？　ハロウィンに巻き起こるドタバタ大騒動！
+- background:
+  - 501130
+- amb:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- chara_full:
+  - 100511
+  - L
+  - 1
+- chara_full:
+  - 105411
+  - C
+  - 6
+- chara_full:
+  - 100311
+  - R
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M414
+  - 0
+  - 0
+  - 1
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050101_000
+- face:
+  - 105411
+  - 6
+- print:
+  - ツムギ
+  - お化け屋敷、
+- wait:
+  - 30
+- print:
+  - ツムギ
+  - ですか？
+- touch: &o0 []
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050101_001
+- face:
+  - 100511
+  - 1
+- pop:
+  - 100511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - マツリ
+  - そうッス！
+- wait:
+  - 25
+- print:
+  - マツリ
+  - 　ハロウィンパークのお化け屋敷は
+- wait:
+  - 25
+- print:
+  - マツリ
+  - 怖いって評判なんスよ！
+- touch: *o0
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050101_002
+- face:
+  - 100311
+  - 1
+- print:
+  - レイ
+  - この街のお化け屋敷か。
+- wait:
+  - 40
+- print:
+  - レイ
+  - 面白そうだね。
+- wait:
+  - 40
+- print:
+  - レイ
+  - >2
+
+- face:
+  - 100311
+  - 2
+- print:
+  - レイ
+  - 私も行ってみようかな。
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050101_003
+- face:
+  - 105411
+  - 1
+- nod:
+  - 105411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ツムギ
+  - レイ様が行くなら私も行きます。
+- wait:
+  - 45
+- print:
+  - ツムギ
+  - >2-
+
+    それに、
+- wait:
+  - 20
+- print:
+  - ツムギ
+  - 衣装作りの勉強になるかもしれませんし。
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050101_004
+- face:
+  - 100511
+  - 2
+- emotion:
+  - note1_L
+  - 100511
+  - -55
+  - 450
+  - se_adv_emote_note_01
+- print:
+  - マツリ
+  - ほんとッスか！
+- wait:
+  - 30
+- print:
+  - マツリ
+  - 　それじゃあみんなで行くッスよ！
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 501140
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_mystery_03
+- chara_full:
+  - 100511
+  - LC
+  - 6
+- chara_full:
+  - 100311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M269
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050101_005
+- face:
+  - 100311
+  - 6
+- print:
+  - レイ
+  - ……
+- wait:
+  - 45
+- print:
+  - レイ
+  - 誰もいないみたいだね。
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050101_006
+- face:
+  - 100511
+  - 6
+- print:
+  - マツリ
+  - すみませーん、
+- wait:
+  - 30
+- print:
+  - マツリ
+  - 誰かいないッスかー
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_wood_walk_go_01
+- change:
+  - C
+  - LC
+  - 30
+- change:
+  - R
+  - RC
+  - 30
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105411
+  - C
+  - 6
+- fadein:
+  - 105411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050101_007
+- face:
+  - 105411
+  - 6
+- print:
+  - ツムギ
+  - あ、
+- wait:
+  - 15
+- print:
+  - ツムギ
+  - ちょっとマツリさん。
+- wait:
+  - 30
+- print:
+  - ツムギ
+  - >2
+
+- face:
+  - 105411
+  - 1
+- print:
+  - ツムギ
+  - 仕方ないですね。
+- wait:
+  - 35
+- print:
+  - ツムギ
+  - 私たちも行きましょう。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_wood_walk_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 105411
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 5811
+  - L
+  - 8
+- chara_full:
+  - 5711
+  - C
+  - 8
+- chara_full:
+  - 5911
+  - R
+  - 8
+- fadein_all:
+  - 30
+- text_size:
+  - 38
+- change_window:
+  - 3
+- window_visible:
+  - true
+- bust:
+  - 6011
+  - 1
+- vo:
+  - vo_adv_5050101_008
+- multi_talk:
+  - 5711:5811:5911
+- face:
+  - 6011
+  - 8
+- effect:
+  - 9
+- se:
+  - se_adv_mie_01
+- print:
+  - お化けたち
+  - ばぁ！！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 23
+- change_window:
+  - 1
+- effect_delete:
+  - 0009
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100511
+  - LC
+  - 6
+- chara_full:
+  - 100311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_5050101_009
+- face:
+  - 100311
+  - 6
+- emotion:
+  - sweat1_R
+  - 100311
+  - 85
+  - 480
+  - se_adv_emote_sweat_01
+- print:
+  - レイ
+  - ……え、
+- wait:
+  - 20
+- print:
+  - レイ
+  - えっと……？
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_5050101_010
+- face:
+  - 100511
+  - 4
+- print:
+  - マツリ
+  - 怖い
+- wait:
+  - 20
+- print:
+  - マツリ
+  - って聞いてたのに、
+- wait:
+  - 30
+- print:
+  - マツリ
+  - おかしいッスね……
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- white_out:
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- effect:
+  - 0022
+- bg_color:
+  - 255
+  - 240
+  - 200
+- wait:
+  - 15
+- se:
+  - se_adv_happy_particle_01
+- white_in: *o0
+- chara_full:
+  - 100511
+  - L
+  - 2
+- chara_full:
+  - 105411
+  - C
+  - 2
+- chara_full:
+  - 100311
+  - R
+  - 2
+- fadein_all:
+  - 30
+- focus:
+  - 100511:105411:100311
+- text_size:
+  - 26
+- window_visible:
+  - true
+- bgm:
+  - bgm_M413_WithIntro
+  - 0
+  - 0
+  - 1
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5050101_011
+- multi_talk:
+  - 100511:105411:100311
+- face:
+  - 1
+  - 1
+- print:
+  - ３人
+  - 次回、
+- wait:
+  - 30
+- print:
+  - ３人
+  - 「響け！
+- wait:
+  - 20
+- print:
+  - ３人
+  - 　絶叫！
+- wait:
+  - 20
+- print:
+  - ３人
+  - 　ハロウィンゴーストフェスティバル」
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0022
+  - 30
+- text_size:
+  - 23
+- background:
+  - 501140
+- wait:
+  - 15
+- white_in: *o0
+- amb:
+  - amb_adv_mystery_03
+- chara_full:
+  - 105411
+  - C
+  - 4
+- fadein:
+  - 105411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_5050101_012
+- face:
+  - 105411
+  - 4
+- print:
+  - ツムギ
+  - なんです……
+- wait:
+  - 25
+- print:
+  - ツムギ
+  - これ？
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 105411
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

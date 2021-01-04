@@ -1,0 +1,1311 @@
+- title:
+  - 異端の先輩と無敵の保護者
+- outline:
+  - ルナの塔に行くという{0}に同行をかって出たユニだが塔に着いた時点で疲労困憊となり、帰る帰らないの問答をしているとシズルが現れる。彼女の凄まじい圧に当てられ真顔になるユニだった。
+- background:
+  - 500960
+- amb:
+  - amb_adv_room_noise_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 異端の先輩と無敵の保護者
+- chara_full:
+  - 111011
+  - C
+  - 1
+- fadein:
+  - 111011
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M344
+  - 0
+  - 0
+  - 1
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015000_000
+- face:
+  - 111011
+  - 1
+- emotion:
+  - question1_R
+  - 111011
+  - 130
+  - 425
+  - se_adv_emote_question_01
+- print:
+  - ユニ
+  - ルナの塔？
+- touch: &o0 []
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015000_001
+- face:
+  - 111011
+  - 1
+- nod:
+  - 111011
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- se:
+  - se_adv_book_catch_02
+- print:
+  - ユニ
+  - ほう、
+- wait:
+  - 35
+- print:
+  - ユニ
+  - 驚いたぞ同志。
+- wait:
+  - 55
+- print:
+  - ユニ
+  - >2-
+
+    君の口からその名を聞くとは思わなんだ。
+- touch: *o0
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015000_002
+- face:
+  - 111011
+  - 2
+- print:
+  - ユニ
+  - どうやら『ユニ博士』の共同研究者として、
+- wait:
+  - 65
+- print:
+  - ユニ
+  - >2-
+
+    少しは考古を学ぶ気になったようだな。
+- wait:
+  - 65
+- print:
+  - ユニ
+  - >2-
+
+    感心だ、
+- wait:
+  - 35
+- print:
+  - ユニ
+  - 頭を撫でてやろう。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_body_shake_head_01
+- nod:
+  - 111011
+- wait:
+  - 10
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- window_visible:
+  - TRUE
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015000_003
+- face:
+  - 111011
+  - 4
+- print:
+  - ユニ
+  - だが、
+- wait:
+  - 30
+- print:
+  - ユニ
+  - すまないな後輩。
+- wait:
+  - 45
+- print:
+  - ユニ
+  - >2-
+
+    芽生えたばかりの向学心を摘んでしまうようで忍びないが、
+- wait:
+  - 90
+- print:
+  - ユニ
+  - >2-
+
+    流石のぼくと言えど、
+- wait:
+  - 45
+- print:
+  - ユニ
+  - 世に教えられぬことの一つ二つはあるものだ。
+- touch: *o0
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015000_004
+- face:
+  - 111011
+  - 1
+- print:
+  - ユニ
+  - 例えばルナの塔──
+- wait:
+  - 35
+- print:
+  - ユニ
+  - その一つがそれでな。
+- wait:
+  - 60
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 111011
+  - 4
+- print:
+  - ユニ
+  - 学会でも様々に憶測が囁かれるばかりで研究は進んでおらん。
+- wait:
+  - 135
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 111011
+  - 1
+- print:
+  - ユニ
+  - 文献にその名を見るばかりで謎に包まれている、
+- wait:
+  - 90
+- print:
+  - ユニ
+  - 幻の遺跡なのだよ。
+- touch: *o0
+- choice:
+  - 行ったことあるよ。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015000_005
+- face:
+  - 111011
+  - 6
+- print:
+  - ユニ
+  - ……え？
+- touch: *o0
+- window_visible:
+  - false
+- emotion:
+  - dots1_R
+  - 111011
+  - -95
+  - 405
+  - se_adv_emote_dots_01
+- wait:
+  - 60
+- emotion_end:
+  - 111011
+- window_visible:
+  - TRUE
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015000_006
+- face:
+  - 111011
+  - 6
+- print:
+  - ユニ
+  - まじで？
+- touch: *o0
+- choice:
+  - 今度また行くよ。
+  - 2
+- tag:
+  - 2
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015000_007
+- face:
+  - 111011
+  - 7
+- pop:
+  - 111011
+- se:
+  - se_adv_rabbit_jump_01
+- print:
+  - ユニ
+  - ほああああ！
+- wait:
+  - 25
+- print:
+  - ユニ
+  - >2-
+
+    ぼくもぼくも！　
+- wait:
+  - 20
+- print:
+  - ユニ
+  - ぼくも行きたいそこ！
+- touch: *o0
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015000_008
+- face:
+  - 111011
+  - 6
+- print:
+  - ユニ
+  - おっと、
+- wait:
+  - 30
+- print:
+  - ユニ
+  - 引き籠もりには無理だなんて野暮は言ってくれるなよ同志。
+- wait:
+  - 75
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 111011
+  - 2
+- print:
+  - ユニ
+  - 太古の浪漫が呼んでいるんだ。
+- wait:
+  - 60
+- print:
+  - ユニ
+  - >2-
+
+    そこに学びがあると言うなら、
+- wait:
+  - 50
+- print:
+  - ユニ
+  - ぼくは書を閉じ扉を開けるぜ？
+- touch: *o0
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015000_009
+- face:
+  - 111011
+  - 7
+- emotion:
+  - twinkle1_R
+  - 111011
+  - -115
+  - 400
+  - se_adv_emote_twinkle_01
+- print:
+  - ユニ
+  - 幻の遺跡、
+- wait:
+  - 55
+- print:
+  - ユニ
+  - 未知の怪異、
+- wait:
+  - 45
+- print:
+  - ユニ
+  - 希少な研究素材……
+- wait:
+  - 65
+- print:
+  - ユニ
+  - >2-
+
+    嗚呼、
+- wait:
+  - 30
+- print:
+  - ユニ
+  - さぞや学術的好奇心の満たされる探索行となるだろう！
+- wait:
+  - 100
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 111011
+  - 2
+- print:
+  - ユニ
+  - さあ同志、
+- wait:
+  - 35
+- print:
+  - ユニ
+  - ぼくを連れてゆくんだ！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+  - 1
+- fadeout:
+  - 111011
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500420
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_forest_01
+- chara_full:
+  - 111011
+  - C
+  - 4
+- se:
+  - se_adv_step_leaves_move_02
+- fadein:
+  - 111011
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M156
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015000_010
+- face:
+  - 111011
+  - 4
+- print:
+  - ユニ
+  - おい同志……
+- wait:
+  - 50
+- print:
+  - ユニ
+  - なぜぼくを連れてきたんだ……
+- touch: *o0
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015000_011
+- face:
+  - 111011
+  - 4
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - ユニ
+  - ひぃ……
+- wait:
+  - 50
+- nod:
+  - 111011
+- print:
+  - ユニ
+  - ふぅ……
+- wait:
+  - 45
+- print:
+  - ユニ
+  - >2-
+
+    こんな森深いとこだなんて聞いてない……
+- wait:
+  - 80
+- print:
+  - ユニ
+  - >2-
+
+    こちとら筋金入りの引き籠もりだぞ……
+- wait:
+  - 65
+- face:
+  - 111011
+  - 3
+- print:
+  - ユニ
+  - 貴様ぼくを殺す気か……
+- touch: *o0
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015000_012
+- face:
+  - 111011
+  - 4
+- print:
+  - ユニ
+  - いや、
+- wait:
+  - 25
+- print:
+  - ユニ
+  - たしかにな？　
+- wait:
+  - 50
+- print:
+  - ユニ
+  - ぼくもあのときは学術的興奮を催して
+- wait:
+  - 75
+- print:
+  - ユニ
+  - >2-
+
+    多少テンション高めの大言を吐いたかもしれないが、
+- wait:
+  - 90
+- print:
+  - ユニ
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - ユニ
+  - そんなもん一時の気の迷いに決まっとるだろう。
+- wait:
+  - 65
+- eye_open:
+  - True
+- print:
+  - ユニ
+  - 止めたまえよ。
+- touch: *o0
+- choice:
+  - もう着いたよ。
+  - 3
+- tag:
+  - 3
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015000_013
+- face:
+  - 111011
+  - 2
+- nod:
+  - 111011
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - ユニ
+  - わあいゴールだ～
+- touch: *o0
+- choice:
+  - スタートだよ。
+  - 4
+- tag:
+  - 4
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015000_014
+- face:
+  - 111011
+  - 1
+- print:
+  - ユニ
+  - 左様か。
+- wait:
+  - 35
+- print:
+  - ユニ
+  - >2-
+
+    では帰ろう。
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 111011
+  - 6
+- emotion:
+  - question1_R
+  - 111011
+  - 130
+  - 425
+  - se_adv_emote_question_01
+- wait:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015000_015
+- face:
+  - 111011
+  - 6
+- print:
+  - ユニ
+  - なんだね。
+- wait:
+  - 35
+- print:
+  - ユニ
+  - >2-
+
+    なに言ってんだこいつとでも言いたげに
+- wait:
+  - 40
+- print:
+  - ユニ
+  - >2-
+
+    こてんと小首を傾げるんじゃあないよ。
+- touch: *o0
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015000_016
+- face:
+  - 111011
+  - 1
+- print:
+  - ユニ
+  - いや当然だろう君。
+- wait:
+  - 55
+- print:
+  - ユニ
+  - >2-
+
+    ここまでの行程で、
+- wait:
+  - 35
+- print:
+  - ユニ
+  - すでに我々は体力の大半を消費している。
+- wait:
+  - 90
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 111011
+  - 4
+- print:
+  - ユニ
+  - この状態で魔物ひしめく伏魔殿に乗り込むなど
+- wait:
+  - 75
+- print:
+  - ユニ
+  - 自殺行為にも等しい。
+- touch: *o0
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015000_017
+- face:
+  - 111011
+  - 1
+- print:
+  - ユニ
+  - いや、
+- wait:
+  - 20
+- print:
+  - ユニ
+  - 言っておくが、
+- wait:
+  - 35
+- print:
+  - ユニ
+  - これはぼくの幼稚な我儘ではないぞ。
+- wait:
+  - 70
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 111011
+  - 4
+- print:
+  - ユニ
+  - '{0}君の安全を配慮した上での、'
+- wait:
+  - 40
+- print:
+  - ユニ
+  - 苦渋の決断だ。
+- touch: *o0
+- se:
+  - se_adv_step_leaves_move_01
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015000_018
+- face:
+  - 111011
+  - 4
+- print:
+  - ユニ
+  - ちくしょう、
+- shake:
+  - 111011
+- wait:
+  - 20
+- print:
+  - ユニ
+  - せっかくここまで来たのに……！
+- wait:
+  - 50
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 111011
+  - 3
+- print:
+  - ユニ
+  - だが、
+- wait:
+  - 25
+- print:
+  - ユニ
+  - 可愛い後輩を危険には晒せない……！
+- touch: *o0
+- choice:
+  - 僕まだ疲れてないよ。
+  - 5
+- tag:
+  - 5
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015000_019
+- face:
+  - 111011
+  - 2
+- print:
+  - ユニ
+  - フッ、
+- wait:
+  - 30
+- print:
+  - ユニ
+  - 分かっているとも。
+- wait:
+  - 40
+- print:
+  - ユニ
+  - >2-
+
+    上級生に迷惑をかけたくない一心で
+- wait:
+  - 75
+- print:
+  - ユニ
+  - 虚勢を張っているのだね。
+- touch: *o0
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015000_020
+- face:
+  - 111011
+  - 2
+- eye_open:
+  - False
+- print:
+  - ユニ
+  - いやいや
+- wait:
+  - 20
+- print:
+  - ユニ
+  - 皆まで言うな。
+- wait:
+  - 40
+- print:
+  - ユニ
+  - >2
+
+- nod:
+  - 111011
+- print:
+  - ユニ
+  - 分かっとる、
+- wait:
+  - 25
+- print:
+  - ユニ
+  - 分かっとるよ。
+- wait:
+  - 45
+- print:
+  - ユニ
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - ユニ
+  - 君の本当の気持ちはようく分かっておるから。
+- touch: *o0
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015000_021
+- face:
+  - 111011
+  - 2
+- print:
+  - ユニ
+  - いやいやいや
+- wait:
+  - 30
+- print:
+  - ユニ
+  - 大丈夫だ、
+- wait:
+  - 30
+- print:
+  - ユニ
+  - もう何も言うな。
+- wait:
+  - 40
+- print:
+  - ユニ
+  - >2-
+
+    すべてはユニ先輩の我儘ということにしてくれて構わない。
+- wait:
+  - 105
+- print:
+  - ユニ
+  - >2-
+
+    だから君は気に病まなくていいんだ。
+- wait:
+  - 70
+- print:
+  - ユニ
+  - さあ大手を振って堂々帰ろう。
+- touch: *o0
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015000_022
+- face:
+  - 111011
+  - 1
+- nod:
+  - 111011
+- print:
+  - ユニ
+  - えー、
+- wait:
+  - 25
+- print:
+  - ユニ
+  - というわけで。
+- wait:
+  - 35
+- print:
+  - ユニ
+  - >2-
+
+    可愛い後輩のため
+- wait:
+  - 40
+- print:
+  - ユニ
+  - 涙を呑んで踵を返すユニ先輩であったとさ。
+- wait:
+  - 95
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 111011
+  - 2
+- print:
+  - ユニ
+  - めでたしめでた──
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_leaves_run_armor_come_01
+- bgm:
+  - stop
+  - 2
+- fadeout:
+  - 111011
+  - 30
+- se:
+  - se_adv_step_dirt_move_01
+- chara_full:
+  - 104911
+  - C
+  - 2
+- scale:
+  - 104911
+  - 1.2
+  - 1
+- fadein:
+  - 104911
+  - 30
+- window_visible:
+  - TRUE
+- se:
+  - se_adv_gacha_rainbow_open_01
+- bgm:
+  - bgm_M36
+  - 0
+  - 0
+  - 1
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_7015000_023
+- face:
+  - 104911
+  - 2
+- effect:
+  - 9
+- print:
+  - シズル
+  - 大丈夫！　
+- wait:
+  - 20
+- print:
+  - シズル
+  - お姉ちゃんが来たよ！
+- touch: *o0
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 1
+- vo:
+  - vo_adv_7015000_024
+- face:
+  - 111011
+  - 6
+- print:
+  - ユニ
+  - なに？
+- touch: *o0
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_7015000_025
+- face:
+  - 104911
+  - 4
+- print:
+  - シズル
+  - 弟くん、
+- wait:
+  - 15
+- print:
+  - シズル
+  - 疲れちゃったの？
+- wait:
+  - 10
+- print:
+  - シズル
+  - >2-
+
+    おんぶしてあげようか？　
+- wait:
+  - 15
+- print:
+  - シズル
+  - 抱っこの方がいい？
+- wait:
+  - 5
+- print:
+  - シズル
+  - >2
+
+- face:
+  - 104911
+  - 2
+- print:
+  - シズル
+  - お姉ちゃん、
+- wait:
+  - 5
+- print:
+  - シズル
+  - キミのためなら何でもしてあげるよ！
+- touch: *o0
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_7015000_026
+- face:
+  - 104911
+  - 6
+- print:
+  - シズル
+  - あの塔に入って記憶の手掛かりを探すんだよね？
+- wait:
+  - 50
+- print:
+  - シズル
+  - >2
+
+- face:
+  - 104911
+  - 5
+- print:
+  - シズル
+  - お姉ちゃんも一緒に入るから全部任せて！
+- wait:
+  - 40
+- print:
+  - シズル
+  - >2
+
+- face:
+  - 104911
+  - 2
+- print:
+  - シズル
+  - お姉ちゃんがお姉ちゃんパワーでお姉ちゃん突撃してあげるから！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 4
+  - 1
+- fadeout:
+  - 104911
+  - 30
+- chara_full:
+  - 111011
+  - LC
+  - 6
+- chara_full:
+  - 104911
+  - RC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M203
+  - 0
+  - 0
+  - 0
+  - 2
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015000_027
+- face:
+  - 111011
+  - 1
+- print:
+  - ユニ
+  - はて、
+- wait:
+  - 45
+- print:
+  - ユニ
+  - どうやら例によって君の関係者のようだが……
+- wait:
+  - 80
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 111011
+  - 4
+- print:
+  - ユニ
+  - 何者だね、
+- wait:
+  - 35
+- print:
+  - ユニ
+  - この突如現れた押しつけがましいトーンの長身娘は。
+- touch: *o0
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_7015000_028
+- face:
+  - 104911
+  - 5
+- print:
+  - シズル
+  - '{0}くんのお姉ちゃんだよ！'
+- touch: *o0
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015000_029
+- face:
+  - 111011
+  - 6
+- print:
+  - ユニ
+  - あ、
+- wait:
+  - 15
+- nod:
+  - 111011
+- print:
+  - ユニ
+  - はい。
+- touch: *o0
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_7015000_030
+- face:
+  - 104911
+  - 6
+- print:
+  - シズル
+  - そちらは学校の先輩さんだよね！
+- wait:
+  - 50
+- print:
+  - シズル
+  - >2
+
+- face:
+  - 104911
+  - 2
+- print:
+  - シズル
+  - 大丈夫、
+- wait:
+  - 20
+- print:
+  - シズル
+  - 弟くんの交友関係は
+- wait:
+  - 35
+- print:
+  - シズル
+  - >2-
+
+    姉の義務として可能なかぎり把握してるから！
+- touch: *o0
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_7015000_031
+- face:
+  - 104911
+  - 5
+- emotion:
+  - note1_L
+  - 104911
+  - -120
+  - 520
+  - se_adv_emote_note_01
+- print:
+  - シズル
+  - よろしくね、
+- wait:
+  - 10
+- print:
+  - シズル
+  - ユニちゃん！
+- touch: *o0
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_7015000_032
+- face:
+  - 111011
+  - 6
+- print:
+  - ユニ
+  - ど、
+- wait:
+  - 20
+- nod:
+  - 111011
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ユニ
+  - どうも。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- se:
+  - amb_adv_forest_01
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - 流石のユニさえ真顔にさせる、怒涛のようなシズルの圧であった。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 1
+- se_pause:
+  - amb_adv_forest_01
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

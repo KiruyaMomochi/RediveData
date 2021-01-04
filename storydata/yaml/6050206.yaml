@@ -1,0 +1,205 @@
+- title:
+  - 第6話
+- outline:
+  - ' '
+- background:
+  - 501132
+- amb:
+  - amb_adv_outdoors_night_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 第6話
+- chara_full:
+  - 114011
+  - C
+  - 4
+- fadein:
+  - 114011
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M180_Ver2
+  - 0
+  - 0
+  - 1
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050206_000
+- face:
+  - 114011
+  - 4
+- print:
+  - 怜
+  - >
+    虛幻的女幽靈……紡希為什麼要我扮成那樣……
+- face:
+  - 114011
+  - 6
+- print:
+  - 怜
+  - >
+    我覺得再更好戰一點的幽靈比較適合我啊。
+- face:
+  - 114011
+  - 4
+- print:
+  - 怜
+  - 虛幻……
+- eye_open:
+  - False
+- print:
+  - 怜
+  - 果然還是不太懂啊。
+- touch: &o0 []
+- eye_open:
+  - true
+- choice:
+  - 好戰？
+  - 1
+  - 1
+- choice:
+  - 我會保護妳的。
+  - 2
+  - 2
+- choice:
+  - 因為紡希想看啊！
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050206_001
+- face:
+  - 114011
+  - 6
+- print:
+  - 怜
+  - >
+    舉例來說，像是迅速踏蹬階梯追逼獵物……
+- face:
+  - 114011
+  - 4
+- print:
+  - 怜
+  - >
+    這樣比起鬼怪更像妖怪了呢？
+- face:
+  - 114011
+  - 6
+- print:
+  - 怜
+  - 但如果是那種，我也……
+- face:
+  - 114011
+  - 4
+- print:
+  - 怜
+  - 算了，那不適合鬼屋呢！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050206_002
+- face:
+  - 114011
+  - 1
+- print:
+  - 怜
+  - >
+    如果有你這樣的人在，不變成幽靈，事情也可以解決呢！
+- face:
+  - 114011
+  - 6
+- print:
+  - 怜
+  - 這樣一想，像是可憐的女性……
+- nod:
+  - 114011
+- print:
+  - 怜
+  - >
+    啊，這樣想的話就好了吧？
+- face:
+  - 114011
+  - 1
+- print:
+  - 怜
+  - 謝謝你，我好像稍微抓到一點感覺了呢。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050206_003
+- face:
+  - 114011
+  - 4
+- emotion:
+  - gloomy1_R
+  - 114011
+  - 30
+  - 520
+  - se_adv_emote_gloomy_01
+- print:
+  - 怜
+  - >
+    被你這樣講，我也沒什麼能說的了。
+- face:
+  - 114011
+  - 6
+- print:
+  - 怜
+  - >-
+    可是茉莉的不就是很適合她的衣服嗎？
+
+    既然如此，我也……
+- face:
+  - 114011
+  - 2
+- print:
+  - 怜
+  - 算了，這次還是替紡希實現願望吧！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 114011
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

@@ -1,0 +1,183 @@
+- title:
+  - 第5話
+- outline:
+  - ' '
+- background:
+  - 501132
+- amb:
+  - amb_adv_outdoors_night_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 第5話
+- chara_full:
+  - 114011
+  - C
+  - 6
+- fadein:
+  - 114011
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M237_Live
+  - 0
+  - 0
+  - 1
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050205_000
+- face:
+  - 114011
+  - 6
+- print:
+  - 怜
+  - >
+    萬聖節是慶祝收穫的祭典對吧？
+- face:
+  - 114011
+  - 4
+- print:
+  - 怜
+  - >
+    那麼也沒有必要變裝不是嗎……
+- face:
+  - 114011
+  - 6
+- print:
+  - 怜
+  - 啊，我也知道那是為了鬼屋啦……
+- touch: &o0 []
+- choice:
+  - 很開心喔？
+  - 1
+  - 1
+- choice:
+  - 坦然自若的去做就好啦！
+  - 2
+  - 2
+- choice:
+  - 要交換嗎？
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050205_001
+- face:
+  - 114011
+  - 6
+- print:
+  - 怜
+  - 很開心……啊？
+- face:
+  - 114011
+  - 1
+- print:
+  - 怜
+  - >
+    說的也是呢。
+
+    不好好享受難得的祭典就太浪費了呢。
+- face:
+  - 114011
+  - 6
+- print:
+  - 怜
+  - 不過……那個，所謂的女幽靈要怎麼享受呢？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050205_002
+- face:
+  - 114011
+  - 1
+- nod:
+  - 114011
+- print:
+  - 怜
+  - >
+    ……說的也是呢，是紡希做給我的衣服嘛。
+
+    不是什麼讓人不好意思的事情呢！
+- face:
+  - 114011
+  - 2
+- print:
+  - 怜
+  - 多虧{0}，我不再猶豫了呢，謝謝你。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050205_003
+- face:
+  - 114011
+  - 5
+- emotion:
+  - question1_R
+  - 114011
+  - 100
+  - 495
+  - se_adv_emote_question_01
+- print:
+  - 怜
+  - >
+    和、和你的衣服？對你來說那是平常穿的衣服，可是對我而言……
+- face:
+  - 114011
+  - 6
+- print:
+  - 怜
+  - >
+    嗯？你說的交換，是你要來穿這套衣服？
+- face:
+  - 114011
+  - 4
+- print:
+  - 怜
+  - 等等，我雖然想尊重你的意志……對吧？
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 114011
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

@@ -1,0 +1,233 @@
+- title:
+  - 關於茉莉
+- outline:
+  - ' '
+- background:
+  - 501132
+- amb:
+  - amb_adv_outdoors_night_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 關於茉莉
+- chara_full:
+  - 105411
+  - C
+  - 1
+- fadein:
+  - 105411
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M404
+  - 0
+  - 0
+  - 1
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_6050102_000
+- face:
+  - 105411
+  - 1
+- print:
+  - 紡希
+  - 我雖然是第一次和茉莉
+- wait:
+  - 30
+- print:
+  - 紡希
+  - 好好聊天，
+- wait:
+  - 55
+- print:
+  - 紡希
+  - >2-
+
+    該怎麼說，
+- wait:
+  - 30
+- print:
+  - 紡希
+  - 她是個可愛的孩子呢！
+- touch: &o0 []
+- choice:
+  - 很帥喔！
+  - 1
+  - 1
+- choice:
+  - 是可愛的人族呢！
+  - 2
+  - 2
+- choice:
+  - 是可愛的獸人呢！
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_6050102_001
+- face:
+  - 105411
+  - 6
+- print:
+  - 紡希
+  - 啊，
+- wait:
+  - 15
+- print:
+  - 紡希
+  - 她本人是以帥氣為目標啊！
+- wait:
+  - 50
+- print:
+  - 紡希
+  - >2-
+
+    嗯～
+- wait:
+  - 45
+- face:
+  - 105411
+  - 1
+- print:
+  - 紡希
+  - 不過將來感覺會變帥氣吧！
+- wait:
+  - 60
+- print:
+  - 紡希
+  - >2-
+
+    到時候還想製作新的衣服呢，
+- wait:
+  - 55
+- face:
+  - 105411
+  - 2
+- print:
+  - 紡希
+  - 真令人期待。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_6050102_002
+- face:
+  - 105411
+  - 2
+- print:
+  - 紡希
+  - 真的呢，
+- wait:
+  - 20
+- print:
+  - 紡希
+  - 她真是個可愛的人族啊！
+- wait:
+  - 40
+- print:
+  - 紡希
+  - >2
+
+- face:
+  - 105411
+  - 6
+- print:
+  - 紡希
+  - 嗯～
+- wait:
+  - 35
+- print:
+  - 紡希
+  - 那孩子真的有要隱瞞嗎？
+- wait:
+  - 50
+- print:
+  - 紡希
+  - >2
+
+- face:
+  - 105411
+  - 4
+- print:
+  - 紡希
+  - 我反而覺得漏洞很多呢……
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_6050102_003
+- face:
+  - 105411
+  - 4
+- print:
+  - 紡希
+  - 等等，
+- wait:
+  - 15
+- print:
+  - 紡希
+  - 那樣說可不行呢！
+- wait:
+  - 20
+- print:
+  - 紡希
+  - >2-
+
+    因為本人是打算隱瞞這件事的啊。
+- wait:
+  - 40
+- print:
+  - 紡希
+  - >2
+
+- face:
+  - 105411
+  - 1
+- print:
+  - 紡希
+  - 要先在心裡記住她對我的信任。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 105411
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

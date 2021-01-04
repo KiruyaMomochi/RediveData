@@ -1,0 +1,233 @@
+- title:
+  - 第5話
+- outline:
+  - ' '
+- background:
+  - 501132
+- amb:
+  - amb_adv_outdoors_night_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 第5話
+- chara_full:
+  - 114111
+  - C
+  - 1
+- fadein:
+  - 114111
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M237_Live
+  - 0
+  - 0
+  - 1
+- focus:
+  - 114111
+- bust:
+  - 114111
+  - 0
+- vo:
+  - vo_adv_6050305_000
+- face:
+  - 114111
+  - 1
+- print:
+  - 茉莉
+  - 剛剛走在路上收到了糖果是也！
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - >2
+
+- face:
+  - 114111
+  - 1
+- print:
+  - 茉莉
+  - 你也一起吃吧！
+- touch: &o0 []
+- choice:
+  - 我也給妳糖果吧！
+  - 1
+  - 1
+- choice:
+  - 謝謝！
+  - 2
+  - 2
+- choice:
+  - 不給糖就搗蛋！
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 114111
+- bust:
+  - 114111
+  - 0
+- vo:
+  - vo_adv_6050305_001
+- face:
+  - 114111
+  - 2
+- emotion:
+  - note1_L
+  - 114111
+  - -90
+  - 415
+  - se_adv_emote_note_01
+- print:
+  - 茉莉
+  - 謝謝你！
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - 收到好多糖果，好開心是也！
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - >2
+
+- face:
+  - 114111
+  - 1
+- print:
+  - 茉莉
+  - 但是，怎麼會收到這麼多的糖果呢？
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - 真不可思議。
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - >2
+
+- face:
+  - 114111
+  - 6
+- print:
+  - 茉莉
+  - ……啊！
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - 是因為我是小孩子嗎！？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 114111
+- bust:
+  - 114111
+  - 0
+- vo:
+  - vo_adv_6050305_002
+- face:
+  - 114111
+  - 1
+- print:
+  - 茉莉
+  - 萬聖節可以收到好多種糖果，真棒呢！
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - >2
+
+- face:
+  - 114111
+  - 2
+- print:
+  - 茉莉
+  - 如果萬聖節一～直持續下去就好了。
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - >2
+
+- face:
+  - 114111
+  - 1
+- print:
+  - 茉莉
+  - 你不這麼覺得嗎？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 114111
+- bust:
+  - 114111
+  - 0
+- vo:
+  - vo_adv_6050305_003
+- face:
+  - 114111
+  - 6
+- print:
+  - 茉莉
+  - 你是想要搶走我的糖果吧！
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - >2
+
+- face:
+  - 114111
+  - 1
+- print:
+  - 茉莉
+  - 我不會讓你得逞的喔！
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - 不給糖就回過頭搗你蛋是也！
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - >2
+
+- face:
+  - 114111
+  - 2
+- print:
+  - 茉莉
+  - 不給我糖果的話，我就要對你惡作劇了！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 114111
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

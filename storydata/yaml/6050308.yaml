@@ -1,0 +1,270 @@
+- title:
+  - 第8話
+- outline:
+  - ' '
+- background:
+  - 501132
+- amb:
+  - amb_adv_outdoors_night_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 第8話
+- chara_full:
+  - 114111
+  - C
+  - 1
+- fadein:
+  - 114111
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M95_Ver3
+  - 0
+  - 0
+  - 1
+- focus:
+  - 114111
+- bust:
+  - 114111
+  - 0
+- vo:
+  - vo_adv_6050308_000
+- face:
+  - 114111
+  - 1
+- print:
+  - 茉莉
+  - 萬聖節是允許惡作劇的活動對吧！
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - >2
+
+- face:
+  - 114111
+  - 6
+- print:
+  - 茉莉
+  - 如果是平常的話一定會被警告的，
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - 那個……
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - >2
+
+- face:
+  - 114111
+  - 1
+- print:
+  - 茉莉
+  - 我稍微有一點興趣是也。
+- touch: &o0 []
+- choice:
+  - 要嘗試做壞事？
+  - 1
+  - 1
+- choice:
+  - 讓大家高興吧！
+  - 2
+  - 2
+- choice:
+  - 把頭盔……
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 114111
+- bust:
+  - 114111
+  - 0
+- vo:
+  - vo_adv_6050308_001
+- face:
+  - 114111
+  - 6
+- print:
+  - 茉莉
+  - 做壞事和惡作劇是不一樣的喔！
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - >2
+
+- face:
+  - 114111
+  - 3
+- print:
+  - 茉莉
+  - 壞事不管什麼時候都不能做的是也！
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - >2
+
+- face:
+  - 114111
+  - 4
+- print:
+  - 茉莉
+  - 不過，
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - 還真是想不太到不壞的惡作劇啊……
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 114111
+- bust:
+  - 114111
+  - 0
+- vo:
+  - vo_adv_6050308_002
+- face:
+  - 114111
+  - 6
+- emotion:
+  - twinkle1_R
+  - 114111
+  - -110
+  - 410
+  - se_adv_emote_twinkle_01
+- print:
+  - 茉莉
+  - 是所謂的驚喜嗎！
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - >2-
+
+    原來如此。
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - 驚喜的話，不但能嚇到人，還會讓人開心是也！
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - >2
+
+- face:
+  - 114111
+  - 2
+- print:
+  - 茉莉
+  - 真是個好主意呢！
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - 不愧是{0}啊！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 114111
+- bust:
+  - 114111
+  - 0
+- vo:
+  - vo_adv_6050308_003
+- face:
+  - 114111
+  - 6
+- emotion:
+  - question1_R
+  - 114111
+  - 125
+  - 435
+  - se_adv_emote_question_01
+- print:
+  - 茉莉
+  - 頭盔？
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - 咦？
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - 該不會是想對純惡作劇吧？
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - >2
+
+- face:
+  - 114111
+  - 4
+- print:
+  - 茉莉
+  - 呃、
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - 不是，
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - 那個還是有點……
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - 讓人惶恐是也。
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 茉莉
+  - 會讓我有恐怖遭遇的萬聖節就不必了……
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 114111
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

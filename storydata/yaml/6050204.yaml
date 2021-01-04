@@ -1,0 +1,184 @@
+- title:
+  - 第4話
+- outline:
+  - ' '
+- background:
+  - 501132
+- amb:
+  - amb_adv_outdoors_night_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 第4話
+- chara_full:
+  - 114011
+  - C
+  - 4
+- fadein:
+  - 114011
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M404_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050204_000
+- face:
+  - 114011
+  - 4
+- print:
+  - 怜
+  - 鬼、鬼怪爸爸……
+- eye_open:
+  - False
+- print:
+  - 怜
+  - >
+    裝成人類的鬼怪……
+- eye_open:
+  - True
+- print:
+  - 怜
+  - 還有其他混進來的鬼怪嗎？
+- touch: &o0 []
+- choice:
+  - 怜的身後……
+  - 1
+  - 1
+- choice:
+  - 真可怕啊……
+  - 2
+  - 2
+- choice:
+  - 如果是人類的話就可以擊敗？
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050204_001
+- face:
+  - 114011
+  - 3
+- nod:
+  - 114011
+- print:
+  - 怜
+  - >
+    喂！這種惡作劇不好喔！
+- face:
+  - 114011
+  - 6
+- print:
+  - 怜
+  - ……我不會回頭的，
+- face:
+  - 114011
+  - 3
+- print:
+  - 怜
+  - 我是不會回頭的喔！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050204_002
+- face:
+  - 114011
+  - 5
+- emotion:
+  - sweat2_R
+  - 114011
+  - 65
+  - 510
+  - se_adv_emote_sweat_02
+- print:
+  - 怜
+  - >
+    我、我我可沒有說自己害怕喔？
+- face:
+  - 114011
+  - 1
+- print:
+  - 怜
+  - >
+    不過如果你覺得害怕，還是一起行動比較好吧。
+- face:
+  - 114011
+  - 6
+- print:
+  - 怜
+  - 嗯，既然難得，就這麼做吧！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050204_003
+- face:
+  - 114011
+  - 6
+- print:
+  - 怜
+  - >
+    的確也可以這樣想呢。
+- face:
+  - 114011
+  - 4
+- print:
+  - 怜
+  - >-
+    不過橫豎也得要分辨出來才能擊敗啊！
+
+    只是如此一來，
+- eye_open:
+  - False
+- print:
+  - 怜
+  - 還是會回到最開始的不安呢……
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 114011
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

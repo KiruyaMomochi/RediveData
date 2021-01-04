@@ -1,0 +1,233 @@
+- title:
+  - 第7話
+- outline:
+  - ' '
+- background:
+  - 501132
+- amb:
+  - amb_adv_outdoors_night_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 第7話
+- chara_full:
+  - 114111
+  - C
+  - 1
+- fadein:
+  - 114111
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M203
+  - 0
+  - 0
+  - 1
+- focus:
+  - 114111
+- bust:
+  - 114111
+  - 0
+- vo:
+  - vo_adv_6050307_000
+- face:
+  - 114111
+  - 1
+- print:
+  - 茉莉
+  - 以白虎為主題的服裝……
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - >2
+
+- face:
+  - 114111
+  - 2
+- print:
+  - 茉莉
+  - 對喜歡虎虎的人來說無法抗拒是也！
+- touch: &o0 []
+- choice:
+  - 得要回送禮物呢！
+  - 1
+  - 1
+- choice:
+  - 我也想穿……
+  - 2
+  - 2
+- choice:
+  - 很適合喔。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 114111
+- bust:
+  - 114111
+  - 0
+- vo:
+  - vo_adv_6050307_001
+- face:
+  - 114111
+  - 1
+- print:
+  - 茉莉
+  - 說的也是呢！
+- wait:
+  - 15
+- face:
+  - 114111
+  - 6
+- print:
+  - 茉莉
+  - 但是要回送什麼才好呢？
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - >2-
+
+    紡希應該會喜歡的東西……
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - >2
+
+- face:
+  - 114111
+  - 1
+- print:
+  - 茉莉
+  - 果然還是怜，
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - 對吧？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 114111
+- bust:
+  - 114111
+  - 0
+- vo:
+  - vo_adv_6050307_002
+- face:
+  - 114111
+  - 4
+- print:
+  - 茉莉
+  - 嗯～
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - 如果尺寸一樣的話，我也是想讓你穿啦……
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - >2
+
+- face:
+  - 114111
+  - 1
+- print:
+  - 茉莉
+  - 還是太勉強了啊！
+- wait:
+  - 15
+- face:
+  - 114111
+  - 6
+- print:
+  - 茉莉
+  - 拜託紡希再做一件……
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - >2
+
+- face:
+  - 114111
+  - 2
+- print:
+  - 茉莉
+  - 穿著一樣的衣服在路上巡邏也不錯是也！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 114111
+- bust:
+  - 114111
+  - 0
+- vo:
+  - vo_adv_6050307_003
+- face:
+  - 114111
+  - 2
+- emotion:
+  - note1_L
+  - 114111
+  - -90
+  - 415
+  - se_adv_emote_note_01
+- print:
+  - 茉莉
+  - 謝謝！
+- wait:
+  - 15
+- face:
+  - 114111
+  - 1
+- print:
+  - 茉莉
+  - >-
+    為我製作了這麼棒的衣服，
+
+    不好好加油是不行的呢！
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - >2
+
+- face:
+  - 114111
+  - 2
+- print:
+  - 茉莉
+  - 全心全意經營鬼屋是也！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 114111
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

@@ -1,0 +1,177 @@
+- title:
+  - 第10話
+- outline:
+  - ' '
+- background:
+  - 501132
+- amb:
+  - amb_adv_outdoors_night_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 第10話
+- chara_full:
+  - 114011
+  - C
+  - 6
+- fadein:
+  - 114011
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M164
+  - 0
+  - 0
+  - 1
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050210_000
+- face:
+  - 114011
+  - 6
+- print:
+  - 怜
+  - >
+    馬修他們已經回到靈界了吧？
+- face:
+  - 114011
+  - 1
+- print:
+  - 怜
+  - 如果他們能在那邊過得很好就好了呢。
+- touch: &o0 []
+- choice:
+  - 去看看他們？
+  - 1
+  - 1
+- choice:
+  - 很有精神喔！
+  - 2
+  - 2
+- choice:
+  - 明年還會見面的！
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050210_001
+- face:
+  - 114011
+  - 6
+- emotion:
+  - question1_R
+  - 114011
+  - 100
+  - 495
+  - se_adv_emote_question_01
+- print:
+  - 怜
+  - >
+    咦？去、去靈界？
+- face:
+  - 114011
+  - 4
+- print:
+  - 怜
+  - >-
+    那個，我的確蠻想念那些孩子的……
+
+    但要我去鬼怪的世界，
+- eye_open:
+  - False
+- print:
+  - 怜
+  - 那個……
+- eye_open:
+  - True
+- print:
+  - 怜
+  - 我需要一點心理準備……
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050210_002
+- face:
+  - 114011
+  - 2
+- print:
+  - 怜
+  - >
+    的確無法想像那些孩子沒有精神的樣子，
+- face:
+  - 114011
+  - 4
+- print:
+  - 怜
+  - >
+    不過他們會不會被其他鬼怪欺負呢……
+- face:
+  - 114011
+  - 1
+- print:
+  - 怜
+  - 不，如果是現在的那些孩子，一定沒問題的呢！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050210_003
+- face:
+  - 114011
+  - 2
+- print:
+  - 怜
+  - >
+    明年……嗎？那些孩子會成長多少呢？
+- face:
+  - 114011
+  - 1
+- print:
+  - 怜
+  - 為了不被他們笑話，我們也得要好好努力呢！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 114011
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

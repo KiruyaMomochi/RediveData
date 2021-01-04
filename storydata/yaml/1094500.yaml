@@ -1,0 +1,596 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 509010
+- amb:
+  - amb_adv_room_noise_01
+- ui_visible:
+  - false
+- effect:
+  - 0101
+- bgm:
+  - bgm_M321_2C
+  - 0
+  - 0
+  - 1
+- wait:
+  - 17
+- se:
+  - se_adv_login_birthday_01
+- wait:
+  - 100
+- ui_visible:
+  - true
+- chara_full:
+  - 109411
+  - C
+  - 6
+- fadein:
+  - 109411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 109411
+- bust:
+  - 109411
+  - 0
+- vo:
+  - vo_adv_1094500_000
+- face:
+  - 109411
+  - 6
+- print:
+  - グレア
+  - えっと……
+- wait:
+  - 50
+- print:
+  - グレア
+  - >2-
+
+    話って何かな？
+- wait:
+  - 50
+- print:
+  - グレア
+  - >2
+
+- face:
+  - 109411
+  - 2
+- print:
+  - グレア
+  - もしかして、
+- wait:
+  - 30
+- print:
+  - グレア
+  - アンに用事？
+- touch: &o0 []
+- choice:
+  - 誕生日、おめでとう！
+  - 1
+- choice:
+  - 今日が何の日か知ってる？
+  - 2
+- choice:
+  - プレゼントだよ。
+  - 3
+- tag:
+  - 1
+- window_visible:
+  - false
+- face:
+  - 109411
+  - 1
+- se:
+  - se_adv_tickle_02
+- effect:
+  - 0102
+- wait:
+  - 25
+- se:
+  - se_adv_login_birthday_02
+- wait:
+  - 40
+- effect:
+  - 0021
+  - se_adv_happy_particle_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 109411
+- bust:
+  - 109411
+  - 0
+- vo:
+  - vo_adv_1094500_001
+- face:
+  - 109411
+  - 6
+- emotion:
+  - question1_R
+  - 109411
+  - 85
+  - 545
+  - se_adv_emote_question_01
+- print:
+  - グレア
+  - ……えっ？
+- touch: *o0
+- focus:
+  - 109411
+- bust:
+  - 109411
+  - 0
+- vo:
+  - vo_adv_1094500_002
+- face:
+  - 109411
+  - 4
+- print:
+  - グレア
+  - あっ、
+- wait:
+  - 20
+- print:
+  - グレア
+  - その、
+- wait:
+  - 20
+- print:
+  - グレア
+  - ご、
+- wait:
+  - 10
+- print:
+  - グレア
+  - ごめんなさい。
+- wait:
+  - 35
+- print:
+  - グレア
+  - >2
+
+- face:
+  - 109411
+  - 1
+- print:
+  - グレア
+  - 違うんだ。
+- wait:
+  - 30
+- print:
+  - グレア
+  - びっくりしちゃって……
+- touch: *o0
+- focus:
+  - 109411
+- bust:
+  - 109411
+  - 0
+- vo:
+  - vo_adv_1094500_003
+- face:
+  - 109411
+  - 1
+- print:
+  - グレア
+  - まさか
+- wait:
+  - 25
+- print:
+  - グレア
+  - 私の誕生日を覚えててくれるなんて……
+- wait:
+  - 70
+- print:
+  - グレア
+  - >2
+
+- face:
+  - 109411
+  - 5
+- print:
+  - グレア
+  - ……その、
+- wait:
+  - 30
+- print:
+  - グレア
+  - 思ってなかったから。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 109411
+- bust:
+  - 109411
+  - 0
+- vo:
+  - vo_adv_1094500_004
+- face:
+  - 109411
+  - 4
+- print:
+  - グレア
+  - ……ごめん。
+- wait:
+  - 20
+- print:
+  - グレア
+  - 分からないな。
+- wait:
+  - 40
+- print:
+  - グレア
+  - >2
+
+- face:
+  - 109411
+  - 1
+- print:
+  - グレア
+  - 何か、
+- wait:
+  - 25
+- print:
+  - グレア
+  - この国のお祭りとか？
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 109411
+  - 1
+- se:
+  - se_adv_tickle_02
+- effect:
+  - 0102
+- wait:
+  - 25
+- se:
+  - se_adv_login_birthday_02
+- wait:
+  - 40
+- effect:
+  - 0021
+  - se_adv_happy_particle_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 109411
+- bust:
+  - 109411
+  - 0
+- vo:
+  - vo_adv_1094500_005
+- face:
+  - 109411
+  - 6
+- print:
+  - グレア
+  - ……え。
+- wait:
+  - 30
+- print:
+  - グレア
+  - >2-
+
+    私の誕生日……？
+- wait:
+  - 70
+- print:
+  - グレア
+  - >2
+
+- face:
+  - 109411
+  - 5
+- print:
+  - グレア
+  - そ、
+- wait:
+  - 25
+- print:
+  - グレア
+  - そっか……
+- touch: *o0
+- focus:
+  - 109411
+- bust:
+  - 109411
+  - 0
+- vo:
+  - vo_adv_1094500_006
+- face:
+  - 109411
+  - 6
+- print:
+  - グレア
+  - え、
+- wait:
+  - 10
+- print:
+  - グレア
+  - えっと。
+- wait:
+  - 15
+- print:
+  - グレア
+  - ごめんね。
+- wait:
+  - 40
+- print:
+  - グレア
+  - >2
+
+- face:
+  - 109411
+  - 2
+- print:
+  - グレア
+  - 覚えててもらえてると、
+- wait:
+  - 30
+- print:
+  - グレア
+  - 思ってなくて。
+- wait:
+  - 45
+- print:
+  - グレア
+  - >2-
+
+    びっくりしちゃった……
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- window_visible:
+  - false
+- face:
+  - 109411
+  - 1
+- se:
+  - se_adv_tickle_02
+- effect:
+  - 0102
+- wait:
+  - 25
+- se:
+  - se_adv_login_birthday_02
+- wait:
+  - 40
+- effect:
+  - 0021
+  - se_adv_happy_particle_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 109411
+- bust:
+  - 109411
+  - 0
+- vo:
+  - vo_adv_1094500_007
+- face:
+  - 109411
+  - 6
+- print:
+  - グレア
+  - ……もしかして。
+- wait:
+  - 55
+- print:
+  - グレア
+  - >2-
+
+    私の
+- wait:
+  - 40
+- print:
+  - グレア
+  - 誕生日プレゼント……？
+- touch: *o0
+- focus:
+  - 109411
+- bust:
+  - 109411
+  - 0
+- vo:
+  - vo_adv_1094500_008
+- face:
+  - 109411
+  - 4
+- print:
+  - グレア
+  - えっと……
+- wait:
+  - 30
+- print:
+  - グレア
+  - ご、
+- wait:
+  - 10
+- print:
+  - グレア
+  - ごめんね。
+- wait:
+  - 30
+- print:
+  - グレア
+  - >2-
+
+    上手く反応できなくて。
+- wait:
+  - 60
+- print:
+  - グレア
+  - >2
+
+- face:
+  - 109411
+  - 5
+- print:
+  - グレア
+  - まさか、
+- wait:
+  - 20
+- print:
+  - グレア
+  - 覚えててくれるなんて……
+- touch: *o0
+- tag:
+  - 4
+- effect_delete:
+  - 0021
+  - 15
+- focus:
+  - 109411
+- bust:
+  - 109411
+  - 0
+- vo:
+  - vo_adv_1094500_009
+- face:
+  - 109411
+  - 4
+- print:
+  - グレア
+  - ……
+- wait:
+  - 40
+- print:
+  - グレア
+  - ダメだな。
+- wait:
+  - 45
+- print:
+  - グレア
+  - >2-
+
+    アンだったら
+- wait:
+  - 30
+- print:
+  - グレア
+  - 上手く言えるんだろうけど……
+- wait:
+  - 50
+- print:
+  - グレア
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - グレア
+  - 私、
+- wait:
+  - 40
+- print:
+  - グレア
+  - 上手く伝えられないみたい。
+- wait:
+  - 65
+- eye_open:
+  - True
+- print:
+  - グレア
+  - だから……
+- touch: *o0
+- focus:
+  - 109411
+- bust:
+  - 109411
+  - 0
+- vo:
+  - vo_adv_1094500_010
+- face:
+  - 109411
+  - 5
+- print:
+  - グレア
+  - ……だから、
+- wait:
+  - 30
+- print:
+  - グレア
+  - 少しだけ
+- wait:
+  - 30
+- print:
+  - グレア
+  - 時間をもらっていい？
+- wait:
+  - 60
+- print:
+  - グレア
+  - >2-
+
+    お礼、
+- wait:
+  - 30
+- print:
+  - グレア
+  - したいんだ。
+- wait:
+  - 50
+- print:
+  - グレア
+  - >2
+
+- face:
+  - 109411
+  - 2
+- print:
+  - グレア
+  - 優しいあなたに、
+- wait:
+  - 45
+- print:
+  - グレア
+  - 少しだけでも
+- wait:
+  - 20
+- print:
+  - グレア
+  - お返しを……
+- touch: *o0
+- window_visible:
+  - false
+- ui_visible:
+  - false
+- fadeout:
+  - 109411
+  - 30
+- bright_change:
+  - 1
+  - 40
+- wait:
+  - 5
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0101
+- end: *o0
