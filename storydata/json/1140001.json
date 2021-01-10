@@ -11,7 +11,7 @@
     "command": "outline",
     "category": 1,
     "args": [
-      " "
+      "怜與{0}在特訓時，遇見遭到魔物襲擊的男性。兩人將魔物擊退後，作為謝禮收下了能夠在萬聖節慶典上使用的折價券，於是兩人便在幾天後帶著折價券造訪了萬聖節慶典的會場。"
     ],
     "number": 1
   },
@@ -44,7 +44,7 @@
     "command": "situation",
     "category": 1,
     "args": [
-      "暫定標題"
+      "萬聖節燈火就在彼處"
     ],
     "number": 32
   },
@@ -87,7 +87,7 @@
     "category": 1,
     "args": [
       "旁白",
-      "在離萬聖節樂園有點距離的郊外，\n{0}陪怜一起進行特訓。"
+      "在離萬聖節樂園有點距離的郊外，\n{0}正陪著怜一起進行特訓。"
     ],
     "number": 6
   },
@@ -111,7 +111,7 @@
     "args": [
       "114011",
       "C",
-      "1"
+      "3"
     ],
     "number": 68
   },
@@ -131,6 +131,17 @@
       "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M17_03",
+      "0",
+      "0",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -162,7 +173,7 @@
     "category": 1,
     "args": [
       "114011",
-      "1"
+      "3"
     ],
     "number": 3
   },
@@ -171,7 +182,24 @@
     "category": 1,
     "args": [
       "怜",
-      "喝！喝啊啊啊！"
+      "喝！"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "喝啊啊啊！"
     ],
     "number": 6
   },
@@ -247,7 +275,7 @@
     "command": "se",
     "category": 1,
     "args": [
-      "se_adv_weapon_sword_hit_01"
+      "se_adv_weapon_sword_impact_03"
     ],
     "number": 26
   },
@@ -268,14 +296,6 @@
     "number": 13
   },
   {
-    "command": "se",
-    "category": 1,
-    "args": [
-      "se_adv_weapon_sword_repel_01"
-    ],
-    "number": 26
-  },
-  {
     "command": "effect",
     "category": 3,
     "args": [
@@ -287,7 +307,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "20"
     ],
     "number": 13
   },
@@ -310,6 +330,14 @@
     "number": 68
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_step_dirt_move_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "fadein",
     "category": 2,
     "args": [
@@ -325,6 +353,16 @@
       "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "7",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -361,11 +399,53 @@
     "number": 3
   },
   {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "114011"
+    ],
+    "number": 25
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
       "怜",
-      "呼\u2026\u2026目前就先這樣吧，\n暫時休息一下吧。"
+      "呼\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "目前就先這樣，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n暫時休息一下吧。"
     ],
     "number": 6
   },
@@ -374,6 +454,14 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M140_NoBell"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -405,6 +493,93 @@
     "category": 1,
     "args": [
       "114011",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "抱歉，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "還讓你來陪我。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "114011",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "你看我服裝和裝備都換新的了對吧？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "55"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "114011",
       "1"
     ],
     "number": 3
@@ -414,7 +589,7 @@
     "category": 1,
     "args": [
       "怜",
-      "抱歉，還讓你來陪我。\n你看我服裝和裝備都換新的了對吧？\n所以我想盡快先讓身體適應。"
+      "所以我想盡快先讓身體適應。"
     ],
     "number": 6
   },
@@ -454,7 +629,7 @@
     "category": 1,
     "args": [
       "114011",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -463,7 +638,41 @@
     "category": 1,
     "args": [
       "怜",
-      "畢竟我總不能在忙著準備慶典而人口出入多的大街上，\n揮舞自己還用不習慣的劍啊。"
+      "畢竟"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "我總不能在忙著準備慶典而人來人往的大街上，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "55"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n揮舞自己還用不習慣的劍啊。"
     ],
     "number": 6
   },
@@ -503,16 +712,75 @@
     "category": 1,
     "args": [
       "114011",
-      "1"
+      "2"
     ],
     "number": 3
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "114011"
+    ],
+    "number": 25
   },
   {
     "command": "print",
     "category": 1,
     "args": [
       "怜",
-      "不過你的身手也變好了呢。\n我有好幾次都認真使出攻擊，結果都被你漂亮地化解掉了。"
+      "不過"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "你的身手也變好了呢。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n我有好幾次都認真使出攻擊，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "結果都被你漂亮地化解掉了。"
     ],
     "number": 6
   },
@@ -552,6 +820,58 @@
     "category": 1,
     "args": [
       "114011",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\u2026\u2026你說"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "難怪會覺得手特別酸麻？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "60"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "114011",
       "1"
     ],
     "number": 3
@@ -561,7 +881,24 @@
     "category": 1,
     "args": [
       "怜",
-      "\u2026\u2026你說難怪會覺得手特別地麻？\n因為我認為現在的你不會有問題。\n這就表示你身手有提升這麼多。"
+      "因為我認為現在的你不會有問題。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n這就表示你身手有顯著提升呢。"
     ],
     "number": 6
   },
@@ -601,6 +938,58 @@
     "category": 1,
     "args": [
       "114011",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "話說回來，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "這風真舒服\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "55"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "114011",
       "1"
     ],
     "number": 3
@@ -610,7 +999,24 @@
     "category": 1,
     "args": [
       "怜",
-      "話說回來，這風真舒服\u2026\u2026\n話說，萬聖節慶典好像馬上就要開始了？"
+      "說起來，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "萬聖節慶典好像馬上就要開始了？"
     ],
     "number": 6
   },
@@ -667,16 +1073,45 @@
     "category": 1,
     "args": [
       "114011",
-      "1"
+      "6"
     ],
     "number": 3
+  },
+  {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "question1_R",
+      "114011",
+      "100",
+      "495",
+      "se_adv_emote_question_01"
+    ],
+    "number": 59
   },
   {
     "command": "print",
     "category": 1,
     "args": [
       "怜",
-      "慶典嗎？還很難說\u2026\u2026"
+      "慶典嗎？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "還很難說\u2026\u2026"
     ],
     "number": 6
   },
@@ -716,7 +1151,7 @@
     "category": 1,
     "args": [
       "114011",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -725,7 +1160,59 @@
     "category": 1,
     "args": [
       "怜",
-      "我也不是沒有興趣\u2026\u2026\n但還有每天的鍛鍊，而且一個人去逛也有點怪。"
+      "我也不是沒有興趣\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "55"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "114011",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "但我每天都要鍛鍊，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "而且一個人去逛也有點怪。"
     ],
     "number": 6
   },
@@ -770,11 +1257,71 @@
     "number": 3
   },
   {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "114011"
+    ],
+    "number": 25
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
       "怜",
-      "好了，別管那種事了，\n等稍微休息過後，就繼續開始特訓\u2500\u2500"
+      "好了，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "先不說這些，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "4.5"
+    ],
+    "number": 9
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "等再休息一下後，就繼續開始特訓\u2500\u2500"
     ],
     "number": 6
   },
@@ -791,6 +1338,15 @@
       "false"
     ],
     "number": 41
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "114011",
+      "6"
+    ],
+    "number": 3
   },
   {
     "command": "text_size",
@@ -817,10 +1373,21 @@
     "number": 41
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M03",
+      "0",
+      "0",
+      "1"
+    ],
+    "number": 9
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
-      "1411"
+      "0"
     ],
     "number": 4
   },
@@ -828,8 +1395,8 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "1411",
-      "1"
+      "0",
+      "0"
     ],
     "number": 50
   },
@@ -845,8 +1412,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "1411",
-      "1"
+      "1",
+      "4"
     ],
     "number": 3
   },
@@ -855,7 +1422,58 @@
     "category": 1,
     "args": [
       "？？？",
-      "呀、呀啊啊！？\n誰來\u2026\u2026救救我啊～～～～！"
+      "呀、"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "10"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "？？？",
+      "呀啊啊！？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "？？？",
+      "\n誰來、"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "？？？",
+      "救救我啊～～～～！"
     ],
     "number": 6
   },
@@ -927,7 +1545,7 @@
     "category": 1,
     "args": [
       "114011",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -936,7 +1554,76 @@
     "category": 1,
     "args": [
       "怜",
-      "哀號聲\u2026\u2026！？是從那裡傳來的嗎！？\n我們快點過去！！"
+      "悲鳴\u2026\u2026！？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "是從那裡傳來的嗎！？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "114011",
+      "3"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "{0}，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "我們趕緊過去！！"
     ],
     "number": 6
   },
@@ -999,14 +1686,6 @@
     "number": 31
   },
   {
-    "command": "amb_stop",
-    "category": 1,
-    "args": [
-      "1"
-    ],
-    "number": 61
-  },
-  {
     "command": "background",
     "category": 1,
     "args": [
@@ -1040,7 +1719,7 @@
     "command": "amb",
     "category": 1,
     "args": [
-      "amb_adv_outdoors_day_01"
+      "amb_adv_forest_01"
     ],
     "number": 51
   },
@@ -1050,7 +1729,7 @@
     "args": [
       "1411",
       "LC",
-      "1"
+      "4"
     ],
     "number": 68
   },
@@ -1159,9 +1838,17 @@
     "category": 1,
     "args": [
       "1411",
-      "1"
+      "4"
     ],
     "number": 3
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "False"
+    ],
+    "number": 56
   },
   {
     "command": "print",
@@ -1171,6 +1858,22 @@
       "唔哇啊啊啊！！"
     ],
     "number": 6
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_carriage_shake_02"
+    ],
+    "number": 26
+  },
+  {
+    "command": "shake",
+    "category": 2,
+    "args": [
+      "1411"
+    ],
+    "number": 23
   },
   {
     "command": "touch",
@@ -1217,7 +1920,7 @@
     "args": [
       "114011",
       "LC",
-      "1"
+      "3"
     ],
     "number": 68
   },
@@ -1294,7 +1997,7 @@
     "category": 1,
     "args": [
       "114011",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -1303,7 +2006,59 @@
     "category": 1,
     "args": [
       "怜",
-      "載貨馬車被襲擊了\u2026\u2026！\n先擊退魔物吧！喝啊啊啊啊！"
+      "載貨馬車被襲擊了\u2026\u2026！"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "114011",
+      "3"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "先擊退魔物吧！"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "喝啊啊啊啊！"
     ],
     "number": 6
   },
@@ -1379,7 +2134,7 @@
     "command": "se",
     "category": 1,
     "args": [
-      "se_adv_weapon_sword_large_hit_01"
+      "se_adv_weapon_sword_hit_02"
     ],
     "number": 26
   },
@@ -1443,6 +2198,16 @@
     "number": 41
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "4.3",
+      "1"
+    ],
+    "number": 9
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
@@ -1476,6 +2241,14 @@
       "\u2500\u2500嘎喔喔喔喔喔！"
     ],
     "number": 6
+  },
+  {
+    "command": "sway",
+    "category": 2,
+    "args": [
+      "1614"
+    ],
+    "number": 69
   },
   {
     "command": "touch",
@@ -1555,7 +2328,7 @@
     "args": [
       "1411",
       "RC",
-      "1"
+      "4"
     ],
     "number": 68
   },
@@ -1625,6 +2398,14 @@
     "number": 10
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M358"
+    ],
+    "number": 9
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
@@ -1654,7 +2435,7 @@
     "category": 1,
     "args": [
       "1411",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -1663,7 +2444,24 @@
     "category": 1,
     "args": [
       "男性",
-      "你、你們是\u2026\u2026？"
+      "你、"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "你們是\u2026\u2026？"
     ],
     "number": 6
   },
@@ -1729,7 +2527,67 @@
     "category": 1,
     "args": [
       "怜",
-      "沒有錯。\n先別管那個，你有沒有受傷？"
+      "沒有錯。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "114011"
+    ],
+    "number": 25
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "114011",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "先別管那個，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "你有沒有受傷？"
     ],
     "number": 6
   },
@@ -1769,7 +2627,7 @@
     "category": 1,
     "args": [
       "1411",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -1778,7 +2636,127 @@
     "category": 1,
     "args": [
       "男性",
-      "啊、嗯，我沒什麼事，不用擔心。\n只是，因為被魔物襲擊的關係，我的貨物\u2026\u2026"
+      "啊、"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "嗯，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "我沒什麼事，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "不用擔心。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "1411",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "只是，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "因為被魔物襲擊的關係，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "我的貨物\u2026\u2026"
     ],
     "number": 6
   },
@@ -1818,7 +2796,7 @@
     "category": 1,
     "args": [
       "114011",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -1827,7 +2805,24 @@
     "category": 1,
     "args": [
       "怜",
-      "\u2026\u2026雖然擊退剛才的魔物了，\n但很難說不會有其他的魔物被剛才的騷動吸引過來。"
+      "\u2026\u2026雖然擊退剛才的魔物了，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n但很難說不會有其他的魔物被剛才的騷動吸引過來。"
     ],
     "number": 6
   },
@@ -1867,6 +2862,66 @@
     "category": 1,
     "args": [
       "114011",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "114011"
+    ],
+    "number": 25
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "若是可以，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "最好盡早離開這個地方。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "114011",
       "1"
     ],
     "number": 3
@@ -1876,7 +2931,24 @@
     "category": 1,
     "args": [
       "怜",
-      "若是可以，最好盡早離開這個地方。\n好了，快點走吧，你也來幫忙。"
+      "好了，快點走吧，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "你也來幫忙。"
     ],
     "number": 6
   },
@@ -1893,6 +2965,15 @@
       "false"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "1.5"
+    ],
+    "number": 9
   },
   {
     "command": "fadeout_all",
@@ -2002,6 +3083,17 @@
     "number": 41
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M129_NoB",
+      "0",
+      "0",
+      "1"
+    ],
+    "number": 9
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
@@ -2036,11 +3128,36 @@
     "number": 3
   },
   {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "1411"
+    ],
+    "number": 25
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
       "男性",
-      "真不好意思，還讓你們特地送我。"
+      "真不好意思，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "還讓你們特地送我。"
     ],
     "number": 6
   },
@@ -2080,7 +3197,7 @@
     "category": 1,
     "args": [
       "1411",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -2089,7 +3206,66 @@
     "category": 1,
     "args": [
       "男性",
-      "我真的很希望能給小姑娘你們謝禮\u2026\u2026\n但很抱歉，情況就如你們所見。"
+      "我真的很希望能給小姑娘你們謝禮\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "False"
+    ],
+    "number": 56
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "但很抱歉，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "True"
+    ],
+    "number": 56
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "情況就如你們所見。"
     ],
     "number": 6
   },
@@ -2129,7 +3305,7 @@
     "category": 1,
     "args": [
       "114011",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -2138,7 +3314,76 @@
     "category": 1,
     "args": [
       "怜",
-      "這些貨物\u2026\u2026是攤販的建材嗎？\n但是，這個狀態\u2026\u2026"
+      "這些貨物\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "是攤販的建材嗎？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "60"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "114011",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "但是，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "看這個樣子\u2026\u2026"
     ],
     "number": 6
   },
@@ -2178,7 +3423,7 @@
     "category": 1,
     "args": [
       "1411",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -2187,7 +3432,75 @@
     "category": 1,
     "args": [
       "男性",
-      "是啊\u2026\u2026我是確認過了，\n但因為被魔物襲擊的關係，要在萬聖節出攤的\n攤販骨架和台面都嚴重毀損了。"
+      "是啊\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "我確認過東西的情況了，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "\n但因為被魔物襲擊的關係，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "要在萬聖節出攤的"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "\n攤位骨架和台面都嚴重毀損了。"
     ],
     "number": 6
   },
@@ -2227,7 +3540,7 @@
     "category": 1,
     "args": [
       "1411",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -2236,7 +3549,100 @@
     "category": 1,
     "args": [
       "男性",
-      "就算準備好商品了，但若沒有最重要的攤販的話\u2026\u2026\n而且在這萬聖節即將到來的時期，就算去訂製新的攤販\n也大概趕不上吧。"
+      "就算準備好商品了，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "False"
+    ],
+    "number": 56
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "但若沒有最重要的攤位的話\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "80"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "True"
+    ],
+    "number": 56
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "不過在這個萬聖節即將到來的時期，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "就算去訂製新的攤位"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "\n也大概趕不上吧。"
     ],
     "number": 6
   },
@@ -2276,7 +3682,7 @@
     "category": 1,
     "args": [
       "1411",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -2285,7 +3691,75 @@
     "category": 1,
     "args": [
       "男性",
-      "這樣子可做不了生意啊\u2026\u2026\n但有保住性命才最重要。\n只好想光是能平安無事就算好了\u2026\u2026"
+      "這樣子可做不了生意啊\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "95"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "1411"
+    ],
+    "number": 25
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "但有保住性命才最重要。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "\n只好安慰自己"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "能平安無事就算好了\u2026\u2026"
     ],
     "number": 6
   },
@@ -2342,7 +3816,7 @@
     "category": 1,
     "args": [
       "1411",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -2351,7 +3825,76 @@
     "category": 1,
     "args": [
       "男性",
-      "的確，只要能調齊攤販用的木材，\n剩下的就總會有辦法解決\u2026\u2026\n但我總不能讓你幫我到這個程度\u2026\u2026"
+      "的確，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "只要能調齊攤販用的木材，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "\n剩下的就總會有辦法解決\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "70"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "1411",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "但我總不能讓你幫我到這個程度\u2026\u2026"
     ],
     "number": 6
   },
@@ -2391,16 +3934,58 @@
     "category": 1,
     "args": [
       "114011",
-      "1"
+      "6"
     ],
     "number": 3
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "114011"
+    ],
+    "number": 25
   },
   {
     "command": "print",
     "category": 1,
     "args": [
       "怜",
-      "\u2026\u2026為以防萬一，我先問清楚，\n你應該不會說你要自己一個人就收集建材吧？"
+      "\u2026\u2026以防萬一我先問清楚，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n你應該不會說，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "要自己一個人去收集建材吧？"
     ],
     "number": 6
   },
@@ -2409,6 +3994,16 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "2",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "choice",
@@ -2426,6 +4021,14 @@
       "4"
     ],
     "number": 7
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M273_Ver2"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -2457,7 +4060,7 @@
     "category": 1,
     "args": [
       "114011",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -2466,7 +4069,24 @@
     "category": 1,
     "args": [
       "怜",
-      "果然\u2026\u2026\n我就知道你會那麼說。"
+      "果然\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n我就知道你會那麼說。"
     ],
     "number": 6
   },
@@ -2515,7 +4135,67 @@
     "category": 1,
     "args": [
       "怜",
-      "但要去的不是一個人，是二個人。\n我也和你同行，畢竟人手越多越好。"
+      "但要去的不是一個人，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "而是二個人。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n我也和你同行，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "114011",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "畢竟人手還是越多越好。"
     ],
     "number": 6
   },
@@ -2564,7 +4244,49 @@
     "category": 1,
     "args": [
       "怜",
-      "就是這麼回事\u2026\u2026若是你願意，\n能夠讓我們幫忙嗎？"
+      "就是這麼回事\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "114011"
+    ],
+    "number": 25
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "若是你不介意，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n能夠讓我們幫忙嗎？"
     ],
     "number": 6
   },
@@ -2604,7 +4326,7 @@
     "category": 1,
     "args": [
       "1411",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -2613,7 +4335,59 @@
     "category": 1,
     "args": [
       "男性",
-      "可以嗎\u2026\u2026？\n真不好意思，如果你們能提供協助就幫大忙了。"
+      "可以嗎\u2026\u2026？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "60"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "1411",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "真不好意思，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "如果你們能提供協助就幫大忙了。"
     ],
     "number": 6
   },
@@ -2653,6 +4427,58 @@
     "category": 1,
     "args": [
       "114011",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "我記得"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "街道外的地方應該有座森林，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "114011",
       "1"
     ],
     "number": 3
@@ -2662,7 +4488,7 @@
     "category": 1,
     "args": [
       "怜",
-      "我記得街道外的地方應該有座森林，\n就在那裡收集木材吧。"
+      "就在那裡籌措木材吧。"
     ],
     "number": 6
   },
@@ -2711,7 +4537,42 @@
     "category": 1,
     "args": [
       "怜",
-      "說不定還會有魔物出現，\n千萬要謹慎行事。"
+      "說不定還會有魔物出現，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "114011",
+      "3"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "千萬要提高警覺。"
     ],
     "number": 6
   },
@@ -2728,6 +4589,15 @@
       "false"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "2"
+    ],
+    "number": 9
   },
   {
     "command": "fadeout_all",
@@ -2787,18 +4657,18 @@
     "number": 26
   },
   {
+    "command": "amb",
+    "category": 1,
+    "args": [
+      "amb_adv_forest_01"
+    ],
+    "number": 51
+  },
+  {
     "command": "transition_resume",
     "category": 1,
     "args": [],
     "number": 75
-  },
-  {
-    "command": "amb",
-    "category": 1,
-    "args": [
-      "amb_adv_outdoors_day_01"
-    ],
-    "number": 51
   },
   {
     "command": "wait",
@@ -2864,12 +4734,12 @@
     "number": 75
   },
   {
-    "command": "amb",
+    "command": "se",
     "category": 1,
     "args": [
       "amb_adv_town_day_01"
     ],
-    "number": 51
+    "number": 26
   },
   {
     "command": "chara_full",
@@ -2887,7 +4757,7 @@
     "args": [
       "1411",
       "RC",
-      "1"
+      "6"
     ],
     "number": 68
   },
@@ -2934,6 +4804,17 @@
     "number": 41
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M173_NoBell",
+      "0",
+      "0",
+      "1"
+    ],
+    "number": 9
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
@@ -2963,7 +4844,50 @@
     "category": 1,
     "args": [
       "1411",
-      "1"
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "1411"
+    ],
+    "number": 25
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "哦、哦哦\u2026\u2026！"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "1411",
+      "2"
     ],
     "number": 3
   },
@@ -2972,7 +4896,24 @@
     "category": 1,
     "args": [
       "男性",
-      "哦、哦哦\u2026\u2026！\n你們真的願意去幫我收集木材嗎！？"
+      "你們真的，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "幫我把木材準備好了呢！"
     ],
     "number": 6
   },
@@ -3012,6 +4953,58 @@
     "category": 1,
     "args": [
       "1411",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "哎呀～"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "真不知該怎麼跟你們道謝才好\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "1411",
       "1"
     ],
     "number": 3
@@ -3021,7 +5014,24 @@
     "category": 1,
     "args": [
       "男性",
-      "哎呀～真不知該怎麼跟你們道謝才好\u2026\u2026\n對了，這個你們拿去！"
+      "對了，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "10"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "這個你們拿去！"
     ],
     "number": 6
   },
@@ -3040,10 +5050,19 @@
     "number": 41
   },
   {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "114011",
+      "6"
+    ],
+    "number": 3
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
-      "1411：114011"
+      "1411:114011"
     ],
     "number": 4
   },
@@ -3051,7 +5070,7 @@
     "command": "se",
     "category": 1,
     "args": [
-      "se_adv_body_handshake_01"
+      "se_adv_paper_move_01"
     ],
     "number": 26
   },
@@ -3109,9 +5128,21 @@
     "category": 1,
     "args": [
       "114011",
-      "1"
+      "6"
     ],
     "number": 3
+  },
+  {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "question1_R",
+      "114011",
+      "100",
+      "495",
+      "se_adv_emote_question_01"
+    ],
+    "number": 59
   },
   {
     "command": "print",
@@ -3167,7 +5198,41 @@
     "category": 1,
     "args": [
       "男性",
-      "這是萬聖節樂園中所有店都能使用的折價券。\n不過限情侶使用，請務必拿去用。"
+      "這是萬聖節樂園中所有店都能使用的折價券。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "55"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "\n不過只限情侶使用，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "請你們務必拿去用。"
     ],
     "number": 6
   },
@@ -3207,6 +5272,66 @@
     "category": 1,
     "args": [
       "1411",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "1411"
+    ],
+    "number": 25
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "不好，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "我可不能在這拖拖拉拉。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "1411",
       "1"
     ],
     "number": 3
@@ -3216,7 +5341,24 @@
     "category": 1,
     "args": [
       "男性",
-      "不好，我可不能在這拖拖拉拉。\n難道小哥你們都要幫我準備建材了，\n我也得趕快去著手進行攤販的準備！"
+      "難得小哥你們都幫我準備建材了，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "\n我也得趕快著手組裝攤位！"
     ],
     "number": 6
   },
@@ -3265,7 +5407,93 @@
     "category": 1,
     "args": [
       "男性",
-      "那麼，請你們在慶典正式開始的那天再來玩吧。\n到時候我會給你們超多優惠的！"
+      "那麼，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "請你們在慶典當天"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "也來逛逛吧。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "1411",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "到時候"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性",
+      "我會給你們超多優惠的！"
     ],
     "number": 6
   },
@@ -3375,7 +5603,41 @@
     "category": 1,
     "args": [
       "怜",
-      "雖然說好心有好報\u2026\u2026\n但沒想到竟然收到謝禮了呢。"
+      "雖然說"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "55"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "好心有好報\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n但沒想到竟然收到謝禮了呢。"
     ],
     "number": 6
   },
@@ -3415,7 +5677,7 @@
     "category": 1,
     "args": [
       "114011",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -3424,7 +5686,127 @@
     "category": 1,
     "args": [
       "怜",
-      "不過，情、情侶折價券啊\u2026\u2026\n我和你明明不是那種關係啊。\n真是的，很讓人傷腦筋對吧？"
+      "不過，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "情、"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "情侶折價券\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "65"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "114011",
+      "5"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "我和你明明不是那種關係啊。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "55"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "114011"
+    ],
+    "number": 25
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "真是的，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "很讓人傷腦筋對吧？"
     ],
     "number": 6
   },
@@ -3481,16 +5863,62 @@
     "category": 1,
     "args": [
       "114011",
-      "1"
+      "6"
     ],
     "number": 3
+  },
+  {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "exclamation1_R",
+      "114011",
+      "5",
+      "595",
+      "se_adv_emote_common_01"
+    ],
+    "number": 59
   },
   {
     "command": "print",
     "category": 1,
     "args": [
       "怜",
-      "等、等一下！\n我可沒說過我要去啊\u2026\u2026！"
+      "等、"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "10"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "等一下！"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n我可沒說要去啊\u2026\u2026！？"
     ],
     "number": 6
   },
@@ -3547,7 +5975,7 @@
     "category": 1,
     "args": [
       "114011",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -3556,7 +5984,93 @@
     "category": 1,
     "args": [
       "怜",
-      "那、那個\u2026\u2026畢竟人家都像這樣給我們折價券了\u2026\u2026\n白白浪費別人的好意也不太好意思，對吧？"
+      "那、"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "那個\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "114011",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "畢竟人家都特地給我們折價券了\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "60"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n白白浪費別人的好意也不太好意思，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "70"
+    ],
+    "number": 13
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "114011",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "對吧？"
     ],
     "number": 6
   },
@@ -3596,16 +6110,126 @@
     "category": 1,
     "args": [
       "114011",
-      "1"
+      "6"
     ],
     "number": 3
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "114011"
+    ],
+    "number": 25
   },
   {
     "command": "print",
     "category": 1,
     "args": [
       "怜",
-      "而且你看，我總是讓你陪我修行，\n今天也讓你陪我特訓了\u2026\u2026\n我認為也需要像這樣放鬆一下轉換心情。"
+      "而且你看，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "我總是讓你陪我修行，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "False"
+    ],
+    "number": 56
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "今天也讓你陪我特訓了\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "True"
+    ],
+    "number": 56
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "我認為"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "也需要像這樣放鬆一下轉換心情。"
     ],
     "number": 6
   },
@@ -3645,7 +6269,7 @@
     "category": 1,
     "args": [
       "114011",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -3654,7 +6278,67 @@
     "category": 1,
     "args": [
       "怜",
-      "所以，那個\u2026\u2026就去參加萬聖節吧。"
+      "所以，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "那個\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "65"
+    ],
+    "number": 13
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "114011",
+      "5"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "就去參加吧，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "萬聖節慶典。"
     ],
     "number": 6
   },
@@ -3711,6 +6395,58 @@
     "category": 1,
     "args": [
       "114011",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "你、"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "你有這麼希望我和你一起去嗎？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "70"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "114011",
       "1"
     ],
     "number": 3
@@ -3720,7 +6456,24 @@
     "category": 1,
     "args": [
       "怜",
-      "你、你有這麼希望我和你一起去嗎？\n這樣啊\u2026\u2026我沒想到你會這麼開心。"
+      "這樣啊\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "我沒想到你會這麼開心。"
     ],
     "number": 6
   },
@@ -3760,16 +6513,79 @@
     "category": 1,
     "args": [
       "114011",
-      "1"
+      "2"
     ],
     "number": 3
+  },
+  {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "note1_L",
+      "114011",
+      "-145",
+      "460",
+      "se_adv_emote_note_01"
+    ],
+    "number": 59
   },
   {
     "command": "print",
     "category": 1,
     "args": [
       "怜",
-      "呵呵，約定好囉。\n下次的休假，你可別忘了。"
+      "呵呵，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "約定好囉。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n下次的休假，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "你可別忘了。"
     ],
     "number": 6
   },
@@ -3788,6 +6604,25 @@
     "number": 41
   },
   {
+    "command": "se_pause",
+    "category": 1,
+    "args": [
+      "amb_adv_town_day_01",
+      "2"
+    ],
+    "number": 67
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "1.5",
+      "1"
+    ],
+    "number": 9
+  },
+  {
     "command": "fadeout",
     "category": 2,
     "args": [
@@ -3795,14 +6630,6 @@
       "30"
     ],
     "number": 19
-  },
-  {
-    "command": "amb_stop",
-    "category": 1,
-    "args": [
-      "1"
-    ],
-    "number": 61
   },
   {
     "command": "black_out",
@@ -3814,6 +6641,14 @@
     "number": 27
   },
   {
+    "command": "background",
+    "category": 1,
+    "args": [
+      "501132"
+    ],
+    "number": 5
+  },
+  {
     "command": "wait",
     "category": 1,
     "args": [
@@ -3822,18 +6657,18 @@
     "number": 13
   },
   {
-    "command": "black_in",
-    "category": 1,
-    "args": [],
-    "number": 28
-  },
-  {
     "command": "amb",
     "category": 1,
     "args": [
       "amb_adv_town_day_01"
     ],
     "number": 51
+  },
+  {
+    "command": "black_in",
+    "category": 1,
+    "args": [],
+    "number": 28
   },
   {
     "command": "window_visible",
@@ -3923,7 +6758,24 @@
     "category": 1,
     "args": [
       "怜",
-      "喂～你到了啊！"
+      "喂～"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "{0}！"
     ],
     "number": 6
   },
@@ -3969,6 +6821,15 @@
     "number": 72
   },
   {
+    "command": "effect",
+    "category": 3,
+    "args": [
+      "0022",
+      "se_adv_happy_particle_01"
+    ],
+    "number": 54
+  },
+  {
     "command": "wait",
     "category": 1,
     "args": [
@@ -3989,6 +6850,14 @@
       "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M414_07"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -4029,7 +6898,59 @@
     "category": 1,
     "args": [
       "怜",
-      "抱歉，準備花了點時間。\n我本來是想不能遲到的\u2026\u2026"
+      "抱歉，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "準備花了點時間。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "114011",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "我想應該是沒有遲到才對\u2026\u2026"
     ],
     "number": 6
   },
@@ -4069,7 +6990,7 @@
     "category": 1,
     "args": [
       "114011",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -4078,7 +6999,59 @@
     "category": 1,
     "args": [
       "怜",
-      "你也才剛到嗎？\n這樣啊，那就好。"
+      "你也才剛到嗎？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "114011",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "這樣啊，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "那就好。"
     ],
     "number": 6
   },
@@ -4118,7 +7091,7 @@
     "category": 1,
     "args": [
       "114011",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -4127,7 +7100,7 @@
     "category": 1,
     "args": [
       "怜",
-      "\u2026\u2026怎麼了？\n那個，你那樣盯著人看，\n怎麼說都會讓人有點害羞啊\u2026\u2026"
+      "\u2026\u2026怎麼了？"
     ],
     "number": 6
   },
@@ -4184,7 +7157,7 @@
     "category": 1,
     "args": [
       "114011",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -4193,7 +7166,93 @@
     "category": 1,
     "args": [
       "怜",
-      "是、是嗎\u2026\u2026？\n被人稱讚的感覺是不壞，\n但被人一直盯著看的話，那個\u2026\u2026"
+      "是、"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "是嗎\u2026\u2026？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n被人稱讚的感覺是不壞，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "60"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "114011",
+      "5"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "但被人一直盯著看的話，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "那個\u2026\u2026"
     ],
     "number": 6
   },
@@ -4242,7 +7301,93 @@
     "category": 1,
     "args": [
       "怜",
-      "好、好了！別管那些了，我們快走吧。\n這是難得的慶典，得盡情享受才行啊。"
+      "好、"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "好了！"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "別管那些了，我們快走吧。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "114011",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "這是難得的慶典，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "怜",
+      "得盡情享受才行啊。"
     ],
     "number": 6
   },
@@ -4283,7 +7428,7 @@
     "category": 1,
     "args": [
       "旁白",
-      "即使臉上微微泛紅，怜也和{0}\n一起前往萬聖節的慶典。"
+      "顧不得微微泛紅的雙頰，\n怜仍舊和{0}一起前往了萬聖節的慶典。"
     ],
     "number": 6
   },
@@ -4300,6 +7445,15 @@
       "false"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "amb_stop",

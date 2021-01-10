@@ -1,16 +1,16 @@
 - title:
   - 茉莉（萬聖節）第3話
 - outline:
-  - 茉莉與{0}發現了即將撞見魔物的孩子們，便一邊同心協力模仿超級英雄秀，一邊引開小孩子與魔物。茉莉的計畫順利成功了，還獲得前來援助的純一番稱讚。
+  - 茉莉與{0}發現了即將撞見魔物的孩子們，便合力一邊模仿超級英雄秀，一邊引開小孩子與魔物。茉莉的計畫順利成功了，還獲得前來援助的純一番稱讚。
 - background:
-  - 501130
+  - 501132
 - amb:
-  - amb_adv_town_day_01
+  - amb_adv_outdoors_night_01
 - bg_pan:
   - -170
   - 0
 - situation:
-  - 奮不顧身的超級英雄秀！
+  - 賭上性命的英雄秀！
 - window_visible:
   - true
 - focus:
@@ -30,7 +30,7 @@
   - 旁白
   - >2-
 
-    前往有魔物目擊消息的西地區。
+    前往被目擊到有魔物出現的西地區。
 - wait:
   - 15
 - touch: &o0 []
@@ -45,6 +45,11 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M357
+  - 0
+  - 0
+  - 1
 - focus:
   - 114111
 - bust:
@@ -57,7 +62,7 @@
   - 1
 - print:
   - 茉莉
-  - 人潮很稀少呢！
+  - 行人很稀少呢。
 - wait:
   - 40
 - print:
@@ -69,7 +74,7 @@
   - 15
 - print:
   - 茉莉
-  - 都有好好的去避難了是也！
+  - 都有好好地去避難了！
 - touch: *o0
 - focus:
   - 114111
@@ -83,7 +88,7 @@
   - 6
 - print:
   - 茉莉
-  - 那些小孩子們
+  - 那些小孩子
 - wait:
   - 25
 - print:
@@ -109,12 +114,12 @@
   - 3
 - print:
   - 茉莉
-  - 我
+  - 我稍微
 - wait:
   - 15
 - print:
   - 茉莉
-  - 叫他們名字看看吧！
+  - 喊看看他們！
 - wait:
   - 45
 - print:
@@ -138,26 +143,39 @@
   - 114111
   - 6
 - se:
-  - se_adv_tickle_02
+  - se_adv_body_handshake_01
 - shake:
   - 114111
+- bgm:
+  - stop
+  - 2.5
+  - 1
 - fadeout:
   - 114111
   - 30
 - effect:
-  - 0004
+  - 0039
   - se_adv_transition_01
+  - 180
 - wait:
   - 15
 - chara_full:
   - 1614
   - C
   - 1
+- se:
+  - se_adv_step_monster_move_01
 - fadein:
   - 1614
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M290
+  - 0
+  - 0
+  - 0
+  - 0.4
 - focus:
   - 114111
 - bust:
@@ -168,6 +186,8 @@
 - face:
   - 114111
   - 6
+- se:
+  - se_adv_cloth_move_normal_01
 - print:
   - 茉莉
   - 唔唔唔！
@@ -195,7 +215,7 @@
   - 3
 - print:
   - 茉莉
-  - 魔物是也！
+  - 魔物！
 - touch: *o0
 - window_visible:
   - false
@@ -203,9 +223,8 @@
   - 1614
   - 30
 - effect:
-  - 0004
+  - 0039
   - se_adv_transition_01
-  - 180
 - wait:
   - 15
 - chara_full:
@@ -234,7 +253,7 @@
   - 25
 - print:
   - 茉莉
-  - 真的在呢！
+  - 真的入侵了呢。
 - wait:
   - 45
 - print:
@@ -265,19 +284,19 @@
   - 4
 - print:
   - 茉莉
-  - 叫我們不要單獨戰鬥，
+  - 雖然叫我們不要單打獨鬥，
 - wait:
   - 55
 - print:
   - 茉莉
-  - 而且附近又有小孩子在的話，
+  - 但要是附近又有小孩子在的話，
 - wait:
   - 35
 - print:
   - 茉莉
   - >2-
 
-    狀況會更加嚴峻呢……
+    會讓狀況變得更加嚴峻呢……
 - wait:
   - 75
 - face:
@@ -298,8 +317,9 @@
   - 114111
   - 30
 - effect:
-  - 0004
+  - 0039
   - se_adv_transition_01
+  - 180
 - wait:
   - 15
 - chara_full:
@@ -329,9 +349,8 @@
 - fadeout_all:
   - 30
 - effect:
-  - 0004
+  - 0039
   - se_adv_transition_01
-  - 180
 - wait:
   - 15
 - chara_full:
@@ -366,7 +385,7 @@
   - 25
 - print:
   - 茉莉
-  - 在……
+  - 在、
 - wait:
   - 15
 - print:
@@ -483,7 +502,7 @@
   - 30
 - print:
   - 茉莉
-  - 跑來這裡就危險了是也！
+  - 跑來這裡就危險了！
 - touch: *o0
 - focus:
   - 114111
@@ -545,7 +564,7 @@
   - 30
 - print:
   - 茉莉
-  - 他也說了那些年紀小的小孩子
+  - 長官也說了有些年紀小的孩子，
 - wait:
   - 30
 - print:
@@ -582,7 +601,7 @@
   - 30
 - print:
   - 茉莉
-  - 該怎麼辦才好啊！
+  - 該怎麼辦才好啊──！
 - wait:
   - 30
 - print:
@@ -602,13 +621,16 @@
   - 魔物就要發現那些小孩子了啦！
 - touch: *o0
 - choice:
-  - 思考作戰計畫吧！
+  - 思考作戰計畫吧。
   - 2
 - choice:
   - 是白虎的登場時間呢。
   - 3
 - tag:
   - 2
+- bgm:
+  - stop
+  - 12.2
 - focus:
   - 114111
 - bust:
@@ -629,7 +651,7 @@
   - 4
 - print:
   - 茉莉
-  - 嗯……
+  - 嗯～
 - wait:
   - 45
 - print:
@@ -653,6 +675,11 @@
   - 茉莉
   - 我想到了！
 - touch: *o0
+- bgm:
+  - bgm_M388
+  - 0
+  - 0
+  - 1
 - focus:
   - 114111
 - bust:
@@ -677,12 +704,15 @@
   - 1
 - print:
   - 茉莉
-  - 趁敵不備攻擊怎麼樣啊？
+  - 我們來個出其不意的作戰計畫怎麼樣啊？
 - touch: *o0
 - goto:
   - 4
 - tag:
   - 3
+- bgm:
+  - stop
+  - 7.8
 - focus:
   - 114111
 - bust:
@@ -695,12 +725,12 @@
   - 4
 - print:
   - 茉莉
-  - 唔唔……
+  - 唔唔，
 - wait:
   - 40
 - print:
   - 茉莉
-  - 現在可不是玩英雄扮家家酒的時候……
+  - 但現在可不是玩英雄扮家家酒的時候……
 - wait:
   - 80
 - print:
@@ -714,6 +744,11 @@
   - 茉莉
   - 扮家家酒……
 - touch: *o0
+- bgm:
+  - bgm_M388
+  - 0
+  - 0
+  - 1
 - focus:
   - 114111
 - bust:
@@ -726,6 +761,8 @@
   - 1
 - nod:
   - 114111
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 茉莉
   - 對了！
@@ -785,7 +822,7 @@
   - 茉莉
   - >2-
 
-    魔物就由我來引走是也！
+    魔物就由我來引走！
 - touch: *o0
 - focus:
   - 114111
@@ -832,7 +869,7 @@
   - 我開始有點擔心了……
 - touch: *o0
 - choice:
-  - 茉莉的話可以成功的！
+  - 茉莉辦得到的。
   - 5
 - tag:
   - 5
@@ -848,12 +885,12 @@
   - 1
 - print:
   - 茉莉
-  - 你這麼說，
+  - 聽你這麼說，
 - wait:
   - 30
 - print:
   - 茉莉
-  - 便讓我如虎添翼是也！
+  - 我就有信心了！
 - wait:
   - 45
 - print:
@@ -880,12 +917,17 @@
   - RC
   - C
   - 30
+- bgm:
+  - stop
+  - 2.5
+  - 1
 - fadeout:
   - 114111
   - 30
 - effect:
-  - 0004
+  - 0039
   - se_adv_transition_01
+  - 180
 - wait:
   - 15
 - chara_full:
@@ -909,6 +951,8 @@
   - 50
 - window_visible:
   - true
+- bgm:
+  - bgm_M276
 - focus:
   - 114111
 - bust:
@@ -926,9 +970,11 @@
   - 25
 - pop:
   - 114111
+- se:
+  - se_adv_cloth_move_hard_01
 - print:
   - 茉莉
-  - 參上！
+  - 登場！
 - touch: *o0
 - window_visible:
   - false
@@ -971,7 +1017,7 @@
   - 女子
   - 好像聽到什麼了？
 - wait:
-  - 15
+  - 40
 - print:
   - 女子
   - 是超級英雄秀？
@@ -988,13 +1034,8 @@
   - 3
 - print:
   - 茉莉
-  - 妨礙萬聖節的魔物們！
-- wait:
-  - 45
-- print:
-  - 茉莉
-  - >2
-
+  - >
+    妨礙萬聖節的魔物們！45/
 - nod:
   - 114111
 - print:
@@ -1012,8 +1053,9 @@
   - 114111
   - 30
 - effect:
-  - 0004
+  - 0039
   - se_adv_transition_01
+  - 180
 - wait:
   - 15
 - chara_full:
@@ -1056,9 +1098,8 @@
   - 1614
   - 30
 - effect:
-  - 0004
+  - 0039
   - se_adv_transition_01
-  - 180
 - wait:
   - 15
 - chara_full:
@@ -1095,8 +1136,9 @@
   - 114111
   - 30
 - effect:
-  - 0004
+  - 0039
   - se_adv_transition_01
+  - 180
 - wait:
   - 15
 - chara_full:
@@ -1123,9 +1165,11 @@
   - 1
 - pop:
   - 112
+- se:
+  - se_adv_cloth_move_hard_01
 - print:
   - 男子
-  - 哇！
+  - 哇～
 - wait:
   - 15
 - print:
@@ -1151,18 +1195,18 @@
   - 女子
   - 哪裡哪裡？
 - wait:
-  - 15
+  - 35
 - face:
   - 212
   - 1
 - print:
   - 女子
-  - 啊！
+  - 啊、
 - wait:
   - 15
 - print:
   - 女子
-  - 真的耶！
+  - 真的耶──！
 - touch: *o0
 - choice:
   - 超級英雄秀在這裡喔！
@@ -1183,7 +1227,7 @@
   - 男子
   - 那邊有人在喊！
 - wait:
-  - 15
+  - 20
 - print:
   - 男子
   - 去看看吧！
@@ -1217,9 +1261,8 @@
 - fadeout_all:
   - 30
 - effect:
-  - 0004
+  - 0039
   - se_adv_transition_01
-  - 180
 - wait:
   - 15
 - chara_full:
@@ -1268,7 +1311,7 @@
   - 30
 - print:
   - 茉莉
-  - 沒有發現孩子們是也！
+  - 沒有發現孩子們呢！
 - touch: *o0
 - focus:
   - 114111
@@ -1289,9 +1332,9 @@
   - 茉莉
   - >2-
 
-    就拜託{0}照著作戰計畫
+    就拜託你照著作戰計畫
 - wait:
-  - 35
+  - 34
 - print:
   - 茉莉
   - 誘導他們吧！
@@ -1302,9 +1345,8 @@
   - 114111
   - 30
 - effect:
-  - 0004
+  - 0039
   - se_adv_transition_01
-  - 180
 - wait:
   - 15
 - chara_full:
@@ -1320,7 +1362,7 @@
 - window_visible:
   - true
 - choice:
-  - 觀眾席在這裡喔！
+  - 觀眾席在這裡喔。
   - 7
 - tag:
   - 7
@@ -1338,10 +1380,10 @@
   - 女子
   - 咦？
 - wait:
-  - 15
+  - 20
 - print:
   - 女子
-  - 從那麼陰暗的地方觀看嗎？
+  - 要在那麼暗的地方偷看嗎？
 - touch: *o0
 - focus:
   - 112
@@ -1355,11 +1397,13 @@
   - 1
 - nod:
   - 112
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 男子
-  - 啊！
+  - 啊，
 - wait:
-  - 15
+  - 20
 - print:
   - 男子
   - 好像開始了喔！
@@ -1369,8 +1413,9 @@
 - fadeout_all:
   - 30
 - effect:
-  - 0004
+  - 0039
   - se_adv_transition_01
+  - 180
 - wait:
   - 15
 - chara_full:
@@ -1394,6 +1439,8 @@
   - 6
 - nod:
   - 114111
+- se:
+  - se_adv_step_concrete_move_02
 - print:
   - 茉莉
   - 呼……
@@ -1401,7 +1448,7 @@
   - 30
 - print:
   - 茉莉
-  - 總算照著計畫進行了呢！
+  - 總算照著計畫進行了呢。
 - wait:
   - 55
 - print:
@@ -1413,7 +1460,7 @@
   - 3
 - print:
   - 茉莉
-  - 就這樣把魔物帶去團員所在之處是也！
+  - 就這樣把魔物帶去團員所在之處吧！
 - touch: *o0
 - window_visible:
   - false
@@ -1447,7 +1494,7 @@
   - 茉莉
   - >2-
 
-    攻擊過來吧！
+    儘管放馬過來吧！
 - touch: *o0
 - window_visible:
   - false
@@ -1459,8 +1506,9 @@
   - 114111
   - 30
 - effect:
-  - 0004
+  - 0039
   - se_adv_transition_01
+  - 180
 - wait:
   - 15
 - chara_full:
@@ -1498,9 +1546,8 @@
   - 1614
   - 30
 - effect:
-  - 0004
+  - 0039
   - se_adv_transition_01
-  - 180
 - wait:
   - 15
 - chara_full:
@@ -1549,9 +1596,8 @@
   - 114111
   - 30
 - effect:
-  - 0004
+  - 0039
   - se_adv_transition_01
-  - 180
 - wait:
   - 15
 - chara_full:
@@ -1571,6 +1617,8 @@
   - 8
 - tag:
   - 8
+- se:
+  - se_adv_cloth_move_normal_01
 - focus:
   - 112
 - bust:
@@ -1583,12 +1631,12 @@
   - 6
 - print:
   - 男子
-  - 咦？
+  - 咦～？
 - wait:
-  - 15
+  - 20
 - print:
   - 男子
-  - 還要移動啊？
+  - 還要移動啊～？
 - touch: *o0
 - focus:
   - 212
@@ -1602,9 +1650,9 @@
   - 6
 - print:
   - 女子
-  - 等等啦！
+  - 等等啦──！
 - wait:
-  - 15
+  - 35
 - print:
   - 女子
   - 不覺得越來越遠了嗎？
@@ -1624,8 +1672,9 @@
 - fadeout_all:
   - 30
 - effect:
-  - 0004
+  - 0039
   - se_adv_transition_01
+  - 180
 - wait:
   - 15
 - chara_full:
@@ -1637,6 +1686,8 @@
   - 30
 - window_visible:
   - true
+- se:
+  - se_adv_step_concrete_move_01
 - focus:
   - 114111
 - bust:
@@ -1654,14 +1705,14 @@
   - 20
 - print:
   - 茉莉
-  - 好像成功誘導過去了呢！
+  - 好像成功把他們引誘開來了呢。
 - wait:
   - 50
 - print:
   - 茉莉
   - >2-
 
-    就這樣想辦法把魔物帶走吧！
+    我就這樣想辦法把魔物帶走吧！
 - touch: *o0
 - window_visible:
   - false
@@ -1669,8 +1720,9 @@
   - 114111
   - 30
 - effect:
-  - 0004
+  - 0039
   - se_adv_transition_01
+  - 180
 - wait:
   - 15
 - chara_full:
@@ -1708,9 +1760,8 @@
   - 1614
   - 30
 - effect:
-  - 0004
+  - 0039
   - se_adv_transition_01
-  - 180
 - wait:
   - 15
 - chara_full:
@@ -1817,7 +1868,7 @@
   - 40
 - print:
   - 茉莉
-  - 過來吧魔物啊！
+  - 儘管追上我吧魔物！
 - wait:
   - 40
 - print:
@@ -1871,8 +1922,9 @@
   - 114111
   - 30
 - effect:
-  - 0004
+  - 0039
   - se_adv_transition_01
+  - 180
 - wait:
   - 15
 - chara_full:
@@ -1915,9 +1967,8 @@
 - effect_delete:
   - 0009
 - effect:
-  - 0004
+  - 0039
   - se_adv_transition_01
-  - 180
 - wait:
   - 15
 - se:
@@ -1963,7 +2014,7 @@
   - 10
 - print:
   - 茉莉
-  - 危險……
+  - 好險……
 - touch: *o0
 - choice:
   - 幫她加油吧！加油啊白虎！
@@ -1972,6 +2023,9 @@
   - 9
 - window_visible:
   - false
+- bgm:
+  - stop
+  - 2.5
 - fadeout:
   - 114111
   - 30
@@ -1985,7 +2039,7 @@
   - 255
   - 255
 - still_unit:
-  - 107531
+  - 114131
 - wait:
   - 15
 - se:
@@ -1993,6 +2047,11 @@
 - white_in: *o0
 - window_visible:
   - true
+- bgm:
+  - bgm_M165
+  - 0
+  - 0
+  - 1
 - focus:
   - 114111
 - bust:
@@ -2018,7 +2077,7 @@
   - 1
 - print:
   - 茉莉
-  - 力量湧現出來了是也！
+  - 力量湧現出來了！
 - wait:
   - 55
 - print:
@@ -2051,19 +2110,24 @@
   - 男子
   - 哇！
 - wait:
-  - 15
+  - 5
 - print:
   - 男子
-  - 好厲害！
+  - 好厲害──！
 - wait:
-  - 15
+  - 25
 - print:
   - 男子
   - >2-
 
     總覺得動作突然變快了耶！
 - wait:
-  - 15
+  - 40
+- face:
+  - 112
+  - 6
+- wait:
+  - 20
 - print:
   - 男子
   - >2-
@@ -2108,7 +2172,7 @@
   - 男子
   - 我有聽過這樣的情節！
 - wait:
-  - 15
+  - 35
 - print:
   - 男子
   - >2
@@ -2137,14 +2201,19 @@
   - 6
 - print:
   - 女子
-  - 剛剛是怎麼說的啊？
+  - 你剛剛是怎麼說的啊？
 - wait:
-  - 15
+  - 20
 - print:
   - 女子
-  - >2-
+  - >2
 
-    白虎？
+- face:
+  - 212
+  - 1
+- print:
+  - 女子
+  - 白虎？
 - touch: *o0
 - window_visible:
   - false
@@ -2166,9 +2235,9 @@
   - 1
 - print:
   - 孩子們
-  - 加油啊！
+  - 加油啊──！
 - wait:
-  - 15
+  - 25
 - print:
   - 孩子們
   - 白虎！
@@ -2193,7 +2262,7 @@
   - 1
 - print:
   - 茉莉
-  - 現在的我可以辦到是也！
+  - 現在的我可以辦到！
 - wait:
   - 35
 - print:
@@ -2215,6 +2284,8 @@
   - 35
 - window_visible:
   - true
+- se:
+  - se_adv_body_jump_01
 - focus:
   - 114111
 - bust:
@@ -2225,6 +2296,8 @@
 - face:
   - 114111
   - 3
+- se:
+  - se_adv_blanket_move_02
 - print:
   - 茉莉
   - 撕裂黑暗的白色老虎！
@@ -2271,7 +2344,7 @@
   - 35
 - print:
   - 茉莉
-  - 讓我勇氣百倍是也！
+  - 讓我勇氣倍增百萬！
 - touch: *o0
 - focus:
   - 114111
@@ -2285,7 +2358,7 @@
   - 3
 - print:
   - 茉莉
-  - 就這樣帶往團員們的所在之處吧！
+  - 就這樣把魔物帶往團員們的所在之處吧！
 - touch: *o0
 - window_visible:
   - false
@@ -2293,9 +2366,11 @@
   - 1
   - 1
 - background:
-  - 501130
+  - 501132
 - still_unit:
   - end
+- se:
+  - se_adv_log_swing_through_01
 - wait:
   - 15
 - white_in: *o0
@@ -2348,11 +2423,13 @@
   - 6
 - pop:
   - 112
+- se:
+  - se_adv_cloth_move_hard_01
 - print:
   - 男子
   - 白虎！
 - wait:
-  - 15
+  - 10
 - print:
   - 男子
   - 後面後面！
@@ -2367,8 +2444,9 @@
 - fadeout_all:
   - 30
 - effect:
-  - 0004
+  - 0039
   - se_adv_transition_01
+  - 180
 - wait:
   - 15
 - chara_full:
@@ -2397,7 +2475,7 @@
   - 15
 - print:
   - 茉莉
-  - 某個黑色影子用高速靠近過來……
+  - 某個黑色影子正以高速靠近過來……
 - wait:
   - 45
 - print:
@@ -2408,6 +2486,8 @@
 - shake:
   - 114111
 - touch: *o0
+- se:
+  - se_adv_move_fast_02
 - window_visible:
   - false
 - change_window:
@@ -2416,6 +2496,8 @@
   - 50
 - window_visible:
   - true
+- se:
+  - se_adv_step_concrete_run_heavy_come_01
 - focus:
   - 0
 - bust:
@@ -2440,8 +2522,9 @@
   - 114111
   - 30
 - effect:
-  - 0004
+  - 0039
   - se_adv_transition_01
+  - 180
 - wait:
   - 15
 - bg_color:
@@ -2454,7 +2537,7 @@
 - wait:
   - 15
 - background:
-  - 501130
+  - 501132
 - chara_full:
   - 1614
   - C
@@ -2466,6 +2549,10 @@
   - se_adv_creature_cmn_04
 - window_visible:
   - true
+- bgm:
+  - stop
+  - 3.9
+  - 1
 - focus:
   - 1614
 - bust:
@@ -2497,7 +2584,7 @@
   - 30
 - shake_delete: *o0
 - effect:
-  - 0004
+  - 0039
   - se_adv_transition_01
 - wait:
   - 15
@@ -2513,6 +2600,12 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M273
+  - 0
+  - 0
+  - 0
+  - 0.4
 - focus:
   - 112
 - bust:
@@ -2551,7 +2644,7 @@
 - fadeout_all:
   - 30
 - effect:
-  - 0004
+  - 0039
   - se_adv_transition_01
   - 180
 - wait:
@@ -2564,6 +2657,8 @@
   - 114111
   - RC
   - 6
+- se:
+  - se_adv_stepadd_armor_heavy_01_move_01
 - fadein_all:
   - 30
 - window_visible:
@@ -2582,7 +2677,7 @@
   - 純
   - 沒事吧？
 - wait:
-  - 15
+  - 10
 - print:
   - 純
   - 茉莉。
@@ -2605,12 +2700,12 @@
   - se_adv_emote_common_01
 - print:
   - 茉莉
-  - 純、
+  - 是、
 - wait:
   - 15
 - print:
   - 茉莉
-  - 純！？
+  - 是純！？
 - wait:
   - 45
 - print:
@@ -2634,7 +2729,7 @@
 - fadeout_all:
   - 30
 - effect:
-  - 0004
+  - 0039
   - se_adv_transition_01
 - wait:
   - 15
@@ -2670,7 +2765,7 @@
   - 男子
   - 咦？
 - wait:
-  - 15
+  - 30
 - print:
   - 男子
   - 怎麼變成這樣啊？
@@ -2689,7 +2784,7 @@
   - 女子
   - 那個黑色盔甲，
 - wait:
-  - 15
+  - 30
 - print:
   - 女子
   - 不是白虎的敵人嗎？
@@ -2699,8 +2794,9 @@
 - fadeout_all:
   - 30
 - effect:
-  - 0004
+  - 0039
   - se_adv_transition_01
+  - 180
 - wait:
   - 15
 - chara_full:
@@ -2754,22 +2850,22 @@
   - 純
   - 哎呀……
 - wait:
-  - 15
+  - 30
 - print:
   - 純
   - 我好像打擾你們了呢。
 - wait:
-  - 15
+  - 45
 - print:
   - 純
   - >2-
 
     茉莉，
 - wait:
-  - 15
+  - 25
 - print:
   - 純
-  - 演到最後給他們看吧！
+  - 好好收尾給他們看吧。
 - touch: *o0
 - focus:
   - 114111
@@ -2800,6 +2896,8 @@
   - 114111
   - C
   - 1
+- se:
+  - se_adv_step_concrete_move_02
 - fadein:
   - 114111
   - 30
@@ -2829,7 +2927,7 @@
   - 茉莉
   - >2-
 
-    接下來就不要客氣地
+    接下來就盡情地
 - wait:
   - 30
 - print:
@@ -2860,7 +2958,7 @@
   - 114111
   - 30
 - effect:
-  - 0004
+  - 0039
   - se_adv_transition_01
 - wait:
   - 15
@@ -2877,7 +2975,7 @@
 - window_visible:
   - true
 - choice:
-  - 超級英雄秀就到這裡結束了！
+  - 超級英雄秀就到這裡結束了。
   - 11
 - tag:
   - 11
@@ -2893,14 +2991,14 @@
   - 6
 - print:
   - 男子
-  - 什麼啊
+  - 什麼嘛，
 - wait:
   - 15
 - print:
   - 男子
-  - ，已經結束了啊！
+  - 這樣就結束了啊～
 - wait:
-  - 15
+  - 40
 - print:
   - 男子
   - >2
@@ -2910,9 +3008,9 @@
   - 1
 - print:
   - 男子
-  - 好吧！
+  - 好，
 - wait:
-  - 15
+  - 20
 - print:
   - 男子
   - 我們去拿糖果吧！
@@ -2929,9 +3027,9 @@
   - 1
 - print:
   - 女子
-  - 像是真的一樣，好厲害呢！
+  - 像是真的一樣，好厲害～！
 - wait:
-  - 15
+  - 50
 - print:
   - 女子
   - >2
@@ -2941,7 +3039,7 @@
   - 2
 - print:
   - 女子
-  - 我們看得很開心！
+  - 我看得很開心喔～！
 - touch: *o0
 - window_visible:
   - false
@@ -2955,11 +3053,15 @@
   - C
   - RC
   - 30
+- bgm:
+  - stop
+  - 1.9
 - fadeout_all:
   - 30
 - effect:
-  - 0004
+  - 0039
   - se_adv_transition_01
+  - 180
 - wait:
   - 15
 - chara_full:
@@ -2974,6 +3076,11 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M267
+  - 0
+  - 0
+  - 1
 - focus:
   - 114111
 - bust:
@@ -2986,6 +3093,8 @@
   - 6
 - nod:
   - 114111
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 茉莉
   - 呼……
@@ -2993,7 +3102,7 @@
   - 45
 - print:
   - 茉莉
-  - 總算解決了是也……
+  - 總算解決了……
 - touch: *o0
 - focus:
   - 104711
@@ -3007,7 +3116,7 @@
   - 1
 - print:
   - 純
-  - 他們應該有傳達要妳穩妥的處理……
+  - 我確實有請隊員傳達要妳穩當地處理……
 - touch: *o0
 - focus:
   - 114111
@@ -3021,7 +3130,7 @@
   - 4
 - print:
   - 茉莉
-  - 啊！
+  - 啊……
 - shake:
   - 114111
 - wait:
@@ -3059,26 +3168,31 @@
   - 1
 - print:
   - 純
-  - 妳在為什麼道歉啊？
+  - 妳在為什麼道歉呢？
 - wait:
-  - 15
+  - 45
 - print:
   - 純
   - >2-
 
-    妳不是立刻假裝成超級英雄秀，
+    妳不是立刻
 - wait:
-  - 15
+  - 35
+- print:
+  - 純
+  - 假裝成超級英雄秀，
+- wait:
+  - 10
 - print:
   - 純
   - >2-
 
-    引開了那些孩子們和魔物了嗎？
+    引開了那些孩子和魔物了嗎？
 - wait:
-  - 15
+  - 35
 - print:
   - 純
-  - 很了不起呢！
+  - 很了不起喔。
 - touch: *o0
 - focus:
   - 114111
@@ -3106,24 +3220,29 @@
   - 1
 - print:
   - 純
-  - 做得很好呢！
+  - 做得很好呢。
 - wait:
   - 15
 - print:
   - 純
   - 茉莉，
 - wait:
-  - 15
+  - 25
 - print:
   - 純
   - 還有少年也是。
 - wait:
-  - 15
+  - 55
 - print:
   - 純
   - >2-
 
-    多虧你們，才守護了大家的萬聖節與
+    多虧你們，
+- wait:
+  - 30
+- print:
+  - 純
+  - 才守護了大家的萬聖節與
 - wait:
   - 15
 - print:
@@ -3132,7 +3251,7 @@
 
     萬聖節樂園，
 - wait:
-  - 15
+  - 45
 - print:
   - 純
   - 你們應該更驕傲一點。
@@ -3162,7 +3281,7 @@
   - 茉莉
   - >2-
 
-    做到了呢！
+    我們做到了呢！
 - touch: *o0
 - window_visible:
   - false
@@ -3197,6 +3316,10 @@
 - touch: *o0
 - window_visible:
   - false
+- bgm:
+  - stop
+  - 1
+  - 1
 - amb_stop:
   - 1
 - black_out:

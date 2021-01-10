@@ -11,7 +11,7 @@
     "command": "outline",
     "category": 1,
     "args": [
-      "茉莉為執行任務，得要四處留意小孩，卻因為服裝的關係，反而被當成來萬聖節玩的小朋友，甚至還收到了糖果。就在這樣的時光中，接獲了魔物入侵萬聖節樂園的消息。"
+      "茉莉為執行任務，得要四處留意小孩，卻因為服裝的關係，反而被當成來萬聖節樂園玩的小朋友，甚至還收到了糖果。就在這樣的時光中，接獲了魔物入侵樂園的消息。"
     ],
     "number": 1
   },
@@ -193,6 +193,17 @@
     "number": 41
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M22",
+      "0",
+      "0",
+      "1"
+    ],
+    "number": 9
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
@@ -256,7 +267,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "茉莉團員現在報到！"
+      "茉莉團員前來報到！"
     ],
     "number": 6
   },
@@ -273,7 +284,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "\n接下來將開始執行任務是也！"
+      "\n接下來將開始執行任務！"
     ],
     "number": 6
   },
@@ -330,7 +341,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "30"
     ],
     "number": 13
   },
@@ -431,7 +442,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "你、"
+      "沒、"
     ],
     "number": 6
   },
@@ -448,7 +459,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "你沒有什麼要說的吧\u2026\u2026"
+      "沒有被說什麼呢\u2026\u2026"
     ],
     "number": 6
   },
@@ -482,7 +493,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "應該沒有問題吧？"
+      "沒有問題吧？"
     ],
     "number": 6
   },
@@ -539,7 +550,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "35"
     ],
     "number": 13
   },
@@ -548,7 +559,7 @@
     "category": 1,
     "args": [
       "王宮騎士",
-      "\n不如說穿成這樣更適合執行任務吧！"
+      "\n不如說穿成這樣"
     ],
     "number": 6
   },
@@ -557,6 +568,23 @@
     "category": 1,
     "args": [
       "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "王宮騎士",
+      "更適合執行任務吧！"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "60"
     ],
     "number": 13
   },
@@ -616,6 +644,14 @@
       "114111"
     ],
     "number": 25
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_stepadd_cloth_norm_01_move_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -743,7 +779,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "一起執行任務嗎？"
+      "一起執行任務、"
     ],
     "number": 6
   },
@@ -760,7 +796,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "是也！"
+      "嗎？"
     ],
     "number": 6
   },
@@ -817,7 +853,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "45"
     ],
     "number": 13
   },
@@ -826,7 +862,7 @@
     "category": 1,
     "args": [
       "王宮騎士",
-      "沒有提供報酬，這樣也願意接受的話是無所謂的。"
+      "如果他願意接受沒有報酬這點，倒是無所謂。"
     ],
     "number": 6
   },
@@ -834,7 +870,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "55"
     ],
     "number": 13
   },
@@ -843,7 +879,7 @@
     "category": 1,
     "args": [
       "王宮騎士",
-      "\n畢竟最重要的就是大量人力嘛。"
+      "\n畢竟人手越多越好嘛。"
     ],
     "number": 6
   },
@@ -937,6 +973,16 @@
     "number": 41
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "1.5",
+      "1"
+    ],
+    "number": 9
+  },
+  {
     "command": "fadeout_all",
     "category": 2,
     "args": [
@@ -962,14 +1008,6 @@
     "number": 31
   },
   {
-    "command": "amb_stop",
-    "category": 1,
-    "args": [
-      "1"
-    ],
-    "number": 61
-  },
-  {
     "command": "wait",
     "category": 1,
     "args": [
@@ -990,14 +1028,6 @@
     "category": 1,
     "args": [],
     "number": 75
-  },
-  {
-    "command": "amb",
-    "category": 1,
-    "args": [
-      "amb_adv_town_day_01"
-    ],
-    "number": 51
   },
   {
     "command": "chara_full",
@@ -1025,6 +1055,14 @@
       "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M135_Outside"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -1125,7 +1163,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "「四處留意那些來參加萬聖節的孩子們」是也！"
+      "「巡邏並叮嚀那些來參加萬聖節的孩子們」！"
     ],
     "number": 6
   },
@@ -1174,7 +1212,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "因為萬聖節是"
+      "因為有些孩子們"
     ],
     "number": 6
   },
@@ -1191,7 +1229,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "只有小孩子們會來玩的節日是也！"
+      "會自己來參加萬聖節。"
     ],
     "number": 6
   },
@@ -1242,7 +1280,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "\n有很多需要提醒的事情是也！"
+      "\n有很多需要提醒的事情！"
     ],
     "number": 6
   },
@@ -1287,14 +1325,6 @@
     "number": 3
   },
   {
-    "command": "nod",
-    "category": 2,
-    "args": [
-      "114111"
-    ],
-    "number": 25
-  },
-  {
     "command": "print",
     "category": 1,
     "args": [
@@ -1336,6 +1366,14 @@
       "\n"
     ],
     "number": 6
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "114111"
+    ],
+    "number": 25
   },
   {
     "command": "face",
@@ -1385,7 +1423,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "重要工作是也！"
+      "重要工作！"
     ],
     "number": 6
   },
@@ -1486,7 +1524,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "送我出門的時候也讓我認真工作\u2026\u2026"
+      "送我出門的時候，也要我認真工作\u2026\u2026"
     ],
     "number": 6
   },
@@ -1521,7 +1559,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "只有我一個人的話"
+      "但只有我一個人的話，"
     ],
     "number": 6
   },
@@ -1621,7 +1659,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "就像是有百人援手是也！"
+      "我就是如虎添翼！"
     ],
     "number": 6
   },
@@ -1656,7 +1694,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "首先呢，"
+      "首先，"
     ],
     "number": 6
   },
@@ -1673,7 +1711,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "先提醒那邊的小朋友吧！"
+      "先去提醒那邊的小朋友吧！"
     ],
     "number": 6
   },
@@ -1726,11 +1764,19 @@
     "number": 24
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_cloth_move_hard_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
       "茉莉",
-      "喂！"
+      "喂～！"
     ],
     "number": 6
   },
@@ -1747,7 +1793,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "那邊的人！"
+      "那邊的人～！"
     ],
     "number": 6
   },
@@ -1783,6 +1829,15 @@
     "number": 41
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "1.5"
+    ],
+    "number": 9
+  },
+  {
     "command": "fadeout",
     "category": 2,
     "args": [
@@ -1807,7 +1862,7 @@
     "args": [
       "212",
       "LC",
-      "6"
+      "1"
     ],
     "number": 68
   },
@@ -1826,6 +1881,17 @@
       "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M414",
+      "0",
+      "0",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -1886,7 +1952,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "25"
     ],
     "number": 13
   },
@@ -1935,7 +2001,7 @@
     "category": 1,
     "args": [
       "212",
-      "6"
+      "1"
     ],
     "number": 3
   },
@@ -2008,6 +2074,14 @@
     "number": 18
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_step_concrete_move_02"
+    ],
+    "number": 26
+  },
+  {
     "command": "window_visible",
     "category": 1,
     "args": [
@@ -2058,11 +2132,19 @@
     "number": 25
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_stepadd_cloth_norm_01_move_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
       "茉莉",
-      "沒錯是也！"
+      "沒錯！"
     ],
     "number": 6
   },
@@ -2097,7 +2179,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "沒有大人跟你們在一起嗎？"
+      "你們沒有跟大人在一起嗎？"
     ],
     "number": 6
   },
@@ -2137,6 +2219,41 @@
     "category": 1,
     "args": [
       "112",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男子",
+      "才不會有大人一起呢！"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男子",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "112",
       "1"
     ],
     "number": 3
@@ -2146,24 +2263,7 @@
     "category": 1,
     "args": [
       "男子",
-      "才沒有大人一起呢！"
-    ],
-    "number": 6
-  },
-  {
-    "command": "wait",
-    "category": 1,
-    "args": [
-      "15"
-    ],
-    "number": 13
-  },
-  {
-    "command": "print",
-    "category": 1,
-    "args": [
-      "男子",
-      "\n因為今天是萬聖節，只有小孩子出來玩！"
+      "因為今天是萬聖節，只有小孩子出來玩！"
     ],
     "number": 6
   },
@@ -2196,7 +2296,7 @@
     "args": [
       "212",
       "RC",
-      "2"
+      "1"
     ],
     "number": 68
   },
@@ -2247,6 +2347,41 @@
     "category": 1,
     "args": [
       "212",
+      "1"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "女子",
+      "我們自己來的喔～"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "43"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "女子",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "212",
       "2"
     ],
     "number": 3
@@ -2256,24 +2391,7 @@
     "category": 1,
     "args": [
       "女子",
-      "只有我們就來了喔～"
-    ],
-    "number": 6
-  },
-  {
-    "command": "wait",
-    "category": 1,
-    "args": [
-      "15"
-    ],
-    "number": 13
-  },
-  {
-    "command": "print",
-    "category": 1,
-    "args": [
-      "女子",
-      "\n厲害吧！"
+      "厲害吧！"
     ],
     "number": 6
   },
@@ -2322,7 +2440,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "我們正在執行"
+      "我們為了執行"
     ],
     "number": 6
   },
@@ -2356,7 +2474,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "\n需要四處留意孩子們是也！"
+      "\n所以正在四處叮嚀孩子們！"
     ],
     "number": 6
   },
@@ -2530,7 +2648,7 @@
     "category": 1,
     "args": [
       "男子",
-      "咦？"
+      "咦～？"
     ],
     "number": 6
   },
@@ -2538,7 +2656,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "25"
     ],
     "number": 13
   },
@@ -2792,7 +2910,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "沒錯是也！"
+      "沒錯！"
     ],
     "number": 6
   },
@@ -2809,7 +2927,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "\n這是配合周遭環境的變裝啦！"
+      "\n這是配合周遭的變裝啦！"
     ],
     "number": 6
   },
@@ -2866,7 +2984,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "30"
     ],
     "number": 13
   },
@@ -2883,7 +3001,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "35"
     ],
     "number": 13
   },
@@ -2918,7 +3036,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "10"
     ],
     "number": 13
   },
@@ -2994,6 +3112,14 @@
       "114111"
     ],
     "number": 25
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_stepadd_cloth_norm_01_move_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -3086,7 +3212,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "真的是【王宮騎士團】的任務是也！"
+      "這真的是【王宮騎士團】的任務哦！"
     ],
     "number": 6
   },
@@ -3204,7 +3330,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "5"
     ],
     "number": 13
   },
@@ -3213,7 +3339,7 @@
     "category": 1,
     "args": [
       "女子",
-      "\n就算穿著變裝衣服說不定也不奇怪\u2026\u2026"
+      "\n就算穿著變裝衣服好像也不奇怪\u2026\u2026"
     ],
     "number": 6
   },
@@ -3270,7 +3396,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "你能明白了啊！"
+      "你們能明白了啊！"
     ],
     "number": 6
   },
@@ -3305,7 +3431,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "所以我今天才穿成這樣\u2026\u2026"
+      "所以我今天才會像這樣\u2026\u2026"
     ],
     "number": 6
   },
@@ -3322,6 +3448,16 @@
       "false"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "1.6",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "fadeout_all",
@@ -3357,6 +3493,14 @@
       "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M51"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -3401,11 +3545,19 @@
     "number": 24
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_cloth_move_hard_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
       "男子",
-      "那麼我就是南瓜惡魔！"
+      "那麼我就是南瓜惡魔～！"
     ],
     "number": 6
   },
@@ -3448,7 +3600,7 @@
     "args": [
       "212",
       "RC",
-      "2"
+      "1"
     ],
     "number": 68
   },
@@ -3606,6 +3758,14 @@
     "number": 24
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_stepadd_cloth_norm_01_move_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -3627,7 +3787,7 @@
     "category": 1,
     "args": [
       "女子",
-      "我就是魔法師呢！"
+      "我就是魔法師喔！"
     ],
     "number": 6
   },
@@ -3635,7 +3795,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "38"
     ],
     "number": 13
   },
@@ -3644,7 +3804,7 @@
     "category": 1,
     "args": [
       "女子",
-      "耶！"
+      "耶～！"
     ],
     "number": 6
   },
@@ -3722,7 +3882,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "不是啦！"
+      "不是啦\u2500\u2500！"
     ],
     "number": 6
   },
@@ -3882,7 +4042,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "30"
     ],
     "number": 13
   },
@@ -3983,7 +4143,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "35"
     ],
     "number": 13
   },
@@ -3992,7 +4152,25 @@
     "category": 1,
     "args": [
       "女子",
-      "\n掰掰～"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "212",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "女子",
+      "掰掰～！"
     ],
     "number": 6
   },
@@ -4159,7 +4337,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "事到如今還是追上去，"
+      "事到如今就繼續追上去，"
     ],
     "number": 6
   },
@@ -4176,7 +4354,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "好好提醒他們是也！"
+      "好好提醒他們吧！"
     ],
     "number": 6
   },
@@ -4193,6 +4371,15 @@
       "false"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "2.4"
+    ],
+    "number": 9
   },
   {
     "command": "fadeout",
@@ -4266,6 +4453,17 @@
     "number": 41
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M266",
+      "0",
+      "0",
+      "1"
+    ],
+    "number": 9
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
@@ -4304,7 +4502,24 @@
     "category": 1,
     "args": [
       "大叔",
-      "喔！"
+      "喔，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "大叔",
+      "妳穿著"
     ],
     "number": 6
   },
@@ -4321,7 +4536,7 @@
     "category": 1,
     "args": [
       "大叔",
-      "妳穿著很有氣勢的變裝衣服呢！"
+      "很精心設計的萬聖服裝呢。"
     ],
     "number": 6
   },
@@ -4329,7 +4544,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "40"
     ],
     "number": 13
   },
@@ -4356,7 +4571,7 @@
     "category": 1,
     "args": [
       "大叔",
-      "好！"
+      "好，"
     ],
     "number": 6
   },
@@ -4373,7 +4588,7 @@
     "category": 1,
     "args": [
       "大叔",
-      "這個給妳吧！"
+      "這個給妳吧。"
     ],
     "number": 6
   },
@@ -4382,6 +4597,14 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_cloth_move_normal_01"
+    ],
+    "number": 26
   },
   {
     "command": "focus",
@@ -4508,7 +4731,7 @@
     "category": 1,
     "args": [
       "1411",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -4525,7 +4748,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "25"
     ],
     "number": 13
   },
@@ -4534,7 +4757,7 @@
     "category": 1,
     "args": [
       "大叔",
-      "是糖果啊！"
+      "是糖果啊。"
     ],
     "number": 6
   },
@@ -4542,7 +4765,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "30"
     ],
     "number": 13
   },
@@ -4551,7 +4774,25 @@
     "category": 1,
     "args": [
       "大叔",
-      "\n小妹妹你們也很享受萬聖節吧？"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "1411",
+      "1"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "大叔",
+      "小妹妹你們也正享受著萬聖節吧？"
     ],
     "number": 6
   },
@@ -4600,7 +4841,7 @@
     "category": 1,
     "args": [
       "大叔",
-      "不知道為什麼小朋友們都不來我家這條路呢\u2026\u2026"
+      "不知道為什麼小朋友都不太來我們這條路\u2026\u2026"
     ],
     "number": 6
   },
@@ -4608,7 +4849,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "50"
     ],
     "number": 13
   },
@@ -4635,7 +4876,7 @@
     "category": 1,
     "args": [
       "大叔",
-      "糖果還有剩喔！"
+      "糖果還有剩很多呢。"
     ],
     "number": 6
   },
@@ -4701,7 +4942,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "\n不能收下糖果是也！"
+      "\n不能收下糖果！"
     ],
     "number": 6
   },
@@ -4758,9 +4999,18 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "20"
     ],
     "number": 13
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "1411",
+      "2"
+    ],
+    "number": 3
   },
   {
     "command": "print",
@@ -4775,7 +5025,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "10"
     ],
     "number": 13
   },
@@ -4784,7 +5034,7 @@
     "category": 1,
     "args": [
       "大叔",
-      "是這樣啊！"
+      "是這樣啊。"
     ],
     "number": 6
   },
@@ -4801,7 +5051,7 @@
     "category": 1,
     "args": [
       "大叔",
-      "抱歉抱歉！"
+      "抱歉抱歉。"
     ],
     "number": 6
   },
@@ -4809,7 +5059,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "30"
     ],
     "number": 13
   },
@@ -5022,7 +5272,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "10"
     ],
     "number": 13
   },
@@ -5039,7 +5289,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "30"
     ],
     "number": 13
   },
@@ -5162,11 +5412,19 @@
     "number": 3
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_cloth_move_normal_03"
+    ],
+    "number": 26
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
       "老爺爺",
-      "哈哈哈！"
+      "哈哈哈，"
     ],
     "number": 6
   },
@@ -5174,7 +5432,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "40"
     ],
     "number": 13
   },
@@ -5183,7 +5441,7 @@
     "category": 1,
     "args": [
       "老爺爺",
-      "那這些也拿去吧！"
+      "那這些也拿去吧。"
     ],
     "number": 6
   },
@@ -5192,6 +5450,14 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_cloth_move_normal_01"
+    ],
+    "number": 26
   },
   {
     "command": "focus",
@@ -5232,7 +5498,7 @@
     "category": 1,
     "args": [
       "奶奶",
-      "哎呀哎呀！"
+      "哎呀哎呀，"
     ],
     "number": 6
   },
@@ -5240,7 +5506,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "25"
     ],
     "number": 13
   },
@@ -5249,7 +5515,7 @@
     "category": 1,
     "args": [
       "奶奶",
-      "真是可愛的小貓咪啊～"
+      "真是可愛的小貓咪呢。"
     ],
     "number": 6
   },
@@ -5257,7 +5523,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "30"
     ],
     "number": 13
   },
@@ -5266,7 +5532,7 @@
     "category": 1,
     "args": [
       "奶奶",
-      "\n可以的話也收下這些吧！"
+      "\n可以的話也收下這些吧。"
     ],
     "number": 6
   },
@@ -5283,6 +5549,16 @@
       "false"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "2",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "fadeout_all",
@@ -5342,6 +5618,14 @@
     "number": 41
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M135_Ver2"
+    ],
+    "number": 9
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
@@ -5397,7 +5681,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "我不是貓，是老虎是也！"
+      "我不是貓，是老虎啦！"
     ],
     "number": 6
   },
@@ -5425,6 +5709,14 @@
       "20"
     ],
     "number": 13
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_bag_search_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -5548,7 +5840,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "得跟那些需要關照的孩子們抱著一樣的心情\u2026\u2026"
+      "得跟那些需要留意的孩子們抱著一樣的心情、"
     ],
     "number": 6
   },
@@ -5600,7 +5892,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "原來如此是也！"
+      "原來如此啊！"
     ],
     "number": 6
   },
@@ -5749,7 +6041,7 @@
     "category": 1,
     "args": [
       "阿姨",
-      "哎呀！"
+      "哎呀，"
     ],
     "number": 6
   },
@@ -5766,7 +6058,7 @@
     "category": 1,
     "args": [
       "阿姨",
-      "真可愛呢！"
+      "真可愛呢。"
     ],
     "number": 6
   },
@@ -5774,7 +6066,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "25"
     ],
     "number": 13
   },
@@ -5783,7 +6075,7 @@
     "category": 1,
     "args": [
       "阿姨",
-      "\n也過來我這裡吧！"
+      "\n也過來我這裡拿糖吧。"
     ],
     "number": 6
   },
@@ -5940,7 +6232,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "30"
     ],
     "number": 13
   },
@@ -5966,7 +6258,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "35"
     ],
     "number": 13
   },
@@ -5975,7 +6267,7 @@
     "category": 1,
     "args": [
       "阿姨",
-      "也有蠻多小朋友會害羞呢！"
+      "也有蠻多小朋友會害羞呢。"
     ],
     "number": 6
   },
@@ -5983,7 +6275,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "45"
     ],
     "number": 13
   },
@@ -6000,7 +6292,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "20"
     ],
     "number": 13
   },
@@ -6193,7 +6485,7 @@
     "category": 1,
     "args": [
       "阿姨",
-      "嗯！"
+      "嗯，"
     ],
     "number": 6
   },
@@ -6201,7 +6493,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "10"
     ],
     "number": 13
   },
@@ -6218,7 +6510,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "35"
     ],
     "number": 13
   },
@@ -6227,7 +6519,25 @@
     "category": 1,
     "args": [
       "阿姨",
-      "\n這些糖果"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "1511",
+      "1"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "阿姨",
+      "這些糖果，"
     ],
     "number": 6
   },
@@ -6244,7 +6554,7 @@
     "category": 1,
     "args": [
       "阿姨",
-      "快拿去吧！"
+      "快拿去吧。"
     ],
     "number": 6
   },
@@ -6253,6 +6563,14 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_cloth_move_normal_01"
+    ],
+    "number": 26
   },
   {
     "command": "focus",
@@ -6411,7 +6729,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "不對！"
+      "不對，"
     ],
     "number": 6
   },
@@ -6428,7 +6746,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "不能做這種事啦！"
+      "不是做這種事的時候啦！"
     ],
     "number": 6
   },
@@ -6464,12 +6782,13 @@
     "number": 41
   },
   {
-    "command": "amb_stop",
+    "command": "bgm",
     "category": 1,
     "args": [
-      "1"
+      "stop",
+      "2"
     ],
-    "number": 61
+    "number": 9
   },
   {
     "command": "white_out",
@@ -6484,7 +6803,7 @@
     "command": "background",
     "category": 1,
     "args": [
-      "501130"
+      "501131"
     ],
     "number": 5
   },
@@ -6509,14 +6828,6 @@
     "category": 1,
     "args": [],
     "number": 30
-  },
-  {
-    "command": "amb",
-    "category": 1,
-    "args": [
-      "amb_adv_town_day_01"
-    ],
-    "number": 51
   },
   {
     "command": "chara_full",
@@ -6544,6 +6855,17 @@
       "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M414_05",
+      "0",
+      "0",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -6613,7 +6935,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "在這裡！"
+      "找到了！"
     ],
     "number": 6
   },
@@ -6647,7 +6969,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "\n喂！"
+      "\n喂\u2500\u2500！"
     ],
     "number": 6
   },
@@ -6713,8 +7035,9 @@
     "command": "effect",
     "category": 3,
     "args": [
-      "0004",
-      "se_adv_transition_01"
+      "0032",
+      "se_adv_transition_01",
+      "180"
     ],
     "number": 54
   },
@@ -6809,9 +7132,17 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "35"
     ],
     "number": 13
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "112"
+    ],
+    "number": 25
   },
   {
     "command": "print",
@@ -6843,7 +7174,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "25"
     ],
     "number": 13
   },
@@ -6878,7 +7209,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "20"
     ],
     "number": 13
   },
@@ -6895,7 +7226,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "30"
     ],
     "number": 13
   },
@@ -6953,7 +7284,7 @@
     "category": 1,
     "args": [
       "女子",
-      "真羨慕～"
+      "真羨慕～！"
     ],
     "number": 6
   },
@@ -6961,7 +7292,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "40"
     ],
     "number": 13
   },
@@ -6978,7 +7309,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "30"
     ],
     "number": 13
   },
@@ -6987,7 +7318,25 @@
     "category": 1,
     "args": [
       "女子",
-      "\n也告訴我們嘛！"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "212",
+      "1"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "女子",
+      "也告訴我們嘛！"
     ],
     "number": 6
   },
@@ -7029,7 +7378,7 @@
     "args": [
       "212",
       "RC",
-      "1"
+      "6"
     ],
     "number": 68
   },
@@ -7105,7 +7454,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "但做為交換，希望你們聽我說是也！"
+      "但做為交換，希望你們聽我說！"
     ],
     "number": 6
   },
@@ -7122,7 +7471,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "\n只有小孩子的話，"
+      "\n只有小孩子出來玩的話，"
     ],
     "number": 6
   },
@@ -7156,7 +7505,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "\n大人看不到的地方！"
+      "\n沒有大人看著的地方！"
     ],
     "number": 6
   },
@@ -7213,7 +7562,7 @@
     "category": 1,
     "args": [
       "212",
-      "2"
+      "6"
     ],
     "number": 3
   },
@@ -7224,6 +7573,14 @@
       "212"
     ],
     "number": 25
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_stepadd_cloth_norm_01_move_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -7280,7 +7637,7 @@
     "args": [
       "112",
       "RC",
-      "1"
+      "6"
     ],
     "number": 68
   },
@@ -7331,7 +7688,7 @@
     "category": 1,
     "args": [
       "112",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -7340,7 +7697,24 @@
     "category": 1,
     "args": [
       "男子",
-      "沒大人的話也拿不到糖果啊～"
+      "沒大人的話"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男子",
+      "也拿不到糖果啊～"
     ],
     "number": 6
   },
@@ -7442,6 +7816,14 @@
     "number": 24
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_cloth_move_hard_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -7454,7 +7836,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "20"
     ],
     "number": 13
   },
@@ -7646,7 +8028,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "\n走掉了是也\u2026\u2026"
+      "\n走掉了\u2026\u2026"
     ],
     "number": 6
   },
@@ -7992,7 +8374,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "對不起是也！"
+      "對不起！"
     ],
     "number": 6
   },
@@ -8009,7 +8391,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "\n這些糖果是那個\u2026\u2026"
+      "\n這些糖果是那個、"
     ],
     "number": 6
   },
@@ -8026,7 +8408,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "為了要瞭解小孩子的心情\u2026\u2026"
+      "為了要了解小孩子的心情\u2026\u2026"
     ],
     "number": 6
   },
@@ -8035,6 +8417,16 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "10",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -8075,7 +8467,7 @@
     "category": 1,
     "args": [
       "王宮騎士",
-      "收到消息，西地區有魔物入侵！"
+      "我們收到消息，"
     ],
     "number": 6
   },
@@ -8083,7 +8475,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "30"
     ],
     "number": 13
   },
@@ -8092,7 +8484,24 @@
     "category": 1,
     "args": [
       "王宮騎士",
-      "\n正在疏散民眾避難，快來幫忙！"
+      "西地區有魔物入侵。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "王宮騎士",
+      "\n現在正在疏散民眾避難，快來幫忙。"
     ],
     "number": 6
   },
@@ -8101,6 +8510,14 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M21_03"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -8170,7 +8587,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "那不是糟了嘛！！"
+      "那不是糟了嗎！"
     ],
     "number": 6
   },
@@ -8199,6 +8616,15 @@
       "3"
     ],
     "number": 3
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "4"
+    ],
+    "number": 9
   },
   {
     "command": "print",
@@ -8231,6 +8657,17 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M388",
+      "0",
+      "0",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -8271,7 +8708,41 @@
     "category": 1,
     "args": [
       "王宮騎士",
-      "在人潮這麼洶湧的地方引起恐慌會非常危險，"
+      "在人潮這麼洶湧的地方"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "王宮騎士",
+      "引起恐慌會非常危險，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "王宮騎士",
+      "\n要盡量穩當地"
     ],
     "number": 6
   },
@@ -8288,7 +8759,7 @@
     "category": 1,
     "args": [
       "王宮騎士",
-      "\n盡量穩妥地引導民眾避難。"
+      "引導民眾避難。"
     ],
     "number": 6
   },
@@ -8337,7 +8808,7 @@
     "category": 1,
     "args": [
       "王宮騎士",
-      "雖然妳應該不怕，"
+      "雖然妳應該不怕魔物，"
     ],
     "number": 6
   },
@@ -8345,7 +8816,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "40"
     ],
     "number": 13
   },
@@ -8354,7 +8825,7 @@
     "category": 1,
     "args": [
       "王宮騎士",
-      "但如果是小孩子，"
+      "但年紀更小的孩子，"
     ],
     "number": 6
   },
@@ -8362,7 +8833,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "25"
     ],
     "number": 13
   },
@@ -8371,7 +8842,7 @@
     "category": 1,
     "args": [
       "王宮騎士",
-      "\n有可能會因為害怕而不敢動彈。"
+      "\n有可能會因為恐懼而無法動彈。"
     ],
     "number": 6
   },
@@ -8379,7 +8850,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "35"
     ],
     "number": 13
   },
@@ -8388,7 +8859,24 @@
     "category": 1,
     "args": [
       "王宮騎士",
-      "\n希望妳盡可能不要讓他們察覺，引導他們疏散。"
+      "\n希望妳盡可能不要讓他們察覺，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "王宮騎士",
+      "引導他們疏散。"
     ],
     "number": 6
   },
@@ -8571,7 +9059,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "25"
     ],
     "number": 13
   },
@@ -8580,7 +9068,7 @@
     "category": 1,
     "args": [
       "王宮騎士",
-      "也不要想著單獨戰鬥。"
+      "也不得單打獨鬥。"
     ],
     "number": 6
   },
@@ -8588,7 +9076,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "45"
     ],
     "number": 13
   },
@@ -8605,7 +9093,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "20"
     ],
     "number": 13
   },
@@ -8815,7 +9303,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "總之先跟剛剛的人\u2026\u2026"
+      "總之先跟剛剛那些人\u2026\u2026"
     ],
     "number": 6
   },
@@ -8850,7 +9338,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "該怎麼說才算是穩妥啊？"
+      "該怎麼說才算是穩當啊？"
     ],
     "number": 6
   },
@@ -8893,7 +9381,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "不對！"
+      "不對，"
     ],
     "number": 6
   },
@@ -8910,7 +9398,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "現在可不是思考的時候是也！"
+      "現在可不是思考的時候！"
     ],
     "number": 6
   },
@@ -8944,7 +9432,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "我先去找他們說話吧！"
+      "先去找他們說話吧！"
     ],
     "number": 6
   },
@@ -8981,6 +9469,16 @@
     "number": 44
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "2",
+      "1"
+    ],
+    "number": 9
+  },
+  {
     "command": "fadeout",
     "category": 2,
     "args": [
@@ -9007,14 +9505,6 @@
     "number": 31
   },
   {
-    "command": "amb_stop",
-    "category": 1,
-    "args": [
-      "1"
-    ],
-    "number": 61
-  },
-  {
     "command": "wait",
     "category": 1,
     "args": [
@@ -9035,14 +9525,6 @@
     "category": 1,
     "args": [],
     "number": 75
-  },
-  {
-    "command": "amb",
-    "category": 1,
-    "args": [
-      "amb_adv_town_day_01"
-    ],
-    "number": 51
   },
   {
     "command": "chara_full",
@@ -9081,6 +9563,14 @@
     "number": 41
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M357"
+    ],
+    "number": 9
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
@@ -9115,18 +9605,6 @@
     "number": 3
   },
   {
-    "command": "emotion",
-    "category": 3,
-    "args": [
-      "question1_R",
-      "1411",
-      "120",
-      "555",
-      "se_adv_emote_question_01"
-    ],
-    "number": 59
-  },
-  {
     "command": "print",
     "category": 1,
     "args": [
@@ -9139,7 +9617,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "30"
     ],
     "number": 13
   },
@@ -9157,7 +9635,7 @@
     "category": 1,
     "args": [
       "大叔",
-      "哈哈哈！"
+      "哈哈哈，"
     ],
     "number": 6
   },
@@ -9165,7 +9643,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "50"
     ],
     "number": 13
   },
@@ -9231,7 +9709,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "20"
     ],
     "number": 13
   },
@@ -9248,7 +9726,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "45"
     ],
     "number": 13
   },
@@ -9427,7 +9905,7 @@
     "command": "choice",
     "category": 1,
     "args": [
-      "堅定的繼續說服吧！",
+      "堅定的繼續說服吧。",
       "7"
     ],
     "number": 11
@@ -9488,7 +9966,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "勤勞的努力會獲得成果呢\u2026\u2026"
+      "腳踏實地的努力會獲得成果呢\u2026\u2026"
     ],
     "number": 6
   },
@@ -9505,7 +9983,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "\n和特訓一樣是也！"
+      "\n就和特訓一樣！"
     ],
     "number": 6
   },
@@ -9587,7 +10065,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "\n英雄是不能放棄的是也！"
+      "\n英雄是不能放棄的！"
     ],
     "number": 6
   },
@@ -9743,7 +10221,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "有一個小男生、小女生"
+      "有一個小男生跟一個小女生"
     ],
     "number": 6
   },
@@ -9817,7 +10295,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "10"
     ],
     "number": 13
   },
@@ -9834,7 +10312,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "20"
     ],
     "number": 13
   },
@@ -9852,7 +10330,7 @@
     "category": 1,
     "args": [
       "大叔",
-      "還說這裡是祕密場所很開心呢！"
+      "還說這裡是祕密寶地很開心呢。"
     ],
     "number": 6
   },
@@ -9860,7 +10338,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "45"
     ],
     "number": 13
   },
@@ -10011,7 +10489,7 @@
     "category": 1,
     "args": [
       "阿姨",
-      "他們說想要找更多祕密場所，就往西地區去了喔！"
+      "他們說想要找更多祕密寶地，就往西地區去了喔。"
     ],
     "number": 6
   },
@@ -10019,7 +10497,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "45"
     ],
     "number": 13
   },
@@ -10046,7 +10524,7 @@
     "category": 1,
     "args": [
       "阿姨",
-      "雖然我們有跟他們說那邊沒什麼人煙，去了也沒用呢\u2026\u2026"
+      "雖然我們有跟他們說那邊沒什麼人煙，去了也沒用呢。"
     ],
     "number": 6
   },
@@ -10055,6 +10533,15 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "2.3"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -10129,6 +10616,17 @@
     "number": 3
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M42_02",
+      "0",
+      "0",
+      "1"
+    ],
+    "number": 9
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -10150,7 +10648,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "\n去把他們帶回來吧！"
+      "\n要去把他們帶回來！"
     ],
     "number": 6
   },
@@ -10239,6 +10737,18 @@
     "number": 3
   },
   {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "question1_R",
+      "1411",
+      "120",
+      "555",
+      "se_adv_emote_question_01"
+    ],
+    "number": 59
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -10313,11 +10823,19 @@
     "number": 25
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_stepadd_cloth_norm_01_move_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
       "茉莉",
-      "就如我剛剛說的是也！"
+      "就如我剛剛說的一樣！"
     ],
     "number": 6
   },
@@ -10334,7 +10852,7 @@
     "category": 1,
     "args": [
       "茉莉",
-      "\n魔物入侵西地區了！！"
+      "\n魔物入侵西地區了！"
     ],
     "number": 6
   },
@@ -10469,7 +10987,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "25"
     ],
     "number": 13
   },
@@ -10558,7 +11076,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -10592,7 +11110,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -10666,9 +11184,19 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "1",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "amb_stop",
