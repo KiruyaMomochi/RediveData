@@ -11,6 +11,95 @@
   - 0
 - situation:
   - 昔日的憧憬
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 經過{0}一行人的激烈戰鬥後，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    眾人終於將霸瞳皇帝逼向了絕境。
+- wait:
+  - 15
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 106915
+  - C
+  - 5
+- fadein:
+  - 106915
+  - 30
+- amb_stop:
+  - 1
+- amb:
+  - amb_adv_violet_aura_01
+- window_visible:
+  - true
+- bgm:
+  - bgm_M271_Short
+  - 0
+  - 0
+  - 1
+- focus:
+  - 106915
+- bust:
+  - 106915
+  - 0
+- vo:
+  - vo_adv_2015007_000
+- face:
+  - 106915
+  - 5
+- print:
+  - 霸瞳皇帝
+  - 呼、
+- wait:
+  - 45
+- print:
+  - 霸瞳皇帝
+  - 呼……
+- wait:
+  - 45
+- print:
+  - 霸瞳皇帝
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 霸瞳皇帝
+  - ……唔呃！
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+  - amb_adv_violet_aura_01
+- amb:
+  - amb_adv_strong_wind_01
+- fadeout:
+  - 106915
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
 - chara_full:
   - 101112
   - RC
@@ -22,14 +111,14 @@
 - fadein_all:
   - 30
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 101112
 - bust:
   - 101112
   - 0
 - vo:
-  - vo_adv_2015007_000
+  - vo_adv_2015007_001
 - face:
   - 101112
   - 1
@@ -50,14 +139,14 @@
   - >2-
 
     我們的攻擊！
-- touch: &o0 []
+- touch: *o0
 - focus:
   - 104911
 - bust:
   - 104911
   - 0
 - vo:
-  - vo_adv_2015007_001
+  - vo_adv_2015007_002
 - face:
   - 104911
   - 3
@@ -78,7 +167,7 @@
   - 光是大家還能站著就已經很不可思議了……！
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
 - fadeout_all:
   - 30
 - chara_full:
@@ -96,14 +185,14 @@
 - fadein_all:
   - 30
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 100111
 - bust:
   - 100111
   - 0
 - vo:
-  - vo_adv_2015007_002
+  - vo_adv_2015007_003
 - face:
   - 100111
   - 3
@@ -134,7 +223,7 @@
   - 100312
   - 0
 - vo:
-  - vo_adv_2015007_003
+  - vo_adv_2015007_004
 - face:
   - 100312
   - 3
@@ -144,14 +233,14 @@
 - wait:
   - 35
 - eye_open:
-  - FALSE
+  - False
 - print:
   - 怜
   - 同時，
 - wait:
   - 30
 - eye_open:
-  - TRUE
+  - True
 - print:
   - 怜
   - 也是為了守護這個世界！
@@ -162,7 +251,7 @@
   - 100211
   - 0
 - vo:
-  - vo_adv_2015007_004
+  - vo_adv_2015007_005
 - face:
   - 100211
   - 3
@@ -204,7 +293,7 @@
 - amb:
   - amb_adv_violet_aura_01
 - window_visible:
-  - TRUE
+  - true
 - bgm:
   - bgm_M311_02
 - focus:
@@ -213,7 +302,7 @@
   - 106915
   - 0
 - vo:
-  - vo_adv_2015007_005
+  - vo_adv_2015007_006
 - face:
   - 106915
   - 6
@@ -231,7 +320,7 @@
 - wait:
   - 70
 - eye_open:
-  - FALSE
+  - False
 - print:
   - 霸瞳皇帝
   - 太糟糕了。
@@ -242,12 +331,12 @@
   - 106915
   - 0
 - vo:
-  - vo_adv_2015007_006
+  - vo_adv_2015007_007
 - face:
   - 106915
   - 4
 - eye_open:
-  - TRUE
+  - True
 - print:
   - 霸瞳皇帝
   - 令人反胃也該有個限度。
@@ -270,14 +359,14 @@
   - >2
 
 - eye_open:
-  - FALSE
+  - False
 - print:
   - 霸瞳皇帝
   - 我的理想鄉、
 - wait:
   - 80
 - eye_open:
-  - TRUE
+  - True
 - print:
   - 霸瞳皇帝
   - 新世界，
@@ -288,7 +377,7 @@
   - 就離我愈來愈遠……
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
 - amb_stop:
   - 1
   - amb_adv_violet_aura_01
@@ -311,14 +400,14 @@
   - 106011
   - 30
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 106011
 - bust:
   - 106011
   - 0
 - vo:
-  - vo_adv_2015007_007
+  - vo_adv_2015007_008
 - face:
   - 106011
   - 4
@@ -327,7 +416,7 @@
   - 陛下……
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
 - fadeout:
   - 106011
   - 30
@@ -348,14 +437,14 @@
 - amb:
   - amb_adv_violet_aura_01
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 106915
 - bust:
   - 106915
   - 0
 - vo:
-  - vo_adv_2015007_008
+  - vo_adv_2015007_009
 - face:
   - 106915
   - 4
@@ -386,14 +475,14 @@
   - >2
 
 - eye_open:
-  - FALSE
+  - False
 - print:
   - 霸瞳皇帝
   - 你們對這個錯誤的世界，
 - wait:
   - 60
 - eye_open:
-  - TRUE
+  - True
 - print:
   - 霸瞳皇帝
   - 難道就沒有抱持過一絲疑問嗎？
@@ -404,7 +493,7 @@
   - 106915
   - 0
 - vo:
-  - vo_adv_2015007_009
+  - vo_adv_2015007_010
 - face:
   - 106915
   - 4
@@ -423,7 +512,7 @@
   - >2
 
 - eye_open:
-  - FALSE
+  - False
 - print:
   - 霸瞳皇帝
   - 那有如奴隸對身上的枷鎖引以為傲般的愚昧之舉！
@@ -437,13 +526,13 @@
   - 106915
   - 3
 - eye_open:
-  - TRUE
+  - True
 - print:
   - 霸瞳皇帝
   - 真是讓人看不下去啊……！
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
 - shake_loop: *o0
 - se:
   - se_adv_magic_kaiser_04
@@ -472,14 +561,14 @@
   - 100312
   - 30
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 100312
 - bust:
   - 100312
   - 0
 - vo:
-  - vo_adv_2015007_010
+  - vo_adv_2015007_011
 - face:
   - 100312
   - 6
@@ -505,7 +594,7 @@
   - stop
   - 2
 - window_visible:
-  - FALSE
+  - false
 - fadeout:
   - 100312
   - 30
@@ -523,7 +612,7 @@
 - fadein_all:
   - 30
 - window_visible:
-  - TRUE
+  - true
 - bgm:
   - bgm_M289
   - 0
@@ -535,7 +624,7 @@
   - 107111
   - 0
 - vo:
-  - vo_adv_2015007_011
+  - vo_adv_2015007_012
 - face:
   - 107111
   - 4
@@ -576,7 +665,7 @@
   - 191011
   - 0
 - vo:
-  - vo_adv_2015007_012
+  - vo_adv_2015007_013
 - face:
   - 191011
   - 3
@@ -610,14 +699,14 @@
 - amb:
   - amb_adv_violet_aura_01
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 106915
 - bust:
   - 106915
   - 0
 - vo:
-  - vo_adv_2015007_013
+  - vo_adv_2015007_014
 - face:
   - 106915
   - 5
@@ -629,7 +718,7 @@
 - wait:
   - 25
 - eye_open:
-  - FALSE
+  - False
 - print:
   - 霸瞳皇帝
   - 咳咳！
@@ -647,7 +736,7 @@
   - 咳咳……！
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
 - amb_stop:
   - 1
   - amb_adv_violet_aura_01
@@ -673,14 +762,14 @@
 - fadein_all:
   - 30
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 100211
 - bust:
   - 100211
   - 0
 - vo:
-  - vo_adv_2015007_014
+  - vo_adv_2015007_015
 - face:
   - 100211
   - 6
@@ -707,7 +796,7 @@
   - 101711
   - 0
 - vo:
-  - vo_adv_2015007_015
+  - vo_adv_2015007_016
 - face:
   - 101711
   - 6
@@ -737,7 +826,7 @@
   - 釋放魔法的副作用了呀！
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
 - fadeout_all:
   - 30
 - chara_full:
@@ -748,14 +837,14 @@
   - 106011
   - 30
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 106011
 - bust:
   - 106011
   - 0
 - vo:
-  - vo_adv_2015007_016
+  - vo_adv_2015007_017
 - face:
   - 106011
   - 4
@@ -776,7 +865,7 @@
     為什麼您不惜做到這個地步……！
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
 - fadeout:
   - 106011
   - 30
@@ -797,14 +886,14 @@
 - amb:
   - amb_adv_violet_aura_01
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 106915
 - bust:
   - 106915
   - 0
 - vo:
-  - vo_adv_2015007_017
+  - vo_adv_2015007_018
 - face:
   - 106915
   - 5
@@ -823,14 +912,14 @@
   - >2
 
 - eye_open:
-  - FALSE
+  - False
 - print:
   - 霸瞳皇帝
   - 我從剛才開始，
 - wait:
   - 45
 - eye_open:
-  - TRUE
+  - True
 - print:
   - 霸瞳皇帝
   - 不就說過好幾次了嗎！
@@ -841,7 +930,7 @@
   - 106915
   - 0
 - vo:
-  - vo_adv_2015007_018
+  - vo_adv_2015007_019
 - face:
   - 106915
   - 3
@@ -862,7 +951,7 @@
   - 值得由我統治的嶄新世界……！
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
 - amb_stop:
   - 1
   - amb_adv_violet_aura_01
@@ -892,14 +981,14 @@
 - fadein_all:
   - 30
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 106011
 - bust:
   - 106011
   - 0
 - vo:
-  - vo_adv_2015007_019
+  - vo_adv_2015007_020
 - face:
   - 106011
   - 4
@@ -913,13 +1002,13 @@
   - 105911
   - 0
 - vo:
-  - vo_adv_2015007_020
+  - vo_adv_2015007_021
 - face:
   - 105911
   - 3
 - print:
   - 可可蘿
-  - 那番話――
+  - 那番話──
 - wait:
   - 55
 - print:
@@ -932,7 +1021,7 @@
   - 105811
   - 0
 - vo:
-  - vo_adv_2015007_021
+  - vo_adv_2015007_022
 - face:
   - 105811
   - 6
@@ -963,7 +1052,7 @@
   - 106011
   - 0
 - vo:
-  - vo_adv_2015007_022
+  - vo_adv_2015007_023
 - face:
   - 106011
   - 6
@@ -979,7 +1068,7 @@
   - 105911
   - 0
 - vo:
-  - vo_adv_2015007_023
+  - vo_adv_2015007_024
 - face:
   - 105911
   - 3
@@ -1014,7 +1103,7 @@
   - 105911
   - 0
 - vo:
-  - vo_adv_2015007_024
+  - vo_adv_2015007_025
 - face:
   - 105911
   - 3
@@ -1053,14 +1142,14 @@
 - amb:
   - amb_adv_violet_aura_01
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 106915
 - bust:
   - 106915
   - 0
 - vo:
-  - vo_adv_2015007_025
+  - vo_adv_2015007_026
 - face:
   - 106915
   - 6
@@ -1103,7 +1192,7 @@
   - 106915
   - 0
 - vo:
-  - vo_adv_2015007_026
+  - vo_adv_2015007_027
 - face:
   - 106915
   - 1
@@ -1144,14 +1233,14 @@
   - >2
 
 - eye_open:
-  - FALSE
+  - False
 - print:
   - 霸瞳皇帝
   - 在成就我願望的這條路上……
 - wait:
   - 85
 - eye_open:
-  - TRUE
+  - True
 - print:
   - 霸瞳皇帝
   - 他們也還算是
@@ -1162,7 +1251,7 @@
   - 派得上用場唷？
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
 - amb_stop:
   - 1
   - amb_adv_violet_aura_01
@@ -1185,14 +1274,14 @@
   - 104711
   - 30
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 104711
 - bust:
   - 104711
   - 0
 - vo:
-  - vo_adv_2015007_027
+  - vo_adv_2015007_028
 - face:
   - 104711
   - 1
@@ -1201,7 +1290,7 @@
   - 妳這傢伙……！
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
 - fadeout:
   - 104711
   - 30
@@ -1213,14 +1302,14 @@
   - 105911
   - 30
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 105911
 - bust:
   - 105911
   - 0
 - vo:
-  - vo_adv_2015007_028
+  - vo_adv_2015007_029
 - face:
   - 105911
   - 1
@@ -1270,7 +1359,7 @@
   - 105911
   - 0
 - vo:
-  - vo_adv_2015007_029
+  - vo_adv_2015007_030
 - face:
   - 105911
   - 3
@@ -1318,7 +1407,7 @@
   - 貪吃佩可小姐。
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
 - fadeout:
   - 105911
   - 30
@@ -1333,14 +1422,14 @@
 - fadein_all:
   - 30
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 105811
 - bust:
   - 105811
   - 0
 - vo:
-  - vo_adv_2015007_030
+  - vo_adv_2015007_031
 - face:
   - 105811
   - 6
@@ -1389,7 +1478,7 @@
   - 105911
   - 0
 - vo:
-  - vo_adv_2015007_031
+  - vo_adv_2015007_032
 - face:
   - 105911
   - 6
@@ -1447,14 +1536,14 @@
 - amb:
   - amb_adv_violet_aura_01
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 106915
 - bust:
   - 106915
   - 0
 - vo:
-  - vo_adv_2015007_032
+  - vo_adv_2015007_033
 - face:
   - 106915
   - 6
@@ -1463,7 +1552,7 @@
   - ……
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
 - amb_stop:
   - 1
   - amb_adv_violet_aura_01
@@ -1486,14 +1575,14 @@
   - 105911
   - 30
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 105911
 - bust:
   - 105911
   - 0
 - vo:
-  - vo_adv_2015007_033
+  - vo_adv_2015007_034
 - face:
   - 105911
   - 1
@@ -1503,7 +1592,7 @@
 - wait:
   - 30
 - eye_open:
-  - FALSE
+  - False
 - print:
   - 可可蘿
   - 已經不必多言……
@@ -1514,7 +1603,7 @@
   - >2
 
 - eye_open:
-  - TRUE
+  - True
 - print:
   - 可可蘿
   - 但在下的願望，
@@ -1547,7 +1636,7 @@
   - 105911
   - 0
 - vo:
-  - vo_adv_2015007_034
+  - vo_adv_2015007_035
 - face:
   - 105911
   - 4
@@ -1595,7 +1684,7 @@
   - 105911
   - 0
 - vo:
-  - vo_adv_2015007_035
+  - vo_adv_2015007_036
 - face:
   - 105911
   - 3
@@ -1662,14 +1751,14 @@
 - amb:
   - amb_adv_violet_aura_01
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 106915
 - bust:
   - 106915
   - 0
 - vo:
-  - vo_adv_2015007_036
+  - vo_adv_2015007_037
 - face:
   - 106915
   - 3
@@ -1678,7 +1767,7 @@
   - ……
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
 - amb_stop:
   - 1
   - amb_adv_violet_aura_01
@@ -1701,14 +1790,14 @@
   - 105911
   - 30
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 105911
 - bust:
   - 105911
   - 0
 - vo:
-  - vo_adv_2015007_037
+  - vo_adv_2015007_038
 - face:
   - 105911
   - 3
@@ -1751,7 +1840,7 @@
   - 105911
   - 0
 - vo:
-  - vo_adv_2015007_038
+  - vo_adv_2015007_039
 - face:
   - 105911
   - 1
@@ -1811,14 +1900,14 @@
 - amb:
   - amb_adv_violet_aura_01
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 106915
 - bust:
   - 106915
   - 0
 - vo:
-  - vo_adv_2015007_039
+  - vo_adv_2015007_040
 - face:
   - 106915
   - 3
@@ -1827,7 +1916,7 @@
   - ……住口……
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
 - amb_stop:
   - 1
   - amb_adv_violet_aura_01
@@ -1850,14 +1939,14 @@
   - 105911
   - 30
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 105911
 - bust:
   - 105911
   - 0
 - vo:
-  - vo_adv_2015007_040
+  - vo_adv_2015007_041
 - face:
   - 105911
   - 6
@@ -1895,7 +1984,7 @@
   - 譬如說……
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
 - fadeout:
   - 105911
   - 30
@@ -1920,14 +2009,14 @@
 - text_size:
   - 50
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 106915
 - bust:
   - 106915
   - 0
 - vo:
-  - vo_adv_2015007_041
+  - vo_adv_2015007_042
 - face:
   - 106915
   - 3
@@ -1936,7 +2025,7 @@
   - 給我住口！
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
 - change_window:
   - 1
 - text_size:
@@ -1966,14 +2055,14 @@
 - fadein_all:
   - 30
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 105911
 - bust:
   - 105911
   - 0
 - vo:
-  - vo_adv_2015007_042
+  - vo_adv_2015007_043
 - face:
   - 105911
   - 4
@@ -1989,7 +2078,7 @@
   - 105811
   - 0
 - vo:
-  - vo_adv_2015007_043
+  - vo_adv_2015007_044
 - face:
   - 105811
   - 6
@@ -2020,7 +2109,7 @@
   - stop
   - 2.5
 - window_visible:
-  - FALSE
+  - false
 - fadeout_all:
   - 30
 - effect:
@@ -2040,14 +2129,14 @@
 - amb:
   - amb_adv_violet_aura_01
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 106915
 - bust:
   - 106915
   - 0
 - vo:
-  - vo_adv_2015007_044
+  - vo_adv_2015007_045
 - face:
   - 106915
   - 6
@@ -2092,7 +2181,7 @@
   - 我怎麼可能……
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
 - amb_stop:
   - 1
   - amb_adv_violet_aura_01
@@ -2118,14 +2207,14 @@
 - fadein_all:
   - 30
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 107011
 - bust:
   - 107011
   - 0
 - vo:
-  - vo_adv_2015007_045
+  - vo_adv_2015007_046
 - face:
   - 107011
   - 2
@@ -2151,14 +2240,14 @@
   - >2
 
 - eye_open:
-  - FALSE
+  - False
 - print:
   - 似似花
   - 不，
 - wait:
   - 35
 - eye_open:
-  - TRUE
+  - True
 - print:
   - 似似花
   - 應該說是我終於回想起
@@ -2174,7 +2263,7 @@
   - 107011
   - 0
 - vo:
-  - vo_adv_2015007_046
+  - vo_adv_2015007_047
 - face:
   - 107011
   - 1
@@ -2200,7 +2289,7 @@
   - 105811
   - 0
 - vo:
-  - vo_adv_2015007_047
+  - vo_adv_2015007_048
 - face:
   - 105811
   - 6
@@ -2247,14 +2336,14 @@
 - amb:
   - amb_adv_violet_aura_01
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 106915
 - bust:
   - 106915
   - 0
 - vo:
-  - vo_adv_2015007_048
+  - vo_adv_2015007_049
 - face:
   - 106915
   - 6
@@ -2284,7 +2373,7 @@
     我……！
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
 - amb_stop:
   - 1
   - amb_adv_violet_aura_01
@@ -2307,14 +2396,14 @@
   - 107011
   - 30
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 107011
 - bust:
   - 107011
   - 0
 - vo:
-  - vo_adv_2015007_049
+  - vo_adv_2015007_050
 - face:
   - 107011
   - 1
@@ -2336,7 +2425,7 @@
 - wait:
   - 30
 - eye_open:
-  - FALSE
+  - False
 - print:
   - 似似花
   - 真那才向優衣如此說道……
@@ -2350,13 +2439,13 @@
   - 107011
   - 2
 - eye_open:
-  - TRUE
+  - True
 - print:
   - 似似花
   - 「我很羨慕妳。」
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
 - fadeout:
   - 107011
   - 30
@@ -2371,14 +2460,14 @@
 - fadein_all:
   - 30
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 100211
 - bust:
   - 100211
   - 0
 - vo:
-  - vo_adv_2015007_050
+  - vo_adv_2015007_051
 - face:
   - 100211
   - 6
@@ -2399,7 +2488,7 @@
   - 100211
   - 0
 - vo:
-  - vo_adv_2015007_051
+  - vo_adv_2015007_052
 - face:
   - 100211
   - 6
@@ -2452,19 +2541,19 @@
   - 107011
   - 0
 - vo:
-  - vo_adv_2015007_052
+  - vo_adv_2015007_053
 - face:
   - 107011
   - 2
 - eye_open:
-  - FALSE
+  - False
 - print:
   - 似似花
   - 沒錯。
 - wait:
   - 35
 - eye_open:
-  - TRUE
+  - True
 - print:
   - 似似花
   - 而且還有，
@@ -2484,7 +2573,7 @@
     她也說了這番話。
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
 - fadeout_all:
   - 30
 - chara_full:
@@ -2495,14 +2584,14 @@
   - 107011
   - 30
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 107011
 - bust:
   - 107011
   - 0
 - vo:
-  - vo_adv_2015007_053
+  - vo_adv_2015007_054
 - face:
   - 107011
   - 1
@@ -2528,7 +2617,7 @@
   - 107011
   - 0
 - vo:
-  - vo_adv_2015007_054
+  - vo_adv_2015007_055
 - face:
   - 107011
   - 1
@@ -2559,7 +2648,7 @@
   - 107011
   - 0
 - vo:
-  - vo_adv_2015007_055
+  - vo_adv_2015007_056
 - face:
   - 107011
   - 1
@@ -2569,7 +2658,7 @@
 - wait:
   - 50
 - eye_open:
-  - FALSE
+  - False
 - print:
   - 似似花
   - 妳想成為這樣的公主……
@@ -2580,7 +2669,7 @@
   - >2
 
 - eye_open:
-  - TRUE
+  - True
 - print:
   - 似似花
   - ……我說的沒有錯吧？
@@ -2607,14 +2696,14 @@
 - amb:
   - amb_adv_violet_aura_01
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 106915
 - bust:
   - 106915
   - 0
 - vo:
-  - vo_adv_2015007_056
+  - vo_adv_2015007_057
 - face:
   - 106915
   - 6
@@ -2639,7 +2728,7 @@
   - 106915
   - 0
 - vo:
-  - vo_adv_2015007_057
+  - vo_adv_2015007_058
 - face:
   - 106915
   - 4
@@ -2655,12 +2744,12 @@
   - 106915
   - 0
 - vo:
-  - vo_adv_2015007_058
+  - vo_adv_2015007_059
 - face:
   - 106915
   - 4
 - eye_open:
-  - FALSE
+  - False
 - print:
   - 霸瞳皇帝
   - ……是啊。
@@ -2674,7 +2763,7 @@
 - wait:
   - 30
 - eye_open:
-  - TRUE
+  - True
 - print:
   - 霸瞳皇帝
   - 這麼無趣、
@@ -2697,7 +2786,7 @@
   - 106915
   - 0
 - vo:
-  - vo_adv_2015007_059
+  - vo_adv_2015007_060
 - face:
   - 106915
   - 2
@@ -2740,7 +2829,7 @@
   - 都和你們沒有任何關係……！
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
 - amb_stop:
   - 1
   - amb_adv_violet_aura_01
@@ -2763,14 +2852,14 @@
   - 104711
   - 30
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 104711
 - bust:
   - 104711
   - 0
 - vo:
-  - vo_adv_2015007_060
+  - vo_adv_2015007_061
 - face:
   - 104711
   - 1
@@ -2801,7 +2890,7 @@
   - stop
   - 2
 - window_visible:
-  - FALSE
+  - false
 - fadeout:
   - 104711
   - 30
@@ -2816,7 +2905,7 @@
 - fadein_all:
   - 30
 - window_visible:
-  - TRUE
+  - true
 - bgm:
   - bgm_M306_Short
   - 0
@@ -2828,7 +2917,7 @@
   - 105811
   - 0
 - vo:
-  - vo_adv_2015007_061
+  - vo_adv_2015007_062
 - face:
   - 105811
   - 1
@@ -2875,7 +2964,7 @@
   - 105811
   - 0
 - vo:
-  - vo_adv_2015007_062
+  - vo_adv_2015007_063
 - face:
   - 105811
   - 3
@@ -2916,7 +3005,7 @@
   - 105911
   - 0
 - vo:
-  - vo_adv_2015007_063
+  - vo_adv_2015007_064
 - face:
   - 105911
   - 3
@@ -2971,14 +3060,14 @@
 - amb:
   - amb_adv_violet_aura_01
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 106915
 - bust:
   - 106915
   - 0
 - vo:
-  - vo_adv_2015007_064
+  - vo_adv_2015007_065
 - face:
   - 106915
   - 1
@@ -2988,13 +3077,13 @@
 - wait:
   - 60
 - eye_open:
-  - FALSE
+  - False
 - print:
   - 霸瞳皇帝
   - 是否真是如此呢？
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
 - amb_stop:
   - 1
   - amb_adv_violet_aura_01
@@ -3017,14 +3106,14 @@
   - 105911
   - 30
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 105911
 - bust:
   - 105911
   - 0
 - vo:
-  - vo_adv_2015007_065
+  - vo_adv_2015007_066
 - face:
   - 105911
   - 6
@@ -3033,7 +3122,7 @@
   - ……？
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
 - fadeout:
   - 105911
   - 30
@@ -3054,14 +3143,14 @@
 - amb:
   - amb_adv_violet_aura_01
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 106915
 - bust:
   - 106915
   - 0
 - vo:
-  - vo_adv_2015007_066
+  - vo_adv_2015007_067
 - face:
   - 106915
   - 1
@@ -3102,7 +3191,7 @@
     凱留……！
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
 - fadeout:
   - 106915
   - 30

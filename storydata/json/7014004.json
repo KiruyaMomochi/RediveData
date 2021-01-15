@@ -3,7 +3,7 @@
     "command": "title",
     "category": 1,
     "args": [
-      "即使不是理想中的大人"
+      "即使無法成為理想的成年人"
     ],
     "number": 0
   },
@@ -44,7 +44,7 @@
     "command": "situation",
     "category": 1,
     "args": [
-      "即使不是理想中的大人"
+      "即使無法成為理想的成年人"
     ],
     "number": 32
   },
@@ -60,7 +60,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -95,9 +95,34 @@
     "category": 1,
     "args": [
       "旁白",
-      "美咲判斷優花梨不是一個優秀的成年人，\n就拋下{0}他們，一個人獨自前進。"
+      "美咲判斷優花梨不是一個優秀的成年人，"
     ],
     "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "旁白",
+      "\n就拋下{0}他們，一個人獨自前進。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
   },
   {
     "command": "touch",
@@ -109,7 +134,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -136,9 +161,21 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M13",
+      "0",
+      "0",
+      "1",
+      "0.5"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -208,7 +245,7 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n我還以為她是理想的淑女，"
+      "\n還以為她是理想中的淑女，"
     ],
     "number": 6
   },
@@ -221,20 +258,11 @@
     "number": 13
   },
   {
-    "command": "face",
-    "category": 1,
-    "args": [
-      "105011",
-      "4"
-    ],
-    "number": 3
-  },
-  {
     "command": "print",
     "category": 1,
     "args": [
       "美咲",
-      "沒想到我竟然被騙了\u2026\u2026"
+      "結果竟然是騙我的\u2026\u2026"
     ],
     "number": 6
   },
@@ -251,25 +279,7 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n"
-    ],
-    "number": 6
-  },
-  {
-    "command": "face",
-    "category": 1,
-    "args": [
-      "105011",
-      "3"
-    ],
-    "number": 3
-  },
-  {
-    "command": "print",
-    "category": 1,
-    "args": [
-      "美咲",
-      "不可原諒不可原諒不可原諒\u2014\u2014！"
+      "\n不能原諒不能原諒不能原諒\u2500\u2500！"
     ],
     "number": 6
   },
@@ -280,10 +290,20 @@
     "number": 10
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "2",
+      "1"
+    ],
+    "number": 9
+  },
+  {
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -301,7 +321,8 @@
     "category": 3,
     "args": [
       "0039",
-      "se_adv_transition_01"
+      "se_adv_transition_01",
+      "180"
     ],
     "number": 54
   },
@@ -360,9 +381,21 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M126",
+      "0",
+      "0",
+      "0",
+      "0.5"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -403,7 +436,7 @@
     "category": 1,
     "args": [
       "魔物",
-      "\u2014\u2014咕喔喔喔喔喔！"
+      "\u2500\u2500嘎喔喔喔喔喔！"
     ],
     "number": 6
   },
@@ -423,7 +456,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -457,8 +490,7 @@
     "category": 3,
     "args": [
       "0039",
-      "se_adv_transition_01",
-      "180"
+      "se_adv_transition_01"
     ],
     "number": 54
   },
@@ -493,7 +525,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -539,7 +571,7 @@
       "105011",
       "145",
       "500",
-      "se_adv_emote_nortice_02"
+      "se_adv_emote_common_01"
     ],
     "number": 59
   },
@@ -731,7 +763,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -749,7 +781,8 @@
     "category": 3,
     "args": [
       "0039",
-      "se_adv_transition_01"
+      "se_adv_transition_01",
+      "180"
     ],
     "number": 54
   },
@@ -765,145 +798,27 @@
     "command": "chara_full",
     "category": 1,
     "args": [
-      "1612",
-      "L",
-      "1"
-    ],
-    "number": 68
-  },
-  {
-    "command": "se",
-    "category": 1,
-    "args": [
-      "se_adv_step_monster_move_01"
-    ],
-    "number": 26
-  },
-  {
-    "command": "wait",
-    "category": 1,
-    "args": [
-      "15"
-    ],
-    "number": 13
-  },
-  {
-    "command": "change",
-    "category": 2,
-    "args": [
-      "LC",
-      "L",
-      "30"
-    ],
-    "number": 44
-  },
-  {
-    "command": "fadein",
-    "category": 2,
-    "args": [
-      "1612",
-      "30"
-    ],
-    "number": 18
-  },
-  {
-    "command": "se",
-    "category": 1,
-    "args": [
-      "se_adv_creature_cmn_01"
-    ],
-    "number": 26
-  },
-  {
-    "command": "window_visible",
-    "category": 1,
-    "args": [
-      "TRUE"
-    ],
-    "number": 41
-  },
-  {
-    "command": "focus",
-    "category": 1,
-    "args": [
-      "1612"
-    ],
-    "number": 4
-  },
-  {
-    "command": "bust",
-    "category": 1,
-    "args": [
-      "1612",
-      "0"
-    ],
-    "number": 50
-  },
-  {
-    "command": "face",
-    "category": 1,
-    "args": [
-      "1612",
-      "1"
-    ],
-    "number": 3
-  },
-  {
-    "command": "print",
-    "category": 1,
-    "args": [
-      "魔物",
-      "\u2014\u2014咕喔喔喔喔喔！"
-    ],
-    "number": 6
-  },
-  {
-    "command": "touch",
-    "category": 1,
-    "args": [],
-    "number": 10
-  },
-  {
-    "command": "window_visible",
-    "category": 1,
-    "args": [
-      "FALSE"
-    ],
-    "number": 41
-  },
-  {
-    "command": "chara_full",
-    "category": 1,
-    "args": [
       "1614",
-      "R",
-      "1"
-    ],
-    "number": 68
-  },
-  {
-    "command": "se",
-    "category": 1,
-    "args": [
-      "se_adv_step_monster_move_01"
-    ],
-    "number": 26
-  },
-  {
-    "command": "wait",
-    "category": 1,
-    "args": [
-      "15"
-    ],
-    "number": 13
-  },
-  {
-    "command": "change",
-    "category": 2,
-    "args": [
       "RC",
-      "R",
-      "30"
+      "1"
+    ],
+    "number": 68
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_step_monster_move_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "change",
+    "category": 2,
+    "args": [
+      "C",
+      "RC",
+      "45"
     ],
     "number": 44
   },
@@ -912,7 +827,7 @@
     "category": 2,
     "args": [
       "1614",
-      "30"
+      "45"
     ],
     "number": 18
   },
@@ -928,7 +843,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -963,7 +878,7 @@
     "category": 1,
     "args": [
       "魔物",
-      "\u2014\u2014咕喔喔喔喔喔！"
+      "\u2500\u2500嘎哦哦哦哦哦！"
     ],
     "number": 6
   },
@@ -977,25 +892,162 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
   {
-    "command": "fadeout_all",
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_step_monster_move_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "change",
     "category": 2,
     "args": [
+      "LC",
+      "C",
+      "45"
+    ],
+    "number": 44
+  },
+  {
+    "command": "fadeout",
+    "category": 2,
+    "args": [
+      "1614",
+      "45"
+    ],
+    "number": 19
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "chara_full",
+    "category": 1,
+    "args": [
+      "1614",
+      "RC",
+      "1"
+    ],
+    "number": 68
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_step_monster_move_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "change",
+    "category": 2,
+    "args": [
+      "C",
+      "RC",
+      "45"
+    ],
+    "number": 44
+  },
+  {
+    "command": "fadein",
+    "category": 2,
+    "args": [
+      "1614",
+      "45"
+    ],
+    "number": 18
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_creature_cmn_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "true"
+    ],
+    "number": 41
+  },
+  {
+    "command": "focus",
+    "category": 1,
+    "args": [
+      "1614"
+    ],
+    "number": 4
+  },
+  {
+    "command": "bust",
+    "category": 1,
+    "args": [
+      "1614",
+      "0"
+    ],
+    "number": 50
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "1614",
+      "1"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "魔物",
+      "\u2500\u2500嘎哦哦哦哦哦！"
+    ],
+    "number": 6
+  },
+  {
+    "command": "touch",
+    "category": 1,
+    "args": [],
+    "number": 10
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "false"
+    ],
+    "number": 41
+  },
+  {
+    "command": "fadeout",
+    "category": 2,
+    "args": [
+      "1614",
       "30"
     ],
-    "number": 45
+    "number": 19
   },
   {
     "command": "effect",
     "category": 3,
     "args": [
       "0039",
-      "se_adv_transition_01",
-      "180"
+      "se_adv_transition_01"
     ],
     "number": 54
   },
@@ -1018,6 +1070,14 @@
     "number": 68
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_step_concrete_move_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "fadein",
     "category": 2,
     "args": [
@@ -1030,7 +1090,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -1302,7 +1362,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -1320,7 +1380,8 @@
     "category": 3,
     "args": [
       "0039",
-      "se_adv_transition_01"
+      "se_adv_transition_01",
+      "180"
     ],
     "number": 54
   },
@@ -1363,7 +1424,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -1398,7 +1459,7 @@
     "category": 1,
     "args": [
       "魔物",
-      "\u2014\u2014咕喔喔喔喔喔！"
+      "\u2500\u2500嘎哦哦哦哦哦！"
     ],
     "number": 6
   },
@@ -1412,7 +1473,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -1483,7 +1544,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "10"
     ],
     "number": 13
   },
@@ -1543,14 +1604,6 @@
     "number": 3
   },
   {
-    "command": "eye_open",
-    "category": 1,
-    "args": [
-      "FALSE"
-    ],
-    "number": 56
-  },
-  {
     "command": "wait",
     "category": 1,
     "args": [
@@ -1562,9 +1615,17 @@
     "command": "se",
     "category": 1,
     "args": [
-      "se_adv_bodyfall_01"
+      "se_adv_bodyfall_02"
     ],
     "number": 26
+  },
+  {
+    "command": "effect_delete",
+    "category": 3,
+    "args": [
+      "0009"
+    ],
+    "number": 55
   },
   {
     "command": "scale",
@@ -1578,16 +1639,30 @@
     "number": 39
   },
   {
-    "command": "shake_screen",
+    "command": "shake_loop",
     "category": 1,
     "args": [],
-    "number": 37
+    "number": 76
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "shake_delete",
+    "category": 1,
+    "args": [],
+    "number": 77
   },
   {
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -1856,7 +1931,7 @@
     "command": "eye_open",
     "category": 1,
     "args": [
-      "False"
+      "FALSE"
     ],
     "number": 56
   },
@@ -1879,7 +1954,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -1897,7 +1972,8 @@
     "category": 3,
     "args": [
       "0039",
-      "se_adv_transition_01"
+      "se_adv_transition_01",
+      "180"
     ],
     "number": 54
   },
@@ -1940,7 +2016,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -1975,7 +2051,7 @@
     "category": 1,
     "args": [
       "魔物",
-      "\u2014\u2014咕喔喔喔喔喔！"
+      "\u2500\u2500嘎哦哦哦哦哦！"
     ],
     "number": 6
   },
@@ -1989,7 +2065,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -2043,7 +2119,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -2180,7 +2256,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -2251,10 +2327,19 @@
     "number": 10
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "2.5"
+    ],
+    "number": 9
+  },
+  {
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -2304,11 +2389,30 @@
     "number": 18
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M127",
+      "0",
+      "0",
+      "1",
+      "0.5"
+    ],
+    "number": 9
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_magic_holy_large_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "effect",
     "category": 3,
     "args": [
-      "0072",
-      "se_adv_magic_holy_medium_01"
+      "0072"
     ],
     "number": 54
   },
@@ -2332,7 +2436,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -2367,7 +2471,7 @@
     "category": 1,
     "args": [
       "魔物",
-      "\u2014\u2014嘎喔喔喔喔喔！"
+      "\u2500\u2500嘰歐歐歐歐歐！"
     ],
     "number": 6
   },
@@ -2389,7 +2493,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -2517,7 +2621,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -3197,7 +3301,7 @@
     "category": 1,
     "args": [
       "優花梨",
-      "不過，"
+      "雖然，"
     ],
     "number": 6
   },
@@ -3214,7 +3318,7 @@
     "category": 1,
     "args": [
       "優花梨",
-      "\n雖然我的確是個"
+      "\n我的確是"
     ],
     "number": 6
   },
@@ -3240,7 +3344,7 @@
     "category": 1,
     "args": [
       "優花梨",
-      "喝了麥酒就醉得亂七八糟會說些奇怪的話、"
+      "一喝了麥酒就會胡鬧、"
     ],
     "number": 6
   },
@@ -3257,7 +3361,7 @@
     "category": 1,
     "args": [
       "優花梨",
-      "\n還會大鬧一場、"
+      "\n隨處睡著，"
     ],
     "number": 6
   },
@@ -3283,7 +3387,7 @@
     "category": 1,
     "args": [
       "優花梨",
-      "甚至直接睡著的人\u2014\u2014"
+      "行為亂七八糟還會說奇怪的話\u2500\u2500"
     ],
     "number": 6
   },
@@ -3297,7 +3401,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -3314,7 +3418,8 @@
     "category": 3,
     "args": [
       "0039",
-      "se_adv_transition_01"
+      "se_adv_transition_01",
+      "180"
     ],
     "number": 54
   },
@@ -3357,7 +3462,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -3392,7 +3497,7 @@
     "category": 1,
     "args": [
       "魔物",
-      "\u2014\u2014咕喔喔喔喔喔！！！"
+      "\u2500\u2500嘎哦哦哦哦哦！！！"
     ],
     "number": 6
   },
@@ -3459,8 +3564,7 @@
     "category": 3,
     "args": [
       "0039",
-      "se_adv_transition_01",
-      "180"
+      "se_adv_transition_01"
     ],
     "number": 54
   },
@@ -3495,7 +3599,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -3580,6 +3684,14 @@
       "0009"
     ],
     "number": 54
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_body_jump_01"
+    ],
+    "number": 26
   },
   {
     "command": "se",
@@ -3718,7 +3830,7 @@
     "category": 1,
     "args": [
       "魔物",
-      "\u2014\u2014嘎喔喔喔喔喔！！！"
+      "\u2500\u2500嘎哦哦哦哦哦！！！"
     ],
     "number": 6
   },
@@ -3737,10 +3849,20 @@
     "number": 10
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "3",
+      "1"
+    ],
+    "number": 9
+  },
+  {
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -3847,9 +3969,21 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M157_Inside",
+      "0",
+      "0",
+      "0",
+      "0.5"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -3892,6 +4026,14 @@
       "103411"
     ],
     "number": 25
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_stepadd_cloth_norm_01_move_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -4258,9 +4400,17 @@
     "command": "eye_open",
     "category": 1,
     "args": [
-      "False"
+      "FALSE"
     ],
     "number": 56
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "103411"
+    ],
+    "number": 25
   },
   {
     "command": "print",
@@ -4309,7 +4459,7 @@
     "command": "eye_open",
     "category": 1,
     "args": [
-      "True"
+      "TRUE"
     ],
     "number": 56
   },
@@ -4421,7 +4571,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "35"
+      "25"
     ],
     "number": 13
   },
@@ -4513,7 +4663,24 @@
     "category": 1,
     "args": [
       "優花梨",
-      "\n我就擔心死了啦～！"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "FALSE"
+    ],
+    "number": 56
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "優花梨",
+      "我就擔心死了啦～！"
     ],
     "number": 6
   },
@@ -4524,10 +4691,18 @@
     "number": 10
   },
   {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "TRUE"
+    ],
+    "number": 56
+  },
+  {
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -4552,7 +4727,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -4586,7 +4761,7 @@
     "category": 1,
     "args": [
       "105011",
-      "6"
+      "4"
     ],
     "number": 3
   },
@@ -4629,25 +4804,7 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n"
-    ],
-    "number": 6
-  },
-  {
-    "command": "face",
-    "category": 1,
-    "args": [
-      "105011",
-      "4"
-    ],
-    "number": 3
-  },
-  {
-    "command": "print",
-    "category": 1,
-    "args": [
-      "美咲",
-      "妳這樣我不就想哭也不能哭了嗎\u2026\u2026！\u3000"
+      "\n妳這樣我不就想哭也不能哭了嗎\u2026\u2026！\u3000"
     ],
     "number": 6
   },
@@ -4661,7 +4818,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -4686,9 +4843,18 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "4"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -4775,6 +4941,17 @@
       "4"
     ],
     "number": 3
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M158_Inside",
+      "0",
+      "0",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "print",
@@ -4984,7 +5161,7 @@
     "command": "eye_open",
     "category": 1,
     "args": [
-      "False"
+      "FALSE"
     ],
     "number": 56
   },
@@ -5004,12 +5181,36 @@
     "number": 10
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_step_concrete_move_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_cloth_move_hard_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "focus",
+    "category": 1,
+    "args": [
+      "105011:103411"
+    ],
+    "number": 4
   },
   {
     "command": "se",
@@ -5034,6 +5235,15 @@
       "5"
     ],
     "number": 13
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105011",
+      "6"
+    ],
+    "number": 3
   },
   {
     "command": "shake",
@@ -5072,7 +5282,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -5149,7 +5359,7 @@
     "category": 1,
     "args": [
       "105011",
-      "2"
+      "5"
     ],
     "number": 3
   },
@@ -5290,7 +5500,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -5315,7 +5525,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -5418,6 +5628,14 @@
       "4"
     ],
     "number": 3
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "TRUE"
+    ],
+    "number": 56
   },
   {
     "command": "print",
@@ -5637,7 +5855,24 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n這個是"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_stepadd_cloth_norm_01_move_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "美咲",
+      "這個是"
     ],
     "number": 6
   },
@@ -5790,6 +6025,15 @@
       "85"
     ],
     "number": 13
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105011",
+      "2"
+    ],
+    "number": 3
   },
   {
     "command": "print",
@@ -5978,14 +6222,6 @@
     "number": 25
   },
   {
-    "command": "se",
-    "category": 1,
-    "args": [
-      "se_adv_eating_01"
-    ],
-    "number": 26
-  },
-  {
     "command": "print",
     "category": 1,
     "args": [
@@ -5999,6 +6235,14 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_eating_01"
+    ],
+    "number": 26
   },
   {
     "command": "choice",
@@ -6021,7 +6265,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -6056,7 +6300,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -6173,6 +6417,16 @@
     "number": 10
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "11",
+      "1"
+    ],
+    "number": 9
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
@@ -6213,6 +6467,14 @@
       "103411"
     ],
     "number": 25
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_stepadd_cloth_norm_01_move_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -6261,7 +6523,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "80"
+      "83"
     ],
     "number": 13
   },
@@ -6298,6 +6560,18 @@
     "number": 10
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M244_Inside",
+      "0",
+      "0",
+      "0",
+      "0.5"
+    ],
+    "number": 9
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
@@ -6327,7 +6601,7 @@
     "category": 1,
     "args": [
       "103411",
-      "8"
+      "2"
     ],
     "number": 3
   },
@@ -6379,7 +6653,7 @@
     "category": 1,
     "args": [
       "103411",
-      "2"
+      "8"
     ],
     "number": 3
   },
@@ -6402,7 +6676,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -6446,7 +6720,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -6581,6 +6855,15 @@
       "30"
     ],
     "number": 13
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105011",
+      "6"
+    ],
+    "number": 3
   },
   {
     "command": "print",
@@ -6913,7 +7196,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -6938,7 +7221,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -6973,9 +7256,34 @@
     "category": 1,
     "args": [
       "旁白",
-      "於是，{0}一行人\n暫時停下來休息直到優花梨恢復正常為止。"
+      "於是，{0}一行人"
     ],
     "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "旁白",
+      "\n暫時停下來休息直到優花梨恢復正常為止。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
   },
   {
     "command": "touch",
@@ -6987,7 +7295,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -6998,6 +7306,15 @@
       "1"
     ],
     "number": 61
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "black_out",

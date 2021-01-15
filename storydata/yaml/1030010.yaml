@@ -1,7 +1,7 @@
 - title:
   - 妮諾 第10話
 - outline:
-  - 妮諾展開特訓，扮演將軍的妻子──正室的角色，在身後服侍著他。然而，{0}卻遭到黑心壽司店的保鏢的嘲諷，妮諾忘記自己正在特訓途中，以家臣的身分擊倒對方。
+  - 妮諾展開特訓，扮演將軍的妻子──正室的角色，在身後服侍著他。然而，{0}卻遭到黑心壽司店的保鏢的嘲諷，妮諾因此忘記自己正在特訓途中，以家臣的身分擊倒對方。
 - background:
   - 500030
 - amb:
@@ -30,7 +30,7 @@
   - 旁白
   - >2-
 
-    風風火火的把{0}叫了出來。
+    急忙的把{0}叫了出來。
 - wait:
   - 30
 - touch: &o0 []
@@ -45,6 +45,11 @@
   - 30
 - window_visible:
   - TRUE
+- bgm:
+  - bgm_M106
+  - 0
+  - 0
+  - 1
 - focus:
   - 103011
 - bust:
@@ -144,10 +149,20 @@
   - 55
 - nod:
   - 103011
+- bgm:
+  - stop
+  - 3.8
+  - 1
 - print:
   - 妮諾
   - 吞口水……
 - touch: *o0
+- bgm:
+  - bgm_M224
+  - 0
+  - 0
+  - 0
+  - 1.2
 - focus:
   - 103011
 - bust:
@@ -213,7 +228,7 @@
   - vo_adv_1030010_004
 - face:
   - 103011
-  - 1
+  - 5
 - print:
   - 妮諾
   - 讀完這本書的感動
@@ -302,7 +317,7 @@
   - vo_adv_1030010_006
 - face:
   - 103011
-  - 4
+  - 1
 - print:
   - 妮諾
   - 每個
@@ -313,6 +328,9 @@
   - 都很有意思，
 - wait:
   - 35
+- face:
+  - 103011
+  - 4
 - print:
   - 妮諾
   - 所以我很猶豫
@@ -341,7 +359,7 @@
   - 妮諾
   - 我明白了！
 - wait:
-  - 50
+  - 45
 - print:
   - 妮諾
   - >2
@@ -414,11 +432,11 @@
   - 103011
   - 2
 - emotion:
-  - note1_L
+  - twinkle1_R
   - 103011
-  - -110
-  - 515
-  - se_adv_emote_note_01
+  - -135
+  - 475
+  - se_adv_emote_twinkle_01
 - print:
   - 妮諾
   - 我
@@ -557,11 +575,19 @@
   - 妮諾
   - 妻子！
 - touch: *o0
+- bgm:
+  - stop
+  - 2
 - choice:
   - 妻子……！？
   - 3
 - tag:
   - 3
+- bgm:
+  - bgm_M274
+  - 0
+  - 0
+  - 1
 - focus:
   - 103011
 - bust:
@@ -624,8 +650,6 @@
 - face:
   - 103011
   - 1
-- nod:
-  - 103011
 - print:
   - 妮諾
   - 未來
@@ -667,6 +691,8 @@
 - face:
   - 103011
   - 1
+- nod:
+  - 103011
 - print:
   - 妮諾
   - 所以，
@@ -755,7 +781,7 @@
   - vo_adv_1030010_018
 - face:
   - 103011
-  - 1
+  - 6
 - print:
   - 妮諾
   - 所以，
@@ -775,7 +801,7 @@
   - 4
 - print:
   - 妮諾
-  - 拜託你了是也。
+  - 拜託你了，
 - wait:
   - 25
 - print:
@@ -785,7 +811,7 @@
   - 30
 - print:
   - 妮諾
-  - 求求你了──！
+  - 求求你是也──！
 - touch: *o0
 - choice:
   - 如果只是特訓的話。
@@ -915,10 +941,14 @@
   - 45
 - print:
   - 妮諾
-  - 敬請定睛細瞧是也！
+  - 敬請拭目以待是也！
 - touch: *o0
 - window_visible:
   - FALSE
+- bgm:
+  - stop
+  - 2
+  - 1
 - fadeout:
   - 103011
   - 30
@@ -937,7 +967,7 @@
   - se_adv_transition_whoosh_small_in
 - transition_resume: *o0
 - amb:
-  - amb_adv_town_day_01
+  - amb_adv_room_noise_01
 - chara_full:
   - 103011
   - L
@@ -958,6 +988,8 @@
   - 45
 - window_visible:
   - TRUE
+- bgm:
+  - bgm_M113_Ver2
 - focus:
   - 1412
 - bust:
@@ -970,12 +1002,7 @@
   - 2
 - print:
   - 老大
-  - 嘿，
-- wait:
-  - 15
-- print:
-  - 老大
-  - 歡迎光臨！
+  - 嘿，歡迎光臨！
 - touch: *o0
 - focus:
   - 103011
@@ -1036,12 +1063,20 @@
 - touch: *o0
 - window_visible:
   - FALSE
-- fadeout:
-  - 1412
-  - 30
+- se:
+  - se_adv_step_geta_walk_come_01
 - change:
+  - R
+  - RC
+  - 30
+- fadeout_all:
+  - 30
+- chara_full:
+  - 103011
   - C
-  - LC
+  - 1
+- fadein:
+  - 103011
   - 30
 - window_visible:
   - TRUE
@@ -1213,7 +1248,7 @@
   - 55
 - print:
   - 妮諾
-  - 才會好評不間斷吧！
+  - 才會引起討論的吧！
 - touch: *o0
 - focus:
   - 103011
@@ -1268,22 +1303,19 @@
   - 103011
   - 30
 - chara_full:
-  - 103011
-  - LC
-  - 1
-- chara_full:
   - 1412
-  - R
+  - RC
   - 1
 - se:
-  - se_adv_step_wood_walk_come_01
+  - se_adv_step_geta_walk_come_01
 - wait:
   - 15
 - change:
+  - C
   - RC
-  - R
   - 45
-- fadein_all:
+- fadein:
+  - 1412
   - 45
 - window_visible:
   - true
@@ -1297,6 +1329,10 @@
 - face:
   - 1412
   - 1
+- nod:
+  - 1412
+- se:
+  - se_adv_coffee_cup_02
 - print:
   - 老大
   - 來，
@@ -1306,14 +1342,15 @@
   - 老大
   - 今日主廚特餐兩人份，
 - wait:
-  - 15
+  - 30
 - print:
   - 老大
   - 久等了！
 - touch: *o0
 - window_visible:
   - false
-- fadeout_all:
+- fadeout:
+  - 1412
   - 30
 - chara_full:
   - 103011
@@ -1402,21 +1439,33 @@
   - 妮諾
   - 快點品嚐看看吧！
 - touch: *o0
-- window_visible:
-  - false
 - se:
   - se_adv_eating_01
+- window_visible:
+  - false
+- wait:
+  - 15
 - shake_loop: *o0
+- se:
+  - se_adv_emote_nortice_02
 - wait:
   - 15
 - shake_delete: *o0
 - window_visible:
   - true
+- bgm:
+  - stop
+  - 2
 - choice:
   - 有、有芥末！？
   - 5
 - tag:
   - 5
+- bgm:
+  - bgm_M51
+  - 0
+  - 0
+  - 1
 - focus:
   - 103011
 - bust:
@@ -1449,7 +1498,7 @@
   - 40
 - print:
   - 妮諾
-  - 忘記叫他們別放芥末了……
+  - 忘記請店主別放芥末了……
 - wait:
   - 95
 - print:
@@ -1460,7 +1509,7 @@
   - False
 - print:
   - 妮諾
-  - 嗆到快昏過去了是～也……
+  - 嗆到舌頭快被擺平了是也……
 - touch: *o0
 - focus:
   - 103011
@@ -1511,7 +1560,7 @@
   - vo_adv_1030010_036
 - face:
   - 103011
-  - 6
+  - 4
 - print:
   - 妮諾
   - 為了
@@ -1519,19 +1568,19 @@
   - 30
 - print:
   - 妮諾
-  - 特訓，
+  - 今天的特訓，
 - wait:
   - 30
 - print:
   - 妮諾
   - >2-
 
-    今天
+    我會
 - wait:
   - 30
 - print:
   - 妮諾
-  - 我會完美地
+  - 完美地
 - wait:
   - 35
 - print:
@@ -1547,7 +1596,7 @@
   - vo_adv_1030010_037
 - face:
   - 103011
-  - 4
+  - 6
 - print:
   - 妮諾
   - 所以，
@@ -1563,8 +1612,6 @@
   - 你不用顧慮我，
 - wait:
   - 25
-- eye_open:
-  - False
 - print:
   - 妮諾
   - 繼續享用餐點吧……
@@ -1574,8 +1621,9 @@
   - 妮諾
   - >2
 
-- eye_open:
-  - True
+- face:
+  - 103011
+  - 4
 - print:
   - 妮諾
   - 我
@@ -1594,6 +1642,10 @@
 - touch: *o0
 - window_visible:
   - FALSE
+- bgm:
+  - stop
+  - 2.2
+  - 1
 - fadeout:
   - 103011
   - 30
@@ -1614,6 +1666,8 @@
   - 30
 - window_visible:
   - TRUE
+- bgm:
+  - bgm_M288
 - focus:
   - 4911
 - bust:
@@ -1634,12 +1688,12 @@
   - 客人
   - 不對吧，等一下！
 - wait:
-  - 15
+  - 30
 - print:
   - 客人
   - 這份帳單也太離譜了吧！？
 - wait:
-  - 15
+  - 40
 - print:
   - 客人
   - >2
@@ -1651,12 +1705,12 @@
   - 客人
   - 我和妻子，
 - wait:
-  - 15
+  - 30
 - print:
   - 客人
   - 再加上孩子，
 - wait:
-  - 15
+  - 29
 - print:
   - 客人
   - 三個人要價12萬盧幣！？
@@ -1673,14 +1727,14 @@
   - 6
 - print:
   - 老大
-  - 這位客人，
+  - 請您不要這樣大聲嚷嚷，
 - wait:
-  - 15
+  - 20
 - print:
   - 老大
-  - 請您不要這樣大聲嚷嚷……
+  - 這位客人……
 - wait:
-  - 15
+  - 35
 - print:
   - 老大
   - >2
@@ -1690,7 +1744,7 @@
   - 1
 - print:
   - 老大
-  - 這份帳單並沒有任何離譜的地方。
+  - 這份帳單並沒有任何問題。
 - touch: *o0
 - window_visible:
   - FALSE
@@ -1769,13 +1823,13 @@
 - face:
   - 4911
   - 6
-- nod:
+- pop:
   - 4911
 - print:
   - 客人
   - 我只有點兩份特級上等握壽司
 - wait:
-  - 15
+  - 30
 - print:
   - 客人
   - >2-
@@ -1796,7 +1850,7 @@
   - 老大
   - 您點的菜色確實是只有這幾項，但是……
 - wait:
-  - 15
+  - 75
 - print:
   - 老大
   - >2
@@ -1808,12 +1862,12 @@
   - 老大
   - 客人……
 - wait:
-  - 15
+  - 35
 - print:
   - 老大
   - 您
 - wait:
-  - 15
+  - 20
 - print:
   - 老大
   - 喝了幾杯茶呢？
@@ -1832,17 +1886,17 @@
   - 客人
   - 唔……
 - wait:
-  - 15
+  - 30
 - print:
   - 客人
   - 因為芥末很多，
 - wait:
-  - 15
+  - 30
 - print:
   - 客人
   - '可能喝了不少杯吧…… '
 - wait:
-  - 15
+  - 50
 - print:
   - 客人
   - >2
@@ -1854,7 +1908,7 @@
   - 客人
   - 莫非
 - wait:
-  - 15
+  - 25
 - print:
   - 客人
   - 茶也是要收費的嗎！？
@@ -1871,17 +1925,21 @@
   - 6
 - print:
   - 老大
-  - 店內供應的茶
+  - 店內供應的茶，
 - wait:
   - 15
 - print:
   - 老大
-  - >-
-    使用的是
+  - 使用的是
+- wait:
+  - 20
+- print:
+  - 老大
+  - >2-
 
     從契約茶農那裡購買的優質茶葉啊～
 - wait:
-  - 15
+  - 55
 - print:
   - 老大
   - >2
@@ -1893,7 +1951,7 @@
   - 老大
   - 您看，
 - wait:
-  - 15
+  - 10
 - print:
   - 老大
   - 菜單上是不是寫得清清楚楚的呢？
@@ -1907,7 +1965,7 @@
   - vo_adv_1030010_045
 - face:
   - 4911
-  - 6
+  - 3
 - emotion:
   - exclamation1_R
   - 4911
@@ -1918,29 +1976,34 @@
   - 客人
   - 這、
 - wait:
-  - 15
+  - 20
 - print:
   - 客人
   - 這麼小的字，
 - wait:
-  - 15
+  - 30
 - print:
   - 客人
   - 誰看得見啊！！
 - wait:
-  - 15
+  - 30
 - print:
   - 客人
-  - >2-
+  - >2
 
-    而且，
+- face:
+  - 4911
+  - 6
+- print:
+  - 客人
+  - 而且，
 - wait:
   - 15
 - print:
   - 客人
   - 一個人要收50%的服務費……？
 - wait:
-  - 15
+  - 90
 - print:
   - 客人
   - >2
@@ -1950,7 +2013,7 @@
   - 3
 - print:
   - 客人
-  - 這是敲竹槓了吧！
+  - 這根本是敲竹槓吧！
 - touch: *o0
 - focus:
   - 1412
@@ -1966,17 +2029,17 @@
   - 老大
   - 這樣啊……
 - wait:
-  - 15
+  - 30
 - print:
   - 老大
   - 吃飽了
 - wait:
-  - 15
+  - 20
 - print:
   - 老大
   - 就想賴帳是嗎？
 - wait:
-  - 15
+  - 60
 - print:
   - 老大
   - >2
@@ -1988,7 +2051,7 @@
   - 老大
   - 那我就得多送一些會讓你們願意付錢的服務囉。
 - wait:
-  - 15
+  - 100
 - print:
   - 老大
   - >2
@@ -1996,12 +2059,17 @@
 - face:
   - 1412
   - 3
+- nod:
+  - 1412
 - print:
   - 老大
   - ……麻煩你了！
 - touch: *o0
 - window_visible:
   - FALSE
+- bgm:
+  - stop
+  - 2.7
 - fadeout:
   - 1412
   - 30
@@ -2010,7 +2078,7 @@
   - R
   - 2
 - se:
-  - se_adv_step_wood_walk_come_01
+  - se_adv_step_wood_walk_heavy_come_01
 - wait:
   - 15
 - change:
@@ -2022,6 +2090,11 @@
   - 45
 - window_visible:
   - TRUE
+- bgm:
+  - bgm_M290
+  - 0
+  - 0
+  - 1
 - focus:
   - 911
 - bust:
@@ -2036,7 +2109,7 @@
   - 保鑣
   - 喲，
 - wait:
-  - 15
+  - 40
 - print:
   - 保鑣
   - 讓我來服務服務你們吧。
@@ -2092,12 +2165,8 @@
 - face:
   - 103011
   - 3
-- emotion:
-  - exclamation1_R
+- pop:
   - 103011
-  - 10
-  - 650
-  - se_adv_emote_common_01
 - print:
   - 妮諾
   - 到此為止是也！
@@ -2178,7 +2247,7 @@
   - 保鑣
   - 喔……
 - wait:
-  - 15
+  - 50
 - print:
   - 保鑣
   - >2
@@ -2190,7 +2259,7 @@
   - 保鑣
   - 那你們
 - wait:
-  - 15
+  - 25
 - print:
   - 保鑣
   - 連這家人的錢一起付了，如何？
@@ -2230,6 +2299,10 @@
 - touch: *o0
 - window_visible:
   - FALSE
+- bgm:
+  - stop
+  - 2
+  - 1
 - fadeout_all:
   - 30
 - se:
@@ -2247,7 +2320,7 @@
   - se_adv_transition_whoosh_small_in
 - transition_resume: *o0
 - amb:
-  - amb_adv_town_day_01
+  - amb_adv_outdoors_day_01
 - chara_full:
   - 103011
   - C
@@ -2257,6 +2330,8 @@
   - 30
 - window_visible:
   - TRUE
+- bgm:
+  - bgm_M183
 - focus:
   - 103011
 - bust:
@@ -2269,7 +2344,7 @@
   - 1
 - print:
   - 妮諾
-  - 這位大人
+  - 這位大人，
 - wait:
   - 45
 - print:
@@ -2333,12 +2408,12 @@
   - 30
 - print:
   - 妮諾
-  - 做了這些事前準備
+  - 場地應該換到這邊
 - wait:
   - 30
 - print:
   - 妮諾
-  - 應該足夠了……
+  - 就足夠寬廣了……
 - touch: *o0
 - focus:
   - 103011
@@ -2424,6 +2499,12 @@
 - fadeout:
   - 103011
   - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
 - chara_full:
   - 911
   - C
@@ -2452,14 +2533,14 @@
   - 保鑣
   - 這位小哥。
 - wait:
-  - 15
+  - 30
 - print:
   - 保鑣
   - >2-
 
     上來挑釁的時候氣勢倒是挺足的，
 - wait:
-  - 15
+  - 40
 - print:
   - 保鑣
   - >2-
@@ -2480,7 +2561,7 @@
   - 保鑣
   - 明明有個「將軍」這麼浮誇的綽號，
 - wait:
-  - 15
+  - 60
 - print:
   - 保鑣
   - >2-
@@ -2492,15 +2573,17 @@
 - fadeout:
   - 911
   - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+- wait:
+  - 15
 - chara_full:
   - 103011
-  - LC
+  - C
   - 3
-- chara_full:
-  - 911
-  - RC
-  - 1
-- fadein_all:
+- fadein:
+  - 103011
   - 30
 - window_visible:
   - TRUE
@@ -2537,17 +2620,17 @@
   - 1
 - print:
   - 妮諾
-  - 將軍
+  - 將軍可是
 - wait:
   - 30
 - print:
   - 妮諾
-  - 一心想著總有一天
+  - 總有一天
 - wait:
   - 25
 - print:
   - 妮諾
-  - 能消滅世上所有的壞事，
+  - 能夠消滅世上所有的壞事，
 - wait:
   - 50
 - print:
@@ -2564,7 +2647,7 @@
   - 50
 - print:
   - 妮諾
-  - 太平盛世。
+  - 太平盛世之人。
 - touch: *o0
 - focus:
   - 103011
@@ -2580,12 +2663,12 @@
   - 妮諾
   - 想為自己的無禮謝罪的話，
 - wait:
-  - 30
+  - 25
 - print:
   - 妮諾
   - 最好趁現在是也。
 - wait:
-  - 40
+  - 45
 - print:
   - 妮諾
   - >2-
@@ -2597,6 +2680,26 @@
   - 妮諾
   - 重新計算出一個合理的價格。
 - touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 103011
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 911
+  - C
+  - 2
+- fadein:
+  - 911
+  - 30
+- window_visible:
+  - TRUE
 - focus:
   - 911
 - bust:
@@ -2611,19 +2714,19 @@
   - 保鑣
   - 呵，
 - wait:
-  - 15
+  - 35
 - print:
   - 保鑣
-  - 連吵架都讓小姐來，
+  - 連吵架都讓小姐代勞，
 - wait:
-  - 15
+  - 34
 - print:
   - 保鑣
   - >2-
 
     怎麼看都是個窩囊的小少爺。
 - wait:
-  - 15
+  - 55
 - print:
   - 保鑣
   - >2-
@@ -2632,8 +2735,14 @@
 - touch: *o0
 - window_visible:
   - false
-- fadeout_all:
+- fadeout:
+  - 911
   - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+- wait:
+  - 15
 - chara_full:
   - 103011
   - C
@@ -2667,6 +2776,9 @@
   - 50
 - eye_open:
   - True
+- bgm:
+  - stop
+  - 5.3
 - print:
   - 妮諾
   - 我、
@@ -2679,9 +2791,16 @@
   - 75
 - print:
   - 妮諾
-  - >2-
+  - >2
 
-    秘劍‧五月雨斬！
+- bgm:
+  - bgm_M297
+  - 0
+  - 0
+  - 1
+- print:
+  - 妮諾
+  - 秘劍‧五月雨斬！
 - wait:
   - 55
 - nod:
@@ -2692,6 +2811,8 @@
 - touch: *o0
 - window_visible:
   - false
+- se:
+  - se_adv_blanket_move_02
 - effect:
   - 0009
 - se:
@@ -2713,7 +2834,7 @@
 - se:
   - se_adv_weapon_sword_multi_hit_01
 - effect:
-  - 0003
+  - 0033
 - wait:
   - 15
 - background:
@@ -2759,6 +2880,11 @@
 - wait:
   - 30
 - shake_delete: *o0
+- effect:
+  - 0032
+  - se_adv_transition_01
+- wait:
+  - 15
 - chara_full:
   - 103011
   - C
@@ -2801,7 +2927,7 @@
   - 保鑣
   - 我、
 - wait:
-  - 15
+  - 35
 - print:
   - 保鑣
   - 我認輸了……
@@ -2842,6 +2968,10 @@
   - 妮諾
   - 猖獗下去的！
 - touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
 - focus:
   - 103011
 - bust:
@@ -2863,6 +2993,8 @@
   - ……啊！
 - wait:
   - 30
+- bgm:
+  - bgm_M11_Ver2
 - print:
   - 妮諾
   - 糟糕是也！
@@ -2932,9 +3064,14 @@
   - 40
 - print:
   - 妮諾
-  - >2-
+  - >2
 
-    應該要扮演好輔佐將軍的角色才對……
+- face:
+  - 103011
+  - 4
+- print:
+  - 妮諾
+  - 應該要扮演好輔佐將軍的角色才對……
 - touch: *o0
 - focus:
   - 103011
@@ -2964,7 +3101,7 @@
   - False
 - print:
   - 妮諾
-  - 卻因為我亂了陣腳
+  - 卻因為我亂了陣腳，
 - wait:
   - 30
 - print:
@@ -2980,7 +3117,7 @@
   - vo_adv_1030010_074
 - face:
   - 103011
-  - 1
+  - 4
 - eye_open:
   - True
 - print:
@@ -3011,11 +3148,19 @@
   - 妮諾
   - 求你高抬貴手──！
 - touch: *o0
+- bgm:
+  - stop
+  - 2
 - choice:
   - 作為一名家臣，妳表現得很出色。
   - 7
 - tag:
   - 7
+- bgm:
+  - bgm_M185_02
+  - 0
+  - 0
+  - 1
 - focus:
   - 103011
 - bust:
@@ -3191,7 +3336,7 @@
   - 35
 - print:
   - 妮諾
-  - 已經開始在想統一天下
+  - 已經開始在想統一天下，
 - wait:
   - 55
 - print:
@@ -3200,7 +3345,7 @@
 
     迎接太平盛世
 - wait:
-  - 50
+  - 45
 - print:
   - 妮諾
   - 以後的事情了……
@@ -3214,7 +3359,7 @@
   - vo_adv_1030010_079
 - face:
   - 103011
-  - 1
+  - 6
 - print:
   - 妮諾
   - 我不能好高騖遠，
@@ -3224,7 +3369,7 @@
   - 妮諾
   - >2-
 
-    現在最重要的是
+    一步
 - wait:
   - 25
 - print:
@@ -3234,17 +3379,17 @@
   - 25
 - print:
   - 妮諾
-  - 一步
+  - 腳踏實地努力
 - wait:
   - 30
 - print:
   - 妮諾
-  - 腳踏實地的
+  - 才是現在
 - wait:
   - 30
 - print:
   - 妮諾
-  - 努力。
+  - 最重要的事。
 - touch: *o0
 - focus:
   - 103011
@@ -3368,7 +3513,7 @@
   - 30
 - print:
   - 妮諾
-  - 從今以後
+  - 從今以後，
 - wait:
   - 30
 - print:
@@ -3401,7 +3546,7 @@
   - vo_adv_1030010_084
 - face:
   - 103011
-  - 6
+  - 4
 - print:
   - 妮諾
   - 我
@@ -3409,7 +3554,7 @@
   - 25
 - print:
   - 妮諾
-  - 為今天的無禮
+  - 為今天的無禮，
 - wait:
   - 35
 - print:
@@ -3441,7 +3586,7 @@
   - 35
 - print:
   - 妮諾
-  - 寬闊胸襟
+  - 寬闊胸襟，
 - wait:
   - 40
 - print:
@@ -3465,7 +3610,7 @@
   - 30
 - print:
   - 妮諾
-  - 我們先收拾善後這間黑心壽司店吧！
+  - 我們先處理這間黑心壽司店是也！
 - wait:
   - 75
 - print:
@@ -3479,7 +3624,7 @@
   - 103011
 - print:
   - 妮諾
-  - 忍忍是也！！
+  - 忍忍！！
 - touch: *o0
 - window_visible:
   - FALSE
@@ -3512,6 +3657,10 @@
 - touch: *o0
 - window_visible:
   - FALSE
+- bgm:
+  - stop
+  - 1
+  - 1
 - amb_stop:
   - 1
 - black_out:

@@ -60,7 +60,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -95,9 +95,34 @@
     "category": 1,
     "args": [
       "旁白",
-      "{0}一行人再度踏上探索的路途。\n合作無間聯手擊退了魔物。"
+      "{0}一行人再度踏上探索的路途。"
     ],
     "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "旁白",
+      "\n合作無間聯手擊退了魔物。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
   },
   {
     "command": "touch",
@@ -109,7 +134,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -119,7 +144,7 @@
     "args": [
       "103411",
       "LC",
-      "1"
+      "3"
     ],
     "number": 68
   },
@@ -129,7 +154,7 @@
     "args": [
       "105011",
       "RC",
-      "1"
+      "3"
     ],
     "number": 68
   },
@@ -145,9 +170,21 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M127",
+      "0",
+      "0",
+      "1",
+      "0.5"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -179,7 +216,7 @@
     "category": 1,
     "args": [
       "103411",
-      "1"
+      "3"
     ],
     "number": 3
   },
@@ -245,7 +282,7 @@
     "category": 1,
     "args": [
       "105011",
-      "1"
+      "3"
     ],
     "number": 3
   },
@@ -268,7 +305,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -367,9 +404,19 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "6",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -402,7 +449,7 @@
     "category": 1,
     "args": [
       "魔物",
-      "\u2014\u2014嘎喔喔喔喔喔！"
+      "\u2500\u2500嘰歐歐歐歐歐！"
     ],
     "number": 6
   },
@@ -424,7 +471,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -526,9 +573,21 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M157_Inside",
+      "0",
+      "0",
+      "0",
+      "0.5"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -563,6 +622,22 @@
       "1"
     ],
     "number": 3
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "105011"
+    ],
+    "number": 25
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_stepadd_cloth_norm_01_move_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -603,7 +678,25 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n嘛，"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105011",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "美咲",
+      "嘛，"
     ],
     "number": 6
   },
@@ -660,7 +753,7 @@
     "category": 1,
     "args": [
       "103411",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -731,6 +824,18 @@
     "number": 3
   },
   {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "notice1_L",
+      "103411",
+      "-70",
+      "555",
+      "se_adv_emote_common_01"
+    ],
+    "number": 59
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -786,7 +891,25 @@
     "category": 1,
     "args": [
       "優花梨",
-      "\n這個是\u2026\u2026？"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103411",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "優花梨",
+      "這個是\u2026\u2026？"
     ],
     "number": 6
   },
@@ -809,7 +932,7 @@
     "command": "amb_stop",
     "category": 1,
     "args": [
-      "1"
+      "2"
     ],
     "number": 61
   },
@@ -843,9 +966,25 @@
     "category": 1,
     "args": [
       "105011",
-      "1"
+      "6"
     ],
     "number": 3
+  },
+  {
+    "command": "pop",
+    "category": 2,
+    "args": [
+      "105011"
+    ],
+    "number": 24
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_cloth_move_hard_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -914,10 +1053,28 @@
     "number": 10
   },
   {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103411",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105011",
+      "4"
+    ],
+    "number": 3
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
-      "103411;105011"
+      "103411:105011"
     ],
     "number": 4
   },
@@ -937,6 +1094,14 @@
       "vo_adv_7014005_006"
     ],
     "number": 12
+  },
+  {
+    "command": "multi_talk",
+    "category": 1,
+    "args": [
+      "103411:105011"
+    ],
+    "number": 102
   },
   {
     "command": "face",
@@ -963,10 +1128,19 @@
     "number": 10
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "2.5"
+    ],
+    "number": 9
+  },
+  {
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -1072,9 +1246,9 @@
     "command": "chara_full",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "LC",
-      "1"
+      "2"
     ],
     "number": 68
   },
@@ -1084,7 +1258,7 @@
     "args": [
       "105031",
       "RC",
-      "1"
+      "2"
     ],
     "number": 68
   },
@@ -1100,9 +1274,21 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M72",
+      "0",
+      "0",
+      "1",
+      "0.5"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -1134,7 +1320,7 @@
     "category": 1,
     "args": [
       "105031",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -1208,7 +1394,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -1216,7 +1402,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "0"
     ],
     "number": 50
@@ -1233,8 +1419,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "2"
     ],
     "number": 3
   },
@@ -1277,7 +1463,25 @@
     "category": 1,
     "args": [
       "優花梨",
-      "\n我平常很少來這種地方，真令人期待。"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103433",
+      "1"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "優花梨",
+      "我平常很少來這種地方，真令人期待。"
     ],
     "number": 6
   },
@@ -1294,7 +1498,25 @@
     "category": 1,
     "args": [
       "優花梨",
-      "\n今天也請多多指教囉，"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103433",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "優花梨",
+      "今天也請多多指教囉，"
     ],
     "number": 6
   },
@@ -1356,6 +1578,22 @@
     "number": 3
   },
   {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "105031"
+    ],
+    "number": 25
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_stepadd_cloth_norm_01_move_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -1394,7 +1632,25 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n請多指教囉，"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105031",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "美咲",
+      "請多指教囉，"
     ],
     "number": 6
   },
@@ -1425,7 +1681,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -1458,7 +1714,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -1492,7 +1748,7 @@
     "category": 1,
     "args": [
       "105031",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -1518,7 +1774,25 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n不過有{0}"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105031",
+      "1"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "美咲",
+      "不過有{0}"
     ],
     "number": 6
   },
@@ -1583,7 +1857,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -1616,7 +1890,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -1650,7 +1924,7 @@
     "category": 1,
     "args": [
       "105031",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -1676,7 +1950,25 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n一直站在店門口也會造成別人的不便。"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105031",
+      "1"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "美咲",
+      "一直站在店門口也會造成別人的不便。"
     ],
     "number": 6
   },
@@ -1693,7 +1985,25 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n成熟的淑女"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105031",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "美咲",
+      "成熟的淑女"
     ],
     "number": 6
   },
@@ -1721,10 +2031,20 @@
     "number": 10
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "2.5",
+      "1"
+    ],
+    "number": 9
+  },
+  {
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -1800,20 +2120,20 @@
     "number": 51
   },
   {
-    "command": "se",
+    "command": "wait",
     "category": 1,
     "args": [
-      "se_adv_door_shop_open_01"
+      "15"
     ],
-    "number": 26
+    "number": 13
   },
   {
     "command": "chara_full",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "LC",
-      "1"
+      "2"
     ],
     "number": 68
   },
@@ -1839,15 +2159,27 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M190",
+      "0",
+      "0",
+      "0",
+      "0.5"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -1855,7 +2187,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "0"
     ],
     "number": 50
@@ -1872,8 +2204,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "2"
     ],
     "number": 3
   },
@@ -1899,7 +2231,25 @@
     "category": 1,
     "args": [
       "優花梨",
-      "\n畢竟是人氣餐廳，"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103433",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "優花梨",
+      "畢竟是人氣餐廳，"
     ],
     "number": 6
   },
@@ -1933,7 +2283,25 @@
     "category": 1,
     "args": [
       "優花梨",
-      "\n真是太幸運了。"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103433",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "優花梨",
+      "真是太幸運了。"
     ],
     "number": 6
   },
@@ -1973,9 +2341,25 @@
     "category": 1,
     "args": [
       "105031",
-      "1"
+      "2"
     ],
     "number": 3
+  },
+  {
+    "command": "pop",
+    "category": 2,
+    "args": [
+      "105031"
+    ],
+    "number": 24
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_stepadd_cloth_norm_01_move_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -1993,6 +2377,15 @@
       "30"
     ],
     "number": 13
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105031",
+      "6"
+    ],
+    "number": 3
   },
   {
     "command": "print",
@@ -2090,9 +2483,21 @@
     "category": 1,
     "args": [
       "105031",
-      "1"
+      "2"
     ],
     "number": 3
+  },
+  {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "twinkle1_R",
+      "105031",
+      "115",
+      "400",
+      "se_adv_emote_twinkle_01"
+    ],
+    "number": 59
   },
   {
     "command": "print",
@@ -2233,7 +2638,25 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n喂、"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105031",
+      "3"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "美咲",
+      "喂、"
     ],
     "number": 6
   },
@@ -2276,6 +2699,46 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "false"
+    ],
+    "number": 41
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "105031"
+    ],
+    "number": 25
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_paper_move_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "true"
+    ],
+    "number": 41
   },
   {
     "command": "focus",
@@ -2327,6 +2790,15 @@
       "85"
     ],
     "number": 13
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105031",
+      "6"
+    ],
+    "number": 3
   },
   {
     "command": "print",
@@ -2381,7 +2853,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -2389,7 +2861,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "0"
     ],
     "number": 50
@@ -2406,10 +2878,22 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "6"
     ],
     "number": 3
+  },
+  {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "question1_R",
+      "103433",
+      "95",
+      "515",
+      "se_adv_emote_question_01"
+    ],
+    "number": 59
   },
   {
     "command": "print",
@@ -2507,9 +2991,25 @@
     "category": 1,
     "args": [
       "105031",
-      "1"
+      "6"
     ],
     "number": 3
+  },
+  {
+    "command": "pop",
+    "category": 2,
+    "args": [
+      "105031"
+    ],
+    "number": 24
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_cloth_move_hard_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -2550,7 +3050,25 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n才沒那回事！\u3000"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105031",
+      "3"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "美咲",
+      "才沒那回事！\u3000"
     ],
     "number": 6
   },
@@ -2561,6 +3079,15 @@
       "30"
     ],
     "number": 13
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105031",
+      "6"
+    ],
+    "number": 3
   },
   {
     "command": "print",
@@ -2632,7 +3159,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -2665,7 +3192,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -2699,9 +3226,17 @@
     "category": 1,
     "args": [
       "105031",
-      "1"
+      "4"
     ],
     "number": 3
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "FALSE"
+    ],
+    "number": 56
   },
   {
     "command": "print",
@@ -2725,7 +3260,24 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n雖然大家都說成熟女性最喜歡吃沙拉\u2026\u2026"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "TRUE"
+    ],
+    "number": 56
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "美咲",
+      "雖然大家都說成熟女性最喜歡吃沙拉\u2026\u2026"
     ],
     "number": 6
   },
@@ -2739,7 +3291,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -2772,7 +3324,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -2806,7 +3358,7 @@
     "category": 1,
     "args": [
       "105031",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -2845,6 +3397,15 @@
     "number": 13
   },
   {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105031",
+      "1"
+    ],
+    "number": 3
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -2880,7 +3441,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -2888,7 +3449,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "0"
     ],
     "number": 50
@@ -2905,8 +3466,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "2"
     ],
     "number": 3
   },
@@ -2963,7 +3524,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -2971,7 +3532,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "0"
     ],
     "number": 50
@@ -2988,10 +3549,26 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "1"
     ],
     "number": 3
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "103433"
+    ],
+    "number": 25
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_stepadd_cloth_norm_01_move_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -3015,7 +3592,25 @@
     "category": 1,
     "args": [
       "優花梨",
-      "\n不好意思，"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103433",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "優花梨",
+      "不好意思，"
     ],
     "number": 6
   },
@@ -3043,10 +3638,19 @@
     "number": 10
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "3"
+    ],
+    "number": 9
+  },
+  {
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -3085,9 +3689,9 @@
     "command": "chara_full",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "LC",
-      "1"
+      "2"
     ],
     "number": 68
   },
@@ -3097,7 +3701,7 @@
     "args": [
       "105031",
       "RC",
-      "1"
+      "6"
     ],
     "number": 68
   },
@@ -3110,18 +3714,38 @@
     "number": 84
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_coffee_cup_02"
+    ],
+    "number": 26
+  },
+  {
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M207",
+      "0",
+      "0",
+      "1",
+      "0.5"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
     "category": 1,
     "args": [
-      "1031"
+      "0"
     ],
     "number": 4
   },
@@ -3129,8 +3753,8 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "1031",
-      "1"
+      "0",
+      "0"
     ],
     "number": 50
   },
@@ -3146,8 +3770,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "1031",
-      "1"
+      "1",
+      "2"
     ],
     "number": 3
   },
@@ -3164,7 +3788,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "25"
     ],
     "number": 13
   },
@@ -3187,7 +3811,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -3195,7 +3819,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "0"
     ],
     "number": 50
@@ -3212,8 +3836,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "2"
     ],
     "number": 3
   },
@@ -3296,7 +3920,7 @@
     "category": 1,
     "args": [
       "105031",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -3339,7 +3963,25 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n感覺也能養顏美容，"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105031",
+      "1"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "美咲",
+      "感覺也能養顏美容，"
     ],
     "number": 6
   },
@@ -3384,10 +4026,20 @@
     "number": 10
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "1.5",
+      "1"
+    ],
+    "number": 9
+  },
+  {
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -3420,9 +4072,21 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M244",
+      "0",
+      "0",
+      "0",
+      "0.5"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -3454,7 +4118,7 @@
     "category": 1,
     "args": [
       "105031",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -3480,7 +4144,24 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n裡面有好多很苦的蔬菜\u2026\u2026！"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "FALSE"
+    ],
+    "number": 56
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "美咲",
+      "裡面有好多很苦的蔬菜\u2026\u2026！"
     ],
     "number": 6
   },
@@ -3497,7 +4178,24 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n這種東西怎麼吃得下去啊\u2026\u2026！\u3000"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "TRUE"
+    ],
+    "number": 56
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "美咲",
+      "這種東西怎麼吃得下去啊\u2026\u2026！\u3000"
     ],
     "number": 6
   },
@@ -3511,7 +4209,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -3544,7 +4242,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -3552,7 +4250,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -3560,7 +4258,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "0"
     ],
     "number": 50
@@ -3577,8 +4275,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "6"
     ],
     "number": 3
   },
@@ -3604,7 +4302,25 @@
     "category": 1,
     "args": [
       "優花梨",
-      "\n美咲，"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103433",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "優花梨",
+      "美咲，"
     ],
     "number": 6
   },
@@ -3678,7 +4394,7 @@
     "category": 1,
     "args": [
       "105031",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -3755,7 +4471,25 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n這點程度，"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105031",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "美咲",
+      "這點程度，"
     ],
     "number": 6
   },
@@ -3829,7 +4563,7 @@
     "category": 1,
     "args": [
       "105031",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -3872,7 +4606,32 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n嚼嚼\u2026\u2026"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "105031"
+    ],
+    "number": 25
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_eating_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "美咲",
+      "嚼嚼\u2026\u2026"
     ],
     "number": 6
   },
@@ -3886,7 +4645,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -3919,7 +4678,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -3953,16 +4712,24 @@
     "category": 1,
     "args": [
       "105031",
-      "1"
+      "4"
     ],
     "number": 3
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "FALSE"
+    ],
+    "number": 56
   },
   {
     "command": "print",
     "category": 1,
     "args": [
       "美咲",
-      "唔～\u2026\u2026！"
+      "唔～"
     ],
     "number": 6
   },
@@ -3996,7 +4763,24 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n竟然得要把這盤全部吃完\u2026\u2026！\u3000"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "TRUE"
+    ],
+    "number": 56
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "美咲",
+      "竟然得要把這盤全部吃完\u2026\u2026！\u3000"
     ],
     "number": 6
   },
@@ -4036,7 +4820,7 @@
     "category": 1,
     "args": [
       "105031",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -4096,7 +4880,7 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n唔唔～\u2026\u2026！！\u3000"
+      "\n唔唔\u2026\u2026！！\u3000"
     ],
     "number": 6
   },
@@ -4113,7 +4897,7 @@
     "category": 1,
     "args": [
       "美咲",
-      "怎麼辦～\u2026\u2026！！\u3000"
+      "怎麼辦～！！\u3000"
     ],
     "number": 6
   },
@@ -4127,7 +4911,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -4135,7 +4919,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "0"
     ],
     "number": 50
@@ -4152,8 +4936,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "6"
     ],
     "number": 3
   },
@@ -4196,7 +4980,25 @@
     "category": 1,
     "args": [
       "優花梨",
-      "\n是不是明明不愛吃蔬菜還勉強自己呢？"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103433",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "優花梨",
+      "是不是明明不愛吃蔬菜還勉強自己呢？"
     ],
     "number": 6
   },
@@ -4224,10 +5026,19 @@
     "number": 10
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "1"
+    ],
+    "number": 9
+  },
+  {
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -4260,15 +5071,27 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M180_Ver2",
+      "0",
+      "0",
+      "1",
+      "0.5"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -4276,7 +5099,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "0"
     ],
     "number": 50
@@ -4293,8 +5116,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "2"
     ],
     "number": 3
   },
@@ -4351,7 +5174,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -4359,7 +5182,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "0"
     ],
     "number": 50
@@ -4376,8 +5199,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "2"
     ],
     "number": 3
   },
@@ -4403,7 +5226,25 @@
     "category": 1,
     "args": [
       "優花梨",
-      "\n不過"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103433",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "優花梨",
+      "不過"
     ],
     "number": 6
   },
@@ -4448,10 +5289,19 @@
     "number": 10
   },
   {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105031",
+      "6"
+    ],
+    "number": 3
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -4459,7 +5309,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "0"
     ],
     "number": 50
@@ -4476,8 +5326,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "2"
     ],
     "number": 3
   },
@@ -4520,7 +5370,25 @@
     "category": 1,
     "args": [
       "優花梨",
-      "\n妳覺得怎麼樣？"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103433",
+      "1"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "優花梨",
+      "妳覺得怎麼樣？"
     ],
     "number": 6
   },
@@ -4560,7 +5428,7 @@
     "category": 1,
     "args": [
       "105031",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -4580,6 +5448,14 @@
       "25"
     ],
     "number": 13
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "105031"
+    ],
+    "number": 25
   },
   {
     "command": "print",
@@ -4614,6 +5490,15 @@
       "70"
     ],
     "number": 13
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105031",
+      "4"
+    ],
+    "number": 3
   },
   {
     "command": "print",
@@ -4682,6 +5567,15 @@
     "number": 7
   },
   {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103433",
+      "2"
+    ],
+    "number": 3
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
@@ -4711,7 +5605,7 @@
     "category": 1,
     "args": [
       "105031",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -4754,7 +5648,25 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n如、"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105031",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "美咲",
+      "如、"
     ],
     "number": 6
   },
@@ -4811,7 +5723,7 @@
     "category": 1,
     "args": [
       "105031",
-      "1"
+      "3"
     ],
     "number": 3
   },
@@ -4831,6 +5743,14 @@
       "30"
     ],
     "number": 13
+  },
+  {
+    "command": "pop",
+    "category": 2,
+    "args": [
+      "105031"
+    ],
+    "number": 24
   },
   {
     "command": "print",
@@ -4971,7 +5891,25 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n所以我才不得已"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105031",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "美咲",
+      "所以我才不得已"
     ],
     "number": 6
   },
@@ -5036,7 +5974,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -5044,7 +5982,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "0"
     ],
     "number": 50
@@ -5061,8 +5999,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "2"
     ],
     "number": 3
   },
@@ -5116,12 +6054,30 @@
     "number": 10
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "3",
+      "1"
+    ],
+    "number": 9
+  },
+  {
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
+  },
+  {
+    "command": "amb_stop",
+    "category": 1,
+    "args": [
+      "2"
+    ],
+    "number": 61
   },
   {
     "command": "fadeout_all",
@@ -5130,14 +6086,6 @@
       "30"
     ],
     "number": 45
-  },
-  {
-    "command": "amb_stop",
-    "category": 1,
-    "args": [
-      "1"
-    ],
-    "number": 61
   },
   {
     "command": "white_out",
@@ -5162,7 +6110,7 @@
     "command": "still",
     "category": 1,
     "args": [
-      "701300501"
+      "701400501"
     ],
     "number": 49
   },
@@ -5170,7 +6118,23 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "30"
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "amb",
+    "category": 1,
+    "args": [
+      "amb_adv_room_noise_01"
+    ],
+    "number": 51
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
     ],
     "number": 13
   },
@@ -5181,20 +6145,32 @@
     "number": 30
   },
   {
-    "command": "amb",
+    "command": "se",
     "category": 1,
     "args": [
-      "amb_adv_restaurant_01"
+      "se_adv_serve_food_01"
     ],
-    "number": 51
+    "number": 26
   },
   {
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M122",
+      "0",
+      "0",
+      "0",
+      "0.5"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -5209,7 +6185,7 @@
     "category": 1,
     "args": [
       "0",
-      "1"
+      "0"
     ],
     "number": 50
   },
@@ -5243,7 +6219,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "20"
     ],
     "number": 13
   },
@@ -5260,7 +6236,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "30"
     ],
     "number": 13
   },
@@ -5309,7 +6285,7 @@
     "category": 1,
     "args": [
       "105031",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -5363,6 +6339,14 @@
     "number": 10
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_eating_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
@@ -5392,7 +6376,7 @@
     "category": 1,
     "args": [
       "105031",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -5449,7 +6433,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -5457,7 +6441,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "1"
     ],
     "number": 50
@@ -5474,8 +6458,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "2"
     ],
     "number": 3
   },
@@ -5601,7 +6585,25 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n但偶爾"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105031",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "美咲",
+      "但偶爾"
     ],
     "number": 6
   },
@@ -5627,6 +6629,14 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_step_concrete_move_01"
+    ],
+    "number": 26
   },
   {
     "command": "focus",
@@ -5675,7 +6685,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "10"
     ],
     "number": 13
   },
@@ -5692,7 +6702,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "35"
     ],
     "number": 13
   },
@@ -5709,7 +6719,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "45"
     ],
     "number": 13
   },
@@ -5732,7 +6742,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -5740,7 +6750,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "1"
     ],
     "number": 50
@@ -5757,8 +6767,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "2"
     ],
     "number": 3
   },
@@ -5867,7 +6877,7 @@
     "category": 1,
     "args": [
       "女性",
-      "哎呀，"
+      "哎呀，是這樣啊！"
     ],
     "number": 6
   },
@@ -5875,24 +6885,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
-    ],
-    "number": 13
-  },
-  {
-    "command": "print",
-    "category": 1,
-    "args": [
-      "女性",
-      "是這樣啊！"
-    ],
-    "number": 6
-  },
-  {
-    "command": "wait",
-    "category": 1,
-    "args": [
-      "15"
+      "30"
     ],
     "number": 13
   },
@@ -5909,7 +6902,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "25"
     ],
     "number": 13
   },
@@ -5926,7 +6919,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "35"
     ],
     "number": 13
   },
@@ -5966,7 +6959,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -5974,7 +6967,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "1"
     ],
     "number": 50
@@ -5991,8 +6984,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "6"
     ],
     "number": 3
   },
@@ -6032,7 +7025,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -6056,7 +7049,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -6090,7 +7083,7 @@
     "category": 1,
     "args": [
       "105031",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -6190,7 +7183,7 @@
     "category": 1,
     "args": [
       "105031",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -6233,7 +7226,25 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n也是因為她發現"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105031",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "美咲",
+      "也是因為她發現"
     ],
     "number": 6
   },
@@ -6264,7 +7275,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -6288,9 +7299,17 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_cloth_move_give_01"
+    ],
+    "number": 26
   },
   {
     "command": "focus",
@@ -6339,7 +7358,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "20"
     ],
     "number": 13
   },
@@ -6356,7 +7375,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "25"
     ],
     "number": 13
   },
@@ -6422,7 +7441,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "30"
     ],
     "number": 13
   },
@@ -6439,7 +7458,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "35"
     ],
     "number": 13
   },
@@ -6462,7 +7481,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -6470,7 +7489,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "1"
     ],
     "number": 50
@@ -6487,8 +7506,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "6"
     ],
     "number": 3
   },
@@ -6525,6 +7544,15 @@
       "55"
     ],
     "number": 13
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103433",
+      "4"
+    ],
+    "number": 3
   },
   {
     "command": "print",
@@ -6622,7 +7650,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "25"
     ],
     "number": 13
   },
@@ -6645,7 +7673,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -6653,7 +7681,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "1"
     ],
     "number": 50
@@ -6670,8 +7698,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "6"
     ],
     "number": 3
   },
@@ -6771,7 +7799,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "30"
     ],
     "number": 13
   },
@@ -6788,7 +7816,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "25"
     ],
     "number": 13
   },
@@ -6805,7 +7833,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "10"
     ],
     "number": 13
   },
@@ -6871,7 +7899,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "30"
     ],
     "number": 13
   },
@@ -6911,7 +7939,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -6919,7 +7947,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "1"
     ],
     "number": 50
@@ -6936,10 +7964,18 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "6"
     ],
     "number": 3
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_cloth_move_hard_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -6957,6 +7993,15 @@
       "15"
     ],
     "number": 13
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103433",
+      "3"
+    ],
+    "number": 3
   },
   {
     "command": "print",
@@ -7011,7 +8056,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -7019,7 +8064,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "1"
     ],
     "number": 50
@@ -7036,8 +8081,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "2"
     ],
     "number": 3
   },
@@ -7137,7 +8182,7 @@
     "category": 1,
     "args": [
       "105031",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -7180,7 +8225,25 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n你也點一樣的可以吧！"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105031",
+      "1"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "美咲",
+      "你也點一樣的可以吧！"
     ],
     "number": 6
   },
@@ -7189,6 +8252,38 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "3"
+    ],
+    "number": 9
+  },
+  {
+    "command": "black_out",
+    "category": 1,
+    "args": [
+      "1",
+      "1"
+    ],
+    "number": 27
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "black_in",
+    "category": 1,
+    "args": [],
+    "number": 28
   },
   {
     "command": "focus",
@@ -7237,7 +8332,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "25"
     ],
     "number": 13
   },
@@ -7246,7 +8341,24 @@
     "category": 1,
     "args": [
       "女性店員",
-      "\n麥酒2杯、"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_coffee_cup_02"
+    ],
+    "number": 26
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "女性店員",
+      "麥酒2杯、"
     ],
     "number": 6
   },
@@ -7271,7 +8383,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "25"
     ],
     "number": 13
   },
@@ -7291,10 +8403,22 @@
     "number": 10
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M12",
+      "0",
+      "0",
+      "1",
+      "0.5"
+    ],
+    "number": 9
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -7302,7 +8426,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "1"
     ],
     "number": 50
@@ -7319,8 +8443,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "6"
     ],
     "number": 3
   },
@@ -7363,7 +8487,25 @@
     "category": 1,
     "args": [
       "優花梨",
-      "\n那、"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103433",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "優花梨",
+      "那、"
     ],
     "number": 6
   },
@@ -7445,7 +8587,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -7453,7 +8595,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "1"
     ],
     "number": 50
@@ -7470,8 +8612,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "6"
     ],
     "number": 3
   },
@@ -7588,7 +8730,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "20"
     ],
     "number": 13
   },
@@ -7605,7 +8747,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "25"
     ],
     "number": 13
   },
@@ -7622,7 +8764,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "10"
     ],
     "number": 13
   },
@@ -7645,7 +8787,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -7653,7 +8795,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "1"
     ],
     "number": 50
@@ -7670,8 +8812,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "2"
     ],
     "number": 3
   },
@@ -7691,6 +8833,14 @@
       "10"
     ],
     "number": 13
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_glass_cheers_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -7714,7 +8864,25 @@
     "category": 1,
     "args": [
       "優花梨",
-      "\n唔，"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103433",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "優花梨",
+      "唔，"
     ],
     "number": 6
   },
@@ -7745,7 +8913,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -7753,7 +8921,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "1"
     ],
     "number": 50
@@ -7770,8 +8938,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "6"
     ],
     "number": 3
   },
@@ -7862,7 +9030,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -7870,7 +9038,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "1"
     ],
     "number": 50
@@ -7887,8 +9055,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "2"
     ],
     "number": 3
   },
@@ -7962,7 +9130,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -7970,7 +9138,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "1"
     ],
     "number": 50
@@ -7987,8 +9155,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "2"
     ],
     "number": 3
   },
@@ -8105,7 +9273,7 @@
     "category": 1,
     "args": [
       "105031",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -8125,6 +9293,14 @@
       "25"
     ],
     "number": 13
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_glass_cheers_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -8148,7 +9324,25 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n像是"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105031",
+      "1"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "美咲",
+      "像是"
     ],
     "number": 6
   },
@@ -8179,7 +9373,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -8187,7 +9381,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "1"
     ],
     "number": 50
@@ -8204,8 +9398,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "2"
     ],
     "number": 3
   },
@@ -8245,7 +9439,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -8253,7 +9447,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "1"
     ],
     "number": 50
@@ -8270,8 +9464,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "2"
     ],
     "number": 3
   },
@@ -8388,7 +9582,7 @@
     "category": 1,
     "args": [
       "105031",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -8431,7 +9625,25 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n咕嚕\u2026\u2026"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105031",
+      "5"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "美咲",
+      "咕嚕\u2026\u2026"
     ],
     "number": 6
   },
@@ -8488,7 +9700,7 @@
     "category": 1,
     "args": [
       "105031",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -8525,10 +9737,20 @@
     "number": 10
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "5",
+      "1"
+    ],
+    "number": 9
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -8536,7 +9758,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "1"
     ],
     "number": 50
@@ -8553,8 +9775,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "2"
     ],
     "number": 3
   },
@@ -8597,7 +9819,25 @@
     "category": 1,
     "args": [
       "優花梨",
-      "\n反、"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103433",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "優花梨",
+      "反、"
     ],
     "number": 6
   },
@@ -8608,6 +9848,14 @@
       "25"
     ],
     "number": 13
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M11_Ver2"
+    ],
+    "number": 9
   },
   {
     "command": "print",
@@ -8648,7 +9896,25 @@
     "category": 1,
     "args": [
       "優花梨",
-      "\n咕嚕\u2026\u2026"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103433",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "優花梨",
+      "咕嚕\u2026\u2026"
     ],
     "number": 6
   },
@@ -8696,7 +9962,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -8704,7 +9970,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "1"
     ],
     "number": 50
@@ -8721,8 +9987,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "2"
     ],
     "number": 3
   },
@@ -8782,7 +10048,25 @@
     "category": 1,
     "args": [
       "優花梨",
-      "\n哎呀，"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103433",
+      "8"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "優花梨",
+      "哎呀，"
     ],
     "number": 6
   },
@@ -8863,6 +10147,15 @@
     "number": 13
   },
   {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103433",
+      "2"
+    ],
+    "number": 3
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -8876,6 +10169,15 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "4.5"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -8907,7 +10209,7 @@
     "category": 1,
     "args": [
       "105031",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -8944,10 +10246,70 @@
     "number": 10
   },
   {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "false"
+    ],
+    "number": 41
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_magicstone_debris_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_happy_particle_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "still",
+    "category": 1,
+    "args": [
+      "701400502"
+    ],
+    "number": 49
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "true"
+    ],
+    "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M15",
+      "0",
+      "0",
+      "1",
+      "0.5"
+    ],
+    "number": 9
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -8955,7 +10317,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "1"
     ],
     "number": 50
@@ -8972,8 +10334,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "2"
     ],
     "number": 3
   },
@@ -9047,7 +10409,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -9055,7 +10417,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "1"
     ],
     "number": 50
@@ -9072,8 +10434,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "2"
     ],
     "number": 3
   },
@@ -9113,7 +10475,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -9121,7 +10483,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "1"
     ],
     "number": 50
@@ -9138,8 +10500,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "8"
     ],
     "number": 3
   },
@@ -9261,10 +10623,18 @@
     "number": 10
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_cloth_move_normal_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -9272,7 +10642,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "1"
     ],
     "number": 50
@@ -9289,8 +10659,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "2"
     ],
     "number": 3
   },
@@ -9333,7 +10703,25 @@
     "category": 1,
     "args": [
       "優花梨",
-      "\n感覺越來越"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103433",
+      "8"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "優花梨",
+      "感覺越來越"
     ],
     "number": 6
   },
@@ -9367,7 +10755,25 @@
     "category": 1,
     "args": [
       "優花梨",
-      "\n我就是為了喝這個才活著的呢～\u266A"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103433",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "優花梨",
+      "我就是為了喝這個才活著的呢～\u266A"
     ],
     "number": 6
   },
@@ -9407,7 +10813,7 @@
     "category": 1,
     "args": [
       "105031",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -9563,6 +10969,15 @@
     "number": 13
   },
   {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105031",
+      "2"
+    ],
+    "number": 3
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -9667,7 +11082,25 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n畢竟我也是成熟的淑女，"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105031",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "美咲",
+      "畢竟我也是成熟的淑女，"
     ],
     "number": 6
   },
@@ -9698,7 +11131,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -9706,7 +11139,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "1"
     ],
     "number": 50
@@ -9723,8 +11156,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "2"
     ],
     "number": 3
   },
@@ -9784,7 +11217,25 @@
     "category": 1,
     "args": [
       "優花梨",
-      "\n今天開派對了～！\u3000"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103433",
+      "8"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "優花梨",
+      "今天開派對了～！\u3000"
     ],
     "number": 6
   },
@@ -9810,6 +11261,16 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "8.5",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -9841,7 +11302,7 @@
     "category": 1,
     "args": [
       "105031",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -9867,7 +11328,25 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n算、"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105031",
+      "1"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "美咲",
+      "算、"
     ],
     "number": 6
   },
@@ -9910,6 +11389,18 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M114_Ver2",
+      "0",
+      "0",
+      "0",
+      "0.5"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -10101,7 +11592,25 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n只吃沙拉這件事情，"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105031",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "美咲",
+      "只吃沙拉這件事情，"
     ],
     "number": 6
   },
@@ -10152,7 +11661,25 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n妳特地帶我來這間店，"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105031",
+      "1"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "美咲",
+      "妳特地帶我來這間店，"
     ],
     "number": 6
   },
@@ -10200,7 +11727,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -10208,7 +11735,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "1"
     ],
     "number": 50
@@ -10225,8 +11752,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "6"
     ],
     "number": 3
   },
@@ -10266,7 +11793,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -10274,7 +11801,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "1"
     ],
     "number": 50
@@ -10291,8 +11818,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "4"
     ],
     "number": 3
   },
@@ -10460,7 +11987,7 @@
     "category": 1,
     "args": [
       "105031",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -10503,7 +12030,25 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n呃～\u2026\u2026"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105031",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "美咲",
+      "呃\u2026\u2026"
     ],
     "number": 6
   },
@@ -10568,7 +12113,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -10576,7 +12121,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "1"
     ],
     "number": 50
@@ -10593,8 +12138,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "2"
     ],
     "number": 3
   },
@@ -10694,7 +12239,7 @@
     "category": 1,
     "args": [
       "105031",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -10820,7 +12365,25 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n今後也請多多指教，"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105031",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "美咲",
+      "今後也請多多指教，"
     ],
     "number": 6
   },
@@ -10851,7 +12414,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "103432"
+      "103433"
     ],
     "number": 4
   },
@@ -10859,7 +12422,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "103432",
+      "103433",
       "1"
     ],
     "number": 50
@@ -10876,8 +12439,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "103432",
-      "1"
+      "103433",
+      "2"
     ],
     "number": 3
   },
@@ -10920,7 +12483,25 @@
     "category": 1,
     "args": [
       "優花梨",
-      "\n來，"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103433",
+      "8"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "優花梨",
+      "來，"
     ],
     "number": 6
   },
@@ -10954,7 +12535,25 @@
     "category": 1,
     "args": [
       "優花梨",
-      "\n那麼我們就一起，"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103433",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "優花梨",
+      "那麼我們就一起，"
     ],
     "number": 6
   },
@@ -10999,6 +12598,14 @@
     "number": 10
   },
   {
+    "command": "se_effect",
+    "category": 1,
+    "args": [
+      "5"
+    ],
+    "number": 91
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
@@ -11024,6 +12631,14 @@
     "number": 12
   },
   {
+    "command": "multi_talk",
+    "category": 1,
+    "args": [
+      "103433:105031"
+    ],
+    "number": 102
+  },
+  {
     "command": "face",
     "category": 1,
     "args": [
@@ -11031,6 +12646,14 @@
       "1"
     ],
     "number": 3
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_glass_cheers_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -11048,12 +12671,29 @@
     "number": 10
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "2.5"
+    ],
+    "number": 9
+  },
+  {
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
+  },
+  {
+    "command": "se_effect",
+    "category": 1,
+    "args": [
+      "0"
+    ],
+    "number": 91
   },
   {
     "command": "effect",
@@ -11068,7 +12708,7 @@
     "command": "amb_stop",
     "category": 1,
     "args": [
-      "1"
+      "2"
     ],
     "number": 61
   },
@@ -11114,18 +12754,18 @@
     "number": 13
   },
   {
-    "command": "white_in",
-    "category": 1,
-    "args": [],
-    "number": 30
-  },
-  {
     "command": "amb",
     "category": 1,
     "args": [
       "amb_adv_guildhouse_mist_01"
     ],
     "number": 51
+  },
+  {
+    "command": "white_in",
+    "category": 1,
+    "args": [],
+    "number": 30
   },
   {
     "command": "vo_effect",
@@ -11177,9 +12817,29 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_cloth_move_normal_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M158_Inside",
+      "0",
+      "0",
+      "1",
+      "0.5"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -11211,17 +12871,9 @@
     "category": 1,
     "args": [
       "105011",
-      "1"
+      "4"
     ],
     "number": 3
-  },
-  {
-    "command": "eye_open",
-    "category": 1,
-    "args": [
-      "TRUE"
-    ],
-    "number": 56
   },
   {
     "command": "print",
@@ -11239,6 +12891,14 @@
       "75"
     ],
     "number": 13
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "TRUE"
+    ],
+    "number": 56
   },
   {
     "command": "print",
@@ -11279,7 +12939,25 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n剛剛的是\u2026\u2026"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105011",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "美咲",
+      "剛剛的是\u2026\u2026"
     ],
     "number": 6
   },
@@ -11336,7 +13014,7 @@
     "category": 1,
     "args": [
       "103411",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -11370,7 +13048,7 @@
     "category": 1,
     "args": [
       "優花梨",
-      "嗯～\u2026\u2026"
+      "嗯～"
     ],
     "number": 6
   },
@@ -11387,7 +13065,25 @@
     "category": 1,
     "args": [
       "優花梨",
-      "\n咦？\u3000"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103411",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "優花梨",
+      "咦？\u3000"
     ],
     "number": 6
   },
@@ -11444,7 +13140,7 @@
     "category": 1,
     "args": [
       "105011",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -11470,7 +13166,25 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n總覺得"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105011",
+      "1"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "美咲",
+      "總覺得"
     ],
     "number": 6
   },
@@ -11527,7 +13241,7 @@
     "category": 1,
     "args": [
       "103411",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -11570,7 +13284,25 @@
     "category": 1,
     "args": [
       "優花梨",
-      "\n總覺得"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103411",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "優花梨",
+      "總覺得"
     ],
     "number": 6
   },
@@ -11632,6 +13364,22 @@
     "number": 3
   },
   {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "105011"
+    ],
+    "number": 25
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_stepadd_cloth_norm_01_move_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -11647,6 +13395,15 @@
       "40"
     ],
     "number": 13
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105011",
+      "4"
+    ],
+    "number": 3
   },
   {
     "command": "print",
@@ -11687,7 +13444,25 @@
     "category": 1,
     "args": [
       "美咲",
-      "\n今天就先到這裡吧。"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105011",
+      "1"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "美咲",
+      "今天就先到這裡吧。"
     ],
     "number": 6
   },
@@ -11753,7 +13528,25 @@
     "category": 1,
     "args": [
       "優花梨",
-      "\n那麼，"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103411",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "優花梨",
+      "那麼，"
     ],
     "number": 6
   },
@@ -11883,6 +13676,15 @@
     "number": 13
   },
   {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103411",
+      "2"
+    ],
+    "number": 3
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -11927,7 +13729,7 @@
     "category": 1,
     "args": [
       "105011",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -11993,7 +13795,7 @@
     "category": 1,
     "args": [
       "103411",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -12036,7 +13838,25 @@
     "category": 1,
     "args": [
       "優花梨",
-      "\n雖然我可能會不小心順勢就喝多了\u2026\u2026"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103411",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "優花梨",
+      "雖然我可能會不小心順勢就喝多了\u2026\u2026"
     ],
     "number": 6
   },
@@ -12053,7 +13873,25 @@
     "category": 1,
     "args": [
       "優花梨",
-      "\n可、"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103411",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "優花梨",
+      "可、"
     ],
     "number": 6
   },
@@ -12144,9 +13982,21 @@
     "category": 1,
     "args": [
       "105011",
-      "1"
+      "2"
     ],
     "number": 3
+  },
+  {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "note1_L",
+      "105011",
+      "-110",
+      "430",
+      "se_adv_emote_note_01"
+    ],
+    "number": 59
   },
   {
     "command": "print",
@@ -12227,7 +14077,7 @@
     "category": 1,
     "args": [
       "105011",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -12310,9 +14160,25 @@
     "category": 1,
     "args": [
       "103411",
-      "1"
+      "2"
     ],
     "number": 3
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "103411"
+    ],
+    "number": 25
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_stepadd_cloth_norm_01_move_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -12367,7 +14233,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -12392,7 +14258,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -12427,9 +14293,34 @@
     "category": 1,
     "args": [
       "旁白",
-      "之後，美咲因為看見在慶功聚會上豪飲爛醉的優花梨，\n感覺自己也接觸到了全新的大人的世界。"
+      "之後，美咲因為看見在慶功聚會上豪飲爛醉的優花梨，"
     ],
     "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "旁白",
+      "\n感覺自己也接觸到了全新的大人的世界。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
   },
   {
     "command": "touch",
@@ -12441,7 +14332,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -12452,6 +14343,16 @@
       "1"
     ],
     "number": 61
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "1",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "black_out",

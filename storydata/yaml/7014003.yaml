@@ -14,7 +14,7 @@
 - vo_effect:
   - 3
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 0
 - bust:
@@ -25,13 +25,19 @@
   - 1
 - print:
   - 旁白
-  - >-
-    {0}一行人
+  - '{0}一行人'
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
 
     繼續前進踏入了露娜之塔更高的樓層。
+- wait:
+  - 30
 - touch: &o0 []
 - window_visible:
-  - FALSE
+  - false
 - chara_full:
   - 103411
   - LC
@@ -39,11 +45,19 @@
 - chara_full:
   - 105011
   - RC
-  - 1
+  - 4
+- se:
+  - se_adv_step_concrete_move_01
 - fadein_all:
   - 30
 - window_visible:
-  - TRUE
+  - true
+- bgm:
+  - bgm_M157_Inside
+  - 0
+  - 0
+  - 1
+  - 0.5
 - focus:
   - 105011
 - bust:
@@ -73,9 +87,14 @@
   - 90
 - print:
   - 美咲
-  - >2-
+  - >2
 
-    那個{0}，
+- face:
+  - 105011
+  - 6
+- print:
+  - 美咲
+  - 那個{0}，
 - wait:
   - 20
 - print:
@@ -113,7 +132,7 @@
   - vo_adv_7014003_001
 - face:
   - 103411
-  - 4
+  - 1
 - print:
   - 優花梨
   - 我們一路也打倒了
@@ -130,7 +149,7 @@
 
 - face:
   - 103411
-  - 1
+  - 2
 - print:
   - 優花梨
   - 看來應該可以確保
@@ -147,7 +166,7 @@
 
 - face:
   - 103411
-  - 2
+  - 1
 - print:
   - 優花梨
   - 在繼續往前進之前
@@ -194,14 +213,27 @@
   - 請你們稍等一下喔。
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - L
+  - LC
+  - 30
+- fadeout:
+  - 103411
+  - 30
+- change:
+  - C
+  - RC
+  - 30
 - bright_change:
   - 1
   - 50
 - change_window:
   - 2
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 105011
 - bust:
@@ -239,14 +271,14 @@
   - 身為淑女這樣有些不妥……
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
 - bright_change:
   - 1
   - 100
 - change_window:
   - 1
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 105011
 - bust:
@@ -265,7 +297,7 @@
 - face:
   - 105011
   - 6
-- pop:
+- nod:
   - 105011
 - print:
   - 美咲
@@ -288,11 +320,23 @@
   - 美咲
   - 我不是有那個嗎！
 - touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 1
 - choice:
   - 那個指的是什麼？
   - 1
 - tag:
   - 1
+- se:
+  - se_adv_cloth_move_give_01
+- bgm:
+  - bgm_M203_Inside
+  - 0
+  - 0
+  - 0
+  - 0.5
 - focus:
   - 105011
 - bust:
@@ -391,6 +435,23 @@
   - 美咲
   - 所以我覺得它一定非常好吃！
 - touch: *o0
+- window_visible:
+  - false
+- face:
+  - 105011
+  - 6
+- emotion:
+  - notice1_L
+  - 105011
+  - -82
+  - 470
+  - se_adv_emote_common_01
+- wait:
+  - 45
+- emotion_end:
+  - 105011
+- window_visible:
+  - true
 - focus:
   - 105011
 - bust:
@@ -401,12 +462,6 @@
 - face:
   - 105011
   - 6
-- emotion:
-  - question1_R
-  - 105011
-  - 85
-  - 470
-  - se_adv_emote_question_01
 - print:
   - 美咲
   - 咦？　
@@ -445,6 +500,14 @@
 
     你可要心懷感激地享用喔！
 - touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_eating_01
+- wait:
+  - 15
+- window_visible:
+  - true
 - focus:
   - 105011
 - bust:
@@ -525,6 +588,31 @@
   - 美咲
   - 這是怎麼回事？
 - touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105011
+  - 30
+- chara_full:
+  - 105011
+  - RC
+  - 6
+- chara_full:
+  - 103411
+  - L
+  - 1
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - true
 - focus:
   - 103411
 - bust:
@@ -534,7 +622,7 @@
   - vo_adv_7014003_010
 - face:
   - 103411
-  - 6
+  - 1
 - print:
   - 優花梨
   - 那個……
@@ -557,15 +645,17 @@
   - 能不能讓我看一下呢？
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
+- focus:
+  - 103411:105011
 - se:
   - se_adv_cloth_move_give_01
 - nod:
-  - 103411
+  - 105011
 - wait:
-  - 15
+  - 30
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 103411
 - bust:
@@ -629,6 +719,12 @@
 - face:
   - 103411
   - 2
+- emotion:
+  - note1_L
+  - 103411
+  - -95
+  - 530
+  - se_adv_emote_note_01
 - print:
   - 優花梨
   - 嗯～
@@ -666,7 +762,7 @@
   - vo_adv_7014003_014
 - face:
   - 103411
-  - 2
+  - 1
 - print:
   - 優花梨
   - 吶吶，美咲。
@@ -674,9 +770,14 @@
   - 25
 - print:
   - 優花梨
-  - >2-
+  - >2
 
-    難得美咲妳特地帶過來了，
+- face:
+  - 103411
+  - 2
+- print:
+  - 優花梨
+  - 難得美咲妳特地帶過來了，
 - wait:
   - 30
 - print:
@@ -700,9 +801,13 @@
 - face:
   - 105011
   - 1
+- nod:
+  - 105011
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 美咲
-  - 好，
+  - 嗯嗯，
 - wait:
   - 20
 - print:
@@ -714,26 +819,35 @@
   - 美咲
   - >2-
 
-    請妳拿去吃吧——。
+    妳就吃──
 - touch: *o0
+- bgm:
+  - stop
+  - 2.5
 - choice:
   - 等一下！
   - 3
 - tag:
   - 3
 - window_visible:
-  - FALSE
+  - false
 - fadeout_all:
   - 30
 - chara_full:
   - 103411
   - C
-  - 1
+  - 6
 - fadein:
   - 103411
   - 30
 - window_visible:
-  - TRUE
+  - true
+- bgm:
+  - bgm_M180_Ver2
+  - 0
+  - 0
+  - 1
+  - 0.5
 - focus:
   - 103411
 - bust:
@@ -758,12 +872,7 @@
   - 1
 - print:
   - 優花梨
-  - 難道
-- wait:
-  - 10
-- print:
-  - 優花梨
-  - 是在擔心我會不會
+  - 難道是在擔心我會不會
 - wait:
   - 35
 - print:
@@ -822,12 +931,12 @@
   - 優花梨
   - 所以，
 - wait:
-  - 30
+  - 25
 - print:
   - 優花梨
   - 拜託你……！
 - wait:
-  - 15
+  - 25
 - print:
   - 優花梨
   - >2
@@ -899,35 +1008,35 @@
 
 - face:
   - 103411
-  - 1
+  - 2
 - nod:
   - 103411
 - print:
   - 優花梨
   - 不過今天沒問題的！　
 - wait:
-  - 20
+  - 30
 - print:
   - 優花梨
   - 一定沒問題！
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
+- fadeout:
+  - 103411
+  - 30
 - chara_full:
   - 103411
   - LC
-  - 1
+  - 2
 - chara_full:
   - 105011
   - RC
-  - 1
+  - 6
 - fadein_all:
   - 30
-- fadein:
-  - 103411
-  - 30
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 105011
 - bust:
@@ -962,6 +1071,10 @@
 - face:
   - 105011
   - 4
+- bgm:
+  - stop
+  - 5
+  - 1
 - print:
   - 美咲
   - 這……
@@ -971,6 +1084,12 @@
   - 美咲
   - 這是怎麼回事？
 - touch: *o0
+- bgm:
+  - bgm_M244_Inside
+  - 0
+  - 0
+  - 0
+  - 1.7
 - focus:
   - 103411
 - bust:
@@ -981,6 +1100,12 @@
 - face:
   - 103411
   - 6
+- emotion:
+  - exclamation1_R
+  - 103411
+  - 15
+  - 635
+  - se_adv_emote_common_01
 - print:
   - 優花梨
   - 啊……！　
@@ -1044,12 +1169,10 @@
 - face:
   - 105011
   - 3
-- emotion:
-  - anger1_R
+- pop:
   - 105011
-  - 60
-  - 515
-  - se_adv_emote_anger_01
+- se:
+  - se_adv_cloth_move_hard_01
 - print:
   - 美咲
   - 那種事情我怎麼可能辦得到！？
@@ -1103,11 +1226,11 @@
   - 103411
   - 6
 - emotion:
-  - sweat1_R
+  - sweat2_R
   - 103411
-  - 100
-  - 480
-  - se_adv_emote_sweat_01
+  - 80
+  - 515
+  - se_adv_emote_sweat_02
 - print:
   - 優花梨
   - 呃、
@@ -1159,7 +1282,7 @@
   - 103411
   - 4
 - eye_open:
-  - False
+  - FALSE
 - print:
   - 優花梨
   - …………
@@ -1208,13 +1331,7 @@
   - 103411
   - 6
 - eye_open:
-  - True
-- emotion:
-  - sweat2_R
-  - 103411
-  - 80
-  - 515
-  - se_adv_emote_sweat_02
+  - TRUE
 - print:
   - 優花梨
   - 我、
@@ -1256,7 +1373,7 @@
   - 103411
   - 4
 - eye_open:
-  - False
+  - FALSE
 - print:
   - 優花梨
   - ……對不起。
@@ -1267,11 +1384,14 @@
   - >2
 
 - eye_open:
-  - True
+  - TRUE
 - print:
   - 優花梨
   - 其實我每次到最後都會變成那樣……
 - touch: *o0
+- bgm:
+  - stop
+  - 8.5
 - focus:
   - 105011
 - bust:
@@ -1284,6 +1404,8 @@
   - 4
 - nod:
   - 105011
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 美咲
   - 唉……
@@ -1305,6 +1427,12 @@
 
     本來還以為自己終於遇到了一位了不起的淑女……
 - touch: *o0
+- bgm:
+  - bgm_M13_03_NoIntro
+  - 0
+  - 0
+  - 1
+  - 0.5
 - focus:
   - 105011
 - bust:
@@ -1354,7 +1482,7 @@
   - 拜拜！
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
 - se:
   - se_adv_step_concrete_run_go_01
 - change:
@@ -1369,7 +1497,7 @@
   - LC
   - 30
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 103411
 - bust:
@@ -1381,11 +1509,11 @@
   - 103411
   - 6
 - emotion:
-  - sweat2_R
+  - surprise1_L
   - 103411
-  - 80
-  - 515
-  - se_adv_emote_sweat_02
+  - 165
+  - 525
+  - se_adv_emote_common_01
 - print:
   - 優花梨
   - 美、
@@ -1403,7 +1531,7 @@
     妳等一下～！？
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
 - se:
   - se_adv_step_concrete_run_go_01
 - change:
@@ -1417,7 +1545,7 @@
   - 0
   - -170
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 0
 - bust:
@@ -1428,14 +1556,24 @@
   - 1
 - print:
   - 旁白
-  - >-
-    美咲就這樣不顧優花梨的呼喊，
+  - 美咲就這樣不顧優花梨的呼喊，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
 
     一個人小跑步不斷地往前跑去。
+- wait:
+  - 30
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
 - amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
   - 1
 - black_out:
   - 1

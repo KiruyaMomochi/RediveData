@@ -11,7 +11,7 @@
     "command": "outline",
     "category": 1,
     "args": [
-      "遭到魔物強奪的少年們拜託妮諾和{0}去討伐敵人。妮諾面對魔物大軍，一度陷入苦戰，但在被認可為忠臣後，開啟了全新的力量並贏下勝利。"
+      "遭到魔物強佔基地的少年們，拜託妮諾和{0}去討伐敵人。妮諾面對魔物大軍，一度陷入苦戰，但在被認可為忠臣後，開啟了全新的力量並贏下勝利。"
     ],
     "number": 1
   },
@@ -27,7 +27,7 @@
     "command": "amb",
     "category": 1,
     "args": [
-      "amb_adv_outdoors_day_01"
+      "amb_adv_town_day_01"
     ],
     "number": 51
   },
@@ -156,6 +156,17 @@
       "TRUE"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M106",
+      "0",
+      "0",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -319,6 +330,14 @@
     "number": 3
   },
   {
+    "command": "focus",
+    "category": 1,
+    "args": [
+      "0"
+    ],
+    "number": 4
+  },
+  {
     "command": "bust",
     "category": 1,
     "args": [
@@ -371,10 +390,28 @@
     "number": 6
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "1.7",
+      "1"
+    ],
+    "number": 9
+  },
+  {
     "command": "touch",
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M180_Ver2"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -444,7 +481,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "\n這麼焦急地"
+      "\n這聲音焦急地"
     ],
     "number": 6
   },
@@ -487,7 +524,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "難道是"
+      "難道"
     ],
     "number": 6
   },
@@ -504,7 +541,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "發生了什麼事件嗎！？"
+      "發生什麼事件了嗎！？"
     ],
     "number": 6
   },
@@ -594,6 +631,14 @@
     "number": 41
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_cloth_move_normal_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
@@ -648,7 +693,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "20"
     ],
     "number": 13
   },
@@ -697,7 +742,7 @@
     "category": 1,
     "args": [
       "103011",
-      "6"
+      "1"
     ],
     "number": 3
   },
@@ -764,6 +809,15 @@
       "4"
     ],
     "number": 3
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "9.3"
+    ],
+    "number": 9
   },
   {
     "command": "print",
@@ -904,9 +958,20 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "20"
     ],
     "number": 13
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M288",
+      "0",
+      "0",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "print",
@@ -921,7 +986,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "25"
     ],
     "number": 13
   },
@@ -938,7 +1003,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "45"
     ],
     "number": 13
   },
@@ -1058,7 +1123,7 @@
     "category": 1,
     "args": [
       "少年2",
-      "我們好不容易收集了一大堆就是想讓將軍開心\u2026\u2026"
+      "我們好不容易收集了許多零食想讓將軍開心\u2026\u2026"
     ],
     "number": 6
   },
@@ -1066,7 +1131,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "65"
     ],
     "number": 13
   },
@@ -1100,7 +1165,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "55"
     ],
     "number": 13
   },
@@ -1195,25 +1260,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "\n"
-    ],
-    "number": 6
-  },
-  {
-    "command": "face",
-    "category": 1,
-    "args": [
-      "103011",
-      "6"
-    ],
-    "number": 3
-  },
-  {
-    "command": "print",
-    "category": 1,
-    "args": [
-      "妮諾",
-      "菲尼克斯家族的祕密基地"
+      "\n菲尼克斯家族的祕密基地，"
     ],
     "number": 6
   },
@@ -1405,7 +1452,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "菲尼克斯家族的諸君，"
+      "菲尼克斯家族的各位，"
     ],
     "number": 6
   },
@@ -1608,7 +1655,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "25"
     ],
     "number": 13
   },
@@ -1742,7 +1789,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "25"
     ],
     "number": 13
   },
@@ -1777,7 +1824,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "10"
     ],
     "number": 13
   },
@@ -1794,7 +1841,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "10"
     ],
     "number": 13
   },
@@ -1843,7 +1890,7 @@
     "category": 1,
     "args": [
       "103011",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -1863,6 +1910,15 @@
       "60"
     ],
     "number": 13
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103011",
+      "1"
+    ],
+    "number": 3
   },
   {
     "command": "print",
@@ -1952,7 +2008,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "走吧，"
+      "走吧"
     ],
     "number": 6
   },
@@ -2029,7 +2085,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "哦\u2500\u2500哦\u2500\u2500！"
+      "哦\u2500\u2500哦哦\u2500\u2500！"
     ],
     "number": 6
   },
@@ -2046,6 +2102,16 @@
       "FALSE"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "1.8",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "fadeout_all",
@@ -2114,7 +2180,7 @@
     "command": "amb",
     "category": 1,
     "args": [
-      "amb_adv_town_day_01"
+      "amb_adv_cave_with_water_01"
     ],
     "number": 51
   },
@@ -2127,6 +2193,14 @@
       "3"
     ],
     "number": 68
+  },
+  {
+    "command": "se_effect",
+    "category": 1,
+    "args": [
+      "3"
+    ],
+    "number": 91
   },
   {
     "command": "se",
@@ -2178,6 +2252,14 @@
       "TRUE"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M357"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -2243,7 +2325,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "靜"
+      "靜悄悄、"
     ],
     "number": 6
   },
@@ -2260,7 +2342,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "悄悄地\u2026\u2026"
+      "靜悄悄地\u2026\u2026"
     ],
     "number": 6
   },
@@ -2311,7 +2393,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "左右交錯\u2026\u2026"
+      "左腳換右腳\u2026\u2026"
     ],
     "number": 6
   },
@@ -2630,7 +2712,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "我會盡心盡力，不辜負你的期望。"
+      "我會盡心盡力，不辜負將軍的期望是也。"
     ],
     "number": 6
   },
@@ -2647,6 +2729,15 @@
       "FALSE"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "2"
+    ],
+    "number": 9
   },
   {
     "command": "fadeout",
@@ -2709,6 +2800,17 @@
       "TRUE"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M17_withIntro",
+      "0",
+      "0",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -3075,7 +3177,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "妮諾"
+      "妮諾我"
     ],
     "number": 6
   },
@@ -3119,6 +3221,16 @@
     "number": 26
   },
   {
+    "command": "change",
+    "category": 2,
+    "args": [
+      "RC",
+      "C",
+      "30"
+    ],
+    "number": 44
+  },
+  {
     "command": "fadeout",
     "category": 2,
     "args": [
@@ -3132,8 +3244,7 @@
     "category": 3,
     "args": [
       "0038",
-      "se_adv_transition_01",
-      "180"
+      "se_adv_transition_01"
     ],
     "number": 54
   },
@@ -3241,11 +3352,19 @@
     "number": 24
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_cloth_move_hard_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
       "妮諾",
-      "噠噠噠！"
+      "登登登登登！"
     ],
     "number": 6
   },
@@ -3431,7 +3550,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "前來領教！"
+      "親自領教吧！"
     ],
     "number": 6
   },
@@ -3450,50 +3569,20 @@
     "number": 41
   },
   {
-    "command": "fadeout",
-    "category": 2,
-    "args": [
-      "103011",
-      "30"
-    ],
-    "number": 19
-  },
-  {
-    "command": "effect",
-    "category": 3,
-    "args": [
-      "0038",
-      "se_adv_transition_01",
-      "180"
-    ],
-    "number": 54
-  },
-  {
-    "command": "wait",
+    "command": "change_window",
     "category": 1,
     "args": [
-      "15"
+      "3"
     ],
-    "number": 13
+    "number": 85
   },
   {
-    "command": "chara_full",
+    "command": "text_size",
     "category": 1,
     "args": [
-      "1611",
-      "C",
-      "1"
+      "50"
     ],
-    "number": 68
-  },
-  {
-    "command": "fadein",
-    "category": 2,
-    "args": [
-      "1611",
-      "30"
-    ],
-    "number": 18
+    "number": 36
   },
   {
     "command": "se",
@@ -3524,7 +3613,7 @@
     "category": 1,
     "args": [
       "1611",
-      "0"
+      "1"
     ],
     "number": 50
   },
@@ -3538,14 +3627,6 @@
     "number": 3
   },
   {
-    "command": "effect",
-    "category": 3,
-    "args": [
-      "9"
-    ],
-    "number": 54
-  },
-  {
     "command": "print",
     "category": 1,
     "args": [
@@ -3553,12 +3634,6 @@
       "\u2500\u2500咕喔喔喔喔喔！"
     ],
     "number": 6
-  },
-  {
-    "command": "shake_screen",
-    "category": 1,
-    "args": [],
-    "number": 37
   },
   {
     "command": "touch",
@@ -3575,49 +3650,20 @@
     "number": 41
   },
   {
-    "command": "fadeout",
-    "category": 2,
-    "args": [
-      "1611",
-      "30"
-    ],
-    "number": 19
-  },
-  {
-    "command": "effect",
-    "category": 3,
-    "args": [
-      "0038",
-      "se_adv_transition_01"
-    ],
-    "number": 54
-  },
-  {
-    "command": "wait",
+    "command": "change_window",
     "category": 1,
     "args": [
-      "15"
+      "1"
     ],
-    "number": 13
+    "number": 85
   },
   {
-    "command": "chara_full",
+    "command": "text_size",
     "category": 1,
     "args": [
-      "103011",
-      "C",
-      "3"
+      "23"
     ],
-    "number": 68
-  },
-  {
-    "command": "fadein",
-    "category": 2,
-    "args": [
-      "103011",
-      "30"
-    ],
-    "number": 18
+    "number": 36
   },
   {
     "command": "window_visible",
@@ -3762,20 +3808,20 @@
     "number": 41
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_blanket_move_02"
+    ],
+    "number": 26
+  },
+  {
     "command": "effect",
     "category": 3,
     "args": [
       "0009"
     ],
     "number": 54
-  },
-  {
-    "command": "se",
-    "category": 1,
-    "args": [
-      "se_adv_step_concrete_move_01"
-    ],
-    "number": 26
   },
   {
     "command": "scale",
@@ -3819,7 +3865,15 @@
     "command": "se",
     "category": 1,
     "args": [
-      "se_adv_weapon_sword_multi_hit_01"
+      "se_adv_weapon_punch_hit_02"
+    ],
+    "number": 26
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_syuriken_hit_01"
     ],
     "number": 26
   },
@@ -4326,12 +4380,30 @@
     "number": 10
   },
   {
+    "command": "amb_stop",
+    "category": 1,
+    "args": [
+      "2"
+    ],
+    "number": 61
+  },
+  {
     "command": "window_visible",
     "category": 1,
     "args": [
       "FALSE"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "2.3",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "fadeout",
@@ -4341,14 +4413,6 @@
       "30"
     ],
     "number": 19
-  },
-  {
-    "command": "amb_stop",
-    "category": 1,
-    "args": [
-      "1"
-    ],
-    "number": 61
   },
   {
     "command": "black_out",
@@ -4363,7 +4427,23 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "10"
+    ],
+    "number": 13
+  },
+  {
+    "command": "amb",
+    "category": 1,
+    "args": [
+      "amb_adv_cave_with_water_01"
+    ],
+    "number": 51
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "5"
     ],
     "number": 13
   },
@@ -4372,14 +4452,6 @@
     "category": 1,
     "args": [],
     "number": 28
-  },
-  {
-    "command": "amb",
-    "category": 1,
-    "args": [
-      "amb_adv_forest_01"
-    ],
-    "number": 51
   },
   {
     "command": "chara_full",
@@ -4566,6 +4638,14 @@
     "number": 41
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_cloth_move_normal_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
@@ -4634,11 +4714,19 @@
     "number": 3
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M140_NoBell"
+    ],
+    "number": 9
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
       "妮諾",
-      "這隻是最後逼隻了吧！"
+      "這隻是最後一隻了吧！"
     ],
     "number": 6
   },
@@ -4744,6 +4832,14 @@
     "number": 10
   },
   {
+    "command": "se_effect",
+    "category": 1,
+    "args": [
+      "0"
+    ],
+    "number": 91
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
@@ -4786,11 +4882,19 @@
     "number": 25
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_bag_search_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
       "妮諾",
-      "東翻"
+      "東翻西找、"
     ],
     "number": 6
   },
@@ -4807,7 +4911,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "西找\u2026\u2026"
+      "東翻西找\u2026\u2026"
     ],
     "number": 6
   },
@@ -5033,7 +5137,7 @@
     "category": 1,
     "args": [
       "103011",
-      "6"
+      "4"
     ],
     "number": 3
   },
@@ -5076,25 +5180,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "\n"
-    ],
-    "number": 6
-  },
-  {
-    "command": "face",
-    "category": 1,
-    "args": [
-      "103011",
-      "4"
-    ],
-    "number": 3
-  },
-  {
-    "command": "print",
-    "category": 1,
-    "args": [
-      "妮諾",
-      "但敵人的"
+      "\n但敵人的"
     ],
     "number": 6
   },
@@ -5162,7 +5248,7 @@
     "category": 1,
     "args": [
       "103011",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -5213,6 +5299,15 @@
       "0"
     ],
     "number": 89
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "2"
+    ],
+    "number": 9
   },
   {
     "command": "fadeout",
@@ -5282,7 +5377,7 @@
     "command": "amb",
     "category": 1,
     "args": [
-      "amb_adv_town_day_01"
+      "amb_adv_wind_01"
     ],
     "number": 51
   },
@@ -5321,6 +5416,17 @@
       "TRUE"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M20",
+      "0",
+      "0",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -5487,7 +5593,7 @@
     "category": 1,
     "args": [
       "103011",
-      "LC",
+      "RC",
       "2"
     ],
     "number": 68
@@ -5513,7 +5619,7 @@
     "category": 2,
     "args": [
       "C",
-      "LC",
+      "RC",
       "45"
     ],
     "number": 44
@@ -5576,6 +5682,14 @@
       "103011"
     ],
     "number": 24
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_cloth_move_hard_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -5682,7 +5796,7 @@
     "command": "choice",
     "category": 1,
     "args": [
-      "妮諾非常活躍呢。",
+      "妮諾大展身手了呢。",
       "4"
     ],
     "number": 11
@@ -5870,6 +5984,14 @@
     "number": 25
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_cloth_move_give_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -6023,7 +6145,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "就算是告一段落了吧！"
+      "就算是告一段落了是也！"
     ],
     "number": 6
   },
@@ -6058,7 +6180,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "各位，"
+      "來吧，"
     ],
     "number": 6
   },
@@ -6075,7 +6197,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "快點！"
+      "各位！"
     ],
     "number": 6
   },
@@ -6109,7 +6231,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "去參加宴會吧！"
+      "來辦慶祝的宴會吧！"
     ],
     "number": 6
   },
@@ -6129,12 +6251,54 @@
     "number": 3
   },
   {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "false"
+    ],
+    "number": 41
+  },
+  {
+    "command": "change_window",
+    "category": 1,
+    "args": [
+      "3"
+    ],
+    "number": 85
+  },
+  {
+    "command": "text_size",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 36
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "true"
+    ],
+    "number": 41
+  },
+  {
     "command": "se",
     "category": 1,
     "args": [
-      "se_adv_creature_cmn_03"
+      "se_adv_creature_cmn_01"
     ],
     "number": 26
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "1.7",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -6149,7 +6313,7 @@
     "category": 1,
     "args": [
       "1611",
-      "0"
+      "1"
     ],
     "number": 50
   },
@@ -6166,7 +6330,7 @@
     "command": "print",
     "category": 1,
     "args": [
-      "魔物的咆哮聲",
+      "？？？",
       "\u2500\u2500咕喔喔喔喔喔！"
     ],
     "number": 6
@@ -6176,6 +6340,38 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "false"
+    ],
+    "number": 41
+  },
+  {
+    "command": "change_window",
+    "category": 1,
+    "args": [
+      "1"
+    ],
+    "number": 85
+  },
+  {
+    "command": "text_size",
+    "category": 1,
+    "args": [
+      "23"
+    ],
+    "number": 36
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "true"
+    ],
+    "number": 41
   },
   {
     "command": "focus",
@@ -6215,10 +6411,10 @@
     "command": "emotion",
     "category": 3,
     "args": [
-      "notice1_L",
+      "exclamation1_R",
       "103011",
-      "-83",
-      "527",
+      "10",
+      "650",
       "se_adv_emote_common_01"
     ],
     "number": 59
@@ -6239,6 +6435,14 @@
       "35"
     ],
     "number": 13
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M21"
+    ],
+    "number": 9
   },
   {
     "command": "print",
@@ -6407,7 +6611,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "45"
     ],
     "number": 13
   },
@@ -6424,7 +6628,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "20"
     ],
     "number": 13
   },
@@ -6490,7 +6694,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "20"
     ],
     "number": 13
   },
@@ -6507,7 +6711,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "35"
     ],
     "number": 13
   },
@@ -6524,7 +6728,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "40"
     ],
     "number": 13
   },
@@ -6643,7 +6847,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "它好像很生氣！"
+      "它好像很生氣是也！"
     ],
     "number": 6
   },
@@ -6712,7 +6916,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "肆虐\u2026\u2026"
+      "肆虐是也\u2026\u2026"
     ],
     "number": 6
   },
@@ -6761,7 +6965,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "我們現在已經是"
+      "現在正可謂"
     ],
     "number": 6
   },
@@ -6778,7 +6982,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "騎虎難下了！"
+      "騎虎難下！"
     ],
     "number": 6
   },
@@ -6795,25 +6999,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "\n"
-    ],
-    "number": 6
-  },
-  {
-    "command": "face",
-    "category": 1,
-    "args": [
-      "103011",
-      "1"
-    ],
-    "number": 3
-  },
-  {
-    "command": "print",
-    "category": 1,
-    "args": [
-      "妮諾",
-      "我們兩個"
+      "\n得由我們來"
     ],
     "number": 6
   },
@@ -6830,7 +7016,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "會想辦法的！"
+      "想個辦法了！"
     ],
     "number": 6
   },
@@ -6940,7 +7126,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "10"
     ],
     "number": 13
   },
@@ -7006,7 +7192,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "20"
     ],
     "number": 13
   },
@@ -7015,7 +7201,7 @@
     "category": 1,
     "args": [
       "少年1",
-      "\n即便是一大堆成人湊在一起也打不贏魔物的頭目\u2026\u2026"
+      "\n即便一大群成年人也打不贏魔物的頭目\u2026\u2026"
     ],
     "number": 6
   },
@@ -7023,7 +7209,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "95"
     ],
     "number": 13
   },
@@ -7050,7 +7236,7 @@
     "category": 1,
     "args": [
       "少年1",
-      "所以光憑妳和將軍兩個人\u2026\u2026"
+      "怎麼可能光憑妳和將軍兩個人\u2026\u2026"
     ],
     "number": 6
   },
@@ -7107,7 +7293,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "30"
     ],
     "number": 13
   },
@@ -7124,7 +7310,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "70"
     ],
     "number": 13
   },
@@ -7181,28 +7367,19 @@
     "category": 1,
     "args": [
       "103011",
-      "LC",
+      "C",
       "3"
     ],
     "number": 68
   },
   {
-    "command": "chara_full",
-    "category": 1,
+    "command": "fadein",
+    "category": 2,
     "args": [
-      "111",
-      "RC",
-      "4"
-    ],
-    "number": 68
-  },
-  {
-    "command": "fadein_all",
-    "category": 1,
-    "args": [
+      "103011",
       "30"
     ],
-    "number": 84
+    "number": 18
   },
   {
     "command": "window_visible",
@@ -7310,7 +7487,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "忍氣吞聲！"
+      "忍氣吞聲是也！"
     ],
     "number": 6
   },
@@ -7319,6 +7496,59 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "FALSE"
+    ],
+    "number": 41
+  },
+  {
+    "command": "fadeout",
+    "category": 2,
+    "args": [
+      "103011",
+      "30"
+    ],
+    "number": 19
+  },
+  {
+    "command": "chara_full",
+    "category": 1,
+    "args": [
+      "111",
+      "LC",
+      "4"
+    ],
+    "number": 68
+  },
+  {
+    "command": "chara_full",
+    "category": 1,
+    "args": [
+      "416",
+      "RC",
+      "6"
+    ],
+    "number": 68
+  },
+  {
+    "command": "fadein_all",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 84
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "TRUE"
+    ],
+    "number": 41
   },
   {
     "command": "focus",
@@ -7367,7 +7597,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "25"
     ],
     "number": 13
   },
@@ -7384,7 +7614,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "45"
     ],
     "number": 13
   },
@@ -7450,7 +7680,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "30"
     ],
     "number": 13
   },
@@ -7467,7 +7697,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "45"
     ],
     "number": 13
   },
@@ -7503,50 +7733,6 @@
     "category": 1,
     "args": [],
     "number": 10
-  },
-  {
-    "command": "window_visible",
-    "category": 1,
-    "args": [
-      "FALSE"
-    ],
-    "number": 41
-  },
-  {
-    "command": "fadeout",
-    "category": 2,
-    "args": [
-      "111",
-      "30"
-    ],
-    "number": 19
-  },
-  {
-    "command": "chara_full",
-    "category": 1,
-    "args": [
-      "416",
-      "RC",
-      "4"
-    ],
-    "number": 68
-  },
-  {
-    "command": "fadein",
-    "category": 2,
-    "args": [
-      "416",
-      "30"
-    ],
-    "number": 18
-  },
-  {
-    "command": "window_visible",
-    "category": 1,
-    "args": [
-      "TRUE"
-    ],
-    "number": 41
   },
   {
     "command": "focus",
@@ -7595,7 +7781,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "35"
     ],
     "number": 13
   },
@@ -7612,7 +7798,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "65"
     ],
     "number": 13
   },
@@ -7647,7 +7833,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "45"
     ],
     "number": 13
   },
@@ -7665,6 +7851,49 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "FALSE"
+    ],
+    "number": 41
+  },
+  {
+    "command": "fadeout_all",
+    "category": 2,
+    "args": [
+      "30"
+    ],
+    "number": 45
+  },
+  {
+    "command": "chara_full",
+    "category": 1,
+    "args": [
+      "103011",
+      "C",
+      "3"
+    ],
+    "number": 68
+  },
+  {
+    "command": "fadein",
+    "category": 2,
+    "args": [
+      "103011",
+      "30"
+    ],
+    "number": 18
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "TRUE"
+    ],
+    "number": 41
   },
   {
     "command": "focus",
@@ -7713,7 +7942,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "\u2026\u2026慢著。"
+      "\u2026\u2026且慢。"
     ],
     "number": 6
   },
@@ -7738,7 +7967,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "事情沒這麼簡單！"
+      "事情不能就這麼算了！"
     ],
     "number": 6
   },
@@ -7755,7 +7984,25 @@
     "category": 1,
     "args": [
       "妮諾",
-      "\n我們"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "7"
+    ],
+    "number": 9
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "妮諾",
+      "我們"
     ],
     "number": 6
   },
@@ -7800,6 +8047,17 @@
     "number": 10
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M388",
+      "0",
+      "0",
+      "1"
+    ],
+    "number": 9
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
@@ -7838,7 +8096,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "統一天下，"
+      "讓所有人"
     ],
     "number": 6
   },
@@ -7855,7 +8113,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "讓所有人"
+      "不再"
     ],
     "number": 6
   },
@@ -7872,7 +8130,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "不再擔憂不安"
+      "擔憂不安"
     ],
     "number": 6
   },
@@ -7889,7 +8147,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "\n是將軍的"
+      "\n並統一天下"
     ],
     "number": 6
   },
@@ -7906,7 +8164,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "職責。"
+      "是將軍的職責是也。"
     ],
     "number": 6
   },
@@ -7915,49 +8173,6 @@
     "category": 1,
     "args": [],
     "number": 10
-  },
-  {
-    "command": "window_visible",
-    "category": 1,
-    "args": [
-      "FALSE"
-    ],
-    "number": 41
-  },
-  {
-    "command": "fadeout_all",
-    "category": 2,
-    "args": [
-      "30"
-    ],
-    "number": 45
-  },
-  {
-    "command": "chara_full",
-    "category": 1,
-    "args": [
-      "103011",
-      "C",
-      "1"
-    ],
-    "number": 68
-  },
-  {
-    "command": "fadein",
-    "category": 2,
-    "args": [
-      "103011",
-      "30"
-    ],
-    "number": 18
-  },
-  {
-    "command": "window_visible",
-    "category": 1,
-    "args": [
-      "TRUE"
-    ],
-    "number": 41
   },
   {
     "command": "focus",
@@ -8065,7 +8280,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "家臣的工作。"
+      "家臣的工作是也。"
     ],
     "number": 6
   },
@@ -8165,7 +8380,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "\n我一定要去"
+      "\n我一定要去/35擊敗"
     ],
     "number": 6
   },
@@ -8182,24 +8397,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "擊敗"
-    ],
-    "number": 6
-  },
-  {
-    "command": "wait",
-    "category": 1,
-    "args": [
-      "35"
-    ],
-    "number": 13
-  },
-  {
-    "command": "print",
-    "category": 1,
-    "args": [
-      "妮諾",
-      "魔物的頭目的！"
+      "魔物的頭目！"
     ],
     "number": 6
   },
@@ -8351,7 +8549,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "迎接我們回來！"
+      "迎接我們回來是也！"
     ],
     "number": 6
   },
@@ -8417,7 +8615,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "知道了！"
+      "謹遵吩咐是也！"
     ],
     "number": 6
   },
@@ -8460,7 +8658,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "忍忍是也！"
+      "忍忍！"
     ],
     "number": 6
   },
@@ -8511,7 +8709,7 @@
     "args": [
       "111",
       "C",
-      "6"
+      "3"
     ],
     "number": 68
   },
@@ -8562,7 +8760,7 @@
     "category": 1,
     "args": [
       "111",
-      "6"
+      "3"
     ],
     "number": 3
   },
@@ -8579,7 +8777,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "25"
     ],
     "number": 13
   },
@@ -8596,7 +8794,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "20"
     ],
     "number": 13
   },
@@ -8622,6 +8820,16 @@
       "FALSE"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "2",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "fadeout",
@@ -8688,28 +8896,36 @@
     "number": 75
   },
   {
-    "command": "amb",
+    "command": "se",
     "category": 1,
     "args": [
-      "amb_adv_town_day_01"
+      "amb_adv_cave_with_water_01"
     ],
-    "number": 51
+    "number": 26
   },
   {
     "command": "chara_full",
     "category": 1,
     "args": [
-      "1611",
+      "1614",
       "C",
       "1"
     ],
     "number": 68
   },
   {
+    "command": "se_effect",
+    "category": 1,
+    "args": [
+      "3"
+    ],
+    "number": 91
+  },
+  {
     "command": "fadein",
     "category": 2,
     "args": [
-      "1611",
+      "1614",
       "30"
     ],
     "number": 18
@@ -8718,7 +8934,7 @@
     "command": "se",
     "category": 1,
     "args": [
-      "se_adv_creature_cmn_01"
+      "se_adv_creature_cmn_03"
     ],
     "number": 26
   },
@@ -8731,10 +8947,18 @@
     "number": 41
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M102"
+    ],
+    "number": 9
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
-      "1611"
+      "1614"
     ],
     "number": 4
   },
@@ -8742,7 +8966,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "1611",
+      "1614",
       "0"
     ],
     "number": 50
@@ -8751,7 +8975,7 @@
     "command": "face",
     "category": 1,
     "args": [
-      "1611",
+      "1614",
       "1"
     ],
     "number": 3
@@ -8783,7 +9007,7 @@
     "command": "fadeout",
     "category": 2,
     "args": [
-      "1611",
+      "1614",
       "30"
     ],
     "number": 19
@@ -8792,7 +9016,7 @@
     "command": "effect",
     "category": 3,
     "args": [
-      "0038",
+      "0039",
       "se_adv_transition_01"
     ],
     "number": 54
@@ -9195,20 +9419,20 @@
     "number": 41
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_blanket_move_02"
+    ],
+    "number": 26
+  },
+  {
     "command": "effect",
     "category": 3,
     "args": [
       "0009"
     ],
     "number": 54
-  },
-  {
-    "command": "se",
-    "category": 1,
-    "args": [
-      "se_adv_step_concrete_move_01"
-    ],
-    "number": 26
   },
   {
     "command": "scale",
@@ -9284,7 +9508,7 @@
     "command": "chara_full",
     "category": 1,
     "args": [
-      "1611",
+      "1614",
       "C",
       "1"
     ],
@@ -9294,10 +9518,26 @@
     "command": "fadein",
     "category": 2,
     "args": [
-      "1611",
+      "1614",
       "30"
     ],
     "number": 18
+  },
+  {
+    "command": "change_window",
+    "category": 1,
+    "args": [
+      "3"
+    ],
+    "number": 85
+  },
+  {
+    "command": "text_size",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 36
   },
   {
     "command": "se",
@@ -9319,7 +9559,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "1611"
+      "1614"
     ],
     "number": 4
   },
@@ -9327,7 +9567,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "1611",
+      "1614",
       "0"
     ],
     "number": 50
@@ -9336,7 +9576,7 @@
     "command": "face",
     "category": 1,
     "args": [
-      "1611",
+      "1614",
       "1"
     ],
     "number": 3
@@ -9371,10 +9611,26 @@
     "number": 41
   },
   {
+    "command": "change_window",
+    "category": 1,
+    "args": [
+      "1"
+    ],
+    "number": 85
+  },
+  {
+    "command": "text_size",
+    "category": 1,
+    "args": [
+      "23"
+    ],
+    "number": 36
+  },
+  {
     "command": "fadeout",
     "category": 2,
     "args": [
-      "1611",
+      "1614",
       "30"
     ],
     "number": 19
@@ -9383,7 +9639,7 @@
     "command": "effect",
     "category": 3,
     "args": [
-      "0038",
+      "0039",
       "se_adv_transition_01"
     ],
     "number": 54
@@ -9695,7 +9951,7 @@
     "command": "se",
     "category": 1,
     "args": [
-      "se_adv_step_concrete_move_01"
+      "se_adv_blanket_move_02"
     ],
     "number": 26
   },
@@ -9831,6 +10087,18 @@
     "number": 3
   },
   {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "exclamation1_R",
+      "103011",
+      "10",
+      "650",
+      "se_adv_emote_common_01"
+    ],
+    "number": 59
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -9869,7 +10137,25 @@
     "category": 1,
     "args": [
       "妮諾",
-      "\n接下來"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103011",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "妮諾",
+      "接下來"
     ],
     "number": 6
   },
@@ -9899,6 +10185,14 @@
     "number": 13
   },
   {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "False"
+    ],
+    "number": 56
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -9917,7 +10211,7 @@
     "command": "choice",
     "category": 1,
     "args": [
-      "剛才的疲憊感是不是澴沒消散？",
+      "剛才戰鬥的疲憊還沒恢復吧？",
       "6"
     ],
     "number": 11
@@ -9965,6 +10259,14 @@
     "number": 3
   },
   {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "True"
+    ],
+    "number": 56
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -9999,11 +10301,20 @@
     "number": 13
   },
   {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103011",
+      "1"
+    ],
+    "number": 3
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
       "妮諾",
-      "沒什麼大不了的！"
+      "沒什麼大不了的是也！"
     ],
     "number": 6
   },
@@ -10054,7 +10365,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "但一樣是小菜一碟啦！\u3000"
+      "但一樣是小菜一碟！"
     ],
     "number": 6
   },
@@ -10067,11 +10378,20 @@
     "number": 13
   },
   {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103011",
+      "2"
+    ],
+    "number": 3
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
       "妮諾",
-      "不費吹灰之力！"
+      "不費吹灰之力是也！"
     ],
     "number": 6
   },
@@ -10171,7 +10491,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "\n這才是"
+      "\n這才稱得上是"
     ],
     "number": 6
   },
@@ -10188,7 +10508,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "武士道呀！！"
+      "尋求武士道之人是也！！"
     ],
     "number": 6
   },
@@ -10231,6 +10551,14 @@
       "3"
     ],
     "number": 3
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "103011"
+    ],
+    "number": 25
   },
   {
     "command": "print",
@@ -10288,7 +10616,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "我的覺悟！！"
+      "我的決心吧！！"
     ],
     "number": 6
   },
@@ -10319,9 +10647,8 @@
     "command": "effect",
     "category": 3,
     "args": [
-      "0038",
-      "se_adv_transition_01",
-      "180"
+      "0039",
+      "se_adv_transition_01"
     ],
     "number": 54
   },
@@ -10337,7 +10664,7 @@
     "command": "chara_full",
     "category": 1,
     "args": [
-      "1611",
+      "1614",
       "C",
       "1"
     ],
@@ -10347,10 +10674,26 @@
     "command": "fadein",
     "category": 2,
     "args": [
-      "1611",
+      "1614",
       "30"
     ],
     "number": 18
+  },
+  {
+    "command": "change_window",
+    "category": 1,
+    "args": [
+      "3"
+    ],
+    "number": 85
+  },
+  {
+    "command": "text_size",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 36
   },
   {
     "command": "se",
@@ -10372,7 +10715,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "1611"
+      "1614"
     ],
     "number": 4
   },
@@ -10380,7 +10723,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "1611",
+      "1614",
       "0"
     ],
     "number": 50
@@ -10389,7 +10732,7 @@
     "command": "face",
     "category": 1,
     "args": [
-      "1611",
+      "1614",
       "1"
     ],
     "number": 3
@@ -10424,6 +10767,22 @@
     "number": 41
   },
   {
+    "command": "change_window",
+    "category": 1,
+    "args": [
+      "1"
+    ],
+    "number": 85
+  },
+  {
+    "command": "text_size",
+    "category": 1,
+    "args": [
+      "23"
+    ],
+    "number": 36
+  },
+  {
     "command": "effect",
     "category": 3,
     "args": [
@@ -10443,7 +10802,7 @@
     "command": "scale",
     "category": 2,
     "args": [
-      "1611",
+      "1614",
       "1.2",
       "2",
       "10"
@@ -10454,7 +10813,7 @@
     "command": "fadeout",
     "category": 2,
     "args": [
-      "1611",
+      "1614",
       "10"
     ],
     "number": 19
@@ -10471,8 +10830,9 @@
     "command": "effect",
     "category": 3,
     "args": [
-      "0038",
-      "se_adv_transition_01"
+      "0039",
+      "se_adv_transition_01",
+      "180"
     ],
     "number": 54
   },
@@ -10589,6 +10949,18 @@
     "number": 3
   },
   {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "surprise1_L",
+      "103011",
+      "155",
+      "560",
+      "se_adv_emote_common_01"
+    ],
+    "number": 59
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -10646,6 +11018,15 @@
     "number": 41
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "2"
+    ],
+    "number": 9
+  },
+  {
     "command": "fadeout",
     "category": 2,
     "args": [
@@ -10658,18 +11039,50 @@
     "command": "se",
     "category": 1,
     "args": [
-      "se_adv_step_concrete_move_01"
+      "se_adv_move_fast_02"
     ],
     "number": 26
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_step_dirt_run_armor_go_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "effect",
+    "category": 3,
+    "args": [
+      "0009"
+    ],
+    "number": 54
   },
   {
     "command": "camera_zoom",
     "category": 1,
     "args": [
       "1.2",
-      "10"
+      "5"
     ],
     "number": 95
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "effect_delete",
+    "category": 3,
+    "args": [
+      "0009"
+    ],
+    "number": 55
   },
   {
     "command": "bg_color",
@@ -10694,7 +11107,7 @@
     "command": "se",
     "category": 1,
     "args": [
-      "se_adv_weapon_claw_hit_01"
+      "se_adv_weapon_claw_whiff_01"
     ],
     "number": 26
   },
@@ -10710,7 +11123,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "5"
     ],
     "number": 13
   },
@@ -10723,12 +11136,48 @@
     "number": 5
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_weapon_claw_hit_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "effect",
     "category": 3,
     "args": [
       "0079"
     ],
     "number": 54
+  },
+  {
+    "command": "shake_loop",
+    "category": 1,
+    "args": [],
+    "number": 76
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "shake_delete",
+    "category": 1,
+    "args": [],
+    "number": 77
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_knock_back_01"
+    ],
+    "number": 26
   },
   {
     "command": "wait",
@@ -10764,6 +11213,17 @@
       "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M132_Ver2",
+      "0",
+      "0",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -10904,7 +11364,7 @@
     "command": "effect",
     "category": 3,
     "args": [
-      "0038",
+      "0039",
       "se_adv_transition_01",
       "180"
     ],
@@ -10919,10 +11379,42 @@
     "number": 13
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_smokeball_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "effect",
+    "category": 3,
+    "args": [
+      "0024"
+    ],
+    "number": 54
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "effect",
+    "category": 3,
+    "args": [
+      "0013"
+    ],
+    "number": 54
+  },
+  {
     "command": "chara_full",
     "category": 1,
     "args": [
-      "1611",
+      "1614",
       "C",
       "1"
     ],
@@ -10932,42 +11424,10 @@
     "command": "fadein",
     "category": 2,
     "args": [
-      "1611",
+      "1614",
       "30"
     ],
     "number": 18
-  },
-  {
-    "command": "se",
-    "category": 1,
-    "args": [
-      "se_adv_explosion_small_01"
-    ],
-    "number": 26
-  },
-  {
-    "command": "effect",
-    "category": 3,
-    "args": [
-      "0010"
-    ],
-    "number": 54
-  },
-  {
-    "command": "wait",
-    "category": 1,
-    "args": [
-      "15"
-    ],
-    "number": 13
-  },
-  {
-    "command": "effect",
-    "category": 3,
-    "args": [
-      "0014"
-    ],
-    "number": 54
   },
   {
     "command": "se",
@@ -10989,7 +11449,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "1611"
+      "1614"
     ],
     "number": 4
   },
@@ -10997,7 +11457,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "1611",
+      "1614",
       "0"
     ],
     "number": 50
@@ -11006,7 +11466,7 @@
     "command": "face",
     "category": 1,
     "args": [
-      "1611",
+      "1614",
       "1"
     ],
     "number": 3
@@ -11024,7 +11484,7 @@
     "command": "sway",
     "category": 2,
     "args": [
-      "1611"
+      "1614"
     ],
     "number": 69
   },
@@ -11046,7 +11506,7 @@
     "command": "effect_delete",
     "category": 3,
     "args": [
-      "0014",
+      "0013",
       "15"
     ],
     "number": 55
@@ -11055,7 +11515,7 @@
     "command": "fadeout",
     "category": 2,
     "args": [
-      "1611",
+      "1614",
       "30"
     ],
     "number": 19
@@ -11064,7 +11524,7 @@
     "command": "effect",
     "category": 3,
     "args": [
-      "0038",
+      "0039",
       "se_adv_transition_01"
     ],
     "number": 54
@@ -11160,7 +11620,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "和文字燒預拌粉製作而成特製煙霧彈！"
+      "和文字燒預拌粉製作而成特製煙霧彈是也！"
     ],
     "number": 6
   },
@@ -11252,7 +11712,7 @@
     "category": 1,
     "args": [
       "103011",
-      "6"
+      "4"
     ],
     "number": 3
   },
@@ -11278,25 +11738,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "\n"
-    ],
-    "number": 6
-  },
-  {
-    "command": "face",
-    "category": 1,
-    "args": [
-      "103011",
-      "4"
-    ],
-    "number": 3
-  },
-  {
-    "command": "print",
-    "category": 1,
-    "args": [
-      "妮諾",
-      "為什麼\u2026\u2026"
+      "\n為什麼\u2026\u2026"
     ],
     "number": 6
   },
@@ -11474,6 +11916,16 @@
     "number": 10
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "2",
+      "1"
+    ],
+    "number": 9
+  },
+  {
     "command": "choice",
     "category": 1,
     "args": [
@@ -11584,7 +12036,24 @@
     "category": 1,
     "args": [
       "妮諾",
-      "\n原來"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M225"
+    ],
+    "number": 9
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "妮諾",
+      "原來"
     ],
     "number": 6
   },
@@ -11743,7 +12212,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "就要讓將軍傷心難過了！"
+      "就要讓將軍傷心難過了是也！"
     ],
     "number": 6
   },
@@ -11783,7 +12252,7 @@
     "category": 1,
     "args": [
       "103011",
-      "3"
+      "6"
     ],
     "number": 3
   },
@@ -11914,6 +12383,14 @@
       "30"
     ],
     "number": 13
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M225"
+    ],
+    "number": 9
   },
   {
     "command": "print",
@@ -12138,7 +12615,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "就不是將軍心目中的"
+      "就不是將軍心目中的太平盛世了，"
     ],
     "number": 6
   },
@@ -12155,7 +12632,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "\n太平盛世"
+      "\n將軍是"
     ],
     "number": 6
   },
@@ -12172,7 +12649,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "了。"
+      "想告訴我這點嗎？"
     ],
     "number": 6
   },
@@ -12307,7 +12784,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "正是擔任將軍的特質！"
+      "正是擔任將軍的特質是也！"
     ],
     "number": 6
   },
@@ -12390,7 +12867,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "最適合統一天下的人選！！"
+      "最適合統一天下的人選是也！！"
     ],
     "number": 6
   },
@@ -12495,6 +12972,14 @@
     "number": 25
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_step_dirt_move_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -12533,7 +13018,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "沒事了！"
+      "沒問題了！"
     ],
     "number": 6
   },
@@ -12584,7 +13069,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "讓將軍傷心難過的事的！！"
+      "讓將軍傷心難過的事是也！！"
     ],
     "number": 6
   },
@@ -12603,6 +13088,15 @@
     "number": 41
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "2.5"
+    ],
+    "number": 9
+  },
+  {
     "command": "fadeout",
     "category": 2,
     "args": [
@@ -12615,7 +13109,7 @@
     "command": "effect",
     "category": 3,
     "args": [
-      "0038",
+      "0039",
       "se_adv_transition_01",
       "180"
     ],
@@ -12633,7 +13127,7 @@
     "command": "chara_full",
     "category": 1,
     "args": [
-      "1611",
+      "1614",
       "C",
       "1"
     ],
@@ -12643,10 +13137,26 @@
     "command": "fadein",
     "category": 2,
     "args": [
-      "1611",
+      "1614",
       "30"
     ],
     "number": 18
+  },
+  {
+    "command": "change_window",
+    "category": 1,
+    "args": [
+      "3"
+    ],
+    "number": 85
+  },
+  {
+    "command": "text_size",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 36
   },
   {
     "command": "se",
@@ -12665,10 +13175,21 @@
     "number": 41
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M42_02",
+      "0",
+      "0",
+      "1"
+    ],
+    "number": 9
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
-      "1611"
+      "1614"
     ],
     "number": 4
   },
@@ -12676,7 +13197,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "1611",
+      "1614",
       "0"
     ],
     "number": 50
@@ -12685,7 +13206,7 @@
     "command": "face",
     "category": 1,
     "args": [
-      "1611",
+      "1614",
       "1"
     ],
     "number": 3
@@ -12720,10 +13241,26 @@
     "number": 41
   },
   {
+    "command": "change_window",
+    "category": 1,
+    "args": [
+      "1"
+    ],
+    "number": 85
+  },
+  {
+    "command": "text_size",
+    "category": 1,
+    "args": [
+      "23"
+    ],
+    "number": 36
+  },
+  {
     "command": "fadeout",
     "category": 2,
     "args": [
-      "1611",
+      "1614",
       "30"
     ],
     "number": 19
@@ -12732,7 +13269,7 @@
     "command": "effect",
     "category": 3,
     "args": [
-      "0038",
+      "0039",
       "se_adv_transition_01"
     ],
     "number": 54
@@ -12839,6 +13376,14 @@
     "number": 10
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_earthquake_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "window_visible",
     "category": 1,
     "args": [
@@ -12857,14 +13402,6 @@
       "se_adv_emote_common_01"
     ],
     "number": 59
-  },
-  {
-    "command": "se",
-    "category": 1,
-    "args": [
-      "se_adv_earthquake_01"
-    ],
-    "number": 26
   },
   {
     "command": "shake_loop",
@@ -12998,7 +13535,7 @@
     "command": "effect",
     "category": 3,
     "args": [
-      "0038",
+      "0039",
       "se_adv_transition_01",
       "180"
     ],
@@ -13043,18 +13580,77 @@
     "number": 68
   },
   {
-    "command": "fadein_all",
+    "command": "se",
     "category": 1,
     "args": [
+      "se_adv_creature_cmn_group_02"
+    ],
+    "number": 26
+  },
+  {
+    "command": "fadein",
+    "category": 2,
+    "args": [
+      "1611",
       "30"
     ],
-    "number": 84
+    "number": 18
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "fadein",
+    "category": 2,
+    "args": [
+      "1612",
+      "30"
+    ],
+    "number": 18
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "fadein",
+    "category": 2,
+    "args": [
+      "1613",
+      "30"
+    ],
+    "number": 18
+  },
+  {
+    "command": "focus",
+    "category": 1,
+    "args": [
+      "1611:1612:1613"
+    ],
+    "number": 4
+  },
+  {
+    "command": "change_window",
+    "category": 1,
+    "args": [
+      "3"
+    ],
+    "number": 85
   },
   {
     "command": "se",
     "category": 1,
     "args": [
-      "se_adv_creature_cmn_group_02"
+      "se_adv_creature_cmn_05"
     ],
     "number": 26
   },
@@ -13067,18 +13663,10 @@
     "number": 41
   },
   {
-    "command": "focus",
-    "category": 1,
-    "args": [
-      "0"
-    ],
-    "number": 4
-  },
-  {
     "command": "bust",
     "category": 1,
     "args": [
-      "0",
+      "1611",
       "0"
     ],
     "number": 50
@@ -13087,7 +13675,7 @@
     "command": "face",
     "category": 1,
     "args": [
-      "0",
+      "1611",
       "1"
     ],
     "number": 3
@@ -13116,6 +13704,14 @@
     "number": 41
   },
   {
+    "command": "change_window",
+    "category": 1,
+    "args": [
+      "1"
+    ],
+    "number": 85
+  },
+  {
     "command": "fadeout_all",
     "category": 2,
     "args": [
@@ -13127,7 +13723,7 @@
     "command": "effect",
     "category": 3,
     "args": [
-      "0038",
+      "0039",
       "se_adv_transition_01"
     ],
     "number": 54
@@ -13336,25 +13932,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "\n"
-    ],
-    "number": 6
-  },
-  {
-    "command": "face",
-    "category": 1,
-    "args": [
-      "103011",
-      "4"
-    ],
-    "number": 3
-  },
-  {
-    "command": "print",
-    "category": 1,
-    "args": [
-      "妮諾",
-      "居然還有這麼多餘黨，"
+      "\n居然還有這麼多餘黨，"
     ],
     "number": 6
   },
@@ -13388,7 +13966,25 @@
     "category": 1,
     "args": [
       "妮諾",
-      "\n簡直就是"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "103011",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "妮諾",
+      "簡直就是"
     ],
     "number": 6
   },
@@ -13405,7 +14001,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "加賀百萬石！"
+      "加賀百萬石是也！"
     ],
     "number": 6
   },
@@ -13505,7 +14101,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "全面對決！"
+      "全面對決是也！"
     ],
     "number": 6
   },
@@ -13522,7 +14118,26 @@
     "category": 1,
     "args": [
       "妮諾",
-      "\n雖然我們寡不敵眾，"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "6",
+      "1"
+    ],
+    "number": 9
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "妮諾",
+      "雖然我們寡不敵眾，"
     ],
     "number": 6
   },
@@ -13539,7 +14154,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "但我們"
+      "但我"
     ],
     "number": 6
   },
@@ -13565,6 +14180,14 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M297"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -13609,19 +14232,19 @@
     "number": 54
   },
   {
-    "command": "nod",
-    "category": 2,
+    "command": "se",
+    "category": 1,
     "args": [
-      "103011"
+      "se_adv_mie_01"
     ],
-    "number": 25
+    "number": 26
   },
   {
     "command": "print",
     "category": 1,
     "args": [
       "妮諾",
-      "嘿，我乃"
+      "本人在此，"
     ],
     "number": 6
   },
@@ -13638,7 +14261,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "妮諾是也！"
+      "名號妮諾是也！"
     ],
     "number": 6
   },
@@ -13673,7 +14296,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "是個憧憬東方國度，"
+      "是為憧憬東方國度，"
     ],
     "number": 6
   },
@@ -13690,7 +14313,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "立誓要與將軍"
+      "立誓與將軍"
     ],
     "number": 6
   },
@@ -13707,7 +14330,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "攜手統一天下的人！"
+      "攜手統一天下之人！"
     ],
     "number": 6
   },
@@ -13756,7 +14379,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "斬除所有令人傷心難過的存在"
+      "我的原則是要"
     ],
     "number": 6
   },
@@ -13773,7 +14396,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "是我的原則！"
+      "斬除所有令人傷心的存在！"
     ],
     "number": 6
   },
@@ -13859,7 +14482,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "太平盛世！"
+      "太平盛世是也！"
     ],
     "number": 6
   },
@@ -13890,7 +14513,7 @@
     "command": "effect",
     "category": 3,
     "args": [
-      "0038",
+      "0039",
       "se_adv_transition_01",
       "180"
     ],
@@ -13908,7 +14531,7 @@
     "command": "chara_full",
     "category": 1,
     "args": [
-      "1611",
+      "1614",
       "C",
       "1"
     ],
@@ -13918,10 +14541,26 @@
     "command": "fadein",
     "category": 2,
     "args": [
-      "1611",
+      "1614",
       "30"
     ],
     "number": 18
+  },
+  {
+    "command": "change_window",
+    "category": 1,
+    "args": [
+      "3"
+    ],
+    "number": 85
+  },
+  {
+    "command": "text_size",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 36
   },
   {
     "command": "se",
@@ -13943,7 +14582,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "1611"
+      "1614"
     ],
     "number": 4
   },
@@ -13951,7 +14590,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "1611",
+      "1614",
       "0"
     ],
     "number": 50
@@ -13960,10 +14599,18 @@
     "command": "face",
     "category": 1,
     "args": [
-      "1611",
+      "1614",
       "1"
     ],
     "number": 3
+  },
+  {
+    "command": "effect",
+    "category": 3,
+    "args": [
+      "9"
+    ],
+    "number": 54
   },
   {
     "command": "print",
@@ -13975,10 +14622,32 @@
     "number": 6
   },
   {
+    "command": "shake_screen",
+    "category": 1,
+    "args": [],
+    "number": 37
+  },
+  {
     "command": "touch",
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "false"
+    ],
+    "number": 41
+  },
+  {
+    "command": "text_size",
+    "category": 1,
+    "args": [
+      "23"
+    ],
+    "number": 36
   },
   {
     "command": "se",
@@ -13987,6 +14656,14 @@
       "se_adv_creature_cmn_group_02"
     ],
     "number": 26
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "true"
+    ],
+    "number": 41
   },
   {
     "command": "focus",
@@ -14038,10 +14715,18 @@
     "number": 41
   },
   {
+    "command": "change_window",
+    "category": 1,
+    "args": [
+      "1"
+    ],
+    "number": 85
+  },
+  {
     "command": "fadeout",
     "category": 2,
     "args": [
-      "1611",
+      "1614",
       "30"
     ],
     "number": 19
@@ -14050,7 +14735,7 @@
     "command": "effect",
     "category": 3,
     "args": [
-      "0038",
+      "0039",
       "se_adv_transition_01"
     ],
     "number": 54
@@ -14129,7 +14814,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "交戰前自報家門的部分已經結束了！"
+      "交戰前自報家門的部分就到此為止！"
     ],
     "number": 6
   },
@@ -14181,7 +14866,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "就是冷酷無情的戰場了！"
+      "就是冷酷無情的戰場是也！"
     ],
     "number": 6
   },
@@ -14230,7 +14915,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "在這裡遇見我，"
+      "遇上我恐怕是你"
     ],
     "number": 6
   },
@@ -14247,7 +14932,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "恐怕是你氣數已盡，"
+      "氣數已盡，"
     ],
     "number": 6
   },
@@ -14264,7 +14949,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "看我將徘徊人間的惡鬼消滅殆盡！！"
+      "且看我消滅徘徊人間的惡鬼！！"
     ],
     "number": 6
   },
@@ -14334,20 +15019,20 @@
     "number": 41
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_blanket_move_02"
+    ],
+    "number": 26
+  },
+  {
     "command": "effect",
     "category": 3,
     "args": [
       "0009"
     ],
     "number": 54
-  },
-  {
-    "command": "se",
-    "category": 1,
-    "args": [
-      "se_adv_step_concrete_move_01"
-    ],
-    "number": 26
   },
   {
     "command": "scale",
@@ -14563,7 +15248,7 @@
     "command": "effect",
     "category": 3,
     "args": [
-      "0038",
+      "0039",
       "se_adv_transition_01"
     ],
     "number": 54
@@ -14730,6 +15415,14 @@
     "number": 19
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_body_jump_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "effect",
     "category": 3,
     "args": [
@@ -14738,21 +15431,21 @@
     "number": 54
   },
   {
-    "command": "se",
-    "category": 1,
-    "args": [
-      "se_adv_step_concrete_move_01"
-    ],
-    "number": 26
-  },
-  {
     "command": "camera_zoom",
     "category": 1,
     "args": [
       "1.2",
-      "10"
+      "5"
     ],
     "number": 95
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "10"
+    ],
+    "number": 13
   },
   {
     "command": "effect_delete",
@@ -14929,7 +15622,7 @@
     "command": "se",
     "category": 1,
     "args": [
-      "se_adv_bodyfall_01"
+      "se_adv_bodyfall_02"
     ],
     "number": 26
   },
@@ -14957,7 +15650,7 @@
     "command": "effect",
     "category": 3,
     "args": [
-      "0038",
+      "0039",
       "se_adv_transition_01"
     ],
     "number": 54
@@ -15346,12 +16039,78 @@
     "number": 10
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_creature_cmn_03"
+    ],
+    "number": 26
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "3"
+    ],
+    "number": 9
+  },
+  {
+    "command": "focus",
+    "category": 1,
+    "args": [
+      "1614"
+    ],
+    "number": 4
+  },
+  {
+    "command": "bust",
+    "category": 1,
+    "args": [
+      "1614",
+      "1"
+    ],
+    "number": 50
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "1614",
+      "1"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "魔物的老大",
+      "\u2500\u2500咕喔喔喔喔喔！"
+    ],
+    "number": 6
+  },
+  {
+    "command": "touch",
+    "category": 1,
+    "args": [],
+    "number": 10
+  },
+  {
     "command": "window_visible",
     "category": 1,
     "args": [
       "FALSE"
     ],
     "number": 41
+  },
+  {
+    "command": "focus",
+    "category": 1,
+    "args": [
+      "103011"
+    ],
+    "number": 4
   },
   {
     "command": "effect",
@@ -15365,7 +16124,7 @@
     "command": "se",
     "category": 1,
     "args": [
-      "se_adv_step_concrete_move_01"
+      "se_adv_blanket_move_02"
     ],
     "number": 26
   },
@@ -15398,12 +16157,28 @@
     "number": 55
   },
   {
+    "command": "bg_color",
+    "category": 1,
+    "args": [
+      "0",
+      "0",
+      "0"
+    ],
+    "number": 70
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_weapon_sword_hit_02"
+    ],
+    "number": 26
+  },
+  {
     "command": "effect",
     "category": 3,
     "args": [
-      "0038",
-      "se_adv_transition_01",
-      "180"
+      "0016"
     ],
     "number": 54
   },
@@ -15414,6 +16189,14 @@
       "15"
     ],
     "number": 13
+  },
+  {
+    "command": "background",
+    "category": 1,
+    "args": [
+      "500242"
+    ],
+    "number": 5
   },
   {
     "command": "chara_full",
@@ -15438,7 +16221,7 @@
     "command": "se",
     "category": 1,
     "args": [
-      "se_adv_creature_cmn_01"
+      "se_adv_creature_cmn_04"
     ],
     "number": 26
   },
@@ -15480,142 +16263,6 @@
     "command": "print",
     "category": 1,
     "args": [
-      "魔物的老大",
-      "\u2500\u2500咕喔喔喔喔喔！"
-    ],
-    "number": 6
-  },
-  {
-    "command": "touch",
-    "category": 1,
-    "args": [],
-    "number": 10
-  },
-  {
-    "command": "window_visible",
-    "category": 1,
-    "args": [
-      "FALSE"
-    ],
-    "number": 41
-  },
-  {
-    "command": "out_R",
-    "category": 2,
-    "args": [
-      "1611",
-      "30",
-      "true"
-    ],
-    "number": 17
-  },
-  {
-    "command": "bg_color",
-    "category": 1,
-    "args": [
-      "0",
-      "0",
-      "0"
-    ],
-    "number": 70
-  },
-  {
-    "command": "se",
-    "category": 1,
-    "args": [
-      "se_adv_weapon_sword_large_hit_01"
-    ],
-    "number": 26
-  },
-  {
-    "command": "effect",
-    "category": 3,
-    "args": [
-      "0016"
-    ],
-    "number": 54
-  },
-  {
-    "command": "wait",
-    "category": 1,
-    "args": [
-      "15"
-    ],
-    "number": 13
-  },
-  {
-    "command": "background",
-    "category": 1,
-    "args": [
-      "500242"
-    ],
-    "number": 5
-  },
-  {
-    "command": "chara_full",
-    "category": 1,
-    "args": [
-      "1614",
-      "C",
-      "1"
-    ],
-    "number": 68
-  },
-  {
-    "command": "fadein",
-    "category": 2,
-    "args": [
-      "1614",
-      "30"
-    ],
-    "number": 18
-  },
-  {
-    "command": "se",
-    "category": 1,
-    "args": [
-      "se_adv_creature_cmn_04"
-    ],
-    "number": 26
-  },
-  {
-    "command": "window_visible",
-    "category": 1,
-    "args": [
-      "TRUE"
-    ],
-    "number": 41
-  },
-  {
-    "command": "focus",
-    "category": 1,
-    "args": [
-      "1614"
-    ],
-    "number": 4
-  },
-  {
-    "command": "bust",
-    "category": 1,
-    "args": [
-      "1614",
-      "0"
-    ],
-    "number": 50
-  },
-  {
-    "command": "face",
-    "category": 1,
-    "args": [
-      "1614",
-      "1"
-    ],
-    "number": 3
-  },
-  {
-    "command": "print",
-    "category": 1,
-    "args": [
       "手下的魔物",
       "\u2500\u2500嘎喔喔喔喔喔！"
     ],
@@ -15625,7 +16272,7 @@
     "command": "sway",
     "category": 2,
     "args": [
-      "1614"
+      "1611"
     ],
     "number": 69
   },
@@ -15647,7 +16294,7 @@
     "command": "updown",
     "category": 2,
     "args": [
-      "1614",
+      "1611",
       "0",
       "-150",
       "0.2"
@@ -15658,7 +16305,7 @@
     "command": "fadeout",
     "category": 2,
     "args": [
-      "1614",
+      "1611",
       "30"
     ],
     "number": 19
@@ -15695,7 +16342,7 @@
     "command": "effect",
     "category": 3,
     "args": [
-      "0038",
+      "0039",
       "se_adv_transition_01"
     ],
     "number": 54
@@ -15734,6 +16381,17 @@
       "TRUE"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M124_NoIntro",
+      "0",
+      "0",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -15812,7 +16470,7 @@
     "category": 1,
     "args": [
       "103011",
-      "4"
+      "3"
     ],
     "number": 3
   },
@@ -16100,6 +16758,16 @@
     "number": 10
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "2",
+      "1"
+    ],
+    "number": 9
+  },
+  {
     "command": "choice",
     "category": 1,
     "args": [
@@ -16117,14 +16785,6 @@
     "number": 7
   },
   {
-    "command": "window_visible",
-    "category": 1,
-    "args": [
-      "false"
-    ],
-    "number": 41
-  },
-  {
     "command": "effect",
     "category": 3,
     "args": [
@@ -16134,12 +16794,12 @@
     "number": 54
   },
   {
-    "command": "window_visible",
+    "command": "bgm",
     "category": 1,
     "args": [
-      "true"
+      "bgm_M41"
     ],
-    "number": 41
+    "number": 9
   },
   {
     "command": "focus",
@@ -16251,6 +16911,14 @@
     "number": 19
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_burning_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "bg_color",
     "category": 1,
     "args": [
@@ -16264,7 +16932,7 @@
     "command": "se",
     "category": 1,
     "args": [
-      "se_adv_magic_fire_large_01"
+      "se_adv_fireworks_02"
     ],
     "number": 26
   },
@@ -16272,7 +16940,64 @@
     "command": "effect",
     "category": 3,
     "args": [
-      "0071"
+      "0071",
+      "0",
+      "180",
+      "C"
+    ],
+    "number": 54
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_fireworks_02"
+    ],
+    "number": 26
+  },
+  {
+    "command": "effect",
+    "category": 3,
+    "args": [
+      "0071",
+      "0",
+      "0",
+      "L"
+    ],
+    "number": 54
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_fireworks_02"
+    ],
+    "number": 26
+  },
+  {
+    "command": "effect",
+    "category": 3,
+    "args": [
+      "0071",
+      "0",
+      "0",
+      "R"
     ],
     "number": 54
   },
@@ -16307,7 +17032,7 @@
     "category": 1,
     "args": [
       "1612",
-      "LC",
+      "L",
       "1"
     ],
     "number": 68
@@ -16317,7 +17042,7 @@
     "category": 1,
     "args": [
       "1613",
-      "RC",
+      "R",
       "1"
     ],
     "number": 68
@@ -16350,7 +17075,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "0",
+      "1611",
       "0"
     ],
     "number": 50
@@ -16359,7 +17084,7 @@
     "command": "face",
     "category": 1,
     "args": [
-      "0",
+      "1611",
       "1"
     ],
     "number": 3
@@ -16377,7 +17102,7 @@
     "command": "sway",
     "category": 2,
     "args": [
-      "0"
+      "1611"
     ],
     "number": 69
   },
@@ -16396,10 +17121,40 @@
     "number": 41
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_step_monster_move_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "updown",
     "category": 2,
     "args": [
       "1611",
+      "0",
+      "-150",
+      "0.2"
+    ],
+    "number": 92
+  },
+  {
+    "command": "updown",
+    "category": 2,
+    "args": [
+      "1612",
+      "0",
+      "-150",
+      "0.2"
+    ],
+    "number": 92
+  },
+  {
+    "command": "updown",
+    "category": 2,
+    "args": [
+      "1613",
       "0",
       "-150",
       "0.2"
@@ -16446,7 +17201,7 @@
     "command": "effect",
     "category": 3,
     "args": [
-      "0038",
+      "0039",
       "se_adv_transition_01"
     ],
     "number": 54
@@ -16527,6 +17282,14 @@
       "103011"
     ],
     "number": 24
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_cloth_move_hard_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -16633,7 +17396,7 @@
     "command": "effect",
     "category": 3,
     "args": [
-      "0038",
+      "0039",
       "se_adv_transition_01",
       "180"
     ],
@@ -16651,7 +17414,7 @@
     "command": "chara_full",
     "category": 1,
     "args": [
-      "1611",
+      "1614",
       "C",
       "1"
     ],
@@ -16661,10 +17424,26 @@
     "command": "fadein",
     "category": 2,
     "args": [
-      "1611",
+      "1614",
       "30"
     ],
     "number": 18
+  },
+  {
+    "command": "change_window",
+    "category": 1,
+    "args": [
+      "3"
+    ],
+    "number": 85
+  },
+  {
+    "command": "text_size",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 36
   },
   {
     "command": "se",
@@ -16686,7 +17465,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "1611"
+      "1614"
     ],
     "number": 4
   },
@@ -16694,7 +17473,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "1611",
+      "1614",
       "0"
     ],
     "number": 50
@@ -16703,7 +17482,7 @@
     "command": "face",
     "category": 1,
     "args": [
-      "1611",
+      "1614",
       "1"
     ],
     "number": 3
@@ -16732,6 +17511,22 @@
     "number": 41
   },
   {
+    "command": "change_window",
+    "category": 1,
+    "args": [
+      "1"
+    ],
+    "number": 85
+  },
+  {
+    "command": "text_size",
+    "category": 1,
+    "args": [
+      "23"
+    ],
+    "number": 36
+  },
+  {
     "command": "effect",
     "category": 3,
     "args": [
@@ -16740,10 +17535,19 @@
     "number": 54
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "2.3"
+    ],
+    "number": 9
+  },
+  {
     "command": "se",
     "category": 1,
     "args": [
-      "se_adv_step_concrete_move_01"
+      "se_adv_step_monster_move_01"
     ],
     "number": 26
   },
@@ -16751,7 +17555,7 @@
     "command": "scale",
     "category": 2,
     "args": [
-      "1611",
+      "1614",
       "1.2",
       "2",
       "10"
@@ -16762,7 +17566,7 @@
     "command": "fadeout",
     "category": 2,
     "args": [
-      "1611",
+      "1614",
       "10"
     ],
     "number": 19
@@ -16844,6 +17648,17 @@
       "TRUE"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M131_02",
+      "0",
+      "0",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -17079,6 +17894,14 @@
     "number": 13
   },
   {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "False"
+    ],
+    "number": 56
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -17094,14 +17917,6 @@
       "40"
     ],
     "number": 13
-  },
-  {
-    "command": "eye_open",
-    "category": 1,
-    "args": [
-      "False"
-    ],
-    "number": 56
   },
   {
     "command": "print",
@@ -17193,7 +18008,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "該怎麼辦才好\u2026\u2026"
+      "該怎麼辦是也\u2026\u2026"
     ],
     "number": 6
   },
@@ -17322,6 +18137,69 @@
     "number": 10
   },
   {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "false"
+    ],
+    "number": 41
+  },
+  {
+    "command": "fadeout",
+    "category": 2,
+    "args": [
+      "103011",
+      "30"
+    ],
+    "number": 19
+  },
+  {
+    "command": "chara_full",
+    "category": 1,
+    "args": [
+      "103011",
+      "C",
+      "6"
+    ],
+    "number": 68
+  },
+  {
+    "command": "scale",
+    "category": 2,
+    "args": [
+      "103011",
+      "1.2",
+      "2",
+      "1"
+    ],
+    "number": 39
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_step_dirt_move_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "fadein",
+    "category": 2,
+    "args": [
+      "103011",
+      "30"
+    ],
+    "number": 18
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "true"
+    ],
+    "number": 41
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
@@ -17361,8 +18239,8 @@
     "args": [
       "surprise1_L",
       "103011",
-      "155",
-      "560",
+      "170",
+      "575",
       "se_adv_emote_common_01"
     ],
     "number": 59
@@ -17547,7 +18425,7 @@
     "command": "effect",
     "category": 3,
     "args": [
-      "0038",
+      "0039",
       "se_adv_transition_01",
       "180"
     ],
@@ -17565,7 +18443,7 @@
     "command": "chara_full",
     "category": 1,
     "args": [
-      "1611",
+      "1614",
       "C",
       "1"
     ],
@@ -17575,10 +18453,26 @@
     "command": "fadein",
     "category": 2,
     "args": [
-      "1611",
+      "1614",
       "30"
     ],
     "number": 18
+  },
+  {
+    "command": "change_window",
+    "category": 1,
+    "args": [
+      "3"
+    ],
+    "number": 85
+  },
+  {
+    "command": "text_size",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 36
   },
   {
     "command": "se",
@@ -17600,7 +18494,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "1611"
+      "1614"
     ],
     "number": 4
   },
@@ -17608,7 +18502,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "1611",
+      "1614",
       "0"
     ],
     "number": 50
@@ -17617,7 +18511,7 @@
     "command": "face",
     "category": 1,
     "args": [
-      "1611",
+      "1614",
       "1"
     ],
     "number": 3
@@ -17646,6 +18540,22 @@
     "number": 41
   },
   {
+    "command": "change_window",
+    "category": 1,
+    "args": [
+      "1"
+    ],
+    "number": 85
+  },
+  {
+    "command": "text_size",
+    "category": 1,
+    "args": [
+      "23"
+    ],
+    "number": 36
+  },
+  {
     "command": "effect",
     "category": 3,
     "args": [
@@ -17665,7 +18575,7 @@
     "command": "scale",
     "category": 2,
     "args": [
-      "1611",
+      "1614",
       "1.2",
       "2",
       "10"
@@ -17676,7 +18586,7 @@
     "command": "fadeout",
     "category": 2,
     "args": [
-      "1611",
+      "1614",
       "10"
     ],
     "number": 19
@@ -17693,7 +18603,7 @@
     "command": "effect",
     "category": 3,
     "args": [
-      "0038",
+      "0039",
       "se_adv_transition_01"
     ],
     "number": 54
@@ -17847,19 +18757,83 @@
     "args": [
       "103011",
       "C",
-      "4",
-      "1"
+      "4"
     ],
     "number": 68
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_kick_ground_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_body_catch_down_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "scale",
+    "category": 2,
+    "args": [
+      "103011",
+      "1.2",
+      "2"
+    ],
+    "number": 39
   },
   {
     "command": "fadein",
     "category": 2,
     "args": [
       "103011",
-      "30"
+      "10"
     ],
     "number": 18
+  },
+  {
+    "command": "scale",
+    "category": 2,
+    "args": [
+      "103011",
+      "1",
+      "2",
+      "5"
+    ],
+    "number": 39
+  },
+  {
+    "command": "shake_loop",
+    "category": 1,
+    "args": [],
+    "number": 76
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_bodyfall_02"
+    ],
+    "number": 26
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "shake_delete",
+    "category": 1,
+    "args": [],
+    "number": 77
   },
   {
     "command": "window_visible",
@@ -17902,6 +18876,14 @@
       "4"
     ],
     "number": 3
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "False"
+    ],
+    "number": 56
   },
   {
     "command": "print",
@@ -18024,7 +19006,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "像是"
+      "四分五裂"
     ],
     "number": 6
   },
@@ -18041,7 +19023,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "四分五裂的"
+      "似的"
     ],
     "number": 6
   },
@@ -18058,7 +19040,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "感覺\u2026\u2026"
+      "難受\u2026\u2026"
     ],
     "number": 6
   },
@@ -18582,6 +19564,16 @@
     "number": 7
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "7",
+      "1"
+    ],
+    "number": 9
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
@@ -18680,6 +19672,14 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M318"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -18957,7 +19957,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "治理天下。"
+      "治理天下是也。"
     ],
     "number": 6
   },
@@ -19187,7 +20187,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "我不想就這樣結束了\u2026\u2026！"
+      "我不想就這樣結束是也\u2026\u2026！"
     ],
     "number": 6
   },
@@ -19304,7 +20304,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "\n待在將軍的身邊\u2026\u2026！"
+      "\n待在將軍的身邊是也\u2026\u2026！"
     ],
     "number": 6
   },
@@ -19344,7 +20344,7 @@
     "category": 1,
     "args": [
       "103011",
-      "3"
+      "4"
     ],
     "number": 3
   },
@@ -19396,7 +20396,7 @@
     "category": 1,
     "args": [
       "103011",
-      "1"
+      "3"
     ],
     "number": 3
   },
@@ -19456,7 +20456,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "統一天下\u2026\u2026！"
+      "統一天下是也\u2026\u2026！"
     ],
     "number": 6
   },
@@ -19687,7 +20687,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "居然還有個"
+      "卻還是有個"
     ],
     "number": 6
   },
@@ -19712,7 +20712,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "35"
+      "37"
     ],
     "number": 13
   },
@@ -20113,7 +21113,7 @@
     "category": 1,
     "args": [
       "103011",
-      "6"
+      "4"
     ],
     "number": 3
   },
@@ -20139,7 +21139,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "並不是想要被稱作忠臣！"
+      "並不是只想要被稱作忠臣！"
     ],
     "number": 6
   },
@@ -20179,7 +21179,7 @@
     "category": 1,
     "args": [
       "103011",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -20239,7 +21239,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "\n和你一起"
+      "\n一同"
     ],
     "number": 6
   },
@@ -20290,7 +21290,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "與艱辛！！"
+      "與艱辛是也！！"
     ],
     "number": 6
   },
@@ -20330,7 +21330,7 @@
     "category": 1,
     "args": [
       "103011",
-      "1"
+      "3"
     ],
     "number": 3
   },
@@ -20481,7 +21481,7 @@
     "category": 1,
     "args": [
       "103011",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -20524,7 +21524,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "生存之道！！"
+      "生存之道是也！！"
     ],
     "number": 6
   },
@@ -20550,7 +21550,7 @@
     "category": 1,
     "args": [
       "103011",
-      "2"
+      "3"
     ],
     "number": 3
   },
@@ -20559,7 +21559,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "請你"
+      "請將軍"
     ],
     "number": 6
   },
@@ -20576,7 +21576,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "看清楚了！！"
+      "仔細看吧！！"
     ],
     "number": 6
   },
@@ -20585,6 +21585,15 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "2"
+    ],
+    "number": 9
   },
   {
     "command": "choice",
@@ -20611,6 +21620,17 @@
       "se_adv_magic_cmn_medium_02"
     ],
     "number": 54
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M175_Ver2",
+      "0",
+      "0",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -20697,25 +21717,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "\n"
-    ],
-    "number": 6
-  },
-  {
-    "command": "face",
-    "category": 1,
-    "args": [
-      "103011",
-      "1"
-    ],
-    "number": 3
-  },
-  {
-    "command": "print",
-    "category": 1,
-    "args": [
-      "妮諾",
-      "身體裡"
+      "\n身體裡"
     ],
     "number": 6
   },
@@ -20882,7 +21884,7 @@
     "category": 1,
     "args": [
       "103011",
-      "1"
+      "3"
     ],
     "number": 3
   },
@@ -21091,7 +22093,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "如果是現在的話，"
+      "如果是現在，"
     ],
     "number": 6
   },
@@ -21108,7 +22110,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "或許"
+      "我或許"
     ],
     "number": 6
   },
@@ -21125,7 +22127,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "我可以成功使用那個未完成的究極忍術\u2026\u2026！"
+      "可以成功使出那個未完成的究極忍術\u2026\u2026！"
     ],
     "number": 6
   },
@@ -21177,7 +22179,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "讓我充滿了這樣的信心！"
+      "讓我充滿了這樣的信心是也！"
     ],
     "number": 6
   },
@@ -21243,7 +22245,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "我"
+      "我的"
     ],
     "number": 6
   },
@@ -21260,7 +22262,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "新發明的秘傳奧義！！"
+      "全新秘傳奧義！！"
     ],
     "number": 6
   },
@@ -21295,7 +22297,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "孤注一擲的關鍵局！"
+      "孤注一擲的關鍵一手！"
     ],
     "number": 6
   },
@@ -21331,6 +22333,23 @@
     "number": 10
   },
   {
+    "command": "se_effect",
+    "category": 1,
+    "args": [
+      "0"
+    ],
+    "number": 91
+  },
+  {
+    "command": "se_pause",
+    "category": 1,
+    "args": [
+      "amb_adv_cave_with_water_01",
+      "1.7"
+    ],
+    "number": 67
+  },
+  {
     "command": "window_visible",
     "category": 1,
     "args": [
@@ -21346,6 +22365,16 @@
       "15"
     ],
     "number": 55
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "2.5",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "fadeout",
@@ -21379,9 +22408,17 @@
     "command": "still_unit",
     "category": 1,
     "args": [
-      "103261"
+      "103061"
     ],
     "number": 72
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "amb_adv_angry_burning_01"
+    ],
+    "number": 26
   },
   {
     "command": "wait",
@@ -21404,6 +22441,22 @@
       "true"
     ],
     "number": 41
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_hyoshigi_03"
+    ],
+    "number": 26
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M354"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -21472,6 +22525,14 @@
     "number": 10
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_hyoshigi_04"
+    ],
+    "number": 26
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
@@ -21537,6 +22598,14 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_hyoshigi_07"
+    ],
+    "number": 26
   },
   {
     "command": "focus",
@@ -21762,7 +22831,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "降下天誅！！"
+      "降下天誅是也！！"
     ],
     "number": 6
   },
@@ -21771,6 +22840,20 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_magic_fire_medium_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "shake_loop",
+    "category": 1,
+    "args": [],
+    "number": 76
   },
   {
     "command": "focus",
@@ -21807,6 +22890,14 @@
     "number": 3
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_earthquake_01_short"
+    ],
+    "number": 26
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -21833,6 +22924,14 @@
     "number": 3
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_light_far_away_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -21846,6 +22945,44 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "false"
+    ],
+    "number": 41
+  },
+  {
+    "command": "shake_delete",
+    "category": 1,
+    "args": [],
+    "number": 77
+  },
+  {
+    "command": "change_window",
+    "category": 1,
+    "args": [
+      "3"
+    ],
+    "number": 85
+  },
+  {
+    "command": "text_size",
+    "category": 1,
+    "args": [
+      "28"
+    ],
+    "number": 36
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "true"
+    ],
+    "number": 41
   },
   {
     "command": "focus",
@@ -21886,7 +23023,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "燃燒"
+      "燃燒忠誠的火焰！"
     ],
     "number": 6
   },
@@ -21894,24 +23031,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "40"
-    ],
-    "number": 13
-  },
-  {
-    "command": "print",
-    "category": 1,
-    "args": [
-      "妮諾",
-      "忠誠的火焰是也！"
-    ],
-    "number": 6
-  },
-  {
-    "command": "wait",
-    "category": 1,
-    "args": [
-      "45"
+      "95"
     ],
     "number": 13
   },
@@ -21940,12 +23060,100 @@
     "number": 10
   },
   {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "false"
+    ],
+    "number": 41
+  },
+  {
+    "command": "change_window",
+    "category": 1,
+    "args": [
+      "1"
+    ],
+    "number": 85
+  },
+  {
+    "command": "text_size",
+    "category": 1,
+    "args": [
+      "23"
+    ],
+    "number": 36
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_fireworks_02"
+    ],
+    "number": 26
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_magic_earth_large_02"
+    ],
+    "number": 26
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_magic_fire_large_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "white_out",
+    "category": 1,
+    "args": [
+      "0.5",
+      "0.2"
+    ],
+    "number": 29
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_wind_strong_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "white_in",
+    "category": 1,
+    "args": [],
+    "number": 30
+  },
+  {
     "command": "se",
     "category": 1,
     "args": [
       "se_adv_creature_cmn_04"
     ],
     "number": 26
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "true"
+    ],
+    "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "2.5"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -21987,6 +23195,67 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "false"
+    ],
+    "number": 41
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_bodyfall_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "shake_loop",
+    "category": 1,
+    "args": [],
+    "number": 76
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "shake_delete",
+    "category": 1,
+    "args": [],
+    "number": 77
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "true"
+    ],
+    "number": 41
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_hyoshigi_05"
+    ],
+    "number": 26
+  },
+  {
+    "command": "se_pause",
+    "category": 1,
+    "args": [
+      "amb_adv_angry_burning_01",
+      "5"
+    ],
+    "number": 67
   },
   {
     "command": "focus",
@@ -22046,6 +23315,14 @@
     "number": 41
   },
   {
+    "command": "vo_effect",
+    "category": 1,
+    "args": [
+      "0"
+    ],
+    "number": 89
+  },
+  {
     "command": "white_out",
     "category": 1,
     "args": [
@@ -22077,6 +23354,14 @@
       "15"
     ],
     "number": 13
+  },
+  {
+    "command": "amb",
+    "category": 1,
+    "args": [
+      "amb_adv_wind_01"
+    ],
+    "number": 51
   },
   {
     "command": "white_in",
@@ -22207,7 +23492,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "25"
     ],
     "number": 13
   },
@@ -22273,7 +23558,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "35"
     ],
     "number": 13
   },
@@ -22290,7 +23575,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "20"
     ],
     "number": 13
   },
@@ -22356,7 +23641,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "45"
     ],
     "number": 13
   },
@@ -22365,7 +23650,7 @@
     "category": 1,
     "args": [
       "少年1",
-      "我們會很難受的\u2026\u2026"
+      "我們會很難過的\u2026\u2026"
     ],
     "number": 6
   },
@@ -22396,7 +23681,7 @@
     "category": 1,
     "args": [
       "103011",
-      "LC",
+      "RC",
       "1"
     ],
     "number": 68
@@ -22405,7 +23690,7 @@
     "command": "se",
     "category": 1,
     "args": [
-      "se_adv_step_concrete_walk_come_01"
+      "se_adv_step_dirt_walk_come_01"
     ],
     "number": 26
   },
@@ -22422,7 +23707,7 @@
     "category": 2,
     "args": [
       "C",
-      "LC",
+      "RC",
       "45"
     ],
     "number": 44
@@ -22443,6 +23728,17 @@
       "TRUE"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M273_Ver2",
+      "0",
+      "0",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -22645,7 +23941,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "20"
     ],
     "number": 13
   },
@@ -22729,7 +24025,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "25"
     ],
     "number": 13
   },
@@ -22985,7 +24281,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "忠臣呀！"
+      "忠臣是也！"
     ],
     "number": 6
   },
@@ -23042,7 +24338,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "25"
     ],
     "number": 13
   },
@@ -23244,7 +24540,7 @@
     "category": 1,
     "args": [
       "少年2",
-      "我們決定要進貢給將軍了！"
+      "就進貢給將軍吧！"
     ],
     "number": 6
   },
@@ -23252,7 +24548,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "35"
     ],
     "number": 13
   },
@@ -23279,7 +24575,7 @@
     "category": 1,
     "args": [
       "少年2",
-      "這是謝禮，所以你們不用客氣，儘管吃吧！"
+      "這是謝禮，所以你們不用客氣，儘管吃！"
     ],
     "number": 6
   },
@@ -23353,7 +24649,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "25"
     ],
     "number": 13
   },
@@ -23431,7 +24727,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "40"
     ],
     "number": 13
   },
@@ -23477,6 +24773,16 @@
     "number": 41
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "2",
+      "1"
+    ],
+    "number": 9
+  },
+  {
     "command": "fadeout_all",
     "category": 2,
     "args": [
@@ -23510,6 +24816,14 @@
       "TRUE"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M108"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -23662,7 +24976,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "真是太好了！"
+      "真是太好了是也！"
     ],
     "number": 6
   },
@@ -23862,7 +25176,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "可以為他人帶來笑容的將軍的話，"
+      "可以為他人帶來笑容的將軍，"
     ],
     "number": 6
   },
@@ -23879,7 +25193,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "\n一定會成功的，"
+      "\n一定會"
     ],
     "number": 6
   },
@@ -23896,7 +25210,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "我對此"
+      "能辦到的，"
     ],
     "number": 6
   },
@@ -23913,7 +25227,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "深信不疑是也！"
+      "我深信不疑是也！"
     ],
     "number": 6
   },
@@ -24030,25 +25344,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "\n"
-    ],
-    "number": 6
-  },
-  {
-    "command": "face",
-    "category": 1,
-    "args": [
-      "103011",
-      "1"
-    ],
-    "number": 3
-  },
-  {
-    "command": "print",
-    "category": 1,
-    "args": [
-      "妮諾",
-      "我"
+      "\n我"
     ],
     "number": 6
   },
@@ -24144,14 +25440,6 @@
     "number": 13
   },
   {
-    "command": "eye_open",
-    "category": 1,
-    "args": [
-      "False"
-    ],
-    "number": 56
-  },
-  {
     "command": "print",
     "category": 1,
     "args": [
@@ -24195,12 +25483,13 @@
     "number": 6
   },
   {
-    "command": "eye_open",
+    "command": "face",
     "category": 1,
     "args": [
-      "True"
+      "103011",
+      "2"
     ],
-    "number": 56
+    "number": 3
   },
   {
     "command": "print",
@@ -24290,7 +25579,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "雖然我是個不夠周全的人，"
+      "雖然我還是個有欠磨練的人，"
     ],
     "number": 6
   },
@@ -24341,7 +25630,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "\n我就要像拉馬車的馬一樣，"
+      "\n我就會像拉馬車的駿馬，"
     ],
     "number": 6
   },
@@ -24435,6 +25724,22 @@
       "2"
     ],
     "number": 3
+  },
+  {
+    "command": "pop",
+    "category": 2,
+    "args": [
+      "103011"
+    ],
+    "number": 24
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_cloth_move_hard_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -25002,6 +26307,14 @@
     "number": 24
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_cloth_move_hard_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -25227,7 +26540,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "請指派給忠臣\u2027妮諾"
+      "請讓忠臣\u2027妮諾"
     ],
     "number": 6
   },
@@ -25244,7 +26557,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "第一份工作吧！"
+      "執行第一份工作吧！"
     ],
     "number": 6
   },
@@ -25310,7 +26623,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "諸位也一起來吧！"
+      "諸位也一起來！"
     ],
     "number": 6
   },
@@ -25361,6 +26674,15 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "6"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -25418,7 +26740,7 @@
     "category": 1,
     "args": [
       "妮諾",
-      "呼喊出這一位大人的名字！！"
+      "呼喊出這一位大人的威名！！"
     ],
     "number": 6
   },
@@ -25446,6 +26768,17 @@
       "103011"
     ],
     "number": 24
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M224",
+      "0",
+      "0",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "print",
@@ -25533,6 +26866,14 @@
     "number": 12
   },
   {
+    "command": "multi_talk",
+    "category": 1,
+    "args": [
+      "111:416"
+    ],
+    "number": 102
+  },
+  {
     "command": "face",
     "category": 1,
     "args": [
@@ -25550,6 +26891,14 @@
     "number": 24
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_cloth_move_hard_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -25562,7 +26911,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "35"
     ],
     "number": 13
   },
@@ -25661,6 +27010,14 @@
     "number": 12
   },
   {
+    "command": "multi_talk",
+    "category": 1,
+    "args": [
+      "111:416:103011"
+    ],
+    "number": 102
+  },
+  {
     "command": "face",
     "category": 1,
     "args": [
@@ -25676,6 +27033,14 @@
       "103011:111:416"
     ],
     "number": 24
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_cloth_move_hard_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -25841,6 +27206,16 @@
       "FALSE"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "1",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "amb_stop",
