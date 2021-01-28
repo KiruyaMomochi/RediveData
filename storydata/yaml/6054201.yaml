@@ -1,0 +1,272 @@
+- title:
+  - 咲戀的穿著要求
+- outline:
+  - ' '
+- background:
+  - 500036
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 咲戀的穿著要求
+- chara_full:
+  - 114511
+  - C
+  - 2
+- fadein:
+  - 114511
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M427
+  - 0
+  - 0
+  - 1
+- focus:
+  - 114511
+- bust:
+  - 114511
+  - 0
+- vo:
+  - vo_adv_6054201_000
+- face:
+  - 114511
+  - 2
+- print:
+  - 咲戀
+  - 這裙子不錯吧？
+- wait:
+  - 40
+- print:
+  - 咲戀
+  - >2
+
+- face:
+  - 114511
+  - 1
+- print:
+  - 咲戀
+  - 是用以前的舊裙子，
+- wait:
+  - 25
+- print:
+  - 咲戀
+  - >2-
+
+    請鈴莓幫我修改出來的。
+- touch: &o0 []
+- choice:
+  - 不會冷嗎？
+  - 1
+  - 1
+- choice:
+  - 很美。
+  - 2
+  - 2
+- choice:
+  - 跟妳很搭。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 114511
+- bust:
+  - 114511
+  - 0
+- vo:
+  - vo_adv_6054201_001
+- face:
+  - 114511
+  - 4
+- print:
+  - 咲戀
+  - 這個嘛，
+- wait:
+  - 30
+- print:
+  - 咲戀
+  - 所以人家才會說，愛美就別怕流鼻水。
+- wait:
+  - 45
+- print:
+  - 咲戀
+  - >2
+
+- face:
+  - 114511
+  - 6
+- print:
+  - 咲戀
+  - ……咦？
+- wait:
+  - 25
+- print:
+  - 咲戀
+  - 你願意借我外套嗎？
+- wait:
+  - 75
+- print:
+  - 咲戀
+  - >2
+
+- face:
+  - 114511
+  - 4
+- print:
+  - 咲戀
+  - 明明你自己也覺得很冷吧……
+- wait:
+  - 75
+- face:
+  - 114511
+  - 2
+- print:
+  - 咲戀
+  - 不過，
+- wait:
+  - 35
+- print:
+  - 咲戀
+  - 謝謝你了。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 114511
+- bust:
+  - 114511
+  - 0
+- vo:
+  - vo_adv_6054201_002
+- face:
+  - 114511
+  - 6
+- emotion:
+  - surprise1_L
+  - 114511
+  - 145
+  - 505
+  - se_adv_emote_common_01
+- print:
+  - 咲戀
+  - 咦！？
+- wait:
+  - 15
+- print:
+  - 咲戀
+  - 呃、
+- wait:
+  - 15
+- print:
+  - 咲戀
+  - 嗯！
+- wait:
+  - 15
+- print:
+  - 咲戀
+  - >2
+
+- face:
+  - 114511
+  - 5
+- print:
+  - 咲戀
+  - 裙子！
+- wait:
+  - 20
+- print:
+  - 咲戀
+  - 你是說裙子美吧！！
+- wait:
+  - 50
+- print:
+  - 咲戀
+  - >2
+
+- face:
+  - 114511
+  - 6
+- print:
+  - 咲戀
+  - ……咦！？
+- wait:
+  - 20
+- print:
+  - 咲戀
+  - 我臉很紅！？
+- wait:
+  - 35
+- face:
+  - 114511
+  - 5
+- print:
+  - 咲戀
+  - 是你看錯了！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 114511
+- bust:
+  - 114511
+  - 0
+- vo:
+  - vo_adv_6054201_003
+- face:
+  - 114511
+  - 2
+- emotion:
+  - note1_L
+  - 114511
+  - -120
+  - 460
+  - se_adv_emote_note_01
+- print:
+  - 咲戀
+  - 謝謝♪
+- wait:
+  - 30
+- print:
+  - 咲戀
+  - >2-
+
+    其實
+- wait:
+  - 5
+- print:
+  - 咲戀
+  - 我也很喜歡這件裙子。
+- wait:
+  - 35
+- print:
+  - 咲戀
+  - >2-
+
+    等回去後可得好好跟鈴莓道謝才行！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 114511
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

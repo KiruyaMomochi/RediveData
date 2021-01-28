@@ -1,0 +1,292 @@
+- title:
+  - 冒險的回憶
+- outline:
+  - ' '
+- background:
+  - 500036
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 冒險的回憶
+- chara_full:
+  - 114511
+  - C
+  - 6
+- fadein:
+  - 114511
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M427_03
+  - 0
+  - 0
+  - 1
+- focus:
+  - 114511
+- bust:
+  - 114511
+  - 0
+- vo:
+  - vo_adv_6054209_000
+- face:
+  - 114511
+  - 6
+- print:
+  - 咲戀
+  - 這次的「逃脫遊戲」
+- wait:
+  - 40
+- print:
+  - 咲戀
+  - 本來還想說會變得怎樣呢……
+- wait:
+  - 55
+- print:
+  - 咲戀
+  - >2
+
+- face:
+  - 114511
+  - 1
+- print:
+  - 咲戀
+  - 不過事後想想，
+- wait:
+  - 25
+- print:
+  - 咲戀
+  - 循著地圖
+- wait:
+  - 20
+- print:
+  - 咲戀
+  - 前往終點目標，
+- wait:
+  - 20
+- print:
+  - 咲戀
+  - 其實還是挺好玩的。
+- touch: &o0 []
+- choice:
+  - 好玩！
+  - 1
+  - 1
+- choice:
+  - 這麼說來……
+  - 2
+  - 2
+- choice:
+  - 之後再一起冒險吧。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 114511
+- bust:
+  - 114511
+  - 0
+- vo:
+  - vo_adv_6054209_001
+- face:
+  - 114511
+  - 1
+- print:
+  - 咲戀
+  - 這麼一說我才想到，
+- wait:
+  - 30
+- print:
+  - 咲戀
+  - >2-
+
+    你常常跟著公會
+- wait:
+  - 25
+- print:
+  - 咲戀
+  - 東奔西跑到處冒險對吧？
+- wait:
+  - 50
+- print:
+  - 咲戀
+  - >2
+
+- face:
+  - 114511
+  - 2
+- print:
+  - 咲戀
+  - 等下次有機會，
+- wait:
+  - 25
+- print:
+  - 咲戀
+  - 說點故事來聽聽吧！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 114511
+- bust:
+  - 114511
+  - 0
+- vo:
+  - vo_adv_6054209_002
+- face:
+  - 114511
+  - 6
+- emotion:
+  - question1_R
+  - 114511
+  - 105
+  - 455
+  - se_adv_emote_question_01
+- print:
+  - 咲戀
+  - ……咦？
+- wait:
+  - 25
+- print:
+  - 咲戀
+  - 以前我們
+- wait:
+  - 30
+- print:
+  - 咲戀
+  - 也曾經一起尋寶？
+- wait:
+  - 55
+- print:
+  - 咲戀
+  - >2
+
+- face:
+  - 114511
+  - 1
+- print:
+  - 咲戀
+  - 喔喔，
+- wait:
+  - 20
+- print:
+  - 咲戀
+  - 我想起來了！
+- wait:
+  - 45
+- print:
+  - 咲戀
+  - 當時雖然沒找到寶藏，
+- wait:
+  - 40
+- print:
+  - 咲戀
+  - >2-
+
+    不過兩人露宿野外，
+- wait:
+  - 35
+- print:
+  - 咲戀
+  - 一起聊未來的事……
+- wait:
+  - 40
+- face:
+  - 114511
+  - 2
+- print:
+  - 咲戀
+  - 呵呵，
+- wait:
+  - 25
+- print:
+  - 咲戀
+  - 也是段有趣的時光呢！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 114511
+- bust:
+  - 114511
+  - 0
+- vo:
+  - vo_adv_6054209_003
+- face:
+  - 114511
+  - 4
+- print:
+  - 咲戀
+  - 還會有一起冒險的機會嗎？
+- wait:
+  - 65
+- print:
+  - 咲戀
+  - >2-
+
+    我們倆現在
+- wait:
+  - 20
+- print:
+  - 咲戀
+  - 都有自己的事得忙……
+- wait:
+  - 75
+- face:
+  - 114511
+  - 1
+- print:
+  - 咲戀
+  - 不過，
+- wait:
+  - 35
+- print:
+  - 咲戀
+  - 也好。
+- wait:
+  - 40
+- print:
+  - 咲戀
+  - >2-
+
+    我們就先
+- wait:
+  - 20
+- print:
+  - 咲戀
+  - 這麼說定吧。
+- wait:
+  - 45
+- face:
+  - 114511
+  - 2
+- print:
+  - 咲戀
+  - 打勾勾一言為定♪
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 114511
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

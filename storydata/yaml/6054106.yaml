@@ -1,0 +1,260 @@
+- title:
+  - 打雪仗的回憶
+- outline:
+  - ' '
+- background:
+  - 500036
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 打雪仗的回憶
+- chara_full:
+  - 114411
+  - C
+  - 2
+- fadein:
+  - 114411
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M427_03
+  - 0
+  - 0
+  - 1
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054106_000
+- face:
+  - 114411
+  - 2
+- emotion:
+  - note1_L
+  - 114411
+  - -80
+  - 460
+  - se_adv_emote_note_01
+- print:
+  - 秋乃
+  - 這是我
+- wait:
+  - 30
+- print:
+  - 秋乃
+  - 有生以來第一次打雪仗，
+- wait:
+  - 50
+- print:
+  - 秋乃
+  - >2-
+
+    真的很好玩呢♪
+- touch: &o0 []
+- choice:
+  - 真是太好了。
+  - 1
+  - 1
+- choice:
+  - 原來妳是第一次打雪仗啊。
+  - 2
+  - 2
+- choice:
+  - 下次再一起玩吧。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054106_001
+- face:
+  - 114411
+  - 1
+- nod:
+  - 114411
+- print:
+  - 秋乃
+  - 是啊，
+- wait:
+  - 30
+- print:
+  - 秋乃
+  - 這樣一來
+- wait:
+  - 35
+- print:
+  - 秋乃
+  - 我的社會經驗又增加了一項！
+- wait:
+  - 50
+- print:
+  - 秋乃
+  - >2
+
+- face:
+  - 114411
+  - 2
+- print:
+  - 秋乃
+  - 對了！
+- wait:
+  - 35
+- print:
+  - 秋乃
+  - 要不要下次組成打雪仗的隊伍，
+- wait:
+  - 50
+- print:
+  - 秋乃
+  - 來舉辦打雪仗大會呢？
+- wait:
+  - 55
+- print:
+  - 秋乃
+  - >2
+
+- face:
+  - 114411
+  - 1
+- print:
+  - 秋乃
+  - 到時候，
+- wait:
+  - 45
+- print:
+  - 秋乃
+  - 也務必要請你幫忙我舉辦活動囉♪
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054106_002
+- face:
+  - 114411
+  - 1
+- nod:
+  - 114411
+- print:
+  - 秋乃
+  - 我也沒想到
+- wait:
+  - 40
+- print:
+  - 秋乃
+  - 我居然會熱衷到這個地步！
+- wait:
+  - 60
+- print:
+  - 秋乃
+  - >2
+
+- face:
+  - 114411
+  - 4
+- print:
+  - 秋乃
+  - 起初我還不太會打雪仗，一直很焦急，
+- wait:
+  - 60
+- print:
+  - 秋乃
+  - >2
+
+- face:
+  - 114411
+  - 2
+- print:
+  - 秋乃
+  - 但多虧有你靈機一動，
+- wait:
+  - 45
+- print:
+  - 秋乃
+  - 現在對我來說已經成為美好的回憶了！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054106_003
+- face:
+  - 114411
+  - 6
+- print:
+  - 秋乃
+  - 沒想到
+- wait:
+  - 25
+- print:
+  - 秋乃
+  - 居然會受你邀約……
+- wait:
+  - 60
+- face:
+  - 114411
+  - 1
+- print:
+  - 秋乃
+  - 就算有再怎麼充滿魅力的生意，
+- wait:
+  - 60
+- print:
+  - 秋乃
+  - >2-
+
+    還是與你的約定最讓我高興。
+- wait:
+  - 60
+- print:
+  - 秋乃
+  - >2
+
+- face:
+  - 114411
+  - 2
+- print:
+  - 秋乃
+  - 今後我們也一起創造許多回憶吧！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 114411
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

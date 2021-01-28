@@ -1,0 +1,290 @@
+- title:
+  - 商人的聖誕節
+- outline:
+  - ' '
+- background:
+  - 500036
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 商人的聖誕節
+- chara_full:
+  - 114411
+  - C
+  - 1
+- fadein:
+  - 114411
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M427_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054103_000
+- face:
+  - 114411
+  - 1
+- print:
+  - 秋乃
+  - 聖誕季節
+- wait:
+  - 35
+- print:
+  - 秋乃
+  - 對商人來說是大好機會。
+- wait:
+  - 60
+- print:
+  - 秋乃
+  - >2
+
+- face:
+  - 114411
+  - 6
+- print:
+  - 秋乃
+  - 同時，
+- wait:
+  - 25
+- print:
+  - 秋乃
+  - 最近也會收到大量的派對邀請函，
+- wait:
+  - 50
+- print:
+  - 秋乃
+  - >2-
+
+    是最忙的時期。
+- touch: &o0 []
+- choice:
+  - 辛苦妳了。
+  - 1
+  - 1
+- choice:
+  - 妳身體狀況還好嗎？
+  - 2
+  - 2
+- choice:
+  - 今天就享受一下吧！
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054103_001
+- face:
+  - 114411
+  - 1
+- print:
+  - 秋乃
+  - 謝謝你。
+- wait:
+  - 60
+- face:
+  - 114411
+  - 4
+- nod:
+  - 114411
+- print:
+  - 秋乃
+  - 唉，
+- wait:
+  - 35
+- print:
+  - 秋乃
+  - 要是你就這樣
+- wait:
+  - 35
+- print:
+  - 秋乃
+  - >2-
+
+    成為我的騎士就好了……
+- wait:
+  - 70
+- face:
+  - 114411
+  - 2
+- print:
+  - 秋乃
+  - 呵呵，
+- wait:
+  - 35
+- print:
+  - 秋乃
+  - 我開玩笑的啦。
+- wait:
+  - 50
+- print:
+  - 秋乃
+  - >2
+
+- face:
+  - 114411
+  - 1
+- print:
+  - 秋乃
+  - 現在還
+- wait:
+  - 40
+- print:
+  - 秋乃
+  - 只是開玩笑而已♪
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054103_002
+- face:
+  - 114411
+  - 2
+- nod:
+  - 114411
+- print:
+  - 秋乃
+  - 很好！
+- wait:
+  - 30
+- print:
+  - 秋乃
+  - 畢竟我有優秀的墨丘利財團成員
+- wait:
+  - 30
+- print:
+  - 秋乃
+  - >2-
+
+    陪著我呀！
+- wait:
+  - 35
+- face:
+  - 114411
+  - 1
+- print:
+  - 秋乃
+  - 而且
+- wait:
+  - 35
+- print:
+  - 秋乃
+  - 我那怕是一次
+- wait:
+  - 15
+- print:
+  - 秋乃
+  - >2-
+
+    都沒有得過感冒喲！
+- wait:
+  - 30
+- face:
+  - 114411
+  - 2
+- print:
+  - 秋乃
+  - 喔～呵呵呵！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054103_003
+- face:
+  - 114411
+  - 2
+- nod:
+  - 114411
+- print:
+  - 秋乃
+  - 你說的對！
+- wait:
+  - 35
+- face:
+  - 114411
+  - 1
+- print:
+  - 秋乃
+  - 我要改變心態，
+- wait:
+  - 45
+- print:
+  - 秋乃
+  - >2-
+
+    好好珍惜
+- wait:
+  - 30
+- print:
+  - 秋乃
+  - 與你共度的時光。
+- wait:
+  - 70
+- print:
+  - 秋乃
+  - >2
+
+- face:
+  - 114411
+  - 2
+- print:
+  - 秋乃
+  - 你也要
+- wait:
+  - 40
+- print:
+  - 秋乃
+  - 好好用心地
+- wait:
+  - 40
+- print:
+  - 秋乃
+  - 想著我喔♪
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 114411
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

@@ -1,0 +1,258 @@
+- title:
+  - 對魔法玫瑰的想法
+- outline:
+  - ' '
+- background:
+  - 500036
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 對魔法玫瑰的想法
+- chara_full:
+  - 114411
+  - C
+  - 6
+- fadein:
+  - 114411
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M427_04
+  - 0
+  - 0
+  - 1
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054104_000
+- face:
+  - 114411
+  - 6
+- print:
+  - 秋乃
+  - 魔法玫瑰……
+- wait:
+  - 45
+- print:
+  - 秋乃
+  - >2
+
+- face:
+  - 114411
+  - 1
+- print:
+  - 秋乃
+  - 如果有機會收下，
+- wait:
+  - 35
+- print:
+  - 秋乃
+  - >2-
+
+    我想要讓【墨丘利財團】進行栽培。
+- touch: &o0 []
+- choice:
+  - 妳打算做什麼？
+  - 1
+  - 1
+- choice:
+  - 妳想培育嗎？
+  - 2
+  - 2
+- choice:
+  - 我也想要！
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054104_001
+- face:
+  - 114411
+  - 1
+- print:
+  - 秋乃
+  - 比如說提供給花店，
+- wait:
+  - 35
+- eye_open:
+  - False
+- print:
+  - 秋乃
+  - 或是策畫活動……
+- wait:
+  - 50
+- print:
+  - 秋乃
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 秋乃
+  - 我要以「為愛加油」為主題
+- wait:
+  - 45
+- print:
+  - 秋乃
+  - 開創事業！
+- wait:
+  - 45
+- print:
+  - 秋乃
+  - >2
+
+- face:
+  - 114411
+  - 2
+- print:
+  - 秋乃
+  - 到時候
+- wait:
+  - 35
+- print:
+  - 秋乃
+  - 如果你願意協助我，
+- wait:
+  - 35
+- print:
+  - 秋乃
+  - 我會很高興的。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054104_002
+- face:
+  - 114411
+  - 2
+- nod:
+  - 114411
+- print:
+  - 秋乃
+  - 是啊！
+- wait:
+  - 30
+- print:
+  - 秋乃
+  - 我會投注愛心，
+- wait:
+  - 30
+- print:
+  - 秋乃
+  - 培育並增加玫瑰數量的。
+- wait:
+  - 45
+- print:
+  - 秋乃
+  - >2
+
+- face:
+  - 114411
+  - 6
+- print:
+  - 秋乃
+  - 對了，
+- wait:
+  - 30
+- print:
+  - 秋乃
+  - 我們兩人一起試著製造新品種如何呢！？
+- wait:
+  - 55
+- print:
+  - 秋乃
+  - >2
+
+- face:
+  - 114411
+  - 2
+- print:
+  - 秋乃
+  - 要是有你一起培育，
+- wait:
+  - 30
+- print:
+  - 秋乃
+  - 就能夠綻放出美麗的花朵吧♪
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054104_003
+- face:
+  - 114411
+  - 2
+- print:
+  - 秋乃
+  - 既然如此，
+- wait:
+  - 35
+- print:
+  - 秋乃
+  - 我就把花朵做成花束送給你吧！
+- wait:
+  - 80
+- print:
+  - 秋乃
+  - >2
+
+- face:
+  - 114411
+  - 1
+- print:
+  - 秋乃
+  - 我會傾注不只數百數千，
+- wait:
+  - 45
+- face:
+  - 114411
+  - 2
+- print:
+  - 秋乃
+  - 而是萬分的心意在裡面的♪
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 114411
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

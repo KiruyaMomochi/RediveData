@@ -1,0 +1,276 @@
+- title:
+  - 與青梅竹馬約會
+- outline:
+  - ' '
+- background:
+  - 500036
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 與青梅竹馬約會
+- chara_full:
+  - 114511
+  - C
+  - 1
+- fadein:
+  - 114511
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M428
+  - 0
+  - 0
+  - 1
+- focus:
+  - 114511
+- bust:
+  - 114511
+  - 0
+- vo:
+  - vo_adv_6054208_000
+- face:
+  - 114511
+  - 1
+- print:
+  - 咲戀
+  - 像這樣肩併著肩逛街購物，
+- wait:
+  - 55
+- print:
+  - 咲戀
+  - 坐在路邊長凳上閒聊，
+- wait:
+  - 65
+- print:
+  - 咲戀
+  - >2
+
+- face:
+  - 114511
+  - 2
+- print:
+  - 咲戀
+  - 還真是挺開心的。
+- touch: &o0 []
+- choice:
+  - 改天再一起逛街。
+  - 1
+  - 1
+- choice:
+  - 改天再一起聊。
+  - 2
+  - 2
+- choice:
+  - 改天再約會。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 114511
+- bust:
+  - 114511
+  - 0
+- vo:
+  - vo_adv_6054208_001
+- face:
+  - 114511
+  - 4
+- print:
+  - 咲戀
+  - 可是到時候，
+- wait:
+  - 25
+- print:
+  - 咲戀
+  - 搞不好又要麻煩你提東西了。
+- wait:
+  - 45
+- print:
+  - 咲戀
+  - >2
+
+- face:
+  - 114511
+  - 6
+- print:
+  - 咲戀
+  - ……你說那樣也很開心？
+- wait:
+  - 50
+- face:
+  - 114511
+  - 1
+- print:
+  - 咲戀
+  - 呵呵，
+- wait:
+  - 40
+- print:
+  - 咲戀
+  - 還真符合你的個性呢。
+- wait:
+  - 55
+- print:
+  - 咲戀
+  - >2-
+
+    不過其實我也是。
+- wait:
+  - 45
+- face:
+  - 114511
+  - 2
+- print:
+  - 咲戀
+  - 只要和你在一起，
+- wait:
+  - 30
+- print:
+  - 咲戀
+  - 不管做什麼都讓人感到開心。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 114511
+- bust:
+  - 114511
+  - 0
+- vo:
+  - vo_adv_6054208_002
+- face:
+  - 114511
+  - 1
+- nod:
+  - 114511
+- print:
+  - 咲戀
+  - 好啊。
+- wait:
+  - 30
+- print:
+  - 咲戀
+  - 這次幸虧有你，
+- wait:
+  - 20
+- print:
+  - 咲戀
+  - 才終於能放鬆一下。
+- wait:
+  - 45
+- print:
+  - 咲戀
+  - >2-
+
+    謝謝你。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 114511
+- bust:
+  - 114511
+  - 0
+- vo:
+  - vo_adv_6054208_003
+- face:
+  - 114511
+  - 6
+- print:
+  - 咲戀
+  - 約會……
+- wait:
+  - 35
+- face:
+  - 114511
+  - 4
+- print:
+  - 咲戀
+  - 哎唷，
+- wait:
+  - 25
+- print:
+  - 咲戀
+  - 你是在逗著我玩的吧？
+- wait:
+  - 60
+- print:
+  - 咲戀
+  - >2
+
+- face:
+  - 114511
+  - 1
+- print:
+  - 咲戀
+  - ……不過，
+- wait:
+  - 15
+- print:
+  - 咲戀
+  - 好啊。
+- wait:
+  - 35
+- print:
+  - 咲戀
+  - 反正我也喜歡
+- wait:
+  - 25
+- print:
+  - 咲戀
+  - 跟你獨處時無拘無束的感覺，
+- wait:
+  - 65
+- print:
+  - 咲戀
+  - >2
+
+- face:
+  - 114511
+  - 2
+- print:
+  - 咲戀
+  - 更重要的是
+- wait:
+  - 10
+- print:
+  - 咲戀
+  - 過得也很愉快。
+- wait:
+  - 50
+- print:
+  - 咲戀
+  - 那麼，
+- wait:
+  - 25
+- print:
+  - 咲戀
+  - 我們一言為定囉！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 114511
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

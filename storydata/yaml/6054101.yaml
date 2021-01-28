@@ -1,0 +1,250 @@
+- title:
+  - 秋乃的穿著要求
+- outline:
+  - ' '
+- background:
+  - 500036
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 秋乃的穿著要求
+- chara_full:
+  - 114411
+  - C
+  - 1
+- fadein:
+  - 114411
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M427
+  - 0
+  - 0
+  - 1
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054101_000
+- face:
+  - 114411
+  - 1
+- print:
+  - 秋乃
+  - 請看
+- wait:
+  - 30
+- print:
+  - 秋乃
+  - 這件洋裝！
+- wait:
+  - 45
+- print:
+  - 秋乃
+  - >2
+
+- face:
+  - 114411
+  - 2
+- print:
+  - 秋乃
+  - 這是為了這次的派對，
+- wait:
+  - 35
+- print:
+  - 秋乃
+  - >2-
+
+    特地委託紫藤家專屬設計師製作的！
+- touch: &o0 []
+- choice:
+  - 好好看的洋裝。
+  - 1
+  - 1
+- choice:
+  - 真適合妳。
+  - 2
+  - 2
+- choice:
+  - 很可愛。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054101_001
+- face:
+  - 114411
+  - 1
+- print:
+  - 秋乃
+  - 其實這次
+- wait:
+  - 40
+- print:
+  - 秋乃
+  - 我從設計階段就開始參與製作了。
+- wait:
+  - 65
+- print:
+  - 秋乃
+  - >2
+
+- face:
+  - 114411
+  - 2
+- print:
+  - 秋乃
+  - 能夠收到你
+- wait:
+  - 35
+- print:
+  - 秋乃
+  - 不懷心機地
+- wait:
+  - 5
+- print:
+  - 秋乃
+  - >2-
+
+    如此稱讚，
+- wait:
+  - 40
+- print:
+  - 秋乃
+  - 我真心覺得很高興♪
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054101_002
+- face:
+  - 114411
+  - 2
+- print:
+  - 秋乃
+  - 呵呵，
+- wait:
+  - 20
+- nod:
+  - 114411
+- print:
+  - 秋乃
+  - 謝謝你！
+- wait:
+  - 40
+- print:
+  - 秋乃
+  - >2
+
+- face:
+  - 114411
+  - 1
+- print:
+  - 秋乃
+  - 你穿的燕尾服，
+- wait:
+  - 20
+- print:
+  - 秋乃
+  - >2-
+
+    也很適合你喔♪
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054101_003
+- face:
+  - 114411
+  - 6
+- emotion:
+  - surprise1_L
+  - 114411
+  - 165
+  - 470
+  - se_adv_emote_common_01
+- print:
+  - 秋乃
+  - 咦！？
+- wait:
+  - 15
+- print:
+  - 秋乃
+  - 你、
+- wait:
+  - 15
+- print:
+  - 秋乃
+  - 你說可愛是指，
+- wait:
+  - 35
+- print:
+  - 秋乃
+  - 那個，
+- wait:
+  - 45
+- print:
+  - 秋乃
+  - 沒什麼。
+- wait:
+  - 45
+- print:
+  - 秋乃
+  - >2
+
+- face:
+  - 114411
+  - 5
+- print:
+  - 秋乃
+  - …………謝、
+- wait:
+  - 45
+- print:
+  - 秋乃
+  - 謝謝你。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 114411
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

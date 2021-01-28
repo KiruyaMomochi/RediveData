@@ -1,0 +1,739 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 509010
+- amb:
+  - amb_adv_room_noise_01
+- ui_visible:
+  - false
+- effect:
+  - 0101
+- bgm:
+  - bgm_M321_2C
+  - 0
+  - 0
+  - 1
+- wait:
+  - 17
+- se:
+  - se_adv_login_birthday_01
+- wait:
+  - 100
+- ui_visible:
+  - true
+- chara_full:
+  - 102511
+  - C
+  - 6
+- fadein:
+  - 102511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025500_000
+- face:
+  - 102511
+  - 6
+- print:
+  - 鈴莓
+  - 對、
+- wait:
+  - 15
+- print:
+  - 鈴莓
+  - 對不起讓你久等了～！
+- wait:
+  - 40
+- print:
+  - 鈴莓
+  - 咦、
+- wait:
+  - 10
+- pop:
+  - 102511
+- se:
+  - se_adv_bodyfall_03
+- print:
+  - 鈴莓
+  - 哇呀啊！
+- wait:
+  - 20
+- print:
+  - 鈴莓
+  - >2
+
+- face:
+  - 102511
+  - 4
+- eye_open:
+  - False
+- print:
+  - 鈴莓
+  - 哎唷唷唷唷……
+- wait:
+  - 65
+- eye_open:
+  - True
+- print:
+  - 鈴莓
+  - 不小心又搞砸了啦～
+- touch: &o0 []
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025500_001
+- face:
+  - 102511
+  - 6
+- print:
+  - 鈴莓
+  - 嗯……
+- wait:
+  - 20
+- print:
+  - 鈴莓
+  - 所以，
+- wait:
+  - 25
+- print:
+  - 鈴莓
+  - 聽說{0}有事要跟我談，
+- wait:
+  - 60
+- print:
+  - 鈴莓
+  - >2
+
+- face:
+  - 102511
+  - 1
+- print:
+  - 鈴莓
+  - 請問今天是什麼事情呢？
+- touch: *o0
+- choice:
+  - 生日快樂！
+  - 1
+- choice:
+  - 這是感謝妳平常的照顧。
+  - 2
+- choice:
+  - 遞出手中的禮物。
+  - 3
+- tag:
+  - 1
+- window_visible:
+  - false
+- se:
+  - se_adv_tickle_02
+- effect:
+  - 0102
+- wait:
+  - 25
+- se:
+  - se_adv_login_birthday_02
+- wait:
+  - 40
+- effect:
+  - 0021
+  - se_adv_happy_particle_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025500_002
+- face:
+  - 102511
+  - 6
+- emotion:
+  - sweat2_R
+  - 102511
+  - 25
+  - 520
+  - se_adv_emote_sweat_02
+- print:
+  - 鈴莓
+  - 嘩哇哇！？
+- wait:
+  - 25
+- print:
+  - 鈴莓
+  - 生日快樂是指……
+- wait:
+  - 25
+- print:
+  - 鈴莓
+  - 我、
+- wait:
+  - 15
+- print:
+  - 鈴莓
+  - 我的生日嗎？
+- wait:
+  - 40
+- print:
+  - 鈴莓
+  - >2
+
+- face:
+  - 102511
+  - 4
+- print:
+  - 鈴莓
+  - 也就是說，
+- wait:
+  - 20
+- print:
+  - 鈴莓
+  - 那個應該是
+- wait:
+  - 30
+- print:
+  - 鈴莓
+  - 生、
+- wait:
+  - 30
+- print:
+  - 鈴莓
+  - 生日禮物對吧！？
+- wait:
+  - 25
+- print:
+  - 鈴莓
+  - >2
+
+- face:
+  - 102511
+  - 6
+- print:
+  - 鈴莓
+  - 哇哇，
+- wait:
+  - 15
+- print:
+  - 鈴莓
+  - 這、
+- wait:
+  - 15
+- print:
+  - 鈴莓
+  - 這下怎麼辦才好……
+- wait:
+  - 20
+- print:
+  - 鈴莓
+  - 呀啊！？
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_body_forehead_01
+- updown:
+  - 102511
+  - 0
+  - -80
+  - 0.2
+- fadeout:
+  - 102511
+  - 30
+- se:
+  - se_adv_bodyfall_02
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- chara_full:
+  - 102511
+  - C
+  - 4
+  - 1
+- fadein:
+  - 102511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025500_003
+- face:
+  - 102511
+  - 4
+- print:
+  - 鈴莓
+  - 嗚嗚，
+- wait:
+  - 35
+- eye_open:
+  - True
+- print:
+  - 鈴莓
+  - 不小心又跌倒了……
+- wait:
+  - 55
+- print:
+  - 鈴莓
+  - >2-
+
+    那、
+- wait:
+  - 20
+- print:
+  - 鈴莓
+  - 那個，
+- wait:
+  - 35
+- face:
+  - 102511
+  - 1
+- print:
+  - 鈴莓
+  - 謝謝你的禮物。
+- wait:
+  - 55
+- print:
+  - 鈴莓
+  - >2
+
+- face:
+  - 102511
+  - 5
+- print:
+  - 鈴莓
+  - 沒想到你會為我慶祝生日，
+- wait:
+  - 25
+- print:
+  - 鈴莓
+  - 還真是有點害臊耶……♪
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- window_visible:
+  - false
+- se:
+  - se_adv_tickle_02
+- effect:
+  - 0102
+- wait:
+  - 25
+- se:
+  - se_adv_login_birthday_02
+- wait:
+  - 40
+- effect:
+  - 0021
+  - se_adv_happy_particle_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025500_004
+- face:
+  - 102511
+  - 6
+- print:
+  - 鈴莓
+  - 送、
+- wait:
+  - 15
+- print:
+  - 鈴莓
+  - 送我的生日禮物……
+- wait:
+  - 55
+- print:
+  - 鈴莓
+  - 嗎？
+- wait:
+  - 35
+- print:
+  - 鈴莓
+  - >2
+
+- emotion:
+  - sweat2_R
+  - 102511
+  - 25
+  - 520
+  - se_adv_emote_sweat_02
+- print:
+  - 鈴莓
+  - 這這這、
+- wait:
+  - 15
+- print:
+  - 鈴莓
+  - 這怎麼好意思！
+- wait:
+  - 20
+- print:
+  - 鈴莓
+  - 明明是我老是給你添麻煩，
+- wait:
+  - 55
+- print:
+  - 鈴莓
+  - >2
+
+- face:
+  - 102511
+  - 4
+- print:
+  - 鈴莓
+  - 還常常拜託你搬東西，
+- wait:
+  - 25
+- print:
+  - 鈴莓
+  - 幫了我好多好多的忙！
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025500_005
+- face:
+  - 102511
+  - 5
+- print:
+  - 鈴莓
+  - 不過……
+- wait:
+  - 30
+- print:
+  - 鈴莓
+  - 我還是心懷感激地收下好了。
+- wait:
+  - 45
+- print:
+  - 鈴莓
+  - >2
+
+- face:
+  - 102511
+  - 1
+- print:
+  - 鈴莓
+  - 畢竟這可是{0}特地為我挑選的禮物嘛。
+- wait:
+  - 45
+- print:
+  - 鈴莓
+  - >2
+
+- face:
+  - 102511
+  - 2
+- print:
+  - 鈴莓
+  - ……嘿嘿。
+- wait:
+  - 30
+- print:
+  - 鈴莓
+  - 我會好好愛惜它的♪
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- window_visible:
+  - false
+- se:
+  - se_adv_tickle_02
+- effect:
+  - 0102
+- wait:
+  - 25
+- se:
+  - se_adv_login_birthday_02
+- wait:
+  - 40
+- effect:
+  - 0021
+  - se_adv_happy_particle_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025500_006
+- face:
+  - 102511
+  - 2
+- print:
+  - 鈴莓
+  - 哇～
+- wait:
+  - 30
+- print:
+  - 鈴莓
+  - 謝謝你♪
+- wait:
+  - 40
+- print:
+  - 鈴莓
+  - >2
+
+- face:
+  - 102511
+  - 1
+- print:
+  - 鈴莓
+  - 所以，
+- wait:
+  - 20
+- print:
+  - 鈴莓
+  - 請問是要給哪一位的禮物呢？
+- wait:
+  - 25
+- print:
+  - 鈴莓
+  - >2-
+
+    是給大小姐的嗎？
+- wait:
+  - 25
+- print:
+  - 鈴莓
+  - 還是給小孩的呢？
+- wait:
+  - 40
+- face:
+  - 102511
+  - 6
+- print:
+  - 鈴莓
+  - ……咦，
+- wait:
+  - 30
+- print:
+  - 鈴莓
+  - 給我的？
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025500_007
+- face:
+  - 102511
+  - 6
+- nod:
+  - 102511
+- print:
+  - 鈴莓
+  - 也就是說，
+- wait:
+  - 20
+- print:
+  - 鈴莓
+  - 這其實是
+- wait:
+  - 25
+- print:
+  - 鈴莓
+  - 給我的生日禮物嗎！？
+- wait:
+  - 50
+- print:
+  - 鈴莓
+  - >2-
+
+    哇、
+- wait:
+  - 10
+- print:
+  - 鈴莓
+  - 哇哇，
+- wait:
+  - 25
+- print:
+  - 鈴莓
+  - 竟然收到了這麼正式的禮物……
+- wait:
+  - 95
+- print:
+  - 鈴莓
+  - >2
+
+- face:
+  - 102511
+  - 5
+- print:
+  - 鈴莓
+  - 真的很謝謝你，
+- wait:
+  - 35
+- face:
+  - 102511
+  - 2
+- print:
+  - 鈴莓
+  - 我一定會珍惜著用的♪
+- touch: *o0
+- tag:
+  - 4
+- effect_delete:
+  - 0021
+  - 15
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025500_008
+- face:
+  - 102511
+  - 1
+- print:
+  - 鈴莓
+  - 對了，
+- wait:
+  - 25
+- print:
+  - 鈴莓
+  - 話說今天育幼院的大家會一起開場派對。
+- wait:
+  - 70
+- print:
+  - 鈴莓
+  - >2-
+
+    大小姐應該也很想見你，
+- wait:
+  - 45
+- print:
+  - 鈴莓
+  - >2
+
+- face:
+  - 102511
+  - 2
+- print:
+  - 鈴莓
+  - 若不介意的話，要不要一起參加呢？
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025500_009
+- face:
+  - 102511
+  - 1
+- print:
+  - 鈴莓
+  - ……真的嗎？
+- wait:
+  - 25
+- print:
+  - 鈴莓
+  - >2
+
+- face:
+  - 102511
+  - 2
+- emotion:
+  - note1_L
+  - 102511
+  - -135
+  - 510
+  - se_adv_emote_note_01
+- print:
+  - 鈴莓
+  - 嘻嘻，
+- wait:
+  - 25
+- print:
+  - 鈴莓
+  - 那麼就這麼決定了♪
+- wait:
+  - 45
+- print:
+  - 鈴莓
+  - >2
+
+- face:
+  - 102511
+  - 1
+- print:
+  - 鈴莓
+  - 孩子們一定也會很開心的。
+- wait:
+  - 50
+- print:
+  - 鈴莓
+  - 走吧，
+- wait:
+  - 10
+- print:
+  - 鈴莓
+  - 我們這就出發♪
+- touch: *o0
+- window_visible:
+  - false
+- ui_visible:
+  - false
+- fadeout:
+  - 102511
+  - 30
+- bright_change:
+  - 1
+  - 40
+- wait:
+  - 5
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0101
+- end: *o0

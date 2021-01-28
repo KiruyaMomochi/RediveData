@@ -1,0 +1,272 @@
+- title:
+  - 舞蹈指導
+- outline:
+  - ' '
+- background:
+  - 500036
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 舞蹈指導
+- chara_full:
+  - 114511
+  - C
+  - 6
+- fadein:
+  - 114511
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M105
+  - 0
+  - 0
+  - 1
+- focus:
+  - 114511
+- bust:
+  - 114511
+  - 0
+- vo:
+  - vo_adv_6054205_000
+- face:
+  - 114511
+  - 6
+- print:
+  - 咲戀
+  - 話說，
+- wait:
+  - 20
+- print:
+  - 咲戀
+  - 你以前跳過舞嗎？
+- wait:
+  - 45
+- print:
+  - 咲戀
+  - >2
+
+- face:
+  - 114511
+  - 1
+- print:
+  - 咲戀
+  - 我小時候
+- wait:
+  - 20
+- print:
+  - 咲戀
+  - 常常被父親帶去參加宴會，
+- wait:
+  - 35
+- print:
+  - 咲戀
+  - >2-
+
+    應該能稍微教你一些。
+- touch: &o0 []
+- choice:
+  - 其實之前已經跟秋乃……
+  - 1
+  - 1
+- choice:
+  - 麻煩妳了！
+  - 2
+  - 2
+- choice:
+  - 很高興能一起跳舞。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 114511
+- bust:
+  - 114511
+  - 0
+- vo:
+  - vo_adv_6054205_001
+- face:
+  - 114511
+  - 6
+- emotion:
+  - surprise1_L
+  - 114511
+  - 145
+  - 505
+  - se_adv_emote_common_01
+- print:
+  - 咲戀
+  - 咦！？
+- wait:
+  - 20
+- print:
+  - 咲戀
+  - 原來你已經跟秋乃跳過舞了嗎！？
+- wait:
+  - 60
+- print:
+  - 咲戀
+  - >2
+
+- face:
+  - 114511
+  - 1
+- print:
+  - 咲戀
+  - 這樣啊，
+- wait:
+  - 30
+- print:
+  - 咲戀
+  - 看來秋乃對你還真是欣賞呢。
+- wait:
+  - 55
+- print:
+  - 咲戀
+  - >2
+
+- face:
+  - 114511
+  - 2
+- print:
+  - 咲戀
+  - ……不錯嘛！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 114511
+- bust:
+  - 114511
+  - 0
+- vo:
+  - vo_adv_6054205_002
+- face:
+  - 114511
+  - 2
+- nod:
+  - 114511
+- print:
+  - 咲戀
+  - 很好，很坦率！
+- wait:
+  - 50
+- print:
+  - 咲戀
+  - >2
+
+- face:
+  - 114511
+  - 1
+- print:
+  - 咲戀
+  - 不過
+- wait:
+  - 20
+- print:
+  - 咲戀
+  - 我也沒打算太過一板一眼。
+- wait:
+  - 45
+- print:
+  - 咲戀
+  - >2
+
+- face:
+  - 114511
+  - 2
+- print:
+  - 咲戀
+  - 我們就像小時候玩耍那樣，
+- wait:
+  - 40
+- print:
+  - 咲戀
+  - 開開心心地共舞吧！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 114511
+- bust:
+  - 114511
+  - 0
+- vo:
+  - vo_adv_6054205_003
+- face:
+  - 114511
+  - 5
+- nod:
+  - 114511
+- print:
+  - 咲戀
+  - 哎唷！
+- wait:
+  - 35
+- print:
+  - 咲戀
+  - 你這人真不知該說老實過頭還是怎樣……
+- wait:
+  - 70
+- print:
+  - 咲戀
+  - >2
+
+- face:
+  - 114511
+  - 1
+- print:
+  - 咲戀
+  - 不過嘛，
+- wait:
+  - 20
+- print:
+  - 咲戀
+  - 其實我也一樣。
+- wait:
+  - 40
+- print:
+  - 咲戀
+  - 既然共舞的對象是你，
+- wait:
+  - 40
+- print:
+  - 咲戀
+  - >2-
+
+    我當然也一樣開心……
+- wait:
+  - 30
+- face:
+  - 114511
+  - 2
+- print:
+  - 咲戀
+  - 開玩笑的啦！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 114511
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

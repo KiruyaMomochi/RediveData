@@ -1,0 +1,263 @@
+- title:
+  - 打雪仗專家
+- outline:
+  - ' '
+- background:
+  - 500036
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 打雪仗專家
+- chara_full:
+  - 114511
+  - C
+  - 1
+- fadein:
+  - 114511
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M427_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 114511
+- bust:
+  - 114511
+  - 0
+- vo:
+  - vo_adv_6054206_000
+- face:
+  - 114511
+  - 1
+- print:
+  - 咲戀
+  - 丟雪球可是我的拿手項目喔。
+- wait:
+  - 45
+- print:
+  - 咲戀
+  - >2-
+
+    畢竟小時候
+- wait:
+  - 10
+- print:
+  - 咲戀
+  - 我玩到可說是身經百戰！
+- wait:
+  - 60
+- print:
+  - 咲戀
+  - >2
+
+- face:
+  - 114511
+  - 2
+- print:
+  - 咲戀
+  - 就連現在
+- wait:
+  - 25
+- print:
+  - 咲戀
+  - 也常常陪育幼院的孩子們一起玩。
+- wait:
+  - 60
+- print:
+  - 咲戀
+  - 而且當然
+- wait:
+  - 10
+- print:
+  - 咲戀
+  - 是玩真的！
+- touch: &o0 []
+- choice:
+  - 下次我也要參加。
+  - 1
+  - 1
+- choice:
+  - 是說我們的小時候吧？
+  - 2
+  - 2
+- choice:
+  - 好像很厲害。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 114511
+- bust:
+  - 114511
+  - 0
+- vo:
+  - vo_adv_6054206_001
+- face:
+  - 114511
+  - 2
+- emotion:
+  - note1_L
+  - 114511
+  - -120
+  - 460
+  - se_adv_emote_note_01
+- print:
+  - 咲戀
+  - 呵呵♪
+- wait:
+  - 25
+- print:
+  - 咲戀
+  - 我會跟孩子們說一聲的。
+- wait:
+  - 35
+- print:
+  - 咲戀
+  - >2-
+
+    大家一定都會很開心吧。
+- wait:
+  - 55
+- print:
+  - 咲戀
+  - >2
+
+- face:
+  - 114511
+  - 1
+- print:
+  - 咲戀
+  - 到時候我看
+- wait:
+  - 25
+- print:
+  - 咲戀
+  - 我也一起加入好了！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 114511
+- bust:
+  - 114511
+  - 0
+- vo:
+  - vo_adv_6054206_002
+- face:
+  - 114511
+  - 6
+- print:
+  - 咲戀
+  - 原來你還記得嗎。
+- wait:
+  - 35
+- print:
+  - 咲戀
+  - >2
+
+- face:
+  - 114511
+  - 1
+- print:
+  - 咲戀
+  - 明明只有我們兩人，
+- wait:
+  - 25
+- print:
+  - 咲戀
+  - 卻丟雪球丟得渾然忘我，
+- wait:
+  - 45
+- print:
+  - 咲戀
+  - 最後流了滿身大汗。
+- wait:
+  - 65
+- print:
+  - 咲戀
+  - >2
+
+- face:
+  - 114511
+  - 2
+- print:
+  - 咲戀
+  - ……與你共譜的記憶每一樣，
+- wait:
+  - 45
+- print:
+  - 咲戀
+  - 都是像這樣閃閃發亮的回憶。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 114511
+- bust:
+  - 114511
+  - 0
+- vo:
+  - vo_adv_6054206_003
+- face:
+  - 114511
+  - 2
+- print:
+  - 咲戀
+  - 畢竟以前待在【王宮騎士團】那時，
+- wait:
+  - 5
+- print:
+  - 咲戀
+  - >2-
+
+    也接受過磨練了！
+- wait:
+  - 25
+- face:
+  - 114511
+  - 2
+- print:
+  - 咲戀
+  - ……但是話雖如此，
+- wait:
+  - 20
+- print:
+  - 咲戀
+  - >2-
+
+    這次既然輸了，
+- wait:
+  - 40
+- print:
+  - 咲戀
+  - 下次一定得獲勝才行！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 114511
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

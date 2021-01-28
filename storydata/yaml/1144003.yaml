@@ -1,0 +1,2236 @@
+- title:
+  - 秋乃（聖誕節） 第3話
+- outline:
+  - 秋乃的派對終於開始了。參加者們對於必須協助準備派對的要求感到困惑，但也漸漸從中感受到了樂趣。大家共同布置的聖誕樹亮起了燈，會場氣氛越發熱烈了起來……秋乃一臉滿足地望著這副光景。
+- background:
+  - 500040
+- amb:
+  - amb_adv_room_noise_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 一起籌備的完美派對
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - ──秋乃的派對終於開始了。
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    被邀請而來的貴族抵達了派對會場，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    在他面前出現了令人驚愕的一幕。
+- wait:
+  - 30
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_door_open_01
+- chara_full:
+  - 2511
+  - RC
+  - 6
+- se:
+  - se_adv_step_wood_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - RC
+  - 45
+- fadein:
+  - 2511
+  - 45
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M427_02
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1144003_000
+- face:
+  - 2511
+  - 6
+- print:
+  - 貴族
+  - 這、
+- wait:
+  - 20
+- print:
+  - 貴族
+  - 這到底是……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 2511
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 114411
+  - C
+  - 6
+- fadein:
+  - 114411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_1144003_001
+- face:
+  - 114411
+  - 6
+- print:
+  - 秋乃
+  - 裝飾不夠了呢。
+- wait:
+  - 45
+- print:
+  - 秋乃
+  - >2
+
+- face:
+  - 114411
+  - 4
+- print:
+  - 秋乃
+  - 哪裡還有剩的嗎……
+- touch: *o0
+- choice:
+  - 這裡還有喔！
+  - 1
+- tag:
+  - 1
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_1144003_002
+- face:
+  - 114411
+  - 2
+- nod:
+  - 114411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 秋乃
+  - 謝謝你！
+- touch: *o0
+- face:
+  - 114411
+  - 1
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1144003_003
+- face:
+  - 1
+  - 1
+- print:
+  - 女僕
+  - 大小姐，
+- wait:
+  - 20
+- print:
+  - 女僕
+  - 料理已經準備完成了。
+- wait:
+  - 35
+- print:
+  - 女僕
+  - >2-
+
+    接下來
+- wait:
+  - 20
+- print:
+  - 女僕
+  - 只需要等待大小姐的特製烤火雞烤好就沒問題了。
+- touch: *o0
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_1144003_004
+- face:
+  - 114411
+  - 6
+- print:
+  - 秋乃
+  - ……這些量可能不太夠呢。
+- wait:
+  - 45
+- print:
+  - 秋乃
+  - >2
+
+- face:
+  - 114411
+  - 1
+- print:
+  - 秋乃
+  - 再去準備多追加一些。
+- wait:
+  - 45
+- print:
+  - 秋乃
+  - >2-
+
+    我這邊的
+- wait:
+  - 25
+- print:
+  - 秋乃
+  - 布置工作告一段落後，
+- wait:
+  - 35
+- print:
+  - 秋乃
+  - 就馬上過去確認。
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1144003_005
+- face:
+  - 1
+  - 1
+- print:
+  - 女僕
+  - 明白了，
+- wait:
+  - 15
+- print:
+  - 女僕
+  - 大小姐。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 114411
+  - 30
+- chara_full:
+  - 511
+  - RC
+  - 6
+- chara_full:
+  - 114411
+  - LC
+  - 1
+- se:
+  - se_adv_step_wood_move_01
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 511
+- bust:
+  - 511
+  - 0
+- vo:
+  - vo_adv_1144003_006
+- face:
+  - 511
+  - 6
+- print:
+  - 男性
+  - 秋、
+- wait:
+  - 20
+- print:
+  - 男性
+  - 秋乃大人親自準備派對會場……？
+- touch: *o0
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_1144003_007
+- face:
+  - 114411
+  - 1
+- emotion:
+  - notice1_L
+  - 114411
+  - -45
+  - 500
+  - se_adv_emote_common_01
+- print:
+  - 秋乃
+  - 啊，
+- wait:
+  - 25
+- print:
+  - 秋乃
+  - 各位，
+- wait:
+  - 10
+- print:
+  - 秋乃
+  - 我已經恭候多時了！
+- wait:
+  - 30
+- print:
+  - 秋乃
+  - >2-
+
+    在派對開始前拜託各位的事項……
+- wait:
+  - 80
+- face:
+  - 114411
+  - 2
+- print:
+  - 秋乃
+  - 太好了，
+- wait:
+  - 30
+- print:
+  - 秋乃
+  - >2-
+
+    各位都有
+- wait:
+  - 5
+- print:
+  - 秋乃
+  - 好好遵守呢。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 511
+  - 30
+- chara_full:
+  - 413
+  - RC
+  - 1
+- fadein:
+  - 413
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 413
+- bust:
+  - 413
+  - 0
+- vo:
+  - vo_adv_1144003_008
+- face:
+  - 413
+  - 1
+- print:
+  - 女性
+  - 是穿著便於行動的衣服，
+- wait:
+  - 40
+- print:
+  - 女性
+  - >2-
+
+    和帶著自己挑選的禮物前來，
+- wait:
+  - 35
+- print:
+  - 女性
+  - 對吧？
+- touch: *o0
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_1144003_009
+- face:
+  - 114411
+  - 2
+- print:
+  - 秋乃
+  - 感謝您。
+- wait:
+  - 30
+- print:
+  - 秋乃
+  - >2
+
+- face:
+  - 114411
+  - 1
+- print:
+  - 秋乃
+  - 那麼各位，
+- wait:
+  - 20
+- print:
+  - 秋乃
+  - 請先把各自準備的禮物
+- wait:
+  - 30
+- print:
+  - 秋乃
+  - 交給那邊的女僕。
+- touch: *o0
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_1144003_010
+- face:
+  - 114411
+  - 1
+- print:
+  - 秋乃
+  - 在這之後，
+- wait:
+  - 25
+- print:
+  - 秋乃
+  - >2-
+
+    希望各位能協助準備布置、
+- wait:
+  - 20
+- print:
+  - 秋乃
+  - 料理、
+- wait:
+  - 25
+- print:
+  - 秋乃
+  - 和派對活動。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 2511
+  - RC
+  - 4
+- chara_full:
+  - 511
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1144003_011
+- face:
+  - 2511
+  - 4
+- emotion:
+  - surprise1_L
+  - 2511
+  - 150
+  - 600
+  - se_adv_emote_common_01
+- print:
+  - 貴族
+  - 身、
+- wait:
+  - 20
+- print:
+  - 貴族
+  - 身為貴族的我，
+- wait:
+  - 30
+- print:
+  - 貴族
+  - 竟然要幫忙準備派對！？
+- touch: *o0
+- focus:
+  - 511
+- bust:
+  - 511
+  - 0
+- vo:
+  - vo_adv_1144003_012
+- face:
+  - 511
+  - 1
+- print:
+  - 男性
+  - ……秋乃大人，
+- wait:
+  - 35
+- print:
+  - 男性
+  - 我有一事想詢問您。
+- wait:
+  - 55
+- print:
+  - 男性
+  - >2-
+
+    您應該能明白，
+- wait:
+  - 35
+- print:
+  - 男性
+  - 像您這般身分的人，
+- wait:
+  - 5
+- print:
+  - 男性
+  - 現在正在做的事
+- wait:
+  - 40
+- print:
+  - 男性
+  - >2-
+
+    有多麼脫離常識。
+- touch: *o0
+- focus:
+  - 511
+- bust:
+  - 511
+  - 0
+- vo:
+  - vo_adv_1144003_013
+- face:
+  - 511
+  - 1
+- print:
+  - 男性
+  - 於是，
+- wait:
+  - 40
+- print:
+  - 男性
+  - 我才更要問您
+- wait:
+  - 60
+- print:
+  - 男性
+  - >2
+
+- face:
+  - 511
+  - 6
+- bgm:
+  - stop
+  - 5
+  - 1
+- print:
+  - 男性
+  - ──為什麼要這麼做？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 114411
+  - C
+  - 1
+- fadein:
+  - 114411
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M173
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_1144003_014
+- face:
+  - 114411
+  - 1
+- print:
+  - 秋乃
+  - 這還用說嘛。
+- touch: *o0
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_1144003_015
+- face:
+  - 114411
+  - 2
+- print:
+  - 秋乃
+  - 我只是
+- wait:
+  - 40
+- print:
+  - 秋乃
+  - 想和大家一起享受聖誕節。
+- wait:
+  - 60
+- print:
+  - 秋乃
+  - >2
+
+- face:
+  - 114411
+  - 1
+- print:
+  - 秋乃
+  - 大家在慶祝聖誕的同時，/45一起準備派對，
+- wait:
+  - 35
+- print:
+  - 秋乃
+  - >2-
+
+    共同度過最美好的時光，
+- wait:
+  - 55
+- face:
+  - 114411
+  - 2
+- print:
+  - 秋乃
+  - 就只是這樣。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 114411
+  - 30
+- chara_full:
+  - 2511
+  - RC
+  - 6
+- chara_full:
+  - 511
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1144003_016
+- face:
+  - 2511
+  - 6
+- print:
+  - 貴族
+  - 只、
+- wait:
+  - 20
+- print:
+  - 貴族
+  - 只是想享受而已…………
+- touch: *o0
+- focus:
+  - 511
+- bust:
+  - 511
+  - 0
+- vo:
+  - vo_adv_1144003_017
+- face:
+  - 511
+  - 2
+- print:
+  - 男性
+  - ……呵呵，
+- wait:
+  - 35
+- nod:
+  - 511
+- print:
+  - 男性
+  - 哈～哈哈哈哈哈！！
+- wait:
+  - 55
+- print:
+  - 男性
+  - >2-
+
+    真不愧是紫藤家的千金呢！
+- wait:
+  - 65
+- print:
+  - 男性
+  - >2-
+
+    好吧，
+- wait:
+  - 30
+- print:
+  - 男性
+  - 我也來幫忙布置會場。
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1144003_018
+- face:
+  - 2511
+  - 7
+- emotion:
+  - surprise1_L
+  - 2511
+  - 150
+  - 600
+  - se_adv_emote_common_01
+- print:
+  - 貴族
+  - 咦！？
+- wait:
+  - 15
+- print:
+  - 貴族
+  - >2-
+
+    可、
+- wait:
+  - 15
+- print:
+  - 貴族
+  - 可是！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 511
+  - 30
+- chara_full:
+  - 413
+  - LC
+  - 2
+- fadein:
+  - 413
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 413
+- bust:
+  - 413
+  - 0
+- vo:
+  - vo_adv_1144003_019
+- face:
+  - 413
+  - 2
+- print:
+  - 女性
+  - 那我來幫忙準備料理吧。
+- wait:
+  - 55
+- print:
+  - 女性
+  - >2
+
+- face:
+  - 413
+  - 1
+- print:
+  - 女性
+  - 雖然自從商會成立後，
+- wait:
+  - 25
+- print:
+  - 女性
+  - 我就很少進廚房了，
+- wait:
+  - 40
+- print:
+  - 女性
+  - >2-
+
+    但我的料理手藝可還沒有退步喔！
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1144003_020
+- face:
+  - 2511
+  - 4
+- print:
+  - 貴族
+  - 身、
+- wait:
+  - 20
+- print:
+  - 貴族
+  - 身為貴族的我……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 1411
+  - LC
+  - 2
+- chara_full:
+  - 111
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1144003_021
+- face:
+  - 1411
+  - 2
+- emotion:
+  - notice1_L
+  - 1411
+  - -80
+  - 645
+  - se_adv_emote_common_01
+- print:
+  - 店長
+  - 哦，
+- wait:
+  - 15
+- print:
+  - 店長
+  - 小哥你看起來很閒嘛！
+- touch: *o0
+- focus:
+  - 111
+- bust:
+  - 111
+  - 0
+- vo:
+  - vo_adv_1144003_022
+- face:
+  - 111
+  - 2
+- print:
+  - 小孩１
+  - 那
+- wait:
+  - 20
+- print:
+  - 小孩１
+  - 就來幫忙我們
+- wait:
+  - 15
+- print:
+  - 小孩１
+  - 布置聖誕樹吧！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 211
+  - LC
+  - 2
+- chara_full:
+  - 2511
+  - RC
+  - 7
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1144003_023
+- face:
+  - 211
+  - 2
+- print:
+  - 小孩２
+  - 在這邊哦～
+- touch: *o0
+- window_visible:
+  - false
+- focus:
+  - 211:2511
+- se:
+  - se_adv_body_pull_01
+- nod:
+  - 211
+- wait:
+  - 5
+- shake:
+  - 2511
+- window_visible:
+  - true
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1144003_024
+- face:
+  - 2511
+  - 7
+- print:
+  - 貴族
+  - 咦，
+- wait:
+  - 15
+- print:
+  - 貴族
+  - 那個……
+- wait:
+  - 15
+- print:
+  - 貴族
+  - 請、
+- wait:
+  - 15
+- print:
+  - 貴族
+  - 請不要拉著我～～！！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_cloth_move_normal_01
+- se:
+  - se_adv_step_wood_walk_go_01
+- change:
+  - C
+  - RC
+  - 30
+- change:
+  - L
+  - LC
+  - 30
+- fadeout_all:
+  - 30
+- chara_full:
+  - 114411
+  - C
+  - 1
+- fadein:
+  - 114411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_1144003_025
+- face:
+  - 114411
+  - 1
+- print:
+  - 秋乃
+  - 各位……
+- wait:
+  - 50
+- face:
+  - 114411
+  - 2
+- print:
+  - 秋乃
+  - 謝謝你們。
+- touch: *o0
+- choice:
+  - 我們也加油吧！
+  - 2
+- tag:
+  - 2
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_1144003_026
+- face:
+  - 114411
+  - 2
+- emotion:
+  - note1_L
+  - 114411
+  - -80
+  - 460
+  - se_adv_emote_note_01
+- print:
+  - 秋乃
+  - 當然！
+- wait:
+  - 20
+- print:
+  - 秋乃
+  - >2-
+
+    我去確認一下烤火雞的狀況，
+- wait:
+  - 50
+- print:
+  - 秋乃
+  - >2-
+
+    布置的部分
+- wait:
+  - 25
+- print:
+  - 秋乃
+  - 就麻煩你囉！
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_step_wood_walk_go_01
+- fadeout:
+  - 114411
+  - 30
+- bgm:
+  - stop
+  - 2
+- black_out:
+  - 1
+  - 1
+- bg_color:
+  - 0
+  - 0
+  - 0
+- wait:
+  - 30
+- black_in: *o0
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - ──準備工作結束後，參加者們一一就坐。
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    在一片漆黑的會場中，響起了秋乃的聲音。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 1
+- vo:
+  - vo_adv_1144003_027
+- face:
+  - 114411
+  - 1
+- print:
+  - 秋乃
+  - ……各位
+- wait:
+  - 30
+- print:
+  - 秋乃
+  - 都已經就坐了嗎？
+- wait:
+  - 55
+- print:
+  - 秋乃
+  - >2-
+
+    那麼，
+- wait:
+  - 25
+- print:
+  - 秋乃
+  - 要開始囉！
+- wait:
+  - 45
+- print:
+  - 秋乃
+  - >2-
+
+    3！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 38
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1144003_028
+- face:
+  - 1
+  - 1
+- print:
+  - 參加者們的聲音
+  - 2！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 50
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1144003_029
+- face:
+  - 1
+  - 1
+- print:
+  - 參加者們的聲音
+  - 1！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1144003_030
+- face:
+  - 1
+  - 1
+- print:
+  - 參加者們的聲音
+  - 0！
+- touch: *o0
+- window_visible:
+  - FALSE
+- white_out:
+  - 1
+  - 1
+- bg_color:
+  - 255
+  - 255
+  - 255
+- still:
+  - 114400301
+- wait:
+  - 15
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- white_in: *o0
+- se:
+  - amb_adv_gaya_cmn_01
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M426
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1144003_031
+- face:
+  - 1
+  - 1
+- print:
+  - 參加者們的聲音
+  - 哦哦～～！！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 23
+- window_visible:
+  - true
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 1
+- vo:
+  - vo_adv_1144003_032
+- face:
+  - 114411
+  - 2
+- print:
+  - 秋乃
+  - ……
+- wait:
+  - 55
+- print:
+  - 秋乃
+  - 真漂亮。
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 1
+- vo:
+  - vo_adv_1144003_033
+- face:
+  - 1411
+  - 2
+- print:
+  - 店長
+  - 還不賴嘛！
+- touch: *o0
+- focus:
+  - 511
+- bust:
+  - 511
+  - 1
+- vo:
+  - vo_adv_1144003_034
+- face:
+  - 511
+  - 2
+- print:
+  - 男性
+  - ……我已經不知道多久沒見過
+- wait:
+  - 25
+- print:
+  - 男性
+  - >2-
+
+    這種
+- wait:
+  - 65
+- print:
+  - 男性
+  - 綻放著溫暖光芒的樹了。
+- touch: *o0
+- focus:
+  - 413
+- bust:
+  - 413
+  - 1
+- vo:
+  - vo_adv_1144003_035
+- face:
+  - 413
+  - 2
+- print:
+  - 女性
+  - 偶爾回回老家
+- wait:
+  - 10
+- print:
+  - 女性
+  - 和家人們一起開派對好了……
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 1
+- vo:
+  - vo_adv_1144003_036
+- face:
+  - 2511
+  - 1
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - 貴族
+  - >-
+    在那裡！30/
+
+    那個最閃亮、
+- wait:
+  - 30
+- print:
+  - 貴族
+  - 最富藝術性的裝飾品是我掛上去的喔！
+- wait:
+  - 60
+- print:
+  - 貴族
+  - >2
+
+- face:
+  - 2511
+  - 2
+- print:
+  - 貴族
+  - 果然身為貴族的我，擁有最完美的藝術細胞呢！
+- touch: *o0
+- focus:
+  - 111
+- bust:
+  - 111
+  - 1
+- vo:
+  - vo_adv_1144003_037
+- face:
+  - 111
+  - 6
+- print:
+  - 小孩１
+  - 你明明連怎麼掛裝飾品都不懂，
+- wait:
+  - 30
+- print:
+  - 小孩１
+  - 真敢說呢！
+- touch: *o0
+- focus:
+  - 211
+- bust:
+  - 211
+  - 1
+- vo:
+  - vo_adv_1144003_038
+- face:
+  - 211
+  - 2
+- print:
+  - 小孩２
+  - 就是啊就是啊～！
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 1
+- vo:
+  - vo_adv_1144003_039
+- face:
+  - 2511
+  - 7
+- print:
+  - 貴族
+  - 那、
+- wait:
+  - 15
+- print:
+  - 貴族
+  - 那種事，
+- wait:
+  - 25
+- print:
+  - 貴族
+  - 以貴族來說，
+- wait:
+  - 30
+- print:
+  - 貴族
+  - 不該現在被講出來！
+- touch: *o0
+- bgm:
+  - stop
+  - 3.5
+  - 1
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 1
+- vo:
+  - vo_adv_1144003_040
+- face:
+  - 114411
+  - 2
+- print:
+  - 秋乃
+  - ………………
+- touch: *o0
+- choice:
+  - 怎麼了？
+  - 3
+- tag:
+  - 3
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 1
+- vo:
+  - vo_adv_1144003_041
+- face:
+  - 114411
+  - 1
+- print:
+  - 秋乃
+  - 啊，
+- wait:
+  - 30
+- bgm:
+  - bgm_M428
+- print:
+  - 秋乃
+  - 沒事，
+- wait:
+  - 25
+- print:
+  - 秋乃
+  - 看著這幅光景，
+- wait:
+  - 45
+- print:
+  - 秋乃
+  - >2-
+
+    我就不由自主的想到很多事……
+- touch: *o0
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 1
+- vo:
+  - vo_adv_1144003_042
+- face:
+  - 114411
+  - 1
+- print:
+  - 秋乃
+  - ……決定舉辦這個派對的時候，
+- wait:
+  - 55
+- print:
+  - 秋乃
+  - 我想的是
+- wait:
+  - 55
+- print:
+  - 秋乃
+  - >2-
+
+    要辦一個我認為最完美、從來沒有體驗過的那種派對。
+- touch: *o0
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 1
+- vo:
+  - vo_adv_1144003_043
+- face:
+  - 114411
+  - 1
+- print:
+  - 秋乃
+  - 認為至今為止參加過的派對既老套又無趣，
+- wait:
+  - 50
+- print:
+  - 秋乃
+  - 將它們全盤否定，
+- wait:
+  - 80
+- print:
+  - 秋乃
+  - >2-
+
+    想實現我心目中的完美派對……
+- wait:
+  - 90
+- print:
+  - 秋乃
+  - 不，
+- wait:
+  - 45
+- print:
+  - 秋乃
+  - >2-
+
+    我或許只是想
+- wait:
+  - 45
+- print:
+  - 秋乃
+  - 得到認同而已。
+- touch: *o0
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 1
+- vo:
+  - vo_adv_1144003_044
+- face:
+  - 114411
+  - 1
+- print:
+  - 秋乃
+  - 不過，
+- wait:
+  - 40
+- print:
+  - 秋乃
+  - 派對這種東西，
+- wait:
+  - 35
+- print:
+  - 秋乃
+  - 既不是為了自己，
+- wait:
+  - 35
+- print:
+  - 秋乃
+  - 也不是為了誰，
+- wait:
+  - 50
+- print:
+  - 秋乃
+  - >2-
+
+    而是為了讓大家同樂而存在。
+- wait:
+  - 75
+- print:
+  - 秋乃
+  - 我竟然沒有意識到這件事……
+- wait:
+  - 60
+- print:
+  - 秋乃
+  - >2
+
+- face:
+  - 114411
+  - 2
+- print:
+  - 秋乃
+  - 總覺得
+- wait:
+  - 30
+- print:
+  - 秋乃
+  - 有些慚愧呢。
+- touch: *o0
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 1
+- vo:
+  - vo_adv_1144003_045
+- face:
+  - 114411
+  - 1
+- print:
+  - 秋乃
+  - 正因如此，
+- wait:
+  - 45
+- print:
+  - 秋乃
+  - >2-
+
+    我能舉辦像現在這樣
+- wait:
+  - 30
+- print:
+  - 秋乃
+  - 與大家同樂的派對，
+- wait:
+  - 65
+- print:
+  - 秋乃
+  - >2-
+
+    真是太好了，
+- wait:
+  - 80
+- face:
+  - 114411
+  - 2
+- wait:
+  - 40
+- print:
+  - 秋乃
+  - 想著想著就
+- wait:
+  - 30
+- print:
+  - 秋乃
+  - 覺得無限感慨……
+- touch: *o0
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 1
+- vo:
+  - vo_adv_1144003_046
+- face:
+  - 114411
+  - 1
+- print:
+  - 秋乃
+  - ……我能察覺到這件事，
+- wait:
+  - 55
+- print:
+  - 秋乃
+  - 都是多虧了在場的各位，
+- wait:
+  - 45
+- print:
+  - 秋乃
+  - 還有
+- wait:
+  - 40
+- print:
+  - 秋乃
+  - >2-
+
+    總是能
+- wait:
+  - 25
+- print:
+  - 秋乃
+  - 帶給我新發現和感動的
+- wait:
+  - 85
+- print:
+  - 秋乃
+  - '{0}……'
+- wait:
+  - 120
+- print:
+  - 秋乃
+  - >2-
+
+    真的
+- wait:
+  - 35
+- print:
+  - 秋乃
+  - 非常感謝。
+- touch: *o0
+- se_pause:
+  - amb_adv_gaya_cmn_01
+  - 7
+- se:
+  - se_adv_body_shake_head_01
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 1
+- vo:
+  - vo_adv_1144003_047
+- face:
+  - 114411
+  - 6
+- print:
+  - 秋乃
+  - 咦……
+- wait:
+  - 25
+- print:
+  - 秋乃
+  - 那、
+- wait:
+  - 20
+- print:
+  - 秋乃
+  - 那個！？
+- wait:
+  - 30
+- print:
+  - 秋乃
+  - >2-
+
+    為、
+- wait:
+  - 10
+- print:
+  - 秋乃
+  - 為什麼
+- wait:
+  - 25
+- print:
+  - 秋乃
+  - 要摸我的頭！？
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+- choice:
+  - 妳很努力呢！
+  - 5
+- tag:
+  - 5
+- bgm:
+  - bgm_M283
+  - 0
+  - 0
+  - 1
+  - 1
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 1
+- vo:
+  - vo_adv_1144003_048
+- face:
+  - 114411
+  - 5
+- print:
+  - 秋乃
+  - ……！？
+- touch: *o0
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 1
+- vo:
+  - vo_adv_1144003_049
+- face:
+  - 114411
+  - 2
+- print:
+  - 秋乃
+  - 非常……
+- wait:
+  - 30
+- print:
+  - 秋乃
+  - 謝謝你……
+- wait:
+  - 115
+- print:
+  - 秋乃
+  - >2-
+
+    我能
+- wait:
+  - 35
+- print:
+  - 秋乃
+  - 和{0}相遇，
+- wait:
+  - 35
+- print:
+  - 秋乃
+  - 真是太好了。
+- touch: *o0
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 1
+- vo:
+  - vo_adv_1144003_050
+- face:
+  - 114411
+  - 5
+- print:
+  - 秋乃
+  - ……那、
+- wait:
+  - 15
+- print:
+  - 秋乃
+  - 那個！
+- wait:
+  - 35
+- print:
+  - 秋乃
+  - >2-
+
+    接下來
+- wait:
+  - 25
+- print:
+  - 秋乃
+  - 還有準備蛋糕……
+- touch: *o0
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1144003_051
+- face:
+  - 1
+  - 1
+- print:
+  - 參加者們
+  - ……盯──
+- touch: *o0
+- window_visible:
+  - false
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0022
+- background:
+  - 500042
+- still:
+  - end
+- wait:
+  - 15
+- white_in: *o0
+- chara_full:
+  - 114411
+  - C
+  - 5
+- fadein:
+  - 114411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_1144003_052
+- face:
+  - 114411
+  - 5
+- emotion:
+  - surprise1_L
+  - 114411
+  - 165
+  - 470
+  - se_adv_emote_common_01
+- print:
+  - 秋乃
+  - ……咦！？
+- wait:
+  - 10
+- print:
+  - 秋乃
+  - >2-
+
+    各、
+- wait:
+  - 15
+- print:
+  - 秋乃
+  - 各位，
+- wait:
+  - 20
+- print:
+  - 秋乃
+  - 你們從什麼時候在那裡的……！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 114411
+  - 30
+- chara_full:
+  - 511
+  - LC
+  - 2
+- chara_full:
+  - 413
+  - RC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 511
+- bust:
+  - 511
+  - 0
+- vo:
+  - vo_adv_1144003_053
+- face:
+  - 511
+  - 2
+- print:
+  - 男性
+  - 哎呀哎呀，
+- wait:
+  - 30
+- print:
+  - 男性
+  - 年輕真好啊。
+- touch: *o0
+- focus:
+  - 413
+- bust:
+  - 413
+  - 0
+- vo:
+  - vo_adv_1144003_054
+- face:
+  - 413
+  - 2
+- print:
+  - 女性
+  - 我也想快點找到男朋友……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 2511
+  - RC
+  - 7
+- chara_full:
+  - 1411
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1144003_055
+- face:
+  - 2511
+  - 7
+- print:
+  - 貴族
+  - 這、
+- wait:
+  - 25
+- pop:
+  - 2511
+- print:
+  - 貴族
+  - 這種事！
+- wait:
+  - 30
+- print:
+  - 貴族
+  - >2-
+
+    以、
+- wait:
+  - 10
+- print:
+  - 貴族
+  - 以貴族來說……
+- wait:
+  - 25
+- print:
+  - 貴族
+  - 這個……
+- wait:
+  - 15
+- print:
+  - 貴族
+  - 那個……！！
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1144003_056
+- face:
+  - 1411
+  - 2
+- print:
+  - 店長
+  - 好了好了小鬼們，
+- wait:
+  - 40
+- print:
+  - 店長
+  - 這場面對你們來說還太早了。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 111
+  - RC
+  - 1
+- chara_full:
+  - 211
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 111
+- bust:
+  - 111
+  - 0
+- vo:
+  - vo_adv_1144003_057
+- face:
+  - 111
+  - 1
+- nod:
+  - 111
+- se:
+  - se_adv_step_concrete_move_01
+- print:
+  - 小孩１
+  - 欸～
+- wait:
+  - 15
+- print:
+  - 小孩１
+  - >2-
+
+    我要看他們卿卿我我啦～！
+- touch: *o0
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1144003_058
+- face:
+  - 211
+  - 1
+- pop:
+  - 211
+- se:
+  - se_adv_rabbit_jump_01
+- print:
+  - 小孩２
+  - 要看啦～！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1144003_059
+- face:
+  - 1
+  - 1
+- print:
+  - 女僕
+  - 大小姐，
+- wait:
+  - 25
+- print:
+  - 女僕
+  - >2-
+
+    我們女僕全員，
+- wait:
+  - 30
+- print:
+  - 女僕
+  - 會永遠支持大小姐的。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 114411
+  - C
+  - 5
+- fadein:
+  - 114411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_1144003_060
+- face:
+  - 114411
+  - 5
+- print:
+  - 秋乃
+  - 你、
+- wait:
+  - 15
+- print:
+  - 秋乃
+  - 你們都誤會了……
+- wait:
+  - 30
+- print:
+  - 秋乃
+  - 真、
+- wait:
+  - 25
+- nod:
+  - 114411
+- print:
+  - 秋乃
+  - 真是的！
+- wait:
+  - 25
+- print:
+  - 秋乃
+  - >2
+
+- face:
+  - 114411
+  - 1
+- print:
+  - 秋乃
+  - 快點
+- wait:
+  - 20
+- print:
+  - 秋乃
+  - 繼續開始派對囉！！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 114411
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - ──熱鬧的聲響，迴盪於聖夜之下的蘭德索爾。
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - FALSE
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0
