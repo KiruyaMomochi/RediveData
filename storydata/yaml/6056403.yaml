@@ -1,0 +1,248 @@
+- title:
+  - 夥伴
+- outline:
+  - ' '
+- background:
+  - 500036
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 夥伴
+- chara_full:
+  - 106114
+  - C
+  - 4
+- fadein:
+  - 106114
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106114
+- bust:
+  - 106114
+  - 0
+- vo:
+  - vo_adv_6056403_000
+- face:
+  - 106114
+  - 4
+- print:
+  - 矛依未
+  - 那個叫和優的大叔，
+- wait:
+  - 25
+- print:
+  - 矛依未
+  - 一直以來都是孤軍奮戰吧？
+- wait:
+  - 35
+- print:
+  - 矛依未
+  - >2
+
+- face:
+  - 106114
+  - 1
+- print:
+  - 矛依未
+  - 雖然這也並不代表什麼……
+- wait:
+  - 45
+- print:
+  - 矛依未
+  - 不過你可要助他一臂之力啊！
+- touch: &o0 []
+- choice:
+  - 交給我吧！
+  - 1
+  - 1
+- choice:
+  - 也期待諾維姆的表現。
+  - 2
+  - 2
+- choice:
+  - 有大家在不用怕。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 106114
+- bust:
+  - 106114
+  - 0
+- vo:
+  - vo_adv_6056403_001
+- face:
+  - 106114
+  - 2
+- nod:
+  - 106114
+- print:
+  - 矛依未
+  - 喔！
+- wait:
+  - 35
+- print:
+  - 矛依未
+  - >2
+
+- face:
+  - 106114
+  - 1
+- print:
+  - 矛依未
+  - 不過啊，
+- wait:
+  - 15
+- print:
+  - 矛依未
+  - 你跟我不一樣，有點讓人放不下心。
+- wait:
+  - 35
+- print:
+  - 矛依未
+  - >2-
+
+    你可要小心一點，
+- wait:
+  - 15
+- print:
+  - 矛依未
+  - 別賣力過頭結果掉到海裡去了！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 106114
+- bust:
+  - 106114
+  - 0
+- vo:
+  - vo_adv_6056403_002
+- face:
+  - 106114
+  - 6
+- emotion:
+  - surprise1_L
+  - 106114
+  - 160
+  - 485
+  - se_adv_emote_common_01
+- print:
+  - 矛依未
+  - 咦？
+- wait:
+  - 15
+- print:
+  - 矛依未
+  - 我嗎？
+- wait:
+  - 25
+- print:
+  - 矛依未
+  - >2
+
+- face:
+  - 106114
+  - 1
+- print:
+  - 矛依未
+  - 可是我其實
+- wait:
+  - 15
+- print:
+  - 矛依未
+  - 並不算是那個大叔的夥伴……
+- wait:
+  - 45
+- print:
+  - 矛依未
+  - >2
+
+- face:
+  - 106114
+  - 2
+- print:
+  - 矛依未
+  - 嘿嘿，既然想要幫手那也沒辦法！包在我諾維姆身上吧！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 106114
+- bust:
+  - 106114
+  - 0
+- vo:
+  - vo_adv_6056403_003
+- face:
+  - 106114
+  - 2
+- nod:
+  - 106114
+- print:
+  - 矛依未
+  - ……也對。
+- wait:
+  - 15
+- print:
+  - 矛依未
+  - 只要有你們這些幫手，
+- wait:
+  - 20
+- print:
+  - 矛依未
+  - 大叔應該也不用費勁吧！
+- wait:
+  - 15
+- print:
+  - 矛依未
+  - >2-
+
+    早點搞定早點回來吧！
+- wait:
+  - 25
+- print:
+  - 矛依未
+  - >
+    然後大家一起吃頓大餐！/15
+- face:
+  - 106114
+  - 6
+- print:
+  - 矛依未
+  - 海上很冷別感冒了！
+- wait:
+  - 25
+- print:
+  - 矛依未
+  - 把自己穿暖一點！
+- wait:
+  - 15
+- print:
+  - 矛依未
+  - 知道了嗎！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 106114
+  - 30
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

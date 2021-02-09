@@ -1,0 +1,8236 @@
+- title:
+  - 激闘、海の防衛線
+- outline:
+  - 絶体絶命の中、助けに現れたオーマの漁師、ミナト三兄弟。彼らの協力を得てグレートトゥンヌスを一時的に撃退した{0}たちは、判明したグレートトゥンヌスの弱点に希望を見出すのだった。
+- background:
+  - 501193
+- se:
+  - amb_adv_seaside_04
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 激闘、海の防衛線
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - 海の彼方からオーマの町へ迫る危機。
+- wait:
+  - 30
+- print:
+  - ナレーション
+  - >2-
+
+    それらを迎え撃つため、【美食殿】のメンバーはカズマサと共に
+- wait:
+  - 30
+- print:
+  - ナレーション
+  - >2-
+
+    急ぎ船を走らせる。
+- wait:
+  - 15
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 105812
+  - C
+  - 6
+- fadein:
+  - 105812
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M95_Ver3
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5056005_000
+- face:
+  - 105812
+  - 6
+- emotion:
+  - exclamation1_R
+  - 105812
+  - 5
+  - 650
+  - se_adv_emote_common_01
+- print:
+  - ペコリーヌ
+  - ……見えました！
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - >2-
+
+    前方から、
+- wait:
+  - 30
+- print:
+  - ペコリーヌ
+  - すごい数の魚影です！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105812
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- se:
+  - se_adv_wave_01
+- change_window:
+  - 3
+- text_size:
+  - 50
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- effect:
+  - 9
+- se:
+  - se_adv_creature_tentapus_02
+- print:
+  - 魔物たち
+  - ──グオオオオオッ！
+- shake_screen: *o0
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- effect:
+  - 0032
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 105913
+  - LC
+  - 6
+- chara_full:
+  - 6411
+  - RC
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5056005_001
+- face:
+  - 105913
+  - 6
+- print:
+  - コッコロ
+  - ……このままでは
+- wait:
+  - 15
+- print:
+  - コッコロ
+  - 向かってくる魚群と
+- wait:
+  - 30
+- print:
+  - コッコロ
+  - 正面衝突してしまいます。
+- wait:
+  - 55
+- print:
+  - コッコロ
+  - >2
+
+- face:
+  - 105913
+  - 4
+- print:
+  - コッコロ
+  - あの数を相手に突撃は
+- wait:
+  - 55
+- print:
+  - コッコロ
+  - あまりにも無謀のように思いますが……
+- touch: *o0
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_002
+- face:
+  - 6411
+  - 4
+- print:
+  - カズマサ
+  - ああ、
+- wait:
+  - 15
+- print:
+  - カズマサ
+  - さすがに捨て身で止めようとは思ってねぇよ。
+- wait:
+  - 55
+- print:
+  - カズマサ
+  - >2
+
+- face:
+  - 6411
+  - 1
+- print:
+  - カズマサ
+  - ……今回はこいつを使う。
+- touch: *o0
+- se:
+  - se_adv_box_drop_01
+- choice:
+  - 箱詰めの……魔道具？
+  - 1
+- tag:
+  - 1
+- face:
+  - 105913
+  - 6
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_003
+- face:
+  - 6411
+  - 1
+- nod:
+  - 6411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - カズマサ
+  - こいつは『シークラッカー』。
+- wait:
+  - 60
+- print:
+  - カズマサ
+  - >2-
+
+    海水に反応し、
+- wait:
+  - 35
+- print:
+  - カズマサ
+  - 音波を炸裂させる代物よ。
+- wait:
+  - 65
+- print:
+  - カズマサ
+  - >2-
+
+    元の用途は
+- wait:
+  - 40
+- print:
+  - カズマサ
+  - 漁の際の誘導とかに使うんだがな。
+- touch: *o0
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_004
+- face:
+  - 6411
+  - 1
+- print:
+  - カズマサ
+  - トゥンヌスは本来、
+- wait:
+  - 30
+- print:
+  - カズマサ
+  - 警戒心の強い魔物だ。
+- wait:
+  - 65
+- print:
+  - カズマサ
+  - >2-
+
+    こいつを適度に投げ入れて、
+- wait:
+  - 30
+- print:
+  - カズマサ
+  - ビビらせてやれば、
+- wait:
+  - 35
+- print:
+  - カズマサ
+  - >2-
+
+    やつらも尻尾を巻いて逃げるはずだろうよ。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105913
+  - 30
+- chara_full:
+  - 106012
+  - LC
+  - 4
+- fadein:
+  - 106012
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5056005_005
+- face:
+  - 106012
+  - 4
+- print:
+  - キャル
+  - おっさんが用意する物って、
+- wait:
+  - 35
+- print:
+  - キャル
+  - あんまいい予感しないのよね……
+- wait:
+  - 55
+- print:
+  - キャル
+  - >2
+
+- face:
+  - 106012
+  - 3
+- print:
+  - キャル
+  - また故障とかないでしょうね？
+- touch: *o0
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_006
+- face:
+  - 6411
+  - 1
+- print:
+  - カズマサ
+  - こいつは海水に浸けるだけで
+- wait:
+  - 50
+- print:
+  - カズマサ
+  - 自然に発動するタイプの魔道具だ。
+- wait:
+  - 70
+- print:
+  - カズマサ
+  - >2
+
+- face:
+  - 6411
+  - 4
+- print:
+  - カズマサ
+  - 故障とかはないと思う……
+- wait:
+  - 70
+- print:
+  - カズマサ
+  - たぶん。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 6411
+  - C
+  - 1
+- fadein:
+  - 6411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_007
+- face:
+  - 6411
+  - 1
+- print:
+  - カズマサ
+  - さあ、
+- wait:
+  - 15
+- print:
+  - カズマサ
+  - 運ぶのを手伝ってくれ！
+- wait:
+  - 45
+- print:
+  - カズマサ
+  - >2
+
+- face:
+  - 6411
+  - 4
+- print:
+  - カズマサ
+  - 実はけっこう重量があって、
+- wait:
+  - 50
+- print:
+  - カズマサ
+  - おじさんの手はさっきからプルプルしてる！
+- wait:
+  - 60
+- print:
+  - カズマサ
+  - >2-
+
+    このままだと
+- wait:
+  - 30
+- print:
+  - カズマサ
+  - 海の中にひっくり返しちゃうかも──
+- touch: *o0
+- bgm:
+  - stop
+  - 1
+  - 1
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_008
+- face:
+  - 6411
+  - 6
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - カズマサ
+  - ──あふんっ。
+- shake:
+  - 6411
+- touch: *o0
+- se:
+  - se_adv_bodyfall_03
+- window_visible:
+  - false
+- updown:
+  - 6411
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 6411
+  - 15
+- bgm:
+  - bgm_M116_Ver2
+  - 0
+  - 0
+  - 0
+  - 0.5
+- se:
+  - se_adv_bodyfall_02
+- se:
+  - se_adv_throw_normal_02
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- se:
+  - se_adv_water_sprinkle_02
+- chara_full:
+  - 105812
+  - C
+  - 6
+- fadein:
+  - 105812
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5056005_009
+- face:
+  - 105812
+  - 6
+- print:
+  - ペコリーヌ
+  - あっ──
+- touch: *o0
+- choice:
+  - 箱が海に落ちて──
+  - 2
+- tag:
+  - 2
+- window_visible:
+  - false
+- fadeout:
+  - 105812
+  - 30
+- se:
+  - se_adv_magic_water_large_01
+- se:
+  - se_adv_water_explosion_impact_01
+- se:
+  - se_adv_magic_noise_light_01
+- shake_screen: *o0
+- chara_full:
+  - 105913
+  - LC
+  - 6
+- chara_full:
+  - 106012
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5056005_010
+- face:
+  - 106012
+  - 6
+- emotion:
+  - surprise1_L
+  - 106012
+  - 165
+  - 540
+  - se_adv_emote_common_01
+- print:
+  - キャル
+  - だああああああっ！？　
+- wait:
+  - 15
+- print:
+  - キャル
+  - めちゃくちゃ爆発してる！
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5056005_011
+- face:
+  - 105913
+  - 6
+- print:
+  - コッコロ
+  - いえ、
+- wait:
+  - 15
+- print:
+  - コッコロ
+  - ですが……
+- wait:
+  - 35
+- print:
+  - コッコロ
+  - >2-
+
+    トゥンヌスの魚影が──！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- se:
+  - se_adv_water_splash_small_01
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- se:
+  - se_adv_creature_tentapus_02
+- print:
+  - 魔物たち
+  - ────！
+- wait:
+  - 15
+- print:
+  - 魔物たち
+  - >2-
+
+    ────！
+- wait:
+  - 15
+- print:
+  - 魔物たち
+  - >2-
+
+    ────！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0032
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 105812
+  - LC
+  - 1
+- chara_full:
+  - 6411
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5056005_012
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - みんな逃げていきます！
+- wait:
+  - 25
+- print:
+  - ペコリーヌ
+  - >2-
+
+    あえて一度に爆発させて、
+- wait:
+  - 35
+- print:
+  - ペコリーヌ
+  - 驚かせる……
+- wait:
+  - 40
+- print:
+  - ペコリーヌ
+  - >2-
+
+    まさかカズマサさん、
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - 最初からこれが狙いだったんですかっ？
+- touch: *o0
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_013
+- face:
+  - 6411
+  - 6
+- print:
+  - カズマサ
+  - ────
+- touch: *o0
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_014
+- face:
+  - 6411
+  - 4
+- print:
+  - カズマサ
+  - …………あ、うん。
+- wait:
+  - 15
+- print:
+  - カズマサ
+  - ソウダヨ？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105913
+  - LC
+  - 6
+- chara_full:
+  - 106012
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5056005_015
+- face:
+  - 106012
+  - 6
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 106012
+- print:
+  - キャル
+  - 今の間っ！　
+- wait:
+  - 30
+- print:
+  - キャル
+  - 返事も片言っ！
+- wait:
+  - 30
+- print:
+  - キャル
+  - >2
+
+- face:
+  - 106012
+  - 3
+- print:
+  - キャル
+  - あからさまなうそつくんじゃないわよ！
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5056005_016
+- face:
+  - 105913
+  - 2
+- nod:
+  - 105913
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - コッコロ
+  - まぁまぁ、
+- wait:
+  - 25
+- print:
+  - コッコロ
+  - うまくいったのですから。
+- wait:
+  - 35
+- print:
+  - コッコロ
+  - >2-
+
+    魚群の進路も
+- wait:
+  - 25
+- print:
+  - コッコロ
+  - 町の方から逸れて──
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 105913
+  - 6
+- face:
+  - 106012
+  - 6
+- change_window:
+  - 3
+- text_size:
+  - 50
+- se:
+  - se_adv_creature_tentapus_01
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 1.5
+- bgm:
+  - bgm_M131
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 巨大な咆哮
+  - ──グオオオオオッ！
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- window_visible:
+  - true
+- se:
+  - se_adv_cloth_move_normal_01
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5056005_017
+- face:
+  - 105913
+  - 4
+- print:
+  - コッコロ
+  - ──う……っ！
+- shake:
+  - 105913
+- wait:
+  - 25
+- print:
+  - コッコロ
+  - >2-
+
+    この咆哮は……！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 6411
+  - C
+  - 3
+- fadein:
+  - 6411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_018
+- face:
+  - 6411
+  - 3
+- print:
+  - カズマサ
+  - ……来るぞッ！！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 6411
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 14311
+  - C
+  - 1
+- se:
+  - se_adv_water_splash_big_01
+- fadein:
+  - 14311
+  - 30
+- se:
+  - se_adv_magic_water_large_01
+- change_window:
+  - 3
+- text_size:
+  - 50
+- window_visible:
+  - true
+- focus:
+  - 14311
+- bust:
+  - 14311
+  - 0
+- face:
+  - 14311
+  - 1
+- se:
+  - se_adv_creature_tentapus_01
+- print:
+  - 巨大な魔物
+  - ──グオオオオオッ！
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- se:
+  - se_adv_wave_01
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- se:
+  - se_adv_creature_tentapus_02
+- print:
+  - 魔物たち
+  - ────！
+- wait:
+  - 15
+- print:
+  - 魔物たち
+  - >2-
+
+    ────！
+- wait:
+  - 15
+- print:
+  - 魔物たち
+  - >2-
+
+    ────！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 14311
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 106012
+  - LC
+  - 6
+- chara_full:
+  - 6411
+  - RC
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5056005_019
+- face:
+  - 106012
+  - 6
+- emotion:
+  - exclamation1_R
+  - 106012
+  - 10
+  - 635
+  - se_adv_emote_common_01
+- print:
+  - キャル
+  - ま、
+- wait:
+  - 15
+- print:
+  - キャル
+  - またあいつ……！
+- wait:
+  - 25
+- print:
+  - キャル
+  - >2-
+
+    トゥンヌスの群れが引き返してくるわよ！？
+- touch: *o0
+- choice:
+  - 船にぶつかる……！
+  - 3
+- tag:
+  - 3
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_020
+- face:
+  - 6411
+  - 3
+- print:
+  - カズマサ
+  - くそ……
+- wait:
+  - 30
+- print:
+  - カズマサ
+  - ここまでなのか……！？
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_ship_boat_cruise_01
+- face:
+  - 106012
+  - 6
+- face:
+  - 6411
+  - 6
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 7
+  - 1
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5056005_021
+- face:
+  - 1
+  - 1
+- print:
+  - ？？？
+  - ──かーずーまーさぁーッ！！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- se:
+  - se_adv_water_explosion_impact_01
+- se:
+  - se_adv_magic_noise_light_01
+- shake_screen: *o0
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- se:
+  - se_adv_creature_tentapus_02
+- print:
+  - 魔物たち
+  - ────！
+- wait:
+  - 15
+- print:
+  - 魔物たち
+  - >2-
+
+    ────！
+- wait:
+  - 15
+- print:
+  - 魔物たち
+  - >2-
+
+    ────！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0032
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 106012
+  - LC
+  - 6
+- chara_full:
+  - 6411
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M388
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5056005_022
+- face:
+  - 106012
+  - 6
+- print:
+  - キャル
+  - へ……？
+- wait:
+  - 20
+- print:
+  - キャル
+  - >2-
+
+    い、
+- wait:
+  - 15
+- print:
+  - キャル
+  - 今の爆発って──
+- touch: *o0
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_023
+- face:
+  - 6411
+  - 6
+- emotion:
+  - exclamation1_R
+  - 6411
+  - 5
+  - 610
+  - se_adv_emote_common_01
+- print:
+  - カズマサ
+  - ……『シークラッカー』……！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105812
+  - C
+  - 6
+- fadein:
+  - 105812
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 4.5
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5056005_024
+- face:
+  - 105812
+  - 6
+- print:
+  - ペコリーヌ
+  - 見てください！　
+- wait:
+  - 15
+- print:
+  - ペコリーヌ
+  - あれ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105812
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 501190
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 911
+  - C
+  - 3
+- fadein:
+  - 911
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M297
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_5056005_025
+- face:
+  - 911
+  - 3
+- print:
+  - 三兄弟の長男
+  - ──どんどん投げ入れろ！　
+- wait:
+  - 25
+- print:
+  - 三兄弟の長男
+  - やつらを近づけさせるな！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 911
+  - 30
+- chara_full:
+  - 6311
+  - LC
+  - 1
+- chara_full:
+  - 811
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_5056005_026
+- face:
+  - 811
+  - 1
+- nod:
+  - 811
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 三兄弟の次男
+  - 合点だ、
+- wait:
+  - 15
+- print:
+  - 三兄弟の次男
+  - 兄ちゃん！　
+- wait:
+  - 15
+- print:
+  - 三兄弟の次男
+  - 今日は赤字覚悟の大盤振る舞いだぜ！
+- touch: *o0
+- focus:
+  - 6311
+- bust:
+  - 6311
+  - 0
+- vo:
+  - vo_adv_5056005_027
+- face:
+  - 6311
+  - 3
+- print:
+  - 三兄弟の三男
+  - グレートトゥンヌスがなんぼのもんじゃい！
+- wait:
+  - 55
+- print:
+  - 三兄弟の三男
+  - >2-
+
+    オーマの漁師を舐めるなよ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 501193
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 105913
+  - LC
+  - 6
+- chara_full:
+  - 106012
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5056005_028
+- face:
+  - 105913
+  - 6
+- emotion:
+  - exclamation1_R
+  - 105913
+  - 25
+  - 600
+  - se_adv_emote_common_01
+- print:
+  - コッコロ
+  - 三兄弟の方々……！
+- wait:
+  - 70
+- print:
+  - コッコロ
+  - >2-
+
+    わたくしたちを追ってきたのでしょうか……っ？
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5056005_029
+- face:
+  - 106012
+  - 6
+- print:
+  - キャル
+  - ど、
+- wait:
+  - 5
+- print:
+  - キャル
+  - どうしてよっ？
+- wait:
+  - 20
+- print:
+  - キャル
+  - >2-
+
+    無理とか言って諦めてたんじゃないのっ！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 6411
+  - C
+  - 4
+- fadein:
+  - 6411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_030
+- face:
+  - 6411
+  - 4
+- print:
+  - カズマサ
+  - ……あ、
+- wait:
+  - 15
+- print:
+  - カズマサ
+  - あいつら……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 6411
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 501190
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 6311
+  - LC
+  - 1
+- chara_full:
+  - 811
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_5056005_031
+- face:
+  - 811
+  - 1
+- print:
+  - 三兄弟の次男
+  - おうよ、
+- wait:
+  - 10
+- print:
+  - 三兄弟の次男
+  - カズマサ！　
+- wait:
+  - 30
+- print:
+  - 三兄弟の次男
+  - それに嬢ちゃんたちも！
+- wait:
+  - 35
+- print:
+  - 三兄弟の次男
+  - >2
+
+- face:
+  - 811
+  - 2
+- print:
+  - 三兄弟の次男
+  - まだ沈んじゃいねぇだろうなぁ！？
+- touch: *o0
+- focus:
+  - 6311
+- bust:
+  - 6311
+  - 0
+- vo:
+  - vo_adv_5056005_032
+- face:
+  - 6311
+  - 2
+- print:
+  - 三兄弟の三男
+  - くたばるには早いぜぇ！！
+- wait:
+  - 60
+- print:
+  - 三兄弟の三男
+  - >2-
+
+    調子こいた魚どもに、
+- wait:
+  - 45
+- print:
+  - 三兄弟の三男
+  - オーマの意地ってもんを見せてやらなきゃなぁ！！
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 1
+- vo:
+  - vo_adv_5056005_033
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - 三兄弟さん！　
+- wait:
+  - 40
+- print:
+  - ペコリーヌ
+  - 助けにきてくれたんですね！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 911
+  - C
+  - 2
+- fadein:
+  - 911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_5056005_034
+- face:
+  - 911
+  - 2
+- print:
+  - 三兄弟の長男
+  - ……待たせたな。
+- wait:
+  - 35
+- print:
+  - 三兄弟の長男
+  - >2-
+
+    もう、
+- wait:
+  - 5
+- print:
+  - 三兄弟の長男
+  - あんたたちだけで戦わせたりなんかしねぇよ。
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_5056005_035
+- face:
+  - 911
+  - 1
+- print:
+  - 三兄弟の長男
+  - ポンコツ漁師に、
+- wait:
+  - 20
+- print:
+  - 三兄弟の長男
+  - 関係ねぇはずなのに協力してくれる嬢ちゃんたち！
+- wait:
+  - 60
+- print:
+  - 三兄弟の長男
+  - >2-
+
+    オーマのために必死になってるあんたらを見捨てたら、
+- wait:
+  - 40
+- print:
+  - 三兄弟の長男
+  - >2-
+
+    おれたちは漁師としての誇りさえ捨てることになっちまう……！
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_5056005_036
+- face:
+  - 911
+  - 2
+- print:
+  - 三兄弟の長男
+  - カズマサ！
+- wait:
+  - 25
+- print:
+  - 三兄弟の長男
+  - >2-
+
+    あん時の借りを、
+- wait:
+  - 10
+- print:
+  - 三兄弟の長男
+  - 今こそ返すぜ！
+- wait:
+  - 50
+- print:
+  - 三兄弟の長男
+  - >2-
+
+    あんたに助けられて立派な漁師になったおれたちの勇姿、
+- wait:
+  - 55
+- print:
+  - 三兄弟の長男
+  - 見せてやるよ！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_impact_swing_01
+- se:
+  - se_adv_throw_normal_02
+- effect:
+  - 0009
+- pop:
+  - 911
+- wait:
+  - 15
+- fadeout:
+  - 911
+  - 30
+- effect_delete:
+  - 0009
+- se:
+  - se_adv_water_explosion_impact_01
+- se:
+  - se_adv_magic_noise_light_01
+- shake_screen: *o0
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - se_adv_water_explosion_impact_01
+  - 2
+- se_pause:
+  - se_adv_magic_noise_light_01
+  - 2
+- background:
+  - 501193
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 105812
+  - LC
+  - 1
+- chara_full:
+  - 105913
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5056005_037
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - 三兄弟さんがトゥンヌスを追い払ってくれてます！
+- wait:
+  - 40
+- print:
+  - ペコリーヌ
+  - >2-
+
+    これなら──！
+- touch: *o0
+- bgm:
+  - stop
+  - 3.5
+  - 1
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5056005_038
+- face:
+  - 105913
+  - 3
+- print:
+  - コッコロ
+  - いえ、
+- wait:
+  - 25
+- print:
+  - コッコロ
+  - まだ向かってきます……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 501190
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- window_visible:
+  - true
+- se:
+  - se_adv_wave_01
+- bgm:
+  - bgm_M167
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- se:
+  - se_adv_creature_tentapus_02
+- print:
+  - 魔物たち
+  - ────！
+- wait:
+  - 15
+- print:
+  - 魔物たち
+  - >2-
+
+    ────！
+- wait:
+  - 15
+- print:
+  - 魔物たち
+  - >2-
+
+    ────！
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 6311
+  - LC
+  - 6
+- chara_full:
+  - 811
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- focus:
+  - 811:6311
+- window_visible:
+  - true
+- se:
+  - se_adv_body_shake_02
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5056005_039
+- multi_talk:
+  - 811:6311
+- face:
+  - 1
+  - 1
+- print:
+  - 次男・三男
+  - ──ひぃっ！？
+- shake:
+  - 811:6311
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 911
+  - C
+  - 3
+- fadein:
+  - 911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_5056005_040
+- face:
+  - 911
+  - 3
+- print:
+  - 三兄弟の長男
+  - ちくしょうめが……！
+- wait:
+  - 30
+- print:
+  - 三兄弟の長男
+  - >2-
+
+    だが、
+- wait:
+  - 20
+- print:
+  - 三兄弟の長男
+  - 逃げてたまるかよ──！
+- touch: *o0
+- se:
+  - se_adv_weapon_sword_set_05
+- face:
+  - 911
+  - 6
+- bgm:
+  - stop
+  - 6.5
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5056005_041
+- face:
+  - 1
+  - 1
+- print:
+  - ？？？
+  - ──どけどけっ！！
+- wait:
+  - 15
+- print:
+  - ？？？
+  - >2-
+
+    あの獲物は、
+- wait:
+  - 10
+- print:
+  - ？？？
+  - アタシのだ！！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 911
+  - 30
+- bg_color:
+  - 0
+  - 0
+  - 0
+- bgm:
+  - bgm_M55
+  - 0
+  - 0
+  - 1
+  - 0.5
+- se:
+  - se_adv_weapon_sword_slash_01
+- effect:
+  - 0016
+- wait:
+  - 15
+- background:
+  - 501190
+- se:
+  - se_adv_magic_water_large_01
+- se:
+  - se_adv_magic_wind_medium_01
+- window_visible:
+  - true
+- se:
+  - se_adv_water_splash_big_01
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- se:
+  - se_adv_creature_tentapus_02
+- print:
+  - 魔物たち
+  - ────！
+- wait:
+  - 15
+- print:
+  - 魔物たち
+  - >2-
+
+    ────！
+- wait:
+  - 15
+- print:
+  - 魔物たち
+  - >2-
+
+    ────！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 501193
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 105812
+  - LC
+  - 6
+- chara_full:
+  - 106012
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5056005_042
+- face:
+  - 106012
+  - 6
+- emotion:
+  - surprise1_L
+  - 106012
+  - 165
+  - 540
+  - se_adv_emote_common_01
+- print:
+  - キャル
+  - なぁっ！？　
+- wait:
+  - 20
+- print:
+  - キャル
+  - う、
+- wait:
+  - 15
+- print:
+  - キャル
+  - 海が割れた！？
+- wait:
+  - 45
+- print:
+  - キャル
+  - >2-
+
+    今のデタラメな攻撃って
+- wait:
+  - 45
+- print:
+  - キャル
+  - もしかして──！
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5056005_043
+- face:
+  - 105812
+  - 6
+- print:
+  - ペコリーヌ
+  - ──ムイミちゃん、
+- wait:
+  - 5
+- print:
+  - ペコリーヌ
+  - ネネカさんっ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 501190
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 106113
+  - LC
+  - 6
+- chara_full:
+  - 107011
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_5056005_044
+- face:
+  - 106113
+  - 6
+- print:
+  - ムイミ
+  - ありゃ……
+- wait:
+  - 10
+- print:
+  - ムイミ
+  - 外れたのか？
+- wait:
+  - 35
+- print:
+  - ムイミ
+  - >2
+
+- face:
+  - 106113
+  - 3
+- print:
+  - ムイミ
+  - チョロチョロと、
+- wait:
+  - 15
+- print:
+  - ムイミ
+  - すばしっこい魔物だな！
+- touch: *o0
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_5056005_045
+- face:
+  - 107011
+  - 4
+- print:
+  - ネネカ
+  - ……その大振りな攻撃では、
+- wait:
+  - 45
+- print:
+  - ネネカ
+  - 逃げてくれと言っているようなものです。
+- wait:
+  - 60
+- print:
+  - ネネカ
+  - >2
+
+- face:
+  - 107011
+  - 1
+- print:
+  - ネネカ
+  - まあ、
+- wait:
+  - 25
+- print:
+  - ネネカ
+  - 撃退するという目的では
+- wait:
+  - 55
+- print:
+  - ネネカ
+  - 悪くはないですが。
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_5056005_046
+- face:
+  - 106113
+  - 3
+- pop:
+  - 106113
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - ムイミ
+  - 追い払うんじゃなくて、
+- wait:
+  - 15
+- print:
+  - ムイミ
+  - アタシは捕まえたいんだよ！
+- wait:
+  - 35
+- print:
+  - ムイミ
+  - >2
+
+- face:
+  - 106113
+  - 1
+- print:
+  - ムイミ
+  - あのトゥンヌスって魔物、
+- wait:
+  - 25
+- print:
+  - ムイミ
+  - うまいんだろっ？
+- wait:
+  - 30
+- print:
+  - ムイミ
+  - >2-
+
+    大抵の魚なら、
+- wait:
+  - 35
+- print:
+  - ムイミ
+  - この方法で仕留められるんだけどなー
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 911
+  - C
+  - 6
+- fadein:
+  - 911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_5056005_047
+- face:
+  - 911
+  - 6
+- emotion:
+  - sweat1_R
+  - 911
+  - 75
+  - 620
+  - se_adv_emote_sweat_01
+- print:
+  - 三兄弟の長男
+  - じょ、
+- wait:
+  - 20
+- print:
+  - 三兄弟の長男
+  - 嬢ちゃんたち？
+- wait:
+  - 20
+- print:
+  - 三兄弟の長男
+  - >2-
+
+    その……
+- wait:
+  - 10
+- print:
+  - 三兄弟の長男
+  - なんだ。
+- wait:
+  - 10
+- print:
+  - 三兄弟の長男
+  - あ、
+- wait:
+  - 15
+- print:
+  - 三兄弟の長男
+  - あんまり派手にやられると
+- wait:
+  - 30
+- print:
+  - 三兄弟の長男
+  - 船が壊れるからよ？
+- wait:
+  - 40
+- print:
+  - 三兄弟の長男
+  - >2
+
+- face:
+  - 911
+  - 4
+- print:
+  - 三兄弟の長男
+  - できれば
+- wait:
+  - 10
+- print:
+  - 三兄弟の長男
+  - もう少し穏やかに頼みたいんだが……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 911
+  - 30
+- chara_full:
+  - 106113
+  - LC
+  - 6
+- chara_full:
+  - 107011
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_5056005_048
+- face:
+  - 107011
+  - 1
+- print:
+  - ネネカ
+  - 言われていますよ、
+- wait:
+  - 30
+- print:
+  - ネネカ
+  - ノウェム？
+- wait:
+  - 45
+- print:
+  - ネネカ
+  - >2
+
+- face:
+  - 107011
+  - 2
+- print:
+  - ネネカ
+  - 貴方も進んで濡れ鼠にはなりたくないでしょう？
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_5056005_049
+- face:
+  - 106113
+  - 4
+- print:
+  - ムイミ
+  - ……分かったよ。
+- wait:
+  - 30
+- print:
+  - ムイミ
+  - ったく、
+- wait:
+  - 10
+- print:
+  - ムイミ
+  - やりにくいな。
+- wait:
+  - 25
+- print:
+  - ムイミ
+  - >2
+
+- face:
+  - 106113
+  - 1
+- print:
+  - ムイミ
+  - もっと簡単に、
+- wait:
+  - 30
+- print:
+  - ムイミ
+  - どばーっと手に入る方法があればいいのにさ。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- se:
+  - se_adv_wave_01
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- se:
+  - se_adv_creature_tentapus_02
+- print:
+  - 魔物たち
+  - ────！
+- wait:
+  - 15
+- print:
+  - 魔物たち
+  - >2-
+
+    ────！
+- wait:
+  - 15
+- print:
+  - 魔物たち
+  - >2-
+
+    ────！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0032
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 106113
+  - C
+  - 2
+- fadein:
+  - 106113
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_5056005_050
+- face:
+  - 106113
+  - 2
+- emotion:
+  - notice1_L
+  - 106113
+  - -82
+  - 455
+  - se_adv_emote_common_01
+- print:
+  - ムイミ
+  - ──っと、
+- wait:
+  - 10
+- print:
+  - ムイミ
+  - きたきた！
+- wait:
+  - 30
+- print:
+  - ムイミ
+  - >2-
+
+    偉そうに言ったんだし、
+- wait:
+  - 25
+- print:
+  - ムイミ
+  - 見本を見せてみろよ、
+- wait:
+  - 30
+- print:
+  - ムイミ
+  - ネネカ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106113
+  - 30
+- chara_full:
+  - 107011
+  - C
+  - 4
+- fadein:
+  - 107011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_5056005_051
+- face:
+  - 107011
+  - 4
+- print:
+  - ネネカ
+  - ……やれやれ。
+- wait:
+  - 35
+- face:
+  - 107011
+  - 1
+- print:
+  - ネネカ
+  - 仕方がありませんね。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 107011
+  - 15
+- se:
+  - se_adv_magic_protect_01
+- white_out:
+  - 1
+  - 0.5
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- white_in: *o0
+- window_visible:
+  - true
+- se:
+  - se_adv_creature_tentapus_02
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ────！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_water_trap_01
+- se:
+  - se_adv_water_under_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 1611
+  - 30
+- chara_full:
+  - 811
+  - C
+  - 6
+- se_pause:
+  - se_adv_water_under_01
+  - 1
+- fadein:
+  - 811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_5056005_052
+- face:
+  - 811
+  - 6
+- emotion:
+  - surprise1_L
+  - 811
+  - 110
+  - 580
+  - se_adv_emote_common_01
+- print:
+  - 三兄弟の次男
+  - へあぁっ！？
+- wait:
+  - 25
+- print:
+  - 三兄弟の次男
+  - >2-
+
+    つ、
+- wait:
+  - 15
+- print:
+  - 三兄弟の次男
+  - 杖を持った嬢ちゃんが……
+- wait:
+  - 35
+- print:
+  - 三兄弟の次男
+  - トゥンヌスになった！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 811
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- se:
+  - se_adv_impact_water_01
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 1
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ────！
+- touch: *o0
+- se:
+  - se_adv_water_splash_small_01
+- se:
+  - se_adv_wave_01
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物たち
+  - ────！
+- wait:
+  - 15
+- print:
+  - 魔物たち
+  - >2-
+
+    ────！
+- wait:
+  - 15
+- print:
+  - 魔物たち
+  - >2-
+
+    ────！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0032
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 6311
+  - C
+  - 6
+- fadein:
+  - 6311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 6311
+- bust:
+  - 6311
+  - 0
+- vo:
+  - vo_adv_5056005_053
+- face:
+  - 6311
+  - 6
+- emotion:
+  - exclamation1_R
+  - 6311
+  - 30
+  - 590
+  - se_adv_emote_common_01
+- print:
+  - 三兄弟の三男
+  - は、
+- wait:
+  - 20
+- print:
+  - 三兄弟の三男
+  - 速ぇ……！？
+- wait:
+  - 35
+- print:
+  - 三兄弟の三男
+  - >2-
+
+    魚群があっという間に追い立てられていくぞ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 6311
+  - 30
+- chara_full:
+  - 106113
+  - C
+  - 2
+- se:
+  - se_adv_weapon_sword_set_05
+- fadein:
+  - 106113
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_5056005_054
+- face:
+  - 106113
+  - 2
+- print:
+  - ムイミ
+  - ……おっ、
+- wait:
+  - 15
+- print:
+  - ムイミ
+  - 絶好の位置！
+- wait:
+  - 30
+- print:
+  - ムイミ
+  - >2-
+
+    サンキュー、
+- wait:
+  - 10
+- print:
+  - ムイミ
+  - ネネカ！　
+- wait:
+  - 20
+- print:
+  - ムイミ
+  - うまく避けろよ！
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 3
+- text_size:
+  - 38
+- window_visible:
+  - true
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_5056005_055
+- face:
+  - 106113
+  - 3
+- print:
+  - ムイミ
+  - ──どりゃあああああああっ！！
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- se:
+  - se_adv_move_fast_02
+- effect:
+  - 0009
+- scale:
+  - 106113
+  - 1.2
+  - 2
+  - 10
+- fadeout:
+  - 106113
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- se:
+  - se_adv_weapon_sword_slash_01
+- effect:
+  - 0016
+- wait:
+  - 15
+- background:
+  - 501190
+- se:
+  - se_adv_magic_water_large_01
+- se:
+  - se_adv_magic_wind_medium_01
+- window_visible:
+  - true
+- se:
+  - se_adv_water_splash_big_01
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物たち
+  - ────！？
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0032
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 911
+  - C
+  - 6
+- fadein:
+  - 911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_5056005_056
+- face:
+  - 911
+  - 6
+- emotion:
+  - sweat2_R
+  - 911
+  - 65
+  - 595
+  - se_adv_emote_sweat_02
+- print:
+  - 三兄弟の長男
+  - ひいぃぃ……ッ！！
+- wait:
+  - 20
+- print:
+  - 三兄弟の長男
+  - >2-
+
+    ふ、
+- wait:
+  - 10
+- print:
+  - 三兄弟の長男
+  - 船に乗せたまではいいが、
+- wait:
+  - 35
+- print:
+  - 三兄弟の長男
+  - >2-
+
+    マジで何者なんだ
+- wait:
+  - 15
+- print:
+  - 三兄弟の長男
+  - あの嬢ちゃんたちはぁ……ッ！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 911
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 501193
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 105812
+  - LC
+  - 6
+- chara_full:
+  - 106012
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5056005_057
+- face:
+  - 106012
+  - 6
+- emotion:
+  - sweat1_R
+  - 106012
+  - 80
+  - 495
+  - se_adv_emote_sweat_01
+- print:
+  - キャル
+  - あ、
+- wait:
+  - 15
+- print:
+  - キャル
+  - あいつら……
+- wait:
+  - 40
+- print:
+  - キャル
+  - めちゃくちゃやってくれるわね……
+- touch: *o0
+- choice:
+  - でも、おかげで助かった！
+  - 4
+- tag:
+  - 4
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5056005_058
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - はい♪　
+- wait:
+  - 30
+- print:
+  - ペコリーヌ
+  - あとで二人にもお礼を言いましょう♪
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- window_visible:
+  - true
+- se:
+  - se_adv_water_trap_01
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- se:
+  - se_adv_creature_tentapus_01
+- print:
+  - 魔物たち
+  - ────！
+- wait:
+  - 15
+- print:
+  - 魔物たち
+  - >2-
+
+    ────！
+- wait:
+  - 15
+- print:
+  - 魔物たち
+  - >2-
+
+    ────！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0032
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 105913
+  - LC
+  - 6
+- chara_full:
+  - 6411
+  - RC
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5056005_059
+- face:
+  - 105913
+  - 6
+- print:
+  - コッコロ
+  - トゥンヌスの群れが
+- wait:
+  - 20
+- print:
+  - コッコロ
+  - 撤退していきます！
+- touch: *o0
+- bgm:
+  - stop
+  - 5
+  - 1
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_060
+- face:
+  - 6411
+  - 3
+- nod:
+  - 6411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - カズマサ
+  - まだだ！　
+- wait:
+  - 25
+- print:
+  - カズマサ
+  - やつが来るぞ！！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- se:
+  - se_adv_water_splash_big_01
+- chara_full:
+  - 14311
+  - C
+  - 1
+- fadein:
+  - 14311
+  - 30
+- se:
+  - se_adv_magic_water_large_01
+- window_visible:
+  - true
+- bgm:
+  - bgm_M124
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 14311
+- bust:
+  - 14311
+  - 0
+- face:
+  - 14311
+  - 1
+- se:
+  - se_adv_creature_tentapus_01
+- print:
+  - 巨大な魔物
+  - ──グオオオオオッ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 14311
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 105812
+  - LC
+  - 6
+- chara_full:
+  - 106012
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5056005_061
+- face:
+  - 105812
+  - 6
+- emotion:
+  - exclamation1_R
+  - 105812
+  - 5
+  - 650
+  - se_adv_emote_common_01
+- print:
+  - ペコリーヌ
+  - グレートトゥンヌス！？
+- wait:
+  - 30
+- print:
+  - ペコリーヌ
+  - >2-
+
+    こ、
+- wait:
+  - 10
+- print:
+  - ペコリーヌ
+  - こっちに突撃してきますよ！
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5056005_062
+- face:
+  - 106012
+  - 3
+- print:
+  - キャル
+  - 子分が逃げたから、
+- wait:
+  - 15
+- print:
+  - キャル
+  - 今度は自分でってわけ！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- se:
+  - se_adv_wave_01
+- chara_full:
+  - 14311
+  - C
+  - 1
+- fadein:
+  - 14311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 14311
+- bust:
+  - 14311
+  - 0
+- face:
+  - 14311
+  - 1
+- se:
+  - se_adv_creature_tentapus_01
+- print:
+  - 巨大な魔物
+  - ──グオオオオオッ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 14311
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 106011
+  - C
+  - 6
+- fadein:
+  - 106011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106011
+- bust:
+  - 106011
+  - 0
+- vo:
+  - vo_adv_5056005_063
+- face:
+  - 106011
+  - 6
+- print:
+  - キャル
+  - と、
+- wait:
+  - 5
+- print:
+  - キャル
+  - 止まりなさいってば！
+- wait:
+  - 45
+- print:
+  - キャル
+  - >2
+
+- face:
+  - 106011
+  - 3
+- print:
+  - キャル
+  - うぅ……
+- wait:
+  - 35
+- print:
+  - キャル
+  - 音にもビビらないってなら、
+- wait:
+  - 25
+- se:
+  - se_adv_magic_cmn_medium_01
+- print:
+  - キャル
+  - これでもくらってなさい──！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106011
+  - 30
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0070
+  - se_adv_magic_dark_medium_01
+- wait:
+  - 30
+- background:
+  - 501193
+- window_visible:
+  - true
+- se:
+  - se_adv_impact_water_01
+- focus:
+  - 14312
+- bust:
+  - 14312
+  - 1
+- face:
+  - 14312
+  - 1
+- print:
+  - 巨大な魔物
+  - ────！
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 106011
+  - C
+  - 6
+- fadein:
+  - 106011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106011
+- bust:
+  - 106011
+  - 0
+- vo:
+  - vo_adv_5056005_064
+- face:
+  - 106011
+  - 6
+- emotion:
+  - exclamation1_R
+  - 106011
+  - 10
+  - 635
+  - se_adv_emote_common_01
+- print:
+  - キャル
+  - う、
+- wait:
+  - 15
+- print:
+  - キャル
+  - うそ……
+- wait:
+  - 20
+- print:
+  - キャル
+  - 効いてない！？
+- wait:
+  - 30
+- print:
+  - キャル
+  - >2-
+
+    ってか、
+- wait:
+  - 10
+- print:
+  - キャル
+  - 当たったのに弾かれた！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106011
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- se:
+  - se_adv_wave_01
+- chara_full:
+  - 14311
+  - C
+  - 1
+- fadein:
+  - 14311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 14311
+- bust:
+  - 14311
+  - 0
+- face:
+  - 14311
+  - 1
+- se:
+  - se_adv_creature_tentapus_01
+- print:
+  - 巨大な魔物
+  - ──グオオオオオッ！
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 1
+- vo:
+  - vo_adv_5056005_065
+- face:
+  - 811
+  - 6
+- print:
+  - 三兄弟の次男
+  - ──うわああああッ！？　
+- wait:
+  - 25
+- print:
+  - 三兄弟の次男
+  - 退避だ、
+- wait:
+  - 15
+- print:
+  - 三兄弟の次男
+  - 退避！
+- touch: *o0
+- focus:
+  - 6311
+- bust:
+  - 6311
+  - 1
+- vo:
+  - vo_adv_5056005_066
+- face:
+  - 6311
+  - 4
+- print:
+  - 三兄弟の三男
+  - ──無理だ、
+- wait:
+  - 20
+- print:
+  - 三兄弟の三男
+  - 間に合わねえよ！　
+- wait:
+  - 40
+- print:
+  - 三兄弟の三男
+  - もうおしまいだぁ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 14311
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 6411
+  - C
+  - 3
+- fadein:
+  - 6411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_067
+- face:
+  - 6411
+  - 3
+- print:
+  - カズマサ
+  - ちくしょう……
+- wait:
+  - 35
+- print:
+  - カズマサ
+  - まだ足りねぇってのか……！？
+- wait:
+  - 40
+- print:
+  - カズマサ
+  - >2-
+
+    仲間の力を借りても、
+- wait:
+  - 35
+- print:
+  - カズマサ
+  - まだ……！
+- touch: *o0
+- choice:
+  - ……あれは……？
+  - 5
+- tag:
+  - 5
+- window_visible:
+  - false
+- fadeout:
+  - 6411
+  - 30
+- chara_full:
+  - 105913
+  - C
+  - 6
+- fadein:
+  - 105913
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5056005_068
+- face:
+  - 105913
+  - 6
+- print:
+  - コッコロ
+  - 主さま……っ？
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+- choice:
+  - コッコロちゃん、ヒレを狙って！
+  - 6
+- tag:
+  - 6
+- bgm:
+  - bgm_M240
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5056005_069
+- face:
+  - 105913
+  - 6
+- emotion:
+  - question1_R
+  - 105913
+  - 120
+  - 465
+  - se_adv_emote_question_01
+- print:
+  - コッコロ
+  - ヒレ？　
+- wait:
+  - 40
+- print:
+  - コッコロ
+  - と、いいますと──
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_tickle_02
+- nod:
+  - 105913
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5056005_070
+- face:
+  - 105913
+  - 6
+- print:
+  - コッコロ
+  - ──っ。
+- wait:
+  - 50
+- print:
+  - コッコロ
+  - >2
+
+- face:
+  - 105913
+  - 2
+- print:
+  - コッコロ
+  - なるほど……
+- wait:
+  - 45
+- print:
+  - コッコロ
+  - 承知いたしました！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105913
+  - 15
+- chara_full:
+  - 105911
+  - C
+  - 3
+- se:
+  - se_adv_cloth_move_normal_01
+- fadein:
+  - 105911
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 105911
+- bust:
+  - 105911
+  - 0
+- vo:
+  - vo_adv_5056005_071
+- face:
+  - 105911
+  - 3
+- se:
+  - se_adv_magic_cmn_medium_01
+- print:
+  - コッコロ
+  - ──はああああああ……っ！！！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105911
+  - 30
+- bg_color:
+  - 0
+  - 0
+  - 0
+- se:
+  - se_adv_magic_wind_small_01
+- effect:
+  - 0075
+- wait:
+  - 30
+- background:
+  - 501193
+- window_visible:
+  - true
+- se:
+  - se_adv_impact_water_01
+- focus:
+  - 14312
+- bust:
+  - 14312
+  - 1
+- face:
+  - 14312
+  - 1
+- print:
+  - 巨大な魔物
+  - ────！
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 105911
+  - C
+  - 4
+- fadein:
+  - 105911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105911
+- bust:
+  - 105911
+  - 0
+- vo:
+  - vo_adv_5056005_072
+- face:
+  - 105911
+  - 4
+- print:
+  - コッコロ
+  - ……っ。
+- wait:
+  - 30
+- print:
+  - コッコロ
+  - >2-
+
+    これでは足りませんか……！
+- touch: *o0
+- choice:
+  - キャルちゃんも魔法を！
+  - 7
+- tag:
+  - 7
+- window_visible:
+  - false
+- fadeout:
+  - 105911
+  - 30
+- chara_full:
+  - 105812
+  - LC
+  - 6
+- chara_full:
+  - 106011
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106011
+- bust:
+  - 106011
+  - 0
+- vo:
+  - vo_adv_5056005_073
+- face:
+  - 106011
+  - 6
+- emotion:
+  - surprise1_L
+  - 106011
+  - 165
+  - 540
+  - se_adv_emote_common_01
+- print:
+  - キャル
+  - はぁ！？
+- wait:
+  - 20
+- print:
+  - キャル
+  - >2-
+
+    いやだから、
+- wait:
+  - 15
+- print:
+  - キャル
+  - あたしの魔法は弾かれて──
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5056005_074
+- face:
+  - 105812
+  - 6
+- pop:
+  - 105812
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - ペコリーヌ
+  - キャルちゃん、キャルちゃん！
+- wait:
+  - 10
+- print:
+  - ペコリーヌ
+  - >2-
+
+    早くしないと船にぶつかっちゃいます……！
+- touch: *o0
+- focus:
+  - 106011
+- bust:
+  - 106011
+  - 0
+- vo:
+  - vo_adv_5056005_075
+- face:
+  - 106011
+  - 3
+- print:
+  - キャル
+  - ああもう！
+- wait:
+  - 35
+- print:
+  - キャル
+  - >2-
+
+    {0}の言うこと、
+- wait:
+  - 15
+- print:
+  - キャル
+  - 信じるわよ！？
+- touch: *o0
+- focus:
+  - 106011
+- bust:
+  - 106011
+  - 0
+- vo:
+  - vo_adv_5056005_076
+- face:
+  - 106011
+  - 3
+- se:
+  - se_adv_magic_cmn_medium_01
+- print:
+  - キャル
+  - ──これで……
+- wait:
+  - 20
+- print:
+  - キャル
+  - 今度こそ止まんなさい！！！！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0070
+  - se_adv_magic_dark_medium_01
+- wait:
+  - 30
+- background:
+  - 501193
+- chara_full:
+  - 14311
+  - C
+  - 1
+- fadein:
+  - 14311
+  - 30
+- window_visible:
+  - true
+- se:
+  - se_adv_magic_water_medium_01
+- focus:
+  - 14311
+- bust:
+  - 14311
+  - 0
+- face:
+  - 14311
+  - 1
+- print:
+  - 巨大な魔物
+  - ────！？
+- shake:
+  - 14311
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5056005_077
+- face:
+  - 1
+  - 1
+- print:
+  - ３人
+  - …………！
+- touch: *o0
+- se:
+  - se_adv_creature_tentapus_01
+- focus:
+  - 14311
+- bust:
+  - 14311
+  - 0
+- face:
+  - 14311
+  - 1
+- print:
+  - 巨大な魔物
+  - ──ギャオオオオオッ！
+- touch: *o0
+- se:
+  - se_adv_step_monster_move_01
+- se:
+  - se_adv_wave_01
+- window_visible:
+  - false
+- se:
+  - se_adv_water_splash_small_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 14311
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 105812
+  - L
+  - 6
+- chara_full:
+  - 105911
+  - C
+  - 6
+- chara_full:
+  - 106011
+  - R
+  - 6
+- se_pause:
+  - se_adv_water_splash_small_01
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 6
+  - 1
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5056005_078
+- face:
+  - 105812
+  - 6
+- print:
+  - ペコリーヌ
+  - む、
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - 向きを変えて……
+- wait:
+  - 25
+- print:
+  - ペコリーヌ
+  - >2-
+
+    引き返していっちゃいました……
+- touch: *o0
+- focus:
+  - 106011
+- bust:
+  - 106011
+  - 0
+- vo:
+  - vo_adv_5056005_079
+- face:
+  - 106011
+  - 6
+- print:
+  - キャル
+  - ……や、
+- wait:
+  - 15
+- print:
+  - キャル
+  - やったの？　
+- wait:
+  - 30
+- bgm:
+  - bgm_M103
+- print:
+  - キャル
+  - やったのよね？
+- touch: *o0
+- focus:
+  - 105911
+- bust:
+  - 105911
+  - 0
+- vo:
+  - vo_adv_5056005_080
+- face:
+  - 105911
+  - 2
+- nod:
+  - 105911
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - コッコロ
+  - はい……
+- wait:
+  - 60
+- print:
+  - コッコロ
+  - 撃退成功のようです。
+- wait:
+  - 65
+- print:
+  - コッコロ
+  - >2-
+
+    わたくしたちの手で、
+- wait:
+  - 30
+- print:
+  - コッコロ
+  - オーマの町を──
+- touch: *o0
+- choice:
+  - 守った！
+  - 8
+- tag:
+  - 8
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 501190
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 6311
+  - LC
+  - 6
+- chara_full:
+  - 811
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_5056005_081
+- face:
+  - 811
+  - 6
+- print:
+  - 三兄弟の次男
+  - う──
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 6311
+  - 2
+- face:
+  - 811
+  - 2
+- focus:
+  - 811:6311
+- window_visible:
+  - true
+- se:
+  - se_adv_blanket_move_02
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5056005_082
+- multi_talk:
+  - 811:6311
+- face:
+  - 1
+  - 1
+- print:
+  - 次男・三男
+  - うおおおおおおおおおおっ！！！
+- touch: *o0
+- focus:
+  - 6311
+- bust:
+  - 6311
+  - 0
+- vo:
+  - vo_adv_5056005_083
+- face:
+  - 6311
+  - 2
+- print:
+  - 三兄弟の三男
+  - やった……
+- wait:
+  - 35
+- print:
+  - 三兄弟の三男
+  - やりやがったよ、
+- wait:
+  - 15
+- print:
+  - 三兄弟の三男
+  - あいつら……！
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_5056005_084
+- face:
+  - 811
+  - 4
+- print:
+  - 三兄弟の次男
+  - バカヤロウ、
+- wait:
+  - 30
+- print:
+  - 三兄弟の次男
+  - ただ追い返しただけだ！
+- wait:
+  - 50
+- print:
+  - 三兄弟の次男
+  - >2-
+
+    気を抜くんじゃねぇ……
+- wait:
+  - 65
+- eye_open:
+  - FALSE
+- print:
+  - 三兄弟の次男
+  - ぐすっ……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106113
+  - LC
+  - 6
+- chara_full:
+  - 107011
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_5056005_085
+- face:
+  - 106113
+  - 6
+- print:
+  - ムイミ
+  - ……なんだ、
+- wait:
+  - 20
+- print:
+  - ムイミ
+  - もう終わったのか？
+- wait:
+  - 35
+- print:
+  - ムイミ
+  - >2
+
+- face:
+  - 106113
+  - 2
+- print:
+  - ムイミ
+  - まっ、
+- wait:
+  - 20
+- print:
+  - ムイミ
+  - あいつらならなんとかするとは思ってたけどな！
+- touch: *o0
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_5056005_086
+- face:
+  - 107011
+  - 1
+- print:
+  - ネネカ
+  - ……一時の危機が去っただけではありますが。
+- wait:
+  - 75
+- print:
+  - ネネカ
+  - >2
+
+- face:
+  - 107011
+  - 2
+- print:
+  - ネネカ
+  - 強大な脅威を退けたという意味では、
+- wait:
+  - 75
+- print:
+  - ネネカ
+  - 及第点をあげてもいいでしょう。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 911
+  - C
+  - 1
+- fadein:
+  - 911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_5056005_087
+- face:
+  - 911
+  - 1
+- nod:
+  - 911
+- se:
+  - se_adv_stepadd_armor_heavy_01_move_01
+- print:
+  - 三兄弟の長男
+  - ……ああ。
+- wait:
+  - 30
+- print:
+  - 三兄弟の長男
+  - 今までのおれたちは諦め、
+- wait:
+  - 40
+- print:
+  - 三兄弟の長男
+  - 逃げるだけだった……
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_5056005_088
+- face:
+  - 911
+  - 1
+- print:
+  - 三兄弟の長男
+  - ただ追い払っただけとはいえ、
+- wait:
+  - 40
+- print:
+  - 三兄弟の長男
+  - 町を守れたのは大きなことだ。
+- wait:
+  - 60
+- print:
+  - 三兄弟の長男
+  - >2-
+
+    おれたちの尻を叩いてくれた、
+- wait:
+  - 30
+- print:
+  - 三兄弟の長男
+  - カズマサとあの嬢ちゃんたちには……
+- wait:
+  - 60
+- print:
+  - 三兄弟の長男
+  - >2
+
+- face:
+  - 911
+  - 2
+- print:
+  - 三兄弟の長男
+  - 感謝してもしきれねぇな。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 501193
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 6411
+  - C
+  - 3
+- fadein:
+  - 6411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_089
+- face:
+  - 6411
+  - 3
+- print:
+  - カズマサ
+  - …………
+- touch: *o0
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_090
+- face:
+  - 6411
+  - 3
+- print:
+  - カズマサ
+  - ……坊主。
+- wait:
+  - 45
+- print:
+  - カズマサ
+  - >2-
+
+    おまえさんが、
+- wait:
+  - 30
+- print:
+  - カズマサ
+  - コロの助や猫の助に狙わせたのは──
+- touch: *o0
+- choice:
+  - ヒレに傷みたいなものがあった。
+  - 9
+- tag:
+  - 9
+- window_visible:
+  - false
+- fadeout:
+  - 6411
+  - 30
+- chara_full:
+  - 105812
+  - LC
+  - 1
+- chara_full:
+  - 105913
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5056005_091
+- face:
+  - 105913
+  - 1
+- nod:
+  - 105913
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - コッコロ
+  - ……はい。
+- wait:
+  - 30
+- print:
+  - コッコロ
+  - >2-
+
+    おそらくですが……
+- wait:
+  - 45
+- print:
+  - コッコロ
+  - 『古傷』
+- wait:
+  - 35
+- print:
+  - コッコロ
+  - だったのではないかと。
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5056005_092
+- face:
+  - 105812
+  - 6
+- emotion:
+  - question1_R
+  - 105812
+  - 105
+  - 510
+  - se_adv_emote_question_01
+- print:
+  - ペコリーヌ
+  - 古傷……？
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5056005_093
+- face:
+  - 105913
+  - 1
+- print:
+  - コッコロ
+  - 海上に露出した
+- wait:
+  - 35
+- print:
+  - コッコロ
+  - ヒレの左側あたりに、
+- wait:
+  - 45
+- print:
+  - コッコロ
+  - >2-
+
+    わずかですが
+- wait:
+  - 25
+- print:
+  - コッコロ
+  - 変色している部分が見受けられました。
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5056005_094
+- face:
+  - 105913
+  - 4
+- print:
+  - コッコロ
+  - キャルさまの魔法すら弾く頑丈さでしたが……
+- wait:
+  - 75
+- print:
+  - コッコロ
+  - >2
+
+- face:
+  - 105913
+  - 1
+- print:
+  - コッコロ
+  - その小さな傷こそが、
+- wait:
+  - 50
+- print:
+  - コッコロ
+  - グレートトゥンヌスの弱点なのではないかと。
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5056005_095
+- face:
+  - 105812
+  - 6
+- print:
+  - ペコリーヌ
+  - あんなおいしそうなお魚に、
+- wait:
+  - 40
+- print:
+  - ペコリーヌ
+  - 傷ですか……？
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5056005_096
+- face:
+  - 105812
+  - 6
+- emotion:
+  - exclamation1_R
+  - 105812
+  - 5
+  - 650
+  - se_adv_emote_common_01
+- print:
+  - ペコリーヌ
+  - あっ！　
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - それってもしかして──！
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5056005_097
+- face:
+  - 105913
+  - 2
+- nod:
+  - 105913
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - コッコロ
+  - ……過去に
+- wait:
+  - 20
+- print:
+  - コッコロ
+  - グレートトゥンヌスを撃退した
+- wait:
+  - 45
+- print:
+  - コッコロ
+  - 伝説の漁師さま。
+- wait:
+  - 65
+- print:
+  - コッコロ
+  - >2-
+
+    きっと、
+- wait:
+  - 35
+- print:
+  - コッコロ
+  - あの傷をつけたのは──
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 6411
+  - C
+  - 1
+- fadein:
+  - 6411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_098
+- face:
+  - 6411
+  - 1
+- print:
+  - カズマサ
+  - ……
+- touch: *o0
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_099
+- face:
+  - 6411
+  - 2
+- print:
+  - カズマサ
+  - ……そうか。
+- wait:
+  - 40
+- print:
+  - カズマサ
+  - >2-
+
+    親方、
+- wait:
+  - 45
+- print:
+  - カズマサ
+  - あんたの残してくれた希望はまだ──
+- touch: *o0
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_100
+- face:
+  - 6411
+  - 1
+- nod:
+  - 6411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - カズマサ
+  - ……ひとまずオーマの町に戻ろう。
+- wait:
+  - 55
+- print:
+  - カズマサ
+  - >2-
+
+    おそらくだが、
+- wait:
+  - 30
+- print:
+  - カズマサ
+  - グレートトゥンヌスは一時的に退いただけだ。
+- wait:
+  - 55
+- print:
+  - カズマサ
+  - >2-
+
+    すぐにまた襲撃をしかけてくるだろう。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 6411
+  - 30
+- chara_full:
+  - 105812
+  - LC
+  - 1
+- chara_full:
+  - 106012
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5056005_101
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - そうですね！
+- wait:
+  - 30
+- print:
+  - ペコリーヌ
+  - >2-
+
+    ちゃんと釣り上げないと安心できませんし、
+- wait:
+  - 40
+- face:
+  - 105812
+  - 2
+- print:
+  - ペコリーヌ
+  - 味見もできませんっ♪
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5056005_102
+- face:
+  - 106012
+  - 4
+- emotion:
+  - sweat1_R
+  - 106012
+  - 80
+  - 495
+  - se_adv_emote_sweat_01
+- print:
+  - キャル
+  - あ、
+- wait:
+  - 20
+- print:
+  - キャル
+  - あんたねぇ……
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_seaside_04
+  - 0.5
+- background:
+  - 501162
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_seaside_01
+- chara_full:
+  - 6311
+  - LC
+  - 4
+- chara_full:
+  - 811
+  - RC
+  - 4
+- se:
+  - se_adv_cloth_move_give_01
+- fadein_all:
+  - 30
+- focus:
+  - 811:6311
+- window_visible:
+  - true
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5056005_103
+- face:
+  - 1
+  - 1
+- print:
+  - 次男・三男
+  - …………
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 911
+  - C
+  - 4
+- fadein:
+  - 911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_5056005_104
+- face:
+  - 911
+  - 4
+- print:
+  - 三兄弟の長男
+  - …………
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 911
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 105812
+  - LC
+  - 6
+- chara_full:
+  - 106012
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M123
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5056005_105
+- face:
+  - 106012
+  - 6
+- emotion:
+  - exclamation1_R
+  - 106012
+  - 10
+  - 635
+  - se_adv_emote_common_01
+- print:
+  - キャル
+  - ……うげっ。
+- wait:
+  - 10
+- print:
+  - キャル
+  - >2-
+
+    なんか……
+- wait:
+  - 15
+- print:
+  - キャル
+  - 雰囲気重くない？
+- wait:
+  - 30
+- print:
+  - キャル
+  - >2-
+
+    仲直りしたんじゃなかったの？
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5056005_106
+- face:
+  - 105812
+  - 4
+- print:
+  - ペコリーヌ
+  - キャルちゃんっ。
+- wait:
+  - 10
+- print:
+  - ペコリーヌ
+  - しーっ……
+- wait:
+  - 10
+- print:
+  - ペコリーヌ
+  - です！
+- wait:
+  - 30
+- print:
+  - ペコリーヌ
+  - >2
+
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - ……きっと大丈夫ですよ♪
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 6411
+  - LC
+  - 1
+- chara_full:
+  - 911
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M437
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_5056005_107
+- face:
+  - 911
+  - 4
+- print:
+  - 三兄弟の長男
+  - ……カズマサ。
+- touch: *o0
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_108
+- face:
+  - 6411
+  - 1
+- print:
+  - カズマサ
+  - ……ミナトの。
+- touch: *o0
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_109
+- face:
+  - 6411
+  - 1
+- nod:
+  - 6411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - カズマサ
+  - ……はッ。
+- wait:
+  - 25
+- print:
+  - カズマサ
+  - 随分とまた、
+- wait:
+  - 35
+- print:
+  - カズマサ
+  - 不景気な顔してやがんな。
+- wait:
+  - 65
+- print:
+  - カズマサ
+  - >2-
+
+    オーマの漁師は、
+- wait:
+  - 40
+- print:
+  - カズマサ
+  - どんな逆境だって
+- wait:
+  - 35
+- print:
+  - カズマサ
+  - 豪快に笑い飛ばす。
+- wait:
+  - 45
+- print:
+  - カズマサ
+  - >2
+
+- face:
+  - 6411
+  - 2
+- print:
+  - カズマサ
+  - そういうもんだぜ？
+- touch: *o0
+- face:
+  - 6411
+  - 1
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_5056005_110
+- face:
+  - 911
+  - 6
+- print:
+  - 三兄弟の長男
+  - ……っ。
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_5056005_111
+- face:
+  - 911
+  - 1
+- nod:
+  - 911
+- se:
+  - se_adv_stepadd_armor_heavy_01_move_01
+- print:
+  - 三兄弟の長男
+  - ……船酔いで足元すらおぼついてないポンコツ漁師のくせして。
+- wait:
+  - 45
+- print:
+  - 三兄弟の長男
+  - >2-
+
+    相も変わらず、カッコつかねぇベテラン風を吹かせてんじゃねぇよ。
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_5056005_112
+- face:
+  - 911
+  - 4
+- print:
+  - 三兄弟の長男
+  - ──すまなかった。
+- wait:
+  - 40
+- print:
+  - 三兄弟の長男
+  - >2-
+
+    今まで目を背けて……
+- wait:
+  - 45
+- print:
+  - 三兄弟の長男
+  - あんたに全てを押し付けてきた。
+- wait:
+  - 65
+- print:
+  - 三兄弟の長男
+  - >2-
+
+    知ったような顔をして、
+- wait:
+  - 40
+- print:
+  - 三兄弟の長男
+  - おれたちはただ言い訳をしてたんだ……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 911
+  - 30
+- chara_full:
+  - 6311
+  - RC
+  - 4
+- fadein:
+  - 6311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 6311
+- bust:
+  - 6311
+  - 0
+- vo:
+  - vo_adv_5056005_113
+- face:
+  - 6311
+  - 4
+- print:
+  - 三兄弟の三男
+  - ……今回のことだけじゃねぇ。
+- wait:
+  - 45
+- print:
+  - 三兄弟の三男
+  - >2-
+
+    あんたはいつだっておれたちのため……
+- wait:
+  - 50
+- print:
+  - 三兄弟の三男
+  - >2-
+
+    オーマの海や漁師たちのため、
+- wait:
+  - 25
+- print:
+  - 三兄弟の三男
+  - 頑張ってくれてたんだよな。
+- touch: *o0
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_114
+- face:
+  - 6411
+  - 1
+- print:
+  - カズマサ
+  - …………
+- touch: *o0
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_115
+- face:
+  - 6411
+  - 1
+- eye_open:
+  - False
+- print:
+  - カズマサ
+  - ……そんな立派なもんじゃねぇよ。
+- wait:
+  - 75
+- print:
+  - カズマサ
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - カズマサ
+  - オレじゃ、
+- wait:
+  - 25
+- print:
+  - カズマサ
+  - オーマを守った親方には及びもしねぇ。
+- wait:
+  - 85
+- print:
+  - カズマサ
+  - >2
+
+- face:
+  - 6411
+  - 2
+- print:
+  - カズマサ
+  - オレがもっと凄腕なら、
+- wait:
+  - 40
+- print:
+  - カズマサ
+  - 町の連中も希望を持てていたはずだ。
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 6411
+  - 1
+- fadeout:
+  - 6311
+  - 30
+- chara_full:
+  - 911
+  - RC
+  - 4
+- fadein:
+  - 911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_5056005_116
+- face:
+  - 911
+  - 4
+- print:
+  - 三兄弟の長男
+  - ……カズマサ……
+- touch: *o0
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_117
+- face:
+  - 6411
+  - 1
+- nod:
+  - 6411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - カズマサ
+  - どうあがいても、
+- wait:
+  - 15
+- print:
+  - カズマサ
+  - 小魚は大物にはなれねぇ。
+- wait:
+  - 80
+- print:
+  - カズマサ
+  - >2-
+
+    だけどよ……
+- wait:
+  - 45
+- print:
+  - カズマサ
+  - 今のオレには、
+- wait:
+  - 30
+- print:
+  - カズマサ
+  - 頼れる弟子たちがいる。
+- wait:
+  - 65
+- print:
+  - カズマサ
+  - >2-
+
+    頼れる漁師の仲間たちがいる。
+- touch: *o0
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_118
+- face:
+  - 6411
+  - 2
+- print:
+  - カズマサ
+  - 小魚だって、
+- wait:
+  - 40
+- print:
+  - カズマサ
+  - 群れになれば荒波にも立ち向かえるはずだ。
+- wait:
+  - 80
+- print:
+  - カズマサ
+  - >2
+
+- face:
+  - 6411
+  - 1
+- print:
+  - カズマサ
+  - 憧れるだけだった大物だって、
+- wait:
+  - 65
+- print:
+  - カズマサ
+  - 越えられるかもしれねぇ。
+- touch: *o0
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_119
+- face:
+  - 6411
+  - 4
+- print:
+  - カズマサ
+  - オレは一人じゃなんもできねぇ。
+- wait:
+  - 60
+- print:
+  - カズマサ
+  - なに一つできなかった。
+- wait:
+  - 60
+- print:
+  - カズマサ
+  - >2
+
+- face:
+  - 6411
+  - 1
+- print:
+  - カズマサ
+  - だからよ……
+- wait:
+  - 50
+- print:
+  - カズマサ
+  - おまえさんたちの力、
+- wait:
+  - 55
+- print:
+  - カズマサ
+  - 貸してくれるか？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 6311
+  - LC
+  - 2
+- chara_full:
+  - 811
+  - RC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_5056005_120
+- face:
+  - 811
+  - 2
+- print:
+  - 三兄弟の次男
+  - カズマサ……っ！
+- touch: *o0
+- focus:
+  - 6311
+- bust:
+  - 6311
+  - 0
+- vo:
+  - vo_adv_5056005_121
+- face:
+  - 6311
+  - 2
+- nod:
+  - 6311
+- se:
+  - se_adv_stepadd_armor_heavy_02_move_01
+- print:
+  - 三兄弟の三男
+  - 当たり前だ！　
+- wait:
+  - 40
+- print:
+  - 三兄弟の三男
+  - 一緒に討とうぜ、
+- wait:
+  - 30
+- print:
+  - 三兄弟の三男
+  - 親方さんの仇をよ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 911
+  - C
+  - 1
+- fadein:
+  - 911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_5056005_122
+- face:
+  - 911
+  - 1
+- print:
+  - 三兄弟の長男
+  - ……おれたちは、
+- wait:
+  - 10
+- print:
+  - 三兄弟の長男
+  - あんたに助けられてきた。
+- wait:
+  - 45
+- print:
+  - 三兄弟の長男
+  - >2-
+
+    そのおかげで、
+- wait:
+  - 30
+- print:
+  - 三兄弟の長男
+  - このオーマで漁師を続けられてきたんだ。
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_5056005_123
+- face:
+  - 911
+  - 2
+- nod:
+  - 911
+- se:
+  - se_adv_stepadd_armor_heavy_01_move_01
+- print:
+  - 三兄弟の長男
+  - ……オーマで生きる漁師として。
+- wait:
+  - 40
+- print:
+  - 三兄弟の長男
+  - >2-
+
+    オーマの海に生きるこの命、
+- wait:
+  - 55
+- print:
+  - 三兄弟の長男
+  - あんたたちに預けるぜ！
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+- window_visible:
+  - false
+- fadeout:
+  - 911
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 106113
+  - LC
+  - 1
+- chara_full:
+  - 107011
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M358
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_5056005_124
+- face:
+  - 107011
+  - 4
+- print:
+  - ネネカ
+  - ……まったく。
+- wait:
+  - 40
+- print:
+  - ネネカ
+  - >2-
+
+    状況自体が大きく好転したわけでもないでしょうに、
+- wait:
+  - 80
+- print:
+  - ネネカ
+  - >2-
+
+    心持ち一つで変わった気になれるとは
+- wait:
+  - 65
+- print:
+  - ネネカ
+  - 呑気なものです。
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_5056005_125
+- face:
+  - 106113
+  - 6
+- print:
+  - ムイミ
+  - そうか？　
+- wait:
+  - 30
+- face:
+  - 106113
+  - 2
+- print:
+  - ムイミ
+  - 仲間がいると心強いってのは、
+- wait:
+  - 40
+- print:
+  - ムイミ
+  - >2-
+
+    アタシもなんとなく分かる気がするけどな。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105913
+  - LC
+  - 2
+- chara_full:
+  - 106012
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5056005_126
+- face:
+  - 105913
+  - 2
+- print:
+  - コッコロ
+  - ムイミさま、
+- wait:
+  - 25
+- print:
+  - コッコロ
+  - ネネカさま。
+- wait:
+  - 45
+- print:
+  - コッコロ
+  - >2-
+
+    お二人ともご無事なようで、
+- wait:
+  - 25
+- print:
+  - コッコロ
+  - なによりです。
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5056005_127
+- face:
+  - 106012
+  - 6
+- print:
+  - キャル
+  - まさか、
+- wait:
+  - 20
+- print:
+  - キャル
+  - あんたたちまで出張ってくるなんてね……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 107011
+  - C
+  - 6
+- fadein:
+  - 107011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_5056005_128
+- face:
+  - 107011
+  - 6
+- print:
+  - ネネカ
+  - ……別に。
+- wait:
+  - 40
+- print:
+  - ネネカ
+  - >2-
+
+    これといって大した理由ではありませんよ。
+- touch: *o0
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_5056005_129
+- face:
+  - 107011
+  - 1
+- print:
+  - ネネカ
+  - 姿をさらすというリスク。
+- wait:
+  - 65
+- eye_open:
+  - FALSE
+- print:
+  - ネネカ
+  - 突然変異体を捕らえるというリターン。
+- wait:
+  - 75
+- print:
+  - ネネカ
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - ネネカ
+  - そして……
+- wait:
+  - 35
+- print:
+  - ネネカ
+  - 大事な手駒を失うかもしれないという、
+- wait:
+  - 65
+- print:
+  - ネネカ
+  - >2-
+
+    たとえわずかであったとしても
+- wait:
+  - 45
+- print:
+  - ネネカ
+  - 無視できない可能性。
+- touch: *o0
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_5056005_130
+- face:
+  - 107011
+  - 1
+- print:
+  - ネネカ
+  - それらを秤にかけ、
+- wait:
+  - 45
+- print:
+  - ネネカ
+  - 必然的に選び取ったまでです。
+- wait:
+  - 75
+- print:
+  - ネネカ
+  - >2
+
+- face:
+  - 107011
+  - 2
+- print:
+  - ネネカ
+  - むろん、
+- wait:
+  - 25
+- print:
+  - ネネカ
+  - リスクへの事前対策も
+- wait:
+  - 50
+- print:
+  - ネネカ
+  - すでに施してあります。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 107011
+  - 30
+- chara_full:
+  - 106012
+  - LC
+  - 6
+- chara_full:
+  - 106113
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5056005_131
+- face:
+  - 106012
+  - 6
+- emotion:
+  - sweat1_R
+  - 106012
+  - 80
+  - 495
+  - se_adv_emote_sweat_01
+- print:
+  - キャル
+  - じ、
+- wait:
+  - 20
+- print:
+  - キャル
+  - 事前対策？
+- wait:
+  - 65
+- print:
+  - キャル
+  - >2
+
+- face:
+  - 106012
+  - 4
+- print:
+  - キャル
+  - なにしたのかは知んないけど……
+- wait:
+  - 45
+- print:
+  - キャル
+  - >2-
+
+    あんま物騒なことは控えなさいよね？
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_5056005_132
+- face:
+  - 106113
+  - 2
+- print:
+  - ムイミ
+  - ……おっ。
+- wait:
+  - 10
+- print:
+  - ムイミ
+  - そうだ、ペコリーヌ。
+- wait:
+  - 25
+- print:
+  - ムイミ
+  - >2-
+
+    さっきの一戦で、
+- wait:
+  - 20
+- print:
+  - ムイミ
+  - トゥンヌスを何匹か捕まえたぞ。
+- wait:
+  - 45
+- print:
+  - ムイミ
+  - >2-
+
+    おっちゃんたちに料理させようと思うんだけど、
+- wait:
+  - 45
+- print:
+  - ムイミ
+  - オマエも食うか？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105812
+  - L
+  - 1
+- chara_full:
+  - 105913
+  - C
+  - 1
+- chara_full:
+  - 106012
+  - R
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5056005_133
+- face:
+  - 105812
+  - 1
+- emotion:
+  - twinkle1_R
+  - 105812
+  - 135
+  - 475
+  - se_adv_emote_twinkle_01
+- print:
+  - ペコリーヌ
+  - ほ、
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - 本当ですか、ムイミちゃん……っ！？
+- wait:
+  - 35
+- print:
+  - ペコリーヌ
+  - >2-
+
+    実は色々と動いて、
+- wait:
+  - 45
+- face:
+  - 105812
+  - 2
+- print:
+  - ペコリーヌ
+  - お腹ペコペコだったんです！
+- touch: *o0
+- face:
+  - 105812
+  - 1
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5056005_134
+- face:
+  - 105913
+  - 4
+- print:
+  - コッコロ
+  - ペコリーヌさま、
+- wait:
+  - 30
+- print:
+  - コッコロ
+  - 食べるのも良いのですが……
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5056005_135
+- face:
+  - 106012
+  - 1
+- nod:
+  - 106012
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - キャル
+  - そうよ、
+- wait:
+  - 25
+- print:
+  - キャル
+  - あんま時間もなさそうだし……
+- touch: *o0
+- choice:
+  - カズマサさんたちのところへ行こう。
+  - 10
+- tag:
+  - 10
+- face:
+  - 105913
+  - 1
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5056005_136
+- face:
+  - 105812
+  - 6
+- print:
+  - ペコリーヌ
+  - あっ、
+- wait:
+  - 15
+- print:
+  - ペコリーヌ
+  - そうでしたね！
+- wait:
+  - 35
+- print:
+  - ペコリーヌ
+  - >2
+
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - 三兄弟さんも手伝ってくれるみたいですし、
+- wait:
+  - 45
+- print:
+  - ペコリーヌ
+  - >2-
+
+    大物を釣り上げるための
+- wait:
+  - 30
+- print:
+  - ペコリーヌ
+  - 作戦会議をしなきゃですね♪
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
+- window_visible:
+  - false
+- se_pause:
+  - amb_adv_seaside_01
+  - 2
+- fadeout_all:
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 30
+- se:
+  - amb_adv_seaside_01
+- black_in: *o0
+- chara_full:
+  - 105913
+  - LC
+  - 1
+- chara_full:
+  - 911
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M388
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5056005_137
+- face:
+  - 105913
+  - 1
+- nod:
+  - 105913
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - コッコロ
+  - ──と、
+- wait:
+  - 20
+- print:
+  - コッコロ
+  - いうことでして。
+- wait:
+  - 40
+- print:
+  - コッコロ
+  - >2-
+
+    わたくしたちは、
+- wait:
+  - 25
+- print:
+  - コッコロ
+  - ヒレのあたりにある傷こそが、
+- wait:
+  - 40
+- print:
+  - コッコロ
+  - >2-
+
+    グレートトゥンヌスの弱点であると考えます。
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_5056005_138
+- face:
+  - 911
+  - 1
+- print:
+  - 三兄弟の長男
+  - ……
+- wait:
+  - 35
+- print:
+  - 三兄弟の長男
+  - なるほどな。
+- wait:
+  - 45
+- print:
+  - 三兄弟の長男
+  - >2-
+
+    カズマサの親方さんが残した傷……
+- wait:
+  - 70
+- print:
+  - 三兄弟の長男
+  - 確かに、
+- wait:
+  - 20
+- print:
+  - 三兄弟の長男
+  - いけるかもしれねぇ。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105812
+  - LC
+  - 1
+- chara_full:
+  - 811
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_5056005_139
+- face:
+  - 811
+  - 4
+- print:
+  - 三兄弟の次男
+  - オーマの漁師が手も足もでなかったバケモノ相手に、
+- wait:
+  - 55
+- print:
+  - 三兄弟の次男
+  - >2-
+
+    こんなにも簡単に弱点を探し当てちまうなんて……
+- wait:
+  - 85
+- print:
+  - 三兄弟の次男
+  - >2-
+
+    嬢ちゃんたち、
+- wait:
+  - 40
+- print:
+  - 三兄弟の次男
+  - 一体何者なんだ？
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5056005_140
+- face:
+  - 105812
+  - 1
+- nod:
+  - 105812
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ペコリーヌ
+  - まぁまぁ、
+- wait:
+  - 25
+- print:
+  - ペコリーヌ
+  - 今はいいじゃないですか♪
+- wait:
+  - 45
+- print:
+  - ペコリーヌ
+  - >2
+
+- face:
+  - 105812
+  - 6
+- print:
+  - ペコリーヌ
+  - それよりも、
+- wait:
+  - 25
+- print:
+  - ペコリーヌ
+  - その弱点をうまく狙う方法なんですけど──
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106012
+  - LC
+  - 1
+- chara_full:
+  - 6411
+  - RC
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_141
+- face:
+  - 6411
+  - 3
+- print:
+  - カズマサ
+  - ……
+- wait:
+  - 25
+- print:
+  - カズマサ
+  - 銛だな。
+- wait:
+  - 40
+- print:
+  - カズマサ
+  - >2-
+
+    あの小さな傷を狙うには、
+- wait:
+  - 55
+- print:
+  - カズマサ
+  - >2-
+
+    槍や銛のような急所を突くのに特化した
+- wait:
+  - 55
+- print:
+  - カズマサ
+  - 道具が最適だろう。
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5056005_142
+- face:
+  - 106012
+  - 4
+- print:
+  - キャル
+  - だけど、
+- wait:
+  - 15
+- print:
+  - キャル
+  - 普通の槍とかで大丈夫なわけ？
+- wait:
+  - 50
+- print:
+  - キャル
+  - >2-
+
+    傷がある部分とはいえ、
+- wait:
+  - 35
+- print:
+  - キャル
+  - あたしたちの魔法も少し弾かれてたし。
+- wait:
+  - 55
+- print:
+  - キャル
+  - >2-
+
+    効いてたのは確かだけど……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 107011
+  - C
+  - 1
+- fadein:
+  - 107011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_5056005_143
+- face:
+  - 107011
+  - 1
+- print:
+  - ネネカ
+  - 必要なのは
+- wait:
+  - 40
+- print:
+  - ネネカ
+  - 純粋な威力。
+- wait:
+  - 60
+- print:
+  - ネネカ
+  - >2-
+
+    そして、
+- wait:
+  - 40
+- print:
+  - ネネカ
+  - 貫くだけの武具の強度といったところでしょうか。
+- touch: *o0
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_5056005_144
+- face:
+  - 107011
+  - 1
+- nod:
+  - 107011
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ネネカ
+  - この町で最も頑丈な素材で作られた得物を持ってきてください。
+- wait:
+  - 110
+- print:
+  - ネネカ
+  - >2-
+
+    なるべく強度を上げられるよう、
+- wait:
+  - 55
+- print:
+  - ネネカ
+  - 私が魔力で特殊な加工を施します。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 107011
+  - 30
+- chara_full:
+  - 105812
+  - LC
+  - 6
+- chara_full:
+  - 106012
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5056005_145
+- face:
+  - 105812
+  - 6
+- emotion:
+  - question1_R
+  - 105812
+  - 105
+  - 510
+  - se_adv_emote_question_01
+- print:
+  - ペコリーヌ
+  - 一番に
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - 頑丈な武器、
+- wait:
+  - 40
+- print:
+  - ペコリーヌ
+  - ですか……？
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5056005_146
+- face:
+  - 106012
+  - 6
+- print:
+  - キャル
+  - そんな都合のいい物あるの……？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 911
+  - C
+  - 1
+  - 1
+- se:
+  - se_adv_stepadd_armor_heavy_01_move_01
+- fadein:
+  - 911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_5056005_147
+- face:
+  - 911
+  - 1
+- print:
+  - 三兄弟の長男
+  - ……
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_5056005_148
+- face:
+  - 911
+  - 1
+- eye_open:
+  - TRUE
+- print:
+  - 三兄弟の長男
+  - ……おい。
+- wait:
+  - 30
+- print:
+  - 三兄弟の長男
+  - >2-
+
+    アレを持ってこい。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 911
+  - 30
+- chara_full:
+  - 6311
+  - LC
+  - 6
+- chara_full:
+  - 811
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_5056005_149
+- face:
+  - 811
+  - 6
+- print:
+  - 三兄弟の次男
+  - アレって……
+- wait:
+  - 50
+- print:
+  - 三兄弟の次男
+  - い、
+- wait:
+  - 20
+- print:
+  - 三兄弟の次男
+  - いいのかよ、兄ちゃん？
+- touch: *o0
+- focus:
+  - 6311
+- bust:
+  - 6311
+  - 0
+- vo:
+  - vo_adv_5056005_150
+- face:
+  - 6311
+  - 4
+- print:
+  - 三兄弟の三男
+  - アレはたぶん、
+- wait:
+  - 30
+- print:
+  - 三兄弟の三男
+  - カズマサの親方さんの……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 6411
+  - LC
+  - 4
+- chara_full:
+  - 911
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_151
+- face:
+  - 6411
+  - 4
+- emotion:
+  - question1_R
+  - 6411
+  - 110
+  - 505
+  - se_adv_emote_question_01
+- print:
+  - カズマサ
+  - ……親方がどうしたってんだ？
+- wait:
+  - 30
+- print:
+  - カズマサ
+  - >2-
+
+    なんの話をしてやがる、
+- wait:
+  - 25
+- print:
+  - カズマサ
+  - ミナトの？
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_5056005_152
+- face:
+  - 911
+  - 1
+- print:
+  - 三兄弟の長男
+  - ……物を持ってくれば分かる。
+- wait:
+  - 40
+- print:
+  - 三兄弟の長男
+  - >2-
+
+    さぁ、
+- wait:
+  - 10
+- print:
+  - 三兄弟の長男
+  - 早くしろよ。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 811
+  - C
+  - 4
+- fadein:
+  - 811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_5056005_153
+- face:
+  - 811
+  - 4
+- print:
+  - 三兄弟の次男
+  - わ、
+- wait:
+  - 10
+- print:
+  - 三兄弟の次男
+  - 分かったよ……
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+- window_visible:
+  - false
+- fadeout:
+  - 811
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 30
+- black_in: *o0
+- chara_full:
+  - 105812
+  - LC
+  - 6
+- chara_full:
+  - 105913
+  - RC
+  - 6
+- se:
+  - se_adv_cloth_move_give_01
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M96
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5056005_154
+- face:
+  - 105812
+  - 6
+- print:
+  - ペコリーヌ
+  - これは──
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5056005_155
+- face:
+  - 105913
+  - 6
+- print:
+  - コッコロ
+  - 銛……
+- wait:
+  - 30
+- print:
+  - コッコロ
+  - でございますね。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106012
+  - LC
+  - 1
+- chara_full:
+  - 6411
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_156
+- face:
+  - 6411
+  - 6
+- emotion:
+  - exclamation1_R
+  - 6411
+  - 5
+  - 610
+  - se_adv_emote_common_01
+- print:
+  - カズマサ
+  - ……っ！
+- wait:
+  - 30
+- print:
+  - カズマサ
+  - >2-
+
+    この……
+- wait:
+  - 30
+- print:
+  - カズマサ
+  - 銛は……！
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 1
+- vo:
+  - vo_adv_5056005_157
+- face:
+  - 911
+  - 1
+- print:
+  - 三兄弟の長男
+  - ……
+- wait:
+  - 25
+- print:
+  - 三兄弟の長男
+  - そうか。
+- wait:
+  - 40
+- print:
+  - 三兄弟の長男
+  - >2-
+
+    あんたが反応したってことは……
+- wait:
+  - 45
+- print:
+  - 三兄弟の長男
+  - やっぱそうなんだな。
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5056005_158
+- face:
+  - 106012
+  - 6
+- emotion:
+  - question1_R
+  - 106012
+  - 120
+  - 500
+  - se_adv_emote_question_01
+- print:
+  - キャル
+  - え？　
+- wait:
+  - 15
+- print:
+  - キャル
+  - え？
+- wait:
+  - 15
+- print:
+  - キャル
+  - >2-
+
+    ちょっと、
+- wait:
+  - 10
+- print:
+  - キャル
+  - なんの話よ……？
+- touch: *o0
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_159
+- face:
+  - 6411
+  - 3
+- print:
+  - カズマサ
+  - ……こいつは。
+- wait:
+  - 40
+- print:
+  - カズマサ
+  - >2-
+
+    オレの親方の
+- wait:
+  - 35
+- print:
+  - カズマサ
+  - 銛だ。
+- touch: *o0
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_160
+- face:
+  - 6411
+  - 4
+- print:
+  - カズマサ
+  - 忘れもしねぇ……
+- wait:
+  - 45
+- print:
+  - カズマサ
+  - グレートトゥンヌスを討つために、
+- wait:
+  - 40
+- print:
+  - カズマサ
+  - >2-
+
+    親方が凄腕の鍛冶屋にこさえてもらった、
+- wait:
+  - 45
+- print:
+  - カズマサ
+  - 特製の大銛。
+- wait:
+  - 60
+- print:
+  - カズマサ
+  - >2-
+
+    船と一緒に沈んじまったと思ってたが……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 911
+  - LC
+  - 1
+- chara_full:
+  - 811
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_5056005_161
+- face:
+  - 911
+  - 1
+- print:
+  - 三兄弟の長男
+  - ……まだグレートトゥンヌスが再活動を始めてなかった時にな。
+- wait:
+  - 65
+- print:
+  - 三兄弟の長男
+  - >2-
+
+    漁をしている最中に、
+- wait:
+  - 35
+- print:
+  - 三兄弟の長男
+  - 海の底からたまたま引き上げたんだよ。
+- wait:
+  - 60
+- print:
+  - 三兄弟の長男
+  - >2-
+
+    めちゃくちゃに錆び付いてたけどな。
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_5056005_162
+- face:
+  - 811
+  - 4
+- print:
+  - 三兄弟の次男
+  - そのあとすぐにグレートトゥンヌスが現れたから……
+- wait:
+  - 65
+- print:
+  - 三兄弟の次男
+  - >2-
+
+    あんたが余計に無茶するんじゃないかって、
+- wait:
+  - 45
+- print:
+  - 三兄弟の次男
+  - 今まで隠してたけど。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 811
+  - 30
+- chara_full:
+  - 6311
+  - RC
+  - 2
+- fadein:
+  - 6311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 6311
+- bust:
+  - 6311
+  - 0
+- vo:
+  - vo_adv_5056005_163
+- face:
+  - 6311
+  - 2
+- print:
+  - 三兄弟の三男
+  - ……おれたちで、
+- wait:
+  - 15
+- print:
+  - 三兄弟の三男
+  - 毎日手入れをしておいた。
+- wait:
+  - 45
+- print:
+  - 三兄弟の三男
+  - >2-
+
+    たぶん、
+- wait:
+  - 20
+- print:
+  - 三兄弟の三男
+  - 今でもちゃんと使えると思う。
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_5056005_164
+- face:
+  - 911
+  - 1
+- eye_open:
+  - FALSE
+- print:
+  - 三兄弟の長男
+  - ……オーマを救う。
+- wait:
+  - 50
+- print:
+  - 三兄弟の長男
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 三兄弟の長男
+  - こいつは
+- wait:
+  - 20
+- print:
+  - 三兄弟の長男
+  - 親方さんと同じ想いと、
+- wait:
+  - 30
+- print:
+  - 三兄弟の長男
+  - 勇気を持つあんたが持つべきだ。
+- wait:
+  - 80
+- print:
+  - 三兄弟の長男
+  - >2-
+
+    ……受け取ってくれるか？
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 6411
+  - C
+  - 1
+- fadein:
+  - 6411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_165
+- face:
+  - 6411
+  - 1
+- print:
+  - カズマサ
+  - ……っ。
+- touch: *o0
+- se:
+  - se_adv_cloth_move_normal_01
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_166
+- face:
+  - 6411
+  - 2
+- print:
+  - カズマサ
+  - ……あぁ……
+- wait:
+  - 40
+- print:
+  - カズマサ
+  - >2
+
+- nod:
+  - 6411
+- bgm:
+  - bgm_M175_Ver2
+- print:
+  - カズマサ
+  - ……ああ……！
+- touch: *o0
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_167
+- face:
+  - 6411
+  - 1
+- print:
+  - カズマサ
+  - こいつで必ず、
+- wait:
+  - 40
+- print:
+  - カズマサ
+  - グレートトゥンヌスを討つ……！
+- wait:
+  - 50
+- print:
+  - カズマサ
+  - >2-
+
+    そん時に初めて、
+- wait:
+  - 40
+- print:
+  - カズマサ
+  - オレは立派な漁師になったんだって、
+- wait:
+  - 50
+- print:
+  - カズマサ
+  - >2
+
+- face:
+  - 6411
+  - 2
+- print:
+  - カズマサ
+  - 親方に胸張って言えると思うからよ……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 6411
+  - 30
+- chara_full:
+  - 105812
+  - LC
+  - 2
+- chara_full:
+  - 106012
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5056005_168
+- face:
+  - 105812
+  - 2
+- print:
+  - ペコリーヌ
+  - ……はい。
+- wait:
+  - 15
+- print:
+  - ペコリーヌ
+  - >2-
+
+    一緒に頑張りましょう、
+- wait:
+  - 25
+- print:
+  - ペコリーヌ
+  - カズマサさん！
+- touch: *o0
+- face:
+  - 105812
+  - 1
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5056005_169
+- face:
+  - 106012
+  - 1
+- nod:
+  - 106012
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - キャル
+  - まっ、
+- wait:
+  - 15
+- print:
+  - キャル
+  - いつまでもカズマサのおっさんがポンコツじゃ、
+- wait:
+  - 30
+- print:
+  - キャル
+  - >2-
+
+    親方って人も安心できないだろうしね♪
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 107011
+  - LC
+  - 6
+- chara_full:
+  - 6411
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_5056005_170
+- face:
+  - 107011
+  - 6
+- print:
+  - ネネカ
+  - ふむ……
+- wait:
+  - 40
+- print:
+  - ネネカ
+  - 強度は申し分ないようですね。
+- wait:
+  - 70
+- print:
+  - ネネカ
+  - >2
+
+- face:
+  - 107011
+  - 2
+- print:
+  - ネネカ
+  - では、
+- wait:
+  - 30
+- print:
+  - ネネカ
+  - すぐに作業に取りかかりましょう。
+- wait:
+  - 75
+- print:
+  - ネネカ
+  - >2-
+
+    ……その銛、
+- wait:
+  - 35
+- print:
+  - ネネカ
+  - こちらで預かってもよろしいですね？
+- touch: *o0
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_171
+- face:
+  - 6411
+  - 1
+- nod:
+  - 6411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - カズマサ
+  - ……あぁ。
+- wait:
+  - 20
+- print:
+  - カズマサ
+  - 頼んだ。
+- touch: *o0
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_5056005_172
+- face:
+  - 107011
+  - 1
+- print:
+  - ネネカ
+  - キャル、
+- wait:
+  - 20
+- print:
+  - ネネカ
+  - 貴方も手伝いなさい。
+- wait:
+  - 45
+- print:
+  - ネネカ
+  - >2-
+
+    なるべく急ぐ必要がありそうなので。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106012
+  - C
+  - 6
+- fadein:
+  - 106012
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5056005_173
+- face:
+  - 106012
+  - 6
+- emotion:
+  - question1_R
+  - 106012
+  - 120
+  - 500
+  - se_adv_emote_question_01
+- print:
+  - キャル
+  - へ？　
+- wait:
+  - 15
+- print:
+  - キャル
+  - あ、
+- wait:
+  - 10
+- print:
+  - キャル
+  - あたし？
+- wait:
+  - 30
+- print:
+  - キャル
+  - >2-
+
+    まぁ、
+- wait:
+  - 15
+- print:
+  - キャル
+  - いいけど……
+- wait:
+  - 35
+- face:
+  - 106012
+  - 3
+- print:
+  - キャル
+  - 共同作業するならあたしに合わせなさいよね？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106012
+  - 30
+- chara_full:
+  - 105913
+  - LC
+  - 1
+- chara_full:
+  - 811
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5056005_174
+- face:
+  - 105913
+  - 1
+- print:
+  - コッコロ
+  - 銛の方は、
+- wait:
+  - 25
+- print:
+  - コッコロ
+  - キャルさまたちがなんとかしてくださるでしょう。
+- wait:
+  - 55
+- print:
+  - コッコロ
+  - >2-
+
+    ならば、
+- wait:
+  - 20
+- print:
+  - コッコロ
+  - わたくしたちは──
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_5056005_175
+- face:
+  - 811
+  - 1
+- print:
+  - 三兄弟の次男
+  - グレートトゥンヌスが引き連れてる魚群を、
+- wait:
+  - 10
+- print:
+  - 三兄弟の次男
+  - >2-
+
+    どうにかする方法を考えなきゃだな。
+- wait:
+  - 60
+- print:
+  - 三兄弟の次男
+  - >2-
+
+    親玉を釣り上げる最中に邪魔をされちゃ、
+- wait:
+  - 55
+- print:
+  - 三兄弟の次男
+  - たまったもんじゃねぇ。
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_5056005_176
+- face:
+  - 811
+  - 4
+- print:
+  - 三兄弟の次男
+  - どこまで通じるかは分からねぇが……
+- wait:
+  - 70
+- print:
+  - 三兄弟の次男
+  - >2
+
+- face:
+  - 811
+  - 1
+- print:
+  - 三兄弟の次男
+  - 『シークラッカー』を可能な限り用意しようと思う。
+- wait:
+  - 70
+- print:
+  - 三兄弟の次男
+  - >2-
+
+    作るのに少し準備がいる、
+- wait:
+  - 40
+- print:
+  - 三兄弟の次男
+  - 手伝ってくれるか？
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5056005_177
+- face:
+  - 105913
+  - 2
+- print:
+  - コッコロ
+  - もちろんでございます。
+- wait:
+  - 30
+- print:
+  - コッコロ
+  - >2-
+
+    みなさまのお世話の傍ら、
+- wait:
+  - 35
+- print:
+  - コッコロ
+  - そういった細かい作業は得意ですので、
+- wait:
+  - 55
+- print:
+  - コッコロ
+  - >2-
+
+    わたくしも
+- wait:
+  - 20
+- print:
+  - コッコロ
+  - 少しはお力になれるかと。
+- touch: *o0
+- choice:
+  - 僕も手伝う！
+  - 11
+- tag:
+  - 11
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5056005_178
+- face:
+  - 105913
+  - 6
+- print:
+  - コッコロ
+  - 主さまもお手伝いしてくださるのですか？
+- wait:
+  - 70
+- print:
+  - コッコロ
+  - >2
+
+- face:
+  - 105913
+  - 2
+- print:
+  - コッコロ
+  - ふふっ、
+- wait:
+  - 35
+- print:
+  - コッコロ
+  - では参りましょう。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105812
+  - LC
+  - 1
+- chara_full:
+  - 6311
+  - RC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 6311
+- bust:
+  - 6311
+  - 0
+- vo:
+  - vo_adv_5056005_179
+- face:
+  - 6311
+  - 2
+- nod:
+  - 6311
+- se:
+  - se_adv_stepadd_armor_heavy_02_move_01
+- print:
+  - 三兄弟の三男
+  - ……よっしゃ。
+- wait:
+  - 25
+- print:
+  - 三兄弟の三男
+  - >2-
+
+    ならおれは、
+- wait:
+  - 25
+- print:
+  - 三兄弟の三男
+  - 誘導用の撒き餌でも集めるかな？
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5056005_180
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - 撒き餌ですかっ？
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - >2
+
+- face:
+  - 105812
+  - 2
+- print:
+  - ペコリーヌ
+  - はいはい！　
+- wait:
+  - 10
+- print:
+  - ペコリーヌ
+  - わたしも手伝いますっ！
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 105812
+  - 1
+- fadeout:
+  - 6311
+  - 30
+- chara_full:
+  - 106113
+  - RC
+  - 4
+- fadein:
+  - 106113
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_5056005_181
+- face:
+  - 106113
+  - 4
+- emotion:
+  - sweat1_R
+  - 106113
+  - 95
+  - 440
+  - se_adv_emote_sweat_01
+- print:
+  - ムイミ
+  - オマエ……
+- wait:
+  - 45
+- print:
+  - ムイミ
+  - 腹が減ったからって魚のエサは食うなよな？
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- background:
+  - 501162
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 6411
+  - C
+  - 1
+  - 1
+- se:
+  - se_adv_cloth_move_give_01
+- fadein:
+  - 6411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_182
+- face:
+  - 6411
+  - 1
+- print:
+  - カズマサ
+  - …………
+- touch: *o0
+- bgm:
+  - bgm_M435
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_183
+- face:
+  - 6411
+  - 1
+- eye_open:
+  - TRUE
+- print:
+  - カズマサ
+  - ……親方。
+- wait:
+  - 55
+- print:
+  - カズマサ
+  - >2-
+
+    みんながみんな、
+- wait:
+  - 45
+- print:
+  - カズマサ
+  - あんたほどの漁師には及ばねぇ。
+- wait:
+  - 55
+- print:
+  - カズマサ
+  - >2-
+
+    けどさ──
+- touch: *o0
+- window_visible:
+  - false
+- se_pause:
+  - amb_adv_seaside_01
+  - 3
+- fadeout:
+  - 6411
+  - 30
+- se:
+  - amb_adv_seaside_03
+- black_out:
+  - 1
+  - 1
+- bg_color:
+  - 0
+  - 0
+  - 0
+- wait:
+  - 30
+- effect:
+  - 0087
+- black_in: *o0
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5056005_184
+- face:
+  - 1
+  - 1
+- print:
+  - 親方
+  - 知ってっか？　
+- wait:
+  - 35
+- print:
+  - 親方
+  - 群れになった小魚は、
+- wait:
+  - 40
+- print:
+  - 親方
+  - 時に大物をも退ける。
+- wait:
+  - 70
+- print:
+  - 親方
+  - >2-
+
+    仲間と力を合わせれば、
+- wait:
+  - 45
+- print:
+  - 親方
+  - どんな荒波だって越えられるんだ。
+- touch: *o0
+- window_visible:
+  - false
+- vo_effect:
+  - 0
+- se_pause:
+  - amb_adv_seaside_03
+  - 3
+- black_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0087
+- background:
+  - 501162
+- se:
+  - amb_adv_seaside_01
+- wait:
+  - 30
+- black_in: *o0
+- chara_full:
+  - 6411
+  - C
+  - 1
+- fadein:
+  - 6411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_185
+- face:
+  - 6411
+  - 1
+- print:
+  - カズマサ
+  - ……今のオレには、
+- wait:
+  - 35
+- print:
+  - カズマサ
+  - あいつらがいる。
+- touch: *o0
+- focus:
+  - 6411
+- bust:
+  - 6411
+  - 0
+- vo:
+  - vo_adv_5056005_186
+- face:
+  - 6411
+  - 1
+- nod:
+  - 6411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - カズマサ
+  - 必ず越えてみせるさ……
+- wait:
+  - 60
+- print:
+  - カズマサ
+  - あのバケモノを、
+- wait:
+  - 20
+- print:
+  - カズマサ
+  - そしてあんたも。
+- wait:
+  - 75
+- print:
+  - カズマサ
+  - >2
+
+- face:
+  - 6411
+  - 2
+- print:
+  - カズマサ
+  - あんたがオレたちに託してくれた、
+- wait:
+  - 45
+- print:
+  - カズマサ
+  - オーマの魂にかけてな。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 6411
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 1411
+  - C
+  - 4
+- fadein:
+  - 1411
+  - 30
+- se:
+  - se_adv_cloth_move_normal_01
+- window_visible:
+  - true
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_5056005_187
+- face:
+  - 1411
+  - 4
+- print:
+  - 漁師１
+  - ……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - ……わずかながらに見え始めた光明。
+- wait:
+  - 30
+- print:
+  - ナレーション
+  - >2-
+
+    皆が準備にいそしむ中、決戦の時は刻一刻と近づいてくる──
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- se_pause:
+  - amb_adv_seaside_01
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

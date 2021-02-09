@@ -1,0 +1,159 @@
+- title:
+  - 信賴度4
+- outline:
+  - ' '
+- background:
+  - 500036
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 信賴度4
+- chara_full:
+  - 111911
+  - C
+  - 2
+- fadein:
+  - 111911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 111911
+- bust:
+  - 111911
+  - 0
+- vo:
+  - vo_adv_6056204_000
+- face:
+  - 111911
+  - 2
+- print:
+  - 可可蘿
+  - >
+    負責調理鮪魚的漁夫們精湛的廚藝，真是太精采了。
+- face:
+  - 111911
+  - 1
+- print:
+  - 可可蘿
+  - 看來在下今後也得精益求精，做出能夠滿足大家的料理。
+- touch: &o0 []
+- choice:
+  - 吃起來是大間的風味。
+  - 1
+  - 1
+- choice:
+  - 可可蘿一定也煮得出來！
+  - 2
+  - 2
+- choice:
+  - 不如拜廚師為師吧。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 111911
+- bust:
+  - 111911
+  - 0
+- vo:
+  - vo_adv_6056204_001
+- face:
+  - 111911
+  - 1
+- nod:
+  - 111911
+- print:
+  - 可可蘿
+  - >
+    是的，這是只有在大間才吃得到的道地美味。
+
+    大間的漁村以及這風味沒有消失，真的是太好了。
+- face:
+  - 111911
+  - 2
+- print:
+  - 可可蘿
+  - 等明年這個時候，我們也用大間的魚來慶祝新年吧。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 111911
+- bust:
+  - 111911
+  - 0
+- vo:
+  - vo_adv_6056204_002
+- face:
+  - 111911
+  - 2
+- print:
+  - 可可蘿
+  - >
+    嘻嘻……謝謝您。
+- face:
+  - 111911
+  - 1
+- print:
+  - 可可蘿
+  - 晚點在下會向漁夫們請教調理法，還請主人拭目以待。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 111911
+- bust:
+  - 111911
+  - 0
+- vo:
+  - vo_adv_6056204_003
+- face:
+  - 111911
+  - 6
+- emotion:
+  - question1_R
+  - 111911
+  - 120
+  - 435
+  - se_adv_emote_question_01
+- print:
+  - 可可蘿
+  - >
+    拜、拜師嗎？
+- face:
+  - 111911
+  - 1
+- print:
+  - 可可蘿
+  - >
+    嗯……的確，要是這樣能為主人們帶來喜悅……
+- face:
+  - 111911
+  - 6
+- print:
+  - 可可蘿
+  - 咦？只是開個玩笑而已？
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 111911
+  - 30
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

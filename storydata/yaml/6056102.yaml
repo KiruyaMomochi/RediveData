@@ -1,0 +1,186 @@
+- title:
+  - 信賴度2
+- outline:
+  - ' '
+- background:
+  - 500036
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 信賴度2
+- chara_full:
+  - 105812
+  - C
+  - 1
+- fadein:
+  - 105812
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_6056102_000
+- face:
+  - 105812
+  - 1
+- print:
+  - 貪吃佩可
+  - >
+    和優先生已經將他的獨門捕魚技巧，
+
+    「呀嗯漁法」詳細地傳授給我了♪
+- nod:
+  - 105812
+- print:
+  - 貪吃佩可
+  - 要現在跟我一起試試看嗎？
+- touch: &o0 []
+- choice:
+  - 教我！
+  - 1
+  - 1
+- choice:
+  - 真的沒問題嗎……？
+  - 2
+  - 2
+- choice:
+  - 也找凱留一起來。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_6056102_001
+- face:
+  - 105812
+  - 2
+- print:
+  - 貪吃佩可
+  - >
+    好的，沒問題♪
+- face:
+  - 105812
+  - 6
+- print:
+  - 貪吃佩可
+  - >
+    就是呢……首先要把腰彎成這個角度……
+- face:
+  - 105812
+  - 1
+- print:
+  - 貪吃佩可
+  - 接著把吆喝聲喊出來！
+- face:
+  - 105812
+  - 3
+- pop:
+  - 105812
+- print:
+  - 貪吃佩可
+  - 「呀嗯漁法」！？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_6056102_002
+- face:
+  - 105812
+  - 6
+- emotion:
+  - question1_R
+  - 105812
+  - 105
+  - 510
+  - se_adv_emote_question_01
+- print:
+  - 貪吃佩可
+  - >
+    咦？……喔，你的意思是還沒上手就貿然實行很危險嗎？
+- face:
+  - 105812
+  - 4
+- print:
+  - 貪吃佩可
+  - >
+    的確……也許我應該再研究一下比較好。
+- face:
+  - 105812
+  - 1
+- print:
+  - 貪吃佩可
+  - 為了能夠更得心應手，我們一起多多練習吧♪
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_6056102_003
+- face:
+  - 105812
+  - 2
+- emotion:
+  - note1_L
+  - 105812
+  - -85
+  - 530
+  - se_adv_emote_note_01
+- print:
+  - 貪吃佩可
+  - >
+    喔喔，真是好主意♪
+- face:
+  - 105812
+  - 1
+- print:
+  - 貪吃佩可
+  - >-
+    我這就去叫小凱留過來！
+
+    小凱留……
+- face:
+  - 105812
+  - 6
+- print:
+  - 貪吃佩可
+  - 咦，怎麼突然跑走了呢！？
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 105812
+  - 30
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

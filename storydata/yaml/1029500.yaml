@@ -1,0 +1,548 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 509010
+- amb:
+  - amb_adv_room_noise_01
+- ui_visible:
+  - false
+- effect:
+  - 0101
+- bgm:
+  - bgm_M321_2C
+  - 0
+  - 0
+  - 1
+- wait:
+  - 17
+- se:
+  - se_adv_login_birthday_01
+- wait:
+  - 100
+- ui_visible:
+  - true
+- chara_full:
+  - 102913
+  - C
+  - 6
+- fadein:
+  - 102913
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102913
+- bust:
+  - 102913
+  - 0
+- vo:
+  - vo_adv_1029500_000
+- face:
+  - 102913
+  - 6
+- print:
+  - 望
+  - 啊，
+- wait:
+  - 15
+- print:
+  - 望
+  - 你在這裡！
+- wait:
+  - 15
+- print:
+  - 望
+  - >2
+
+- face:
+  - 102913
+  - 4
+- print:
+  - 望
+  - 抱歉，
+- wait:
+  - 15
+- print:
+  - 望
+  - 工作稍微拖了一點時間。
+- touch: &o0 []
+- focus:
+  - 102913
+- bust:
+  - 102913
+  - 0
+- vo:
+  - vo_adv_1029500_001
+- face:
+  - 102913
+  - 1
+- print:
+  - 望
+  - 不過，
+- wait:
+  - 15
+- print:
+  - 望
+  - 別擔心，我是把工作做完才過來的！
+- wait:
+  - 15
+- print:
+  - 望
+  - >2-
+
+    所以，今天是有什麼事嗎？
+- touch: *o0
+- choice:
+  - 生日快樂！
+  - 1
+- choice:
+  - 一個粉絲送的生日禮物。
+  - 2
+- choice:
+  - 生日也要工作，辛苦妳了。
+  - 3
+- tag:
+  - 1
+- window_visible:
+  - false
+- se:
+  - se_adv_tickle_02
+- effect:
+  - 0102
+- wait:
+  - 25
+- se:
+  - se_adv_login_birthday_02
+- wait:
+  - 40
+- effect:
+  - 0021
+  - se_adv_happy_particle_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 102913
+- bust:
+  - 102913
+  - 0
+- vo:
+  - vo_adv_1029500_002
+- face:
+  - 102913
+  - 2
+- print:
+  - 望
+  - 哇，
+- wait:
+  - 15
+- print:
+  - 望
+  - 謝謝你～！
+- wait:
+  - 15
+- print:
+  - 望
+  - >2
+
+- face:
+  - 102913
+  - 1
+- print:
+  - 望
+  - 好開心喔，
+- wait:
+  - 15
+- print:
+  - 望
+  - 居然可以收到你送的禮物！
+- touch: *o0
+- focus:
+  - 102913
+- bust:
+  - 102913
+  - 0
+- vo:
+  - vo_adv_1029500_003
+- face:
+  - 102913
+  - 2
+- emotion:
+  - note1_L
+  - 102913
+  - -90
+  - 450
+  - se_adv_emote_note_01
+- print:
+  - 望
+  - 呵呵。
+- wait:
+  - 15
+- print:
+  - 望
+  - >-
+    讓你為我慶生，
+
+    總覺得有點害臊呢……♪
+- wait:
+  - 15
+- print:
+  - 望
+  - >2
+
+- face:
+  - 102913
+  - 5
+- print:
+  - 望
+  - 不是偶像的我的這一面，只有你能看到。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- window_visible:
+  - false
+- se:
+  - se_adv_tickle_02
+- effect:
+  - 0102
+- wait:
+  - 25
+- se:
+  - se_adv_login_birthday_02
+- wait:
+  - 40
+- effect:
+  - 0021
+  - se_adv_happy_particle_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 102913
+- bust:
+  - 102913
+  - 0
+- vo:
+  - vo_adv_1029500_004
+- face:
+  - 102913
+  - 1
+- print:
+  - 望
+  - 哇，
+- wait:
+  - 15
+- print:
+  - 望
+  - 謝謝你！
+- wait:
+  - 15
+- print:
+  - 望
+  - >2
+
+- face:
+  - 102913
+  - 6
+- print:
+  - 望
+  - 不過，生日禮物請透過事務所轉交……
+- wait:
+  - 15
+- face:
+  - 102913
+  - 1
+- print:
+  - 望
+  - 開玩笑的啦！
+- wait:
+  - 15
+- print:
+  - 望
+  - >2-
+
+    謝謝你！
+- wait:
+  - 15
+- print:
+  - 望
+  - 我會好好珍惜的！
+- touch: *o0
+- focus:
+  - 102913
+- bust:
+  - 102913
+  - 0
+- vo:
+  - vo_adv_1029500_005
+- face:
+  - 102913
+  - 1
+- print:
+  - 望
+  - 像這樣收到禮物或粉絲信，
+- wait:
+  - 15
+- print:
+  - 望
+  - >2-
+
+    就能確切感受到大家的支持，我也會更加有精神！
+- wait:
+  - 15
+- print:
+  - 望
+  - >2
+
+- face:
+  - 102913
+  - 2
+- print:
+  - 望
+  - 也謝謝你
+- wait:
+  - 15
+- print:
+  - 望
+  - 一直支持著我！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 102913
+- bust:
+  - 102913
+  - 0
+- vo:
+  - vo_adv_1029500_006
+- face:
+  - 102913
+  - 1
+- print:
+  - 望
+  - 既然我立志成為頂尖偶像，
+- wait:
+  - 15
+- print:
+  - 望
+  - >2-
+
+    當然不能因為是生日就休息呀！
+- wait:
+  - 15
+- print:
+  - 望
+  - >2
+
+- face:
+  - 102913
+  - 2
+- print:
+  - 望
+  - 這些
+- wait:
+  - 15
+- print:
+  - 望
+  - 都是小事啦♪
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 102913
+  - 1
+- se:
+  - se_adv_tickle_02
+- effect:
+  - 0102
+- wait:
+  - 25
+- se:
+  - se_adv_login_birthday_02
+- wait:
+  - 40
+- effect:
+  - 0021
+  - se_adv_happy_particle_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 102913
+- bust:
+  - 102913
+  - 0
+- vo:
+  - vo_adv_1029500_007
+- face:
+  - 102913
+  - 6
+- print:
+  - 望
+  - 啊……
+- wait:
+  - 15
+- print:
+  - 望
+  - 這個難道是
+- wait:
+  - 15
+- print:
+  - 望
+  - 我的生日禮物嗎？
+- wait:
+  - 15
+- face:
+  - 102913
+  - 2
+- print:
+  - 望
+  - 謝謝……！
+- wait:
+  - 15
+- print:
+  - 望
+  - >2
+
+- face:
+  - 102913
+  - 1
+- print:
+  - 望
+  - 呵呵，
+- wait:
+  - 15
+- print:
+  - 望
+  - 收到這個，
+- wait:
+  - 15
+- print:
+  - 望
+  - 不管多麼辛苦，疲憊都會一掃而空呢！
+- touch: *o0
+- tag:
+  - 4
+- effect_delete:
+  - 0021
+  - 15
+- focus:
+  - 102913
+- bust:
+  - 102913
+  - 0
+- vo:
+  - vo_adv_1029500_008
+- face:
+  - 102913
+  - 1
+- nod:
+  - 102913
+- print:
+  - 望
+  - 嘿，
+- wait:
+  - 15
+- print:
+  - 望
+  - 我今天的工作已經結束了。
+- wait:
+  - 15
+- print:
+  - 望
+  - >2
+
+- face:
+  - 102913
+  - 2
+- print:
+  - 望
+  - 難得的機會，我們一起出去轉轉吧！
+- touch: *o0
+- focus:
+  - 102913
+- bust:
+  - 102913
+  - 0
+- vo:
+  - vo_adv_1029500_009
+- face:
+  - 102913
+  - 1
+- print:
+  - 望
+  - 之前我發現了
+- wait:
+  - 15
+- print:
+  - 望
+  - 一間隱密的甜點店哦。
+- wait:
+  - 15
+- print:
+  - 望
+  - >2
+
+- face:
+  - 102913
+  - 6
+- print:
+  - 望
+  - 因為不想變胖，
+- wait:
+  - 15
+- print:
+  - 望
+  - 我平時都很克制吃甜食……
+- wait:
+  - 15
+- print:
+  - 望
+  - >2
+
+- face:
+  - 102913
+  - 5
+- print:
+  - 望
+  - 但今天你也在，
+- wait:
+  - 15
+- print:
+  - 望
+  - 偶爾一次沒關係吧♪
+- touch: *o0
+- window_visible:
+  - false
+- ui_visible:
+  - false
+- fadeout:
+  - 102913
+  - 30
+- seasonal_reward: *o0
+- bright_change:
+  - 1
+  - 40
+- wait:
+  - 5
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0101
+- end: *o0

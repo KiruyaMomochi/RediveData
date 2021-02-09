@@ -1,0 +1,254 @@
+- title:
+  - ハロウィンについて
+- outline:
+  - ' '
+- background:
+  - 501132
+- amb:
+  - amb_adv_outdoors_night_01
+- ui_visible:
+  - FALSE
+- situation:
+  - ハロウィンについて
+- chara_full:
+  - 114111
+  - C
+  - 2
+- fadein:
+  - 114111
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M414_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 114111
+- bust:
+  - 114111
+  - 0
+- vo:
+  - vo_adv_6050305_000
+- face:
+  - 114111
+  - 2
+- print:
+  - マツリ
+  - さっき街を歩いてたら
+- wait:
+  - 30
+- print:
+  - マツリ
+  - お菓子を貰ったッス！
+- wait:
+  - 40
+- print:
+  - マツリ
+  - >2
+
+- face:
+  - 114111
+  - 1
+- print:
+  - マツリ
+  - あんたも一緒に食べるッスよ！
+- touch: &o0 []
+- choice:
+  - 僕もお菓子をあげるよ。
+  - 1
+  - 1
+- choice:
+  - ありがとう！
+  - 2
+  - 2
+- choice:
+  - トリックオアトリート！
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 114111
+- bust:
+  - 114111
+  - 0
+- vo:
+  - vo_adv_6050305_001
+- face:
+  - 114111
+  - 2
+- emotion:
+  - note1_L
+  - 114111
+  - -90
+  - 415
+  - se_adv_emote_note_01
+- print:
+  - マツリ
+  - ありがとうッス！　
+- wait:
+  - 40
+- print:
+  - マツリ
+  - たくさんお菓子が貰えてうれしいッス！
+- wait:
+  - 55
+- print:
+  - マツリ
+  - >2
+
+- face:
+  - 114111
+  - 1
+- print:
+  - マツリ
+  - でも
+- wait:
+  - 25
+- print:
+  - マツリ
+  - なんでこんなにお菓子を貰えるんスかね。
+- wait:
+  - 45
+- print:
+  - マツリ
+  - 不思議ッス。
+- wait:
+  - 75
+- print:
+  - マツリ
+  - >2
+
+- face:
+  - 114111
+  - 6
+- print:
+  - マツリ
+  - ……ハッ！　
+- wait:
+  - 45
+- print:
+  - マツリ
+  - 自分が
+- wait:
+  - 30
+- print:
+  - マツリ
+  - 子どもだからッスか！？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 114111
+- bust:
+  - 114111
+  - 0
+- vo:
+  - vo_adv_6050305_002
+- face:
+  - 114111
+  - 2
+- emotion:
+  - twinkle1_R
+  - 114111
+  - -110
+  - 410
+  - se_adv_emote_twinkle_01
+- print:
+  - マツリ
+  - ハロウィンはいろんなお菓子が貰えていいッスね！
+- wait:
+  - 55
+- print:
+  - マツリ
+  - >2-
+
+    ず～っとハロウィンが続けばいいのに。
+- wait:
+  - 60
+- print:
+  - マツリ
+  - >2
+
+- face:
+  - 114111
+  - 1
+- print:
+  - マツリ
+  - あんたもそう思わないッスか？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 114111
+- bust:
+  - 114111
+  - 0
+- vo:
+  - vo_adv_6050305_003
+- face:
+  - 114111
+  - 6
+- print:
+  - マツリ
+  - 自分からお菓子を取り上げるつもりッスね！
+- wait:
+  - 35
+- print:
+  - マツリ
+  - >2
+
+- face:
+  - 114111
+  - 1
+- print:
+  - マツリ
+  - そうはいかないッスよ！　
+- wait:
+  - 40
+- face:
+  - 114111
+  - 3
+- pop:
+  - 114111
+- print:
+  - マツリ
+  - トリックオアトリート返しッス！
+- wait:
+  - 40
+- print:
+  - マツリ
+  - >2
+
+- face:
+  - 114111
+  - 1
+- print:
+  - マツリ
+  - お菓子をくれなきゃイタズラするッスよ！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 114111
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

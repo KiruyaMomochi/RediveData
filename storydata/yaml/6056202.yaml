@@ -1,0 +1,171 @@
+- title:
+  - 信賴度2
+- outline:
+  - ' '
+- background:
+  - 500036
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 信賴度2
+- chara_full:
+  - 105913
+  - C
+  - 1
+- fadein:
+  - 105913
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_6056202_000
+- face:
+  - 105913
+  - 1
+- print:
+  - 可可蘿
+  - >
+    幫忙大家維修捕魚用的道具才知道，
+
+    原來它們的種類這麼繁多。
+- face:
+  - 105913
+  - 6
+- print:
+  - 可可蘿
+  - 運用各種智慧製造出的各種漁具……
+- face:
+  - 105913
+  - 2
+- print:
+  - 可可蘿
+  - 真是讓人欽佩不已。
+- touch: &o0 []
+- choice:
+  - 每樣都破破爛爛的。
+  - 1
+  - 1
+- choice:
+  - 這個用箱子裝的是什麼？
+  - 2
+  - 2
+- choice:
+  - 這件漁具好像壞了。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_6056202_001
+- face:
+  - 105913
+  - 1
+- print:
+  - 可可蘿
+  - >-
+    恐怕是因為……它們都已經有段歲月的關係吧。
+
+    而這殘破的狀態，
+- eye_open:
+  - False
+- print:
+  - 可可蘿
+  - >
+    也是它們捕魚至今的輝煌記錄……
+- eye_open:
+  - True
+- face:
+  - 105913
+  - 2
+- print:
+  - 可可蘿
+  - 呵呵，看來我們得細心保養，好好慰勞它們才行。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_6056202_002
+- face:
+  - 105913
+  - 6
+- emotion:
+  - exclamation1_R
+  - 105913
+  - 25
+  - 600
+  - se_adv_emote_common_01
+- print:
+  - 可可蘿
+  - >-
+    啊……不、不能碰，主人！
+
+    那件道具要是碰了會發出巨大聲響──呀啊！？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_6056202_003
+- face:
+  - 105913
+  - 6
+- print:
+  - 可可蘿
+  - 喔喔……
+- face:
+  - 105913
+  - 2
+- print:
+  - 可可蘿
+  - >
+    謝謝您，主人。
+- face:
+  - 105913
+  - 1
+- print:
+  - 可可蘿
+  - >-
+    在下晚點會向和優先生報告。
+
+    只要做好萬全的準備，捕魚一定夠能順利。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 105913
+  - 30
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

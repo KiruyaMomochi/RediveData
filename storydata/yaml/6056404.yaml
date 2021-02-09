@@ -1,0 +1,278 @@
+- title:
+  - 新年
+- outline:
+  - ' '
+- background:
+  - 500036
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 新年
+- chara_full:
+  - 114711
+  - C
+  - 6
+- fadein:
+  - 114711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 114711
+- bust:
+  - 114711
+  - 0
+- vo:
+  - vo_adv_6056404_000
+- face:
+  - 114711
+  - 6
+- emotion:
+  - question1_R
+  - 114711
+  - 115
+  - 445
+  - se_adv_emote_question_01
+- print:
+  - 矛依未
+  - 新年都怎麼過？
+- wait:
+  - 25
+- print:
+  - 矛依未
+  - >2
+
+- face:
+  - 114711
+  - 4
+- print:
+  - 矛依未
+  - 我從以前到現在，
+- wait:
+  - 15
+- print:
+  - 矛依未
+  - 都不太注重新年就是了……
+- wait:
+  - 45
+- print:
+  - 矛依未
+  - >2
+
+- face:
+  - 114711
+  - 6
+- print:
+  - 矛依未
+  - 所以新年有這麼好玩嗎？
+- wait:
+  - 35
+- print:
+  - 矛依未
+  - 大家都做些什麼事啊？
+- touch: &o0 []
+- choice:
+  - 吃年菜之類的。
+  - 1
+  - 1
+- choice:
+  - 去參拜之類的。
+  - 2
+  - 2
+- choice:
+  - 玩毽球板之類的。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 114711
+- bust:
+  - 114711
+  - 0
+- vo:
+  - vo_adv_6056404_001
+- face:
+  - 114711
+  - 6
+- emotion:
+  - surprise1_L
+  - 114711
+  - 160
+  - 485
+  - se_adv_emote_common_01
+- print:
+  - 矛依未
+  - 原來黏菜是新年吃的食物嗎！？
+- wait:
+  - 25
+- print:
+  - 矛依未
+  - >2
+
+- face:
+  - 114711
+  - 1
+- print:
+  - 矛依未
+  - 如果能吃新年才有的特別食物，
+- wait:
+  - 30
+- print:
+  - 矛依未
+  - 聽起來應該挺有意思的。
+- wait:
+  - 25
+- print:
+  - 矛依未
+  - >2
+
+- face:
+  - 114711
+  - 2
+- print:
+  - 矛依未
+  - 要是真的很好吃，那我也要吃吃看！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 114711
+- bust:
+  - 114711
+  - 0
+- vo:
+  - vo_adv_6056404_002
+- face:
+  - 114711
+  - 4
+- print:
+  - 矛依未
+  - 參拜？
+- wait:
+  - 30
+- face:
+  - 114711
+  - 4
+- print:
+  - 矛依未
+  - ……你說去寺院投錢，
+- wait:
+  - 15
+- print:
+  - 矛依未
+  - >
+    然後向神許願？/45\
+- face:
+  - 114711
+  - 6
+- print:
+  - 矛依未
+  - 可是願望應該不會因為這樣就成真吧……
+- wait:
+  - 50
+- print:
+  - 矛依未
+  - >2
+
+- face:
+  - 114711
+  - 1
+- print:
+  - 矛依未
+  - 我開始有點好奇你們是怎麼做的。
+- wait:
+  - 25
+- print:
+  - 矛依未
+  - 到時也找我一起去吧！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 114711
+- bust:
+  - 114711
+  - 0
+- vo:
+  - vo_adv_6056404_003
+- face:
+  - 114711
+  - 6
+- print:
+  - 矛依未
+  - 毽球板？
+- wait:
+  - 25
+- face:
+  - 114711
+  - 4
+- print:
+  - 矛依未
+  - 記得好像是……
+- wait:
+  - 30
+- print:
+  - 矛依未
+  - 用板子打像球一樣的東西是嗎？
+- wait:
+  - 45
+- print:
+  - 矛依未
+  - >2
+
+- face:
+  - 114711
+  - 1
+- print:
+  - 矛依未
+  - 喔喔，
+- wait:
+  - 15
+- print:
+  - 矛依未
+  - 果然沒記錯！
+- wait:
+  - 25
+- print:
+  - 矛依未
+  - 這個的話我應該也能樂在其中！
+- wait:
+  - 30
+- print:
+  - 矛依未
+  - >2
+
+- face:
+  - 114711
+  - 2
+- print:
+  - 矛依未
+  - 我會把你打得落花流水，
+- wait:
+  - 25
+- print:
+  - 矛依未
+  - 馬上就去玩玩看吧！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 114711
+  - 30
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

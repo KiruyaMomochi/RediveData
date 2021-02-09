@@ -1,0 +1,289 @@
+- title:
+  - いたずらするなら
+- outline:
+  - ' '
+- background:
+  - 501132
+- amb:
+  - amb_adv_outdoors_night_01
+- ui_visible:
+  - FALSE
+- situation:
+  - いたずらするなら
+- chara_full:
+  - 114111
+  - C
+  - 1
+- fadein:
+  - 114111
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M414_03
+  - 0
+  - 0
+  - 1
+- focus:
+  - 114111
+- bust:
+  - 114111
+  - 0
+- vo:
+  - vo_adv_6050308_000
+- face:
+  - 114111
+  - 1
+- print:
+  - マツリ
+  - ハロウィンは
+- wait:
+  - 30
+- print:
+  - マツリ
+  - いたずらが許されるイベントッスよね。
+- wait:
+  - 60
+- print:
+  - マツリ
+  - >2
+
+- face:
+  - 114111
+  - 6
+- print:
+  - マツリ
+  - 普段なら注意しなきゃいけないところなんスけど、
+- wait:
+  - 55
+- face:
+  - 114111
+  - 1
+- print:
+  - マツリ
+  - その……
+- wait:
+  - 55
+- print:
+  - マツリ
+  - >2
+
+- face:
+  - 114111
+  - 2
+- print:
+  - マツリ
+  - ちょっとだけ興味があるッス。
+- touch: &o0 []
+- choice:
+  - 悪いことをしてみる？
+  - 1
+  - 1
+- choice:
+  - 喜ばせよう。
+  - 2
+  - 2
+- choice:
+  - 兜を……
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 114111
+- bust:
+  - 114111
+  - 0
+- vo:
+  - vo_adv_6050308_001
+- face:
+  - 114111
+  - 6
+- print:
+  - マツリ
+  - 悪いことといたずらは違うッスよ！
+- wait:
+  - 45
+- print:
+  - マツリ
+  - >2
+
+- face:
+  - 114111
+  - 3
+- print:
+  - マツリ
+  - 悪いことはいつだってしちゃだめッス！
+- wait:
+  - 65
+- print:
+  - マツリ
+  - >2
+
+- face:
+  - 114111
+  - 4
+- print:
+  - マツリ
+  - でも、
+- wait:
+  - 30
+- print:
+  - マツリ
+  - 悪くないいたずらって
+- wait:
+  - 65
+- print:
+  - マツリ
+  - なかなか思い浮かばないッス……
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 114111
+- bust:
+  - 114111
+  - 0
+- vo:
+  - vo_adv_6050308_002
+- face:
+  - 114111
+  - 1
+- emotion:
+  - twinkle1_R
+  - 114111
+  - -110
+  - 410
+  - se_adv_emote_twinkle_01
+- print:
+  - マツリ
+  - サプライズってやつッスか！
+- wait:
+  - 40
+- print:
+  - マツリ
+  - >2-
+
+    なるほど。
+- wait:
+  - 40
+- print:
+  - マツリ
+  - それなら
+- wait:
+  - 25
+- print:
+  - マツリ
+  - 驚かせたうえに喜ばせられるッス！
+- wait:
+  - 50
+- print:
+  - マツリ
+  - >2
+
+- face:
+  - 114111
+  - 2
+- print:
+  - マツリ
+  - ナイスアイデアッスね！　
+- wait:
+  - 45
+- print:
+  - マツリ
+  - さすがッス！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 114111
+- bust:
+  - 114111
+  - 0
+- vo:
+  - vo_adv_6050308_003
+- face:
+  - 114111
+  - 6
+- emotion:
+  - question1_R
+  - 114111
+  - 125
+  - 435
+  - se_adv_emote_question_01
+- print:
+  - マツリ
+  - 兜？　
+- wait:
+  - 40
+- print:
+  - マツリ
+  - え？　
+- wait:
+  - 40
+- print:
+  - マツリ
+  - ひょっとして
+- wait:
+  - 30
+- print:
+  - マツリ
+  - ジュンさんにいたずらするッスか？
+- wait:
+  - 45
+- print:
+  - マツリ
+  - >2
+
+- face:
+  - 114111
+  - 4
+- print:
+  - マツリ
+  - い、
+- wait:
+  - 10
+- print:
+  - マツリ
+  - いや、
+- wait:
+  - 45
+- print:
+  - マツリ
+  - それはさすがに……
+- wait:
+  - 55
+- print:
+  - マツリ
+  - 恐れ多いッス。
+- wait:
+  - 55
+- print:
+  - マツリ
+  - >2-
+
+    こっちが怖い目に遭うハロウィンは勘弁ッス……
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 114111
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0
