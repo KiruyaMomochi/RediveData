@@ -1,16 +1,18 @@
 - title:
   - 2部 第5章 第9話
 - outline:
-  - ' '
+  - 凱留正被逼問著拉比林斯達的下落，照理說被萬能人偶擄走的{0}卻出現在那裡。見到他拚死保護自己的模樣，凱留終於喚醒了全新的力量。
 - background:
   - 500253
-- amb:
+- se:
   - amb_adv_dungeon_01
+- vo_effect:
+  - 3
 - bg_pan:
   - -170
   - 0
 - situation:
-  - 2部 第5章 第9話
+  - 擺脫束縛之後
 - window_visible:
   - TRUE
 - focus:
@@ -52,6 +54,11 @@
   - 30
 - window_visible:
   - TRUE
+- bgm:
+  - bgm_M39
+  - 0
+  - 0
+  - 1
 - focus:
   - 106911
 - bust:
@@ -133,10 +140,12 @@
 - window_visible:
   - false
 - se:
-  - se_adv_magic_thunder_large_01
+  - se_adv_magic_thunder_small_01
 - white_out:
   - 0.5
   - 0.2
+- se:
+  - se_adv_magic_thunder_large_01
 - white_in: *o0
 - change_window:
   - 3
@@ -144,6 +153,8 @@
   - 38
 - window_visible:
   - true
+- se:
+  - se_adv_body_catch_down_01
 - focus:
   - 106012
 - bust:
@@ -234,6 +245,8 @@
 - fadein:
   - 106012
   - 30
+- se:
+  - se_adv_cloth_move_normal_01
 - window_visible:
   - true
 - focus:
@@ -264,8 +277,6 @@
   - 50
 - change_window:
   - 2
-- vo_effect:
-  - 3
 - window_visible:
   - TRUE
 - focus:
@@ -382,8 +393,6 @@
   - 100
 - change_window:
   - 1
-- vo_effect:
-  - 0
 - fadeout:
   - 106012
   - 30
@@ -453,6 +462,8 @@
   - 30
 - window_visible:
   - true
+- se:
+  - se_adv_cloth_move_give_01
 - focus:
   - 106012
 - bust:
@@ -479,10 +490,12 @@
   - 50
 - change_window:
   - 2
-- vo_effect:
-  - 3
 - window_visible:
   - TRUE
+- bgm:
+  - stop
+  - 5
+  - 1
 - focus:
   - 106012
 - bust:
@@ -502,6 +515,8 @@
   - 凱留
   - 這樣啊……
 - touch: *o0
+- bgm:
+  - bgm_M168
 - focus:
   - 106012
 - bust:
@@ -586,16 +601,16 @@
   - 100
 - change_window:
   - 1
-- vo_effect:
-  - 0
 - se:
-  - se_adv_magic_thunder_large_01
+  - se_adv_magic_thunder_medium_01
 - white_out:
   - 0.5
   - 0.2
 - white_in: *o0
 - window_visible:
   - TRUE
+- se:
+  - se_adv_body_sitdown_01
 - focus:
   - 106012
 - bust:
@@ -639,8 +654,6 @@
 - black_in: *o0
 - change_window:
   - 2
-- vo_effect:
-  - 3
 - window_visible:
   - TRUE
 - focus:
@@ -798,13 +811,20 @@
   - 1
 - window_visible:
   - FALSE
+- se:
+  - se_adv_water_under_01
+- se_pause:
+  - se_adv_water_under_01
+  - 1.2
+- se:
+  - se_adv_body_sitdown_01
 - change_window:
   - 1
-- vo_effect:
-  - 0
 - black_out:
   - 1
   - 1
+- se:
+  - se_adv_bodyfall_02
 - background:
   - 500253
 - wait:
@@ -842,6 +862,8 @@
   - 106911
   - C
   - 6
+- se:
+  - se_adv_step_concrete_move_01
 - fadein:
   - 106911
   - 30
@@ -889,8 +911,6 @@
   - 50
 - change_window:
   - 2
-- vo_effect:
-  - 3
 - window_visible:
   - TRUE
 - focus:
@@ -934,8 +954,6 @@
   - 100
 - change_window:
   - 1
-- vo_effect:
-  - 0
 - fadeout:
   - 106911
   - 30
@@ -1042,17 +1060,22 @@
 - touch: *o0
 - window_visible:
   - FALSE
+- se:
+  - se_adv_step_concrete_run_armor_come_01
 - fadeout:
   - 106012
   - 30
-- se:
-  - se_adv_step_dirt_run_armor_come_01
+- bgm:
+  - stop
+  - 3.5
 - camera_zoom:
   - 1.2
   - 10
 - black_out:
   - 1
   - 1
+- se:
+  - se_adv_body_sitdown_01
 - camera_zoom:
   - 1
   - 0
@@ -1064,11 +1087,14 @@
   - 210500901
 - wait:
   - 15
-- se:
-  - se_adv_cloth_move_normal_01
 - black_in: *o0
 - window_visible:
   - TRUE
+- bgm:
+  - bgm_M243_Ver2
+  - 0
+  - 0
+  - 1
 - choice:
   - 振作點啊，凱留！
   - 4
@@ -1117,6 +1143,8 @@
   - 凱留
   - 是你呀……
 - touch: *o0
+- se:
+  - se_adv_cloth_move_give_01
 - focus:
   - 106012
 - bust:
@@ -1172,6 +1200,8 @@
   - 凱留
   - 每次都每次都……
 - touch: *o0
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - focus:
   - 106012
 - bust:
@@ -1275,6 +1305,8 @@
   - 210500902
 - wait:
   - 15
+- se:
+  - se_adv_cloth_move_give_01
 - change_window:
   - 3
 - text_size:
@@ -1332,6 +1364,8 @@
   - 凱留
   - 啊……
 - touch: *o0
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - focus:
   - 106012
 - bust:
@@ -1396,6 +1430,8 @@
   - 凱留
   - 就對你……
 - touch: *o0
+- se:
+  - se_adv_cloth_move_normal_01
 - focus:
   - 106012
 - bust:
@@ -1492,6 +1528,8 @@
   - 凱留
   - 深受傷害而已……
 - touch: *o0
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - focus:
   - 106012
 - bust:
@@ -1546,6 +1584,10 @@
 - touch: *o0
 - window_visible:
   - FALSE
+- bgm:
+  - stop
+  - 3.2
+  - 1
 - black_out:
   - 1
   - 1
@@ -1560,11 +1602,15 @@
   - 106911
   - C
   - 3
+- se:
+  - se_adv_step_concrete_move_01
 - fadein:
   - 106911
   - 30
 - window_visible:
   - TRUE
+- bgm:
+  - bgm_M289
 - focus:
   - 106911
 - bust:
@@ -1718,6 +1764,8 @@
   - 106012
   - C
   - 1
+- se:
+  - se_adv_cloth_move_give_01
 - fadein:
   - 106012
   - 30
@@ -1736,7 +1784,12 @@
 - print:
   - 凱留
   - …………
+- wait:
+  - 15
 - touch: *o0
+- bgm:
+  - stop
+  - 11.5
 - focus:
   - 106012
 - bust:
@@ -1749,6 +1802,8 @@
   - 3
 - nod:
   - 106012
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 凱留
   - ……欸，{0}，
@@ -1782,21 +1837,29 @@
 - fadeout:
   - 106012
   - 30
-- se:
-  - se_adv_step_dirt_move_01
 - chara_full:
   - 106012
   - C
   - 1
+- se:
+  - se_adv_cloth_move_give_01
 - scale:
   - 106012
   - 1.2
   - 2
+- se:
+  - se_adv_step_concrete_move_01
 - fadein:
   - 106012
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M306_B
+  - 0
+  - 0
+  - 1
+  - 0.3
 - focus:
   - 106012
 - bust:
@@ -1837,12 +1900,13 @@
   - 106911
   - C
   - 1
+- se:
+  - se_adv_violet_aura_01
 - fadein:
   - 106911
   - 30
 - effect:
   - 0042
-  - se_adv_violet_aura_01
 - window_visible:
   - true
 - focus:
@@ -1878,6 +1942,10 @@
 - effect_delete:
   - 0042
   - 15
+- bgm:
+  - stop
+  - 2.9
+  - 1
 - fadeout:
   - 106911
   - 30
@@ -1895,6 +1963,8 @@
   - se_adv_magic_cmn_medium_02
 - window_visible:
   - true
+- bgm:
+  - bgm_M335B
 - focus:
   - 106012
 - bust:
@@ -1928,16 +1998,22 @@
 - touch: *o0
 - window_visible:
   - false
+- vo_effect:
+  - 0
 - text_size:
   - 23
 - effect_delete:
   - 0076
   - 15
+- se_pause:
+  - amb_adv_dungeon_01
+  - 2
+- bgm:
+  - stop
+  - 1.5
 - fadeout:
   - 106012
   - 30
-- amb_stop:
-  - 1
 - black_out:
   - 1
   - 1
@@ -1949,7 +2025,7 @@
   - 1
   - 1
 - movie:
-  - 210201001
+  - 210500901
 - black_out:
   - 1
   - 0.3
@@ -1960,6 +2036,8 @@
 - black_in: *o0
 - amb:
   - amb_adv_dungeon_01
+- vo_effect:
+  - 3
 - chara_full:
   - 180611
   - C
@@ -1971,8 +2049,15 @@
   - 3
 - text_size:
   - 50
+- se:
+  - se_adv_move_fast_02
 - window_visible:
   - true
+- bgm:
+  - bgm_M312
+  - 0
+  - 0
+  - 1
 - focus:
   - 180611
 - bust:
@@ -2000,6 +2085,8 @@
   - 0
   - 0
   - 0
+- se:
+  - se_adv_magic_cmn_large_01
 - effect:
   - 0070
   - se_adv_magic_dark_medium_01
@@ -2015,6 +2102,8 @@
   - L
 - wait:
   - 15
+- se:
+  - se_adv_magic_dark_aura_01
 - effect:
   - 0070
   - se_adv_magic_dark_medium_01
@@ -2034,6 +2123,8 @@
   - 30
 - se:
   - se_adv_kyaru_magic_02
+- se:
+  - se_adv_magic_hit_01
 - white_out:
   - 0.5
   - 0.2
@@ -2058,6 +2149,8 @@
 - face:
   - 106911
   - 4
+- se:
+  - se_adv_body_catch_down_01
 - print:
   - 霸瞳皇帝
   - 啊啊啊！？
@@ -2083,6 +2176,8 @@
   - 30
 - window_visible:
   - true
+- se:
+  - se_adv_cloth_move_normal_01
 - focus:
   - 180611
 - bust:
@@ -2122,6 +2217,8 @@
 - fadein:
   - 106911
   - 30
+- se:
+  - se_adv_cloth_move_give_01
 - window_visible:
   - true
 - focus:
@@ -2244,6 +2341,8 @@
   - 3
 - nod:
   - 180611
+- se:
+  - se_adv_cloth_move_hard_01
 - print:
   - 凱留
   - 我
@@ -2336,6 +2435,8 @@
   - 3
 - text_size:
   - 38
+- se:
+  - se_adv_blanket_move_02
 - window_visible:
   - true
 - focus:
@@ -2361,6 +2462,8 @@
   - 0
   - 0
   - 0
+- se:
+  - se_adv_magic_cmn_large_02
 - effect:
   - 0070
   - se_adv_magic_dark_medium_01
@@ -2375,12 +2478,14 @@
 - fadein:
   - 106911
   - 30
+- se:
+  - se_adv_kyaru_magic_02
 - text_size:
   - 50
 - window_visible:
   - true
 - se:
-  - se_adv_kyaru_magic_02
+  - se_adv_magic_hit_01
 - white_out:
   - 0.5
   - 0.2
@@ -2532,6 +2637,8 @@
   - 凱留
   - 簡直是天壤之別……！
 - touch: *o0
+- se:
+  - se_adv_cloth_move_normal_01
 - focus:
   - 106911
 - bust:
@@ -2665,6 +2772,8 @@
   - 3
 - nod:
   - 180611
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 凱留
   - 所以我也……
@@ -2695,6 +2804,8 @@
 - touch: *o0
 - window_visible:
   - false
+- se:
+  - se_adv_magic_cmn_medium_01
 - se:
   - se_adv_kyaru_impact_01
 - white_out:
@@ -2737,6 +2848,8 @@
 - fadeout:
   - 180611
   - 15
+- se:
+  - se_adv_magic_hit_01
 - bg_color:
   - 0
   - 0
@@ -2745,29 +2858,30 @@
   - 0070
 - wait:
   - 45
+- se:
+  - se_adv_magic_gather_02
 - background:
   - 500253
 - chara_full:
   - 106911
   - C
   - 6
+- vo_effect:
+  - 5
 - fadein:
   - 106911
   - 30
 - se:
-  - se_adv_kyaru_impact_02
-- white_out:
-  - 0.5
-  - 0.2
-- white_in: *o0
+  - se_adv_creature_machine_01
 - change_window:
   - 3
 - text_size:
   - 50
 - window_visible:
   - true
-- se:
-  - se_adv_creature_machine_01
+- se_pause:
+  - se_adv_magic_anna_03
+  - 2
 - focus:
   - 106911
 - bust:
@@ -2785,6 +2899,9 @@
   - 106911
 - wait:
   - 60
+- se_pause:
+  - se_adv_magic_gather_02
+  - 1
 - face:
   - 106911
   - 3
@@ -2794,7 +2911,9 @@
   - 霸瞳皇帝？
   - 啊啊啊啊────！！！
 - se:
-  - se_adv_kyaru_impact_02
+  - se_adv_magic_holy_large_01
+- se:
+  - se_adv_explosion_house_01
 - shake_screen: *o0
 - touch: *o0
 - window_visible:
@@ -2806,8 +2925,18 @@
 - fadeout:
   - 106911
   - 15
+- se_pause:
+  - se_adv_explosion_house_01
+  - 2
+- se_pause:
+  - amb_adv_dungeon_01
+  - 3
 - se:
   - se_adv_kyaru_impact_02
+- bgm:
+  - stop
+  - 4.8
+  - 1
 - white_out:
   - 1
   - 0.5
@@ -2815,13 +2944,17 @@
   - 255
   - 255
   - 255
+- se_effect:
+  - 3
 - wait:
   - 15
+- se:
+  - se_adv_armor_drop_01
 - white_in: *o0
 - window_visible:
   - true
 - se:
-  - se_adv_creature_machine_01
+  - se_adv_creature_alma_vo_01
 - focus:
   - 191912
 - bust:
@@ -2838,8 +2971,10 @@
 - touch: *o0
 - window_visible:
   - FALSE
-- amb_stop:
-  - 1
+- vo_effect:
+  - 0
+- se_effect:
+  - 0
 - black_out:
   - 1
   - 1

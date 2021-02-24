@@ -4,8 +4,8 @@
   - 咲戀被孩子們說了「去享受聖誕節吧」，而和{0}一起去看雪雕展覽。在那裡，咲戀見到了孩子們為她製作的雪雕，對孩子們的暖心舉動和成長充滿了感激。
 - background:
   - 500110
-- amb:
-  - amb_adv_room_noise_01
+- se:
+  - amb_adv_room_noise_day_01
 - bg_pan:
   - -170
   - 0
@@ -45,6 +45,12 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M173
+  - 0
+  - 0
+  - 1
+  - 0.5
 - focus:
   - 102811
 - bust:
@@ -156,6 +162,8 @@
   - 2
 - nod:
   - 102811
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 咲戀
   - 嗯，
@@ -275,6 +283,10 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - stop
+  - 4
+  - 1
 - focus:
   - 211
 - bust:
@@ -287,6 +299,8 @@
   - 1
 - nod:
   - 211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 女子
   - 那個呀，咲戀媽媽，
@@ -296,6 +310,12 @@
   - 女子
   - 請妳出去。
 - touch: *o0
+- bgm:
+  - bgm_M244
+  - 0
+  - 0
+  - 0
+  - 0.5
 - focus:
   - 102811
 - bust:
@@ -522,6 +542,8 @@
   - 1
 - nod:
   - 5311
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 男孩 2
   - 所以咲戀媽媽現在
@@ -554,12 +576,6 @@
 - face:
   - 102811
   - 6
-- emotion:
-  - sweat2_R
-  - 102811
-  - 65
-  - 535
-  - se_adv_emote_sweat_02
 - print:
   - 咲戀
   - 咦，
@@ -617,6 +633,8 @@
   - 2
 - nod:
   - 211
+- se:
+  - se_adv_cloth_move_normal_03
 - print:
   - 女子
   - 來，這個，
@@ -670,7 +688,7 @@
   - 咲戀
   - 咦，
 - se:
-  - se_adv_tickle_02
+  - se_adv_stepadd_cloth_norm_01_move_01
 - shake:
   - 102811
 - wait:
@@ -688,6 +706,8 @@
   - false
 - se:
   - se_adv_cloth_move_normal_02
+- se:
+  - se_adv_step_wood_walk_go_01
 - change:
   - RC
   - C
@@ -727,6 +747,9 @@
   - 孩子們
   - 玩得開心點哦～！
 - touch: *o0
+- bgm:
+  - stop
+  - 2.5
 - window_visible:
   - false
 - fadeout_all:
@@ -736,7 +759,8 @@
 - transition:
   - 18
   - 0.5
-- amb_stop:
+- se_pause:
+  - amb_adv_room_noise_day_01
   - 1
 - background:
   - 500036
@@ -745,7 +769,7 @@
 - se:
   - se_adv_transition_whoosh_small_in
 - transition_resume: *o0
-- amb:
+- se:
   - amb_adv_town_day_01
 - chara_full:
   - 114511
@@ -756,6 +780,12 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M282_Outside
+  - 0
+  - 0
+  - 1
+  - 0.5
 - focus:
   - 114511
 - bust:
@@ -768,6 +798,8 @@
   - 4
 - nod:
   - 114511
+- se:
+  - se_adv_step_concrete_move_01
 - print:
   - 咲戀
   - 唉，
@@ -939,6 +971,8 @@
   - 4
 - nod:
   - 114511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 咲戀
   - 但是，
@@ -970,10 +1004,16 @@
   - 咲戀
   - 殺時間吧。
 - touch: *o0
+- se:
+  - se_adv_step_concrete_walk_armor_come_01
 - choice:
   - 妳一個人在這裡做什麼？
   - 1
 - tag:
+  - 1
+- bgm:
+  - stop
+  - 6
   - 1
 - focus:
   - 114511
@@ -1020,6 +1060,8 @@
   - 啊，
 - wait:
   - 25
+- bgm:
+  - bgm_M427
 - print:
   - 咲戀
   - 什麼嘛，
@@ -1041,6 +1083,8 @@
   - 1
 - nod:
   - 114511
+- se:
+  - se_adv_cloth_move_give_01
 - print:
   - 咲戀
   - 對了對了，
@@ -1201,6 +1245,8 @@
   - 咲戀
   - 但至少聖誕節這天要好好休息啦。
 - touch: *o0
+- se:
+  - se_adv_cloth_move_give_01
 - choice:
   - 我打算去這個。
   - 3
@@ -1313,11 +1359,20 @@
   - 咲戀
   - 不在意這種事。
 - touch: *o0
+- bgm:
+  - stop
+  - 3
 - choice:
   - 咲戀，我們一起去吧。
   - 4
 - tag:
   - 4
+- bgm:
+  - bgm_M426
+  - 0
+  - 0
+  - 1
+  - 0.5
 - focus:
   - 114511
 - bust:
@@ -1480,7 +1535,7 @@
   - 咲戀
   - 之前發生了那麼多事，
 - wait:
-  - 15
+  - 40
 - print:
   - 咲戀
   - >2
@@ -1491,7 +1546,7 @@
   - 咲戀
   - 讓我明白了他的優點，
 - wait:
-  - 15
+  - 45
 - print:
   - 咲戀
   - >2
@@ -1659,6 +1714,8 @@
   - 1
 - nod:
   - 114511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 咲戀
   - 好吧，
@@ -1685,6 +1742,13 @@
   - 咲戀
   - 你要心懷感恩喔♪
 - touch: *o0
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- bgm:
+  - stop
+  - 3
+  - 1
 - window_visible:
   - false
 - fadeout:
@@ -1698,15 +1762,23 @@
   - 255
   - 255
 - still_unit:
-  - 107531
+  - 114531
 - wait:
   - 15
 - effect:
   - 0022
   - se_adv_happy_particle_01
+- se:
+  - amb_adv_town_day_01
 - white_in: *o0
 - window_visible:
   - true
+- bgm:
+  - bgm_M283
+  - 0
+  - 0
+  - 0
+  - 0.5
 - focus:
   - 114511
 - bust:
@@ -1716,7 +1788,9 @@
   - vo_adv_1145003_040
 - face:
   - 114511
-  - 1
+  - 2
+- se:
+  - se_adv_step_concrete_run_go_01
 - print:
   - 咲戀
   - 哇……！
@@ -1752,7 +1826,9 @@
   - vo_adv_1145003_041
 - face:
   - 114511
-  - 1
+  - 2
+- se:
+  - se_adv_cloth_move_normal_01
 - print:
   - 咲戀
   - 快看快看，
@@ -1770,9 +1846,14 @@
   - 50
 - print:
   - 咲戀
-  - >2-
+  - >2
 
-    啊，
+- face:
+  - 114511
+  - 1
+- print:
+  - 咲戀
+  - 啊，
 - wait:
   - 15
 - print:
@@ -1793,7 +1874,9 @@
   - vo_adv_1145003_042
 - face:
   - 114511
-  - 1
+  - 6
+- se:
+  - se_adv_cloth_move_give_01
 - print:
   - 咲戀
   - 咦？
@@ -1804,6 +1887,9 @@
   - 是雪做的溜滑梯？
 - wait:
   - 50
+- face:
+  - 114511
+  - 2
 - print:
   - 咲戀
   - 怎麼辦，
@@ -1816,9 +1902,14 @@
   - 30
 - print:
   - 咲戀
-  - >2-
+  - >2
 
-    不過，
+- face:
+  - 114511
+  - 4
+- print:
+  - 咲戀
+  - 不過，
 - wait:
   - 15
 - print:
@@ -1844,7 +1935,9 @@
   - vo_adv_1145003_043
 - face:
   - 114511
-  - 1
+  - 2
+- se:
+  - se_adv_step_concrete_move_01
 - print:
   - 咲戀
   - 你看你看，
@@ -1880,7 +1973,7 @@
   - vo_adv_1145003_044
 - face:
   - 114511
-  - 1
+  - 6
 - print:
   - 咲戀
   - 咦？
@@ -1891,6 +1984,9 @@
   - 啊，
 - wait:
   - 25
+- face:
+  - 114511
+  - 1
 - print:
   - 咲戀
   - 哈哈……
@@ -1920,9 +2016,14 @@
   - 35
 - print:
   - 咲戀
-  - >2-
+  - >2
 
-    但看了這麼厲害的東西，
+- face:
+  - 114511
+  - 2
+- print:
+  - 咲戀
+  - 但看了這麼厲害的東西，
 - wait:
   - 25
 - print:
@@ -1969,7 +2070,7 @@
   - vo_adv_1145003_046
 - face:
   - 114511
-  - 1
+  - 2
 - print:
   - 咲戀
   - 要好好感謝
@@ -2005,7 +2106,7 @@
   - vo_adv_1145003_047
 - face:
   - 114511
-  - 1
+  - 2
 - print:
   - 咲戀
   - 啊──
@@ -2013,7 +2114,7 @@
   - 30
 - print:
   - 咲戀
-  - 這種開放感
+  - 這種解放的感覺
 - wait:
   - 35
 - print:
@@ -2021,6 +2122,9 @@
   - 真是久違了……
 - wait:
   - 70
+- face:
+  - 114511
+  - 4
 - print:
   - 咲戀
   - 哈啾！
@@ -2052,6 +2156,8 @@
   - 7
 - tag:
   - 7
+- se:
+  - se_adv_body_handshake_01
 - focus:
   - 114511
 - bust:
@@ -2061,7 +2167,7 @@
   - vo_adv_1145003_048
 - face:
   - 114511
-  - 1
+  - 5
 - print:
   - 咲戀
   - 呀！
@@ -2084,9 +2190,14 @@
   - 45
 - print:
   - 咲戀
-  - >2-
+  - >2
 
-    咦，
+- face:
+  - 114511
+  - 6
+- print:
+  - 咲戀
+  - 咦，
 - wait:
   - 25
 - print:
@@ -2107,7 +2218,7 @@
   - vo_adv_1145003_049
 - face:
   - 114511
-  - 1
+  - 5
 - print:
   - 咲戀
   - 謝、
@@ -2118,6 +2229,9 @@
   - 謝謝你……
 - wait:
   - 35
+- face:
+  - 114511
+  - 6
 - print:
   - 咲戀
   - 不過，
@@ -2156,7 +2270,7 @@
   - vo_adv_1145003_050
 - face:
   - 114511
-  - 1
+  - 4
 - print:
   - 咲戀
   - 真是的，
@@ -2178,6 +2292,12 @@
   - 咲戀
   - 拿他沒轍。
 - touch: *o0
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- bgm:
+  - stop
+  - 3
 - window_visible:
   - false
 - change_window:
@@ -2190,8 +2310,16 @@
 - wait:
   - 30
 - black_in: *o0
+- se:
+  - amb_adv_wind_01
 - window_visible:
   - true
+- bgm:
+  - bgm_M358
+  - 0
+  - 0
+  - 1
+  - 0.5
 - focus:
   - 114511
 - bust:
@@ -2201,7 +2329,7 @@
   - vo_adv_1145003_051
 - face:
   - 114511
-  - 1
+  - 2
 - print:
   - 咲戀
   - 啊啊，
@@ -2273,7 +2401,7 @@
   - vo_adv_1145003_053
 - face:
   - 114511
-  - 1
+  - 6
 - print:
   - 咲戀
   - 嗯？
@@ -2291,9 +2419,16 @@
   - 50
 - print:
   - 咲戀
-  - >2-
+  - >2
 
-    呵呵，
+- face:
+  - 114511
+  - 2
+- se:
+  - se_adv_step_concrete_move_01
+- print:
+  - 咲戀
+  - 呵呵，
 - wait:
   - 30
 - print:
@@ -2306,6 +2441,9 @@
   - 真可愛呢……
 - wait:
   - 60
+- face:
+  - 114511
+  - 6
 - print:
   - 咲戀
   - 嗯？
@@ -2319,7 +2457,7 @@
   - vo_adv_1145003_054
 - face:
   - 114511
-  - 1
+  - 6
 - print:
   - 咲戀
   - 你看，
@@ -2351,6 +2489,10 @@
   - 咲戀
   - 「給最愛的媽媽」？
 - touch: *o0
+- bgm:
+  - stop
+  - 8.5
+  - 1
 - focus:
   - 114511
 - bust:
@@ -2360,7 +2502,7 @@
   - vo_adv_1145003_055
 - face:
   - 114511
-  - 1
+  - 6
 - print:
   - 咲戀
   - 這、
@@ -2388,9 +2530,14 @@
   - 35
 - print:
   - 咲戀
-  - >2-
+  - >2
 
-    啊，
+- face:
+  - 114511
+  - 2
+- print:
+  - 咲戀
+  - 啊，
 - wait:
   - 20
 - print:
@@ -2398,6 +2545,8 @@
   - 哈哈……
 - wait:
   - 30
+- bgm:
+  - bgm_M428_02
 - print:
   - 咲戀
   - 討厭啦，
@@ -2421,15 +2570,15 @@
   - vo_adv_1145003_056
 - face:
   - 114511
-  - 1
+  - 2
 - print:
   - 咲戀
-  - 那些孩子們，
+  - 那些孩子們
 - wait:
   - 25
 - print:
   - 咲戀
-  - 雖然我把他們當作孩子，
+  - 雖然被我當成兒童對待，
 - wait:
   - 45
 - print:
@@ -2446,9 +2595,14 @@
   - 55
 - print:
   - 咲戀
-  - >2-
+  - >2
 
-    小孩子
+- face:
+  - 114511
+  - 1
+- print:
+  - 咲戀
+  - 小孩子
 - wait:
   - 25
 - print:
@@ -2469,7 +2623,7 @@
   - vo_adv_1145003_057
 - face:
   - 114511
-  - 1
+  - 2
 - print:
   - 咲戀
   - 不過，
@@ -2500,7 +2654,7 @@
   - vo_adv_1145003_058
 - face:
   - 114511
-  - 1
+  - 2
 - print:
   - 咲戀
   - 我竟然能以這麼美好的形式
@@ -2536,7 +2690,7 @@
   - vo_adv_1145003_059
 - face:
   - 114511
-  - 1
+  - 2
 - print:
   - 咲戀
   - 呵呵，
@@ -2598,7 +2752,7 @@
   - vo_adv_1145003_061
 - face:
   - 114511
-  - 1
+  - 2
 - print:
   - 咲戀
   - 這就叫做
@@ -2617,7 +2771,7 @@
   - vo_adv_1145003_062
 - face:
   - 114511
-  - 1
+  - 2
 - print:
   - 咲戀
   - ……謝謝你讓我度過了一個
@@ -2648,7 +2802,7 @@
   - vo_adv_1145003_063
 - face:
   - 114511
-  - 1
+  - 5
 - print:
   - 咲戀
   - ！？
@@ -2677,9 +2831,6 @@
 - touch: *o0
 - window_visible:
   - false
-- bright_change:
-  - 1
-  - 50
 - change_window:
   - 2
 - vo_effect:
@@ -2695,7 +2846,7 @@
   - vo_adv_1145003_064
 - face:
   - 114511
-  - 1
+  - 6
 - print:
   - 咲戀
   - 嚇我一跳……
@@ -2714,9 +2865,6 @@
 - touch: *o0
 - window_visible:
   - false
-- bright_change:
-  - 1
-  - 100
 - change_window:
   - 1
 - vo_effect:
@@ -2755,9 +2903,14 @@
   - 50
 - print:
   - 咲戀
-  - >2-
+  - >2
 
-    ……咦？
+- face:
+  - 114511
+  - 6
+- print:
+  - 咲戀
+  - ……咦？
 - wait:
   - 25
 - print:
@@ -2772,9 +2925,14 @@
   - 65
 - print:
   - 咲戀
-  - >2-
+  - >2
 
-    真拿你沒辦法。
+- face:
+  - 114511
+  - 1
+- print:
+  - 咲戀
+  - 真拿你沒辦法。
 - wait:
   - 35
 - print:
@@ -2795,7 +2953,7 @@
   - vo_adv_1145003_066
 - face:
   - 114511
-  - 1
+  - 2
 - print:
   - 咲戀
   - 那麼，
@@ -2833,7 +2991,11 @@
 - touch: *o0
 - window_visible:
   - false
-- amb_stop:
+- se_pause:
+  - amb_adv_wind_01
+  - 1
+- bgm:
+  - stop
   - 1
 - black_out:
   - 1

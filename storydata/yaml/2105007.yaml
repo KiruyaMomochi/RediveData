@@ -1,16 +1,18 @@
 - title:
   - 2部 第5章 第7話
 - outline:
-  - ' '
+  - 貪吃佩可在大胃王對決中領先阿澤爾德，不過她的胃已經逐漸瀕臨極限了。這時，{0}的靈機一動，揭露了市場的混亂是出自於阿澤爾德的計謀一事。
 - background:
   - 500030
-- amb:
-  - amb_adv_town_day_01
+- se:
+  - amb_adv_gaya_cmn_01
+- se:
+  - amb_adv_crowd_concert_02
 - bg_pan:
   - -170
   - 0
 - situation:
-  - 2部 第5章 第7話
+  - 鑑定方式
 - window_visible:
   - TRUE
 - focus:
@@ -40,10 +42,20 @@
   - 106511
   - LC
   - 1
+- se_pause:
+  - amb_adv_crowd_concert_02
+  - 7
 - fadein_all:
   - 30
 - window_visible:
   - TRUE
+- se:
+  - se_adv_gaya_surprised_02
+- bgm:
+  - bgm_M276
+  - 0
+  - 0
+  - 1
 - focus:
   - 106611
 - bust:
@@ -56,6 +68,8 @@
   - 3
 - pop:
   - 106611
+- se:
+  - se_adv_cloth_move_hard_01
 - print:
   - 祈梨
   - 唉──呀！
@@ -122,6 +136,10 @@
   - 105812
   - C
   - 3
+- se:
+  - se_adv_cloth_move_give_01
+- se:
+  - se_adv_dish_02
 - fadein:
   - 105812
   - 30
@@ -178,6 +196,8 @@
   - 105812
   - LC
   - 3
+- se:
+  - se_adv_stepadd_armor_heavy_01_move_01
 - fadein_all:
   - 30
 - window_visible:
@@ -265,6 +285,8 @@
   - 貪吃佩可
   - ……嗚噗……
 - touch: *o0
+- se:
+  - se_adv_coffee_cup_02
 - focus:
   - 191911
 - bust:
@@ -301,6 +323,8 @@
   - 10
 - pop:
   - 105812
+- se:
+  - se_adv_cloth_move_hard_01
 - print:
   - 貪吃佩可
   - 我不需要！
@@ -363,6 +387,8 @@
   - 105812
   - C
   - 3
+- se:
+  - se_adv_cloth_move_give_01
 - fadein:
   - 105812
   - 30
@@ -407,6 +433,8 @@
 - window_visible:
   - false
 - se:
+  - se_adv_body_shake_02
+- se:
   - se_adv_eating_fast_02
 - nod:
   - 105812
@@ -431,24 +459,37 @@
   - 30
 - window_visible:
   - true
+- focus:
+  - 103411
 - bust:
-  - 0
+  - 103411
   - 0
 - vo:
   - vo_adv_2105007_009
 - face:
-  - 1
-  - 1
+  - 103411
+  - 3
 - print:
-  - 優花梨、珠希
-  - 「加油──！」
-- wait:
-  - 35
+  - 優花梨
+  - 加油啊──！
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_2105007_010
+- face:
+  - 104611
+  - 3
+- pop:
+  - 104611
+- se:
+  - se_adv_cloth_move_hard_01
 - print:
-  - 優花梨、珠希
-  - >2-
-
-    「加油喵──！」
+  - 珠希
+  - 加油喵──！
 - touch: *o0
 - choice:
   - 加油啊，佩可！
@@ -474,7 +515,7 @@
   - 105913
   - 0
 - vo:
-  - vo_adv_2105007_010
+  - vo_adv_2105007_011
 - face:
   - 105913
   - 4
@@ -499,7 +540,7 @@
   - 105913
   - 0
 - vo:
-  - vo_adv_2105007_011
+  - vo_adv_2105007_012
 - face:
   - 105913
   - 4
@@ -566,7 +607,7 @@
   - 412
   - 0
 - vo:
-  - vo_adv_2105007_012
+  - vo_adv_2105007_013
 - face:
   - 412
   - 3
@@ -580,7 +621,7 @@
   - 414
   - 0
 - vo:
-  - vo_adv_2105007_013
+  - vo_adv_2105007_014
 - face:
   - 414
   - 3
@@ -602,6 +643,8 @@
   - 6
 - fadein_all:
   - 30
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - window_visible:
   - true
 - focus:
@@ -610,7 +653,7 @@
   - 191511
   - 0
 - vo:
-  - vo_adv_2105007_014
+  - vo_adv_2105007_015
 - face:
   - 191511
   - 3
@@ -618,13 +661,17 @@
   - 克蕾琪塔
   - …………
 - touch: *o0
+- bgm:
+  - stop
+  - 12
+  - 1
 - focus:
   - 106412
 - bust:
   - 106412
   - 0
 - vo:
-  - vo_adv_2105007_015
+  - vo_adv_2105007_016
 - face:
   - 106412
   - 6
@@ -667,13 +714,15 @@
   - 雪菲
   - 是怎麼了嗎？
 - touch: *o0
+- bgm:
+  - bgm_M93_Noperc
 - focus:
   - 191511
 - bust:
   - 191511
   - 0
 - vo:
-  - vo_adv_2105007_016
+  - vo_adv_2105007_017
 - face:
   - 191511
   - 3
@@ -699,7 +748,7 @@
   - 106412
   - 0
 - vo:
-  - vo_adv_2105007_017
+  - vo_adv_2105007_018
 - face:
   - 106412
   - 6
@@ -732,12 +781,12 @@
   - 1411
   - 0
 - vo:
-  - vo_adv_2105007_018
+  - vo_adv_2105007_019
 - face:
   - 1411
   - 1
 - se:
-  - se_adv_bodyfall_02
+  - se_adv_dish_serve_food_heavy_01
 - nod:
   - 1411
 - print:
@@ -770,13 +819,15 @@
   - 30
 - window_visible:
   - true
+- se:
+  - se_adv_cloth_move_normal_01
 - focus:
   - 105812
 - bust:
   - 105812
   - 0
 - vo:
-  - vo_adv_2105007_019
+  - vo_adv_2105007_020
 - face:
   - 105812
   - 6
@@ -855,7 +906,7 @@
   - 414
   - 0
 - vo:
-  - vo_adv_2105007_020
+  - vo_adv_2105007_021
 - face:
   - 414
   - 3
@@ -869,12 +920,14 @@
   - 414
   - 0
 - vo:
-  - vo_adv_2105007_021
+  - vo_adv_2105007_022
 - face:
   - 414
   - 3
 - nod:
   - 414
+- se:
+  - se_adv_step_concrete_move_01
 - print:
   - 鎮民4
   - ……啊啊真是的……
@@ -899,7 +952,7 @@
 - window_visible:
   - false
 - se:
-  - se_adv_step_concrete_walk_go_01
+  - se_adv_step_concrete_run_go_01
 - change:
   - RC
   - C
@@ -922,7 +975,7 @@
   - 105913
   - 0
 - vo:
-  - vo_adv_2105007_022
+  - vo_adv_2105007_023
 - face:
   - 105913
   - 6
@@ -930,6 +983,9 @@
   - 可可蘿
   - 那一位是……？
 - touch: *o0
+- bgm:
+  - stop
+  - 2
 - window_visible:
   - false
 - fadeout:
@@ -946,7 +1002,7 @@
   - LC
   - 3
 - se:
-  - se_adv_step_concrete_walk_come_01
+  - se_adv_step_concrete_run_come_01
 - wait:
   - 15
 - change:
@@ -962,18 +1018,25 @@
   - 28
 - window_visible:
   - true
+- bgm:
+  - bgm_M42_02
+  - 0
+  - 0
+  - 1
 - focus:
   - 414
 - bust:
   - 414
   - 0
 - vo:
-  - vo_adv_2105007_023
+  - vo_adv_2105007_024
 - face:
   - 414
   - 3
 - pop:
   - 414
+- se:
+  - se_adv_cloth_move_hard_01
 - print:
   - 鎮民4
   - 喂，
@@ -1019,7 +1082,7 @@
   - 105812
   - 0
 - vo:
-  - vo_adv_2105007_024
+  - vo_adv_2105007_025
 - face:
   - 105812
   - 6
@@ -1068,7 +1131,7 @@
   - 414
   - 0
 - vo:
-  - vo_adv_2105007_025
+  - vo_adv_2105007_026
 - face:
   - 414
   - 3
@@ -1088,18 +1151,22 @@
 
     既然是王族，就去管理政治啊，政治！
 - touch: *o0
+- se:
+  - amb_adv_noisy_04
 - focus:
   - 412
 - bust:
   - 412
   - 0
 - vo:
-  - vo_adv_2105007_026
+  - vo_adv_2105007_027
 - face:
   - 412
   - 3
 - nod:
   - 412
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 鎮民3
   - 就是說啊！
@@ -1130,7 +1197,7 @@
   - 105812
   - 0
 - vo:
-  - vo_adv_2105007_027
+  - vo_adv_2105007_028
 - face:
   - 105812
   - 6
@@ -1182,12 +1249,14 @@
   - 414
   - 0
 - vo:
-  - vo_adv_2105007_028
+  - vo_adv_2105007_029
 - face:
   - 414
   - 3
 - nod:
   - 414
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 鎮民4
   - 那麼，
@@ -1222,7 +1291,7 @@
   - 414
   - 0
 - vo:
-  - vo_adv_2105007_029
+  - vo_adv_2105007_030
 - face:
   - 414
   - 3
@@ -1257,7 +1326,7 @@
   - 105812
   - 0
 - vo:
-  - vo_adv_2105007_030
+  - vo_adv_2105007_031
 - face:
   - 105812
   - 6
@@ -1285,12 +1354,14 @@
   - 412
   - 0
 - vo:
-  - vo_adv_2105007_031
+  - vo_adv_2105007_032
 - face:
   - 412
   - 3
 - pop:
   - 412
+- se:
+  - se_adv_cloth_move_hard_01
 - print:
   - 鎮民3
   - 對啊！
@@ -1354,7 +1425,7 @@
   - 106611
   - 0
 - vo:
-  - vo_adv_2105007_032
+  - vo_adv_2105007_033
 - face:
   - 106611
   - 6
@@ -1409,7 +1480,7 @@
   - 106511
   - 0
 - vo:
-  - vo_adv_2105007_033
+  - vo_adv_2105007_034
 - face:
   - 106511
   - 4
@@ -1436,7 +1507,7 @@
   - 106711
   - 0
 - vo:
-  - vo_adv_2105007_034
+  - vo_adv_2105007_035
 - face:
   - 106711
   - 1
@@ -1486,7 +1557,7 @@
   - 191911
   - 0
 - vo:
-  - vo_adv_2105007_035
+  - vo_adv_2105007_036
 - face:
   - 191911
   - 2
@@ -1557,7 +1628,7 @@
   - 191511
   - 0
 - vo:
-  - vo_adv_2105007_036
+  - vo_adv_2105007_037
 - face:
   - 191511
   - 3
@@ -1621,7 +1692,7 @@
   - 106412
   - 0
 - vo:
-  - vo_adv_2105007_037
+  - vo_adv_2105007_038
 - face:
   - 106412
   - 6
@@ -1640,7 +1711,7 @@
   - 105913
   - 0
 - vo:
-  - vo_adv_2105007_038
+  - vo_adv_2105007_039
 - face:
   - 105913
   - 4
@@ -1671,7 +1742,7 @@
   - 106412
   - 0
 - vo:
-  - vo_adv_2105007_039
+  - vo_adv_2105007_040
 - face:
   - 106412
   - 3
@@ -1697,12 +1768,14 @@
   - 105913
   - 0
 - vo:
-  - vo_adv_2105007_040
+  - vo_adv_2105007_041
 - face:
   - 105913
   - 6
 - nod:
   - 105913
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 可可蘿
   - 不，
@@ -1726,13 +1799,17 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - stop
+  - 2.5
+  - 1
 - focus:
   - 191511
 - bust:
   - 191511
   - 0
 - vo:
-  - vo_adv_2105007_041
+  - vo_adv_2105007_042
 - face:
   - 191511
   - 3
@@ -1746,6 +1823,10 @@
   - 先等等。
 - wait:
   - 60
+- bgm:
+  - bgm_M326
+  - 0
+  - 0
 - print:
   - 克蕾琪塔
   - >2-
@@ -1775,7 +1856,7 @@
   - 105913
   - 0
 - vo:
-  - vo_adv_2105007_042
+  - vo_adv_2105007_043
 - face:
   - 105913
   - 4
@@ -1796,7 +1877,7 @@
   - 191511
   - 0
 - vo:
-  - vo_adv_2105007_043
+  - vo_adv_2105007_044
 - face:
   - 191511
   - 3
@@ -1853,10 +1934,12 @@
   - 106412
   - 0
 - vo:
-  - vo_adv_2105007_044
+  - vo_adv_2105007_045
 - face:
   - 106412
   - 4
+- se:
+  - se_adv_cloth_move_normal_01
 - print:
   - 雪菲
   - 嗚……
@@ -1876,6 +1959,8 @@
   - 191511
   - RC
   - 3
+- se:
+  - se_adv_step_concrete_move_01
 - fadein_all:
   - 30
 - window_visible:
@@ -1886,12 +1971,14 @@
   - 103211
   - 0
 - vo:
-  - vo_adv_2105007_045
+  - vo_adv_2105007_046
 - face:
   - 103211
   - 1
 - nod:
   - 103211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 秋乃
   - 既然如此……
@@ -1907,7 +1994,7 @@
   - 10
 - print:
   - 秋乃
-  - 交給我們來處裡吧。
+  - 交給我們來處理吧。
 - wait:
   - 50
 - print:
@@ -1939,7 +2026,7 @@
   - 191511
   - 0
 - vo:
-  - vo_adv_2105007_046
+  - vo_adv_2105007_047
 - face:
   - 191511
   - 6
@@ -1972,7 +2059,7 @@
   - 103211
   - 0
 - vo:
-  - vo_adv_2105007_047
+  - vo_adv_2105007_048
 - face:
   - 103211
   - 6
@@ -2043,12 +2130,14 @@
   - 412
   - 0
 - vo:
-  - vo_adv_2105007_048
+  - vo_adv_2105007_049
 - face:
   - 412
   - 3
 - nod:
   - 412
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 鎮民3
   - 所～以說了！
@@ -2105,7 +2194,7 @@
   - 414
   - 0
 - vo:
-  - vo_adv_2105007_049
+  - vo_adv_2105007_050
 - face:
   - 414
   - 3
@@ -2136,7 +2225,7 @@
 - focus:
   - 414:1411
 - se:
-  - se_adv_body_handshake_01
+  - se_adv_body_bump_01
 - nod:
   - 414
 - wait:
@@ -2151,7 +2240,7 @@
   - 1411
   - 0
 - vo:
-  - vo_adv_2105007_050
+  - vo_adv_2105007_051
 - face:
   - 1411
   - 6
@@ -2178,7 +2267,7 @@
   - 105812
   - 0
 - vo:
-  - vo_adv_2105007_051
+  - vo_adv_2105007_052
 - face:
   - 105812
   - 6
@@ -2230,13 +2319,16 @@
   - 35
 - window_visible:
   - true
+- bgm:
+  - stop
+  - 3
 - focus:
   - 104611
 - bust:
   - 104611
   - 0
 - vo:
-  - vo_adv_2105007_052
+  - vo_adv_2105007_053
 - face:
   - 104611
   - 3
@@ -2273,13 +2365,18 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M357
+  - 0
+  - 0
+  - 1
 - focus:
   - 412
 - bust:
   - 412
   - 0
 - vo:
-  - vo_adv_2105007_053
+  - vo_adv_2105007_054
 - face:
   - 412
   - 6
@@ -2337,12 +2434,14 @@
   - 104811
   - 0
 - vo:
-  - vo_adv_2105007_054
+  - vo_adv_2105007_055
 - face:
   - 104811
   - 3
 - nod:
   - 104811
+- se:
+  - se_adv_stepadd_armor_norm_01_move_01
 - print:
   - 美冬
   - 總而言之，
@@ -2375,7 +2474,7 @@
   - 414
   - 0
 - vo:
-  - vo_adv_2105007_055
+  - vo_adv_2105007_056
 - face:
   - 414
   - 6
@@ -2402,7 +2501,7 @@
   - 414
   - 0
 - vo:
-  - vo_adv_2105007_056
+  - vo_adv_2105007_057
 - face:
   - 414
   - 4
@@ -2426,7 +2525,7 @@
   - 103411
   - 0
 - vo:
-  - vo_adv_2105007_057
+  - vo_adv_2105007_058
 - face:
   - 103411
   - 6
@@ -2460,7 +2559,7 @@
   - 611
   - 0
 - vo:
-  - vo_adv_2105007_058
+  - vo_adv_2105007_059
 - face:
   - 611
   - 1
@@ -2486,7 +2585,7 @@
   - 611
   - 0
 - vo:
-  - vo_adv_2105007_059
+  - vo_adv_2105007_060
 - face:
   - 611
   - 4
@@ -2520,7 +2619,7 @@
   - 103211
   - 0
 - vo:
-  - vo_adv_2105007_060
+  - vo_adv_2105007_061
 - face:
   - 103211
   - 3
@@ -2553,22 +2652,30 @@
   - 畢竟這是光憑普通的做法……
 - wait:
   - 35
+- bgm:
+  - stop
+  - 3
+  - 1
 - print:
   - 秋乃
   - 憑企業努力，所無法解決的不正當傾銷。
 - touch: *o0
+- bgm:
+  - bgm_M388
 - focus:
   - 103211
 - bust:
   - 103211
   - 0
 - vo:
-  - vo_adv_2105007_061
+  - vo_adv_2105007_062
 - face:
   - 103211
   - 7
 - nod:
   - 103211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 秋乃
   - 不過
@@ -2612,7 +2719,7 @@
   - 104811
   - 0
 - vo:
-  - vo_adv_2105007_062
+  - vo_adv_2105007_063
 - face:
   - 104811
   - 4
@@ -2631,12 +2738,14 @@
   - 104611
   - 0
 - vo:
-  - vo_adv_2105007_063
+  - vo_adv_2105007_064
 - face:
   - 104611
   - 3
 - pop:
   - 104611
+- se:
+  - se_adv_cloth_move_hard_01
 - print:
   - 珠希
   - 這種話，
@@ -2667,7 +2776,7 @@
   - 103211
   - 0
 - vo:
-  - vo_adv_2105007_064
+  - vo_adv_2105007_065
 - face:
   - 103211
   - 1
@@ -2709,6 +2818,14 @@
   - 秋乃
   - 喔～呵呵呵♪
 - touch: *o0
+- se_pause:
+  - amb_adv_noisy_04
+  - 10
+- se:
+  - amb_adv_wind_01
+- se_pause:
+  - amb_adv_gaya_cmn_01
+  - 10
 - window_visible:
   - false
 - fadeout:
@@ -2732,12 +2849,14 @@
   - 103411
   - 0
 - vo:
-  - vo_adv_2105007_065
+  - vo_adv_2105007_066
 - face:
   - 103411
   - 1
 - nod:
   - 103411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 優花梨
   - 真是的……
@@ -2765,7 +2884,7 @@
   - 414
   - 0
 - vo:
-  - vo_adv_2105007_066
+  - vo_adv_2105007_067
 - face:
   - 414
   - 6
@@ -2791,6 +2910,9 @@
   - 鎮民4
   - 都這麼說了……
 - touch: *o0
+- bgm:
+  - stop
+  - 3
 - window_visible:
   - false
 - fadeout_all:
@@ -2812,13 +2934,19 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M288
+  - 0
+  - 0
+  - 1
+  - 2
 - focus:
   - 106412
 - bust:
   - 106412
   - 0
 - vo:
-  - vo_adv_2105007_067
+  - vo_adv_2105007_068
 - face:
   - 106412
   - 6
@@ -2844,7 +2972,7 @@
   - 105913
   - 0
 - vo:
-  - vo_adv_2105007_068
+  - vo_adv_2105007_069
 - face:
   - 105913
   - 2
@@ -2877,7 +3005,7 @@
   - ……哦？
 - touch: *o0
 - se:
-  - se_adv_cointoss_01
+  - se_adv_coin_drop_01
 - choice:
   - ……？
   - 3
@@ -2893,6 +3021,9 @@
   - 0
   - 100
   - 15
+- se_pause:
+  - se_adv_coin_drop_01
+  - 1
 - wait:
   - 15
 - se:
@@ -2919,7 +3050,7 @@
   - 105913
   - 0
 - vo:
-  - vo_adv_2105007_069
+  - vo_adv_2105007_070
 - face:
   - 105913
   - 6
@@ -2938,7 +3069,7 @@
   - 106412
   - 0
 - vo:
-  - vo_adv_2105007_070
+  - vo_adv_2105007_071
 - face:
   - 106412
   - 6
@@ -2986,7 +3117,7 @@
   - 105913
   - 0
 - vo:
-  - vo_adv_2105007_071
+  - vo_adv_2105007_072
 - face:
   - 105913
   - 6
@@ -3006,7 +3137,7 @@
   - 106412
   - 0
 - vo:
-  - vo_adv_2105007_072
+  - vo_adv_2105007_073
 - face:
   - 106412
   - 6
@@ -3031,10 +3162,16 @@
   - 6
 - tag:
   - 6
+- bgm:
+  - stop
+  - 2
+  - 1
 - window_visible:
   - FALSE
 - fadeout_all:
   - 30
+- se:
+  - se_adv_cloth_move_give_01
 - black_out:
   - 1
   - 1
@@ -3044,20 +3181,22 @@
   - 0
 - still:
   - 210500701
+- se:
+  - se_adv_rabbit_bite_01
 - wait:
   - 15
-- se:
-  - se_adv_stone_scrape_01
 - black_in: *o0
 - window_visible:
   - TRUE
+- bgm:
+  - bgm_M05
 - focus:
   - 105913
 - bust:
   - 105913
   - 1
 - vo:
-  - vo_adv_2105007_073
+  - vo_adv_2105007_074
 - face:
   - 105913
   - 6
@@ -3071,7 +3210,7 @@
   - 106412
   - 1
 - vo:
-  - vo_adv_2105007_074
+  - vo_adv_2105007_075
 - face:
   - 106412
   - 6
@@ -3085,7 +3224,7 @@
   - 191911
   - 1
 - vo:
-  - vo_adv_2105007_075
+  - vo_adv_2105007_076
 - face:
   - 191911
   - 6
@@ -3099,7 +3238,7 @@
   - 191511
   - 1
 - vo:
-  - vo_adv_2105007_076
+  - vo_adv_2105007_077
 - face:
   - 191511
   - 6
@@ -3125,7 +3264,7 @@
   - 105913
   - 1
 - vo:
-  - vo_adv_2105007_077
+  - vo_adv_2105007_078
 - face:
   - 105913
   - 3
@@ -3138,13 +3277,16 @@
   - 可可蘿
   - 吐出來！
 - touch: *o0
+- bgm:
+  - stop
+  - 5
 - focus:
   - 106412
 - bust:
   - 106412
   - 1
 - vo:
-  - vo_adv_2105007_078
+  - vo_adv_2105007_079
 - face:
   - 106412
   - 6
@@ -3178,21 +3320,28 @@
 - touch: *o0
 - window_visible:
   - false
+- se:
+  - se_adv_cointoss_01
 - still:
   - 210500702
 - wait:
   - 15
+- se:
+  - se_adv_creature_bugs_creeping_coin_01
 - window_visible:
   - true
-- se:
-  - se_adv_bugs_noise_01
+- bgm:
+  - bgm_M167
+  - 0
+  - 0
+  - 1
 - focus:
-  - 10211
+  - 191914
 - bust:
-  - 10211
+  - 191914
   - 1
 - face:
-  - 10211
+  - 191914
   - 1
 - print:
   - ？？？
@@ -3209,7 +3358,7 @@
   - 191511
   - 1
 - vo:
-  - vo_adv_2105007_079
+  - vo_adv_2105007_080
 - face:
   - 191511
   - 5
@@ -3230,7 +3379,7 @@
   - 105913
   - 1
 - vo:
-  - vo_adv_2105007_080
+  - vo_adv_2105007_081
 - face:
   - 105913
   - 6
@@ -3244,7 +3393,7 @@
   - 106412
   - 1
 - vo:
-  - vo_adv_2105007_081
+  - vo_adv_2105007_082
 - face:
   - 106412
   - 6
@@ -3263,7 +3412,7 @@
   - 103211
   - 1
 - vo:
-  - vo_adv_2105007_082
+  - vo_adv_2105007_083
 - face:
   - 103211
   - 6
@@ -3289,7 +3438,7 @@
   - 104611
   - 1
 - vo:
-  - vo_adv_2105007_083
+  - vo_adv_2105007_084
 - face:
   - 104611
   - 3
@@ -3315,7 +3464,7 @@
   - 1411
   - 1
 - vo:
-  - vo_adv_2105007_084
+  - vo_adv_2105007_085
 - face:
   - 1411
   - 4
@@ -3325,11 +3474,17 @@
 - touch: *o0
 - window_visible:
   - FALSE
+- se_effect:
+  - 5
 - se:
-  - se_adv_paper_and_coin_throw_01
+  - se_adv_weapon_dagger_hit_01
 - black_out:
   - 1
   - 1
+- se_effect:
+  - 0
+- se:
+  - se_adv_coin_money_throw_drop_01
 - background:
   - 500030
 - still:
@@ -3380,7 +3535,7 @@
   - 104811
   - 0
 - vo:
-  - vo_adv_2105007_085
+  - vo_adv_2105007_086
 - face:
   - 104811
   - 3
@@ -3393,7 +3548,7 @@
 - effect:
   - 0009
 - se:
-  - se_adv_move_fast_02
+  - se_adv_blanket_move_02
 - scale:
   - 104811
   - 1.2
@@ -3412,21 +3567,25 @@
   - 0001
   - se_adv_weapon_sword_hit_01
 - wait:
-  - 15
+  - 10
+- se:
+  - se_adv_coin_money_throw_drop_01
+- wait:
+  - 5
 - background:
   - 500030
 - window_visible:
   - true
-- se:
-  - se_adv_bugs_noise_01
 - focus:
-  - 10211
+  - 191914
 - bust:
-  - 10211
+  - 191914
   - 1
 - face:
-  - 10211
+  - 191914
   - 1
+- se:
+  - se_adv_creature_bugs_creeping_coin_02
 - print:
   - 魔物
   - 嘎吱嘎吱嘎吱！
@@ -3451,7 +3610,7 @@
   - 104811
   - 0
 - vo:
-  - vo_adv_2105007_086
+  - vo_adv_2105007_087
 - face:
   - 104811
   - 3
@@ -3487,7 +3646,7 @@
   - 103211
   - 0
 - vo:
-  - vo_adv_2105007_087
+  - vo_adv_2105007_088
 - face:
   - 103211
   - 3
@@ -3529,7 +3688,7 @@
   - 1411
   - 0
 - vo:
-  - vo_adv_2105007_088
+  - vo_adv_2105007_089
 - face:
   - 1411
   - 4
@@ -3577,12 +3736,14 @@
   - 104611
   - 0
 - vo:
-  - vo_adv_2105007_089
+  - vo_adv_2105007_090
 - face:
   - 104611
   - 3
 - pop:
   - 104611
+- se:
+  - se_adv_cloth_move_hard_01
 - print:
   - 珠希
   - 別裝傻了喵～！
@@ -3601,17 +3762,17 @@
 - touch: *o0
 - window_visible:
   - false
-- fadeout_all:
+- fadeout:
+  - 104611
   - 30
 - chara_full:
   - 103411
   - LC
   - 3
-- chara_full:
-  - 1411
-  - RC
-  - 6
-- fadein_all:
+- se:
+  - se_adv_step_concrete_move_01
+- fadein:
+  - 103411
   - 30
 - window_visible:
   - true
@@ -3621,7 +3782,7 @@
   - 103411
   - 0
 - vo:
-  - vo_adv_2105007_090
+  - vo_adv_2105007_091
 - face:
   - 103411
   - 3
@@ -3646,7 +3807,7 @@
   - 1411
   - 0
 - vo:
-  - vo_adv_2105007_091
+  - vo_adv_2105007_092
 - face:
   - 1411
   - 6
@@ -3677,7 +3838,7 @@
   - 103411
   - 0
 - vo:
-  - vo_adv_2105007_092
+  - vo_adv_2105007_093
 - face:
   - 103411
   - 6
@@ -3703,7 +3864,7 @@
   - 1411
   - 0
 - vo:
-  - vo_adv_2105007_093
+  - vo_adv_2105007_094
 - face:
   - 1411
   - 6
@@ -3735,7 +3896,7 @@
   - 103411
   - 0
 - vo:
-  - vo_adv_2105007_094
+  - vo_adv_2105007_095
 - face:
   - 103411
   - 4
@@ -3776,7 +3937,7 @@
   - 1411
   - 0
 - vo:
-  - vo_adv_2105007_095
+  - vo_adv_2105007_096
 - face:
   - 1411
   - 4
@@ -3809,7 +3970,7 @@
   - 104811
   - 0
 - vo:
-  - vo_adv_2105007_096
+  - vo_adv_2105007_097
 - face:
   - 104811
   - 6
@@ -3843,7 +4004,7 @@
   - 1411
   - 0
 - vo:
-  - vo_adv_2105007_097
+  - vo_adv_2105007_098
 - face:
   - 1411
   - 6
@@ -3899,7 +4060,7 @@
   - 106711
   - 0
 - vo:
-  - vo_adv_2105007_098
+  - vo_adv_2105007_099
 - face:
   - 106711
   - 2
@@ -3933,7 +4094,7 @@
   - 106511
   - 0
 - vo:
-  - vo_adv_2105007_099
+  - vo_adv_2105007_100
 - face:
   - 106511
   - 6
@@ -3973,12 +4134,14 @@
   - 1411
   - 0
 - vo:
-  - vo_adv_2105007_100
+  - vo_adv_2105007_101
 - face:
   - 1411
   - 4
 - nod:
   - 1411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 章魚燒店
   - 所以說，
@@ -4000,6 +4163,10 @@
   - 章魚燒店
   - ……嗚！？
 - touch: *o0
+- bgm:
+  - stop
+  - 1
+  - 1
 - window_visible:
   - false
 - fadeout:
@@ -4013,6 +4180,10 @@
 - effect:
   - 0010
   - se_adv_explosion_small_01
+- bgm:
+  - bgm_M433_02
+- se:
+  - se_adv_armor_drop_01
 - wait:
   - 30
 - chara_full:
@@ -4037,7 +4208,7 @@
   - 103411
   - 0
 - vo:
-  - vo_adv_2105007_101
+  - vo_adv_2105007_102
 - face:
   - 103411
   - 6
@@ -4057,7 +4228,7 @@
   - 104811
   - 0
 - vo:
-  - vo_adv_2105007_102
+  - vo_adv_2105007_103
 - face:
   - 104811
   - 6
@@ -4076,7 +4247,7 @@
   - 104611
   - 0
 - vo:
-  - vo_adv_2105007_103
+  - vo_adv_2105007_104
 - face:
   - 104611
   - 3
@@ -4129,7 +4300,7 @@
   - 103211
   - 0
 - vo:
-  - vo_adv_2105007_104
+  - vo_adv_2105007_105
 - face:
   - 103211
   - 4
@@ -4187,7 +4358,7 @@
   - 106412
   - 0
 - vo:
-  - vo_adv_2105007_105
+  - vo_adv_2105007_106
 - face:
   - 106412
   - 6
@@ -4207,7 +4378,7 @@
   - 105913
   - 0
 - vo:
-  - vo_adv_2105007_106
+  - vo_adv_2105007_107
 - face:
   - 105913
   - 6
@@ -4236,7 +4407,11 @@
   - FALSE
 - fadeout_all:
   - 30
-- amb_stop:
+- bgm:
+  - stop
+  - 1
+- se_pause:
+  - amb_adv_wind_01
   - 1
 - black_out:
   - 1

@@ -24,12 +24,12 @@
     "number": 5
   },
   {
-    "command": "amb",
+    "command": "se",
     "category": 1,
     "args": [
       "amb_adv_town_day_01"
     ],
-    "number": 51
+    "number": 26
   },
   {
     "command": "bg_pan",
@@ -156,6 +156,18 @@
       "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M282_Outside",
+      "0",
+      "0",
+      "1",
+      "0.5"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -672,6 +684,14 @@
     "number": 25
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_stepadd_cloth_norm_01_move_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -1017,6 +1037,14 @@
     "number": 25
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_step_concrete_move_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -1118,6 +1146,16 @@
     "number": 10
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "2.5",
+      "1"
+    ],
+    "number": 9
+  },
+  {
     "command": "window_visible",
     "category": 1,
     "args": [
@@ -1152,12 +1190,13 @@
     "number": 31
   },
   {
-    "command": "amb_stop",
+    "command": "se_pause",
     "category": 1,
     "args": [
+      "amb_adv_town_day_01",
       "1"
     ],
-    "number": 61
+    "number": 67
   },
   {
     "command": "background",
@@ -1190,12 +1229,12 @@
     "number": 75
   },
   {
-    "command": "amb",
+    "command": "se",
     "category": 1,
     "args": [
       "amb_adv_room_noise_01"
     ],
-    "number": 51
+    "number": 26
   },
   {
     "command": "se",
@@ -1229,7 +1268,7 @@
     "command": "se",
     "category": 1,
     "args": [
-      "se_adv_step_wood_walk_go_01"
+      "se_adv_step_concrete_walk_come_01"
     ],
     "number": 26
   },
@@ -1266,6 +1305,18 @@
       "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M427",
+      "0",
+      "0",
+      "0",
+      "0.5"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -1417,6 +1468,14 @@
       "114511"
     ],
     "number": 25
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_step_concrete_move_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -1724,6 +1783,15 @@
     "number": 10
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "9"
+    ],
+    "number": 9
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
@@ -1823,6 +1891,18 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M180_Ver2",
+      "0",
+      "0",
+      "1",
+      "0.5"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -1995,6 +2075,14 @@
       "1411"
     ],
     "number": 25
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_stepadd_cloth_norm_01_move_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -2588,6 +2676,14 @@
     "number": 25
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_stepadd_cloth_norm_01_move_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -2753,7 +2849,41 @@
     "category": 1,
     "args": [
       "店長",
-      "我也常受到妳的關照。"
+      "我也常"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "10"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "店長",
+      "\n受到妳的關照。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "28"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "店長",
+      "我會幫妳向其他店家打聽看看！"
     ],
     "number": 6
   },
@@ -2770,24 +2900,26 @@
     "category": 1,
     "args": [
       "店長",
-      "\n我會幫妳向其他店家打聽看看！"
+      "\n"
     ],
     "number": 6
   },
   {
-    "command": "wait",
+    "command": "bgm",
     "category": 1,
     "args": [
-      "40"
+      "stop",
+      "6",
+      "1"
     ],
-    "number": 13
+    "number": 9
   },
   {
     "command": "print",
     "category": 1,
     "args": [
       "店長",
-      "\n總之先把水果拿去吧，"
+      "總之先把水果拿去吧，"
     ],
     "number": 6
   },
@@ -2813,6 +2945,18 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M173",
+      "0",
+      "0",
+      "0",
+      "0.5"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -2937,7 +3081,7 @@
     "command": "se",
     "category": 1,
     "args": [
-      "se_adv_step_wood_walk_come_01"
+      "se_adv_step_concrete_walk_come_01"
     ],
     "number": 26
   },
@@ -3186,6 +3330,14 @@
       "114511"
     ],
     "number": 25
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_step_concrete_move_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -3641,6 +3793,14 @@
     "number": 25
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_stepadd_cloth_norm_01_move_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -3754,7 +3914,7 @@
     "command": "se",
     "category": 1,
     "args": [
-      "se_adv_step_wood_walk_come_01"
+      "se_adv_step_concrete_walk_come_01"
     ],
     "number": 26
   },
@@ -4069,6 +4229,14 @@
       "114511"
     ],
     "number": 25
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_stepadd_cloth_norm_01_move_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -4529,7 +4697,7 @@
     "command": "se",
     "category": 1,
     "args": [
-      "se_adv_step_wood_walk_come_01"
+      "se_adv_step_concrete_walk_come_01"
     ],
     "number": 26
   },
@@ -4692,6 +4860,14 @@
       "114511"
     ],
     "number": 25
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_stepadd_cloth_norm_01_move_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -5844,6 +6020,15 @@
     "number": 10
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "2.5"
+    ],
+    "number": 9
+  },
+  {
     "command": "window_visible",
     "category": 1,
     "args": [
@@ -5877,12 +6062,13 @@
     "number": 31
   },
   {
-    "command": "amb_stop",
+    "command": "se_pause",
     "category": 1,
     "args": [
+      "amb_adv_room_noise_01",
       "1"
     ],
-    "number": 61
+    "number": 67
   },
   {
     "command": "background",
@@ -5915,12 +6101,12 @@
     "number": 75
   },
   {
-    "command": "amb",
+    "command": "se",
     "category": 1,
     "args": [
       "amb_adv_restaurant_01"
     ],
-    "number": 51
+    "number": 26
   },
   {
     "command": "chara_full",
@@ -5948,6 +6134,18 @@
       "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M282",
+      "0",
+      "0",
+      "1",
+      "0.5"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -6190,6 +6388,22 @@
       "3"
     ],
     "number": 3
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_cloth_put_on_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_pottery_put_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -6573,6 +6787,14 @@
     "number": 25
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_stepadd_cloth_norm_01_move_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -6924,6 +7146,14 @@
       "114511"
     ],
     "number": 25
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_stepadd_cloth_norm_01_move_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -7541,6 +7771,14 @@
     "number": 25
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_cloth_move_give_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -7590,6 +7828,16 @@
     "number": 10
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "3",
+      "1"
+    ],
+    "number": 9
+  },
+  {
     "command": "window_visible",
     "category": 1,
     "args": [
@@ -7607,12 +7855,13 @@
     "number": 19
   },
   {
-    "command": "amb_stop",
+    "command": "se_pause",
     "category": 1,
     "args": [
+      "amb_adv_restaurant_01",
       "1"
     ],
-    "number": 61
+    "number": 67
   },
   {
     "command": "white_out",
@@ -7665,12 +7914,12 @@
     "number": 30
   },
   {
-    "command": "amb",
+    "command": "se",
     "category": 1,
     "args": [
       "amb_adv_room_noise_01"
     ],
-    "number": 51
+    "number": 26
   },
   {
     "command": "window_visible",
@@ -7679,6 +7928,18 @@
       "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M427_08",
+      "0",
+      "0",
+      "0",
+      "0.5"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -8568,12 +8829,22 @@
     "number": 41
   },
   {
-    "command": "amb_stop",
+    "command": "se_pause",
     "category": 1,
     "args": [
+      "amb_adv_room_noise_01",
       "1"
     ],
-    "number": 61
+    "number": 67
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "black_out",

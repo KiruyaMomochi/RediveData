@@ -4,8 +4,8 @@
   - 咲戀和{0}為了入手聖誕節需要的烤雞食材，和獵人一同上了山。兩人因為獵人的失誤而遭到魔物襲擊，將其打倒後發現牠其實是超高級的雞，收穫了意外之喜。
 - background:
   - 500112
-- amb:
-  - amb_adv_room_noise_01
+- se:
+  - amb_adv_room_noise_night_01
 - bg_pan:
   - -170
   - 0
@@ -45,6 +45,12 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M358
+  - 0
+  - 0
+  - 1
+  - 0.5
 - focus:
   - 102811
 - bust:
@@ -318,6 +324,8 @@
   - 1
 - nod:
   - 211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 女子
   - 沒有喔，
@@ -397,6 +405,8 @@
   - 2
 - nod:
   - 102811
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 咲戀
   - ……嗯，
@@ -464,6 +474,10 @@
   - 女子
   - 好～好慶祝聖誕節呢。
 - touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
 - window_visible:
   - false
 - se:
@@ -483,6 +497,12 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M114_Ver2
+  - 0
+  - 0
+  - 0
+  - 0.5
 - focus:
   - 102811
 - bust:
@@ -495,6 +515,8 @@
   - 4
 - nod:
   - 102811
+- se:
+  - se_adv_cloth_move_give_01
 - print:
   - 咲戀
   - ……唉。
@@ -547,12 +569,16 @@
   - 咲戀
   - 讓你們知道你們咲戀媽媽是很厲害的！
 - touch: *o0
+- bgm:
+  - stop
+  - 3
 - window_visible:
   - false
 - fadeout:
   - 102811
   - 30
-- amb_stop:
+- se_pause:
+  - amb_adv_room_noise_night_01
   - 1
 - black_out:
   - 1
@@ -562,7 +588,7 @@
 - wait:
   - 15
 - black_in: *o0
-- amb:
+- se:
   - amb_adv_outdoors_day_01
 - chara_full:
   - 102811
@@ -573,6 +599,12 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M376
+  - 0
+  - 0
+  - 1
+  - 0.5
 - focus:
   - 102811
 - bust:
@@ -650,6 +682,8 @@
   - 1
 - nod:
   - 102811
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 咲戀
   - 也就是說，
@@ -844,11 +878,21 @@
   - 咲戀
   - 給他們一個驚喜呢。
 - touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
 - choice:
   - 那今天要做什麼？
   - 2
 - tag:
   - 2
+- bgm:
+  - bgm_M180_Ver2
+  - 0
+  - 0
+  - 0
+  - 0.5
 - focus:
   - 102811
 - bust:
@@ -939,6 +983,8 @@
   - 1
 - nod:
   - 102811
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 咲戀
   - 儘管如此，我還是希望能讓大家都吃到。
@@ -1050,6 +1096,9 @@
 
     他們就很親切地為我介紹了一個獵人作為嚮導──
 - touch: *o0
+- bgm:
+  - stop
+  - 2.5
 - window_visible:
   - false
 - fadeout:
@@ -1064,7 +1113,7 @@
   - LC
   - 6
 - se:
-  - se_adv_step_dirt_walk_come_01
+  - se_adv_step_dirt_walk_armor_come_01
 - wait:
   - 15
 - change:
@@ -1075,6 +1124,11 @@
   - 45
 - window_visible:
   - true
+- bgm:
+  - bgm_M97_Ver2
+  - 0
+  - 0
+  - 1
 - focus:
   - 911
 - bust:
@@ -1209,6 +1263,8 @@
   - 1
 - nod:
   - 102811
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 咲戀
   - 好，
@@ -1284,6 +1340,10 @@
   - 獵人
   - 我就看看妳那份餘裕能維持多久。
 - touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 1
 - window_visible:
   - false
 - bright_change:
@@ -1300,7 +1360,8 @@
 - transition:
   - 18
   - 0.5
-- amb_stop:
+- se_pause:
+  - amb_adv_outdoors_day_01
   - 1
 - background:
   - 500213
@@ -1309,7 +1370,7 @@
 - se:
   - se_adv_transition_whoosh_small_in
 - transition_resume: *o0
-- amb:
+- se:
   - amb_adv_outdoors_day_01
 - chara_full:
   - 102811
@@ -1323,6 +1384,8 @@
   - se_adv_step_dirt_walk_come_01
 - wait:
   - 15
+- se:
+  - se_adv_step_dirt_walk_armor_come_01
 - change:
   - RC
   - C
@@ -1339,6 +1402,12 @@
   - 45
 - window_visible:
   - true
+- bgm:
+  - bgm_M12
+  - 0
+  - 0
+  - 0
+  - 0.5
 - focus:
   - 911
 - bust:
@@ -1349,6 +1418,8 @@
 - face:
   - 911
   - 4
+- se:
+  - se_adv_stepadd_armor_norm_01_move_01
 - print:
   - 獵人
   - 呼、
@@ -1603,6 +1674,8 @@
   - 1
 - nod:
   - 911
+- se:
+  - se_adv_stepadd_armor_norm_01_move_01
 - print:
   - 獵人
   - 哦，
@@ -1701,6 +1774,10 @@
 - face:
   - 102811
   - 6
+- se:
+  - se_adv_cloth_move_give_01
+- se:
+  - se_adv_step_leaves_move_02
 - print:
   - 咲戀
   - 這個是……
@@ -1746,6 +1823,8 @@
   - 10
 - nod:
   - 911
+- se:
+  - se_adv_stepadd_armor_norm_01_move_01
 - print:
   - 獵人
   - 這樣啊……
@@ -1772,6 +1851,8 @@
   - 獵人
   - 你這傢伙從剛剛開始就在鬼鬼祟祟的做什麼？
 - touch: *o0
+- se:
+  - se_adv_step_leaves_move_armor_01
 - choice:
   - 這是好吃的蘑菇吧？
   - 4
@@ -1787,6 +1868,8 @@
 - face:
   - 102811
   - 1
+- se:
+  - se_adv_cloth_move_give_01
 - print:
   - 咲戀
   - 我看看……
@@ -1887,6 +1970,9 @@
   - 獵人
   - 真掃興啊……
 - touch: *o0
+- bgm:
+  - stop
+  - 2
 - window_visible:
   - false
 - bright_change:
@@ -1913,6 +1999,12 @@
   - 3
 - window_visible:
   - true
+- bgm:
+  - bgm_M288
+  - 0
+  - 0
+  - 1
+  - 0.5
 - focus:
   - 911
 - bust:
@@ -1981,7 +2073,7 @@
   - 獵人
   - >2-
 
-    在這兩個傢伙面前展現我身為獵人的威嚴。
+    在那兩個傢伙面前展現我身為獵人的威嚴。
 - wait:
   - 60
 - print:
@@ -1991,6 +2083,8 @@
 - face:
   - 911
   - 3
+- se:
+  - se_adv_weapon_arrow_loading_short_01
 - print:
   - 獵人
   - 慎重地瞄準目標……
@@ -2010,20 +2104,26 @@
 - vo_effect:
   - 0
 - se:
-  - se_adv_netgun_01
+  - se_adv_weapon_arrow_shot_small_01
 - effect:
   - 0009
+- se:
+  - se_adv_weapon_arrow_fly_01
 - wait:
   - 15
 - effect_delete:
   - 0009
-- se:
-  - se_adv_bird_flap_01
 - wait:
-  - 15
+  - 10
+- se:
+  - se_adv_weapon_arrow_hit_wood_01
+- wait:
+  - 5
 - effect:
   - 0038
   - se_adv_transition_01
+- se:
+  - se_adv_bird_flap_01
 - wait:
   - 15
 - chara_full:
@@ -2050,6 +2150,8 @@
   - 3
 - nod:
   - 911
+- se:
+  - se_adv_step_leaves_move_armor_01
 - print:
   - 獵人
   - 可惡，
@@ -2094,6 +2196,8 @@
   - 6
 - tag:
   - 6
+- se:
+  - se_adv_creature_flap_01
 - focus:
   - 102811
 - bust:
@@ -2130,6 +2234,10 @@
   - 咲戀
   - 該不會是……
 - touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
 - window_visible:
   - false
 - fadeout_all:
@@ -2152,9 +2260,15 @@
 - text_size:
   - 50
 - se:
-  - se_adv_creature_cmn_01
+  - se_adv_creature_bird_01
 - window_visible:
   - true
+- bgm:
+  - bgm_M03
+  - 0
+  - 0
+  - 0
+  - 0.5
 - focus:
   - 1611
 - bust:
@@ -2347,6 +2461,10 @@
   - 20
 - nod:
   - 911
+- se:
+  - se_adv_weapon_axe_set_01
+- se:
+  - se_adv_stepadd_armor_norm_01_move_01
 - print:
   - 獵人
   - 喂混蛋魔物！
@@ -2388,6 +2506,8 @@
 - face:
   - 102811
   - 4
+- se:
+  - se_adv_step_leaves_move_01
 - print:
   - 咲戀
   - 哎呀哎呀，
@@ -2450,6 +2570,10 @@
   - 2
 - nod:
   - 102811
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- se:
+  - se_adv_weapon_sword_set_01
 - print:
   - 咲戀
   - 沒事啦，
@@ -2476,6 +2600,9 @@
   - 咲戀
   - '{0}，把力量借給我！'
 - touch: *o0
+- bgm:
+  - stop
+  - 3
 - choice:
   - 盡全力上囉！
   - 7
@@ -2497,6 +2624,12 @@
   - se_adv_magic_cmn_medium_02
 - window_visible:
   - true
+- bgm:
+  - bgm_M57
+  - 0
+  - 0
+  - 1
+  - 0.5
 - focus:
   - 102811
 - bust:
@@ -2539,6 +2672,8 @@
 - effect:
   - 0009
 - se:
+  - se_adv_step_dirt_move_01
+- se:
   - se_adv_move_fast_02
 - scale:
   - 102811
@@ -2567,7 +2702,7 @@
 - text_size:
   - 50
 - se:
-  - se_adv_creature_cmn_01
+  - se_adv_creature_bird_01
 - window_visible:
   - true
 - focus:
@@ -2593,7 +2728,8 @@
 - fadeout:
   - 1611
   - 30
-- amb_stop:
+- se_pause:
+  - amb_adv_outdoors_day_01
   - 1
 - black_out:
   - 1
@@ -2601,7 +2737,7 @@
 - wait:
   - 30
 - black_in: *o0
-- amb:
+- se:
   - amb_adv_outdoors_day_01
 - chara_full:
   - 1611
@@ -2611,9 +2747,13 @@
   - 1611
   - 30
 - se:
-  - se_adv_creature_cmn_04
+  - se_adv_creature_bird_02
 - window_visible:
   - true
+- bgm:
+  - stop
+  - 4
+  - 1
 - focus:
   - 1611
 - bust:
@@ -2656,6 +2796,12 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M140_NoBell
+  - 0
+  - 0
+  - 0
+  - 0.5
 - focus:
   - 102811
 - bust:
@@ -2697,6 +2843,9 @@
   - 咲戀
   - 有沒有受傷？
 - touch: *o0
+- bgm:
+  - stop
+  - 5.5
 - focus:
   - 911
 - bust:
@@ -2714,6 +2863,8 @@
   - 30
 - nod:
   - 911
+- se:
+  - se_adv_stepadd_armor_norm_01_move_01
 - print:
   - 獵人
   - 我很抱歉。
@@ -2758,6 +2909,12 @@
   - 咲戀
   - 把頭抬起來啦！
 - touch: *o0
+- bgm:
+  - bgm_M353_02
+  - 0
+  - 0
+  - 1
+  - 0.5
 - focus:
   - 911
 - bust:
@@ -2849,6 +3006,8 @@
   - 1
 - nod:
   - 102811
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 咲戀
   - ……不，
@@ -2875,7 +3034,7 @@
   - 咲戀
   - >2-
 
-    可能會被當成是有錢人在找事情消遣。
+    本來就有可能被當成是有錢人在找事消遣。
 - touch: *o0
 - focus:
   - 102811
@@ -3201,6 +3360,8 @@
   - 1
 - nod:
   - 102811
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 咲戀
   - 可以喔。
@@ -3234,7 +3395,7 @@
   - 咲戀
   - >2-
 
-    除了烤雞以外，我想讓料理的變化豐富一點呢。
+    除了烤雞以外，我想讓料理的變化更豐富一點。
 - touch: *o0
 - focus:
   - 911
@@ -3318,6 +3479,8 @@
   - 2
 - nod:
   - 911
+- se:
+  - se_adv_stepadd_armor_norm_01_move_01
 - print:
   - 獵人
   - ……哈哈，
@@ -3409,7 +3572,12 @@
 - touch: *o0
 - window_visible:
   - false
-- amb_stop:
+- se_pause:
+  - amb_adv_outdoors_day_01
+  - 1
+- bgm:
+  - stop
+  - 1
   - 1
 - black_out:
   - 1

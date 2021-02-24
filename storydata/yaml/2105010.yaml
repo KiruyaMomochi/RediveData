@@ -1,16 +1,16 @@
 - title:
   - 2部 第5章 第10話
 - outline:
-  - ' '
+  - 秋乃她們試圖和前來助陣的優衣等人合力阻止阿澤爾德，戰況卻受到【龍族巢穴】的妨礙而變得混亂無比。此時，順利變身成公主型態的凱留現身了──
 - background:
   - 500030
-- amb:
-  - amb_adv_town_day_01
+- se:
+  - amb_adv_wind_01
 - bg_pan:
   - -170
   - 0
 - situation:
-  - 2部 第5章 第10話
+  - 混戰的去向
 - window_visible:
   - TRUE
 - focus:
@@ -51,6 +51,13 @@
   - 50
 - window_visible:
   - TRUE
+- se:
+  - se_adv_weapon_punch_set_01
+- bgm:
+  - bgm_M131_02
+  - 0
+  - 0
+  - 1
 - focus:
   - 100111
 - bust:
@@ -70,7 +77,7 @@
 - effect:
   - 0009
 - se:
-  - se_adv_step_concrete_run_go_01
+  - se_adv_blanket_move_02
 - scale:
   - 100111
   - 1.2
@@ -119,7 +126,7 @@
 - effect:
   - 0009
 - se:
-  - se_adv_step_concrete_run_go_01
+  - se_adv_impact_swing_01
 - scale:
   - 106611
   - 1.2
@@ -140,6 +147,8 @@
 - wait:
   - 5
 - se:
+  - se_adv_weapon_hammer_whiff_01
+- se:
   - se_adv_weapon_claw_repel_01
 - effect:
   - 0045
@@ -148,6 +157,8 @@
 - effect:
   - 0003
   - se_adv_weapon_punch_hit_02
+- se:
+  - se_adv_weapon_axe_whiff_long_01
 - wait:
   - 10
 - se:
@@ -229,12 +240,14 @@
   - 嘉夜
   - 接招！
 - touch: *o0
+- se:
+  - se_adv_weapon_hammer_whiff_long_012
 - window_visible:
   - false
+- se:
+  - se_adv_stepadd_armor_norm_01_move_01
 - effect:
   - 0009
-- se:
-  - se_adv_step_concrete_run_go_01
 - scale:
   - 106511
   - 1.2
@@ -249,6 +262,8 @@
   - 0
   - 0
   - 0
+- se:
+  - se_adv_armor_helmet_01
 - effect:
   - 0003
   - se_adv_weapon_punch_hit_02
@@ -260,13 +275,17 @@
   - 0045
 - wait:
   - 10
+- se:
+  - se_adv_impact_swing_01
 - effect:
   - 0019
   - se_adv_weapon_punch_whiff_02
 - wait:
   - 5
 - se:
-  - se_adv_weapon_hammer_repel_01
+  - se_adv_weapon_axe_whiff_01
+- se:
+  - se_adv_weapon_sword_impact_04
 - effect:
   - 0045
 - wait:
@@ -281,11 +300,11 @@
   - 100312
   - 1.2
   - 2
+- se:
+  - se_adv_knock_back_01
 - fadein:
   - 100312
   - 15
-- se:
-  - se_adv_knock_back_01
 - scale:
   - 100312
   - 1
@@ -344,6 +363,8 @@
   - 30
 - window_visible:
   - true
+- se:
+  - se_adv_cloth_move_normal_01
 - focus:
   - 104611
 - bust:
@@ -367,6 +388,8 @@
 
     妳還站得起來喵！？
 - touch: *o0
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - focus:
   - 103211
 - bust:
@@ -409,6 +432,8 @@
 - fadein:
   - 191911
   - 30
+- se:
+  - se_adv_stepadd_armor_heavy_01_move_01
 - window_visible:
   - true
 - focus:
@@ -502,8 +527,6 @@
 - touch: *o0
 - window_visible:
   - FALSE
-- eye_open:
-  - true
 - bright_change:
   - 1
   - 100
@@ -574,11 +597,14 @@
 - fadeout:
   - 106711
   - 30
+- se:
+  - se_adv_magic_dark_small_01
 - effect:
   - 0070
-  - se_adv_magic_dark_medium_01
 - wait:
   - 30
+- se:
+  - se_adv_magic_dark_medium_01
 - chara_full:
   - 100211
   - C
@@ -588,6 +614,8 @@
   - 30
 - window_visible:
   - true
+- se:
+  - se_adv_cloth_move_normal_01
 - focus:
   - 100211
 - bust:
@@ -642,6 +670,8 @@
   - 3
 - fadein_all:
   - 30
+- se:
+  - se_adv_body_sitdown_01
 - window_visible:
   - true
 - focus:
@@ -814,10 +844,12 @@
   - 1
 - vo_effect:
   - 0
+- bgm:
+  - stop
+  - 3
+  - 1
 - fadeout_all:
   - 30
-- amb_stop:
-  - 1
 - se:
   - se_adv_transition_sharp_01
 - white_out:
@@ -828,8 +860,6 @@
 - wait:
   - 15
 - white_in: *o0
-- amb:
-  - amb_adv_town_day_01
 - chara_full:
   - 105812
   - LC
@@ -842,6 +872,8 @@
   - 30
 - window_visible:
   - TRUE
+- bgm:
+  - bgm_M304
 - focus:
   - 105812
 - bust:
@@ -897,6 +929,8 @@
   - 1
 - nod:
   - 105812
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 貪吃佩可
   - 雖然我還不成器……
@@ -929,8 +963,11 @@
   - false
 - fadeout_all:
   - 30
-- amb_stop:
-  - 1
+- se:
+  - se_adv_transition_sharp_01
+- bgm:
+  - stop
+  - 4
 - white_out:
   - 1
   - 1
@@ -939,8 +976,6 @@
 - wait:
   - 15
 - white_in: *o0
-- amb:
-  - amb_adv_town_day_01
 - chara_full:
   - 191511
   - C
@@ -973,13 +1008,19 @@
   - 0004
   - se_adv_transition_01
 - wait:
-  - 15
+  - 5
+- se:
+  - se_adv_magic_earth_medium_01
+- wait:
+  - 10
 - se:
   - se_adv_light_far_away_01
 - white_out:
   - 0.5
   - 0.2
 - white_in: *o0
+- se:
+  - se_adv_magic_holy_large_01
 - se:
   - se_adv_explosion_house_01
 - shake_screen: *o0
@@ -1005,6 +1046,11 @@
   - 30
 - window_visible:
   - TRUE
+- bgm:
+  - bgm_M211_03
+  - 0
+  - 0
+  - 1
 - focus:
   - 103411
 - bust:
@@ -1121,7 +1167,8 @@
 - chara_full:
   - 191911
   - C
-  - 4
+  - 3
+  - 1
 - fadein:
   - 191911
   - 30
@@ -1136,7 +1183,7 @@
   - vo_adv_2105010_021
 - face:
   - 191911
-  - 4
+  - 3
 - print:
   - 阿澤爾德
   - …………
@@ -1177,9 +1224,15 @@
 - touch: *o0
 - window_visible:
   - false
+- bgm:
+  - stop
+  - 3.5
+  - 1
 - fadeout:
   - 106411
   - 30
+- se:
+  - se_adv_creature_bird_atk_01
 - bg_pan:
   - 0
   - -150
@@ -1202,6 +1255,10 @@
   - 50
 - window_visible:
   - true
+- se:
+  - se_adv_move_fast_02
+- bgm:
+  - bgm_M336
 - focus:
   - 180611
 - bust:
@@ -1278,6 +1335,8 @@
   - se_adv_kyaru_impact_01
 - text_size:
   - 40
+- se:
+  - se_adv_magic_kaiser_09_lp
 - window_visible:
   - true
 - focus:
@@ -1301,6 +1360,11 @@
 
     混帳人偶們────！！！！
 - touch: *o0
+- se:
+  - se_adv_magic_kaiser_05
+- se_pause:
+  - se_adv_magic_kaiser_09_lp
+  - 1
 - window_visible:
   - false
 - change_window:
@@ -1310,20 +1374,20 @@
 - fadeout:
   - 180611
   - 30
-- se:
-  - se_adv_magic_kaiser_04
 - white_out:
   - 1
   - 1
+- se:
+  - se_adv_magic_kaiser_06
 - background:
   - 500090
 - wait:
   - 15
 - white_in: *o0
-- window_visible:
-  - true
 - se:
   - se_adv_creature_machine_01
+- window_visible:
+  - true
 - focus:
   - 191912
 - bust:
@@ -1338,9 +1402,20 @@
 - touch: *o0
 - window_visible:
   - false
+- se_pause:
+  - se_adv_magic_kaiser_05
+  - 2
+- se_pause:
+  - se_adv_magic_kaiser_06
+  - 2
 - se:
   - se_adv_kyaru_magic_02
+- se:
+  - se_adv_magic_crash_03
 - shake_screen: *o0
+- se_pause:
+  - se_adv_kyaru_magic_02
+  - 2
 - black_out:
   - 1
   - 0.5
@@ -1349,10 +1424,10 @@
 - wait:
   - 15
 - black_in: *o0
-- window_visible:
-  - true
 - se:
   - se_adv_creature_machine_01
+- window_visible:
+  - true
 - focus:
   - 191912
 - bust:
@@ -1365,11 +1440,19 @@
   - 萬能人偶們
   - 「……！！！」
 - touch: *o0
+- se_pause:
+  - se_adv_magic_crash_03
+  - 2
+- se:
+  - se_adv_kyaru_magic_02
 - window_visible:
   - false
 - se:
-  - se_adv_kyaru_magic_02
+  - se_adv_magic_hit_01
 - shake_screen: *o0
+- se_pause:
+  - se_adv_kyaru_magic_02
+  - 2
 - black_out:
   - 1
   - 0.5
@@ -1394,11 +1477,19 @@
   - 萬能人偶們
   - 「……！！！」
 - touch: *o0
+- se_pause:
+  - se_adv_magic_hit_01
+  - 2
+- se:
+  - se_adv_kyaru_magic_02
 - window_visible:
   - false
 - se:
-  - se_adv_kyaru_magic_02
+  - se_adv_explosion_crash_01
 - shake_screen: *o0
+- se_pause:
+  - se_adv_kyaru_magic_02
+  - 2
 - black_out:
   - 1
   - 0.5
@@ -1586,6 +1677,11 @@
   - 30
 - window_visible:
   - TRUE
+- se:
+  - se_adv_cloth_move_normal_01
+- bgm:
+  - stop
+  - 7
 - focus:
   - 100211
 - bust:
@@ -1612,7 +1708,7 @@
 - window_visible:
   - false
 - se:
-  - se_adv_cloth_move_normal_01
+  - se_adv_cloth_move_give_01
 - updown:
   - 100211
   - 0
@@ -1622,7 +1718,7 @@
   - 100211
   - 30
 - se:
-  - se_adv_bodyfall_01
+  - se_adv_bodyfall_02
 - shake_loop: *o0
 - wait:
   - 30
@@ -1651,6 +1747,11 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M60
+  - 0
+  - 0
+  - 1
 - focus:
   - 100311
 - bust:
@@ -1682,9 +1783,13 @@
   - 50
 - print:
   - 日和
-  - >2-
+  - >2
 
-    ……太過分了，
+- nod:
+  - 100111
+- print:
+  - 日和
+  - ……太過分了，
 - wait:
   - 30
 - print:
@@ -1768,6 +1873,8 @@
   - 100211
   - C
   - 6
+- se:
+  - se_adv_cloth_move_normal_01
 - fadein:
   - 100211
   - 30
@@ -1893,6 +2000,8 @@
   - 106711
   - LC
   - 1
+- se:
+  - se_adv_step_concrete_move_01
 - fadein_all:
   - 30
 - window_visible:
@@ -2120,6 +2229,8 @@
   - 優衣
   - 那個……？
 - touch: *o0
+- se:
+  - se_adv_cloth_move_give_01
 - focus:
   - 100111:100311
 - bust:
@@ -2133,7 +2244,7 @@
   - 1
   - 1
 - print:
-  - 怜、日和
+  - 日和、怜
   - …………
 - touch: *o0
 - window_visible:
@@ -2205,6 +2316,10 @@
   - 15
 - se:
   - se_adv_step_concrete_run_armor_come_01
+- bgm:
+  - stop
+  - 2.8
+  - 1
 - choice:
   - ──大家！
   - 1
@@ -2216,17 +2331,21 @@
   - 180611
   - C
   - 4
+- se:
+  - se_adv_blanket_move_02
 - fadein:
   - 180611
   - 30
 - se:
-  - se_adv_step_concrete_move_01
+  - se_adv_knock_back_02
 - nod:
   - 180611
 - wait:
   - 15
 - window_visible:
   - true
+- bgm:
+  - bgm_M95
 - focus:
   - 180611
 - bust:
@@ -2303,6 +2422,8 @@
   - 2
 - nod:
   - 106411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 雪菲
   - 太好了！
@@ -2414,8 +2535,8 @@
 - emotion:
   - surprise1_L
   - 180611
-  - 165
-  - 540
+  - 140
+  - 510
   - se_adv_emote_common_01
 - print:
   - 凱留
@@ -2549,6 +2670,8 @@
   - 2
 - nod:
   - 105911
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 可可蘿
   - 之後的事
@@ -2604,6 +2727,8 @@
   - 30
 - window_visible:
   - true
+- se:
+  - se_adv_cloth_move_normal_01
 - focus:
   - 105812
 - bust:
@@ -2781,6 +2906,8 @@
   - 3
 - nod:
   - 106011
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 凱留
   - 妳這笨蛋！
@@ -2820,6 +2947,9 @@
   - LC
 - wait:
   - 45
+- bgm:
+  - stop
+  - 2.5
 - fadeout_all:
   - 30
 - effect:
@@ -2837,6 +2967,11 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M59
+  - 0
+  - 0
+  - 1
 - focus:
   - 191911
 - bust:
@@ -3055,7 +3190,7 @@
 - chara_full:
   - 106011
   - C
-  - 4
+  - 3
 - fadein:
   - 106011
   - 30
@@ -3070,20 +3205,12 @@
   - vo_adv_2105010_066
 - face:
   - 106011
-  - 4
-- print:
-  - 凱留
-  - 「變身」……
-- wait:
-  - 40
-- face:
-  - 106011
   - 3
 - print:
   - 凱留
-  - 那麼，
+  - ……那麼，
 - wait:
-  - 15
+  - 14
 - print:
   - 凱留
   - 那個冒牌的陛下就是……！
@@ -3136,9 +3263,9 @@
   - 1
 - print:
   - 阿澤爾德
-  - 就算無法完全重現霸瞳皇帝……
+  - 就算無法完全重現「霸瞳皇帝」……
 - wait:
-  - 65
+  - 64
 - print:
   - 阿澤爾德
   - >2-
@@ -3405,6 +3532,8 @@
   - 6
 - pop:
   - 106611
+- se:
+  - se_adv_cloth_move_hard_01
 - print:
   - 祈梨
   - 給我等等～！
@@ -3425,7 +3554,7 @@
 - window_visible:
   - false
 - se:
-  - se_adv_step_concrete_run_go_01
+  - se_adv_step_concrete_run_armor_go_01
 - change:
   - L
   - LC
@@ -3434,6 +3563,10 @@
   - C
   - RC
   - 30
+- bgm:
+  - stop
+  - 3.7
+  - 1
 - fadeout_all:
   - 30
 - chara_full:
@@ -3473,6 +3606,8 @@
   - 優花梨
   - 她們走掉了……
 - touch: *o0
+- bgm:
+  - bgm_M418
 - focus:
   - 103211
 - bust:
@@ -3544,6 +3679,8 @@
   - 3
 - nod:
   - 104611
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 珠希
   - 剩下的
@@ -3571,6 +3708,9 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - stop
+  - 7.7
 - focus:
   - 191911
 - bust:
@@ -3613,7 +3753,12 @@
   - 我就使出渾身解數來對付你們吧。
 - touch: *o0
 - se:
-  - se_adv_creature_machine_01
+  - se_adv_creature_machine_many_01
+- bgm:
+  - bgm_M167
+  - 0
+  - 0
+  - 1
 - focus:
   - 191913
 - bust:
@@ -3627,14 +3772,14 @@
   - 「嗡──嗡──」……！
 - touch: *o0
 - se:
-  - se_adv_bugs_noise_01
+  - se_adv_creature_bugs_creeping_coin_02
 - focus:
-  - 10211
+  - 191914
 - bust:
-  - 10211
+  - 191914
   - 1
 - face:
-  - 10211
+  - 191914
   - 1
 - print:
   - 金幣怪
@@ -3712,7 +3857,7 @@
   - 10
 - print:
   - 美冬
-  - 和金幣怪！
+  - 和「金幣怪」！
 - wait:
   - 20
 - print:
@@ -3731,26 +3876,28 @@
 - fadeout_all:
   - 30
 - chara_full:
-  - 100312
+  - 100311
   - RC
   - 3
 - chara_full:
   - 103211
   - LC
   - 3
+- se:
+  - se_adv_step_concrete_move_01
 - fadein_all:
   - 30
 - window_visible:
   - true
 - focus:
-  - 100312
+  - 100311
 - bust:
-  - 100312
+  - 100311
   - 0
 - vo:
   - vo_adv_2105010_081
 - face:
-  - 100312
+  - 100311
   - 3
 - print:
   - 怜
@@ -3785,6 +3932,8 @@
   - 1
 - nod:
   - 103211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 秋乃
   - 知道了！
@@ -3841,6 +3990,8 @@
   - 3
 - nod:
   - 100111
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 日和
   - 嗯，
@@ -3905,10 +4056,15 @@
 - effect_delete:
   - 0088
   - 15
+- se_pause:
+  - amb_adv_wind_01
+  - 2
+- bgm:
+  - stop
+  - 2
+  - 1
 - fadeout_all:
   - 30
-- amb_stop:
-  - 1
 - black_out:
   - 1
   - 1
@@ -3920,7 +4076,7 @@
   - 1
   - 1
 - movie:
-  - 210201001
+  - 210501001
 - black_out:
   - 1
   - 0.3
@@ -3928,9 +4084,9 @@
   - 500030
 - wait:
   - 15
-- black_in: *o0
-- amb:
+- se:
   - amb_adv_wind_01
+- black_in: *o0
 - chara_full:
   - 180311
   - C
@@ -3944,6 +4100,8 @@
   - 50
 - window_visible:
   - true
+- bgm:
+  - bgm_M109
 - focus:
   - 180311
 - bust:
@@ -3982,14 +4140,15 @@
   - 0
   - 0
   - 0
+- se:
+  - se_adv_weapon_sword_large_hit_01
 - effect:
   - 0016
-  - se_adv_weapon_sword_whiff_01
+  - se_adv_weapon_sword_impact_03
 - wait:
   - 5
 - effect:
   - 0045
-  - se_adv_weapon_sword_impact_01
 - wait:
   - 15
 - background:
@@ -4032,6 +4191,8 @@
   - 180311
   - C
   - 3
+- se:
+  - se_adv_knock_back_02
 - fadein:
   - 180311
   - 30
@@ -4193,6 +4354,8 @@
   - 1
 - nod:
   - 180111
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 日和
   - 嗯！
@@ -4224,29 +4387,11 @@
 - window_visible:
   - false
 - focus:
-  - 180311
-- effect:
-  - 0009
-- se:
-  - se_adv_move_fast_02
-- change:
-  - C
-  - RC
-  - 10
-- scale:
-  - 180311
-  - 1.2
-  - 2
-  - 10
-- fadeout:
-  - 180311
-  - 10
-- focus:
   - 180111
 - effect:
   - 0009
 - se:
-  - se_adv_blanket_move_02
+  - se_adv_move_fast_02
 - change:
   - C
   - LC
@@ -4259,6 +4404,24 @@
 - fadeout:
   - 180111
   - 15
+- focus:
+  - 180311
+- effect:
+  - 0009
+- se:
+  - se_adv_body_jump_01
+- change:
+  - C
+  - RC
+  - 10
+- scale:
+  - 180311
+  - 1.2
+  - 2
+  - 10
+- fadeout:
+  - 180311
+  - 10
 - effect_delete:
   - 0009
 - bg_color:
@@ -4268,6 +4431,8 @@
 - effect:
   - 0003
   - se_adv_weapon_punch_hit_02
+- se:
+  - se_adv_magic_wind_large_01
 - wait:
   - 10
 - effect:
@@ -4350,9 +4515,13 @@
   - 180211
   - C
   - 3
+- se:
+  - se_adv_magic_cmn_medium_01
 - fadein:
   - 180211
   - 30
+- se:
+  - se_adv_magic_gather_02
 - window_visible:
   - true
 - focus:
@@ -4416,12 +4585,17 @@
   - 1
 - text_size:
   - 23
+- se_pause:
+  - se_adv_magic_gather_02
+  - 1
 - se:
-  - se_adv_light_far_away_01
+  - se_adv_comic_light_01
 - white_out:
   - 0.5
   - 0.2
 - white_in: *o0
+- se:
+  - se_adv_speedstar_03
 - fadeout:
   - 180211
   - 30
@@ -4456,14 +4630,9 @@
   - 45
 - print:
   - 阿澤爾德
-  - >2
+  - >2-
 
-- face:
-  - 191911
-  - 1
-- print:
-  - 阿澤爾德
-  - 要是使用提升身體能力的藥，
+    要是使用提升身體能力的藥，
 - wait:
   - 55
 - print:
@@ -4473,7 +4642,7 @@
 - window_visible:
   - false
 - se:
-  - se_adv_stepadd_armor_heavy_01_move_01
+  - se_adv_drink_02
 - nod:
   - 191911
 - wait:
@@ -4483,6 +4652,8 @@
   - se_adv_violet_aura_01
 - text_size:
   - 50
+- se:
+  - se_adv_armor_helmet_01
 - window_visible:
   - true
 - focus:
@@ -4506,6 +4677,8 @@
 - effect_delete:
   - 0042
   - 15
+- se:
+  - se_adv_speedstar_03
 - fadeout:
   - 191911
   - 30
@@ -4515,37 +4688,59 @@
   - 0.5
   - 0.2
 - white_in: *o0
+- se:
+  - se_adv_magic_charge_01
 - bg_color:
   - 0
   - 0
   - 0
 - effect:
   - 0074
-  - se_adv_magic_cmn_medium_01
+  - 0
   - 180
   - C
+- se:
+  - se_adv_comic_light_01
 - wait:
   - 15
 - shake_loop: *o0
+- se_pause:
+  - se_adv_comic_light_01
+  - 1
 - effect:
   - 0074
-  - se_adv_magic_cmn_medium_01
+  - 0
   - 0
   - L
+- se:
+  - se_adv_comic_light_01
 - wait:
   - 15
+- se_pause:
+  - se_adv_comic_light_01
+  - 1
 - effect:
   - 0074
-  - se_adv_magic_cmn_medium_01
+  - 0
   - 0
   - R
+- se:
+  - se_adv_comic_light_01
 - wait:
   - 30
 - background:
   - 500030
+- se_pause:
+  - se_adv_magic_charge_01
+  - 1
 - effect:
   - 0014
+- se:
+  - se_adv_magic_kaiser_06
 - shake_delete: *o0
+- se_pause:
+  - se_adv_magic_kaiser_06
+  - 2
 - se:
   - se_adv_magic_crash_02
 - shake_screen: *o0
@@ -4627,6 +4822,9 @@
 - touch: *o0
 - window_visible:
   - false
+- bgm:
+  - stop
+  - 3
 - fadeout_all:
   - 30
 - effect:
@@ -4638,6 +4836,8 @@
   - 191911
   - C
   - 2
+- se:
+  - se_adv_violet_aura_01
 - fadein:
   - 191911
   - 30
@@ -4645,9 +4845,13 @@
   - 0014
 - effect:
   - 0042
-  - se_adv_violet_aura_01
 - window_visible:
   - true
+- bgm:
+  - bgm_M231
+  - 0
+  - 0
+  - 1
 - focus:
   - 191911
 - bust:
@@ -4658,6 +4862,8 @@
 - face:
   - 191911
   - 2
+- se:
+  - se_adv_stepadd_armor_heavy_01_move_01
 - print:
   - 阿澤爾德
   - ……呵呵呵，
@@ -4774,12 +4980,13 @@
   - 191911
   - C
   - 3
+- se:
+  - se_adv_violet_aura_01
 - fadein:
   - 191911
   - 30
 - effect:
   - 0042
-  - se_adv_violet_aura_01
 - window_visible:
   - true
 - focus:
@@ -4879,6 +5086,8 @@
   - 50
 - window_visible:
   - true
+- se:
+  - se_adv_body_catch_down_01
 - focus:
   - 0
 - bust:
@@ -4890,7 +5099,7 @@
   - 1
   - 1
 - print:
-  - 怜、優衣、日和
+  - 日和、優衣、怜
   - 啊啊啊！！？
 - shake_screen: *o0
 - touch: *o0
@@ -4908,10 +5117,14 @@
   - 180211
   - RC
   - 4
+- se:
+  - se_adv_body_sitdown_01
 - fadein_all:
   - 30
 - window_visible:
   - true
+- se:
+  - se_adv_cloth_move_normal_01
 - focus:
   - 180111
 - bust:
@@ -4928,6 +5141,8 @@
   - 日和
   - 好痛痛……！
 - touch: *o0
+- se:
+  - se_adv_cloth_move_give_01
 - focus:
   - 180211
 - bust:
@@ -4984,12 +5199,13 @@
   - 191911
   - C
   - 1
+- se:
+  - se_adv_violet_aura_01
 - fadein:
   - 191911
   - 30
 - effect:
   - 0042
-  - se_adv_violet_aura_01
 - window_visible:
   - true
 - focus:
@@ -5100,12 +5316,13 @@
   - 191911
   - C
   - 4
+- se:
+  - se_adv_violet_aura_01
 - fadein:
   - 191911
   - 30
 - effect:
   - 0042
-  - se_adv_violet_aura_01
 - window_visible:
   - true
 - focus:
@@ -5200,6 +5417,8 @@
   - 50
 - window_visible:
   - true
+- se:
+  - se_adv_bodyfall_02
 - focus:
   - 0
 - bust:
@@ -5211,7 +5430,7 @@
   - 1
   - 1
 - print:
-  - 怜、優衣、日和
+  - 日和、優衣、怜
   - ──唔！！！
 - shake_screen: *o0
 - touch: *o0
@@ -5237,6 +5456,8 @@
   - 30
 - window_visible:
   - true
+- se:
+  - se_adv_cloth_move_normal_01
 - focus:
   - 180211
 - bust:
@@ -5326,6 +5547,8 @@
   - 怜
   - 施展防禦魔法！
 - touch: *o0
+- se:
+  - se_adv_magic_cmn_medium_01
 - focus:
   - 180211
 - bust:
@@ -5350,7 +5573,7 @@
 - focus:
   - 180111:180211:180311
 - se:
-  - se_adv_magic_cmn_healing_medium_01
+  - se_adv_barrier_02
 - effect:
   - 0048
 - wait:
@@ -5372,12 +5595,13 @@
   - 191911
   - C
   - 2
+- se:
+  - se_adv_violet_aura_01
 - fadein:
   - 191911
   - 30
 - effect:
   - 0042
-  - se_adv_violet_aura_01
 - window_visible:
   - true
 - focus:
@@ -5511,6 +5735,8 @@
   - 3
 - fadein_all:
   - 30
+- se:
+  - se_adv_weapon_sword_set_05
 - window_visible:
   - true
 - focus:
@@ -5527,6 +5753,8 @@
   - 怜
   - 要過來了！
 - touch: *o0
+- se:
+  - se_adv_magic_cmn_large_01
 - window_visible:
   - false
 - text_size:
@@ -5551,6 +5779,8 @@
   - false
 - change_window:
   - 3
+- se:
+  - se_adv_weapon_punch_set_01
 - text_size:
   - 50
 - window_visible:
@@ -5571,6 +5801,8 @@
 - touch: *o0
 - window_visible:
   - false
+- se:
+  - se_adv_move_fast_02
 - change_window:
   - 1
 - text_size:
@@ -5625,20 +5857,27 @@
   - 30
 - wait:
   - 5
+- se:
+  - se_adv_weapon_dagger_whiff_01
 - effect:
   - 0001
   - 0
   - 300
 - wait:
   - 5
+- se:
+  - se_adv_weapon_punch_whiff_02
 - effect:
   - 0001
   - 0
   - 240
 - wait:
   - 5
+- se:
+  - se_adv_impact_swing_01
 - effect:
   - 0001
+  - se_adv_weapon_sword_hit_01
 - effect:
   - 0019
 - effect:
@@ -5709,12 +5948,13 @@
   - 191911
   - C
   - 3
+- se:
+  - se_adv_violet_aura_01
 - fadein:
   - 191911
   - 30
 - effect:
   - 0042
-  - se_adv_violet_aura_01
 - window_visible:
   - true
 - focus:
@@ -5813,6 +6053,8 @@
   - 1
 - nod:
   - 180111
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 日和
   - 果然
@@ -5822,6 +6064,10 @@
   - 日和
   - 還是我們贏了！
 - touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
 - choice:
   - 可可蘿！
   - 4
@@ -5840,6 +6086,8 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M336_02
 - focus:
   - 180511
 - bust:
@@ -5852,10 +6100,14 @@
   - 3
 - nod:
   - 180511
+- se:
+  - se_adv_step_concrete_move_01
 - print:
   - 可可蘿
   - ──是的！
 - touch: *o0
+- se:
+  - se_adv_magic_cmn_large_01
 - window_visible:
   - false
 - text_size:
@@ -5880,11 +6132,11 @@
   - false
 - text_size:
   - 23
+- se:
+  - se_adv_magic_princess_kokkoro_01
 - fadeout:
   - 180511
   - 30
-- se:
-  - se_adv_magic_cmn_healing_large_01
 - effect:
   - 0075
 - wait:
@@ -5982,6 +6234,8 @@
   - 1
 - nod:
   - 180211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 優衣
   - 謝謝妳，
@@ -6008,6 +6262,8 @@
   - 50
 - window_visible:
   - true
+- se:
+  - se_adv_move_fast_02
 - focus:
   - 180111:180211:180311
 - bust:
@@ -6021,7 +6277,7 @@
   - 1
   - 1
 - print:
-  - 怜、優衣、日和
+  - 日和、優衣、怜
   - ──喝啊啊啊啊───！！！
 - touch: *o0
 - window_visible:
@@ -6046,11 +6302,15 @@
   - 30
 - se:
   - se_adv_manalia_magic_03
+- se:
+  - se_adv_magic_kaiser_08_lp
 - white_out:
   - 0.5
   - 0.2
 - shake_loop: *o0
 - white_in: *o0
+- se:
+  - se_adv_ev2_still_03
 - se:
   - se_adv_magic_hit_01
 - effect:
@@ -6081,11 +6341,19 @@
 - window_visible:
   - false
 - se:
-  - se_adv_crash_rock_01
+  - se_adv_kyaru_magic_02
+- se_pause:
+  - se_adv_ev2_still_03
+  - 1
+- se_pause:
+  - se_adv_magic_hit_01
+  - 1
 - white_out:
   - 0.5
   - 0.2
 - white_in: *o0
+- se:
+  - se_adv_magic_crash_02
 - change_window:
   - 3
 - text_size:
@@ -6116,17 +6384,28 @@
 - effect_delete:
   - 0042
   - 5
+- se_pause:
+  - se_adv_kyaru_magic_02
+  - 1
+- se_pause:
+  - se_adv_magic_crash_02
+  - 1
+- se:
+  - se_adv_magic_ice_large_02_b
+- bgm:
+  - stop
+  - 3
 - fadeout:
   - 191911
   - 15
-- se:
-  - se_adv_kyaru_magic_02
 - white_out:
   - 0.5
   - 0.2
 - white_in: *o0
+- se_pause:
+  - se_adv_magic_kaiser_08_lp
 - se:
-  - se_adv_magic_crash_02
+  - se_adv_explosion_house_01
 - shake_screen: *o0
 - chara_full:
   - 191911
@@ -6154,7 +6433,7 @@
 - window_visible:
   - false
 - se:
-  - se_adv_body_bump_01
+  - se_adv_armor_drop_01
 - updown:
   - 191911
   - 0
@@ -6164,10 +6443,13 @@
   - 191911
   - 30
 - se:
-  - se_adv_bodyfall_02
-- se:
-  - se_adv_cloth_armor_creak_01
+  - se_adv_bodyfall_01
+- se_pause:
+  - se_adv_armor_drop_01
+  - 1
 - shake_loop: *o0
+- se:
+  - se_adv_armor_helmet_01
 - wait:
   - 30
 - shake_delete: *o0
@@ -6191,6 +6473,8 @@
   - 6
 - fadein_all:
   - 30
+- se:
+  - se_adv_cloth_move_normal_01
 - window_visible:
   - true
 - bust:
@@ -6198,11 +6482,13 @@
   - 0
 - vo:
   - vo_adv_2105010_134
+- multi_talk:
+  - 180111:180211:180311
 - face:
   - 1
   - 1
 - print:
-  - 怜、優衣、日和
+  - 日和、優衣、怜
   - >-
     ……
 
@@ -6253,6 +6539,12 @@
   - 優衣
   - 成功了……？
 - touch: *o0
+- bgm:
+  - bgm_M103
+  - 0
+  - 0
+  - 1
+  - 0.7
 - focus:
   - 100311
 - bust:
@@ -6323,6 +6615,8 @@
 - effect:
   - 0010
   - se_adv_explosion_small_01
+- se:
+  - se_adv_armor_drop_01
 - wait:
   - 45
 - chara_full:
@@ -6349,6 +6643,8 @@
   - 1
 - pop:
   - 104611
+- se:
+  - se_adv_cloth_move_hard_01
 - print:
   - 珠希
   - 這邊也
@@ -6356,7 +6652,7 @@
   - 10
 - print:
   - 珠希
-  - 處裡完了喵！
+  - 處理完了喵！
 - touch: *o0
 - focus:
   - 104811
@@ -6370,7 +6666,7 @@
   - 2
 - print:
   - 美冬
-  - 金幣怪也是，
+  - 「金幣怪」也是，
 - wait:
   - 25
 - print:
@@ -6558,6 +6854,8 @@
   - 6
 - nod:
   - 106411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 雪菲
   - 呃……
@@ -6577,6 +6875,8 @@
   - 103211
   - C
   - 2
+- se:
+  - se_adv_step_concrete_move_01
 - fadein:
   - 103211
   - 30
@@ -6674,6 +6974,8 @@
   - 2
 - pop:
   - 1011
+- se:
+  - se_adv_cloth_move_hard_01
 - print:
   - 鎮民1
   - 謝謝，
@@ -6808,6 +7110,8 @@
 - face:
   - 100211
   - 6
+- se:
+  - se_adv_magic_damage_01
 - focus:
   - 191911
 - bust:
@@ -6822,6 +7126,10 @@
   - 阿澤爾德？
   - …………
 - touch: *o0
+- bgm:
+  - stop
+  - 5
+  - 1
 - focus:
   - 100211
 - bust:
@@ -6855,9 +7163,7 @@
     有一點不對勁……？
 - touch: *o0
 - se:
-  - se_adv_creature_machine_01
-- se:
-  - se_adv_magic_item_02
+  - se_adv_magic_maho_01
 - focus:
   - 191913
 - bust:
@@ -6866,12 +7172,16 @@
 - face:
   - 191913
   - 1
+- se:
+  - se_adv_creature_machine_01
 - print:
   - 萬能人偶
   - 「……」
 - wait:
   - 30
 - touch: *o0
+- bgm:
+  - bgm_M93_Noperc
 - focus:
   - 100111
 - bust:
@@ -6882,6 +7192,12 @@
 - face:
   - 100111
   - 6
+- emotion:
+  - exclamation1_R
+  - 100111
+  - 10
+  - 650
+  - se_adv_emote_common_01
 - print:
   - 日和
   - 哇哇！
@@ -7041,6 +7357,9 @@
 - touch: *o0
 - window_visible:
   - false
+- bgm:
+  - stop
+  - 2
 - fadeout:
   - 100311
   - 30
@@ -7048,11 +7367,18 @@
   - 103211
   - RC
   - 2
+- se:
+  - se_adv_step_concrete_move_01
 - fadein:
   - 103211
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M358
+  - 0
+  - 0
+  - 1
 - focus:
   - 103211
 - bust:
@@ -7065,6 +7391,8 @@
   - 2
 - nod:
   - 103211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 秋乃
   - 算了算了！
@@ -7136,6 +7464,8 @@
   - 4
 - nod:
   - 103211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 秋乃
   - 不對！
@@ -7145,7 +7475,7 @@
   - 秋乃
   - >2-
 
-    是要替失去店主的【軟銀】做善後！
+    是要替失去店長的【軟銀】做善後！
 - wait:
   - 60
 - print:
@@ -7265,6 +7595,8 @@
   - 美冬
   - 變得比以前更有活力！
 - touch: *o0
+- se:
+  - se_adv_cloth_move_normal_01
 - focus:
   - 103411
 - bust:
@@ -7275,16 +7607,27 @@
 - face:
   - 103411
   - 4
+- eye_open:
+  - False
 - print:
   - 優花梨
   - 嗚嗚……！
+- shake:
+  - 103411
 - wait:
-  - 55
+  - 40
 - print:
   - 優花梨
-  - >2-
+  - >2
 
-    ……勝利的麥酒……
+- eye_open:
+  - True
+- face:
+  - 103411
+  - 6
+- print:
+  - 優花梨
+  - ……勝利的麥酒……
 - wait:
   - 30
 - print:
@@ -7308,6 +7651,8 @@
   - 3
 - pop:
   - 104611
+- se:
+  - se_adv_cloth_move_hard_01
 - print:
   - 珠希
   - 妳絕對不會只喝一口的，不可以喵！
@@ -7382,6 +7727,10 @@
 - face:
   - 100211
   - 1
+- nod:
+  - 100211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 優衣
   - 就是說啊，
@@ -7409,6 +7758,10 @@
   - 3
 - window_visible:
   - TRUE
+- bgm:
+  - stop
+  - 2
+  - 1
 - focus:
   - 100211
 - bust:
@@ -7418,12 +7771,14 @@
   - vo_adv_2105010_168
 - face:
   - 100211
-  - 4
+  - 6
 - print:
   - 優衣
   - ……但是……
 - wait:
   - 30
+- bgm:
+  - bgm_M417
 - print:
   - 優衣
   - 那個
@@ -7436,9 +7791,14 @@
   - 45
 - print:
   - 優衣
-  - >2-
+  - >2
 
-    為什麼會盯上我呢……
+- face:
+  - 100211
+  - 4
+- print:
+  - 優衣
+  - 為什麼會盯上我呢……
 - touch: *o0
 - focus:
   - 100211
@@ -7499,6 +7859,9 @@
   - 0
 - window_visible:
   - TRUE
+- bgm:
+  - stop
+  - 5
 - focus:
   - 100111
 - bust:
@@ -7509,6 +7872,12 @@
 - face:
   - 100111
   - 6
+- emotion:
+  - question1_R
+  - 100111
+  - 115
+  - 515
+  - se_adv_emote_question_01
 - print:
   - 日和
   - ……
@@ -7532,7 +7901,11 @@
   - 優衣
   - 咦？
 - wait:
-  - 30
+  - 10
+- se:
+  - se_adv_hungry_01
+- wait:
+  - 20
 - print:
   - 優衣
   - >2-
@@ -7544,46 +7917,11 @@
   - 優衣
   - 啊啊！
 - touch: *o0
-- window_visible:
-  - false
-- focus:
-  - 100111:100211:100311
-- se:
-  - se_adv_hungry_01
-- face:
-  - 100311
-  - 6
-- face:
-  - 100111
-  - 6
-- emotion:
-  - notice1_L
-  - 100311
-  - -85
-  - 555
-  - '*non'
-- emotion:
-  - notice1_L
-  - 100111
-  - -50
-  - 540
-  - '*non'
-- emotion:
-  - notice1_L
-  - 100211
-  - -55
-  - 540
-  - '*non'
-- wait:
-  - 45
-- emotion_end:
-  - 100311
-- emotion_end:
-  - 100111
-- emotion_end:
-  - 100211
-- window_visible:
-  - true
+- bgm:
+  - bgm_M321
+  - 0
+  - 0
+  - 1
 - focus:
   - 100111
 - bust:
@@ -7638,7 +7976,8 @@
 - chara_full:
   - 105812
   - L
-  - 6
+  - 4
+  - 1
 - chara_full:
   - 106411
   - R
@@ -7646,18 +7985,12 @@
 - fadein_all:
   - 30
 - se:
-  - se_adv_hungry_01
+  - se_adv_hungry_02
 - emotion:
   - notice1_L
   - 105911
   - -60
   - 485
-  - '*non'
-- emotion:
-  - notice1_L
-  - 105812
-  - -75
-  - 535
   - '*non'
 - emotion:
   - notice1_L
@@ -7692,14 +8025,9 @@
   - 25
 - print:
   - 可可蘿
-  - >2
+  - >2-
 
-- face:
-  - 105911
-  - 2
-- print:
-  - 可可蘿
-  - 這邊也傳出了
+    這邊也傳出了
 - wait:
   - 25
 - print:
@@ -7716,6 +8044,8 @@
 - face:
   - 105812
   - 4
+- eye_open:
+  - True
 - print:
   - 貪吃佩可
   - ……哈哈，
@@ -7796,8 +8126,6 @@
 - face:
   - 105812
   - 2
-- nod:
-  - 105812
 - print:
   - 貪吃佩可
   - ……嘿嘿，
@@ -7824,6 +8152,10 @@
 - face:
   - 106411
   - 6
+- nod:
+  - 106411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 雪菲
   - ……真是的，
@@ -7965,6 +8297,10 @@
   - 凱留
   - 而且我肚子也餓了。
 - touch: *o0
+- bgm:
+  - stop
+  - 8
+  - 1
 - focus:
   - 105911
 - bust:
@@ -7979,7 +8315,7 @@
   - 可可蘿
   - 凱留小姐。
 - wait:
-  - 45
+  - 50
 - print:
   - 可可蘿
   - >2
@@ -7994,7 +8330,7 @@
   - 可可蘿
   - 呵呵……
 - wait:
-  - 30
+  - 25
 - print:
   - 可可蘿
   - 真是太好了……
@@ -8013,11 +8349,17 @@
   - 凱留
   - 什、
 - wait:
-  - 20
+  - 15
 - print:
   - 凱留
   - 什麼啦？
 - touch: *o0
+- bgm:
+  - bgm_M19_02_Refrain
+  - 0
+  - 0
+  - 0
+  - 0.3
 - focus:
   - 105911
 - bust:
@@ -8027,7 +8369,7 @@
   - vo_adv_2105010_184
 - face:
   - 105911
-  - 1
+  - 6
 - print:
   - 可可蘿
   - 因為這幾天，凱留小姐您
@@ -8044,7 +8386,7 @@
 
 - face:
   - 105911
-  - 6
+  - 1
 - print:
   - 可可蘿
   - 在下等人
@@ -8086,6 +8428,12 @@
 - face:
   - 106011
   - 6
+- emotion:
+  - exclamation1_R
+  - 106011
+  - 10
+  - 635
+  - se_adv_emote_common_01
 - print:
   - 凱留
   - 咦……
@@ -8198,18 +8546,24 @@
 - face:
   - 106011
   - 1
+- eye_open:
+  - False
 - print:
   - 凱留
   - ……不過，
 - wait:
-  - 25
+  - 30
 - print:
   - 凱留
-  - >2-
+  - >2
 
-    我把先前一直很心煩的事，
+- eye_open:
+  - True
+- print:
+  - 凱留
+  - 我把先前一直很心煩的事，
 - wait:
-  - 25
+  - 20
 - print:
   - 凱留
   - 化做言語
@@ -8241,7 +8595,7 @@
   - 凱留
   - 嗯，
 - wait:
-  - 35
+  - 40
 - print:
   - 凱留
   - >2
@@ -8249,11 +8603,13 @@
 - face:
   - 106011
   - 1
+- nod:
+  - 106011
 - print:
   - 凱留
   - 我有稍微
 - wait:
-  - 25
+  - 20
 - print:
   - 凱留
   - 覺得比較輕鬆了。
@@ -8302,7 +8658,7 @@
   - vo_adv_2105010_191
 - face:
   - 106011
-  - 1
+  - 4
 - print:
   - 凱留
   - 害你們擔心了，
@@ -8312,12 +8668,17 @@
   - 凱留
   - 真抱歉喔。
 - wait:
-  - 45
+  - 40
 - print:
   - 凱留
-  - >2-
+  - >2
 
-    不過，
+- face:
+  - 106011
+  - 1
+- print:
+  - 凱留
+  - 不過，
 - wait:
   - 25
 - print:
@@ -8334,12 +8695,6 @@
 - face:
   - 106011
   - 2
-- emotion:
-  - note1_L
-  - 106011
-  - -80
-  - 490
-  - se_adv_emote_note_01
 - print:
   - 凱留
   - 一起回去吧，
@@ -8363,6 +8718,8 @@
   - 2
 - nod:
   - 106411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 雪菲
   - 是啊，
@@ -8376,12 +8733,16 @@
 - touch: *o0
 - window_visible:
   - FALSE
+- se_pause:
+  - amb_adv_wind_01
+  - 2
 - fadeout_all:
   - 30
 - bg_pan:
   - 0
   - -170
-- amb_stop:
+- bgm:
+  - stop
   - 1
 - black_out:
   - 1
@@ -8391,7 +8752,7 @@
   - 0
   - 0
 - movie:
-  - 210401080
+  - 210501080
 - black_out:
   - 1
   - 1
@@ -8408,7 +8769,7 @@
   - 1
   - 1
 - movie:
-  - 210401081
+  - 210501081
 - black_out:
   - 1
   - 1

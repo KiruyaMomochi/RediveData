@@ -4,7 +4,7 @@
   - 為了親手製作蛋糕，咲戀來到了食品店，然而所需的食材全都賣完了。就在這時，和咲戀交情匪淺的商業夥伴們陸續出現提供食材。活用這些有限的食材，咲戀做出了賣相漂亮的蛋糕。
 - background:
   - 500036
-- amb:
+- se:
   - amb_adv_town_day_01
 - bg_pan:
   - -170
@@ -45,6 +45,12 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M282_Outside
+  - 0
+  - 0
+  - 1
+  - 0.5
 - focus:
   - 114511
 - bust:
@@ -204,6 +210,8 @@
   - 1
 - nod:
   - 114511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 咲戀
   - 所以呢，
@@ -309,6 +317,8 @@
   - 2
 - nod:
   - 114511
+- se:
+  - se_adv_step_concrete_move_01
 - print:
   - 咲戀
   - 好啦，
@@ -342,6 +352,10 @@
 
     就麻煩你幫忙拿東西啦。
 - touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 1
 - window_visible:
   - false
 - fadeout:
@@ -352,7 +366,8 @@
 - transition:
   - 18
   - 0.5
-- amb_stop:
+- se_pause:
+  - amb_adv_town_day_01
   - 1
 - background:
   - 500610
@@ -361,7 +376,7 @@
 - se:
   - se_adv_transition_whoosh_small_in
 - transition_resume: *o0
-- amb:
+- se:
   - amb_adv_room_noise_01
 - se:
   - se_adv_door_shop_open_01
@@ -374,7 +389,7 @@
   - L
   - 1
 - se:
-  - se_adv_step_wood_walk_go_01
+  - se_adv_step_concrete_walk_come_01
 - wait:
   - 15
 - change:
@@ -385,6 +400,12 @@
   - 45
 - window_visible:
   - true
+- bgm:
+  - bgm_M427
+  - 0
+  - 0
+  - 0
+  - 0.5
 - focus:
   - 1411
 - bust:
@@ -431,6 +452,8 @@
   - 1
 - nod:
   - 114511
+- se:
+  - se_adv_step_concrete_move_01
 - print:
   - 咲戀
   - 很遺憾，
@@ -526,6 +549,9 @@
   - 咲戀
   - 你覺得我不會做蛋糕？
 - touch: *o0
+- bgm:
+  - stop
+  - 9
 - focus:
   - 1411
 - bust:
@@ -557,6 +583,12 @@
   - 店長
   - 其實，做蛋糕用的食材都已經缺貨了。
 - touch: *o0
+- bgm:
+  - bgm_M180_Ver2
+  - 0
+  - 0
+  - 1
+  - 0.5
 - focus:
   - 114511
 - bust:
@@ -611,6 +643,8 @@
   - 6
 - nod:
   - 1411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 店長
   - 啊啊，
@@ -793,6 +827,8 @@
   - 6
 - nod:
   - 114511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 咲戀
   - 再來，
@@ -844,27 +880,44 @@
   - 30
 - print:
   - 店長
-  - 我也常受到妳的關照。
+  - 我也常
 - wait:
-  - 40
+  - 10
 - print:
   - 店長
   - >2-
 
-    我會幫妳向其他店家打聽看看！
+    受到妳的關照。
+- wait:
+  - 28
+- print:
+  - 店長
+  - 我會幫妳向其他店家打聽看看！
 - wait:
   - 40
 - print:
   - 店長
-  - >2-
+  - >2
 
-    總之先把水果拿去吧，
+- bgm:
+  - stop
+  - 6
+  - 1
+- print:
+  - 店長
+  - 總之先把水果拿去吧，
 - wait:
   - 30
 - print:
   - 店長
   - 有了這個的話蛋糕也會好看很多吧。
 - touch: *o0
+- bgm:
+  - bgm_M173
+  - 0
+  - 0
+  - 0
+  - 0.5
 - focus:
   - 114511
 - bust:
@@ -902,7 +955,7 @@
   - RC
   - 1
 - se:
-  - se_adv_step_wood_walk_come_01
+  - se_adv_step_concrete_walk_come_01
 - wait:
   - 15
 - change:
@@ -977,6 +1030,8 @@
   - 2
 - nod:
   - 114511
+- se:
+  - se_adv_step_concrete_move_01
 - print:
   - 咲戀
   - 你來的正好！
@@ -1115,6 +1170,8 @@
   - 2
 - nod:
   - 114511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 咲戀
   - 沒關係，
@@ -1151,7 +1208,7 @@
   - L
   - 1
 - se:
-  - se_adv_step_wood_walk_come_01
+  - se_adv_step_concrete_walk_come_01
 - wait:
   - 15
 - change:
@@ -1247,6 +1304,8 @@
   - 2
 - nod:
   - 114511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 咲戀
   - 就是啊。
@@ -1387,7 +1446,7 @@
   - L
   - 2
 - se:
-  - se_adv_step_wood_walk_come_01
+  - se_adv_step_concrete_walk_come_01
 - wait:
   - 15
 - change:
@@ -1437,6 +1496,8 @@
   - 2
 - nod:
   - 114511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 咲戀
   - 你來的正好！
@@ -1783,6 +1844,9 @@
 
     這份恩情，我會在生意場上償還！
 - touch: *o0
+- bgm:
+  - stop
+  - 2.5
 - window_visible:
   - false
 - fadeout_all:
@@ -1792,7 +1856,8 @@
 - transition:
   - 18
   - 0.5
-- amb_stop:
+- se_pause:
+  - amb_adv_room_noise_01
   - 1
 - background:
   - 500050
@@ -1801,7 +1866,7 @@
 - se:
   - se_adv_transition_whoosh_small_in
 - transition_resume: *o0
-- amb:
+- se:
   - amb_adv_restaurant_01
 - chara_full:
   - 114511
@@ -1812,6 +1877,12 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M282
+  - 0
+  - 0
+  - 1
+  - 0.5
 - focus:
   - 114511
 - bust:
@@ -1886,6 +1957,10 @@
 - face:
   - 114511
   - 3
+- se:
+  - se_adv_cloth_put_on_01
+- se:
+  - se_adv_pottery_put_01
 - print:
   - 咲戀
   - 真是的，
@@ -2005,6 +2080,8 @@
   - 1
 - nod:
   - 114511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 咲戀
   - 對啊。
@@ -2114,6 +2191,8 @@
   - 6
 - nod:
   - 114511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 咲戀
   - 將現況整理一下，
@@ -2302,6 +2381,8 @@
   - 2
 - nod:
   - 114511
+- se:
+  - se_adv_cloth_move_give_01
 - print:
   - 咲戀
   - 嗯……
@@ -2318,12 +2399,17 @@
 
     快點來開始做吧！　
 - touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
 - window_visible:
   - false
 - fadeout:
   - 114511
   - 30
-- amb_stop:
+- se_pause:
+  - amb_adv_restaurant_01
   - 1
 - white_out:
   - 1
@@ -2340,10 +2426,16 @@
   - 0022
   - se_adv_happy_particle_01
 - white_in: *o0
-- amb:
+- se:
   - amb_adv_room_noise_01
 - window_visible:
   - true
+- bgm:
+  - bgm_M427_08
+  - 0
+  - 0
+  - 0
+  - 0.5
 - focus:
   - 114511
 - bust:
@@ -2617,7 +2709,11 @@
 - touch: *o0
 - window_visible:
   - false
-- amb_stop:
+- se_pause:
+  - amb_adv_room_noise_01
+  - 1
+- bgm:
+  - stop
   - 1
 - black_out:
   - 1

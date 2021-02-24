@@ -1,16 +1,16 @@
 - title:
   - 2部 第5章 第8話
 - outline:
-  - ' '
+  - 【軟銀】派來的店員們變回萬能人偶的樣貌，使周遭陷入一片混亂。不僅如此，食物裡遭下毒的貪吃佩可還倒了下去，{0}也要被萬能人偶擄走了。
 - background:
   - 500030
-- amb:
-  - amb_adv_town_day_01
+- se:
+  - amb_adv_wind_01
 - bg_pan:
   - -170
   - 0
 - situation:
-  - 2部 第5章 第8話
+  - 打烊
 - window_visible:
   - true
 - focus:
@@ -32,6 +32,11 @@
 - touch: &o0 []
 - se:
   - se_adv_creature_machine_01
+- bgm:
+  - bgm_M167
+  - 0
+  - 0
+  - 1
 - focus:
   - 191913
 - bust:
@@ -110,6 +115,8 @@
 - fadein:
   - 191911
   - 30
+- se:
+  - se_adv_stepadd_armor_heavy_01_move_01
 - window_visible:
   - true
 - focus:
@@ -713,6 +720,8 @@
   - 3
 - pop:
   - 104611
+- se:
+  - se_adv_cloth_move_hard_01
 - print:
   - 珠希
   - 但是你的計畫，
@@ -823,14 +832,14 @@
   - 6
 - print:
   - 雪菲
-  - 意思就是說金幣怪
+  - 意思就是說「金幣怪」
 - wait:
-  - 25
+  - 24
 - print:
   - 雪菲
-  - 和萬能人偶被看穿真面目，
+  - 和「萬能人偶」被看穿真面目，
 - wait:
-  - 50
+  - 49
 - print:
   - 雪菲
   - >2-
@@ -941,6 +950,12 @@
   - 30
 - window_visible:
   - true
+- se:
+  - se_adv_body_sitdown_01
+- bgm:
+  - stop
+  - 4.2
+  - 1
 - focus:
   - 105812
 - bust:
@@ -962,6 +977,8 @@
 - touch: *o0
 - window_visible:
   - false
+- se:
+  - se_adv_cloth_move_give_01
 - updown:
   - 105812
   - 0
@@ -988,6 +1005,8 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M46
 - focus:
   - 105913
 - bust:
@@ -1208,6 +1227,8 @@
   - 0
 - vo:
   - vo_adv_2105008_025
+- multi_talk:
+  - 103411:104611:104811
 - face:
   - 1
   - 1
@@ -1553,6 +1574,8 @@
   - 30
 - window_visible:
   - true
+- se:
+  - se_adv_cloth_move_normal_03
 - focus:
   - 105812
 - bust:
@@ -1603,6 +1626,9 @@
   - 雪菲
   - 振作點……！
 - touch: *o0
+- bgm:
+  - stop
+  - 1.5
 - window_visible:
   - false
 - fadeout_all:
@@ -1616,6 +1642,11 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M93_Noperc
+  - 0
+  - 0
+  - 1
 - focus:
   - 103211
 - bust:
@@ -1797,6 +1828,8 @@
   - 3
 - nod:
   - 104611
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 珠希
   - 你膽敢在我們的地盤
@@ -1938,6 +1971,8 @@
 - effect:
   - 0004
   - se_adv_transition_01
+- se:
+  - amb_adv_noisy_02
 - wait:
   - 15
 - chara_full:
@@ -1953,19 +1988,27 @@
 - window_visible:
   - true
 - se:
-  - se_adv_bugs_noise_01
+  - se_adv_creature_bugs_creeping_coin_01
+- bgm:
+  - stop
+  - 2
+  - 1
 - focus:
-  - 10211
+  - 191914
 - bust:
-  - 10211
+  - 191914
   - 1
 - face:
-  - 10211
+  - 191914
   - 1
 - print:
   - 金幣怪
   - ──嘎吱嘎吱嘎吱嘎吱！
 - touch: *o0
+- se:
+  - se_adv_body_catch_down_01
+- bgm:
+  - bgm_M131
 - focus:
   - 412
 - bust:
@@ -1995,7 +2038,7 @@
   - 咬我了！？
 - touch: *o0
 - se:
-  - se_adv_creature_machine_01
+  - se_adv_creature_machine_many_01
 - focus:
   - 191912
 - bust:
@@ -2008,6 +2051,8 @@
   - 萬能人偶
   - 「嗡──嗡──」……！
 - touch: *o0
+- se:
+  - se_adv_body_sitdown_01
 - focus:
   - 1011
 - bust:
@@ -2060,6 +2105,8 @@
   - 1111
   - C
   - 4
+- se:
+  - se_adv_bodyfall_02
 - fadein:
   - 1111
   - 30
@@ -2183,18 +2230,15 @@
   - 呵呵，
 - wait:
   - 40
-- print:
-  - 阿澤爾德
-  - >2
-
 - face:
   - 191911
   - 1
 - print:
   - 阿澤爾德
-  - 萬能人偶和金幣怪
+  - >
+    「萬能人偶」和「金幣怪」
 - wait:
-  - 40
+  - 37
 - print:
   - 阿澤爾德
   - 都已經滲透進整條街上了。
@@ -2269,6 +2313,8 @@
   - 2
 - nod:
   - 106511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 嘉夜
   - 挺能幹的嘛！
@@ -2417,6 +2463,9 @@
   - 30
 - window_visible:
   - true
+- se_pause:
+  - amb_adv_noisy_02
+  - 6
 - focus:
   - 105911
 - bust:
@@ -2464,6 +2513,9 @@
   - 阿澤爾德
   - 嗯哼──
 - touch: *o0
+- bgm:
+  - stop
+  - 3
 - focus:
   - 191911
 - bust:
@@ -2483,6 +2535,11 @@
   - 阿澤爾德
   - 我要上了。
 - touch: *o0
+- bgm:
+  - bgm_M124_Short_02
+  - 0
+  - 0
+  - 1
 - window_visible:
   - false
 - effect:
@@ -2511,6 +2568,11 @@
   - se_adv_weapon_punch_hit_01
 - wait:
   - 5
+- se:
+  - se_adv_bodyfall_02
+- se_pause:
+  - se_adv_bodyfall_02
+  - 1
 - effect:
   - 0079
 - wait:
@@ -2535,7 +2597,7 @@
   - 100
   - 10
 - se:
-  - se_adv_bodyfall_02
+  - se_adv_bodyfall_01
 - wait:
   - 10
 - black_out:
@@ -2668,11 +2730,11 @@
 - print:
   - 萬能人偶
   - 「嗡──嗡──」！
+- se:
+  - se_adv_water_under_01
 - touch: *o0
 - window_visible:
   - false
-- se:
-  - se_adv_water_under_01
 - fadeout:
   - 191911
   - 30
@@ -2947,6 +3009,8 @@
   - 6
 - nod:
   - 191911
+- se:
+  - se_adv_stepadd_armor_heavy_01_move_01
 - print:
   - 阿澤爾德
   - 哎呀哎呀，
@@ -2984,6 +3048,10 @@
   - 阿澤爾德
   - 當作是促進消化，也不錯吧。
 - touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
 - window_visible:
   - false
 - fadeout:
@@ -3005,6 +3073,8 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M95_Ver2
 - focus:
   - 103211
 - bust:
@@ -3057,6 +3127,8 @@
   - 3
 - nod:
   - 103211
+- se:
+  - se_adv_cloth_move_hard_01
 - print:
   - 秋乃
   - 美冬，
@@ -3163,6 +3235,8 @@
   - 3
 - nod:
   - 104611
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 珠希
   - OK喵！
@@ -3195,6 +3269,8 @@
   - 3
 - nod:
   - 103411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 優花梨
   - 我們要怎麼做呢，
@@ -3261,6 +3337,8 @@
   - 3
 - nod:
   - 103211
+- se:
+  - se_adv_weapon_sword_large_set_01
 - print:
   - 秋乃
   - 做好覺悟吧，
@@ -3362,6 +3440,8 @@
   - 106412
   - C
   - 3
+- se:
+  - se_adv_step_concrete_move_01
 - fadein:
   - 106412
   - 30
@@ -3379,6 +3459,8 @@
   - 3
 - nod:
   - 106412
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 雪菲
   - ……要小心，
@@ -3471,6 +3553,9 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - stop
+  - 3
 - focus:
   - 105911
 - bust:
@@ -3514,6 +3599,11 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M175_Ver2
+  - 0
+  - 0
+  - 1
 - focus:
   - 100311
 - bust:
@@ -3526,6 +3616,8 @@
   - 3
 - nod:
   - 100311
+- se:
+  - se_adv_knock_back_02
 - print:
   - 怜
   - ──各位！
@@ -3591,6 +3683,8 @@
   - 1
 - nod:
   - 100111
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 日和
   - 嗯！
@@ -3600,7 +3694,7 @@
   - 日和
   - >2-
 
-    都是多虧可可蘿有用通信魔法通知我們！
+    都是多虧可可蘿有用通訊魔法通知我們！
 - touch: *o0
 - focus:
   - 100211
@@ -3783,6 +3877,8 @@
   - 0
 - vo:
   - vo_adv_2105008_088
+- multi_talk:
+  - 106511:106611
 - face:
   - 1
   - 1
@@ -3880,6 +3976,10 @@
   - 優衣
   - 小心後面！
 - touch: *o0
+- bgm:
+  - stop
+  - 1.5
+  - 1
 - window_visible:
   - false
 - fadeout_all:
@@ -3899,31 +3999,41 @@
   - 3
 - fadein_all:
   - 30
+- se:
+  - se_adv_blanket_move_02
+- change_window:
+  - 3
+- text_size:
+  - 38
 - window_visible:
   - true
+- bgm:
+  - bgm_M102
 - bust:
   - 0
   - 0
 - vo:
   - vo_adv_2105008_091
+- multi_talk:
+  - 106511:106611
 - face:
   - 1
-  - 1
+  - 3
 - print:
   - 嘉夜、祈梨
-  - 「──接招！」
-- wait:
-  - 20
-- print:
-  - 嘉夜、祈梨
-  - >2-
+  - >-
+    「──接招！」
 
     「喝──！」
 - touch: *o0
 - window_visible:
   - false
+- change_window:
+  - 1
 - se:
-  - se_adv_step_concrete_run_go_01
+  - se_adv_move_fast_02
+- text_size:
+  - 23
 - change:
   - C
   - LC
@@ -3971,6 +4081,8 @@
 - touch: *o0
 - window_visible:
   - false
+- se:
+  - se_adv_impact_swing_01
 - fadeout:
   - 100311
   - 30
@@ -4002,6 +4114,8 @@
   - 15
 - background:
   - 500030
+- se:
+  - se_adv_knock_back_01
 - chara_full:
   - 100111
   - RC
@@ -4026,6 +4140,8 @@
   - 6
 - pop:
   - 100111
+- se:
+  - se_adv_cloth_move_hard_01
 - print:
   - 日和
   - 哇哇！？
@@ -4104,6 +4220,8 @@
   - 3
 - nod:
   - 100211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 優衣
   - 別這樣！
@@ -4319,6 +4437,9 @@
   - 阿澤爾德
   - 對「妳」動手的理由嘛。
 - touch: *o0
+- bgm:
+  - stop
+  - 14.2
 - focus:
   - 106711
 - bust:
@@ -4399,6 +4520,11 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M418
+  - 0
+  - 0
+  - 1
 - focus:
   - 106711
 - bust:
@@ -4661,11 +4787,18 @@
   - false
 - fadeout_all:
   - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- se:
+  - se_adv_magic_dark_small_01
 - effect:
   - 0070
-  - se_adv_magic_dark_medium_01
 - wait:
   - 30
+- se:
+  - se_adv_magic_dark_medium_01
 - chara_full:
   - 100211
   - C
@@ -4675,6 +4808,8 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M132_Ver2
 - focus:
   - 100211
 - bust:
@@ -4704,6 +4839,8 @@
   - 100211
   - RC
   - 4
+- se:
+  - se_adv_step_concrete_move_01
 - fadein_all:
   - 30
 - window_visible:
@@ -4833,6 +4970,8 @@
   - 優衣
   - 妳是指什麼……？
 - touch: *o0
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - focus:
   - 106711
 - bust:
@@ -4864,6 +5003,8 @@
   - 帆稀
   - 就是那個啊那個～
 - touch: *o0
+- se:
+  - se_adv_cloth_move_give_01
 - focus:
   - 106711
 - bust:
@@ -4944,6 +5085,8 @@
   - 25
 - nod:
   - 100211
+- se:
+  - se_adv_cloth_move_normal_01
 - print:
   - 優衣
   - 我不知道……
@@ -5022,6 +5165,8 @@
 - touch: *o0
 - window_visible:
   - false
+- se:
+  - se_adv_weapon_sword_set_04
 - fadeout_all:
   - 30
 - chara_full:
@@ -5039,8 +5184,6 @@
 - fadein_all:
   - 30
 - se:
-  - se_adv_weapon_sword_set_01
-- se:
   - se_adv_step_concrete_move_01
 - window_visible:
   - true
@@ -5056,9 +5199,11 @@
   - 3
 - nod:
   - 100312
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 怜
-  - 我們不會讓妳這麼做的！
+  - 我不會讓妳這麼做的……！
 - touch: *o0
 - focus:
   - 100111
@@ -5091,11 +5236,13 @@
   - 4
 - print:
   - 優衣
-  - 唔，
+  - 嗯、
 - wait:
   - 15
 - nod:
   - 100211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 優衣
   - 嗯……！
@@ -5171,6 +5318,8 @@
   - 3
 - nod:
   - 103211
+- se:
+  - se_adv_weapon_sword_large_set_01
 - print:
   - 秋乃
   - 要上囉，
@@ -5223,7 +5372,7 @@
   - 開始收拾善後吧！
 - touch: *o0
 - se:
-  - se_adv_creature_machine_01
+  - se_adv_creature_alma_vo_01
 - focus:
   - 191912
 - bust:
@@ -5261,6 +5410,8 @@
   - 3
 - text_size:
   - 50
+- se:
+  - se_adv_move_fast_02
 - window_visible:
   - true
 - bust:
@@ -5268,6 +5419,8 @@
   - 0
 - vo:
   - vo_adv_2105008_126
+- multi_talk:
+  - 106511:106611
 - face:
   - 1
   - 1
@@ -5283,11 +5436,15 @@
   - 23
 - fadeout_all:
   - 30
-- amb_stop:
+- bgm:
+  - stop
+  - 1
+- se_pause:
+  - amb_adv_wind_01
   - 1
 - black_out:
   - 1
   - 1
 - movie:
-  - 210500101
+  - 210500801
 - end: *o0
