@@ -1,0 +1,864 @@
+- title:
+  - 送到後台的物品
+- outline:
+  - '{0}為配送神祕書本，來到【慈樂之音】演唱會結束的舞台，在這裡遇見了三位成員及製作人克莉絲提娜。三人在{0}看不到的地方，開心地往書上做了點什麼。'
+- background:
+  - 500584
+- amb:
+  - amb_adv_outdoors_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 送到後台的物品
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 手裡拿著神祕書本、來到【蘭德索爾】廣場的
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    {0}──
+- wait:
+  - 30
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 107111
+  - RC
+  - 1
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - RC
+  - 45
+- fadein:
+  - 107111
+  - 45
+- window_visible:
+  - true
+- bgm:
+  - bgm_M68
+  - 0
+  - 0
+  - 1
+- focus:
+  - 107111
+- bust:
+  - 107111
+  - 0
+- vo:
+  - vo_adv_9002002_000
+- face:
+  - 107111
+  - 1
+- print:
+  - 克莉絲提娜
+  - 慈樂之音的諸位，
+- wait:
+  - 35
+- print:
+  - 克莉絲提娜
+  - 辛苦了！
+- wait:
+  - 40
+- print:
+  - 克莉絲提娜
+  - >2
+
+- face:
+  - 107111
+  - 2
+- print:
+  - 克莉絲提娜
+  - 今天的演唱會
+- wait:
+  - 25
+- print:
+  - 克莉絲提娜
+  - 也十分熱絡啊！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 107111
+  - 30
+- chara_full:
+  - 104212
+  - LC
+  - 1
+- chara_full:
+  - 102912
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102912
+- bust:
+  - 102912
+  - 0
+- vo:
+  - vo_adv_9002002_001
+- face:
+  - 102912
+  - 1
+- print:
+  - 望
+  - 真的嗎？
+- wait:
+  - 10
+- print:
+  - 望
+  - 製作人！
+- wait:
+  - 30
+- print:
+  - 望
+  - >2
+
+- face:
+  - 102912
+  - 2
+- emotion:
+  - note1_L
+  - 102912
+  - -100
+  - 525
+  - se_adv_emote_note_01
+- print:
+  - 望
+  - 欸嘿嘿，
+- wait:
+  - 30
+- print:
+  - 望
+  - 大家一起努力了嘛♪
+- touch: *o0
+- focus:
+  - 104212
+- bust:
+  - 104212
+  - 0
+- vo:
+  - vo_adv_9002002_002
+- face:
+  - 104212
+  - 2
+- print:
+  - 千歌
+  - 是啊！
+- wait:
+  - 40
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104212
+  - 1
+- print:
+  - 千歌
+  - 對了……
+- wait:
+  - 35
+- print:
+  - 千歌
+  - 望，
+- wait:
+  - 30
+- print:
+  - 千歌
+  - 用通訊魔法詢問的感覺來看，
+- wait:
+  - 45
+- print:
+  - 千歌
+  - 差不多了吧？
+- touch: *o0
+- se:
+  - se_adv_step_concrete_walk_armor_come_01
+- choice:
+  - 妳們好。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 102912
+- bust:
+  - 102912
+  - 0
+- vo:
+  - vo_adv_9002002_003
+- face:
+  - 102912
+  - 1
+- print:
+  - 望
+  - 說人人到！
+- wait:
+  - 30
+- print:
+  - 望
+  - >2
+
+- face:
+  - 102912
+  - 2
+- print:
+  - 望
+  - 我一直在等{0}過來呢──！
+- wait:
+  - 40
+- print:
+  - 望
+  - >2
+
+- face:
+  - 102912
+  - 1
+- nod:
+  - 102912
+- print:
+  - 望
+  - 那麼大家就趕快……
+- touch: *o0
+- focus:
+  - 104212
+- bust:
+  - 104212
+  - 0
+- vo:
+  - vo_adv_9002002_004
+- face:
+  - 104212
+  - 6
+- emotion:
+  - sweat2_R
+  - 104212
+  - 65
+  - 530
+  - se_adv_emote_sweat_02
+- print:
+  - 千歌
+  - 不、
+- wait:
+  - 15
+- print:
+  - 千歌
+  - 不行啦！
+- wait:
+  - 25
+- print:
+  - 千歌
+  - >2-
+
+    在{0}的面前……
+- touch: *o0
+- focus:
+  - 102912
+- bust:
+  - 102912
+  - 0
+- vo:
+  - vo_adv_9002002_005
+- face:
+  - 102912
+  - 6
+- print:
+  - 望
+  - 啊，
+- wait:
+  - 20
+- print:
+  - 望
+  - 對耶！
+- wait:
+  - 40
+- print:
+  - 望
+  - >2
+
+- face:
+  - 102912
+  - 1
+- print:
+  - 望
+  - 對不起，
+- wait:
+  - 15
+- print:
+  - 望
+  - 你在這裡等著喔！
+- wait:
+  - 40
+- print:
+  - 望
+  - >2
+
+- face:
+  - 102912
+  - 6
+- print:
+  - 望
+  - 絕對～不可以偷看唷～！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - L
+  - LC
+  - 30
+- change:
+  - C
+  - RC
+  - 30
+- fadeout_all:
+  - 30
+- chara_full:
+  - 107111
+  - C
+  - 2
+- fadein:
+  - 107111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 107111
+- bust:
+  - 107111
+  - 0
+- vo:
+  - vo_adv_9002002_006
+- face:
+  - 107111
+  - 2
+- print:
+  - 克莉絲提娜
+  - 哦？
+- wait:
+  - 35
+- print:
+  - 克莉絲提娜
+  - 妳們似乎在做什麼愉快的事情呢。
+- wait:
+  - 55
+- print:
+  - 克莉絲提娜
+  - >2
+
+- face:
+  - 107111
+  - 1
+- print:
+  - 克莉絲提娜
+  - 我也是慈樂之音的一員，
+- wait:
+  - 35
+- print:
+  - 克莉絲提娜
+  - 是製作人對吧？
+- wait:
+  - 35
+- print:
+  - 克莉絲提娜
+  - >2-
+
+    讓我加入吧☆
+- touch: *o0
+- focus:
+  - 102912
+- bust:
+  - 102912
+  - 1
+- vo:
+  - vo_adv_9002002_007
+- face:
+  - 102912
+  - 6
+- print:
+  - 望
+  - 製、
+- wait:
+  - 15
+- print:
+  - 望
+  - 製作人也參與進來的話，
+- wait:
+  - 35
+- print:
+  - 望
+  - >2-
+
+    感覺就會變成一件大事了……
+- wait:
+  - 40
+- print:
+  - 望
+  - 這樣好嗎？
+- touch: *o0
+- focus:
+  - 107111
+- bust:
+  - 107111
+  - 0
+- vo:
+  - vo_adv_9002002_008
+- face:
+  - 107111
+  - 2
+- nod:
+  - 107111
+- se:
+  - se_adv_stepadd_armor_heavy_01_move_01
+- print:
+  - 克莉絲提娜
+  - 哈哈哈☆
+- wait:
+  - 60
+- print:
+  - 克莉絲提娜
+  - 妳很明白嘛。
+- wait:
+  - 45
+- print:
+  - 克莉絲提娜
+  - >2
+
+- face:
+  - 107111
+  - 1
+- print:
+  - 克莉絲提娜
+  - 好吧，
+- wait:
+  - 30
+- print:
+  - 克莉絲提娜
+  - 那我就先觀望看看吧。
+- touch: *o0
+- focus:
+  - 107111
+- bust:
+  - 107111
+  - 0
+- vo:
+  - vo_adv_9002002_009
+- face:
+  - 107111
+  - 1
+- print:
+  - 克莉絲提娜
+  - 好了，
+- wait:
+  - 35
+- print:
+  - 克莉絲提娜
+  - 演唱會也結束了，
+- wait:
+  - 40
+- print:
+  - 克莉絲提娜
+  - 我該準備走了。
+- wait:
+  - 55
+- print:
+  - 克莉絲提娜
+  - >2-
+
+    再見啦，
+- wait:
+  - 15
+- print:
+  - 克莉絲提娜
+  - 小子。
+- wait:
+  - 35
+- print:
+  - 克莉絲提娜
+  - >2
+
+- face:
+  - 107111
+  - 2
+- emotion:
+  - note1_L
+  - 107111
+  - -90
+  - 555
+  - se_adv_emote_note_01
+- print:
+  - 克莉絲提娜
+  - ……過陣子
+- wait:
+  - 40
+- print:
+  - 克莉絲提娜
+  - 再一起玩吧♪
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 107111
+  - 30
+- chara_full:
+  - 102912
+  - LC
+  - 1
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 102912
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 102912
+- bust:
+  - 102912
+  - 0
+- vo:
+  - vo_adv_9002002_010
+- face:
+  - 102912
+  - 1
+- nod:
+  - 102912
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 望
+  - 嗯，
+- wait:
+  - 20
+- print:
+  - 望
+  - 這樣就可以了！
+- wait:
+  - 50
+- print:
+  - 望
+  - >2
+
+- face:
+  - 102912
+  - 2
+- print:
+  - 望
+  - 久等了──♪
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 102912
+  - 30
+- chara_full:
+  - 104212
+  - LC
+  - 2
+- chara_full:
+  - 105412
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104212
+- bust:
+  - 104212
+  - 0
+- vo:
+  - vo_adv_9002002_011
+- face:
+  - 104212
+  - 2
+- print:
+  - 千歌
+  - 變成了很棒的書。
+- wait:
+  - 50
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104212
+  - 1
+- print:
+  - 千歌
+  - 而且……
+- wait:
+  - 25
+- print:
+  - 千歌
+  - 紡希也有拼命幫忙想唷。
+- touch: *o0
+- focus:
+  - 105412
+- bust:
+  - 105412
+  - 0
+- vo:
+  - vo_adv_9002002_012
+- face:
+  - 105412
+  - 5
+- print:
+  - 紡希
+  - 我才沒有那樣……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 102912
+  - C
+  - 2
+- fadein:
+  - 102912
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102912
+- bust:
+  - 102912
+  - 0
+- vo:
+  - vo_adv_9002002_013
+- face:
+  - 102912
+  - 2
+- print:
+  - 望
+  - 真是的，
+- wait:
+  - 25
+- print:
+  - 望
+  - 紡希害羞了呢♪
+- wait:
+  - 45
+- print:
+  - 望
+  - >2
+
+- face:
+  - 102912
+  - 1
+- print:
+  - 望
+  - 吶，{0}。
+- wait:
+  - 10
+- se:
+  - se_adv_cloth_move_give_01
+- nod:
+  - 102912
+- print:
+  - 望
+  - >-
+    接下來，這本書……
+
+    可以幫忙送去這裡嗎？
+- wait:
+  - 45
+- print:
+  - 望
+  - 要小心
+- wait:
+  - 5
+- print:
+  - 望
+  - 別弄丟囉！
+- touch: *o0
+- choice:
+  - 我出發了。
+  - 2
+- tag:
+  - 2
+- bust:
+  - 102912
+  - 0
+- vo:
+  - vo_adv_9002002_014
+- face:
+  - 102912
+  - 1
+- print:
+  - 望
+  - 路上小心！
+- wait:
+  - 25
+- print:
+  - 望
+  - >2
+
+- face:
+  - 102912
+  - 2
+- pop:
+  - 102912
+- print:
+  - 望
+  - 慢走唷～！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_walk_armor_go_01
+- wait:
+  - 30
+- fadeout:
+  - 102912
+  - 30
+- chara_full:
+  - 104212
+  - LC
+  - 1
+- chara_full:
+  - 105412
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104212
+- bust:
+  - 104212
+  - 0
+- vo:
+  - vo_adv_9002002_015
+- face:
+  - 104212
+  - 1
+- print:
+  - 千歌
+  - 走掉了呢……
+- wait:
+  - 55
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104212
+  - 2
+- print:
+  - 千歌
+  - 呵呵，
+- wait:
+  - 45
+- print:
+  - 千歌
+  - 一想到之後的事情，
+- wait:
+  - 40
+- print:
+  - 千歌
+  - >2-
+
+    就開始興奮起來了呢。
+- touch: *o0
+- focus:
+  - 105412
+- bust:
+  - 105412
+  - 0
+- vo:
+  - vo_adv_9002002_016
+- face:
+  - 105412
+  - 2
+- print:
+  - 紡希
+  - 我也開始期待了！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 在【慈樂之音】三人面帶笑容的揮手目送下，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    {0}
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >-
+    出發前往
+
+    下一個配送地點。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

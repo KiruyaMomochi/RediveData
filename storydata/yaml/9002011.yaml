@@ -1,0 +1,930 @@
+- title:
+  - 緊張興奮地確認行李
+- outline:
+  - '{0}拿著神祕書本來到了【月光學院】，成員一同出來迎接。接受了伊緒那充滿回憶的補習，度過一段平靜的時光後，{0}收回了書，前往下一個目的地。'
+- background:
+  - 500080
+- amb:
+  - amb_adv_room_noise_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 緊張興奮地確認行李
+- window_visible:
+  - true
+- se:
+  - se_adv_school_chime_01
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 手裡拿著神祕書本、
+- se_pause:
+  - se_adv_school_chime_01
+  - 4
+- print:
+  - 旁白
+  - 來到【月光學院】公會小屋的
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    {0}──
+- wait:
+  - 30
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 101811
+  - C
+  - 2
+- fadein:
+  - 101811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M71
+  - 0
+  - 0
+  - 1
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_9002011_000
+- face:
+  - 101811
+  - 2
+- print:
+  - 伊緒
+  - 早安～！
+- wait:
+  - 45
+- print:
+  - 伊緒
+  - >2
+
+- face:
+  - 101811
+  - 1
+- print:
+  - 伊緒
+  - 馬上進入正題……
+- wait:
+  - 35
+- print:
+  - 伊緒
+  - 進行行李突襲檢查！
+- touch: *o0
+- se:
+  - se_adv_cloth_move_normal_02
+- window_visible:
+  - false
+- se:
+  - se_adv_body_pull_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- window_visible:
+  - true
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_9002011_001
+- face:
+  - 101811
+  - 6
+- emotion:
+  - question1_R
+  - 101811
+  - 130
+  - 545
+  - se_adv_emote_question_01
+- print:
+  - 伊緒
+  - 咦～？
+- wait:
+  - 35
+- print:
+  - 伊緒
+  - 你手上拿著的是什麼？
+- touch: *o0
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_9002011_002
+- face:
+  - 101811
+  - 6
+- print:
+  - 伊緒
+  - 莫非
+- wait:
+  - 30
+- print:
+  - 伊緒
+  - 是跟學校無關的漫畫？
+- wait:
+  - 60
+- print:
+  - 伊緒
+  - >2
+
+- face:
+  - 101811
+  - 3
+- print:
+  - 伊緒
+  - 你是
+- wait:
+  - 30
+- print:
+  - 伊緒
+  - 什麼時候變成壞孩子的？
+- wait:
+  - 45
+- face:
+  - 101811
+  - 4
+- print:
+  - 伊緒
+  - 老師
+- wait:
+  - 15
+- print:
+  - 伊緒
+  - 真難過啊……
+- touch: *o0
+- choice:
+  - 這是配送貨物。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_9002011_003
+- face:
+  - 101811
+  - 2
+- print:
+  - 伊緒
+  - 呵呵，
+- wait:
+  - 30
+- print:
+  - 伊緒
+  - 騙你的，
+- wait:
+  - 30
+- print:
+  - 伊緒
+  - 開個玩笑。
+- wait:
+  - 45
+- print:
+  - 伊緒
+  - >2
+
+- face:
+  - 101811
+  - 1
+- print:
+  - 伊緒
+  - 因為
+- wait:
+  - 15
+- print:
+  - 伊緒
+  - 公會管理協會有事先聯絡我們啦。
+- touch: *o0
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_9002011_004
+- face:
+  - 101811
+  - 1
+- nod:
+  - 101811
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 伊緒
+  - 那老師就收下囉，
+- wait:
+  - 35
+- print:
+  - 伊緒
+  - 謝謝你把它送來。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101811
+  - 30
+- chara_full:
+  - 101611
+  - L
+  - 2
+- chara_full:
+  - 105011
+  - C
+  - 1
+- chara_full:
+  - 101811
+  - R
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 0
+- vo:
+  - vo_adv_9002011_005
+- face:
+  - 101611
+  - 2
+- print:
+  - 鈴奈
+  - 秀才，
+- wait:
+  - 20
+- pop:
+  - 101611
+- print:
+  - 鈴奈
+  - 哈嚕哈嚕──！
+- touch: *o0
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_9002011_006
+- face:
+  - 101811
+  - 1
+- print:
+  - 伊緒
+  - 哎呀，
+- wait:
+  - 30
+- print:
+  - 伊緒
+  - 妳們兩個也來了呢～！
+- touch: *o0
+- focus:
+  - 105011
+- bust:
+  - 105011
+  - 0
+- vo:
+  - vo_adv_9002011_007
+- face:
+  - 105011
+  - 2
+- print:
+  - 美咲
+  - 哼哼，
+- wait:
+  - 20
+- print:
+  - 美咲
+  - 當然的啊♪
+- touch: *o0
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_9002011_008
+- face:
+  - 101811
+  - 1
+- print:
+  - 伊緒
+  - 他剛好也來了唷。
+- wait:
+  - 50
+- print:
+  - 伊緒
+  - >2
+
+- face:
+  - 101811
+  - 6
+- print:
+  - 伊緒
+  - ……啊，
+- wait:
+  - 15
+- print:
+  - 伊緒
+  - 對了！
+- touch: *o0
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_9002011_009
+- face:
+  - 101811
+  - 1
+- print:
+  - 伊緒
+  - 吶，
+- wait:
+  - 20
+- nod:
+  - 101811
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 伊緒
+  - 這個，
+- wait:
+  - 15
+- print:
+  - 伊緒
+  - 拜託鈴奈可以嗎？
+- wait:
+  - 50
+- print:
+  - 伊緒
+  - >2-
+
+    老師
+- wait:
+  - 15
+- print:
+  - 伊緒
+  - 想幫{0}稍微補個習呢。
+- touch: *o0
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 0
+- vo:
+  - vo_adv_9002011_010
+- face:
+  - 101611
+  - 1
+- print:
+  - 鈴奈
+  - 當然OK啊！
+- touch: *o0
+- focus:
+  - 105011
+- bust:
+  - 105011
+  - 0
+- vo:
+  - vo_adv_9002011_011
+- face:
+  - 105011
+  - 1
+- print:
+  - 美咲
+  - 交給我吧──！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_wood_walk_go_01
+- fadeout_all:
+  - 30
+- chara_full:
+  - 101811
+  - C
+  - 2
+- fadein:
+  - 101811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_9002011_012
+- face:
+  - 101811
+  - 2
+- print:
+  - 伊緒
+  - 拜託囉，
+- wait:
+  - 20
+- print:
+  - 伊緒
+  - 鈴奈、
+- wait:
+  - 15
+- print:
+  - 伊緒
+  - 美咲。
+- wait:
+  - 30
+- print:
+  - 伊緒
+  - >2
+
+- face:
+  - 101811
+  - 1
+- print:
+  - 伊緒
+  - 老師可是非常依賴妳們呢。
+- touch: *o0
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_9002011_013
+- face:
+  - 101811
+  - 1
+- print:
+  - 伊緒
+  - 那麼，{0}，
+- wait:
+  - 10
+- print:
+  - 伊緒
+  - 開始補習吧～！
+- touch: *o0
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_9002011_014
+- face:
+  - 101811
+  - 2
+- print:
+  - 伊緒
+  - 第一個問題！
+- wait:
+  - 40
+- nod:
+  - 101811
+- print:
+  - 伊緒
+  - 鏘鏘！
+- wait:
+  - 40
+- print:
+  - 伊緒
+  - >2
+
+- face:
+  - 101811
+  - 1
+- print:
+  - 伊緒
+  - 說到我們的夏季回憶……？
+- touch: *o0
+- choice:
+  - 大家一起去了海邊。
+  - 2
+- tag:
+  - 2
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_9002011_015
+- face:
+  - 101811
+  - 2
+- emotion:
+  - note1_L
+  - 101811
+  - -65
+  - 575
+  - se_adv_emote_note_01
+- print:
+  - 伊緒
+  - 沒錯，
+- wait:
+  - 20
+- print:
+  - 伊緒
+  - 答對囉～！
+- wait:
+  - 45
+- print:
+  - 伊緒
+  - >2
+
+- face:
+  - 101811
+  - 1
+- print:
+  - 伊緒
+  - 有好好記住呢，
+- wait:
+  - 30
+- print:
+  - 伊緒
+  - 老師很開心唷。
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
+- window_visible:
+  - false
+- fadeout:
+  - 101811
+  - 30
+- se:
+  - se_adv_magic_holy_small_3
+- white_out:
+  - 1
+  - 1
+- bg_color:
+  - 255
+  - 255
+  - 255
+- still:
+  - 501900701
+- wait:
+  - 15
+- effect:
+  - 0087
+- white_in: *o0
+- window_visible:
+  - true
+- bgm:
+  - bgm_M238
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 1
+- vo:
+  - vo_adv_9002011_016
+- face:
+  - 101811
+  - 1
+- print:
+  - 伊緒
+  - 大家一起守護
+- wait:
+  - 30
+- print:
+  - 伊緒
+  - 鈴奈的舞台，
+- wait:
+  - 30
+- print:
+  - 伊緒
+  - 真的是太好了呢。
+- wait:
+  - 55
+- print:
+  - 伊緒
+  - >2-
+
+    之後的度假
+- wait:
+  - 25
+- print:
+  - 伊緒
+  - 也非常愉快啊～
+- touch: *o0
+- window_visible:
+  - false
+- se_pause:
+  - se_adv_magic_holy_small_3
+  - 1
+- se:
+  - se_adv_magic_holy_small_2
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0087
+- background:
+  - 500080
+- still:
+  - end
+- wait:
+  - 15
+- white_in: *o0
+- chara_full:
+  - 101811
+  - C
+  - 5
+- fadein:
+  - 101811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_9002011_017
+- face:
+  - 101811
+  - 5
+- print:
+  - 伊緒
+  - 不過，
+- wait:
+  - 30
+- print:
+  - 伊緒
+  - 這還是第一次和男生去海邊，
+- wait:
+  - 60
+- print:
+  - 伊緒
+  - >2-
+
+    老師……
+- wait:
+  - 35
+- print:
+  - 伊緒
+  - 有一點點小鹿亂撞呢。
+- wait:
+  - 55
+- print:
+  - 伊緒
+  - 要對大家保密唷。
+- touch: *o0
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_9002011_018
+- face:
+  - 101811
+  - 2
+- print:
+  - 伊緒
+  - 呵呵，
+- wait:
+  - 40
+- print:
+  - 伊緒
+  - 是不是太簡單了？
+- wait:
+  - 50
+- print:
+  - 伊緒
+  - >2
+
+- face:
+  - 101811
+  - 1
+- print:
+  - 伊緒
+  - 畢竟是我們重要的回憶嘛。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101811
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 101611
+  - L
+  - 1
+- chara_full:
+  - 105011
+  - C
+  - 1
+- chara_full:
+  - 101811
+  - R
+  - 1
+- se:
+  - se_adv_step_wood_move_01
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101611
+- bust:
+  - 101611
+  - 0
+- vo:
+  - vo_adv_9002011_019
+- face:
+  - 101611
+  - 1
+- print:
+  - 鈴奈
+  - 秀才，
+- wait:
+  - 25
+- print:
+  - 鈴奈
+  - 讓你久等啦──！
+- touch: *o0
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_9002011_020
+- face:
+  - 101811
+  - 6
+- print:
+  - 伊緒
+  - 哎呀，
+- wait:
+  - 30
+- print:
+  - 伊緒
+  - 鈴奈她們好像也剛好完成了呢。
+- wait:
+  - 50
+- print:
+  - 伊緒
+  - >2
+
+- face:
+  - 101811
+  - 1
+- print:
+  - 伊緒
+  - 那麼，
+- wait:
+  - 20
+- print:
+  - 伊緒
+  - 今天的補習就到此為止吧。
+- touch: *o0
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_9002011_021
+- face:
+  - 101811
+  - 1
+- nod:
+  - 101811
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 伊緒
+  - 好了，
+- wait:
+  - 15
+- print:
+  - 伊緒
+  - 還有這個。
+- wait:
+  - 35
+- print:
+  - 伊緒
+  - >2-
+
+    麻煩你送去下一個配送地點唷。
+- touch: *o0
+- face:
+  - 101611
+  - 2
+- face:
+  - 105011
+  - 2
+- focus:
+  - 101611:105011:101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_9002011_022
+- face:
+  - 101811
+  - 1
+- print:
+  - 伊緒
+  - 希望下次的課程
+- wait:
+  - 35
+- print:
+  - 伊緒
+  - 也可以見到你很有精神的樣子，
+- wait:
+  - 45
+- print:
+  - 伊緒
+  - >2-
+
+    老師可是很期待的唷。
+- wait:
+  - 90
+- face:
+  - 101811
+  - 2
+- print:
+  - 伊緒
+  - 再見了～！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 在【月光學院】諸位成員的目送下，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    前往下一個配送地點。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

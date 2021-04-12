@@ -1,0 +1,957 @@
+- title:
+  - 某天的征服世界會議
+- outline:
+  - 【惡魔偽王國軍】正在古城召開征服世界會議，{0}來此配送神祕書本。大家與帶來伴手禮的{0}，度過了一段和樂融融的時光。
+- background:
+  - 500260
+- amb:
+  - amb_adv_wind_02
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 某天的征服世界會議
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 手裡拿著神祕書本、來到古城的
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    {0}──
+- wait:
+  - 30
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 100711
+  - L
+  - 1
+- chara_full:
+  - 104412
+  - C
+  - 1
+- chara_full:
+  - 103113
+  - R
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M136_Ver2
+  - 0
+  - 0
+  - 1
+- focus:
+  - 104412
+- bust:
+  - 104412
+  - 0
+- vo:
+  - vo_adv_9002005_000
+- face:
+  - 104412
+  - 1
+- print:
+  - 伊莉亞
+  - 那麼
+- wait:
+  - 15
+- print:
+  - 伊莉亞
+  - >-
+    現在開始【惡魔偽王國軍】的
+
+    征服世界會議！
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_9002005_001
+- face:
+  - 100711
+  - 3
+- pop:
+  - 100711
+- se:
+  - se_adv_rabbit_jump_01
+- print:
+  - 宮子
+  - 比起這個，布丁！
+- wait:
+  - 35
+- print:
+  - 宮子
+  - >2-
+
+    宮子想吃布丁啦──！！
+- touch: *o0
+- focus:
+  - 103113
+- bust:
+  - 103113
+  - 0
+- vo:
+  - vo_adv_9002005_002
+- face:
+  - 103113
+  - 2
+- print:
+  - 忍
+  - 呵呵，
+- wait:
+  - 45
+- print:
+  - 忍
+  - 宮子，
+- wait:
+  - 30
+- print:
+  - 忍
+  - 妳忘了嗎？
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_9002005_003
+- face:
+  - 100711
+  - 6
+- emotion:
+  - question1_R
+  - 100711
+  - 120
+  - 505
+  - se_adv_emote_question_01
+- print:
+  - 宮子
+  - 忘了？
+- wait:
+  - 40
+- print:
+  - 宮子
+  - 妳說忘了，
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 是忘了什麼呀？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 102212
+  - LC
+  - 1
+- chara_full:
+  - 100711
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102212
+- bust:
+  - 102212
+  - 0
+- vo:
+  - vo_adv_9002005_004
+- face:
+  - 102212
+  - 1
+- print:
+  - 依里
+  - 今天就是那一天對吧？
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2-
+
+    大家不就是為此才在這裡集合的嗎？
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_9002005_005
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - 對耶！
+- wait:
+  - 40
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 1
+- print:
+  - 宮子
+  - 今天就是那一天……
+- wait:
+  - 35
+- print:
+  - 宮子
+  - 布丁要過來的日子！
+- wait:
+  - 45
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 2
+- print:
+  - 宮子
+  - 那傢伙要來，
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 真令人期待♪
+- touch: *o0
+- focus:
+  - 102212
+- bust:
+  - 102212
+  - 0
+- vo:
+  - vo_adv_9002005_006
+- face:
+  - 102212
+  - 6
+- print:
+  - 依里
+  - 那個……
+- wait:
+  - 30
+- print:
+  - 依里
+  - 不是布丁要過來的日子，
+- wait:
+  - 40
+- print:
+  - 依里
+  - >2-
+
+    今天是為了那傢伙──
+- touch: *o0
+- se:
+  - se_adv_step_concrete_walk_armor_come_01
+- choice:
+  - 妳們好。
+  - 1
+- tag:
+  - 1
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1.7
+  - 1
+- fadeout:
+  - 100711
+  - 30
+- chara_full:
+  - 100611
+  - RC
+  - 1
+- fadein:
+  - 100611
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M404
+- focus:
+  - 100611
+- bust:
+  - 100611
+  - 0
+- vo:
+  - vo_adv_9002005_007
+- face:
+  - 100611
+  - 1
+- emotion:
+  - note1_L
+  - 100611
+  - -85
+  - 545
+  - se_adv_emote_note_01
+- print:
+  - 茜里
+  - 啊，
+- wait:
+  - 15
+- print:
+  - 茜里
+  - 哥哥！
+- wait:
+  - 30
+- print:
+  - 茜里
+  - >2
+
+- face:
+  - 100611
+  - 2
+- print:
+  - 茜里
+  - 你來了呀♪
+- touch: *o0
+- focus:
+  - 102212
+- bust:
+  - 102212
+  - 0
+- vo:
+  - vo_adv_9002005_008
+- face:
+  - 102212
+  - 3
+- pop:
+  - 102212
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - 依里
+  - 真是的！
+- wait:
+  - 20
+- print:
+  - 依里
+  - 真會挑時間！
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102212
+  - 6
+- print:
+  - 依里
+  - ……你、
+- wait:
+  - 15
+- print:
+  - 依里
+  - 你應該沒有聽到剛剛的對話吧？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100711
+  - L
+  - 1
+- chara_full:
+  - 104412
+  - C
+  - 1
+- chara_full:
+  - 103113
+  - R
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104412
+- bust:
+  - 104412
+  - 0
+- vo:
+  - vo_adv_9002005_009
+- face:
+  - 104412
+  - 1
+- print:
+  - 伊莉亞
+  - 喔喔，
+- wait:
+  - 30
+- print:
+  - 伊莉亞
+  - 這不是吾之眷屬嗎？
+- wait:
+  - 45
+- print:
+  - 伊莉亞
+  - >2
+
+- face:
+  - 104412
+  - 6
+- print:
+  - 伊莉亞
+  - 怎麼了？
+- wait:
+  - 40
+- print:
+  - 伊莉亞
+  - 是來向主人問好的嗎？
+- wait:
+  - 70
+- print:
+  - 伊莉亞
+  - >2
+
+- face:
+  - 104412
+  - 2
+- print:
+  - 伊莉亞
+  - 還挺值得讚賞的呢。
+- touch: *o0
+- focus:
+  - 103113
+- bust:
+  - 103113
+  - 0
+- vo:
+  - vo_adv_9002005_010
+- face:
+  - 103113
+  - 2
+- nod:
+  - 103113
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 忍
+  - 你好。
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_9002005_011
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - 等你好久啦！！
+- wait:
+  - 35
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - 有布丁嗎！？
+- touch: *o0
+- se:
+  - se_adv_cloth_move_give_01
+- choice:
+  - 來，伴手禮。
+  - 2
+- tag:
+  - 2
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_9002005_012
+- face:
+  - 100711
+  - 2
+- emotion:
+  - twinkle1_R
+  - 100711
+  - -115
+  - 505
+  - se_adv_emote_twinkle_01
+- print:
+  - 宮子
+  - 哇～！
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 不愧是你哟～～！
+- wait:
+  - 45
+- print:
+  - 宮子
+  - >2-
+
+    我要開動來的～～！！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 102212
+  - C
+  - 2
+- fadein:
+  - 102212
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102212
+- bust:
+  - 102212
+  - 0
+- vo:
+  - vo_adv_9002005_013
+- face:
+  - 102212
+  - 2
+- print:
+  - 依里
+  - 那麼，
+- wait:
+  - 30
+- print:
+  - 依里
+  - 那本書就由我收下了，
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102212
+  - 1
+- print:
+  - 依里
+  - 請稍等一下！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 102212
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 102212
+  - C
+  - 1
+- fadein:
+  - 102212
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102212
+- bust:
+  - 102212
+  - 0
+- vo:
+  - vo_adv_9002005_014
+- face:
+  - 102212
+  - 1
+- print:
+  - 依里
+  - 你也很辛苦呢，
+- wait:
+  - 50
+- print:
+  - 依里
+  - 東奔西走的。
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102212
+  - 6
+- print:
+  - 依里
+  - ……咦？
+- wait:
+  - 35
+- print:
+  - 依里
+  - 能見到大家很開心？
+- touch: *o0
+- focus:
+  - 102212
+- bust:
+  - 102212
+  - 0
+- vo:
+  - vo_adv_9002005_015
+- face:
+  - 102212
+  - 2
+- print:
+  - 依里
+  - 你啊，真的是
+- wait:
+  - 30
+- print:
+  - 依里
+  - 爛好人呢。
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102212
+  - 5
+- print:
+  - 依里
+  - 不過
+- wait:
+  - 20
+- print:
+  - 依里
+  - 或許就是因為你是這樣的人
+- wait:
+  - 30
+- print:
+  - 依里
+  - ，才能在一起相處三年呢。
+- touch: *o0
+- focus:
+  - 102212
+- bust:
+  - 102212
+  - 0
+- vo:
+  - vo_adv_9002005_016
+- face:
+  - 102212
+  - 6
+- print:
+  - 依里
+  - 嗯，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 該怎麼說呢……
+- wait:
+  - 60
+- face:
+  - 102212
+  - 5
+- print:
+  - 依里
+  - 今後也，
+- wait:
+  - 30
+- print:
+  - 依里
+  - 那個……
+- wait:
+  - 45
+- print:
+  - 依里
+  - 多多指教。
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102212
+  - 1
+- pop:
+  - 102212
+- print:
+  - 依里
+  - ……差、
+- wait:
+  - 15
+- print:
+  - 依里
+  - 差不多要完成了吧！
+- wait:
+  - 30
+- print:
+  - 依里
+  - 我去看一下！
+- touch: *o0
+- se:
+  - se_adv_step_concrete_run_go_01
+- window_visible:
+  - false
+- fadeout:
+  - 102212
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 102212
+  - L
+  - 2
+- chara_full:
+  - 100711
+  - C
+  - 1
+- chara_full:
+  - 103113
+  - R
+  - 1
+- se:
+  - se_adv_step_concrete_move_01
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102212
+- bust:
+  - 102212
+  - 0
+- vo:
+  - vo_adv_9002005_017
+- face:
+  - 102212
+  - 2
+- print:
+  - 依里
+  - ──久等了！
+- wait:
+  - 30
+- nod:
+  - 102212
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 依里
+  - 來，這本書。
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2-
+
+    下一個配送地點
+- wait:
+  - 15
+- print:
+  - 依里
+  - 已經寫好了。
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_9002005_018
+- face:
+  - 100711
+  - 2
+- print:
+  - 宮子
+  - 布丁真好吃～！
+- wait:
+  - 50
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 1
+- print:
+  - 宮子
+  - 今後也要每天
+- wait:
+  - 25
+- print:
+  - 宮子
+  - 來這裡玩哟～♪
+- touch: *o0
+- focus:
+  - 103113
+- bust:
+  - 103113
+  - 0
+- vo:
+  - vo_adv_9002005_019
+- face:
+  - 103113
+  - 2
+- print:
+  - 忍
+  - 請好好加油。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100611
+  - LC
+  - 1
+- chara_full:
+  - 104412
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100611
+- bust:
+  - 100611
+  - 0
+- vo:
+  - vo_adv_9002005_020
+- face:
+  - 100611
+  - 2
+- print:
+  - 茜里
+  - 呵呵呵，
+- wait:
+  - 45
+- face:
+  - 100611
+  - 1
+- print:
+  - 茜里
+  - 再一起體驗
+- wait:
+  - 30
+- print:
+  - 茜里
+  - >2-
+
+    各式各樣的事情吧，
+- wait:
+  - 35
+- print:
+  - 茜里
+  - 哥哥！
+- touch: *o0
+- focus:
+  - 104412
+- bust:
+  - 104412
+  - 0
+- vo:
+  - vo_adv_9002005_021
+- face:
+  - 104412
+  - 2
+- print:
+  - 伊莉亞
+  - 那麼，
+- wait:
+  - 15
+- print:
+  - 伊莉亞
+  - 再見了！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 在【惡魔偽王國軍】諸位成員的目送下，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    {0}
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >-
+    出發前往
+
+    下一個配送地點。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

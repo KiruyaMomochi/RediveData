@@ -1,0 +1,6105 @@
+- title:
+  - 依里 第12話
+- outline:
+  - 一同參加脫逃遊戲，卻被困在地下迷宮會場當中的依里與{0}，為了保護其他參加者而決定前往一切元凶的魔物巢穴。最後依里借助{0}的力量成功破壞了魔物巢穴，並逃出地下迷宮。
+- background:
+  - 500240
+- amb:
+  - amb_adv_wind_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 最棒的搭檔
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 依里和{0}
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    來到蘭德索爾郊外的某個活動會場。
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 102211
+  - C
+  - 2
+- fadein:
+  - 102211
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M404
+  - 0
+  - 0
+  - 1
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_000
+- face:
+  - 102211
+  - 2
+- emotion:
+  - note1_L
+  - 102211
+  - -135
+  - 545
+  - se_adv_emote_note_01
+- print:
+  - 依里
+  - 呵呵呵……
+- wait:
+  - 60
+- print:
+  - 依里
+  - 這一天終於來了。
+- wait:
+  - 50
+- print:
+  - 依里
+  - >2-
+
+    不管落選幾次，
+- wait:
+  - 35
+- print:
+  - 依里
+  - 不屈不撓地繼續報名是值得的。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_001
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - 「蘭德索爾大迷宮」……
+- wait:
+  - 40
+- print:
+  - 依里
+  - 第三次公演。
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2-
+
+    難得拿到雙人套票，
+- wait:
+  - 40
+- print:
+  - 依里
+  - >2-
+
+    幸好你也剛好有空。
+- touch: *o0
+- choice:
+  - 真的要找我來嗎？
+  - 1
+- tag:
+  - 1
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_002
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 你之前不是說過，
+- wait:
+  - 25
+- print:
+  - 依里
+  - 還想再一起出來玩嗎？
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - 想說機會難得，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 不如給你一個驚喜。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_003
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 這個活動相當受歡迎，也造成了話題呢。
+- wait:
+  - 50
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - 你也喜歡這種東西吧？
+- touch: *o0
+- focus:
+  - 414
+- bust:
+  - 414
+  - 1
+- vo:
+  - vo_adv_1022012_004
+- face:
+  - 414
+  - 1
+- print:
+  - 司儀
+  - 接下來，
+- wait:
+  - 15
+- print:
+  - 司儀
+  - 請所有參加者
+- wait:
+  - 25
+- print:
+  - 司儀
+  - 聽從工作人員的指示，
+- wait:
+  - 35
+- print:
+  - 司儀
+  - >2-
+
+    向入口處移動～！
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_005
+- face:
+  - 102211
+  - 6
+- nod:
+  - 102211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 依里
+  - 哦，
+- wait:
+  - 15
+- print:
+  - 依里
+  - 隊伍前進了。
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - 那我們
+- wait:
+  - 10
+- print:
+  - 依里
+  - 也過去吧。
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- window_visible:
+  - false
+- se:
+  - se_adv_step_dirt_walk_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 102211
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500250
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_cave_with_water_01
+- vo_effect:
+  - 3
+- se_effect:
+  - 3
+- chara_full:
+  - 414
+  - C
+  - 1
+- fadein:
+  - 414
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M13_02_Strings
+- focus:
+  - 414
+- bust:
+  - 414
+  - 0
+- vo:
+  - vo_adv_1022012_006
+- face:
+  - 414
+  - 1
+- print:
+  - 司儀
+  - 這次
+- wait:
+  - 30
+- print:
+  - 司儀
+  - 要請大家挑戰的是
+- wait:
+  - 50
+- print:
+  - 司儀
+  - >2
+
+- face:
+  - 414
+  - 3
+- print:
+  - 司儀
+  - 無人得以倖存、不為人知的地下迷宮……
+- wait:
+  - 125
+- print:
+  - 司儀
+  - >2
+
+- face:
+  - 414
+  - 1
+- print:
+  - 司儀
+  - 攻略提示
+- wait:
+  - 40
+- print:
+  - 司儀
+  - 就是剛才發放的那一張地圖。
+- touch: *o0
+- focus:
+  - 414
+- bust:
+  - 414
+  - 0
+- vo:
+  - vo_adv_1022012_007
+- face:
+  - 414
+  - 1
+- print:
+  - 司儀
+  - 究竟
+- wait:
+  - 10
+- print:
+  - 司儀
+  - 哪一對組合
+- wait:
+  - 20
+- print:
+  - 司儀
+  - 可以成功抵達終點呢？
+- wait:
+  - 55
+- print:
+  - 司儀
+  - >2
+
+- face:
+  - 414
+  - 2
+- print:
+  - 司儀
+  - 請大家堅持到底，
+- wait:
+  - 20
+- print:
+  - 司儀
+  - 努力攻略地下城吧～！
+- touch: *o0
+- bgm:
+  - stop
+  - 3.5
+- focus:
+  - 414
+- bust:
+  - 414
+  - 0
+- vo:
+  - vo_adv_1022012_008
+- face:
+  - 414
+  - 1
+- print:
+  - 司儀
+  - 那麼，
+- wait:
+  - 30
+- print:
+  - 司儀
+  - 各就各位……
+- wait:
+  - 55
+- nod:
+  - 414
+- bgm:
+  - bgm_M12
+  - 0
+  - 0
+  - 1
+- print:
+  - 司儀
+  - 出發！
+- touch: *o0
+- se:
+  - se_adv_gaya_roar_02
+- se:
+  - se_adv_step_run_group_03_lp
+- window_visible:
+  - false
+- se_pause:
+  - se_adv_step_run_group_03_lp
+  - 4
+- fadeout:
+  - 414
+  - 30
+- chara_full:
+  - 102211
+  - C
+  - 2
+- fadein:
+  - 102211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_009
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - 大家
+- wait:
+  - 5
+- print:
+  - 依里
+  - 都幹勁十足呢。
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2-
+
+    我們也不能輸給他們！
+- touch: *o0
+- se_pause:
+  - se_adv_gaya_roar_02
+  - 1.5
+- window_visible:
+  - false
+- fadeout:
+  - 102211
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 30
+- black_in: *o0
+- chara_full:
+  - 102211
+  - LC
+  - 1
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 102211
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_010
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 話說回來，
+- wait:
+  - 30
+- print:
+  - 依里
+  - 這真是個精心設計的舞台……
+- wait:
+  - 50
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 地形相當複雜，
+- wait:
+  - 35
+- print:
+  - 依里
+  - 是不是運用了天然的洞窟呢？
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_011
+- face:
+  - 102211
+  - 2
+- nod:
+  - 102211
+- se:
+  - se_adv_paper_move_05
+- print:
+  - 依里
+  - 好，
+- wait:
+  - 40
+- print:
+  - 依里
+  - 我們先沿著這條路前進吧。
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2-
+
+    一開始可能會有個簡單的解謎，
+- wait:
+  - 50
+- print:
+  - 依里
+  - 應該不會迷路。
+- touch: *o0
+- choice:
+  - 是嗎？
+  - 2
+- tag:
+  - 2
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_012
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 遊戲剛開始
+- wait:
+  - 25
+- print:
+  - 依里
+  - 通常不太會出現高難度的機關或魔王吧。
+- wait:
+  - 55
+- print:
+  - 依里
+  - >2-
+
+    攻略不了的話
+- wait:
+  - 35
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 就直接卡關了。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_013
+- face:
+  - 102211
+  - 2
+- nod:
+  - 102211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 依里
+  - 先打倒一些等級較低的敵人，
+- wait:
+  - 35
+- print:
+  - 依里
+  - 破解一些簡單的謎題，
+- wait:
+  - 25
+- print:
+  - 依里
+  - >2-
+
+    慢慢提高難度，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 下一個出現稍微強一點的敵人，這才是標準模式呀。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_014
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - 應該也有像我們這樣第一次參加的玩家，
+- wait:
+  - 50
+- print:
+  - 依里
+  - >2-
+
+    這一段應該要讓玩家順利前進，
+- wait:
+  - 35
+- print:
+  - 依里
+  - >2
+
+- wait:
+  - 5
+- print:
+  - 依里
+  - 才能讓新手也體會到樂趣。
+- touch: *o0
+- se:
+  - se_adv_earthquake_01_short
+- window_visible:
+  - false
+- face:
+  - 102211
+  - 6
+- shake_screen: *o0
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_015
+- face:
+  - 102211
+  - 6
+- emotion:
+  - surprise1_L
+  - 102211
+  - 115
+  - 560
+  - se_adv_emote_common_01
+- print:
+  - 依里
+  - 哇！？
+- wait:
+  - 30
+- print:
+  - 依里
+  - 什、
+- wait:
+  - 20
+- print:
+  - 依里
+  - 什麼……？
+- wait:
+  - 30
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 剛、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 剛才那是特效嗎……/40
+- token: *o0
+- print:
+  - 依里
+  - 35/做、
+- wait:
+  - 15
+- print:
+  - 依里
+  - 做得很逼真呢。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_016
+- face:
+  - 102211
+  - 3
+- print:
+  - 依里
+  - 你、
+- wait:
+  - 20
+- print:
+  - 依里
+  - 你那是
+- wait:
+  - 5
+- print:
+  - 依里
+  - 什麼表情啦。
+- wait:
+  - 30
+- print:
+  - 依里
+  - >2-
+
+    我只不過是嚇一跳而已。
+- wait:
+  - 35
+- print:
+  - 依里
+  - 真是的，
+- wait:
+  - 15
+- print:
+  - 依里
+  - 我們快走吧！
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- window_visible:
+  - false
+- se_pause:
+  - se_adv_earthquake_01_short
+  - 2
+- fadeout:
+  - 102211
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_cave_with_water_01
+- chara_full:
+  - 102211
+  - C
+  - 6
+- se:
+  - se_adv_step_concrete_move_01
+- fadein:
+  - 102211
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M140_Ver2
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_017
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - ……好像有什麼東西。
+- touch: *o0
+- choice:
+  - 有個祠堂。
+  - 3
+- tag:
+  - 3
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_018
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 是呀。
+- wait:
+  - 40
+- print:
+  - 依里
+  - 除此之外好像沒什麼了。
+- wait:
+  - 65
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 房間裡……
+- wait:
+  - 45
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 好像也沒有陷阱。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_019
+- face:
+  - 102211
+  - 1
+- nod:
+  - 102211
+- se:
+  - se_adv_bag_search_01
+- se_pause:
+  - se_adv_bag_search_01
+  - 3
+- print:
+  - 依里
+  - 那就代表
+- wait:
+  - 20
+- print:
+  - 依里
+  - 祠堂可能有……
+- wait:
+  - 55
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - 找到了！
+- wait:
+  - 20
+- print:
+  - 依里
+  - 裡面有個印章。
+- touch: *o0
+- se:
+  - se_adv_paper_move_05
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_020
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 我們拿到的地圖上
+- wait:
+  - 25
+- print:
+  - 依里
+  - 有好幾處的圖案是殘缺的，
+- wait:
+  - 65
+- print:
+  - 依里
+  - >2-
+
+    八成是
+- wait:
+  - 15
+- print:
+  - 依里
+  - 要把印章蓋在這裡……
+- wait:
+  - 70
+- se:
+  - se_adv_stamp_01
+- nod:
+  - 102211
+- print:
+  - 依里
+  - 我蓋。
+- wait:
+  - 15
+- se_pause:
+  - se_adv_stamp_01
+- touch: *o0
+- choice:
+  - 圖案連接起來了！
+  - 4
+- tag:
+  - 4
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_021
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 這是
+- wait:
+  - 45
+- print:
+  - 依里
+  - 什麼徽章嗎……？
+- wait:
+  - 35
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - 感覺是前進的提示呢。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_022
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 剩下的印章好像還有4個。
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - 如果這是第一關的話，
+- wait:
+  - 30
+- print:
+  - 依里
+  - 大概就是新手教學的感覺吧。
+- touch: *o0
+- se:
+  - se_adv_paper_pickup_04
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_023
+- face:
+  - 102211
+  - 2
+- nod:
+  - 102211
+- print:
+  - 依里
+  - 那我們
+- wait:
+  - 10
+- print:
+  - 依里
+  - 來看看地圖吧。
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2-
+
+    我把我們走過的路畫出來了。
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2-
+
+    你看，
+- wait:
+  - 15
+- print:
+  - 依里
+  - 之前遇到的岔路在這裡。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_024
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 我們現在的位置在這裡，所以……
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 離我們最近的是
+- wait:
+  - 35
+- print:
+  - 依里
+  - 「戰士雕像間」。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_025
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - 呵呵呵……
+- wait:
+  - 30
+- print:
+  - 依里
+  - 越來越刺激了呢！
+- wait:
+  - 40
+- print:
+  - 依里
+  - >2-
+
+    不管前面有什麼樣的陷阱埋伏，
+- wait:
+  - 30
+- print:
+  - 依里
+  - 我都會華麗地破解的！
+- touch: *o0
+- window_visible:
+  - false
+- se_pause:
+  - amb_adv_cave_with_water_01
+  - 2
+- fadeout:
+  - 102211
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- se:
+  - amb_adv_cave_with_water_01
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 就這樣，依里和{0}突破了好幾道謎題與考驗，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    順利地一步步攻略迷宮。
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 102211
+  - C
+  - 1
+- fadein:
+  - 102211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_026
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 這是
+- wait:
+  - 15
+- print:
+  - 依里
+  - 第3個印章了……
+- wait:
+  - 40
+- se:
+  - se_adv_stamp_01
+- nod:
+  - 102211
+- wait:
+  - 30
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - 照這個狀態下去，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 我們或許可以完全破關喔！
+- touch: *o0
+- se:
+  - se_adv_earthquake_01_short
+- window_visible:
+  - false
+- face:
+  - 102211
+  - 6
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_027
+- face:
+  - 102211
+  - 6
+- emotion:
+  - surprise1_L
+  - 102211
+  - 115
+  - 560
+  - se_adv_emote_common_01
+- print:
+  - 依里
+  - 哇！？
+- wait:
+  - 30
+- print:
+  - 依里
+  - 怎、
+- wait:
+  - 15
+- print:
+  - 依里
+  - 怎麼又是地鳴……？
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 剛才也出現過吧？
+- wait:
+  - 50
+- print:
+  - 依里
+  - 這和解謎有關嗎？
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+- window_visible:
+  - false
+- se_pause:
+  - se_adv_earthquake_01_short
+  - 1
+- fadeout:
+  - 102211
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - true
+- bgm:
+  - bgm_M17_00_intro
+  - 0
+  - 0
+  - 1
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- effect:
+  - 9
+- print:
+  - 魔物
+  - ──嘎喔喔喔喔喔！
+- shake_screen: *o0
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1611
+  - 30
+- chara_full:
+  - 4911
+  - C
+  - 6
+- fadein:
+  - 4911
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 2
+  - 1
+- focus:
+  - 4911
+- bust:
+  - 4911
+  - 0
+- vo:
+  - vo_adv_1022012_028
+- face:
+  - 4911
+  - 6
+- emotion:
+  - exclamation1_R
+  - 4911
+  - 15
+  - 670
+  - se_adv_emote_common_01
+- print:
+  - 男性１
+  - 哇！
+- wait:
+  - 10
+- print:
+  - 男性１
+  - 怎、
+- wait:
+  - 5
+- print:
+  - 男性１
+  - 怎麼回事……？
+- wait:
+  - 10
+- print:
+  - 男性１
+  - >2-
+
+    是魔物……！？
+- touch: *o0
+- focus:
+  - 4911
+- bust:
+  - 4911
+  - 0
+- vo:
+  - vo_adv_1022012_029
+- face:
+  - 4911
+  - 1
+- print:
+  - 男性１
+  - 喔，
+- wait:
+  - 10
+- print:
+  - 男性１
+  - 嚇死我了……！
+- wait:
+  - 20
+- print:
+  - 男性１
+  - >2-
+
+    連這種特效都有啊。
+- wait:
+  - 35
+- print:
+  - 男性１
+  - 我還以為真的出現魔物了呢。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 4911
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 102211
+  - C
+  - 6
+- fadein:
+  - 102211
+  - 30
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- window_visible:
+  - true
+- bgm:
+  - bgm_M288
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_030
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 奇怪，
+- wait:
+  - 25
+- print:
+  - 依里
+  - 怎麼回事……
+- wait:
+  - 30
+- print:
+  - 依里
+  - 總覺得哪裡怪怪的。
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 我已經
+- wait:
+  - 25
+- print:
+  - 依里
+  - 仔細檢查過陷阱了呀
+- wait:
+  - 20
+- print:
+  - 依里
+  - ……
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 這
+- wait:
+  - 20
+- print:
+  - 依里
+  - 是嚇唬玩家的強制事件嗎？　
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_031
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 但是，那面牆……
+- wait:
+  - 40
+- print:
+  - 依里
+  - 碎片散落一地，
+- wait:
+  - 35
+- print:
+  - 依里
+  - >2-
+
+    看起來就像是真的遭到破壞。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_032
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 要讓玩家挑戰好幾次的機關，
+- wait:
+  - 55
+- print:
+  - 依里
+  - >2-
+
+    真的需要
+- wait:
+  - 40
+- print:
+  - 依里
+  - 破壞牆壁嗎……？　
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- fadeout:
+  - 102211
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 4911
+  - C
+  - 6
+- fadein:
+  - 4911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 4911
+- bust:
+  - 4911
+  - 0
+- vo:
+  - vo_adv_1022012_033
+- face:
+  - 4911
+  - 6
+- print:
+  - 男性１
+  - 這
+- wait:
+  - 10
+- print:
+  - 男性１
+  - 也和解謎有關嗎？
+- wait:
+  - 45
+- print:
+  - 男性１
+  - >2
+
+- face:
+  - 4911
+  - 1
+- print:
+  - 男性１
+  - 唔……
+- wait:
+  - 10
+- print:
+  - 男性１
+  - 看不出來啊。
+- wait:
+  - 35
+- print:
+  - 男性１
+  - 再靠近一點好了……
+- touch: *o0
+- se:
+  - se_adv_step_concrete_run_armor_go_01
+- bgm:
+  - stop
+  - 2.5
+- choice:
+  - 危險！
+  - 5
+- tag:
+  - 5
+- window_visible:
+  - false
+- fadeout:
+  - 4911
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - true
+- bgm:
+  - bgm_M03
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──咕喔喔喔喔喔！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0009
+- se:
+  - se_adv_step_monster_move_01
+- scale:
+  - 1611
+  - 1.2
+  - 2
+  - 10
+- fadeout:
+  - 1611
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- se:
+  - se_adv_weapon_claw_whiff_01
+- effect:
+  - 0028
+- wait:
+  - 5
+- se:
+  - se_adv_weapon_sword_impact_03
+- effect:
+  - 0045
+- wait:
+  - 15
+- background:
+  - 500250
+- chara_full:
+  - 4911
+  - C
+  - 4
+- fadein:
+  - 4911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 4911
+- bust:
+  - 4911
+  - 0
+- vo:
+  - vo_adv_1022012_034
+- face:
+  - 4911
+  - 4
+- emotion:
+  - surprise1_L
+  - 4911
+  - 160
+  - 570
+  - se_adv_emote_common_01
+- se:
+  - se_adv_bodyfall_02
+- print:
+  - 男性１
+  - 咿咿咿！！
+- wait:
+  - 10
+- print:
+  - 男性１
+  - 是、
+- wait:
+  - 10
+- print:
+  - 男性１
+  - 是真的！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 4911
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 102211
+  - C
+  - 3
+- se:
+  - se_adv_magic_cmn_medium_01
+- fadein:
+  - 102211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_035
+- face:
+  - 102211
+  - 3
+- print:
+  - 依里
+  - '{0}，'
+- wait:
+  - 10
+- print:
+  - 依里
+  - 你退到後面！
+- wait:
+  - 40
+- print:
+  - 依里
+  - >2-
+
+    ──闇影炸裂！！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 102211
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_magic_thunder_medium_01
+- effect:
+  - 0070
+- wait:
+  - 15
+- se:
+  - se_adv_creature_cmn_04
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 3
+  - 1
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──嘎喔喔喔喔喔！
+- sway:
+  - 1611
+- touch: *o0
+- window_visible:
+  - false
+- updown:
+  - 1611
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1611
+  - 30
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- chara_full:
+  - 102211
+  - L
+  - 6
+- chara_full:
+  - 4911
+  - RC
+  - 4
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 30
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M21_03
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_036
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 你、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 你沒事吧？
+- touch: *o0
+- focus:
+  - 4911
+- bust:
+  - 4911
+  - 0
+- vo:
+  - vo_adv_1022012_037
+- face:
+  - 4911
+  - 4
+- print:
+  - 男性１
+  - 啊、
+- wait:
+  - 15
+- print:
+  - 男性１
+  - 哇哇哇、
+- wait:
+  - 15
+- print:
+  - 男性１
+  - 我、
+- wait:
+  - 20
+- print:
+  - 男性１
+  - 我腿軟了……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──咕喔喔喔喔喔！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1611
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 102211
+  - C
+  - 6
+- fadein:
+  - 102211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_038
+- face:
+  - 102211
+  - 6
+- emotion:
+  - exclamation1_R
+  - 102211
+  - -20
+  - 645
+  - se_adv_emote_common_01
+- print:
+  - 依里
+  - 新的魔物……！
+- wait:
+  - 35
+- print:
+  - 依里
+  - >2-
+
+    是從哪裡冒出來的呢……！？
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_039
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 太詭異了，
+- wait:
+  - 25
+- print:
+  - 依里
+  - 居然就這樣出現魔物……
+- wait:
+  - 50
+- print:
+  - 依里
+  - >2-
+
+    到底發生了什麼事？　
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_040
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 這是主辦單位準備的……？
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 4
+- print:
+  - 依里
+  - 但
+- wait:
+  - 20
+- print:
+  - 依里
+  - 我不覺得他們會拿出真正的魔物……
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_041
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 還有
+- wait:
+  - 20
+- print:
+  - 依里
+  - 剛才的地震……
+- wait:
+  - 40
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 這個迷宮
+- wait:
+  - 20
+- print:
+  - 依里
+  - 果然出現了什麼異狀嗎……？　
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 3
+- text_size:
+  - 35
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1022012_042
+- face:
+  - 1
+  - 1
+- print:
+  - 女性的慘叫
+  - ──不要啊啊啊！！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 23
+- change_window:
+  - 1
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_043
+- face:
+  - 102211
+  - 3
+- nod:
+  - 102211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 依里
+  - ……現在不是思考這種事的時候了。
+- wait:
+  - 50
+- print:
+  - 依里
+  - >2-
+
+    必須
+- wait:
+  - 15
+- print:
+  - 依里
+  - 先讓其他參加者去避難才行！
+- wait:
+  - 40
+- print:
+  - 依里
+  - 你也要幫忙喔！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - RC
+  - C
+  - 30
+- se_pause:
+  - amb_adv_cave_with_water_01
+  - 2
+- fadeout:
+  - 102211
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- se:
+  - amb_adv_cave_with_water_01
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_04
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 3.5
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──嘎喔喔喔喔喔！
+- sway:
+  - 1611
+- touch: *o0
+- window_visible:
+  - false
+- updown:
+  - 1611
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1611
+  - 30
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 411
+  - C
+  - 1
+- fadein:
+  - 411
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M140_NoBell
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1022012_044
+- face:
+  - 411
+  - 1
+- print:
+  - 員工
+  - 謝、
+- wait:
+  - 30
+- print:
+  - 員工
+  - 謝謝你們救了我。
+- wait:
+  - 35
+- print:
+  - 員工
+  - >2-
+
+    你們
+- wait:
+  - 15
+- print:
+  - 員工
+  - 也快點去避難吧。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - LC
+  - C
+  - 30
+- fadeout:
+  - 411
+  - 30
+- chara_full:
+  - 102211
+  - C
+  - 4
+- fadein:
+  - 102211
+  - 30
+- window_visible:
+  - true
+- se:
+  - se_adv_cloth_move_normal_01
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_045
+- face:
+  - 102211
+  - 4
+- print:
+  - 依里
+  - 呼、
+- wait:
+  - 30
+- nod:
+  - 102211
+- print:
+  - 依里
+  - 呼……
+- wait:
+  - 40
+- print:
+  - 依里
+  - >2-
+
+    這樣
+- wait:
+  - 15
+- print:
+  - 依里
+  - 算是告一段落了吧。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_046
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 根據剛才工作人員所說的，
+- wait:
+  - 40
+- print:
+  - 依里
+  - >2-
+
+    來到這裡的只有我們，
+- wait:
+  - 65
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 大概
+- wait:
+  - 20
+- print:
+  - 依里
+  - 就表示所有玩家都順利去避難了。
+- touch: *o0
+- se:
+  - se_adv_paper_move_05
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_047
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - 幸好手邊有迷宮的地圖。
+- wait:
+  - 75
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 再把打倒魔物的地點
+- wait:
+  - 35
+- nod:
+  - 102211
+- se:
+  - se_adv_paper_pencil_write_draw_01
+- print:
+  - 依里
+  - 畫出來……
+- wait:
+  - 55
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_048
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - 太好了，
+- wait:
+  - 40
+- print:
+  - 依里
+  - 這樣就能推斷出安全的路線。
+- wait:
+  - 70
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - ……不過，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 這裡居然會出現這麼多魔物。
+- touch: *o0
+- se_pause:
+  - se_adv_paper_pencil_write_draw_01
+  - 1
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_049
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 不是魔物誤闖進這裡……
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 搞不好
+- wait:
+  - 25
+- print:
+  - 依里
+  - 魔物的巢穴就在這裡的某一處。
+- touch: *o0
+- choice:
+  - 我們應該要去看一下嗎？
+  - 6
+- tag:
+  - 6
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_050
+- face:
+  - 102211
+  - 1
+- nod:
+  - 102211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 依里
+  - 嗯，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 我覺得這麼做比較好。
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2-
+
+    會場裡，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 不是所有人都像我們一樣具備戰鬥能力。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_051
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 如果就這樣對魔物置之不理的話，
+- wait:
+  - 35
+- print:
+  - 依里
+  - >2-
+
+    在外面避難的人們
+- wait:
+  - 30
+- print:
+  - 依里
+  - 也有可能遭到攻擊。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_052
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 開開心心地來參加活動，
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 依里
+  - 卻不幸受傷的話……
+- wait:
+  - 25
+- eye_open:
+  - True
+- print:
+  - 依里
+  - 該有多倒霉呀。
+- wait:
+  - 35
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - 遊戲
+- wait:
+  - 20
+- print:
+  - 依里
+  - 就應該要快樂又有趣呀，
+- wait:
+  - 65
+- print:
+  - 依里
+  - 你說是吧？
+- touch: *o0
+- choice:
+  - 我明白了。
+  - 7
+- tag:
+  - 7
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_053
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 好，
+- wait:
+  - 25
+- print:
+  - 依里
+  - 那我們小心謹慎地前進。
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 我想大部分的敵人都解決了，
+- wait:
+  - 55
+- print:
+  - 依里
+  - 但還是要當心……
+- touch: *o0
+- bgm:
+  - stop
+  - 1
+  - 1
+- se:
+  - se_adv_earthquake_01_short
+- window_visible:
+  - false
+- se:
+  - se_adv_earthquake_02_lp
+- se_pause:
+  - se_adv_earthquake_01_short
+  - 3
+- face:
+  - 102211
+  - 6
+- shake_loop: *o0
+- window_visible:
+  - true
+- bgm:
+  - bgm_M242_Ver2
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_054
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 又是地震……！？
+- wait:
+  - 70
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 4
+- print:
+  - 依里
+  - 不行，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 我站不穩了……！
+- touch: *o0
+- se:
+  - se_adv_magic_earth_small_01
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_055
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - ！？
+- wait:
+  - 10
+- print:
+  - 依里
+  - 有碎石……
+- wait:
+  - 25
+- face:
+  - 102211
+  - 4
+- print:
+  - 依里
+  - 哇啊啊啊啊啊！！
+- touch: *o0
+- bgm:
+  - stop
+  - 3.5
+- window_visible:
+  - false
+- shake_delete: *o0
+- se_pause:
+  - amb_adv_cave_with_water_01
+  - 2
+- se_pause:
+  - se_adv_earthquake_01_short
+  - 1
+- fadeout:
+  - 102211
+  - 30
+- se_pause:
+  - se_adv_earthquake_02_lp
+  - 2
+- se:
+  - se_adv_crash_rock_01
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 30
+- black_in: *o0
+- se:
+  - amb_adv_prison_01
+- chara_full:
+  - 102211
+  - C
+  - 4
+  - 1
+- fadein:
+  - 102211
+  - 30
+- window_visible:
+  - true
+- se:
+  - se_adv_cloth_move_normal_01
+- bgm:
+  - bgm_M141_Ver2
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_056
+- face:
+  - 102211
+  - 4
+- print:
+  - 依里
+  - 嗚、
+- wait:
+  - 25
+- print:
+  - 依里
+  - 唔……
+- wait:
+  - 35
+- eye_open:
+  - True
+- print:
+  - 依里
+  - 痛痛痛……
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 看、
+- wait:
+  - 15
+- print:
+  - 依里
+  - 看起來
+- wait:
+  - 35
+- print:
+  - 依里
+  - 是沒事了吧……
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_057
+- face:
+  - 102211
+  - 1
+- nod:
+  - 102211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 依里
+  - '{0}，你沒事吧？'
+- wait:
+  - 90
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 4
+- print:
+  - 依里
+  - 到底
+- wait:
+  - 30
+- print:
+  - 依里
+  - 發生了什麼事……
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_058
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - ……咦？
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2-
+
+    ……不會吧。
+- touch: *o0
+- choice:
+  - 怎麼了？
+  - 8
+- tag:
+  - 8
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_059
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 這條路……
+- wait:
+  - 30
+- print:
+  - 依里
+  - 沒了。
+- wait:
+  - 50
+- print:
+  - 依里
+  - >2-
+
+    被岩石堵住了……
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_060
+- face:
+  - 102211
+  - 4
+- print:
+  - 依里
+  - 等一下……
+- wait:
+  - 30
+- print:
+  - 依里
+  - >2-
+
+    這條路
+- wait:
+  - 20
+- print:
+  - 依里
+  - 是回到入口處的
+- wait:
+  - 20
+- print:
+  - 依里
+  - 唯一一條路……
+- touch: *o0
+- se:
+  - se_adv_paper_move_07
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_061
+- face:
+  - 102211
+  - 6
+- nod:
+  - 102211
+- se:
+  - se_adv_paper_pickup_04
+- print:
+  - 依里
+  - 那、
+- wait:
+  - 5
+- print:
+  - 依里
+  - 那麼、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 其他條路……！
+- wait:
+  - 20
+- print:
+  - 依里
+  - >2-
+
+    能回到入口的其他路線……！？
+- wait:
+  - 35
+- print:
+  - 依里
+  - 有沒有
+- wait:
+  - 5
+- print:
+  - 依里
+  - 在地圖上的某個地方……
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_062
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - ……不會吧。
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2-
+
+    我們……
+- wait:
+  - 45
+- print:
+  - 依里
+  - 徹底
+- wait:
+  - 40
+- print:
+  - 依里
+  - 被困在這裡了。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_063
+- face:
+  - 102211
+  - 4
+- print:
+  - 依里
+  - 怎、
+- wait:
+  - 30
+- print:
+  - 依里
+  - 怎麼辦……
+- wait:
+  - 40
+- print:
+  - 依里
+  - >2-
+
+    這樣就算收拾完魔物
+- wait:
+  - 30
+- print:
+  - 依里
+  - 也回不去了呀……
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_064
+- face:
+  - 102211
+  - 4
+- print:
+  - 依里
+  - ……
+- wait:
+  - 55
+- print:
+  - 依里
+  - 為什麼
+- wait:
+  - 15
+- print:
+  - 依里
+  - 會變成這樣。
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2-
+
+    難得……
+- wait:
+  - 20
+- print:
+  - 依里
+  - 碰到或許會讓他開心的活動，
+- wait:
+  - 50
+- print:
+  - 依里
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 依里
+  - 才特地約了他……
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_065
+- face:
+  - 102211
+  - 4
+- eye_open:
+  - True
+- print:
+  - 依里
+  - 還沒讓他開心到，
+- wait:
+  - 45
+- print:
+  - 依里
+  - 就先把他捲進麻煩裡……！
+- wait:
+  - 55
+- print:
+  - 依里
+  - >2-
+
+    我做的一切
+- wait:
+  - 30
+- print:
+  - 依里
+  - 都事與願違。
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_066
+- face:
+  - 102211
+  - 4
+- print:
+  - 依里
+  - ……早知道會變成這樣的話，
+- wait:
+  - 25
+- print:
+  - 依里
+  - >2-
+
+    當初就不應該約你來的。
+- touch: *o0
+- choice:
+  - 為什麼？
+  - 9
+- tag:
+  - 9
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_067
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 你還問我
+- wait:
+  - 20
+- print:
+  - 依里
+  - 為什麼……
+- wait:
+  - 30
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 1
+- nod:
+  - 102211
+- print:
+  - 依里
+  - 都怪我
+- wait:
+  - 15
+- print:
+  - 依里
+  - 約你出來，
+- wait:
+  - 30
+- print:
+  - 依里
+  - >2-
+
+    你才會被捲進這種麻煩裡呀。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_068
+- face:
+  - 102211
+  - 4
+- print:
+  - 依里
+  - 這樣的話……
+- wait:
+  - 25
+- print:
+  - 依里
+  - >2-
+
+    我還不如
+- wait:
+  - 30
+- print:
+  - 依里
+  - 自己一個人。
+- touch: *o0
+- choice:
+  - 我很開心呀。
+  - 10
+- choice:
+  - 幸好妳不是一個人。
+  - 11
+- tag:
+  - 10
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_069
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 很開心……？
+- wait:
+  - 30
+- print:
+  - 依里
+  - >2
+
+- wait:
+  - 25
+- face:
+  - 102211
+  - 1
+- nod:
+  - 102211
+- print:
+  - 依里
+  - 你
+- wait:
+  - 20
+- print:
+  - 依里
+  - 是認真的嗎……？
+- wait:
+  - 40
+- print:
+  - 依里
+  - >2-
+
+    你明白
+- wait:
+  - 20
+- print:
+  - 依里
+  - 現在的處境嗎？
+- touch: *o0
+- goto:
+  - 12
+- tag:
+  - 11
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_070
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 幸好
+- wait:
+  - 40
+- print:
+  - 依里
+  - 我不是一個人……？
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 3
+- nod:
+  - 102211
+- print:
+  - 依里
+  - 那、
+- wait:
+  - 5
+- print:
+  - 依里
+  - 那不就是
+- wait:
+  - 25
+- print:
+  - 依里
+  - 在給你添麻煩嗎！
+- touch: *o0
+- tag:
+  - 12
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_071
+- face:
+  - 102211
+  - 3
+- print:
+  - 依里
+  - 如果一直沒有找到出口的話，
+- wait:
+  - 30
+- print:
+  - 依里
+  - >2-
+
+    我們等於
+- wait:
+  - 15
+- print:
+  - 依里
+  - 要被活埋在這裡了呀。
+- touch: *o0
+- choice:
+  - 兩人同心就無所畏懼！
+  - 13
+- tag:
+  - 13
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_072
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 為什麼你總是……
+- wait:
+  - 40
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_073
+- face:
+  - 102211
+  - 4
+- print:
+  - 依里
+  - 總是能笑出來呢？
+- wait:
+  - 30
+- print:
+  - 依里
+  - >2
+
+- wait:
+  - 60
+- print:
+  - 依里
+  - 無論是危險的時候，
+- wait:
+  - 30
+- print:
+  - 依里
+  - 還是挫敗到想放棄的時候。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_074
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 該說你
+- wait:
+  - 40
+- print:
+  - 依里
+  - 是耿直
+- wait:
+  - 45
+- print:
+  - 依里
+  - 還是悠哉呢……
+- wait:
+  - 75
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 5
+- print:
+  - 依里
+  - ……不過，
+- wait:
+  - 40
+- print:
+  - 依里
+  - 正因為你是這樣的人，
+- wait:
+  - 45
+- print:
+  - 依里
+  - 所以我才……
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 9
+  - 1
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_075
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 看見你溫和的笑容，
+- wait:
+  - 65
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - 就連我也跟著鬆懈下來了，
+- wait:
+  - 35
+- print:
+  - 依里
+  - 真是的。
+- touch: *o0
+- bgm:
+  - bgm_M273_Ver2
+  - 0
+  - 0
+  - 0
+  - 2
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_076
+- face:
+  - 102211
+  - 2
+- eye_open:
+  - False
+- print:
+  - 依里
+  - 不過……
+- wait:
+  - 40
+- eye_open:
+  - True
+- print:
+  - 依里
+  - 也對。
+- wait:
+  - 40
+- print:
+  - 依里
+  - >2-
+
+    就像你說的一樣。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_077
+- face:
+  - 102211
+  - 1
+- nod:
+  - 102211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 依里
+  - 我們怎麼能夠在這裡終結了呢。
+- wait:
+  - 40
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - 沒錯，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 就算退路被阻斷了，
+- wait:
+  - 25
+- print:
+  - 依里
+  - 還是有其他路的。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_078
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - ……說到底，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 為什麼會出現那麼多魔物呀。
+- wait:
+  - 65
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 牠們都是在大地震之後
+- wait:
+  - 40
+- print:
+  - 依里
+  - 一窩蜂的冒出來的……
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_079
+- face:
+  - 102211
+  - 6
+- emotion:
+  - notice1_L
+  - 102211
+  - -115
+  - 522
+  - se_adv_emote_common_01
+- print:
+  - 依里
+  - 難不成，
+- wait:
+  - 30
+- print:
+  - 依里
+  - 就像迷宮的回程路途坍塌一樣，
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2-
+
+    某個地方的牆壁崩塌，
+- wait:
+  - 35
+- print:
+  - 依里
+  - 所以和魔物的巢穴連接在一起了……？
+- touch: *o0
+- se:
+  - se_adv_paper_move_05
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_080
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - 接下來
+- wait:
+  - 15
+- print:
+  - 依里
+  - 只要找到這個地方就行了。
+- wait:
+  - 55
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 1
+- nod:
+  - 102211
+- se:
+  - se_adv_paper_pencil_write_draw_01
+- print:
+  - 依里
+  - 在地圖上
+- wait:
+  - 50
+- print:
+  - 依里
+  - 標示目前為止
+- wait:
+  - 15
+- print:
+  - 依里
+  - 擊敗的魔物數量及方位……
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_081
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - ──果然是這樣！
+- wait:
+  - 35
+- print:
+  - 依里
+  - 可以從魔物出沒的地點
+- wait:
+  - 20
+- print:
+  - 依里
+  - 回推出位置。
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2-
+
+    肯定
+- wait:
+  - 15
+- print:
+  - 依里
+  - 就在地圖上的這個地方……
+- wait:
+  - 65
+- print:
+  - 依里
+  - 我們走！
+- touch: *o0
+- se_pause:
+  - se_adv_paper_pencil_write_draw_01
+  - 1
+- bgm:
+  - stop
+  - 2.5
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 102211
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_prison_01
+  - 0.5
+- background:
+  - 500250
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_prison_01
+- chara_full:
+  - 102211
+  - C
+  - 1
+- fadein:
+  - 102211
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M93
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_082
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 那就是魔物的巢穴。
+- wait:
+  - 15
+- print:
+  - 依里
+  - >2-
+
+    我們費盡千辛萬苦來到這裡……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 102211
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- se:
+  - se_adv_creature_cmn_group_02
+- chara_full:
+  - 1611
+  - C
+  - 1
+- chara_full:
+  - 1612
+  - L
+  - 1
+- chara_full:
+  - 1613
+  - R
+  - 1
+- wait:
+  - 15
+- fadein:
+  - 1611
+  - 30
+- wait:
+  - 15
+- fadein:
+  - 1612
+  - 30
+- wait:
+  - 15
+- fadein:
+  - 1613
+  - 30
+- se:
+  - se_adv_creature_cmn_05
+- window_visible:
+  - true
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──嘎喔喔喔喔喔！
+- shake_screen: *o0
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 102211
+  - C
+  - 3
+- fadein:
+  - 102211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_083
+- face:
+  - 102211
+  - 3
+- print:
+  - 依里
+  - ……
+- wait:
+  - 15
+- print:
+  - 依里
+  - 事情恐怕沒有那麼容易解決呢！
+- wait:
+  - 50
+- print:
+  - 依里
+  - >2
+
+- bgm:
+  - stop
+  - 3
+  - 1
+- print:
+  - 依里
+  - '{0}，'
+- wait:
+  - 15
+- print:
+  - 依里
+  - 拜託你替我強化了！
+- touch: *o0
+- se_pause:
+  - se_adv_creature_cmn_05
+  - 1
+- effect:
+  - 0076
+  - se_adv_magic_cmn_medium_02
+- bgm:
+  - bgm_M102
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_084
+- face:
+  - 102211
+  - 3
+- print:
+  - 依里
+  - 只能速戰速決了！
+- wait:
+  - 45
+- print:
+  - 依里
+  - 喝啊啊啊啊啊！！
+- touch: *o0
+- window_visible:
+  - false
+- effect_delete:
+  - 0076
+  - 15
+- fadeout:
+  - 102211
+  - 30
+- bg_color:
+  - 0
+  - 0
+  - 0
+- se:
+  - se_adv_magic_thunder_medium_01
+- effect:
+  - 0070
+  - 0
+  - 180
+  - C
+- wait:
+  - 15
+- se_pause:
+  - se_adv_magic_thunder_medium_01
+  - 0.7
+- se:
+  - se_adv_magic_thunder_medium_01
+- effect:
+  - 0070
+  - 0
+  - 0
+  - R
+- wait:
+  - 15
+- se_pause:
+  - se_adv_magic_thunder_medium_01
+  - 0.7
+- se:
+  - se_adv_magic_thunder_medium_01
+- effect:
+  - 0070
+  - 0
+  - 0
+  - L
+- wait:
+  - 30
+- background:
+  - 500250
+- chara_full:
+  - 1611
+  - C
+  - 1
+- chara_full:
+  - 1612
+  - R
+  - 1
+- chara_full:
+  - 1613
+  - L
+  - 1
+- fadein_all:
+  - 20
+- focus:
+  - 1611:1612:1613
+- se:
+  - se_adv_creature_cmn_04
+- window_visible:
+  - true
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──嘎喔喔喔喔喔！
+- shake_screen: *o0
+- print:
+  - 魔物
+  - ' '
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_monster_move_01
+- updown:
+  - 1611
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1611
+  - 15
+- se_pause:
+  - se_adv_step_monster_move_01
+  - 0.5
+- se:
+  - se_adv_step_monster_move_01
+- updown:
+  - 1612
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1612
+  - 15
+- se_pause:
+  - se_adv_step_monster_move_01
+  - 0.5
+- se:
+  - se_adv_step_monster_move_01
+- updown:
+  - 1613
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1613
+  - 15
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 102211
+  - C
+  - 4
+- fadein:
+  - 102211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_085
+- face:
+  - 102211
+  - 4
+- print:
+  - 依里
+  - 唔……！
+- wait:
+  - 30
+- print:
+  - 依里
+  - >2-
+
+    魔物們化作一道牆，
+- wait:
+  - 30
+- print:
+  - 依里
+  - 讓魔法無法進入巢穴！！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 102211
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──咕喔喔喔喔喔！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1611
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 102211
+  - C
+  - 4
+- fadein:
+  - 102211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_086
+- face:
+  - 102211
+  - 4
+- print:
+  - 依里
+  - 不管怎麼打
+- wait:
+  - 30
+- print:
+  - 依里
+  - 都沒完沒了啊！
+- wait:
+  - 50
+- print:
+  - 依里
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 依里
+  - 不行，
+- wait:
+  - 25
+- print:
+  - 依里
+  - 我的魔力……！！
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_087
+- face:
+  - 102211
+  - 4
+- eye_open:
+  - True
+- print:
+  - 依里
+  - 都已經走到這一步了，為什麼行不通呢？
+- wait:
+  - 45
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 我
+- wait:
+  - 25
+- print:
+  - 依里
+  - 在哪個階段判斷失誤了嗎？
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2-
+
+    我們應該更早逃離嗎？
+- wait:
+  - 50
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 4
+- print:
+  - 依里
+  - 我們不該幫助別人，
+- wait:
+  - 35
+- print:
+  - 依里
+  - 要先到安全的地方……
+- touch: *o0
+- choice:
+  - ────依里！！
+  - 14
+- tag:
+  - 14
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_088
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - '{0}……？'
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+- choice:
+  - 我們一定要一起逃出這裡喔！
+  - 15
+- tag:
+  - 15
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_089
+- face:
+  - 102211
+  - 6
+- emotion:
+  - exclamation1_R
+  - 102211
+  - -20
+  - 645
+  - se_adv_emote_common_01
+- print:
+  - 依里
+  - ────！
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- window_visible:
+  - true
+- bgm:
+  - bgm_M175_Ver2
+  - 0
+  - 0
+  - 1
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_090
+- face:
+  - 102211
+  - 3
+- print:
+  - 依里
+  - 有沒有
+- wait:
+  - 35
+- print:
+  - 依里
+  - 做錯什麼……
+- wait:
+  - 30
+- print:
+  - 依里
+  - >2-
+
+    答案也不是絕對的。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_091
+- face:
+  - 102211
+  - 3
+- print:
+  - 依里
+  - '{0}'
+- wait:
+  - 20
+- print:
+  - 依里
+  - 肯定也會做一樣的事。
+- wait:
+  - 50
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - 我只是
+- wait:
+  - 20
+- print:
+  - 依里
+  - 選了所有選項中的
+- wait:
+  - 40
+- print:
+  - 依里
+  - 最佳選擇。
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_092
+- face:
+  - 102211
+  - 3
+- print:
+  - 依里
+  - ……無論發生什麼樣的強制事件，
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - 最終獲勝的都是玩家。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_093
+- face:
+  - 102211
+  - 2
+- nod:
+  - 102211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 依里
+  - 就算是必輸事件也無所謂。
+- wait:
+  - 50
+- print:
+  - 依里
+  - >2-
+
+    我和你
+- wait:
+  - 20
+- print:
+  - 依里
+  - 會一起顛覆結局的！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 102211
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- effect:
+  - 0001
+  - se_adv_weapon_sword_hit_01
+- wait:
+  - 15
+- se:
+  - se_adv_creature_cmn_04
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──嘎喔喔喔喔喔！
+- sway:
+  - 1611
+- touch: *o0
+- window_visible:
+  - false
+- updown:
+  - 1611
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1611
+  - 30
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 1011
+  - RC
+  - 2
+- chara_full:
+  - 1211
+  - LC
+  - 1
+- se:
+  - se_adv_step_concrete_move_01
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_1022012_094
+- face:
+  - 1011
+  - 2
+- nod:
+  - 1011
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 男性２
+  - 說得好！
+- wait:
+  - 20
+- print:
+  - 男性２
+  - 就是這股氣魄，
+- wait:
+  - 15
+- print:
+  - 男性２
+  - 小姑娘！
+- touch: *o0
+- focus:
+  - 1211
+- bust:
+  - 1211
+  - 0
+- vo:
+  - vo_adv_1022012_095
+- face:
+  - 1211
+  - 1
+- print:
+  - 女性２
+  - 讓妳久等了，
+- wait:
+  - 20
+- print:
+  - 女性２
+  - 所有人都順利避難了！
+- wait:
+  - 40
+- print:
+  - 女性２
+  - >2-
+
+    雖然數量不多，
+- wait:
+  - 10
+- print:
+  - 女性２
+  - 但我帶了一些恢復藥水過來，
+- wait:
+  - 20
+- print:
+  - 女性２
+  - 妳拿去用吧！
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 1
+- vo:
+  - vo_adv_1022012_096
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 你、
+- wait:
+  - 15
+- print:
+  - 依里
+  - 你們……？
+- wait:
+  - 40
+- print:
+  - 依里
+  - >2-
+
+    怎麼會在這裡……
+- touch: *o0
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_1022012_097
+- face:
+  - 1011
+  - 1
+- print:
+  - 男性２
+  - 看見你們兩個人解救大家的身影，
+- wait:
+  - 50
+- print:
+  - 男性２
+  - >2-
+
+    不知道為什麼，
+- wait:
+  - 25
+- print:
+  - 男性２
+  - 我就折回來了。
+- touch: *o0
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_1022012_098
+- face:
+  - 1011
+  - 6
+- print:
+  - 男性２
+  - 還有……
+- wait:
+  - 25
+- print:
+  - 男性２
+  - 被你們救出來的那些人
+- wait:
+  - 35
+- print:
+  - 男性２
+  - 一直吵吵嚷嚷著
+- wait:
+  - 45
+- print:
+  - 男性２
+  - >2-
+
+    「那幾個孩子還在裡面，
+- wait:
+  - 25
+- print:
+  - 男性２
+  - 快去幫他們！」
+- wait:
+  - 15
+- face:
+  - 1011
+  - 1
+- print:
+  - 男性２
+  - 喔。
+- touch: *o0
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_1022012_099
+- face:
+  - 1011
+  - 6
+- print:
+  - 男性２
+  - 然後
+- wait:
+  - 25
+- print:
+  - 男性２
+  - 還把自己攜帶的藥品和藥水都拿出來了。
+- wait:
+  - 55
+- print:
+  - 男性２
+  - >2-
+
+    他們自己明明也是傷患啊。
+- wait:
+  - 60
+- face:
+  - 1011
+  - 1
+- print:
+  - 男性２
+  - 如果收下了這種東西……
+- wait:
+  - 40
+- print:
+  - 男性２
+  - 你說是吧？
+- touch: *o0
+- focus:
+  - 1211
+- bust:
+  - 1211
+  - 0
+- vo:
+  - vo_adv_1022012_100
+- face:
+  - 1211
+  - 1
+- nod:
+  - 1211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 女性２
+  - 於是，
+- wait:
+  - 25
+- print:
+  - 女性２
+  - 我們決定
+- wait:
+  - 10
+- print:
+  - 女性２
+  - 協助其他參加者避難後
+- wait:
+  - 30
+- print:
+  - 女性２
+  - 就趕來助陣。
+- wait:
+  - 60
+- print:
+  - 女性２
+  - >2
+
+- face:
+  - 1211
+  - 3
+- print:
+  - 女性２
+  - ……所以你們的勝算有多少？
+- wait:
+  - 40
+- print:
+  - 女性２
+  - 還是要協助你們撒退嗎？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 102211
+  - C
+  - 1
+- fadein:
+  - 102211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_101
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - ……外面
+- wait:
+  - 30
+- print:
+  - 依里
+  - 還有傷患還其他參加者，對吧？
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 3
+- print:
+  - 依里
+  - 不能讓魔物逃出去
+- wait:
+  - 15
+- print:
+  - 依里
+  - 傷害大家。
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2-
+
+    我們
+- wait:
+  - 15
+- print:
+  - 依里
+  - 要把整個巢穴一網打盡。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_102
+- face:
+  - 102211
+  - 3
+- nod:
+  - 102211
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 依里
+  - 就在這裡做個了斷。
+- wait:
+  - 40
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 只不過，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 集中魔法需要時間……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 102211
+  - 30
+- chara_full:
+  - 1011
+  - C
+  - 1
+- fadein:
+  - 1011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_1022012_103
+- face:
+  - 1011
+  - 1
+- print:
+  - 男性２
+  - 也就是說，在妳的魔法準備好以前，
+- wait:
+  - 40
+- print:
+  - 男性２
+  - 我們就擔任誘餌爭取時間。
+- wait:
+  - 60
+- print:
+  - 男性２
+  - 包在我們身上。
+- wait:
+  - 50
+- print:
+  - 男性２
+  - >2
+
+- face:
+  - 1011
+  - 3
+- print:
+  - 男性２
+  - ──喂，
+- wait:
+  - 25
+- print:
+  - 男性２
+  - 你們的對手在這裡！！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 1011
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──咕喔喔喔喔喔！
+- touch: *o0
+- bgm:
+  - stop
+  - 4
+  - 1
+- window_visible:
+  - false
+- se:
+  - se_adv_step_monster_move_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 1611
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 102211
+  - C
+  - 3
+- fadein:
+  - 102211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_104
+- face:
+  - 102211
+  - 3
+- print:
+  - 依里
+  - 好，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 趁現在……！！
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 102211
+  - 6
+- effect:
+  - 0076
+  - se_adv_magic_cmn_medium_02
+- wait:
+  - 15
+- window_visible:
+  - true
+- bgm:
+  - bgm_M170
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_105
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - 時機真是恰到好處！{0}！！
+- touch: *o0
+- choice:
+  - 交給我吧！！
+  - 16
+- tag:
+  - 16
+- window_visible:
+  - false
+- effect_delete:
+  - 0076
+  - 15
+- se_pause:
+  - amb_adv_prison_01
+  - 2
+- fadeout:
+  - 102211
+  - 30
+- white_out:
+  - 1
+  - 1
+- se:
+  - amb_electric_magic_01
+- bg_color:
+  - 255
+  - 255
+  - 255
+- still_unit:
+  - 102261
+- wait:
+  - 15
+- white_in: *o0
+- change_window:
+  - 2
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 1
+- vo:
+  - vo_adv_1022012_106
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - 溫暖的力量流入我的體內……
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2-
+
+    你的意念也一併傳遞過來了。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 1
+- vo:
+  - vo_adv_1022012_107
+- face:
+  - 102211
+  - 3
+- print:
+  - 依里
+  - 你真的
+- wait:
+  - 30
+- print:
+  - 依里
+  - 是個悠悠哉哉的
+- wait:
+  - 15
+- print:
+  - 依里
+  - 老好人……
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - 完全沒有考慮過
+- wait:
+  - 35
+- print:
+  - 依里
+  - 我們會輸的選項。
+- wait:
+  - 55
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 3
+- print:
+  - 依里
+  - 為了
+- wait:
+  - 25
+- print:
+  - 依里
+  - 回應你的信任……！！　
+- touch: *o0
+- choice:
+  - 全力上吧，依里！
+  - 17
+- tag:
+  - 17
+- window_visible:
+  - false
+- change_window:
+  - 1
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 1
+- vo:
+  - vo_adv_1022012_108
+- face:
+  - 102211
+  - 3
+- print:
+  - 依里
+  - 好！
+- wait:
+  - 25
+- print:
+  - 依里
+  - 你流進我體內的力量！
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2-
+
+    和我所有的魔力！
+- wait:
+  - 50
+- print:
+  - 依里
+  - 竭盡全力的奮力一擊！！
+- touch: *o0
+- se:
+  - se_adv_magic_charge_01
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 1
+- vo:
+  - vo_adv_1022012_109
+- face:
+  - 102211
+  - 3
+- print:
+  - 依里
+  - 這就是
+- wait:
+  - 25
+- print:
+  - 依里
+  - 我的全力！
+- wait:
+  - 60
+- print:
+  - 依里
+  - 上啊啊啊啊！！
+- touch: *o0
+- se_pause:
+  - se_adv_magic_charge_01
+  - 1
+- window_visible:
+  - false
+- se:
+  - se_adv_magic_anna_03
+- white_out:
+  - 1
+  - 1
+- se_pause:
+  - se_adv_magic_anna_03
+  - 3
+- se:
+  - se_adv_magic_thunder_large_01
+- bg_color:
+  - 255
+  - 255
+  - 255
+- still_unit:
+  - end
+- wait:
+  - 15
+- white_in: *o0
+- se_pause:
+  - amb_electric_magic_01
+  - 3
+- se:
+  - se_adv_creature_cmn_04
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 1
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──嘎喔喔喔喔喔！
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+- window_visible:
+  - false
+- black_out:
+  - 1
+  - 1
+- background:
+  - 500213
+- wait:
+  - 30
+- black_in: *o0
+- se:
+  - amb_adv_outdoors_day_01
+- vo_effect:
+  - 0
+- se_effect:
+  - 0
+- chara_full:
+  - 311
+  - RC
+  - 4
+- chara_full:
+  - 102211
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M358
+  - 0
+  - 0
+  - 1
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1022012_110
+- face:
+  - 311
+  - 4
+- nod:
+  - 311
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 主辦人
+  - 真的真的
+- wait:
+  - 5
+- print:
+  - 主辦人
+  - 真的非常抱歉！！
+- wait:
+  - 30
+- print:
+  - 主辦人
+  - >2-
+
+    不知道該怎麼向各位謝罪才好……！
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_111
+- face:
+  - 102211
+  - 6
+- emotion:
+  - sweat2_R
+  - 102211
+  - 50
+  - 530
+  - se_adv_emote_sweat_02
+- print:
+  - 依里
+  - 我、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 我們沒關係啦。
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2-
+
+    你去找其他參加者吧。
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1022012_112
+- face:
+  - 311
+  - 4
+- print:
+  - 主辦人
+  - 不好意思，
+- wait:
+  - 20
+- print:
+  - 主辦人
+  - >2-
+
+    過幾天
+- wait:
+  - 15
+- print:
+  - 主辦人
+  - 我們會再正式向您賠罪！
+- wait:
+  - 35
+- print:
+  - 主辦人
+  - 先告辭了！
+- wait:
+  - 50
+- print:
+  - 主辦人
+  - >2-
+
+    啊，
+- wait:
+  - 20
+- print:
+  - 主辦人
+  - 再來是那邊的客人吧，
+- wait:
+  - 25
+- print:
+  - 主辦人
+  - 好……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 102211
+  - C
+  - 2
+- fadein:
+  - 102211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_113
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - ……這樣
+- wait:
+  - 15
+- print:
+  - 依里
+  - 算是告一段落了吧。
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2-
+
+    你也辛苦了。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_114
+- face:
+  - 102211
+  - 1
+- nod:
+  - 102211
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 依里
+  - 啊，
+- wait:
+  - 40
+- print:
+  - 依里
+  - 累死了……
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2-
+
+    我連一根手指頭都動不了了。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_115
+- face:
+  - 102211
+  - 4
+- print:
+  - 依里
+  - 不過，
+- wait:
+  - 25
+- print:
+  - 依里
+  - 被困在地下迷宮裡的時候，
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2-
+
+    我真的覺得完蛋了。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_116
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - 但因為有你在我身邊，
+- wait:
+  - 25
+- print:
+  - 依里
+  - 我才能馬上冷靜下來……
+- wait:
+  - 50
+- print:
+  - 依里
+  - >2-
+
+    多虧你不慌不忙的呢。
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- choice:
+  - 我相信我們一定能逃出來。
+  - 18
+- tag:
+  - 18
+- bgm:
+  - bgm_M405_03
+  - 0
+  - 0
+  - 0
+  - 2.5
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_117
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - …………
+- wait:
+  - 90
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 我是不是
+- wait:
+  - 55
+- print:
+  - 依里
+  - 該學習你這個樂觀的態度呢……？
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_118
+- face:
+  - 102211
+  - 3
+- nod:
+  - 102211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 依里
+  - 雖然因為你這種悠哉的個性得救了，
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2-
+
+    但
+- wait:
+  - 15
+- print:
+  - 依里
+  - 這次是真的很危險，
+- wait:
+  - 55
+- print:
+  - 依里
+  - >2-
+
+    這一點
+- wait:
+  - 20
+- print:
+  - 依里
+  - 你可要好好明白──
+- touch: *o0
+- choice:
+  - 因為和依里在一起，所以才能走到這一步。
+  - 19
+- tag:
+  - 19
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_119
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - ……哼、
+- wait:
+  - 20
+- face:
+  - 102211
+  - 3
+- print:
+  - 依里
+  - 哼。
+- wait:
+  - 25
+- print:
+  - 依里
+  - 那、
+- wait:
+  - 15
+- print:
+  - 依里
+  - 那是
+- wait:
+  - 10
+- print:
+  - 依里
+  - 當然的。
+- wait:
+  - 30
+- print:
+  - 依里
+  - >2-
+
+    要、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 要是只有你一個人的話，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 你早就
+- wait:
+  - 20
+- print:
+  - 依里
+  - 在迷宮裡迷路了啦。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_120
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 唔，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 不過……
+- wait:
+  - 45
+- print:
+  - 依里
+  - 這次
+- wait:
+  - 20
+- print:
+  - 依里
+  - 你也很努力了……
+- wait:
+  - 65
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 雖然稍微走了一點捷徑，
+- wait:
+  - 40
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - 也算是成功突破迷宮了。
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2-
+
+    我們
+- wait:
+  - 20
+- print:
+  - 依里
+  - 還算做得不錯吧。
+- touch: *o0
+- choice:
+  - 我們是最棒的搭檔。
+  - 20
+- tag:
+  - 20
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_121
+- face:
+  - 102211
+  - 6
+- emotion:
+  - shy1_R
+  - 102211
+  - -135
+  - 465
+  - se_adv_emote_shy_01
+- print:
+  - 依里
+  - ……
+- wait:
+  - 20
+- print:
+  - 依里
+  - 你又說這種話……
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_122
+- face:
+  - 102211
+  - 3
+- print:
+  - 依里
+  - ……
+- wait:
+  - 90
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 算了，
+- wait:
+  - 35
+- print:
+  - 依里
+  - 我不否認。
+- wait:
+  - 55
+- print:
+  - 依里
+  - >2-
+
+    畢竟這次
+- wait:
+  - 25
+- print:
+  - 依里
+  - 又讓你幫了我一把。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_123
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 就是這麼回事，
+- wait:
+  - 70
+- eye_open:
+  - False
+- print:
+  - 依里
+  - 那個……
+- wait:
+  - 65
+- print:
+  - 依里
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 依里
+  - 謝……
+- wait:
+  - 50
+- print:
+  - 依里
+  - 謝……
+- wait:
+  - 50
+- face:
+  - 102211
+  - 4
+- print:
+  - 依里
+  - 謝、
+- wait:
+  - 30
+- print:
+  - 依里
+  - 謝……
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_124
+- face:
+  - 102211
+  - 3
+- print:
+  - 依里
+  - ……你、
+- wait:
+  - 10
+- nod:
+  - 102211
+- print:
+  - 依里
+  - 你呀！
+- wait:
+  - 35
+- print:
+  - 依里
+  - >2-
+
+    我、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 我可以稍微認可一點啦。
+- wait:
+  - 50
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 5
+- print:
+  - 依里
+  - 那個，
+- wait:
+  - 25
+- print:
+  - 依里
+  - 作為一名搭檔。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022012_125
+- face:
+  - 102211
+  - 6
+- emotion:
+  - exclamation1_R
+  - 102211
+  - -20
+  - 645
+  - se_adv_emote_common_01
+- print:
+  - 依里
+  - 呃……
+- wait:
+  - 15
+- print:
+  - 依里
+  - 那個，
+- wait:
+  - 15
+- print:
+  - 依里
+  - 不、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 不是那種意思啦！
+- wait:
+  - 15
+- print:
+  - 依里
+  - >2-
+
+    我是指
+- wait:
+  - 15
+- print:
+  - 依里
+  - 一起攻略遊戲
+- wait:
+  - 20
+- print:
+  - 依里
+  - 的搭檔啦。
+- wait:
+  - 20
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 3
+- print:
+  - 依里
+  - 這一點你可不要
+- wait:
+  - 20
+- print:
+  - 依里
+  - 誤、
+- wait:
+  - 15
+- print:
+  - 依里
+  - 誤會了喔！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 102211
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 依里雖然別過頭不理睬{0}，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    卻也露出心滿意足的笑容，踏上歸途。
+- touch: *o0
+- window_visible:
+  - false
+- se_pause:
+  - amb_adv_outdoors_day_01
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- vo_effect:
+  - 0
+- end: *o0

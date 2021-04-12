@@ -1,0 +1,880 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 509010
+- amb:
+  - amb_adv_room_noise_01
+- ui_visible:
+  - false
+- effect:
+  - 0101
+- bgm:
+  - bgm_M321_2C
+  - 0
+  - 0
+  - 1
+- wait:
+  - 17
+- se:
+  - se_adv_login_birthday_01
+- wait:
+  - 100
+- ui_visible:
+  - true
+- chara_full:
+  - 111011
+  - C
+  - 2
+- fadein:
+  - 111011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_1110500_000
+- face:
+  - 111011
+  - 2
+- print:
+  - 優妮
+  - 嗨～
+- wait:
+  - 25
+- print:
+  - 優妮
+  - 讓各位久等了。
+- wait:
+  - 40
+- print:
+  - 優妮
+  - >2-
+
+    我是公會長優妮。
+- touch: &o0 []
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_1110500_001
+- face:
+  - 111011
+  - 1
+- print:
+  - 優妮
+  - 今天把我這個大門不出的繭居族叫出來，
+- wait:
+  - 75
+- print:
+  - 優妮
+  - >2-
+
+    想必是在學問上有什麼要緊的事吧。
+- wait:
+  - 80
+- print:
+  - 優妮
+  - >2
+
+- face:
+  - 111011
+  - 2
+- nod:
+  - 111011
+- print:
+  - 優妮
+  - 那麼，
+- wait:
+  - 20
+- print:
+  - 優妮
+  - 就省去客套、直奔主題。
+- wait:
+  - 60
+- print:
+  - 優妮
+  - 快說吧。
+- touch: *o0
+- choice:
+  - 贈送祝福的話語
+  - 1
+- choice:
+  - 贈送祝福的知識
+  - 2
+- choice:
+  - 贈送祝福的蛋糕
+  - 3
+- tag:
+  - 1
+- window_visible:
+  - false
+- face:
+  - 111011
+  - 1
+- se:
+  - se_adv_tickle_02
+- effect:
+  - 0102
+- wait:
+  - 25
+- se:
+  - se_adv_login_birthday_02
+- wait:
+  - 40
+- effect:
+  - 0021
+  - se_adv_happy_particle_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_1110500_002
+- face:
+  - 111011
+  - 6
+- emotion:
+  - question1_R
+  - 111011
+  - 130
+  - 425
+  - se_adv_emote_question_01
+- print:
+  - 優妮
+  - 恭喜？
+- wait:
+  - 55
+- face:
+  - 111011
+  - 1
+- print:
+  - 優妮
+  - 說起來
+- wait:
+  - 35
+- print:
+  - 優妮
+  - 有什麼祝賀的原由嗎？
+- wait:
+  - 95
+- print:
+  - 優妮
+  - >2
+
+- face:
+  - 111011
+  - 6
+- print:
+  - 優妮
+  - 生日？
+- wait:
+  - 50
+- face:
+  - 111011
+  - 1
+- print:
+  - 優妮
+  - 啥，
+- wait:
+  - 45
+- print:
+  - 優妮
+  - 誰的……？
+- wait:
+  - 45
+- face:
+  - 111011
+  - 6
+- print:
+  - 優妮
+  - 咦，
+- wait:
+  - 30
+- print:
+  - 優妮
+  - 我的？
+- wait:
+  - 45
+- face:
+  - 111011
+  - 4
+- print:
+  - 優妮
+  - 啊，
+- wait:
+  - 30
+- print:
+  - 優妮
+  - 是這樣嗎。
+- wait:
+  - 60
+- print:
+  - 優妮
+  - >2
+
+- face:
+  - 111011
+  - 6
+- print:
+  - 優妮
+  - 寫在學院的名單上？
+- wait:
+  - 60
+- face:
+  - 111011
+  - 1
+- print:
+  - 優妮
+  - 是嗎，
+- wait:
+  - 35
+- print:
+  - 優妮
+  - 那應該就是這樣吧。
+- touch: *o0
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_1110500_003
+- face:
+  - 111011
+  - 6
+- print:
+  - 優妮
+  - 但是連當事人都忘記的事，
+- wait:
+  - 60
+- print:
+  - 優妮
+  - 旁人居然記得住。
+- wait:
+  - 70
+- print:
+  - 優妮
+  - >2
+
+- face:
+  - 111011
+  - 4
+- print:
+  - 優妮
+  - 你還真厲害呢，
+- wait:
+  - 50
+- print:
+  - 優妮
+  - 可以說是優妮研究的第一人吧？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- window_visible:
+  - false
+- face:
+  - 111011
+  - 1
+- se:
+  - se_adv_tickle_02
+- effect:
+  - 0102
+- wait:
+  - 25
+- se:
+  - se_adv_login_birthday_02
+- wait:
+  - 40
+- effect:
+  - 0021
+  - se_adv_happy_particle_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_1110500_004
+- face:
+  - 111011
+  - 7
+- emotion:
+  - twinkle1_R
+  - 111011
+  - -115
+  - 400
+  - se_adv_emote_twinkle_01
+- print:
+  - 優妮
+  - 哇啊啊，
+- wait:
+  - 30
+- print:
+  - 優妮
+  - 這個是……
+- wait:
+  - 30
+- print:
+  - 優妮
+  - 這不是我想要的書嗎！
+- wait:
+  - 55
+- print:
+  - 優妮
+  - >2
+
+- face:
+  - 111011
+  - 4
+- print:
+  - 優妮
+  - 我跟希爾達修女申請到她都要覺得厭煩了，
+- wait:
+  - 85
+- print:
+  - 優妮
+  - >2
+
+- face:
+  - 111011
+  - 2
+- print:
+  - 優妮
+  - 學院也仍然沒有要購入的夢幻奇書！
+- touch: *o0
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_1110500_005
+- face:
+  - 111011
+  - 6
+- print:
+  - 優妮
+  - 你說，
+- wait:
+  - 30
+- print:
+  - 優妮
+  - 要給我這麼貴重的書！？
+- wait:
+  - 80
+- print:
+  - 優妮
+  - >2
+
+- face:
+  - 111011
+  - 4
+- print:
+  - 優妮
+  - 怎麼會……
+- wait:
+  - 35
+- print:
+  - 優妮
+  - 你
+- wait:
+  - 30
+- print:
+  - 優妮
+  - 到底想要什麼……
+- wait:
+  - 50
+- face:
+  - 111011
+  - 6
+- print:
+  - 優妮
+  - 金錢？
+- wait:
+  - 35
+- print:
+  - 優妮
+  - 情報……
+- wait:
+  - 40
+- nod:
+  - 111011
+- print:
+  - 優妮
+  - 啊！
+- wait:
+  - 35
+- print:
+  - 優妮
+  - >2-
+
+    難道是我的肉體！
+- wait:
+  - 60
+- face:
+  - 111011
+  - 5
+- print:
+  - 優妮
+  - 唔唔唔，
+- wait:
+  - 35
+- print:
+  - 優妮
+  - 沒辦法，
+- wait:
+  - 35
+- print:
+  - 優妮
+  - 只能露一點喔……
+- touch: *o0
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_1110500_006
+- face:
+  - 111011
+  - 6
+- emotion:
+  - question1_R
+  - 111011
+  - 130
+  - 425
+  - se_adv_emote_question_01
+- print:
+  - 優妮
+  - 是？
+- wait:
+  - 35
+- print:
+  - 優妮
+  - 生日？
+- wait:
+  - 60
+- print:
+  - 優妮
+  - 哈哈哈，
+- wait:
+  - 35
+- print:
+  - 優妮
+  - 原來如此，
+- wait:
+  - 50
+- print:
+  - 優妮
+  - 今天是我的生日啊。
+- wait:
+  - 65
+- print:
+  - 優妮
+  - >2
+
+- face:
+  - 111011
+  - 1
+- print:
+  - 優妮
+  - 嗯，
+- wait:
+  - 30
+- print:
+  - 優妮
+  - 這麼說起來你們
+- wait:
+  - 50
+- print:
+  - 優妮
+  - 是不是有在生日送禮物的習俗？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_1110500_007
+- face:
+  - 111011
+  - 6
+- print:
+  - 優妮
+  - 什麼？
+- wait:
+  - 30
+- print:
+  - 優妮
+  - 你們帶了生日蛋糕來？
+- wait:
+  - 75
+- face:
+  - 111011
+  - 4
+- print:
+  - 優妮
+  - 生日……？
+- wait:
+  - 55
+- print:
+  - 優妮
+  - >2
+
+- nod:
+  - 111011
+- se:
+  - se_adv_book_open_01
+- print:
+  - 優妮
+  - 等等，
+- wait:
+  - 30
+- print:
+  - 優妮
+  - 我看一下筆記……
+- wait:
+  - 55
+- face:
+  - 111011
+  - 6
+- print:
+  - 優妮
+  - 唉呀呀，真的呢。
+- wait:
+  - 35
+- print:
+  - 優妮
+  - 今天是我的生日。
+- wait:
+  - 60
+- print:
+  - 優妮
+  - >2
+
+- face:
+  - 111011
+  - 4
+- print:
+  - 優妮
+  - 啊，
+- wait:
+  - 35
+- print:
+  - 優妮
+  - 但是很抱歉，
+- wait:
+  - 55
+- print:
+  - 優妮
+  - 我不太能吃固體的食物……
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 111011
+  - 1
+- se:
+  - se_adv_tickle_02
+- effect:
+  - 0102
+- wait:
+  - 25
+- se:
+  - se_adv_login_birthday_02
+- wait:
+  - 40
+- effect:
+  - 0021
+  - se_adv_happy_particle_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_1110500_008
+- face:
+  - 111011
+  - 6
+- emotion:
+  - surprise1_L
+  - 111011
+  - 160
+  - 450
+  - se_adv_emote_common_01
+- print:
+  - 優妮
+  - 咦！？
+- wait:
+  - 15
+- print:
+  - 優妮
+  - 等等，騙人的吧……！
+- wait:
+  - 20
+- print:
+  - 優妮
+  - >2-
+
+    這不是那個
+- wait:
+  - 20
+- print:
+  - 優妮
+  - 好吃到升天的綜合莓果蛋糕嗎！
+- wait:
+  - 45
+- print:
+  - 優妮
+  - >2
+
+- face:
+  - 111011
+  - 7
+- print:
+  - 優妮
+  - 早點說嘛！
+- wait:
+  - 20
+- print:
+  - 優妮
+  - 這樣的話剛才說的那些可不算數喔！
+- touch: *o0
+- tag:
+  - 4
+- effect_delete:
+  - 0021
+  - 15
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_1110500_009
+- face:
+  - 111011
+  - 1
+- nod:
+  - 111011
+- print:
+  - 優妮
+  - 嗯……
+- wait:
+  - 40
+- print:
+  - 優妮
+  - 面對特意表達的祝福，反應這麼平淡真是很抱歉。
+- wait:
+  - 105
+- print:
+  - 優妮
+  - >2
+
+- face:
+  - 111011
+  - 4
+- print:
+  - 優妮
+  - 不，
+- wait:
+  - 25
+- print:
+  - 優妮
+  - 可能是因為這樣吧。
+- wait:
+  - 45
+- print:
+  - 優妮
+  - >2-
+
+    一般而言，
+- wait:
+  - 40
+- print:
+  - 優妮
+  - 生日是受來自家人或朋友們祝福的特別之日吧。
+- touch: *o0
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_1110500_010
+- face:
+  - 111011
+  - 1
+- print:
+  - 優妮
+  - 對我來說，
+- wait:
+  - 30
+- print:
+  - 優妮
+  - 生日單純是個識別符號而已。
+- wait:
+  - 70
+- print:
+  - 優妮
+  - >2-
+
+    只是應故鄉的長輩們要求，
+- wait:
+  - 60
+- print:
+  - 優妮
+  - 而定下來方便計算的數字而已。
+- wait:
+  - 75
+- print:
+  - 優妮
+  - >2
+
+- face:
+  - 111011
+  - 4
+- print:
+  - 優妮
+  - 也沒有會為我準備蛋糕的家人朋友呢。
+- touch: *o0
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_1110500_011
+- face:
+  - 111011
+  - 2
+- print:
+  - 優妮
+  - 但是，
+- wait:
+  - 30
+- print:
+  - 優妮
+  - 感覺很不可思議呢。
+- wait:
+  - 40
+- print:
+  - 優妮
+  - >2-
+
+    受到你的祝福後，
+- wait:
+  - 45
+- print:
+  - 優妮
+  - 好像突然有了特別的意義呢，摯友。
+- wait:
+  - 80
+- print:
+  - 優妮
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 優妮
+  - 講白一點就是，
+- wait:
+  - 50
+- eye_open:
+  - True
+- print:
+  - 優妮
+  - 謝謝。
+- touch: *o0
+- focus:
+  - 111011
+- bust:
+  - 111011
+  - 0
+- vo:
+  - vo_adv_1110500_012
+- face:
+  - 111011
+  - 2
+- emotion:
+  - twinkle1_R
+  - 111011
+  - -115
+  - 400
+  - se_adv_emote_twinkle_01
+- print:
+  - 優妮
+  - 那就來大大地宣傳吧。
+- wait:
+  - 60
+- print:
+  - 優妮
+  - >2
+
+- face:
+  - 111011
+  - 7
+- print:
+  - 優妮
+  - 正是，
+- wait:
+  - 30
+- print:
+  - 優妮
+  - 今天是我的生日呢。
+- touch: *o0
+- window_visible:
+  - false
+- ui_visible:
+  - false
+- fadeout:
+  - 111011
+  - 30
+- seasonal_reward: *o0
+- bright_change:
+  - 1
+  - 40
+- wait:
+  - 5
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0101
+- end: *o0

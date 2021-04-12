@@ -1,0 +1,4592 @@
+- title:
+  - 依里 第10話
+- outline:
+  - 依里等人一起遊玩了店長的新桌遊。而此時傳聞中的黑心商人來到店裡。面對威脅店長聽他話的商人，依里和{0}同心協力擊退了他。
+- background:
+  - 500370
+- amb:
+  - amb_adv_room_noise_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 遊戲牽起的緣分與羈絆
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 收到店長新桌遊製作完成的通知，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    依里和{0}來到了遊戲專賣店。
+- touch: &o0 []
+- se:
+  - se_adv_door_shop_open_01
+- window_visible:
+  - false
+- chara_full:
+  - 102211
+  - L
+  - 6
+- chara_full:
+  - 511
+  - RC
+  - 1
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - true
+- bgm:
+  - bgm_M404
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_000
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 您好～
+- touch: *o0
+- focus:
+  - 511
+- bust:
+  - 511
+  - 0
+- vo:
+  - vo_adv_1022010_001
+- face:
+  - 511
+  - 2
+- emotion:
+  - notice1_L
+  - 511
+  - -75
+  - 550
+  - se_adv_emote_common_01
+- print:
+  - 店長
+  - 哦，
+- wait:
+  - 15
+- print:
+  - 店長
+  - 小姑娘，
+- wait:
+  - 15
+- print:
+  - 店長
+  - 等妳很久囉。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_002
+- face:
+  - 102211
+  - 2
+- nod:
+  - 102211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 依里
+  - 老爺爺，
+- wait:
+  - 25
+- print:
+  - 依里
+  - 您順利把遊戲完成了嗎！
+- touch: *o0
+- focus:
+  - 511
+- bust:
+  - 511
+  - 0
+- vo:
+  - vo_adv_1022010_003
+- face:
+  - 511
+  - 2
+- print:
+  - 店長
+  - 託你們的福。
+- wait:
+  - 30
+- face:
+  - 511
+  - 1
+- print:
+  - 店長
+  - 你們
+- wait:
+  - 15
+- print:
+  - 店長
+  - 看那邊。
+- wait:
+  - 25
+- print:
+  - 店長
+  - >2-
+
+    那兩個吵吵鬧鬧的人
+- wait:
+  - 35
+- print:
+  - 店長
+  - 剛買來玩呢。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 1111
+  - RC
+  - 6
+- chara_full:
+  - 414
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- se:
+  - se_adv_paper_pickup_04
+- window_visible:
+  - true
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_1022010_004
+- face:
+  - 1111
+  - 6
+- print:
+  - 男性１
+  - 店長，
+- wait:
+  - 20
+- print:
+  - 男性１
+  - 說我們吵吵鬧鬧的也太過分了吧！
+- wait:
+  - 25
+- print:
+  - 男性１
+  - >2
+
+- face:
+  - 1111
+  - 1
+- print:
+  - 男性１
+  - 我們來得這麼頻繁，
+- wait:
+  - 20
+- print:
+  - 男性１
+  - >2
+
+- wait:
+  - 25
+- print:
+  - 男性１
+  - 用常客來稱呼我們也不為過吧？
+- touch: *o0
+- focus:
+  - 414
+- bust:
+  - 414
+  - 0
+- vo:
+  - vo_adv_1022010_005
+- face:
+  - 414
+  - 6
+- nod:
+  - 414
+- se:
+  - se_adv_cloth_move_give_01
+- wait:
+  - 10
+- print:
+  - 男性２
+  - 你就是這一點煩人啦。
+- wait:
+  - 35
+- print:
+  - 男性２
+  - >2
+
+- face:
+  - 414
+  - 1
+- print:
+  - 男性２
+  - 我們剛好要開始新的一局，
+- wait:
+  - 15
+- print:
+  - 男性２
+  - 你們要一起玩嗎？
+- wait:
+  - 25
+- print:
+  - 男性２
+  - >2-
+
+    依里妹妹
+- wait:
+  - 15
+- print:
+  - 男性２
+  - 跟那邊那個男生。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 102211
+  - C
+  - 1
+- fadein:
+  - 102211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_006
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 唔，
+- wait:
+  - 40
+- print:
+  - 依里
+  - 我今天本來打算買完就回家的……
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 你呢？
+- touch: *o0
+- choice:
+  - 我想再跟妳同一隊。
+  - 1
+- choice:
+  - 這次想跟妳不同隊。
+  - 2
+- tag:
+  - 1
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_007
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - 那我們就上吧。
+- wait:
+  - 35
+- print:
+  - 依里
+  - >2
+
+- emotion:
+  - twinkle1_R
+  - 102211
+  - -160
+  - 470
+  - se_adv_emote_twinkle_01
+- print:
+  - 依里
+  - 這次感覺也會是一場熱血沸騰的對決！
+- wait:
+  - 50
+- print:
+  - 依里
+  - >2-
+
+    快，
+- wait:
+  - 10
+- print:
+  - 依里
+  - '{0}也坐下吧。'
+- touch: *o0
+- goto:
+  - 3
+- tag:
+  - 2
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_008
+- face:
+  - 102211
+  - 2
+- nod:
+  - 102211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 依里
+  - 喲，
+- wait:
+  - 35
+- print:
+  - 依里
+  - 現在會說大話啦。
+- wait:
+  - 40
+- print:
+  - 依里
+  - >2-
+
+    好呀，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 我就發揮真本事，把你打得落花流水！
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2-
+
+    {0}你也全力以赴吧。
+- touch: *o0
+- tag:
+  - 3
+- window_visible:
+  - false
+- fadeout:
+  - 102211
+  - 30
+- chara_full:
+  - 1111
+  - RC
+  - 6
+- chara_full:
+  - 414
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_1022010_009
+- face:
+  - 1111
+  - 6
+- print:
+  - 男性１
+  - 哎喲，
+- wait:
+  - 15
+- print:
+  - 男性１
+  - 依里妹妹長得一臉可愛，
+- wait:
+  - 15
+- print:
+  - 男性１
+  - >2-
+
+    進攻時的戰略卻無情得很啊。
+- wait:
+  - 45
+- print:
+  - 男性１
+  - >2
+
+- face:
+  - 1111
+  - 4
+- print:
+  - 男性１
+  - 實在是太棘手了，
+- wait:
+  - 30
+- print:
+  - 男性１
+  - 真不想與她為敵。
+- touch: *o0
+- focus:
+  - 414
+- bust:
+  - 414
+  - 0
+- vo:
+  - vo_adv_1022010_010
+- face:
+  - 414
+  - 1
+- print:
+  - 男性２
+  - 雖然
+- wait:
+  - 10
+- print:
+  - 男性２
+  - 是我們說不要手下留情的，
+- wait:
+  - 30
+- print:
+  - 男性２
+  - >2-
+
+    她還真的一點都不客氣。
+- wait:
+  - 35
+- print:
+  - 男性２
+  - >2
+
+- face:
+  - 414
+  - 6
+- print:
+  - 男性２
+  - 這位少年也不得了，
+- wait:
+  - 25
+- print:
+  - 男性２
+  - 把把都是好手氣。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 102211
+  - C
+  - 2
+- fadein:
+  - 102211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_011
+- face:
+  - 102211
+  - 2
+- nod:
+  - 102211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 依里
+  - 真不湊巧，
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2-
+
+    勝敗都是一時的運氣，
+- wait:
+  - 35
+- print:
+  - 依里
+  - 有輸
+- wait:
+  - 15
+- print:
+  - 依里
+  - 有贏。
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 但是，
+- wait:
+  - 15
+- print:
+  - 依里
+  - '{0}的好運氣'
+- wait:
+  - 25
+- print:
+  - 依里
+  - 也確實有點異常……
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_012
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - 不過，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 有個像這樣的地方讓大家玩遊戲真不錯。
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2-
+
+    尤其是桌遊，
+- wait:
+  - 15
+- print:
+  - 依里
+  - 湊不到人就沒辦法開始了。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_013
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 雖然也是有單人用的桌遊，
+- wait:
+  - 40
+- print:
+  - 依里
+  - >2-
+
+    要玩也是可以玩啦……
+- wait:
+  - 40
+- face:
+  - 102211
+  - 4
+- print:
+  - 依里
+  - 就是有點空虛。
+- touch: *o0
+- choice:
+  - 這樣啊？
+  - 4
+- tag:
+  - 4
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_014
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 你想像一下那個畫面。
+- wait:
+  - 40
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 在挑戰魔王的時候，
+- wait:
+  - 25
+- print:
+  - 依里
+  - 你要自己一個人
+- wait:
+  - 40
+- print:
+  - 依里
+  - >2-
+
+    一直擲隊伍四人份的骰子。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_015
+- face:
+  - 102211
+  - 2
+- nod:
+  - 102211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 依里
+  - 「啊，
+- wait:
+  - 10
+- print:
+  - 依里
+  - 逆轉勝的暴擊出現了！
+- wait:
+  - 25
+- print:
+  - 依里
+  - 好耶，
+- wait:
+  - 10
+- print:
+  - 依里
+  - 打倒了！」
+- wait:
+  - 35
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 4
+- print:
+  - 依里
+  - 也沒有半個人
+- wait:
+  - 30
+- print:
+  - 依里
+  - 可以分享這個喜悅。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_016
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 而且，
+- wait:
+  - 25
+- print:
+  - 依里
+  - 以前常去的其他桌遊專賣店，
+- wait:
+  - 55
+- print:
+  - 依里
+  - >2-
+
+    最近好幾間都歇業了。
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 4
+- print:
+  - 依里
+  - 明明遊戲這麼好玩。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_017
+- face:
+  - 102211
+  - 2
+- nod:
+  - 102211
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 依里
+  - 所以，
+- wait:
+  - 25
+- print:
+  - 依里
+  - >2
+
+- wait:
+  - 15
+- print:
+  - 依里
+  - 希望店長可以好好努力，
+- wait:
+  - 30
+- print:
+  - 依里
+  - >2-
+
+    讓更多人喜歡上桌遊。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 102211
+  - 30
+- chara_full:
+  - 511
+  - C
+  - 2
+- fadein:
+  - 511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 511
+- bust:
+  - 511
+  - 0
+- vo:
+  - vo_adv_1022010_018
+- face:
+  - 511
+  - 2
+- print:
+  - 店長
+  - 呵呵呵。
+- wait:
+  - 35
+- print:
+  - 店長
+  - 妳這番話還真令人高興。
+- wait:
+  - 40
+- print:
+  - 店長
+  - >2
+
+- face:
+  - 511
+  - 1
+- print:
+  - 店長
+  - 我看看，
+- wait:
+  - 15
+- print:
+  - 店長
+  - 那我得趁現在補貨，
+- wait:
+  - 20
+- print:
+  - 店長
+  - 架上才不會缺貨。
+- wait:
+  - 25
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
+- window_visible:
+  - false
+- fadeout:
+  - 511
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- se:
+  - se_adv_door_shop_open_01
+- chara_full:
+  - 2511
+  - LC
+  - 1
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 2511
+  - 45
+- window_visible:
+  - true
+- bgm:
+  - bgm_M337
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1022010_019
+- face:
+  - 2511
+  - 1
+- print:
+  - 商人
+  - 打擾了。
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1022010_020
+- face:
+  - 2511
+  - 6
+- print:
+  - 商人
+  - 唔，
+- wait:
+  - 40
+- print:
+  - 商人
+  - 雖然是間老舊的店，但氛圍還不賴。
+- wait:
+  - 75
+- print:
+  - 商人
+  - >2
+
+- face:
+  - 2511
+  - 1
+- print:
+  - 商人
+  - 看來傳聞是真的呢。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 2511
+  - 30
+- chara_full:
+  - 102211
+  - LC
+  - 1
+- chara_full:
+  - 511
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_021
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 這位客人在遊戲專賣店不常見到呢。
+- wait:
+  - 75
+- print:
+  - 依里
+  - >2-
+
+    看起來也不像平時會玩遊戲的人，
+- wait:
+  - 50
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 是新手嗎？
+- touch: *o0
+- focus:
+  - 511
+- bust:
+  - 511
+  - 0
+- vo:
+  - vo_adv_1022010_022
+- face:
+  - 511
+  - 1
+- nod:
+  - 511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 店長
+  - 歡迎光臨，
+- wait:
+  - 20
+- print:
+  - 店長
+  - 在找什麼遊戲嗎？
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 2511
+  - C
+  - 1
+- fadein:
+  - 2511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1022010_023
+- face:
+  - 2511
+  - 1
+- print:
+  - 商人
+  - 我來到這裡只有一件事，
+- wait:
+  - 50
+- print:
+  - 商人
+  - 我想買那款新遊戲。
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1022010_024
+- face:
+  - 2511
+  - 1
+- nod:
+  - 2511
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 商人
+  - ──包含庫存在內，
+- wait:
+  - 30
+- print:
+  - 商人
+  - 這間店有的量
+- wait:
+  - 45
+- print:
+  - 商人
+  - >2-
+
+    可以全部幫我打包起來嗎？
+- wait:
+  - 40
+- print:
+  - 商人
+  - 我現在就要。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 2511
+  - 30
+- chara_full:
+  - 511
+  - RC
+  - 6
+- chara_full:
+  - 102211
+  - LC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 511
+- bust:
+  - 511
+  - 0
+- vo:
+  - vo_adv_1022010_025
+- face:
+  - 511
+  - 6
+- emotion:
+  - question1_R
+  - 511
+  - 85
+  - 530
+  - se_adv_emote_question_01
+- print:
+  - 店長
+  - ……嗯？
+- wait:
+  - 20
+- print:
+  - 店長
+  - 是我聽錯了嗎？
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_026
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 全、
+- wait:
+  - 15
+- print:
+  - 依里
+  - 全部……
+- wait:
+  - 40
+- print:
+  - 依里
+  - 數量
+- wait:
+  - 15
+- print:
+  - 依里
+  - 可不少呀。
+- wait:
+  - 40
+- print:
+  - 依里
+  - >2-
+
+    有辦法帶回去嗎？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 2511
+  - C
+  - 1
+- fadein:
+  - 2511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1022010_027
+- face:
+  - 2511
+  - 1
+- nod:
+  - 2511
+- se:
+  - se_adv_step_concrete_move_01
+- print:
+  - 商人
+  - 不用擔心。
+- wait:
+  - 45
+- print:
+  - 商人
+  - >2-
+
+    我已經準備好運送用的馬車。
+- wait:
+  - 60
+- print:
+  - 商人
+  - >2
+
+- face:
+  - 2511
+  - 2
+- print:
+  - 商人
+  - 款項當然也是現在支付。
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1022010_028
+- face:
+  - 2511
+  - 6
+- emotion:
+  - notice1_L
+  - 2511
+  - -90
+  - 570
+  - se_adv_emote_common_01
+- print:
+  - 商人
+  - ……啊，
+- wait:
+  - 25
+- print:
+  - 商人
+  - 恕我冒昧，
+- wait:
+  - 35
+- print:
+  - 商人
+  - 還沒向各位自我介紹。
+- wait:
+  - 50
+- print:
+  - 商人
+  - >2
+
+- face:
+  - 2511
+  - 1
+- print:
+  - 商人
+  - 我正在經營一間專門販賣遊戲的商店。
+- wait:
+  - 100
+- print:
+  - 商人
+  - >2-
+
+    之前就聽說過這間店……
+- wait:
+  - 35
+- print:
+  - 商人
+  - 以及店長的傳聞。
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1022010_029
+- face:
+  - 2511
+  - 2
+- print:
+  - 商人
+  - 敝店
+- wait:
+  - 30
+- print:
+  - 商人
+  - 擁有豐富齊全的「有價值」商品，並引以為豪。
+- wait:
+  - 45
+- print:
+  - 商人
+  - >2-
+
+    聽聞這裡有一款紅遍大街小巷的新遊戲，
+- wait:
+  - 60
+- print:
+  - 商人
+  - >2-
+
+    所以前來拜訪，
+- wait:
+  - 35
+- print:
+  - 商人
+  - 務必讓這款遊戲也在敝店上架。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 2511
+  - 30
+- chara_full:
+  - 511
+  - RC
+  - 1
+  - 1
+- chara_full:
+  - 2511
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 511
+- bust:
+  - 511
+  - 0
+- vo:
+  - vo_adv_1022010_030
+- face:
+  - 511
+  - 1
+- print:
+  - 店長
+  - ……
+- wait:
+  - 35
+- eye_open:
+  - True
+- print:
+  - 店長
+  - 抱歉，
+- wait:
+  - 20
+- print:
+  - 店長
+  - 我不打算把這款遊戲賣給你。
+- wait:
+  - 5
+- print:
+  - 店長
+  - >2-
+
+    請回吧。
+- wait:
+  - 50
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1022010_031
+- face:
+  - 2511
+  - 6
+- emotion:
+  - question1_R
+  - 2511
+  - 110
+  - 540
+  - se_adv_emote_question_01
+- print:
+  - 商人
+  - 哦？
+- wait:
+  - 40
+- print:
+  - 商人
+  - 你賣給了那邊那幾個正在玩的人，
+- wait:
+  - 50
+- print:
+  - 商人
+  - >2-
+
+    卻不願意賣給我嗎？
+- touch: *o0
+- focus:
+  - 511
+- bust:
+  - 511
+  - 0
+- vo:
+  - vo_adv_1022010_032
+- face:
+  - 511
+  - 1
+- print:
+  - 店長
+  - 我做遊戲
+- wait:
+  - 10
+- print:
+  - 店長
+  - 不是為了賺錢。
+- wait:
+  - 60
+- print:
+  - 店長
+  - >2-
+
+    我雖然上了年紀，
+- wait:
+  - 25
+- print:
+  - 店長
+  - 耳朵倒是靈光得很。
+- touch: *o0
+- focus:
+  - 511
+- bust:
+  - 511
+  - 0
+- vo:
+  - vo_adv_1022010_033
+- face:
+  - 511
+  - 3
+- print:
+  - 店長
+  - 最近
+- wait:
+  - 15
+- print:
+  - 店長
+  - 我常聽見一個傳聞。
+- wait:
+  - 55
+- print:
+  - 店長
+  - >2-
+
+    有不肖商人
+- wait:
+  - 30
+- print:
+  - 店長
+  - 買斷稀有的遊戲，
+- wait:
+  - 25
+- print:
+  - 店長
+  - >2
+
+- wait:
+  - 60
+- print:
+  - 店長
+  - 炒作價格並從中牟利。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 511
+  - 30
+- chara_full:
+  - 102211
+  - RC
+  - 6
+- fadein:
+  - 102211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_034
+- face:
+  - 102211
+  - 6
+- emotion:
+  - exclamation1_R
+  - 102211
+  - -20
+  - 645
+  - se_adv_emote_common_01
+- print:
+  - 依里
+  - ……啊，
+- wait:
+  - 15
+- print:
+  - 依里
+  - 我想起來了！
+- wait:
+  - 25
+- print:
+  - 依里
+  - >2-
+
+    以前常去的店也有人提過這件事！
+- wait:
+  - 50
+- print:
+  - 依里
+  - >2-
+
+    說是
+- wait:
+  - 35
+- print:
+  - 依里
+  - 有個財大氣粗的商人不斷來勸說，
+- wait:
+  - 35
+- print:
+  - 依里
+  - 很傷腦筋呢！
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_035
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 還把架上的東西一掃而空，
+- wait:
+  - 30
+- print:
+  - 依里
+  - >2-
+
+    如果不聽從他們的話，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 就會嘗到苦頭……
+- wait:
+  - 40
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 4
+- print:
+  - 依里
+  - 所以才決定要歇業一陣子。
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1022010_036
+- face:
+  - 2511
+  - 6
+- print:
+  - 商人
+  - 我不知道妳在說什麼呢。
+- wait:
+  - 60
+- print:
+  - 商人
+  - >2-
+
+    不好意思，
+- wait:
+  - 10
+- print:
+  - 商人
+  - 妳是不是把我和什麼人搞錯了呢？
+- touch: *o0
+- bgm:
+  - stop
+  - 10
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1022010_037
+- face:
+  - 2511
+  - 1
+- nod:
+  - 2511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 商人
+  - 妳繼續說這些話刁難我也無所謂，
+- wait:
+  - 60
+- print:
+  - 商人
+  - >2-
+
+    看來也沒有什麼好隱瞞的了。
+- wait:
+  - 70
+- print:
+  - 商人
+  - >2-
+
+    反正……
+- touch: *o0
+- bgm:
+  - bgm_M326
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1022010_038
+- face:
+  - 2511
+  - 8
+- print:
+  - 商人
+  - 不管謠言是真是假，
+- wait:
+  - 70
+- print:
+  - 商人
+  - >2-
+
+    這位店長都不打算和我做生意了。
+- wait:
+  - 125
+- print:
+  - 商人
+  - >2-
+
+    ……你已經
+- wait:
+  - 40
+- print:
+  - 商人
+  - 從那些歇業的同業口中聽說了吧？
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_039
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 也就是說，
+- wait:
+  - 30
+- face:
+  - 102211
+  - 3
+- print:
+  - 依里
+  - 果然是你……！
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1022010_040
+- face:
+  - 2511
+  - 6
+- print:
+  - 商人
+  - 說我是在炒作價格也太難聽了。
+- wait:
+  - 65
+- print:
+  - 商人
+  - >2
+
+- face:
+  - 2511
+  - 1
+- print:
+  - 商人
+  - 況且，
+- wait:
+  - 5
+- print:
+  - 商人
+  - 沒有人想要的東西也就不會漲價。
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1022010_041
+- face:
+  - 2511
+  - 2
+- nod:
+  - 2511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 商人
+  - 高價的商品擁有合乎高價的價值。
+- wait:
+  - 75
+- print:
+  - 商人
+  - >2
+
+- face:
+  - 2511
+  - 1
+- print:
+  - 商人
+  - 我只是
+- wait:
+  - 35
+- print:
+  - 商人
+  - 從中幫忙提高價值罷了。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 102211
+  - 30
+- chara_full:
+  - 511
+  - RC
+  - 3
+- fadein:
+  - 511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 511
+- bust:
+  - 511
+  - 0
+- vo:
+  - vo_adv_1022010_042
+- face:
+  - 511
+  - 3
+- print:
+  - 店長
+  - …………
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1022010_043
+- face:
+  - 2511
+  - 6
+- print:
+  - 商人
+  - 唔……
+- wait:
+  - 50
+- print:
+  - 商人
+  - 你完全不打算賣給我，
+- wait:
+  - 35
+- print:
+  - 商人
+  - 是嗎？
+- wait:
+  - 50
+- print:
+  - 商人
+  - >2
+
+- face:
+  - 2511
+  - 1
+- print:
+  - 商人
+  - 既然知道我做的事，
+- wait:
+  - 35
+- print:
+  - 商人
+  - 還抱持著這種態度，
+- wait:
+  - 15
+- print:
+  - 商人
+  - >2-
+
+    恐怕不是個好主意呢……
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_finger_snap_hand_01
+- nod:
+  - 2511
+- wait:
+  - 15
+- fadeout:
+  - 511
+  - 30
+- chara_full:
+  - 1111
+  - RC
+  - 3
+- fadein:
+  - 1111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_1022010_044
+- face:
+  - 1111
+  - 3
+- print:
+  - 男性１
+  - 喂，
+- wait:
+  - 20
+- print:
+  - 男性１
+  - 你想對店長做什麼！
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 414
+  - RC
+  - 6
+- chara_full:
+  - 911
+  - LC
+  - 1
+- se:
+  - se_adv_stepadd_armor_heavy_01_move_01
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M42_02
+  - 0
+  - 0
+  - 0
+  - 1
+- focus:
+  - 414
+- bust:
+  - 414
+  - 0
+- vo:
+  - vo_adv_1022010_045
+- face:
+  - 414
+  - 6
+- se:
+  - se_adv_comic_punch_01
+- print:
+  - 男性２
+  - 嗚哇……
+- shake:
+  - 414
+- wait:
+  - 5
+- face:
+  - 414
+  - 4
+- print:
+  - 男性２
+  - 唔！
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1022010_046
+- face:
+  - 911
+  - 1
+- print:
+  - 手下
+  - 我們老闆話還沒說完呢。
+- wait:
+  - 75
+- print:
+  - 手下
+  - >2-
+
+    不相干的人給我閃一邊去。
+- touch: *o0
+- choice:
+  - 你沒事吧！？
+  - 5
+- tag:
+  - 5
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 2511
+  - C
+  - 4
+- fadein:
+  - 2511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1022010_047
+- face:
+  - 2511
+  - 4
+- print:
+  - 商人
+  - 真是的，
+- wait:
+  - 35
+- print:
+  - 商人
+  - 就連作者都不明白作品的價值，
+- wait:
+  - 70
+- print:
+  - 商人
+  - >2-
+
+    所以
+- wait:
+  - 5
+- print:
+  - 商人
+  - 我才打算為它標上正確的金額。
+- wait:
+  - 70
+- print:
+  - 商人
+  - >2
+
+- face:
+  - 2511
+  - 8
+- print:
+  - 商人
+  - 為此，
+- wait:
+  - 5
+- print:
+  - 商人
+  - 我也會收一點
+- wait:
+  - 40
+- print:
+  - 商人
+  - 「工錢」。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 2511
+  - 30
+- chara_full:
+  - 102211
+  - RC
+  - 3
+- chara_full:
+  - 2511
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- se:
+  - se_adv_cloth_move_give_01
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_048
+- face:
+  - 102211
+  - 3
+- nod:
+  - 102211
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - 依里
+  - 喂，
+- wait:
+  - 10
+- print:
+  - 依里
+  - 你這個人……
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1022010_049
+- face:
+  - 2511
+  - 6
+- print:
+  - 商人
+  - ……找我有什麼事嗎？
+- wait:
+  - 60
+- print:
+  - 商人
+  - >2
+
+- face:
+  - 2511
+  - 8
+- print:
+  - 商人
+  - 如妳所見，
+- wait:
+  - 15
+- print:
+  - 商人
+  - 我正在忙呢。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_050
+- face:
+  - 102211
+  - 3
+- print:
+  - 依里
+  - 你從剛才開始就一直自說自話，
+- wait:
+  - 35
+- print:
+  - 依里
+  - >2-
+
+    開口閉口就是價值……
+- wait:
+  - 55
+- print:
+  - 依里
+  - >2
+
+- nod:
+  - 102211
+- print:
+  - 依里
+  - 我看真正不明白價值的人
+- wait:
+  - 30
+- print:
+  - 依里
+  - 是你吧！
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_051
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 這款遊戲
+- wait:
+  - 25
+- print:
+  - 依里
+  - 是老爺爺和這裡的所有人……
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2-
+
+    傾注了所有對遊戲的熱愛製作而成的，
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2-
+
+    是非常珍貴的東西。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_052
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 如果
+- wait:
+  - 20
+- print:
+  - 依里
+  - 你要這樣踐踏大家的心情的話……
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 3
+- print:
+  - 依里
+  - 我、我
+- wait:
+  - 15
+- nod:
+  - 102211
+- print:
+  - 依里
+  - 是絕對
+- wait:
+  - 20
+- print:
+  - 依里
+  - 不會放過你的！
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1022010_053
+- face:
+  - 2511
+  - 4
+- print:
+  - 商人
+  - 哎呀，
+- wait:
+  - 35
+- print:
+  - 商人
+  - 沒辦法了。
+- wait:
+  - 45
+- print:
+  - 商人
+  - >2-
+
+    雖然這種庸俗的做法並不符合我的喜好……
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1022010_054
+- face:
+  - 2511
+  - 1
+- nod:
+  - 2511
+- se:
+  - se_adv_body_handshake_03
+- print:
+  - 商人
+  - 喏，
+- wait:
+  - 15
+- print:
+  - 商人
+  - 輪到你出場了。
+- wait:
+  - 40
+- print:
+  - 商人
+  - >2-
+
+    拿了高薪就要好好做事啊。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 911
+  - L
+  - 1
+- chara_full:
+  - 2511
+  - RC
+  - 1
+- se:
+  - se_adv_step_wood_walk_heavy_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1022010_055
+- face:
+  - 911
+  - 1
+- print:
+  - 手下
+  - 老闆，
+- wait:
+  - 40
+- print:
+  - 手下
+  - 我可以宰了那個臭丫頭嗎？
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1022010_056
+- face:
+  - 2511
+  - 1
+- print:
+  - 商人
+  - 像平時那樣，
+- wait:
+  - 10
+- print:
+  - 商人
+  - 隨你高興。
+- wait:
+  - 40
+- face:
+  - 2511
+  - 3
+- print:
+  - 商人
+  - 不過，小心不要破壞到商品了。
+- wait:
+  - 60
+- print:
+  - 商人
+  - >2-
+
+    要是影響到價值，那可就得不償失了。
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1022010_057
+- face:
+  - 911
+  - 2
+- nod:
+  - 911
+- se:
+  - se_adv_stepadd_armor_heavy_01_move_01
+- print:
+  - 手下
+  - 嘿嘿，
+- wait:
+  - 30
+- print:
+  - 手下
+  - 遵命。
+- wait:
+  - 55
+- print:
+  - 手下
+  - >2
+
+- face:
+  - 911
+  - 1
+- print:
+  - 手下
+  - 就是這麼回事，
+- wait:
+  - 25
+- print:
+  - 手下
+  - 抱歉啦，小姑娘。
+- wait:
+  - 65
+- print:
+  - 手下
+  - >2
+
+- face:
+  - 911
+  - 3
+- print:
+  - 手下
+  - ……趁我還能手下留情，快放棄吧！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 102211
+  - C
+  - 4
+- se:
+  - se_adv_cloth_move_give_01
+- fadein:
+  - 102211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_058
+- face:
+  - 102211
+  - 4
+- eye_open:
+  - False
+- print:
+  - 依里
+  - ……！！
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+- window_visible:
+  - false
+- fadeout:
+  - 102211
+  - 30
+- bg_color:
+  - 0
+  - 0
+  - 0
+- se:
+  - se_adv_impact_swing_01
+- se:
+  - se_adv_weapon_hammer_whiff_01
+- effect:
+  - 0001
+- wait:
+  - 5
+- se:
+  - se_adv_weapon_sword_impact_03
+- effect:
+  - 0045
+- wait:
+  - 15
+- background:
+  - 500370
+- chara_full:
+  - 911
+  - C
+  - 6
+- fadein:
+  - 911
+  - 30
+- bgm:
+  - bgm_M95_Ver2
+  - 0
+  - 0
+  - 1
+  - 0.5
+- window_visible:
+  - true
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1022010_059
+- face:
+  - 911
+  - 6
+- emotion:
+  - surprise1_L
+  - 911
+  - 130
+  - 620
+  - se_adv_emote_common_01
+- print:
+  - 手下
+  - 唔、
+- wait:
+  - 20
+- print:
+  - 手下
+  - 這傢伙……！！
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 1
+- vo:
+  - vo_adv_1022010_060
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - '{0}……！！'
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 1
+- vo:
+  - vo_adv_1022010_061
+- face:
+  - 2511
+  - 3
+- print:
+  - 商人
+  - 喂，
+- wait:
+  - 20
+- print:
+  - 商人
+  - 你還在做什麼？
+- wait:
+  - 25
+- print:
+  - 商人
+  - 你不是對自己的力量很有自信嗎？
+- wait:
+  - 30
+- print:
+  - 商人
+  - >2-
+
+    就區區的小孩子，
+- wait:
+  - 30
+- print:
+  - 商人
+  - 還不快點收拾掉！
+- touch: *o0
+- se:
+  - se_adv_impact_swing_01
+- se:
+  - se_adv_weapon_hammer_whiff_01
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1022010_062
+- face:
+  - 911
+  - 3
+- nod:
+  - 911
+- se:
+  - se_adv_weapon_sword_impact_01
+- print:
+  - 手下
+  - 唔喔喔喔喔喔喔！！
+- se:
+  - se_adv_weapon_sword_impact_02
+- wait:
+  - 60
+- print:
+  - 手下
+  - >2
+
+- face:
+  - 911
+  - 6
+- print:
+  - 手下
+  - 這、
+- wait:
+  - 30
+- print:
+  - 手下
+  - 這小子……
+- wait:
+  - 55
+- print:
+  - 手下
+  - 為什麼我打不倒！？
+- touch: *o0
+- se:
+  - se_adv_weapon_sword_impact_01
+- choice:
+  - 依里，趁現在！
+  - 6
+- tag:
+  - 6
+- window_visible:
+  - false
+- fadeout:
+  - 911
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 102211
+  - C
+  - 3
+- fadein:
+  - 102211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_063
+- face:
+  - 102211
+  - 3
+- nod:
+  - 102211
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - 依里
+  - ……我明白了！
+- wait:
+  - 20
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 老爺爺，
+- wait:
+  - 10
+- print:
+  - 依里
+  - 先跟你道歉！
+- wait:
+  - 20
+- print:
+  - 依里
+  - 待會我們會幫忙收拾的！！
+- touch: *o0
+- se:
+  - se_adv_magic_cmn_medium_01
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_064
+- face:
+  - 102211
+  - 3
+- print:
+  - 依里
+  - 喝啊啊啊啊！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 102211
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 911
+  - C
+  - 6
+- fadein:
+  - 911
+  - 30
+- se:
+  - se_adv_magic_thunder_medium_01
+- effect:
+  - 0070
+- wait:
+  - 15
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 4
+  - 1
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1022010_065
+- face:
+  - 911
+  - 6
+- print:
+  - 手下
+  - 唔啊啊啊啊啊啊啊！
+- sway:
+  - 911
+- touch: *o0
+- window_visible:
+  - false
+- updown:
+  - 911
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 911
+  - 30
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- chara_full:
+  - 102211
+  - RC
+  - 3
+- chara_full:
+  - 2511
+  - LC
+  - 7
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M326_02
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1022010_066
+- face:
+  - 2511
+  - 7
+- emotion:
+  - sweat2_R
+  - 2511
+  - 60
+  - 575
+  - se_adv_emote_sweat_02
+- print:
+  - 商人
+  - 你你、
+- wait:
+  - 40
+- print:
+  - 商人
+  - 你怎麼倒下了？
+- wait:
+  - 40
+- print:
+  - 商人
+  - >2-
+
+    你以為我付了多少錢給你！？
+- wait:
+  - 60
+- print:
+  - 商人
+  - >2-
+
+    喂，
+- wait:
+  - 25
+- print:
+  - 商人
+  - 別躺在地上睡覺了，快點站起來！
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_067
+- face:
+  - 102211
+  - 3
+- print:
+  - 依里
+  - 好了，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 你打算怎麼做？
+- wait:
+  - 35
+- print:
+  - 依里
+  - >2-
+
+    如果還要打的話，
+- wait:
+  - 25
+- print:
+  - 依里
+  - 我隨時奉陪。
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1022010_068
+- face:
+  - 2511
+  - 7
+- print:
+  - 商人
+  - 唔、
+- wait:
+  - 40
+- print:
+  - 商人
+  - 唔唔唔唔唔……！
+- touch: *o0
+- se:
+  - se_adv_weapon_sword_set_01
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_069
+- face:
+  - 102211
+  - 3
+- nod:
+  - 102211
+- print:
+  - 依里
+  - 如果
+- wait:
+  - 10
+- print:
+  - 依里
+  - 你下次還做出這種事的話，
+- wait:
+  - 30
+- print:
+  - 依里
+  - >2-
+
+    到時候
+- wait:
+  - 25
+- print:
+  - 依里
+  - 我會送你一記
+- wait:
+  - 35
+- print:
+  - 依里
+  - 比現在更富含「心意」
+- wait:
+  - 25
+- print:
+  - 依里
+  - 的強烈一擊！
+- wait:
+  - 50
+- print:
+  - 依里
+  - >2-
+
+    做好覺悟吧！
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+- window_visible:
+  - false
+- se_pause:
+  - amb_adv_room_noise_01
+  - 2
+- fadeout_all:
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 30
+- black_in: *o0
+- amb:
+  - amb_adv_room_noise_day_01
+- chara_full:
+  - 102211
+  - LC
+  - 6
+- chara_full:
+  - 1111
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- se:
+  - se_adv_cloth_move_normal_01
+- window_visible:
+  - true
+- bgm:
+  - bgm_M358
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_070
+- face:
+  - 102211
+  - 6
+- nod:
+  - 102211
+- print:
+  - 依里
+  - 呼……
+- wait:
+  - 40
+- print:
+  - 依里
+  - 這下就解決了吧。
+- wait:
+  - 55
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 1
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 依里
+  - 我看看，
+- wait:
+  - 15
+- print:
+  - 依里
+  - 紗布、
+- wait:
+  - 20
+- print:
+  - 依里
+  - 紗布在……
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_1022010_071
+- face:
+  - 1111
+  - 4
+- eye_open:
+  - False
+- print:
+  - 男性１
+  - 痛痛痛痛……
+- wait:
+  - 60
+- eye_open:
+  - True
+- print:
+  - 男性１
+  - 抱歉啊，什麼忙都幫不上。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_072
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - 沒那回事。
+- wait:
+  - 40
+- print:
+  - 依里
+  - 我和這傢伙在戰鬥的時候，
+- wait:
+  - 50
+- print:
+  - 依里
+  - >2-
+
+    你們兩個保護了老爺爺呀。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1111
+  - 30
+- chara_full:
+  - 414
+  - RC
+  - 1
+- fadein:
+  - 414
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 414
+- bust:
+  - 414
+  - 0
+- vo:
+  - vo_adv_1022010_073
+- face:
+  - 414
+  - 1
+- print:
+  - 男性２
+  - 唔，
+- wait:
+  - 5
+- print:
+  - 男性２
+  - 這點小事
+- wait:
+  - 15
+- print:
+  - 男性２
+  - 我們還是……
+- wait:
+  - 40
+- face:
+  - 414
+  - 4
+- print:
+  - 男性２
+  - 痛痛痛痛。
+- wait:
+  - 30
+- print:
+  - 男性２
+  - >2-
+
+    妳包紮得
+- wait:
+  - 10
+- print:
+  - 男性２
+  - 溫柔一點啦……
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_074
+- face:
+  - 102211
+  - 3
+- print:
+  - 依里
+  - 男子漢別這樣哭哭啼啼的！
+- wait:
+  - 45
+- nod:
+  - 102211
+- se:
+  - se_adv_body_handshake_01
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 好，
+- wait:
+  - 10
+- print:
+  - 依里
+  - 包紮完了！
+- touch: *o0
+- choice:
+  - 我也打掃完了。
+  - 7
+- tag:
+  - 7
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 102211
+  - C
+  - 2
+- fadein:
+  - 102211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_075
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - 也謝謝你啊。
+- wait:
+  - 40
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 3
+- print:
+  - 依里
+  - 他們真是一群
+- wait:
+  - 20
+- print:
+  - 依里
+  - 過分的傢伙。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_076
+- face:
+  - 102211
+  - 1
+- nod:
+  - 102211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 依里
+  - 那些人
+- wait:
+  - 20
+- print:
+  - 依里
+  - 收購製作遊戲的權利，
+- wait:
+  - 40
+- print:
+  - 依里
+  - >2-
+
+    故意營造缺貨的盛況，
+- wait:
+  - 40
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 縮減製造數量並哄抬價格，
+- wait:
+  - 25
+- print:
+  - 依里
+  - >2
+
+- wait:
+  - 30
+- print:
+  - 依里
+  - 簡直是為所欲為。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_077
+- face:
+  - 102211
+  - 3
+- print:
+  - 依里
+  - 而且，
+- wait:
+  - 25
+- print:
+  - 依里
+  - 遇到用錢解決不了的事，
+- wait:
+  - 40
+- print:
+  - 依里
+  - >2-
+
+    就改用拳頭解決。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_078
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 聽說根據商品不同，
+- wait:
+  - 25
+- print:
+  - 依里
+  - >2
+
+- wait:
+  - 20
+- print:
+  - 依里
+  - 甚至有一個商品高達數十萬盧幣的交易……
+- touch: *o0
+- choice:
+  - 原來有那麼貴的東西啊……
+  - 8
+- tag:
+  - 8
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_079
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 原價只是百分之一啊。
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 3
+- print:
+  - 依里
+  - 如果不是被他們敲竹槓的話，
+- wait:
+  - 35
+- print:
+  - 依里
+  - >2-
+
+    那筆錢還可以再買99個遊戲耶。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_080
+- face:
+  - 102211
+  - 1
+- nod:
+  - 102211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 依里
+  - 不過，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 他們四處為非作歹，
+- wait:
+  - 40
+- print:
+  - 依里
+  - >2-
+
+    應該會有好一陣子在監牢裡度過了吧。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_081
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - 這下子為缺貨或高額價格懊悔流淚的日子就能劃下句點了。
+- wait:
+  - 75
+- print:
+  - 依里
+  - >2-
+
+    大家肯定會很高興的。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 102211
+  - 30
+- chara_full:
+  - 511
+  - RC
+  - 1
+- chara_full:
+  - 102211
+  - LC
+  - 1
+- se:
+  - se_adv_step_concrete_move_01
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 511
+- bust:
+  - 511
+  - 0
+- vo:
+  - vo_adv_1022010_082
+- face:
+  - 511
+  - 1
+- print:
+  - 店長
+  - 不好意思啊，還讓你們幫忙整理。
+- touch: *o0
+- focus:
+  - 511
+- bust:
+  - 511
+  - 0
+- vo:
+  - vo_adv_1022010_083
+- face:
+  - 511
+  - 6
+- print:
+  - 店長
+  - 哎呀，
+- wait:
+  - 5
+- print:
+  - 店長
+  - 還真是讓人驚訝。
+- wait:
+  - 40
+- print:
+  - 店長
+  - 小姑娘
+- wait:
+  - 25
+- print:
+  - 店長
+  - 你們很強啊。
+- wait:
+  - 45
+- print:
+  - 店長
+  - >2
+
+- face:
+  - 511
+  - 2
+- print:
+  - 店長
+  - 簡直像是
+- wait:
+  - 20
+- print:
+  - 店長
+  - 遊戲裡會出現的英雄呢。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_084
+- face:
+  - 102211
+  - 4
+- nod:
+  - 102211
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 依里
+  - 老爺爺，
+- wait:
+  - 5
+- print:
+  - 依里
+  - 對不起。
+- wait:
+  - 30
+- print:
+  - 依里
+  - >2-
+
+    店裡的地板
+- wait:
+  - 25
+- print:
+  - 依里
+  - 有些燒焦了。
+- touch: *o0
+- focus:
+  - 511
+- bust:
+  - 511
+  - 0
+- vo:
+  - vo_adv_1022010_085
+- face:
+  - 511
+  - 2
+- print:
+  - 店長
+  - 沒事、
+- wait:
+  - 5
+- print:
+  - 店長
+  - 沒事。
+- wait:
+  - 20
+- print:
+  - 店長
+  - 這些都是小事。
+- wait:
+  - 50
+- print:
+  - 店長
+  - >2
+
+- face:
+  - 511
+  - 1
+- print:
+  - 店長
+  - 要是沒有你們的話，
+- wait:
+  - 30
+- print:
+  - 店長
+  - 不曉得會演變成什麼局面呢。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_086
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 我、
+- wait:
+  - 10
+- nod:
+  - 102211
+- print:
+  - 依里
+  - 我只是
+- wait:
+  - 25
+- print:
+  - 依里
+  - 聽見大家一起努力製作的遊戲
+- wait:
+  - 25
+- print:
+  - 依里
+  - >2-
+
+    被那樣貶低，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 實在是忍無可忍。
+- touch: *o0
+- bgm:
+  - stop
+  - 11
+  - 1
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_087
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - 當時
+- wait:
+  - 25
+- print:
+  - 依里
+  - 在店裡的
+- wait:
+  - 20
+- print:
+  - 依里
+  - 所有人……
+- wait:
+  - 50
+- print:
+  - 依里
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 依里
+  - 在這裡的所有人
+- wait:
+  - 30
+- print:
+  - 依里
+  - 喜愛遊戲的心情
+- wait:
+  - 35
+- print:
+  - 依里
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 依里
+  - 給了我勇氣。
+- touch: *o0
+- bgm:
+  - bgm_M405
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_088
+- face:
+  - 102211
+  - 2
+- nod:
+  - 102211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 依里
+  - 所以，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 即便心裡有點害怕，我也能勇敢迎戰。
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2-
+
+    心裡想著要守護住這個珍貴的地方。
+- wait:
+  - 75
+- print:
+  - 依里
+  - >2-
+
+    和你，
+- wait:
+  - 35
+- print:
+  - 依里
+  - 還有在場的
+- wait:
+  - 30
+- print:
+  - 依里
+  - 所有人一起。
+- touch: *o0
+- focus:
+  - 511
+- bust:
+  - 511
+  - 0
+- vo:
+  - vo_adv_1022010_089
+- face:
+  - 511
+  - 2
+- print:
+  - 店長
+  - ……
+- wait:
+  - 20
+- print:
+  - 店長
+  - 沒錯，
+- wait:
+  - 30
+- print:
+  - 店長
+  - 小姑娘說得對。
+- wait:
+  - 45
+- print:
+  - 店長
+  - >2-
+
+    我對小姑娘
+- wait:
+  - 30
+- print:
+  - 店長
+  - 還有在場的所有人
+- wait:
+  - 15
+- print:
+  - 店長
+  - >2-
+
+    有著道不盡的感謝，
+- wait:
+  - 45
+- print:
+  - 店長
+  - 真的很謝謝你們。
+- touch: *o0
+- window_visible:
+  - false
+- focus:
+  - 102211:511
+- face:
+  - 102211
+  - 6
+- face:
+  - 511
+  - 6
+- se:
+  - se_adv_door_knock_01
+- emotion:
+  - notice1_L
+  - 102211
+  - -115
+  - 522
+  - '*non'
+- emotion:
+  - notice1_L
+  - 511
+  - -75
+  - 550
+  - '*non'
+- wait:
+  - 45
+- emotion_end:
+  - 102211
+- emotion_end:
+  - 511
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_090
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 咦？
+- wait:
+  - 20
+- print:
+  - 依里
+  - 又有新客人來了嗎？
+- touch: *o0
+- se:
+  - se_adv_door_shop_open_01
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1022010_091
+- face:
+  - 1
+  - 1
+- print:
+  - ？？？
+  - 爺爺──！
+- wait:
+  - 25
+- print:
+  - ？？？
+  - 我們來玩了──！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 102211
+  - 30
+- chara_full:
+  - 411
+  - L
+  - 1
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 45
+- fadein:
+  - 411
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 511
+- bust:
+  - 511
+  - 0
+- vo:
+  - vo_adv_1022010_092
+- face:
+  - 511
+  - 6
+- nod:
+  - 511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 店長
+  - 哎喲
+- wait:
+  - 10
+- print:
+  - 店長
+  - ……
+- wait:
+  - 30
+- print:
+  - 店長
+  - >2
+
+- face:
+  - 511
+  - 1
+- print:
+  - 店長
+  - 你們大老遠的到這裡來了呀。
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1022010_093
+- face:
+  - 411
+  - 1
+- print:
+  - 店長的女兒
+  - 我聽見了爸爸的店
+- wait:
+  - 30
+- print:
+  - 店長的女兒
+  - 的傳聞，
+- wait:
+  - 45
+- print:
+  - 店長的女兒
+  - >2-
+
+    再加上也有事情想跟你商量，
+- wait:
+  - 20
+- print:
+  - 店長的女兒
+  - 就想來見你一面。
+- touch: *o0
+- focus:
+  - 511
+- bust:
+  - 511
+  - 0
+- vo:
+  - vo_adv_1022010_094
+- face:
+  - 511
+  - 4
+- print:
+  - 店長
+  - 啊，
+- wait:
+  - 10
+- print:
+  - 店長
+  - 妳是說
+- wait:
+  - 30
+- print:
+  - 店長
+  - 一起住的事吧……
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1022010_095
+- face:
+  - 411
+  - 6
+- nod:
+  - 411
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 店長的女兒
+  - ……吶，
+- wait:
+  - 10
+- print:
+  - 店長的女兒
+  - 爸爸。
+- wait:
+  - 30
+- print:
+  - 店長的女兒
+  - >2-
+
+    你知道我為什麼要勸你和我們一起住嗎？
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1022010_096
+- face:
+  - 411
+  - 4
+- print:
+  - 店長的女兒
+  - 那是因為爸爸你最近
+- wait:
+  - 25
+- print:
+  - 店長的女兒
+  - >2-
+
+    老是悶悶不樂、
+- wait:
+  - 15
+- print:
+  - 店長的女兒
+  - 無精打采的。
+- wait:
+  - 35
+- print:
+  - 店長的女兒
+  - >2-
+
+    我才在想
+- wait:
+  - 20
+- print:
+  - 店長的女兒
+  - 你是不是已經失去製作遊戲的熱忱了。
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1022010_097
+- face:
+  - 411
+  - 1
+- print:
+  - 店長的女兒
+  - 不過，
+- wait:
+  - 5
+- print:
+  - 店長的女兒
+  - 看來似乎是沒這個必要了。
+- wait:
+  - 50
+- print:
+  - 店長的女兒
+  - >2-
+
+    一看見爸爸你的表情，
+- wait:
+  - 45
+- print:
+  - 店長的女兒
+  - >
+    我就明白了。
+- face:
+  - 411
+  - 2
+- print:
+  - 店長的女兒
+  - 呵呵，
+- wait:
+  - 25
+- print:
+  - 店長的女兒
+  - 白擔心了呢。
+- touch: *o0
+- focus:
+  - 511
+- bust:
+  - 511
+  - 0
+- vo:
+  - vo_adv_1022010_098
+- face:
+  - 511
+  - 6
+- print:
+  - 店長
+  - 原來是這麼一回事啊。
+- wait:
+  - 65
+- face:
+  - 511
+  - 4
+- print:
+  - 店長
+  - 抱歉，讓妳擔心了。
+- wait:
+  - 75
+- print:
+  - 店長
+  - >2
+
+- face:
+  - 511
+  - 2
+- print:
+  - 店長
+  - 放心吧。
+- wait:
+  - 35
+- print:
+  - 店長
+  - 如妳所見，
+- wait:
+  - 40
+- print:
+  - 店長
+  - 我現在精神好得不得了呢。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 411
+  - 30
+- chara_full:
+  - 211
+  - LC
+  - 1
+- se:
+  - se_adv_step_concrete_move_01
+- fadein:
+  - 211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1022010_099
+- face:
+  - 211
+  - 1
+- pop:
+  - 211
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - 店長的孫子
+  - 吶，
+- wait:
+  - 15
+- print:
+  - 店長的孫子
+  - 爺爺是做遊戲的人嗎？
+- wait:
+  - 65
+- print:
+  - 店長的孫子
+  - >2-
+
+    這個是爺爺做的遊戲嗎？
+- touch: *o0
+- focus:
+  - 511
+- bust:
+  - 511
+  - 0
+- vo:
+  - vo_adv_1022010_100
+- face:
+  - 511
+  - 2
+- print:
+  - 店長
+  - 嗯，
+- wait:
+  - 10
+- print:
+  - 店長
+  - 對啊。
+- wait:
+  - 25
+- print:
+  - 店長
+  - >2-
+
+    這是和這裡的所有人一起做的，
+- wait:
+  - 35
+- print:
+  - 店長
+  - 很好玩很好玩的遊戲喔。
+- wait:
+  - 50
+- print:
+  - 店長
+  - >2-
+
+    妳想玩看看嗎？
+- touch: *o0
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1022010_101
+- face:
+  - 211
+  - 2
+- nod:
+  - 211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 店長的孫子
+  - 嗯！
+- wait:
+  - 20
+- print:
+  - 店長的孫子
+  - 爺爺做的遊戲，
+- wait:
+  - 25
+- print:
+  - 店長的孫子
+  - >2-
+
+    我想玩看看！
+- touch: *o0
+- focus:
+  - 511
+- bust:
+  - 511
+  - 0
+- vo:
+  - vo_adv_1022010_102
+- face:
+  - 511
+  - 2
+- print:
+  - 店長
+  - 呵呵呵。
+- wait:
+  - 25
+- print:
+  - 店長
+  - 這樣啊。
+- wait:
+  - 40
+- print:
+  - 店長
+  - >2-
+
+    那麼，
+- wait:
+  - 15
+- print:
+  - 店長
+  - 讓那位姐姐教妳怎麼玩吧。
+- wait:
+  - 60
+- print:
+  - 店長
+  - >2-
+
+    她會
+- wait:
+  - 25
+- print:
+  - 店長
+  - 很溫柔地教妳的。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 511
+  - 30
+- chara_full:
+  - 102211
+  - RC
+  - 6
+- fadein:
+  - 102211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_103
+- face:
+  - 102211
+  - 6
+- emotion:
+  - surprise1_L
+  - 102211
+  - 115
+  - 560
+  - se_adv_emote_common_01
+- print:
+  - 依里
+  - 咦？
+- wait:
+  - 15
+- print:
+  - 依里
+  - 我、
+- wait:
+  - 15
+- print:
+  - 依里
+  - 我……
+- wait:
+  - 20
+- print:
+  - 依里
+  - 我嗎！？
+- wait:
+  - 25
+- print:
+  - 依里
+  - >2-
+
+    呃，
+- wait:
+  - 25
+- print:
+  - 依里
+  - 那個……
+- touch: *o0
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1022010_104
+- face:
+  - 211
+  - 1
+- print:
+  - 店長的孫子
+  - 姐姐妳願意教我玩嗎？
+- wait:
+  - 60
+- print:
+  - 店長的孫子
+  - >2
+
+- face:
+  - 211
+  - 6
+- print:
+  - 店長的孫子
+  - 我也學得會嗎？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 102211
+  - C
+  - 6
+- fadein:
+  - 102211
+  - 30
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_105
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 哇、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 怎、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 怎麼辦……！
+- wait:
+  - 30
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 4
+- print:
+  - 依里
+  - 雖然老爺爺那樣打包票，
+- wait:
+  - 30
+- print:
+  - 依里
+  - >2-
+
+    但我有辦法把遊戲解釋得很有趣嗎……
+- touch: *o0
+- choice:
+  - 大家一起玩吧。
+  - 9
+- tag:
+  - 9
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_106
+- face:
+  - 102211
+  - 6
+- emotion:
+  - exclamation1_R
+  - 102211
+  - -20
+  - 645
+  - se_adv_emote_common_01
+- print:
+  - 依里
+  - …………！
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_107
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - ……說的也是，
+- wait:
+  - 45
+- print:
+  - 依里
+  - 一時緊張都忘記了。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_108
+- face:
+  - 102211
+  - 2
+- eye_open:
+  - False
+- print:
+  - 依里
+  - 這不是
+- wait:
+  - 30
+- eye_open:
+  - True
+- print:
+  - 依里
+  - 很簡單的事嗎。
+- wait:
+  - 25
+- print:
+  - 依里
+  - >2-
+
+    遊戲不是用教的、用學的……
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_109
+- face:
+  - 102211
+  - 2
+- nod:
+  - 102211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 依里
+  - 呵呵……
+- wait:
+  - 35
+- print:
+  - 依里
+  - 那我們
+- wait:
+  - 20
+- print:
+  - 依里
+  - 就來玩看看吧。
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2-
+
+    因為
+- wait:
+  - 20
+- print:
+  - 依里
+  - 遊戲是個──
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022010_110
+- face:
+  - 102211
+  - 2
+- emotion:
+  - note1_L
+  - 102211
+  - -135
+  - 545
+  - se_adv_emote_note_01
+- print:
+  - 依里
+  - ──讓大家一起熱血沸騰，
+- wait:
+  - 35
+- print:
+  - 依里
+  - >2-
+
+    超級開心的東西呀！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 102211
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 依里發自內心露出笑容，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    陪孩子們一起玩遊戲。
+- touch: *o0
+- window_visible:
+  - false
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

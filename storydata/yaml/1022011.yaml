@@ -1,0 +1,3952 @@
+- title:
+  - 依里 第11話
+- outline:
+  - '{0}拜託依里一起玩恐怖遊戲。在回家路上，他因為害依里感到害怕而向依里道歉，依里則是比往常都還要更坦率地說了下次再一起玩吧。'
+- background:
+  - 500370
+- se:
+  - amb_adv_room_noise_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 接關的約定
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 依里和{0}來到遊戲專賣店，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    物色一些有趣的桌遊。
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 102211
+  - C
+  - 2
+- fadein:
+  - 102211
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M407
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022011_000
+- face:
+  - 102211
+  - 2
+- print:
+  - 依里
+  - 最近
+- wait:
+  - 20
+- print:
+  - 依里
+  - 老是玩一些單人模式的地下城遊戲，
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2-
+
+    下次玩些大家可以一起吵吵鬧鬧的遊戲也不錯。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022011_001
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 只不過，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 照我個人喜好選的話，
+- wait:
+  - 40
+- print:
+  - 依里
+  - >2-
+
+    感覺又會挑到相同類型的遊戲……
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022011_002
+- face:
+  - 102211
+  - 2
+- nod:
+  - 102211
+- se:
+  - se_adv_step_concrete_move_01
+- print:
+  - 依里
+  - 吶，
+- wait:
+  - 15
+- print:
+  - 依里
+  - 你那邊有什麼
+- wait:
+  - 25
+- print:
+  - 依里
+  - 不錯的遊戲嗎？
+- touch: *o0
+- choice:
+  - 那個怎麼樣？
+  - 1
+- tag:
+  - 1
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022011_003
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 哪個？
+- wait:
+  - 30
+- print:
+  - 依里
+  - 你說擺在架子上面的那一個嗎？
+- touch: *o0
+- effect:
+  - 0005
+  - se_adv_holylight_01
+- se_pause:
+  - amb_adv_room_noise_day_01
+  - 2
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022011_004
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 它好像在閃閃發亮耶。
+- wait:
+  - 45
+- print:
+  - 依里
+  - 是不是限定版的包裝呀？
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 不知道是不是我的錯覺，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 它好像在發光……
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022011_005
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 光、
+- wait:
+  - 15
+- print:
+  - 依里
+  - 光芒
+- wait:
+  - 15
+- print:
+  - 依里
+  - 怎麼
+- wait:
+  - 15
+- print:
+  - 依里
+  - 越來越強了！？
+- wait:
+  - 50
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 4
+- print:
+  - 依里
+  - 我對這一幕
+- wait:
+  - 15
+- print:
+  - 依里
+  - 好像有印象……
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 依里
+  - 呀啊啊啊～～～～！！！！
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- window_visible:
+  - false
+- fadeout:
+  - 102211
+  - 30
+- effect:
+  - 0006
+  - se_adv_whiteout_01
+- white_out:
+  - 1
+  - 1
+- bg_color:
+  - 255
+  - 255
+  - 255
+- effect_delete:
+  - 0005
+- effect_delete:
+  - 0006
+- background:
+  - 510090
+- wait:
+  - 30
+- white_in: *o0
+- se:
+  - amb_adv_room_noise_01
+- wait:
+  - 30
+- chara_full:
+  - 102232
+  - C
+  - 1
+- fadein:
+  - 102232
+  - 30
+- window_visible:
+  - true
+- se:
+  - se_adv_cloth_move_normal_01
+- bgm:
+  - bgm_M74
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_006
+- face:
+  - 102232
+  - 1
+- print:
+  - 依里
+  - 打、
+- wait:
+  - 20
+- nod:
+  - 102232
+- print:
+  - 依里
+  - 打擾了……
+- touch: *o0
+- choice:
+  - 我去拿點喝的，妳等一下。
+  - 2
+- tag:
+  - 2
+- se:
+  - se_adv_step_rug_walk_go_01
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_007
+- face:
+  - 102232
+  - 1
+- print:
+  - 依里
+  - 嗯、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 嗯，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 我知道了……
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_008
+- face:
+  - 102232
+  - 6
+- print:
+  - 依里
+  - 這裡就是那傢伙的房間……
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2-
+
+    這好像是
+- wait:
+  - 30
+- print:
+  - 依里
+  - 我第一次進到男生的房間。
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_009
+- face:
+  - 102232
+  - 4
+- nod:
+  - 102232
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 依里
+  - …………
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_010
+- face:
+  - 102232
+  - 4
+- print:
+  - 依里
+  - ……好、
+- wait:
+  - 20
+- print:
+  - 依里
+  - 好像有點
+- wait:
+  - 20
+- print:
+  - 依里
+  - 冷靜不下來。
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_011
+- face:
+  - 102232
+  - 1
+- print:
+  - 依里
+  - 不過，
+- wait:
+  - 40
+- print:
+  - 依里
+  - 房間出乎意料的乾淨呢。
+- wait:
+  - 55
+- print:
+  - 依里
+  - >2-
+
+    遊戲和書也都整理得很整齊……
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- se:
+  - se_adv_cloth_move_give_01
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_012
+- face:
+  - 102232
+  - 6
+- print:
+  - 依里
+  - 啊，
+- wait:
+  - 15
+- print:
+  - 依里
+  - 這本不是
+- wait:
+  - 20
+- print:
+  - 依里
+  - 《阿斯特朗攻略全集》嗎？
+- wait:
+  - 40
+- print:
+  - 依里
+  - >2-
+
+    而且，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 他好像都有買我推薦的遊戲……
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_013
+- face:
+  - 102232
+  - 2
+- print:
+  - 依里
+  - 對方願意玩自己推薦的作品，
+- wait:
+  - 55
+- print:
+  - 依里
+  - >2-
+
+    這感覺好像也不壞。
+- touch: *o0
+- choice:
+  - 讓妳久等了。
+  - 3
+- tag:
+  - 3
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_014
+- face:
+  - 102232
+  - 6
+- pop:
+  - 102232
+- se:
+  - se_adv_rabbit_jump_01
+- print:
+  - 依里
+  - 哇啊啊！？
+- wait:
+  - 15
+- print:
+  - 依里
+  - >2-
+
+    你、
+- wait:
+  - 5
+- print:
+  - 依里
+  - 你、
+- wait:
+  - 5
+- print:
+  - 依里
+  - 你別突然跟我搭話啦！
+- wait:
+  - 20
+- face:
+  - 102232
+  - 3
+- print:
+  - 依里
+  - 害我嚇了一大跳！！
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_015
+- face:
+  - 102232
+  - 6
+- print:
+  - 依里
+  - 什麼？
+- wait:
+  - 20
+- print:
+  - 依里
+  - 你問我要喝茶
+- wait:
+  - 45
+- print:
+  - 依里
+  - 還是果汁……
+- wait:
+  - 40
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102232
+  - 1
+- print:
+  - 依里
+  - 那、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 那就
+- wait:
+  - 20
+- print:
+  - 依里
+  - 果汁吧。
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_016
+- face:
+  - 102232
+  - 1
+- eye_open:
+  - False
+- print:
+  - 依里
+  - 嗯……
+- wait:
+  - 35
+- eye_open:
+  - True
+- print:
+  - 依里
+  - 所、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 所以，
+- wait:
+  - 25
+- print:
+  - 依里
+  - >2
+
+- wait:
+  - 30
+- print:
+  - 依里
+  - 你說想和我一起玩的遊戲
+- wait:
+  - 15
+- print:
+  - 依里
+  - 叫什麼呀？
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_017
+- face:
+  - 102232
+  - 1
+- print:
+  - 依里
+  - 阿斯特朗和其他遊戲我們一起玩過好幾次了，
+- wait:
+  - 55
+- print:
+  - 依里
+  - >2-
+
+    你
+- wait:
+  - 15
+- print:
+  - 依里
+  - 其實滿會玩遊戲的吧？
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_018
+- face:
+  - 102232
+  - 6
+- print:
+  - 依里
+  - 居然能讓你叫苦連天，
+- wait:
+  - 35
+- print:
+  - 依里
+  - >2-
+
+    要不是類魂遊戲，
+- wait:
+  - 25
+- print:
+  - 依里
+  - 就是超級困難的遊戲……
+- wait:
+  - 50
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102232
+  - 1
+- print:
+  - 依里
+  - 老實說，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 我也有點好奇。
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_019
+- face:
+  - 102232
+  - 2
+- nod:
+  - 102232
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 依里
+  - 既然我都來了，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 就沒什麼好擔心的。
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2-
+
+    你儘管放一百二十萬顆心吧。
+- wait:
+  - 55
+- face:
+  - 102232
+  - 1
+- print:
+  - 依里
+  - 所以，
+- wait:
+  - 10
+- print:
+  - 依里
+  - 是哪款遊戲呀？
+- touch: *o0
+- se:
+  - se_adv_cloth_move_give_01
+- choice:
+  - 這個。
+  - 4
+- tag:
+  - 4
+- bgm:
+  - stop
+  - 1
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_020
+- face:
+  - 102232
+  - 6
+- print:
+  - 依里
+  - 咦……
+- wait:
+  - 30
+- print:
+  - 依里
+  - 這、
+- wait:
+  - 25
+- print:
+  - 依里
+  - 這是……
+- wait:
+  - 50
+- print:
+  - 依里
+  - >2-
+
+    恐怖遊戲
+- wait:
+  - 35
+- print:
+  - 依里
+  - 吧？
+- wait:
+  - 35
+- face:
+  - 102232
+  - 4
+- print:
+  - 依里
+  - 而、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 而且
+- wait:
+  - 25
+- print:
+  - 依里
+  - 還是新出的……
+- touch: *o0
+- bgm:
+  - bgm_M244
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_021
+- face:
+  - 102232
+  - 6
+- print:
+  - 依里
+  - 你、
+- wait:
+  - 15
+- print:
+  - 依里
+  - 你也會
+- wait:
+  - 25
+- print:
+  - 依里
+  - 玩這種類型的遊戲啊……？
+- wait:
+  - 50
+- print:
+  - 依里
+  - >2-
+
+    喔，
+- wait:
+  - 25
+- print:
+  - 依里
+  - 這、
+- wait:
+  - 15
+- print:
+  - 依里
+  - 這樣啊……？
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_022
+- face:
+  - 102232
+  - 6
+- emotion:
+  - question1_R
+  - 102232
+  - 110
+  - 510
+  - se_adv_emote_question_01
+- print:
+  - 依里
+  - 什麼？
+- wait:
+  - 15
+- print:
+  - 依里
+  - 我？
+- wait:
+  - 30
+- print:
+  - 依里
+  - 我、
+- wait:
+  - 15
+- print:
+  - 依里
+  - 我……
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2-
+
+    沒有玩過這種類型呢……
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_023
+- face:
+  - 102232
+  - 4
+- print:
+  - 依里
+  - 不過，
+- wait:
+  - 15
+- print:
+  - 依里
+  - 這種遊戲……
+- wait:
+  - 15
+- print:
+  - 依里
+  - 呃……
+- wait:
+  - 20
+- face:
+  - 102232
+  - 6
+- print:
+  - 依里
+  - 對了！
+- wait:
+  - 15
+- print:
+  - 依里
+  - >2-
+
+    要是中途才開始玩，一定看不懂啦，
+- wait:
+  - 40
+- print:
+  - 依里
+  - 對吧？
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_024
+- face:
+  - 102232
+  - 1
+- print:
+  - 依里
+  - 我們難得可以一起玩，
+- wait:
+  - 30
+- print:
+  - 依里
+  - >2-
+
+    應該找那種
+- wait:
+  - 15
+- print:
+  - 依里
+  - 協力遊戲
+- wait:
+  - 15
+- print:
+  - 依里
+  - 或是對戰遊戲……
+- touch: *o0
+- choice:
+  - 妳不需要勉強……
+  - 5
+- tag:
+  - 5
+- window_visible:
+  - false
+- change_window:
+  - 3
+- text_size:
+  - 40
+- window_visible:
+  - true
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_025
+- face:
+  - 102232
+  - 3
+- effect:
+  - 9
+- se:
+  - se_adv_mie_01
+- print:
+  - 依里
+  - 玩就玩嘛！
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- window_visible:
+  - true
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_026
+- face:
+  - 102232
+  - 3
+- print:
+  - 依里
+  - 被說到這種地步，
+- wait:
+  - 20
+- print:
+  - 依里
+  - >2-
+
+    我的遊戲玩家之魂是不會默不作聲的！
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_027
+- face:
+  - 102232
+  - 3
+- nod:
+  - 102232
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - 依里
+  - 你可要看清楚了。
+- wait:
+  - 20
+- print:
+  - 依里
+  - 區區一兩個恐怖遊戲，
+- wait:
+  - 30
+- print:
+  - 依里
+  - >2-
+
+    我就華麗地破關給你看！
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
+- window_visible:
+  - false
+- se_pause:
+  - amb_adv_room_noise_01
+  - 1
+- fadeout:
+  - 102232
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 30
+- black_in: *o0
+- se:
+  - amb_adv_room_noise_01
+- chara_full:
+  - 102232
+  - C
+  - 6
+- fadein:
+  - 102232
+  - 30
+- se:
+  - se_adv_magic_damage_01
+- se_pause:
+  - se_adv_magic_damage_01
+  - 1
+- flash: *o0
+- wait:
+  - 15
+- window_visible:
+  - true
+- bgm:
+  - bgm_M56
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_028
+- face:
+  - 102232
+  - 6
+- emotion:
+  - surprise1_L
+  - 102232
+  - 155
+  - 545
+  - se_adv_emote_common_01
+- print:
+  - 依里
+  - 咿呀啊啊啊啊────！！
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_029
+- face:
+  - 102232
+  - 4
+- print:
+  - 依里
+  - 為為為、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 為什麼恐怖遊戲的配樂
+- wait:
+  - 25
+- print:
+  - 依里
+  - >2-
+
+    要這、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 這麼、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 不不、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 不舒服呀！？
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_030
+- face:
+  - 102232
+  - 4
+- print:
+  - 依里
+  - 而且，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 玩家操作的角色走路超慢，
+- wait:
+  - 30
+- print:
+  - 依里
+  - >2-
+
+    還、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 還沒有
+- wait:
+  - 15
+- print:
+  - 依里
+  - 任何攻擊或反擊的手段！！
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_031
+- face:
+  - 102232
+  - 6
+- print:
+  - 依里
+  - 我、
+- wait:
+  - 15
+- print:
+  - 依里
+  - 我我我、
+- wait:
+  - 20
+- print:
+  - 依里
+  - 我也知道呀！
+- wait:
+  - 35
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102232
+  - 4
+- print:
+  - 依里
+  - 這這
+- wait:
+  - 10
+- print:
+  - 依里
+  - 這樣比較、
+- wait:
+  - 20
+- print:
+  - 依里
+  - 恐恐、
+- wait:
+  - 5
+- print:
+  - 依里
+  - 恐怖啦，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 我也知道！
+- wait:
+  - 35
+- print:
+  - 依里
+  - >2-
+
+    可是，
+- wait:
+  - 15
+- print:
+  - 依里
+  - 現在能不玩這種類型的，我會比較高興！
+- wait:
+  - 60
+- print:
+  - 依里
+  - ……咿！？
+- shake:
+  - 102232
+- touch: *o0
+- choice:
+  - 很好玩呢。
+  - 6
+- choice:
+  - 默默地看著。
+  - 7
+- tag:
+  - 6
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_032
+- face:
+  - 102232
+  - 6
+- print:
+  - 依里
+  - 既既、
+- wait:
+  - 15
+- print:
+  - 依里
+  - 既然你這麼從容的話，
+- wait:
+  - 30
+- print:
+  - 依里
+  - 那、
+- wait:
+  - 5
+- print:
+  - 依里
+  - 那那、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 那就換你玩呀！？
+- wait:
+  - 25
+- print:
+  - 依里
+  - >2-
+
+    我我我、
+- wait:
+  - 15
+- print:
+  - 依里
+  - 我
+- wait:
+  - 15
+- print:
+  - 依里
+  - 在後面、
+- wait:
+  - 15
+- print:
+  - 依里
+  - 看看、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 看著！
+- touch: *o0
+- goto:
+  - 8
+- tag:
+  - 7
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_033
+- face:
+  - 102232
+  - 6
+- print:
+  - 依里
+  - 咦？
+- wait:
+  - 15
+- print:
+  - 依里
+  - 喂、
+- wait:
+  - 15
+- print:
+  - 依里
+  - 喂……
+- wait:
+  - 25
+- print:
+  - 依里
+  - >2-
+
+    吶、
+- wait:
+  - 15
+- print:
+  - 依里
+  - 吶，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 你在旁邊吧？
+- wait:
+  - 35
+- print:
+  - 依里
+  - 你還在吧？
+- wait:
+  - 30
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102232
+  - 4
+- print:
+  - 依里
+  - 你應該不會
+- wait:
+  - 15
+- print:
+  - 依里
+  - 丟下我
+- wait:
+  - 30
+- print:
+  - 依里
+  - 自己一個人跑去別的地方吧？？
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_034
+- face:
+  - 102232
+  - 6
+- print:
+  - 依里
+  - 啊、
+- wait:
+  - 15
+- print:
+  - 依里
+  - 啊……
+- wait:
+  - 15
+- print:
+  - 依里
+  - 你、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 你
+- wait:
+  - 5
+- print:
+  - 依里
+  - 在啊。
+- wait:
+  - 15
+- print:
+  - 依里
+  - >2-
+
+    那那、
+- wait:
+  - 15
+- print:
+  - 依里
+  - 那
+- wait:
+  - 15
+- print:
+  - 依里
+  - 就好……
+- touch: *o0
+- tag:
+  - 8
+- window_visible:
+  - false
+- se:
+  - se_adv_magic_damage_01
+- se_pause:
+  - se_adv_magic_damage_01
+  - 1
+- flash: *o0
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_035
+- face:
+  - 102232
+  - 4
+- pop:
+  - 102232
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - 依里
+  - 咿咿咿咿────！！
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_036
+- face:
+  - 102232
+  - 6
+- print:
+  - 依里
+  - 啊，
+- wait:
+  - 5
+- print:
+  - 依里
+  - 什、
+- wait:
+  - 5
+- print:
+  - 依里
+  - 什麼！？
+- wait:
+  - 5
+- print:
+  - 依里
+  - 發生什麼事了？
+- wait:
+  - 25
+- print:
+  - 依里
+  - >2-
+
+    後、
+- wait:
+  - 5
+- print:
+  - 依里
+  - 後面？
+- wait:
+  - 15
+- print:
+  - 依里
+  - 後面……！
+- wait:
+  - 60
+- face:
+  - 102232
+  - 4
+- print:
+  - 依里
+  - 有、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 有幽靈。
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_037
+- face:
+  - 102232
+  - 6
+- print:
+  - 依里
+  - 別、
+- wait:
+  - 5
+- print:
+  - 依里
+  - 別過來啦！
+- wait:
+  - 15
+- print:
+  - 依里
+  - 啊、
+- wait:
+  - 5
+- print:
+  - 依里
+  - 啊、
+- wait:
+  - 15
+- print:
+  - 依里
+  - 不行，
+- wait:
+  - 10
+- print:
+  - 依里
+  - 逃跑的路！！
+- wait:
+  - 15
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102232
+  - 4
+- print:
+  - 依里
+  - 不、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 不能再跑快一點嗎？
+- wait:
+  - 25
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102232
+  - 6
+- print:
+  - 依里
+  - 啊啊！
+- wait:
+  - 5
+- print:
+  - 依里
+  - 慢著、
+- wait:
+  - 5
+- print:
+  - 依里
+  - 等一下！！
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_038
+- face:
+  - 102232
+  - 4
+- print:
+  - 依里
+  - 呀啊啊啊啊啊啊────！！
+- shake:
+  - 102232
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+- window_visible:
+  - false
+- se_pause:
+  - amb_adv_room_noise_01
+  - 2
+- fadeout:
+  - 102232
+  - 30
+- black_out:
+  - 1
+  - 1
+- background:
+  - 510101
+- wait:
+  - 30
+- black_in: *o0
+- se:
+  - amb_adv_home_area_jpn_02
+- chara_full:
+  - 102232
+  - C
+  - 4
+- fadein:
+  - 102232
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M358
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_039
+- face:
+  - 102232
+  - 4
+- print:
+  - 依里
+  - …………
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 依里
+  - 嗚、
+- wait:
+  - 15
+- print:
+  - 依里
+  - 唔……
+- wait:
+  - 60
+- eye_open:
+  - True
+- print:
+  - 依里
+  - 要是早點回家就好了……
+- wait:
+  - 80
+- print:
+  - 依里
+  - >2-
+
+    趁天還亮著的時候……
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_040
+- face:
+  - 102232
+  - 4
+- print:
+  - 依里
+  - 啊，
+- wait:
+  - 10
+- print:
+  - 依里
+  - 真是的……
+- wait:
+  - 30
+- print:
+  - 依里
+  - 我這個笨蛋，
+- wait:
+  - 40
+- print:
+  - 依里
+  - 居然玩遊戲玩得這麼入迷……！
+- wait:
+  - 50
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102232
+  - 6
+- print:
+  - 依里
+  - 多虧這樣，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 回家時間都這麼晚了……！　
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_041
+- face:
+  - 102232
+  - 5
+- print:
+  - 依里
+  - 老實說，
+- wait:
+  - 45
+- print:
+  - 依里
+  - 你能這樣送我回家，
+- wait:
+  - 25
+- print:
+  - 依里
+  - 我很開心，
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102232
+  - 4
+- print:
+  - 依里
+  - 要是早點結束就好了……
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_042
+- face:
+  - 102232
+  - 4
+- print:
+  - 依里
+  - ……不、
+- wait:
+  - 15
+- print:
+  - 依里
+  - 不知道是不是遊戲害的，
+- wait:
+  - 35
+- print:
+  - 依里
+  - 總覺得四周特別令人在意。
+- wait:
+  - 55
+- print:
+  - 依里
+  - >2-
+
+    平時明明不會這樣的……
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_043
+- face:
+  - 102232
+  - 3
+- print:
+  - 依里
+  - 不、
+- wait:
+  - 15
+- nod:
+  - 102232
+- print:
+  - 依里
+  - 不過
+- wait:
+  - 15
+- print:
+  - 依里
+  - 那個特效太狡猾了。
+- wait:
+  - 40
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102232
+  - 4
+- print:
+  - 依里
+  - 先讓玩家誤以為是安全地帶，
+- wait:
+  - 40
+- print:
+  - 依里
+  - >2-
+
+    然後突然襲擊過來……
+- wait:
+  - 40
+- face:
+  - 102232
+  - 3
+- print:
+  - 依里
+  - 太、
+- wait:
+  - 15
+- print:
+  - 依里
+  - 太卑鄙了！
+- touch: *o0
+- choice:
+  - 妳那麼害怕喔？
+  - 9
+- tag:
+  - 9
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_044
+- face:
+  - 102232
+  - 6
+- print:
+  - 依里
+  - 才、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 才沒有，
+- wait:
+  - 15
+- print:
+  - 依里
+  - 那、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 那種程度
+- wait:
+  - 15
+- print:
+  - 依里
+  - 還算是小菜一碟啦！
+- wait:
+  - 25
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102232
+  - 1
+- print:
+  - 依里
+  - 只不過，
+- wait:
+  - 10
+- print:
+  - 依里
+  - 謎團確實是
+- wait:
+  - 30
+- print:
+  - 依里
+  - 有點困難。
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_045
+- face:
+  - 102232
+  - 1
+- print:
+  - 依里
+  - 不過，
+- wait:
+  - 15
+- print:
+  - 依里
+  - 只要掌握一定程度的模式，
+- wait:
+  - 25
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102232
+  - 6
+- print:
+  - 依里
+  - 再、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 再冷靜地玩，
+- wait:
+  - 25
+- print:
+  - 依里
+  - 應該就沒問題了……
+- touch: *o0
+- choice:
+  - 很值得參考。
+  - 10
+- tag:
+  - 10
+- se:
+  - se_adv_cloth_move_normal_01
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_046
+- face:
+  - 102232
+  - 2
+- print:
+  - 依里
+  - 對、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 對對、
+- wait:
+  - 10
+- nod:
+  - 102232
+- print:
+  - 依里
+  - 對吧？
+- wait:
+  - 15
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102232
+  - 1
+- print:
+  - 依里
+  - 你看，
+- wait:
+  - 10
+- print:
+  - 依里
+  - 我、
+- wait:
+  - 5
+- print:
+  - 依里
+  - 我不是說過嗎？
+- wait:
+  - 25
+- print:
+  - 依里
+  - 包包、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 包在我身上。
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_047
+- face:
+  - 102232
+  - 1
+- print:
+  - 依里
+  - 雖、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 雖然
+- wait:
+  - 15
+- print:
+  - 依里
+  - 我是第一次玩，
+- wait:
+  - 35
+- print:
+  - 依里
+  - >2-
+
+    但在其他類型的遊戲經驗
+- wait:
+  - 30
+- print:
+  - 依里
+  - 可以
+- wait:
+  - 15
+- print:
+  - 依里
+  - 發揮作用，
+- wait:
+  - 25
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102232
+  - 6
+- print:
+  - 依里
+  - 遊、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 遊、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 遊戲
+- wait:
+  - 20
+- print:
+  - 依里
+  - 也進展了滿多──
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 0.7
+  - 1
+- se:
+  - se_adv_bush_02
+- face:
+  - 102232
+  - 6
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_048
+- face:
+  - 102232
+  - 4
+- emotion:
+  - surprise1_L
+  - 102232
+  - 155
+  - 545
+  - se_adv_emote_common_01
+- print:
+  - 依里
+  - 哇……！？
+- wait:
+  - 10
+- print:
+  - 依里
+  - 什、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 什麼……？
+- wait:
+  - 10
+- print:
+  - 依里
+  - >2-
+
+    那個黑黑的地方
+- wait:
+  - 15
+- print:
+  - 依里
+  - 好像有什麼……
+- touch: *o0
+- se:
+  - se_adv_bush_02
+- bgm:
+  - bgm_M133
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_049
+- face:
+  - 102232
+  - 4
+- se:
+  - se_adv_vinyl_plastic_bag_01
+- print:
+  - 依里
+  - 哇呀！？
+- shake:
+  - 102232
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 102232
+  - 15
+- se:
+  - se_adv_cloth_move_hard_01
+- chara_full:
+  - 102232
+  - C
+  - 6
+- scale:
+  - 102232
+  - 1.2
+  - 2
+- fadein:
+  - 102232
+  - 15
+- se:
+  - se_adv_hug_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- window_visible:
+  - true
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_050
+- face:
+  - 102232
+  - 6
+- print:
+  - 依里
+  - 喂、
+- wait:
+  - 5
+- print:
+  - 依里
+  - 喂！？
+- wait:
+  - 10
+- print:
+  - 依里
+  - 腳、
+- wait:
+  - 5
+- print:
+  - 依里
+  - 腳、
+- wait:
+  - 5
+- print:
+  - 依里
+  - 腳邊！
+- wait:
+  - 15
+- print:
+  - 依里
+  - >2-
+
+    好、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 好像有什麼！
+- wait:
+  - 5
+- print:
+  - 依里
+  - '{0}！！'
+- wait:
+  - 10
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102232
+  - 4
+- print:
+  - 依里
+  - 你、
+- wait:
+  - 5
+- print:
+  - 依里
+  - 你
+- wait:
+  - 10
+- print:
+  - 依里
+  - 快拿掉！！
+- touch: *o0
+- choice:
+  - 是個會動的塑膠袋……
+  - 11
+- tag:
+  - 11
+- se:
+  - se_adv_cat_voice_04
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ？？？
+  - 喵～～
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 102232
+  - 30
+- se:
+  - se_adv_vinyl_plastic_bag_01
+- black_out:
+  - 1
+  - 0.5
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 102232
+  - C
+  - 6
+- fadein:
+  - 102232
+  - 30
+- se:
+  - se_adv_cat_voice_01
+- window_visible:
+  - true
+- focus:
+  - 1711
+- bust:
+  - 1711
+  - 1
+- face:
+  - 1711
+  - 1
+- print:
+  - 貓
+  - 喵～呼嚕呼嚕♪
+- touch: *o0
+- choice:
+  - 是貓。
+  - 12
+- tag:
+  - 12
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_051
+- face:
+  - 102232
+  - 6
+- print:
+  - 依里
+  - ……貓、
+- wait:
+  - 35
+- print:
+  - 依里
+  - 貓？
+- touch: *o0
+- bgm:
+  - stop
+  - 15
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_052
+- face:
+  - 102232
+  - 6
+- print:
+  - 依里
+  - 原、
+- wait:
+  - 35
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- nod:
+  - 102232
+- print:
+  - 依里
+  - 原來
+- wait:
+  - 50
+- print:
+  - 依里
+  - 是貓……
+- wait:
+  - 35
+- print:
+  - 依里
+  - 呀……？
+- wait:
+  - 40
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102232
+  - 1
+- print:
+  - 依里
+  - 牠、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 牠被塑膠袋勾住了。
+- wait:
+  - 55
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102232
+  - 6
+- print:
+  - 依里
+  - 這這、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 這樣啊，
+- wait:
+  - 25
+- print:
+  - 依里
+  - 是貓呀，
+- wait:
+  - 15
+- print:
+  - 依里
+  - 原來如此，
+- wait:
+  - 30
+- print:
+  - 依里
+  - 嗯。
+- touch: *o0
+- bgm:
+  - bgm_M11_Ver2
+  - 0
+  - 0
+  - 1
+  - 1
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_053
+- face:
+  - 102232
+  - 7
+- print:
+  - 依里
+  - ……什、
+- wait:
+  - 20
+- print:
+  - 依里
+  - 什麼啦？
+- wait:
+  - 30
+- print:
+  - 依里
+  - 你這個眼神。
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102232
+  - 3
+- print:
+  - 依里
+  - 有什麼話想說
+- wait:
+  - 15
+- print:
+  - 依里
+  - 就說出來啊。
+- touch: *o0
+- choice:
+  - 妳會怕嗎？
+  - 13
+- tag:
+  - 13
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_054
+- face:
+  - 102232
+  - 3
+- print:
+  - 依里
+  - 我我、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 我才不怕！
+- wait:
+  - 40
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102232
+  - 7
+- print:
+  - 依里
+  - 我、
+- wait:
+  - 5
+- print:
+  - 依里
+  - 我先說在前頭，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 剛才只是嚇一跳而已……
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_055
+- face:
+  - 102232
+  - 6
+- emotion:
+  - question1_R
+  - 102232
+  - 110
+  - 510
+  - se_adv_emote_question_01
+- print:
+  - 依里
+  - ……？
+- wait:
+  - 30
+- print:
+  - 依里
+  - 怎、
+- wait:
+  - 20
+- print:
+  - 依里
+  - 怎麼了？
+- wait:
+  - 30
+- print:
+  - 依里
+  - >2-
+
+    臉色突然這麼消沉。
+- touch: *o0
+- choice:
+  - 今天真抱歉。
+  - 14
+- tag:
+  - 14
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_056
+- face:
+  - 102232
+  - 6
+- print:
+  - 依里
+  - 你、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 你幹嘛突然道歉呀？
+- wait:
+  - 75
+- print:
+  - 依里
+  - >2-
+
+    ……你說抱歉
+- wait:
+  - 35
+- print:
+  - 依里
+  - 讓我害怕了？
+- wait:
+  - 35
+- print:
+  - 依里
+  - >2-
+
+    沒想到我這麼害怕恐怖遊戲？
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_057
+- face:
+  - 102232
+  - 3
+- print:
+  - 依里
+  - 我、
+- wait:
+  - 25
+- print:
+  - 依里
+  - 我、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 我才不怕……！
+- wait:
+  - 90
+- print:
+  - 依里
+  - >2-
+
+    ……
+- wait:
+  - 20
+- face:
+  - 102232
+  - 7
+- print:
+  - 依里
+  - 我、
+- wait:
+  - 25
+- print:
+  - 依里
+  - 我也沒有不擅長啦，
+- wait:
+  - 45
+- print:
+  - 依里
+  - 應該吧。
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_1022011_058
+- face:
+  - 102232
+  - 6
+- nod:
+  - 102232
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 依里
+  - 那個，
+- wait:
+  - 30
+- print:
+  - 依里
+  - 我既不排斥
+- wait:
+  - 50
+- print:
+  - 依里
+  - 也不討厭恐怖遊戲……
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102232
+  - 1
+- print:
+  - 依里
+  - 那也是
+- wait:
+  - 20
+- print:
+  - 依里
+  - 不是怕不怕
+- wait:
+  - 30
+- print:
+  - 依里
+  - 的問題，
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102232
+  - 4
+- print:
+  - 依里
+  - 所以，
+- wait:
+  - 25
+- print:
+  - 依里
+  - 那個……
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- window_visible:
+  - false
+- fadeout:
+  - 102232
+  - 30
+- white_out:
+  - 1
+  - 1
+- bg_color:
+  - 255
+  - 255
+  - 255
+- still:
+  - 102201101
+- wait:
+  - 15
+- white_in: *o0
+- se:
+  - se_adv_cloth_move_give_01
+- window_visible:
+  - true
+- bgm:
+  - bgm_M108
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 1
+- vo:
+  - vo_adv_1022011_059
+- face:
+  - 102232
+  - 1
+- print:
+  - 依里
+  - ……今天玩的遊戲
+- wait:
+  - 30
+- print:
+  - 依里
+  - 確實很恐怖。
+- wait:
+  - 55
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102232
+  - 6
+- print:
+  - 依里
+  - 但恐怖遊戲
+- wait:
+  - 15
+- print:
+  - 依里
+  - 本來就是這種東西，
+- wait:
+  - 40
+- print:
+  - 依里
+  - >2-
+
+    包含這些在內，我今天都過得很開心……
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 1
+- vo:
+  - vo_adv_1022011_060
+- face:
+  - 102232
+  - 1
+- print:
+  - 依里
+  - 一起玩，
+- wait:
+  - 40
+- print:
+  - 依里
+  - 一起被敵人追著跑而大呼小叫，
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2-
+
+    一起討論攻略路線。
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102232
+  - 5
+- print:
+  - 依里
+  - 我、
+- wait:
+  - 15
+- print:
+  - 依里
+  - 我很開心喔。
+- wait:
+  - 65
+- print:
+  - 依里
+  - 你呢？
+- wait:
+  - 20
+- touch: *o0
+- choice:
+  - 我也很開心。
+  - 15
+- tag:
+  - 15
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 1
+- vo:
+  - vo_adv_1022011_061
+- face:
+  - 102232
+  - 2
+- print:
+  - 依里
+  - 對吧。
+- wait:
+  - 45
+- print:
+  - 依里
+  - 而且，
+- wait:
+  - 15
+- print:
+  - 依里
+  - 我不是說過嗎？
+- wait:
+  - 30
+- print:
+  - 依里
+  - >2-
+
+    既然我都來了，
+- wait:
+  - 45
+- print:
+  - 依里
+  - 就沒什麼好擔心的。
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 1
+- vo:
+  - vo_adv_1022011_062
+- face:
+  - 102232
+  - 1
+- print:
+  - 依里
+  - 我也是個能獨當一面的遊戲玩家。
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2-
+
+    只要一開始玩遊戲，
+- wait:
+  - 25
+- print:
+  - 依里
+  - 就一定要徹底攻略。
+- wait:
+  - 65
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102232
+  - 6
+- print:
+  - 依里
+  - 雖然進步得不是很快……
+- wait:
+  - 50
+- face:
+  - 102232
+  - 1
+- print:
+  - 依里
+  - 但總有一天一定會的。
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 1
+- vo:
+  - vo_adv_1022011_063
+- face:
+  - 102232
+  - 2
+- print:
+  - 依里
+  - 所以，
+- wait:
+  - 15
+- print:
+  - 依里
+  - 我們下次再一起玩吧。
+- wait:
+  - 50
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102232
+  - 4
+- print:
+  - 依里
+  - 老實說，我會害怕……
+- wait:
+  - 65
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102232
+  - 1
+- print:
+  - 依里
+  - 但也很好玩，
+- wait:
+  - 30
+- print:
+  - 依里
+  - 我也不是真的討厭恐怖遊戲。
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 1
+- vo:
+  - vo_adv_1022011_064
+- face:
+  - 102232
+  - 2
+- print:
+  - 依里
+  - 一個人或許會害怕，
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2-
+
+    但只要你在身邊就沒問題了。
+- wait:
+  - 75
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102232
+  - 5
+- print:
+  - 依里
+  - ……
+- wait:
+  - 25
+- print:
+  - 依里
+  - 大概吧。
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+- window_visible:
+  - false
+- effect:
+  - 0005
+  - se_adv_holylight_01
+- effect:
+  - 0006
+  - se_adv_whiteout_01
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0005
+- effect_delete:
+  - 0006
+- background:
+  - 500270
+- still:
+  - end
+- se_pause:
+  - amb_adv_home_area_jpn_02
+  - 1
+- wait:
+  - 15
+- effect:
+  - 0029
+- effect:
+  - 0026
+- effect:
+  - 0015
+  - se_adv_whiteout_02
+- white_in: *o0
+- se:
+  - amb_adv_wind_01
+- bgm:
+  - bgm_M40
+  - 0
+  - 0
+  - 1
+- wait:
+  - 60
+- chara_full:
+  - 190011
+  - C
+  - 1
+- fadein:
+  - 190011
+  - 30
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1022011_065
+- face:
+  - 190011
+  - 1
+- print:
+  - 愛梅斯
+  - 好，
+- wait:
+  - 10
+- print:
+  - 愛梅斯
+  - 辛苦了。
+- wait:
+  - 35
+- print:
+  - 愛梅斯
+  - >2-
+
+    這次的夢如何？
+- wait:
+  - 30
+- face:
+  - 190011
+  - 2
+- print:
+  - 愛梅斯
+  - 有做一場好夢嗎？
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1022011_066
+- face:
+  - 190011
+  - 6
+- print:
+  - 愛梅斯
+  - 依里前所未見的率直讓我滿意外的……
+- wait:
+  - 55
+- print:
+  - 愛梅斯
+  - >2
+
+- face:
+  - 190011
+  - 1
+- print:
+  - 愛梅斯
+  - 恐怖遊戲膽顫心驚的感覺，
+- wait:
+  - 25
+- print:
+  - 愛梅斯
+  - >2-
+
+    恰巧發揮了類似吊橋效應的效果吧。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1022011_067
+- face:
+  - 190011
+  - 1
+- print:
+  - 愛梅斯
+  - 話說回來，
+- wait:
+  - 15
+- print:
+  - 愛梅斯
+  - >2-
+
+    想不到依里
+- wait:
+  - 10
+- print:
+  - 愛梅斯
+  - 也有不曾體驗過的遊戲類型呢。
+- wait:
+  - 45
+- print:
+  - 愛梅斯
+  - >2-
+
+    讓我有點訝異。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1022011_068
+- face:
+  - 190011
+  - 2
+- print:
+  - 愛梅斯
+  - 雖然依里正處於不夠坦率的年紀，
+- wait:
+  - 55
+- print:
+  - 愛梅斯
+  - >2-
+
+    透過喜歡的東西，能夠感受得出來，
+- wait:
+  - 25
+- print:
+  - 愛梅斯
+  - 她也正在努力。
+- wait:
+  - 45
+- print:
+  - 愛梅斯
+  - >2-
+
+    而她的努力或許也逐漸開始開花結果。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1022011_069
+- face:
+  - 190011
+  - 1
+- print:
+  - 愛梅斯
+  - 她正在慢慢敞開心房，
+- wait:
+  - 45
+- print:
+  - 愛梅斯
+  - >2-
+
+    你可要好好保護她喔。
+- wait:
+  - 35
+- face:
+  - 190011
+  - 2
+- print:
+  - 愛梅斯
+  - 那就再見囉～♪
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 190011
+  - 30
+- bgm:
+  - stop
+  - 3
+  - 1
+- effect:
+  - 0006
+  - se_adv_whiteout_01
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0006
+- effect_delete:
+  - 0029
+- effect_delete:
+  - 0026
+- background:
+  - 500370
+- se_pause:
+  - amb_adv_wind_01
+  - 1
+- wait:
+  - 30
+- white_in: *o0
+- se:
+  - amb_adv_room_noise_day_01
+- vo_effect:
+  - 0
+- chara_full:
+  - 102211
+  - C
+  - 4
+  - 1
+- fadein:
+  - 102211
+  - 30
+- se:
+  - se_adv_cloth_move_normal_01
+- window_visible:
+  - true
+- bgm:
+  - bgm_M114
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022011_070
+- face:
+  - 102211
+  - 4
+- print:
+  - 依里
+  - 嗯嗯……？
+- wait:
+  - 50
+- print:
+  - 依里
+  - >2
+
+- eye_open:
+  - True
+- nod:
+  - 102211
+- print:
+  - 依里
+  - 呼啊啊……
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022011_071
+- face:
+  - 102211
+  - 4
+- print:
+  - 依里
+  - 我在夢裡
+- wait:
+  - 30
+- print:
+  - 依里
+  - 好像遭遇了很可怕的事……
+- wait:
+  - 75
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 不過，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 感覺卻不是那麼地討厭……
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022011_072
+- face:
+  - 102211
+  - 6
+- emotion:
+  - exclamation1_R
+  - 102211
+  - -20
+  - 645
+  - se_adv_emote_common_01
+- print:
+  - 依里
+  - 哇，
+- wait:
+  - 15
+- print:
+  - 依里
+  - 都這個時間了！
+- wait:
+  - 20
+- print:
+  - 依里
+  - >2
+
+- se:
+  - se_adv_body_sitdown_01
+- print:
+  - 依里
+  - 我得快點回家才行……
+- wait:
+  - 25
+- print:
+  - 依里
+  - 哇呀！
+- wait:
+  - 10
+- touch: *o0
+- window_visible:
+  - false
+- se_pause:
+  - se_adv_body_sitdown_01
+  - 1
+- fadeout:
+  - 102211
+  - 15
+- se:
+  - se_adv_body_catch_down_01
+- chara_full:
+  - 102211
+  - C
+  - 6
+- scale:
+  - 102211
+  - 1.2
+  - 2
+- fadein:
+  - 102211
+  - 15
+- shake:
+  - 102211
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022011_073
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 啊，
+- wait:
+  - 30
+- print:
+  - 依里
+  - 是你救了我……
+- wait:
+  - 60
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 嗯……
+- wait:
+  - 20
+- print:
+  - 依里
+  - 我、
+- wait:
+  - 15
+- print:
+  - 依里
+  - 我沒事，
+- wait:
+  - 30
+- print:
+  - 依里
+  - 也沒有受傷。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022011_074
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 咦？
+- wait:
+  - 15
+- print:
+  - 依里
+  - 我、
+- wait:
+  - 20
+- print:
+  - 依里
+  - 我的臉很紅……？
+- wait:
+  - 55
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 啊，
+- wait:
+  - 5
+- print:
+  - 依里
+  - 喔，
+- wait:
+  - 30
+- print:
+  - 依里
+  - 那個，
+- wait:
+  - 20
+- print:
+  - 依里
+  - 對啦。
+- wait:
+  - 20
+- print:
+  - 依里
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 依里
+  - 我、
+- wait:
+  - 15
+- print:
+  - 依里
+  - 我好像有點熱，
+- wait:
+  - 25
+- print:
+  - 依里
+  - 又不是那麼熱……
+- wait:
+  - 25
+- print:
+  - 依里
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 依里
+  - 大概是這種感覺，
+- wait:
+  - 30
+- print:
+  - 依里
+  - 嗯。
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022011_075
+- face:
+  - 102211
+  - 6
+- se:
+  - se_adv_body_touch_01
+- print:
+  - 依里
+  - 呀啊！？
+- shake:
+  - 102211
+- wait:
+  - 5
+- face:
+  - 102211
+  - 3
+- print:
+  - 依里
+  - 你、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 你突然做什麼呀！
+- wait:
+  - 70
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - ……你說
+- wait:
+  - 40
+- print:
+  - 依里
+  - 得量量我的體溫？
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022011_076
+- face:
+  - 102211
+  - 5
+- print:
+  - 依里
+  - 啊，
+- wait:
+  - 30
+- print:
+  - 依里
+  - 這傢伙的手，
+- wait:
+  - 30
+- print:
+  - 依里
+  - 涼涼的，好舒服呀……
+- wait:
+  - 75
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 不是啦！
+- wait:
+  - 15
+- print:
+  - 依里
+  - 　
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022011_077
+- face:
+  - 102211
+  - 1
+- print:
+  - 依里
+  - 他、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 他做這種事
+- wait:
+  - 15
+- print:
+  - 依里
+  - 反而會讓我的體溫升高吧！
+- wait:
+  - 50
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 4
+- print:
+  - 依里
+  - 距離都已經這麼近了，
+- wait:
+  - 25
+- print:
+  - 依里
+  - 我的心臟都快爆炸了！　
+- touch: *o0
+- choice:
+  - 好像發燒了吧……？
+  - 16
+- tag:
+  - 16
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_1022011_078
+- face:
+  - 102211
+  - 6
+- emotion:
+  - sweat2_R
+  - 102211
+  - 55
+  - 530
+  - se_adv_emote_sweat_02
+- print:
+  - 依里
+  - 啊，
+- wait:
+  - 15
+- print:
+  - 依里
+  - 呃，
+- wait:
+  - 15
+- print:
+  - 依里
+  - 那個……
+- wait:
+  - 25
+- print:
+  - 依里
+  - 我、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 我沒事啦！
+- wait:
+  - 15
+- print:
+  - 依里
+  - 不是啦！
+- wait:
+  - 15
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 4
+- print:
+  - 依里
+  - 這、
+- wait:
+  - 10
+- print:
+  - 依里
+  - 這個
+- wait:
+  - 15
+- print:
+  - 依里
+  - 不是發燒……
+- wait:
+  - 35
+- print:
+  - 依里
+  - 那個……
+- wait:
+  - 45
+- print:
+  - 依里
+  - >2
+
+- face:
+  - 102211
+  - 6
+- print:
+  - 依里
+  - 反、
+- wait:
+  - 25
+- print:
+  - 依里
+  - 反正
+- wait:
+  - 20
+- print:
+  - 依里
+  - 我沒事啦～～～！！！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 102211
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 依里面紅耳赤，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    看著{0}擔憂的神情，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    無法推開貼在額頭上的手。
+- touch: *o0
+- window_visible:
+  - false
+- se_pause:
+  - amb_adv_room_noise_day_01
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

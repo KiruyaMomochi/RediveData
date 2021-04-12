@@ -1,0 +1,1201 @@
+- title:
+  - 騷動不斷的配送之路
+- outline:
+  - 進入森林的{0}不小心弄丟了神祕書本，一直守護他的步未替他撿了起來。與【純白之翼 蘭德索爾分部】的大家相會，接著又前往下一個目的地。
+- background:
+  - 500170
+- amb:
+  - amb_adv_forest_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 騷動不斷的配送之路
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 手上拿著神祕書本，前往下一個目的地的
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    {0}──
+- wait:
+  - 30
+- touch: &o0 []
+- bgm:
+  - bgm_M11_Ver2
+  - 0
+  - 0
+  - 1
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_9002009_000
+- face:
+  - 1
+  - 1
+- print:
+  - ？？？
+  - 那、
+- wait:
+  - 30
+- print:
+  - ？？？
+  - 那個……！
+- touch: *o0
+- se:
+  - se_adv_bush_03
+- choice:
+  - ……？
+  - 1
+- tag:
+  - 1
+- se:
+  - se_adv_step_leaves_move_01
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_9002009_001
+- face:
+  - 1
+  - 1
+- print:
+  - ？？？
+  - 哇哇哇，
+- wait:
+  - 20
+- print:
+  - ？？？
+  - 我忍不住躲起來了……！
+- wait:
+  - 45
+- print:
+  - ？？？
+  - >2-
+
+    可是這樣下去前輩會很困擾……
+- wait:
+  - 55
+- print:
+  - ？？？
+  - >2-
+
+    拿出勇氣來……
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
+- window_visible:
+  - false
+- chara_full:
+  - 105511
+  - LC
+  - 6
+- se:
+  - se_adv_step_leaves_run_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 30
+- fadein:
+  - 105511
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M203
+- focus:
+  - 105511
+- bust:
+  - 105511
+  - 0
+- vo:
+  - vo_adv_9002009_002
+- face:
+  - 105511
+  - 6
+- print:
+  - 步未
+  - 前、
+- wait:
+  - 15
+- print:
+  - 步未
+  - 前輩！
+- wait:
+  - 20
+- print:
+  - 步未
+  - >2
+
+- nod:
+  - 105511
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 步未
+  - 這本書
+- wait:
+  - 20
+- print:
+  - 步未
+  - 掉了喔……！
+- touch: *o0
+- focus:
+  - 105511
+- bust:
+  - 105511
+  - 0
+- vo:
+  - vo_adv_9002009_003
+- face:
+  - 105511
+  - 4
+- emotion:
+  - sweat2_R
+  - 105511
+  - 75
+  - 535
+  - se_adv_emote_sweat_02
+- print:
+  - 步未
+  - 不好意思！
+- wait:
+  - 30
+- print:
+  - 步未
+  - >2-
+
+    我很之前就撿到了，
+- wait:
+  - 20
+- print:
+  - 步未
+  - 但實在說不出口……！
+- touch: *o0
+- choice:
+  - 謝謝妳。
+  - 2
+- tag:
+  - 2
+- focus:
+  - 105511
+- bust:
+  - 105511
+  - 0
+- vo:
+  - vo_adv_9002009_004
+- face:
+  - 105511
+  - 6
+- print:
+  - 步未
+  - ……咦？
+- wait:
+  - 30
+- print:
+  - 步未
+  - 不、
+- wait:
+  - 15
+- print:
+  - 步未
+  - 不要客氣！
+- wait:
+  - 30
+- print:
+  - 步未
+  - >2
+
+- face:
+  - 105511
+  - 2
+- print:
+  - 步未
+  - 能幫上前輩的忙
+- wait:
+  - 20
+- print:
+  - 步未
+  - 實在太好了……！
+- touch: *o0
+- focus:
+  - 105511
+- bust:
+  - 105511
+  - 0
+- vo:
+  - vo_adv_9002009_005
+- face:
+  - 105511
+  - 1
+- print:
+  - 步未
+  - 那個……
+- wait:
+  - 30
+- print:
+  - 步未
+  - 前輩接下來是
+- wait:
+  - 30
+- print:
+  - 步未
+  - >2-
+
+    要去莫妮卡她們那裡對吧？
+- wait:
+  - 50
+- print:
+  - 步未
+  - >2-
+
+    大家就在前面……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105511
+  - 30
+- chara_full:
+  - 103011
+  - C
+  - 2
+- chara_full:
+  - 104511
+  - R
+  - 4
+- se:
+  - se_adv_step_leaves_run_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - C
+  - 30
+- change:
+  - RC
+  - R
+  - 30
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103011
+- bust:
+  - 103011
+  - 0
+- vo:
+  - vo_adv_9002009_006
+- face:
+  - 103011
+  - 2
+- print:
+  - 妮諾
+  - 登登登！
+- wait:
+  - 25
+- pop:
+  - 103011
+- se:
+  - se_adv_body_jump_01
+- print:
+  - 妮諾
+  - 如何！
+- wait:
+  - 75
+- print:
+  - 妮諾
+  - >2
+
+- face:
+  - 103011
+  - 1
+- print:
+  - 妮諾
+  - 將軍！
+- wait:
+  - 15
+- print:
+  - 妮諾
+  - 我
+- wait:
+  - 15
+- print:
+  - 妮諾
+  - 帶你走捷徑！
+- touch: *o0
+- se:
+  - se_adv_cloth_move_normal_01
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 0
+- vo:
+  - vo_adv_9002009_007
+- face:
+  - 104511
+  - 4
+- nod:
+  - 104511
+- print:
+  - 空花
+  - 呼呼呼……
+- wait:
+  - 75
+- print:
+  - 空花
+  - 這條捷徑全都是荊棘，
+- wait:
+  - 35
+- print:
+  - 空花
+  - >2-
+
+    讓空花的身體受了好多傷啊。
+- wait:
+  - 60
+- print:
+  - 空花
+  - >2
+
+- face:
+  - 104511
+  - 2
+- print:
+  - 空花
+  - 感覺會留下消不掉的疤痕……
+- wait:
+  - 55
+- face:
+  - 104511
+  - 5
+- print:
+  - 空花
+  - 嘻嘻、
+- wait:
+  - 20
+- print:
+  - 空花
+  - 嘻嘻。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105511
+  - LC
+  - 6
+- chara_full:
+  - 103011
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105511
+- bust:
+  - 105511
+  - 0
+- vo:
+  - vo_adv_9002009_008
+- face:
+  - 105511
+  - 6
+- emotion:
+  - surprise1_L
+  - 105511
+  - 140
+  - 555
+  - se_adv_emote_common_01
+- print:
+  - 步未
+  - 荊棘嗎！？
+- wait:
+  - 45
+- print:
+  - 步未
+  - >2
+
+- face:
+  - 105511
+  - 4
+- print:
+  - 步未
+  - 那個……
+- wait:
+  - 15
+- print:
+  - 步未
+  - 既然如此就走普通道路……
+- touch: *o0
+- focus:
+  - 103011
+- bust:
+  - 103011
+  - 0
+- vo:
+  - vo_adv_9002009_009
+- face:
+  - 103011
+  - 2
+- print:
+  - 妮諾
+  - 不必擔心！！
+- wait:
+  - 45
+- print:
+  - 妮諾
+  - >2
+
+- face:
+  - 103011
+  - 1
+- print:
+  - 妮諾
+  - 障礙物
+- wait:
+  - 25
+- print:
+  - 妮諾
+  - 我們已經解決了！
+- wait:
+  - 50
+- print:
+  - 妮諾
+  - >2-
+
+    來吧來吧，
+- wait:
+  - 30
+- print:
+  - 妮諾
+  - 將軍一行人要通過了！！
+- wait:
+  - 60
+- face:
+  - 103011
+  - 2
+- pop:
+  - 103011
+- print:
+  - 妮諾
+  - 哦──哦哦──！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_leaves_walk_go_01
+- change:
+  - R
+  - RC
+  - 30
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105511
+  - C
+  - 1
+- fadein:
+  - 105511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105511
+- bust:
+  - 105511
+  - 0
+- vo:
+  - vo_adv_9002009_010
+- face:
+  - 105511
+  - 1
+- print:
+  - 步未
+  - 那麼前輩，
+- wait:
+  - 30
+- print:
+  - 步未
+  - 出發吧。
+- wait:
+  - 60
+- print:
+  - 步未
+  - >2
+
+- face:
+  - 105511
+  - 2
+- print:
+  - 步未
+  - 啊……
+- wait:
+  - 40
+- print:
+  - 步未
+  - 呵呵，
+- wait:
+  - 40
+- print:
+  - 步未
+  - 不禁想起以前的事情了。
+- wait:
+  - 70
+- print:
+  - 步未
+  - >2-
+
+    那個時候也
+- wait:
+  - 30
+- print:
+  - 步未
+  - 是在這樣的森林中呢。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105511
+  - 30
+- se:
+  - se_adv_magic_holy_small_3
+- white_out:
+  - 1
+  - 1
+- bg_color:
+  - 255
+  - 255
+  - 255
+- still:
+  - 301200201
+- wait:
+  - 15
+- effect:
+  - 0087
+- white_in: *o0
+- window_visible:
+  - true
+- focus:
+  - 105511
+- bust:
+  - 105511
+  - 1
+- vo:
+  - vo_adv_9002009_011
+- face:
+  - 105511
+  - 1
+- print:
+  - 步未
+  - 守護著前輩，
+- wait:
+  - 45
+- print:
+  - 步未
+  - >2-
+
+    結果被這個公會的大家發現……
+- wait:
+  - 45
+- print:
+  - 步未
+  - >2
+
+- face:
+  - 105511
+  - 2
+- print:
+  - 步未
+  - 就這樣
+- wait:
+  - 20
+- print:
+  - 步未
+  - 開始一起相處了……
+- touch: *o0
+- window_visible:
+  - false
+- se_pause:
+  - se_adv_magic_holy_small_3
+  - 1
+- se:
+  - se_adv_magic_holy_small_2
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0087
+- background:
+  - 500170
+- still:
+  - end
+- wait:
+  - 15
+- white_in: *o0
+- chara_full:
+  - 105511
+  - C
+  - 1
+- fadein:
+  - 105511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105511
+- bust:
+  - 105511
+  - 0
+- vo:
+  - vo_adv_9002009_012
+- face:
+  - 105511
+  - 1
+- print:
+  - 步未
+  - 將我和大家的緣分繫在一起的
+- wait:
+  - 45
+- print:
+  - 步未
+  - 就是前輩呢。
+- wait:
+  - 55
+- print:
+  - 步未
+  - >2
+
+- face:
+  - 105511
+  - 6
+- print:
+  - 步未
+  - 所以，
+- wait:
+  - 20
+- print:
+  - 步未
+  - 那個……
+- wait:
+  - 60
+- print:
+  - 步未
+  - 謝、
+- wait:
+  - 25
+- pop:
+  - 105511
+- print:
+  - 步未
+  - 謝謝逆！？
+- wait:
+  - 45
+- print:
+  - 步未
+  - >2
+
+- face:
+  - 105511
+  - 4
+- print:
+  - 步未
+  - 吃、
+- wait:
+  - 25
+- print:
+  - 步未
+  - 吃螺絲了……！！
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+- window_visible:
+  - false
+- fadeout:
+  - 105511
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500040
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- amb:
+  - amb_adv_room_noise_01
+- chara_full:
+  - 105311
+  - LC
+  - 1
+- chara_full:
+  - 100811
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M422
+  - 0
+  - 0
+  - 1
+- focus:
+  - 105311
+- bust:
+  - 105311
+  - 0
+- vo:
+  - vo_adv_9002009_013
+- face:
+  - 105311
+  - 1
+- print:
+  - 莫妮卡
+  - 終於來了嗎？
+- touch: *o0
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_9002009_014
+- face:
+  - 100811
+  - 1
+- print:
+  - 雪
+  - 啊、
+- wait:
+  - 25
+- print:
+  - 雪
+  - 來得正是時候！
+- wait:
+  - 35
+- print:
+  - 雪
+  - >2
+
+- face:
+  - 100811
+  - 2
+- print:
+  - 雪
+  - 剛剛發現了
+- wait:
+  - 45
+- print:
+  - 雪
+  - 我看起來更可愛的角度喔！
+- touch: *o0
+- se:
+  - se_adv_cloth_move_give_01
+- choice:
+  - 把書遞過去。
+  - 3
+- tag:
+  - 3
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 103011
+  - LC
+  - 1
+- chara_full:
+  - 105511
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103011
+- bust:
+  - 103011
+  - 0
+- vo:
+  - vo_adv_9002009_015
+- face:
+  - 103011
+  - 1
+- nod:
+  - 103011
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 妮諾
+  - 那麼
+- wait:
+  - 30
+- print:
+  - 妮諾
+  - 這本秘藏的書就暫借一下，
+- wait:
+  - 50
+- print:
+  - 妮諾
+  - >2-
+
+    立刻開始吧──！！
+- touch: *o0
+- focus:
+  - 105511
+- bust:
+  - 105511
+  - 0
+- vo:
+  - vo_adv_9002009_016
+- face:
+  - 105511
+  - 6
+- print:
+  - 步未
+  - 請、
+- wait:
+  - 15
+- print:
+  - 步未
+  - 請等一下！
+- wait:
+  - 25
+- print:
+  - 步未
+  - >2
+
+- face:
+  - 105511
+  - 4
+- print:
+  - 步未
+  - 那個、
+- wait:
+  - 10
+- print:
+  - 步未
+  - 不好意思……
+- wait:
+  - 40
+- print:
+  - 步未
+  - >2-
+
+    前輩
+- wait:
+  - 20
+- print:
+  - 步未
+  - 必須要
+- wait:
+  - 30
+- print:
+  - 步未
+  - 暫時閉上眼睛才行……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- transition:
+  - 52
+  - 1.5
+- bg_color:
+  - 0
+  - 0
+  - 0
+- wait:
+  - 15
+- transition_resume: *o0
+- window_visible:
+  - true
+- se:
+  - se_adv_paper_pickup_04
+- focus:
+  - 103011
+- bust:
+  - 103011
+  - 1
+- vo:
+  - vo_adv_9002009_017
+- face:
+  - 103011
+  - 1
+- print:
+  - 妮諾
+  - 那麼……
+- wait:
+  - 45
+- print:
+  - 妮諾
+  - 登登登登登！
+- wait:
+  - 30
+- print:
+  - 妮諾
+  - >2-
+
+    忍術‧千手觀音之術！
+- wait:
+  - 60
+- face:
+  - 103011
+  - 2
+- se:
+  - se_adv_paper_move_06
+- print:
+  - 妮諾
+  - 咻啪啪啪啪啪啪！！
+- touch: *o0
+- focus:
+  - 104511
+- bust:
+  - 104511
+  - 1
+- vo:
+  - vo_adv_9002009_018
+- face:
+  - 104511
+  - 2
+- print:
+  - 空花
+  - 空、
+- wait:
+  - 15
+- print:
+  - 空花
+  - 空花也會加油～！！
+- touch: *o0
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 1
+- vo:
+  - vo_adv_9002009_019
+- face:
+  - 100811
+  - 2
+- print:
+  - 雪
+  - 如此一來，
+- wait:
+  - 30
+- print:
+  - 雪
+  - 更襯托出我的美貌了呢♪
+- touch: *o0
+- focus:
+  - 105511
+- bust:
+  - 105511
+  - 1
+- vo:
+  - vo_adv_9002009_020
+- face:
+  - 105511
+  - 1
+- print:
+  - 步未
+  - ……那個，
+- wait:
+  - 15
+- print:
+  - 步未
+  - 前輩，
+- wait:
+  - 35
+- print:
+  - 步未
+  - 已經可以張開眼睛了唷。
+- touch: *o0
+- window_visible:
+  - false
+- transition:
+  - 52
+  - 1.5
+- background:
+  - 500040
+- wait:
+  - 15
+- transition_resume: *o0
+- chara_full:
+  - 105311
+  - LC
+  - 1
+- chara_full:
+  - 105511
+  - RC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105511
+- bust:
+  - 105511
+  - 0
+- vo:
+  - vo_adv_9002009_021
+- face:
+  - 105511
+  - 2
+- print:
+  - 步未
+  - 前輩，
+- wait:
+  - 30
+- print:
+  - 步未
+  - 這本書還要麻煩你
+- wait:
+  - 45
+- print:
+  - 步未
+  - 送去下一個收件人手裡。
+- wait:
+  - 60
+- print:
+  - 步未
+  - >2
+
+- face:
+  - 105511
+  - 1
+- nod:
+  - 105511
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 步未
+  - 配送地點
+- wait:
+  - 20
+- print:
+  - 步未
+  - 已經寫在這裡了。
+- touch: *o0
+- focus:
+  - 105311
+- bust:
+  - 105311
+  - 0
+- vo:
+  - vo_adv_9002009_022
+- face:
+  - 105311
+  - 1
+- print:
+  - 莫妮卡
+  - 今後也……
+- wait:
+  - 35
+- print:
+  - 莫妮卡
+  - 多多指教了。
+- wait:
+  - 45
+- print:
+  - 莫妮卡
+  - >2
+
+- face:
+  - 105311
+  - 2
+- print:
+  - 莫妮卡
+  - 然後哪一天
+- wait:
+  - 20
+- print:
+  - 莫妮卡
+  - 純白之翼之名，
+- wait:
+  - 35
+- print:
+  - 莫妮卡
+  - >2-
+
+    將會與閣下一同廣而傳之！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 在【純白之翼 蘭德索爾分部】諸位成員的目送下，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    {0}繼續接下來的旅程。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0
