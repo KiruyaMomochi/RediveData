@@ -1,16 +1,16 @@
 - title:
   - 2部 第6章 第5話
 - outline:
-  - ' '
+  - 一行人入住旅館，浸泡溫泉舒緩連日的疲勞。當晚，睡夢中的{0}做了和優衣一起經營簡餐店的奇妙夢境。然而，蘭法與美空隨即出現在夢中……
 - background:
   - 500671
-- amb:
+- se:
   - amb_adv_room_noise_01
 - bg_pan:
   - -170
   - 0
 - situation:
-  - 暫定標題
+  - 誘惑的魔歌
 - window_visible:
   - true
 - focus:
@@ -53,7 +53,8 @@
 - touch: *o0
 - window_visible:
   - false
-- amb_stop:
+- se_pause:
+  - amb_adv_room_noise_01
   - 1
 - black_out:
   - 1
@@ -66,11 +67,20 @@
   - 210600501
 - wait:
   - 15
+- se:
+  - se_adv_bucket_bathroom_hotspring_01
 - black_in: *o0
-- amb:
+- se:
   - amb_adv_hotspring_01
 - window_visible:
   - true
+- vo_effect:
+  - 3
+- bgm:
+  - bgm_M185_02
+  - 0
+  - 0
+  - 1
 - focus:
   - 106412
 - bust:
@@ -123,14 +133,14 @@
   - 可可蘿
   - 主人──？
 - wait:
-  - 15
+  - 45
 - print:
   - 可可蘿
   - >2-
 
     您那邊的水溫
 - wait:
-  - 15
+  - 35
 - print:
   - 可可蘿
   - 如何呢──？
@@ -164,7 +174,7 @@
   - 優衣
   - >2-
 
-    既然有澡堂，
+    既然是澡堂，
 - wait:
   - 45
 - print:
@@ -186,6 +196,8 @@
 - face:
   - 100211
   - 8
+- se:
+  - se_adv_emote_shy_02
 - print:
   - 優衣
   - 噗咻～～～～～～
@@ -230,7 +242,7 @@
   - 可可蘿
   - 醫生！
 - wait:
-  - 15
+  - 20
 - print:
   - 可可蘿
   - >2-
@@ -246,15 +258,15 @@
   - vo_adv_2106005_006
 - face:
   - 105111
-  - 1
+  - 2
 - print:
   - 深月
-  - 來了來了，
+  - 醫生來囉，
 - wait:
   - 10
 - print:
   - 深月
-  - 診斷結果～♪
+  - 診斷結果是～♪
 - wait:
   - 60
 - print:
@@ -263,10 +275,10 @@
 
 - face:
   - 105111
-  - 2
+  - 1
 - print:
   - 深月
-  - 她是腦充血了，
+  - 腦充血了呢，
 - wait:
   - 30
 - print:
@@ -287,14 +299,19 @@
   - 妮諾
   - 忍忍！
 - wait:
-  - 15
+  - 30
 - print:
   - 妮諾
-  - >2-
+  - >2
 
-    既然有瀑布，
+- face:
+  - 109611
+  - 1
+- print:
+  - 妮諾
+  - 既然有瀑布，
 - wait:
-  - 15
+  - 30
 - print:
   - 妮諾
   - 就唯有修行一途是也！
@@ -311,21 +328,26 @@
   - 2
 - print:
   - 空花
-  - 這叫做灌頂泉～♪
+  - 這就叫做灌頂泉嗎～♪
 - wait:
-  - 15
+  - 55
 - print:
   - 空花
   - >2-
 
     沖起來很舒暢～♪
 - wait:
-  - 15
+  - 45
 - print:
   - 空花
-  - >2-
+  - >2
 
-    可以再沖得更強一點也沒關係喔～♪
+- face:
+  - 109511
+  - 5
+- print:
+  - 空花
+  - 可以再更激烈一點也沒關係喔～♪
 - touch: *o0
 - window_visible:
   - false
@@ -335,6 +357,10 @@
   - 15
 - window_visible:
   - true
+- bgm:
+  - stop
+  - 7
+  - 1
 - focus:
   - 106412
 - bust:
@@ -352,9 +378,14 @@
   - 35
 - print:
   - 雪菲
-  - >2-
+  - >2
 
-    關於索爾魔珠的事情。
+- face:
+  - 106412
+  - 1
+- print:
+  - 雪菲
+  - 關於索爾魔珠的事情。
 - touch: *o0
 - focus:
   - 105913
@@ -370,6 +401,8 @@
   - 可可蘿
   - 是。
 - touch: *o0
+- bgm:
+  - bgm_M288
 - focus:
   - 106412
 - bust:
@@ -394,7 +427,7 @@
   - 30
 - print:
   - 雪菲
-  - 買下那顆索爾魔珠的。
+  - 就買下了那顆索爾魔珠。
 - touch: *o0
 - focus:
   - 105913
@@ -405,31 +438,41 @@
   - vo_adv_2106005_012
 - face:
   - 105913
-  - 1
+  - 6
 - print:
   - 可可蘿
-  - 據說那是過去治理大江戶的代官失勢時，
+  - 據說那是
 - wait:
-  - 15
+  - 25
+- print:
+  - 可可蘿
+  - 過去治理大江戶的代官失勢時，
+- wait:
+  - 80
 - print:
   - 可可蘿
   - >2-
 
     在混亂中從領事館流出的物品。
 - wait:
-  - 15
+  - 90
 - print:
   - 可可蘿
-  - >2-
+  - >2
 
-    當舖說，
+- face:
+  - 105913
+  - 1
+- print:
+  - 可可蘿
+  - 當舖說，
 - wait:
-  - 15
+  - 40
 - print:
   - 可可蘿
   - 東西之後在店裡
 - wait:
-  - 15
+  - 40
 - print:
   - 可可蘿
   - 擺了好幾個月。
@@ -443,7 +486,7 @@
   - vo_adv_2106005_013
 - face:
   - 106412
-  - 6
+  - 1
 - print:
   - 雪菲
   - 然而，
@@ -474,15 +517,15 @@
   - vo_adv_2106005_014
 - face:
   - 106412
-  - 1
+  - 6
 - print:
   - 雪菲
-  - 噯，
+  - 那個，
 - wait:
   - 10
 - print:
   - 雪菲
-  - 可可蘿。
+  - 可可蘿小姐。
 - wait:
   - 40
 - print:
@@ -510,31 +553,39 @@
   - 可可蘿
   - 的確……
 - wait:
-  - 15
+  - 50
+- face:
+  - 105913
+  - 4
 - print:
   - 可可蘿
   - 但這麼一來，
 - wait:
-  - 15
+  - 30
 - print:
   - 可可蘿
   - 表示是有人
 - wait:
-  - 15
+  - 35
 - print:
   - 可可蘿
   - >2-
 
     刻意搶先在下等人一步嗎？
 - wait:
-  - 15
+  - 80
 - print:
   - 可可蘿
-  - >2-
+  - >2
 
-    會是誰……
+- face:
+  - 105913
+  - 6
+- print:
+  - 可可蘿
+  - 會是誰……
 - wait:
-  - 15
+  - 30
 - print:
   - 可可蘿
   - 又為了什麼呢？
@@ -594,14 +645,14 @@
   - 1
 - print:
   - 雪菲
-  - 風聲
+  - 風聲、
 - wait:
   - 45
 - print:
   - 雪菲
   - 走漏了……？
 - wait:
-  - 90
+  - 85
 - print:
   - 雪菲
   - >2
@@ -660,15 +711,13 @@
   - 75
 - print:
   - 雪菲
-  - >2
+  - >2-
 
-- face:
-  - 106412
-  - 6
-- print:
-  - 雪菲
-  - ……該不會是……
+    ……該不會是……
 - touch: *o0
+- bgm:
+  - stop
+  - 7
 - focus:
   - 105913
 - bust:
@@ -683,7 +732,7 @@
   - 可可蘿
   - ……在下認為，
 - wait:
-  - 15
+  - 30
 - print:
   - 可可蘿
   - 目前能推理的
@@ -695,13 +744,18 @@
 
     線索太少了。
 - wait:
-  - 15
+  - 45
 - print:
   - 可可蘿
   - >2-
 
     那先暫且不談……
 - touch: *o0
+- bgm:
+  - bgm_M35
+  - 0
+  - 0
+  - 1
 - focus:
   - 105913
 - bust:
@@ -712,28 +766,30 @@
 - face:
   - 105913
   - 2
+- se:
+  - se_adv_water_pick_01
 - print:
   - 可可蘿
   - 雪菲小姐，
 - wait:
-  - 15
+  - 30
 - print:
   - 可可蘿
   - 您先上來
 - wait:
-  - 15
+  - 20
 - print:
   - 可可蘿
   - 清洗身子吧。
 - wait:
-  - 15
+  - 40
 - print:
   - 可可蘿
   - >2-
 
     在下
 - wait:
-  - 15
+  - 20
 - print:
   - 可可蘿
   - 來替您刷背。
@@ -778,34 +834,42 @@
   - vo_adv_2106005_022
 - face:
   - 105913
-  - 1
+  - 6
 - print:
   - 可可蘿
   - 那可不成。
 - wait:
-  - 15
+  - 30
+- face:
+  - 105913
+  - 1
 - print:
   - 可可蘿
-  - 雪菲小姐，您的翅膀根部
+  - 雪菲小姐的翅膀根部，
 - wait:
-  - 15
+  - 35
 - print:
   - 可可蘿
   - >2-
 
     自己伸手不容易碰到。
 - wait:
-  - 15
+  - 60
 - print:
   - 可可蘿
-  - >2-
+  - >2
 
-    難得有這個機會，
-- wait:
-  - 15
+- face:
+  - 105913
+  - 2
 - print:
   - 可可蘿
-  - 在下會幫您仔細刷洗的。
+  - 難得有這個機會，
+- wait:
+  - 30
+- print:
+  - 可可蘿
+  - 在下會幫您仔細刷洗。
 - touch: *o0
 - focus:
   - 106412
@@ -862,12 +926,12 @@
   - 深月
   - >2-
 
-    說到可可蘿呀，
+    可可蘿也真是的，
 - wait:
   - 25
 - print:
   - 深月
-  - 明明小小一隻，卻非常靠得住呢♪
+  - 明明小小一隻卻非常可靠呢♪
 - touch: *o0
 - focus:
   - 109611
@@ -883,13 +947,20 @@
   - 妮諾
   - 忍忍！
 - wait:
-  - 15
+  - 25
 - print:
   - 妮諾
   - >2-
 
-    忍術‧桶子水遁之術──！
+    忍法
+- wait:
+  - 25
+- print:
+  - 妮諾
+  - ‧桶子水遁之術──！
 - touch: *o0
+- se:
+  - se_adv_water_trap_01
 - focus:
   - 109511
 - bust:
@@ -899,7 +970,7 @@
   - vo_adv_2106005_026
 - face:
   - 109511
-  - 4
+  - 5
 - print:
   - 空花
   - 噗噗噗噗……！
@@ -918,9 +989,16 @@
   - 優衣
   - ……噗咻……
 - touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
 - window_visible:
   - FALSE
-- amb_stop:
+- vo_effect:
+  - 0
+- se_pause:
+  - amb_adv_hotspring_01
   - 1
 - black_out:
   - 1
@@ -930,9 +1008,9 @@
 - still:
   - end
 - wait:
-  - 15
+  - 30
 - black_in: *o0
-- amb:
+- se:
   - amb_adv_room_noise_01
 - chara_full:
   - 105913
@@ -943,6 +1021,8 @@
   - 30
 - window_visible:
   - TRUE
+- bgm:
+  - bgm_M322
 - focus:
   - 105913
 - bust:
@@ -957,12 +1037,14 @@
   - 可可蘿
   - 那麼……
 - wait:
-  - 15
+  - 45
+- nod:
+  - 105913
 - print:
   - 可可蘿
   - 晚安了，
 - wait:
-  - 15
+  - 30
 - print:
   - 可可蘿
   - 主人。
@@ -996,12 +1078,12 @@
   - 1
 - print:
   - 深月
-  - 男女分房
+  - 男女分房，
 - wait:
   - 20
 - print:
   - 深月
-  - 會不會很寂寞呢？
+  - 一個人睡會不會很寂寞呢？
 - wait:
   - 45
 - print:
@@ -1031,7 +1113,7 @@
   - se_adv_rabbit_jump_01
 - print:
   - 優衣
-  - 不行啦，深月！
+  - 不行啦，深月小姐！
 - wait:
   - 30
 - print:
@@ -1043,7 +1125,7 @@
   - 35
 - print:
   - 優衣
-  - 分房！
+  - 分房才正常！
 - touch: *o0
 - choice:
   - 晚安了，各位。
@@ -1080,16 +1162,24 @@
   - 35
 - print:
   - 雪菲
-  - >2-
+  - >2
 
-    晚安。
+- nod:
+  - 106412
+- print:
+  - 雪菲
+  - 晚安。
 - touch: *o0
+- bgm:
+  - stop
+  - 5
 - window_visible:
   - false
 - fadeout:
   - 106412
   - 30
-- amb_stop:
+- se_pause:
+  - amb_adv_room_noise_01
   - 1
 - black_out:
   - 1
@@ -1117,6 +1207,8 @@
 - wait:
   - 30
 - touch: *o0
+- vo_effect:
+  - 5
 - focus:
   - 0
 - bust:
@@ -1170,17 +1262,17 @@
   - ？？？
   - >2-
 
-    ♪寶寶是個
+    ♪做個
 - wait:
   - 100
 - print:
   - ？？？
-  - 好孩子，
+  - 乖寶寶，
 - wait:
   - 95
 - print:
   - ？？？
-  - 快快入睡。
+  - 快快睡。
 - touch: *o0
 - choice:
   - （不曉得從哪裡傳來了搖籃曲……）
@@ -1209,7 +1301,7 @@
   - 90
 - print:
   - ？？？
-  - 上哪兒去了呢？
+  - 上哪去了呢？
 - wait:
   - 185
 - print:
@@ -1226,10 +1318,14 @@
   - 95
 - print:
   - ？？？
-  - 回到了老家去……
+  - 回到故鄉去……
 - touch: *o0
+- vo_effect:
+  - 0
 - window_visible:
-  - FALSE
+  - false
+- se:
+  - se_adv_magicstone_01
 - black_out:
   - 1
   - 1
@@ -1238,10 +1334,12 @@
 - background:
   - 500050
 - wait:
-  - 15
+  - 30
 - black_in: *o0
-- amb:
+- se:
   - amb_adv_room_noise_01
+- wait:
+  - 15
 - choice:
   - （……這裡是……？）
   - 5
@@ -1249,13 +1347,26 @@
   - 5
 - chara_full:
   - 100211
-  - C
+  - RC
   - 1
+- se:
+  - se_adv_step_wood_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - RC
+  - 45
 - fadein:
   - 100211
-  - 30
+  - 45
 - window_visible:
   - true
+- bgm:
+  - bgm_M210
+  - 0
+  - 0
+  - 1
 - focus:
   - 100211
 - bust:
@@ -1285,6 +1396,12 @@
 - face:
   - 100211
   - 2
+- emotion:
+  - note1_L
+  - 100211
+  - -60
+  - 520
+  - se_adv_emote_note_01
 - print:
   - 優衣
   - 早安♪
@@ -1378,14 +1495,14 @@
   - 15
 - print:
   - 優衣
-  - 居然是
+  - 居然說出
 - wait:
   - 20
 - print:
   - 優衣
   - 我們的店……
 - wait:
-  - 55
+  - 50
 - face:
   - 100211
   - 2
@@ -1397,7 +1514,7 @@
   - 對喔……
   - 8
 - choice:
-  - 一起工作吧！
+  - 一起努力工作吧！
   - 9
 - tag:
   - 8
@@ -1426,6 +1543,8 @@
   - 2
 - nod:
   - 100211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 優衣
   - 嗯♪
@@ -1435,7 +1554,8 @@
 - fadeout:
   - 100211
   - 30
-- amb_stop:
+- se_pause:
+  - amb_adv_room_noise_01
   - 1
 - black_out:
   - 1
@@ -1443,7 +1563,7 @@
 - wait:
   - 15
 - black_in: *o0
-- amb:
+- se:
   - amb_adv_restaurant_01
 - chara_full:
   - 100211
@@ -1468,6 +1588,8 @@
   - 100211
 - se:
   - se_adv_coffee_cup_02
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 優衣
   - ──讓您久等了♪
@@ -1506,7 +1628,7 @@
   - 20
 - print:
   - 附近的大叔
-  - 感覺今天也煮得很好吃。
+  - 今天也看起來很美味呢。
 - wait:
   - 30
 - print:
@@ -1560,7 +1682,7 @@
   - vo_adv_2106005_043
 - face:
   - 100211
-  - 1
+  - 2
 - emotion:
   - note1_L
   - 100211
@@ -1629,7 +1751,7 @@
   - vo_adv_2106005_046
 - face:
   - 100211
-  - 6
+  - 5
 - print:
   - 優衣
   - 沒有啦，
@@ -1700,9 +1822,14 @@
   - 45
 - print:
   - 優衣
-  - >2-
+  - >2
 
-    如今
+- face:
+  - 100211
+  - 2
+- print:
+  - 優衣
+  - 如今
 - wait:
   - 25
 - print:
@@ -1725,6 +1852,9 @@
   - 0
 - window_visible:
   - true
+- face:
+  - 100211
+  - 1
 - focus:
   - 0
 - bust:
@@ -1755,9 +1885,11 @@
   - vo_adv_2106005_050
 - face:
   - 100211
-  - 1
+  - 2
 - nod:
   - 100211
+- se:
+  - se_adv_step_wood_move_01
 - print:
   - 優衣
   - 好的──♪
@@ -1800,13 +1932,18 @@
   - >-
     {0}和優衣
 
-    今天也攜手打理著套餐店。
+    今天也攜手打理著食堂。
 - wait:
   - 30
 - touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
 - window_visible:
   - FALSE
-- amb_stop:
+- se_pause:
+  - amb_adv_restaurant_01
   - 1
 - black_out:
   - 1
@@ -1818,7 +1955,7 @@
 - wait:
   - 15
 - black_in: *o0
-- amb:
+- se:
   - amb_adv_room_noise_01
 - window_visible:
   - true
@@ -1847,6 +1984,8 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M24
 - focus:
   - 100211
 - bust:
@@ -1859,6 +1998,8 @@
   - 6
 - nod:
   - 100211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 優衣
   - 呼……
@@ -1897,14 +2038,19 @@
   - 50
 - print:
   - 優衣
-  - >2-
+  - >2
 
-    高朋滿座
+- face:
+  - 100211
+  - 4
+- print:
+  - 優衣
+  - 不過能高朋滿座
 - wait:
   - 25
 - print:
   - 優衣
-  - 是件好事，但……
+  - 也是件好事……
 - touch: *o0
 - choice:
   - 我來替妳按摩肩膀。
@@ -1921,6 +2067,12 @@
 - face:
   - 100211
   - 6
+- emotion:
+  - exclamation1_R
+  - 100211
+  - 10
+  - 650
+  - se_adv_emote_common_01
 - print:
   - 優衣
   - 咦？
@@ -1928,9 +2080,14 @@
   - 25
 - print:
   - 優衣
-  - >2-
+  - >2
 
-    那樣
+- face:
+  - 100211
+  - 4
+- print:
+  - 優衣
+  - 那樣
 - wait:
   - 10
 - print:
@@ -1952,6 +2109,9 @@
   - …………可是……
 - wait:
   - 35
+- face:
+  - 100211
+  - 2
 - print:
   - 優衣
   - 嘿嘿嘿。
@@ -1968,12 +2128,17 @@
   - 優衣
   - 而且只有我們兩個人。
 - wait:
-  - 70
+  - 65
 - print:
   - 優衣
-  - >2-
+  - >2
 
-    那就
+- face:
+  - 100211
+  - 5
+- print:
+  - 優衣
+  - 那就
 - wait:
   - 15
 - print:
@@ -1985,6 +2150,8 @@
 - fadeout:
   - 100211
   - 30
+- se:
+  - se_adv_stepadd_armor_norm_01_move_01
 - se:
   - se_adv_step_wood_move_01
 - camera_zoom:
@@ -1998,6 +2165,12 @@
 - fadein:
   - 100211
   - 30
+- se:
+  - se_adv_cloth_move_give_01
+- nod:
+  - 100211
+- wait:
+  - 15
 - window_visible:
   - true
 - focus:
@@ -2062,7 +2235,7 @@
   - vo_adv_2106005_057
 - face:
   - 100211
-  - 5
+  - 2
 - print:
   - 優衣
   - 總覺得……
@@ -2089,9 +2262,13 @@
   - 50
 - print:
   - 優衣
-  - >2-
+  - >2
 
-    能和騎士先生一起
+- eye_open:
+  - False
+- print:
+  - 優衣
+  - 能和騎士先生一起
 - wait:
   - 35
 - print:
@@ -2101,9 +2278,13 @@
   - 60
 - print:
   - 優衣
-  - >2-
+  - >2
 
-    從早到晚
+- eye_open:
+  - True
+- print:
+  - 優衣
+  - 從早到晚
 - wait:
   - 35
 - print:
@@ -2119,7 +2300,7 @@
   - vo_adv_2106005_059
 - face:
   - 100211
-  - 5
+  - 1
 - print:
   - 優衣
   - ……簡直就像
@@ -2132,21 +2313,31 @@
   - 60
 - print:
   - 優衣
-  - >2-
+  - >2
 
-    好想就這麼
+- face:
+  - 100211
+  - 2
+- print:
+  - 優衣
+  - 好想就這麼
 - wait:
   - 40
 - print:
   - 優衣
-  - 經營套餐店下去喔。
+  - 永遠一起經營食堂喔。
 - wait:
   - 70
 - print:
   - 優衣
-  - >2-
+  - >2
 
-    就和騎士先生兩個人……
+- face:
+  - 100211
+  - 5
+- print:
+  - 優衣
+  - 就和騎士先生兩個人……
 - touch: *o0
 - window_visible:
   - false
@@ -2229,6 +2420,9 @@
 - fadeout:
   - 100211
   - 30
+- se_pause:
+  - amb_adv_room_noise_01
+  - 1
 - black_out:
   - 1
   - 1
@@ -2246,11 +2440,14 @@
 - black_in: *o0
 - window_visible:
   - true
+- bgm:
+  - stop
+  - 7
 - focus:
   - 100211
 - bust:
   - 100211
-  - 0
+  - 1
 - vo:
   - vo_adv_2106005_062
 - face:
@@ -2260,12 +2457,12 @@
   - 優衣
   - ……是和騎士先生一起
 - wait:
-  - 45
+  - 50
 - print:
   - 優衣
-  - 「開套餐店」……
+  - 「經營食堂」……
 - wait:
-  - 75
+  - 70
 - print:
   - 優衣
   - 嗎……？
@@ -2273,12 +2470,16 @@
 - window_visible:
   - false
 - se:
-  - se_adv_door_shop_open_01
+  - amb_adv_room_noise_01
 - black_out:
   - 1
   - 0.5
+- effect:
+  - 0026
 - background:
   - 500050
+- se:
+  - se_adv_door_shop_open_01
 - wait:
   - 15
 - black_in: *o0
@@ -2315,9 +2516,14 @@
   - 35
 - print:
   - 優衣
-  - >2-
+  - >2
 
-    不好意思，
+- face:
+  - 100211
+  - 4
+- print:
+  - 優衣
+  - 不好意思，
 - wait:
   - 25
 - print:
@@ -2367,6 +2573,11 @@
   - 45
 - window_visible:
   - true
+- bgm:
+  - bgm_M334
+  - 0
+  - 0
+  - 1
 - focus:
   - 191811
 - bust:
@@ -2398,21 +2609,26 @@
   - 1
 - print:
   - 美空
-  - 咦？
+  - 咦～？
 - wait:
   - 30
 - print:
   - 美空
   - >2-
 
-    你們打烊了嗎？
+    你們打烊了嗎～？
 - wait:
   - 60
 - print:
   - 美空
-  - >2-
+  - >2
 
-    是說……
+- face:
+  - 192011
+  - 6
+- print:
+  - 美空
+  - 是說……
 - touch: *o0
 - focus:
   - 191811
@@ -2426,28 +2642,43 @@
   - 6
 - print:
   - 蘭法
-  - 為什麼會連她……
+  - 為什麼
 - wait:
-  - 15
+  - 35
 - print:
   - 蘭法
-  - >2-
-
-    都在夢中……
+  - 會連她……
 - wait:
-  - 15
+  - 80
+- print:
+  - 蘭法
+  - >2
+
+- face:
+  - 191811
+  - 4
+- print:
+  - 蘭法
+  - 都在夢中，
+- wait:
+  - 60
 - print:
   - 蘭法
   - 在他的精神世界裡……？
 - wait:
-  - 15
+  - 90
 - print:
   - 蘭法
-  - >2-
+  - >2
 
-    我們應該只有
+- face:
+  - 191811
+  - 6
+- print:
+  - 蘭法
+  - 我們應該只有
 - wait:
-  - 15
+  - 65
 - print:
   - 蘭法
   - 向他施展魔法才對啊……
@@ -2462,30 +2693,36 @@
 - face:
   - 192011
   - 4
+- emotion:
+  - gloomy1_R
+  - 192011
+  - 25
+  - 515
+  - se_adv_emote_gloomy_01
 - print:
   - 美空
   - 嗯──
 - wait:
-  - 15
+  - 30
 - print:
   - 美空
   - >2-
 
-    畢竟蘭法的魔法歌曲
+    畢竟蘭法姐的魔法歌曲
 - wait:
-  - 15
+  - 35
 - print:
   - 美空
   - 和我的洗腦魔法裝置……
 - wait:
-  - 15
+  - 55
 - print:
   - 美空
   - >2-
 
     兩者的組合沒有事先演練過嘛。
 - wait:
-  - 15
+  - 50
 - face:
   - 192011
   - 1
@@ -2507,26 +2744,26 @@
   - 美空
   - ……話說……
 - wait:
-  - 15
+  - 20
 - print:
   - 美空
   - >2-
 
     竟然偏偏是
 - wait:
-  - 15
+  - 10
 - print:
   - 美空
   - 「優衣」呀。
 - wait:
-  - 15
+  - 30
 - print:
   - 美空
   - >2-
 
     這又是一個
 - wait:
-  - 15
+  - 25
 - print:
   - 美空
   - 需要謹慎以對的人呢。
@@ -2565,12 +2802,12 @@
   - 優衣
   - 咦？
 - wait:
-  - 15
+  - 20
 - print:
   - 優衣
   - 呃……
 - wait:
-  - 15
+  - 30
 - print:
   - 優衣
   - 妳們是……？
@@ -2587,35 +2824,50 @@
   - 1
 - nod:
   - 192011
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 美空
-  - 不好意思。
+  - 不好意思──
 - wait:
-  - 15
+  - 30
 - print:
   - 美空
-  - >2-
+  - >2
 
-    接下來
-- wait:
-  - 15
+- face:
+  - 192011
+  - 2
 - print:
   - 美空
-  - 我們想和騎士先生
+  - 接下來
 - wait:
-  - 15
+  - 30
+- print:
+  - 美空
+  - 我們想和騎士同學
+- wait:
+  - 30
 - print:
   - 美空
   - 交朋友♪
 - wait:
-  - 15
+  - 30
 - print:
   - 美空
-  - >2-
+  - >2
 
-    所以請妳……
+- face:
+  - 192011
+  - 6
+- print:
+  - 美空
+  - 所以請妳……
 - wait:
-  - 15
+  - 45
+- face:
+  - 192011
+  - 2
 - print:
   - 美空
   - 到外頭去吧★
@@ -2634,7 +2886,7 @@
   - 優衣
   - 咦？
 - wait:
-  - 15
+  - 10
 - print:
   - 優衣
   - 咦？
@@ -2642,16 +2894,21 @@
   - 15
 - print:
   - 優衣
-  - >2-
+  - >2
 
-    妳要我出去？
+- face:
+  - 100211
+  - 7
+- print:
+  - 優衣
+  - 妳要我出去？
 - wait:
-  - 15
+  - 25
 - print:
   - 優衣
   - 但這裡是
 - wait:
-  - 15
+  - 20
 - print:
   - 優衣
   - 我和騎士先生的店……！
@@ -2665,22 +2922,29 @@
   - vo_adv_2106005_073
 - face:
   - 192011
+  - 2
+- nod:
+  - 192011
+- print:
+  - 美空
+  - 卡～里莎♪
+- wait:
+  - 35
+- print:
+  - 美空
+  - >2
+
+- face:
+  - 192011
   - 1
 - print:
   - 美空
-  - 卡里莎♪
+  - 你可以
 - wait:
-  - 15
+  - 25
 - print:
   - 美空
-  - >2-
-
-    你可以
-- wait:
-  - 15
-- print:
-  - 美空
-  - 拿出那個嗎？
+  - 拿出那個來嗎──？
 - touch: *o0
 - window_visible:
   - false
@@ -2714,28 +2978,44 @@
   - 卡里莎
   - 真沒辦法耶。
 - wait:
-  - 15
+  - 45
 - print:
   - 卡里莎
-  - >2-
+  - >2
 
-    粉紅毛的弱點是……
+- face:
+  - 191611
+  - 6
+- print:
+  - 卡里莎
+  - 粉紅毛的弱點是……
 - wait:
-  - 15
+  - 35
 - print:
   - 卡里莎
   - 嘿咻……
 - touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
 - window_visible:
   - false
 - se:
   - se_adv_bugs_noise_01
-- amb_stop:
+- se:
+  - se_adv_cloth_move_hard_01
+- nod:
+  - 191611
+- wait:
+  - 15
+- se_pause:
+  - amb_adv_room_noise_01
   - 1
 - fadeout:
   - 191611
   - 30
-- amb:
+- se:
   - amb_adv_bugs_noise_01
 - chara_full:
   - 100211
@@ -2746,6 +3026,8 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M131
 - focus:
   - 100211
 - bust:
@@ -2766,14 +3048,14 @@
   - 優衣
   - 蟲子！？
 - wait:
-  - 15
+  - 25
 - print:
   - 優衣
   - >2-
 
     而且還有這麼多，
 - wait:
-  - 15
+  - 10
 - print:
   - 優衣
   - 究竟是哪裡來的！？！？
@@ -2802,36 +3084,55 @@
 - face:
   - 191611
   - 2
+- nod:
+  - 191611
 - print:
   - 卡里莎
   - 嘿嘿！
 - wait:
-  - 15
+  - 30
 - print:
   - 卡里莎
   - >2-
 
     垃圾魔獸再加上
 - wait:
-  - 15
+  - 35
 - print:
   - 卡里莎
-  - 毛毛蟲、蚰蜒、蚯蚓還有大蚊！
+  - 毛毛蟲、
 - wait:
-  - 15
+  - 20
+- print:
+  - 卡里莎
+  - 蚰蜒、
+- wait:
+  - 20
+- print:
+  - 卡里莎
+  - 蚯蚓還有大蚊！
+- wait:
+  - 30
 - print:
   - 卡里莎
   - >2-
 
     跳樓大拍賣！
 - wait:
-  - 15
+  - 30
 - print:
   - 卡里莎
   - 統統去吧！
 - touch: *o0
 - window_visible:
   - false
+- se:
+  - se_adv_bugs_noise_01
+- se_pause:
+  - se_adv_roar_whoosh_01
+  - 1.5
+- se:
+  - se_adv_roar_whoosh_01
 - fadeout:
   - 191611
   - 30
@@ -2846,10 +3147,10 @@
   - 3
 - text_size:
   - 50
-- se:
-  - se_adv_bugs_noise_01
 - window_visible:
   - true
+- se:
+  - se_adv_impact_whoosh_01
 - focus:
   - 100211
 - bust:
@@ -2860,18 +3161,21 @@
 - face:
   - 100211
   - 7
+- effect:
+  - 9
 - print:
   - 優衣
   - 呀啊啊啊啊啊！！
 - touch: *o0
 - window_visible:
   - false
+- se:
+  - se_adv_whiteout_02
 - fadeout:
   - 100211
   - 30
-- se:
-  - se_adv_transition_sharp_01
-- amb_stop:
+- se_pause:
+  - amb_adv_bugs_noise_01
   - 1
 - white_out:
   - 1
@@ -2883,17 +3187,21 @@
 - wait:
   - 15
 - white_in: *o0
-- amb:
+- se:
   - amb_adv_room_noise_01
 - chara_full:
   - 100211
   - C
   - 7
+  - 1
 - fadein:
   - 100211
   - 30
 - window_visible:
   - true
+- bgm:
+  - stop
+  - 0.5
 - focus:
   - 100211
 - bust:
@@ -2904,8 +3212,12 @@
 - face:
   - 100211
   - 7
+- eye_open:
+  - True
 - pop:
   - 100211
+- se:
+  - se_adv_body_shake_off_01
 - print:
   - 優衣
   - 不要啊啊啊啊啊！！
@@ -2949,6 +3261,11 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M418
+  - 0
+  - 0
+  - 1
 - focus:
   - 105913
 - bust:
@@ -2963,12 +3280,17 @@
   - 可可蘿
   - 優衣小姐！
 - wait:
-  - 15
+  - 45
 - print:
   - 可可蘿
-  - >2-
+  - >2
 
-    您醒過來了呢……！
+- face:
+  - 105913
+  - 2
+- print:
+  - 可可蘿
+  - 您醒過來了呢……！
 - touch: *o0
 - focus:
   - 100211
@@ -2980,18 +3302,22 @@
 - face:
   - 100211
   - 7
+- pop:
+  - 100211
+- se:
+  - se_adv_cloth_move_hard_01
 - print:
   - 優衣
   - 可可蘿！？
 - wait:
-  - 15
+  - 25
 - print:
   - 優衣
   - >2-
 
-    蟲……
+    有蟲，
 - wait:
-  - 15
+  - 20
 - print:
   - 優衣
   - 有蟲呀～！！
@@ -3024,22 +3350,17 @@
   - 雪菲
   - 妳冷靜一點，
 - wait:
-  - 15
+  - 10
 - print:
   - 雪菲
   - 優衣。
 - wait:
-  - 15
+  - 30
 - print:
   - 雪菲
   - >2-
 
-    根本
-- wait:
-  - 15
-- print:
-  - 雪菲
-  - 就沒有什麼蟲子。
+    這裡根本就沒有什麼蟲啊。
 - touch: *o0
 - focus:
   - 100211
@@ -3051,11 +3372,13 @@
 - face:
   - 100211
   - 6
+- se:
+  - se_adv_cloth_move_give_01
 - print:
   - 優衣
   - ……雪菲……
 - wait:
-  - 15
+  - 60
 - print:
   - 優衣
   - >2
@@ -3067,17 +3390,27 @@
   - 優衣
   - ……真的耶。
 - wait:
-  - 15
+  - 40
 - print:
   - 優衣
-  - >2-
+  - >2
 
-    ……那麼，
-- wait:
-  - 15
+- face:
+  - 100211
+  - 6
 - print:
   - 優衣
-  - 剛剛是夢嗎……？
+  - ……那麼，
+- wait:
+  - 30
+- print:
+  - 優衣
+  - 剛剛是夢
+- wait:
+  - 25
+- print:
+  - 優衣
+  - 嗎……？
 - touch: *o0
 - window_visible:
   - false
@@ -3090,7 +3423,7 @@
 - chara_full:
   - 109511
   - LC
-  - 1
+  - 4
 - fadein_all:
   - 30
 - window_visible:
@@ -3109,7 +3442,7 @@
   - 妮諾
   - 看來
 - wait:
-  - 15
+  - 20
 - print:
   - 妮諾
   - 妳作了很糟糕的夢是也。
@@ -3123,17 +3456,17 @@
   - vo_adv_2106005_085
 - face:
   - 109511
-  - 1
+  - 4
 - print:
   - 空花
   - 不過前半段
 - wait:
-  - 15
+  - 30
 - print:
   - 空花
   - 似乎非常幸福就是了……
 - wait:
-  - 15
+  - 65
 - print:
   - 空花
   - >2
@@ -3141,11 +3474,13 @@
 - face:
   - 109511
   - 5
+- nod:
+  - 109511
 - print:
   - 空花
   - 一直發出「……嘿嘿，
 - wait:
-  - 15
+  - 5
 - print:
   - 空花
   - 嘿嘿，
@@ -3155,12 +3490,17 @@
   - 空花
   - 嘿嘿嘿嘿……」
 - wait:
-  - 15
+  - 20
 - print:
   - 空花
-  - >2-
+  - >2
 
-    這種感覺的笑聲～
+- face:
+  - 109511
+  - 4
+- print:
+  - 空花
+  - 這種感覺的笑聲～
 - touch: *o0
 - window_visible:
   - false
@@ -3169,7 +3509,7 @@
 - chara_full:
   - 100211
   - LC
-  - 4
+  - 7
 - chara_full:
   - 105913
   - RC
@@ -3187,10 +3527,12 @@
   - vo_adv_2106005_086
 - face:
   - 100211
-  - 4
+  - 7
 - print:
   - 優衣
-  - ……嗚嗚……
+  - ……嗚……
+- shake:
+  - 100211
 - touch: *o0
 - focus:
   - 105913
@@ -3201,29 +3543,37 @@
   - vo_adv_2106005_087
 - face:
   - 105913
-  - 1
+  - 6
 - print:
   - 可可蘿
   - 那個，
 - wait:
-  - 15
+  - 30
 - print:
   - 可可蘿
   - 優衣小姐。
 - wait:
-  - 15
+  - 30
 - print:
   - 可可蘿
-  - >2-
+  - >2
 
-    妳在夢中
+- face:
+  - 105913
+  - 4
+- print:
+  - 可可蘿
+  - 妳在夢中
 - wait:
-  - 15
+  - 30
 - print:
   - 可可蘿
   - 有發生什麼奇怪的事嗎？
 - wait:
-  - 15
+  - 55
+- face:
+  - 105913
+  - 6
 - print:
   - 可可蘿
   - 除了蟲子以外。
@@ -3240,33 +3590,38 @@
   - 4
 - nod:
   - 100211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 優衣
   - 嗯。
 - wait:
-  - 15
+  - 30
+- face:
+  - 100211
+  - 6
 - print:
   - 優衣
   - 先前交戰過的卡里莎、
 - wait:
-  - 15
+  - 30
 - print:
   - 優衣
   - 蘭法……
 - wait:
-  - 15
+  - 40
 - print:
   - 優衣
   - >2-
 
     還有
 - wait:
-  - 15
+  - 30
 - print:
   - 優衣
   - 一個綁蝴蝶結穿裙子的
 - wait:
-  - 15
+  - 60
 - print:
   - 優衣
   - 紫髮女孩都出現在夢裡……
@@ -3301,7 +3656,7 @@
   - 深月
   - 蝴蝶結和裙子……？
 - wait:
-  - 15
+  - 40
 - print:
   - 深月
   - >2-
@@ -3322,7 +3677,10 @@
   - 雪菲
   - 會是
 - wait:
-  - 15
+  - 35
+- face:
+  - 106412
+  - 4
 - print:
   - 雪菲
   - 美空嗎……
@@ -3334,7 +3692,7 @@
 - chara_full:
   - 105913
   - RC
-  - 6
+  - 3
 - chara_full:
   - 100211
   - LC
@@ -3343,6 +3701,10 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - stop
+  - 3.5
+  - 1
 - focus:
   - 105913
 - bust:
@@ -3352,16 +3714,18 @@
   - vo_adv_2106005_091
 - face:
   - 105913
-  - 6
+  - 3
 - print:
   - 可可蘿
   - ……那麼，
 - wait:
-  - 15
+  - 25
 - print:
   - 可可蘿
-  - 是【憤怒‧軍團】發動了攻擊……！？
+  - 這便是【憤怒‧軍團】的攻擊……！？
 - touch: *o0
+- bgm:
+  - bgm_M46
 - focus:
   - 100211
 - bust:
@@ -3396,29 +3760,34 @@
   - 可可蘿
   - 優衣小姐，
 - wait:
-  - 15
+  - 30
 - print:
   - 可可蘿
-  - 現在已經
+  - 現在時刻
 - wait:
   - 15
 - print:
   - 可可蘿
-  - 過中午了。
+  - 早已經過了中午。
 - wait:
-  - 15
+  - 45
 - print:
   - 可可蘿
-  - >2-
+  - >2
 
-    打從大清早開始，
+- face:
+  - 105913
+  - 4
+- print:
+  - 可可蘿
+  - 打從大清早開始，
 - wait:
-  - 15
+  - 30
 - print:
   - 可可蘿
   - 無論我們如何想方設法……
 - wait:
-  - 15
+  - 45
 - print:
   - 可可蘿
   - >2-
@@ -3445,27 +3814,24 @@
   - 優衣
   - 咦！？
 - wait:
-  - 15
+  - 10
 - print:
   - 優衣
   - 是這樣嗎！？
 - wait:
-  - 15
+  - 35
 - print:
   - 優衣
   - >2
 
 - face:
   - 100211
-  - 4
+  - 7
 - print:
   - 優衣
   - ……妳說兩位，
 - wait:
-  - 15
-- face:
-  - 100211
-  - 7
+  - 5
 - print:
   - 優衣
   - 該不會……！
@@ -3480,18 +3846,24 @@
 - face:
   - 105913
   - 4
+- eye_open:
+  - False
 - print:
   - 可可蘿
   - ……是的。
 - wait:
-  - 15
+  - 35
 - print:
   - 可可蘿
-  - >2-
+  - >2
 
-    主人
+- eye_open:
+  - True
+- print:
+  - 可可蘿
+  - 主人
 - wait:
-  - 15
+  - 35
 - print:
   - 可可蘿
   - 目前仍未甦醒……！
@@ -3537,22 +3909,32 @@
   - 雪菲
   - 會是利用魔法
 - wait:
-  - 15
+  - 30
 - print:
   - 雪菲
   - 進行的精神干涉嗎……
 - wait:
-  - 15
+  - 75
 - print:
   - 雪菲
-  - >2-
+  - >2
 
-    不過優衣
-- wait:
-  - 15
+- face:
+  - 106412
+  - 6
 - print:
   - 雪菲
-  - 倒是在夢裡被嚇醒了就是。
+  - 不過優衣
+- wait:
+  - 30
+- print:
+  - 雪菲
+  - 倒是在夢裡
+- wait:
+  - 40
+- print:
+  - 雪菲
+  - 被嚇醒了就是。
 - touch: *o0
 - window_visible:
   - false
@@ -3562,11 +3944,11 @@
 - chara_full:
   - 105913
   - C
-  - 1
+  - 6
 - chara_full:
   - 109511
   - R
-  - 1
+  - 4
 - chara_full:
   - 100211
   - L
@@ -3584,29 +3966,46 @@
   - vo_adv_2106005_098
 - face:
   - 105913
-  - 1
+  - 6
+- nod:
+  - 105913
 - print:
   - 可可蘿
   - 那麼，
 - wait:
-  - 15
+  - 30
 - print:
   - 可可蘿
-  - 只要干涉夢境的【憤怒‧軍團】一方
+  - 只要干涉夢境的
 - wait:
-  - 15
+  - 35
+- print:
+  - 可可蘿
+  - 【憤怒‧軍團】一方
+- wait:
+  - 40
 - print:
   - 可可蘿
   - >2-
 
     沒有那個打算，
 - wait:
-  - 15
+  - 65
 - print:
   - 可可蘿
-  - >2-
+  - >2
 
-    主人就不會醒來了嗎？
+- face:
+  - 105913
+  - 4
+- print:
+  - 可可蘿
+  - 主人
+- wait:
+  - 30
+- print:
+  - 可可蘿
+  - 就不會醒來了嗎？
 - touch: *o0
 - focus:
   - 109511
@@ -3621,11 +4020,11 @@
 - print:
   - 空花
   - 怎、
-- wait:
-  - 15
+- shake:
+  - 109511
 - print:
   - 空花
-  - 怎麼會～！
+  - 怎麼會這樣～！
 - touch: *o0
 - focus:
   - 100211
@@ -3641,17 +4040,28 @@
   - 優衣
   - 那該怎麼辦才好呢？
 - wait:
-  - 15
+  - 45
 - print:
   - 優衣
-  - >2-
+  - >2
 
-    我根本就不會
+- eye_open:
+  - False
+- print:
+  - 優衣
+  - 我根本就不會
+- wait:
+  - 50
+- eye_open:
+  - True
+- print:
+  - 優衣
+  - 什麼
 - wait:
   - 15
 - print:
   - 優衣
-  - 什麼進入夢境的魔法……
+  - 進入夢境的魔法……
 - touch: *o0
 - window_visible:
   - false
@@ -3681,21 +4091,26 @@
   - 4
 - print:
   - 妮諾
-  - 忍術‧搔癢之術
+  - 忍法‧
 - wait:
   - 15
 - print:
   - 妮諾
+  - 搔癢之術
+- wait:
+  - 35
+- print:
+  - 妮諾
   - 和桶子水遁之術我都試過了……
 - wait:
-  - 15
+  - 70
 - print:
   - 妮諾
   - >2-
 
     但沒辦法
 - wait:
-  - 15
+  - 45
 - print:
   - 妮諾
   - 叫醒將軍……
@@ -3710,22 +4125,30 @@
 - face:
   - 109511
   - 4
+- nod:
+  - 109511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 空花
   - 啊啊！
 - wait:
-  - 15
+  - 25
 - print:
   - 空花
   - >2-
 
     這種時候，
 - wait:
-  - 15
+  - 25
 - print:
   - 空花
-  - >-
-    如果有個醫術高明的醫生
+  - 如果有個醫術高明的醫生
+- wait:
+  - 20
+- print:
+  - 空花
+  - >2-
 
     在場的話……！
 - touch: *o0
@@ -3762,58 +4185,65 @@
   - 106412
   - 30
 - se:
-  - se_adv_cloth_move_normal_02
+  - se_adv_cloth_castoff_01
+- se_pause:
+  - se_adv_cloth_castoff_01
+  - 2
 - chara_full:
-  - 105131
+  - 105113
   - C
   - 2
 - fadein:
-  - 105131
+  - 105113
   - 30
 - window_visible:
   - true
 - focus:
-  - 105131
+  - 105113
 - bust:
-  - 105131
+  - 105113
   - 0
 - vo:
   - vo_adv_2106005_104
 - face:
-  - 105131
+  - 105113
   - 2
 - print:
   - 深月
   - ──呵呵呵。
 - wait:
-  - 15
+  - 50
 - print:
   - 深月
   - >2
 
 - face:
-  - 105131
+  - 105113
   - 1
 - print:
   - 深月
   - 看來
 - wait:
-  - 15
+  - 25
 - print:
   - 深月
   - 輪到我……
 - wait:
-  - 15
+  - 50
 - print:
   - 深月
   - 出馬了呢♪
 - touch: *o0
+- bgm:
+  - stop
+  - 2
 - window_visible:
   - false
 - fadeout:
-  - 105131
+  - 105113
   - 30
-- amb_stop:
+- se_pause:
+  - amb_adv_room_noise_01
   - 1
 - black_out:
   - 1
@@ -3825,7 +4255,7 @@
 - wait:
   - 15
 - black_in: *o0
-- amb:
+- se:
   - amb_adv_room_noise_01
 - chara_full:
   - 192011
@@ -3838,7 +4268,12 @@
 - fadein_all:
   - 30
 - window_visible:
-  - TRUE
+  - true
+- bgm:
+  - bgm_M59
+  - 0
+  - 0
+  - 1
 - focus:
   - 192011
 - bust:
@@ -3849,22 +4284,31 @@
 - face:
   - 192011
   - 2
+- emotion:
+  - note1_L
+  - 192011
+  - -110
+  - 450
+  - se_adv_emote_note_01
 - print:
   - 美空
   - 呵呵★
 - wait:
-  - 15
+  - 20
 - print:
   - 美空
   - >2-
 
     「優衣」
 - wait:
-  - 15
+  - 10
 - print:
   - 美空
   - 清除完畢♪
 - touch: *o0
+- face:
+  - 192011
+  - 1
 - focus:
   - 191811
 - bust:
@@ -3874,25 +4318,24 @@
   - vo_adv_2106005_106
 - face:
   - 191811
-  - 1
+  - 2
 - print:
   - 蘭法
   - 卡里莎……
 - wait:
-  - 15
+  - 45
 - print:
   - 蘭法
   - 謝謝你……
 - touch: *o0
 - window_visible:
   - false
-- fadeout:
-  - 191811
+- fadeout_all:
   - 30
 - chara_full:
   - 191611
-  - RC
-  - 1
+  - C
+  - 6
 - fadein:
   - 191611
   - 30
@@ -3907,23 +4350,49 @@
   - vo_adv_2106005_107
 - face:
   - 191611
-  - 1
+  - 6
+- nod:
+  - 191611
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 卡里莎
   - 喔──
 - wait:
-  - 15
+  - 30
 - print:
   - 卡里莎
-  - >2-
+  - >2
 
-    好啦，
+- face:
+  - 191611
+  - 1
+- print:
+  - 卡里莎
+  - 好啦，
 - wait:
-  - 15
+  - 5
 - print:
   - 卡里莎
   - 接下來隨妳高興了。
 - touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 191611
+  - 30
+- chara_full:
+  - 192011
+  - LC
+  - 2
+- chara_full:
+  - 191811
+  - RC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - true
 - focus:
   - 192011
 - bust:
@@ -3933,7 +4402,11 @@
   - vo_adv_2106005_108
 - face:
   - 192011
-  - 1
+  - 2
+- nod:
+  - 192011
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 美空
   - 好的，
@@ -3943,19 +4416,6 @@
   - 美空
   - 包在我身上★
 - touch: *o0
-- window_visible:
-  - false
-- fadeout_all:
-  - 30
-- chara_full:
-  - 191811
-  - C
-  - 7
-- fadein:
-  - 191811
-  - 30
-- window_visible:
-  - true
 - focus:
   - 191811
 - bust:
@@ -3965,38 +4425,53 @@
   - vo_adv_2106005_109
 - face:
   - 191811
-  - 7
+  - 6
 - print:
   - 蘭法
   - 那麼……
 - wait:
-  - 15
+  - 45
 - print:
   - 蘭法
   - >2
 
 - face:
   - 191811
-  - 1
+  - 2
 - print:
   - 蘭法
   - 我們
 - wait:
-  - 15
+  - 20
 - print:
   - 蘭法
-  - 先換個地方吧……
+  - 先
+- wait:
+  - 40
+- print:
+  - 蘭法
+  - 換個地方吧……
 - touch: *o0
 - window_visible:
   - false
-- fadeout:
-  - 191811
+- fadeout_all:
   - 30
+- se:
+  - se_adv_magicstone_01
+- effect:
+  - 0035
+- wait:
+  - 60
 - se:
   - se_adv_ann_magic_01
 - effect:
   - 0006
-- amb_stop:
+- se_pause:
+  - amb_adv_room_noise_01
+  - 1
+- bgm:
+  - stop
+  - 2
   - 1
 - white_out:
   - 1
@@ -4005,11 +4480,15 @@
   - 0006
 - background:
   - 500510
+- effect:
+  - 0092
 - wait:
   - 45
 - white_in: *o0
-- amb:
+- se:
   - amb_adv_wind_01
+- wait:
+  - 15
 - choice:
   - （……這裡是……？）
   - 14
@@ -4024,6 +4503,10 @@
   - 30
 - window_visible:
   - true
+- vo_effect:
+  - 2
+- bgm:
+  - bgm_M417
 - focus:
   - 191811
 - bust:
@@ -4038,12 +4521,15 @@
   - 蘭法
   - 這裡是……
 - wait:
-  - 15
+  - 45
+- face:
+  - 191811
+  - 2
 - print:
   - 蘭法
   - 你的
 - wait:
-  - 15
+  - 40
 - print:
   - 蘭法
   - 夢中。
@@ -4065,7 +4551,7 @@
 - chara_full:
   - 191811
   - RC
-  - 1
+  - 2
 - fadein_all:
   - 30
 - window_visible:
@@ -4082,23 +4568,25 @@
   - 1
 - nod:
   - 192011
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 美空
   - 是的★
 - wait:
-  - 15
+  - 30
 - print:
   - 美空
   - >2-
 
     然後，
 - wait:
-  - 15
+  - 20
 - print:
   - 美空
   - 當你從夢中醒來時……
 - wait:
-  - 15
+  - 50
 - face:
   - 192011
   - 2
@@ -4106,18 +4594,26 @@
   - 美空
   - 呵呵。
 - wait:
-  - 15
+  - 30
 - print:
   - 美空
   - >2-
 
-    騎士先生，
+    騎士同學，
 - wait:
-  - 15
+  - 45
 - print:
   - 美空
-  - 你就是我們的朋友囉♪
+  - 你就是我們的
+- wait:
+  - 65
+- print:
+  - 美空
+  - 好朋友囉──♪
 - touch: *o0
+- face:
+  - 192011
+  - 1
 - focus:
   - 191811
 - bust:
@@ -4132,14 +4628,14 @@
   - 蘭法
   - 放心吧……
 - wait:
-  - 15
+  - 70
 - print:
   - 蘭法
   - >2-
 
     我們不會
 - wait:
-  - 15
+  - 55
 - print:
   - 蘭法
   - 做什麼可怕的事情……
@@ -4156,33 +4652,53 @@
   - 1
 - nod:
   - 192011
+- se:
+  - se_adv_step_leaves_move_01
 - print:
   - 美空
   - 好了，
 - wait:
-  - 15
+  - 40
 - print:
   - 美空
-  - >2-
+  - >2
 
-    那就和我們一塊兒好好相處吧♪
+- face:
+  - 192011
+  - 2
+- print:
+  - 美空
+  - 那就和我們
 - wait:
-  - 15
+  - 25
+- print:
+  - 美空
+  - 盡～情地好好相處吧♪
+- wait:
+  - 70
 - print:
   - 美空
   - >2-
 
-    騎士先生♪
+    騎士同學♪
 - touch: *o0
 - window_visible:
   - false
 - fadeout_all:
   - 30
-- amb_stop:
+- vo_effect:
+  - 0
+- bgm:
+  - stop
+  - 1
+- se_pause:
+  - amb_adv_wind_01
   - 1
 - black_out:
   - 1
   - 1
 - effect_delete:
   - 0026
+- effect_delete:
+  - 0092
 - end: *o0
