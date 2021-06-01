@@ -1,0 +1,265 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 501250
+- amb:
+  - amb_adv_wind_01
+- ui_visible:
+  - FALSE
+- situation:
+  - マホのレッスンについて
+- chara_full:
+  - 115911
+  - C
+  - 6
+- fadein:
+  - 115911
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M105_Introcut
+  - 0
+  - 0
+  - 1
+- focus:
+  - 115911
+- bust:
+  - 115911
+  - 0
+- vo:
+  - vo_adv_6061303_000
+- face:
+  - 115911
+  - 6
+- print:
+  - マコト
+  - 姫さんのレッスン、
+- wait:
+  - 30
+- print:
+  - マコト
+  - こっそり見てたけど、
+- wait:
+  - 35
+- print:
+  - マコト
+  - >2
+
+- face:
+  - 115911
+  - 1
+- print:
+  - マコト
+  - 何というか独特だよな……
+- wait:
+  - 55
+- print:
+  - マコト
+  - さすがというか何というか。
+- touch: &o0 []
+- choice:
+  - しゃなりしゃなり。
+  - 1
+  - 1
+- choice:
+  - 一緒にレッスン受けたかった。
+  - 2
+  - 2
+- choice:
+  - くるりんぱ～☆
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 115911
+- bust:
+  - 115911
+  - 0
+- vo:
+  - vo_adv_6061303_001
+- face:
+  - 115911
+  - 2
+- print:
+  - マコト
+  - おお、
+- wait:
+  - 15
+- print:
+  - マコト
+  - ちゃんとできてるな。
+- wait:
+  - 30
+- print:
+  - マコト
+  - 大したもんだよ。
+- wait:
+  - 35
+- print:
+  - マコト
+  - >2
+
+- face:
+  - 115911
+  - 1
+- print:
+  - マコト
+  - あんな不思議な教え方でも
+- wait:
+  - 20
+- print:
+  - マコト
+  - みんなできるようになってるんだから、
+- wait:
+  - 25
+- print:
+  - マコト
+  - >2-
+
+    やっぱりあの姫さんはただ者じゃないな。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 115911
+- bust:
+  - 115911
+  - 0
+- vo:
+  - vo_adv_6061303_002
+- face:
+  - 115911
+  - 1
+- print:
+  - マコト
+  - 何言ってんだ、
+- wait:
+  - 30
+- print:
+  - マコト
+  - あたしも講師として来てるんだっての。
+- wait:
+  - 50
+- print:
+  - マコト
+  - >2
+
+- nod:
+  - 115911
+- print:
+  - マコト
+  - でもまあ、
+- wait:
+  - 25
+- print:
+  - マコト
+  - その歩行術はちょっと気になるな。
+- wait:
+  - 55
+- print:
+  - マコト
+  - >2
+
+- face:
+  - 115911
+  - 2
+- print:
+  - マコト
+  - 戦闘に応用できるかもしれねぇし、
+- wait:
+  - 45
+- print:
+  - マコト
+  - あとでちょっと教えてくれよな。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 115911
+- bust:
+  - 115911
+  - 0
+- vo:
+  - vo_adv_6061303_003
+- face:
+  - 115911
+  - 4
+- print:
+  - マコト
+  - おいおい、
+- wait:
+  - 20
+- print:
+  - マコト
+  - もうレッスンは終わってるぞ？
+- wait:
+  - 40
+- print:
+  - マコト
+  - >2
+
+- face:
+  - 115911
+  - 6
+- emotion:
+  - question1_R
+  - 115911
+  - 145
+  - 505
+  - se_adv_emote_question_01
+- print:
+  - マコト
+  - え、
+- wait:
+  - 25
+- print:
+  - マコト
+  - クセになった？　
+- wait:
+  - 45
+- face:
+  - 115911
+  - 4
+- print:
+  - マコト
+  - 所作のレッスンしただけで
+- wait:
+  - 10
+- print:
+  - マコト
+  - >2-
+
+    マホマホさせちまうとは……
+- wait:
+  - 45
+- print:
+  - マコト
+  - 姫さん恐るべしだな。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 115911
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

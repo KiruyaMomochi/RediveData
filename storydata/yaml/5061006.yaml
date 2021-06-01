@@ -1,0 +1,4383 @@
+- title:
+  - 孤独を埋めるもの
+- outline:
+  - ロイドを狙う魔物の姫と対峙するリマたち。姫の圧倒的な強さに圧され、リマは正体を晒しながらも姫に打ち勝つ。そして姫の口からロイドとは幼なじみで、彼を想い続けていたことを聞き彼女の告白を手助けする。
+- background:
+  - 500170
+- se:
+  - amb_adv_forest_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 孤独を埋めるもの
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - リマたちは辺境の地にあるという姫の居城へと向かっていた。
+- wait:
+  - 15
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 115811
+  - L
+  - 6
+- chara_full:
+  - 115911
+  - C
+  - 6
+- chara_full:
+  - 116011
+  - R
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M357
+  - 0
+  - 0
+  - 1
+- focus:
+  - 115911
+- bust:
+  - 115911
+  - 0
+- vo:
+  - vo_adv_5061006_000
+- face:
+  - 115911
+  - 6
+- emotion:
+  - notice1_L
+  - 115911
+  - -30
+  - 575
+  - se_adv_emote_common_01
+- print:
+  - マコト
+  - おいあれ、
+- wait:
+  - 25
+- print:
+  - マコト
+  - 向こうに見えるのが姫の城じゃねえか？
+- touch: *o0
+- focus:
+  - 115811
+- bust:
+  - 115811
+  - 0
+- vo:
+  - vo_adv_5061006_001
+- face:
+  - 115811
+  - 4
+- print:
+  - リマ
+  - ようやくね。
+- wait:
+  - 45
+- print:
+  - リマ
+  - 整備されていない道に
+- wait:
+  - 40
+- print:
+  - リマ
+  - 魔物まで襲ってきて、
+- wait:
+  - 45
+- print:
+  - リマ
+  - >2-
+
+    本当に大変だったわ。
+- touch: *o0
+- focus:
+  - 116011
+- bust:
+  - 116011
+  - 0
+- vo:
+  - vo_adv_5061006_002
+- face:
+  - 116011
+  - 4
+- print:
+  - マホ
+  - こないな辺鄙で
+- wait:
+  - 45
+- print:
+  - マホ
+  - 寂しいとこに建てへんでもええのに。
+- wait:
+  - 110
+- print:
+  - マホ
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - マホ
+  - 魔物もぎょうさんおるし、
+- wait:
+  - 70
+- eye_open:
+  - True
+- print:
+  - マホ
+  - こんなんじゃ
+- wait:
+  - 40
+- print:
+  - マホ
+  - おちおち遊びに来れへんわぁ。
+- touch: *o0
+- focus:
+  - 115911
+- bust:
+  - 115911
+  - 0
+- vo:
+  - vo_adv_5061006_003
+- face:
+  - 115911
+  - 4
+- print:
+  - マコト
+  - いや、
+- wait:
+  - 15
+- print:
+  - マコト
+  - 気軽に遊びに行くトコじゃねえだろ。
+- wait:
+  - 35
+- print:
+  - マコト
+  - >2-
+
+    何しに行くつもりだよまったく。
+- touch: *o0
+- face:
+  - 115811
+  - 1
+- face:
+  - 116011
+  - 1
+- focus:
+  - 115911
+- bust:
+  - 115911
+  - 0
+- vo:
+  - vo_adv_5061006_004
+- face:
+  - 115911
+  - 1
+- nod:
+  - 115911
+- se:
+  - se_adv_step_leaves_move_01
+- print:
+  - マコト
+  - いいか、
+- wait:
+  - 20
+- print:
+  - マコト
+  - 相手は魔物の姫だ。
+- wait:
+  - 50
+- print:
+  - マコト
+  - その居城にはおそらく
+- wait:
+  - 30
+- print:
+  - マコト
+  - >2-
+
+    罠や魔物が待ち構えてるはずだ。
+- wait:
+  - 50
+- print:
+  - マコト
+  - 気を引き締めていけよ。
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 1.7
+  - 1
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_forest_01
+  - 1
+- background:
+  - 500260
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_mystery_01
+- chara_full:
+  - 115811
+  - L
+  - 6
+- chara_full:
+  - 115911
+  - C
+  - 6
+- chara_full:
+  - 116011
+  - R
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M417
+- focus:
+  - 115911
+- bust:
+  - 115911
+  - 0
+- vo:
+  - vo_adv_5061006_005
+- face:
+  - 115911
+  - 6
+- print:
+  - マコト
+  - ……って、言ったはいいけど、
+- wait:
+  - 25
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 115911
+- print:
+  - マコト
+  - 何にもねぇじゃねえか！
+- touch: *o0
+- focus:
+  - 116011
+- bust:
+  - 116011
+  - 0
+- vo:
+  - vo_adv_5061006_006
+- face:
+  - 116011
+  - 4
+- print:
+  - マホ
+  - お城の中まで
+- wait:
+  - 45
+- print:
+  - マホ
+  - えらい寂しいわぁ。
+- wait:
+  - 70
+- print:
+  - マホ
+  - >2
+
+- face:
+  - 116011
+  - 1
+- print:
+  - マホ
+  - うちのぬいぐるみでも
+- wait:
+  - 45
+- print:
+  - マホ
+  - 飾ってあげまひょかね？
+- touch: *o0
+- focus:
+  - 115911
+- bust:
+  - 115911
+  - 0
+- vo:
+  - vo_adv_5061006_007
+- face:
+  - 115911
+  - 4
+- emotion:
+  - sweat1_R
+  - 115911
+  - 110
+  - 540
+  - se_adv_emote_sweat_01
+- print:
+  - マコト
+  - 姫さん、
+- wait:
+  - 20
+- print:
+  - マコト
+  - さすがにそれは止めてやれよ……
+- touch: *o0
+- focus:
+  - 115811
+- bust:
+  - 115811
+  - 0
+- vo:
+  - vo_adv_5061006_008
+- face:
+  - 115811
+  - 4
+- print:
+  - リマ
+  - あ、
+- wait:
+  - 10
+- print:
+  - リマ
+  - あの、
+- wait:
+  - 30
+- print:
+  - リマ
+  - 魔物の姫に会ったら、
+- wait:
+  - 45
+- face:
+  - 115811
+  - 4
+- print:
+  - リマ
+  - いきなり戦わないで
+- wait:
+  - 45
+- print:
+  - リマ
+  - >2-
+
+    まずはお話ししてみたいんだけど……
+- touch: *o0
+- face:
+  - 116011
+  - 6
+- focus:
+  - 115911
+- bust:
+  - 115911
+  - 0
+- vo:
+  - vo_adv_5061006_009
+- face:
+  - 115911
+  - 6
+- print:
+  - マコト
+  - おいおい、
+- wait:
+  - 20
+- print:
+  - マコト
+  - そりゃまた呑気な話だな。
+- touch: *o0
+- focus:
+  - 115811
+- bust:
+  - 115811
+  - 0
+- vo:
+  - vo_adv_5061006_010
+- face:
+  - 115811
+  - 6
+- print:
+  - リマ
+  - ごめんなさい。
+- wait:
+  - 35
+- face:
+  - 115811
+  - 4
+- print:
+  - リマ
+  - でも……
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 115811
+- bust:
+  - 115811
+  - 0
+- vo:
+  - vo_adv_5061006_011
+- face:
+  - 115811
+  - 4
+- print:
+  - リマ
+  - このお城からは、
+- wait:
+  - 35
+- print:
+  - リマ
+  - 上手く言葉にできない強い思いを感じるわ……
+- touch: *o0
+- focus:
+  - 115811
+- bust:
+  - 115811
+  - 0
+- vo:
+  - vo_adv_5061006_012
+- face:
+  - 115811
+  - 4
+- print:
+  - リマ
+  - 魔物の姫のこと、
+- wait:
+  - 35
+- eye_open:
+  - FALSE
+- print:
+  - リマ
+  - 何にも分からないけど、
+- wait:
+  - 50
+- print:
+  - リマ
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - リマ
+  - 何となくだけど
+- wait:
+  - 30
+- print:
+  - リマ
+  - 理解しあえるんじゃないかって、
+- wait:
+  - 45
+- print:
+  - リマ
+  - そんな気がするから。
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - TRUE
+- focus:
+  - 116011
+- bust:
+  - 116011
+  - 0
+- vo:
+  - vo_adv_5061006_013
+- face:
+  - 116011
+  - 1
+- print:
+  - マホ
+  - マコトはん、
+- wait:
+  - 45
+- print:
+  - マホ
+  - うちからも
+- wait:
+  - 35
+- print:
+  - マホ
+  - おたのもうしあげます。
+- touch: *o0
+- choice:
+  - リマちゃんに任せてあげて。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 115911
+- bust:
+  - 115911
+  - 0
+- vo:
+  - vo_adv_5061006_014
+- face:
+  - 115911
+  - 6
+- print:
+  - マコト
+  - 姫さん、
+- wait:
+  - 40
+- print:
+  - マコト
+  - それにおまえまで……
+- wait:
+  - 60
+- print:
+  - マコト
+  - >2
+
+- face:
+  - 115911
+  - 1
+- print:
+  - マコト
+  - まあ、
+- wait:
+  - 10
+- print:
+  - マコト
+  - こっちだって無闇やたらと戦いたいわけじゃねえんだ。
+- wait:
+  - 55
+- print:
+  - マコト
+  - >2-
+
+    話し合いで解決するなら
+- wait:
+  - 25
+- print:
+  - マコト
+  - それに越したことはねえ。
+- touch: *o0
+- focus:
+  - 116011
+- bust:
+  - 116011
+  - 0
+- vo:
+  - vo_adv_5061006_015
+- face:
+  - 116011
+  - 2
+- print:
+  - マホ
+  - おやまあ、
+- wait:
+  - 50
+- print:
+  - マホ
+  - マコトはんも
+- wait:
+  - 45
+- print:
+  - マホ
+  - 随分大人になりはったわ。
+- touch: *o0
+- face:
+  - 116011
+  - 1
+- focus:
+  - 115911
+- bust:
+  - 115911
+  - 0
+- vo:
+  - vo_adv_5061006_016
+- face:
+  - 115911
+  - 4
+- print:
+  - マコト
+  - からかうなよ。
+- wait:
+  - 60
+- face:
+  - 115911
+  - 1
+- print:
+  - マコト
+  - ただ、
+- wait:
+  - 15
+- print:
+  - マコト
+  - それも相手の出方次第だ。
+- wait:
+  - 50
+- print:
+  - マコト
+  - >2-
+
+    問答無用で来るなら、
+- wait:
+  - 35
+- print:
+  - マコト
+  - 迷わず迎撃させてもらうぞ。
+- touch: *o0
+- focus:
+  - 115811
+- bust:
+  - 115811
+  - 0
+- vo:
+  - vo_adv_5061006_017
+- face:
+  - 115811
+  - 1
+- nod:
+  - 115811
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - リマ
+  - 分かってるわ。
+- wait:
+  - 25
+- print:
+  - リマ
+  - これ以上のわがままは言えないわよね。
+- touch: *o0
+- focus:
+  - 116011
+- bust:
+  - 116011
+  - 0
+- vo:
+  - vo_adv_5061006_018
+- face:
+  - 116011
+  - 6
+- emotion:
+  - notice1_L
+  - 116011
+  - -70
+  - 530
+  - se_adv_emote_common_01
+- print:
+  - マホ
+  - おや？　
+- wait:
+  - 45
+- print:
+  - マホ
+  - あれ
+- wait:
+  - 30
+- print:
+  - マホ
+  - 見とぉくれやす。
+- wait:
+  - 60
+- print:
+  - マホ
+  - >2-
+
+    えらい大きな扉やわぁ。
+- wait:
+  - 85
+- print:
+  - マホ
+  - いかにもな感じですわ。
+- touch: *o0
+- focus:
+  - 115911
+- bust:
+  - 115911
+  - 0
+- vo:
+  - vo_adv_5061006_019
+- face:
+  - 115911
+  - 3
+- print:
+  - マコト
+  - ああ、
+- wait:
+  - 25
+- print:
+  - マコト
+  - おそらく魔物の姫はこの中だ。
+- wait:
+  - 55
+- print:
+  - マコト
+  - >2-
+
+    配下の魔物も控えているかもしれねえ、
+- wait:
+  - 45
+- print:
+  - マコト
+  - 覚悟しとけよ。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_door_large_open_01
+- bgm:
+  - stop
+  - 1.7
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_mystery_01
+  - 1
+- background:
+  - 501230
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_mystery_01
+- chara_full:
+  - 115811
+  - L
+  - 6
+- chara_full:
+  - 115911
+  - C
+  - 3
+- chara_full:
+  - 116011
+  - R
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M279
+  - 0
+  - 0
+  - 1
+  - 1.4
+- focus:
+  - 115911
+- bust:
+  - 115911
+  - 0
+- vo:
+  - vo_adv_5061006_020
+- face:
+  - 115911
+  - 3
+- print:
+  - マコト
+  - ……見ろ、
+- wait:
+  - 20
+- print:
+  - マコト
+  - 奥の玉座。
+- wait:
+  - 30
+- print:
+  - マコト
+  - 誰かいるぜ。
+- touch: *o0
+- focus:
+  - 116011
+- bust:
+  - 116011
+  - 0
+- vo:
+  - vo_adv_5061006_021
+- face:
+  - 116011
+  - 6
+- print:
+  - マホ
+  - あれがお姫はんでっしゃろか？
+- wait:
+  - 80
+- print:
+  - マホ
+  - >2
+
+- face:
+  - 116011
+  - 4
+- print:
+  - マホ
+  - なんや、
+- wait:
+  - 40
+- print:
+  - マホ
+  - お姫はんのお部屋なのに
+- wait:
+  - 60
+- print:
+  - マホ
+  - ここも寂しいわぁ。
+- touch: *o0
+- focus:
+  - 115911
+- bust:
+  - 115911
+  - 0
+- vo:
+  - vo_adv_5061006_022
+- face:
+  - 115911
+  - 3
+- print:
+  - マコト
+  - 油断すんなよ。
+- wait:
+  - 25
+- print:
+  - マコト
+  - ここは敵地だ、
+- wait:
+  - 30
+- print:
+  - マコト
+  - >2-
+
+    侵入者に有利なことなんかありゃしねぇからな。
+- touch: *o0
+- face:
+  - 115811
+  - 6
+- face:
+  - 115911
+  - 6
+- face:
+  - 116011
+  - 6
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5061006_023
+- face:
+  - 1
+  - 1
+- print:
+  - '？？？ '
+  - 何をビクビクしておる。
+- wait:
+  - 60
+- print:
+  - '？？？ '
+  - >2-
+
+    罠も手下もおりはせんわ、
+- wait:
+  - 60
+- print:
+  - '？？？ '
+  - 早く来るがいい。
+- touch: *o0
+- focus:
+  - 115811
+- bust:
+  - 115811
+  - 0
+- vo:
+  - vo_adv_5061006_024
+- face:
+  - 115811
+  - 6
+- print:
+  - リマ
+  - 今の声……
+- touch: *o0
+- focus:
+  - 115911
+- bust:
+  - 115911
+  - 0
+- vo:
+  - vo_adv_5061006_025
+- face:
+  - 115911
+  - 3
+- nod:
+  - 115911
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - マコト
+  - ああ、
+- wait:
+  - 25
+- print:
+  - マコト
+  - 姫って野郎に間違いねえ。
+- wait:
+  - 45
+- print:
+  - マコト
+  - >2-
+
+    たった一人でお出迎えとは
+- wait:
+  - 30
+- print:
+  - マコト
+  - なめられたもんだぜ。
+- touch: *o0
+- focus:
+  - 116011
+- bust:
+  - 116011
+  - 0
+- vo:
+  - vo_adv_5061006_026
+- face:
+  - 116011
+  - 3
+- print:
+  - マホ
+  - 鬼が出るか
+- wait:
+  - 45
+- print:
+  - マホ
+  - 蛇が出るか。
+- wait:
+  - 60
+- face:
+  - 116011
+  - 1
+- print:
+  - マホ
+  - ほな、
+- wait:
+  - 20
+- print:
+  - マホ
+  - 行きまひょか。
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1.7
+  - 1
+- fadeout_all:
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 7012
+  - C
+  - 1
+- fadein:
+  - 7012
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M418
+- focus:
+  - 7012
+- bust:
+  - 7012
+  - 0
+- vo:
+  - vo_adv_5061006_027
+- face:
+  - 7012
+  - 1
+- print:
+  - 魔物の姫
+  - 待ちくたびれたぞ。
+- wait:
+  - 60
+- print:
+  - 魔物の姫
+  - お主らがロイドのよこした娘どもか。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 7012
+  - 30
+- chara_full:
+  - 115811
+  - LC
+  - 6
+- chara_full:
+  - 115911
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 115811
+- bust:
+  - 115811
+  - 0
+- vo:
+  - vo_adv_5061006_028
+- face:
+  - 115811
+  - 6
+- print:
+  - リマ
+  - あれが、
+- wait:
+  - 30
+- print:
+  - リマ
+  - 魔物の姫……？　
+- wait:
+  - 45
+- print:
+  - リマ
+  - 想像よりずっとキレイだわ。
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - TRUE
+- focus:
+  - 115911
+- bust:
+  - 115911
+  - 0
+- vo:
+  - vo_adv_5061006_029
+- face:
+  - 115911
+  - 3
+- nod:
+  - 115911
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - マコト
+  - ……なるほど、
+- wait:
+  - 30
+- print:
+  - マコト
+  - 姫を名乗るだけのことはあるな。
+- wait:
+  - 60
+- print:
+  - マコト
+  - >2-
+
+    こいつ、恐ろしく強いぞ。
+- wait:
+  - 45
+- print:
+  - マコト
+  - 罠も手下もいらねぇわけだ。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 7012
+  - C
+  - 1
+- fadein:
+  - 7012
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 7012
+- bust:
+  - 7012
+  - 0
+- vo:
+  - vo_adv_5061006_030
+- face:
+  - 7012
+  - 1
+- print:
+  - 魔物の姫
+  - ふん、
+- wait:
+  - 30
+- print:
+  - 魔物の姫
+  - 貴様もな。
+- wait:
+  - 60
+- print:
+  - 魔物の姫
+  - ロイドのやつめ、
+- wait:
+  - 35
+- print:
+  - 魔物の姫
+  - >2-
+
+    なかなか腕の立つ者をえらんだようだな。
+- touch: *o0
+- focus:
+  - 7012
+- bust:
+  - 7012
+  - 0
+- vo:
+  - vo_adv_5061006_031
+- face:
+  - 7012
+  - 1
+- nod:
+  - 7012
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 魔物の姫
+  - 一人邪魔な男もおるが、
+- wait:
+  - 60
+- print:
+  - 魔物の姫
+  - まあ勘弁してやろう。
+- wait:
+  - 70
+- print:
+  - 魔物の姫
+  - >2-
+
+    それでは貴様らの力、
+- wait:
+  - 65
+- print:
+  - 魔物の姫
+  - 見せてもらうとするかの。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 7012
+  - 30
+- chara_full:
+  - 115811
+  - LC
+  - 6
+- chara_full:
+  - 7012
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 115811
+- bust:
+  - 115811
+  - 0
+- vo:
+  - vo_adv_5061006_032
+- face:
+  - 115811
+  - 6
+- emotion:
+  - exclamation1_R
+  - 115811
+  - 20
+  - 590
+  - se_adv_emote_common_01
+- print:
+  - リマ
+  - ま、
+- wait:
+  - 15
+- print:
+  - リマ
+  - 待って！　
+- wait:
+  - 25
+- print:
+  - リマ
+  - 戦う前に
+- wait:
+  - 35
+- print:
+  - リマ
+  - まずは話し合いましょ！
+- touch: *o0
+- focus:
+  - 7012
+- bust:
+  - 7012
+  - 0
+- vo:
+  - vo_adv_5061006_033
+- face:
+  - 7012
+  - 3
+- print:
+  - 魔物の姫
+  - 貴様、
+- wait:
+  - 35
+- print:
+  - 魔物の姫
+  - 笑えぬ冗談はそれくらいにしておけよ？
+- wait:
+  - 65
+- print:
+  - 魔物の姫
+  - >2-
+
+    そのおキレイな面を台無しにされたくはあるまい。
+- touch: *o0
+- focus:
+  - 115811
+- bust:
+  - 115811
+  - 0
+- vo:
+  - vo_adv_5061006_034
+- face:
+  - 115811
+  - 4
+- print:
+  - リマ
+  - お願い、
+- wait:
+  - 25
+- print:
+  - リマ
+  - 私たち
+- wait:
+  - 20
+- print:
+  - リマ
+  - きっと分かり合えると思うの。
+- wait:
+  - 40
+- print:
+  - リマ
+  - だから──
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 3.5
+- fadeout_all:
+  - 30
+- chara_full:
+  - 7012
+  - C
+  - 3
+- fadein:
+  - 7012
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 7012
+- bust:
+  - 7012
+  - 0
+- vo:
+  - vo_adv_5061006_035
+- face:
+  - 7012
+  - 3
+- print:
+  - 魔物の姫
+  - 言ったであろう？　
+- wait:
+  - 20
+- bgm:
+  - bgm_M209_NoChorus_03
+  - 0
+  - 0
+  - 1
+- print:
+  - 魔物の姫
+  - 冗談はやめろとな！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0009
+- se:
+  - se_adv_step_monster_move_01
+- scale:
+  - 7012
+  - 1.1
+  - 1
+  - 10
+- fadeout:
+  - 7012
+  - 10
+- effect_delete:
+  - 0009
+- effect:
+  - 0032
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 115811
+  - C
+  - 6
+- fadein:
+  - 115811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 115811
+- bust:
+  - 115811
+  - 0
+- vo:
+  - vo_adv_5061006_036
+- face:
+  - 115811
+  - 6
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - リマ
+  - っ！？
+- shake:
+  - 115811
+- touch: *o0
+- choice:
+  - リマをかばう。
+  - 2
+- tag:
+  - 2
+- window_visible:
+  - false
+- se:
+  - se_adv_step_monster_move_01
+- effect:
+  - 0009
+- fadeout:
+  - 115811
+  - 30
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- se:
+  - se_adv_impact_swing_01
+- se:
+  - se_adv_weapon_claw_whiff_01
+- effect:
+  - 0028
+- wait:
+  - 5
+- se:
+  - se_adv_weapon_sword_impact_03
+- effect:
+  - 0045
+- wait:
+  - 15
+- background:
+  - 501230
+- chara_full:
+  - 7012
+  - C
+  - 1
+- fadein:
+  - 7012
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 7012
+- bust:
+  - 7012
+  - 0
+- vo:
+  - vo_adv_5061006_037
+- face:
+  - 7012
+  - 1
+- print:
+  - 魔物の姫
+  - ほう、
+- wait:
+  - 30
+- print:
+  - 魔物の姫
+  - いい反応だ。
+- wait:
+  - 45
+- print:
+  - 魔物の姫
+  - 存外やるではないか。
+- wait:
+  - 50
+- face:
+  - 7012
+  - 3
+- print:
+  - 魔物の姫
+  - だが！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0009
+- se:
+  - se_adv_step_monster_move_01
+- scale:
+  - 7012
+  - 1.1
+  - 1
+  - 10
+- fadeout:
+  - 7012
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- se:
+  - se_adv_weapon_claw_hit_01
+- effect:
+  - 0028
+- camera_zoom:
+  - 1.3
+  - 3
+- wait:
+  - 10
+- background:
+  - 501230
+- se_pause:
+  - se_adv_creature_cmn_05
+  - 1
+- camera_zoom:
+  - 1
+  - 5
+- se:
+  - se_adv_kick_ground_01
+- se:
+  - se_adv_bodyfall_02
+- effect:
+  - 0079
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- effect:
+  - 0032
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 115811
+  - C
+  - 6
+- fadein:
+  - 115811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 115811
+- bust:
+  - 115811
+  - 0
+- vo:
+  - vo_adv_5061006_038
+- face:
+  - 115811
+  - 6
+- emotion:
+  - exclamation1_R
+  - 115811
+  - 20
+  - 590
+  - se_adv_emote_common_01
+- print:
+  - リマ
+  - ああ！　{0}くん！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 115811
+  - 30
+- chara_full:
+  - 115911
+  - C
+  - 3
+- fadein:
+  - 115911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 115911
+- bust:
+  - 115911
+  - 0
+- vo:
+  - vo_adv_5061006_039
+- face:
+  - 115911
+  - 3
+- print:
+  - マコト
+  - ちっ、
+- wait:
+  - 15
+- print:
+  - マコト
+  - やっぱりこうなったか！　
+- wait:
+  - 25
+- print:
+  - マコト
+  - やるぞ姫さん！
+- wait:
+  - 20
+- print:
+  - マコト
+  - >2-
+
+    おらおらぁ！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_blanket_move_02
+- se:
+  - se_adv_step_leaves_run_go_01
+- effect:
+  - 0009
+- scale:
+  - 115911
+  - 1.2
+  - 2
+  - 10
+- fadeout:
+  - 115911
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- se:
+  - se_adv_weapon_sword_hit_01
+- effect:
+  - 0001
+- wait:
+  - 15
+- background:
+  - 501230
+- chara_full:
+  - 116011
+  - C
+  - 3
+- fadein:
+  - 116011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116011
+- bust:
+  - 116011
+  - 0
+- vo:
+  - vo_adv_5061006_040
+- face:
+  - 116011
+  - 3
+- print:
+  - マホ
+  - けんかは好きやないけど、
+- wait:
+  - 60
+- print:
+  - マホ
+  - 仕方あらしまへんなぁ。
+- wait:
+  - 70
+- print:
+  - マホ
+  - くるりんぱ～☆
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 116011
+  - 30
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0072
+  - se_adv_magic_holy_medium_01
+- wait:
+  - 30
+- background:
+  - 501230
+- chara_full:
+  - 7012
+  - C
+  - 1
+- fadein:
+  - 7012
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 7012
+- bust:
+  - 7012
+  - 0
+- vo:
+  - vo_adv_5061006_041
+- face:
+  - 7012
+  - 1
+- print:
+  - 魔物の姫
+  - く
+- wait:
+  - 15
+- print:
+  - 魔物の姫
+  - はは！　
+- wait:
+  - 75
+- print:
+  - 魔物の姫
+  - 強いな貴様ら。
+- wait:
+  - 50
+- print:
+  - 魔物の姫
+  - 相当な修羅場を潜り抜けてきたようだの。
+- wait:
+  - 80
+- print:
+  - 魔物の姫
+  - >2-
+
+    貴様らなら
+- wait:
+  - 30
+- print:
+  - 魔物の姫
+  - 妾を止められるかもしれんのぉ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 7012
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 115911
+  - LC
+  - 3
+- chara_full:
+  - 116011
+  - RC
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 115911
+- bust:
+  - 115911
+  - 0
+- vo:
+  - vo_adv_5061006_042
+- face:
+  - 115911
+  - 3
+- print:
+  - マコト
+  - かもじゃねえ、
+- wait:
+  - 15
+- print:
+  - マコト
+  - 止めんだよ！
+- touch: *o0
+- focus:
+  - 116011
+- bust:
+  - 116011
+  - 0
+- vo:
+  - vo_adv_5061006_043
+- face:
+  - 116011
+  - 3
+- nod:
+  - 116011
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - マホ
+  - 大人しゅうなったとこで
+- wait:
+  - 45
+- print:
+  - マホ
+  - リマはんとお話ししてもらいますえ。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 7012
+  - C
+  - 3
+- fadein:
+  - 7012
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 7012
+- bust:
+  - 7012
+  - 0
+- vo:
+  - vo_adv_5061006_044
+- face:
+  - 7012
+  - 3
+- print:
+  - 魔物の姫
+  - 戦いにつまらぬ感情を持ち込むでないわ！
+- wait:
+  - 65
+- print:
+  - 魔物の姫
+  - >2-
+
+    妾を殺す気で来るがいい！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 7012
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 115911
+  - LC
+  - 3
+- chara_full:
+  - 116011
+  - RC
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 115911
+- bust:
+  - 115911
+  - 0
+- vo:
+  - vo_adv_5061006_045
+- face:
+  - 115911
+  - 3
+- print:
+  - マコト
+  - くそっ、
+- wait:
+  - 25
+- print:
+  - マコト
+  - たしかにこいつは加減なんかしていい相手じゃねえな！
+- wait:
+  - 40
+- print:
+  - マコト
+  - >2-
+
+    姫さん！
+- touch: *o0
+- focus:
+  - 116011
+- bust:
+  - 116011
+  - 0
+- vo:
+  - vo_adv_5061006_046
+- face:
+  - 116011
+  - 3
+- nod:
+  - 116011
+- se:
+  - se_adv_step_rug_move_01
+- print:
+  - マホ
+  - 行くで～
+- wait:
+  - 45
+- print:
+  - マホ
+  - みらくるまほりん、
+- wait:
+  - 40
+- print:
+  - マホ
+  - くるりんぱ～☆
+- touch: *o0
+- focus:
+  - 115911
+- bust:
+  - 115911
+  - 0
+- vo:
+  - vo_adv_5061006_047
+- face:
+  - 115911
+  - 3
+- nod:
+  - 115911
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - マコト
+  - 畳みかける！
+- wait:
+  - 30
+- print:
+  - マコト
+  - >2-
+
+    はああああっ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0033
+  - se_adv_weapon_sword_multi_hit_01
+- wait:
+  - 15
+- effect:
+  - 0072
+  - se_adv_magic_holy_medium_01
+- wait:
+  - 30
+- background:
+  - 501230
+- chara_full:
+  - 115911
+  - LC
+  - 1
+- chara_full:
+  - 116011
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 115911
+- bust:
+  - 115911
+  - 0
+- vo:
+  - vo_adv_5061006_048
+- face:
+  - 115911
+  - 1
+- print:
+  - マコト
+  - やったか……
+- wait:
+  - 25
+- face:
+  - 115911
+  - 4
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - マコト
+  - ぐあ！
+- shake:
+  - 115911
+- touch: *o0
+- focus:
+  - 116011
+- bust:
+  - 116011
+  - 0
+- vo:
+  - vo_adv_5061006_049
+- face:
+  - 116011
+  - 6
+- emotion:
+  - surprise1_L
+  - 116011
+  - 140
+  - 500
+  - se_adv_emote_common_01
+- print:
+  - マホ
+  - マコトはん！？　
+- wait:
+  - 40
+- face:
+  - 116011
+  - 4
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - マホ
+  - きゃあ！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_cloth_move_normal_01
+- updown:
+  - 115911
+  - 0
+  - -150
+  - 0.2
+- updown:
+  - 116011
+  - 0
+  - -150
+  - 0.2
+- fadeout_all:
+  - 15
+- se:
+  - se_adv_bodyfall_02
+- shake_screen: *o0
+- effect:
+  - 0032
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 7012
+  - C
+  - 1
+- fadein:
+  - 7012
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 7012
+- bust:
+  - 7012
+  - 0
+- vo:
+  - vo_adv_5061006_050
+- face:
+  - 7012
+  - 1
+- print:
+  - 魔物の姫
+  - 今のはよかったぞ。
+- wait:
+  - 45
+- print:
+  - 魔物の姫
+  - だが、
+- wait:
+  - 30
+- print:
+  - 魔物の姫
+  - 妾を止めるには足りんようだの。
+- wait:
+  - 75
+- print:
+  - 魔物の姫
+  - >2
+
+- face:
+  - 7012
+  - 3
+- print:
+  - 魔物の姫
+  - 話し合いだのなんだのと、
+- wait:
+  - 40
+- print:
+  - 魔物の姫
+  - 貴様らは甘すぎるのだ。
+- touch: *o0
+- focus:
+  - 7012
+- bust:
+  - 7012
+  - 0
+- vo:
+  - vo_adv_5061006_051
+- face:
+  - 7012
+  - 3
+- nod:
+  - 7012
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 魔物の姫
+  - そんな覚悟で妾の前に立ったことを後悔するがいい！
+- touch: *o0
+- choice:
+  - マコトとマホをかばう。
+  - 3
+- tag:
+  - 3
+- window_visible:
+  - false
+- effect:
+  - 0009
+- se:
+  - se_adv_step_monster_move_01
+- scale:
+  - 7012
+  - 1.1
+  - 1
+  - 10
+- fadeout:
+  - 7012
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- se:
+  - se_adv_impact_swing_01
+- se:
+  - se_adv_weapon_claw_whiff_01
+- effect:
+  - 0028
+- wait:
+  - 5
+- se:
+  - se_adv_weapon_sword_impact_03
+- effect:
+  - 0045
+- wait:
+  - 15
+- background:
+  - 501230
+- chara_full:
+  - 116011
+  - C
+  - 4
+- fadein:
+  - 116011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116011
+- bust:
+  - 116011
+  - 0
+- vo:
+  - vo_adv_5061006_052
+- face:
+  - 116011
+  - 4
+- print:
+  - マホ
+  - あ、
+- wait:
+  - 30
+- print:
+  - マホ
+  - あかんどす、
+- wait:
+  - 40
+- print:
+  - マホ
+  - 王子はん……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 116011
+  - 30
+- chara_full:
+  - 7012
+  - C
+  - 3
+- fadein:
+  - 7012
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 7012
+- bust:
+  - 7012
+  - 0
+- vo:
+  - vo_adv_5061006_053
+- face:
+  - 7012
+  - 3
+- print:
+  - 魔物の姫
+  - また貴様か。
+- wait:
+  - 55
+- print:
+  - 魔物の姫
+  - 盾になるしか能のない奴は引っ込んでおれ。
+- touch: *o0
+- choice:
+  - まずは話を聞いて！
+  - 4
+- tag:
+  - 4
+- focus:
+  - 7012
+- bust:
+  - 7012
+  - 0
+- vo:
+  - vo_adv_5061006_054
+- face:
+  - 7012
+  - 3
+- nod:
+  - 7012
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 魔物の姫
+  - 貴様らと話すことなどないと言ってるであろうが！
+- wait:
+  - 80
+- print:
+  - 魔物の姫
+  - >2-
+
+    妾には……
+- wait:
+  - 50
+- print:
+  - 魔物の姫
+  - 妾にはこうするしかないのだ！
+- touch: *o0
+- choice:
+  - そんなことない、きっと分かり合えるよ！
+  - 5
+- tag:
+  - 5
+- focus:
+  - 7012
+- bust:
+  - 7012
+  - 0
+- vo:
+  - vo_adv_5061006_055
+- face:
+  - 7012
+  - 3
+- print:
+  - 魔物の姫
+  - ……
+- wait:
+  - 40
+- print:
+  - 魔物の姫
+  - 言うではないか。
+- wait:
+  - 50
+- print:
+  - 魔物の姫
+  - >2-
+
+    それでは、
+- wait:
+  - 40
+- print:
+  - 魔物の姫
+  - これを見てもそんな戯言が言えるか！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 3
+  - 1
+- black_out:
+  - 1
+  - 0.5
+- fadeout:
+  - 7012
+  - 5
+- wait:
+  - 10
+- chara_full:
+  - 7011
+  - C
+  - 1
+- fadein:
+  - 7011
+  - 5
+- black_in: *o0
+- window_visible:
+  - true
+- focus:
+  - 115811
+- bust:
+  - 115811
+  - 1
+- vo:
+  - vo_adv_5061006_056
+- face:
+  - 115811
+  - 6
+- print:
+  - リマ
+  - そ、
+- wait:
+  - 20
+- print:
+  - リマ
+  - その顔……
+- touch: *o0
+- bgm:
+  - bgm_M453
+- focus:
+  - 7011
+- bust:
+  - 7011
+  - 0
+- vo:
+  - vo_adv_5061006_057
+- face:
+  - 7011
+  - 1
+- nod:
+  - 7011
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 魔物の姫
+  - どうだ？　
+- wait:
+  - 35
+- print:
+  - 魔物の姫
+  - 醜かろう？
+- wait:
+  - 55
+- print:
+  - 魔物の姫
+  - >2-
+
+    こんな妾が
+- wait:
+  - 50
+- print:
+  - 魔物の姫
+  - 人間と分かり合えるはずがなかろう。
+- touch: *o0
+- focus:
+  - 7011
+- bust:
+  - 7011
+  - 0
+- vo:
+  - vo_adv_5061006_058
+- face:
+  - 7011
+  - 3
+- print:
+  - 魔物の姫
+  - 貴様らのように
+- wait:
+  - 40
+- print:
+  - 魔物の姫
+  - 美しく生まれた者に
+- wait:
+  - 55
+- print:
+  - 魔物の姫
+  - 妾の苦しみなど
+- wait:
+  - 45
+- print:
+  - 魔物の姫
+  - 分かるはずもない。
+- touch: *o0
+- focus:
+  - 7011
+- bust:
+  - 7011
+  - 0
+- vo:
+  - vo_adv_5061006_059
+- face:
+  - 7011
+  - 3
+- nod:
+  - 7011
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 魔物の姫
+  - 分かったらロイドの元へ帰ってこう伝えろ。
+- wait:
+  - 70
+- print:
+  - 魔物の姫
+  - >2-
+
+    貴様をもらいに行くとな。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 7011
+  - 30
+- chara_full:
+  - 115811
+  - C
+  - 4
+- fadein:
+  - 115811
+  - 30
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 115811
+- bust:
+  - 115811
+  - 0
+- vo:
+  - vo_adv_5061006_060
+- face:
+  - 115811
+  - 4
+- print:
+  - リマ
+  - ああ、
+- wait:
+  - 40
+- print:
+  - リマ
+  - 分かった……
+- wait:
+  - 50
+- print:
+  - リマ
+  - このお城に感じた感情、
+- wait:
+  - 60
+- print:
+  - リマ
+  - >2-
+
+    それは
+- wait:
+  - 50
+- print:
+  - リマ
+  - 孤独だったのね。
+- touch: *o0
+- focus:
+  - 115811
+- bust:
+  - 115811
+  - 0
+- vo:
+  - vo_adv_5061006_061
+- face:
+  - 115811
+  - 4
+- eye_open:
+  - FALSE
+- print:
+  - リマ
+  - 私も
+- wait:
+  - 30
+- print:
+  - リマ
+  - 見た目は魔物みたいなものだもん。
+- wait:
+  - 75
+- print:
+  - リマ
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - リマ
+  - 拒絶されてきたから、
+- wait:
+  - 35
+- print:
+  - リマ
+  - 彼女の気持ちはよく分かるわ……
+- touch: *o0
+- focus:
+  - 115811
+- bust:
+  - 115811
+  - 0
+- vo:
+  - vo_adv_5061006_062
+- face:
+  - 115811
+  - 1
+- print:
+  - リマ
+  - でも、
+- wait:
+  - 30
+- print:
+  - リマ
+  - 私は幸運にも
+- wait:
+  - 40
+- print:
+  - リマ
+  - 牧場のみんなや彼がいてくれた。
+- wait:
+  - 75
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 115811
+  - 4
+- print:
+  - リマ
+  - でも、
+- wait:
+  - 35
+- print:
+  - リマ
+  - もしみんなに会えなかったら、
+- wait:
+  - 45
+- print:
+  - リマ
+  - >2-
+
+    私も同じようになっていたかもしれない。
+- touch: *o0
+- focus:
+  - 115811
+- bust:
+  - 115811
+  - 0
+- vo:
+  - vo_adv_5061006_063
+- face:
+  - 115811
+  - 4
+- eye_open:
+  - FALSE
+- print:
+  - リマ
+  - もし
+- wait:
+  - 45
+- print:
+  - リマ
+  - 孤独が彼女を歪めてしまったなら、
+- wait:
+  - 55
+- print:
+  - リマ
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - リマ
+  - 私たちはきっと分かり合えるはずだわ！　
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- fadeout:
+  - 115811
+  - 30
+- chara_full:
+  - 115811
+  - LC
+  - 4
+- chara_full:
+  - 7011
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 115811
+- bust:
+  - 115811
+  - 0
+- vo:
+  - vo_adv_5061006_064
+- face:
+  - 115811
+  - 4
+- nod:
+  - 115811
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - リマ
+  - お願い、
+- wait:
+  - 30
+- print:
+  - リマ
+  - もう一度お話しさせて！　
+- wait:
+  - 35
+- print:
+  - リマ
+  - だって私も……
+- touch: *o0
+- focus:
+  - 7011
+- bust:
+  - 7011
+  - 0
+- vo:
+  - vo_adv_5061006_065
+- face:
+  - 7011
+  - 3
+- print:
+  - 魔物の姫
+  - 戯言をぬかすな！　
+- wait:
+  - 45
+- print:
+  - 魔物の姫
+  - 話を聞いてほしくば、
+- wait:
+  - 35
+- print:
+  - 魔物の姫
+  - まずは妾に勝ってからだ！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1.7
+- fadeout_all:
+  - 30
+- se_pause:
+  - amb_adv_mystery_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- bg_color:
+  - 0
+  - 0
+  - 0
+- movie:
+  - 506100601
+- black_out:
+  - 1
+  - 0.3
+- background:
+  - 501230
+- wait:
+  - 15
+- se:
+  - amb_adv_mystery_01
+- black_in: *o0
+- chara_full:
+  - 7011
+  - C
+  - 4
+- fadein:
+  - 7011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 7011
+- bust:
+  - 7011
+  - 0
+- vo:
+  - vo_adv_5061006_066
+- face:
+  - 7011
+  - 4
+- print:
+  - 魔物の姫
+  - ぐ、
+- wait:
+  - 35
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 魔物の姫
+  - うぅ……
+- shake:
+  - 7011
+- touch: *o0
+- window_visible:
+  - false
+- updown:
+  - 7011
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 7011
+  - 15
+- se:
+  - se_adv_bodyfall_02
+- shake_screen: *o0
+- chara_full:
+  - 115911
+  - LC
+  - 1
+- chara_full:
+  - 116011
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M353_Inter
+  - 0
+  - 0
+  - 1
+- focus:
+  - 115911
+- bust:
+  - 115911
+  - 0
+- vo:
+  - vo_adv_5061006_067
+- face:
+  - 115911
+  - 1
+- print:
+  - マコト
+  - やった……
+- wait:
+  - 30
+- print:
+  - マコト
+  - やったな、
+- wait:
+  - 5
+- print:
+  - マコト
+  - おい！
+- touch: *o0
+- focus:
+  - 116011
+- bust:
+  - 116011
+  - 0
+- vo:
+  - vo_adv_5061006_068
+- face:
+  - 116011
+  - 1
+- print:
+  - マホ
+  - ああ、
+- wait:
+  - 30
+- print:
+  - マホ
+  - リマはんは
+- wait:
+  - 35
+- print:
+  - マホ
+  - リマはんやったんやね。
+- wait:
+  - 65
+- print:
+  - マホ
+  - >2
+
+- face:
+  - 116011
+  - 2
+- print:
+  - マホ
+  - 驚いて
+- wait:
+  - 30
+- print:
+  - マホ
+  - 痛みも
+- wait:
+  - 20
+- print:
+  - マホ
+  - どこか行ってもうたわ。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105211
+  - LC
+  - 1
+- chara_full:
+  - 115911
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105211
+- bust:
+  - 105211
+  - 0
+- vo:
+  - vo_adv_5061006_069
+- face:
+  - 105211
+  - 1
+- print:
+  - リマ
+  - 二人とも……
+- wait:
+  - 35
+- face:
+  - 105211
+  - 2
+- print:
+  - リマ
+  - よかった、
+- wait:
+  - 35
+- print:
+  - リマ
+  - 無事だったのね。
+- touch: *o0
+- face:
+  - 105211
+  - 1
+- focus:
+  - 115911
+- bust:
+  - 115911
+  - 0
+- vo:
+  - vo_adv_5061006_070
+- face:
+  - 115911
+  - 1
+- print:
+  - マコト
+  - これくらいじゃくたばんねえよ。
+- wait:
+  - 45
+- face:
+  - 115911
+  - 6
+- print:
+  - マコト
+  - しかしあんた、
+- wait:
+  - 35
+- print:
+  - マコト
+  - その姿……
+- touch: *o0
+- focus:
+  - 105211
+- bust:
+  - 105211
+  - 0
+- vo:
+  - vo_adv_5061006_071
+- face:
+  - 105211
+  - 4
+- print:
+  - リマ
+  - や、
+- wait:
+  - 20
+- print:
+  - リマ
+  - やっぱり怖い、
+- wait:
+  - 50
+- print:
+  - リマ
+  - わよね？
+- touch: *o0
+- focus:
+  - 115911
+- bust:
+  - 115911
+  - 0
+- vo:
+  - vo_adv_5061006_072
+- face:
+  - 115911
+  - 6
+- print:
+  - マコト
+  - は？　
+- wait:
+  - 25
+- print:
+  - マコト
+  - 何言ってるんだ、
+- wait:
+  - 30
+- face:
+  - 115911
+  - 1
+- print:
+  - マコト
+  - 立派な体格にいい面構え、
+- wait:
+  - 50
+- print:
+  - マコト
+  - >2
+
+- face:
+  - 115911
+  - 2
+- print:
+  - マコト
+  - 大いに結構じゃねえか。
+- wait:
+  - 45
+- print:
+  - マコト
+  - 【自警団（カォン）】でも立派にやってけるぜ。
+- touch: *o0
+- focus:
+  - 105211
+- bust:
+  - 105211
+  - 0
+- vo:
+  - vo_adv_5061006_073
+- face:
+  - 105211
+  - 1
+- print:
+  - リマ
+  - ちょっと複雑な褒め言葉だけど、
+- wait:
+  - 45
+- face:
+  - 105211
+  - 2
+- print:
+  - リマ
+  - うれしいわ。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 116011
+  - C
+  - 6
+- fadein:
+  - 116011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116011
+- bust:
+  - 116011
+  - 0
+- vo:
+  - vo_adv_5061006_074
+- face:
+  - 116011
+  - 6
+- print:
+  - マホ
+  - ところでリマはん、
+- wait:
+  - 45
+- print:
+  - マホ
+  - こちらのお姫はん、
+- wait:
+  - 40
+- print:
+  - マホ
+  - いかがします？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 116011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 7011
+- bust:
+  - 7011
+  - 1
+- vo:
+  - vo_adv_5061006_075
+- face:
+  - 7011
+  - 3
+- print:
+  - 魔物の姫
+  - ……
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 105211
+  - C
+  - 1
+- fadein:
+  - 105211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105211
+- bust:
+  - 105211
+  - 0
+- vo:
+  - vo_adv_5061006_076
+- face:
+  - 105211
+  - 1
+- nod:
+  - 105211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - リマ
+  - 決まっているわ。
+- wait:
+  - 30
+- print:
+  - リマ
+  - お話しするのよ。
+- wait:
+  - 40
+- print:
+  - リマ
+  - >2-
+
+    私たちが勝ったんですもの、
+- wait:
+  - 50
+- face:
+  - 105211
+  - 2
+- print:
+  - リマ
+  - いいわよね？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105211
+  - 30
+- chara_full:
+  - 105211
+  - LC
+  - 1
+- chara_full:
+  - 7011
+  - RC
+  - 3
+- updown:
+  - 7011
+  - 0
+  - -150
+  - 0.2
+- fadein_all:
+  - 30
+- se:
+  - se_adv_step_leaves_move_01
+- se:
+  - se_adv_standup_02
+- updown:
+  - 7011
+  - 0
+  - 150
+  - 0.5
+- window_visible:
+  - true
+- focus:
+  - 7011
+- bust:
+  - 7011
+  - 0
+- vo:
+  - vo_adv_5061006_077
+- face:
+  - 7011
+  - 3
+- print:
+  - 魔物の姫
+  - ……ふん、
+- wait:
+  - 30
+- print:
+  - 魔物の姫
+  - どこまでも甘い奴め。
+- wait:
+  - 60
+- print:
+  - 魔物の姫
+  - >2-
+
+    とどめを刺さなかったことをきっと後悔するぞ？
+- touch: *o0
+- focus:
+  - 105211
+- bust:
+  - 105211
+  - 0
+- vo:
+  - vo_adv_5061006_078
+- face:
+  - 105211
+  - 1
+- print:
+  - リマ
+  - 甘いのはお互いさまでしょ？
+- wait:
+  - 55
+- print:
+  - リマ
+  - >2-
+
+    だってあなたが本気になったら、
+- wait:
+  - 45
+- face:
+  - 105211
+  - 2
+- print:
+  - リマ
+  - 私なんか何もできなかったわよ。
+- touch: *o0
+- focus:
+  - 105211
+- bust:
+  - 105211
+  - 0
+- vo:
+  - vo_adv_5061006_079
+- face:
+  - 105211
+  - 1
+- print:
+  - リマ
+  - それに
+- wait:
+  - 30
+- print:
+  - リマ
+  - ロイドさんをさらうのだって
+- wait:
+  - 30
+- print:
+  - リマ
+  - 簡単だったはず。
+- wait:
+  - 50
+- print:
+  - リマ
+  - >2-
+
+    そうしなかったのは、
+- wait:
+  - 40
+- print:
+  - リマ
+  - あなたが優しいからよ。
+- touch: *o0
+- focus:
+  - 7011
+- bust:
+  - 7011
+  - 0
+- vo:
+  - vo_adv_5061006_080
+- face:
+  - 7011
+  - 3
+- print:
+  - 魔物の姫
+  - ……知った風な口をきくな、
+- wait:
+  - 40
+- print:
+  - 魔物の姫
+  - 腹立たしい。
+- touch: *o0
+- focus:
+  - 105211
+- bust:
+  - 105211
+  - 0
+- vo:
+  - vo_adv_5061006_081
+- face:
+  - 105211
+  - 1
+- nod:
+  - 105211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - リマ
+  - ねえ、
+- wait:
+  - 5
+- print:
+  - リマ
+  - 姫さま。
+- wait:
+  - 35
+- print:
+  - リマ
+  - 見ての通り
+- wait:
+  - 35
+- print:
+  - リマ
+  - これが私の本当の姿、
+- wait:
+  - 75
+- print:
+  - リマ
+  - あなたと同じよ。
+- touch: *o0
+- focus:
+  - 7011
+- bust:
+  - 7011
+  - 0
+- vo:
+  - vo_adv_5061006_082
+- face:
+  - 7011
+  - 3
+- eye_open:
+  - FALSE
+- print:
+  - 魔物の姫
+  - ……同じなものか。
+- wait:
+  - 50
+- eye_open:
+  - True
+- print:
+  - 魔物の姫
+  - 獣の姿同士なのに、
+- wait:
+  - 60
+- print:
+  - 魔物の姫
+  - 貴様はこんなにも美しい。
+- wait:
+  - 80
+- print:
+  - 魔物の姫
+  - >2-
+
+    なのに
+- wait:
+  - 50
+- print:
+  - 魔物の姫
+  - 妾は
+- wait:
+  - 35
+- print:
+  - 魔物の姫
+  - 姿だけでなく
+- wait:
+  - 45
+- print:
+  - 魔物の姫
+  - 心まで醜い。
+- touch: *o0
+- focus:
+  - 7011
+- bust:
+  - 7011
+  - 0
+- vo:
+  - vo_adv_5061006_083
+- face:
+  - 7011
+  - 3
+- nod:
+  - 7011
+- print:
+  - 魔物の姫
+  - ゆえに
+- wait:
+  - 35
+- print:
+  - 魔物の姫
+  - 妾はこんな愚かな方法でしか
+- wait:
+  - 60
+- print:
+  - 魔物の姫
+  - >2-
+
+    ロイドに近付けなかったのだ。
+- touch: *o0
+- choice:
+  - どうしてロイドさんにこだわるの？
+  - 6
+- tag:
+  - 6
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 115911
+  - C
+  - 6
+- fadein:
+  - 115911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 115911
+- bust:
+  - 115911
+  - 0
+- vo:
+  - vo_adv_5061006_084
+- face:
+  - 115911
+  - 6
+- print:
+  - マコト
+  - それはあたしも気になってたよ。
+- wait:
+  - 50
+- print:
+  - マコト
+  - これだけ強い力があるのに、
+- wait:
+  - 35
+- print:
+  - マコト
+  - >2-
+
+    わざわざ人間の貴族様を選ぶ理由が分からねぇ。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 116011
+  - LC
+  - 1
+- chara_full:
+  - 7011
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116011
+- bust:
+  - 116011
+  - 0
+- vo:
+  - vo_adv_5061006_085
+- face:
+  - 116011
+  - 1
+- print:
+  - マホ
+  - マコトはん、
+- wait:
+  - 50
+- print:
+  - マホ
+  - 「恋は盲目」って
+- wait:
+  - 55
+- print:
+  - マホ
+  - いいはりますやろ？
+- wait:
+  - 65
+- print:
+  - マホ
+  - >2-
+
+    好きになったら
+- wait:
+  - 45
+- print:
+  - マホ
+  - 種族の違いなんて
+- wait:
+  - 40
+- print:
+  - マホ
+  - 関係あらへんのや。
+- wait:
+  - 50
+- print:
+  - マホ
+  - なあ？
+- touch: *o0
+- focus:
+  - 7011
+- bust:
+  - 7011
+  - 0
+- vo:
+  - vo_adv_5061006_086
+- face:
+  - 7011
+  - 6
+- emotion:
+  - sweat2_R
+  - 7011
+  - 25
+  - 545
+  - se_adv_emote_sweat_02
+- print:
+  - 魔物の姫
+  - あ、
+- wait:
+  - 15
+- print:
+  - 魔物の姫
+  - ぅ……
+- wait:
+  - 30
+- print:
+  - 魔物の姫
+  - その……
+- touch: *o0
+- focus:
+  - 116011
+- bust:
+  - 116011
+  - 0
+- vo:
+  - vo_adv_5061006_087
+- face:
+  - 116011
+  - 6
+- print:
+  - マホ
+  - あらま、
+- wait:
+  - 40
+- print:
+  - マホ
+  - 図星やったわぁ。
+- wait:
+  - 50
+- face:
+  - 116011
+  - 2
+- print:
+  - マホ
+  - ふふ、
+- wait:
+  - 45
+- print:
+  - マホ
+  - やっぱり
+- wait:
+  - 25
+- print:
+  - マホ
+  - お姫はんなんやな。
+- touch: *o0
+- face:
+  - 116011
+  - 1
+- focus:
+  - 7011
+- bust:
+  - 7011
+  - 0
+- vo:
+  - vo_adv_5061006_088
+- face:
+  - 7011
+  - 3
+- print:
+  - 魔物の姫
+  - か、
+- wait:
+  - 30
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 7011
+- print:
+  - 魔物の姫
+  - からかうな……
+- wait:
+  - 60
+- face:
+  - 7011
+  - 1
+- bgm:
+  - stop
+  - 7
+  - 1
+- print:
+  - 魔物の姫
+  - 実は、
+- wait:
+  - 45
+- print:
+  - 魔物の姫
+  - ロイドは妾の恩人にして
+- wait:
+  - 55
+- print:
+  - 魔物の姫
+  - 幼馴染なのだ。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 116011
+  - 30
+- chara_full:
+  - 105211
+  - LC
+  - 6
+- fadein:
+  - 105211
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M34
+- focus:
+  - 105211
+- bust:
+  - 105211
+  - 0
+- vo:
+  - vo_adv_5061006_089
+- face:
+  - 105211
+  - 6
+- emotion:
+  - exclamation1_R
+  - 105211
+  - 20
+  - 660
+  - se_adv_emote_common_01
+- print:
+  - リマ
+  - ええ！　
+- wait:
+  - 40
+- print:
+  - リマ
+  - それはまた驚きの事実だわ！
+- touch: *o0
+- focus:
+  - 7011
+- bust:
+  - 7011
+  - 0
+- vo:
+  - vo_adv_5061006_090
+- face:
+  - 7011
+  - 1
+- nod:
+  - 7011
+- print:
+  - 魔物の姫
+  - 幼い時、
+- wait:
+  - 40
+- print:
+  - 魔物の姫
+  - 妾が人間の罠にかかったところを、
+- wait:
+  - 80
+- print:
+  - 魔物の姫
+  - >2-
+
+    狩りでこの地を訪れたロイドに助けられたのだ。
+- touch: *o0
+- focus:
+  - 7011
+- bust:
+  - 7011
+  - 0
+- vo:
+  - vo_adv_5061006_091
+- face:
+  - 7011
+  - 1
+- print:
+  - 魔物の姫
+  - それから
+- wait:
+  - 35
+- print:
+  - 魔物の姫
+  - 妾たちは人目を忍んで会い、
+- wait:
+  - 55
+- print:
+  - 魔物の姫
+  - 遊んだ。
+- wait:
+  - 60
+- print:
+  - 魔物の姫
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - 魔物の姫
+  - お互い幼かったからの。
+- wait:
+  - 70
+- eye_open:
+  - True
+- print:
+  - 魔物の姫
+  - そういうこともできたのだ。
+- touch: *o0
+- focus:
+  - 7011
+- bust:
+  - 7011
+  - 0
+- vo:
+  - vo_adv_5061006_092
+- face:
+  - 7011
+  - 1
+- print:
+  - 魔物の姫
+  - だが時が経ち、
+- wait:
+  - 55
+- print:
+  - 魔物の姫
+  - ロイドがこの地を離れ
+- wait:
+  - 40
+- print:
+  - 魔物の姫
+  - その関係も終わりを迎えた。
+- wait:
+  - 75
+- print:
+  - 魔物の姫
+  - >2
+
+- face:
+  - 7011
+  - 4
+- print:
+  - 魔物の姫
+  - だが、
+- wait:
+  - 55
+- print:
+  - 魔物の姫
+  - 妾はずっと
+- wait:
+  - 55
+- print:
+  - 魔物の姫
+  - ロイドのことが忘れられなかった。
+- touch: *o0
+- focus:
+  - 7011
+- bust:
+  - 7011
+  - 0
+- vo:
+  - vo_adv_5061006_093
+- face:
+  - 7011
+  - 4
+- print:
+  - 魔物の姫
+  - 誰もいないこの城で、
+- wait:
+  - 60
+- eye_open:
+  - FALSE
+- print:
+  - 魔物の姫
+  - あやつのことを思い続けたのだ。
+- touch: *o0
+- eye_open:
+  - true
+- focus:
+  - 105211
+- bust:
+  - 105211
+  - 0
+- vo:
+  - vo_adv_5061006_094
+- face:
+  - 105211
+  - 4
+- print:
+  - リマ
+  - ……
+- touch: *o0
+- focus:
+  - 7011
+- bust:
+  - 7011
+  - 0
+- vo:
+  - vo_adv_5061006_095
+- face:
+  - 7011
+  - 1
+- nod:
+  - 7011
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 魔物の姫
+  - そして１年ほど前、
+- wait:
+  - 50
+- print:
+  - 魔物の姫
+  - ロイドはあの館の主として戻ってきた。
+- wait:
+  - 90
+- print:
+  - 魔物の姫
+  - >2-
+
+    いてもたってもいられず、
+- wait:
+  - 45
+- print:
+  - 魔物の姫
+  - 会いに行ったが……
+- touch: *o0
+- focus:
+  - 7011
+- bust:
+  - 7011
+  - 0
+- vo:
+  - vo_adv_5061006_096
+- face:
+  - 7011
+  - 4
+- print:
+  - 魔物の姫
+  - 妾を見た瞬間、
+- wait:
+  - 55
+- print:
+  - 魔物の姫
+  - あやつの目に恐怖の色が浮かんだのだ。
+- wait:
+  - 80
+- print:
+  - 魔物の姫
+  - >2-
+
+    もうあの頃のようにはできないのだと理解したわ……
+- touch: *o0
+- choice:
+  - 話せば分かったかもしれない。
+  - 7
+- tag:
+  - 7
+- focus:
+  - 7011
+- bust:
+  - 7011
+  - 0
+- vo:
+  - vo_adv_5061006_097
+- face:
+  - 7011
+  - 1
+- print:
+  - 魔物の姫
+  - ……かもな。
+- wait:
+  - 75
+- face:
+  - 7011
+  - 4
+- print:
+  - 魔物の姫
+  - だが、
+- wait:
+  - 50
+- print:
+  - 魔物の姫
+  - それでも思い出してもらえなかったら？
+- wait:
+  - 85
+- print:
+  - 魔物の姫
+  - >2-
+
+    怖くてたまらないのだ。
+- touch: *o0
+- focus:
+  - 7011
+- bust:
+  - 7011
+  - 0
+- vo:
+  - vo_adv_5061006_098
+- face:
+  - 7011
+  - 3
+- nod:
+  - 7011
+- print:
+  - 魔物の姫
+  - それならいっそ
+- wait:
+  - 30
+- print:
+  - 魔物の姫
+  - 魔物らしく振舞ってやろう。
+- wait:
+  - 45
+- print:
+  - 魔物の姫
+  - そう決めたのだ。
+- wait:
+  - 65
+- print:
+  - 魔物の姫
+  - >2
+
+- face:
+  - 7011
+  - 4
+- print:
+  - 魔物の姫
+  - こんな醜い姿では
+- wait:
+  - 55
+- print:
+  - 魔物の姫
+  - まともに付き合うなど
+- wait:
+  - 30
+- print:
+  - 魔物の姫
+  - できはしないからな。
+- touch: *o0
+- focus:
+  - 105211
+- bust:
+  - 105211
+  - 0
+- vo:
+  - vo_adv_5061006_099
+- face:
+  - 105211
+  - 4
+- print:
+  - リマ
+  - じゃあ、
+- wait:
+  - 35
+- print:
+  - リマ
+  - 美しくて強い女の子を連れてこさせたのは……
+- touch: *o0
+- focus:
+  - 7011
+- bust:
+  - 7011
+  - 0
+- vo:
+  - vo_adv_5061006_100
+- face:
+  - 7011
+  - 1
+- print:
+  - 魔物の姫
+  - 妾より
+- wait:
+  - 30
+- print:
+  - 魔物の姫
+  - 強くて美しい女性なら
+- wait:
+  - 50
+- print:
+  - 魔物の姫
+  - 諦めもつくし、
+- wait:
+  - 50
+- print:
+  - 魔物の姫
+  - >2-
+
+    なにより
+- wait:
+  - 40
+- print:
+  - 魔物の姫
+  - 安心してロイドを任せられるからの。
+- touch: *o0
+- focus:
+  - 7011
+- bust:
+  - 7011
+  - 0
+- vo:
+  - vo_adv_5061006_101
+- face:
+  - 7011
+  - 1
+- nod:
+  - 7011
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 魔物の姫
+  - さあ、
+- wait:
+  - 25
+- print:
+  - 魔物の姫
+  - 話は終わりだ。
+- wait:
+  - 50
+- print:
+  - 魔物の姫
+  - 妾は負けた。
+- wait:
+  - 45
+- print:
+  - 魔物の姫
+  - >2-
+
+    処遇は貴様らの好きにするがいい。
+- touch: *o0
+- focus:
+  - 105211
+- bust:
+  - 105211
+  - 0
+- vo:
+  - vo_adv_5061006_102
+- face:
+  - 105211
+  - 4
+- eye_open:
+  - FALSE
+- print:
+  - リマ
+  - そう。
+- wait:
+  - 35
+- eye_open:
+  - True
+- print:
+  - リマ
+  - それなら……
+- wait:
+  - 35
+- print:
+  - リマ
+  - ちゃんとロイドさんに会ってお話しするのよ！
+- touch: *o0
+- focus:
+  - 7011
+- bust:
+  - 7011
+  - 0
+- vo:
+  - vo_adv_5061006_103
+- face:
+  - 7011
+  - 6
+- emotion:
+  - surprise1_L
+  - 7011
+  - 100
+  - 540
+  - se_adv_emote_common_01
+- print:
+  - 魔物の姫
+  - ……はあ！？　
+- wait:
+  - 15
+- print:
+  - 魔物の姫
+  - な、
+- wait:
+  - 10
+- print:
+  - 魔物の姫
+  - 何でそうなるのだ！
+- wait:
+  - 35
+- print:
+  - 魔物の姫
+  - >2-
+
+    貴様、
+- wait:
+  - 20
+- print:
+  - 魔物の姫
+  - 妾の話聞いておったか！
+- touch: *o0
+- focus:
+  - 105211
+- bust:
+  - 105211
+  - 0
+- vo:
+  - vo_adv_5061006_104
+- face:
+  - 105211
+  - 4
+- nod:
+  - 105211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - リマ
+  - あなたは醜くなんかないわ。
+- wait:
+  - 50
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105211
+  - 1
+- print:
+  - リマ
+  - ただ、
+- wait:
+  - 25
+- print:
+  - リマ
+  - ちょっとだけ勇気の使い方を間違っただけ。
+- wait:
+  - 70
+- print:
+  - リマ
+  - >2-
+
+    女の子だもん、
+- wait:
+  - 30
+- face:
+  - 105211
+  - 2
+- print:
+  - リマ
+  - そういうことだってあるわよね。
+- touch: *o0
+- focus:
+  - 105211
+- bust:
+  - 105211
+  - 0
+- vo:
+  - vo_adv_5061006_105
+- face:
+  - 105211
+  - 1
+- print:
+  - リマ
+  - 心が美しいままなら、
+- wait:
+  - 40
+- print:
+  - リマ
+  - まだ変われるわ。
+- wait:
+  - 50
+- print:
+  - リマ
+  - >2-
+
+    だからもう一度
+- wait:
+  - 35
+- face:
+  - 105211
+  - 2
+- print:
+  - リマ
+  - あの人に思いを伝えるのよ！
+- touch: *o0
+- focus:
+  - 7011
+- bust:
+  - 7011
+  - 0
+- vo:
+  - vo_adv_5061006_106
+- face:
+  - 7011
+  - 5
+- print:
+  - 魔物の姫
+  - い、
+- wait:
+  - 25
+- print:
+  - 魔物の姫
+  - いや、
+- wait:
+  - 40
+- print:
+  - 魔物の姫
+  - それは……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 115911
+  - LC
+  - 1
+- chara_full:
+  - 116011
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116011
+- bust:
+  - 116011
+  - 0
+- vo:
+  - vo_adv_5061006_107
+- face:
+  - 116011
+  - 1
+- print:
+  - マホ
+  - 同じ姫として
+- wait:
+  - 45
+- print:
+  - マホ
+  - 忠告させてもらいます。
+- wait:
+  - 70
+- print:
+  - マホ
+  - >2
+
+- face:
+  - 116011
+  - 2
+- print:
+  - マホ
+  - 恋する乙女は
+- wait:
+  - 55
+- print:
+  - マホ
+  - みんなお姫はんや。
+- wait:
+  - 75
+- print:
+  - マホ
+  - キレイに決まってはります。
+- touch: *o0
+- face:
+  - 116011
+  - 1
+- focus:
+  - 115911
+- bust:
+  - 115911
+  - 0
+- vo:
+  - vo_adv_5061006_108
+- face:
+  - 115911
+  - 4
+- print:
+  - マコト
+  - 素直になれない気持ち、
+- wait:
+  - 45
+- print:
+  - マコト
+  - あたしもよく分かる……
+- wait:
+  - 45
+- print:
+  - マコト
+  - >2
+
+- face:
+  - 115911
+  - 5
+- print:
+  - マコト
+  - って、
+- wait:
+  - 10
+- print:
+  - マコト
+  - な、
+- wait:
+  - 10
+- print:
+  - マコト
+  - なんでもねえよ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 7011
+  - C
+  - 6
+- fadein:
+  - 7011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 7011
+- bust:
+  - 7011
+  - 0
+- vo:
+  - vo_adv_5061006_109
+- face:
+  - 7011
+  - 6
+- print:
+  - 魔物の姫
+  - 貴様ら……
+- wait:
+  - 70
+- face:
+  - 7011
+  - 3
+- print:
+  - 魔物の姫
+  - いいだろう、
+- wait:
+  - 35
+- print:
+  - 魔物の姫
+  - どうせ妾に拒否権などないのだからな。
+- wait:
+  - 60
+- print:
+  - 魔物の姫
+  - >2-
+
+    どうせ嫌われるなら
+- wait:
+  - 35
+- print:
+  - 魔物の姫
+  - 堂々と告白して嫌われてやるわ！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 7011
+  - 30
+- bgm:
+  - stop
+  - 1
+- se_pause:
+  - amb_adv_mystery_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

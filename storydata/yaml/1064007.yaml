@@ -1,0 +1,1963 @@
+- title:
+  - 雪菲 第7話
+- outline:
+  - 當雪菲在意著{0}的事而獨自思考時，突然出現了魔物，她決定借助{0}的強化之力應戰。當她感受到兩人如同家人的羈絆後，終於安心地踏上歸途。
+- background:
+  - 500361
+- amb:
+  - amb_adv_room_noise_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 雪菲喜歡的東西
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 雪菲吃了魔物料理而退化成幼童，在她恢復原狀的幾天後──
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 106412
+  - C
+  - 5
+  - 1
+- fadein:
+  - 106412
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M11_Ver2
+  - 0
+  - 0
+  - 1
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_1064007_000
+- face:
+  - 106412
+  - 5
+- print:
+  - 雪菲
+  - …………
+- touch: *o0
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_1064007_001
+- face:
+  - 106412
+  - 5
+- print:
+  - 雪菲
+  - ……太丟人了……
+- wait:
+  - 35
+- print:
+  - 雪菲
+  - >2-
+
+    ……太丟人了……
+- touch: *o0
+- choice:
+  - 雪菲？
+  - 1
+- tag:
+  - 1
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_1064007_002
+- face:
+  - 106412
+  - 5
+- eye_open:
+  - True
+- se:
+  - se_adv_body_shake_02
+- se_pause:
+  - se_adv_body_shake_02
+  - 1
+- print:
+  - 雪菲
+  - 啊唔！
+- shake:
+  - 106412
+- touch: *o0
+- se_pause:
+  - se_adv_cloth_move_normal_03
+  - 0.5
+- window_visible:
+  - false
+- se:
+  - se_adv_step_wood_run_go_01
+- out_L:
+  - 106412
+  - 45
+  - true
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500360
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_outdoors_day_01
+- chara_full:
+  - 106412
+  - C
+  - 5
+- fadein:
+  - 106412
+  - 30
+- window_visible:
+  - true
+- choice:
+  - 喂～
+  - 2
+- tag:
+  - 2
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_1064007_003
+- face:
+  - 106412
+  - 5
+- print:
+  - 雪菲
+  - 啊嗚嗚嗚
+- wait:
+  - 40
+- face:
+  - 106412
+  - 6
+- print:
+  - 雪菲
+  - ……！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- out_L:
+  - 106412
+  - 45
+  - true
+- choice:
+  - 等一下！
+  - 3
+- tag:
+  - 3
+- chara_full:
+  - 106412
+  - LC
+  - 5
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 106412
+  - 45
+- se:
+  - se_adv_cloth_move_normal_01
+- window_visible:
+  - true
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_1064007_004
+- face:
+  - 106412
+  - 5
+- print:
+  - 雪菲
+  - ……！
+- wait:
+  - 40
+- print:
+  - 雪菲
+  - >2-
+
+    怎、
+- wait:
+  - 10
+- print:
+  - 雪菲
+  - 怎、
+- wait:
+  - 30
+- print:
+  - 雪菲
+  - 怎麼了嗎！
+- wait:
+  - 15
+- print:
+  - 雪菲
+  - >2-
+
+    {0}。
+- touch: *o0
+- choice:
+  - 我覺得妳這幾天都在躲我……
+  - 4
+- tag:
+  - 4
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_1064007_005
+- face:
+  - 106412
+  - 6
+- emotion:
+  - exclamation1_R
+  - 106412
+  - 20
+  - 550
+  - se_adv_emote_common_01
+- print:
+  - 雪菲
+  - 咦……
+- wait:
+  - 30
+- print:
+  - 雪菲
+  - >2-
+
+    沒、
+- wait:
+  - 35
+- print:
+  - 雪菲
+  - 沒、
+- wait:
+  - 30
+- print:
+  - 雪菲
+  - 沒那回事……
+- touch: *o0
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_1064007_006
+- face:
+  - 106412
+  - 4
+- print:
+  - 雪菲
+  - ……是
+- wait:
+  - 25
+- print:
+  - 雪菲
+  - ……是那樣
+- wait:
+  - 25
+- print:
+  - 雪菲
+  - 沒錯啦……
+- touch: *o0
+- choice:
+  - 為什麼？
+  - 5
+- tag:
+  - 5
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_1064007_007
+- face:
+  - 106412
+  - 6
+- print:
+  - 雪菲
+  - 你、
+- wait:
+  - 25
+- print:
+  - 雪菲
+  - 你還問為什麼，
+- wait:
+  - 40
+- print:
+  - 雪菲
+  - >2
+
+- face:
+  - 106412
+  - 4
+- print:
+  - 雪菲
+  - 那是因為……
+- wait:
+  - 30
+- print:
+  - 雪菲
+  - 之前……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106412
+  - 30
+- se_pause:
+  - amb_adv_outdoors_day_01
+  - 1
+- se:
+  - se_adv_magic_hatsune_01
+- white_out:
+  - 1
+  - 1
+- background:
+  - 500361
+- se_pause:
+  - se_adv_magic_hatsune_01
+  - 1
+- wait:
+  - 15
+- effect:
+  - 0020
+- se:
+  - amb_adv_room_noise_01
+- white_in: *o0
+- vo_effect:
+  - 3
+- chara_full:
+  - 106414
+  - C
+  - 2
+- scale:
+  - 106414
+  - 1.2
+  - 2
+- fadein:
+  - 106414
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106414
+- bust:
+  - 106414
+  - 0
+- vo:
+  - vo_adv_1064007_008
+- face:
+  - 106414
+  - 2
+- emotion:
+  - note1_L
+  - 106414
+  - -110
+  - 390
+  - se_adv_emote_note_01
+- print:
+  - 雪菲
+  - 最～喜歡
+- wait:
+  - 25
+- print:
+  - 雪菲
+  - 葛～格了～♪
+- wait:
+  - 35
+- print:
+  - 雪菲
+  - >2-
+
+    抱抱～～～～♪♪♪
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106414
+  - 30
+- vo_effect:
+  - 0
+- se:
+  - se_adv_transition_comedy_02
+- se_pause:
+  - amb_adv_room_noise_01
+  - 1
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0020
+- background:
+  - 500360
+- wait:
+  - 15
+- se:
+  - amb_adv_outdoors_day_01
+- white_in: *o0
+- chara_full:
+  - 106412
+  - C
+  - 5
+  - 1
+- fadein:
+  - 106412
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_1064007_009
+- face:
+  - 106412
+  - 5
+- emotion:
+  - shy1_R
+  - 106412
+  - -80
+  - 400
+  - se_adv_emote_shy_01
+- print:
+  - 雪菲
+  - ……啊嗚……！
+- touch: *o0
+- choice:
+  - 妳可以不用放在心上啦。
+  - 6
+- tag:
+  - 6
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_1064007_010
+- face:
+  - 106412
+  - 3
+- eye_open:
+  - True
+- print:
+  - 雪菲
+  - 我、
+- wait:
+  - 15
+- print:
+  - 雪菲
+  - 我怎麼能不放在心上呀！
+- wait:
+  - 40
+- print:
+  - 雪菲
+  - >2
+
+- face:
+  - 106412
+  - 4
+- print:
+  - 雪菲
+  - 真、
+- wait:
+  - 35
+- print:
+  - 雪菲
+  - 真是……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106412
+  - 30
+- se:
+  - se_adv_body_jump_01
+- chara_full:
+  - 106414
+  - C
+  - 4
+- scale:
+  - 106414
+  - 1.2
+  - 2
+- fadein:
+  - 106414
+  - 30
+- change_window:
+  - 3
+- text_size:
+  - 50
+- window_visible:
+  - true
+- focus:
+  - 106414
+- bust:
+  - 106414
+  - 0
+- vo:
+  - vo_adv_1064007_011
+- face:
+  - 106414
+  - 4
+- effect:
+  - 9
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - 雪菲
+  - 葛格這個
+- wait:
+  - 25
+- print:
+  - 雪菲
+  - 笨蛋～！
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- se:
+  - se_adv_bodyfall_03
+- se:
+  - se_adv_step_concrete_run_go_01
+- out_L:
+  - 106414
+  - 45
+  - true
+- black_out:
+  - 1
+  - 1
+- background:
+  - 500020
+- wait:
+  - 30
+- black_in: *o0
+- chara_full:
+  - 106412
+  - C
+  - 4
+- se:
+  - se_adv_step_concrete_move_01
+- fadein:
+  - 106412
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M408
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_1064007_012
+- face:
+  - 106412
+  - 4
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 雪菲
+  - 呼、
+- wait:
+  - 25
+- nod:
+  - 106412
+- print:
+  - 雪菲
+  - 呼……
+- wait:
+  - 50
+- print:
+  - 雪菲
+  - >2-
+
+    受不了……
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_1064007_013
+- face:
+  - 106412
+  - 4
+- print:
+  - 雪菲
+  - 真傷腦筋……
+- wait:
+  - 50
+- print:
+  - 雪菲
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 雪菲
+  - 這下子
+- wait:
+  - 5
+- print:
+  - 雪菲
+  - 沒閒情逸致找回記憶了。
+- wait:
+  - 65
+- print:
+  - 雪菲
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 雪菲
+  - 我得先想辦法搞定
+- wait:
+  - 80
+- print:
+  - 雪菲
+  - 這個動不動就會暫時退化的毛病……
+- touch: *o0
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_1064007_014
+- face:
+  - 106412
+  - 6
+- print:
+  - 雪菲
+  - ……但是，
+- wait:
+  - 30
+- print:
+  - 雪菲
+  - >2-
+
+    似似花小姐
+- wait:
+  - 10
+- print:
+  - 雪菲
+  - 和深月小姐，
+- wait:
+  - 10
+- print:
+  - 雪菲
+  - 好像也束手無策了。
+- wait:
+  - 60
+- print:
+  - 雪菲
+  - >2
+
+- face:
+  - 106412
+  - 4
+- print:
+  - 雪菲
+  - ……我到底該怎麼辦才好呢……
+- touch: *o0
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_1064007_015
+- face:
+  - 106412
+  - 6
+- print:
+  - 雪菲
+  - 尤其現在
+- wait:
+  - 25
+- print:
+  - 雪菲
+  - ……光是看到
+- wait:
+  - 35
+- print:
+  - 雪菲
+  - '{0}的臉，'
+- wait:
+  - 45
+- print:
+  - 雪菲
+  - >2
+
+- face:
+  - 106412
+  - 5
+- print:
+  - 雪菲
+  - 我就難為情得要命……
+- wait:
+  - 35
+- print:
+  - 雪菲
+  - 又差點變回小嬰兒了。
+- wait:
+  - 70
+- print:
+  - 雪菲
+  - >2
+
+- face:
+  - 106412
+  - 4
+- print:
+  - 雪菲
+  - 雖然他叫我
+- wait:
+  - 45
+- print:
+  - 雪菲
+  - 別放在心上……
+- touch: *o0
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_1064007_016
+- face:
+  - 106412
+  - 4
+- print:
+  - 雪菲
+  - …………
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_1064007_017
+- face:
+  - 106412
+  - 4
+- print:
+  - 雪菲
+  - ……不用放在心上……
+- wait:
+  - 45
+- print:
+  - 雪菲
+  - 嗎……
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_1064007_018
+- face:
+  - 106412
+  - 4
+- print:
+  - 雪菲
+  - 我……
+- wait:
+  - 55
+- print:
+  - 雪菲
+  - >2-
+
+    究竟希望{0}……
+- wait:
+  - 25
+- print:
+  - 雪菲
+  - 是怎麼看待我的呢？
+- wait:
+  - 65
+- print:
+  - 雪菲
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 雪菲
+  - 而我又是
+- wait:
+  - 50
+- print:
+  - 雪菲
+  - 怎麼看待{0}的呢……？　
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106412
+  - 30
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- white_out:
+  - 1
+  - 1
+- background:
+  - 500361
+- wait:
+  - 15
+- effect:
+  - 0020
+- white_in: *o0
+- vo_effect:
+  - 3
+- chara_full:
+  - 106414
+  - C
+  - 2
+- scale:
+  - 106414
+  - 1.2
+  - 2
+- fadein:
+  - 106414
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106414
+- bust:
+  - 106414
+  - 0
+- vo:
+  - vo_adv_1064007_019
+- face:
+  - 106414
+  - 2
+- print:
+  - 雪菲
+  - 最～喜歡
+- wait:
+  - 30
+- print:
+  - 雪菲
+  - 葛～格了～♪
+- touch: *o0
+- window_visible:
+  - false
+- se_pause:
+  - se_adv_transition_sharp_01
+  - 0.5
+- fadeout:
+  - 106414
+  - 30
+- vo_effect:
+  - 0
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0020
+- background:
+  - 500020
+- wait:
+  - 15
+- white_in: *o0
+- chara_full:
+  - 106412
+  - C
+  - 5
+- fadein:
+  - 106412
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_1064007_020
+- face:
+  - 106412
+  - 5
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 雪菲
+  - 唔……！
+- shake:
+  - 106412
+- touch: *o0
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_1064007_021
+- face:
+  - 106412
+  - 4
+- print:
+  - 雪菲
+  - ……唉……
+- wait:
+  - 40
+- print:
+  - 雪菲
+  - >2-
+
+    我看我只能去散散步
+- wait:
+  - 40
+- print:
+  - 雪菲
+  - 讓腦袋冷靜一下了……
+- touch: *o0
+- face:
+  - 106412
+  - 6
+- window_visible:
+  - false
+- change_window:
+  - 3
+- text_size:
+  - 38
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 2
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1064007_022
+- face:
+  - 1
+  - 1
+- print:
+  - 小孩的聲音
+  - ──救命！
+- wait:
+  - 15
+- print:
+  - 小孩的聲音
+  - >2-
+
+    誰來救救我～！
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- window_visible:
+  - true
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_1064007_023
+- face:
+  - 106412
+  - 3
+- emotion:
+  - surprise1_L
+  - 106412
+  - 160
+  - 450
+  - se_adv_emote_common_01
+- print:
+  - 雪菲
+  - ……唔！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106412
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_outdoors_day_01
+  - 0.5
+- background:
+  - 500351
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_wind_01
+- chara_full:
+  - 1614
+  - C
+  - 1
+- fadein:
+  - 1614
+  - 30
+- se:
+  - se_adv_creature_cmn_01
+- change_window:
+  - 3
+- text_size:
+  - 50
+- window_visible:
+  - true
+- bgm:
+  - bgm_M03
+  - 0
+  - 0
+  - 1
+- focus:
+  - 1614
+- bust:
+  - 1614
+  - 0
+- face:
+  - 1614
+  - 1
+- effect:
+  - 9
+- print:
+  - 魔物
+  - ──嘎喔喔喔喔喔！
+- shake_screen: *o0
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- fadeout:
+  - 1614
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 111
+  - RC
+  - 4
+- chara_full:
+  - 106412
+  - L
+  - 3
+- se:
+  - se_adv_step_dirt_run_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 30
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_1064007_024
+- face:
+  - 106412
+  - 6
+- emotion:
+  - surprise1_L
+  - 106412
+  - 160
+  - 450
+  - se_adv_emote_nortice_02
+- print:
+  - 雪菲
+  - 魔物！？
+- wait:
+  - 25
+- print:
+  - 雪菲
+  - >2-
+
+    為什麼會在這裡！
+- wait:
+  - 30
+- print:
+  - 雪菲
+  - >2
+
+- face:
+  - 106412
+  - 3
+- print:
+  - 雪菲
+  - 它是從哪裡誤闖進來的……！
+- touch: *o0
+- focus:
+  - 111
+- bust:
+  - 111
+  - 0
+- vo:
+  - vo_adv_1064007_025
+- face:
+  - 111
+  - 4
+- print:
+  - 小孩
+  - 姐姐……！
+- touch: *o0
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_1064007_026
+- face:
+  - 106412
+  - 3
+- print:
+  - 雪菲
+  - 你退後！
+- touch: *o0
+- focus:
+  - 111
+- bust:
+  - 111
+  - 0
+- vo:
+  - vo_adv_1064007_027
+- face:
+  - 111
+  - 4
+- print:
+  - 小孩
+  - 嗯……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_weapon_sword_set_01
+- chara_full:
+  - 106411
+  - C
+  - 8
+- fadein:
+  - 106411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106411
+- bust:
+  - 106411
+  - 0
+- vo:
+  - vo_adv_1064007_028
+- face:
+  - 106411
+  - 8
+- print:
+  - 雪菲
+  - ──看招！
+- touch: *o0
+- se:
+  - se_adv_body_jump_01
+- se:
+  - se_adv_step_dirt_run_go_01
+- window_visible:
+  - false
+- effect:
+  - 0009
+- scale:
+  - 106411
+  - 1.2
+  - 2
+  - 10
+- fadeout:
+  - 106411
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- se:
+  - se_adv_weapon_sword_large_whiff_01
+- effect:
+  - 0001
+  - 01
+- wait:
+  - 5
+- se:
+  - se_adv_weapon_sword_impact_03
+- effect:
+  - 0045
+- wait:
+  - 7
+- background:
+  - 500351
+- chara_full:
+  - 1614
+  - C
+  - 1
+- fadein:
+  - 1614
+  - 30
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - true
+- focus:
+  - 1614
+- bust:
+  - 1614
+  - 0
+- face:
+  - 1614
+  - 1
+- print:
+  - 魔物
+  - ──嘎喔喔喔喔喔！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0009
+- se:
+  - se_adv_step_monster_move_01
+- scale:
+  - 1614
+  - 1.2
+  - 2
+  - 10
+- fadeout:
+  - 1614
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- se:
+  - se_adv_weapon_claw_hit_01
+- effect:
+  - 0028
+- wait:
+  - 10
+- background:
+  - 500351
+- chara_full:
+  - 106411
+  - C
+  - 6
+- se:
+  - se_adv_weapon_sword_repel_01
+- scale:
+  - 106411
+  - 1.2
+  - 2
+- fadein:
+  - 106411
+  - 10
+- se:
+  - se_adv_knock_back_01
+- effect:
+  - 0009
+- face:
+  - 106411
+  - 3
+- wait:
+  - 5
+- scale:
+  - 106411
+  - 1
+  - 2
+  - 5
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- window_visible:
+  - true
+- focus:
+  - 106411
+- bust:
+  - 106411
+  - 0
+- vo:
+  - vo_adv_1064007_029
+- face:
+  - 106411
+  - 3
+- print:
+  - 雪菲
+  - 唔……！
+- wait:
+  - 15
+- print:
+  - 雪菲
+  - >2-
+
+    好、
+- wait:
+  - 15
+- print:
+  - 雪菲
+  - 好強……！？
+- touch: *o0
+- choice:
+  - 雪菲！
+  - 7
+- tag:
+  - 7
+- focus:
+  - 106411
+- bust:
+  - 106411
+  - 0
+- vo:
+  - vo_adv_1064007_030
+- face:
+  - 106411
+  - 6
+- emotion:
+  - exclamation1_R
+  - 106411
+  - 20
+  - 550
+  - se_adv_emote_common_01
+- print:
+  - 雪菲
+  - 咦！
+- wait:
+  - 15
+- print:
+  - 雪菲
+  - >2-
+
+    葛……
+- wait:
+  - 15
+- print:
+  - 雪菲
+  - '{0}！？'
+- touch: *o0
+- focus:
+  - 106411
+- bust:
+  - 106411
+  - 0
+- vo:
+  - vo_adv_1064007_031
+- face:
+  - 106411
+  - 5
+- se:
+  - se_adv_body_shake_02
+- se_pause:
+  - se_adv_body_shake_02
+  - 1
+- print:
+  - 雪菲
+  - 啊、
+- wait:
+  - 15
+- print:
+  - 雪菲
+  - 嗚……！
+- shake:
+  - 106411
+- wait:
+  - 15
+- print:
+  - 雪菲
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 雪菲
+  - 唔唔……！！
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 106411
+- bust:
+  - 106411
+  - 0
+- vo:
+  - vo_adv_1064007_032
+- face:
+  - 106411
+  - 5
+- eye_open:
+  - True
+- print:
+  - 雪菲
+  - 好難為情……
+- wait:
+  - 45
+- print:
+  - 雪菲
+  - >2-
+
+    難為情得要命，
+- wait:
+  - 45
+- face:
+  - 106411
+  - 3
+- print:
+  - 雪菲
+  - 可是……！　
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 106411
+- bust:
+  - 106411
+  - 0
+- vo:
+  - vo_adv_1064007_033
+- face:
+  - 106411
+  - 3
+- print:
+  - 雪菲
+  - 可是，
+- wait:
+  - 30
+- print:
+  - 雪菲
+  - 現在……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106411
+  - 30
+- white_out:
+  - 1
+  - 1
+- se:
+  - se_adv_weapon_sword_set_04
+- bg_color:
+  - 255
+  - 255
+  - 255
+- still_unit:
+  - 106431
+- wait:
+  - 15
+- se:
+  - se_adv_magic_ice_large_02_a
+- white_in: *o0
+- window_visible:
+  - true
+- focus:
+  - 106411
+- bust:
+  - 106411
+  - 1
+- vo:
+  - vo_adv_1064007_034
+- face:
+  - 106411
+  - 8
+- print:
+  - 雪菲
+  - 幫我一把！
+- wait:
+  - 15
+- print:
+  - 雪菲
+  - >2-
+
+    {0}！
+- touch: *o0
+- choice:
+  - 嗯！
+  - 8
+- tag:
+  - 8
+- se:
+  - se_adv_magic_cmn_medium_02
+- wait:
+  - 15
+- focus:
+  - 106411
+- bust:
+  - 106411
+  - 1
+- vo:
+  - vo_adv_1064007_035
+- face:
+  - 106411
+  - 8
+- print:
+  - 雪菲
+  - ──喝啊啊啊！！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_magic_ice_large_02_b
+- flash: *o0
+- wait:
+  - 10
+- window_visible:
+  - true
+- se:
+  - se_adv_creature_cmn_04
+- bgm:
+  - stop
+  - 3
+  - 1
+- focus:
+  - 1614
+- bust:
+  - 1614
+  - 1
+- face:
+  - 1614
+  - 3
+- print:
+  - 魔物
+  - ──嘎喔喔喔喔喔！
+- touch: *o0
+- se_pause:
+  - amb_adv_wind_01
+  - 2.5
+- window_visible:
+  - false
+- white_out:
+  - 1
+  - 1
+- background:
+  - 500351
+- still_unit:
+  - end
+- wait:
+  - 15
+- white_in: *o0
+- se:
+  - amb_adv_outdoors_day_01
+- chara_full:
+  - 106412
+  - C
+  - 6
+- fadein:
+  - 106412
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M358
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_1064007_036
+- face:
+  - 106412
+  - 6
+- nod:
+  - 106412
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 雪菲
+  - 呼……
+- touch: *o0
+- choice:
+  - 雪菲，妳沒事吧？
+  - 9
+- tag:
+  - 9
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_1064007_037
+- face:
+  - 106412
+  - 6
+- emotion:
+  - exclamation1_R
+  - 106412
+  - 20
+  - 550
+  - se_adv_emote_common_01
+- print:
+  - 雪菲
+  - ！
+- wait:
+  - 35
+- print:
+  - 雪菲
+  - >2
+
+- face:
+  - 106412
+  - 4
+- print:
+  - 雪菲
+  - …………沒、
+- wait:
+  - 30
+- print:
+  - 雪菲
+  - 沒事……
+- touch: *o0
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_1064007_038
+- face:
+  - 106412
+  - 6
+- print:
+  - 雪菲
+  - 不、
+- wait:
+  - 20
+- print:
+  - 雪菲
+  - 不過……
+- wait:
+  - 40
+- print:
+  - 雪菲
+  - >2-
+
+    你怎麼會知道
+- wait:
+  - 20
+- print:
+  - 雪菲
+  - 我在這裡呢……？
+- touch: *o0
+- choice:
+  - 因為我們就像家人一樣啊。
+  - 10
+- tag:
+  - 10
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_1064007_039
+- face:
+  - 106412
+  - 6
+- print:
+  - 雪菲
+  - 家人……
+- touch: *o0
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_1064007_040
+- face:
+  - 106412
+  - 2
+- nod:
+  - 106412
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 雪菲
+  - ……說得對。
+- wait:
+  - 60
+- print:
+  - 雪菲
+  - >2-
+
+    或許是這樣吧。
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_1064007_041
+- face:
+  - 106412
+  - 2
+- print:
+  - 雪菲
+  - 如果是家人的話……
+- wait:
+  - 50
+- print:
+  - 雪菲
+  - >2-
+
+    偶爾
+- wait:
+  - 30
+- print:
+  - 雪菲
+  - 看見自己丟人的一面……
+- wait:
+  - 65
+- print:
+  - 雪菲
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 雪菲
+  - 或許
+- wait:
+  - 35
+- print:
+  - 雪菲
+  - 也是……
+- wait:
+  - 20
+- print:
+  - 雪菲
+  - 難免的對吧？
+- wait:
+  - 50
+- eye_open:
+  - True
+- print:
+  - 雪菲
+  - 嗯……
+- touch: *o0
+- choice:
+  - ……？
+  - 11
+- tag:
+  - 11
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_1064007_042
+- face:
+  - 106412
+  - 2
+- nod:
+  - 106412
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 雪菲
+  - 沒事。
+- wait:
+  - 75
+- print:
+  - 雪菲
+  - >2-
+
+    走吧，
+- wait:
+  - 40
+- print:
+  - 雪菲
+  - 回我們的家去。
+- wait:
+  - 55
+- print:
+  - 雪菲
+  - >2-
+
+    ……呵呵。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106412
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- se_pause:
+  - amb_adv_outdoors_day_01
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

@@ -1,0 +1,3119 @@
+- title:
+  - ミソギ 第11話
+- outline:
+  - 父親へ贈る宝の地図作りのため{0}と街へ繰り出すみそぎ。みそぎにとっての危険地帯や思い出の場所を辿りながら、二人しか知らない宝の隠し場所を求め探検を続けるのだった。
+- background:
+  - 500131
+- se:
+  - amb_adv_outdoors_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 二人だけの場所を求めて！
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - >-
+    ごろつきたちを無事捕まえたミソギと{0}は
+
+    ランドソルへの道を歩いていた。
+- wait:
+  - 30
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 100411
+  - C
+  - 1
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M33
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004011_000
+- face:
+  - 100411
+  - 1
+- print:
+  - ミソギ
+  - 今日はいろいろ大変だったけど、
+- wait:
+  - 40
+- print:
+  - ミソギ
+  - >2-
+
+    にいちゃんが盗られたものも取り返せてよかったよ！
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004011_001
+- face:
+  - 100411
+  - 2
+- print:
+  - ミソギ
+  - 落とし穴にたくさん人を落とせたし、
+- wait:
+  - 60
+- print:
+  - ミソギ
+  - >2-
+
+    やっぱりにいちゃんと一緒だと楽しいな～
+- touch: *o0
+- effect:
+  - 0005
+  - se_adv_holylight_01
+- se_pause:
+  - amb_adv_outdoors_day_01
+  - 1
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004011_002
+- face:
+  - 100411
+  - 4
+- nod:
+  - 100411
+- print:
+  - ミソギ
+  - はぁ～
+- wait:
+  - 30
+- print:
+  - ミソギ
+  - おうちに帰るのもったいないなぁ。
+- wait:
+  - 60
+- print:
+  - ミソギ
+  - >2-
+
+    もう暗くなっちゃうもんね。
+- wait:
+  - 50
+- face:
+  - 100411
+  - 1
+- print:
+  - ミソギ
+  - ずっとお昼だったら
+- wait:
+  - 30
+- print:
+  - ミソギ
+  - >2-
+
+    にいちゃんともっと遊べ……
+- wait:
+  - 55
+- face:
+  - 100411
+  - 6
+- print:
+  - ミソギ
+  - って、
+- wait:
+  - 30
+- print:
+  - ミソギ
+  - あれ？　
+- wait:
+  - 25
+- print:
+  - ミソギ
+  - なんか光ってない？
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004011_003
+- face:
+  - 100411
+  - 6
+- print:
+  - ミソギ
+  - なにこれ！？
+- wait:
+  - 30
+- print:
+  - ミソギ
+  - >2-
+
+    まだ遊んでいいってこと～～！？
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 1.7
+  - 1
+- fadeout:
+  - 100411
+  - 30
+- effect:
+  - 0006
+  - se_adv_whiteout_01
+- white_out:
+  - 1
+  - 1
+- bg_color:
+  - 255
+  - 255
+  - 255
+- effect_delete:
+  - 0005
+- effect_delete:
+  - 0006
+- background:
+  - 510100
+- wait:
+  - 30
+- white_in: *o0
+- se:
+  - amb_adv_home_area_jpn_01
+- wait:
+  - 30
+- chara_full:
+  - 100431
+  - C
+  - 2
+- fadein:
+  - 100431
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M74
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_004
+- face:
+  - 100431
+  - 2
+- pop:
+  - 100431
+- se:
+  - se_adv_rabbit_jump_01
+- print:
+  - みそぎ
+  - にいちゃんみ～つけた！
+- wait:
+  - 40
+- print:
+  - みそぎ
+  - >2
+
+- face:
+  - 100431
+  - 1
+- print:
+  - みそぎ
+  - このへんを歩いてれば会えると思ってたよ！
+- touch: *o0
+- choice:
+  - 楽しそうだね。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_005
+- face:
+  - 100431
+  - 1
+- print:
+  - みそぎ
+  - わかる？
+- wait:
+  - 35
+- print:
+  - みそぎ
+  - >2
+
+- face:
+  - 100431
+  - 2
+- se:
+  - se_adv_paper_move_05
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - みそぎ
+  - えへへへ～
+- wait:
+  - 20
+- print:
+  - みそぎ
+  - これ見て！
+- wait:
+  - 30
+- print:
+  - みそぎ
+  - >2-
+
+    海外にいるお父さんから手紙が届いたんだ～！
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_006
+- face:
+  - 100431
+  - 1
+- nod:
+  - 100431
+- print:
+  - みそぎ
+  - お父さんが探検した場所のこととか、
+- wait:
+  - 50
+- print:
+  - みそぎ
+  - >2-
+
+    探検先で会った人のことが
+- wait:
+  - 25
+- print:
+  - みそぎ
+  - たくさん書いてあって
+- wait:
+  - 35
+- print:
+  - みそぎ
+  - >2-
+
+    すっごく楽しいんだよ～
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_007
+- face:
+  - 100431
+  - 1
+- print:
+  - みそぎ
+  - それでね、
+- wait:
+  - 20
+- print:
+  - みそぎ
+  - みそぎもお父さんにお返事書こうと思うんだけど、
+- wait:
+  - 65
+- print:
+  - みそぎ
+  - >2-
+
+    ただお返事してもつまらないから、
+- wait:
+  - 45
+- print:
+  - みそぎ
+  - >2-
+
+    宝の地図を入れようと思うんだ！
+- touch: *o0
+- choice:
+  - 宝の地図？
+  - 2
+- tag:
+  - 2
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_008
+- face:
+  - 100431
+  - 2
+- pop:
+  - 100431
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - みそぎ
+  - うん！　
+- wait:
+  - 20
+- print:
+  - みそぎ
+  - みそぎがいっつも探検してる場所のことを
+- wait:
+  - 40
+- print:
+  - みそぎ
+  - >2-
+
+    お父さんに知ってもらうの！
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_009
+- face:
+  - 100431
+  - 1
+- print:
+  - みそぎ
+  - だから
+- wait:
+  - 20
+- print:
+  - みそぎ
+  - にいちゃんにもそのお手伝いをしてほしいんだ！
+- wait:
+  - 60
+- print:
+  - みそぎ
+  - >2
+
+- face:
+  - 100431
+  - 4
+- print:
+  - みそぎ
+  - 手伝ってくれる……？
+- touch: *o0
+- choice:
+  - もちろん！
+  - 3
+- tag:
+  - 3
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_010
+- face:
+  - 100431
+  - 2
+- emotion:
+  - twinkle1_R
+  - 100431
+  - -125
+  - 450
+  - se_adv_emote_twinkle_01
+- print:
+  - みそぎ
+  - やったぁ！　
+- wait:
+  - 45
+- face:
+  - 100431
+  - 1
+- print:
+  - みそぎ
+  - それじゃあまずスタートを決めなきゃね！
+- wait:
+  - 50
+- print:
+  - みそぎ
+  - >2-
+
+    やっぱり宝探しの始まりは、
+- wait:
+  - 45
+- print:
+  - みそぎ
+  - ワクワクする場所じゃないとダメだよね。
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_011
+- face:
+  - 100431
+  - 1
+- print:
+  - みそぎ
+  - みそぎ
+- wait:
+  - 20
+- print:
+  - みそぎ
+  - もうスタートする場所は決めてるんだ！
+- wait:
+  - 55
+- print:
+  - みそぎ
+  - >2
+
+- face:
+  - 100431
+  - 2
+- print:
+  - みそぎ
+  - さぁ、
+- wait:
+  - 10
+- print:
+  - みそぎ
+  - にいちゃん！　
+- wait:
+  - 15
+- print:
+  - みそぎ
+  - 楽しい宝の地図作りの始まりだよ！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1.7
+- fadeout:
+  - 100431
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_home_area_jpn_01
+  - 1
+- background:
+  - 510120
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_home_area_jpn_01
+- chara_full:
+  - 100431
+  - C
+  - 1
+- fadein:
+  - 100431
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M99
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_012
+- face:
+  - 100431
+  - 1
+- face:
+  - 100431
+  - 6
+- print:
+  - みそぎ
+  - スタートは楽しいことが
+- wait:
+  - 30
+- print:
+  - みそぎ
+  - いっぱいの公園だよ！
+- wait:
+  - 75
+- print:
+  - みそぎ
+  - >2-
+
+    ん～
+- wait:
+  - 30
+- print:
+  - みそぎ
+  - でも公園だけだと地味だね。
+- wait:
+  - 70
+- print:
+  - みそぎ
+  - >2-
+
+    何か他に書けるものないかな？
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_013
+- face:
+  - 100431
+  - 1
+- emotion:
+  - notice1_L
+  - 100431
+  - -75
+  - 490
+  - se_adv_emote_common_01
+- print:
+  - みそぎ
+  - あっ、
+- wait:
+  - 25
+- print:
+  - みそぎ
+  - あのクレープ屋がいいかも！
+- wait:
+  - 40
+- print:
+  - みそぎ
+  - >2-
+
+    いつもあって、
+- wait:
+  - 10
+- print:
+  - みそぎ
+  - 目立ってるし！
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_014
+- face:
+  - 100431
+  - 4
+- print:
+  - みそぎ
+  - でも、
+- wait:
+  - 30
+- print:
+  - みそぎ
+  - クレープ屋が描かれた
+- wait:
+  - 20
+- print:
+  - みそぎ
+  - 宝の地図なんてないよね。
+- wait:
+  - 80
+- print:
+  - みそぎ
+  - >2-
+
+    うーん、
+- wait:
+  - 45
+- face:
+  - 100431
+  - 1
+- print:
+  - みそぎ
+  - そうだ！　
+- wait:
+  - 15
+- print:
+  - みそぎ
+  - 酒場ってことにしよう！
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_015
+- face:
+  - 100431
+  - 1
+- print:
+  - みそぎ
+  - ゲームとかでも
+- wait:
+  - 30
+- print:
+  - みそぎ
+  - 酒場で仲間集めたりするもんね。
+- wait:
+  - 55
+- print:
+  - みそぎ
+  - >2
+
+- face:
+  - 100431
+  - 2
+- print:
+  - みそぎ
+  - 仲間を集めて宝探しに出発！
+- wait:
+  - 80
+- print:
+  - みそぎ
+  - >2
+
+- nod:
+  - 100431
+- print:
+  - みそぎ
+  - うんうん、
+- wait:
+  - 20
+- print:
+  - みそぎ
+  - いい感じのスタート地点だよ！
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_016
+- face:
+  - 100431
+  - 4
+- emotion:
+  - gloomy1_R
+  - 100431
+  - 15
+  - 485
+  - se_adv_emote_gloomy_01
+- print:
+  - みそぎ
+  - でもあのクレープ屋、
+- wait:
+  - 35
+- print:
+  - みそぎ
+  - いつもあんまりお客さんいないよね？
+- wait:
+  - 75
+- print:
+  - みそぎ
+  - >2-
+
+    仲間きちんと集められるのかな……
+- wait:
+  - 90
+- face:
+  - 100431
+  - 1
+- print:
+  - みそぎ
+  - まっ、
+- wait:
+  - 5
+- print:
+  - みそぎ
+  - いっか！
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_017
+- face:
+  - 100431
+  - 1
+- nod:
+  - 100431
+- se:
+  - se_adv_step_concrete_move_01
+- print:
+  - みそぎ
+  - よし、
+- wait:
+  - 25
+- print:
+  - みそぎ
+  - それじゃあいよいよ
+- wait:
+  - 20
+- print:
+  - みそぎ
+  - お宝までの道だよね！
+- wait:
+  - 50
+- print:
+  - みそぎ
+  - >2
+
+- face:
+  - 100431
+  - 2
+- print:
+  - みそぎ
+  - お父さんが楽しめるとびっきりの道を用意してあげないと！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1.7
+  - 1
+- fadeout:
+  - 100431
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_home_area_jpn_01
+  - 1
+- background:
+  - 510100
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_home_area_jpn_01
+- chara_full:
+  - 100431
+  - C
+  - 3
+- fadein:
+  - 100431
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M113_Ver2
+  - 0
+  - 0
+  - 0
+  - 0.2
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_018
+- face:
+  - 100431
+  - 3
+- nod:
+  - 100431
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - みそぎ
+  - ……ゴクリ。
+- touch: *o0
+- choice:
+  - どうしたの？
+  - 4
+- tag:
+  - 4
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_019
+- face:
+  - 100431
+  - 3
+- print:
+  - みそぎ
+  - にいちゃん気を付けて。
+- wait:
+  - 30
+- print:
+  - みそぎ
+  - >2
+
+- face:
+  - 100431
+  - 4
+- print:
+  - みそぎ
+  - この道はすごく危ないんだよ。
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_020
+- face:
+  - 100431
+  - 3
+- nod:
+  - 100431
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - みそぎ
+  - みそぎだって
+- wait:
+  - 20
+- print:
+  - みそぎ
+  - お父さんのためじゃなきゃ、
+- wait:
+  - 35
+- print:
+  - みそぎ
+  - >2-
+
+    こんな危ない所には来たくないんだから……
+- touch: *o0
+- choice:
+  - そうは見えないけど……
+  - 5
+- tag:
+  - 5
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_021
+- face:
+  - 100431
+  - 3
+- pop:
+  - 100431
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - みそぎ
+  - 甘いよ、
+- wait:
+  - 10
+- print:
+  - みそぎ
+  - にいちゃん！
+- wait:
+  - 20
+- print:
+  - みそぎ
+  - >2-
+
+    例えばそこの家、
+- wait:
+  - 30
+- print:
+  - みそぎ
+  - 普通の家に見えるけど実は…………
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_022
+- face:
+  - 100431
+  - 3
+- print:
+  - みそぎ
+  - 大きくて、
+- wait:
+  - 25
+- print:
+  - みそぎ
+  - めちゃくちゃほえる犬がいるんだよ！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 23
+- window_visible:
+  - true
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_023
+- face:
+  - 100431
+  - 2
+- nod:
+  - 100431
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - みそぎ
+  - まぁ、
+- wait:
+  - 15
+- print:
+  - みそぎ
+  - 今はもう仲良しになったから
+- wait:
+  - 40
+- print:
+  - みそぎ
+  - >2-
+
+    みそぎを見るとしっぽ振ってくるんだけどね～
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_024
+- face:
+  - 100431
+  - 4
+- print:
+  - みそぎ
+  - 初めての人にはすごく怖い犬だから
+- wait:
+  - 60
+- print:
+  - みそぎ
+  - >2
+
+- face:
+  - 100431
+  - 3
+- print:
+  - みそぎ
+  - にいちゃんは気を付けてね！
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_025
+- face:
+  - 100431
+  - 6
+- pop:
+  - 100431
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - みそぎ
+  - あ、
+- wait:
+  - 15
+- print:
+  - みそぎ
+  - それからそれから！　
+- wait:
+  - 20
+- face:
+  - 100431
+  - 3
+- print:
+  - みそぎ
+  - その先の家を見て！
+- wait:
+  - 40
+- print:
+  - みそぎ
+  - >2-
+
+    いかにも怖い人が住んでそうな気がするでしょ……！
+- wait:
+  - 55
+- print:
+  - みそぎ
+  - >2-
+
+    柵とかもなんかとんがってるし！
+- touch: *o0
+- choice:
+  - 普通の家だよね？
+  - 6
+- tag:
+  - 6
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_026
+- face:
+  - 100431
+  - 4
+- emotion:
+  - sweat1_R
+  - 100431
+  - 75
+  - 480
+  - se_adv_emote_sweat_01
+- print:
+  - みそぎ
+  - はぁ～
+- wait:
+  - 15
+- print:
+  - みそぎ
+  - にいちゃん、
+- wait:
+  - 25
+- print:
+  - みそぎ
+  - みそぎが気を付けてって言ったの
+- wait:
+  - 20
+- print:
+  - みそぎ
+  - >2-
+
+    もう忘れちゃったの？
+- wait:
+  - 50
+- print:
+  - みそぎ
+  - >2
+
+- face:
+  - 100431
+  - 3
+- print:
+  - みそぎ
+  - いい？　
+- wait:
+  - 15
+- print:
+  - みそぎ
+  - あの家はね……
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_027
+- face:
+  - 100431
+  - 6
+- pop:
+  - 100431
+- se:
+  - se_adv_rabbit_jump_01
+- print:
+  - みそぎ
+  - 大声でどなるおじさんが住んでるんだよ！！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 23
+- window_visible:
+  - true
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_028
+- face:
+  - 100431
+  - 4
+- print:
+  - みそぎ
+  - 前にあの家になってる柿を採ろうとしたら見つかっちゃって、
+- wait:
+  - 65
+- print:
+  - みそぎ
+  - >2-
+
+    すっごく怖かったんだから。
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_029
+- face:
+  - 100431
+  - 6
+- emotion:
+  - notice1_L
+  - 100431
+  - -75
+  - 490
+  - se_adv_emote_common_01
+- print:
+  - みそぎ
+  - あっ、
+- wait:
+  - 20
+- print:
+  - みそぎ
+  - ここもきちんと地図に描いておかないと。
+- wait:
+  - 50
+- print:
+  - みそぎ
+  - >2
+
+- face:
+  - 100431
+  - 1
+- print:
+  - みそぎ
+  - お父さんが怖い目にあうといけないもんね。
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_030
+- face:
+  - 100431
+  - 3
+- nod:
+  - 100431
+- print:
+  - みそぎ
+  - んっと～
+- wait:
+  - 35
+- se:
+  - se_adv_paper_pencil_write_draw_01
+- print:
+  - みそぎ
+  - 怖い犬は魔物ってことにして～
+- wait:
+  - 80
+- print:
+  - みそぎ
+  - >2
+
+- face:
+  - 100431
+  - 4
+- print:
+  - みそぎ
+  - おじさんは～……
+- wait:
+  - 45
+- face:
+  - 100431
+  - 1
+- print:
+  - みそぎ
+  - 山賊！！
+- wait:
+  - 45
+- print:
+  - みそぎ
+  - >2
+
+- se:
+  - se_adv_paper_pencil_write_draw_01
+- print:
+  - みそぎ
+  - それから、
+- wait:
+  - 20
+- print:
+  - みそぎ
+  - 道もマグマが噴き出したり、
+- wait:
+  - 35
+- print:
+  - みそぎ
+  - 危ない感じに描いて～
+- se_pause:
+  - se_adv_paper_pencil_write_draw_01
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_031
+- face:
+  - 100431
+  - 2
+- emotion:
+  - twinkle1_R
+  - 100431
+  - -125
+  - 450
+  - se_adv_emote_twinkle_01
+- print:
+  - みそぎ
+  - できたっ！
+- wait:
+  - 35
+- print:
+  - みそぎ
+  - >2-
+
+    うんうん、
+- wait:
+  - 30
+- print:
+  - みそぎ
+  - これなら誰が見ても危ない道だってわかるよね！
+- touch: *o0
+- se:
+  - se_adv_step_concrete_move_01
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1004011_032
+- face:
+  - 1
+  - 1
+- print:
+  - 男性
+  - ん？　
+- wait:
+  - 30
+- print:
+  - 男性
+  - 嬢ちゃんはいつぞやの……
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_033
+- face:
+  - 100431
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100431
+  - -5
+  - 600
+  - se_adv_emote_common_01
+- print:
+  - みそぎ
+  - やばっ、
+- wait:
+  - 20
+- print:
+  - みそぎ
+  - おじさんに見つかっちゃった！
+- wait:
+  - 25
+- print:
+  - みそぎ
+  - >2
+
+- face:
+  - 100431
+  - 3
+- print:
+  - みそぎ
+  - 逃げるよ！　
+- wait:
+  - 10
+- print:
+  - みそぎ
+  - にいちゃん！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 100431
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1004011_034
+- face:
+  - 1
+  - 1
+- print:
+  - 男性
+  - 何もそんな急いで逃げんでも……
+- wait:
+  - 85
+- print:
+  - 男性
+  - キミはあの子の保護者かな？
+- touch: *o0
+- choice:
+  - 友達です。
+  - 7
+- tag:
+  - 7
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1004011_035
+- face:
+  - 1
+  - 1
+- print:
+  - 男性
+  - それじゃあ
+- wait:
+  - 15
+- print:
+  - 男性
+  - あの子に伝えておいてくれるかな。
+- wait:
+  - 45
+- print:
+  - 男性
+  - >2-
+
+    うちの柿は渋柿だから取るのはやめなさいって。
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1004011_036
+- face:
+  - 1
+  - 1
+- print:
+  - 男性
+  - 今度はきちんと玄関からおいで。
+- wait:
+  - 45
+- print:
+  - 男性
+  - >2-
+
+    キミたちの干し柿を用意しておくから。
+- touch: *o0
+- choice:
+  - ありがとうございます。
+  - 8
+- tag:
+  - 8
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1004011_037
+- face:
+  - 1
+  - 1
+- print:
+  - 男性
+  - いいんだよ。
+- wait:
+  - 35
+- print:
+  - 男性
+  - >2-
+
+    今どきあんな元気な子
+- wait:
+  - 35
+- print:
+  - 男性
+  - めずらしいからね。
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 1
+- vo:
+  - vo_adv_1004011_038
+- face:
+  - 100431
+  - 6
+- print:
+  - みそぎ
+  - にいちゃ～ん！　
+- wait:
+  - 15
+- print:
+  - みそぎ
+  - 早くこっち来なよ～！
+- wait:
+  - 40
+- print:
+  - みそぎ
+  - >2
+
+- face:
+  - 100431
+  - 4
+- print:
+  - みそぎ
+  - 怖いおじさんにつかまっちゃダメだよ～！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1004011_039
+- face:
+  - 1
+  - 1
+- print:
+  - 男性
+  - ははは、
+- wait:
+  - 45
+- print:
+  - 男性
+  - 行ってあげなさい。
+- wait:
+  - 30
+- print:
+  - 男性
+  - >2-
+
+    私は怖いおじさんらしいからね。
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 1
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_home_area_jpn_01
+  - 1
+- background:
+  - 510340
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_home_area_jpn_01
+- chara_full:
+  - 100431
+  - C
+  - 4
+- fadein:
+  - 100431
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M323
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_040
+- face:
+  - 100431
+  - 4
+- nod:
+  - 100431
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - みそぎ
+  - もぅ、
+- wait:
+  - 25
+- print:
+  - みそぎ
+  - にいちゃんがなかなか逃げないから
+- wait:
+  - 25
+- print:
+  - みそぎ
+  - 心配したよ！
+- wait:
+  - 55
+- print:
+  - みそぎ
+  - >2
+
+- face:
+  - 100431
+  - 1
+- print:
+  - みそぎ
+  - でもちゃんと逃げきれてよかった～
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_041
+- face:
+  - 100431
+  - 1
+- print:
+  - みそぎ
+  - はぁ～
+- wait:
+  - 35
+- print:
+  - みそぎ
+  - いっぱい走って疲れちゃったし、
+- wait:
+  - 50
+- print:
+  - みそぎ
+  - >2-
+
+    そこの駄菓子屋さんで休憩しよう。
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_042
+- face:
+  - 100431
+  - 6
+- print:
+  - みそぎ
+  - あっ、
+- wait:
+  - 20
+- face:
+  - 100431
+  - 4
+- se:
+  - se_adv_cloth_move_normal_02
+- print:
+  - みそぎ
+  - みそぎおこづかい持ってきてないや。
+- wait:
+  - 75
+- print:
+  - みそぎ
+  - >2
+
+- face:
+  - 100431
+  - 2
+- nod:
+  - 100431
+- print:
+  - みそぎ
+  - ……ねえ、
+- wait:
+  - 25
+- print:
+  - みそぎ
+  - にいちゃん♪
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100431
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1004011_043
+- face:
+  - 1
+  - 1
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - おばあちゃん
+  - はい、
+- wait:
+  - 15
+- print:
+  - おばあちゃん
+  - 毎度あり。
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 100431
+  - C
+  - 2
+- fadein:
+  - 100431
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_044
+- face:
+  - 100431
+  - 2
+- emotion:
+  - note1_L
+  - 100431
+  - -95
+  - 475
+  - se_adv_emote_note_01
+- print:
+  - みそぎ
+  - えへへへ、
+- wait:
+  - 25
+- print:
+  - みそぎ
+  - ありがとにいちゃん！
+- wait:
+  - 45
+- print:
+  - みそぎ
+  - >2
+
+- face:
+  - 100431
+  - 1
+- print:
+  - みそぎ
+  - それじゃあさっそく！
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_045
+- face:
+  - 100431
+  - 1
+- nod:
+  - 100431
+- se:
+  - se_adv_drink_02
+- print:
+  - みそぎ
+  - ごくっ……
+- wait:
+  - 10
+- print:
+  - みそぎ
+  - ごくっ……
+- wait:
+  - 20
+- nod:
+  - 100431
+- se:
+  - se_adv_drink_02
+- print:
+  - みそぎ
+  - ごくっ……
+- wait:
+  - 20
+- print:
+  - みそぎ
+  - >2
+
+- face:
+  - 100431
+  - 2
+- print:
+  - みそぎ
+  - ぷはぁ！　
+- wait:
+  - 45
+- print:
+  - みそぎ
+  - ラムネのしゅわしゅわが気持ちいい～！
+- wait:
+  - 60
+- print:
+  - みそぎ
+  - >2-
+
+    なんだか生き返ったみたいに感じるよ～！
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_046
+- face:
+  - 100431
+  - 1
+- print:
+  - みそぎ
+  - そういえば、
+- wait:
+  - 30
+- print:
+  - みそぎ
+  - この前も
+- wait:
+  - 10
+- print:
+  - みそぎ
+  - >2-
+
+    にいちゃんにお菓子を買ってもらったね。
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_047
+- face:
+  - 100431
+  - 4
+- print:
+  - みそぎ
+  - みそぎがお腹空いて倒れちゃいそうなところを
+- wait:
+  - 50
+- print:
+  - みそぎ
+  - >2
+
+- face:
+  - 100431
+  - 1
+- print:
+  - みそぎ
+  - にいちゃんに助けられたんだよね。
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_048
+- face:
+  - 100431
+  - 6
+- print:
+  - みそぎ
+  - ってことは、
+- wait:
+  - 35
+- print:
+  - みそぎ
+  - みそぎがこの駄菓子屋さんで生き返るのは
+- wait:
+  - 35
+- print:
+  - みそぎ
+  - >2-
+
+    二度目か～……
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_049
+- face:
+  - 100431
+  - 2
+- pop:
+  - 100431
+- se:
+  - se_adv_rabbit_jump_01
+- print:
+  - みそぎ
+  - そうだ！　
+- wait:
+  - 20
+- print:
+  - みそぎ
+  - この駄菓子屋さんも地図に描いちゃおっと！
+- wait:
+  - 55
+- print:
+  - みそぎ
+  - >2
+
+- face:
+  - 100431
+  - 1
+- se:
+  - se_adv_paper_pencil_write_draw_01
+- print:
+  - みそぎ
+  - 元気になる魔法の泉とかいいよね！
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 1.7
+  - 1
+- fadeout:
+  - 100431
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_home_area_jpn_01
+  - 1
+- background:
+  - 510100
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_home_area_jpn_01
+- chara_full:
+  - 100431
+  - C
+  - 2
+- fadein:
+  - 100431
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M65
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_050
+- face:
+  - 100431
+  - 2
+- nod:
+  - 100431
+- se:
+  - se_adv_paper_move_02
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - みそぎ
+  - うん！　
+- wait:
+  - 20
+- print:
+  - みそぎ
+  - かっこいい地図になってきた！
+- wait:
+  - 45
+- print:
+  - みそぎ
+  - >2
+
+- face:
+  - 100431
+  - 1
+- print:
+  - みそぎ
+  - これならお父さんも楽しんでくれるよね！
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_051
+- face:
+  - 100431
+  - 1
+- print:
+  - みそぎ
+  - あとは……
+- wait:
+  - 30
+- print:
+  - みそぎ
+  - 一番大切なお宝の場所か～
+- wait:
+  - 75
+- print:
+  - みそぎ
+  - >2
+
+- face:
+  - 100431
+  - 6
+- print:
+  - みそぎ
+  - どこにしようかな～
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_052
+- face:
+  - 100431
+  - 6
+- print:
+  - みそぎ
+  - お宝が一つだけだとつまらないから、
+- wait:
+  - 60
+- print:
+  - みそぎ
+  - >2
+
+- face:
+  - 100431
+  - 1
+- print:
+  - みそぎ
+  - 何個か偽物の印付けたいよね。
+- wait:
+  - 95
+- print:
+  - みそぎ
+  - >2
+
+- face:
+  - 100431
+  - 4
+- print:
+  - みそぎ
+  - う～ん……
+- wait:
+  - 40
+- face:
+  - 100431
+  - 1
+- print:
+  - みそぎ
+  - そうだ！
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_053
+- face:
+  - 100431
+  - 1
+- print:
+  - みそぎ
+  - お父さんがビックリ箱を隠してた所にしよう！
+- wait:
+  - 75
+- print:
+  - みそぎ
+  - >2
+
+- face:
+  - 100431
+  - 2
+- emotion:
+  - note1_L
+  - 100431
+  - -95
+  - 475
+  - se_adv_emote_note_01
+- print:
+  - みそぎ
+  - あははは！　
+- wait:
+  - 20
+- print:
+  - みそぎ
+  - あのときのにいちゃんの驚いた顔
+- wait:
+  - 45
+- print:
+  - みそぎ
+  - >2-
+
+    今思い出しても笑えるな～
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_054
+- face:
+  - 100431
+  - 6
+- print:
+  - みそぎ
+  - でもあそこはお父さんも知ってるし、
+- wait:
+  - 55
+- print:
+  - みそぎ
+  - >2-
+
+    ただの印じゃバレちゃうか～
+- touch: *o0
+- choice:
+  - 楽しそうなみそぎを描こう。
+  - 9
+- tag:
+  - 9
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_055
+- face:
+  - 100431
+  - 1
+- nod:
+  - 100431
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - みそぎ
+  - そっか！　
+- wait:
+  - 35
+- print:
+  - みそぎ
+  - みそぎが笑ってる絵を描けば
+- wait:
+  - 30
+- print:
+  - みそぎ
+  - >2-
+
+    お父さんも気になって引っかかるよね！
+- wait:
+  - 50
+- print:
+  - みそぎ
+  - >2
+
+- face:
+  - 100431
+  - 2
+- print:
+  - みそぎ
+  - にいちゃんあったまいい～！
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_056
+- face:
+  - 100431
+  - 1
+- print:
+  - みそぎ
+  - 何かびっくりするような仕掛けをしておけば、
+- wait:
+  - 50
+- print:
+  - みそぎ
+  - >2-
+
+    お父さんを驚かせられるよね♪
+- wait:
+  - 55
+- print:
+  - みそぎ
+  - >2
+
+- face:
+  - 100431
+  - 2
+- print:
+  - みそぎ
+  - えへへ、
+- wait:
+  - 20
+- print:
+  - みそぎ
+  - 楽しみだな～
+- touch: *o0
+- choice:
+  - お宝の場所はどうしよう？
+  - 10
+- tag:
+  - 10
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_057
+- face:
+  - 100431
+  - 1
+- nod:
+  - 100431
+- print:
+  - みそぎ
+  - あっ、
+- wait:
+  - 15
+- print:
+  - みそぎ
+  - 忘れてた！
+- wait:
+  - 40
+- print:
+  - みそぎ
+  - >2
+
+- face:
+  - 100431
+  - 4
+- print:
+  - みそぎ
+  - そうだよね、
+- wait:
+  - 25
+- print:
+  - みそぎ
+  - 宝の地図を作ってるんだし、
+- wait:
+  - 60
+- print:
+  - みそぎ
+  - >2-
+
+    ちゃんとお宝を隠して描かなくっちゃ！
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_058
+- face:
+  - 100431
+  - 4
+- emotion:
+  - gloomy1_R
+  - 100431
+  - 15
+  - 485
+  - se_adv_emote_gloomy_01
+- print:
+  - みそぎ
+  - う～ん、
+- wait:
+  - 25
+- print:
+  - みそぎ
+  - どこがいいかな……？
+- wait:
+  - 45
+- print:
+  - みそぎ
+  - >2
+
+- face:
+  - 100431
+  - 1
+- print:
+  - みそぎ
+  - せっかくだし、
+- wait:
+  - 35
+- print:
+  - みそぎ
+  - 特別な所がいいよね。
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_059
+- face:
+  - 100431
+  - 1
+- print:
+  - みそぎ
+  - すぐに見つかっちゃったらつまらないし。
+- wait:
+  - 60
+- print:
+  - みそぎ
+  - >2
+
+- face:
+  - 100431
+  - 2
+- print:
+  - みそぎ
+  - みそぎたちしか知らない、
+- wait:
+  - 20
+- print:
+  - みそぎ
+  - 秘密の場所にしたいね！
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_060
+- face:
+  - 100431
+  - 6
+- print:
+  - みそぎ
+  - でも、
+- wait:
+  - 10
+- print:
+  - みそぎ
+  - いままでみそぎたちが行ったことあるとこって、
+- wait:
+  - 50
+- print:
+  - みそぎ
+  - >2-
+
+    どこも誰かが知ってるとこだし……
+- wait:
+  - 75
+- print:
+  - みそぎ
+  - >2
+
+- face:
+  - 100431
+  - 4
+- print:
+  - みそぎ
+  - そんな場所、
+- wait:
+  - 10
+- print:
+  - みそぎ
+  - あるかなぁ……？
+- touch: *o0
+- choice:
+  - 探しに行こう！
+  - 11
+- tag:
+  - 11
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 0
+- vo:
+  - vo_adv_1004011_061
+- face:
+  - 100431
+  - 1
+- emotion:
+  - notice2_L
+  - 100431
+  - -120
+  - 505
+  - se_adv_emote_nortice_01
+- print:
+  - みそぎ
+  - そっか！　
+- wait:
+  - 25
+- face:
+  - 100431
+  - 2
+- print:
+  - みそぎ
+  - そうだよね！
+- wait:
+  - 35
+- print:
+  - みそぎ
+  - >2-
+
+    知らないなら探せばいいんだ！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+- fadeout:
+  - 100431
+  - 30
+- white_out:
+  - 1
+  - 1
+- bg_color:
+  - 255
+  - 255
+  - 255
+- still:
+  - 100401101
+- wait:
+  - 15
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- white_in: *o0
+- window_visible:
+  - true
+- bgm:
+  - bgm_M98
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 1
+- vo:
+  - vo_adv_1004011_062
+- face:
+  - 100431
+  - 2
+- se:
+  - se_adv_body_handshake_01
+- print:
+  - みそぎ
+  - ほらほら、
+- wait:
+  - 5
+- print:
+  - みそぎ
+  - にいちゃん！
+- wait:
+  - 10
+- print:
+  - みそぎ
+  - >2-
+
+    もたもたしてるひまはないよ！
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 1
+- vo:
+  - vo_adv_1004011_063
+- face:
+  - 100431
+  - 2
+- se:
+  - se_adv_step_concrete_walk_go_02
+- print:
+  - みそぎ
+  - みそぎ探検隊しゅっぱ～つ！
+- wait:
+  - 75
+- print:
+  - みそぎ
+  - >2-
+
+    目的地は
+- wait:
+  - 30
+- print:
+  - みそぎ
+  - 誰も知らない場所！
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 1
+- vo:
+  - vo_adv_1004011_064
+- face:
+  - 100431
+  - 1
+- print:
+  - みそぎ
+  - みそぎたちしか知らない場所探すんだから！
+- wait:
+  - 45
+- print:
+  - みそぎ
+  - >2-
+
+    すっごくすっごく特別な場所見つけようね！
+- touch: *o0
+- focus:
+  - 100431
+- bust:
+  - 100431
+  - 1
+- vo:
+  - vo_adv_1004011_065
+- face:
+  - 100431
+  - 2
+- print:
+  - みそぎ
+  - えへへ、
+- wait:
+  - 30
+- print:
+  - みそぎ
+  - やっぱりにいちゃんとの探検は一番楽しいな～
+- wait:
+  - 90
+- print:
+  - みそぎ
+  - >2-
+
+    これからもみそぎとずっと一緒に探検してね、
+- wait:
+  - 70
+- print:
+  - みそぎ
+  - にいちゃん！
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 1.7
+  - 1
+- effect:
+  - 0005
+  - se_adv_holylight_01
+- effect:
+  - 0006
+  - se_adv_whiteout_01
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0005
+- effect_delete:
+  - 0006
+- effect_delete:
+  - 0022
+- background:
+  - 500270
+- still:
+  - end
+- se_pause:
+  - amb_adv_home_area_jpn_01
+  - 1
+- wait:
+  - 15
+- effect:
+  - 0029
+- effect:
+  - 0026
+- effect:
+  - 0015
+  - se_adv_whiteout_02
+- white_in: *o0
+- se:
+  - amb_adv_wind_01
+- bgm:
+  - bgm_M40
+- wait:
+  - 60
+- chara_full:
+  - 190011
+  - C
+  - 1
+- fadein:
+  - 190011
+  - 30
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1004011_066
+- face:
+  - 190011
+  - 1
+- print:
+  - アメス
+  - はい、
+- wait:
+  - 15
+- print:
+  - アメス
+  - お疲れさま。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1004011_067
+- face:
+  - 190011
+  - 2
+- print:
+  - アメス
+  - 自分たちしか知らない場所を探すなんて、
+- wait:
+  - 40
+- print:
+  - アメス
+  - >2-
+
+    ずいぶんロマンチックよね。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1004011_068
+- face:
+  - 190011
+  - 6
+- print:
+  - アメス
+  - まぁ、
+- wait:
+  - 10
+- print:
+  - アメス
+  - ミソギちゃんはそんなこと全然考えてないんでしょうけど、
+- wait:
+  - 60
+- print:
+  - アメス
+  - >2
+
+- face:
+  - 190011
+  - 2
+- print:
+  - アメス
+  - だからこそ、
+- wait:
+  - 30
+- print:
+  - アメス
+  - 大人になったとき大切な思い出になるのよね。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1004011_069
+- face:
+  - 190011
+  - 1
+- print:
+  - アメス
+  - それで、
+- wait:
+  - 15
+- print:
+  - アメス
+  - あんたたちが見つけた場所だけど……
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1004011_070
+- face:
+  - 190011
+  - 2
+- print:
+  - アメス
+  - あたしの口から言うのは無粋よね。
+- wait:
+  - 50
+- print:
+  - アメス
+  - >2-
+
+    うん。
+- wait:
+  - 25
+- print:
+  - アメス
+  - 自分の目と足で確かめなさい。
+- wait:
+  - 45
+- print:
+  - アメス
+  - >2-
+
+    あんたはミソギ探検隊の大切な隊員なんだから、
+- wait:
+  - 55
+- print:
+  - アメス
+  - ね？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 190011
+  - 30
+- bgm:
+  - stop
+  - 3
+- effect:
+  - 0006
+  - se_adv_whiteout_01
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0006
+- effect_delete:
+  - 0029
+- effect_delete:
+  - 0026
+- background:
+  - 500131
+- se_pause:
+  - amb_adv_wind_01
+  - 1
+- wait:
+  - 30
+- white_in: *o0
+- se:
+  - amb_adv_outdoors_day_01
+- vo_effect:
+  - 0
+- wait:
+  - 30
+- chara_full:
+  - 100411
+  - C
+  - 4
+  - 1
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M100
+  - 0
+  - 0
+  - 1
+  - 0.2
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004011_071
+- face:
+  - 100411
+  - 4
+- print:
+  - ミソギ
+  - んん……
+- wait:
+  - 45
+- eye_open:
+  - True
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - ミソギ
+  - う～ん……？
+- wait:
+  - 50
+- print:
+  - ミソギ
+  - >2-
+
+    あれれ？　
+- wait:
+  - 35
+- print:
+  - ミソギ
+  - ミソギ、
+- wait:
+  - 10
+- print:
+  - ミソギ
+  - また気付かないうちに寝ちゃってた……？
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004011_072
+- face:
+  - 100411
+  - 6
+- print:
+  - ミソギ
+  - なんだか、
+- wait:
+  - 30
+- print:
+  - ミソギ
+  - 夢でもにいちゃんと一緒に
+- wait:
+  - 35
+- print:
+  - ミソギ
+  - >2-
+
+    あっちこっち遊んでたような……？
+- touch: *o0
+- choice:
+  - 一緒に地図を作ってた気がする。
+  - 12
+- tag:
+  - 12
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004011_073
+- face:
+  - 100411
+  - 6
+- emotion:
+  - question1_R
+  - 100411
+  - 110
+  - 460
+  - se_adv_emote_question_01
+- print:
+  - ミソギ
+  - あれ、
+- wait:
+  - 20
+- print:
+  - ミソギ
+  - にいちゃんも？
+- wait:
+  - 45
+- print:
+  - ミソギ
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - ミソギ
+  - そっか、
+- wait:
+  - 45
+- print:
+  - ミソギ
+  - なんだかそれってうれしいね！
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004011_074
+- face:
+  - 100411
+  - 2
+- emotion:
+  - note1_L
+  - 100411
+  - -85
+  - 485
+  - se_adv_emote_note_01
+- print:
+  - ミソギ
+  - 夢だったのがもったいないくらい楽しかったなぁ～！
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004011_075
+- face:
+  - 100411
+  - 1
+- pop:
+  - 100411
+- se:
+  - se_adv_rabbit_jump_01
+- print:
+  - ミソギ
+  - あっ、
+- wait:
+  - 10
+- print:
+  - ミソギ
+  - そうだ！
+- wait:
+  - 20
+- print:
+  - ミソギ
+  - >2
+
+- face:
+  - 100411
+  - 2
+- print:
+  - ミソギ
+  - にいちゃん、
+- wait:
+  - 15
+- print:
+  - ミソギ
+  - 今度一緒に地図を作ろうよ！
+- wait:
+  - 55
+- print:
+  - ミソギ
+  - >2-
+
+    にいちゃんとミソギだけの宝の地図！
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004011_076
+- face:
+  - 100411
+  - 2
+- print:
+  - ミソギ
+  - きっとすっごくおもしろいと思うんだ！
+- wait:
+  - 65
+- print:
+  - ミソギ
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - ミソギ
+  - 絶対一緒に作ろうね！　
+- wait:
+  - 50
+- print:
+  - ミソギ
+  - 約束だよ！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 100411
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - '{0}が頷くと、'
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - >2-
+
+    ミソギはうれしそうに満面の笑みを浮かべるのであった。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 1
+  - 1
+- se_pause:
+  - amb_adv_outdoors_day_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

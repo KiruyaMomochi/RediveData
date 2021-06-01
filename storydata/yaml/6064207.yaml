@@ -1,0 +1,282 @@
+- title:
+  - サレンの料理
+- outline:
+  - ' '
+- background:
+  - 500036
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - サレンの料理
+- chara_full:
+  - 114511
+  - C
+  - 4
+- fadein:
+  - 114511
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M427_04
+  - 0
+  - 0
+  - 1
+- focus:
+  - 114511
+- bust:
+  - 114511
+  - 0
+- vo:
+  - vo_adv_6054207_000
+- face:
+  - 114511
+  - 4
+- print:
+  - サレン
+  - 『料理は得意』って言っても、
+- wait:
+  - 35
+- print:
+  - サレン
+  - >2-
+
+    そんな凝ったものは作れないのよね……
+- wait:
+  - 60
+- print:
+  - サレン
+  - >2
+
+- face:
+  - 114511
+  - 6
+- print:
+  - サレン
+  - もちろん、
+- wait:
+  - 15
+- print:
+  - サレン
+  - 味には自信あるのよ？
+- touch: &o0 []
+- choice:
+  - 愛があれば十分。
+  - 1
+  - 1
+- choice:
+  - 僕も作れない。
+  - 2
+  - 2
+- choice:
+  - サレンちゃんの料理が好き。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 114511
+- bust:
+  - 114511
+  - 0
+- vo:
+  - vo_adv_6054207_001
+- face:
+  - 114511
+  - 1
+- nod:
+  - 114511
+- print:
+  - サレン
+  - ええ、
+- wait:
+  - 25
+- print:
+  - サレン
+  - そうだったわね。
+- wait:
+  - 30
+- print:
+  - サレン
+  - >2
+
+- face:
+  - 114511
+  - 6
+- print:
+  - サレン
+  - ……ね、
+- wait:
+  - 15
+- print:
+  - サレン
+  - ねぇ。
+- wait:
+  - 30
+- print:
+  - サレン
+  - 今度、
+- wait:
+  - 15
+- print:
+  - サレン
+  - 救護院で
+- wait:
+  - 20
+- print:
+  - サレン
+  - 料理を作ろうと思ってるの。
+- wait:
+  - 55
+- print:
+  - サレン
+  - >2
+
+- face:
+  - 114511
+  - 2
+- print:
+  - サレン
+  - 自信作を用意するから、
+- wait:
+  - 45
+- print:
+  - サレン
+  - ひまだったら食べに来てよね。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 114511
+- bust:
+  - 114511
+  - 0
+- vo:
+  - vo_adv_6054207_002
+- face:
+  - 114511
+  - 2
+- print:
+  - サレン
+  - ふふ、
+- wait:
+  - 25
+- print:
+  - サレン
+  - それなら二人で挑戦してみない？
+- wait:
+  - 65
+- print:
+  - サレン
+  - >2
+
+- face:
+  - 114511
+  - 1
+- print:
+  - サレン
+  - そういうことだから、
+- wait:
+  - 25
+- print:
+  - サレン
+  - 今度時間作ってよね。
+- wait:
+  - 40
+- print:
+  - サレン
+  - >2
+
+- face:
+  - 114511
+  - 2
+- print:
+  - サレン
+  - ……約束よ？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 114511
+- bust:
+  - 114511
+  - 0
+- vo:
+  - vo_adv_6054207_003
+- face:
+  - 114511
+  - 5
+- print:
+  - サレン
+  - ……もう、
+- wait:
+  - 35
+- print:
+  - サレン
+  - ほんとアンタって、
+- wait:
+  - 25
+- print:
+  - サレン
+  - 天然っていうか、
+- wait:
+  - 20
+- print:
+  - サレン
+  - ズルいというか。
+- wait:
+  - 60
+- print:
+  - サレン
+  - >2
+
+- face:
+  - 114511
+  - 1
+- print:
+  - サレン
+  - でも正直言うと、
+- wait:
+  - 40
+- print:
+  - サレン
+  - その言葉が一番、
+- wait:
+  - 40
+- print:
+  - サレン
+  - うれしいわ。
+- wait:
+  - 55
+- face:
+  - 114511
+  - 2
+- print:
+  - サレン
+  - ……ありがとう。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 114511
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

@@ -1,0 +1,9445 @@
+- title:
+  - 祭りの終わり
+- outline:
+  - 魔物を倒し会場の片隅からノゾミのライブを見守る【聖テレサ女学院（なかよし部）】。その成功により廃部は決定的かと思われたが、ノゾミから預けられたステージに３人は上り、彼女たちの青春は続いていく。
+- background:
+  - 500520
+- se:
+  - amb_adv_wind_01
+- situation:
+  - 祭りの終わり
+- window_visible:
+  - TRUE
+- se:
+  - se_adv_weapon_sword_multi_hit_01
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - そして、激闘の末──
+- wait:
+  - 15
+- touch: &o0 []
+- se:
+  - se_adv_creature_cmn_04
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - 暴走する『名もなき芸術』は、
+- wait:
+  - 30
+- print:
+  - ナレーション
+  - >2
+
+- se:
+  - se_adv_bodyfall_01
+- print:
+  - ナレーション
+  - なかよし部によって討ち果たされ、元の不細工な粘土像へと戻った。
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_wind_01
+  - 1
+- background:
+  - 501280
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_themepark_01
+- se:
+  - amb_adv_crowd_concert_02
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - 一同はその後、
+- wait:
+  - 30
+- print:
+  - ナレーション
+  - >2-
+
+    生徒会長からの追及を逃れるように現場を離れ、
+- wait:
+  - 30
+- print:
+  - ナレーション
+  - >2-
+
+    終演迫るライブ会場の片隅にどんより佇んでいた。
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - FALSE
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M195_Outside_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5064007_000
+- face:
+  - 1
+  - 1
+- print:
+  - 客席の女生徒１
+  - ノーゾミン！　
+- wait:
+  - 25
+- print:
+  - 客席の女生徒１
+  - ノーゾミン！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5064007_001
+- face:
+  - 1
+  - 1
+- print:
+  - 客席の女生徒２
+  - あぁ……
+- wait:
+  - 30
+- print:
+  - 客席の女生徒２
+  - >2-
+
+    まさか聖学祭でノゾミンに会えるなんて
+- wait:
+  - 60
+- print:
+  - 客席の女生徒２
+  - 夢のようですわ……
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 116411
+  - LC
+  - 2
+- chara_full:
+  - 116211
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 0
+- vo:
+  - vo_adv_5064007_002
+- face:
+  - 116411
+  - 2
+- print:
+  - ユニ
+  - 夢のよう、
+- wait:
+  - 45
+- print:
+  - ユニ
+  - か……
+- touch: *o0
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 0
+- vo:
+  - vo_adv_5064007_003
+- face:
+  - 116411
+  - 2
+- print:
+  - ユニ
+  - その夢のような舞台の向こうで、
+- wait:
+  - 65
+- print:
+  - ユニ
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - ユニ
+  - よもや現実に学院の危機が迫っていたとは、
+- wait:
+  - 80
+- print:
+  - ユニ
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - ユニ
+  - それこそ皆、
+- wait:
+  - 40
+- print:
+  - ユニ
+  - 夢にも思っていないのだろうな。
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_004
+- face:
+  - 116211
+  - 2
+- print:
+  - クロエ
+  - そっすねー
+- wait:
+  - 45
+- print:
+  - クロエ
+  - >2-
+
+    ま、
+- wait:
+  - 10
+- print:
+  - クロエ
+  - よかったンじゃないすか、
+- wait:
+  - 25
+- print:
+  - クロエ
+  - 誰も怪我とかしなくて。
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_005
+- face:
+  - 116211
+  - 2
+- nod:
+  - 116211
+- print:
+  - クロエ
+  - 巨大ユニアートは無事フル殺しにしてやったし。
+- wait:
+  - 50
+- print:
+  - クロエ
+  - >2-
+
+    派手に燃え散らかした校舎も、
+- wait:
+  - 15
+- print:
+  - クロエ
+  - なんか結果ピンピンしてたし。
+- touch: *o0
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 0
+- vo:
+  - vo_adv_5064007_006
+- face:
+  - 116411
+  - 4
+- print:
+  - ユニ
+  - ああ、
+- wait:
+  - 25
+- print:
+  - ユニ
+  - あれだけは救いだったな……
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 3
+  - 1
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_sharp_01
+- white_out:
+  - 1
+  - 1
+- se_pause:
+  - amb_adv_themepark_01
+  - 1
+- se_pause:
+  - amb_adv_crowd_concert_02
+  - 1
+- effect:
+  - 0020
+- background:
+  - 500970
+- wait:
+  - 15
+- se:
+  - amb_adv_wind_01
+- white_in: *o0
+- chara_full:
+  - 103211
+  - C
+  - 2
+- fadein:
+  - 103211
+  - 30
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- bgm:
+  - bgm_M122
+- focus:
+  - 103211
+- bust:
+  - 103211
+  - 0
+- vo:
+  - vo_adv_5064007_007
+- face:
+  - 103211
+  - 2
+- print:
+  - アキノ
+  - ご安心ください、
+- wait:
+  - 25
+- print:
+  - アキノ
+  - なかよし部のみなさま。
+- wait:
+  - 45
+- print:
+  - アキノ
+  - >2
+
+- face:
+  - 103211
+  - 1
+- print:
+  - アキノ
+  - 実は私
+- wait:
+  - 35
+- print:
+  - アキノ
+  - こちらの校舎には、
+- wait:
+  - 25
+- print:
+  - アキノ
+  - >2-
+
+    あらかじめ万全の防災策を
+- wait:
+  - 45
+- print:
+  - アキノ
+  - 備えさせていただいておりましたの。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 103211
+  - 30
+- chara_full:
+  - 116311
+  - LC
+  - 6
+- chara_full:
+  - 116411
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 0
+- vo:
+  - vo_adv_5064007_008
+- face:
+  - 116311
+  - 6
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 116311
+- print:
+  - チエル
+  - 何それ衝撃の事実！　
+- wait:
+  - 45
+- print:
+  - チエル
+  - てゆか、
+- wait:
+  - 5
+- print:
+  - チエル
+  - いつの間に！？
+- touch: *o0
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 0
+- vo:
+  - vo_adv_5064007_009
+- face:
+  - 116411
+  - 6
+- print:
+  - ユニ
+  - さては、
+- wait:
+  - 30
+- print:
+  - ユニ
+  - なかよしＸの事後処理のときか。
+- wait:
+  - 90
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 116411
+  - 2
+- print:
+  - ユニ
+  - 一流の職人や建築魔導士を集めて、
+- wait:
+  - 80
+- print:
+  - ユニ
+  - >2-
+
+    半壊した校舎を一晩で修築せしめたのは君だったな、
+- wait:
+  - 90
+- print:
+  - ユニ
+  - アキノ君。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 116211
+  - LC
+  - 1
+- chara_full:
+  - 103211
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103211
+- bust:
+  - 103211
+  - 0
+- vo:
+  - vo_adv_5064007_010
+- face:
+  - 103211
+  - 1
+- nod:
+  - 103211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - アキノ
+  - ええ。
+- wait:
+  - 20
+- print:
+  - アキノ
+  - >2-
+
+    そして、
+- wait:
+  - 20
+- print:
+  - アキノ
+  - いずれまたこんなこともあろうかと、
+- wait:
+  - 35
+- print:
+  - アキノ
+  - >2-
+
+    耐火魔法をはじめとする
+- wait:
+  - 30
+- print:
+  - アキノ
+  - 各種レジスト処理を施しておきましたの。
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_011
+- face:
+  - 116211
+  - 4
+- print:
+  - クロエ
+  - なんでうちらの学校、
+- wait:
+  - 15
+- print:
+  - クロエ
+  - ちょいちょい災禍の炎に包まれる前提なんすか。
+- touch: *o0
+- focus:
+  - 103211
+- bust:
+  - 103211
+  - 0
+- vo:
+  - vo_adv_5064007_012
+- face:
+  - 103211
+  - 6
+- print:
+  - アキノ
+  - オプション料金は
+- wait:
+  - 35
+- print:
+  - アキノ
+  - 結構でしてよ！
+- wait:
+  - 40
+- print:
+  - アキノ
+  - >2
+
+- face:
+  - 103211
+  - 2
+- print:
+  - アキノ
+  - 我がメルクリウス財団は
+- wait:
+  - 30
+- print:
+  - アキノ
+  - アフターサービスも万全ですもの！
+- wait:
+  - 45
+- print:
+  - アキノ
+  - >2-
+
+    おーっほっほっほ！
+- touch: *o0
+- window_visible:
+  - false
+- vo_effect:
+  - 0
+- bgm:
+  - stop
+  - 3
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_sharp_01
+- white_out:
+  - 1
+  - 1
+- se_pause:
+  - amb_adv_wind_01
+  - 1
+- effect_delete:
+  - 0020
+- background:
+  - 501280
+- wait:
+  - 15
+- se:
+  - amb_adv_themepark_01
+- se:
+  - amb_adv_crowd_concert_02
+- white_in: *o0
+- chara_full:
+  - 116411
+  - C
+  - 2
+- fadein:
+  - 116411
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M195_Outside_end
+  - 0
+  - 0
+  - 1
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 0
+- vo:
+  - vo_adv_5064007_013
+- face:
+  - 116411
+  - 2
+- print:
+  - ユニ
+  - ──ふむ、
+- wait:
+  - 20
+- print:
+  - ユニ
+  - そうだな。
+- wait:
+  - 35
+- print:
+  - ユニ
+  - >2-
+
+    最悪の事態が避けられただけ良しとしておくか。
+- wait:
+  - 95
+- print:
+  - ユニ
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - ユニ
+  - なべて世はこともなし。
+- wait:
+  - 50
+- eye_open:
+  - True
+- print:
+  - ユニ
+  - 学院の皆が幸せそうで何よりだ。
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1
+  - 1
+- fadeout:
+  - 116411
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 2913
+  - C
+  - 1
+- fadein:
+  - 2913
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M330
+- focus:
+  - 2913
+- bust:
+  - 2913
+  - 0
+- vo:
+  - vo_adv_5064007_014
+- face:
+  - 2913
+  - 1
+- print:
+  - 進行役生徒
+  - 会場の皆さまー！
+- wait:
+  - 30
+- print:
+  - 進行役生徒
+  - >2-
+
+    忙しいツアーのさなか、
+- wait:
+  - 30
+- print:
+  - 進行役生徒
+  - >2-
+
+    聖テレサ女学院に来てくださった
+- wait:
+  - 35
+- print:
+  - 進行役生徒
+  - ノゾミさんに感謝を！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_baseball_cheer_02
+- fadeout:
+  - 2913
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5064007_015
+- face:
+  - 1
+  - 1
+- print:
+  - 客席の女生徒３
+  - きゃああああ！　
+- wait:
+  - 15
+- print:
+  - 客席の女生徒３
+  - ノゾミン
+- wait:
+  - 15
+- print:
+  - 客席の女生徒３
+  - ありがとーっ！！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5064007_016
+- face:
+  - 1
+  - 1
+- print:
+  - 客席の女生徒４
+  - のぞみーん！　
+- wait:
+  - 25
+- print:
+  - 客席の女生徒４
+  - のーぞー
+- wait:
+  - 35
+- print:
+  - 客席の女生徒４
+  - みーん！
+- wait:
+  - 30
+- print:
+  - 客席の女生徒４
+  - >2-
+
+    のぞっ……
+- wait:
+  - 15
+- print:
+  - 客席の女生徒４
+  - の、
+- wait:
+  - 15
+- print:
+  - 客席の女生徒４
+  - のーっ、
+- wait:
+  - 25
+- print:
+  - 客席の女生徒４
+  - ノアアーッ！　
+- wait:
+  - 25
+- print:
+  - 客席の女生徒４
+  - ノアァーーーッ！！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 116411
+  - LC
+  - 6
+- chara_full:
+  - 116211
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_017
+- face:
+  - 116211
+  - 4
+- print:
+  - クロエ
+  - 最前列の方になんか一人うるせーオタがいんな……
+- touch: *o0
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 0
+- vo:
+  - vo_adv_5064007_018
+- face:
+  - 116411
+  - 6
+- emotion:
+  - question1_R
+  - 116411
+  - 120
+  - 425
+  - se_adv_emote_question_01
+- print:
+  - ユニ
+  - おや？　
+- wait:
+  - 35
+- print:
+  - ユニ
+  - ところでチエル君はどこへ行った。
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_019
+- face:
+  - 116211
+  - 1
+- print:
+  - クロエ
+  - さあ。
+- wait:
+  - 20
+- print:
+  - クロエ
+  - 現実逃避じゃないの。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 2913
+  - C
+  - 1
+- fadein:
+  - 2913
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 2913
+- bust:
+  - 2913
+  - 0
+- vo:
+  - vo_adv_5064007_020
+- face:
+  - 2913
+  - 1
+- print:
+  - 進行役生徒
+  - そして、
+- wait:
+  - 25
+- print:
+  - 進行役生徒
+  - このような素敵なライブを開いてくださった、
+- wait:
+  - 30
+- print:
+  - 進行役生徒
+  - >2-
+
+    「きよらか」組のカリスマ
+- wait:
+  - 30
+- print:
+  - 進行役生徒
+  - ・生徒会の皆さまにも
+- wait:
+  - 30
+- face:
+  - 2913
+  - 2
+- print:
+  - 進行役生徒
+  - 大きな拍手を！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_baseball_cheer_02
+- fadeout:
+  - 2913
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5064007_021
+- face:
+  - 1
+  - 1
+- print:
+  - 客席の女生徒１
+  - 生徒会ありがとー！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5064007_022
+- face:
+  - 1
+  - 1
+- print:
+  - 客席の女生徒２
+  - マリア会長
+- wait:
+  - 25
+- print:
+  - 客席の女生徒２
+  - 最高ーッ！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 116411
+  - LC
+  - 6
+- chara_full:
+  - 116211
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 0
+- vo:
+  - vo_adv_5064007_023
+- face:
+  - 116411
+  - 6
+- print:
+  - ユニ
+  - ふん、
+- wait:
+  - 35
+- print:
+  - ユニ
+  - あの進行役は生徒会の手の者か。
+- wait:
+  - 85
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 116411
+  - 4
+- print:
+  - ユニ
+  - シスター・マリアめ……
+- wait:
+  - 40
+- print:
+  - ユニ
+  - この期に及んで、
+- wait:
+  - 40
+- print:
+  - ユニ
+  - >2-
+
+    投票権を持ったお偉方へのアピールも忘れないとは小賢しい。
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_024
+- face:
+  - 116211
+  - 4
+- nod:
+  - 116211
+- print:
+  - クロエ
+  - あーあ。
+- wait:
+  - 20
+- print:
+  - クロエ
+  - もうコレどんどこ点入ってンなあ。
+- wait:
+  - 70
+- print:
+  - クロエ
+  - >2-
+
+    もう今更だし、
+- wait:
+  - 30
+- eye_open:
+  - False
+- print:
+  - クロエ
+  - いいけどべつに。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 116311
+  - L
+  - 3
+- chara_full:
+  - 116411
+  - C
+  - 6
+- chara_full:
+  - 116211
+  - R
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 0
+- vo:
+  - vo_adv_5064007_025
+- face:
+  - 116311
+  - 3
+- nod:
+  - 116311
+- se:
+  - se_adv_step_dirt_move_01
+- print:
+  - チエル
+  - はァーーーー！　
+- wait:
+  - 30
+- print:
+  - チエル
+  - 醒めるわマジで！
+- wait:
+  - 35
+- print:
+  - チエル
+  - >2-
+
+    も、
+- wait:
+  - 5
+- print:
+  - チエル
+  - 何なんですか、
+- wait:
+  - 15
+- print:
+  - チエル
+  - あのＭＣ。
+- wait:
+  - 15
+- print:
+  - チエル
+  - >2-
+
+    要らんこと挿んじゃって、
+- wait:
+  - 5
+- print:
+  - チエル
+  - 最悪ですよ、
+- wait:
+  - 15
+- print:
+  - チエル
+  - 気分悪い。
+- touch: *o0
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 0
+- vo:
+  - vo_adv_5064007_026
+- face:
+  - 116411
+  - 1
+- print:
+  - ユニ
+  - やあチエル君。
+- wait:
+  - 30
+- print:
+  - ユニ
+  - 現実逃避はもういいのかね。
+- touch: *o0
+- bgm:
+  - stop
+  - 6.5
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 0
+- vo:
+  - vo_adv_5064007_027
+- face:
+  - 116311
+  - 1
+- print:
+  - チエル
+  - いいです。
+- wait:
+  - 20
+- print:
+  - チエル
+  - >2-
+
+    ノゾミンの応援も大事だけど、
+- wait:
+  - 25
+- print:
+  - チエル
+  - 最後くらいこの三人でいたいし。
+- touch: *o0
+- bgm:
+  - bgm_M460
+  - 0
+  - 0
+  - 1
+  - 0.3
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_028
+- face:
+  - 116211
+  - 4
+- print:
+  - クロエ
+  - きも。
+- wait:
+  - 35
+- print:
+  - クロエ
+  - アオハルかよ。
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_029
+- face:
+  - 116211
+  - 2
+- print:
+  - クロエ
+  - ……ま、
+- wait:
+  - 5
+- print:
+  - クロエ
+  - いいけど、
+- wait:
+  - 10
+- print:
+  - クロエ
+  - べつに。
+- wait:
+  - 35
+- print:
+  - クロエ
+  - >2-
+
+    最後だし、
+- wait:
+  - 30
+- print:
+  - クロエ
+  - 多少はね。
+- touch: *o0
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 0
+- vo:
+  - vo_adv_5064007_030
+- face:
+  - 116411
+  - 2
+- print:
+  - ユニ
+  - かわいいことを言ってくれるじゃあないか、
+- wait:
+  - 45
+- print:
+  - ユニ
+  - 後輩たち。
+- wait:
+  - 40
+- print:
+  - ユニ
+  - >2-
+
+    君らのそういうところ、
+- wait:
+  - 50
+- print:
+  - ユニ
+  - ぼかあ好きだったぜ。
+- touch: *o0
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 0
+- vo:
+  - vo_adv_5064007_031
+- face:
+  - 116311
+  - 2
+- print:
+  - チエル
+  - 私も先輩たち
+- wait:
+  - 35
+- print:
+  - チエル
+  - 大好きでしたよ。
+- touch: *o0
+- face:
+  - 116311
+  - 1
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_032
+- face:
+  - 116211
+  - 4
+- print:
+  - クロエ
+  - だァーら、
+- wait:
+  - 20
+- print:
+  - クロエ
+  - きもいっての。
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_033
+- face:
+  - 116211
+  - 4
+- nod:
+  - 116211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - クロエ
+  - ……つって、
+- wait:
+  - 25
+- print:
+  - クロエ
+  - うちも？
+- wait:
+  - 45
+- print:
+  - クロエ
+  - >2-
+
+    べつに
+- wait:
+  - 15
+- print:
+  - クロエ
+  - 嫌いではなかったかな。
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_034
+- face:
+  - 116211
+  - 5
+- print:
+  - クロエ
+  - てか、
+- wait:
+  - 5
+- print:
+  - クロエ
+  - まあ……
+- wait:
+  - 25
+- print:
+  - クロエ
+  - わりと好きめだったかも。
+- touch: *o0
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 0
+- vo:
+  - vo_adv_5064007_035
+- face:
+  - 116311
+  - 6
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 116311
+- print:
+  - チエル
+  - 聞きましたかユニ先輩！
+- wait:
+  - 25
+- print:
+  - チエル
+  - >2-
+
+    あいつ最後までかわいいですよ！
+- touch: *o0
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 0
+- vo:
+  - vo_adv_5064007_036
+- face:
+  - 116411
+  - 4
+- print:
+  - ユニ
+  - 最後まで大概だぞ、
+- wait:
+  - 40
+- print:
+  - ユニ
+  - 毒婦君。
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_037
+- face:
+  - 116211
+  - 4
+- print:
+  - クロエ
+  - 最後までうるせーなこいつら。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 102912
+  - C
+  - 1
+- fadein:
+  - 102912
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102912
+- bust:
+  - 102912
+  - 0
+- vo:
+  - vo_adv_5064007_038
+- face:
+  - 102912
+  - 1
+- print:
+  - ノゾミ
+  - みんなー！　
+- wait:
+  - 25
+- print:
+  - ノゾミ
+  - まだ付いてこられるよねー！
+- wait:
+  - 50
+- print:
+  - ノゾミ
+  - >2-
+
+    それじゃあラストの曲！　
+- wait:
+  - 35
+- face:
+  - 102912
+  - 2
+- print:
+  - ノゾミ
+  - リズムを上げて、
+- wait:
+  - 20
+- print:
+  - ノゾミ
+  - いっくよー！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5064007_039
+- face:
+  - 1
+  - 1
+- print:
+  - 客席の女生徒３
+  - きゃあああああぁぁぁーーー！！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 102912
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 116311
+  - L
+  - 4
+- chara_full:
+  - 116411
+  - C
+  - 1
+- chara_full:
+  - 116211
+  - R
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 0
+- vo:
+  - vo_adv_5064007_040
+- face:
+  - 116311
+  - 4
+- print:
+  - チエル
+  - あーあ……
+- wait:
+  - 35
+- print:
+  - チエル
+  - >2-
+
+    なかよし部、
+- wait:
+  - 25
+- print:
+  - チエル
+  - 解散かぁ……
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_041
+- face:
+  - 116211
+  - 4
+- print:
+  - クロエ
+  - ちょ、
+- wait:
+  - 5
+- print:
+  - クロエ
+  - 言うなしソレ。
+- wait:
+  - 25
+- print:
+  - クロエ
+  - >2-
+
+    今ソレなんとなく
+- wait:
+  - 5
+- print:
+  - クロエ
+  - >2-
+
+    あえてチョクには言わない流れだったじゃん……
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_042
+- face:
+  - 116211
+  - 4
+- eye_open:
+  - False
+- print:
+  - クロエ
+  - そんな実感込めて言われちゃうとさぁ……
+- wait:
+  - 70
+- print:
+  - クロエ
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - クロエ
+  - うち
+- wait:
+  - 30
+- print:
+  - クロエ
+  - 殺し屋みたいな目ぇして
+- wait:
+  - 35
+- print:
+  - クロエ
+  - 意外と涙もろいんだからやめれって……
+- touch: *o0
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 0
+- vo:
+  - vo_adv_5064007_043
+- face:
+  - 116311
+  - 4
+- eye_open:
+  - False
+- print:
+  - チエル
+  - ううっ……
+- shake:
+  - 116311
+- wait:
+  - 70
+- eye_open:
+  - True
+- print:
+  - チエル
+  - くろえしぇんぷぁい……
+- touch: *o0
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 0
+- vo:
+  - vo_adv_5064007_044
+- face:
+  - 116411
+  - 4
+- nod:
+  - 116411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ユニ
+  - 泣くな、
+- wait:
+  - 25
+- print:
+  - ユニ
+  - 後輩たち。
+- wait:
+  - 50
+- print:
+  - ユニ
+  - >2-
+
+    解散などと言っても、
+- wait:
+  - 45
+- print:
+  - ユニ
+  - 所詮は学内での話だ。
+- wait:
+  - 85
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 116411
+  - 2
+- print:
+  - ユニ
+  - ぼくらの青春は
+- wait:
+  - 40
+- print:
+  - ユニ
+  - これからも学院の外でしめやかに続いてゆくさ。
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_045
+- face:
+  - 116211
+  - 1
+- print:
+  - クロエ
+  - ま、
+- wait:
+  - 10
+- print:
+  - クロエ
+  - そーなんすけどね。
+- touch: *o0
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 0
+- vo:
+  - vo_adv_5064007_046
+- face:
+  - 116311
+  - 4
+- print:
+  - チエル
+  - オフィスラブが遠距離恋愛になるぐらいのショックはありますよね。
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_047
+- face:
+  - 116211
+  - 4
+- print:
+  - クロエ
+  - ヤなたとえだな。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 116311
+  - LC
+  - 6
+- chara_full:
+  - 7112
+  - R
+  - 1
+- se:
+  - se_adv_step_dirt_walk_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - R
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_048
+- face:
+  - 7112
+  - 1
+- print:
+  - マリア
+  - こんなところにいましたか、
+- wait:
+  - 20
+- print:
+  - マリア
+  - なかよし部──
+- wait:
+  - 30
+- print:
+  - マリア
+  - >2
+
+- face:
+  - 7112
+  - 2
+- print:
+  - マリア
+  - おっと、
+- wait:
+  - 20
+- print:
+  - マリア
+  - 我が校にそのような部は存在しませんでした。
+- wait:
+  - 50
+- print:
+  - マリア
+  - >2-
+
+    失敬、
+- wait:
+  - 10
+- print:
+  - マリア
+  - 失敬。
+- touch: *o0
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 0
+- vo:
+  - vo_adv_5064007_049
+- face:
+  - 116311
+  - 4
+- print:
+  - チエル
+  - なんか突然ひょっこり現れた生徒会のひとが、
+- wait:
+  - 30
+- print:
+  - チエル
+  - 急に煽ってきてますよ。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 116311
+  - 30
+- chara_full:
+  - 116411
+  - LC
+  - 1
+- fadein:
+  - 116411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 0
+- vo:
+  - vo_adv_5064007_050
+- face:
+  - 116411
+  - 1
+- print:
+  - ユニ
+  - シスター、
+- wait:
+  - 25
+- print:
+  - ユニ
+  - 後にしてくれ。
+- wait:
+  - 40
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 116411
+  - 4
+- print:
+  - ユニ
+  - 悪いが君と遊んでいる暇はない。
+- touch: *o0
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 0
+- vo:
+  - vo_adv_5064007_051
+- face:
+  - 116411
+  - 2
+- print:
+  - ユニ
+  - ぼくらは今、
+- wait:
+  - 35
+- print:
+  - ユニ
+  - 残りわずかな青春を噛みしめている。
+- wait:
+  - 70
+- print:
+  - ユニ
+  - >2-
+
+    聖学祭の総得点が公式に開示されるまでは
+- wait:
+  - 75
+- print:
+  - ユニ
+  - その権利があるはずだ。
+- wait:
+  - 65
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 116411
+  - 6
+- print:
+  - ユニ
+  - それとも
+- wait:
+  - 30
+- print:
+  - ユニ
+  - 何か危急の用かね。
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_052
+- face:
+  - 7112
+  - 1
+- print:
+  - マリア
+  - マニアックおじさ──
+- wait:
+  - 30
+- print:
+  - マリア
+  - 来賓の先生方から
+- wait:
+  - 30
+- print:
+  - マリア
+  - 大凡の話は伺いました。
+- wait:
+  - 60
+- print:
+  - マリア
+  - >2-
+
+    あの魔物を作りだしたのは、
+- wait:
+  - 30
+- print:
+  - マリア
+  - あなたたちで間違いありませんね？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 116411
+  - 30
+- chara_full:
+  - 116211
+  - LC
+  - 4
+- fadein:
+  - 116211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_053
+- face:
+  - 116211
+  - 4
+- emotion:
+  - sweat1_R
+  - 116211
+  - 85
+  - 495
+  - se_adv_emote_sweat_01
+- print:
+  - クロエ
+  - や、
+- wait:
+  - 5
+- print:
+  - クロエ
+  - そうなんだけど
+- wait:
+  - 20
+- print:
+  - クロエ
+  - そうじゃないってゆか……
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_054
+- face:
+  - 116211
+  - 2
+- print:
+  - クロエ
+  - ま、いっか。
+- wait:
+  - 30
+- print:
+  - クロエ
+  - どのみち得点勝負で負け確だし。
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_055
+- face:
+  - 7112
+  - 6
+- print:
+  - マリア
+  - 釈明の弁があるのではないですか？
+- wait:
+  - 40
+- print:
+  - マリア
+  - >2
+
+- face:
+  - 7112
+  - 1
+- print:
+  - マリア
+  - 一応、
+- wait:
+  - 20
+- print:
+  - マリア
+  - 伺っても構いませんが。
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_056
+- face:
+  - 116211
+  - 2
+- nod:
+  - 116211
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - クロエ
+  - や、
+- wait:
+  - 20
+- print:
+  - クロエ
+  - 残り時間もったいないからいい。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 116311
+  - LC
+  - 6
+- chara_full:
+  - 116411
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 0
+- vo:
+  - vo_adv_5064007_057
+- face:
+  - 116311
+  - 6
+- print:
+  - チエル
+  - ユニアート問題はともかく、
+- wait:
+  - 35
+- print:
+  - チエル
+  - >2-
+
+    ノゾミン出されちゃ流石にもう勝ちの目ないですもんね。
+- touch: *o0
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 0
+- vo:
+  - vo_adv_5064007_058
+- face:
+  - 116411
+  - 2
+- print:
+  - ユニ
+  - 是非もなし。
+- wait:
+  - 50
+- print:
+  - ユニ
+  - >2-
+
+    我々とてここまで存分に抗った末の結果だ、
+- wait:
+  - 85
+- print:
+  - ユニ
+  - 潔く受け入れよう。
+- wait:
+  - 60
+- print:
+  - ユニ
+  - >2-
+
+    シスター、
+- wait:
+  - 35
+- print:
+  - ユニ
+  - 君らにもいろいろ手数をかけさせたな。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 7112
+  - C
+  - 4
+- fadein:
+  - 7112
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_059
+- face:
+  - 7112
+  - 4
+- print:
+  - マリア
+  - はあ……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 116311
+  - L
+  - 2
+- chara_full:
+  - 116411
+  - C
+  - 1
+- chara_full:
+  - 116211
+  - R
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 0
+- vo:
+  - vo_adv_5064007_060
+- face:
+  - 116311
+  - 2
+- nod:
+  - 116311
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - チエル
+  - さあ、
+- wait:
+  - 10
+- print:
+  - チエル
+  - 先輩方！
+- wait:
+  - 30
+- print:
+  - チエル
+  - >2-
+
+    とりあえず
+- wait:
+  - 10
+- print:
+  - チエル
+  - 暗いことは一旦ブン投げて！
+- wait:
+  - 40
+- print:
+  - チエル
+  - >2-
+
+    最後にみんなでちぇるっと楽しく
+- wait:
+  - 35
+- print:
+  - チエル
+  - ノゾミンを応援しましょう！
+- touch: *o0
+- face:
+  - 116311
+  - 1
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_061
+- face:
+  - 116211
+  - 2
+- print:
+  - クロエ
+  - はッ……
+- wait:
+  - 20
+- print:
+  - クロエ
+  - >2-
+
+    そーね。
+- wait:
+  - 30
+- print:
+  - クロエ
+  - 折角だし盛大にちぇるっとくかァ。
+- touch: *o0
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 0
+- vo:
+  - vo_adv_5064007_062
+- face:
+  - 116411
+  - 2
+- eye_open:
+  - False
+- print:
+  - ユニ
+  - 是非もなし。
+- wait:
+  - 45
+- eye_open:
+  - True
+- print:
+  - ユニ
+  - これもまた青春だ。
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_063
+- face:
+  - 116211
+  - 2
+- print:
+  - クロエ
+  - マリア。
+- wait:
+  - 25
+- print:
+  - クロエ
+  - んじゃね。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 7112
+  - C
+  - 4
+- fadein:
+  - 7112
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_064
+- face:
+  - 7112
+  - 4
+- print:
+  - マリア
+  - …………
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- fadeout:
+  - 7112
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 102912
+  - C
+  - 2
+- fadein:
+  - 102912
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M333
+- focus:
+  - 102912
+- bust:
+  - 102912
+  - 0
+- vo:
+  - vo_adv_5064007_065
+- face:
+  - 102912
+  - 2
+- print:
+  - ノゾミ
+  - 皆さん、
+- wait:
+  - 25
+- print:
+  - ノゾミ
+  - 今日は本当に、
+- wait:
+  - 30
+- print:
+  - ノゾミ
+  - 最後までありがとうございました。
+- wait:
+  - 45
+- print:
+  - ノゾミ
+  - >2
+
+- face:
+  - 102912
+  - 1
+- print:
+  - ノゾミ
+  - 名誉ある伝統校に呼んでいただいて
+- wait:
+  - 45
+- print:
+  - ノゾミ
+  - とても光栄です。
+- touch: *o0
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 1
+- vo:
+  - vo_adv_5064007_066
+- face:
+  - 116311
+  - 2
+- print:
+  - チエル
+  - また来てねぇー！　
+- wait:
+  - 30
+- print:
+  - チエル
+  - のっぞみーん！
+- touch: *o0
+- focus:
+  - 102912
+- bust:
+  - 102912
+  - 0
+- vo:
+  - vo_adv_5064007_067
+- face:
+  - 102912
+  - 6
+- emotion:
+  - notice1_L
+  - 102912
+  - -90
+  - 525
+  - se_adv_emote_common_01
+- print:
+  - ノゾミ
+  - あ……！
+- touch: *o0
+- focus:
+  - 102912
+- bust:
+  - 102912
+  - 0
+- vo:
+  - vo_adv_5064007_068
+- face:
+  - 102912
+  - 7
+- eye_open:
+  - False
+- print:
+  - ノゾミ
+  - ふふっ♪
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 102912
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 116311
+  - L
+  - 6
+- chara_full:
+  - 116411
+  - C
+  - 6
+- chara_full:
+  - 116211
+  - R
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 0
+- vo:
+  - vo_adv_5064007_069
+- face:
+  - 116411
+  - 6
+- emotion:
+  - question1_R
+  - 116411
+  - 120
+  - 425
+  - se_adv_emote_question_01
+- print:
+  - ユニ
+  - うん？　
+- wait:
+  - 25
+- print:
+  - ユニ
+  - なんだ？
+- wait:
+  - 35
+- print:
+  - ユニ
+  - >2-
+
+    いまゾンビアーナ君がこちらに向かって片目を閉じたぞ。
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_070
+- face:
+  - 116211
+  - 1
+- print:
+  - クロエ
+  - ファンサってやつじゃないの。
+- wait:
+  - 35
+- print:
+  - クロエ
+  - >2-
+
+    そーいやノゾミン、
+- wait:
+  - 30
+- eye_open:
+  - False
+- print:
+  - クロエ
+  - チエルが逃げ出したの気にしてたもんなァ。
+- wait:
+  - 55
+- print:
+  - クロエ
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - クロエ
+  - 戻ってきたのが分かって安心したンじゃない。
+- touch: *o0
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 0
+- vo:
+  - vo_adv_5064007_071
+- face:
+  - 116411
+  - 2
+- print:
+  - ユニ
+  - ふむ、
+- wait:
+  - 30
+- print:
+  - ユニ
+  - そういうことらしいぞ。
+- wait:
+  - 40
+- print:
+  - ユニ
+  - 良かったな、
+- wait:
+  - 25
+- print:
+  - ユニ
+  - すこすこ侍くん。
+- wait:
+  - 60
+- print:
+  - ユニ
+  - >2
+
+- face:
+  - 116411
+  - 6
+- print:
+  - ユニ
+  - すこすこ侍くん？　
+- wait:
+  - 55
+- print:
+  - ユニ
+  - し、
+- wait:
+  - 15
+- print:
+  - ユニ
+  - 死んでる……
+- touch: *o0
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 0
+- vo:
+  - vo_adv_5064007_072
+- face:
+  - 116311
+  - 6
+- print:
+  - すこすこ侍
+  - ノゾミンが……
+- wait:
+  - 70
+- print:
+  - すこすこ侍
+  - 私に……
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_073
+- face:
+  - 116211
+  - 1
+- nod:
+  - 116211
+- print:
+  - クロエ
+  - ちょー
+- wait:
+  - 10
+- print:
+  - クロエ
+  - チエルー、
+- wait:
+  - 20
+- print:
+  - クロエ
+  - 戻ってきー
+- wait:
+  - 30
+- print:
+  - クロエ
+  - >2-
+
+    ほら、
+- wait:
+  - 15
+- print:
+  - クロエ
+  - ノゾミン帰っちゃうぞー
+- touch: *o0
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 0
+- vo:
+  - vo_adv_5064007_074
+- face:
+  - 116311
+  - 6
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 116311
+- print:
+  - チエル
+  - あーッ！　
+- wait:
+  - 15
+- print:
+  - チエル
+  - そうだった！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5064007_075
+- face:
+  - 1
+  - 1
+- effect:
+  - 9
+- print:
+  - 客席の女生徒たち
+  - アンコール！　
+- wait:
+  - 35
+- print:
+  - 客席の女生徒たち
+  - アンコール！　
+- wait:
+  - 40
+- print:
+  - 客席の女生徒たち
+  - アンコール！
+- touch: *o0
+- window_visible:
+  - false
+- effect_delete:
+  - 0009
+- chara_full:
+  - 102912
+  - C
+  - 2
+- fadein:
+  - 102912
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102912
+- bust:
+  - 102912
+  - 0
+- vo:
+  - vo_adv_5064007_076
+- face:
+  - 102912
+  - 2
+- print:
+  - ノゾミ
+  - どうもありがとー！
+- wait:
+  - 40
+- print:
+  - ノゾミ
+  - >2
+
+- face:
+  - 102912
+  - 1
+- print:
+  - ノゾミ
+  - だよねー！　
+- wait:
+  - 20
+- print:
+  - ノゾミ
+  - みんなまだまだ終われないよねー！
+- wait:
+  - 60
+- print:
+  - ノゾミ
+  - >2
+
+- face:
+  - 102912
+  - 4
+- print:
+  - ノゾミ
+  - だけど私、
+- wait:
+  - 30
+- print:
+  - ノゾミ
+  - もうお城に戻らなきゃいけない時間なのー！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5064007_077
+- face:
+  - 1
+  - 1
+- print:
+  - 客席の女生徒たち
+  - ええ〜っ！　
+- wait:
+  - 25
+- print:
+  - 客席の女生徒たち
+  - いま来たばっかりー！
+- touch: *o0
+- focus:
+  - 102912
+- bust:
+  - 102912
+  - 0
+- vo:
+  - vo_adv_5064007_078
+- face:
+  - 102912
+  - 1
+- nod:
+  - 102912
+- print:
+  - ノゾミ
+  - でも！
+- wait:
+  - 20
+- print:
+  - ノゾミ
+  - >2-
+
+    私がいなくても、
+- wait:
+  - 30
+- print:
+  - ノゾミ
+  - この学院にはとびっきりのアイドルがいるよね！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 102912
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 116311
+  - L
+  - 6
+- chara_full:
+  - 116411
+  - C
+  - 4
+- chara_full:
+  - 116211
+  - R
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 0
+- vo:
+  - vo_adv_5064007_079
+- face:
+  - 116411
+  - 4
+- print:
+  - ユニ
+  - あいどる？
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_080
+- face:
+  - 116211
+  - 4
+- print:
+  - クロエ
+  - いるか、
+- wait:
+  - 5
+- print:
+  - クロエ
+  - そんなの？
+- wait:
+  - 30
+- print:
+  - クロエ
+  - >2-
+
+    急にどーしたあいつ。
+- wait:
+  - 30
+- print:
+  - クロエ
+  - 頭アイドルか。
+- touch: *o0
+- focus:
+  - 102912
+- bust:
+  - 102912
+  - 1
+- vo:
+  - vo_adv_5064007_081
+- face:
+  - 102912
+  - 1
+- print:
+  - ノゾミ
+  - だから、
+- wait:
+  - 20
+- print:
+  - ノゾミ
+  - 私に代わってライブを続けてくれる彼女たちを呼ぶね！
+- wait:
+  - 70
+- print:
+  - ノゾミ
+  - >2
+
+- face:
+  - 102912
+  - 2
+- print:
+  - ノゾミ
+  - かもーん！　
+- wait:
+  - 25
+- bgm:
+  - stop
+  - 10
+- print:
+  - ノゾミ
+  - みんな大好き、
+- wait:
+  - 25
+- print:
+  - ノゾミ
+  - なかよし部ー！
+- touch: *o0
+- face:
+  - 116311
+  - 6
+- face:
+  - 116411
+  - 6
+- face:
+  - 116211
+  - 6
+- focus:
+  - 116211:116311:116411
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5064007_082
+- multi_talk:
+  - 116211:116311:116411
+- face:
+  - 1
+  - 1
+- emotion:
+  - question1_R
+  - 116311
+  - 185
+  - 460
+  - se_adv_emote_question_01
+- emotion:
+  - question1_R
+  - 116411
+  - 120
+  - 425
+  - non
+- emotion:
+  - question1_R
+  - 116211
+  - 125
+  - 450
+  - non
+- print:
+  - なかよし部
+  - ハ？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 7112
+  - C
+  - 6
+- fadein:
+  - 7112
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_083
+- face:
+  - 7112
+  - 6
+- emotion:
+  - surprise1_L
+  - 7112
+  - 145
+  - 500
+  - se_adv_emote_common_01
+- print:
+  - マリア
+  - なっ……！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 7112
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 102912
+  - LC
+  - 1
+- chara_full:
+  - 2913
+  - R
+  - 4
+- se:
+  - se_adv_step_dirt_run_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - R
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - true
+- bgm:
+  - bgm_M329
+  - 0
+  - 0
+  - 1
+- focus:
+  - 2913
+- bust:
+  - 2913
+  - 0
+- vo:
+  - vo_adv_5064007_084
+- face:
+  - 2913
+  - 4
+- print:
+  - 進行役生徒
+  - あ、
+- wait:
+  - 5
+- print:
+  - 進行役生徒
+  - あの、
+- wait:
+  - 5
+- print:
+  - 進行役生徒
+  - ノゾミさん……！
+- wait:
+  - 15
+- print:
+  - 進行役生徒
+  - >2-
+
+    困りますわ、
+- wait:
+  - 20
+- print:
+  - 進行役生徒
+  - 勝手にそんな進行台本にないことを……！
+- touch: *o0
+- focus:
+  - 102912
+- bust:
+  - 102912
+  - 0
+- vo:
+  - vo_adv_5064007_085
+- face:
+  - 102912
+  - 4
+- nod:
+  - 102912
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - ノゾミ
+  - ごめんなさい！　
+- wait:
+  - 15
+- print:
+  - ノゾミ
+  - ちょぴっとだけ！
+- touch: *o0
+- focus:
+  - 2913
+- bust:
+  - 2913
+  - 0
+- vo:
+  - vo_adv_5064007_086
+- face:
+  - 2913
+  - 6
+- print:
+  - 進行役生徒
+  - か、
+- wait:
+  - 10
+- print:
+  - 進行役生徒
+  - かわいい……
+- wait:
+  - 20
+- bgm:
+  - stop
+  - 2.4
+  - 1
+- print:
+  - 進行役生徒
+  - 手の平
+- wait:
+  - 5
+- print:
+  - 進行役生徒
+  - クルッ！
+- touch: *o0
+- face:
+  - 102912
+  - 1
+- bgm:
+  - bgm_M254
+  - 0
+  - 0
+  - 0
+  - 0.3
+- focus:
+  - 2913
+- bust:
+  - 2913
+  - 0
+- vo:
+  - vo_adv_5064007_087
+- face:
+  - 2913
+  - 1
+- nod:
+  - 2913
+- print:
+  - 進行役生徒
+  - いらっしゃいますか、
+- wait:
+  - 35
+- print:
+  - 進行役生徒
+  - なかよし部の皆さん！
+- wait:
+  - 20
+- print:
+  - 進行役生徒
+  - >2-
+
+    ステージへお越しください！　
+- wait:
+  - 30
+- print:
+  - 進行役生徒
+  - ノゾミさんからのご指名ですよ！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- chara_full:
+  - 102912
+  - C
+  - 1
+- fadein:
+  - 102912
+  - 30
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 102912
+- bust:
+  - 102912
+  - 0
+- vo:
+  - vo_adv_5064007_088
+- face:
+  - 102912
+  - 1
+- print:
+  - ノゾミ
+  - 私はアイドル。
+- wait:
+  - 50
+- eye_open:
+  - FALSE
+- print:
+  - ノゾミ
+  - パフォーマンスに妥協はできない。
+- touch: *o0
+- focus:
+  - 102912
+- bust:
+  - 102912
+  - 0
+- vo:
+  - vo_adv_5064007_089
+- face:
+  - 102912
+  - 1
+- eye_open:
+  - True
+- print:
+  - ノゾミ
+  - だからキミたちは、
+- wait:
+  - 30
+- print:
+  - ノゾミ
+  - 自分の力で居場所を守って。
+- wait:
+  - 65
+- print:
+  - ノゾミ
+  - >2-
+
+    私が手伝えるのはここまでだから……
+- wait:
+  - 55
+- face:
+  - 102912
+  - 2
+- print:
+  - ノゾミ
+  - がんばってね。
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- fadeout:
+  - 102912
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 116311
+  - L
+  - 6
+- chara_full:
+  - 116411
+  - C
+  - 6
+- chara_full:
+  - 116211
+  - R
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_090
+- face:
+  - 116211
+  - 6
+- print:
+  - クロエ
+  - がんばってね。
+- wait:
+  - 20
+- print:
+  - クロエ
+  - >2-
+
+    みたいな目ェしてノゾミンこっち凝視してますけど、
+- wait:
+  - 50
+- face:
+  - 116211
+  - 4
+- print:
+  - クロエ
+  - 何すかねアレ。
+- wait:
+  - 20
+- print:
+  - クロエ
+  - >2-
+
+    いきなり謎にシリアス視線向けられても超イミフなんすけど。
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_091
+- face:
+  - 116211
+  - 4
+- eye_open:
+  - False
+- print:
+  - クロエ
+  - てか、
+- wait:
+  - 15
+- print:
+  - クロエ
+  - ステージ上がれってどゆこと。
+- wait:
+  - 35
+- print:
+  - クロエ
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - クロエ
+  - プロのえげつないパフォーマンスの後で、
+- wait:
+  - 15
+- print:
+  - クロエ
+  - >2-
+
+    うちらみたいな素人が出張って何ができるってのよ。
+- wait:
+  - 60
+- bgm:
+  - stop
+  - 4.2
+- print:
+  - クロエ
+  - なあチエル。
+- touch: *o0
+- bgm:
+  - bgm_M163
+  - 0
+  - 0
+  - 1
+  - 1.5
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 0
+- vo:
+  - vo_adv_5064007_092
+- face:
+  - 116311
+  - 1
+- nod:
+  - 116311
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - チエル
+  - いえ、
+- wait:
+  - 30
+- print:
+  - チエル
+  - やりましょう。
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_093
+- face:
+  - 116211
+  - 6
+- emotion:
+  - question1_R
+  - 116211
+  - 125
+  - 450
+  - se_adv_emote_question_01
+- print:
+  - クロエ
+  - あ？　
+- wait:
+  - 15
+- print:
+  - クロエ
+  - なんで。
+- wait:
+  - 25
+- print:
+  - クロエ
+  - >2-
+
+    スーパーアイドルに対して侮辱行為じゃなかったの。
+- touch: *o0
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 0
+- vo:
+  - vo_adv_5064007_094
+- face:
+  - 116311
+  - 1
+- print:
+  - チエル
+  - ノゾミンの想い、
+- wait:
+  - 40
+- print:
+  - チエル
+  - チエルのここに
+- wait:
+  - 9
+- se:
+  - se_adv_comic_punch_01
+- wait:
+  - 26
+- eye_open:
+  - False
+- print:
+  - チエル
+  - デュクシと刺さりました。
+- wait:
+  - 30
+- print:
+  - チエル
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - チエル
+  - 推しが逃げるなと言うならもう逃げません。
+- wait:
+  - 45
+- print:
+  - チエル
+  - >2-
+
+    ちぇるんと一発、
+- wait:
+  - 30
+- print:
+  - チエル
+  - 覚悟を決めて出張ります。
+- wait:
+  - 30
+- face:
+  - 116311
+  - 2
+- print:
+  - チエル
+  - 出張りたおします。
+- touch: *o0
+- choice:
+  - 勝負はまだ終わってない！
+  - 1
+- tag:
+  - 1
+- face:
+  - 116311
+  - 1
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_095
+- face:
+  - 116211
+  - 6
+- print:
+  - クロエ
+  - いや、
+- wait:
+  - 5
+- print:
+  - クロエ
+  - あんたまで……
+- wait:
+  - 20
+- print:
+  - クロエ
+  - >2-
+
+    少年向け週刊絵巻かよ、
+- wait:
+  - 45
+- print:
+  - クロエ
+  - こっから大逆転なんて無理筋だって。
+- wait:
+  - 55
+- print:
+  - クロエ
+  - >2
+
+- face:
+  - 116211
+  - 4
+- print:
+  - クロエ
+  - ちょー、
+- wait:
+  - 5
+- print:
+  - クロエ
+  - ユニ先輩もなんか言って──
+- touch: *o0
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 0
+- vo:
+  - vo_adv_5064007_096
+- face:
+  - 116411
+  - 7
+- emotion:
+  - twinkle1_R
+  - 116411
+  - -105
+  - 410
+  - se_adv_emote_twinkle_01
+- print:
+  - ユニ
+  - ほああ、
+- wait:
+  - 25
+- print:
+  - ユニ
+  - たしかにこれは熱い展開！
+- wait:
+  - 50
+- print:
+  - ユニ
+  - >2-
+
+    努力、
+- wait:
+  - 20
+- print:
+  - ユニ
+  - 友情、
+- wait:
+  - 15
+- print:
+  - ユニ
+  - 勝利！　
+- wait:
+  - 25
+- print:
+  - ユニ
+  - 絆の力で打倒強敵！
+- wait:
+  - 60
+- print:
+  - ユニ
+  - >2-
+
+    まさにぼくの焦がれた青春活劇そのものじゃあないか！
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_097
+- face:
+  - 116211
+  - 4
+- print:
+  - クロエ
+  - あそっかァー……
+- wait:
+  - 20
+- print:
+  - クロエ
+  - >2-
+
+    この先輩、
+- wait:
+  - 20
+- print:
+  - クロエ
+  - たまに頭ちぇるっちゃうンだった……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 102912
+  - C
+  - 1
+- fadein:
+  - 102912
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102912
+- bust:
+  - 102912
+  - 0
+- vo:
+  - vo_adv_5064007_098
+- face:
+  - 102912
+  - 1
+- print:
+  - ノゾミ
+  - さあ
+- wait:
+  - 15
+- print:
+  - ノゾミ
+  - ユニ先輩！　
+- wait:
+  - 20
+- print:
+  - ノゾミ
+  - クロエ！　
+- wait:
+  - 20
+- print:
+  - ノゾミ
+  - すこすこざむ……
+- wait:
+  - 15
+- face:
+  - 102912
+  - 6
+- wait:
+  - 10
+- print:
+  - ノゾミ
+  - チエル！
+- wait:
+  - 25
+- print:
+  - ノゾミ
+  - >2-
+
+    時間押してるよ、
+- wait:
+  - 20
+- face:
+  - 102912
+  - 1
+- print:
+  - ノゾミ
+  - 早くステージに上がって！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 2914
+  - LC
+  - 1
+- chara_full:
+  - 3113
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 2914
+- bust:
+  - 2914
+  - 0
+- vo:
+  - vo_adv_5064007_099
+- face:
+  - 2914
+  - 1
+- nod:
+  - 2914
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - クロエの同級生１
+  - そうですわ！　
+- wait:
+  - 15
+- print:
+  - クロエの同級生１
+  - なかよし部の皆さんならできますわ！
+- touch: *o0
+- focus:
+  - 3113
+- bust:
+  - 3113
+  - 0
+- vo:
+  - vo_adv_5064007_100
+- face:
+  - 3113
+  - 1
+- print:
+  - クロエの同級生２
+  - なかよし部最高ですわ！　
+- wait:
+  - 40
+- face:
+  - 3113
+  - 2
+- print:
+  - クロエの同級生２
+  - なかよし部しか勝たんですわ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5064007_101
+- face:
+  - 1
+  - 1
+- effect:
+  - 9
+- print:
+  - 全校生徒
+  - なっかよし部！　
+- wait:
+  - 35
+- print:
+  - 全校生徒
+  - なっかよし部！
+- touch: *o0
+- window_visible:
+  - false
+- effect_delete:
+  - 0009
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 116311
+  - L
+  - 1
+- chara_full:
+  - 116411
+  - C
+  - 2
+- chara_full:
+  - 116211
+  - R
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 0
+- vo:
+  - vo_adv_5064007_102
+- face:
+  - 116311
+  - 1
+- nod:
+  - 116311
+- se:
+  - se_adv_step_dirt_move_01
+- print:
+  - チエル
+  - ほら、
+- wait:
+  - 15
+- print:
+  - チエル
+  - みんな期待してますよ！
+- wait:
+  - 25
+- print:
+  - チエル
+  - >2-
+
+    行きましょう、
+- wait:
+  - 10
+- print:
+  - チエル
+  - クロエ先輩！
+- touch: *o0
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 0
+- vo:
+  - vo_adv_5064007_103
+- face:
+  - 116411
+  - 2
+- print:
+  - ユニ
+  - うむ、
+- wait:
+  - 20
+- print:
+  - ユニ
+  - 行くぞクロエ君！
+- wait:
+  - 35
+- print:
+  - ユニ
+  - >2-
+
+    この流れに乗れば、
+- wait:
+  - 35
+- print:
+  - ユニ
+  - 逆転の目はまだないこともないかもしれない！
+- wait:
+  - 60
+- print:
+  - ユニ
+  - >2-
+
+    端的に言えば、
+- wait:
+  - 35
+- print:
+  - ユニ
+  - ぼくは青春を続けたい！
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_104
+- face:
+  - 116211
+  - 4
+- print:
+  - クロエ
+  - つって、
+- wait:
+  - 25
+- print:
+  - クロエ
+  - この状況からひっくり返すなんて、
+- wait:
+  - 25
+- print:
+  - クロエ
+  - そんな都合のいい話──
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5064007_105
+- face:
+  - 1
+  - 1
+- print:
+  - 全校生徒
+  - なっかよし部！　
+- wait:
+  - 30
+- print:
+  - 全校生徒
+  - なっかよし部！
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_106
+- face:
+  - 116211
+  - 6
+- print:
+  - クロエ
+  - ──や、
+- wait:
+  - 30
+- print:
+  - クロエ
+  - 案外ワンチャンないこともない、
+- wait:
+  - 60
+- print:
+  - クロエ
+  - か？
+- wait:
+  - 55
+- print:
+  - クロエ
+  - >2
+
+- face:
+  - 116211
+  - 2
+- print:
+  - クロエ
+  - うん、
+- wait:
+  - 30
+- print:
+  - クロエ
+  - このガッコ登場人物全員アタオカだしな。
+- touch: *o0
+- choice:
+  - みんながんばれ！
+  - 3
+- tag:
+  - 3
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_107
+- face:
+  - 116211
+  - 2
+- eye_open:
+  - False
+- print:
+  - クロエ
+  - ぷー……
+- wait:
+  - 45
+- print:
+  - クロエ
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - クロエ
+  - しゃーない、
+- wait:
+  - 30
+- print:
+  - クロエ
+  - やるだけやっとくかァー
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5064007_108
+- face:
+  - 1
+  - 1
+- effect:
+  - 9
+- se:
+  - se_adv_baseball_cheer_02
+- print:
+  - 全校生徒
+  - わあああああ──っ！
+- touch: *o0
+- window_visible:
+  - false
+- effect_delete:
+  - 0009
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 7112
+  - C
+  - 6
+- fadein:
+  - 7112
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_109
+- face:
+  - 7112
+  - 6
+- emotion:
+  - exclamation1_R
+  - 7112
+  - 15
+  - 595
+  - se_adv_emote_common_01
+- print:
+  - マリア
+  - なっ……
+- wait:
+  - 15
+- print:
+  - マリア
+  - 待ちなさい！
+- wait:
+  - 15
+- print:
+  - マリア
+  - >2
+
+- face:
+  - 7112
+  - 3
+- print:
+  - マリア
+  - そんな勝手な真似は許しません！
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_110
+- face:
+  - 7112
+  - 3
+- print:
+  - マリア
+  - ち
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - マリア
+  - ょっ……
+- wait:
+  - 10
+- print:
+  - マリア
+  - あなたたち、
+- wait:
+  - 20
+- print:
+  - マリア
+  - 道を
+- wait:
+  - 15
+- print:
+  - マリア
+  - 開けなさい！
+- wait:
+  - 25
+- print:
+  - マリア
+  - >2
+
+- face:
+  - 7112
+  - 6
+- print:
+  - マリア
+  - 進行が、
+- wait:
+  - 25
+- print:
+  - マリア
+  - 段取りが……
+- wait:
+  - 30
+- print:
+  - マリア
+  - 秩序が乱れます！
+- wait:
+  - 30
+- print:
+  - マリア
+  - >2
+
+- face:
+  - 7112
+  - 3
+- print:
+  - マリア
+  - どきなさい！　
+- wait:
+  - 15
+- print:
+  - マリア
+  - 邪魔です、
+- wait:
+  - 20
+- print:
+  - マリア
+  - どきなさ─
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - マリア
+  - ─
+- touch: *o0
+- se:
+  - se_adv_comic_punch_01
+- effect:
+  - 0019
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_111
+- face:
+  - 7112
+  - 4
+- print:
+  - マリア
+  - ──ひぎぃ！
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_112
+- face:
+  - 7112
+  - 4
+- eye_open:
+  - False
+- print:
+  - マリア
+  - 痛ったぁ、
+- wait:
+  - 30
+- print:
+  - マリア
+  - 鼻打った……
+- wait:
+  - 55
+- print:
+  - マリア
+  - >2
+
+- eye_open:
+  - True
+- face:
+  - 7112
+  - 3
+- print:
+  - マリア
+  - ちょっ……
+- wait:
+  - 15
+- print:
+  - マリア
+  - 誰ですか、
+- wait:
+  - 5
+- print:
+  - マリア
+  - いまの肘はッ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 7112
+  - 30
+- chara_full:
+  - 3012
+  - C
+  - 6
+- fadein:
+  - 3012
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 3012
+- bust:
+  - 3012
+  - 0
+- vo:
+  - vo_adv_5064007_113
+- face:
+  - 3012
+  - 6
+- print:
+  - チエルの友人
+  - あれ、
+- wait:
+  - 5
+- print:
+  - チエルの友人
+  - なんか当たった？　
+- wait:
+  - 20
+- print:
+  - チエルの友人
+  - まあいいや。
+- wait:
+  - 25
+- print:
+  - チエルの友人
+  - >2
+
+- face:
+  - 3012
+  - 2
+- print:
+  - チエルの友人
+  - なっかよし部！　
+- wait:
+  - 30
+- pop:
+  - 3012
+- se:
+  - se_adv_step_dirt_move_01
+- print:
+  - チエルの友人
+  - なっかよし部！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 3012
+  - 30
+- chara_full:
+  - 7112
+  - C
+  - 4
+- fadein:
+  - 7112
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_114
+- face:
+  - 7112
+  - 4
+- nod:
+  - 7112
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - マリア
+  - ああもう、
+- wait:
+  - 25
+- print:
+  - マリア
+  - やだ……
+- wait:
+  - 30
+- print:
+  - マリア
+  - なんなの、
+- wait:
+  - 10
+- print:
+  - マリア
+  - これ……
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_115
+- face:
+  - 7112
+  - 4
+- print:
+  - マリア
+  - 私チカちゃんに会いたいからカルミナ呼んだのに、
+- wait:
+  - 45
+- print:
+  - マリア
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - マリア
+  - なんかノゾミン一人しか来てくんないし……
+- wait:
+  - 45
+- eye_open:
+  - True
+- print:
+  - マリア
+  - あ、
+- wait:
+  - 20
+- print:
+  - マリア
+  - 鼻血……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 7112
+  - 30
+- chara_full:
+  - 7112
+  - LC
+  - 4
+- chara_full:
+  - 3211
+  - R
+  - 6
+- se:
+  - se_adv_step_dirt_walk_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - R
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 3211
+- bust:
+  - 3211
+  - 0
+- vo:
+  - vo_adv_5064007_116
+- face:
+  - 3211
+  - 6
+- print:
+  - 女性教員
+  - 大丈夫ですか、
+- wait:
+  - 30
+- print:
+  - 女性教員
+  - シスター・マリア。
+- touch: *o0
+- bgm:
+  - stop
+  - 4.5
+  - 1
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_117
+- face:
+  - 7112
+  - 6
+- print:
+  - マリア
+  - ……
+- wait:
+  - 35
+- print:
+  - マリア
+  - マザー
+- touch: *o0
+- bgm:
+  - bgm_M377_02
+- focus:
+  - 3211
+- bust:
+  - 3211
+  - 0
+- vo:
+  - vo_adv_5064007_118
+- face:
+  - 3211
+  - 1
+- print:
+  - 女性教員
+  - お勤めご苦労さまです。
+- wait:
+  - 60
+- print:
+  - 女性教員
+  - >2-
+
+    あなたは自分に課せられた本分を
+- wait:
+  - 60
+- print:
+  - 女性教員
+  - 十二分にまっとうしていますね。
+- touch: *o0
+- focus:
+  - 3211
+- bust:
+  - 3211
+  - 0
+- vo:
+  - vo_adv_5064007_119
+- face:
+  - 3211
+  - 6
+- nod:
+  - 3211
+- print:
+  - 女性教員
+  - ですが、
+- wait:
+  - 35
+- print:
+  - 女性教員
+  - 今日は年に一度の祭典です。
+- wait:
+  - 60
+- print:
+  - 女性教員
+  - >2-
+
+    みな少しでも長く羽目を外していたいのでしょう。
+- wait:
+  - 80
+- print:
+  - 女性教員
+  - >2
+
+- face:
+  - 3211
+  - 1
+- print:
+  - 女性教員
+  - あなたもこんな日ぐらい
+- wait:
+  - 35
+- print:
+  - 女性教員
+  - 「十分」で
+- wait:
+  - 25
+- print:
+  - 女性教員
+  - 良いのではないですか。
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_120
+- face:
+  - 7112
+  - 3
+- print:
+  - マリア
+  - 何を腑抜けたこと言っているのです。
+- wait:
+  - 45
+- print:
+  - マリア
+  - >2-
+
+    そうした気の緩みが今の結果に……
+- wait:
+  - 65
+- face:
+  - 7112
+  - 4
+- eye_open:
+  - False
+- print:
+  - マリア
+  - はあ、
+- wait:
+  - 55
+- eye_open:
+  - True
+- print:
+  - マリア
+  - もういいや、
+- wait:
+  - 35
+- print:
+  - マリア
+  - 疲れた。
+- touch: *o0
+- focus:
+  - 3211
+- bust:
+  - 3211
+  - 0
+- vo:
+  - vo_adv_5064007_121
+- face:
+  - 3211
+  - 1
+- print:
+  - 女性教員
+  - シスター、
+- wait:
+  - 30
+- print:
+  - 女性教員
+  - 私に問いましたね。
+- wait:
+  - 50
+- print:
+  - 女性教員
+  - >2-
+
+    なぜあの者たちを赦し続けるのかと。
+- touch: *o0
+- focus:
+  - 3211
+- bust:
+  - 3211
+  - 0
+- vo:
+  - vo_adv_5064007_122
+- face:
+  - 3211
+  - 2
+- print:
+  - 女性教員
+  - 私はこの歳になって、
+- wait:
+  - 45
+- print:
+  - 女性教員
+  - 彼女たちから学んだことがあります。
+- wait:
+  - 50
+- print:
+  - 女性教員
+  - >2-
+
+    それは──
+- wait:
+  - 35
+- print:
+  - 女性教員
+  - 青春の光、
+- wait:
+  - 50
+- print:
+  - 女性教員
+  - その目映ゆさです。
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_123
+- face:
+  - 7112
+  - 4
+- print:
+  - マリア
+  - ……なんですか、
+- wait:
+  - 20
+- print:
+  - マリア
+  - それは。
+- touch: *o0
+- focus:
+  - 3211
+- bust:
+  - 3211
+  - 0
+- vo:
+  - vo_adv_5064007_124
+- face:
+  - 3211
+  - 1
+- nod:
+  - 3211
+- print:
+  - 女性教員
+  - 現在進行形のあなたたちには、
+- wait:
+  - 50
+- print:
+  - 女性教員
+  - おそらく
+- wait:
+  - 15
+- print:
+  - 女性教員
+  - まだ分からないでしょうね。
+- touch: *o0
+- focus:
+  - 3211
+- bust:
+  - 3211
+  - 0
+- vo:
+  - vo_adv_5064007_125
+- face:
+  - 3211
+  - 1
+- eye_open:
+  - False
+- print:
+  - 女性教員
+  - 青春の光──
+- wait:
+  - 60
+- print:
+  - 女性教員
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 女性教員
+  - それは
+- wait:
+  - 25
+- print:
+  - 女性教員
+  - 老いてのち、
+- wait:
+  - 35
+- print:
+  - 女性教員
+  - 長い長い人生を振りかえったとき、
+- wait:
+  - 55
+- print:
+  - 女性教員
+  - >2-
+
+    ある年頃の一瞬にだけ輝いている
+- wait:
+  - 60
+- print:
+  - 女性教員
+  - 瑞々しい記憶です。
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_126
+- face:
+  - 7112
+  - 6
+- print:
+  - マリア
+  - はあ。
+- touch: *o0
+- focus:
+  - 3211
+- bust:
+  - 3211
+  - 0
+- vo:
+  - vo_adv_5064007_127
+- face:
+  - 3211
+  - 4
+- print:
+  - 女性教員
+  - 娘時分の私も、
+- wait:
+  - 45
+- print:
+  - 女性教員
+  - 今のあなたと同じように
+- wait:
+  - 35
+- print:
+  - 女性教員
+  - それを知りませんでした。
+- wait:
+  - 45
+- print:
+  - 女性教員
+  - >2
+
+- face:
+  - 3211
+  - 6
+- print:
+  - 女性教員
+  - むろん
+- wait:
+  - 20
+- print:
+  - 女性教員
+  - 主へ捧げた清らかな半生を誇りに思ってはいますが、
+- wait:
+  - 90
+- print:
+  - 女性教員
+  - >2-
+
+    もし
+- wait:
+  - 20
+- print:
+  - 女性教員
+  - あの子たちのような友人が近くにいたとしたら──
+- touch: *o0
+- focus:
+  - 3211
+- bust:
+  - 3211
+  - 0
+- vo:
+  - vo_adv_5064007_128
+- face:
+  - 3211
+  - 1
+- nod:
+  - 3211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 女性教員
+  - ──あるいは
+- wait:
+  - 20
+- print:
+  - 女性教員
+  - 私の青春も、
+- wait:
+  - 50
+- print:
+  - 女性教員
+  - >2-
+
+    また違った輝き方をしていたのかもしれません。
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_129
+- face:
+  - 7112
+  - 6
+- print:
+  - マリア
+  - お母さん……
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_130
+- face:
+  - 7112
+  - 4
+- print:
+  - マリア
+  - ……え、
+- wait:
+  - 5
+- print:
+  - マリア
+  - 困る。
+- wait:
+  - 15
+- print:
+  - マリア
+  - >2-
+
+    そんな唐突に、
+- wait:
+  - 10
+- print:
+  - マリア
+  - 取って付けたようないい話されても。
+- wait:
+  - 35
+- print:
+  - マリア
+  - >2-
+
+    無理無理。
+- wait:
+  - 15
+- print:
+  - マリア
+  - ぜんぜん沁みこまない。
+- touch: *o0
+- focus:
+  - 3211
+- bust:
+  - 3211
+  - 0
+- vo:
+  - vo_adv_5064007_131
+- face:
+  - 3211
+  - 1
+- print:
+  - 女性教員
+  - あとねえ、
+- wait:
+  - 20
+- print:
+  - 女性教員
+  - 意外と使い勝手いいのよ、
+- wait:
+  - 20
+- print:
+  - 女性教員
+  - あの子たち。
+- wait:
+  - 40
+- print:
+  - 女性教員
+  - >2-
+
+    基本的に人がいいから、
+- wait:
+  - 35
+- print:
+  - 女性教員
+  - 飴と鞭で頼めば
+- wait:
+  - 45
+- print:
+  - 女性教員
+  - 何でもやってくれるの。
+- wait:
+  - 35
+- print:
+  - 女性教員
+  - >2
+
+- face:
+  - 3211
+  - 2
+- print:
+  - 女性教員
+  - おかげでまあ
+- wait:
+  - 25
+- print:
+  - 女性教員
+  - 今回も出資者の皆さまに御満足いただけて、
+- wait:
+  - 75
+- print:
+  - 女性教員
+  - ほほほ。
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_132
+- face:
+  - 7112
+  - 4
+- nod:
+  - 7112
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - マリア
+  - そっちじゃん。
+- wait:
+  - 20
+- print:
+  - マリア
+  - >2-
+
+    理由あきらかそっちじゃん、
+- wait:
+  - 20
+- print:
+  - マリア
+  - うそつき。
+- wait:
+  - 25
+- print:
+  - マリア
+  - >2-
+
+    え、
+- wait:
+  - 25
+- print:
+  - マリア
+  - 前段にいい話わざわざ取って付ける必要あった？
+- touch: *o0
+- focus:
+  - 3211
+- bust:
+  - 3211
+  - 0
+- vo:
+  - vo_adv_5064007_133
+- face:
+  - 3211
+  - 6
+- print:
+  - 女性教員
+  - どちらも嘘ではないのよ、
+- wait:
+  - 50
+- face:
+  - 3211
+  - 1
+- print:
+  - 女性教員
+  - これは本音と建前っていうの。
+- wait:
+  - 80
+- print:
+  - 女性教員
+  - >2-
+
+    マリちゃんも
+- wait:
+  - 15
+- print:
+  - 女性教員
+  - 社会に出たらきっと分かってくれるわ。
+- wait:
+  - 85
+- print:
+  - 女性教員
+  - >2
+
+- face:
+  - 3211
+  - 4
+- print:
+  - 女性教員
+  - だからやめなさい、
+- wait:
+  - 25
+- print:
+  - 女性教員
+  - ランドソルスナギツネみたいな目で親を見るのは。
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_134
+- face:
+  - 7112
+  - 4
+- print:
+  - マリア
+  - きたない。
+- wait:
+  - 25
+- print:
+  - マリア
+  - >2-
+
+    さすが大人きたない。
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_135
+- face:
+  - 7112
+  - 2
+- nod:
+  - 7112
+- print:
+  - マリア
+  - やっぱり聖テレサ女学院は、
+- wait:
+  - 35
+- print:
+  - マリア
+  - 私たちの手で守るぞっ！
+- touch: *o0
+- focus:
+  - 3211
+- bust:
+  - 3211
+  - 0
+- vo:
+  - vo_adv_5064007_136
+- face:
+  - 3211
+  - 2
+- emotion:
+  - note1_L
+  - 3211
+  - -100
+  - 455
+  - se_adv_emote_note_01
+- print:
+  - 女性教員
+  - まあ、
+- wait:
+  - 15
+- print:
+  - 女性教員
+  - 助かるわあ。
+- wait:
+  - 50
+- print:
+  - 女性教員
+  - >2-
+
+    最近の若い子はホント、
+- wait:
+  - 45
+- print:
+  - 女性教員
+  - 教師の言うことなんか聞きやしない。
+- wait:
+  - 50
+- print:
+  - 女性教員
+  - >2-
+
+    その点、
+- wait:
+  - 25
+- print:
+  - 女性教員
+  - 私の娘時分などは素直で従順な──
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_137
+- face:
+  - 7112
+  - 1
+- print:
+  - マリア
+  - マザー、
+- wait:
+  - 15
+- print:
+  - マリア
+  - その話は長くなりますか。
+- touch: *o0
+- focus:
+  - 3211
+- bust:
+  - 3211
+  - 0
+- vo:
+  - vo_adv_5064007_138
+- face:
+  - 3211
+  - 4
+- print:
+  - 女性教員
+  - あんた、
+- wait:
+  - 10
+- print:
+  - 女性教員
+  - そういうところよ。
+- touch: *o0
+- face:
+  - 7112
+  - 6
+- face:
+  - 3211
+  - 6
+- bgm:
+  - stop
+  - 5.6
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5064007_139
+- face:
+  - 1
+  - 1
+- se:
+  - se_adv_baseball_cheer_03
+- print:
+  - 全校生徒
+  - わあああああ──っ！
+- touch: *o0
+- bgm:
+  - bgm_M256
+  - 0
+  - 0
+  - 1
+- focus:
+  - 3211
+- bust:
+  - 3211
+  - 0
+- vo:
+  - vo_adv_5064007_140
+- face:
+  - 3211
+  - 1
+- print:
+  - 女性教員
+  - あらあら、
+- wait:
+  - 25
+- print:
+  - 女性教員
+  - なんだかんだ言いながら、
+- wait:
+  - 20
+- print:
+  - 女性教員
+  - >2-
+
+    ステージに上がったのねえ、
+- wait:
+  - 20
+- print:
+  - 女性教員
+  - あの子たち。
+- wait:
+  - 55
+- print:
+  - 女性教員
+  - >2
+
+- face:
+  - 3211
+  - 2
+- print:
+  - 女性教員
+  - んまあ、
+- wait:
+  - 15
+- print:
+  - 女性教員
+  - 大人気だこと。
+- wait:
+  - 45
+- print:
+  - 女性教員
+  - 嘆かわしいわ。
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5064007_141
+- face:
+  - 1
+  - 1
+- print:
+  - 全校生徒
+  - なっかよし部！　
+- wait:
+  - 35
+- print:
+  - 全校生徒
+  - なっかよし部！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 116411
+  - C
+  - 7
+- fadein:
+  - 116411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 0
+- vo:
+  - vo_adv_5064007_142
+- face:
+  - 116411
+  - 7
+- print:
+  - ユニ
+  - ゆっにちゃんず！　
+- wait:
+  - 20
+- pop:
+  - 116411
+- se:
+  - se_adv_rabbit_jump_01
+- print:
+  - ユニ
+  - あそれ、
+- wait:
+  - 10
+- print:
+  - ユニ
+  - ゆっにちゃんず！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 116411
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 7112
+  - LC
+  - 4
+- chara_full:
+  - 3211
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_143
+- face:
+  - 7112
+  - 4
+- emotion:
+  - drop1_R
+  - 7112
+  - 60
+  - 635
+  - se_adv_emote_drop_01
+- print:
+  - マリア
+  - ああ……
+- wait:
+  - 35
+- print:
+  - マリア
+  - >2-
+
+    私の目の前で、
+- wait:
+  - 40
+- eye_open:
+  - False
+- print:
+  - マリア
+  - 風紀が音を立てて乱れていく……
+- touch: *o0
+- eye_open:
+  - true
+- focus:
+  - 3211
+- bust:
+  - 3211
+  - 0
+- vo:
+  - vo_adv_5064007_144
+- face:
+  - 3211
+  - 6
+- print:
+  - 女性教員
+  - ああ、
+- wait:
+  - 15
+- print:
+  - 女性教員
+  - そういえば──
+- touch: *o0
+- focus:
+  - 3211
+- bust:
+  - 3211
+  - 0
+- vo:
+  - vo_adv_5064007_145
+- face:
+  - 3211
+  - 3
+- nod:
+  - 3211
+- print:
+  - 女性教員
+  - ──聞きましたよ、
+- wait:
+  - 10
+- print:
+  - 女性教員
+  - 生徒会長。
+- wait:
+  - 35
+- print:
+  - 女性教員
+  - >2-
+
+    聖学祭の勝敗に、
+- wait:
+  - 40
+- print:
+  - 女性教員
+  - あの異端児たちの進退を賭けていたそうですね。
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_146
+- face:
+  - 7112
+  - 1
+- print:
+  - マリア
+  - ええまあ。
+- wait:
+  - 30
+- print:
+  - マリア
+  - >2-
+
+    一部の保護者や卒業生から突き上げもあったもので。
+- wait:
+  - 65
+- print:
+  - マリア
+  - >2-
+
+    規律と正義に則ったまでです。
+- wait:
+  - 35
+- print:
+  - マリア
+  - なにか異論でも？
+- touch: *o0
+- focus:
+  - 3211
+- bust:
+  - 3211
+  - 0
+- vo:
+  - vo_adv_5064007_147
+- face:
+  - 3211
+  - 6
+- print:
+  - 女性教員
+  - さて、
+- wait:
+  - 10
+- print:
+  - 女性教員
+  - どうでしょう。
+- wait:
+  - 45
+- print:
+  - 女性教員
+  - >2-
+
+    あの者たちの素行は事実、
+- wait:
+  - 50
+- print:
+  - 女性教員
+  - 問題だらけです。
+- wait:
+  - 45
+- print:
+  - 女性教員
+  - >2-
+
+    一教員としては、
+- wait:
+  - 30
+- print:
+  - 女性教員
+  - 生徒会の判断を殊更に否定する理由もありません。
+- touch: *o0
+- focus:
+  - 3211
+- bust:
+  - 3211
+  - 0
+- vo:
+  - vo_adv_5064007_148
+- face:
+  - 3211
+  - 4
+- print:
+  - 女性教員
+  - ですが親としては──
+- wait:
+  - 50
+- print:
+  - 女性教員
+  - >2-
+
+    あんたが友達から恨まれるような結果には
+- wait:
+  - 60
+- print:
+  - 女性教員
+  - なってほしくないわねえ。
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_149
+- face:
+  - 7112
+  - 6
+- emotion:
+  - question1_R
+  - 7112
+  - 115
+  - 450
+  - se_adv_emote_question_01
+- print:
+  - マリア
+  - は？　
+- wait:
+  - 30
+- print:
+  - マリア
+  - ともだち？　
+- wait:
+  - 35
+- face:
+  - 7112
+  - 4
+- print:
+  - マリア
+  - な、
+- wait:
+  - 15
+- print:
+  - マリア
+  - なんですかマザー、
+- wait:
+  - 20
+- print:
+  - マリア
+  - 突然……
+- touch: *o0
+- focus:
+  - 3211
+- bust:
+  - 3211
+  - 0
+- vo:
+  - vo_adv_5064007_150
+- face:
+  - 3211
+  - 6
+- print:
+  - 女性教員
+  - 突然じゃないでしょう。
+- wait:
+  - 40
+- print:
+  - 女性教員
+  - あんた入学したての頃、
+- wait:
+  - 35
+- print:
+  - 女性教員
+  - >2-
+
+    クラスにクロエちゃんっていう格好いい子がいるんだって、
+- wait:
+  - 45
+- print:
+  - 女性教員
+  - >2-
+
+    目ぇキラッキラさせて毎日よく言ってたじゃない。
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_151
+- face:
+  - 7112
+  - 6
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 7112
+- print:
+  - マリア
+  - なっ……！？
+- wait:
+  - 15
+- print:
+  - マリア
+  - >2-
+
+    しら、
+- wait:
+  - 15
+- print:
+  - マリア
+  - 知らないよ、
+- wait:
+  - 15
+- print:
+  - マリア
+  - そんな昔の話……！
+- touch: *o0
+- focus:
+  - 3211
+- bust:
+  - 3211
+  - 0
+- vo:
+  - vo_adv_5064007_152
+- face:
+  - 3211
+  - 6
+- print:
+  - 女性教員
+  - そうかしら？
+- wait:
+  - 40
+- print:
+  - 女性教員
+  - >2
+
+- face:
+  - 3211
+  - 1
+- print:
+  - 女性教員
+  - それにしちゃあ
+- wait:
+  - 15
+- print:
+  - 女性教員
+  - 家ではよく、
+- wait:
+  - 25
+- print:
+  - 女性教員
+  - なかよし部の話を聞いてくるじゃない？
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_153
+- face:
+  - 7112
+  - 4
+- print:
+  - マリア
+  - それは、
+- wait:
+  - 25
+- print:
+  - マリア
+  - だって、
+- wait:
+  - 25
+- print:
+  - マリア
+  - 学院の正義を守る立場として……
+- touch: *o0
+- focus:
+  - 3211
+- bust:
+  - 3211
+  - 0
+- vo:
+  - vo_adv_5064007_154
+- face:
+  - 3211
+  - 4
+- nod:
+  - 3211
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 女性教員
+  - あんたねえ、
+- wait:
+  - 25
+- print:
+  - 女性教員
+  - そんな堅苦しいことばかり言ってるから、
+- wait:
+  - 40
+- print:
+  - 女性教員
+  - >2-
+
+    『鋼の聖女』なんて恥ずかしい仇名付けられちゃうのよ。
+- wait:
+  - 80
+- print:
+  - 女性教員
+  - >2-
+
+    大丈夫？　
+- wait:
+  - 40
+- print:
+  - 女性教員
+  - ちゃんと
+- wait:
+  - 15
+- print:
+  - 女性教員
+  - 周りのみんなと仲良くできてる？
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_155
+- face:
+  - 7112
+  - 4
+- eye_open:
+  - False
+- print:
+  - マリア
+  - ……しょーがないじゃん。
+- wait:
+  - 30
+- print:
+  - マリア
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - マリア
+  - キリッてしてなきゃ、
+- wait:
+  - 20
+- print:
+  - マリア
+  - >2-
+
+    誰も生徒会の言うことなんか聞いてくれないんだから。
+- touch: *o0
+- focus:
+  - 3211
+- bust:
+  - 3211
+  - 0
+- vo:
+  - vo_adv_5064007_156
+- face:
+  - 3211
+  - 4
+- print:
+  - 女性教員
+  - どうせアレでしょう？
+- wait:
+  - 35
+- print:
+  - 女性教員
+  - >2-
+
+    自分と同じ一匹狼だと思ってた人に、
+- wait:
+  - 50
+- print:
+  - 女性教員
+  - >2-
+
+    最近お友達ができたもんだから
+- wait:
+  - 35
+- print:
+  - 女性教員
+  - 面白くなかったんでしょ？
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_157
+- face:
+  - 7112
+  - 3
+- print:
+  - マリア
+  - そっ……
+- wait:
+  - 15
+- print:
+  - マリア
+  - >2-
+
+    そういうのじゃないもん。
+- wait:
+  - 20
+- print:
+  - マリア
+  - 正義の公務だもん。
+- touch: *o0
+- focus:
+  - 3211
+- bust:
+  - 3211
+  - 0
+- vo:
+  - vo_adv_5064007_158
+- face:
+  - 3211
+  - 1
+- print:
+  - 女性教員
+  - 本音と建前。
+- wait:
+  - 55
+- print:
+  - 女性教員
+  - >2-
+
+    どちらも嘘ではないのでしょうね。
+- wait:
+  - 65
+- print:
+  - 女性教員
+  - >2
+
+- face:
+  - 3211
+  - 2
+- print:
+  - 女性教員
+  - あなたも大人になったわ、
+- wait:
+  - 45
+- print:
+  - 女性教員
+  - ほほほ。
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_159
+- face:
+  - 7112
+  - 6
+- print:
+  - マリア
+  - …………
+- touch: *o0
+- focus:
+  - 3211
+- bust:
+  - 3211
+  - 0
+- vo:
+  - vo_adv_5064007_160
+- face:
+  - 3211
+  - 1
+- nod:
+  - 3211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 女性教員
+  - で、
+- wait:
+  - 25
+- print:
+  - 女性教員
+  - どうするの？
+- wait:
+  - 35
+- print:
+  - 女性教員
+  - >2-
+
+    このままいけば勝負は
+- wait:
+  - 30
+- print:
+  - 女性教員
+  - あんたたちの勝ちみたいだけど。
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_161
+- face:
+  - 7112
+  - 6
+- emotion:
+  - question1_R
+  - 7112
+  - 115
+  - 450
+  - se_adv_emote_question_01
+- print:
+  - マリア
+  - は？
+- wait:
+  - 20
+- print:
+  - マリア
+  - >2-
+
+    これのどこが勝ちなの？
+- wait:
+  - 35
+- print:
+  - マリア
+  - >2
+
+- face:
+  - 7112
+  - 4
+- print:
+  - マリア
+  - 勝ってるのなんて点数だけじゃん。
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_162
+- face:
+  - 7112
+  - 4
+- print:
+  - マリア
+  - こんな、
+- wait:
+  - 25
+- print:
+  - マリア
+  - 学校中みんな、
+- wait:
+  - 25
+- print:
+  - マリア
+  - なかよし部なかよし部言ってて……
+- wait:
+  - 45
+- print:
+  - マリア
+  - >2-
+
+    こんな空気で、
+- wait:
+  - 25
+- eye_open:
+  - False
+- print:
+  - マリア
+  - いまさら廃部だ解体だって言えるわけない……
+- touch: *o0
+- eye_open:
+  - true
+- focus:
+  - 3211
+- bust:
+  - 3211
+  - 0
+- vo:
+  - vo_adv_5064007_163
+- face:
+  - 3211
+  - 4
+- print:
+  - 女性教員
+  - あんたも色んなところから板挟みでかわいそうにねえ。
+- wait:
+  - 80
+- print:
+  - 女性教員
+  - >2
+
+- face:
+  - 3211
+  - 1
+- print:
+  - 女性教員
+  - 保護者会やＯＧ会のことだったら
+- wait:
+  - 50
+- print:
+  - 女性教員
+  - 気にしなくていいわ、
+- wait:
+  - 35
+- print:
+  - 女性教員
+  - >2-
+
+    教職員一同で
+- wait:
+  - 40
+- print:
+  - 女性教員
+  - 適当に落ち着かせておくから。
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_164
+- face:
+  - 7112
+  - 6
+- print:
+  - マリア
+  - お母さん……
+- touch: *o0
+- focus:
+  - 3211
+- bust:
+  - 3211
+  - 0
+- vo:
+  - vo_adv_5064007_165
+- face:
+  - 3211
+  - 1
+- nod:
+  - 3211
+- print:
+  - 女性教員
+  - あなたは
+- wait:
+  - 20
+- print:
+  - 女性教員
+  - 自分のしたいようにしなさい、
+- wait:
+  - 45
+- print:
+  - 女性教員
+  - シスター・マリア。
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_166
+- face:
+  - 7112
+  - 1
+- print:
+  - マリア
+  - ……感謝します、
+- wait:
+  - 15
+- print:
+  - マリア
+  - マザー
+- wait:
+  - 45
+- print:
+  - マリア
+  - >2-
+
+    解体令はひとまず保留とします。
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_167
+- face:
+  - 7112
+  - 2
+- nod:
+  - 7112
+- se:
+  - se_adv_step_dirt_move_01
+- print:
+  - マリア
+  - しかし、
+- wait:
+  - 30
+- print:
+  - マリア
+  - 私は私の正義を守るため、
+- wait:
+  - 50
+- print:
+  - マリア
+  - >2-
+
+    これからも
+- wait:
+  - 25
+- print:
+  - マリア
+  - 学内の悪と戦いつづけます！
+- touch: *o0
+- focus:
+  - 3211
+- bust:
+  - 3211
+  - 0
+- vo:
+  - vo_adv_5064007_168
+- face:
+  - 3211
+  - 2
+- print:
+  - 女性教員
+  - ああ、
+- wait:
+  - 10
+- print:
+  - 女性教員
+  - 主よ。
+- wait:
+  - 25
+- print:
+  - 女性教員
+  - >2-
+
+    罪深き異端児を赦し続ける我ら母子に、
+- wait:
+  - 70
+- eye_open:
+  - False
+- print:
+  - 女性教員
+  - どうか安けき幸を与えたまえ。
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_169
+- face:
+  - 7112
+  - 2
+- eye_open:
+  - False
+- print:
+  - マリア
+  - ……たまえ。
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 102912
+  - C
+  - 1
+- fadein:
+  - 102912
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M189
+- focus:
+  - 102912
+- bust:
+  - 102912
+  - 0
+- vo:
+  - vo_adv_5064007_170
+- face:
+  - 102912
+  - 1
+- print:
+  - ノゾミ
+  - ようこそ、
+- wait:
+  - 5
+- print:
+  - ノゾミ
+  - 戦場へ。
+- wait:
+  - 35
+- print:
+  - ノゾミ
+  - >2-
+
+    チエル、
+- wait:
+  - 20
+- face:
+  - 102912
+  - 2
+- print:
+  - ノゾミ
+  - はい
+- wait:
+  - 15
+- print:
+  - ノゾミ
+  - マイク。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 102912
+  - 30
+- se:
+  - se_adv_body_handshake_01
+- chara_full:
+  - 116311
+  - L
+  - 6
+- chara_full:
+  - 116411
+  - C
+  - 1
+- chara_full:
+  - 116211
+  - R
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 0
+- vo:
+  - vo_adv_5064007_171
+- face:
+  - 116311
+  - 6
+- print:
+  - チエル
+  - 受けとりました。
+- wait:
+  - 45
+- print:
+  - チエル
+  - >2-
+
+    これが
+- wait:
+  - 25
+- print:
+  - チエル
+  - ノゾミンの想い……
+- wait:
+  - 50
+- face:
+  - 116311
+  - 1
+- print:
+  - チエル
+  - なんて熱くて重たいんだろう。
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_172
+- face:
+  - 116211
+  - 1
+- print:
+  - クロエ
+  - 気のせいじゃね。
+- wait:
+  - 20
+- print:
+  - クロエ
+  - わりとフツーだぞコレ。
+- touch: *o0
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 0
+- vo:
+  - vo_adv_5064007_173
+- face:
+  - 116311
+  - 1
+- print:
+  - チエル
+  - ノゾミンはファンの子を呼ぶとき、
+- wait:
+  - 25
+- print:
+  - チエル
+  - だいたい「ちゃん」付けなんです。
+- wait:
+  - 20
+- print:
+  - チエル
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - チエル
+  - でもステージに立つ仲間に対しては
+- wait:
+  - 35
+- print:
+  - チエル
+  - 「チカ」
+- wait:
+  - 15
+- print:
+  - チエル
+  - 「ツムギ」
+- wait:
+  - 5
+- print:
+  - チエル
+  - って呼び捨て。
+- wait:
+  - 30
+- print:
+  - チエル
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - チエル
+  - そして今
+- wait:
+  - 20
+- print:
+  - チエル
+  - チエルはなんて呼ばれました？　
+- wait:
+  - 40
+- print:
+  - チエル
+  - そういうことですよ
+- wait:
+  - 20
+- print:
+  - チエル
+  - クロエ。
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_174
+- face:
+  - 116211
+  - 4
+- print:
+  - クロエ
+  - ユニ先輩……
+- wait:
+  - 25
+- print:
+  - クロエ
+  - あいつ人生楽しそうっすね……
+- touch: *o0
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 0
+- vo:
+  - vo_adv_5064007_175
+- face:
+  - 116411
+  - 2
+- emotion:
+  - notice1_L
+  - 116411
+  - -70
+  - 465
+  - se_adv_emote_common_01
+- print:
+  - ユニ
+  - おお、
+- wait:
+  - 25
+- print:
+  - ユニ
+  - 見たまえ諸君！
+- wait:
+  - 45
+- print:
+  - ユニ
+  - >2-
+
+    客席にアキノ君やシノブ君の姿があるぞ。
+- wait:
+  - 80
+- print:
+  - ユニ
+  - >2-
+
+    満場のユニちゃんズコールを聞きつけて
+- wait:
+  - 35
+- print:
+  - ユニ
+  - 足を運んでくれたのだな！
+- touch: *o0
+- face:
+  - 116211
+  - 6
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 0
+- vo:
+  - vo_adv_5064007_176
+- face:
+  - 116311
+  - 6
+- print:
+  - チエル
+  - てゆか、
+- wait:
+  - 10
+- print:
+  - チエル
+  - あそこ見ろです！
+- wait:
+  - 25
+- print:
+  - チエル
+  - >2-
+
+    リトリリちゃんたちも来てくれてますよ、
+- wait:
+  - 30
+- print:
+  - チエル
+  - >2
+
+- face:
+  - 116311
+  - 1
+- print:
+  - チエル
+  - 招待状出しといて良かったですね！
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_177
+- face:
+  - 116211
+  - 6
+- print:
+  - クロエ
+  - てかさ……
+- wait:
+  - 20
+- print:
+  - クロエ
+  - あの柱の陰で群衆に怖気づきながら
+- wait:
+  - 35
+- print:
+  - クロエ
+  - >2-
+
+    出たり引っ込んだりしてる紫の帽子、
+- wait:
+  - 50
+- print:
+  - クロエ
+  - あれアオイじゃね？
+- touch: *o0
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 0
+- vo:
+  - vo_adv_5064007_178
+- face:
+  - 116311
+  - 1
+- eye_open:
+  - False
+- print:
+  - チエル
+  - みんなの熱い想いが
+- wait:
+  - 45
+- print:
+  - チエル
+  - チエルの中に入ってくる……
+- wait:
+  - 55
+- print:
+  - チエル
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - チエル
+  - これがステージ……
+- wait:
+  - 35
+- print:
+  - チエル
+  - これが
+- wait:
+  - 20
+- print:
+  - チエル
+  - アイドル……！
+- wait:
+  - 35
+- print:
+  - チエル
+  - >2-
+
+    ノゾミン、
+- wait:
+  - 10
+- print:
+  - チエル
+  - 分かりました！　
+- wait:
+  - 25
+- face:
+  - 116311
+  - 7
+- print:
+  - チエル
+  - こういうことだったんですね！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 102912
+  - C
+  - 1
+- fadein:
+  - 102912
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102912
+- bust:
+  - 102912
+  - 0
+- vo:
+  - vo_adv_5064007_179
+- face:
+  - 102912
+  - 1
+- nod:
+  - 102912
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ノゾミ
+  - う、
+- wait:
+  - 5
+- print:
+  - ノゾミ
+  - うん、
+- wait:
+  - 10
+- print:
+  - ノゾミ
+  - そうだね……
+- wait:
+  - 35
+- face:
+  - 102912
+  - 6
+- print:
+  - ノゾミ
+  - 何が？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 102912
+  - 30
+- chara_full:
+  - 116311
+  - L
+  - 1
+- chara_full:
+  - 116411
+  - C
+  - 7
+- chara_full:
+  - 116211
+  - R
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 0
+- vo:
+  - vo_adv_5064007_180
+- face:
+  - 116411
+  - 7
+- emotion:
+  - twinkle1_R
+  - 116411
+  - -105
+  - 410
+  - se_adv_emote_twinkle_01
+- print:
+  - ユニ
+  - で？　
+- wait:
+  - 5
+- print:
+  - ユニ
+  - で？　
+- wait:
+  - 25
+- print:
+  - ユニ
+  - チエル君、
+- wait:
+  - 20
+- print:
+  - ユニ
+  - ぼくらは何をすればいいのだね！
+- touch: *o0
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 0
+- vo:
+  - vo_adv_5064007_181
+- face:
+  - 116311
+  - 4
+- print:
+  - チエル
+  - うーん
+- wait:
+  - 25
+- print:
+  - チエル
+  - っと……
+- wait:
+  - 25
+- print:
+  - チエル
+  - >2-
+
+    完全ノープランだったんですけど、
+- wait:
+  - 30
+- print:
+  - チエル
+  - そうですねぇ。
+- wait:
+  - 40
+- print:
+  - チエル
+  - >2
+
+- face:
+  - 116311
+  - 1
+- print:
+  - チエル
+  - じゃあ、
+- wait:
+  - 5
+- print:
+  - チエル
+  - まあ、
+- wait:
+  - 20
+- print:
+  - チエル
+  - いつも放課後のカラオケでやってるカンジで
+- wait:
+  - 45
+- face:
+  - 116311
+  - 7
+- print:
+  - チエル
+  - 適当に！
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_182
+- face:
+  - 116211
+  - 4
+- print:
+  - クロエ
+  - りょー……
+- wait:
+  - 30
+- print:
+  - クロエ
+  - もいいわ何でも。
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2.5
+- fadeout_all:
+  - 30
+- white_out:
+  - 1
+  - 1
+- bg_color:
+  - 255
+  - 255
+  - 255
+- still:
+  - 506400701
+- wait:
+  - 15
+- se:
+  - se_adv_baseball_cheer_03
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- white_in: *o0
+- window_visible:
+  - true
+- bgm:
+  - bgm_M457
+  - 0
+  - 0
+  - 1
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 1
+- vo:
+  - vo_adv_5064007_183
+- face:
+  - 116311
+  - 7
+- print:
+  - チエル
+  - ちぇるるる〜ん♪　
+- wait:
+  - 60
+- print:
+  - チエル
+  - みんな
+- wait:
+  - 10
+- print:
+  - チエル
+  - お待たせー！
+- wait:
+  - 35
+- print:
+  - チエル
+  - >2
+
+- face:
+  - 116311
+  - 1
+- print:
+  - チエル
+  - ただいまご紹介に預かっちゃいました、
+- wait:
+  - 45
+- print:
+  - チエル
+  - >2-
+
+    ご存知テレ女のアイドル、
+- wait:
+  - 45
+- print:
+  - チエル
+  - 私たち〜……
+- touch: *o0
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 1
+- vo:
+  - vo_adv_5064007_184
+- face:
+  - 116411
+  - 2
+- print:
+  - ユニ
+  - ユニだ。
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 1
+- vo:
+  - vo_adv_5064007_185
+- face:
+  - 116211
+  - 2
+- print:
+  - クロエ
+  - クロエ。
+- touch: *o0
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 1
+- vo:
+  - vo_adv_5064007_186
+- face:
+  - 116311
+  - 2
+- print:
+  - チエル
+  - ちえるんでっす☆
+- wait:
+  - 40
+- print:
+  - チエル
+  - >2-
+
+    三人合わせて〜……
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5064007_187
+- multi_talk:
+  - 116211:116311:116411
+- face:
+  - 1
+  - 1
+- print:
+  - なかよし部
+  - なかよし部です♪
+- touch: *o0
+- focus:
+  - 3012
+- bust:
+  - 3012
+  - 1
+- vo:
+  - vo_adv_5064007_188
+- face:
+  - 3012
+  - 2
+- print:
+  - チエルの友人
+  - 声が小さいぞー！　
+- wait:
+  - 35
+- print:
+  - チエルの友人
+  - びびってんのか、
+- wait:
+  - 15
+- print:
+  - チエルの友人
+  - なかよし部ー！
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 1
+- vo:
+  - vo_adv_5064007_189
+- face:
+  - 116211
+  - 3
+- print:
+  - クロエ
+  - あ？　
+- wait:
+  - 20
+- print:
+  - クロエ
+  - 上等じゃん。
+- wait:
+  - 50
+- print:
+  - クロエ
+  - >2-
+
+    おめーらこそ、
+- wait:
+  - 35
+- print:
+  - クロエ
+  - まだまだ暴れ足りないンじゃないのかァー！
+- touch: *o0
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 1
+- vo:
+  - vo_adv_5064007_190
+- face:
+  - 116311
+  - 1
+- print:
+  - チエル
+  - 前座の人がだいぶ温めてくれたみたいだけど、
+- wait:
+  - 55
+- print:
+  - チエル
+  - >2-
+
+    今日のライブは
+- wait:
+  - 25
+- face:
+  - 116311
+  - 2
+- print:
+  - チエル
+  - こっからが本番だからねー！
+- touch: *o0
+- focus:
+  - 102912
+- bust:
+  - 102912
+  - 1
+- vo:
+  - vo_adv_5064007_191
+- face:
+  - 102912
+  - 1
+- print:
+  - ノゾミ
+  - お？　
+- wait:
+  - 20
+- print:
+  - ノゾミ
+  - 強気〜！
+- touch: *o0
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 1
+- vo:
+  - vo_adv_5064007_192
+- face:
+  - 116411
+  - 2
+- print:
+  - ユニ
+  - 当然だ。
+- wait:
+  - 35
+- print:
+  - ユニ
+  - 我々はまだ青春を諦めない。
+- touch: *o0
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 1
+- vo:
+  - vo_adv_5064007_193
+- face:
+  - 116411
+  - 1
+- print:
+  - ユニ
+  - 聞いているかね、
+- wait:
+  - 30
+- print:
+  - ユニ
+  - 生徒会長。
+- wait:
+  - 50
+- print:
+  - ユニ
+  - >2-
+
+    当初の約定に則れば、
+- wait:
+  - 55
+- print:
+  - ユニ
+  - >2-
+
+    今から我々が逆転してみせれば
+- wait:
+  - 60
+- print:
+  - ユニ
+  - 例の件は撤廃となるのだろう？
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 1
+- vo:
+  - vo_adv_5064007_194
+- face:
+  - 7112
+  - 2
+- print:
+  - マリア
+  - ……ええ。
+- wait:
+  - 15
+- print:
+  - マリア
+  - >2-
+
+    あなた方が真に必要とされているなら
+- wait:
+  - 50
+- print:
+  - マリア
+  - 然るべき得票が入るはずです。
+- wait:
+  - 50
+- print:
+  - マリア
+  - >2-
+
+    そのときは
+- wait:
+  - 20
+- print:
+  - マリア
+  - 粛々と結果に従いましょう。
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 1
+- vo:
+  - vo_adv_5064007_195
+- face:
+  - 116211
+  - 2
+- print:
+  - クロエ
+  - おーし、
+- wait:
+  - 25
+- print:
+  - クロエ
+  - 全員聞いたなー？
+- wait:
+  - 40
+- print:
+  - クロエ
+  - >2-
+
+    あんたら証人だかんなー？
+- touch: *o0
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 1
+- vo:
+  - vo_adv_5064007_196
+- face:
+  - 116411
+  - 7
+- print:
+  - ユニ
+  - 端的に換言すれば、
+- wait:
+  - 50
+- print:
+  - ユニ
+  - ユニちゃんズは永遠に不滅！
+- touch: *o0
+- choice:
+  - なっかよし部！　なっかよし部！
+  - 5
+- tag:
+  - 5
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 1
+- vo:
+  - vo_adv_5064007_197
+- face:
+  - 116311
+  - 2
+- print:
+  - チエル
+  - それじゃあ一曲目、
+- wait:
+  - 30
+- print:
+  - チエル
+  - 行くよー！　
+- wait:
+  - 30
+- print:
+  - チエル
+  - せぇーのっ！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5064007_198
+- multi_talk:
+  - 116211:116311:116411
+- face:
+  - 1
+  - 1
+- print:
+  - なかよし部
+  - 『無敵ドリーミング』！
+- touch: *o0
+- window_visible:
+  - false
+- effect_delete:
+  - 0022
+  - 15
+- bgm:
+  - stop
+  - 1
+  - 1
+- se_pause:
+  - amb_adv_themepark_01
+  - 1
+- se_pause:
+  - amb_adv_crowd_concert_02
+  - 1
+- black_out:
+  - 1
+  - 1
+- bg_color:
+  - 0
+  - 0
+  - 0
+- still:
+  - end
+- black_out:
+  - 1
+  - 0
+- movie:
+  - 506400701
+- black_out:
+  - 1
+  - 1
+- background:
+  - 500732
+- wait:
+  - 15
+- black_in: *o0
+- se:
+  - amb_adv_wind_01
+- chara_full:
+  - 116311
+  - L
+  - 1
+- chara_full:
+  - 116411
+  - C
+  - 1
+- chara_full:
+  - 116211
+  - R
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M415
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 0
+- vo:
+  - vo_adv_5064007_199
+- face:
+  - 116311
+  - 1
+- print:
+  - チエル
+  - 聖学祭も終わって。
+- wait:
+  - 35
+- print:
+  - チエル
+  - >2-
+
+    後夜祭（夜じゃないバージョン）も終わって。
+- wait:
+  - 55
+- print:
+  - チエル
+  - >2
+
+- eye_open:
+  - False
+- bgm:
+  - stop
+  - 5.4
+- print:
+  - チエル
+  - ついに今日という楽しい一日は終わってしまいました──
+- touch: *o0
+- bgm:
+  - bgm_M345
+  - 0
+  - 0
+  - 1
+  - 0.3
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 0
+- vo:
+  - vo_adv_5064007_200
+- face:
+  - 116311
+  - 1
+- eye_open:
+  - True
+- nod:
+  - 116311
+- print:
+  - チエル
+  - ─
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - チエル
+  - ─なぁんてことはありません！
+- wait:
+  - 30
+- print:
+  - チエル
+  - >2-
+
+    さあユニ＆クロエ先輩、
+- wait:
+  - 30
+- print:
+  - チエル
+  - >2-
+
+    このままいつものお店へ寄って
+- wait:
+  - 25
+- face:
+  - 116311
+  - 2
+- print:
+  - チエル
+  - 祝勝会としゃれ込みますよ！
+- touch: *o0
+- choice:
+  - しゃれ込もう！
+  - 7
+- tag:
+  - 7
+- face:
+  - 116311
+  - 1
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 0
+- vo:
+  - vo_adv_5064007_201
+- face:
+  - 116411
+  - 4
+- print:
+  - ユニ
+  - いや
+- wait:
+  - 25
+- print:
+  - ユニ
+  - 後輩たち、
+- wait:
+  - 50
+- print:
+  - ユニ
+  - 今日の青春を続けるにやぶさかではない。
+- wait:
+  - 85
+- print:
+  - ユニ
+  - >2-
+
+    だが待ってほしい、
+- wait:
+  - 45
+- print:
+  - ユニ
+  - >2-
+
+    ぼくは先の会で
+- wait:
+  - 45
+- eye_open:
+  - False
+- print:
+  - ユニ
+  - 胃に固形食物を入れすぎた……
+- wait:
+  - 70
+- eye_open:
+  - True
+- print:
+  - ユニ
+  - これ以上は、
+- wait:
+  - 40
+- eye_open:
+  - False
+- print:
+  - ユニ
+  - うぷ。
+- touch: *o0
+- eye_open:
+  - true
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_202
+- face:
+  - 116211
+  - 6
+- emotion:
+  - sweat1_R
+  - 116211
+  - 85
+  - 495
+  - se_adv_emote_sweat_01
+- print:
+  - クロエ
+  - 胃よわ。
+- wait:
+  - 30
+- print:
+  - クロエ
+  - >2-
+
+    ユニ先輩、
+- wait:
+  - 5
+- print:
+  - クロエ
+  - 乾き物のスナックちょいちょい摘んだだけじゃん。
+- touch: *o0
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 0
+- vo:
+  - vo_adv_5064007_203
+- face:
+  - 116311
+  - 2
+- nod:
+  - 116311
+- print:
+  - チエル
+  - じゃあ夕食カットして、
+- wait:
+  - 15
+- print:
+  - チエル
+  - カラオケ行きましょう
+- wait:
+  - 10
+- print:
+  - チエル
+  - カラオケ！
+- wait:
+  - 30
+- print:
+  - チエル
+  - >2-
+
+    セレモニーステージのセトリ、
+- wait:
+  - 15
+- print:
+  - チエル
+  - >2-
+
+    頭から桃尻まで忠実になぞり倒しましょう！
+- touch: *o0
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 0
+- vo:
+  - vo_adv_5064007_204
+- face:
+  - 116411
+  - 6
+- print:
+  - ユニ
+  - おいおいチエル君、
+- wait:
+  - 30
+- print:
+  - ユニ
+  - はしたないぞ。
+- wait:
+  - 35
+- print:
+  - ユニ
+  - >2-
+
+    ちゃんと「お」を付けたま──
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 7112
+  - C
+  - 4
+- fadein:
+  - 7112
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_205
+- face:
+  - 7112
+  - 4
+- print:
+  - マリア
+  - …………
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 7112
+  - 30
+- chara_full:
+  - 116311
+  - LC
+  - 6
+- chara_full:
+  - 116411
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 0
+- vo:
+  - vo_adv_5064007_206
+- face:
+  - 116311
+  - 6
+- emotion:
+  - notice1_L
+  - 116311
+  - 0
+  - 530
+  - se_adv_emote_common_01
+- print:
+  - チエル
+  - あ、
+- wait:
+  - 10
+- print:
+  - チエル
+  - マリちゃん会長。
+- touch: *o0
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 0
+- vo:
+  - vo_adv_5064007_207
+- face:
+  - 116411
+  - 2
+- print:
+  - ユニ
+  - おやおや、
+- wait:
+  - 35
+- print:
+  - ユニ
+  - どうしたね鋼の聖女。
+- wait:
+  - 60
+- print:
+  - ユニ
+  - >2-
+
+    完敗を喫した相手に、
+- wait:
+  - 45
+- print:
+  - ユニ
+  - 潔く頭でも下げに来たかね。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 116211
+  - LC
+  - 4
+- chara_full:
+  - 7112
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_208
+- face:
+  - 116211
+  - 4
+- print:
+  - クロエ
+  - や、
+- wait:
+  - 5
+- print:
+  - クロエ
+  - 来たっていうか、
+- wait:
+  - 30
+- print:
+  - クロエ
+  - うちらより先にここいた気じゃん。
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_209
+- face:
+  - 116211
+  - 1
+- print:
+  - クロエ
+  - なに、
+- wait:
+  - 20
+- print:
+  - クロエ
+  - 誰か待ってんの。
+- touch: *o0
+- bgm:
+  - stop
+  - 5.2
+  - 1
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_210
+- face:
+  - 7112
+  - 1
+- print:
+  - マリア
+  - ……クロエ二年生。
+- wait:
+  - 35
+- print:
+  - マリア
+  - >2-
+
+    あなたの問いに答えます。
+- touch: *o0
+- bgm:
+  - bgm_M34
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_211
+- face:
+  - 7112
+  - 1
+- print:
+  - マリア
+  - 正義と風紀。
+- wait:
+  - 35
+- print:
+  - マリア
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - マリア
+  - 周囲からの突き上げ。
+- wait:
+  - 45
+- print:
+  - マリア
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - マリア
+  - 要因は様々に挙げられます。
+- wait:
+  - 60
+- eye_open:
+  - False
+- print:
+  - マリア
+  - しかし詰まるところ──
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_212
+- face:
+  - 7112
+  - 4
+- print:
+  - マリア
+  - ──私はうらやましかったのかもしれません。
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_213
+- face:
+  - 116211
+  - 6
+- emotion:
+  - question1_R
+  - 116211
+  - 125
+  - 450
+  - se_adv_emote_question_01
+- print:
+  - クロエ
+  - あ？　
+- wait:
+  - 20
+- print:
+  - クロエ
+  - なんて？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 116311
+  - C
+  - 6
+- fadein:
+  - 116311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 0
+- vo:
+  - vo_adv_5064007_214
+- face:
+  - 116311
+  - 6
+- print:
+  - チエル
+  - どうしたんですか
+- wait:
+  - 15
+- print:
+  - チエル
+  - 突然。
+- wait:
+  - 25
+- print:
+  - チエル
+  - >2-
+
+    クロエ先輩、
+- wait:
+  - 20
+- print:
+  - チエル
+  - 質問って何です？
+- wait:
+  - 35
+- print:
+  - チエル
+  - >2-
+
+    マリちゃん会長にいったい何を聞いたんです？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 116311
+  - 30
+- chara_full:
+  - 116211
+  - LC
+  - 6
+- chara_full:
+  - 7112
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_215
+- face:
+  - 116211
+  - 6
+- print:
+  - クロエ
+  - さあ……
+- wait:
+  - 40
+- print:
+  - クロエ
+  - >2
+
+- face:
+  - 116211
+  - 4
+- print:
+  - クロエ
+  - え、
+- wait:
+  - 5
+- print:
+  - クロエ
+  - なんだっけ、
+- wait:
+  - 20
+- print:
+  - クロエ
+  - うち何か聞いた？
+- wait:
+  - 30
+- print:
+  - クロエ
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - クロエ
+  - ごめ、
+- wait:
+  - 10
+- print:
+  - クロエ
+  - マジ覚えてない。
+- touch: *o0
+- eye_open:
+  - true
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_216
+- face:
+  - 7112
+  - 6
+- print:
+  - マリア
+  - ……
+- wait:
+  - 35
+- face:
+  - 7112
+  - 2
+- print:
+  - マリア
+  - そうですか。
+- wait:
+  - 55
+- print:
+  - マリア
+  - >2-
+
+    それはとてもあなたらしいですね。
+- wait:
+  - 55
+- print:
+  - マリア
+  - >2-
+
+    少し安心しました。
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_217
+- face:
+  - 116211
+  - 4
+- print:
+  - クロエ
+  - なに笑ろてんねん。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 116211
+  - 30
+- chara_full:
+  - 116411
+  - LC
+  - 1
+- fadein:
+  - 116411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 0
+- vo:
+  - vo_adv_5064007_218
+- face:
+  - 116411
+  - 1
+- print:
+  - ユニ
+  - シスター
+- wait:
+  - 35
+- print:
+  - ユニ
+  - >2-
+
+    すでに結果は出ているが、
+- wait:
+  - 45
+- print:
+  - ユニ
+  - あえて問おう。
+- touch: *o0
+- face:
+  - 7112
+  - 1
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 0
+- vo:
+  - vo_adv_5064007_219
+- face:
+  - 116411
+  - 1
+- nod:
+  - 116411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ユニ
+  - 我々なかよし部──
+- wait:
+  - 45
+- print:
+  - ユニ
+  - と呼ばれることもあるユニちゃんズは、
+- wait:
+  - 55
+- print:
+  - ユニ
+  - >2-
+
+    今から共に下校するところだ。
+- wait:
+  - 60
+- print:
+  - ユニ
+  - >2-
+
+    なにか問題はあるかね。
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_220
+- face:
+  - 7112
+  - 1
+- print:
+  - マリア
+  - 我が校にそのような部やズは存在しません。
+- wait:
+  - 45
+- print:
+  - マリア
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - マリア
+  - あなた方の行動を制限する規律も存在しません。
+- wait:
+  - 65
+- print:
+  - マリア
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - マリア
+  - なさりたいようになさればよろしいのではないですか。
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_221
+- face:
+  - 7112
+  - 1
+- print:
+  - マリア
+  - ──当面は。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 116411
+  - 30
+- chara_full:
+  - 116311
+  - LC
+  - 4
+- fadein:
+  - 116311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 0
+- vo:
+  - vo_adv_5064007_222
+- face:
+  - 116311
+  - 4
+- print:
+  - チエル
+  - いちいち一言要らん子ちゃんですねえ、
+- wait:
+  - 30
+- print:
+  - チエル
+  - あの人。
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_223
+- face:
+  - 7112
+  - 1
+- nod:
+  - 7112
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - マリア
+  - 用件はそれだけです。
+- wait:
+  - 30
+- print:
+  - マリア
+  - では失礼。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 116311
+  - 30
+- chara_full:
+  - 116211
+  - LC
+  - 6
+- fadein:
+  - 116211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_224
+- face:
+  - 116211
+  - 6
+- print:
+  - クロエ
+  - あ？
+- wait:
+  - 10
+- print:
+  - クロエ
+  - >2-
+
+    ちょーちょー、
+- wait:
+  - 5
+- print:
+  - クロエ
+  - マリア。
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_225
+- face:
+  - 7112
+  - 1
+- se:
+  - se_adv_step_concrete_move_01
+- print:
+  - マリア
+  - 何か？
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_226
+- face:
+  - 116211
+  - 1
+- nod:
+  - 116211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - クロエ
+  - いや、
+- wait:
+  - 10
+- print:
+  - クロエ
+  - 何かじゃなくて。
+- wait:
+  - 20
+- print:
+  - クロエ
+  - >2-
+
+    どこ行くつもりよ、
+- wait:
+  - 20
+- print:
+  - クロエ
+  - そっち学校じゃん。
+- wait:
+  - 30
+- print:
+  - クロエ
+  - >2-
+
+    もう帰り支度できてんのに、
+- wait:
+  - 25
+- print:
+  - クロエ
+  - 戻ってどーすんの。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 116211
+  - 30
+- chara_full:
+  - 116411
+  - LC
+  - 1
+- fadein:
+  - 116411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 0
+- vo:
+  - vo_adv_5064007_227
+- face:
+  - 116411
+  - 1
+- print:
+  - ユニ
+  - 大方、
+- wait:
+  - 30
+- print:
+  - ユニ
+  - 我々と肩を並べて下校するのが気まずいのだろう。
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_228
+- face:
+  - 7112
+  - 4
+- print:
+  - マリア
+  - …………
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 116411
+  - 30
+- chara_full:
+  - 116311
+  - LC
+  - 1
+- fadein:
+  - 116311
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 8
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 0
+- vo:
+  - vo_adv_5064007_229
+- face:
+  - 116311
+  - 1
+- print:
+  - チエル
+  - あ、
+- wait:
+  - 10
+- print:
+  - チエル
+  - そーなんですか？
+- wait:
+  - 25
+- print:
+  - チエル
+  - >2
+
+- face:
+  - 116311
+  - 2
+- print:
+  - チエル
+  - いいこと聞いちゃった、
+- wait:
+  - 25
+- face:
+  - 116311
+  - 2
+- print:
+  - チエル
+  - アッハ、
+- wait:
+  - 20
+- print:
+  - チエル
+  - そしたら罰ゲームですよ！
+- wait:
+  - 30
+- print:
+  - チエル
+  - >2-
+
+    マリちゃん会長、
+- wait:
+  - 15
+- bgm:
+  - bgm_M33
+  - 0
+  - 0
+  - 1
+- print:
+  - チエル
+  - 一緒にかーえりっましょ♪
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_230
+- face:
+  - 7112
+  - 6
+- emotion:
+  - surprise1_L
+  - 7112
+  - 145
+  - 500
+  - se_adv_emote_common_01
+- print:
+  - マリア
+  - ハ！？　
+- wait:
+  - 30
+- print:
+  - マリア
+  - 何を馬鹿げたこと……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 116411
+  - LC
+  - 2
+- chara_full:
+  - 116211
+  - RC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 0
+- vo:
+  - vo_adv_5064007_231
+- face:
+  - 116411
+  - 2
+- print:
+  - ユニ
+  - ふっ、
+- wait:
+  - 20
+- print:
+  - ユニ
+  - それはいい。
+- wait:
+  - 35
+- print:
+  - ユニ
+  - >2-
+
+    シスター、
+- wait:
+  - 25
+- print:
+  - ユニ
+  - 君には言ってやりたいことが山ほどある。
+- wait:
+  - 70
+- print:
+  - ユニ
+  - >2-
+
+    我々が三方を取り囲んでみっちり詰めてやろう。
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_232
+- face:
+  - 116211
+  - 2
+- nod:
+  - 116211
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - クロエ
+  - おし、
+- wait:
+  - 15
+- print:
+  - クロエ
+  - 決まりね。
+- wait:
+  - 30
+- print:
+  - クロエ
+  - >2-
+
+    じゃ、
+- wait:
+  - 10
+- print:
+  - クロエ
+  - あんたもカラオケ強制連行ってことで。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 116311
+  - LC
+  - 2
+- chara_full:
+  - 7112
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 0
+- vo:
+  - vo_adv_5064007_233
+- face:
+  - 116311
+  - 2
+- emotion:
+  - twinkle1_R
+  - 116311
+  - -65
+  - 490
+  - se_adv_emote_twinkle_01
+- print:
+  - チエル
+  - やったァー！
+- wait:
+  - 25
+- print:
+  - チエル
+  - >2-
+
+    今日のスポンサー大確保！　
+- wait:
+  - 30
+- print:
+  - チエル
+  - 朝まで無料カラ三昧ですよ！
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_234
+- face:
+  - 7112
+  - 6
+- print:
+  - マリア
+  - ちょっ……
+- wait:
+  - 10
+- print:
+  - マリア
+  - 待ちなさい、
+- wait:
+  - 20
+- print:
+  - マリア
+  - なんでそんなことに……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 116311
+  - 30
+- chara_full:
+  - 116411
+  - LC
+  - 2
+- fadein:
+  - 116411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 0
+- vo:
+  - vo_adv_5064007_235
+- face:
+  - 116411
+  - 2
+- print:
+  - ユニ
+  - シスター、
+- wait:
+  - 30
+- print:
+  - ユニ
+  - 自慢じゃないが我々はちょろいぞ。
+- wait:
+  - 60
+- print:
+  - ユニ
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - ユニ
+  - 出すものさえ出せばすべて御破算、
+- wait:
+  - 55
+- eye_open:
+  - True
+- print:
+  - ユニ
+  - 昨日の敵は今日の友だ。
+- wait:
+  - 65
+- print:
+  - ユニ
+  - >2-
+
+    端的に換言すれば、
+- wait:
+  - 50
+- print:
+  - ユニ
+  - おごれ。
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_236
+- face:
+  - 7112
+  - 4
+- emotion:
+  - question1_R
+  - 7112
+  - 115
+  - 450
+  - se_adv_emote_question_01
+- print:
+  - マリア
+  - はあ？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 116411
+  - 30
+- chara_full:
+  - 116211
+  - LC
+  - 1
+- fadein:
+  - 116211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_237
+- face:
+  - 116211
+  - 1
+- print:
+  - クロエ
+  - なに。
+- wait:
+  - 15
+- print:
+  - クロエ
+  - なんか文句あんの。
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_238
+- face:
+  - 7112
+  - 4
+- print:
+  - マリア
+  - いや、
+- wait:
+  - 20
+- print:
+  - マリア
+  - そういう問題ではなく……
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_239
+- face:
+  - 116211
+  - 4
+- print:
+  - クロエ
+  - じゃあ何。
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_240
+- face:
+  - 7112
+  - 4
+- eye_open:
+  - False
+- print:
+  - マリア
+  - その……
+- wait:
+  - 30
+- print:
+  - マリア
+  - なんというか……
+- wait:
+  - 55
+- print:
+  - マリア
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - マリア
+  - 私が入ると
+- wait:
+  - 30
+- print:
+  - マリア
+  - 集団の和が……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 116211
+  - 30
+- chara_full:
+  - 116311
+  - LC
+  - 6
+- fadein:
+  - 116311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 0
+- vo:
+  - vo_adv_5064007_241
+- face:
+  - 116311
+  - 6
+- print:
+  - チエル
+  - ああ、
+- wait:
+  - 15
+- print:
+  - チエル
+  - 空気悪くなるってことです？
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_242
+- face:
+  - 7112
+  - 4
+- nod:
+  - 7112
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - マリア
+  - ええ……
+- wait:
+  - 30
+- print:
+  - マリア
+  - まあ……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 116311
+  - L
+  - 6
+- chara_full:
+  - 116411
+  - C
+  - 6
+- chara_full:
+  - 116211
+  - R
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_243
+- face:
+  - 116211
+  - 6
+- emotion:
+  - question1_R
+  - 116211
+  - 125
+  - 450
+  - se_adv_emote_question_01
+- print:
+  - クロエ
+  - ハア？　
+- wait:
+  - 30
+- print:
+  - クロエ
+  - なに言ってんのあんた。
+- touch: *o0
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 0
+- vo:
+  - vo_adv_5064007_244
+- face:
+  - 116411
+  - 4
+- print:
+  - ユニ
+  - まったくだ、
+- wait:
+  - 35
+- print:
+  - ユニ
+  - いい加減にしたまえ。
+- wait:
+  - 45
+- print:
+  - ユニ
+  - >2-
+
+    どこまで我々を過小評価すれば気が済むのだね。
+- touch: *o0
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 0
+- vo:
+  - vo_adv_5064007_245
+- face:
+  - 116311
+  - 2
+- print:
+  - チエル
+  - ねー、
+- wait:
+  - 15
+- print:
+  - チエル
+  - ほんとそれ。
+- touch: *o0
+- face:
+  - 116311
+  - 1
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_246
+- face:
+  - 116211
+  - 2
+- nod:
+  - 116211
+- print:
+  - クロエ
+  - あのさあ。
+- wait:
+  - 30
+- print:
+  - クロエ
+  - >2-
+
+    あんた、
+- wait:
+  - 25
+- print:
+  - クロエ
+  - うちら誰だと思ってんの。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 116311
+  - LC
+  - 1
+- chara_full:
+  - 7112
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 4
+  - 1
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_247
+- face:
+  - 7112
+  - 4
+- print:
+  - マリア
+  - はあ。
+- wait:
+  - 35
+- print:
+  - マリア
+  - 誰なんですか。
+- touch: *o0
+- bgm:
+  - bgm_M343
+  - 0
+  - 0
+  - 0
+  - 0.3
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 0
+- vo:
+  - vo_adv_5064007_248
+- face:
+  - 116311
+  - 1
+- nod:
+  - 116311
+- print:
+  - チエル
+  - 泣く子も微笑む、
+- wait:
+  - 30
+- face:
+  - 116311
+  - 2
+- print:
+  - チエル
+  - 天下無敵のなかよし部ですよ！
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_249
+- face:
+  - 7112
+  - 6
+- print:
+  - マリア
+  - なかよし
+- wait:
+  - 50
+- print:
+  - マリア
+  - 部……
+- touch: *o0
+- choice:
+  - 仲良くなるための部！
+  - 9
+- tag:
+  - 9
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 116411
+  - C
+  - 7
+- fadein:
+  - 116411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116411
+- bust:
+  - 116411
+  - 0
+- vo:
+  - vo_adv_5064007_250
+- face:
+  - 116411
+  - 7
+- print:
+  - ユニ
+  - 然り。
+- wait:
+  - 30
+- print:
+  - ユニ
+  - >2-
+
+    その看板に偽りなしということを、
+- wait:
+  - 60
+- print:
+  - ユニ
+  - 今宵思い知らせてやる。
+- wait:
+  - 50
+- print:
+  - ユニ
+  - >2-
+
+    青春だコノヤロウ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 116411
+  - 30
+- chara_full:
+  - 116311
+  - LC
+  - 2
+- chara_full:
+  - 7112
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116311
+- bust:
+  - 116311
+  - 0
+- vo:
+  - vo_adv_5064007_251
+- face:
+  - 116311
+  - 2
+- nod:
+  - 116311
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - チエル
+  - ほら、
+- wait:
+  - 15
+- print:
+  - チエル
+  - ぽけーっとしてないで！
+- wait:
+  - 15
+- print:
+  - チエル
+  - >2-
+
+    行きますよ、
+- wait:
+  - 10
+- print:
+  - チエル
+  - かいちょー！
+- touch: *o0
+- face:
+  - 116311
+  - 1
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_252
+- face:
+  - 7112
+  - 4
+- emotion:
+  - sweat2_R
+  - 7112
+  - 75
+  - 530
+  - se_adv_emote_sweat_02
+- print:
+  - マリア
+  - えぇ……
+- wait:
+  - 30
+- print:
+  - マリア
+  - でも……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 116311
+  - 30
+- chara_full:
+  - 116211
+  - LC
+  - 2
+- fadein:
+  - 116211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_253
+- face:
+  - 116211
+  - 2
+- print:
+  - クロエ
+  - マリア。
+- wait:
+  - 30
+- print:
+  - クロエ
+  - >2-
+
+    こういう奴らなんだよ、
+- wait:
+  - 30
+- print:
+  - クロエ
+  - ぼちぼち観念しろし。
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_254
+- face:
+  - 7112
+  - 6
+- print:
+  - マリア
+  - …………
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_255
+- face:
+  - 7112
+  - 1
+- print:
+  - マリア
+  - ……
+- wait:
+  - 35
+- print:
+  - マリア
+  - いいでしょう。
+- wait:
+  - 25
+- print:
+  - マリア
+  - >2-
+
+    今日のところはお邪魔いたします。
+- wait:
+  - 35
+- print:
+  - マリア
+  - >2-
+
+    言いたいことが沢山あるのはお互いさまですので。
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_256
+- face:
+  - 116211
+  - 2
+- nod:
+  - 116211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - クロエ
+  - ん。
+- wait:
+  - 15
+- print:
+  - クロエ
+  - そーしとき。
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_257
+- face:
+  - 7112
+  - 2
+- print:
+  - マリア
+  - …………ありがとう。
+- touch: *o0
+- focus:
+  - 116211
+- bust:
+  - 116211
+  - 0
+- vo:
+  - vo_adv_5064007_258
+- face:
+  - 116211
+  - 6
+- emotion:
+  - question1_R
+  - 116211
+  - 125
+  - 450
+  - se_adv_emote_question_01
+- print:
+  - クロエ
+  - あ？　
+- wait:
+  - 25
+- print:
+  - クロエ
+  - なんか言った？
+- touch: *o0
+- focus:
+  - 7112
+- bust:
+  - 7112
+  - 0
+- vo:
+  - vo_adv_5064007_259
+- face:
+  - 7112
+  - 2
+- eye_open:
+  - False
+- print:
+  - マリア
+  - いいえ、
+- wait:
+  - 20
+- eye_open:
+  - True
+- print:
+  - マリア
+  - 何でもありません。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- bgm:
+  - stop
+  - 1
+- se_pause:
+  - amb_adv_wind_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

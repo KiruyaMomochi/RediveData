@@ -1,0 +1,3834 @@
+- title:
+  - 2部 第7章 第2話
+- outline:
+  - 部隊を集結させたゴウシンは、いよいよ玉座を奪うべくぺコリーヌに襲いかかるも、情報を得ていた【王宮騎士団（NIGHTMARE）】とキャルたちによって阻止され、地下道へと一時退却するのだった。
+- background:
+  - 500030
+- se:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 叛乱
+- chara_full:
+  - 106412
+  - L
+  - 1
+- chara_full:
+  - 103611
+  - RC
+  - 1
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - true
+- bgm:
+  - bgm_M408
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_2107002_000
+- face:
+  - 106412
+  - 6
+- emotion:
+  - question1_R
+  - 106412
+  - 120
+  - 395
+  - se_adv_emote_question_01
+- print:
+  - シェフィ
+  - あら？
+- wait:
+  - 35
+- print:
+  - シェフィ
+  - >2
+
+- face:
+  - 106412
+  - 2
+- print:
+  - シェフィ
+  - キョウカちゃん。
+- wait:
+  - 35
+- print:
+  - シェフィ
+  - >2-
+
+    偶然ね。
+- touch: &o0 []
+- focus:
+  - 103611
+- bust:
+  - 103611
+  - 0
+- vo:
+  - vo_adv_2107002_001
+- face:
+  - 103611
+  - 6
+- emotion:
+  - notice1_L
+  - 103611
+  - -80
+  - 475
+  - se_adv_emote_common_01
+- print:
+  - キョウカ
+  - えっ？
+- wait:
+  - 20
+- print:
+  - キョウカ
+  - >2-
+
+    あなた……
+- wait:
+  - 30
+- print:
+  - キョウカ
+  - シェフィさん……？
+- wait:
+  - 40
+- print:
+  - キョウカ
+  - >2
+
+- face:
+  - 103611
+  - 4
+- print:
+  - キョウカ
+  - こ、
+- wait:
+  - 15
+- print:
+  - キョウカ
+  - 言葉遣いが……
+- wait:
+  - 35
+- print:
+  - キョウカ
+  - 普通ですよ……？
+- touch: *o0
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_2107002_002
+- face:
+  - 106412
+  - 6
+- nod:
+  - 106412
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - シェフィ
+  - えっ！？
+- wait:
+  - 20
+- print:
+  - シェフィ
+  - >2-
+
+    そ、
+- wait:
+  - 25
+- print:
+  - シェフィ
+  - その……っ、
+- wait:
+  - 45
+- face:
+  - 106412
+  - 5
+- print:
+  - シェフィ
+  - これは、
+- wait:
+  - 30
+- print:
+  - シェフィ
+  - 事情があって……！
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- background:
+  - 500790
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_wind_01
+- place:
+  - 王宮周辺
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - >-
+    {0}たちが
+
+    街で買い物や情報収集などをしていた、その頃──
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- chara_full:
+  - 4312
+  - LC
+  - 1
+- chara_full:
+  - 4311
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- se:
+  - se_adv_stepadd_armor_heavy_01_move_01
+- bgm:
+  - bgm_M326
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 4312
+- bust:
+  - 4312
+  - 0
+- vo:
+  - vo_adv_2107002_003
+- face:
+  - 4312
+  - 1
+- print:
+  - 【黄金の手】隊長
+  - 議長！
+- wait:
+  - 30
+- print:
+  - 【黄金の手】隊長
+  - >2-
+
+    【黄金の手】部隊、
+- wait:
+  - 20
+- print:
+  - 【黄金の手】隊長
+  - 全員集結しました！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 2511
+  - RC
+  - 1
+- chara_full:
+  - 191411
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_2107002_004
+- face:
+  - 2511
+  - 1
+- print:
+  - 貴族
+  - 我が【リッチモンド商工会】が雇用した
+- wait:
+  - 30
+- print:
+  - 貴族
+  - >2-
+
+    傭兵たちや冒険者連中も、
+- wait:
+  - 60
+- print:
+  - 貴族
+  - すべて揃っておりますよ。
+- touch: *o0
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2107002_005
+- face:
+  - 191411
+  - 2
+- nod:
+  - 191411
+- se:
+  - se_adv_step_concrete_move_01
+- print:
+  - ゴウシン
+  - よろしい！
+- wait:
+  - 45
+- print:
+  - ゴウシン
+  - >2-
+
+    これだけの兵力があれば、
+- wait:
+  - 50
+- print:
+  - ゴウシン
+  - >2-
+
+    たとえ相手が前陛下であろうとも
+- wait:
+  - 60
+- print:
+  - ゴウシン
+  - 恐るるに足らんわ。
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_2107002_006
+- face:
+  - 2511
+  - 2
+- print:
+  - 貴族
+  - ええ、
+- wait:
+  - 35
+- print:
+  - 貴族
+  - 然様でございますとも。
+- touch: *o0
+- focus:
+  - 4312
+- bust:
+  - 4312
+  - 1
+- vo:
+  - vo_adv_2107002_007
+- face:
+  - 4312
+  - 1
+- print:
+  - 【黄金の手】隊長
+  - さすがゴウシン議長です！
+- touch: *o0
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2107002_008
+- face:
+  - 191411
+  - 2
+- print:
+  - ゴウシン
+  - フッフッフ……
+- wait:
+  - 55
+- print:
+  - ゴウシン
+  - >2-
+
+    面従腹背の屈辱も今日限りだ。
+- wait:
+  - 90
+- print:
+  - ゴウシン
+  - >2-
+
+    あとほんの数刻で、
+- wait:
+  - 30
+- print:
+  - ゴウシン
+  - この国のすべてが吾輩の物に……！
+- touch: *o0
+- focus:
+  - 4311
+- bust:
+  - 4311
+  - 1
+- vo:
+  - vo_adv_2107002_009
+- face:
+  - 4311
+  - 1
+- print:
+  - 【黄金の手】兵士
+  - 議長！
+- wait:
+  - 30
+- print:
+  - 【黄金の手】兵士
+  - >2-
+
+    まもなくユースティアナ陛下が、
+- wait:
+  - 20
+- print:
+  - 【黄金の手】兵士
+  - こちらへ参られる予定です！
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_2107002_010
+- face:
+  - 2511
+  - 1
+- print:
+  - 貴族
+  - 【王宮騎士団（NIGHTMARE）】の主力部隊は今朝がたから、
+- wait:
+  - 20
+- print:
+  - 貴族
+  - >2-
+
+    街道沿いの魔物駆除に向かっています。
+- wait:
+  - 50
+- print:
+  - 貴族
+  - >2
+
+- face:
+  - 2511
+  - 8
+- print:
+  - 貴族
+  - 議長を邪魔する者は、
+- wait:
+  - 35
+- print:
+  - 貴族
+  - 何人もありません。
+- touch: *o0
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2107002_011
+- face:
+  - 191411
+  - 2
+- print:
+  - ゴウシン
+  - よしよし、
+- wait:
+  - 30
+- print:
+  - ゴウシン
+  - 手筈通りだな。
+- wait:
+  - 60
+- print:
+  - ゴウシン
+  - >2
+
+- face:
+  - 191411
+  - 7
+- nod:
+  - 191411
+- print:
+  - ゴウシン
+  - …
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - ゴウシン
+  - …どぉれ。
+- wait:
+  - 60
+- print:
+  - ゴウシン
+  - >2-
+
+    事の始めにまずひとつ、
+- wait:
+  - 60
+- print:
+  - ゴウシン
+  - 兵たちに火をつけてやるとするか。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0040
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 4311
+  - L
+  - 1
+- chara_full:
+  - 811
+  - C
+  - 4
+- chara_full:
+  - 1011
+  - R
+  - 4
+- fadein_all:
+  - 30
+- se:
+  - se_adv_gaya_surprised_01
+- wait:
+  - 45
+- fadeout_all:
+  - 30
+- effect:
+  - 0040
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 191411
+  - C
+  - 3
+- fadein:
+  - 191411
+  - 30
+- change_window:
+  - 3
+- text_size:
+  - 28
+- window_visible:
+  - TRUE
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2107002_012
+- face:
+  - 191411
+  - 3
+- nod:
+  - 191411
+- se:
+  - se_adv_step_concrete_move_01
+- print:
+  - ゴウシン
+  - ──ウォッホン！
+- wait:
+  - 40
+- print:
+  - ゴウシン
+  - >2-
+
+    聞け、諸君！
+- touch: *o0
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2107002_013
+- face:
+  - 191411
+  - 3
+- print:
+  - ゴウシン
+  - これは革命である！
+- wait:
+  - 60
+- print:
+  - ゴウシン
+  - >2-
+
+    この国のため、
+- wait:
+  - 15
+- print:
+  - ゴウシン
+  - 我々は立たねばならぬ！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 25
+- window_visible:
+  - true
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2107002_014
+- face:
+  - 191411
+  - 4
+- print:
+  - ゴウシン
+  - 諸君らも気づいているであろう！
+- wait:
+  - 60
+- print:
+  - ゴウシン
+  - >2
+
+- face:
+  - 191411
+  - 3
+- print:
+  - ゴウシン
+  - テロリストごときをのさばらせ、
+- wait:
+  - 35
+- print:
+  - ゴウシン
+  - 復興もままならぬ現状では、
+- wait:
+  - 60
+- print:
+  - ゴウシン
+  - >2-
+
+    いずれランドソルは獣人どもや
+- wait:
+  - 55
+- print:
+  - ゴウシン
+  - 他国の連中に蹂躙されるさだめだ！
+- touch: *o0
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2107002_015
+- face:
+  - 191411
+  - 3
+- print:
+  - ゴウシン
+  - 未熟な小娘を玉座に据え、
+- wait:
+  - 50
+- print:
+  - ゴウシン
+  - 賢者が振り回されるなど愚の骨頂！
+- wait:
+  - 85
+- print:
+  - ゴウシン
+  - >2-
+
+    もはや吾輩には、
+- wait:
+  - 35
+- print:
+  - ゴウシン
+  - これを看過できぬ！
+- wait:
+  - 80
+- print:
+  - ゴウシン
+  - >2-
+
+    暗愚なる君主
+- wait:
+  - 40
+- print:
+  - ゴウシン
+  - ユースティアナを廃し、
+- wait:
+  - 40
+- print:
+  - ゴウシン
+  - この国を救済する！
+- touch: *o0
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2107002_016
+- face:
+  - 191411
+  - 3
+- nod:
+  - 191411
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - ゴウシン
+  - 繰り返す、
+- wait:
+  - 30
+- print:
+  - ゴウシン
+  - これは革命である！
+- wait:
+  - 55
+- print:
+  - ゴウシン
+  - >2
+
+- face:
+  - 191411
+  - 2
+- print:
+  - ゴウシン
+  - 吾輩の下に集った勇敢なる諸君よ！
+- wait:
+  - 85
+- print:
+  - ゴウシン
+  - >2-
+
+    諸君らが新たな、
+- wait:
+  - 50
+- print:
+  - ゴウシン
+  - この国の柱になるのだ！
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_2107002_017
+- face:
+  - 1
+  - 1
+- print:
+  - 兵士たち
+  - お……
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 3
+- text_size:
+  - 50
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_2107002_018
+- face:
+  - 1
+  - 1
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 兵士たち
+  - お
+- se:
+  - se_adv_armor_crowd_move_01
+- print:
+  - 兵士たち
+  - おおおぉーーーっ！！
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 1
+- vo:
+  - vo_adv_2107002_019
+- face:
+  - 2511
+  - 2
+- print:
+  - 貴族
+  - ゴウシンさま万歳！
+- wait:
+  - 45
+- print:
+  - 貴族
+  - >2-
+
+    新たなるランドソルの王に栄光あれ！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 40
+- window_visible:
+  - true
+- focus:
+  - 4311
+- bust:
+  - 4311
+  - 1
+- vo:
+  - vo_adv_2107002_020
+- face:
+  - 4311
+  - 1
+- print:
+  - 【黄金の手】兵士
+  - キング・ゴウシン！
+- se:
+  - se_adv_stepadd_armor_heavy_01_move_01
+- se:
+  - se_adv_cloth_move_hard_01
+- touch: *o0
+- focus:
+  - 4312
+- bust:
+  - 4312
+  - 1
+- vo:
+  - vo_adv_2107002_021
+- face:
+  - 4312
+  - 1
+- print:
+  - 【黄金の手】隊長
+  - キング・ゴウシン万歳っ！！
+- se:
+  - se_adv_stepadd_armor_heavy_01_move_01
+- se:
+  - se_adv_armor_helmet_01
+- touch: *o0
+- window_visible:
+  - FALSE
+- text_size:
+  - 23
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2107002_022
+- face:
+  - 191411
+  - 6
+- print:
+  - ゴウシン
+  - キング・ゴウシン……！
+- wait:
+  - 60
+- print:
+  - ゴウシン
+  - >2
+
+- face:
+  - 191411
+  - 2
+- print:
+  - ゴウシン
+  - そうだ！　
+- wait:
+  - 55
+- print:
+  - ゴウシン
+  - 吾輩がこの国の王になるのだ！
+- wait:
+  - 85
+- print:
+  - ゴウシン
+  - >2-
+
+    この吾輩がっ……！
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- fadeout:
+  - 191411
+  - 30
+- chara_full:
+  - 105812
+  - L
+  - 6
+- chara_full:
+  - 191411
+  - RC
+  - 2
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - TRUE
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_2107002_023
+- face:
+  - 105812
+  - 6
+- emotion:
+  - question1_R
+  - 105812
+  - 105
+  - 510
+  - se_adv_emote_question_01
+- print:
+  - ペコリーヌ
+  - あれっ？
+- wait:
+  - 25
+- print:
+  - ペコリーヌ
+  - >2-
+
+    ゴウシンさん。
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - >2-
+
+    みなさんを集めて、
+- wait:
+  - 25
+- print:
+  - ペコリーヌ
+  - どうしたんですか？
+- touch: *o0
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2107002_024
+- face:
+  - 191411
+  - 6
+- emotion:
+  - exclamation1_R
+  - 191411
+  - 15
+  - 710
+  - se_adv_emote_common_01
+- print:
+  - ゴウシン
+  - ……！
+- wait:
+  - 35
+- print:
+  - ゴウシン
+  - >2-
+
+    これはこれは、
+- wait:
+  - 30
+- print:
+  - ゴウシン
+  - 陛下。
+- wait:
+  - 45
+- print:
+  - ゴウシン
+  - >2
+
+- face:
+  - 191411
+  - 2
+- print:
+  - ゴウシン
+  - わざわざご足労いただき、
+- wait:
+  - 50
+- print:
+  - ゴウシン
+  - ありがとうございます。
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_2107002_025
+- face:
+  - 105812
+  - 2
+- print:
+  - ペコリーヌ
+  - いえいえ☆
+- wait:
+  - 30
+- print:
+  - ペコリーヌ
+  - >2-
+
+    大事なお話があるって聞いてますから。
+- wait:
+  - 60
+- print:
+  - ペコリーヌ
+  - >2
+
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - こんなに人が集まってるとは思いませんでしたけど……
+- touch: *o0
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2107002_026
+- face:
+  - 191411
+  - 2
+- print:
+  - ゴウシン
+  - フッフッ……
+- wait:
+  - 30
+- print:
+  - ゴウシン
+  - 話、
+- wait:
+  - 45
+- print:
+  - ゴウシン
+  - ですか。
+- wait:
+  - 60
+- print:
+  - ゴウシン
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - ゴウシン
+  - 話し合いで済めばよろしいのですが。
+- touch: *o0
+- bgm:
+  - stop
+  - 9
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2107002_027
+- face:
+  - 191411
+  - 2
+- eye_open:
+  - True
+- print:
+  - ゴウシン
+  - 吾輩の用件は、
+- wait:
+  - 45
+- print:
+  - ゴウシン
+  - 他でもありません
+- wait:
+  - 50
+- print:
+  - ゴウシン
+  - ──陛下。
+- touch: *o0
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2107002_028
+- face:
+  - 191411
+  - 1
+- nod:
+  - 191411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ゴウシン
+  - ……いや。
+- wait:
+  - 40
+- print:
+  - ゴウシン
+  - もはや陛下ではない。
+- wait:
+  - 80
+- print:
+  - ゴウシン
+  - >2
+
+- face:
+  - 191411
+  - 3
+- bgm:
+  - bgm_M167
+  - 0
+  - 0
+  - 1
+- print:
+  - ゴウシン
+  - ユースティアナ・フォン・アストライアよ！
+- wait:
+  - 65
+- print:
+  - ゴウシン
+  - >2-
+
+    大人しく、玉座を吾輩に明け渡すのだ！
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 3
+- text_size:
+  - 50
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_2107002_029
+- face:
+  - 1
+  - 1
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 兵士たち
+  - ─
+- se:
+  - se_adv_armor_crowd_move_01
+- print:
+  - 兵士たち
+  - ─おおおおぉっ！
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_2107002_030
+- face:
+  - 105812
+  - 3
+- print:
+  - ペコリーヌ
+  - ……。
+- wait:
+  - 50
+- print:
+  - ペコリーヌ
+  - >2-
+
+    つまり、
+- wait:
+  - 35
+- print:
+  - ペコリーヌ
+  - クーデター……
+- wait:
+  - 25
+- print:
+  - ペコリーヌ
+  - ということでしょうか。
+- touch: *o0
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2107002_031
+- face:
+  - 191411
+  - 3
+- nod:
+  - 191411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ゴウシン
+  - ようやく気付いたか、
+- wait:
+  - 25
+- print:
+  - ゴウシン
+  - この間抜けめ！
+- wait:
+  - 50
+- print:
+  - ゴウシン
+  - >2
+
+- face:
+  - 191411
+  - 2
+- print:
+  - ゴウシン
+  - だがもう遅い！
+- wait:
+  - 60
+- print:
+  - ゴウシン
+  - >2
+
+- face:
+  - 191411
+  - 3
+- print:
+  - ゴウシン
+  - 吾輩にはこれだけの兵力がついているのだからな！
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_2107002_032
+- face:
+  - 105812
+  - 3
+- eye_open:
+  - False
+- print:
+  - ペコリーヌ
+  - …………
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_2107002_033
+- face:
+  - 105812
+  - 3
+- eye_open:
+  - True
+- print:
+  - ペコリーヌ
+  - ……一つ、
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - 教えてください。
+- wait:
+  - 50
+- print:
+  - ペコリーヌ
+  - >2-
+
+    ゴウシンさんはこの国の王になって、
+- wait:
+  - 50
+- print:
+  - ペコリーヌ
+  - どうしたいんですか？
+- touch: *o0
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2107002_034
+- face:
+  - 191411
+  - 3
+- nod:
+  - 191411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ゴウシン
+  - 決まっておろう！
+- wait:
+  - 45
+- print:
+  - ゴウシン
+  - >2
+
+- face:
+  - 191411
+  - 2
+- print:
+  - ゴウシン
+  - この国を正しく治めるのよ、
+- wait:
+  - 65
+- face:
+  - 191411
+  - 3
+- print:
+  - ゴウシン
+  - 無能な貴様の代わりに！
+- touch: *o0
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2107002_035
+- face:
+  - 191411
+  - 3
+- print:
+  - ゴウシン
+  - 民衆の上に立つ者は、
+- wait:
+  - 60
+- print:
+  - ゴウシン
+  - それに相応しく
+- wait:
+  - 40
+- print:
+  - ゴウシン
+  - >2-
+
+    支配する能力を持つ大人でなくてはならん！
+- wait:
+  - 90
+- print:
+  - ゴウシン
+  - >2
+
+- face:
+  - 191411
+  - 6
+- print:
+  - ゴウシン
+  - それは誰だ！？
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 1
+- vo:
+  - vo_adv_2107002_036
+- face:
+  - 2511
+  - 2
+- print:
+  - 貴族
+  - 貴方さまに他なりません、
+- wait:
+  - 20
+- print:
+  - 貴族
+  - ゴウシン議長！
+- wait:
+  - 40
+- print:
+  - 貴族
+  - >2
+
+- face:
+  - 2511
+  - 8
+- print:
+  - 貴族
+  - いえ、
+- wait:
+  - 40
+- print:
+  - 貴族
+  - キング・ゴウシン！
+- touch: *o0
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2107002_037
+- face:
+  - 191411
+  - 2
+- nod:
+  - 191411
+- se:
+  - se_adv_step_concrete_move_01
+- print:
+  - ゴウシン
+  - その通り！
+- wait:
+  - 60
+- print:
+  - ゴウシン
+  - >2-
+
+    ならばこの国は、
+- wait:
+  - 35
+- print:
+  - ゴウシン
+  - 吾輩が支配してやるしかあるまい！
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_2107002_038
+- face:
+  - 105812
+  - 6
+- print:
+  - ペコリーヌ
+  - 支配してやる……
+- wait:
+  - 40
+- print:
+  - ペコリーヌ
+  - ですか。
+- touch: *o0
+- bgm:
+  - stop
+  - 8.5
+  - 1
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_2107002_039
+- face:
+  - 105812
+  - 4
+- nod:
+  - 105812
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ペコリーヌ
+  - ……すみません。
+- wait:
+  - 30
+- print:
+  - ペコリーヌ
+  - >2-
+
+    その答えでは、
+- wait:
+  - 30
+- print:
+  - ペコリーヌ
+  - 玉座をお譲りすることはできません。
+- touch: *o0
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2107002_040
+- face:
+  - 191411
+  - 3
+- print:
+  - ゴウシン
+  - あぁん？
+- touch: *o0
+- bgm:
+  - bgm_M388
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_2107002_041
+- face:
+  - 105812
+  - 6
+- print:
+  - ペコリーヌ
+  - もちろん、
+- wait:
+  - 30
+- print:
+  - ペコリーヌ
+  - 先祖から受け継いだ大切なものだってこともありますけど。
+- wait:
+  - 70
+- print:
+  - ペコリーヌ
+  - >2-
+
+    それだけじゃなくて……
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_2107002_042
+- face:
+  - 105812
+  - 6
+- print:
+  - ペコリーヌ
+  - 自分で、玉座についてみて。
+- wait:
+  - 50
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - 誰かの上に立つのって、
+- wait:
+  - 45
+- print:
+  - ペコリーヌ
+  - >2-
+
+    本当に大変なことだと……
+- wait:
+  - 40
+- print:
+  - ペコリーヌ
+  - あらためてわかりました。
+- wait:
+  - 50
+- print:
+  - ペコリーヌ
+  - >2
+
+- face:
+  - 105812
+  - 4
+- print:
+  - ペコリーヌ
+  - あちらを立てれば
+- wait:
+  - 30
+- print:
+  - ペコリーヌ
+  - こちらが立たずの繰り返しで……
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_2107002_043
+- face:
+  - 105812
+  - 4
+- print:
+  - ペコリーヌ
+  - 最近一緒にごはんを食べたひとからも、
+- wait:
+  - 60
+- print:
+  - ペコリーヌ
+  - >2
+
+- face:
+  - 105812
+  - 3
+- print:
+  - ペコリーヌ
+  - 「陛下は公平さが足りない」
+- wait:
+  - 30
+- face:
+  - 105812
+  - 4
+- print:
+  - ペコリーヌ
+  - って、
+- wait:
+  - 15
+- print:
+  - ペコリーヌ
+  - 怒られてばっかりです。
+- touch: *o0
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2107002_044
+- face:
+  - 191411
+  - 3
+- nod:
+  - 191411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ゴウシン
+  - フン！
+- wait:
+  - 30
+- print:
+  - ゴウシン
+  - >2
+
+- face:
+  - 191411
+  - 2
+- print:
+  - ゴウシン
+  - 誰だか知らんが、
+- wait:
+  - 30
+- print:
+  - ゴウシン
+  - 多少は的を射ているではないか？
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_2107002_045
+- face:
+  - 105812
+  - 4
+- print:
+  - ペコリーヌ
+  - ……でも……
+- wait:
+  - 30
+- print:
+  - ペコリーヌ
+  - >2-
+
+    人間には、
+- wait:
+  - 35
+- print:
+  - ペコリーヌ
+  - 公平を与え続けることなんて、
+- wait:
+  - 45
+- print:
+  - ペコリーヌ
+  - 絶対にできないんです。
+- wait:
+  - 45
+- print:
+  - ペコリーヌ
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - ペコリーヌ
+  - ううん。
+- wait:
+  - 35
+- eye_open:
+  - True
+- print:
+  - ペコリーヌ
+  - きっと
+- wait:
+  - 25
+- print:
+  - ペコリーヌ
+  - 神様にだって。
+- touch: *o0
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2107002_046
+- face:
+  - 191411
+  - 3
+- print:
+  - ゴウシン
+  - それは、
+- wait:
+  - 10
+- print:
+  - ゴウシン
+  - 貴様が無能であるからだ！
+- wait:
+  - 70
+- print:
+  - ゴウシン
+  - >2
+
+- face:
+  - 191411
+  - 2
+- print:
+  - ゴウシン
+  - 吾輩が支配者となった暁には、
+- wait:
+  - 55
+- print:
+  - ゴウシン
+  - >2-
+
+    ランドソルの民に完全なる平等を与えてやろうではないか！
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_2107002_047
+- face:
+  - 105812
+  - 3
+- print:
+  - ペコリーヌ
+  - 完全なる平等っていうのは……
+- wait:
+  - 55
+- print:
+  - ペコリーヌ
+  - 与えるんじゃなくて。
+- wait:
+  - 40
+- print:
+  - ペコリーヌ
+  - >2-
+
+    みなさんから権利や、
+- wait:
+  - 10
+- print:
+  - ペコリーヌ
+  - 自由を奪うことですよ。
+- wait:
+  - 70
+- print:
+  - ペコリーヌ
+  - >2-
+
+    恐怖でみなさんを押さえつけてた
+- wait:
+  - 40
+- print:
+  - ペコリーヌ
+  - 覇瞳皇帝と同じです。
+- touch: *o0
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2107002_048
+- face:
+  - 191411
+  - 3
+- print:
+  - ゴウシン
+  - ぬっ……
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_2107002_049
+- face:
+  - 105812
+  - 3
+- nod:
+  - 105812
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ペコリーヌ
+  - ゴウシンさん。
+- wait:
+  - 30
+- print:
+  - ペコリーヌ
+  - >2-
+
+    あなたを第二の覇瞳皇帝にするわけにはいきません。
+- wait:
+  - 75
+- print:
+  - ペコリーヌ
+  - >2-
+
+    だから、
+- wait:
+  - 35
+- print:
+  - ペコリーヌ
+  - あなたに玉座を渡すわけには、
+- wait:
+  - 40
+- print:
+  - ペコリーヌ
+  - いかないんです。
+- touch: *o0
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2107002_050
+- face:
+  - 191411
+  - 3
+- pop:
+  - 191411
+- se:
+  - se_adv_step_concrete_move_01
+- print:
+  - ゴウシン
+  - 黙れ！　
+- wait:
+  - 10
+- print:
+  - ゴウシン
+  - 小娘が！
+- wait:
+  - 45
+- print:
+  - ゴウシン
+  - >2-
+
+    その痴れ者を拘束せよ、
+- wait:
+  - 50
+- print:
+  - ゴウシン
+  - 我が【黄金の手】よ！
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 3
+- text_size:
+  - 50
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_2107002_051
+- face:
+  - 1
+  - 1
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 兵士たち
+  - お
+- se:
+  - se_adv_armor_crowd_move_01
+- print:
+  - 兵士たち
+  - おおおっ！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 38
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 6
+- focus:
+  - 103711
+- bust:
+  - 103711
+  - 1
+- vo:
+  - vo_adv_2107002_052
+- face:
+  - 103711
+  - 3
+- print:
+  - トモ
+  - ──ミクマ流剣術・
+- wait:
+  - 35
+- print:
+  - トモ
+  - 陣風ッ！
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- window_visible:
+  - true
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2107002_053
+- face:
+  - 191411
+  - 6
+- emotion:
+  - surprise1_L
+  - 191411
+  - 170
+  - 610
+  - se_adv_emote_nortice_02
+- print:
+  - ゴウシン
+  - ぬっ！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- bg_color:
+  - 0
+  - 0
+  - 0
+- bgm:
+  - bgm_M55
+  - 0
+  - 0
+  - 1
+  - 0.5
+- se:
+  - se_adv_weapon_katana_impact_03
+- effect:
+  - 0033
+- wait:
+  - 30
+- background:
+  - 500790
+- chara_full:
+  - 104711
+  - C
+  - 1
+- chara_full:
+  - 100511
+  - L
+  - 3
+- se:
+  - se_adv_step_run_group_03
+- wait:
+  - 15
+- se_pause:
+  - se_adv_step_run_group_03
+  - 1.5
+- change:
+  - RC
+  - C
+  - 30
+- change:
+  - LC
+  - L
+  - 30
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_2107002_054
+- face:
+  - 104711
+  - 1
+- print:
+  - ジュン
+  - そこまでだゴウシン議長、
+- wait:
+  - 30
+- print:
+  - ジュン
+  - 【黄金の手】部隊！
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_2107002_055
+- face:
+  - 100511
+  - 3
+- print:
+  - マツリ
+  - お姫さまには、
+- wait:
+  - 30
+- print:
+  - マツリ
+  - 指一本触れさせないッスよ！
+- wait:
+  - 75
+- print:
+  - マツリ
+  - >2
+
+- face:
+  - 100511
+  - 2
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - マツリ
+  - ……くぅっ、
+- shake:
+  - 100511
+- wait:
+  - 5
+- print:
+  - マツリ
+  - 決まった……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0040
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 2511
+  - LC
+  - 6
+- chara_full:
+  - 1011
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_2107002_056
+- face:
+  - 2511
+  - 6
+- emotion:
+  - surprise1_L
+  - 2511
+  - 150
+  - 600
+  - se_adv_emote_common_01
+- print:
+  - 貴族
+  - なっ……
+- wait:
+  - 25
+- print:
+  - 貴族
+  - >2-
+
+    【王宮騎士団（NIGHTMARE）】！？
+- touch: *o0
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_2107002_057
+- face:
+  - 1011
+  - 6
+- print:
+  - 傭兵
+  - しかも主力部隊が、
+- wait:
+  - 30
+- print:
+  - 傭兵
+  - フル装備で……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 4312
+  - LC
+  - 1
+- chara_full:
+  - 4311
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 4312
+- bust:
+  - 4312
+  - 0
+- vo:
+  - vo_adv_2107002_058
+- face:
+  - 4312
+  - 1
+- print:
+  - 【黄金の手】隊長
+  - バカな！
+- wait:
+  - 30
+- print:
+  - 【黄金の手】隊長
+  - >2-
+
+    【王宮騎士団（NIGHTMARE）】は、
+
+    魔物駆除の任務に向かったはずでは……！
+- touch: *o0
+- focus:
+  - 4311
+- bust:
+  - 4311
+  - 0
+- vo:
+  - vo_adv_2107002_059
+- face:
+  - 4311
+  - 1
+- print:
+  - 【黄金の手】兵士
+  - は、
+- wait:
+  - 10
+- print:
+  - 【黄金の手】兵士
+  - はい！
+- wait:
+  - 25
+- print:
+  - 【黄金の手】兵士
+  - >2-
+
+    今朝門衛から、
+- wait:
+  - 20
+- print:
+  - 【黄金の手】兵士
+  - 街の外へ出たと報告が上がっております……！
+- wait:
+  - 50
+- print:
+  - 【黄金の手】兵士
+  - >2-
+
+    ジュン団長も、
+- wait:
+  - 10
+- print:
+  - 【黄金の手】兵士
+  - その中にいたと……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0040
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 104711
+  - C
+  - 1
+- fadein:
+  - 104711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_2107002_060
+- face:
+  - 104711
+  - 1
+- print:
+  - ジュン
+  - 本物の私は今ここにいる。
+- wait:
+  - 60
+- print:
+  - ジュン
+  - >2-
+
+    鎧より中身が重要、
+- wait:
+  - 40
+- print:
+  - ジュン
+  - ということだよ。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 104711
+  - 30
+- chara_full:
+  - 100511
+  - LC
+  - 1
+- chara_full:
+  - 103711
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_2107002_061
+- face:
+  - 100511
+  - 1
+- nod:
+  - 100511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - マツリ
+  - ジュンさんは、
+- wait:
+  - 15
+- print:
+  - マツリ
+  - 同じ鎧をいくつも持ってるッスからね！
+- touch: *o0
+- focus:
+  - 103711
+- bust:
+  - 103711
+  - 0
+- vo:
+  - vo_adv_2107002_062
+- face:
+  - 103711
+  - 3
+- print:
+  - トモ
+  - 君たちが今日この日、
+- wait:
+  - 40
+- print:
+  - トモ
+  - 荒事を起こすということは、
+- wait:
+  - 35
+- print:
+  - トモ
+  - >2-
+
+    すでに情報があがっていた。
+- wait:
+  - 50
+- print:
+  - トモ
+  - >2
+
+- face:
+  - 103711
+  - 1
+- print:
+  - トモ
+  - いかに人手不足の我々といえど、
+- wait:
+  - 55
+- print:
+  - トモ
+  - それなりの準備をさせてもらったよ。
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 1
+- vo:
+  - vo_adv_2107002_063
+- face:
+  - 2511
+  - 7
+- print:
+  - 貴族
+  - う、
+- wait:
+  - 30
+- print:
+  - 貴族
+  - うぅっ……！
+- wait:
+  - 30
+- print:
+  - 貴族
+  - >2-
+
+    ハメられた……！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 191411
+  - C
+  - 3
+- fadein:
+  - 191411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2107002_064
+- face:
+  - 191411
+  - 3
+- nod:
+  - 191411
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - ゴウシン
+  - うろたえるな！
+- wait:
+  - 50
+- print:
+  - ゴウシン
+  - >2
+
+- face:
+  - 191411
+  - 1
+- print:
+  - ゴウシン
+  - これだけの人間を動かせば、
+- wait:
+  - 40
+- print:
+  - ゴウシン
+  - >2-
+
+    少々情報が漏れるのは避けられんわ！
+- touch: *o0
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2107002_065
+- face:
+  - 191411
+  - 2
+- print:
+  - ゴウシン
+  - それに、ジュン団長。
+- wait:
+  - 55
+- print:
+  - ゴウシン
+  - >2-
+
+    我が兵力はそちらの十倍以上だ。
+- wait:
+  - 110
+- print:
+  - ゴウシン
+  - >2
+
+- face:
+  - 191411
+  - 3
+- print:
+  - ゴウシン
+  - たかが数十人ばかしの手勢で、
+- wait:
+  - 60
+- print:
+  - ゴウシン
+  - 止められるとでも思うのか？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 191411
+  - 30
+- chara_full:
+  - 104711
+  - LC
+  - 1
+- chara_full:
+  - 191411
+  - RC
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_2107002_066
+- face:
+  - 104711
+  - 1
+- print:
+  - ジュン
+  - これ以上集めるのは、
+- wait:
+  - 30
+- print:
+  - ジュン
+  - さすがに難しかった。
+- wait:
+  - 60
+- print:
+  - ジュン
+  - >2-
+
+    あなたを筆頭とする貴族議会が
+- wait:
+  - 45
+- print:
+  - ジュン
+  - 何かと理由をつけて予算を減らしたり、
+- wait:
+  - 45
+- print:
+  - ジュン
+  - >2-
+
+    権限を奪ったりしてくれたからね。
+- touch: *o0
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2107002_067
+- face:
+  - 191411
+  - 3
+- nod:
+  - 191411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ゴウシン
+  - フン！
+- wait:
+  - 30
+- print:
+  - ゴウシン
+  - >2
+
+- face:
+  - 191411
+  - 2
+- print:
+  - ゴウシン
+  - そのようなバケツを被って
+- wait:
+  - 55
+- print:
+  - ゴウシン
+  - 視野を狭めているから、
+- wait:
+  - 50
+- print:
+  - ゴウシン
+  - >2-
+
+    足元を掬われることになるのだ！
+- touch: *o0
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_2107002_068
+- face:
+  - 104711
+  - 1
+- print:
+  - ジュン
+  - 足元、
+- wait:
+  - 15
+- print:
+  - ジュン
+  - か。
+- wait:
+  - 50
+- print:
+  - ジュン
+  - >2-
+
+    我々の足元を気にするよりも、
+- wait:
+  - 45
+- print:
+  - ジュン
+  - >2-
+
+    貴方の頭上に注意したほうが良いでしょう。
+- touch: *o0
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2107002_069
+- face:
+  - 191411
+  - 3
+- print:
+  - ゴウシン
+  - よそ見をさせて不意を突こうなどと、
+- wait:
+  - 35
+- print:
+  - ゴウシン
+  - 古典的な！
+- wait:
+  - 55
+- print:
+  - ゴウシン
+  - >2
+
+- nod:
+  - 191411
+- print:
+  - ゴウシン
+  - 弓を引け、
+- wait:
+  - 20
+- print:
+  - ゴウシン
+  - 兵士たちよ！
+- wait:
+  - 40
+- print:
+  - ゴウシン
+  - >2-
+
+    権力に居座る虚けどもに、
+- wait:
+  - 55
+- print:
+  - ゴウシン
+  - 矢の雨を降らせてやれ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 104711
+  - 30
+- chara_full:
+  - 100511
+  - LC
+  - 1
+- fadein:
+  - 100511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_2107002_070
+- face:
+  - 100511
+  - 1
+- print:
+  - マツリ
+  - ジュンさんの言うことは聞いたほうがいいッス！
+- wait:
+  - 40
+- print:
+  - マツリ
+  - >2
+
+- face:
+  - 100511
+  - 6
+- print:
+  - マツリ
+  - きっと
+- wait:
+  - 20
+- print:
+  - マツリ
+  - 雨以外にも、
+- wait:
+  - 25
+- face:
+  - 100511
+  - 1
+- print:
+  - マツリ
+  - いろいろ降ってくるッスよ！
+- touch: *o0
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2107002_071
+- face:
+  - 191411
+  - 3
+- print:
+  - ゴウシン
+  - その手には乗らんと言っておろう！
+- wait:
+  - 50
+- print:
+  - ゴウシン
+  - >2
+
+- nod:
+  - 191411
+- se:
+  - se_adv_step_concrete_move_01
+- print:
+  - ゴウシン
+  - さぁ！
+- wait:
+  - 25
+- print:
+  - ゴウシン
+  - >2-
+
+    放てっ……
+- face:
+  - 191411
+  - 6
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- bg_pan:
+  - 0
+  - -150
+  - 30
+- black_out:
+  - 1
+  - 0.5
+- bg_pan:
+  - 0
+  - 0
+  - 0
+- background:
+  - 500520
+- wait:
+  - 15
+- black_in: *o0
+- change_window:
+  - 3
+- text_size:
+  - 50
+- window_visible:
+  - true
+- se:
+  - se_adv_magic_charge_01
+- bgm:
+  - bgm_M336_Orch
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 180611
+- bust:
+  - 180611
+  - 1
+- vo:
+  - vo_adv_2107002_072
+- face:
+  - 180611
+  - 3
+- print:
+  - キャル
+  - グリムバーーーーストッ！！！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_magic_cmn_large_02
+- white_out:
+  - 1
+  - 1
+- background:
+  - 500790
+- wait:
+  - 15
+- white_in: *o0
+- se:
+  - se_adv_kyaru_impact_02
+- effect:
+  - 0014
+- shake_screen: *o0
+- text_size:
+  - 40
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_2107002_073
+- face:
+  - 1
+  - 1
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 兵士たち
+  - ぎゃああああーーーーっ！！！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_2107002_074
+- face:
+  - 1
+  - 1
+- se:
+  - se_adv_kyaru_impact_02
+- print:
+  - 傭兵たち
+  - うぐわああああーーーーっ
+- se:
+  - se_adv_bodyfall_04
+- print:
+  - 傭兵たち
+  - ！！
+- se_pause:
+  - se_adv_bodyfall_04
+  - 2
+- print:
+  - 傭兵たち
+  - ！
+- shake_screen: *o0
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- effect_delete:
+  - 0014
+  - 15
+- effect:
+  - 0040
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 712
+  - LC
+  - 1
+- chara_full:
+  - 711
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 712
+- bust:
+  - 712
+  - 0
+- vo:
+  - vo_adv_2107002_075
+- face:
+  - 712
+  - 1
+- print:
+  - 王宮兵士１
+  - うおっ、
+- wait:
+  - 20
+- print:
+  - 王宮兵士１
+  - すげぇ！
+- wait:
+  - 25
+- print:
+  - 王宮兵士１
+  - >2-
+
+    ほとんどブッ倒しちまった！
+- touch: *o0
+- focus:
+  - 711
+- bust:
+  - 711
+  - 0
+- vo:
+  - vo_adv_2107002_076
+- face:
+  - 711
+  - 1
+- print:
+  - 王宮兵士２
+  - あの獣人の嬢ちゃん、
+- wait:
+  - 30
+- print:
+  - 王宮兵士２
+  - やるなぁ……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 191411
+  - RC
+  - 4
+- chara_full:
+  - 2511
+  - LC
+  - 4
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2107002_077
+- face:
+  - 191411
+  - 4
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - ゴウシン
+  - な、
+- shake:
+  - 191411
+- wait:
+  - 15
+- print:
+  - ゴウシン
+  - ななななな……
+- wait:
+  - 20
+- print:
+  - ゴウシン
+  - なんということだ……！
+- wait:
+  - 60
+- print:
+  - ゴウシン
+  - >2-
+
+    盾がなくば、
+- wait:
+  - 40
+- print:
+  - ゴウシン
+  - 吾輩もやられていた……！
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_2107002_078
+- face:
+  - 2511
+  - 4
+- eye_open:
+  - True
+- print:
+  - 貴族
+  - ぎ、
+- wait:
+  - 25
+- print:
+  - 貴族
+  - 議長……
+- wait:
+  - 45
+- eye_open:
+  - False
+- print:
+  - 貴族
+  - ひどい……
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_cloth_move_give_01
+- updown:
+  - 2511
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 2511
+  - 30
+- se:
+  - se_adv_bodyfall_02
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- fadeout:
+  - 191411
+  - 30
+- effect:
+  - 0040
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 103711
+  - RC
+  - 6
+- chara_full:
+  - 100511
+  - LC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103711
+- bust:
+  - 103711
+  - 0
+- vo:
+  - vo_adv_2107002_079
+- face:
+  - 103711
+  - 6
+- emotion:
+  - exclamation1_R
+  - 103711
+  - 15
+  - 650
+  - se_adv_emote_common_01
+- print:
+  - トモ
+  - あいつ！
+- wait:
+  - 30
+- print:
+  - トモ
+  - >2
+
+- face:
+  - 103711
+  - 3
+- print:
+  - トモ
+  - 味方を盾にしてっ！？
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_2107002_080
+- face:
+  - 100511
+  - 3
+- nod:
+  - 100511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - マツリ
+  - ひどいッス！
+- wait:
+  - 30
+- print:
+  - マツリ
+  - >2-
+
+    なんてやつッスか！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0040
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 191411
+  - LC
+  - 3
+- chara_full:
+  - 4311
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 191411
+- bust:
+  - 191411
+  - 0
+- vo:
+  - vo_adv_2107002_081
+- face:
+  - 191411
+  - 3
+- print:
+  - ゴウシン
+  - くっ……
+- wait:
+  - 30
+- print:
+  - ゴウシン
+  - >2-
+
+    動ける者！
+- wait:
+  - 30
+- print:
+  - ゴウシン
+  - >2-
+
+    下がれ！　
+- wait:
+  - 20
+- print:
+  - ゴウシン
+  - 下がれーーー！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_run_group_03
+- change:
+  - R
+  - RC
+  - 30
+- change:
+  - C
+  - LC
+  - 30
+- se_pause:
+  - se_adv_step_run_group_03
+  - 2
+- fadeout_all:
+  - 30
+- effect:
+  - 0040
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 104711
+  - C
+  - 1
+- fadein:
+  - 104711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_2107002_082
+- face:
+  - 104711
+  - 1
+- print:
+  - ジュン
+  - 地下に逃げる！
+- wait:
+  - 25
+- print:
+  - ジュン
+  - >2-
+
+    トモちゃんマツリちゃん、
+- wait:
+  - 5
+- print:
+  - ジュン
+  - 追うんだ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 104711
+  - 30
+- chara_full:
+  - 103711
+  - RC
+  - 3
+- chara_full:
+  - 100511
+  - LC
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_2107002_083
+- multi_talk:
+  - 103711:100511
+- face:
+  - 1
+  - 1
+- nod:
+  - 103711:100511
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - トモ・マツリ
+  - >-
+    「了解！」
+
+    「了解ッス！」
+- touch: *o0
+- focus:
+  - 712
+- bust:
+  - 712
+  - 1
+- vo:
+  - vo_adv_2107002_084
+- face:
+  - 712
+  - 1
+- print:
+  - 王宮兵士１
+  - 我々も続けー！！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_run_group_03
+- change:
+  - R
+  - RC
+  - 30
+- change:
+  - C
+  - LC
+  - 30
+- se_pause:
+  - se_adv_step_run_group_03
+  - 1.5
+- fadeout_all:
+  - 30
+- chara_full:
+  - 180611
+  - C
+  - 3
+- fadein:
+  - 180611
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 180611
+- bust:
+  - 180611
+  - 0
+- vo:
+  - vo_adv_2107002_085
+- face:
+  - 180611
+  - 3
+- nod:
+  - 180611
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - キャル
+  - ──っと
+- se:
+  - se_adv_step_concrete_move_01
+- print:
+  - キャル
+  - 。
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+- window_visible:
+  - false
+- fadeout:
+  - 180611
+  - 15
+- se:
+  - se_adv_magic_maho_01
+- white_out:
+  - 0.5
+  - 0.1
+- white_in: *o0
+- chara_full:
+  - 105812
+  - C
+  - 1
+- chara_full:
+  - 106011
+  - R
+  - 1
+- chara_full:
+  - 104711
+  - L
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M175_Ver2
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_2107002_086
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - キャルちゃん！
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - >2-
+
+    ありがとうございました！
+- touch: *o0
+- focus:
+  - 106011
+- bust:
+  - 106011
+  - 0
+- vo:
+  - vo_adv_2107002_087
+- face:
+  - 106011
+  - 4
+- nod:
+  - 106011
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - キャル
+  - うぅん、
+- wait:
+  - 40
+- print:
+  - キャル
+  - 連中の七割くらいしか気絶させられなかったわ。
+- wait:
+  - 65
+- print:
+  - キャル
+  - >2
+
+- face:
+  - 106011
+  - 1
+- print:
+  - キャル
+  - ぶっ殺しちゃうわけにもいかないから、
+- wait:
+  - 40
+- print:
+  - キャル
+  - ちょっと手加減しすぎたわね……
+- touch: *o0
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_2107002_088
+- face:
+  - 104711
+  - 1
+- print:
+  - ジュン
+  - 体力も魔法への抵抗力も、
+- wait:
+  - 45
+- print:
+  - ジュン
+  - 人それぞれだからね。
+- wait:
+  - 55
+- print:
+  - ジュン
+  - >2-
+
+    でも君のおかげで、
+- wait:
+  - 30
+- print:
+  - ジュン
+  - 無駄な血を流さずに済んだ。
+- touch: *o0
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_2107002_089
+- face:
+  - 104711
+  - 1
+- print:
+  - ジュン
+  - これをきっかけに、
+- wait:
+  - 20
+- print:
+  - ジュン
+  - >-
+    【王宮騎士団（NIGHTMARE）】の面々が
+
+    君のことを見る目も変わるだろう。
+- wait:
+  - 50
+- print:
+  - ジュン
+  - >2-
+
+    感謝するよ、
+- wait:
+  - 10
+- print:
+  - ジュン
+  - キャルちゃん。
+- touch: *o0
+- focus:
+  - 106011
+- bust:
+  - 106011
+  - 0
+- vo:
+  - vo_adv_2107002_090
+- face:
+  - 106011
+  - 5
+- nod:
+  - 106011
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - キャル
+  - んっ……
+- wait:
+  - 30
+- print:
+  - キャル
+  - ど、
+- wait:
+  - 20
+- print:
+  - キャル
+  - どーいたしましてっ。
+- touch: *o0
+- focus:
+  - 106011
+- bust:
+  - 106011
+  - 0
+- vo:
+  - vo_adv_2107002_091
+- face:
+  - 106011
+  - 6
+- print:
+  - キャル
+  - っていうか……
+- wait:
+  - 35
+- face:
+  - 106011
+  - 5
+- print:
+  - キャル
+  - あたしこそ、
+- wait:
+  - 30
+- print:
+  - キャル
+  - 感謝してるわ。
+- wait:
+  - 30
+- print:
+  - キャル
+  - >2
+
+- face:
+  - 106011
+  - 1
+- print:
+  - キャル
+  - 汚名返上のチャンスをくれてさ。
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_2107002_092
+- face:
+  - 105812
+  - 2
+- print:
+  - ペコリーヌ
+  - 良かったですね、
+- wait:
+  - 15
+- print:
+  - ペコリーヌ
+  - キャルちゃんっ。
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - >2
+
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - それじゃあ、
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - ゴウシンさんを捕まえに行きましょう！
+- touch: *o0
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_2107002_093
+- face:
+  - 104711
+  - 1
+- nod:
+  - 104711
+- se:
+  - se_adv_stepadd_armor_heavy_01_move_01
+- print:
+  - ジュン
+  - おっと陛下。
+- wait:
+  - 45
+- print:
+  - ジュン
+  - >2-
+
+    それは我々、
+- wait:
+  - 10
+- print:
+  - ジュン
+  - 【王宮騎士団（NIGHTMARE）】にお任せを。
+- wait:
+  - 40
+- print:
+  - ジュン
+  - >2-
+
+    汚名返上のために手柄が欲しいのは、
+- wait:
+  - 45
+- print:
+  - ジュン
+  - 我々も同じですからね。
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_2107002_094
+- face:
+  - 105812
+  - 6
+- emotion:
+  - exclamation1_R
+  - 105812
+  - 5
+  - 650
+  - se_adv_emote_common_01
+- print:
+  - ペコリーヌ
+  - あっ、
+- wait:
+  - 15
+- print:
+  - ペコリーヌ
+  - ごめんなさい。
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - >2
+
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - こういう時、
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - つい突っ走りたくなっちゃって……
+- touch: *o0
+- focus:
+  - 106011
+- bust:
+  - 106011
+  - 0
+- vo:
+  - vo_adv_2107002_095
+- face:
+  - 106011
+  - 4
+- print:
+  - キャル
+  - っていうか団長さん、
+- wait:
+  - 30
+- print:
+  - キャル
+  - あんたこそいいの？
+- wait:
+  - 30
+- print:
+  - キャル
+  - >2-
+
+    こんなところでノンビリしててさ。
+- touch: *o0
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_2107002_096
+- face:
+  - 104711
+  - 1
+- print:
+  - ジュン
+  - 問題はないよ。
+- wait:
+  - 40
+- print:
+  - ジュン
+  - >2-
+
+    この場で気絶している兵士たちを放置してはおけないし、
+- wait:
+  - 65
+- print:
+  - ジュン
+  - それに……
+- touch: *o0
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_2107002_097
+- face:
+  - 104711
+  - 1
+- print:
+  - ジュン
+  - 私はトモちゃんやマツリちゃんたちを、
+- wait:
+  - 35
+- print:
+  - ジュン
+  - 信頼しているからね。
+- touch: *o0
+- face:
+  - 106011
+  - 1
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- se_pause:
+  - amb_adv_wind_01
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

@@ -1,0 +1,299 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 501250
+- amb:
+  - amb_adv_wind_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 所作のレッスンを終えて
+- chara_full:
+  - 116011
+  - C
+  - 2
+- fadein:
+  - 116011
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M452
+  - 0
+  - 0
+  - 1
+- focus:
+  - 116011
+- bust:
+  - 116011
+  - 0
+- vo:
+  - vo_adv_6061203_000
+- face:
+  - 116011
+  - 2
+- print:
+  - マホ
+  - うちのレッスンは
+- wait:
+  - 40
+- print:
+  - マホ
+  - これでおしまいや～
+- wait:
+  - 70
+- print:
+  - マホ
+  - >2
+
+- face:
+  - 116011
+  - 1
+- print:
+  - マホ
+  - 先生なんて
+- wait:
+  - 40
+- print:
+  - マホ
+  - 慣れへん仕事やったけど、
+- wait:
+  - 75
+- print:
+  - マホ
+  - >2
+
+- face:
+  - 116011
+  - 2
+- print:
+  - マホ
+  - みんなのお役に立てたなら
+- wait:
+  - 60
+- print:
+  - マホ
+  - うれしいわぁ。
+- touch: &o0 []
+- choice:
+  - お疲れ様、マホ先生。
+  - 1
+  - 1
+- choice:
+  - みんな合格できてよかったね。
+  - 2
+  - 2
+- choice:
+  - このぬいぐるみ、もらっていい？
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 116011
+- bust:
+  - 116011
+  - 0
+- vo:
+  - vo_adv_6061203_001
+- face:
+  - 116011
+  - 1
+- nod:
+  - 116011
+- print:
+  - マホ
+  - おおきに、
+- wait:
+  - 20
+- print:
+  - マホ
+  - 王子はん。
+- wait:
+  - 65
+- print:
+  - マホ
+  - >2
+
+- face:
+  - 116011
+  - 4
+- print:
+  - マホ
+  - なんや、
+- wait:
+  - 20
+- print:
+  - マホ
+  - 先生呼ばれんのも
+- wait:
+  - 55
+- print:
+  - マホ
+  - これで最後やと思うと
+- wait:
+  - 50
+- print:
+  - マホ
+  - 寂しいわぁ。
+- wait:
+  - 55
+- print:
+  - マホ
+  - >2
+
+- face:
+  - 116011
+  - 2
+- print:
+  - マホ
+  - ……王子はん、
+- wait:
+  - 40
+- print:
+  - マホ
+  - もっかい
+- wait:
+  - 20
+- print:
+  - マホ
+  - 先生って呼んでくれはります？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 116011
+- bust:
+  - 116011
+  - 0
+- vo:
+  - vo_adv_6061203_002
+- face:
+  - 116011
+  - 2
+- nod:
+  - 116011
+- print:
+  - マホ
+  - 当然やで。
+- wait:
+  - 50
+- print:
+  - マホ
+  - うちが先生やるんや、
+- wait:
+  - 55
+- print:
+  - マホ
+  - 誰一人
+- wait:
+  - 35
+- print:
+  - マホ
+  - 見捨てたりなんかせえへんよ。
+- wait:
+  - 75
+- print:
+  - マホ
+  - >2
+
+- face:
+  - 116011
+  - 1
+- print:
+  - マホ
+  - うちのレッスンはしまいやけど、
+- wait:
+  - 55
+- print:
+  - マホ
+  - >2-
+
+    かげから応援するさかい、
+- wait:
+  - 45
+- face:
+  - 116011
+  - 2
+- print:
+  - マホ
+  - よろしゅうな～
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 116011
+- bust:
+  - 116011
+  - 0
+- vo:
+  - vo_adv_6061203_003
+- face:
+  - 116011
+  - 2
+- nod:
+  - 116011
+- print:
+  - マホ
+  - もちろん！
+- wait:
+  - 35
+- print:
+  - マホ
+  - 　その子は
+- wait:
+  - 25
+- print:
+  - マホ
+  - 王子はんと苦楽を共にした相棒や。
+- wait:
+  - 100
+- print:
+  - マホ
+  - >2
+
+- face:
+  - 116011
+  - 1
+- print:
+  - マホ
+  - うちに会えん時は
+- wait:
+  - 45
+- print:
+  - マホ
+  - それをうちやと思って
+- wait:
+  - 60
+- face:
+  - 116011
+  - 2
+- print:
+  - マホ
+  - 大事にしたってな～
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 116011
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

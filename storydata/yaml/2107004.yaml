@@ -1,0 +1,3264 @@
+- title:
+  - 2部 第7章 第4話
+- outline:
+  - 買い物中に{0}とはぐれてしまったシェフィは、道中、ムイミとぶつかり泣き出してしまう。泣き声を聞いて駆け付けたヒヨリとギルドハウスへ戻り、ムイミは世界と記憶について語りはじめる。
+- background:
+  - 500030
+- se:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - ヒヨリとノウェム
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - >-
+    キョウカと別れた
+
+    シェフィと{0}は、
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - >2-
+
+    しばらく買い物を続けていたが……
+- wait:
+  - 15
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 106412
+  - C
+  - 4
+- fadein:
+  - 106412
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M408
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_2107004_000
+- face:
+  - 106412
+  - 4
+- emotion:
+  - gloomy1_R
+  - 106412
+  - 50
+  - 470
+  - se_adv_emote_gloomy_01
+- print:
+  - シェフィ
+  - うーん……
+- wait:
+  - 30
+- print:
+  - シェフィ
+  - >2-
+
+    {0}、
+- wait:
+  - 5
+- print:
+  - シェフィ
+  - どこに行っちゃったのかしら。
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_2107004_001
+- face:
+  - 106412
+  - 4
+- eye_open:
+  - False
+- print:
+  - シェフィ
+  - ……まったくもう。
+- wait:
+  - 45
+- print:
+  - シェフィ
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - シェフィ
+  - 街をちょっと歩くだけでトラブルに巻き込まれたり、
+- wait:
+  - 60
+- print:
+  - シェフィ
+  - >2-
+
+    女の子に声を掛けられたりしちゃうんだから。
+- touch: *o0
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_2107004_002
+- face:
+  - 106412
+  - 6
+- print:
+  - シェフィ
+  - そんなに遠くには行っていないと思うけど。
+- wait:
+  - 85
+- print:
+  - シェフィ
+  - >2
+
+- face:
+  - 106412
+  - 4
+- print:
+  - シェフィ
+  - でも……
+- wait:
+  - 30
+- print:
+  - シェフィ
+  - 敵に狙われてるって可能性もあるし。
+- wait:
+  - 50
+- print:
+  - シェフィ
+  - >2
+
+- face:
+  - 106412
+  - 1
+- print:
+  - シェフィ
+  - 早く合流しなくっちゃ──
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 106412
+  - 30
+- black_out:
+  - 1
+  - 0.5
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 106113
+  - C
+  - 2
+- fadein:
+  - 106113
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M12
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_2107004_003
+- face:
+  - 106113
+  - 2
+- emotion:
+  - note1_L
+  - 106113
+  - -110
+  - 430
+  - se_adv_emote_note_01
+- print:
+  - ムイミ
+  - ん～～っ！　
+- wait:
+  - 45
+- print:
+  - ムイミ
+  - 帰ってきたぞランドソル！
+- wait:
+  - 30
+- print:
+  - ムイミ
+  - >2-
+
+    なんだか久しぶりだなーっ！
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_2107004_004
+- face:
+  - 106113
+  - 2
+- nod:
+  - 106113
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ムイミ
+  - さーてっ。
+- wait:
+  - 40
+- print:
+  - ムイミ
+  - >2-
+
+    渡す物もあるし、
+- wait:
+  - 35
+- print:
+  - ムイミ
+  - とりあえず
+- wait:
+  - 10
+- print:
+  - ムイミ
+  - >2-
+
+    【トゥインクルウィッシュ】の連中を捜すか……
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_2107004_005
+- face:
+  - 106113
+  - 1
+- print:
+  - ムイミ
+  - そのあとは
+- wait:
+  - 25
+- print:
+  - ムイミ
+  - >-
+    【王宮騎士団（NIGHTMARE）】にでも
+
+    顔を出そっと！　
+- wait:
+  - 30
+- face:
+  - 106113
+  - 2
+- print:
+  - ムイミ
+  - オクトーが戻ってるかもしれないしな！
+- wait:
+  - 35
+- print:
+  - ムイミ
+  - >2-
+
+    よーしっ！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 106113
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- effect:
+  - 0017
+  - se_adv_comic_punch_01
+- se:
+  - se_adv_cloth_move_give_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- chara_full:
+  - 106412
+  - RC
+  - 4
+  - 1
+- chara_full:
+  - 106113
+  - LC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_2107004_006
+- face:
+  - 106412
+  - 4
+- print:
+  - シェフィ
+  - ──きゃっ！
+- se:
+  - se_adv_step_concrete_move_01
+- print:
+  - シェフィ
+  - ？
+- shake:
+  - 106412
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_body_forehead_01
+- updown:
+  - 106412
+  - 0
+  - -80
+  - 0.2
+- fadeout:
+  - 106412
+  - 30
+- se:
+  - se_adv_bodyfall_02
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- window_visible:
+  - true
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_2107004_007
+- face:
+  - 106113
+  - 6
+- emotion:
+  - sweat2_R
+  - 106113
+  - 80
+  - 460
+  - se_adv_emote_sweat_02
+- print:
+  - ムイミ
+  - ああっ、
+- wait:
+  - 15
+- print:
+  - ムイミ
+  - ゴメンな！
+- wait:
+  - 15
+- print:
+  - ムイミ
+  - >2-
+
+    よそ見してて……！
+- touch: *o0
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 1
+  - 1
+- vo:
+  - vo_adv_2107004_008
+- face:
+  - 106412
+  - 4
+- print:
+  - シェフィ
+  - ……ぅ、
+- wait:
+  - 35
+- print:
+  - シェフィ
+  - ぅぅっ……
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_cloth_move_normal_01
+- change:
+  - C
+  - LC
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_2107004_009
+- face:
+  - 106113
+  - 4
+- nod:
+  - 106113
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ムイミ
+  - オマエ、
+- wait:
+  - 15
+- print:
+  - ムイミ
+  - 大丈夫かっ？
+- wait:
+  - 15
+- print:
+  - ムイミ
+  - >2-
+
+    アタマぶつけちゃったみたいだけど……
+- touch: *o0
+- focus:
+  - 106414
+- bust:
+  - 106414
+  - 1
+  - 1
+- vo:
+  - vo_adv_2107004_010
+- face:
+  - 106414
+  - 3
+- print:
+  - シェフィ
+  - ぐすぐす……
+- wait:
+  - 15
+- print:
+  - シェフィ
+  - >2-
+
+    ひっく、
+- wait:
+  - 15
+- print:
+  - シェフィ
+  - ひっく……
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_2107004_011
+- face:
+  - 106113
+  - 6
+- emotion:
+  - surprise1_L
+  - 106113
+  - 160
+  - 485
+  - se_adv_emote_common_01
+- print:
+  - ムイミ
+  - はあっ！？
+- wait:
+  - 20
+- print:
+  - ムイミ
+  - >2-
+
+    お、
+- wait:
+  - 10
+- print:
+  - ムイミ
+  - おい。
+- wait:
+  - 20
+- print:
+  - ムイミ
+  - 今のが、
+- wait:
+  - 10
+- print:
+  - ムイミ
+  - 泣くほど痛かったのか……？
+- touch: *o0
+- bgm:
+  - stop
+  - 1
+- bgm:
+  - bgm_M133
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 106414
+- bust:
+  - 106414
+  - 1
+- vo:
+  - vo_adv_2107004_012
+- face:
+  - 106414
+  - 4
+- print:
+  - シェフィ
+  - ──びえぇぇ～んっ！！！
+- wait:
+  - 45
+- print:
+  - シェフィ
+  - >2-
+
+    おに～～た～～んっ！！
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_2107004_013
+- face:
+  - 106113
+  - 6
+- emotion:
+  - sweat2_R
+  - 106113
+  - 80
+  - 460
+  - se_adv_emote_sweat_02
+- print:
+  - ムイミ
+  - うわわわっ！？！？
+- wait:
+  - 20
+- print:
+  - ムイミ
+  - >2-
+
+    な、
+- wait:
+  - 15
+- print:
+  - ムイミ
+  - なんなんだよオマエっ、
+- wait:
+  - 15
+- print:
+  - ムイミ
+  - >2-
+
+    そんな赤ちゃんみたいな泣き方してーっ！？
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_2107004_014
+- face:
+  - 106113
+  - 4
+- print:
+  - ムイミ
+  - もしかして、
+- wait:
+  - 30
+- print:
+  - ムイミ
+  - 打ちどころが悪かったかっ！？
+- wait:
+  - 35
+- print:
+  - ムイミ
+  - >2-
+
+    っていうかおにーたんって誰だよーっ！
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 1
+- vo:
+  - vo_adv_2107004_015
+- face:
+  - 100111
+  - 6
+- print:
+  - ヒヨリ
+  - 泣いてる声と、
+- wait:
+  - 10
+- print:
+  - ヒヨリ
+  - 困ってる声がしたっ！
+- wait:
+  - 40
+- print:
+  - ヒヨリ
+  - >2
+
+- face:
+  - 100111
+  - 3
+- print:
+  - ヒヨリ
+  - 待ってて
+- wait:
+  - 25
+- print:
+  - ヒヨリ
+  - すぐ行くよぉーっ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106113
+  - 30
+- chara_full:
+  - 100111
+  - R
+  - 3
+- chara_full:
+  - 106113
+  - LC
+  - 4
+- se:
+  - se_adv_sliding_dirt_01
+- change:
+  - RC
+  - R
+  - 30
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2107004_016
+- face:
+  - 100111
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100111
+  - 10
+  - 650
+  - se_adv_emote_common_01
+- print:
+  - ヒヨリ
+  - って……
+- wait:
+  - 25
+- print:
+  - ヒヨリ
+  - あれっ！？
+- wait:
+  - 25
+- print:
+  - ヒヨリ
+  - >2-
+
+    あなたは……
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_2107004_017
+- face:
+  - 106113
+  - 6
+- print:
+  - ムイミ
+  - あっ！
+- wait:
+  - 10
+- print:
+  - ムイミ
+  - >2-
+
+    オマエ！
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2107004_018
+- face:
+  - 100111
+  - 3
+- print:
+  - ヒヨリ
+  - あなた、
+- wait:
+  - 30
+- print:
+  - ヒヨリ
+  - ムイミちゃん……
+- wait:
+  - 25
+- print:
+  - ヒヨリ
+  - だっけ？
+- wait:
+  - 40
+- print:
+  - ヒヨリ
+  - >2
+
+- face:
+  - 100111
+  - 6
+- print:
+  - ヒヨリ
+  - それにシェフィちゃんも！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106414
+  - C
+  - 4
+- chara_full:
+  - 106113
+  - L
+  - 6
+- chara_full:
+  - 100111
+  - R
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106414
+- bust:
+  - 106414
+  - 0
+- vo:
+  - vo_adv_2107004_019
+- face:
+  - 106414
+  - 4
+- print:
+  - シェフィ
+  - うぁぁ～んっ！
+- wait:
+  - 35
+- print:
+  - シェフィ
+  - >2-
+
+    ひよりぃぃ～っ！
+- touch: *o0
+- window_visible:
+  - false
+- focus:
+  - 100111:106414
+- se:
+  - se_adv_jump_and_hug_01
+- pop:
+  - 106414
+- wait:
+  - 5
+- shake:
+  - 100111
+- wait:
+  - 5
+- window_visible:
+  - true
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2107004_020
+- face:
+  - 100111
+  - 6
+- emotion:
+  - sweat2_R
+  - 100111
+  - 90
+  - 525
+  - se_adv_emote_sweat_02
+- print:
+  - ヒヨリ
+  - ってうわぁ！
+- wait:
+  - 40
+- print:
+  - ヒヨリ
+  - >2-
+
+    シェフィちゃんまた赤ちゃんになっちゃってるーっ！
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_2107004_021
+- face:
+  - 106113
+  - 6
+- print:
+  - ムイミ
+  - ヒヨリ、
+- wait:
+  - 15
+- print:
+  - ムイミ
+  - こいつの知り合いなのかっ！？
+- wait:
+  - 35
+- print:
+  - ムイミ
+  - >2
+
+- face:
+  - 106113
+  - 4
+- print:
+  - ムイミ
+  - よかったぁー！　
+- wait:
+  - 25
+- print:
+  - ムイミ
+  - 頼むから助けてくれーっ！！
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- background:
+  - 500361
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_room_noise_01
+- chara_full:
+  - 100111
+  - RC
+  - 6
+- chara_full:
+  - 106113
+  - LC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M358
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2107004_022
+- face:
+  - 100111
+  - 6
+- nod:
+  - 100111
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ヒヨリ
+  - ……そっかぁ、
+- wait:
+  - 45
+- print:
+  - ヒヨリ
+  - ムイミちゃん
+- wait:
+  - 5
+- print:
+  - ヒヨリ
+  - >2-
+
+    オクトーさんを捜してるんだね。
+- wait:
+  - 45
+- print:
+  - ヒヨリ
+  - >2
+
+- face:
+  - 100111
+  - 4
+- print:
+  - ヒヨリ
+  - あたしたちも見てないなぁ……
+- wait:
+  - 55
+- print:
+  - ヒヨリ
+  - ごめんね。
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_2107004_023
+- face:
+  - 106113
+  - 4
+- print:
+  - ムイミ
+  - うーん、
+- wait:
+  - 35
+- print:
+  - ムイミ
+  - やっぱり手がかりなしかー
+- wait:
+  - 60
+- print:
+  - ムイミ
+  - >2
+
+- face:
+  - 106113
+  - 6
+- print:
+  - ムイミ
+  - ……っていうか……
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106414
+  - LC
+  - 2
+- se:
+  - se_adv_step_wood_run_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 30
+- fadein:
+  - 106414
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M323
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 106414
+- bust:
+  - 106414
+  - 0
+- vo:
+  - vo_adv_2107004_024
+- face:
+  - 106414
+  - 2
+- emotion:
+  - note1_L
+  - 106414
+  - -95
+  - 415
+  - se_adv_emote_note_01
+- print:
+  - シェフィ
+  - ねびーーっ♪♪
+- touch: *o0
+- focus:
+  - 190911
+- bust:
+  - 190911
+  - 1
+- vo:
+  - vo_adv_2107004_025
+- face:
+  - 190911
+  - 7
+- print:
+  - ネビア
+  - んぎゃああーーーっ！！
+- wait:
+  - 20
+- print:
+  - ネビア
+  - >2-
+
+    来るんじゃないわよバカーーーー！！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_wood_run_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 106414
+  - 30
+- chara_full:
+  - 106113
+  - LC
+  - 6
+- chara_full:
+  - 100111
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_2107004_026
+- face:
+  - 106113
+  - 6
+- emotion:
+  - sweat1_R
+  - 106113
+  - 95
+  - 440
+  - se_adv_emote_sweat_01
+- print:
+  - ムイミ
+  - ……あれ、
+- wait:
+  - 15
+- print:
+  - ムイミ
+  - ほっといていいのか？
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2107004_027
+- face:
+  - 100111
+  - 1
+- emotion:
+  - sweat1_R
+  - 100111
+  - 85
+  - 540
+  - se_adv_emote_sweat_01
+- print:
+  - ヒヨリ
+  - あはは……
+- wait:
+  - 45
+- print:
+  - ヒヨリ
+  - シェフィちゃん、
+- wait:
+  - 30
+- print:
+  - ヒヨリ
+  - >2-
+
+    頭をぶつけちゃったショックで
+- wait:
+  - 30
+- print:
+  - ヒヨリ
+  - 赤ちゃんになっちゃったみたい。
+- wait:
+  - 45
+- print:
+  - ヒヨリ
+  - >2-
+
+    ほんとは賢くて優しい子なんだけどね。
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2107004_028
+- face:
+  - 100111
+  - 1
+- print:
+  - ヒヨリ
+  - とりあえず、
+- wait:
+  - 15
+- print:
+  - ヒヨリ
+  - 時間が経てば戻ると思うよ。
+- wait:
+  - 60
+- print:
+  - ヒヨリ
+  - >2
+
+- face:
+  - 100111
+  - 2
+- print:
+  - ヒヨリ
+  - 騎士くんやコッコロちゃんも、
+- wait:
+  - 20
+- print:
+  - ヒヨリ
+  - 帰ってくるはずだから、
+- wait:
+  - 30
+- print:
+  - ヒヨリ
+  - 安心して。
+- touch: *o0
+- face:
+  - 100111
+  - 1
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_2107004_029
+- face:
+  - 106113
+  - 6
+- print:
+  - ムイミ
+  - まさか【美食殿】に新しいメンバーが入ってて、
+- wait:
+  - 60
+- print:
+  - ムイミ
+  - >2-
+
+    それがこんなやつとはなー
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_2107004_030
+- face:
+  - 106113
+  - 6
+- print:
+  - ムイミ
+  - あっ、
+- wait:
+  - 10
+- print:
+  - ムイミ
+  - そうそう。
+- wait:
+  - 20
+- print:
+  - ムイミ
+  - >2
+
+- face:
+  - 106113
+  - 2
+- print:
+  - ムイミ
+  - オマエら、
+- wait:
+  - 10
+- print:
+  - ムイミ
+  - クリスティーナと取引してるんだよな？
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2107004_031
+- face:
+  - 100111
+  - 6
+- nod:
+  - 100111
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ヒヨリ
+  - うん。
+- wait:
+  - 40
+- print:
+  - ヒヨリ
+  - >2-
+
+    ムイミちゃん、
+- wait:
+  - 10
+- print:
+  - ヒヨリ
+  - どうして知ってるの？
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_2107004_032
+- face:
+  - 106113
+  - 2
+- print:
+  - ムイミ
+  - 本人に直接会ったんだよ。
+- wait:
+  - 45
+- print:
+  - ムイミ
+  - >2
+
+- face:
+  - 106113
+  - 1
+- print:
+  - ムイミ
+  - んで、
+- wait:
+  - 15
+- print:
+  - ムイミ
+  - おつかいを頼まれたんだ。
+- wait:
+  - 45
+- print:
+  - ムイミ
+  - >2
+
+- face:
+  - 106113
+  - 2
+- print:
+  - ムイミ
+  - これを渡せってな。
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
+- window_visible:
+  - false
+- se:
+  - se_adv_magicstone_debris_01
+- nod:
+  - 106113
+- se:
+  - se_adv_cloth_move_normal_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- bgm:
+  - bgm_M321
+  - 0
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2107004_033
+- face:
+  - 100111
+  - 2
+- emotion:
+  - twinkle1_R
+  - 100111
+  - -110
+  - 525
+  - se_adv_emote_twinkle_01
+- print:
+  - ヒヨリ
+  - あっ、
+- wait:
+  - 15
+- print:
+  - ヒヨリ
+  - ソルオーブ！
+- wait:
+  - 45
+- print:
+  - ヒヨリ
+  - >2
+
+- face:
+  - 100111
+  - 1
+- print:
+  - ヒヨリ
+  - そっかぁ、
+- wait:
+  - 25
+- print:
+  - ヒヨリ
+  - クリスさんがさっそく見つけてくれたんだね！
+- wait:
+  - 45
+- print:
+  - ヒヨリ
+  - >2-
+
+    ムイミちゃんもありがとうっ──
+- touch: *o0
+- window_visible:
+  - false
+- focus:
+  - 100111:106113
+- se:
+  - se_adv_body_shake_head_01
+- face:
+  - 106113
+  - 1
+- nod:
+  - 100111
+- wait:
+  - 5
+- face:
+  - 100111
+  - 6
+- shake:
+  - 106113
+- window_visible:
+  - true
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_2107004_034
+- face:
+  - 106113
+  - 1
+- print:
+  - ムイミ
+  - ……ん……
+- wait:
+  - 25
+- print:
+  - ムイミ
+  - >2-
+
+    んん～～～～～っ……
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2107004_035
+- face:
+  - 100111
+  - 6
+- print:
+  - ヒヨリ
+  - あ、
+- wait:
+  - 45
+- emotion:
+  - question1_R
+  - 100111
+  - 115
+  - 515
+  - se_adv_emote_question_01
+- print:
+  - ヒヨリ
+  - あれっ？
+- wait:
+  - 45
+- print:
+  - ヒヨリ
+  - >2
+
+- face:
+  - 100111
+  - 4
+- print:
+  - ヒヨリ
+  - ムイミちゃん、
+- wait:
+  - 20
+- print:
+  - ヒヨリ
+  - 渡してくれるんじゃなかったの……？
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_2107004_036
+- face:
+  - 106113
+  - 6
+- print:
+  - ムイミ
+  - い、
+- wait:
+  - 10
+- print:
+  - ムイミ
+  - いや……
+- wait:
+  - 25
+- print:
+  - ムイミ
+  - そーなんだけど。
+- wait:
+  - 45
+- print:
+  - ムイミ
+  - >2
+
+- face:
+  - 106113
+  - 1
+- print:
+  - ムイミ
+  - なんか、
+- wait:
+  - 15
+- print:
+  - ムイミ
+  - いざとなると素直に渡せなくって。
+- wait:
+  - 60
+- print:
+  - ムイミ
+  - >2-
+
+    ……オマエらとは、
+- wait:
+  - 20
+- print:
+  - ムイミ
+  - あれだけ獲り合ったソルオーブだからかな……
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2107004_037
+- face:
+  - 100111
+  - 6
+- print:
+  - ヒヨリ
+  - えーっと、
+- wait:
+  - 45
+- print:
+  - ヒヨリ
+  - ムイミちゃん……？
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_2107004_038
+- face:
+  - 106113
+  - 6
+- print:
+  - ムイミ
+  - あー……
+- wait:
+  - 30
+- print:
+  - ムイミ
+  - さっきから、
+- wait:
+  - 15
+- print:
+  - ムイミ
+  - 言おうと思ってたんだけどさ。
+- wait:
+  - 30
+- print:
+  - ムイミ
+  - >2
+
+- face:
+  - 106113
+  - 1
+- print:
+  - ムイミ
+  - できればムイミじゃなくて……
+- wait:
+  - 50
+- face:
+  - 106113
+  - 2
+- print:
+  - ムイミ
+  - 『ノウェム』って呼んでもらえると
+- wait:
+  - 20
+- print:
+  - ムイミ
+  - >2-
+
+    うれしいな。
+- wait:
+  - 35
+- print:
+  - ムイミ
+  - それがアタシの、
+- wait:
+  - 25
+- print:
+  - ムイミ
+  - 呼ばれたい名前だから。
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2107004_039
+- face:
+  - 100111
+  - 6
+- emotion:
+  - question1_R
+  - 100111
+  - 115
+  - 515
+  - se_adv_emote_question_01
+- print:
+  - ヒヨリ
+  - あれっ？
+- wait:
+  - 40
+- print:
+  - ヒヨリ
+  - >2-
+
+    そう、
+- wait:
+  - 35
+- face:
+  - 100111
+  - 1
+- print:
+  - ヒヨリ
+  - だよね……
+- wait:
+  - 40
+- print:
+  - ヒヨリ
+  - >2-
+
+    ごめんねノウェムちゃん！
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_2107004_040
+- face:
+  - 106113
+  - 2
+- nod:
+  - 106113
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ムイミ
+  - へへっ、
+- wait:
+  - 30
+- print:
+  - ムイミ
+  - サンキューな！
+- wait:
+  - 30
+- print:
+  - ムイミ
+  - >2-
+
+    もう間違われるのも慣れてきちゃってるんだけど……
+- wait:
+  - 55
+- print:
+  - ムイミ
+  - >2-
+
+    オマエに『ムイミ』って呼ばれるのは、
+- wait:
+  - 30
+- print:
+  - ムイミ
+  - なんかムズムズするんだ。
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2107004_041
+- face:
+  - 100111
+  - 3
+- print:
+  - ヒヨリ
+  - ノウェムちゃん、
+- wait:
+  - 15
+- print:
+  - ヒヨリ
+  - ノウェムちゃん……
+- wait:
+  - 30
+- print:
+  - ヒヨリ
+  - >2
+
+- face:
+  - 100111
+  - 1
+- print:
+  - ヒヨリ
+  - うん、
+- wait:
+  - 20
+- print:
+  - ヒヨリ
+  - こっちのほうがずっとしっくりくるみたい。
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2107004_042
+- face:
+  - 100111
+  - 6
+- print:
+  - ヒヨリ
+  - それに……
+- wait:
+  - 35
+- print:
+  - ヒヨリ
+  - さっき、
+- wait:
+  - 30
+- print:
+  - ヒヨリ
+  - あたしたちと
+- wait:
+  - 10
+- print:
+  - ヒヨリ
+  - >2-
+
+    ソルオーブを獲り合ったことがある、
+- wait:
+  - 45
+- print:
+  - ヒヨリ
+  - みたいなお話してたけど。
+- wait:
+  - 45
+- print:
+  - ヒヨリ
+  - >2
+
+- face:
+  - 100111
+  - 4
+- print:
+  - ヒヨリ
+  - あれって、
+- wait:
+  - 30
+- print:
+  - ヒヨリ
+  - どういう意味なの……？
+- touch: *o0
+- bgm:
+  - stop
+  - 8
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_2107004_043
+- face:
+  - 106113
+  - 6
+- print:
+  - ムイミ
+  - ……えっと……
+- wait:
+  - 35
+- print:
+  - ムイミ
+  - >2
+
+- face:
+  - 106113
+  - 1
+- print:
+  - ムイミ
+  - 今から変なコト聞くけど。
+- wait:
+  - 45
+- print:
+  - ムイミ
+  - >2-
+
+    笑わないでくれよな。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- black_out:
+  - 1
+  - 1
+- bg_color:
+  - 0
+  - 0
+  - 0
+- still:
+  - 210700401
+- wait:
+  - 15
+- se:
+  - se_adv_cloth_move_normal_01
+- black_in: *o0
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M251
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 1
+- vo:
+  - vo_adv_2107004_044
+- face:
+  - 106113
+  - 1
+- print:
+  - ムイミ
+  - オマエさ。
+- wait:
+  - 40
+- print:
+  - ムイミ
+  - ひょっとして……
+- wait:
+  - 55
+- print:
+  - ムイミ
+  - >2-
+
+    少しはあっちの世界の記憶、
+- wait:
+  - 55
+- print:
+  - ムイミ
+  - 戻ってたりしないか……？
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 1
+- vo:
+  - vo_adv_2107004_045
+- face:
+  - 100111
+  - 6
+- print:
+  - ヒヨリ
+  - ……！
+- wait:
+  - 45
+- print:
+  - ヒヨリ
+  - >2
+
+- face:
+  - 100111
+  - 4
+- print:
+  - ヒヨリ
+  - ノウェムちゃん……
+- wait:
+  - 35
+- print:
+  - ヒヨリ
+  - ひょっとして、
+- wait:
+  - 5
+- print:
+  - ヒヨリ
+  - 何か知ってるの？
+- wait:
+  - 40
+- print:
+  - ヒヨリ
+  - >2
+
+- face:
+  - 100111
+  - 3
+- print:
+  - ヒヨリ
+  - あたしたちも、
+- wait:
+  - 15
+- print:
+  - ヒヨリ
+  - すっごく気になってることがあって……！
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 1
+- vo:
+  - vo_adv_2107004_046
+- face:
+  - 106113
+  - 6
+- print:
+  - ムイミ
+  - ど、
+- wait:
+  - 15
+- print:
+  - ムイミ
+  - どんなことだっ！？
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 1
+- vo:
+  - vo_adv_2107004_047
+- face:
+  - 100111
+  - 4
+- print:
+  - ヒヨリ
+  - えっと
+- wait:
+  - 30
+- print:
+  - ヒヨリ
+  - えっと、
+- wait:
+  - 55
+- print:
+  - ヒヨリ
+  - 変なコト言っちゃうかもだから
+- wait:
+  - 45
+- print:
+  - ヒヨリ
+  - >2-
+
+    笑わないでほしいんだけど……！
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 1
+- vo:
+  - vo_adv_2107004_048
+- face:
+  - 100111
+  - 4
+- print:
+  - ヒヨリ
+  - ──『現実』
+- wait:
+  - 35
+- print:
+  - ヒヨリ
+  - っていう世界が、
+- wait:
+  - 50
+- print:
+  - ヒヨリ
+  - ほんとにあるかどうか……！
+- touch: *o0
+- window_visible:
+  - false
+- still:
+  - 210700402
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 1
+- vo:
+  - vo_adv_2107004_049
+- face:
+  - 106113
+  - 2
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ムイミ
+  - おおおっ！
+- wait:
+  - 15
+- print:
+  - ムイミ
+  - >2-
+
+    思い出したのかっ、
+- wait:
+  - 10
+- print:
+  - ムイミ
+  - ヒヨリっ……！？
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 1
+- vo:
+  - vo_adv_2107004_050
+- face:
+  - 100111
+  - 6
+- print:
+  - ヒヨリ
+  - あっ、
+- wait:
+  - 30
+- print:
+  - ヒヨリ
+  - ちゃんと思い出せたわけじゃなくて！
+- wait:
+  - 45
+- print:
+  - ヒヨリ
+  - >2
+
+- face:
+  - 100111
+  - 4
+- print:
+  - ヒヨリ
+  - フィオちゃんが、
+- wait:
+  - 30
+- print:
+  - ヒヨリ
+  - もう一つの世界を夢の中で見せてくれて、
+- wait:
+  - 60
+- print:
+  - ヒヨリ
+  - >2-
+
+    教えてくれたって感じなんだけど……！
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 1
+- vo:
+  - vo_adv_2107004_051
+- face:
+  - 106113
+  - 2
+- print:
+  - ムイミ
+  - フィオ！
+- wait:
+  - 35
+- print:
+  - ムイミ
+  - >2-
+
+    そっかぁ、
+- wait:
+  - 30
+- print:
+  - ムイミ
+  - あいつも生きてるのか……！
+- wait:
+  - 35
+- print:
+  - ムイミ
+  - >2-
+
+    消えちゃったかもって思ったぞ！
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 1
+- vo:
+  - vo_adv_2107004_052
+- face:
+  - 100111
+  - 6
+- print:
+  - ヒヨリ
+  - えっ！？
+- wait:
+  - 30
+- print:
+  - ヒヨリ
+  - >2-
+
+    消えちゃったかもって、
+- wait:
+  - 10
+- print:
+  - ヒヨリ
+  - どういうことっ……？
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 1
+- vo:
+  - vo_adv_2107004_053
+- face:
+  - 106113
+  - 6
+- print:
+  - ムイミ
+  - うーんと、
+- wait:
+  - 30
+- print:
+  - ムイミ
+  - その。
+- wait:
+  - 20
+- print:
+  - ムイミ
+  - >2
+
+- face:
+  - 106113
+  - 1
+- print:
+  - ムイミ
+  - 説明すると、
+- wait:
+  - 20
+- print:
+  - ムイミ
+  - 長くなるんだけど……
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 1
+- vo:
+  - vo_adv_2107004_054
+- face:
+  - 106113
+  - 1
+- print:
+  - ムイミ
+  - この世界はもともと、
+- wait:
+  - 35
+- print:
+  - ムイミ
+  - 晶たち七冠が創り出した、
+- wait:
+  - 65
+- print:
+  - ムイミ
+  - 架空のものでさ。
+- wait:
+  - 40
+- print:
+  - ムイミ
+  - >2-
+
+    『現実』ってとこと繋がってたんだ。
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 1
+- vo:
+  - vo_adv_2107004_055
+- face:
+  - 106113
+  - 6
+- print:
+  - ムイミ
+  - でも前に
+- wait:
+  - 30
+- print:
+  - ムイミ
+  - 『事件』が起きて、
+- wait:
+  - 40
+- print:
+  - ムイミ
+  - その繋がりが切り離された。
+- wait:
+  - 60
+- print:
+  - ムイミ
+  - >2
+
+- face:
+  - 106113
+  - 1
+- print:
+  - ムイミ
+  - そのときに一回、
+- wait:
+  - 30
+- print:
+  - ムイミ
+  - 世界が創り直されたんだよ。
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 1
+- vo:
+  - vo_adv_2107004_056
+- face:
+  - 100111
+  - 6
+- print:
+  - ヒヨリ
+  - えっ、
+- wait:
+  - 30
+- print:
+  - ヒヨリ
+  - えええっ……？
+- wait:
+  - 55
+- print:
+  - ヒヨリ
+  - >2
+
+- face:
+  - 100111
+  - 4
+- print:
+  - ヒヨリ
+  - 世界って
+- wait:
+  - 30
+- print:
+  - ヒヨリ
+  - 創ったり、
+- wait:
+  - 25
+- print:
+  - ヒヨリ
+  - 創りなおしたりできるの……？
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 1
+- vo:
+  - vo_adv_2107004_057
+- face:
+  - 106113
+  - 6
+- print:
+  - ムイミ
+  - あーうーん、
+- wait:
+  - 60
+- print:
+  - ムイミ
+  - 今のオマエにネットワークやゲームの話をしても
+- wait:
+  - 55
+- print:
+  - ムイミ
+  - >2-
+
+    チンプンカンプンだろうから……
+- wait:
+  - 30
+- face:
+  - 106113
+  - 2
+- print:
+  - ムイミ
+  - ひとまず納得してほしい。
+- wait:
+  - 45
+- print:
+  - ムイミ
+  - >2-
+
+    説明ヘタでゴメンな。
+- wait:
+  - 45
+- print:
+  - ムイミ
+  - そこらへんは晶かネネカにでも聞いてくれ。
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 1
+- vo:
+  - vo_adv_2107004_058
+- face:
+  - 106113
+  - 1
+- print:
+  - ムイミ
+  - でさ。
+- wait:
+  - 30
+- print:
+  - ムイミ
+  - 『創り直される前の世界』で、
+- wait:
+  - 50
+- print:
+  - ムイミ
+  - >2-
+
+    オマエら【トゥインクルウィッシュ】と{0}は、
+- wait:
+  - 45
+- print:
+  - ムイミ
+  - >2-
+
+    真那の……
+- wait:
+  - 35
+- print:
+  - ムイミ
+  - 覇瞳皇帝の野望を止めるために戦ったんだけど。
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 1
+- vo:
+  - vo_adv_2107004_059
+- face:
+  - 106113
+  - 3
+- print:
+  - ムイミ
+  - その最後のとき、
+- wait:
+  - 45
+- print:
+  - ムイミ
+  - >2-
+
+    フィオは自分の身を犠牲にして
+- wait:
+  - 50
+- print:
+  - ムイミ
+  - >2-
+
+    オマエたちを助けた……
+- wait:
+  - 50
+- face:
+  - 106113
+  - 4
+- print:
+  - ムイミ
+  - はずなんだよ。
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 1
+- vo:
+  - vo_adv_2107004_060
+- face:
+  - 100111
+  - 6
+- print:
+  - ヒヨリ
+  - はず、
+- wait:
+  - 35
+- print:
+  - ヒヨリ
+  - って？
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 1
+- vo:
+  - vo_adv_2107004_061
+- face:
+  - 106113
+  - 4
+- print:
+  - ムイミ
+  - ん……
+- wait:
+  - 25
+- face:
+  - 106113
+  - 1
+- print:
+  - ムイミ
+  - ぶっちゃけ、
+- wait:
+  - 15
+- print:
+  - ムイミ
+  - アタシはその場にいたわけじゃないから。
+- wait:
+  - 35
+- print:
+  - ムイミ
+  - >2-
+
+    晶がどうにかハッキングでオマエらを助けようとして……
+- wait:
+  - 60
+- print:
+  - ムイミ
+  - それを
+- wait:
+  - 25
+- print:
+  - ムイミ
+  - >2-
+
+    近くで見てたくらいで。
+- wait:
+  - 60
+- face:
+  - 106113
+  - 4
+- print:
+  - ムイミ
+  - だから、
+- wait:
+  - 10
+- print:
+  - ムイミ
+  - 断片的なことしか知らないんだ。
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 1
+- vo:
+  - vo_adv_2107004_062
+- face:
+  - 100111
+  - 6
+- print:
+  - ヒヨリ
+  - そ、
+- wait:
+  - 30
+- print:
+  - ヒヨリ
+  - そうなんだ……？
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 1
+- vo:
+  - vo_adv_2107004_063
+- face:
+  - 106113
+  - 1
+- print:
+  - ムイミ
+  - うん……
+- wait:
+  - 30
+- print:
+  - ムイミ
+  - >2-
+
+    そのせいでアタシは、
+- wait:
+  - 30
+- print:
+  - ムイミ
+  - >2-
+
+    草野優衣……
+- wait:
+  - 45
+- print:
+  - ムイミ
+  - ユイのことを、
+- wait:
+  - 15
+- print:
+  - ムイミ
+  - うたがっちゃった。
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 1
+- vo:
+  - vo_adv_2107004_064
+- face:
+  - 106113
+  - 4
+- print:
+  - ムイミ
+  - あんな優しいやつに、
+- wait:
+  - 30
+- print:
+  - ムイミ
+  - こんなの……
+- wait:
+  - 30
+- print:
+  - ムイミ
+  - できるわけないのに。
+- wait:
+  - 55
+- print:
+  - ムイミ
+  - >2-
+
+    アストルムの世界を『現実』から切り離して、
+- wait:
+  - 50
+- print:
+  - ムイミ
+  - >2-
+
+    みんなを閉じ込めるようなこと……
+- wait:
+  - 50
+- print:
+  - ムイミ
+  - あのユイに、
+- wait:
+  - 30
+- print:
+  - ムイミ
+  - できるわけ……
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 1
+- vo:
+  - vo_adv_2107004_065
+- face:
+  - 100111
+  - 6
+- print:
+  - ヒヨリ
+  - ユイちゃん……
+- wait:
+  - 45
+- print:
+  - ヒヨリ
+  - >2-
+
+    あっ……！
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 1
+- vo:
+  - vo_adv_2107004_066
+- face:
+  - 100111
+  - 6
+- print:
+  - ヒヨリ
+  - フィオちゃんも、
+- wait:
+  - 20
+- print:
+  - ヒヨリ
+  - ユイちゃんのことをすっごく気にしてたんだよ！
+- wait:
+  - 45
+- print:
+  - ヒヨリ
+  - >2
+
+- face:
+  - 100111
+  - 4
+- print:
+  - ヒヨリ
+  - でもレイさんもあたしも、
+- wait:
+  - 30
+- print:
+  - ヒヨリ
+  - それがどうしてなのか
+- wait:
+  - 15
+- print:
+  - ヒヨリ
+  - >2-
+
+    ぜんぜんわかんなくってっ。
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
+- window_visible:
+  - FALSE
+- black_out:
+  - 1
+  - 1
+- background:
+  - 500361
+- still:
+  - end
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 100111
+  - RC
+  - 4
+- chara_full:
+  - 106113
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M134
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2107004_067
+- face:
+  - 100111
+  - 4
+- print:
+  - ヒヨリ
+  - ……それにフィオちゃん、
+- wait:
+  - 45
+- print:
+  - ヒヨリ
+  - >2-
+
+    あたしたちの知ってるフィオちゃんじゃなくなってたし。
+- wait:
+  - 70
+- print:
+  - ヒヨリ
+  - >2-
+
+    また話を聞きたくても、
+- wait:
+  - 40
+- print:
+  - ヒヨリ
+  - いなくなってるみたいだったし……
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2107004_068
+- face:
+  - 100111
+  - 4
+- nod:
+  - 100111
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ヒヨリ
+  - ねぇノウェムちゃん、
+- wait:
+  - 25
+- print:
+  - ヒヨリ
+  - お願いっ。
+- wait:
+  - 30
+- print:
+  - ヒヨリ
+  - >2-
+
+    知ってること、
+- wait:
+  - 10
+- print:
+  - ヒヨリ
+  - 教えてほしいんだっ。
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2107004_069
+- face:
+  - 100111
+  - 4
+- print:
+  - ヒヨリ
+  - ユイちゃんに何があったの？
+- wait:
+  - 45
+- print:
+  - ヒヨリ
+  - >2-
+
+    あたしたちは、
+- wait:
+  - 15
+- print:
+  - ヒヨリ
+  - どうすればいいの？
+- wait:
+  - 50
+- print:
+  - ヒヨリ
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - ヒヨリ
+  - 『前の世界』とか、
+- wait:
+  - 45
+- eye_open:
+  - True
+- print:
+  - ヒヨリ
+  - 『現実』とか……
+- wait:
+  - 60
+- face:
+  - 100111
+  - 3
+- print:
+  - ヒヨリ
+  - もう、
+- wait:
+  - 15
+- print:
+  - ヒヨリ
+  - モヤモヤしたくないから！
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_2107004_070
+- face:
+  - 106113
+  - 2
+- nod:
+  - 106113
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ムイミ
+  - ……ん……
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_2107004_071
+- face:
+  - 106113
+  - 1
+- print:
+  - ムイミ
+  - さっきも言ったけど、
+- wait:
+  - 25
+- print:
+  - ムイミ
+  - >2-
+
+    アタシも真相を全部知ってるわけじゃない。
+- wait:
+  - 50
+- print:
+  - ムイミ
+  - >2-
+
+    でも……
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_2107004_072
+- face:
+  - 106113
+  - 3
+- print:
+  - ムイミ
+  - でも、
+- wait:
+  - 25
+- print:
+  - ムイミ
+  - これはすごく大事な話だ。
+- wait:
+  - 45
+- print:
+  - ムイミ
+  - >2
+
+- face:
+  - 106113
+  - 1
+- print:
+  - ムイミ
+  - オマエがアタシを信じてくれるってんなら、
+- wait:
+  - 35
+- print:
+  - ムイミ
+  - ぜひ聞いてほしい。
+- wait:
+  - 35
+- print:
+  - ムイミ
+  - >2-
+
+    こっちから頼む。
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_2107004_073
+- face:
+  - 106113
+  - 4
+- print:
+  - ムイミ
+  - …………でも……
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2107004_074
+- face:
+  - 100111
+  - 6
+- print:
+  - ヒヨリ
+  - でも？
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_2107004_075
+- face:
+  - 106113
+  - 1
+- print:
+  - ムイミ
+  - ……これは、
+- wait:
+  - 5
+- print:
+  - ムイミ
+  - たぶん……
+- wait:
+  - 35
+- print:
+  - ムイミ
+  - >2-
+
+    オマエとレイにとって、
+- wait:
+  - 25
+- print:
+  - ムイミ
+  - きっと……
+- wait:
+  - 45
+- print:
+  - ムイミ
+  - すごくつらい話でもあるはずだ。
+- wait:
+  - 80
+- print:
+  - ムイミ
+  - >2-
+
+    ……それでも、
+- wait:
+  - 25
+- print:
+  - ムイミ
+  - いいか？
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2107004_076
+- face:
+  - 100111
+  - 6
+- print:
+  - ヒヨリ
+  - …………
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2107004_077
+- face:
+  - 100111
+  - 3
+- nod:
+  - 100111
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ヒヨリ
+  - ……うん。
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_2107004_078
+- face:
+  - 100111
+  - 1
+- print:
+  - ヒヨリ
+  - ノウェムちゃんがそこまで言うってことは、
+- wait:
+  - 35
+- print:
+  - ヒヨリ
+  - >2-
+
+    きっと本当に、
+- wait:
+  - 15
+- print:
+  - ヒヨリ
+  - つらいお話なんだって思うけど。
+- wait:
+  - 65
+- print:
+  - ヒヨリ
+  - >2
+
+- face:
+  - 100111
+  - 3
+- print:
+  - ヒヨリ
+  - だからこそ、
+- wait:
+  - 40
+- print:
+  - ヒヨリ
+  - 逃げないで、
+- wait:
+  - 15
+- print:
+  - ヒヨリ
+  - ちゃんと向き合いたいんだっ！
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_2107004_079
+- face:
+  - 106113
+  - 2
+- print:
+  - ムイミ
+  - ……ふふっ。
+- wait:
+  - 30
+- print:
+  - ムイミ
+  - >2-
+
+    オマエも、
+- wait:
+  - 10
+- print:
+  - ムイミ
+  - 変わらないな。
+- wait:
+  - 35
+- print:
+  - ムイミ
+  - >2-
+
+    どんなときでも前向きで、
+- wait:
+  - 35
+- print:
+  - ムイミ
+  - 勇気があって……
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_2107004_080
+- face:
+  - 106113
+  - 2
+- nod:
+  - 106113
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ムイミ
+  - うん。
+- wait:
+  - 30
+- print:
+  - ムイミ
+  - >2-
+
+    それじゃあ、
+- wait:
+  - 5
+- print:
+  - ムイミ
+  - 話すよ。
+- wait:
+  - 30
+- print:
+  - ムイミ
+  - >2
+
+- face:
+  - 106113
+  - 1
+- print:
+  - ムイミ
+  - アタシの知ってること、
+- wait:
+  - 35
+- print:
+  - ムイミ
+  - 全部──……
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- black_out:
+  - 1
+  - 1
+- bg_color:
+  - 0
+  - 0
+  - 0
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 106412
+  - C
+  - 1
+- fadein:
+  - 106412
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_2107004_081
+- face:
+  - 106412
+  - 1
+- print:
+  - シェフィ
+  - …………
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 106412
+  - 30
+- se_pause:
+  - amb_adv_room_noise_01
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

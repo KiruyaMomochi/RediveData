@@ -1,0 +1,278 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 501230
+- amb:
+  - amb_adv_wind_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 魔物の姫について
+- chara_full:
+  - 105213
+  - C
+  - 4
+- fadein:
+  - 105213
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M353_03
+  - 0
+  - 0
+  - 1
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_6061106_000
+- face:
+  - 105213
+  - 4
+- print:
+  - リマ
+  - 魔物の姫様、
+- wait:
+  - 40
+- print:
+  - リマ
+  - 強くて美しかったけど、
+- wait:
+  - 45
+- print:
+  - リマ
+  - 寂しかったのね……
+- wait:
+  - 55
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105213
+  - 1
+- print:
+  - リマ
+  - 同じ獣の姿を持つ者同士、
+- wait:
+  - 65
+- print:
+  - リマ
+  - 共感しちゃうわね。
+- wait:
+  - 55
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105213
+  - 4
+- print:
+  - リマ
+  - どうか幸せになってくれればいいのだけど。
+- touch: &o0 []
+- choice:
+  - 絶対なれるよ。
+  - 1
+  - 1
+- choice:
+  - リマちゃんと会えたから大丈夫だよ。
+  - 2
+  - 2
+- choice:
+  - また会いに行こう。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_6061106_001
+- face:
+  - 105213
+  - 1
+- nod:
+  - 105213
+- print:
+  - リマ
+  - うん、
+- wait:
+  - 35
+- print:
+  - リマ
+  - ロイドさん
+- wait:
+  - 20
+- print:
+  - リマ
+  - いい人だもんね。
+- wait:
+  - 50
+- print:
+  - リマ
+  - 姫様のことを思い出したら
+- wait:
+  - 40
+- print:
+  - リマ
+  - >2-
+
+    きっと昔みたいに仲良くやれるわよ。
+- wait:
+  - 65
+- face:
+  - 105213
+  - 2
+- print:
+  - リマ
+  - 二人の絆を信じましょ！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_6061106_002
+- face:
+  - 105213
+  - 6
+- print:
+  - リマ
+  - そう、
+- wait:
+  - 30
+- print:
+  - リマ
+  - かしら……
+- wait:
+  - 45
+- face:
+  - 105213
+  - 1
+- print:
+  - リマ
+  - でも、
+- wait:
+  - 25
+- print:
+  - リマ
+  - 私と会ったことで
+- wait:
+  - 40
+- print:
+  - リマ
+  - 自分は一人じゃないって
+- wait:
+  - 20
+- print:
+  - リマ
+  - >2-
+
+    気付いてくれたみたいだから、
+- wait:
+  - 40
+- face:
+  - 105213
+  - 2
+- print:
+  - リマ
+  - きっと大丈夫ね。
+- wait:
+  - 45
+- print:
+  - リマ
+  - >2-
+
+    お友達の存在って
+- wait:
+  - 40
+- print:
+  - リマ
+  - すごく大きいから。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_6061106_003
+- face:
+  - 105213
+  - 2
+- emotion:
+  - twinkle1_R
+  - 105213
+  - 145
+  - 540
+  - se_adv_emote_twinkle_01
+- print:
+  - リマ
+  - そうね！　
+- wait:
+  - 30
+- face:
+  - 105213
+  - 1
+- print:
+  - リマ
+  - >-
+    今度は【牧場（エリザベスパーク）】の
+
+    みんなを紹介したいわ。
+- wait:
+  - 50
+- print:
+  - リマ
+  - 私の大切な仲間だもの、
+- wait:
+  - 60
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105213
+  - 2
+- print:
+  - リマ
+  - 絶対にお友達になれるわよね♪
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 105213
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

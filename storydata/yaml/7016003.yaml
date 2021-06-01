@@ -1,0 +1,1466 @@
+- title:
+  - 離家出走的真相
+- outline:
+  - 宮子會離家出走，是因為她先一步吃了公會成員為了紀念日所準備的布丁，惹了眾怒。得知原因的千歌對宮子一番教誨，於是宮子便生氣的離開了。
+- background:
+  - 500430
+- amb:
+  - amb_adv_guildhouse_mist_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 離家出走的真相
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 宮子遠遠地走在前頭，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    {0}與千歌好不容易才跟上了。
+- wait:
+  - 30
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_04
+- window_visible:
+  - TRUE
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──嘎喔喔喔喔喔！
+- sway:
+  - 1611
+- touch: *o0
+- window_visible:
+  - FALSE
+- updown:
+  - 1611
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1611
+  - 30
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 100711
+  - C
+  - 2
+- fadein:
+  - 100711
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M157_Inside
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_7016003_000
+- face:
+  - 100711
+  - 2
+- emotion:
+  - note1_L
+  - 100711
+  - -70
+  - 520
+  - se_adv_emote_note_01
+- print:
+  - 宮子
+  - 太棒了哟！
+- wait:
+  - 35
+- print:
+  - 宮子
+  - 輕輕鬆鬆來的！
+- wait:
+  - 50
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 1
+- print:
+  - 宮子
+  - 就照這個節奏繼續前進！
+- touch: *o0
+- window_visible:
+  - false
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 100711
+  - 30
+- chara_full:
+  - 104211
+  - C
+  - 1
+- fadein:
+  - 104211
+  - 30
+- window_visible:
+  - true
+- se:
+  - se_adv_song_call_fairy_01
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- print:
+  - 精靈
+  - ──！
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_7016003_001
+- face:
+  - 104211
+  - 1
+- print:
+  - 千歌
+  - 嗯嗯，
+- wait:
+  - 50
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 4
+- print:
+  - 千歌
+  - 那個，
+- wait:
+  - 20
+- print:
+  - 千歌
+  - 差不多該……
+- touch: *o0
+- choice:
+  - 要稍微休息一下嗎？
+  - 1
+- tag:
+  - 1
+- se_effect:
+  - 3
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_7016003_002
+- face:
+  - 104211
+  - 1
+- nod:
+  - 104211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 千歌
+  - 嗯，
+- wait:
+  - 30
+- print:
+  - 千歌
+  - 是啊。
+- wait:
+  - 45
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 6
+- print:
+  - 千歌
+  - 宮子小姐！
+- wait:
+  - 15
+- print:
+  - 千歌
+  - 請等一下！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 104211
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 104211
+  - L
+  - 6
+- chara_full:
+  - 100711
+  - RC
+  - 6
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- se_effect:
+  - 0
+- change:
+  - LC
+  - L
+  - 30
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_7016003_003
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - 已經要休息了嗎？
+- wait:
+  - 60
+- print:
+  - 宮子
+  - >2-
+
+    真的是拿你們沒辦法。
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_7016003_004
+- face:
+  - 100711
+  - 1
+- print:
+  - 宮子
+  - 或者說還有布丁嗎！？
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_7016003_005
+- face:
+  - 104211
+  - 4
+- print:
+  - 千歌
+  - 已經沒有布丁了……
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_7016003_006
+- face:
+  - 100711
+  - 3
+- pop:
+  - 100711
+- se:
+  - se_adv_rabbit_jump_01
+- print:
+  - 宮子
+  - 那就趕快前進吧！
+- wait:
+  - 50
+- print:
+  - 宮子
+  - >2-
+
+    趕快結束，再給人家布丁～！
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_7016003_007
+- face:
+  - 104211
+  - 4
+- print:
+  - 千歌
+  - 那個……
+- wait:
+  - 40
+- print:
+  - 千歌
+  - 宮子小姐，
+- wait:
+  - 40
+- print:
+  - 千歌
+  - 妳從剛剛看起來就心情不太好……
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_7016003_008
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - ……沒有那種事。
+- wait:
+  - 45
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 1
+- print:
+  - 宮子
+  - 宮子只要有布丁，心情一直都很好的哟。
+- wait:
+  - 80
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 4
+- print:
+  - 宮子
+  - 不過現在已經沒有布丁就是了……
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_7016003_009
+- face:
+  - 104211
+  - 6
+- print:
+  - 千歌
+  - 是剛剛
+- wait:
+  - 25
+- print:
+  - 千歌
+  - >-
+    和【惡魔偽王國軍】的大家說過話之後
+
+    開始的吧？
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_7016003_010
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - 就說那個話題已經結束了啦！
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_7016003_011
+- face:
+  - 104211
+  - 6
+- print:
+  - 千歌
+  - 如果發生了什麼事，
+- wait:
+  - 40
+- print:
+  - 千歌
+  - 能說說詳細經過嗎？
+- wait:
+  - 85
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 4
+- print:
+  - 千歌
+  - 而且這孩子看起來也很在意……
+- touch: *o0
+- se:
+  - se_adv_song_call_fairy_01
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- print:
+  - 精靈
+  - ──！
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_7016003_012
+- face:
+  - 104211
+  - 3
+- nod:
+  - 104211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 千歌
+  - 最重要的是，
+- wait:
+  - 35
+- print:
+  - 千歌
+  - 如果這件事我們能助上一臂之力，我們也希望幫上忙。
+- touch: *o0
+- choice:
+  - 方便的話就說說吧。
+  - 2
+- tag:
+  - 2
+- bgm:
+  - stop
+  - 9
+  - 1
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_7016003_013
+- face:
+  - 100711
+  - 4
+- print:
+  - 宮子
+  - ……人家知道了。
+- wait:
+  - 35
+- print:
+  - 宮子
+  - >2-
+
+    既然你們都這麼說了，就告訴你們吧。
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_7016003_014
+- face:
+  - 104211
+  - 1
+- print:
+  - 千歌
+  - 好的……
+- touch: *o0
+- bgm:
+  - bgm_M203_Inside
+  - 0
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_7016003_015
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - 前陣子
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 是公會創建紀念日，
+- wait:
+  - 65
+- print:
+  - 宮子
+  - >2-
+
+    大家一起準備了豪華的布丁……
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_7016003_016
+- face:
+  - 100711
+  - 2
+- print:
+  - 宮子
+  - 那可是很豪華的布丁耶！
+- wait:
+  - 70
+- face:
+  - 100711
+  - 4
+- print:
+  - 宮子
+  - 可是……
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_7016003_017
+- face:
+  - 104211
+  - 6
+- print:
+  - 千歌
+  - 可是……？
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_7016003_018
+- face:
+  - 100711
+  - 3
+- pop:
+  - 100711
+- print:
+  - 宮子
+  - 宮子只是先吃了布丁而已，
+- wait:
+  - 45
+- print:
+  - 宮子
+  - >2-
+
+    大家就突然生氣了！
+- wait:
+  - 45
+- print:
+  - 宮子
+  - >2-
+
+    他們太奇怪了！
+- touch: *o0
+- choice:
+  - 那個……
+  - 3
+- tag:
+  - 3
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_7016003_019
+- face:
+  - 104211
+  - 4
+- print:
+  - 千歌
+  - 這也太……
+- touch: *o0
+- choice:
+  - 是宮子不對。
+  - 4
+- choice:
+  - 是大家不對。
+  - 5
+- tag:
+  - 4
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_7016003_020
+- face:
+  - 104211
+  - 6
+- print:
+  - 千歌
+  - 對、
+- wait:
+  - 25
+- print:
+  - 千歌
+  - 對啊……
+- wait:
+  - 45
+- face:
+  - 104211
+  - 4
+- print:
+  - 千歌
+  - 再怎麼說這也是宮子小姐不對……
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_7016003_021
+- face:
+  - 100711
+  - 3
+- emotion:
+  - anger1_R
+  - 100711
+  - -90
+  - 535
+  - se_adv_emote_anger_01
+- print:
+  - 宮子
+  - 真是的，
+- wait:
+  - 15
+- print:
+  - 宮子
+  - 什麼嘛！
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 你們也和大家說一樣的話！
+- touch: *o0
+- goto:
+  - 6
+- tag:
+  - 5
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_7016003_022
+- face:
+  - 104211
+  - 6
+- emotion:
+  - sweat2_R
+  - 104211
+  - 75
+  - 540
+  - se_adv_emote_sweat_02
+- print:
+  - 千歌
+  - 是、
+- wait:
+  - 10
+- print:
+  - 千歌
+  - 是大家不對嗎？
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_7016003_023
+- face:
+  - 100711
+  - 1
+- print:
+  - 宮子
+  - 沒錯哟！
+- wait:
+  - 20
+- face:
+  - 100711
+  - 2
+- print:
+  - 宮子
+  - 你們果然瞭解呢！
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_7016003_024
+- face:
+  - 104211
+  - 6
+- print:
+  - 千歌
+  - 是、
+- wait:
+  - 15
+- print:
+  - 千歌
+  - 是嗎？
+- wait:
+  - 50
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 4
+- print:
+  - 千歌
+  - 再怎麼說也是
+- wait:
+  - 35
+- print:
+  - 千歌
+  - 公會的大家比較可憐不是嗎？
+- touch: *o0
+- tag:
+  - 6
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_7016003_025
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - 反正那也是為了讓宮子吃掉才準備來的！
+- wait:
+  - 80
+- print:
+  - 宮子
+  - >2
+
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - 既然如此，還因為人家吃了而生氣，太奇怪了吧！
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_7016003_026
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - 他們會那樣生氣，
+- wait:
+  - 40
+- print:
+  - 宮子
+  - 是因為根本不在乎宮子來的！
+- wait:
+  - 70
+- print:
+  - 宮子
+  - >2-
+
+    人家最討厭那些薄情的人了！
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_7016003_027
+- face:
+  - 104211
+  - 4
+- print:
+  - 千歌
+  - 我覺得
+- wait:
+  - 35
+- print:
+  - 千歌
+  - 不是這樣……
+- wait:
+  - 55
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 6
+- print:
+  - 千歌
+  - 那是紀念日對吧？
+- wait:
+  - 50
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 4
+- print:
+  - 千歌
+  - 既然如此，
+- wait:
+  - 30
+- print:
+  - 千歌
+  - 什麼時候、
+- wait:
+  - 15
+- print:
+  - 千歌
+  - 和誰一起吃應該很重要才是。
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_7016003_028
+- face:
+  - 104211
+  - 1
+- print:
+  - 千歌
+  - 大家一定是
+- wait:
+  - 30
+- print:
+  - 千歌
+  - 想要一邊和宮子小姐一起
+- wait:
+  - 35
+- print:
+  - 千歌
+  - >-
+    慶祝，
+
+    一邊享用吧？
+- wait:
+  - 70
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 4
+- print:
+  - 千歌
+  - 正因為她們很重視與宮子小姐之間的回憶，
+- wait:
+  - 45
+- print:
+  - 千歌
+  - 所以才會生氣……
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_7016003_029
+- face:
+  - 100711
+  - 3
+- pop:
+  - 100711
+- se:
+  - se_adv_rabbit_jump_01
+- print:
+  - 宮子
+  - 人家才不知道！
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_7016003_030
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - 比起不能吃的回憶，
+- wait:
+  - 40
+- print:
+  - 宮子
+  - 可以吃的布丁更重要來的！
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_7016003_031
+- face:
+  - 104211
+  - 6
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 千歌
+  - 就算這樣！
+- wait:
+  - 45
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 3
+- print:
+  - 千歌
+  - ……就算這樣，
+- wait:
+  - 40
+- print:
+  - 千歌
+  - >-
+    我還是覺得，是不重視與大家之間回憶的
+
+    宮子小姐不對。
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_7016003_032
+- face:
+  - 100711
+  - 4
+- print:
+  - 宮子
+  - 人家知道了。
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_7016003_033
+- face:
+  - 104211
+  - 6
+- print:
+  - 千歌
+  - 宮子小姐……
+- touch: *o0
+- bgm:
+  - stop
+  - 11
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_7016003_034
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - 千歌也和大家一樣！
+- wait:
+  - 40
+- print:
+  - 宮子
+  - 根本不在乎宮子！
+- wait:
+  - 50
+- print:
+  - 宮子
+  - >2-
+
+    人家完──全明白了！
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_7016003_035
+- face:
+  - 104211
+  - 3
+- print:
+  - 千歌
+  - 宮子小姐！
+- touch: *o0
+- bgm:
+  - bgm_M137
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_7016003_036
+- face:
+  - 100711
+  - 3
+- emotion:
+  - anger1_R
+  - 100711
+  - -90
+  - 535
+  - se_adv_emote_anger_01
+- print:
+  - 宮子
+  - 人家不管了！
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 不進什麼千歌的公會了！
+- wait:
+  - 40
+- print:
+  - 宮子
+  - >2-
+
+    就在這裡分道揚鑣來的！
+- wait:
+  - 25
+- print:
+  - 宮子
+  - 再見哟！
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_7016003_037
+- face:
+  - 100711
+  - 3
+- eye_open:
+  - False
+- print:
+  - 宮子
+  - 哼！
+- touch: *o0
+- window_visible:
+  - false
+- change:
+  - R
+  - RC
+  - 30
+- fadeout_all:
+  - 30
+- chara_full:
+  - 104211
+  - C
+  - 6
+- fadein:
+  - 104211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_7016003_038
+- face:
+  - 104211
+  - 6
+- print:
+  - 千歌
+  - 宮子小……
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_7016003_039
+- face:
+  - 104211
+  - 4
+- print:
+  - 千歌
+  - 走掉了呢……
+- wait:
+  - 60
+- print:
+  - 千歌
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 千歌
+  - 對不起，
+- wait:
+  - 40
+- eye_open:
+  - True
+- print:
+  - 千歌
+  - 我說得太過份了……
+- touch: *o0
+- se:
+  - se_adv_song_call_fairy_01
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- print:
+  - 精靈
+  - ──！
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_7016003_040
+- face:
+  - 104211
+  - 4
+- print:
+  - 千歌
+  - 抱歉……
+- wait:
+  - 50
+- print:
+  - 千歌
+  - 我說得那麼大聲，
+- wait:
+  - 50
+- print:
+  - 千歌
+  - 還嚇到你……
+- touch: *o0
+- choice:
+  - 不要沮喪。
+  - 7
+- choice:
+  - 我覺得千歌說的對。
+  - 8
+- tag:
+  - 7
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_7016003_041
+- face:
+  - 104211
+  - 1
+- print:
+  - 千歌
+  - 謝謝你這麼安慰我。
+- wait:
+  - 55
+- print:
+  - 千歌
+  - >2-
+
+    你很溫柔呢……
+- touch: *o0
+- goto:
+  - 9
+- tag:
+  - 8
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_7016003_042
+- face:
+  - 104211
+  - 4
+- print:
+  - 千歌
+  - 可是，
+- wait:
+  - 45
+- print:
+  - 千歌
+  - 我卻傷害了宮子小姐……
+- touch: *o0
+- tag:
+  - 9
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_7016003_043
+- face:
+  - 104211
+  - 1
+- print:
+  - 千歌
+  - 如果
+- wait:
+  - 25
+- print:
+  - 千歌
+  - 還能見到宮子小姐，
+- wait:
+  - 35
+- print:
+  - 千歌
+  - 我想要好好向她道歉。
+- wait:
+  - 50
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 4
+- print:
+  - 千歌
+  - 如果還能見到的話……
+- touch: *o0
+- choice:
+  - 一定還會見面的。
+  - 10
+- tag:
+  - 10
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_7016003_044
+- face:
+  - 104211
+  - 1
+- nod:
+  - 104211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 千歌
+  - ……是啊。
+- wait:
+  - 35
+- print:
+  - 千歌
+  - >2
+
+- face:
+  - 104211
+  - 3
+- print:
+  - 千歌
+  - 也不能總是這樣沮喪，
+- wait:
+  - 50
+- print:
+  - 千歌
+  - >2-
+
+    繼續前進吧。
+- touch: *o0
+- window_visible:
+  - FALSE
+- se_effect:
+  - 3
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - RC
+  - C
+  - 30
+- se_effect:
+  - 0
+- fadeout:
+  - 104211
+  - 30
+- vo_effect:
+  - 0
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - '{0}與千歌幾乎沉默的繼續前行。'
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

@@ -1,0 +1,278 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500010
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 夢にまで見たドレス
+- chara_full:
+  - 115812
+  - C
+  - 2
+- fadein:
+  - 115812
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M452
+  - 0
+  - 0
+  - 1
+- focus:
+  - 115812
+- bust:
+  - 115812
+  - 0
+- vo:
+  - vo_adv_6061102_000
+- face:
+  - 115812
+  - 2
+- emotion:
+  - twinkle1_R
+  - 115812
+  - 140
+  - 450
+  - se_adv_emote_twinkle_01
+- print:
+  - リマ
+  - 見て見てこのドレス！　
+- wait:
+  - 50
+- face:
+  - 115812
+  - 1
+- print:
+  - リマ
+  - 一生縁がないと思ってたのに、
+- wait:
+  - 55
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 115812
+  - 2
+- print:
+  - リマ
+  - ついに……
+- wait:
+  - 25
+- print:
+  - リマ
+  - ついに着れたわ！　
+- wait:
+  - 50
+- face:
+  - 115812
+  - 5
+- print:
+  - リマ
+  - あぁ、
+- wait:
+  - 30
+- print:
+  - リマ
+  - なんて素敵なのかしら……
+- touch: &o0 []
+- choice:
+  - よく似合ってるよ。
+  - 1
+  - 1
+- choice:
+  - さすがネネカさんだね。
+  - 2
+  - 2
+- choice:
+  - 僕も着てみたい。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 115812
+- bust:
+  - 115812
+  - 0
+- vo:
+  - vo_adv_6061102_001
+- face:
+  - 115812
+  - 2
+- emotion:
+  - note1_L
+  - 115812
+  - -80
+  - 510
+  - se_adv_emote_note_01
+- print:
+  - リマ
+  - ふふ、
+- wait:
+  - 30
+- print:
+  - リマ
+  - ありがと♪　
+- wait:
+  - 30
+- face:
+  - 115812
+  - 1
+- print:
+  - リマ
+  - キレイなドレスを着て褒められて、
+- wait:
+  - 45
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 115812
+  - 2
+- print:
+  - リマ
+  - 身も心もとっても軽やかだわ！
+- wait:
+  - 75
+- print:
+  - リマ
+  - >2-
+
+    今すぐにでも舞踏会に出られそうな感じよ♪
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 115812
+- bust:
+  - 115812
+  - 0
+- vo:
+  - vo_adv_6061102_002
+- face:
+  - 115812
+  - 1
+- nod:
+  - 115812
+- print:
+  - リマ
+  - ホントね。
+- wait:
+  - 35
+- print:
+  - リマ
+  - 鎧をこんなキレイなドレスにしちゃうんですもの。
+- wait:
+  - 60
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 115812
+  - 2
+- print:
+  - リマ
+  - さすが魔法使いのおばあさん……
+- wait:
+  - 50
+- face:
+  - 115812
+  - 6
+- print:
+  - リマ
+  - ってヤダ、
+- wait:
+  - 30
+- print:
+  - リマ
+  - また言っちゃったわ。
+- wait:
+  - 40
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 115812
+  - 4
+- print:
+  - リマ
+  - 怒られたばかりなんだから注意しなくちゃ。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 115812
+- bust:
+  - 115812
+  - 0
+- vo:
+  - vo_adv_6061102_003
+- face:
+  - 115812
+  - 2
+- print:
+  - リマ
+  - あらまあ！　
+- wait:
+  - 40
+- print:
+  - リマ
+  - でもいいと思うわ。
+- wait:
+  - 50
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 115812
+  - 1
+- print:
+  - リマ
+  - 男の子だってキレイなものに憧れて当然ですもの。
+- wait:
+  - 85
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 115812
+  - 2
+- print:
+  - リマ
+  - きっとすごく似合うと思うわ♪
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 115812
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

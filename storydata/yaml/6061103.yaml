@@ -1,0 +1,288 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 501240
+- amb:
+  - amb_adv_wind_01
+- ui_visible:
+  - FALSE
+- situation:
+  - はじめてのお屋敷
+- chara_full:
+  - 115812
+  - C
+  - 2
+- fadein:
+  - 115812
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M105_Introcut
+  - 0
+  - 0
+  - 1
+- focus:
+  - 115812
+- bust:
+  - 115812
+  - 0
+- vo:
+  - vo_adv_6061103_000
+- face:
+  - 115812
+  - 2
+- emotion:
+  - twinkle1_R
+  - 115812
+  - 140
+  - 450
+  - se_adv_emote_twinkle_01
+- print:
+  - リマ
+  - すごい……
+- wait:
+  - 45
+- print:
+  - リマ
+  - これが貴族のお屋敷！
+- wait:
+  - 60
+- print:
+  - リマ
+  - >2-
+
+    本の中の世界が目の前に！
+- wait:
+  - 55
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 115812
+  - 6
+- print:
+  - リマ
+  - ど、
+- wait:
+  - 15
+- print:
+  - リマ
+  - どうしよう……
+- wait:
+  - 30
+- print:
+  - リマ
+  - 今更緊張してきちゃったわ……
+- touch: &o0 []
+- choice:
+  - 今はリマちゃんもお嬢様だよ。
+  - 1
+  - 1
+- choice:
+  - 僕も緊張してきた……
+  - 2
+  - 2
+- choice:
+  - 探検してみたいね。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 115812
+- bust:
+  - 115812
+  - 0
+- vo:
+  - vo_adv_6061103_001
+- face:
+  - 115812
+  - 1
+- print:
+  - リマ
+  - そ、
+- wait:
+  - 15
+- nod:
+  - 115812
+- print:
+  - リマ
+  - そっか、
+- wait:
+  - 35
+- print:
+  - リマ
+  - 今は
+- wait:
+  - 20
+- print:
+  - リマ
+  - 格好だけはお嬢様なのよね……
+- wait:
+  - 55
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 115812
+  - 2
+- print:
+  - リマ
+  - それなら
+- wait:
+  - 25
+- print:
+  - リマ
+  - ドレスに恥じないように
+- wait:
+  - 25
+- print:
+  - リマ
+  - 堂々と行きましょう！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 115812
+- bust:
+  - 115812
+  - 0
+- vo:
+  - vo_adv_6061103_002
+- face:
+  - 115812
+  - 4
+- print:
+  - リマ
+  - あらやだ、
+- wait:
+  - 30
+- print:
+  - リマ
+  - '{0}くんも？'
+- wait:
+  - 35
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 115812
+  - 1
+- print:
+  - リマ
+  - でも、
+- wait:
+  - 25
+- print:
+  - リマ
+  - 二人で緊張していれば
+- wait:
+  - 30
+- print:
+  - リマ
+  - 心細くないわ。
+- wait:
+  - 55
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 115812
+  - 2
+- print:
+  - リマ
+  - やっぱり一人じゃないっていいわね。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 115812
+- bust:
+  - 115812
+  - 0
+- vo:
+  - vo_adv_6061103_003
+- face:
+  - 115812
+  - 4
+- print:
+  - リマ
+  - もう、
+- wait:
+  - 20
+- print:
+  - リマ
+  - 子どもじゃないんだから……
+- wait:
+  - 40
+- face:
+  - 115812
+  - 1
+- print:
+  - リマ
+  - でも、
+- wait:
+  - 15
+- print:
+  - リマ
+  - その気持ち分かるわ。
+- wait:
+  - 45
+- print:
+  - リマ
+  - >2-
+
+    こんな大きなお屋敷なら
+- wait:
+  - 45
+- print:
+  - リマ
+  - 探検してみたくもなるわよね。
+- wait:
+  - 45
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 115812
+  - 2
+- print:
+  - リマ
+  - ありがとう、
+- wait:
+  - 30
+- print:
+  - リマ
+  - おかげで緊張より楽しみの方が大きくなったわ。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 115812
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

@@ -1,0 +1,272 @@
+- title:
+  - サレンのドレスコード
+- outline:
+  - ' '
+- background:
+  - 500036
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - サレンのドレスコード
+- chara_full:
+  - 114511
+  - C
+  - 2
+- fadein:
+  - 114511
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M427
+  - 0
+  - 0
+  - 1
+- focus:
+  - 114511
+- bust:
+  - 114511
+  - 0
+- vo:
+  - vo_adv_6054201_000
+- face:
+  - 114511
+  - 2
+- print:
+  - サレン
+  - このドレスいいでしょう？
+- wait:
+  - 40
+- print:
+  - サレン
+  - >2
+
+- face:
+  - 114511
+  - 1
+- print:
+  - サレン
+  - あたしの古いドレスを、
+- wait:
+  - 25
+- print:
+  - サレン
+  - >2-
+
+    スズメが仕立て直してくれたのよ。
+- touch: &o0 []
+- choice:
+  - 寒くないの？
+  - 1
+  - 1
+- choice:
+  - キレイ。
+  - 2
+  - 2
+- choice:
+  - 似合ってる。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 114511
+- bust:
+  - 114511
+  - 0
+- vo:
+  - vo_adv_6054201_001
+- face:
+  - 114511
+  - 4
+- print:
+  - サレン
+  - まぁ、
+- wait:
+  - 30
+- print:
+  - サレン
+  - おしゃれはガマンっていうからね。
+- wait:
+  - 45
+- print:
+  - サレン
+  - >2
+
+- face:
+  - 114511
+  - 6
+- print:
+  - サレン
+  - ……え？　
+- wait:
+  - 25
+- print:
+  - サレン
+  - 上着貸してくれるの？
+- wait:
+  - 75
+- print:
+  - サレン
+  - >2
+
+- face:
+  - 114511
+  - 4
+- print:
+  - サレン
+  - ほんとはあんたも寒いくせに……
+- wait:
+  - 75
+- face:
+  - 114511
+  - 2
+- print:
+  - サレン
+  - でも、
+- wait:
+  - 35
+- print:
+  - サレン
+  - ありがと。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 114511
+- bust:
+  - 114511
+  - 0
+- vo:
+  - vo_adv_6054201_002
+- face:
+  - 114511
+  - 6
+- emotion:
+  - surprise1_L
+  - 114511
+  - 145
+  - 505
+  - se_adv_emote_common_01
+- print:
+  - サレン
+  - へっ！？　
+- wait:
+  - 15
+- print:
+  - サレン
+  - う、
+- wait:
+  - 15
+- print:
+  - サレン
+  - うん！
+- wait:
+  - 15
+- print:
+  - サレン
+  - >2
+
+- face:
+  - 114511
+  - 5
+- print:
+  - サレン
+  - ドレス！　
+- wait:
+  - 20
+- print:
+  - サレン
+  - ドレスキレイよね！！
+- wait:
+  - 50
+- print:
+  - サレン
+  - >2
+
+- face:
+  - 114511
+  - 6
+- print:
+  - サレン
+  - ……え！？　
+- wait:
+  - 20
+- print:
+  - サレン
+  - 顔が赤い！？　
+- wait:
+  - 35
+- face:
+  - 114511
+  - 5
+- print:
+  - サレン
+  - 気のせいよ！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 114511
+- bust:
+  - 114511
+  - 0
+- vo:
+  - vo_adv_6054201_003
+- face:
+  - 114511
+  - 2
+- emotion:
+  - note1_L
+  - 114511
+  - -120
+  - 460
+  - se_adv_emote_note_01
+- print:
+  - サレン
+  - ありがとう♪
+- wait:
+  - 30
+- print:
+  - サレン
+  - >2-
+
+    実は、
+- wait:
+  - 5
+- print:
+  - サレン
+  - あたしも気に入ってるの。
+- wait:
+  - 35
+- print:
+  - サレン
+  - >2-
+
+    帰ったらスズメにお礼を言わないとね！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 114511
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

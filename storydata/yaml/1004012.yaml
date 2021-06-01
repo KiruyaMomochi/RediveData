@@ -1,0 +1,3992 @@
+- title:
+  - ミソギ 第12話
+- outline:
+  - '{0}とミソギはイタズラの特訓中、魔物の大群に襲われる。イタズラのために仕掛けた罠を駆使し居合わせた人々を助けたミソギは、感謝の言葉を受けながら無邪気な笑みを浮かべるのであった。'
+- background:
+  - 500010
+- se:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - ミソギのイタズラ大作戦！
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - ある日、ミソギは{0}を呼び出していた。
+- wait:
+  - 30
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 100411
+  - C
+  - 3
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M65
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_000
+- face:
+  - 100411
+  - 3
+- nod:
+  - 100411
+- print:
+  - ミソギ
+  - にいちゃん遅いよ～！
+- wait:
+  - 45
+- print:
+  - ミソギ
+  - >2-
+
+    ミソギずっと待ってたんだからね！　
+- wait:
+  - 45
+- face:
+  - 100411
+  - 1
+- print:
+  - ミソギ
+  - さっ、
+- wait:
+  - 10
+- print:
+  - ミソギ
+  - 行こう！
+- touch: *o0
+- choice:
+  - どこに……？
+  - 1
+- tag:
+  - 1
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_001
+- face:
+  - 100411
+  - 2
+- emotion:
+  - twinkle1_R
+  - 100411
+  - -135
+  - 440
+  - se_adv_emote_twinkle_01
+- print:
+  - ミソギ
+  - 決まってるじゃん！
+- wait:
+  - 25
+- print:
+  - ミソギ
+  - >2-
+
+    イタズラの特訓だよ。
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_002
+- face:
+  - 100411
+  - 1
+- print:
+  - ミソギ
+  - この前落とし穴の目印教えちゃったからね。
+- wait:
+  - 85
+- print:
+  - ミソギ
+  - >2-
+
+    今日はにいちゃんだけじゃなくてミソギも特訓するよ！
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_003
+- face:
+  - 100411
+  - 2
+- print:
+  - ミソギ
+  - 今までのミソギより
+- wait:
+  - 25
+- print:
+  - ミソギ
+  - >2
+
+- pop:
+  - 100411
+- print:
+  - ミソギ
+  - もっとも～～っとすごいイタズラを見せるから、
+- wait:
+  - 65
+- print:
+  - ミソギ
+  - 楽しみにしててね！
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 1.7
+  - 1
+- fadeout:
+  - 100411
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- background:
+  - 500170
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_forest_01
+- chara_full:
+  - 100411
+  - C
+  - 1
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M12
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_004
+- face:
+  - 100411
+  - 1
+- nod:
+  - 100411
+- se:
+  - se_adv_step_leaves_move_01
+- print:
+  - ミソギ
+  - よ～し、
+- wait:
+  - 30
+- print:
+  - ミソギ
+  - ここなら誰にも邪魔されずに特訓できるね！
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_005
+- face:
+  - 100411
+  - 1
+- print:
+  - ミソギ
+  - ミソギはイタズラの準備をしてくるから！
+- wait:
+  - 40
+- print:
+  - ミソギ
+  - >2-
+
+    にいちゃんはちょっと待ってて！
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_006
+- face:
+  - 100411
+  - 1
+- nod:
+  - 100411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ミソギ
+  - あっ、
+- wait:
+  - 15
+- print:
+  - ミソギ
+  - もちろん目印は変えるからね！
+- wait:
+  - 55
+- print:
+  - ミソギ
+  - >2
+
+- face:
+  - 100411
+  - 2
+- print:
+  - ミソギ
+  - それに
+- wait:
+  - 15
+- print:
+  - ミソギ
+  - 今日のミソギは本気だから覚悟してて！
+- wait:
+  - 75
+- print:
+  - ミソギ
+  - >2-
+
+    それじゃあ行ってきま～す！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 100411
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_forest_01
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_forest_01
+- chara_full:
+  - 100411
+  - C
+  - 3
+- fadein:
+  - 100411
+  - 30
+- se:
+  - se_adv_cloth_move_normal_02
+- se:
+  - se_adv_bush_03
+- nod:
+  - 100411
+- wait:
+  - 15
+- window_visible:
+  - TRUE
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_007
+- face:
+  - 100411
+  - 1
+- print:
+  - ミソギ
+  - これでよしっ、
+- wait:
+  - 20
+- print:
+  - ミソギ
+  - っと！
+- wait:
+  - 35
+- print:
+  - ミソギ
+  - >2
+
+- face:
+  - 100411
+  - 2
+- print:
+  - ミソギ
+  - えへへ、
+- wait:
+  - 20
+- print:
+  - ミソギ
+  - きっとにいちゃん驚くぞ～
+- wait:
+  - 60
+- print:
+  - ミソギ
+  - >2-
+
+    楽しみだな～！
+- touch: *o0
+- se:
+  - se_adv_step_leaves_run_come_02
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_008
+- face:
+  - 100411
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100411
+  - 5
+  - 600
+  - se_adv_emote_common_01
+- print:
+  - ミソギ
+  - あっ、
+- wait:
+  - 15
+- print:
+  - ミソギ
+  - にいちゃん待っててって言ったのに
+- wait:
+  - 30
+- print:
+  - ミソギ
+  - >2-
+
+    来ちゃダメじゃん……
+- wait:
+  - 45
+- bgm:
+  - stop
+  - 3
+- print:
+  - ミソギ
+  - って、
+- wait:
+  - 30
+- print:
+  - ミソギ
+  - あれ？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100411
+  - 30
+- chara_full:
+  - 1011
+  - LC
+  - 4
+- chara_full:
+  - 311
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M21
+  - 0
+  - 0
+  - 1
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_1004012_009
+- face:
+  - 1011
+  - 4
+- print:
+  - 男性１
+  - おいもたもたするな！
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1004012_010
+- face:
+  - 311
+  - 4
+- nod:
+  - 311
+- se:
+  - se_adv_step_leaves_move_01
+- print:
+  - 男性２
+  - うるせぇ！
+- wait:
+  - 30
+- print:
+  - 男性２
+  - >2-
+
+    だいたいお前が欲張って魔物の巣なんて突っつくから！
+- touch: *o0
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_1004012_011
+- face:
+  - 1011
+  - 4
+- print:
+  - 男性１
+  - お前だって賛成してたじゃねぇか！
+- wait:
+  - 40
+- print:
+  - 男性１
+  - >2-
+
+    魔石に目がくらんだのは同じだろうが！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100411
+  - C
+  - 4
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_012
+- face:
+  - 100411
+  - 4
+- print:
+  - ミソギ
+  - にいちゃんじゃ、
+- wait:
+  - 30
+- print:
+  - ミソギ
+  - ない？
+- wait:
+  - 45
+- print:
+  - ミソギ
+  - >2
+
+- face:
+  - 100411
+  - 6
+- print:
+  - ミソギ
+  - ねえ、
+- wait:
+  - 15
+- print:
+  - ミソギ
+  - そんなに急いでどうしたの～
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100411
+  - 30
+- chara_full:
+  - 1011
+  - LC
+  - 6
+- chara_full:
+  - 311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_1004012_013
+- face:
+  - 1011
+  - 6
+- emotion:
+  - surprise1_L
+  - 1011
+  - 150
+  - 605
+  - se_adv_emote_common_01
+- print:
+  - 男性１
+  - こ、
+- wait:
+  - 5
+- print:
+  - 男性１
+  - 子ども！？　
+- wait:
+  - 25
+- print:
+  - 男性１
+  - なんでこんな所に！
+- wait:
+  - 45
+- print:
+  - 男性１
+  - >2
+
+- face:
+  - 1011
+  - 4
+- print:
+  - 男性１
+  - ここは危ないから、
+- wait:
+  - 20
+- print:
+  - 男性１
+  - キミも逃げた方がいいぞ！
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1004012_014
+- face:
+  - 311
+  - 4
+- print:
+  - 男性２
+  - 魔物の大群が追ってきてるんだよ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100411
+  - C
+  - 6
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_015
+- face:
+  - 100411
+  - 6
+- emotion:
+  - surprise1_L
+  - 100411
+  - -100
+  - 490
+  - se_adv_emote_common_01
+- print:
+  - ミソギ
+  - まっ、
+- wait:
+  - 20
+- print:
+  - ミソギ
+  - 魔物！？
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- fadeout:
+  - 100411
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- change_window:
+  - 3
+- text_size:
+  - 50
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M17_withIntro
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- effect:
+  - 9
+- print:
+  - 魔物
+  - ──グオオオオオッ！
+- shake_screen: *o0
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 1611
+  - 30
+- change_window:
+  - 1
+- text_size:
+  - 23
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 1011
+  - LC
+  - 4
+- chara_full:
+  - 311
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_1004012_016
+- face:
+  - 1011
+  - 4
+- print:
+  - 男性１
+  - ひぃっ！　
+- shake:
+  - 1011
+- se:
+  - se_adv_step_leaves_move_01
+- print:
+  - 男性１
+  - しゃべってる場合じゃなかった！
+- wait:
+  - 15
+- print:
+  - 男性１
+  - >2-
+
+    急ぐぞ！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_leaves_run_go_01
+- change:
+  - L
+  - LC
+  - 30
+- change:
+  - C
+  - RC
+  - 30
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100411
+  - C
+  - 6
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_017
+- face:
+  - 100411
+  - 6
+- pop:
+  - 100411
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - ミソギ
+  - 大変だ！　
+- wait:
+  - 25
+- print:
+  - ミソギ
+  - 早くにいちゃんにも知らせなきゃ！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_leaves_run_go_01
+- change:
+  - LC
+  - C
+  - 30
+- fadeout:
+  - 100411
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_forest_01
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_forest_01
+- chara_full:
+  - 100411
+  - RC
+  - 3
+- se:
+  - se_adv_step_leaves_run_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - RC
+  - 30
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_018
+- face:
+  - 100411
+  - 3
+- pop:
+  - 100411
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - ミソギ
+  - にいちゃ～ん！
+- wait:
+  - 20
+- print:
+  - ミソギ
+  - >2-
+
+    大変だよ～！　
+- wait:
+  - 30
+- face:
+  - 100411
+  - 4
+- print:
+  - ミソギ
+  - 勝負どころじゃなくなっちゃった～！
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_019
+- face:
+  - 100411
+  - 4
+- print:
+  - ミソギ
+  - もうすぐここに魔物の大群がくるんだって！
+- wait:
+  - 65
+- print:
+  - ミソギ
+  - >2-
+
+    その前に、
+- wait:
+  - 10
+- print:
+  - ミソギ
+  - 急いで逃げなくっちゃ！
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 100411
+  - 6
+- text_size:
+  - 50
+- window_visible:
+  - true
+- focus:
+  - 411
+- bust:
+  - 411
+  - 1
+- vo:
+  - vo_adv_1004012_020
+- face:
+  - 411
+  - 4
+- print:
+  - 女性
+  - た、
+- wait:
+  - 20
+- print:
+  - 女性
+  - 助けて～～～！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 23
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_021
+- face:
+  - 100411
+  - 6
+- emotion:
+  - surprise1_L
+  - 100411
+  - -100
+  - 490
+  - se_adv_emote_common_01
+- print:
+  - ミソギ
+  - 悲鳴！？
+- wait:
+  - 30
+- print:
+  - ミソギ
+  - >2
+
+- face:
+  - 100411
+  - 4
+- print:
+  - ミソギ
+  - も、
+- wait:
+  - 15
+- print:
+  - ミソギ
+  - もしかして逃げ遅れた人がいるの！？
+- touch: *o0
+- choice:
+  - 助けなきゃ！
+  - 2
+- tag:
+  - 2
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_022
+- face:
+  - 100411
+  - 4
+- print:
+  - ミソギ
+  - で、
+- wait:
+  - 20
+- print:
+  - ミソギ
+  - でもミソギたちだけじゃ……
+- touch: *o0
+- choice:
+  - ミソギは逃げて。
+  - 3
+- tag:
+  - 3
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_023
+- face:
+  - 100411
+  - 3
+- nod:
+  - 100411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ミソギ
+  - にいちゃんを置いて逃げられるわけないでしょ！
+- wait:
+  - 50
+- print:
+  - ミソギ
+  - >2
+
+- face:
+  - 100411
+  - 4
+- print:
+  - ミソギ
+  - だ、
+- wait:
+  - 15
+- print:
+  - ミソギ
+  - だいたい森には
+- wait:
+  - 30
+- print:
+  - ミソギ
+  - ミソギが仕掛けた罠があるから
+- wait:
+  - 25
+- print:
+  - ミソギ
+  - >2-
+
+    にいちゃんも危な……
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_024
+- face:
+  - 100411
+  - 1
+- emotion:
+  - notice2_L
+  - 100411
+  - -120
+  - 495
+  - se_adv_emote_nortice_01
+- print:
+  - ミソギ
+  - そうだ！　
+- wait:
+  - 20
+- print:
+  - ミソギ
+  - 罠があった！
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_025
+- face:
+  - 100411
+  - 1
+- print:
+  - ミソギ
+  - 魔物は怖いけど、
+- wait:
+  - 30
+- print:
+  - ミソギ
+  - いざというときは罠を使おう。
+- wait:
+  - 50
+- print:
+  - ミソギ
+  - >2
+
+- face:
+  - 100411
+  - 3
+- print:
+  - ミソギ
+  - そうすればなんとかなるかもしれないし。
+- touch: *o0
+- choice:
+  - 行ってくる！
+  - 4
+- tag:
+  - 4
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_026
+- face:
+  - 100411
+  - 3
+- nod:
+  - 100411
+- se:
+  - se_adv_step_leaves_move_01
+- print:
+  - ミソギ
+  - って、
+- wait:
+  - 15
+- print:
+  - ミソギ
+  - なんで一人で行こうとしてるの！
+- wait:
+  - 45
+- print:
+  - ミソギ
+  - >2-
+
+    にいちゃん罠の場所わからないでしょ！
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_027
+- face:
+  - 100411
+  - 3
+- print:
+  - ミソギ
+  - ミソギも一緒に行くよ。
+- wait:
+  - 40
+- print:
+  - ミソギ
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - ミソギ
+  - 止めても聞かないからね。
+- touch: *o0
+- choice:
+  - 危ないことはしちゃダメだよ？
+  - 5
+- choice:
+  - 僕が守る。
+  - 6
+- tag:
+  - 5
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_028
+- face:
+  - 100411
+  - 1
+- nod:
+  - 100411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ミソギ
+  - わかってるって！
+- wait:
+  - 30
+- print:
+  - ミソギ
+  - >2
+
+- face:
+  - 100411
+  - 4
+- print:
+  - ミソギ
+  - 怖いのはいやだもん。
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_029
+- face:
+  - 100411
+  - 3
+- print:
+  - ミソギ
+  - でもそれはにいちゃんも一緒だからね。
+- wait:
+  - 55
+- print:
+  - ミソギ
+  - >2-
+
+    無理しようとしたらミソギが止めるからね！
+- touch: *o0
+- goto:
+  - 7
+- tag:
+  - 6
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_030
+- face:
+  - 100411
+  - 2
+- print:
+  - ミソギ
+  - にいちゃんのくせにかっこいいこと
+- wait:
+  - 20
+- print:
+  - ミソギ
+  - >2-
+
+    言っちゃって～
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_031
+- face:
+  - 100411
+  - 1
+- print:
+  - ミソギ
+  - でもにいちゃんなら
+- wait:
+  - 20
+- print:
+  - ミソギ
+  - ちゃんとミソギのこと守ってくれるよね。
+- wait:
+  - 65
+- print:
+  - ミソギ
+  - >2
+
+- face:
+  - 100411
+  - 2
+- print:
+  - ミソギ
+  - その代わりミソギもにいちゃんのこと守るから安心して！
+- touch: *o0
+- tag:
+  - 7
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_032
+- face:
+  - 100411
+  - 1
+- print:
+  - ミソギ
+  - 行こう、
+- wait:
+  - 10
+- print:
+  - ミソギ
+  - にいちゃん！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1.7
+- fadeout:
+  - 100411
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- chara_full:
+  - 100411
+  - C
+  - 3
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - true
+- se:
+  - se_adv_step_leaves_move_armor_01
+- bgm:
+  - bgm_M232
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_033
+- face:
+  - 100411
+  - 3
+- print:
+  - ミソギ
+  - そこも罠があるから気を付けて。
+- wait:
+  - 45
+- print:
+  - ミソギ
+  - >2-
+
+    踏んだら逆さづりになっちゃうよ。
+- touch: *o0
+- se:
+  - se_adv_step_leaves_move_armor_01
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_034
+- face:
+  - 100411
+  - 6
+- emotion:
+  - sweat2_R
+  - 100411
+  - 80
+  - 490
+  - se_adv_emote_sweat_02
+- print:
+  - ミソギ
+  - あ～
+- wait:
+  - 15
+- print:
+  - ミソギ
+  - そこは落とし穴があるから行っちゃダメ！
+- wait:
+  - 55
+- print:
+  - ミソギ
+  - >2
+
+- face:
+  - 100411
+  - 4
+- print:
+  - ミソギ
+  - う～ミソギ、
+- wait:
+  - 30
+- print:
+  - ミソギ
+  - 罠仕掛けすぎたかな……
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_035
+- face:
+  - 100411
+  - 1
+- print:
+  - ミソギ
+  - でもその罠で最後だから、
+- wait:
+  - 35
+- print:
+  - ミソギ
+  - あとは安心だよ。
+- wait:
+  - 40
+- print:
+  - ミソギ
+  - >2
+
+- face:
+  - 100411
+  - 3
+- print:
+  - ミソギ
+  - 急ごう、
+- wait:
+  - 15
+- print:
+  - ミソギ
+  - にいちゃん。
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 50
+- window_visible:
+  - true
+- focus:
+  - 411
+- bust:
+  - 411
+  - 1
+- vo:
+  - vo_adv_1004012_036
+- face:
+  - 411
+  - 4
+- print:
+  - 女性
+  - だ、
+- wait:
+  - 15
+- print:
+  - 女性
+  - 誰か～～～！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 23
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_037
+- face:
+  - 100411
+  - 3
+- print:
+  - ミソギ
+  - あっちから声が聞こえた！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_leaves_run_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 100411
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_forest_01
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_forest_01
+- chara_full:
+  - 100411
+  - L
+  - 3
+- chara_full:
+  - 411
+  - RC
+  - 4
+- se:
+  - se_adv_step_leaves_run_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 30
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_038
+- face:
+  - 100411
+  - 3
+- print:
+  - ミソギ
+  - おねえさん！　
+- wait:
+  - 15
+- print:
+  - ミソギ
+  - 大丈夫！？
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1004012_039
+- face:
+  - 411
+  - 4
+- print:
+  - 女性
+  - はぁ……
+- wait:
+  - 35
+- nod:
+  - 411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 女性
+  - はぁ……
+- wait:
+  - 40
+- print:
+  - 女性
+  - >2-
+
+    あなたたちは……？
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_040
+- face:
+  - 100411
+  - 3
+- print:
+  - ミソギ
+  - 声が聞こえたから助けに来たよ！
+- wait:
+  - 45
+- print:
+  - ミソギ
+  - >2-
+
+    ミソギたちと一緒に逃げよう！
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1004012_041
+- face:
+  - 411
+  - 4
+- print:
+  - 女性
+  - そ、
+- wait:
+  - 20
+- print:
+  - 女性
+  - そうしたいんだけど、
+- wait:
+  - 45
+- print:
+  - 女性
+  - 足をくじいちゃって……
+- touch: *o0
+- choice:
+  - 僕が背負います。
+  - 8
+- tag:
+  - 8
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1004012_042
+- face:
+  - 411
+  - 1
+- print:
+  - 女性
+  - あ、
+- wait:
+  - 20
+- nod:
+  - 411
+- print:
+  - 女性
+  - ありがとう。
+- wait:
+  - 40
+- face:
+  - 411
+  - 2
+- print:
+  - 女性
+  - 本当に助かるわ。
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 3
+  - 1
+- fadeout_all:
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 1
+- se:
+  - se_adv_creature_cmn_group_02
+- chara_full:
+  - 1611
+  - C
+  - 1
+- chara_full:
+  - 1612
+  - L
+  - 1
+- chara_full:
+  - 1613
+  - R
+  - 1
+- wait:
+  - 15
+- fadein:
+  - 1611
+  - 30
+- bgm:
+  - bgm_M03
+- wait:
+  - 15
+- fadein:
+  - 1612
+  - 30
+- wait:
+  - 15
+- fadein:
+  - 1613
+  - 30
+- change_window:
+  - 3
+- text_size:
+  - 50
+- se:
+  - se_adv_creature_cmn_05
+- focus:
+  - 1611:1612:1613
+- window_visible:
+  - true
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- effect:
+  - 9
+- print:
+  - 魔物たち
+  - ──グオオオオオッ！
+- shake_screen: *o0
+- touch: *o0
+- window_visible:
+  - FALSE
+- change_window:
+  - 1
+- text_size:
+  - 23
+- fadeout_all:
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 411
+  - RC
+  - 4
+- chara_full:
+  - 100411
+  - LC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1004012_043
+- face:
+  - 411
+  - 4
+- print:
+  - 女性
+  - ひ、
+- wait:
+  - 15
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 女性
+  - ひぃ！？　
+- shake:
+  - 411
+- wait:
+  - 5
+- print:
+  - 女性
+  - 追いつかれちゃったわ！？
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_044
+- face:
+  - 100411
+  - 6
+- pop:
+  - 100411
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - ミソギ
+  - ど、
+- wait:
+  - 10
+- print:
+  - ミソギ
+  - どどどうしよう！？　
+- wait:
+  - 5
+- print:
+  - ミソギ
+  - にいちゃん！？
+- touch: *o0
+- choice:
+  - 落ち着いて。
+  - 9
+- tag:
+  - 9
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_045
+- face:
+  - 100411
+  - 4
+- emotion:
+  - sweat2_R
+  - 100411
+  - 80
+  - 490
+  - se_adv_emote_sweat_02
+- print:
+  - ミソギ
+  - 落ち着いてる場合じゃないでしょ～！
+- touch: *o0
+- choice:
+  - ミソギの罠があるよ。
+  - 10
+- tag:
+  - 10
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_046
+- face:
+  - 100411
+  - 6
+- print:
+  - ミソギ
+  - た、
+- wait:
+  - 15
+- print:
+  - ミソギ
+  - 確かにそうだけど、
+- wait:
+  - 40
+- print:
+  - ミソギ
+  - >2
+
+- face:
+  - 100411
+  - 4
+- print:
+  - ミソギ
+  - あんなにたくさんの魔物だと思わなかったから！
+- touch: *o0
+- choice:
+  - 僕たちならできる。
+  - 11
+- tag:
+  - 11
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_047
+- face:
+  - 100411
+  - 4
+- print:
+  - ミソギ
+  - そう、
+- wait:
+  - 20
+- print:
+  - ミソギ
+  - かな……？
+- wait:
+  - 50
+- print:
+  - ミソギ
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - ミソギ
+  - う～ん、
+- wait:
+  - 25
+- print:
+  - ミソギ
+  - なんかにいちゃんの顔見てたら
+- wait:
+  - 20
+- print:
+  - ミソギ
+  - >2-
+
+    そんな気がしてきたかも。
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_048
+- face:
+  - 100411
+  - 1
+- nod:
+  - 100411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ミソギ
+  - うん！　
+- wait:
+  - 15
+- print:
+  - ミソギ
+  - そうだね！
+- wait:
+  - 25
+- print:
+  - ミソギ
+  - >2-
+
+    ミソギとにいちゃんならできるよね！
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_049
+- face:
+  - 100411
+  - 3
+- print:
+  - ミソギ
+  - そうと決まれば
+- wait:
+  - 25
+- print:
+  - ミソギ
+  - 魔物を罠に掛けちゃおう！
+- wait:
+  - 45
+- print:
+  - ミソギ
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - ミソギ
+  - 危ないからおねえさんには隠れててほしいんだけど、
+- wait:
+  - 45
+- face:
+  - 100411
+  - 4
+- print:
+  - ミソギ
+  - 大丈夫？
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1004012_050
+- face:
+  - 411
+  - 1
+- print:
+  - 女性
+  - は、
+- wait:
+  - 20
+- nod:
+  - 411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 女性
+  - はい……！
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_051
+- face:
+  - 100411
+  - 1
+- print:
+  - ミソギ
+  - ミソギとにいちゃんで魔物の気を引くから
+- wait:
+  - 40
+- print:
+  - ミソギ
+  - >2-
+
+    その隙に隠れて！　
+- wait:
+  - 40
+- face:
+  - 100411
+  - 3
+- print:
+  - ミソギ
+  - 大丈夫、
+- wait:
+  - 25
+- print:
+  - ミソギ
+  - すぐに戻ってくるから！
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_052
+- face:
+  - 100411
+  - 1
+- pop:
+  - 100411
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - ミソギ
+  - 行くよ、
+- wait:
+  - 10
+- print:
+  - ミソギ
+  - にいちゃん！
+- touch: *o0
+- choice:
+  - うん！
+  - 12
+- tag:
+  - 12
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1.7
+- fadeout_all:
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 100411
+  - C
+  - 1
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M116_Ver2
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_053
+- face:
+  - 100411
+  - 1
+- pop:
+  - 100411
+- se:
+  - se_adv_body_shake_head_01
+- print:
+  - ミソギ
+  - や～いや～い！　
+- wait:
+  - 35
+- print:
+  - ミソギ
+  - こっちだよ～！
+- wait:
+  - 35
+- print:
+  - ミソギ
+  - >2-
+
+    つかまえてごら～ん！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 1614
+  - C
+  - 1
+- fadein:
+  - 1614
+  - 30
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - TRUE
+- focus:
+  - 1614
+- bust:
+  - 1614
+  - 0
+- face:
+  - 1614
+  - 1
+- print:
+  - 魔物たち
+  - ──グオオオオオッ！
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_step_monster_move_01
+- change:
+  - LC
+  - C
+  - 30
+- fadeout:
+  - 1614
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100411
+  - C
+  - 1
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_054
+- face:
+  - 100411
+  - 1
+- print:
+  - ミソギ
+  - よし、
+- wait:
+  - 15
+- print:
+  - ミソギ
+  - ついてきたね！　
+- wait:
+  - 25
+- print:
+  - ミソギ
+  - あとは罠に掛けるだけ！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 100411
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 1614
+  - RC
+  - 1
+- se:
+  - se_adv_step_monster_move_01
+- change:
+  - C
+  - RC
+  - 30
+- fadein:
+  - 1614
+  - 30
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - TRUE
+- focus:
+  - 1614
+- bust:
+  - 1614
+  - 0
+- face:
+  - 1614
+  - 1
+- print:
+  - 魔物たち
+  - ──グオオオオオッ！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 1614
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100411
+  - C
+  - 1
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_055
+- face:
+  - 100411
+  - 1
+- pop:
+  - 100411
+- se:
+  - se_adv_rabbit_jump_01
+- print:
+  - ミソギ
+  - ほらほらこっちだよ～
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 100411
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 1614
+  - RC
+  - 1
+- se:
+  - se_adv_step_monster_move_01
+- change:
+  - C
+  - RC
+  - 30
+- fadein:
+  - 1614
+  - 30
+- se:
+  - se_adv_bush_01
+- sway:
+  - 1614
+- se:
+  - se_adv_creature_cmn_04
+- window_visible:
+  - TRUE
+- focus:
+  - 1614
+- bust:
+  - 1614
+  - 0
+- face:
+  - 1614
+  - 1
+- print:
+  - 魔物
+  - ──ギャオオオオオッ！
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_comic_fall_down_02
+- wait:
+  - 15
+- updown:
+  - 1614
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1614
+  - 30
+- shake_loop: *o0
+- se:
+  - se_adv_bosyfall_leaves_01
+- se:
+  - se_adv_bodyfall_01
+- wait:
+  - 15
+- shake_delete: *o0
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100411
+  - C
+  - 2
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_056
+- face:
+  - 100411
+  - 2
+- nod:
+  - 100411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ミソギ
+  - よし！　
+- wait:
+  - 15
+- print:
+  - ミソギ
+  - 一匹罠に掛かったね！
+- wait:
+  - 45
+- print:
+  - ミソギ
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - ミソギ
+  - まだまだ行くよ～～
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 100411
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_rope_cut_01
+- sway:
+  - 1611
+- se:
+  - se_adv_creature_cmn_04
+- window_visible:
+  - TRUE
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──ギャオオオオオッ！
+- touch: *o0
+- se:
+  - se_adv_bush_02
+- se:
+  - se_adv_bodyfall_03
+- window_visible:
+  - FALSE
+- updown:
+  - 1611
+  - 0
+  - 80
+  - 0.2
+- fadeout:
+  - 1611
+  - 30
+- se:
+  - se_adv_creak_rope_move_cloth_01
+- se_pause:
+  - se_adv_creak_rope_move_cloth_01
+  - 1.7
+- se:
+  - se_adv_bush_03
+- se:
+  - se_adv_branch_break_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100411
+  - C
+  - 2
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_057
+- face:
+  - 100411
+  - 2
+- emotion:
+  - note1_L
+  - 100411
+  - -85
+  - 485
+  - se_adv_emote_note_01
+- print:
+  - ミソギ
+  - 二匹目～♪
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100411
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 1614
+  - RC
+  - 1
+- se:
+  - se_adv_step_monster_move_01
+- change:
+  - C
+  - RC
+  - 30
+- fadein:
+  - 1614
+  - 30
+- se:
+  - se_adv_creature_cmn_04
+- window_visible:
+  - TRUE
+- focus:
+  - 1614
+- bust:
+  - 1614
+  - 0
+- face:
+  - 1614
+  - 1
+- print:
+  - 魔物
+  - ──ギャオオオオオッ！
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_comic_fall_down_02
+- wait:
+  - 15
+- updown:
+  - 1614
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1614
+  - 30
+- se:
+  - se_adv_bodyfall_01
+- se:
+  - se_adv_bosyfall_leaves_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100411
+  - C
+  - 2
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_058
+- face:
+  - 100411
+  - 2
+- pop:
+  - 100411
+- se:
+  - se_adv_rabbit_jump_01
+- print:
+  - ミソギ
+  - あはは！　
+- wait:
+  - 15
+- print:
+  - ミソギ
+  - また掛かった！
+- wait:
+  - 30
+- print:
+  - ミソギ
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - ミソギ
+  - この調子でどんどん行こ～♪
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 100411
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 1
+- se:
+  - se_adv_creature_cmn_group_02
+- chara_full:
+  - 1611
+  - C
+  - 1
+- chara_full:
+  - 1612
+  - L
+  - 1
+- chara_full:
+  - 1613
+  - R
+  - 1
+- wait:
+  - 15
+- fadein:
+  - 1611
+  - 30
+- wait:
+  - 15
+- fadein:
+  - 1612
+  - 30
+- wait:
+  - 15
+- fadein:
+  - 1613
+  - 30
+- change_window:
+  - 3
+- text_size:
+  - 50
+- se:
+  - se_adv_creature_cmn_05
+- focus:
+  - 1611:1612:1613
+- window_visible:
+  - TRUE
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- effect:
+  - 9
+- print:
+  - 魔物たち
+  - ──グオオオオオッ！
+- shake_screen: *o0
+- touch: *o0
+- window_visible:
+  - FALSE
+- change_window:
+  - 1
+- text_size:
+  - 23
+- fadeout_all:
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100411
+  - C
+  - 6
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_059
+- face:
+  - 100411
+  - 6
+- emotion:
+  - surprise1_L
+  - 100411
+  - -100
+  - 490
+  - se_adv_emote_common_01
+- print:
+  - ミソギ
+  - うわっ！？　
+- wait:
+  - 15
+- print:
+  - ミソギ
+  - また出てきた！？
+- wait:
+  - 30
+- print:
+  - ミソギ
+  - >2
+
+- face:
+  - 100411
+  - 4
+- print:
+  - ミソギ
+  - どうしようにいちゃん！　
+- wait:
+  - 25
+- print:
+  - ミソギ
+  - 囲まれちゃったよ！！
+- touch: *o0
+- choice:
+  - まだ罠はある？
+  - 13
+- tag:
+  - 13
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_060
+- face:
+  - 100411
+  - 6
+- print:
+  - ミソギ
+  - え？　
+- wait:
+  - 25
+- nod:
+  - 100411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ミソギ
+  - うん。
+- wait:
+  - 20
+- print:
+  - ミソギ
+  - >2
+
+- face:
+  - 100411
+  - 4
+- print:
+  - ミソギ
+  - ミソギ、
+- wait:
+  - 10
+- print:
+  - ミソギ
+  - 今日すごく張り切ってたから
+- wait:
+  - 35
+- print:
+  - ミソギ
+  - >2-
+
+    まだまだ残ってるけど……
+- touch: *o0
+- choice:
+  - 全部使おう。
+  - 14
+- tag:
+  - 14
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_061
+- face:
+  - 100411
+  - 4
+- print:
+  - ミソギ
+  - こんなに囲まれちゃったら無理だよ～！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_weapon_sword_set_01
+- face:
+  - 100411
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100411
+  - 5
+  - 600
+  - se_adv_emote_common_01
+- wait:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_062
+- face:
+  - 100411
+  - 6
+- print:
+  - ミソギ
+  - ってにいちゃん！？　
+- wait:
+  - 35
+- print:
+  - ミソギ
+  - 剣を構えてどうする気！？
+- wait:
+  - 45
+- print:
+  - ミソギ
+  - >2
+
+- face:
+  - 100411
+  - 4
+- print:
+  - ミソギ
+  - 一人で戦うのはダメだよ！？
+- touch: *o0
+- bgm:
+  - stop
+  - 3.2
+  - 1
+- choice:
+  - 二人で乗り越えよう！
+  - 15
+- tag:
+  - 15
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_063
+- face:
+  - 100411
+  - 6
+- print:
+  - ミソギ
+  - 二人で……？
+- touch: *o0
+- bgm:
+  - bgm_M175_Ver2
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_064
+- face:
+  - 100411
+  - 1
+- nod:
+  - 100411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ミソギ
+  - そっか！　
+- wait:
+  - 25
+- print:
+  - ミソギ
+  - にいちゃんの力があれば
+- wait:
+  - 30
+- print:
+  - ミソギ
+  - こんなのへっちゃらだよね！
+- wait:
+  - 45
+- print:
+  - ミソギ
+  - >2-
+
+    うん！　
+- wait:
+  - 15
+- print:
+  - ミソギ
+  - ミソギににいちゃんの力を貸して！
+- touch: *o0
+- effect:
+  - 0076
+  - se_adv_magic_cmn_medium_02
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_065
+- face:
+  - 100411
+  - 1
+- print:
+  - ミソギ
+  - す、
+- wait:
+  - 30
+- print:
+  - ミソギ
+  - すごい！！
+- wait:
+  - 25
+- print:
+  - ミソギ
+  - >2-
+
+    どんどん力が湧いてくる！
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_066
+- face:
+  - 100411
+  - 2
+- nod:
+  - 100411
+- print:
+  - ミソギ
+  - やっぱりにいちゃんはすごいや！
+- wait:
+  - 50
+- print:
+  - ミソギ
+  - >2-
+
+    これならどんな魔物でも倒せる気がするよ！
+- touch: *o0
+- choice:
+  - イタズラし放題だね！
+  - 16
+- tag:
+  - 16
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_067
+- face:
+  - 100411
+  - 2
+- pop:
+  - 100411
+- se:
+  - se_adv_rabbit_jump_01
+- print:
+  - ミソギ
+  - あはは！　
+- wait:
+  - 20
+- print:
+  - ミソギ
+  - そうだね！
+- wait:
+  - 30
+- print:
+  - ミソギ
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - ミソギ
+  - 魔物ならいくらイタズラしても叱られないもんね！
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_068
+- face:
+  - 100411
+  - 1
+- print:
+  - ミソギ
+  - にいちゃんがいれば怖いものなんかないよ！
+- wait:
+  - 60
+- print:
+  - ミソギ
+  - >2
+
+- face:
+  - 100411
+  - 3
+- print:
+  - ミソギ
+  - よ～し！　
+- wait:
+  - 20
+- print:
+  - ミソギ
+  - 悪い魔物なんか全部倒しちゃうぞ～！
+- touch: *o0
+- window_visible:
+  - FALSE
+- effect_delete:
+  - 0076
+  - 15
+- bgm:
+  - stop
+  - 2
+- fadeout:
+  - 100411
+  - 30
+- white_out:
+  - 1
+  - 1
+- bg_color:
+  - 255
+  - 255
+  - 255
+- still_unit:
+  - 100461
+- wait:
+  - 15
+- white_in: *o0
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M162
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 1
+- vo:
+  - vo_adv_1004012_069
+- face:
+  - 100411
+  - 1
+- print:
+  - ミソギ
+  - くらえ！　
+- wait:
+  - 20
+- print:
+  - ミソギ
+  - ミソギ特製ビックリ玉！！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_explosion_small_04
+- se:
+  - se_adv_firecracker_01
+- shake_loop: *o0
+- white_out:
+  - 0.5
+  - 0.2
+- white_in: *o0
+- shake_delete: *o0
+- window_visible:
+  - true
+- se:
+  - se_adv_creature_cmn_04
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 1
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物たち
+  - ──ギャオオオオオッ！
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 1
+- vo:
+  - vo_adv_1004012_070
+- face:
+  - 100411
+  - 2
+- print:
+  - ミソギ
+  - あはは！　
+- wait:
+  - 15
+- print:
+  - ミソギ
+  - すごいすごい！
+- wait:
+  - 20
+- print:
+  - ミソギ
+  - >2-
+
+    魔物が驚いてる！
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 1
+- vo:
+  - vo_adv_1004012_071
+- face:
+  - 100411
+  - 1
+- print:
+  - ミソギ
+  - まだまだミソギのイタズラ道具はあるからね！
+- wait:
+  - 55
+- print:
+  - ミソギ
+  - >2-
+
+    どんどんかかってこ～い！
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 2
+  - 1
+- se_pause:
+  - amb_adv_forest_01
+  - 1
+- white_out:
+  - 1
+  - 1
+- background:
+  - 500170
+- still_unit:
+  - end
+- wait:
+  - 30
+- white_in: *o0
+- se:
+  - amb_adv_forest_01
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - >-
+    無事に魔物を討伐した{0}とミソギは
+
+    隠れていた女性のもとに駆け付けた。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- chara_full:
+  - 100411
+  - LC
+  - 1
+- se:
+  - se_adv_step_leaves_run_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 30
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M100
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_072
+- face:
+  - 100411
+  - 1
+- print:
+  - ミソギ
+  - おねえさ～ん！　
+- wait:
+  - 25
+- print:
+  - ミソギ
+  - もう大丈夫だよ～！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100411
+  - 30
+- chara_full:
+  - 411
+  - RC
+  - 6
+- chara_full:
+  - 100411
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1004012_073
+- face:
+  - 411
+  - 6
+- print:
+  - 女性
+  - ほ、
+- wait:
+  - 15
+- print:
+  - 女性
+  - 本当？
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_074
+- face:
+  - 100411
+  - 2
+- pop:
+  - 100411
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - ミソギ
+  - 魔物はミソギとにいちゃんで全部やっつけたよ！
+- wait:
+  - 75
+- print:
+  - ミソギ
+  - >2
+
+- face:
+  - 100411
+  - 6
+- print:
+  - ミソギ
+  - でも
+- wait:
+  - 25
+- print:
+  - ミソギ
+  - なんであんなに魔物がいたのかな？
+- wait:
+  - 65
+- print:
+  - ミソギ
+  - >2
+
+- face:
+  - 100411
+  - 4
+- print:
+  - ミソギ
+  - この森、
+- wait:
+  - 15
+- print:
+  - ミソギ
+  - 普段は静かなのに。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 1011
+  - L
+  - 4
+- chara_full:
+  - 311
+  - C
+  - 4
+- se:
+  - se_adv_step_leaves_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 45
+- change:
+  - RC
+  - C
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_1004012_075
+- face:
+  - 1011
+  - 4
+- print:
+  - 男性１
+  - それは……
+- wait:
+  - 25
+- print:
+  - 男性１
+  - 俺たちが悪いんだ。
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1004012_076
+- face:
+  - 311
+  - 4
+- print:
+  - 男性２
+  - あ、
+- wait:
+  - 15
+- nod:
+  - 311
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 男性２
+  - ああ……
+- wait:
+  - 40
+- print:
+  - 男性２
+  - >2-
+
+    魔石を探して魔物の巣をつついたせいでとんだ迷惑を……
+- touch: *o0
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_1004012_077
+- face:
+  - 1011
+  - 4
+- print:
+  - 男性１
+  - それにキミのような小さい子を置いて逃げるなんて。
+- wait:
+  - 55
+- print:
+  - 男性１
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 男性１
+  - 自分が恥ずかしくなって戻ってきたんだけど、
+- wait:
+  - 35
+- print:
+  - 男性１
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 男性１
+  - 無事で本当によかった。
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1004012_078
+- face:
+  - 311
+  - 4
+- print:
+  - 男性２
+  - 迷惑を掛けて
+- wait:
+  - 40
+- print:
+  - 男性２
+  - 本当にすまなかった……！！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100411
+  - C
+  - 6
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_079
+- face:
+  - 100411
+  - 6
+- print:
+  - ミソギ
+  - え、
+- wait:
+  - 25
+- print:
+  - ミソギ
+  - え～～っと……
+- wait:
+  - 70
+- print:
+  - ミソギ
+  - >2
+
+- face:
+  - 100411
+  - 4
+- print:
+  - ミソギ
+  - にいちゃん、
+- wait:
+  - 20
+- print:
+  - ミソギ
+  - こういうときミソギどうしたらいいのかな？
+- touch: *o0
+- choice:
+  - 叱ってあげる？
+  - 17
+- tag:
+  - 17
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_080
+- face:
+  - 100411
+  - 4
+- print:
+  - ミソギ
+  - ミソギいっつも叱られてばっかだから
+- wait:
+  - 55
+- print:
+  - ミソギ
+  - 叱り方なんてわかんないよ～
+- wait:
+  - 70
+- print:
+  - ミソギ
+  - >2-
+
+    みんな無事だったんだからそれでいいと思うんだけどな～
+- touch: *o0
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 1
+- vo:
+  - vo_adv_1004012_081
+- face:
+  - 1011
+  - 6
+- print:
+  - 男性１
+  - お嬢ちゃん……
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_082
+- face:
+  - 100411
+  - 1
+- nod:
+  - 100411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ミソギ
+  - あ、
+- wait:
+  - 20
+- print:
+  - ミソギ
+  - でもまた同じことしたら
+- wait:
+  - 40
+- print:
+  - ミソギ
+  - そのときは
+- wait:
+  - 10
+- print:
+  - ミソギ
+  - >2-
+
+    ミソギがイタズラしちゃうからね！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100411
+  - 30
+- chara_full:
+  - 311
+  - RC
+  - 1
+- chara_full:
+  - 1011
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1004012_083
+- face:
+  - 311
+  - 1
+- print:
+  - 男性２
+  - あ、
+- wait:
+  - 10
+- nod:
+  - 311
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 男性２
+  - あはは。
+- wait:
+  - 40
+- print:
+  - 男性２
+  - イタズラくらいならいくらでも……
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 1
+- vo:
+  - vo_adv_1004012_084
+- face:
+  - 411
+  - 6
+- print:
+  - 女性
+  - えっと……
+- wait:
+  - 25
+- print:
+  - 女性
+  - あの魔物たち、
+- wait:
+  - 35
+- print:
+  - 女性
+  - 全部この子が倒したんですよ？
+- touch: *o0
+- face:
+  - 311
+  - 6
+- face:
+  - 1011
+  - 6
+- focus:
+  - 311:1011
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1004012_085
+- multi_talk:
+  - 311:1011
+- face:
+  - 1
+  - 1
+- print:
+  - 男性１・男性２
+  - ……え？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100411
+  - C
+  - 2
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_086
+- face:
+  - 100411
+  - 2
+- emotion:
+  - twinkle1_R
+  - 100411
+  - -135
+  - 440
+  - se_adv_emote_twinkle_01
+- print:
+  - ミソギ
+  - えへへ～
+- wait:
+  - 20
+- print:
+  - ミソギ
+  - すごいでしょ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100411
+  - 30
+- chara_full:
+  - 311
+  - RC
+  - 4
+- chara_full:
+  - 1011
+  - LC
+  - 4
+- fadein_all:
+  - 30
+- text_size:
+  - 50
+- window_visible:
+  - true
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1004012_087
+- multi_talk:
+  - 311:1011
+- face:
+  - 1
+  - 1
+- pop:
+  - 311:1011
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - 男性１・男性２
+  - もう二度としません！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 23
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100411
+  - C
+  - 6
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_088
+- face:
+  - 100411
+  - 6
+- emotion:
+  - question1_R
+  - 100411
+  - 110
+  - 460
+  - se_adv_emote_question_01
+- print:
+  - ミソギ
+  - あ、
+- wait:
+  - 15
+- print:
+  - ミソギ
+  - あれ？
+- wait:
+  - 30
+- print:
+  - ミソギ
+  - >2-
+
+    なんでそんなに驚くの？
+- touch: *o0
+- choice:
+  - きちんと叱れたね。
+  - 18
+- tag:
+  - 18
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_089
+- face:
+  - 100411
+  - 4
+- print:
+  - ミソギ
+  - え～？　
+- wait:
+  - 30
+- print:
+  - ミソギ
+  - ミソギ別に叱ってないよ～
+- wait:
+  - 70
+- print:
+  - ミソギ
+  - >2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - ミソギ
+  - まぁ、
+- wait:
+  - 10
+- print:
+  - ミソギ
+  - 反省してもらえたならいいのかな～？
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_090
+- face:
+  - 100411
+  - 2
+- print:
+  - ミソギ
+  - あ、
+- wait:
+  - 20
+- nod:
+  - 100411
+- print:
+  - ミソギ
+  - でも……
+- wait:
+  - 25
+- print:
+  - ミソギ
+  - にいちゃんは
+- wait:
+  - 5
+- print:
+  - ミソギ
+  - >2-
+
+    どんなときだってミソギのイタズラに付き合ってもらうからね！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100411
+  - 30
+- se:
+  - se_adv_step_leaves_move_01
+- chara_full:
+  - 100411
+  - C
+  - 2
+- scale:
+  - 100411
+  - 1.3
+  - 3
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_1004012_091
+- face:
+  - 100411
+  - 2
+- print:
+  - ミソギ
+  - これからもた～っくさんミソギと遊ぼうね！
+- wait:
+  - 60
+- print:
+  - ミソギ
+  - >2
+
+- emotion:
+  - note1_L
+  - 100411
+  - -135
+  - 430
+  - se_adv_emote_note_01
+- print:
+  - ミソギ
+  - えへへっ。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 100411
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - >-
+    そう言ってミソギは無邪気な笑みを
+
+    {0}に向けるのであった。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 1
+- se_pause:
+  - amb_adv_forest_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

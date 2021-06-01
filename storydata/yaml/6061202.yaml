@@ -1,0 +1,280 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500660
+- amb:
+  - amb_adv_outdoors_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - ドレスについて
+- chara_full:
+  - 116011
+  - C
+  - 1
+- fadein:
+  - 116011
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M452
+  - 0
+  - 0
+  - 1
+- focus:
+  - 116011
+- bust:
+  - 116011
+  - 0
+- vo:
+  - vo_adv_6061202_000
+- face:
+  - 116011
+  - 1
+- print:
+  - マホ
+  - どないどすか
+- wait:
+  - 25
+- print:
+  - マホ
+  - 王子はん？　
+- wait:
+  - 60
+- face:
+  - 116011
+  - 2
+- print:
+  - マホ
+  - 今回の任務に合わせて
+- wait:
+  - 55
+- print:
+  - マホ
+  - 用意したドレス。
+- wait:
+  - 70
+- print:
+  - マホ
+  - >2-
+
+    結構
+- wait:
+  - 25
+- print:
+  - マホ
+  - 自信作なんやで～♪
+- touch: &o0 []
+- choice:
+  - すごくキレイだよ！
+  - 1
+  - 1
+- choice:
+  - それ手作りなの？
+  - 2
+  - 2
+- choice:
+  - 僕もドレスを着たい。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 116011
+- bust:
+  - 116011
+  - 0
+- vo:
+  - vo_adv_6061202_001
+- face:
+  - 116011
+  - 5
+- print:
+  - マホ
+  - はぁ～、
+- wait:
+  - 55
+- print:
+  - マホ
+  - 王子はんの真っすぐな言葉、
+- wait:
+  - 70
+- print:
+  - マホ
+  - 感激やわ～
+- wait:
+  - 85
+- print:
+  - マホ
+  - >2
+
+- face:
+  - 116011
+  - 1
+- print:
+  - マホ
+  - 曇りのない言葉は
+- wait:
+  - 55
+- print:
+  - マホ
+  - 乙女を一層輝かせるんや。
+- wait:
+  - 115
+- print:
+  - マホ
+  - >2
+
+- face:
+  - 116011
+  - 2
+- print:
+  - マホ
+  - 王子はん、
+- wait:
+  - 30
+- print:
+  - マホ
+  - もっとほめたって～
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 116011
+- bust:
+  - 116011
+  - 0
+- vo:
+  - vo_adv_6061202_002
+- face:
+  - 116011
+  - 2
+- print:
+  - マホ
+  - そうやろそうやろ～？　
+- wait:
+  - 80
+- print:
+  - マホ
+  - うちのこだわりのつまったドレスやで。
+- wait:
+  - 65
+- print:
+  - マホ
+  - >2
+
+- face:
+  - 116011
+  - 1
+- print:
+  - マホ
+  - しかも今回は
+- wait:
+  - 45
+- print:
+  - マホ
+  - マコトはんのドレスも用意しとるんよ。
+- wait:
+  - 80
+- print:
+  - マホ
+  - >2
+
+- face:
+  - 116011
+  - 2
+- print:
+  - マホ
+  - あとでぎょうさん
+- wait:
+  - 25
+- print:
+  - マホ
+  - ほめたってな～
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 116011
+- bust:
+  - 116011
+  - 0
+- vo:
+  - vo_adv_6061202_003
+- face:
+  - 116011
+  - 2
+- print:
+  - マホ
+  - うれしいこと言うてくれますなぁ、
+- wait:
+  - 50
+- print:
+  - マホ
+  - 王子はんは。
+- wait:
+  - 65
+- print:
+  - マホ
+  - >2
+
+- face:
+  - 116011
+  - 1
+- print:
+  - マホ
+  - ランドソルに戻ったら
+- wait:
+  - 50
+- print:
+  - マホ
+  - さっそく採寸させていただきますわ。
+- wait:
+  - 80
+- print:
+  - マホ
+  - >2
+
+- face:
+  - 116011
+  - 4
+- print:
+  - マホ
+  - マコトはんも
+- wait:
+  - 45
+- print:
+  - マホ
+  - これくらい素直に
+- wait:
+  - 40
+- print:
+  - マホ
+  - 着てくれればええんやけどなぁ。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 116011
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

@@ -1,0 +1,1957 @@
+- title:
+  - マホ（シンデレラ） 第4話
+- outline:
+  - デートの約束をしていた二人は、レンタルした結婚式会場へ遊びに行く。手作りのドレスをまとい、夢の一歩へ近づけた真歩は、{0}に夢を叶えるために頑張っていくと話すのだった。
+- background:
+  - 500010
+- se:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 夢と魔法のドレス
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - 花まつりを楽しんだマホと{0}。
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - >2-
+
+    ベンチに座った二人は、祭りを眺めながら談笑していた。
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 116011
+  - C
+  - 2
+- fadein:
+  - 116011
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M454
+  - 0
+  - 0
+  - 1
+- focus:
+  - 116011
+- bust:
+  - 116011
+  - 0
+- vo:
+  - vo_adv_1160004_000
+- face:
+  - 116011
+  - 2
+- emotion:
+  - note1_L
+  - 116011
+  - -100
+  - 480
+  - se_adv_emote_note_01
+- print:
+  - マホ
+  - ふふっ、
+- wait:
+  - 45
+- print:
+  - マホ
+  - ほんま夢みたいな時間やったなぁ。
+- touch: *o0
+- focus:
+  - 116011
+- bust:
+  - 116011
+  - 0
+- vo:
+  - vo_adv_1160004_001
+- face:
+  - 116011
+  - 1
+- print:
+  - マホ
+  - 王子はんに作ってもらった花冠、
+- wait:
+  - 95
+- face:
+  - 116011
+  - 2
+- print:
+  - マホ
+  - うちの宝物にするわ。
+- wait:
+  - 90
+- print:
+  - マホ
+  - >2
+
+- face:
+  - 116011
+  - 1
+- print:
+  - マホ
+  - ガラスの靴のように、
+- wait:
+  - 60
+- print:
+  - マホ
+  - 消えない魔法をかけるんや♪
+- touch: *o0
+- effect:
+  - 0005
+  - se_adv_holylight_01
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- focus:
+  - 116011
+- bust:
+  - 116011
+  - 0
+- vo:
+  - vo_adv_1160004_002
+- face:
+  - 116011
+  - 6
+- print:
+  - マホ
+  - あら？　
+- wait:
+  - 35
+- print:
+  - マホ
+  - なんやろ。
+- wait:
+  - 55
+- print:
+  - マホ
+  - >2-
+
+    まだ魔法をかけとらんのに、
+- wait:
+  - 65
+- print:
+  - マホ
+  - 花冠が
+- wait:
+  - 45
+- print:
+  - マホ
+  - キラキラ輝いてるような……
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- fadeout:
+  - 116011
+  - 30
+- effect:
+  - 0006
+  - se_adv_whiteout_01
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0005
+- effect_delete:
+  - 0006
+- insert: *o0
+- background:
+  - 510124
+- wait:
+  - 30
+- white_in: *o0
+- se:
+  - amb_adv_outdoors_day_01
+- wait:
+  - 30
+- chara_full:
+  - 101031
+  - C
+  - 1
+- fadein:
+  - 101031
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M72
+- focus:
+  - 101031
+- bust:
+  - 101031
+  - 0
+- vo:
+  - vo_adv_1160004_003
+- face:
+  - 101031
+  - 1
+- print:
+  - 真歩
+  - 王子はん、
+- wait:
+  - 45
+- print:
+  - 真歩
+  - よお来てくれましたわ♪
+- touch: *o0
+- choice:
+  - 待たせてごめんね。
+  - 1
+- choice:
+  - 早く来た？
+  - 2
+- tag:
+  - 1
+- focus:
+  - 101031
+- bust:
+  - 101031
+  - 0
+- vo:
+  - vo_adv_1160004_004
+- face:
+  - 101031
+  - 6
+- print:
+  - 真歩
+  - そんな、
+- wait:
+  - 30
+- face:
+  - 101031
+  - 1
+- print:
+  - 真歩
+  - 王子はんは
+- wait:
+  - 40
+- print:
+  - 真歩
+  - 何も悪くあらしまへんよ。
+- wait:
+  - 75
+- print:
+  - 真歩
+  - >2
+
+- face:
+  - 101031
+  - 2
+- print:
+  - 真歩
+  - ほんま楽しみで、
+- wait:
+  - 45
+- print:
+  - 真歩
+  - うちが早く来すぎてもうただけやもん。
+- touch: *o0
+- focus:
+  - 101031
+- bust:
+  - 101031
+  - 0
+- vo:
+  - vo_adv_1160004_005
+- face:
+  - 101031
+  - 6
+- print:
+  - 真歩
+  - せやけど、
+- wait:
+  - 45
+- print:
+  - 真歩
+  - 王子はんも到着早かったなぁ。
+- wait:
+  - 85
+- print:
+  - 真歩
+  - >2
+
+- face:
+  - 101031
+  - 1
+- print:
+  - 真歩
+  - あんさんも
+- wait:
+  - 30
+- print:
+  - 真歩
+  - 楽しみにしとってくれたん？
+- wait:
+  - 65
+- print:
+  - 真歩
+  - >2
+
+- face:
+  - 101031
+  - 2
+- print:
+  - 真歩
+  - なんせ、
+- wait:
+  - 30
+- print:
+  - 真歩
+  - 今日は……
+- touch: *o0
+- goto:
+  - 3
+- tag:
+  - 2
+- focus:
+  - 101031
+- bust:
+  - 101031
+  - 0
+- vo:
+  - vo_adv_1160004_006
+- face:
+  - 101031
+  - 1
+- print:
+  - 真歩
+  - ついさっき来たばかりや。
+- wait:
+  - 70
+- print:
+  - 真歩
+  - >2
+
+- face:
+  - 101031
+  - 4
+- nod:
+  - 101031
+- print:
+  - 真歩
+  - ……っくし！
+- touch: *o0
+- focus:
+  - 101031
+- bust:
+  - 101031
+  - 0
+- vo:
+  - vo_adv_1160004_007
+- face:
+  - 101031
+  - 4
+- print:
+  - 真歩
+  - ……うう。
+- wait:
+  - 40
+- print:
+  - 真歩
+  - そないに疑う目、
+- wait:
+  - 50
+- print:
+  - 真歩
+  - せんといてください。
+- wait:
+  - 60
+- print:
+  - 真歩
+  - >2-
+
+    仕方があらしまへんやろ。
+- wait:
+  - 65
+- print:
+  - 真歩
+  - >2
+
+- face:
+  - 101031
+  - 6
+- print:
+  - 真歩
+  - 今日は……
+- touch: *o0
+- tag:
+  - 3
+- focus:
+  - 101031
+- bust:
+  - 101031
+  - 0
+- vo:
+  - vo_adv_1160004_008
+- face:
+  - 101031
+  - 2
+- emotion:
+  - note1_L
+  - 101031
+  - -90
+  - 510
+  - se_adv_emote_note_01
+- print:
+  - 真歩
+  - 今日は、
+- wait:
+  - 35
+- print:
+  - 真歩
+  - 王子はんと
+- wait:
+  - 40
+- print:
+  - 真歩
+  - 夢のデートなんやから♪
+- touch: *o0
+- focus:
+  - 101031
+- bust:
+  - 101031
+  - 0
+- vo:
+  - vo_adv_1160004_009
+- face:
+  - 101031
+  - 1
+- nod:
+  - 101031
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 真歩
+  - じつは
+- wait:
+  - 45
+- print:
+  - 真歩
+  - 今日のために、
+- wait:
+  - 45
+- print:
+  - 真歩
+  - >2-
+
+    うち、
+- wait:
+  - 25
+- print:
+  - 真歩
+  - 特別な服も用意したんよ。
+- touch: *o0
+- focus:
+  - 101031
+- bust:
+  - 101031
+  - 0
+- vo:
+  - vo_adv_1160004_010
+- face:
+  - 101031
+  - 6
+- print:
+  - 真歩
+  - でも、
+- wait:
+  - 30
+- print:
+  - 真歩
+  - それは
+- wait:
+  - 25
+- print:
+  - 真歩
+  - マホマホ王国に伝わる、
+- wait:
+  - 70
+- print:
+  - 真歩
+  - >2-
+
+    特別な場所でしか着ないって決めとるから、
+- wait:
+  - 105
+- face:
+  - 101031
+  - 2
+- print:
+  - 真歩
+  - まだ内緒や♪
+- touch: *o0
+- focus:
+  - 101031
+- bust:
+  - 101031
+  - 0
+- vo:
+  - vo_adv_1160004_011
+- face:
+  - 101031
+  - 2
+- nod:
+  - 101031
+- print:
+  - 真歩
+  - それじゃ、
+- wait:
+  - 35
+- print:
+  - 真歩
+  - 王子はんを
+- wait:
+  - 30
+- print:
+  - 真歩
+  - >2-
+
+    マホマホ王国の神殿へ
+- wait:
+  - 65
+- print:
+  - 真歩
+  - ご招待や♪
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2.5
+- se_pause:
+  - amb_adv_outdoors_day_01
+  - 1
+- fadeout:
+  - 101031
+  - 30
+- white_out:
+  - 1
+  - 1
+- bg_color:
+  - 255
+  - 255
+  - 255
+- still:
+  - 116000401
+- wait:
+  - 15
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- se:
+  - amb_adv_room_noise_01
+- white_in: *o0
+- window_visible:
+  - true
+- bgm:
+  - bgm_M108
+  - 0
+  - 0
+  - 1
+- focus:
+  - 101031
+- bust:
+  - 101031
+  - 1
+- vo:
+  - vo_adv_1160004_012
+- face:
+  - 101031
+  - 2
+- print:
+  - 真歩
+  - 王子はん、
+- wait:
+  - 45
+- print:
+  - 真歩
+  - >2-
+
+    マホマホ王国の神殿へ
+- wait:
+  - 70
+- print:
+  - 真歩
+  - >2-
+
+    ようこそおいでやす～♪
+- touch: *o0
+- focus:
+  - 101031
+- bust:
+  - 101031
+  - 1
+- vo:
+  - vo_adv_1160004_013
+- face:
+  - 101031
+  - 1
+- print:
+  - 真歩
+  - ……なんて。
+- wait:
+  - 55
+- print:
+  - 真歩
+  - >2-
+
+    今は予約すればな、
+- wait:
+  - 65
+- print:
+  - 真歩
+  - こういう結婚式場を
+- wait:
+  - 50
+- print:
+  - 真歩
+  - 貸してもらえるんよ。
+- wait:
+  - 60
+- print:
+  - 真歩
+  - >2
+
+- face:
+  - 101031
+  - 6
+- print:
+  - 真歩
+  - コスイベなんかでも
+- wait:
+  - 40
+- print:
+  - 真歩
+  - よう使ってはるらしくてな、
+- wait:
+  - 65
+- face:
+  - 101031
+  - 1
+- print:
+  - 真歩
+  - 応募したんどす♪
+- touch: *o0
+- focus:
+  - 101031
+- bust:
+  - 101031
+  - 1
+- vo:
+  - vo_adv_1160004_014
+- face:
+  - 101031
+  - 6
+- print:
+  - 真歩
+  - でもまさか、
+- wait:
+  - 45
+- print:
+  - 真歩
+  - こんなすてきな場所を
+- wait:
+  - 55
+- print:
+  - 真歩
+  - >2-
+
+    貸してもらえるとは
+- wait:
+  - 55
+- print:
+  - 真歩
+  - 思っとらんかったわ……
+- wait:
+  - 80
+- print:
+  - 真歩
+  - >2-
+
+    空気感が違うというか、
+- wait:
+  - 95
+- face:
+  - 101031
+  - 1
+- print:
+  - 真歩
+  - ほんまに
+- wait:
+  - 25
+- print:
+  - 真歩
+  - 結婚式やってる気分になるなぁ♪
+- touch: *o0
+- focus:
+  - 101031
+- bust:
+  - 101031
+  - 1
+- vo:
+  - vo_adv_1160004_015
+- face:
+  - 101031
+  - 1
+- print:
+  - 真歩
+  - それに、
+- wait:
+  - 30
+- print:
+  - 真歩
+  - スタッフはんから
+- wait:
+  - 35
+- print:
+  - 真歩
+  - お花までもろうて。
+- wait:
+  - 75
+- print:
+  - 真歩
+  - >2
+
+- face:
+  - 101031
+  - 4
+- print:
+  - 真歩
+  - でも……
+- touch: *o0
+- focus:
+  - 101031
+- bust:
+  - 101031
+  - 1
+- vo:
+  - vo_adv_1160004_016
+- face:
+  - 101031
+  - 6
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 真歩
+  - ……あんな。
+- wait:
+  - 35
+- print:
+  - 真歩
+  - うち、
+- wait:
+  - 35
+- print:
+  - 真歩
+  - 夢があるんよ。
+- wait:
+  - 70
+- print:
+  - 真歩
+  - >2-
+
+    結婚式で、
+- wait:
+  - 55
+- print:
+  - 真歩
+  - うちの作ったドレス着て、
+- wait:
+  - 50
+- print:
+  - 真歩
+  - 運命の人と
+- wait:
+  - 30
+- print:
+  - 真歩
+  - 結ばれる……
+- wait:
+  - 55
+- print:
+  - 真歩
+  - >2-
+
+    そんな夢や。
+- touch: *o0
+- focus:
+  - 101031
+- bust:
+  - 101031
+  - 1
+- vo:
+  - vo_adv_1160004_017
+- face:
+  - 101031
+  - 1
+- print:
+  - 真歩
+  - 夢が叶う日は
+- wait:
+  - 45
+- print:
+  - 真歩
+  - まだまだ先やって
+- wait:
+  - 30
+- print:
+  - 真歩
+  - 分かっとる。
+- wait:
+  - 65
+- print:
+  - 真歩
+  - >2
+
+- face:
+  - 101031
+  - 6
+- print:
+  - 真歩
+  - ……でも、
+- wait:
+  - 30
+- print:
+  - 真歩
+  - ダメ元で
+- wait:
+  - 30
+- print:
+  - 真歩
+  - 応募した会場が
+- wait:
+  - 45
+- print:
+  - 真歩
+  - 予約できてもうて、
+- wait:
+  - 75
+- print:
+  - 真歩
+  - >2-
+
+    ちょっとだけ、
+- wait:
+  - 40
+- print:
+  - 真歩
+  - 夢をのぞいてみようと
+- wait:
+  - 35
+- print:
+  - 真歩
+  - 思ったんよ。
+- touch: *o0
+- focus:
+  - 101031
+- bust:
+  - 101031
+  - 1
+- vo:
+  - vo_adv_1160004_018
+- face:
+  - 101031
+  - 1
+- print:
+  - 真歩
+  - それで、
+- wait:
+  - 35
+- print:
+  - 真歩
+  - 勢いのまま
+- wait:
+  - 40
+- print:
+  - 真歩
+  - 王子はんを誘ってもうてね、
+- wait:
+  - 90
+- print:
+  - 真歩
+  - >2
+
+- face:
+  - 101031
+  - 6
+- print:
+  - 真歩
+  - お返事もらうまで、
+- wait:
+  - 50
+- print:
+  - 真歩
+  - うち
+- wait:
+  - 30
+- print:
+  - 真歩
+  - なーんにも手ぇつけられへんかったけど、
+- wait:
+  - 90
+- print:
+  - 真歩
+  - >2
+
+- face:
+  - 101031
+  - 1
+- print:
+  - 真歩
+  - 王子はんが
+- wait:
+  - 30
+- print:
+  - 真歩
+  - いいよって言うてくれはった時は、
+- wait:
+  - 70
+- face:
+  - 101031
+  - 2
+- print:
+  - 真歩
+  - ほんま、
+- wait:
+  - 35
+- print:
+  - 真歩
+  - うれしかったわ。
+- touch: *o0
+- focus:
+  - 101031
+- bust:
+  - 101031
+  - 1
+- vo:
+  - vo_adv_1160004_019
+- face:
+  - 101031
+  - 1
+- print:
+  - 真歩
+  - うれしかったから、
+- wait:
+  - 40
+- print:
+  - 真歩
+  - がんばって
+- wait:
+  - 25
+- print:
+  - 真歩
+  - 毎日
+- wait:
+  - 40
+- print:
+  - 真歩
+  - 少しずつ
+- wait:
+  - 30
+- face:
+  - 101031
+  - 6
+- print:
+  - 真歩
+  - ドレスを作ってみたけど……
+- wait:
+  - 85
+- print:
+  - 真歩
+  - >2
+
+- face:
+  - 101031
+  - 4
+- print:
+  - 真歩
+  - ここへ来て、
+- wait:
+  - 50
+- print:
+  - 真歩
+  - 衣装を着て、
+- wait:
+  - 50
+- print:
+  - 真歩
+  - よう分かったわ。
+- wait:
+  - 80
+- print:
+  - 真歩
+  - >2-
+
+    うちが思い描いたもの、
+- wait:
+  - 75
+- print:
+  - 真歩
+  - 全然作れへんかったなぁ。
+- touch: *o0
+- focus:
+  - 101031
+- bust:
+  - 101031
+  - 1
+- vo:
+  - vo_adv_1160004_020
+- face:
+  - 101031
+  - 1
+- print:
+  - 真歩
+  - うち、
+- wait:
+  - 25
+- print:
+  - 真歩
+  - もっとお裁縫のお勉強するわ。
+- wait:
+  - 85
+- print:
+  - 真歩
+  - >2-
+
+    実家を継ぐためじゃなくて、
+- wait:
+  - 70
+- print:
+  - 真歩
+  - 自分のために……
+- touch: *o0
+- focus:
+  - 101031
+- bust:
+  - 101031
+  - 1
+- vo:
+  - vo_adv_1160004_021
+- face:
+  - 101031
+  - 6
+- print:
+  - 真歩
+  - 童話みたいに、
+- wait:
+  - 50
+- print:
+  - 真歩
+  - うちをお姫さまにしてくれはる
+- wait:
+  - 65
+- print:
+  - 真歩
+  - >2-
+
+    シンデレラの魔法使いはおらへん。
+- wait:
+  - 105
+- print:
+  - 真歩
+  - >2
+
+- face:
+  - 101031
+  - 1
+- print:
+  - 真歩
+  - 自分で魔法使いになって、
+- wait:
+  - 75
+- print:
+  - 真歩
+  - 世界で一番のドレスを作るんや。
+- touch: *o0
+- focus:
+  - 101031
+- bust:
+  - 101031
+  - 1
+- vo:
+  - vo_adv_1160004_022
+- face:
+  - 101031
+  - 2
+- print:
+  - 真歩
+  - このマホマホ王国の神殿に誓って、
+- wait:
+  - 100
+- print:
+  - 真歩
+  - >2-
+
+    うち、
+- wait:
+  - 35
+- print:
+  - 真歩
+  - 夢を叶えるために
+- wait:
+  - 50
+- print:
+  - 真歩
+  - がんばります！
+- touch: *o0
+- focus:
+  - 101031
+- bust:
+  - 101031
+  - 1
+- vo:
+  - vo_adv_1160004_023
+- face:
+  - 101031
+  - 6
+- print:
+  - 真歩
+  - せやから
+- wait:
+  - 40
+- print:
+  - 真歩
+  - 王子はんと
+- wait:
+  - 35
+- print:
+  - 真歩
+  - 結婚式っぽく、
+- wait:
+  - 55
+- print:
+  - 真歩
+  - >2-
+
+    楽しいことをしようと思ってましたけど……
+- wait:
+  - 100
+- print:
+  - 真歩
+  - >2
+
+- face:
+  - 101031
+  - 1
+- print:
+  - 真歩
+  - もう少し
+- wait:
+  - 45
+- print:
+  - 真歩
+  - 先の楽しみに
+- wait:
+  - 45
+- print:
+  - 真歩
+  - とっておきますわ。
+- touch: *o0
+- focus:
+  - 101031
+- bust:
+  - 101031
+  - 1
+- vo:
+  - vo_adv_1160004_024
+- face:
+  - 101031
+  - 6
+- print:
+  - 真歩
+  - ……でもなぁ、
+- wait:
+  - 40
+- print:
+  - 真歩
+  - このまま終わるのも
+- wait:
+  - 50
+- print:
+  - 真歩
+  - 物足りひんし、
+- wait:
+  - 85
+- face:
+  - 101031
+  - 1
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 真歩
+  - そうや。
+- wait:
+  - 60
+- print:
+  - 真歩
+  - >2-
+
+    王子はん。
+- wait:
+  - 40
+- print:
+  - 真歩
+  - 一緒に
+- wait:
+  - 25
+- print:
+  - 真歩
+  - 特別な思い出を
+- wait:
+  - 45
+- print:
+  - 真歩
+  - 作らへん？
+- touch: *o0
+- focus:
+  - 101031
+- bust:
+  - 101031
+  - 1
+- vo:
+  - vo_adv_1160004_025
+- face:
+  - 101031
+  - 1
+- print:
+  - 真歩
+  - 二人にしかできひん、
+- wait:
+  - 50
+- print:
+  - 真歩
+  - 愛の儀式といえば……
+- wait:
+  - 70
+- print:
+  - 真歩
+  - >2
+
+- face:
+  - 101031
+  - 2
+- print:
+  - 真歩
+  - ケーキ入刀や♪
+- touch: *o0
+- focus:
+  - 101031
+- bust:
+  - 101031
+  - 1
+- vo:
+  - vo_adv_1160004_026
+- face:
+  - 101031
+  - 1
+- print:
+  - 真歩
+  - そういうわけでうち、
+- wait:
+  - 55
+- print:
+  - 真歩
+  - >2-
+
+    美味しいケーキを焼いてくれる場所
+- wait:
+  - 50
+- print:
+  - 真歩
+  - 知ってるんよ。
+- touch: *o0
+- focus:
+  - 101031
+- bust:
+  - 101031
+  - 1
+- vo:
+  - vo_adv_1160004_027
+- face:
+  - 101031
+  - 1
+- print:
+  - 真歩
+  - その場所はな……
+- wait:
+  - 60
+- face:
+  - 101031
+  - 2
+- print:
+  - 真歩
+  - 我が家や♪
+- wait:
+  - 70
+- print:
+  - 真歩
+  - >2-
+
+    ほな、
+- wait:
+  - 25
+- print:
+  - 真歩
+  - 王子はん。
+- wait:
+  - 50
+- print:
+  - 真歩
+  - 今度はお城へ行きまひょか！
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 101031
+- bust:
+  - 101031
+  - 1
+- vo:
+  - vo_adv_1160004_028
+- face:
+  - 101031
+  - 4
+- print:
+  - 真歩
+  - うちったら
+- wait:
+  - 55
+- print:
+  - 真歩
+  - いくじなしやな。
+- wait:
+  - 70
+- print:
+  - 真歩
+  - >2-
+
+    ほっぺにちゅーぐらい
+- wait:
+  - 40
+- print:
+  - 真歩
+  - させてもらえばよかったわぁ。
+- touch: *o0
+- focus:
+  - 101031
+- bust:
+  - 101031
+  - 1
+- vo:
+  - vo_adv_1160004_029
+- face:
+  - 101031
+  - 1
+- print:
+  - 真歩
+  - ……それも
+- wait:
+  - 30
+- print:
+  - 真歩
+  - 『いつか』にとっておきまひょか。
+- wait:
+  - 75
+- print:
+  - 真歩
+  - >2
+
+- face:
+  - 101031
+  - 2
+- print:
+  - 真歩
+  - またここへ来れたらええなぁ。
+- wait:
+  - 95
+- print:
+  - 真歩
+  - >2
+
+- face:
+  - 101031
+  - 1
+- print:
+  - 真歩
+  - タキシード着た、
+- wait:
+  - 45
+- print:
+  - 真歩
+  - 王子はんと一緒に♪　
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- effect:
+  - 0005
+  - se_adv_holylight_01
+- effect:
+  - 0006
+  - se_adv_whiteout_01
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0022
+- effect_delete:
+  - 0005
+- effect_delete:
+  - 0006
+- still:
+  - end
+- background:
+  - 500270
+- se_pause:
+  - amb_adv_room_noise_01
+  - 1
+- wait:
+  - 15
+- effect:
+  - 0029
+- effect:
+  - 0026
+- effect:
+  - 0015
+  - se_adv_whiteout_02
+- white_in: *o0
+- bgm:
+  - bgm_M40
+- se:
+  - amb_adv_wind_01
+- wait:
+  - 60
+- chara_full:
+  - 190011
+  - C
+  - 2
+- fadein:
+  - 190011
+  - 30
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1160004_030
+- face:
+  - 190011
+  - 2
+- print:
+  - アメス
+  - 好きな人と結婚式で永遠の愛を誓う……
+- wait:
+  - 80
+- print:
+  - アメス
+  - >2-
+
+    一度は夢見る、
+- wait:
+  - 15
+- print:
+  - アメス
+  - 乙女のロマンよね。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1160004_031
+- face:
+  - 190011
+  - 2
+- print:
+  - アメス
+  - でもマホちゃんは
+- wait:
+  - 20
+- print:
+  - アメス
+  - 夢を見続けるだけじゃなくて、
+- wait:
+  - 35
+- print:
+  - アメス
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - アメス
+  - 夢にむかってがんばろうとしている。
+- wait:
+  - 50
+- print:
+  - アメス
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - アメス
+  - 一生懸命な女の子って、
+- wait:
+  - 40
+- print:
+  - アメス
+  - ステキ。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1160004_032
+- face:
+  - 190011
+  - 2
+- print:
+  - アメス
+  - だからかしら。
+- wait:
+  - 25
+- print:
+  - アメス
+  - >2-
+
+    マホちゃん、
+- wait:
+  - 15
+- print:
+  - アメス
+  - 本当にキレイだったわよね。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1160004_033
+- face:
+  - 190011
+  - 1
+- print:
+  - アメス
+  - マホマホ王国の王子さま。
+- wait:
+  - 45
+- print:
+  - アメス
+  - >2
+
+- face:
+  - 190011
+  - 2
+- print:
+  - アメス
+  - マホ姫の夢が叶うように、
+- wait:
+  - 45
+- print:
+  - アメス
+  - しっかりサポートしてあげなさいよ。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_1160004_034
+- face:
+  - 190011
+  - 2
+- print:
+  - アメス
+  - それじゃ、
+- wait:
+  - 10
+- print:
+  - アメス
+  - バイバーイ♪
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 190011
+  - 30
+- bgm:
+  - stop
+  - 2.5
+- effect:
+  - 0006
+  - se_adv_whiteout_01
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0006
+- effect_delete:
+  - 0029
+- effect_delete:
+  - 0026
+- background:
+  - 500010
+- se_pause:
+  - amb_adv_wind_01
+  - 1
+- wait:
+  - 30
+- white_in: *o0
+- se:
+  - amb_adv_town_day_01
+- vo_effect:
+  - 0
+- wait:
+  - 30
+- chara_full:
+  - 116011
+  - C
+  - 4
+  - 1
+- fadein:
+  - 116011
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M247
+  - 0
+  - 0
+  - 1
+- focus:
+  - 116011
+- bust:
+  - 116011
+  - 0
+- vo:
+  - vo_adv_1160004_035
+- face:
+  - 116011
+  - 4
+- eye_open:
+  - True
+- print:
+  - マホ
+  - ……あれぇ？　
+- wait:
+  - 50
+- print:
+  - マホ
+  - うち、
+- wait:
+  - 25
+- print:
+  - マホ
+  - 眠ってしもうたん？
+- wait:
+  - 85
+- print:
+  - マホ
+  - >2
+
+- face:
+  - 116011
+  - 6
+- print:
+  - マホ
+  - それに、
+- wait:
+  - 35
+- print:
+  - マホ
+  - 王子はんも……
+- wait:
+  - 65
+- print:
+  - マホ
+  - >2
+
+- face:
+  - 116011
+  - 2
+- print:
+  - マホ
+  - ふふっ、
+- wait:
+  - 40
+- print:
+  - マホ
+  - どうりで
+- wait:
+  - 35
+- print:
+  - マホ
+  - ええ夢やったわけやね。
+- touch: *o0
+- focus:
+  - 116011
+- bust:
+  - 116011
+  - 0
+- vo:
+  - vo_adv_1160004_036
+- face:
+  - 116011
+  - 1
+- print:
+  - マホ
+  - うち、
+- wait:
+  - 30
+- print:
+  - マホ
+  - また王子はんの夢を見たんよ。
+- wait:
+  - 90
+- print:
+  - マホ
+  - >2
+
+- face:
+  - 116011
+  - 5
+- emotion:
+  - heart1_R
+  - 116011
+  - 60
+  - 465
+  - se_adv_emote_heart_01
+- print:
+  - マホ
+  - ああ。
+- wait:
+  - 50
+- print:
+  - マホ
+  - あんなステキな式場で、
+- wait:
+  - 55
+- print:
+  - マホ
+  - >2-
+
+    運命の人と
+- wait:
+  - 45
+- print:
+  - マホ
+  - 一緒に愛を誓い合いたいわぁ。
+- touch: *o0
+- focus:
+  - 116011
+- bust:
+  - 116011
+  - 0
+- vo:
+  - vo_adv_1160004_037
+- face:
+  - 116011
+  - 1
+- nod:
+  - 116011
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - マホ
+  - うち、
+- wait:
+  - 30
+- print:
+  - マホ
+  - また一つ、
+- wait:
+  - 55
+- print:
+  - マホ
+  - 夢ができましたわ♪
+- touch: *o0
+- focus:
+  - 116011
+- bust:
+  - 116011
+  - 0
+- vo:
+  - vo_adv_1160004_038
+- face:
+  - 116011
+  - 6
+- print:
+  - マホ
+  - 花まつりは終わってまうけど、
+- wait:
+  - 65
+- print:
+  - マホ
+  - >2
+
+- face:
+  - 116011
+  - 1
+- print:
+  - マホ
+  - マホマホ王国のマホ姫と
+- wait:
+  - 65
+- print:
+  - マホ
+  - 王子はんの物語は
+- wait:
+  - 65
+- print:
+  - マホ
+  - 続きます。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 116011
+  - 30
+- se:
+  - se_adv_cloth_move_normal_01
+- chara_full:
+  - 116011
+  - C
+  - 2
+- scale:
+  - 116011
+  - 1.2
+  - 2
+- fadein:
+  - 116011
+  - 30
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- window_visible:
+  - true
+- focus:
+  - 116011
+- bust:
+  - 116011
+  - 0
+- vo:
+  - vo_adv_1160004_039
+- face:
+  - 116011
+  - 2
+- print:
+  - マホ
+  - そういうわけで
+- wait:
+  - 40
+- print:
+  - マホ
+  - 王子はん。
+- wait:
+  - 65
+- print:
+  - マホ
+  - >2
+
+- face:
+  - 116011
+  - 5
+- print:
+  - マホ
+  - 最後に、
+- wait:
+  - 15
+- print:
+  - マホ
+  - もう一度……
+- wait:
+  - 50
+- print:
+  - マホ
+  - >2-
+
+    うちと踊ってくれはりますか？
+- touch: *o0
+- window_visible:
+  - false
+- effect_delete:
+  - 0022
+  - 15
+- fadeout:
+  - 116011
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - '{0}が手を差し伸べると、'
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - >2-
+
+    マホは満開の花のように、笑顔を咲かせるのだった。
+- touch: *o0
+- window_visible:
+  - false
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

@@ -1,0 +1,4337 @@
+- title:
+  - リマ（シンデレラ） 第2話
+- outline:
+  - 貴族の女性に木の切り方を教えることになったリマ。人間の姿で特訓をしている最中に変身が解けてしまうものの{0}の後押しで勇気を出し、自分の真実を語って貴族の女性と友情を結ぶ。
+- background:
+  - 500150
+- se:
+  - amb_adv_pasture_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 森に響く恋の音
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - 郵便配達のバイトをしていた{0}は
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - >2-
+
+    手紙を届けるため、牧場へとやって来た。
+- wait:
+  - 30
+- touch: &o0 []
+- choice:
+  - 郵便です。
+  - 1
+- tag:
+  - 1
+- window_visible:
+  - false
+- chara_full:
+  - 105213
+  - C
+  - 2
+- fadein:
+  - 105213
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M352
+  - 0
+  - 0
+  - 1
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_000
+- face:
+  - 105213
+  - 2
+- emotion:
+  - note1_L
+  - 105213
+  - -80
+  - 530
+  - se_adv_emote_note_01
+- print:
+  - リマ
+  - いらっしゃ～い♪
+- wait:
+  - 30
+- print:
+  - リマ
+  - >2-
+
+    いつもありがとう。
+- wait:
+  - 40
+- print:
+  - リマ
+  - 手紙なら私からマヒルちゃんに渡して……
+- wait:
+  - 55
+- face:
+  - 105213
+  - 1
+- print:
+  - リマ
+  - あら？
+- wait:
+  - 25
+- print:
+  - リマ
+  - >2-
+
+    私宛の手紙があるわ。
+- wait:
+  - 45
+- print:
+  - リマ
+  - 珍しいわね。
+- touch: *o0
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_001
+- face:
+  - 105213
+  - 1
+- se:
+  - se_adv_stepadd_armor_norm_01_move_01
+- print:
+  - リマ
+  - 差出人は……
+- wait:
+  - 65
+- face:
+  - 105213
+  - 4
+- print:
+  - リマ
+  - んー
+- wait:
+  - 20
+- print:
+  - リマ
+  - 知らない名前ね。
+- wait:
+  - 40
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105213
+  - 1
+- print:
+  - リマ
+  - なんて書いてあるのかしら……
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_paper_move_05
+- nod:
+  - 105213
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_002
+- face:
+  - 105213
+  - 6
+- emotion:
+  - surprise1_L
+  - 105213
+  - 170
+  - 555
+  - se_adv_emote_common_01
+- print:
+  - リマ
+  - まぁ！？
+- touch: *o0
+- choice:
+  - どうしたの？
+  - 2
+- tag:
+  - 2
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_003
+- face:
+  - 105213
+  - 2
+- print:
+  - リマ
+  - この手紙、
+- wait:
+  - 35
+- print:
+  - リマ
+  - この間会った奥さんからだわ。
+- wait:
+  - 55
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105213
+  - 1
+- print:
+  - リマ
+  - 私に頼み事があるお嬢様が裁縫ギルドにいるんですって。
+- touch: *o0
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_004
+- face:
+  - 105213
+  - 4
+- print:
+  - リマ
+  - うーん
+- wait:
+  - 30
+- print:
+  - リマ
+  - 力になれるか分からないけど、
+- wait:
+  - 55
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105213
+  - 1
+- print:
+  - リマ
+  - せっかく頼ってくれたんだから
+- wait:
+  - 25
+- print:
+  - リマ
+  - 話だけでも聞いてみましょうか。
+- touch: *o0
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_005
+- face:
+  - 105213
+  - 4
+- print:
+  - リマ
+  - あ、
+- wait:
+  - 10
+- print:
+  - リマ
+  - でも
+- wait:
+  - 20
+- print:
+  - リマ
+  - 私だけだと不安だから、
+- wait:
+  - 45
+- print:
+  - リマ
+  - >2-
+
+    あなたも一緒に居てくれるとうれしいんだけど……
+- touch: *o0
+- choice:
+  - もちろん。
+  - 3
+- tag:
+  - 3
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_006
+- face:
+  - 105213
+  - 2
+- emotion:
+  - twinkle1_R
+  - 105213
+  - 145
+  - 540
+  - se_adv_emote_twinkle_01
+- print:
+  - リマ
+  - そうと決まれば
+- wait:
+  - 35
+- print:
+  - リマ
+  - さっそくお返事を書かなきゃ！
+- wait:
+  - 50
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105213
+  - 1
+- print:
+  - リマ
+  - すぐに書くから
+- wait:
+  - 20
+- print:
+  - リマ
+  - 少しだけ待っててちょうだいね。
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+  - 1
+- fadeout:
+  - 105213
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_pasture_01
+  - 1
+- background:
+  - 500170
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_forest_01
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - 返事の手紙を出してから数日後。
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - >2-
+
+    メタモルアップルを食べたリマと
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - >2-
+
+    {0}は牧場近くの森に佇んでいた。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 105214
+  - C
+  - 1
+- fadein:
+  - 105214
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M180_Ver2
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_1158002_007
+- face:
+  - 105214
+  - 1
+- print:
+  - リマ
+  - 森で会いたいってお返事が来たけど、
+- wait:
+  - 65
+- print:
+  - リマ
+  - >2-
+
+    結局頼み事ってなんなのかしら。
+- wait:
+  - 80
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105214
+  - 4
+- print:
+  - リマ
+  - この森に貴族様が欲しがるようなものはないと思うんだけど……
+- touch: *o0
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_1158002_008
+- face:
+  - 105214
+  - 1
+- nod:
+  - 105214
+- se:
+  - se_adv_stepadd_armor_norm_01_move_01
+- print:
+  - リマ
+  - あ！　
+- wait:
+  - 15
+- print:
+  - リマ
+  - 来たみたいね！
+- wait:
+  - 30
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105214
+  - 1
+- print:
+  - リマ
+  - 迎えに行きましょう。
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2.5
+- se:
+  - se_adv_step_leaves_walk_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 105214
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_forest_01
+  - 1
+- background:
+  - 500170
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_forest_01
+- chara_full:
+  - 105214
+  - LC
+  - 2
+- chara_full:
+  - 411
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M190
+  - 0
+  - 0
+  - 1
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_1158002_009
+- face:
+  - 105214
+  - 2
+- emotion:
+  - note1_L
+  - 105214
+  - -80
+  - 515
+  - se_adv_emote_note_01
+- print:
+  - リマ
+  - いらっしゃ～い♪
+- wait:
+  - 30
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105214
+  - 2
+- print:
+  - リマ
+  - あなたが私に頼み事があるって子かしら。
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_010
+- face:
+  - 411
+  - 6
+- print:
+  - 女性
+  - は、
+- wait:
+  - 10
+- print:
+  - 女性
+  - はい。
+- wait:
+  - 15
+- print:
+  - 女性
+  - ほ、
+- wait:
+  - 10
+- print:
+  - 女性
+  - 本日はその、
+- wait:
+  - 20
+- print:
+  - 女性
+  - わざわざお時間をい、
+- wait:
+  - 15
+- print:
+  - 女性
+  - いただき、
+- wait:
+  - 15
+- print:
+  - 女性
+  - >2-
+
+    あ、
+- wait:
+  - 15
+- print:
+  - 女性
+  - ありがとうございます。
+- touch: *o0
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_1158002_011
+- face:
+  - 105214
+  - 6
+- emotion:
+  - question1_R
+  - 105214
+  - 130
+  - 495
+  - se_adv_emote_question_01
+- print:
+  - リマ
+  - ん？　
+- wait:
+  - 15
+- print:
+  - リマ
+  - どうしたのかしら？
+- wait:
+  - 35
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105214
+  - 4
+- print:
+  - リマ
+  - ここに来るまでに疲れちゃった？
+- wait:
+  - 55
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105214
+  - 1
+- print:
+  - リマ
+  - だったら無理せずに一休みしましょう。
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_012
+- face:
+  - 411
+  - 6
+- print:
+  - 女性
+  - いえ、
+- wait:
+  - 15
+- print:
+  - 女性
+  - 疲れてはおりません。
+- wait:
+  - 20
+- print:
+  - 女性
+  - >2
+
+- face:
+  - 411
+  - 4
+- print:
+  - 女性
+  - ただ、
+- wait:
+  - 15
+- print:
+  - 女性
+  - その、
+- wait:
+  - 20
+- print:
+  - 女性
+  - リマ様がずいぶんとその、
+- wait:
+  - 45
+- print:
+  - 女性
+  - >2-
+
+    肌を露出された服をお召しになられているので……
+- touch: *o0
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_1158002_013
+- face:
+  - 105214
+  - 6
+- print:
+  - リマ
+  - あ、
+- wait:
+  - 10
+- nod:
+  - 105214
+- se:
+  - se_adv_stepadd_armor_norm_01_move_01
+- print:
+  - リマ
+  - あ～！　
+- wait:
+  - 25
+- print:
+  - リマ
+  - え、
+- wait:
+  - 10
+- print:
+  - リマ
+  - え～っと、
+- wait:
+  - 30
+- print:
+  - リマ
+  - これは、
+- wait:
+  - 40
+- print:
+  - リマ
+  - そう！
+- wait:
+  - 20
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105214
+  - 1
+- print:
+  - リマ
+  - 私は木を切ることが仕事みたいなものだから
+- wait:
+  - 65
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105214
+  - 2
+- print:
+  - リマ
+  - こういう格好の方が何かと都合がいいのよ！
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_014
+- face:
+  - 411
+  - 6
+- emotion:
+  - surprise1_L
+  - 411
+  - 140
+  - 570
+  - se_adv_emote_common_01
+- print:
+  - 女性
+  - そうなのですか！？
+- wait:
+  - 40
+- print:
+  - 女性
+  - >2
+
+- face:
+  - 411
+  - 4
+- print:
+  - 女性
+  - 一応
+- wait:
+  - 20
+- print:
+  - 女性
+  - 汚れてもいい格好で来たのですが、
+- wait:
+  - 65
+- print:
+  - 女性
+  - >2-
+
+    まだ覚悟が足りなかったようです……
+- touch: *o0
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_1158002_015
+- face:
+  - 105214
+  - 6
+- print:
+  - リマ
+  - 汚れてもいい格好？　
+- wait:
+  - 60
+- face:
+  - 105214
+  - 4
+- print:
+  - リマ
+  - どういうこと？
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_016
+- face:
+  - 411
+  - 4
+- print:
+  - 女性
+  - 実は……
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- fadeout_all:
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 105214
+  - LC
+  - 6
+- chara_full:
+  - 411
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M203
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_1158002_017
+- face:
+  - 105214
+  - 6
+- print:
+  - リマ
+  - 意中の殿方を射止めるために、
+- wait:
+  - 55
+- print:
+  - リマ
+  - 木の切り方を教えてほしい！？
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_018
+- face:
+  - 411
+  - 4
+- print:
+  - 女性
+  - はい。
+- wait:
+  - 35
+- print:
+  - 女性
+  - わたくしには難しいでしょうか……
+- touch: *o0
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_1158002_019
+- face:
+  - 105214
+  - 4
+- emotion:
+  - sweat1_R
+  - 105214
+  - 85
+  - 495
+  - se_adv_emote_sweat_01
+- print:
+  - リマ
+  - う～ん
+- wait:
+  - 40
+- print:
+  - リマ
+  - 確かに普通の女の子には難しいかもしれないわね。
+- wait:
+  - 95
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105214
+  - 1
+- print:
+  - リマ
+  - それより
+- wait:
+  - 25
+- print:
+  - リマ
+  - どうしてそんなことを覚える必要があるの？
+- touch: *o0
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_1158002_020
+- face:
+  - 105214
+  - 4
+- print:
+  - リマ
+  - 貴族様には
+- wait:
+  - 25
+- print:
+  - リマ
+  - はしたないって言われちゃうことだと思うんだけど。
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_021
+- face:
+  - 411
+  - 6
+- print:
+  - 女性
+  - そ、
+- wait:
+  - 15
+- print:
+  - 女性
+  - それは、
+- wait:
+  - 10
+- print:
+  - 女性
+  - え、えっと、
+- wait:
+  - 20
+- face:
+  - 411
+  - 5
+- print:
+  - 女性
+  - わたくしが想いを寄せる方は
+- wait:
+  - 30
+- print:
+  - 女性
+  - >2-
+
+    農業を事業として
+- wait:
+  - 25
+- print:
+  - 女性
+  - 手広く成功されたにもかかわらず
+- wait:
+  - 55
+- print:
+  - 女性
+  - >2-
+
+    いまだにご自分で現場にも出られる変わった方で……
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_022
+- face:
+  - 411
+  - 1
+- print:
+  - 女性
+  - お目に留まるには、
+- wait:
+  - 25
+- print:
+  - 女性
+  - わたくしもあの方と同じことを
+- wait:
+  - 25
+- print:
+  - 女性
+  - >2-
+
+    できるようにならねばと、
+- wait:
+  - 30
+- face:
+  - 411
+  - 5
+- print:
+  - 女性
+  - その、
+- wait:
+  - 20
+- print:
+  - 女性
+  - 思いまして……
+- touch: *o0
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_1158002_023
+- face:
+  - 105214
+  - 1
+- print:
+  - リマ
+  - その殿方のハートを射止めるために、
+- wait:
+  - 55
+- print:
+  - リマ
+  - >2-
+
+    慣れない力仕事に挑戦する…………
+- wait:
+  - 85
+- face:
+  - 105214
+  - 7
+- emotion:
+  - twinkle1_R
+  - 105214
+  - 140
+  - 470
+  - se_adv_emote_twinkle_01
+- print:
+  - リマ
+  - 素敵じゃない！！
+- wait:
+  - 45
+- print:
+  - リマ
+  - >2-
+
+    喜んで協力させてもらうわ♪
+- touch: *o0
+- face:
+  - 105214
+  - 1
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_024
+- face:
+  - 411
+  - 6
+- print:
+  - 女性
+  - ほ、
+- wait:
+  - 15
+- print:
+  - 女性
+  - 本当ですか！？
+- touch: *o0
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_1158002_025
+- face:
+  - 105214
+  - 1
+- print:
+  - リマ
+  - でも
+- wait:
+  - 25
+- print:
+  - リマ
+  - いきなり木を切るのは
+- wait:
+  - 35
+- print:
+  - リマ
+  - いくらなんでも無茶よ。
+- wait:
+  - 45
+- print:
+  - リマ
+  - >2-
+
+    まずは薪割りから始めましょう。
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_026
+- face:
+  - 411
+  - 1
+- nod:
+  - 411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 女性
+  - はい！！
+- touch: *o0
+- bgm:
+  - stop
+  - 1.5
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_weapon_sword_set_01
+- chara_full:
+  - 105212
+  - C
+  - 2
+- fadein:
+  - 105212
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M274
+  - 0
+  - 0
+  - 1
+- focus:
+  - 105212
+- bust:
+  - 105212
+  - 0
+- vo:
+  - vo_adv_1158002_027
+- face:
+  - 105212
+  - 2
+- print:
+  - リマ
+  - まずは薪にするための木を切らないとね。
+- wait:
+  - 65
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105212
+  - 1
+- print:
+  - リマ
+  - ん～
+- wait:
+  - 30
+- print:
+  - リマ
+  - この木がちょうどいいかしら？
+- touch: *o0
+- focus:
+  - 105212
+- bust:
+  - 105212
+  - 0
+- vo:
+  - vo_adv_1158002_028
+- face:
+  - 105212
+  - 1
+- print:
+  - リマ
+  - まずは私がお手本を見せるわね。
+- wait:
+  - 65
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105212
+  - 2
+- print:
+  - リマ
+  - え～～いっ♪
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0009
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- se:
+  - se_adv_weapon_axe_whiff_01
+- scale:
+  - 105212
+  - 1.3
+  - 2
+  - 10
+- fadeout:
+  - 105212
+  - 10
+- effect_delete:
+  - 0009
+- effect:
+  - 0001
+  - se_adv_wood_cutdown_01
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- se:
+  - se_adv_wood_cutdown_05
+- chara_full:
+  - 105212
+  - LC
+  - 2
+- chara_full:
+  - 411
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_029
+- face:
+  - 411
+  - 6
+- print:
+  - 女性
+  - …………
+- touch: *o0
+- focus:
+  - 105212
+- bust:
+  - 105212
+  - 0
+- vo:
+  - vo_adv_1158002_030
+- face:
+  - 105212
+  - 6
+- emotion:
+  - sweat2_R
+  - 105212
+  - 95
+  - 530
+  - se_adv_emote_sweat_02
+- print:
+  - リマ
+  - あ、
+- wait:
+  - 15
+- print:
+  - リマ
+  - え、
+- wait:
+  - 5
+- print:
+  - リマ
+  - え～～
+- wait:
+  - 15
+- print:
+  - リマ
+  - っと……
+- wait:
+  - 20
+- print:
+  - リマ
+  - >2-
+
+    いきなりこんなことしろなんて言わないわよ？
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 105212
+- bust:
+  - 105212
+  - 0
+- vo:
+  - vo_adv_1158002_031
+- face:
+  - 105212
+  - 4
+- print:
+  - リマ
+  - それに私だって、
+- wait:
+  - 40
+- print:
+  - リマ
+  - ネネカちゃんが改良してくれた
+- wait:
+  - 25
+- print:
+  - リマ
+  - >2-
+
+    メタモルアップルじゃないと、
+- wait:
+  - 30
+- print:
+  - リマ
+  - この姿じゃ簡単に木は切れないし……
+- touch: *o0
+- choice:
+  - 訓練が必要。
+  - 4
+- tag:
+  - 4
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 105212
+- bust:
+  - 105212
+  - 0
+- vo:
+  - vo_adv_1158002_032
+- face:
+  - 105212
+  - 6
+- print:
+  - リマ
+  - そ、
+- wait:
+  - 10
+- nod:
+  - 105212
+- se:
+  - se_adv_stepadd_armor_norm_01_move_01
+- print:
+  - リマ
+  - そう！
+- wait:
+  - 25
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105212
+  - 1
+- print:
+  - リマ
+  - 何事も
+- wait:
+  - 25
+- print:
+  - リマ
+  - 小さなことからコツコツやるのが大切よ！
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_033
+- face:
+  - 411
+  - 6
+- print:
+  - 女性
+  - そ、
+- wait:
+  - 10
+- print:
+  - 女性
+  - そうですよね！
+- wait:
+  - 30
+- print:
+  - 女性
+  - >2
+
+- face:
+  - 411
+  - 1
+- print:
+  - 女性
+  - わたくしがんばりますわ！
+- touch: *o0
+- focus:
+  - 105212
+- bust:
+  - 105212
+  - 0
+- vo:
+  - vo_adv_1158002_034
+- face:
+  - 105212
+  - 1
+- print:
+  - リマ
+  - それじゃあまずは
+- wait:
+  - 35
+- print:
+  - リマ
+  - 細めの枝を薪にしていきましょうか。
+- wait:
+  - 50
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105212
+  - 2
+- print:
+  - リマ
+  - あなたの斧を持ってくるわね。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 105214
+  - LC
+  - 2
+- chara_full:
+  - 411
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_1158002_035
+- face:
+  - 105214
+  - 2
+- emotion:
+  - note1_L
+  - 105214
+  - -80
+  - 515
+  - se_adv_emote_note_01
+- se:
+  - se_adv_stepadd_armor_norm_01_move_01
+- print:
+  - リマ
+  - はい、
+- wait:
+  - 15
+- print:
+  - リマ
+  - どうぞ♪
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_036
+- face:
+  - 411
+  - 1
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 女性
+  - ありがとうございま……
+- wait:
+  - 10
+- face:
+  - 411
+  - 6
+- shake:
+  - 411
+- se:
+  - se_adv_cloth_move_hard_01
+- se:
+  - se_adv_drop_jar_02
+- print:
+  - 女性
+  - うっ。
+- touch: *o0
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_1158002_037
+- face:
+  - 105214
+  - 6
+- print:
+  - リマ
+  - え、
+- wait:
+  - 15
+- print:
+  - リマ
+  - えっと……
+- wait:
+  - 45
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105214
+  - 4
+- print:
+  - リマ
+  - これより軽いのは牧場にはないんだけど、
+- wait:
+  - 60
+- print:
+  - リマ
+  - 大丈夫？
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_038
+- face:
+  - 411
+  - 3
+- print:
+  - 女性
+  - や、
+- wait:
+  - 10
+- print:
+  - 女性
+  - やります！　
+- wait:
+  - 25
+- print:
+  - 女性
+  - これくらいの斧を振れなきゃ、
+- wait:
+  - 35
+- print:
+  - 女性
+  - >2-
+
+    あの人に振り向いてもらえませんから！
+- wait:
+  - 50
+- print:
+  - 女性
+  - >2
+
+- se:
+  - se_adv_cloth_move_normal_01
+- se:
+  - se_adv_step_leaves_move_03
+- print:
+  - 女性
+  - よい、
+- wait:
+  - 35
+- nod:
+  - 411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 女性
+  - しょ！
+- se_pause:
+  - se_adv_cloth_move_normal_01
+- se_pause:
+  - se_adv_step_leaves_move_03
+- touch: *o0
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_1158002_039
+- face:
+  - 105214
+  - 2
+- print:
+  - リマ
+  - すごい！　
+- wait:
+  - 25
+- print:
+  - リマ
+  - きちんと持ち上げられたじゃない！
+- wait:
+  - 55
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105214
+  - 1
+- print:
+  - リマ
+  - 恋する乙女は強いのね♪
+- wait:
+  - 55
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105214
+  - 2
+- print:
+  - リマ
+  - 大丈夫！　
+- wait:
+  - 30
+- print:
+  - リマ
+  - あなたならきっとできるわ！
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_040
+- face:
+  - 411
+  - 2
+- print:
+  - 女性
+  - はい！！
+- touch: *o0
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_1158002_041
+- face:
+  - 105214
+  - 1
+- print:
+  - リマ
+  - それじゃあ
+- wait:
+  - 20
+- print:
+  - リマ
+  - 私がお手本を見せるわね。
+- wait:
+  - 60
+- print:
+  - リマ
+  - >2-
+
+    まずは斧を薪に振り下ろして、
+- wait:
+  - 55
+- print:
+  - リマ
+  - 食いこませるの。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_weapon_axe_whiff_01
+- wait:
+  - 2
+- se:
+  - se_adv_weapon_arrow_hit_wood_01
+- nod:
+  - 105214
+- wait:
+  - 13
+- window_visible:
+  - true
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_1158002_042
+- face:
+  - 105214
+  - 1
+- print:
+  - リマ
+  - 後は
+- wait:
+  - 25
+- print:
+  - リマ
+  - この挟まった状態で
+- wait:
+  - 45
+- print:
+  - リマ
+  - もう一回打ち下ろす。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_hit_wood_02
+- nod:
+  - 105214
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_1158002_043
+- face:
+  - 105214
+  - 7
+- print:
+  - リマ
+  - 意外と簡単でしょ？
+- wait:
+  - 50
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105214
+  - 1
+- print:
+  - リマ
+  - でも慣れるまでは慎重にやらないとダメよ。
+- wait:
+  - 70
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105214
+  - 2
+- print:
+  - リマ
+  - 安全第一だからね。
+- touch: *o0
+- face:
+  - 105214
+  - 1
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_044
+- face:
+  - 411
+  - 3
+- print:
+  - 女性
+  - やってみます！
+- wait:
+  - 30
+- print:
+  - 女性
+  - >2
+
+- face:
+  - 411
+  - 6
+- nod:
+  - 411
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 女性
+  - ん、
+- wait:
+  - 25
+- se:
+  - se_adv_step_leaves_move_01
+- print:
+  - 女性
+  - っしょ、
+- wait:
+  - 30
+- print:
+  - 女性
+  - 斧を薪に、
+- wait:
+  - 50
+- print:
+  - 女性
+  - 振り下ろ、
+- wait:
+  - 30
+- face:
+  - 411
+  - 3
+- print:
+  - 女性
+  - す！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_weapon_axe_whiff_01
+- nod:
+  - 411
+- wait:
+  - 2
+- se:
+  - se_adv_weapon_arrow_hit_wood_01
+- wait:
+  - 13
+- window_visible:
+  - true
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_1158002_045
+- face:
+  - 105214
+  - 2
+- print:
+  - リマ
+  - そうそう！　
+- wait:
+  - 25
+- print:
+  - リマ
+  - その調子！
+- touch: *o0
+- face:
+  - 105214
+  - 1
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_046
+- face:
+  - 411
+  - 6
+- print:
+  - 女性
+  - 後はこのままもう一回、
+- wait:
+  - 50
+- face:
+  - 411
+  - 3
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 女性
+  - 打ち、
+- wait:
+  - 20
+- print:
+  - 女性
+  - 下ろ、
+- wait:
+  - 25
+- print:
+  - 女性
+  - す！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_hit_wood_02
+- nod:
+  - 411
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_047
+- face:
+  - 411
+  - 2
+- emotion:
+  - twinkle1_R
+  - 411
+  - -125
+  - 490
+  - se_adv_emote_twinkle_01
+- print:
+  - 女性
+  - できました！
+- touch: *o0
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_1158002_048
+- face:
+  - 105214
+  - 2
+- pop:
+  - 105214
+- se:
+  - se_adv_rabbit_jump_01
+- print:
+  - リマ
+  - すごいわ！　
+- wait:
+  - 35
+- print:
+  - リマ
+  - とっても上手よ♪
+- wait:
+  - 40
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105214
+  - 1
+- print:
+  - リマ
+  - この調子でどんどん練習していきましょう♪
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- fadeout_all:
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 105214
+  - LC
+  - 1
+- chara_full:
+  - 411
+  - RC
+  - 2
+- se:
+  - se_adv_hit_wood_03
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M113_Ver2
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_049
+- face:
+  - 411
+  - 2
+- emotion:
+  - twinkle1_R
+  - 411
+  - -125
+  - 490
+  - se_adv_emote_twinkle_01
+- print:
+  - 女性
+  - やりました！
+- wait:
+  - 25
+- print:
+  - 女性
+  - >2-
+
+    さっきより太い枝が割れましたよ！
+- touch: *o0
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_1158002_050
+- face:
+  - 105214
+  - 2
+- print:
+  - リマ
+  - すごいじゃない！　
+- wait:
+  - 55
+- face:
+  - 105214
+  - 1
+- print:
+  - リマ
+  - でも
+- wait:
+  - 25
+- print:
+  - リマ
+  - そろそろ休憩にしましょうか。
+- wait:
+  - 45
+- print:
+  - リマ
+  - >2-
+
+    ちょっと待ってて。
+- wait:
+  - 20
+- print:
+  - リマ
+  - おやつ持ってくるから。
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_051
+- face:
+  - 411
+  - 6
+- print:
+  - 女性
+  - お、
+- wait:
+  - 15
+- print:
+  - 女性
+  - おかまいなく……！
+- touch: *o0
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_1158002_052
+- face:
+  - 105214
+  - 1
+- print:
+  - リマ
+  - だめよ！　
+- wait:
+  - 35
+- face:
+  - 105214
+  - 7
+- print:
+  - リマ
+  - 動いた分はきちんと栄養補給しないとね♪
+- wait:
+  - 90
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105214
+  - 1
+- print:
+  - リマ
+  - '{0}くんもここで待ってて。'
+- wait:
+  - 25
+- print:
+  - リマ
+  - >2-
+
+    すぐに戻ってくるから～
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 3
+- se:
+  - se_adv_step_leaves_walk_armor_go_01
+- change:
+  - L
+  - LC
+  - 30
+- fadeout_all:
+  - 30
+- se_pause:
+  - amb_adv_forest_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- se:
+  - amb_adv_forest_01
+- black_in: *o0
+- chara_full:
+  - 411
+  - C
+  - 4
+- fadein:
+  - 411
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M203_04
+  - 0
+  - 0
+  - 1
+  - 1
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_053
+- face:
+  - 411
+  - 4
+- print:
+  - 女性
+  - リマ様、
+- wait:
+  - 30
+- print:
+  - 女性
+  - 戻ってきませんね……
+- touch: *o0
+- choice:
+  - 様子を見てくる。
+  - 5
+- tag:
+  - 5
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_054
+- face:
+  - 411
+  - 4
+- nod:
+  - 411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 女性
+  - 申し訳ありませんが、
+- wait:
+  - 30
+- print:
+  - 女性
+  - よろしくお願いいたします。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 411
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1158002_055
+- face:
+  - 1
+  - 1
+- se:
+  - se_adv_bush_02
+- print:
+  - リマ
+  - ど、
+- wait:
+  - 25
+- print:
+  - リマ
+  - どどど
+- wait:
+  - 5
+- print:
+  - リマ
+  - どうしましょう……
+- touch: *o0
+- choice:
+  - リマちゃん？
+  - 6
+- tag:
+  - 6
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1158002_056
+- face:
+  - 1
+  - 1
+- print:
+  - リマ
+  - その声は{0}くん！
+- wait:
+  - 15
+- print:
+  - リマ
+  - >2-
+
+    い、
+- wait:
+  - 25
+- print:
+  - リマ
+  - 今一人よね？
+- touch: *o0
+- choice:
+  - うん。
+  - 7
+- tag:
+  - 7
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1158002_057
+- face:
+  - 1
+  - 1
+- print:
+  - リマ
+  - よかった。
+- wait:
+  - 45
+- print:
+  - リマ
+  - ちょっとこっちに来てくれるかしら。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_leaves_move_armor_01
+- chara_full:
+  - 105213
+  - C
+  - 4
+- fadein:
+  - 105213
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 4
+  - 1
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_058
+- face:
+  - 105213
+  - 4
+- print:
+  - リマ
+  - >-
+    {0}くん。
+
+    変身、
+- wait:
+  - 20
+- print:
+  - リマ
+  - 解けちゃった……
+- touch: *o0
+- bgm:
+  - bgm_M11_Ver2
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_059
+- face:
+  - 105213
+  - 4
+- print:
+  - リマ
+  - 転んだりしてないのにどうして……
+- wait:
+  - 50
+- face:
+  - 105213
+  - 6
+- print:
+  - リマ
+  - あ、
+- wait:
+  - 15
+- print:
+  - リマ
+  - も、
+- wait:
+  - 10
+- print:
+  - リマ
+  - もしかして私、
+- wait:
+  - 40
+- print:
+  - リマ
+  - >2-
+
+    残ってた試作品のメタモルアップルを食べちゃった！？
+- touch: *o0
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_060
+- face:
+  - 105213
+  - 4
+- print:
+  - リマ
+  - ネネカちゃんは
+- wait:
+  - 30
+- print:
+  - リマ
+  - 試作品には予期せぬ副作用が、
+- wait:
+  - 40
+- print:
+  - リマ
+  - って言ってたから、
+- wait:
+  - 30
+- print:
+  - リマ
+  - >2-
+
+    そのせいかしら……
+- touch: *o0
+- choice:
+  - 新しいリンゴを持ってこよう。
+  - 8
+- tag:
+  - 8
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_061
+- face:
+  - 105213
+  - 6
+- print:
+  - リマ
+  - あ！　
+- wait:
+  - 15
+- print:
+  - リマ
+  - そ、
+- wait:
+  - 5
+- print:
+  - リマ
+  - そうね！　
+- wait:
+  - 20
+- print:
+  - リマ
+  - 慌てて思いつかなかったわ。
+- wait:
+  - 35
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105213
+  - 1
+- print:
+  - リマ
+  - あなたは先にあの子のところに戻ってて。
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 1
+- vo:
+  - vo_adv_1158002_062
+- face:
+  - 411
+  - 6
+- se:
+  - se_adv_step_leaves_move_01
+- print:
+  - 女性
+  - リマ様？　
+- wait:
+  - 50
+- print:
+  - 女性
+  - こちらからお声が聞こえた気がするのですが。
+- touch: *o0
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_063
+- face:
+  - 105213
+  - 6
+- emotion:
+  - exclamation1_R
+  - 105213
+  - 20
+  - 660
+  - se_adv_emote_common_01
+- print:
+  - リマ
+  - い、
+- wait:
+  - 10
+- print:
+  - リマ
+  - いけない！
+- wait:
+  - 30
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105213
+  - 4
+- print:
+  - リマ
+  - と、
+- wait:
+  - 15
+- print:
+  - リマ
+  - とりあえず急いで隠れ……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105213
+  - 30
+- chara_full:
+  - 105213
+  - LC
+  - 6
+- chara_full:
+  - 411
+  - R
+  - 6
+- se:
+  - se_adv_step_leaves_walk_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - R
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 4.5
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_064
+- face:
+  - 105213
+  - 6
+- print:
+  - リマ
+  - …………
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_065
+- face:
+  - 411
+  - 6
+- print:
+  - 女性
+  - …………
+- touch: *o0
+- bgm:
+  - bgm_M279
+  - 0
+  - 0
+  - 1
+  - 1
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_066
+- face:
+  - 105213
+  - 6
+- print:
+  - リマ
+  - え、
+- wait:
+  - 25
+- print:
+  - リマ
+  - えっと……
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_067
+- face:
+  - 411
+  - 6
+- emotion:
+  - question1_R
+  - 411
+  - 105
+  - 515
+  - se_adv_emote_question_01
+- print:
+  - 女性
+  - そのお声……
+- wait:
+  - 45
+- print:
+  - 女性
+  - もしかして
+- wait:
+  - 15
+- print:
+  - 女性
+  - リマ様、
+- wait:
+  - 20
+- print:
+  - 女性
+  - ですか？
+- touch: *o0
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_068
+- face:
+  - 105213
+  - 4
+- print:
+  - リマ
+  - ち、
+- wait:
+  - 15
+- print:
+  - リマ
+  - 違うのよ？　
+- wait:
+  - 30
+- print:
+  - リマ
+  - 私は魔物じゃなくて……
+- wait:
+  - 35
+- face:
+  - 105213
+  - 6
+- print:
+  - リマ
+  - って、
+- wait:
+  - 15
+- print:
+  - リマ
+  - あれ？
+- wait:
+  - 25
+- print:
+  - リマ
+  - >2-
+
+    あなた、
+- wait:
+  - 20
+- print:
+  - リマ
+  - 私が怖くないの？
+- touch: *o0
+- bgm:
+  - stop
+  - 10
+  - 1
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_069
+- face:
+  - 411
+  - 6
+- print:
+  - 女性
+  - びっくりはいたしましたけど、
+- wait:
+  - 25
+- face:
+  - 411
+  - 1
+- print:
+  - 女性
+  - 怖くはありませんわ。
+- wait:
+  - 65
+- print:
+  - 女性
+  - >2
+
+- face:
+  - 411
+  - 2
+- print:
+  - 女性
+  - モフモフでかわいらしい動物がいるなぁと思ったくらいで。
+- touch: *o0
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_070
+- face:
+  - 105213
+  - 6
+- print:
+  - リマ
+  - …………
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_071
+- face:
+  - 411
+  - 6
+- emotion:
+  - question1_R
+  - 411
+  - 105
+  - 515
+  - se_adv_emote_question_01
+- print:
+  - 女性
+  - リマ様？
+- touch: *o0
+- bgm:
+  - bgm_M34
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_072
+- face:
+  - 105213
+  - 6
+- pop:
+  - 105213
+- se:
+  - se_adv_rabbit_jump_01
+- print:
+  - リマ
+  - あ、
+- wait:
+  - 20
+- print:
+  - リマ
+  - ご、
+- wait:
+  - 10
+- print:
+  - リマ
+  - ごめんなさい！
+- wait:
+  - 25
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105213
+  - 2
+- print:
+  - リマ
+  - かわいいなんて言ってくれる人
+- wait:
+  - 30
+- print:
+  - リマ
+  - 滅多にいないから驚いちゃって。
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_073
+- face:
+  - 411
+  - 6
+- print:
+  - 女性
+  - そうですか？　
+- wait:
+  - 35
+- face:
+  - 411
+  - 2
+- print:
+  - 女性
+  - とてもかわいらしいとおもいますけど。
+- wait:
+  - 60
+- print:
+  - 女性
+  - >2
+
+- face:
+  - 411
+  - 4
+- print:
+  - 女性
+  - でも、
+- wait:
+  - 15
+- print:
+  - 女性
+  - どうしていきなり着ぐるみを……
+- touch: *o0
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_074
+- face:
+  - 105213
+  - 6
+- print:
+  - リマ
+  - はっ！？　
+- wait:
+  - 10
+- face:
+  - 105213
+  - 2
+- se:
+  - se_adv_stepadd_armor_norm_01_move_01
+- print:
+  - リマ
+  - そ、
+- wait:
+  - 20
+- nod:
+  - 105213
+- print:
+  - リマ
+  - そうなのよ～
+- wait:
+  - 35
+- print:
+  - リマ
+  - >2-
+
+    これは着ぐるみで……
+- touch: *o0
+- choice:
+  - 着ぐるみじゃないよ。
+  - 9
+- tag:
+  - 9
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_075
+- face:
+  - 105213
+  - 6
+- emotion:
+  - surprise1_L
+  - 105213
+  - 170
+  - 555
+  - se_adv_emote_common_01
+- print:
+  - リマ
+  - えっ！？　
+- wait:
+  - 15
+- print:
+  - リマ
+  - '{0}くん！？'
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_076
+- face:
+  - 411
+  - 6
+- print:
+  - 女性
+  - 着ぐるみじゃない？
+- wait:
+  - 60
+- print:
+  - 女性
+  - >2
+
+- face:
+  - 411
+  - 1
+- print:
+  - 女性
+  - 言われてみれば、
+- wait:
+  - 30
+- print:
+  - 女性
+  - 確かに違いますね。
+- wait:
+  - 40
+- print:
+  - 女性
+  - >2
+
+- face:
+  - 411
+  - 4
+- print:
+  - 女性
+  - でも、
+- wait:
+  - 15
+- print:
+  - 女性
+  - それならいったい……
+- touch: *o0
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_077
+- face:
+  - 105213
+  - 4
+- print:
+  - リマ
+  - こ、
+- wait:
+  - 20
+- print:
+  - リマ
+  - これは……
+- wait:
+  - 35
+- print:
+  - リマ
+  - え、
+- wait:
+  - 20
+- print:
+  - リマ
+  - えっと……
+- touch: *o0
+- choice:
+  - 誤魔化さなくても大丈夫。
+  - 10
+- tag:
+  - 10
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_078
+- face:
+  - 105213
+  - 6
+- print:
+  - リマ
+  - …………あ。
+- wait:
+  - 35
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105213
+  - 4
+- print:
+  - リマ
+  - 私、
+- wait:
+  - 35
+- print:
+  - リマ
+  - いつものクセで誤魔化そうとしていたわ。
+- wait:
+  - 60
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105213
+  - 1
+- print:
+  - リマ
+  - せっかくかわいいって言ってくれたのに……
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_079
+- face:
+  - 411
+  - 4
+- print:
+  - 女性
+  - あの、
+- wait:
+  - 20
+- print:
+  - 女性
+  - 事情がよく分からないのですが……
+- touch: *o0
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_080
+- face:
+  - 105213
+  - 1
+- print:
+  - リマ
+  - 実はね、
+- wait:
+  - 35
+- print:
+  - リマ
+  - 私は
+- wait:
+  - 30
+- print:
+  - リマ
+  - 魔法で人間の姿に変身してるだけで、
+- wait:
+  - 65
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105213
+  - 2
+- print:
+  - リマ
+  - これが本当の姿なの。
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_081
+- face:
+  - 411
+  - 6
+- print:
+  - 女性
+  - そう、
+- wait:
+  - 25
+- print:
+  - 女性
+  - なのですか？
+- wait:
+  - 70
+- print:
+  - 女性
+  - >2
+
+- face:
+  - 411
+  - 1
+- print:
+  - 女性
+  - リマ様は獣人の方だったのですね。
+- touch: *o0
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_082
+- face:
+  - 105213
+  - 1
+- print:
+  - リマ
+  - 獣人とも違って、
+- wait:
+  - 45
+- face:
+  - 105213
+  - 4
+- print:
+  - リマ
+  - その……
+- wait:
+  - 45
+- print:
+  - リマ
+  - 私は自分の種族が分からないの。
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_083
+- face:
+  - 411
+  - 4
+- nod:
+  - 411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 女性
+  - 申し訳ありません。
+- wait:
+  - 20
+- print:
+  - 女性
+  - >2-
+
+    わたくし、
+- wait:
+  - 15
+- print:
+  - 女性
+  - 獣人の知り合いがいないもので
+- wait:
+  - 25
+- print:
+  - 女性
+  - >2-
+
+    てっきりリマ様のような方もいるのかと……
+- touch: *o0
+- face:
+  - 105213
+  - 6
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_084
+- face:
+  - 411
+  - 6
+- print:
+  - 女性
+  - あっ、
+- wait:
+  - 10
+- print:
+  - 女性
+  - で、
+- wait:
+  - 5
+- print:
+  - 女性
+  - でも安心してください！
+- wait:
+  - 20
+- print:
+  - 女性
+  - >2
+
+- face:
+  - 411
+  - 1
+- print:
+  - 女性
+  - わたくしは別に
+- wait:
+  - 20
+- print:
+  - 女性
+  - 獣人の方に差別感情があるわけでは……
+- wait:
+  - 40
+- print:
+  - 女性
+  - >2
+
+- face:
+  - 411
+  - 6
+- print:
+  - 女性
+  - あっ、
+- wait:
+  - 5
+- print:
+  - 女性
+  - でも、
+- wait:
+  - 5
+- print:
+  - 女性
+  - リマ様は獣人ではないので
+- wait:
+  - 30
+- face:
+  - 411
+  - 4
+- print:
+  - 女性
+  - この場合なんと言えば……
+- touch: *o0
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_085
+- face:
+  - 105213
+  - 2
+- print:
+  - リマ
+  - ……ふふっ。
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_086
+- face:
+  - 411
+  - 6
+- emotion:
+  - question1_R
+  - 411
+  - 105
+  - 515
+  - se_adv_emote_question_01
+- print:
+  - 女性
+  - リマ様……？
+- touch: *o0
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_087
+- face:
+  - 105213
+  - 2
+- print:
+  - リマ
+  - ありがと。
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_088
+- face:
+  - 411
+  - 4
+- print:
+  - 女性
+  - わたくし、
+- wait:
+  - 20
+- print:
+  - 女性
+  - お礼を言われるようなことは
+- wait:
+  - 30
+- print:
+  - 女性
+  - >2-
+
+    何もしていないのですが……
+- touch: *o0
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_089
+- face:
+  - 105213
+  - 1
+- print:
+  - リマ
+  - あなたはとっても優しくて素敵な人ね。
+- wait:
+  - 70
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105213
+  - 2
+- nod:
+  - 105213
+- print:
+  - リマ
+  - うん。
+- wait:
+  - 30
+- print:
+  - リマ
+  - 私、
+- wait:
+  - 20
+- print:
+  - リマ
+  - なおさらあなたの恋を応援したくなっちゃった。
+- touch: *o0
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_090
+- face:
+  - 105213
+  - 1
+- print:
+  - リマ
+  - こんな姿の私だけど、
+- wait:
+  - 55
+- print:
+  - リマ
+  - 特訓を続けてくれる？
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_091
+- face:
+  - 411
+  - 2
+- print:
+  - 女性
+  - もちろんです。
+- wait:
+  - 25
+- print:
+  - 女性
+  - >2-
+
+    そのために来たのですから。
+- touch: *o0
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_092
+- face:
+  - 105213
+  - 2
+- emotion:
+  - twinkle1_R
+  - 105213
+  - 145
+  - 540
+  - se_adv_emote_twinkle_01
+- print:
+  - リマ
+  - よ～し！　
+- wait:
+  - 40
+- print:
+  - リマ
+  - それじゃあ私の全力で特訓しちゃうわ！
+- wait:
+  - 70
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105213
+  - 1
+- print:
+  - リマ
+  - この姿の方が、
+- wait:
+  - 30
+- print:
+  - リマ
+  - 木を切るのは慣れてるしね♪
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_093
+- face:
+  - 411
+  - 2
+- nod:
+  - 411
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 女性
+  - はい！！　
+- wait:
+  - 15
+- print:
+  - 女性
+  - よろしくお願いします！
+- touch: *o0
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_094
+- face:
+  - 105213
+  - 2
+- print:
+  - リマ
+  - やるわよ～～！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2.5
+- fadeout_all:
+  - 30
+- se_pause:
+  - amb_adv_forest_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- se:
+  - amb_adv_forest_01
+- black_in: *o0
+- chara_full:
+  - 411
+  - RC
+  - 3
+- chara_full:
+  - 105213
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M180
+  - 0
+  - 0
+  - 1
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_095
+- face:
+  - 411
+  - 3
+- print:
+  - 女性
+  - リマ様、
+- wait:
+  - 25
+- print:
+  - 女性
+  - 見ていてください。
+- wait:
+  - 25
+- print:
+  - 女性
+  - >2-
+
+    わたくしの特訓の成果を。
+- touch: *o0
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_096
+- face:
+  - 105213
+  - 2
+- nod:
+  - 105213
+- se:
+  - se_adv_stepadd_armor_norm_01_move_01
+- print:
+  - リマ
+  - 大丈夫！　
+- wait:
+  - 35
+- print:
+  - リマ
+  - あなたならきっとできるわ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 411
+  - C
+  - 3
+- fadein:
+  - 411
+  - 30
+- change_window:
+  - 3
+- text_size:
+  - 50
+- window_visible:
+  - true
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_097
+- face:
+  - 411
+  - 3
+- print:
+  - 女性
+  - はぁ～～～～！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 4
+  - 1
+- change_window:
+  - 1
+- text_size:
+  - 23
+- effect:
+  - 0009
+- se:
+  - se_adv_move_fast_02
+- scale:
+  - 411
+  - 1.3
+  - 2
+  - 10
+- fadeout:
+  - 411
+  - 10
+- effect_delete:
+  - 0009
+- se:
+  - se_adv_weapon_axe_whiff_01
+- se:
+  - se_adv_weapon_arrow_hit_wood_01
+- shake_loop: *o0
+- wait:
+  - 10
+- shake_delete: *o0
+- wait:
+  - 10
+- se:
+  - se_adv_weapon_axe_whiff_01
+- se:
+  - se_adv_weapon_arrow_hit_wood_01
+- shake_loop: *o0
+- wait:
+  - 10
+- shake_delete: *o0
+- wait:
+  - 5
+- se:
+  - se_adv_weapon_axe_whiff_long_02
+- wait:
+  - 10
+- effect:
+  - 0001
+  - se_adv_wood_cutdown_01
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- chara_full:
+  - 411
+  - RC
+  - 6
+- chara_full:
+  - 105213
+  - LC
+  - 6
+- se:
+  - se_adv_wood_cutdown_05
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M33
+  - 0
+  - 0
+  - 0
+  - 1
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_098
+- face:
+  - 411
+  - 6
+- print:
+  - 女性
+  - で、
+- wait:
+  - 25
+- print:
+  - 女性
+  - できた……！
+- wait:
+  - 35
+- print:
+  - 女性
+  - >2-
+
+    わたくし、
+- wait:
+  - 20
+- print:
+  - 女性
+  - 木を切り倒せましたわ！
+- touch: *o0
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_099
+- face:
+  - 105213
+  - 6
+- print:
+  - リマ
+  - 全力でとは言ったけど、
+- wait:
+  - 45
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105213
+  - 1
+- print:
+  - リマ
+  - まさかここまで成長するとは思わなかったわ。
+- wait:
+  - 95
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105213
+  - 2
+- emotion:
+  - note1_L
+  - 105213
+  - -80
+  - 530
+  - se_adv_emote_note_01
+- print:
+  - リマ
+  - 恋は人を強くするのね♪
+- touch: *o0
+- face:
+  - 105213
+  - 1
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_100
+- face:
+  - 411
+  - 2
+- nod:
+  - 411
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 女性
+  - はい！
+- wait:
+  - 40
+- print:
+  - 女性
+  - >2
+
+- face:
+  - 411
+  - 4
+- print:
+  - 女性
+  - でも……
+- wait:
+  - 25
+- print:
+  - 女性
+  - リマ様のように一度で木を切るには至れませんでした。
+- touch: *o0
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_101
+- face:
+  - 105213
+  - 2
+- emotion:
+  - sweat1_R
+  - 105213
+  - 115
+  - 580
+  - se_adv_emote_sweat_01
+- print:
+  - リマ
+  - あはは……
+- wait:
+  - 35
+- print:
+  - リマ
+  - それはなかなか難しいんじゃないかしら。
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_102
+- face:
+  - 411
+  - 1
+- print:
+  - 女性
+  - 確かに難しいかもしれませんが、
+- wait:
+  - 40
+- print:
+  - 女性
+  - 特訓は続けたいです。
+- wait:
+  - 55
+- print:
+  - 女性
+  - >2
+
+- face:
+  - 411
+  - 2
+- print:
+  - 女性
+  - またこちらに来てもよろしいでしょうか？
+- touch: *o0
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_103
+- face:
+  - 105213
+  - 6
+- print:
+  - リマ
+  - え？　
+- wait:
+  - 15
+- print:
+  - リマ
+  - わ、
+- wait:
+  - 20
+- print:
+  - リマ
+  - 私は構わないというか、
+- wait:
+  - 60
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105213
+  - 1
+- print:
+  - リマ
+  - むしろうれしいけど……
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_104
+- face:
+  - 411
+  - 4
+- print:
+  - 女性
+  - でも
+- wait:
+  - 15
+- print:
+  - 女性
+  - リマ様にお世話になってばかりでは申し訳ないですね……
+- wait:
+  - 75
+- print:
+  - 女性
+  - >2
+
+- face:
+  - 411
+  - 6
+- emotion:
+  - exclamation1_R
+  - 411
+  - 0
+  - 665
+  - se_adv_emote_common_01
+- print:
+  - 女性
+  - あっ、
+- wait:
+  - 20
+- print:
+  - 女性
+  - 次来るときは
+- wait:
+  - 15
+- print:
+  - 女性
+  - わたくしが縫い物をお教えしますわ！
+- wait:
+  - 50
+- print:
+  - 女性
+  - >2
+
+- face:
+  - 411
+  - 2
+- print:
+  - 女性
+  - リマ様はお裁縫を習いたいと聞いていたので。
+- touch: *o0
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_105
+- face:
+  - 105213
+  - 2
+- nod:
+  - 105213
+- se:
+  - se_adv_stepadd_armor_norm_01_move_01
+- print:
+  - リマ
+  - 本当！？　
+- wait:
+  - 25
+- print:
+  - リマ
+  - すっごくうれしいわ♪
+- touch: *o0
+- choice:
+  - お友達だね。
+  - 11
+- tag:
+  - 11
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_106
+- face:
+  - 411
+  - 5
+- print:
+  - 女性
+  - お、
+- wait:
+  - 15
+- print:
+  - 女性
+  - お友達なんて恐れ多いですわ……
+- wait:
+  - 60
+- print:
+  - 女性
+  - >2
+
+- face:
+  - 411
+  - 2
+- print:
+  - 女性
+  - リマ様はあくまでわたくしの先生ですから。
+- touch: *o0
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_107
+- face:
+  - 105213
+  - 1
+- print:
+  - リマ
+  - 私だって縫い物を教わるんだから
+- wait:
+  - 50
+- print:
+  - リマ
+  - あなたも先生じゃない。
+- wait:
+  - 50
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105213
+  - 5
+- print:
+  - リマ
+  - だから、
+- wait:
+  - 25
+- print:
+  - リマ
+  - その……
+- wait:
+  - 35
+- print:
+  - リマ
+  - もしよかったら、
+- wait:
+  - 55
+- print:
+  - リマ
+  - 私とお友達になってくれる？
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_108
+- face:
+  - 411
+  - 2
+- nod:
+  - 411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 女性
+  - もちろんです！
+- touch: *o0
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_109
+- face:
+  - 105213
+  - 2
+- emotion:
+  - note1_L
+  - 105213
+  - -80
+  - 530
+  - se_adv_emote_note_01
+- print:
+  - リマ
+  - ふふ、
+- wait:
+  - 35
+- print:
+  - リマ
+  - ありがとう。
+- touch: *o0
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_110
+- face:
+  - 105213
+  - 1
+- print:
+  - リマ
+  - それに、
+- wait:
+  - 35
+- print:
+  - リマ
+  - '{0}くんもありがとうね。'
+- wait:
+  - 45
+- print:
+  - リマ
+  - >2-
+
+    あなたのおかげで勇気を出せたから、
+- wait:
+  - 50
+- face:
+  - 105213
+  - 2
+- print:
+  - リマ
+  - 素敵なお友達ができたわ。
+- touch: *o0
+- choice:
+  - リマちゃんが素敵だからだよ。
+  - 12
+- tag:
+  - 12
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_111
+- face:
+  - 105213
+  - 5
+- emotion:
+  - shy1_R
+  - 105213
+  - -65
+  - 525
+  - se_adv_emote_shy_01
+- print:
+  - リマ
+  - まっ、
+- wait:
+  - 15
+- print:
+  - リマ
+  - まぁっ……！？
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1158002_112
+- face:
+  - 411
+  - 2
+- nod:
+  - 411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 女性
+  - はい、
+- wait:
+  - 35
+- print:
+  - 女性
+  - リマ様はとっても素敵で
+- wait:
+  - 30
+- print:
+  - 女性
+  - かわいらしい方ですわ。
+- touch: *o0
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_1158002_113
+- face:
+  - 105213
+  - 5
+- print:
+  - リマ
+  - もぅ！　
+- wait:
+  - 35
+- print:
+  - リマ
+  - 二人共私を照れさせないで～～！！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - その後も森では度々恋する乙女たちの
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - >2-
+
+    楽しげな笑い声が響いたという。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- se_pause:
+  - amb_adv_forest_01
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

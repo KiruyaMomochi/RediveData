@@ -1,0 +1,3182 @@
+- title:
+  - 靴とドレスと魔法使い
+- outline:
+  - ネネカの魔法で生成したドレスを纏い、舞踏会の開かれる屋敷へと向かうリマ。舞踏会に出るには数々のレッスンをクリアした者だけだと聞かされるも、こんな機会は二度とないと思い挑戦することを誓う。
+- background:
+  - 500030
+- se:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 靴とドレスと魔法使い
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - 街で突然舞踏会への招待を受けたリマ。
+- wait:
+  - 30
+- print:
+  - ナレーション
+  - >2-
+
+    そのあまりに予想外の申し出に慌てふためいていた。
+- wait:
+  - 15
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 105214
+  - LC
+  - 4
+- chara_full:
+  - 2512
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M105_Introcut
+  - 0
+  - 0
+  - 1
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_5061001_000
+- face:
+  - 105214
+  - 4
+- print:
+  - リマ
+  - あ、
+- wait:
+  - 15
+- print:
+  - リマ
+  - あの、
+- wait:
+  - 25
+- print:
+  - リマ
+  - 本当に私なんかが
+- wait:
+  - 45
+- print:
+  - リマ
+  - ぶ、
+- wait:
+  - 10
+- print:
+  - リマ
+  - 舞踏会に……？
+- wait:
+  - 60
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105214
+  - 6
+- print:
+  - リマ
+  - い、
+- wait:
+  - 5
+- print:
+  - リマ
+  - いいんですか？　
+- wait:
+  - 25
+- print:
+  - リマ
+  - 本気にしちゃいますよ？
+- touch: *o0
+- focus:
+  - 2512
+- bust:
+  - 2512
+  - 0
+- vo:
+  - vo_adv_5061001_001
+- face:
+  - 2512
+  - 2
+- print:
+  - 従者
+  - もちろん。
+- wait:
+  - 25
+- print:
+  - 従者
+  - 主はあなたのような女性を探しておられます。
+- wait:
+  - 65
+- print:
+  - 従者
+  - >2-
+
+    ぜひとも参加していただきたいのです。
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_5061001_002
+- face:
+  - 105214
+  - 2
+- print:
+  - リマ
+  - うそうそ！　
+- wait:
+  - 25
+- print:
+  - リマ
+  - こんなことってあるの！？
+- wait:
+  - 30
+- print:
+  - リマ
+  - >2-
+
+    まるで物語のヒロインみたいだわ！　
+- touch: *o0
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_5061001_003
+- face:
+  - 105214
+  - 1
+- print:
+  - リマ
+  - あまりにできすぎてて夢じゃないかって思えてくるけど……
+- wait:
+  - 85
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105214
+  - 2
+- print:
+  - リマ
+  - 夢でもいいじゃない！　
+- wait:
+  - 30
+- print:
+  - リマ
+  - こんな機会、
+- wait:
+  - 20
+- print:
+  - リマ
+  - もう二度と巡ってこないわよ！　
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - TRUE
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_5061001_004
+- face:
+  - 105214
+  - 1
+- print:
+  - リマ
+  - あ、
+- wait:
+  - 15
+- print:
+  - リマ
+  - あの……
+- wait:
+  - 30
+- print:
+  - リマ
+  - 私でよければ、
+- wait:
+  - 30
+- print:
+  - リマ
+  - ぜひ舞踏会に参加させてください！
+- touch: *o0
+- focus:
+  - 2512
+- bust:
+  - 2512
+  - 0
+- vo:
+  - vo_adv_5061001_005
+- face:
+  - 2512
+  - 2
+- print:
+  - 従者
+  - おお、
+- wait:
+  - 25
+- print:
+  - 従者
+  - そう言っていただけるとありがたい。
+- wait:
+  - 30
+- print:
+  - 従者
+  - 主もおよろこびになります。
+- wait:
+  - 45
+- print:
+  - 従者
+  - >2
+
+- face:
+  - 2512
+  - 1
+- print:
+  - 従者
+  - それではこちら、
+- wait:
+  - 20
+- se:
+  - se_adv_paper_move_06
+- print:
+  - 従者
+  - 招待状になります。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_cloth_move_normal_01
+- nod:
+  - 2512
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_5061001_006
+- face:
+  - 105214
+  - 1
+- print:
+  - リマ
+  - あ、
+- wait:
+  - 30
+- face:
+  - 105214
+  - 2
+- print:
+  - リマ
+  - ありがとうございます！
+- touch: *o0
+- focus:
+  - 2512
+- bust:
+  - 2512
+  - 0
+- vo:
+  - vo_adv_5061001_007
+- face:
+  - 2512
+  - 2
+- print:
+  - 従者
+  - そうだ、
+- wait:
+  - 20
+- print:
+  - 従者
+  - 一つお伝えすることが。
+- wait:
+  - 40
+- print:
+  - 従者
+  - 舞踏会は社交の場です。
+- wait:
+  - 40
+- print:
+  - 従者
+  - >2-
+
+    ぜひとも場にふさわしいお召し物でいらしてください。
+- touch: *o0
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_5061001_008
+- face:
+  - 105214
+  - 6
+- print:
+  - リマ
+  - それって……
+- wait:
+  - 40
+- print:
+  - リマ
+  - こういうドレスのこと、
+- wait:
+  - 30
+- print:
+  - リマ
+  - かしら？
+- touch: *o0
+- focus:
+  - 2512
+- bust:
+  - 2512
+  - 0
+- vo:
+  - vo_adv_5061001_009
+- face:
+  - 2512
+  - 2
+- nod:
+  - 2512
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 従者
+  - 左様にございます。
+- wait:
+  - 40
+- print:
+  - 従者
+  - それでは
+- wait:
+  - 20
+- print:
+  - 従者
+  - お待ちしておりますよ。
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 30
+- black_in: *o0
+- se:
+  - amb_adv_town_day_01
+- chara_full:
+  - 105214
+  - C
+  - 4
+- fadein:
+  - 105214
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M203_04
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_5061001_010
+- face:
+  - 105214
+  - 4
+- emotion:
+  - sweat2_R
+  - 105214
+  - 95
+  - 530
+  - se_adv_emote_sweat_02
+- print:
+  - リマ
+  - ど、
+- wait:
+  - 10
+- print:
+  - リマ
+  - どうしよー！　
+- wait:
+  - 50
+- print:
+  - リマ
+  - せっかくのチャンスなのに、
+- wait:
+  - 35
+- print:
+  - リマ
+  - こんなことって！
+- wait:
+  - 45
+- print:
+  - リマ
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - リマ
+  - ああ、
+- wait:
+  - 30
+- print:
+  - リマ
+  - 神様ってばどこまでも意地悪だわ……
+- touch: *o0
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_5061001_011
+- face:
+  - 105214
+  - 4
+- eye_open:
+  - True
+- print:
+  - リマ
+  - 物語ならここで魔法使いのおばあさんが現れて、
+- wait:
+  - 80
+- print:
+  - リマ
+  - >2-
+
+    ドレスやガラスの靴を用意してくれるんだけど……
+- touch: *o0
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_5061001_012
+- face:
+  - 105214
+  - 4
+- print:
+  - リマ
+  - そんなに上手くいくわけないわよね。
+- wait:
+  - 60
+- print:
+  - リマ
+  - >2-
+
+    やっぱり、
+- wait:
+  - 35
+- eye_open:
+  - False
+- print:
+  - リマ
+  - 諦めるしかないのかな……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105214
+  - 30
+- chara_full:
+  - 105214
+  - LC
+  - 4
+- chara_full:
+  - 107011
+  - R
+  - 1
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - R
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_5061001_013
+- face:
+  - 107011
+  - 1
+- print:
+  - ネネカ
+  - ──捜しましたよ、
+- wait:
+  - 25
+- print:
+  - ネネカ
+  - リマさん。
+- wait:
+  - 40
+- print:
+  - ネネカ
+  - >2-
+
+    人の姿で街にいること、
+- wait:
+  - 55
+- print:
+  - ネネカ
+  - ずいぶんと気に入っているようですね。
+- touch: *o0
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_5061001_014
+- face:
+  - 105214
+  - 6
+- emotion:
+  - exclamation1_R
+  - 105214
+  - 20
+  - 635
+  - se_adv_emote_common_01
+- print:
+  - リマ
+  - ま、
+- wait:
+  - 20
+- print:
+  - リマ
+  - 魔法使いのおばあさん！？　
+- wait:
+  - 45
+- print:
+  - リマ
+  - 本当に来てくれたの！
+- touch: *o0
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_5061001_015
+- face:
+  - 107011
+  - 3
+- print:
+  - ネネカ
+  - ……誰がおばあさんですか？
+- touch: *o0
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_5061001_016
+- face:
+  - 105214
+  - 6
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 105214
+- print:
+  - リマ
+  - ごめんなさい！　
+- wait:
+  - 25
+- print:
+  - リマ
+  - でもちょっと聞いてネネカちゃん！
+- wait:
+  - 65
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105214
+  - 4
+- print:
+  - リマ
+  - 実は──
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 30
+- black_in: *o0
+- se:
+  - amb_adv_town_day_01
+- chara_full:
+  - 105214
+  - LC
+  - 4
+- chara_full:
+  - 107011
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M129_NoB
+  - 0
+  - 0
+  - 1
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_5061001_017
+- face:
+  - 107011
+  - 6
+- print:
+  - ネネカ
+  - なるほど、
+- wait:
+  - 25
+- print:
+  - ネネカ
+  - そういうことですか。
+- wait:
+  - 40
+- print:
+  - ネネカ
+  - >2
+
+- face:
+  - 107011
+  - 1
+- print:
+  - ネネカ
+  - その状況であれば、
+- wait:
+  - 40
+- print:
+  - ネネカ
+  - 私が救いの魔法使いに見えるのも、
+- wait:
+  - 60
+- print:
+  - ネネカ
+  - >2-
+
+    無理のない話ですね。
+- touch: *o0
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_5061001_018
+- face:
+  - 105214
+  - 4
+- nod:
+  - 105214
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - リマ
+  - うん、
+- wait:
+  - 30
+- print:
+  - リマ
+  - それでね、
+- wait:
+  - 40
+- print:
+  - リマ
+  - ええと……
+- touch: *o0
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_5061001_019
+- face:
+  - 107011
+  - 1
+- print:
+  - ネネカ
+  - みなまで言わなくとも分かりますよ。
+- wait:
+  - 65
+- print:
+  - ネネカ
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - ネネカ
+  - 『ドレスを用意してほしい』。
+- wait:
+  - 55
+- print:
+  - ネネカ
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - ネネカ
+  - そう言いたいのですね？
+- touch: *o0
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_5061001_020
+- face:
+  - 105214
+  - 2
+- print:
+  - リマ
+  - さすがネネカちゃん、
+- wait:
+  - 40
+- print:
+  - リマ
+  - 私の考えなんてお見通しね。
+- wait:
+  - 60
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105214
+  - 1
+- print:
+  - リマ
+  - それで
+- wait:
+  - 30
+- print:
+  - リマ
+  - 相談なんだけど……
+- touch: *o0
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_5061001_021
+- face:
+  - 107011
+  - 2
+- nod:
+  - 107011
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ネネカ
+  - できますよ。
+- wait:
+  - 40
+- print:
+  - ネネカ
+  - ドレスを生成することなど
+- wait:
+  - 45
+- print:
+  - ネネカ
+  - 造作もないことですから。
+- touch: *o0
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_5061001_022
+- face:
+  - 105214
+  - 1
+- print:
+  - リマ
+  - ほ、
+- wait:
+  - 15
+- print:
+  - リマ
+  - 本当に！　
+- wait:
+  - 40
+- face:
+  - 105214
+  - 2
+- print:
+  - リマ
+  - それじゃあ……
+- touch: *o0
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_5061001_023
+- face:
+  - 107011
+  - 1
+- print:
+  - ネネカ
+  - ですが、
+- wait:
+  - 35
+- print:
+  - ネネカ
+  - できるからといって
+- wait:
+  - 30
+- print:
+  - ネネカ
+  - やるとは言ってません。
+- wait:
+  - 50
+- print:
+  - ネネカ
+  - >2-
+
+    やるからには、
+- wait:
+  - 30
+- print:
+  - ネネカ
+  - 相応の見返りをいただきます。
+- touch: *o0
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_5061001_024
+- face:
+  - 105214
+  - 6
+- print:
+  - リマ
+  - そ、
+- wait:
+  - 10
+- print:
+  - リマ
+  - そうよね。
+- wait:
+  - 40
+- print:
+  - リマ
+  - 私ったら自分の都合ばっかり……
+- wait:
+  - 65
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105214
+  - 1
+- print:
+  - リマ
+  - いいわ、
+- wait:
+  - 25
+- print:
+  - リマ
+  - ドレスの、
+- wait:
+  - 20
+- print:
+  - リマ
+  - そして舞踏会のためですもの、
+- wait:
+  - 50
+- print:
+  - リマ
+  - 何でもやるわよ！
+- touch: *o0
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_5061001_025
+- face:
+  - 107011
+  - 2
+- print:
+  - ネネカ
+  - あなたのそういうところ、
+- wait:
+  - 35
+- print:
+  - ネネカ
+  - とても好ましいですよ。
+- wait:
+  - 55
+- print:
+  - ネネカ
+  - >2-
+
+    見返りといっても、
+- wait:
+  - 35
+- print:
+  - ネネカ
+  - 大したことではありません。
+- wait:
+  - 50
+- print:
+  - ネネカ
+  - >2-
+
+    体で払ってもらうだけです。
+- touch: *o0
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_5061001_026
+- face:
+  - 105214
+  - 6
+- emotion:
+  - exclamation1_R
+  - 105214
+  - 20
+  - 635
+  - se_adv_emote_common_01
+- print:
+  - リマ
+  - か、
+- wait:
+  - 20
+- print:
+  - リマ
+  - 体で……？　
+- wait:
+  - 50
+- print:
+  - リマ
+  - 私何されちゃうの？
+- wait:
+  - 55
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 105214
+  - 4
+- print:
+  - リマ
+  - あの……
+- wait:
+  - 10
+- print:
+  - リマ
+  - い、
+- wait:
+  - 15
+- print:
+  - リマ
+  - 痛く、
+- wait:
+  - 15
+- print:
+  - リマ
+  - しないでくれるかしら？
+- touch: *o0
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_5061001_027
+- face:
+  - 107011
+  - 4
+- print:
+  - ネネカ
+  - あなたは私を何だと思っているのですか？
+- wait:
+  - 80
+- print:
+  - ネネカ
+  - >2
+
+- face:
+  - 107011
+  - 1
+- print:
+  - ネネカ
+  - 何も難しいことはありません、
+- wait:
+  - 65
+- print:
+  - ネネカ
+  - これを試してほしいだけですよ。
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 105214
+  - 6
+- se:
+  - se_adv_cloth_move_normal_01
+- nod:
+  - 107011
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_5061001_028
+- face:
+  - 105214
+  - 6
+- print:
+  - リマ
+  - これって……
+- wait:
+  - 45
+- print:
+  - リマ
+  - メタモルアップル？
+- touch: *o0
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_5061001_029
+- face:
+  - 107011
+  - 1
+- print:
+  - ネネカ
+  - ええ。
+- wait:
+  - 35
+- print:
+  - ネネカ
+  - ただしこちらは
+- wait:
+  - 30
+- print:
+  - ネネカ
+  - 改良型の試作品です。
+- wait:
+  - 55
+- print:
+  - ネネカ
+  - >2-
+
+    以前のものと比較して、
+- wait:
+  - 45
+- print:
+  - ネネカ
+  - 変身時の苦痛の軽減、
+- wait:
+  - 50
+- print:
+  - ネネカ
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - ネネカ
+  - 身体能力の強化、
+- wait:
+  - 50
+- eye_open:
+  - True
+- print:
+  - ネネカ
+  - 持続時間などが向上しています。
+- touch: *o0
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_5061001_030
+- face:
+  - 107011
+  - 2
+- nod:
+  - 107011
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ネネカ
+  - あなたがこれを使い、
+- wait:
+  - 40
+- print:
+  - ネネカ
+  - データ収集に協力するのであれば、
+- wait:
+  - 60
+- print:
+  - ネネカ
+  - >2-
+
+    衣装を用意すると約束します。
+- touch: *o0
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_5061001_031
+- face:
+  - 107011
+  - 1
+- print:
+  - ネネカ
+  - まあ、
+- wait:
+  - 20
+- print:
+  - ネネカ
+  - こんなことにならずとも、
+- wait:
+  - 40
+- print:
+  - ネネカ
+  - >2-
+
+    あなたには使ってもらうつもりでしたが。
+- touch: *o0
+- focus:
+  - 105214
+- bust:
+  - 105214
+  - 0
+- vo:
+  - vo_adv_5061001_032
+- face:
+  - 105214
+  - 1
+- emotion:
+  - twinkle1_R
+  - 105214
+  - 140
+  - 470
+  - se_adv_emote_twinkle_01
+- print:
+  - リマ
+  - ネ、
+- wait:
+  - 35
+- print:
+  - リマ
+  - ネネカちゃん！　
+- wait:
+  - 50
+- face:
+  - 105214
+  - 2
+- print:
+  - リマ
+  - ありがとう、
+- wait:
+  - 20
+- print:
+  - リマ
+  - 私やるわ！
+- wait:
+  - 35
+- print:
+  - リマ
+  - >2-
+
+    舞踏会に行けるなら、
+- wait:
+  - 25
+- print:
+  - リマ
+  - 100個だって食べてみせるわ！
+- touch: *o0
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_5061001_033
+- face:
+  - 107011
+  - 2
+- print:
+  - ネネカ
+  - 交渉成立ですね。
+- wait:
+  - 65
+- print:
+  - ネネカ
+  - それでは
+- wait:
+  - 30
+- print:
+  - ネネカ
+  - 場所を変えますよ。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- background:
+  - 500010
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_wind_01
+- chara_full:
+  - 107011
+  - C
+  - 6
+- fadein:
+  - 107011
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - stop
+  - 9
+  - 1
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_5061001_034
+- face:
+  - 107011
+  - 6
+- print:
+  - ネネカ
+  - この辺りなら
+- wait:
+  - 35
+- print:
+  - ネネカ
+  - 人通りも多くありませんね。
+- wait:
+  - 70
+- print:
+  - ネネカ
+  - >2
+
+- face:
+  - 107011
+  - 2
+- print:
+  - ネネカ
+  - 心の準備はできましたか？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 107011
+  - 30
+- black_out:
+  - 1
+  - 1
+- se_pause:
+  - amb_adv_wind_01
+  - 1
+- bg_color:
+  - 0
+  - 0
+  - 0
+- black_out:
+  - 1
+  - 1
+- bgm:
+  - bgm_M452_emt5061_001
+- movie:
+  - 506100101
+- black_out:
+  - 1
+  - 0.3
+- background:
+  - 500010
+- wait:
+  - 15
+- black_in: *o0
+- se:
+  - amb_adv_wind_01
+- chara_full:
+  - 115812
+  - LC
+  - 1
+- chara_full:
+  - 107011
+  - RC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_5061001_035
+- face:
+  - 107011
+  - 2
+- print:
+  - ネネカ
+  - 気に入ってもらえたようで何よりです。
+- wait:
+  - 65
+- print:
+  - ネネカ
+  - >2
+
+- face:
+  - 107011
+  - 1
+- print:
+  - ネネカ
+  - ちなみに、
+- wait:
+  - 30
+- print:
+  - ネネカ
+  - 改良したメタモルアップルですが、
+- wait:
+  - 50
+- print:
+  - ネネカ
+  - >2-
+
+    以前と同じく
+- wait:
+  - 30
+- print:
+  - ネネカ
+  - 衝撃には弱いので注意してくださいね。
+- touch: *o0
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_5061001_036
+- face:
+  - 107011
+  - 3
+- nod:
+  - 107011
+- print:
+  - ネネカ
+  - それにまだ試作品です。
+- wait:
+  - 60
+- print:
+  - ネネカ
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - ネネカ
+  - 予期せぬ効果が現れることも考えられます。
+- wait:
+  - 75
+- print:
+  - ネネカ
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - ネネカ
+  - 覚悟だけはしておいてくださいね。
+- touch: *o0
+- focus:
+  - 115812
+- bust:
+  - 115812
+  - 0
+- vo:
+  - vo_adv_5061001_037
+- face:
+  - 115812
+  - 2
+- emotion:
+  - note1_L
+  - 115812
+  - -80
+  - 510
+  - se_adv_emote_note_01
+- print:
+  - リマ
+  - うふふ、
+- wait:
+  - 35
+- print:
+  - リマ
+  - ガラスの靴なんてはじめて！
+- wait:
+  - 60
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 115812
+  - 1
+- print:
+  - リマ
+  - 割れそうでちょっと怖いけど、
+- wait:
+  - 35
+- print:
+  - リマ
+  - 本で見たままだわ！
+- wait:
+  - 55
+- print:
+  - リマ
+  - >2-
+
+    この再現度、
+- wait:
+  - 30
+- face:
+  - 115812
+  - 2
+- print:
+  - リマ
+  - ネネカちゃん天才ね！
+- touch: *o0
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_5061001_038
+- face:
+  - 107011
+  - 4
+- print:
+  - ネネカ
+  - ……うれしさでそれどころではないようですね。
+- wait:
+  - 65
+- print:
+  - ネネカ
+  - >2
+
+- face:
+  - 107011
+  - 1
+- print:
+  - ネネカ
+  - それはともかく、
+- wait:
+  - 45
+- print:
+  - ネネカ
+  - 今度はあなたが約束を守る番ですよ。
+- touch: *o0
+- focus:
+  - 115812
+- bust:
+  - 115812
+  - 0
+- vo:
+  - vo_adv_5061001_039
+- face:
+  - 115812
+  - 2
+- print:
+  - リマ
+  - ヤダ、
+- wait:
+  - 30
+- print:
+  - リマ
+  - 私ったらうれしすぎて有頂天になってたわ。
+- wait:
+  - 85
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 115812
+  - 1
+- print:
+  - リマ
+  - 大丈夫、
+- wait:
+  - 20
+- print:
+  - リマ
+  - この借りはちゃんと返すわね。
+- touch: *o0
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_5061001_040
+- face:
+  - 107011
+  - 2
+- print:
+  - ネネカ
+  - 期待していますよ。
+- wait:
+  - 50
+- face:
+  - 107011
+  - 1
+- print:
+  - ネネカ
+  - それでは改良型メタモルアップルです。
+- wait:
+  - 85
+- print:
+  - ネネカ
+  - >2-
+
+    念のため、
+- wait:
+  - 25
+- print:
+  - ネネカ
+  - 多めに渡しておきます。
+- wait:
+  - 25
+- se:
+  - se_adv_cloth_move_give_01
+- wait:
+  - 25
+- print:
+  - ネネカ
+  - 一日一個食べてください。
+- touch: *o0
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_5061001_041
+- face:
+  - 107011
+  - 1
+- nod:
+  - 107011
+- print:
+  - ネネカ
+  - それと、
+- wait:
+  - 30
+- print:
+  - ネネカ
+  - 牧場にはあなたがしばらく留守にする旨を伝えておきます。
+- wait:
+  - 85
+- print:
+  - ネネカ
+  - >2-
+
+    その姿で戻っても、
+- wait:
+  - 40
+- print:
+  - ネネカ
+  - あなただと分からないでしょうし。
+- touch: *o0
+- focus:
+  - 115812
+- bust:
+  - 115812
+  - 0
+- vo:
+  - vo_adv_5061001_042
+- face:
+  - 115812
+  - 2
+- print:
+  - リマ
+  - 何から何までありがとう！　
+- wait:
+  - 50
+- print:
+  - リマ
+  - 私、
+- wait:
+  - 25
+- print:
+  - リマ
+  - 必ず夢を叶えてくるわ！
+- wait:
+  - 60
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 115812
+  - 1
+- print:
+  - リマ
+  - それじゃあ、
+- wait:
+  - 15
+- print:
+  - リマ
+  - 行ってきま――
+- wait:
+  - 15
+- face:
+  - 115812
+  - 6
+- print:
+  - リマ
+  - うわぁ！？
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 107011
+  - 6
+- se:
+  - se_adv_body_hand_creak_01
+- se:
+  - se_adv_comic_punch_05
+- sway:
+  - 115812
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 115812
+- bust:
+  - 115812
+  - 0
+- vo:
+  - vo_adv_5061001_043
+- face:
+  - 115812
+  - 4
+- print:
+  - リマ
+  - あ、
+- wait:
+  - 20
+- print:
+  - リマ
+  - 足ひねっちゃった！
+- touch: *o0
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_5061001_044
+- face:
+  - 107011
+  - 4
+- emotion:
+  - sweat1_R
+  - 107011
+  - 75
+  - 415
+  - se_adv_emote_sweat_01
+- print:
+  - ネネカ
+  - ……本当に大丈夫でしょうか。
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_wind_01
+  - 1
+- background:
+  - 500660
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_outdoors_day_01
+- chara_full:
+  - 115812
+  - C
+  - 1
+- fadein:
+  - 115812
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M282_NoBell
+  - 0
+  - 0
+  - 1
+- focus:
+  - 115812
+- bust:
+  - 115812
+  - 0
+- vo:
+  - vo_adv_5061001_045
+- face:
+  - 115812
+  - 1
+- print:
+  - リマ
+  - ついに、
+- wait:
+  - 35
+- print:
+  - リマ
+  - ついに来ちゃった……
+- wait:
+  - 50
+- face:
+  - 115812
+  - 2
+- print:
+  - リマ
+  - 憧れの場所へ！
+- touch: *o0
+- focus:
+  - 115812
+- bust:
+  - 115812
+  - 0
+- vo:
+  - vo_adv_5061001_046
+- face:
+  - 115812
+  - 2
+- nod:
+  - 115812
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - リマ
+  - はぁ、
+- wait:
+  - 40
+- print:
+  - リマ
+  - なんて素敵なお屋敷……
+- wait:
+  - 65
+- print:
+  - リマ
+  - 王宮とはまた違った美しさね。
+- wait:
+  - 80
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 115812
+  - 1
+- print:
+  - リマ
+  - 今からあの中へ入るのかと思うと
+- wait:
+  - 50
+- print:
+  - リマ
+  - ドキドキしちゃうわ♪
+- touch: *o0
+- focus:
+  - 115812
+- bust:
+  - 115812
+  - 0
+- vo:
+  - vo_adv_5061001_047
+- face:
+  - 115812
+  - 2
+- print:
+  - リマ
+  - それでは、
+- wait:
+  - 10
+- print:
+  - リマ
+  - 早速──
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 115812
+  - 30
+- chara_full:
+  - 115812
+  - LC
+  - 1
+- chara_full:
+  - 1514
+  - R
+  - 3
+- se:
+  - se_adv_step_leaves_walk_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - R
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 1514
+- bust:
+  - 1514
+  - 0
+- vo:
+  - vo_adv_5061001_048
+- face:
+  - 1514
+  - 3
+- print:
+  - ？？？
+  - お待ちなさい。
+- touch: *o0
+- focus:
+  - 115812
+- bust:
+  - 115812
+  - 0
+- vo:
+  - vo_adv_5061001_049
+- face:
+  - 115812
+  - 6
+- emotion:
+  - exclamation1_R
+  - 115812
+  - 20
+  - 590
+  - se_adv_emote_common_01
+- print:
+  - リマ
+  - ひっ！
+- touch: *o0
+- focus:
+  - 1514
+- bust:
+  - 1514
+  - 0
+- vo:
+  - vo_adv_5061001_050
+- face:
+  - 1514
+  - 3
+- print:
+  - ？？？
+  - ここはロイド様のお屋敷です。
+- wait:
+  - 40
+- print:
+  - ？？？
+  - >2-
+
+    部外者の立ち入りはご遠慮いただきます。
+- touch: *o0
+- focus:
+  - 115812
+- bust:
+  - 115812
+  - 0
+- vo:
+  - vo_adv_5061001_051
+- face:
+  - 115812
+  - 4
+- print:
+  - リマ
+  - あ、
+- wait:
+  - 15
+- print:
+  - リマ
+  - あの私、
+- wait:
+  - 35
+- print:
+  - リマ
+  - 舞踏会に……
+- wait:
+  - 30
+- print:
+  - リマ
+  - こ、
+- se:
+  - se_adv_paper_move_06
+- wait:
+  - 15
+- print:
+  - リマ
+  - これ……
+- touch: *o0
+- focus:
+  - 1514
+- bust:
+  - 1514
+  - 0
+- vo:
+  - vo_adv_5061001_052
+- face:
+  - 1514
+  - 6
+- print:
+  - ？？？
+  - それは招待状……
+- wait:
+  - 60
+- print:
+  - ？？？
+  - そうですか、
+- wait:
+  - 20
+- print:
+  - ？？？
+  - あなたも……
+- touch: *o0
+- focus:
+  - 115812
+- bust:
+  - 115812
+  - 0
+- vo:
+  - vo_adv_5061001_053
+- face:
+  - 115812
+  - 4
+- print:
+  - リマ
+  - あ、
+- wait:
+  - 5
+- print:
+  - リマ
+  - あの……
+- touch: *o0
+- focus:
+  - 1514
+- bust:
+  - 1514
+  - 0
+- vo:
+  - vo_adv_5061001_054
+- face:
+  - 1514
+  - 4
+- nod:
+  - 1514
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - マーサ
+  - 正式なお客様にご無礼申し訳ございません。
+- wait:
+  - 75
+- print:
+  - マーサ
+  - >2
+
+- face:
+  - 1514
+  - 1
+- print:
+  - マーサ
+  - 私ロイド様に仕える者、
+- wait:
+  - 45
+- print:
+  - マーサ
+  - マーサと申します。
+- wait:
+  - 50
+- print:
+  - マーサ
+  - >2-
+
+    お名前をうかがってもよろしいでしょうか？
+- touch: *o0
+- focus:
+  - 115812
+- bust:
+  - 115812
+  - 0
+- vo:
+  - vo_adv_5061001_055
+- face:
+  - 115812
+  - 1
+- print:
+  - リマ
+  - はい、
+- wait:
+  - 25
+- print:
+  - リマ
+  - 私リマっていいます！
+- wait:
+  - 45
+- print:
+  - リマ
+  - >2-
+
+    この度はご招待いただき、
+- wait:
+  - 40
+- face:
+  - 115812
+  - 2
+- print:
+  - リマ
+  - ありがとうございます！
+- touch: *o0
+- face:
+  - 115812
+  - 1
+- focus:
+  - 1514
+- bust:
+  - 1514
+  - 0
+- vo:
+  - vo_adv_5061001_056
+- face:
+  - 1514
+  - 2
+- print:
+  - マーサ
+  - それではリマさん、
+- wait:
+  - 25
+- print:
+  - マーサ
+  - お屋敷を案内いたします。
+- wait:
+  - 35
+- print:
+  - マーサ
+  - >2-
+
+    私についてきてください。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_outdoors_day_01
+  - 1
+- background:
+  - 501240
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_room_noise_01
+- chara_full:
+  - 115812
+  - LC
+  - 2
+- chara_full:
+  - 1514
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 115812
+- bust:
+  - 115812
+  - 0
+- vo:
+  - vo_adv_5061001_057
+- face:
+  - 115812
+  - 2
+- emotion:
+  - twinkle1_R
+  - 115812
+  - 140
+  - 450
+  - se_adv_emote_twinkle_01
+- print:
+  - リマ
+  - わぁ！　
+- wait:
+  - 55
+- print:
+  - リマ
+  - 外から見ても素敵だったけど、
+- wait:
+  - 40
+- print:
+  - リマ
+  - >2-
+
+    中もすごく豪華だわ！　
+- wait:
+  - 65
+- print:
+  - リマ
+  - ホント、
+- wait:
+  - 15
+- print:
+  - リマ
+  - 夢みたい。
+- wait:
+  - 45
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 115812
+  - 1
+- print:
+  - リマ
+  - ここに来れただけでも十分かも。
+- touch: *o0
+- focus:
+  - 1514
+- bust:
+  - 1514
+  - 0
+- vo:
+  - vo_adv_5061001_058
+- face:
+  - 1514
+  - 1
+- print:
+  - マーサ
+  - リマさんは貴族のお屋敷ははじめてなのですね。
+- touch: *o0
+- focus:
+  - 115812
+- bust:
+  - 115812
+  - 0
+- vo:
+  - vo_adv_5061001_059
+- face:
+  - 115812
+  - 1
+- print:
+  - リマ
+  - はい。
+- wait:
+  - 30
+- face:
+  - 115812
+  - 4
+- print:
+  - リマ
+  - あ、やっぱり
+- wait:
+  - 15
+- print:
+  - リマ
+  - 私みたいなのは、
+- wait:
+  - 35
+- print:
+  - リマ
+  - 舞踏会に
+- wait:
+  - 20
+- print:
+  - リマ
+  - ふさわしくありませんか？
+- touch: *o0
+- focus:
+  - 1514
+- bust:
+  - 1514
+  - 0
+- vo:
+  - vo_adv_5061001_060
+- face:
+  - 1514
+  - 2
+- print:
+  - マーサ
+  - いえ、
+- wait:
+  - 25
+- print:
+  - マーサ
+  - 出自などどうか気になさらずに。
+- wait:
+  - 45
+- print:
+  - マーサ
+  - >2
+
+- face:
+  - 1514
+  - 1
+- print:
+  - マーサ
+  - ロイド様も
+- wait:
+  - 20
+- print:
+  - マーサ
+  - そのようなことは求めておりませんので。
+- touch: *o0
+- focus:
+  - 115812
+- bust:
+  - 115812
+  - 0
+- vo:
+  - vo_adv_5061001_061
+- face:
+  - 115812
+  - 2
+- print:
+  - リマ
+  - よかった。
+- wait:
+  - 40
+- print:
+  - リマ
+  - 舞踏会に参加する前に
+- wait:
+  - 40
+- print:
+  - リマ
+  - >2-
+
+    失格
+- wait:
+  - 15
+- print:
+  - リマ
+  - なんて言われたら
+- wait:
+  - 20
+- print:
+  - リマ
+  - どうしようかと思ったわ。
+- touch: *o0
+- face:
+  - 115812
+  - 1
+- focus:
+  - 1514
+- bust:
+  - 1514
+  - 0
+- vo:
+  - vo_adv_5061001_062
+- face:
+  - 1514
+  - 1
+- emotion:
+  - notice1_L
+  - 1514
+  - -85
+  - 540
+  - se_adv_emote_common_01
+- print:
+  - マーサ
+  - あら、
+- wait:
+  - 15
+- print:
+  - マーサ
+  - 丁度いいところに。
+- wait:
+  - 50
+- print:
+  - マーサ
+  - >2-
+
+    ロイド様、
+- wait:
+  - 25
+- print:
+  - マーサ
+  - 参加者の方がお見えになられました。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1514
+  - 30
+- chara_full:
+  - 2511
+  - R
+  - 6
+- se:
+  - se_adv_step_rug_walk_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - R
+  - 45
+- fadein:
+  - 2511
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_5061001_063
+- face:
+  - 2511
+  - 6
+- print:
+  - ロイド
+  - ん、
+- wait:
+  - 25
+- print:
+  - ロイド
+  - ああ、
+- wait:
+  - 15
+- print:
+  - ロイド
+  - そうか……
+- wait:
+  - 45
+- face:
+  - 2511
+  - 4
+- print:
+  - ロイド
+  - はじめまして、
+- wait:
+  - 35
+- print:
+  - ロイド
+  - この屋敷の主、
+- wait:
+  - 20
+- print:
+  - ロイド
+  - ロイドだ。
+- wait:
+  - 40
+- print:
+  - ロイド
+  - >2-
+
+    来てくれてありがとう、
+- wait:
+  - 35
+- print:
+  - ロイド
+  - 感謝するよ。
+- touch: *o0
+- focus:
+  - 115812
+- bust:
+  - 115812
+  - 0
+- vo:
+  - vo_adv_5061001_064
+- face:
+  - 115812
+  - 6
+- print:
+  - リマ
+  - い、
+- wait:
+  - 15
+- print:
+  - リマ
+  - いえ、
+- wait:
+  - 15
+- print:
+  - リマ
+  - こちらこそ
+- wait:
+  - 25
+- face:
+  - 115812
+  - 1
+- print:
+  - リマ
+  - こんな素敵なお屋敷に呼んでもらって、
+- wait:
+  - 35
+- print:
+  - リマ
+  - >2-
+
+    本当にありがとうございます。
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 115812
+- bust:
+  - 115812
+  - 0
+- vo:
+  - vo_adv_5061001_065
+- face:
+  - 115812
+  - 6
+- print:
+  - リマ
+  - 何だろう、
+- wait:
+  - 40
+- print:
+  - リマ
+  - 上品だし
+- wait:
+  - 25
+- print:
+  - リマ
+  - 上から見るような嫌な感じは全然ないけど、
+- wait:
+  - 75
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 115812
+  - 4
+- print:
+  - リマ
+  - 何だかあまり
+- wait:
+  - 30
+- print:
+  - リマ
+  - 楽しそうじゃないような……
+- touch: *o0
+- focus:
+  - 115812
+- bust:
+  - 115812
+  - 0
+- vo:
+  - vo_adv_5061001_066
+- face:
+  - 115812
+  - 4
+- print:
+  - リマ
+  - この人が舞踏会の主催者なのに、
+- wait:
+  - 70
+- print:
+  - リマ
+  - どうしてかしら？　
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - TRUE
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_5061001_067
+- face:
+  - 2511
+  - 4
+- nod:
+  - 2511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ロイド
+  - それじゃあ、
+- wait:
+  - 20
+- print:
+  - ロイド
+  - 私はこれで。
+- wait:
+  - 55
+- print:
+  - ロイド
+  - >2-
+
+    マーサ、
+- wait:
+  - 30
+- print:
+  - ロイド
+  - 後のことはよろしく頼むよ。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_rug_walk_go_01
+- change:
+  - R
+  - RC
+  - 30
+- fadeout:
+  - 2511
+  - 30
+- chara_full:
+  - 1514
+  - RC
+  - 2
+- fadein:
+  - 1514
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1514
+- bust:
+  - 1514
+  - 0
+- vo:
+  - vo_adv_5061001_068
+- face:
+  - 1514
+  - 2
+- print:
+  - マーサ
+  - 万事お任せください。
+- wait:
+  - 65
+- print:
+  - マーサ
+  - >2
+
+- face:
+  - 1514
+  - 1
+- print:
+  - マーサ
+  - さてリマさん、
+- wait:
+  - 40
+- print:
+  - マーサ
+  - 我々はあなたをここに
+- wait:
+  - 15
+- print:
+  - マーサ
+  - 招待させていただきましたが、
+- wait:
+  - 45
+- print:
+  - マーサ
+  - >2-
+
+    残念ながら
+- wait:
+  - 20
+- print:
+  - マーサ
+  - すぐに舞踏会に参加することはできません。
+- touch: *o0
+- bgm:
+  - stop
+  - 5
+  - 1
+- focus:
+  - 115812
+- bust:
+  - 115812
+  - 0
+- vo:
+  - vo_adv_5061001_069
+- face:
+  - 115812
+  - 6
+- emotion:
+  - question1_R
+  - 115812
+  - 130
+  - 470
+  - se_adv_emote_question_01
+- print:
+  - リマ
+  - え？　
+- wait:
+  - 25
+- print:
+  - リマ
+  - ど、
+- wait:
+  - 30
+- print:
+  - リマ
+  - どういうことなの？
+- touch: *o0
+- bgm:
+  - bgm_M452_02
+- focus:
+  - 1514
+- bust:
+  - 1514
+  - 0
+- vo:
+  - vo_adv_5061001_070
+- face:
+  - 1514
+  - 1
+- print:
+  - マーサ
+  - 舞踏会に参加するためには、
+- wait:
+  - 35
+- print:
+  - マーサ
+  - >2-
+
+    それに見合うだけの作法と教養が必要です。
+- touch: *o0
+- focus:
+  - 1514
+- bust:
+  - 1514
+  - 0
+- vo:
+  - vo_adv_5061001_071
+- face:
+  - 1514
+  - 1
+- nod:
+  - 1514
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - マーサ
+  - これからあなたには
+- wait:
+  - 25
+- print:
+  - マーサ
+  - 数日間様々なレッスンを受けてもらい、
+- wait:
+  - 35
+- print:
+  - マーサ
+  - >2-
+
+    それらを身に付けてもらいます。
+- touch: *o0
+- focus:
+  - 1514
+- bust:
+  - 1514
+  - 0
+- vo:
+  - vo_adv_5061001_072
+- face:
+  - 1514
+  - 6
+- print:
+  - マーサ
+  - 何を勝手なと思うかもしれません。
+- wait:
+  - 55
+- face:
+  - 1514
+  - 1
+- print:
+  - マーサ
+  - しかし、
+- wait:
+  - 25
+- print:
+  - マーサ
+  - これは必要なことなのです。
+- wait:
+  - 50
+- print:
+  - マーサ
+  - >2-
+
+    当然レッスンを拒否してもらっても構いません。
+- touch: *o0
+- focus:
+  - 1514
+- bust:
+  - 1514
+  - 0
+- vo:
+  - vo_adv_5061001_073
+- face:
+  - 1514
+  - 1
+- print:
+  - マーサ
+  - 舞踏会とはいかないまでも、
+- wait:
+  - 45
+- print:
+  - マーサ
+  - 精一杯のおもてなしはさせていただきます。
+- wait:
+  - 75
+- print:
+  - マーサ
+  - >2-
+
+    いかがなさいますか、
+- wait:
+  - 15
+- print:
+  - マーサ
+  - リマさん。
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 115812
+- bust:
+  - 115812
+  - 0
+- vo:
+  - vo_adv_5061001_074
+- face:
+  - 115812
+  - 1
+- print:
+  - リマ
+  - なるほど、
+- wait:
+  - 45
+- print:
+  - リマ
+  - 随分と上手くいきすぎてたけど
+- wait:
+  - 30
+- print:
+  - リマ
+  - こういうことなのね。
+- wait:
+  - 45
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 115812
+  - 2
+- print:
+  - リマ
+  - でも、
+- wait:
+  - 25
+- print:
+  - リマ
+  - 答えは決まってるわ。
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - TRUE
+- focus:
+  - 115812
+- bust:
+  - 115812
+  - 0
+- vo:
+  - vo_adv_5061001_075
+- face:
+  - 115812
+  - 2
+- nod:
+  - 115812
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - リマ
+  - 私、
+- wait:
+  - 35
+- print:
+  - リマ
+  - レッスン受けます！
+- touch: *o0
+- focus:
+  - 1514
+- bust:
+  - 1514
+  - 0
+- vo:
+  - vo_adv_5061001_076
+- face:
+  - 1514
+  - 1
+- nod:
+  - 1514
+- print:
+  - マーサ
+  - 了解しました。
+- wait:
+  - 50
+- print:
+  - マーサ
+  - それでは改めまして──
+- wait:
+  - 75
+- print:
+  - マーサ
+  - >2
+
+- face:
+  - 1514
+  - 2
+- print:
+  - マーサ
+  - ようこそ、
+- wait:
+  - 25
+- print:
+  - マーサ
+  - 社交界の入り口へ。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- chara_full:
+  - 115812
+  - C
+  - 1
+  - 1
+- fadein:
+  - 115812
+  - 30
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 115812
+- bust:
+  - 115812
+  - 0
+- vo:
+  - vo_adv_5061001_077
+- face:
+  - 115812
+  - 1
+- print:
+  - リマ
+  - ずっと憧れていた
+- wait:
+  - 40
+- print:
+  - リマ
+  - 煌びやかな世界。
+- wait:
+  - 50
+- print:
+  - リマ
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - リマ
+  - そこに飛び込めるチャンスなんて
+- wait:
+  - 30
+- print:
+  - リマ
+  - この先あるとは思えないもの。
+- touch: *o0
+- focus:
+  - 115812
+- bust:
+  - 115812
+  - 0
+- vo:
+  - vo_adv_5061001_078
+- face:
+  - 115812
+  - 1
+- print:
+  - リマ
+  - 私のためにドレスまで用意してくれたネネカちゃんに報いるためにも、
+- wait:
+  - 75
+- print:
+  - リマ
+  - >2
+
+- face:
+  - 115812
+  - 2
+- print:
+  - リマ
+  - このチャンス、
+- wait:
+  - 30
+- print:
+  - リマ
+  - 絶対ものにしてみせるわ！　
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- fadeout:
+  - 115812
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - 憧れの世界を前に、リマは強く決意するのだった。
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 1
+  - 0
+- se_pause:
+  - amb_adv_room_noise_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

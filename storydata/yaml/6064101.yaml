@@ -1,0 +1,250 @@
+- title:
+  - アキノのドレスコード
+- outline:
+  - ' '
+- background:
+  - 500036
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - アキノのドレスコード
+- chara_full:
+  - 114411
+  - C
+  - 1
+- fadein:
+  - 114411
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M427
+  - 0
+  - 0
+  - 1
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054101_000
+- face:
+  - 114411
+  - 1
+- print:
+  - アキノ
+  - あなたさま、
+- wait:
+  - 30
+- print:
+  - アキノ
+  - このドレスを見てくださいませ！
+- wait:
+  - 45
+- print:
+  - アキノ
+  - >2
+
+- face:
+  - 114411
+  - 2
+- print:
+  - アキノ
+  - 今回のパーティーのために、
+- wait:
+  - 35
+- print:
+  - アキノ
+  - >2-
+
+    ウィスタリア家お抱えのデザイナーに依頼して仕立てましたの！
+- touch: &o0 []
+- choice:
+  - 素敵なドレス。
+  - 1
+  - 1
+- choice:
+  - 似合ってる。
+  - 2
+  - 2
+- choice:
+  - かわいい。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054101_001
+- face:
+  - 114411
+  - 1
+- print:
+  - アキノ
+  - 実は今回、
+- wait:
+  - 40
+- print:
+  - アキノ
+  - 私もデザインから関わっていますの。
+- wait:
+  - 65
+- print:
+  - アキノ
+  - >2
+
+- face:
+  - 114411
+  - 2
+- print:
+  - アキノ
+  - なんの計算もなく、
+- wait:
+  - 35
+- print:
+  - アキノ
+  - そのように
+- wait:
+  - 5
+- print:
+  - アキノ
+  - >2-
+
+    仰っていただけるのは、
+- wait:
+  - 40
+- print:
+  - アキノ
+  - 素直にうれしいですわね♪
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054101_002
+- face:
+  - 114411
+  - 2
+- print:
+  - アキノ
+  - ふふ、
+- wait:
+  - 20
+- nod:
+  - 114411
+- print:
+  - アキノ
+  - ありがとうございます！
+- wait:
+  - 40
+- print:
+  - アキノ
+  - >2
+
+- face:
+  - 114411
+  - 1
+- print:
+  - アキノ
+  - あなたさまのタキシードも、
+- wait:
+  - 20
+- print:
+  - アキノ
+  - >2-
+
+    よくお似合いでしてよ♪
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054101_003
+- face:
+  - 114411
+  - 6
+- emotion:
+  - surprise1_L
+  - 114411
+  - 165
+  - 470
+  - se_adv_emote_common_01
+- print:
+  - アキノ
+  - へっ！？　
+- wait:
+  - 15
+- print:
+  - アキノ
+  - か、
+- wait:
+  - 15
+- print:
+  - アキノ
+  - かわいいというのは、
+- wait:
+  - 35
+- print:
+  - アキノ
+  - あの、
+- wait:
+  - 45
+- print:
+  - アキノ
+  - いえ。
+- wait:
+  - 45
+- print:
+  - アキノ
+  - >2
+
+- face:
+  - 114411
+  - 5
+- print:
+  - アキノ
+  - …………あ、
+- wait:
+  - 45
+- print:
+  - アキノ
+  - ありがとうございます。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 114411
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

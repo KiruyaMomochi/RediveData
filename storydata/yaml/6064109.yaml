@@ -1,0 +1,211 @@
+- title:
+  - 方向音痴
+- outline:
+  - ' '
+- background:
+  - 500036
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 方向音痴
+- chara_full:
+  - 114411
+  - C
+  - 4
+- fadein:
+  - 114411
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M427_04
+  - 0
+  - 0
+  - 1
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054109_000
+- face:
+  - 114411
+  - 4
+- print:
+  - アキノ
+  - 方向音痴を克服できれば、
+- wait:
+  - 60
+- print:
+  - アキノ
+  - >2-
+
+    冒険も楽しいのでしょうけれど……
+- touch: &o0 []
+- choice:
+  - 方向音痴でもいい。
+  - 1
+  - 1
+- choice:
+  - 一緒に克服しよう。
+  - 2
+  - 2
+- choice:
+  - アキノさんとの冒険は楽しい。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054109_001
+- face:
+  - 114411
+  - 1
+- print:
+  - アキノ
+  - ありのままの私でいいと、
+- wait:
+  - 50
+- print:
+  - アキノ
+  - そう仰ってくださる方がいる。
+- wait:
+  - 80
+- print:
+  - アキノ
+  - >2
+
+- face:
+  - 114411
+  - 2
+- print:
+  - アキノ
+  - ……私は、
+- wait:
+  - 35
+- print:
+  - アキノ
+  - 幸せ者ですわね。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054109_002
+- face:
+  - 114411
+  - 2
+- print:
+  - アキノ
+  - あなたさまのお言葉に甘えますわ。
+- wait:
+  - 70
+- print:
+  - アキノ
+  - >2
+
+- face:
+  - 114411
+  - 1
+- print:
+  - アキノ
+  - 私、
+- wait:
+  - 35
+- print:
+  - アキノ
+  - 必ずや克服してみせます！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054109_003
+- face:
+  - 114411
+  - 5
+- print:
+  - アキノ
+  - ……あなたさま。
+- wait:
+  - 65
+- face:
+  - 114411
+  - 1
+- print:
+  - アキノ
+  - 私も
+- wait:
+  - 30
+- print:
+  - アキノ
+  - 同じ気持ちですわ。
+- wait:
+  - 60
+- print:
+  - アキノ
+  - >2-
+
+    あなたさまとなら、
+- wait:
+  - 30
+- print:
+  - アキノ
+  - 迷子になって遠回りしたとしても、
+- wait:
+  - 50
+- print:
+  - アキノ
+  - >2
+
+- face:
+  - 114411
+  - 2
+- print:
+  - アキノ
+  - やはり最後は、
+- wait:
+  - 30
+- print:
+  - アキノ
+  - 楽しい思い出になると思います。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 114411
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0
