@@ -1,18 +1,18 @@
 - title:
-  - 暫定標題
+  - 雪菲 第6話
 - outline:
-  - ' '
+  - '{0}和可可蘿一起照顧變回小嬰兒的雪菲，哄著抱過來撒嬌的雪菲度過了安穩的時光。然而當雪菲隔天恢復正常後，她只感到害羞不已。'
 - background:
   - 500361
-- amb:
-  - amb_adv_room_noise_01
+- se:
+  - amb_adv_room_noise_day_01
 - bg_pan:
   - -170
   - 0
 - situation:
-  - 暫定標題
+  - 歡樂時光
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 0
 - bust:
@@ -24,21 +24,29 @@
 - print:
   - 旁白
   - 和貪吃佩可去吃魔物料理的隔天──
+- wait:
+  - 30
 - touch: &o0 []
 - window_visible:
-  - FALSE
+  - false
 - chara_full:
   - 106414
-  - RC
-  - 1
-- chara_full:
-  - 190911
-  - LC
-  - 1
-- fadein_all:
+  - C
+  - 2
+- se:
+  - se_adv_cloth_move_give_01
+- fadein:
+  - 106414
   - 30
+- text_size:
+  - 50
 - window_visible:
-  - TRUE
+  - true
+- bgm:
+  - bgm_M323
+  - 0
+  - 0
+  - 1
 - focus:
   - 106414
 - bust:
@@ -48,56 +56,95 @@
   - vo_adv_1064006_000
 - face:
   - 106414
-  - 1
+  - 2
+- nod:
+  - 106414
+- se:
+  - se_adv_eating_01
 - print:
   - 雪菲
   - 啊──呣♪
 - touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 3
+- window_visible:
+  - true
 - focus:
   - 190911
 - bust:
   - 190911
-  - 0
+  - 1
 - vo:
   - vo_adv_1064006_001
 - face:
   - 190911
-  - 1
+  - 3
 - print:
   - 涅比亞
   - 哇啊啊啊啊────！！
 - touch: *o0
 - window_visible:
-  - FALSE
-- fadeout_all:
+  - false
+- text_size:
+  - 23
+- change_window:
+  - 1
+- fadeout:
+  - 106414
   - 30
 - chara_full:
-  - 105911
+  - 105913
   - C
   - 1
 - fadein:
-  - 105911
+  - 105913
   - 30
 - window_visible:
-  - TRUE
+  - true
 - focus:
-  - 105911
+  - 105913
 - bust:
-  - 105911
+  - 105913
   - 0
 - vo:
   - vo_adv_1064006_002
 - face:
-  - 105911
+  - 105913
   - 1
 - print:
   - 可可蘿
-  - >-
-    唔……過了整整一天，
+  - 唔……
+- wait:
+  - 45
+- print:
+  - 可可蘿
+  - 過了整整一天，
+- wait:
+  - 30
+- print:
+  - 可可蘿
+  - >2-
 
     雪菲小姐還是沒有恢復原狀呢。
+- wait:
+  - 60
+- print:
+  - 可可蘿
+  - >2
 
-    魔物料理對她造成這麼大的衝擊嗎……
+- face:
+  - 105913
+  - 4
+- print:
+  - 可可蘿
+  - 魔物料理
+- wait:
+  - 30
+- print:
+  - 可可蘿
+  - 對她造成這麼大的衝擊嗎……
 - touch: *o0
 - choice:
   - 真傷腦筋……
@@ -105,22 +152,19 @@
 - tag:
   - 1
 - window_visible:
-  - FALSE
+  - false
 - fadeout:
-  - 105911
+  - 105913
   - 30
 - chara_full:
   - 106414
-  - RC
-  - 1
-- chara_full:
-  - 190911
-  - LC
-  - 1
-- fadein_all:
+  - C
+  - 2
+- fadein:
+  - 106414
   - 30
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 106414
 - bust:
@@ -130,7 +174,13 @@
   - vo_adv_1064006_003
 - face:
   - 106414
-  - 1
+  - 2
+- emotion:
+  - note1_L
+  - 106414
+  - -95
+  - 415
+  - se_adv_emote_note_01
 - print:
   - 雪菲
   - 哈哈～♪
@@ -139,20 +189,39 @@
   - 190911
 - bust:
   - 190911
-  - 0
+  - 1
 - vo:
   - vo_adv_1064006_004
 - face:
   - 190911
-  - 1
+  - 3
 - print:
   - 涅比亞
-  - >-
-    喂！
+  - 喂！
+- wait:
+  - 25
+- print:
+  - 涅比亞
+  - >2-
 
-    別在那裡冷靜分析了，快來救我呀！
+    別在那裡冷靜分析了，
+- wait:
+  - 30
+- print:
+  - 涅比亞
+  - 快來救我呀！
+- wait:
+  - 30
+- print:
+  - 涅比亞
+  - >2-
 
-    她在吃我耶？看見了沒！？
+    她在吃我耶？
+- wait:
+  - 45
+- print:
+  - 涅比亞
+  - 看見了沒！？
 - touch: *o0
 - choice:
   - 她只是在嬉鬧而已啦……
@@ -168,27 +237,51 @@
   - vo_adv_1064006_005
 - face:
   - 106414
-  - 1
+  - 2
 - print:
   - 雪菲
-  - 涅比、涅比～♪
+  - 涅比、
+- wait:
+  - 30
+- print:
+  - 雪菲
+  - 涅比～♪
 - touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_body_pull_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- window_visible:
+  - true
 - focus:
   - 190911
 - bust:
   - 190911
-  - 0
+  - 1
 - vo:
   - vo_adv_1064006_006
 - face:
   - 190911
-  - 1
+  - 3
 - print:
   - 涅比亞
-  - >-
-    嗚啊啊啊！！
+  - 嗚啊啊啊！！
+- wait:
+  - 20
+- print:
+  - 涅比亞
+  - >2-
 
-    我、我的翅膀要斷了～！？！？
+    我、
+- wait:
+  - 20
+- print:
+  - 涅比亞
+  - 我的翅膀要斷了～！？！？
 - touch: *o0
 - focus:
   - 106414
@@ -199,38 +292,84 @@
   - vo_adv_1064006_007
 - face:
   - 106414
-  - 1
+  - 2
 - print:
   - 雪菲
-  - 嘿嘿嘿，抱抱～～～♪
+  - 嘿嘿嘿，
+- wait:
+  - 35
+- print:
+  - 雪菲
+  - 抱抱～～～♪
 - touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_body_hand_creak_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- window_visible:
+  - true
 - focus:
   - 190911
 - bust:
   - 190911
-  - 0
+  - 1
 - vo:
   - vo_adv_1064006_008
 - face:
   - 190911
-  - 1
+  - 6
 - print:
   - 涅比亞
-  - >-
-    慢著……脖子被勒住……
+  - 慢著……
+- wait:
+  - 15
+- print:
+  - 涅比亞
+  - 脖子
+- wait:
+  - 15
+- print:
+  - 涅比亞
+  - 被勒住……
+- wait:
+  - 20
+- print:
+  - 涅比亞
+  - >2
 
-    呃……唔、好難受…………
+- face:
+  - 190911
+  - 4
+- print:
+  - 涅比亞
+  - 呃……
+- wait:
+  - 10
+- print:
+  - 涅比亞
+  - 唔、
+- wait:
+  - 20
+- print:
+  - 涅比亞
+  - 好難受…………
 - touch: *o0
 - focus:
   - 190911
 - bust:
   - 190911
-  - 0
+  - 1
 - vo:
   - vo_adv_1064006_009
 - face:
   - 190911
-  - 1
+  - 4
+- se:
+  - se_adv_cloth_move_hard_01
 - print:
   - 涅比亞
   - ………………呃啊……
@@ -245,12 +384,32 @@
 - face:
   - 106414
   - 1
+- emotion:
+  - question1_R
+  - 106414
+  - 120
+  - 395
+  - se_adv_emote_question_01
 - print:
   - 雪菲
-  - >-
-    ……？
+  - ……？
+- wait:
+  - 40
+- print:
+  - 雪菲
+  - >2-
 
-    噗啦～？涅比～？
+    噗啦～？
+- wait:
+  - 40
+- print:
+  - 雪菲
+  - 涅比～？
+- wait:
+  - 40
+- print:
+  - 雪菲
+  - >2-
 
     噗啦噗啦～？
 - touch: *o0
@@ -264,17 +423,42 @@
 - face:
   - 106414
   - 1
+- nod:
+  - 106414
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 雪菲
-  - >-
-    ……！
+  - ……！
+- wait:
+  - 40
+- print:
+  - 雪菲
+  - >2
 
-    雪菲，贏了～♪
+- face:
+  - 106414
+  - 2
+- print:
+  - 雪菲
+  - 雪菲，
+- wait:
+  - 20
+- print:
+  - 雪菲
+  - 贏了～♪
 - touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
 - window_visible:
-  - FALSE
-- fadeout_all:
+  - false
+- fadeout:
+  - 106414
   - 30
+- se:
+  - se_adv_step_wood_run_come_01
 - white_out:
   - 1
   - 1
@@ -283,12 +467,19 @@
   - 255
   - 255
 - still:
-  - 106800201
+  - 106400601
 - wait:
   - 15
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- se:
+  - se_adv_blanket_move_02
 - white_in: *o0
 - window_visible:
-  - TRUE
+  - true
+- bgm:
+  - bgm_M52
 - focus:
   - 106414
 - bust:
@@ -298,13 +489,26 @@
   - vo_adv_1064006_012
 - face:
   - 106414
-  - 1
+  - 2
 - print:
   - 雪菲
-  - >-
-    葛格～～！
+  - 葛格
+- wait:
+  - 25
+- print:
+  - 雪菲
+  - ～～！
+- wait:
+  - 25
+- print:
+  - 雪菲
+  - >2
 
-    抱抱！
+- se:
+  - se_adv_hug_01
+- print:
+  - 雪菲
+  - 抱抱！
 - touch: *o0
 - choice:
   - 怎麼了？
@@ -320,7 +524,9 @@
   - vo_adv_1064006_013
 - face:
   - 106414
-  - 1
+  - 2
+- se:
+  - se_adv_hug_01
 - print:
   - 雪菲
   - 抱抱抱～～～～！
@@ -339,16 +545,27 @@
   - vo_adv_1064006_014
 - face:
   - 106414
-  - 1
+  - 4
+- se:
+  - se_adv_cloth_move_give_01
 - print:
   - 雪菲
-  - >-
-    ……唔……
+  - ……唔……
+- wait:
+  - 35
+- print:
+  - 雪菲
+  - >2-
 
-    葛格，好膩害……
+    葛格，
+- wait:
+  - 20
+- print:
+  - 雪菲
+  - 好膩害……
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
 - white_out:
   - 1
   - 1
@@ -356,40 +573,88 @@
   - 500361
 - still:
   - end
+- effect_delete:
+  - 0022
 - wait:
   - 15
 - white_in: *o0
 - chara_full:
-  - 106414
-  - RC
+  - 105913
+  - C
   - 1
-- chara_full:
-  - 105911
-  - LC
-  - 1
-- fadein_all:
+- fadein:
+  - 105913
   - 30
 - window_visible:
-  - TRUE
+  - true
 - focus:
-  - 105911
+  - 105913
 - bust:
-  - 105911
+  - 105913
   - 0
 - vo:
   - vo_adv_1064006_015
 - face:
-  - 105911
+  - 105913
   - 1
 - print:
   - 可可蘿
-  - >-
-    看起來……她是想跟您比力氣呢。
+  - 看起來……
+- wait:
+  - 50
+- print:
+  - 可可蘿
+  - 她是想跟您比力氣呢。
+- wait:
+  - 70
+- print:
+  - 可可蘿
+  - >2
 
-    贏過涅比亞大人，
+- face:
+  - 105913
+  - 6
+- print:
+  - 可可蘿
+  - 贏過涅比亞大人，
+- wait:
+  - 40
+- print:
+  - 可可蘿
+  - >2-
 
-    接下來就要和主人您一較高下……應該是這麼一回事吧。
+    接下來就要和主人您一較高下……
+- wait:
+  - 60
+- print:
+  - 可可蘿
+  - 應該是這麼一回事吧。
 - touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105913
+  - 30
+- chara_full:
+  - 105913
+  - LC
+  - 1
+- chara_full:
+  - 106414
+  - R
+  - 2
+- se:
+  - se_adv_step_wood_run_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - R
+  - 30
+- fadein_all:
+  - 30
+- window_visible:
+  - true
 - focus:
   - 106414
 - bust:
@@ -399,7 +664,13 @@
   - vo_adv_1064006_016
 - face:
   - 106414
-  - 1
+  - 2
+- emotion:
+  - note1_L
+  - 106414
+  - -95
+  - 415
+  - se_adv_emote_note_01
 - print:
   - 雪菲
   - 媽媽～♪
@@ -418,28 +689,61 @@
   - vo_adv_1064006_017
 - face:
   - 106414
-  - 1
+  - 2
 - print:
   - 雪菲
   - 抱抱～～～～！
 - touch: *o0
+- window_visible:
+  - false
 - focus:
-  - 105911
+  - 105913:106414
+- se:
+  - se_adv_hug_02
+- nod:
+  - 106414
+- shake:
+  - 105913
+- window_visible:
+  - true
+- focus:
+  - 105913
 - bust:
-  - 105911
+  - 105913
   - 0
 - vo:
   - vo_adv_1064006_018
 - face:
-  - 105911
-  - 1
+  - 105913
+  - 2
 - print:
   - 可可蘿
-  - >-
-    呵呵。
+  - 呵呵。
+- wait:
+  - 45
+- print:
+  - 可可蘿
+  - >2-
 
     抱抱～
+- wait:
+  - 25
+- print:
+  - 可可蘿
+  - 如此這般。
 - touch: *o0
+- se:
+  - se_adv_hug_01
+- window_visible:
+  - false
+- focus:
+  - 105913:106414
+- nod:
+  - 105913
+- shake:
+  - 106414
+- window_visible:
+  - true
 - focus:
   - 106414
 - bust:
@@ -450,12 +754,28 @@
 - face:
   - 106414
   - 1
+- se:
+  - se_adv_tickle_01
 - print:
   - 雪菲
-  - >-
-    ……？
+  - ……？
+- wait:
+  - 35
+- print:
+  - 雪菲
+  - >2
 
-    哈、哈哈哈～♪
+- face:
+  - 106414
+  - 2
+- print:
+  - 雪菲
+  - 哈、
+- wait:
+  - 25
+- print:
+  - 雪菲
+  - 哈哈哈～♪
 - touch: *o0
 - choice:
   - ……？
@@ -463,21 +783,30 @@
 - tag:
   - 6
 - focus:
-  - 105911
+  - 105913
 - bust:
-  - 105911
+  - 105913
   - 0
 - vo:
   - vo_adv_1064006_020
 - face:
-  - 105911
-  - 1
+  - 105913
+  - 2
 - print:
   - 可可蘿
-  - >-
-    呵呵……
+  - 呵呵……
+- wait:
+  - 30
+- print:
+  - 可可蘿
+  - >2-
 
-    雪菲大人很怕被搔尾巴根部呢。
+    雪菲小姐
+- wait:
+  - 30
+- print:
+  - 可可蘿
+  - 很怕被搔尾巴根部呢。
 - touch: *o0
 - choice:
   - （摸一摸尾巴。）
@@ -487,6 +816,25 @@
   - 10
 - tag:
   - 7
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106414
+  - C
+  - 2
+- fadein:
+  - 106414
+  - 30
+- focus:
+  - 106414
+- se:
+  - se_adv_tickle_02
+- shake:
+  - 106414
+- window_visible:
+  - true
 - focus:
   - 106414
 - bust:
@@ -497,18 +845,46 @@
 - face:
   - 106414
   - 1
+- emotion:
+  - surprise1_L
+  - 106414
+  - 160
+  - 450
+  - se_adv_emote_common_01
 - print:
   - 雪菲
-  - >-
-    ！？
+  - ！？
+- wait:
+  - 20
+- print:
+  - 雪菲
+  - >2
 
-    呀～♪
+- face:
+  - 106414
+  - 2
+- print:
+  - 雪菲
+  - 呀～♪
 - touch: *o0
 - choice:
   - （搔一搔。）
   - 8
 - tag:
   - 8
+- window_visible:
+  - false
+- focus:
+  - 106414
+- face:
+  - 106414
+  - 1
+- se:
+  - se_adv_tickle_01
+- shake:
+  - 106414
+- window_visible:
+  - true
 - focus:
   - 106414
 - bust:
@@ -518,16 +894,58 @@
   - vo_adv_1064006_022
 - face:
   - 106414
-  - 1
+  - 2
 - print:
   - 雪菲
-  - 哈、哈哈哈哈，葛～格～♪
+  - 哈、
+- wait:
+  - 20
+- print:
+  - 雪菲
+  - 哈哈哈哈，
+- wait:
+  - 20
+- print:
+  - 雪菲
+  - 葛～格～♪
 - touch: *o0
 - choice:
   - （扛到肩上。）
   - 9
 - tag:
   - 9
+- window_visible:
+  - false
+- se:
+  - se_adv_body_shake_off_01
+- fadeout:
+  - 106414
+  - 30
+- bg_pan:
+  - 0
+  - 100
+  - 15
+- se:
+  - se_adv_body_carry_back_01
+- wait:
+  - 15
+- bg_pan:
+  - 100
+  - 0
+  - 15
+- chara_full:
+  - 106414
+  - C
+  - 2
+- scale:
+  - 106414
+  - 1.3
+  - 2
+- fadein:
+  - 106414
+  - 30
+- window_visible:
+  - true
 - focus:
   - 106414
 - bust:
@@ -537,34 +955,110 @@
   - vo_adv_1064006_023
 - face:
   - 106414
-  - 1
+  - 2
+- emotion:
+  - note1_L
+  - 106414
+  - -115
+  - 410
+  - se_adv_emote_note_01
 - print:
   - 雪菲
-  - >-
-    哇～♪
+  - 哇～♪
+- wait:
+  - 45
+- print:
+  - 雪菲
+  - >2-
 
     好高、好高～♪
+- wait:
+  - 45
+- print:
+  - 雪菲
+  - >2-
 
     哈哈哈～♪
 - touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106414
+  - 30
+- se:
+  - se_adv_body_sitdown_01
+- bg_pan:
+  - 0
+  - 100
+  - 15
+- wait:
+  - 15
+- bg_pan:
+  - 100
+  - 0
+  - 15
+- chara_full:
+  - 105913
+  - LC
+  - 1
+- chara_full:
+  - 106414
+  - RC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - true
 - focus:
-  - 105911
+  - 105913
 - bust:
-  - 105911
+  - 105913
   - 0
 - vo:
   - vo_adv_1064006_024
 - face:
-  - 105911
+  - 105913
+  - 2
+- print:
+  - 可可蘿
+  - 呵呵。
+- wait:
+  - 40
+- print:
+  - 可可蘿
+  - >2-
+
+    雪菲小姐
+- wait:
+  - 25
+- print:
+  - 可可蘿
+  - 很有活力呢。
+- wait:
+  - 70
+- print:
+  - 可可蘿
+  - >2
+
+- face:
+  - 105913
   - 1
 - print:
   - 可可蘿
-  - >-
-    呵呵。
-
-    雪菲大人很有活力呢。
-
-    今天也沒有什麼預定行程……那就陪您玩一整天吧。
+  - 今天也沒有什麼預定行程……
+- wait:
+  - 60
+- face:
+  - 105913
+  - 2
+- print:
+  - 可可蘿
+  - 那就
+- wait:
+  - 25
+- print:
+  - 可可蘿
+  - 陪您玩一整天吧。
 - touch: *o0
 - goto:
   - 14
@@ -580,12 +1074,32 @@
 - face:
   - 106414
   - 1
+- emotion:
+  - question1_R
+  - 106414
+  - 120
+  - 395
+  - se_adv_emote_question_01
 - print:
   - 雪菲
-  - >-
-    媽媽，最強～？
+  - 媽媽，
+- wait:
+  - 25
+- print:
+  - 雪菲
+  - 最強～？
+- wait:
+  - 35
+- print:
+  - 雪菲
+  - >2
 
-    最強～♪
+- face:
+  - 106414
+  - 2
+- print:
+  - 雪菲
+  - 最強～♪
 - touch: *o0
 - focus:
   - 106414
@@ -596,30 +1110,53 @@
   - vo_adv_1064006_026
 - face:
   - 106414
-  - 1
+  - 2
 - print:
   - 雪菲
-  - >-
-    媽媽♪
+  - 媽媽♪
+- wait:
+  - 30
+- print:
+  - 雪菲
+  - >2-
 
     媽～媽～媽～♪
 - touch: *o0
 - focus:
-  - 105911
+  - 105913
 - bust:
-  - 105911
+  - 105913
   - 0
 - vo:
   - vo_adv_1064006_027
 - face:
-  - 105911
-  - 1
+  - 105913
+  - 6
 - print:
   - 可可蘿
-  - >-
-    哦，好乖好乖。
+  - 哦，
+- wait:
+  - 25
+- print:
+  - 可可蘿
+  - 好乖好乖。
+- wait:
+  - 45
+- print:
+  - 可可蘿
+  - >2
 
-    好久沒碰到雪菲大人這個樣子了。
+- face:
+  - 105913
+  - 2
+- print:
+  - 可可蘿
+  - 好久沒碰到
+- wait:
+  - 30
+- print:
+  - 可可蘿
+  - 雪菲小姐這個樣子了。
 - touch: *o0
 - choice:
   - 要怎麼做才能恢復原狀呢……？
@@ -636,45 +1173,116 @@
 - face:
   - 106414
   - 1
+- emotion:
+  - question1_R
+  - 106414
+  - 120
+  - 395
+  - se_adv_emote_question_01
 - print:
   - 雪菲
   - 呢～？
 - touch: *o0
 - focus:
-  - 105911
+  - 105913
 - bust:
-  - 105911
+  - 105913
   - 0
 - vo:
   - vo_adv_1064006_029
 - face:
-  - 105911
+  - 105913
+  - 6
+- print:
+  - 可可蘿
+  - 唔……
+- wait:
+  - 45
+- print:
+  - 可可蘿
+  - 照顧雪菲小姐
+- wait:
+  - 30
+- print:
+  - 可可蘿
+  - 很有意義，
+- wait:
+  - 45
+- print:
+  - 可可蘿
+  - >2-
+
+    在下不禁認為……
+- wait:
+  - 65
+- face:
+  - 105913
   - 1
 - print:
   - 可可蘿
-  - >-
-    唔……照顧雪菲大人很有意義，
-
-    在下不禁認為……不需要太過著急……
+  - 不需要
+- wait:
+  - 30
+- print:
+  - 可可蘿
+  - 太過著急……
 - touch: *o0
 - focus:
-  - 105911
+  - 105913
 - bust:
-  - 105911
+  - 105913
   - 0
 - vo:
   - vo_adv_1064006_030
 - face:
-  - 105911
+  - 105913
   - 1
+- eye_open:
+  - False
 - print:
   - 可可蘿
-  - >-
-    這個嘛……若有什麼萬一，可以再找似似花大人商量。
+  - 這個嘛……
+- wait:
+  - 70
+- eye_open:
+  - True
+- print:
+  - 可可蘿
+  - 若有什麼萬一，
+- wait:
+  - 20
+- print:
+  - 可可蘿
+  - 可以再找似似花小姐商量。
+- wait:
+  - 70
+- print:
+  - 可可蘿
+  - >2
 
-    暫時先過一夜觀察看看，
+- face:
+  - 105913
+  - 6
+- print:
+  - 可可蘿
+  - 暫且就
+- wait:
+  - 25
+- print:
+  - 可可蘿
+  - 等睡一覺起來，
+- wait:
+  - 35
+- print:
+  - 可可蘿
+  - >2-
 
-    大家意下如何呢？
+    再觀察看看，
+- wait:
+  - 35
+- print:
+  - 可可蘿
+  - 您意下如何呢？
 - touch: *o0
 - focus:
   - 106414
@@ -686,12 +1294,18 @@
 - face:
   - 106414
   - 1
+- emotion:
+  - question1_R
+  - 106414
+  - 120
+  - 395
+  - se_adv_emote_question_01
 - print:
   - 雪菲
   - 碎覺～？
 - touch: *o0
 - choice:
-  - 妳看起來一點都不睏呀……
+  - 不過她看起來一點都不睏……
   - 12
 - tag:
   - 12
@@ -704,7 +1318,11 @@
   - vo_adv_1064006_032
 - face:
   - 106414
-  - 1
+  - 2
+- pop:
+  - 106414
+- se:
+  - se_adv_rabbit_jump_01
 - print:
   - 雪菲
   - 不睏～！
@@ -725,14 +1343,34 @@
   - vo_adv_1064006_033
 - face:
   - 106414
-  - 1
+  - 2
+- emotion:
+  - note1_L
+  - 106414
+  - -95
+  - 415
+  - se_adv_emote_note_01
 - print:
   - 雪菲
-  - >-
-    哇～♪
+  - 哇～♪
+- wait:
+  - 25
+- print:
+  - 雪菲
+  - >2-
 
     要玩～♪
 - touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 50
+- change_window:
+  - 3
+- window_visible:
+  - true
+- se:
+  - se_adv_body_pull_01
 - focus:
   - 190911
 - bust:
@@ -742,17 +1380,21 @@
   - vo_adv_1064006_034
 - face:
   - 190911
-  - 1
+  - 3
 - print:
   - 涅比亞
   - 呀啊啊～！！！
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
+- text_size:
+  - 23
+- change_window:
+  - 1
 - fadeout_all:
   - 30
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 0
 - bust:
@@ -763,13 +1405,19 @@
   - 1
 - print:
   - 旁白
-  - >-
-    {0}和可可蘿
+  - '{0}和可可蘿'
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
 
     決定陪雪菲玩到她睏為止。
+- wait:
+  - 30
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
 - white_out:
   - 1
   - 1
@@ -778,12 +1426,17 @@
   - 255
   - 255
 - still:
-  - 106800201
+  - 106400601
+- se:
+  - se_adv_hug_01
 - wait:
   - 15
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
 - white_in: *o0
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 106414
 - bust:
@@ -793,11 +1446,15 @@
   - vo_adv_1064006_035
 - face:
   - 106414
-  - 1
+  - 2
 - print:
   - 雪菲
-  - >-
-    葛～格♪
+  - 葛～格♪
+- wait:
+  - 20
+- print:
+  - 雪菲
+  - >2-
 
     葛～格♪
 - touch: *o0
@@ -805,46 +1462,54 @@
   - 106414
 - bust:
   - 106414
-  - 0
+  - 1
 - vo:
   - vo_adv_1064006_036
 - face:
   - 106414
-  - 1
+  - 2
 - print:
   - 雪菲
-  - >-
-    最～喜歡葛～格了～♪
-
-    抱抱～～～～♪♪♪
-- touch: *o0
-- focus:
-  - 0
-- bust:
-  - 0
-  - 0
-- face:
-  - 0
-  - 1
+  - 最～喜歡
+- wait:
+  - 30
 - print:
-  - 旁白
-  - >-
-    …………
+  - 雪菲
+  - 葛～格了～♪
+- wait:
+  - 35
+- print:
+  - 雪菲
+  - >2
 
-    ……
+- se:
+  - se_adv_hug_02
+- print:
+  - 雪菲
+  - 抱抱～～～～♪♪♪
 - touch: *o0
+- bgm:
+  - stop
+  - 5
 - window_visible:
-  - FALSE
+  - false
 - white_out:
   - 1
   - 1
+- se_pause:
+  - amb_adv_room_noise_day_01
+  - 2
 - background:
   - 500361
 - still:
   - end
+- effect_delete:
+  - 0022
 - wait:
   - 15
 - white_in: *o0
+- se:
+  - amb_adv_room_noise_01
 - focus:
   - 0
 - bust:
@@ -858,16 +1523,21 @@
   - ──隔天早上──
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
 - chara_full:
   - 106412
   - C
-  - 1
+  - 4
 - fadein:
   - 106412
   - 30
 - window_visible:
-  - TRUE
+  - true
+- bgm:
+  - bgm_M11_02_Edit_03
+  - 0
+  - 0
+  - 1
 - focus:
   - 106412
 - bust:
@@ -877,7 +1547,9 @@
   - vo_adv_1064006_037
 - face:
   - 106412
-  - 1
+  - 4
+- se:
+  - se_adv_cloth_move_normal_01
 - print:
   - 雪菲
   - ……………………
@@ -891,59 +1563,74 @@
   - vo_adv_1064006_038
 - face:
   - 106412
-  - 1
+  - 4
+- eye_open:
+  - False
+- emotion:
+  - drop1_R
+  - 106412
+  - 65
+  - 585
+  - se_adv_emote_drop_01
 - print:
   - 雪菲
   - >-
     ……
 
-    ……呼啊……
+    ……唉……
 - touch: *o0
 - window_visible:
-  - FALSE
+  - false
 - fadeout:
   - 106412
 - chara_full:
-  - 105911
+  - 105913
   - C
-  - 1
+  - 2
 - fadein:
-  - 105911
+  - 105913
   - 30
 - window_visible:
-  - TRUE
+  - true
 - focus:
-  - 105911
+  - 105913
 - bust:
-  - 105911
+  - 105913
   - 0
 - vo:
   - vo_adv_1064006_039
 - face:
-  - 105911
-  - 1
+  - 105913
+  - 2
 - print:
   - 可可蘿
-  - 雪菲大人，您恢復原狀了呢。
+  - 雪菲小姐，
+- wait:
+  - 35
+- print:
+  - 可可蘿
+  - 您恢復原狀了呢。
 - touch: *o0
 - choice:
-  - 太好了。
+  - 真是太好了。
   - 15
 - tag:
   - 15
 - window_visible:
-  - FALSE
+  - false
 - fadeout:
-  - 105911
+  - 105913
 - chara_full:
   - 106412
   - C
-  - 1
+  - 4
+- se:
+  - se_adv_cloth_move_give_01
 - fadein:
   - 106412
   - 30
 - window_visible:
-  - TRUE
+  - true
 - focus:
   - 106412
 - bust:
@@ -953,7 +1640,7 @@
   - vo_adv_1064006_040
 - face:
   - 106412
-  - 1
+  - 4
 - print:
   - 雪菲
   - >-
@@ -975,13 +1662,24 @@
   - vo_adv_1064006_041
 - face:
   - 106412
-  - 1
+  - 5
+- eye_open:
+  - False
 - print:
   - 雪菲
-  - >-
-    ……太丟人了……
+  - ……太丟人了……
+- wait:
+  - 25
+- print:
+  - 雪菲
+  - >2-
 
     ……太丟人了……
+- wait:
+  - 35
+- print:
+  - 雪菲
+  - >2-
 
     ……太丟人了………………
 - touch: *o0
@@ -994,17 +1692,35 @@
   - vo_adv_1064006_042
 - face:
   - 106412
-  - 1
+  - 5
+- eye_open:
+  - True
+- se:
+  - se_adv_body_shake_off_01
 - print:
   - 雪菲
-  - 啊嗚～！
-- touch: *o0
-- window_visible:
-  - FALSE
-- fadeout:
+  - 啊嗚嗚嗚～！
+- shake:
   - 106412
-  - 30
-- amb_stop:
+- touch: *o0
+- se_effect:
+  - 3
+- se_pause:
+  - amb_adv_room_noise_01
+  - 2
+- window_visible:
+  - false
+- se:
+  - se_adv_bodyfall_03
+- out_R:
+  - 106412
+  - 45
+  - true
+- se_effect:
+  - 0
+- bgm:
+  - stop
+  - 1
   - 1
 - black_out:
   - 1

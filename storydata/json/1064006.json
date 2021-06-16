@@ -3,7 +3,7 @@
     "command": "title",
     "category": 1,
     "args": [
-      "暫定標題"
+      "雪菲 第6話"
     ],
     "number": 0
   },
@@ -11,7 +11,7 @@
     "command": "outline",
     "category": 1,
     "args": [
-      " "
+      "{0}和可可蘿一起照顧變回小嬰兒的雪菲，哄著抱過來撒嬌的雪菲度過了安穩的時光。然而當雪菲隔天恢復正常後，她只感到害羞不已。"
     ],
     "number": 1
   },
@@ -24,12 +24,12 @@
     "number": 5
   },
   {
-    "command": "amb",
+    "command": "se",
     "category": 1,
     "args": [
-      "amb_adv_room_noise_01"
+      "amb_adv_room_noise_day_01"
     ],
-    "number": 51
+    "number": 26
   },
   {
     "command": "bg_pan",
@@ -44,7 +44,7 @@
     "command": "situation",
     "category": 1,
     "args": [
-      "暫定標題"
+      "歡樂時光"
     ],
     "number": 32
   },
@@ -52,7 +52,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -92,6 +92,14 @@
     "number": 6
   },
   {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
     "command": "touch",
     "category": 1,
     "args": [],
@@ -101,7 +109,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -110,36 +118,54 @@
     "category": 1,
     "args": [
       "106414",
-      "RC",
-      "1"
+      "C",
+      "2"
     ],
     "number": 68
   },
   {
-    "command": "chara_full",
+    "command": "se",
     "category": 1,
     "args": [
-      "190911",
-      "LC",
-      "1"
+      "se_adv_cloth_move_give_01"
     ],
-    "number": 68
+    "number": 26
   },
   {
-    "command": "fadein_all",
-    "category": 1,
+    "command": "fadein",
+    "category": 2,
     "args": [
+      "106414",
       "30"
     ],
-    "number": 84
+    "number": 18
+  },
+  {
+    "command": "text_size",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 36
   },
   {
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M323",
+      "0",
+      "0",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -171,9 +197,25 @@
     "category": 1,
     "args": [
       "106414",
-      "1"
+      "2"
     ],
     "number": 3
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "106414"
+    ],
+    "number": 25
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_eating_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -191,6 +233,30 @@
     "number": 10
   },
   {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "false"
+    ],
+    "number": 41
+  },
+  {
+    "command": "change_window",
+    "category": 1,
+    "args": [
+      "3"
+    ],
+    "number": 85
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "true"
+    ],
+    "number": 41
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
@@ -203,7 +269,7 @@
     "category": 1,
     "args": [
       "190911",
-      "0"
+      "1"
     ],
     "number": 50
   },
@@ -220,7 +286,7 @@
     "category": 1,
     "args": [
       "190911",
-      "1"
+      "3"
     ],
     "number": 3
   },
@@ -243,23 +309,40 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
   {
-    "command": "fadeout_all",
+    "command": "text_size",
+    "category": 1,
+    "args": [
+      "23"
+    ],
+    "number": 36
+  },
+  {
+    "command": "change_window",
+    "category": 1,
+    "args": [
+      "1"
+    ],
+    "number": 85
+  },
+  {
+    "command": "fadeout",
     "category": 2,
     "args": [
+      "106414",
       "30"
     ],
-    "number": 45
+    "number": 19
   },
   {
     "command": "chara_full",
     "category": 1,
     "args": [
-      "105911",
+      "105913",
       "C",
       "1"
     ],
@@ -269,7 +352,7 @@
     "command": "fadein",
     "category": 2,
     "args": [
-      "105911",
+      "105913",
       "30"
     ],
     "number": 18
@@ -278,7 +361,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -286,7 +369,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "105911"
+      "105913"
     ],
     "number": 4
   },
@@ -294,7 +377,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "105911",
+      "105913",
       "0"
     ],
     "number": 50
@@ -311,7 +394,7 @@
     "command": "face",
     "category": 1,
     "args": [
-      "105911",
+      "105913",
       "1"
     ],
     "number": 3
@@ -321,7 +404,93 @@
     "category": 1,
     "args": [
       "可可蘿",
-      "唔\u2026\u2026過了整整一天，\n雪菲小姐還是沒有恢復原狀呢。\n魔物料理對她造成這麼大的衝擊嗎\u2026\u2026"
+      "唔\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "過了整整一天，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "\n雪菲小姐還是沒有恢復原狀呢。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "60"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105913",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "魔物料理"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "對她造成這麼大的衝擊嗎\u2026\u2026"
     ],
     "number": 6
   },
@@ -352,7 +521,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -360,7 +529,7 @@
     "command": "fadeout",
     "category": 2,
     "args": [
-      "105911",
+      "105913",
       "30"
     ],
     "number": 19
@@ -370,34 +539,25 @@
     "category": 1,
     "args": [
       "106414",
-      "RC",
-      "1"
+      "C",
+      "2"
     ],
     "number": 68
   },
   {
-    "command": "chara_full",
-    "category": 1,
+    "command": "fadein",
+    "category": 2,
     "args": [
-      "190911",
-      "LC",
-      "1"
-    ],
-    "number": 68
-  },
-  {
-    "command": "fadein_all",
-    "category": 1,
-    "args": [
+      "106414",
       "30"
     ],
-    "number": 84
+    "number": 18
   },
   {
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -431,9 +591,21 @@
     "category": 1,
     "args": [
       "106414",
-      "1"
+      "2"
     ],
     "number": 3
+  },
+  {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "note1_L",
+      "106414",
+      "-95",
+      "415",
+      "se_adv_emote_note_01"
+    ],
+    "number": 59
   },
   {
     "command": "print",
@@ -463,7 +635,7 @@
     "category": 1,
     "args": [
       "190911",
-      "0"
+      "1"
     ],
     "number": 50
   },
@@ -480,7 +652,7 @@
     "category": 1,
     "args": [
       "190911",
-      "1"
+      "3"
     ],
     "number": 3
   },
@@ -489,7 +661,75 @@
     "category": 1,
     "args": [
       "涅比亞",
-      "喂！\n別在那裡冷靜分析了，快來救我呀！\n她在吃我耶？看見了沒！？"
+      "喂！"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "涅比亞",
+      "\n別在那裡冷靜分析了，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "涅比亞",
+      "快來救我呀！"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "涅比亞",
+      "\n她在吃我耶？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "涅比亞",
+      "看見了沒！？"
     ],
     "number": 6
   },
@@ -546,7 +786,7 @@
     "category": 1,
     "args": [
       "106414",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -555,7 +795,24 @@
     "category": 1,
     "args": [
       "雪菲",
-      "涅比、涅比～\u266A"
+      "涅比、"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "涅比～\u266A"
     ],
     "number": 6
   },
@@ -564,6 +821,50 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "false"
+    ],
+    "number": 41
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_body_pull_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "shake_loop",
+    "category": 1,
+    "args": [],
+    "number": 76
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "shake_delete",
+    "category": 1,
+    "args": [],
+    "number": 77
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "true"
+    ],
+    "number": 41
   },
   {
     "command": "focus",
@@ -578,7 +879,7 @@
     "category": 1,
     "args": [
       "190911",
-      "0"
+      "1"
     ],
     "number": 50
   },
@@ -595,7 +896,7 @@
     "category": 1,
     "args": [
       "190911",
-      "1"
+      "3"
     ],
     "number": 3
   },
@@ -604,7 +905,41 @@
     "category": 1,
     "args": [
       "涅比亞",
-      "嗚啊啊啊！！\n我、我的翅膀要斷了～！？！？"
+      "嗚啊啊啊！！"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "涅比亞",
+      "\n我、"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "涅比亞",
+      "我的翅膀要斷了～！？！？"
     ],
     "number": 6
   },
@@ -644,7 +979,7 @@
     "category": 1,
     "args": [
       "106414",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -653,7 +988,24 @@
     "category": 1,
     "args": [
       "雪菲",
-      "嘿嘿嘿，抱抱～～～\u266A"
+      "嘿嘿嘿，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "抱抱～～～\u266A"
     ],
     "number": 6
   },
@@ -662,6 +1014,50 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "false"
+    ],
+    "number": 41
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_body_hand_creak_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "shake_loop",
+    "category": 1,
+    "args": [],
+    "number": 76
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "shake_delete",
+    "category": 1,
+    "args": [],
+    "number": 77
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "true"
+    ],
+    "number": 41
   },
   {
     "command": "focus",
@@ -676,7 +1072,7 @@
     "category": 1,
     "args": [
       "190911",
-      "0"
+      "1"
     ],
     "number": 50
   },
@@ -693,7 +1089,7 @@
     "category": 1,
     "args": [
       "190911",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -702,7 +1098,110 @@
     "category": 1,
     "args": [
       "涅比亞",
-      "慢著\u2026\u2026脖子被勒住\u2026\u2026\n呃\u2026\u2026唔、好難受\u2026\u2026\u2026\u2026"
+      "慢著\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "涅比亞",
+      "脖子"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "涅比亞",
+      "被勒住\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "涅比亞",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "190911",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "涅比亞",
+      "呃\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "10"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "涅比亞",
+      "唔、"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "涅比亞",
+      "好難受\u2026\u2026\u2026\u2026"
     ],
     "number": 6
   },
@@ -725,7 +1224,7 @@
     "category": 1,
     "args": [
       "190911",
-      "0"
+      "1"
     ],
     "number": 50
   },
@@ -742,9 +1241,17 @@
     "category": 1,
     "args": [
       "190911",
-      "1"
+      "4"
     ],
     "number": 3
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_cloth_move_hard_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -796,11 +1303,74 @@
     "number": 3
   },
   {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "question1_R",
+      "106414",
+      "120",
+      "395",
+      "se_adv_emote_question_01"
+    ],
+    "number": 59
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
       "雪菲",
-      "\u2026\u2026？\n噗啦～？涅比～？\n噗啦噗啦～？"
+      "\u2026\u2026？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n噗啦～？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "涅比～？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n噗啦噗啦～？"
     ],
     "number": 6
   },
@@ -845,11 +1415,79 @@
     "number": 3
   },
   {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "106414"
+    ],
+    "number": 25
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_stepadd_cloth_norm_01_move_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
       "雪菲",
-      "\u2026\u2026！\n雪菲，贏了～\u266A"
+      "\u2026\u2026！"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "106414",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "雪菲，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "贏了～\u266A"
     ],
     "number": 6
   },
@@ -860,20 +1498,39 @@
     "number": 10
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "3",
+      "1"
+    ],
+    "number": 9
+  },
+  {
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
   {
-    "command": "fadeout_all",
+    "command": "fadeout",
     "category": 2,
     "args": [
+      "106414",
       "30"
     ],
-    "number": 45
+    "number": 19
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_step_wood_run_come_01"
+    ],
+    "number": 26
   },
   {
     "command": "white_out",
@@ -898,7 +1555,7 @@
     "command": "still",
     "category": 1,
     "args": [
-      "106800201"
+      "106400601"
     ],
     "number": 49
   },
@@ -911,6 +1568,23 @@
     "number": 13
   },
   {
+    "command": "effect",
+    "category": 3,
+    "args": [
+      "0022",
+      "se_adv_happy_particle_01"
+    ],
+    "number": 54
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_blanket_move_02"
+    ],
+    "number": 26
+  },
+  {
     "command": "white_in",
     "category": 1,
     "args": [],
@@ -920,9 +1594,17 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M52"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -954,7 +1636,7 @@
     "category": 1,
     "args": [
       "106414",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -963,7 +1645,58 @@
     "category": 1,
     "args": [
       "雪菲",
-      "葛格～～！\n抱抱！"
+      "葛格"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "～～！"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_hug_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "抱抱！"
     ],
     "number": 6
   },
@@ -1020,9 +1753,17 @@
     "category": 1,
     "args": [
       "106414",
-      "1"
+      "2"
     ],
     "number": 3
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_hug_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -1086,16 +1827,58 @@
     "category": 1,
     "args": [
       "106414",
-      "1"
+      "4"
     ],
     "number": 3
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_cloth_move_give_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
     "category": 1,
     "args": [
       "雪菲",
-      "\u2026\u2026唔\u2026\u2026\n葛格，好膩害\u2026\u2026"
+      "\u2026\u2026唔\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n葛格，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "好膩害\u2026\u2026"
     ],
     "number": 6
   },
@@ -1109,7 +1892,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -1139,6 +1922,14 @@
     "number": 49
   },
   {
+    "command": "effect_delete",
+    "category": 3,
+    "args": [
+      "0022"
+    ],
+    "number": 55
+  },
+  {
     "command": "wait",
     "category": 1,
     "args": [
@@ -1156,35 +1947,26 @@
     "command": "chara_full",
     "category": 1,
     "args": [
-      "106414",
-      "RC",
+      "105913",
+      "C",
       "1"
     ],
     "number": 68
   },
   {
-    "command": "chara_full",
-    "category": 1,
+    "command": "fadein",
+    "category": 2,
     "args": [
-      "105911",
-      "LC",
-      "1"
-    ],
-    "number": 68
-  },
-  {
-    "command": "fadein_all",
-    "category": 1,
-    "args": [
+      "105913",
       "30"
     ],
-    "number": 84
+    "number": 18
   },
   {
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -1192,7 +1974,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "105911"
+      "105913"
     ],
     "number": 4
   },
@@ -1200,7 +1982,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "105911",
+      "105913",
       "0"
     ],
     "number": 50
@@ -1217,7 +1999,7 @@
     "command": "face",
     "category": 1,
     "args": [
-      "105911",
+      "105913",
       "1"
     ],
     "number": 3
@@ -1227,7 +2009,93 @@
     "category": 1,
     "args": [
       "可可蘿",
-      "看起來\u2026\u2026她是想跟您比力氣呢。\n贏過涅比亞大人，\n接下來就要和主人您一較高下\u2026\u2026應該是這麼一回事吧。"
+      "看起來\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "她是想跟您比力氣呢。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "70"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105913",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "贏過涅比亞大人，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "\n接下來就要和主人您一較高下\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "60"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "應該是這麼一回事吧。"
     ],
     "number": 6
   },
@@ -1236,6 +2104,85 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "false"
+    ],
+    "number": 41
+  },
+  {
+    "command": "fadeout",
+    "category": 2,
+    "args": [
+      "105913",
+      "30"
+    ],
+    "number": 19
+  },
+  {
+    "command": "chara_full",
+    "category": 1,
+    "args": [
+      "105913",
+      "LC",
+      "1"
+    ],
+    "number": 68
+  },
+  {
+    "command": "chara_full",
+    "category": 1,
+    "args": [
+      "106414",
+      "R",
+      "2"
+    ],
+    "number": 68
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_step_wood_run_come_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "change",
+    "category": 2,
+    "args": [
+      "RC",
+      "R",
+      "30"
+    ],
+    "number": 44
+  },
+  {
+    "command": "fadein_all",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 84
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "true"
+    ],
+    "number": 41
   },
   {
     "command": "focus",
@@ -1267,9 +2214,21 @@
     "category": 1,
     "args": [
       "106414",
-      "1"
+      "2"
     ],
     "number": 3
+  },
+  {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "note1_L",
+      "106414",
+      "-95",
+      "415",
+      "se_adv_emote_note_01"
+    ],
+    "number": 59
   },
   {
     "command": "print",
@@ -1333,7 +2292,7 @@
     "category": 1,
     "args": [
       "106414",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -1353,10 +2312,58 @@
     "number": 10
   },
   {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "false"
+    ],
+    "number": 41
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
-      "105911"
+      "105913:106414"
+    ],
+    "number": 4
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_hug_02"
+    ],
+    "number": 26
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "106414"
+    ],
+    "number": 25
+  },
+  {
+    "command": "shake",
+    "category": 2,
+    "args": [
+      "105913"
+    ],
+    "number": 23
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "true"
+    ],
+    "number": 41
+  },
+  {
+    "command": "focus",
+    "category": 1,
+    "args": [
+      "105913"
     ],
     "number": 4
   },
@@ -1364,7 +2371,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "105911",
+      "105913",
       "0"
     ],
     "number": 50
@@ -1381,8 +2388,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "105911",
-      "1"
+      "105913",
+      "2"
     ],
     "number": 3
   },
@@ -1391,7 +2398,41 @@
     "category": 1,
     "args": [
       "可可蘿",
-      "呵呵。\n抱抱～"
+      "呵呵。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "\n抱抱～"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "如此這般。"
     ],
     "number": 6
   },
@@ -1400,6 +2441,54 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_hug_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "false"
+    ],
+    "number": 41
+  },
+  {
+    "command": "focus",
+    "category": 1,
+    "args": [
+      "105913:106414"
+    ],
+    "number": 4
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "105913"
+    ],
+    "number": 25
+  },
+  {
+    "command": "shake",
+    "category": 2,
+    "args": [
+      "106414"
+    ],
+    "number": 23
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "true"
+    ],
+    "number": 41
   },
   {
     "command": "focus",
@@ -1436,11 +2525,71 @@
     "number": 3
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_tickle_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
       "雪菲",
-      "\u2026\u2026？\n哈、哈哈哈～\u266A"
+      "\u2026\u2026？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "106414",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "哈、"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "哈哈哈～\u266A"
     ],
     "number": 6
   },
@@ -1471,7 +2620,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "105911"
+      "105913"
     ],
     "number": 4
   },
@@ -1479,7 +2628,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "105911",
+      "105913",
       "0"
     ],
     "number": 50
@@ -1496,8 +2645,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "105911",
-      "1"
+      "105913",
+      "2"
     ],
     "number": 3
   },
@@ -1506,7 +2655,41 @@
     "category": 1,
     "args": [
       "可可蘿",
-      "呵呵\u2026\u2026\n雪菲大人很怕被搔尾巴根部呢。"
+      "呵呵\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "\n雪菲小姐"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "很怕被搔尾巴根部呢。"
     ],
     "number": 6
   },
@@ -1543,6 +2726,73 @@
     "number": 7
   },
   {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "false"
+    ],
+    "number": 41
+  },
+  {
+    "command": "fadeout_all",
+    "category": 2,
+    "args": [
+      "30"
+    ],
+    "number": 45
+  },
+  {
+    "command": "chara_full",
+    "category": 1,
+    "args": [
+      "106414",
+      "C",
+      "2"
+    ],
+    "number": 68
+  },
+  {
+    "command": "fadein",
+    "category": 2,
+    "args": [
+      "106414",
+      "30"
+    ],
+    "number": 18
+  },
+  {
+    "command": "focus",
+    "category": 1,
+    "args": [
+      "106414"
+    ],
+    "number": 4
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_tickle_02"
+    ],
+    "number": 26
+  },
+  {
+    "command": "shake",
+    "category": 2,
+    "args": [
+      "106414"
+    ],
+    "number": 23
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "true"
+    ],
+    "number": 41
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
@@ -1577,11 +2827,58 @@
     "number": 3
   },
   {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "surprise1_L",
+      "106414",
+      "160",
+      "450",
+      "se_adv_emote_common_01"
+    ],
+    "number": 59
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
       "雪菲",
-      "！？\n呀～\u266A"
+      "！？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "106414",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "呀～\u266A"
     ],
     "number": 6
   },
@@ -1607,6 +2904,55 @@
       "8"
     ],
     "number": 7
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "false"
+    ],
+    "number": 41
+  },
+  {
+    "command": "focus",
+    "category": 1,
+    "args": [
+      "106414"
+    ],
+    "number": 4
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "106414",
+      "1"
+    ],
+    "number": 3
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_tickle_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "shake",
+    "category": 2,
+    "args": [
+      "106414"
+    ],
+    "number": 23
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "true"
+    ],
+    "number": 41
   },
   {
     "command": "focus",
@@ -1638,7 +2984,7 @@
     "category": 1,
     "args": [
       "106414",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -1647,7 +2993,41 @@
     "category": 1,
     "args": [
       "雪菲",
-      "哈、哈哈哈哈，葛～格～\u266A"
+      "哈、"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "哈哈哈哈，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "葛～格～\u266A"
     ],
     "number": 6
   },
@@ -1673,6 +3053,104 @@
       "9"
     ],
     "number": 7
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "false"
+    ],
+    "number": 41
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_body_shake_off_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "fadeout",
+    "category": 2,
+    "args": [
+      "106414",
+      "30"
+    ],
+    "number": 19
+  },
+  {
+    "command": "bg_pan",
+    "category": 1,
+    "args": [
+      "0",
+      "100",
+      "15"
+    ],
+    "number": 86
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_body_carry_back_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "bg_pan",
+    "category": 1,
+    "args": [
+      "100",
+      "0",
+      "15"
+    ],
+    "number": 86
+  },
+  {
+    "command": "chara_full",
+    "category": 1,
+    "args": [
+      "106414",
+      "C",
+      "2"
+    ],
+    "number": 68
+  },
+  {
+    "command": "scale",
+    "category": 2,
+    "args": [
+      "106414",
+      "1.3",
+      "2"
+    ],
+    "number": 39
+  },
+  {
+    "command": "fadein",
+    "category": 2,
+    "args": [
+      "106414",
+      "30"
+    ],
+    "number": 18
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "true"
+    ],
+    "number": 41
   },
   {
     "command": "focus",
@@ -1704,16 +3182,62 @@
     "category": 1,
     "args": [
       "106414",
-      "1"
+      "2"
     ],
     "number": 3
+  },
+  {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "note1_L",
+      "106414",
+      "-115",
+      "410",
+      "se_adv_emote_note_01"
+    ],
+    "number": 59
   },
   {
     "command": "print",
     "category": 1,
     "args": [
       "雪菲",
-      "哇～\u266A\n好高、好高～\u266A\n哈哈哈～\u266A"
+      "哇～\u266A"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n好高、好高～\u266A"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n哈哈哈～\u266A"
     ],
     "number": 6
   },
@@ -1724,10 +3248,99 @@
     "number": 10
   },
   {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "false"
+    ],
+    "number": 41
+  },
+  {
+    "command": "fadeout",
+    "category": 2,
+    "args": [
+      "106414",
+      "30"
+    ],
+    "number": 19
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_body_sitdown_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "bg_pan",
+    "category": 1,
+    "args": [
+      "0",
+      "100",
+      "15"
+    ],
+    "number": 86
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "bg_pan",
+    "category": 1,
+    "args": [
+      "100",
+      "0",
+      "15"
+    ],
+    "number": 86
+  },
+  {
+    "command": "chara_full",
+    "category": 1,
+    "args": [
+      "105913",
+      "LC",
+      "1"
+    ],
+    "number": 68
+  },
+  {
+    "command": "chara_full",
+    "category": 1,
+    "args": [
+      "106414",
+      "RC",
+      "2"
+    ],
+    "number": 68
+  },
+  {
+    "command": "fadein_all",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 84
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "true"
+    ],
+    "number": 41
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
-      "105911"
+      "105913"
     ],
     "number": 4
   },
@@ -1735,7 +3348,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "105911",
+      "105913",
       "0"
     ],
     "number": 50
@@ -1752,7 +3365,76 @@
     "command": "face",
     "category": 1,
     "args": [
-      "105911",
+      "105913",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "呵呵。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "\n雪菲小姐"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "很有活力呢。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "70"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105913",
       "1"
     ],
     "number": 3
@@ -1762,7 +3444,50 @@
     "category": 1,
     "args": [
       "可可蘿",
-      "呵呵。\n雪菲大人很有活力呢。\n今天也沒有什麼預定行程\u2026\u2026那就陪您玩一整天吧。"
+      "今天也沒有什麼預定行程\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "60"
+    ],
+    "number": 13
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105913",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "那就"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "陪您玩一整天吧。"
     ],
     "number": 6
   },
@@ -1823,11 +3548,75 @@
     "number": 3
   },
   {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "question1_R",
+      "106414",
+      "120",
+      "395",
+      "se_adv_emote_question_01"
+    ],
+    "number": 59
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
       "雪菲",
-      "媽媽，最強～？\n最強～\u266A"
+      "媽媽，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "最強～？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "106414",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "最強～\u266A"
     ],
     "number": 6
   },
@@ -1867,7 +3656,7 @@
     "category": 1,
     "args": [
       "106414",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -1876,7 +3665,24 @@
     "category": 1,
     "args": [
       "雪菲",
-      "媽媽\u266A\n媽～媽～媽～\u266A"
+      "媽媽\u266A"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n媽～媽～媽～\u266A"
     ],
     "number": 6
   },
@@ -1890,7 +3696,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "105911"
+      "105913"
     ],
     "number": 4
   },
@@ -1898,7 +3704,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "105911",
+      "105913",
       "0"
     ],
     "number": 50
@@ -1915,8 +3721,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "105911",
-      "1"
+      "105913",
+      "6"
     ],
     "number": 3
   },
@@ -1925,7 +3731,76 @@
     "category": 1,
     "args": [
       "可可蘿",
-      "哦，好乖好乖。\n好久沒碰到雪菲大人這個樣子了。"
+      "哦，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "好乖好乖。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105913",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "好久沒碰到"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "雪菲小姐這個樣子了。"
     ],
     "number": 6
   },
@@ -1987,6 +3862,18 @@
     "number": 3
   },
   {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "question1_R",
+      "106414",
+      "120",
+      "395",
+      "se_adv_emote_question_01"
+    ],
+    "number": 59
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -2005,7 +3892,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "105911"
+      "105913"
     ],
     "number": 4
   },
@@ -2013,7 +3900,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "105911",
+      "105913",
       "0"
     ],
     "number": 50
@@ -2030,7 +3917,84 @@
     "command": "face",
     "category": 1,
     "args": [
-      "105911",
+      "105913",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "唔\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "照顧雪菲小姐"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "很有意義，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "\n在下不禁認為\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "65"
+    ],
+    "number": 13
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105913",
       "1"
     ],
     "number": 3
@@ -2040,7 +4004,24 @@
     "category": 1,
     "args": [
       "可可蘿",
-      "唔\u2026\u2026照顧雪菲大人很有意義，\n在下不禁認為\u2026\u2026不需要太過著急\u2026\u2026"
+      "不需要"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "太過著急\u2026\u2026"
     ],
     "number": 6
   },
@@ -2054,7 +4035,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "105911"
+      "105913"
     ],
     "number": 4
   },
@@ -2062,7 +4043,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "105911",
+      "105913",
       "0"
     ],
     "number": 50
@@ -2079,8 +4060,93 @@
     "command": "face",
     "category": 1,
     "args": [
-      "105911",
+      "105913",
       "1"
+    ],
+    "number": 3
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "False"
+    ],
+    "number": 56
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "這個嘛\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "70"
+    ],
+    "number": 13
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "True"
+    ],
+    "number": 56
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "若有什麼萬一，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "可以再找似似花小姐商量。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "70"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105913",
+      "6"
     ],
     "number": 3
   },
@@ -2089,7 +4155,58 @@
     "category": 1,
     "args": [
       "可可蘿",
-      "這個嘛\u2026\u2026若有什麼萬一，可以再找似似花大人商量。\n暫時先過一夜觀察看看，\n大家意下如何呢？"
+      "暫且就"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "等睡一覺起來，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "\n再觀察看看，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "您意下如何呢？"
     ],
     "number": 6
   },
@@ -2134,6 +4251,18 @@
     "number": 3
   },
   {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "question1_R",
+      "106414",
+      "120",
+      "395",
+      "se_adv_emote_question_01"
+    ],
+    "number": 59
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -2152,7 +4281,7 @@
     "command": "choice",
     "category": 1,
     "args": [
-      "妳看起來一點都不睏呀\u2026\u2026",
+      "不過她看起來一點都不睏\u2026\u2026",
       "12"
     ],
     "number": 11
@@ -2195,9 +4324,25 @@
     "category": 1,
     "args": [
       "106414",
-      "1"
+      "2"
     ],
     "number": 3
+  },
+  {
+    "command": "pop",
+    "category": 2,
+    "args": [
+      "106414"
+    ],
+    "number": 24
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_rabbit_jump_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -2269,16 +4414,45 @@
     "category": 1,
     "args": [
       "106414",
-      "1"
+      "2"
     ],
     "number": 3
+  },
+  {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "note1_L",
+      "106414",
+      "-95",
+      "415",
+      "se_adv_emote_note_01"
+    ],
+    "number": 59
   },
   {
     "command": "print",
     "category": 1,
     "args": [
       "雪菲",
-      "哇～\u266A\n要玩～\u266A"
+      "哇～\u266A"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n要玩～\u266A"
     ],
     "number": 6
   },
@@ -2287,6 +4461,46 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "false"
+    ],
+    "number": 41
+  },
+  {
+    "command": "text_size",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 36
+  },
+  {
+    "command": "change_window",
+    "category": 1,
+    "args": [
+      "3"
+    ],
+    "number": 85
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "true"
+    ],
+    "number": 41
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_body_pull_01"
+    ],
+    "number": 26
   },
   {
     "command": "focus",
@@ -2318,7 +4532,7 @@
     "category": 1,
     "args": [
       "190911",
-      "1"
+      "3"
     ],
     "number": 3
   },
@@ -2341,9 +4555,25 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
+  },
+  {
+    "command": "text_size",
+    "category": 1,
+    "args": [
+      "23"
+    ],
+    "number": 36
+  },
+  {
+    "command": "change_window",
+    "category": 1,
+    "args": [
+      "1"
+    ],
+    "number": 85
   },
   {
     "command": "fadeout_all",
@@ -2357,7 +4587,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -2392,9 +4622,34 @@
     "category": 1,
     "args": [
       "旁白",
-      "{0}和可可蘿\n決定陪雪菲玩到她睏為止。"
+      "{0}和可可蘿"
     ],
     "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "旁白",
+      "\n決定陪雪菲玩到她睏為止。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
   },
   {
     "command": "touch",
@@ -2406,7 +4661,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -2433,9 +4688,17 @@
     "command": "still",
     "category": 1,
     "args": [
-      "106800201"
+      "106400601"
     ],
     "number": 49
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_hug_01"
+    ],
+    "number": 26
   },
   {
     "command": "wait",
@@ -2444,6 +4707,15 @@
       "15"
     ],
     "number": 13
+  },
+  {
+    "command": "effect",
+    "category": 3,
+    "args": [
+      "0022",
+      "se_adv_happy_particle_01"
+    ],
+    "number": 54
   },
   {
     "command": "white_in",
@@ -2455,7 +4727,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -2489,7 +4761,7 @@
     "category": 1,
     "args": [
       "106414",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -2498,7 +4770,24 @@
     "category": 1,
     "args": [
       "雪菲",
-      "葛～格\u266A\n葛～格\u266A"
+      "葛～格\u266A"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n葛～格\u266A"
     ],
     "number": 6
   },
@@ -2521,7 +4810,7 @@
     "category": 1,
     "args": [
       "106414",
-      "0"
+      "1"
     ],
     "number": 50
   },
@@ -2538,7 +4827,7 @@
     "category": 1,
     "args": [
       "106414",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -2547,48 +4836,58 @@
     "category": 1,
     "args": [
       "雪菲",
-      "最～喜歡葛～格了～\u266A\n抱抱～～～～\u266A\u266A\u266A"
+      "最～喜歡"
     ],
     "number": 6
   },
   {
-    "command": "touch",
-    "category": 1,
-    "args": [],
-    "number": 10
-  },
-  {
-    "command": "focus",
+    "command": "wait",
     "category": 1,
     "args": [
-      "0"
+      "30"
     ],
-    "number": 4
-  },
-  {
-    "command": "bust",
-    "category": 1,
-    "args": [
-      "0",
-      "0"
-    ],
-    "number": 50
-  },
-  {
-    "command": "face",
-    "category": 1,
-    "args": [
-      "0",
-      "1"
-    ],
-    "number": 3
+    "number": 13
   },
   {
     "command": "print",
     "category": 1,
     "args": [
-      "旁白",
-      "\u2026\u2026\u2026\u2026\n\u2026\u2026"
+      "雪菲",
+      "葛～格了～\u266A"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_hug_02"
+    ],
+    "number": 26
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "抱抱～～～～\u266A\u266A\u266A"
     ],
     "number": 6
   },
@@ -2599,10 +4898,19 @@
     "number": 10
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "5"
+    ],
+    "number": 9
+  },
+  {
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -2614,6 +4922,15 @@
       "1"
     ],
     "number": 29
+  },
+  {
+    "command": "se_pause",
+    "category": 1,
+    "args": [
+      "amb_adv_room_noise_day_01",
+      "2"
+    ],
+    "number": 67
   },
   {
     "command": "background",
@@ -2632,6 +4949,14 @@
     "number": 49
   },
   {
+    "command": "effect_delete",
+    "category": 3,
+    "args": [
+      "0022"
+    ],
+    "number": 55
+  },
+  {
     "command": "wait",
     "category": 1,
     "args": [
@@ -2644,6 +4969,14 @@
     "category": 1,
     "args": [],
     "number": 30
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "amb_adv_room_noise_01"
+    ],
+    "number": 26
   },
   {
     "command": "focus",
@@ -2690,7 +5023,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -2700,7 +5033,7 @@
     "args": [
       "106412",
       "C",
-      "1"
+      "4"
     ],
     "number": 68
   },
@@ -2717,9 +5050,20 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M11_02_Edit_03",
+      "0",
+      "0",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -2751,9 +5095,17 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "4"
     ],
     "number": 3
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_cloth_move_normal_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -2800,16 +5152,36 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "4"
     ],
     "number": 3
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "False"
+    ],
+    "number": 56
+  },
+  {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "drop1_R",
+      "106412",
+      "65",
+      "585",
+      "se_adv_emote_drop_01"
+    ],
+    "number": 59
   },
   {
     "command": "print",
     "category": 1,
     "args": [
       "雪菲",
-      "\u2026\u2026\n\u2026\u2026呼啊\u2026\u2026"
+      "\u2026\u2026\n\u2026\u2026唉\u2026\u2026"
     ],
     "number": 6
   },
@@ -2823,7 +5195,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -2839,9 +5211,9 @@
     "command": "chara_full",
     "category": 1,
     "args": [
-      "105911",
+      "105913",
       "C",
-      "1"
+      "2"
     ],
     "number": 68
   },
@@ -2849,7 +5221,7 @@
     "command": "fadein",
     "category": 2,
     "args": [
-      "105911",
+      "105913",
       "30"
     ],
     "number": 18
@@ -2858,7 +5230,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -2866,7 +5238,7 @@
     "command": "focus",
     "category": 1,
     "args": [
-      "105911"
+      "105913"
     ],
     "number": 4
   },
@@ -2874,7 +5246,7 @@
     "command": "bust",
     "category": 1,
     "args": [
-      "105911",
+      "105913",
       "0"
     ],
     "number": 50
@@ -2891,8 +5263,8 @@
     "command": "face",
     "category": 1,
     "args": [
-      "105911",
-      "1"
+      "105913",
+      "2"
     ],
     "number": 3
   },
@@ -2901,7 +5273,24 @@
     "category": 1,
     "args": [
       "可可蘿",
-      "雪菲大人，您恢復原狀了呢。"
+      "雪菲小姐，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "可可蘿",
+      "您恢復原狀了呢。"
     ],
     "number": 6
   },
@@ -2915,7 +5304,7 @@
     "command": "choice",
     "category": 1,
     "args": [
-      "太好了。",
+      "真是太好了。",
       "15"
     ],
     "number": 11
@@ -2932,7 +5321,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -2940,7 +5329,7 @@
     "command": "fadeout",
     "category": 2,
     "args": [
-      "105911"
+      "105913"
     ],
     "number": 19
   },
@@ -2950,9 +5339,17 @@
     "args": [
       "106412",
       "C",
-      "1"
+      "4"
     ],
     "number": 68
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_cloth_move_give_01"
+    ],
+    "number": 26
   },
   {
     "command": "fadein",
@@ -2967,7 +5364,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -3001,7 +5398,7 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -3067,16 +5464,58 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "5"
     ],
     "number": 3
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "False"
+    ],
+    "number": 56
   },
   {
     "command": "print",
     "category": 1,
     "args": [
       "雪菲",
-      "\u2026\u2026太丟人了\u2026\u2026\n\u2026\u2026太丟人了\u2026\u2026\n\u2026\u2026太丟人了\u2026\u2026\u2026\u2026\u2026\u2026"
+      "\u2026\u2026太丟人了\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n\u2026\u2026太丟人了\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n\u2026\u2026太丟人了\u2026\u2026\u2026\u2026\u2026\u2026"
     ],
     "number": 6
   },
@@ -3116,18 +5555,42 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "5"
     ],
     "number": 3
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "True"
+    ],
+    "number": 56
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_body_shake_off_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
     "category": 1,
     "args": [
       "雪菲",
-      "啊嗚～！"
+      "啊嗚嗚嗚～！"
     ],
     "number": 6
+  },
+  {
+    "command": "shake",
+    "category": 2,
+    "args": [
+      "106412"
+    ],
+    "number": 23
   },
   {
     "command": "touch",
@@ -3136,29 +5599,65 @@
     "number": 10
   },
   {
+    "command": "se_effect",
+    "category": 1,
+    "args": [
+      "3"
+    ],
+    "number": 91
+  },
+  {
+    "command": "se_pause",
+    "category": 1,
+    "args": [
+      "amb_adv_room_noise_01",
+      "2"
+    ],
+    "number": 67
+  },
+  {
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
   {
-    "command": "fadeout",
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_bodyfall_03"
+    ],
+    "number": 26
+  },
+  {
+    "command": "out_R",
     "category": 2,
     "args": [
       "106412",
-      "30"
+      "45",
+      "true"
     ],
-    "number": 19
+    "number": 17
   },
   {
-    "command": "amb_stop",
+    "command": "se_effect",
     "category": 1,
     "args": [
+      "0"
+    ],
+    "number": 91
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "1",
       "1"
     ],
-    "number": 61
+    "number": 9
   },
   {
     "command": "black_out",

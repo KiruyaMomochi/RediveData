@@ -3,7 +3,7 @@
     "command": "title",
     "category": 1,
     "args": [
-      "暫定標題"
+      "雪菲 第2話"
     ],
     "number": 0
   },
@@ -11,7 +11,7 @@
     "command": "outline",
     "category": 1,
     "args": [
-      " "
+      "造訪王宮時，雪菲害怕自己在失憶前會是大家的敵人\u2026\u2026為了消除這份不安，繼續待在大家身邊，雪菲希望{0}能幫她一起尋找記憶。"
     ],
     "number": 1
   },
@@ -27,7 +27,7 @@
     "command": "amb",
     "category": 1,
     "args": [
-      "amb_adv_outdoors_day_01"
+      "amb_adv_wind_01"
     ],
     "number": 51
   },
@@ -44,7 +44,7 @@
     "command": "situation",
     "category": 1,
     "args": [
-      "暫定標題"
+      "困惑的龍人少女"
     ],
     "number": 32
   },
@@ -52,7 +52,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -87,9 +87,34 @@
     "category": 1,
     "args": [
       "旁白",
-      "這一天，雪菲和{0}\n為了尋找記憶的線索，到街上四處走走。"
+      "這一天，雪菲和{0}"
     ],
     "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "旁白",
+      "\n為了尋找記憶的線索，到街上四處走走。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
   },
   {
     "command": "touch",
@@ -101,7 +126,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -111,9 +136,17 @@
     "args": [
       "106412",
       "C",
-      "1"
+      "6"
     ],
     "number": 68
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_step_concrete_move_01"
+    ],
+    "number": 26
   },
   {
     "command": "fadein",
@@ -128,9 +161,20 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M129_Short",
+      "0",
+      "0",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -162,7 +206,7 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -171,7 +215,24 @@
     "category": 1,
     "args": [
       "雪菲",
-      "\u2026\u2026前面是王宮\u2026\u2026"
+      "\u2026\u2026前面就是、"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "王宮\u2026\u2026"
     ],
     "number": 6
   },
@@ -211,7 +272,7 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -220,7 +281,67 @@
     "category": 1,
     "args": [
       "雪菲",
-      "不過\u2026\u2026\n也不能用「想找回記憶」這種理由\n在王宮裡四處走動吧。"
+      "不過\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 13
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "106412",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "再怎麼樣，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "10"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n也不可能用「想找回記憶」這種理由，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "55"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n跑進王宮裡四處走動吧。"
     ],
     "number": 6
   },
@@ -277,6 +398,100 @@
     "category": 1,
     "args": [
       "106412",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "False"
+    ],
+    "number": 56
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "不了\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "True"
+    ],
+    "number": 56
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "雖然貪吃佩可小姐"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "應該會很爽快地答應\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "70"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "106412",
       "1"
     ],
     "number": 3
@@ -286,7 +501,24 @@
     "category": 1,
     "args": [
       "雪菲",
-      "不了\u2026\u2026\n雖然貪吃佩可小姐應該會很爽快地答應\u2026\u2026\n但還是算了吧。"
+      "但還是"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "算了吧。"
     ],
     "number": 6
   },
@@ -326,7 +558,109 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "106412"
+    ],
+    "number": 25
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_stepadd_cloth_norm_01_move_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "如果我真的"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "和王宮的人有關聯的話，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "65"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n王宮早就對外"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "發布搜索令了吧。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "70"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "106412",
+      "4"
     ],
     "number": 3
   },
@@ -335,7 +669,7 @@
     "category": 1,
     "args": [
       "雪菲",
-      "如果我真的和王宮的人有關聯的話，\n王宮早就對外發布搜索令了吧。\n況且\u2026\u2026"
+      "況且\u2026\u2026"
     ],
     "number": 6
   },
@@ -375,6 +709,75 @@
     "category": 1,
     "args": [
       "106412",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "我曾經"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "10"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "背負過"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "「暗殺王族未遂」的嫌疑。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "75"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "106412",
       "1"
     ],
     "number": 3
@@ -384,7 +787,24 @@
     "category": 1,
     "args": [
       "雪菲",
-      "我曾經背負過「暗殺王族未遂」的嫌疑。\n雖然已經撤銷通緝了，\n但我也不想引起不必要的騷動。"
+      "雖然已經撤銷通緝了，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n但我也不想引起不必要的騷動。"
     ],
     "number": 6
   },
@@ -393,6 +813,16 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "4",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "choice",
@@ -404,14 +834,6 @@
     "number": 11
   },
   {
-    "command": "tag",
-    "category": 1,
-    "args": [
-      "2"
-    ],
-    "number": 7
-  },
-  {
     "command": "choice",
     "category": 1,
     "args": [
@@ -419,6 +841,14 @@
       "3"
     ],
     "number": 11
+  },
+  {
+    "command": "tag",
+    "category": 1,
+    "args": [
+      "2"
+    ],
+    "number": 7
   },
   {
     "command": "tag",
@@ -458,7 +888,7 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -467,7 +897,119 @@
     "category": 1,
     "args": [
       "雪菲",
-      "嗯\u2026\u2026那個，\n心智變成小孩子的時候\u2026\u2026\n回、回想起了一些。"
+      "嗯\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "55"
+    ],
+    "number": 13
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "106412",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "那個，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M251"
+    ],
+    "number": 9
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "因為我可以想起\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "60"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "106412",
+      "5"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "自、"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "自己變成小嬰兒時候的事。"
     ],
     "number": 6
   },
@@ -512,11 +1054,78 @@
     "number": 3
   },
   {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "106412"
+    ],
+    "number": 25
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_stepadd_cloth_norm_01_move_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
       "雪菲",
-      "所以，我也記得自己在王宮的地牢裡，\n被那個討人厭的貴族當作通緝犯對待的事。"
+      "所以，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "我也記得"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "自己在王宮的地牢裡，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n被那個討人厭的貴族當作通緝犯對待的事。"
     ],
     "number": 6
   },
@@ -556,7 +1165,7 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -565,7 +1174,58 @@
     "category": 1,
     "args": [
       "雪菲",
-      "不過\u2026\u2026我還是不明白\n失去記憶前的自己\n為什麼會盯上那個叫做霸瞳皇帝的人\u2026\u2026"
+      "不過\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "我還是不明白，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "55"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n失去記憶前的自己，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "70"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n為什麼會盯上那個叫做霸瞳皇帝的人\u2026\u2026"
     ],
     "number": 6
   },
@@ -610,11 +1270,113 @@
     "number": 3
   },
   {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "106412"
+    ],
+    "number": 25
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_step_concrete_move_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
       "雪菲",
-      "吶，{0}。\n你們曾經和霸瞳皇帝交戰過吧？\n為什麼呢？"
+      "吶，{0}。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n你們"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "曾經和霸瞳皇帝交戰過吧？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "90"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "106412",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "那是"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "為什麼呢？"
     ],
     "number": 6
   },
@@ -689,7 +1451,93 @@
     "category": 1,
     "args": [
       "雪菲",
-      "\u2026\u2026是呀。\n我常聽人說霸瞳皇帝是個邪惡又殘忍的人。\n就連凱留也被他利用了\u2026\u2026"
+      "\u2026\u2026是呀。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n我常聽人說"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "75"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "霸瞳皇帝是個邪惡又殘忍的人。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "60"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "106412",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "就連凱留"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "也被他利用了\u2026\u2026"
     ],
     "number": 6
   },
@@ -745,7 +1593,7 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "3"
     ],
     "number": 3
   },
@@ -754,7 +1602,84 @@
     "category": 1,
     "args": [
       "雪菲",
-      "不僅奪走貪吃佩可小姐雙親的王族權力，\n還對士兵和貴族進行洗腦，\n消除與貪吃佩可小姐相關的記憶，最後甚至痛下殺手\u2026\u2026"
+      "不僅奪走貪吃佩可小姐雙親的王族權力，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "65"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n還對士兵和貴族進行洗腦，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "80"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n消除與貪吃佩可小姐相關的記憶，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "55"
+    ],
+    "number": 13
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "106412",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "最後"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "甚至痛下殺手\u2026\u2026"
     ],
     "number": 6
   },
@@ -794,6 +1719,75 @@
     "category": 1,
     "args": [
       "106412",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "果然\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "是個"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "十惡不赦的人呢。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "70"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "106412",
       "1"
     ],
     "number": 3
@@ -803,7 +1797,41 @@
     "category": 1,
     "args": [
       "雪菲",
-      "果然\u2026\u2026是個十惡不赦的人呢。\n無論她的目的是什麼，都讓貪吃佩可小姐陷入了殘酷的困境。\n對我來說，他也是個不可饒恕的對象。"
+      "無論他的目的是什麼，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "都讓貪吃佩可小姐陷入了殘酷的困境。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "60"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n對我來說，他也是個不可饒恕的對象。"
     ],
     "number": 6
   },
@@ -851,7 +1879,7 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -860,7 +1888,101 @@
     "category": 1,
     "args": [
       "雪菲",
-      "那麼\u2026\u2026過去的我也是想要打倒壞人嗎？\n如果是這樣的話\u2026\u2026那還有救。"
+      "那麼\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "過去的我"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "也是想要打倒壞人嗎？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "85"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n如果是這樣，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "65"
+    ],
+    "number": 13
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "106412",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "那或許\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "那還有轉圜的餘地。"
     ],
     "number": 6
   },
@@ -874,7 +1996,7 @@
     "command": "choice",
     "category": 1,
     "args": [
-      "是嗎？",
+      "是這樣嗎？",
       "7"
     ],
     "number": 11
@@ -917,16 +2039,100 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "2"
     ],
     "number": 3
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "106412"
+    ],
+    "number": 25
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_stepadd_cloth_norm_01_move_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
     "category": 1,
     "args": [
       "雪菲",
-      "嗯。\n如果這就是原因的話，\n我和{0}你們就是相同的立場了呀。"
+      "嗯。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n如果"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "這就是原因的話，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "60"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n我和{0}你們"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "就是相同的立場了呀。"
     ],
     "number": 6
   },
@@ -966,7 +2172,7 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -1015,7 +2221,7 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -1024,7 +2230,134 @@
     "category": 1,
     "args": [
       "雪菲",
-      "我最害怕的就是\u2026\u2026怜小姐的擔憂成真。\n萬一「失去記憶前的自己」\u2026\u2026是你們的敵人。"
+      "我"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "最害怕的就是\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "55"
+    ],
+    "number": 13
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "False"
+    ],
+    "number": 56
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "怜小姐的"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "擔憂成真。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "65"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "True"
+    ],
+    "number": 56
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "萬一"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "70"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "「失去記憶前的自己」\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "是你們的敵人。"
     ],
     "number": 6
   },
@@ -1081,6 +2414,58 @@
     "category": 1,
     "args": [
       "106412",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "但也不能說"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "完全沒有這種可能性吧？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "106412",
       "1"
     ],
     "number": 3
@@ -1090,7 +2475,58 @@
     "category": 1,
     "args": [
       "雪菲",
-      "但也不說完全沒有這種可能性吧？\n因為「以前的我」會盯上霸瞳皇帝的原因，\n既不是因為他是壞人，也不是因為他是貪吃佩可小姐的敵人\u2026\u2026"
+      "如果"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "「以前的我」會盯上霸瞳皇帝的原因，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "80"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n既不是因為他是壞人，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "55"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "也不是因為他是貪吃佩可小姐的敵人\u2026\u2026"
     ],
     "number": 6
   },
@@ -1130,7 +2566,7 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -1139,7 +2575,75 @@
     "category": 1,
     "args": [
       "雪菲",
-      "\u2026\u2026如果是因為他是「七冠」之一的話。\n這樣\u2026\u2026你那個可麗餅店的好朋友\n也是「以前的我」的敵人。"
+      "\u2026\u2026而是因為"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "他是「七冠」之一的話。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "75"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n這樣\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "你那個可麗餅店的好朋友，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n也是「以前的我」的敵人。"
     ],
     "number": 6
   },
@@ -1179,7 +2683,7 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -1188,7 +2692,58 @@
     "category": 1,
     "args": [
       "雪菲",
-      "\u2026\u2026如果真的是這樣的話\u2026\u2026\n我會是\u2026\u2026{0}的\u2026\u2026"
+      "\u2026\u2026如果"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "真的是這樣的話\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "60"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n我會是\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "{0}的\u2026\u2026"
     ],
     "number": 6
   },
@@ -1228,9 +2783,17 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "4"
     ],
     "number": 3
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "False"
+    ],
+    "number": 56
   },
   {
     "command": "print",
@@ -1277,7 +2840,84 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "True"
+    ],
+    "number": 56
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\u2026\u2026「以前的我」"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "90"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\u2026\u2026到底是"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "怎麼回事呀。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "75"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "106412",
+      "6"
     ],
     "number": 3
   },
@@ -1286,7 +2926,58 @@
     "category": 1,
     "args": [
       "雪菲",
-      "\u2026\u2026「以前的我」\u2026\u2026到底是怎麼回事呀。\n居然會從比那座城堡還要高的\u2026\u2026「索爾之塔」掉下來。\n\u2026\u2026為什麼呢\u2026\u2026？"
+      "居然會從比那座城堡還要高的\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "65"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "「索爾之塔」"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "掉下來。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "80"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n\u2026\u2026為什麼呢\u2026\u2026？"
     ],
     "number": 6
   },
@@ -1352,7 +3043,41 @@
     "category": 1,
     "args": [
       "雪菲",
-      "\u2026\u2026\n雖然貪吃佩可小姐\n應該也會很爽快地答應吧\u2026\u2026"
+      "\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "60"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n雖然貪吃佩可小姐"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n應該也會很爽快地答應吧\u2026\u2026"
     ],
     "number": 6
   },
@@ -1392,7 +3117,7 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -1401,7 +3126,169 @@
     "category": 1,
     "args": [
       "雪菲",
-      "但是\u2026\u2026那座塔裡有很強大的魔物四處徘徊。\n也不能保證那裡一定有找回記憶的線索。\n\u2026\u2026我不希望大家為了我冒生命危險。"
+      "但是\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "那座塔裡"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "有很強大的魔物四處徘徊。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "75"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "False"
+    ],
+    "number": 56
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "也不能保證"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "那裡一定有找回記憶的線索。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "85"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "True"
+    ],
+    "number": 56
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "8"
+    ],
+    "number": 9
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\u2026\u2026我不希望"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "55"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "大家為了我"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "冒生命危險。"
     ],
     "number": 6
   },
@@ -1410,6 +3297,18 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M408",
+      "0",
+      "0",
+      "1",
+      "0.5"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -1450,7 +3349,109 @@
     "category": 1,
     "args": [
       "雪菲",
-      "所以\u2026\u2026我打算暫時先在安全的地方走走看看。\n這座城鎮也很大，\n搞不好城外也會有線索呀。"
+      "所以\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "106412",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "106412"
+    ],
+    "number": 25
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "我打算暫時"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "5"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "先在安全的地方走走看看。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "85"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n這座城鎮也很大，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "65"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n搞不好"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "城外也會有線索呀。"
     ],
     "number": 6
   },
@@ -1512,11 +3513,87 @@
     "number": 3
   },
   {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "False"
+    ],
+    "number": 56
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
       "雪菲",
-      "為了消除這份不安。\n也為了能夠抬頭挺胸地待在大家身邊。"
+      "為了消除"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "這份不安。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "65"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "True"
+    ],
+    "number": 56
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "也為了能夠抬頭挺胸地"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "待在大家身邊。"
     ],
     "number": 6
   },
@@ -1556,7 +3633,7 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -1565,7 +3642,58 @@
     "category": 1,
     "args": [
       "雪菲",
-      "找回我的記憶\u2026\u2026往後你也願意幫助我的話，我會很高興的。\n{0}。"
+      "往後"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "你也願意幫助我\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "75"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "尋找我的記憶的話，我會很高興的。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n{0}。"
     ],
     "number": 6
   },
@@ -1579,7 +3707,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -1593,21 +3721,22 @@
     "number": 19
   },
   {
-    "command": "bg_pan",
-    "category": 1,
-    "args": [
-      "0",
-      "-170"
-    ],
-    "number": 86
-  },
-  {
     "command": "amb_stop",
     "category": 1,
     "args": [
       "1"
     ],
     "number": 61
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "1",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "black_out",

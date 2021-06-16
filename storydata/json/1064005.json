@@ -3,7 +3,7 @@
     "command": "title",
     "category": 1,
     "args": [
-      "暫定標題"
+      "雪菲 第5話"
     ],
     "number": 0
   },
@@ -11,7 +11,7 @@
     "command": "outline",
     "category": 1,
     "args": [
-      " "
+      "雪菲和貪吃佩可一起體驗【美食殿堂】的公會活動。雖然面對餐廳內用蟲跟魔物做成的料理感到十分動搖，雪菲還是努力吃了下去。結果她因此大受打擊再度變回了小嬰兒。"
     ],
     "number": 1
   },
@@ -44,7 +44,7 @@
     "command": "situation",
     "category": 1,
     "args": [
-      "暫定標題"
+      "雪菲的公會活動"
     ],
     "number": 32
   },
@@ -52,7 +52,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -92,6 +92,14 @@
     "number": 6
   },
   {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
     "command": "touch",
     "category": 1,
     "args": [],
@@ -101,7 +109,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -111,7 +119,7 @@
     "args": [
       "106412",
       "RC",
-      "1"
+      "6"
     ],
     "number": 68
   },
@@ -137,9 +145,20 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M31",
+      "0",
+      "0",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -171,7 +190,7 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -180,7 +199,41 @@
     "category": 1,
     "args": [
       "雪菲",
-      "貪吃佩可小姐。\n今天也是由似似花小姐扮演你的替身嗎？"
+      "貪吃佩可小姐。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n今天是由似似花小姐"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "5"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "扮演妳的替身嗎？"
     ],
     "number": 6
   },
@@ -225,11 +278,139 @@
     "number": 3
   },
   {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "105812"
+    ],
+    "number": 25
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_stepadd_cloth_norm_01_move_01"
+    ],
+    "number": 26
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
       "貪吃佩可",
-      "是的\u2606身為公主的職責，我沒有打算要混水摸魚啦\u2026\u2026\n但要是一直坐在那張椅子上，\n我會餓到昏倒的。"
+      "是的\u2606"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105812",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "身為公主的職責，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "我沒有打算要混水摸魚啦\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105812",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "但要是一直坐在那張椅子上，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "\n我會"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "餓到昏倒的。"
     ],
     "number": 6
   },
@@ -249,14 +430,6 @@
     "number": 11
   },
   {
-    "command": "tag",
-    "category": 1,
-    "args": [
-      "1"
-    ],
-    "number": 7
-  },
-  {
     "command": "choice",
     "category": 1,
     "args": [
@@ -269,9 +442,26 @@
     "command": "tag",
     "category": 1,
     "args": [
+      "1"
+    ],
+    "number": 7
+  },
+  {
+    "command": "tag",
+    "category": 1,
+    "args": [
       "2"
     ],
     "number": 7
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105812",
+      "1"
+    ],
+    "number": 3
   },
   {
     "command": "focus",
@@ -303,6 +493,32 @@
     "category": 1,
     "args": [
       "106412",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "原來如此\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "106412",
       "1"
     ],
     "number": 3
@@ -312,7 +528,7 @@
     "category": 1,
     "args": [
       "雪菲",
-      "原來如此\u2026\u2026是這麼一回事啊。"
+      "是這麼一回事啊。"
     ],
     "number": 6
   },
@@ -352,6 +568,66 @@
     "category": 1,
     "args": [
       "105812",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "嘿嘿\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "105812"
+    ],
+    "number": 25
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "就是這樣！"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105812",
       "1"
     ],
     "number": 3
@@ -361,7 +637,76 @@
     "category": 1,
     "args": [
       "貪吃佩可",
-      "嘿嘿\u2026\u2026就是這樣！\n我今天要盡情地從事【美食殿堂】的公會活動！\n小雪菲和{0}，你們也來陪我！"
+      "我今天要盡情地享受"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "【美食殿堂】的公會活動！"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105812",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "小雪菲和{0}，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "你們也來陪我！"
     ],
     "number": 6
   },
@@ -401,7 +746,7 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -410,7 +755,111 @@
     "category": 1,
     "args": [
       "雪菲",
-      "公會活動\u2026\u2026\n妳不嫌棄的話，我很樂意陪同。\n那麼\u2026\u2026我們要去哪裡呢？"
+      "公會活動\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "60"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "106412",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "妳不嫌棄的話，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "我很樂意陪同。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "65"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "106412",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "那麼\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "我們要去哪裡呢？"
     ],
     "number": 6
   },
@@ -421,10 +870,20 @@
     "number": 10
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "2.5",
+      "1"
+    ],
+    "number": 9
+  },
+  {
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -492,12 +951,20 @@
     "number": 75
   },
   {
-    "command": "amb",
+    "command": "se",
     "category": 1,
     "args": [
       "amb_adv_restaurant_01"
     ],
-    "number": 51
+    "number": 26
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_door_shop_open_01"
+    ],
+    "number": 26
   },
   {
     "command": "chara_full",
@@ -505,7 +972,7 @@
     "args": [
       "413",
       "C",
-      "1"
+      "2"
     ],
     "number": 68
   },
@@ -522,9 +989,17 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M37"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -556,16 +1031,66 @@
     "category": 1,
     "args": [
       "413",
-      "1"
+      "2"
     ],
     "number": 3
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "413"
+    ],
+    "number": 25
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_cloth_move_give_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
     "category": 1,
     "args": [
       "服務生",
-      "歡迎光臨！\n幾位是有訂位的客人吧。\n已經恭候各位多時了\u266A"
+      "歡迎光臨！"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "服務生",
+      "\n幾位是有訂位的客人吧。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "服務生",
+      "\n已經恭候各位多時了\u266A"
     ],
     "number": 6
   },
@@ -579,7 +1104,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -598,7 +1123,7 @@
     "args": [
       "106412",
       "RC",
-      "1"
+      "6"
     ],
     "number": 68
   },
@@ -624,7 +1149,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -658,16 +1183,79 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "6"
     ],
     "number": 3
+  },
+  {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "notice1_L",
+      "106412",
+      "-75",
+      "485",
+      "se_adv_emote_common_01"
+    ],
+    "number": 59
   },
   {
     "command": "print",
     "category": 1,
     "args": [
       "雪菲",
-      "真稀奇。\n不是邊走邊吃，也不是吃公會小屋的料理\u2026\u2026\n而是到這麼正式的餐廳用餐。"
+      "真稀奇。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "55"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n不是邊走邊吃，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "也不是吃公會小屋的料理\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n而是到這麼正式的餐廳用餐。"
     ],
     "number": 6
   },
@@ -707,6 +1295,48 @@
     "category": 1,
     "args": [
       "105812",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "105812"
+    ],
+    "number": 25
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_stepadd_cloth_norm_01_move_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "對喔，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105812",
       "1"
     ],
     "number": 3
@@ -716,7 +1346,58 @@
     "category": 1,
     "args": [
       "貪吃佩可",
-      "對喔，這麼說起來，\n小雪菲還是小嬰兒的時候，\n總是在家裡吃飯呢。"
+      "這麼說起來，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "\n小雪菲"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "還是小嬰兒的時候，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "\n總是在家裡吃飯呢。"
     ],
     "number": 6
   },
@@ -756,7 +1437,7 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "5"
     ],
     "number": 3
   },
@@ -765,7 +1446,110 @@
     "category": 1,
     "args": [
       "雪菲",
-      "是\u2026\u2026是呀。\n不過\u2026\u2026現在可以像這樣參與公會活動，\n我很開心。"
+      "是\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "是呀。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "55"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "106412",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "不過\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "現在可以像這樣"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "參與公會活動，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n我很開心。"
     ],
     "number": 6
   },
@@ -822,7 +1606,7 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -831,7 +1615,24 @@
     "category": 1,
     "args": [
       "雪菲",
-      "呵呵\u2026\u2026好呀。"
+      "呵呵\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "好呀。"
     ],
     "number": 6
   },
@@ -845,7 +1646,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -862,17 +1663,43 @@
     "category": 1,
     "args": [
       "413",
-      "C",
-      "1"
+      "RC",
+      "2"
     ],
     "number": 68
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_step_wood_walk_come_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "change",
+    "category": 2,
+    "args": [
+      "C",
+      "RC",
+      "45"
+    ],
+    "number": 44
   },
   {
     "command": "fadein",
     "category": 2,
     "args": [
       "413",
-      "30"
+      "45"
     ],
     "number": 18
   },
@@ -880,7 +1707,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -914,16 +1741,83 @@
     "category": 1,
     "args": [
       "413",
-      "1"
+      "2"
     ],
     "number": 3
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "413"
+    ],
+    "number": 25
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_dish_03"
+    ],
+    "number": 26
   },
   {
     "command": "print",
     "category": 1,
     "args": [
       "服務生",
-      "讓您久等了\u266A\n前菜是糖炒蝗蟲和酥炸蝗蟲\u266A"
+      "讓您久等了\u266A"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "服務生",
+      "\n前菜是"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "服務生",
+      "糖炒蝗蟲和"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "服務生",
+      "酥炸蝗蟲\u266A"
     ],
     "number": 6
   },
@@ -937,7 +1831,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -956,7 +1850,7 @@
     "args": [
       "106412",
       "C",
-      "1"
+      "6"
     ],
     "number": 68
   },
@@ -973,9 +1867,18 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "2.5"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -1007,9 +1910,21 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "6"
     ],
     "number": 3
+  },
+  {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "dots1_R",
+      "106412",
+      "-80",
+      "405",
+      "se_adv_emote_dots_01"
+    ],
+    "number": 59
   },
   {
     "command": "print",
@@ -1056,7 +1971,7 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -1105,7 +2020,7 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -1114,7 +2029,58 @@
     "category": 1,
     "args": [
       "雪菲",
-      "蝗、蝗、蝗\u2026\u2026蟲？"
+      "蝗、"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "蝗、"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "蝗\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "蟲？"
     ],
     "number": 6
   },
@@ -1140,6 +2106,17 @@
       "4"
     ],
     "number": 7
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M51",
+      "0",
+      "0",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -1180,7 +2157,93 @@
     "category": 1,
     "args": [
       "雪菲",
-      "我知道呀。\n不是啊。\n這是蟲耶？怎麼看都是蟲吧？除了蟲以外，還能是什麼？"
+      "我知道呀。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "10"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n不是啊。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "106412",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "這是蟲耶？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "怎麼看都是蟲吧？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "除了蟲以外，還能是什麼？"
     ],
     "number": 6
   },
@@ -1194,7 +2257,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -1213,7 +2276,7 @@
     "args": [
       "106412",
       "RC",
-      "1"
+      "6"
     ],
     "number": 68
   },
@@ -1223,7 +2286,7 @@
     "args": [
       "105812",
       "LC",
-      "1"
+      "2"
     ],
     "number": 68
   },
@@ -1239,7 +2302,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -1273,7 +2336,109 @@
     "category": 1,
     "args": [
       "105812",
-      "1"
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "105812"
+    ],
+    "number": 25
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_eating_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "啊呣\u266A"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "\n嗯～"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "雖然口感有點緊實，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "但很美味呢～\u2606"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105812",
+      "7"
     ],
     "number": 3
   },
@@ -1282,7 +2447,7 @@
     "category": 1,
     "args": [
       "貪吃佩可",
-      "啊呣\u266A\n嗯～雖然口感有點緊實，但很美味呢～\u2606\n都想配白飯吃了呢\u266A"
+      "都想配白飯吃了\u266A"
     ],
     "number": 6
   },
@@ -1322,7 +2487,79 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "sweat2_R",
+      "106412",
+      "85",
+      "460",
+      "se_adv_emote_sweat_02"
+    ],
+    "number": 59
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "等等？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "等一下等一下等一下？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n為什麼貪吃佩可小姐可以若無其事地吃下肚呀？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "106412",
+      "6"
     ],
     "number": 3
   },
@@ -1331,7 +2568,50 @@
     "category": 1,
     "args": [
       "雪菲",
-      "等等？等一下等一下等一下？\n為什麼貪吃佩可小姐可以若無其事地吃下肚呀？還吃得那麼津津有味，\n還開開心心地舀了一整匙的蟲\u2026\u2026！？"
+      "還吃得那麼津津有味，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n還開開心心地"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "106412",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "舀了一整匙的蟲\u2026\u2026！？"
     ],
     "number": 6
   },
@@ -1340,6 +2620,14 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_eating_01"
+    ],
+    "number": 26
   },
   {
     "command": "choice",
@@ -1388,7 +2676,7 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -1397,7 +2685,59 @@
     "category": 1,
     "args": [
       "雪菲",
-      "連{0}也這樣！？\n咦、咦咦咦咦咦\u2026\u2026！？"
+      "連{0}也這樣！？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "106412",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "咦、"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "咦咦咦咦咦\u2026\u2026！？"
     ],
     "number": 6
   },
@@ -1406,6 +2746,75 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "false"
+    ],
+    "number": 41
+  },
+  {
+    "command": "fadeout_all",
+    "category": 2,
+    "args": [
+      "30"
+    ],
+    "number": 45
+  },
+  {
+    "command": "chara_full",
+    "category": 1,
+    "args": [
+      "413",
+      "RC",
+      "1"
+    ],
+    "number": 68
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_step_wood_walk_come_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "change",
+    "category": 2,
+    "args": [
+      "C",
+      "RC",
+      "45"
+    ],
+    "number": 44
+  },
+  {
+    "command": "fadein",
+    "category": 2,
+    "args": [
+      "413",
+      "45"
+    ],
+    "number": 18
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "true"
+    ],
+    "number": 41
   },
   {
     "command": "focus",
@@ -1420,7 +2829,7 @@
     "category": 1,
     "args": [
       "413",
-      "1"
+      "0"
     ],
     "number": 50
   },
@@ -1442,11 +2851,61 @@
     "number": 3
   },
   {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "413"
+    ],
+    "number": 25
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_dish_03"
+    ],
+    "number": 26
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
       "服務生",
-      "讓您久等了\u266A\n史萊姆軟泥怪丼\u266A"
+      "讓您久等了\u266A"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "服務生",
+      "\n史萊姆"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "服務生",
+      "軟泥怪丼飯\u266A"
     ],
     "number": 6
   },
@@ -1455,6 +2914,50 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "false"
+    ],
+    "number": 41
+  },
+  {
+    "command": "fadeout",
+    "category": 2,
+    "args": [
+      "413",
+      "30"
+    ],
+    "number": 19
+  },
+  {
+    "command": "chara_full",
+    "category": 1,
+    "args": [
+      "106412",
+      "C",
+      "6"
+    ],
+    "number": 68
+  },
+  {
+    "command": "fadein",
+    "category": 2,
+    "args": [
+      "106412",
+      "30"
+    ],
+    "number": 18
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "true"
+    ],
+    "number": 41
   },
   {
     "command": "focus",
@@ -1486,16 +2989,79 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "6"
     ],
     "number": 3
+  },
+  {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "surprise1_L",
+      "106412",
+      "160",
+      "450",
+      "se_adv_emote_common_01"
+    ],
+    "number": 59
   },
   {
     "command": "print",
     "category": 1,
     "args": [
       "雪菲",
-      "史、史史史萊姆！？\n史萊姆是那個\u2026\u2026！？"
+      "史、"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "10"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "史史史萊姆！？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n史萊姆是"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "那個\u2026\u2026！？"
     ],
     "number": 6
   },
@@ -1521,6 +3087,38 @@
       "6"
     ],
     "number": 7
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "false"
+    ],
+    "number": 41
+  },
+  {
+    "command": "text_size",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 36
+  },
+  {
+    "command": "change_window",
+    "category": 1,
+    "args": [
+      "3"
+    ],
+    "number": 85
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "true"
+    ],
+    "number": 41
   },
   {
     "command": "focus",
@@ -1552,9 +3150,34 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "3"
     ],
     "number": 3
+  },
+  {
+    "command": "pop",
+    "category": 2,
+    "args": [
+      "106412"
+    ],
+    "number": 24
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_body_shake_02"
+    ],
+    "number": 26
+  },
+  {
+    "command": "se_pause",
+    "category": 1,
+    "args": [
+      "se_adv_body_shake_02",
+      "1"
+    ],
+    "number": 67
   },
   {
     "command": "print",
@@ -1570,6 +3193,75 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "false"
+    ],
+    "number": 41
+  },
+  {
+    "command": "text_size",
+    "category": 1,
+    "args": [
+      "23"
+    ],
+    "number": 36
+  },
+  {
+    "command": "change_window",
+    "category": 1,
+    "args": [
+      "1"
+    ],
+    "number": 85
+  },
+  {
+    "command": "fadeout",
+    "category": 2,
+    "args": [
+      "106412",
+      "30"
+    ],
+    "number": 19
+  },
+  {
+    "command": "chara_full",
+    "category": 1,
+    "args": [
+      "106412",
+      "RC",
+      "6"
+    ],
+    "number": 68
+  },
+  {
+    "command": "chara_full",
+    "category": 1,
+    "args": [
+      "105812",
+      "LC",
+      "1"
+    ],
+    "number": 68
+  },
+  {
+    "command": "fadein_all",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 84
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "true"
+    ],
+    "number": 41
   },
   {
     "command": "focus",
@@ -1601,7 +3293,7 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -1610,7 +3302,119 @@
     "category": 1,
     "args": [
       "雪菲",
-      "慢著，不行，不對勁，太奇怪了，這樣太詭異了！\n魔物和昆蟲都不是食物吧！？"
+      "慢著，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "5"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "不行，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "10"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "不對勁，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "太奇怪了，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "106412",
+      "8"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "這樣太詭異了！"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "106412",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "魔物和昆蟲都不是食物吧！？"
     ],
     "number": 6
   },
@@ -1650,7 +3454,7 @@
     "category": 1,
     "args": [
       "105812",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -1687,6 +3491,38 @@
     "number": 7
   },
   {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "false"
+    ],
+    "number": 41
+  },
+  {
+    "command": "text_size",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 36
+  },
+  {
+    "command": "change_window",
+    "category": 1,
+    "args": [
+      "3"
+    ],
+    "number": 85
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "true"
+    ],
+    "number": 41
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
@@ -1716,9 +3552,25 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "8"
     ],
     "number": 3
+  },
+  {
+    "command": "pop",
+    "category": 2,
+    "args": [
+      "106412"
+    ],
+    "number": 24
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_body_jump_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -1739,9 +3591,25 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
+  },
+  {
+    "command": "text_size",
+    "category": 1,
+    "args": [
+      "23"
+    ],
+    "number": 36
+  },
+  {
+    "command": "change_window",
+    "category": 1,
+    "args": [
+      "1"
+    ],
+    "number": 85
   },
   {
     "command": "fadeout_all",
@@ -1756,17 +3624,43 @@
     "category": 1,
     "args": [
       "413",
-      "C",
-      "1"
+      "RC",
+      "2"
     ],
     "number": 68
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_step_wood_walk_come_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "change",
+    "category": 2,
+    "args": [
+      "C",
+      "RC",
+      "45"
+    ],
+    "number": 44
   },
   {
     "command": "fadein",
     "category": 2,
     "args": [
       "413",
-      "30"
+      "45"
     ],
     "number": 18
   },
@@ -1774,9 +3668,17 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_dish_03"
+    ],
+    "number": 26
   },
   {
     "command": "focus",
@@ -1808,16 +3710,108 @@
     "category": 1,
     "args": [
       "413",
-      "1"
+      "2"
     ],
     "number": 3
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "413"
+    ],
+    "number": 25
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_coffee_cup_02"
+    ],
+    "number": 26
   },
   {
     "command": "print",
     "category": 1,
     "args": [
       "服務生",
-      "來，讓您久等了\u266A\n奶油醬烤天塔帕斯，蒲燒沙陸毒蛇，\n以及小小格里芬烤雞串\u266A"
+      "來，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_coffee_cup_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "服務生",
+      "讓您久等了\u266A"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "服務生",
+      "\n奶油醬烤天塔帕斯，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "服務生",
+      "蒲燒沙陸毒蛇，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "服務生",
+      "\n以及小小格里芬烤雞串\u266A"
     ],
     "number": 6
   },
@@ -1831,7 +3825,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -1850,7 +3844,7 @@
     "args": [
       "106412",
       "RC",
-      "1"
+      "6"
     ],
     "number": 68
   },
@@ -1860,7 +3854,7 @@
     "args": [
       "105812",
       "LC",
-      "1"
+      "7"
     ],
     "number": 68
   },
@@ -1876,7 +3870,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -1910,7 +3904,71 @@
     "category": 1,
     "args": [
       "105812",
-      "1"
+      "7"
+    ],
+    "number": 3
+  },
+  {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "note1_L",
+      "105812",
+      "-85",
+      "530",
+      "se_adv_emote_note_01"
+    ],
+    "number": 59
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "哇\u2500\u2500\u266A"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "\n一口氣上了好多菜呢\u266A"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105812",
+      "2"
     ],
     "number": 3
   },
@@ -1919,7 +3977,7 @@
     "category": 1,
     "args": [
       "貪吃佩可",
-      "哇\u2500\u2500\u266A\n一口氣上了好多菜呢\u266A\n我要開動了！"
+      "我要開動了！"
     ],
     "number": 6
   },
@@ -1959,7 +4017,7 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -1968,7 +4026,32 @@
     "category": 1,
     "args": [
       "雪菲",
-      "\u2026\u2026嗚、唔\u2026\u2026"
+      "\u2026\u2026嗚、"
+    ],
+    "number": 6
+  },
+  {
+    "command": "shake",
+    "category": 2,
+    "args": [
+      "106412"
+    ],
+    "number": 23
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "唔\u2026\u2026"
     ],
     "number": 6
   },
@@ -2025,7 +4108,7 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -2034,7 +4117,24 @@
     "category": 1,
     "args": [
       "雪菲",
-      "不是我吃不吃的問題\u2026\u2026這根本不是食物呀\u2026\u2026"
+      "不是我吃不吃的問題\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "這根本不是食物呀\u2026\u2026"
     ],
     "number": 6
   },
@@ -2083,7 +4183,84 @@
     "category": 1,
     "args": [
       "貪吃佩可",
-      "是食物啦\u266A\n這麼好吃耶？\n啊呣啊呣\u2606"
+      "是食物啦\u266A"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105812",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "這麼好吃耶？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_eating_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "105812"
+    ],
+    "number": 25
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "啊呣啊呣\u2606"
     ],
     "number": 6
   },
@@ -2140,6 +4317,70 @@
     "category": 1,
     "args": [
       "105812",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "notice1_L",
+      "105812",
+      "-75",
+      "535",
+      "se_adv_emote_common_01"
+    ],
+    "number": 59
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "啊，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "原來如此！"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "35"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105812",
       "1"
     ],
     "number": 3
@@ -2149,7 +4390,24 @@
     "category": 1,
     "args": [
       "貪吃佩可",
-      "啊，原來如此！\n如果魔物料理是「以前的小雪菲」的家鄉味的話，\n或許是個恢復記憶的契機呢！"
+      "如果魔物料理是「以前的小雪菲」的家鄉味，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "55"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "\n或許是個恢復記憶的契機呢！"
     ],
     "number": 6
   },
@@ -2158,6 +4416,38 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "false"
+    ],
+    "number": 41
+  },
+  {
+    "command": "text_size",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 36
+  },
+  {
+    "command": "change_window",
+    "category": 1,
+    "args": [
+      "3"
+    ],
+    "number": 85
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "true"
+    ],
+    "number": 41
   },
   {
     "command": "focus",
@@ -2189,7 +4479,7 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -2207,6 +4497,38 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "false"
+    ],
+    "number": 41
+  },
+  {
+    "command": "text_size",
+    "category": 1,
+    "args": [
+      "23"
+    ],
+    "number": 36
+  },
+  {
+    "command": "change_window",
+    "category": 1,
+    "args": [
+      "1"
+    ],
+    "number": 85
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "true"
+    ],
+    "number": 41
   },
   {
     "command": "focus",
@@ -2238,7 +4560,7 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -2247,7 +4569,127 @@
     "category": 1,
     "args": [
       "雪菲",
-      "\u2026\u2026雖然我想這麼說\u2026\u2026\n可是\u2026\u2026不試試看也不知道。\n\u2026\u2026況且\u2026\u2026"
+      "\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "雖然我想這麼說\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "106412",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "可是\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "不試試看"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "也不知道。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "況且\u2026\u2026"
     ],
     "number": 6
   },
@@ -2287,7 +4729,7 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -2296,7 +4738,58 @@
     "category": 1,
     "args": [
       "雪菲",
-      "這、這也是\u2026\u2026\n【美食殿堂】的公會活動吧\u2026\u2026？"
+      "這、"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "這也是\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n【美食殿堂】的"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "公會活動吧\u2026\u2026？"
     ],
     "number": 6
   },
@@ -2305,6 +4798,15 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105812",
+      "2"
+    ],
+    "number": 3
   },
   {
     "command": "choice",
@@ -2353,7 +4855,7 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -2362,7 +4864,127 @@
     "category": 1,
     "args": [
       "雪菲",
-      "\u2026\u2026那、那麼\u2026\u2026\n我會努力的。\n因為我也是【美食殿堂】的一份子\u2026\u2026！"
+      "\u2026\u2026那、"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "那麼\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n我"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "會努力的。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "106412",
+      "3"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "因為"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "我也是"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "【美食殿堂】的一份子\u2026\u2026！"
     ],
     "number": 6
   },
@@ -2371,6 +4993,23 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105812",
+      "1"
+    ],
+    "number": 3
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_dish_03"
+    ],
+    "number": 26
   },
   {
     "command": "focus",
@@ -2411,7 +5050,58 @@
     "category": 1,
     "args": [
       "服務生",
-      "來，讓您久等了\u266A\n清蒸小魔眼\u266A"
+      "來，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "服務生",
+      "讓您久等了\u266A"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "服務生",
+      "\n清蒸"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "10"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "服務生",
+      "小魔眼\u266A"
     ],
     "number": 6
   },
@@ -2451,16 +5141,66 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "4"
     ],
     "number": 3
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_body_shake_off_02"
+    ],
+    "number": 26
   },
   {
     "command": "print",
     "category": 1,
     "args": [
       "雪菲",
-      "嗚！？\n眼球在看這邊，一直盯著這邊看\u2026\u2026！"
+      "嗚！？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "shake",
+    "category": 2,
+    "args": [
+      "106412"
+    ],
+    "number": 23
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n眼球在看這邊，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "25"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "一直盯著這邊看\u2026\u2026！"
     ],
     "number": 6
   },
@@ -2509,7 +5249,67 @@
     "category": 1,
     "args": [
       "貪吃佩可",
-      "那麼，小雪菲，來吧\u266A\n張嘴\u266A"
+      "那麼，小雪菲，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105812",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "來吧\u266A"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_cloth_move_give_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "張嘴\u266A"
     ],
     "number": 6
   },
@@ -2518,6 +5318,33 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "se_pause",
+    "category": 1,
+    "args": [
+      "amb_adv_restaurant_01",
+      "2.5"
+    ],
+    "number": 67
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "amb_adv_room_noise_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "4.5",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -2549,7 +5376,7 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -2558,7 +5385,49 @@
     "category": 1,
     "args": [
       "雪菲",
-      "嗚、唔、唔唔\u2026\u2026！"
+      "嗚、"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "False"
+    ],
+    "number": 56
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "唔、"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "唔唔\u2026\u2026！"
     ],
     "number": 6
   },
@@ -2598,9 +5467,25 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "4"
     ],
     "number": 3
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "106412"
+    ],
+    "number": 25
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_eating_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -2647,16 +5532,24 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "6"
     ],
     "number": 3
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "True"
+    ],
+    "number": 56
   },
   {
     "command": "print",
     "category": 1,
     "args": [
       "雪菲",
-      "\u2026\u2026唔！！"
+      "\u2026\u2026！！"
     ],
     "number": 6
   },
@@ -2713,9 +5606,17 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "4"
     ],
     "number": 3
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "False"
+    ],
+    "number": 56
   },
   {
     "command": "print",
@@ -2736,7 +5637,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -2754,7 +5655,7 @@
     "args": [
       "105812",
       "C",
-      "1"
+      "6"
     ],
     "number": 68
   },
@@ -2771,7 +5672,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -2805,16 +5706,28 @@
     "category": 1,
     "args": [
       "105812",
-      "1"
+      "6"
     ],
     "number": 3
+  },
+  {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "question1_R",
+      "105812",
+      "105",
+      "510",
+      "se_adv_emote_question_01"
+    ],
+    "number": 59
   },
   {
     "command": "print",
     "category": 1,
     "args": [
       "貪吃佩可",
-      "小雪菲？"
+      "雪菲？"
     ],
     "number": 6
   },
@@ -2828,7 +5741,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -2845,7 +5758,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -2862,7 +5775,8 @@
     "category": 1,
     "args": [
       "106412",
-      "0"
+      "1",
+      "1"
     ],
     "number": 50
   },
@@ -2879,7 +5793,7 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -2911,7 +5825,8 @@
     "category": 1,
     "args": [
       "106412",
-      "0"
+      "1",
+      "1"
     ],
     "number": 50
   },
@@ -2928,7 +5843,7 @@
     "category": 1,
     "args": [
       "106412",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -2937,7 +5852,24 @@
     "category": 1,
     "args": [
       "雪菲",
-      "\u2026\u2026唔、唔\u2026\u2026！"
+      "\u2026\u2026唔、"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "唔\u2026\u2026！"
     ],
     "number": 6
   },
@@ -2951,7 +5883,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -2961,7 +5893,7 @@
     "args": [
       "106414",
       "C",
-      "1"
+      "2"
     ],
     "number": 68
   },
@@ -2975,12 +5907,54 @@
     "number": 18
   },
   {
+    "command": "se_pause",
+    "category": 1,
+    "args": [
+      "amb_adv_room_noise_01",
+      "2"
+    ],
+    "number": 67
+  },
+  {
+    "command": "effect",
+    "category": 3,
+    "args": [
+      "0022",
+      "se_adv_happy_particle_01"
+    ],
+    "number": 54
+  },
+  {
+    "command": "text_size",
+    "category": 1,
+    "args": [
+      "50"
+    ],
+    "number": 36
+  },
+  {
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "amb_adv_restaurant_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M321"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -3012,9 +5986,25 @@
     "category": 1,
     "args": [
       "106414",
-      "1"
+      "2"
     ],
     "number": 3
+  },
+  {
+    "command": "pop",
+    "category": 2,
+    "args": [
+      "106414"
+    ],
+    "number": 24
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_rabbit_jump_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
@@ -3030,6 +6020,30 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "false"
+    ],
+    "number": 41
+  },
+  {
+    "command": "text_size",
+    "category": 1,
+    "args": [
+      "23"
+    ],
+    "number": 36
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "true"
+    ],
+    "number": 41
   },
   {
     "command": "focus",
@@ -3061,7 +6075,7 @@
     "category": 1,
     "args": [
       "106414",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -3070,7 +6084,58 @@
     "category": 1,
     "args": [
       "雪菲",
-      "好好吃～好好吃喔～\u266A\n葛格，我還要～\u266A"
+      "好好吃～"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "好好吃喔～\u266A"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n葛格，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "10"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "我還要～\u266A"
     ],
     "number": 6
   },
@@ -3084,9 +6149,18 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
+  },
+  {
+    "command": "effect_delete",
+    "category": 3,
+    "args": [
+      "0022",
+      "30"
+    ],
+    "number": 55
   },
   {
     "command": "fadeout",
@@ -3103,7 +6177,7 @@
     "args": [
       "106414",
       "RC",
-      "1"
+      "2"
     ],
     "number": 68
   },
@@ -3113,7 +6187,7 @@
     "args": [
       "105812",
       "LC",
-      "1"
+      "2"
     ],
     "number": 68
   },
@@ -3129,7 +6203,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -3163,6 +6237,32 @@
     "category": 1,
     "args": [
       "105812",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "哈哈哈\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "105812",
       "1"
     ],
     "number": 3
@@ -3172,7 +6272,41 @@
     "category": 1,
     "args": [
       "貪吃佩可",
-      "哈哈哈\u2026\u2026小雪菲，\n好吃到讓妳變成小嬰兒了嗎？"
+      "小雪菲，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "\n好吃到讓妳"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "10"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "貪吃佩可",
+      "變成小嬰兒了嗎？"
     ],
     "number": 6
   },
@@ -3212,16 +6346,108 @@
     "category": 1,
     "args": [
       "106414",
-      "1"
+      "2"
     ],
     "number": 3
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "106414"
+    ],
+    "number": 25
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_eating_01"
+    ],
+    "number": 26
   },
   {
     "command": "print",
     "category": 1,
     "args": [
       "雪菲",
-      "啊呣\u266A\n啊呣\u266A\n嗯～好好吃～\u266A"
+      "啊呣\u266A"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "106414"
+    ],
+    "number": 25
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_eating_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "啊呣\u266A"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n嗯～"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "好好吃～\u266A"
     ],
     "number": 6
   },
@@ -3235,7 +6461,7 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
@@ -3248,19 +6474,10 @@
     "number": 45
   },
   {
-    "command": "bg_pan",
-    "category": 1,
-    "args": [
-      "0",
-      "-170"
-    ],
-    "number": 86
-  },
-  {
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -3295,9 +6512,51 @@
     "category": 1,
     "args": [
       "旁白",
-      "就這樣，\n雪菲吃光了所有貪吃佩可推薦的料理，\n順利完成了【美食殿堂】的公會活動\u2500\u2500"
+      "就這樣，"
     ],
     "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "旁白",
+      "\n雪菲吃光了所有貪吃佩可推薦的料理，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "旁白",
+      "\n順利完成了【美食殿堂】的公會活動\u2500\u2500"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
   },
   {
     "command": "touch",
@@ -3309,18 +6568,9 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
-  },
-  {
-    "command": "bg_pan",
-    "category": 1,
-    "args": [
-      "-170",
-      "0"
-    ],
-    "number": 86
   },
   {
     "command": "chara_full",
@@ -3328,9 +6578,19 @@
     "args": [
       "106414",
       "C",
-      "1"
+      "2"
     ],
     "number": 68
+  },
+  {
+    "command": "scale",
+    "category": 2,
+    "args": [
+      "106414",
+      "1.2",
+      "2"
+    ],
+    "number": 39
   },
   {
     "command": "fadein",
@@ -3342,10 +6602,19 @@
     "number": 18
   },
   {
+    "command": "effect",
+    "category": 3,
+    "args": [
+      "0022",
+      "se_adv_happy_particle_01"
+    ],
+    "number": 54
+  },
+  {
     "command": "window_visible",
     "category": 1,
     "args": [
-      "TRUE"
+      "true"
     ],
     "number": 41
   },
@@ -3379,16 +6648,45 @@
     "category": 1,
     "args": [
       "106414",
-      "1"
+      "2"
     ],
     "number": 3
+  },
+  {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "note1_L",
+      "106414",
+      "-105",
+      "405",
+      "se_adv_emote_note_01"
+    ],
+    "number": 59
   },
   {
     "command": "print",
     "category": 1,
     "args": [
       "雪菲",
-      "嘿嘿嘿\u266A\n再來一碗～\u266A"
+      "嘿嘿嘿\u266A"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "雪菲",
+      "\n再來一碗～\u266A"
     ],
     "number": 6
   },
@@ -3402,17 +6700,54 @@
     "command": "window_visible",
     "category": 1,
     "args": [
-      "FALSE"
+      "false"
     ],
     "number": 41
   },
   {
-    "command": "amb_stop",
+    "command": "effect_delete",
+    "category": 3,
+    "args": [
+      "0022",
+      "30"
+    ],
+    "number": 55
+  },
+  {
+    "command": "fadeout",
+    "category": 2,
+    "args": [
+      "106414",
+      "30"
+    ],
+    "number": 19
+  },
+  {
+    "command": "bg_pan",
     "category": 1,
     "args": [
+      "0",
+      "-170"
+    ],
+    "number": 86
+  },
+  {
+    "command": "se_pause",
+    "category": 1,
+    "args": [
+      "amb_adv_restaurant_01",
       "1"
     ],
-    "number": 61
+    "number": 67
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "black_out",
