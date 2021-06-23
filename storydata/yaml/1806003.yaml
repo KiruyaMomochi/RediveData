@@ -4,7 +4,7 @@
   - 為了討伐魔物而到當地村莊造訪的凱留。原本懷疑是陷阱，但是在感受到村民的溫情後，轉而一心想保護村莊。成功擊敗了出現在村莊的巨大魔物，凱留露出了開朗的表情。
 - background:
   - 500010
-- amb:
+- se:
   - amb_adv_town_day_01
 - bg_pan:
   - -170
@@ -45,6 +45,11 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M51
+  - 0
+  - 0
+  - 1
 - focus:
   - 106012
 - bust:
@@ -57,6 +62,8 @@
   - 4
 - nod:
   - 106012
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 凱留
   - 唉……
@@ -200,6 +207,10 @@
 - touch: *o0
 - window_visible:
   - false
+- bgm:
+  - stop
+  - 2.5
+  - 1
 - se:
   - se_adv_step_concrete_walk_go_01
 - change:
@@ -214,14 +225,15 @@
 - transition:
   - 18
   - 0.5
-- amb_stop:
+- se_pause:
+  - amb_adv_town_day_01
   - 1
 - wait:
   - 15
 - se:
   - se_adv_transition_whoosh_small_in
 - transition_resume: *o0
-- amb:
+- se:
   - amb_adv_town_day_01
 - chara_full:
   - 106012
@@ -232,6 +244,8 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M129_Ver2_NoB
 - focus:
   - 106012
 - bust:
@@ -357,6 +371,8 @@
   - 4
 - nod:
   - 106012
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 凱留
   - 唉……
@@ -477,6 +493,8 @@
   - 4
 - nod:
   - 106012
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 凱留
   - 去跟貪吃佩可談的話，
@@ -517,7 +535,7 @@
   - 20
 - print:
   - 凱留
-  - 這是類似社會服務？
+  - 這是類似假釋犯的社會服務？
 - wait:
   - 65
 - print:
@@ -546,6 +564,8 @@
   - 6
 - pop:
   - 106012
+- se:
+  - se_adv_rabbit_jump_01
 - print:
   - 凱留
   - 欸，
@@ -561,6 +581,8 @@
   - >2-
 
     你又不知道是要去哪裡吧！
+- se_pause:
+  - se_adv_rabbit_jump_01
 - touch: *o0
 - window_visible:
   - false
@@ -608,6 +630,8 @@
   - 3
 - nod:
   - 106012
+- se:
+  - se_adv_step_concrete_move_01
 - print:
   - 凱留
   - 我說啊，
@@ -709,6 +733,9 @@
 - touch: *o0
 - window_visible:
   - false
+- bgm:
+  - stop
+  - 2.5
 - fadeout:
   - 106012
   - 30
@@ -717,7 +744,8 @@
 - transition:
   - 18
   - 0.5
-- amb_stop:
+- se_pause:
+  - amb_adv_town_day_01
   - 1
 - background:
   - 500333
@@ -726,7 +754,7 @@
 - se:
   - se_adv_transition_whoosh_small_in
 - transition_resume: *o0
-- amb:
+- se:
   - amb_adv_outdoors_day_01
 - chara_full:
   - 106012
@@ -737,6 +765,11 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M94_Ver2
+  - 0
+  - 0
+  - 1
 - focus:
   - 106012
 - bust:
@@ -776,6 +809,8 @@
   - 106012
   - LC
   - 4
+- se:
+  - se_adv_step_dirt_move_01
 - fadein_all:
   - 30
 - window_visible:
@@ -839,6 +874,8 @@
   - 15
 - nod:
   - 106012
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 凱留
   - 不是，
@@ -947,7 +984,7 @@
   - LC
   - 6
 - se:
-  - se_adv_step_concrete_walk_come_01
+  - se_adv_step_dirt_walk_come_01
 - wait:
   - 15
 - change:
@@ -1221,6 +1258,8 @@
   - 4
 - nod:
   - 106012
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 凱留
   - 可是……
@@ -1239,6 +1278,10 @@
   - 6
 - window_visible:
   - true
+- bgm:
+  - stop
+  - 4
+  - 1
 - focus:
   - 411
 - bust:
@@ -1282,6 +1325,12 @@
   - se_adv_creature_cmn_01
 - window_visible:
   - true
+- bgm:
+  - bgm_M03
+  - 0
+  - 0
+  - 0
+  - 0
 - focus:
   - 1614
 - bust:
@@ -1354,6 +1403,8 @@
   - 4
 - nod:
   - 611
+- se:
+  - se_adv_step_dirt_move_01
 - print:
   - 女性２
   - 真是的，
@@ -1422,6 +1473,8 @@
   - 3
 - nod:
   - 106011
+- se:
+  - se_adv_weapon_punch_set_01
 - print:
   - 凱留
   - 沒問題的，
@@ -1471,6 +1524,9 @@
   - se_adv_creature_cmn_04
 - window_visible:
   - TRUE
+- bgm:
+  - stop
+  - 3.7
 - focus:
   - 1614
 - bust:
@@ -1518,6 +1574,12 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M140_NoBell
+  - 0
+  - 0
+  - 1
+  - 1
 - focus:
   - 611
 - bust:
@@ -1530,6 +1592,8 @@
   - 6
 - nod:
   - 611
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 女性２
   - 嚇了我一跳……
@@ -1613,6 +1677,8 @@
   - 1
 - nod:
   - 106011
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 凱留
   - 那麼，
@@ -1663,6 +1729,10 @@
 - touch: *o0
 - window_visible:
   - false
+- bgm:
+  - stop
+  - 3
+  - 1
 - fadeout:
   - 611
   - 30
@@ -1671,7 +1741,8 @@
 - transition:
   - 18
   - 0.5
-- amb_stop:
+- se_pause:
+  - amb_adv_outdoors_day_01
   - 1
 - background:
   - 500170
@@ -1680,7 +1751,7 @@
 - se:
   - se_adv_transition_whoosh_small_in
 - transition_resume: *o0
-- amb:
+- se:
   - amb_adv_forest_01
 - chara_full:
   - 106012
@@ -1692,6 +1763,8 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M392_Ver2
 - focus:
   - 106012
 - bust:
@@ -1704,6 +1777,8 @@
   - 4
 - nod:
   - 106012
+- se:
+  - se_adv_step_leaves_move_01
 - print:
   - 凱留
   - 唉～
@@ -1780,6 +1855,9 @@
 - fadeout:
   - 106012
   - 30
+- bgm:
+  - stop
+  - 3
 - effect:
   - 0038
   - se_adv_transition_01
@@ -1825,6 +1903,11 @@
   - 1611:1612:1613
 - window_visible:
   - true
+- bgm:
+  - bgm_M433
+  - 0
+  - 0
+  - 1
 - bust:
   - 1611
   - 0
@@ -1942,7 +2025,7 @@
   - 3
 - print:
   - 凱留
-  - 我可是一個都不會放過的，納命來吧！
+  - 我可是一隻都不會放過的，納命來吧！
 - touch: *o0
 - window_visible:
   - false
@@ -1964,6 +2047,8 @@
   - 3
 - effect:
   - 9
+- se:
+  - se_adv_magic_cmn_medium_01
 - print:
   - 凱留
   - 喝啊啊啊啊！！
@@ -1981,7 +2066,14 @@
   - 106012
   - 30
 - se:
+  - se_adv_magic_dark_medium_01
+- se:
   - se_adv_kyaru_magic_02
+- se_pause:
+  - se_adv_kyaru_magic_02
+  - 1.2
+- se:
+  - se_adv_magic_hit_01
 - black_out:
   - 1
   - 1
@@ -1999,6 +2091,10 @@
   - se_adv_creature_cmn_04
 - window_visible:
   - TRUE
+- bgm:
+  - stop
+  - 4
+  - 1
 - focus:
   - 1611
 - bust:
@@ -2038,6 +2134,8 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M358
 - focus:
   - 106012
 - bust:
@@ -2094,6 +2192,8 @@
   - 1
 - nod:
   - 106012
+- se:
+  - se_adv_step_leaves_move_01
 - print:
   - 凱留
   - 好了，
@@ -2117,6 +2217,9 @@
 - touch: *o0
 - window_visible:
   - false
+- bgm:
+  - stop
+  - 3
 - se:
   - se_adv_step_leaves_walk_go_01
 - change:
@@ -2131,7 +2234,8 @@
 - transition:
   - 18
   - 0.5
-- amb_stop:
+- se_pause:
+  - amb_adv_forest_01
   - 1
 - background:
   - 500333
@@ -2140,7 +2244,7 @@
 - se:
   - se_adv_transition_whoosh_small_in
 - transition_resume: *o0
-- amb:
+- se:
   - amb_adv_outdoors_day_01
 - chara_full:
   - 106012
@@ -2154,6 +2258,12 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M20_Short
+  - 0
+  - 0
+  - 1
+  - 1
 - focus:
   - 106012
 - bust:
@@ -2180,6 +2290,8 @@
   - 6
 - nod:
   - 611
+- se:
+  - se_adv_step_dirt_move_01
 - print:
   - 女性２
   - 小姑娘！
@@ -2354,6 +2466,8 @@
   - 2
 - nod:
   - 411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 女性3
   - 謝謝妳！
@@ -2479,6 +2593,8 @@
   - 1
 - nod:
   - 611
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 女性２
   - 這樣啊，
@@ -2571,6 +2687,8 @@
   - 1
 - nod:
   - 411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 女性3
   - 是呢！
@@ -2640,6 +2758,10 @@
 - touch: *o0
 - window_visible:
   - false
+- bgm:
+  - stop
+  - 3
+  - 1
 - fadeout:
   - 106012
   - 30
@@ -2661,6 +2783,12 @@
   - 3
 - window_visible:
   - true
+- bgm:
+  - bgm_M67_06
+  - 0
+  - 0
+  - 0
+  - 1
 - focus:
   - 106012
 - bust:
@@ -2919,6 +3047,9 @@
   - 50
 - window_visible:
   - true
+- bgm:
+  - stop
+  - 3
 - focus:
   - 1411
 - bust:
@@ -2930,7 +3061,7 @@
   - 1411
   - 3
 - print:
-  - 男性１
+  - 男性
   - 糟糕了啊！！
 - touch: *o0
 - window_visible:
@@ -2981,7 +3112,7 @@
   - LC
   - 6
 - se:
-  - se_adv_step_concrete_run_come_01
+  - se_adv_step_dirt_run_come_01
 - wait:
   - 15
 - change:
@@ -2992,6 +3123,12 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M42_02
+  - 0
+  - 0
+  - 1
+  - 0
 - focus:
   - 1411
 - bust:
@@ -3003,19 +3140,21 @@
   - 1411
   - 4
 - print:
-  - 男性１
+  - 男性
   - 魔、
 - wait:
   - 15
 - nod:
   - 1411
+- se:
+  - se_adv_cloth_move_give_01
 - print:
-  - 男性１
+  - 男性
   - 魔物，
 - wait:
   - 30
 - print:
-  - 男性１
+  - 男性
   - 魔物出現了！！
 - touch: *o0
 - focus:
@@ -3054,7 +3193,7 @@
   - 555
   - se_adv_emote_question_01
 - print:
-  - 男性１
+  - 男性
   - 沒有打倒？
 - wait:
   - 45
@@ -3062,17 +3201,17 @@
   - 1411
   - 4
 - print:
-  - 男性１
+  - 男性
   - 不、
 - wait:
   - 15
 - print:
-  - 男性１
+  - 男性
   - 不知道妳說的是什麼，
 - wait:
   - 30
 - print:
-  - 男性１
+  - 男性
   - >2-
 
     但不是那個！
@@ -3129,37 +3268,39 @@
   - 3
 - nod:
   - 1411
+- se:
+  - se_adv_cloth_move_hard_01
 - print:
-  - 男性１
+  - 男性
   - 不是的！
 - wait:
   - 30
 - print:
-  - 男性１
+  - 男性
   - 跟平常的魔物不一樣！
 - wait:
   - 40
 - print:
-  - 男性１
+  - 男性
   - >2
 
 - face:
   - 1411
   - 4
 - print:
-  - 男性１
+  - 男性
   - 總之有一隻很大的魔物往這邊飛來了！
 - wait:
   - 55
 - print:
-  - 男性１
+  - 男性
   - >2-
 
     來不及逃啊！
 - wait:
   - 25
 - print:
-  - 男性１
+  - 男性
   - 大家趕快先躲在家裡吧！
 - touch: *o0
 - focus:
@@ -3254,6 +3395,8 @@
   - 4
 - nod:
   - 611
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 女性２
   - 好了，
@@ -3391,6 +3534,8 @@
   - 1
 - nod:
   - 106012
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 凱留
   - 好，
@@ -3433,6 +3578,8 @@
   - 1
 - nod:
   - 106012
+- se:
+  - se_adv_step_dirt_move_01
 - print:
   - 凱留
   - 嗯。
@@ -3451,6 +3598,10 @@
 - touch: *o0
 - window_visible:
   - false
+- bgm:
+  - stop
+  - 2.5
+  - 1
 - fadeout_all:
   - 30
 - se:
@@ -3458,7 +3609,8 @@
 - transition:
   - 18
   - 0.5
-- amb_stop:
+- se_pause:
+  - amb_adv_outdoors_day_01
   - 1
 - background:
   - 500140
@@ -3467,8 +3619,8 @@
 - se:
   - se_adv_transition_whoosh_small_in
 - transition_resume: *o0
-- amb:
-  - amb_adv_outdoors_day_01
+- se:
+  - amb_adv_wind_01
 - chara_full:
   - 106012
   - C
@@ -3478,6 +3630,12 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M175_Ver2
+  - 0
+  - 0
+  - 0
+  - 1
 - focus:
   - 106012
 - bust:
@@ -3557,6 +3715,8 @@
   - 1
 - nod:
   - 106012
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 凱留
   - 也是呢。
@@ -3651,7 +3811,7 @@
 - window_visible:
   - true
 - se:
-  - se_adv_creature_cmn_01
+  - se_adv_creature_bird_01
 - focus:
   - 1611
 - bust:
@@ -3774,10 +3934,14 @@
 - touch: *o0
 - window_visible:
   - false
+- bgm:
+  - stop
+  - 3
 - fadeout:
   - 106012
   - 30
-- amb_stop:
+- se_pause:
+  - amb_adv_wind_01
   - 1
 - effect:
   - 0006
@@ -3792,7 +3956,7 @@
 - wait:
   - 30
 - white_in: *o0
-- amb:
+- se:
   - amb_adv_wind_03
 - vo_effect:
   - 6
@@ -3879,11 +4043,8 @@
   - false
 - vo_effect:
   - 0
-- amb_stop:
-  - 1
-- bgm:
-  - stop
-  - 2
+- se_pause:
+  - amb_adv_wind_03
   - 1
 - white_out:
   - 1
@@ -3893,8 +4054,8 @@
 - wait:
   - 30
 - white_in: *o0
-- amb:
-  - amb_adv_wind_02
+- se:
+  - amb_adv_wind_01
 - choice:
   - 全新的……鑰匙。
   - 12
@@ -3953,6 +4114,10 @@
   - 13
 - tag:
   - 13
+- bgm:
+  - stop
+  - 2
+  - 1
 - window_visible:
   - false
 - effect_delete:
@@ -3964,7 +4129,8 @@
 - black_out:
   - 1
   - 0.5
-- amb_stop:
+- se_pause:
+  - amb_adv_wind_01
   - 1
 - bg_color:
   - 0
@@ -3974,7 +4140,7 @@
   - 1
   - 0.5
 - movie:
-  - 180500301
+  - 180600301
 - black_out:
   - 1
   - 0.3
@@ -3983,6 +4149,8 @@
 - wait:
   - 15
 - black_in: *o0
+- se:
+  - amb_adv_wind_01
 - chara_full:
   - 180611
   - C
@@ -3992,6 +4160,8 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M336
 - focus:
   - 180611
 - bust:
@@ -4004,26 +4174,26 @@
   - 1
 - print:
   - 凱留
-  - 要是沒有我在這裡的話，
+  - 要是沒有我擋在這裡的話，
 - wait:
   - 30
 - print:
   - 凱留
-  - 你應該也是
+  - >2-
+
+    你應該
 - wait:
   - 10
 - print:
   - 凱留
-  - >2-
-
-    可以體驗到橫行無阻的強大感吧。
+  - 可以體驗到橫行無阻的強大感吧。
 - wait:
   - 45
 - print:
   - 凱留
   - >2-
 
-    你的運氣還真不好呢。
+    運氣還真不好呢。
 - touch: *o0
 - focus:
   - 180611
@@ -4045,11 +4215,16 @@
   - 180611
   - 30
 - se:
+  - se_adv_move_fast_01
+- se:
   - se_adv_move_fast_02
 - bg_pan:
   - 0
   - -150
   - 15
+- se_pause:
+  - amb_adv_wind_01
+  - 2
 - white_out:
   - 1
   - 1
@@ -4065,6 +4240,10 @@
   - 180631
 - wait:
   - 15
+- se:
+  - amb_adv_strong_wind_01
+- se:
+  - amb_adv_wind_04
 - white_in: *o0
 - window_visible:
   - true
@@ -4167,7 +4346,9 @@
 - window_visible:
   - true
 - se:
-  - se_adv_magic_anna_01
+  - se_adv_magic_anna_03
+- se:
+  - se_adv_magic_gather_01
 - focus:
   - 180611
 - bust:
@@ -4191,7 +4372,7 @@
 - window_visible:
   - true
 - se:
-  - se_adv_creature_cmn_01
+  - se_adv_creature_bird_02
 - focus:
   - 1614
 - bust:
@@ -4203,6 +4384,8 @@
 - print:
   - 魔物
   - ──嘎喔喔喔喔喔！
+- se:
+  - se_adv_creature_flap_01
 - touch: *o0
 - focus:
   - 180611
@@ -4241,8 +4424,6 @@
   - false
 - se:
   - se_adv_magic_cmn_medium_01
-- se:
-  - se_adv_kyaru_impact_01
 - white_out:
   - 0.5
   - 0.2
@@ -4252,7 +4433,7 @@
 - text_size:
   - 38
 - se:
-  - se_adv_magic_anna_03
+  - se_adv_magic_charge_01
 - window_visible:
   - true
 - focus:
@@ -4276,8 +4457,11 @@
 - touch: *o0
 - window_visible:
   - false
+- se_pause:
+  - se_adv_kyaru_impact_01
+  - 0.2
 - se:
-  - se_adv_kyaru_magic_02
+  - se_adv_kyaru_impact_02
 - shake_loop: *o0
 - white_out:
   - 0.5
@@ -4293,7 +4477,7 @@
 - window_visible:
   - true
 - se:
-  - se_adv_creature_cmn_04
+  - se_adv_creature_bird_03
 - focus:
   - 1614
 - bust:
@@ -4308,6 +4492,14 @@
 - touch: *o0
 - window_visible:
   - FALSE
+- bgm:
+  - stop
+  - 2.5
+- se_pause:
+  - amb_adv_strong_wind_01
+- se_pause:
+  - amb_adv_wind_04
+  - 1
 - white_out:
   - 1
   - 1
@@ -4317,6 +4509,8 @@
   - end
 - wait:
   - 15
+- se:
+  - amb_adv_wind_01
 - white_in: *o0
 - chara_full:
   - 180611
@@ -4327,6 +4521,12 @@
   - 30
 - window_visible:
   - TRUE
+- bgm:
+  - bgm_M164
+  - 0
+  - 0
+  - 1
+  - 0
 - focus:
   - 180611
 - bust:
@@ -4339,6 +4539,8 @@
   - 1
 - nod:
   - 180611
+- se:
+  - se_adv_step_leaves_move_01
 - print:
   - 凱留
   - 哈啊……
@@ -4382,6 +4584,8 @@
   - 15
 - pop:
   - 180611
+- se:
+  - se_adv_rabbit_jump_01
 - print:
   - 凱留
   - 吵死了！
@@ -4392,6 +4596,8 @@
   - >2-
 
     那種事情不用一一說出來！
+- se_pause:
+  - se_adv_rabbit_jump_01
 - touch: *o0
 - focus:
   - 180611
@@ -4445,6 +4651,8 @@
 - face:
   - 180611
   - 6
+- se:
+  - se_adv_cloth_move_normal_01
 - print:
   - 凱留
   - 唔、
@@ -4547,7 +4755,12 @@
 - touch: *o0
 - window_visible:
   - false
-- amb_stop:
+- se_pause:
+  - amb_adv_wind_01
+  - 1
+- bgm:
+  - stop
+  - 1
   - 1
 - black_out:
   - 1

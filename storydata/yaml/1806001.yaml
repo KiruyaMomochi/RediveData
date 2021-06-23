@@ -4,7 +4,7 @@
   - 凱留為了幫忙{0}的工作，而在以前工作過的魔物大賽會場與工作人員重逢。聽到對方正為了會場的重建而費盡苦心，感覺到自己也有責任的凱留，於是出力幫忙捕捉魔物。
 - background:
   - 500010
-- amb:
+- se:
   - amb_adv_town_day_01
 - bg_pan:
   - -170
@@ -41,6 +41,11 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M321
+  - 0
+  - 0
+  - 1
 - focus:
   - 106012
 - bust:
@@ -160,6 +165,8 @@
   - 1
 - nod:
   - 106012
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 凱留
   - 嗯，
@@ -238,6 +245,8 @@
   - 3
 - pop:
   - 106012
+- se:
+  - se_adv_cloth_move_hard_01
 - print:
   - 凱留
   - 啊～
@@ -248,6 +257,8 @@
   - 真是的！
 - wait:
   - 15
+- se:
+  - se_adv_body_carry_back_01
 - print:
   - 凱留
   - 好了快點拿過來！
@@ -278,6 +289,10 @@
 - touch: *o0
 - window_visible:
   - false
+- bgm:
+  - stop
+  - 2.5
+  - 1
 - fadeout:
   - 106012
   - 30
@@ -286,7 +301,8 @@
 - transition:
   - 18
   - 0.5
-- amb_stop:
+- se_pause:
+  - amb_adv_town_day_01
   - 1
 - background:
   - 500250
@@ -295,8 +311,12 @@
 - se:
   - se_adv_transition_whoosh_small_in
 - transition_resume: *o0
-- amb:
+- se:
   - amb_adv_prison_01
+- vo_effect:
+  - 3
+- se_effect:
+  - 3
 - chara_full:
   - 311
   - C
@@ -306,6 +326,8 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M140
 - focus:
   - 311
 - bust:
@@ -318,6 +340,8 @@
   - 2
 - nod:
   - 311
+- se:
+  - se_adv_cloth_move_normal_01
 - print:
   - 男性
   - 哦～！
@@ -421,9 +445,11 @@
   - 4
 - nod:
   - 106012
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 凱留
-  - ……那個，
+  - ……我說，
 - wait:
   - 15
 - print:
@@ -452,6 +478,9 @@
   - 3
 - tag:
   - 3
+- bgm:
+  - stop
+  - 1.5
 - window_visible:
   - false
 - face:
@@ -463,6 +492,13 @@
   - 38
 - window_visible:
   - true
+- se_effect:
+  - 0
+- bgm:
+  - bgm_M11
+  - 0
+  - 0
+  - 1
 - focus:
   - 106012
 - bust:
@@ -477,12 +513,14 @@
   - 106012
 - effect:
   - 9
+- se:
+  - se_adv_mie_01
 - print:
   - 凱留
   - 這種地方有需要重建嗎啊啊啊！！
-- se:
-  - se_adv_mie_01
 - touch: *o0
+- se_effect:
+  - 3
 - window_visible:
   - false
 - change_window:
@@ -754,6 +792,8 @@
 
 - nod:
   - 106012
+- se:
+  - se_adv_step_concrete_move_01
 - print:
   - 凱留
   - 那麼，
@@ -788,6 +828,8 @@
   - 4
 - pop:
   - 311
+- se:
+  - se_adv_cloth_move_hard_01
 - print:
   - 男性
   - 請等～～～～
@@ -1015,6 +1057,8 @@
   - 4
 - tag:
   - 4
+- se_effect:
+  - 0
 - focus:
   - 106012
 - bust:
@@ -1027,6 +1071,8 @@
   - 3
 - pop:
   - 106012
+- se:
+  - se_adv_rabbit_jump_01
 - print:
   - 凱留
   - 等一下！
@@ -1067,6 +1113,8 @@
 - touch: *o0
 - window_visible:
   - false
+- se_effect:
+  - 3
 - fadeout_all:
   - 30
 - chara_full:
@@ -1094,6 +1142,8 @@
   - 4
 - nod:
   - 106012
+- se:
+  - se_adv_cloth_move_normal_01
 - print:
   - 凱留
   - 我已經沒有
@@ -1248,6 +1298,8 @@
   - 311
   - RC
   - 4
+- se:
+  - se_adv_step_concrete_move_01
 - fadein_all:
   - 30
 - window_visible:
@@ -1269,6 +1321,8 @@
   - 25
 - nod:
   - 106012
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 凱留
   - 我知道了啦。
@@ -1379,6 +1433,10 @@
 - touch: *o0
 - window_visible:
   - false
+- bgm:
+  - stop
+  - 2.5
+  - 1
 - fadeout_all:
   - 30
 - se:
@@ -1386,7 +1444,12 @@
 - transition:
   - 18
   - 0.5
-- amb_stop:
+- se_effect:
+  - 0
+- vo_effect:
+  - 0
+- se_pause:
+  - amb_adv_prison_01
   - 1
 - background:
   - 500170
@@ -1395,7 +1458,7 @@
 - se:
   - se_adv_transition_whoosh_small_in
 - transition_resume: *o0
-- amb:
+- se:
   - amb_adv_forest_01
 - chara_full:
   - 1614
@@ -1408,6 +1471,8 @@
   - se_adv_creature_cmn_01
 - window_visible:
   - true
+- bgm:
+  - bgm_M41
 - focus:
   - 1614
 - bust:
@@ -1644,6 +1709,8 @@
   - 4
 - pop:
   - 311
+- se:
+  - se_adv_cloth_move_hard_01
 - print:
   - 男性
   - 啊～～！
@@ -1769,6 +1836,8 @@
   - 3
 - effect:
   - 9
+- se:
+  - se_adv_magic_cmn_medium_01
 - print:
   - 凱留
   - 哈啊啊啊啊啊啊！！
@@ -1810,6 +1879,9 @@
   - se_adv_creature_cmn_04
 - window_visible:
   - true
+- bgm:
+  - stop
+  - 3.5
 - focus:
   - 1614
 - bust:
@@ -1857,6 +1929,12 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M180_Ver2
+  - 0
+  - 0
+  - 1
+  - 1
 - focus:
   - 106011
 - bust:
@@ -1888,6 +1966,8 @@
   - 1
 - nod:
   - 311
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 男性
   - 是的。
@@ -2008,12 +2088,18 @@
   - 3
 - nod:
   - 106011
+- se:
+  - se_adv_step_leaves_move_01
 - print:
   - 凱留
   - 那就趕快抓一抓吧！
 - touch: *o0
 - window_visible:
   - false
+- bgm:
+  - stop
+  - 2.5
+  - 1
 - fadeout_all:
   - 30
 - black_out:
@@ -2031,6 +2117,8 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M274
 - focus:
   - 106011
 - bust:
@@ -2041,6 +2129,8 @@
 - face:
   - 106011
   - 3
+- se:
+  - se_adv_magic_cmn_medium_01
 - print:
   - 凱留
   - 我可不會讓你逃走喔！
@@ -2121,6 +2211,8 @@
   - 2
 - nod:
   - 106011
+- se:
+  - se_adv_cloth_move_give_01
 - print:
   - 凱留
   - 呼，
@@ -2246,6 +2338,8 @@
   - 4
 - nod:
   - 106011
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 凱留
   - 唉～～
@@ -2260,19 +2354,19 @@
   - 3
 - print:
   - 凱留
-  - 被說是輕鬆捕獲的話，就不能善罷甘休了吧。
+  - 居然被說是輕鬆捕獲，我哪能善罷甘休啊。
 - wait:
   - 60
 - print:
   - 凱留
   - >2-
 
-    既然這樣，我就把速度很快的魔物
+    既然這樣我就把速度很快的魔物
 - wait:
   - 40
 - print:
   - 凱留
-  - 抓來給你！
+  - 抓來給你看！
 - touch: *o0
 - focus:
   - 311
@@ -2338,6 +2432,8 @@
   - 6
 - nod:
   - 311
+- se:
+  - se_adv_cloth_move_normal_01
 - print:
   - 男性
   - 啊，
@@ -2389,6 +2485,8 @@
   - 1
 - nod:
   - 106011
+- se:
+  - se_adv_step_leaves_move_01
 - print:
   - 凱留
   - 我知道。
@@ -2407,6 +2505,9 @@
 - touch: *o0
 - window_visible:
   - false
+- bgm:
+  - stop
+  - 2.5
 - se:
   - se_adv_step_leaves_walk_go_01
 - change:
@@ -2421,14 +2522,15 @@
 - transition:
   - 18
   - 0.5
-- amb_stop:
+- se_pause:
+  - amb_adv_forest_01
   - 1
 - wait:
   - 15
 - se:
   - se_adv_transition_whoosh_small_in
 - transition_resume: *o0
-- amb:
+- se:
   - amb_adv_forest_01
 - chara_full:
   - 106011
@@ -2439,6 +2541,11 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M392_Ver2
+  - 0
+  - 0
+  - 1
 - focus:
   - 106011
 - bust:
@@ -2571,6 +2678,10 @@
 
     趕快去抓逃跑速度很快的魔物吧！
 - touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 1
 - window_visible:
   - false
 - fadeout:
@@ -2593,6 +2704,8 @@
   - se_adv_creature_cmn_01
 - window_visible:
   - true
+- bgm:
+  - bgm_M07
 - focus:
   - 1611
 - bust:
@@ -2774,6 +2887,8 @@
 
 - nod:
   - 106011
+- se:
+  - se_adv_weapon_punch_set_01
 - print:
   - 凱留
   - 沒問題，
@@ -2830,6 +2945,8 @@
 - effect:
   - 0009
 - se:
+  - se_adv_move_fast_02
+- se:
   - se_adv_step_leaves_run_armor_go_01
 - camera_zoom:
   - 1.2
@@ -2846,7 +2963,7 @@
   - 1611
   - 15
 - se:
-  - se_adv_body_shake_01
+  - se_adv_body_jump_01
 - shake_loop: *o0
 - wait:
   - 30
@@ -2911,6 +3028,8 @@
   - 要上囉！
 - wait:
   - 20
+- se:
+  - se_adv_magic_cmn_medium_01
 - print:
   - 凱留
   - 哈啊啊啊啊啊！！
@@ -2945,6 +3064,9 @@
   - se_adv_creature_cmn_04
 - window_visible:
   - true
+- bgm:
+  - stop
+  - 4
 - focus:
   - 1611
 - bust:
@@ -2979,6 +3101,12 @@
   - 45
 - window_visible:
   - true
+- bgm:
+  - bgm_M163
+  - 0
+  - 0
+  - 1
+  - 1
 - focus:
   - 106011
 - bust:
@@ -3089,14 +3217,15 @@
 - transition:
   - 18
   - 0.5
-- amb_stop:
+- se_pause:
+  - amb_adv_forest_01
   - 1
 - wait:
   - 15
 - se:
   - se_adv_transition_whoosh_small_in
 - transition_resume: *o0
-- amb:
+- se:
   - amb_adv_forest_01
 - chara_full:
   - 311
@@ -3135,7 +3264,7 @@
   - 15
 - print:
   - 男性
-  - 沒事真是太……
+  - 兩位沒事真是太……
 - wait:
   - 20
 - face:
@@ -3143,6 +3272,8 @@
   - 6
 - pop:
   - 311
+- se:
+  - se_adv_cloth_move_hard_01
 - print:
   - 男性
   - 呃，
@@ -3151,6 +3282,8 @@
 - print:
   - 男性
   - 那個魔物是！？
+- se_pause:
+  - se_adv_cloth_move_hard_01
 - touch: *o0
 - focus:
   - 106011
@@ -3316,7 +3449,12 @@
 - touch: *o0
 - window_visible:
   - false
-- amb_stop:
+- se_pause:
+  - amb_adv_forest_01
+  - 1
+- bgm:
+  - stop
+  - 1
   - 1
 - black_out:
   - 1
