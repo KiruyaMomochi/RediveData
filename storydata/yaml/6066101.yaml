@@ -1,0 +1,249 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500040
+- amb:
+  - amb_adv_room_noise_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 關於公會
+- chara_full:
+  - 106611
+  - C
+  - 2
+- fadein:
+  - 106611
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M274
+  - 0
+  - 0
+  - 1
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_6066101_000
+- face:
+  - 106611
+  - 2
+- print:
+  - 祈梨
+  - 雖然我們
+- wait:
+  - 20
+- print:
+  - 祈梨
+  - 【龍族巢穴】公會
+- wait:
+  - 25
+- print:
+  - 祈梨
+  - 人數少，但裡頭全都是菁英呢。
+- wait:
+  - 60
+- print:
+  - 祈梨
+  - >2-
+
+    不會輸給其它公會。
+- wait:
+  - 65
+- print:
+  - 祈梨
+  - >2-
+
+    小哥你一定知道
+- wait:
+  - 50
+- print:
+  - 祈梨
+  - 這是託誰的福吧？
+- touch: &o0 []
+- choice:
+  - 多虧了嘉夜。
+  - 1
+  - 1
+- choice:
+  - 多虧了帆稀。
+  - 2
+  - 2
+- choice:
+  - 多虧了祈梨。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_6066101_001
+- face:
+  - 106611
+  - 2
+- nod:
+  - 106611
+- print:
+  - 祈梨
+  - 算是及格的答案吧。
+- wait:
+  - 45
+- print:
+  - 祈梨
+  - >2-
+
+    論打頭陣應該沒有人能比得過嘉夜夜！
+- wait:
+  - 80
+- print:
+  - 祈梨
+  - >2-
+
+    不過，
+- wait:
+  - 30
+- print:
+  - 祈梨
+  - 那也是因為有我在後方支援她啦！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_6066101_002
+- face:
+  - 106611
+  - 3
+- pop:
+  - 106611
+- print:
+  - 祈梨
+  - 你在說什麼啊！
+- wait:
+  - 40
+- print:
+  - 祈梨
+  - >2-
+
+    老大她只不過是個既腹黑又陰險，
+- wait:
+  - 35
+- print:
+  - 祈梨
+  - 還只會在暗地裡搞小動作的小人罷了！
+- wait:
+  - 60
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 106611
+  - 2
+- print:
+  - 祈梨
+  - 我和嘉夜夜才是
+- wait:
+  - 30
+- print:
+  - 祈梨
+  - 【龍族巢穴】的靈魂人物啦！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_6066101_003
+- face:
+  - 106611
+  - 2
+- emotion:
+  - twinkle1_R
+  - 106611
+  - -115
+  - 405
+  - se_adv_emote_twinkle_01
+- print:
+  - 祈梨
+  - 哼哼，
+- wait:
+  - 20
+- print:
+  - 祈梨
+  - 你這不是很懂嘛！
+- wait:
+  - 40
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 106611
+  - 3
+- print:
+  - 祈梨
+  - 【龍族巢穴】
+- wait:
+  - 20
+- print:
+  - 祈梨
+  - 可說是靠我才撐起來的！
+- wait:
+  - 40
+- print:
+  - 祈梨
+  - >2-
+
+    我也出了不少力呢！
+- wait:
+  - 45
+- print:
+  - 祈梨
+  - ……
+- wait:
+  - 35
+- print:
+  - 祈梨
+  - 像是跑腿啊！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 106611
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

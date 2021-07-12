@@ -1,0 +1,4041 @@
+- title:
+  - タマキ（作業服） 第3話
+- outline:
+  - おもちゃの贋作が出回り工場の人たちが困っていることを知ったタマキたちは、悪を懲らしめるために正義の怪盗となって暗躍する。犯人のアジトから設計図を奪還し、華麗に事件を解決するのだった。
+- background:
+  - 501340
+- se:
+  - amb_adv_factory_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 正義の怪盗
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - 『すぐ出てくるのに最高の品質！』
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - 『おまけの猫フィギュアがかわいい』
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - >2-
+
+    などの評判により、
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - 工場内外から客が押し寄せたタマキのたい焼き屋。
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - >2-
+
+    しかしその日は急遽休業日を取り、
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - 話し合いの場が設けられていた。
+- wait:
+  - 30
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 116811
+  - C
+  - 3
+- fadein:
+  - 116811
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M13_02_Strings
+  - 0
+  - 0
+  - 1
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_000
+- face:
+  - 116811
+  - 3
+- print:
+  - タマキ
+  - ……由々しき事態にゃ。
+- wait:
+  - 55
+- print:
+  - タマキ
+  - >2-
+
+    何も聞かずに、
+- wait:
+  - 25
+- nod:
+  - 116811
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - タマキ
+  - まずはこれを見るにゃ！！
+- touch: *o0
+- choice:
+  - タマキフィギュア？
+  - 1
+- tag:
+  - 1
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_001
+- face:
+  - 116811
+  - 4
+- print:
+  - タマキ
+  - そうにゃ。
+- wait:
+  - 30
+- print:
+  - タマキ
+  - >2-
+
+    あたしがおまけの中に入れちゃった黒歴史にゃ……！！
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_002
+- face:
+  - 116811
+  - 6
+- print:
+  - タマキ
+  - タマキフィギュアは既に自主回収済み。
+- wait:
+  - 55
+- print:
+  - タマキ
+  - >2
+
+- face:
+  - 116811
+  - 3
+- print:
+  - タマキ
+  - 未回収分は、
+- wait:
+  - 20
+- print:
+  - タマキ
+  - '{0}が持ってるあの一個だけにゃ！！'
+- wait:
+  - 50
+- print:
+  - タマキ
+  - >2
+
+- face:
+  - 116811
+  - 4
+- print:
+  - タマキ
+  - 早く返せと小言を言ってやりたいけど、
+- wait:
+  - 45
+- print:
+  - タマキ
+  - ひとまず置いておいて……
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_003
+- face:
+  - 116811
+  - 6
+- print:
+  - タマキ
+  - もう出回っていないはずのフィギュアがどうしてここにあるのか、
+- wait:
+  - 50
+- print:
+  - タマキ
+  - >2-
+
+    {0}には推理できるかにゃ！？
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_004
+- face:
+  - 116811
+  - 3
+- print:
+  - タマキ
+  - ヒントにゃ、
+- wait:
+  - 35
+- print:
+  - タマキ
+  - このフィギュアの尻尾をよく見るにゃ！
+- wait:
+  - 40
+- print:
+  - タマキ
+  - >2-
+
+    かぎづめ型になってるし、
+- wait:
+  - 25
+- print:
+  - タマキ
+  - そもそも尻尾が一本しかないにゃ！
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_005
+- face:
+  - 116811
+  - 3
+- eye_open:
+  - False
+- print:
+  - タマキ
+  - なにより……
+- wait:
+  - 45
+- eye_open:
+  - True
+- emotion:
+  - anger1_R
+  - 116811
+  - -65
+  - 535
+  - se_adv_emote_anger_01
+- print:
+  - タマキ
+  - かわいくないにゃ！！
+- wait:
+  - 40
+- print:
+  - タマキ
+  - >2-
+
+    つまりこれは、
+- wait:
+  - 10
+- print:
+  - タマキ
+  - 偽物にゃ！！
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_006
+- face:
+  - 116811
+  - 6
+- print:
+  - タマキ
+  - ちなみにこのフィギュアを持ってたのは、
+- wait:
+  - 20
+- print:
+  - タマキ
+  - 常連のお客さんにゃ。
+- wait:
+  - 35
+- print:
+  - タマキ
+  - >2-
+
+    とある露店で、
+- wait:
+  - 25
+- print:
+  - タマキ
+  - このフィギュアを特別価格で購入したらしいにゃ。
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_007
+- face:
+  - 116811
+  - 4
+- print:
+  - タマキ
+  - でも、
+- wait:
+  - 25
+- print:
+  - タマキ
+  - あたしがその露店へ行った時には既になくなってて……
+- wait:
+  - 80
+- print:
+  - タマキ
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - タマキ
+  - 悔しいけど、
+- wait:
+  - 30
+- print:
+  - タマキ
+  - それ以上の追跡はできなかったにゃ。
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_008
+- face:
+  - 116811
+  - 4
+- eye_open:
+  - True
+- print:
+  - タマキ
+  - だから泣く泣く引き返してきたわけだけど……
+- wait:
+  - 80
+- print:
+  - タマキ
+  - >2
+
+- face:
+  - 116811
+  - 3
+- print:
+  - タマキ
+  - それにしても、
+- wait:
+  - 40
+- print:
+  - タマキ
+  - このフィギュアはなんにゃ！？
+- wait:
+  - 35
+- print:
+  - タマキ
+  - >2-
+
+    まねするならとことん追求してまねしてほしいにゃ！！
+- touch: *o0
+- choice:
+  - すごく怒ってるね……
+  - 2
+- tag:
+  - 2
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_009
+- face:
+  - 116811
+  - 3
+- emotion:
+  - anger1_R
+  - 116811
+  - -65
+  - 535
+  - se_adv_emote_anger_01
+- print:
+  - タマキ
+  - 当然にゃ！
+- wait:
+  - 30
+- print:
+  - タマキ
+  - >2-
+
+    後出しのくせにクオリティが低いってどういうことにゃ！？
+- wait:
+  - 50
+- print:
+  - タマキ
+  - >2-
+
+    お客さんを喜ばせようっていう精神が欠落してる証拠にゃ！！
+- touch: *o0
+- bgm:
+  - stop
+  - 2.2
+  - 1
+- window_visible:
+  - false
+- fadeout:
+  - 116811
+  - 30
+- chara_full:
+  - 116811
+  - LC
+  - 6
+- chara_full:
+  - 1411
+  - R
+  - 2
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - R
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - true
+- bgm:
+  - bgm_M180_Ver2
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1168003_010
+- face:
+  - 1411
+  - 2
+- print:
+  - 工場長
+  - よく言ってくれたね、
+- wait:
+  - 20
+- print:
+  - 工場長
+  - タマキくん！
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_011
+- face:
+  - 116811
+  - 6
+- print:
+  - タマキ
+  - うにゃ！？　
+- wait:
+  - 20
+- print:
+  - タマキ
+  - 工場長！？
+- wait:
+  - 35
+- print:
+  - タマキ
+  - >2
+
+- face:
+  - 116811
+  - 1
+- print:
+  - タマキ
+  - もしかしてたい焼き買いに来てくれたのかにゃ！？
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1168003_012
+- face:
+  - 1411
+  - 1
+- print:
+  - 工場長
+  - うん。
+- wait:
+  - 15
+- print:
+  - 工場長
+  - そのつもりだったんだけど、
+- wait:
+  - 30
+- print:
+  - 工場長
+  - 今日は定休日だったんだね。
+- wait:
+  - 50
+- print:
+  - 工場長
+  - >2
+
+- face:
+  - 1411
+  - 2
+- bgm:
+  - stop
+  - 6.2
+- print:
+  - 工場長
+  - それはそうと、
+- wait:
+  - 25
+- print:
+  - 工場長
+  - 今のタマキくんの怒りの声、
+- wait:
+  - 45
+- print:
+  - 工場長
+  - >2-
+
+    胸がスカッとする思いがしたよ！
+- touch: *o0
+- bgm:
+  - bgm_M326
+  - 0
+  - 0
+  - 1
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1168003_013
+- face:
+  - 1411
+  - 4
+- print:
+  - 工場長
+  - 実は
+- wait:
+  - 15
+- print:
+  - 工場長
+  - うちで出しているおもちゃも
+- wait:
+  - 20
+- print:
+  - 工場長
+  - 贋作を作られててね……
+- wait:
+  - 45
+- print:
+  - 工場長
+  - >2-
+
+    色違いとか
+- wait:
+  - 15
+- print:
+  - 工場長
+  - 幻の製造番号とか、
+- wait:
+  - 45
+- print:
+  - 工場長
+  - そういったでっち上げをして、
+- wait:
+  - 30
+- print:
+  - 工場長
+  - >2-
+
+    高値で商売しているらしい。
+- touch: *o0
+- face:
+  - 116811
+  - 6
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1168003_014
+- face:
+  - 1411
+  - 6
+- print:
+  - 工場長
+  - 噂によると、
+- wait:
+  - 25
+- print:
+  - 工場長
+  - とある貴族が集団を率いて贋作を作らせているらしいんだ。
+- wait:
+  - 90
+- print:
+  - 工場長
+  - >2
+
+- face:
+  - 1411
+  - 3
+- print:
+  - 工場長
+  - 私はそれが許せなくて
+- wait:
+  - 30
+- print:
+  - 工場長
+  - その貴族の屋敷まで抗議に行ったんだけど……
+- wait:
+  - 55
+- print:
+  - 工場長
+  - >2
+
+- face:
+  - 1411
+  - 4
+- print:
+  - 工場長
+  - 門前払いだったよ。
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1168003_015
+- face:
+  - 1411
+  - 4
+- print:
+  - 工場長
+  - 証拠がない以上、
+- wait:
+  - 25
+- print:
+  - 工場長
+  - 騎士団に相談もできない。
+- wait:
+  - 60
+- print:
+  - 工場長
+  - >2-
+
+    その間にも贋作は作られ続けて、
+- wait:
+  - 55
+- print:
+  - 工場長
+  - 完全に泣き寝入りさ……
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1168003_016
+- face:
+  - 1411
+  - 6
+- print:
+  - 工場長
+  - その『猫フィギュア』の贋作を作ったのも
+- wait:
+  - 35
+- print:
+  - 工場長
+  - 彼らの仕業なんだろう。
+- wait:
+  - 55
+- print:
+  - 工場長
+  - >2
+
+- face:
+  - 1411
+  - 4
+- print:
+  - 工場長
+  - ……悪行が見逃されるだなんて、
+- wait:
+  - 45
+- print:
+  - 工場長
+  - 世も末だよ。
+- touch: *o0
+- bgm:
+  - stop
+  - 7.1
+  - 1
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_017
+- face:
+  - 116811
+  - 6
+- nod:
+  - 116811
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - タマキ
+  - 工場長。
+- wait:
+  - 35
+- print:
+  - タマキ
+  - よければもっと詳細な情報を、
+- wait:
+  - 35
+- print:
+  - タマキ
+  - >2-
+
+    ランドソルにある
+- wait:
+  - 10
+- print:
+  - タマキ
+  - 目安箱へ投函するにゃ！
+- touch: *o0
+- bgm:
+  - bgm_M163
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_018
+- face:
+  - 116811
+  - 1
+- print:
+  - タマキ
+  - 弱い者の味方・
+- wait:
+  - 30
+- print:
+  - タマキ
+  - >-
+    ファントムキャッツが
+
+    きっとなんとかしてくれるにゃ！！
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1168003_019
+- face:
+  - 1411
+  - 6
+- print:
+  - 工場長
+  - ファントムキャッツというのは、
+- wait:
+  - 15
+- print:
+  - 工場長
+  - あの義賊のことかい？
+- wait:
+  - 55
+- print:
+  - 工場長
+  - >2
+
+- face:
+  - 1411
+  - 1
+- print:
+  - 工場長
+  - ……そうだね。
+- wait:
+  - 30
+- print:
+  - 工場長
+  - ダメ元でお願いしてみようか。
+- wait:
+  - 55
+- print:
+  - 工場長
+  - >2
+
+- face:
+  - 1411
+  - 2
+- print:
+  - 工場長
+  - ありがとう、
+- wait:
+  - 5
+- print:
+  - 工場長
+  - タマキくん。
+- wait:
+  - 30
+- print:
+  - 工場長
+  - それじゃ、
+- wait:
+  - 10
+- print:
+  - 工場長
+  - 私はこれで……
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - R
+  - RC
+  - 30
+- fadeout_all:
+  - 30
+- chara_full:
+  - 116811
+  - C
+  - 2
+- fadein:
+  - 116811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_020
+- face:
+  - 116811
+  - 2
+- print:
+  - タマキ
+  - 久々に本業にゃ！
+- wait:
+  - 55
+- print:
+  - タマキ
+  - >2
+
+- face:
+  - 116811
+  - 1
+- print:
+  - タマキ
+  - 夜になったら行動開始にゃ！！
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_021
+- face:
+  - 116811
+  - 1
+- print:
+  - タマキ
+  - 最初に言っておくけど、
+- wait:
+  - 30
+- print:
+  - タマキ
+  - 今回{0}は留守番にゃ。
+- wait:
+  - 45
+- print:
+  - タマキ
+  - >2
+
+- face:
+  - 116811
+  - 4
+- print:
+  - タマキ
+  - 正義の行いとはいえ、
+- wait:
+  - 25
+- print:
+  - タマキ
+  - やっぱり一般人を危険に巻き込むのは、
+- wait:
+  - 35
+- print:
+  - タマキ
+  - >2-
+
+    あたしのポリシーが許さないにゃ。
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_022
+- face:
+  - 116811
+  - 1
+- nod:
+  - 116811
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - タマキ
+  - とにかく！
+- wait:
+  - 25
+- print:
+  - タマキ
+  - >2-
+
+    おもちゃ工場の人たちを助けるのは、
+- wait:
+  - 35
+- print:
+  - タマキ
+  - >2-
+
+    このファントムキャッツの役目にゃ！！
+- touch: *o0
+- choice:
+  - でもタマキを助けられるのは僕だけ。
+  - 3
+- tag:
+  - 3
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_023
+- face:
+  - 116811
+  - 6
+- emotion:
+  - surprise1_L
+  - 116811
+  - 165
+  - 480
+  - se_adv_emote_common_01
+- print:
+  - タマキ
+  - ……にゃっ！？
+- wait:
+  - 30
+- print:
+  - タマキ
+  - >2-
+
+    {0}って奴はほんとに……！
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_024
+- face:
+  - 116811
+  - 4
+- print:
+  - タマキ
+  - いつもぼーっとした顔をしてるクセに、
+- wait:
+  - 55
+- print:
+  - タマキ
+  - こういう時だけ……
+- wait:
+  - 55
+- print:
+  - タマキ
+  - >2-
+
+    ほんとズルイ奴にゃ……！　
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - TRUE
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_025
+- face:
+  - 116811
+  - 6
+- print:
+  - タマキ
+  - …………わ、
+- wait:
+  - 20
+- print:
+  - タマキ
+  - 分かったにゃ！
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_026
+- face:
+  - 116811
+  - 1
+- print:
+  - タマキ
+  - たしかに{0}には何度も助けてもらったし……
+- wait:
+  - 65
+- print:
+  - タマキ
+  - >2-
+
+    それなら、
+- wait:
+  - 20
+- print:
+  - タマキ
+  - ちょっとだけ手伝ってもらうにゃ！
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_027
+- face:
+  - 116811
+  - 3
+- nod:
+  - 116811
+- print:
+  - タマキ
+  - ただし！　
+- wait:
+  - 25
+- print:
+  - タマキ
+  - 無茶だけは絶対にしないでほしいにゃ！
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_028
+- face:
+  - 116811
+  - 1
+- print:
+  - タマキ
+  - もしピンチになったら、
+- wait:
+  - 25
+- print:
+  - タマキ
+  - >-
+    あたしは{0}を
+
+    逃がすことを優先するにゃ！
+- wait:
+  - 40
+- print:
+  - タマキ
+  - >2-
+
+    {0}もそのつもりでいてほしいにゃ！
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_029
+- face:
+  - 116811
+  - 4
+- print:
+  - タマキ
+  - ……そんな嫌な顔するにゃ。
+- wait:
+  - 65
+- print:
+  - タマキ
+  - >2
+
+- face:
+  - 116811
+  - 1
+- print:
+  - タマキ
+  - 大丈夫にゃ。
+- wait:
+  - 20
+- print:
+  - タマキ
+  - もしもの話にゃ！！
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_030
+- face:
+  - 116811
+  - 2
+- print:
+  - タマキ
+  - そうと決まればさっそく準備にゃ！
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+- window_visible:
+  - false
+- fadeout:
+  - 116811
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_factory_01
+  - 1
+- background:
+  - 500942
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_outdoors_night_01
+- chara_full:
+  - 116811
+  - C
+  - 6
+- fadein:
+  - 116811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M46_Ver3
+  - 0
+  - 0
+  - 1
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_031
+- face:
+  - 116811
+  - 6
+- print:
+  - タマキ
+  - 工場長の手紙によれば、
+- wait:
+  - 45
+- print:
+  - タマキ
+  - >2-
+
+    贋作に手を染めている貴族は
+- wait:
+  - 35
+- print:
+  - タマキ
+  - この屋敷で暮らしてるみたいにゃ……
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_032
+- face:
+  - 116811
+  - 6
+- print:
+  - タマキ
+  - 他の屋敷と比べてみても塀が高いにゃ。
+- wait:
+  - 75
+- print:
+  - タマキ
+  - >2-
+
+    そうとう警戒心が強いみたいにゃ。
+- wait:
+  - 75
+- print:
+  - タマキ
+  - >2
+
+- face:
+  - 116811
+  - 3
+- print:
+  - タマキ
+  - ……やっぱり、
+- wait:
+  - 25
+- print:
+  - タマキ
+  - 何かを隠そうとしているのかもにゃ。
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_033
+- face:
+  - 116811
+  - 1
+- nod:
+  - 116811
+- se:
+  - se_adv_step_concrete_move_01
+- print:
+  - タマキ
+  - それじゃ探索を開始する前に、
+- wait:
+  - 40
+- print:
+  - タマキ
+  - 改めて確認にゃ。
+- wait:
+  - 45
+- print:
+  - タマキ
+  - >2
+
+- face:
+  - 116811
+  - 3
+- print:
+  - タマキ
+  - 今回の目的は、
+- wait:
+  - 30
+- print:
+  - タマキ
+  - 贋作の証拠を見つけることにゃ。
+- wait:
+  - 55
+- print:
+  - タマキ
+  - >2
+
+- face:
+  - 116811
+  - 1
+- print:
+  - タマキ
+  - 証拠さえつかめば、
+- wait:
+  - 25
+- print:
+  - タマキ
+  - あとは法がさばいてくれるにゃ！
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_034
+- face:
+  - 116811
+  - 6
+- print:
+  - タマキ
+  - 侵入方法は……
+- wait:
+  - 70
+- face:
+  - 116811
+  - 4
+- print:
+  - タマキ
+  - 門からだと見張りがいるから無理にゃ。
+- wait:
+  - 50
+- print:
+  - タマキ
+  - >2
+
+- face:
+  - 116811
+  - 6
+- print:
+  - タマキ
+  - それなら、
+- wait:
+  - 20
+- print:
+  - タマキ
+  - 塀を登るしかないけど……
+- wait:
+  - 55
+- print:
+  - タマキ
+  - >2
+
+- face:
+  - 116811
+  - 1
+- print:
+  - タマキ
+  - ふふん、
+- wait:
+  - 40
+- print:
+  - タマキ
+  - ここであたしの秘密の道具の出番にゃ！
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_035
+- face:
+  - 116811
+  - 1
+- nod:
+  - 116811
+- se:
+  - se_adv_body_touch_01
+- print:
+  - タマキ
+  - 手袋と靴をこうやって押すと……
+- wait:
+  - 80
+- se:
+  - se_adv_weapon_dagger_set_01
+- print:
+  - タマキ
+  - かぎづめが出てくるにゃ！
+- wait:
+  - 50
+- print:
+  - タマキ
+  - >2-
+
+    これを使えば
+- wait:
+  - 15
+- print:
+  - タマキ
+  - 壁を楽に登れるにゃ！
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_036
+- face:
+  - 116811
+  - 1
+- print:
+  - タマキ
+  - 名付けて
+- wait:
+  - 25
+- se:
+  - se_adv_hyoshigi_03
+- print:
+  - タマキ
+  - 『猫の爪登り』！
+- wait:
+  - 45
+- print:
+  - タマキ
+  - >2-
+
+    壁を勢いよく登る猫からアイデアをもらったにゃ！
+- wait:
+  - 70
+- print:
+  - タマキ
+  - >2
+
+- face:
+  - 116811
+  - 2
+- print:
+  - タマキ
+  - もちろん{0}の装備品にもばっちりついてるにゃ！
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_037
+- face:
+  - 116811
+  - 1
+- nod:
+  - 116811
+- print:
+  - タマキ
+  - それじゃ、
+- wait:
+  - 25
+- print:
+  - タマキ
+  - ファントムキャッツ活動開始にゃ！
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
+- window_visible:
+  - false
+- se:
+  - se_adv_move_fast_02
+- out_R:
+  - 116811
+  - 30
+  - true
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_outdoors_night_01
+  - 1
+- background:
+  - 501242
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_room_noise_night_01
+- chara_full:
+  - 116811
+  - C
+  - 2
+- fadein:
+  - 116811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M357
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_038
+- face:
+  - 116811
+  - 2
+- emotion:
+  - note1_L
+  - 116811
+  - -80
+  - 500
+  - se_adv_emote_note_01
+- print:
+  - タマキ
+  - にゃはは！　
+- wait:
+  - 20
+- print:
+  - タマキ
+  - さすがあたしにゃ！
+- wait:
+  - 35
+- print:
+  - タマキ
+  - >2-
+
+    侵入なんて朝飯前にゃ！
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 1
+- vo:
+  - vo_adv_1168003_039
+- face:
+  - 811
+  - 1
+- print:
+  - 警備員の声
+  - ん？　
+- wait:
+  - 45
+- print:
+  - 警備員の声
+  - そこに誰かいるのか？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 116811
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 811
+  - RC
+  - 4
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - RC
+  - 30
+- fadein:
+  - 811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1168003_040
+- face:
+  - 811
+  - 4
+- print:
+  - 警備員
+  - 気のせいか……
+- wait:
+  - 45
+- print:
+  - 警備員
+  - >2
+
+- face:
+  - 811
+  - 1
+- print:
+  - 警備員
+  - まぁ、
+- wait:
+  - 20
+- print:
+  - 警備員
+  - この屋敷に侵入できる奴なんて、
+- wait:
+  - 45
+- print:
+  - 警備員
+  - いやしねぇか。
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1168003_041
+- face:
+  - 811
+  - 1
+- print:
+  - 警備員
+  - にしても……
+- wait:
+  - 15
+- print:
+  - 警備員
+  - 用心棒100人を屋敷中に配備するなんてなぁ……
+- wait:
+  - 65
+- print:
+  - 警備員
+  - >2
+
+- face:
+  - 811
+  - 4
+- print:
+  - 警備員
+  - まぁ、
+- wait:
+  - 30
+- print:
+  - 警備員
+  - 神経質にもなるか。
+- wait:
+  - 45
+- print:
+  - 警備員
+  - >2-
+
+    地下のアレを見られりゃ、
+- wait:
+  - 30
+- print:
+  - 警備員
+  - 旦那も終わりだ。
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1168003_042
+- face:
+  - 811
+  - 4
+- eye_open:
+  - False
+- print:
+  - 警備員
+  - はーあ。
+- wait:
+  - 30
+- print:
+  - 警備員
+  - にしても暇だぜ……
+- wait:
+  - 45
+- print:
+  - 警備員
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 警備員
+  - あっち行って、
+- wait:
+  - 15
+- print:
+  - 警備員
+  - 仲間とちょっと飲むか……
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 811
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 116811
+  - C
+  - 6
+- updown:
+  - 116811
+  - 0
+  - -150
+  - 0.1
+- se:
+  - se_adv_cloth_move_normal_01
+- fadein:
+  - 116811
+  - 15
+- updown:
+  - 116811
+  - 0
+  - 150
+  - 0.5
+- window_visible:
+  - true
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_043
+- face:
+  - 116811
+  - 6
+- print:
+  - タマキ
+  - あ、
+- wait:
+  - 30
+- print:
+  - タマキ
+  - 危なかったにゃ……！
+- wait:
+  - 70
+- print:
+  - タマキ
+  - >2
+
+- face:
+  - 116811
+  - 4
+- print:
+  - タマキ
+  - とっさに隠れなかったら、
+- wait:
+  - 25
+- print:
+  - タマキ
+  - 計画が失敗するところだったにゃ……！
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_044
+- face:
+  - 116811
+  - 6
+- print:
+  - タマキ
+  - あいつ、
+- wait:
+  - 30
+- print:
+  - タマキ
+  - 地下がどうのこうの言ってたにゃ……
+- wait:
+  - 70
+- print:
+  - タマキ
+  - >2
+
+- face:
+  - 116811
+  - 1
+- print:
+  - タマキ
+  - あたしたちもそこへ行ってみるにゃ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 116811
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_room_noise_night_01
+  - 1
+- background:
+  - 501340
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_room_noise_01
+- chara_full:
+  - 116811
+  - C
+  - 6
+- fadein:
+  - 116811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_045
+- face:
+  - 116811
+  - 6
+- emotion:
+  - surprise1_L
+  - 116811
+  - 165
+  - 480
+  - se_adv_emote_common_01
+- print:
+  - タマキ
+  - こ、
+- wait:
+  - 20
+- print:
+  - タマキ
+  - これは……！
+- wait:
+  - 45
+- print:
+  - タマキ
+  - >2-
+
+    工場にゃ！？　
+- wait:
+  - 45
+- print:
+  - タマキ
+  - それに見るにゃ！！
+- wait:
+  - 20
+- print:
+  - タマキ
+  - >2-
+
+    これ、
+- wait:
+  - 15
+- print:
+  - タマキ
+  - うちで作ってるおもちゃにゃ！！
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_046
+- face:
+  - 116811
+  - 6
+- print:
+  - タマキ
+  - でも、
+- wait:
+  - 10
+- print:
+  - タマキ
+  - うちのとは作りが違うにゃ。
+- wait:
+  - 35
+- face:
+  - 116811
+  - 3
+- print:
+  - タマキ
+  - というか雑にゃ！
+- wait:
+  - 50
+- print:
+  - タマキ
+  - >2-
+
+    組み立て方といい、
+- wait:
+  - 30
+- print:
+  - タマキ
+  - 塗り方といい、
+- wait:
+  - 15
+- print:
+  - タマキ
+  - 全部なってないにゃ！
+- wait:
+  - 40
+- print:
+  - タマキ
+  - >2
+
+- face:
+  - 116811
+  - 1
+- print:
+  - タマキ
+  - 毎日毎日おもちゃを組み立ててるあたしには分かるにゃ！
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_047
+- face:
+  - 116811
+  - 3
+- print:
+  - タマキ
+  - 分かるからこそ、
+- wait:
+  - 20
+- print:
+  - タマキ
+  - やっぱり許せないにゃ……
+- wait:
+  - 55
+- print:
+  - タマキ
+  - >2-
+
+    人の努力と夢を、
+- wait:
+  - 30
+- print:
+  - タマキ
+  - 横から掻っ攫っていく悪党が！！
+- wait:
+  - 45
+- print:
+  - タマキ
+  - >2
+
+- nod:
+  - 116811
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - タマキ
+  - '{0}、'
+- wait:
+  - 25
+- print:
+  - タマキ
+  - 設計図を探すにゃ！！
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_048
+- face:
+  - 116811
+  - 1
+- print:
+  - タマキ
+  - 隠したいものは見張っておきたいはずだし、
+- wait:
+  - 35
+- print:
+  - タマキ
+  - >2-
+
+    長年の経験から言えば、
+- wait:
+  - 40
+- print:
+  - タマキ
+  - 貴族の部屋にあるはずにゃ！
+- wait:
+  - 45
+- print:
+  - タマキ
+  - >2
+
+- face:
+  - 116811
+  - 3
+- print:
+  - タマキ
+  - こうなったら
+- wait:
+  - 20
+- print:
+  - タマキ
+  - 一部屋ずつ探していくにゃ！
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+- window_visible:
+  - false
+- fadeout:
+  - 116811
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_room_noise_01
+  - 1
+- background:
+  - 501242
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_room_noise_night_01
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - >-
+    タマキと{0}は
+
+    手分けしながら部屋を一つずつ探し、
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - ついに貴族の部屋を発見した。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- chara_full:
+  - 116811
+  - C
+  - 1
+- fadein:
+  - 116811
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M288_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_049
+- face:
+  - 116811
+  - 1
+- print:
+  - タマキ
+  - あたしの勘では……
+- wait:
+  - 60
+- nod:
+  - 116811
+- se:
+  - se_adv_break_board_01
+- print:
+  - タマキ
+  - この壁の中にゃ！！
+- wait:
+  - 55
+- print:
+  - タマキ
+  - >2
+
+- face:
+  - 116811
+  - 2
+- print:
+  - タマキ
+  - やっぱり！　
+- wait:
+  - 30
+- print:
+  - タマキ
+  - 金庫発見にゃ！
+- wait:
+  - 45
+- print:
+  - タマキ
+  - >2
+
+- face:
+  - 116811
+  - 1
+- print:
+  - タマキ
+  - それじゃ、
+- wait:
+  - 15
+- print:
+  - タマキ
+  - ちょっと失礼して……
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 3
+- face:
+  - 116811
+  - 6
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 5.2
+  - 1
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 1
+- vo:
+  - vo_adv_1168003_050
+- face:
+  - 1011
+  - 3
+- print:
+  - ？？？
+  - おいっ！　
+- wait:
+  - 15
+- print:
+  - ？？？
+  - 侵入者だ、
+- wait:
+  - 15
+- print:
+  - ？？？
+  - ここに侵入者がいるぞ！！
+- wait:
+  - 15
+- print:
+  - ？？？
+  - >2-
+
+    みんな来てくれ！！
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- window_visible:
+  - true
+- bgm:
+  - bgm_M42_02
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_051
+- face:
+  - 116811
+  - 4
+- pop:
+  - 116811
+- se:
+  - se_adv_rabbit_jump_01
+- print:
+  - タマキ
+  - にゃにゃっ！？　
+- wait:
+  - 30
+- print:
+  - タマキ
+  - バレてしまったにゃ……！！
+- wait:
+  - 45
+- print:
+  - タマキ
+  - >2
+
+- face:
+  - 116811
+  - 3
+- print:
+  - タマキ
+  - こうなったら……
+- wait:
+  - 30
+- print:
+  - タマキ
+  - >2-
+
+    金庫を開けるのは{0}に任せるにゃ！
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 116811
+  - 6
+- emotion:
+  - question1_R
+  - 116811
+  - 130
+  - 420
+  - se_adv_emote_question_01
+- wait:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_052
+- face:
+  - 116811
+  - 6
+- print:
+  - タマキ
+  - え？　
+- wait:
+  - 20
+- print:
+  - タマキ
+  - 金庫を開けられるか不安？　
+- wait:
+  - 45
+- face:
+  - 116811
+  - 1
+- print:
+  - タマキ
+  - そこは心配しなくて大丈夫にゃ！
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_053
+- face:
+  - 116811
+  - 1
+- nod:
+  - 116811
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - タマキ
+  - '{0}に貸してあげたその腕輪……'
+- wait:
+  - 35
+- print:
+  - タマキ
+  - >2-
+
+    それを金庫にセットすれば、
+- wait:
+  - 20
+- print:
+  - タマキ
+  - >2-
+
+    番号を探し当てるサポートをしてくれるにゃ！
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_054
+- face:
+  - 116811
+  - 1
+- print:
+  - タマキ
+  - それまでは……
+- wait:
+  - 30
+- print:
+  - タマキ
+  - あたしが雑魚の相手をするにゃ！
+- wait:
+  - 50
+- print:
+  - タマキ
+  - >2-
+
+    魚ならあたしにお任せにゃ！　
+- wait:
+  - 45
+- face:
+  - 116811
+  - 2
+- bgm:
+  - stop
+  - 3.2
+- print:
+  - タマキ
+  - 一人残らず、
+- wait:
+  - 30
+- print:
+  - タマキ
+  - 調理してやるにゃ！！
+- touch: *o0
+- bgm:
+  - bgm_M41
+  - 0
+  - 0
+  - 1
+- window_visible:
+  - false
+- fadeout:
+  - 116811
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 1011
+  - C
+  - 3
+- fadein:
+  - 1011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_1168003_055
+- face:
+  - 1011
+  - 3
+- print:
+  - 用心棒１
+  - 小娘一人に何ができるっ！
+- wait:
+  - 45
+- print:
+  - 用心棒１
+  - >2-
+
+    はぁあああっ！！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0009
+- se:
+  - se_adv_move_fast_02
+- scale:
+  - 1011
+  - 1.2
+  - 1
+  - 10
+- fadeout:
+  - 1011
+  - 10
+- effect_delete:
+  - 0009
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 116811
+  - C
+  - 1
+- fadein:
+  - 116811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_056
+- face:
+  - 116811
+  - 1
+- print:
+  - タマキ
+  - ネコネコパンチにゃ～～！！！！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0009
+- se:
+  - se_adv_move_fast_02
+- scale:
+  - 116811
+  - 1.2
+  - 2
+  - 10
+- fadeout:
+  - 116811
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0003
+  - se_adv_weapon_punch_hit_02
+- wait:
+  - 15
+- background:
+  - 501242
+- chara_full:
+  - 1011
+  - C
+  - 6
+- fadein:
+  - 1011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_1168003_057
+- face:
+  - 1011
+  - 6
+- print:
+  - 用心棒１
+  - ぶはっ！？
+- sway:
+  - 1011
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_cloth_move_give_01
+- updown:
+  - 1011
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1011
+  - 30
+- se:
+  - se_adv_bodyfall_02
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- chara_full:
+  - 911
+  - C
+  - 6
+- fadein:
+  - 911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1168003_058
+- face:
+  - 911
+  - 6
+- emotion:
+  - exclamation1_R
+  - 911
+  - -15
+  - 715
+  - se_adv_emote_common_01
+- print:
+  - 用心棒２
+  - な、
+- wait:
+  - 15
+- print:
+  - 用心棒２
+  - なんだあれは……！
+- wait:
+  - 30
+- print:
+  - 用心棒２
+  - >2-
+
+    カバンからでっかい手が出てきたぞ！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 911
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 116811
+  - C
+  - 1
+- fadein:
+  - 116811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_059
+- face:
+  - 116811
+  - 1
+- nod:
+  - 116811
+- print:
+  - タマキ
+  - 説明するにゃ！
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_060
+- face:
+  - 116811
+  - 1
+- se:
+  - se_adv_comic_light_01
+- print:
+  - タマキ
+  - これは
+- wait:
+  - 15
+- print:
+  - タマキ
+  - たい焼きメーカーを改良して作った必殺道具カバンにゃ！
+- wait:
+  - 70
+- print:
+  - タマキ
+  - >2-
+
+    ちなみに今のは『猫の手アーム』にゃ！
+- wait:
+  - 35
+- print:
+  - タマキ
+  - >2
+
+- face:
+  - 116811
+  - 2
+- print:
+  - タマキ
+  - 肉球パンチでメロメロにならない奴はいないにゃ♪
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 116811
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 911
+  - C
+  - 6
+- fadein:
+  - 911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1168003_061
+- face:
+  - 911
+  - 6
+- print:
+  - 用心棒２
+  - くそ……っ！
+- wait:
+  - 30
+- print:
+  - 用心棒２
+  - >2
+
+- face:
+  - 911
+  - 3
+- print:
+  - 用心棒２
+  - 誰か旦那に連絡しろ……！
+- wait:
+  - 30
+- print:
+  - 用心棒２
+  - >2-
+
+    それと応援を……
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_comic_punch_05
+- effect:
+  - 0017
+- shake:
+  - 911
+- window_visible:
+  - true
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1168003_062
+- face:
+  - 911
+  - 4
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 用心棒２
+  - ん～～～～！？
+- sway:
+  - 911
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 911
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 116811
+  - C
+  - 1
+- fadein:
+  - 116811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_063
+- face:
+  - 116811
+  - 1
+- nod:
+  - 116811
+- print:
+  - タマキ
+  - 再び説明するにゃ！　
+- wait:
+  - 40
+- se:
+  - se_adv_comic_light_01
+- print:
+  - タマキ
+  - これはガムガムボールにゃ！
+- wait:
+  - 40
+- print:
+  - タマキ
+  - >2-
+
+    これを浴びたら口がふさがってしゃべれなくなるにゃ！
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_064
+- face:
+  - 116811
+  - 6
+- print:
+  - タマキ
+  - '{0}っ！'
+- wait:
+  - 15
+- print:
+  - タマキ
+  - >2-
+
+    金庫は開きそうかにゃ！？
+- touch: *o0
+- se:
+  - se_adv_lockpick_04
+- choice:
+  - 今ちょうど開いた！
+  - 4
+- tag:
+  - 4
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_065
+- face:
+  - 116811
+  - 2
+- print:
+  - タマキ
+  - 上出来にゃ！
+- wait:
+  - 30
+- print:
+  - タマキ
+  - >2
+
+- face:
+  - 116811
+  - 6
+- print:
+  - タマキ
+  - それで設計図は……！？
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_bag_search_02
+- nod:
+  - 116811
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_066
+- face:
+  - 116811
+  - 2
+- emotion:
+  - note1_L
+  - 116811
+  - -80
+  - 500
+  - se_adv_emote_note_01
+- print:
+  - タマキ
+  - にゃはは♪　
+- wait:
+  - 15
+- print:
+  - タマキ
+  - やっぱりあったにゃ！
+- wait:
+  - 40
+- print:
+  - タマキ
+  - >2
+
+- face:
+  - 116811
+  - 1
+- print:
+  - タマキ
+  - ファントムキャッツの猫ひげがビビッときたから、
+- wait:
+  - 20
+- print:
+  - タマキ
+  - >2-
+
+    そうじゃないかと思ったにゃ♪
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_067
+- face:
+  - 116811
+  - 1
+- print:
+  - タマキ
+  - それじゃ
+- wait:
+  - 15
+- print:
+  - タマキ
+  - その窓から撤収するにゃ！
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
+- window_visible:
+  - false
+- fadeout:
+  - 116811
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_room_noise_night_01
+  - 1
+- background:
+  - 500942
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_outdoors_night_01
+- chara_full:
+  - 116811
+  - C
+  - 1
+- fadein:
+  - 116811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_068
+- face:
+  - 116811
+  - 1
+- nod:
+  - 116811
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - タマキ
+  - ふぅ……
+- wait:
+  - 40
+- print:
+  - タマキ
+  - 外へ出ちゃえばもう安心──
+- touch: *o0
+- bgm:
+  - bgm_M418
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 1
+- vo:
+  - vo_adv_1168003_069
+- face:
+  - 2511
+  - 8
+- print:
+  - 貴族
+  - 残念。
+- wait:
+  - 45
+- print:
+  - 貴族
+  - 君たちのゲームも
+- wait:
+  - 35
+- print:
+  - 貴族
+  - ここまでだよ。
+- touch: *o0
+- se:
+  - se_adv_step_run_group_03
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 0
+- vo:
+  - vo_adv_1168003_070
+- face:
+  - 116811
+  - 6
+- emotion:
+  - surprise1_L
+  - 116811
+  - 165
+  - 480
+  - se_adv_emote_common_01
+- print:
+  - タマキ
+  - っ！？　
+- wait:
+  - 40
+- print:
+  - タマキ
+  - 用心棒たちに囲まれたにゃ……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 116811
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 2511
+  - RC
+  - 1
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - RC
+  - 45
+- fadein:
+  - 2511
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1168003_071
+- face:
+  - 2511
+  - 1
+- print:
+  - 貴族
+  - この厳重な警備を潜り抜け、
+- wait:
+  - 60
+- print:
+  - 貴族
+  - 目的のお宝を手に入れ攻略完了……
+- wait:
+  - 105
+- print:
+  - 貴族
+  - >2-
+
+    ゲームに勝ったつもりでいるようだが、
+- wait:
+  - 40
+- print:
+  - 貴族
+  - 詰めが甘いね。
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1168003_072
+- face:
+  - 2511
+  - 3
+- print:
+  - 貴族
+  - さぁ、
+- wait:
+  - 40
+- print:
+  - 貴族
+  - 大人しくその設計図を渡せ。
+- wait:
+  - 80
+- print:
+  - 貴族
+  - >2-
+
+    人生まで
+- wait:
+  - 30
+- print:
+  - 貴族
+  - ゲームオーバーにはなりたくないだろ？
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1168003_073
+- face:
+  - 2511
+  - 1
+- print:
+  - 貴族
+  - とはいえ、
+- wait:
+  - 40
+- print:
+  - 貴族
+  - 君たちにも考える時間を与えてやろう。
+- wait:
+  - 75
+- print:
+  - 貴族
+  - >2-
+
+    10数えるまで待ってやる。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 2511
+  - 30
+- white_out:
+  - 1
+  - 1
+- bg_color:
+  - 255
+  - 255
+  - 255
+- still:
+  - 116800301
+- wait:
+  - 15
+- white_in: *o0
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 1
+- vo:
+  - vo_adv_1168003_074
+- face:
+  - 116811
+  - 4
+- print:
+  - タマキ
+  - さすがにこの数を相手にするのは無理にゃ……！
+- wait:
+  - 90
+- print:
+  - タマキ
+  - >2
+
+- face:
+  - 116811
+  - 6
+- print:
+  - タマキ
+  - 最優先は……
+- wait:
+  - 45
+- print:
+  - タマキ
+  - こいつを安全に家へ帰すことにゃ……
+- wait:
+  - 75
+- print:
+  - タマキ
+  - >2
+
+- face:
+  - 116811
+  - 4
+- print:
+  - タマキ
+  - だから、
+- wait:
+  - 45
+- print:
+  - タマキ
+  - 仕方ないけど……
+- touch: *o0
+- choice:
+  - 僕はタマキのそばを離れない。
+  - 5
+- tag:
+  - 5
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 1
+- vo:
+  - vo_adv_1168003_075
+- face:
+  - 116811
+  - 6
+- print:
+  - タマキ
+  - にゃっ！？
+- wait:
+  - 15
+- print:
+  - タマキ
+  - >2-
+
+    こ、
+- wait:
+  - 20
+- print:
+  - タマキ
+  - こいつ……
+- wait:
+  - 30
+- print:
+  - タマキ
+  - こんなところで何ふざけてるにゃ！？　
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 1
+- vo:
+  - vo_adv_1168003_076
+- face:
+  - 116811
+  - 6
+- print:
+  - タマキ
+  - ……って、
+- wait:
+  - 35
+- print:
+  - タマキ
+  - なんでそんな真剣な顔してるにゃ。
+- wait:
+  - 75
+- print:
+  - タマキ
+  - >2
+
+- face:
+  - 116811
+  - 4
+- print:
+  - タマキ
+  - もしかして、
+- wait:
+  - 35
+- print:
+  - タマキ
+  - あたしの考えを読んで、
+- wait:
+  - 10
+- print:
+  - タマキ
+  - 怒ってるのかにゃ？　
+- touch: *o0
+- bgm:
+  - stop
+  - 1.8
+- bgm:
+  - bgm_M175_Ver2
+  - 0
+  - 0
+  - 1
+  - 2
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 1
+- vo:
+  - vo_adv_1168003_077
+- face:
+  - 116811
+  - 3
+- print:
+  - タマキ
+  - ……分かったにゃ。
+- wait:
+  - 40
+- print:
+  - タマキ
+  - 後輩にかっこ悪いところは見せられないにゃ。
+- wait:
+  - 50
+- print:
+  - タマキ
+  - >2
+
+- face:
+  - 116811
+  - 1
+- print:
+  - タマキ
+  - ここは意地でも
+- wait:
+  - 35
+- print:
+  - タマキ
+  - 二人で一緒にピンチを乗り越えてやるにゃ！　
+- touch: *o0
+- window_visible:
+  - FALSE
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - TRUE
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 1
+- vo:
+  - vo_adv_1168003_078
+- face:
+  - 116811
+  - 3
+- print:
+  - タマキ
+  - ……{0}。
+- wait:
+  - 30
+- print:
+  - タマキ
+  - >2-
+
+    ちょっとイチかバチかの大博打を打つにゃ……
+- wait:
+  - 65
+- print:
+  - タマキ
+  - >2-
+
+    成功するか分からないけど……
+- wait:
+  - 55
+- print:
+  - タマキ
+  - 最後まで付き合ってくれるかにゃ？
+- touch: *o0
+- choice:
+  - もちろん。
+  - 6
+- tag:
+  - 6
+- window_visible:
+  - false
+- still:
+  - 116800302
+- wait:
+  - 15
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- window_visible:
+  - true
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 1
+- vo:
+  - vo_adv_1168003_079
+- face:
+  - 116811
+  - 2
+- print:
+  - タマキ
+  - ……ありがとにゃ。
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 1
+- vo:
+  - vo_adv_1168003_080
+- face:
+  - 2511
+  - 1
+- print:
+  - 貴族
+  - ……さて。
+- wait:
+  - 40
+- print:
+  - 貴族
+  - カウントは終了したよ。
+- wait:
+  - 50
+- print:
+  - 貴族
+  - >2-
+
+    それで、
+- wait:
+  - 35
+- print:
+  - 貴族
+  - 君たちの結論は？
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 1
+- vo:
+  - vo_adv_1168003_081
+- face:
+  - 116811
+  - 3
+- print:
+  - タマキ
+  - そんなの決まってるにゃ！
+- wait:
+  - 40
+- print:
+  - タマキ
+  - >2-
+
+    設計図は絶対に渡さないにゃ！！
+- wait:
+  - 60
+- print:
+  - タマキ
+  - >2
+
+- face:
+  - 116811
+  - 1
+- print:
+  - タマキ
+  - そんでもって、
+- wait:
+  - 30
+- print:
+  - タマキ
+  - ゲームオーバーはお前の方にゃ！！
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 1
+- vo:
+  - vo_adv_1168003_082
+- face:
+  - 2511
+  - 6
+- print:
+  - 貴族
+  - ……そうか。
+- wait:
+  - 65
+- print:
+  - 貴族
+  - >2
+
+- face:
+  - 2511
+  - 3
+- print:
+  - 貴族
+  - 全員、
+- wait:
+  - 25
+- print:
+  - 貴族
+  - 掛かれ！！
+- wait:
+  - 40
+- print:
+  - 貴族
+  - >2-
+
+    あの泥棒猫たちをひっとらえろ！！
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 1
+- vo:
+  - vo_adv_1168003_083
+- face:
+  - 116811
+  - 3
+- print:
+  - タマキ
+  - 今にゃっ！
+- wait:
+  - 15
+- print:
+  - タマキ
+  - >2-
+
+    {0}、
+- wait:
+  - 15
+- print:
+  - タマキ
+  - あたしにしっかりしがみつくにゃ！！
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_smokeball_01
+- white_out:
+  - 1
+  - 0.5
+- se:
+  - se_adv_explosion_small_03
+- effect_delete:
+  - 0022
+- bg_color:
+  - 255
+  - 255
+  - 255
+- still:
+  - end
+- wait:
+  - 15
+- white_in: *o0
+- window_visible:
+  - TRUE
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 1
+- vo:
+  - vo_adv_1168003_084
+- face:
+  - 2511
+  - 7
+- print:
+  - 貴族
+  - っ！？　
+- wait:
+  - 15
+- print:
+  - 貴族
+  - な、
+- wait:
+  - 20
+- print:
+  - 貴族
+  - なんだこの煙はっ！？
+- touch: *o0
+- window_visible:
+  - false
+- white_out:
+  - 1
+  - 0.5
+- background:
+  - 500942
+- wait:
+  - 15
+- white_in: *o0
+- chara_full:
+  - 2511
+  - RC
+  - 6
+- chara_full:
+  - 911
+  - LC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1168003_085
+- face:
+  - 2511
+  - 6
+- emotion:
+  - surprise1_L
+  - 2511
+  - 150
+  - 600
+  - se_adv_emote_common_01
+- print:
+  - 貴族
+  - ……いない！？
+- wait:
+  - 20
+- print:
+  - 貴族
+  - >2-
+
+    一体
+- wait:
+  - 15
+- print:
+  - 貴族
+  - どこへ逃げた！？
+- touch: *o0
+- bgm:
+  - stop
+  - 9.2
+  - 1
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1168003_086
+- face:
+  - 911
+  - 6
+- nod:
+  - 911
+- print:
+  - 用心棒２
+  - 旦那っ！　
+- wait:
+  - 30
+- print:
+  - 用心棒２
+  - 上を見てください！
+- wait:
+  - 30
+- print:
+  - 用心棒２
+  - >2-
+
+    あいつら、
+- wait:
+  - 20
+- print:
+  - 用心棒２
+  - 空を飛んでますぜ！？
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1168003_087
+- face:
+  - 2511
+  - 7
+- print:
+  - 貴族
+  - なにぃっ！？
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- bg_pan:
+  - 0
+  - -150
+  - 15
+- se_pause:
+  - amb_adv_outdoors_night_01
+  - 1
+- black_out:
+  - 1
+  - 0.5
+- se:
+  - se_adv_whoosh_speed_01
+- bg_pan:
+  - -150
+  - 0
+  - 1
+- background:
+  - 500522
+- wait:
+  - 15
+- black_in: *o0
+- se:
+  - amb_adv_speedstar_01
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M162
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 1
+- vo:
+  - vo_adv_1168003_088
+- face:
+  - 116811
+  - 2
+- print:
+  - タマキ
+  - にゃーっはっはっはっ！
+- wait:
+  - 50
+- print:
+  - タマキ
+  - >2
+
+- face:
+  - 116811
+  - 1
+- print:
+  - タマキ
+  - その名も
+- wait:
+  - 25
+- se:
+  - se_adv_comic_light_01
+- print:
+  - タマキ
+  - 『空飛ぶたい焼きメーカー』にゃ！
+- wait:
+  - 40
+- print:
+  - タマキ
+  - >2-
+
+    法の鉄槌が下るまで、
+- wait:
+  - 25
+- print:
+  - タマキ
+  - 首を洗って待ってるがいいにゃ！
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 1
+- vo:
+  - vo_adv_1168003_089
+- face:
+  - 116811
+  - 6
+- print:
+  - タマキ
+  - はー……
+- wait:
+  - 60
+- print:
+  - タマキ
+  - うまくいって良かったにゃ。
+- wait:
+  - 60
+- print:
+  - タマキ
+  - >2
+
+- face:
+  - 116811
+  - 1
+- print:
+  - タマキ
+  - これで明日、
+- wait:
+  - 25
+- print:
+  - タマキ
+  - 工場長にもいい報告ができそうにゃ！
+- wait:
+  - 65
+- print:
+  - タマキ
+  - >2-
+
+    {0}も、
+- wait:
+  - 15
+- print:
+  - タマキ
+  - 協力してくれてありがとにゃ♪
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_body_tread_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- window_visible:
+  - true
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 1
+- vo:
+  - vo_adv_1168003_090
+- face:
+  - 116811
+  - 6
+- print:
+  - タマキ
+  - ……って、
+- wait:
+  - 15
+- print:
+  - タマキ
+  - どこ触ってるにゃー！？
+- wait:
+  - 30
+- print:
+  - タマキ
+  - >2-
+
+    えっ！？　
+- wait:
+  - 15
+- print:
+  - タマキ
+  - 落ちそう！？
+- wait:
+  - 25
+- print:
+  - タマキ
+  - >2
+
+- face:
+  - 116811
+  - 3
+- print:
+  - タマキ
+  - それはダメにゃ！　
+- wait:
+  - 15
+- print:
+  - タマキ
+  - しっかりあたしにしがみつくにゃ！！
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 1
+- vo:
+  - vo_adv_1168003_091
+- face:
+  - 116811
+  - 4
+- print:
+  - タマキ
+  - でも……
+- wait:
+  - 30
+- print:
+  - タマキ
+  - だからって……
+- wait:
+  - 30
+- print:
+  - タマキ
+  - >2-
+
+    そこを掴むんじゃなくてぇ……！！
+- touch: *o0
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 1
+- vo:
+  - vo_adv_1168003_092
+- face:
+  - 116811
+  - 6
+- print:
+  - タマキ
+  - 分かってるにゃ……！
+- wait:
+  - 30
+- print:
+  - タマキ
+  - >2-
+
+    必死な顔をしてる{0}に言うのは
+- wait:
+  - 25
+- print:
+  - タマキ
+  - >2-
+
+    酷って分かってるけど……
+- wait:
+  - 45
+- face:
+  - 116811
+  - 4
+- print:
+  - タマキ
+  - だけど……！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 30
+- change_window:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 116811
+- bust:
+  - 116811
+  - 1
+- vo:
+  - vo_adv_1168003_093
+- face:
+  - 116811
+  - 4
+- print:
+  - タマキ
+  - そこは敏感だから、
+- wait:
+  - 45
+- print:
+  - タマキ
+  - 触らないでにゃ～～～～！！！！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 23
+- change_window:
+  - 1
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - 夜空に浮かぶ二つの影。
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - 正義の泥棒猫の鳴き声が響き渡る。
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - >2-
+
+    そして翌日、
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - 一人の貴族が騎士団に拘束され、
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - >2-
+
+    贋作が出回ることはなくなったのだった。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 1
+- se_pause:
+  - amb_adv_speedstar_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

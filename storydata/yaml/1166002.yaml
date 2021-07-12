@@ -1,0 +1,4758 @@
+- title:
+  - 嘉夜（時空旅行） 第2話
+- outline:
+  - 嘉夜的首次工作是擔任孩子們的導遊，儘管途中遇上了惡徒，仍輕鬆將他們擊退，還讓獨自一人的孩子融入團體，嘉夜藉此感受到了導遊工作的意義。
+- background:
+  - 500040
+- se:
+  - amb_adv_room_noise_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 導遊小姐的首次工作
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 導遊研習結束後幾天，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    {0}前來拜訪嘉夜。
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 116611
+  - C
+  - 1
+- fadein:
+  - 116611
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M274
+  - 0
+  - 0
+  - 1
+  - 0.4
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_000
+- face:
+  - 116611
+  - 1
+- nod:
+  - 116611
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 嘉夜
+  - 嗨，
+- wait:
+  - 20
+- print:
+  - 嘉夜
+  - 之前研習過後就沒再見到你了啊。
+- wait:
+  - 60
+- print:
+  - 嘉夜
+  - >2
+
+- face:
+  - 116611
+  - 6
+- print:
+  - 嘉夜
+  - 今天有什麼事？
+- touch: *o0
+- choice:
+  - 我帶導遊的工作來囉。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_001
+- face:
+  - 116611
+  - 2
+- print:
+  - 嘉夜
+  - 終於來了啊！
+- wait:
+  - 50
+- face:
+  - 116611
+  - 1
+- print:
+  - 嘉夜
+  - 我正想去活動活動筋骨。
+- wait:
+  - 75
+- print:
+  - 嘉夜
+  - >2-
+
+    要是跟你一起，
+- wait:
+  - 20
+- print:
+  - 嘉夜
+  - 感覺就能好好享受一番呢。
+- touch: *o0
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_002
+- face:
+  - 116611
+  - 6
+- print:
+  - 嘉夜
+  - 所以說，
+- wait:
+  - 25
+- print:
+  - 嘉夜
+  - 我們第一份工作的對象到底是誰啊？
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+  - 1
+- fadeout:
+  - 116611
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_room_noise_01
+  - 1
+- background:
+  - 500010
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_town_day_01
+- chara_full:
+  - 416
+  - LC
+  - 2
+- chara_full:
+  - 211
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M323
+  - 0
+  - 0
+  - 0
+  - 0.4
+- focus:
+  - 416
+- bust:
+  - 416
+  - 0
+- vo:
+  - vo_adv_1166002_003
+- face:
+  - 416
+  - 2
+- emotion:
+  - twinkle1_R
+  - 416
+  - -110
+  - 400
+  - se_adv_emote_twinkle_01
+- print:
+  - 男孩 1
+  - 喔喔──！
+- wait:
+  - 20
+- print:
+  - 男孩 1
+  - 這根棒子感覺很讚耶！
+- wait:
+  - 45
+- print:
+  - 男孩 1
+  - >2
+
+- face:
+  - 416
+  - 1
+- print:
+  - 男孩 1
+  - 看我的！
+- wait:
+  - 25
+- print:
+  - 男孩 1
+  - 必殺雷火斬！
+- touch: *o0
+- se:
+  - se_adv_throw_normal_01
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1166002_004
+- face:
+  - 211
+  - 1
+- print:
+  - 女子１
+  - 你竟敢這樣──！
+- wait:
+  - 30
+- print:
+  - 女子１
+  - 這次換我囉！
+- wait:
+  - 35
+- print:
+  - 女子１
+  - >2
+
+- face:
+  - 211
+  - 2
+- print:
+  - 女子１
+  - 究極美人斬！
+- touch: *o0
+- se:
+  - se_adv_throw_normal_01
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 5311
+  - RC
+  - 4
+- chara_full:
+  - 5411
+  - LC
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 5311
+- bust:
+  - 5311
+  - 0
+- vo:
+  - vo_adv_1166002_005
+- face:
+  - 5311
+  - 4
+- se:
+  - se_adv_step_concrete_move_04
+- print:
+  - 男孩 2
+  - 啊，
+- wait:
+  - 20
+- print:
+  - 男孩 2
+  - 不要這樣啦
+- wait:
+  - 20
+- print:
+  - 男孩 2
+  - 很危險的……
+- touch: *o0
+- focus:
+  - 5411
+- bust:
+  - 5411
+  - 0
+- vo:
+  - vo_adv_1166002_006
+- face:
+  - 5411
+  - 3
+- nod:
+  - 5411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 女子２
+  - 你們最好是適可而止！
+- wait:
+  - 30
+- print:
+  - 女子２
+  - 就是因為這樣我才討厭小孩，
+- wait:
+  - 40
+- print:
+  - 女子２
+  - >2-
+
+    要是把爸爸買給我的
+- wait:
+  - 20
+- print:
+  - 女子２
+  - 新衣服弄髒，該怎麼辦才好呀？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 116611
+  - C
+  - 6
+- fadein:
+  - 116611
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_007
+- face:
+  - 116611
+  - 6
+- print:
+  - 嘉夜
+  - ……喂，
+- wait:
+  - 35
+- print:
+  - 嘉夜
+  - 這是……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 116611
+  - 30
+- chara_full:
+  - 116611
+  - LC
+  - 1
+- chara_full:
+  - 411
+  - R
+  - 6
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - R
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1166002_008
+- face:
+  - 411
+  - 6
+- print:
+  - 老師
+  - 啊，
+- wait:
+  - 25
+- print:
+  - 老師
+  - 兩位是
+- wait:
+  - 25
+- print:
+  - 老師
+  - 導遊對吧？
+- wait:
+  - 50
+- face:
+  - 411
+  - 4
+- print:
+  - 老師
+  - 不好意思這樣吵吵鬧鬧的……
+- wait:
+  - 60
+- print:
+  - 老師
+  - >2
+
+- face:
+  - 411
+  - 1
+- print:
+  - 老師
+  - 雖然應該會很辛苦，
+- wait:
+  - 40
+- print:
+  - 老師
+  - 但今天
+- wait:
+  - 20
+- print:
+  - 老師
+  - 請多多指教了。
+- touch: *o0
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_009
+- face:
+  - 116611
+  - 4
+- nod:
+  - 116611
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 嘉夜
+  - 真是的，
+- wait:
+  - 50
+- print:
+  - 嘉夜
+  - 第一次當導遊竟然是陪小孩子去遠足……
+- wait:
+  - 80
+- print:
+  - 嘉夜
+  - >2-
+
+    我想都沒想到。
+- touch: *o0
+- choice:
+  - 這麼有精神，很不錯呢。
+  - 3
+- tag:
+  - 3
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_010
+- face:
+  - 116611
+  - 6
+- print:
+  - 嘉夜
+  - 太有精神啦。
+- wait:
+  - 65
+- face:
+  - 116611
+  - 1
+- print:
+  - 嘉夜
+  - 不過，
+- wait:
+  - 20
+- print:
+  - 嘉夜
+  - 不管哪裡的
+- wait:
+  - 15
+- print:
+  - 嘉夜
+  - 小孩子都是這樣啦。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 411
+  - 30
+- chara_full:
+  - 5411
+  - RC
+  - 3
+- fadein:
+  - 5411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 5411
+- bust:
+  - 5411
+  - 0
+- vo:
+  - vo_adv_1166002_011
+- face:
+  - 5411
+  - 3
+- nod:
+  - 5411
+- se:
+  - se_adv_step_concrete_move_01
+- print:
+  - 女子２
+  - 我說你們，
+- wait:
+  - 25
+- print:
+  - 女子２
+  - 是今天的導遊對吧？
+- wait:
+  - 30
+- print:
+  - 女子２
+  - >2-
+
+    都有空站著聊天了，
+- wait:
+  - 25
+- print:
+  - 女子２
+  - 還不快點管管他們啦。
+- touch: *o0
+- face:
+  - 116611
+  - 6
+- focus:
+  - 5411
+- bust:
+  - 5411
+  - 0
+- vo:
+  - vo_adv_1166002_012
+- face:
+  - 5411
+  - 3
+- print:
+  - 女子２
+  - 老師又靠不住，
+- wait:
+  - 30
+- print:
+  - 女子２
+  - 我說了他們也不聽。
+- wait:
+  - 50
+- print:
+  - 女子２
+  - >2-
+
+    再這樣下去，
+- wait:
+  - 15
+- print:
+  - 女子２
+  - 等到天都黑了還不能出發呀。
+- touch: *o0
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_013
+- face:
+  - 116611
+  - 1
+- nod:
+  - 116611
+- print:
+  - 嘉夜
+  - 這樣啊，
+- wait:
+  - 35
+- print:
+  - 嘉夜
+  - 妳很努力嘛，
+- wait:
+  - 20
+- print:
+  - 嘉夜
+  - 這位小姐。
+- wait:
+  - 35
+- print:
+  - 嘉夜
+  - >2
+
+- face:
+  - 116611
+  - 2
+- print:
+  - 嘉夜
+  - 能當個好姊姊，還真了不起。
+- touch: *o0
+- focus:
+  - 5411
+- bust:
+  - 5411
+  - 0
+- vo:
+  - vo_adv_1166002_014
+- face:
+  - 5411
+  - 6
+- print:
+  - 女子２
+  - 啊，
+- wait:
+  - 20
+- print:
+  - 女子２
+  - 唔，
+- wait:
+  - 20
+- print:
+  - 女子２
+  - 這、
+- wait:
+  - 10
+- print:
+  - 女子２
+  - 這是當然的！
+- wait:
+  - 30
+- face:
+  - 5411
+  - 3
+- print:
+  - 女子２
+  - 因為我已經不是小孩子，
+- wait:
+  - 30
+- print:
+  - 女子２
+  - 而是淑女了。
+- touch: *o0
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_015
+- face:
+  - 116611
+  - 1
+- print:
+  - 嘉夜
+  - OK！
+- wait:
+  - 30
+- print:
+  - 嘉夜
+  - 那麼
+- wait:
+  - 25
+- print:
+  - 嘉夜
+  - 我就聽聽淑女的請託吧，
+- wait:
+  - 65
+- print:
+  - 嘉夜
+  - >2-
+
+    接下來都包在我身上。
+- touch: *o0
+- focus:
+  - 5411
+- bust:
+  - 5411
+  - 0
+- vo:
+  - vo_adv_1166002_016
+- face:
+  - 5411
+  - 5
+- print:
+  - 女子２
+  - 好、
+- wait:
+  - 30
+- print:
+  - 女子２
+  - 好的……
+- wait:
+  - 35
+- print:
+  - 女子２
+  - 那就
+- wait:
+  - 15
+- print:
+  - 女子２
+  - 交給妳了……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 116611
+  - L
+  - 1
+- chara_full:
+  - 416
+  - C
+  - 1
+- chara_full:
+  - 211
+  - R
+  - 1
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- fadein_all:
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_017
+- face:
+  - 116611
+  - 1
+- nod:
+  - 116611
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 嘉夜
+  - 嗨！
+- wait:
+  - 25
+- print:
+  - 嘉夜
+  - 你們兩位很帥嘛。
+- wait:
+  - 35
+- print:
+  - 嘉夜
+  - >2-
+
+    讓我一起加入好不好？
+- touch: *o0
+- focus:
+  - 416
+- bust:
+  - 416
+  - 0
+- vo:
+  - vo_adv_1166002_018
+- face:
+  - 416
+  - 6
+- print:
+  - 男孩 1
+  - 妳、
+- wait:
+  - 15
+- print:
+  - 男孩 1
+  - 妳是誰啊？
+- wait:
+  - 35
+- face:
+  - 416
+  - 3
+- print:
+  - 男孩 1
+  - 要是太弱就閃遠一點啦！
+- touch: *o0
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1166002_019
+- face:
+  - 211
+  - 3
+- nod:
+  - 211
+- print:
+  - 女子１
+  - 對啊對啊！
+- wait:
+  - 25
+- print:
+  - 女子１
+  - 趁還沒受傷快點回家去吧！
+- touch: *o0
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_020
+- face:
+  - 116611
+  - 6
+- print:
+  - 嘉夜
+  - 哎呀，
+- wait:
+  - 30
+- print:
+  - 嘉夜
+  - 這還真嚴格。
+- wait:
+  - 55
+- print:
+  - 嘉夜
+  - >2
+
+- face:
+  - 116611
+  - 1
+- print:
+  - 嘉夜
+  - 那你們
+- wait:
+  - 15
+- print:
+  - 嘉夜
+  - 就來審查一下，
+- wait:
+  - 45
+- print:
+  - 嘉夜
+  - >2-
+
+    看我能不能當你們的夥伴吧？
+- touch: *o0
+- focus:
+  - 416
+- bust:
+  - 416
+  - 0
+- vo:
+  - vo_adv_1166002_021
+- face:
+  - 416
+  - 6
+- emotion:
+  - question1_R
+  - 416
+  - 115
+  - 425
+  - se_adv_emote_question_01
+- print:
+  - 男孩 1
+  - 咦？
+- wait:
+  - 25
+- print:
+  - 男孩 1
+  - 審
+- wait:
+  - 15
+- print:
+  - 男孩 1
+  - 查？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 116611
+  - C
+  - 1
+- fadein:
+  - 116611
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_022
+- face:
+  - 116611
+  - 1
+- print:
+  - 嘉夜
+  - 看清楚囉！
+- wait:
+  - 70
+- face:
+  - 116611
+  - 3
+- nod:
+  - 116611
+- print:
+  - 嘉夜
+  - 喝
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - 嘉夜
+  - 啊！
+- wait:
+  - 35
+- print:
+  - 嘉夜
+  - 嘿！
+- wait:
+  - 35
+- nod:
+  - 116611
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 嘉夜
+  - 看招！
+- wait:
+  - 55
+- print:
+  - 嘉夜
+  - >2-
+
+    被我打飛吧！
+- wait:
+  - 40
+- print:
+  - 嘉夜
+  - 看我的狂龍猛
+- se:
+  - se_adv_weapon_punch_set_01
+- print:
+  - 嘉夜
+  - 擊！
+- touch: *o0
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_023
+- face:
+  - 116611
+  - 1
+- print:
+  - 嘉夜
+  - ──剛剛的怎麼樣？
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2.5
+- fadeout:
+  - 116611
+  - 30
+- chara_full:
+  - 116611
+  - L
+  - 1
+- chara_full:
+  - 416
+  - C
+  - 6
+- chara_full:
+  - 211
+  - R
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M99
+  - 0
+  - 0
+  - 1
+  - 1.2
+- focus:
+  - 416
+- bust:
+  - 416
+  - 0
+- vo:
+  - vo_adv_1166002_024
+- face:
+  - 416
+  - 6
+- pop:
+  - 416
+- se:
+  - se_adv_rabbit_jump_01
+- print:
+  - 男孩 1
+  - 好、
+- wait:
+  - 20
+- print:
+  - 男孩 1
+  - 好強喔──！？
+- wait:
+  - 25
+- print:
+  - 男孩 1
+  - 剛、
+- wait:
+  - 15
+- print:
+  - 男孩 1
+  - 剛剛那是什麼？
+- wait:
+  - 25
+- face:
+  - 416
+  - 2
+- print:
+  - 男孩 1
+  - 超帥的！
+- touch: *o0
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1166002_025
+- face:
+  - 211
+  - 6
+- print:
+  - 女子１
+  - 好有魄力……
+- wait:
+  - 55
+- face:
+  - 211
+  - 2
+- print:
+  - 女子１
+  - 大姐姐好帥喔！
+- wait:
+  - 35
+- print:
+  - 女子１
+  - >2
+
+- face:
+  - 211
+  - 1
+- print:
+  - 女子１
+  - 欸，
+- wait:
+  - 10
+- print:
+  - 女子１
+  - 也教教我嘛！
+- touch: *o0
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_026
+- face:
+  - 116611
+  - 2
+- nod:
+  - 116611
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 嘉夜
+  - 嘿嘿，
+- wait:
+  - 35
+- print:
+  - 嘉夜
+  - 看來我得到你們的認可了啊。
+- wait:
+  - 70
+- print:
+  - 嘉夜
+  - >2
+
+- face:
+  - 116611
+  - 1
+- print:
+  - 嘉夜
+  - 這個嘛，
+- wait:
+  - 55
+- print:
+  - 嘉夜
+  - 我是可以教你們啦，
+- wait:
+  - 55
+- print:
+  - 嘉夜
+  - 但只教乖乖聽老師的話、
+- wait:
+  - 55
+- print:
+  - 嘉夜
+  - >2-
+
+    能和大家一起開心去戶外教學的人喔。
+- touch: *o0
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_027
+- face:
+  - 116611
+  - 6
+- print:
+  - 嘉夜
+  - 畢竟我可不能交給壞孩子，
+- wait:
+  - 35
+- print:
+  - 嘉夜
+  - 讓他們亂用啊。
+- touch: *o0
+- focus:
+  - 416
+- bust:
+  - 416
+  - 0
+- vo:
+  - vo_adv_1166002_028
+- face:
+  - 416
+  - 6
+- print:
+  - 男孩 1
+  - 我、
+- wait:
+  - 10
+- nod:
+  - 416
+- print:
+  - 男孩 1
+  - 我會
+- wait:
+  - 15
+- print:
+  - 男孩 1
+  - 好好聽話的！
+- touch: *o0
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1166002_029
+- face:
+  - 211
+  - 6
+- print:
+  - 女子１
+  - 我也是！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 116611
+  - C
+  - 2
+- fadein:
+  - 116611
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_030
+- face:
+  - 116611
+  - 2
+- print:
+  - 嘉夜
+  - 好──！
+- wait:
+  - 30
+- print:
+  - 嘉夜
+  - 那大家一起出發去校外教學吧！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1166002_031
+- face:
+  - 1
+  - 1
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 孩子們
+  - 好──！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1.8
+  - 1
+- fadeout:
+  - 116611
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- background:
+  - 500130
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_wind_01
+- chara_full:
+  - 116611
+  - C
+  - 1
+- fadein:
+  - 116611
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M113_Ver2
+  - 0
+  - 0
+  - 0
+  - 0.4
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_032
+- face:
+  - 116611
+  - 1
+- print:
+  - 嘉夜
+  - 你們注意了，
+- wait:
+  - 30
+- print:
+  - 嘉夜
+  - 仔細看好我的腳喔。
+- wait:
+  - 70
+- face:
+  - 116611
+  - 3
+- print:
+  - 嘉夜
+  - 喝啊！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_weapon_punch_whiff_02
+- se:
+  - se_adv_weapon_punch_set_01
+- nod:
+  - 116611
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 416
+- bust:
+  - 416
+  - 1
+- vo:
+  - vo_adv_1166002_033
+- face:
+  - 416
+  - 2
+- print:
+  - 男孩 1
+  - 喔喔喔──！　
+- wait:
+  - 25
+- print:
+  - 男孩 1
+  - 高踢好帥──！
+- touch: *o0
+- focus:
+  - 5311
+- bust:
+  - 5311
+  - 1
+- vo:
+  - vo_adv_1166002_034
+- face:
+  - 5311
+  - 1
+- print:
+  - 男孩 2
+  - 而且還維持踢腿動作，
+- wait:
+  - 35
+- print:
+  - 男孩 2
+  - 用一隻腳站得穩穩的。
+- wait:
+  - 45
+- print:
+  - 男孩 2
+  - >2-
+
+    大姐姐好厲害喔！
+- touch: *o0
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_035
+- face:
+  - 116611
+  - 1
+- print:
+  - 嘉夜
+  - 聽好了，
+- wait:
+  - 30
+- print:
+  - 嘉夜
+  - 我用腳指向的是歐拉爾高山。
+- wait:
+  - 75
+- print:
+  - 嘉夜
+  - >2-
+
+    那座山比雲還高，
+- wait:
+  - 45
+- print:
+  - 嘉夜
+  - 山路崎嶇、
+- wait:
+  - 40
+- print:
+  - 嘉夜
+  - 空氣稀薄，
+- wait:
+  - 45
+- print:
+  - 嘉夜
+  - >-
+    甚至會出現強大的魔物，
+
+    是個麻煩的地方。
+- wait:
+  - 75
+- face:
+  - 116611
+  - 6
+- print:
+  - 嘉夜
+  - 如果沒有做好準備的話，
+- wait:
+  - 30
+- print:
+  - 嘉夜
+  - 連我去都很危險喔。
+- touch: *o0
+- focus:
+  - 416
+- bust:
+  - 416
+  - 1
+- vo:
+  - vo_adv_1166002_036
+- face:
+  - 416
+  - 6
+- print:
+  - 男孩 1
+  - 導、
+- wait:
+  - 20
+- print:
+  - 男孩 1
+  - 導遊小姐也是嗎？
+- touch: *o0
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_037
+- face:
+  - 116611
+  - 1
+- nod:
+  - 116611
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 嘉夜
+  - 是啊，
+- wait:
+  - 35
+- print:
+  - 嘉夜
+  - 因為大自然的力量很強大啊。
+- wait:
+  - 85
+- face:
+  - 116611
+  - 6
+- print:
+  - 嘉夜
+  - 聽好了，
+- wait:
+  - 25
+- print:
+  - 嘉夜
+  - 不只是山而已，
+- wait:
+  - 40
+- print:
+  - 嘉夜
+  - >2-
+
+    還有森林、洞窟等，
+- wait:
+  - 55
+- print:
+  - 嘉夜
+  - 你們身邊有許許多多危險的地方。
+- touch: *o0
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_038
+- face:
+  - 116611
+  - 1
+- print:
+  - 嘉夜
+  - 我也懂想去那些地方探險的心情，
+- wait:
+  - 60
+- print:
+  - 嘉夜
+  - >2
+
+- face:
+  - 116611
+  - 6
+- print:
+  - 嘉夜
+  - 但
+- wait:
+  - 35
+- print:
+  - 嘉夜
+  - 勇敢和魯莽可差多了。
+- wait:
+  - 85
+- print:
+  - 嘉夜
+  - >2
+
+- face:
+  - 116611
+  - 1
+- print:
+  - 嘉夜
+  - 現在就在大人的視線範圍內盡情玩耍吧，
+- wait:
+  - 85
+- print:
+  - 嘉夜
+  - 聽到了沒？
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1166002_039
+- face:
+  - 1
+  - 1
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 孩子們
+  - 好──！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 116611
+  - 30
+- chara_full:
+  - 411
+  - C
+  - 1
+- fadein:
+  - 411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1166002_040
+- face:
+  - 411
+  - 1
+- print:
+  - 老師
+  - 嘉夜小姐
+- wait:
+  - 35
+- print:
+  - 老師
+  - 很擅長應付小孩子呢。
+- touch: *o0
+- choice:
+  - 因為她身邊就有許多小孩呀。
+  - 5
+- tag:
+  - 5
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1166002_041
+- face:
+  - 411
+  - 2
+- print:
+  - 老師
+  - 原來如此。
+- wait:
+  - 40
+- print:
+  - 老師
+  - 但不只是這樣，
+- wait:
+  - 40
+- print:
+  - 老師
+  - >2-
+
+    大家應該也深受她的強大和溫柔所吸引吧。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 411
+  - 30
+- chara_full:
+  - 116611
+  - C
+  - 1
+- fadein:
+  - 116611
+  - 30
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_042
+- face:
+  - 116611
+  - 1
+- print:
+  - 嘉夜
+  - 好啊，
+- wait:
+  - 45
+- print:
+  - 嘉夜
+  - 到目前為止都一切順利。
+- wait:
+  - 70
+- print:
+  - 嘉夜
+  - 孩子們也都
+- wait:
+  - 25
+- print:
+  - 嘉夜
+  - >2-
+
+    比我家的小鬼們懂事多了。
+- wait:
+  - 110
+- face:
+  - 116611
+  - 6
+- print:
+  - 嘉夜
+  - 但是……
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_043
+- face:
+  - 116611
+  - 6
+- nod:
+  - 116611
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 嘉夜
+  - 我說，
+- wait:
+  - 30
+- print:
+  - 嘉夜
+  - 那孩子一點也不願意靠過來，
+- wait:
+  - 55
+- print:
+  - 嘉夜
+  - 他平常就是那樣嗎？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 116611
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 111
+  - C
+  - 3
+- fadein:
+  - 111
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 3
+- focus:
+  - 111
+- bust:
+  - 111
+  - 0
+- vo:
+  - vo_adv_1166002_044
+- face:
+  - 111
+  - 3
+- print:
+  - 男孩子3
+  - ……
+- touch: *o0
+- bgm:
+  - bgm_M129_NoB
+  - 0
+  - 0
+  - 1
+  - 0.4
+- focus:
+  - 416
+- bust:
+  - 416
+  - 1
+- vo:
+  - vo_adv_1166002_045
+- face:
+  - 416
+  - 4
+- print:
+  - 男孩 1
+  - 對啊，
+- wait:
+  - 35
+- face:
+  - 416
+  - 6
+- print:
+  - 男孩 1
+  - 他是最近搬過來的，
+- wait:
+  - 30
+- print:
+  - 男孩 1
+  - >2-
+
+    但我就算把棒子給他，找他一起玩劍士遊戲，
+- wait:
+  - 40
+- print:
+  - 男孩 1
+  - >2-
+
+    也一下就丟掉棒子，不理我們。
+- touch: *o0
+- focus:
+  - 5311
+- bust:
+  - 5311
+  - 1
+- vo:
+  - vo_adv_1166002_046
+- face:
+  - 5311
+  - 6
+- print:
+  - 男孩 2
+  - 嗯，
+- wait:
+  - 30
+- print:
+  - 男孩 2
+  - 就算找他一起看書，
+- wait:
+  - 55
+- print:
+  - 男孩 2
+  - 他也會跑掉。
+- wait:
+  - 45
+- print:
+  - 男孩 2
+  - >2
+
+- face:
+  - 5311
+  - 4
+- print:
+  - 男孩 2
+  - 是不是討厭跟我們一起玩呢……
+- touch: *o0
+- focus:
+  - 111
+- bust:
+  - 111
+  - 0
+- vo:
+  - vo_adv_1166002_047
+- face:
+  - 111
+  - 3
+- print:
+  - 男孩子3
+  - ……
+- touch: *o0
+- choice:
+  - 來這邊和大家一起玩吧。
+  - 7
+- tag:
+  - 7
+- focus:
+  - 111
+- bust:
+  - 111
+  - 0
+- vo:
+  - vo_adv_1166002_048
+- face:
+  - 111
+  - 3
+- nod:
+  - 111
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 男孩子3
+  - ……不用了。
+- wait:
+  - 20
+- print:
+  - 男孩子3
+  - 校外教學這麼無聊。
+- wait:
+  - 30
+- print:
+  - 男孩子3
+  - 我比較想一個人，別管我啦。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 111
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 116611
+  - LC
+  - 6
+- chara_full:
+  - 411
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1166002_049
+- face:
+  - 411
+  - 4
+- print:
+  - 老師
+  - 真、
+- wait:
+  - 20
+- print:
+  - 老師
+  - 真是的……
+- wait:
+  - 50
+- print:
+  - 老師
+  - 真傷腦筋，
+- wait:
+  - 50
+- print:
+  - 老師
+  - 該怎麼辦才好呢？
+- touch: *o0
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_050
+- face:
+  - 116611
+  - 6
+- print:
+  - 嘉夜
+  - 唔～
+- wait:
+  - 60
+- print:
+  - 嘉夜
+  - 就算是小孩子，
+- wait:
+  - 25
+- print:
+  - 嘉夜
+  - 也不是每個人都
+- wait:
+  - 25
+- print:
+  - 嘉夜
+  - >-
+    那麼有精神，
+
+    喜歡跟朋友們一起玩。
+- touch: *o0
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_051
+- face:
+  - 116611
+  - 4
+- print:
+  - 嘉夜
+  - 如果被排擠的確有問題，
+- wait:
+  - 60
+- print:
+  - 嘉夜
+  - 但也不是這樣，
+- wait:
+  - 55
+- print:
+  - 嘉夜
+  - >2
+
+- face:
+  - 116611
+  - 6
+- print:
+  - 嘉夜
+  - 既然他本人都這麼說了，
+- wait:
+  - 35
+- print:
+  - 嘉夜
+  - 我們也不好插手。
+- touch: *o0
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_052
+- face:
+  - 116611
+  - 1
+- nod:
+  - 116611
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 嘉夜
+  - 我說，
+- wait:
+  - 30
+- print:
+  - 嘉夜
+  - 要是你想和大家一起玩，隨時都可以過來。
+- wait:
+  - 70
+- print:
+  - 嘉夜
+  - >2-
+
+    我和這位大哥哥都會幫你說話的。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 111
+  - C
+  - 3
+- fadein:
+  - 111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 111
+- bust:
+  - 111
+  - 0
+- vo:
+  - vo_adv_1166002_053
+- face:
+  - 111
+  - 3
+- print:
+  - 男孩子3
+  - ……
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1.8
+  - 1
+- fadeout:
+  - 111
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_wind_01
+  - 1
+- background:
+  - 500510
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_outdoors_day_01
+- chara_full:
+  - 116611
+  - LC
+  - 1
+- chara_full:
+  - 411
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M216
+  - 0
+  - 0
+  - 0
+  - 0.4
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_054
+- face:
+  - 116611
+  - 1
+- nod:
+  - 116611
+- se:
+  - se_adv_step_leaves_move_01
+- print:
+  - 嘉夜
+  - 我們到囉。
+- wait:
+  - 40
+- print:
+  - 嘉夜
+  - 現在開始就在這邊午休吧。
+- wait:
+  - 70
+- print:
+  - 嘉夜
+  - >2-
+
+    吃完飯後就可以自由活動了。
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1166002_055
+- face:
+  - 411
+  - 6
+- print:
+  - 老師
+  - 要吃完飯才能吃點心喔，
+- wait:
+  - 50
+- print:
+  - 老師
+  - >2-
+
+    大家也不能跑太遠喔。
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1166002_056
+- face:
+  - 1
+  - 1
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 孩子們
+  - 好──！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 5411
+  - LC
+  - 1
+- chara_full:
+  - 211
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 5411
+- bust:
+  - 5411
+  - 0
+- vo:
+  - vo_adv_1166002_057
+- face:
+  - 5411
+  - 1
+- emotion:
+  - notice1_L
+  - 5411
+  - -55
+  - 475
+  - se_adv_emote_common_01
+- print:
+  - 女子２
+  - 哎呀，
+- wait:
+  - 25
+- print:
+  - 女子２
+  - 妳的水壺很可愛呢。
+- touch: *o0
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1166002_058
+- face:
+  - 211
+  - 2
+- print:
+  - 女子１
+  - 嗯，
+- wait:
+  - 15
+- print:
+  - 女子１
+  - 是媽媽買給我的♪
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 416
+  - LC
+  - 2
+- chara_full:
+  - 5311
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 416
+- bust:
+  - 416
+  - 0
+- vo:
+  - vo_adv_1166002_059
+- face:
+  - 416
+  - 2
+- pop:
+  - 416
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 男孩 1
+  - 哇──！
+- wait:
+  - 25
+- print:
+  - 男孩 1
+  - 你的便當
+- wait:
+  - 20
+- print:
+  - 男孩 1
+  - 看起來超好吃的！
+- wait:
+  - 35
+- print:
+  - 男孩 1
+  - >2
+
+- face:
+  - 416
+  - 1
+- print:
+  - 男孩 1
+  - 好羨慕你有這麼會做菜的媽媽喔。
+- touch: *o0
+- focus:
+  - 5311
+- bust:
+  - 5311
+  - 0
+- vo:
+  - vo_adv_1166002_060
+- face:
+  - 5311
+  - 2
+- print:
+  - 男孩 2
+  - 你的大飯糰看起來也很好吃呀。
+- wait:
+  - 50
+- print:
+  - 男孩 2
+  - >2-
+
+    我們要不要交換一些？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 116611
+  - C
+  - 2
+- fadein:
+  - 116611
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_061
+- face:
+  - 116611
+  - 2
+- print:
+  - 嘉夜
+  - 大家看起來都很開心，真是再好不過了。
+- wait:
+  - 75
+- print:
+  - 嘉夜
+  - >2
+
+- face:
+  - 116611
+  - 1
+- print:
+  - 嘉夜
+  - 那麼，
+- wait:
+  - 30
+- print:
+  - 嘉夜
+  - 我們也趁孩子們吃飯的時候休息一下吧。
+- touch: *o0
+- choice:
+  - 剛剛的男生去哪裡了？
+  - 9
+- tag:
+  - 9
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_062
+- face:
+  - 116611
+  - 6
+- print:
+  - 嘉夜
+  - ……
+- wait:
+  - 35
+- print:
+  - 嘉夜
+  - 怪了，
+- wait:
+  - 40
+- print:
+  - 嘉夜
+  - 這麼說來的確不見人影呢。
+- wait:
+  - 105
+- print:
+  - 嘉夜
+  - >2-
+
+    雖然這附近沒有魔物，
+- wait:
+  - 40
+- print:
+  - 嘉夜
+  - 但也無法保證絕對安全。
+- touch: *o0
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_063
+- face:
+  - 116611
+  - 1
+- nod:
+  - 116611
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 嘉夜
+  - 午飯等等再吃，
+- wait:
+  - 45
+- print:
+  - 嘉夜
+  - 我先去找他喔。
+- wait:
+  - 40
+- print:
+  - 嘉夜
+  - >2-
+
+    這附近小孩子會想去的地方我心裡也有底。
+- touch: *o0
+- choice:
+  - 兩個人一起找比較快喔。
+  - 11
+- tag:
+  - 11
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_064
+- face:
+  - 116611
+  - 2
+- print:
+  - 嘉夜
+  - 謝謝啦。
+- wait:
+  - 45
+- face:
+  - 116611
+  - 1
+- print:
+  - 嘉夜
+  - 那我們
+- wait:
+  - 25
+- print:
+  - 嘉夜
+  - 就在午餐前多努力一下吧！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1.8
+- fadeout:
+  - 116611
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_outdoors_day_01
+  - 1
+- background:
+  - 500240
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_dungeon_01
+- vo_effect:
+  - 3
+- chara_full:
+  - 111
+  - C
+  - 3
+- fadein:
+  - 111
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M129_Ver2_NoB_02
+  - 0
+  - 0
+  - 1
+  - 0.4
+- focus:
+  - 111
+- bust:
+  - 111
+  - 0
+- vo:
+  - vo_adv_1166002_065
+- face:
+  - 111
+  - 3
+- print:
+  - 男孩子3
+  - ……我對校外教學
+- wait:
+  - 20
+- print:
+  - 男孩子3
+  - 又沒興趣。
+- wait:
+  - 35
+- print:
+  - 男孩子3
+  - >2-
+
+    我一個人就好。
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 111
+  - 6
+- se:
+  - se_adv_step_dirt_walk_come_01
+- emotion:
+  - exclamation1_R
+  - 111
+  - -10
+  - 585
+  - se_adv_emote_common_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 111
+- bust:
+  - 111
+  - 0
+- vo:
+  - vo_adv_1166002_066
+- face:
+  - 111
+  - 6
+- print:
+  - 男孩子3
+  - 唔！
+- wait:
+  - 15
+- print:
+  - 男孩子3
+  - 有、
+- wait:
+  - 15
+- print:
+  - 男孩子3
+  - 有人來了……
+- wait:
+  - 30
+- print:
+  - 男孩子3
+  - 老師？
+- wait:
+  - 25
+- print:
+  - 男孩子3
+  - 還是導遊？
+- wait:
+  - 30
+- print:
+  - 男孩子3
+  - >2
+
+- face:
+  - 111
+  - 4
+- print:
+  - 男孩子3
+  - 總、
+- wait:
+  - 15
+- print:
+  - 男孩子3
+  - 總之要先躲起來……
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_dirt_run_go_01
+- change:
+  - RC
+  - C
+  - 30
+- bgm:
+  - stop
+  - 3
+  - 1
+- fadeout:
+  - 111
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 2512
+  - C
+  - 1
+- chara_full:
+  - 911
+  - L
+  - 4
+- se:
+  - se_adv_step_dirt_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 45
+- change:
+  - RC
+  - C
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - true
+- bgm:
+  - bgm_M21
+  - 0
+  - 0
+  - 0
+  - 0.4
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1166002_067
+- face:
+  - 911
+  - 4
+- emotion:
+  - gloomy1_R
+  - 911
+  - 25
+  - 585
+  - se_adv_emote_gloomy_01
+- print:
+  - 惡徒1
+  - 真是的，
+- wait:
+  - 25
+- print:
+  - 惡徒1
+  - 雖說是重要的交易，
+- wait:
+  - 35
+- print:
+  - 惡徒1
+  - >-
+    但為什麼非來這裡
+
+    不可啊？
+- wait:
+  - 45
+- print:
+  - 惡徒1
+  - >2-
+
+    而且這附近不是龍骨家族的地盤嗎？
+- touch: *o0
+- focus:
+  - 2512
+- bust:
+  - 2512
+  - 0
+- vo:
+  - vo_adv_1166002_068
+- face:
+  - 2512
+  - 3
+- print:
+  - 惡徒2
+  - 流氓有什麼好怕的？
+- wait:
+  - 50
+- face:
+  - 2512
+  - 6
+- print:
+  - 惡徒2
+  - 而且
+- wait:
+  - 25
+- print:
+  - 惡徒2
+  - >-
+    那些傢伙
+
+    也不會連這種洞窟都一直盯著不放的。
+- wait:
+  - 75
+- print:
+  - 惡徒2
+  - >2
+
+- face:
+  - 2512
+  - 1
+- print:
+  - 惡徒2
+  - 所謂燈塔下才是最暗的。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 111
+  - C
+  - 4
+- fadein:
+  - 111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 111
+- bust:
+  - 111
+  - 0
+- vo:
+  - vo_adv_1166002_069
+- face:
+  - 111
+  - 4
+- print:
+  - 男孩子3
+  - 怎、
+- wait:
+  - 15
+- print:
+  - 男孩子3
+  - 怎麼辦？
+- wait:
+  - 30
+- print:
+  - 男孩子3
+  - 那是壞人吧……
+- wait:
+  - 35
+- print:
+  - 男孩子3
+  - 我不能被他們發現。
+- touch: *o0
+- se:
+  - se_adv_bugs_noise_01
+- focus:
+  - 111
+- bust:
+  - 111
+  - 0
+- vo:
+  - vo_adv_1166002_070
+- face:
+  - 111
+  - 6
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 男孩子3
+  - 咿！
+- shake:
+  - 111
+- print:
+  - 男孩子3
+  - 有、
+- wait:
+  - 15
+- print:
+  - 男孩子3
+  - 有蟲……
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 1
+- vo:
+  - vo_adv_1166002_071
+- face:
+  - 911
+  - 4
+- print:
+  - 惡徒1
+  - 喔，
+- wait:
+  - 15
+- print:
+  - 惡徒1
+  - 有人在那裡嗎！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 111
+  - 30
+- chara_full:
+  - 2512
+  - C
+  - 1
+- chara_full:
+  - 911
+  - L
+  - 1
+- se:
+  - se_adv_step_dirt_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 45
+- change:
+  - RC
+  - C
+  - 45
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 2512
+- bust:
+  - 2512
+  - 0
+- vo:
+  - vo_adv_1166002_072
+- face:
+  - 2512
+  - 2
+- print:
+  - 惡徒2
+  - ……哎呀哎呀，
+- wait:
+  - 45
+- print:
+  - 惡徒2
+  - 有隻可愛的小老鼠呢。
+- wait:
+  - 75
+- print:
+  - 惡徒2
+  - >2
+
+- face:
+  - 2512
+  - 3
+- print:
+  - 惡徒2
+  - 喂，
+- wait:
+  - 25
+- print:
+  - 惡徒2
+  - 快把這傢伙給處理掉。
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1166002_073
+- face:
+  - 911
+  - 4
+- emotion:
+  - exclamation1_R
+  - 911
+  - -15
+  - 715
+  - se_adv_emote_common_01
+- print:
+  - 惡徒1
+  - 真的假的？
+- wait:
+  - 35
+- print:
+  - 惡徒1
+  - 這傢伙還是個小鬼啊。
+- wait:
+  - 40
+- print:
+  - 惡徒1
+  - >2-
+
+    沒必要做到那個程度吧。
+- touch: *o0
+- focus:
+  - 2512
+- bust:
+  - 2512
+  - 0
+- vo:
+  - vo_adv_1166002_074
+- face:
+  - 2512
+  - 3
+- print:
+  - 惡徒2
+  - 是小鬼又如何？
+- wait:
+  - 45
+- print:
+  - 惡徒2
+  - 要是放走這傢伙，導致事跡敗露怎麼辦？
+- wait:
+  - 60
+- print:
+  - 惡徒2
+  - >2-
+
+    靠一個小鬼的命就能省掉麻煩事我們才樂得輕鬆吧。
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1166002_075
+- face:
+  - 911
+  - 4
+- print:
+  - 惡徒1
+  - ……
+- wait:
+  - 45
+- print:
+  - 惡徒1
+  - 聽見了吧。
+- wait:
+  - 35
+- face:
+  - 911
+  - 1
+- print:
+  - 惡徒1
+  - 抱歉啦，小弟。
+- wait:
+  - 40
+- print:
+  - 惡徒1
+  - 要恨就恨你運氣不好吧。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 111
+  - C
+  - 4
+- fadein:
+  - 111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 111
+- bust:
+  - 111
+  - 0
+- vo:
+  - vo_adv_1166002_076
+- face:
+  - 111
+  - 4
+- print:
+  - 男孩子3
+  - 啊，
+- wait:
+  - 30
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 男孩子3
+  - 啊……
+- shake:
+  - 111
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+- fadeout:
+  - 111
+  - 30
+- chara_full:
+  - 116611
+  - LC
+  - 6
+- chara_full:
+  - 911
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M95_Ver2
+  - 0
+  - 0
+  - 1
+  - 0.4
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_077
+- face:
+  - 116611
+  - 6
+- nod:
+  - 116611
+- se:
+  - se_adv_step_dirt_move_01
+- print:
+  - 嘉夜
+  - 真是的。
+- wait:
+  - 55
+- face:
+  - 116611
+  - 3
+- print:
+  - 嘉夜
+  - 你們這些傢伙來到這裡，
+- wait:
+  - 45
+- print:
+  - 嘉夜
+  - 才是不幸到了極點啊。
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1166002_078
+- face:
+  - 911
+  - 6
+- emotion:
+  - exclamation1_R
+  - 911
+  - -15
+  - 715
+  - se_adv_emote_common_01
+- print:
+  - 惡徒1
+  - 你、
+- wait:
+  - 15
+- print:
+  - 惡徒1
+  - 你們是誰！？
+- touch: *o0
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_079
+- face:
+  - 116611
+  - 6
+- print:
+  - 嘉夜
+  - 只是兩個導遊喔。
+- wait:
+  - 50
+- face:
+  - 116611
+  - 3
+- print:
+  - 嘉夜
+  - 但是啊，
+- wait:
+  - 50
+- print:
+  - 嘉夜
+  - 你們不僅在我家的地盤上撒野，
+- wait:
+  - 55
+- print:
+  - 嘉夜
+  - >2-
+
+    還想對我重要的客人動手，
+- wait:
+  - 80
+- print:
+  - 嘉夜
+  - >2-
+
+    那我可要回去當打手了。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 2512
+  - RC
+  - 6
+- chara_full:
+  - 911
+  - LC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1166002_080
+- face:
+  - 911
+  - 6
+- print:
+  - 惡徒1
+  - 說、
+- wait:
+  - 10
+- print:
+  - 惡徒1
+  - 說笑的吧？
+- wait:
+  - 25
+- print:
+  - 惡徒1
+  - 那個打手為什麼在當導遊……
+- touch: *o0
+- focus:
+  - 2512
+- bust:
+  - 2512
+  - 0
+- vo:
+  - vo_adv_1166002_081
+- face:
+  - 2512
+  - 3
+- nod:
+  - 2512
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 惡徒2
+  - 你可別怕啊！
+- wait:
+  - 40
+- print:
+  - 惡徒2
+  - 不管有多強，再怎麼說也只是個小丫頭。
+- wait:
+  - 80
+- print:
+  - 惡徒2
+  - >2-
+
+    告訴她什麼才是真正的邪惡吧。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 116611
+  - C
+  - 1
+- fadein:
+  - 116611
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_082
+- face:
+  - 116611
+  - 1
+- print:
+  - 嘉夜
+  - 劈頭就用暴力啊？
+- wait:
+  - 55
+- print:
+  - 嘉夜
+  - 不錯嘛，很有壞人的風格。
+- wait:
+  - 55
+- print:
+  - 嘉夜
+  - >2
+
+- face:
+  - 116611
+  - 3
+- print:
+  - 嘉夜
+  - 我等等還有一堆工作，午飯也還沒吃。
+- wait:
+  - 105
+- print:
+  - 嘉夜
+  - >2-
+
+    我們盡快結束吧！
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
+- choice:
+  - 我們上吧，嘉夜！
+  - 13
+- tag:
+  - 13
+- effect:
+  - 0076
+  - se_adv_magic_cmn_medium_02
+- bgm:
+  - bgm_M57
+  - 0
+  - 0
+  - 0
+  - 0.4
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_083
+- face:
+  - 116611
+  - 1
+- nod:
+  - 116611
+- print:
+  - 嘉夜
+  - 來了來了！
+- wait:
+  - 40
+- print:
+  - 嘉夜
+  - 我熱血沸騰了！
+- wait:
+  - 55
+- print:
+  - 嘉夜
+  - >2
+
+- face:
+  - 116611
+  - 3
+- print:
+  - 嘉夜
+  - 看我一瞬間就解決他們！
+- wait:
+  - 45
+- print:
+  - 嘉夜
+  - 龍人終結之拳──！！
+- touch: *o0
+- window_visible:
+  - false
+- effect_delete:
+  - 0076
+  - 15
+- se:
+  - se_adv_transition_01
+- effect:
+  - 0009
+- scale:
+  - 116611
+  - 1.2
+  - 1
+  - 10
+- fadeout:
+  - 116611
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- se:
+  - se_adv_weapon_punch_hit_02
+- effect:
+  - 0003
+- wait:
+  - 15
+- effect:
+  - 0071
+  - se_adv_magic_fire_medium_01
+- wait:
+  - 20
+- effect:
+  - 0010
+  - se_adv_explosion_small_01
+- wait:
+  - 15
+- background:
+  - 500240
+- chara_full:
+  - 2512
+  - RC
+  - 4
+- chara_full:
+  - 911
+  - LC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1166002_084
+- multi_talk:
+  - 911:2512
+- face:
+  - 1
+  - 1
+- print:
+  - 惡徒們
+  - 呀啊啊啊啊啊！
+- shake_screen: *o0
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 3
+- se:
+  - se_adv_body_sitdown_01
+- updown:
+  - 2512
+  - 0
+  - -150
+  - 0.2
+- se:
+  - se_adv_body_bump_01
+- updown:
+  - 911
+  - 0
+  - -150
+  - 0.2
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_bodyfall_02
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 116611
+  - C
+  - 6
+- fadein:
+  - 116611
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M273
+  - 0
+  - 0
+  - 1
+  - 0.4
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_085
+- face:
+  - 116611
+  - 6
+- print:
+  - 嘉夜
+  - 哼，
+- wait:
+  - 25
+- print:
+  - 嘉夜
+  - 只會耍嘴皮子啊。
+- wait:
+  - 45
+- print:
+  - 嘉夜
+  - 打起來真沒勁。
+- wait:
+  - 65
+- print:
+  - 嘉夜
+  - >2
+
+- face:
+  - 116611
+  - 1
+- print:
+  - 嘉夜
+  - 也對，畢竟是在別人地盤上偷雞摸狗的傢伙，差不多就這樣吧。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 116611
+  - 30
+- chara_full:
+  - 116611
+  - LC
+  - 6
+- chara_full:
+  - 111
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_086
+- face:
+  - 116611
+  - 6
+- emotion:
+  - notice1_L
+  - 116611
+  - -35
+  - 525
+  - se_adv_emote_common_01
+- print:
+  - 嘉夜
+  - 喔，
+- wait:
+  - 10
+- print:
+  - 嘉夜
+  - 對了。
+- wait:
+  - 35
+- print:
+  - 嘉夜
+  - 喂，
+- wait:
+  - 25
+- print:
+  - 嘉夜
+  - 你有沒有受傷？
+- wait:
+  - 50
+- print:
+  - 嘉夜
+  - >2
+
+- face:
+  - 116611
+  - 4
+- print:
+  - 嘉夜
+  - 真是的，
+- wait:
+  - 35
+- print:
+  - 嘉夜
+  - 老師不是說不要跑太遠嗎？
+- touch: *o0
+- focus:
+  - 111
+- bust:
+  - 111
+  - 0
+- vo:
+  - vo_adv_1166002_087
+- face:
+  - 111
+  - 4
+- print:
+  - 男孩子3
+  - 我、
+- wait:
+  - 45
+- nod:
+  - 111
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 男孩子3
+  - 我沒事……
+- wait:
+  - 40
+- face:
+  - 111
+  - 6
+- print:
+  - 男孩子3
+  - 那個，
+- wait:
+  - 25
+- print:
+  - 男孩子3
+  - 妳、
+- wait:
+  - 30
+- print:
+  - 男孩子3
+  - 妳不罵我……
+- wait:
+  - 20
+- print:
+  - 男孩子3
+  - 嗎？
+- touch: *o0
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_088
+- face:
+  - 116611
+  - 6
+- print:
+  - 嘉夜
+  - 嗯？
+- wait:
+  - 50
+- print:
+  - 嘉夜
+  - 對啦，
+- wait:
+  - 20
+- print:
+  - 嘉夜
+  - 一個人擅自行動的確是不好，
+- wait:
+  - 80
+- print:
+  - 嘉夜
+  - >2
+
+- face:
+  - 116611
+  - 1
+- print:
+  - 嘉夜
+  - 但
+- wait:
+  - 30
+- print:
+  - 嘉夜
+  - 就結果來說，多虧有你，我們才能摧毀這些傢伙的陰謀。
+- wait:
+  - 90
+- print:
+  - 嘉夜
+  - >2-
+
+    你立下大功了。
+- touch: *o0
+- focus:
+  - 111
+- bust:
+  - 111
+  - 0
+- vo:
+  - vo_adv_1166002_089
+- face:
+  - 111
+  - 4
+- print:
+  - 男孩子3
+  - 但是……
+- wait:
+  - 40
+- print:
+  - 男孩子3
+  - 對、
+- wait:
+  - 35
+- nod:
+  - 111
+- print:
+  - 男孩子3
+  - 對不、
+- wait:
+  - 15
+- print:
+  - 男孩子3
+  - 起……
+- wait:
+  - 35
+- print:
+  - 男孩子3
+  - >2-
+
+    我自己亂跑……
+- touch: *o0
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_090
+- face:
+  - 116611
+  - 6
+- print:
+  - 嘉夜
+  - 欸，
+- wait:
+  - 40
+- print:
+  - 嘉夜
+  - 你為什麼不和大家一起玩啊？
+- touch: *o0
+- bgm:
+  - stop
+  - 3.5
+  - 1
+- choice:
+  - 你真的喜歡一個人嗎？
+  - 15
+- tag:
+  - 15
+- bgm:
+  - bgm_M469
+  - 0
+  - 0
+  - 0
+  - 2
+- focus:
+  - 111
+- bust:
+  - 111
+  - 0
+- vo:
+  - vo_adv_1166002_091
+- face:
+  - 111
+  - 4
+- eye_open:
+  - False
+- print:
+  - 男孩子3
+  - ……不是的，
+- wait:
+  - 35
+- eye_open:
+  - True
+- print:
+  - 男孩子3
+  - 其實我也想融入大家。
+- wait:
+  - 60
+- print:
+  - 男孩子3
+  - >2-
+
+    但是，
+- wait:
+  - 35
+- print:
+  - 男孩子3
+  - 我好羨慕大家……
+- touch: *o0
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_092
+- face:
+  - 116611
+  - 6
+- print:
+  - 嘉夜
+  - 羨慕？
+- touch: *o0
+- focus:
+  - 111
+- bust:
+  - 111
+  - 0
+- vo:
+  - vo_adv_1166002_093
+- face:
+  - 111
+  - 4
+- nod:
+  - 111
+- print:
+  - 男孩子3
+  - 我爸爸媽媽都很忙，
+- wait:
+  - 55
+- print:
+  - 男孩子3
+  - 沒什麼時間照顧我。
+- wait:
+  - 65
+- print:
+  - 男孩子3
+  - >2-
+
+    但是，
+- wait:
+  - 25
+- print:
+  - 男孩子3
+  - 大家總是跟爸爸媽媽在一起，很開心的樣子，
+- wait:
+  - 75
+- print:
+  - 男孩子3
+  - >2-
+
+    我就開始賭氣，覺得自己和大家不一樣。
+- touch: *o0
+- focus:
+  - 111
+- bust:
+  - 111
+  - 0
+- vo:
+  - vo_adv_1166002_094
+- face:
+  - 111
+  - 4
+- print:
+  - 男孩子3
+  - 今天也是，
+- wait:
+  - 45
+- print:
+  - 男孩子3
+  - 只有我沒有便當和點心，
+- wait:
+  - 55
+- eye_open:
+  - False
+- print:
+  - 男孩子3
+  - 所以……
+- touch: *o0
+- eye_open:
+  - true
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_095
+- face:
+  - 116611
+  - 6
+- nod:
+  - 116611
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 嘉夜
+  - 原來如此，
+- wait:
+  - 55
+- print:
+  - 嘉夜
+  - 是這麼回事啊。
+- wait:
+  - 65
+- print:
+  - 嘉夜
+  - >2-
+
+    雖然可以把飯菜分給他，
+- wait:
+  - 50
+- face:
+  - 116611
+  - 4
+- print:
+  - 嘉夜
+  - 但只有這樣的話他也不會開心吧。
+- touch: *o0
+- choice:
+  - 導遊的工作就是讓大家玩得開心喔。
+  - 17
+- tag:
+  - 17
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_096
+- face:
+  - 116611
+  - 6
+- print:
+  - 嘉夜
+  - 就是說啊。
+- wait:
+  - 55
+- print:
+  - 嘉夜
+  - 為了讓他融入大家的團體……
+- wait:
+  - 140
+- print:
+  - 嘉夜
+  - >2
+
+- face:
+  - 116611
+  - 2
+- print:
+  - 嘉夜
+  - 好，
+- wait:
+  - 40
+- print:
+  - 嘉夜
+  - 我們會把你變成英雄的。
+- touch: *o0
+- focus:
+  - 111
+- bust:
+  - 111
+  - 0
+- vo:
+  - vo_adv_1166002_097
+- face:
+  - 111
+  - 6
+- emotion:
+  - question1_R
+  - 111
+  - 95
+  - 455
+  - se_adv_emote_question_01
+- print:
+  - 男孩子3
+  - 什麼？
+- touch: *o0
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_098
+- face:
+  - 116611
+  - 1
+- print:
+  - 嘉夜
+  - 你們
+- wait:
+  - 30
+- print:
+  - 嘉夜
+  - 快把耳朵靠過來。
+- wait:
+  - 55
+- face:
+  - 116611
+  - 2
+- print:
+  - 嘉夜
+  - 開作戰會議囉！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1.8
+- fadeout_all:
+  - 30
+- vo_effect:
+  - 0
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_dungeon_01
+  - 1
+- background:
+  - 500510
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_outdoors_day_01
+- chara_full:
+  - 211
+  - L
+  - 1
+- chara_full:
+  - 416
+  - C
+  - 1
+- chara_full:
+  - 5311
+  - R
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M180_Ver2
+  - 0
+  - 0
+  - 1
+  - 0.4
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1166002_099
+- face:
+  - 211
+  - 6
+- emotion:
+  - question1_R
+  - 211
+  - 70
+  - 470
+  - se_adv_emote_question_01
+- print:
+  - 女子１
+  - 奇怪，
+- wait:
+  - 25
+- print:
+  - 女子１
+  - 導遊小姐去哪裡了啊？
+- wait:
+  - 50
+- print:
+  - 女子１
+  - >2-
+
+    我原本想跟她一起吃便當的說……
+- touch: *o0
+- focus:
+  - 416
+- bust:
+  - 416
+  - 0
+- vo:
+  - vo_adv_1166002_100
+- face:
+  - 416
+  - 6
+- print:
+  - 男孩 1
+  - 這麼說來，那傢伙也不見了呢。
+- wait:
+  - 60
+- print:
+  - 男孩 1
+  - >2
+
+- face:
+  - 416
+  - 4
+- print:
+  - 男孩 1
+  - 什麼嘛，
+- wait:
+  - 30
+- print:
+  - 男孩 1
+  - 沒必要連吃便當都自己一個人吧？
+- touch: *o0
+- focus:
+  - 5311
+- bust:
+  - 5311
+  - 0
+- vo:
+  - vo_adv_1166002_101
+- face:
+  - 5311
+  - 4
+- nod:
+  - 5311
+- print:
+  - 男孩 2
+  - 嗯，
+- wait:
+  - 30
+- print:
+  - 男孩 2
+  - 要是我們有邀請他就好了……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 116611
+  - L
+  - 1
+- chara_full:
+  - 111
+  - C
+  - 6
+- se:
+  - se_adv_step_leaves_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 45
+- change:
+  - RC
+  - C
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_102
+- face:
+  - 116611
+  - 1
+- print:
+  - 嘉夜
+  - 我們回來囉──！
+- touch: *o0
+- focus:
+  - 416
+- bust:
+  - 416
+  - 1
+- vo:
+  - vo_adv_1166002_103
+- face:
+  - 416
+  - 1
+- print:
+  - 男孩 1
+  - 導遊小姐！
+- wait:
+  - 20
+- face:
+  - 416
+  - 6
+- print:
+  - 男孩 1
+  - 啊，
+- wait:
+  - 20
+- print:
+  - 男孩 1
+  - 那傢伙也在。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 2512
+  - C
+  - 4
+- chara_full:
+  - 911
+  - L
+  - 4
+- se:
+  - se_adv_step_leaves_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 45
+- change:
+  - RC
+  - C
+  - 45
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 5411
+- bust:
+  - 5411
+  - 1
+- vo:
+  - vo_adv_1166002_104
+- face:
+  - 5411
+  - 6
+- print:
+  - 女子２
+  - 等、
+- wait:
+  - 10
+- print:
+  - 女子２
+  - 等等，
+- wait:
+  - 30
+- print:
+  - 女子２
+  - >2-
+
+    和他們在一起，被打得慘兮兮的可怕人物是誰啊……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 116611
+  - LC
+  - 1
+- chara_full:
+  - 111
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_105
+- face:
+  - 116611
+  - 1
+- nod:
+  - 116611
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 嘉夜
+  - 他們是壞人啦。
+- wait:
+  - 60
+- print:
+  - 嘉夜
+  - >2
+
+- face:
+  - 116611
+  - 6
+- print:
+  - 嘉夜
+  - 其實這孩子注意到了壞人詭異的行動，
+- wait:
+  - 80
+- print:
+  - 嘉夜
+  - >2-
+
+    所以才一直和大家分開行動。
+- touch: *o0
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_106
+- face:
+  - 116611
+  - 1
+- print:
+  - 嘉夜
+  - 然後
+- wait:
+  - 30
+- print:
+  - 嘉夜
+  - 他通知我們洞窟那邊有壞人，
+- wait:
+  - 50
+- print:
+  - 嘉夜
+  - >2-
+
+    我們才去把壞人都打敗。
+- wait:
+  - 80
+- face:
+  - 116611
+  - 2
+- print:
+  - 嘉夜
+  - 對不對？
+- touch: *o0
+- bgm:
+  - stop
+  - 4
+  - 1
+- focus:
+  - 111
+- bust:
+  - 111
+  - 0
+- vo:
+  - vo_adv_1166002_107
+- face:
+  - 111
+  - 6
+- print:
+  - 男孩子3
+  - 嗯、
+- wait:
+  - 20
+- nod:
+  - 111
+- print:
+  - 男孩子3
+  - 嗯……
+- touch: *o0
+- focus:
+  - 5411
+- bust:
+  - 5411
+  - 1
+- vo:
+  - vo_adv_1166002_108
+- face:
+  - 5411
+  - 6
+- print:
+  - 女子２
+  - 是、
+- wait:
+  - 20
+- print:
+  - 女子２
+  - 是這樣嗎！？
+- wait:
+  - 25
+- bgm:
+  - bgm_M100
+- print:
+  - 女子２
+  - 你很厲害嘛，
+- wait:
+  - 30
+- face:
+  - 5411
+  - 1
+- print:
+  - 女子２
+  - 我對你刮目相看了。
+- touch: *o0
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_109
+- face:
+  - 116611
+  - 4
+- print:
+  - 嘉夜
+  - 但在和流氓打鬥的混亂之中，
+- wait:
+  - 60
+- print:
+  - 嘉夜
+  - >2-
+
+    便當和點心都被打翻了。
+- touch: *o0
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_110
+- face:
+  - 116611
+  - 6
+- print:
+  - 嘉夜
+  - 不好意思，
+- wait:
+  - 20
+- print:
+  - 嘉夜
+  - 大家可以一人分一點給他嗎？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 5311
+  - L
+  - 2
+- chara_full:
+  - 416
+  - C
+  - 1
+- chara_full:
+  - 211
+  - R
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 5311
+- bust:
+  - 5311
+  - 0
+- vo:
+  - vo_adv_1166002_111
+- face:
+  - 5311
+  - 2
+- nod:
+  - 5311
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 男孩 2
+  - 嗯，
+- wait:
+  - 15
+- print:
+  - 男孩 2
+  - 當然可以！
+- touch: *o0
+- focus:
+  - 416
+- bust:
+  - 416
+  - 0
+- vo:
+  - vo_adv_1166002_112
+- face:
+  - 416
+  - 2
+- print:
+  - 男孩 1
+  - 什麼嘛，
+- wait:
+  - 30
+- print:
+  - 男孩 1
+  - 原來你這麼厲害啊。
+- touch: *o0
+- focus:
+  - 211
+- bust:
+  - 211
+  - 0
+- vo:
+  - vo_adv_1166002_113
+- face:
+  - 211
+  - 2
+- print:
+  - 女子１
+  - 如果你願意，以後也跟我們一起玩吧！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 111
+  - C
+  - 1
+- fadein:
+  - 111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 111
+- bust:
+  - 111
+  - 0
+- vo:
+  - vo_adv_1166002_114
+- face:
+  - 111
+  - 1
+- print:
+  - 男孩子3
+  - 嗯，
+- wait:
+  - 35
+- face:
+  - 111
+  - 2
+- nod:
+  - 111
+- print:
+  - 男孩子3
+  - 嗯
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 男孩子3
+  - ……！
+- wait:
+  - 25
+- print:
+  - 男孩子3
+  - 謝謝你們！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 111
+  - 30
+- chara_full:
+  - 116611
+  - LC
+  - 1
+- chara_full:
+  - 411
+  - RC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1166002_115
+- face:
+  - 411
+  - 2
+- print:
+  - 老師
+  - 謝謝你們兩位，
+- wait:
+  - 35
+- print:
+  - 老師
+  - >2-
+
+    竟然為那孩子做了這麼多。
+- touch: *o0
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_116
+- face:
+  - 116611
+  - 1
+- nod:
+  - 116611
+- print:
+  - 嘉夜
+  - 我們沒做什麼大事啊，
+- wait:
+  - 45
+- print:
+  - 嘉夜
+  - 只是剛好遇到那種狀況，
+- wait:
+  - 30
+- print:
+  - 嘉夜
+  - >2-
+
+    順便利用了一下而已。
+- wait:
+  - 55
+- face:
+  - 116611
+  - 2
+- print:
+  - 嘉夜
+  - 幸好
+- wait:
+  - 20
+- print:
+  - 嘉夜
+  - 一切順利。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 116611
+  - C
+  - 1
+- fadein:
+  - 116611
+  - 30
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_117
+- face:
+  - 116611
+  - 1
+- print:
+  - 嘉夜
+  - 原來如此。
+- wait:
+  - 55
+- print:
+  - 嘉夜
+  - 原來這就是幫助別人製造重要回憶啊。
+- wait:
+  - 115
+- print:
+  - 嘉夜
+  - >2
+
+- face:
+  - 116611
+  - 2
+- print:
+  - 嘉夜
+  - 偶爾像這樣也不錯呢。
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 116611
+  - 1
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 416
+- bust:
+  - 416
+  - 1
+- vo:
+  - vo_adv_1166002_118
+- face:
+  - 416
+  - 2
+- print:
+  - 男孩 1
+  - 喂～導遊小姐也來這邊啦！
+- wait:
+  - 50
+- print:
+  - 男孩 1
+  - >2-
+
+    我們一起吃飯吧！
+- touch: *o0
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_1166002_119
+- face:
+  - 116611
+  - 1
+- nod:
+  - 116611
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 嘉夜
+  - 好啊，
+- wait:
+  - 20
+- print:
+  - 嘉夜
+  - 我馬上過去！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 116611
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 就這樣，嘉夜第一次的導遊工作圓滿結束。
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1
+- se_pause:
+  - amb_adv_outdoors_day_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0
