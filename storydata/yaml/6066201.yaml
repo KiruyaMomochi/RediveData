@@ -1,0 +1,291 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500040
+- amb:
+  - amb_adv_room_noise_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 關於公會
+- chara_full:
+  - 116611
+  - C
+  - 6
+- fadein:
+  - 116611
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M274
+  - 0
+  - 0
+  - 1
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_6066201_000
+- face:
+  - 116611
+  - 6
+- print:
+  - 嘉夜
+  - 【龍族巢穴】嗎……
+- wait:
+  - 65
+- face:
+  - 116611
+  - 1
+- print:
+  - 嘉夜
+  - 算是
+- wait:
+  - 20
+- print:
+  - 嘉夜
+  - 有點奇怪的公會吧。
+- wait:
+  - 75
+- print:
+  - 嘉夜
+  - >2
+
+- face:
+  - 116611
+  - 6
+- print:
+  - 嘉夜
+  - 在你看來，
+- wait:
+  - 25
+- print:
+  - 嘉夜
+  - 我家的公會
+- wait:
+  - 20
+- print:
+  - 嘉夜
+  - 一開始給你的印象如何？
+- touch: &o0 []
+- choice:
+  - 很強的公會。
+  - 1
+  - 1
+- choice:
+  - 看起來有點壞的公會。
+  - 2
+  - 2
+- choice:
+  - 厲害的公會。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_6066201_001
+- face:
+  - 116611
+  - 2
+- emotion:
+  - note1_L
+  - 116611
+  - -75
+  - 490
+  - se_adv_emote_note_01
+- print:
+  - 嘉夜
+  - 哈哈，
+- wait:
+  - 25
+- print:
+  - 嘉夜
+  - 多謝誇獎。
+- wait:
+  - 55
+- print:
+  - 嘉夜
+  - >2
+
+- face:
+  - 116611
+  - 6
+- print:
+  - 嘉夜
+  - ……你說這話
+- wait:
+  - 35
+- print:
+  - 嘉夜
+  - 也有把祈梨算在內？
+- wait:
+  - 90
+- face:
+  - 116611
+  - 1
+- wait:
+  - 10
+- print:
+  - 嘉夜
+  - >2-
+
+    果然你
+- wait:
+  - 30
+- print:
+  - 嘉夜
+  - 是個怪人。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_6066201_002
+- face:
+  - 116611
+  - 6
+- print:
+  - 嘉夜
+  - 畢竟，
+- wait:
+  - 20
+- print:
+  - 嘉夜
+  - 我們也是個幫派，
+- wait:
+  - 20
+- print:
+  - 嘉夜
+  - 會這麼認為也沒辦法呢。
+- wait:
+  - 70
+- print:
+  - 嘉夜
+  - >2
+
+- face:
+  - 116611
+  - 1
+- print:
+  - 嘉夜
+  - 那，
+- wait:
+  - 15
+- print:
+  - 嘉夜
+  - 現在的印象是……
+- wait:
+  - 65
+- face:
+  - 116611
+  - 6
+- print:
+  - 嘉夜
+  - 你說沒怎麼變嗎？
+- wait:
+  - 75
+- print:
+  - 嘉夜
+  - >2
+
+- face:
+  - 116611
+  - 2
+- print:
+  - 嘉夜
+  - 哈哈，
+- wait:
+  - 30
+- print:
+  - 嘉夜
+  - 或許是這樣也沒錯呢！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 116611
+- bust:
+  - 116611
+  - 0
+- vo:
+  - vo_adv_6066201_003
+- face:
+  - 116611
+  - 1
+- nod:
+  - 116611
+- print:
+  - 嘉夜
+  - 對吧？
+- wait:
+  - 30
+- print:
+  - 嘉夜
+  - 雖說我們光是龍人族這點就很稀奇，
+- wait:
+  - 55
+- print:
+  - 嘉夜
+  - >2-
+
+    但也不僅如此呢。
+- wait:
+  - 45
+- print:
+  - 嘉夜
+  - 況且我們老大也很狂，
+- wait:
+  - 40
+- print:
+  - 嘉夜
+  - >2-
+
+    祈梨她……
+- wait:
+  - 30
+- face:
+  - 116611
+  - 2
+- wait:
+  - 30
+- print:
+  - 嘉夜
+  - 從許多方面來說也是個厲害人物呢。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 116611
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

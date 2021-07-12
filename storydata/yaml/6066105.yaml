@@ -1,0 +1,273 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 501320
+- amb:
+  - amb_adv_room_noise_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 關於野心
+- chara_full:
+  - 116511
+  - C
+  - 1
+- fadein:
+  - 116511
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M468_04
+  - 0
+  - 0
+  - 1
+- focus:
+  - 116511
+- bust:
+  - 116511
+  - 0
+- vo:
+  - vo_adv_6066105_000
+- face:
+  - 116511
+  - 1
+- print:
+  - 祈梨
+  - 我要真正能以下剋上……
+- wait:
+  - 60
+- print:
+  - 祈梨
+  - >2-
+
+    最需要的東西是什麼？
+- wait:
+  - 80
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 116511
+  - 2
+- print:
+  - 祈梨
+  - 小哥的話一定明白！
+- touch: &o0 []
+- choice:
+  - 變偉大。
+  - 1
+  - 1
+- choice:
+  - 當個乖孩子。
+  - 2
+  - 2
+- choice:
+  - 變強。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 116511
+- bust:
+  - 116511
+  - 0
+- vo:
+  - vo_adv_6066105_001
+- face:
+  - 116511
+  - 3
+- pop:
+  - 116511
+- print:
+  - 祈梨
+  - 所以說！
+- wait:
+  - 25
+- print:
+  - 祈梨
+  - 我就是想要知道變偉大的方法啦！
+- wait:
+  - 65
+- print:
+  - 祈梨
+  - >2
+
+- face:
+  - 116511
+  - 1
+- print:
+  - 祈梨
+  - 嗚嗚，
+- wait:
+  - 35
+- print:
+  - 祈梨
+  - 果然只能腳踏實地的努力嗎……
+- wait:
+  - 85
+- print:
+  - 祈梨
+  - >2-
+
+    成為Big Boss之路，
+- wait:
+  - 45
+- print:
+  - 祈梨
+  - 也要一步一腳印呢……
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 116511
+- bust:
+  - 116511
+  - 0
+- vo:
+  - vo_adv_6066105_002
+- face:
+  - 116511
+  - 3
+- emotion:
+  - anger1_R
+  - 116511
+  - -125
+  - 480
+  - se_adv_emote_anger_01
+- print:
+  - 祈梨
+  - 那樣當然是行不通的啊！
+- wait:
+  - 35
+- print:
+  - 祈梨
+  - 這是對混混說的話嗎！
+- wait:
+  - 45
+- print:
+  - 祈梨
+  - >2-
+
+    既狂野、
+- wait:
+  - 20
+- print:
+  - 祈梨
+  - 又堅韌，
+- wait:
+  - 20
+- print:
+  - 祈梨
+  - 無所不能的人才是真正的老大！
+- wait:
+  - 55
+- print:
+  - 祈梨
+  - >2-
+
+    真是的，
+- wait:
+  - 25
+- print:
+  - 祈梨
+  - 小哥的想法太單純了！
+- wait:
+  - 45
+- print:
+  - 祈梨
+  - 天真過頭了！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 116511
+- bust:
+  - 116511
+  - 0
+- vo:
+  - vo_adv_6066105_003
+- face:
+  - 116511
+  - 2
+- print:
+  - 祈梨
+  - 果然是這樣！
+- wait:
+  - 40
+- print:
+  - 祈梨
+  - 力量才是正義……
+- wait:
+  - 35
+- face:
+  - 116511
+  - 6
+- print:
+  - 祈梨
+  - 不對，
+- wait:
+  - 30
+- face:
+  - 116511
+  - 2
+- print:
+  - 祈梨
+  - 是邪惡！
+- wait:
+  - 40
+- print:
+  - 祈梨
+  - >2-
+
+    要成為人上人，
+- wait:
+  - 25
+- print:
+  - 祈梨
+  - 就需要能將一切踩在腳下的強大力量……！
+- wait:
+  - 95
+- print:
+  - 祈梨
+  - >2-
+
+    小哥！
+- wait:
+  - 25
+- print:
+  - 祈梨
+  - 從現在開始一起特訓唷！
+- wait:
+  - 55
+- print:
+  - 祈梨
+  - 加油──！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 116511
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

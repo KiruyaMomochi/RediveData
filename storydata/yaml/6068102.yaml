@@ -1,0 +1,288 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 501340
+- amb:
+  - amb_adv_room_noise_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 作業服の着心地は？
+- chara_full:
+  - 116711
+  - C
+  - 2
+- fadein:
+  - 116711
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M479
+  - 0
+  - 0
+  - 1
+- focus:
+  - 116711
+- bust:
+  - 116711
+  - 0
+- vo:
+  - vo_adv_6068102_000
+- face:
+  - 116711
+  - 2
+- print:
+  - アオイ
+  - もらった作業服に袖を通すのも慣れてきました！
+- wait:
+  - 50
+- print:
+  - アオイ
+  - >2
+
+- emotion:
+  - note1_L
+  - 116711
+  - -70
+  - 485
+  - se_adv_emote_note_01
+- print:
+  - アオイ
+  - えへへ……
+- wait:
+  - 20
+- print:
+  - アオイ
+  - ちゃんと似合ってるかな〜♪
+- wait:
+  - 30
+- print:
+  - アオイ
+  - >2-
+
+    私だけ工場で浮いてないといいな〜♪
+- touch: &o0 []
+- choice:
+  - かっこいい。
+  - 1
+  - 1
+- choice:
+  - 機能的だよね。
+  - 2
+  - 2
+- choice:
+  - うれしそうだね。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 116711
+- bust:
+  - 116711
+  - 0
+- vo:
+  - vo_adv_6068102_001
+- face:
+  - 116711
+  - 6
+- print:
+  - アオイ
+  - あ、
+- wait:
+  - 25
+- nod:
+  - 116711
+- print:
+  - アオイ
+  - ありがとうございますっ！　
+- wait:
+  - 30
+- face:
+  - 116711
+  - 2
+- print:
+  - アオイ
+  - いかにも職人さんって感じがして、
+- wait:
+  - 35
+- print:
+  - アオイ
+  - >2-
+
+    どんなおもちゃでも作れる気がしてきます……！
+- wait:
+  - 35
+- print:
+  - アオイ
+  - >2
+
+- face:
+  - 116711
+  - 6
+- print:
+  - アオイ
+  - な、
+- wait:
+  - 15
+- print:
+  - アオイ
+  - なんて
+- wait:
+  - 20
+- print:
+  - アオイ
+  - 言いすぎでしょうか……？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 116711
+- bust:
+  - 116711
+  - 0
+- vo:
+  - vo_adv_6068102_002
+- face:
+  - 116711
+  - 6
+- nod:
+  - 116711
+- print:
+  - アオイ
+  - たしかに、
+- wait:
+  - 30
+- print:
+  - アオイ
+  - 厚手の生地や
+- wait:
+  - 25
+- print:
+  - アオイ
+  - 道具の収納がたくさんついていて、
+- wait:
+  - 45
+- print:
+  - アオイ
+  - >2-
+
+    いかにもお仕事するぞー！　
+- wait:
+  - 20
+- print:
+  - アオイ
+  - って感じですよね……！
+- wait:
+  - 50
+- print:
+  - アオイ
+  - >2
+
+- face:
+  - 116711
+  - 2
+- print:
+  - アオイ
+  - 今の私も、
+- wait:
+  - 30
+- print:
+  - アオイ
+  - 見た目だけなら
+- wait:
+  - 25
+- print:
+  - アオイ
+  - すごく仕事のできる人に見える気がします！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 116711
+- bust:
+  - 116711
+  - 0
+- vo:
+  - vo_adv_6068102_003
+- face:
+  - 116711
+  - 6
+- print:
+  - アオイ
+  - わ、
+- wait:
+  - 10
+- print:
+  - アオイ
+  - 分かっちゃいますか……？
+- wait:
+  - 20
+- print:
+  - アオイ
+  - 　
+- face:
+  - 116711
+  - 2
+- print:
+  - アオイ
+  - 私、
+- wait:
+  - 25
+- print:
+  - アオイ
+  - こういう制服みたく、
+- wait:
+  - 30
+- print:
+  - アオイ
+  - >2-
+
+    みんなで似たデザインの服を着るのって好きなんです！
+- wait:
+  - 60
+- print:
+  - アオイ
+  - >2
+
+- emotion:
+  - twinkle1_R
+  - 116711
+  - 140
+  - 455
+  - se_adv_emote_twinkle_01
+- print:
+  - アオイ
+  - 私みたいなぼっちでも、
+- wait:
+  - 30
+- print:
+  - アオイ
+  - 仲間ができた気になれるので！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 116711
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

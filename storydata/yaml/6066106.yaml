@@ -1,0 +1,262 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 501060
+- amb:
+  - amb_adv_outdoors_morning_01
+- ui_visible:
+  - false
+- situation:
+  - 彦星について
+- chara_full:
+  - 113111
+  - C
+  - 3
+- fadein:
+  - 113111
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M13_02_Strings
+  - 0
+  - 0
+  - 1
+- focus:
+  - 113111
+- bust:
+  - 113111
+  - 0
+- vo:
+  - vo_adv_6044106_000
+- face:
+  - 113111
+  - 3
+- print:
+  - ルカ
+  - それにしても、
+- wait:
+  - 35
+- print:
+  - ルカ
+  - 彦星のやつは信じられないね。
+- wait:
+  - 60
+- print:
+  - ルカ
+  - >2
+
+- face:
+  - 113111
+  - 4
+- print:
+  - ルカ
+  - あんなにかわいい織姫がいるってのに、
+- wait:
+  - 55
+- print:
+  - ルカ
+  - >2-
+
+    なんで他の女に目移りしてるんだろうね？　
+- wait:
+  - 55
+- print:
+  - ルカ
+  - 信じられないよ。
+- touch: &o0 []
+- choice:
+  - ひどいと思う。
+  - 1
+  - 1
+- choice:
+  - 織姫のこと、好きじゃないのかな？
+  - 2
+  - 2
+- choice:
+  - よく分からない。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 113111
+- bust:
+  - 113111
+  - 0
+- vo:
+  - vo_adv_6044106_001
+- face:
+  - 113111
+  - 3
+- nod:
+  - 113111
+- print:
+  - ルカ
+  - ああ、
+- wait:
+  - 30
+- print:
+  - ルカ
+  - どうしようもない助平野郎だよ。
+- wait:
+  - 60
+- print:
+  - ルカ
+  - >2-
+
+    ああいうヤツにはキツイお灸が必要だからね。
+- wait:
+  - 70
+- print:
+  - ルカ
+  - >2-
+
+    織姫と協力して、
+- wait:
+  - 30
+- print:
+  - ルカ
+  - ガツンとお仕置きしてやろうじゃないか。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 113111
+- bust:
+  - 113111
+  - 0
+- vo:
+  - vo_adv_6044106_002
+- face:
+  - 113111
+  - 6
+- print:
+  - ルカ
+  - 多分、
+- wait:
+  - 25
+- print:
+  - ルカ
+  - 好きではあるんだろうね。
+- wait:
+  - 70
+- print:
+  - ルカ
+  - >2
+
+- face:
+  - 113111
+  - 4
+- print:
+  - ルカ
+  - ああいうダメ男の言い訳で多いんだよ、
+- wait:
+  - 60
+- nod:
+  - 113111
+- print:
+  - ルカ
+  - 一番はおまえだ！　
+- wait:
+  - 40
+- print:
+  - ルカ
+  - ってね。
+- wait:
+  - 45
+- print:
+  - ルカ
+  - >2-
+
+    そんな主張が通るわけがないだろうにね、
+- wait:
+  - 40
+- eye_open:
+  - False
+- print:
+  - ルカ
+  - しょうもない。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 113111
+- bust:
+  - 113111
+  - 0
+- vo:
+  - vo_adv_6044106_003
+- face:
+  - 113111
+  - 1
+- nod:
+  - 113111
+- print:
+  - ルカ
+  - 分からなくたって大丈夫だよ。
+- wait:
+  - 55
+- print:
+  - ルカ
+  - >2-
+
+    お前さんはそのまま、
+- wait:
+  - 35
+- print:
+  - ルカ
+  - 真っ直ぐに
+- wait:
+  - 25
+- print:
+  - ルカ
+  - 自分らしくあればいい。
+- wait:
+  - 40
+- print:
+  - ルカ
+  - >2
+
+- face:
+  - 113111
+  - 2
+- print:
+  - ルカ
+  - アタシは
+- wait:
+  - 25
+- print:
+  - ルカ
+  - そういうお前さんの純粋なとこ、
+- wait:
+  - 50
+- print:
+  - ルカ
+  - いいと思ってるよ。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 113111
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

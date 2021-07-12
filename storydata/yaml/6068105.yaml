@@ -1,0 +1,276 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 501340
+- amb:
+  - amb_adv_room_noise_01
+- ui_visible:
+  - FALSE
+- situation:
+  - おもちゃ作りはもう慣れた？
+- chara_full:
+  - 116711
+  - C
+  - 2
+- fadein:
+  - 116711
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M479_04
+  - 0
+  - 0
+  - 1
+- focus:
+  - 116711
+- bust:
+  - 116711
+  - 0
+- vo:
+  - vo_adv_6068105_000
+- face:
+  - 116711
+  - 2
+- emotion:
+  - twinkle1_R
+  - 116711
+  - 140
+  - 455
+  - se_adv_emote_twinkle_01
+- print:
+  - アオイ
+  - この工場でのバイトも
+- wait:
+  - 30
+- print:
+  - アオイ
+  - ずいぶん慣れてきた気がします！
+- wait:
+  - 45
+- print:
+  - アオイ
+  - >2
+
+- face:
+  - 116711
+  - 6
+- print:
+  - アオイ
+  - 初めはやっていけるか不安でしたけど、
+- wait:
+  - 45
+- face:
+  - 116711
+  - 2
+- print:
+  - アオイ
+  - 最近は働くのも楽しいです！
+- touch: &o0 []
+- choice:
+  - みんなに喜んでもらえるいい仕事だよね。
+  - 1
+  - 1
+- choice:
+  - アオイは活躍してる。
+  - 2
+  - 2
+- choice:
+  - バイト仲間を作れたから？
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 116711
+- bust:
+  - 116711
+  - 0
+- vo:
+  - vo_adv_6068105_001
+- face:
+  - 116711
+  - 2
+- nod:
+  - 116711
+- print:
+  - アオイ
+  - そうですよね！
+- wait:
+  - 40
+- print:
+  - アオイ
+  - >2-
+
+    私たちが作ったおもちゃで遊んでいる子どもを見かけると
+- wait:
+  - 50
+- print:
+  - アオイ
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - アオイ
+  - とってもうれしくって……！　
+- wait:
+  - 25
+- eye_open:
+  - True
+- print:
+  - アオイ
+  - もっとがんばろうって思います！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 116711
+- bust:
+  - 116711
+  - 0
+- vo:
+  - vo_adv_6068105_002
+- face:
+  - 116711
+  - 2
+- print:
+  - アオイ
+  - えへへ、
+- wait:
+  - 25
+- print:
+  - アオイ
+  - そう言われると照れちゃいますね……！
+- wait:
+  - 40
+- print:
+  - アオイ
+  - >2
+
+- nod:
+  - 116711
+- print:
+  - アオイ
+  - たしかに
+- wait:
+  - 20
+- print:
+  - アオイ
+  - 『みんなのトイフレンドくん』を作るきっかけは私でしたが……
+- wait:
+  - 65
+- print:
+  - アオイ
+  - >2
+
+- face:
+  - 116711
+  - 6
+- print:
+  - アオイ
+  - い、
+- wait:
+  - 10
+- print:
+  - アオイ
+  - 今考えると、
+- wait:
+  - 30
+- print:
+  - アオイ
+  - ぼっちには不釣り合いな出来事でした……！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 116711
+- bust:
+  - 116711
+  - 0
+- vo:
+  - vo_adv_6068105_003
+- face:
+  - 116711
+  - 4
+- print:
+  - アオイ
+  - うっ……！　
+- shake:
+  - 116711
+- wait:
+  - 15
+- eye_open:
+  - False
+- print:
+  - アオイ
+  - 実は
+- wait:
+  - 20
+- print:
+  - アオイ
+  - まだバイト仲間はできてなくて……
+- wait:
+  - 55
+- print:
+  - アオイ
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - アオイ
+  - そこそこの期間働いているのに、
+- wait:
+  - 35
+- print:
+  - アオイ
+  - 不甲斐なくてすみません……
+- wait:
+  - 25
+- print:
+  - アオイ
+  - >2
+
+- face:
+  - 116711
+  - 6
+- print:
+  - アオイ
+  - でも、
+- wait:
+  - 15
+- print:
+  - アオイ
+  - いつかきっと……！　
+- wait:
+  - 20
+- print:
+  - アオイ
+  - みなさんとも仲良くなりたいです……！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 116711
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

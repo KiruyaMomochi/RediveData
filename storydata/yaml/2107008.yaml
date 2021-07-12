@@ -1,0 +1,2349 @@
+- title:
+  - 2部 第7章 第8話
+- outline:
+  - 卡里莎一行人未能捉捕似似花，回到了據點。贊恩一邊安撫憤憤不平的卡里莎，一邊為了自己現在的行動是否正確而感到苦惱。另一方面，美空正在策劃捉捕七冠的陷阱。
+- background:
+  - 501040
+- se:
+  - amb_adv_dungeon_01
+- bg_pan:
+  - -170
+  - 0
+- place:
+  - ？？？
+- situation:
+  - 贊恩的願望
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 在遠離蘭德索爾的某座堡壘──
+- wait:
+  - 30
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 191611
+  - C
+  - 4
+- fadein:
+  - 191611
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M387
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_2107008_000
+- face:
+  - 191611
+  - 4
+- print:
+  - 卡里莎
+  - ……可惡……
+- touch: *o0
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_2107008_001
+- face:
+  - 191611
+  - 3
+- nod:
+  - 191611
+- se:
+  - se_adv_step_concrete_move_01
+- print:
+  - 卡里莎
+  - 可惡，
+- wait:
+  - 20
+- print:
+  - 卡里莎
+  - 可惡……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 191611
+  - 30
+- se_pause:
+  - amb_adv_dungeon_01
+  - 1
+- white_out:
+  - 1
+  - 1
+- effect:
+  - 0020
+- background:
+  - 500170
+- wait:
+  - 15
+- white_in: *o0
+- se:
+  - amb_adv_forest_01
+- chara_full:
+  - 107011
+  - C
+  - 1
+- fadein:
+  - 107011
+  - 30
+- vo_effect: *o0
+- window_visible:
+  - true
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_2107008_002
+- face:
+  - 107011
+  - 1
+- print:
+  - 似似花
+  - 看來我真的太高估你了。
+- wait:
+  - 60
+- print:
+  - 似似花
+  - >2-
+
+    這簡直就像是
+- wait:
+  - 30
+- print:
+  - 似似花
+  - 在跟小丑說話……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 107011
+  - 30
+- se_pause:
+  - amb_adv_forest_01
+  - 1
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0020
+- background:
+  - 501040
+- wait:
+  - 15
+- white_in: *o0
+- se:
+  - amb_adv_dungeon_01
+- chara_full:
+  - 191611
+  - C
+  - 3
+- fadein:
+  - 191611
+  - 30
+- change_window:
+  - 3
+- text_size:
+  - 50
+- window_visible:
+  - true
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_2107008_003
+- face:
+  - 191611
+  - 3
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 卡里莎
+  - 可惡啊啊啊───！！
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- fadeout:
+  - 191611
+  - 30
+- effect:
+  - 0078
+  - se_adv_weapon_whip_hit_02
+- wait:
+  - 15
+- effect:
+  - 0078
+  - se_adv_weapon_whip_hit_02
+  - 30
+- wait:
+  - 15
+- window_visible:
+  - true
+- se:
+  - se_adv_voice_monster_01
+- focus:
+  - 191613
+- bust:
+  - 191613
+  - 1
+- face:
+  - 191613
+  - 1
+- print:
+  - 紅的
+  - 啾！？
+- touch: *o0
+- se:
+  - se_adv_voice_monster_01
+- focus:
+  - 191614
+- bust:
+  - 191614
+  - 1
+- face:
+  - 191614
+  - 1
+- print:
+  - 藍
+  - 嗶！！
+- touch: *o0
+- focus:
+  - 191615
+- bust:
+  - 191615
+  - 1
+- face:
+  - 191615
+  - 1
+- se:
+  - se_adv_rabbit_jump_01
+- print:
+  - 黃的
+  - 咻。
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 191611
+  - C
+  - 3
+- fadein:
+  - 191611
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_2107008_004
+- face:
+  - 191611
+  - 3
+- pop:
+  - 191611
+- print:
+  - 卡里莎
+  - 就說了！
+- wait:
+  - 5
+- print:
+  - 卡里莎
+  - >2-
+
+    不准躲啦你這黃色的！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 191611
+  - 30
+- chara_full:
+  - 191711
+  - LC
+  - 1
+- chara_full:
+  - 191611
+  - RC
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 191711
+- bust:
+  - 191711
+  - 0
+- vo:
+  - vo_adv_2107008_005
+- face:
+  - 191711
+  - 1
+- print:
+  - 贊恩
+  - ……卡里莎，
+- wait:
+  - 35
+- print:
+  - 贊恩
+  - >2-
+
+    把氣出在寵物身上是不好的，
+- wait:
+  - 55
+- print:
+  - 贊恩
+  - 我之前也說過了吧。
+- touch: *o0
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_2107008_006
+- face:
+  - 191611
+  - 3
+- print:
+  - 卡里莎
+  - 吵死了！
+- wait:
+  - 25
+- print:
+  - 卡里莎
+  - >2-
+
+    我不是說過
+- wait:
+  - 10
+- print:
+  - 卡里莎
+  - 這些傢伙就算被打被壓扁，也會立刻恢復原狀嗎！
+- touch: *o0
+- focus:
+  - 191711
+- bust:
+  - 191711
+  - 0
+- vo:
+  - vo_adv_2107008_007
+- face:
+  - 191711
+  - 4
+- print:
+  - 贊恩
+  - 但是──
+- touch: *o0
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_2107008_008
+- face:
+  - 191611
+  - 3
+- nod:
+  - 191611
+- print:
+  - 卡里莎
+  - 贊恩！
+- wait:
+  - 20
+- print:
+  - 卡里莎
+  - >2-
+
+    別想指使我！
+- wait:
+  - 40
+- print:
+  - 卡里莎
+  - >2-
+
+    你這樣最讓我不爽了！
+- wait:
+  - 40
+- print:
+  - 卡里莎
+  - 居然把我當小孩子對待！！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 192011
+  - R
+  - 6
+- chara_full:
+  - 191611
+  - LC
+  - 3
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - R
+  - 30
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 192011
+- bust:
+  - 192011
+  - 0
+- vo:
+  - vo_adv_2107008_009
+- face:
+  - 192011
+  - 6
+- print:
+  - 美空
+  - 卡里莎，贊恩先生？
+- wait:
+  - 20
+- print:
+  - 美空
+  - >2
+
+- face:
+  - 192011
+  - 3
+- print:
+  - 美空
+  - 不可以吵架啦～！
+- touch: *o0
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_2107008_010
+- face:
+  - 191611
+  - 3
+- print:
+  - 卡里莎
+  - 出現啦，妳這腦子都是用糖漿做的女人！
+- wait:
+  - 45
+- print:
+  - 卡里莎
+  - >2-
+
+    妳也打算指使我是嗎，
+- wait:
+  - 45
+- print:
+  - 卡里莎
+  - 啊啊！？
+- touch: *o0
+- focus:
+  - 192011
+- bust:
+  - 192011
+  - 0
+- vo:
+  - vo_adv_2107008_011
+- face:
+  - 192011
+  - 6
+- emotion:
+  - question1_R
+  - 192011
+  - 115
+  - 470
+  - se_adv_emote_question_01
+- print:
+  - 美空
+  - 什麼？
+- wait:
+  - 15
+- print:
+  - 美空
+  - >2-
+
+    你在說什麼啊？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 191711
+  - C
+  - 1
+- fadein:
+  - 191711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 191711
+- bust:
+  - 191711
+  - 0
+- vo:
+  - vo_adv_2107008_012
+- face:
+  - 191711
+  - 1
+- print:
+  - 贊恩
+  - ……他似乎正因為沒能解決變貌大妃
+- wait:
+  - 60
+- print:
+  - 贊恩
+  - 而感到憤怒。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 191711
+  - 30
+- chara_full:
+  - 191611
+  - C
+  - 4
+- fadein:
+  - 191611
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_2107008_013
+- face:
+  - 191611
+  - 4
+- print:
+  - 卡里莎
+  - 變貌大妃……
+- wait:
+  - 75
+- print:
+  - 卡里莎
+  - >2
+
+- face:
+  - 191611
+  - 3
+- print:
+  - 卡里莎
+  - 嗚……
+- wait:
+  - 35
+- print:
+  - 卡里莎
+  - 那個全身粉色的蘿莉老太婆啊啊啊啊！！
+- touch: *o0
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_2107008_014
+- face:
+  - 191611
+  - 3
+- nod:
+  - 191611
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 卡里莎
+  - 那傢伙，
+- wait:
+  - 20
+- print:
+  - 卡里莎
+  - 那傢伙！
+- wait:
+  - 25
+- print:
+  - 卡里莎
+  - >2-
+
+    竟然敢一直把人當白痴耍！！
+- wait:
+  - 45
+- print:
+  - 卡里莎
+  - >2
+
+- face:
+  - 191611
+  - 4
+- print:
+  - 卡里莎
+  - 超讓人不爽，
+- wait:
+  - 15
+- print:
+  - 卡里莎
+  - 超讓人不爽，
+- wait:
+  - 45
+- face:
+  - 191611
+  - 3
+- print:
+  - 卡里莎
+  - 超讓人不爽的……！
+- touch: *o0
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_2107008_015
+- face:
+  - 191611
+  - 1
+- print:
+  - 卡里莎
+  - 不，
+- wait:
+  - 30
+- print:
+  - 卡里莎
+  - 不只那傢伙！
+- wait:
+  - 35
+- print:
+  - 卡里莎
+  - >2
+
+- face:
+  - 191611
+  - 3
+- print:
+  - 卡里莎
+  - 贊恩也是！
+- wait:
+  - 15
+- print:
+  - 卡里莎
+  - 美空也是！
+- wait:
+  - 30
+- print:
+  - 卡里莎
+  - >2-
+
+    你們心裡一定都在笑我輸得很難看對吧！
+- wait:
+  - 35
+- print:
+  - 卡里莎
+  - 你們說話啊！！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 191611
+  - 30
+- chara_full:
+  - 191711
+  - LC
+  - 1
+- chara_full:
+  - 192011
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 191711
+- bust:
+  - 191711
+  - 0
+- vo:
+  - vo_adv_2107008_016
+- face:
+  - 191711
+  - 1
+- print:
+  - 贊恩
+  - 我怎麼會有理由
+- wait:
+  - 40
+- print:
+  - 贊恩
+  - 產生這種想法呢。
+- touch: *o0
+- focus:
+  - 192011
+- bust:
+  - 192011
+  - 0
+- vo:
+  - vo_adv_2107008_017
+- face:
+  - 192011
+  - 2
+- nod:
+  - 192011
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 美空
+  - 嗯嗯★
+- wait:
+  - 25
+- print:
+  - 美空
+  - >2-
+
+    卡里莎，
+- wait:
+  - 15
+- print:
+  - 美空
+  - 你不是很努力嗎♪
+- touch: *o0
+- face:
+  - 192011
+  - 1
+- focus:
+  - 191711
+- bust:
+  - 191711
+  - 0
+- vo:
+  - vo_adv_2107008_018
+- face:
+  - 191711
+  - 1
+- print:
+  - 贊恩
+  - 美空說得對，
+- wait:
+  - 65
+- print:
+  - 贊恩
+  - >2-
+
+    不如說──
+- touch: *o0
+- focus:
+  - 191711
+- bust:
+  - 191711
+  - 0
+- vo:
+  - vo_adv_2107008_019
+- face:
+  - 191711
+  - 1
+- print:
+  - 贊恩
+  - 卡里莎，
+- wait:
+  - 50
+- print:
+  - 贊恩
+  - >2-
+
+    我對你
+- wait:
+  - 50
+- print:
+  - 贊恩
+  - 抱持著敬意。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 192011
+  - 30
+- chara_full:
+  - 191611
+  - RC
+  - 6
+- fadein:
+  - 191611
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_2107008_020
+- face:
+  - 191611
+  - 6
+- print:
+  - 卡里莎
+  - 咦……！？
+- touch: *o0
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_2107008_021
+- face:
+  - 191611
+  - 4
+- print:
+  - 卡里莎
+  - ……少、
+- wait:
+  - 5
+- nod:
+  - 191611
+- print:
+  - 卡里莎
+  - 少在那裡胡說八道了！
+- wait:
+  - 35
+- print:
+  - 卡里莎
+  - >2
+
+- face:
+  - 191611
+  - 6
+- print:
+  - 卡里莎
+  - 你、
+- wait:
+  - 15
+- print:
+  - 卡里莎
+  - 你說說看你是對
+- wait:
+  - 30
+- print:
+  - 卡里莎
+  - 我的哪些部分抱持著敬意
+- wait:
+  - 40
+- print:
+  - 卡里莎
+  - 啊……？
+- touch: *o0
+- focus:
+  - 191711
+- bust:
+  - 191711
+  - 0
+- vo:
+  - vo_adv_2107008_022
+- face:
+  - 191711
+  - 1
+- print:
+  - 贊恩
+  - 首先，
+- wait:
+  - 35
+- print:
+  - 贊恩
+  - 你非常聰明，
+- wait:
+  - 60
+- eye_open:
+  - False
+- print:
+  - 贊恩
+  - 特別是在戰術方面。
+- wait:
+  - 75
+- print:
+  - 贊恩
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 贊恩
+  - 雖然你說不要把你當作小孩子……
+- wait:
+  - 55
+- print:
+  - 贊恩
+  - 但要是真的只把你當小孩子來應對，
+- wait:
+  - 70
+- print:
+  - 贊恩
+  - >2-
+
+    對手應該會嘗到苦頭吧。
+- touch: *o0
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_2107008_023
+- face:
+  - 191611
+  - 6
+- print:
+  - 卡里莎
+  - ……嗚……
+- touch: *o0
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_2107008_024
+- face:
+  - 191611
+  - 5
+- print:
+  - 卡里莎
+  - ……其
+- wait:
+  - 30
+- print:
+  - 卡里莎
+  - ……其他還有什麼？
+- touch: *o0
+- focus:
+  - 191711
+- bust:
+  - 191711
+  - 0
+- vo:
+  - vo_adv_2107008_025
+- face:
+  - 191711
+  - 1
+- print:
+  - 贊恩
+  - 還有
+- wait:
+  - 30
+- print:
+  - 贊恩
+  - 你的行動力非常高，
+- wait:
+  - 80
+- print:
+  - 贊恩
+  - >2-
+
+    不管什麼樣的作戰都會果決
+- wait:
+  - 50
+- print:
+  - 贊恩
+  - 且毫不猶豫地實行。
+- wait:
+  - 70
+- print:
+  - 贊恩
+  - >2-
+
+    你那為了自身目的、
+- wait:
+  - 50
+- print:
+  - 贊恩
+  - 為了願望而前進的身姿，
+- wait:
+  - 60
+- print:
+  - 贊恩
+  - 甚至讓我感到很耀眼。
+- touch: *o0
+- focus:
+  - 191711
+- bust:
+  - 191711
+  - 0
+- vo:
+  - vo_adv_2107008_026
+- face:
+  - 191711
+  - 4
+- print:
+  - 贊恩
+  - 反過來看我，
+- wait:
+  - 85
+- print:
+  - 贊恩
+  - 我卻──
+- wait:
+  - 25
+- print:
+  - 贊恩
+  - 正在苦惱著。
+- touch: *o0
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_2107008_027
+- face:
+  - 191611
+  - 6
+- emotion:
+  - question1_R
+  - 191611
+  - 105
+  - 400
+  - se_adv_emote_question_01
+- print:
+  - 卡里莎
+  - ……啊啊？
+- wait:
+  - 15
+- print:
+  - 卡里莎
+  - >2-
+
+    你說苦惱？
+- touch: *o0
+- focus:
+  - 191711
+- bust:
+  - 191711
+  - 0
+- vo:
+  - vo_adv_2107008_028
+- face:
+  - 191711
+  - 1
+- print:
+  - 贊恩
+  - 沒錯。
+- wait:
+  - 70
+- print:
+  - 贊恩
+  - >2-
+
+    你們應該也知道，
+- wait:
+  - 90
+- print:
+  - 贊恩
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 贊恩
+  - 我的「願望」──
+- touch: *o0
+- bgm:
+  - stop
+  - 9
+  - 1
+- focus:
+  - 191711
+- bust:
+  - 191711
+  - 0
+- vo:
+  - vo_adv_2107008_029
+- face:
+  - 191711
+  - 1
+- eye_open:
+  - True
+- print:
+  - 贊恩
+  - 就是
+- wait:
+  - 35
+- print:
+  - 贊恩
+  - 把自己的缺陷，
+- wait:
+  - 65
+- print:
+  - 贊恩
+  - >2-
+
+    把自己失去的記憶
+- wait:
+  - 70
+- print:
+  - 贊恩
+  - 找回來。
+- touch: *o0
+- bgm:
+  - bgm_M59
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 191711
+- bust:
+  - 191711
+  - 0
+- vo:
+  - vo_adv_2107008_030
+- face:
+  - 191711
+  - 4
+- print:
+  - 贊恩
+  - 我究竟
+- wait:
+  - 35
+- print:
+  - 贊恩
+  - 是什麼人，
+- wait:
+  - 75
+- print:
+  - 贊恩
+  - >2-
+
+    是為了什麼
+- wait:
+  - 40
+- print:
+  - 贊恩
+  - 而來到這個世界的？
+- wait:
+  - 70
+- print:
+  - 贊恩
+  - >2
+
+- face:
+  - 191711
+  - 1
+- print:
+  - 贊恩
+  - 為了釐清這些，我選擇的手段……
+- wait:
+  - 65
+- print:
+  - 贊恩
+  - 便是投靠這個公會。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 192011
+  - C
+  - 1
+- fadein:
+  - 192011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 192011
+- bust:
+  - 192011
+  - 0
+- vo:
+  - vo_adv_2107008_031
+- face:
+  - 192011
+  - 1
+- print:
+  - 美空
+  - …………
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 192011
+  - 30
+- chara_full:
+  - 191711
+  - LC
+  - 1
+- chara_full:
+  - 191611
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 191711
+- bust:
+  - 191711
+  - 0
+- vo:
+  - vo_adv_2107008_032
+- face:
+  - 191711
+  - 1
+- print:
+  - 贊恩
+  - 但是……
+- wait:
+  - 55
+- print:
+  - 贊恩
+  - >2-
+
+    這項行動是否是正確的呢？
+- wait:
+  - 115
+- print:
+  - 贊恩
+  - >2
+
+- face:
+  - 191711
+  - 4
+- print:
+  - 贊恩
+  - 我有時會感到苦惱。
+- touch: *o0
+- focus:
+  - 191711
+- bust:
+  - 191711
+  - 0
+- vo:
+  - vo_adv_2107008_033
+- face:
+  - 191711
+  - 4
+- print:
+  - 贊恩
+  - 為了實現自己的願望，
+- wait:
+  - 85
+- print:
+  - 贊恩
+  - >2-
+
+    把其他人當作是墊腳石，這麼做
+- wait:
+  - 65
+- print:
+  - 贊恩
+  - >2-
+
+    究竟能說是正確的行為嗎……
+- wait:
+  - 75
+- print:
+  - 贊恩
+  - 我會這麼想。
+- touch: *o0
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_2107008_034
+- face:
+  - 191611
+  - 1
+- nod:
+  - 191611
+- se:
+  - se_adv_step_concrete_move_01
+- print:
+  - 卡里莎
+  - 哼，
+- wait:
+  - 20
+- print:
+  - 卡里莎
+  - >2-
+
+    這樣當然沒問題啊～
+- touch: *o0
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_2107008_035
+- face:
+  - 191611
+  - 1
+- print:
+  - 卡里莎
+  - 要是一直做一些無趣的顧慮，
+- wait:
+  - 30
+- print:
+  - 卡里莎
+  - 只會很快就
+- wait:
+  - 15
+- print:
+  - 卡里莎
+  - >2-
+
+    輪到自己成為別人的墊腳石而已，
+- wait:
+  - 65
+- print:
+  - 卡里莎
+  - >2-
+
+    不管在「這邊」還是「那邊」，
+- wait:
+  - 10
+- print:
+  - 卡里莎
+  - 道理都是一樣的吧。
+- touch: *o0
+- focus:
+  - 191711
+- bust:
+  - 191711
+  - 0
+- vo:
+  - vo_adv_2107008_036
+- face:
+  - 191711
+  - 4
+- print:
+  - 贊恩
+  - ……說得也是。
+- wait:
+  - 45
+- print:
+  - 贊恩
+  - >2-
+
+    這就是所謂的不變之真理吧，
+- wait:
+  - 85
+- print:
+  - 贊恩
+  - >2
+
+- face:
+  - 191711
+  - 1
+- print:
+  - 贊恩
+  - 你果然
+- wait:
+  - 5
+- print:
+  - 贊恩
+  - 很聰明。
+- touch: *o0
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_2107008_037
+- face:
+  - 191611
+  - 6
+- print:
+  - 卡里莎
+  - ……嘖！
+- wait:
+  - 25
+- print:
+  - 卡里莎
+  - >2
+
+- face:
+  - 191611
+  - 5
+- print:
+  - 卡里莎
+  - 嘖，
+- wait:
+  - 25
+- nod:
+  - 191611
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 卡里莎
+  - 嘖！
+- wait:
+  - 25
+- print:
+  - 卡里莎
+  - >2-
+
+    你就算拍馬屁，
+- wait:
+  - 20
+- print:
+  - 卡里莎
+  - 也不會有任何好處啦！
+- touch: *o0
+- face:
+  - 191611
+  - 1
+- focus:
+  - 191711
+- bust:
+  - 191711
+  - 0
+- vo:
+  - vo_adv_2107008_038
+- face:
+  - 191711
+  - 1
+- print:
+  - 贊恩
+  - 而且，
+- wait:
+  - 45
+- print:
+  - 贊恩
+  - >2-
+
+    你剛才說
+- wait:
+  - 35
+- print:
+  - 贊恩
+  - 被變貌大妃打倒的自己
+- wait:
+  - 55
+- print:
+  - 贊恩
+  - 很難看，
+- wait:
+  - 75
+- print:
+  - 贊恩
+  - >2-
+
+    但我並不這麼想。
+- touch: *o0
+- face:
+  - 191611
+  - 6
+- focus:
+  - 191711
+- bust:
+  - 191711
+  - 0
+- vo:
+  - vo_adv_2107008_039
+- face:
+  - 191711
+  - 1
+- print:
+  - 贊恩
+  - 七冠中
+- wait:
+  - 45
+- print:
+  - 贊恩
+  - 每一個人都是不可輕忽的對手，
+- wait:
+  - 75
+- print:
+  - 贊恩
+  - >2-
+
+    目前唯一成功捉捕的
+- wait:
+  - 60
+- print:
+  - 贊恩
+  - 跳躍王
+- wait:
+  - 45
+- print:
+  - 贊恩
+  - 也是一樣──
+- touch: *o0
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_2107008_040
+- face:
+  - 191611
+  - 1
+- print:
+  - 卡里莎
+  - 別謙虛了啦，
+- wait:
+  - 45
+- print:
+  - 卡里莎
+  - >2-
+
+    那傢伙不是你抓到的嗎。
+- touch: *o0
+- focus:
+  - 191711
+- bust:
+  - 191711
+  - 0
+- vo:
+  - vo_adv_2107008_041
+- face:
+  - 191711
+  - 1
+- print:
+  - 贊恩
+  - 確實
+- wait:
+  - 35
+- print:
+  - 贊恩
+  - 使出了決定性一擊的人是我，
+- wait:
+  - 80
+- print:
+  - 贊恩
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 贊恩
+  - 但是──
+- touch: *o0
+- focus:
+  - 191711
+- bust:
+  - 191711
+  - 0
+- vo:
+  - vo_adv_2107008_042
+- face:
+  - 191711
+  - 1
+- eye_open:
+  - True
+- print:
+  - 贊恩
+  - 要是阿澤爾德沒有掌握他的所在地，
+- wait:
+  - 65
+- print:
+  - 贊恩
+  - >2-
+
+    要是蘭法
+- wait:
+  - 30
+- print:
+  - 贊恩
+  - 沒有去對付名叫大古的公主騎士，
+- wait:
+  - 100
+- print:
+  - 贊恩
+  - >2-
+
+    我就甚至無法
+- wait:
+  - 50
+- print:
+  - 贊恩
+  - 和跳躍王對峙。
+- touch: *o0
+- focus:
+  - 191711
+- bust:
+  - 191711
+  - 0
+- vo:
+  - vo_adv_2107008_043
+- face:
+  - 191711
+  - 1
+- print:
+  - 贊恩
+  - 而且……
+- wait:
+  - 45
+- print:
+  - 贊恩
+  - 要是美空
+- wait:
+  - 45
+- print:
+  - 贊恩
+  - 沒有封住那傢伙的權能，
+- wait:
+  - 80
+- print:
+  - 贊恩
+  - >2-
+
+    他應該就已經使用他擅長的空間跳躍，
+- wait:
+  - 75
+- print:
+  - 贊恩
+  - 逃到場外去了吧。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 192011
+  - C
+  - 2
+- fadein:
+  - 192011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 192011
+- bust:
+  - 192011
+  - 0
+- vo:
+  - vo_adv_2107008_044
+- face:
+  - 192011
+  - 2
+- nod:
+  - 192011
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 美空
+  - 不會啦，
+- wait:
+  - 20
+- print:
+  - 美空
+  - 我才辦不到那種事呢～
+- wait:
+  - 50
+- print:
+  - 美空
+  - >2-
+
+    我那時也說過了，
+- wait:
+  - 40
+- print:
+  - 美空
+  - >2-
+
+    那時是因為
+- wait:
+  - 25
+- print:
+  - 美空
+  - 有贊助者借我力量，我才能做到的★
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 192011
+  - 30
+- chara_full:
+  - 191611
+  - C
+  - 1
+- fadein:
+  - 191611
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 5
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_2107008_045
+- face:
+  - 191611
+  - 1
+- print:
+  - 卡里莎
+  - 哼，
+- wait:
+  - 15
+- print:
+  - 卡里莎
+  - >2-
+
+    「贊助者」是吧……
+- touch: *o0
+- bgm:
+  - bgm_M134
+  - 0
+  - 0
+  - 1
+  - 1.5
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_2107008_046
+- face:
+  - 191611
+  - 6
+- print:
+  - 卡里莎
+  - 我記得──
+- wait:
+  - 25
+- print:
+  - 卡里莎
+  - 是叫做「厄莉絲」沒錯吧？
+- wait:
+  - 40
+- print:
+  - 卡里莎
+  - >2
+
+- face:
+  - 191611
+  - 1
+- print:
+  - 卡里莎
+  - 她可以從空無一物的地方變出這個據點，
+- wait:
+  - 55
+- print:
+  - 卡里莎
+  - >2-
+
+    還有阻止跳躍王的權能。
+- touch: *o0
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_2107008_047
+- face:
+  - 191611
+  - 6
+- print:
+  - 卡里莎
+  - 就是因為看見了這些荒唐的景象，
+- wait:
+  - 35
+- print:
+  - 卡里莎
+  - >2-
+
+    我們才會聽信「要是抓住七冠就實現你們的願望」
+- wait:
+  - 55
+- print:
+  - 卡里莎
+  - >2-
+
+    這種說法的，不過啊……
+- touch: *o0
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_2107008_048
+- face:
+  - 191611
+  - 4
+- nod:
+  - 191611
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 卡里莎
+  - 該是時候
+- wait:
+  - 30
+- print:
+  - 卡里莎
+  - 讓人至少見識一下她的長相了吧。
+- wait:
+  - 50
+- print:
+  - 卡里莎
+  - >2
+
+- face:
+  - 191611
+  - 6
+- print:
+  - 卡里莎
+  - 妳到底要什麼時候才肯讓我們見她啊？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 191611
+  - 30
+- chara_full:
+  - 192011
+  - RC
+  - 4
+- chara_full:
+  - 191611
+  - LC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 192011
+- bust:
+  - 192011
+  - 0
+- vo:
+  - vo_adv_2107008_049
+- face:
+  - 192011
+  - 4
+- nod:
+  - 192011
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 美空
+  - 唔～
+- wait:
+  - 35
+- print:
+  - 美空
+  - >2-
+
+    雖然我是很想正式把她介紹給你們啦……
+- wait:
+  - 80
+- print:
+  - 美空
+  - >2
+
+- face:
+  - 192011
+  - 1
+- print:
+  - 美空
+  - 但現在沒有辦法喔～
+- touch: *o0
+- focus:
+  - 192011
+- bust:
+  - 192011
+  - 0
+- vo:
+  - vo_adv_2107008_050
+- face:
+  - 192011
+  - 6
+- print:
+  - 美空
+  - 啊，
+- wait:
+  - 10
+- print:
+  - 美空
+  - 這可不是因為我很壞心眼喔？
+- wait:
+  - 45
+- print:
+  - 美空
+  - >2
+
+- face:
+  - 192011
+  - 2
+- print:
+  - 美空
+  - 畢竟厄莉絲大人，
+- wait:
+  - 20
+- print:
+  - 美空
+  - 是一個非常貪睡的人嘛★
+- touch: *o0
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_2107008_051
+- face:
+  - 191611
+  - 1
+- nod:
+  - 191611
+- print:
+  - 卡里莎
+  - 嘖，
+- wait:
+  - 30
+- print:
+  - 卡里莎
+  - >2-
+
+    那種貪睡鬼
+- wait:
+  - 35
+- print:
+  - 卡里莎
+  - 真的值得依靠嗎？
+- touch: *o0
+- focus:
+  - 192011
+- bust:
+  - 192011
+  - 0
+- vo:
+  - vo_adv_2107008_052
+- face:
+  - 192011
+  - 2
+- print:
+  - 美空
+  - 真的沒問題啦～♪
+- wait:
+  - 40
+- print:
+  - 美空
+  - >2
+
+- face:
+  - 192011
+  - 1
+- print:
+  - 美空
+  - 說到頭來，正因為她是無法自由行動的人，
+- wait:
+  - 55
+- print:
+  - 美空
+  - >2-
+
+    才會受到我們委託呀～
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 191711
+  - C
+  - 1
+- fadein:
+  - 191711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 191711
+- bust:
+  - 191711
+  - 0
+- vo:
+  - vo_adv_2107008_053
+- face:
+  - 191711
+  - 1
+- print:
+  - 贊恩
+  - 說得對。
+- wait:
+  - 65
+- print:
+  - 贊恩
+  - >2-
+
+    為了能得到「厄莉絲」的信賴，首先
+- wait:
+  - 65
+- print:
+  - 贊恩
+  - >2-
+
+    我們也必須盡量
+- wait:
+  - 55
+- print:
+  - 贊恩
+  - 多捉捕幾位七冠
+- wait:
+  - 60
+- print:
+  - 贊恩
+  - 才行吧。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 191711
+  - 30
+- chara_full:
+  - 191611
+  - LC
+  - 1
+- chara_full:
+  - 192011
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_2107008_054
+- face:
+  - 191611
+  - 1
+- nod:
+  - 191611
+- se:
+  - se_adv_step_concrete_move_01
+- print:
+  - 卡里莎
+  - 哼……
+- wait:
+  - 30
+- face:
+  - 191611
+  - 6
+- print:
+  - 卡里莎
+  - 算了，
+- wait:
+  - 30
+- print:
+  - 卡里莎
+  - 現在就當作是這麼一回事好了。
+- touch: *o0
+- focus:
+  - 192011
+- bust:
+  - 192011
+  - 0
+- vo:
+  - vo_adv_2107008_055
+- face:
+  - 192011
+  - 2
+- print:
+  - 美空
+  - 嗯★
+- wait:
+  - 20
+- print:
+  - 美空
+  - >2-
+
+    反正阿澤爾德先生似乎也
+- wait:
+  - 40
+- print:
+  - 美空
+  - 暫時還需要休養嘛，
+- wait:
+  - 40
+- print:
+  - 美空
+  - >2-
+
+    我們不慌不忙地採取行動就好♪
+- touch: *o0
+- focus:
+  - 192011
+- bust:
+  - 192011
+  - 0
+- vo:
+  - vo_adv_2107008_056
+- face:
+  - 192011
+  - 1
+- print:
+  - 美空
+  - 我也打算
+- wait:
+  - 20
+- nod:
+  - 192011
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 美空
+  - 一邊悠～哉地渡個假，
+- wait:
+  - 45
+- print:
+  - 美空
+  - >2-
+
+    一邊等待獵物上鉤♪
+- touch: *o0
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_2107008_057
+- face:
+  - 191611
+  - 6
+- emotion:
+  - question1_R
+  - 191611
+  - 105
+  - 400
+  - se_adv_emote_question_01
+- print:
+  - 卡里莎
+  - 啊啊？
+- wait:
+  - 25
+- print:
+  - 卡里莎
+  - >2-
+
+    妳這傢伙，
+- wait:
+  - 10
+- print:
+  - 卡里莎
+  - 之前不是才剛去過溫泉，
+- wait:
+  - 25
+- print:
+  - 卡里莎
+  - 現在又要去渡假喔。
+- wait:
+  - 45
+- print:
+  - 卡里莎
+  - >2
+
+- face:
+  - 191611
+  - 1
+- print:
+  - 卡里莎
+  - 妳真的有心要做事嗎？
+- touch: *o0
+- focus:
+  - 192011
+- bust:
+  - 192011
+  - 0
+- vo:
+  - vo_adv_2107008_058
+- face:
+  - 192011
+  - 2
+- print:
+  - 美空
+  - 那當然★
+- wait:
+  - 25
+- print:
+  - 美空
+  - >2-
+
+    這樣才符合我的風格呀♪
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 191611
+  - 30
+- chara_full:
+  - 191711
+  - LC
+  - 1
+- fadein:
+  - 191711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 191711
+- bust:
+  - 191711
+  - 0
+- vo:
+  - vo_adv_2107008_059
+- face:
+  - 191711
+  - 1
+- print:
+  - 贊恩
+  - 美空，
+- wait:
+  - 50
+- print:
+  - 贊恩
+  - >2
+
+- face:
+  - 191711
+  - 6
+- print:
+  - 贊恩
+  - 妳又設下了
+- wait:
+  - 10
+- print:
+  - 贊恩
+  - 什麼陷阱嗎？
+- touch: *o0
+- focus:
+  - 192011
+- bust:
+  - 192011
+  - 0
+- vo:
+  - vo_adv_2107008_060
+- face:
+  - 192011
+  - 2
+- print:
+  - 美空
+  - ……呵呵♪
+- wait:
+  - 25
+- print:
+  - 美空
+  - >2-
+
+    關於這點呢～？
+- touch: *o0
+- focus:
+  - 192011
+- bust:
+  - 192011
+  - 0
+- vo:
+  - vo_adv_2107008_061
+- face:
+  - 192011
+  - 2
+- print:
+  - 美空
+  - ──現在還是
+- wait:
+  - 30
+- print:
+  - 美空
+  - 秘
+- wait:
+  - 20
+- print:
+  - 美空
+  - 密
+- wait:
+  - 25
+- emotion:
+  - note1_L
+  - 192011
+  - -110
+  - 450
+  - se_adv_emote_note_01
+- print:
+  - 美空
+  - 喲★
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- se_pause:
+  - amb_adv_dungeon_01
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

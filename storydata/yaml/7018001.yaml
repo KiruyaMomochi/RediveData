@@ -1,0 +1,1901 @@
+- title:
+  - 憑いてるからツイてない？
+- outline:
+  - スズメのドジによって罠が作動し、閉じ込められた一同。シノブは慌てる彼女に対し、今までの失敗は取り憑いている悪霊の影響かもしれないことを告げ、除霊を試みるが、失敗してしまうのだった。
+- background:
+  - 500430
+- se:
+  - amb_adv_guildhouse_mist_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 憑いてるからツイてない？
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - ルナの塔の内部へ入った{0}たちは、
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - >2-
+
+    薄暗い回廊を調査していた。
+- wait:
+  - 30
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 102511
+  - C
+  - 4
+- fadein:
+  - 102511
+  - 30
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M157_Inside
+  - 0
+  - 0
+  - 1
+  - 0.3
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_7018001_000
+- face:
+  - 102511
+  - 4
+- print:
+  - スズメ
+  - 暗くてよく見えませんね……
+- wait:
+  - 75
+- face:
+  - 102511
+  - 6
+- emotion:
+  - surprise1_L
+  - 102511
+  - 80
+  - 560
+  - se_adv_emote_common_01
+- print:
+  - スズメ
+  - ひゃわっ！？
+- wait:
+  - 15
+- print:
+  - スズメ
+  - >2-
+
+    手にネバネバしたものが……！
+- wait:
+  - 50
+- print:
+  - スズメ
+  - >2
+
+- face:
+  - 102511
+  - 4
+- print:
+  - スズメ
+  - これって魔物の……
+- wait:
+  - 55
+- print:
+  - スズメ
+  - いえ、
+- wait:
+  - 15
+- print:
+  - スズメ
+  - 考えるのはやめておきましょう……
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_7018001_001
+- face:
+  - 102511
+  - 6
+- pop:
+  - 102511
+- se:
+  - se_adv_body_touch_01
+- print:
+  - スズメ
+  - きゃぁ！？　
+- wait:
+  - 20
+- print:
+  - スズメ
+  - 今度は顔に何か絡みついて……！
+- wait:
+  - 65
+- print:
+  - スズメ
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - スズメ
+  - 前がよく見えません……！　
+- wait:
+  - 45
+- print:
+  - スズメ
+  - みなさんは一体どこに……！
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_7018001_002
+- face:
+  - 102511
+  - 6
+- print:
+  - スズメ
+  - あっ！　
+- wait:
+  - 15
+- print:
+  - スズメ
+  - 壁がありました……！
+- wait:
+  - 35
+- print:
+  - スズメ
+  - >2
+
+- face:
+  - 102511
+  - 1
+- print:
+  - スズメ
+  - ふぅ……
+- wait:
+  - 30
+- print:
+  - スズメ
+  - 目が見えない時、
+- wait:
+  - 30
+- print:
+  - スズメ
+  - 触れるものがあると落ち着きますね……
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_switch_large_01
+- nod:
+  - 102511
+- wait:
+  - 15
+- se:
+  - se_adv_door_open_06
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- window_visible:
+  - TRUE
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_7018001_003
+- face:
+  - 102511
+  - 6
+- eye_open:
+  - True
+- print:
+  - スズメ
+  - …………今の音は
+- wait:
+  - 30
+- print:
+  - スズメ
+  - 一体？
+- touch: *o0
+- choice:
+  - 扉が全部閉じてる。
+  - 1
+- tag:
+  - 1
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_7018001_004
+- face:
+  - 102511
+  - 6
+- print:
+  - スズメ
+  - それはつまり……
+- wait:
+  - 50
+- emotion:
+  - surprise1_L
+  - 102511
+  - 80
+  - 560
+  - se_adv_emote_common_01
+- bgm:
+  - bgm_M288
+- print:
+  - スズメ
+  - 出られなくなったということですか！？
+- wait:
+  - 50
+- print:
+  - スズメ
+  - >2
+
+- face:
+  - 102511
+  - 4
+- print:
+  - スズメ
+  - でも
+- wait:
+  - 10
+- print:
+  - スズメ
+  - どうして急に……！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 102511
+  - 30
+- chara_full:
+  - 102511
+  - LC
+  - 4
+- chara_full:
+  - 103111
+  - R
+  - 1
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - R
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - TRUE
+- vo_effect:
+  - 4
+- focus:
+  - 2411
+- bust:
+  - 2411
+  - 1
+- vo:
+  - vo_adv_7018001_005
+- face:
+  - 2411
+  - 1
+- print:
+  - ドクロ親父
+  - そりゃあれだ。
+- wait:
+  - 35
+- print:
+  - ドクロ親父
+  - >2-
+
+    メイドちゃんが触ってる壁、
+- wait:
+  - 40
+- print:
+  - ドクロ親父
+  - 罠が仕掛けられてたみたいだぞ。
+- touch: *o0
+- vo_effect:
+  - 3
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_7018001_006
+- face:
+  - 102511
+  - 6
+- pop:
+  - 102511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - スズメ
+  - もしかして、
+- wait:
+  - 20
+- print:
+  - スズメ
+  - 私のせいですか！？
+- touch: *o0
+- vo_effect:
+  - 4
+- face:
+  - 103111
+  - 3
+- focus:
+  - 2411
+- bust:
+  - 2411
+  - 1
+- vo:
+  - vo_adv_7018001_007
+- face:
+  - 2411
+  - 1
+- print:
+  - ドクロ親父
+  - そうそう！　
+- wait:
+  - 10
+- print:
+  - ドクロ親父
+  - メイドちゃんのせいだ！
+- wait:
+  - 30
+- print:
+  - ドクロ親父
+  - >2-
+
+    罰として、
+- wait:
+  - 20
+- print:
+  - ドクロ親父
+  - オレにイケナイご奉仕をしてもらおうか！
+- wait:
+  - 80
+- print:
+  - ドクロ親父
+  - >2-
+
+    ……っていうのは冗談だから睨むのはやめようね、
+- wait:
+  - 20
+- print:
+  - ドクロ親父
+  - シノブ……
+- touch: *o0
+- vo_effect:
+  - 3
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_7018001_008
+- face:
+  - 103111
+  - 4
+- print:
+  - シノブ
+  - ……スズメさん。
+- wait:
+  - 45
+- print:
+  - シノブ
+  - >2-
+
+    実はその……
+- wait:
+  - 55
+- print:
+  - シノブ
+  - 非常に言いにくいのですが、
+- wait:
+  - 90
+- print:
+  - シノブ
+  - 憑いてます。
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_7018001_009
+- face:
+  - 102511
+  - 4
+- nod:
+  - 102511
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - スズメ
+  - 本当にごめんなさい！　
+- wait:
+  - 30
+- print:
+  - スズメ
+  - このドジを挽回できるように命を懸けて……
+- wait:
+  - 80
+- print:
+  - スズメ
+  - >2
+
+- face:
+  - 102511
+  - 6
+- print:
+  - スズメ
+  - ……へ？　
+- wait:
+  - 30
+- print:
+  - スズメ
+  - ついてる？
+- touch: *o0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_7018001_010
+- face:
+  - 103111
+  - 1
+- print:
+  - シノブ
+  - はい。
+- wait:
+  - 45
+- print:
+  - シノブ
+  - 悪霊が、
+- wait:
+  - 40
+- print:
+  - シノブ
+  - あなたに憑いてます。
+- touch: *o0
+- window_visible:
+  - FALSE
+- text_size:
+  - 50
+- change_window:
+  - 3
+- window_visible:
+  - TRUE
+- bgm:
+  - stop
+  - 3
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_7018001_011
+- face:
+  - 102511
+  - 6
+- emotion:
+  - surprise1_L
+  - 102511
+  - 80
+  - 560
+  - se_adv_emote_common_01
+- print:
+  - スズメ
+  - えぇええええ！？
+- touch: *o0
+- window_visible:
+  - FALSE
+- text_size:
+  - 23
+- change_window:
+  - 1
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M141_Ver2
+  - 0
+  - 0
+  - 1
+  - 0.3
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_7018001_012
+- face:
+  - 102511
+  - 6
+- print:
+  - スズメ
+  - わ、
+- wait:
+  - 15
+- print:
+  - スズメ
+  - 私のそばにいるんですか！？　
+- wait:
+  - 30
+- face:
+  - 102511
+  - 4
+- print:
+  - スズメ
+  - その
+- wait:
+  - 15
+- print:
+  - スズメ
+  - 悪霊が！？　
+- wait:
+  - 25
+- face:
+  - 102511
+  - 6
+- print:
+  - スズメ
+  - ずっと！？
+- touch: *o0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_7018001_013
+- face:
+  - 103111
+  - 1
+- nod:
+  - 103111
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - シノブ
+  - はい。
+- wait:
+  - 35
+- print:
+  - シノブ
+  - まだ姿は見えませんが、
+- wait:
+  - 45
+- print:
+  - シノブ
+  - 気配を感じます。
+- wait:
+  - 60
+- print:
+  - シノブ
+  - >2-
+
+    スズメさんに呪詛を与えて、
+- wait:
+  - 45
+- print:
+  - シノブ
+  - 様々な災いをもたらしているようです。
+- touch: *o0
+- vo_effect:
+  - 4
+- focus:
+  - 2411
+- bust:
+  - 2411
+  - 1
+- vo:
+  - vo_adv_7018001_014
+- face:
+  - 2411
+  - 1
+- print:
+  - ドクロ親父
+  - しかもあれだぜ？　
+- wait:
+  - 30
+- print:
+  - ドクロ親父
+  - メイドちゃんがドジして、
+- wait:
+  - 15
+- print:
+  - ドクロ親父
+  - >2-
+
+    あーんなことや、
+- wait:
+  - 15
+- print:
+  - ドクロ親父
+  - こーんなことになるのを楽しんでやがる。
+- wait:
+  - 30
+- print:
+  - ドクロ親父
+  - >2-
+
+    まったく、
+- wait:
+  - 15
+- print:
+  - ドクロ親父
+  - けしからん悪霊もいたもんだ！
+- touch: *o0
+- vo_effect:
+  - 3
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_7018001_015
+- face:
+  - 103111
+  - 4
+- emotion:
+  - gloomy1_R
+  - 103111
+  - 60
+  - 540
+  - se_adv_emote_gloomy_01
+- print:
+  - シノブ
+  - あのね、
+- wait:
+  - 35
+- print:
+  - シノブ
+  - お父さんが言えることじゃないよ……
+- touch: *o0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_7018001_016
+- face:
+  - 103111
+  - 1
+- print:
+  - シノブ
+  - もしかしたらですが……
+- wait:
+  - 45
+- print:
+  - シノブ
+  - >2-
+
+    これまでスズメさんが失敗ばかりしていたのは、
+- wait:
+  - 50
+- print:
+  - シノブ
+  - >2-
+
+    悪霊の影響なのかもしれません。
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_7018001_017
+- face:
+  - 102511
+  - 4
+- print:
+  - スズメ
+  - そんな……
+- wait:
+  - 35
+- print:
+  - スズメ
+  - 衝撃の事実に、
+- wait:
+  - 35
+- print:
+  - スズメ
+  - 頭が追いつきません……！
+- wait:
+  - 55
+- print:
+  - スズメ
+  - >2
+
+- face:
+  - 102511
+  - 6
+- print:
+  - スズメ
+  - でも待ってください。
+- wait:
+  - 30
+- print:
+  - スズメ
+  - その悪霊とお別れできれば、
+- wait:
+  - 50
+- print:
+  - スズメ
+  - >2-
+
+    ドジをしないメイドになれますか！？
+- touch: *o0
+- vo_effect:
+  - 4
+- focus:
+  - 2411
+- bust:
+  - 2411
+  - 1
+- vo:
+  - vo_adv_7018001_018
+- face:
+  - 2411
+  - 1
+- print:
+  - ドクロ親父
+  - 任せな。
+- wait:
+  - 35
+- print:
+  - ドクロ親父
+  - このオレが立派なドエロメイドに調教して──
+- touch: *o0
+- vo_effect:
+  - 3
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_7018001_019
+- face:
+  - 103111
+  - 3
+- print:
+  - シノブ
+  - お父さんは黙ってて。
+- touch: *o0
+- vo_effect:
+  - 4
+- focus:
+  - 2411
+- bust:
+  - 2411
+  - 1
+- vo:
+  - vo_adv_7018001_020
+- face:
+  - 2411
+  - 1
+- print:
+  - ドクロ親父
+  - ひぃっ、
+- wait:
+  - 25
+- print:
+  - ドクロ親父
+  - シノブが怖い！？
+- touch: *o0
+- vo_effect:
+  - 3
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 2
+  - 1
+- fadeout_all:
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 103111
+  - C
+  - 1
+- fadein:
+  - 103111
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M46_Ver2
+  - 0
+  - 0
+  - 0
+  - 0.3
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_7018001_021
+- face:
+  - 103111
+  - 1
+- nod:
+  - 103111
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - シノブ
+  - まずは
+- wait:
+  - 30
+- print:
+  - シノブ
+  - 私が悪霊と交渉してみます。
+- wait:
+  - 70
+- print:
+  - シノブ
+  - >2-
+
+    うまくいけば、
+- wait:
+  - 30
+- print:
+  - シノブ
+  - すぐにでも出ていってくれるはずです。
+- touch: *o0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_7018001_022
+- face:
+  - 103111
+  - 1
+- print:
+  - シノブ
+  - ではスズメさん。
+- wait:
+  - 55
+- print:
+  - シノブ
+  - 私の前へ立ってください。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 103111
+  - 30
+- chara_full:
+  - 103111
+  - RC
+  - 1
+- chara_full:
+  - 102511
+  - L
+  - 6
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - TRUE
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_7018001_023
+- face:
+  - 102511
+  - 6
+- print:
+  - スズメ
+  - は、
+- wait:
+  - 15
+- nod:
+  - 102511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - スズメ
+  - はい……！
+- touch: *o0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_7018001_024
+- face:
+  - 103111
+  - 4
+- eye_open:
+  - False
+- print:
+  - シノブ
+  - …………
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_7018001_025
+- face:
+  - 102511
+  - 4
+- print:
+  - スズメ
+  - ど、
+- wait:
+  - 20
+- print:
+  - スズメ
+  - どうですか？
+- wait:
+  - 20
+- print:
+  - スズメ
+  - >2-
+
+    なんて言ってますか！？
+- touch: *o0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_7018001_026
+- face:
+  - 103111
+  - 4
+- eye_open:
+  - True
+- print:
+  - シノブ
+  - …………すみません。
+- wait:
+  - 40
+- print:
+  - シノブ
+  - >2-
+
+    この悪霊、
+- wait:
+  - 35
+- print:
+  - シノブ
+  - かなり強力な力を秘めています。
+- wait:
+  - 85
+- print:
+  - シノブ
+  - >2
+
+- face:
+  - 103111
+  - 1
+- print:
+  - シノブ
+  - どうやっても姿を現さないので、
+- wait:
+  - 65
+- print:
+  - シノブ
+  - 会話できません。
+- touch: *o0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_7018001_027
+- face:
+  - 103111
+  - 1
+- print:
+  - シノブ
+  - 分かることといえば……
+- wait:
+  - 65
+- print:
+  - シノブ
+  - >2
+
+- face:
+  - 103111
+  - 3
+- print:
+  - シノブ
+  - どうやら、
+- wait:
+  - 25
+- print:
+  - シノブ
+  - スズメさんのマナを全て奪う魂胆のようですね。
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_7018001_028
+- face:
+  - 102511
+  - 6
+- print:
+  - スズメ
+  - そ、
+- wait:
+  - 20
+- print:
+  - スズメ
+  - そんなぁ……！
+- wait:
+  - 30
+- print:
+  - スズメ
+  - >2
+
+- face:
+  - 102511
+  - 4
+- print:
+  - スズメ
+  - 私、
+- wait:
+  - 20
+- print:
+  - スズメ
+  - 長く生きられないんですか……！？
+- touch: *o0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_7018001_029
+- face:
+  - 103111
+  - 2
+- print:
+  - シノブ
+  - 安心してください。
+- wait:
+  - 45
+- print:
+  - シノブ
+  - >2-
+
+    父ほどではありませんが、
+- wait:
+  - 50
+- print:
+  - シノブ
+  - 私にも
+- wait:
+  - 35
+- print:
+  - シノブ
+  - 霊を祓う力があります。
+- wait:
+  - 75
+- print:
+  - シノブ
+  - >2-
+
+    私が
+- wait:
+  - 35
+- print:
+  - シノブ
+  - スズメさんを助けますから。
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_7018001_030
+- face:
+  - 102511
+  - 6
+- print:
+  - スズメ
+  - シノブさん……
+- wait:
+  - 55
+- face:
+  - 102511
+  - 1
+- nod:
+  - 102511
+- print:
+  - スズメ
+  - はい、
+- wait:
+  - 15
+- print:
+  - スズメ
+  - ありがとうございます！
+- wait:
+  - 25
+- print:
+  - スズメ
+  - >2-
+
+    どうか
+- wait:
+  - 20
+- print:
+  - スズメ
+  - よろしくおねがいします！
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 2
+- fadeout_all:
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 103111
+  - RC
+  - 1
+- chara_full:
+  - 102511
+  - LC
+  - 4
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M279
+  - 0
+  - 0
+  - 1
+  - 0.3
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_7018001_031
+- face:
+  - 103111
+  - 1
+- print:
+  - シノブ
+  - では……
+- wait:
+  - 40
+- print:
+  - シノブ
+  - 目をつむって、
+- wait:
+  - 50
+- print:
+  - シノブ
+  - 両手を組んでください。
+- wait:
+  - 65
+- print:
+  - シノブ
+  - >2-
+
+    そのまま意識を集中して……
+- wait:
+  - 95
+- print:
+  - シノブ
+  - >2-
+
+    だんだん
+- wait:
+  - 35
+- print:
+  - シノブ
+  - 手が温かくなってきたはずです。
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_7018001_032
+- face:
+  - 102511
+  - 4
+- print:
+  - スズメ
+  - 手が温かく……
+- wait:
+  - 65
+- eye_open:
+  - True
+- face:
+  - 102511
+  - 6
+- print:
+  - スズメ
+  - 温かいどころか……
+- wait:
+  - 30
+- print:
+  - スズメ
+  - >2-
+
+    あわわわっ！　
+- wait:
+  - 15
+- print:
+  - スズメ
+  - シノブさんっ！
+- wait:
+  - 20
+- print:
+  - スズメ
+  - >2-
+
+    なんだか
+- wait:
+  - 10
+- print:
+  - スズメ
+  - 体中が熱くなってきましたよ……！？
+- touch: *o0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_7018001_033
+- face:
+  - 103111
+  - 6
+- print:
+  - シノブ
+  - え？　
+- wait:
+  - 25
+- print:
+  - シノブ
+  - 熱い？
+- wait:
+  - 45
+- print:
+  - シノブ
+  - >2-
+
+    まさか
+- wait:
+  - 25
+- print:
+  - シノブ
+  - 悪霊がスズメさんに呪詛を……！
+- wait:
+  - 55
+- print:
+  - シノブ
+  - >2
+
+- face:
+  - 103111
+  - 3
+- print:
+  - シノブ
+  - スズメさん、
+- wait:
+  - 25
+- print:
+  - シノブ
+  - それは私が引き受けますね！
+- touch: *o0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_7018001_034
+- face:
+  - 103111
+  - 6
+- print:
+  - シノブ
+  - ……うっ！？
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_magic_thunder_small_01
+- shake:
+  - 103111
+- window_visible:
+  - TRUE
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_7018001_035
+- face:
+  - 102511
+  - 6
+- print:
+  - スズメ
+  - シノブさん！？　
+- wait:
+  - 20
+- print:
+  - スズメ
+  - 顔が真っ青です……！
+- wait:
+  - 35
+- print:
+  - スズメ
+  - >2
+
+- face:
+  - 102511
+  - 4
+- print:
+  - スズメ
+  - 私のことは構わず、
+- wait:
+  - 30
+- print:
+  - スズメ
+  - 手を離してください……！
+- touch: *o0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_7018001_036
+- face:
+  - 103111
+  - 4
+- print:
+  - シノブ
+  - 大丈夫です……
+- wait:
+  - 45
+- print:
+  - シノブ
+  - >2-
+
+    ちょっとめまいがするだけで……
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- chara_full:
+  - 103111
+  - C
+  - 4
+- fadein:
+  - 103111
+  - 30
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- window_visible:
+  - TRUE
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_7018001_037
+- face:
+  - 103111
+  - 4
+- print:
+  - シノブ
+  - 体中が熱い……
+- wait:
+  - 80
+- print:
+  - シノブ
+  - 呪詛が強力で、
+- wait:
+  - 50
+- print:
+  - シノブ
+  - 浄化が間に合わない……！
+- wait:
+  - 65
+- print:
+  - シノブ
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - シノブ
+  - だめ、
+- wait:
+  - 40
+- print:
+  - シノブ
+  - 倒れる……！　
+- touch: *o0
+- choice:
+  - 危ない！
+  - 2
+- tag:
+  - 2
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- bgm:
+  - stop
+  - 3.5
+  - 1
+- updown:
+  - 103111
+  - 0
+  - -80
+  - 0.2
+- se:
+  - se_adv_cloth_move_normal_01
+- fadeout:
+  - 103111
+  - 30
+- se:
+  - se_adv_stepadd_armor_light_01_move_01
+- camera_zoom:
+  - 1.2
+  - 5
+- wait:
+  - 10
+- se:
+  - se_adv_body_catch_down_01
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- chara_full:
+  - 103111
+  - C
+  - 4
+  - 1
+- fadein:
+  - 103111
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M14
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 1
+- vo:
+  - vo_adv_7018001_038
+- face:
+  - 102511
+  - 6
+- print:
+  - スズメ
+  - あわわっ！？　
+- wait:
+  - 20
+- print:
+  - スズメ
+  - 大丈夫ですか！？
+- wait:
+  - 30
+- print:
+  - スズメ
+  - >2-
+
+    二人ともすごい転び方をしましたけど……！
+- wait:
+  - 50
+- print:
+  - スズメ
+  - >2
+
+- face:
+  - 102511
+  - 4
+- print:
+  - スズメ
+  - そしてなんだか、
+- wait:
+  - 25
+- print:
+  - スズメ
+  - すごいデジャブです……
+- touch: *o0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_7018001_039
+- face:
+  - 103111
+  - 6
+- eye_open:
+  - True
+- print:
+  - シノブ
+  - わ、
+- wait:
+  - 25
+- print:
+  - シノブ
+  - 私は平気です……
+- wait:
+  - 60
+- print:
+  - シノブ
+  - >2
+
+- face:
+  - 103111
+  - 2
+- print:
+  - シノブ
+  - '{0}さんが'
+- wait:
+  - 35
+- print:
+  - シノブ
+  - 受け止めてくれたので……
+- touch: *o0
+- vo_effect:
+  - 4
+- focus:
+  - 2411
+- bust:
+  - 2411
+  - 1
+- vo:
+  - vo_adv_7018001_040
+- face:
+  - 2411
+  - 1
+- print:
+  - ドクロ親父
+  - シノブ、
+- wait:
+  - 10
+- print:
+  - ドクロ親父
+  - 大丈夫か！？　
+- wait:
+  - 30
+- print:
+  - ドクロ親父
+  - って……
+- wait:
+  - 5
+- print:
+  - ドクロ親父
+  - うぉおお！？
+- wait:
+  - 35
+- print:
+  - ドクロ親父
+  - >2-
+
+    小僧、
+- wait:
+  - 20
+- print:
+  - ドクロ親父
+  - 今すぐ自分の目を潰せ！！
+- wait:
+  - 25
+- print:
+  - ドクロ親父
+  - >2-
+
+    うちの娘でラッキースケベな展開は許さんぞぉお！！！！
+- touch: *o0
+- vo_effect:
+  - 3
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_7018001_041
+- face:
+  - 103111
+  - 3
+- print:
+  - シノブ
+  - お父さん、
+- wait:
+  - 30
+- print:
+  - シノブ
+  - なに言ってるの？
+- wait:
+  - 40
+- print:
+  - シノブ
+  - >2-
+
+    {0}さんは私を助けてくれただけで……
+- wait:
+  - 60
+- print:
+  - シノブ
+  - >2
+
+- face:
+  - 103111
+  - 6
+- se:
+  - se_adv_cloth_rip_01
+- print:
+  - シノブ
+  - ……っ！？
+- shake:
+  - 103111
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 2.5
+- fadeout:
+  - 103111
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+- camera_zoom:
+  - 1
+  - 1
+- wait:
+  - 15
+- chara_full:
+  - 102511
+  - C
+  - 6
+- fadein:
+  - 102511
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M11_02_Edit_02
+  - 0
+  - 0
+  - 1
+  - 0.2
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_7018001_042
+- face:
+  - 102511
+  - 6
+- emotion:
+  - sweat2_R
+  - 102511
+  - 25
+  - 520
+  - se_adv_emote_sweat_02
+- print:
+  - スズメ
+  - あわわ……っ！
+- wait:
+  - 25
+- print:
+  - スズメ
+  - >2-
+
+    シノブさんの服が破けて
+- wait:
+  - 40
+- print:
+  - スズメ
+  - いろんなところが……！
+- touch: *o0
+- vo_effect:
+  - 4
+- focus:
+  - 2411
+- bust:
+  - 2411
+  - 1
+- vo:
+  - vo_adv_7018001_043
+- face:
+  - 2411
+  - 1
+- print:
+  - ドクロ親父
+  - ぬっ！？　
+- wait:
+  - 30
+- print:
+  - ドクロ親父
+  - 悪霊の笑い声が聞こえるぞ！？
+- wait:
+  - 60
+- print:
+  - ドクロ親父
+  - >2-
+
+    貴様だな！　
+- wait:
+  - 35
+- print:
+  - ドクロ親父
+  - うちの娘にこんなエロい格好させやがって！
+- wait:
+  - 65
+- print:
+  - ドクロ親父
+  - >2-
+
+    オレが祓ってやるー！！
+- touch: *o0
+- vo_effect:
+  - 3
+- window_visible:
+  - FALSE
+- fadeout:
+  - 102511
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - 大慌てでシノブの服を手直しするスズメ。
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - >2-
+
+    見えない悪霊に向かって吼えるドクロ親父。
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - >2-
+
+    そして、不幸な偶然に赤面しながら硬直するシノブなのだった。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 1
+  - 1
+- se_pause:
+  - amb_adv_guildhouse_mist_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

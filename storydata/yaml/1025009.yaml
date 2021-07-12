@@ -1,0 +1,3068 @@
+- title:
+  - スズメ 第9話
+- outline:
+  - ドジで大切な置物を壊してしまい、サレンディア救護院を飛び出してしまったスズメ。ギルドハウスを貸してくれた{0}に恩返ししようとするが、結局そこでもドジをしてしまうのであった。
+- background:
+  - 500020
+- se:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - ドジっ娘メイドの逃避行
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - アルバイトからの帰りに街を歩いていた{0}。
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - >2-
+
+    その途中で突然、切迫した声に呼び止められた。
+- wait:
+  - 30
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 102511
+  - C
+  - 6
+- fadein:
+  - 102511
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M376
+  - 0
+  - 0
+  - 1
+  - 0.3
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_000
+- face:
+  - 102511
+  - 6
+- print:
+  - スズメ
+  - あ、
+- wait:
+  - 25
+- pop:
+  - 102511
+- se:
+  - se_adv_rabbit_jump_01
+- print:
+  - スズメ
+  - あのっ！
+- wait:
+  - 15
+- print:
+  - スズメ
+  - >2-
+
+    {0}さん！
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_001
+- face:
+  - 102511
+  - 6
+- print:
+  - スズメ
+  - 私……
+- wait:
+  - 40
+- print:
+  - スズメ
+  - >2-
+
+    私を……
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 42
+- change_window:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_002
+- face:
+  - 102511
+  - 3
+- print:
+  - スズメ
+  - ──私を、
+- wait:
+  - 20
+- print:
+  - スズメ
+  - 雇ってくださいませんかっ！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 23
+- change_window:
+  - 1
+- window_visible:
+  - true
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_003
+- face:
+  - 102511
+  - 6
+- print:
+  - スズメ
+  - あ……
+- wait:
+  - 15
+- print:
+  - スズメ
+  - お、
+- wait:
+  - 20
+- print:
+  - スズメ
+  - 驚いちゃいますよね。
+- wait:
+  - 35
+- print:
+  - スズメ
+  - >2
+
+- face:
+  - 102511
+  - 4
+- print:
+  - スズメ
+  - すみません、
+- wait:
+  - 25
+- eye_open:
+  - False
+- print:
+  - スズメ
+  - こんなこと急に。
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_004
+- face:
+  - 102511
+  - 4
+- eye_open:
+  - True
+- print:
+  - スズメ
+  - 色々あって気が動転してて、
+- wait:
+  - 55
+- print:
+  - スズメ
+  - >2-
+
+    {0}さんの姿を見たら思わず……
+- touch: *o0
+- choice:
+  - なにかあったの？
+  - 1
+- choice:
+  - ……やっちゃったの？
+  - 2
+- tag:
+  - 1
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_005
+- face:
+  - 102511
+  - 6
+- print:
+  - スズメ
+  - ええと……
+- wait:
+  - 40
+- face:
+  - 102511
+  - 4
+- print:
+  - スズメ
+  - はい。
+- wait:
+  - 35
+- print:
+  - スズメ
+  - >2-
+
+    説明するのもお恥ずかしい話ではあるんですけど……
+- touch: *o0
+- goto:
+  - 3
+- tag:
+  - 2
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_006
+- face:
+  - 102511
+  - 4
+- eye_open:
+  - False
+- print:
+  - スズメ
+  - ……やっちゃいました。
+- touch: *o0
+- eye_open:
+  - true
+- tag:
+  - 3
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_007
+- face:
+  - 102511
+  - 4
+- print:
+  - スズメ
+  - その、
+- wait:
+  - 30
+- print:
+  - スズメ
+  - 私……
+- wait:
+  - 40
+- print:
+  - スズメ
+  - サレンディア救護院で、
+- wait:
+  - 35
+- eye_open:
+  - False
+- print:
+  - スズメ
+  - いつもみたいにドジをして、
+- wait:
+  - 40
+- print:
+  - スズメ
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - スズメ
+  - 大切なものを壊してしまったんです。
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_008
+- face:
+  - 102511
+  - 4
+- print:
+  - スズメ
+  - お嬢さまは気にしなくていいと言ってくださいましたが、
+- wait:
+  - 65
+- print:
+  - スズメ
+  - >2-
+
+    私はどうしても、
+- wait:
+  - 35
+- print:
+  - スズメ
+  - 自分が許せなくて……
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_009
+- face:
+  - 102511
+  - 4
+- print:
+  - スズメ
+  - 大切な……
+- wait:
+  - 55
+- eye_open:
+  - False
+- print:
+  - スズメ
+  - ものだったのに……
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_010
+- face:
+  - 102511
+  - 4
+- eye_open:
+  - True
+- print:
+  - スズメ
+  - それで私、
+- wait:
+  - 45
+- print:
+  - スズメ
+  - >2-
+
+    思わず
+- wait:
+  - 30
+- print:
+  - スズメ
+  - 救護院を飛び出してきちゃったんです。
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_011
+- face:
+  - 102511
+  - 4
+- nod:
+  - 102511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - スズメ
+  - でも、
+- wait:
+  - 25
+- print:
+  - スズメ
+  - よく考えたら私、
+- wait:
+  - 55
+- print:
+  - スズメ
+  - 救護院以外に行ける場所がなくて、
+- wait:
+  - 65
+- print:
+  - スズメ
+  - >2-
+
+    そんなとき、
+- wait:
+  - 30
+- print:
+  - スズメ
+  - '{0}さんの姿を見かけて……'
+- touch: *o0
+- choice:
+  - とりあえずついてきて。
+  - 4
+- tag:
+  - 4
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_012
+- face:
+  - 102511
+  - 6
+- emotion:
+  - question1_R
+  - 102511
+  - 35
+  - 520
+  - se_adv_emote_question_01
+- print:
+  - スズメ
+  - え？
+- wait:
+  - 25
+- print:
+  - スズメ
+  - >2-
+
+    は、
+- wait:
+  - 20
+- print:
+  - スズメ
+  - はい……！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1.8
+  - 1
+- fadeout:
+  - 102511
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- background:
+  - 500361
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_room_noise_01
+- chara_full:
+  - 102511
+  - C
+  - 4
+- fadein:
+  - 102511
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M203
+  - 0
+  - 0
+  - 0
+  - 0.3
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_013
+- face:
+  - 102511
+  - 4
+- nod:
+  - 102511
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - スズメ
+  - すみません、
+- wait:
+  - 30
+- print:
+  - スズメ
+  - 何もかもいきなりで……
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_014
+- face:
+  - 102511
+  - 6
+- print:
+  - スズメ
+  - でも、
+- wait:
+  - 20
+- print:
+  - スズメ
+  - 本当にいいんですか？
+- wait:
+  - 30
+- print:
+  - スズメ
+  - >2-
+
+    【美食殿】のみなさんのギルドハウスをお借りして……
+- touch: *o0
+- window_visible:
+  - false
+- emotion:
+  - notice1_L
+  - 102511
+  - -115
+  - 530
+  - se_adv_emote_common_01
+- wait:
+  - 45
+- emotion_end:
+  - 102511
+- window_visible:
+  - true
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_015
+- face:
+  - 102511
+  - 6
+- print:
+  - スズメ
+  - ……自由に使っていい、
+- wait:
+  - 60
+- print:
+  - スズメ
+  - ですか。
+- wait:
+  - 35
+- print:
+  - スズメ
+  - >2
+
+- face:
+  - 102511
+  - 2
+- print:
+  - スズメ
+  - ふふっ、
+- wait:
+  - 35
+- print:
+  - スズメ
+  - ありがとうございます。
+- wait:
+  - 35
+- print:
+  - スズメ
+  - >2
+
+- face:
+  - 102511
+  - 1
+- print:
+  - スズメ
+  - では、
+- wait:
+  - 15
+- print:
+  - スズメ
+  - ご厚意に甘えさせていただきますね。
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_016
+- face:
+  - 102511
+  - 6
+- print:
+  - スズメ
+  - それでえっと、
+- wait:
+  - 50
+- print:
+  - スズメ
+  - 今日は
+- wait:
+  - 20
+- print:
+  - スズメ
+  - 他のみなさんは……？
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_017
+- face:
+  - 102511
+  - 6
+- emotion:
+  - question1_R
+  - 102511
+  - 35
+  - 520
+  - se_adv_emote_question_01
+- print:
+  - スズメ
+  - ……いない？
+- wait:
+  - 35
+- print:
+  - スズメ
+  - >2-
+
+    お出かけ中
+- wait:
+  - 30
+- print:
+  - スズメ
+  - なんですか。
+- wait:
+  - 30
+- print:
+  - スズメ
+  - >2-
+
+    ということは
+- wait:
+  - 30
+- print:
+  - スズメ
+  - 二人きりなんですね。
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_018
+- face:
+  - 102511
+  - 6
+- print:
+  - スズメ
+  - このかたと……
+- wait:
+  - 40
+- print:
+  - スズメ
+  - 二人きり……？
+- wait:
+  - 40
+- print:
+  - スズメ
+  - >2
+
+- face:
+  - 102511
+  - 3
+- print:
+  - スズメ
+  - いえいえ、
+- wait:
+  - 20
+- print:
+  - スズメ
+  - 何をドキッとしちゃってるんですか私！
+- wait:
+  - 55
+- print:
+  - スズメ
+  - >2-
+
+    救護院でいつも一緒だったじゃないですか！　
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_019
+- face:
+  - 102511
+  - 1
+- nod:
+  - 102511
+- se:
+  - se_adv_step_wood_move_01
+- print:
+  - スズメ
+  - そ、
+- wait:
+  - 10
+- print:
+  - スズメ
+  - そうだっ。
+- wait:
+  - 15
+- print:
+  - スズメ
+  - >2-
+
+    何もしないのもあれですから、
+- wait:
+  - 30
+- print:
+  - スズメ
+  - お茶をお入れしますね。
+- wait:
+  - 30
+- print:
+  - スズメ
+  - >2-
+
+    キッチン、
+- wait:
+  - 15
+- print:
+  - スズメ
+  - 少しお借りします！
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_020
+- face:
+  - 102511
+  - 2
+- print:
+  - スズメ
+  - えっと、
+- wait:
+  - 20
+- print:
+  - スズメ
+  - お茶、
+- wait:
+  - 15
+- print:
+  - スズメ
+  - お茶～
+- wait:
+  - 35
+- print:
+  - スズメ
+  - >2
+
+- face:
+  - 102511
+  - 1
+- emotion:
+  - notice1_L
+  - 102511
+  - -115
+  - 530
+  - se_adv_emote_common_01
+- print:
+  - スズメ
+  - わっ、
+- wait:
+  - 15
+- print:
+  - スズメ
+  - すごい。
+- wait:
+  - 30
+- print:
+  - スズメ
+  - 見たことのない茶葉がいっぱい……
+- wait:
+  - 55
+- print:
+  - スズメ
+  - >2
+
+- face:
+  - 102511
+  - 6
+- print:
+  - スズメ
+  - というかこれは……
+- wait:
+  - 25
+- print:
+  - スズメ
+  - 魔物の……？
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_021
+- face:
+  - 102511
+  - 4
+- print:
+  - スズメ
+  - ……見なかったことにしましょう。
+- wait:
+  - 35
+- print:
+  - スズメ
+  - >2
+
+- face:
+  - 102511
+  - 1
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - スズメ
+  - こ、
+- wait:
+  - 10
+- print:
+  - スズメ
+  - こっちの普通っぽい茶葉を使わせていただきます。
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_022
+- face:
+  - 102511
+  - 2
+- print:
+  - スズメ
+  - えへへ。
+- wait:
+  - 35
+- print:
+  - スズメ
+  - お世話になるからには、
+- wait:
+  - 25
+- print:
+  - スズメ
+  - お役に立たないと。
+- wait:
+  - 45
+- print:
+  - スズメ
+  - >2
+
+- face:
+  - 102511
+  - 1
+- print:
+  - スズメ
+  - ご恩には奉公で報いるのが
+- wait:
+  - 45
+- print:
+  - スズメ
+  - メイドの流儀です♪
+- touch: *o0
+- se:
+  - se_adv_cooking_boil_01
+- effect:
+  - 0014
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_023
+- face:
+  - 102511
+  - 1
+- nod:
+  - 102511
+- print:
+  - スズメ
+  - バッチリとおいしいお茶をお出しして～……
+- wait:
+  - 80
+- print:
+  - スズメ
+  - >2
+
+- face:
+  - 102511
+  - 6
+- print:
+  - スズメ
+  - あれ？　
+- wait:
+  - 35
+- print:
+  - スズメ
+  - なんでしょうこれ、
+- wait:
+  - 30
+- print:
+  - スズメ
+  - なんか黒い煙が……
+- wait:
+  - 50
+- print:
+  - スズメ
+  - >2
+
+- face:
+  - 102511
+  - 4
+- print:
+  - スズメ
+  - それに変な匂いも……っ！？
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_024
+- face:
+  - 102511
+  - 6
+- emotion:
+  - sweat2_R
+  - 102511
+  - 25
+  - 520
+  - se_adv_emote_sweat_02
+- print:
+  - スズメ
+  - ひゃわあああ～っ！
+- wait:
+  - 35
+- print:
+  - スズメ
+  - >2-
+
+    なんですかこれ～～っ！？
+- wait:
+  - 35
+- print:
+  - スズメ
+  - >2-
+
+    茶葉じゃなかったんですか～～～っ！？
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+- fadeout:
+  - 102511
+  - 30
+- se_pause:
+  - amb_adv_room_noise_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0014
+- wait:
+  - 15
+- black_in: *o0
+- se:
+  - amb_adv_room_noise_01
+- chara_full:
+  - 102511
+  - C
+  - 4
+- fadein:
+  - 102511
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M463
+  - 0
+  - 0
+  - 1
+  - 0.3
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_025
+- face:
+  - 102511
+  - 4
+- print:
+  - スズメ
+  - うぅ……
+- wait:
+  - 35
+- eye_open:
+  - False
+- print:
+  - スズメ
+  - すみません……
+- wait:
+  - 60
+- print:
+  - スズメ
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - スズメ
+  - 結局失敗して、
+- wait:
+  - 40
+- print:
+  - スズメ
+  - お茶が見たことのない色になっちゃいました……
+- touch: *o0
+- choice:
+  - おいしかったよ。
+  - 5
+- tag:
+  - 5
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_026
+- face:
+  - 102511
+  - 6
+- print:
+  - スズメ
+  - 本当、
+- wait:
+  - 25
+- print:
+  - スズメ
+  - ですか……？
+- wait:
+  - 45
+- print:
+  - スズメ
+  - >2
+
+- face:
+  - 102511
+  - 4
+- print:
+  - スズメ
+  - その割には飲んだ瞬間、
+- wait:
+  - 45
+- print:
+  - スズメ
+  - 喉を押さえて天井を見つめていましたけど……
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_027
+- face:
+  - 102511
+  - 3
+- nod:
+  - 102511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - スズメ
+  - ……いいえ。
+- wait:
+  - 15
+- print:
+  - スズメ
+  - 汚名は返上するものです！
+- wait:
+  - 45
+- print:
+  - スズメ
+  - >2
+
+- face:
+  - 102511
+  - 1
+- print:
+  - スズメ
+  - 今度はお部屋のお掃除をさせていただきますね！
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_028
+- face:
+  - 102511
+  - 1
+- print:
+  - スズメ
+  - メイドとして役に立つところ、
+- wait:
+  - 35
+- print:
+  - スズメ
+  - >2-
+
+    {0}さんに見てもらいたいですから。
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_029
+- face:
+  - 102511
+  - 2
+- emotion:
+  - note1_L
+  - 102511
+  - -135
+  - 510
+  - se_adv_emote_note_01
+- print:
+  - スズメ
+  - えへへ。
+- wait:
+  - 35
+- print:
+  - スズメ
+  - >2-
+
+    いつもと違う場所をお掃除するなんて、
+- wait:
+  - 50
+- print:
+  - スズメ
+  - >2-
+
+    不思議な気分ですね……♪
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_030
+- face:
+  - 102511
+  - 1
+- print:
+  - スズメ
+  - 見たところ片付いていますけど、
+- wait:
+  - 50
+- print:
+  - スズメ
+  - >2-
+
+    ところどころ、
+- wait:
+  - 20
+- print:
+  - スズメ
+  - お掃除が行き届いてない部分がありますね？
+- wait:
+  - 60
+- print:
+  - スズメ
+  - >2
+
+- face:
+  - 102511
+  - 2
+- print:
+  - スズメ
+  - これはメイドとして、
+- wait:
+  - 25
+- print:
+  - スズメ
+  - 腕の見せどころ……♪
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_031
+- face:
+  - 102511
+  - 6
+- print:
+  - スズメ
+  - あ！　
+- wait:
+  - 15
+- print:
+  - スズメ
+  - なんですかその心配そうな目は！
+- wait:
+  - 60
+- print:
+  - スズメ
+  - >2
+
+- face:
+  - 102511
+  - 3
+- print:
+  - スズメ
+  - 心外ですよ～！
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_032
+- face:
+  - 102511
+  - 3
+- nod:
+  - 102511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - スズメ
+  - もう。
+- wait:
+  - 20
+- print:
+  - スズメ
+  - 私だって成長してるんですよ？
+- wait:
+  - 45
+- print:
+  - スズメ
+  - >2-
+
+    ドジってばっかりじゃないんです。
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_033
+- face:
+  - 102511
+  - 6
+- emotion:
+  - question1_R
+  - 102511
+  - 35
+  - 520
+  - se_adv_emote_question_01
+- print:
+  - スズメ
+  - え？　
+- wait:
+  - 20
+- print:
+  - スズメ
+  - 分かってる？
+- wait:
+  - 45
+- print:
+  - スズメ
+  - >2-
+
+    ずっと見てきたから？
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_034
+- face:
+  - 102511
+  - 5
+- print:
+  - スズメ
+  - ダ、
+- wait:
+  - 10
+- print:
+  - スズメ
+  - ダメですよ～
+- wait:
+  - 30
+- print:
+  - スズメ
+  - 急に褒めたりしちゃ……！
+- wait:
+  - 35
+- print:
+  - スズメ
+  - >2
+
+- face:
+  - 102511
+  - 2
+- print:
+  - スズメ
+  - いいところを見せたくなっちゃうじゃないですか～♪
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_035
+- face:
+  - 102511
+  - 1
+- print:
+  - スズメ
+  - じゃあ、
+- wait:
+  - 20
+- print:
+  - スズメ
+  - 見ていてくださいねっ。
+- wait:
+  - 35
+- print:
+  - スズメ
+  - >2-
+
+    前は失敗してたお掃除魔法も、
+- wait:
+  - 45
+- face:
+  - 102511
+  - 2
+- print:
+  - スズメ
+  - 今はこのとおり！
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_036
+- face:
+  - 102511
+  - 2
+- nod:
+  - 102511
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - スズメ
+  - えぇいっ、
+- wait:
+  - 35
+- print:
+  - スズメ
+  - きれいになぁれ……☆
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0043
+  - se_adv_magic_holy_small_2
+- wait:
+  - 30
+- fadeout:
+  - 102511
+  - 30
+- bgm:
+  - stop
+  - 0.5
+  - 1
+- effect:
+  - 0010
+  - se_adv_explosion_house_01
+- wait:
+  - 15
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- effect:
+  - 0014
+- chara_full:
+  - 102511
+  - C
+  - 6
+- fadein:
+  - 102511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_037
+- face:
+  - 102511
+  - 6
+- print:
+  - スズメ
+  - …………
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_038
+- face:
+  - 102511
+  - 4
+- eye_open:
+  - False
+- print:
+  - スズメ
+  - ……本当にすみません。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 102511
+  - 30
+- black_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0014
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 102511
+  - C
+  - 4
+- fadein:
+  - 102511
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M123
+  - 0
+  - 0
+  - 0
+  - 0.3
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_039
+- face:
+  - 102511
+  - 4
+- eye_open:
+  - False
+- emotion:
+  - gloomy1_R
+  - 102511
+  - -15
+  - 530
+  - se_adv_emote_gloomy_01
+- print:
+  - スズメ
+  - ごめんなさい～……
+- wait:
+  - 75
+- print:
+  - スズメ
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - スズメ
+  - 結局{0}さんにも手伝ってもらっちゃって……
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_040
+- face:
+  - 102511
+  - 4
+- print:
+  - スズメ
+  - お掃除は得意だ
+- wait:
+  - 40
+- print:
+  - スズメ
+  - って自分では思ってるんですけど、
+- wait:
+  - 60
+- print:
+  - スズメ
+  - >2-
+
+    どうしてだかいつも爆発しちゃうんですよね……
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_041
+- face:
+  - 102511
+  - 4
+- eye_open:
+  - False
+- emotion:
+  - drop1_R
+  - 102511
+  - 7
+  - 665
+  - se_adv_emote_drop_01
+- print:
+  - スズメ
+  - はぁ～……
+- wait:
+  - 30
+- print:
+  - スズメ
+  - ダメですね、
+- wait:
+  - 15
+- print:
+  - スズメ
+  - 私。
+- wait:
+  - 40
+- print:
+  - スズメ
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - スズメ
+  - どこに行っても失敗ばかり。
+- wait:
+  - 55
+- print:
+  - スズメ
+  - >2-
+
+    どうしてこうなんでしょう……
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_042
+- face:
+  - 102511
+  - 4
+- print:
+  - スズメ
+  - お嬢さまもきっと、
+- wait:
+  - 45
+- print:
+  - スズメ
+  - 愛想を尽かしちゃってますよね……
+- touch: *o0
+- choice:
+  - そんなことない。
+  - 6
+- tag:
+  - 6
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_043
+- face:
+  - 102511
+  - 1
+- print:
+  - スズメ
+  - '{0}さん……ありがとうございます。'
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_044
+- face:
+  - 102511
+  - 4
+- print:
+  - スズメ
+  - でも……
+- wait:
+  - 55
+- print:
+  - スズメ
+  - >2
+
+- face:
+  - 102511
+  - 1
+- print:
+  - スズメ
+  - ううん、
+- wait:
+  - 25
+- print:
+  - スズメ
+  - ごめんなさい。
+- wait:
+  - 25
+- print:
+  - スズメ
+  - なんでもありません。
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_045
+- face:
+  - 102511
+  - 1
+- print:
+  - スズメ
+  - 私、
+- wait:
+  - 30
+- print:
+  - スズメ
+  - もうちょっとお掃除しますね。
+- wait:
+  - 55
+- print:
+  - スズメ
+  - >2
+
+- nod:
+  - 102511
+- print:
+  - スズメ
+  - 大丈夫です、
+- wait:
+  - 30
+- print:
+  - スズメ
+  - 今度はドジらないよう慎重にしますので。
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_046
+- face:
+  - 102511
+  - 4
+- print:
+  - スズメ
+  - 迷惑ばかりかけて、
+- wait:
+  - 55
+- print:
+  - スズメ
+  - >2-
+
+    {0}さんにまで愛想尽かされちゃったら……
+- wait:
+  - 55
+- print:
+  - スズメ
+  - 嫌ですから。
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_047
+- face:
+  - 102511
+  - 2
+- print:
+  - スズメ
+  - 私、
+- wait:
+  - 30
+- print:
+  - スズメ
+  - 頑張ります……！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1.8
+- fadeout:
+  - 102511
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_room_noise_01
+  - 1
+- background:
+  - 500110
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_room_noise_01
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - ──その日の午後。
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - >2-
+
+    {0}は一人でサレンのもとを訪れた。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_wood_walk_come_01
+- chara_full:
+  - 102811
+  - C
+  - 6
+- fadein:
+  - 102811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M129_NoB
+  - 0
+  - 0
+  - 1
+  - 0.3
+- focus:
+  - 102811
+- bust:
+  - 102811
+  - 0
+- vo:
+  - vo_adv_1025009_048
+- face:
+  - 102811
+  - 6
+- emotion:
+  - surprise1_L
+  - 102811
+  - 145
+  - 545
+  - se_adv_emote_common_01
+- print:
+  - サレン
+  - スズメッ？
+- touch: *o0
+- focus:
+  - 102811
+- bust:
+  - 102811
+  - 0
+- vo:
+  - vo_adv_1025009_049
+- face:
+  - 102811
+  - 4
+- print:
+  - サレン
+  - あ……
+- wait:
+  - 30
+- print:
+  - サレン
+  - '{0}か。'
+- wait:
+  - 30
+- print:
+  - サレン
+  - >2-
+
+    ごめん、
+- wait:
+  - 25
+- print:
+  - サレン
+  - ちょっと今立て込んでて。
+- wait:
+  - 35
+- print:
+  - サレン
+  - >2-
+
+    スズメが……
+- touch: *o0
+- choice:
+  - 知ってるよ。
+  - 7
+- tag:
+  - 7
+- focus:
+  - 102811
+- bust:
+  - 102811
+  - 0
+- vo:
+  - vo_adv_1025009_050
+- face:
+  - 102811
+  - 6
+- emotion:
+  - question1_R
+  - 102811
+  - 85
+  - 515
+  - se_adv_emote_question_01
+- print:
+  - サレン
+  - え？
+- wait:
+  - 30
+- print:
+  - サレン
+  - >2-
+
+    あの子今、
+- wait:
+  - 30
+- print:
+  - サレン
+  - 【美食殿】のギルドハウスにいるの？
+- touch: *o0
+- focus:
+  - 102811
+- bust:
+  - 102811
+  - 0
+- vo:
+  - vo_adv_1025009_051
+- face:
+  - 102811
+  - 4
+- print:
+  - サレン
+  - ……そう。
+- wait:
+  - 45
+- print:
+  - サレン
+  - よく考えてみれば、
+- wait:
+  - 30
+- print:
+  - サレン
+  - そうよね。
+- wait:
+  - 30
+- print:
+  - サレン
+  - >2
+
+- face:
+  - 102811
+  - 1
+- print:
+  - サレン
+  - スズメが頼りそうなのはあんたくらいだったわ。
+- touch: *o0
+- focus:
+  - 102811
+- bust:
+  - 102811
+  - 0
+- vo:
+  - vo_adv_1025009_052
+- face:
+  - 102811
+  - 6
+- print:
+  - サレン
+  - 今すぐ連れ戻しに……
+- wait:
+  - 30
+- print:
+  - サレン
+  - と言いたいところだけど、
+- wait:
+  - 40
+- print:
+  - サレン
+  - >2-
+
+    {0}の所にいるなら、
+- wait:
+  - 30
+- print:
+  - サレン
+  - そうね……
+- touch: *o0
+- focus:
+  - 102811
+- bust:
+  - 102811
+  - 0
+- vo:
+  - vo_adv_1025009_053
+- face:
+  - 102811
+  - 4
+- print:
+  - サレン
+  - スズメのこと、
+- wait:
+  - 30
+- print:
+  - サレン
+  - そのまま預かっててもらえないかしら。
+- touch: *o0
+- focus:
+  - 102811
+- bust:
+  - 102811
+  - 0
+- vo:
+  - vo_adv_1025009_054
+- face:
+  - 102811
+  - 6
+- nod:
+  - 102811
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - サレン
+  - ああ、
+- wait:
+  - 20
+- print:
+  - サレン
+  - 怒ってるとかじゃないのよ。
+- wait:
+  - 35
+- print:
+  - サレン
+  - >2
+
+- face:
+  - 102811
+  - 1
+- print:
+  - サレン
+  - あの子のドジはいつものことだし、
+- wait:
+  - 40
+- print:
+  - サレン
+  - あたしは全然気にしてないわ。
+- touch: *o0
+- focus:
+  - 102811
+- bust:
+  - 102811
+  - 0
+- vo:
+  - vo_adv_1025009_055
+- face:
+  - 102811
+  - 4
+- print:
+  - サレン
+  - ただ今回は、
+- wait:
+  - 35
+- print:
+  - サレン
+  - あの子の方が……
+- wait:
+  - 20
+- print:
+  - サレン
+  - 気にしてるんじゃないかしら。
+- touch: *o0
+- bgm:
+  - stop
+  - 1.5
+  - 1
+- choice:
+  - 大切なものを壊したって聞いた。
+  - 8
+- tag:
+  - 8
+- bgm:
+  - bgm_M114_Ver2
+  - 0
+  - 0
+  - 0
+  - 0.3
+- focus:
+  - 102811
+- bust:
+  - 102811
+  - 0
+- vo:
+  - vo_adv_1025009_056
+- face:
+  - 102811
+  - 4
+- print:
+  - サレン
+  - ……聞いたのね。
+- wait:
+  - 30
+- print:
+  - サレン
+  - >2-
+
+    ええ、
+- wait:
+  - 25
+- print:
+  - サレン
+  - そのとおりよ。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 102811
+  - 30
+- black_out:
+  - 1
+  - 0.5
+- bright_change:
+  - 1
+  - 50
+- still:
+  - 102500901
+- black_in: *o0
+- window_visible:
+  - true
+- focus:
+  - 102811
+- bust:
+  - 102811
+  - 1
+- vo:
+  - vo_adv_1025009_057
+- face:
+  - 102811
+  - 6
+- se:
+  - se_adv_coffee_cup_01
+- print:
+  - サレン
+  - これなんだけど。
+- wait:
+  - 30
+- print:
+  - サレン
+  - >2-
+
+    見事に粉々になっちゃったのよね。
+- touch: *o0
+- window_visible:
+  - false
+- black_out:
+  - 1
+  - 0.5
+- still:
+  - end
+- bright_change:
+  - 1
+  - 100
+- wait:
+  - 5
+- black_in: *o0
+- chara_full:
+  - 102811
+  - C
+  - 1
+- fadein:
+  - 102811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102811
+- bust:
+  - 102811
+  - 0
+- vo:
+  - vo_adv_1025009_058
+- face:
+  - 102811
+  - 1
+- print:
+  - サレン
+  - これはね、
+- wait:
+  - 25
+- print:
+  - サレン
+  - 昔……
+- wait:
+  - 25
+- print:
+  - サレン
+  - >2-
+
+    あたしからあの子に
+- wait:
+  - 20
+- print:
+  - サレン
+  - プレゼントしたものなのよ。
+- touch: *o0
+- focus:
+  - 102811
+- bust:
+  - 102811
+  - 0
+- vo:
+  - vo_adv_1025009_059
+- face:
+  - 102811
+  - 1
+- nod:
+  - 102811
+- print:
+  - サレン
+  - 失敗してばかりで
+- wait:
+  - 35
+- print:
+  - サレン
+  - 毎日落ち込んでたあの子を見かねて、
+- wait:
+  - 45
+- print:
+  - サレン
+  - >2-
+
+    そんなこと気にしなくていいのよ、
+- wait:
+  - 25
+- print:
+  - サレン
+  - ってね。
+- touch: *o0
+- focus:
+  - 102811
+- bust:
+  - 102811
+  - 0
+- vo:
+  - vo_adv_1025009_060
+- face:
+  - 102811
+  - 2
+- print:
+  - サレン
+  - 子どもの頃の贈り物だから、
+- wait:
+  - 30
+- print:
+  - サレン
+  - 大したものじゃないんだけどね。
+- touch: *o0
+- focus:
+  - 102811
+- bust:
+  - 102811
+  - 0
+- vo:
+  - vo_adv_1025009_061
+- face:
+  - 102811
+  - 1
+- print:
+  - サレン
+  - ……それでもあの子は、
+- wait:
+  - 20
+- print:
+  - サレン
+  - ずっと大事にしてた。
+- wait:
+  - 40
+- print:
+  - サレン
+  - >2-
+
+    こまめに磨いたりしてね。
+- touch: *o0
+- focus:
+  - 102811
+- bust:
+  - 102811
+  - 0
+- vo:
+  - vo_adv_1025009_062
+- face:
+  - 102811
+  - 4
+- print:
+  - サレン
+  - それが今回、
+- wait:
+  - 30
+- print:
+  - サレン
+  - こんなことになっちゃって……
+- wait:
+  - 40
+- print:
+  - サレン
+  - >2-
+
+    あの子としても、
+- wait:
+  - 20
+- print:
+  - サレン
+  - 堪えてるんじゃないかしら。
+- touch: *o0
+- focus:
+  - 102811
+- bust:
+  - 102811
+  - 0
+- vo:
+  - vo_adv_1025009_063
+- face:
+  - 102811
+  - 6
+- nod:
+  - 102811
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - サレン
+  - だから、
+- wait:
+  - 25
+- print:
+  - サレン
+  - 心が落ち着くまでで構わない。
+- wait:
+  - 50
+- print:
+  - サレン
+  - >2
+
+- face:
+  - 102811
+  - 4
+- print:
+  - サレン
+  - 悪いんだけど……
+- wait:
+  - 25
+- print:
+  - サレン
+  - スズメのこと、
+- wait:
+  - 25
+- print:
+  - サレン
+  - 頼めるかしら。
+- touch: *o0
+- focus:
+  - 102811
+- bust:
+  - 102811
+  - 0
+- vo:
+  - vo_adv_1025009_064
+- face:
+  - 102811
+  - 1
+- print:
+  - サレン
+  - あんたになら、
+- wait:
+  - 15
+- print:
+  - サレン
+  - 安心して任せられるし。
+- touch: *o0
+- choice:
+  - 任せて。
+  - 9
+- tag:
+  - 9
+- focus:
+  - 102811
+- bust:
+  - 102811
+  - 0
+- vo:
+  - vo_adv_1025009_065
+- face:
+  - 102811
+  - 2
+- print:
+  - サレン
+  - ありがと。
+- wait:
+  - 30
+- print:
+  - サレン
+  - >2-
+
+    相変わらず優しいのね。
+- touch: *o0
+- focus:
+  - 102811
+- bust:
+  - 102811
+  - 0
+- vo:
+  - vo_adv_1025009_066
+- face:
+  - 102811
+  - 6
+- emotion:
+  - question1_R
+  - 102811
+  - 85
+  - 515
+  - se_adv_emote_question_01
+- print:
+  - サレン
+  - ……え？
+- wait:
+  - 25
+- print:
+  - サレン
+  - >2-
+
+    一緒に
+- wait:
+  - 20
+- print:
+  - サレン
+  - この破片も貸してほしいの？
+- touch: *o0
+- focus:
+  - 102811
+- bust:
+  - 102811
+  - 0
+- vo:
+  - vo_adv_1025009_067
+- face:
+  - 102811
+  - 6
+- print:
+  - サレン
+  - 別に構わないけど……
+- touch: *o0
+- focus:
+  - 102811
+- bust:
+  - 102811
+  - 0
+- vo:
+  - vo_adv_1025009_068
+- face:
+  - 102811
+  - 4
+- print:
+  - サレン
+  - …………
+- touch: *o0
+- focus:
+  - 102811
+- bust:
+  - 102811
+  - 0
+- vo:
+  - vo_adv_1025009_069
+- face:
+  - 102811
+  - 1
+- nod:
+  - 102811
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - サレン
+  - じゃあ、
+- wait:
+  - 15
+- print:
+  - サレン
+  - はい。
+- wait:
+  - 25
+- print:
+  - サレン
+  - >2-
+
+    なくさないようにね。
+- touch: *o0
+- focus:
+  - 102811
+- bust:
+  - 102811
+  - 0
+- vo:
+  - vo_adv_1025009_070
+- face:
+  - 102811
+  - 6
+- print:
+  - サレン
+  - スズメのこと、
+- wait:
+  - 30
+- print:
+  - サレン
+  - くれぐれもお願いね。
+- wait:
+  - 30
+- print:
+  - サレン
+  - >2
+
+- face:
+  - 102811
+  - 4
+- print:
+  - サレン
+  - その……
+- wait:
+  - 30
+- print:
+  - サレン
+  - 色々と信じられないドジをするかもしれないけど、
+- wait:
+  - 50
+- print:
+  - サレン
+  - >2-
+
+    できる限り心を広くもって、
+- wait:
+  - 45
+- print:
+  - サレン
+  - 見守ってあげてね。
+- touch: *o0
+- focus:
+  - 102811
+- bust:
+  - 102811
+  - 0
+- vo:
+  - vo_adv_1025009_071
+- face:
+  - 102811
+  - 2
+- print:
+  - サレン
+  - ……な～んて、
+- wait:
+  - 30
+- print:
+  - サレン
+  - >2-
+
+    {0}にいちいち
+- wait:
+  - 25
+- print:
+  - サレン
+  - 言うことでもないわよね、
+- wait:
+  - 25
+- print:
+  - サレン
+  - ふふっ。
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1.8
+- fadeout:
+  - 102811
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_room_noise_01
+  - 1
+- background:
+  - 500361
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_room_noise_01
+- chara_full:
+  - 102511
+  - C
+  - 6
+- fadein:
+  - 102511
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M12
+  - 0
+  - 0
+  - 1
+  - 0.3
+- se:
+  - se_adv_step_wood_run_come_01
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_072
+- face:
+  - 102511
+  - 6
+- emotion:
+  - sweat2_R
+  - 102511
+  - 25
+  - 520
+  - se_adv_emote_sweat_02
+- print:
+  - スズメ
+  - わぁぁんっ、
+- wait:
+  - 30
+- print:
+  - スズメ
+  - 待って～！
+- wait:
+  - 25
+- print:
+  - スズメ
+  - >2-
+
+    走り回らないで～～～！
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_073
+- face:
+  - 102511
+  - 6
+- pop:
+  - 102511
+- se:
+  - se_adv_rabbit_jump_01
+- print:
+  - スズメ
+  - あっ！
+- wait:
+  - 15
+- print:
+  - スズメ
+  - >2-
+
+    か、
+- wait:
+  - 15
+- print:
+  - スズメ
+  - 帰ってきちゃいましたか！？
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_074
+- face:
+  - 102511
+  - 2
+- print:
+  - スズメ
+  - お、
+- wait:
+  - 10
+- print:
+  - スズメ
+  - お帰りなさいませ～……！
+- wait:
+  - 25
+- print:
+  - スズメ
+  - >2
+
+- face:
+  - 102511
+  - 4
+- print:
+  - スズメ
+  - えっと、
+- wait:
+  - 10
+- print:
+  - スズメ
+  - その～……
+- touch: *o0
+- se:
+  - se_adv_dog_voice_02
+- focus:
+  - 1811
+- bust:
+  - 1811
+  - 1
+- face:
+  - 1811
+  - 1
+- print:
+  - 犬
+  - わん！　
+- wait:
+  - 15
+- print:
+  - 犬
+  - わん！
+- touch: *o0
+- se:
+  - se_adv_cat_voice_01
+- focus:
+  - 1711
+- bust:
+  - 1711
+  - 1
+- face:
+  - 1711
+  - 1
+- print:
+  - 猫
+  - にゃあ～！
+- touch: *o0
+- se:
+  - se_adv_creature_bird_02
+- focus:
+  - 1911
+- bust:
+  - 1911
+  - 1
+- face:
+  - 1911
+  - 1
+- print:
+  - 鳥
+  - くええーっ！
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_075
+- face:
+  - 102511
+  - 6
+- print:
+  - スズメ
+  - これは、
+- wait:
+  - 30
+- print:
+  - スズメ
+  - ですね～……
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_076
+- face:
+  - 102511
+  - 4
+- nod:
+  - 102511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - スズメ
+  - すみません！
+- wait:
+  - 30
+- print:
+  - スズメ
+  - >2-
+
+    夕食の準備をしておこうと思って、
+- wait:
+  - 40
+- print:
+  - スズメ
+  - >2-
+
+    お料理をしていたのですが……
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_077
+- face:
+  - 102511
+  - 4
+- print:
+  - スズメ
+  - なんというか、
+- wait:
+  - 30
+- print:
+  - スズメ
+  - 見たことのない食材ばかりで……
+- wait:
+  - 55
+- print:
+  - スズメ
+  - >2
+
+- face:
+  - 102511
+  - 6
+- print:
+  - スズメ
+  - とりあえず火にかけて煮込んでみたんですけど、
+- wait:
+  - 45
+- print:
+  - スズメ
+  - >2-
+
+    なぜだか
+- wait:
+  - 20
+- print:
+  - スズメ
+  - 量がどんどん増えちゃって～
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_078
+- face:
+  - 102511
+  - 4
+- emotion:
+  - sweat2_R
+  - 102511
+  - 25
+  - 520
+  - se_adv_emote_sweat_02
+- print:
+  - スズメ
+  - あっという間に鍋は吹きこぼれるし、
+- wait:
+  - 45
+- print:
+  - スズメ
+  - 変な色の煙は出るし、
+- wait:
+  - 50
+- print:
+  - スズメ
+  - >2-
+
+    換気しようとしたら窓の外からいろんな動物が入り込んでくるし、
+- wait:
+  - 60
+- print:
+  - スズメ
+  - >2
+
+- face:
+  - 102511
+  - 6
+- print:
+  - スズメ
+  - いえっ、
+- wait:
+  - 15
+- print:
+  - スズメ
+  - これ全部本当なんですよっ！？
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_079
+- face:
+  - 102511
+  - 4
+- print:
+  - スズメ
+  - つまりは……
+- wait:
+  - 45
+- nod:
+  - 102511
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - スズメ
+  - ごめんなさい……
+- wait:
+  - 35
+- print:
+  - スズメ
+  - >2-
+
+    またやってしまいました～……
+- touch: *o0
+- choice:
+  - ……一緒に片付けよう。
+  - 10
+- tag:
+  - 10
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_1025009_080
+- face:
+  - 102511
+  - 4
+- eye_open:
+  - False
+- print:
+  - スズメ
+  - うぅ～……
+- wait:
+  - 40
+- eye_open:
+  - True
+- print:
+  - スズメ
+  - ありがとうございます～……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 102511
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - 色々と信じられないドジをするかもしれないけど、
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - >2-
+
+    できる限り心を広くもって、というサレンの言葉を思い出しながら、
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - >2-
+
+    {0}はスズメと一緒に片付けを始めるのであった。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1
+  - 1
+- se_pause:
+  - amb_adv_room_noise_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0
