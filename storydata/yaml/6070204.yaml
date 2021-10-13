@@ -1,0 +1,293 @@
+- title:
+  - 魔法のバラへの願い
+- outline:
+  - ' '
+- background:
+  - 500036
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 魔法のバラへの願い
+- chara_full:
+  - 114511
+  - C
+  - 1
+- fadein:
+  - 114511
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M428_04
+  - 0
+  - 0
+  - 1
+- focus:
+  - 114511
+- bust:
+  - 114511
+  - 0
+- vo:
+  - vo_adv_6054204_000
+- face:
+  - 114511
+  - 1
+- print:
+  - サレン
+  - 魔法のバラには
+- wait:
+  - 30
+- print:
+  - サレン
+  - 願いを叶えてくれるっていう
+- wait:
+  - 30
+- print:
+  - サレン
+  - >2-
+
+    ジンクスがあるの。
+- wait:
+  - 40
+- face:
+  - 114511
+  - 2
+- print:
+  - サレン
+  - だとしたら、
+- wait:
+  - 35
+- print:
+  - サレン
+  - >2-
+
+    救護院の運営費ください～
+- wait:
+  - 35
+- print:
+  - サレン
+  - って
+- wait:
+  - 20
+- print:
+  - サレン
+  - お願いしたいわね。
+- touch: &o0 []
+- choice:
+  - 一緒にがんばろう。
+  - 1
+  - 1
+- choice:
+  - 経営難なの？
+  - 2
+  - 2
+- choice:
+  - 魔法のバラがなくても大丈夫。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 114511
+- bust:
+  - 114511
+  - 0
+- vo:
+  - vo_adv_6054204_001
+- face:
+  - 114511
+  - 6
+- emotion:
+  - question1_R
+  - 114511
+  - 105
+  - 455
+  - se_adv_emote_question_01
+- print:
+  - サレン
+  - なに？　
+- wait:
+  - 25
+- print:
+  - サレン
+  - あたしを支えてくれるって？
+- wait:
+  - 45
+- print:
+  - サレン
+  - >2
+
+- face:
+  - 114511
+  - 2
+- print:
+  - サレン
+  - ふふ、
+- wait:
+  - 30
+- print:
+  - サレン
+  - ありがとう！　
+- wait:
+  - 35
+- print:
+  - サレン
+  - そうよね、
+- wait:
+  - 35
+- print:
+  - サレン
+  - ジンクスに頼るよりも、
+- wait:
+  - 35
+- print:
+  - サレン
+  - >2-
+
+    心強い幼なじみを頼った方が、
+- wait:
+  - 55
+- print:
+  - サレン
+  - 何倍も稼げそうだわ！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 114511
+- bust:
+  - 114511
+  - 0
+- vo:
+  - vo_adv_6054204_002
+- face:
+  - 114511
+  - 1
+- print:
+  - サレン
+  - まぁ、
+- wait:
+  - 15
+- print:
+  - サレン
+  - 余裕はないわよね。
+- wait:
+  - 40
+- print:
+  - サレン
+  - >2
+
+- face:
+  - 114511
+  - 6
+- print:
+  - サレン
+  - ……って、
+- wait:
+  - 15
+- print:
+  - サレン
+  - そんな深刻な顔しなくても大丈夫よ！
+- wait:
+  - 75
+- print:
+  - サレン
+  - >2
+
+- face:
+  - 114511
+  - 1
+- print:
+  - サレン
+  - でも、
+- wait:
+  - 15
+- print:
+  - サレン
+  - 心配してくれてありがとね。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 114511
+- bust:
+  - 114511
+  - 0
+- vo:
+  - vo_adv_6054204_003
+- face:
+  - 114511
+  - 2
+- nod:
+  - 114511
+- print:
+  - サレン
+  - うん。
+- wait:
+  - 30
+- print:
+  - サレン
+  - その言葉が
+- wait:
+  - 25
+- print:
+  - サレン
+  - 一番うれしいかも。
+- wait:
+  - 65
+- print:
+  - サレン
+  - >2
+
+- face:
+  - 114511
+  - 1
+- print:
+  - サレン
+  - 実業家として成功して、
+- wait:
+  - 45
+- print:
+  - サレン
+  - 救護院にいるみんなと
+- wait:
+  - 25
+- print:
+  - サレン
+  - >2-
+
+    幸せになるんだから。
+- wait:
+  - 55
+- face:
+  - 114511
+  - 2
+- print:
+  - サレン
+  - もちろんあんたも一緒にね♪
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 114511
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

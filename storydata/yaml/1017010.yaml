@@ -1,0 +1,2650 @@
+- title:
+  - 香織 第10話
+- outline:
+  - '{0}告訴香織，她說不定可以回到故鄉。但由於需要搭很久的船，不知道什麼時候才能再回蘭德索爾。香織雖然感到迷惘，還是下定決心要回到故鄉。'
+- background:
+  - 500010
+- se:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 兩個選擇
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 在為思念故鄉的香織打氣後，過了幾天，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    {0}像平常一樣，做著送貨的打工。
+- wait:
+  - 30
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 311
+  - C
+  - 1
+- fadein:
+  - 311
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M180_Ver2
+  - 0
+  - 0
+  - 1
+  - 0.3
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1017010_000
+- face:
+  - 311
+  - 1
+- print:
+  - 男性
+  - 那麼小哥，
+- wait:
+  - 20
+- print:
+  - 男性
+  - >2-
+
+    就拜託你把這個東西運到商店了。
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1017010_001
+- face:
+  - 311
+  - 6
+- emotion:
+  - question1_R
+  - 311
+  - 125
+  - 555
+  - se_adv_emote_question_01
+- print:
+  - 男性
+  - 喔，
+- wait:
+  - 15
+- print:
+  - 男性
+  - 怎麼啦？
+- wait:
+  - 45
+- print:
+  - 男性
+  - >2
+
+- face:
+  - 311
+  - 1
+- print:
+  - 男性
+  - 你對那箱貨物有興趣嗎？
+- touch: *o0
+- choice:
+  - 有好多沒見過的東西。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1017010_002
+- face:
+  - 311
+  - 1
+- nod:
+  - 311
+- se:
+  - se_adv_step_concrete_move_01
+- print:
+  - 男性
+  - 哦，
+- wait:
+  - 10
+- print:
+  - 男性
+  - 我想也是。
+- wait:
+  - 50
+- print:
+  - 男性
+  - >2-
+
+    這是最近才剛進貨的東西。
+- wait:
+  - 60
+- print:
+  - 男性
+  - >2-
+
+    堆了這些貨品的船隻
+- wait:
+  - 30
+- print:
+  - 男性
+  - 來自相當遙遠的大海另一端。
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1017010_003
+- face:
+  - 311
+  - 1
+- print:
+  - 男性
+  - 因為有很多稀奇的東西，
+- wait:
+  - 30
+- print:
+  - 男性
+  - 我才想在這邊賣看看。
+- wait:
+  - 40
+- print:
+  - 男性
+  - >2
+
+- face:
+  - 311
+  - 2
+- print:
+  - 男性
+  - 像是這個樂器，你不覺得很少見嗎？
+- wait:
+  - 50
+- print:
+  - 男性
+  - >2-
+
+    這東西的名字好像叫三線……
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1017010_004
+- face:
+  - 311
+  - 6
+- print:
+  - 男性
+  - 你知道嗎？
+- wait:
+  - 25
+- print:
+  - 男性
+  - 真是博學啊。
+- wait:
+  - 60
+- print:
+  - 男性
+  - >2-
+
+    咦？
+- wait:
+  - 35
+- print:
+  - 男性
+  - 你想知道那艘船在哪裡？
+- wait:
+  - 65
+- print:
+  - 男性
+  - >2-
+
+    我是無所謂──
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 2
+  - 1
+- fadeout:
+  - 311
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- background:
+  - 500060
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_room_noise_01
+- chara_full:
+  - 101711
+  - C
+  - 1
+- fadein:
+  - 101711
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M107
+  - 0
+  - 0
+  - 0
+  - 0.3
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_005
+- face:
+  - 101711
+  - 1
+- print:
+  - 香織
+  - 啊，
+- wait:
+  - 25
+- print:
+  - 香織
+  - 嗨呵～♪
+- wait:
+  - 35
+- print:
+  - 香織
+  - 歡迎來到【哞哞自衛隊】的公會小屋～♪
+- wait:
+  - 40
+- print:
+  - 香織
+  - >2
+
+- face:
+  - 101711
+  - 2
+- print:
+  - 香織
+  - 我們隨時都很歡迎{0}來喔～
+- wait:
+  - 55
+- print:
+  - 香織
+  - >2
+
+- pop:
+  - 101711
+- se:
+  - se_adv_foley_dance_01
+- print:
+  - 香織
+  - 那我先來表演
+- wait:
+  - 40
+- print:
+  - 香織
+  - 一段舞蹈～♪
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_006
+- face:
+  - 101711
+  - 1
+- print:
+  - 香織
+  - 那個，
+- wait:
+  - 30
+- print:
+  - 香織
+  - 之前很謝謝你喔～？
+- wait:
+  - 50
+- print:
+  - 香織
+  - >2
+
+- face:
+  - 101711
+  - 2
+- print:
+  - 香織
+  - 多虧了{0}，
+- wait:
+  - 25
+- print:
+  - 香織
+  - 我充滿了活力～！
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_007
+- face:
+  - 101711
+  - 6
+- print:
+  - 香織
+  - 啊哈～？
+- wait:
+  - 30
+- print:
+  - 香織
+  - >2-
+
+    怎麼啦～？
+- wait:
+  - 40
+- print:
+  - 香織
+  - 你說現在不是跳舞的時候？
+- wait:
+  - 65
+- print:
+  - 香織
+  - >2
+
+- face:
+  - 101711
+  - 1
+- print:
+  - 香織
+  - 不對，
+- wait:
+  - 30
+- print:
+  - 香織
+  - 跳舞是最重要的事情喔～？
+- touch: *o0
+- choice:
+  - 妳有機會回故鄉了。
+  - 2
+- tag:
+  - 2
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_008
+- face:
+  - 101711
+  - 6
+- emotion:
+  - question1_R
+  - 101711
+  - 100
+  - 515
+  - se_adv_emote_question_01
+- print:
+  - 香織
+  - 咦……？
+- wait:
+  - 30
+- print:
+  - 香織
+  - >2-
+
+    什麼意思啊～？
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_009
+- face:
+  - 101711
+  - 6
+- print:
+  - 香織
+  - 貨品裡有
+- wait:
+  - 50
+- print:
+  - 香織
+  - 來自我故鄉的樂器？
+- wait:
+  - 75
+- print:
+  - 香織
+  - >2-
+
+    運來那個樂器的船
+- wait:
+  - 45
+- print:
+  - 香織
+  - 來到
+- wait:
+  - 20
+- print:
+  - 香織
+  - 這附近了……！？
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_010
+- face:
+  - 101711
+  - 4
+- print:
+  - 香織
+  - 原來如此……
+- wait:
+  - 75
+- print:
+  - 香織
+  - 如果那艘船是來自我的故鄉，
+- wait:
+  - 90
+- print:
+  - 香織
+  - >2
+
+- face:
+  - 101711
+  - 6
+- print:
+  - 香織
+  - 只要請對方讓我搭上那艘船……
+- wait:
+  - 55
+- print:
+  - 香織
+  - 我就能回到故鄉了……？
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_011
+- face:
+  - 101711
+  - 4
+- print:
+  - 香織
+  - …………
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_012
+- face:
+  - 101711
+  - 6
+- print:
+  - 香織
+  - 啊，
+- wait:
+  - 25
+- print:
+  - 香織
+  - 對不起～！
+- wait:
+  - 40
+- print:
+  - 香織
+  - >2-
+
+    我有點驚訝，
+- wait:
+  - 45
+- print:
+  - 香織
+  - 才會出神了～！
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_013
+- face:
+  - 101711
+  - 1
+- nod:
+  - 101711
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 香織
+  - 謝謝你告訴我這件事～！
+- wait:
+  - 60
+- print:
+  - 香織
+  - >2-
+
+    那就趕快
+- wait:
+  - 25
+- print:
+  - 香織
+  - 去找那艘船看看吧～！
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_014
+- face:
+  - 101711
+  - 6
+- print:
+  - 香織
+  - 嗯？
+- wait:
+  - 30
+- print:
+  - 香織
+  - '{0}也願意跟我一起來嗎？'
+- wait:
+  - 80
+- print:
+  - 香織
+  - >2
+
+- face:
+  - 101711
+  - 1
+- print:
+  - 香織
+  - 謝謝你～！
+- wait:
+  - 50
+- print:
+  - 香織
+  - >2-
+
+    有{0}陪著的話，
+- wait:
+  - 25
+- print:
+  - 香織
+  - 我會覺得很放心～♪
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 2
+- fadeout:
+  - 101711
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_room_noise_01
+  - 1
+- background:
+  - 500160
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_seaside_01
+- chara_full:
+  - 101711
+  - C
+  - 2
+- fadein:
+  - 101711
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M246_Ver2
+  - 0
+  - 0
+  - 1
+  - 0.3
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_015
+- face:
+  - 101711
+  - 2
+- print:
+  - 香織
+  - 我們到海邊了～！
+- wait:
+  - 70
+- print:
+  - 香織
+  - >2
+
+- face:
+  - 101711
+  - 1
+- print:
+  - 香織
+  - 我看看喔，
+- wait:
+  - 35
+- print:
+  - 香織
+  - 碼頭是在那邊對吧～！
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_016
+- face:
+  - 101711
+  - 6
+- print:
+  - 香織
+  - 是一艘非常大的船吧～？
+- wait:
+  - 75
+- print:
+  - 香織
+  - >2-
+
+    我看看～
+- wait:
+  - 60
+- print:
+  - 香織
+  - 非常大的船……
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 101711
+  - 30
+- chara_full:
+  - 1411
+  - RC
+  - 1
+- chara_full:
+  - 101711
+  - LC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1017010_017
+- face:
+  - 1411
+  - 1
+- print:
+  - 船長
+  - 那妳肯定是在找我的船吧。
+- wait:
+  - 60
+- print:
+  - 船長
+  - >2
+
+- face:
+  - 1411
+  - 2
+- print:
+  - 船長
+  - 那可是我的搭檔，
+- wait:
+  - 35
+- print:
+  - 船長
+  - 經歷過了無數次的航行喔。
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_018
+- face:
+  - 101711
+  - 6
+- print:
+  - 香織
+  - 喔～？
+- wait:
+  - 40
+- print:
+  - 香織
+  - >2-
+
+    最近
+- wait:
+  - 10
+- print:
+  - 香織
+  - 把奇怪的貨物……
+- wait:
+  - 50
+- print:
+  - 香織
+  - 樂器運來的船隻，
+- wait:
+  - 40
+- print:
+  - 香織
+  - >2-
+
+    就是大叔的船嗎～？
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1017010_019
+- face:
+  - 1411
+  - 1
+- nod:
+  - 1411
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 船長
+  - 嗯，
+- wait:
+  - 10
+- print:
+  - 船長
+  - 沒有錯。
+- wait:
+  - 40
+- print:
+  - 船長
+  - 我不是在自誇，
+- wait:
+  - 25
+- print:
+  - 船長
+  - >2-
+
+    但我的船能夠運送
+- wait:
+  - 35
+- print:
+  - 船長
+  - 其他人沒辦法比擬的貨品。
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1017010_020
+- face:
+  - 1411
+  - 2
+- print:
+  - 船長
+  - 最近也是啊，
+- wait:
+  - 35
+- print:
+  - 船長
+  - 我湊巧抵達了一座相當炎熱又熱鬧的島嶼，
+- wait:
+  - 70
+- print:
+  - 船長
+  - >2-
+
+    在那裡買進了各式各樣的東西！
+- wait:
+  - 60
+- print:
+  - 船長
+  - >2-
+
+    那是個充滿歌曲和舞蹈的
+- wait:
+  - 30
+- print:
+  - 船長
+  - 美好島嶼喔！
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_021
+- face:
+  - 101711
+  - 1
+- print:
+  - 香織
+  - 就是那裡～！
+- wait:
+  - 50
+- print:
+  - 香織
+  - >2-
+
+    不會錯的～
+- wait:
+  - 30
+- print:
+  - 香織
+  - 那裡就是我的故鄉喔～！
+- wait:
+  - 55
+- print:
+  - 香織
+  - >2
+
+- face:
+  - 101711
+  - 2
+- print:
+  - 香織
+  - 那是座日頭十分耀眼的
+- wait:
+  - 35
+- print:
+  - 香織
+  - 美好島嶼，對吧～♪
+- touch: *o0
+- face:
+  - 101711
+  - 1
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1017010_022
+- face:
+  - 1411
+  - 6
+- emotion:
+  - surprise1_L
+  - 1411
+  - 155
+  - 615
+  - se_adv_emote_common_01
+- print:
+  - 船長
+  - 妳說什麼！？
+- wait:
+  - 25
+- print:
+  - 船長
+  - >2-
+
+    小姑娘，
+- wait:
+  - 15
+- print:
+  - 船長
+  - 妳是從那座島過來的嗎？
+- wait:
+  - 50
+- print:
+  - 船長
+  - >2
+
+- face:
+  - 1411
+  - 1
+- print:
+  - 船長
+  - 這還真是千里迢迢啊～！
+- touch: *o0
+- choice:
+  - 但因為回不去，她很傷腦筋。
+  - 3
+- tag:
+  - 3
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1017010_023
+- face:
+  - 1411
+  - 6
+- print:
+  - 船長
+  - 回不去……？
+- wait:
+  - 75
+- print:
+  - 船長
+  - >2
+
+- face:
+  - 1411
+  - 4
+- print:
+  - 船長
+  - 原來如此，
+- wait:
+  - 20
+- print:
+  - 船長
+  - 是這樣啊。
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_024
+- face:
+  - 101711
+  - 6
+- print:
+  - 香織
+  - 所以說啊，
+- wait:
+  - 45
+- print:
+  - 香織
+  - 我想知道，如果這艘船會再去那座島，
+- wait:
+  - 55
+- print:
+  - 香織
+  - >2-
+
+    能不能讓我上船呢……
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1017010_025
+- face:
+  - 1411
+  - 4
+- eye_open:
+  - False
+- print:
+  - 船長
+  - 唔嗯……
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_026
+- face:
+  - 101711
+  - 4
+- print:
+  - 香織
+  - 不可以嗎～？
+- touch: *o0
+- bgm:
+  - stop
+  - 4.8
+  - 1
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1017010_027
+- face:
+  - 1411
+  - 4
+- eye_open:
+  - True
+- print:
+  - 船長
+  - 我是很想讓妳這麼做啦，
+- wait:
+  - 70
+- print:
+  - 船長
+  - >2
+
+- bgm:
+  - bgm_M140_NoBell
+- print:
+  - 船長
+  - 但就像剛才說過的，
+- wait:
+  - 30
+- print:
+  - 船長
+  - 我是湊巧抵達那座島嶼的。
+- wait:
+  - 65
+- print:
+  - 船長
+  - >2-
+
+    那是發生在
+- wait:
+  - 40
+- print:
+  - 船長
+  - 一場漫長航行中的巧合。
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1017010_028
+- face:
+  - 1411
+  - 6
+- print:
+  - 船長
+  - 如果循著同一條航路去找找看，
+- wait:
+  - 45
+- print:
+  - 船長
+  - >2-
+
+    應該就能夠找到……
+- wait:
+  - 65
+- print:
+  - 船長
+  - >2
+
+- face:
+  - 1411
+  - 4
+- print:
+  - 船長
+  - 但我想那恐怕
+- wait:
+  - 20
+- print:
+  - 船長
+  - 得要花上不少時間。
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_029
+- face:
+  - 101711
+  - 6
+- print:
+  - 香織
+  - 大概
+- wait:
+  - 40
+- print:
+  - 香織
+  - 會花上多久的時間……？
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1017010_030
+- face:
+  - 1411
+  - 6
+- print:
+  - 船長
+  - 就算一切順利，
+- wait:
+  - 30
+- print:
+  - 船長
+  - 至少得等四季變換過一輪吧。
+- wait:
+  - 65
+- print:
+  - 船長
+  - >2-
+
+    再說，
+- wait:
+  - 20
+- print:
+  - 船長
+  - 就算抵達了那裡……
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1017010_031
+- face:
+  - 1411
+  - 4
+- print:
+  - 船長
+  - 也不知道
+- wait:
+  - 20
+- print:
+  - 船長
+  - 什麼時候能再回到蘭德索爾這座城鎮。
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_032
+- face:
+  - 101711
+  - 6
+- emotion:
+  - exclamation1_R
+  - 101711
+  - -5
+  - 650
+  - se_adv_emote_common_01
+- print:
+  - 香織
+  - ……！
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1017010_033
+- face:
+  - 1411
+  - 6
+- print:
+  - 船長
+  - 雖然
+- wait:
+  - 25
+- print:
+  - 船長
+  - 我這次像這樣平安地回來了，
+- wait:
+  - 60
+- print:
+  - 船長
+  - >2-
+
+    但坦白說，那片海域有很多魔物，
+- wait:
+  - 45
+- print:
+  - 船長
+  - 我是勉強逃回來的。
+- wait:
+  - 60
+- print:
+  - 船長
+  - >2
+
+- face:
+  - 1411
+  - 4
+- print:
+  - 船長
+  - 也不知道下次能不能和這次一樣順利。
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_034
+- face:
+  - 101711
+  - 4
+- print:
+  - 香織
+  - 要是我走了，
+- wait:
+  - 45
+- print:
+  - 香織
+  - 搞不好就
+- wait:
+  - 15
+- print:
+  - 香織
+  - 回不來了……
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1017010_035
+- face:
+  - 1411
+  - 6
+- print:
+  - 船長
+  - 如果小姑娘有這個決心，
+- wait:
+  - 50
+- print:
+  - 船長
+  - 我就讓妳上船。
+- wait:
+  - 50
+- print:
+  - 船長
+  - >2
+
+- face:
+  - 1411
+  - 1
+- print:
+  - 船長
+  - 畢竟我也
+- wait:
+  - 30
+- print:
+  - 船長
+  - 還想再去那座島看看。
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_036
+- face:
+  - 101711
+  - 4
+- print:
+  - 香織
+  - ……
+- wait:
+  - 30
+- print:
+  - 香織
+  - 一下子就好，
+- wait:
+  - 45
+- print:
+  - 香織
+  - 可以給我一點考慮的時間嗎～？
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1017010_037
+- face:
+  - 1411
+  - 1
+- nod:
+  - 1411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 船長
+  - 當然可以了。
+- wait:
+  - 40
+- print:
+  - 船長
+  - >2-
+
+    我會暫時停泊在這裡，
+- wait:
+  - 45
+- print:
+  - 船長
+  - >2-
+
+    等妳下定決心後
+- wait:
+  - 15
+- print:
+  - 船長
+  - 再過來吧。
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 2
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_seaside_01
+  - 1
+- background:
+  - 500060
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_room_noise_01
+- chara_full:
+  - 101711
+  - C
+  - 4
+- fadein:
+  - 101711
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M377
+  - 0
+  - 0
+  - 1
+  - 0.3
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_038
+- face:
+  - 101711
+  - 4
+- print:
+  - 香織
+  - ……
+- wait:
+  - 40
+- print:
+  - 香織
+  - 真傷腦筋呢。
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_039
+- face:
+  - 101711
+  - 6
+- print:
+  - 香織
+  - 如果搭上那艘船，
+- wait:
+  - 40
+- print:
+  - 香織
+  - >2-
+
+    說不定就能回到故鄉……
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_040
+- face:
+  - 101711
+  - 4
+- print:
+  - 香織
+  - 但那會
+- wait:
+  - 10
+- print:
+  - 香織
+  - 花上很長的時間，
+- wait:
+  - 60
+- print:
+  - 香織
+  - >2-
+
+    也不知道下次什麼時候能再回來……
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_041
+- face:
+  - 101711
+  - 4
+- eye_open:
+  - False
+- print:
+  - 香織
+  - ……我是真的很想念故鄉，
+- wait:
+  - 75
+- print:
+  - 香織
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 香織
+  - 但我也很喜歡蘭德索爾這裡啊～吶～
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_042
+- face:
+  - 101711
+  - 1
+- print:
+  - 香織
+  - 再說，
+- wait:
+  - 30
+- print:
+  - 香織
+  - 【哞哞自衛隊】很照顧我，
+- wait:
+  - 35
+- print:
+  - 香織
+  - >2-
+
+    我還有真步、
+- wait:
+  - 10
+- print:
+  - 香織
+  - 真琴和
+- wait:
+  - 15
+- print:
+  - 香織
+  - 霞……
+- wait:
+  - 35
+- print:
+  - 香織
+  - 她們這些重要的夥伴～
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_043
+- face:
+  - 101711
+  - 5
+- print:
+  - 香織
+  - 最重要的是──
+- touch: *o0
+- choice:
+  - 怎麼了？
+  - 4
+- tag:
+  - 4
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_044
+- face:
+  - 101711
+  - 6
+- print:
+  - 香織
+  - ……
+- wait:
+  - 35
+- nod:
+  - 101711
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 香織
+  - 不，
+- wait:
+  - 20
+- print:
+  - 香織
+  - 沒什麼～！
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_045
+- face:
+  - 101711
+  - 4
+- print:
+  - 香織
+  - 啊哈～
+- wait:
+  - 45
+- print:
+  - 香織
+  - >2-
+
+    想了太多事情，
+- wait:
+  - 40
+- print:
+  - 香織
+  - 都要開始暈頭轉向了啦～
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_046
+- face:
+  - 101711
+  - 6
+- print:
+  - 香織
+  - 我問你，
+- wait:
+  - 30
+- print:
+  - 香織
+  - '{0}覺得我該怎麼做才好？'
+- wait:
+  - 70
+- print:
+  - 香織
+  - >2-
+
+    如果是{0}，
+- wait:
+  - 20
+- print:
+  - 香織
+  - 你會回故鄉嗎～？
+- touch: *o0
+- choice:
+  - 我覺得會回去。
+  - 5
+- choice:
+  - 我不太清楚。
+  - 6
+- tag:
+  - 5
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_047
+- face:
+  - 101711
+  - 4
+- print:
+  - 香織
+  - 這樣啊……
+- wait:
+  - 55
+- eye_open:
+  - False
+- print:
+  - 香織
+  - 我想也是。
+- wait:
+  - 65
+- print:
+  - 香織
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 香織
+  - 也不知道什麼時候還能再遇到下一個機會，
+- wait:
+  - 65
+- print:
+  - 香織
+  - >2-
+
+    我不應該
+- wait:
+  - 5
+- print:
+  - 香織
+  - 錯過這個好時機呢。
+- touch: *o0
+- goto:
+  - 7
+- tag:
+  - 6
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_048
+- face:
+  - 101711
+  - 4
+- print:
+  - 香織
+  - ……
+- wait:
+  - 25
+- print:
+  - 香織
+  - 也對，
+- wait:
+  - 65
+- print:
+  - 香織
+  - 因為你想不起來，
+- wait:
+  - 40
+- print:
+  - 香織
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 香織
+  - 就算跟你提到故鄉，
+- wait:
+  - 25
+- print:
+  - 香織
+  - 也會讓你覺得很困擾吧……
+- wait:
+  - 45
+- print:
+  - 香織
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 香織
+  - 真對不起，
+- wait:
+  - 30
+- print:
+  - 香織
+  - 我問了這麼粗神經的問題～
+- touch: *o0
+- tag:
+  - 7
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_049
+- face:
+  - 101711
+  - 4
+- emotion:
+  - gloomy1_R
+  - 101711
+  - 40
+  - 535
+  - se_adv_emote_gloomy_01
+- print:
+  - 香織
+  - 嗯～
+- wait:
+  - 50
+- print:
+  - 香織
+  - 嗯……
+- wait:
+  - 45
+- print:
+  - 香織
+  - >2-
+
+    明明直到前陣子為止，
+- wait:
+  - 45
+- print:
+  - 香織
+  - 我還在因為想到故鄉而犯思鄉病，
+- wait:
+  - 85
+- print:
+  - 香織
+  - >2-
+
+    在知道或許可以回去後，
+- wait:
+  - 45
+- eye_open:
+  - False
+- print:
+  - 香織
+  - 卻又煩惱了起來……
+- touch: *o0
+- choice:
+  - 只要坦率面對自己的心就好。
+  - 8
+- tag:
+  - 8
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_050
+- face:
+  - 101711
+  - 4
+- eye_open:
+  - True
+- print:
+  - 香織
+  - 啊哈～
+- wait:
+  - 45
+- print:
+  - 香織
+  - '{0}真是個率直的人呢～'
+- wait:
+  - 70
+- print:
+  - 香織
+  - >2
+
+- face:
+  - 101711
+  - 1
+- print:
+  - 香織
+  - 不過，
+- wait:
+  - 30
+- print:
+  - 香織
+  - 那才是最好的做法吧～
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_051
+- face:
+  - 101711
+  - 1
+- nod:
+  - 101711
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 香織
+  - 我知道了。
+- wait:
+  - 30
+- print:
+  - 香織
+  - >2-
+
+    我要向{0}看齊，
+- wait:
+  - 15
+- print:
+  - 香織
+  - 坦率地……
+- wait:
+  - 55
+- print:
+  - 香織
+  - >2-
+
+    順從現在的想法，
+- wait:
+  - 30
+- print:
+  - 香織
+  - 來做出選擇～
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_052
+- face:
+  - 101711
+  - 1
+- eye_open:
+  - False
+- print:
+  - 香織
+  - 我──
+- wait:
+  - 35
+- eye_open:
+  - True
+- print:
+  - 香織
+  - 決定要回故鄉去──
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 2
+  - 1
+- fadeout:
+  - 101711
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_room_noise_01
+  - 1
+- background:
+  - 500160
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_seaside_01
+- chara_full:
+  - 1411
+  - RC
+  - 6
+- chara_full:
+  - 101711
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M20
+  - 0
+  - 0
+  - 0
+  - 0.3
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1017010_053
+- face:
+  - 1411
+  - 6
+- print:
+  - 船長
+  - 喔，
+- wait:
+  - 10
+- print:
+  - 船長
+  - 是之前的小姑娘啊。
+- wait:
+  - 35
+- print:
+  - 船長
+  - >2
+
+- face:
+  - 1411
+  - 1
+- print:
+  - 船長
+  - 妳決定好了嗎？
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_054
+- face:
+  - 101711
+  - 1
+- print:
+  - 香織
+  - 決定好囉～！
+- wait:
+  - 35
+- print:
+  - 香織
+  - >2-
+
+    希望你能讓我搭上這艘船～！
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1017010_055
+- face:
+  - 1411
+  - 6
+- print:
+  - 船長
+  - 這樣啊……
+- wait:
+  - 65
+- face:
+  - 1411
+  - 1
+- nod:
+  - 1411
+- print:
+  - 船長
+  - 我
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 船長
+  - 知道了。
+- wait:
+  - 45
+- print:
+  - 船長
+  - >2-
+
+    這會是很漫長的航程，
+- wait:
+  - 40
+- print:
+  - 船長
+  - 妳有心理準備了吧？
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_056
+- face:
+  - 101711
+  - 2
+- print:
+  - 香織
+  - 沒問題的～！
+- wait:
+  - 50
+- print:
+  - 香織
+  - >2
+
+- face:
+  - 101711
+  - 1
+- print:
+  - 香織
+  - 因為我是海上女兒啊～！
+- wait:
+  - 55
+- print:
+  - 香織
+  - >2-
+
+    我也會好好地
+- wait:
+  - 25
+- print:
+  - 香織
+  - 協助航行的～♪
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1017010_057
+- face:
+  - 1411
+  - 2
+- print:
+  - 船長
+  - 這還真可靠啊！
+- wait:
+  - 55
+- print:
+  - 船長
+  - >2-
+
+    也要問問這位小哥，
+- wait:
+  - 20
+- print:
+  - 船長
+  - 這樣沒問題吧？
+- touch: *o0
+- choice:
+  - 點頭。
+  - 9
+- tag:
+  - 9
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1017010_058
+- face:
+  - 1411
+  - 1
+- print:
+  - 船長
+  - 好。
+- wait:
+  - 25
+- print:
+  - 船長
+  - >2-
+
+    我一定
+- wait:
+  - 25
+- print:
+  - 船長
+  - 會帶小姑娘回到故鄉的。
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1017010_059
+- face:
+  - 1411
+  - 1
+- print:
+  - 船長
+  - 既然都這麼決定了，
+- wait:
+  - 15
+- print:
+  - 船長
+  - 小姑娘，
+- wait:
+  - 30
+- print:
+  - 船長
+  - >2-
+
+    在出航的日子來臨前，
+- wait:
+  - 30
+- print:
+  - 船長
+  - 妳要好好和戀人道別喔。
+- wait:
+  - 60
+- print:
+  - 船長
+  - >2-
+
+    這下可會分開很久呢。
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_060
+- face:
+  - 101711
+  - 6
+- print:
+  - 香織
+  - 咦？
+- wait:
+  - 25
+- print:
+  - 香織
+  - 戀人？
+- touch: *o0
+- bgm:
+  - stop
+  - 3.7
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_061
+- face:
+  - 101711
+  - 6
+- print:
+  - 香織
+  - …………
+- touch: *o0
+- bgm:
+  - bgm_M247
+  - 0
+  - 0
+  - 1
+  - 0.3
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_062
+- face:
+  - 101711
+  - 4
+- emotion:
+  - sweat2_R
+  - 101711
+  - 70
+  - 520
+  - se_adv_emote_sweat_02
+- print:
+  - 香織
+  - 不、
+- wait:
+  - 5
+- print:
+  - 香織
+  - 不不不，
+- wait:
+  - 25
+- print:
+  - 香織
+  - 不是啦～！
+- wait:
+  - 35
+- print:
+  - 香織
+  - >2-
+
+    我跟這個人
+- wait:
+  - 15
+- print:
+  - 香織
+  - 並不是戀人之類的
+- wait:
+  - 25
+- print:
+  - 香織
+  - 那種關係啦～！
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1017010_063
+- face:
+  - 1411
+  - 6
+- print:
+  - 船長
+  - 什麼？
+- wait:
+  - 15
+- print:
+  - 船長
+  - 不是嗎？
+- wait:
+  - 45
+- print:
+  - 船長
+  - >2-
+
+    因為你們之間沒什麼距離感，
+- wait:
+  - 55
+- print:
+  - 船長
+  - 不管怎麼看都……
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_064
+- face:
+  - 101711
+  - 6
+- emotion:
+  - shy1_R
+  - 101711
+  - -110
+  - 475
+  - se_adv_emote_shy_01
+- print:
+  - 香織
+  - ～～～！
+- wait:
+  - 50
+- print:
+  - 香織
+  - >2
+
+- face:
+  - 101711
+  - 4
+- print:
+  - 香織
+  - 超、
+- wait:
+  - 15
+- print:
+  - 香織
+  - 超級不好意思的～！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- chara_full:
+  - 101711
+  - C
+  - 6
+- fadein:
+  - 101711
+  - 30
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_065
+- face:
+  - 101711
+  - 6
+- print:
+  - 香織
+  - ……奇怪？
+- wait:
+  - 45
+- print:
+  - 香織
+  - >2-
+
+    在很久以前，
+- wait:
+  - 30
+- print:
+  - 香織
+  - 也有人說過我們是戀人之類的～
+- wait:
+  - 70
+- print:
+  - 香織
+  - >2-
+
+    但比起之前，
+- wait:
+  - 20
+- print:
+  - 香織
+  - 我怎麼好像……
+- wait:
+  - 60
+- face:
+  - 101711
+  - 4
+- print:
+  - 香織
+  - 覺得更害臊……
+- wait:
+  - 75
+- print:
+  - 香織
+  - 這是為什麼呢～
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_066
+- face:
+  - 101711
+  - 4
+- print:
+  - 香織
+  - 我以前
+- wait:
+  - 25
+- print:
+  - 香織
+  - 明明就
+- wait:
+  - 30
+- print:
+  - 香織
+  - 不太常出現這種不好意思的感覺啊……
+- wait:
+  - 80
+- print:
+  - 香織
+  - >2-
+
+    感覺好奇怪喔～
+- wait:
+  - 85
+- print:
+  - 香織
+  - 加快的心跳
+- wait:
+  - 40
+- print:
+  - 香織
+  - 就像是在速彈一樣～！　
+- touch: *o0
+- choice:
+  - 偷看表情。
+  - 10
+- tag:
+  - 10
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- fadeout:
+  - 101711
+  - 30
+- se:
+  - se_adv_cloth_move_give_01
+- camera_zoom:
+  - 1.3
+  - 15
+- chara_full:
+  - 101711
+  - C
+  - 6
+- fadein:
+  - 101711
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_067
+- face:
+  - 101711
+  - 6
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 香織
+  - 呀！？
+- shake:
+  - 101711
+- wait:
+  - 5
+- print:
+  - 香織
+  - >2
+
+- face:
+  - 101711
+  - 4
+- print:
+  - 香織
+  - 你、
+- wait:
+  - 10
+- print:
+  - 香織
+  - 你不要看我啦～！
+- touch: *o0
+- focus:
+  - 101711
+- bust:
+  - 101711
+  - 0
+- vo:
+  - vo_adv_1017010_068
+- face:
+  - 101711
+  - 4
+- eye_open:
+  - False
+- print:
+  - 香織
+  - 啊嗚～
+- wait:
+  - 80
+- eye_open:
+  - True
+- print:
+  - 香織
+  - 我搞不懂──
+- wait:
+  - 45
+- print:
+  - 香織
+  - 這種感覺啦～！
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_step_dirt_run_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 101711
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 對未知的情感感到困惑，讓香織逃離了現場。
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    之後追上去的{0}
+- wait:
+  - 15
+- print:
+  - 旁白
+  - 和她一起在整座城鎮裡跑來跑去的。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 1
+  - 1
+- se_pause:
+  - amb_adv_seaside_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

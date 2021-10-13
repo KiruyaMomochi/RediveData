@@ -1,0 +1,4203 @@
+- title:
+  - 美冬（工作服） 第1話
+- outline:
+  - 美冬上班的玩具工廠同時發生人手不足與接獲大量訂單的情況，陷入嚴重危機。美冬藉著提升整座工廠的效率，度過了這次的難關，工作表現備受好評的她因而被任命為領班。
+- background:
+  - 501340
+- se:
+  - amb_adv_factory_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 太過可靠的戰力
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 勤於打工而正在當貨運的{0}
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    為了送貨，來到了某座工廠。
+- touch: &o0 []
+- window_visible:
+  - false
+- se:
+  - se_adv_door_chime_01
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 1
+- vo:
+  - vo_adv_1169001_000
+- face:
+  - 116911
+  - 1
+- print:
+  - 美冬
+  - 是──
+- wait:
+  - 25
+- print:
+  - 美冬
+  - 可以稍等我一下嗎──？
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 116911
+  - LC
+  - 1
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 30
+- fadein:
+  - 116911
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M479
+  - 0
+  - 0
+  - 1
+  - 0.4
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_001
+- face:
+  - 116911
+  - 6
+- print:
+  - 美冬
+  - 哎呀，
+- wait:
+  - 25
+- print:
+  - 美冬
+  - 這不是{0}嗎？
+- wait:
+  - 25
+- print:
+  - 美冬
+  - >2
+
+- face:
+  - 116911
+  - 1
+- print:
+  - 美冬
+  - 你怎麼會來這裡？
+- touch: *o0
+- choice:
+  - 我來送貨。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_002
+- face:
+  - 116911
+  - 2
+- print:
+  - 美冬
+  - 啊，
+- wait:
+  - 25
+- print:
+  - 美冬
+  - 你在做貨運的工作啊。
+- wait:
+  - 35
+- print:
+  - 美冬
+  - >2-
+
+    辛苦你了。
+- touch: *o0
+- choice:
+  - 妳在這裡打工嗎？
+  - 2
+- tag:
+  - 2
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_003
+- face:
+  - 116911
+  - 1
+- nod:
+  - 116911
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 美冬
+  - 嗯，
+- wait:
+  - 20
+- print:
+  - 美冬
+  - 是在不久前開始的。
+- wait:
+  - 35
+- print:
+  - 美冬
+  - >2-
+
+    我在這座工廠
+- wait:
+  - 15
+- print:
+  - 美冬
+  - 製作以小孩子為客群的玩具。
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_004
+- face:
+  - 116911
+  - 2
+- print:
+  - 美冬
+  - 你還記得嗎？
+- wait:
+  - 30
+- print:
+  - 美冬
+  - 我之前曾經和你一起
+- wait:
+  - 25
+- print:
+  - 美冬
+  - 參與那個讓度假村重生的事業。
+- wait:
+  - 30
+- print:
+  - 美冬
+  - >2-
+
+    在盛夏的海灘上尋找食材，
+- wait:
+  - 40
+- print:
+  - 美冬
+  - 挖掘溫泉……
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_005
+- face:
+  - 116911
+  - 1
+- print:
+  - 美冬
+  - 那時候
+- wait:
+  - 25
+- print:
+  - 美冬
+  - 還做了好像能當成吉祥物的布偶不是嗎？
+- wait:
+  - 45
+- print:
+  - 美冬
+  - >2-
+
+    就是在舔舔療程中使用到的
+- wait:
+  - 25
+- print:
+  - 美冬
+  - 舔舔魚……
+- touch: *o0
+- choice:
+  - 舔舔娃娃？
+  - 3
+- tag:
+  - 3
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_006
+- face:
+  - 116911
+  - 2
+- nod:
+  - 116911
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 美冬
+  - 對！
+- wait:
+  - 25
+- print:
+  - 美冬
+  - 製造出那個舔舔娃娃的
+- wait:
+  - 35
+- print:
+  - 美冬
+  - 就是這座玩具工廠喔。
+- wait:
+  - 55
+- print:
+  - 美冬
+  - >2
+
+- face:
+  - 116911
+  - 1
+- print:
+  - 美冬
+  - 我剛好看到徵求打工人員的公告，
+- wait:
+  - 40
+- print:
+  - 美冬
+  - >2-
+
+    在應徵後
+- wait:
+  - 20
+- print:
+  - 美冬
+  - 就受到他們的聘僱了。
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_007
+- face:
+  - 116911
+  - 6
+- print:
+  - 美冬
+  - 啊……
+- wait:
+  - 25
+- print:
+  - 美冬
+  - 現在沒時間像這樣跟你聊呢。
+- wait:
+  - 40
+- print:
+  - 美冬
+  - >2
+
+- face:
+  - 116911
+  - 1
+- print:
+  - 美冬
+  - 那麼，
+- wait:
+  - 10
+- print:
+  - 美冬
+  - 可以請你把貨搬到倉庫嗎？
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_008
+- face:
+  - 116911
+  - 1
+- print:
+  - 美冬
+  - 我來帶路。
+- wait:
+  - 40
+- print:
+  - 美冬
+  - >2-
+
+    要小心機械和腳下的纜線喔。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 116911
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_factory_01
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_factory_01
+- chara_full:
+  - 116911
+  - C
+  - 6
+- fadein:
+  - 116911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_009
+- face:
+  - 116911
+  - 6
+- nod:
+  - 116911
+- se:
+  - se_adv_box_drop_01
+- print:
+  - 美冬
+  - 嘿喲……
+- wait:
+  - 30
+- print:
+  - 美冬
+  - 呼！
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_010
+- face:
+  - 116911
+  - 1
+- print:
+  - 美冬
+  - 這就是所有的貨了吧。
+- wait:
+  - 55
+- print:
+  - 美冬
+  - 數量也沒有問題。
+- wait:
+  - 60
+- print:
+  - 美冬
+  - >2-
+
+    在這裡
+- wait:
+  - 10
+- print:
+  - 美冬
+  - 簽收就可以了嗎？
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 1
+- vo:
+  - vo_adv_1169001_011
+- face:
+  - 1411
+  - 4
+- print:
+  - ？？？
+  - 嗯……
+- wait:
+  - 25
+- print:
+  - ？？？
+  - 該怎麼辦……
+- wait:
+  - 25
+- print:
+  - ？？？
+  - >2-
+
+    該怎麼做才好呢……
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_012
+- face:
+  - 116911
+  - 6
+- emotion:
+  - notice1_L
+  - 116911
+  - -55
+  - 530
+  - se_adv_emote_common_01
+- print:
+  - 美冬
+  - 咦？
+- wait:
+  - 25
+- print:
+  - 美冬
+  - 這個聲音是……
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- fadeout:
+  - 116911
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 116911
+  - L
+  - 6
+- chara_full:
+  - 1411
+  - RC
+  - 4
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - true
+- bgm:
+  - bgm_M203
+  - 0
+  - 0
+  - 0
+  - 0.4
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_013
+- face:
+  - 116911
+  - 6
+- print:
+  - 美冬
+  - 工廠長？
+- wait:
+  - 30
+- print:
+  - 美冬
+  - 你在找什麼東西嗎？
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1169001_014
+- face:
+  - 1411
+  - 6
+- print:
+  - 工廠長
+  - 美冬……
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_015
+- face:
+  - 116911
+  - 6
+- print:
+  - 美冬
+  - 你來這裡是
+- wait:
+  - 15
+- print:
+  - 美冬
+  - 怎麼了？
+- wait:
+  - 35
+- print:
+  - 美冬
+  - >2
+
+- face:
+  - 116911
+  - 3
+- print:
+  - 美冬
+  - 是想不到接下來要製作的新商品的企劃嗎？
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1169001_016
+- face:
+  - 1411
+  - 6
+- print:
+  - 工廠長
+  - 不、
+- wait:
+  - 25
+- nod:
+  - 1411
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 工廠長
+  - 不是不是！
+- wait:
+  - 20
+- print:
+  - 工廠長
+  - >2-
+
+    雖然我的確是想不到企劃的點子……
+- wait:
+  - 25
+- print:
+  - 工廠長
+  - >2
+
+- face:
+  - 1411
+  - 4
+- print:
+  - 工廠長
+  - 但我是有～點
+- wait:
+  - 15
+- print:
+  - 工廠長
+  - 別的問題想找人談談啦。
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1169001_017
+- face:
+  - 1411
+  - 4
+- print:
+  - 工廠長
+  - 嗯～
+- wait:
+  - 20
+- print:
+  - 工廠長
+  - 直接讓妳看應該比較快吧……？
+- wait:
+  - 45
+- print:
+  - 工廠長
+  - >2
+
+- face:
+  - 1411
+  - 6
+- print:
+  - 工廠長
+  - 抱歉，
+- wait:
+  - 10
+- print:
+  - 工廠長
+  - 妳可以
+- wait:
+  - 10
+- print:
+  - 工廠長
+  - 跟我一起去那邊的生產線一下嗎？
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - R
+  - RC
+  - 30
+- change:
+  - C
+  - LC
+  - 30
+- bgm:
+  - stop
+  - 2
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 1011
+  - LC
+  - 1
+- chara_full:
+  - 311
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M129_Ver2_NoB
+  - 0
+  - 0
+  - 1
+  - 0.4
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1169001_018
+- face:
+  - 311
+  - 4
+- print:
+  - 職員1
+  - 印刷完成了，
+- wait:
+  - 45
+- print:
+  - 職員1
+  - 但這要
+- wait:
+  - 20
+- print:
+  - 職員1
+  - 搬去哪裡才好！？
+- wait:
+  - 40
+- print:
+  - 職員1
+  - >2
+
+- face:
+  - 311
+  - 6
+- print:
+  - 職員1
+  - 唔喔，
+- shake:
+  - 311
+- wait:
+  - 5
+- print:
+  - 職員1
+  - 因、
+- wait:
+  - 20
+- print:
+  - 職員1
+  - 因為太重……
+- wait:
+  - 35
+- print:
+  - 職員1
+  - 快、
+- wait:
+  - 15
+- print:
+  - 職員1
+  - 快失去平衡了……
+- touch: *o0
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_1169001_019
+- face:
+  - 1011
+  - 6
+- emotion:
+  - exclamation1_R
+  - 1011
+  - 5
+  - 700
+  - se_adv_emote_common_01
+- print:
+  - 職員2
+  - 笨蛋，
+- wait:
+  - 10
+- print:
+  - 職員2
+  - 不是往這邊！
+- wait:
+  - 5
+- print:
+  - 職員2
+  - 也不是那邊！
+- wait:
+  - 5
+- print:
+  - 職員2
+  - >2-
+
+    嗚哇────！！
+- touch: *o0
+- window_visible:
+  - false
+- focus:
+  - 311:1011
+- se:
+  - se_adv_crash_furniture_02
+- shake_screen: *o0
+- se:
+  - se_adv_bodyfall_02
+- updown:
+  - 1011
+  - 0
+  - -150
+  - 0.2
+- updown:
+  - 311
+  - 0
+  - -150
+  - 0.2
+- fadeout_all:
+  - 30
+- chara_full:
+  - 116911
+  - LC
+  - 6
+- chara_full:
+  - 1411
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- choice:
+  - 大家好忙。
+  - 4
+- tag:
+  - 4
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_020
+- face:
+  - 116911
+  - 6
+- print:
+  - 美冬
+  - 這究竟是……
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1169001_021
+- face:
+  - 1411
+  - 4
+- print:
+  - 工廠長
+  - 哎呀～
+- wait:
+  - 10
+- print:
+  - 工廠長
+  - 是因為熟識的
+- wait:
+  - 25
+- print:
+  - 工廠長
+  - 批發商剛剛來過，
+- wait:
+  - 25
+- print:
+  - 工廠長
+  - >2-
+
+    我們跟他接了一筆大訂單。
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1169001_022
+- face:
+  - 1411
+  - 6
+- print:
+  - 工廠長
+  - 只不過……
+- wait:
+  - 15
+- print:
+  - 工廠長
+  - 問題在於訂單的量。
+- wait:
+  - 55
+- print:
+  - 工廠長
+  - >2
+
+- face:
+  - 1411
+  - 4
+- print:
+  - 工廠長
+  - 坦白說，
+- wait:
+  - 25
+- print:
+  - 工廠長
+  - 我們的生產速度完全來不及啊。
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_023
+- face:
+  - 116911
+  - 6
+- print:
+  - 美冬
+  - 工廠長，
+- wait:
+  - 25
+- print:
+  - 美冬
+  - 可以讓我看看那張訂單嗎？
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_paper_move_06
+- nod:
+  - 116911
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_024
+- face:
+  - 116911
+  - 6
+- print:
+  - 美冬
+  - 原來如此，
+- wait:
+  - 45
+- print:
+  - 美冬
+  - 如果要在這個日期交出這麼多的貨，
+- wait:
+  - 65
+- print:
+  - 美冬
+  - >2-
+
+    會有點辛苦呢。
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_025
+- face:
+  - 116911
+  - 1
+- print:
+  - 美冬
+  - 但
+- wait:
+  - 15
+- print:
+  - 美冬
+  - 如果是在這個範圍內，
+- wait:
+  - 25
+- print:
+  - 美冬
+  - 只要提升工廠的運作率，
+- wait:
+  - 45
+- print:
+  - 美冬
+  - >2-
+
+    在時間安排上應該可以算是綽綽有餘吧？
+- wait:
+  - 50
+- print:
+  - 美冬
+  - >2
+
+- face:
+  - 116911
+  - 4
+- print:
+  - 美冬
+  - 雖然大概會需要加點班。
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_026
+- face:
+  - 116911
+  - 6
+- emotion:
+  - notice1_L
+  - 116911
+  - -55
+  - 530
+  - se_adv_emote_common_01
+- print:
+  - 美冬
+  - 咦？
+- wait:
+  - 25
+- print:
+  - 美冬
+  - 說到這個，今天休假的人還真多呢。
+- wait:
+  - 55
+- print:
+  - 美冬
+  - >2-
+
+    是發生了什麼事情嗎？
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1169001_027
+- face:
+  - 1411
+  - 6
+- print:
+  - 工廠長
+  - 妳回想一下，
+- wait:
+  - 20
+- print:
+  - 工廠長
+  - 我們這陣子不是一直都很忙嗎？
+- wait:
+  - 35
+- print:
+  - 工廠長
+  - >2-
+
+    大家埋頭工作到都沒放假，對吧？
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_028
+- face:
+  - 116911
+  - 6
+- nod:
+  - 116911
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 美冬
+  - 是這樣沒錯。
+- wait:
+  - 40
+- print:
+  - 美冬
+  - 我會來這裡應徵，
+- wait:
+  - 40
+- print:
+  - 美冬
+  - >2-
+
+    也是因為看到了「徵求打工人員！！
+- wait:
+  - 15
+- print:
+  - 美冬
+  - 熱烈招募即時戰力！！」
+- wait:
+  - 25
+- print:
+  - 美冬
+  - 的
+- wait:
+  - 5
+- print:
+  - 美冬
+  - 宣傳單。
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1169001_029
+- face:
+  - 1411
+  - 1
+- print:
+  - 工廠長
+  - 是啊。
+- wait:
+  - 30
+- print:
+  - 工廠長
+  - 我也曾經拜託妳連續多天來上班，
+- wait:
+  - 40
+- print:
+  - 工廠長
+  - >2
+
+- face:
+  - 1411
+  - 2
+- print:
+  - 工廠長
+  - 剛進工廠的美冬
+- wait:
+  - 20
+- print:
+  - 工廠長
+  - 真的幫了我們很多忙啊，
+- wait:
+  - 40
+- print:
+  - 工廠長
+  - >2
+
+- face:
+  - 1411
+  - 1
+- print:
+  - 工廠長
+  - 甚至也有請妳來支援文書工作。
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_030
+- face:
+  - 116911
+  - 1
+- print:
+  - 美冬
+  - 嗯，因為我有在公會幫忙過一些，
+- wait:
+  - 55
+- print:
+  - 美冬
+  - >2-
+
+    那都在我能做到的範圍內。
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1169001_031
+- face:
+  - 1411
+  - 6
+- print:
+  - 工廠長
+  - 所以說啊，
+- wait:
+  - 25
+- print:
+  - 工廠長
+  - 我覺得大家應該都累了吧……
+- wait:
+  - 40
+- print:
+  - 工廠長
+  - >2-
+
+    就讓各位職員
+- wait:
+  - 25
+- print:
+  - 工廠長
+  - 放了假。
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_032
+- face:
+  - 116911
+  - 6
+- nod:
+  - 116911
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 美冬
+  - 啊，
+- wait:
+  - 40
+- print:
+  - 美冬
+  - 所以今天才會有很多人休假啊。
+- wait:
+  - 60
+- print:
+  - 美冬
+  - >2
+
+- face:
+  - 116911
+  - 1
+- print:
+  - 美冬
+  - 但如果是這樣的話，
+- wait:
+  - 20
+- print:
+  - 美冬
+  - 把明天以後的排班表調整好後應該也完全來得及──
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1169001_033
+- face:
+  - 1411
+  - 6
+- print:
+  - 工廠長
+  - 不，
+- wait:
+  - 25
+- print:
+  - 工廠長
+  - 他們明天不會來喔。
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_034
+- face:
+  - 116911
+  - 6
+- print:
+  - 美冬
+  - 明天不會來？
+- wait:
+  - 45
+- face:
+  - 116911
+  - 1
+- print:
+  - 美冬
+  - 那就從後天開始……
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1169001_035
+- face:
+  - 1411
+  - 4
+- print:
+  - 工廠長
+  - 大家要半個月後
+- wait:
+  - 40
+- print:
+  - 工廠長
+  - 才會回來。
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_036
+- face:
+  - 116911
+  - 2
+- print:
+  - 美冬
+  - 原來如此，
+- wait:
+  - 20
+- print:
+  - 美冬
+  - 是這樣啊，
+- wait:
+  - 15
+- print:
+  - 美冬
+  - 那就從半個月後……
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 3
+- text_size:
+  - 40
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 1
+  - 1
+- bgm:
+  - bgm_M274
+  - 0
+  - 0
+  - 0
+  - 2.4
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_037
+- face:
+  - 116911
+  - 6
+- emotion:
+  - surprise1_L
+  - 116911
+  - 150
+  - 505
+  - se_adv_emote_common_01
+- print:
+  - 美冬
+  - 半、
+- wait:
+  - 20
+- print:
+  - 美冬
+  - 半個月後！？
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- window_visible:
+  - true
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1169001_038
+- face:
+  - 1411
+  - 4
+- print:
+  - 工廠長
+  - 嗯，
+- wait:
+  - 15
+- print:
+  - 工廠長
+  - 有人說要去幫忙父母的工作，
+- wait:
+  - 20
+- print:
+  - 工廠長
+  - 有人說要考試，
+- wait:
+  - 20
+- print:
+  - 工廠長
+  - >2-
+
+    也有人說想去遠一點的地方旅行……
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_039
+- face:
+  - 116911
+  - 6
+- print:
+  - 美冬
+  - 那麼，
+- wait:
+  - 25
+- print:
+  - 美冬
+  - 就是只能靠目前在這裡的人撐到半個月後嗎？
+- wait:
+  - 65
+- print:
+  - 美冬
+  - >2
+
+- face:
+  - 116911
+  - 4
+- print:
+  - 美冬
+  - 呃……
+- wait:
+  - 55
+- face:
+  - 116911
+  - 6
+- print:
+  - 美冬
+  - 我確認一下，
+- wait:
+  - 30
+- print:
+  - 美冬
+  - >2-
+
+    熟識的批發商指定的交貨日期是……
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1169001_040
+- face:
+  - 1411
+  - 4
+- eye_open:
+  - False
+- print:
+  - 工廠長
+  - ……
+- wait:
+  - 35
+- eye_open:
+  - True
+- print:
+  - 工廠長
+  - 剛好就是
+- wait:
+  - 25
+- print:
+  - 工廠長
+  - 在半個月後呢。
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_041
+- face:
+  - 116911
+  - 4
+- emotion:
+  - gloomy1_R
+  - 116911
+  - 40
+  - 495
+  - se_adv_emote_gloomy_01
+- print:
+  - 美冬
+  - 我、
+- wait:
+  - 20
+- print:
+  - 美冬
+  - 我的頭開始痛了……
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1169001_042
+- face:
+  - 1411
+  - 6
+- print:
+  - 工廠長
+  - 我也知道拒絕對方會比較好……
+- wait:
+  - 35
+- print:
+  - 工廠長
+  - >2
+
+- face:
+  - 1411
+  - 4
+- print:
+  - 工廠長
+  - 但下訂單的批發商
+- wait:
+  - 25
+- print:
+  - 工廠長
+  - 幫助過我們好幾次，
+- wait:
+  - 50
+- print:
+  - 工廠長
+  - >2-
+
+    在我們的經營狀況不佳時伸出了援手。
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1169001_043
+- face:
+  - 1411
+  - 3
+- nod:
+  - 1411
+- print:
+  - 工廠長
+  - 所以
+- wait:
+  - 15
+- print:
+  - 工廠長
+  - 我才會希望能換成由我們來幫忙。
+- wait:
+  - 55
+- print:
+  - 工廠長
+  - >2
+
+- face:
+  - 1411
+  - 4
+- print:
+  - 工廠長
+  - ……但是
+- wait:
+  - 30
+- print:
+  - 工廠長
+  - 卻剛好撞上了大家休假的時期。
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_044
+- face:
+  - 116911
+  - 6
+- print:
+  - 美冬
+  - 如果是這麼大的訂單，
+- wait:
+  - 35
+- print:
+  - 美冬
+  - >2-
+
+    應該要花上一段時間才能聯繫上相關的各個企業……
+- wait:
+  - 60
+- print:
+  - 美冬
+  - >2
+
+- face:
+  - 116911
+  - 4
+- print:
+  - 美冬
+  - 就算現在再來談判，
+- wait:
+  - 20
+- print:
+  - 美冬
+  - 大概也沒辦法調整交貨日期。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 116911
+  - C
+  - 6
+- fadein:
+  - 116911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_045
+- face:
+  - 116911
+  - 6
+- print:
+  - 美冬
+  - 這是本來就很需要人手的大訂單，
+- wait:
+  - 45
+- print:
+  - 美冬
+  - >2-
+
+    勞動力卻完完全全不夠，
+- wait:
+  - 50
+- print:
+  - 美冬
+  - 交貨日期還近在咫尺。
+- wait:
+  - 55
+- print:
+  - 美冬
+  - >2
+
+- face:
+  - 116911
+  - 2
+- print:
+  - 美冬
+  - ……呵呵呵，
+- wait:
+  - 40
+- print:
+  - 美冬
+  - 這反而讓人覺得有趣起來了啊。
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_046
+- face:
+  - 116911
+  - 4
+- print:
+  - 美冬
+  - 不過，
+- wait:
+  - 25
+- print:
+  - 美冬
+  - 依現在的情況，就算太陽從西邊升起也沒辦法準時交貨呢。
+- wait:
+  - 65
+- print:
+  - 美冬
+  - >2
+
+- face:
+  - 116911
+  - 6
+- print:
+  - 美冬
+  - 既然如此……
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_047
+- face:
+  - 116911
+  - 6
+- nod:
+  - 116911
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 美冬
+  - ……我問你，
+- wait:
+  - 10
+- print:
+  - 美冬
+  - 你今天的最後一份送貨工作就是來我們這裡對吧？
+- wait:
+  - 55
+- print:
+  - 美冬
+  - >2-
+
+    可以把你明天以後
+- wait:
+  - 20
+- print:
+  - 美冬
+  - 所有有空的時間告訴我嗎？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 116911
+  - 30
+- chara_full:
+  - 116911
+  - LC
+  - 1
+- chara_full:
+  - 1411
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_048
+- face:
+  - 116911
+  - 1
+- print:
+  - 美冬
+  - 所以說，
+- wait:
+  - 5
+- print:
+  - 美冬
+  - 工廠長，
+- wait:
+  - 25
+- print:
+  - 美冬
+  - >2-
+
+    我希望你能多聘一個人
+- wait:
+  - 25
+- print:
+  - 美冬
+  - 來當新的打工人員，
+- wait:
+  - 35
+- print:
+  - 美冬
+  - >2-
+
+    應該沒關係吧？
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1169001_049
+- face:
+  - 1411
+  - 6
+- print:
+  - 工廠長
+  - 嗯，
+- wait:
+  - 20
+- print:
+  - 工廠長
+  - 我是沒關係啦……
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+- fadeout_all:
+  - 30
+- se_pause:
+  - amb_adv_factory_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- se:
+  - amb_adv_factory_01
+- chara_full:
+  - 116911
+  - C
+  - 2
+- fadein:
+  - 116911
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M12
+  - 0
+  - 0
+  - 1
+  - 0.4
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_050
+- face:
+  - 116911
+  - 2
+- nod:
+  - 116911
+- print:
+  - 美冬
+  - 事情就是這樣，
+- wait:
+  - 15
+- print:
+  - 美冬
+  - 我們臨時請這個人來幫忙了！
+- wait:
+  - 40
+- print:
+  - 美冬
+  - >2
+
+- face:
+  - 116911
+  - 1
+- print:
+  - 美冬
+  - 來，
+- wait:
+  - 10
+- print:
+  - 美冬
+  - '{0}，跟大家打個招呼。'
+- touch: *o0
+- se:
+  - se_adv_cloth_move_give_01
+- choice:
+  - 請大家多多指教！
+  - 5
+- tag:
+  - 5
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_051
+- face:
+  - 116911
+  - 1
+- print:
+  - 美冬
+  - 好，
+- wait:
+  - 5
+- print:
+  - 美冬
+  - 打完招呼了！
+- wait:
+  - 30
+- print:
+  - 美冬
+  - >2-
+
+    那麼各位，
+- wait:
+  - 10
+- print:
+  - 美冬
+  - 我們快來開始工作吧！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 116911
+  - 30
+- se_pause:
+  - amb_adv_factory_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- se:
+  - amb_adv_factory_01
+- chara_full:
+  - 116911
+  - LC
+  - 1
+- chara_full:
+  - 311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1169001_052
+- face:
+  - 311
+  - 6
+- print:
+  - 職員1
+  - ……美冬，
+- wait:
+  - 30
+- print:
+  - 職員1
+  - >2-
+
+    為什麼我們現在要
+- wait:
+  - 25
+- print:
+  - 職員1
+  - 整理工廠？
+- wait:
+  - 45
+- print:
+  - 職員1
+  - >2
+
+- face:
+  - 311
+  - 4
+- print:
+  - 職員1
+  - 比起這種事情，
+- wait:
+  - 25
+- print:
+  - 職員1
+  - 不是應該趕快來製作商品嗎……
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_053
+- face:
+  - 116911
+  - 1
+- nod:
+  - 116911
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 美冬
+  - 嗯，
+- wait:
+  - 30
+- print:
+  - 美冬
+  - 你們就當這是提前了一些的大掃除吧。
+- wait:
+  - 65
+- print:
+  - 美冬
+  - >2
+
+- face:
+  - 116911
+  - 6
+- print:
+  - 美冬
+  - ……我這樣說
+- wait:
+  - 10
+- print:
+  - 美冬
+  - 好像解釋得太籠統了啊。
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_054
+- face:
+  - 116911
+  - 1
+- print:
+  - 美冬
+  - 我們現在該優先處理的事情，
+- wait:
+  - 40
+- print:
+  - 美冬
+  - >2-
+
+    就是讓工廠的工作
+- wait:
+  - 30
+- print:
+  - 美冬
+  - 從頭到尾都能
+- wait:
+  - 25
+- print:
+  - 美冬
+  - 進行得順暢無阻。
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_055
+- face:
+  - 116911
+  - 1
+- nod:
+  - 116911
+- print:
+  - 美冬
+  - 所以才要收好
+- wait:
+  - 20
+- print:
+  - 美冬
+  - 用不到的器材，
+- wait:
+  - 30
+- print:
+  - 美冬
+  - >2-
+
+    為了更流暢地搬運貨品
+- wait:
+  - 30
+- print:
+  - 美冬
+  - 而增加新的動線，
+- wait:
+  - 35
+- print:
+  - 美冬
+  - >2-
+
+    整理出方便大家行動的環境。
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_056
+- face:
+  - 116911
+  - 4
+- print:
+  - 美冬
+  - 坦白說，為了這些事情耗費時間
+- wait:
+  - 30
+- print:
+  - 美冬
+  - 的確是有些慘痛的損失……
+- wait:
+  - 40
+- print:
+  - 美冬
+  - >2
+
+- face:
+  - 116911
+  - 1
+- print:
+  - 美冬
+  - 但只要快點做完這件事，
+- wait:
+  - 25
+- print:
+  - 美冬
+  - 之後的效率就能相對地提升。
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1169001_057
+- face:
+  - 311
+  - 6
+- print:
+  - 職員1
+  - 啊～
+- wait:
+  - 25
+- print:
+  - 職員1
+  - 原來如此……
+- touch: *o0
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 1
+- vo:
+  - vo_adv_1169001_058
+- face:
+  - 1011
+  - 1
+- print:
+  - 職員2
+  - 這邊的機械
+- wait:
+  - 10
+- print:
+  - 職員2
+  - 調整完畢囉～！
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_059
+- face:
+  - 116911
+  - 2
+- nod:
+  - 116911
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 美冬
+  - 謝謝～！
+- wait:
+  - 40
+- print:
+  - 美冬
+  - >2
+
+- face:
+  - 116911
+  - 6
+- print:
+  - 美冬
+  - 再來只要重新接好這個管子，
+- wait:
+  - 50
+- print:
+  - 美冬
+  - 再按下開關……
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_switch_large_01
+- se:
+  - se_adv_roller_coaster_02
+- nod:
+  - 116911
+- se_pause:
+  - se_adv_roller_coaster_02
+  - 5
+- wait:
+  - 15
+- window_visible:
+  - true
+- choice:
+  - 好像沒問題呢。
+  - 6
+- tag:
+  - 6
+- window_visible:
+  - false
+- fadeout:
+  - 311
+  - 30
+- chara_full:
+  - 1411
+  - R
+  - 2
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - R
+  - 45
+- fadein:
+  - 1411
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1169001_060
+- face:
+  - 1411
+  - 2
+- print:
+  - 工廠長
+  - 喂～
+- wait:
+  - 15
+- print:
+  - 工廠長
+  - 美冬，
+- wait:
+  - 30
+- print:
+  - 工廠長
+  - >2-
+
+    妳剛才交出的
+- wait:
+  - 20
+- print:
+  - 工廠長
+  - 改善業務提案
+- wait:
+  - 35
+- print:
+  - 工廠長
+  - 真厲害！
+- wait:
+  - 45
+- print:
+  - 工廠長
+  - >2-
+
+    上面寫滿了我沒想過的點子啊。
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_061
+- face:
+  - 116911
+  - 2
+- nod:
+  - 116911
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 美冬
+  - 那真是太好了。
+- wait:
+  - 40
+- print:
+  - 美冬
+  - >2-
+
+    我們也正好把管線整理完了。
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1169001_062
+- face:
+  - 1411
+  - 6
+- emotion:
+  - exclamation1_R
+  - 1411
+  - 10
+  - 715
+  - se_adv_emote_common_01
+- print:
+  - 工廠長
+  - 咦～！
+- wait:
+  - 15
+- print:
+  - 工廠長
+  - 已經整理完了！？
+- wait:
+  - 25
+- print:
+  - 工廠長
+  - >2-
+
+    但你們不是才剛開始嗎……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 116911
+  - 30
+- chara_full:
+  - 311
+  - LC
+  - 2
+- fadein:
+  - 311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1169001_063
+- face:
+  - 311
+  - 2
+- print:
+  - 職員1
+  - 工廠長，
+- wait:
+  - 40
+- print:
+  - 職員1
+  - 美冬好厲害啊。
+- wait:
+  - 45
+- print:
+  - 職員1
+  - >2-
+
+    她在轉眼之間也把機械調整完畢了。
+- wait:
+  - 45
+- print:
+  - 職員1
+  - >2
+
+- face:
+  - 311
+  - 1
+- print:
+  - 職員1
+  - 剛才也測試過讓機器運轉，
+- wait:
+  - 25
+- print:
+  - 職員1
+  - 好像沒問題。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 116911
+  - C
+  - 1
+- fadein:
+  - 116911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_064
+- face:
+  - 116911
+  - 1
+- nod:
+  - 116911
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 美冬
+  - 好，
+- wait:
+  - 20
+- print:
+  - 美冬
+  - 完成生產線的調整了。
+- wait:
+  - 40
+- print:
+  - 美冬
+  - >2-
+
+    這樣終於能
+- wait:
+  - 20
+- print:
+  - 美冬
+  - 重新開始製造了呢。
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_065
+- face:
+  - 116911
+  - 2
+- print:
+  - 美冬
+  - 各位，
+- wait:
+  - 10
+- print:
+  - 美冬
+  - 準備好了嗎？
+- wait:
+  - 25
+- print:
+  - 美冬
+  - 我們一開始就要拿出最快的速度喔！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+  - 1
+- fadeout:
+  - 116911
+  - 30
+- se_pause:
+  - amb_adv_factory_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- se:
+  - amb_adv_factory_01
+- chara_full:
+  - 116911
+  - C
+  - 3
+- fadein:
+  - 116911
+  - 30
+- text_size:
+  - 35
+- window_visible:
+  - true
+- se:
+  - se_adv_move_fast_02
+- bgm:
+  - bgm_M481
+  - 0
+  - 0
+  - 0
+  - 0.4
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_066
+- face:
+  - 116911
+  - 3
+- effect:
+  - 9
+- print:
+  - 美冬
+  - 嘿呀────！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 23
+- fadeout:
+  - 116911
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 311
+  - RC
+  - 6
+- chara_full:
+  - 1011
+  - LC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1169001_067
+- face:
+  - 311
+  - 6
+- emotion:
+  - surprise1_L
+  - 311
+  - 160
+  - 610
+  - se_adv_emote_common_01
+- print:
+  - 職員1
+  - 什、
+- wait:
+  - 20
+- print:
+  - 職員1
+  - 什麼！？
+- wait:
+  - 25
+- print:
+  - 職員1
+  - 那條生產線超乎尋常的速度是……！
+- wait:
+  - 45
+- print:
+  - 職員1
+  - >2-
+
+    輸送帶上運送的玩具零件
+- wait:
+  - 20
+- print:
+  - 職員1
+  - 就像是瀑布一樣……！
+- touch: *o0
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_1169001_068
+- face:
+  - 1011
+  - 6
+- print:
+  - 職員2
+  - 好、
+- wait:
+  - 20
+- print:
+  - 職員2
+  - 好快……
+- wait:
+  - 30
+- print:
+  - 職員2
+  - 她用那幾乎看不清楚動作的速度，
+- wait:
+  - 25
+- print:
+  - 職員2
+  - >2-
+
+    接二連三地在轉眼之間完成了玩具的組裝……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 116911
+  - C
+  - 1
+- fadein:
+  - 116911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_069
+- face:
+  - 116911
+  - 1
+- nod:
+  - 116911
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 美冬
+  - 好，
+- wait:
+  - 5
+- print:
+  - 美冬
+  - 組裝好一百個了！
+- wait:
+  - 10
+- print:
+  - 美冬
+  - 時間呢？
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 1
+- vo:
+  - vo_adv_1169001_070
+- face:
+  - 311
+  - 6
+- print:
+  - 職員1
+  - 十、
+- wait:
+  - 25
+- print:
+  - 職員1
+  - 十二點九秒。
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_071
+- face:
+  - 116911
+  - 2
+- emotion:
+  - twinkle1_R
+  - 116911
+  - -95
+  - 470
+  - se_adv_emote_twinkle_01
+- print:
+  - 美冬
+  - 嗯，
+- wait:
+  - 5
+- print:
+  - 美冬
+  - 狀況不錯呢！
+- wait:
+  - 35
+- print:
+  - 美冬
+  - >2-
+
+    我也暖身完畢了，
+- wait:
+  - 40
+- print:
+  - 美冬
+  - 要再提升速度囉！
+- touch: *o0
+- se:
+  - se_adv_move_fast_02
+- choice:
+  - 完成了！
+  - 7
+- tag:
+  - 7
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_072
+- face:
+  - 116911
+  - 6
+- print:
+  - 美冬
+  - 居然能跟上我的步調，
+- wait:
+  - 40
+- face:
+  - 116911
+  - 2
+- print:
+  - 美冬
+  - 你真厲害呢！
+- wait:
+  - 45
+- print:
+  - 美冬
+  - >2-
+
+    組裝工作的關鍵就在於速度！
+- wait:
+  - 45
+- print:
+  - 美冬
+  - 來，
+- wait:
+  - 10
+- print:
+  - 美冬
+  - 把下一份零件給我吧！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 116911
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 311
+  - RC
+  - 6
+- chara_full:
+  - 1011
+  - LC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1169001_073
+- face:
+  - 311
+  - 6
+- print:
+  - 職員1
+  - 工廠的生產線速度是有極限的……
+- wait:
+  - 45
+- print:
+  - 職員1
+  - >2-
+
+    這是因為不管生產線再怎麼完備，
+- wait:
+  - 40
+- print:
+  - 職員1
+  - 能夠製造再多的零件，
+- wait:
+  - 40
+- print:
+  - 職員1
+  - >2-
+
+    人類的組裝速度還是趕不上……
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1169001_074
+- face:
+  - 311
+  - 3
+- nod:
+  - 311
+- print:
+  - 職員1
+  - 但這也代表了
+- wait:
+  - 25
+- print:
+  - 職員1
+  - 決定其速度極限的人就是組裝者。
+- wait:
+  - 50
+- print:
+  - 職員1
+  - >2
+
+- face:
+  - 311
+  - 6
+- print:
+  - 職員1
+  - 那個超乎常理的生產線速度，
+- wait:
+  - 30
+- print:
+  - 職員1
+  - >2-
+
+    證明了
+- wait:
+  - 20
+- print:
+  - 職員1
+  - 美冬的能力就是這麼的優秀……！
+- touch: *o0
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_1169001_075
+- face:
+  - 1011
+  - 6
+- print:
+  - 職員2
+  - 不過，
+- wait:
+  - 20
+- print:
+  - 職員2
+  - 我是已經很清楚美冬的厲害之處了，
+- wait:
+  - 50
+- print:
+  - 職員2
+  - >2-
+
+    但你究竟是何方神聖啊……？
+- wait:
+  - 40
+- print:
+  - 職員2
+  - >2-
+
+    居然能夠跟上那個速度……
+- touch: *o0
+- choice:
+  - 我只是個短期打工的。
+  - 8
+- choice:
+  - 我是美冬的徒弟。
+  - 9
+- tag:
+  - 8
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_1169001_076
+- face:
+  - 1011
+  - 2
+- print:
+  - 職員2
+  - 不管你是短期打工的還是什麼都沒差，
+- wait:
+  - 20
+- print:
+  - 職員2
+  - 你幫了個大忙啊！
+- wait:
+  - 25
+- print:
+  - 職員2
+  - >2-
+
+    我們工廠居然有兩個這麼可靠的戰力！
+- touch: *o0
+- goto:
+  - 10
+- tag:
+  - 9
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_1169001_077
+- face:
+  - 1011
+  - 6
+- print:
+  - 職員2
+  - 美冬的徒弟……？
+- wait:
+  - 50
+- print:
+  - 職員2
+  - >2
+
+- face:
+  - 1011
+  - 2
+- print:
+  - 職員2
+  - 那難怪
+- wait:
+  - 10
+- print:
+  - 職員2
+  - 你會這麼厲害了。
+- touch: *o0
+- tag:
+  - 10
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1169001_078
+- face:
+  - 311
+  - 2
+- nod:
+  - 311
+- se:
+  - se_adv_step_concrete_move_01
+- print:
+  - 職員1
+  - 不能一直把事情都丟給他們兩個！
+- wait:
+  - 40
+- print:
+  - 職員1
+  - >2-
+
+    我們也來加入組裝工作吧！
+- touch: *o0
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_1169001_079
+- face:
+  - 1011
+  - 4
+- print:
+  - 職員2
+  - 可是啊，
+- wait:
+  - 35
+- print:
+  - 職員2
+  - 就算說要加入組裝工作……
+- wait:
+  - 45
+- print:
+  - 職員2
+  - >2-
+
+    我們怎麼可能跟得上那個怪物般的速度……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se_pause:
+  - amb_adv_factory_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- se:
+  - amb_adv_factory_01
+- chara_full:
+  - 311
+  - RC
+  - 6
+- chara_full:
+  - 1011
+  - LC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_1169001_080
+- face:
+  - 1011
+  - 6
+- emotion:
+  - question1_R
+  - 1011
+  - 110
+  - 550
+  - se_adv_emote_question_01
+- print:
+  - 職員2
+  - 好奇怪……
+- wait:
+  - 35
+- print:
+  - 職員2
+  - 我
+- wait:
+  - 15
+- print:
+  - 職員2
+  - 為什麼跟得上啊？
+- wait:
+  - 40
+- print:
+  - 職員2
+  - >2-
+
+    我的工作速度提升了嗎……！？
+- touch: *o0
+- focus:
+  - 1011
+- bust:
+  - 1011
+  - 0
+- vo:
+  - vo_adv_1169001_081
+- face:
+  - 1011
+  - 6
+- print:
+  - 職員2
+  - 做起來順手得可怕……
+- wait:
+  - 50
+- print:
+  - 職員2
+  - 每個動作都不會遇到任何阻礙。
+- wait:
+  - 35
+- print:
+  - 職員2
+  - >2-
+
+    這個工作過程順暢得有如行雲流水的感覺……
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1169001_082
+- face:
+  - 311
+  - 6
+- print:
+  - 職員1
+  - 整理好工廠的環境，
+- wait:
+  - 45
+- print:
+  - 職員1
+  - 以及提升生產線的速度，
+- wait:
+  - 30
+- print:
+  - 職員1
+  - >2-
+
+    都是為了達到這個效果嗎……！
+- wait:
+  - 45
+- print:
+  - 職員1
+  - >2
+
+- face:
+  - 311
+  - 2
+- print:
+  - 職員1
+  - 工廠長，
+- wait:
+  - 30
+- print:
+  - 職員1
+  - 以這個速度行得通喔！
+- wait:
+  - 35
+- face:
+  - 311
+  - 3
+- se:
+  - se_adv_move_fast_02
+- print:
+  - 職員1
+  - 唔喔喔喔喔──！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 116911
+  - LC
+  - 2
+- chara_full:
+  - 1411
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_083
+- face:
+  - 116911
+  - 2
+- print:
+  - 美冬
+  - 嗯，
+- wait:
+  - 25
+- print:
+  - 美冬
+  - 大家的生產效率也漸漸提升了呢！
+- wait:
+  - 45
+- print:
+  - 美冬
+  - >2-
+
+    如果照這個步調……
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_084
+- face:
+  - 116911
+  - 2
+- nod:
+  - 116911
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 美冬
+  - 工廠長，
+- wait:
+  - 25
+- print:
+  - 美冬
+  - 請把生產線的速度
+- wait:
+  - 20
+- print:
+  - 美冬
+  - 再拉高一個階段！
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1169001_085
+- face:
+  - 1411
+  - 6
+- emotion:
+  - surprise1_L
+  - 1411
+  - 155
+  - 615
+  - se_adv_emote_common_01
+- print:
+  - 工廠長
+  - 咦～！？
+- wait:
+  - 30
+- print:
+  - 工廠長
+  - 現在設定的速度已經很快了，
+- wait:
+  - 45
+- print:
+  - 工廠長
+  - 這樣沒問題嗎！？
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_086
+- face:
+  - 116911
+  - 2
+- print:
+  - 美冬
+  - 可以！
+- wait:
+  - 20
+- print:
+  - 美冬
+  - 你也跟上我的速度！
+- wait:
+  - 40
+- print:
+  - 美冬
+  - >2-
+
+    要跟大家默契十足地互相配合！
+- touch: *o0
+- choice:
+  - 我知道了！
+  - 11
+- tag:
+  - 11
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 116911
+  - C
+  - 2
+- fadein:
+  - 116911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_087
+- face:
+  - 116911
+  - 2
+- print:
+  - 美冬
+  - 就用這個步調
+- wait:
+  - 25
+- print:
+  - 美冬
+  - 一路衝到底吧！
+- wait:
+  - 45
+- print:
+  - 美冬
+  - >2
+
+- face:
+  - 116911
+  - 3
+- se:
+  - se_adv_move_fast_02
+- print:
+  - 美冬
+  - 喝呀────！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+- fadeout:
+  - 116911
+  - 30
+- se_pause:
+  - amb_adv_factory_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- se:
+  - amb_adv_factory_01
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 幾天後──
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 116911
+  - LC
+  - 1
+- chara_full:
+  - 1411
+  - RC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M33
+  - 0
+  - 0
+  - 1
+  - 0.4
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1169001_088
+- face:
+  - 1411
+  - 2
+- nod:
+  - 1411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 工廠長
+  - 各位，
+- wait:
+  - 10
+- print:
+  - 工廠長
+  - 謝謝你們～！
+- wait:
+  - 25
+- print:
+  - 工廠長
+  - >2-
+
+    剛才順利交貨了。
+- wait:
+  - 35
+- print:
+  - 工廠長
+  - 批發商也很開心喔～！
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1169001_089
+- face:
+  - 1411
+  - 1
+- print:
+  - 工廠長
+  - 尤其是美冬，
+- wait:
+  - 20
+- print:
+  - 工廠長
+  - 再怎麼感謝妳都不夠啊。
+- wait:
+  - 50
+- print:
+  - 工廠長
+  - >2-
+
+    因為要是沒有美冬，
+- wait:
+  - 20
+- print:
+  - 工廠長
+  - 我們就趕不上了……
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_090
+- face:
+  - 116911
+  - 1
+- print:
+  - 美冬
+  - 那真是太好了……
+- wait:
+  - 55
+- print:
+  - 美冬
+  - >2
+
+- face:
+  - 116911
+  - 6
+- print:
+  - 美冬
+  - 我是很想這麼說，
+- wait:
+  - 25
+- print:
+  - 美冬
+  - 但是，工廠長？
+- wait:
+  - 30
+- print:
+  - 美冬
+  - >2
+
+- face:
+  - 116911
+  - 2
+- print:
+  - 美冬
+  - 從下次起，要仔細確認過時間安排再來接單喔。
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1169001_091
+- face:
+  - 1411
+  - 4
+- nod:
+  - 1411
+- print:
+  - 工廠長
+  - 知道了～
+- wait:
+  - 40
+- face:
+  - 1411
+  - 6
+- print:
+  - 工廠長
+  - 那個，
+- wait:
+  - 25
+- print:
+  - 工廠長
+  - 所以說啊？
+- wait:
+  - 20
+- print:
+  - 工廠長
+  - >2-
+
+    我有事情
+- wait:
+  - 15
+- print:
+  - 工廠長
+  - 想拜託美冬……
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1169001_092
+- face:
+  - 1411
+  - 6
+- print:
+  - 工廠長
+  - 能不能請妳來當我們工廠的打工領班？
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_093
+- face:
+  - 116911
+  - 6
+- emotion:
+  - question1_R
+  - 116911
+  - 130
+  - 450
+  - se_adv_emote_question_01
+- print:
+  - 美冬
+  - 你說……
+- wait:
+  - 30
+- print:
+  - 美冬
+  - 打工領班嗎？
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1169001_094
+- face:
+  - 1411
+  - 1
+- nod:
+  - 1411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 工廠長
+  - 嗯，
+- wait:
+  - 25
+- print:
+  - 工廠長
+  - 畢竟美冬這次的工作表現相當出色……
+- wait:
+  - 45
+- print:
+  - 工廠長
+  - >2-
+
+    而且
+- wait:
+  - 20
+- print:
+  - 工廠長
+  - 大家好像也都很信任妳。
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1169001_095
+- face:
+  - 1411
+  - 2
+- print:
+  - 工廠長
+  - 當然了，
+- wait:
+  - 20
+- print:
+  - 工廠長
+  - 如果妳願意當打工領班的話，
+- wait:
+  - 20
+- print:
+  - 工廠長
+  - >2-
+
+    會再給妳額外的打工領班獎金，
+- wait:
+  - 30
+- print:
+  - 工廠長
+  - 也會增加妳的基本時薪喔～
+- wait:
+  - 40
+- print:
+  - 工廠長
+  - >2-
+
+    所以說，
+- wait:
+  - 15
+- print:
+  - 工廠長
+  - 妳覺得怎麼樣？
+- touch: *o0
+- bgm:
+  - stop
+  - 4
+  - 1
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_096
+- face:
+  - 116911
+  - 6
+- print:
+  - 美冬
+  - 提升時薪和追加獎金……！
+- wait:
+  - 75
+- print:
+  - 美冬
+  - >2
+
+- bgm:
+  - bgm_M122
+- print:
+  - 美冬
+  - ……我順便問一下，
+- wait:
+  - 15
+- print:
+  - 美冬
+  - 時薪部分大概會提升多少呢？
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1169001_097
+- face:
+  - 1411
+  - 6
+- print:
+  - 工廠長
+  - 呃，
+- wait:
+  - 15
+- print:
+  - 工廠長
+  - 這個嘛～
+- wait:
+  - 35
+- print:
+  - 工廠長
+  - >2
+
+- nod:
+  - 1411
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 工廠長
+  - 窸窸窣窣……
+- wait:
+  - 35
+- print:
+  - 工廠長
+  - 我想應該差不多是這樣，
+- wait:
+  - 35
+- print:
+  - 工廠長
+  - 妳覺得呢？
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_098
+- face:
+  - 116911
+  - 6
+- print:
+  - 美冬
+  - 既然如此……
+- wait:
+  - 20
+- nod:
+  - 116911
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 美冬
+  - 窸窸窣窣……
+- wait:
+  - 30
+- print:
+  - 美冬
+  - >2
+
+- nod:
+  - 116911
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 美冬
+  - 窸窸窣窣……
+- wait:
+  - 10
+- print:
+  - 美冬
+  - 也
+- wait:
+  - 10
+- print:
+  - 美冬
+  - 讓我來負責，
+- wait:
+  - 30
+- print:
+  - 美冬
+  - 就提高成大概這樣……
+- wait:
+  - 25
+- print:
+  - 美冬
+  - >2-
+
+    如果沒辦法的話……
+- wait:
+  - 30
+- face:
+  - 116911
+  - 2
+- print:
+  - 美冬
+  - 啊，
+- wait:
+  - 15
+- print:
+  - 美冬
+  - 可以嗎？
+- wait:
+  - 30
+- print:
+  - 美冬
+  - 那就
+- wait:
+  - 5
+- print:
+  - 美冬
+  - 決定是這個條件了。
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_099
+- face:
+  - 116911
+  - 2
+- eye_open:
+  - False
+- print:
+  - 美冬
+  - 嗯嗯。
+- wait:
+  - 40
+- eye_open:
+  - True
+- print:
+  - 美冬
+  - 那麼，
+- wait:
+  - 20
+- print:
+  - 美冬
+  - 我就鄭重地接下
+- wait:
+  - 20
+- print:
+  - 美冬
+  - 打工領班這個職位了。
+- wait:
+  - 45
+- print:
+  - 美冬
+  - >2-
+
+    各位，
+- wait:
+  - 15
+- print:
+  - 美冬
+  - 以後也要請你們多多指教了！
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1169001_100
+- face:
+  - 1411
+  - 1
+- print:
+  - 工廠長
+  - 另外，
+- wait:
+  - 15
+- print:
+  - 工廠長
+  - 在美冬的介紹下，
+- wait:
+  - 25
+- print:
+  - 工廠長
+  - >2-
+
+    他也正式以
+- wait:
+  - 35
+- print:
+  - 工廠長
+  - 新進打工人員的身分加入我們了～！
+- wait:
+  - 35
+- print:
+  - 工廠長
+  - 請各位鼓掌！
+- touch: *o0
+- se:
+  - se_adv_handclap_02
+- choice:
+  - 大家好，我是新進的打工人員。
+  - 12
+- tag:
+  - 12
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1169001_101
+- face:
+  - 1411
+  - 2
+- print:
+  - 工廠長
+  - 那麼，
+- wait:
+  - 10
+- print:
+  - 工廠長
+  - 美冬，
+- wait:
+  - 20
+- print:
+  - 工廠長
+  - >2-
+
+    作為妳當上打工領班的第一份工作……
+- wait:
+  - 25
+- print:
+  - 工廠長
+  - >2-
+
+    可以請妳來主持早會嗎？
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+- fadeout_all:
+  - 30
+- chara_full:
+  - 116911
+  - C
+  - 1
+- fadein:
+  - 116911
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M478
+  - 0
+  - 0
+  - 1
+  - 0.4
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_102
+- face:
+  - 116911
+  - 1
+- nod:
+  - 116911
+- se:
+  - se_adv_step_concrete_move_01
+- print:
+  - 美冬
+  - 我想想──
+- wait:
+  - 15
+- print:
+  - 美冬
+  - 各位，
+- wait:
+  - 20
+- print:
+  - 美冬
+  - 早安！
+- wait:
+  - 30
+- print:
+  - 美冬
+  - >2-
+
+    我是新打工領班
+- wait:
+  - 30
+- print:
+  - 美冬
+  - 美冬。
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_103
+- face:
+  - 116911
+  - 2
+- print:
+  - 美冬
+  - 工作宗旨是
+- wait:
+  - 20
+- print:
+  - 美冬
+  - 零事故、
+- wait:
+  - 20
+- print:
+  - 美冬
+  - 無傷亡、
+- wait:
+  - 20
+- print:
+  - 美冬
+  - 效率全開！
+- wait:
+  - 35
+- print:
+  - 美冬
+  - >2-
+
+    今天也請各位帶著
+- wait:
+  - 25
+- print:
+  - 美冬
+  - 這股氣魄來工作吧！
+- touch: *o0
+- focus:
+  - 116911
+- bust:
+  - 116911
+  - 0
+- vo:
+  - vo_adv_1169001_104
+- face:
+  - 116911
+  - 1
+- print:
+  - 美冬
+  - 那麼────
+- wait:
+  - 20
+- face:
+  - 116911
+  - 2
+- print:
+  - 美冬
+  - 今天也要請大家
+- wait:
+  - 20
+- print:
+  - 美冬
+  - 多多指教了！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1169001_105
+- face:
+  - 1
+  - 1
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 工作人員們
+  - 喔喔────！！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 116911
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 成為打工領班的美冬發下號令，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    職員們回應她的聲音響徹了工廠。
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1
+  - 1
+- se_pause:
+  - amb_adv_factory_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

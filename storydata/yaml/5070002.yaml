@@ -1,0 +1,6270 @@
+- title:
+  - 跟姐姐一起捉蟲
+- outline:
+  - 一行人按照靜流的計畫前往夜晚的森林抓獨角仙。他們和偶然碰見的七七香與杏奈一起捕捉到長得像獨角仙的巨大魔物，但魔物小孩們挺身保護親人的舉動令一行人十分感動，最後決定放了牠們。
+- background:
+  - 500361
+- se:
+  - amb_adv_room_noise_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 跟姐姐一起捉蟲
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 暑假的某天早上。
+- wait:
+  - 30
+- print:
+  - 旁白
+  - >2-
+
+    預料之外的訪客，
+- wait:
+  - 30
+- print:
+  - 旁白
+  - >2-
+
+    讓{0}從睡夢中清醒過來。
+- wait:
+  - 15
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 104914
+  - LC
+  - 2
+- chara_full:
+  - 102711
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M329
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_5070002_000
+- face:
+  - 104914
+  - 2
+- print:
+  - 靜流
+  - 早安～
+- wait:
+  - 45
+- print:
+  - 靜流
+  - >2-
+
+    是姐姐喲～
+- touch: *o0
+- face:
+  - 104914
+  - 5
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_001
+- face:
+  - 102711
+  - 2
+- print:
+  - 惠理子
+  - 嘻嘻……
+- wait:
+  - 55
+- print:
+  - 惠理子
+  - >2-
+
+    能看到{0}大人睡眼惺忪的模樣，我好幸福……
+- wait:
+  - 95
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 1
+- print:
+  - 惠理子
+  - 這正是
+- wait:
+  - 35
+- print:
+  - 惠理子
+  - 所謂早起的鳥兒有蟲吃呢。
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- choice:
+  - 妳們怎麼會在這……？
+  - 1
+- tag:
+  - 1
+- bgm:
+  - bgm_M190
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_5070002_002
+- face:
+  - 104914
+  - 5
+- print:
+  - 靜流
+  - 我是來找弟弟參加早晨廣播體操的！
+- wait:
+  - 50
+- print:
+  - 靜流
+  - >2
+
+- face:
+  - 104914
+  - 2
+- print:
+  - 靜流
+  - 暑假不只要享受玩樂，
+- wait:
+  - 40
+- print:
+  - 靜流
+  - 還要注意健康喔！
+- touch: *o0
+- choice:
+  - 計畫書上是有寫啦……
+  - 3
+- tag:
+  - 3
+- face:
+  - 104914
+  - 5
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_003
+- face:
+  - 102711
+  - 4
+- print:
+  - 惠理子
+  - 我其實很想一直欣賞您的睡臉，
+- wait:
+  - 105
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 1
+- print:
+  - 惠理子
+  - 不過為了您的健康著想，
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 還是把您叫醒了。
+- touch: *o0
+- choice:
+  - 妳們怎麼會跑進我家裡……
+  - 5
+- tag:
+  - 5
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_5070002_004
+- face:
+  - 104914
+  - 2
+- nod:
+  - 104914
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 靜流
+  - 好了好了，
+- wait:
+  - 30
+- print:
+  - 靜流
+  - 你不用在意小事，
+- wait:
+  - 25
+- print:
+  - 靜流
+  - 我們快走吧！
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_room_noise_01
+  - 1
+- background:
+  - 500390
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_town_day_01
+- bgm:
+  - bgm_M250_End
+  - 0
+  - 0
+  - 1
+  - 0.5
+- chara_full:
+  - 104914
+  - LC
+  - 5
+- chara_full:
+  - 102711
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_5070002_005
+- face:
+  - 104914
+  - 5
+- print:
+  - 靜流
+  - 用力轉動肩膀並深呼吸～
+- wait:
+  - 85
+- print:
+  - 靜流
+  - >2
+
+- eye_open:
+  - False
+- bgm:
+  - stop
+  - 6
+  - 1
+- print:
+  - 靜流
+  - 吸～
+- wait:
+  - 45
+- nod:
+  - 104914
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 靜流
+  - 吐～
+- wait:
+  - 55
+- eye_open:
+  - True
+- print:
+  - 靜流
+  - 好，
+- wait:
+  - 15
+- print:
+  - 靜流
+  - 就到這裡結束。
+- wait:
+  - 30
+- print:
+  - 靜流
+  - >2
+
+- face:
+  - 104914
+  - 2
+- print:
+  - 靜流
+  - 一大早就活動身體很舒服對吧！
+- touch: *o0
+- face:
+  - 104914
+  - 5
+- bgm:
+  - bgm_M493
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_006
+- face:
+  - 102711
+  - 2
+- print:
+  - 惠理子
+  - 能一早就跟您在一起，我好幸福……
+- wait:
+  - 95
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 1
+- print:
+  - 惠理子
+  - 今後也繼續做早晨廣播體操
+- wait:
+  - 50
+- print:
+  - 惠理子
+  - 直到永遠吧。
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5070002_007
+- face:
+  - 1
+  - 1
+- print:
+  - 小孩１
+  - 啊～
+- wait:
+  - 15
+- print:
+  - 小孩１
+  - 結束了結束了。
+- wait:
+  - 50
+- print:
+  - 小孩１
+  - >2-
+
+    我們快點來鬥獨角仙吧！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5070002_008
+- face:
+  - 1
+  - 1
+- print:
+  - 小孩２
+  - 我這次可不會輸了！
+- wait:
+  - 35
+- print:
+  - 小孩２
+  - >2-
+
+    因為我昨天跟我爸
+- wait:
+  - 25
+- print:
+  - 小孩２
+  - 抓到了很大隻的！
+- touch: *o0
+- choice:
+  - 獨角仙……！
+  - 7
+- tag:
+  - 7
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- focus:
+  - 104914:102711
+- face:
+  - 104914
+  - 6
+- face:
+  - 102711
+  - 6
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_009
+- face:
+  - 102711
+  - 6
+- emotion:
+  - exclamation1_R
+  - 102711
+  - -3
+  - 635
+  - se_adv_emote_common_01
+- print:
+  - 惠理子
+  - '{0}大人！'
+- wait:
+  - 40
+- print:
+  - 惠理子
+  - >2-
+
+    比起跟我在一起的時間，
+- wait:
+  - 35
+- print:
+  - 惠理子
+  - 您更在乎那些蟲子嗎……！？
+- touch: *o0
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_5070002_010
+- face:
+  - 104914
+  - 2
+- print:
+  - 靜流
+  - 別激動別激動，惠理子。
+- wait:
+  - 30
+- print:
+  - 靜流
+  - >2-
+
+    獨角仙是男孩子的浪漫，有那種反應是很正常的。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5070002_011
+- face:
+  - 1
+  - 1
+- print:
+  - 小孩１
+  - 嗯？
+- wait:
+  - 30
+- print:
+  - 小孩１
+  - 大哥哥你怎麼了？
+- wait:
+  - 45
+- print:
+  - 小孩１
+  - >2-
+
+    你也想鬥獨角仙嗎？
+- wait:
+  - 55
+- print:
+  - 小孩１
+  - >2-
+
+    呃，
+- wait:
+  - 35
+- print:
+  - 小孩１
+  - 你手上沒有獨角仙耶。
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5070002_012
+- face:
+  - 1
+  - 1
+- print:
+  - 小孩２
+  - 不然
+- wait:
+  - 15
+- print:
+  - 小孩２
+  - 你也可以一起玩了說～
+- touch: *o0
+- choice:
+  - 好想一起玩……
+  - 9
+- tag:
+  - 9
+- window_visible:
+  - false
+- chara_full:
+  - 104914
+  - LC
+  - 6
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 104914
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_5070002_013
+- face:
+  - 104914
+  - 6
+- print:
+  - 靜流
+  - '{0}，'
+- wait:
+  - 20
+- print:
+  - 靜流
+  - 你想要獨角仙？
+- touch: *o0
+- choice:
+  - 想。
+  - 11
+- tag:
+  - 11
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_5070002_014
+- face:
+  - 104914
+  - 2
+- print:
+  - 靜流
+  - 那我們
+- wait:
+  - 15
+- print:
+  - 靜流
+  - 現在去捉吧！
+- wait:
+  - 25
+- print:
+  - 靜流
+  - >2-
+
+    畢竟捉獨角仙
+- wait:
+  - 15
+- print:
+  - 靜流
+  - 也是暑假的經典活動嘛！
+- touch: *o0
+- face:
+  - 104914
+  - 5
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5070002_015
+- face:
+  - 1
+  - 1
+- print:
+  - 小孩１
+  - 妳是在說什麼啊。
+- wait:
+  - 40
+- print:
+  - 小孩１
+  - >2-
+
+    你們就算現在去捉也已經太晚囉？
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5070002_016
+- face:
+  - 1
+  - 1
+- print:
+  - 小孩２
+  - 對啊對啊。
+- wait:
+  - 25
+- print:
+  - 小孩２
+  - 如果有事先放陷阱倒是還好。
+- wait:
+  - 35
+- print:
+  - 小孩２
+  - >2-
+
+    獨角仙要晚上比較好捉喔。
+- touch: *o0
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_5070002_017
+- face:
+  - 104914
+  - 6
+- emotion:
+  - question1_R
+  - 104914
+  - 90
+  - 540
+  - se_adv_emote_question_01
+- print:
+  - 靜流
+  - 咦？
+- wait:
+  - 10
+- print:
+  - 靜流
+  - 是嗎？
+- wait:
+  - 20
+- print:
+  - 靜流
+  - >2
+
+- face:
+  - 104914
+  - 5
+- print:
+  - 靜流
+  - 那我們
+- wait:
+  - 15
+- print:
+  - 靜流
+  - 先準備好道具，等晚上再去捉吧！
+- wait:
+  - 30
+- print:
+  - 靜流
+  - >2-
+
+    就讓我們一起捕捉最強的獨角仙吧！
+- touch: *o0
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_5070002_018
+- face:
+  - 104914
+  - 2
+- nod:
+  - 104914
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 靜流
+  - 姐姐會定好完美的計畫，
+- wait:
+  - 25
+- print:
+  - 靜流
+  - 你就好好期待吧！
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+- window_visible:
+  - false
+- fadeout:
+  - 104914
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- background:
+  - 500172
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_outdoors_night_01
+- chara_full:
+  - 104914
+  - LC
+  - 5
+- chara_full:
+  - 102711
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M140_NoBell
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_019
+- face:
+  - 102711
+  - 6
+- print:
+  - 惠理子
+  - 原來如此。
+- wait:
+  - 45
+- print:
+  - 惠理子
+  - >2-
+
+    這座森林
+- wait:
+  - 35
+- print:
+  - 惠理子
+  - 確實像是會有很勇猛的獵物呢。
+- touch: *o0
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_5070002_020
+- face:
+  - 104914
+  - 2
+- nod:
+  - 104914
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 靜流
+  - 對吧對吧！
+- wait:
+  - 25
+- print:
+  - 靜流
+  - 畢竟我有好好調查過了。
+- wait:
+  - 35
+- print:
+  - 靜流
+  - >2
+
+- face:
+  - 104914
+  - 4
+- print:
+  - 靜流
+  - 不過也有人說
+- wait:
+  - 25
+- print:
+  - 靜流
+  - 這座森林也會出現獨角仙以外的東西呢～
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_021
+- face:
+  - 102711
+  - 6
+- print:
+  - 惠理子
+  - 這麼說來，
+- wait:
+  - 40
+- print:
+  - 惠理子
+  - 我好像聽說過這座森林有什麼問題……
+- wait:
+  - 120
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 4
+- print:
+  - 惠理子
+  - 似乎會有死於非命的女幽靈，
+- wait:
+  - 65
+- print:
+  - 惠理子
+  - >2-
+
+    每晚在森林裡徘徊云云……
+- touch: *o0
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_5070002_022
+- face:
+  - 104914
+  - 5
+- print:
+  - 靜流
+  - 可是，
+- wait:
+  - 20
+- print:
+  - 靜流
+  - 如果有那種傳聞的話，
+- wait:
+  - 25
+- print:
+  - 靜流
+  - 應該也不會有人來吧，
+- wait:
+  - 20
+- print:
+  - 靜流
+  - >2-
+
+    這樣應該能捉到很多隻獨角仙。
+- touch: *o0
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_5070002_023
+- face:
+  - 104914
+  - 6
+- print:
+  - 靜流
+  - 如果觀察大量的獨角仙，
+- wait:
+  - 35
+- print:
+  - 靜流
+  - >2-
+
+    應該也能拿來當成自由研究的題材吧？
+- wait:
+  - 45
+- print:
+  - 靜流
+  - >2
+
+- face:
+  - 104914
+  - 5
+- print:
+  - 靜流
+  - 不只可以玩樂，
+- wait:
+  - 20
+- print:
+  - 靜流
+  - 還能順便完成作業喔！
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_024
+- face:
+  - 102711
+  - 1
+- nod:
+  - 102711
+- print:
+  - 惠理子
+  - 那確實是很適合您的題材呢。
+- wait:
+  - 85
+- print:
+  - 惠理子
+  - >2-
+
+    畢竟這裡的獵物
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 都很勇猛。
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se_pause:
+  - amb_adv_outdoors_night_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 30
+- black_in: *o0
+- se:
+  - amb_adv_outdoors_night_01
+- chara_full:
+  - 104914
+  - C
+  - 6
+- fadein:
+  - 104914
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M274
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_5070002_025
+- face:
+  - 104914
+  - 6
+- print:
+  - 靜流
+  - 弟弟！
+- wait:
+  - 10
+- print:
+  - 靜流
+  - 牠往你那邊去了！
+- touch: *o0
+- choice:
+  - 交給我吧！
+  - 13
+- se:
+  - se_adv_step_leaves_move_02
+- tag:
+  - 13
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_5070002_026
+- face:
+  - 104914
+  - 4
+- print:
+  - 靜流
+  - 啊～
+- wait:
+  - 20
+- print:
+  - 靜流
+  - 被逃走了！
+- wait:
+  - 35
+- face:
+  - 104914
+  - 5
+- print:
+  - 靜流
+  - 不過就差一點點呢。
+- wait:
+  - 30
+- print:
+  - 靜流
+  - >2-
+
+    下次就跟姐姐一起
+- wait:
+  - 25
+- print:
+  - 靜流
+  - 揮網吧。
+- wait:
+  - 20
+- print:
+  - 靜流
+  - >2
+
+- face:
+  - 104914
+  - 2
+- print:
+  - 靜流
+  - 那樣肯定捉得到！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 104914
+  - C
+  - 2
+- scale:
+  - 104914
+  - 1.1
+  - 1
+- se:
+  - se_adv_step_leaves_move_01
+- fadein:
+  - 104914
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_5070002_027
+- face:
+  - 104914
+  - 2
+- print:
+  - 靜流
+  - 看好了，
+- wait:
+  - 20
+- print:
+  - 靜流
+  - 要像這樣握好桿子……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 104914
+  - 30
+- chara_full:
+  - 104914
+  - LC
+  - 6
+- chara_full:
+  - 102711
+  - RC
+  - 3
+- se:
+  - se_adv_body_handshake_02
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_028
+- face:
+  - 102711
+  - 3
+- print:
+  - 惠理子
+  - 靜流……
+- wait:
+  - 40
+- print:
+  - 惠理子
+  - >2-
+
+    妳是打算做什麼……？
+- touch: *o0
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_5070002_029
+- face:
+  - 104914
+  - 5
+- print:
+  - 靜流
+  - 妳為什麼要阻止我啊？
+- wait:
+  - 45
+- print:
+  - 靜流
+  - >2-
+
+    我只是想幫助弟弟，
+- wait:
+  - 55
+- print:
+  - 靜流
+  - >2-
+
+    讓他能捉到獨角仙喔？
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_030
+- face:
+  - 102711
+  - 3
+- print:
+  - 惠理子
+  - 妳那個動作怎麼看都像是想從後面抱住他呢。
+- touch: *o0
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_5070002_031
+- face:
+  - 104914
+  - 4
+- print:
+  - 靜流
+  - 咦～
+- wait:
+  - 25
+- print:
+  - 靜流
+  - 才沒有那種事喔～？
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_032
+- face:
+  - 102711
+  - 4
+- eye_open:
+  - False
+- print:
+  - 惠理子
+  - 唉……
+- wait:
+  - 35
+- eye_open:
+  - True
+- print:
+  - 惠理子
+  - 再這樣爭下去也不會有結果。
+- wait:
+  - 75
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 3
+- print:
+  - 惠理子
+  - 既然如此……
+- touch: *o0
+- se:
+  - se_adv_weapon_axe_set_01
+- choice:
+  - 不行哦。
+  - 15
+- tag:
+  - 15
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_033
+- face:
+  - 102711
+  - 2
+- nod:
+  - 102711
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 惠理子
+  - 嘻嘻，
+- wait:
+  - 40
+- print:
+  - 惠理子
+  - 您是誤會了什麼嗎？
+- wait:
+  - 60
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 1
+- print:
+  - 惠理子
+  - 我只是想
+- wait:
+  - 35
+- print:
+  - 惠理子
+  - 砍倒樹木，引誘獵物現身。
+- touch: *o0
+- choice:
+  - 那也不行哦。
+  - 17
+- tag:
+  - 17
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_034
+- face:
+  - 102711
+  - 6
+- print:
+  - 惠理子
+  - 這樣
+- wait:
+  - 25
+- print:
+  - 惠理子
+  - 啊……
+- wait:
+  - 60
+- face:
+  - 102711
+  - 4
+- print:
+  - 惠理子
+  - 我原本還以為是好主意的。
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 104914
+  - 6
+- face:
+  - 102711
+  - 6
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 3
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5070002_035
+- face:
+  - 1
+  - 1
+- print:
+  - ？？？
+  - 哈哈哈……
+- touch: *o0
+- window_visible:
+  - false
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- bgm:
+  - bgm_M14
+  - 0
+  - 0
+  - 1
+  - 1.5
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_5070002_036
+- face:
+  - 104914
+  - 6
+- print:
+  - 靜流
+  - ……咦？
+- wait:
+  - 15
+- print:
+  - 靜流
+  - 剛才
+- wait:
+  - 20
+- print:
+  - 靜流
+  - 是不是有女人在笑？
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_037
+- face:
+  - 102711
+  - 6
+- emotion:
+  - question1_R
+  - 102711
+  - 95
+  - 510
+  - se_adv_emote_question_01
+- print:
+  - 惠理子
+  - ……？
+- wait:
+  - 50
+- print:
+  - 惠理子
+  - 我沒聽見。
+- wait:
+  - 60
+- print:
+  - 惠理子
+  - >2-
+
+    會不會是妳多心了？
+- touch: *o0
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_5070002_038
+- face:
+  - 104914
+  - 1
+- print:
+  - 靜流
+  - 才沒有那種事咧！
+- wait:
+  - 15
+- print:
+  - 靜流
+  - 我真的有聽見！
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 104914
+  - 6
+- face:
+  - 102711
+  - 6
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5070002_039
+- face:
+  - 1
+  - 1
+- print:
+  - ？？？
+  - 呵
+- wait:
+  - 10
+- print:
+  - ？？？
+  - 呵
+- wait:
+  - 15
+- print:
+  - ？？？
+  - 呵……
+- wait:
+  - 25
+- print:
+  - ？？？
+  - 哈
+- wait:
+  - 10
+- print:
+  - ？？？
+  - 哈
+- wait:
+  - 15
+- print:
+  - ？？？
+  - 哈……
+- touch: *o0
+- window_visible:
+  - false
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_040
+- face:
+  - 102711
+  - 4
+- print:
+  - 惠理子
+  - ……我也聽到了。
+- wait:
+  - 40
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 6
+- print:
+  - 惠理子
+  - 該不會
+- wait:
+  - 20
+- print:
+  - 惠理子
+  - 真的是幽……
+- touch: *o0
+- window_visible:
+  - false
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 5.5
+  - 1
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5070002_041
+- face:
+  - 1
+  - 1
+- print:
+  - ？？？
+  - 哈～
+- wait:
+  - 15
+- print:
+  - ？？？
+  - 哈～哈～哈～！
+- touch: *o0
+- window_visible:
+  - false
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_042
+- face:
+  - 102711
+  - 4
+- print:
+  - 惠理子
+  - ……
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 不是呢。
+- wait:
+  - 35
+- print:
+  - 惠理子
+  - >2-
+
+    這個聲音
+- wait:
+  - 25
+- print:
+  - 惠理子
+  - 非常耳熟。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_outdoors_night_01
+  - 1
+- background:
+  - 500172
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_outdoors_night_01
+- chara_full:
+  - 102711
+  - LC
+  - 4
+- se:
+  - se_adv_step_leaves_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 102711
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_043
+- face:
+  - 102711
+  - 4
+- print:
+  - 惠理子
+  - ……果然。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 102711
+  - 30
+- chara_full:
+  - 100911
+  - LC
+  - 6
+- chara_full:
+  - 101311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- focus:
+  - 100911:101311
+- change_window:
+  - 3
+- text_size:
+  - 38
+- window_visible:
+  - true
+- bgm:
+  - bgm_M163
+  - 0
+  - 0
+  - 0
+  - 0.5
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5070002_044
+- multi_talk:
+  - 100911:101311
+- face:
+  - 1
+  - 1
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 100911:101311
+- print:
+  - 兩人
+  - 呀～～
+- wait:
+  - 20
+- print:
+  - 兩人
+  - 出現了～～！！
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- window_visible:
+  - TRUE
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_5070002_045
+- face:
+  - 101311
+  - 6
+- emotion:
+  - question1_R
+  - 101311
+  - 125
+  - 480
+  - se_adv_emote_question_01
+- print:
+  - 七七香
+  - 呃，
+- wait:
+  - 15
+- print:
+  - 七七香
+  - 咦咦？
+- wait:
+  - 30
+- print:
+  - 七七香
+  - 這不是惠理子大人嗎？
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5070002_046
+- face:
+  - 100911
+  - 4
+- print:
+  - 修特帕魯
+  - 妳、
+- wait:
+  - 10
+- print:
+  - 修特帕魯
+  - 妳少胡說了！
+- wait:
+  - 15
+- print:
+  - 修特帕魯
+  - 惠理子怎麼可能會在這種地方！
+- wait:
+  - 45
+- print:
+  - 修特帕魯
+  - >2
+
+- eye_open:
+  - FALSE
+- print:
+  - 修特帕魯
+  - 她肯定是傳說中的女幽靈……
+- wait:
+  - 85
+- face:
+  - 100911
+  - 6
+- eye_open:
+  - True
+- print:
+  - 修特帕魯
+  - 呃，
+- wait:
+  - 30
+- print:
+  - 修特帕魯
+  - 還真的是惠理子本人。
+- wait:
+  - 50
+- print:
+  - 修特帕魯
+  - >2-
+
+    而且
+- wait:
+  - 15
+- print:
+  - 修特帕魯
+  - 連閃光的吉格魯特也在！
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5070002_047
+- face:
+  - 100911
+  - 6
+- print:
+  - 修特帕魯
+  - 還有，
+- wait:
+  - 45
+- print:
+  - 修特帕魯
+  - 呃……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 104914
+  - C
+  - 2
+- fadein:
+  - 104914
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_5070002_048
+- face:
+  - 104914
+  - 2
+- emotion:
+  - note1_L
+  - 104914
+  - -120
+  - 520
+  - se_adv_emote_note_01
+- print:
+  - 靜流
+  - 我是姐姐！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 104914
+  - 30
+- chara_full:
+  - 102711
+  - LC
+  - 6
+- chara_full:
+  - 100911
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5070002_049
+- face:
+  - 100911
+  - 6
+- print:
+  - 修特帕魯
+  - 姐姐？
+- wait:
+  - 25
+- print:
+  - 修特帕魯
+  - 是誰的？
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_050
+- face:
+  - 102711
+  - 1
+- nod:
+  - 102711
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 惠理子
+  - 她叫靜流。
+- wait:
+  - 40
+- print:
+  - 惠理子
+  - >2-
+
+    所謂的姐姐是她在胡言亂語，
+- wait:
+  - 40
+- print:
+  - 惠理子
+  - 請不用在意。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 104914
+  - C
+  - 1
+- fadein:
+  - 104914
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_5070002_051
+- face:
+  - 104914
+  - 1
+- print:
+  - 靜流
+  - 才不是胡言亂語！
+- wait:
+  - 25
+- print:
+  - 靜流
+  - 是鐵錚錚的真相！
+- wait:
+  - 40
+- print:
+  - 靜流
+  - >2
+
+- face:
+  - 104914
+  - 6
+- print:
+  - 靜流
+  - 是說，
+- wait:
+  - 15
+- print:
+  - 靜流
+  - 她們是惠理子認識的人？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 104914
+  - 30
+- chara_full:
+  - 102711
+  - LC
+  - 1
+- chara_full:
+  - 101311
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_052
+- face:
+  - 102711
+  - 1
+- print:
+  - 惠理子
+  - 是同個公會的成員。
+- wait:
+  - 65
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 6
+- print:
+  - 惠理子
+  - 妳們在這裡做什麼？
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_5070002_053
+- face:
+  - 101311
+  - 2
+- print:
+  - 七七香
+  - 這個嘛，
+- wait:
+  - 30
+- print:
+  - 七七香
+  - >2-
+
+    我是
+- wait:
+  - 15
+- print:
+  - 七七香
+  - 來捉棲息在這座森林裡的
+- wait:
+  - 30
+- print:
+  - 七七香
+  - 稀有獨角仙！
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_054
+- face:
+  - 102711
+  - 6
+- emotion:
+  - exclamation1_R
+  - 102711
+  - -3
+  - 635
+  - se_adv_emote_common_01
+- print:
+  - 惠理子
+  - 莫非
+- wait:
+  - 45
+- print:
+  - 惠理子
+  - 七七香也是為了進貢給{0}大人……
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_5070002_055
+- face:
+  - 101311
+  - 6
+- print:
+  - 七七香
+  - 進貢？
+- wait:
+  - 40
+- face:
+  - 101311
+  - 1
+- print:
+  - 七七香
+  - 我只是因為
+- wait:
+  - 25
+- print:
+  - 七七香
+  - >-
+    街上的小孩說，
+
+    願意拿食玩送的稀有玩具
+- wait:
+  - 35
+- print:
+  - 七七香
+  - 跟我交換獨角仙，
+- wait:
+  - 30
+- print:
+  - 七七香
+  - >2-
+
+    才會來這裡找的喔？
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_5070002_056
+- face:
+  - 101311
+  - 1
+- nod:
+  - 101311
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 七七香
+  - 哎呀～
+- wait:
+  - 30
+- print:
+  - 七七香
+  - 我本來已經做好花大錢去買的決心，
+- wait:
+  - 55
+- print:
+  - 七七香
+  - >2-
+
+    沒想到會落得來捉獨角仙的下場～
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 104914
+  - LC
+  - 5
+- chara_full:
+  - 100911
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5070002_057
+- face:
+  - 100911
+  - 1
+- print:
+  - 修特帕魯
+  - 我是
+- wait:
+  - 20
+- print:
+  - 修特帕魯
+  - 聽七七香說要去傳說有幽靈出沒的森林，
+- wait:
+  - 60
+- print:
+  - 修特帕魯
+  - >2-
+
+    為了新作品的靈感
+- wait:
+  - 30
+- print:
+  - 修特帕魯
+  - 一起跟來取材的。
+- wait:
+  - 40
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 6
+- print:
+  - 修特帕魯
+  - 倒是惠理子妳們
+- wait:
+  - 20
+- print:
+  - 修特帕魯
+  - 為什麼會跑來這座森林？
+- touch: *o0
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_5070002_058
+- face:
+  - 104914
+  - 2
+- print:
+  - 靜流
+  - 我們是為了
+- wait:
+  - 25
+- print:
+  - 靜流
+  - 捉要給弟弟拿去鬥獨角仙用的獨角仙！
+- touch: *o0
+- face:
+  - 104914
+  - 5
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5070002_059
+- face:
+  - 100911
+  - 6
+- print:
+  - 修特帕魯
+  - 妳所謂的
+- wait:
+  - 45
+- print:
+  - 修特帕魯
+  - 弟弟……
+- wait:
+  - 35
+- print:
+  - 修特帕魯
+  - 是指吉格魯特嗎？
+- wait:
+  - 55
+- print:
+  - 修特帕魯
+  - >2
+
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 100911
+- print:
+  - 修特帕魯
+  - 怎麼回事！？
+- wait:
+  - 20
+- print:
+  - 修特帕魯
+  - 原來你
+- wait:
+  - 15
+- print:
+  - 修特帕魯
+  - 有姐姐嗎！！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100911
+  - 30
+- chara_full:
+  - 102711
+  - RC
+  - 4
+- fadein:
+  - 102711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_060
+- face:
+  - 102711
+  - 4
+- print:
+  - 惠理子
+  - 杏奈跳下來攪和的話，事情會變得更加麻煩，
+- wait:
+  - 50
+- print:
+  - 惠理子
+  - >2-
+
+    所以這件事請不要說出去。
+- wait:
+  - 55
+- eye_open:
+  - FALSE
+- print:
+  - 惠理子
+  - 畢竟這只是靜流在胡言亂語。
+- touch: *o0
+- eye_open:
+  - true
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_5070002_061
+- face:
+  - 104914
+  - 1
+- print:
+  - 靜流
+  - 就說不是胡言亂、
+- wait:
+  - 30
+- se:
+  - se_adv_tickle_02
+- face:
+  - 104914
+  - 6
+- print:
+  - 靜流
+  - 唔啊。
+- shake:
+  - 104914
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_062
+- face:
+  - 102711
+  - 4
+- print:
+  - 惠理子
+  - 請妳安靜一下。
+- wait:
+  - 90
+- face:
+  - 102711
+  - 6
+- print:
+  - 惠理子
+  - 不過，這下就頭痛了……
+- wait:
+  - 50
+- print:
+  - 惠理子
+  - >2-
+
+    沒想到會出現競爭對手。
+- wait:
+  - 75
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 3
+- print:
+  - 惠理子
+  - 看來就算要稍微動粗，也要排……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100911
+  - LC
+  - 6
+- chara_full:
+  - 101311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_5070002_063
+- face:
+  - 101311
+  - 6
+- print:
+  - 七七香
+  - 不過，
+- wait:
+  - 30
+- print:
+  - 七七香
+  - 沒想到會在這種地方遇見
+- wait:
+  - 25
+- print:
+  - 七七香
+  - 可靠的
+- wait:
+  - 25
+- print:
+  - 七七香
+  - 夥伴呢！
+- wait:
+  - 55
+- print:
+  - 七七香
+  - >2
+
+- face:
+  - 101311
+  - 4
+- print:
+  - 七七香
+  - 只有杏奈美眉跟我
+- wait:
+  - 25
+- print:
+  - 七七香
+  - 實在是有些不安啊～
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5070002_064
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 唔，
+- wait:
+  - 30
+- print:
+  - 修特帕魯
+  - 對我來說，這種森林
+- wait:
+  - 30
+- print:
+  - 修特帕魯
+  - 根本沒什麼好害怕的！
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_5070002_065
+- face:
+  - 101311
+  - 6
+- emotion:
+  - sweat2_R
+  - 101311
+  - 105
+  - 510
+  - se_adv_emote_sweat_02
+- print:
+  - 七七香
+  - 妳又逞強～
+- wait:
+  - 65
+- print:
+  - 七七香
+  - >2-
+
+    嘴上說得很好聽，
+- wait:
+  - 25
+- print:
+  - 七七香
+  - >2-
+
+    但妳剛才不是一直為了掩飾害怕
+- wait:
+  - 30
+- print:
+  - 七七香
+  - 而放聲大笑嗎。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100911
+  - 30
+- chara_full:
+  - 104914
+  - LC
+  - 6
+- fadein:
+  - 104914
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_5070002_066
+- face:
+  - 104914
+  - 6
+- print:
+  - 靜流
+  - 啊～
+- wait:
+  - 25
+- print:
+  - 靜流
+  - 原來那個笑聲是她發出來的啊。
+- wait:
+  - 40
+- print:
+  - 靜流
+  - >2-
+
+    我們也
+- wait:
+  - 20
+- print:
+  - 靜流
+  - 有一瞬間以為是幽靈跑出來了。
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_5070002_067
+- face:
+  - 101311
+  - 4
+- print:
+  - 七七香
+  - 如何？
+- wait:
+  - 45
+- print:
+  - 七七香
+  - 既然目的一樣，
+- wait:
+  - 40
+- print:
+  - 七七香
+  - 要不要
+- wait:
+  - 15
+- print:
+  - 七七香
+  - 一起找獨角仙？
+- wait:
+  - 30
+- print:
+  - 七七香
+  - >2
+
+- face:
+  - 101311
+  - 1
+- print:
+  - 七七香
+  - 我們正好要去巡視
+- wait:
+  - 10
+- print:
+  - 七七香
+  - 預先設下的陷阱有沒有捉到什麼。
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_5070002_068
+- face:
+  - 101311
+  - 1
+- emotion:
+  - notice1_L
+  - 101311
+  - -75
+  - 525
+  - se_adv_emote_common_01
+- print:
+  - 七七香
+  - 啊，
+- wait:
+  - 10
+- print:
+  - 七七香
+  - 不過有稀有的獨角仙的話
+- wait:
+  - 20
+- print:
+  - 七七香
+  - 可是歸我喔。
+- wait:
+  - 35
+- print:
+  - 七七香
+  - >2
+
+- face:
+  - 101311
+  - 2
+- print:
+  - 七七香
+  - 為了拿到稀有玩具，
+- wait:
+  - 30
+- print:
+  - 七七香
+  - 就算是惠理子大人，
+- wait:
+  - 20
+- print:
+  - 七七香
+  - 我也不能退讓！
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 101311
+  - 1
+- fadeout:
+  - 104914
+  - 30
+- chara_full:
+  - 102711
+  - LC
+  - 6
+- fadein:
+  - 102711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_069
+- face:
+  - 102711
+  - 6
+- print:
+  - 惠理子
+  - 這個嘛……
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 只好如此了。
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_5070002_070
+- face:
+  - 101311
+  - 4
+- nod:
+  - 101311
+- print:
+  - 七七香
+  - 既然惠理子大人也同意了，
+- wait:
+  - 60
+- print:
+  - 七七香
+  - >2
+
+- face:
+  - 101311
+  - 3
+- print:
+  - 七七香
+  - 我們就出發去
+- wait:
+  - 30
+- print:
+  - 七七香
+  - 巡視陷阱吧！
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se_pause:
+  - amb_adv_outdoors_night_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 30
+- black_in: *o0
+- se:
+  - amb_adv_outdoors_night_01
+- chara_full:
+  - 100911
+  - LC
+  - 4
+- chara_full:
+  - 101311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M463
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5070002_071
+- face:
+  - 100911
+  - 4
+- print:
+  - 修特帕魯
+  - 我的同盟者七七香啊。
+- wait:
+  - 95
+- print:
+  - 修特帕魯
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 修特帕魯
+  - 妳連一隻都沒有捉到耶。
+- touch: *o0
+- eye_open:
+  - true
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_5070002_072
+- face:
+  - 101311
+  - 4
+- emotion:
+  - gloomy1_R
+  - 101311
+  - 55
+  - 505
+  - se_adv_emote_gloomy_01
+- print:
+  - 七七香
+  - 咦～
+- wait:
+  - 40
+- print:
+  - 七七香
+  - 這就奇怪了。
+- wait:
+  - 40
+- print:
+  - 七七香
+  - >2-
+
+    別說稀有的獨角仙了，
+- wait:
+  - 40
+- print:
+  - 七七香
+  - 居然連普通的也沒捉到。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100911
+  - 30
+- chara_full:
+  - 104914
+  - LC
+  - 4
+- fadein:
+  - 104914
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_5070002_073
+- face:
+  - 104914
+  - 4
+- print:
+  - 靜流
+  - 雖然其他蟲子是捉了不少啦～
+- wait:
+  - 60
+- print:
+  - 靜流
+  - >2
+
+- face:
+  - 104914
+  - 6
+- print:
+  - 靜流
+  - 是說，
+- wait:
+  - 20
+- print:
+  - 靜流
+  - 惠理子從剛才就沒有說過半句話，
+- wait:
+  - 45
+- print:
+  - 靜流
+  - >2-
+
+    妳是怎麼了？
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_5070002_074
+- face:
+  - 101311
+  - 6
+- print:
+  - 七七香
+  - 莫、
+- wait:
+  - 20
+- print:
+  - 七七香
+  - 莫非
+- wait:
+  - 30
+- print:
+  - 七七香
+  - 是對不中用的我感到火大嗎！
+- wait:
+  - 50
+- print:
+  - 七七香
+  - >2
+
+- face:
+  - 101311
+  - 4
+- print:
+  - 七七香
+  - 請消消氣吧，惠理子大人！
+- wait:
+  - 40
+- print:
+  - 七七香
+  - >2-
+
+    這種事
+- wait:
+  - 15
+- print:
+  - 七七香
+  - 有時很看運氣……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 104914
+  - 30
+- chara_full:
+  - 102711
+  - LC
+  - 6
+- fadein:
+  - 102711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_075
+- face:
+  - 102711
+  - 6
+- print:
+  - 惠理子
+  - 我並沒有生氣。
+- wait:
+  - 55
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 1
+- print:
+  - 惠理子
+  - 而且，
+- wait:
+  - 20
+- print:
+  - 惠理子
+  - 還有地方沒找過不是嗎？
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_5070002_076
+- face:
+  - 101311
+  - 6
+- print:
+  - 七七香
+  - 可是剛才那個
+- wait:
+  - 20
+- print:
+  - 七七香
+  - 是最後一個陷阱了……
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_077
+- face:
+  - 102711
+  - 6
+- nod:
+  - 102711
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 惠理子
+  - 再說，
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 適合{0}大人擁有的獵物，
+- wait:
+  - 45
+- print:
+  - 惠理子
+  - >2-
+
+    怎麼可能會出現在這種入口處。
+- wait:
+  - 60
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 1
+- print:
+  - 惠理子
+  - 肯定在深處。
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 我們要往森林的深處找。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101311
+  - 30
+- chara_full:
+  - 100911
+  - RC
+  - 6
+- fadein:
+  - 100911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5070002_078
+- face:
+  - 100911
+  - 6
+- print:
+  - 修特帕魯
+  - 可是，惠理子，
+- wait:
+  - 25
+- print:
+  - 修特帕魯
+  - 這森林深處……
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_079
+- face:
+  - 102711
+  - 2
+- print:
+  - 惠理子
+  - 要走囉。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 104914
+  - C
+  - 1
+- fadein:
+  - 104914
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_5070002_080
+- face:
+  - 104914
+  - 1
+- print:
+  - 靜流
+  - 也是！
+- wait:
+  - 20
+- print:
+  - 靜流
+  - 畢竟不能讓弟弟空手而回嘛！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_leaves_walk_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 104914
+  - 30
+- chara_full:
+  - 100911
+  - LC
+  - 6
+- chara_full:
+  - 101311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5070002_081
+- face:
+  - 100911
+  - 6
+- print:
+  - 修特帕魯
+  - ……她們走掉了。
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_5070002_082
+- face:
+  - 101311
+  - 6
+- print:
+  - 七七香
+  - 呃……
+- wait:
+  - 25
+- print:
+  - 七七香
+  - 你們也是來捉獨角仙的對吧？
+- wait:
+  - 50
+- print:
+  - 七七香
+  - >2
+
+- face:
+  - 101311
+  - 4
+- print:
+  - 七七香
+  - 往深處走
+- wait:
+  - 25
+- print:
+  - 七七香
+  - 危險度會大增，可不是開玩笑的……
+- touch: *o0
+- choice:
+  - 我們跟上去吧。
+  - 19
+- tag:
+  - 19
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_5070002_083
+- face:
+  - 101311
+  - 6
+- emotion:
+  - exclamation1_R
+  - 101311
+  - 20
+  - 625
+  - se_adv_emote_common_01
+- print:
+  - 七七香
+  - 你是認真的嗎……
+- wait:
+  - 35
+- print:
+  - 七七香
+  - 了、
+- wait:
+  - 20
+- print:
+  - 七七香
+  - 了解！
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_outdoors_night_01
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_outdoors_night_01
+- se:
+  - se_adv_creature_cmn_group_02
+- chara_full:
+  - 1612
+  - L
+  - 1
+- chara_full:
+  - 1611
+  - C
+  - 1
+- chara_full:
+  - 1613
+  - R
+  - 1
+- wait:
+  - 15
+- fadein:
+  - 1611
+  - 30
+- wait:
+  - 15
+- fadein:
+  - 1612
+  - 30
+- wait:
+  - 15
+- fadein:
+  - 1613
+  - 30
+- se:
+  - se_adv_creature_cmn_05
+- text_size:
+  - 38
+- change_window:
+  - 3
+- window_visible:
+  - true
+- bgm:
+  - bgm_M41
+  - 0
+  - 0
+  - 0
+  - 0.5
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- effect:
+  - 9
+- print:
+  - 魔物
+  - ──嘎喔喔喔！
+- shake_screen: *o0
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 23
+- change_window:
+  - 1
+- fadeout_all:
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 104911
+  - LC
+  - 1
+- chara_full:
+  - 102711
+  - RC
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_5070002_084
+- face:
+  - 104911
+  - 1
+- print:
+  - 靜流
+  - 擋到路囉！
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_085
+- face:
+  - 102711
+  - 3
+- print:
+  - 惠理子
+  - 滾開。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_leaves_move_01
+- se:
+  - se_adv_move_fast_02
+- effect:
+  - 0009
+- fadeout_all:
+  - 30
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0001
+  - se_adv_weapon_sword_hit_01
+- wait:
+  - 15
+- effect:
+  - 0001
+  - se_adv_weapon_sword_hit_02
+  - 270
+- wait:
+  - 15
+- background:
+  - 500172
+- text_size:
+  - 38
+- change_window:
+  - 3
+- se:
+  - se_adv_creature_cmn_04
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──嘎喔喔喔喔喔！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 23
+- change_window:
+  - 1
+- se:
+  - se_adv_bodyfall_01
+- shake_screen: *o0
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 104911
+  - LC
+  - 1
+- chara_full:
+  - 102711
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_086
+- face:
+  - 102711
+  - 4
+- nod:
+  - 102711
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 惠理子
+  - 真是的……
+- wait:
+  - 35
+- print:
+  - 惠理子
+  - >2-
+
+    我的目標明明不是這種小角色……
+- touch: *o0
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_5070002_087
+- face:
+  - 104911
+  - 1
+- print:
+  - 靜流
+  - 只要能捉到比牠更強的獨角仙，
+- wait:
+  - 35
+- print:
+  - 靜流
+  - 弟弟就無敵了對吧！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100911
+  - LC
+  - 6
+- chara_full:
+  - 101311
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_5070002_088
+- face:
+  - 101311
+  - 4
+- print:
+  - 七七香
+  - 我再確認一次……
+- wait:
+  - 55
+- print:
+  - 七七香
+  - >2-
+
+    你們想捉的是獨角仙對吧？
+- touch: *o0
+- choice:
+  - 嗯。
+  - 21
+- tag:
+  - 21
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5070002_089
+- face:
+  - 100911
+  - 6
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 100911
+- print:
+  - 修特帕魯
+  - 喂！
+- wait:
+  - 10
+- print:
+  - 修特帕魯
+  - 她們越走越深了喔！
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_5070002_090
+- face:
+  - 101311
+  - 6
+- emotion:
+  - surprise1_L
+  - 101311
+  - 165
+  - 525
+  - se_adv_emote_common_01
+- print:
+  - 七七香
+  - 哇哇！？
+- wait:
+  - 20
+- print:
+  - 七七香
+  - 走散會有危險的！
+- wait:
+  - 25
+- print:
+  - 七七香
+  - >2-
+
+    主要是我們會有危險！
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5070002_091
+- face:
+  - 100911
+  - 3
+- print:
+  - 修特帕魯
+  - 要追上去囉！
+- wait:
+  - 10
+- print:
+  - 修特帕魯
+  - 吉格魯特！
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_outdoors_night_01
+  - 1
+- background:
+  - 500172
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_outdoors_night_01
+- chara_full:
+  - 104911
+  - LC
+  - 4
+- chara_full:
+  - 102711
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M374
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_5070002_092
+- face:
+  - 104911
+  - 4
+- nod:
+  - 104911
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 靜流
+  - 呼……
+- wait:
+  - 40
+- print:
+  - 靜流
+  - 我們來到很深的地方了呢。
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_093
+- face:
+  - 102711
+  - 1
+- print:
+  - 惠理子
+  - 這裡應該可以捉到很大的獵物。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100911
+  - LC
+  - 6
+- chara_full:
+  - 101311
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_5070002_094
+- face:
+  - 101311
+  - 4
+- emotion:
+  - sweat1_R
+  - 101311
+  - 110
+  - 480
+  - se_adv_emote_sweat_01
+- print:
+  - 七七香
+  - 欸，
+- wait:
+  - 10
+- print:
+  - 七七香
+  - '{0}。'
+- wait:
+  - 15
+- print:
+  - 七七香
+  - >2-
+
+    惠理子大人
+- wait:
+  - 30
+- print:
+  - 七七香
+  - 真的是
+- wait:
+  - 15
+- print:
+  - 七七香
+  - 來捉獨角仙的對吧？
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5070002_095
+- face:
+  - 100911
+  - 4
+- print:
+  - 修特帕魯
+  - 我已經想不起這一路上遇到多少魔物了。
+- wait:
+  - 100
+- print:
+  - 修特帕魯
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 修特帕魯
+  - 追通緝犯根本輕鬆太多……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 104911
+  - LC
+  - 1
+- chara_full:
+  - 102711
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_096
+- face:
+  - 102711
+  - 1
+- print:
+  - 惠理子
+  - 喔，
+- wait:
+  - 45
+- print:
+  - 惠理子
+  - 這裡正好有藥草……
+- touch: *o0
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_5070002_097
+- face:
+  - 104911
+  - 6
+- print:
+  - 靜流
+  - 藥草？
+- wait:
+  - 25
+- print:
+  - 靜流
+  - 那是做什麼的？
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_098
+- face:
+  - 102711
+  - 1
+- nod:
+  - 102711
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 惠理子
+  - 嗯，
+- wait:
+  - 40
+- print:
+  - 惠理子
+  - 只要燒這種藥草，
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 就會引來強大的魔物。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100911
+  - LC
+  - 6
+- chara_full:
+  - 101311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_5070002_099
+- face:
+  - 101311
+  - 6
+- emotion:
+  - exclamation1_R
+  - 101311
+  - 20
+  - 625
+  - se_adv_emote_common_01
+- print:
+  - 七七香
+  - 為什麼要引那種東西過來！？
+- wait:
+  - 20
+- print:
+  - 七七香
+  - 那跟獨角仙無關吧！？
+- wait:
+  - 25
+- print:
+  - 七七香
+  - >2-
+
+    完了，
+- wait:
+  - 15
+- print:
+  - 七七香
+  - 她已經燒了！！
+- touch: *o0
+- bgm:
+  - stop
+  - 7
+  - 1
+- se:
+  - se_adv_bugs_noise_01
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5070002_100
+- face:
+  - 100911
+  - 4
+- print:
+  - 修特帕魯
+  - 這、
+- wait:
+  - 25
+- print:
+  - 修特帕魯
+  - 這個聲音
+- wait:
+  - 30
+- print:
+  - 修特帕魯
+  - 莫非是……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- text_size:
+  - 38
+- change_window:
+  - 3
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - true
+- bgm:
+  - bgm_M116_Ver3
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 巨大的？？？？？？
+  - ──呱歐歐歐歐歐
+- shake_screen: *o0
+- print:
+  - 巨大的？？？？？？
+  - ！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100911
+  - LC
+  - 6
+- chara_full:
+  - 101311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- focus:
+  - 100911:101311
+- window_visible:
+  - true
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5070002_101
+- multi_talk:
+  - 100911:101311
+- face:
+  - 1
+  - 1
+- print:
+  - 兩人
+  - 出、
+- wait:
+  - 20
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 100911:101311
+- print:
+  - 兩人
+  - 出現了～～～～！！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 23
+- change_window:
+  - 1
+- fadeout_all:
+  - 30
+- chara_full:
+  - 104911
+  - C
+  - 2
+- fadein:
+  - 104911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_5070002_102
+- face:
+  - 104911
+  - 2
+- emotion:
+  - twinkle1_R
+  - 104911
+  - -145
+  - 530
+  - se_adv_emote_twinkle_01
+- print:
+  - 靜流
+  - 哇～～
+- wait:
+  - 30
+- print:
+  - 靜流
+  - 好大的獨角仙～
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 104911
+  - 30
+- chara_full:
+  - 100911
+  - LC
+  - 6
+- chara_full:
+  - 101311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5070002_103
+- face:
+  - 100911
+  - 6
+- print:
+  - 修特帕魯
+  - 不！
+- wait:
+  - 10
+- print:
+  - 修特帕魯
+  - 那怎麼看都是魔物……
+- wait:
+  - 55
+- face:
+  - 100911
+  - 4
+- print:
+  - 修特帕魯
+  - 嗯？
+- wait:
+  - 30
+- print:
+  - 修特帕魯
+  - >2-
+
+    確實也算是巨大的獨角仙、
+- wait:
+  - 70
+- print:
+  - 修特帕魯
+  - 嗎？
+- wait:
+  - 45
+- print:
+  - 修特帕魯
+  - >2-
+
+    牠有角，
+- wait:
+  - 25
+- print:
+  - 修特帕魯
+  - 又是蟲子……
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_5070002_104
+- face:
+  - 101311
+  - 6
+- print:
+  - 七七香
+  - 難、
+- wait:
+  - 15
+- print:
+  - 七七香
+  - 難不成惠理子大人打從一開始
+- wait:
+  - 25
+- print:
+  - 七七香
+  - >2-
+
+    就想捉這種魔物嗎！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 104911
+  - LC
+  - 5
+- chara_full:
+  - 102711
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_105
+- face:
+  - 102711
+  - 1
+- print:
+  - 惠理子
+  - '{0}大人要的獨角仙，'
+- wait:
+  - 45
+- print:
+  - 惠理子
+  - >2-
+
+    果然就該這麼大才行。
+- touch: *o0
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_5070002_106
+- face:
+  - 104911
+  - 5
+- nod:
+  - 104911
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 靜流
+  - 如果是這隻獨角仙，
+- wait:
+  - 20
+- print:
+  - 靜流
+  - 肯定是戰無不勝呢！
+- wait:
+  - 25
+- print:
+  - 靜流
+  - >2-
+
+    感覺很難馴服牠，
+- wait:
+  - 25
+- face:
+  - 104911
+  - 2
+- print:
+  - 靜流
+  - 但姐姐
+- wait:
+  - 10
+- print:
+  - 靜流
+  - 不會輸的！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100911
+  - LC
+  - 6
+- chara_full:
+  - 101311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5070002_107
+- face:
+  - 100911
+  - 6
+- emotion:
+  - sweat1_R
+  - 100911
+  - 75
+  - 515
+  - se_adv_emote_sweat_01
+- print:
+  - 修特帕魯
+  - 這兩人到底在說些什麼啊？
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_5070002_108
+- face:
+  - 101311
+  - 4
+- print:
+  - 七七香
+  - 她們就……
+- wait:
+  - 20
+- print:
+  - 七七香
+  - >2-
+
+    是用只有高手才能理解的言語在說話吧？
+- wait:
+  - 55
+- print:
+  - 七七香
+  - >2
+
+- face:
+  - 101311
+  - 3
+- print:
+  - 七七香
+  - 換句話說！
+- wait:
+  - 20
+- print:
+  - 七七香
+  - 我也完全聽不懂！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- text_size:
+  - 38
+- change_window:
+  - 3
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 巨大的獨角仙？
+  - ──咕喔喔喔喔喔喔！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 23
+- change_window:
+  - 1
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 104911
+  - LC
+  - 6
+- chara_full:
+  - 102711
+  - RC
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_109
+- face:
+  - 102711
+  - 3
+- print:
+  - 惠理子
+  - 哼，
+- wait:
+  - 35
+- print:
+  - 惠理子
+  - 區區蟲子竟想反抗我嗎？
+- touch: *o0
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_5070002_110
+- face:
+  - 104911
+  - 4
+- eye_open:
+  - False
+- print:
+  - 靜流
+  - 嗯～
+- wait:
+  - 35
+- eye_open:
+  - True
+- print:
+  - 靜流
+  - 不過用普通的網子應該捉不住牠吧？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100911
+  - C
+  - 6
+- fadein:
+  - 100911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5070002_111
+- face:
+  - 100911
+  - 6
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 100911
+- print:
+  - 修特帕魯
+  - 什麼！
+- wait:
+  - 20
+- print:
+  - 修特帕魯
+  - 她們還以為自己是在捉蟲嗎！
+- wait:
+  - 30
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 4
+- print:
+  - 修特帕魯
+  - 我終於搞不懂她們在說些什麼了！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100911
+  - 30
+- chara_full:
+  - 104911
+  - LC
+  - 5
+- chara_full:
+  - 102711
+  - RC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_112
+- face:
+  - 102711
+  - 2
+- print:
+  - 惠理子
+  - 嘻嘻……
+- wait:
+  - 45
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 1
+- print:
+  - 惠理子
+  - >-
+    如果要拿道具當藉口，
+
+    就請妳站在那邊看我表演吧。
+- touch: *o0
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_5070002_113
+- face:
+  - 104911
+  - 5
+- eye_open:
+  - False
+- print:
+  - 靜流
+  - 哼哼哼。
+- wait:
+  - 40
+- print:
+  - 靜流
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 靜流
+  - 妳可不要小看姐姐我喔，惠理子。
+- wait:
+  - 60
+- print:
+  - 靜流
+  - >2-
+
+    我早料到會有這種情形……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 104911
+  - C
+  - 2
+- fadein:
+  - 104911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_5070002_114
+- face:
+  - 104911
+  - 2
+- nod:
+  - 104911
+- se:
+  - se_adv_comic_light_01
+- print:
+  - 靜流
+  - 巨大捕蟲網～～！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 104911
+  - 30
+- chara_full:
+  - 101311
+  - LC
+  - 6
+- chara_full:
+  - 102711
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_5070002_115
+- face:
+  - 101311
+  - 6
+- print:
+  - 七七香
+  - 那與其說是捕蟲網……
+- wait:
+  - 55
+- print:
+  - 七七香
+  - 不如說是投網？
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_116
+- face:
+  - 102711
+  - 1
+- print:
+  - 惠理子
+  - 不愧是靜流。
+- wait:
+  - 75
+- print:
+  - 惠理子
+  - >2-
+
+    準備得很齊全呢。
+- wait:
+  - 35
+- print:
+  - 惠理子
+  - 真令人佩服。
+- wait:
+  - 55
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 2
+- print:
+  - 惠理子
+  - 我也會全力支援妳的。
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_5070002_117
+- face:
+  - 101311
+  - 4
+- print:
+  - 七七香
+  - 啊，
+- wait:
+  - 15
+- print:
+  - 七七香
+  - 妳不吐槽呢。
+- wait:
+  - 5
+- print:
+  - 七七香
+  - >2-
+
+    不可以吐槽對吧。
+- wait:
+  - 10
+- print:
+  - 七七香
+  - >2
+
+- face:
+  - 101311
+  - 1
+- print:
+  - 七七香
+  - 嗯。
+- wait:
+  - 5
+- print:
+  - 七七香
+  - 我理解了。
+- wait:
+  - 5
+- print:
+  - 七七香
+  - 理解很重要。
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 102711
+  - 1
+- fadeout:
+  - 101311
+  - 30
+- chara_full:
+  - 104911
+  - LC
+  - 1
+- fadein:
+  - 104911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_5070002_118
+- face:
+  - 104911
+  - 1
+- print:
+  - 靜流
+  - 在姐姐巨大的愛面前，
+- wait:
+  - 35
+- print:
+  - 靜流
+  - 你根本無力抵抗！
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_119
+- face:
+  - 102711
+  - 3
+- print:
+  - 惠理子
+  - 你就跪倒在我們的命運之前吧！
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 104911
+  - 3
+- face:
+  - 102711
+  - 3
+- text_size:
+  - 38
+- change_window:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 104911:102711
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5070002_120
+- multi_talk:
+  - 104911:102711
+- face:
+  - 1
+  - 1
+- print:
+  - 靜流、惠理子
+  - 喝啊～～～～！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 23
+- change_window:
+  - 1
+- se:
+  - se_adv_blanket_move_02
+- effect:
+  - 0009
+- fadeout_all:
+  - 30
+- effect_delete:
+  - 0009
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- se:
+  - se_adv_bosyfall_leaves_01
+- shake_screen: *o0
+- se:
+  - se_adv_creature_cmn_04
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 3
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 巨大的獨角仙？
+  - ──嘎喔喔喔喔喔！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 104911
+  - LC
+  - 5
+- chara_full:
+  - 102711
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M358
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_121
+- face:
+  - 102711
+  - 1
+- nod:
+  - 102711
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 惠理子
+  - 呼，
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 總算是順利捉住了。
+- touch: *o0
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_5070002_122
+- face:
+  - 104911
+  - 2
+- emotion:
+  - note1_L
+  - 104911
+  - -120
+  - 520
+  - se_adv_emote_note_01
+- print:
+  - 靜流
+  - 這樣弟弟也能鬥獨角仙了呢！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100911
+  - LC
+  - 4
+- chara_full:
+  - 101311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5070002_123
+- face:
+  - 100911
+  - 4
+- emotion:
+  - sweat1_R
+  - 100911
+  - 75
+  - 515
+  - se_adv_emote_sweat_01
+- print:
+  - 修特帕魯
+  - 不，
+- wait:
+  - 15
+- print:
+  - 修特帕魯
+  - >-
+    要是帶這種的去，
+
+    小孩們
+- wait:
+  - 20
+- print:
+  - 修特帕魯
+  - 應該會哭著逃走吧……
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_5070002_124
+- face:
+  - 101311
+  - 3
+- print:
+  - 七七香
+  - 這裡就
+- wait:
+  - 20
+- print:
+  - 七七香
+  - 由我們來阻……
+- wait:
+  - 30
+- print:
+  - 七七香
+  - 阻……
+- wait:
+  - 45
+- print:
+  - 七七香
+  - >2
+
+- face:
+  - 101311
+  - 4
+- print:
+  - 七七香
+  - 我們阻止得了嗎？
+- wait:
+  - 45
+- print:
+  - 七七香
+  - 我們阻止得了那兩個人？
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5070002_125
+- face:
+  - 100911
+  - 4
+- print:
+  - 修特帕魯
+  - 就算我擁有魔眼，
+- wait:
+  - 50
+- print:
+  - 修特帕魯
+  - >2
+
+- face:
+  - 100911
+  - 6
+- print:
+  - 修特帕魯
+  - 我也只看得見
+- wait:
+  - 25
+- print:
+  - 修特帕魯
+  - 我們落得
+- wait:
+  - 35
+- face:
+  - 100911
+  - 4
+- print:
+  - 修特帕魯
+  - 跟那個獨角仙？相同下場的未來……
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 4
+  - 1
+- se:
+  - se_adv_bugs_noise_01
+- focus:
+  - 100911:101311
+- face:
+  - 100911
+  - 6
+- face:
+  - 101311
+  - 6
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_5070002_126
+- face:
+  - 101311
+  - 6
+- emotion:
+  - exclamation1_R
+  - 101311
+  - 20
+  - 625
+  - se_adv_emote_common_01
+- print:
+  - 七七香
+  - 怎、
+- wait:
+  - 15
+- print:
+  - 七七香
+  - 怎麼了！？
+- wait:
+  - 10
+- print:
+  - 七七香
+  - 這次來的是什麼！？
+- wait:
+  - 20
+- print:
+  - 七七香
+  - >2-
+
+    千萬不要是比牠還強的魔物喔！？
+- touch: *o0
+- bgm:
+  - bgm_M17
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5070002_127
+- face:
+  - 100911
+  - 6
+- print:
+  - 修特帕魯
+  - 有金光閃閃的物體朝我們這邊過來了！
+- wait:
+  - 50
+- print:
+  - 修特帕魯
+  - >2-
+
+    那是
+- wait:
+  - 10
+- print:
+  - 修特帕魯
+  - 什麼！？
+- wait:
+  - 15
+- print:
+  - 修特帕魯
+  - 是新的魔物嗎！？
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_5070002_128
+- face:
+  - 101311
+  - 6
+- print:
+  - 七七香
+  - ……！
+- wait:
+  - 25
+- print:
+  - 七七香
+  - 不、
+- wait:
+  - 15
+- print:
+  - 七七香
+  - 不是的，杏奈美眉！
+- wait:
+  - 35
+- print:
+  - 七七香
+  - >2-
+
+    那、
+- wait:
+  - 10
+- print:
+  - 七七香
+  - 那是
+- wait:
+  - 25
+- face:
+  - 101311
+  - 1
+- print:
+  - 七七香
+  - 我在找的
+- wait:
+  - 45
+- print:
+  - 七七香
+  - 超稀有獨角仙！
+- touch: *o0
+- bgm:
+  - stop
+  - 10
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5070002_129
+- face:
+  - 100911
+  - 6
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 100911
+- print:
+  - 修特帕魯
+  - 怎麼會在這種時間點出現！？
+- wait:
+  - 40
+- print:
+  - 修特帕魯
+  - 而且，
+- wait:
+  - 15
+- print:
+  - 修特帕魯
+  - 那是怎麼回事？
+- wait:
+  - 30
+- print:
+  - 修特帕魯
+  - >2-
+
+    那些獨角仙
+- wait:
+  - 25
+- print:
+  - 修特帕魯
+  - 逐漸
+- wait:
+  - 15
+- print:
+  - 修特帕魯
+  - 覆蓋住魔物囉？
+- touch: *o0
+- se:
+  - se_adv_petit_griffon_02
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 獨角仙？
+  - 啾～～～～
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 104911
+  - LC
+  - 6
+- chara_full:
+  - 102711
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M392_Ver2
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_130
+- face:
+  - 102711
+  - 6
+- emotion:
+  - question1_R
+  - 102711
+  - 95
+  - 510
+  - se_adv_emote_question_01
+- print:
+  - 惠理子
+  - 這是
+- wait:
+  - 20
+- print:
+  - 惠理子
+  - 什麼狀況？
+- touch: *o0
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_5070002_131
+- face:
+  - 104911
+  - 6
+- print:
+  - 靜流
+  - 金色獨角仙在叫……？
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_132
+- face:
+  - 102711
+  - 4
+- print:
+  - 惠理子
+  - 妳是在胡說八道什麼啊。
+- wait:
+  - 50
+- print:
+  - 惠理子
+  - >2-
+
+    獨角仙不可能會叫。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100911
+  - LC
+  - 6
+- chara_full:
+  - 101311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_5070002_133
+- face:
+  - 101311
+  - 6
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 101311
+- print:
+  - 七七香
+  - 更何況，
+- wait:
+  - 25
+- print:
+  - 七七香
+  - 惠理子大人剛才打倒的不是獨角仙，
+- wait:
+  - 30
+- print:
+  - 七七香
+  - >2-
+
+    而是真正的
+- wait:
+  - 35
+- print:
+  - 七七香
+  - 魔物！
+- wait:
+  - 45
+- print:
+  - 七七香
+  - >2-
+
+    惠理子大人吐槽的點太奇怪了！
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_5070002_134
+- face:
+  - 101311
+  - 4
+- print:
+  - 七七香
+  - 話說，
+- wait:
+  - 20
+- print:
+  - 七七香
+  - 現在到底是什麼狀況！？
+- wait:
+  - 25
+- print:
+  - 七七香
+  - >2
+
+- face:
+  - 101311
+  - 6
+- print:
+  - 七七香
+  - 牠們看起來……
+- wait:
+  - 60
+- print:
+  - 七七香
+  - 不像是在襲擊魔物。
+- touch: *o0
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5070002_135
+- face:
+  - 100911
+  - 6
+- print:
+  - 修特帕魯
+  - 該不會
+- wait:
+  - 30
+- print:
+  - 修特帕魯
+  - 這些金色獨角仙，
+- wait:
+  - 40
+- print:
+  - 修特帕魯
+  - >2-
+
+    其實是剛才捉到的魔物的
+- wait:
+  - 35
+- print:
+  - 修特帕魯
+  - 小孩吧？
+- wait:
+  - 40
+- print:
+  - 修特帕魯
+  - >2-
+
+    牠們是為了保護親人才急忙趕來……
+- wait:
+  - 60
+- print:
+  - 修特帕魯
+  - 之類的？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 102711
+  - C
+  - 6
+- fadein:
+  - 102711
+  - 30
+- window_visible:
+  - true
+- se:
+  - se_adv_petit_griffon_02
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 獨角仙？
+  - 啾～～～～
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_136
+- face:
+  - 102711
+  - 1
+- print:
+  - 惠理子
+  - 嘻嘻，
+- wait:
+  - 60
+- print:
+  - 惠理子
+  - 那麼瘦弱的身體
+- wait:
+  - 50
+- print:
+  - 惠理子
+  - 是辦得到什麼……
+- wait:
+  - 60
+- print:
+  - 惠理子
+  - >2-
+
+    放心吧。
+- wait:
+  - 50
+- print:
+  - 惠理子
+  - 你們的親人，
+- wait:
+  - 40
+- print:
+  - 惠理子
+  - 我會負責好好調教的……
+- touch: *o0
+- choice:
+  - 放牠走吧。
+  - 23
+- tag:
+  - 23
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_137
+- face:
+  - 102711
+  - 6
+- print:
+  - 惠理子
+  - 要放牠走
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 嗎？
+- wait:
+  - 55
+- print:
+  - 惠理子
+  - >2-
+
+    我們好不容易才捉住牠的說……
+- touch: *o0
+- choice:
+  - 牠們是親子，那樣很可憐。
+  - 25
+- tag:
+  - 25
+- bgm:
+  - stop
+  - 11
+  - 1
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_138
+- face:
+  - 102711
+  - 6
+- emotion:
+  - exclamation1_R
+  - 102711
+  - -3
+  - 635
+  - se_adv_emote_common_01
+- print:
+  - 惠理子
+  - ……！！
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - >2-
+
+    您居然
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 連這種蟲子也同情！
+- wait:
+  - 65
+- print:
+  - 惠理子
+  - >2-
+
+    心胸太寬大了！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 102711
+  - 30
+- chara_full:
+  - 104911
+  - LC
+  - 5
+- chara_full:
+  - 100911
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M114_Ver2
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_5070002_139
+- face:
+  - 104911
+  - 5
+- print:
+  - 靜流
+  - 哇～～
+- wait:
+  - 45
+- print:
+  - 靜流
+  - 弟弟真的好溫柔！
+- wait:
+  - 60
+- print:
+  - 靜流
+  - >2
+
+- face:
+  - 104911
+  - 2
+- print:
+  - 靜流
+  - 嗯！
+- wait:
+  - 5
+- print:
+  - 靜流
+  - 就放牠走吧！
+- touch: *o0
+- face:
+  - 104911
+  - 5
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5070002_140
+- face:
+  - 100911
+  - 4
+- nod:
+  - 100911
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 修特帕魯
+  - 嗯！
+- wait:
+  - 15
+- print:
+  - 修特帕魯
+  - 那樣絕對比較好！
+- wait:
+  - 35
+- print:
+  - 修特帕魯
+  - >2-
+
+    拆散親子可是非常殘忍的事情，絕對不能做！
+- touch: *o0
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_5070002_141
+- face:
+  - 104911
+  - 4
+- print:
+  - 靜流
+  - 啊，
+- wait:
+  - 15
+- print:
+  - 靜流
+  - 可是放生他的話，
+- wait:
+  - 25
+- print:
+  - 靜流
+  - 就沒有自由研究的題材了。
+- wait:
+  - 55
+- print:
+  - 靜流
+  - >2-
+
+    如果親子一起養的話，
+- wait:
+  - 20
+- eye_open:
+  - False
+- print:
+  - 靜流
+  - 正好可以拿來寫觀察日記說……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 101311
+  - C
+  - 6
+- fadein:
+  - 101311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_5070002_142
+- face:
+  - 101311
+  - 6
+- nod:
+  - 101311
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 七七香
+  - 就像我們在街上生活一樣！
+- wait:
+  - 35
+- print:
+  - 七七香
+  - 魔物要在森林裡生活！
+- wait:
+  - 35
+- print:
+  - 七七香
+  - >2-
+
+    嗯，
+- wait:
+  - 10
+- print:
+  - 七七香
+  - 這樣絕對比較好！
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_5070002_143
+- face:
+  - 101311
+  - 4
+- print:
+  - 七七香
+  - 話說回來，
+- wait:
+  - 20
+- print:
+  - 七七香
+  - 萬一
+- wait:
+  - 35
+- print:
+  - 七七香
+  - 在街上發現帶著那種獨角仙的小孩子，
+- wait:
+  - 35
+- print:
+  - 七七香
+  - >2-
+
+    也得趕快回收才行……
+- wait:
+  - 40
+- print:
+  - 七七香
+  - >2-
+
+    不可以把那麼危險的生物
+- wait:
+  - 20
+- eye_open:
+  - False
+- print:
+  - 七七香
+  - 放在小孩們身邊啊。
+- touch: *o0
+- eye_open:
+  - true
+- se:
+  - se_adv_petit_griffon_02
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 獨角仙？
+  - 啾～～～～
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101311
+  - 30
+- chara_full:
+  - 100911
+  - LC
+  - 6
+- chara_full:
+  - 101311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100911
+- bust:
+  - 100911
+  - 0
+- vo:
+  - vo_adv_5070002_144
+- face:
+  - 100911
+  - 6
+- emotion:
+  - notice1_L
+  - 100911
+  - -95
+  - 535
+  - se_adv_emote_common_01
+- print:
+  - 修特帕魯
+  - 快看！
+- wait:
+  - 15
+- print:
+  - 修特帕魯
+  - 幼蟲們合力搬走親人了。
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_5070002_145
+- face:
+  - 101311
+  - 2
+- print:
+  - 七七香
+  - 真是美好的
+- wait:
+  - 25
+- print:
+  - 七七香
+  - 親子愛呢～
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 104911
+  - LC
+  - 6
+- chara_full:
+  - 102711
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_146
+- face:
+  - 102711
+  - 4
+- print:
+  - 惠理子
+  - 可是……
+- wait:
+  - 35
+- print:
+  - 惠理子
+  - 若不想想辦法，
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - >2-
+
+    {0}大人就無法參加鬥獨角仙了。
+- touch: *o0
+- focus:
+  - 104911
+- bust:
+  - 104911
+  - 0
+- vo:
+  - vo_adv_5070002_147
+- face:
+  - 104911
+  - 5
+- print:
+  - 靜流
+  - 妳不用擔心，
+- wait:
+  - 20
+- print:
+  - 靜流
+  - 惠理子！
+- wait:
+  - 15
+- print:
+  - 靜流
+  - >2
+
+- face:
+  - 104911
+  - 2
+- print:
+  - 靜流
+  - 只要改由我們去跟獨角仙戰鬥就行了！
+- touch: *o0
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_148
+- face:
+  - 102711
+  - 1
+- nod:
+  - 102711
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 惠理子
+  - 原來如此。
+- wait:
+  - 35
+- print:
+  - 惠理子
+  - 真是個好主意。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100911
+  - LC
+  - 4
+- chara_full:
+  - 101311
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- focus:
+  - 100911:101311
+- window_visible:
+  - true
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5070002_149
+- multi_talk:
+  - 100911:101311
+- face:
+  - 1
+  - 1
+- emotion:
+  - question1_R
+  - 100911
+  - 100
+  - 490
+  - se_adv_emote_question_01
+- emotion:
+  - question1_R
+  - 101311
+  - 125
+  - 480
+  - non
+- print:
+  - 兩人
+  - 啥……？
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_outdoors_night_01
+  - 1
+- background:
+  - 500365
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_wind_01
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 設法說服打算上場跟獨角仙戰鬥的惠理子和靜流後，
+- wait:
+  - 30
+- print:
+  - 旁白
+  - >2-
+
+    {0}一行人
+- wait:
+  - 30
+- print:
+  - 旁白
+  - 回到了公會小屋。
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 104914
+  - LC
+  - 5
+- chara_full:
+  - 102711
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M487
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 102711
+- bust:
+  - 102711
+  - 0
+- vo:
+  - vo_adv_5070002_150
+- face:
+  - 102711
+  - 1
+- print:
+  - 惠理子
+  - 雖然很依依不捨，
+- wait:
+  - 35
+- print:
+  - 惠理子
+  - 但我們
+- wait:
+  - 15
+- print:
+  - 惠理子
+  - 就此告辭了。
+- wait:
+  - 60
+- print:
+  - 惠理子
+  - >2
+
+- face:
+  - 102711
+  - 2
+- print:
+  - 惠理子
+  - 今天已經很晚了，
+- wait:
+  - 30
+- print:
+  - 惠理子
+  - 請您早點休息吧。
+- touch: *o0
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_5070002_151
+- face:
+  - 104914
+  - 5
+- print:
+  - 靜流
+  - 熬夜可是
+- wait:
+  - 15
+- print:
+  - 靜流
+  - 無法好好享受暑假的喔！
+- wait:
+  - 40
+- print:
+  - 靜流
+  - >2
+
+- face:
+  - 104914
+  - 2
+- print:
+  - 靜流
+  - 好了，
+- wait:
+  - 10
+- print:
+  - 靜流
+  - 明天見！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_wind_01
+  - 1
+- background:
+  - 500366
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_room_noise_night_01
+- window_visible:
+  - true
+- choice:
+  - 來寫圖畫日記吧。
+  - 27
+- tag:
+  - 27
+- se:
+  - se_adv_paper_move_06
+- focus:
+  - 100011
+- bust:
+  - 100011
+  - 0
+- face:
+  - 100011
+  - 1
+- print:
+  - '{0}'
+  - 今晚去森林裡捉蟲。
+- wait:
+  - 30
+- print:
+  - '{0}'
+  - >2-
+
+    雖然有點可怕──
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- se_pause:
+  - amb_adv_room_noise_night_01
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

@@ -1,0 +1,258 @@
+- title:
+  - 魔法のバラへの想い
+- outline:
+  - ' '
+- background:
+  - 500036
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 魔法のバラへの想い
+- chara_full:
+  - 114411
+  - C
+  - 6
+- fadein:
+  - 114411
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M427_04
+  - 0
+  - 0
+  - 1
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054104_000
+- face:
+  - 114411
+  - 6
+- print:
+  - アキノ
+  - 魔法のバラ……
+- wait:
+  - 45
+- print:
+  - アキノ
+  - >2
+
+- face:
+  - 114411
+  - 1
+- print:
+  - アキノ
+  - もしいただけるのであれば、
+- wait:
+  - 35
+- print:
+  - アキノ
+  - >2-
+
+    【メルクリウス財団】で栽培したいですわね。
+- touch: &o0 []
+- choice:
+  - 何をするの？
+  - 1
+  - 1
+- choice:
+  - 育てるの？
+  - 2
+  - 2
+- choice:
+  - 僕も欲しい！
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054104_001
+- face:
+  - 114411
+  - 1
+- print:
+  - アキノ
+  - 花屋へ卸したり、
+- wait:
+  - 35
+- eye_open:
+  - False
+- print:
+  - アキノ
+  - イベントを企画したり……
+- wait:
+  - 50
+- print:
+  - アキノ
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - アキノ
+  - 『愛を応援する』というコンセプトで、
+- wait:
+  - 45
+- print:
+  - アキノ
+  - ビジネスを立ち上げますわ！
+- wait:
+  - 45
+- print:
+  - アキノ
+  - >2
+
+- face:
+  - 114411
+  - 2
+- print:
+  - アキノ
+  - その時は
+- wait:
+  - 35
+- print:
+  - アキノ
+  - あなたさまも協力してくださると、
+- wait:
+  - 35
+- print:
+  - アキノ
+  - 私もうれしいのですけれど。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054104_002
+- face:
+  - 114411
+  - 2
+- nod:
+  - 114411
+- print:
+  - アキノ
+  - ええ！　
+- wait:
+  - 30
+- print:
+  - アキノ
+  - 愛をこめて、
+- wait:
+  - 30
+- print:
+  - アキノ
+  - 育てて増やしますの。
+- wait:
+  - 45
+- print:
+  - アキノ
+  - >2
+
+- face:
+  - 114411
+  - 6
+- print:
+  - アキノ
+  - そうですわ、
+- wait:
+  - 30
+- print:
+  - アキノ
+  - 二人で新種を作ってみるのはいかがでしょうか！？
+- wait:
+  - 55
+- print:
+  - アキノ
+  - >2
+
+- face:
+  - 114411
+  - 2
+- print:
+  - アキノ
+  - あなたさまとなら、
+- wait:
+  - 30
+- print:
+  - アキノ
+  - キレイな花を咲かせられますわ♪
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054104_003
+- face:
+  - 114411
+  - 2
+- print:
+  - アキノ
+  - そういうことでしたら、
+- wait:
+  - 35
+- print:
+  - アキノ
+  - 私が花束にしてお贈りいたしますわ！
+- wait:
+  - 80
+- print:
+  - アキノ
+  - >2
+
+- face:
+  - 114411
+  - 1
+- print:
+  - アキノ
+  - 百でも千でも足りません、
+- wait:
+  - 45
+- face:
+  - 114411
+  - 2
+- print:
+  - アキノ
+  - 万の想いを込めて♪
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 114411
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0
