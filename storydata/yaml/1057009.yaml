@@ -1,0 +1,4192 @@
+- title:
+  - 吉塔 第9話
+- outline:
+  - 吉塔得知{0}認識擁有飛空艇的商會，便詢問他能否讓自己搭上飛空艇。之後商會的商人前來找吉塔詢問接案意願，而吉塔為了接下委託，接受了實力測試並成功展示了實力。
+- background:
+  - 500200
+- se:
+  - amb_adv_wind_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 與你共同助跑奔向夢想
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    兩個人組成騎空團持續進行活動的
+
+    吉塔與{0}
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >-
+    因為逐漸闖出了名堂，
+
+    開始過起了忙碌的日子──
+- wait:
+  - 30
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 105711
+  - LC
+  - 1
+- chara_full:
+  - 1411
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_MG01
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_000
+- face:
+  - 105711
+  - 1
+- print:
+  - 吉塔
+  - 委託的貨物都在這裡了。
+- wait:
+  - 50
+- print:
+  - 吉塔
+  - >2-
+
+    可以幫我確認一下
+- wait:
+  - 15
+- print:
+  - 吉塔
+  - 有沒有遺漏嗎？
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1057009_001
+- face:
+  - 1411
+  - 6
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 村人
+  - 我看看……
+- wait:
+  - 45
+- face:
+  - 1411
+  - 2
+- print:
+  - 村人
+  - 嗯，
+- wait:
+  - 20
+- print:
+  - 村人
+  - 沒問題。
+- wait:
+  - 40
+- print:
+  - 村人
+  - >2-
+
+    謝謝你們。
+- wait:
+  - 30
+- print:
+  - 村人
+  - 來，
+- wait:
+  - 15
+- print:
+  - 村人
+  - 收下這個吧。
+- touch: *o0
+- window_visible:
+  - false
+- focus:
+  - 1411:105711
+- se:
+  - se_adv_money_give_01
+- nod:
+  - 1411
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_002
+- face:
+  - 105711
+  - 2
+- print:
+  - 吉塔
+  - 謝謝！
+- touch: *o0
+- face:
+  - 105711
+  - 1
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1057009_003
+- face:
+  - 1411
+  - 1
+- print:
+  - 村人
+  - 我才該道謝，
+- wait:
+  - 45
+- face:
+  - 1411
+  - 6
+- print:
+  - 村人
+  - 你們不只收拾了盤踞在路上的魔物，
+- wait:
+  - 50
+- print:
+  - 村人
+  - >2-
+
+    還平安將貨物送達……
+- wait:
+  - 55
+- face:
+  - 1411
+  - 2
+- print:
+  - 村人
+  - 王都傳聞中的騎空團，
+- wait:
+  - 45
+- print:
+  - 村人
+  - >2-
+
+    我已經見識到你們有多能幹啦。
+- wait:
+  - 40
+- print:
+  - 村人
+  - 真是令人佩服。
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_004
+- face:
+  - 105711
+  - 2
+- emotion:
+  - note1_L
+  - 105711
+  - -90
+  - 490
+  - se_adv_emote_note_01
+- print:
+  - 吉塔
+  - 嘿嘿……
+- wait:
+  - 40
+- face:
+  - 105711
+  - 1
+- print:
+  - 吉塔
+  - 有什麼需要的話，
+- wait:
+  - 20
+- print:
+  - 吉塔
+  - 可以再委託我們喔。
+- wait:
+  - 35
+- print:
+  - 吉塔
+  - >2-
+
+    那麼就再見啦！
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_step_dirt_walk_go_01
+- change:
+  - L
+  - LC
+  - 30
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_wind_01
+  - 1
+- background:
+  - 500141
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_outdoors_day_01
+- chara_full:
+  - 105711
+  - C
+  - 2
+- fadein:
+  - 105711
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_MG03
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_005
+- face:
+  - 105711
+  - 2
+- emotion:
+  - note1_L
+  - 105711
+  - -90
+  - 490
+  - se_adv_emote_note_01
+- print:
+  - 吉塔
+  - 嗯──！
+- wait:
+  - 45
+- print:
+  - 吉塔
+  - 今天又順利完成一件工作了！
+- wait:
+  - 45
+- print:
+  - 吉塔
+  - >2
+
+- face:
+  - 105711
+  - 1
+- print:
+  - 吉塔
+  - 辛苦啦！
+- touch: *o0
+- choice:
+  - 辛苦了。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_006
+- face:
+  - 105711
+  - 1
+- nod:
+  - 105711
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 吉塔
+  - 嗯！
+- wait:
+  - 30
+- print:
+  - 吉塔
+  - 雖然是急件，過程很辛苦，
+- wait:
+  - 40
+- print:
+  - 吉塔
+  - >2
+
+- face:
+  - 105711
+  - 2
+- print:
+  - 吉塔
+  - 但對方似乎很欣賞我們的表現，
+- wait:
+  - 25
+- print:
+  - 吉塔
+  - 努力也有代價了。
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_007
+- face:
+  - 105711
+  - 1
+- print:
+  - 吉塔
+  - 最近的
+- wait:
+  - 25
+- print:
+  - 吉塔
+  - 客人幾乎都是直接指名我們的，
+- wait:
+  - 50
+- print:
+  - 吉塔
+  - >2-
+
+    也因此
+- wait:
+  - 25
+- print:
+  - 吉塔
+  - 更容易接到高難度的委託了，
+- wait:
+  - 45
+- print:
+  - 吉塔
+  - >2-
+
+    我們要小心別搞砸了。
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_008
+- face:
+  - 105711
+  - 2
+- print:
+  - 吉塔
+  - 回到城鎮後去吃頓大餐，
+- wait:
+  - 30
+- print:
+  - 吉塔
+  - 好好休息吧！
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_009
+- face:
+  - 105711
+  - 6
+- emotion:
+  - question1_R
+  - 105711
+  - 125
+  - 515
+  - se_adv_emote_question_01
+- print:
+  - 吉塔
+  - 咦……？
+- wait:
+  - 20
+- print:
+  - 吉塔
+  - 那片雲……
+- wait:
+  - 30
+- print:
+  - 吉塔
+  - >2-
+
+    還有，
+- wait:
+  - 15
+- print:
+  - 吉塔
+  - 是我的錯覺嗎……
+- wait:
+  - 35
+- print:
+  - 吉塔
+  - 風好像有點……
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_010
+- face:
+  - 105711
+  - 3
+- print:
+  - 吉塔
+  - 不對，
+- wait:
+  - 20
+- print:
+  - 吉塔
+  - 不是我的錯覺。
+- wait:
+  - 30
+- print:
+  - 吉塔
+  - 西北方那片雲
+- wait:
+  - 30
+- print:
+  - 吉塔
+  - 是雨雲。
+- wait:
+  - 40
+- print:
+  - 吉塔
+  - >2
+
+- face:
+  - 105711
+  - 6
+- print:
+  - 吉塔
+  - 現在風向是東南風，
+- wait:
+  - 35
+- print:
+  - 吉塔
+  - 我們往北走的話，
+- wait:
+  - 25
+- print:
+  - 吉塔
+  - 就勢必得從那片雨雲下通過。
+- wait:
+  - 50
+- print:
+  - 吉塔
+  - >2
+
+- face:
+  - 105711
+  - 1
+- print:
+  - 吉塔
+  - 可不可以繞點遠路，
+- wait:
+  - 40
+- print:
+  - 吉塔
+  - 從東邊繞回鎮上呢？
+- touch: *o0
+- choice:
+  - 當然可以。
+  - 2
+- choice:
+  - 妳讀書的成果出來了呢。
+  - 3
+- tag:
+  - 2
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_011
+- face:
+  - 105711
+  - 2
+- nod:
+  - 105711
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 吉塔
+  - 謝謝。
+- wait:
+  - 35
+- face:
+  - 105711
+  - 1
+- print:
+  - 吉塔
+  - 我想說總有一天要上天空，
+- wait:
+  - 35
+- print:
+  - 吉塔
+  - >2-
+
+    就開始用功讀氣候相關的知識，
+- wait:
+  - 45
+- print:
+  - 吉塔
+  - >2-
+
+    畢竟這些事情在地上也用得到嘛。
+- wait:
+  - 45
+- print:
+  - 吉塔
+  - 幸好我有記起來～！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_012
+- face:
+  - 105711
+  - 2
+- print:
+  - 吉塔
+  - 對啊！
+- wait:
+  - 35
+- face:
+  - 105711
+  - 1
+- print:
+  - 吉塔
+  - 是因為和你一起讀的關係嗎？
+- wait:
+  - 50
+- print:
+  - 吉塔
+  - >2-
+
+    比起自己一個人讀書，
+- wait:
+  - 20
+- print:
+  - 吉塔
+  - 跟別人一起讀
+- wait:
+  - 25
+- print:
+  - 吉塔
+  - 比較容易讀進去呢。
+- touch: *o0
+- tag:
+  - 4
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_013
+- face:
+  - 105711
+  - 2
+- print:
+  - 吉塔
+  - 我總有一天要上天空旅行的，
+- wait:
+  - 35
+- print:
+  - 吉塔
+  - >2-
+
+    在那之前得好好記住這些知識才行……
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_014
+- face:
+  - 105711
+  - 6
+- nod:
+  - 105711
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 吉塔
+  - 咦……？
+- wait:
+  - 15
+- print:
+  - 吉塔
+  - 喂、
+- wait:
+  - 15
+- print:
+  - 吉塔
+  - 喂！
+- wait:
+  - 15
+- print:
+  - 吉塔
+  - >2-
+
+    你看那邊！
+- wait:
+  - 15
+- print:
+  - 吉塔
+  - 那該不會是……！
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_015
+- face:
+  - 105711
+  - 1
+- emotion:
+  - twinkle1_R
+  - 105711
+  - -110
+  - 490
+  - se_adv_emote_twinkle_01
+- print:
+  - 吉塔
+  - 果然沒錯！
+- wait:
+  - 15
+- print:
+  - 吉塔
+  - 是飛空艇……！
+- wait:
+  - 35
+- print:
+  - 吉塔
+  - >2-
+
+    又可以在這片大陸上
+- wait:
+  - 20
+- print:
+  - 吉塔
+  - 飛行了呢……！
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_016
+- face:
+  - 105711
+  - 1
+- print:
+  - 吉塔
+  - 不知道上面載了什麼人……
+- wait:
+  - 45
+- print:
+  - 吉塔
+  - 我也好想搭搭看喔。
+- touch: *o0
+- choice:
+  - ……他們說不定會讓我們上去？
+  - 5
+- tag:
+  - 5
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_017
+- face:
+  - 105711
+  - 6
+- emotion:
+  - surprise1_L
+  - 105711
+  - 155
+  - 555
+  - se_adv_emote_common_01
+- print:
+  - 吉塔
+  - 真的嗎！？
+- wait:
+  - 25
+- print:
+  - 吉塔
+  - 呃～呃……！
+- wait:
+  - 50
+- print:
+  - 吉塔
+  - >2
+
+- face:
+  - 105711
+  - 4
+- print:
+  - 吉塔
+  - ……等一下！
+- wait:
+  - 30
+- print:
+  - 吉塔
+  - 剛剛不是我聽錯吧……！？
+- wait:
+  - 30
+- print:
+  - 吉塔
+  - >2
+
+- face:
+  - 105711
+  - 6
+- print:
+  - 吉塔
+  - 你說他們會讓我們上去，
+- wait:
+  - 25
+- print:
+  - 吉塔
+  - 是什麼意思……！？
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+- window_visible:
+  - FALSE
+- fadeout:
+  - 105711
+  - 30
+- se_pause:
+  - amb_adv_outdoors_day_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- se:
+  - amb_adv_outdoors_day_01
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - >-
+    {0}向吉塔解釋，
+
+    最近在開發新型飛空艇的商會，
+- wait:
+  - 30
+- print:
+  - 旁白
+  - >2-
+
+    跟他有些關係。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- chara_full:
+  - 105711
+  - C
+  - 6
+- fadein:
+  - 105711
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M180_Ver2
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_018
+- face:
+  - 105711
+  - 6
+- print:
+  - 吉塔
+  - ……你好厲害喔！
+- wait:
+  - 45
+- print:
+  - 吉塔
+  - >2-
+
+    我本來只覺得你是有點不可思議的人，
+- wait:
+  - 50
+- print:
+  - 吉塔
+  - >2-
+
+    想不到你還認識紫藤商會的人……！
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_019
+- face:
+  - 105711
+  - 4
+- nod:
+  - 105711
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 吉塔
+  - ……我問你喔？
+- wait:
+  - 20
+- print:
+  - 吉塔
+  - 方便的話，
+- wait:
+  - 25
+- print:
+  - 吉塔
+  - >2-
+
+    可不可以去幫我問一下，
+- wait:
+  - 35
+- print:
+  - 吉塔
+  - 能不能讓我們上去飛空艇呢……？
+- wait:
+  - 50
+- print:
+  - 吉塔
+  - >2
+
+- face:
+  - 105711
+  - 6
+- print:
+  - 吉塔
+  - 不行的話，
+- wait:
+  - 20
+- print:
+  - 吉塔
+  - 讓我近距離看一下也沒關係……！
+- wait:
+  - 25
+- face:
+  - 105711
+  - 4
+- print:
+  - 吉塔
+  - 拜託了！
+- touch: *o0
+- choice:
+  - 我去問問看。
+  - 6
+- tag:
+  - 6
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_020
+- face:
+  - 105711
+  - 1
+- emotion:
+  - note1_L
+  - 105711
+  - -90
+  - 490
+  - se_adv_emote_note_01
+- print:
+  - 吉塔
+  - 謝謝！
+- wait:
+  - 30
+- print:
+  - 吉塔
+  - 我知道這是強人所難的要求，
+- wait:
+  - 35
+- print:
+  - 吉塔
+  - >2
+
+- eye_open:
+  - False
+- print:
+  - 吉塔
+  - 我會誠心祈禱
+- wait:
+  - 30
+- eye_open:
+  - True
+- print:
+  - 吉塔
+  - 奇蹟發生的。
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
+- window_visible:
+  - FALSE
+- fadeout:
+  - 105711
+  - 30
+- se_pause:
+  - amb_adv_outdoors_day_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- background:
+  - 500040
+- wait:
+  - 30
+- black_in: *o0
+- se:
+  - amb_adv_room_noise_01
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 之後過了幾天，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    {0}前來拜訪吉塔。
+- wait:
+  - 15
+- touch: *o0
+- se:
+  - se_adv_door_open_01
+- window_visible:
+  - FALSE
+- chara_full:
+  - 105711
+  - C
+  - 1
+- fadein:
+  - 105711
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M479
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_021
+- face:
+  - 105711
+  - 1
+- nod:
+  - 105711
+- se:
+  - se_adv_step_wood_move_01
+- print:
+  - 吉塔
+  - 你好！
+- wait:
+  - 30
+- face:
+  - 105711
+  - 6
+- print:
+  - 吉塔
+  - 莫非是要談
+- wait:
+  - 15
+- print:
+  - 吉塔
+  - 上次那件事嗎？
+- wait:
+  - 50
+- print:
+  - 吉塔
+  - >2
+
+- face:
+  - 105711
+  - 4
+- print:
+  - 吉塔
+  - ……結果，
+- wait:
+  - 15
+- print:
+  - 吉塔
+  - 如何呢……？
+- touch: *o0
+- choice:
+  - 對方是答應了沒錯，不過……
+  - 7
+- tag:
+  - 7
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_022
+- face:
+  - 105711
+  - 6
+- emotion:
+  - question1_R
+  - 105711
+  - 125
+  - 515
+  - se_adv_emote_question_01
+- print:
+  - 吉塔
+  - 不過……？
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 105711
+  - 30
+- chara_full:
+  - 105711
+  - LC
+  - 6
+- chara_full:
+  - 2511
+  - R
+  - 1
+- se:
+  - se_adv_step_wood_walk_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - R
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - TRUE
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1057009_023
+- face:
+  - 2511
+  - 1
+- print:
+  - 商人
+  - 抱歉突然插嘴，
+- wait:
+  - 45
+- print:
+  - 商人
+  - >2-
+
+    接下來的事情，
+- wait:
+  - 10
+- print:
+  - 商人
+  - 我想要親自跟她談，
+- wait:
+  - 40
+- print:
+  - 商人
+  - >2-
+
+    不介意吧？
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_024
+- face:
+  - 105711
+  - 6
+- print:
+  - 吉塔
+  - 呃，
+- wait:
+  - 30
+- print:
+  - 吉塔
+  - 請問你是……？
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1057009_025
+- face:
+  - 2511
+  - 2
+- print:
+  - 商人
+  - 忘了先自我介紹，
+- wait:
+  - 30
+- print:
+  - 商人
+  - 我是紫藤商會的人。
+- wait:
+  - 45
+- print:
+  - 商人
+  - >2
+
+- face:
+  - 2511
+  - 1
+- print:
+  - 商人
+  - 目前是飛空艇貿易的
+- wait:
+  - 30
+- print:
+  - 商人
+  - >2-
+
+    負責人。
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_026
+- face:
+  - 105711
+  - 6
+- emotion:
+  - surprise1_L
+  - 105711
+  - 155
+  - 555
+  - se_adv_emote_common_01
+- print:
+  - 吉塔
+  - 你是負責人！？
+- wait:
+  - 25
+- face:
+  - 105711
+  - 4
+- print:
+  - 吉塔
+  - 你、
+- wait:
+  - 15
+- print:
+  - 吉塔
+  - 你好！
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1057009_027
+- face:
+  - 2511
+  - 1
+- print:
+  - 商人
+  - 嗯，
+- wait:
+  - 10
+- print:
+  - 商人
+  - 妳好。
+- wait:
+  - 25
+- face:
+  - 2511
+  - 2
+- print:
+  - 商人
+  - 今天也是個做生意的好日子呢。
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_028
+- face:
+  - 105711
+  - 6
+- emotion:
+  - sweat2_R
+  - 105711
+  - 95
+  - 545
+  - se_adv_emote_sweat_02
+- print:
+  - 吉塔
+  - 喂，
+- wait:
+  - 15
+- print:
+  - 吉塔
+  - 真是的！
+- wait:
+  - 20
+- print:
+  - 吉塔
+  - >2-
+
+    你怎麼沒跟我說負責人會過來啊～！
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 105711
+  - LC
+  - 1
+- chara_full:
+  - 2511
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M140_NoBell
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1057009_029
+- face:
+  - 2511
+  - 1
+- nod:
+  - 2511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 商人
+  - 那麼我們繼續談吧。
+- wait:
+  - 55
+- print:
+  - 商人
+  - >2
+
+- face:
+  - 2511
+  - 2
+- print:
+  - 商人
+  - 關於兩位提出的要求，我有聽大小姐……
+- wait:
+  - 40
+- face:
+  - 2511
+  - 1
+- wait:
+  - 30
+- print:
+  - 商人
+  - >2-
+
+    我是說跟我們商會關係匪淺的人提過了。
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1057009_030
+- face:
+  - 2511
+  - 1
+- print:
+  - 商人
+  - 一開始我以為只是年輕人想要來學習觀摩，
+- wait:
+  - 70
+- print:
+  - 商人
+  - >2-
+
+    誰知道仔細一問才發現，
+- wait:
+  - 45
+- face:
+  - 2511
+  - 6
+- print:
+  - 商人
+  - 兩位居然就是
+- wait:
+  - 35
+- print:
+  - 商人
+  - >2-
+
+    最近時常耳聞的騎空團啊。
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1057009_031
+- face:
+  - 2511
+  - 1
+- print:
+  - 商人
+  - 你們
+- wait:
+  - 15
+- print:
+  - 商人
+  - 為了擁有自己的騎空艇，
+- wait:
+  - 25
+- print:
+  - 商人
+  - >2-
+
+    而積極進行活動對吧？
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_032
+- face:
+  - 105711
+  - 3
+- nod:
+  - 105711
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 吉塔
+  - 是的！
+- wait:
+  - 30
+- print:
+  - 吉塔
+  - 我知道這是條漫長的道路。
+- wait:
+  - 30
+- print:
+  - 吉塔
+  - >2
+
+- face:
+  - 105711
+  - 1
+- print:
+  - 吉塔
+  - ……即使如此，
+- wait:
+  - 20
+- print:
+  - 吉塔
+  - 總有一天一定會實現的。
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1057009_033
+- face:
+  - 2511
+  - 2
+- print:
+  - 商人
+  - ……妳的眼神十分不錯。
+- wait:
+  - 45
+- print:
+  - 商人
+  - >2
+
+- face:
+  - 2511
+  - 1
+- print:
+  - 商人
+  - 難得有騎空團上門來，
+- wait:
+  - 45
+- print:
+  - 商人
+  - >2-
+
+    我們就是靠天空做生意的，
+- wait:
+  - 30
+- print:
+  - 商人
+  - 可說是天賜良機。
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1057009_034
+- face:
+  - 2511
+  - 6
+- print:
+  - 商人
+  - 於是便趁這機會，
+- wait:
+  - 30
+- print:
+  - 商人
+  - 試著讓你們接下
+- wait:
+  - 30
+- print:
+  - 商人
+  - >2-
+
+    飛空艇相關的工作……
+- wait:
+  - 20
+- face:
+  - 2511
+  - 1
+- print:
+  - 商人
+  - 我們最後做出了這樣的決定。
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1057009_035
+- face:
+  - 2511
+  - 1
+- print:
+  - 商人
+  - 會長也很中意你們的毅力，
+- wait:
+  - 55
+- print:
+  - 商人
+  - >2
+
+- face:
+  - 2511
+  - 2
+- print:
+  - 商人
+  - 並要求我們成為
+- wait:
+  - 45
+- print:
+  - 商人
+  - 大有前途的年輕人的助力。
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_036
+- face:
+  - 105711
+  - 6
+- emotion:
+  - exclamation1_R
+  - 105711
+  - 20
+  - 645
+  - se_adv_emote_common_01
+- print:
+  - 吉塔
+  - 請、
+- wait:
+  - 15
+- print:
+  - 吉塔
+  - 請問……
+- wait:
+  - 20
+- print:
+  - 吉塔
+  - 這是不是表示──！
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1057009_037
+- face:
+  - 2511
+  - 6
+- print:
+  - 商人
+  - 既然你們以騎空團為志業，
+- wait:
+  - 30
+- print:
+  - 商人
+  - 那麼在空中留下一些成果，
+- wait:
+  - 20
+- print:
+  - 商人
+  - >2-
+
+    我想也不是什麼壞事，
+- wait:
+  - 35
+- face:
+  - 2511
+  - 1
+- print:
+  - 商人
+  - 兩位意下如何呢？
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_038
+- face:
+  - 105711
+  - 2
+- nod:
+  - 105711
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 吉塔
+  - 當然沒問題！
+- wait:
+  - 30
+- print:
+  - 吉塔
+  - 我們很樂意接受！
+- touch: *o0
+- face:
+  - 105711
+  - 1
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1057009_039
+- face:
+  - 2511
+  - 2
+- print:
+  - 商人
+  - 那真是太感謝了。
+- wait:
+  - 25
+- face:
+  - 2511
+  - 1
+- print:
+  - 商人
+  - 只是，
+- wait:
+  - 35
+- print:
+  - 商人
+  - 有一個條件。
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_040
+- face:
+  - 105711
+  - 6
+- print:
+  - 吉塔
+  - 你說條件
+- wait:
+  - 20
+- print:
+  - 吉塔
+  - 是嗎？
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1057009_041
+- face:
+  - 2511
+  - 1
+- nod:
+  - 2511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 商人
+  - 是的。
+- wait:
+  - 25
+- print:
+  - 商人
+  - 你們兩位必須和我們另外聘請來
+- wait:
+  - 35
+- print:
+  - 商人
+  - >2-
+
+    擔任護衛的飛空艇船員交手，
+- wait:
+  - 45
+- print:
+  - 商人
+  - 展現一下實力。
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1057009_042
+- face:
+  - 2511
+  - 3
+- print:
+  - 商人
+  - 航行在空中遭遇魔物襲擊時，
+- wait:
+  - 50
+- print:
+  - 商人
+  - 我希望你們不僅要自保，
+- wait:
+  - 25
+- print:
+  - 商人
+  - >2-
+
+    還需要保護其他船員。
+- wait:
+  - 40
+- face:
+  - 2511
+  - 1
+- print:
+  - 商人
+  - 若是你們能證明
+- wait:
+  - 25
+- print:
+  - 商人
+  - >2-
+
+    自己擁有這樣的實力，
+- wait:
+  - 25
+- print:
+  - 商人
+  - 這次協議就成立了。
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1057009_043
+- face:
+  - 2511
+  - 1
+- print:
+  - 商人
+  - 你們願意接受這條件嗎？
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_044
+- face:
+  - 105711
+  - 1
+- print:
+  - 吉塔
+  - ……我們沒有理由拒絕。
+- wait:
+  - 30
+- print:
+  - 吉塔
+  - >2
+
+- nod:
+  - 105711
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 吉塔
+  - 請多指教了！
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1057009_045
+- face:
+  - 2511
+  - 2
+- print:
+  - 商人
+  - 很好。
+- wait:
+  - 30
+- face:
+  - 2511
+  - 1
+- print:
+  - 商人
+  - 那麼就約在明天，
+- wait:
+  - 20
+- print:
+  - 商人
+  - 勞駕兩位前往此處。
+- wait:
+  - 35
+- print:
+  - 商人
+  - >2-
+
+    我們會在那裡等候。
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_046
+- face:
+  - 105711
+  - 6
+- emotion:
+  - surprise1_L
+  - 105711
+  - 155
+  - 555
+  - se_adv_emote_common_01
+- print:
+  - 吉塔
+  - 明天……？
+- wait:
+  - 20
+- print:
+  - 吉塔
+  - 明天嗎！？
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1057009_047
+- face:
+  - 2511
+  - 2
+- print:
+  - 商人
+  - 那當然囉。
+- wait:
+  - 30
+- print:
+  - 商人
+  - 談生意是越快越有好處。
+- wait:
+  - 45
+- print:
+  - 商人
+  - >2
+
+- face:
+  - 2511
+  - 1
+- print:
+  - 商人
+  - 那麼，
+- wait:
+  - 15
+- print:
+  - 商人
+  - 我先告辭了。
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_step_wood_walk_go_01
+- change:
+  - R
+  - RC
+  - 30
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105711
+  - C
+  - 6
+- fadein:
+  - 105711
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M321
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_048
+- face:
+  - 105711
+  - 6
+- nod:
+  - 105711
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 吉塔
+  - ……哇～
+- wait:
+  - 40
+- print:
+  - 吉塔
+  - 事情來得太突然，
+- wait:
+  - 30
+- print:
+  - 吉塔
+  - >2-
+
+    我想到什麼就說什麼……
+- wait:
+  - 50
+- face:
+  - 105711
+  - 4
+- print:
+  - 吉塔
+  - 腦袋到現在都還沒轉過來。
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_049
+- face:
+  - 105711
+  - 1
+- print:
+  - 吉塔
+  - 謝謝你去幫我問。
+- wait:
+  - 40
+- print:
+  - 吉塔
+  - >2
+
+- face:
+  - 105711
+  - 2
+- print:
+  - 吉塔
+  - 該怎麼說呢，
+- wait:
+  - 30
+- print:
+  - 吉塔
+  - 才沒幾下功夫就決定了好重要的事耶……
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_050
+- face:
+  - 105711
+  - 1
+- print:
+  - 吉塔
+  - 不過現在機會就在眼前，
+- wait:
+  - 40
+- print:
+  - 吉塔
+  - >2-
+
+    只能盡全力做好能力所及的事情了吧。
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_051
+- face:
+  - 105711
+  - 2
+- nod:
+  - 105711
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 吉塔
+  - 反正今天也沒有工作，
+- wait:
+  - 35
+- print:
+  - 吉塔
+  - 好好休息以備明天的戰鬥吧。
+- wait:
+  - 60
+- print:
+  - 吉塔
+  - >2
+
+- face:
+  - 105711
+  - 1
+- print:
+  - 吉塔
+  - 妳也要調整好身體的狀態喔。
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_052
+- face:
+  - 105711
+  - 2
+- emotion:
+  - note1_L
+  - 105711
+  - -90
+  - 490
+  - se_adv_emote_note_01
+- print:
+  - 吉塔
+  - 明天
+- wait:
+  - 20
+- print:
+  - 吉塔
+  - 我們倆一起加油吧！
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+- window_visible:
+  - FALSE
+- fadeout:
+  - 105711
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_room_noise_01
+  - 1
+- background:
+  - 500020
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_outdoors_day_01
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 隔天，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >-
+    {0}與吉塔
+
+    前往商人他們等候的地點赴約。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- chara_full:
+  - 105711
+  - LC
+  - 1
+- chara_full:
+  - 2511
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M129_Ver2_NoB
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1057009_053
+- face:
+  - 2511
+  - 1
+- print:
+  - 商人
+  - 我們已經恭候多時了。
+- wait:
+  - 35
+- print:
+  - 商人
+  - >2-
+
+    以防萬一，
+- wait:
+  - 15
+- print:
+  - 商人
+  - 最後再讓我向兩位確認，
+- wait:
+  - 55
+- print:
+  - 商人
+  - >2
+
+- face:
+  - 2511
+  - 3
+- print:
+  - 商人
+  - 因為我們船員頗具實力，
+- wait:
+  - 50
+- print:
+  - 商人
+  - 即使如此，
+- wait:
+  - 30
+- print:
+  - 商人
+  - 你們還是要打嗎？
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_054
+- face:
+  - 105711
+  - 3
+- nod:
+  - 105711
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 吉塔
+  - ……是的。
+- wait:
+  - 15
+- print:
+  - 吉塔
+  - 我們已經做好覺悟。
+- touch: *o0
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1057009_055
+- face:
+  - 2511
+  - 1
+- print:
+  - 商人
+  - 我明白了。
+- wait:
+  - 25
+- print:
+  - 商人
+  - 看樣子你們已經做好萬全準備了。
+- wait:
+  - 55
+- print:
+  - 商人
+  - >2
+
+- face:
+  - 2511
+  - 6
+- print:
+  - 商人
+  - 喂──！
+- wait:
+  - 20
+- print:
+  - 商人
+  - 出來吧！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- chara_full:
+  - 911
+  - C
+  - 1
+- chara_full:
+  - 1111
+  - R
+  - 1
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - R
+  - 45
+- change:
+  - LC
+  - C
+  - 45
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1057009_056
+- face:
+  - 911
+  - 1
+- nod:
+  - 911
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 船員1
+  - 嘿！
+- wait:
+  - 35
+- print:
+  - 船員1
+  - 你們就是自稱騎空團的傢伙啊！
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 1
+- vo:
+  - vo_adv_1057009_057
+- face:
+  - 105711
+  - 3
+- print:
+  - 吉塔
+  - 請、
+- wait:
+  - 15
+- print:
+  - 吉塔
+  - 請多多指教！
+- touch: *o0
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_1057009_058
+- face:
+  - 1111
+  - 6
+- print:
+  - 船員2
+  - 我看妳還很年輕，
+- wait:
+  - 35
+- print:
+  - 船員2
+  - 妳真的確定嗎？
+- wait:
+  - 40
+- print:
+  - 船員2
+  - >2-
+
+    要是受傷了我可不管喔？
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1057009_059
+- face:
+  - 911
+  - 1
+- nod:
+  - 911
+- se:
+  - se_adv_step_concrete_move_01
+- print:
+  - 船員1
+  - 這小子說得沒錯。
+- wait:
+  - 40
+- print:
+  - 船員1
+  - 多點人手減輕我們的工作負擔是不錯，
+- wait:
+  - 55
+- print:
+  - 船員1
+  - >2
+
+- face:
+  - 911
+  - 3
+- print:
+  - 船員1
+  - 但也因此更加不能對你們放水。
+- wait:
+  - 35
+- print:
+  - 船員1
+  - 我們會認真打喔！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105711
+  - C
+  - 3
+- fadein:
+  - 105711
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_060
+- face:
+  - 105711
+  - 3
+- print:
+  - 吉塔
+  - 求之不得！
+- wait:
+  - 15
+- print:
+  - 吉塔
+  - 來吧！
+- touch: *o0
+- bgm:
+  - stop
+  - 3.5
+  - 1
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 1
+- vo:
+  - vo_adv_1057009_061
+- face:
+  - 2511
+  - 1
+- print:
+  - 商人
+  - 那麼就……
+- wait:
+  - 45
+- face:
+  - 2511
+  - 3
+- print:
+  - 商人
+  - 開始吧！
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 3
+- text_size:
+  - 50
+- window_visible:
+  - true
+- bgm:
+  - bgm_MG04
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_062
+- face:
+  - 105711
+  - 3
+- print:
+  - 吉塔
+  - 喝啊啊啊啊！
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- effect:
+  - 0009
+- se:
+  - se_adv_move_fast_02
+- scale:
+  - 105711
+  - 1.2
+  - 2
+  - 10
+- fadeout:
+  - 105711
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- se:
+  - se_adv_weapon_sword_whiff_01
+- effect:
+  - 0001
+- wait:
+  - 5
+- se:
+  - se_adv_weapon_sword_repel_01
+- effect:
+  - 0045
+- wait:
+  - 15
+- background:
+  - 500020
+- chara_full:
+  - 911
+  - C
+  - 6
+- fadein:
+  - 911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1057009_063
+- face:
+  - 911
+  - 6
+- nod:
+  - 911
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 船員1
+  - 喔喔！？
+- wait:
+  - 15
+- face:
+  - 911
+  - 2
+- print:
+  - 船員1
+  - 哈哈！
+- wait:
+  - 30
+- print:
+  - 船員1
+  - >2-
+
+    看來妳有兩把刷子嘛，小姐！
+- wait:
+  - 50
+- print:
+  - 船員1
+  - 看招！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0009
+- se:
+  - se_adv_move_fast_02
+- scale:
+  - 911
+  - 1.2
+  - 1
+  - 10
+- fadeout:
+  - 911
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- se:
+  - se_adv_weapon_sword_whiff_01
+- effect:
+  - 0001
+- wait:
+  - 15
+- background:
+  - 500020
+- chara_full:
+  - 105711
+  - C
+  - 4
+- scale:
+  - 105711
+  - 1.3
+  - 2
+- fadein:
+  - 105711
+  - 15
+- se:
+  - se_adv_sliding_dirt_01
+- scale:
+  - 105711
+  - 1
+  - 2
+  - 5
+- window_visible:
+  - true
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_064
+- face:
+  - 105711
+  - 4
+- print:
+  - 吉塔
+  - 呀
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 吉塔
+  - 啊！
+- shake:
+  - 105711
+- wait:
+  - 15
+- print:
+  - 吉塔
+  - 糟糕，
+- wait:
+  - 20
+- print:
+  - 吉塔
+  - 沒能先下手為強……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105711
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 1111
+  - C
+  - 1
+- fadein:
+  - 1111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_1057009_065
+- face:
+  - 1111
+  - 1
+- print:
+  - 船員2
+  - 那邊就拜託啦！
+- wait:
+  - 20
+- face:
+  - 1111
+  - 3
+- print:
+  - 船員2
+  - 你的對手是我！
+- wait:
+  - 45
+- print:
+  - 船員2
+  - 喝啊！
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 1
+- vo:
+  - vo_adv_1057009_066
+- face:
+  - 105711
+  - 3
+- print:
+  - 吉塔
+  - 小心！
+- touch: *o0
+- choice:
+  - 我知道！交給我！
+  - 8
+- tag:
+  - 8
+- window_visible:
+  - false
+- focus:
+  - 1111
+- effect:
+  - 0009
+- se:
+  - se_adv_move_fast_02
+- scale:
+  - 1111
+  - 1.2
+  - 1
+  - 10
+- fadeout:
+  - 1111
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- camera_zoom:
+  - 1.3
+  - 1
+- se:
+  - se_adv_weapon_sword_whiff_01
+- effect:
+  - 0001
+- wait:
+  - 5
+- effect:
+  - 0045
+  - se_adv_weapon_sword_repel_01
+- wait:
+  - 15
+- background:
+  - 500020
+- camera_zoom:
+  - 1
+  - 5
+- shake_loop: *o0
+- se:
+  - se_adv_sliding_dirt_01
+- wait:
+  - 15
+- shake_delete: *o0
+- chara_full:
+  - 1111
+  - C
+  - 4
+- fadein:
+  - 1111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_1057009_067
+- face:
+  - 1111
+  - 4
+- print:
+  - 船員2
+  - 還以為你是個軟腳蝦，
+- wait:
+  - 25
+- print:
+  - 船員2
+  - 想不到防禦得倒是挺扎實的嘛……
+- wait:
+  - 50
+- print:
+  - 船員2
+  - >2
+
+- face:
+  - 1111
+  - 3
+- print:
+  - 船員2
+  - 但是你不反擊的話，
+- wait:
+  - 40
+- print:
+  - 船員2
+  - 我就一鼓作氣打倒你！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0009
+- se:
+  - se_adv_move_fast_02
+- scale:
+  - 1111
+  - 1.2
+  - 1
+  - 10
+- fadeout:
+  - 1111
+  - 10
+- effect_delete:
+  - 0009
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 105711
+  - C
+  - 3
+- fadein:
+  - 105711
+  - 30
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_068
+- face:
+  - 105711
+  - 3
+- print:
+  - 吉塔
+  - 他替我引開了另一個人……
+- wait:
+  - 30
+- print:
+  - 吉塔
+  - >2-
+
+    我得趁現在先拿下一個才行！　
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- fadeout:
+  - 105711
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 911
+  - C
+  - 3
+- fadein:
+  - 911
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1057009_069
+- face:
+  - 911
+  - 3
+- print:
+  - 船員1
+  - 喂喂喂！
+- wait:
+  - 30
+- print:
+  - 船員1
+  - 妳一開始的氣勢呢！？
+- wait:
+  - 30
+- print:
+  - 船員1
+  - >2-
+
+    該不會已經退縮了吧！？
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0009
+- se:
+  - se_adv_move_fast_02
+- scale:
+  - 911
+  - 1.2
+  - 1
+  - 10
+- fadeout:
+  - 911
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- se:
+  - se_adv_weapon_sword_whiff_01
+- effect:
+  - 0001
+- wait:
+  - 5
+- se:
+  - se_adv_weapon_sword_repel_01
+- effect:
+  - 0045
+- wait:
+  - 15
+- background:
+  - 500020
+- chara_full:
+  - 105711
+  - C
+  - 3
+- scale:
+  - 105711
+  - 1.3
+  - 2
+- fadein:
+  - 105711
+  - 15
+- se:
+  - se_adv_knock_back_01
+- scale:
+  - 105711
+  - 1
+  - 2
+  - 5
+- window_visible:
+  - true
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_070
+- face:
+  - 105711
+  - 3
+- print:
+  - 吉塔
+  - 那是……
+- wait:
+  - 15
+- print:
+  - 吉塔
+  - 不可能的！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105711
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 911
+  - C
+  - 3
+- fadein:
+  - 911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1057009_071
+- face:
+  - 911
+  - 3
+- nod:
+  - 911
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 船員1
+  - 哼！
+- wait:
+  - 15
+- print:
+  - 船員1
+  - 看招！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0009
+- se:
+  - se_adv_move_fast_02
+- scale:
+  - 911
+  - 1.2
+  - 1
+  - 10
+- fadeout:
+  - 911
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- se:
+  - se_adv_weapon_sword_whiff_01
+- effect:
+  - 0001
+- wait:
+  - 5
+- se:
+  - se_adv_weapon_sword_repel_01
+- effect:
+  - 0045
+- wait:
+  - 15
+- background:
+  - 500020
+- chara_full:
+  - 105711
+  - C
+  - 3
+- fadein:
+  - 105711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_072
+- face:
+  - 105711
+  - 3
+- print:
+  - 吉塔
+  - 嗚
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 吉塔
+  - ！
+- shake:
+  - 105711
+- wait:
+  - 5
+- print:
+  - 吉塔
+  - 喝啊！！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0009
+- se:
+  - se_adv_move_fast_02
+- scale:
+  - 105711
+  - 1.2
+  - 2
+  - 10
+- fadeout:
+  - 105711
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- se:
+  - se_adv_weapon_sword_whiff_01
+- effect:
+  - 0001
+- wait:
+  - 15
+- background:
+  - 500020
+- chara_full:
+  - 911
+  - C
+  - 3
+- scale:
+  - 911
+  - 1.3
+  - 1
+- fadein:
+  - 911
+  - 15
+- se:
+  - se_adv_knock_back_01
+- scale:
+  - 911
+  - 1
+  - 2
+  - 5
+- window_visible:
+  - true
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1057009_073
+- face:
+  - 911
+  - 3
+- print:
+  - 船員1
+  - 可惡！
+- wait:
+  - 15
+- face:
+  - 911
+  - 1
+- print:
+  - 船員1
+  - 有妳的！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 911
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 105711
+  - C
+  - 3
+- fadein:
+  - 105711
+  - 30
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_074
+- face:
+  - 105711
+  - 3
+- print:
+  - 吉塔
+  - 就是現在！　
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - TRUE
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_075
+- face:
+  - 105711
+  - 3
+- print:
+  - 吉塔
+  - 拜託了！
+- touch: *o0
+- choice:
+  - 了解！
+  - 9
+- tag:
+  - 9
+- effect:
+  - 0076
+  - se_adv_magic_cmn_medium_02
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 1
+- vo:
+  - vo_adv_1057009_076
+- face:
+  - 1111
+  - 6
+- print:
+  - 船員2
+  - 這傢伙怎麼了？
+- wait:
+  - 35
+- print:
+  - 船員2
+  - 她的身體……！？
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 1
+- vo:
+  - vo_adv_1057009_077
+- face:
+  - 911
+  - 6
+- print:
+  - 船員1
+  - 竟然發光了！？
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_078
+- face:
+  - 105711
+  - 3
+- print:
+  - 吉塔
+  - 一口氣上囉──
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 3
+- text_size:
+  - 38
+- window_visible:
+  - true
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_079
+- face:
+  - 105711
+  - 3
+- print:
+  - 吉塔
+  - 喝啊啊啊啊！
+- wait:
+  - 15
+- print:
+  - 吉塔
+  - 暴風之刃！！
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- effect_delete:
+  - 0076
+  - 5
+- effect:
+  - 0009
+- se:
+  - se_adv_move_fast_02
+- scale:
+  - 105711
+  - 1.2
+  - 2
+  - 10
+- fadeout:
+  - 105711
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0001
+  - se_adv_weapon_sword_hit_01
+- wait:
+  - 7
+- effect:
+  - 0001
+  - se_adv_weapon_sword_hit_01
+  - -90
+- wait:
+  - 15
+- effect:
+  - 0016
+  - se_adv_weapon_sword_hit_02
+- wait:
+  - 15
+- background:
+  - 500020
+- chara_full:
+  - 911
+  - C
+  - 4
+- fadein:
+  - 911
+  - 30
+- change_window:
+  - 3
+- text_size:
+  - 50
+- window_visible:
+  - true
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1057009_080
+- face:
+  - 911
+  - 4
+- print:
+  - 船員1
+  - 唔哇啊啊啊！
+- sway:
+  - 911
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- se:
+  - se_adv_cloth_move_give_01
+- updown:
+  - 911
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 911
+  - 30
+- se:
+  - se_adv_bodyfall_02
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 105711
+  - C
+  - 1
+- fadein:
+  - 105711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_081
+- face:
+  - 105711
+  - 1
+- print:
+  - 吉塔
+  - 好！
+- wait:
+  - 10
+- face:
+  - 105711
+  - 3
+- print:
+  - 吉塔
+  - 還剩一個人！
+- touch: *o0
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 1
+- vo:
+  - vo_adv_1057009_082
+- face:
+  - 1111
+  - 6
+- print:
+  - 船員2
+  - 什麼！？
+- wait:
+  - 15
+- print:
+  - 船員2
+  - 他被幹掉了嗎！？
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 3
+- text_size:
+  - 38
+- window_visible:
+  - true
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_083
+- face:
+  - 105711
+  - 3
+- print:
+  - 吉塔
+  - 這下就！
+- wait:
+  - 10
+- print:
+  - 吉塔
+  - 結束了！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0009
+- se:
+  - se_adv_move_fast_02
+- scale:
+  - 105711
+  - 1.2
+  - 2
+  - 10
+- fadeout:
+  - 105711
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- se:
+  - se_adv_weapon_sword_multi_hit_01
+- effect:
+  - 0033
+- wait:
+  - 15
+- background:
+  - 500020
+- chara_full:
+  - 1111
+  - C
+  - 4
+- fadein:
+  - 1111
+  - 30
+- text_size:
+  - 50
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 4.5
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_1057009_084
+- face:
+  - 1111
+  - 4
+- print:
+  - 船員2
+  - 哇啊啊啊！
+- sway:
+  - 1111
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- se:
+  - se_adv_cloth_move_give_01
+- updown:
+  - 1111
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1111
+  - 30
+- se:
+  - se_adv_bodyfall_02
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 2511
+  - C
+  - 1
+- fadein:
+  - 2511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1057009_085
+- face:
+  - 2511
+  - 1
+- print:
+  - 商人
+  - 勝負已分……
+- wait:
+  - 25
+- print:
+  - 商人
+  - 沒錯吧。
+- wait:
+  - 25
+- print:
+  - 商人
+  - >2
+
+- face:
+  - 2511
+  - 3
+- print:
+  - 商人
+  - 全部都停手！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 2511
+  - 30
+- chara_full:
+  - 105711
+  - C
+  - 3
+- fadein:
+  - 105711
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M273_Ver2
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_086
+- face:
+  - 105711
+  - 3
+- print:
+  - 吉塔
+  - 呼、
+- wait:
+  - 25
+- face:
+  - 105711
+  - 1
+- nod:
+  - 105711
+- print:
+  - 吉塔
+  - 呼
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 吉塔
+  - ……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105711
+  - 30
+- chara_full:
+  - 911
+  - LC
+  - 4
+- chara_full:
+  - 1111
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1057009_087
+- face:
+  - 911
+  - 4
+- print:
+  - 船員1
+  - 痛痛痛痛……
+- shake:
+  - 911
+- se:
+  - se_adv_standup
+- wait:
+  - 35
+- print:
+  - 船員1
+  - 我們是真的認真在打的啊。
+- touch: *o0
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_1057009_088
+- face:
+  - 1111
+  - 4
+- nod:
+  - 1111
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 船員2
+  - 對啊，
+- wait:
+  - 20
+- print:
+  - 船員2
+  - 你們倆贏得很精彩，
+- wait:
+  - 50
+- print:
+  - 船員2
+  - 我們認輸了。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 2511
+  - RC
+  - 1
+- chara_full:
+  - 105711
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1057009_089
+- face:
+  - 2511
+  - 1
+- print:
+  - 商人
+  - 現在我已經親眼見證了
+- wait:
+  - 40
+- print:
+  - 商人
+  - 兩位的實力。
+- wait:
+  - 45
+- print:
+  - 商人
+  - >2-
+
+    你們願意接下
+- wait:
+  - 45
+- print:
+  - 商人
+  - 我們商會的委託嗎？
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_090
+- face:
+  - 105711
+  - 2
+- nod:
+  - 105711
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 吉塔
+  - ……是！
+- wait:
+  - 10
+- print:
+  - 吉塔
+  - 我們當然願意！
+- touch: *o0
+- face:
+  - 105711
+  - 1
+- focus:
+  - 2511
+- bust:
+  - 2511
+  - 0
+- vo:
+  - vo_adv_1057009_091
+- face:
+  - 2511
+  - 2
+- print:
+  - 商人
+  - 那麼就成交了。
+- wait:
+  - 40
+- face:
+  - 2511
+  - 1
+- print:
+  - 商人
+  - 我準備了詳列所以條件的契約書，
+- wait:
+  - 40
+- print:
+  - 商人
+  - >2-
+
+    還請兩位在上頭簽名。
+- wait:
+  - 25
+- print:
+  - 商人
+  - 我這就去拿來。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - R
+  - RC
+  - 30
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105711
+  - C
+  - 1
+- fadein:
+  - 105711
+  - 30
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- window_visible:
+  - true
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_092
+- face:
+  - 105711
+  - 1
+- print:
+  - 吉塔
+  - ……太好了。
+- wait:
+  - 20
+- face:
+  - 105711
+  - 2
+- pop:
+  - 105711
+- print:
+  - 吉塔
+  - 太
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 吉塔
+  - 好啦──！
+- wait:
+  - 35
+- print:
+  - 吉塔
+  - >2-
+
+    我們成功了！
+- wait:
+  - 20
+- print:
+  - 吉塔
+  - 啊哈哈！
+- touch: *o0
+- choice:
+  - 對啊！真是太好了，吉塔！
+  - 10
+- tag:
+  - 10
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_093
+- face:
+  - 105711
+  - 1
+- print:
+  - 吉塔
+  - 剛才的時機
+- wait:
+  - 20
+- print:
+  - 吉塔
+  - 掌握得非常完美喔！
+- wait:
+  - 15
+- print:
+  - 吉塔
+  - 謝謝你！
+- wait:
+  - 30
+- print:
+  - 吉塔
+  - >2-
+
+    那時要是錯失一舉進攻的機會，
+- wait:
+  - 20
+- print:
+  - 吉塔
+  - 可能就危險了……
+- touch: *o0
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_094
+- face:
+  - 105711
+  - 5
+- print:
+  - 吉塔
+  - ……這樣一來，
+- wait:
+  - 25
+- print:
+  - 吉塔
+  - 我們真的能上天空工作了呢。
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_095
+- face:
+  - 105711
+  - 5
+- eye_open:
+  - False
+- print:
+  - 吉塔
+  - 我辦到了，爸爸……
+- wait:
+  - 35
+- print:
+  - 吉塔
+  - 雖然只能一步一步來，
+- wait:
+  - 30
+- print:
+  - 吉塔
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 吉塔
+  - 但我覺得今天
+- wait:
+  - 15
+- print:
+  - 吉塔
+  - 又更加靠近你一些了。
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - TRUE
+- focus:
+  - 105711
+- bust:
+  - 105711
+  - 0
+- vo:
+  - vo_adv_1057009_096
+- face:
+  - 105711
+  - 1
+- print:
+  - 吉塔
+  - 上了空中世界之後
+- wait:
+  - 25
+- print:
+  - 吉塔
+  - 也繼續一起加油吧！
+- wait:
+  - 30
+- face:
+  - 105711
+  - 2
+- print:
+  - 吉塔
+  - 我們倆一起！
+- touch: *o0
+- window_visible:
+  - FALSE
+- effect_delete:
+  - 0022
+  - 15
+- fadeout:
+  - 105711
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - ──吉塔與{0}為勝利感到喜悅，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    同時滿心期待即將在空中開始的工作。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- se_pause:
+  - amb_adv_outdoors_day_01
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

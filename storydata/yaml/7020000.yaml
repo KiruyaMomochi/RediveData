@@ -1,0 +1,790 @@
+- title:
+  - 去吧搞笑鯛魚燒隊
+- outline:
+  - 為了尋求究極鯛魚燒的食材，珠希和真陽來到了露娜之塔，並請{0}帶路。{0}雖然對她們的目的感到疑惑，還是被她們強硬地說服，啟程和她們一起登塔了。
+- background:
+  - 500420
+- se:
+  - amb_adv_forest_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 去吧搞笑鯛魚燒隊
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 在聳立天際的露娜之塔下，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    有三個人影仰望著那遙遠的頂端。
+- wait:
+  - 30
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 103311
+  - LC
+  - 6
+- chara_full:
+  - 104611
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M156
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_7020000_000
+- face:
+  - 104611
+  - 1
+- print:
+  - 珠希
+  - 終於來到了
+- wait:
+  - 25
+- print:
+  - 珠希
+  - 露娜之塔喵！
+- wait:
+  - 45
+- eye_open:
+  - False
+- print:
+  - 珠希
+  - 這肅穆的氣氛，
+- wait:
+  - 55
+- print:
+  - 珠希
+  - >2
+
+- eye_open:
+  - True
+- print:
+  - 珠希
+  - 讓我的尾巴不斷感應到，來這裡肯定沒錯喵！
+- se:
+  - se_adv_body_shake_head_01
+- touch: *o0
+- focus:
+  - 103311
+- bust:
+  - 103311
+  - 0
+- vo:
+  - vo_adv_7020000_001
+- face:
+  - 103311
+  - 6
+- nod:
+  - 103311
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 真陽
+  - 哦哦～
+- wait:
+  - 30
+- print:
+  - 真陽
+  - 實在太高了，完全看不見塔頂的啦。
+- wait:
+  - 70
+- print:
+  - 真陽
+  - >2-
+
+    我本來只有想像它差不多像王宮那麼大，
+- wait:
+  - 45
+- print:
+  - 真陽
+  - 所以好驚訝。
+- touch: *o0
+- focus:
+  - 103311
+- bust:
+  - 103311
+  - 0
+- vo:
+  - vo_adv_7020000_002
+- face:
+  - 103311
+  - 6
+- print:
+  - 真陽
+  - 雖然有點嚇人，
+- wait:
+  - 40
+- face:
+  - 103311
+  - 1
+- print:
+  - 真陽
+  - 但只要在這裡爬到最後，
+- wait:
+  - 30
+- print:
+  - 真陽
+  - 我一定也能
+- wait:
+  - 30
+- print:
+  - 真陽
+  - >2
+
+- face:
+  - 103311
+  - 2
+- print:
+  - 真陽
+  - 抵達搞笑的頂點啦！
+- touch: *o0
+- focus:
+  - 103311
+- bust:
+  - 103311
+  - 0
+- vo:
+  - vo_adv_7020000_003
+- face:
+  - 103311
+  - 1
+- print:
+  - 真陽
+  - 所以說了，
+- wait:
+  - 25
+- print:
+  - 真陽
+  - 就拜託你帶路囉，
+- wait:
+  - 30
+- print:
+  - 真陽
+  - 老哥！
+- touch: *o0
+- face:
+  - 103311
+  - 1
+- choice:
+  - 呃，這是什麼情況？
+  - 1
+- tag:
+  - 1
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_7020000_004
+- face:
+  - 104611
+  - 4
+- print:
+  - 珠希
+  - 真抱歉突然在你路過的時候把你帶過來喵，
+- wait:
+  - 65
+- print:
+  - 珠希
+  - >2
+
+- face:
+  - 104611
+  - 3
+- print:
+  - 珠希
+  - 其實我是聽傳聞說這座塔裡
+- wait:
+  - 40
+- print:
+  - 珠希
+  - 有著不得了的寶物喵。
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_7020000_005
+- face:
+  - 104611
+  - 2
+- emotion:
+  - twinkle1_R
+  - 104611
+  - -100
+  - 505
+  - se_adv_emote_twinkle_01
+- print:
+  - 珠希
+  - 那一定就是
+- wait:
+  - 30
+- print:
+  - 珠希
+  - 究極鯛魚燒的食材，不會有錯的喵。
+- wait:
+  - 80
+- print:
+  - 珠希
+  - >2
+
+- face:
+  - 104611
+  - 4
+- print:
+  - 珠希
+  - 但是，
+- wait:
+  - 20
+- print:
+  - 珠希
+  - 我對這座塔並不熟悉喵。
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_7020000_006
+- face:
+  - 104611
+  - 1
+- print:
+  - 珠希
+  - 所以我去問真陽
+- wait:
+  - 30
+- print:
+  - 珠希
+  - 有沒有認識對這座塔很熟悉的人，
+- wait:
+  - 45
+- print:
+  - 珠希
+  - >2-
+
+    她就說了你是不二人選喵。
+- touch: *o0
+- focus:
+  - 103311
+- bust:
+  - 103311
+  - 0
+- vo:
+  - vo_adv_7020000_007
+- face:
+  - 103311
+  - 6
+- print:
+  - 真陽
+  - 我之前聽莉瑪莉瑪說，
+- wait:
+  - 30
+- print:
+  - 真陽
+  - 她有和老哥你們
+- wait:
+  - 25
+- print:
+  - 真陽
+  - 一起爬上去過，
+- wait:
+  - 50
+- print:
+  - 真陽
+  - >2
+
+- face:
+  - 103311
+  - 4
+- print:
+  - 真陽
+  - 所以不好意思啦，
+- wait:
+  - 45
+- face:
+  - 103311
+  - 6
+- print:
+  - 真陽
+  - 拜託你幫忙我們一下。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- chara_full:
+  - 103311
+  - C
+  - 6
+- fadein:
+  - 103311
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 103311
+- bust:
+  - 103311
+  - 0
+- vo:
+  - vo_adv_7020000_008
+- face:
+  - 103311
+  - 6
+- print:
+  - 真陽
+  - 而且，
+- wait:
+  - 30
+- print:
+  - 真陽
+  - 有老哥你在的話，
+- wait:
+  - 25
+- print:
+  - 真陽
+  - 我搞不好有機會看到喔。
+- touch: *o0
+- focus:
+  - 103311
+- bust:
+  - 103311
+  - 0
+- vo:
+  - vo_adv_7020000_009
+- face:
+  - 103311
+  - 1
+- print:
+  - 真陽
+  - 看到小希希真正的實力……
+- touch: *o0
+- choice:
+  - （難不成她察覺到珠希是幻影貓了？）
+  - 2
+- tag:
+  - 2
+- window_visible:
+  - FALSE
+- fadeout:
+  - 103311
+  - 30
+- chara_full:
+  - 103311
+  - LC
+  - 1
+- chara_full:
+  - 104611
+  - RC
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_7020000_010
+- face:
+  - 104611
+  - 3
+- nod:
+  - 104611
+- se:
+  - se_adv_step_leaves_move_01
+- print:
+  - 珠希
+  - 好啦，
+- wait:
+  - 15
+- print:
+  - 珠希
+  - 沒時間站著聊天了喵！
+- wait:
+  - 50
+- print:
+  - 珠希
+  - >2
+
+- face:
+  - 104611
+  - 4
+- print:
+  - 珠希
+  - 在我們還處在這裡時，
+- wait:
+  - 25
+- print:
+  - 珠希
+  - 食材搞不好
+- wait:
+  - 10
+- print:
+  - 珠希
+  - >2-
+
+    已經被人搶走了也說不定喵。
+- touch: *o0
+- choice:
+  - （會有來搶的人嗎……）
+  - 3
+- choice:
+  - 我想那裡應該沒有做鯛魚燒的材料喔……
+  - 4
+- tag:
+  - 3
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- chara_full:
+  - 104611
+  - C
+  - 3
+- fadein:
+  - 104611
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_7020000_011
+- face:
+  - 104611
+  - 3
+- emotion:
+  - anger1_R
+  - 104611
+  - -80
+  - 550
+  - se_adv_emote_anger_01
+- print:
+  - 珠希
+  - 你為什麼露出那麼質疑的眼光喵？
+- wait:
+  - 75
+- print:
+  - 珠希
+  - >2
+
+- face:
+  - 104611
+  - 6
+- print:
+  - 珠希
+  - 你該不會是在想
+- wait:
+  - 30
+- print:
+  - 珠希
+  - 除了我以外才沒有人
+- wait:
+  - 25
+- print:
+  - 珠希
+  - >2-
+
+    會來找鯛魚燒食材喵？
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_7020000_012
+- face:
+  - 104611
+  - 3
+- eye_open:
+  - False
+- print:
+  - 珠希
+  - 天真，太天真了喵！
+- wait:
+  - 60
+- eye_open:
+  - True
+- print:
+  - 珠希
+  - 究極鯛魚燒的價值，等同於金銀財寶喵！
+- wait:
+  - 80
+- print:
+  - 珠希
+  - >2-
+
+    它肯定不分晝夜都被全世界的盜賊和冒險者覬覦著喵！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 104611
+  - 30
+- chara_full:
+  - 103311
+  - LC
+  - 6
+- chara_full:
+  - 104611
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- goto:
+  - 5
+- tag:
+  - 4
+- focus:
+  - 103311
+- bust:
+  - 103311
+  - 0
+- vo:
+  - vo_adv_7020000_013
+- face:
+  - 103311
+  - 6
+- emotion:
+  - question1_R
+  - 103311
+  - 115
+  - 455
+  - se_adv_emote_question_01
+- print:
+  - 真陽
+  - 哎呀？
+- wait:
+  - 30
+- print:
+  - 真陽
+  - 老哥難得會說消極的話呢。
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_7020000_014
+- face:
+  - 104611
+  - 6
+- print:
+  - 珠希
+  - 因為他經歷過這座塔喵。
+- wait:
+  - 65
+- print:
+  - 珠希
+  - >2-
+
+    我想他應該是知道這座塔的危險，才會那麼說吧，
+- wait:
+  - 50
+- face:
+  - 104611
+  - 1
+- print:
+  - 珠希
+  - 但沒問題喵！
+- touch: *o0
+- focus:
+  - 103311
+- bust:
+  - 103311
+  - 0
+- vo:
+  - vo_adv_7020000_015
+- face:
+  - 103311
+  - 1
+- nod:
+  - 103311
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 真陽
+  - 對啊對啊。
+- wait:
+  - 40
+- print:
+  - 真陽
+  - 有我和小希希在，就沒什麼好怕的啦。
+- touch: *o0
+- tag:
+  - 5
+- focus:
+  - 103311
+- bust:
+  - 103311
+  - 0
+- vo:
+  - vo_adv_7020000_016
+- face:
+  - 103311
+  - 6
+- print:
+  - 真陽
+  - 老哥，
+- wait:
+  - 25
+- print:
+  - 真陽
+  - 你該不會其實不太想登塔吧？
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_7020000_017
+- face:
+  - 104611
+  - 4
+- print:
+  - 珠希
+  - 真拿你沒辦法喵。
+- wait:
+  - 70
+- face:
+  - 104611
+  - 2
+- print:
+  - 珠希
+  - 既然如此，作為請你幫忙的酬勞，
+- wait:
+  - 45
+- print:
+  - 珠希
+  - >2-
+
+    我會最先請你吃究極鯛魚燒喵！
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_7020000_018
+- face:
+  - 104611
+  - 1
+- print:
+  - 珠希
+  - 哼哼，
+- wait:
+  - 25
+- print:
+  - 珠希
+  - 這樣你應該有幹勁了喵？
+- wait:
+  - 40
+- print:
+  - 珠希
+  - >2
+
+- face:
+  - 104611
+  - 2
+- print:
+  - 珠希
+  - 我就不聽你的回答了喵。
+- wait:
+  - 30
+- nod:
+  - 104611
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 珠希
+  - 那我們就出發喵！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 就這樣，{0}被兩人強硬說服，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - >2-
+
+    和她們一起去登塔了。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 1
+  - 1
+- se_pause:
+  - amb_adv_forest_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

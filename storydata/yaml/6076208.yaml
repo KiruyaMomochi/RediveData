@@ -1,0 +1,306 @@
+- title:
+  - いたずらするなら
+- outline:
+  - ' '
+- background:
+  - 501132
+- amb:
+  - amb_adv_outdoors_night_01
+- ui_visible:
+  - FALSE
+- situation:
+  - いたずらするなら
+- chara_full:
+  - 114011
+  - C
+  - 1
+- fadein:
+  - 114011
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M266
+  - 0
+  - 0
+  - 1
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050208_000
+- face:
+  - 114011
+  - 1
+- print:
+  - レイ
+  - 街を歩いていたら
+- wait:
+  - 35
+- print:
+  - レイ
+  - 子どもたちにお菓子をねだられたよ。
+- wait:
+  - 45
+- print:
+  - レイ
+  - >2
+
+- face:
+  - 114011
+  - 6
+- print:
+  - レイ
+  - あいにく持ち合わせがなくていたずらされてしまったけど、
+- wait:
+  - 45
+- print:
+  - レイ
+  - >2
+
+- face:
+  - 114011
+  - 2
+- print:
+  - レイ
+  - ハロウィンだと思えば
+- wait:
+  - 20
+- print:
+  - レイ
+  - 楽しいものだね。
+- touch: &o0 []
+- choice:
+  - トリックオアトリート！
+  - 1
+  - 1
+- choice:
+  - お菓子をあげる。
+  - 2
+  - 2
+- choice:
+  - いたずらされるのが好き？
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050208_001
+- face:
+  - 114011
+  - 6
+- emotion:
+  - sweat2_R
+  - 114011
+  - 65
+  - 510
+  - se_adv_emote_sweat_02
+- print:
+  - レイ
+  - え？　
+- wait:
+  - 5
+- print:
+  - レイ
+  - キ、
+- wait:
+  - 10
+- print:
+  - レイ
+  - キミも？
+- wait:
+  - 25
+- print:
+  - レイ
+  - >2
+
+- face:
+  - 114011
+  - 5
+- print:
+  - レイ
+  - い、
+- wait:
+  - 15
+- print:
+  - レイ
+  - いや、
+- wait:
+  - 25
+- print:
+  - レイ
+  - さすがにキミからいたずらされるのは恥ずかしいな……
+- wait:
+  - 95
+- print:
+  - レイ
+  - >2
+
+- face:
+  - 114011
+  - 6
+- print:
+  - レイ
+  - ……
+- wait:
+  - 30
+- print:
+  - レイ
+  - 冗談？　
+- wait:
+  - 70
+- face:
+  - 114011
+  - 2
+- print:
+  - レイ
+  - なるほど、
+- wait:
+  - 30
+- print:
+  - レイ
+  - 今のがイタズラだったのか。
+- wait:
+  - 40
+- print:
+  - レイ
+  - 一本取られたよ。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050208_002
+- face:
+  - 114011
+  - 6
+- nod:
+  - 114011
+- print:
+  - レイ
+  - わっ、
+- wait:
+  - 20
+- print:
+  - レイ
+  - こんなにたくさん？
+- wait:
+  - 40
+- print:
+  - レイ
+  - >2
+
+- face:
+  - 114011
+  - 1
+- print:
+  - レイ
+  - これだけあれば
+- wait:
+  - 25
+- print:
+  - レイ
+  - さっきの子どもたちに渡せそうだ。
+- wait:
+  - 40
+- print:
+  - レイ
+  - >2-
+
+    一緒に渡しに行こう。
+- wait:
+  - 35
+- face:
+  - 114011
+  - 2
+- print:
+  - レイ
+  - きっと喜んでもらえるよ。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050208_003
+- face:
+  - 114011
+  - 4
+- print:
+  - レイ
+  - いや、
+- wait:
+  - 20
+- print:
+  - レイ
+  - 楽しそうな子どもたちを見ていると
+- wait:
+  - 45
+- print:
+  - レイ
+  - こちらまで
+- wait:
+  - 10
+- print:
+  - レイ
+  - >2-
+
+    明るくなれるというだけで……
+- wait:
+  - 75
+- face:
+  - 114011
+  - 6
+- print:
+  - レイ
+  - キミ、
+- wait:
+  - 35
+- print:
+  - レイ
+  - ひょっとして今
+- wait:
+  - 20
+- print:
+  - レイ
+  - >2-
+
+    いたずらしようとしていた？
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 114011
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

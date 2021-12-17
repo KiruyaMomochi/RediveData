@@ -1,0 +1,352 @@
+- title:
+  - 名家令嬢の憂鬱
+- outline:
+  - ' '
+- background:
+  - 500036
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 名家令嬢の憂鬱
+- chara_full:
+  - 114411
+  - C
+  - 6
+- fadein:
+  - 114411
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M427_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054102_000
+- face:
+  - 114411
+  - 6
+- print:
+  - アキノ
+  - 取引先との会合や、
+- wait:
+  - 50
+- print:
+  - アキノ
+  - 著名人が集う社交の場など、
+- wait:
+  - 60
+- print:
+  - アキノ
+  - >2-
+
+    商売のためなら
+- wait:
+  - 30
+- print:
+  - アキノ
+  - どんな集まりでも参加してきましたが、
+- wait:
+  - 55
+- print:
+  - アキノ
+  - >2
+
+- face:
+  - 114411
+  - 4
+- print:
+  - アキノ
+  - お見合いパーティーだけは、
+- wait:
+  - 40
+- print:
+  - アキノ
+  - ちょっと……
+- touch: &o0 []
+- choice:
+  - アキノさんとなら楽しめそう。
+  - 1
+  - 1
+- choice:
+  - 苦手なの？
+  - 2
+  - 2
+- choice:
+  - 同意見。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054102_001
+- face:
+  - 114411
+  - 6
+- print:
+  - アキノ
+  - ……っ！
+- shake:
+  - 114411
+- print:
+  - アキノ
+  - 　
+- wait:
+  - 10
+- print:
+  - アキノ
+  - そ、
+- wait:
+  - 30
+- print:
+  - アキノ
+  - そうですの！
+- wait:
+  - 55
+- print:
+  - アキノ
+  - >2
+
+- face:
+  - 114411
+  - 5
+- print:
+  - アキノ
+  - ……じ、
+- wait:
+  - 40
+- print:
+  - アキノ
+  - 実は
+- wait:
+  - 30
+- print:
+  - アキノ
+  - 私も、
+- wait:
+  - 50
+- print:
+  - アキノ
+  - あなたさまと一緒なら
+- wait:
+  - 25
+- print:
+  - アキノ
+  - 楽しいのではないかと、
+- wait:
+  - 15
+- print:
+  - アキノ
+  - >2-
+
+    そう思って
+- wait:
+  - 60
+- face:
+  - 114411
+  - 6
+- print:
+  - アキノ
+  - ……わ、
+- wait:
+  - 55
+- print:
+  - アキノ
+  - 私！　
+- wait:
+  - 70
+- face:
+  - 114411
+  - 5
+- eye_open:
+  - False
+- wait:
+  - 15
+- print:
+  - アキノ
+  - の、
+- wait:
+  - 50
+- eye_open:
+  - True
+- print:
+  - アキノ
+  - 飲み物をとってまいりますわ！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054102_002
+- face:
+  - 114411
+  - 4
+- nod:
+  - 114411
+- print:
+  - アキノ
+  - はい……
+- wait:
+  - 40
+- print:
+  - アキノ
+  - ですから、
+- wait:
+  - 25
+- print:
+  - アキノ
+  - そういったお話が出てきた時は、
+- wait:
+  - 45
+- print:
+  - アキノ
+  - >2-
+
+    様々な理由を並べて、
+- wait:
+  - 45
+- print:
+  - アキノ
+  - 全力で逃げていますの。
+- wait:
+  - 60
+- print:
+  - アキノ
+  - >2
+
+- face:
+  - 114411
+  - 1
+- print:
+  - アキノ
+  - 今回は
+- wait:
+  - 30
+- print:
+  - アキノ
+  - あなたさまがいるので、
+- wait:
+  - 30
+- print:
+  - アキノ
+  - 留まっているようなものですわ。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054102_003
+- face:
+  - 114411
+  - 6
+- emotion:
+  - surprise1_L
+  - 114411
+  - 165
+  - 470
+  - se_adv_emote_common_01
+- print:
+  - アキノ
+  - そ、
+- wait:
+  - 25
+- print:
+  - アキノ
+  - それは本当ですの！？
+- wait:
+  - 55
+- print:
+  - アキノ
+  - >2
+
+- face:
+  - 114411
+  - 4
+- print:
+  - アキノ
+  - あなたさまは
+- wait:
+  - 30
+- print:
+  - アキノ
+  - いろんな方と交流があるようなので、
+- wait:
+  - 50
+- print:
+  - アキノ
+  - 少し心配……
+- wait:
+  - 55
+- print:
+  - アキノ
+  - >2
+
+- face:
+  - 114411
+  - 6
+- print:
+  - アキノ
+  - いえ、
+- wait:
+  - 30
+- print:
+  - アキノ
+  - 気になってはいたのですが、
+- wait:
+  - 40
+- face:
+  - 114411
+  - 2
+- print:
+  - アキノ
+  - うふふ、
+- wait:
+  - 35
+- print:
+  - アキノ
+  - そうですの！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 114411
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0
