@@ -11,7 +11,7 @@
     "command": "outline",
     "category": 1,
     "args": [
-      "在「夢」裡的{0}和吉塔再次變成同一所高中的同學。吉塔希望{0}能教她有關城鎮的事，兩人一邊吃著可麗餅，一邊在珍藏的地方欣賞著夕陽。"
+      "在「夢」裡的{0}和吉塔再次變成同一所高中的同學。吉塔希望{0}能教她有關城鎮的事，兩人一起吃了可麗餅，又到{0}珍藏的地方欣賞了夕陽。"
     ],
     "number": 1
   },
@@ -44,7 +44,7 @@
     "command": "situation",
     "category": 1,
     "args": [
-      "秘藏的地點"
+      "珍藏的地方"
     ],
     "number": 32
   },
@@ -79,7 +79,7 @@
     "category": 1,
     "args": [
       "旁白",
-      "吉塔與{0}結束了這天最後的工作後，\n正在回到蘭德索爾的歸途中。"
+      "吉塔與{0}結束了這天最後的工作，\n回到蘭德索爾的途中\u2500\u2500"
     ],
     "number": 6
   },
@@ -174,7 +174,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "就快要到城鎮了，稍微休息一下吧。"
+      "就快要到城鎮了，"
     ],
     "number": 6
   },
@@ -182,7 +182,24 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "90"
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "稍微休息一下吧。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "60"
     ],
     "number": 13
   },
@@ -225,9 +242,30 @@
     "category": 1,
     "args": [
       "吉塔",
-      "回去之後希望你能陪我進行劍術修行呢\u2500\u2026\u2026"
+      "回去之後"
     ],
     "number": 6
+  },
+  {
+    "command": "token",
+    "category": 1,
+    "args": [],
+    "number": 79
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "希望你能陪我進行劍術修行呢\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "token",
+    "category": 1,
+    "args": [],
+    "number": 79
   },
   {
     "command": "eye_open",
@@ -245,14 +283,6 @@
       "偷瞄。"
     ],
     "number": 6
-  },
-  {
-    "command": "wait",
-    "category": 1,
-    "args": [
-      "20"
-    ],
-    "number": 13
   },
   {
     "command": "touch",
@@ -349,6 +379,14 @@
     "number": 6
   },
   {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
     "command": "face",
     "category": 1,
     "args": [
@@ -378,7 +416,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "75"
+      "45"
     ],
     "number": 13
   },
@@ -405,7 +443,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "你也變得越來越厲害了，不過我可不會輸哦！"
+      "你也變得越來越厲害了，"
     ],
     "number": 6
   },
@@ -416,6 +454,15 @@
       "15"
     ],
     "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "不過我可不會輸哦！"
+    ],
+    "number": 6
   },
   {
     "command": "touch",
@@ -462,7 +509,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "其實呢，之前那個像魔法一樣的力量\u2026\u2026"
+      "其實呢，"
     ],
     "number": 6
   },
@@ -470,7 +517,24 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "75"
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "之前那個像魔法一樣的力量\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
     ],
     "number": 13
   },
@@ -497,7 +561,24 @@
     "category": 1,
     "args": [
       "吉塔",
-      "好像叫做轉換職業，為了要熟練使用那個力量，"
+      "我把它叫做轉換職業，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "為了要熟練使用那個力量，"
     ],
     "number": 6
   },
@@ -532,17 +613,9 @@
     "category": 1,
     "args": [
       "吉塔",
-      "我想要做各種挑戰。"
+      "我想要嘗試各種挑戰。"
     ],
     "number": 6
-  },
-  {
-    "command": "wait",
-    "category": 1,
-    "args": [
-      "30"
-    ],
-    "number": 13
   },
   {
     "command": "touch",
@@ -589,7 +662,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "為了達到那個目的，就必須變得比現在更加更加強大。"
+      "為了達到那個目的，"
     ],
     "number": 6
   },
@@ -597,7 +670,24 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "90"
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "就必須變得比現在更加更加強大。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
     ],
     "number": 13
   },
@@ -723,7 +813,22 @@
     "category": 1,
     "args": [
       "吉塔",
-      "吶，好像是我的錯覺，是不是有點刺眼？"
+      "吶，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "token",
+    "category": 1,
+    "args": [],
+    "number": 79
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "雖然可能是我的錯覺，但是不是有點刺眼？"
     ],
     "number": 6
   },
@@ -731,7 +836,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "100"
+      "90"
     ],
     "number": 13
   },
@@ -828,12 +933,10 @@
     "number": 6
   },
   {
-    "command": "wait",
+    "command": "token",
     "category": 1,
-    "args": [
-      "10"
-    ],
-    "number": 13
+    "args": [],
+    "number": 79
   },
   {
     "command": "print",
@@ -854,6 +957,12 @@
     "number": 3
   },
   {
+    "command": "token",
+    "category": 1,
+    "args": [],
+    "number": 79
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -861,14 +970,6 @@
       "之前也有過\u2500\u2500！"
     ],
     "number": 6
-  },
-  {
-    "command": "wait",
-    "category": 1,
-    "args": [
-      "10"
-    ],
-    "number": 13
   },
   {
     "command": "touch",
@@ -1014,7 +1115,41 @@
     "category": 1,
     "args": [
       "吉塔",
-      "我想想\u2026\u2026教職員室的話，下這邊的樓梯比較快吧？"
+      "我想想\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "教職員室的話，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "下這邊的樓梯比較快吧？"
     ],
     "number": 6
   },
@@ -1172,7 +1307,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "太好了\u2500！"
+      "太好了\u2500\u2500！"
     ],
     "number": 6
   },
@@ -1207,7 +1342,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "怎麼樣？怎麼樣？我已經很熟這所學校了哦！"
+      "怎麼樣？怎麼樣？"
     ],
     "number": 6
   },
@@ -1218,6 +1353,15 @@
       "30"
     ],
     "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "我已經很熟悉這所學校了哦！"
+    ],
+    "number": 6
   },
   {
     "command": "touch",
@@ -1269,12 +1413,10 @@
     "number": 6
   },
   {
-    "command": "wait",
+    "command": "token",
     "category": 1,
-    "args": [
-      "10"
-    ],
-    "number": 13
+    "args": [],
+    "number": 79
   },
   {
     "command": "print",
@@ -1370,6 +1512,14 @@
     "number": 6
   },
   {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
     "command": "face",
     "category": 1,
     "args": [
@@ -1383,7 +1533,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "對了！還有去喫茶店\u266A"
+      "對了！"
     ],
     "number": 6
   },
@@ -1391,7 +1541,24 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "60"
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "還有去咖啡店\u266A"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
     ],
     "number": 13
   },
@@ -1423,6 +1590,14 @@
     "number": 6
   },
   {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
     "command": "face",
     "category": 1,
     "args": [
@@ -1436,7 +1611,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "卡拉ＯＫ！日本的卡拉ＯＫ很厲害呢\u2026\u2026"
+      "卡拉ＯＫ！"
     ],
     "number": 6
   },
@@ -1444,9 +1619,18 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "45"
+      "30"
     ],
     "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "日本的卡拉ＯＫ很厲害呢\u2026\u2026"
+    ],
+    "number": 6
   },
   {
     "command": "touch",
@@ -1510,7 +1694,22 @@
     "category": 1,
     "args": [
       "吉塔",
-      "嗯！非常開心！"
+      "嗯！"
+    ],
+    "number": 6
+  },
+  {
+    "command": "token",
+    "category": 1,
+    "args": [],
+    "number": 79
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "非常開心！"
     ],
     "number": 6
   },
@@ -1518,7 +1717,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "70"
+      "60"
     ],
     "number": 13
   },
@@ -1550,6 +1749,14 @@
     "number": 6
   },
   {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
     "command": "face",
     "category": 1,
     "args": [
@@ -1563,7 +1770,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "欸嘿嘿，抱歉。光顧著自己說話。"
+      "嘿嘿，"
     ],
     "number": 6
   },
@@ -1571,7 +1778,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "90"
+      "15"
     ],
     "number": 13
   },
@@ -1580,7 +1787,41 @@
     "category": 1,
     "args": [
       "吉塔",
-      "\n因為之前太開心了，不小心\u2026\u2026"
+      "抱歉。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "光顧著說我的事。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "\n因為之前太開心了，"
     ],
     "number": 6
   },
@@ -1591,6 +1832,15 @@
       "30"
     ],
     "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "不小心就\u2026\u2026"
+    ],
+    "number": 6
   },
   {
     "command": "touch",
@@ -1637,7 +1887,22 @@
     "category": 1,
     "args": [
       "吉塔",
-      "\u2026\u2026那個啊。剛才錯過說出口的時機了，"
+      "\u2026\u2026那個啊。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "token",
+    "category": 1,
+    "args": [],
+    "number": 79
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "剛才錯過說出口的時機了，"
     ],
     "number": 6
   },
@@ -1645,7 +1910,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "40"
+      "30"
     ],
     "number": 13
   },
@@ -1751,12 +2016,10 @@
     "number": 6
   },
   {
-    "command": "wait",
+    "command": "token",
     "category": 1,
-    "args": [
-      "10"
-    ],
-    "number": 13
+    "args": [],
+    "number": 79
   },
   {
     "command": "print",
@@ -1812,9 +2075,17 @@
     "category": 1,
     "args": [
       "吉塔",
-      "\u2026\u2026啊\u2500，"
+      "\u2026\u2026啊\u2500\u2500"
     ],
     "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
   },
   {
     "command": "face",
@@ -1830,17 +2101,9 @@
     "category": 1,
     "args": [
       "吉塔",
-      "終於能好好說上話了\u2500！"
+      "終於能好好說上話了\u2500\u2500！"
     ],
     "number": 6
-  },
-  {
-    "command": "wait",
-    "category": 1,
-    "args": [
-      "45"
-    ],
-    "number": 13
   },
   {
     "command": "touch",
@@ -1953,7 +2216,22 @@
     "category": 1,
     "args": [
       "吉塔",
-      "不過啊，我真的想要找時間和你慢慢聊聊\u2026\u2026"
+      "不過啊，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "token",
+    "category": 1,
+    "args": [],
+    "number": 79
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "其實我很想找時間和你慢慢聊聊\u2026\u2026"
     ],
     "number": 6
   },
@@ -1961,7 +2239,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "100"
+      "90"
     ],
     "number": 13
   },
@@ -1988,7 +2266,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "畢竟同時知道阿斯特朗與現實裡，兩邊不同的我的人，"
+      "畢竟同時知道阿斯特朗與現實裡，"
     ],
     "number": 6
   },
@@ -1996,7 +2274,24 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "90"
+      "60"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "兩邊不同的我的人，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
     ],
     "number": 13
   },
@@ -2059,19 +2354,17 @@
     "number": 6
   },
   {
-    "command": "wait",
+    "command": "token",
     "category": 1,
-    "args": [
-      "10"
-    ],
-    "number": 13
+    "args": [],
+    "number": 79
   },
   {
     "command": "print",
     "category": 1,
     "args": [
       "吉塔",
-      "\n每次放學後就立刻跑去別的地方了\u2026\u2026"
+      "\n每次一放學就不知道跑去哪了\u2026\u2026"
     ],
     "number": 6
   },
@@ -2120,7 +2413,22 @@
     "category": 1,
     "args": [
       "吉塔",
-      "其實啊，我想讓你多告訴我這個城鎮的事\u2026\u2026"
+      "其實啊，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "token",
+    "category": 1,
+    "args": [],
+    "number": 79
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "我希望你能多告訴我這個城鎮的事\u2026\u2026"
     ],
     "number": 6
   },
@@ -2128,7 +2436,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "125"
+      "105"
     ],
     "number": 13
   },
@@ -2160,6 +2468,12 @@
     "number": 6
   },
   {
+    "command": "token",
+    "category": 1,
+    "args": [],
+    "number": 79
+  },
+  {
     "command": "face",
     "category": 1,
     "args": [
@@ -2173,7 +2487,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "吶，放學後就帶我到某個地方去吧。"
+      "吶，"
     ],
     "number": 6
   },
@@ -2181,7 +2495,24 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "90"
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "放學後能不能帶我去哪呢。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "60"
     ],
     "number": 13
   },
@@ -2208,7 +2539,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "還是說，你有事要忙\u2026\u2026？"
+      "還是說，"
     ],
     "number": 6
   },
@@ -2221,6 +2552,15 @@
     "number": 13
   },
   {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "你有事要忙\u2026\u2026？"
+    ],
+    "number": 6
+  },
+  {
     "command": "touch",
     "category": 1,
     "args": [],
@@ -2230,7 +2570,7 @@
     "command": "choice",
     "category": 1,
     "args": [
-      "帶妳去看我珍藏的美景。",
+      "帶妳去我珍藏的地方吧。",
       "3"
     ],
     "number": 11
@@ -2282,7 +2622,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "珍藏的\u2026\u2026真的嗎？"
+      "珍藏的\u2026\u2026"
     ],
     "number": 6
   },
@@ -2290,7 +2630,24 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "75"
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "真的嗎？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
     ],
     "number": 13
   },
@@ -2317,9 +2674,34 @@
     "category": 1,
     "args": [
       "吉塔",
-      "太好了\u2500！好開心\u2026\u2026！"
+      "太好了\u2500\u2500！"
     ],
     "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "好開心\u2026\u2026！"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
   },
   {
     "command": "face",
@@ -2335,7 +2717,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "約好了放學後一起走哦！"
+      "那就約好了，"
     ],
     "number": 6
   },
@@ -2343,9 +2725,18 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "75"
+      "15"
     ],
     "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "放學後一起走哦！"
+    ],
+    "number": 6
   },
   {
     "command": "touch",
@@ -2441,9 +2832,32 @@
     "category": 1,
     "args": [
       "吉塔",
-      "\u2026\u2026咦？教職員室，"
+      "\u2026\u2026咦？"
     ],
     "number": 6
+  },
+  {
+    "command": "token",
+    "category": 1,
+    "args": [],
+    "number": 79
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "教職員室，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
   },
   {
     "command": "face",
@@ -2462,14 +2876,6 @@
       "要走哪邊\u2026\u2026！？"
     ],
     "number": 6
-  },
-  {
-    "command": "wait",
-    "category": 1,
-    "args": [
-      "55"
-    ],
-    "number": 13
   },
   {
     "command": "touch",
@@ -2755,9 +3161,17 @@
     "category": 1,
     "args": [
       "吉塔",
-      "讓你久等了\u2500！"
+      "讓你久等了\u2500\u2500！"
     ],
     "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
   },
   {
     "command": "face",
@@ -2776,14 +3190,6 @@
       "那就走吧！"
     ],
     "number": 6
-  },
-  {
-    "command": "wait",
-    "category": 1,
-    "args": [
-      "30"
-    ],
-    "number": 13
   },
   {
     "command": "touch",
@@ -2847,7 +3253,24 @@
     "category": 1,
     "args": [
       "吉塔",
-      "繞路？好啊。"
+      "繞路？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "好啊。"
     ],
     "number": 6
   },
@@ -2861,6 +3284,14 @@
     "number": 3
   },
   {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -2868,14 +3299,6 @@
       "要去哪裡呢？"
     ],
     "number": 6
-  },
-  {
-    "command": "wait",
-    "category": 1,
-    "args": [
-      "60"
-    ],
-    "number": 13
   },
   {
     "command": "touch",
@@ -3017,24 +3440,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "\u2026\u2026這裡，是公園對吧？"
-    ],
-    "number": 6
-  },
-  {
-    "command": "wait",
-    "category": 1,
-    "args": [
-      "60"
-    ],
-    "number": 13
-  },
-  {
-    "command": "print",
-    "category": 1,
-    "args": [
-      "吉塔",
-      "\n上個星期天，優衣她們有帶我來過\u2026\u2026"
+      "\u2026\u2026這裡，"
     ],
     "number": 6
   },
@@ -3045,6 +3451,49 @@
       "30"
     ],
     "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "是公園對吧？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "\n上個星期天，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "優衣她們有帶我來過\u2026\u2026"
+    ],
+    "number": 6
   },
   {
     "command": "touch",
@@ -3091,7 +3540,22 @@
     "category": 1,
     "args": [
       "吉塔",
-      "你看，那台紅色的車。"
+      "你看，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "token",
+    "category": 1,
+    "args": [],
+    "number": 79
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "那台紅色的車。"
     ],
     "number": 6
   },
@@ -3099,7 +3563,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "40"
+      "30"
     ],
     "number": 13
   },
@@ -3126,7 +3590,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "之前沒有出現呢，你知道那是什麼嗎？"
+      "之前沒有出現呢，"
     ],
     "number": 6
   },
@@ -3137,6 +3601,15 @@
       "30"
     ],
     "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "你知道那是什麼嗎？"
+    ],
+    "number": 6
   },
   {
     "command": "touch",
@@ -3205,6 +3678,14 @@
     "number": 6
   },
   {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
     "command": "face",
     "category": 1,
     "args": [
@@ -3218,7 +3699,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "啊啊，那台車在賣可麗餅啊！"
+      "原來，"
     ],
     "number": 6
   },
@@ -3226,7 +3707,24 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "60"
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "那台車在賣可麗餅啊！"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
     ],
     "number": 13
   },
@@ -3253,7 +3751,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "那口味就交給你選了！我在這裡等！"
+      "那口味就交給你選了！"
     ],
     "number": 6
   },
@@ -3264,6 +3762,15 @@
       "45"
     ],
     "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "我在這裡等！"
+    ],
+    "number": 6
   },
   {
     "command": "touch",
@@ -3397,7 +3904,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "平常總是請他跟著我走，好怪。"
+      "是不是因為平常總是請他跟著我走的呢。"
     ],
     "number": 6
   },
@@ -3571,7 +4078,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "（話說回來，感覺我還是第一次一直望著他的背影\u2026\u2026"
+      "話說回來，"
     ],
     "number": 6
   },
@@ -3579,7 +4086,24 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "75"
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "感覺我還是第一次一直望著他的背影\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "90"
     ],
     "number": 13
   },
@@ -3606,7 +4130,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "我好像總是和他並肩而行，或是把背後交給他守護。）"
+      "我好像總是和他並肩而行，"
     ],
     "number": 6
   },
@@ -3617,6 +4141,15 @@
       "55"
     ],
     "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "或是把背後交給他守護。"
+    ],
+    "number": 6
   },
   {
     "command": "touch",
@@ -3748,7 +4281,22 @@
     "category": 1,
     "args": [
       "吉塔",
-      "歡迎回來。我看看，這是巧克力香蕉口味嗎？"
+      "歡迎回來。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "token",
+    "category": 1,
+    "args": [],
+    "number": 79
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "我看看，"
     ],
     "number": 6
   },
@@ -3756,7 +4304,24 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "85"
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "這是巧克力香蕉口味嗎？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
     ],
     "number": 13
   },
@@ -3783,9 +4348,34 @@
     "category": 1,
     "args": [
       "吉塔",
-      "那我選這個。我要開動了\u2500。"
+      "那我選這個。"
     ],
     "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "我要開動了\u2500\u2500"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
   },
   {
     "command": "eye_open",
@@ -3800,17 +4390,9 @@
     "category": 1,
     "args": [
       "吉塔",
-      "啊呣\u2026\u2026"
+      "啊姆\u2026\u2026"
     ],
     "number": 6
-  },
-  {
-    "command": "wait",
-    "category": 1,
-    "args": [
-      "75"
-    ],
-    "number": 13
   },
   {
     "command": "touch",
@@ -3874,9 +4456,15 @@
     "category": 1,
     "args": [
       "吉塔",
-      "真好吃。"
+      "好吃。"
     ],
     "number": 6
+  },
+  {
+    "command": "token",
+    "category": 1,
+    "args": [],
+    "number": 79
   },
   {
     "command": "face",
@@ -3900,7 +4488,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "65"
+      "55"
     ],
     "number": 13
   },
@@ -3909,7 +4497,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "\n但是好像也不算是不好吃\u2026\u2026"
+      "\n但是也不算是不好吃\u2026\u2026"
     ],
     "number": 6
   },
@@ -3926,7 +4514,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "\n呃\u2026\u2026普通！沒錯，這好普通！"
+      "\n呃\u2026\u2026"
     ],
     "number": 6
   },
@@ -3934,9 +4522,52 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "75"
+      "45"
     ],
     "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "普通！"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "沒錯，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "要說普通！"
+    ],
+    "number": 6
   },
   {
     "command": "touch",
@@ -4058,6 +4689,14 @@
     "number": 6
   },
   {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
     "command": "face",
     "category": 1,
     "args": [
@@ -4071,17 +4710,9 @@
     "category": 1,
     "args": [
       "吉塔",
-      "為什麼笑了\u2500"
+      "你為什麼笑了\u2500\u2500"
     ],
     "number": 6
-  },
-  {
-    "command": "wait",
-    "category": 1,
-    "args": [
-      "30"
-    ],
-    "number": 13
   },
   {
     "command": "touch",
@@ -4161,7 +4792,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "（全部都吃掉了，不過味道果然很普通\u2026\u2026"
+      "全部都吃掉了，不過味道果然很普通\u2026\u2026"
     ],
     "number": 6
   },
@@ -4195,7 +4826,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "這是怎麼回事，這個可麗餅\u2026\u2026味道非常不可思議\u2026\u2026）"
+      "這是怎麼回事，這個可麗餅\u2026\u2026"
     ],
     "number": 6
   },
@@ -4206,6 +4837,15 @@
       "45"
     ],
     "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "味道非常不可思議\u2026\u2026"
+    ],
+    "number": 6
   },
   {
     "command": "touch",
@@ -4298,6 +4938,14 @@
     "number": 6
   },
   {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "75"
+    ],
+    "number": 13
+  },
+  {
     "command": "face",
     "category": 1,
     "args": [
@@ -4311,7 +4959,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "終於要去看你珍藏的美景了！"
+      "終於要去你珍藏的地方了！"
     ],
     "number": 6
   },
@@ -4319,7 +4967,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "135"
+      "60"
     ],
     "number": 13
   },
@@ -4351,6 +4999,14 @@
     "number": 6
   },
   {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
     "command": "face",
     "category": 1,
     "args": [
@@ -4367,14 +5023,6 @@
       "令人期待\u2026\u2026！"
     ],
     "number": 6
-  },
-  {
-    "command": "wait",
-    "category": 1,
-    "args": [
-      "30"
-    ],
-    "number": 13
   },
   {
     "command": "touch",
@@ -4550,7 +5198,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "唔哇\u2026\u2026！是瞭望台！"
+      "唔哇\u2026\u2026！"
     ],
     "number": 6
   },
@@ -4561,6 +5209,15 @@
       "30"
     ],
     "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "是瞭望台！"
+    ],
+    "number": 6
   },
   {
     "command": "touch",
@@ -4607,7 +5264,22 @@
     "category": 1,
     "args": [
       "吉塔",
-      "快看，夕陽就快要沉下去了！"
+      "快看，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "token",
+    "category": 1,
+    "args": [],
+    "number": 79
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "夕陽就快要沉下去了！"
     ],
     "number": 6
   },
@@ -4615,7 +5287,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "55"
+      "45"
     ],
     "number": 13
   },
@@ -4691,7 +5363,22 @@
     "category": 1,
     "args": [
       "吉塔",
-      "\u2026\u2026這裡，這個景色，就是你所珍藏的美景對吧。"
+      "\u2026\u2026這裡，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "token",
+    "category": 1,
+    "args": [],
+    "number": 79
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "這個景色，"
     ],
     "number": 6
   },
@@ -4702,6 +5389,15 @@
       "40"
     ],
     "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "就是你所珍藏的美景對吧。"
+    ],
+    "number": 6
   },
   {
     "command": "touch",
@@ -4756,7 +5452,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "所以才會繞路去公園，在那裏吃可麗餅。"
+      "所以才會繞路去公園，"
     ],
     "number": 6
   },
@@ -4764,7 +5460,24 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "75"
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "在那裡吃可麗餅。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
     ],
     "number": 13
   },
@@ -4886,17 +5599,24 @@
     "category": 1,
     "args": [
       "吉塔",
-      "謝謝。謝謝你帶我看你珍藏的美景。"
+      "謝謝。"
     ],
     "number": 6
   },
   {
-    "command": "wait",
+    "command": "token",
+    "category": 1,
+    "args": [],
+    "number": 79
+  },
+  {
+    "command": "print",
     "category": 1,
     "args": [
-      "10"
+      "吉塔",
+      "謝謝你帶我來看你珍藏的地方。"
     ],
-    "number": 13
+    "number": 6
   },
   {
     "command": "touch",
@@ -4948,12 +5668,10 @@
     "number": 6
   },
   {
-    "command": "wait",
+    "command": "token",
     "category": 1,
-    "args": [
-      "10"
-    ],
-    "number": 13
+    "args": [],
+    "number": 79
   },
   {
     "command": "print",
@@ -4963,6 +5681,14 @@
       "\n不過夕陽的美麗依然沒有改變呢。"
     ],
     "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "75"
+    ],
+    "number": 13
   },
   {
     "command": "eye_open",
@@ -4980,14 +5706,6 @@
       "真懷念\u2026\u2026"
     ],
     "number": 6
-  },
-  {
-    "command": "wait",
-    "category": 1,
-    "args": [
-      "75"
-    ],
-    "number": 13
   },
   {
     "command": "touch",
@@ -5077,7 +5795,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "總有一天，也要讓你到我住的城鎮，"
+      "總有一天，"
     ],
     "number": 6
   },
@@ -5085,7 +5803,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "45"
+      "30"
     ],
     "number": 13
   },
@@ -5094,7 +5812,24 @@
     "category": 1,
     "args": [
       "吉塔",
-      "\n讓你見識我珍藏的美景。"
+      "也想讓你看到，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "\n在我居住地的珍藏美景呢。"
     ],
     "number": 6
   },
@@ -5151,24 +5886,22 @@
     "category": 1,
     "args": [
       "吉塔",
-      "既然要到我的故鄉，"
+      "既然要去我的故鄉，"
     ],
     "number": 6
   },
   {
-    "command": "wait",
+    "command": "token",
     "category": 1,
-    "args": [
-      "10"
-    ],
-    "number": 13
+    "args": [],
+    "number": 79
   },
   {
     "command": "print",
     "category": 1,
     "args": [
       "吉塔",
-      "\n那麼就順便在途中去各式各樣的地方旅行！"
+      "\n那麼途中順便去各式各樣的地方旅行！"
     ],
     "number": 6
   },
@@ -5272,7 +6005,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "沒錯吧！就像阿斯特朗一樣，總有一天，"
+      "沒錯吧！"
     ],
     "number": 6
   },
@@ -5280,7 +6013,41 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "60"
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "就像阿斯特朗一樣，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "總有一天，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
     ],
     "number": 13
   },
@@ -5543,7 +6310,22 @@
     "category": 1,
     "args": [
       "愛梅斯",
-      "如何呢？這是我給你的禮物！ 你做了個好『夢』對吧？"
+      "如何呢？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "token",
+    "category": 1,
+    "args": [],
+    "number": 79
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "愛梅斯",
+      "這是我給你的禮物。"
     ],
     "number": 6
   },
@@ -5551,9 +6333,18 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "55"
+      "45"
     ],
     "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "愛梅斯",
+      "你做了個好「夢」對吧？"
+    ],
+    "number": 6
   },
   {
     "command": "touch",
@@ -5600,9 +6391,17 @@
     "category": 1,
     "args": [
       "愛梅斯",
-      "你珍藏的美景呢\u2026\u2026"
+      "你珍藏的地方呢\u2026\u2026"
     ],
     "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "60"
+    ],
+    "number": 13
   },
   {
     "command": "face",
@@ -5626,7 +6425,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "90"
+      "30"
     ],
     "number": 13
   },
@@ -5719,7 +6518,7 @@
     "category": 1,
     "args": [
       "愛梅斯",
-      "那個願望，你能夠實現嗎\u2026\u2026？"
+      "那個願望，"
     ],
     "number": 6
   },
@@ -5727,7 +6526,24 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "75"
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "愛梅斯",
+      "你能夠實現嗎\u2026\u2026？"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
     ],
     "number": 13
   },
@@ -5808,6 +6624,12 @@
     "number": 6
   },
   {
+    "command": "token",
+    "category": 1,
+    "args": [],
+    "number": 79
+  },
+  {
     "command": "emotion",
     "category": 3,
     "args": [
@@ -5827,14 +6649,6 @@
       "下次見囉～ \u266A"
     ],
     "number": 6
-  },
-  {
-    "command": "wait",
-    "category": 1,
-    "args": [
-      "10"
-    ],
-    "number": 13
   },
   {
     "command": "touch",
@@ -6029,12 +6843,10 @@
     "number": 6
   },
   {
-    "command": "wait",
+    "command": "token",
     "category": 1,
-    "args": [
-      "10"
-    ],
-    "number": 13
+    "args": [],
+    "number": 79
   },
   {
     "command": "print",
@@ -6058,7 +6870,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "我又睡著了嗎\u2026\u2026？"
+      "我"
     ],
     "number": 6
   },
@@ -6069,6 +6881,15 @@
       "30"
     ],
     "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "又睡著了嗎\u2026\u2026？"
+    ],
+    "number": 6
   },
   {
     "command": "touch",
@@ -6165,6 +6986,14 @@
     "number": 6
   },
   {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
     "command": "face",
     "category": 1,
     "args": [
@@ -6178,7 +7007,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "話是這麼說，但太陽都快要完全落下了。"
+      "話是這麼說，"
     ],
     "number": 6
   },
@@ -6186,9 +7015,18 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "75"
+      "30"
     ],
     "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "但太陽都快要完全落下來了。"
+    ],
+    "number": 6
   },
   {
     "command": "touch",
@@ -6235,7 +7073,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "剛才呢，我在夢裡看到了非常美麗的景色。"
+      "剛才呢，"
     ],
     "number": 6
   },
@@ -6243,7 +7081,24 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "105"
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "我在夢裡看到了非常美麗的景色。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "75"
     ],
     "number": 13
   },
@@ -6255,6 +7110,14 @@
       "\n就和這個夕陽差不多\u2026\u2026"
     ],
     "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
   },
   {
     "command": "face",
@@ -6270,7 +7133,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "不對，比這還要美，"
+      "不對，"
     ],
     "number": 6
   },
@@ -6278,7 +7141,24 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "60"
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "比這還要美，"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
     ],
     "number": 13
   },
@@ -6305,7 +7185,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "是珍藏的景色呢。"
+      "是讓人想珍藏的景色呢。"
     ],
     "number": 6
   },
@@ -6354,7 +7234,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "如果還能見到更多那種美景，"
+      "如果還能見到更多那樣的美景，"
     ],
     "number": 6
   },
@@ -6371,7 +7251,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "\n在夢裡的世界中冒險似乎也會很開心呢\u2026\u2026"
+      "\n那麼在夢裡的世界冒險似乎也會很開心呢\u2026\u2026"
     ],
     "number": 6
   },
@@ -6470,6 +7350,12 @@
     "number": 6
   },
   {
+    "command": "token",
+    "category": 1,
+    "args": [],
+    "number": 79
+  },
+  {
     "command": "face",
     "category": 1,
     "args": [
@@ -6491,7 +7377,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "70"
+      "60"
     ],
     "number": 13
   },
@@ -6535,7 +7421,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "如果連夢裡也要冒險，可是會非常辛苦呢\u2026\u2026欸嘿嘿。"
+      "如果連在夢裡也要冒險，"
     ],
     "number": 6
   },
@@ -6543,9 +7429,35 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "75"
+      "30"
     ],
     "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "可是會非常辛苦呢\u2026\u2026"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "45"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "嘿嘿。"
+    ],
+    "number": 6
   },
   {
     "command": "touch",
@@ -6664,7 +7576,7 @@
     "category": 1,
     "args": [
       "吉塔",
-      "\n我也想要親眼見識廣大的世界裡，更多各種不同的地方呢。"
+      "\n我也想要親眼見識廣大的世界，"
     ],
     "number": 6
   },
@@ -6672,7 +7584,24 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "120"
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "吉塔",
+      "更多各種不同的地方呢。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "90"
     ],
     "number": 13
   },
@@ -6767,7 +7696,7 @@
     "category": 1,
     "args": [
       "旁白",
-      "和夢中的場景相同，\n吉塔望著烙下的夕陽，嘴角浮現出笑容。"
+      "和夢中的場景相同，\n吉塔望著落下的夕陽，嘴角浮現出笑容。"
     ],
     "number": 6
   },
