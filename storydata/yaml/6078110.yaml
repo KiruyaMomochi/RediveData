@@ -1,0 +1,268 @@
+- title:
+  - 志を共にする女性
+- outline:
+  - ' '
+- background:
+  - 500036
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 志を共にする女性
+- chara_full:
+  - 114411
+  - C
+  - 1
+- fadein:
+  - 114411
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M427_07
+  - 0
+  - 0
+  - 1
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054110_000
+- face:
+  - 114411
+  - 1
+- print:
+  - アキノ
+  - 高い目標に向かって努力するサレンさんから、
+- wait:
+  - 60
+- print:
+  - アキノ
+  - |2-
+
+    私は多くのことを学んでおりますわ。
+- wait:
+  - 85
+- print:
+  - アキノ
+  - |2
+
+- face:
+  - 114411
+  - 2
+- print:
+  - アキノ
+  - ……私たちは
+- wait:
+  - 45
+- print:
+  - アキノ
+  - ライバルであり、
+- wait:
+  - 35
+- print:
+  - アキノ
+  - 大親友なのです！
+- touch: &o0 []
+- choice:
+  - アキノさんも努力家。
+  - 1
+  - 1
+- choice:
+  - 二人ともいいライバル。
+  - 2
+  - 2
+- choice:
+  - 大親友っていいね。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054110_001
+- face:
+  - 114411
+  - 1
+- nod:
+  - 114411
+- print:
+  - アキノ
+  - ありがとうございます。
+- wait:
+  - 35
+- print:
+  - アキノ
+  - |2-
+
+    ですが
+- wait:
+  - 35
+- print:
+  - アキノ
+  - それはウィスタリア家の力があるからこそ。
+- wait:
+  - 70
+- print:
+  - アキノ
+  - |2
+
+- face:
+  - 114411
+  - 2
+- print:
+  - アキノ
+  - サレンさんほどの努力にはまだ足りていませんわ！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054110_002
+- face:
+  - 114411
+  - 1
+- emotion:
+  - twinkle1_R
+  - 114411
+  - -90
+  - 480
+  - se_adv_emote_twinkle_01
+- print:
+  - アキノ
+  - あなたさまもそう思いまして！？
+- wait:
+  - 45
+- print:
+  - アキノ
+  - |2
+
+- face:
+  - 114411
+  - 2
+- print:
+  - アキノ
+  - 私、
+- wait:
+  - 25
+- print:
+  - アキノ
+  - 確信しておりますの。
+- wait:
+  - 45
+- face:
+  - 114411
+  - 2
+- print:
+  - アキノ
+  - サレンさんは
+- wait:
+  - 35
+- print:
+  - アキノ
+  - |2-
+
+    私の一生をかけたライバルになると！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054110_003
+- face:
+  - 114411
+  - 2
+- nod:
+  - 114411
+- print:
+  - アキノ
+  - ええ！　
+- wait:
+  - 30
+- face:
+  - 114411
+  - 1
+- print:
+  - アキノ
+  - 私と並び、
+- wait:
+  - 35
+- print:
+  - アキノ
+  - そして追い越すこともある、
+- wait:
+  - 40
+- print:
+  - アキノ
+  - |2-
+
+    最高の、
+- wait:
+  - 30
+- print:
+  - アキノ
+  - 唯一無二の存在ですわ。
+- wait:
+  - 65
+- print:
+  - アキノ
+  - 私たちの
+- wait:
+  - 15
+- print:
+  - アキノ
+  - |2-
+
+    勝負はまだまだこれから……
+- wait:
+  - 65
+- face:
+  - 114411
+  - 2
+- print:
+  - アキノ
+  - ふふ、
+- wait:
+  - 25
+- print:
+  - アキノ
+  - 楽しみですわ♪
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 114411
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

@@ -1,0 +1,1114 @@
+- title:
+  - 她是必須小心的人物
+- outline:
+  - 智為了尋找{0}記憶的線索而造訪露娜之塔。透過事前情報得知與自己同行的深月是必須小心的人物的智，對她意義深長的言行保持警戒而不經意地擺出了架式。
+- background:
+  - 500420
+- amb:
+  - amb_adv_forest_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 她是必須小心的人物
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 高聳入雲，看起來有如朝天際無限延伸而去的露娜之塔。
+- wait:
+  - 30
+- print:
+  - 旁白
+  - |2-
+
+    有著一群試圖挑戰其遙不可及塔頂的人們的身影出現在此。
+- wait:
+  - 15
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 105111
+  - LC
+  - 1
+- chara_full:
+  - 103712
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M156
+  - 0
+  - 0
+  - 1
+- focus:
+  - 103712
+- bust:
+  - 103712
+  - 0
+- vo:
+  - vo_adv_7021000_000
+- face:
+  - 103712
+  - 6
+- print:
+  - 智
+  - 這裡有你記憶的線索嗎……
+- wait:
+  - 80
+- print:
+  - 智
+  - |2
+
+- face:
+  - 103712
+  - 1
+- print:
+  - 智
+  - 雖然是第一次造訪，
+- wait:
+  - 30
+- print:
+  - 智
+  - 但這座塔比想像中
+- wait:
+  - 25
+- print:
+  - 智
+  - 高出非常多呢。
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_7021000_001
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 呵呵，
+- wait:
+  - 35
+- print:
+  - 深月
+  - 有探索的價值不是很好嗎。
+- wait:
+  - 55
+- print:
+  - 深月
+  - |2
+
+- face:
+  - 105111
+  - 6
+- print:
+  - 深月
+  - ……哎呀？
+- touch: *o0
+- window_visible:
+  - FALSE
+- face:
+  - 103712
+  - 6
+- se:
+  - se_adv_step_dirt_walk_go_01
+- change:
+  - L
+  - LC
+  - 30
+- fadeout:
+  - 105111
+  - 30
+- focus:
+  - 103712
+- change:
+  - C
+  - RC
+- wait:
+  - 15
+- window_visible:
+  - TRUE
+- focus:
+  - 103712
+- bust:
+  - 103712
+  - 0
+- vo:
+  - vo_adv_7021000_002
+- face:
+  - 103712
+  - 6
+- emotion:
+  - question1_R
+  - 103712
+  - 105
+  - 520
+  - se_adv_emote_question_01
+- print:
+  - 智
+  - 妳要去哪裡？
+- wait:
+  - 25
+- print:
+  - 智
+  - 塔在這個方向哦。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 103712
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 105111
+  - RC
+  - 1
+- se:
+  - se_adv_step_dirt_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - RC
+  - 45
+- fadein:
+  - 105111
+  - 45
+- se:
+  - se_adv_cloth_move_normal_01
+- nod:
+  - 105111
+- se:
+  - se_adv_body_handshake_01
+- wait:
+  - 15
+- window_visible:
+  - TRUE
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_7021000_003
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 因為我發現了能做為
+- wait:
+  - 35
+- print:
+  - 深月
+  - 補身藥原料的珍貴藥草。
+- wait:
+  - 55
+- print:
+  - 深月
+  - |2
+
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 這樣
+- wait:
+  - 30
+- print:
+  - 深月
+  - 我想就能進行沒嘗試過的實驗了……
+- wait:
+  - 75
+- print:
+  - 深月
+  - 你說呢？
+- touch: *o0
+- choice:
+  - 我精力充沛所以不必了。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_7021000_004
+- face:
+  - 105111
+  - 4
+- print:
+  - 深月
+  - 真可惜。
+- wait:
+  - 65
+- print:
+  - 深月
+  - |2
+
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 話說回來
+- wait:
+  - 35
+- print:
+  - 深月
+  - 這裡的植被還真是相當特殊呢。
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_7021000_005
+- face:
+  - 105111
+  - 2
+- emotion:
+  - note1_L
+  - 105111
+  - -105
+  - 520
+  - se_adv_emote_note_01
+- print:
+  - 深月
+  - 感覺塔裡
+- wait:
+  - 20
+- print:
+  - 深月
+  - 也長了很多有趣的藥草，真是令人期待。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 105111
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 103712
+  - C
+  - 6
+- fadein:
+  - 103712
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 103712
+- bust:
+  - 103712
+  - 0
+- vo:
+  - vo_adv_7021000_006
+- face:
+  - 103712
+  - 6
+- print:
+  - 智
+  - …………
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 103712
+- bust:
+  - 103712
+  - 0
+- vo:
+  - vo_adv_7021000_007
+- face:
+  - 103712
+  - 6
+- print:
+  - 智
+  - 深月小姐……
+- wait:
+  - 40
+- print:
+  - 智
+  - 聽說要一起進行探索所以調查了一下她的身分，
+- wait:
+  - 65
+- print:
+  - 智
+  - |2-
+
+    不只是那個必須小心的公會
+- wait:
+  - 45
+- print:
+  - 智
+  - 【暮光流星群】的成員，
+- wait:
+  - 35
+- print:
+  - 智
+  - |2
+
+- face:
+  - 103712
+  - 4
+- print:
+  - 智
+  - 看起來也不能對她掉以輕心呢。
+- touch: *o0
+- focus:
+  - 103712
+- bust:
+  - 103712
+  - 0
+- vo:
+  - vo_adv_7021000_008
+- face:
+  - 103712
+  - 4
+- print:
+  - 智
+  - 而且還聽說她以
+- wait:
+  - 40
+- print:
+  - 智
+  - 遊走在灰色地帶的醫療行為
+- wait:
+  - 25
+- print:
+  - 智
+  - |2-
+
+    收取高額的看診費。
+- wait:
+  - 80
+- print:
+  - 智
+  - |2-
+
+    雖然因為是{0}的熟人所以很想信任她就是了……
+- touch: *o0
+- focus:
+  - 103712
+- bust:
+  - 103712
+  - 0
+- vo:
+  - vo_adv_7021000_009
+- face:
+  - 103712
+  - 1
+- print:
+  - 智
+  - 不，
+- wait:
+  - 25
+- print:
+  - 智
+  - 只憑這種理由是不成立的。
+- wait:
+  - 35
+- print:
+  - 智
+  - |2-
+
+    身為【王宮騎士團】團員，
+- wait:
+  - 5
+- print:
+  - 智
+  - |2-
+
+    得趁這個機會看清楚
+- wait:
+  - 30
+- print:
+  - 智
+  - 她是不是危險人物才行。
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- fadeout:
+  - 103712
+  - 30
+- chara_full:
+  - 105111
+  - L
+  - 6
+- chara_full:
+  - 103712
+  - RC
+  - 1
+- se:
+  - se_adv_step_dirt_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M512
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_7021000_010
+- face:
+  - 105111
+  - 6
+- print:
+  - 深月
+  - 妳怎麼一臉心事重重的樣子呀？
+- wait:
+  - 75
+- print:
+  - 深月
+  - |2
+
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 沒事的，
+- wait:
+  - 25
+- print:
+  - 深月
+  - '{0}我會最優先'
+- wait:
+  - 10
+- print:
+  - 深月
+  - |2-
+
+    尋找他的記憶的線索。
+- touch: *o0
+- focus:
+  - 103712
+- bust:
+  - 103712
+  - 0
+- vo:
+  - vo_adv_7021000_011
+- face:
+  - 103712
+  - 2
+- nod:
+  - 103712
+- print:
+  - 智
+  - 真是的，
+- wait:
+  - 25
+- print:
+  - 智
+  - 我沒有在擔那種心啦。
+- wait:
+  - 40
+- print:
+  - 智
+  - |2
+
+- face:
+  - 103712
+  - 1
+- print:
+  - 智
+  - 比起這件事，
+- wait:
+  - 20
+- print:
+  - 智
+  - 藥草已經解決了嗎？
+- wait:
+  - 30
+- print:
+  - 智
+  - |2-
+
+    需要的話我也能幫忙。
+- wait:
+  - 50
+- face:
+  - 103712
+  - 6
+- print:
+  - 智
+  - 啊，
+- wait:
+  - 15
+- print:
+  - 智
+  - 是這種草對吧──
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_7021000_012
+- face:
+  - 105111
+  - 6
+- print:
+  - 深月
+  - 千萬不能隨便亂採。
+- wait:
+  - 35
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 因為汁液有毒呢。
+- wait:
+  - 50
+- print:
+  - 深月
+  - |2
+
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 根據使用方法不同
+- wait:
+  - 25
+- print:
+  - 深月
+  - 也可能成為劇毒。
+- touch: *o0
+- focus:
+  - 103712
+- bust:
+  - 103712
+  - 0
+- vo:
+  - vo_adv_7021000_013
+- face:
+  - 103712
+  - 4
+- print:
+  - 智
+  - 劇毒……
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_7021000_014
+- face:
+  - 105111
+  - 6
+- print:
+  - 深月
+  - 哎呀？
+- wait:
+  - 35
+- print:
+  - 深月
+  - 難道
+- wait:
+  - 25
+- print:
+  - 深月
+  - 妳覺得我會亂用不成？
+- wait:
+  - 95
+- print:
+  - 深月
+  - |2
+
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 放心吧。
+- wait:
+  - 40
+- print:
+  - 深月
+  - 這種毒能夠輕易地被檢測出來。
+- wait:
+  - 65
+- print:
+  - 深月
+  - |2-
+
+    換成我會做得更隱蔽呢。
+- wait:
+  - 65
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 說笑的啦♪
+- touch: *o0
+- focus:
+  - 103712
+- bust:
+  - 103712
+  - 0
+- vo:
+  - vo_adv_7021000_015
+- face:
+  - 103712
+  - 4
+- emotion:
+  - sweat1_R
+  - 103712
+  - 80
+  - 585
+  - se_adv_emote_sweat_01
+- eye_open:
+  - FALSE
+- print:
+  - 智
+  - 唉……
+- wait:
+  - 40
+- print:
+  - 智
+  - |2
+
+- eye_open:
+  - TRUE
+- print:
+  - 智
+  - 希望妳別在
+- wait:
+  - 25
+- print:
+  - 智
+  - |-
+    身為【王宮騎士團】團員的我
+    面前開這種玩笑。
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_7021000_016
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 因為我看小智好像很緊張的樣子，
+- wait:
+  - 45
+- print:
+  - 深月
+  - |2-
+
+    只是想讓妳放輕鬆而已啦。
+- touch: *o0
+- focus:
+  - 103712
+- bust:
+  - 103712
+  - 0
+- vo:
+  - vo_adv_7021000_017
+- face:
+  - 103712
+  - 4
+- print:
+  - 智
+  - 我一點都不緊張。
+- touch: *o0
+- bgm:
+  - stop
+  - 9
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_7021000_018
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 就是說啊，
+- wait:
+  - 35
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 頂尖的【王宮騎士團】閣下
+- wait:
+  - 20
+- print:
+  - 深月
+  - |2-
+
+    怎麼可能對這種塔感到緊張，不是嗎。
+- touch: *o0
+- bgm:
+  - bgm_M273_Ver2
+  - 0
+  - 0
+  - 1
+- focus:
+  - 103712
+- bust:
+  - 103712
+  - 0
+- vo:
+  - vo_adv_7021000_019
+- face:
+  - 103712
+  - 1
+- nod:
+  - 103712
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 智
+  - 當然了。
+- wait:
+  - 30
+- print:
+  - 智
+  - 畢竟我們
+- wait:
+  - 25
+- print:
+  - 智
+  - 每天都為了蘭德索爾市民
+- wait:
+  - 35
+- print:
+  - 智
+  - |2-
+
+    而進行著嚴格的訓練呢。
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_7021000_020
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 呵呵。
+- wait:
+  - 30
+- face:
+  - 105111
+  - 1
+- print:
+  - 深月
+  - 這樣的話，
+- wait:
+  - 15
+- print:
+  - 深月
+  - 身為一介弱小市民的我
+- wait:
+  - 60
+- print:
+  - 深月
+  - 就要毫不客氣地
+- wait:
+  - 15
+- print:
+  - 深月
+  - |2-
+
+    依靠小智囉。
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_7021000_021
+- face:
+  - 105111
+  - 2
+- print:
+  - 深月
+  - 來，
+- wait:
+  - 10
+- print:
+  - 深月
+  - 我們出發吧。
+- wait:
+  - 15
+- print:
+  - 深月
+  - |2-
+
+    感覺會是一次愉快的探索呢。
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_step_dirt_walk_go_01
+- fadeout_all:
+  - 30
+- chara_full:
+  - 103712
+  - C
+  - 6
+- fadein:
+  - 103712
+  - 30
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 103712
+- bust:
+  - 103712
+  - 0
+- vo:
+  - vo_adv_7021000_022
+- face:
+  - 103712
+  - 6
+- print:
+  - 智
+  - 看她那大大方方的言行舉止，
+- wait:
+  - 60
+- print:
+  - 智
+  - 果然不是普通人。
+- wait:
+  - 35
+- print:
+  - 智
+  - |2
+
+- face:
+  - 103712
+  - 3
+- print:
+  - 智
+  - 那麼就持續保持戒心吧。
+- touch: *o0
+- focus:
+  - 103712
+- bust:
+  - 103712
+  - 0
+- vo:
+  - vo_adv_7021000_023
+- face:
+  - 103712
+  - 3
+- print:
+  - 智
+  - 要是能掌握到什麼把柄，
+- wait:
+  - 45
+- print:
+  - 智
+  - 我得獨自逮捕她才行……
+- touch: *o0
+- choice:
+  - 還不出發嗎？
+  - 2
+- tag:
+  - 2
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - TRUE
+- focus:
+  - 103712
+- bust:
+  - 103712
+  - 0
+- vo:
+  - vo_adv_7021000_024
+- face:
+  - 103712
+  - 6
+- emotion:
+  - exclamation1_R
+  - 103712
+  - 15
+  - 650
+  - se_adv_emote_common_01
+- print:
+  - 智
+  - 咦？
+- wait:
+  - 10
+- print:
+  - 智
+  - 啊，
+- wait:
+  - 10
+- print:
+  - 智
+  - 對喔。
+- wait:
+  - 15
+- face:
+  - 103712
+  - 1
+- print:
+  - 智
+  - 說得也是，
+- wait:
+  - 15
+- print:
+  - 智
+  - 走吧。
+- wait:
+  - 25
+- print:
+  - 智
+  - |2-
+
+    畢竟最重要的目的是
+- wait:
+  - 40
+- print:
+  - 智
+  - 找出{0}記憶的線索。
+- wait:
+  - 40
+- print:
+  - 智
+  - |2-
+
+    忘了這點可不行。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 103712
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - '{0}一邊對智所說的話感到困惑，'
+- wait:
+  - 15
+- print:
+  - 旁白
+  - |2-
+
+    一邊朝高塔內邁步而去。
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - FALSE
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

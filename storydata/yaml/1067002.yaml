@@ -1,0 +1,2808 @@
+- title:
+  - 帆稀 第2話
+- outline:
+  - 某天，{0}被帆稀叫來到幫派據點協助她畫漫畫。帆稀的本業其實是漫畫家，但做為幫派老大也大有本事，讓人切身感受到她深不可測的一面。
+- background:
+  - 500361
+- se:
+  - amb_adv_room_noise_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 與老大的秘密工作
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - '{0}因為沒有預定行程，'
+- wait:
+  - 15
+- print:
+  - 旁白
+  - |2-
+
+    就在公會小屋享受著悠閒時光。
+- wait:
+  - 15
+- print:
+  - 旁白
+  - |2-
+
+    這時，從大門的另一側傳來了帆稀的聲音。
+- wait:
+  - 15
+- touch: &o0 []
+- se:
+  - se_adv_door_knock_01
+- bgm:
+  - bgm_M274
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 1
+- vo:
+  - vo_adv_1067002_000
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 午安～♪
+- wait:
+  - 60
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 6
+- print:
+  - 帆稀
+  - 請問{0}在嗎～？
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_door_open_01
+- chara_full:
+  - 106711
+  - C
+  - 2
+- fadein:
+  - 106711
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067002_001
+- face:
+  - 106711
+  - 2
+- emotion:
+  - notice1_L
+  - 106711
+  - -85
+  - 555
+  - se_adv_emote_common_01
+- print:
+  - 帆稀
+  - 啊！
+- wait:
+  - 10
+- print:
+  - 帆稀
+  - 原來你在啊～☆
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - |2-
+
+    精神看起來不錯，真是太好了～
+- touch: *o0
+- choice:
+  - 好久不見了。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067002_002
+- face:
+  - 106711
+  - 2
+- nod:
+  - 106711
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 帆稀
+  - 嗯！
+- wait:
+  - 20
+- print:
+  - 帆稀
+  - 好久不見～♪
+- wait:
+  - 45
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 今天我是來感謝你上次的幫忙。
+- wait:
+  - 75
+- print:
+  - 帆稀
+  - |2-
+
+    總之，
+- wait:
+  - 20
+- print:
+  - 帆稀
+  - 方便請你隨我走一趟嗎？
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067002_003
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 別擔心。
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - 待會要去的地方，
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - |2-
+
+    絕不會是像上次那樣可怕的地方♪
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067002_004
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 而且你也不需要特別做什麼準備，
+- wait:
+  - 45
+- print:
+  - 帆稀
+  - |2-
+
+    如果你可以來，
+- wait:
+  - 10
+- print:
+  - 帆稀
+  - 我們現在就出發吧～☆
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- window_visible:
+  - false
+- fadeout:
+  - 106711
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_room_noise_01
+  - 1
+- background:
+  - 500890
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_wind_01
+- chara_full:
+  - 106711
+  - C
+  - 2
+- fadein:
+  - 106711
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M97_Ver2
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067002_005
+- face:
+  - 106711
+  - 2
+- nod:
+  - 106711
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 帆稀
+  - 你看看～☆
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 這裡就是我們的據點♪
+- touch: *o0
+- choice:
+  - 這裡是危險的地方啊。
+  - 2
+- tag:
+  - 2
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067002_006
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 咦～？
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 才沒這回事呢～！
+- wait:
+  - 50
+- print:
+  - 帆稀
+  - |2-
+
+    這棟建築能夠完全抵擋大部分的攻擊魔法喔！
+- wait:
+  - 80
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 開玩笑的啦♪
+- wait:
+  - 45
+- print:
+  - 帆稀
+  - 就算不是這樣，
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 這裡一點也不危險。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106711
+  - 30
+- chara_full:
+  - 811
+  - RC
+  - 1
+- chara_full:
+  - 106711
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1067002_007
+- face:
+  - 811
+  - 1
+- nod:
+  - 811
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 流氓1
+  - 歡迎回來，老大！
+- wait:
+  - 35
+- print:
+  - 流氓1
+  - |2
+
+- face:
+  - 811
+  - 2
+- print:
+  - 流氓1
+  - 咦，
+- wait:
+  - 25
+- print:
+  - 流氓1
+  - 這不是上次的那位小哥嗎？
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067002_008
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 今天我請他來
+- wait:
+  - 45
+- print:
+  - 帆稀
+  - 協助我的工作～♪
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1067002_009
+- face:
+  - 811
+  - 1
+- print:
+  - 流氓1
+  - 原來是這樣。
+- wait:
+  - 45
+- print:
+  - 流氓1
+  - |2
+
+- face:
+  - 811
+  - 2
+- print:
+  - 流氓1
+  - 小哥，
+- wait:
+  - 10
+- print:
+  - 流氓1
+  - 請隨意。
+- wait:
+  - 40
+- print:
+  - 流氓1
+  - |2
+
+- face:
+  - 811
+  - 1
+- print:
+  - 流氓1
+  - 老大，
+- wait:
+  - 25
+- print:
+  - 流氓1
+  - 待會我們會再
+- wait:
+  - 25
+- print:
+  - 流氓1
+  - 派誰端個茶進去。
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067002_010
+- face:
+  - 106711
+  - 1
+- nod:
+  - 106711
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 帆稀
+  - 好～的。
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - 那就麻煩你們了～☆
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_wind_01
+  - 1
+- background:
+  - 501320
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_room_noise_01
+- chara_full:
+  - 106711
+  - C
+  - 2
+- fadein:
+  - 106711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067002_011
+- face:
+  - 106711
+  - 2
+- nod:
+  - 106711
+- se:
+  - se_adv_step_wood_move_01
+- print:
+  - 帆稀
+  - 來，請～進。
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - 快進來快進來♪
+- wait:
+  - 45
+- print:
+  - 帆稀
+  - |2-
+
+    這裡是
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - 我房間喔～☆
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067002_012
+- face:
+  - 106711
+  - 6
+- print:
+  - 帆稀
+  - 因為資料很多，
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 空間可能有點擁擠……
+- wait:
+  - 50
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 不過，對工作完全不受影響。
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067002_013
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 那麼～
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 我要公布囉～♪
+- touch: *o0
+- bgm:
+  - stop
+  - 10
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067002_014
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 等一下我想請你……
+- wait:
+  - 85
+- print:
+  - 帆稀
+  - |2
+
+- emotion:
+  - twinkle1_R
+  - 106711
+  - -110
+  - 500
+  - se_adv_emote_twinkle_01
+- print:
+  - 帆稀
+  - ……協助我
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 畫漫畫的原稿～☆
+- touch: *o0
+- choice:
+  - ……漫畫？
+  - 3
+- tag:
+  - 3
+- bgm:
+  - bgm_M274_03
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067002_015
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 沒錯～☆
+- wait:
+  - 45
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 你以為是幫派的工作嗎？
+- wait:
+  - 50
+- print:
+  - 帆稀
+  - 請放心。
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - |2-
+
+    我不會讓你去做那麼危險的事♪
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067002_016
+- face:
+  - 106711
+  - 1
+- nod:
+  - 106711
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 帆稀
+  - 其實
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 該說
+- wait:
+  - 45
+- print:
+  - 帆稀
+  - 幫派老大是我的另外一面吧，
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - |2-
+
+    比較像是副業，
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 而這才是我的本業。
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067002_017
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 我的本業是為在蘭德索爾出刊的報紙畫插畫，
+- wait:
+  - 65
+- print:
+  - 帆稀
+  - |2-
+
+    或是畫些漫畫。
+- wait:
+  - 45
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 如何，
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - 你嚇到了嗎？
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067002_018
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 平時我都是請住在這附近，
+- wait:
+  - 65
+- print:
+  - 帆稀
+  - |2-
+
+    手比較巧的孩子來幫忙。
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067002_019
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 這次是為了向你答謝，
+- wait:
+  - 50
+- print:
+  - 帆稀
+  - |2-
+
+    所以才請你來幫我這個忙～☆
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
+- window_visible:
+  - FALSE
+- fadeout:
+  - 106711
+  - 30
+- white_out:
+  - 1
+  - 1
+- bg_color:
+  - 255
+  - 255
+  - 255
+- still:
+  - 106700201
+- wait:
+  - 15
+- white_in: *o0
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M533
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 1
+- vo:
+  - vo_adv_1067002_020
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 那麼，
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 就請你坐在這邊♪
+- wait:
+  - 50
+- print:
+  - 帆稀
+  - |2-
+
+    幫我在畫好線條的原稿上
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - 塗黑底、
+- wait:
+  - 20
+- print:
+  - 帆稀
+  - |2-
+
+    或是貼網點，
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 那就拜託你了～☆
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 1
+- vo:
+  - vo_adv_1067002_021
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 做法
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 我會一步步說明，
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - |2-
+
+    教你怎麼做，
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 你要牢牢記住喔♪
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 1
+- vo:
+  - vo_adv_1067002_022
+- face:
+  - 106711
+  - 6
+- print:
+  - 帆稀
+  - 首先是
+- wait:
+  - 20
+- print:
+  - 帆稀
+  - 塗黑底～
+- wait:
+  - 55
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 1
+- se:
+  - se_adv_paper_move_02
+- print:
+  - 帆稀
+  - 這是我畫好線條的原稿，
+- wait:
+  - 50
+- print:
+  - 帆稀
+  - 上頭有畫×的記號對吧～？
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 1
+- vo:
+  - vo_adv_1067002_023
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 你試著用筆
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - 將有畫×的地方塗黑……
+- wait:
+  - 25
+- se:
+  - se_adv_kakizome_1
+- wait:
+  - 50
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 對，就是這樣！
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - 塗得很漂亮～♪
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 1
+- vo:
+  - vo_adv_1067002_024
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 全部都塗完了吧。
+- wait:
+  - 60
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 這樣一來……？
+- wait:
+  - 60
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 太～驚人了！
+- wait:
+  - 45
+- print:
+  - 帆稀
+  - 塗黑的地方化成了陰影～！
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 1
+- vo:
+  - vo_adv_1067002_025
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 有了陰影，
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - 就算只是畫在紙張上的黑白畫，
+- wait:
+  - 70
+- print:
+  - 帆稀
+  - |2-
+
+    也可以看出遠近感，對吧？
+- touch: *o0
+- choice:
+  - 真的耶！
+  - 4
+- tag:
+  - 4
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 1
+- vo:
+  - vo_adv_1067002_026
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 呵呵，
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 謝謝你做出這麼好的反應～☆
+- wait:
+  - 55
+- print:
+  - 帆稀
+  - |2-
+
+    就像這樣
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 繼續把陰影塗黑吧～！
+- wait:
+  - 55
+- print:
+  - 帆稀
+  - |2-
+
+    等全部塗完後
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 再告訴我一聲～♪
+- touch: *o0
+- window_visible:
+  - false
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- window_visible:
+  - true
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 1
+- vo:
+  - vo_adv_1067002_027
+- face:
+  - 106711
+  - 6
+- se:
+  - se_adv_paper_move_02
+- print:
+  - 帆稀
+  - 我看看～？
+- wait:
+  - 65
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 嗯，
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 確實全部都塗完了！
+- wait:
+  - 55
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 你做得很好～！
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - 這張原稿這樣就完成了～☆
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 1
+- vo:
+  - vo_adv_1067002_028
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 你塗得很仔細，
+- wait:
+  - 45
+- print:
+  - 帆稀
+  - 看來你也很有
+- wait:
+  - 20
+- print:
+  - 帆稀
+  - 畫漫畫的素質呢～♪
+- wait:
+  - 70
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 好～
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - 接下來
+- wait:
+  - 20
+- print:
+  - 帆稀
+  - 就教你貼網點的方式～☆
+- touch: *o0
+- window_visible:
+  - false
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- window_visible:
+  - true
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 1
+- vo:
+  - vo_adv_1067002_029
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 喔喔～☆
+- wait:
+  - 45
+- print:
+  - 帆稀
+  - 貼網點的部分也全部過關～！
+- wait:
+  - 60
+- print:
+  - 帆稀
+  - |2-
+
+    真厲害～！
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - 給你摸摸頭
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 以示嘉獎～
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 吧♪
+- touch: *o0
+- se:
+  - se_adv_body_shake_head_01
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1067002_030
+- multi_talk:
+  - 3731:3731
+- face:
+  - 1
+  - 1
+- print:
+  - 拉格
+  - 嘎喔！
+- wait:
+  - 5
+- print:
+  - 拉格
+  - 嘎喔～！
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 1
+- vo:
+  - vo_adv_1067002_031
+- face:
+  - 106711
+  - 6
+- print:
+  - 帆稀
+  - 怎麼了嗎？拉格。
+- wait:
+  - 65
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 啊啊～
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - 你也想獲得嘉獎嗎？
+- wait:
+  - 65
+- print:
+  - 帆稀
+  - |2-
+
+    你好乖喔，真的很棒喔～☆
+- touch: *o0
+- se:
+  - se_adv_body_shake_head_01
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1067002_032
+- multi_talk:
+  - 3731:3731
+- face:
+  - 1
+  - 1
+- print:
+  - 拉格
+  - 嘎喔～！
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 1
+- vo:
+  - vo_adv_1067002_033
+- face:
+  - 106711
+  - 6
+- print:
+  - 帆稀
+  - 呼～
+- wait:
+  - 40
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 終於趕在最後一刻完成了……
+- wait:
+  - 65
+- print:
+  - 帆稀
+  - |2-
+
+    這樣，
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 今天的原稿就順利完稿了～☆
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+- window_visible:
+  - FALSE
+- white_out:
+  - 1
+  - 1
+- background:
+  - 501320
+- still:
+  - end
+- wait:
+  - 15
+- white_in: *o0
+- chara_full:
+  - 106711
+  - C
+  - 1
+- fadein:
+  - 106711
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M140_NoBell
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067002_034
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 今天的工作到此結束～！
+- wait:
+  - 75
+- print:
+  - 帆稀
+  - |2
+
+- nod:
+  - 106711
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 帆稀
+  - 辛苦你了～！
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 明天再拜託你囉♪
+- touch: *o0
+- choice:
+  - 明天還要來嗎？
+  - 5
+- tag:
+  - 5
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067002_035
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 是的，
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - 明天也要☆
+- wait:
+  - 55
+- face:
+  - 106711
+  - 4
+- print:
+  - 帆稀
+  - 老實說，我這邊的工作堆積如山，
+- wait:
+  - 65
+- print:
+  - 帆稀
+  - |2-
+
+    可能要麻煩你幫忙一陣子……
+- wait:
+  - 70
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 可以嗎？
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_money_give_01
+- nod:
+  - 106711
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067002_036
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 來，
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - 這是今天的酬勞。
+- wait:
+  - 50
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 若以送信員的工作來說，
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - 大概有三天份薪水之多吧？
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067002_037
+- face:
+  - 106711
+  - 2
+- emotion:
+  - note1_L
+  - 106711
+  - -95
+  - 515
+  - se_adv_emote_note_01
+- print:
+  - 帆稀
+  - 呵呵，
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 你吃驚的反應真捧場～♪
+- wait:
+  - 65
+- print:
+  - 帆稀
+  - |2-
+
+    你正在想
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - 為何單只是塗黑底和貼網點
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 就可以賺到這麼多對吧？
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067002_038
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 因為漫畫
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 和寫給單一對象的信件不同，
+- wait:
+  - 75
+- print:
+  - 帆稀
+  - |2-
+
+    它會印刷出版，
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 讓許多人看到。
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067002_039
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 我們今天所繪製的，
+- wait:
+  - 50
+- print:
+  - 帆稀
+  - 就是
+- wait:
+  - 45
+- print:
+  - 帆稀
+  - 為了印刷的原稿。
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - |2-
+
+    最近，
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 為了看我的漫畫而買報紙來讀的人增加不少，
+- wait:
+  - 70
+- print:
+  - 帆稀
+  - |2-
+
+    所以報社提高了
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 給我的稿費。
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067002_040
+- face:
+  - 106711
+  - 6
+- nod:
+  - 106711
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 帆稀
+  - 然而，
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 當漫畫越來越受歡迎後，
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - |2-
+
+    其他的繪畫工作也接連著來，
+- wait:
+  - 65
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 4
+- print:
+  - 帆稀
+  - 單靠我一個人很難應付得來……
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067002_041
+- face:
+  - 106711
+  - 4
+- print:
+  - 帆稀
+  - 再加上
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 原本就有在幫忙的孩子們，
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - |2-
+
+    我已經拜託他們做其他的工作，
+- wait:
+  - 45
+- print:
+  - 帆稀
+  - 也沒辦法臨時再請他們協助……
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067002_042
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 所以，
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 我才想到不如來拜託你看看～
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - 就是這麼一回事♪
+- wait:
+  - 50
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 如何呢～？
+- wait:
+  - 45
+- print:
+  - 帆稀
+  - 從明天開始，
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - |2-
+
+    你可以過來幫我一陣子嗎～？
+- touch: *o0
+- choice:
+  - 如果妳認為我可以勝任的話。
+  - 6
+- tag:
+  - 6
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067002_043
+- face:
+  - 106711
+  - 2
+- emotion:
+  - note1_L
+  - 106711
+  - -95
+  - 515
+  - se_adv_emote_note_01
+- print:
+  - 帆稀
+  - 謝謝你～☆
+- wait:
+  - 45
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 那麼明天，
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - |2-
+
+    也請你在跟今天同樣的時間過來一趟，
+- wait:
+  - 60
+- print:
+  - 帆稀
+  - |2-
+
+    我會事先把要處理的稿件準備好。
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067002_044
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 辛苦你了～！
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 明天再見囉～♪
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106711
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_room_noise_01
+  - 1
+- background:
+  - 500891
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_wind_01
+- chara_full:
+  - 811
+  - C
+  - 1
+- fadein:
+  - 811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1067002_045
+- face:
+  - 811
+  - 1
+- nod:
+  - 811
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 流氓1
+  - 小哥，
+- wait:
+  - 20
+- print:
+  - 流氓1
+  - 辛苦了。
+- wait:
+  - 30
+- print:
+  - 流氓1
+  - |2-
+
+    天色已晚，
+- wait:
+  - 25
+- print:
+  - 流氓1
+  - 回去的路上請小心。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 811
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - stop
+  - 7.5
+  - 1
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 就這樣，{0}為了協助帆稀，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - |2-
+
+    每天往返她人所在的據點好一陣子。
+- wait:
+  - 15
+- print:
+  - 旁白
+  - |2-
+
+    然後──
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - FALSE
+- se_pause:
+  - amb_adv_wind_01
+  - 1
+- white_out:
+  - 1
+  - 1
+- bg_color:
+  - 255
+  - 255
+  - 255
+- still:
+  - 106700201
+- wait:
+  - 15
+- se:
+  - amb_adv_room_noise_01
+- white_in: *o0
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M274_04
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 1
+- vo:
+  - vo_adv_1067002_046
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 今天也辛苦你了～♪
+- wait:
+  - 60
+- print:
+  - 帆稀
+  - |2-
+
+    擁有優秀的助手，
+- wait:
+  - 45
+- print:
+  - 帆稀
+  - 工作三兩下就可以搞定呢～☆
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 1
+- vo:
+  - vo_adv_1067002_047
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 謝謝你的幫忙。
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - 明明昨天已經陪我工作了一整天，
+- wait:
+  - 55
+- print:
+  - 帆稀
+  - |2-
+
+    今天也一直很賣力地工作。
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 1
+- vo:
+  - vo_adv_1067002_048
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 多虧有你，我才能多接下插畫的工作，
+- wait:
+  - 50
+- print:
+  - 帆稀
+  - 真是幫了我一個大忙～
+- wait:
+  - 60
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 6
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 帆稀
+  - 你想不想就這樣，
+- wait:
+  - 45
+- print:
+  - 帆稀
+  - 一直待在這裡當我的助手呢？
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 1
+- vo:
+  - vo_adv_1067002_049
+- face:
+  - 106711
+  - 4
+- print:
+  - 帆稀
+  - 要是你工作這麼優秀被其他漫畫家知道，
+- wait:
+  - 75
+- print:
+  - 帆稀
+  - |2-
+
+    肯定會變成搶人大戰……
+- wait:
+  - 70
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 真想趁現在
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 就跟你簽好專屬契約呢～♪
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 1
+- vo:
+  - vo_adv_1067002_050
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 我這邊食衣住都很完善，
+- wait:
+  - 80
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 哪怕是除此之外的需求，
+- wait:
+  - 45
+- print:
+  - 帆稀
+  - |2-
+
+    我也會全～部滿足你的……☆
+- touch: *o0
+- choice:
+  - 除此之外是指……？
+  - 7
+- tag:
+  - 7
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 1
+- vo:
+  - vo_adv_1067002_051
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - ……除此之外，
+- wait:
+  - 45
+- face:
+  - 106711
+  - 2
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 帆稀
+  - 就是除此之外啊♪
+- wait:
+  - 65
+- print:
+  - 帆稀
+  - |2-
+
+    在人類的生理需求當中，
+- wait:
+  - 70
+- print:
+  - 帆稀
+  - |2-
+
+    有靠食衣住就能滿足的需求，
+- wait:
+  - 65
+- print:
+  - 帆稀
+  - 也有不屬於這類的需求……
+- touch: *o0
+- focus:
+  - 6311
+- bust:
+  - 6311
+  - 1
+- vo:
+  - vo_adv_1067002_052
+- face:
+  - 6311
+  - 1
+- print:
+  - 流氓2
+  - 老大！
+- wait:
+  - 20
+- print:
+  - 流氓2
+  - 有事報……！
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 1
+- vo:
+  - vo_adv_1067002_053
+- face:
+  - 106711
+  - 4
+- print:
+  - 帆稀
+  - 真是的，
+- wait:
+  - 20
+- print:
+  - 帆稀
+  - 在氣氛正好的時候……
+- wait:
+  - 60
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 你說吧～☆
+- touch: *o0
+- se:
+  - se_adv_door_open_05
+- focus:
+  - 6311
+- bust:
+  - 6311
+  - 1
+- vo:
+  - vo_adv_1067002_054
+- face:
+  - 6311
+  - 1
+- print:
+  - 流氓2
+  - 失禮了！
+- wait:
+  - 60
+- print:
+  - 流氓2
+  - |2-
+
+    根據妳昨天傍晚的指示，
+- wait:
+  - 30
+- print:
+  - 流氓2
+  - 洗錢的程序都已經安排好了。
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 1
+- vo:
+  - vo_adv_1067002_055
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 辛苦了～♪
+- wait:
+  - 50
+- print:
+  - 帆稀
+  - 後續就照平時的方式去做吧。
+- wait:
+  - 60
+- print:
+  - 帆稀
+  - |2-
+
+    請務必小心，
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - 別留下讓人可追蹤的痕跡☆
+- touch: *o0
+- focus:
+  - 6311
+- bust:
+  - 6311
+  - 1
+- vo:
+  - vo_adv_1067002_056
+- face:
+  - 6311
+  - 1
+- print:
+  - 流氓2
+  - 我一定會很小心！
+- wait:
+  - 40
+- print:
+  - 流氓2
+  - 待事情完成後
+- wait:
+  - 15
+- print:
+  - 流氓2
+  - 會再回報。
+- wait:
+  - 45
+- print:
+  - 流氓2
+  - |2-
+
+    那麼，我先走了！
+- touch: *o0
+- se:
+  - se_adv_step_wood_walk_go_01
+- bgm:
+  - stop
+  - 6
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 1
+- vo:
+  - vo_adv_1067002_057
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - ……剛剛的話題
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 就留到下次再繼續吧～♪
+- touch: *o0
+- choice:
+  - 他剛才說昨天傍晚，我記得……
+  - 8
+- tag:
+  - 8
+- bgm:
+  - bgm_M288
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 1
+- vo:
+  - vo_adv_1067002_058
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 我一直跟你在一起畫畫？
+- wait:
+  - 95
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 沒錯～♪
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - 就是這樣。
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 我們一直待在一起喔。
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 1
+- vo:
+  - vo_adv_1067002_059
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 用不著這麼吃驚～！
+- wait:
+  - 65
+- print:
+  - 帆稀
+  - 你真是～
+- wait:
+  - 15
+- print:
+  - 帆稀
+  - 太可愛了～♪
+- wait:
+  - 60
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - ……看來你
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 對他人
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - 有著很敏銳的感受力呢。
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 1
+- vo:
+  - vo_adv_1067002_060
+- face:
+  - 106711
+  - 1
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 帆稀
+  - 你想想看，
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 幫派的老大
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 如果太過招搖，
+- wait:
+  - 45
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 6
+- print:
+  - 帆稀
+  - 就會被王國盯上，
+- wait:
+  - 25
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 認為是
+- wait:
+  - 20
+- print:
+  - 帆稀
+  - 危險分子不是嗎？
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 1
+- vo:
+  - vo_adv_1067002_061
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 所以，我只會在出席集會等這類重要的工作場合上露臉，
+- wait:
+  - 90
+- print:
+  - 帆稀
+  - |2-
+
+    至於其他工作，
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - 在給予成員們的指示時，
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - |2-
+
+    都會盡可能不要口頭傳達
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - 或是當面告知。
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 1
+- vo:
+  - vo_adv_1067002_062
+- face:
+  - 106711
+  - 6
+- print:
+  - 帆稀
+  - 你很好奇我是如何給成員們下達指示嗎？
+- wait:
+  - 80
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 這個嘛～
+- wait:
+  - 50
+- print:
+  - 帆稀
+  - 就是使用你現在正在幫忙繪製的東西喔。
+- touch: *o0
+- choice:
+  - ……靠圖畫來傳達嗎？
+  - 9
+- tag:
+  - 9
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 1
+- vo:
+  - vo_adv_1067002_063
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 就是這樣～♪
+- wait:
+  - 50
+- print:
+  - 帆稀
+  - |2-
+
+    我會在漫畫、插畫，
+- wait:
+  - 35
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 以及
+- wait:
+  - 20
+- print:
+  - 帆稀
+  - 信件當中留下暗號。
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 1
+- vo:
+  - vo_adv_1067002_064
+- face:
+  - 106711
+  - 6
+- print:
+  - 帆稀
+  - 因為必須事先讓成員們
+- wait:
+  - 15
+- print:
+  - 帆稀
+  - 記住解讀暗號的方式，
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - |2-
+
+    剛開始的時候真的很辛苦，
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - |2-
+
+    不過等他們
+- wait:
+  - 45
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 都記住後，
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - 接下來就輕鬆多了～☆
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 1
+- vo:
+  - vo_adv_1067002_065
+- face:
+  - 106711
+  - 1
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 帆稀
+  - ……不用擔心。
+- wait:
+  - 55
+- print:
+  - 帆稀
+  - 我在你來幫忙繪製的原稿當中，
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - |2-
+
+    並沒有留下記號喔。
+- wait:
+  - 60
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 這是難得的回禮，
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - |2-
+
+    我不會讓你去做既危險又骯髒的幫派工作～♪
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 1
+- vo:
+  - vo_adv_1067002_066
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 我也希望你收下的，
+- wait:
+  - 50
+- print:
+  - 帆稀
+  - |2-
+
+    是我純真的感謝之意呢～☆
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 1
+- vo:
+  - vo_adv_1067002_067
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - ……雖說我也很想為你，
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - |2-
+
+    好～好準備墮落的那一刻♪
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 1
+- vo:
+  - vo_adv_1067002_068
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 啊哈哈，
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 我是在開玩笑，開玩笑的☆
+- wait:
+  - 60
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 1
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 帆稀
+  - 好啦，
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - 該動動停下來的手囉～♪
+- wait:
+  - 50
+- print:
+  - 帆稀
+  - |2-
+
+    今天工作結束後，
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - 一起去吃
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 美味的大餐吧～！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 於是，兩人又再度投入工作。
+- wait:
+  - 15
+- print:
+  - 旁白
+  - |2-
+
+    然而，{0}卻從帆稀對他投來的微笑當中，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - |2-
+
+    感受到了深不可測的某種東西。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- se_pause:
+  - amb_adv_room_noise_01
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- still:
+  - end
+- end: *o0

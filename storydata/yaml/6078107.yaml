@@ -1,0 +1,254 @@
+- title:
+  - アキノの料理
+- outline:
+  - ' '
+- background:
+  - 500036
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 令嬢とのデート
+- chara_full:
+  - 114411
+  - C
+  - 1
+  - 1
+- fadein:
+  - 114411
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M428_04
+  - 0
+  - 0
+  - 1
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054107_000
+- face:
+  - 114411
+  - 1
+- print:
+  - アキノ
+  - あなたさまと眺めたあのオーロラの景色は
+- wait:
+  - 60
+- print:
+  - アキノ
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - アキノ
+  - お金に換えられない、
+- wait:
+  - 35
+- print:
+  - アキノ
+  - ただ一つの宝物ですわ。
+- wait:
+  - 60
+- print:
+  - アキノ
+  - |2
+
+- face:
+  - 114411
+  - 2
+- print:
+  - アキノ
+  - 私、
+- wait:
+  - 35
+- print:
+  - アキノ
+  - あの感動を忘れません。
+- touch: &o0 []
+- choice:
+  - キレイだったね。
+  - 1
+  - 1
+- choice:
+  - 僕も忘れないよ。
+  - 2
+  - 2
+- choice:
+  - またいろんな景色を見に行こう。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054107_001
+- face:
+  - 114411
+  - 2
+- nod:
+  - 114411
+- print:
+  - アキノ
+  - ええ！
+- wait:
+  - 35
+- print:
+  - アキノ
+  - |2-
+
+    やはり絵画で見るより
+- wait:
+  - 35
+- print:
+  - アキノ
+  - 素晴らしかったですわ！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054107_002
+- face:
+  - 114411
+  - 1
+- print:
+  - アキノ
+  - 二人で息を切らしながら山を登って、
+- wait:
+  - 70
+- print:
+  - アキノ
+  - |2-
+
+    最後は
+- wait:
+  - 25
+- print:
+  - アキノ
+  - へとへとになって、
+- wait:
+  - 40
+- face:
+  - 114411
+  - 5
+- print:
+  - アキノ
+  - 私は
+- wait:
+  - 40
+- print:
+  - アキノ
+  - あなたさまの腕に
+- wait:
+  - 50
+- print:
+  - アキノ
+  - |2
+
+- face:
+  - 114411
+  - 2
+- print:
+  - アキノ
+  - ……ふふ、
+- wait:
+  - 40
+- print:
+  - アキノ
+  - 本当にドキドキして忘れられませんわ！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 114411
+- bust:
+  - 114411
+  - 0
+- vo:
+  - vo_adv_6054107_003
+- face:
+  - 114411
+  - 1
+- print:
+  - アキノ
+  - あなたさまと未来の約束ができる。
+- wait:
+  - 75
+- print:
+  - アキノ
+  - |2
+
+- face:
+  - 114411
+  - 2
+- print:
+  - アキノ
+  - これほどうれしいことはありません。
+- wait:
+  - 55
+- print:
+  - アキノ
+  - |2
+
+- face:
+  - 114411
+  - 1
+- nod:
+  - 114411
+- print:
+  - アキノ
+  - ……ええ、
+- wait:
+  - 35
+- print:
+  - アキノ
+  - 絶対の
+- wait:
+  - 25
+- print:
+  - アキノ
+  - 約束ですわよ。
+- wait:
+  - 40
+- print:
+  - アキノ
+  - あなたさま♪
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 114411
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

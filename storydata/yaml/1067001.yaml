@@ -1,0 +1,3160 @@
+- title:
+  - 帆稀 第1話
+- outline:
+  - 接下送信工作，前去投遞信件的{0}，遇到了幫派老大，帆稀。由於信件被施加了爆破魔法，帆稀便直搗寄件者──某組織的據點，親自解決紛爭。
+- background:
+  - 500890
+- se:
+  - amb_adv_wind_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 臥龍點睛
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 才剛開始做送信工作的{0}，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - |2-
+
+    某天因為找不到最後一封信件的收件者，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - |2-
+
+    在蘭德索爾市內四處奔走。
+- wait:
+  - 15
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 106711
+  - C
+  - 6
+- fadein:
+  - 106711
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M274
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_000
+- face:
+  - 106711
+  - 6
+- emotion:
+  - question1_R
+  - 106711
+  - 110
+  - 525
+  - se_adv_emote_question_01
+- print:
+  - 帆稀
+  - ……？
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_001
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 你好～
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - 你在找什麼嗎？
+- wait:
+  - 60
+- print:
+  - 帆稀
+  - |2-
+
+    這一帶是幫派的地盤，
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 危機四伏，
+- wait:
+  - 55
+- print:
+  - 帆稀
+  - |2-
+
+    最好別單獨一個人在這裡閒晃喔。
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_002
+- face:
+  - 106711
+  - 6
+- print:
+  - 帆稀
+  - 還是說，
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 你是來找人的嗎～？
+- touch: *o0
+- choice:
+  - 我是來送信給一位名叫帆稀的收件者。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_003
+- face:
+  - 106711
+  - 2
+- nod:
+  - 106711
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 帆稀
+  - 哇啊～♪
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - 真是巧！
+- wait:
+  - 50
+- print:
+  - 帆稀
+  - |2-
+
+    你要找的帆稀，
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 就在這裡喔～☆
+- touch: *o0
+- choice:
+  - 妳就是帆稀？
+  - 2
+- tag:
+  - 2
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_004
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 答對了～☆
+- wait:
+  - 50
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 謝謝你送信過來，
+- wait:
+  - 45
+- print:
+  - 帆稀
+  - 送信員♪
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_005
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 那麼，我來簽收……
+- wait:
+  - 20
+- se:
+  - se_adv_paper_pencil_write_draw_01
+- wait:
+  - 65
+- print:
+  - 帆稀
+  - 這樣就可以了。
+- wait:
+  - 55
+- print:
+  - 帆稀
+  - |2-
+
+    好了，
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 到底是誰寄來的信件呢～？
+- touch: *o0
+- se:
+  - se_adv_paper_move_05
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_006
+- face:
+  - 106711
+  - 6
+- print:
+  - 帆稀
+  - 嗯……
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 沒有屬名耶。
+- wait:
+  - 70
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 那個，
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - 你知道是誰──
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106711
+  - 15
+- bgm:
+  - stop
+  - 1
+  - 1
+- effect:
+  - 0010
+  - se_adv_explosion_small_01
+- effect:
+  - 0014
+- wait:
+  - 30
+- chara_full:
+  - 811
+  - C
+  - 3
+- chara_full:
+  - 6311
+  - L
+  - 3
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 30
+- change:
+  - RC
+  - C
+  - 30
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M357
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1067001_007
+- face:
+  - 811
+  - 3
+- emotion:
+  - surprise1_L
+  - 811
+  - 110
+  - 580
+  - se_adv_emote_common_01
+- print:
+  - 流氓1
+  - 怎麼了！？
+- touch: *o0
+- focus:
+  - 6311
+- bust:
+  - 6311
+  - 0
+- vo:
+  - vo_adv_1067001_008
+- face:
+  - 6311
+  - 3
+- print:
+  - 流氓2
+  - 上門鬧事嗎！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106711
+  - C
+  - 4
+- fadein:
+  - 106711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_009
+- face:
+  - 106711
+  - 4
+- nod:
+  - 106711
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 帆稀
+  - 咳、
+- wait:
+  - 15
+- print:
+  - 帆稀
+  - 咳……
+- touch: *o0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1067001_010
+- face:
+  - 1
+  - 1
+- print:
+  - 拉格
+  - 嘎喔！
+- wait:
+  - 5
+- print:
+  - 拉格
+  - 嘎喔！
+- touch: *o0
+- effect_delete:
+  - 0014
+  - 30
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_011
+- face:
+  - 106711
+  - 6
+- nod:
+  - 106711
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 帆稀
+  - 呼……
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - 真是危險呢，拉格。
+- wait:
+  - 80
+- print:
+  - 帆稀
+  - |2-
+
+    你沒事吧？
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - 有沒有受傷？
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - |2-
+
+    雖說我有幫你施展了防禦魔法。
+- touch: *o0
+- choice:
+  - 我、我沒事……
+  - 3
+- tag:
+  - 3
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_012
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 這樣啊～
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 沒事就好☆
+- wait:
+  - 50
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 6
+- print:
+  - 帆稀
+  - 突然發生爆炸，
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - 想必你也嚇一大跳吧～？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106711
+  - 30
+- chara_full:
+  - 811
+  - RC
+  - 3
+- chara_full:
+  - 106711
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1067001_013
+- face:
+  - 811
+  - 3
+- pop:
+  - 811
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 流氓1
+  - 老大！
+- wait:
+  - 20
+- print:
+  - 流氓1
+  - 到底發生了什麼事！？
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_014
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 嗯，
+- wait:
+  - 20
+- print:
+  - 帆稀
+  - 出了點意外。
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - |2-
+
+    這孩子送來的信件爆炸了。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 811
+  - 30
+- chara_full:
+  - 6311
+  - RC
+  - 6
+- fadein:
+  - 6311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 6311
+- bust:
+  - 6311
+  - 0
+- vo:
+  - vo_adv_1067001_015
+- face:
+  - 6311
+  - 6
+- print:
+  - 流氓2
+  - 妳說什麼！？
+- wait:
+  - 50
+- print:
+  - 流氓2
+  - |2
+
+- face:
+  - 6311
+  - 3
+- print:
+  - 流氓2
+  - 喂，你這小子！
+- wait:
+  - 30
+- print:
+  - 流氓2
+  - 別以為你可以活著回去啊！
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_016
+- face:
+  - 106711
+  - 3
+- nod:
+  - 106711
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 帆稀
+  - 你們兩～位。
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - 這件事跟這孩子無關，
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - 別對他發脾氣。
+- wait:
+  - 45
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 6
+- print:
+  - 帆稀
+  - 他若知道自己會被爆炸波及到的話，
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - |2-
+
+    就不會一直站在我身邊了。
+- touch: *o0
+- focus:
+  - 6311
+- bust:
+  - 6311
+  - 0
+- vo:
+  - vo_adv_1067001_017
+- face:
+  - 6311
+  - 4
+- print:
+  - 流氓2
+  - 雖然老大這麼說也是……
+- wait:
+  - 70
+- print:
+  - 流氓2
+  - |2-
+
+    不過，他也可能是豁出去了，
+- wait:
+  - 35
+- print:
+  - 流氓2
+  - 萬一──
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_018
+- face:
+  - 106711
+  - 3
+- print:
+  - 帆稀
+  - 就算是這樣，
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - 也不能再對他發脾氣了。
+- wait:
+  - 60
+- print:
+  - 帆稀
+  - |2-
+
+    要是再出聲責備他，
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 我可要生氣囉。
+- wait:
+  - 45
+- print:
+  - 帆稀
+  - 知道嗎？
+- touch: *o0
+- focus:
+  - 6311
+- bust:
+  - 6311
+  - 0
+- vo:
+  - vo_adv_1067001_019
+- face:
+  - 6311
+  - 2
+- nod:
+  - 6311
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - 流氓2
+  - 是的！
+- wait:
+  - 15
+- print:
+  - 流氓2
+  - 知道了！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 6311
+  - 30
+- chara_full:
+  - 811
+  - RC
+  - 4
+- fadein:
+  - 811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1067001_020
+- face:
+  - 811
+  - 4
+- print:
+  - 流氓1
+  - 老大，
+- wait:
+  - 30
+- print:
+  - 流氓1
+  - 這會是哪個傢伙搞的鬼啊？
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_021
+- face:
+  - 106711
+  - 6
+- print:
+  - 帆稀
+  - 嗯……
+- wait:
+  - 50
+- print:
+  - 帆稀
+  - 若從最近跟我們作對的組織來思考，
+- wait:
+  - 80
+- print:
+  - 帆稀
+  - |2-
+
+    很快就有眉目了呢～
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_022
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 總之～
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 就先去確認看看吧。
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1067001_023
+- face:
+  - 811
+  - 1
+- nod:
+  - 811
+- se:
+  - se_adv_step_concrete_move_01
+- print:
+  - 流氓1
+  - 既然這樣，
+- wait:
+  - 20
+- print:
+  - 流氓1
+  - 我們也要一起去！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 811
+  - 30
+- chara_full:
+  - 6311
+  - RC
+  - 2
+- fadein:
+  - 6311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 6311
+- bust:
+  - 6311
+  - 0
+- vo:
+  - vo_adv_1067001_024
+- face:
+  - 6311
+  - 2
+- print:
+  - 流氓2
+  - 老大，
+- wait:
+  - 30
+- print:
+  - 流氓2
+  - 我們會跟著妳到天涯海角的！
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_025
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 謝謝你們～♪
+- wait:
+  - 40
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 那麼，
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 我們這就去……
+- wait:
+  - 15
+- print:
+  - 帆稀
+  - 回個禮吧？
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - R
+  - RC
+  - 30
+- change:
+  - C
+  - LC
+  - 30
+- fadeout_all:
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 106711
+  - LC
+  - 6
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 106711
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_026
+- face:
+  - 106711
+  - 6
+- emotion:
+  - question1_R
+  - 106711
+  - 110
+  - 525
+  - se_adv_emote_question_01
+- print:
+  - 帆稀
+  - ……
+- touch: *o0
+- bgm:
+  - bgm_M274_06
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_027
+- face:
+  - 106711
+  - 6
+- print:
+  - 帆稀
+  - 哎呀～？
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 你沒聽見我剛才說的話嗎？
+- touch: *o0
+- choice:
+  - 我也要一起去？
+  - 4
+- tag:
+  - 4
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_028
+- face:
+  - 106711
+  - 1
+- nod:
+  - 106711
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 帆稀
+  - 嗯！
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 因為你被不認識的壞人所利用，
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - |2-
+
+    剛剛差點
+- wait:
+  - 55
+- print:
+  - 帆稀
+  - 就丟了小命呢～
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_029
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 像這種狀況～
+- wait:
+  - 50
+- print:
+  - 帆稀
+  - 一定要好～好譴責對方♪
+- wait:
+  - 75
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 6
+- print:
+  - 帆稀
+  - 要是你在這裡放過犯人，
+- wait:
+  - 60
+- print:
+  - 帆稀
+  - |2-
+
+    說不定他們下一次還會再利用其他人。
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_030
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 哪怕對方是衝著我而來的，
+- wait:
+  - 50
+- print:
+  - 帆稀
+  - |2-
+
+    你被捲入也是事實。
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_031
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 既然如此，
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - |2-
+
+    現在就去把這件事解決掉比較好喔～♪
+- touch: *o0
+- choice:
+  - 好、好的……
+  - 5
+- tag:
+  - 5
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_032
+- face:
+  - 106711
+  - 1
+- emotion:
+  - notice1_L
+  - 106711
+  - -85
+  - 555
+  - se_adv_emote_common_01
+- print:
+  - 帆稀
+  - 啊，
+- wait:
+  - 15
+- print:
+  - 帆稀
+  - 對了～！
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 我還沒自我介紹吧？
+- wait:
+  - 55
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 我是掌控這一帶的幫派
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - 「龍骨家族」的老大，
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - |2-
+
+    名叫帆稀♪
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - 還請多指教～☆
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_033
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 還有，
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 這孩子是拉格。
+- wait:
+  - 50
+- print:
+  - 帆稀
+  - 是隻很可愛、很可愛的龍喔☆
+- wait:
+  - 60
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 拉格，
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - 打聲招呼吧。
+- touch: *o0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1067001_034
+- face:
+  - 1
+  - 1
+- print:
+  - 拉格
+  - 嘎喔～！
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- window_visible:
+  - false
+- fadeout:
+  - 106711
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_wind_01
+  - 1
+- background:
+  - 500030
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_town_day_01
+- chara_full:
+  - 811
+  - RC
+  - 3
+- chara_full:
+  - 6311
+  - LC
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M97_Ver2
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1067001_035
+- face:
+  - 811
+  - 3
+- nod:
+  - 811
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - 流氓1
+  - 老大！
+- wait:
+  - 20
+- print:
+  - 流氓1
+  - 那邊就是那些傢伙們的據點！
+- touch: *o0
+- focus:
+  - 6311
+- bust:
+  - 6311
+  - 0
+- vo:
+  - vo_adv_1067001_036
+- face:
+  - 6311
+  - 4
+- print:
+  - 流氓2
+  - 請小心點，老大。
+- wait:
+  - 40
+- print:
+  - 流氓2
+  - |2
+
+- face:
+  - 6311
+  - 2
+- print:
+  - 流氓2
+  - 要是有什麼危險，
+- wait:
+  - 25
+- print:
+  - 流氓2
+  - 我們會為妳挺身擋下！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106711
+  - C
+  - 2
+- fadein:
+  - 106711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_037
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 用不著這麼擔心，沒問題的～
+- wait:
+  - 85
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 6
+- print:
+  - 帆稀
+  - 話說回來，
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - 你們太過血氣方剛，
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - 這孩子會被嚇到的，是吧？
+- wait:
+  - 60
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 這時候更應該冷靜下來，
+- wait:
+  - 45
+- print:
+  - 帆稀
+  - 保持微笑才對♪
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - LC
+  - C
+  - 30
+- fadeout:
+  - 106711
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- background:
+  - 500050
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_room_noise_01
+- se:
+  - se_adv_door_shop_open_01
+- chara_full:
+  - 106711
+  - L
+  - 1
+- chara_full:
+  - 1111
+  - RC
+  - 6
+- se:
+  - se_adv_step_wood_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 3
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_038
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 午安～☆
+- touch: *o0
+- bgm:
+  - bgm_M326
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 0
+- vo:
+  - vo_adv_1067001_039
+- face:
+  - 1111
+  - 4
+- emotion:
+  - surprise1_L
+  - 1111
+  - 150
+  - 615
+  - se_adv_emote_common_01
+- print:
+  - 敵對組織的男性
+  - 唔！？
+- wait:
+  - 10
+- print:
+  - 敵對組織的男性
+  - 妳、
+- wait:
+  - 15
+- print:
+  - 敵對組織的男性
+  - 妳怎麼會……！
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_040
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 啊哈哈♪
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - |2-
+
+    謝謝你這麼簡單明瞭的反應～☆
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1111
+  - 30
+- chara_full:
+  - 911
+  - RC
+  - 6
+- fadein:
+  - 911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1067001_041
+- face:
+  - 911
+  - 6
+- print:
+  - 敵對組織老大
+  - 帆、
+- wait:
+  - 20
+- print:
+  - 敵對組織老大
+  - 帆稀！？
+- wait:
+  - 35
+- face:
+  - 911
+  - 4
+- print:
+  - 敵對組織老大
+  - 妳怎麼……！？
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_042
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 好了，暫～停♪
+- wait:
+  - 55
+- print:
+  - 帆稀
+  - |2-
+
+    你可別問我：「妳怎麼還活著？」
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 這種
+- wait:
+  - 10
+- print:
+  - 帆稀
+  - 無聊的問題喔？
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1067001_043
+- face:
+  - 911
+  - 4
+- print:
+  - 敵對組織老大
+  - 唔
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 敵對組織老大
+  - ……！
+- shake:
+  - 911
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_044
+- face:
+  - 106711
+  - 6
+- print:
+  - 帆稀
+  - 術式的完成度不差呢～
+- wait:
+  - 55
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 不過，
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - 威力若不增強點，
+- wait:
+  - 55
+- print:
+  - 帆稀
+  - 是沒辦法擊倒我的☆
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_045
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 即便如此，
+- wait:
+  - 45
+- print:
+  - 帆稀
+  - 竟然施加了那等爆破威力的魔法，
+- wait:
+  - 60
+- print:
+  - 帆稀
+  - |2-
+
+    你根本不在乎一般人會不會遭受波及，
+- wait:
+  - 45
+- print:
+  - 帆稀
+  - 對吧？
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1067001_046
+- face:
+  - 911
+  - 3
+- nod:
+  - 911
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 敵對組織老大
+  - 哼！
+- wait:
+  - 35
+- print:
+  - 敵對組織老大
+  - 要殺妳哪能放水啊！
+- wait:
+  - 55
+- print:
+  - 敵對組織老大
+  - |2-
+
+    妳這個、
+- wait:
+  - 10
+- print:
+  - 敵對組織老大
+  - 怪物……！
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_047
+- face:
+  - 106711
+  - 4
+- print:
+  - 帆稀
+  - 真～過分！
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 別把人說得像魔物一樣～！
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_048
+- face:
+  - 106711
+  - 6
+- print:
+  - 帆稀
+  - ……退個一百步說，即使我可以允許你們衝著我來，
+- wait:
+  - 80
+- print:
+  - 帆稀
+  - |2-
+
+    但是，你那即便送信員會受到波及也毫不在乎的想法，
+- wait:
+  - 70
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 我絕不能原諒呢～☆
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_049
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 因為要是認同了你這樣的想法，
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - |2-
+
+    我就成了與你們同樣程度的人渣了
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - 不是嗎。
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_050
+- face:
+  - 106711
+  - 6
+- nod:
+  - 106711
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 帆稀
+  - 啊啊，不過，
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 像這孩子一樣正正當當地過活的人們眼中，
+- wait:
+  - 50
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 4
+- print:
+  - 帆稀
+  - 我們大～家大概都跟人渣沒兩樣吧？
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1067001_051
+- face:
+  - 911
+  - 3
+- print:
+  - 敵對組織老大
+  - 妳……
+- wait:
+  - 55
+- print:
+  - 敵對組織老大
+  - 到底想怎麼樣？
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_052
+- face:
+  - 106711
+  - 6
+- print:
+  - 帆稀
+  - 這個嘛……
+- wait:
+  - 50
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 請你道歉♪
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1067001_053
+- face:
+  - 911
+  - 6
+- emotion:
+  - question1_R
+  - 911
+  - 105
+  - 555
+  - se_adv_emote_question_01
+- print:
+  - 敵對組織老大
+  - 啥？
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_054
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 所以說～
+- wait:
+  - 35
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 請你道歉♪
+- wait:
+  - 60
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 雖說我們這邊並不想把事情鬧大，
+- wait:
+  - 55
+- print:
+  - 帆稀
+  - |2-
+
+    但也不能對把一般人也捲進來的事件視而不見，
+- wait:
+  - 75
+- print:
+  - 帆稀
+  - |2-
+
+    所以希望
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 你能為這件事好好地道歉～☆
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1067001_055
+- face:
+  - 911
+  - 1
+- print:
+  - 敵對組織老大
+  - 這樣啊……
+- wait:
+  - 50
+- print:
+  - 敵對組織老大
+  - 既然這樣，
+- wait:
+  - 25
+- print:
+  - 敵對組織老大
+  - |2-
+
+    就讓我們這邊的年輕小夥子來賠罪吧。
+- wait:
+  - 55
+- print:
+  - 敵對組織老大
+  - 這樣就行了吧？
+- wait:
+  - 50
+- print:
+  - 敵對組織老大
+  - |2
+
+- face:
+  - 911
+  - 3
+- print:
+  - 敵對組織老大
+  - 喂，我說你啊！
+- wait:
+  - 30
+- print:
+  - 敵對組織老大
+  - 還不快道歉！
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_056
+- face:
+  - 106711
+  - 6
+- emotion:
+  - question1_R
+  - 106711
+  - 110
+  - 525
+  - se_adv_emote_question_01
+- print:
+  - 帆稀
+  - 嗯～？
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 為何你不親自道歉呢？
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1067001_057
+- face:
+  - 911
+  - 1
+- print:
+  - 敵對組織老大
+  - 因為這並不是我做的事啊。
+- wait:
+  - 55
+- print:
+  - 敵對組織老大
+  - |2-
+
+    雖然我曾說過他們要給帆稀好看，
+- wait:
+  - 45
+- print:
+  - 敵對組織老大
+  - 但並沒有想讓事情變成這樣……
+- touch: *o0
+- se:
+  - se_adv_body_sitdown_01
+- focus:
+  - 1111
+- bust:
+  - 1111
+  - 1
+- vo:
+  - vo_adv_1067001_058
+- face:
+  - 1111
+  - 4
+- print:
+  - 敵對組織的男性
+  - 這次
+- wait:
+  - 30
+- print:
+  - 敵對組織的男性
+  - 真的很抱歉！
+- wait:
+  - 50
+- print:
+  - 敵對組織的男性
+  - |2-
+
+    我誠心誠意地
+- wait:
+  - 30
+- print:
+  - 敵對組織的男性
+  - 賭上性命向您表達
+- wait:
+  - 25
+- print:
+  - 敵對組織的男性
+  - 十二萬分的歉意！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106711
+  - C
+  - 6
+- fadein:
+  - 106711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_059
+- face:
+  - 106711
+  - 6
+- nod:
+  - 106711
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 帆稀
+  - ……這樣啊，
+- wait:
+  - 45
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 所以說呢，
+- wait:
+  - 45
+- print:
+  - 帆稀
+  - |2-
+
+    該怎麼處置這個人，
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - 可以由你來決定喔？
+- touch: *o0
+- choice:
+  - 該怎麼處置是指……？
+  - 6
+- tag:
+  - 6
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_060
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 例如，為了表示誠意，
+- wait:
+  - 45
+- print:
+  - 帆稀
+  - 看是要現在就當場
+- wait:
+  - 20
+- print:
+  - 帆稀
+  - 取了他的性命，
+- wait:
+  - 70
+- print:
+  - 帆稀
+  - |2-
+
+    或是在你有需要的時候
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - 使喚他來幫忙♪
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_061
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 不管你想要他做什麼都行喔。
+- wait:
+  - 55
+- print:
+  - 帆稀
+  - 所以，你想怎麼做呢？
+- touch: *o0
+- choice:
+  - 我沒有受傷，所以不用這樣。
+  - 7
+- tag:
+  - 7
+- bgm:
+  - stop
+  - 14
+  - 1
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_062
+- face:
+  - 106711
+  - 6
+- print:
+  - 帆稀
+  - 哦……
+- wait:
+  - 30
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 這樣啊～☆
+- wait:
+  - 50
+- print:
+  - 帆稀
+  - |2-
+
+    不過，
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - 也不能讓他們什麼都不做，
+- wait:
+  - 55
+- print:
+  - 帆稀
+  - |2-
+
+    不如把你的權利
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - 讓給我……
+- wait:
+  - 45
+- print:
+  - 帆稀
+  - 沒問題吧♪
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106711
+  - 30
+- chara_full:
+  - 911
+  - RC
+  - 3
+- chara_full:
+  - 106711
+  - LC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M418
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_063
+- face:
+  - 106711
+  - 4
+- nod:
+  - 106711
+- se:
+  - se_adv_step_wood_move_01
+- print:
+  - 帆稀
+  - 真遺憾～！
+- wait:
+  - 55
+- print:
+  - 帆稀
+  - 看來這個人的道歉
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - 一點價值也沒有呢！
+- wait:
+  - 65
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 我們希望能由地位再高點的人……
+- wait:
+  - 60
+- print:
+  - 帆稀
+  - 也就是
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - 最偉大的人來道歉喔☆
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1067001_064
+- face:
+  - 911
+  - 6
+- emotion:
+  - exclamation1_R
+  - 911
+  - -15
+  - 715
+  - se_adv_emote_common_01
+- print:
+  - 敵對組織老大
+  - 啥！
+- wait:
+  - 20
+- face:
+  - 911
+  - 3
+- print:
+  - 敵對組織老大
+  - 別開玩笑了！
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_065
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 還有，
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - 除了道歉外，
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - |2-
+
+    導致我們雙方相互敵對的地盤，
+- wait:
+  - 65
+- print:
+  - 帆稀
+  - |2-
+
+    你也得負起責任，把它讓給我♪
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1067001_066
+- face:
+  - 911
+  - 3
+- nod:
+  - 911
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 敵對組織老大
+  - 聽妳在那邊鬼扯！
+- wait:
+  - 60
+- print:
+  - 敵對組織老大
+  - |2-
+
+    我幹嘛要這麼做！
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_067
+- face:
+  - 106711
+  - 6
+- print:
+  - 帆稀
+  - 因為小嘍囉的賠罪解決不了問題，這也是沒辦法的事～
+- wait:
+  - 85
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 4
+- print:
+  - 帆稀
+  - 原來讓一般人捲入幫派之間的鬥爭，
+- wait:
+  - 65
+- print:
+  - 帆稀
+  - 事情就會變成這樣呢～！
+- wait:
+  - 55
+- print:
+  - 帆稀
+  - |2-
+
+    啊啊～真是可怕哪！
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1067001_068
+- face:
+  - 911
+  - 3
+- emotion:
+  - anger1_R
+  - 911
+  - -95
+  - 665
+  - se_adv_emote_anger_01
+- print:
+  - 敵對組織老大
+  - 妳以為這番鬼話行得通嗎！
+- wait:
+  - 75
+- print:
+  - 敵對組織老大
+  - |2-
+
+    我絕對……
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_069
+- face:
+  - 106711
+  - 6
+- print:
+  - 帆稀
+  - 不道歉？
+- wait:
+  - 60
+- print:
+  - 帆稀
+  - 這就沒辦法了～
+- wait:
+  - 45
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 4
+- print:
+  - 帆稀
+  - 得讓蘭德索爾市內的人們都知道這件事才行
+- wait:
+  - 85
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - ……知道這邊的幫派，
+- wait:
+  - 15
+- print:
+  - 帆稀
+  - |2-
+
+    會為了爭奪地盤而把一般人捲進來，
+- wait:
+  - 70
+- print:
+  - 帆稀
+  - 很～危險
+- wait:
+  - 50
+- print:
+  - 帆稀
+  - 這件事。
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1067001_070
+- face:
+  - 911
+  - 4
+- print:
+  - 敵對組織老大
+  - 妳、
+- wait:
+  - 35
+- print:
+  - 敵對組織老大
+  - 妳這是……！
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_071
+- face:
+  - 106711
+  - 6
+- print:
+  - 帆稀
+  - 反正被捲入的人現在還活得好好的，
+- wait:
+  - 60
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 不如現在就來寫封請願書，
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - |2-
+
+    送到【王宮騎士團】那裡去吧♪
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_072
+- face:
+  - 106711
+  - 4
+- print:
+  - 帆稀
+  - 之後，
+- wait:
+  - 35
+- print:
+  - 帆稀
+  - 你們就會受到騎士團非常嚴格的控管，
+- wait:
+  - 70
+- print:
+  - 帆稀
+  - |2-
+
+    別說是地盤了，
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 搞不好……
+- wait:
+  - 60
+- print:
+  - 帆稀
+  - |2-
+
+    組織本身就會整個瓦解呢？
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1067001_073
+- face:
+  - 911
+  - 3
+- print:
+  - 敵對組織老大
+  - 唔……！
+- shake:
+  - 911
+  - 1
+- wait:
+  - 35
+- print:
+  - 敵對組織老大
+  - 帆稀……
+- wait:
+  - 40
+- print:
+  - 敵對組織老大
+  - 妳這傢伙～！！
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_074
+- face:
+  - 106711
+  - 6
+- print:
+  - 帆稀
+  - 好～啦，
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - 你要怎麼做呢～？
+- wait:
+  - 55
+- print:
+  - 帆稀
+  - |2-
+
+    我想在場的每個人，
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - 應該都希望事情能和平解決吧……
+- wait:
+  - 90
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 你難道不是嗎？
+- wait:
+  - 50
+- print:
+  - 帆稀
+  - 要是我猜錯了，那就抱歉囉～♪
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1067001_075
+- face:
+  - 911
+  - 4
+- nod:
+  - 911
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 敵對組織老大
+  - ……我知道了。
+- wait:
+  - 75
+- print:
+  - 敵對組織老大
+  - |2-
+
+    這位小哥，
+- wait:
+  - 40
+- print:
+  - 敵對組織老大
+  - 我做了對不起你的事，
+- wait:
+  - 55
+- eye_open:
+  - False
+- print:
+  - 敵對組織老大
+  - 在此向你賠罪。
+- wait:
+  - 75
+- print:
+  - 敵對組織老大
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 敵對組織老大
+  - 還有，
+- wait:
+  - 35
+- print:
+  - 敵對組織老大
+  - 那塊地盤就讓給妳了。
+- wait:
+  - 55
+- print:
+  - 敵對組織老大
+  - 隨妳處置吧。
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_076
+- face:
+  - 106711
+  - 2
+- emotion:
+  - note1_L
+  - 106711
+  - -95
+  - 515
+  - se_adv_emote_note_01
+- print:
+  - 帆稀
+  - 謝謝你～♪
+- wait:
+  - 50
+- print:
+  - 帆稀
+  - |2-
+
+    那麼，
+- wait:
+  - 20
+- print:
+  - 帆稀
+  - 「這次」就原諒你們……
+- wait:
+  - 60
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 下次可不會這麼簡單囉。
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_room_noise_01
+  - 1
+- background:
+  - 500891
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_wind_01
+- chara_full:
+  - 106711
+  - C
+  - 1
+- fadein:
+  - 106711
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M533
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_077
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 各位，辛苦了～♪
+- wait:
+  - 60
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 大家不但能平安無事地回來，
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - 甚至連地盤也要到手了☆
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106711
+  - 30
+- chara_full:
+  - 811
+  - RC
+  - 2
+- chara_full:
+  - 6311
+  - LC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1067001_078
+- face:
+  - 811
+  - 2
+- print:
+  - 流氓1
+  - 妳辛苦了！
+- wait:
+  - 30
+- print:
+  - 流氓1
+  - |2-
+
+    我們的老大果然是最強的！
+- touch: *o0
+- focus:
+  - 6311
+- bust:
+  - 6311
+  - 0
+- vo:
+  - vo_adv_1067001_079
+- face:
+  - 6311
+  - 2
+- nod:
+  - 6311
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - 流氓2
+  - 今後
+- wait:
+  - 20
+- print:
+  - 流氓2
+  - 我們也會跟隨妳一輩子的！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106711
+  - C
+  - 2
+- fadein:
+  - 106711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_080
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 嗯嗯，
+- wait:
+  - 45
+- print:
+  - 帆稀
+  - 今後也得仰賴你們的努力，
+- wait:
+  - 45
+- print:
+  - 帆稀
+  - 還請多指教☆
+- wait:
+  - 45
+- print:
+  - 帆稀
+  - |2
+
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 我還有些話要跟這孩子說，
+- wait:
+  - 50
+- print:
+  - 帆稀
+  - 你們就先回去吧。
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_081
+- face:
+  - 106711
+  - 6
+- nod:
+  - 106711
+- se:
+  - se_adv_step_concrete_move_01
+- print:
+  - 帆稀
+  - 好了……
+- wait:
+  - 65
+- face:
+  - 106711
+  - 4
+- print:
+  - 帆稀
+  - 真抱歉～
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - 讓你捲入了幫派之間的鬥爭。
+- wait:
+  - 55
+- print:
+  - 帆稀
+  - |2-
+
+    你覺得很可怕吧？
+- wait:
+  - 50
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 不過，託你的福，
+- wait:
+  - 25
+- print:
+  - 帆稀
+  - 我也獲益不少呢♪
+- wait:
+  - 70
+- print:
+  - 帆稀
+  - |2-
+
+    希望下次有機會
+- wait:
+  - 50
+- print:
+  - 帆稀
+  - 可以好好地向你賠罪和道謝☆
+- touch: *o0
+- choice:
+  - 不會是什麼危險的事吧？
+  - 8
+- tag:
+  - 8
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_082
+- face:
+  - 106711
+  - 2
+- print:
+  - 帆稀
+  - 那當然～！
+- wait:
+  - 50
+- face:
+  - 106711
+  - 1
+- print:
+  - 帆稀
+  - 那麼，
+- wait:
+  - 5
+- print:
+  - 帆稀
+  - 下次見囉。
+- wait:
+  - 30
+- print:
+  - 帆稀
+  - |2-
+
+    回去的路上要多加小心喔～！
+- touch: *o0
+- se:
+  - se_adv_step_concrete_walk_armor_go_01
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_1067001_083
+- face:
+  - 106711
+  - 2
+- emotion:
+  - note1_L
+  - 106711
+  - -95
+  - 515
+  - se_adv_emote_note_01
+- print:
+  - 帆稀
+  - '{0}……呵呵，'
+- wait:
+  - 40
+- print:
+  - 帆稀
+  - 公主騎士啊……
+- wait:
+  - 65
+- print:
+  - 帆稀
+  - |2-
+
+    看來是遇到一個有趣的孩子了呢～♪
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 106711
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 踏上歸途的{0}，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - |2-
+
+    絲毫沒有察覺到帆稀正以異樣的眼神盯著自己背影直瞧，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - |2-
+
+    就這樣離開了陰暗的小巷。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- se_pause:
+  - amb_adv_wind_01
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

@@ -1,0 +1,3344 @@
+- title:
+  - 花凜 第1話
+- outline:
+  - '{0}碰到花凜之後，決定幫助她調查被魔物襲擊的村莊。兩人發現原因就在地下賭場，並在花凜的指示下，和騎士團一起合作逮捕犯人，解決了事件。'
+- background:
+  - 500010
+- se:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 調查事件也是工作內容
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - '{0}走在街上時，'
+- wait:
+  - 15
+- print:
+  - 旁白
+  - |2-
+
+    碰巧遇見匆忙趕路的花凜。
+- wait:
+  - 15
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 190811
+  - C
+  - 6
+- fadein:
+  - 190811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M37
+  - 0
+  - 0
+  - 1
+  - 0.4
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_000
+- face:
+  - 190811
+  - 6
+- nod:
+  - 190811
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 花凜
+  - 啊，{0}先生，真巧啊。
+- wait:
+  - 25
+- print:
+  - 花凜
+  - |2
+
+- face:
+  - 190811
+  - 4
+- print:
+  - 花凜
+  - 不好意思，
+- wait:
+  - 20
+- print:
+  - 花凜
+  - 本來應該停下來好好打聲招呼的，
+- wait:
+  - 35
+- print:
+  - 花凜
+  - |2-
+
+    但我目前還有十分要緊的工作，
+- wait:
+  - 30
+- print:
+  - 花凜
+  - 請容我失陪了。
+- touch: *o0
+- choice:
+  - 怎麼了？
+  - 1
+- tag:
+  - 1
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_001
+- face:
+  - 190811
+  - 4
+- print:
+  - 花凜
+  - 我正要去調查被魔物襲擊的村莊。
+- wait:
+  - 70
+- print:
+  - 花凜
+  - |2
+
+- face:
+  - 190811
+  - 6
+- print:
+  - 花凜
+  - 本來應該由公會管理協會派遣公會去解決，
+- wait:
+  - 55
+- print:
+  - 花凜
+  - |2
+
+- face:
+  - 190811
+  - 4
+- print:
+  - 花凜
+  - 但目前那些公會要不是有委託要處理，
+- wait:
+  - 30
+- print:
+  - 花凜
+  - 要不就是在遠處無法趕來……
+- touch: *o0
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_002
+- face:
+  - 190811
+  - 4
+- print:
+  - 花凜
+  - 要對付魔物，必須盡早展開行動、研擬對策，
+- wait:
+  - 60
+- print:
+  - 花凜
+  - |2-
+
+    不然災害的範圍很容易擴大，
+- wait:
+  - 35
+- face:
+  - 190811
+  - 6
+- print:
+  - 花凜
+  - 因此我打算先過去看看情況。
+- touch: *o0
+- choice:
+  - 需要幫忙嗎？
+  - 2
+- tag:
+  - 2
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_003
+- face:
+  - 190811
+  - 2
+- emotion:
+  - twinkle1_R
+  - 190811
+  - -115
+  - 500
+  - se_adv_emote_twinkle_01
+- print:
+  - 花凜
+  - 你願意嗎！？
+- wait:
+  - 35
+- print:
+  - 花凜
+  - 能多點人手的話，會非常有幫助。
+- wait:
+  - 50
+- print:
+  - 花凜
+  - |2
+
+- face:
+  - 190811
+  - 1
+- print:
+  - 花凜
+  - 啊，
+- wait:
+  - 15
+- print:
+  - 花凜
+  - 當然，
+- wait:
+  - 20
+- print:
+  - 花凜
+  - 我會為此
+- wait:
+  - 30
+- print:
+  - 花凜
+  - 支付報酬的。
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+  - 1
+- fadeout:
+  - 190811
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- background:
+  - 500333
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_outdoors_day_01
+- chara_full:
+  - 190811
+  - C
+  - 6
+- fadein:
+  - 190811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M140_NoBell
+  - 0
+  - 0
+  - 0
+  - 0.4
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_004
+- face:
+  - 190811
+  - 6
+- print:
+  - 花凜
+  - 雖然之前已經聽說了大致的情況，
+- wait:
+  - 40
+- print:
+  - 花凜
+  - 但情況真是慘不忍睹呢。
+- wait:
+  - 55
+- print:
+  - 花凜
+  - |2
+
+- face:
+  - 190811
+  - 4
+- print:
+  - 花凜
+  - 光是要掌握災情
+- wait:
+  - 35
+- print:
+  - 花凜
+  - 就得費一番功夫。
+- wait:
+  - 40
+- print:
+  - 花凜
+  - |2
+
+- face:
+  - 190811
+  - 1
+- print:
+  - 花凜
+  - 幸好有你來
+- wait:
+  - 25
+- print:
+  - 花凜
+  - 分邊幫忙。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 190811
+  - 30
+- chara_full:
+  - 190811
+  - LC
+  - 1
+- chara_full:
+  - 1511
+  - R
+  - 6
+- se:
+  - se_adv_step_dirt_walk_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - R
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 1511
+- bust:
+  - 1511
+  - 0
+- vo:
+  - vo_adv_1185001_005
+- face:
+  - 1511
+  - 6
+- print:
+  - 女性
+  - 你們難道是
+- wait:
+  - 20
+- print:
+  - 女性
+  - 公會派來調查的人嗎？
+- wait:
+  - 45
+- print:
+  - 女性
+  - |2
+
+- face:
+  - 1511
+  - 1
+- print:
+  - 女性
+  - 太好了，
+- wait:
+  - 20
+- print:
+  - 女性
+  - 我等你們好久了。
+- touch: *o0
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_006
+- face:
+  - 190811
+  - 1
+- nod:
+  - 190811
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 花凜
+  - 是的，
+- wait:
+  - 20
+- print:
+  - 花凜
+  - 我來自公會管理協會。
+- wait:
+  - 45
+- print:
+  - 花凜
+  - |2
+
+- face:
+  - 190811
+  - 6
+- print:
+  - 花凜
+  - 我想要直接向村裡的人
+- wait:
+  - 20
+- print:
+  - 花凜
+  - 探聽目前的情況，
+- wait:
+  - 35
+- print:
+  - 花凜
+  - |2-
+
+    請問可以找個地方讓各位聚集過來嗎？
+- touch: *o0
+- focus:
+  - 1511
+- bust:
+  - 1511
+  - 0
+- vo:
+  - vo_adv_1185001_007
+- face:
+  - 1511
+  - 1
+- print:
+  - 女性
+  - 我去把有空的人聚集起來，
+- wait:
+  - 40
+- print:
+  - 女性
+  - 你們稍等一下。
+- touch: *o0
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_008
+- face:
+  - 190811
+  - 2
+- nod:
+  - 190811
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 花凜
+  - 謝謝妳。
+- wait:
+  - 40
+- print:
+  - 花凜
+  - |2
+
+- face:
+  - 190811
+  - 1
+- print:
+  - 花凜
+  - 那麼，
+- wait:
+  - 20
+- print:
+  - 花凜
+  - 我去向村民打聽被襲擊的情況，
+- wait:
+  - 60
+- print:
+  - 花凜
+  - |2-
+
+    可以麻煩你
+- wait:
+  - 25
+- print:
+  - 花凜
+  - 巡邏一下村莊嗎？
+- touch: *o0
+- choice:
+  - 我這就去。
+  - 3
+- tag:
+  - 3
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_009
+- face:
+  - 190811
+  - 2
+- print:
+  - 花凜
+  - 好的，
+- wait:
+  - 20
+- print:
+  - 花凜
+  - 麻煩你了。
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_outdoors_day_01
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_outdoors_day_01
+- chara_full:
+  - 911
+  - LC
+  - 6
+- chara_full:
+  - 811
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M288
+  - 0
+  - 0
+  - 1
+  - 0.4
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1185001_010
+- face:
+  - 911
+  - 6
+- nod:
+  - 911
+- se:
+  - se_adv_bush_03
+- print:
+  - 地痞1
+  - 快點
+- wait:
+  - 10
+- print:
+  - 地痞1
+  - 運出來！
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1185001_011
+- face:
+  - 811
+  - 4
+- print:
+  - 地痞2
+  - 說是這麼說，
+- wait:
+  - 25
+- print:
+  - 地痞2
+  - 但我已經拉著搬運車來來回回都快累死了。
+- wait:
+  - 75
+- print:
+  - 地痞2
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - 地痞2
+  - 到底為什麼我們要這麼悲哀地運送這些雜草啊？
+- wait:
+  - 55
+- print:
+  - 地痞2
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 地痞2
+  - 不能讓我休息一下嗎？
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1185001_012
+- face:
+  - 911
+  - 3
+- print:
+  - 地痞1
+  - 被發現的話就會被抓去關，
+- wait:
+  - 25
+- print:
+  - 地痞1
+  - |2-
+
+    不搬出去你要怎麼辦？
+- wait:
+  - 40
+- print:
+  - 地痞1
+  - 有沒有腦袋啊？
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1185001_013
+- face:
+  - 811
+  - 4
+- nod:
+  - 811
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 地痞2
+  - 唉……
+- touch: *o0
+- choice:
+  - 你們沒事吧？
+  - 4
+- tag:
+  - 4
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1185001_014
+- face:
+  - 911
+  - 6
+- emotion:
+  - surprise1_L
+  - 911
+  - 130
+  - 620
+  - se_adv_emote_common_01
+- print:
+  - 地痞1
+  - 呃！？
+- wait:
+  - 10
+- print:
+  - 地痞1
+  - 你、
+- wait:
+  - 15
+- print:
+  - 地痞1
+  - 你什麼時候……
+- wait:
+  - 45
+- face:
+  - 911
+  - 1
+- print:
+  - 地痞1
+  - 喔，
+- wait:
+  - 20
+- print:
+  - 地痞1
+  - 算了，
+- wait:
+  - 10
+- print:
+  - 地痞1
+  - 沒什麼。
+- wait:
+  - 20
+- print:
+  - 地痞1
+  - |2-
+
+    我們沒事。
+- wait:
+  - 35
+- print:
+  - 地痞1
+  - 謝謝
+- wait:
+  - 15
+- print:
+  - 地痞1
+  - 你的關心。
+- wait:
+  - 20
+- print:
+  - 地痞1
+  - |2-
+
+    就先這樣啦。
+- wait:
+  - 25
+- face:
+  - 911
+  - 3
+- print:
+  - 地痞1
+  - 喂！
+- wait:
+  - 20
+- print:
+  - 地痞1
+  - 走啦，
+- wait:
+  - 10
+- print:
+  - 地痞1
+  - 你這個蠢蛋！
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1185001_015
+- face:
+  - 811
+  - 4
+- print:
+  - 地痞2
+  - 喔……
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_dirt_walk_go_01
+- se:
+  - se_adv_carriage_stop_01
+- change:
+  - C
+  - LC
+  - 30
+- change:
+  - R
+  - RC
+  - 30
+- fadeout_all:
+  - 30
+- choice:
+  - ……？
+  - 5
+- tag:
+  - 5
+- bgm:
+  - stop
+  - 1.8
+  - 1
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 190811
+  - LC
+  - 6
+- chara_full:
+  - 311
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M140_NoBell_02
+  - 0
+  - 0
+  - 0
+  - 0.4
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_1185001_016
+- face:
+  - 311
+  - 4
+- print:
+  - 男性１
+  - ……就這樣，
+- wait:
+  - 30
+- print:
+  - 男性１
+  - 我們好不容易
+- wait:
+  - 30
+- print:
+  - 男性１
+  - 才活著逃出來。
+- touch: *o0
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_017
+- face:
+  - 190811
+  - 6
+- nod:
+  - 190811
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 花凜
+  - 原來如此。
+- wait:
+  - 40
+- face:
+  - 190811
+  - 4
+- print:
+  - 花凜
+  - 嗯……
+- wait:
+  - 40
+- print:
+  - 花凜
+  - 從你們的描述聽看。
+- wait:
+  - 45
+- print:
+  - 花凜
+  - |2-
+
+    村裡出現的魔物
+- wait:
+  - 35
+- print:
+  - 花凜
+  - 本來並不是會攻擊人的種類。
+- touch: *o0
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_018
+- face:
+  - 190811
+  - 6
+- print:
+  - 花凜
+  - 我可以馬上安排人來修復壞掉的設備，
+- wait:
+  - 70
+- print:
+  - 花凜
+  - |2-
+
+    不過在釐清魔物作亂的原因之前，
+- wait:
+  - 45
+- print:
+  - 花凜
+  - 想必各位也無法安心。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 190811
+  - C
+  - 3
+- fadein:
+  - 190811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_019
+- face:
+  - 190811
+  - 3
+- print:
+  - 花凜
+  - 這時候還是
+- wait:
+  - 30
+- print:
+  - 花凜
+  - 請熟悉魔物生態的公會過來……
+- wait:
+  - 65
+- print:
+  - 花凜
+  - |2
+
+- face:
+  - 190811
+  - 6
+- print:
+  - 花凜
+  - 不過
+- wait:
+  - 20
+- print:
+  - 花凜
+  - 安全起見，擅長戰鬥的公會最好也……
+- wait:
+  - 50
+- print:
+  - 花凜
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - 花凜
+  - 能在最短時間內趕來的組合是……
+- touch: *o0
+- choice:
+  - 花凜小姐。
+  - 6
+- tag:
+  - 6
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_020
+- face:
+  - 190811
+  - 6
+- eye_open:
+  - True
+- emotion:
+  - surprise1_L
+  - 190811
+  - 150
+  - 555
+  - se_adv_emote_common_01
+- print:
+  - 花凜
+  - 哇！？
+- wait:
+  - 15
+- print:
+  - 花凜
+  - 你回來啦。
+- wait:
+  - 35
+- face:
+  - 190811
+  - 1
+- print:
+  - 花凜
+  - 村裡的情況怎樣？
+- wait:
+  - 40
+- print:
+  - 花凜
+  - |2-
+
+    如果有嚴重損壞的地方，
+- wait:
+  - 25
+- print:
+  - 花凜
+  - 請向我報告。
+- touch: *o0
+- choice:
+  - 跟我來一下。
+  - 7
+- tag:
+  - 7
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_021
+- face:
+  - 190811
+  - 6
+- print:
+  - 花凜
+  - ……？
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1.8
+- fadeout:
+  - 190811
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_outdoors_day_01
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_outdoors_day_01
+- chara_full:
+  - 190811
+  - C
+  - 6
+- fadein:
+  - 190811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M203
+  - 0
+  - 0
+  - 1
+  - 0.4
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_022
+- face:
+  - 190811
+  - 6
+- print:
+  - 花凜
+  - 已經來到村子的外緣了，
+- wait:
+  - 40
+- print:
+  - 花凜
+  - 你要帶我看什麼……
+- wait:
+  - 45
+- print:
+  - 花凜
+  - |2-
+
+    這座倉庫嗎？
+- wait:
+  - 40
+- print:
+  - 花凜
+  - 已經破破爛爛的了，
+- wait:
+  - 30
+- print:
+  - 花凜
+  - |2
+
+- face:
+  - 190811
+  - 4
+- print:
+  - 花凜
+  - 不太像是魔物的攻擊造成的，
+- wait:
+  - 35
+- print:
+  - 花凜
+  - 應該本來就相當老舊……
+- touch: *o0
+- choice:
+  - 我看到可疑的人。
+  - 8
+- tag:
+  - 8
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_023
+- face:
+  - 190811
+  - 6
+- print:
+  - 花凜
+  - 有人趁火打劫嗎？
+- wait:
+  - 40
+- print:
+  - 花凜
+  - |2
+
+- face:
+  - 190811
+  - 4
+- print:
+  - 花凜
+  - 這種地方看起來實在不像是有東西值得偷。
+- touch: *o0
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_024
+- face:
+  - 190811
+  - 6
+- emotion:
+  - question1_R
+  - 190811
+  - 115
+  - 505
+  - se_adv_emote_question_01
+- print:
+  - 花凜
+  - 咦？
+- wait:
+  - 20
+- print:
+  - 花凜
+  - 那些人是在
+- wait:
+  - 20
+- print:
+  - 花凜
+  - 搬運牧草嗎？
+- wait:
+  - 40
+- print:
+  - 花凜
+  - |2-
+
+    牧草的確是散落在地上……
+- wait:
+  - 60
+- print:
+  - 花凜
+  - 奇怪？
+- wait:
+  - 30
+- print:
+  - 花凜
+  - |2-
+
+    難道說……
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_paper_move_05
+- nod:
+  - 190811
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_025
+- face:
+  - 190811
+  - 6
+- print:
+  - 花凜
+  - 我記得【王宮騎士團】之前發的資料上有記載特徵……
+- wait:
+  - 60
+- print:
+  - 花凜
+  - |2
+
+- face:
+  - 190811
+  - 4
+- print:
+  - 花凜
+  - 我看看……
+- wait:
+  - 25
+- se:
+  - se_adv_paper_pickup_03
+- print:
+  - 花凜
+  - 不是這個，
+- wait:
+  - 20
+- print:
+  - 花凜
+  - 也不是這樣……
+- wait:
+  - 30
+- print:
+  - 花凜
+  - |2
+
+- face:
+  - 190811
+  - 6
+- print:
+  - 花凜
+  - 找到了！
+- wait:
+  - 15
+- print:
+  - 花凜
+  - 就是這個！
+- wait:
+  - 5
+- print:
+  - 花凜
+  - 這裡！
+- touch: *o0
+- choice:
+  - 妳發現什麼了？
+  - 9
+- tag:
+  - 9
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_026
+- face:
+  - 190811
+  - 1
+- print:
+  - 花凜
+  - 這種牧草是一種飼料，
+- wait:
+  - 45
+- print:
+  - 花凜
+  - |2
+
+- bgm:
+  - stop
+  - 6
+  - 1
+- print:
+  - 花凜
+  - 但最近發現給魔物食用
+- wait:
+  - 35
+- print:
+  - 花凜
+  - 會產生興奮作用。
+- touch: *o0
+- bgm:
+  - bgm_M46_Ver2
+  - 0
+  - 0
+  - 0
+  - 0.4
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_027
+- face:
+  - 190811
+  - 4
+- print:
+  - 花凜
+  - 有非法組織利用這點讓魔物對戰來進行賭博，
+- wait:
+  - 65
+- print:
+  - 花凜
+  - |2-
+
+    我們正與【王宮騎士團】聯手，
+- wait:
+  - 15
+- print:
+  - 花凜
+  - |2-
+
+    在調查這件事。
+- touch: *o0
+- choice:
+  - 去找剛才那些人吧。
+  - 10
+- tag:
+  - 10
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_028
+- face:
+  - 190811
+  - 3
+- print:
+  - 花凜
+  - 本來不攻擊人的魔物突然變得兇暴，
+- wait:
+  - 75
+- print:
+  - 花凜
+  - |2-
+
+    這種牧草八成就是原因，
+- wait:
+  - 40
+- print:
+  - 花凜
+  - 必須請他們負起責任。
+- touch: *o0
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_029
+- face:
+  - 190811
+  - 6
+- print:
+  - 花凜
+  - 既然他們在這座村莊保存牧草，
+- wait:
+  - 60
+- print:
+  - 花凜
+  - |2-
+
+    賭場恐怕就在附近。
+- touch: *o0
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_030
+- face:
+  - 190811
+  - 1
+- nod:
+  - 190811
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 花凜
+  - |-
+    【王宮騎士團】
+    也許會有相關情報，
+- wait:
+  - 15
+- print:
+  - 花凜
+  - |2-
+
+    我用通訊魔法聯絡他們看看好了。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 190811
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 190811
+  - C
+  - 6
+- fadein:
+  - 190811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_031
+- face:
+  - 190811
+  - 6
+- print:
+  - 花凜
+  - 是，
+- wait:
+  - 20
+- nod:
+  - 190811
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 花凜
+  - 好的。
+- wait:
+  - 25
+- print:
+  - 花凜
+  - 對呀，
+- wait:
+  - 25
+- print:
+  - 花凜
+  - 嗯。
+- wait:
+  - 40
+- print:
+  - 花凜
+  - |2
+
+- face:
+  - 190811
+  - 2
+- print:
+  - 花凜
+  - 這樣
+- wait:
+  - 20
+- print:
+  - 花凜
+  - 看來離這個村子應該滿近的。
+- wait:
+  - 45
+- print:
+  - 花凜
+  - |2
+
+- face:
+  - 190811
+  - 1
+- print:
+  - 花凜
+  - 我會過去
+- wait:
+  - 25
+- print:
+  - 花凜
+  - 偵察看看。
+- touch: *o0
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_032
+- face:
+  - 190811
+  - 1
+- print:
+  - 花凜
+  - 是，
+- wait:
+  - 20
+- print:
+  - 花凜
+  - 沒錯。
+- wait:
+  - 35
+- print:
+  - 花凜
+  - |2-
+
+    謹慎起見，
+- wait:
+  - 15
+- print:
+  - 花凜
+  - 還是請你們派人來支援一下。
+- wait:
+  - 50
+- print:
+  - 花凜
+  - |2-
+
+    那就先
+- wait:
+  - 15
+- print:
+  - 花凜
+  - 這樣了。
+- touch: *o0
+- choice:
+  - 怎麼樣？
+  - 11
+- tag:
+  - 11
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_033
+- face:
+  - 190811
+  - 3
+- print:
+  - 花凜
+  - 根據【王宮騎士團】的調查，
+- wait:
+  - 5
+- print:
+  - 花凜
+  - |2-
+
+    這附近果然有
+- wait:
+  - 30
+- print:
+  - 花凜
+  - 被懷疑是賭場的地方。
+- touch: *o0
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_034
+- face:
+  - 190811
+  - 6
+- print:
+  - 花凜
+  - 我報告了情況之後，
+- wait:
+  - 35
+- print:
+  - 花凜
+  - 他們願意派人過來，
+- wait:
+  - 45
+- print:
+  - 花凜
+  - |2
+
+- face:
+  - 190811
+  - 1
+- print:
+  - 花凜
+  - 不過我們離現場比較近，
+- wait:
+  - 35
+- print:
+  - 花凜
+  - 就先過去吧。
+- wait:
+  - 40
+- print:
+  - 花凜
+  - |2-
+
+    要是賭場不在這裡，還得再聯絡他們呢。
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+- fadeout:
+  - 190811
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_outdoors_day_01
+  - 1
+- background:
+  - 500171
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_forest_01
+- chara_full:
+  - 190811
+  - C
+  - 6
+- fadein:
+  - 190811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_035
+- face:
+  - 190811
+  - 6
+- print:
+  - 花凜
+  - 他們說這座森林很可疑……
+- touch: *o0
+- se:
+  - se_adv_gaya_fight_01
+- bgm:
+  - bgm_M21
+  - 0
+  - 0
+  - 1
+  - 0.4
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1185001_036
+- face:
+  - 1
+  - 1
+- print:
+  - 男性２
+  - 別給我輸喔！
+- wait:
+  - 40
+- print:
+  - 男性２
+  - |2-
+
+    我可是把這個月的薪水全都壓在你身上了！
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 1
+- vo:
+  - vo_adv_1185001_037
+- face:
+  - 911
+  - 1
+- print:
+  - 地痞1
+  - 上啊！
+- wait:
+  - 20
+- print:
+  - 地痞1
+  - 攻擊！
+- wait:
+  - 20
+- print:
+  - 地痞1
+  - |2-
+
+    衝上去！
+- wait:
+  - 10
+- print:
+  - 地痞1
+  - 打爆牠！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1185001_038
+- face:
+  - 1
+  - 1
+- print:
+  - 男性3
+  - 別給我趴在地上，
+- wait:
+  - 20
+- print:
+  - 男性3
+  - 站起來！
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 1
+- vo:
+  - vo_adv_1185001_039
+- face:
+  - 811
+  - 3
+- print:
+  - 地痞2
+  - 別浪費我運來的草！
+- wait:
+  - 40
+- print:
+  - 地痞2
+  - |2-
+
+    幫我多賺點錢！！
+- touch: *o0
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_040
+- face:
+  - 190811
+  - 6
+- emotion:
+  - sweat1_R
+  - 190811
+  - 85
+  - 575
+  - se_adv_emote_sweat_01
+- print:
+  - 花凜
+  - 啊哈哈哈……
+- wait:
+  - 35
+- face:
+  - 190811
+  - 1
+- print:
+  - 花凜
+  - 在實際看到現場之前能確定是這裡了呢。
+- touch: *o0
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_041
+- face:
+  - 190811
+  - 6
+- print:
+  - 花凜
+  - 話又說回來，
+- wait:
+  - 35
+- print:
+  - 花凜
+  - 沒想到調查居然這麼順利……
+- wait:
+  - 60
+- print:
+  - 花凜
+  - |2
+
+- face:
+  - 190811
+  - 1
+- print:
+  - 花凜
+  - 如果是平常的話，
+- wait:
+  - 15
+- print:
+  - 花凜
+  - 我一定會很意外，
+- wait:
+  - 50
+- face:
+  - 190811
+  - 2
+- print:
+  - 花凜
+  - 但只要和你在一起，
+- wait:
+  - 20
+- print:
+  - 花凜
+  - |2-
+
+    這種事情似乎也沒什麼好大驚小怪了，真不可思議。
+- touch: *o0
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_042
+- face:
+  - 190811
+  - 1
+- print:
+  - 花凜
+  - 只靠我們沒把法把他們全抓起來，
+- wait:
+  - 55
+- print:
+  - 花凜
+  - |2-
+
+    向【王宮騎士團】回報我們找到正確地點，
+    然後慢慢等人過來吧。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 190811
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 190811
+  - LC
+  - 1
+- chara_full:
+  - 712
+  - R
+  - 1
+- se:
+  - se_adv_step_leaves_run_heavy_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - R
+  - 45
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 712
+- bust:
+  - 712
+  - 0
+- vo:
+  - vo_adv_1185001_043
+- face:
+  - 712
+  - 1
+- print:
+  - 王宮騎士隊長
+  - 花凜小姐，
+- wait:
+  - 15
+- print:
+  - 王宮騎士隊長
+  - |2-
+
+    【王宮騎士團】已經各就各位。
+- touch: *o0
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_044
+- face:
+  - 190811
+  - 1
+- nod:
+  - 190811
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 花凜
+  - 謝謝你。
+- wait:
+  - 25
+- print:
+  - 花凜
+  - |2
+
+- face:
+  - 190811
+  - 3
+- print:
+  - 花凜
+  - 那麼，
+- wait:
+  - 25
+- print:
+  - 花凜
+  - 就麻煩各位
+- wait:
+  - 25
+- print:
+  - 花凜
+  - 按照計畫行動吧。
+- touch: *o0
+- bgm:
+  - stop
+  - 5
+  - 1
+- focus:
+  - 712
+- bust:
+  - 712
+  - 0
+- vo:
+  - vo_adv_1185001_045
+- face:
+  - 712
+  - 1
+- print:
+  - 王宮騎士隊長
+  - 收到！
+- wait:
+  - 30
+- print:
+  - 王宮騎士隊長
+  - |2-
+
+    所有人，
+- wait:
+  - 20
+- print:
+  - 王宮騎士隊長
+  - 突襲！！
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 3
+- text_size:
+  - 50
+- window_visible:
+  - true
+- bgm:
+  - bgm_M41
+  - 0
+  - 0
+  - 0
+  - 0.4
+- focus:
+  - 711
+- bust:
+  - 711
+  - 1
+- vo:
+  - vo_adv_1185001_046
+- face:
+  - 711
+  - 1
+- se:
+  - se_adv_step_run_group
+- print:
+  - 王宮騎士們
+  - 唔喔喔喔喔喔喔！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 23
+- change_window:
+  - 1
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 911
+  - LC
+  - 6
+- chara_full:
+  - 811
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1185001_047
+- face:
+  - 1
+  - 1
+- print:
+  - 男性２
+  - 怎、
+- wait:
+  - 15
+- print:
+  - 男性２
+  - 怎麼了！？
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1185001_048
+- face:
+  - 911
+  - 6
+- emotion:
+  - exclamation1_R
+  - 911
+  - -15
+  - 715
+  - se_adv_emote_common_01
+- print:
+  - 地痞1
+  - 被發現了！！
+- wait:
+  - 30
+- print:
+  - 地痞1
+  - 把魔物放出來，
+- wait:
+  - 15
+- print:
+  - 地痞1
+  - |2-
+
+    趁機逃走！
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1185001_049
+- face:
+  - 811
+  - 6
+- print:
+  - 地痞2
+  - 好！！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- se:
+  - se_adv_door_open_06
+- se:
+  - se_adv_metal_drop_01
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- change_window:
+  - 3
+- text_size:
+  - 50
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- effect:
+  - 9
+- print:
+  - 魔物
+  - ──嘎喔喔喔喔喔！
+- shake_screen: *o0
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- se:
+  - se_adv_step_monster_move_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 1611
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 911
+  - LC
+  - 6
+- chara_full:
+  - 811
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1185001_050
+- face:
+  - 911
+  - 6
+- emotion:
+  - sweat2_R
+  - 911
+  - 65
+  - 595
+  - se_adv_emote_sweat_02
+- print:
+  - 地痞1
+  - 嗚哇！
+- wait:
+  - 15
+- print:
+  - 地痞1
+  - 不對！
+- wait:
+  - 15
+- print:
+  - 地痞1
+  - |2-
+
+    別來找我們，
+- wait:
+  - 15
+- print:
+  - 地痞1
+  - 去那邊！！
+- wait:
+  - 15
+- print:
+  - 地痞1
+  - |2-
+
+    去攻擊那些人！
+- touch: *o0
+- se:
+  - se_adv_creature_cmn_01
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 1
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──嘎喔喔喔喔喔！
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1185001_051
+- face:
+  - 811
+  - 6
+- print:
+  - 地痞2
+  - 呀啊～～！！
+- touch: *o0
+- choice:
+  - 危險！
+  - 12
+- tag:
+  - 12
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_step_leaves_run_armor_go_01
+- effect:
+  - 0009
+- camera_zoom:
+  - 1.2
+  - 5
+- wait:
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- camera_zoom:
+  - 1
+  - 1
+- effect:
+  - 0028
+  - se_adv_weapon_claw_hit_01
+- wait:
+  - 5
+- effect:
+  - 0045
+  - se_adv_weapon_sword_repel_01
+- wait:
+  - 15
+- background:
+  - 500171
+- chara_full:
+  - 911
+  - LC
+  - 6
+- chara_full:
+  - 811
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1185001_052
+- face:
+  - 911
+  - 6
+- print:
+  - 地痞1
+  - 是、
+- wait:
+  - 30
+- print:
+  - 地痞1
+  - 是那個時候的小兄弟！？
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1185001_053
+- face:
+  - 811
+  - 4
+- print:
+  - 地痞2
+  - 得救了……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- se:
+  - se_adv_creature_cmn_group_02
+- chara_full:
+  - 1611
+  - C
+  - 1
+- chara_full:
+  - 1612
+  - L
+  - 1
+- chara_full:
+  - 1613
+  - R
+  - 1
+- wait:
+  - 15
+- fadein:
+  - 1611
+  - 30
+- wait:
+  - 15
+- fadein:
+  - 1612
+  - 30
+- wait:
+  - 15
+- fadein:
+  - 1613
+  - 30
+- change_window:
+  - 3
+- text_size:
+  - 50
+- se:
+  - se_adv_creature_cmn_05
+- window_visible:
+  - true
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──嘎喔喔喔喔喔！
+- shake_screen: *o0
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 811
+  - C
+  - 6
+- fadein:
+  - 811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1185001_054
+- face:
+  - 811
+  - 6
+- emotion:
+  - surprise1_L
+  - 811
+  - 110
+  - 580
+  - se_adv_emote_common_01
+- print:
+  - 地痞2
+  - 唔哇！？
+- wait:
+  - 10
+- print:
+  - 地痞2
+  - 這邊也有！！
+- touch: *o0
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 1
+- vo:
+  - vo_adv_1185001_055
+- face:
+  - 190811
+  - 3
+- print:
+  - 花凜
+  - |-
+    {0}先生！
+    請把魔物引到這裡來！
+- wait:
+  - 10
+- print:
+  - 花凜
+  - |2-
+
+    對！
+- wait:
+  - 10
+- print:
+  - 花凜
+  - 然後九十度右轉！
+- touch: *o0
+- choice:
+  - 知道了！
+  - 13
+- tag:
+  - 13
+- window_visible:
+  - false
+- fadeout:
+  - 811
+  - 30
+- se:
+  - se_adv_step_leaves_run_armor_go_01
+- effect:
+  - 0009
+- camera_zoom:
+  - 1.2
+  - 5
+- wait:
+  - 10
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 5
+- camera_zoom:
+  - 1
+  - 1
+- wait:
+  - 10
+- chara_full:
+  - 711
+  - C
+  - 1
+- fadein:
+  - 711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 711
+- bust:
+  - 711
+  - 0
+- vo:
+  - vo_adv_1185001_056
+- face:
+  - 711
+  - 1
+- print:
+  - 王宮騎士
+  - 這裡就交給我們吧！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0009
+- se:
+  - se_adv_step_leaves_walk_heavy_go_01
+- scale:
+  - 711
+  - 1.1
+  - 1
+  - 10
+- fadeout:
+  - 711
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0001
+  - se_adv_weapon_sword_hit_01
+- wait:
+  - 15
+- background:
+  - 500171
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_04
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──嘎喔喔喔喔喔！
+- sway:
+  - 1611
+- touch: *o0
+- window_visible:
+  - false
+- updown:
+  - 1611
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1611
+  - 30
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- chara_full:
+  - 1611
+  - L
+  - 1
+- chara_full:
+  - 1612
+  - C
+  - 1
+- se:
+  - se_adv_step_monster_move_01
+- change:
+  - LC
+  - L
+  - 30
+- change:
+  - RC
+  - C
+  - 30
+- fadein_all:
+  - 30
+- se:
+  - se_adv_creature_cmn_group_01
+- window_visible:
+  - true
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 1
+- vo:
+  - vo_adv_1185001_057
+- face:
+  - 190811
+  - 3
+- print:
+  - 花凜
+  - 你帶著剩下的魔物
+- wait:
+  - 30
+- print:
+  - 花凜
+  - |2-
+
+    直直往前跑！
+- wait:
+  - 30
+- print:
+  - 花凜
+  - |2-
+
+    在那裡也埋伏了
+- wait:
+  - 15
+- print:
+  - 花凜
+  - 【王宮騎士團】的人！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_step_leaves_run_armor_go_01
+- effect:
+  - 0009
+- camera_zoom:
+  - 1.2
+  - 5
+- wait:
+  - 10
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 5
+- camera_zoom:
+  - 1
+  - 1
+- wait:
+  - 10
+- chara_full:
+  - 712
+  - LC
+  - 1
+- chara_full:
+  - 711
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- change_window:
+  - 3
+- text_size:
+  - 50
+- focus:
+  - 711:712
+- window_visible:
+  - true
+- bust:
+  - 0
+  - 1
+- vo:
+  - vo_adv_1185001_058
+- face:
+  - 1
+  - 1
+- effect:
+  - 9
+- print:
+  - 王宮騎士們
+  - 呼～～！！
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- focus:
+  - 711
+- effect:
+  - 0009
+- se:
+  - se_adv_move_fast_02
+- change:
+  - C
+  - RC
+  - 15
+- scale:
+  - 711
+  - 1.2
+  - 2
+  - 15
+- fadeout:
+  - 711
+  - 15
+- focus:
+  - 712
+- effect:
+  - 0009
+- se:
+  - se_adv_body_jump_01
+- change:
+  - C
+  - LC
+  - 10
+- scale:
+  - 712
+  - 1.2
+  - 2
+  - 10
+- fadeout:
+  - 712
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0001
+  - se_adv_weapon_sword_hit_01
+  - -110
+- wait:
+  - 10
+- effect:
+  - 0001
+  - se_adv_weapon_sword_hit_01
+- wait:
+  - 15
+- background:
+  - 500171
+- chara_full:
+  - 1611
+  - LC
+  - 1
+- chara_full:
+  - 1612
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- se:
+  - se_adv_creature_cmn_04
+- window_visible:
+  - true
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──嘎喔喔喔喔喔！
+- shake_screen: *o0
+- touch: *o0
+- window_visible:
+  - false
+- updown:
+  - 1611
+  - 0
+  - -150
+  - 0.2
+- updown:
+  - 1612
+  - 0
+  - -150
+  - 0.2
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 190811
+  - C
+  - 6
+- fadein:
+  - 190811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_059
+- face:
+  - 190811
+  - 6
+- nod:
+  - 190811
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 花凜
+  - 好，
+- wait:
+  - 15
+- print:
+  - 花凜
+  - 接下來往左跑！
+- touch: *o0
+- choice:
+  - 可是，魔物已經全都解決掉了……
+  - 14
+- tag:
+  - 14
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_060
+- face:
+  - 190811
+  - 1
+- print:
+  - 花凜
+  - 除了魔物之外，我們不是還有得抓的人嗎？
+- touch: *o0
+- choice:
+  - 原來如此……！
+  - 15
+- tag:
+  - 15
+- window_visible:
+  - false
+- fadeout:
+  - 190811
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 911
+  - LC
+  - 1
+- chara_full:
+  - 811
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1185001_061
+- face:
+  - 911
+  - 1
+- nod:
+  - 911
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 地痞1
+  - 很好，
+- wait:
+  - 20
+- print:
+  - 地痞1
+  - 所有人的注意力都在魔物身上了。
+- wait:
+  - 55
+- print:
+  - 地痞1
+  - |2-
+
+    趁現在開溜啦。
+- touch: *o0
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_1185001_062
+- face:
+  - 811
+  - 4
+- print:
+  - 地痞2
+  - 這樣好嗎？
+- wait:
+  - 30
+- print:
+  - 地痞2
+  - 人家可是救了我們一命。
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_1185001_063
+- face:
+  - 911
+  - 3
+- print:
+  - 地痞1
+  - 笨蛋，
+- wait:
+  - 25
+- print:
+  - 地痞1
+  - 管他們……
+- touch: *o0
+- choice:
+  - 你們要去哪？
+  - 16
+- tag:
+  - 16
+- focus:
+  - 811:911
+- bgm:
+  - stop
+  - 7
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1185001_064
+- face:
+  - 1
+  - 1
+- face:
+  - 811
+  - 6
+- face:
+  - 911
+  - 6
+- print:
+  - 地痞們
+  - ……啊。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 190811
+  - RC
+  - 1
+- se:
+  - se_adv_step_leaves_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - RC
+  - 45
+- fadein:
+  - 190811
+  - 45
+- window_visible:
+  - true
+- bgm:
+  - bgm_M163
+  - 0
+  - 0
+  - 1
+  - 0.4
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_065
+- face:
+  - 190811
+  - 1
+- nod:
+  - 190811
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 花凜
+  - 真是的，
+- wait:
+  - 25
+- print:
+  - 花凜
+  - 怎麼可以偷溜呢？
+- wait:
+  - 45
+- print:
+  - 花凜
+  - |2
+
+- face:
+  - 190811
+  - 2
+- print:
+  - 花凜
+  - 就請你們和其他人一起
+- wait:
+  - 35
+- print:
+  - 花凜
+  - 乖乖束手就擒吧。
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1185001_066
+- face:
+  - 1
+  - 1
+- print:
+  - 男性２
+  - 可惡……
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1185001_067
+- face:
+  - 1
+  - 1
+- print:
+  - 男性3
+  - 好不容易才贏錢的說……
+- touch: *o0
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_068
+- face:
+  - 190811
+  - 6
+- print:
+  - 花凜
+  - 趁著你們賭興正盛的時候，
+- wait:
+  - 45
+- print:
+  - 花凜
+  - 我已經掌握你們的人數了，
+- wait:
+  - 45
+- print:
+  - 花凜
+  - |2
+
+- face:
+  - 190811
+  - 1
+- print:
+  - 花凜
+  - 一個人都逃不掉喔。
+- touch: *o0
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_069
+- face:
+  - 190811
+  - 2
+- nod:
+  - 190811
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 花凜
+  - 而且還得
+- wait:
+  - 40
+- print:
+  - 花凜
+  - 請你們賠償那座村莊的損失。
+- wait:
+  - 85
+- print:
+  - 花凜
+  - |2
+
+- face:
+  - 190811
+  - 6
+- print:
+  - 花凜
+  - 我想想，
+- wait:
+  - 35
+- se:
+  - se_adv_paper_pencil_write_draw_01
+- print:
+  - 花凜
+  - 從剛剛視察的情況大致計算一下……
+- touch: *o0
+- se:
+  - se_adv_paper_turn_01
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_070
+- face:
+  - 190811
+  - 1
+- print:
+  - 花凜
+  - 總計大概會是這個金額。
+- wait:
+  - 45
+- print:
+  - 花凜
+  - |2
+
+- face:
+  - 190811
+  - 2
+- print:
+  - 花凜
+  - 一毛錢
+- wait:
+  - 20
+- print:
+  - 花凜
+  - 都不能少哦？
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1185001_071
+- face:
+  - 1
+  - 1
+- print:
+  - 地痞們
+  - 饒了我吧～～～～
+- touch: *o0
+- focus:
+  - 712
+- bust:
+  - 712
+  - 1
+- vo:
+  - vo_adv_1185001_072
+- face:
+  - 712
+  - 1
+- print:
+  - 王宮騎士隊長
+  - 你們已經得罪了蘭德索爾最不能得罪的人。
+- wait:
+  - 80
+- print:
+  - 王宮騎士隊長
+  - |2-
+
+    別以為自己逃得掉喔。
+- touch: *o0
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_1185001_073
+- face:
+  - 190811
+  - 2
+- emotion:
+  - note1_L
+  - 190811
+  - -85
+  - 525
+  - se_adv_emote_note_01
+- print:
+  - 花凜
+  - 呵呵，
+- wait:
+  - 25
+- print:
+  - 花凜
+  - 隊長說得太誇張了吧。
+- wait:
+  - 35
+- print:
+  - 花凜
+  - |2
+
+- face:
+  - 190811
+  - 1
+- print:
+  - 花凜
+  - 我只是公會管理協會的一介小小職員罷了。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 190811
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 無暇理會露出爽朗笑容的花凜，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - |2-
+
+    地痞們無力地垂下了頭。
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1
+  - 1
+- se_pause:
+  - amb_adv_forest_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0
