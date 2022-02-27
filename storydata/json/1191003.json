@@ -3,7 +3,7 @@
     "command": "title",
     "category": 1,
     "args": [
-      "空花（黑色魅力） 第3話"
+      "空花（黑暗） 第3話"
     ],
     "number": 0
   },
@@ -24,12 +24,12 @@
     "number": 5
   },
   {
-    "command": "amb",
+    "command": "se",
     "category": 1,
     "args": [
       "amb_adv_town_day_01"
     ],
-    "number": 51
+    "number": 26
   },
   {
     "command": "bg_pan",
@@ -87,9 +87,51 @@
     "category": 1,
     "args": [
       "旁白",
-      "這幾天，空花不斷陷入黑暗之力的影響。\n這每次都讓城裡的人覺醒承受虐狂。\n而今天也一樣\u2500\u2500"
+      "這幾天，空花不斷陷入黑暗力量的影響。"
     ],
     "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "旁白",
+      "\n這每次都讓城裡的人覺醒成被虐狂。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "旁白",
+      "\n而今天也一樣\u2500\u2500"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
   },
   {
     "command": "touch",
@@ -104,6 +146,14 @@
       "false"
     ],
     "number": 41
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_magic_dark_aura_01"
+    ],
+    "number": 26
   },
   {
     "command": "effect",
@@ -150,6 +200,18 @@
     "number": 41
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M528",
+      "0",
+      "0",
+      "1",
+      "0.5"
+    ],
+    "number": 9
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
@@ -182,6 +244,18 @@
       "1"
     ],
     "number": 3
+  },
+  {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "note1_L",
+      "413",
+      "-75",
+      "495",
+      "se_adv_emote_note_01"
+    ],
+    "number": 59
   },
   {
     "command": "print",
@@ -279,7 +353,7 @@
     "category": 1,
     "args": [
       "411",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -419,6 +493,14 @@
     "number": 3
   },
   {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "311"
+    ],
+    "number": 25
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -457,7 +539,25 @@
     "category": 1,
     "args": [
       "男性１",
-      "\n讓你見識一下我有多頑強\u2026\u2026"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "311",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性１",
+      "讓你見識一下我有多頑強\u2026\u2026"
     ],
     "number": 6
   },
@@ -557,7 +657,25 @@
     "category": 1,
     "args": [
       "男性２",
-      "\n偶爾也該"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "1011",
+      "5"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性２",
+      "偶爾也該"
     ],
     "number": 6
   },
@@ -640,7 +758,7 @@
     "args": [
       "104512",
       "C",
-      "1"
+      "4"
     ],
     "number": 68
   },
@@ -691,7 +809,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -700,7 +818,7 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "虐待狂先生呢\u2026\u2026"
+      "虐待狂先生\u2026\u2026"
     ],
     "number": 6
   },
@@ -714,7 +832,7 @@
     "command": "choice",
     "category": 1,
     "args": [
-      "\u25CB\u25BC\u25A1\u25C6\u25B3\u2715〇\u25A0！",
+      "\u25CB\u25BC\u25A1\u25C6\u25B3\u00D7〇\u25A0！",
       "1"
     ],
     "number": 11
@@ -757,9 +875,17 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "6"
     ],
     "number": 3
+  },
+  {
+    "command": "pop",
+    "category": 2,
+    "args": [
+      "104512"
+    ],
+    "number": 24
   },
   {
     "command": "print",
@@ -800,7 +926,25 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "\n謝謝你！"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "104512",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "黑暗空花",
+      "謝謝你！"
     ],
     "number": 6
   },
@@ -874,7 +1018,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -951,7 +1095,25 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "\n好厲害\u2026\u2026！"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "104512",
+      "5"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "黑暗空花",
+      "好厲害\u2026\u2026！"
     ],
     "number": 6
   },
@@ -964,11 +1126,20 @@
     "number": 13
   },
   {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "104512",
+      "6"
+    ],
+    "number": 3
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
       "黑暗空花",
-      "真的"
+      "雖然"
     ],
     "number": 6
   },
@@ -985,7 +1156,7 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "太棒了\u2026\u2026"
+      "好厲害\u2026\u2026"
     ],
     "number": 6
   },
@@ -1025,7 +1196,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -1043,6 +1214,16 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "7.5",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "choice",
@@ -1091,7 +1272,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -1145,6 +1326,18 @@
     "number": 10
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M97_Ver2",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "number": 9
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
@@ -1174,9 +1367,17 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "4"
     ],
     "number": 3
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "104512"
+    ],
+    "number": 25
   },
   {
     "command": "print",
@@ -1274,7 +1475,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -1300,7 +1501,7 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "被黑暗之力影響好幾次\u2026\u2026"
+      "被黑暗力量影響好幾次\u2026\u2026"
     ],
     "number": 6
   },
@@ -1374,7 +1575,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -1400,7 +1601,7 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "也有忍住的\u2026\u2026"
+      "應該也有忍住的才對\u2026\u2026"
     ],
     "number": 6
   },
@@ -1440,9 +1641,17 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "6"
     ],
     "number": 3
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "104512"
+    ],
+    "number": 25
   },
   {
     "command": "print",
@@ -1466,7 +1675,7 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "\n已經完全墮入黑暗了。"
+      "\n已經完全染上黑暗了。"
     ],
     "number": 6
   },
@@ -1506,7 +1715,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -1549,7 +1758,25 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "\n不過現在從空花身上流出的黑暗之力，"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "104512",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "黑暗空花",
+      "不過現在從空花身上流出的黑暗力量，"
     ],
     "number": 6
   },
@@ -1617,7 +1844,7 @@
     "args": [
       "911",
       "LC",
-      "1"
+      "2"
     ],
     "number": 68
   },
@@ -1627,7 +1854,7 @@
     "args": [
       "811",
       "RC",
-      "1"
+      "6"
     ],
     "number": 68
   },
@@ -1677,9 +1904,21 @@
     "category": 1,
     "args": [
       "911",
-      "1"
+      "2"
     ],
     "number": 3
+  },
+  {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "heart1_R",
+      "911",
+      "55",
+      "570",
+      "se_adv_emote_heart_01"
+    ],
+    "number": 59
   },
   {
     "command": "print",
@@ -1743,7 +1982,7 @@
     "category": 1,
     "args": [
       "811",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -1866,6 +2105,14 @@
     "number": 3
   },
   {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "712"
+    ],
+    "number": 25
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -1887,7 +2134,7 @@
     "category": 1,
     "args": [
       "士兵１",
-      "快去請求支援！\u2026\u2026"
+      "快去請求支援\u2026\u2026"
     ],
     "number": 6
   },
@@ -2019,7 +2266,7 @@
     "args": [
       "104512",
       "C",
-      "1"
+      "4"
     ],
     "number": 68
   },
@@ -2070,7 +2317,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -2153,7 +2400,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -2192,6 +2439,24 @@
     "number": 13
   },
   {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "104512",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "4.8"
+    ],
+    "number": 9
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -2213,7 +2478,7 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "向你到別的。"
+      "向你道別的。"
     ],
     "number": 6
   },
@@ -2222,6 +2487,18 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M423",
+      "0",
+      "0",
+      "1",
+      "0.2"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -2253,7 +2530,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -2336,9 +2613,17 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "4"
     ],
     "number": 3
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "104512"
+    ],
+    "number": 25
   },
   {
     "command": "print",
@@ -2436,9 +2721,21 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "6"
     ],
     "number": 3
+  },
+  {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "exclamation1_R",
+      "104512",
+      "-5",
+      "650",
+      "se_adv_emote_common_01"
+    ],
+    "number": 59
   },
   {
     "command": "print",
@@ -2502,7 +2799,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -2511,7 +2808,7 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "不管你"
+      "不管虐待狂先生"
     ],
     "number": 6
   },
@@ -2528,7 +2825,7 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "虐待狂的天分再高，"
+      "是多麼與生俱來的天才虐待狂，"
     ],
     "number": 6
   },
@@ -2545,7 +2842,25 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "\n都不可能承受得住"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "104512",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "黑暗空花",
+      "都不可能承受得住"
     ],
     "number": 6
   },
@@ -2562,7 +2877,7 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "空花現在的受虐狂氣場！"
+      "空花現在的被虐狂氣場！"
     ],
     "number": 6
   },
@@ -2602,7 +2917,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -2628,7 +2943,7 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "變成受虐狂，"
+      "變成被虐狂，"
     ],
     "number": 6
   },
@@ -2639,6 +2954,14 @@
       "50"
     ],
     "number": 13
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "False"
+    ],
+    "number": 56
   },
   {
     "command": "print",
@@ -2654,6 +2977,38 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "false"
+    ],
+    "number": 41
+  },
+  {
+    "command": "text_size",
+    "category": 1,
+    "args": [
+      "40"
+    ],
+    "number": 36
+  },
+  {
+    "command": "change_window",
+    "category": 1,
+    "args": [
+      "3"
+    ],
+    "number": 85
+  },
+  {
+    "command": "window_visible",
+    "category": 1,
+    "args": [
+      "true"
+    ],
+    "number": 41
   },
   {
     "command": "focus",
@@ -2685,9 +3040,17 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "4"
     ],
     "number": 3
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "True"
+    ],
+    "number": 56
   },
   {
     "command": "print",
@@ -2779,7 +3142,7 @@
     "args": [
       "104512",
       "RC",
-      "1"
+      "4"
     ],
     "number": 68
   },
@@ -2817,6 +3180,14 @@
       "30"
     ],
     "number": 18
+  },
+  {
+    "command": "text_size",
+    "category": 1,
+    "args": [
+      "23"
+    ],
+    "number": 36
   },
   {
     "command": "bright_change",
@@ -2881,7 +3252,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -2924,7 +3295,24 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "\n請原諒"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "False"
+    ],
+    "number": 56
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "黑暗空花",
+      "請原諒"
     ],
     "number": 6
   },
@@ -2950,6 +3338,16 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "2.3",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "window_visible",
@@ -3030,9 +3428,17 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "4"
     ],
     "number": 3
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "True"
+    ],
+    "number": 56
   },
   {
     "command": "print",
@@ -3052,6 +3458,27 @@
     "number": 13
   },
   {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "104512",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "surprise1_L",
+      "104512",
+      "140",
+      "555",
+      "se_adv_emote_common_01"
+    ],
+    "number": 59
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -3067,6 +3494,14 @@
       "20"
     ],
     "number": 13
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M534"
+    ],
+    "number": 9
   },
   {
     "command": "print",
@@ -3090,15 +3525,6 @@
       "false"
     ],
     "number": 41
-  },
-  {
-    "command": "effect_delete",
-    "category": 3,
-    "args": [
-      "0077",
-      "15"
-    ],
-    "number": 55
   },
   {
     "command": "se",
@@ -3145,12 +3571,13 @@
     "number": 31
   },
   {
-    "command": "amb_stop",
+    "command": "se_pause",
     "category": 1,
     "args": [
+      "amb_adv_town_day_01",
       "1"
     ],
-    "number": 61
+    "number": 67
   },
   {
     "command": "background",
@@ -3183,12 +3610,12 @@
     "number": 75
   },
   {
-    "command": "amb",
+    "command": "se",
     "category": 1,
     "args": [
       "amb_adv_outdoors_day_01"
     ],
-    "number": 51
+    "number": 26
   },
   {
     "command": "chara_full",
@@ -3196,7 +3623,7 @@
     "args": [
       "104512",
       "RC",
-      "1"
+      "6"
     ],
     "number": 68
   },
@@ -3273,7 +3700,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -3333,7 +3760,25 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "\n一般來說，"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "104512",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "黑暗空花",
+      "一般來說，"
     ],
     "number": 6
   },
@@ -3413,12 +3858,13 @@
     "number": 31
   },
   {
-    "command": "amb_stop",
+    "command": "se_pause",
     "category": 1,
     "args": [
+      "amb_adv_outdoors_day_01",
       "1"
     ],
-    "number": 61
+    "number": 67
   },
   {
     "command": "background",
@@ -3451,12 +3897,12 @@
     "number": 75
   },
   {
-    "command": "amb",
+    "command": "se",
     "category": 1,
     "args": [
       "amb_adv_seaside_01"
     ],
-    "number": 51
+    "number": 26
   },
   {
     "command": "chara_full",
@@ -3464,7 +3910,7 @@
     "args": [
       "104512",
       "RC",
-      "1"
+      "6"
     ],
     "number": 68
   },
@@ -3541,9 +3987,21 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "6"
     ],
     "number": 3
+  },
+  {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "sweat2_R",
+      "104512",
+      "85",
+      "535",
+      "se_adv_emote_sweat_02"
+    ],
+    "number": 59
   },
   {
     "command": "print",
@@ -3584,7 +4042,25 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "\n虐待狂先生，"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "104512",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "黑暗空花",
+      "虐待狂先生，"
     ],
     "number": 6
   },
@@ -3601,24 +4077,7 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "請你不要再管空花了～～"
-    ],
-    "number": 6
-  },
-  {
-    "command": "wait",
-    "category": 1,
-    "args": [
-      "15"
-    ],
-    "number": 13
-  },
-  {
-    "command": "print",
-    "category": 1,
-    "args": [
-      "黑暗空花",
-      "～！"
+      "請你不要再管空花了～～～！"
     ],
     "number": 6
   },
@@ -3681,12 +4140,13 @@
     "number": 31
   },
   {
-    "command": "amb_stop",
+    "command": "se_pause",
     "category": 1,
     "args": [
+      "amb_adv_seaside_01",
       "1"
     ],
-    "number": 61
+    "number": 67
   },
   {
     "command": "background",
@@ -3719,48 +4179,22 @@
     "number": 75
   },
   {
-    "command": "amb",
+    "command": "se",
     "category": 1,
     "args": [
       "amb_adv_outdoors_day_01"
     ],
-    "number": 51
+    "number": 26
   },
   {
     "command": "chara_full",
     "category": 1,
     "args": [
       "104512",
-      "RC",
-      "1"
+      "C",
+      "4"
     ],
     "number": 68
-  },
-  {
-    "command": "se",
-    "category": 1,
-    "args": [
-      "se_adv_step_leaves_run_come_01"
-    ],
-    "number": 26
-  },
-  {
-    "command": "wait",
-    "category": 1,
-    "args": [
-      "15"
-    ],
-    "number": 13
-  },
-  {
-    "command": "change",
-    "category": 2,
-    "args": [
-      "C",
-      "RC",
-      "30"
-    ],
-    "number": 44
   },
   {
     "command": "fadein",
@@ -3778,6 +4212,15 @@
       "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "11.5"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -3809,7 +4252,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -3848,6 +4291,14 @@
     "number": 13
   },
   {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "104512"
+    ],
+    "number": 25
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -3860,7 +4311,23 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "70"
+      "20"
+    ],
+    "number": 13
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_bush_03"
+    ],
+    "number": 26
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "50"
     ],
     "number": 13
   },
@@ -3869,7 +4336,25 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "\n這樣就沒問題了，"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "104512",
+      "1"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "黑暗空花",
+      "這樣就沒問題了，"
     ],
     "number": 6
   },
@@ -3886,7 +4371,7 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "虐待狂先生再厲害也不可能\u2026\u2026"
+      "虐待狂先生再厲害也不可能發現\u2026\u2026"
     ],
     "number": 6
   },
@@ -3903,7 +4388,25 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "\n\u2026\u2026咦？"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "104512",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "黑暗空花",
+      "\u2026\u2026咦？"
     ],
     "number": 6
   },
@@ -3914,6 +4417,17 @@
       "30"
     ],
     "number": 13
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M192_03",
+      "0",
+      "0",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "print",
@@ -3948,6 +4462,15 @@
       "35"
     ],
     "number": 13
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "104512",
+      "4"
+    ],
+    "number": 3
   },
   {
     "command": "print",
@@ -4017,12 +4540,13 @@
     "number": 31
   },
   {
-    "command": "amb_stop",
+    "command": "se_pause",
     "category": 1,
     "args": [
+      "amb_adv_outdoors_day_01",
       "1"
     ],
-    "number": 61
+    "number": 67
   },
   {
     "command": "background",
@@ -4055,12 +4579,12 @@
     "number": 75
   },
   {
-    "command": "amb",
+    "command": "se",
     "category": 1,
     "args": [
-      "amb_adv_restaurant_01"
+      "amb_adv_wind_01"
     ],
-    "number": 51
+    "number": 26
   },
   {
     "command": "chara_full",
@@ -4068,7 +4592,7 @@
     "args": [
       "104512",
       "RC",
-      "1"
+      "5"
     ],
     "number": 68
   },
@@ -4145,9 +4669,21 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "5"
     ],
     "number": 3
+  },
+  {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "heart1_R",
+      "104512",
+      "55",
+      "505",
+      "se_adv_emote_heart_01"
+    ],
+    "number": 59
   },
   {
     "command": "print",
@@ -4222,7 +4758,25 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "\n啊！？"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "104512",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "黑暗空花",
+      "啊！？"
     ],
     "number": 6
   },
@@ -4273,7 +4827,25 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "\n追趕四處逃跑的空花，"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "104512",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "黑暗空花",
+      "追趕四處逃跑的空花，"
     ],
     "number": 6
   },
@@ -4353,12 +4925,13 @@
     "number": 31
   },
   {
-    "command": "amb_stop",
+    "command": "se_pause",
     "category": 1,
     "args": [
+      "amb_adv_wind_01",
       "1"
     ],
-    "number": 61
+    "number": 67
   },
   {
     "command": "background",
@@ -4391,12 +4964,12 @@
     "number": 75
   },
   {
-    "command": "amb",
+    "command": "se",
     "category": 1,
     "args": [
       "amb_adv_wind_02"
     ],
-    "number": 51
+    "number": 26
   },
   {
     "command": "chara_full",
@@ -4404,7 +4977,7 @@
     "args": [
       "104512",
       "RC",
-      "1"
+      "2"
     ],
     "number": 68
   },
@@ -4481,7 +5054,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -4501,6 +5074,14 @@
       "20"
     ],
     "number": 13
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "104512"
+    ],
+    "number": 25
   },
   {
     "command": "print",
@@ -4575,7 +5156,25 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "\n空花"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "104512",
+      "5"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "黑暗空花",
+      "空花"
     ],
     "number": 6
   },
@@ -4689,12 +5288,13 @@
     "number": 31
   },
   {
-    "command": "amb_stop",
+    "command": "se_pause",
     "category": 1,
     "args": [
+      "amb_adv_wind_02",
       "1"
     ],
-    "number": 61
+    "number": 67
   },
   {
     "command": "background",
@@ -4727,12 +5327,12 @@
     "number": 75
   },
   {
-    "command": "amb",
+    "command": "se",
     "category": 1,
     "args": [
-      "amb_adv_restaurant_01"
+      "amb_adv_outdoors_night_01"
     ],
-    "number": 51
+    "number": 26
   },
   {
     "command": "chara_full",
@@ -4740,7 +5340,7 @@
     "args": [
       "104512",
       "C",
-      "1"
+      "2"
     ],
     "number": 68
   },
@@ -4760,6 +5360,16 @@
       "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "12",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -4791,7 +5401,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -4811,6 +5421,14 @@
       "35"
     ],
     "number": 13
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "104512"
+    ],
+    "number": 25
   },
   {
     "command": "print",
@@ -4851,7 +5469,25 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "\n結、"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "104512",
+      "1"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "黑暗空花",
+      "結、"
     ],
     "number": 6
   },
@@ -4896,6 +5532,18 @@
     "number": 10
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M358",
+      "0",
+      "0",
+      "0",
+      "0.2"
+    ],
+    "number": 9
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
@@ -4925,7 +5573,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -4985,7 +5633,25 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "\n和空花待在一起，"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "104512",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "黑暗空花",
+      "和空花待在一起，"
     ],
     "number": 6
   },
@@ -5068,7 +5734,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -5080,6 +5746,14 @@
       "啊嗚\u2026\u2026！"
     ],
     "number": 6
+  },
+  {
+    "command": "shake",
+    "category": 2,
+    "args": [
+      "104512"
+    ],
+    "number": 23
   },
   {
     "command": "touch",
@@ -5117,7 +5791,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -5143,7 +5817,25 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "\n簡直就像是在說："
+      "簡直就像是在說：\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "104512",
+      "3"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "黑暗空花",
+      "「空花，"
     ],
     "number": 6
   },
@@ -5160,7 +5852,7 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "「空花，我永遠不會放過妳。」"
+      "我永遠不會停止對妳的攻勢。」"
     ],
     "number": 6
   },
@@ -5177,7 +5869,25 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "\n完全展現了"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "104512",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "黑暗空花",
+      "完全展現了"
     ],
     "number": 6
   },
@@ -5250,7 +5960,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -5262,6 +5972,14 @@
       "呀啊\u2026\u2026！"
     ],
     "number": 6
+  },
+  {
+    "command": "shake",
+    "category": 2,
+    "args": [
+      "104512"
+    ],
+    "number": 23
   },
   {
     "command": "touch",
@@ -5299,7 +6017,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -5325,7 +6043,25 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "\n就像是在說："
+      "就像是在說：\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "104512",
+      "3"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "黑暗空花",
+      "「空花，"
     ],
     "number": 6
   },
@@ -5342,7 +6078,7 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "「受虐狂有妳一個人就夠了，空花。」"
+      "被虐狂有妳一個人就夠了。」"
     ],
     "number": 6
   },
@@ -5359,7 +6095,25 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "\n能感受到你"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "104512",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "黑暗空花",
+      "能感受到你"
     ],
     "number": 6
   },
@@ -5424,7 +6178,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -5450,7 +6204,7 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "你其實是想救空花\u2026\u2026？"
+      "你真的想幫助空花\u2026\u2026？"
     ],
     "number": 6
   },
@@ -5490,9 +6244,17 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "4"
     ],
     "number": 3
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "104512"
+    ],
+    "number": 25
   },
   {
     "command": "print",
@@ -5516,7 +6278,7 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "空花已經完全墮入黑暗\u2500\u2500"
+      "空花已經完全染上黑暗\u2500\u2500"
     ],
     "number": 6
   },
@@ -5525,6 +6287,15 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "2"
+    ],
+    "number": 9
   },
   {
     "command": "window_visible",
@@ -5595,6 +6366,18 @@
       "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M424",
+      "0",
+      "0",
+      "1",
+      "0.3"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -5691,7 +6474,7 @@
     "args": [
       "413",
       "LC",
-      "1"
+      "6"
     ],
     "number": 68
   },
@@ -5701,7 +6484,7 @@
     "args": [
       "411",
       "RC",
-      "1"
+      "6"
     ],
     "number": 68
   },
@@ -5751,9 +6534,21 @@
     "category": 1,
     "args": [
       "413",
-      "1"
+      "6"
     ],
     "number": 3
+  },
+  {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "surprise1_L",
+      "413",
+      "140",
+      "560",
+      "se_adv_emote_common_01"
+    ],
+    "number": 59
   },
   {
     "command": "print",
@@ -5858,6 +6653,15 @@
     "number": 13
   },
   {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "413",
+      "2"
+    ],
+    "number": 3
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -5902,7 +6706,7 @@
     "category": 1,
     "args": [
       "411",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -5928,7 +6732,25 @@
     "category": 1,
     "args": [
       "女性２",
-      "\n該、"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "411",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "女性２",
+      "該、"
     ],
     "number": 6
   },
@@ -6022,7 +6844,7 @@
     "args": [
       "104512",
       "C",
-      "1"
+      "6"
     ],
     "number": 68
   },
@@ -6073,9 +6895,21 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "6"
     ],
     "number": 3
+  },
+  {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "exclamation1_R",
+      "104512",
+      "-5",
+      "650",
+      "se_adv_emote_common_01"
+    ],
+    "number": 59
   },
   {
     "command": "print",
@@ -6201,7 +7035,7 @@
     "args": [
       "311",
       "LC",
-      "1"
+      "6"
     ],
     "number": 68
   },
@@ -6211,7 +7045,7 @@
     "args": [
       "1011",
       "RC",
-      "1"
+      "6"
     ],
     "number": 68
   },
@@ -6261,7 +7095,7 @@
     "category": 1,
     "args": [
       "311",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -6287,7 +7121,25 @@
     "category": 1,
     "args": [
       "男性１",
-      "\n那副身軀展開的攻擊\u2026\u2026"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "311",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "男性１",
+      "那副身軀展開的攻擊\u2026\u2026"
     ],
     "number": 6
   },
@@ -6344,7 +7196,7 @@
     "category": 1,
     "args": [
       "1011",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -6464,7 +7316,7 @@
     "args": [
       "104512",
       "C",
-      "1"
+      "6"
     ],
     "number": 68
   },
@@ -6515,9 +7367,17 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "6"
     ],
     "number": 3
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "104512"
+    ],
+    "number": 25
   },
   {
     "command": "print",
@@ -6598,7 +7458,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -6624,7 +7484,25 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "\n在他們受到傷害之前，"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "104512",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "黑暗空花",
+      "在他們受到傷害之前，"
     ],
     "number": 6
   },
@@ -6681,7 +7559,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -6741,7 +7619,25 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "\n現在空花的黑暗之力，"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "104512",
+      "6"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "黑暗空花",
+      "現在空花的黑暗力量，"
     ],
     "number": 6
   },
@@ -6798,7 +7694,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -6864,9 +7760,21 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "6"
     ],
     "number": 3
+  },
+  {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "question1_R",
+      "104512",
+      "115",
+      "495",
+      "se_adv_emote_question_01"
+    ],
+    "number": 59
   },
   {
     "command": "print",
@@ -6977,6 +7885,15 @@
     "number": 55
   },
   {
+    "command": "effect_delete",
+    "category": 3,
+    "args": [
+      "0077",
+      "15"
+    ],
+    "number": 55
+  },
+  {
     "command": "bg_color",
     "category": 1,
     "args": [
@@ -7019,6 +7936,14 @@
       "500012"
     ],
     "number": 5
+  },
+  {
+    "command": "effect",
+    "category": 3,
+    "args": [
+      "0077"
+    ],
+    "number": 54
   },
   {
     "command": "chara_full",
@@ -7144,7 +8069,7 @@
     "args": [
       "104512",
       "C",
-      "1"
+      "6"
     ],
     "number": 68
   },
@@ -7195,7 +8120,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -7261,9 +8186,17 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "4"
     ],
     "number": 3
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "104512"
+    ],
+    "number": 25
   },
   {
     "command": "print",
@@ -7461,6 +8394,15 @@
     "number": 55
   },
   {
+    "command": "effect_delete",
+    "category": 3,
+    "args": [
+      "0077",
+      "15"
+    ],
+    "number": 55
+  },
+  {
     "command": "bg_color",
     "category": 1,
     "args": [
@@ -7474,7 +8416,7 @@
     "command": "se",
     "category": 1,
     "args": [
-      "se_adv_weapon_sword_whiff_01"
+      "se_adv_weapon_claw_repel_01"
     ],
     "number": 26
   },
@@ -7527,12 +8469,20 @@
     "number": 5
   },
   {
+    "command": "effect",
+    "category": 3,
+    "args": [
+      "0077"
+    ],
+    "number": 54
+  },
+  {
     "command": "chara_full",
     "category": 1,
     "args": [
       "104512",
       "C",
-      "1"
+      "6"
     ],
     "number": 68
   },
@@ -7583,9 +8533,21 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "6"
     ],
     "number": 3
+  },
+  {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "exclamation1_R",
+      "104512",
+      "-5",
+      "650",
+      "se_adv_emote_common_01"
+    ],
+    "number": 59
   },
   {
     "command": "print",
@@ -7649,7 +8611,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -7675,7 +8637,7 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "呃\u2026\u2026！"
+      "那個\u2026\u2026！"
     ],
     "number": 6
   },
@@ -7756,7 +8718,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "3"
     ],
     "number": 3
   },
@@ -7965,7 +8927,7 @@
     "command": "se",
     "category": 1,
     "args": [
-      "se_adv_stepadd_armor_norm_01_move_01"
+      "se_adv_step_monster_move_01"
     ],
     "number": 26
   },
@@ -8020,7 +8982,7 @@
     "args": [
       "104512",
       "C",
-      "1"
+      "3"
     ],
     "number": 68
   },
@@ -8071,7 +9033,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "3"
     ],
     "number": 3
   },
@@ -8143,6 +9105,15 @@
     "number": 55
   },
   {
+    "command": "effect_delete",
+    "category": 3,
+    "args": [
+      "0077",
+      "15"
+    ],
+    "number": 55
+  },
+  {
     "command": "bg_color",
     "category": 1,
     "args": [
@@ -8156,7 +9127,7 @@
     "command": "se",
     "category": 1,
     "args": [
-      "se_adv_weapon_sword_whiff_01"
+      "se_adv_weapon_claw_hit_01"
     ],
     "number": 26
   },
@@ -8190,7 +9161,7 @@
     "args": [
       "104512",
       "C",
-      "1"
+      "4"
     ],
     "number": 68
   },
@@ -8209,7 +9180,7 @@
     "category": 2,
     "args": [
       "104512",
-      "15"
+      "30"
     ],
     "number": 18
   },
@@ -8236,9 +9207,17 @@
       "104512",
       "1",
       "2",
-      "5"
+      "10"
     ],
     "number": 39
+  },
+  {
+    "command": "effect",
+    "category": 3,
+    "args": [
+      "0077"
+    ],
+    "number": 54
   },
   {
     "command": "window_visible",
@@ -8278,7 +9257,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -8292,12 +9271,12 @@
     "number": 6
   },
   {
-    "command": "wait",
-    "category": 1,
+    "command": "shake",
+    "category": 2,
     "args": [
-      "15"
+      "104512"
     ],
-    "number": 13
+    "number": 23
   },
   {
     "command": "print",
@@ -8361,7 +9340,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -8461,7 +9440,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -8544,9 +9523,17 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "4"
     ],
     "number": 3
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "False"
+    ],
+    "number": 56
   },
   {
     "command": "print",
@@ -8570,7 +9557,24 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "\n早就能去對付反逆獸了\u2026\u2026！"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "True"
+    ],
+    "number": 56
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "黑暗空花",
+      "早就能去對付反逆獸了\u2026\u2026！"
     ],
     "number": 6
   },
@@ -8610,9 +9614,17 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "4"
     ],
     "number": 3
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "104512"
+    ],
+    "number": 25
   },
   {
     "command": "print",
@@ -8676,7 +9688,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "3"
     ],
     "number": 3
   },
@@ -8764,6 +9776,16 @@
     "number": 10
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "6.5",
+      "1"
+    ],
+    "number": 9
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
@@ -8793,9 +9815,17 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "3"
     ],
     "number": 3
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "104512"
+    ],
+    "number": 25
   },
   {
     "command": "print",
@@ -8819,7 +9849,7 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "\n反逆獸！"
+      "\n反逆獸先生！"
     ],
     "number": 6
   },
@@ -8900,6 +9930,18 @@
     "number": 41
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M131_Short",
+      "0",
+      "0",
+      "0",
+      "0.5"
+    ],
+    "number": 9
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
@@ -8960,7 +10002,7 @@
     "command": "se",
     "category": 1,
     "args": [
-      "se_adv_stepadd_armor_norm_01_move_01"
+      "se_adv_step_monster_move_01"
     ],
     "number": 26
   },
@@ -8993,6 +10035,15 @@
     "number": 55
   },
   {
+    "command": "effect_delete",
+    "category": 3,
+    "args": [
+      "0077",
+      "15"
+    ],
+    "number": 55
+  },
+  {
     "command": "bg_color",
     "category": 1,
     "args": [
@@ -9006,7 +10057,7 @@
     "command": "se",
     "category": 1,
     "args": [
-      "se_adv_weapon_sword_whiff_01"
+      "se_adv_weapon_claw_hit_01"
     ],
     "number": 26
   },
@@ -9035,12 +10086,20 @@
     "number": 5
   },
   {
+    "command": "effect",
+    "category": 3,
+    "args": [
+      "0077"
+    ],
+    "number": 54
+  },
+  {
     "command": "chara_full",
     "category": 1,
     "args": [
       "104512",
       "C",
-      "1"
+      "6"
     ],
     "number": 68
   },
@@ -9091,7 +10150,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -9100,9 +10159,17 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "嗚欸！？"
+      "嗚欸欸欸！？"
     ],
     "number": 6
+  },
+  {
+    "command": "shake",
+    "category": 2,
+    "args": [
+      "104512"
+    ],
+    "number": 23
   },
   {
     "command": "touch",
@@ -9193,7 +10260,7 @@
     "category": 1,
     "args": [
       "1611",
-      "1"
+      "0"
     ],
     "number": 50
   },
@@ -9241,7 +10308,7 @@
     "command": "se",
     "category": 1,
     "args": [
-      "se_adv_stepadd_armor_norm_01_move_01"
+      "se_adv_step_monster_move_01"
     ],
     "number": 26
   },
@@ -9274,6 +10341,15 @@
     "number": 55
   },
   {
+    "command": "effect_delete",
+    "category": 3,
+    "args": [
+      "0077",
+      "15"
+    ],
+    "number": 55
+  },
+  {
     "command": "bg_color",
     "category": 1,
     "args": [
@@ -9287,7 +10363,7 @@
     "command": "se",
     "category": 1,
     "args": [
-      "se_adv_weapon_sword_whiff_01"
+      "se_adv_weapon_claw_hit_01"
     ],
     "number": 26
   },
@@ -9316,12 +10392,20 @@
     "number": 5
   },
   {
+    "command": "effect",
+    "category": 3,
+    "args": [
+      "0077"
+    ],
+    "number": 54
+  },
+  {
     "command": "chara_full",
     "category": 1,
     "args": [
       "104512",
       "C",
-      "1"
+      "4"
     ],
     "number": 68
   },
@@ -9372,7 +10456,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -9384,6 +10468,14 @@
       "嗚\u2026\u2026！"
     ],
     "number": 6
+  },
+  {
+    "command": "shake",
+    "category": 2,
+    "args": [
+      "104512"
+    ],
+    "number": 23
   },
   {
     "command": "touch",
@@ -9522,7 +10614,7 @@
     "command": "se",
     "category": 1,
     "args": [
-      "se_adv_stepadd_armor_norm_01_move_01"
+      "se_adv_step_monster_move_01"
     ],
     "number": 26
   },
@@ -9577,7 +10669,7 @@
     "args": [
       "104512",
       "C",
-      "1"
+      "4"
     ],
     "number": 68
   },
@@ -9645,9 +10737,21 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "6"
     ],
     "number": 3
+  },
+  {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "surprise1_L",
+      "104512",
+      "140",
+      "555",
+      "se_adv_emote_common_01"
+    ],
+    "number": 59
   },
   {
     "command": "print",
@@ -9694,7 +10798,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -9720,7 +10824,25 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "\n請你快點逃走\u2026\u2026！"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "104512",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "黑暗空花",
+      "請你快點逃走\u2026\u2026！"
     ],
     "number": 6
   },
@@ -9760,9 +10882,17 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "6"
     ],
     "number": 3
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "104512"
+    ],
+    "number": 25
   },
   {
     "command": "print",
@@ -9820,7 +10950,25 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "\n放著魔法少女的任務不管，"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "104512",
+      "4"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "黑暗空花",
+      "放著魔法少女的任務不管，"
     ],
     "number": 6
   },
@@ -9911,9 +11059,17 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "4"
     ],
     "number": 3
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "False"
+    ],
+    "number": 56
   },
   {
     "command": "print",
@@ -9933,11 +11089,19 @@
     "number": 13
   },
   {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "True"
+    ],
+    "number": 56
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
       "黑暗空花",
-      "至少現在"
+      "至少現在，"
     ],
     "number": 6
   },
@@ -9954,7 +11118,7 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "\n讓空花"
+      "\n請讓空花"
     ],
     "number": 6
   },
@@ -9982,6 +11146,15 @@
     "number": 10
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "1.5"
+    ],
+    "number": 9
+  },
+  {
     "command": "choice",
     "category": 1,
     "args": [
@@ -9997,6 +11170,18 @@
       "9"
     ],
     "number": 7
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M175_Ver2",
+      "0",
+      "0",
+      "1",
+      "0.5"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -10028,7 +11213,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -10111,7 +11296,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "4"
     ],
     "number": 3
   },
@@ -10131,6 +11316,14 @@
       "10"
     ],
     "number": 13
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "104512"
+    ],
+    "number": 25
   },
   {
     "command": "print",
@@ -10171,7 +11364,7 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "\n才會墮入黑暗，"
+      "\n才會染上黑暗，"
     ],
     "number": 6
   },
@@ -10202,7 +11395,7 @@
     "command": "choice",
     "category": 1,
     "args": [
-      "就算墮入黑暗，妳還是妳。",
+      "就算染上黑暗，妳還是妳。",
       "10"
     ],
     "number": 11
@@ -10245,9 +11438,21 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "6"
     ],
     "number": 3
+  },
+  {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "exclamation1_R",
+      "104512",
+      "-5",
+      "650",
+      "se_adv_emote_common_01"
+    ],
+    "number": 59
   },
   {
     "command": "print",
@@ -10294,7 +11499,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -10401,7 +11606,7 @@
     "category": 1,
     "args": [
       "104512",
-      "1"
+      "6"
     ],
     "number": 3
   },
@@ -10474,6 +11679,15 @@
     "number": 13
   },
   {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "104512",
+      "2"
+    ],
+    "number": 3
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -10504,6 +11718,16 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "3",
+      "1"
+    ],
+    "number": 9
   },
   {
     "command": "window_visible",
@@ -10539,13 +11763,54 @@
     "number": 89
   },
   {
+    "command": "effect_delete",
+    "category": 3,
+    "args": [
+      "0077",
+      "15"
+    ],
+    "number": 55
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_magical_transform_01"
+    ],
+    "number": 26
+  },
+  {
+    "command": "effect",
+    "category": 3,
+    "args": [
+      "0099"
+    ],
+    "number": 54
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "55"
+    ],
+    "number": 13
+  },
+  {
     "command": "fadeout",
     "category": 2,
     "args": [
       "104512",
-      "30"
+      "1"
     ],
     "number": 19
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_whiteout_01"
+    ],
+    "number": 26
   },
   {
     "command": "white_out",
@@ -10583,6 +11848,23 @@
     "number": 13
   },
   {
+    "command": "effect",
+    "category": 3,
+    "args": [
+      "0022",
+      "se_adv_happy_particle_01"
+    ],
+    "number": 54
+  },
+  {
+    "command": "text_size",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 36
+  },
+  {
     "command": "white_in",
     "category": 1,
     "args": [],
@@ -10595,6 +11877,14 @@
       "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M527"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -10626,7 +11916,7 @@
     "category": 1,
     "args": [
       "119111",
-      "1"
+      "5"
     ],
     "number": 3
   },
@@ -10644,6 +11934,14 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "text_size",
+    "category": 1,
+    "args": [
+      "23"
+    ],
+    "number": 36
   },
   {
     "command": "focus",
@@ -10675,7 +11973,7 @@
     "category": 1,
     "args": [
       "119111",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -10741,7 +12039,7 @@
     "category": 1,
     "args": [
       "119111",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -10807,7 +12105,7 @@
     "category": 1,
     "args": [
       "119111",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -10890,7 +12188,7 @@
     "category": 1,
     "args": [
       "119111",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -10939,7 +12237,7 @@
     "category": 1,
     "args": [
       "119111",
-      "1"
+      "5"
     ],
     "number": 3
   },
@@ -10993,6 +12291,14 @@
     "number": 29
   },
   {
+    "command": "effect_delete",
+    "category": 3,
+    "args": [
+      "0022"
+    ],
+    "number": 55
+  },
+  {
     "command": "background",
     "category": 1,
     "args": [
@@ -11042,6 +12348,14 @@
     "number": 18
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_creature_cmn_02"
+    ],
+    "number": 26
+  },
+  {
     "command": "window_visible",
     "category": 1,
     "args": [
@@ -11074,6 +12388,18 @@
       "1"
     ],
     "number": 3
+  },
+  {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "surprise1_L",
+      "1611",
+      "190",
+      "515",
+      "se_adv_emote_nortice_02"
+    ],
+    "number": 59
   },
   {
     "command": "print",
@@ -11186,6 +12512,14 @@
     "number": 3
   },
   {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "119111"
+    ],
+    "number": 25
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -11252,6 +12586,14 @@
     "number": 3
   },
   {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "False"
+    ],
+    "number": 56
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -11273,7 +12615,24 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "\n讓空花\u2026\u2026"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "eye_open",
+    "category": 1,
+    "args": [
+      "True"
+    ],
+    "number": 56
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "黑暗空花",
+      "讓空花\u2026\u2026"
     ],
     "number": 6
   },
@@ -11396,7 +12755,7 @@
     "category": 1,
     "args": [
       "119111",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -11617,7 +12976,7 @@
     "args": [
       "119111",
       "C",
-      "1"
+      "3"
     ],
     "number": 68
   },
@@ -11668,7 +13027,7 @@
     "category": 1,
     "args": [
       "119111",
-      "1"
+      "3"
     ],
     "number": 3
   },
@@ -11677,7 +13036,7 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "反逆獸！"
+      "反逆獸先生！"
     ],
     "number": 6
   },
@@ -11751,7 +13110,7 @@
     "category": 1,
     "args": [
       "119111",
-      "1"
+      "3"
     ],
     "number": 3
   },
@@ -11817,9 +13176,17 @@
     "category": 1,
     "args": [
       "119111",
-      "1"
+      "3"
     ],
     "number": 3
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "119111"
+    ],
+    "number": 25
   },
   {
     "command": "print",
@@ -11843,7 +13210,7 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "會努力打敗你\u2026\u2026！"
+      "會努力打敗你！"
     ],
     "number": 6
   },
@@ -11900,7 +13267,7 @@
     "category": 1,
     "args": [
       "119111",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -12010,7 +13377,7 @@
     "args": [
       "413",
       "LC",
-      "1"
+      "6"
     ],
     "number": 68
   },
@@ -12020,7 +13387,7 @@
     "args": [
       "411",
       "RC",
-      "1"
+      "6"
     ],
     "number": 68
   },
@@ -12070,9 +13437,21 @@
     "category": 1,
     "args": [
       "413",
-      "1"
+      "6"
     ],
     "number": 3
+  },
+  {
+    "command": "emotion",
+    "category": 3,
+    "args": [
+      "question1_R",
+      "413",
+      "105",
+      "515",
+      "se_adv_emote_question_01"
+    ],
+    "number": 59
   },
   {
     "command": "print",
@@ -12223,6 +13602,14 @@
       "1"
     ],
     "number": 3
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "311"
+    ],
+    "number": 25
   },
   {
     "command": "print",
@@ -12467,6 +13854,15 @@
     "number": 10
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "stop",
+      "3.7"
+    ],
+    "number": 9
+  },
+  {
     "command": "focus",
     "category": 1,
     "args": [
@@ -12496,9 +13892,17 @@
     "category": 1,
     "args": [
       "119111",
-      "1"
+      "2"
     ],
     "number": 3
+  },
+  {
+    "command": "nod",
+    "category": 2,
+    "args": [
+      "119111"
+    ],
+    "number": 25
   },
   {
     "command": "print",
@@ -12514,6 +13918,18 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M319",
+      "0",
+      "0",
+      "1",
+      "0.1"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -12571,7 +13987,7 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "然後再混進一點點黑暗之力！"
+      "然後再混進一點點黑暗力量！"
     ],
     "number": 6
   },
@@ -12588,7 +14004,25 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "\n看我的"
+      "\n"
+    ],
+    "number": 6
+  },
+  {
+    "command": "face",
+    "category": 1,
+    "args": [
+      "119111",
+      "2"
+    ],
+    "number": 3
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "黑暗空花",
+      "看我的"
     ],
     "number": 6
   },
@@ -12673,6 +14107,15 @@
     "number": 41
   },
   {
+    "command": "fadeout",
+    "category": 2,
+    "args": [
+      "119111",
+      "30"
+    ],
+    "number": 19
+  },
+  {
     "command": "white_out",
     "category": 1,
     "args": [
@@ -12706,6 +14149,23 @@
       "15"
     ],
     "number": 13
+  },
+  {
+    "command": "effect",
+    "category": 3,
+    "args": [
+      "0022",
+      "se_adv_happy_particle_01"
+    ],
+    "number": 54
+  },
+  {
+    "command": "text_size",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 36
   },
   {
     "command": "white_in",
@@ -12751,7 +14211,7 @@
     "category": 1,
     "args": [
       "119111",
-      "1"
+      "5"
     ],
     "number": 3
   },
@@ -12790,6 +14250,14 @@
     "number": 13
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_magic_kaiser_03"
+    ],
+    "number": 26
+  },
+  {
     "command": "print",
     "category": 1,
     "args": [
@@ -12799,10 +14267,34 @@
     "number": 6
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_magic_kaiser_04"
+    ],
+    "number": 26
+  },
+  {
     "command": "touch",
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "text_size",
+    "category": 1,
+    "args": [
+      "23"
+    ],
+    "number": 36
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_creature_cmn_08"
+    ],
+    "number": 26
   },
   {
     "command": "focus",
@@ -12924,7 +14416,7 @@
     "category": 1,
     "args": [
       "119111",
-      "1"
+      "2"
     ],
     "number": 3
   },
@@ -13024,7 +14516,7 @@
     "category": 1,
     "args": [
       "119111",
-      "1"
+      "5"
     ],
     "number": 3
   },
@@ -13033,7 +14525,7 @@
     "category": 1,
     "args": [
       "黑暗空花",
-      "再更興奮一點吧\u266A"
+      "再更更加興奮吧\u266A"
     ],
     "number": 6
   },
@@ -13042,6 +14534,14 @@
     "category": 1,
     "args": [],
     "number": 10
+  },
+  {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_creature_cmn_07"
+    ],
+    "number": 26
   },
   {
     "command": "focus",
@@ -13163,7 +14663,7 @@
     "category": 1,
     "args": [
       "119111",
-      "1"
+      "5"
     ],
     "number": 3
   },
@@ -13247,9 +14747,51 @@
     "category": 1,
     "args": [
       "旁白",
-      "就這樣，在黑暗被虐狂兼正義的魔法少女\u2500\u2500\n空花的活躍下，反逆獸被解決掉了。\n城裡的人們重新露出笑容，城市也恢復了和平。"
+      "就這樣，在黑暗被虐狂兼正義的魔法少女\u2500\u2500"
     ],
     "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "旁白",
+      "\n空花的活躍下，反逆獸被解決掉了。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
+  },
+  {
+    "command": "print",
+    "category": 1,
+    "args": [
+      "旁白",
+      "\n城裡的人們重新露出笑容，城市也恢復了和平。"
+    ],
+    "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
   },
   {
     "command": "touch",
@@ -13287,7 +14829,7 @@
     "category": 1,
     "args": [
       "119111",
-      "1"
+      "5"
     ],
     "number": 3
   },
@@ -13315,12 +14857,23 @@
     "number": 41
   },
   {
-    "command": "amb_stop",
+    "command": "bgm",
     "category": 1,
     "args": [
+      "stop",
+      "1",
       "1"
     ],
-    "number": 61
+    "number": 9
+  },
+  {
+    "command": "se_pause",
+    "category": 1,
+    "args": [
+      "amb_adv_outdoors_night_01",
+      "1"
+    ],
+    "number": 67
   },
   {
     "command": "black_out",
@@ -13330,6 +14883,14 @@
       "1"
     ],
     "number": 27
+  },
+  {
+    "command": "effect_delete",
+    "category": 3,
+    "args": [
+      "0022"
+    ],
+    "number": 55
   },
   {
     "command": "still_unit",

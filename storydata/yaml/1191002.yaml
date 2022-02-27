@@ -1,10 +1,10 @@
 - title:
-  - 空花（黑色魅力） 第2話
+  - 空花（黑暗） 第2話
 - outline:
-  - 空花頻繁地變成黑暗被虐狂，讓自己的妄想能實現。這害得她越來越容易變成黑暗被虐狂，結果在舞蹈工作的時候碰到困境。好不容易脫離困境後，她發誓再也不碰黑暗之力。
+  - 為了讓自己的妄想能實現，空花頻繁地變成黑暗被虐狂。這害得她越來越容易變成黑暗被虐狂，結果在舞蹈工作的時候碰到困境。好不容易脫離困境後，她發誓再也不會被黑暗力量影響了。
 - background:
   - 500030
-- amb:
+- se:
   - amb_adv_town_day_01
 - bg_pan:
   - -170
@@ -23,24 +23,37 @@
   - 1
 - print:
   - 旁白
-  - |-
-    {0}將黑暗之力過強的空花恢復原狀後的
+  - '{0}將黑暗力量過強的空花恢復原狀後，'
+- wait:
+  - 15
+- print:
+  - 旁白
+  - |2-
+
     隔天──
+- wait:
+  - 15
 - touch: &o0 []
 - window_visible:
   - false
 - chara_full:
   - 311
   - LC
-  - 1
+  - 3
 - chara_full:
   - 1011
   - RC
-  - 1
+  - 3
 - fadein_all:
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M21
+  - 0
+  - 0
+  - 1
+  - 0.5
 - focus:
   - 311
 - bust:
@@ -50,7 +63,13 @@
   - vo_adv_1191002_000
 - face:
   - 311
-  - 1
+  - 3
+- emotion:
+  - anger1_R
+  - 311
+  - -95
+  - 605
+  - se_adv_emote_anger_01
 - print:
   - 男性１
   - 混蛋！
@@ -71,7 +90,7 @@
   - vo_adv_1191002_001
 - face:
   - 1011
-  - 1
+  - 3
 - print:
   - 男性２
   - 明明就是你撞到我吧！
@@ -85,7 +104,7 @@
   - vo_adv_1191002_002
 - face:
   - 104512
-  - 1
+  - 6
 - print:
   - 黑暗空花
   - 虐待狂先生～！
@@ -99,7 +118,7 @@
   - vo_adv_1191002_003
 - face:
   - 311
-  - 1
+  - 3
 - print:
   - 男性１
   - 你說啥！？
@@ -111,6 +130,21 @@
 
     臭小子！
 - touch: *o0
+- window_visible:
+  - false
+- focus:
+  - 311:1011
+- se:
+  - se_adv_comic_punch_01
+- nod:
+  - 311
+- face:
+  - 1011
+  - 6
+- shake:
+  - 1011
+- window_visible:
+  - true
 - focus:
   - 1011
 - bust:
@@ -120,7 +154,7 @@
   - vo_adv_1191002_004
 - face:
   - 1011
-  - 1
+  - 3
 - print:
   - 男性２
   - 唔！
@@ -146,7 +180,7 @@
   - vo_adv_1191002_005
 - face:
   - 104512
-  - 1
+  - 6
 - print:
   - 黑暗空花
   - 虐待狂先生～！
@@ -156,8 +190,29 @@
   - 黑暗空花
   - 事情不好了～！
 - touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_magic_dark_aura_01
 - effect:
   - 0077
+- focus:
+  - 311:1011
+- se:
+  - se_adv_comic_punch_01
+- nod:
+  - 1011
+- face:
+  - 311
+  - 6
+- shake:
+  - 311
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 8
+  - 1
 - focus:
   - 311
 - bust:
@@ -167,7 +222,7 @@
   - vo_adv_1191002_006
 - face:
   - 311
-  - 1
+  - 6
 - print:
   - 男性１
   - 唔呃……！
@@ -185,6 +240,9 @@
   - 挺厲害的嘛……
 - wait:
   - 60
+- face:
+  - 311
+  - 2
 - print:
   - 男性１
   - 我看你就再……
@@ -192,9 +250,19 @@
   - 65
 - print:
   - 男性１
-  - |2-
+  - |2
 
-    嘻嘻嘻……
+- emotion:
+  - heart1_R
+  - 311
+  - 75
+  - 540
+  - se_adv_emote_heart_01
+- bgm:
+  - bgm_M13_03_NoIntro
+- print:
+  - 男性１
+  - 嘻嘻嘻……
 - wait:
   - 55
 - print:
@@ -223,9 +291,14 @@
   - 55
 - print:
   - 男性２
-  - |2-
+  - |2
 
-    快，
+- face:
+  - 1011
+  - 2
+- print:
+  - 男性２
+  - 快，
 - wait:
   - 30
 - print:
@@ -249,7 +322,7 @@
 - chara_full:
   - 104512
   - C
-  - 1
+  - 4
 - fadein:
   - 104512
   - 30
@@ -269,7 +342,7 @@
   - vo_adv_1191002_008
 - face:
   - 104512
-  - 1
+  - 4
 - print:
   - 黑暗空花
   - 是的……
@@ -289,7 +362,7 @@
   - 25
 - print:
   - 黑暗空花
-  - 又被黑暗之力影響了……
+  - 又被黑暗力量影響了……
 - touch: *o0
 - focus:
   - 104512
@@ -300,7 +373,11 @@
   - vo_adv_1191002_009
 - face:
   - 104512
-  - 1
+  - 6
+- nod:
+  - 104512
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 黑暗空花
   - 再這樣下去
@@ -319,17 +396,17 @@
   - vo_adv_1191002_010
 - face:
   - 104512
-  - 1
+  - 6
 - print:
   - 黑暗空花
-  - 能不能幫助空花
+  - 虐待狂先生，
 - wait:
   - 30
 - print:
   - 黑暗空花
   - |2-
 
-    恢復原狀呢……？
+    能不能幫助空花恢復原狀呢……！
 - touch: *o0
 - focus:
   - 104512
@@ -370,9 +447,14 @@
   - 35
 - print:
   - 黑暗空花
-  - |2-
+  - |2
 
-    身體都
+- face:
+  - 104512
+  - 2
+- print:
+  - 黑暗空花
+  - 身體都
 - wait:
   - 15
 - print:
@@ -406,14 +488,19 @@
   - 30
 - print:
   - 黑暗空花
-  - 這次空花有一個妄想……
+  - 這次空花的妄想是……
 - wait:
   - 65
 - print:
   - 黑暗空花
-  - |2-
+  - |2
 
-    要、
+- face:
+  - 104512
+  - 2
+- print:
+  - 黑暗空花
+  - 要、
 - wait:
   - 30
 - print:
@@ -439,10 +526,16 @@
   - vo_adv_1191002_013
 - face:
   - 104512
-  - 1
+  - 6
+- emotion:
+  - exclamation1_R
+  - 104512
+  - -5
+  - 650
+  - se_adv_emote_common_01
 - print:
   - 黑暗空花
-  - 啥！？
+  - 啊！？
 - wait:
   - 25
 - print:
@@ -452,16 +545,24 @@
     看到空花臉紅，
 - wait:
   - 40
+- face:
+  - 104512
+  - 2
 - print:
   - 黑暗空花
-  - 你居然一副滿足的表情……
+  - 虐待狂先生露出一副滿足的表情……
 - wait:
   - 70
 - print:
   - 黑暗空花
-  - |2-
+  - |2
 
-    咦？
+- face:
+  - 104512
+  - 6
+- print:
+  - 黑暗空花
+  - 咦？
 - wait:
   - 35
 - print:
@@ -469,6 +570,9 @@
   - 要空花快點說？
 - wait:
   - 55
+- face:
+  - 104512
+  - 1
 - print:
   - 黑暗空花
   - ……
@@ -478,15 +582,19 @@
   - 黑暗空花
   - 空花知道了……
 - touch: *o0
+- bgm:
+  - stop
+  - 2
 - window_visible:
   - false
 - effect_delete:
   - 0077
-  - 15
+  - 30
 - fadeout:
   - 104512
   - 30
-- amb_stop:
+- se_pause:
+  - amb_adv_town_day_01
   - 1
 - black_out:
   - 1
@@ -494,7 +602,7 @@
 - wait:
   - 15
 - black_in: *o0
-- amb:
+- se:
   - amb_adv_town_day_01
 - se:
   - se_adv_magical_transform_01
@@ -505,12 +613,18 @@
 - chara_full:
   - 119112
   - C
-  - 1
+  - 5
 - fadein:
   - 119112
-  - 30
+  - 1
 - window_visible:
   - true
+- bgm:
+  - bgm_M533
+  - 0
+  - 0
+  - 1
+  - 0.5
 - focus:
   - 119112
 - bust:
@@ -520,7 +634,7 @@
   - vo_adv_1191002_014
 - face:
   - 119112
-  - 1
+  - 5
 - print:
   - 黑暗空花
   - ──嘻嘻嘻嘻，
@@ -540,6 +654,10 @@
 - face:
   - 119112
   - 1
+- nod:
+  - 119112
+- se:
+  - se_adv_cloth_move_give_01
 - print:
   - 黑暗空花
   - 謝謝你，
@@ -577,32 +695,35 @@
   - vo_adv_1191002_016
 - face:
   - 119112
-  - 1
+  - 2
 - print:
   - 黑暗空花
-  - 果然虐待狂先生
+  - 果然
 - wait:
   - 30
 - print:
   - 黑暗空花
-  - 一採取攻勢，
+  - 被虐待狂先生真正採取攻勢，
 - wait:
   - 45
 - print:
   - 黑暗空花
   - |2-
 
-    空花就……
+    對空花來說最……
 - wait:
   - 45
+- face:
+  - 119112
+  - 6
 - print:
   - 黑暗空花
-  - 算、
+  - 啊、
 - wait:
   - 15
 - print:
   - 黑暗空花
-  - 算了，
+  - 啊那個，
 - wait:
   - 15
 - print:
@@ -624,6 +745,10 @@
   - 那，
 - wait:
   - 20
+- nod:
+  - 119112
+- se:
+  - se_adv_step_concrete_move_01
 - print:
   - 黑暗空花
   - 那就先這樣！
@@ -640,12 +765,17 @@
   - 黑暗空花
   - 還有很多事情要忙……！
 - touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 1
 - window_visible:
   - false
 - fadeout:
   - 119112
   - 30
-- amb_stop:
+- se_pause:
+  - amb_adv_town_day_01
   - 1
 - black_out:
   - 1
@@ -655,10 +785,8 @@
 - wait:
   - 30
 - black_in: *o0
-- amb:
+- se:
   - amb_adv_town_day_01
-- effect:
-  - 0077
 - window_visible:
   - true
 - focus:
@@ -666,24 +794,37 @@
 - bust:
   - 0
   - 0
+- face:
+  - 0
+  - 1
 - print:
   - 旁白
   - ──隔天。
 - touch: *o0
 - window_visible:
   - false
+- se:
+  - se_adv_magic_dark_aura_01
+- effect:
+  - 0077
 - chara_full:
   - 911
   - LC
-  - 1
+  - 6
 - chara_full:
   - 811
   - RC
-  - 1
+  - 6
 - fadein_all:
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M534
+  - 0
+  - 0
+  - 0
+  - 0.5
 - focus:
   - 911
 - bust:
@@ -693,12 +834,16 @@
   - vo_adv_1191002_018
 - face:
   - 911
-  - 1
+  - 6
+- se:
+  - se_adv_cloth_move_normal_01
 - print:
   - 地痞1
   - 唔、
+- shake:
+  - 911
 - wait:
-  - 20
+  - 5
 - print:
   - 地痞1
   - 唔唔……！
@@ -711,6 +856,9 @@
     這種未知的快感
 - wait:
   - 45
+- face:
+  - 911
+  - 2
 - print:
   - 地痞1
   - 到底是怎麼搞的……！？
@@ -724,7 +872,7 @@
   - vo_adv_1191002_019
 - face:
   - 811
-  - 1
+  - 6
 - print:
   - 地痞2
   - 大哥────！
@@ -748,7 +896,7 @@
 - chara_full:
   - 104512
   - LC
-  - 1
+  - 6
 - se:
   - se_adv_step_concrete_run_come_01
 - wait:
@@ -771,7 +919,7 @@
   - vo_adv_1191002_020
 - face:
   - 104512
-  - 1
+  - 6
 - print:
   - 黑暗空花
   - 虐待狂先生～！
@@ -785,7 +933,9 @@
   - vo_adv_1191002_021
 - face:
   - 104512
-  - 1
+  - 2
+- pop:
+  - 104512
 - print:
   - 黑暗空花
   - 虐待狂先生～！
@@ -809,10 +959,10 @@
   - vo_adv_1191002_022
 - face:
   - 104512
-  - 1
+  - 2
 - print:
   - 黑暗空花
-  - 空花身上的黑暗之力
+  - 空花身上的黑暗力量
 - wait:
   - 35
 - print:
@@ -829,21 +979,23 @@
 - face:
   - 104512
   - 1
+- nod:
+  - 104512
 - print:
   - 黑暗空花
-  - 這下子需要
+  - 這必須請你再一次，
 - wait:
   - 25
 - print:
   - 黑暗空花
   - |2-
 
-    請你用壓倒下的虐待狂能量
+    用壓倒的虐待狂能量
 - wait:
   - 40
 - print:
   - 黑暗空花
-  - 讓空花恢復原狀了……！
+  - 讓空花恢復原狀才行……！
 - touch: *o0
 - focus:
   - 104512
@@ -854,7 +1006,7 @@
   - vo_adv_1191002_024
 - face:
   - 104512
-  - 1
+  - 2
 - print:
   - 黑暗空花
   - 嘻嘻嘻……
@@ -862,12 +1014,12 @@
   - 35
 - print:
   - 黑暗空花
-  - 還有，
+  - 順帶一提，
 - wait:
   - 15
 - print:
   - 黑暗空花
-  - 這次的妄想，
+  - 這次的妄想是，
 - wait:
   - 40
 - print:
@@ -880,11 +1032,12 @@
   - false
 - effect_delete:
   - 0077
-  - 15
+  - 30
 - fadeout:
   - 104512
   - 30
-- amb_stop:
+- se_pause:
+  - amb_adv_town_day_01
   - 1
 - black_out:
   - 1
@@ -894,10 +1047,8 @@
 - wait:
   - 30
 - black_in: *o0
-- amb:
+- se:
   - amb_adv_town_day_01
-- effect:
-  - 0077
 - window_visible:
   - true
 - focus:
@@ -905,12 +1056,19 @@
 - bust:
   - 0
   - 0
+- face:
+  - 0
+  - 1
 - print:
   - 旁白
   - ──又過了一天。
 - touch: *o0
 - window_visible:
   - false
+- se:
+  - se_adv_magic_dark_aura_01
+- effect:
+  - 0077
 - chara_full:
   - 712
   - LC
@@ -935,9 +1093,9 @@
   - 1
 - print:
   - 士兵１
-  - 原、原來這就是
+  - 原來這就是
 - wait:
-  - 15
+  - 16
 - print:
   - 士兵１
   - 傳遍大街小巷的被虐狂化……！
@@ -964,7 +1122,7 @@
   - 30
 - print:
   - 士兵１
-  - 嘻嘻……！
+  - 嘻嘻嘻……！
 - touch: *o0
 - focus:
   - 711
@@ -976,6 +1134,10 @@
 - face:
   - 711
   - 1
+- nod:
+  - 711
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 士兵２
   - 唔、
@@ -1051,7 +1213,11 @@
   - vo_adv_1191002_028
 - face:
   - 104512
-  - 1
+  - 2
+- nod:
+  - 104512
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 黑暗空花
   - 虐待狂先生♪
@@ -1070,7 +1236,7 @@
   - vo_adv_1191002_029
 - face:
   - 104512
-  - 1
+  - 5
 - print:
   - 黑暗空花
   - 你把空花高高地
@@ -1080,15 +1246,19 @@
   - 黑暗空花
   - 往天空發射──
 - touch: *o0
+- bgm:
+  - stop
+  - 2
 - window_visible:
   - false
 - effect_delete:
   - 0077
-  - 15
+  - 30
 - fadeout:
   - 104512
   - 30
-- amb_stop:
+- se_pause:
+  - amb_adv_town_day_01
   - 1
 - black_out:
   - 1
@@ -1098,10 +1268,8 @@
 - wait:
   - 30
 - black_in: *o0
-- amb:
+- se:
   - amb_adv_town_day_01
-- effect:
-  - 0077
 - window_visible:
   - true
 - focus:
@@ -1109,12 +1277,19 @@
 - bust:
   - 0
   - 0
+- face:
+  - 0
+  - 1
 - print:
   - 旁白
   - ──又又過了一天。
 - touch: *o0
 - window_visible:
   - false
+- se:
+  - se_adv_magic_dark_aura_01
+- effect:
+  - 0077
 - chara_full:
   - 104512
   - LC
@@ -1151,6 +1326,12 @@
   - 3
 - tag:
   - 3
+- bgm:
+  - bgm_M11_Ver2
+  - 0
+  - 0
+  - 1
+  - 0.3
 - focus:
   - 104512
 - bust:
@@ -1160,7 +1341,13 @@
   - vo_adv_1191002_031
 - face:
   - 104512
-  - 1
+  - 6
+- emotion:
+  - surprise1_L
+  - 104512
+  - 140
+  - 555
+  - se_adv_emote_common_01
 - print:
   - 黑暗空花
   - 咦！？
@@ -1174,12 +1361,15 @@
   - vo_adv_1191002_032
 - face:
   - 104512
-  - 1
+  - 6
 - print:
   - 黑暗空花
   - 故意？
 - wait:
   - 50
+- face:
+  - 104512
+  - 4
 - print:
   - 黑暗空花
   - 你、
@@ -1187,14 +1377,19 @@
   - 15
 - print:
   - 黑暗空花
-  - 指的是什麼呢……？
+  - 你指的是什麼呢……？
 - wait:
   - 20
 - print:
   - 黑暗空花
-  - |2-
+  - |2
 
-    哪哪、
+- face:
+  - 104512
+  - 6
+- print:
+  - 黑暗空花
+  - 哪哪、
 - wait:
   - 10
 - print:
@@ -1210,10 +1405,10 @@
   - vo_adv_1191002_033
 - face:
   - 104512
-  - 1
+  - 2
 - print:
   - 黑暗空花
-  - 空花再怎麼享受
+  - 空花再怎麼想要享受
 - wait:
   - 15
 - print:
@@ -1230,7 +1425,7 @@
   - 30
 - print:
   - 黑暗空花
-  - 故意去被黑暗之力影響的！
+  - 故意去被黑暗力量影響的！
 - touch: *o0
 - focus:
   - 104512
@@ -1242,6 +1437,10 @@
 - face:
   - 104512
   - 1
+- nod:
+  - 104512
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 黑暗空花
   - 這個誤會太誇張了～！
@@ -1251,7 +1450,7 @@
   - 黑暗空花
   - |2-
 
-    你看看
+    請看看
 - wait:
   - 20
 - print:
@@ -1267,7 +1466,7 @@
   - vo_adv_1191002_035
 - face:
   - 104512
-  - 1
+  - 2
 - print:
   - 黑暗空花
   - 流口水……♪
@@ -1289,20 +1488,20 @@
   - vo_adv_1191002_036
 - face:
   - 104512
-  - 1
+  - 6
 - print:
   - 黑暗空花
-  - 空、
+  - 都、
 - wait:
   - 40
 - print:
   - 黑暗空花
-  - 空花都這樣了……
+  - 都這樣了……
 - wait:
   - 45
 - print:
   - 黑暗空花
-  - 你還、
+  - 你、
 - wait:
   - 30
 - print:
@@ -1318,12 +1517,14 @@
   - vo_adv_1191002_037
 - face:
   - 104512
-  - 1
+  - 4
 - print:
   - 黑暗空花
   - ……
 - wait:
   - 50
+- eye_open:
+  - False
 - print:
   - 黑暗空花
   - 對、
@@ -1336,9 +1537,13 @@
   - 45
 - print:
   - 黑暗空花
-  - |2-
+  - |2
 
-    空花
+- eye_open:
+  - True
+- print:
+  - 黑暗空花
+  - 空花
 - wait:
   - 30
 - print:
@@ -1358,7 +1563,7 @@
   - vo_adv_1191002_038
 - face:
   - 104512
-  - 1
+  - 2
 - print:
   - 黑暗空花
   - 啊啊！
@@ -1371,9 +1576,14 @@
   - 40
 - print:
   - 黑暗空花
-  - |2-
+  - |2
 
-    空花、
+- face:
+  - 104512
+  - 5
+- print:
+  - 黑暗空花
+  - 空花、
 - wait:
   - 15
 - print:
@@ -1387,15 +1597,20 @@
 - touch: *o0
 - tag:
   - 6
+- bgm:
+  - stop
+  - 4
+  - 1
 - window_visible:
   - false
 - effect_delete:
   - 0077
-  - 15
+  - 30
 - fadeout:
   - 104512
   - 30
-- amb_stop:
+- se_pause:
+  - amb_adv_town_day_01
   - 1
 - black_out:
   - 1
@@ -1405,7 +1620,7 @@
 - wait:
   - 30
 - black_in: *o0
-- amb:
+- se:
   - amb_adv_town_day_01
 - se:
   - se_adv_magical_transform_01
@@ -1416,12 +1631,18 @@
 - chara_full:
   - 119112
   - C
-  - 1
+  - 4
 - fadein:
   - 119112
-  - 30
+  - 1
 - window_visible:
   - true
+- bgm:
+  - bgm_M533_04
+  - 0
+  - 0
+  - 0
+  - 0.5
 - focus:
   - 119112
 - bust:
@@ -1431,12 +1652,16 @@
   - vo_adv_1191002_039
 - face:
   - 119112
-  - 1
+  - 4
 - print:
   - 黑暗空花
   - 那個……
 - wait:
   - 50
+- nod:
+  - 119112
+- se:
+  - se_adv_cloth_move_give_01
 - print:
   - 黑暗空花
   - 真的很抱歉。
@@ -1451,7 +1676,7 @@
   - 25
 - print:
   - 黑暗空花
-  - 這種玩法實在是太震撼了……
+  - 玩法實在是太動人了……
 - wait:
   - 65
 - print:
@@ -1469,10 +1694,10 @@
   - vo_adv_1191002_040
 - face:
   - 119112
-  - 1
+  - 2
 - print:
   - 黑暗空花
-  - 不斷妄想讓黑暗之力溢出，
+  - 不斷妄想讓黑暗力量溢出，
 - wait:
   - 60
 - print:
@@ -1495,7 +1720,7 @@
   - vo_adv_1191002_041
 - face:
   - 119112
-  - 1
+  - 4
 - print:
   - 黑暗空花
   - 可是，
@@ -1515,9 +1740,14 @@
   - 75
 - print:
   - 黑暗空花
-  - |2-
+  - |2
 
-    空花……
+- face:
+  - 119112
+  - 3
+- print:
+  - 黑暗空花
+  - 空花……
 - wait:
   - 15
 - print:
@@ -1533,7 +1763,11 @@
   - vo_adv_1191002_042
 - face:
   - 119112
-  - 1
+  - 3
+- nod:
+  - 119112
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 黑暗空花
   - 既然空花是正義的魔法少女，
@@ -1554,7 +1788,7 @@
   - vo_adv_1191002_043
 - face:
   - 119112
-  - 1
+  - 3
 - print:
   - 黑暗空花
   - 空花這次
@@ -1562,7 +1796,7 @@
   - 30
 - print:
   - 黑暗空花
-  - 肯定不會被黑暗之力影響了……！
+  - 肯定不會被黑暗力量影響了……！
 - wait:
   - 60
 - print:
@@ -1579,6 +1813,9 @@
     忍耐……
 - wait:
   - 40
+- face:
+  - 119112
+  - 2
 - print:
   - 黑暗空花
   - 忍耐……
@@ -1588,20 +1825,35 @@
   - 黑暗空花
   - 嘻嘻嘻……
 - touch: *o0
+- bgm:
+  - stop
+  - 2
 - window_visible:
   - false
+- effect:
+  - 0077
+- effect:
+  - 0042
 - se:
-  - se_adv_flash_01
+  - se_adv_magic_dark_aura_01
+- wait:
+  - 55
+- se:
+  - se_adv_magic_dark_large_01
 - white_out:
   - 1
   - 0.5
+- effect_delete:
+  - 0077
+- effect_delete:
+  - 0042
 - fadeout:
   - 119112
   - 1
 - chara_full:
   - 104512
   - C
-  - 1
+  - 6
 - fadein:
   - 104512
   - 1
@@ -1617,11 +1869,23 @@
   - vo_adv_1191002_044
 - face:
   - 104512
-  - 1
+  - 6
+- emotion:
+  - surprise1_L
+  - 104512
+  - 140
+  - 555
+  - se_adv_emote_common_01
 - print:
   - 黑暗空花
   - ……咦？
 - touch: *o0
+- bgm:
+  - bgm_M244
+  - 0
+  - 0
+  - 1
+  - 0.3
 - focus:
   - 104512
 - bust:
@@ -1631,7 +1895,7 @@
   - vo_adv_1191002_045
 - face:
   - 104512
-  - 1
+  - 6
 - print:
   - 黑暗空花
   - 又是
@@ -1639,7 +1903,7 @@
   - 15
 - print:
   - 黑暗空花
-  - 黑暗之力……？
+  - 黑暗力量……？
 - touch: *o0
 - focus:
   - 104512
@@ -1650,7 +1914,11 @@
   - vo_adv_1191002_046
 - face:
   - 104512
-  - 1
+  - 6
+- nod:
+  - 104512
+- se:
+  - se_adv_step_concrete_move_01
 - print:
   - 黑暗空花
   - 不、
@@ -1663,14 +1931,19 @@
   - 25
 - print:
   - 黑暗空花
-  - |2-
+  - |2
 
-    空花
+- face:
+  - 104512
+  - 4
+- print:
+  - 黑暗空花
+  - 空花
 - wait:
   - 10
 - print:
   - 黑暗空花
-  - 試著忍耐了……
+  - 有試著忍耐了……
 - touch: *o0
 - focus:
   - 104512
@@ -1681,7 +1954,7 @@
   - vo_adv_1191002_047
 - face:
   - 104512
-  - 1
+  - 4
 - print:
   - 黑暗空花
   - 對不起，
@@ -1704,6 +1977,9 @@
   - 激烈地對空花……
 - wait:
   - 20
+- face:
+  - 104512
+  - 6
 - print:
   - 黑暗空花
   - 不對，
@@ -1716,11 +1992,17 @@
     在空花耳邊
 - wait:
   - 30
+- face:
+  - 104512
+  - 3
 - print:
   - 黑暗空花
-  - 小聲地
+  - 低語
 - wait:
   - 40
+- face:
+  - 104512
+  - 6
 - print:
   - 黑暗空花
   - 「快給我恢復原狀」
@@ -1731,10 +2013,13 @@
   - 就行了……
 - touch: *o0
 - choice:
-  - 在空花耳邊低語
+  - 在空花耳邊低語。
   - 7
 - tag:
   - 7
+- effect:
+  - 0076
+  - se_adv_magic_cmn_medium_02
 - focus:
   - 104512
 - bust:
@@ -1744,7 +2029,13 @@
   - vo_adv_1191002_048
 - face:
   - 104512
-  - 1
+  - 5
+- emotion:
+  - heart1_R
+  - 104512
+  - 55
+  - 505
+  - se_adv_emote_heart_01
 - print:
   - 黑暗空花
   - 啊啊！
@@ -1762,16 +2053,18 @@
   - 0099
 - wait:
   - 55
+- effect_delete:
+  - 0076
 - fadeout:
   - 104512
   - 1
 - chara_full:
   - 119112
   - C
-  - 1
+  - 5
 - fadein:
   - 119112
-  - 30
+  - 1
 - window_visible:
   - true
 - focus:
@@ -1783,7 +2076,7 @@
   - vo_adv_1191002_049
 - face:
   - 119112
-  - 1
+  - 5
 - print:
   - 黑暗空花
   - 流、
@@ -1802,12 +2095,16 @@
   - vo_adv_1191002_050
 - face:
   - 119112
-  - 1
+  - 2
 - print:
   - 黑暗空花
   - 呼、
 - wait:
   - 15
+- nod:
+  - 119112
+- se:
+  - se_adv_cloth_move_normal_01
 - print:
   - 黑暗空花
   - 呼……
@@ -1832,9 +2129,14 @@
   - 30
 - print:
   - 黑暗空花
-  - |2-
+  - |2
 
-    嘻嘻嘻……
+- face:
+  - 119112
+  - 5
+- print:
+  - 黑暗空花
+  - 嘻嘻嘻……
 - wait:
   - 30
 - print:
@@ -1842,24 +2144,39 @@
   - 空花快喘不過氣了……
 - wait:
   - 40
+- face:
+  - 119112
+  - 6
 - print:
   - 黑暗空花
   - 呀啊！？
 - touch: *o0
 - window_visible:
   - false
+- effect:
+  - 0077
+- effect:
+  - 0042
 - se:
-  - se_adv_flash_01
+  - se_adv_magic_dark_aura_01
+- wait:
+  - 55
+- se:
+  - se_adv_magic_dark_large_01
 - white_out:
   - 1
   - 0.5
+- effect_delete:
+  - 0077
+- effect_delete:
+  - 0042
 - fadeout:
   - 119112
   - 1
 - chara_full:
   - 104512
   - C
-  - 1
+  - 6
 - fadein:
   - 104512
   - 1
@@ -1875,7 +2192,7 @@
   - vo_adv_1191002_051
 - face:
   - 104512
-  - 1
+  - 6
 - print:
   - 黑暗空花
   - 又、
@@ -1894,7 +2211,7 @@
   - vo_adv_1191002_052
 - face:
   - 104512
-  - 1
+  - 6
 - print:
   - 黑暗空花
   - 才只
@@ -1907,9 +2224,14 @@
   - 45
 - print:
   - 黑暗空花
-  - |2-
+  - |2
 
-    黑暗之力滲透的也太快了……！
+- face:
+  - 104512
+  - 4
+- print:
+  - 黑暗空花
+  - 黑暗力量滲透得也太快了……！
 - touch: *o0
 - focus:
   - 104512
@@ -1920,10 +2242,14 @@
   - vo_adv_1191002_053
 - face:
   - 104512
-  - 1
+  - 6
+- nod:
+  - 104512
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 黑暗空花
-  - 難道說空花
+  - 難道說空花，
 - wait:
   - 35
 - print:
@@ -1935,8 +2261,12 @@
   - 30
 - print:
   - 黑暗空花
-  - 結果開始習慣了……？
+  - 結果身體開始習慣了……？
 - touch: *o0
+- bgm:
+  - stop
+  - 6
+  - 1
 - focus:
   - 104512
 - bust:
@@ -1946,12 +2276,12 @@
   - vo_adv_1191002_054
 - face:
   - 104512
-  - 1
+  - 4
 - print:
   - 黑暗空花
   - 這下……
 - wait:
-  - 15
+  - 40
 - print:
   - 黑暗空花
   - 有點糟糕了……
@@ -1961,6 +2291,12 @@
   - 8
 - tag:
   - 8
+- bgm:
+  - bgm_M203
+  - 0
+  - 0
+  - 0
+  - 0
 - focus:
   - 104512
 - bust:
@@ -1970,11 +2306,21 @@
   - vo_adv_1191002_055
 - face:
   - 104512
-  - 1
+  - 4
 - print:
   - 黑暗空花
-  - |-
-    等一下……身為魔法少女，
+  - 等一下……
+- wait:
+  - 25
+- print:
+  - 黑暗空花
+  - 身為魔法少女，
+- wait:
+  - 30
+- print:
+  - 黑暗空花
+  - |2-
+
     空花有件事非做不可。
 - touch: *o0
 - focus:
@@ -1986,12 +2332,36 @@
   - vo_adv_1191002_056
 - face:
   - 104512
-  - 1
+  - 6
+- nod:
+  - 104512
+- se:
+  - se_adv_cloth_move_normal_01
 - print:
   - 黑暗空花
-  - |-
-    呃，並不是和敵人戰鬥之類的，
-    空花要去酒館跳舞。
+  - 呃，
+- wait:
+  - 50
+- print:
+  - 黑暗空花
+  - 並不是和敵人戰鬥之類的，
+- wait:
+  - 70
+- print:
+  - 黑暗空花
+  - |2
+
+- face:
+  - 104512
+  - 4
+- print:
+  - 黑暗空花
+  - 空花
+- wait:
+  - 20
+- print:
+  - 黑暗空花
+  - 要去酒館跳舞。
 - touch: *o0
 - focus:
   - 104512
@@ -2005,10 +2375,36 @@
   - 1
 - print:
   - 黑暗空花
-  - |-
-    空花變成魔法少女在城裡亂晃的時候，
+  - 空花變成魔法少女
+- wait:
+  - 30
+- print:
+  - 黑暗空花
+  - 在城裡亂晃的時候，
+- wait:
+  - 35
+- print:
+  - 黑暗空花
+  - |2-
+
     有人問空花要不要去工作……
-    結果忍不住就接下來了……！
+- wait:
+  - 55
+- print:
+  - 黑暗空花
+  - |2
+
+- face:
+  - 104512
+  - 6
+- print:
+  - 黑暗空花
+  - 結果
+- wait:
+  - 20
+- print:
+  - 黑暗空花
+  - 忍不住就接下來了……！
 - touch: *o0
 - focus:
   - 104512
@@ -2019,10 +2415,15 @@
   - vo_adv_1191002_058
 - face:
   - 104512
-  - 1
+  - 4
 - print:
   - 黑暗空花
-  - 空花現在這樣根本沒辦法跳舞吧……？
+  - 空花現在這樣
+- wait:
+  - 30
+- print:
+  - 黑暗空花
+  - 根本沒辦法跳舞吧……？
 - touch: *o0
 - focus:
   - 104512
@@ -2033,10 +2434,26 @@
   - vo_adv_1191002_059
 - face:
   - 104512
-  - 1
+  - 4
+- emotion:
+  - sweat2_R
+  - 104512
+  - 85
+  - 535
+  - se_adv_emote_sweat_02
 - print:
   - 黑暗空花
-  - 虐、虐待狂先生……空花該怎麼辦～～～！？
+  - 虐、
+- wait:
+  - 30
+- print:
+  - 黑暗空花
+  - 虐待狂先生……
+- wait:
+  - 40
+- print:
+  - 黑暗空花
+  - 空花該怎麼辦～～～！？
 - touch: *o0
 - choice:
   - 伸出援手。
@@ -2052,10 +2469,15 @@
   - vo_adv_1191002_060
 - face:
   - 104512
-  - 1
+  - 6
 - print:
   - 黑暗空花
-  - 咦？你要幫空花嗎……？
+  - 咦？
+- wait:
+  - 20
+- print:
+  - 黑暗空花
+  - 你要幫空花嗎……？
 - touch: *o0
 - focus:
   - 104512
@@ -2066,11 +2488,21 @@
   - vo_adv_1191002_061
 - face:
   - 104512
-  - 1
+  - 6
 - print:
   - 黑暗空花
-  - |-
-    當空花快要被黑暗之力影響的時候，
+  - 當空花
+- wait:
+  - 35
+- print:
+  - 黑暗空花
+  - 快要被黑暗力量影響的時候，
+- wait:
+  - 45
+- print:
+  - 黑暗空花
+  - |2-
+
     你會幫空花恢復正常嗎……！？
 - touch: *o0
 - focus:
@@ -2083,11 +2515,30 @@
 - face:
   - 104512
   - 1
+- nod:
+  - 104512
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 黑暗空花
-  - |-
-    謝謝你……！
-    這樣應該就有辦法跳舞了……！
+  - 謝、
+- wait:
+  - 15
+- print:
+  - 黑暗空花
+  - 謝謝你……！
+- wait:
+  - 30
+- print:
+  - 黑暗空花
+  - |2-
+
+    這樣
+- wait:
+  - 15
+- print:
+  - 黑暗空花
+  - 應該就有辦法跳舞了……！
 - touch: *o0
 - focus:
   - 104512
@@ -2101,10 +2552,39 @@
   - 1
 - print:
   - 黑暗空花
-  - |-
-    空花偶爾會在那座酒館跳舞……
-    看來有辦法報恩了……♪
+  - 空花
+- wait:
+  - 35
+- eye_open:
+  - False
+- print:
+  - 黑暗空花
+  - 偶爾
+- wait:
+  - 15
+- print:
+  - 黑暗空花
+  - 會在那座酒館跳舞……
+- wait:
+  - 45
+- print:
+  - 黑暗空花
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 黑暗空花
+  - 看來
+- wait:
+  - 15
+- print:
+  - 黑暗空花
+  - 有辦法報恩了……♪
 - touch: *o0
+- bgm:
+  - stop
+  - 2
 - window_visible:
   - false
 - fadeout:
@@ -2115,7 +2595,8 @@
 - transition:
   - 18
   - 0.5
-- amb_stop:
+- se_pause:
+  - amb_adv_town_day_01
   - 1
 - background:
   - 500050
@@ -2124,17 +2605,23 @@
 - se:
   - se_adv_transition_whoosh_small_in
 - transition_resume: *o0
-- amb:
+- se:
   - amb_adv_restaurant_01
 - chara_full:
   - 119111
   - C
-  - 1
+  - 3
 - fadein:
   - 119111
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M37
+  - 0
+  - 0
+  - 1
+  - 0.5
 - focus:
   - 119111
 - bust:
@@ -2144,12 +2631,26 @@
   - vo_adv_1191002_064
 - face:
   - 119111
-  - 1
+  - 3
+- nod:
+  - 119111
+- se:
+  - se_adv_step_concrete_move_01
 - print:
   - 黑暗空花
-  - |-
-    那麼虐待狂先生……！
-    空花先走了……！
+  - 那麼虐待狂先生……！
+- wait:
+  - 45
+- print:
+  - 黑暗空花
+  - |2-
+
+    空花
+- wait:
+  - 15
+- print:
+  - 黑暗空花
+  - 先走了……！
 - touch: *o0
 - focus:
   - 119111
@@ -2160,15 +2661,45 @@
   - vo_adv_1191002_065
 - face:
   - 119111
-  - 1
+  - 4
 - print:
   - 黑暗空花
-  - |-
-    要是你看到空花快要墮入黑暗，
-    請從觀眾席那邊想辦法阻止空花……！
+  - 要是你
+- wait:
+  - 35
+- print:
+  - 黑暗空花
+  - 看到空花快要墮入黑暗，
+- wait:
+  - 50
+- print:
+  - 黑暗空花
+  - |2
+
+- face:
+  - 119111
+  - 6
+- print:
+  - 黑暗空花
+  - 請從觀眾席那邊
+- wait:
+  - 30
+- print:
+  - 黑暗空花
+  - 想辦法阻止空花……！
 - touch: *o0
+- bgm:
+  - stop
+  - 2.3
+  - 1
 - window_visible:
   - false
+- se:
+  - se_adv_step_wood_walk_go_01
+- change:
+  - RC
+  - C
+  - 30
 - fadeout:
   - 119111
   - 30
@@ -2178,8 +2709,24 @@
   - 180
 - wait:
   - 15
+- chara_full:
+  - 1411
+  - RC
+  - 1
+- chara_full:
+  - 1511
+  - LC
+  - 1
+- fadein_all:
+  - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M316_Room
+  - 0
+  - 0
+  - 0
+  - 0.5
 - focus:
   - 0
 - bust:
@@ -2192,25 +2739,34 @@
   - 1
 - print:
   - 酒館店員
-  - |-
-    讓大家久等了！
-    今晚請到了特別來賓！
-    在城裡表現相當活躍的魔法少女來獻上表演！
-- touch: *o0
-- window_visible:
-  - false
-- chara_full:
-  - 1411
-  - LC
-  - 1
-- chara_full:
-  - 1511
-  - RC
-  - 1
-- fadein_all:
+  - 讓大家久等了！
+- wait:
+  - 35
+- print:
+  - 酒館店員
+  - |2-
+
+    今晚請到了
+- wait:
+  - 20
+- print:
+  - 酒館店員
+  - 特別來賓！
+- wait:
+  - 35
+- print:
+  - 酒館店員
+  - |2-
+
+    在城裡表現相當活躍的
+- wait:
   - 30
-- window_visible:
-  - true
+- print:
+  - 酒館店員
+  - 魔法少女來獻上表演！
+- touch: *o0
+- se:
+  - se_adv_applause_small_01
 - focus:
   - 1411
 - bust:
@@ -2220,11 +2776,20 @@
   - vo_adv_1191002_067
 - face:
   - 1411
-  - 1
+  - 2
+- nod:
+  - 1411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 男性客人
-  - |-
-    喔────！
+  - 喔────！
+- wait:
+  - 15
+- print:
+  - 男性客人
+  - |2-
+
     我等好久了！
 - touch: *o0
 - focus:
@@ -2239,9 +2804,24 @@
   - 1
 - print:
   - 女顧客
-  - |-
-    早就想看看了。
-    呵呵！好期待哦～♪
+  - 早就想看看了。
+- wait:
+  - 50
+- print:
+  - 女顧客
+  - |2
+
+- face:
+  - 1511
+  - 2
+- print:
+  - 女顧客
+  - 呵呵！
+- wait:
+  - 25
+- print:
+  - 女顧客
+  - 好期待哦～♪
 - touch: *o0
 - window_visible:
   - false
@@ -2282,9 +2862,28 @@
   - 1
 - print:
   - 黑暗空花
-  - |-
-    大、大家好……♪
-    請、請多多指教了……！
+  - 大、
+- wait:
+  - 20
+- nod:
+  - 119111
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 黑暗空花
+  - 大家好……♪
+- wait:
+  - 25
+- print:
+  - 黑暗空花
+  - |2-
+
+    請、
+- wait:
+  - 15
+- print:
+  - 黑暗空花
+  - 請多多指教了……！
 - touch: *o0
 - focus:
   - 1411
@@ -2295,11 +2894,21 @@
   - vo_adv_1191002_070
 - face:
   - 1411
-  - 1
+  - 2
 - print:
   - 男性客人
-  - |-
-    哦，那就是傳聞中的……
+  - 哦，
+- wait:
+  - 20
+- print:
+  - 男性客人
+  - 那就是傳聞中的……
+- wait:
+  - 35
+- print:
+  - 男性客人
+  - |2-
+
     愛與希望的魔法少女啊！
 - touch: *o0
 - focus:
@@ -2311,12 +2920,32 @@
   - vo_adv_1191002_071
 - face:
   - 1511
+  - 6
+- print:
+  - 女顧客
+  - 哎呀，
+- wait:
+  - 40
+- print:
+  - 女顧客
+  - 和傳聞中聽到的
+- wait:
+  - 40
+- print:
+  - 女顧客
+  - 好像不太一樣。
+- wait:
+  - 55
+- print:
+  - 女顧客
+  - |2
+
+- face:
+  - 1511
   - 1
 - print:
   - 女顧客
-  - |-
-    哎呀，和傳聞中聽到的好像不太一樣。
-    是新加入的嗎……？
+  - 是新加入的嗎……？
 - touch: *o0
 - focus:
   - 119111
@@ -2327,12 +2956,39 @@
   - vo_adv_1191002_072
 - face:
   - 119111
-  - 1
+  - 2
 - print:
   - 黑暗空花
-  - |-
-    啊、啊啊……！
-    所有人都在看空花……整座酒館的人，全都在注視著空花……！
+  - 啊、
+- wait:
+  - 20
+- print:
+  - 黑暗空花
+  - 啊啊
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 黑暗空花
+  - ……！
+- shake:
+  - 119111
+- wait:
+  - 15
+- print:
+  - 黑暗空花
+  - |2-
+
+    所有人都在看空花……
+- wait:
+  - 40
+- print:
+  - 黑暗空花
+  - 整座酒館的人，
+- wait:
+  - 30
+- print:
+  - 黑暗空花
+  - 全都在注視著空花……！
 - touch: *o0
 - focus:
   - 119111
@@ -2343,13 +2999,54 @@
   - vo_adv_1191002_073
 - face:
   - 119111
-  - 1
+  - 5
 - print:
   - 黑暗空花
-  - |-
-    嘻嘻嘻……要是空花把表演搞砸了，
-    一定會有一堆人大罵空花……流口水……
-    不可以……現在開始妄想的話，會變成黑暗被虐狂……！
+  - 嘻嘻嘻……
+- wait:
+  - 40
+- print:
+  - 黑暗空花
+  - 要是空花把表演搞砸了，
+- wait:
+  - 35
+- print:
+  - 黑暗空花
+  - |2-
+
+    一定會有一堆人大罵空花……
+- wait:
+  - 70
+- print:
+  - 黑暗空花
+  - 流口水……
+- wait:
+  - 35
+- print:
+  - 黑暗空花
+  - |2
+
+- face:
+  - 119111
+  - 6
+- print:
+  - 黑暗空花
+  - 啊，
+- wait:
+  - 15
+- print:
+  - 黑暗空花
+  - 不可以……
+- wait:
+  - 15
+- print:
+  - 黑暗空花
+  - 開始妄想的話，
+- wait:
+  - 20
+- print:
+  - 黑暗空花
+  - 會變成黑暗被虐狂的……！
 - touch: *o0
 - effect:
   - 0077
@@ -2362,10 +3059,20 @@
   - vo_adv_1191002_074
 - face:
   - 119111
-  - 1
+  - 5
 - print:
   - 黑暗空花
-  - 可是可是，妄想不斷冒出來……
+  - 可是，
+- wait:
+  - 30
+- print:
+  - 黑暗空花
+  - 可是，
+- wait:
+  - 30
+- print:
+  - 黑暗空花
+  - 妄想不斷冒出來……
 - touch: *o0
 - choice:
   - 加油啊！
@@ -2384,13 +3091,32 @@
   - vo_adv_1191002_075
 - face:
   - 119111
-  - 1
+  - 6
+- emotion:
+  - exclamation1_R
+  - 119111
+  - 40
+  - 605
+  - se_adv_emote_common_01
 - print:
   - 黑暗空花
-  - |-
-    啊！？
-    這聲音是……虐待狂先生……！
+  - 啊！？
+- wait:
+  - 30
+- print:
+  - 黑暗空花
+  - |2-
+
+    這聲音是……
+- wait:
+  - 40
+- print:
+  - 黑暗空花
+  - 虐待狂先生……！
 - touch: *o0
+- bgm:
+  - stop
+  - 9.6
 - focus:
   - 119111
 - bust:
@@ -2403,10 +3129,31 @@
   - 1
 - print:
   - 黑暗空花
-  - |-
-    你真的來看空花了……！
-    謝謝你……妄想總算停下來了……！
+  - 你真的
+- wait:
+  - 25
+- print:
+  - 黑暗空花
+  - 來看空花了……！
+- wait:
+  - 45
+- print:
+  - 黑暗空花
+  - |2-
+
+    謝謝你……
+- wait:
+  - 30
+- print:
+  - 黑暗空花
+  - 妄想總算停下來了……！
 - touch: *o0
+- bgm:
+  - bgm_M430
+  - 0
+  - 0
+  - 1
+  - 0.5
 - focus:
   - 119111
 - bust:
@@ -2417,9 +3164,18 @@
 - face:
   - 119111
   - 1
+- nod:
+  - 119111
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
 - print:
   - 黑暗空花
-  - 那麼請讓空花獻上一支舞……！
+  - 那麼
+- wait:
+  - 45
+- print:
+  - 黑暗空花
+  - 請讓空花獻上一支舞……！
 - touch: *o0
 - window_visible:
   - false
@@ -2433,11 +3189,11 @@
   - 15
 - chara_full:
   - 1411
-  - LC
-  - 1
+  - RC
+  - 2
 - chara_full:
   - 1511
-  - RC
+  - LC
   - 1
 - fadein_all:
   - 30
@@ -2452,12 +3208,27 @@
   - vo_adv_1191002_078
 - face:
   - 1411
-  - 1
+  - 2
 - print:
   - 男性客人
-  - |-
-    喔，這還真是不錯……！
-    看起來有點生疏，不過完全沒辦法把視線移開……！
+  - 喔，
+- wait:
+  - 20
+- print:
+  - 男性客人
+  - 這還真是不錯……！
+- wait:
+  - 40
+- print:
+  - 男性客人
+  - |2-
+
+    看起來有點生疏，
+- wait:
+  - 30
+- print:
+  - 男性客人
+  - 不過完全沒辦法把視線移開……！
 - touch: *o0
 - focus:
   - 1511
@@ -2471,10 +3242,26 @@
   - 1
 - print:
   - 女顧客
-  - |-
-    從衣服散發的微光，
+  - 從衣服散發的微光，
+- wait:
+  - 75
+- print:
+  - 女顧客
+  - |2-
+
     是魔法少女的力量所產生的嗎？
-    好溫暖……！
+- wait:
+  - 75
+- print:
+  - 女顧客
+  - |2
+
+- face:
+  - 1511
+  - 2
+- print:
+  - 女顧客
+  - 好溫暖……！
 - touch: *o0
 - window_visible:
   - false
@@ -2514,9 +3301,25 @@
   - 1
 - print:
   - 黑暗空花
-  - |-
-    跳、跳得很流暢……！
+  - 跳、
+- wait:
+  - 20
+- print:
+  - 黑暗空花
+  - 跳得很流暢……！
+- wait:
+  - 40
+- print:
+  - 黑暗空花
+  - |2-
+
     不知道是不是變成魔法少女的關係，
+- wait:
+  - 65
+- print:
+  - 黑暗空花
+  - |2-
+
     身體的動作非常自然……！　
 - touch: *o0
 - window_visible:
@@ -2542,8 +3345,13 @@
   - 1
 - print:
   - 客人們
-  - |-
-    讚喔──！
+  - 讚喔──！
+- wait:
+  - 25
+- print:
+  - 客人們
+  - |2-
+
     魔法少女────！
 - touch: *o0
 - window_visible:
@@ -2555,6 +3363,8 @@
   - 2
 - vo_effect:
   - 3
+- effect:
+  - 0077
 - window_visible:
   - true
 - focus:
@@ -2566,12 +3376,42 @@
   - vo_adv_1191002_082
 - face:
   - 119111
-  - 1
+  - 2
 - print:
   - 黑暗空花
-  - |-
-    呵呵，歡呼聲聽起來真悅耳……！
-    感覺好舒服……流口水……
+  - 呵呵，
+- wait:
+  - 40
+- print:
+  - 黑暗空花
+  - 歡呼聲
+- wait:
+  - 25
+- print:
+  - 黑暗空花
+  - 聽起來真悅耳……！
+- wait:
+  - 50
+- print:
+  - 黑暗空花
+  - |2
+
+- face:
+  - 119111
+  - 5
+- print:
+  - 黑暗空花
+  - 感覺
+- wait:
+  - 35
+- print:
+  - 黑暗空花
+  - 好舒服……
+- wait:
+  - 45
+- print:
+  - 黑暗空花
+  - 流口水……
 - touch: *o0
 - window_visible:
   - false
@@ -2582,8 +3422,6 @@
   - 1
 - vo_effect:
   - 0
-- effect:
-  - 0077
 - window_visible:
   - true
 - choice:
@@ -2603,12 +3441,33 @@
   - vo_adv_1191002_083
 - face:
   - 119111
-  - 1
+  - 6
+- emotion:
+  - surprise1_L
+  - 119111
+  - 195
+  - 505
+  - se_adv_emote_common_01
 - print:
   - 黑暗空花
-  - |-
-    啊！？
-    好、好危險……一不留神慾望又……！
+  - 啊！？
+- wait:
+  - 10
+- print:
+  - 黑暗空花
+  - |2-
+
+    好、
+- wait:
+  - 20
+- print:
+  - 黑暗空花
+  - 好危險……
+- wait:
+  - 25
+- print:
+  - 黑暗空花
+  - 一不留神慾望又……！
 - touch: *o0
 - focus:
   - 1411
@@ -2619,10 +3478,15 @@
   - vo_adv_1191002_084
 - face:
   - 1411
-  - 1
+  - 6
 - print:
   - 男性客人
-  - 有個傢伙似乎特別努力為她加油耶……
+  - 有個人
+- wait:
+  - 25
+- print:
+  - 男性客人
+  - 似乎特別努力為她加油耶……
 - touch: *o0
 - focus:
   - 1511
@@ -2633,11 +3497,21 @@
   - vo_adv_1191002_085
 - face:
   - 1511
-  - 1
+  - 6
 - print:
   - 女顧客
-  - |-
-    努力……看起來更像著急吧？
+  - 努力……
+- wait:
+  - 60
+- print:
+  - 女顧客
+  - 看起來更像著急吧？
+- wait:
+  - 40
+- print:
+  - 女顧客
+  - |2-
+
     為什麼要那麼拚命呢……？
 - touch: *o0
 - window_visible:
@@ -2663,10 +3537,29 @@
   - 1
 - print:
   - 黑暗空花
-  - |-
-    謝謝你，虐待狂先生……！
-    請繼續為空花加油，別讓空花被慾望控制～！　
+  - 謝謝你，
+- wait:
+  - 20
+- print:
+  - 黑暗空花
+  - 虐待狂先生……！
+- wait:
+  - 25
+- print:
+  - 黑暗空花
+  - |2-
+
+    請繼續
+- wait:
+  - 20
+- print:
+  - 黑暗空花
+  - 為空花加油，別讓空花被慾望控制～！　
 - touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 1
 - window_visible:
   - false
 - bright_change:
@@ -2679,7 +3572,8 @@
 - fadeout:
   - 119111
   - 30
-- amb_stop:
+- se_pause:
+  - amb_adv_restaurant_01
   - 1
 - black_out:
   - 1
@@ -2689,8 +3583,8 @@
 - wait:
   - 30
 - black_in: *o0
-- amb:
-  - amb_adv_town_day_01
+- se:
+  - amb_adv_restaurant_01
 - chara_full:
   - 119111
   - C
@@ -2700,6 +3594,12 @@
   - 30
 - window_visible:
   - true
+- bgm:
+  - bgm_M33
+  - 0
+  - 0
+  - 0
+  - 0.5
 - focus:
   - 119111
 - bust:
@@ -2710,11 +3610,27 @@
 - face:
   - 119111
   - 1
+- emotion:
+  - twinkle1_R
+  - 119111
+  - -85
+  - 475
+  - se_adv_emote_twinkle_01
 - print:
   - 黑暗空花
-  - |-
-    成功了……！
-    空花保持住魔法少女的狀態跳完整支舞了……！
+  - 成功了……！
+- wait:
+  - 35
+- print:
+  - 黑暗空花
+  - |2-
+
+    空花
+- wait:
+  - 15
+- print:
+  - 黑暗空花
+  - 保持住魔法少女的狀態跳完整支舞了……！
 - touch: *o0
 - focus:
   - 119111
@@ -2728,8 +3644,13 @@
   - 1
 - print:
   - 黑暗空花
-  - |-
-    這都是虐待狂先生的功勞……！
+  - 這都是虐待狂先生的功勞……！
+- wait:
+  - 35
+- print:
+  - 黑暗空花
+  - |2-
+
     真的很謝謝你……！
 - touch: *o0
 - choice:
@@ -2746,12 +3667,37 @@
   - vo_adv_1191002_089
 - face:
   - 119111
-  - 1
+  - 6
 - print:
   - 黑暗空花
-  - |-
-    沒沒、沒有這回事！
-    空花老是輸給慾望，給別人添了很多麻煩……！
+  - 沒沒、
+- wait:
+  - 20
+- print:
+  - 黑暗空花
+  - 沒有這回事！
+- wait:
+  - 35
+- print:
+  - 黑暗空花
+  - |2
+
+- face:
+  - 119111
+  - 4
+- print:
+  - 黑暗空花
+  - 空花
+- wait:
+  - 15
+- print:
+  - 黑暗空花
+  - 老是輸給慾望，
+- wait:
+  - 40
+- print:
+  - 黑暗空花
+  - 給別人添了很多麻煩……！
 - touch: *o0
 - focus:
   - 119111
@@ -2762,12 +3708,28 @@
   - vo_adv_1191002_090
 - face:
   - 119111
-  - 1
+  - 6
+- emotion:
+  - question1_R
+  - 119111
+  - 145
+  - 475
+  - se_adv_emote_question_01
 - print:
   - 黑暗空花
-  - |-
-    咦？
-    ……你要空花看看四周？
+  - 咦？
+- wait:
+  - 35
+- print:
+  - 黑暗空花
+  - |2-
+
+    ……你要
+- wait:
+  - 35
+- print:
+  - 黑暗空花
+  - 空花看看四周？
 - touch: *o0
 - window_visible:
   - false
@@ -2781,16 +3743,18 @@
   - 15
 - chara_full:
   - 1411
-  - LC
-  - 1
+  - RC
+  - 2
 - chara_full:
   - 1511
-  - RC
-  - 1
+  - LC
+  - 2
 - fadein_all:
   - 30
 - window_visible:
   - true
+- se:
+  - se_adv_applause_small_01
 - focus:
   - 1411
 - bust:
@@ -2800,11 +3764,16 @@
   - vo_adv_1191002_091
 - face:
   - 1411
-  - 1
+  - 2
 - print:
   - 男性客人
-  - |-
-    魔法少女妹妹！
+  - 魔法少女小姐！
+- wait:
+  - 35
+- print:
+  - 男性客人
+  - |2-
+
     拜託妳再跳一支舞吧！
 - touch: *o0
 - focus:
@@ -2816,10 +3785,15 @@
   - vo_adv_1191002_092
 - face:
   - 1511
-  - 1
+  - 2
 - print:
   - 女顧客
-  - 妳剛剛跳得太棒了──！
+  - 妳剛剛
+- wait:
+  - 30
+- print:
+  - 女顧客
+  - 跳得太棒了──！
 - touch: *o0
 - window_visible:
   - false
@@ -2834,7 +3808,7 @@
 - chara_full:
   - 119111
   - C
-  - 1
+  - 6
 - fadein:
   - 119111
   - 30
@@ -2849,7 +3823,7 @@
   - vo_adv_1191002_093
 - face:
   - 119111
-  - 1
+  - 6
 - print:
   - 黑暗空花
   - 啊……
@@ -2866,7 +3840,12 @@
   - 1
 - print:
   - 黑暗空花
-  - 原來……還有人享受空花的表演。
+  - 原來……
+- wait:
+  - 40
+- print:
+  - 黑暗空花
+  - 還有人享受空花的表演。
 - touch: *o0
 - focus:
   - 119111
@@ -2880,9 +3859,28 @@
   - 1
 - print:
   - 黑暗空花
-  - |-
-    虐待狂先生……謝謝你。
-    空花再去跳一支舞……！
+  - 虐待狂先生……
+- wait:
+  - 35
+- nod:
+  - 119111
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 黑暗空花
+  - 謝謝你。
+- wait:
+  - 50
+- print:
+  - 黑暗空花
+  - |2-
+
+    空花
+- wait:
+  - 15
+- print:
+  - 黑暗空花
+  - 再去跳一支舞……！
 - touch: *o0
 - focus:
   - 119111
@@ -2894,9 +3892,20 @@
 - face:
   - 119111
   - 1
+- emotion:
+  - note1_L
+  - 119111
+  - -70
+  - 490
+  - se_adv_emote_note_01
 - print:
   - 黑暗空花
-  - 感覺現在跳舞，能為人帶來更多的快樂……！
+  - 感覺現在跳舞，
+- wait:
+  - 35
+- print:
+  - 黑暗空花
+  - 能為人帶來更多的快樂……！
 - touch: *o0
 - window_visible:
   - false
@@ -2918,10 +3927,23 @@
   - 1
 - print:
   - 旁白
-  - |-
-    空花壓抑住自己的黑暗之力，為人們帶來快樂。
+  - 空花壓抑住自己的黑暗力量，為人們帶來快樂。
+- wait:
+  - 15
+- print:
+  - 旁白
+  - |2-
+
     帶著自信的表情走向舞台，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - |2-
+
     空花的背影現在無比耀眼。
+- wait:
+  - 15
 - touch: *o0
 - window_visible:
   - false
@@ -2929,15 +3951,20 @@
   - -170
   - 0
   - 30
+- effect:
+  - 0077
 - chara_full:
   - 104512
   - C
-  - 1
+  - 5
 - fadein:
   - 104512
   - 30
 - window_visible:
   - true
+- bgm:
+  - stop
+  - 12.5
 - focus:
   - 104512
 - bust:
@@ -2947,12 +3974,40 @@
   - vo_adv_1191002_097
 - face:
   - 104512
-  - 1
+  - 5
 - print:
   - 黑暗空花
-  - |-
-    好了，空花要跳得更火熱更激烈了哦～～～～～！
-    嘻嘻嘻……嘻嘻嘻……啊！
+  - 好了，
+- wait:
+  - 40
+- print:
+  - 黑暗空花
+  - 空花要跳得
+- wait:
+  - 25
+- print:
+  - 黑暗空花
+  - 更火熱更激烈了哦～～～～～！
+- wait:
+  - 55
+- print:
+  - 黑暗空花
+  - |2-
+
+    嘻嘻嘻……
+- wait:
+  - 25
+- print:
+  - 黑暗空花
+  - 嘻嘻……
+- wait:
+  - 40
+- face:
+  - 104512
+  - 6
+- print:
+  - 黑暗空花
+  - 啊。
 - touch: *o0
 - focus:
   - 0
@@ -2968,6 +4023,12 @@
   - 客人們
   - 咦？
 - touch: *o0
+- bgm:
+  - bgm_M192
+  - 0
+  - 0
+  - 1
+  - 0.5
 - focus:
   - 104512
 - bust:
@@ -2977,12 +4038,36 @@
   - vo_adv_1191002_099
 - face:
   - 104512
-  - 1
+  - 2
+- emotion:
+  - heart1_R
+  - 104512
+  - 55
+  - 505
+  - se_adv_emote_heart_01
 - print:
   - 黑暗空花
-  - |-
-    嘻嘻嘻……流口水。
-    來，大家也全都變成被虐狂，一起狂歡吧～～～～～♪
+  - 嘻嘻嘻……
+- wait:
+  - 60
+- print:
+  - 黑暗空花
+  - 流口水。
+- wait:
+  - 50
+- print:
+  - 黑暗空花
+  - |2-
+
+    來，各位也一起，
+- wait:
+  - 60
+- face:
+  - 104512
+  - 5
+- print:
+  - 黑暗空花
+  - 變成被虐狂狂歡吧～～～～～♪
 - touch: *o0
 - focus:
   - 0
@@ -3000,10 +4085,18 @@
 - touch: *o0
 - window_visible:
   - false
+- effect_delete:
+  - 0077
+  - 30
 - fadeout:
   - 104512
   - 30
-- amb_stop:
+- bgm:
+  - stop
+  - 1
+  - 1
+- se_pause:
+  - amb_adv_restaurant_01
   - 1
 - black_out:
   - 1
