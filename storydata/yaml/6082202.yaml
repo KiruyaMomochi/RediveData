@@ -1,0 +1,293 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 501193
+- amb:
+  - amb_adv_seaside_03
+- ui_visible:
+  - FALSE
+- situation:
+  - 漁の道具
+- chara_full:
+  - 105913
+  - C
+  - 1
+- fadein:
+  - 105913
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M436_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_6056202_000
+- face:
+  - 105913
+  - 1
+- print:
+  - コッコロ
+  - 漁のために
+- wait:
+  - 30
+- print:
+  - コッコロ
+  - 道具の手入れをお手伝いしていたのですが、
+- wait:
+  - 75
+- print:
+  - コッコロ
+  - |2-
+
+    本当に
+- wait:
+  - 30
+- print:
+  - コッコロ
+  - 色々な種類のものがあるようです。
+- wait:
+  - 60
+- print:
+  - コッコロ
+  - |2
+
+- face:
+  - 105913
+  - 6
+- print:
+  - コッコロ
+  - 様々な知識で作り上げられた数々……
+- wait:
+  - 65
+- face:
+  - 105913
+  - 2
+- print:
+  - コッコロ
+  - 感服でございます。
+- touch: &o0 []
+- choice:
+  - どれもボロボロだね。
+  - 1
+  - 1
+- choice:
+  - この箱に入っているものはなに？
+  - 2
+  - 2
+- choice:
+  - こっちの道具が壊れてるみたい。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_6056202_001
+- face:
+  - 105913
+  - 1
+- print:
+  - コッコロ
+  - 年季が入っている……
+- wait:
+  - 55
+- print:
+  - コッコロ
+  - ということでございましょう。
+- wait:
+  - 55
+- print:
+  - コッコロ
+  - |2-
+
+    このボロボロ具合も、
+- wait:
+  - 40
+- eye_open:
+  - False
+- print:
+  - コッコロ
+  - これまで行ってきた漁のあかし……
+- wait:
+  - 100
+- print:
+  - コッコロ
+  - |2
+
+- eye_open:
+  - True
+- face:
+  - 105913
+  - 2
+- print:
+  - コッコロ
+  - ふふ、
+- wait:
+  - 35
+- print:
+  - コッコロ
+  - 労いも込めて
+- wait:
+  - 35
+- print:
+  - コッコロ
+  - 精一杯お手入れをいたしましょう。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_6056202_002
+- face:
+  - 105913
+  - 6
+- emotion:
+  - exclamation1_R
+  - 105913
+  - 25
+  - 600
+  - se_adv_emote_common_01
+- print:
+  - コッコロ
+  - あっ……
+- wait:
+  - 15
+- print:
+  - コッコロ
+  - い、
+- wait:
+  - 15
+- print:
+  - コッコロ
+  - いけません、主さま！
+- wait:
+  - 35
+- print:
+  - コッコロ
+  - |2-
+
+    そちらの道具は
+- wait:
+  - 25
+- print:
+  - コッコロ
+  - さわると大きな音が鳴って――
+- wait:
+  - 45
+- face:
+  - 105913
+  - 4
+- se:
+  - se_adv_explosion_small_01
+- print:
+  - コッコロ
+  - ひゃあっ！？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_6056202_003
+- face:
+  - 105913
+  - 6
+- print:
+  - コッコロ
+  - おっと……
+- wait:
+  - 45
+- face:
+  - 105913
+  - 2
+- print:
+  - コッコロ
+  - ありがとうございます、
+- wait:
+  - 20
+- print:
+  - コッコロ
+  - 主さま。
+- wait:
+  - 45
+- print:
+  - コッコロ
+  - |2
+
+- face:
+  - 105913
+  - 1
+- print:
+  - コッコロ
+  - こちら、
+- wait:
+  - 20
+- print:
+  - コッコロ
+  - カズマサさまに
+- wait:
+  - 25
+- print:
+  - コッコロ
+  - あとで報告いたしましょう。
+- wait:
+  - 55
+- print:
+  - コッコロ
+  - |2
+
+- face:
+  - 105913
+  - 2
+- print:
+  - コッコロ
+  - 万全な状態で漁にのぞめば、
+- wait:
+  - 45
+- print:
+  - コッコロ
+  - きっとうまくいくはずですから。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 105913
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

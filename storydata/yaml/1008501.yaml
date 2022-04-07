@@ -1,0 +1,5206 @@
+- title:
+  - いつもの、笑顔の食卓
+- outline:
+  - いつものように魔物討伐へ出かける【美食殿】の面々。魔物との激しい戦いの最中、コッコロは自身の力に小さな違和感を感じるものの、その後のみんなで囲む食卓は賑やかで、笑顔に満ちあふれているのだった。
+- background:
+  - 500361
+- amb:
+  - amb_adv_room_noise_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - いつもの、笑顔の食卓
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - とある日の、いつもの朝。
+- wait:
+  - 30
+- print:
+  - ナレーション
+  - |2-
+
+    【美食殿】のギルドハウスから、賑やかな声が響いていた。
+- wait:
+  - 15
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 105812
+  - LC
+  - 1
+- chara_full:
+  - 106012
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M443
+  - 0
+  - 0
+  - 1
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5058000_000
+- face:
+  - 106012
+  - 4
+- emotion:
+  - gloomy1_R
+  - 106012
+  - 40
+  - 520
+  - se_adv_emote_gloomy_01
+- print:
+  - キャル
+  - ちょっとペコリーヌ～
+- wait:
+  - 45
+- print:
+  - キャル
+  - |2-
+
+    朝ごはんまだなの？　
+- wait:
+  - 45
+- print:
+  - キャル
+  - お腹空いたんだけどー
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5058000_001
+- face:
+  - 105812
+  - 2
+- print:
+  - ペコリーヌ
+  - もう少し待っててくださいねキャルちゃん。
+- wait:
+  - 40
+- print:
+  - ペコリーヌ
+  - |2
+
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - 今朝はいつもより手の込んだ朝ごはんを作ってみようと思ってるんです☆
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5058000_002
+- face:
+  - 106012
+  - 4
+- print:
+  - キャル
+  - なんでもいいけど早くしてよね～
+- wait:
+  - 65
+- print:
+  - キャル
+  - |2-
+
+    朝ごはん食べないと
+- wait:
+  - 25
+- print:
+  - キャル
+  - 一日の始まりって気がしないのよ。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106012
+  - 30
+- chara_full:
+  - 105913
+  - RC
+  - 6
+- se:
+  - se_adv_step_wood_move_01
+- fadein:
+  - 105913
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5058000_003
+- face:
+  - 105913
+  - 6
+- print:
+  - コッコロ
+  - ペコリーヌさま。
+- wait:
+  - 30
+- print:
+  - コッコロ
+  - |2-
+
+    わたくしにお手伝いできることは
+- wait:
+  - 35
+- print:
+  - コッコロ
+  - ございますか？
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5058000_004
+- face:
+  - 105812
+  - 2
+- print:
+  - ペコリーヌ
+  - ありがとうございます、
+- wait:
+  - 10
+- print:
+  - ペコリーヌ
+  - コッコロちゃん♪
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - |2
+
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - じゃあ、
+- wait:
+  - 15
+- print:
+  - ペコリーヌ
+  - ソース作りをお任せしてもいいですか？
+- wait:
+  - 45
+- print:
+  - ペコリーヌ
+  - |2-
+
+    そこに材料はそろえてあるので、
+- wait:
+  - 35
+- print:
+  - ペコリーヌ
+  - 全部まぜちゃってください☆
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5058000_005
+- face:
+  - 105913
+  - 2
+- print:
+  - コッコロ
+  - 分かりました、
+- wait:
+  - 25
+- print:
+  - コッコロ
+  - お任せくださいまし。
+- touch: *o0
+- choice:
+  - 僕も手伝う。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5058000_006
+- face:
+  - 105812
+  - 1
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - ペコリーヌ
+  - わぁっ、
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - '{0}くんも手伝ってくれるんですか？'
+- wait:
+  - 25
+- print:
+  - ペコリーヌ
+  - |2
+
+- face:
+  - 105812
+  - 2
+- print:
+  - ペコリーヌ
+  - ありがとうございます……☆
+- wait:
+  - 35
+- print:
+  - ペコリーヌ
+  - |2
+
+- face:
+  - 105812
+  - 6
+- print:
+  - ペコリーヌ
+  - えっと、
+- wait:
+  - 45
+- print:
+  - ペコリーヌ
+  - でも
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - 他の準備は大体終わっちゃってるんですよね……
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5058000_007
+- face:
+  - 105913
+  - 2
+- nod:
+  - 105913
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - コッコロ
+  - では主さま、
+- wait:
+  - 35
+- print:
+  - コッコロ
+  - わたくしと一緒に
+- wait:
+  - 25
+- print:
+  - コッコロ
+  - ソース作りをいたしましょう。
+- wait:
+  - 50
+- print:
+  - コッコロ
+  - |2-
+
+    器に入れた材料を
+- wait:
+  - 35
+- print:
+  - コッコロ
+  - かきまぜていただけますか？
+- touch: *o0
+- choice:
+  - うん！
+  - 2
+- tag:
+  - 2
+- se:
+  - se_adv_cooking_bowl_mix_01
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105812
+  - L
+  - 1
+- chara_full:
+  - 105913
+  - C
+  - 2
+- chara_full:
+  - 106012
+  - R
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5058000_008
+- face:
+  - 106012
+  - 6
+- print:
+  - キャル
+  - …………
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5058000_009
+- face:
+  - 105812
+  - 2
+- emotion:
+  - note1_L
+  - 105812
+  - -85
+  - 530
+  - se_adv_emote_note_01
+- print:
+  - ペコリーヌ
+  - えへへ、
+- wait:
+  - 30
+- print:
+  - ペコリーヌ
+  - 朝から一緒にお料理なんて、
+- wait:
+  - 45
+- print:
+  - ペコリーヌ
+  - |2-
+
+    楽しい一日になりそうですね☆
+- touch: *o0
+- face:
+  - 105812
+  - 1
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5058000_010
+- face:
+  - 105913
+  - 2
+- nod:
+  - 105913
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - コッコロ
+  - はい。
+- wait:
+  - 25
+- print:
+  - コッコロ
+  - みんなで作った朝食はきっと、
+- wait:
+  - 60
+- print:
+  - コッコロ
+  - |2-
+
+    格別の味に違いありません。
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5058000_011
+- face:
+  - 106012
+  - 4
+- print:
+  - キャル
+  - ……………………わよ。
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5058000_012
+- face:
+  - 105913
+  - 6
+- emotion:
+  - question1_R
+  - 105913
+  - 120
+  - 465
+  - se_adv_emote_question_01
+- print:
+  - コッコロ
+  - ？　
+- wait:
+  - 40
+- print:
+  - コッコロ
+  - 何か仰いましたか、
+- wait:
+  - 40
+- print:
+  - コッコロ
+  - キャルさま？
+- wait:
+  - 35
+- print:
+  - コッコロ
+  - |2
+
+- face:
+  - 105913
+  - 2
+- print:
+  - コッコロ
+  - 朝ごはんなら、
+- wait:
+  - 30
+- print:
+  - コッコロ
+  - もう少しだけお待ちくださいね。
+- wait:
+  - 40
+- print:
+  - コッコロ
+  - |2-
+
+    間もなく──
+- touch: *o0
+- face:
+  - 105812
+  - 6
+- face:
+  - 105913
+  - 6
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5058000_013
+- face:
+  - 106012
+  - 3
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 106012
+- print:
+  - キャル
+  - あたしも手伝うって言ったの！
+- wait:
+  - 55
+- print:
+  - キャル
+  - |2-
+
+    これじゃあたしだけただ飯喰らいのごく潰しじゃない！
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5058000_014
+- face:
+  - 105812
+  - 6
+- print:
+  - ペコリーヌ
+  - いいえ、
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - キャルちゃんはただ飯喰らいのごく潰しなんかじゃありません！
+- wait:
+  - 40
+- print:
+  - ペコリーヌ
+  - |2
+
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - 作ったごはんをおいしく食べてくれるだけで、
+- wait:
+  - 35
+- print:
+  - ペコリーヌ
+  - |2
+
+- face:
+  - 105812
+  - 2
+- print:
+  - ペコリーヌ
+  - わたしはとってもうれしいです……☆
+- touch: *o0
+- face:
+  - 105812
+  - 1
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5058000_015
+- face:
+  - 105913
+  - 2
+- nod:
+  - 105913
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - コッコロ
+  - その通りでございます。
+- wait:
+  - 40
+- print:
+  - コッコロ
+  - |2-
+
+    キャルさまが
+- wait:
+  - 25
+- print:
+  - コッコロ
+  - わたくしたちのごはんで
+- wait:
+  - 30
+- print:
+  - コッコロ
+  - |2-
+
+    お腹いっぱいになっていただけるだけで、
+- wait:
+  - 45
+- print:
+  - コッコロ
+  - 感無量でございます……♪
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5058000_016
+- face:
+  - 106012
+  - 6
+- emotion:
+  - exclamation1_R
+  - 106012
+  - 10
+  - 635
+  - se_adv_emote_common_01
+- print:
+  - キャル
+  - やめなさいよ！
+- wait:
+  - 20
+- print:
+  - キャル
+  - |2-
+
+    あたしを甘やかすのをやめなさいよーっ！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_door_open_01
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- fadeout_all:
+  - 30
+- chara_full:
+  - 190811
+  - LC
+  - 1
+- se:
+  - se_adv_step_wood_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 190811
+  - 45
+- window_visible:
+  - true
+- bgm:
+  - bgm_M31
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_5058000_017
+- face:
+  - 190811
+  - 1
+- print:
+  - カリン
+  - ──おはようございます、
+- wait:
+  - 10
+- print:
+  - カリン
+  - 【美食殿】の皆さん。
+- wait:
+  - 35
+- print:
+  - カリン
+  - |2
+
+- face:
+  - 190811
+  - 2
+- print:
+  - カリン
+  - ふふ、
+- wait:
+  - 25
+- print:
+  - カリン
+  - 朝から賑やかですね。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 190811
+  - 30
+- chara_full:
+  - 105812
+  - LC
+  - 1
+- chara_full:
+  - 106012
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5058000_018
+- face:
+  - 106012
+  - 4
+- print:
+  - キャル
+  - げっ……
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5058000_019
+- face:
+  - 105812
+  - 1
+- emotion:
+  - notice1_L
+  - 105812
+  - -75
+  - 535
+  - se_adv_emote_common_01
+- print:
+  - ペコリーヌ
+  - あっ！　
+- wait:
+  - 15
+- print:
+  - ペコリーヌ
+  - カリンさんもいかがですか？
+- wait:
+  - 30
+- print:
+  - ペコリーヌ
+  - |2-
+
+    昨日討伐した魔物の姿焼きなんですけど。
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5058000_020
+- face:
+  - 106012
+  - 6
+- print:
+  - キャル
+  - 手の込んだ朝ごはんって
+- wait:
+  - 25
+- print:
+  - キャル
+  - 魔物料理だったの！？
+- wait:
+  - 45
+- print:
+  - キャル
+  - |2-
+
+    あんたは朝から魔物の姿焼きを食べろと言ってるの！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106012
+  - LC
+  - 6
+- chara_full:
+  - 190811
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_5058000_021
+- face:
+  - 190811
+  - 4
+- emotion:
+  - sweat1_R
+  - 190811
+  - 85
+  - 575
+  - se_adv_emote_sweat_01
+- print:
+  - カリン
+  - えっと……
+- wait:
+  - 25
+- print:
+  - カリン
+  - ご一緒したいところではあるのですが……
+- wait:
+  - 40
+- print:
+  - カリン
+  - |2-
+
+    すみません、
+- wait:
+  - 20
+- print:
+  - カリン
+  - 業務中なので
+- wait:
+  - 25
+- print:
+  - カリン
+  - 遠慮させていただきますね。
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5058000_022
+- face:
+  - 106012
+  - 4
+- print:
+  - キャル
+  - ……ちゃっかり逃げたわね。
+- wait:
+  - 55
+- print:
+  - キャル
+  - |2-
+
+    ていうか仕事の依頼？　
+- wait:
+  - 35
+- face:
+  - 106012
+  - 3
+- print:
+  - キャル
+  - まーた面倒ごとじゃないでしょうね？
+- touch: *o0
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_5058000_023
+- face:
+  - 190811
+  - 1
+- print:
+  - カリン
+  - ご安心ください。
+- wait:
+  - 30
+- print:
+  - カリン
+  - |2-
+
+    未開地の調査とかではなく、
+- wait:
+  - 40
+- print:
+  - カリン
+  - 通常の魔物討伐ですから。
+- touch: *o0
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_5058000_024
+- face:
+  - 190811
+  - 4
+- print:
+  - カリン
+  - 普段、
+- wait:
+  - 20
+- print:
+  - カリン
+  - 滅多に姿を現さない魔物が
+- wait:
+  - 45
+- print:
+  - カリン
+  - |2-
+
+    ランドソルの近郊で目撃されたみたいで……
+- wait:
+  - 60
+- print:
+  - カリン
+  - |2
+
+- face:
+  - 190811
+  - 1
+- print:
+  - カリン
+  - もしよろしければ、
+- wait:
+  - 30
+- print:
+  - カリン
+  - 皆さんに討伐をお願いできたらと思いまして。
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 1
+- vo:
+  - vo_adv_5058000_025
+- face:
+  - 105913
+  - 6
+- print:
+  - コッコロ
+  - 近郊で、
+- wait:
+  - 40
+- print:
+  - コッコロ
+  - となりますと
+- wait:
+  - 45
+- print:
+  - コッコロ
+  - |-
+    【王宮騎士団（NIGHTMARE）】の方々の
+    お仕事ではないのですか？　
+- wait:
+  - 60
+- print:
+  - コッコロ
+  - どうしてわたくしたちに……？
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5058000_026
+- face:
+  - 106012
+  - 3
+- pop:
+  - 106012
+- se:
+  - se_adv_cloth_move_normal_02
+- se_pause:
+  - se_adv_cloth_move_normal_02
+  - 0.7
+- print:
+  - キャル
+  - そうよそうよ！
+- wait:
+  - 30
+- print:
+  - キャル
+  - |2-
+
+    普通の魔物討伐なんて
+- wait:
+  - 15
+- print:
+  - キャル
+  - |-
+    【王宮騎士団（NIGHTMARE）】の連中に
+    任せておきなさいよ！　
+- wait:
+  - 30
+- print:
+  - キャル
+  - あいつらそれが仕事でしょ！
+- touch: *o0
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_5058000_027
+- face:
+  - 190811
+  - 6
+- print:
+  - カリン
+  - もちろんそれでもよかったのですが、
+- wait:
+  - 40
+- print:
+  - カリン
+  - |2-
+
+    【美食殿】の皆さんにお願いしに来たのは、
+- wait:
+  - 40
+- print:
+  - カリン
+  - ちゃんと理由があるんです。
+- wait:
+  - 45
+- print:
+  - カリン
+  - |2
+
+- face:
+  - 190811
+  - 1
+- print:
+  - カリン
+  - その、
+- wait:
+  - 15
+- print:
+  - カリン
+  - 出現した魔物なのですが……
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5058000_028
+- face:
+  - 106012
+  - 4
+- print:
+  - キャル
+  - うーわ、
+- wait:
+  - 25
+- print:
+  - キャル
+  - ヤな予感。
+- touch: *o0
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_5058000_029
+- face:
+  - 190811
+  - 2
+- print:
+  - カリン
+  - ──大変な珍味なんだとか。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105812
+  - L
+  - 2
+- chara_full:
+  - 105913
+  - C
+  - 6
+- chara_full:
+  - 106012
+  - R
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5058000_030
+- face:
+  - 105812
+  - 2
+- se:
+  - se_adv_emote_twinkle_01
+- print:
+  - ペコリーヌ
+  - やります！
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5058000_031
+- face:
+  - 106012
+  - 3
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 106012
+- print:
+  - キャル
+  - だと思ったわ！
+- wait:
+  - 40
+- print:
+  - キャル
+  - |2-
+
+    ちょっと待ちなさいよペコリーヌ！
+- wait:
+  - 25
+- print:
+  - キャル
+  - |2-
+
+    勝手に決めるんじゃないわよ！
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5058000_032
+- face:
+  - 105812
+  - 6
+- print:
+  - ペコリーヌ
+  - キャルちゃん。
+- wait:
+  - 15
+- print:
+  - ペコリーヌ
+  - |2-
+
+    わたしたち【美食殿】の目的を忘れちゃったんですか？
+- wait:
+  - 50
+- print:
+  - ペコリーヌ
+  - |2
+
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - 大変な珍味と言われてしまっては、
+- wait:
+  - 45
+- print:
+  - ペコリーヌ
+  - 断る理由なんてありませんよ♪
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5058000_033
+- face:
+  - 106012
+  - 3
+- emotion:
+  - anger1_R
+  - 106012
+  - -110
+  - 510
+  - se_adv_emote_anger_01
+- print:
+  - キャル
+  - あんたになくてもあたしにはあるの！
+- wait:
+  - 60
+- print:
+  - キャル
+  - |2
+
+- face:
+  - 106012
+  - 4
+- print:
+  - キャル
+  - あたしは今日一日、
+- wait:
+  - 25
+- print:
+  - キャル
+  - 何もせずのんびり過ごそうと思ってたんだから！
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5058000_034
+- face:
+  - 106012
+  - 6
+- print:
+  - キャル
+  - コロ助、
+- wait:
+  - 15
+- print:
+  - キャル
+  - あんたも何とか言いなさい！
+- wait:
+  - 30
+- print:
+  - キャル
+  - |2-
+
+    あたしたちの一日がこいつの食欲に潰されようとしてるわよ！
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5058000_035
+- face:
+  - 105913
+  - 1
+- print:
+  - コッコロ
+  - …………
+- touch: *o0
+- face:
+  - 105812
+  - 6
+- bgm:
+  - stop
+  - 6.8
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5058000_036
+- face:
+  - 106012
+  - 6
+- emotion:
+  - question1_R
+  - 106012
+  - 120
+  - 500
+  - se_adv_emote_question_01
+- print:
+  - キャル
+  - コロ助？
+- wait:
+  - 25
+- print:
+  - キャル
+  - |2-
+
+    どうしたのよ、
+- wait:
+  - 10
+- print:
+  - キャル
+  - 俯いて……
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5058000_037
+- face:
+  - 105812
+  - 6
+- print:
+  - ペコリーヌ
+  - コッコロちゃん？
+- wait:
+  - 25
+- print:
+  - ペコリーヌ
+  - |2-
+
+    お腹空いちゃいました？
+- touch: *o0
+- bgm:
+  - bgm_M317
+  - 0
+  - 0
+  - 1
+  - 0.3
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5058000_038
+- face:
+  - 105913
+  - 2
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - コッコロ
+  - ふふ……
+- wait:
+  - 35
+- print:
+  - コッコロ
+  - ふふふ……
+- touch: *o0
+- choice:
+  - 楽しそうだね。
+  - 3
+- choice:
+  - 一緒に笑う。
+  - 4
+- tag:
+  - 3
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5058000_039
+- face:
+  - 105913
+  - 6
+- print:
+  - コッコロ
+  - も、
+- wait:
+  - 25
+- print:
+  - コッコロ
+  - 申し訳ありません主さま……
+- wait:
+  - 55
+- print:
+  - コッコロ
+  - |2
+
+- face:
+  - 105913
+  - 2
+- print:
+  - コッコロ
+  - つい、
+- wait:
+  - 25
+- print:
+  - コッコロ
+  - 笑みがこぼれてしまいました。
+- touch: *o0
+- goto:
+  - 5
+- tag:
+  - 4
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5058000_040
+- face:
+  - 105913
+  - 2
+- print:
+  - コッコロ
+  - お、
+- wait:
+  - 20
+- print:
+  - コッコロ
+  - おやめくださいませ主さま……
+- wait:
+  - 50
+- print:
+  - コッコロ
+  - ふふっ。
+- wait:
+  - 30
+- print:
+  - コッコロ
+  - |2-
+
+    わたくし、
+- wait:
+  - 25
+- print:
+  - コッコロ
+  - 止まらなくなってしまいます……！
+- touch: *o0
+- tag:
+  - 5
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5058000_041
+- face:
+  - 105913
+  - 2
+- nod:
+  - 105913
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - コッコロ
+  - なんだか楽しくて……
+- wait:
+  - 50
+- print:
+  - コッコロ
+  - あたたかい思いが
+- wait:
+  - 35
+- print:
+  - コッコロ
+  - 胸にこみあげてきて……
+- wait:
+  - 63
+- print:
+  - コッコロ
+  - |2-
+
+    こんなに幸せでいいのかと……
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5058000_042
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - ほらほらキャルちゃん！
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - |2-
+
+    コッコロちゃんもこんなに乗り気ですよ☆
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5058000_043
+- face:
+  - 106012
+  - 3
+- print:
+  - キャル
+  - 分かったわよ！
+- wait:
+  - 30
+- print:
+  - キャル
+  - |2-
+
+    行けばいいんでしょ行けば！　
+- wait:
+  - 45
+- print:
+  - キャル
+  - どうせいつものことよね！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 190811
+  - C
+  - 2
+- fadein:
+  - 190811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 190811
+- bust:
+  - 190811
+  - 0
+- vo:
+  - vo_adv_5058000_044
+- face:
+  - 190811
+  - 2
+- print:
+  - カリン
+  - ふふ。
+- wait:
+  - 30
+- print:
+  - カリン
+  - では、
+- wait:
+  - 20
+- print:
+  - カリン
+  - 報酬の方をご用意してお待ちしていますね。
+- wait:
+  - 60
+- print:
+  - カリン
+  - |2
+
+- face:
+  - 190811
+  - 1
+- print:
+  - カリン
+  - 皆さん、
+- wait:
+  - 20
+- print:
+  - カリン
+  - お気をつけて。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 190811
+  - 30
+- chara_full:
+  - 105812
+  - L
+  - 2
+- chara_full:
+  - 105913
+  - C
+  - 2
+- chara_full:
+  - 106012
+  - R
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5058000_045
+- face:
+  - 105812
+  - 2
+- print:
+  - ペコリーヌ
+  - 任せてください！
+- wait:
+  - 25
+- print:
+  - ペコリーヌ
+  - |2
+
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - それじゃあキャルちゃん、コッコロちゃん、{0}くん！
+- wait:
+  - 10
+- print:
+  - ペコリーヌ
+  - |2-
+
+    珍味を求めて
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - 出発ですよっ、
+- wait:
+  - 35
+- face:
+  - 105812
+  - 2
+- se:
+  - se_adv_cloth_move_give_01
+- se_pause:
+  - se_adv_cloth_move_give_01
+  - 0.6
+- print:
+  - ペコリーヌ
+  - おー☆
+- touch: *o0
+- choice:
+  - おー！
+  - 6
+- tag:
+  - 6
+- face:
+  - 105812
+  - 1
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5058000_046
+- face:
+  - 105913
+  - 2
+- nod:
+  - 105913
+- se:
+  - se_adv_cloth_move_give_01
+- se_pause:
+  - se_adv_cloth_move_give_01
+  - 0.7
+- print:
+  - コッコロ
+  - おー、
+- wait:
+  - 25
+- print:
+  - コッコロ
+  - でございます。
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5058000_047
+- face:
+  - 106012
+  - 4
+- print:
+  - キャル
+  - ……
+- wait:
+  - 30
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - キャル
+  - おー
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+  - 1
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- amb_stop:
+  - 1
+- background:
+  - 500140
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_outdoors_day_01
+- chara_full:
+  - 105811
+  - L
+  - 2
+- chara_full:
+  - 105911
+  - C
+  - 1
+- chara_full:
+  - 106011
+  - R
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M33_02
+- focus:
+  - 105811
+- bust:
+  - 105811
+  - 0
+- vo:
+  - vo_adv_5058000_048
+- face:
+  - 105811
+  - 2
+- emotion:
+  - note1_L
+  - 105811
+  - -85
+  - 530
+  - se_adv_emote_note_01
+- print:
+  - ペコリーヌ
+  - 珍味、
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - 珍味～♪
+- touch: *o0
+- face:
+  - 105811
+  - 1
+- focus:
+  - 105911
+- bust:
+  - 105911
+  - 0
+- vo:
+  - vo_adv_5058000_049
+- face:
+  - 105911
+  - 2
+- print:
+  - コッコロ
+  - ふふっ。
+- wait:
+  - 30
+- print:
+  - コッコロ
+  - |2-
+
+    こうして美食を目指して旅に出るのも、
+- wait:
+  - 50
+- print:
+  - コッコロ
+  - 何回目でしょうか……
+- touch: *o0
+- focus:
+  - 106011
+- bust:
+  - 106011
+  - 0
+- vo:
+  - vo_adv_5058000_050
+- face:
+  - 106011
+  - 4
+- print:
+  - キャル
+  - さぁ～？　
+- wait:
+  - 30
+- print:
+  - キャル
+  - あたしは数えるのをやめたわ。
+- wait:
+  - 55
+- print:
+  - キャル
+  - |2-
+
+    数えきれないほど……
+- wait:
+  - 45
+- eye_open:
+  - False
+- print:
+  - キャル
+  - 得体の知れないものを食べさせられてきたから……
+- touch: *o0
+- eye_open:
+  - true
+- focus:
+  - 105811
+- bust:
+  - 105811
+  - 0
+- vo:
+  - vo_adv_5058000_051
+- face:
+  - 105811
+  - 6
+- print:
+  - ペコリーヌ
+  - 食べさせられてきた、
+- wait:
+  - 30
+- print:
+  - ペコリーヌ
+  - なんて言っちゃだめですよキャルちゃん！
+- wait:
+  - 35
+- print:
+  - ペコリーヌ
+  - |2
+
+- face:
+  - 105811
+  - 1
+- print:
+  - ペコリーヌ
+  - お食事はいつだって
+- wait:
+  - 30
+- print:
+  - ペコリーヌ
+  - 食材になってくれた生き物たちに感謝しながら、
+- wait:
+  - 55
+- print:
+  - ペコリーヌ
+  - |2-
+
+    自らの意志でお口に運ぶものなんです♪
+- touch: *o0
+- focus:
+  - 106011
+- bust:
+  - 106011
+  - 0
+- vo:
+  - vo_adv_5058000_052
+- face:
+  - 106011
+  - 6
+- print:
+  - キャル
+  - あたし結構嫌がってなかった？
+- wait:
+  - 45
+- print:
+  - キャル
+  - |2-
+
+    ねぇ、
+- wait:
+  - 10
+- print:
+  - キャル
+  - あたしあんたみたいにウキウキしながら魔物食べてた！？
+- touch: *o0
+- focus:
+  - 105811
+- bust:
+  - 105811
+  - 0
+- vo:
+  - vo_adv_5058000_053
+- face:
+  - 105811
+  - 2
+- print:
+  - ペコリーヌ
+  - もちろんです☆
+- wait:
+  - 25
+- print:
+  - ペコリーヌ
+  - |2
+
+- face:
+  - 105811
+  - 1
+- print:
+  - ペコリーヌ
+  - いつだってキャルちゃんは
+- wait:
+  - 15
+- print:
+  - ペコリーヌ
+  - 100点スマイルで食べてましたよ♪
+- touch: *o0
+- focus:
+  - 106011
+- bust:
+  - 106011
+  - 0
+- vo:
+  - vo_adv_5058000_054
+- face:
+  - 106011
+  - 3
+- print:
+  - キャル
+  - 断言しやがったわねこのアホリーヌ！
+- touch: *o0
+- focus:
+  - 105911
+- bust:
+  - 105911
+  - 0
+- vo:
+  - vo_adv_5058000_055
+- face:
+  - 105911
+  - 4
+- nod:
+  - 105911
+- se:
+  - se_adv_cloth_move_give_01
+- se:
+  - se_adv_step_leaves_move_01
+- print:
+  - コッコロ
+  - あの、
+- wait:
+  - 20
+- print:
+  - コッコロ
+  - お二人とも……
+- wait:
+  - 45
+- print:
+  - コッコロ
+  - 仲がよろしいのはいいことなのですが、
+- wait:
+  - 70
+- print:
+  - コッコロ
+  - |2
+
+- bgm:
+  - stop
+  - 6.5
+- print:
+  - コッコロ
+  - 魔物に気づかれてしまったようでございますよ。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- change_window:
+  - 3
+- text_size:
+  - 50
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - true
+- bgm:
+  - bgm_M17_withIntro
+  - 0
+  - 0
+  - 1
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- effect:
+  - 9
+- print:
+  - 魔物
+  - ──グオオオオオッ！
+- shake_screen: *o0
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- fadeout:
+  - 1611
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 105811
+  - LC
+  - 6
+- chara_full:
+  - 106011
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105811
+- bust:
+  - 105811
+  - 0
+- vo:
+  - vo_adv_5058000_056
+- face:
+  - 105811
+  - 6
+- print:
+  - ペコリーヌ
+  - カリンさんの言っていた魔物とは違うみたいですね……
+- wait:
+  - 55
+- print:
+  - ペコリーヌ
+  - |2
+
+- face:
+  - 105811
+  - 1
+- print:
+  - ペコリーヌ
+  - 街の近くにいるのは危ないですし、
+- wait:
+  - 45
+- print:
+  - ペコリーヌ
+  - とりあえず追い払いましょう♪
+- touch: *o0
+- focus:
+  - 106011
+- bust:
+  - 106011
+  - 0
+- vo:
+  - vo_adv_5058000_057
+- face:
+  - 106011
+  - 1
+- nod:
+  - 106011
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - キャル
+  - はいはい。
+- wait:
+  - 25
+- print:
+  - キャル
+  - だったら手っ取り早くやるわよ！
+- wait:
+  - 35
+- print:
+  - キャル
+  - |2
+
+- face:
+  - 106011
+  - 3
+- se:
+  - se_adv_magic_cmn_medium_01
+- print:
+  - キャル
+  - 喰らいなさい！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0070
+  - se_adv_magic_dark_medium_01
+- wait:
+  - 30
+- background:
+  - 500140
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_03
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──グオオオオオッ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1611
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 105911
+  - C
+  - 6
+- fadein:
+  - 105911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105911
+- bust:
+  - 105911
+  - 0
+- vo:
+  - vo_adv_5058000_058
+- face:
+  - 105911
+  - 6
+- print:
+  - コッコロ
+  - まだ戦うつもりのようです……！
+- wait:
+  - 45
+- print:
+  - コッコロ
+  - |2
+
+- face:
+  - 105911
+  - 3
+- print:
+  - コッコロ
+  - 主さま、
+- wait:
+  - 30
+- print:
+  - コッコロ
+  - ここはわたくしが！
+- touch: *o0
+- focus:
+  - 105911
+- bust:
+  - 105911
+  - 0
+- vo:
+  - vo_adv_5058000_059
+- face:
+  - 105911
+  - 3
+- se:
+  - se_adv_magic_cmn_medium_01
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - コッコロ
+  - ええーいっ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105911
+  - 30
+- bg_color:
+  - 0
+  - 0
+  - 0
+- se:
+  - se_adv_magic_wind_small_01
+- effect:
+  - 0075
+- wait:
+  - 15
+- se:
+  - se_adv_black_fairy_magic_dark_wisp_02
+- wait:
+  - 15
+- background:
+  - 500140
+- chara_full:
+  - 1611
+  - C
+  - 1
+- se:
+  - se_adv_magic_hit_01
+- fadein:
+  - 1611
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 4.4
+  - 1
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- se:
+  - se_adv_creature_cmn_04
+- print:
+  - 魔物
+  - ──ギャオオオオオッ！
+- sway:
+  - 1611
+- touch: *o0
+- window_visible:
+  - false
+- updown:
+  - 1611
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1611
+  - 30
+- se:
+  - se_adv_bodyfall_01
+- shake_screen: *o0
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 105811
+  - LC
+  - 6
+- chara_full:
+  - 106011
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M443_03
+- focus:
+  - 105811
+- bust:
+  - 105811
+  - 0
+- vo:
+  - vo_adv_5058000_060
+- face:
+  - 105811
+  - 6
+- print:
+  - ペコリーヌ
+  - おおーっ、
+- wait:
+  - 25
+- print:
+  - ペコリーヌ
+  - すごいですコッコロちゃん！
+- wait:
+  - 30
+- print:
+  - ペコリーヌ
+  - |2-
+
+    一発で決めちゃいました……
+- wait:
+  - 40
+- face:
+  - 105811
+  - 1
+- print:
+  - ペコリーヌ
+  - わたしの出番がありませんでしたね♪
+- touch: *o0
+- focus:
+  - 106011
+- bust:
+  - 106011
+  - 0
+- vo:
+  - vo_adv_5058000_061
+- face:
+  - 106011
+  - 2
+- print:
+  - キャル
+  - へぇ、
+- wait:
+  - 20
+- print:
+  - キャル
+  - やるじゃないコロ助。
+- wait:
+  - 35
+- print:
+  - キャル
+  - |2-
+
+    今の魔法、
+- wait:
+  - 20
+- print:
+  - キャル
+  - いつもとは違う感じだったわね。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105911
+  - C
+  - 2
+- fadein:
+  - 105911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105911
+- bust:
+  - 105911
+  - 0
+- vo:
+  - vo_adv_5058000_062
+- face:
+  - 105911
+  - 2
+- nod:
+  - 105911
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - コッコロ
+  - はい……
+- wait:
+  - 30
+- print:
+  - コッコロ
+  - 今日は少々、
+- wait:
+  - 30
+- print:
+  - コッコロ
+  - 調子がよいみたいで……
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 105911
+- bust:
+  - 105911
+  - 0
+- vo:
+  - vo_adv_5058000_063
+- face:
+  - 105911
+  - 6
+- print:
+  - コッコロ
+  - 気のせいでしょうか……
+- wait:
+  - 40
+- print:
+  - コッコロ
+  - 攻撃しようとしたとき、
+- wait:
+  - 35
+- print:
+  - コッコロ
+  - |2-
+
+    わたくしの力が、
+- wait:
+  - 45
+- print:
+  - コッコロ
+  - 勝手に膨れ上がったような……
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- fadeout:
+  - 105911
+  - 30
+- chara_full:
+  - 105811
+  - LC
+  - 1
+- chara_full:
+  - 106011
+  - RC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106011
+- bust:
+  - 106011
+  - 0
+- vo:
+  - vo_adv_5058000_064
+- face:
+  - 106011
+  - 2
+- emotion:
+  - note1_L
+  - 106011
+  - -80
+  - 490
+  - se_adv_emote_note_01
+- print:
+  - キャル
+  - これならきっと
+- wait:
+  - 20
+- print:
+  - キャル
+  - 依頼の魔物も楽勝ねー！
+- wait:
+  - 45
+- print:
+  - キャル
+  - |2-
+
+    どこからでも来いってのよ！
+- touch: *o0
+- bgm:
+  - stop
+  - 3.6
+- focus:
+  - 105811
+- bust:
+  - 105811
+  - 0
+- vo:
+  - vo_adv_5058000_065
+- face:
+  - 105811
+  - 6
+- print:
+  - ペコリーヌ
+  - あっ、
+- wait:
+  - 15
+- print:
+  - ペコリーヌ
+  - キャルちゃん、後ろ！
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 106011
+  - 6
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - true
+- bgm:
+  - bgm_M18
+  - 0
+  - 0
+  - 1
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 1
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──グオオオオオッ！
+- touch: *o0
+- focus:
+  - 106011
+- bust:
+  - 106011
+  - 0
+- vo:
+  - vo_adv_5058000_066
+- face:
+  - 106011
+  - 6
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 106011
+- print:
+  - キャル
+  - うひぃっ！？
+- wait:
+  - 30
+- print:
+  - キャル
+  - |2-
+
+    ちょっ、
+- wait:
+  - 10
+- print:
+  - キャル
+  - いきなり現れるんじゃないわよ
+- wait:
+  - 30
+- print:
+  - キャル
+  - ぶっ殺すわよ！
+- touch: *o0
+- se_pause:
+  - amb_adv_outdoors_day_01
+  - 2
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+  - 1
+- fadeout_all:
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 30
+- se:
+  - amb_adv_wind_01
+- se:
+  - se_adv_weapon_sword_set_05
+- black_in: *o0
+- chara_full:
+  - 105811
+  - C
+  - 1
+- fadein:
+  - 105811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M41
+- focus:
+  - 105811
+- bust:
+  - 105811
+  - 0
+- vo:
+  - vo_adv_5058000_067
+- face:
+  - 105811
+  - 1
+- print:
+  - ペコリーヌ
+  - カリンさんに依頼された大変な珍味の魔物、
+- wait:
+  - 35
+- print:
+  - ペコリーヌ
+  - 発見です！
+- wait:
+  - 35
+- print:
+  - ペコリーヌ
+  - |2-
+
+    今度はわたしも役に立ちますよっ☆
+- wait:
+  - 45
+- print:
+  - ペコリーヌ
+  - |2
+
+- face:
+  - 105811
+  - 3
+- print:
+  - ペコリーヌ
+  - とりゃあああっ！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_blanket_move_02
+- se:
+  - se_adv_step_leaves_run_go_01
+- effect:
+  - 0009
+- scale:
+  - 105811
+  - 1.2
+  - 2
+  - 10
+- fadeout:
+  - 105811
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- se:
+  - se_adv_weapon_sword_hit_01
+- effect:
+  - 0001
+- wait:
+  - 15
+- background:
+  - 500140
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_04
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──ギャオオオオオッ！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_monster_move_01
+- change:
+  - LC
+  - C
+  - 30
+- fadeout:
+  - 1611
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 105811
+  - C
+  - 6
+- fadein:
+  - 105811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105811
+- bust:
+  - 105811
+  - 0
+- vo:
+  - vo_adv_5058000_068
+- face:
+  - 105811
+  - 6
+- emotion:
+  - exclamation1_R
+  - 105811
+  - 5
+  - 650
+  - se_adv_emote_common_01
+- print:
+  - ペコリーヌ
+  - そっちに行きましたよ、
+- wait:
+  - 10
+- print:
+  - ペコリーヌ
+  - キャルちゃんっ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105811
+  - 30
+- chara_full:
+  - 106011
+  - C
+  - 3
+- se:
+  - se_adv_magic_cmn_medium_01
+- fadein:
+  - 106011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106011
+- bust:
+  - 106011
+  - 0
+- vo:
+  - vo_adv_5058000_069
+- face:
+  - 106011
+  - 3
+- print:
+  - キャル
+  - 分かってるっての！
+- wait:
+  - 30
+- print:
+  - キャル
+  - |2
+
+- face:
+  - 106011
+  - 1
+- print:
+  - キャル
+  - ほら、
+- wait:
+  - 15
+- print:
+  - キャル
+  - 大人しく丸焼きになっちゃいなさい！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106011
+  - 30
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0070
+  - se_adv_magic_dark_medium_01
+- wait:
+  - 30
+- background:
+  - 500140
+- chara_full:
+  - 106011
+  - C
+  - 6
+- se:
+  - se_adv_step_monster_move_02
+- fadein:
+  - 106011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106011
+- bust:
+  - 106011
+  - 0
+- vo:
+  - vo_adv_5058000_070
+- face:
+  - 106011
+  - 6
+- emotion:
+  - exclamation1_R
+  - 106011
+  - 10
+  - 635
+  - se_adv_emote_common_01
+- print:
+  - キャル
+  - ってこら！　
+- wait:
+  - 15
+- print:
+  - キャル
+  - 逃げ回るんじゃないわよ！
+- wait:
+  - 40
+- print:
+  - キャル
+  - |2-
+
+    あっ……
+- wait:
+  - 10
+- print:
+  - キャル
+  - しまった、
+- wait:
+  - 15
+- print:
+  - キャル
+  - '{0}の方に……！'
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106011
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──グオオオオオッ！
+- touch: *o0
+- choice:
+  - 受け止める。
+  - 7
+- tag:
+  - 7
+- se:
+  - se_adv_roar_whoosh_01
+- window_visible:
+  - false
+- effect:
+  - 0009
+- se:
+  - se_adv_step_monster_move_01
+- scale:
+  - 1611
+  - 1.2
+  - 2
+  - 10
+- fadeout:
+  - 1611
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- se:
+  - se_adv_impact_swing_01
+- se:
+  - se_adv_weapon_claw_whiff_01
+- effect:
+  - 0028
+- wait:
+  - 5
+- se:
+  - se_adv_weapon_sword_impact_03
+- effect:
+  - 0045
+- wait:
+  - 15
+- background:
+  - 500140
+- chara_full:
+  - 105811
+  - C
+  - 6
+- fadein:
+  - 105811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105811
+- bust:
+  - 105811
+  - 0
+- vo:
+  - vo_adv_5058000_071
+- face:
+  - 105811
+  - 6
+- print:
+  - ペコリーヌ
+  - あっ、
+- wait:
+  - 15
+- print:
+  - ペコリーヌ
+  - だめです！
+- wait:
+  - 15
+- print:
+  - ペコリーヌ
+  - |2-
+
+    その魔物、
+- wait:
+  - 15
+- print:
+  - ペコリーヌ
+  - かなり力が強くて……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105811
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_05
+- window_visible:
+  - true
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──グオオオオオッ！
+- touch: *o0
+- se:
+  - se_adv_roar_whoosh_01
+- window_visible:
+  - false
+- effect:
+  - 0009
+- se:
+  - se_adv_step_monster_move_01
+- scale:
+  - 1611
+  - 1.2
+  - 2
+  - 10
+- fadeout:
+  - 1611
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- se:
+  - se_adv_weapon_claw_hit_01
+- effect:
+  - 0028
+- camera_zoom:
+  - 1.3
+  - 3
+- wait:
+  - 10
+- background:
+  - 500140
+- se_pause:
+  - se_adv_creature_cmn_05
+  - 1
+- camera_zoom:
+  - 1
+  - 5
+- se:
+  - se_adv_kick_ground_01
+- se:
+  - se_adv_bodyfall_02
+- effect:
+  - 0079
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 105911
+  - C
+  - 6
+- fadein:
+  - 105911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105911
+- bust:
+  - 105911
+  - 0
+- vo:
+  - vo_adv_5058000_072
+- face:
+  - 105911
+  - 6
+- emotion:
+  - exclamation1_R
+  - 105911
+  - 25
+  - 600
+  - se_adv_emote_common_01
+- print:
+  - コッコロ
+  - 主さまっ！？
+- wait:
+  - 20
+- print:
+  - コッコロ
+  - |2
+
+- face:
+  - 105911
+  - 3
+- print:
+  - コッコロ
+  - お待ちください、
+- wait:
+  - 20
+- print:
+  - コッコロ
+  - 今お助けします！
+- touch: *o0
+- focus:
+  - 105911
+- bust:
+  - 105911
+  - 0
+- vo:
+  - vo_adv_5058000_073
+- face:
+  - 105911
+  - 3
+- print:
+  - コッコロ
+  - 主さまから──
+- wait:
+  - 35
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - コッコロ
+  - 離れてくださいっ！
+- touch: *o0
+- focus:
+  - 105911
+- bust:
+  - 105911
+  - 0
+- vo:
+  - vo_adv_5058000_074
+- face:
+  - 105911
+  - 3
+- se:
+  - se_adv_magic_holy_small_3
+- eye_open:
+  - FALSE
+- print:
+  - コッコロ
+  - 精霊よ、
+- wait:
+  - 35
+- eye_open:
+  - True
+- print:
+  - コッコロ
+  - 魔を祓う力を──！
+- touch: *o0
+- se_pause:
+  - se_adv_magic_holy_small_3
+  - 0.5
+- window_visible:
+  - false
+- se:
+  - se_adv_black_fairy_magic_dark_wisp_01
+- effect:
+  - 0041
+- face:
+  - 105911
+  - 6
+- wait:
+  - 30
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 3.1
+- focus:
+  - 105911
+- bust:
+  - 105911
+  - 0
+- vo:
+  - vo_adv_5058000_075
+- face:
+  - 105911
+  - 6
+- print:
+  - コッコロ
+  - え……っ？　
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- se:
+  - se_adv_black_fairy_magic_dark_wisp_02
+- print:
+  - 黒い精霊
+  - …………
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- bgm:
+  - bgm_M46
+  - 0
+  - 0
+  - 1
+- focus:
+  - 105911
+- bust:
+  - 105911
+  - 0
+- vo:
+  - vo_adv_5058000_076
+- face:
+  - 105911
+  - 6
+- print:
+  - コッコロ
+  - いつもと違う、
+- wait:
+  - 45
+- print:
+  - コッコロ
+  - 精霊……？　
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 105911
+- bust:
+  - 105911
+  - 0
+- vo:
+  - vo_adv_5058000_077
+- face:
+  - 105911
+  - 3
+- print:
+  - コッコロ
+  - でも今は、
+- wait:
+  - 30
+- print:
+  - コッコロ
+  - 主さまをお守りしなくては！
+- wait:
+  - 60
+- print:
+  - コッコロ
+  - |2
+
+- se:
+  - se_adv_black_fairy_magic_dark_wisp_03
+- print:
+  - コッコロ
+  - やぁぁぁーーーーーっ！
+- touch: *o0
+- window_visible:
+  - false
+- effect_delete:
+  - 0041
+  - 15
+- fadeout:
+  - 105911
+  - 30
+- bg_color:
+  - 0
+  - 0
+  - 0
+- se:
+  - se_adv_magic_dark_small_01
+- se:
+  - se_adv_magic_wind_large_01
+- effect:
+  - 0075
+- wait:
+  - 30
+- background:
+  - 500140
+- chara_full:
+  - 1611
+  - C
+  - 1
+- se:
+  - se_adv_magic_crash_02
+- fadein:
+  - 1611
+  - 30
+- change_window:
+  - 3
+- text_size:
+  - 50
+- window_visible:
+  - true
+- se_pause:
+  - se_adv_magic_wind_large_01
+  - 1
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- se:
+  - se_adv_creature_cmn_04
+- print:
+  - 魔物
+  - ──ギャオオオオオッ！
+- sway:
+  - 1611
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- updown:
+  - 1611
+  - 0
+  - -150
+  - 0.2
+- se_pause:
+  - se_adv_magic_crash_02
+  - 1
+- fadeout:
+  - 1611
+  - 30
+- se:
+  - se_adv_bodyfall_01
+- shake_screen: *o0
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- se:
+  - se_adv_magic_wind_large_01
+- chara_full:
+  - 105811
+  - LC
+  - 6
+- chara_full:
+  - 106011
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- se:
+  - se_adv_wind_strong_02
+- focus:
+  - 105811
+- bust:
+  - 105811
+  - 0
+- vo:
+  - vo_adv_5058000_078
+- face:
+  - 105811
+  - 6
+- print:
+  - ペコリーヌ
+  - おおー、
+- wait:
+  - 45
+- print:
+  - ペコリーヌ
+  - コッコロちゃん、
+- wait:
+  - 10
+- print:
+  - ペコリーヌ
+  - やばいですね☆
+- wait:
+  - 35
+- print:
+  - ペコリーヌ
+  - |2
+
+- face:
+  - 105811
+  - 4
+- emotion:
+  - surprise1_L
+  - 105811
+  - 155
+  - 550
+  - se_adv_emote_common_01
+- print:
+  - ペコリーヌ
+  - って、
+- wait:
+  - 10
+- print:
+  - ペコリーヌ
+  - ひゃあっ！？　
+- wait:
+  - 15
+- print:
+  - ペコリーヌ
+  - 本当にやばいですっ！？
+- touch: *o0
+- se_pause:
+  - se_adv_magic_wind_large_01
+  - 1
+- se:
+  - se_adv_wind_strong_02
+- focus:
+  - 106011
+- bust:
+  - 106011
+  - 0
+- vo:
+  - vo_adv_5058000_079
+- face:
+  - 106011
+  - 6
+- print:
+  - キャル
+  - な、
+- wait:
+  - 15
+- print:
+  - キャル
+  - 何よこの威力！？
+- wait:
+  - 30
+- se_pause:
+  - se_adv_wind_strong_02
+  - 1
+- print:
+  - キャル
+  - |2-
+
+    コロ助、
+- wait:
+  - 20
+- print:
+  - キャル
+  - やり過ぎ、
+- wait:
+  - 15
+- bgm:
+  - stop
+  - 8.3
+  - 1
+- print:
+  - キャル
+  - やり過ぎよ……
+- wait:
+  - 45
+- face:
+  - 106011
+  - 4
+- se:
+  - se_adv_step_leaves_move_01
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - キャル
+  - いったぁ～！
+- shake:
+  - 106011
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105911
+  - C
+  - 6
+- fadein:
+  - 105911
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M140_NoBell
+  - 0
+  - 0
+  - 0
+  - 2.3
+- focus:
+  - 105911
+- bust:
+  - 105911
+  - 0
+- vo:
+  - vo_adv_5058000_080
+- face:
+  - 105911
+  - 6
+- emotion:
+  - exclamation1_R
+  - 105911
+  - 25
+  - 600
+  - se_adv_emote_common_01
+- print:
+  - コッコロ
+  - っ！？
+- wait:
+  - 30
+- print:
+  - コッコロ
+  - |2
+
+- face:
+  - 105911
+  - 4
+- print:
+  - コッコロ
+  - す、
+- wait:
+  - 15
+- print:
+  - コッコロ
+  - すみません、
+- wait:
+  - 20
+- print:
+  - コッコロ
+  - ペコリーヌさま、
+- wait:
+  - 10
+- print:
+  - コッコロ
+  - キャルさま！
+- wait:
+  - 35
+- print:
+  - コッコロ
+  - |2-
+
+    わたくし、
+- wait:
+  - 35
+- print:
+  - コッコロ
+  - なぜか力があふれてしまって……！
+- touch: *o0
+- focus:
+  - 105911
+- bust:
+  - 105911
+  - 0
+- vo:
+  - vo_adv_5058000_081
+- face:
+  - 105911
+  - 4
+- print:
+  - コッコロ
+  - 本当にわたくし、
+- wait:
+  - 50
+- eye_open:
+  - False
+- print:
+  - コッコロ
+  - 何と言っていいか……
+- touch: *o0
+- eye_open:
+  - true
+- choice:
+  - 守ってくれてありがとう。
+  - 8
+- tag:
+  - 8
+- focus:
+  - 105911
+- bust:
+  - 105911
+  - 0
+- vo:
+  - vo_adv_5058000_082
+- face:
+  - 105911
+  - 6
+- print:
+  - コッコロ
+  - は……
+- wait:
+  - 15
+- print:
+  - コッコロ
+  - はい。
+- wait:
+  - 45
+- face:
+  - 105911
+  - 4
+- print:
+  - コッコロ
+  - ご無事でしたか？　
+- wait:
+  - 20
+- print:
+  - コッコロ
+  - 主さま。
+- wait:
+  - 50
+- print:
+  - コッコロ
+  - |2
+
+- eye_open:
+  - FALSE
+- print:
+  - コッコロ
+  - 申し訳ありません、
+- wait:
+  - 35
+- eye_open:
+  - True
+- print:
+  - コッコロ
+  - 力加減を間違えてしまって……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105911
+  - 30
+- chara_full:
+  - 105811
+  - LC
+  - 2
+- chara_full:
+  - 106011
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105811
+- bust:
+  - 105811
+  - 0
+- vo:
+  - vo_adv_5058000_083
+- face:
+  - 105811
+  - 2
+- print:
+  - ペコリーヌ
+  - 大丈夫ですよコッコロちゃん、
+- wait:
+  - 30
+- face:
+  - 105811
+  - 1
+- print:
+  - ペコリーヌ
+  - 全然問題ありません！
+- wait:
+  - 40
+- print:
+  - ペコリーヌ
+  - |2-
+
+    魔物も無事討伐できましたし！
+- wait:
+  - 50
+- print:
+  - ペコリーヌ
+  - |2
+
+- face:
+  - 105811
+  - 4
+- print:
+  - ペコリーヌ
+  - ……またわたし、
+- wait:
+  - 25
+- print:
+  - ペコリーヌ
+  - あまり活躍できませんでしたけど。
+- touch: *o0
+- face:
+  - 105811
+  - 1
+- focus:
+  - 106011
+- bust:
+  - 106011
+  - 0
+- vo:
+  - vo_adv_5058000_084
+- face:
+  - 106011
+  - 1
+- nod:
+  - 106011
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - キャル
+  - そうそう。
+- wait:
+  - 30
+- print:
+  - キャル
+  - あたしたちがこの程度でどうにかなるわけないでしょ。
+- wait:
+  - 60
+- print:
+  - キャル
+  - |2
+
+- face:
+  - 106011
+  - 2
+- print:
+  - キャル
+  - それにしても
+- wait:
+  - 25
+- print:
+  - キャル
+  - 今日はコロ助大活躍ねー
+- wait:
+  - 55
+- print:
+  - キャル
+  - |2-
+
+    ほとんど一人でやっちゃったじゃない。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105911
+  - C
+  - 6
+- fadein:
+  - 105911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105911
+- bust:
+  - 105911
+  - 0
+- vo:
+  - vo_adv_5058000_085
+- face:
+  - 105911
+  - 6
+- se:
+  - se_adv_cloth_move_normal_03
+- print:
+  - コッコロ
+  - いえ、
+- se_pause:
+  - se_adv_cloth_move_normal_03
+  - 0.6
+- wait:
+  - 25
+- print:
+  - コッコロ
+  - そんなことはありません。
+- wait:
+  - 40
+- print:
+  - コッコロ
+  - |2
+
+- face:
+  - 105911
+  - 2
+- print:
+  - コッコロ
+  - ペコリーヌさまやキャルさま、
+- wait:
+  - 30
+- print:
+  - コッコロ
+  - 主さまがいなければ、
+- wait:
+  - 35
+- print:
+  - コッコロ
+  - |2-
+
+    わたくしは
+- wait:
+  - 30
+- print:
+  - コッコロ
+  - きっと何もできませんでした。
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 105911
+- bust:
+  - 105911
+  - 0
+- vo:
+  - vo_adv_5058000_086
+- face:
+  - 105911
+  - 6
+- print:
+  - コッコロ
+  - でも
+- wait:
+  - 30
+- print:
+  - コッコロ
+  - なんだったのでしょう、
+- wait:
+  - 40
+- print:
+  - コッコロ
+  - あの黒い精霊は……
+- wait:
+  - 65
+- print:
+  - コッコロ
+  - |2
+
+- face:
+  - 105911
+  - 4
+- print:
+  - コッコロ
+  - 今まで使役してきた精霊とは
+- wait:
+  - 50
+- print:
+  - コッコロ
+  - 気配の違う、
+- wait:
+  - 60
+- print:
+  - コッコロ
+  - 強力な力を感じました……
+- touch: *o0
+- choice:
+  - どうかしたの？
+  - 9
+- tag:
+  - 9
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 105911
+- bust:
+  - 105911
+  - 0
+- vo:
+  - vo_adv_5058000_087
+- face:
+  - 105911
+  - 6
+- emotion:
+  - notice1_L
+  - 105911
+  - -60
+  - 485
+  - se_adv_emote_common_01
+- print:
+  - コッコロ
+  - あ……
+- wait:
+  - 20
+- face:
+  - 105911
+  - 2
+- print:
+  - コッコロ
+  - いいえ、
+- wait:
+  - 25
+- print:
+  - コッコロ
+  - なんでもございません。
+- wait:
+  - 45
+- print:
+  - コッコロ
+  - |2-
+
+    主さま、
+- wait:
+  - 25
+- print:
+  - コッコロ
+  - 心配してくださって
+- wait:
+  - 35
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - コッコロ
+  - ありがとうございます。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105911
+  - 30
+- chara_full:
+  - 105811
+  - LC
+  - 1
+- chara_full:
+  - 106011
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105811
+- bust:
+  - 105811
+  - 0
+- vo:
+  - vo_adv_5058000_088
+- face:
+  - 105811
+  - 1
+- nod:
+  - 105811
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ペコリーヌ
+  - まぁまぁ、
+- wait:
+  - 25
+- print:
+  - ペコリーヌ
+  - お話はあとです！
+- wait:
+  - 35
+- print:
+  - ペコリーヌ
+  - |2-
+
+    さっそくみんなでごはんの準備をしましょう！
+- wait:
+  - 40
+- print:
+  - ペコリーヌ
+  - |2
+
+- face:
+  - 105811
+  - 7
+- print:
+  - ペコリーヌ
+  - 珍味、
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - 珍味～♪
+- touch: *o0
+- focus:
+  - 106011
+- bust:
+  - 106011
+  - 0
+- vo:
+  - vo_adv_5058000_089
+- face:
+  - 106011
+  - 6
+- print:
+  - キャル
+  - ええー？　
+- wait:
+  - 25
+- print:
+  - キャル
+  - ここで食べるわけ？
+- wait:
+  - 30
+- print:
+  - キャル
+  - |2-
+
+    帰ってからでいいんじゃないの？
+- touch: *o0
+- focus:
+  - 105811
+- bust:
+  - 105811
+  - 0
+- vo:
+  - vo_adv_5058000_090
+- face:
+  - 105811
+  - 3
+- print:
+  - ペコリーヌ
+  - 何を言ってるんですかキャルちゃん！
+- wait:
+  - 30
+- print:
+  - ペコリーヌ
+  - |2-
+
+    珍味が目の前にあるんですよ！？
+- touch: *o0
+- focus:
+  - 106011
+- bust:
+  - 106011
+  - 0
+- vo:
+  - vo_adv_5058000_091
+- face:
+  - 106011
+  - 4
+- emotion:
+  - sweat1_R
+  - 106011
+  - 80
+  - 495
+  - se_adv_emote_sweat_01
+- print:
+  - キャル
+  - あんたが我慢できるわけないわよね。
+- wait:
+  - 65
+- print:
+  - キャル
+  - |2
+
+- eye_open:
+  - FALSE
+- print:
+  - キャル
+  - はいはい、
+- wait:
+  - 20
+- print:
+  - キャル
+  - 分かってるわよ。
+- wait:
+  - 35
+- print:
+  - キャル
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - キャル
+  - 十分理解してるわよ……
+- wait:
+  - 60
+- print:
+  - キャル
+  - まったく。
+- touch: *o0
+- focus:
+  - 105811
+- bust:
+  - 105811
+  - 0
+- vo:
+  - vo_adv_5058000_092
+- face:
+  - 105811
+  - 1
+- print:
+  - ペコリーヌ
+  - あ、
+- wait:
+  - 15
+- print:
+  - ペコリーヌ
+  - コッコロちゃんたちは
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - 座っててくださいね♪
+- wait:
+  - 30
+- print:
+  - ペコリーヌ
+  - |2-
+
+    わたし、
+- wait:
+  - 15
+- print:
+  - ペコリーヌ
+  - あまり戦いで役に立てなかったので、
+- wait:
+  - 45
+- print:
+  - ペコリーヌ
+  - |2
+
+- face:
+  - 105811
+  - 2
+- print:
+  - ペコリーヌ
+  - 料理の方で
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - 挽回させてください♪
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105911
+  - C
+  - 2
+- fadein:
+  - 105911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105911
+- bust:
+  - 105911
+  - 0
+- vo:
+  - vo_adv_5058000_093
+- face:
+  - 105911
+  - 2
+- print:
+  - コッコロ
+  - ……ふふっ。
+- wait:
+  - 25
+- print:
+  - コッコロ
+  - |2-
+
+    では主さま、
+- wait:
+  - 35
+- print:
+  - コッコロ
+  - 出来上がりを
+- wait:
+  - 25
+- print:
+  - コッコロ
+  - 一緒に待つといたしましょう。
+- touch: *o0
+- window_visible:
+  - false
+- se_pause:
+  - amb_adv_wind_01
+  - 2
+- bgm:
+  - stop
+  - 2
+- fadeout:
+  - 105911
+  - 30
+- black_out:
+  - 1
+  - 1
+- background:
+  - 500142
+- wait:
+  - 15
+- se:
+  - amb_adv_outdoors_night_02
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 105812
+  - L
+  - 2
+- chara_full:
+  - 105913
+  - C
+  - 1
+- chara_full:
+  - 106012
+  - R
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M358
+  - 0
+  - 0
+  - 1
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5058000_094
+- face:
+  - 105812
+  - 2
+- emotion:
+  - twinkle1_R
+  - 105812
+  - 135
+  - 475
+  - se_adv_emote_twinkle_01
+- print:
+  - ペコリーヌ
+  - よ～しっ、
+- wait:
+  - 30
+- print:
+  - ペコリーヌ
+  - できました～♪
+- wait:
+  - 40
+- print:
+  - ペコリーヌ
+  - |2
+
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - あとはお皿に盛って、
+- se:
+  - se_adv_dish_02
+- wait:
+  - 45
+- print:
+  - ペコリーヌ
+  - と……☆
+- touch: *o0
+- se_pause:
+  - se_adv_dish_02
+  - 0.5
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5058000_095
+- face:
+  - 105812
+  - 2
+- se:
+  - se_adv_dish_01
+- nod:
+  - 105812
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - ペコリーヌ
+  - どうぞ、
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - これは{0}くんの分です♪
+- wait:
+  - 30
+- print:
+  - ペコリーヌ
+  - |2-
+
+    お肉のとっても柔らかい部分ですよ～♪
+- touch: *o0
+- se_pause:
+  - se_adv_dish_01
+  - 0.5
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5058000_096
+- face:
+  - 105812
+  - 1
+- se:
+  - se_adv_dish_01
+- nod:
+  - 105812
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ペコリーヌ
+  - はい、
+- wait:
+  - 10
+- print:
+  - ペコリーヌ
+  - キャルちゃん♪
+- wait:
+  - 15
+- print:
+  - ペコリーヌ
+  - |2-
+
+    何かよく分からないですけど、
+- wait:
+  - 30
+- print:
+  - ペコリーヌ
+  - とにかくおいしそうな部位です！
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5058000_097
+- face:
+  - 106012
+  - 6
+- emotion:
+  - surprise1_L
+  - 106012
+  - 165
+  - 540
+  - se_adv_emote_common_01
+- print:
+  - キャル
+  - なんでよく分からない部位を渡すのよ！？
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5058000_098
+- face:
+  - 105812
+  - 2
+- print:
+  - ペコリーヌ
+  - そしてこれはわたしの分～♪
+- wait:
+  - 45
+- print:
+  - ペコリーヌ
+  - |2-
+
+    それでは皆さん、
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - おいしくいただきましょう☆
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5058000_099
+- face:
+  - 105913
+  - 6
+- emotion:
+  - question1_R
+  - 105913
+  - 120
+  - 465
+  - se_adv_emote_question_01
+- print:
+  - コッコロ
+  - ……おや？
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5058000_100
+- face:
+  - 106012
+  - 3
+- print:
+  - キャル
+  - 待ちなさいこらペコリーヌ。
+- wait:
+  - 30
+- print:
+  - キャル
+  - |2-
+
+    コロ助の分の料理はどうしたのよ。
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5058000_101
+- face:
+  - 105812
+  - 6
+- print:
+  - ペコリーヌ
+  - ……へ？　
+- wait:
+  - 20
+- emotion:
+  - exclamation1_R
+  - 105812
+  - 5
+  - 650
+  - se_adv_emote_common_01
+- print:
+  - ペコリーヌ
+  - あっ、
+- wait:
+  - 15
+- print:
+  - ペコリーヌ
+  - あれっ！？
+- wait:
+  - 25
+- print:
+  - ペコリーヌ
+  - |2
+
+- face:
+  - 105812
+  - 4
+- print:
+  - ペコリーヌ
+  - ごめんなさいコッコロちゃん！
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - |2-
+
+    わたしってば
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - うっかりしちゃってました♪
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5058000_102
+- face:
+  - 106012
+  - 4
+- print:
+  - キャル
+  - 間が抜けてるわねー
+- wait:
+  - 45
+- print:
+  - キャル
+  - |2
+
+- face:
+  - 106012
+  - 1
+- print:
+  - キャル
+  - ま、
+- wait:
+  - 30
+- print:
+  - キャル
+  - どうせ珍味が早く食べたくてボーっとしてたんでしょ。
+- wait:
+  - 75
+- print:
+  - キャル
+  - |2
+
+- face:
+  - 106012
+  - 2
+- se:
+  - se_adv_dish_02
+- print:
+  - キャル
+  - ほらコロ助、
+- wait:
+  - 25
+- print:
+  - キャル
+  - あたしの分を先に食べなさい。
+- wait:
+  - 35
+- print:
+  - キャル
+  - 頑張ったご褒美よ！
+- se_pause:
+  - se_adv_dish_02
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5058000_103
+- face:
+  - 105913
+  - 2
+- nod:
+  - 105913
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - コッコロ
+  - ありがとうございます、
+- wait:
+  - 20
+- print:
+  - コッコロ
+  - キャルさま。
+- wait:
+  - 35
+- print:
+  - コッコロ
+  - |2-
+
+    ですがその部位は
+- wait:
+  - 30
+- print:
+  - コッコロ
+  - ペコリーヌさまが
+- wait:
+  - 25
+- print:
+  - コッコロ
+  - キャルさまのために選んだもの。
+- wait:
+  - 45
+- print:
+  - コッコロ
+  - |2-
+
+    キャルさまがお召し上がりになってください。
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5058000_104
+- face:
+  - 106012
+  - 4
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - キャル
+  - …………
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2.8
+  - 1
+- fadeout_all:
+  - 30
+- white_out:
+  - 1
+  - 1
+- bg_color:
+  - 255
+  - 255
+  - 255
+- still:
+  - 505800001
+- se:
+  - se_adv_body_shake_off_01
+- se:
+  - se_adv_cloth_move_normal_03
+- se:
+  - amb_adv_bonfire_01
+- wait:
+  - 15
+- white_in: *o0
+- window_visible:
+  - true
+- bgm:
+  - bgm_M19
+  - 0
+  - 0
+  - 0
+  - 0.3
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 1
+- vo:
+  - vo_adv_5058000_105
+- face:
+  - 105812
+  - 4
+- print:
+  - ペコリーヌ
+  - 本当にごめんなさいっ、
+- wait:
+  - 15
+- print:
+  - ペコリーヌ
+  - コッコロちゃんっ！
+- wait:
+  - 25
+- print:
+  - ペコリーヌ
+  - |2-
+
+    わたしとしたことが、
+- wait:
+  - 25
+- print:
+  - ペコリーヌ
+  - コッコロちゃんの分を忘れちゃうなんて～っ！
+- wait:
+  - 40
+- print:
+  - ペコリーヌ
+  - |2-
+
+    すみません、
+- wait:
+  - 15
+- print:
+  - ペコリーヌ
+  - 申し訳ありません、
+- wait:
+  - 25
+- print:
+  - ペコリーヌ
+  - 土下座しますのでなにとぞ～っ！
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 1
+- vo:
+  - vo_adv_5058000_106
+- face:
+  - 105913
+  - 6
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - コッコロ
+  - ペ、
+- wait:
+  - 10
+- print:
+  - コッコロ
+  - ペコリーヌさま、
+- wait:
+  - 30
+- print:
+  - コッコロ
+  - おやめください……！
+- wait:
+  - 30
+- print:
+  - コッコロ
+  - |2
+
+- face:
+  - 105913
+  - 2
+- print:
+  - コッコロ
+  - わたくしは平気ですので……！
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 1
+- vo:
+  - vo_adv_5058000_107
+- face:
+  - 105812
+  - 4
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - ペコリーヌ
+  - いいえだめです！
+- wait:
+  - 25
+- print:
+  - ペコリーヌ
+  - |2-
+
+    忘れられるのは、
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - とっても悲しくて、
+- wait:
+  - 30
+- print:
+  - ペコリーヌ
+  - つらいことなんです……！
+- wait:
+  - 30
+- print:
+  - ペコリーヌ
+  - |2-
+
+    そんな気持ちを味わわせてしまうなんて、
+- wait:
+  - 45
+- print:
+  - ペコリーヌ
+  - わたし、
+- wait:
+  - 30
+- print:
+  - ペコリーヌ
+  - わたし……！
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 1
+- vo:
+  - vo_adv_5058000_108
+- face:
+  - 106012
+  - 4
+- print:
+  - キャル
+  - ……ペコリーヌ……
+- touch: *o0
+- choice:
+  - 忘れるわけない。
+  - 10
+- tag:
+  - 10
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 1
+- vo:
+  - vo_adv_5058000_109
+- face:
+  - 105812
+  - 6
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ペコリーヌ
+  - ……え？
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 1
+- vo:
+  - vo_adv_5058000_110
+- face:
+  - 105913
+  - 2
+- print:
+  - コッコロ
+  - 主さまの言う通りでございます。
+- wait:
+  - 50
+- print:
+  - コッコロ
+  - |2-
+
+    ペコリーヌさまが
+- wait:
+  - 30
+- print:
+  - コッコロ
+  - わたくしのことを忘れるわけがありません。
+- wait:
+  - 75
+- print:
+  - コッコロ
+  - |2-
+
+    だからわたくし、
+- wait:
+  - 30
+- print:
+  - コッコロ
+  - 何も悲しくも、
+- wait:
+  - 30
+- print:
+  - コッコロ
+  - つらくもないのですよ……♪
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 1
+- vo:
+  - vo_adv_5058000_111
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - コッコロちゃん……
+- wait:
+  - 35
+- face:
+  - 105812
+  - 2
+- print:
+  - ペコリーヌ
+  - ありがとうございます……！
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 1
+- vo:
+  - vo_adv_5058000_112
+- face:
+  - 106012
+  - 1
+- se:
+  - se_adv_handclap_01
+- print:
+  - キャル
+  - は
+- se_pause:
+  - se_adv_handclap_01
+  - 0.4
+- print:
+  - キャル
+  - いはい、
+- wait:
+  - 25
+- print:
+  - キャル
+  - 食事ができてるのに
+- wait:
+  - 20
+- print:
+  - キャル
+  - いつまでも話し込んでんじゃないわよ。
+- wait:
+  - 40
+- print:
+  - キャル
+  - |2
+
+- face:
+  - 106012
+  - 2
+- print:
+  - キャル
+  - 珍味が待ってるわよ。
+- wait:
+  - 30
+- print:
+  - キャル
+  - 冷めちゃう前に、
+- wait:
+  - 20
+- print:
+  - キャル
+  - さっさと食べちゃいましょ。
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 1
+- vo:
+  - vo_adv_5058000_113
+- face:
+  - 105812
+  - 2
+- print:
+  - ペコリーヌ
+  - はいっ、
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - 待っててくださいねコッコロちゃん！
+- wait:
+  - 25
+- print:
+  - ペコリーヌ
+  - |2-
+
+    今大盛りで持ってきますから☆
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 1
+- vo:
+  - vo_adv_5058000_114
+- face:
+  - 105913
+  - 6
+- print:
+  - コッコロ
+  - あ、
+- wait:
+  - 15
+- print:
+  - コッコロ
+  - あの、
+- wait:
+  - 25
+- print:
+  - コッコロ
+  - ほどほどで大丈夫ですので……
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 1
+- vo:
+  - vo_adv_5058000_115
+- face:
+  - 105812
+  - 1
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - ペコリーヌ
+  - いいえ！　
+- wait:
+  - 25
+- print:
+  - ペコリーヌ
+  - い～
+- wait:
+  - 10
+- print:
+  - ペコリーヌ
+  - っぱい食べてくださいね！
+- wait:
+  - 25
+- print:
+  - ペコリーヌ
+  - |2
+
+- face:
+  - 105812
+  - 2
+- print:
+  - ペコリーヌ
+  - でないとわたしの気が済みませんから！
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 1
+- vo:
+  - vo_adv_5058000_116
+- face:
+  - 105913
+  - 2
+- print:
+  - コッコロ
+  - ……ふふっ。
+- wait:
+  - 30
+- print:
+  - コッコロ
+  - |2-
+
+    主さま、
+- wait:
+  - 35
+- print:
+  - コッコロ
+  - 一緒に食べるのを手伝ってくださいましね。
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - 楽しい食卓を囲む【美食殿】のメンバーたち。
+- wait:
+  - 30
+- print:
+  - ナレーション
+  - |2-
+
+    いつの間にか当たり前の日常となった光景が、そこには広がっていた。
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- se_pause:
+  - amb_adv_bonfire_01
+  - 1
+- bgm:
+  - stop
+  - 1
+- se_pause:
+  - amb_adv_outdoors_night_02
+  - 1
+- black_out:
+  - 1
+  - 1
+- still:
+  - end
+- end: *o0

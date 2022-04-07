@@ -1,0 +1,882 @@
+- title:
+  - 天下分け目の釣り決戦
+- outline:
+  - 王城前でクリスティーナたちの釣り勝負に巻き込まれた{0}は、ラビリスタの機転でこれを脱する。目的の封筒を受け取り、ジュンやラビリスタの応援を受けながら次の目的地を目指すのだった。
+- background:
+  - 500090
+- se:
+  - amb_adv_wind_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 天下分け目の釣り決戦
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - ギルド管理協会の年間活動記録をまとめるため、
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    王宮を訪れた{0}──
+- wait:
+  - 30
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 107111
+  - LC
+  - 1
+- chara_full:
+  - 104711
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M129_Ver2_NoB
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 107111
+- bust:
+  - 107111
+  - 0
+- vo:
+  - vo_adv_9004012_000
+- face:
+  - 107111
+  - 1
+- nod:
+  - 107111
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - クリスティーナ
+  - ──よし、
+- wait:
+  - 15
+- print:
+  - クリスティーナ
+  - 団長。
+- wait:
+  - 35
+- print:
+  - クリスティーナ
+  - |2-
+
+    ワタシと共に、
+- wait:
+  - 35
+- print:
+  - クリスティーナ
+  - 荒れ狂う大海へと漕ぎ出そうじゃないか！
+- touch: *o0
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_9004012_001
+- face:
+  - 104711
+  - 1
+- emotion:
+  - sweat1_R
+  - 104711
+  - 95
+  - 575
+  - se_adv_emote_sweat_01
+- print:
+  - ジュン
+  - 待ってくれ、
+- wait:
+  - 5
+- print:
+  - ジュン
+  - クリスちゃん。
+- wait:
+  - 25
+- print:
+  - ジュン
+  - |2-
+
+    私は職務でここを離れられないと、
+- wait:
+  - 50
+- print:
+  - ジュン
+  - 何度も言って……
+- touch: *o0
+- choice:
+  - こんにちは。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 107111
+- bust:
+  - 107111
+  - 0
+- vo:
+  - vo_adv_9004012_002
+- face:
+  - 107111
+  - 6
+- print:
+  - クリスティーナ
+  - オマエ、
+- wait:
+  - 25
+- print:
+  - クリスティーナ
+  - 来ていたのか。
+- wait:
+  - 25
+- print:
+  - クリスティーナ
+  - |2
+
+- face:
+  - 107111
+  - 1
+- print:
+  - クリスティーナ
+  - いやなに、
+- wait:
+  - 30
+- print:
+  - クリスティーナ
+  - そこのおチビちゃんから面白い話を耳にしてな。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106113
+  - LC
+  - 2
+- chara_full:
+  - 107011
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_9004012_003
+- face:
+  - 106113
+  - 2
+- print:
+  - ムイミ
+  - オマエたち、
+- wait:
+  - 25
+- print:
+  - ムイミ
+  - こないだの年末も駆け回ってたんだってな。
+- wait:
+  - 50
+- print:
+  - ムイミ
+  - |2-
+
+    ネネカから話は聞いてるぞ！
+- touch: *o0
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_9004012_004
+- face:
+  - 107011
+  - 2
+- print:
+  - ネネカ
+  - 縁起物の食材を探しに、
+- wait:
+  - 55
+- print:
+  - ネネカ
+  - 思い出の街を訪れたそうですね。
+- wait:
+  - 75
+- print:
+  - ネネカ
+  - |2-
+
+    立ち寄ったオーマの町で、
+- wait:
+  - 40
+- print:
+  - ネネカ
+  - 再びトゥンヌス釣りに挑戦したとも。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 107111
+  - LC
+  - 1
+- chara_full:
+  - 106812
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 107111
+- bust:
+  - 107111
+  - 0
+- vo:
+  - vo_adv_9004012_005
+- face:
+  - 107111
+  - 1
+- nod:
+  - 107111
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - クリスティーナ
+  - そう、
+- wait:
+  - 25
+- print:
+  - クリスティーナ
+  - そのトゥンヌス釣りだ。
+- wait:
+  - 55
+- print:
+  - クリスティーナ
+  - |2-
+
+    美食のため、
+- wait:
+  - 35
+- print:
+  - クリスティーナ
+  - 人跡未踏の秘境を行脚するオマエたちほどではないが、
+- wait:
+  - 100
+- print:
+  - クリスティーナ
+  - |2-
+
+    ワタシも大抵の高級食材は食らい尽くしてしまったからな。
+- touch: *o0
+- focus:
+  - 107111
+- bust:
+  - 107111
+  - 0
+- vo:
+  - vo_adv_9004012_006
+- face:
+  - 107111
+  - 2
+- print:
+  - クリスティーナ
+  - 現地でしか味わえない極上の美味。
+- wait:
+  - 75
+- print:
+  - クリスティーナ
+  - |2-
+
+    それを、
+- wait:
+  - 30
+- print:
+  - クリスティーナ
+  - 己の力で手に入れるという経験も悪くない。
+- wait:
+  - 100
+- print:
+  - クリスティーナ
+  - |2
+
+- face:
+  - 107111
+  - 1
+- print:
+  - クリスティーナ
+  - 一時の退屈しのぎにはなるだろうよ。
+- wait:
+  - 80
+- print:
+  - クリスティーナ
+  - そうだ、
+- wait:
+  - 25
+- print:
+  - クリスティーナ
+  - オマエも──
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_9004012_007
+- face:
+  - 106812
+  - 6
+- print:
+  - ラビリスタ
+  - あんまりみんなを困らせちゃだめだよ、
+- wait:
+  - 25
+- print:
+  - ラビリスタ
+  - クリス。
+- wait:
+  - 25
+- print:
+  - ラビリスタ
+  - |2
+
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - 少年は用事があって王宮まで来たんじゃないかな？
+- wait:
+  - 55
+- print:
+  - ラビリスタ
+  - |2-
+
+    お目当ては──
+- wait:
+  - 30
+- nod:
+  - 106812
+- se:
+  - se_adv_paper_move_01
+- print:
+  - ラビリスタ
+  - この封筒、
+- wait:
+  - 25
+- print:
+  - ラビリスタ
+  - だったりして。
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_9004012_008
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - はい、
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - じゃあ確かに渡したよ。
+- wait:
+  - 55
+- print:
+  - ラビリスタ
+  - これでアタシの任務達成！
+- wait:
+  - 75
+- print:
+  - ラビリスタ
+  - |2
+
+- face:
+  - 106812
+  - 6
+- print:
+  - ラビリスタ
+  - といきたいところだけど……
+- wait:
+  - 90
+- print:
+  - ラビリスタ
+  - |2
+
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - さっきの釣りの話、
+- wait:
+  - 50
+- print:
+  - ラビリスタ
+  - アタシでどう？　
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - 勝負しようよ。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106113
+  - LC
+  - 2
+- chara_full:
+  - 107011
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_9004012_009
+- face:
+  - 107011
+  - 6
+- print:
+  - ネネカ
+  - ほう……？　
+- wait:
+  - 35
+- face:
+  - 107011
+  - 2
+- print:
+  - ネネカ
+  - 異存はありません、
+- wait:
+  - 40
+- print:
+  - ネネカ
+  - いいでしょう。
+- wait:
+  - 40
+- print:
+  - ネネカ
+  - |2-
+
+    貴方の吠え面を
+- wait:
+  - 45
+- print:
+  - ネネカ
+  - 一度見てみたいと思っていました。
+- touch: *o0
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_9004012_010
+- face:
+  - 106113
+  - 2
+- nod:
+  - 106113
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - ムイミ
+  - あっはっはっ！　
+- wait:
+  - 30
+- print:
+  - ムイミ
+  - いいじゃないか、
+- wait:
+  - 15
+- print:
+  - ムイミ
+  - 楽しそうでさ！
+- wait:
+  - 35
+- print:
+  - ムイミ
+  - |2-
+
+    それなら
+- wait:
+  - 15
+- print:
+  - ムイミ
+  - ４人で釣り勝負だな！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 104711
+  - C
+  - 1
+- fadein:
+  - 104711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_9004012_011
+- face:
+  - 104711
+  - 1
+- print:
+  - ジュン
+  - ……ふふっ、
+- wait:
+  - 50
+- print:
+  - ジュン
+  - なるほど。
+- wait:
+  - 45
+- print:
+  - ジュン
+  - 優しい人だね、
+- wait:
+  - 25
+- print:
+  - ジュン
+  - 彼女は。
+- wait:
+  - 75
+- print:
+  - ジュン
+  - |2-
+
+    私と少年に向けられた参加への期待を、
+- wait:
+  - 75
+- print:
+  - ジュン
+  - 代理として請け負う事で
+- wait:
+  - 25
+- print:
+  - ジュン
+  - |2-
+
+    うまくかわしつつ、
+- wait:
+  - 40
+- print:
+  - ジュン
+  - やるべき事へと導いてくれる。
+- touch: *o0
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_9004012_012
+- face:
+  - 104711
+  - 1
+- print:
+  - ジュン
+  - 少年も、
+- wait:
+  - 40
+- print:
+  - ジュン
+  - 迷惑をかけたようですまなかったね。
+- wait:
+  - 85
+- print:
+  - ジュン
+  - |2-
+
+    クリスちゃんが私を誘ったのも……
+- wait:
+  - 70
+- print:
+  - ジュン
+  - これは私の憶測だけど、
+- wait:
+  - 65
+- print:
+  - ジュン
+  - |2-
+
+    釣りを言い分に
+- wait:
+  - 30
+- print:
+  - ジュン
+  - 休暇を取らせようとしていたのかもしれないな。
+- touch: *o0
+- focus:
+  - 104711
+- bust:
+  - 104711
+  - 0
+- vo:
+  - vo_adv_9004012_013
+- face:
+  - 104711
+  - 1
+- nod:
+  - 104711
+- se:
+  - se_adv_stepadd_armor_heavy_01_move_01
+- print:
+  - ジュン
+  - しかし、
+- wait:
+  - 40
+- print:
+  - ジュン
+  - ここを守るのが私の仕事。
+- wait:
+  - 75
+- print:
+  - ジュン
+  - 誇りある職務だ。
+- wait:
+  - 65
+- print:
+  - ジュン
+  - |2-
+
+    だから共に行けない代わりに、
+- wait:
+  - 45
+- print:
+  - ジュン
+  - 君の背中を送り出すとしよう。
+- wait:
+  - 80
+- print:
+  - ジュン
+  - |2-
+
+    行ってらっしゃい、
+- wait:
+  - 20
+- print:
+  - ジュン
+  - 少年。
+- wait:
+  - 45
+- print:
+  - ジュン
+  - これからも君の背中は、
+- wait:
+  - 55
+- print:
+  - ジュン
+  - 私が守ってみせるよ。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 104711
+  - 30
+- se:
+  - se_adv_magic_wind_small_01
+- chara_full:
+  - 106811
+  - C
+  - 6
+- fadein:
+  - 106811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106811
+- bust:
+  - 106811
+  - 0
+- vo:
+  - vo_adv_9004012_014
+- face:
+  - 106811
+  - 6
+- print:
+  - ラビリスタ
+  - おっと、
+- wait:
+  - 10
+- print:
+  - ラビリスタ
+  - そうだ。
+- wait:
+  - 20
+- face:
+  - 106811
+  - 2
+- print:
+  - ラビリスタ
+  - 最後に一つ、
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - 少年にちょっとだけ
+- wait:
+  - 25
+- print:
+  - ラビリスタ
+  - 手助けしてあげよう。
+- wait:
+  - 45
+- print:
+  - ラビリスタ
+  - |2-
+
+    次に向かうべき目的地へのショートカットってやつさ。
+- wait:
+  - 75
+- print:
+  - ラビリスタ
+  - |2
+
+- nod:
+  - 106811
+- se:
+  - se_adv_mystery_effect_01
+- print:
+  - ラビリスタ
+  - ──オブジェクト変更。
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - 接続座標は……
+- wait:
+  - 75
+- print:
+  - ラビリスタ
+  - この辺かな？
+- touch: *o0
+- focus:
+  - 106811
+- bust:
+  - 106811
+  - 0
+- vo:
+  - vo_adv_9004012_015
+- face:
+  - 106811
+  - 2
+- print:
+  - ラビリスタ
+  - よし、
+- wait:
+  - 35
+- print:
+  - ラビリスタ
+  - それじゃあ行っておいで！
+- wait:
+  - 25
+- print:
+  - ラビリスタ
+  - |2-
+
+    キミが作り出してゆく未来に、
+- wait:
+  - 50
+- print:
+  - ラビリスタ
+  - 太陽と星の祝福を。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 106811
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - 温かい眼差し、そして応援の声に力強く応えながら、
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    {0}は次の目的地へと向かうのだった──
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 1
+  - 1
+- se_pause:
+  - amb_adv_wind_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

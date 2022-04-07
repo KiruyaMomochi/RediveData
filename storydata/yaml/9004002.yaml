@@ -1,0 +1,757 @@
+- title:
+  - 気心知れた舞踏会
+- outline:
+  - 貴族の屋敷を訪れた{0}は舞踏会の練習をするリマたちとそれを見守るリン、マヒルに出会う。しばし談笑の後、活動記録の封筒を受け取った{0}は次の目的地を目指す。
+- background:
+  - 501250
+- se:
+  - amb_adv_room_noise_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 気心知れた舞踏会
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - ギルド管理協会からの依頼を受けた
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    {0}はある屋敷を訪れていた。
+- wait:
+  - 30
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 104311
+  - LC
+  - 1
+- chara_full:
+  - 101011
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M452
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 104311
+- bust:
+  - 104311
+  - 0
+- vo:
+  - vo_adv_9004002_000
+- face:
+  - 104311
+  - 1
+- nod:
+  - 104311
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - マコト
+  - ワン・ツー・スリー、
+- wait:
+  - 20
+- nod:
+  - 104311
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - マコト
+  - ワン・ツー・スリー……
+- wait:
+  - 45
+- print:
+  - マコト
+  - |2
+
+- face:
+  - 104311
+  - 2
+- print:
+  - マコト
+  - へへっ、
+- wait:
+  - 25
+- print:
+  - マコト
+  - どうだ姫さん。
+- wait:
+  - 30
+- print:
+  - マコト
+  - あたしのリードも見事なもんだろ？
+- touch: *o0
+- face:
+  - 104311
+  - 1
+- focus:
+  - 101011
+- bust:
+  - 101011
+  - 0
+- vo:
+  - vo_adv_9004002_001
+- face:
+  - 101011
+  - 2
+- print:
+  - マホ
+  - えぇ……
+- wait:
+  - 30
+- print:
+  - マホ
+  - マコトはん、
+- wait:
+  - 45
+- print:
+  - マホ
+  - ほんまキレイやわぁ。
+- wait:
+  - 90
+- print:
+  - マホ
+  - |2
+
+- face:
+  - 101011
+  - 1
+- print:
+  - マホ
+  - 物語のお姫はんが
+- wait:
+  - 55
+- print:
+  - マホ
+  - 飛び出してきたみたいどすえ。
+- touch: *o0
+- focus:
+  - 104311
+- bust:
+  - 104311
+  - 0
+- vo:
+  - vo_adv_9004002_002
+- face:
+  - 104311
+  - 6
+- print:
+  - マコト
+  - 姫さんに褒められて悪い気はしねぇけど……
+- wait:
+  - 65
+- print:
+  - マコト
+  - |2
+
+- face:
+  - 104311
+  - 5
+- print:
+  - マコト
+  - なんつーか、
+- wait:
+  - 15
+- print:
+  - マコト
+  - 背中がかゆくなっちまうんだよな。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105213
+  - L
+  - 2
+- chara_full:
+  - 102611
+  - C
+  - 1
+- chara_full:
+  - 103311
+  - R
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_9004002_003
+- face:
+  - 105213
+  - 2
+- print:
+  - リマ
+  - マコトちゃんったら
+- wait:
+  - 25
+- print:
+  - リマ
+  - そんなに照れなくていいのに♪
+- wait:
+  - 50
+- print:
+  - リマ
+  - |2
+
+- face:
+  - 105213
+  - 1
+- print:
+  - リマ
+  - じゃあ、
+- wait:
+  - 20
+- print:
+  - リマ
+  - 次は私の相手をお願いしようかしら。
+- touch: *o0
+- focus:
+  - 103311
+- bust:
+  - 103311
+  - 0
+- vo:
+  - vo_adv_9004002_004
+- face:
+  - 103311
+  - 1
+- print:
+  - マヒル
+  - にしても、
+- wait:
+  - 20
+- print:
+  - マヒル
+  - リマリマが楽しそうでよかったべ。
+- wait:
+  - 60
+- print:
+  - マヒル
+  - |2-
+
+    こういうキラキラした世界に
+- wait:
+  - 30
+- print:
+  - マヒル
+  - ずっと憧れてたかんな。
+- touch: *o0
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_9004002_005
+- face:
+  - 105213
+  - 2
+- emotion:
+  - note1_L
+  - 105213
+  - -80
+  - 530
+  - se_adv_emote_note_01
+- print:
+  - リマ
+  - ええ。
+- wait:
+  - 25
+- print:
+  - リマ
+  - |-
+    こんな素敵な時間を
+    一緒に過ごせるなんて
+- wait:
+  - 40
+- print:
+  - リマ
+  - 夢みたい♪
+- touch: *o0
+- focus:
+  - 102611
+- bust:
+  - 102611
+  - 0
+- vo:
+  - vo_adv_9004002_006
+- face:
+  - 102611
+  - 6
+- print:
+  - リン
+  - みんな、
+- wait:
+  - 25
+- print:
+  - リン
+  - よく楽しそうに踊るねぇ。
+- wait:
+  - 60
+- print:
+  - リン
+  - |2
+
+- face:
+  - 102611
+  - 5
+- print:
+  - リン
+  - あたしは踊るよりも、
+- wait:
+  - 40
+- print:
+  - リン
+  - それを眺めてる方がいいかなぁ。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- chara_full:
+  - 104311
+  - LC
+  - 1
+- chara_full:
+  - 101011
+  - RC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 101011
+- bust:
+  - 101011
+  - 0
+- vo:
+  - vo_adv_9004002_007
+- face:
+  - 101011
+  - 2
+- print:
+  - マホ
+  - ふふっ、
+- wait:
+  - 45
+- print:
+  - マホ
+  - みんな楽しそうでなによりや。
+- wait:
+  - 65
+- print:
+  - マホ
+  - |2
+
+- face:
+  - 101011
+  - 1
+- print:
+  - マホ
+  - な、
+- wait:
+  - 30
+- print:
+  - マホ
+  - 王子はん？
+- touch: *o0
+- focus:
+  - 104311
+- bust:
+  - 104311
+  - 0
+- vo:
+  - vo_adv_9004002_008
+- face:
+  - 104311
+  - 5
+- emotion:
+  - surprise1_L
+  - 104311
+  - 150
+  - 585
+  - se_adv_emote_common_01
+- print:
+  - マコト
+  - お、おまえ、
+- wait:
+  - 25
+- print:
+  - マコト
+  - 来てたのかよ！？
+- wait:
+  - 35
+- print:
+  - マコト
+  - |2-
+
+    声くらいかけろよな？
+- touch: *o0
+- choice:
+  - 練習を邪魔しちゃいけないと思って。
+  - 1
+- tag:
+  - 1
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105213
+  - L
+  - 1
+- chara_full:
+  - 102611
+  - C
+  - 3
+- chara_full:
+  - 103311
+  - R
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102611
+- bust:
+  - 102611
+  - 0
+- vo:
+  - vo_adv_9004002_009
+- face:
+  - 102611
+  - 3
+- print:
+  - リン
+  - あ、
+- wait:
+  - 15
+- print:
+  - リン
+  - やっと来た。
+- wait:
+  - 30
+- print:
+  - リン
+  - もー遅いよー
+- wait:
+  - 70
+- print:
+  - リン
+  - |2
+
+- face:
+  - 102611
+  - 4
+- print:
+  - リン
+  - 待ちくたびれて寝ちゃうところだったじゃん。
+- touch: *o0
+- focus:
+  - 103311
+- bust:
+  - 103311
+  - 0
+- vo:
+  - vo_adv_9004002_010
+- face:
+  - 103311
+  - 6
+- print:
+  - マヒル
+  - リンリンはそこでだらーっとしてただけだべ？
+- wait:
+  - 55
+- print:
+  - マヒル
+  - |2
+
+- face:
+  - 103311
+  - 1
+- nod:
+  - 103311
+- se:
+  - se_adv_paper_move_01
+- print:
+  - マヒル
+  - ほい、
+- wait:
+  - 25
+- print:
+  - マヒル
+  - あんちゃん。
+- wait:
+  - 35
+- print:
+  - マヒル
+  - これが渡したかったもんだべさ。
+- touch: *o0
+- focus:
+  - 102611
+- bust:
+  - 102611
+  - 0
+- vo:
+  - vo_adv_9004002_011
+- face:
+  - 102611
+  - 2
+- print:
+  - リン
+  - ……あ、
+- wait:
+  - 15
+- print:
+  - リン
+  - そうだ。
+- wait:
+  - 30
+- face:
+  - 102611
+  - 1
+- print:
+  - リン
+  - これから帰るんだったら、
+- wait:
+  - 25
+- print:
+  - リン
+  - |2-
+
+    あたしもおぶっていってよ。
+- wait:
+  - 35
+- print:
+  - リン
+  - ついでにさ。
+- touch: *o0
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_9004002_012
+- face:
+  - 105213
+  - 8
+- nod:
+  - 105213
+- print:
+  - リマ
+  - リンちゃん～～？？
+- touch: *o0
+- focus:
+  - 102611
+- bust:
+  - 102611
+  - 0
+- vo:
+  - vo_adv_9004002_013
+- face:
+  - 102611
+  - 4
+- print:
+  - リン
+  - ちぇー、
+- wait:
+  - 15
+- print:
+  - リン
+  - そんなに怒らなくても……
+- wait:
+  - 45
+- print:
+  - リン
+  - |2-
+
+    ちょっとした冗談なのにさ。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 104311
+  - C
+  - 1
+- chara_full:
+  - 105213
+  - L
+  - 1
+- chara_full:
+  - 101011
+  - R
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104311
+- bust:
+  - 104311
+  - 0
+- vo:
+  - vo_adv_9004002_014
+- face:
+  - 104311
+  - 1
+- print:
+  - マコト
+  - これからまた次のとこに行くんだろ。
+- wait:
+  - 50
+- print:
+  - マコト
+  - |2-
+
+    おまえは相変わらず忙しそうだよなぁ。
+- touch: *o0
+- focus:
+  - 105213
+- bust:
+  - 105213
+  - 0
+- vo:
+  - vo_adv_9004002_015
+- face:
+  - 105213
+  - 1
+- print:
+  - リマ
+  - 今度、
+- wait:
+  - 20
+- print:
+  - リマ
+  - みんなで一緒にお茶会しましょうね♪
+- wait:
+  - 40
+- print:
+  - リマ
+  - |2
+
+- face:
+  - 105213
+  - 2
+- print:
+  - リマ
+  - ふふっ、
+- wait:
+  - 25
+- print:
+  - リマ
+  - 先々の楽しみがあるって素敵だわ～！
+- touch: *o0
+- focus:
+  - 101011
+- bust:
+  - 101011
+  - 0
+- vo:
+  - vo_adv_9004002_016
+- face:
+  - 101011
+  - 1
+- print:
+  - マホ
+  - これからもよろしゅうな。
+- wait:
+  - 65
+- print:
+  - マホ
+  - |2
+
+- face:
+  - 101011
+  - 2
+- print:
+  - マホ
+  - ほな、
+- wait:
+  - 25
+- print:
+  - マホ
+  - 王子はん。
+- wait:
+  - 30
+- print:
+  - マホ
+  - またな～♪
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - こうして{0}は
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    きらびやかなダンスホールを後に、次の目的地を目指すのだった。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 1
+  - 1
+- se_pause:
+  - amb_adv_room_noise_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

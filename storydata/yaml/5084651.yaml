@@ -1,0 +1,225 @@
+- title:
+  - アユミの想い
+- outline:
+  - 【美食殿】ギルドハウスにて目覚めない{0}を見舞ったあと、一人物思いに耽るアユミ。彼女は{0}が再び目覚めることを強く信じ、願うのだった。
+- background:
+  - 500140
+- amb:
+  - amb_adv_outdoors_day_01
+- situation:
+  - アユミの想い
+- chara_full:
+  - 105511
+  - C
+  - 4
+- fadein:
+  - 105511
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M556_04
+  - 0
+  - 0
+  - 1
+- focus:
+  - 105511
+- bust:
+  - 105511
+  - 0
+- vo:
+  - vo_adv_5084651_000
+- face:
+  - 105511
+  - 4
+- print:
+  - アユミ
+  - '{0}先輩……'
+- wait:
+  - 30
+- print:
+  - アユミ
+  - 大丈夫、
+- wait:
+  - 20
+- print:
+  - アユミ
+  - だよね……
+- wait:
+  - 65
+- print:
+  - アユミ
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - アユミ
+  - でも、
+- wait:
+  - 20
+- print:
+  - アユミ
+  - もう何日も眠っちゃったままだし……
+- wait:
+  - 80
+- print:
+  - アユミ
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - アユミ
+  - もしも、
+- wait:
+  - 10
+- print:
+  - アユミ
+  - ずっとこのままだったら……
+- touch: &o0 []
+- focus:
+  - 105511
+- bust:
+  - 105511
+  - 0
+- vo:
+  - vo_adv_5084651_001
+- face:
+  - 105511
+  - 4
+- emotion:
+  - drop1_R
+  - 105511
+  - 65
+  - 665
+  - se_adv_emote_drop_01
+- print:
+  - アユミ
+  - うう、
+- wait:
+  - 40
+- print:
+  - アユミ
+  - 悪いことばっかり考えちゃう。
+- wait:
+  - 75
+- print:
+  - アユミ
+  - |2-
+
+    こんな形で{0}先輩のことを見つめられても、
+- wait:
+  - 60
+- print:
+  - アユミ
+  - |2-
+
+    全然うれしくないよ……
+- touch: *o0
+- focus:
+  - 105511
+- bust:
+  - 105511
+  - 0
+- vo:
+  - vo_adv_5084651_002
+- face:
+  - 105511
+  - 4
+- print:
+  - アユミ
+  - やっぱり、
+- wait:
+  - 25
+- print:
+  - アユミ
+  - '{0}先輩には笑っていてほしい。'
+- wait:
+  - 60
+- print:
+  - アユミ
+  - |2-
+
+    このままなんて、
+- wait:
+  - 35
+- print:
+  - アユミ
+  - 絶対に嫌……
+- touch: *o0
+- focus:
+  - 105511
+- bust:
+  - 105511
+  - 0
+- vo:
+  - vo_adv_5084651_003
+- face:
+  - 105511
+  - 4
+- nod:
+  - 105511
+- print:
+  - アユミ
+  - 私……
+- wait:
+  - 30
+- print:
+  - アユミ
+  - まだ全然、
+- wait:
+  - 25
+- print:
+  - アユミ
+  - 話せてない。
+- wait:
+  - 70
+- print:
+  - アユミ
+  - |2
+
+- face:
+  - 105511
+  - 6
+- print:
+  - アユミ
+  - 話したいこと、
+- wait:
+  - 35
+- print:
+  - アユミ
+  - 本当はたくさんあるんですよ。
+- wait:
+  - 115
+- print:
+  - アユミ
+  - |2
+
+- face:
+  - 105511
+  - 1
+- print:
+  - アユミ
+  - だから……
+- wait:
+  - 35
+- print:
+  - アユミ
+  - 待ってますね。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105511
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

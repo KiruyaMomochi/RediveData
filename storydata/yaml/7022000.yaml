@@ -1,0 +1,1133 @@
+- title:
+  - 眠り姫と魔法少女
+- outline:
+  - 記憶の手がかりを求めてルナの塔にやってきた{0}とハツネ。超能力を使い塔を登ろうとしたところ、新魔法のヒントを探しに来たナナカに見られてしまうが、なんとか誤魔化し３人で塔を登る。
+- background:
+  - 500420
+- se:
+  - amb_adv_forest_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 眠り姫と魔法少女
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - '{0}の記憶の手がかりを求めて'
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    ルナの塔にやってきたハツネと{0}は
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    天高くそびえたつ塔を見上げていた。
+- wait:
+  - 30
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 101211
+  - C
+  - 6
+- fadein:
+  - 101211
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M156
+  - 0
+  - 0
+  - 1
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_7022000_000
+- face:
+  - 101211
+  - 6
+- print:
+  - ハツネ
+  - ここに{0}くんの記憶の手がかりがあるんだね！
+- wait:
+  - 65
+- print:
+  - ハツネ
+  - |2-
+
+    すごく高いね～
+- wait:
+  - 50
+- print:
+  - ハツネ
+  - 頂上が見えないよ。
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_7022000_001
+- face:
+  - 101211
+  - 1
+- emotion:
+  - notice2_L
+  - 101211
+  - -115
+  - 550
+  - se_adv_emote_nortice_01
+- print:
+  - ハツネ
+  - そうだ！
+- wait:
+  - 40
+- print:
+  - ハツネ
+  - |2
+
+- face:
+  - 101211
+  - 2
+- print:
+  - ハツネ
+  - 私の超能力で
+- wait:
+  - 40
+- print:
+  - ハツネ
+  - 瞬間移動できないかな？
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_7022000_002
+- face:
+  - 101211
+  - 1
+- print:
+  - ハツネ
+  - できちゃったら
+- wait:
+  - 25
+- print:
+  - ハツネ
+  - キミの記憶の手がかりも
+- wait:
+  - 20
+- print:
+  - ハツネ
+  - |2-
+
+    探しやすいよね！
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_7022000_003
+- face:
+  - 101211
+  - 2
+- print:
+  - ハツネ
+  - そうと決まったら
+- wait:
+  - 50
+- face:
+  - 101211
+  - 2
+- print:
+  - ハツネ
+  - さっそくやってみよ～！
+- wait:
+  - 45
+- print:
+  - ハツネ
+  - |2
+
+- nod:
+  - 101211
+- face:
+  - 101211
+  - 1
+- print:
+  - ハツネ
+  - さ
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ハツネ
+  - 、
+- wait:
+  - 20
+- print:
+  - ハツネ
+  - 私につかまって。
+- wait:
+  - 50
+- print:
+  - ハツネ
+  - いっくよ～！
+- wait:
+  - 45
+- print:
+  - ハツネ
+  - |2
+
+- face:
+  - 101211
+  - 6
+- print:
+  - ハツネ
+  - きらー……
+- touch: *o0
+- bgm:
+  - stop
+  - 11
+  - 1
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_7022000_004
+- face:
+  - 1
+  - 1
+- print:
+  - ？？？
+  - おー！　
+- wait:
+  - 35
+- print:
+  - ？？？
+  - こんなところで会うとは奇遇ですな！
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_7022000_005
+- face:
+  - 101211
+  - 6
+- print:
+  - ハツネ
+  - え？
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_magic_hatsune_01
+- fadeout:
+  - 101211
+  - 30
+- white_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- white_in: *o0
+- chara_full:
+  - 101311
+  - LC
+  - 6
+- se:
+  - se_adv_step_leaves_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 101311
+  - 45
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M422
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022000_006
+- face:
+  - 101311
+  - 6
+- emotion:
+  - question1_R
+  - 101311
+  - 125
+  - 480
+  - se_adv_emote_question_01
+- print:
+  - ナナカ
+  - ……あれ？　
+- wait:
+  - 30
+- face:
+  - 101311
+  - 4
+- print:
+  - ナナカ
+  - おっかしいなぁ。
+- wait:
+  - 30
+- print:
+  - ナナカ
+  - |2-
+
+    確かに{0}君とハツネたそが
+- wait:
+  - 10
+- print:
+  - ナナカ
+  - |2-
+
+    居たと思うんだけど……
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022000_007
+- face:
+  - 101311
+  - 4
+- print:
+  - ナナカ
+  - 待て待て。
+- wait:
+  - 25
+- eye_open:
+  - False
+- print:
+  - ナナカ
+  - 素数を考えて落ち着くでござるよ。
+- wait:
+  - 60
+- print:
+  - ナナカ
+  - |2-
+
+    ここは色々な噂を聞くルナの塔。
+- wait:
+  - 55
+- print:
+  - ナナカ
+  - |2
+
+- eye_open:
+  - True
+- face:
+  - 101311
+  - 6
+- print:
+  - ナナカ
+  - 何かしらの幻影魔法という可能性もあるのでは？
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022000_008
+- face:
+  - 101311
+  - 6
+- print:
+  - ナナカ
+  - それは…………
+- wait:
+  - 40
+- pop:
+  - 101311
+- face:
+  - 101311
+  - 2
+- print:
+  - ナナカ
+  - く
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - ナナカ
+  - ぅーーーーーー！　
+- wait:
+  - 35
+- print:
+  - ナナカ
+  - 燃えてきますな！
+- wait:
+  - 55
+- print:
+  - ナナカ
+  - |2-
+
+    新しい魔法のヒントを探しに来たかいが
+- wait:
+  - 40
+- print:
+  - ナナカ
+  - あるってもんだね！
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022000_009
+- face:
+  - 101311
+  - 1
+- print:
+  - ナナカ
+  - 待ってろよ
+- wait:
+  - 35
+- print:
+  - ナナカ
+  - 難攻不落のルナの塔、
+- wait:
+  - 60
+- print:
+  - ナナカ
+  - |-
+    サイカワサイツヨな
+    ナナカちゃんが攻略しちゃ……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101311
+  - 30
+- se:
+  - se_adv_magic_cmn_warp_01
+- white_out:
+  - 1
+  - 0.2
+- wait:
+  - 15
+- white_in: *o0
+- chara_full:
+  - 101211
+  - C
+  - 6
+- fadein:
+  - 101211
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - stop
+  - 11.5
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_7022000_010
+- face:
+  - 101211
+  - 6
+- print:
+  - ハツネ
+  - あ、
+- wait:
+  - 15
+- print:
+  - ハツネ
+  - あれ？
+- wait:
+  - 45
+- print:
+  - ハツネ
+  - |2
+
+- face:
+  - 101211
+  - 4
+- print:
+  - ハツネ
+  - 塔の上を目指したはずなのに
+- wait:
+  - 40
+- print:
+  - ハツネ
+  - さっきの場所に戻ってきちゃった。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101211
+  - 30
+- chara_full:
+  - 101211
+  - LC
+  - 4
+- chara_full:
+  - 101311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M317
+  - 0
+  - 0
+  - 1
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022000_011
+- face:
+  - 101311
+  - 6
+- emotion:
+  - surprise1_L
+  - 101311
+  - 165
+  - 525
+  - se_adv_emote_common_01
+- print:
+  - ナナカ
+  - な、
+- wait:
+  - 20
+- print:
+  - ナナカ
+  - なに～～！？
+- wait:
+  - 30
+- print:
+  - ナナカ
+  - |2-
+
+    親方！　
+- wait:
+  - 15
+- print:
+  - ナナカ
+  - 塔から急に美少女と{0}君が～～！！
+- wait:
+  - 65
+- print:
+  - ナナカ
+  - |2
+
+- face:
+  - 101311
+  - 4
+- print:
+  - ナナカ
+  - また幻影魔法！？
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_7022000_012
+- face:
+  - 101211
+  - 6
+- nod:
+  - 101211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ハツネ
+  - へっ！？　
+- wait:
+  - 40
+- print:
+  - ハツネ
+  - あ！　
+- wait:
+  - 35
+- face:
+  - 101211
+  - 1
+- print:
+  - ハツネ
+  - さっきの声はナナカちゃんだったんだね。
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022000_013
+- face:
+  - 101311
+  - 6
+- print:
+  - ナナカ
+  - シャベッタ！？
+- wait:
+  - 25
+- print:
+  - ナナカ
+  - |2-
+
+    ま、
+- wait:
+  - 25
+- print:
+  - ナナカ
+  - まさか
+- wait:
+  - 30
+- print:
+  - ナナカ
+  - 本物のハツネたそでござるか！？
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022000_014
+- face:
+  - 101311
+  - 6
+- print:
+  - ナナカ
+  - それじゃあ
+- wait:
+  - 20
+- print:
+  - ナナカ
+  - さっきの魔法はハツネたその！？
+- wait:
+  - 80
+- print:
+  - ナナカ
+  - |2
+
+- nod:
+  - 101311
+- face:
+  - 101311
+  - 2
+- print:
+  - ナナカ
+  - す
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ナナカ
+  - ごい！　
+- wait:
+  - 30
+- print:
+  - ナナカ
+  - 見たことがない魔法だったよ！
+- wait:
+  - 35
+- print:
+  - ナナカ
+  - |2
+
+- face:
+  - 101311
+  - 1
+- print:
+  - ナナカ
+  - も、
+- wait:
+  - 30
+- print:
+  - ナナカ
+  - もしよければ
+- wait:
+  - 30
+- print:
+  - ナナカ
+  - 拙者にご教授いただけませぬか！
+- touch: *o0
+- bgm:
+  - stop
+  - 18.5
+  - 1
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_7022000_015
+- face:
+  - 101211
+  - 6
+- print:
+  - ハツネ
+  - え？　
+- wait:
+  - 30
+- print:
+  - ハツネ
+  - あ、
+- wait:
+  - 30
+- face:
+  - 101211
+  - 4
+- print:
+  - ハツネ
+  - えっと……
+- wait:
+  - 40
+- print:
+  - ハツネ
+  - それは……
+- wait:
+  - 45
+- eye_open:
+  - False
+- print:
+  - ハツネ
+  - んんぅ、
+- wait:
+  - 40
+- print:
+  - ハツネ
+  - |2-
+
+    力を使ったから眠くなってきちゃった。
+- wait:
+  - 100
+- print:
+  - ハツネ
+  - |2
+
+- eye_open:
+  - True
+- face:
+  - 101211
+  - 6
+- print:
+  - ハツネ
+  - ごめん、
+- wait:
+  - 30
+- print:
+  - ハツネ
+  - ちょっとだけ寝るね～
+- touch: *o0
+- bgm:
+  - bgm_M51
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_7022000_016
+- face:
+  - 101211
+  - 1
+- emotion:
+  - sleep1_L
+  - 101211
+  - -85
+  - 485
+  - se_adv_emote_sleep_01
+- eye_open:
+  - False
+- print:
+  - ハツネ
+  - スヤ～
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022000_017
+- face:
+  - 101311
+  - 6
+- print:
+  - ナナカ
+  - ネチャッタ！？
+- wait:
+  - 20
+- print:
+  - ナナカ
+  - |2-
+
+    ど、
+- wait:
+  - 25
+- print:
+  - ナナカ
+  - どういうことなの？　{0}君！
+- touch: *o0
+- choice:
+  - 力を使うと寝ちゃうんだ。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022000_018
+- face:
+  - 101311
+  - 4
+- print:
+  - ナナカ
+  - 代償を伴う魔法……
+- wait:
+  - 70
+- print:
+  - ナナカ
+  - よっぽど強力なんだね。
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_7022000_019
+- face:
+  - 101211
+  - 1
+- eye_open:
+  - False
+- emotion:
+  - sleep1_L
+  - 101211
+  - -85
+  - 485
+  - se_adv_emote_sleep_01
+- print:
+  - ハツネ
+  - スヤスヤ～
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022000_020
+- face:
+  - 101311
+  - 1
+- print:
+  - ナナカ
+  - にしては
+- wait:
+  - 35
+- print:
+  - ナナカ
+  - 穏やかでかわいらしい寝顔ですな～
+- wait:
+  - 60
+- print:
+  - ナナカ
+  - |2
+
+- face:
+  - 101311
+  - 2
+- print:
+  - ナナカ
+  - 見ていると癒されまする～
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022000_021
+- face:
+  - 101311
+  - 6
+- print:
+  - ナナカ
+  - って、
+- wait:
+  - 20
+- print:
+  - ナナカ
+  - 見惚れてる場合じゃなかった。
+- wait:
+  - 60
+- print:
+  - ナナカ
+  - |2-
+
+    君たちは
+- wait:
+  - 30
+- print:
+  - ナナカ
+  - なんでここに居るの……？
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 101211
+  - LC
+  - 1
+  - 1
+- chara_full:
+  - 101311
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M203
+  - 0
+  - 0
+  - 1
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022000_022
+- face:
+  - 101311
+  - 1
+- nod:
+  - 101311
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - ナナカ
+  - なるほど！
+- wait:
+  - 35
+- print:
+  - ナナカ
+  - |2
+
+- face:
+  - 101311
+  - 2
+- print:
+  - ナナカ
+  - ここには君の記憶の手がかりがあるんだね！
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022000_023
+- face:
+  - 101311
+  - 6
+- print:
+  - ナナカ
+  - 私は
+- wait:
+  - 25
+- print:
+  - ナナカ
+  - 新しい魔法のヒントを探しに来たんだけど、
+- wait:
+  - 65
+- print:
+  - ナナカ
+  - |2
+
+- face:
+  - 101311
+  - 1
+- print:
+  - ナナカ
+  - それを聞いたらこのナナカちゃんも
+- wait:
+  - 30
+- print:
+  - ナナカ
+  - |2-
+
+    協力しないわけにはいかない……
+- wait:
+  - 65
+- face:
+  - 101311
+  - 6
+- print:
+  - ナナカ
+  - んだけど……
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_7022000_024
+- face:
+  - 101211
+  - 1
+- emotion:
+  - sleep1_L
+  - 101211
+  - -85
+  - 485
+  - se_adv_emote_sleep_01
+- print:
+  - ハツネ
+  - スヤスヤ～
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022000_025
+- face:
+  - 101311
+  - 1
+- print:
+  - ナナカ
+  - 先のことはハツネたそが起きてから
+- wait:
+  - 35
+- print:
+  - ナナカ
+  - 考えよっか。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - 天高くそびえるルナの塔の入り口で、
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    ハツネの穏やかな寝息に耳をすませる
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    {0}とナナカであった。
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 1
+  - 1
+- vo:
+  - vo_adv_7022000_026
+- face:
+  - 101211
+  - 1
+- print:
+  - ハツネ
+  - スヤスヤ～
+- touch: *o0
+- window_visible:
+  - FALSE
+- se_pause:
+  - amb_adv_forest_01
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

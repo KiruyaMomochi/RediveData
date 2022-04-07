@@ -1,0 +1,4165 @@
+- title:
+  - ラビリスタ（オーバーロード） 第1話
+- outline:
+  - ラビリスタは{0}とシズル、リノと共に、新しいレシピ等を駆使してクレープ屋で奮闘する。その中で{0}を診察、観察したラビリスタは、アメスの元を訪れるのだった。
+- background:
+  - 500010
+- se:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 普通の味、帰還する
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - ランドソルを離れ、
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - 各地へ旅に出ていたラビリスタだったが、
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    久方ぶりに住み慣れたランドソルの街へと戻ってきていた。
+- wait:
+  - 30
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 106812
+  - LC
+  - 1
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 106812
+  - 45
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M37
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_000
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - うん……
+- wait:
+  - 45
+- print:
+  - ラビリスタ
+  - 変わらないね、
+- wait:
+  - 35
+- print:
+  - ラビリスタ
+  - この街は。
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_001
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - まずは
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - シズルちゃんとリノちゃんの顔を見に行って、
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - |2-
+
+    その後は
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - 少年の様子を見に行こうかな。
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 106812
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 106812
+  - LC
+  - 1
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 106812
+  - 45
+- window_visible:
+  - TRUE
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_002
+- face:
+  - 106812
+  - 6
+- emotion:
+  - notice1_L
+  - 106812
+  - -78
+  - 575
+  - se_adv_emote_common_01
+- print:
+  - ラビリスタ
+  - おや……？
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_003
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - やあ少年！　
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - 何してるの？
+- wait:
+  - 35
+- print:
+  - ラビリスタ
+  - |2-
+
+    分かった、
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - アタシに会いにきてくれたんだね？
+- touch: *o0
+- choice:
+  - そんなことないです。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_004
+- face:
+  - 106812
+  - 4
+- print:
+  - ラビリスタ
+  - そこは
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - その通り
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - とか
+- wait:
+  - 10
+- print:
+  - ラビリスタ
+  - 言ってくれてもいいじゃん！
+- wait:
+  - 35
+- face:
+  - 106812
+  - 1
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - |2-
+
+    ……元気そうでよかった。
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_005
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - せっかく会ったんだし、
+- wait:
+  - 35
+- print:
+  - ラビリスタ
+  - うちの店に寄っていってよ。
+- wait:
+  - 45
+- print:
+  - ラビリスタ
+  - |2-
+
+    シズルちゃんとリノちゃんもきっと喜ぶからさ。
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_006
+- face:
+  - 106812
+  - 1
+- nod:
+  - 106812
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ラビリスタ
+  - ささ、
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - 善は急げ
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - ってな感じで
+- wait:
+  - 5
+- print:
+  - ラビリスタ
+  - レッツゴー！
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- fadeout:
+  - 106812
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_town_day_01
+- chara_full:
+  - 106812
+  - C
+  - 1
+- fadein:
+  - 106812
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_007
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - シズルちゃん。
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - リノちゃん。
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - |2
+
+- nod:
+  - 106812
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - ラビリスタ
+  - ただいま〜！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 106812
+  - 30
+- chara_full:
+  - 104914
+  - LC
+  - 5
+- chara_full:
+  - 101112
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M190
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_1212001_008
+- face:
+  - 104914
+  - 5
+- print:
+  - シズル
+  - マスター！　
+- wait:
+  - 20
+- face:
+  - 104914
+  - 2
+- print:
+  - シズル
+  - おかえりなさい！
+- touch: *o0
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 0
+- vo:
+  - vo_adv_1212001_009
+- face:
+  - 101112
+  - 4
+- print:
+  - リノ
+  - どこに
+- wait:
+  - 5
+- print:
+  - リノ
+  - 行ってたんですか
+- wait:
+  - 10
+- print:
+  - リノ
+  - マスター！
+- wait:
+  - 30
+- print:
+  - リノ
+  - |2
+
+- face:
+  - 101112
+  - 3
+- nod:
+  - 101112
+- print:
+  - リノ
+  - 帰
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - リノ
+  - ってくる時くらい
+- wait:
+  - 10
+- print:
+  - リノ
+  - 連絡してください！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106812
+  - C
+  - 6
+- fadein:
+  - 106812
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_010
+- face:
+  - 106812
+  - 6
+- print:
+  - ラビリスタ
+  - あれ？　
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - してなかったっけ？
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - |2
+
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - まあいいや。
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - はいこれ、
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - お土産。
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_cloth_move_give_01
+- nod:
+  - 106812
+- wait:
+  - 15
+- fadeout:
+  - 106812
+  - 30
+- chara_full:
+  - 104914
+  - LC
+  - 6
+- chara_full:
+  - 101112
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 0
+- vo:
+  - vo_adv_1212001_011
+- face:
+  - 101112
+  - 6
+- emotion:
+  - question1_R
+  - 101112
+  - 115
+  - 510
+  - se_adv_emote_question_01
+- print:
+  - リノ
+  - なんですか
+- wait:
+  - 5
+- print:
+  - リノ
+  - これ……？
+- touch: *o0
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_1212001_012
+- face:
+  - 104914
+  - 6
+- print:
+  - シズル
+  - 私にも？　
+- wait:
+  - 45
+- print:
+  - シズル
+  - 何かな……？
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106812
+  - C
+  - 1
+- fadein:
+  - 106812
+  - 30
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_013
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - よしよし、
+- wait:
+  - 35
+- print:
+  - ラビリスタ
+  - 今のうちに
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - 少年を
+- wait:
+  - 5
+- print:
+  - ラビリスタ
+  - 権能で、
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - |2-
+
+    二人の前に
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - 移動
+- wait:
+  - 10
+- print:
+  - ラビリスタ
+  - させて……♪　
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- se:
+  - se_adv_mystery_effect_01
+- white_out:
+  - 0.5
+  - 0.2
+- white_in: *o0
+- fadeout:
+  - 106812
+  - 30
+- chara_full:
+  - 104914
+  - LC
+  - 6
+- chara_full:
+  - 101112
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_1212001_014
+- face:
+  - 104914
+  - 6
+- print:
+  - シズル
+  - 新しいレシピ……？　
+- wait:
+  - 55
+- face:
+  - 104914
+  - 2
+- print:
+  - シズル
+  - 美味しそう。
+- wait:
+  - 40
+- print:
+  - シズル
+  - |2
+
+- face:
+  - 104914
+  - 5
+- print:
+  - シズル
+  - よかった。
+- wait:
+  - 15
+- print:
+  - シズル
+  - やっとマスターも美味しいクレープが作れるんだね……
+- touch: *o0
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 0
+- vo:
+  - vo_adv_1212001_015
+- face:
+  - 101112
+  - 1
+- nod:
+  - 101112
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - リノ
+  - こっちは食材でした。
+- wait:
+  - 45
+- print:
+  - リノ
+  - |2
+
+- face:
+  - 101112
+  - 6
+- print:
+  - リノ
+  - 見たことないフルーツです……
+- wait:
+  - 30
+- print:
+  - リノ
+  - これも
+- wait:
+  - 5
+- print:
+  - リノ
+  - 使うんですか？
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106812
+  - C
+  - 1
+- fadein:
+  - 106812
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_016
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - そしてお土産
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - 第二弾が
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - こちらで〜す！
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 3
+- fadeout:
+  - 106812
+  - 30
+- se:
+  - se_adv_magic_dark_small_01
+- white_out:
+  - 0.5
+  - 0.2
+- white_in: *o0
+- se:
+  - se_adv_magic_earth_medium_01
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- chara_full:
+  - 104914
+  - LC
+  - 6
+- chara_full:
+  - 101112
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- emotion:
+  - surprise1_L
+  - 104914
+  - 135
+  - 585
+  - se_adv_emote_common_01
+- emotion:
+  - surprise1_L
+  - 101112
+  - 150
+  - 550
+  - '*non'
+- wait:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M274
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_1212001_017
+- face:
+  - 104914
+  - 6
+- print:
+  - シズル
+  - 弟くん！？　
+- wait:
+  - 20
+- print:
+  - シズル
+  - どこから出てきたの！？
+- wait:
+  - 15
+- print:
+  - シズル
+  - |2
+
+- face:
+  - 104914
+  - 4
+- print:
+  - シズル
+  - お姉ちゃんレーダーにだって
+- wait:
+  - 5
+- print:
+  - シズル
+  - 反応してなかったよ！？
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 1
+- vo:
+  - vo_adv_1212001_018
+- face:
+  - 106812
+  - 4
+- print:
+  - ラビリスタ
+  - あるんだ。
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - お姉ちゃんレーダー。
+- touch: *o0
+- face:
+  - 104914
+  - 5
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 0
+- vo:
+  - vo_adv_1212001_019
+- face:
+  - 101112
+  - 2
+- emotion:
+  - twinkle1_R
+  - 101112
+  - 150
+  - 485
+  - se_adv_emote_twinkle_01
+- print:
+  - リノ
+  - お兄ちゃん！　
+- wait:
+  - 50
+- print:
+  - リノ
+  - 私に会いにきてくれたんですか！？
+- wait:
+  - 25
+- print:
+  - リノ
+  - |2-
+
+    うれしいです！　
+- wait:
+  - 15
+- face:
+  - 101112
+  - 1
+- print:
+  - リノ
+  - ニギニギセンキュー！！
+- wait:
+  - 20
+- print:
+  - リノ
+  - |2-
+
+    待ってなさいよの
+- wait:
+  - 10
+- print:
+  - リノ
+  - ピロリロリーです！！
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 1
+- vo:
+  - vo_adv_1212001_020
+- face:
+  - 106812
+  - 6
+- print:
+  - ラビリスタ
+  - ……リノちゃん？
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - |2-
+
+    うれしすぎていつもよりバグっちゃってない？
+- touch: *o0
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_1212001_021
+- face:
+  - 104914
+  - 2
+- print:
+  - シズル
+  - それを言うなら
+- wait:
+  - 30
+- print:
+  - シズル
+  - 『一日千秋』と、
+- wait:
+  - 30
+- print:
+  - シズル
+  - |2-
+
+    『待てば海路の日和あり』
+- wait:
+  - 45
+- print:
+  - シズル
+  - だね、
+- wait:
+  - 15
+- print:
+  - シズル
+  - リノちゃん。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106812
+  - C
+  - 4
+- fadein:
+  - 106812
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_022
+- face:
+  - 106812
+  - 4
+- print:
+  - ラビリスタ
+  - ああ、
+- wait:
+  - 10
+- print:
+  - ラビリスタ
+  - よかった。
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - 普段通りだった……
+- wait:
+  - 45
+- face:
+  - 106812
+  - 1
+- nod:
+  - 106812
+- print:
+  - ラビリスタ
+  - こ
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - ラビリスタ
+  - ほん。
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - |2-
+
+    店番ありがとう、
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - 二人とも。
+- wait:
+  - 35
+- print:
+  - ラビリスタ
+  - 今日は秘密結社はお休みにして、
+- wait:
+  - 45
+- print:
+  - ラビリスタ
+  - |2-
+
+    少年と一緒にクレープ屋さんを頑張っちゃうよ〜！
+- touch: *o0
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 1
+- vo:
+  - vo_adv_1212001_023
+- face:
+  - 104914
+  - 2
+- print:
+  - シズル
+  - やったぁー！
+- wait:
+  - 45
+- print:
+  - シズル
+  - |2
+
+- face:
+  - 104914
+  - 6
+- print:
+  - シズル
+  - ……ひょっとしてマスターがクレープ作るの？
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_024
+- face:
+  - 106812
+  - 1
+- nod:
+  - 106812
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - ラビリスタ
+  - もちろん！　
+- wait:
+  - 25
+- eye_open:
+  - FALSE
+- print:
+  - ラビリスタ
+  - この店の
+- wait:
+  - 5
+- print:
+  - ラビリスタ
+  - 店長は
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - アタシだし。
+- touch: *o0
+- eye_open:
+  - TRUE
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 1
+- vo:
+  - vo_adv_1212001_025
+- face:
+  - 101112
+  - 6
+- print:
+  - リノ
+  - そ、
+- wait:
+  - 15
+- print:
+  - リノ
+  - そうですか。
+- wait:
+  - 60
+- print:
+  - リノ
+  - |2
+
+- face:
+  - 101112
+  - 4
+- print:
+  - リノ
+  - ……素直に
+- wait:
+  - 15
+- print:
+  - リノ
+  - 喜べませんね、
+- wait:
+  - 25
+- print:
+  - リノ
+  - お姉ちゃん。
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_026
+- face:
+  - 106812
+  - 6
+- print:
+  - ラビリスタ
+  - ちょっとちょっと！　
+- wait:
+  - 25
+- print:
+  - ラビリスタ
+  - ひどいなあ。
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - |2-
+
+    そこまで言うこと
+- wait:
+  - 5
+- print:
+  - ラビリスタ
+  - ないんじゃない？
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - |2
+
+- face:
+  - 106812
+  - 4
+- print:
+  - ラビリスタ
+  - アタシのクレープは
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - 決して
+- wait:
+  - 25
+- print:
+  - ラビリスタ
+  - 美味しくない
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - わけじゃないんだよ？
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 106812
+  - 30
+- chara_full:
+  - 104914
+  - LC
+  - 4
+- chara_full:
+  - 101112
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - stop
+  - 8
+  - 1
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 0
+- vo:
+  - vo_adv_1212001_027
+- face:
+  - 101112
+  - 4
+- emotion:
+  - sweat1_R
+  - 101112
+  - 95
+  - 515
+  - se_adv_emote_sweat_01
+- print:
+  - リノ
+  - それは
+- wait:
+  - 15
+- print:
+  - リノ
+  - そうなんですけど……
+- wait:
+  - 30
+- print:
+  - リノ
+  - |2-
+
+    あの〜、
+- wait:
+  - 15
+- print:
+  - リノ
+  - マスター……
+- wait:
+  - 25
+- print:
+  - リノ
+  - 実は
+- wait:
+  - 25
+- print:
+  - リノ
+  - ですね……？
+- touch: *o0
+- bgm:
+  - bgm_M244
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_1212001_028
+- face:
+  - 104914
+  - 4
+- print:
+  - シズル
+  - 実は、
+- wait:
+  - 30
+- print:
+  - シズル
+  - マスターが
+- wait:
+  - 10
+- print:
+  - シズル
+  - 作ってた時よりも、
+- wait:
+  - 30
+- print:
+  - シズル
+  - |2-
+
+    二人で
+- wait:
+  - 10
+- print:
+  - シズル
+  - 切り盛りしてた時のほうが、
+- wait:
+  - 25
+- print:
+  - シズル
+  - |2-
+
+    売り上げがよくて……
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106812
+  - C
+  - 6
+- fadein:
+  - 106812
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_029
+- face:
+  - 106812
+  - 6
+- emotion:
+  - surprise1_L
+  - 106812
+  - 155
+  - 590
+  - se_adv_emote_common_01
+- print:
+  - ラビリスタ
+  - な、
+- wait:
+  - 35
+- print:
+  - ラビリスタ
+  - なんだって……！？
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_030
+- face:
+  - 106812
+  - 4
+- print:
+  - ラビリスタ
+  - ……いやいや、
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - |2-
+
+    アタシだって
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - 何も
+- wait:
+  - 5
+- print:
+  - ラビリスタ
+  - ただフラフラしてたわけじゃないし？
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - |2
+
+- face:
+  - 106812
+  - 6
+- print:
+  - ラビリスタ
+  - レシピだって
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - 改良案を
+- wait:
+  - 10
+- print:
+  - ラビリスタ
+  - 考えてたし？
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_031
+- face:
+  - 106812
+  - 1
+- nod:
+  - 106812
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - ラビリスタ
+  - 大丈夫。
+- wait:
+  - 25
+- eye_open:
+  - FALSE
+- print:
+  - ラビリスタ
+  - 二人が心配するようなことにはならないよ。
+- wait:
+  - 40
+- print:
+  - ラビリスタ
+  - |2
+
+- eye_open:
+  - TRUE
+- print:
+  - ラビリスタ
+  - というわけで、
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - 今日は久々に全員揃って営業しちゃうよ〜！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 106812
+  - 30
+- chara_full:
+  - 104914
+  - LC
+  - 5
+- chara_full:
+  - 101112
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_1212001_032
+- face:
+  - 104914
+  - 5
+- nod:
+  - 104914
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - シズル
+  - は〜い。
+- wait:
+  - 60
+- face:
+  - 104914
+  - 4
+- print:
+  - シズル
+  - ……ねえ弟くん。
+- wait:
+  - 30
+- print:
+  - シズル
+  - |2-
+
+    本当に大丈夫かな？　
+- wait:
+  - 35
+- print:
+  - シズル
+  - お姉ちゃん、
+- wait:
+  - 15
+- print:
+  - シズル
+  - やっぱり心配だよ……
+- touch: *o0
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 0
+- vo:
+  - vo_adv_1212001_033
+- face:
+  - 101112
+  - 6
+- print:
+  - リノ
+  - ずるいですよ
+- wait:
+  - 15
+- print:
+  - リノ
+  - お姉ちゃん！　
+- wait:
+  - 15
+- face:
+  - 101112
+  - 4
+- print:
+  - リノ
+  - お兄ちゃん、
+- wait:
+  - 20
+- print:
+  - リノ
+  - 私も心配です……
+- wait:
+  - 30
+- print:
+  - リノ
+  - |2-
+
+    今日は
+- wait:
+  - 15
+- print:
+  - リノ
+  - 私たちと一緒に
+- wait:
+  - 25
+- print:
+  - リノ
+  - マスターを支えてくださいね！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106812
+  - C
+  - 4
+- fadein:
+  - 106812
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_034
+- face:
+  - 106812
+  - 4
+- emotion:
+  - sweat1_R
+  - 106812
+  - 85
+  - 615
+  - se_adv_emote_sweat_01
+- print:
+  - ラビリスタ
+  - はいそこ二人とも〜？
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - |2-
+
+    早速少年といちゃつかないでくれるかな〜？
+- touch: *o0
+- bgm:
+  - stop
+  - 7
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_035
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - ああそうだ、
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - 少年。
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - ちょっとこっち。
+- touch: *o0
+- choice:
+  - 何をすればいいの？
+  - 2
+- tag:
+  - 2
+- window_visible:
+  - FALSE
+- fadeout:
+  - 106812
+  - 30
+- se:
+  - se_adv_step_concrete_move_01
+- camera_zoom:
+  - 1.1
+  - 15
+- chara_full:
+  - 106812
+  - C
+  - 1
+- fadein:
+  - 106812
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M203
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_036
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - 手伝ってもらうのは
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - 後でお願いするよ。
+- wait:
+  - 40
+- print:
+  - ラビリスタ
+  - |2-
+
+    久しぶりだし、
+- wait:
+  - 25
+- print:
+  - ラビリスタ
+  - 今のうちに
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - 少年の診察を
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - しておこうと思って。
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_037
+- face:
+  - 106812
+  - 1
+- nod:
+  - 106812
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - ラビリスタ
+  - はい、
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - そこで
+- wait:
+  - 10
+- print:
+  - ラビリスタ
+  - じっとして〜？
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_038
+- face:
+  - 106812
+  - 7
+- print:
+  - ラビリスタ
+  - ……
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_039
+- face:
+  - 106812
+  - 7
+- print:
+  - ラビリスタ
+  - ……これは……
+- touch: *o0
+- choice:
+  - どうしたの？
+  - 3
+- tag:
+  - 3
+- window_visible:
+  - FALSE
+- fadeout:
+  - 106812
+  - 30
+- se:
+  - se_adv_step_concrete_move_01
+- camera_zoom:
+  - 1
+  - 15
+- chara_full:
+  - 106812
+  - C
+  - 1
+- fadein:
+  - 106812
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_040
+- face:
+  - 106812
+  - 1
+- nod:
+  - 106812
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ラビリスタ
+  - うん！　
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - 今のところは異常なし！
+- wait:
+  - 75
+- print:
+  - ラビリスタ
+  - |2
+
+- face:
+  - 106812
+  - 6
+- print:
+  - ラビリスタ
+  - ……あれ？　
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - ちょっと怒ってる？　
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - ふざけたほうがよかった？
+- wait:
+  - 25
+- print:
+  - ラビリスタ
+  - |2
+
+- face:
+  - 106812
+  - 4
+- print:
+  - ラビリスタ
+  - 真剣に診るのが医師としては正しいはずなんだけどなぁ〜……
+- touch: *o0
+- choice:
+  - ごめんなさい。
+  - 4
+- tag:
+  - 4
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_041
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - その申し訳なさ、
+- wait:
+  - 55
+- eye_open:
+  - FALSE
+- print:
+  - ラビリスタ
+  - 今からの手伝いに活かしてもらえると、
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - |2-
+
+    ラビリスタさんはとっても
+- wait:
+  - 10
+- print:
+  - ラビリスタ
+  - 助かるのでした。
+- wait:
+  - 50
+- print:
+  - ラビリスタ
+  - |2
+
+- eye_open:
+  - TRUE
+- print:
+  - ラビリスタ
+  - ってなわけで、
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - アタシたちも
+- wait:
+  - 10
+- print:
+  - ラビリスタ
+  - 準備開始だ！
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- fadeout:
+  - 106812
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- background:
+  - 500030
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_town_day_01
+- chara_full:
+  - 106812
+  - C
+  - 1
+- fadein:
+  - 106812
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_042
+- face:
+  - 106812
+  - 1
+- nod:
+  - 106812
+- se:
+  - se_adv_step_concrete_move_01
+- print:
+  - ラビリスタ
+  - よーし、
+- wait:
+  - 35
+- print:
+  - ラビリスタ
+  - それじゃあ今日も、
+- wait:
+  - 25
+- print:
+  - ラビリスタ
+  - |2-
+
+    みんなのために
+- wait:
+  - 10
+- print:
+  - ラビリスタ
+  - クレープを作っていくよ！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 106812
+  - 30
+- white_out:
+  - 1
+  - 1
+- bg_color:
+  - 255
+  - 255
+  - 255
+- still:
+  - 121200101
+- wait:
+  - 15
+- white_in: *o0
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M12
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 1
+- vo:
+  - vo_adv_1212001_043
+- face:
+  - 101112
+  - 2
+- print:
+  - リノ
+  - いらっしゃいませー！
+- touch: *o0
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 1
+- vo:
+  - vo_adv_1212001_044
+- face:
+  - 104914
+  - 2
+- print:
+  - シズル
+  - 美味しい
+- wait:
+  - 5
+- print:
+  - シズル
+  - クレープはいかがですかー？
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 1
+- vo:
+  - vo_adv_1212001_045
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - いやぁ……
+- wait:
+  - 70
+- print:
+  - ラビリスタ
+  - こうして
+- wait:
+  - 10
+- print:
+  - ラビリスタ
+  - ３人で
+- wait:
+  - 10
+- print:
+  - ラビリスタ
+  - 店に立つのも、
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - |2-
+
+    ずいぶんと久しぶりだね。
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 1
+- vo:
+  - vo_adv_1212001_046
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - 一緒に
+- wait:
+  - 5
+- print:
+  - ラビリスタ
+  - 頑張ってくれる
+- wait:
+  - 5
+- print:
+  - ラビリスタ
+  - みんなのためにも、
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - |2-
+
+    美味しいクレープを
+- wait:
+  - 10
+- print:
+  - ラビリスタ
+  - 作ってみせるよ！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1212001_047
+- face:
+  - 1
+  - 1
+- se:
+  - se_adv_step_concrete_walk_come_01
+- print:
+  - 女性１
+  - すみません。
+- wait:
+  - 25
+- print:
+  - 女性１
+  - ミックスベリー一つください。
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 1
+- vo:
+  - vo_adv_1212001_048
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - ちょっと待っててね〜
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - |2-
+
+    すぐに用意するから！
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 1
+- vo:
+  - vo_adv_1212001_049
+- face:
+  - 106812
+  - 1
+- se:
+  - se_adv_cooking_grill_01
+- print:
+  - ラビリスタ
+  - よっ！　
+- wait:
+  - 25
+- print:
+  - ラビリスタ
+  - はいっ！
+- touch: *o0
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 1
+- vo:
+  - vo_adv_1212001_050
+- face:
+  - 104914
+  - 5
+- print:
+  - シズル
+  - マスターの手さばき、
+- wait:
+  - 30
+- print:
+  - シズル
+  - |2-
+
+    久しぶりに見ると
+- wait:
+  - 10
+- print:
+  - シズル
+  - やっぱりすごいね。
+- wait:
+  - 35
+- print:
+  - シズル
+  - |2-
+
+    ちょっと懐かしくなっちゃった。
+- touch: *o0
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 1
+- vo:
+  - vo_adv_1212001_051
+- face:
+  - 101112
+  - 1
+- print:
+  - リノ
+  - 大胆に見えるのに
+- wait:
+  - 25
+- print:
+  - リノ
+  - ちゃんと繊細なところは
+- wait:
+  - 30
+- print:
+  - リノ
+  - |2-
+
+    マスターらしいですよね。
+- touch: *o0
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 1
+- vo:
+  - vo_adv_1212001_052
+- face:
+  - 104914
+  - 4
+- print:
+  - シズル
+  - あれで
+- wait:
+  - 10
+- print:
+  - シズル
+  - どうして味が……
+- touch: *o0
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 1
+- vo:
+  - vo_adv_1212001_053
+- face:
+  - 101112
+  - 4
+- print:
+  - リノ
+  - ランドソル
+- wait:
+  - 10
+- print:
+  - リノ
+  - 七不思議の一つですね……
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 1
+- vo:
+  - vo_adv_1212001_054
+- face:
+  - 106812
+  - 1
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - ラビリスタ
+  - はい、
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - ミックスベリー
+- wait:
+  - 25
+- print:
+  - ラビリスタ
+  - お待ちどうさま！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1212001_055
+- face:
+  - 1
+  - 1
+- print:
+  - 女性１
+  - ありがとうございます！
+- wait:
+  - 30
+- print:
+  - 女性１
+  - |2
+
+- se:
+  - se_adv_eating_01
+- print:
+  - 女性１
+  - あむっ……
+- touch: *o0
+- window_visible:
+  - FALSE
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 1
+- vo:
+  - vo_adv_1212001_056
+- face:
+  - 106812
+  - 6
+- print:
+  - ラビリスタ
+  - ……ドキドキ！　
+- touch: *o0
+- window_visible:
+  - FALSE
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1212001_057
+- face:
+  - 1
+  - 1
+- print:
+  - 女性１
+  - もぐもぐ……
+- wait:
+  - 45
+- print:
+  - 女性１
+  - |2-
+
+    ……？
+- touch: *o0
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 1
+- vo:
+  - vo_adv_1212001_058
+- face:
+  - 101112
+  - 4
+- print:
+  - リノ
+  - あの感じだと……
+- touch: *o0
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 1
+- vo:
+  - vo_adv_1212001_059
+- face:
+  - 104914
+  - 4
+- print:
+  - シズル
+  - やっぱり
+- wait:
+  - 15
+- print:
+  - シズル
+  - 今回も……
+- touch: *o0
+- bgm:
+  - stop
+  - 3.5
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1212001_060
+- face:
+  - 1
+  - 1
+- print:
+  - 女性１
+  - うん、
+- wait:
+  - 50
+- print:
+  - 女性１
+  - 普通だ……
+- touch: *o0
+- bgm:
+  - bgm_M05
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 1
+- vo:
+  - vo_adv_1212001_061
+- face:
+  - 106812
+  - 4
+- print:
+  - ラビリスタ
+  - ダメだったかぁ〜……
+- wait:
+  - 60
+- print:
+  - ラビリスタ
+  - |2
+
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - 切り替えよう！　
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - 次次！
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - |2-
+
+    今日は
+- wait:
+  - 10
+- print:
+  - ラビリスタ
+  - 新しい
+- wait:
+  - 10
+- print:
+  - ラビリスタ
+  - 味のホイップも
+- wait:
+  - 10
+- print:
+  - ラビリスタ
+  - 用意したし、
+- wait:
+  - 20
+- face:
+  - 106812
+  - 3
+- print:
+  - ラビリスタ
+  - ここからが
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - 勝負さ！
+- touch: *o0
+- window_visible:
+  - FALSE
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- se:
+  - amb_adv_town_day_01
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1212001_062
+- face:
+  - 1
+  - 1
+- print:
+  - 男性
+  - ……
+- wait:
+  - 35
+- print:
+  - 男性
+  - 普通だ。
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1212001_063
+- face:
+  - 1
+  - 1
+- print:
+  - 女性２
+  - そっちも？　
+- wait:
+  - 30
+- print:
+  - 女性２
+  - あたしのも
+- wait:
+  - 15
+- print:
+  - 女性２
+  - 普通って感じ……
+- wait:
+  - 35
+- print:
+  - 女性２
+  - |2-
+
+    でもまあ
+- wait:
+  - 15
+- print:
+  - 女性２
+  - いいよね、
+- wait:
+  - 15
+- print:
+  - 女性２
+  - クレープだし。
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 1
+- vo:
+  - vo_adv_1212001_064
+- face:
+  - 106812
+  - 6
+- print:
+  - ラビリスタ
+  - ……良くない！　
+- wait:
+  - 50
+- face:
+  - 106812
+  - 4
+- print:
+  - ラビリスタ
+  - 良くないんだよ
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - キミたちぃ〜！
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - |2-
+
+    アタシの心が
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - ズタズタだし
+- wait:
+  - 25
+- print:
+  - ラビリスタ
+  - 何より
+- wait:
+  - 10
+- print:
+  - ラビリスタ
+  - 売り上げが〜！
+- touch: *o0
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 1
+- vo:
+  - vo_adv_1212001_065
+- face:
+  - 104914
+  - 4
+- print:
+  - シズル
+  - マスター、
+- wait:
+  - 15
+- print:
+  - シズル
+  - やっぱり代わろっか？
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 1
+- vo:
+  - vo_adv_1212001_066
+- face:
+  - 106812
+  - 3
+- print:
+  - ラビリスタ
+  - ……いい。
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - 今日だけは
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - アタシに
+- wait:
+  - 5
+- print:
+  - ラビリスタ
+  - やり通させて！
+- wait:
+  - 45
+- print:
+  - ラビリスタ
+  - |2
+
+- face:
+  - 106812
+  - 4
+- print:
+  - ラビリスタ
+  - ここで
+- wait:
+  - 10
+- print:
+  - ラビリスタ
+  - 意地を
+- wait:
+  - 5
+- print:
+  - ラビリスタ
+  - 張り通せないと
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - 自分で自分を許せなくなる！
+- touch: *o0
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 1
+- vo:
+  - vo_adv_1212001_067
+- face:
+  - 101112
+  - 1
+- print:
+  - リノ
+  - 暖簾にグロッキー
+- wait:
+  - 5
+- print:
+  - リノ
+  - だと思いますけど、
+- wait:
+  - 25
+- print:
+  - リノ
+  - |2
+
+- face:
+  - 101112
+  - 2
+- print:
+  - リノ
+  - 応援してますね、
+- wait:
+  - 15
+- print:
+  - リノ
+  - マスター！
+- touch: *o0
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 1
+- vo:
+  - vo_adv_1212001_068
+- face:
+  - 104914
+  - 2
+- print:
+  - シズル
+  - それを言うなら──
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 1
+- vo:
+  - vo_adv_1212001_069
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - ──『暖簾に腕押し』……
+- wait:
+  - 45
+- face:
+  - 106812
+  - 6
+- print:
+  - ラビリスタ
+  - ってああもう！
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - |2-
+
+    なんでそっちの調子はいいんだよ
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - アタシはさぁ！
+- touch: *o0
+- choice:
+  - 僕も応援する！
+  - 5
+- tag:
+  - 5
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 1
+- vo:
+  - vo_adv_1212001_070
+- face:
+  - 106812
+  - 4
+- print:
+  - ラビリスタ
+  - 少年……
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - 今はその優しさが
+- wait:
+  - 40
+- print:
+  - ラビリスタ
+  - ありがたくもあり
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - |2-
+
+    痛くもあるよ……！　
+- wait:
+  - 45
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - でもありがとう！
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - |2-
+
+    おかげでまだまだ
+- wait:
+  - 5
+- print:
+  - ラビリスタ
+  - 頑張れそうだよ！
+- touch: *o0
+- window_visible:
+  - FALSE
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- se:
+  - amb_adv_town_day_01
+- window_visible:
+  - TRUE
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 1
+- vo:
+  - vo_adv_1212001_071
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - ありがとうございましたー！
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1212001_072
+- multi_talk:
+  - 104914:101112
+- face:
+  - 1
+  - 1
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - シズル・リノ
+  - またきてくださいねー！
+- touch: *o0
+- bgm:
+  - bgm_M33
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 1
+- vo:
+  - vo_adv_1212001_073
+- face:
+  - 106812
+  - 4
+- print:
+  - ラビリスタ
+  - 閉店までに
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - なんとか、
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - |2-
+
+    前日比
+- wait:
+  - 40
+- print:
+  - ラビリスタ
+  - 50％
+- wait:
+  - 45
+- print:
+  - ラビリスタ
+  - ってところまでは
+- wait:
+  - 5
+- print:
+  - ラビリスタ
+  - 売り上げたね……
+- wait:
+  - 45
+- print:
+  - ラビリスタ
+  - |2
+
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - いやぁ、
+- wait:
+  - 40
+- print:
+  - ラビリスタ
+  - やっぱり
+- wait:
+  - 5
+- print:
+  - ラビリスタ
+  - クレープって
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - 奥が深い
+- wait:
+  - 10
+- print:
+  - ラビリスタ
+  - 食べ物だなぁ……
+- touch: *o0
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 1
+- vo:
+  - vo_adv_1212001_074
+- face:
+  - 104914
+  - 2
+- print:
+  - シズル
+  - お疲れさま、
+- wait:
+  - 10
+- print:
+  - シズル
+  - マスター。
+- wait:
+  - 15
+- print:
+  - シズル
+  - |2
+
+- face:
+  - 104914
+  - 5
+- print:
+  - シズル
+  - 前と比べたら
+- wait:
+  - 20
+- print:
+  - シズル
+  - 売れるようになったね！
+- touch: *o0
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 1
+- vo:
+  - vo_adv_1212001_075
+- face:
+  - 101112
+  - 2
+- print:
+  - リノ
+  - 後は
+- wait:
+  - 15
+- print:
+  - リノ
+  - ここから
+- wait:
+  - 5
+- print:
+  - リノ
+  - 落ちないように
+- wait:
+  - 5
+- print:
+  - リノ
+  - できるといいですね！
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 1
+- vo:
+  - vo_adv_1212001_076
+- face:
+  - 106812
+  - 4
+- print:
+  - ラビリスタ
+  - そうだね……
+- wait:
+  - 40
+- print:
+  - ラビリスタ
+  - 二人の努力が
+- wait:
+  - 5
+- print:
+  - ラビリスタ
+  - 無駄にならないよう、
+- wait:
+  - 25
+- print:
+  - ラビリスタ
+  - |2-
+
+    精一杯
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - 働かせていただきます……
+- wait:
+  - 45
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - 二人とも、
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - 頼もしくなったね。
+- touch: *o0
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 1
+- vo:
+  - vo_adv_1212001_077
+- face:
+  - 101112
+  - 2
+- print:
+  - リノ
+  - マスターは
+- wait:
+  - 10
+- print:
+  - リノ
+  - クレープ作るの
+- wait:
+  - 10
+- print:
+  - リノ
+  - 全然上手になりませんね！
+- touch: *o0
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 1
+- vo:
+  - vo_adv_1212001_078
+- face:
+  - 104914
+  - 2
+- print:
+  - シズル
+  - お店に立つのは
+- wait:
+  - 20
+- print:
+  - シズル
+  - 私たちにまかせて、
+- wait:
+  - 30
+- print:
+  - シズル
+  - |2-
+
+    経営に専念してくれると
+- wait:
+  - 15
+- print:
+  - シズル
+  - うれしいよね、
+- wait:
+  - 15
+- print:
+  - シズル
+  - リノちゃん！
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 1
+- vo:
+  - vo_adv_1212001_079
+- face:
+  - 106812
+  - 4
+- print:
+  - ラビリスタ
+  - 人が
+- wait:
+  - 5
+- print:
+  - ラビリスタ
+  - 感動的な空気を
+- wait:
+  - 10
+- print:
+  - ラビリスタ
+  - 作ったのに
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - |2-
+
+    即ぶち壊してくれてありがとう！
+- wait:
+  - 40
+- print:
+  - ラビリスタ
+  - |2
+
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - これもまた
+- wait:
+  - 5
+- print:
+  - ラビリスタ
+  - 立派になってくれた
+- wait:
+  - 5
+- print:
+  - ラビリスタ
+  - 証拠かな……
+- touch: *o0
+- window_visible:
+  - FALSE
+- white_out:
+  - 1
+  - 1
+- background:
+  - 500030
+- still:
+  - end
+- wait:
+  - 15
+- white_in: *o0
+- chara_full:
+  - 106812
+  - C
+  - 1
+- fadein:
+  - 106812
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_080
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - 少年、
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - 最後まで
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - 付き合ってくれてありがとう！
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - |2-
+
+    少年が支えてくれたから
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - アタシも踏ん張れたよ！
+- touch: *o0
+- choice:
+  - お疲れさま。
+  - 6
+- tag:
+  - 6
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_081
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - お疲れさま。
+- wait:
+  - 40
+- print:
+  - ラビリスタ
+  - 片付けは
+- wait:
+  - 10
+- print:
+  - ラビリスタ
+  - アタシたちでやるから、
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - |2-
+
+    少年は
+- wait:
+  - 5
+- print:
+  - ラビリスタ
+  - 帰っていいよ。
+- wait:
+  - 35
+- nod:
+  - 106812
+- se:
+  - se_adv_money_give_01
+- print:
+  - ラビリスタ
+  - はい
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - これ。
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - 今日の報酬と、
+- wait:
+  - 50
+- print:
+  - ラビリスタ
+  - |2-
+
+    お土産のクレープ。
+- wait:
+  - 45
+- print:
+  - ラビリスタ
+  - みんなで食べて。
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_082
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - それじゃあまたね、
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - 少年。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 106812
+  - 30
+- chara_full:
+  - 104914
+  - LC
+  - 2
+- chara_full:
+  - 101112
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_1212001_083
+- face:
+  - 104914
+  - 2
+- print:
+  - シズル
+  - バイバイマスター！　
+- wait:
+  - 15
+- face:
+  - 104914
+  - 5
+- print:
+  - シズル
+  - 行こ、
+- wait:
+  - 15
+- print:
+  - シズル
+  - 弟くん！
+- touch: *o0
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 0
+- vo:
+  - vo_adv_1212001_084
+- face:
+  - 101112
+  - 2
+- print:
+  - リノ
+  - 行きましょう、
+- wait:
+  - 10
+- print:
+  - リノ
+  - お兄ちゃん♪
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106812
+  - C
+  - 4
+- fadein:
+  - 106812
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_085
+- face:
+  - 106812
+  - 4
+- print:
+  - ラビリスタ
+  - 二人ともストップ。
+- wait:
+  - 35
+- print:
+  - ラビリスタ
+  - 今日は
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - まだダメ。
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - |2-
+
+    明日以降
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - なら
+- wait:
+  - 10
+- print:
+  - ラビリスタ
+  - 少年と遊んできていいから。
+- touch: *o0
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 1
+- vo:
+  - vo_adv_1212001_086
+- face:
+  - 101112
+  - 6
+- print:
+  - リノ
+  - どうしてですかー！？
+- wait:
+  - 40
+- print:
+  - リノ
+  - |2
+
+- face:
+  - 101112
+  - 4
+- print:
+  - リノ
+  - マスターの意地悪〜！
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_087
+- face:
+  - 106812
+  - 6
+- print:
+  - ラビリスタ
+  - 意地悪
+- wait:
+  - 10
+- print:
+  - ラビリスタ
+  - とかじゃなくて、
+- wait:
+  - 25
+- print:
+  - ラビリスタ
+  - まだ
+- wait:
+  - 10
+- print:
+  - ラビリスタ
+  - 仕事の途中
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - だから！
+- wait:
+  - 45
+- print:
+  - ラビリスタ
+  - |2
+
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - 二人は自分の仕事を
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - 放り出すようなところ、
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - |2-
+
+    少年に
+- wait:
+  - 10
+- print:
+  - ラビリスタ
+  - 見せちゃっても
+- wait:
+  - 5
+- print:
+  - ラビリスタ
+  - いいんだ？
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 106812
+  - 30
+- chara_full:
+  - 104914
+  - LC
+  - 4
+- chara_full:
+  - 101112
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_1212001_088
+- face:
+  - 104914
+  - 4
+- print:
+  - シズル
+  - 弟くん……
+- wait:
+  - 35
+- face:
+  - 104914
+  - 1
+- print:
+  - シズル
+  - お姉ちゃん、
+- wait:
+  - 15
+- print:
+  - シズル
+  - |2-
+
+    日付が変わった瞬間に
+- wait:
+  - 10
+- print:
+  - シズル
+  - 会いに行くね！
+- wait:
+  - 15
+- print:
+  - シズル
+  - |2
+
+- face:
+  - 104914
+  - 4
+- print:
+  - シズル
+  - だから今は
+- wait:
+  - 5
+- print:
+  - シズル
+  - しばしの別れを、
+- wait:
+  - 35
+- eye_open:
+  - FALSE
+- print:
+  - シズル
+  - 涙を呑んで
+- wait:
+  - 10
+- print:
+  - シズル
+  - 耐えるから……！
+- touch: *o0
+- eye_open:
+  - true
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 0
+- vo:
+  - vo_adv_1212001_089
+- face:
+  - 101112
+  - 1
+- print:
+  - リノ
+  - お兄ちゃん。
+- wait:
+  - 15
+- print:
+  - リノ
+  - こんな
+- wait:
+  - 5
+- print:
+  - リノ
+  - 過激なお姉ちゃんは
+- wait:
+  - 5
+- print:
+  - リノ
+  - 放っておいて、
+- wait:
+  - 20
+- print:
+  - リノ
+  - |2-
+
+    私と
+- wait:
+  - 10
+- print:
+  - リノ
+  - 遊びに行きましょう！　
+- wait:
+  - 25
+- face:
+  - 101112
+  - 2
+- print:
+  - リノ
+  - 夜のうちに
+- wait:
+  - 15
+- print:
+  - リノ
+  - 矢文を
+- wait:
+  - 5
+- print:
+  - リノ
+  - 送っておきますねー！
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 3
+- se:
+  - se_adv_step_concrete_walk_armor_go_01
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106812
+  - C
+  - 1
+- fadein:
+  - 106812
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_090
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - ……
+- wait:
+  - 30
+- touch: *o0
+- bgm:
+  - bgm_M358
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_091
+- face:
+  - 106812
+  - 7
+- print:
+  - ラビリスタ
+  - ……今のところは
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - 異常なし、
+- wait:
+  - 40
+- print:
+  - ラビリスタ
+  - か。
+- touch: *o0
+- focus:
+  - 101112
+- bust:
+  - 101112
+  - 1
+- vo:
+  - vo_adv_1212001_092
+- face:
+  - 101112
+  - 6
+- print:
+  - リノ
+  - どうしたんですか
+- wait:
+  - 15
+- print:
+  - リノ
+  - マスター？
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_093
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - ごめん
+- wait:
+  - 10
+- print:
+  - ラビリスタ
+  - 二人とも。
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - ちょっとだけ用事を思い出したんだ。
+- wait:
+  - 45
+- print:
+  - ラビリスタ
+  - |2-
+
+    少しの間、
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - 片付けよろしく！
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 106812
+  - 30
+- chara_full:
+  - 104914
+  - C
+  - 4
+- fadein:
+  - 104914
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 104914
+- bust:
+  - 104914
+  - 0
+- vo:
+  - vo_adv_1212001_094
+- face:
+  - 104914
+  - 4
+- print:
+  - シズル
+  - えっ？　
+- wait:
+  - 10
+- print:
+  - シズル
+  - マスター？
+- wait:
+  - 25
+- print:
+  - シズル
+  - |2
+
+- face:
+  - 104914
+  - 6
+- emotion:
+  - exclamation1_R
+  - 104914
+  - -15
+  - 685
+  - se_adv_emote_common_01
+- print:
+  - シズル
+  - ……はっ！　
+- wait:
+  - 20
+- print:
+  - シズル
+  - まさか弟くんに会いに行ったんじゃないよね〜！？
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 2
+  - 1
+- fadeout:
+  - 104914
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- background:
+  - 500270
+- effect:
+  - 0080
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_wind_01
+- chara_full:
+  - 106812
+  - C
+  - 1
+- fadein:
+  - 106812
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M40
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_095
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - やっ。
+- wait:
+  - 25
+- print:
+  - ラビリスタ
+  - 元気してる？
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 1
+- vo:
+  - vo_adv_1212001_096
+- face:
+  - 190011
+  - 6
+- print:
+  - アメス
+  - 晶！？　
+- wait:
+  - 40
+- print:
+  - アメス
+  - 珍しいわね、
+- wait:
+  - 35
+- print:
+  - アメス
+  - '{0}もいないのに'
+- wait:
+  - 10
+- print:
+  - アメス
+  - |2-
+
+    ここに来るなんて。
+- wait:
+  - 40
+- face:
+  - 190011
+  - 1
+- print:
+  - アメス
+  - 何かあったの？
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_097
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - 今のところは
+- wait:
+  - 40
+- face:
+  - 106812
+  - 7
+- print:
+  - ラビリスタ
+  - まだ何も。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 1
+- vo:
+  - vo_adv_1212001_098
+- face:
+  - 190011
+  - 1
+- print:
+  - アメス
+  - 何よそれ。
+- wait:
+  - 45
+- print:
+  - アメス
+  - じゃあこれから何か起きるっていうの？
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212001_099
+- face:
+  - 106812
+  - 7
+- print:
+  - ラビリスタ
+  - その可能性がゼロじゃないから、
+- wait:
+  - 35
+- print:
+  - ラビリスタ
+  - こうして足を運んでるのさ。
+- wait:
+  - 80
+- print:
+  - ラビリスタ
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - ラビリスタ
+  - ……これからアタシたちがどうするべきか、
+- wait:
+  - 45
+- print:
+  - ラビリスタ
+  - |2
+
+- face:
+  - 106812
+  - 1
+- eye_open:
+  - True
+- print:
+  - ラビリスタ
+  - 話し合う相手がいてくれてよかったよ。
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 106812
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - こうして神妙な面持ちのまま、ラビリスタはアメスに
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    {0}を診察した結果について
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    相談を始めるのだった。
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 1
+- se_pause:
+  - amb_adv_wind_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0080
+- end: *o0

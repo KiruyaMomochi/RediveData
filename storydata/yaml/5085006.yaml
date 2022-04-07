@@ -1,0 +1,4390 @@
+- title:
+  - 幸せを部屋に詰め込んで
+- outline:
+  - 戦いは終わり、大切な記憶たちと一時の別れを告げる{0}。そしてランドソルで迎える朝、仲間たちの『おはよう』の声に囲まれながら、{0}は心地良く目を覚ますのであった。
+- background:
+  - 500093
+- se:
+  - amb_adv_wind_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 幸せを部屋に詰め込んで
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - 数多の絆が結んだ戦いを終え、異空間は強い光に包まれた。
+- wait:
+  - 30
+- print:
+  - ナレーション
+  - |2-
+
+    そして──
+- wait:
+  - 15
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 105812
+  - RC
+  - 6
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - RC
+  - 30
+- fadein:
+  - 105812
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M304
+  - 0
+  - 0
+  - 1
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5085006_000
+- face:
+  - 105812
+  - 6
+- print:
+  - ペコリーヌ
+  - ハァッ、
+- wait:
+  - 15
+- print:
+  - ペコリーヌ
+  - ハァッ、
+- wait:
+  - 15
+- print:
+  - ペコリーヌ
+  - ハァッ……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105812
+  - 30
+- chara_full:
+  - 105812
+  - LC
+  - 6
+- chara_full:
+  - 118011
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 118011
+- bust:
+  - 118011
+  - 0
+- vo:
+  - vo_adv_5085006_001
+- face:
+  - 118011
+  - 6
+- emotion:
+  - exclamation1_R
+  - 118011
+  - 0
+  - 685
+  - se_adv_emote_common_01
+- print:
+  - クレジッタ
+  - 陛下！？
+- wait:
+  - 30
+- print:
+  - クレジッタ
+  - |2
+
+- face:
+  - 118011
+  - 1
+- print:
+  - クレジッタ
+  - お久しぶりです、
+- wait:
+  - 30
+- print:
+  - クレジッタ
+  - お目覚めになられたのですね！？
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5085006_002
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - おはようございます、
+- wait:
+  - 15
+- face:
+  - 105812
+  - 4
+- print:
+  - ペコリーヌ
+  - ごめんなさいっ！
+- wait:
+  - 10
+- print:
+  - ペコリーヌ
+  - |2-
+
+    お話はあとにしてもらえますかっ！？
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - L
+  - LC
+  - 30
+- fadeout_all:
+  - 30
+- chara_full:
+  - 118011
+  - C
+  - 5
+- fadein:
+  - 118011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 118011
+- bust:
+  - 118011
+  - 0
+- vo:
+  - vo_adv_5085006_003
+- face:
+  - 118011
+  - 5
+- print:
+  - クレジッタ
+  - えっ、
+- wait:
+  - 15
+- print:
+  - クレジッタ
+  - あっ、
+- wait:
+  - 10
+- print:
+  - クレジッタ
+  - もう行ってしまわれるのですか！？
+- wait:
+  - 20
+- print:
+  - クレジッタ
+  - |2
+
+- face:
+  - 118011
+  - 4
+- print:
+  - クレジッタ
+  - もう少しわたくしと積もるお話とかっ！
+- touch: *o0
+- focus:
+  - 118011
+- bust:
+  - 118011
+  - 0
+- vo:
+  - vo_adv_5085006_004
+- face:
+  - 118011
+  - 5
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 118011
+- print:
+  - クレジッタ
+  - あっ、
+- wait:
+  - 20
+- print:
+  - クレジッタ
+  - 陛下！？
+- wait:
+  - 30
+- print:
+  - クレジッタ
+  - |2-
+
+    陛下ーーーーーっ！？
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 118011
+  - 30
+- se_pause:
+  - amb_adv_wind_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- bg_color:
+  - 0
+  - 0
+  - 0
+- wait:
+  - 15
+- black_in: *o0
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 1
+- vo:
+  - vo_adv_5085006_005
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - ──覚えのある声。
+- touch: *o0
+- window_visible:
+  - FALSE
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- black_out:
+  - 1
+  - 1
+- background:
+  - 500090
+- wait:
+  - 15
+- black_in: *o0
+- se:
+  - amb_adv_wind_01
+- chara_full:
+  - 105812
+  - LC
+  - 6
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 30
+- fadein:
+  - 105812
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5085006_006
+- face:
+  - 105812
+  - 6
+- print:
+  - ペコリーヌ
+  - ハァッ、
+- wait:
+  - 15
+- print:
+  - ペコリーヌ
+  - ハァッ、
+- wait:
+  - 15
+- print:
+  - ペコリーヌ
+  - ハァッ……！
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5085006_007
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - 戻ってこれた。
+- wait:
+  - 50
+- print:
+  - ペコリーヌ
+  - |2-
+
+    わたし、
+- wait:
+  - 25
+- face:
+  - 105812
+  - 2
+- print:
+  - ペコリーヌ
+  - ランドソルに戻ってこれたんですよね……！
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5085006_008
+- face:
+  - 105812
+  - 6
+- print:
+  - ペコリーヌ
+  - おっと、
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - 喜んでる場合じゃありません！
+- wait:
+  - 35
+- print:
+  - ペコリーヌ
+  - |2
+
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - 早く行かないと……！
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 105812
+  - 30
+- se_pause:
+  - amb_adv_wind_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- bg_color:
+  - 0
+  - 0
+  - 0
+- wait:
+  - 15
+- black_in: *o0
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 1
+- vo:
+  - vo_adv_5085006_009
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - ──覚えのある景色。
+- touch: *o0
+- window_visible:
+  - FALSE
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- black_out:
+  - 1
+  - 1
+- background:
+  - 500010
+- wait:
+  - 15
+- black_in: *o0
+- se:
+  - amb_adv_town_day_01
+- chara_full:
+  - 105812
+  - L
+  - 1
+- chara_full:
+  - 1511
+  - RC
+  - 1
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 30
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 1511
+- bust:
+  - 1511
+  - 0
+- vo:
+  - vo_adv_5085006_010
+- face:
+  - 1511
+  - 1
+- emotion:
+  - notice1_L
+  - 1511
+  - -85
+  - 540
+  - se_adv_emote_common_01
+- print:
+  - 店員
+  - あら、陛下！
+- wait:
+  - 25
+- print:
+  - 店員
+  - |2-
+
+    いつもの、食べていかないかいっ？
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5085006_011
+- face:
+  - 105812
+  - 4
+- print:
+  - ペコリーヌ
+  - すっっっごく食べたいですけど
+- wait:
+  - 35
+- print:
+  - ペコリーヌ
+  - すみません！
+- wait:
+  - 15
+- print:
+  - ペコリーヌ
+  - |2-
+
+    今急いでて……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 1511
+  - C
+  - 6
+- fadein:
+  - 1511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1511
+- bust:
+  - 1511
+  - 0
+- vo:
+  - vo_adv_5085006_012
+- face:
+  - 1511
+  - 6
+- print:
+  - 店員
+  - そうなのかい？
+- wait:
+  - 30
+- print:
+  - 店員
+  - |2
+
+- face:
+  - 1511
+  - 2
+- print:
+  - 店員
+  - じゃあまた今度ね！　
+- wait:
+  - 25
+- print:
+  - 店員
+  - いつもの大盛り、
+- wait:
+  - 10
+- print:
+  - 店員
+  - 用意しとくから！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1511
+  - 30
+- chara_full:
+  - 105812
+  - C
+  - 1
+- fadein:
+  - 105812
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5085006_013
+- face:
+  - 105812
+  - 1
+- nod:
+  - 105812
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - ペコリーヌ
+  - はいっ、
+- wait:
+  - 25
+- print:
+  - ペコリーヌ
+  - 絶対に行きますね！
+- wait:
+  - 40
+- print:
+  - ペコリーヌ
+  - |2
+
+- face:
+  - 105812
+  - 2
+- print:
+  - ペコリーヌ
+  - ……みんなで！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 105812
+  - 30
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- bg_color:
+  - 0
+  - 0
+  - 0
+- wait:
+  - 15
+- black_in: *o0
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 1
+- vo:
+  - vo_adv_5085006_014
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - ──覚えのある人たち。
+- touch: *o0
+- window_visible:
+  - FALSE
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- black_out:
+  - 1
+  - 1
+- background:
+  - 500360
+- wait:
+  - 15
+- black_in: *o0
+- se:
+  - amb_adv_town_day_01
+- chara_full:
+  - 105812
+  - LC
+  - 6
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 30
+- fadein:
+  - 105812
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5085006_015
+- face:
+  - 105812
+  - 6
+- print:
+  - ペコリーヌ
+  - ハァッ、
+- wait:
+  - 30
+- print:
+  - ペコリーヌ
+  - ハァ……
+- wait:
+  - 55
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - ふぅ。
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5085006_016
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - ──わたしの、
+- wait:
+  - 40
+- print:
+  - ペコリーヌ
+  - 大切な場所。
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5085006_017
+- face:
+  - 105812
+  - 4
+- print:
+  - ペコリーヌ
+  - 彼は……
+- wait:
+  - 30
+- print:
+  - ペコリーヌ
+  - 起きていますかね。
+- wait:
+  - 50
+- print:
+  - ペコリーヌ
+  - |2
+
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - わたしがこうして目覚めたんですから、
+- wait:
+  - 50
+- print:
+  - ペコリーヌ
+  - きっと今頃……
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - TRUE
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5085006_018
+- face:
+  - 105812
+  - 1
+- nod:
+  - 105812
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - ペコリーヌ
+  - ……よし！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105812
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- background:
+  - 500361
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_room_noise_01
+- se:
+  - se_adv_door_open_01
+- chara_full:
+  - 105812
+  - LC
+  - 2
+- se:
+  - se_adv_step_wood_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 105812
+  - 45
+- window_visible:
+  - TRUE
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5085006_019
+- face:
+  - 105812
+  - 2
+- print:
+  - ペコリーヌ
+  - ただいまー♪
+- wait:
+  - 40
+- print:
+  - ペコリーヌ
+  - |2-
+
+    えへへ、
+- wait:
+  - 35
+- print:
+  - ペコリーヌ
+  - 随分と長いことお寝坊しちゃいました～♪
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105812
+  - 30
+- chara_full:
+  - 105913
+  - LC
+  - 6
+- chara_full:
+  - 106412
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5085006_020
+- face:
+  - 105913
+  - 6
+- emotion:
+  - exclamation1_R
+  - 105913
+  - 25
+  - 600
+  - se_adv_emote_common_01
+- print:
+  - コッコロ
+  - ペコリーヌさま！
+- wait:
+  - 35
+- print:
+  - コッコロ
+  - |2
+
+- face:
+  - 105913
+  - 2
+- print:
+  - コッコロ
+  - お目覚めになられたのですね……
+- wait:
+  - 45
+- print:
+  - コッコロ
+  - よかった……！
+- touch: *o0
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_5085006_021
+- face:
+  - 106412
+  - 2
+- print:
+  - シェフィ
+  - お帰りなさい、
+- wait:
+  - 25
+- print:
+  - シェフィ
+  - ペコリーヌさん。
+- wait:
+  - 60
+- print:
+  - シェフィ
+  - |2-
+
+    ちゃんと戻れたみたいね……
+- wait:
+  - 55
+- print:
+  - シェフィ
+  - あそこから。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105812
+  - C
+  - 2
+- fadein:
+  - 105812
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5085006_022
+- face:
+  - 105812
+  - 2
+- print:
+  - ペコリーヌ
+  - はいっ！
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - |2-
+
+    みんなのおかげですっ♪
+- wait:
+  - 40
+- print:
+  - ペコリーヌ
+  - |2
+
+- face:
+  - 105812
+  - 6
+- print:
+  - ペコリーヌ
+  - それで、
+- wait:
+  - 25
+- print:
+  - ペコリーヌ
+  - その……
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5085006_023
+- face:
+  - 105812
+  - 6
+- print:
+  - ペコリーヌ
+  - あの人は……？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105812
+  - 30
+- chara_full:
+  - 105913
+  - LC
+  - 4
+- chara_full:
+  - 106412
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5085006_024
+- face:
+  - 105913
+  - 4
+- print:
+  - コッコロ
+  - …………
+- touch: *o0
+- bgm:
+  - stop
+  - 8.5
+  - 1
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_5085006_025
+- face:
+  - 106412
+  - 1
+- print:
+  - シェフィ
+  - まだ、
+- wait:
+  - 10
+- print:
+  - シェフィ
+  - 眠ったままよ。
+- wait:
+  - 50
+- print:
+  - シェフィ
+  - |2-
+
+    そばには今、
+- wait:
+  - 30
+- print:
+  - シェフィ
+  - キャルがついてる。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105812
+  - C
+  - 6
+- fadein:
+  - 105812
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M417
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5085006_026
+- face:
+  - 105812
+  - 6
+- print:
+  - ペコリーヌ
+  - そんな……！
+- wait:
+  - 30
+- print:
+  - ペコリーヌ
+  - |2
+
+- face:
+  - 105812
+  - 4
+- print:
+  - ペコリーヌ
+  - だって、
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - 向こうでの戦いは終わったはず……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105812
+  - 30
+- chara_full:
+  - 105812
+  - LC
+  - 6
+- chara_full:
+  - 106812
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_5085006_027
+- face:
+  - 106812
+  - 4
+- print:
+  - ラビリスタ
+  - ──そうだね。
+- wait:
+  - 50
+- print:
+  - ラビリスタ
+  - |2-
+
+    今回起きた全ての問題は片付いた。
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5085006_028
+- face:
+  - 105812
+  - 6
+- emotion:
+  - exclamation1_R
+  - 105812
+  - 5
+  - 650
+  - se_adv_emote_common_01
+- print:
+  - ペコリーヌ
+  - ラビリスタさん……！
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_5085006_029
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - 彼の中で暴走しかけていた力も、
+- wait:
+  - 60
+- print:
+  - ラビリスタ
+  - すっかり元通り。
+- wait:
+  - 40
+- print:
+  - ラビリスタ
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - ラビリスタ
+  - あれだけのエネルギーを並列化して吸収してのけるとはね。
+- wait:
+  - 75
+- print:
+  - ラビリスタ
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - ラビリスタ
+  - これも絆の力ってやつかな……
+- wait:
+  - 70
+- face:
+  - 106812
+  - 4
+- print:
+  - ラビリスタ
+  - 本当に、
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - 計り知れないよ。
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5085006_030
+- face:
+  - 105812
+  - 4
+- print:
+  - ペコリーヌ
+  - じゃあどうして、
+- wait:
+  - 30
+- print:
+  - ペコリーヌ
+  - |2-
+
+    彼はまだ起きないんですかっ！？
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_5085006_031
+- face:
+  - 106812
+  - 1
+- nod:
+  - 106812
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ラビリスタ
+  - そう心配する必要はないよ。
+- wait:
+  - 60
+- print:
+  - ラビリスタ
+  - |2-
+
+    彼は今、
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - きっと向こうで別れを告げているのさ。
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_5085006_032
+- face:
+  - 106812
+  - 4
+- print:
+  - ラビリスタ
+  - 記憶の欠片を歪に組み合わせただけの
+- wait:
+  - 75
+- print:
+  - ラビリスタ
+  - 『作りものの世界』でも、
+- wait:
+  - 45
+- print:
+  - ラビリスタ
+  - |2-
+
+    それは少年にとって
+- wait:
+  - 40
+- print:
+  - ラビリスタ
+  - 大切なものを積み上げた、
+- wait:
+  - 45
+- print:
+  - ラビリスタ
+  - 宝物に違いない。
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_5085006_033
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - もう少しだけ待ってあげてくれないかな。
+- wait:
+  - 45
+- print:
+  - ラビリスタ
+  - |2-
+
+    せめて、
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - 夢の終わりを
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - 笑顔で迎えられるように。
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5085006_034
+- face:
+  - 105812
+  - 4
+- print:
+  - ペコリーヌ
+  - …………
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- se_pause:
+  - amb_adv_room_noise_01
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - false
+- bg_color:
+  - 0
+  - 0
+  - 0
+- bgm:
+  - bgm_M557_emt5085_010
+  - 0
+  - 0
+  - 1
+- black_in: *o0
+- bg_color:
+  - 255
+  - 255
+  - 255
+- movie_stay:
+  - 508500601
+- bg_color:
+  - 255
+  - 255
+  - 255
+- wait:
+  - 15
+- ui_visible:
+  - TRUE
+- window_visible:
+  - TRUE
+- focus:
+  - 105932
+- bust:
+  - 105932
+  - 1
+- vo:
+  - vo_adv_5085006_035
+- face:
+  - 105932
+  - 2
+- print:
+  - こころ
+  - 主さま──
+- wait:
+  - 50
+- print:
+  - こころ
+  - 『向こう』で
+- wait:
+  - 25
+- print:
+  - こころ
+  - 待っておりますね。
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5085006_036
+- face:
+  - 1
+  - 1
+- print:
+  - 全員
+  - またね……！
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- window_visible:
+  - false
+- effect:
+  - 0005
+  - se_adv_holylight_01
+- effect:
+  - 0006
+  - se_adv_whiteout_01
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0005
+- effect_delete:
+  - 0006
+- background:
+  - 500270
+- wait:
+  - 15
+- effect:
+  - 0029
+- effect:
+  - 0026
+- effect:
+  - 0015
+  - se_adv_whiteout_02
+- se:
+  - amb_adv_wind_01
+- white_in: *o0
+- bgm:
+  - bgm_M40
+- wait:
+  - 60
+- chara_full:
+  - 190011
+  - C
+  - 2
+- fadein:
+  - 190011
+  - 30
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_5085006_037
+- face:
+  - 190011
+  - 2
+- print:
+  - アメス
+  - ……お疲れさま。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_5085006_038
+- face:
+  - 190011
+  - 4
+- print:
+  - アメス
+  - なんて簡単な言葉じゃ、
+- wait:
+  - 55
+- print:
+  - アメス
+  - 労えるものじゃないわね。
+- wait:
+  - 85
+- print:
+  - アメス
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - アメス
+  - ……本当に
+- wait:
+  - 40
+- print:
+  - アメス
+  - 申し訳なかったわ。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_5085006_039
+- face:
+  - 190011
+  - 4
+- eye_open:
+  - True
+- print:
+  - アメス
+  - 改めて言うけど、
+- wait:
+  - 45
+- print:
+  - アメス
+  - この夢はいつもとは違う。
+- wait:
+  - 60
+- print:
+  - アメス
+  - |2-
+
+    あんたの昔と今、
+- wait:
+  - 50
+- print:
+  - アメス
+  - それらの記憶が混ざり合い、
+- wait:
+  - 45
+- print:
+  - アメス
+  - |2-
+
+    ぐちゃぐちゃに組み合わさったもの。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_5085006_040
+- face:
+  - 190011
+  - 6
+- print:
+  - アメス
+  - 知り合うはずのない人たちが知り合ったり、
+- wait:
+  - 60
+- print:
+  - アメス
+  - |2-
+
+    向こうとこっちの性格の細かな違いを再現しきれてなかったり。
+- wait:
+  - 145
+- print:
+  - アメス
+  - |2
+
+- face:
+  - 190011
+  - 4
+- print:
+  - アメス
+  - とても曖昧で、
+- wait:
+  - 40
+- print:
+  - アメス
+  - アンバランスな
+- wait:
+  - 40
+- print:
+  - アメス
+  - 『作りものの世界』。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_5085006_041
+- face:
+  - 190011
+  - 4
+- print:
+  - アメス
+  - 完全なものを再生するには、
+- wait:
+  - 60
+- print:
+  - アメス
+  - |2-
+
+    記憶の欠片が
+- wait:
+  - 40
+- print:
+  - アメス
+  - まだ足りないわ。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_5085006_042
+- face:
+  - 190011
+  - 2
+- print:
+  - アメス
+  - でも……
+- wait:
+  - 40
+- print:
+  - アメス
+  - あんたなら。
+- wait:
+  - 70
+- print:
+  - アメス
+  - |2-
+
+    いつかきっと、
+- wait:
+  - 45
+- print:
+  - アメス
+  - すべてを元通りにして、
+- wait:
+  - 65
+- print:
+  - アメス
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - アメス
+  - あるべきモノを、
+- wait:
+  - 30
+- print:
+  - アメス
+  - あるべきカタチへ、
+- wait:
+  - 50
+- eye_open:
+  - True
+- print:
+  - アメス
+  - 取り戻すことができる。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_5085006_043
+- face:
+  - 190011
+  - 2
+- print:
+  - アメス
+  - あたしはそう信じてる。
+- wait:
+  - 70
+- print:
+  - アメス
+  - |2-
+
+    そのために、
+- wait:
+  - 35
+- print:
+  - アメス
+  - あたしも全力を尽くすわ。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_5085006_044
+- face:
+  - 190011
+  - 1
+- print:
+  - アメス
+  - そうね……
+- wait:
+  - 50
+- print:
+  - アメス
+  - 本当は、
+- wait:
+  - 40
+- print:
+  - アメス
+  - お疲れさまなんて言葉じゃなくて、
+- wait:
+  - 60
+- print:
+  - アメス
+  - |2-
+
+    こう言えばよかったのね。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_5085006_045
+- face:
+  - 190011
+  - 2
+- print:
+  - アメス
+  - あんたが無事でよかった。
+- wait:
+  - 80
+- print:
+  - アメス
+  - |2-
+
+    本当に、
+- wait:
+  - 40
+- print:
+  - アメス
+  - 心から……
+- wait:
+  - 60
+- print:
+  - アメス
+  - うれしいわ。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_5085006_046
+- face:
+  - 190011
+  - 2
+- eye_open:
+  - False
+- print:
+  - アメス
+  - たまには、
+- wait:
+  - 15
+- print:
+  - アメス
+  - いいわよね。
+- wait:
+  - 50
+- print:
+  - アメス
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - アメス
+  - あたしが素直に喜んでも。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_5085006_047
+- face:
+  - 190011
+  - 2
+- emotion:
+  - note1_L
+  - 190011
+  - -80
+  - 510
+  - non
+- print:
+  - アメス
+  - ふふっ♪
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_5085006_048
+- face:
+  - 190011
+  - 2
+- eye_open:
+  - False
+- print:
+  - アメス
+  - それじゃあ、
+- wait:
+  - 35
+- eye_open:
+  - True
+- print:
+  - アメス
+  - 最後はやっぱり
+- wait:
+  - 40
+- print:
+  - アメス
+  - これよね。
+- touch: *o0
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_5085006_049
+- face:
+  - 190011
+  - 2
+- print:
+  - アメス
+  - バイバーイ♪
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 190011
+  - 30
+- bgm:
+  - stop
+  - 3
+- effect:
+  - 0006
+  - se_adv_whiteout_01
+- se_pause:
+  - amb_adv_wind_01
+  - 1
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0006
+- effect_delete:
+  - 0029
+- effect_delete:
+  - 0026
+- bg_color:
+  - 0
+  - 0
+  - 0
+- wait:
+  - 30
+- ui_visible:
+  - false
+- white_in: *o0
+- vo_effect:
+  - 0
+- transition:
+  - 52
+  - 1.5
+- background:
+  - 500361
+- wait:
+  - 30
+- transition_resume: *o0
+- se:
+  - amb_adv_room_noise_01
+- wait:
+  - 30
+- window_visible:
+  - TRUE
+- choice:
+  - ……ん……
+  - 1
+- tag:
+  - 1
+- ui_visible:
+  - true
+- bgm:
+  - bgm_M241
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5085006_050
+- face:
+  - 1
+  - 1
+- print:
+  - ４人
+  - ……！
+- touch: *o0
+- choice:
+  - みんな……？
+  - 2
+- tag:
+  - 2
+- window_visible:
+  - false
+- chara_full:
+  - 105812
+  - L
+  - 1
+- chara_full:
+  - 105913
+  - C
+  - 2
+- chara_full:
+  - 106412
+  - R
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5085006_051
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - っ……♪
+- wait:
+  - 40
+- print:
+  - ペコリーヌ
+  - |2
+
+- face:
+  - 105812
+  - 2
+- print:
+  - ペコリーヌ
+  - おっ──
+- touch: *o0
+- face:
+  - 106412
+  - 6
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5085006_052
+- face:
+  - 105913
+  - 6
+- nod:
+  - 105913
+- se:
+  - se_adv_step_wood_move_01
+- print:
+  - コッコロ
+  - だめですペコリーヌさま！
+- touch: *o0
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_5085006_053
+- face:
+  - 106412
+  - 6
+- print:
+  - シェフィ
+  - ペコリーヌさん、
+- wait:
+  - 15
+- print:
+  - シェフィ
+  - 我慢して！
+- wait:
+  - 30
+- print:
+  - シェフィ
+  - |2
+
+- face:
+  - 106412
+  - 2
+- print:
+  - シェフィ
+  - ほら、
+- wait:
+  - 20
+- print:
+  - シェフィ
+  - キャル……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106012
+  - C
+  - 4
+- fadein:
+  - 106012
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5085006_054
+- face:
+  - 106012
+  - 4
+- print:
+  - キャル
+  - …
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - キャル
+  - …っ！
+- shake:
+  - 106012
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105812
+  - L
+  - 6
+- chara_full:
+  - 105913
+  - C
+  - 6
+- chara_full:
+  - 106412
+  - R
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5085006_055
+- face:
+  - 105812
+  - 6
+- emotion:
+  - exclamation1_R
+  - 105812
+  - 5
+  - 650
+  - se_adv_emote_common_01
+- print:
+  - ペコリーヌ
+  - キャルちゃん！？
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - |2-
+
+    どうしたんですかっ！？
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5085006_056
+- face:
+  - 105913
+  - 6
+- print:
+  - コッコロ
+  - まさかキャルさま、
+- wait:
+  - 60
+- print:
+  - コッコロ
+  - ここにきて照れているのですか……！？
+- touch: *o0
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_5085006_057
+- face:
+  - 106412
+  - 6
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 106412
+- print:
+  - シェフィ
+  - 嘘でしょ！？
+- wait:
+  - 35
+- print:
+  - シェフィ
+  - |2-
+
+    さっきまで
+- wait:
+  - 25
+- print:
+  - シェフィ
+  - 「あたしが一番に言うからね！」って
+- wait:
+  - 15
+- print:
+  - シェフィ
+  - |2-
+
+    言ってたじゃない！　
+- wait:
+  - 40
+- print:
+  - シェフィ
+  - あの勢いはどうしたの！？
+- touch: *o0
+- choice:
+  - どうかしたの……？
+  - 3
+- tag:
+  - 3
+- focus:
+  - 105812:105913:106412
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5085006_058
+- multi_talk:
+  - 105812:105913:106412
+- face:
+  - 1
+  - 1
+- nod:
+  - 105812:105913:106412
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - ３人
+  - |-
+    キャルちゃん！
+    キャルさま！
+    キャル！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106012
+  - C
+  - 6
+- fadein:
+  - 106012
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5085006_059
+- face:
+  - 106012
+  - 6
+- print:
+  - キャル
+  - わっ、
+- wait:
+  - 15
+- print:
+  - キャル
+  - 分かってるわよ……！
+- wait:
+  - 30
+- print:
+  - キャル
+  - |2
+
+- face:
+  - 106012
+  - 4
+- print:
+  - キャル
+  - 仕方ないじゃない！　
+- wait:
+  - 30
+- print:
+  - キャル
+  - 実際にこうしてみると、
+- wait:
+  - 30
+- print:
+  - キャル
+  - |2-
+
+    なんかこう、
+- wait:
+  - 25
+- eye_open:
+  - False
+- print:
+  - キャル
+  - 胸がギュって……
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5085006_060
+- face:
+  - 106012
+  - 6
+- eye_open:
+  - True
+- print:
+  - キャル
+  - な、
+- wait:
+  - 20
+- print:
+  - キャル
+  - なんであたし、
+- wait:
+  - 10
+- print:
+  - キャル
+  - こんなに動揺してるわけ？
+- wait:
+  - 40
+- print:
+  - キャル
+  - |2
+
+- face:
+  - 106012
+  - 5
+- print:
+  - キャル
+  - それに、
+- wait:
+  - 20
+- print:
+  - キャル
+  - なんか胸が熱くて、
+- wait:
+  - 45
+- print:
+  - キャル
+  - 鼻がツンッてして、
+- wait:
+  - 45
+- print:
+  - キャル
+  - |2
+
+- face:
+  - 106012
+  - 4
+- print:
+  - キャル
+  - 目のあたりが、
+- wait:
+  - 30
+- print:
+  - キャル
+  - なんか……
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - TRUE
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5085006_061
+- face:
+  - 106012
+  - 4
+- eye_open:
+  - False
+- print:
+  - キャル
+  - ……ぐすっ。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106012
+  - 30
+- chara_full:
+  - 105812
+  - L
+  - 6
+- chara_full:
+  - 105913
+  - C
+  - 6
+- chara_full:
+  - 106412
+  - R
+  - 6
+- fadein_all:
+  - 30
+- focus:
+  - 105812:105913:106412
+- window_visible:
+  - true
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5085006_062
+- multi_talk:
+  - 105812:105913:106412
+- face:
+  - 1
+  - 1
+- emotion:
+  - surprise1_L
+  - 105812
+  - 155
+  - 550
+  - se_adv_emote_common_01
+- emotion:
+  - surprise1_L
+  - 105913
+  - 170
+  - 500
+  - non
+- emotion:
+  - surprise1_L
+  - 106412
+  - 160
+  - 450
+  - non
+- print:
+  - ３人
+  - ！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106012
+  - C
+  - 6
+- fadein:
+  - 106012
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5085006_063
+- face:
+  - 106012
+  - 6
+- print:
+  - キャル
+  - なっ、
+- wait:
+  - 15
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 106012
+- print:
+  - キャル
+  - なによ！？
+- wait:
+  - 15
+- print:
+  - キャル
+  - |2-
+
+    何見てんのよ、
+- wait:
+  - 25
+- print:
+  - キャル
+  - 見せ物じゃないわよ！
+- wait:
+  - 50
+- print:
+  - キャル
+  - |2
+
+- face:
+  - 106012
+  - 3
+- print:
+  - キャル
+  - いっ、
+- wait:
+  - 15
+- print:
+  - キャル
+  - 言えばいいんでしょ！　
+- wait:
+  - 15
+- print:
+  - キャル
+  - 言えば！
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5085006_064
+- face:
+  - 106012
+  - 5
+- print:
+  - キャル
+  - …………
+- touch: *o0
+- bgm:
+  - stop
+  - 3.5
+  - 1
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5085006_065
+- face:
+  - 106012
+  - 4
+- print:
+  - キャル
+  - ──お、
+- wait:
+  - 30
+- print:
+  - キャル
+  - おはよう。
+- touch: *o0
+- choice:
+  - おはよう、キャルちゃん。
+  - 4
+- tag:
+  - 4
+- bgm:
+  - bgm_M558
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5085006_066
+- face:
+  - 106012
+  - 5
+- print:
+  - キャル
+  - ～～
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - キャル
+  - ～っ、
+- sway:
+  - 106012
+- wait:
+  - 25
+- face:
+  - 106012
+  - 3
+- print:
+  - キャル
+  - 起きるのが遅いのよ！
+- wait:
+  - 50
+- print:
+  - キャル
+  - |2-
+
+    わざわざあたしが起こしに来てあげたんだから、
+- wait:
+  - 35
+- print:
+  - キャル
+  - |2-
+
+    さっさと起きて
+- wait:
+  - 15
+- print:
+  - キャル
+  - 目いっぱい感謝しなさいよねっ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106012
+  - 30
+- chara_full:
+  - 105812
+  - LC
+  - 2
+- chara_full:
+  - 105913
+  - RC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5085006_067
+- face:
+  - 105812
+  - 2
+- print:
+  - ペコリーヌ
+  - おっはようございます～っ♪
+- wait:
+  - 55
+- print:
+  - ペコリーヌ
+  - |2-
+
+    えへへっ、
+- wait:
+  - 35
+- nod:
+  - 105812
+- se:
+  - se_adv_hug_peco_01
+- print:
+  - ペコリーヌ
+  - ぎゅ～～～～～～～っ☆
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5085006_068
+- face:
+  - 105913
+  - 6
+- print:
+  - コッコロ
+  - あっ、
+- wait:
+  - 30
+- print:
+  - コッコロ
+  - ペコリーヌさまずるいです……！
+- wait:
+  - 40
+- print:
+  - コッコロ
+  - |2
+
+- face:
+  - 105913
+  - 2
+- print:
+  - コッコロ
+  - わたくしも……
+- wait:
+  - 80
+- print:
+  - コッコロ
+  - 主さま、
+- wait:
+  - 40
+- eye_open:
+  - False
+- print:
+  - コッコロ
+  - お目覚めの抱擁でございますよ……♪
+- wait:
+  - 80
+- print:
+  - コッコロ
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - コッコロ
+  - シェフィさまも、
+- wait:
+  - 25
+- print:
+  - コッコロ
+  - いかがですか？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106412
+  - LC
+  - 5
+- chara_full:
+  - 106012
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_5085006_069
+- face:
+  - 106412
+  - 5
+- print:
+  - シェフィ
+  - わ、
+- wait:
+  - 25
+- print:
+  - シェフィ
+  - 私は
+- wait:
+  - 30
+- print:
+  - シェフィ
+  - 遠慮しておくわ。
+- wait:
+  - 60
+- print:
+  - シェフィ
+  - |2
+
+- face:
+  - 106412
+  - 6
+- print:
+  - シェフィ
+  - キャルがやったら？
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5085006_070
+- face:
+  - 106012
+  - 6
+- emotion:
+  - surprise1_L
+  - 106012
+  - 165
+  - 540
+  - se_adv_emote_common_01
+- print:
+  - キャル
+  - はぁ！？
+- wait:
+  - 15
+- print:
+  - キャル
+  - |2-
+
+    や、
+- wait:
+  - 15
+- print:
+  - キャル
+  - やるわけないじゃない
+- wait:
+  - 20
+- print:
+  - キャル
+  - ぎゅ～
+- wait:
+  - 10
+- print:
+  - キャル
+  - っとか、
+- wait:
+  - 10
+- print:
+  - キャル
+  - |2-
+
+    こんな恥ずかしいこと！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106812
+  - C
+  - 1
+- fadein:
+  - 106812
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_5085006_071
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - へぇ～、
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - そりゃもったいない。
+- wait:
+  - 50
+- print:
+  - ラビリスタ
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - ラビリスタ
+  - 今なら多少素直になっても許されるだろうに。
+- wait:
+  - 60
+- print:
+  - ラビリスタ
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - ラビリスタ
+  - 今度こそ、
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - ちゃんとしても
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - いいんじゃない？
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_5085006_072
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - ──キッス。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106812
+  - 30
+- chara_full:
+  - 106012
+  - LC
+  - 5
+- chara_full:
+  - 106812
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5085006_073
+- face:
+  - 106012
+  - 5
+- emotion:
+  - shy1_R
+  - 106012
+  - -100
+  - 480
+  - se_adv_emote_shy_01
+- print:
+  - キャル
+  - しししっ、
+- wait:
+  - 10
+- print:
+  - キャル
+  - しないわよ！
+- wait:
+  - 35
+- print:
+  - キャル
+  - |2
+
+- face:
+  - 106012
+  - 6
+- print:
+  - キャル
+  - ってかまだいたの、
+- wait:
+  - 15
+- print:
+  - キャル
+  - あんた！？
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_5085006_074
+- face:
+  - 106812
+  - 6
+- print:
+  - ラビリスタ
+  - ご挨拶だな～
+- wait:
+  - 40
+- print:
+  - ラビリスタ
+  - |2-
+
+    アタシだって彼が心配でたまらなかったんだよ？
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5085006_075
+- face:
+  - 106012
+  - 3
+- nod:
+  - 106012
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - キャル
+  - ああそう！
+- wait:
+  - 35
+- print:
+  - キャル
+  - |2
+
+- face:
+  - 106012
+  - 1
+- print:
+  - キャル
+  - だったらあんたが抱きついてやればいいじゃない！
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_5085006_076
+- face:
+  - 106812
+  - 1
+- emotion:
+  - note1_L
+  - 106812
+  - -100
+  - 550
+  - se_adv_emote_note_01
+- eye_open:
+  - False
+- print:
+  - ラビリスタ
+  - ははは。
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - それもいいとは思うけどね、
+- wait:
+  - 45
+- print:
+  - ラビリスタ
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - ラビリスタ
+  - それよりも今回、
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - 頑張ったのはキミたちだ。
+- wait:
+  - 45
+- print:
+  - ラビリスタ
+  - |2-
+
+    その役は譲るとしよう。
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5085006_077
+- face:
+  - 106012
+  - 4
+- print:
+  - キャル
+  - あっそ。
+- wait:
+  - 50
+- print:
+  - キャル
+  - |2
+
+- face:
+  - 106012
+  - 6
+- print:
+  - キャル
+  - ……そういえば、
+- wait:
+  - 15
+- print:
+  - キャル
+  - 聞いておきたいんだけどさ。
+- wait:
+  - 45
+- print:
+  - キャル
+  - |2
+
+- face:
+  - 106012
+  - 4
+- print:
+  - キャル
+  - あの、
+- wait:
+  - 20
+- print:
+  - キャル
+  - 陛下のプリンセスナイトの力なんだけど……
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_5085006_078
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - ああそれなら、
+- wait:
+  - 35
+- print:
+  - ラビリスタ
+  - キミの中にはもうないよ。
+- wait:
+  - 45
+- print:
+  - ラビリスタ
+  - |2
+
+- face:
+  - 106812
+  - 6
+- print:
+  - ラビリスタ
+  - 一時的に貸し与えたというか、
+- wait:
+  - 75
+- print:
+  - ラビリスタ
+  - |2
+
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - 時限的に発動するようにしてただけみたいだね。
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5085006_079
+- face:
+  - 106012
+  - 1
+- print:
+  - キャル
+  - ……そ。
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_5085006_080
+- face:
+  - 106812
+  - 1
+- eye_open:
+  - False
+- print:
+  - ラビリスタ
+  - それより、
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - 改めて言わせてもらおうかな。
+- wait:
+  - 50
+- print:
+  - ラビリスタ
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - ラビリスタ
+  - 少年を救ってくれたこと、
+- wait:
+  - 45
+- print:
+  - ラビリスタ
+  - 感謝するよ。
+- wait:
+  - 45
+- print:
+  - ラビリスタ
+  - |2-
+
+    ……ありがとう。
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 1
+- vo:
+  - vo_adv_5085006_081
+- face:
+  - 105812
+  - 6
+- print:
+  - ペコリーヌ
+  - ラビリスタさん……
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5085006_082
+- face:
+  - 106012
+  - 1
+- nod:
+  - 106012
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - キャル
+  - ……別に、
+- wait:
+  - 25
+- print:
+  - キャル
+  - 誰に頼まれてやったわけじゃないわよ。
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_5085006_083
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - ふむ？
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5085006_084
+- face:
+  - 106012
+  - 1
+- eye_open:
+  - False
+- print:
+  - キャル
+  - ペコリーヌも、
+- wait:
+  - 15
+- print:
+  - キャル
+  - コロ助も、
+- wait:
+  - 20
+- print:
+  - キャル
+  - シェフィも。
+- wait:
+  - 25
+- print:
+  - キャル
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - キャル
+  - それに他の連中だって。
+- wait:
+  - 45
+- print:
+  - キャル
+  - |2-
+
+    頼まれなくたって、
+- wait:
+  - 25
+- print:
+  - キャル
+  - こうしていたわ。
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5085006_085
+- face:
+  - 106012
+  - 1
+- nod:
+  - 106012
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - キャル
+  - こいつが寝てる間、
+- wait:
+  - 30
+- print:
+  - キャル
+  - いろんな人に会って、
+- wait:
+  - 30
+- print:
+  - キャル
+  - |2-
+
+    こいつのこれまでしてきたことを見てきたけど……
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5085006_086
+- face:
+  - 106012
+  - 2
+- print:
+  - キャル
+  - みんな、
+- wait:
+  - 25
+- print:
+  - キャル
+  - こいつのことを本気で思って、
+- wait:
+  - 35
+- print:
+  - キャル
+  - |2-
+
+    心配して、
+- wait:
+  - 30
+- print:
+  - キャル
+  - 力を貸してくれた。
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5085006_087
+- face:
+  - 106012
+  - 2
+- nod:
+  - 106012
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - キャル
+  - だから感謝なんていらないのよ。
+- wait:
+  - 60
+- print:
+  - キャル
+  - |2-
+
+    ただ、
+- wait:
+  - 15
+- print:
+  - キャル
+  - あたしが『良かった』って、
+- wait:
+  - 25
+- print:
+  - キャル
+  - |2-
+
+    そう思えてるから、
+- wait:
+  - 25
+- print:
+  - キャル
+  - それでいい。
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5085006_088
+- face:
+  - 106012
+  - 6
+- print:
+  - キャル
+  - みんな、
+- wait:
+  - 15
+- print:
+  - キャル
+  - そうなんじゃない？
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5085006_089
+- face:
+  - 106012
+  - 5
+- print:
+  - キャル
+  - ……しっ、
+- wait:
+  - 10
+- print:
+  - キャル
+  - 知らないけどね！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105913
+  - LC
+  - 2
+- chara_full:
+  - 106412
+  - RC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5085006_090
+- face:
+  - 105913
+  - 2
+- print:
+  - コッコロ
+  - キャルさま……！
+- touch: *o0
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_5085006_091
+- face:
+  - 106412
+  - 2
+- print:
+  - シェフィ
+  - キャル……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106012
+  - C
+  - 6
+- fadein:
+  - 106012
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5085006_092
+- face:
+  - 106012
+  - 6
+- print:
+  - キャル
+  - なっ！　
+- wait:
+  - 15
+- print:
+  - キャル
+  - なによ！？
+- wait:
+  - 20
+- print:
+  - キャル
+  - |2-
+
+    あたしなんか変なこと言った！？
+- touch: *o0
+- choice:
+  - ありがとう、キャルちゃん。
+  - 5
+- tag:
+  - 5
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5085006_093
+- face:
+  - 106012
+  - 3
+- print:
+  - キャル
+  - だっ、
+- wait:
+  - 15
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 106012
+- print:
+  - キャル
+  - だから感謝なんていらないって言ってるでしょ！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106012
+  - 30
+- chara_full:
+  - 105812
+  - C
+  - 2
+- fadein:
+  - 105812
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5085006_094
+- face:
+  - 105812
+  - 2
+- emotion:
+  - note1_L
+  - 105812
+  - -85
+  - 530
+  - se_adv_emote_note_01
+- print:
+  - ペコリーヌ
+  - えへへ……☆
+- wait:
+  - 40
+- print:
+  - ペコリーヌ
+  - |2
+
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - やっぱりいいですね。
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5085006_095
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - 今はここが、
+- wait:
+  - 35
+- print:
+  - ペコリーヌ
+  - わたしの居場所。
+- wait:
+  - 40
+- print:
+  - ペコリーヌ
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - ペコリーヌ
+  - いっぱい笑って、
+- wait:
+  - 35
+- print:
+  - ペコリーヌ
+  - たくさん遊んで、
+- wait:
+  - 35
+- print:
+  - ペコリーヌ
+  - 思いっきり食べて。
+- wait:
+  - 45
+- print:
+  - ペコリーヌ
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - ペコリーヌ
+  - 幸せでお腹を満たせる場所。
+- touch: *o0
+- choice:
+  - ペコさんも、ありがとう。
+  - 6
+- tag:
+  - 6
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5085006_096
+- face:
+  - 105812
+  - 2
+- print:
+  - ペコリーヌ
+  - ……こちらこそ。
+- wait:
+  - 25
+- print:
+  - ペコリーヌ
+  - |2-
+
+    ありがとうございます、
+- wait:
+  - 15
+- print:
+  - ペコリーヌ
+  - '{0}くん♪'
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105812
+  - 30
+- chara_full:
+  - 105913
+  - LC
+  - 1
+- chara_full:
+  - 106812
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_5085006_097
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - ……さて、
+- wait:
+  - 40
+- print:
+  - ラビリスタ
+  - そろそろいいかな？
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5085006_098
+- face:
+  - 105913
+  - 6
+- emotion:
+  - question1_R
+  - 105913
+  - 120
+  - 465
+  - se_adv_emote_question_01
+- print:
+  - コッコロ
+  - そろそろ……
+- wait:
+  - 35
+- print:
+  - コッコロ
+  - とは、
+- wait:
+  - 40
+- print:
+  - コッコロ
+  - なにがでございますか？
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_5085006_099
+- face:
+  - 106812
+  - 6
+- print:
+  - ラビリスタ
+  - いやぁ、
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - そろそろ我慢できなくなってるんじゃないかなって。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105913
+  - 30
+- chara_full:
+  - 106412
+  - LC
+  - 6
+- fadein:
+  - 106412
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 5
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_5085006_100
+- face:
+  - 106412
+  - 6
+- print:
+  - シェフィ
+  - 我慢……？
+- touch: *o0
+- se:
+  - se_adv_earthquake_02_lp
+- bgm:
+  - bgm_M329
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_5085006_101
+- face:
+  - 106812
+  - 4
+- print:
+  - ラビリスタ
+  - キミたちがこうしている間にね、
+- wait:
+  - 40
+- print:
+  - ラビリスタ
+  - |2-
+
+    その……
+- wait:
+  - 40
+- print:
+  - ラビリスタ
+  - 集まってきてるんだよ。
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - |2
+
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - ほら、
+- wait:
+  - 10
+- print:
+  - ラビリスタ
+  - 聞こえない？　
+- wait:
+  - 25
+- print:
+  - ラビリスタ
+  - ギルドハウスがきしむ音。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106412
+  - 30
+- chara_full:
+  - 106012
+  - LC
+  - 6
+- fadein:
+  - 106012
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 3.5
+  - 1
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5085006_102
+- face:
+  - 106012
+  - 6
+- print:
+  - キャル
+  - ……まっ、
+- wait:
+  - 25
+- print:
+  - キャル
+  - まさか。
+- touch: *o0
+- bgm:
+  - bgm_M555_03
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_5085006_103
+- face:
+  - 106812
+  - 6
+- nod:
+  - 106812
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - ラビリスタ
+  - そりゃあそうだよねぇ。
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - |2-
+
+    みんな心配してたわけだから。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105812
+  - C
+  - 6
+- fadein:
+  - 105812
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5085006_104
+- face:
+  - 105812
+  - 6
+- emotion:
+  - exclamation1_R
+  - 105812
+  - 5
+  - 650
+  - se_adv_emote_common_01
+- print:
+  - ペコリーヌ
+  - あ、
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - 足音が……！
+- wait:
+  - 25
+- print:
+  - ペコリーヌ
+  - |2-
+
+    たくさんの足音が聞こえてきますよっ！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105812
+  - 30
+- chara_full:
+  - 106812
+  - C
+  - 1
+- fadein:
+  - 106812
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_5085006_105
+- face:
+  - 106812
+  - 1
+- nod:
+  - 106812
+- se:
+  - se_adv_step_wood_move_01
+- print:
+  - ラビリスタ
+  - それじゃ、
+- wait:
+  - 5
+- print:
+  - ラビリスタ
+  - アタシはこの辺で。
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - |2-
+
+    ……少年。
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - |2-
+
+    しっかりと
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - みんなに挨拶するんだよ？
+- touch: *o0
+- choice:
+  - もちろん、分かってる。
+  - 7
+- tag:
+  - 7
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_5085006_106
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - ふふ。
+- wait:
+  - 50
+- print:
+  - ラビリスタ
+  - いい返事だ。
+- wait:
+  - 25
+- print:
+  - ラビリスタ
+  - |2-
+
+    じゃあ、
+- wait:
+  - 5
+- print:
+  - ラビリスタ
+  - またね。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_wood_walk_go_01
+- change:
+  - LC
+  - C
+  - 30
+- fadeout:
+  - 106812
+  - 30
+- chara_full:
+  - 105913
+  - LC
+  - 6
+- chara_full:
+  - 106012
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5085006_107
+- face:
+  - 106012
+  - 6
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 106012
+- print:
+  - キャル
+  - あーっ、
+- wait:
+  - 15
+- print:
+  - キャル
+  - こら、
+- wait:
+  - 10
+- print:
+  - キャル
+  - 逃げんな！
+- wait:
+  - 20
+- print:
+  - キャル
+  - |2-
+
+    どうすんのよ！？
+- wait:
+  - 25
+- print:
+  - キャル
+  - |2-
+
+    いくらなんでも、
+- wait:
+  - 10
+- print:
+  - キャル
+  - このギルドハウスに入り切るわけないでしょ！？
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_5085006_108
+- face:
+  - 105913
+  - 6
+- print:
+  - コッコロ
+  - 主さまのお知り合いが一斉に……！？
+- wait:
+  - 60
+- print:
+  - コッコロ
+  - |2
+
+- face:
+  - 105913
+  - 4
+- print:
+  - コッコロ
+  - どういたしましょう、
+- wait:
+  - 35
+- print:
+  - コッコロ
+  - 食事の用意が間に合いません……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105812
+  - LC
+  - 6
+- chara_full:
+  - 106412
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_5085006_109
+- face:
+  - 106412
+  - 6
+- emotion:
+  - sweat1_R
+  - 106412
+  - 80
+  - 455
+  - se_adv_emote_sweat_01
+- print:
+  - シェフィ
+  - いや、
+- wait:
+  - 15
+- print:
+  - シェフィ
+  - そういうことじゃないと思うわコッコロさん！
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_5085006_110
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - あっ、
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - もう遅いみたいです。
+- wait:
+  - 40
+- print:
+  - ペコリーヌ
+  - |2
+
+- face:
+  - 105812
+  - 2
+- print:
+  - ペコリーヌ
+  - やばいですね☆
+- touch: *o0
+- window_visible:
+  - false
+- se_pause:
+  - se_adv_earthquake_02_lp
+  - 1
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_explosion_comedy_02
+- shake_screen: *o0
+- chara_full:
+  - 106012
+  - C
+  - 6
+- fadein:
+  - 106012
+  - 30
+- text_size:
+  - 38
+- change_window:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_5085006_111
+- face:
+  - 106012
+  - 6
+- effect:
+  - 9
+- print:
+  - キャル
+  - ほんとにヤバイわよーーーーーーーっ！
+- touch: *o0
+- window_visible:
+  - false
+- effect_delete:
+  - 0009
+- fadeout:
+  - 106012
+  - 30
+- text_size:
+  - 23
+- change_window:
+  - 1
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - 【美食殿】のギルドハウスに殺到してくる、
+- wait:
+  - 30
+- print:
+  - ナレーション
+  - |2-
+
+    {0}と絆を結んだ人々。
+- wait:
+  - 30
+- print:
+  - ナレーション
+  - |2-
+
+    おはようの挨拶と、喜びに満ちた声が、ランドソル中に響き渡ってゆく。
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - FALSE
+- se_pause:
+  - amb_adv_room_noise_01
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- movie:
+  - 508500602
+- end: *o0

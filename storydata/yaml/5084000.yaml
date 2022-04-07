@@ -1,0 +1,2202 @@
+- title:
+  - 当たり前のはずの景色
+- outline:
+  - '{0}が目覚めると、そこはランドソルではない場所だった。出会う人々は誰一人ランドソルのことを知らず、自分の置かれている状況が何もわからないでいるところに、ペコリーヌが現れる。'
+- black_out:
+  - 1
+  - 0
+- bg_color:
+  - 0
+  - 0
+  - 0
+- movie:
+  - 508400001
+- black_out:
+  - 1
+  - 1
+- background:
+  - 510300
+- wait:
+  - 15
+- black_in: &o0 []
+- se:
+  - amb_adv_city_jpnstreet_01
+- situation:
+  - 当たり前のはずの景色
+- chara_full:
+  - 1231
+  - C
+  - 6
+- fadein:
+  - 1231
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M210
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 1231
+- bust:
+  - 1231
+  - 0
+- vo:
+  - vo_adv_5084000_000
+- face:
+  - 1231
+  - 6
+- print:
+  - 店員
+  - お客さま？
+- wait:
+  - 30
+- print:
+  - 店員
+  - |2-
+
+    ……
+- wait:
+  - 15
+- nod:
+  - 1231
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 店員
+  - お客さま？
+- touch: *o0
+- focus:
+  - 1231
+- bust:
+  - 1231
+  - 0
+- vo:
+  - vo_adv_5084000_001
+- face:
+  - 1231
+  - 4
+- print:
+  - 店員
+  - 大丈夫ですか……？
+- wait:
+  - 40
+- print:
+  - 店員
+  - |2-
+
+    長い間、
+- wait:
+  - 15
+- print:
+  - 店員
+  - ボーっとしていましたけど……
+- touch: *o0
+- choice:
+  - ここはどこですか？
+  - 1
+- tag:
+  - 1
+- focus:
+  - 1231
+- bust:
+  - 1231
+  - 0
+- vo:
+  - vo_adv_5084000_002
+- face:
+  - 1231
+  - 6
+- emotion:
+  - notice1_L
+  - 1231
+  - -80
+  - 535
+  - se_adv_emote_common_01
+- print:
+  - 店員
+  - え？
+- wait:
+  - 20
+- print:
+  - 店員
+  - |2-
+
+    え、と……
+- wait:
+  - 20
+- face:
+  - 1231
+  - 1
+- print:
+  - 店員
+  - ここは椿ヶ丘ですけど……？
+- touch: *o0
+- choice:
+  - 椿ヶ丘……？
+  - 2
+- tag:
+  - 2
+- focus:
+  - 1231
+- bust:
+  - 1231
+  - 0
+- vo:
+  - vo_adv_5084000_003
+- face:
+  - 1231
+  - 4
+- print:
+  - 店員
+  - 聞き覚えがないですかね？
+- wait:
+  - 35
+- print:
+  - 店員
+  - |2
+
+- face:
+  - 1231
+  - 6
+- print:
+  - 店員
+  - あれ？　
+- wait:
+  - 20
+- print:
+  - 店員
+  - でも、
+- wait:
+  - 10
+- print:
+  - 店員
+  - その制服……
+- wait:
+  - 25
+- print:
+  - 店員
+  - 椿ヶ丘高校の制服ですよね？
+- touch: *o0
+- focus:
+  - 1231
+- bust:
+  - 1231
+  - 0
+- vo:
+  - vo_adv_5084000_004
+- face:
+  - 1231
+  - 1
+- nod:
+  - 1231
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 店員
+  - それはともかく、
+- wait:
+  - 30
+- print:
+  - 店員
+  - ご注文はどうなさいますか？
+- wait:
+  - 35
+- print:
+  - 店員
+  - |2-
+
+    そちらのメニューからお選びくださいね。
+- touch: *o0
+- se:
+  - se_adv_menu_page_turn_01
+- choice:
+  - ……円？　ルピじゃないんですか？
+  - 3
+- tag:
+  - 3
+- focus:
+  - 1231
+- bust:
+  - 1231
+  - 0
+- vo:
+  - vo_adv_5084000_005
+- face:
+  - 1231
+  - 4
+- emotion:
+  - question1_R
+  - 1231
+  - 90
+  - 510
+  - se_adv_emote_question_01
+- print:
+  - 店員
+  - ルピ？
+- wait:
+  - 35
+- print:
+  - 店員
+  - |2-
+
+    ええっと……？
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 103231
+  - C
+  - 6
+- chara_full:
+  - 102832
+  - R
+  - 6
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - C
+  - 45
+- change:
+  - RC
+  - R
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - true
+- bgm:
+  - bgm_M113_Ver2
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 103231
+- bust:
+  - 103231
+  - 0
+- vo:
+  - vo_adv_5084000_006
+- face:
+  - 103231
+  - 6
+- print:
+  - 秋乃
+  - あら、
+- wait:
+  - 15
+- print:
+  - 秋乃
+  - そちらにいらっしゃるのは……
+- wait:
+  - 35
+- print:
+  - 秋乃
+  - '{0}さま？'
+- wait:
+  - 35
+- print:
+  - 秋乃
+  - |2-
+
+    どうなさいましたの？
+- touch: *o0
+- focus:
+  - 102832
+- bust:
+  - 102832
+  - 0
+- vo:
+  - vo_adv_5084000_007
+- face:
+  - 102832
+  - 6
+- print:
+  - 咲恋
+  - どうしたの？
+- wait:
+  - 30
+- print:
+  - 咲恋
+  - |2-
+
+    なんか困りごと？
+- touch: *o0
+- choice:
+  - サレンちゃんと……アキノ、さん？
+  - 4
+- tag:
+  - 4
+- focus:
+  - 102832
+- bust:
+  - 102832
+  - 0
+- vo:
+  - vo_adv_5084000_008
+- face:
+  - 102832
+  - 6
+- emotion:
+  - question1_R
+  - 102832
+  - 125
+  - 510
+  - se_adv_emote_question_01
+- print:
+  - 咲恋
+  - ……？
+- wait:
+  - 30
+- print:
+  - 咲恋
+  - |2-
+
+    そうだけど、
+- wait:
+  - 20
+- print:
+  - 咲恋
+  - どうしたのよ？
+- wait:
+  - 35
+- print:
+  - 咲恋
+  - |2-
+
+    狐につままれたみたいな顔して。
+- touch: *o0
+- focus:
+  - 103231
+- bust:
+  - 103231
+  - 0
+- vo:
+  - vo_adv_5084000_009
+- face:
+  - 103231
+  - 4
+- print:
+  - 秋乃
+  - なにか私たちの顔に
+- wait:
+  - 30
+- print:
+  - 秋乃
+  - おかしなところでもあるのですか？
+- wait:
+  - 45
+- print:
+  - 秋乃
+  - |2
+
+- face:
+  - 103231
+  - 6
+- print:
+  - 秋乃
+  - はっ、
+- wait:
+  - 15
+- print:
+  - 秋乃
+  - もしかして
+- wait:
+  - 25
+- print:
+  - 秋乃
+  - さっき咲恋さんと食べた焼きそばパンのソースが、
+- wait:
+  - 30
+- print:
+  - 秋乃
+  - |2-
+
+    口元について……！？
+- touch: *o0
+- focus:
+  - 102832
+- bust:
+  - 102832
+  - 0
+- vo:
+  - vo_adv_5084000_010
+- face:
+  - 102832
+  - 1
+- print:
+  - 咲恋
+  - ついてないから安心なさい。
+- wait:
+  - 30
+- print:
+  - 咲恋
+  - |2-
+
+    ……
+- wait:
+  - 15
+- face:
+  - 102832
+  - 6
+- print:
+  - 咲恋
+  - それより{0}、
+- wait:
+  - 25
+- print:
+  - 咲恋
+  - 随分困ってるみたいだけど、
+- wait:
+  - 40
+- print:
+  - 咲恋
+  - |2-
+
+    まさか財布忘れたんじゃないでしょうね？
+- touch: *o0
+- focus:
+  - 103231
+- bust:
+  - 103231
+  - 0
+- vo:
+  - vo_adv_5084000_011
+- face:
+  - 103231
+  - 6
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 103231
+- print:
+  - 秋乃
+  - まぁ！　
+- wait:
+  - 15
+- print:
+  - 秋乃
+  - それは大変ですわ！
+- wait:
+  - 40
+- print:
+  - 秋乃
+  - |2
+
+- face:
+  - 103231
+  - 1
+- print:
+  - 秋乃
+  - '{0}さま、'
+- wait:
+  - 25
+- print:
+  - 秋乃
+  - そういうことでしたら
+- wait:
+  - 25
+- print:
+  - 秋乃
+  - 私にお任せください！
+- wait:
+  - 40
+- print:
+  - 秋乃
+  - |2
+
+- face:
+  - 103231
+  - 2
+- print:
+  - 秋乃
+  - 藤堂家の力で、
+- wait:
+  - 20
+- print:
+  - 秋乃
+  - この店を丸ごと買い取ってさしあげましょう！
+- touch: *o0
+- focus:
+  - 1231
+- bust:
+  - 1231
+  - 1
+- vo:
+  - vo_adv_5084000_012
+- face:
+  - 1231
+  - 6
+- print:
+  - 店員
+  - えっ！？
+- touch: *o0
+- face:
+  - 103231
+  - 1
+- focus:
+  - 102832
+- bust:
+  - 102832
+  - 0
+- vo:
+  - vo_adv_5084000_013
+- face:
+  - 102832
+  - 6
+- print:
+  - 咲恋
+  - 解決策の規模が大きすぎるのよ！
+- wait:
+  - 55
+- print:
+  - 咲恋
+  - |2-
+
+    こうすればいいだけでしょ。
+- wait:
+  - 40
+- print:
+  - 咲恋
+  - |2
+
+- face:
+  - 102832
+  - 1
+- print:
+  - 咲恋
+  - ほら、
+- wait:
+  - 15
+- print:
+  - 咲恋
+  - 貸してあげるから、
+- wait:
+  - 20
+- se:
+  - se_adv_money_give_01
+- print:
+  - 咲恋
+  - これ使いなさい。
+- touch: *o0
+- choice:
+  - 口に入れる。
+  - 5
+- tag:
+  - 5
+- se:
+  - se_adv_eating_01
+- face:
+  - 103231
+  - 6
+- focus:
+  - 102832
+- bust:
+  - 102832
+  - 0
+- vo:
+  - vo_adv_5084000_014
+- face:
+  - 102832
+  - 6
+- emotion:
+  - surprise1_L
+  - 102832
+  - 155
+  - 565
+  - se_adv_emote_common_01
+- print:
+  - 咲恋
+  - うわああっ！？
+- wait:
+  - 15
+- print:
+  - 咲恋
+  - |2-
+
+    あんた、
+- wait:
+  - 10
+- print:
+  - 咲恋
+  - なにいきなりお金を口に入れてるのよ！？
+- wait:
+  - 25
+- print:
+  - 咲恋
+  - |2
+
+- face:
+  - 102832
+  - 3
+- print:
+  - 咲恋
+  - ほら、
+- wait:
+  - 5
+- print:
+  - 咲恋
+  - ペッてしなさい！　
+- wait:
+  - 10
+- print:
+  - 咲恋
+  - ペッて！
+- touch: *o0
+- se:
+  - se_adv_coin_money_throw_drop_01
+- focus:
+  - 102832
+- bust:
+  - 102832
+  - 0
+- vo:
+  - vo_adv_5084000_015
+- face:
+  - 102832
+  - 4
+- eye_open:
+  - False
+- print:
+  - 咲恋
+  - まったく迷いなく口に運んだわね……
+- wait:
+  - 55
+- print:
+  - 咲恋
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 咲恋
+  - 動きが自然すぎて
+- wait:
+  - 25
+- print:
+  - 咲恋
+  - 止める暇もなかったわ。
+- touch: *o0
+- choice:
+  - 体が勝手に……
+  - 6
+- tag:
+  - 6
+- focus:
+  - 102832
+- bust:
+  - 102832
+  - 0
+- vo:
+  - vo_adv_5084000_016
+- face:
+  - 102832
+  - 4
+- emotion:
+  - sweat1_R
+  - 102832
+  - 90
+  - 540
+  - se_adv_emote_sweat_01
+- print:
+  - 咲恋
+  - なんかの呪いなの……？
+- touch: *o0
+- focus:
+  - 103231
+- bust:
+  - 103231
+  - 0
+- vo:
+  - vo_adv_5084000_017
+- face:
+  - 103231
+  - 2
+- print:
+  - 秋乃
+  - ふふっ、
+- wait:
+  - 25
+- face:
+  - 103231
+  - 1
+- print:
+  - 秋乃
+  - あなたさまは
+- wait:
+  - 20
+- print:
+  - 秋乃
+  - いつも私の想像もしない行動をしますわね。
+- touch: *o0
+- focus:
+  - 102832
+- bust:
+  - 102832
+  - 0
+- vo:
+  - vo_adv_5084000_018
+- face:
+  - 102832
+  - 6
+- print:
+  - 咲恋
+  - それにしたって今日は一段とおかしいわよ。
+- wait:
+  - 45
+- print:
+  - 咲恋
+  - |2-
+
+    ……
+- wait:
+  - 15
+- print:
+  - 咲恋
+  - 何かあったの？
+- touch: *o0
+- choice:
+  - ランドソルのこと、覚えてる？
+  - 7
+- tag:
+  - 7
+- face:
+  - 103231
+  - 6
+- focus:
+  - 103231
+- bust:
+  - 103231
+  - 0
+- vo:
+  - vo_adv_5084000_019
+- face:
+  - 103231
+  - 6
+- print:
+  - 秋乃
+  - …………
+- touch: *o0
+- bgm:
+  - stop
+  - 4.5
+- focus:
+  - 102832
+- bust:
+  - 102832
+  - 0
+- vo:
+  - vo_adv_5084000_020
+- face:
+  - 102832
+  - 6
+- print:
+  - 咲恋
+  - ランドソル……？
+- touch: *o0
+- window_visible:
+  - false
+- focus:
+  - 103231:102832
+- window_visible:
+  - true
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5084000_021
+- multi_talk:
+  - 103231:102832
+- face:
+  - 1
+  - 1
+- emotion:
+  - question1_R
+  - 103231
+  - 115
+  - 490
+  - se_adv_emote_question_01
+- emotion:
+  - question1_R
+  - 102832
+  - 125
+  - 510
+  - non
+- print:
+  - 二人
+  - なんですか、
+- wait:
+  - 5
+- print:
+  - 二人
+  - |-
+    それは？
+    なによ、それ？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_shopping_street_01
+  - 1
+- background:
+  - 510280
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_shopping_street_01
+- se:
+  - se_adv_body_lean_01
+- chara_full:
+  - 102232
+  - LC
+  - 6
+- chara_full:
+  - 100632
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M404
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 100632
+- bust:
+  - 100632
+  - 0
+- vo:
+  - vo_adv_5084000_022
+- face:
+  - 100632
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100632
+  - 0
+  - 640
+  - se_adv_emote_common_01
+- print:
+  - あかり
+  - ──きゃっ！？
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_5084000_023
+- face:
+  - 102232
+  - 3
+- print:
+  - より
+  - ちょっとそこのアンタ！
+- wait:
+  - 25
+- print:
+  - より
+  - |2-
+
+    妹にいきなりぶつかっておいて謝りもしないの！？
+- touch: *o0
+- choice:
+  - ……アカリ、ヨリ？
+  - 8
+- tag:
+  - 8
+- face:
+  - 102232
+  - 6
+- focus:
+  - 100632
+- bust:
+  - 100632
+  - 0
+- vo:
+  - vo_adv_5084000_024
+- face:
+  - 100632
+  - 1
+- print:
+  - あかり
+  - あっ、
+- wait:
+  - 15
+- print:
+  - あかり
+  - お兄ちゃんだ！
+- wait:
+  - 25
+- print:
+  - あかり
+  - |2
+
+- face:
+  - 100632
+  - 2
+- print:
+  - あかり
+  - お兄ちゃ～ん♪
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_5084000_025
+- face:
+  - 102232
+  - 6
+- print:
+  - より
+  - なんだ、
+- wait:
+  - 25
+- print:
+  - より
+  - アンタだったの。
+- wait:
+  - 50
+- print:
+  - より
+  - |2
+
+- face:
+  - 102232
+  - 3
+- print:
+  - より
+  - 気をつけなさいよね！　
+- wait:
+  - 30
+- print:
+  - より
+  - そんな風に慌てて走ってたら……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_body_carry_back_01
+- camera_zoom:
+  - 1.2
+  - 15
+- chara_full:
+  - 100632
+  - C
+  - 6
+- fadein:
+  - 100632
+  - 30
+- window_visible:
+  - true
+- choice:
+  - ランドソルって知ってるよね！？
+  - 9
+- tag:
+  - 9
+- focus:
+  - 100632
+- bust:
+  - 100632
+  - 0
+- vo:
+  - vo_adv_5084000_026
+- face:
+  - 100632
+  - 4
+- emotion:
+  - exclamation1_R
+  - 100632
+  - 0
+  - 640
+  - se_adv_emote_common_01
+- print:
+  - あかり
+  - きゃっ！？　
+- wait:
+  - 15
+- print:
+  - あかり
+  - ダメですよぉお兄ちゃん……
+- wait:
+  - 40
+- print:
+  - あかり
+  - |2
+
+- face:
+  - 100632
+  - 5
+- print:
+  - あかり
+  - こんなところで、
+- wait:
+  - 15
+- print:
+  - あかり
+  - あかりをギュッてするなんて～……
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 1
+- vo:
+  - vo_adv_5084000_027
+- face:
+  - 102232
+  - 6
+- print:
+  - より
+  - ちょ、
+- wait:
+  - 15
+- print:
+  - より
+  - ちょっとどうしたのよ！
+- wait:
+  - 25
+- print:
+  - より
+  - |2-
+
+    いきなりあかりの肩を掴んだりして！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100632
+  - 30
+- camera_zoom:
+  - 1
+  - 15
+- chara_full:
+  - 102232
+  - LC
+  - 6
+- chara_full:
+  - 100632
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 7.5
+  - 1
+- focus:
+  - 100632
+- bust:
+  - 100632
+  - 0
+- vo:
+  - vo_adv_5084000_028
+- face:
+  - 100632
+  - 4
+- print:
+  - あかり
+  - えっと……
+- wait:
+  - 30
+- print:
+  - あかり
+  - |2-
+
+    ランドソルってなんですか～？
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_5084000_029
+- face:
+  - 102232
+  - 6
+- print:
+  - より
+  - なにかのゲームの話？
+- wait:
+  - 55
+- print:
+  - より
+  - |2
+
+- face:
+  - 102232
+  - 4
+- bgm:
+  - bgm_M288
+- print:
+  - より
+  - だったら、
+- wait:
+  - 15
+- print:
+  - より
+  - 私は知らないけど……
+- wait:
+  - 105
+- face:
+  - 102232
+  - 1
+- print:
+  - より
+  - 新作？
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- face:
+  - 102232
+  - 6
+- face:
+  - 100632
+  - 6
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100632
+- bust:
+  - 100632
+  - 0
+- vo:
+  - vo_adv_5084000_030
+- face:
+  - 100632
+  - 6
+- emotion:
+  - surprise1_L
+  - 100632
+  - 135
+  - 555
+  - se_adv_emote_common_01
+- print:
+  - あかり
+  - あんっ！
+- wait:
+  - 15
+- print:
+  - あかり
+  - |2-
+
+    お兄ちゃん！？　
+- wait:
+  - 20
+- print:
+  - あかり
+  - もういっちゃうの！？
+- touch: *o0
+- focus:
+  - 102232
+- bust:
+  - 102232
+  - 0
+- vo:
+  - vo_adv_5084000_031
+- face:
+  - 102232
+  - 3
+- print:
+  - より
+  - なんなのよ、
+- wait:
+  - 45
+- print:
+  - より
+  - も～～～！
+- touch: *o0
+- window_visible:
+  - false
+- focus:
+  - 100632:102232
+- emotion:
+  - dots1_R
+  - 102232
+  - -100
+  - 520
+  - se_adv_emote_dots_01
+- emotion:
+  - dots1_R
+  - 100632
+  - -105
+  - 500
+  - non
+- wait:
+  - 60
+- emotion_end:
+  - 102232
+- emotion_end:
+  - 100632
+- face:
+  - 102232
+  - 4
+- face:
+  - 100632
+  - 4
+- window_visible:
+  - true
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5084000_032
+- multi_talk:
+  - 100632:102232
+- face:
+  - 1
+  - 1
+- print:
+  - 二人
+  - どうしたんだろうね……？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_shopping_street_01
+  - 1
+- background:
+  - 510290
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_shopping_street_01
+- chara_full:
+  - 105531
+  - C
+  - 6
+- fadein:
+  - 105531
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105531
+- bust:
+  - 105531
+  - 0
+- vo:
+  - vo_adv_5084000_033
+- face:
+  - 105531
+  - 6
+- emotion:
+  - exclamation1_R
+  - 105531
+  - 10
+  - 650
+  - se_adv_emote_common_01
+- print:
+  - あゆみ
+  - せっ、
+- wait:
+  - 15
+- print:
+  - あゆみ
+  - 先輩っ！？
+- wait:
+  - 30
+- print:
+  - あゆみ
+  - |2-
+
+    私が見ていたことに気づいてっ！？
+- touch: *o0
+- focus:
+  - 105531
+- bust:
+  - 105531
+  - 0
+- vo:
+  - vo_adv_5084000_034
+- face:
+  - 105531
+  - 4
+- eye_open:
+  - False
+- print:
+  - あゆみ
+  - ご、
+- wait:
+  - 15
+- print:
+  - あゆみ
+  - ごめんなさいっ……！
+- wait:
+  - 30
+- print:
+  - あゆみ
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - あゆみ
+  - なんだか急いでいたみたいなので、
+- wait:
+  - 25
+- print:
+  - あゆみ
+  - |2-
+
+    声をかけそびれていたら……！
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 105531
+  - 6
+- se:
+  - se_adv_tickle_02
+- nod:
+  - 105531
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 105531
+- bust:
+  - 105531
+  - 0
+- vo:
+  - vo_adv_5084000_035
+- face:
+  - 105531
+  - 6
+- print:
+  - あゆみ
+  - え？
+- wait:
+  - 30
+- print:
+  - あゆみ
+  - |2-
+
+    ……
+- wait:
+  - 15
+- print:
+  - あゆみ
+  - ランドソル、
+- wait:
+  - 25
+- print:
+  - あゆみ
+  - ですか？
+- touch: *o0
+- focus:
+  - 105531
+- bust:
+  - 105531
+  - 0
+- vo:
+  - vo_adv_5084000_036
+- face:
+  - 105531
+  - 4
+- eye_open:
+  - False
+- print:
+  - あゆみ
+  - すみません、
+- wait:
+  - 20
+- print:
+  - あゆみ
+  - 聞いたことありません……
+- wait:
+  - 45
+- print:
+  - あゆみ
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - あゆみ
+  - つ、
+- wait:
+  - 15
+- print:
+  - あゆみ
+  - 次までに
+- wait:
+  - 25
+- print:
+  - あゆみ
+  - 勉強しておきます～～～！
+- touch: *o0
+- se:
+  - se_adv_step_concrete_run_go_01
+- focus:
+  - 105531
+- bust:
+  - 105531
+  - 0
+- vo:
+  - vo_adv_5084000_037
+- face:
+  - 105531
+  - 6
+- print:
+  - あゆみ
+  - ああっ、
+- wait:
+  - 15
+- print:
+  - あゆみ
+  - '{0}先輩……！？'
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105531
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_shopping_street_01
+  - 1
+- background:
+  - 510124
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_park_day_01
+- chara_full:
+  - 104532
+  - C
+  - 6
+- fadein:
+  - 104532
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104532
+- bust:
+  - 104532
+  - 0
+- vo:
+  - vo_adv_5084000_038
+- face:
+  - 104532
+  - 6
+- print:
+  - 空花
+  - ド、
+- wait:
+  - 15
+- print:
+  - 空花
+  - ドＳさん！？
+- wait:
+  - 25
+- print:
+  - 空花
+  - |2
+
+- face:
+  - 104532
+  - 4
+- print:
+  - 空花
+  - なんですか、
+- wait:
+  - 15
+- print:
+  - 空花
+  - そんな勢いで迫られると……！
+- touch: *o0
+- focus:
+  - 104532
+- bust:
+  - 104532
+  - 0
+- vo:
+  - vo_adv_5084000_039
+- face:
+  - 104532
+  - 6
+- print:
+  - 空花
+  - えっ？　
+- wait:
+  - 20
+- print:
+  - 空花
+  - 聞きたいことがある？
+- wait:
+  - 40
+- print:
+  - 空花
+  - |2-
+
+    そ、
+- wait:
+  - 20
+- print:
+  - 空花
+  - それはまさか、
+- wait:
+  - 30
+- face:
+  - 104532
+  - 5
+- print:
+  - 空花
+  - 空花のあんなことやこんなこと……
+- wait:
+  - 80
+- face:
+  - 104532
+  - 6
+- print:
+  - 空花
+  - 違う？
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 104532
+  - 6
+- emotion:
+  - question1_R
+  - 104532
+  - 95
+  - 505
+  - se_adv_emote_question_01
+- wait:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104532
+- bust:
+  - 104532
+  - 0
+- vo:
+  - vo_adv_5084000_040
+- face:
+  - 104532
+  - 4
+- print:
+  - 空花
+  - らんど……
+- wait:
+  - 25
+- print:
+  - 空花
+  - そる？
+- wait:
+  - 30
+- print:
+  - 空花
+  - |2-
+
+    なんですか、
+- wait:
+  - 15
+- print:
+  - 空花
+  - それは……？
+- touch: *o0
+- focus:
+  - 104532
+- bust:
+  - 104532
+  - 0
+- vo:
+  - vo_adv_5084000_041
+- face:
+  - 104532
+  - 2
+- print:
+  - 空花
+  - ドＳさんのことです、
+- wait:
+  - 30
+- print:
+  - 空花
+  - 何かのいやらしい言葉に違いありません……！
+- wait:
+  - 50
+- print:
+  - 空花
+  - |2
+
+- face:
+  - 104532
+  - 5
+- print:
+  - 空花
+  - 空花にそれを連呼させて
+- wait:
+  - 30
+- print:
+  - 空花
+  - 辱めようというのですね～！？
+- touch: *o0
+- focus:
+  - 104532
+- bust:
+  - 104532
+  - 0
+- vo:
+  - vo_adv_5084000_042
+- face:
+  - 104532
+  - 6
+- emotion:
+  - surprise1_L
+  - 104532
+  - 130
+  - 535
+  - se_adv_emote_common_01
+- print:
+  - 空花
+  - ってあれ？　
+- wait:
+  - 15
+- print:
+  - 空花
+  - ドＳさん、
+- wait:
+  - 25
+- print:
+  - 空花
+  - ドＳさ～～～ん！？
+- wait:
+  - 30
+- print:
+  - 空花
+  - |2-
+
+    どこに行ってしまったんですか～～～～～！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 104532
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_park_day_01
+  - 1
+- background:
+  - 510070
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_park_day_01
+- chara_full:
+  - 105231
+  - C
+  - 1
+- fadein:
+  - 105231
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105231
+- bust:
+  - 105231
+  - 0
+- vo:
+  - vo_adv_5084000_043
+- face:
+  - 105231
+  - 1
+- print:
+  - リマ
+  - リマリマ～
+- wait:
+  - 65
+- print:
+  - リマ
+  - |2-
+
+    （ランドソル……
+- wait:
+  - 15
+- print:
+  - リマ
+  - ）
+- touch: *o0
+- focus:
+  - 105231
+- bust:
+  - 105231
+  - 0
+- vo:
+  - vo_adv_5084000_044
+- face:
+  - 105231
+  - 4
+- nod:
+  - 105231
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - リマ
+  - リマ、
+- wait:
+  - 15
+- print:
+  - リマ
+  - リマリマ……
+- wait:
+  - 55
+- print:
+  - リマ
+  - |2-
+
+    （ごめんなさい、
+- wait:
+  - 15
+- print:
+  - リマ
+  - 分からないわ……）
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105231
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_park_day_01
+  - 1
+- background:
+  - 510360
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_home_area_jpn_02
+- window_visible:
+  - true
+- choice:
+  - 誰もランドソルのことを知らない……？
+  - 10
+- tag:
+  - 10
+- choice:
+  - どうなってるんだろう……？
+  - 11
+- tag:
+  - 11
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5084000_045
+- face:
+  - 1
+  - 1
+- print:
+  - ？？？
+  - あ……
+- wait:
+  - 15
+- print:
+  - ？？？
+  - あのっ！
+- touch: *o0
+- choice:
+  - みんなも、知ってる姿と少し違う……
+  - 12
+- tag:
+  - 12
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5084000_046
+- face:
+  - 1
+  - 1
+- print:
+  - ？？？
+  - あれっ？
+- wait:
+  - 15
+- print:
+  - ？？？
+  - |2-
+
+    聞こえてない？
+- wait:
+  - 35
+- print:
+  - ？？？
+  - |2-
+
+    すごく真剣な顔で、
+- wait:
+  - 35
+- print:
+  - ？？？
+  - 考え事してますね～
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5084000_047
+- face:
+  - 1
+  - 1
+- print:
+  - ？？？
+  - じゃあ、
+- wait:
+  - 15
+- print:
+  - ？？？
+  - こうですっ！
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 105831
+  - C
+  - 2
+- scale:
+  - 105831
+  - 1.2
+  - 2
+- se:
+  - se_adv_step_concrete_move_01
+- fadein:
+  - 105831
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105831
+- bust:
+  - 105831
+  - 0
+- vo:
+  - vo_adv_5084000_048
+- face:
+  - 105831
+  - 2
+- print:
+  - ペコリーヌ
+  - ──ぎゅう～～～～～！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_hug_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- window_visible:
+  - true
+- choice:
+  - この声は！
+  - 13
+- choice:
+  - この力は！
+  - 14
+- tag:
+  - 13
+- bgm:
+  - stop
+  - 9
+- focus:
+  - 105831
+- bust:
+  - 105831
+  - 0
+- vo:
+  - vo_adv_5084000_049
+- face:
+  - 105831
+  - 1
+- print:
+  - ペコリーヌ
+  - あ、
+- wait:
+  - 15
+- print:
+  - ペコリーヌ
+  - やっと気づいてくれましたかっ？
+- wait:
+  - 45
+- print:
+  - ペコリーヌ
+  - |2
+
+- face:
+  - 105831
+  - 2
+- print:
+  - ペコリーヌ
+  - 声だけで気づいてくれるなんて、
+- wait:
+  - 35
+- print:
+  - ペコリーヌ
+  - うれしいですね☆
+- touch: *o0
+- goto:
+  - 15
+- tag:
+  - 14
+- bgm:
+  - stop
+  - 9
+- focus:
+  - 105831
+- bust:
+  - 105831
+  - 0
+- vo:
+  - vo_adv_5084000_050
+- face:
+  - 105831
+  - 1
+- print:
+  - ペコリーヌ
+  - あ、
+- wait:
+  - 15
+- print:
+  - ペコリーヌ
+  - やっと気づいてくれましたかっ？
+- wait:
+  - 40
+- print:
+  - ペコリーヌ
+  - |2
+
+- face:
+  - 105831
+  - 6
+- print:
+  - ペコリーヌ
+  - でも、
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - 女の子をパワーで判別するのはどうかと思いますよ？
+- touch: *o0
+- tag:
+  - 15
+- window_visible:
+  - false
+- se:
+  - se_adv_cloth_move_normal_01
+- fadeout:
+  - 105831
+  - 30
+- chara_full:
+  - 105831
+  - C
+  - 4
+- fadein:
+  - 105831
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M251
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 105831
+- bust:
+  - 105831
+  - 0
+- vo:
+  - vo_adv_5084000_051
+- face:
+  - 105831
+  - 4
+- print:
+  - ペコリーヌ
+  - えっと……
+- touch: *o0
+- focus:
+  - 105831
+- bust:
+  - 105831
+  - 0
+- vo:
+  - vo_adv_5084000_052
+- face:
+  - 105831
+  - 4
+- print:
+  - ペコリーヌ
+  - '{0}くん……'
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - ですよね？
+- touch: *o0
+- focus:
+  - 105831
+- bust:
+  - 105831
+  - 0
+- vo:
+  - vo_adv_5084000_053
+- face:
+  - 105831
+  - 1
+- print:
+  - ペコリーヌ
+  - わたしです！
+- touch: *o0
+- focus:
+  - 105831
+- bust:
+  - 105831
+  - 0
+- vo:
+  - vo_adv_5084000_054
+- face:
+  - 105831
+  - 1
+- nod:
+  - 105831
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ペコリーヌ
+  - 【美食殿】の、
+- wait:
+  - 15
+- print:
+  - ペコリーヌ
+  - ペコリーヌです！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 105831
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - 自分の身に何が起きたのか分からず戸惑う{0}。
+- wait:
+  - 30
+- print:
+  - ナレーション
+  - |2-
+
+    そこに現れたのは、よく知る雰囲気をまとったペコリーヌであった。
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - FALSE
+- se_pause:
+  - amb_adv_home_area_jpn_02
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

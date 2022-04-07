@@ -1,0 +1,1061 @@
+- title:
+  - 諦めない者には福来る
+- outline:
+  - 神殿を訪れた{0}はイリヤ、ルカからおいしい餅の再販情報を耳にする。行列の長さに心が折れかけているスズメ、クレジッタを鼓舞し無事に餅も活動記録も入手して、次の目的地へと向かう。
+- background:
+  - 500550
+- se:
+  - amb_adv_gaya_cmn_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 諦めない者には福来る
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - 次の活動記録をまとめるために
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    {0}は、神殿を訪れていた。
+- wait:
+  - 30
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 104411
+  - RC
+  - 2
+- chara_full:
+  - 105611
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M544
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 104411
+- bust:
+  - 104411
+  - 0
+- vo:
+  - vo_adv_9004011_000
+- face:
+  - 104411
+  - 2
+- emotion:
+  - note1_L
+  - 104411
+  - -125
+  - 530
+  - se_adv_emote_note_01
+- print:
+  - イリヤ
+  - ほう、
+- wait:
+  - 45
+- print:
+  - イリヤ
+  - やはり美味なものじゃな！
+- wait:
+  - 70
+- print:
+  - イリヤ
+  - |2-
+
+    魔力が満ちてゆくぞ……
+- wait:
+  - 80
+- print:
+  - イリヤ
+  - |2
+
+- face:
+  - 104411
+  - 1
+- print:
+  - イリヤ
+  - これこそ、
+- wait:
+  - 30
+- print:
+  - イリヤ
+  - わらわのあるべき姿……
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_9004011_001
+- face:
+  - 105611
+  - 2
+- print:
+  - ルカ
+  - ああ、
+- wait:
+  - 30
+- print:
+  - ルカ
+  - 本当に美味いねえ。
+- wait:
+  - 40
+- print:
+  - ルカ
+  - |2
+
+- face:
+  - 105611
+  - 1
+- print:
+  - ルカ
+  - 待った甲斐があるってもんだよ。
+- touch: *o0
+- choice:
+  - こんにちは。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 104411
+- bust:
+  - 104411
+  - 0
+- vo:
+  - vo_adv_9004011_002
+- face:
+  - 104411
+  - 1
+- print:
+  - イリヤ
+  - む、
+- wait:
+  - 40
+- print:
+  - イリヤ
+  - やはり{0}も来たか。
+- wait:
+  - 65
+- print:
+  - イリヤ
+  - |2-
+
+    急いで並ぶがよい。
+- wait:
+  - 35
+- print:
+  - イリヤ
+  - |2-
+
+    さもなくば売り切れてしまうぞ。
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_9004011_003
+- face:
+  - 105611
+  - 6
+- print:
+  - ルカ
+  - おや、
+- wait:
+  - 30
+- print:
+  - ルカ
+  - なんのことって顔だね。
+- wait:
+  - 50
+- print:
+  - ルカ
+  - |2-
+
+    お前さん、
+- wait:
+  - 20
+- print:
+  - ルカ
+  - 正月に買い逃した縁起物の餅が再販されるって聞きつけて
+- wait:
+  - 75
+- print:
+  - ルカ
+  - |2-
+
+    来たんじゃないのかい？
+- touch: *o0
+- choice:
+  - 活動記録を受け取りに来た。
+  - 2
+- tag:
+  - 2
+- focus:
+  - 104411
+- bust:
+  - 104411
+  - 0
+- vo:
+  - vo_adv_9004011_004
+- face:
+  - 104411
+  - 1
+- nod:
+  - 104411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - イリヤ
+  - ほぅ、
+- wait:
+  - 40
+- print:
+  - イリヤ
+  - 大儀じゃな。
+- wait:
+  - 60
+- print:
+  - イリヤ
+  - |2-
+
+    じゃが、
+- wait:
+  - 30
+- print:
+  - イリヤ
+  - せっかくここまで来たのじゃ。
+- wait:
+  - 60
+- print:
+  - イリヤ
+  - |2-
+
+    一休みがてら
+- wait:
+  - 30
+- print:
+  - イリヤ
+  - お主も餅を食べていくがよい。
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_9004011_005
+- face:
+  - 105611
+  - 4
+- print:
+  - ルカ
+  - ま、
+- wait:
+  - 25
+- print:
+  - ルカ
+  - こうして話してる間にも
+- wait:
+  - 30
+- print:
+  - ルカ
+  - どんどん行列が長くなってるけどね。
+- wait:
+  - 65
+- print:
+  - ルカ
+  - |2
+
+- face:
+  - 105611
+  - 6
+- emotion:
+  - question1_R
+  - 105611
+  - 115
+  - 545
+  - se_adv_emote_question_01
+- print:
+  - ルカ
+  - ん？　
+- wait:
+  - 20
+- print:
+  - ルカ
+  - あれは……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se_pause:
+  - amb_adv_gaya_cmn_01
+  - 1
+- bgm:
+  - stop
+  - 2
+  - 1
+- black_out:
+  - 1
+  - 1
+- background:
+  - 500560
+- wait:
+  - 15
+- black_in: *o0
+- se:
+  - amb_adv_outdoors_day_01
+- chara_full:
+  - 102511
+  - LC
+  - 6
+- chara_full:
+  - 118011
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M51
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_9004011_006
+- face:
+  - 102511
+  - 6
+- emotion:
+  - sweat2_R
+  - 102511
+  - 25
+  - 520
+  - se_adv_emote_sweat_02
+- print:
+  - スズメ
+  - あわわ、
+- wait:
+  - 35
+- print:
+  - スズメ
+  - どうしましょう……
+- wait:
+  - 35
+- print:
+  - スズメ
+  - |2-
+
+    道に迷ってる間にこんなに並んでる人が！
+- wait:
+  - 75
+- print:
+  - スズメ
+  - |2
+
+- face:
+  - 102511
+  - 4
+- print:
+  - スズメ
+  - これじゃあ、
+- wait:
+  - 15
+- print:
+  - スズメ
+  - 今から並んでも売り切れになっちゃいます……！
+- touch: *o0
+- focus:
+  - 118011
+- bust:
+  - 118011
+  - 0
+- vo:
+  - vo_adv_9004011_007
+- face:
+  - 118011
+  - 6
+- print:
+  - クレジッタ
+  - なんですのなんですの！
+- wait:
+  - 45
+- print:
+  - クレジッタ
+  - |2-
+
+    仕事の合間を縫って来てみればこの長蛇の列……！
+- wait:
+  - 70
+- print:
+  - クレジッタ
+  - |2
+
+- face:
+  - 118011
+  - 4
+- print:
+  - クレジッタ
+  - これでは買えないじゃありませんのまったくもう……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0040
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 104411
+  - RC
+  - 6
+- chara_full:
+  - 105611
+  - LC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 104411
+- bust:
+  - 104411
+  - 0
+- vo:
+  - vo_adv_9004011_008
+- face:
+  - 104411
+  - 6
+- print:
+  - イリヤ
+  - ……どこかで見た顔じゃが、
+- wait:
+  - 60
+- print:
+  - イリヤ
+  - お主の知り合いか？
+- wait:
+  - 70
+- print:
+  - イリヤ
+  - |2
+
+- face:
+  - 104411
+  - 4
+- print:
+  - イリヤ
+  - 見たところ、
+- wait:
+  - 40
+- print:
+  - イリヤ
+  - あまりの行列に絶句しているようじゃが……
+- touch: *o0
+- focus:
+  - 105611
+- bust:
+  - 105611
+  - 0
+- vo:
+  - vo_adv_9004011_009
+- face:
+  - 105611
+  - 1
+- print:
+  - ルカ
+  - けど、
+- wait:
+  - 30
+- print:
+  - ルカ
+  - 最後まで諦めなければ
+- wait:
+  - 40
+- print:
+  - ルカ
+  - |2-
+
+    この前のシェフィみたいに上手くいくもんだよ。
+- wait:
+  - 65
+- print:
+  - ルカ
+  - |2
+
+- nod:
+  - 105611
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - ルカ
+  - だろ？　
+- wait:
+  - 15
+- print:
+  - ルカ
+  - お前さん。
+- touch: *o0
+- choice:
+  - 一緒に並んでくる。
+  - 3
+- tag:
+  - 3
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0040
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 102511
+  - LC
+  - 4
+  - 1
+- chara_full:
+  - 118011
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_9004011_010
+- face:
+  - 102511
+  - 4
+- print:
+  - スズメ
+  - うう……
+- wait:
+  - 40
+- eye_open:
+  - True
+- print:
+  - スズメ
+  - この前開いていただいた新年会で
+- wait:
+  - 40
+- print:
+  - スズメ
+  - |2-
+
+    ふるまってもらったお餅が美味しかったから来ましたけど、
+- wait:
+  - 70
+- print:
+  - スズメ
+  - |2-
+
+    こんなに人がいるんじゃ、
+- wait:
+  - 35
+- print:
+  - スズメ
+  - どうしようもありません……
+- touch: *o0
+- focus:
+  - 118011
+- bust:
+  - 118011
+  - 0
+- vo:
+  - vo_adv_9004011_011
+- face:
+  - 118011
+  - 4
+- print:
+  - クレジッタ
+  - 新年会で美味しい美味しいと喜ばれていた陛下のために
+- wait:
+  - 60
+- print:
+  - クレジッタ
+  - |2-
+
+    こっそり再販の機会に手に入れて
+- wait:
+  - 15
+- print:
+  - クレジッタ
+  - 改めて喜んでいただきたかったのに！
+- wait:
+  - 45
+- print:
+  - クレジッタ
+  - |2
+
+- face:
+  - 118011
+  - 3
+- print:
+  - クレジッタ
+  - きぃぃぃっ！　
+- wait:
+  - 15
+- print:
+  - クレジッタ
+  - 口惜しいですわ～っ！！
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+- choice:
+  - 最後まで諦めないで！
+  - 4
+- tag:
+  - 4
+- face:
+  - 118011
+  - 6
+- bgm:
+  - bgm_M295
+  - 0
+  - 0
+  - 1
+  - 1
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_9004011_012
+- face:
+  - 102511
+  - 6
+- emotion:
+  - surprise1_L
+  - 102511
+  - 80
+  - 560
+  - se_adv_emote_common_01
+- print:
+  - スズメ
+  - '{0}さん！？'
+- wait:
+  - 5
+- print:
+  - スズメ
+  - |2-
+
+    そ、そうでした……！　
+- wait:
+  - 20
+- print:
+  - スズメ
+  - 最後まで諦めなければ
+- wait:
+  - 35
+- print:
+  - スズメ
+  - 逆転の可能性はある……！
+- wait:
+  - 45
+- print:
+  - スズメ
+  - |2
+
+- face:
+  - 102511
+  - 4
+- print:
+  - スズメ
+  - ギルドレースで身をもって経験したのに、
+- wait:
+  - 40
+- print:
+  - スズメ
+  - 忘れていました……！
+- touch: *o0
+- focus:
+  - 118011
+- bust:
+  - 118011
+  - 0
+- vo:
+  - vo_adv_9004011_013
+- face:
+  - 118011
+  - 1
+- print:
+  - クレジッタ
+  - 貴方に説教される謂れはありませんけども、
+- wait:
+  - 70
+- print:
+  - クレジッタ
+  - |2-
+
+    確かに
+- wait:
+  - 25
+- print:
+  - クレジッタ
+  - 簡単に諦めるなんて、
+- wait:
+  - 35
+- print:
+  - クレジッタ
+  - わたくしらしくありませんわね。
+- touch: *o0
+- focus:
+  - 118011
+- bust:
+  - 118011
+  - 0
+- vo:
+  - vo_adv_9004011_014
+- face:
+  - 118011
+  - 6
+- print:
+  - クレジッタ
+  - 少々休憩時間が過ぎてしまいましたけれども……
+- wait:
+  - 70
+- print:
+  - クレジッタ
+  - あと少し！
+- wait:
+  - 40
+- print:
+  - クレジッタ
+  - |2-
+
+    あと少しですわ……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 102511
+  - LC
+  - 6
+- chara_full:
+  - 118011
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_9004011_015
+- face:
+  - 102511
+  - 6
+- print:
+  - スズメ
+  - すみません、
+- wait:
+  - 10
+- print:
+  - スズメ
+  - 店員さん！
+- wait:
+  - 30
+- print:
+  - スズメ
+  - |2-
+
+    私たちの分は、
+- wait:
+  - 25
+- print:
+  - スズメ
+  - まだ残ってますか……？
+- wait:
+  - 45
+- print:
+  - スズメ
+  - |2-
+
+    え、
+- wait:
+  - 30
+- print:
+  - スズメ
+  - ある？　
+- wait:
+  - 30
+- face:
+  - 102511
+  - 2
+- print:
+  - スズメ
+  - や、
+- wait:
+  - 15
+- pop:
+  - 102511
+- se:
+  - se_adv_rabbit_jump_01
+- print:
+  - スズメ
+  - やったぁ～！！
+- touch: *o0
+- focus:
+  - 118011
+- bust:
+  - 118011
+  - 0
+- vo:
+  - vo_adv_9004011_016
+- face:
+  - 118011
+  - 1
+- print:
+  - クレジッタ
+  - 何とか手に入れられましたわね！
+- wait:
+  - 75
+- print:
+  - クレジッタ
+  - |2
+
+- face:
+  - 118011
+  - 2
+- print:
+  - クレジッタ
+  - これで陛下の笑顔を見られますわ！！
+- wait:
+  - 60
+- print:
+  - クレジッタ
+  - |2
+
+- face:
+  - 118011
+  - 1
+- print:
+  - クレジッタ
+  - 待っていてくださいまし陛下、
+- wait:
+  - 30
+- print:
+  - クレジッタ
+  - わたくしの忠義の証明を～っ！
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_9004011_017
+- face:
+  - 102511
+  - 1
+- print:
+  - スズメ
+  - 私も
+- wait:
+  - 25
+- print:
+  - スズメ
+  - サレンお嬢様たちによろこんでいただけます……！
+- wait:
+  - 50
+- print:
+  - スズメ
+  - |2-
+
+    諦めなくてよかったです～！
+- touch: *o0
+- focus:
+  - 102511
+- bust:
+  - 102511
+  - 0
+- vo:
+  - vo_adv_9004011_018
+- face:
+  - 102511
+  - 2
+- print:
+  - スズメ
+  - '{0}さん、ありがとうございました！'
+- wait:
+  - 20
+- print:
+  - スズメ
+  - |2
+
+- face:
+  - 102511
+  - 1
+- print:
+  - スズメ
+  - 諦めない心で、
+- wait:
+  - 35
+- print:
+  - スズメ
+  - これからも私、
+- wait:
+  - 25
+- print:
+  - スズメ
+  - がんばりますね……
+- wait:
+  - 10
+- face:
+  - 102511
+  - 6
+- print:
+  - スズメ
+  - って、
+- wait:
+  - 10
+- print:
+  - スズメ
+  - |2
+
+- emotion:
+  - surprise1_L
+  - 102511
+  - 80
+  - 560
+  - se_adv_emote_common_01
+- print:
+  - スズメ
+  - あ、
+- wait:
+  - 15
+- print:
+  - スズメ
+  - 足がすべって……
+- wait:
+  - 30
+- face:
+  - 102511
+  - 4
+- print:
+  - スズメ
+  - きゃああ！？
+- touch: *o0
+- window_visible:
+  - FALSE
+- face:
+  - 118011
+  - 6
+- se:
+  - se_adv_body_forehead_01
+- updown:
+  - 102511
+  - 0
+  - -80
+  - 0.2
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_bodyfall_02
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - 最後まで諦めないことの大切さと、縁起物のお餅の
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    おいしさをかみしめながら活動記録を受け取って、
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    {0}は次の目的地へ向かうのだった。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- se_pause:
+  - amb_adv_outdoors_day_01
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

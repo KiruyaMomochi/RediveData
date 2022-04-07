@@ -1,0 +1,4573 @@
+- title:
+  - ラビリスタ（オーバーロード） 第4話
+- outline:
+  - 晶は殺し屋に襲われ撃退するも、背中を負傷してしまう。怪我を誤魔化していた晶は{0}に見抜かれる。天才だろうともっと頼ってほしいと言われた晶は、もう少し甘えてみようかと考える。
+- background:
+  - 500030
+- se:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 騎士は女王すらも救う
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - 二つの世界を巡る出来事が無事に終結してから
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    少し経った頃、{0}は
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    【ラビリンス】のクレープ屋を訪ねたが、店には誰もいなかった。
+- wait:
+  - 30
+- touch: &o0 []
+- bgm:
+  - bgm_M37
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 1
+- vo:
+  - vo_adv_1212004_000
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - おや、
+- wait:
+  - 25
+- print:
+  - ラビリスタ
+  - 少年。
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - いらっしゃい。
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 1
+- vo:
+  - vo_adv_1212004_001
+- face:
+  - 106812
+  - 4
+- print:
+  - ラビリスタ
+  - せっかくきてくれたのに申し訳ない。
+- wait:
+  - 60
+- print:
+  - ラビリスタ
+  - |2
+
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - 今日はクレープ屋はお休みで〜す。
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 1
+- vo:
+  - vo_adv_1212004_002
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - あはは、
+- wait:
+  - 35
+- print:
+  - ラビリスタ
+  - どこから声がするのかって思ってる？
+- wait:
+  - 40
+- print:
+  - ラビリスタ
+  - |2-
+
+    こっちだよ。
+- wait:
+  - 25
+- print:
+  - ラビリスタ
+  - こっち。
+- touch: *o0
+- choice:
+  - 声のする方へ歩く。
+  - 1
+- tag:
+  - 1
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_step_concrete_walk_armor_come_01
+- camera_zoom:
+  - 1.2
+  - 15
+- wait:
+  - 10
+- window_visible:
+  - TRUE
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 1
+- vo:
+  - vo_adv_1212004_003
+- face:
+  - 106812
+  - 7
+- print:
+  - ラビリスタ
+  - もう少し前だね。
+- wait:
+  - 70
+- print:
+  - ラビリスタ
+  - |2
+
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - そうそう、
+- wait:
+  - 10
+- print:
+  - ラビリスタ
+  - いいね。
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - あとちょっと！
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- se:
+  - se_adv_bush_02
+- se:
+  - se_adv_bodyfall_03
+- bg_pan:
+  - 0
+  - 100
+  - 6
+- wait:
+  - 3
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- camera_zoom:
+  - 1
+  - 1
+- background:
+  - 500341
+- bg_pan:
+  - 0
+  - -150
+  - 0
+- wait:
+  - 15
+- se:
+  - se_adv_body_push_02
+- se:
+  - se_adv_bush_01
+- black_in: *o0
+- se:
+  - amb_adv_room_noise_01
+- se:
+  - se_adv_water_under_01
+- se_pause:
+  - se_adv_water_under_01
+  - 1
+- bg_pan:
+  - -150
+  - 0
+  - 30
+- se:
+  - se_adv_body_jump_01
+- chara_full:
+  - 106812
+  - C
+  - 1
+- fadein:
+  - 106812
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M203
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212004_004
+- face:
+  - 106812
+  - 1
+- emotion:
+  - note1_L
+  - 106812
+  - -100
+  - 550
+  - se_adv_emote_note_01
+- print:
+  - ラビリスタ
+  - はーい、
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - いらっしゃーい。
+- wait:
+  - 35
+- print:
+  - ラビリスタ
+  - |2-
+
+    秘密結社【ラビリンス】のアジトへようこそ〜♪
+- touch: *o0
+- choice:
+  - びっくりした……
+  - 2
+- tag:
+  - 2
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212004_005
+- face:
+  - 106812
+  - 6
+- print:
+  - ラビリスタ
+  - そんなに
+- wait:
+  - 10
+- print:
+  - ラビリスタ
+  - 驚いたの？
+- wait:
+  - 40
+- print:
+  - ラビリスタ
+  - |2
+
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - 地下に移動するのは滑り降りるのが楽だから、
+- wait:
+  - 40
+- print:
+  - ラビリスタ
+  - |2-
+
+    少年にも体験してもらいたくてさ。
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212004_006
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - でも
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - そうだな、
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - |2-
+
+    次からは階段を用意しておくよ。
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212004_007
+- face:
+  - 106812
+  - 7
+- nod:
+  - 106812
+- se:
+  - se_adv_take_baggage_01
+- print:
+  - ラビリスタ
+  - ……これでよし。
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - |2-
+
+    荷造り完了
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - っと。
+- touch: *o0
+- choice:
+  - どこかへ行くの？
+  - 3
+- tag:
+  - 3
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212004_008
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - また旅に出るんだ。
+- wait:
+  - 50
+- print:
+  - ラビリスタ
+  - |2
+
+- face:
+  - 106812
+  - 7
+- print:
+  - ラビリスタ
+  - 元々二日くらいしかいる予定じゃなかったんだけど、
+- wait:
+  - 55
+- print:
+  - ラビリスタ
+  - |2-
+
+    少年を診察して残らなきゃ
+- wait:
+  - 35
+- print:
+  - ラビリスタ
+  - ってなって。
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212004_009
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - でもそれも今日で終わり。
+- wait:
+  - 40
+- print:
+  - ラビリスタ
+  - |2-
+
+    少年には対策を施しておいたし、
+- wait:
+  - 50
+- print:
+  - ラビリスタ
+  - |2-
+
+    しばらくは問題ないはずだよ。
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212004_010
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - いつの間に
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - って思ってるでしょ？
+- wait:
+  - 35
+- print:
+  - ラビリスタ
+  - |2
+
+- eye_open:
+  - FALSE
+- print:
+  - ラビリスタ
+  - それを気づかせないのが
+- wait:
+  - 25
+- print:
+  - ラビリスタ
+  - 天才のやり方なのさ。
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212004_011
+- face:
+  - 106812
+  - 1
+- eye_open:
+  - TRUE
+- print:
+  - ラビリスタ
+  - ともかくだ。
+- wait:
+  - 45
+- print:
+  - ラビリスタ
+  - 旅立つ前に
+- wait:
+  - 25
+- print:
+  - ラビリスタ
+  - 少年と会えてよかった。
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - |2-
+
+    少し話がしたかったんだ。
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_1212004_012
+- face:
+  - 106812
+  - 7
+- print:
+  - ラビリスタ
+  - ただ
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - ここじゃちょっと場所がよくないから、
+- wait:
+  - 65
+- print:
+  - ラビリスタ
+  - |2-
+
+    違うところで……
+- touch: *o0
+- se:
+  - se_adv_magic_ice_large_02
+- window_visible:
+  - false
+- fadeout:
+  - 106812
+  - 30
+- se:
+  - se_adv_magic_wind_small_01
+- chara_full:
+  - 106811
+  - C
+  - 1
+- fadein:
+  - 106811
+  - 30
+- wait:
+  - 15
+- fadeout:
+  - 106811
+  - 30
+- se:
+  - se_adv_magic_dark_aura_01
+- se:
+  - se_adv_earthquake_02_lp
+- white_out:
+  - 1
+  - 1
+- se:
+  - se_adv_mystery_effect_01
+- se:
+  - se_adv_magic_dark_small_01
+- wait:
+  - 15
+- white_in: *o0
+- se_pause:
+  - se_adv_earthquake_02_lp
+  - 1
+- chara_full:
+  - 106811
+  - C
+  - 2
+- fadein:
+  - 106811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106811
+- bust:
+  - 106811
+  - 0
+- vo:
+  - vo_adv_1212004_013
+- face:
+  - 106811
+  - 2
+- print:
+  - ラビリスタ
+  - ……よしできた。
+- wait:
+  - 35
+- print:
+  - ラビリスタ
+  - |2-
+
+    少年、
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - ついてきて。
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 2
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 106811
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_room_noise_01
+  - 1
+- background:
+  - 500270
+- effect:
+  - 0080
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_wind_01
+- bgm:
+  - bgm_M40
+  - 0
+  - 0
+  - 1
+  - 0.5
+- chara_full:
+  - 106811
+  - LC
+  - 2
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 106811
+  - 45
+- window_visible:
+  - TRUE
+- focus:
+  - 106811
+- bust:
+  - 106811
+  - 0
+- vo:
+  - vo_adv_1212004_014
+- face:
+  - 106811
+  - 2
+- print:
+  - ラビリスタ
+  - ここなら安心でしょ？　
+- wait:
+  - 45
+- print:
+  - ラビリスタ
+  - 聞き耳を立てられるのは、
+- wait:
+  - 45
+- print:
+  - ラビリスタ
+  - |2
+
+- face:
+  - 106811
+  - 1
+- print:
+  - ラビリスタ
+  - アタシが知る限り
+- wait:
+  - 25
+- print:
+  - ラビリスタ
+  - ごくごく限られた存在だけだし。
+- touch: *o0
+- focus:
+  - 106811
+- bust:
+  - 106811
+  - 0
+- vo:
+  - vo_adv_1212004_015
+- face:
+  - 106811
+  - 2
+- print:
+  - ラビリスタ
+  - それにしても、
+- wait:
+  - 35
+- print:
+  - ラビリスタ
+  - キミが無事で本当によかった。
+- wait:
+  - 85
+- print:
+  - ラビリスタ
+  - |2-
+
+    こうして話せているのが、
+- wait:
+  - 40
+- print:
+  - ラビリスタ
+  - 心の底からうれしいと感じるよ。
+- touch: *o0
+- focus:
+  - 106811
+- bust:
+  - 106811
+  - 0
+- vo:
+  - vo_adv_1212004_016
+- face:
+  - 106811
+  - 1
+- print:
+  - ラビリスタ
+  - これからまた旅に出るにあたって、
+- wait:
+  - 35
+- print:
+  - ラビリスタ
+  - |2-
+
+    アタシからキミに
+- wait:
+  - 25
+- print:
+  - ラビリスタ
+  - 一つ
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - 置き土産をしておきたかったから、
+- wait:
+  - 40
+- print:
+  - ラビリスタ
+  - |2-
+
+    今日はここに来てもらった。
+- touch: *o0
+- focus:
+  - 106811
+- bust:
+  - 106811
+  - 0
+- vo:
+  - vo_adv_1212004_017
+- face:
+  - 106811
+  - 2
+- print:
+  - ラビリスタ
+  - それが何かというと……
+- touch: *o0
+- effect:
+  - 0005
+  - se_adv_holylight_01
+- focus:
+  - 106811
+- bust:
+  - 106811
+  - 0
+- vo:
+  - vo_adv_1212004_018
+- face:
+  - 106811
+  - 6
+- print:
+  - ラビリスタ
+  - ……あれ？　
+- wait:
+  - 40
+- print:
+  - ラビリスタ
+  - この光、
+- wait:
+  - 25
+- print:
+  - ラビリスタ
+  - たしか前にも……
+- touch: *o0
+- focus:
+  - 106811
+- bust:
+  - 106811
+  - 0
+- vo:
+  - vo_adv_1212004_019
+- face:
+  - 106811
+  - 1
+- print:
+  - ラビリスタ
+  - ああ、
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - そっか……
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - こうやって……
+- wait:
+  - 60
+- print:
+  - ラビリスタ
+  - |2-
+
+    記憶を……
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 2
+  - 1
+- fadeout:
+  - 106811
+  - 30
+- effect:
+  - 0006
+  - se_adv_whiteout_01
+- white_out:
+  - 1
+  - 1
+- se_pause:
+  - amb_adv_wind_01
+  - 1
+- bg_color:
+  - 255
+  - 255
+  - 255
+- effect_delete:
+  - 0005
+- effect_delete:
+  - 0006
+- effect_delete:
+  - 0080
+- background:
+  - 510250
+- wait:
+  - 30
+- white_in: *o0
+- se:
+  - amb_adv_seaside_01
+- wait:
+  - 30
+- chara_full:
+  - 106831
+  - C
+  - 4
+- fadein:
+  - 106831
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M113
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 0
+- vo:
+  - vo_adv_1212004_020
+- face:
+  - 106831
+  - 4
+- print:
+  - 晶
+  - なんでだろう、
+- wait:
+  - 35
+- print:
+  - 晶
+  - |2-
+
+    海に来ると
+- wait:
+  - 30
+- print:
+  - 晶
+  - つい砂の城を作りたくなってしまう……
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_stone_move_01
+- face:
+  - 106831
+  - 1
+- nod:
+  - 106831
+- wait:
+  - 15
+- window_visible:
+  - TRUE
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 0
+- vo:
+  - vo_adv_1212004_021
+- face:
+  - 106831
+  - 1
+- print:
+  - 晶
+  - いい歳した大人って呼ばれてもおかしくないはずなのに、
+- wait:
+  - 60
+- print:
+  - 晶
+  - |2
+
+- eye_open:
+  - FALSE
+- print:
+  - 晶
+  - こうして童心に火がついちゃうんだよね〜……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106831
+  - 30
+- chara_full:
+  - 1031
+  - L
+  - 2
+- chara_full:
+  - 1231
+  - C
+  - 1
+- se:
+  - se_adv_step_dirt_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 45
+- change:
+  - RC
+  - C
+  - 45
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1031
+- bust:
+  - 1031
+  - 0
+- vo:
+  - vo_adv_1212004_022
+- face:
+  - 1031
+  - 2
+- print:
+  - 男
+  - ……すみません。
+- wait:
+  - 25
+- print:
+  - 男
+  - この辺りで
+- wait:
+  - 20
+- print:
+  - 男
+  - 男の子をみませんでしたか？
+- touch: *o0
+- focus:
+  - 1231
+- bust:
+  - 1231
+  - 0
+- vo:
+  - vo_adv_1212004_023
+- face:
+  - 1231
+  - 1
+- print:
+  - 女
+  - 年は５歳で、
+- wait:
+  - 30
+- nod:
+  - 1231
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 女
+  - 身長はこれくらいなんです……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106831
+  - C
+  - 4
+- fadein:
+  - 106831
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 0
+- vo:
+  - vo_adv_1212004_024
+- face:
+  - 106831
+  - 4
+- emotion:
+  - question1_R
+  - 106831
+  - 100
+  - 545
+  - se_adv_emote_question_01
+- print:
+  - 晶
+  - 男の子？　
+- wait:
+  - 55
+- print:
+  - 晶
+  - 見てないな〜……
+- wait:
+  - 55
+- print:
+  - 晶
+  - |2
+
+- face:
+  - 106831
+  - 1
+- print:
+  - 晶
+  - 見かけたら教えるよ。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106831
+  - 30
+- chara_full:
+  - 1031
+  - C
+  - 2
+- fadein:
+  - 1031
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1031
+- bust:
+  - 1031
+  - 0
+- vo:
+  - vo_adv_1212004_025
+- face:
+  - 1031
+  - 2
+- print:
+  - 男
+  - ありがとうございます！　
+- wait:
+  - 20
+- face:
+  - 1031
+  - 1
+- bgm:
+  - stop
+  - 2
+- print:
+  - 男
+  - では……
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 3
+- text_size:
+  - 60
+- window_visible:
+  - true
+- bgm:
+  - bgm_M17
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 1031
+- bust:
+  - 1031
+  - 0
+- vo:
+  - vo_adv_1212004_026
+- face:
+  - 1031
+  - 3
+- nod:
+  - 1031
+- se:
+  - se_adv_weapon_dagger_set_01
+- print:
+  - 男
+  - 死ねっ！
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- effect:
+  - 0009
+- se:
+  - se_adv_step_dirt_move_01
+- scale:
+  - 1031
+  - 1.1
+  - 1
+  - 10
+- fadeout:
+  - 1031
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0001
+  - se_adv_weapon_dagger_whiff_01
+- wait:
+  - 15
+- background:
+  - 510250
+- chara_full:
+  - 106831
+  - C
+  - 1
+- scale:
+  - 106831
+  - 1.1
+  - 1
+- fadein:
+  - 106831
+  - 15
+- se:
+  - se_adv_step_dirt_move_01
+- se:
+  - se_adv_knock_back_01
+- scale:
+  - 106831
+  - 1
+  - 1
+  - 5
+- window_visible:
+  - true
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 0
+- vo:
+  - vo_adv_1212004_027
+- face:
+  - 106831
+  - 1
+- print:
+  - 晶
+  - おっと危ない！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106831
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 1231
+  - C
+  - 3
+- fadein:
+  - 1231
+  - 30
+- change_window:
+  - 3
+- text_size:
+  - 60
+- window_visible:
+  - true
+- focus:
+  - 1231
+- bust:
+  - 1231
+  - 0
+- vo:
+  - vo_adv_1212004_028
+- face:
+  - 1231
+  - 3
+- nod:
+  - 1231
+- se:
+  - se_adv_weapon_dagger_set_01
+- print:
+  - 女
+  - ちっ！　
+- wait:
+  - 20
+- print:
+  - 女
+  - はあっ！！
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- effect:
+  - 0009
+- se:
+  - se_adv_step_dirt_move_01
+- scale:
+  - 1231
+  - 1.2
+  - 2
+  - 10
+- fadeout:
+  - 1231
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0001
+  - se_adv_weapon_dagger_whiff_01
+  - -110
+- wait:
+  - 15
+- background:
+  - 510250
+- effect:
+  - 0013
+- chara_full:
+  - 106831
+  - C
+  - 1
+- scale:
+  - 106831
+  - 1.1
+  - 1
+- fadein:
+  - 106831
+  - 15
+- se:
+  - se_adv_step_dirt_move_01
+- se:
+  - se_adv_knock_back_01
+- scale:
+  - 106831
+  - 1
+  - 1
+  - 5
+- window_visible:
+  - true
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 0
+- vo:
+  - vo_adv_1212004_029
+- face:
+  - 106831
+  - 1
+- print:
+  - 晶
+  - よっと！　
+- wait:
+  - 20
+- print:
+  - 晶
+  - 出でよ砂の城からダブルテーザー銃！
+- wait:
+  - 50
+- print:
+  - 晶
+  - |2-
+
+    それっ！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_sand_dirt_dig_pull_01
+- nod:
+  - 106831
+- wait:
+  - 15
+- fadeout:
+  - 106831
+  - 30
+- chara_full:
+  - 1031
+  - LC
+  - 4
+- chara_full:
+  - 1231
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- se:
+  - se_adv_magic_thunder_small_01
+- se:
+  - se_adv_magic_damage_01
+- white_out:
+  - 0.5
+  - 0.2
+- white_in: *o0
+- window_visible:
+  - true
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1212004_030
+- multi_talk:
+  - 1031:1231
+- face:
+  - 1
+  - 1
+- print:
+  - 男＆女
+  - あががががががが！！
+- sway:
+  - 1031:1231
+- se:
+  - se_adv_cloth_move_normal_01
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 3
+  - 1
+- updown:
+  - 1031
+  - 0
+  - -150
+  - 0.2
+- updown:
+  - 1231
+  - 0
+  - -150
+  - 0.2
+- fadeout_all:
+  - 30
+- effect_delete:
+  - 0013
+  - 30
+- se:
+  - se_adv_bodyfall_02
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- chara_full:
+  - 106831
+  - C
+  - 4
+- fadein:
+  - 106831
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M288
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 0
+- vo:
+  - vo_adv_1212004_031
+- face:
+  - 106831
+  - 4
+- print:
+  - 晶
+  - キミたちさあ、
+- wait:
+  - 45
+- print:
+  - 晶
+  - 子どもを捜してる夫婦のくせに、
+- wait:
+  - 55
+- eye_open:
+  - FALSE
+- print:
+  - 晶
+  - 殺気は隠せても
+- wait:
+  - 25
+- print:
+  - 晶
+  - |2-
+
+    声で嘘がバレバレだったんですけど？　
+- wait:
+  - 90
+- eye_open:
+  - TRUE
+- print:
+  - 晶
+  - 20点ってとこかな。
+- wait:
+  - 40
+- print:
+  - 晶
+  - |2
+
+- face:
+  - 106831
+  - 1
+- print:
+  - 晶
+  - そうだ、
+- wait:
+  - 15
+- print:
+  - 晶
+  - 効き目はどう？　
+- wait:
+  - 30
+- print:
+  - 晶
+  - 改造してあるから
+- wait:
+  - 25
+- print:
+  - 晶
+  - 超痺れるよね？
+- touch: *o0
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 0
+- vo:
+  - vo_adv_1212004_032
+- face:
+  - 106831
+  - 3
+- print:
+  - 晶
+  - っていうか
+- wait:
+  - 15
+- print:
+  - 晶
+  - 誰に雇われた？　
+- wait:
+  - 60
+- face:
+  - 106831
+  - 7
+- print:
+  - 晶
+  - なんて聞いても答えないか。
+- wait:
+  - 65
+- print:
+  - 晶
+  - |2
+
+- face:
+  - 106831
+  - 4
+- print:
+  - 晶
+  - アタシを殺したいヤツなんて、
+- wait:
+  - 35
+- print:
+  - 晶
+  - どうせ真那しかいないんだし。
+- touch: *o0
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 0
+- vo:
+  - vo_adv_1212004_033
+- face:
+  - 106831
+  - 4
+- print:
+  - 晶
+  - そもそもだよ？　
+- wait:
+  - 65
+- print:
+  - 晶
+  - この辺りでアタシの痕跡が
+- wait:
+  - 30
+- print:
+  - 晶
+  - |2-
+
+    確認されたからって、
+- wait:
+  - 30
+- print:
+  - 晶
+  - こうも急いでやりにくるかな普通。
+- wait:
+  - 75
+- print:
+  - 晶
+  - |2
+
+- face:
+  - 106831
+  - 7
+- print:
+  - 晶
+  - どうせキミたちって、
+- wait:
+  - 20
+- print:
+  - 晶
+  - 大した『実績』もないんでしょ？
+- touch: *o0
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 0
+- vo:
+  - vo_adv_1212004_034
+- face:
+  - 106831
+  - 4
+- print:
+  - 晶
+  - 同じ七冠を狙ってきてるくせに、
+- wait:
+  - 60
+- print:
+  - 晶
+  - 真那のヤツめ、
+- wait:
+  - 25
+- print:
+  - 晶
+  - 手抜きか？
+- wait:
+  - 45
+- print:
+  - 晶
+  - |2
+
+- eye_open:
+  - FALSE
+- print:
+  - 晶
+  - こんなのにやられるなら今頃とっくに死んでるっての！
+- wait:
+  - 100
+- print:
+  - 晶
+  - |2
+
+- eye_open:
+  - TRUE
+- print:
+  - 晶
+  - モグラ叩きのモグラの気分が、
+- wait:
+  - 40
+- print:
+  - 晶
+  - 最近やっと分かってきたよ……
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1212004_035
+- face:
+  - 1
+  - 1
+- print:
+  - 男＆女
+  - ……
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 0
+- vo:
+  - vo_adv_1212004_036
+- face:
+  - 106831
+  - 6
+- print:
+  - 晶
+  - ああごめん、
+- wait:
+  - 30
+- print:
+  - 晶
+  - 痺れてまともに喋れないか。
+- wait:
+  - 80
+- print:
+  - 晶
+  - |2
+
+- face:
+  - 106831
+  - 1
+- print:
+  - 晶
+  - しばらくそこで大人しくしてたら、
+- wait:
+  - 35
+- print:
+  - 晶
+  - |2-
+
+    じき動けるようになるよ。
+- wait:
+  - 45
+- print:
+  - 晶
+  - じゃあね。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_dirt_walk_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 106831
+  - 30
+- chara_full:
+  - 1031
+  - C
+  - 3
+- updown:
+  - 1031
+  - 0
+  - -150
+  - 0.1
+- fadein:
+  - 1031
+  - 15
+- se:
+  - se_adv_cloth_move_give_01
+- se:
+  - se_adv_standup_02
+- updown:
+  - 1031
+  - 0
+  - 150
+  - 0.5
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 3
+- focus:
+  - 1031
+- bust:
+  - 1031
+  - 0
+- vo:
+  - vo_adv_1212004_037
+- face:
+  - 1031
+  - 3
+- print:
+  - 男
+  - ……うおおおお！
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0009
+- se:
+  - se_adv_step_dirt_move_01
+- scale:
+  - 1031
+  - 1.1
+  - 1
+  - 10
+- fadeout:
+  - 1031
+  - 10
+- effect_delete:
+  - 0009
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 106831
+  - C
+  - 6
+- fadein:
+  - 106831
+  - 30
+- se:
+  - se_adv_weapon_arrow_hit_01
+- effect:
+  - 0019
+- sway:
+  - 106831
+- window_visible:
+  - true
+- bgm:
+  - bgm_M18
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 0
+- vo:
+  - vo_adv_1212004_038
+- face:
+  - 106831
+  - 6
+- emotion:
+  - surprise1_L
+  - 106831
+  - 145
+  - 565
+  - se_adv_emote_common_01
+- print:
+  - 晶
+  - 痛っ！　
+- wait:
+  - 30
+- print:
+  - 晶
+  - 刺した？　
+- wait:
+  - 45
+- print:
+  - 晶
+  - もしかして後ろから人のこと刺したの？
+- wait:
+  - 80
+- print:
+  - 晶
+  - |2
+
+- face:
+  - 106831
+  - 4
+- print:
+  - 晶
+  - キミさ、
+- wait:
+  - 10
+- print:
+  - 晶
+  - ひょっとして根性だけで採用された枠？
+- wait:
+  - 70
+- print:
+  - 晶
+  - |2
+
+- face:
+  - 106831
+  - 3
+- print:
+  - 晶
+  - 見逃してやったってのにこの……
+- wait:
+  - 80
+- print:
+  - 晶
+  - 恩知らずっ！
+- touch: *o0
+- window_visible:
+  - FALSE
+- effect:
+  - 0009
+- se:
+  - se_adv_step_dirt_move_01
+- scale:
+  - 106831
+  - 1.1
+  - 1
+  - 10
+- fadeout:
+  - 106831
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0019
+  - se_adv_weapon_punch_hit_01
+- wait:
+  - 15
+- background:
+  - 510250
+- window_visible:
+  - true
+- focus:
+  - 1031
+- bust:
+  - 1031
+  - 1
+- vo:
+  - vo_adv_1212004_039
+- face:
+  - 1031
+  - 4
+- print:
+  - 男
+  - ぐはっ！
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_bodyfall_02
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- chara_full:
+  - 106831
+  - C
+  - 1
+- fadein:
+  - 106831
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 0
+- vo:
+  - vo_adv_1212004_040
+- face:
+  - 106831
+  - 1
+- print:
+  - 晶
+  - どうだ、
+- wait:
+  - 15
+- print:
+  - 晶
+  - 参ったか！　
+- wait:
+  - 35
+- face:
+  - 106831
+  - 3
+- print:
+  - 晶
+  - 跳躍王直伝、
+- wait:
+  - 45
+- print:
+  - 晶
+  - 一撃必殺の飛び後ろ回し蹴り！
+- wait:
+  - 100
+- print:
+  - 晶
+  - |2
+
+- face:
+  - 106831
+  - 1
+- print:
+  - 晶
+  - これしか教わってないけどね！
+- wait:
+  - 35
+- print:
+  - 晶
+  - |2
+
+- face:
+  - 106831
+  - 4
+- nod:
+  - 106831
+- print:
+  - 晶
+  - っ
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 晶
+  - ていうか痛〜っ！　
+- wait:
+  - 65
+- print:
+  - 晶
+  - 背中刺された時にやる技じゃなかった〜！
+- touch: *o0
+- focus:
+  - 1231
+- bust:
+  - 1231
+  - 1
+- vo:
+  - vo_adv_1212004_041
+- face:
+  - 1231
+  - 4
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 女
+  - く、
+- wait:
+  - 20
+- se:
+  - se_adv_cloth_move_normal_02
+- print:
+  - 女
+  - くそっ……！
+- touch: *o0
+- window_visible:
+  - FALSE
+- focus:
+  - 106831
+- se:
+  - se_adv_body_hand_creak_01
+- se:
+  - se_adv_kick_ground_01
+- face:
+  - 106831
+  - 4
+- nod:
+  - 106831
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 0
+- vo:
+  - vo_adv_1212004_042
+- face:
+  - 106831
+  - 4
+- print:
+  - 晶
+  - やっ
+- wait:
+  - 15
+- print:
+  - 晶
+  - ぱりこの世界、
+- wait:
+  - 40
+- print:
+  - 晶
+  - やるかやられるかなんだね……
+- wait:
+  - 55
+- print:
+  - 晶
+  - |2-
+
+    仕方ない。
+- wait:
+  - 20
+- eye_open:
+  - FALSE
+- print:
+  - 晶
+  - こっそり逃げようとしてたキミも、
+- wait:
+  - 45
+- print:
+  - 晶
+  - |2-
+
+    見逃せなくなったよ。
+- wait:
+  - 50
+- eye_open:
+  - TRUE
+- print:
+  - 晶
+  - ごめんね？
+- touch: *o0
+- focus:
+  - 1231
+- bust:
+  - 1231
+  - 1
+- vo:
+  - vo_adv_1212004_043
+- face:
+  - 1231
+  - 3
+- print:
+  - 女
+  - ……さっさと殺せ！
+- touch: *o0
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 0
+- vo:
+  - vo_adv_1212004_044
+- face:
+  - 106831
+  - 7
+- print:
+  - 晶
+  - 誰が殺すなんて言った？　
+- wait:
+  - 75
+- face:
+  - 106831
+  - 1
+- print:
+  - 晶
+  - そんなに怖がらないでよ。
+- wait:
+  - 50
+- print:
+  - 晶
+  - |2-
+
+    大丈夫。
+- wait:
+  - 25
+- print:
+  - 晶
+  - 死ぬよりも恥ずかしい目に遭ってもらうからさ……♪
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- fadeout:
+  - 106831
+  - 30
+- se_pause:
+  - amb_adv_seaside_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- se:
+  - amb_adv_seaside_01
+- chara_full:
+  - 1331
+  - RC
+  - 2
+- se:
+  - se_adv_step_dirt_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - RC
+  - 45
+- fadein:
+  - 1331
+  - 45
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M244
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 1331
+- bust:
+  - 1331
+  - 0
+- vo:
+  - vo_adv_1212004_045
+- face:
+  - 1331
+  - 2
+- emotion:
+  - note1_L
+  - 1331
+  - -90
+  - 525
+  - se_adv_emote_note_01
+- print:
+  - 不良
+  - ……♪
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 1331
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1212004_046
+- face:
+  - 1
+  - 1
+- print:
+  - 少女
+  - ママー、
+- wait:
+  - 20
+- print:
+  - 少女
+  - あの人たちなにしてるのー？
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1212004_047
+- face:
+  - 1
+  - 1
+- print:
+  - 少女の母
+  - どの人たちかしら……
+- wait:
+  - 60
+- print:
+  - 少女の母
+  - |2-
+
+    ダメっ！　
+- wait:
+  - 10
+- print:
+  - 少女の母
+  - 見ちゃいけません！
+- touch: *o0
+- window_visible:
+  - FALSE
+- chara_full:
+  - 1331
+  - C
+  - 1
+- fadein:
+  - 1331
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 1331
+- bust:
+  - 1331
+  - 0
+- vo:
+  - vo_adv_1212004_048
+- face:
+  - 1331
+  - 1
+- print:
+  - 不良
+  - ん……？　
+- wait:
+  - 45
+- face:
+  - 1331
+  - 6
+- emotion:
+  - surprise1_L
+  - 1331
+  - 90
+  - 590
+  - se_adv_emote_common_01
+- print:
+  - 不良
+  - うおわっ！　
+- wait:
+  - 15
+- print:
+  - 不良
+  - な、
+- wait:
+  - 15
+- print:
+  - 不良
+  - なんだぁありゃ！
+- wait:
+  - 55
+- print:
+  - 不良
+  - |2-
+
+    ……わけわかんねぇけど
+- wait:
+  - 25
+- print:
+  - 不良
+  - 事件っぽいし、
+- wait:
+  - 40
+- print:
+  - 不良
+  - 警察に通報しとくか……
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_cellphone_02
+- nod:
+  - 1331
+- wait:
+  - 15
+- window_visible:
+  - TRUE
+- focus:
+  - 1331
+- bust:
+  - 1331
+  - 0
+- vo:
+  - vo_adv_1212004_049
+- face:
+  - 1331
+  - 6
+- print:
+  - 不良
+  - もしもし、
+- wait:
+  - 5
+- print:
+  - 不良
+  - 警察ですか？　
+- wait:
+  - 25
+- face:
+  - 1331
+  - 4
+- print:
+  - 不良
+  - あの〜、
+- wait:
+  - 15
+- print:
+  - 不良
+  - |2-
+
+    男と女が全裸で電信柱に縛りつけられてるんですけど……
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 2.5
+- fadeout:
+  - 1331
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_seaside_01
+  - 1
+- background:
+  - 510120
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_outdoors_day_01
+- chara_full:
+  - 106832
+  - RC
+  - 7
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - RC
+  - 45
+- fadein:
+  - 106832
+  - 45
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M251
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 106832
+- bust:
+  - 106832
+  - 0
+- vo:
+  - vo_adv_1212004_050
+- face:
+  - 106832
+  - 7
+- print:
+  - 晶
+  - あの二人、
+- wait:
+  - 40
+- print:
+  - 晶
+  - 身分証は偽物だったし、
+- wait:
+  - 60
+- print:
+  - 晶
+  - 指紋も削り取ってたな。
+- wait:
+  - 75
+- print:
+  - 晶
+  - |2
+
+- face:
+  - 106832
+  - 1
+- print:
+  - 晶
+  - でもまあ、
+- wait:
+  - 25
+- print:
+  - 晶
+  - あそこまで怪しかったら
+- wait:
+  - 35
+- print:
+  - 晶
+  - 警察も野放しにはしないでしょ。
+- touch: *o0
+- focus:
+  - 106832
+- bust:
+  - 106832
+  - 0
+- vo:
+  - vo_adv_1212004_051
+- face:
+  - 106832
+  - 1
+- print:
+  - 晶
+  - 今回もちゃんと移動の痕跡を残さずに帰ってこられて良かった。
+- wait:
+  - 100
+- print:
+  - 晶
+  - |2
+
+- face:
+  - 106832
+  - 4
+- print:
+  - 晶
+  - 自分を囮にするのも楽じゃないね。
+- touch: *o0
+- focus:
+  - 106832
+- bust:
+  - 106832
+  - 0
+- vo:
+  - vo_adv_1212004_052
+- face:
+  - 106832
+  - 6
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 晶
+  - いてて……
+- wait:
+  - 55
+- face:
+  - 106832
+  - 3
+- print:
+  - 晶
+  - ったくもう、
+- wait:
+  - 35
+- print:
+  - 晶
+  - アイツめ……！
+- wait:
+  - 45
+- print:
+  - 晶
+  - |2
+
+- face:
+  - 106832
+  - 4
+- print:
+  - 晶
+  - 人を切るのが下手すぎる！　
+- wait:
+  - 35
+- print:
+  - 晶
+  - 痛いじゃないか！　
+- touch: *o0
+- focus:
+  - 106832
+- bust:
+  - 106832
+  - 0
+- vo:
+  - vo_adv_1212004_053
+- face:
+  - 106832
+  - 1
+- print:
+  - 晶
+  - でもまあ、
+- wait:
+  - 25
+- print:
+  - 晶
+  - これくらいなら
+- wait:
+  - 35
+- print:
+  - 晶
+  - 営業に支障は出ないはず……
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - TRUE
+- focus:
+  - 106832
+- bust:
+  - 106832
+  - 0
+- vo:
+  - vo_adv_1212004_054
+- face:
+  - 106832
+  - 1
+- print:
+  - 晶
+  - よし！　
+- wait:
+  - 35
+- print:
+  - 晶
+  - 今日もクレープ屋の開店といきますか！
+- wait:
+  - 75
+- print:
+  - 晶
+  - |2
+
+- face:
+  - 106832
+  - 4
+- print:
+  - 晶
+  - いだ
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 晶
+  - だだ……
+- shake:
+  - 106832
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 2
+  - 1
+- fadeout:
+  - 106832
+  - 30
+- se_pause:
+  - amb_adv_outdoors_day_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- background:
+  - 510121
+- wait:
+  - 15
+- black_in: *o0
+- se:
+  - amb_adv_outdoors_day_01
+- chara_full:
+  - 106832
+  - C
+  - 1
+- fadein:
+  - 106832
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M72
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 106832
+- bust:
+  - 106832
+  - 0
+- vo:
+  - vo_adv_1212004_055
+- face:
+  - 106832
+  - 1
+- print:
+  - 晶
+  - いらっしゃいませー
+- wait:
+  - 40
+- print:
+  - 晶
+  - |2-
+
+    甘い甘ーいクレープはいかがですかー？
+- touch: *o0
+- focus:
+  - 106832
+- bust:
+  - 106832
+  - 0
+- vo:
+  - vo_adv_1212004_056
+- face:
+  - 106832
+  - 4
+- print:
+  - 晶
+  - おや？　
+- wait:
+  - 20
+- face:
+  - 106832
+  - 1
+- print:
+  - 晶
+  - 少年〜！　
+- wait:
+  - 40
+- face:
+  - 106832
+  - 6
+- nod:
+  - 106832
+- print:
+  - 晶
+  - っ
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 晶
+  - とと、
+- wait:
+  - 10
+- print:
+  - 晶
+  - 危ない危ない……
+- wait:
+  - 40
+- print:
+  - 晶
+  - |2
+
+- face:
+  - 106832
+  - 1
+- print:
+  - 晶
+  - ねね、
+- wait:
+  - 20
+- print:
+  - 晶
+  - クレープ食べてかない？
+- wait:
+  - 25
+- print:
+  - 晶
+  - |2-
+
+    お姉さんが
+- wait:
+  - 15
+- print:
+  - 晶
+  - サービスしちゃうよ〜？
+- touch: *o0
+- focus:
+  - 106832
+- bust:
+  - 106832
+  - 0
+- vo:
+  - vo_adv_1212004_057
+- face:
+  - 106832
+  - 4
+- emotion:
+  - question1_R
+  - 106832
+  - 100
+  - 545
+  - se_adv_emote_question_01
+- print:
+  - 晶
+  - ……？　
+- wait:
+  - 40
+- print:
+  - 晶
+  - どしたの少年。
+- wait:
+  - 40
+- print:
+  - 晶
+  - |2
+
+- face:
+  - 106832
+  - 1
+- print:
+  - 晶
+  - アタシの顔に
+- wait:
+  - 20
+- print:
+  - 晶
+  - クリームじゃなくて
+- wait:
+  - 25
+- print:
+  - 晶
+  - クレープ
+- wait:
+  - 35
+- print:
+  - 晶
+  - ついてる？
+- touch: *o0
+- choice:
+  - どこか怪我してない？
+  - 4
+- tag:
+  - 4
+- focus:
+  - 106832
+- bust:
+  - 106832
+  - 0
+- vo:
+  - vo_adv_1212004_058
+- face:
+  - 106832
+  - 1
+- print:
+  - 晶
+  - ううん、
+- wait:
+  - 15
+- print:
+  - 晶
+  - 別に？　
+- wait:
+  - 30
+- print:
+  - 晶
+  - 至って健康そのものだけど？
+- wait:
+  - 70
+- print:
+  - 晶
+  - |2
+
+- eye_open:
+  - FALSE
+- print:
+  - 晶
+  - いきなり何を言い出すかと思えば……
+- wait:
+  - 75
+- print:
+  - 晶
+  - |2
+
+- eye_open:
+  - TRUE
+- print:
+  - 晶
+  - アタシを
+- wait:
+  - 15
+- print:
+  - 晶
+  - 大切に思ってくれてるんだね、
+- wait:
+  - 35
+- print:
+  - 晶
+  - 少年は！
+- touch: *o0
+- choice:
+  - ……動きがいつもの晶と違う。
+  - 5
+- tag:
+  - 5
+- focus:
+  - 106832
+- bust:
+  - 106832
+  - 0
+- vo:
+  - vo_adv_1212004_059
+- face:
+  - 106832
+  - 6
+- print:
+  - 晶
+  - ……いやあ、
+- wait:
+  - 45
+- print:
+  - 晶
+  - 本当にすごいな。
+- wait:
+  - 40
+- print:
+  - 晶
+  - 感心するほかない。
+- wait:
+  - 65
+- print:
+  - 晶
+  - |2
+
+- face:
+  - 106832
+  - 1
+- print:
+  - 晶
+  - 参った。
+- wait:
+  - 25
+- print:
+  - 晶
+  - アタシの負け。
+- wait:
+  - 65
+- eye_open:
+  - False
+- print:
+  - 晶
+  - 少年の言う通りだよ。
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 3
+- fadeout:
+  - 106832
+  - 30
+- se_pause:
+  - amb_adv_outdoors_day_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- se:
+  - amb_adv_outdoors_day_01
+- chara_full:
+  - 106831
+  - C
+  - 1
+- fadein:
+  - 106831
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M201
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 0
+- vo:
+  - vo_adv_1212004_060
+- face:
+  - 106831
+  - 1
+- print:
+  - 晶
+  - 実はここに来る前に、
+- wait:
+  - 45
+- print:
+  - 晶
+  - 真那の放った追手と戦ってさ。
+- wait:
+  - 55
+- print:
+  - 晶
+  - |2-
+
+    背中を一突きされちゃった。
+- wait:
+  - 80
+- face:
+  - 106831
+  - 4
+- print:
+  - 晶
+  - 改造したテーザー銃で
+- wait:
+  - 20
+- print:
+  - 晶
+  - |2-
+
+    動けなくしたと思ってたのが良くなかったね。
+- touch: *o0
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 0
+- vo:
+  - vo_adv_1212004_061
+- face:
+  - 106831
+  - 4
+- nod:
+  - 106831
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 晶
+  - ほら
+- wait:
+  - 25
+- print:
+  - 晶
+  - ここ。
+- wait:
+  - 40
+- face:
+  - 106831
+  - 1
+- print:
+  - 晶
+  - 一応
+- wait:
+  - 15
+- print:
+  - 晶
+  - 簡単な手当てだけ済ませといたし、
+- wait:
+  - 55
+- print:
+  - 晶
+  - |2-
+
+    まあ
+- wait:
+  - 15
+- print:
+  - 晶
+  - 痕は残るだろうけど
+- wait:
+  - 35
+- print:
+  - 晶
+  - ちゃんと治るから。
+- touch: *o0
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 0
+- vo:
+  - vo_adv_1212004_062
+- face:
+  - 106831
+  - 1
+- print:
+  - 晶
+  - というわけで少年、
+- wait:
+  - 35
+- print:
+  - 晶
+  - 心配させてごめんね。
+- wait:
+  - 45
+- print:
+  - 晶
+  - |2-
+
+    そろそろ店に戻らないと……
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 106831
+  - 30
+- se:
+  - se_adv_step_concrete_move_01
+- camera_zoom:
+  - 1.1
+  - 15
+- chara_full:
+  - 106831
+  - C
+  - 1
+- fadein:
+  - 106831
+  - 30
+- se:
+  - se_adv_body_handshake_06
+- face:
+  - 106831
+  - 4
+- nod:
+  - 106831
+- wait:
+  - 15
+- window_visible:
+  - TRUE
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 0
+- vo:
+  - vo_adv_1212004_063
+- face:
+  - 106831
+  - 4
+- print:
+  - 晶
+  - 少年？　
+- wait:
+  - 40
+- print:
+  - 晶
+  - どうして
+- wait:
+  - 10
+- print:
+  - 晶
+  - アタシの腕を掴んでるのかな？
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 106831
+  - 30
+- se:
+  - se_adv_step_concrete_move_01
+- camera_zoom:
+  - 1.2
+  - 15
+- chara_full:
+  - 106831
+  - C
+  - 6
+- fadein:
+  - 106831
+  - 30
+- window_visible:
+  - TRUE
+- se:
+  - se_adv_body_pull_03
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 0
+- vo:
+  - vo_adv_1212004_064
+- face:
+  - 106831
+  - 6
+- emotion:
+  - surprise1_L
+  - 106831
+  - 150
+  - 620
+  - se_adv_emote_common_01
+- print:
+  - 晶
+  - えっ！？　
+- wait:
+  - 15
+- print:
+  - 晶
+  - あっ、ちょっ！　
+- wait:
+  - 5
+- face:
+  - 106831
+  - 4
+- se:
+  - se_adv_body_pull_03
+- print:
+  - 晶
+  - 少年！
+- wait:
+  - 25
+- print:
+  - 晶
+  - |2-
+
+    待って！　
+- wait:
+  - 10
+- print:
+  - 晶
+  - 待った！　
+- wait:
+  - 15
+- face:
+  - 106831
+  - 6
+- print:
+  - 晶
+  - 待ちなさい！　
+- wait:
+  - 15
+- print:
+  - 晶
+  - 待てーっ！
+- touch: *o0
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 0
+- vo:
+  - vo_adv_1212004_065
+- face:
+  - 106831
+  - 6
+- print:
+  - 晶
+  - なになに、
+- wait:
+  - 35
+- print:
+  - 晶
+  - どうしたの！？
+- touch: *o0
+- choice:
+  - ちゃんと治療しないと！
+  - 6
+- tag:
+  - 6
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 0
+- vo:
+  - vo_adv_1212004_066
+- face:
+  - 106831
+  - 4
+- print:
+  - 晶
+  - ちゃんと
+- wait:
+  - 40
+- print:
+  - 晶
+  - って言われてもな〜……
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_cloth_move_normal_01
+- face:
+  - 106831
+  - 6
+- nod:
+  - 106831
+- wait:
+  - 15
+- window_visible:
+  - TRUE
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 0
+- vo:
+  - vo_adv_1212004_067
+- face:
+  - 106831
+  - 6
+- print:
+  - 晶
+  - ……分かった。
+- wait:
+  - 50
+- face:
+  - 106831
+  - 4
+- print:
+  - 晶
+  - 分かりましたってば。
+- wait:
+  - 95
+- print:
+  - 晶
+  - |2-
+
+    今日はもうお店はやめにする。
+- wait:
+  - 55
+- print:
+  - 晶
+  - |2-
+
+    大人しくするから。
+- wait:
+  - 30
+- face:
+  - 106831
+  - 1
+- print:
+  - 晶
+  - それでいいでしょ？
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 106831
+  - 30
+- se:
+  - se_adv_step_concrete_move_01
+- camera_zoom:
+  - 1
+  - 15
+- chara_full:
+  - 106831
+  - C
+  - 4
+- fadein:
+  - 106831
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 0
+- vo:
+  - vo_adv_1212004_068
+- face:
+  - 106831
+  - 4
+- print:
+  - 晶
+  - でも
+- wait:
+  - 25
+- print:
+  - 晶
+  - アタシってある意味お尋ね者だから、
+- wait:
+  - 50
+- print:
+  - 晶
+  - |2-
+
+    普通の病院に行くと
+- wait:
+  - 30
+- print:
+  - 晶
+  - 居所がバレちゃうんだ。
+- wait:
+  - 45
+- print:
+  - 晶
+  - |2-
+
+    どうしたらいいかな？
+- touch: *o0
+- choice:
+  - 僕がやるよ。
+  - 7
+- tag:
+  - 7
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 0
+- vo:
+  - vo_adv_1212004_069
+- face:
+  - 106831
+  - 6
+- emotion:
+  - question1_R
+  - 106831
+  - 100
+  - 545
+  - se_adv_emote_question_01
+- print:
+  - 晶
+  - 少年が……？
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 106831
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_outdoors_day_01
+  - 1
+- background:
+  - 510081
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
+- se:
+  - amb_adv_room_noise_day_01
+- se:
+  - se_adv_cloth_move_normal_02
+- wait:
+  - 30
+- white_out:
+  - 1
+  - 1
+- bg_color:
+  - 255
+  - 255
+  - 255
+- still:
+  - 121200401
+- wait:
+  - 15
+- white_in: *o0
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M554
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 1
+- vo:
+  - vo_adv_1212004_070
+- face:
+  - 106831
+  - 1
+- print:
+  - 晶
+  - いやん♪　
+- wait:
+  - 20
+- print:
+  - 晶
+  - そんなにじっくり見ないで〜♪
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_water_gun_01
+- white_out:
+  - 0.5
+  - 0.2
+- white_in: *o0
+- still:
+  - 121200402
+- wait:
+  - 15
+- window_visible:
+  - TRUE
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 1
+- vo:
+  - vo_adv_1212004_071
+- face:
+  - 106831
+  - 6
+- print:
+  - 晶
+  - あだだだ！　
+- wait:
+  - 25
+- print:
+  - 晶
+  - ごめんなさい！
+- wait:
+  - 10
+- print:
+  - 晶
+  - |2-
+
+    許して！　
+- wait:
+  - 20
+- print:
+  - 晶
+  - 消毒液ドバドバかけるのはやめて！
+- touch: *o0
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 1
+- vo:
+  - vo_adv_1212004_072
+- face:
+  - 106831
+  - 4
+- print:
+  - 晶
+  - あー
+- wait:
+  - 55
+- print:
+  - 晶
+  - びっくりした……
+- touch: *o0
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 1
+- vo:
+  - vo_adv_1212004_073
+- face:
+  - 106831
+  - 4
+- print:
+  - 晶
+  - えーっと、
+- wait:
+  - 30
+- print:
+  - 晶
+  - 次は
+- wait:
+  - 60
+- print:
+  - 晶
+  - この薬を
+- wait:
+  - 20
+- print:
+  - 晶
+  - 塗ってもらえるかな？
+- wait:
+  - 50
+- print:
+  - 晶
+  - |2
+
+- face:
+  - 106831
+  - 6
+- print:
+  - 晶
+  - そーっとお願いね。
+- wait:
+  - 25
+- print:
+  - 晶
+  - そーっと。
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_cloth_move_normal_02
+- white_out:
+  - 1
+  - 1
+- still:
+  - end
+- still:
+  - 121200403
+- wait:
+  - 15
+- white_in: *o0
+- window_visible:
+  - TRUE
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 1
+- vo:
+  - vo_adv_1212004_074
+- face:
+  - 106831
+  - 1
+- print:
+  - 晶
+  - うんうん、
+- wait:
+  - 40
+- print:
+  - 晶
+  - いい感じ。
+- wait:
+  - 50
+- print:
+  - 晶
+  - 優〜しく〜……
+- touch: *o0
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 1
+- vo:
+  - vo_adv_1212004_075
+- face:
+  - 106831
+  - 1
+- print:
+  - 晶
+  - ……少年。
+- wait:
+  - 35
+- print:
+  - 晶
+  - 助けてくれてありがとう。
+- wait:
+  - 60
+- print:
+  - 晶
+  - |2
+
+- face:
+  - 106831
+  - 4
+- print:
+  - 晶
+  - さすがに天才のアタシでも、
+- wait:
+  - 60
+- print:
+  - 晶
+  - |2-
+
+    自分の背中は
+- wait:
+  - 35
+- print:
+  - 晶
+  - なかなかに治療しづらくてさ。
+- touch: *o0
+- choice:
+  - 天才だろうと無理せず頼って。
+  - 8
+- tag:
+  - 8
+- window_visible:
+  - FALSE
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 1
+- vo:
+  - vo_adv_1212004_076
+- face:
+  - 106831
+  - 1
+- print:
+  - 晶
+  - キミってヤツは……
+- wait:
+  - 45
+- print:
+  - 晶
+  - |2-
+
+    七冠に対しても、
+- wait:
+  - 65
+- print:
+  - 晶
+  - みんなと変わらない、
+- wait:
+  - 35
+- print:
+  - 晶
+  - |2-
+
+    ごく普通の人間として接してくれるんだね……
+- touch: *o0
+- window_visible:
+  - FALSE
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - TRUE
+- bgm:
+  - stop
+  - 6
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 1
+- vo:
+  - vo_adv_1212004_077
+- face:
+  - 106831
+  - 1
+- print:
+  - 晶
+  - ……今度からは
+- wait:
+  - 20
+- print:
+  - 晶
+  - そうさせてもらうよ。
+- wait:
+  - 55
+- print:
+  - 晶
+  - あはは……
+- touch: *o0
+- bgm:
+  - bgm_M19
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 1
+- vo:
+  - vo_adv_1212004_078
+- face:
+  - 106831
+  - 1
+- print:
+  - 晶
+  - でもね、
+- wait:
+  - 30
+- print:
+  - 晶
+  - アタシは普段からキミを頼ってる。
+- wait:
+  - 65
+- print:
+  - 晶
+  - |2
+
+- face:
+  - 106831
+  - 4
+- print:
+  - 晶
+  - それどころか、
+- wait:
+  - 50
+- print:
+  - 晶
+  - もうずーっと前から……
+- touch: *o0
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 1
+- vo:
+  - vo_adv_1212004_079
+- face:
+  - 106831
+  - 4
+- print:
+  - 晶
+  - だからさ、
+- wait:
+  - 40
+- print:
+  - 晶
+  - これ以上助けてもらっちゃっていいのかな
+- wait:
+  - 50
+- print:
+  - 晶
+  - って、
+- wait:
+  - 30
+- print:
+  - 晶
+  - |2-
+
+    つい遠慮しちゃうんだよね。
+- touch: *o0
+- choice:
+  - じゃあもっと助けてもらうよ。
+  - 9
+- tag:
+  - 9
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 1
+- vo:
+  - vo_adv_1212004_080
+- face:
+  - 106831
+  - 1
+- print:
+  - 晶
+  - ふふっ、
+- wait:
+  - 60
+- print:
+  - 晶
+  - そうだね。
+- wait:
+  - 35
+- print:
+  - 晶
+  - そうしてもらえると、
+- wait:
+  - 30
+- print:
+  - 晶
+  - |2-
+
+    アタシも遠慮せずに
+- wait:
+  - 20
+- print:
+  - 晶
+  - 少年を頼れるようになるね。
+- touch: *o0
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 1
+- vo:
+  - vo_adv_1212004_081
+- face:
+  - 106831
+  - 1
+- print:
+  - 晶
+  - ……たしかにそうだ。
+- wait:
+  - 55
+- print:
+  - 晶
+  - 簡単な話だったんだ。
+- wait:
+  - 80
+- print:
+  - 晶
+  - |2
+
+- face:
+  - 106831
+  - 7
+- print:
+  - 晶
+  - なんでだろう。
+- wait:
+  - 55
+- print:
+  - 晶
+  - アタシはキミを助けきれないかもって、
+- wait:
+  - 80
+- print:
+  - 晶
+  - |2-
+
+    どこかで思ってた気がするよ……
+- touch: *o0
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 1
+- vo:
+  - vo_adv_1212004_082
+- face:
+  - 106831
+  - 1
+- print:
+  - 晶
+  - そんなはずないのにね。
+- wait:
+  - 45
+- print:
+  - 晶
+  - だってアタシは七冠で、
+- wait:
+  - 40
+- print:
+  - 晶
+  - |2-
+
+    少年はアタシが選んだプリンセスナイトなんだ。
+- touch: *o0
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 1
+- vo:
+  - vo_adv_1212004_083
+- face:
+  - 106831
+  - 4
+- print:
+  - 晶
+  - 女王のために、
+- wait:
+  - 40
+- print:
+  - 晶
+  - 必ず姫を守り抜いてくれるって、
+- wait:
+  - 95
+- print:
+  - 晶
+  - |2-
+
+    誰よりもキミを信じているのはアタシなのに。
+- touch: *o0
+- window_visible:
+  - FALSE
+- white_out:
+  - 1
+  - 1
+- still:
+  - end
+- still:
+  - 121200401
+- wait:
+  - 15
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- white_in: *o0
+- window_visible:
+  - TRUE
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 1
+- vo:
+  - vo_adv_1212004_084
+- face:
+  - 106831
+  - 1
+- print:
+  - 晶
+  - キミに頼っている分だけ、
+- wait:
+  - 40
+- print:
+  - 晶
+  - キミを助けられるように、
+- wait:
+  - 55
+- print:
+  - 晶
+  - |2-
+
+    きちんと傷を癒して、
+- wait:
+  - 45
+- print:
+  - 晶
+  - また頑張るよ。
+- touch: *o0
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 1
+- vo:
+  - vo_adv_1212004_085
+- face:
+  - 106831
+  - 1
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - 晶
+  - そうだ！　
+- wait:
+  - 30
+- print:
+  - 晶
+  - 美味しい特製クレープでお返し
+- wait:
+  - 45
+- print:
+  - 晶
+  - っていうのは……
+- wait:
+  - 20
+- print:
+  - 晶
+  - |2
+
+- face:
+  - 106831
+  - 4
+- print:
+  - 晶
+  - いらない？　
+- wait:
+  - 30
+- face:
+  - 106831
+  - 6
+- print:
+  - 晶
+  - えーっ！　
+- wait:
+  - 15
+- print:
+  - 晶
+  - そんなこと言わないでよぉ〜！
+- touch: *o0
+- window_visible:
+  - FALSE
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 106831
+- bust:
+  - 106831
+  - 1
+- vo:
+  - vo_adv_1212004_086
+- face:
+  - 106831
+  - 1
+- print:
+  - 晶
+  - アタシはいつもキミに
+- wait:
+  - 20
+- print:
+  - 晶
+  - |2-
+
+    助けてもらってばかりいると思っていたけど、
+- wait:
+  - 65
+- print:
+  - 晶
+  - |2-
+
+    これからはもう少し、
+- wait:
+  - 40
+- print:
+  - 晶
+  - キミの言葉に
+- wait:
+  - 35
+- print:
+  - 晶
+  - 甘えてみようかな……
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 1.5
+  - 1
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- effect:
+  - 0006
+  - se_adv_whiteout_01
+- se_pause:
+  - amb_adv_room_noise_day_01
+  - 1
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0006
+- effect_delete:
+  - 0022
+- background:
+  - 500270
+- still:
+  - end
+- effect:
+  - 0080
+- wait:
+  - 30
+- white_in: *o0
+- bgm:
+  - bgm_M40
+  - 0
+  - 0
+  - 0
+  - 0.5
+- se:
+  - amb_adv_wind_01
+- wait:
+  - 60
+- chara_full:
+  - 106811
+  - C
+  - 1
+  - 1
+- fadein:
+  - 106811
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 106811
+- bust:
+  - 106811
+  - 0
+- vo:
+  - vo_adv_1212004_087
+- face:
+  - 106811
+  - 1
+- eye_open:
+  - TRUE
+- se:
+  - se_adv_cloth_move_normal_03
+- print:
+  - ラビリスタ
+  - んん……
+- touch: *o0
+- focus:
+  - 106811
+- bust:
+  - 106811
+  - 0
+- vo:
+  - vo_adv_1212004_088
+- face:
+  - 106811
+  - 6
+- emotion:
+  - question1_R
+  - 106811
+  - 120
+  - 535
+  - se_adv_emote_question_01
+- print:
+  - ラビリスタ
+  - あれ、
+- wait:
+  - 60
+- print:
+  - ラビリスタ
+  - ここは……？
+- wait:
+  - 85
+- print:
+  - ラビリスタ
+  - |2
+
+- face:
+  - 106811
+  - 1
+- print:
+  - ラビリスタ
+  - ああ、
+- wait:
+  - 10
+- print:
+  - ラビリスタ
+  - そっか。
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - フィオの光で……
+- touch: *o0
+- focus:
+  - 106811
+- bust:
+  - 106811
+  - 0
+- vo:
+  - vo_adv_1212004_089
+- face:
+  - 106811
+  - 4
+- print:
+  - ラビリスタ
+  - あの子、
+- wait:
+  - 40
+- print:
+  - ラビリスタ
+  - アタシたちを眠らせただけで、
+- wait:
+  - 40
+- print:
+  - ラビリスタ
+  - |2-
+
+    何も言わずにいなくなってるし……
+- touch: *o0
+- focus:
+  - 106811
+- bust:
+  - 106811
+  - 0
+- vo:
+  - vo_adv_1212004_090
+- face:
+  - 106811
+  - 2
+- print:
+  - ラビリスタ
+  - なるほど。
+- wait:
+  - 45
+- print:
+  - ラビリスタ
+  - 今回はアタシに譲ってくれるってわけか。
+- wait:
+  - 60
+- print:
+  - ラビリスタ
+  - |2
+
+- face:
+  - 106811
+  - 4
+- print:
+  - ラビリスタ
+  - だったら最初から自分でしたかったんですけど……
+- wait:
+  - 55
+- print:
+  - ラビリスタ
+  - |2
+
+- eye_open:
+  - False
+- bgm:
+  - stop
+  - 4
+- print:
+  - ラビリスタ
+  - 気が利いてるんだか利いてないんだか……
+- touch: *o0
+- bgm:
+  - bgm_M307
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 106811
+- bust:
+  - 106811
+  - 0
+- vo:
+  - vo_adv_1212004_091
+- face:
+  - 106811
+  - 2
+- eye_open:
+  - True
+- print:
+  - ラビリスタ
+  - さっきまで見てたのは、
+- wait:
+  - 45
+- print:
+  - ラビリスタ
+  - アタシの記憶……
+- wait:
+  - 45
+- print:
+  - ラビリスタ
+  - |2-
+
+    みたいなものだよ。
+- touch: *o0
+- focus:
+  - 106811
+- bust:
+  - 106811
+  - 0
+- vo:
+  - vo_adv_1212004_092
+- face:
+  - 106811
+  - 1
+- print:
+  - ラビリスタ
+  - アタシがどんなに天才と持て囃されても、
+- wait:
+  - 55
+- print:
+  - ラビリスタ
+  - |2-
+
+    できないことはある。
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - みんなと同じ人間だからね。
+- touch: *o0
+- focus:
+  - 106811
+- bust:
+  - 106811
+  - 0
+- vo:
+  - vo_adv_1212004_093
+- face:
+  - 106811
+  - 2
+- print:
+  - ラビリスタ
+  - でもそれは、
+- wait:
+  - 35
+- print:
+  - ラビリスタ
+  - 決して悲観も悲嘆もすべきものじゃない。
+- wait:
+  - 80
+- print:
+  - ラビリスタ
+  - |2
+
+- eye_open:
+  - FALSE
+- print:
+  - ラビリスタ
+  - だったら、
+- wait:
+  - 25
+- print:
+  - ラビリスタ
+  - 助けを求めればいい。
+- wait:
+  - 50
+- eye_open:
+  - TRUE
+- print:
+  - ラビリスタ
+  - 簡単な話だよね。
+- touch: *o0
+- focus:
+  - 106811
+- bust:
+  - 106811
+  - 0
+- vo:
+  - vo_adv_1212004_094
+- face:
+  - 106811
+  - 7
+- print:
+  - ラビリスタ
+  - 簡単な話だからこそ、
+- wait:
+  - 60
+- print:
+  - ラビリスタ
+  - アタシたち天才はそれに気づかず、
+- wait:
+  - 70
+- print:
+  - ラビリスタ
+  - |2-
+
+    つい
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - 一人でどうにかしようとしがちなんだよね。
+- wait:
+  - 80
+- print:
+  - ラビリスタ
+  - |2
+
+- face:
+  - 106811
+  - 2
+- bgm:
+  - stop
+  - 5.5
+  - 1
+- print:
+  - ラビリスタ
+  - アタシは少年のおかげで、
+- wait:
+  - 35
+- print:
+  - ラビリスタ
+  - 大事なことに気づけたのさ。
+- touch: *o0
+- focus:
+  - 106811
+- bust:
+  - 106811
+  - 0
+- vo:
+  - vo_adv_1212004_095
+- face:
+  - 106811
+  - 2
+- print:
+  - ラビリスタ
+  - 少年。
+- wait:
+  - 40
+- bgm:
+  - bgm_M552
+- print:
+  - ラビリスタ
+  - キミにできないことがあるときは、
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - |2-
+
+    遠慮せずに
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - アタシを頼ってほしい。
+- touch: *o0
+- focus:
+  - 106811
+- bust:
+  - 106811
+  - 0
+- vo:
+  - vo_adv_1212004_096
+- face:
+  - 106811
+  - 2
+- print:
+  - ラビリスタ
+  - あっちでキミがアタシにしてくれたように、
+- wait:
+  - 45
+- print:
+  - ラビリスタ
+  - |2
+
+- eye_open:
+  - FALSE
+- print:
+  - ラビリスタ
+  - アタシもキミに、
+- wait:
+  - 30
+- eye_open:
+  - True
+- print:
+  - ラビリスタ
+  - そうしてあげたいんだ。
+- touch: *o0
+- focus:
+  - 106811
+- bust:
+  - 106811
+  - 0
+- vo:
+  - vo_adv_1212004_097
+- face:
+  - 106811
+  - 2
+- print:
+  - ラビリスタ
+  - キミと助け合うことで、
+- wait:
+  - 35
+- print:
+  - ラビリスタ
+  - |2-
+
+    世界がより良くなる可能性があるって、
+- wait:
+  - 65
+- print:
+  - ラビリスタ
+  - |2-
+
+    アタシは誰よりも信じてるから。
+- wait:
+  - 55
+- eye_open:
+  - FALSE
+- print:
+  - ラビリスタ
+  - キミを。
+- wait:
+  - 35
+- eye_open:
+  - True
+- print:
+  - ラビリスタ
+  - キミの
+- wait:
+  - 35
+- print:
+  - ラビリスタ
+  - 可能性を……
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 106811
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - ラビリスタは{0}の瞳の奥に、
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    可能性に満ちた未来を感じ、うれしそうに微笑むのだった。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 1
+- se_pause:
+  - amb_adv_wind_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0080
+- end: *o0

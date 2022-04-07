@@ -1,0 +1,1208 @@
+- title:
+  - 魔法少女たちの奇妙な一日
+- outline:
+  - 大集合した魔法少女たちに出くわした{0}はイオ、クウカ、シズルの怪しい会合の調査に同行する。イオたちの疑惑が晴れた後、目的の封筒を受け取って次の目的地へ向かうのだった。
+- background:
+  - 500010
+- se:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 魔法少女たちの奇妙な一日
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - 年間活動記録の作成を続ける{0}は
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    『闇の魔法少女』たちのアジトへ向かっていた。
+- wait:
+  - 30
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 114211
+  - LC
+  - 1
+- chara_full:
+  - 114311
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M421_WithIntro
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_9004008_000
+- face:
+  - 114211
+  - 1
+- print:
+  - ラブリー★モニカ
+  - みんな、
+- wait:
+  - 20
+- print:
+  - ラブリー★モニカ
+  - 集まったな？
+- touch: *o0
+- focus:
+  - 114311
+- bust:
+  - 114311
+  - 0
+- vo:
+  - vo_adv_9004008_001
+- face:
+  - 114311
+  - 1
+- nod:
+  - 114311
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - シャイニー★トモ
+  - もちろん、
+- wait:
+  - 15
+- print:
+  - シャイニー★トモ
+  - 準備完了だよ。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 112311
+  - LC
+  - 1
+- chara_full:
+  - 112211
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 112211
+- bust:
+  - 112211
+  - 0
+- vo:
+  - vo_adv_9004008_002
+- face:
+  - 112211
+  - 1
+- print:
+  - ミスティ★カスミ
+  - 下調べもばっちりだね。
+- touch: *o0
+- focus:
+  - 112311
+- bust:
+  - 112311
+  - 0
+- vo:
+  - vo_adv_9004008_003
+- face:
+  - 112311
+  - 1
+- print:
+  - ピュアリー★シオリ
+  - いつでもいけます、
+- wait:
+  - 20
+- print:
+  - ピュアリー★シオリ
+  - ラブリー★モニカ……！
+- touch: *o0
+- choice:
+  - みんな勢ぞろいだね！
+  - 1
+- tag:
+  - 1
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 114211
+  - LC
+  - 1
+- chara_full:
+  - 112311
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_9004008_004
+- face:
+  - 114211
+  - 1
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - ラブリー★モニカ
+  - うむ！
+- wait:
+  - 25
+- print:
+  - ラブリー★モニカ
+  - |2-
+
+    魔法少女が５人揃えば、
+- wait:
+  - 40
+- print:
+  - ラブリー★モニカ
+  - なにがあっても平気だな！
+- wait:
+  - 50
+- print:
+  - ラブリー★モニカ
+  - |2
+
+- face:
+  - 114211
+  - 6
+- emotion:
+  - question1_R
+  - 114211
+  - 85
+  - 420
+  - se_adv_emote_question_01
+- bgm:
+  - stop
+  - 3.5
+  - 1
+- print:
+  - ラブリー★モニカ
+  - ……ん？　
+- wait:
+  - 30
+- print:
+  - ラブリー★モニカ
+  - ５人？
+- touch: *o0
+- bgm:
+  - bgm_M422
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 112311
+- bust:
+  - 112311
+  - 0
+- vo:
+  - vo_adv_9004008_005
+- face:
+  - 112311
+  - 6
+- print:
+  - ピュアリー★シオリ
+  - |-
+    {0}さん……！
+    いつのまに……！　
+- wait:
+  - 20
+- print:
+  - ピュアリー★シオリ
+  - 急に現れたのでびっくりしちゃいました……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 114311
+  - LC
+  - 1
+- chara_full:
+  - 112211
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 114311
+- bust:
+  - 114311
+  - 0
+- vo:
+  - vo_adv_9004008_006
+- face:
+  - 114311
+  - 1
+- print:
+  - シャイニー★トモ
+  - でも、
+- wait:
+  - 20
+- print:
+  - シャイニー★トモ
+  - ちょうどいいタイミングだね。
+- wait:
+  - 35
+- print:
+  - シャイニー★トモ
+  - |2-
+
+    今から
+- wait:
+  - 25
+- print:
+  - シャイニー★トモ
+  - ある調査に向かうところなんだよ。
+- touch: *o0
+- focus:
+  - 112211
+- bust:
+  - 112211
+  - 0
+- vo:
+  - vo_adv_9004008_007
+- face:
+  - 112211
+  - 6
+- print:
+  - ミスティ★カスミ
+  - あやしい例の３人組が
+- wait:
+  - 35
+- print:
+  - ミスティ★カスミ
+  - |2-
+
+    謎の会合を繰り返しているという情報が入ったんだ。
+- wait:
+  - 65
+- print:
+  - ミスティ★カスミ
+  - |2-
+
+    アンチビーストが関与しているかもだし、
+- wait:
+  - 30
+- print:
+  - ミスティ★カスミ
+  - 調べる必要がありそうでね。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 114211
+  - C
+  - 1
+- fadein:
+  - 114211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_9004008_008
+- face:
+  - 114211
+  - 1
+- print:
+  - ラブリー★モニカ
+  - どうだろう、
+- wait:
+  - 20
+- print:
+  - ラブリー★モニカ
+  - 貴公も一緒に来てくれないか？
+- wait:
+  - 50
+- print:
+  - ラブリー★モニカ
+  - |2-
+
+    共に戦えると
+- wait:
+  - 25
+- print:
+  - ラブリー★モニカ
+  - 心強いからな。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 114211
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- bgm:
+  - stop
+  - 2
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- background:
+  - 501450
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_room_noise_01
+- chara_full:
+  - 114311
+  - LC
+  - 6
+- chara_full:
+  - 112311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M326
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 114311
+- bust:
+  - 114311
+  - 0
+- vo:
+  - vo_adv_9004008_009
+- face:
+  - 114311
+  - 6
+- print:
+  - シャイニー★トモ
+  - ここは相変わらず独特な雰囲気の空間だね……
+- wait:
+  - 105
+- print:
+  - シャイニー★トモ
+  - |2
+
+- face:
+  - 114311
+  - 4
+- print:
+  - シャイニー★トモ
+  - というかここ、
+- wait:
+  - 40
+- print:
+  - シャイニー★トモ
+  - まだ取り壊されてなかったんだ……
+- touch: *o0
+- focus:
+  - 112311
+- bust:
+  - 112311
+  - 0
+- vo:
+  - vo_adv_9004008_010
+- face:
+  - 112311
+  - 6
+- print:
+  - ピュアリー★シオリ
+  - 巨悪がなにかたくらんで
+- wait:
+  - 40
+- print:
+  - ピュアリー★シオリ
+  - あえて残したのかもしれません……！
+- wait:
+  - 50
+- print:
+  - ピュアリー★シオリ
+  - |2
+
+- face:
+  - 112311
+  - 2
+- print:
+  - ピュアリー★シオリ
+  - 魔法少女の新たな戦いが
+- wait:
+  - 55
+- print:
+  - ピュアリー★シオリ
+  - 始まってしまうのかも……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 112211
+  - C
+  - 6
+- fadein:
+  - 112211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 112211
+- bust:
+  - 112211
+  - 0
+- vo:
+  - vo_adv_9004008_011
+- face:
+  - 112211
+  - 6
+- print:
+  - ミスティ★カスミ
+  - やっぱりシオリさん、
+- wait:
+  - 35
+- print:
+  - ミスティ★カスミ
+  - こういうのにワクワクするタイプなんじゃ……
+- wait:
+  - 70
+- print:
+  - ミスティ★カスミ
+  - |2-
+
+    あっ、
+- wait:
+  - 15
+- print:
+  - ミスティ★カスミ
+  - あそこ──
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 112211
+  - 30
+- bgm:
+  - stop
+  - 2
+  - 1
+- effect:
+  - 0032
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 104913
+  - L
+  - 5
+- chara_full:
+  - 101812
+  - C
+  - 2
+- chara_full:
+  - 104512
+  - R
+  - 1
+- fadein_all:
+  - 30
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- bgm:
+  - bgm_M528
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 101812
+- bust:
+  - 101812
+  - 0
+- vo:
+  - vo_adv_9004008_012
+- face:
+  - 101812
+  - 2
+- print:
+  - イオ・ノワール
+  - せんせーは、
+- wait:
+  - 50
+- print:
+  - イオ・ノワール
+  - みんなを集めてまた授業がしたいわ♪
+- wait:
+  - 80
+- print:
+  - イオ・ノワール
+  - |2
+
+- face:
+  - 101812
+  - 1
+- print:
+  - イオ・ノワール
+  - 彼を模範生徒にして、
+- wait:
+  - 45
+- print:
+  - イオ・ノワール
+  - |2-
+
+    みんな彼みたいないい子になったら、
+- wait:
+  - 55
+- print:
+  - イオ・ノワール
+  - 彼もうれしいと思うの♪
+- touch: *o0
+- focus:
+  - 104512
+- bust:
+  - 104512
+  - 0
+- vo:
+  - vo_adv_9004008_013
+- face:
+  - 104512
+  - 1
+- print:
+  - クウカ・ノワール
+  - クウカは、
+- wait:
+  - 20
+- print:
+  - クウカ・ノワール
+  - またドMビームでドMを増やすのがいいと思います……！
+- wait:
+  - 80
+- print:
+  - クウカ・ノワール
+  - |2
+
+- face:
+  - 104512
+  - 2
+- print:
+  - クウカ・ノワール
+  - そしたら、
+- wait:
+  - 20
+- print:
+  - クウカ・ノワール
+  - ドSさんがクウカを問い詰めて……
+- wait:
+  - 60
+- face:
+  - 104512
+  - 5
+- print:
+  - クウカ・ノワール
+  - ぐふふ……♪
+- touch: *o0
+- focus:
+  - 104913
+- bust:
+  - 104913
+  - 0
+- vo:
+  - vo_adv_9004008_014
+- face:
+  - 104913
+  - 5
+- print:
+  - シズル・ノワール
+  - お姉ちゃんは、
+- wait:
+  - 20
+- print:
+  - シズル・ノワール
+  - またミニ弟くんをいっぱい召喚したいな！
+- wait:
+  - 55
+- print:
+  - シズル・ノワール
+  - |2-
+
+    世界中が、
+- wait:
+  - 10
+- print:
+  - シズル・ノワール
+  - 弟くんで満たされちゃうくらい！
+- wait:
+  - 35
+- print:
+  - シズル・ノワール
+  - |2
+
+- face:
+  - 104913
+  - 2
+- print:
+  - シズル・ノワール
+  - そしたら
+- wait:
+  - 20
+- print:
+  - シズル・ノワール
+  - 弟くんもうれしいよね！　
+- wait:
+  - 30
+- print:
+  - シズル・ノワール
+  - もちろん
+- wait:
+  - 15
+- print:
+  - シズル・ノワール
+  - お姉ちゃんはうれしいな♪
+- touch: *o0
+- window_visible:
+  - false
+- vo_effect:
+  - 0
+- fadeout_all:
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 114211
+  - LC
+  - 6
+- chara_full:
+  - 114311
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 114311
+- bust:
+  - 114311
+  - 0
+- vo:
+  - vo_adv_9004008_015
+- face:
+  - 114311
+  - 4
+- print:
+  - シャイニー★トモ
+  - よく聞こえないけど、
+- wait:
+  - 45
+- print:
+  - シャイニー★トモ
+  - |2-
+
+    やっぱりよからぬことをたくらんでいるような……？
+- touch: *o0
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_9004008_016
+- face:
+  - 114211
+  - 3
+- print:
+  - ラブリー★モニカ
+  - ならば捕まえるしかあるまい……！
+- wait:
+  - 40
+- print:
+  - ラブリー★モニカ
+  - |2
+
+- face:
+  - 114211
+  - 1
+- print:
+  - ラブリー★モニカ
+  - 幸い
+- wait:
+  - 25
+- print:
+  - ラブリー★モニカ
+  - まだ気づかれていないようだし、
+- wait:
+  - 35
+- print:
+  - ラブリー★モニカ
+  - 奇襲を仕掛けて……
+- wait:
+  - 40
+- print:
+  - ラブリー★モニカ
+  - |2
+
+- face:
+  - 114211
+  - 6
+- emotion:
+  - surprise1_L
+  - 114211
+  - 130
+  - 475
+  - se_adv_emote_common_01
+- print:
+  - ラブリー★モニカ
+  - って、
+- wait:
+  - 15
+- print:
+  - ラブリー★モニカ
+  - 貴公……！？　
+- wait:
+  - 25
+- print:
+  - ラブリー★モニカ
+  - 堂々と出ていくんじゃない……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 104913
+  - L
+  - 5
+- chara_full:
+  - 101812
+  - C
+  - 1
+- chara_full:
+  - 104512
+  - R
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- choice:
+  - こんにちは。
+  - 2
+- tag:
+  - 2
+- focus:
+  - 101812
+- bust:
+  - 101812
+  - 0
+- vo:
+  - vo_adv_9004008_017
+- face:
+  - 101812
+  - 1
+- print:
+  - イオ・ノワール
+  - あら、
+- wait:
+  - 15
+- print:
+  - イオ・ノワール
+  - '{0}くん。'
+- wait:
+  - 30
+- print:
+  - イオ・ノワール
+  - |2-
+
+    元気な声であいさつできて偉いわ。
+- wait:
+  - 70
+- face:
+  - 101812
+  - 2
+- print:
+  - イオ・ノワール
+  - せんせー、
+- wait:
+  - 10
+- print:
+  - イオ・ノワール
+  - うれしい♪
+- touch: *o0
+- face:
+  - 101812
+  - 1
+- focus:
+  - 104512
+- bust:
+  - 104512
+  - 0
+- vo:
+  - vo_adv_9004008_018
+- face:
+  - 104512
+  - 6
+- print:
+  - クウカ・ノワール
+  - なにをしてるのか、
+- wait:
+  - 40
+- print:
+  - クウカ・ノワール
+  - ですか……？
+- wait:
+  - 30
+- print:
+  - クウカ・ノワール
+  - |2
+
+- face:
+  - 104512
+  - 1
+- print:
+  - クウカ・ノワール
+  - 実はクウカたち、
+- wait:
+  - 30
+- print:
+  - クウカ・ノワール
+  - 最近ずっと
+- wait:
+  - 25
+- print:
+  - クウカ・ノワール
+  - 力の使い方について考えていて……
+- wait:
+  - 65
+- print:
+  - クウカ・ノワール
+  - |2-
+
+    みんなで
+- wait:
+  - 20
+- print:
+  - クウカ・ノワール
+  - ドSさんの役に立つ方法はないか、
+- wait:
+  - 40
+- print:
+  - クウカ・ノワール
+  - 話し合っていたんです……♪
+- touch: *o0
+- focus:
+  - 104913
+- bust:
+  - 104913
+  - 0
+- vo:
+  - vo_adv_9004008_019
+- face:
+  - 104913
+  - 2
+- print:
+  - シズル・ノワール
+  - 闇の魔法少女とは言っても、
+- wait:
+  - 40
+- print:
+  - シズル・ノワール
+  - みんな弟くんを大事に思ってるから☆
+- wait:
+  - 45
+- print:
+  - シズル・ノワール
+  - |2
+
+- face:
+  - 104913
+  - 5
+- print:
+  - シズル・ノワール
+  - それに、
+- wait:
+  - 20
+- print:
+  - シズル・ノワール
+  - 弟くんがよろこぶことをするだけなら、
+- wait:
+  - 40
+- print:
+  - シズル・ノワール
+  - |2-
+
+    『みんなが自由に生きるランドソル』を守ることもできるし☆
+- touch: *o0
+- focus:
+  - 101812
+- bust:
+  - 101812
+  - 0
+- vo:
+  - vo_adv_9004008_020
+- face:
+  - 101812
+  - 6
+- print:
+  - イオ・ノワール
+  - 本当は秘密にしたかったんだけど、
+- wait:
+  - 60
+- print:
+  - イオ・ノワール
+  - |2
+
+- face:
+  - 101812
+  - 1
+- print:
+  - イオ・ノワール
+  - バレちゃったならしょうがないわね……♪
+- touch: *o0
+- focus:
+  - 104512
+- bust:
+  - 104512
+  - 0
+- vo:
+  - vo_adv_9004008_021
+- face:
+  - 104512
+  - 1
+- print:
+  - クウカ・ノワール
+  - こうなったら、
+- wait:
+  - 25
+- print:
+  - クウカ・ノワール
+  - |2-
+
+    ドSさんも一緒に
+- wait:
+  - 25
+- print:
+  - クウカ・ノワール
+  - クウカたちの力の使い方を考えませんか……？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 114211
+  - LC
+  - 6
+- chara_full:
+  - 112211
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 112211
+- bust:
+  - 112211
+  - 0
+- vo:
+  - vo_adv_9004008_022
+- face:
+  - 112211
+  - 6
+- nod:
+  - 112211
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - ミスティ★カスミ
+  - ふむ……
+- wait:
+  - 40
+- print:
+  - ミスティ★カスミ
+  - |2-
+
+    これはもしかして、
+- wait:
+  - 30
+- print:
+  - ミスティ★カスミ
+  - 私たちの早とちりだったのかな？
+- touch: *o0
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_9004008_023
+- face:
+  - 114211
+  - 1
+- print:
+  - ラブリー★モニカ
+  - 彼女たちもまた、
+- wait:
+  - 40
+- print:
+  - ラブリー★モニカ
+  - 愛と希望の力を持つ存在ということか。
+- touch: *o0
+- focus:
+  - 114211
+- bust:
+  - 114211
+  - 0
+- vo:
+  - vo_adv_9004008_024
+- face:
+  - 114211
+  - 1
+- print:
+  - ラブリー★モニカ
+  - 正しく力を使うことで、
+- wait:
+  - 50
+- print:
+  - ラブリー★モニカ
+  - これからのランドソルの平和は守られ、
+- wait:
+  - 50
+- print:
+  - ラブリー★モニカ
+  - |2-
+
+    未来が作られていくのだな……
+- wait:
+  - 60
+- print:
+  - ラブリー★モニカ
+  - |2
+
+- face:
+  - 114211
+  - 2
+- print:
+  - ラブリー★モニカ
+  - 貴公、
+- wait:
+  - 30
+- print:
+  - ラブリー★モニカ
+  - 我々と共に
+- wait:
+  - 30
+- print:
+  - ラブリー★モニカ
+  - 戦い続けようではないか！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - |-
+    {0}はみんなで
+    彼女たちの力の使い方を考えたのち、活動記録を受け取って
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    次の目的地へ向かうのだった。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- se_pause:
+  - amb_adv_room_noise_01
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

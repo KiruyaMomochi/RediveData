@@ -1,0 +1,129 @@
+- title:
+  - イオの想い
+- outline:
+  - 【美食殿】ギルドハウスにて目覚めない{0}を見舞ったあと、一人物思いに耽るイオ。彼女は{0}が再び目覚めることを強く信じ、願うのだった。
+- background:
+  - 500080
+- amb:
+  - amb_adv_room_noise_01
+- situation:
+  - イオの想い
+- chara_full:
+  - 101811
+  - C
+  - 4
+- fadein:
+  - 101811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M556_04
+  - 0
+  - 0
+  - 1
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_5084619_000
+- face:
+  - 101811
+  - 4
+- print:
+  - イオ
+  - 大事な生徒がこんなことになるなんて……
+- wait:
+  - 70
+- print:
+  - イオ
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - イオ
+  - 私……
+- wait:
+  - 40
+- print:
+  - イオ
+  - どうしたらいいのかしら……？
+- touch: &o0 []
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_5084619_001
+- face:
+  - 101811
+  - 4
+- eye_open:
+  - True
+- print:
+  - イオ
+  - あの子が起きてくれるなら、
+- wait:
+  - 35
+- print:
+  - イオ
+  - 先生にできることはなんだってするわ……
+- wait:
+  - 60
+- print:
+  - イオ
+  - |2-
+
+    だから、
+- wait:
+  - 35
+- print:
+  - イオ
+  - 早くいつもの席から元気な挨拶を聞かせてちょうだい……
+- touch: *o0
+- focus:
+  - 101811
+- bust:
+  - 101811
+  - 0
+- vo:
+  - vo_adv_5084619_002
+- face:
+  - 101811
+  - 4
+- nod:
+  - 101811
+- print:
+  - イオ
+  - 先生、
+- wait:
+  - 35
+- print:
+  - イオ
+  - 学院で待ってるから……
+- wait:
+  - 50
+- print:
+  - イオ
+  - |2-
+
+    元気な君にいろんなことを教えてあげるから……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101811
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

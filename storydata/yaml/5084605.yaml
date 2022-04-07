@@ -1,0 +1,189 @@
+- title:
+  - ミソギの想い
+- outline:
+  - 【美食殿】ギルドハウスにて目覚めない{0}を見舞ったあと、一人物思いに耽るミソギ。彼女は{0}が再び目覚めることを強く信じ、願うのだった。
+- background:
+  - 500140
+- amb:
+  - amb_adv_outdoors_day_01
+- situation:
+  - ミソギの想い
+- chara_full:
+  - 100411
+  - C
+  - 1
+- fadein:
+  - 100411
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M556_04
+  - 0
+  - 0
+  - 1
+- se:
+  - se_adv_kakizome_2
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5084605_000
+- face:
+  - 100411
+  - 1
+- print:
+  - ミソギ
+  - まーるかいて、
+- wait:
+  - 55
+- nod:
+  - 100411
+- print:
+  - ミソギ
+  - ばーつかいて……
+- wait:
+  - 60
+- print:
+  - ミソギ
+  - |2
+
+- face:
+  - 100411
+  - 2
+- print:
+  - ミソギ
+  - へへへ……
+- wait:
+  - 25
+- print:
+  - ミソギ
+  - にいちゃんがいつまで経っても起きないから、
+- wait:
+  - 40
+- print:
+  - ミソギ
+  - |2-
+
+    ミソギが顔にイタズラ書きしちゃったぞー！
+- touch: &o0 []
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5084605_001
+- face:
+  - 100411
+  - 6
+- print:
+  - ミソギ
+  - …………
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5084605_002
+- face:
+  - 100411
+  - 4
+- emotion:
+  - gloomy1_R
+  - 100411
+  - 55
+  - 475
+  - se_adv_emote_gloomy_01
+- print:
+  - ミソギ
+  - ちぇー……
+- wait:
+  - 25
+- print:
+  - ミソギ
+  - ぜんぜん起きないや。
+- wait:
+  - 50
+- print:
+  - ミソギ
+  - |2-
+
+    つまんないのー……
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5084605_003
+- face:
+  - 100411
+  - 4
+- print:
+  - ミソギ
+  - ……にいちゃん。
+- wait:
+  - 20
+- print:
+  - ミソギ
+  - はやく起きてよ。
+- wait:
+  - 30
+- print:
+  - ミソギ
+  - |2
+
+- face:
+  - 100411
+  - 1
+- print:
+  - ミソギ
+  - それでさ、
+- wait:
+  - 25
+- print:
+  - ミソギ
+  - |-
+    ミソギのイタズラに驚いたり
+    笑ったりしてよ。
+- touch: *o0
+- focus:
+  - 100411
+- bust:
+  - 100411
+  - 0
+- vo:
+  - vo_adv_5084605_004
+- face:
+  - 100411
+  - 1
+- print:
+  - ミソギ
+  - ミソギ、
+- wait:
+  - 30
+- print:
+  - ミソギ
+  - ここでずっと待ってるからさ。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100411
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

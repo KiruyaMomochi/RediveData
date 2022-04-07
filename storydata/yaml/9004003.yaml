@@ -1,0 +1,1039 @@
+- title:
+  - 遠き未来のビッグボス
+- outline:
+  - 【ドラゴンズネスト】のギルドハウスを訪れた{0}は偶然居合わせたアユミと共に、イノリたちの愉快な日常を垣間見る。目的の封筒をホマレから受け取り、次の目的地へ向かったのだった。
+- background:
+  - 501320
+- se:
+  - amb_adv_room_noise_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 遠き未来のビッグボス
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - 年間活動記録をまとめるため各地を巡っていた{0}は
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    【ドラゴンズネスト】のギルドハウスを訪れていた。
+- wait:
+  - 30
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 106611
+  - C
+  - 2
+- fadein:
+  - 106611
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M468
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_9004003_000
+- face:
+  - 106611
+  - 2
+- nod:
+  - 106611
+- se:
+  - se_adv_body_sitdown_01
+- print:
+  - イノリ
+  - ふふん！　
+- wait:
+  - 30
+- print:
+  - イノリ
+  - やっぱりこの椅子はいつ座っても座り心地がいいです！
+- wait:
+  - 85
+- print:
+  - イノリ
+  - |2-
+
+    いまはボスのものですけど、
+- wait:
+  - 35
+- print:
+  - イノリ
+  - いつか必ず奪ってみせるですよ！
+- touch: *o0
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_9004003_001
+- face:
+  - 106611
+  - 6
+- print:
+  - イノリ
+  - それにしても……
+- wait:
+  - 35
+- print:
+  - イノリ
+  - 相変わらずボスはへんてこな物ばっかり机に置いて……
+- wait:
+  - 95
+- print:
+  - イノリ
+  - |2
+
+- face:
+  - 106611
+  - 1
+- print:
+  - イノリ
+  - また壊しちゃいそうで、
+- wait:
+  - 25
+- print:
+  - イノリ
+  - 落ち着いて座ってられないじゃないですか！
+- wait:
+  - 55
+- print:
+  - イノリ
+  - |2
+
+- face:
+  - 106611
+  - 3
+- print:
+  - イノリ
+  - 少しは気を遣ってほしいもんです！
+- touch: *o0
+- choice:
+  - こんにちは。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_9004003_002
+- face:
+  - 106611
+  - 7
+- pop:
+  - 106611
+- se:
+  - se_adv_rabbit_jump_01
+- print:
+  - イノリ
+  - ぴゃあああ～っ！？　
+- wait:
+  - 10
+- print:
+  - イノリ
+  - ま、
+- wait:
+  - 10
+- print:
+  - イノリ
+  - まさかボス……！？
+- wait:
+  - 15
+- print:
+  - イノリ
+  - |2
+
+- face:
+  - 106611
+  - 1
+- print:
+  - イノリ
+  - しまった、隠れなきゃ……
+- wait:
+  - 20
+- face:
+  - 106611
+  - 4
+- bgm:
+  - stop
+  - 4
+  - 1
+- print:
+  - イノリ
+  - って、
+- wait:
+  - 15
+- print:
+  - イノリ
+  - また壷が……っ！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_glass_break_01
+- se:
+  - se_adv_jar_break_01
+- wait:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M244
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_9004003_003
+- face:
+  - 106611
+  - 7
+- emotion:
+  - sweat2_R
+  - 106611
+  - 60
+  - 450
+  - se_adv_emote_sweat_02
+- print:
+  - イノリ
+  - あわわわわ……！
+- wait:
+  - 35
+- print:
+  - イノリ
+  - |2-
+
+    や、
+- wait:
+  - 10
+- print:
+  - イノリ
+  - ややや、
+- wait:
+  - 20
+- print:
+  - イノリ
+  - やっちまったですよーっ！？
+- touch: *o0
+- choice:
+  - やっちゃったね……
+  - 2
+- tag:
+  - 2
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_9004003_004
+- face:
+  - 106611
+  - 6
+- print:
+  - イノリ
+  - お兄さん！？　
+- wait:
+  - 35
+- face:
+  - 106611
+  - 1
+- print:
+  - イノリ
+  - 『やっちゃったね……』
+- wait:
+  - 20
+- face:
+  - 106611
+  - 3
+- print:
+  - イノリ
+  - じゃないですよ！
+- wait:
+  - 40
+- print:
+  - イノリ
+  - |2-
+
+    急に現れるから、
+- wait:
+  - 15
+- print:
+  - イノリ
+  - 驚いてやっちゃったじゃないですか！
+- wait:
+  - 55
+- print:
+  - イノリ
+  - |2
+
+- face:
+  - 106611
+  - 4
+- print:
+  - イノリ
+  - ど、
+- wait:
+  - 15
+- print:
+  - イノリ
+  - どうするです……？　
+- wait:
+  - 30
+- print:
+  - イノリ
+  - 絶対バレるし、
+- wait:
+  - 20
+- print:
+  - イノリ
+  - 怒られるですよ……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106611
+  - 30
+- chara_full:
+  - 105511
+  - RC
+  - 6
+- chara_full:
+  - 106611
+  - LC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105511
+- bust:
+  - 105511
+  - 0
+- vo:
+  - vo_adv_9004003_005
+- face:
+  - 105511
+  - 6
+- print:
+  - アユミ
+  - ひとまず、
+- wait:
+  - 25
+- print:
+  - アユミ
+  - 誰かが破片を踏んでケガしないように片付けて……
+- wait:
+  - 100
+- print:
+  - アユミ
+  - |2-
+
+    それから、
+- wait:
+  - 25
+- print:
+  - アユミ
+  - 素直に謝るしか……
+- touch: *o0
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_9004003_006
+- face:
+  - 106611
+  - 7
+- emotion:
+  - surprise1_L
+  - 106611
+  - 155
+  - 500
+  - se_adv_emote_common_01
+- print:
+  - イノリ
+  - ぴやあああ～～～っ！？　
+- wait:
+  - 30
+- print:
+  - イノリ
+  - 今度こそボス！？
+- wait:
+  - 40
+- print:
+  - イノリ
+  - |2
+
+- face:
+  - 106611
+  - 6
+- print:
+  - イノリ
+  - って、
+- wait:
+  - 30
+- print:
+  - イノリ
+  - アユミじゃないですか！？
+- wait:
+  - 30
+- print:
+  - イノリ
+  - |2-
+
+    いったいどこから出てきたです？
+- touch: *o0
+- focus:
+  - 105511
+- bust:
+  - 105511
+  - 0
+- vo:
+  - vo_adv_9004003_007
+- face:
+  - 105511
+  - 4
+- print:
+  - アユミ
+  - ご、
+- wait:
+  - 10
+- nod:
+  - 105511
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - アユミ
+  - ごめんなさい！　
+- wait:
+  - 30
+- print:
+  - アユミ
+  - 先輩を見つめていたら、
+- wait:
+  - 25
+- print:
+  - アユミ
+  - ついここまで……
+- wait:
+  - 65
+- print:
+  - アユミ
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - アユミ
+  - すみません、
+- wait:
+  - 25
+- eye_open:
+  - True
+- print:
+  - アユミ
+  - 存在感が薄くて……
+- touch: *o0
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_9004003_008
+- face:
+  - 106611
+  - 1
+- print:
+  - イノリ
+  - 相変わらずですねアユミは……
+- wait:
+  - 60
+- face:
+  - 106611
+  - 6
+- print:
+  - イノリ
+  - って、
+- wait:
+  - 15
+- print:
+  - イノリ
+  - |2-
+
+    そんなこと言ってる場合じゃなかったです！
+- wait:
+  - 35
+- print:
+  - イノリ
+  - |2-
+
+    ボスに気づかれる前に片付けないと……！
+- touch: *o0
+- choice:
+  - 隠してもバレるような……
+  - 3
+- tag:
+  - 3
+- window_visible:
+  - false
+- fadeout:
+  - 105511
+  - 30
+- chara_full:
+  - 106511
+  - R
+  - 6
+- se:
+  - se_adv_step_wood_walk_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - R
+  - 45
+- fadein:
+  - 106511
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 106511
+- bust:
+  - 106511
+  - 0
+- vo:
+  - vo_adv_9004003_009
+- face:
+  - 106511
+  - 6
+- print:
+  - カヤ
+  - キミの言う通りだな。
+- wait:
+  - 50
+- print:
+  - カヤ
+  - |2
+
+- face:
+  - 106511
+  - 1
+- print:
+  - カヤ
+  - イノリはいつもそうやって失敗するんだから
+- wait:
+  - 45
+- print:
+  - カヤ
+  - |2-
+
+    今回は素直に謝っちまえばいいんじゃないか？
+- touch: *o0
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_9004003_010
+- face:
+  - 106611
+  - 7
+- emotion:
+  - surprise1_L
+  - 106611
+  - 155
+  - 500
+  - se_adv_emote_common_01
+- print:
+  - イノリ
+  - ぴゃっ！？　
+- wait:
+  - 30
+- face:
+  - 106611
+  - 6
+- print:
+  - イノリ
+  - ……今度はカヤぴぃですか。
+- wait:
+  - 65
+- print:
+  - イノリ
+  - |2
+
+- face:
+  - 106611
+  - 3
+- print:
+  - イノリ
+  - まったく
+- wait:
+  - 20
+- print:
+  - イノリ
+  - みんなビビりで困るですよ！
+- wait:
+  - 50
+- print:
+  - イノリ
+  - |2
+
+- face:
+  - 106611
+  - 2
+- print:
+  - イノリ
+  - バレなきゃいいわけですから、
+- wait:
+  - 30
+- print:
+  - イノリ
+  - さっさと片付けて、知らんぷりすれば……
+- touch: *o0
+- focus:
+  - 106511
+- bust:
+  - 106511
+  - 0
+- vo:
+  - vo_adv_9004003_011
+- face:
+  - 106511
+  - 6
+- print:
+  - カヤ
+  - だそうだけど……
+- wait:
+  - 50
+- print:
+  - カヤ
+  - |2-
+
+    どうする、
+- wait:
+  - 20
+- print:
+  - カヤ
+  - ボス？
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106711
+  - C
+  - 4
+- fadein:
+  - 106711
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M274
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_9004003_012
+- face:
+  - 106711
+  - 4
+- print:
+  - ホマレ
+  - う～ん、
+- wait:
+  - 25
+- print:
+  - ホマレ
+  - そうだね～
+- wait:
+  - 65
+- print:
+  - ホマレ
+  - |2
+
+- face:
+  - 106711
+  - 6
+- print:
+  - ホマレ
+  - 多少なりとも誠意を見せてくれたなら
+- wait:
+  - 75
+- print:
+  - ホマレ
+  - |2-
+
+    情状酌量の余地はあったんだけどな～
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_9004003_013
+- face:
+  - 106711
+  - 1
+- nod:
+  - 106711
+- print:
+  - ホマレ
+  - イノリちゃん？
+- wait:
+  - 25
+- print:
+  - ホマレ
+  - |2-
+
+    ちょっと奥の部屋、
+- wait:
+  - 35
+- print:
+  - ホマレ
+  - いこっか☆
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106711
+  - 30
+- chara_full:
+  - 106711
+  - RC
+  - 1
+- chara_full:
+  - 106611
+  - LC
+  - 7
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_9004003_014
+- face:
+  - 106611
+  - 7
+- emotion:
+  - sweat2_R
+  - 106611
+  - 60
+  - 450
+  - se_adv_emote_sweat_02
+- print:
+  - イノリ
+  - ぴぃいいい～っ！
+- wait:
+  - 55
+- print:
+  - イノリ
+  - |2-
+
+    お兄さん、
+- wait:
+  - 35
+- print:
+  - イノリ
+  - 助けるですよぉ～っ！
+- wait:
+  - 45
+- print:
+  - イノリ
+  - |2
+
+- face:
+  - 106611
+  - 3
+- print:
+  - イノリ
+  - お兄さんが急に現れなければ、
+- wait:
+  - 25
+- print:
+  - イノリ
+  - こうはならなかったんですから～っ！
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_9004003_015
+- face:
+  - 106711
+  - 6
+- print:
+  - ホマレ
+  - それは違うと思うな～
+- wait:
+  - 65
+- print:
+  - ホマレ
+  - |2
+
+- face:
+  - 106711
+  - 1
+- print:
+  - ホマレ
+  - そもそもイノリちゃんが
+- wait:
+  - 30
+- print:
+  - ホマレ
+  - 勝手に私の部屋に入らなければ
+- wait:
+  - 50
+- print:
+  - ホマレ
+  - |2-
+
+    何も起こらなかったわけだからね～☆
+- touch: *o0
+- focus:
+  - 106611
+- bust:
+  - 106611
+  - 0
+- vo:
+  - vo_adv_9004003_016
+- face:
+  - 106611
+  - 4
+- print:
+  - イノリ
+  - くぅぅ……
+- shake:
+  - 106611
+- wait:
+  - 70
+- print:
+  - イノリ
+  - しんどいのはいやですからね！？
+- wait:
+  - 45
+- print:
+  - イノリ
+  - |2-
+
+    お手柔らかにするですよ！？
+- touch: *o0
+- focus:
+  - 106711
+- bust:
+  - 106711
+  - 0
+- vo:
+  - vo_adv_9004003_017
+- face:
+  - 106711
+  - 1
+- print:
+  - ホマレ
+  - あ、
+- wait:
+  - 15
+- print:
+  - ホマレ
+  - そうだ。{0}くん、
+- wait:
+  - 35
+- nod:
+  - 106711
+- se:
+  - se_adv_paper_move_01
+- print:
+  - ホマレ
+  - はいこれ。
+- wait:
+  - 40
+- print:
+  - ホマレ
+  - |2-
+
+    ギルド管理協会から依頼があった
+- wait:
+  - 45
+- print:
+  - ホマレ
+  - 活動記録だよ。
+- wait:
+  - 60
+- print:
+  - ホマレ
+  - |2
+
+- face:
+  - 106711
+  - 2
+- print:
+  - ホマレ
+  - それじゃあまたね～♪
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_wood_walk_go_01
+- change:
+  - RC
+  - R
+  - 30
+- change:
+  - LC
+  - C
+  - 30
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106511
+  - C
+  - 2
+- fadein:
+  - 106511
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106511
+- bust:
+  - 106511
+  - 0
+- vo:
+  - vo_adv_9004003_018
+- face:
+  - 106511
+  - 2
+- print:
+  - カヤ
+  - ははっ！　
+- wait:
+  - 30
+- print:
+  - カヤ
+  - 相変わらずだなイノリは。
+- wait:
+  - 70
+- print:
+  - カヤ
+  - |2
+
+- face:
+  - 106511
+  - 1
+- print:
+  - カヤ
+  - ビッグボスになる未来なんて、
+- wait:
+  - 30
+- print:
+  - カヤ
+  - ホントに来るのかねぇ？
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 106511
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - 【ドラゴンズネスト】の日常を垣間見つつ
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    みんなのこれからを想像しながら
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    {0}は次の目的地へ向かうのだった。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 1
+  - 1
+- se_pause:
+  - amb_adv_room_noise_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

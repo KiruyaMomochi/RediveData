@@ -1,0 +1,1965 @@
+- title:
+  - 完全なる理解は誤解
+- outline:
+  - 突然ハツネの魔法を完全に理解したと言い出すナナカ。勢いよく魔法を繰り出すもそれは普通の魔法だった。改めてコツを聞き、ハツネと一緒に魔法を繰り出したナナカは何故か見知らぬ森に飛ばされる。
+- background:
+  - 500430
+- se:
+  - amb_adv_guildhouse_mist_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 完全なる理解は誤解
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - ルナの塔を順調に登っていく{0}たちだったが、
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    不意にナナカが立ち止まり──
+- wait:
+  - 30
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 101211
+  - LC
+  - 1
+- chara_full:
+  - 101311
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M157_Inside
+  - 0
+  - 0
+  - 1
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022002_000
+- face:
+  - 101311
+  - 1
+- emotion:
+  - notice2_L
+  - 101311
+  - -130
+  - 535
+  - se_adv_emote_nortice_01
+- print:
+  - ナナカ
+  - あー
+- wait:
+  - 35
+- print:
+  - ナナカ
+  - なるほど。
+- wait:
+  - 35
+- eye_open:
+  - False
+- print:
+  - ナナカ
+  - そういうことね。
+- wait:
+  - 40
+- print:
+  - ナナカ
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - ナナカ
+  - 完全に理解した。
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_7022002_001
+- face:
+  - 101211
+  - 6
+- print:
+  - ハツネ
+  - ナナカちゃん？
+- wait:
+  - 30
+- print:
+  - ハツネ
+  - |2-
+
+    いきなりどうしたの。
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022002_002
+- face:
+  - 101311
+  - 2
+- print:
+  - ナナカ
+  - ハツネたその魔法の秘密が分かっちゃったんだよ！
+- touch: *o0
+- face:
+  - 101311
+  - 1
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_7022002_003
+- face:
+  - 101211
+  - 6
+- print:
+  - ハツネ
+  - え？　
+- wait:
+  - 30
+- pop:
+  - 101211
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - ハツネ
+  - え～～～～！？
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_7022002_004
+- face:
+  - 101211
+  - 6
+- emotion:
+  - sweat2_R
+  - 101211
+  - 80
+  - 520
+  - se_adv_emote_sweat_02
+- print:
+  - ハツネ
+  - 私、
+- wait:
+  - 30
+- print:
+  - ハツネ
+  - 普通の魔法しか使ってないよ？
+- wait:
+  - 60
+- print:
+  - ハツネ
+  - |2
+
+- face:
+  - 101211
+  - 4
+- print:
+  - ハツネ
+  - 使って……
+- wait:
+  - 45
+- print:
+  - ハツネ
+  - ないよね？
+- touch: *o0
+- choice:
+  - うん。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022002_005
+- face:
+  - 101311
+  - 1
+- print:
+  - ナナカ
+  - ハツネたそをつぶさに観察すれば
+- wait:
+  - 55
+- print:
+  - ナナカ
+  - |2
+
+- face:
+  - 101311
+  - 2
+- print:
+  - ナナカ
+  - 普通の魔法からでも
+- wait:
+  - 25
+- print:
+  - ナナカ
+  - 分かることはありますとも。
+- touch: *o0
+- face:
+  - 101311
+  - 1
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_7022002_006
+- face:
+  - 101211
+  - 6
+- print:
+  - ハツネ
+  - 何が分かったのかな？
+- touch: *o0
+- bgm:
+  - stop
+  - 1.5
+  - 1
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- text_size:
+  - 50
+- change_window:
+  - 3
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M127_Inside
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- effect:
+  - 9
+- print:
+  - 魔物
+  - ──グオオオオオッ！
+- shake_screen: *o0
+- touch: *o0
+- window_visible:
+  - FALSE
+- text_size:
+  - 23
+- change_window:
+  - 1
+- fadeout:
+  - 1611
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 101211
+  - LC
+  - 6
+- chara_full:
+  - 101311
+  - RC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022002_007
+- face:
+  - 101311
+  - 2
+- print:
+  - ナナカ
+  - おお、
+- wait:
+  - 25
+- print:
+  - ナナカ
+  - ちょうどいいところに。
+- wait:
+  - 39
+- print:
+  - ナナカ
+  - |2
+
+- face:
+  - 101311
+  - 1
+- print:
+  - ナナカ
+  - 今見せるから
+- wait:
+  - 25
+- print:
+  - ナナカ
+  - 見ていてくだされ。
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_7022002_008
+- face:
+  - 101211
+  - 6
+- print:
+  - ハツネ
+  - う、
+- wait:
+  - 15
+- nod:
+  - 101211
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - ハツネ
+  - うん……！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- chara_full:
+  - 101311
+  - C
+  - 3
+  - 1
+- fadein:
+  - 101311
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022002_009
+- face:
+  - 101311
+  - 3
+- print:
+  - ナナカ
+  - すぅ～～
+- wait:
+  - 70
+- eye_open:
+  - True
+- print:
+  - ナナカ
+  - はぁ～～……
+- touch: *o0
+- window_visible:
+  - FALSE
+- text_size:
+  - 38
+- window_visible:
+  - true
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022002_010
+- face:
+  - 101311
+  - 2
+- emotion:
+  - twinkle1_R
+  - 101311
+  - -110
+  - 505
+  - se_adv_emote_twinkle_01
+- print:
+  - ナナカ
+  - きらーんっ☆
+- touch: *o0
+- window_visible:
+  - FALSE
+- text_size:
+  - 23
+- fadeout:
+  - 101311
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0075
+  - se_adv_magic_wind_medium_01
+- wait:
+  - 30
+- background:
+  - 500430
+- chara_full:
+  - 1611
+  - C
+  - 1
+- fadein:
+  - 1611
+  - 30
+- se:
+  - se_adv_creature_cmn_04
+- window_visible:
+  - TRUE
+- bgm:
+  - stop
+  - 5.5
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物
+  - ──ギャオオオオオッ！
+- shake:
+  - 1611
+- touch: *o0
+- window_visible:
+  - FALSE
+- updown:
+  - 1611
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1611
+  - 30
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 101211
+  - LC
+  - 6
+- chara_full:
+  - 101311
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M203_Inside
+  - 0
+  - 0
+  - 1
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_7022002_011
+- face:
+  - 101211
+  - 6
+- print:
+  - ハツネ
+  - えっと、
+- wait:
+  - 40
+- print:
+  - ハツネ
+  - 今までと変わらない魔法……
+- wait:
+  - 70
+- print:
+  - ハツネ
+  - だったよね？
+- touch: *o0
+- window_visible:
+  - FALSE
+- text_size:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022002_012
+- face:
+  - 101311
+  - 2
+- nod:
+  - 101311
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - ナナカ
+  - そのとーーり！！
+- touch: *o0
+- choice:
+  - 結局何が分かったの？
+  - 2
+- tag:
+  - 2
+- window_visible:
+  - FALSE
+- change_window:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022002_013
+- face:
+  - 101311
+  - 2
+- print:
+  - ナナカ
+  - 何も分からないということが分かりました！！！！
+- touch: *o0
+- face:
+  - 101311
+  - 1
+- window_visible:
+  - FALSE
+- change_window:
+  - 1
+- text_size:
+  - 23
+- window_visible:
+  - true
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_7022002_014
+- face:
+  - 101211
+  - 6
+- emotion:
+  - question1_R
+  - 101211
+  - 90
+  - 510
+  - se_adv_emote_question_01
+- print:
+  - ハツネ
+  - へ？
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022002_015
+- face:
+  - 101311
+  - 1
+- print:
+  - ナナカ
+  - いやー
+- wait:
+  - 25
+- print:
+  - ナナカ
+  - ハツネたその普通の魔法から
+- wait:
+  - 35
+- print:
+  - ナナカ
+  - |2-
+
+    何かつかめるんじゃないかと思ってたけど、
+- wait:
+  - 45
+- print:
+  - ナナカ
+  - |2
+
+- face:
+  - 101311
+  - 2
+- print:
+  - ナナカ
+  - 全然無理だったね。
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022002_016
+- face:
+  - 101311
+  - 6
+- print:
+  - ナナカ
+  - 形から入ってみようとしたんだけど、
+- wait:
+  - 50
+- print:
+  - ナナカ
+  - |2
+
+- face:
+  - 101311
+  - 4
+- print:
+  - ナナカ
+  - うーん、
+- wait:
+  - 25
+- print:
+  - ナナカ
+  - 今のもやっぱりちょっと違ったかな……
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022002_017
+- face:
+  - 101311
+  - 2
+- print:
+  - ナナカ
+  - きらーんっ★　
+- wait:
+  - 30
+- face:
+  - 101311
+  - 3
+- print:
+  - ナナカ
+  - キラーン！　
+- wait:
+  - 35
+- face:
+  - 101311
+  - 4
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - ナナカ
+  - 綺羅ーん♪
+- wait:
+  - 45
+- print:
+  - ナナカ
+  - |2
+
+- nod:
+  - 101311
+- face:
+  - 101311
+  - 6
+- print:
+  - ナナカ
+  - ……うん、
+- wait:
+  - 30
+- print:
+  - ナナカ
+  - 離れていっちゃってるね。
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022002_018
+- face:
+  - 101311
+  - 1
+- print:
+  - ナナカ
+  - ちなみにハツネたそ。
+- wait:
+  - 30
+- print:
+  - ナナカ
+  - |2-
+
+    あの魔法を繰り出すときに
+- wait:
+  - 30
+- print:
+  - ナナカ
+  - 何か考えていることはある？
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_7022002_019
+- face:
+  - 101211
+  - 4
+- print:
+  - ハツネ
+  - 考えてること？　
+- wait:
+  - 60
+- eye_open:
+  - False
+- print:
+  - ハツネ
+  - う～ん……
+- wait:
+  - 50
+- eye_open:
+  - True
+- face:
+  - 101211
+  - 6
+- print:
+  - ハツネ
+  - あ！
+- wait:
+  - 25
+- print:
+  - ハツネ
+  - |2-
+
+    そういえば
+- wait:
+  - 25
+- print:
+  - ハツネ
+  - 誰かのためにって考えてることが多い、
+- wait:
+  - 65
+- print:
+  - ハツネ
+  - かな？
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022002_020
+- face:
+  - 101311
+  - 6
+- emotion:
+  - exclamation1_R
+  - 101311
+  - 20
+  - 625
+  - se_adv_emote_common_01
+- print:
+  - ナナカ
+  - はっ！！　
+- wait:
+  - 15
+- print:
+  - ナナカ
+  - た、
+- wait:
+  - 20
+- print:
+  - ナナカ
+  - 確かに言われてみれば、
+- wait:
+  - 40
+- print:
+  - ナナカ
+  - |2-
+
+    魔法少女の魔法は誰かのために使うもの。
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022002_021
+- face:
+  - 101311
+  - 4
+- print:
+  - ナナカ
+  - ナナカちゃんとしたことが
+- wait:
+  - 45
+- print:
+  - ナナカ
+  - 一番大切なことを忘れてたよ。
+- wait:
+  - 75
+- print:
+  - ナナカ
+  - |2
+
+- face:
+  - 101311
+  - 1
+- print:
+  - ナナカ
+  - そうだよね。
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 1614
+  - C
+  - 1
+- fadein:
+  - 1614
+  - 30
+- text_size:
+  - 50
+- change_window:
+  - 3
+- se:
+  - se_adv_creature_cmn_04
+- window_visible:
+  - true
+- bgm:
+  - bgm_M126_Inside
+- focus:
+  - 1614
+- bust:
+  - 1614
+  - 0
+- face:
+  - 1614
+  - 1
+- effect:
+  - 9
+- print:
+  - 魔物
+  - ──グオオオオオッ！
+- shake_screen: *o0
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 23
+- change_window:
+  - 1
+- fadeout:
+  - 1614
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 101311
+  - C
+  - 1
+- fadein:
+  - 101311
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022002_022
+- face:
+  - 101311
+  - 1
+- nod:
+  - 101311
+- se:
+  - se_adv_step_concrete_move_01
+- print:
+  - ナナカ
+  - 私、
+- wait:
+  - 25
+- print:
+  - ナナカ
+  - 心を込めて魔法を放つよ。
+- wait:
+  - 55
+- print:
+  - ナナカ
+  - |2-
+
+    {0}君の記憶の手がかりのために。
+- wait:
+  - 30
+- print:
+  - ナナカ
+  - |2
+
+- face:
+  - 101311
+  - 2
+- print:
+  - ナナカ
+  - そして、
+- wait:
+  - 20
+- print:
+  - ナナカ
+  - ランドソルの平和のために。
+- touch: *o0
+- window_visible:
+  - FALSE
+- text_size:
+  - 38
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- window_visible:
+  - true
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022002_023
+- face:
+  - 101311
+  - 1
+- print:
+  - ナナカ
+  - 今、
+- wait:
+  - 40
+- print:
+  - ナナカ
+  - 渾身の……
+- wait:
+  - 60
+- face:
+  - 101311
+  - 2
+- print:
+  - ナナカ
+  - きらーんっ☆
+- touch: *o0
+- window_visible:
+  - FALSE
+- effect_delete:
+  - 0022
+  - 15
+- text_size:
+  - 23
+- fadeout:
+  - 101311
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0075
+  - se_adv_magic_wind_medium_01
+- wait:
+  - 30
+- background:
+  - 500430
+- chara_full:
+  - 1614
+  - C
+  - 1
+- fadein:
+  - 1614
+  - 30
+- se:
+  - se_adv_creature_cmn_04
+- window_visible:
+  - TRUE
+- bgm:
+  - stop
+  - 6
+- focus:
+  - 1614
+- bust:
+  - 1614
+  - 0
+- face:
+  - 1614
+  - 1
+- print:
+  - 魔物
+  - ──ギャオオオオオッ！
+- shake:
+  - 1614
+- touch: *o0
+- window_visible:
+  - FALSE
+- updown:
+  - 1614
+  - 0
+  - -150
+  - 0.2
+- fadeout:
+  - 1614
+  - 30
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 101311
+  - C
+  - 3
+- fadein:
+  - 101311
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022002_024
+- face:
+  - 101311
+  - 3
+- print:
+  - ナナカ
+  - やったか！？
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 101311
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- se:
+  - se_adv_creature_cmn_group_02
+- chara_full:
+  - 1611
+  - C
+  - 1
+- chara_full:
+  - 1612
+  - L
+  - 1
+- chara_full:
+  - 1613
+  - R
+  - 1
+- wait:
+  - 15
+- fadein:
+  - 1611
+  - 30
+- wait:
+  - 15
+- fadein:
+  - 1612
+  - 30
+- wait:
+  - 15
+- fadein:
+  - 1613
+  - 30
+- change_window:
+  - 3
+- text_size:
+  - 50
+- se:
+  - se_adv_creature_cmn_05
+- window_visible:
+  - true
+- bgm:
+  - bgm_M433
+  - 0
+  - 0
+  - 1
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- effect:
+  - 9
+- print:
+  - 魔物たち
+  - ──グオオオオオッ！
+- shake_screen: *o0
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- fadeout_all:
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 101211
+  - LC
+  - 6
+- chara_full:
+  - 101311
+  - RC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022002_025
+- face:
+  - 101311
+  - 2
+- print:
+  - ナナカ
+  - いやー
+- wait:
+  - 20
+- print:
+  - ナナカ
+  - セオリー通りのご登場ありがとうございます。
+- wait:
+  - 70
+- print:
+  - ナナカ
+  - |2
+
+- face:
+  - 101311
+  - 1
+- print:
+  - ナナカ
+  - でも、
+- wait:
+  - 20
+- print:
+  - ナナカ
+  - 初心に帰った魔法少女ナナカちゃんの敵じゃないよ！
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022002_026
+- face:
+  - 101311
+  - 1
+- print:
+  - ナナカ
+  - さぁ、
+- wait:
+  - 30
+- print:
+  - ナナカ
+  - ハツネたそも一緒に
+- wait:
+  - 20
+- print:
+  - ナナカ
+  - |2-
+
+    魔法を放って
+- wait:
+  - 20
+- print:
+  - ナナカ
+  - ナナカちゃんを応援しよう！！
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_7022002_027
+- face:
+  - 101211
+  - 6
+- emotion:
+  - surprise1_L
+  - 101211
+  - 145
+  - 545
+  - se_adv_emote_common_01
+- print:
+  - ハツネ
+  - えっ！？
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022002_028
+- face:
+  - 101311
+  - 2
+- nod:
+  - 101311
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ナナカ
+  - さぁ！！！！
+- touch: *o0
+- face:
+  - 101311
+  - 1
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_7022002_029
+- face:
+  - 101211
+  - 6
+- print:
+  - ハツネ
+  - う、
+- wait:
+  - 25
+- print:
+  - ハツネ
+  - うん……！
+- touch: *o0
+- window_visible:
+  - FALSE
+- text_size:
+  - 50
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- focus:
+  - 101211:101311
+- window_visible:
+  - TRUE
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_7022002_030
+- multi_talk:
+  - 101211:101311
+- face:
+  - 1
+  - 1
+- face:
+  - 101211
+  - 2
+- face:
+  - 101311
+  - 2
+- print:
+  - ナナカ・ハツネ
+  - きらーんっ☆
+- touch: *o0
+- window_visible:
+  - FALSE
+- effect_delete:
+  - 0022
+  - 15
+- text_size:
+  - 23
+- fadeout_all:
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0075
+  - se_adv_magic_wind_medium_01
+  - 0
+  - R
+- wait:
+  - 15
+- effect:
+  - 0072
+  - se_adv_magic_holy_medium_01
+  - 0
+  - L
+- wait:
+  - 30
+- white_out:
+  - 1
+  - 0.5
+- se:
+  - se_adv_magic_hatsune_01
+- bg_color:
+  - 255
+  - 255
+  - 255
+- wait:
+  - 15
+- white_in: *o0
+- change_window:
+  - 3
+- text_size:
+  - 50
+- window_visible:
+  - TRUE
+- se:
+  - se_adv_creature_cmn_04
+- bgm:
+  - stop
+  - 9
+  - 1
+- focus:
+  - 1611
+- bust:
+  - 1611
+  - 0
+- face:
+  - 1611
+  - 1
+- print:
+  - 魔物たち
+  - ──ギャオオオオオッ！
+- touch: *o0
+- window_visible:
+  - FALSE
+- change_window:
+  - 1
+- text_size:
+  - 23
+- white_out:
+  - 1
+  - 0.5
+- background:
+  - 500430
+- wait:
+  - 15
+- white_in: *o0
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 101211
+  - C
+  - 2
+- fadein:
+  - 101211
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M157_Inside
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_7022002_031
+- face:
+  - 101211
+  - 2
+- print:
+  - ハツネ
+  - すごいよナナカちゃん！
+- wait:
+  - 45
+- print:
+  - ハツネ
+  - |2
+
+- face:
+  - 101211
+  - 6
+- print:
+  - ハツネ
+  - 私も見たことのない超の……
+- wait:
+  - 50
+- face:
+  - 101211
+  - 1
+- print:
+  - ハツネ
+  - 魔法が出たよ！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 101211
+  - 30
+- chara_full:
+  - 101211
+  - LC
+  - 1
+- chara_full:
+  - 811
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_7022002_032
+- face:
+  - 811
+  - 4
+- print:
+  - ごろつき１
+  - あん？
+- touch: *o0
+- bgm:
+  - stop
+  - 4.5
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_7022002_033
+- face:
+  - 101211
+  - 6
+- nod:
+  - 101211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ハツネ
+  - ナナカ…………
+- wait:
+  - 50
+- print:
+  - ハツネ
+  - ちゃん？
+- touch: *o0
+- bgm:
+  - bgm_M11
+  - 0
+  - 0
+  - 1
+- focus:
+  - 811
+- bust:
+  - 811
+  - 0
+- vo:
+  - vo_adv_7022002_034
+- face:
+  - 811
+  - 3
+- print:
+  - ごろつき１
+  - んだてめぇら。
+- wait:
+  - 60
+- print:
+  - ごろつき１
+  - |2-
+
+    それにここはどこだ……？
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_7022002_035
+- face:
+  - 101211
+  - 6
+- emotion:
+  - surprise1_L
+  - 101211
+  - 145
+  - 545
+  - se_adv_emote_common_01
+- print:
+  - ハツネ
+  - え～～～～！？
+- wait:
+  - 30
+- print:
+  - ハツネ
+  - |2
+
+- face:
+  - 101211
+  - 4
+- print:
+  - ハツネ
+  - ナナカちゃんがグレちゃった～～！？
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - 消えたナナカ。突然現れたごろつき。
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    塔探索は波乱の展開を迎えるのであった。
+- wait:
+  - 30
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
+- window_visible:
+  - FALSE
+- vo_effect:
+  - 0
+- se_pause:
+  - amb_adv_guildhouse_mist_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- bg_pan:
+  - 0
+  - 0
+  - 0
+- bg_color:
+  - 0
+  - 0
+  - 0
+- wait:
+  - 15
+- black_in: *o0
+- se:
+  - se_adv_magic_cmn_warp_01
+- white_out:
+  - 1
+  - 0.2
+- background:
+  - 500170
+- wait:
+  - 15
+- se:
+  - amb_adv_forest_01
+- white_in: *o0
+- chara_full:
+  - 101311
+  - C
+  - 6
+- fadein:
+  - 101311
+  - 30
+- change_window:
+  - 3
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M244
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022002_036
+- face:
+  - 101311
+  - 6
+- emotion:
+  - sweat2_R
+  - 101311
+  - 105
+  - 510
+  - se_adv_emote_sweat_02
+- print:
+  - ナナカ
+  - ここはどこでござるかーー！？
+- wait:
+  - 75
+- print:
+  - ナナカ
+  - |2-
+
+    ハツネたそ～～！　
+- wait:
+  - 65
+- print:
+  - ナナカ
+  - '{0}君～～！'
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 101311
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 911
+  - C
+  - 6
+- fadein:
+  - 911
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 911
+- bust:
+  - 911
+  - 0
+- vo:
+  - vo_adv_7022002_037
+- face:
+  - 911
+  - 6
+- print:
+  - ごろつき２
+  - な、
+- wait:
+  - 20
+- print:
+  - ごろつき２
+  - なんだテメェは！？
+- wait:
+  - 25
+- print:
+  - ごろつき２
+  - |2-
+
+    いきなり現れやがって！　
+- wait:
+  - 30
+- face:
+  - 911
+  - 3
+- print:
+  - ごろつき２
+  - オレサマの子分をどこにやりやがった！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 911
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 1511
+  - LC
+  - 4
+- chara_full:
+  - 411
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- focus:
+  - 411:1511
+- text_size:
+  - 30
+- window_visible:
+  - TRUE
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_7022002_038
+- multi_talk:
+  - 411:1511
+- face:
+  - 1
+  - 1
+- print:
+  - 村人たち
+  - た、
+- wait:
+  - 25
+- print:
+  - 村人たち
+  - 助けて～～！
+- touch: *o0
+- window_visible:
+  - FALSE
+- text_size:
+  - 23
+- change_window:
+  - 1
+- fadeout_all:
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 101311
+  - C
+  - 4
+- fadein:
+  - 101311
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022002_039
+- face:
+  - 101311
+  - 4
+- print:
+  - ナナカ
+  - 何がなんだか分からないでござるが、
+- wait:
+  - 40
+- print:
+  - ナナカ
+  - |2
+
+- face:
+  - 101311
+  - 3
+- print:
+  - ナナカ
+  - 魔法少女ナナカちゃんの魔法は誰かのために！！
+- wait:
+  - 80
+- print:
+  - ナナカ
+  - |2
+
+- nod:
+  - 101311
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - ナナカ
+  - いくぞー！
+- touch: *o0
+- focus:
+  - 101311
+- bust:
+  - 101311
+  - 0
+- vo:
+  - vo_adv_7022002_040
+- face:
+  - 101311
+  - 1
+- print:
+  - ナナカ
+  - 魔法少女ナナカちゃんの今後の活躍に
+- wait:
+  - 55
+- print:
+  - ナナカ
+  - 乞うご期待！！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 101311
+  - 30
+- se_pause:
+  - amb_adv_forest_01
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

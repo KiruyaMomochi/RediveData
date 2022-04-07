@@ -1,0 +1,774 @@
+- title:
+  - 熱いエールを君に
+- outline:
+  - ライブ会場を訪れた{0}。カルミナの３人とミサト、ハツネから依頼のための封筒を受け取ると、彼女たちのあたたかな応援を受けながら、次の目的地へと歩みを進めるのだった。
+- background:
+  - 500584
+- se:
+  - amb_adv_outdoors_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 熱いエールを君に
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - |-
+    次の調査先として、カルミナのライブ会場へとやってきた
+    {0}──
+- wait:
+  - 30
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 104211
+  - L
+  - 1
+- chara_full:
+  - 102913
+  - C
+  - 1
+- chara_full:
+  - 105411
+  - R
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M497
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 102913
+- bust:
+  - 102913
+  - 0
+- vo:
+  - vo_adv_9004006_000
+- face:
+  - 102913
+  - 1
+- emotion:
+  - notice1_L
+  - 102913
+  - -75
+  - 500
+  - se_adv_emote_common_01
+- print:
+  - ノゾミ
+  - あっ、
+- wait:
+  - 25
+- print:
+  - ノゾミ
+  - やっと来た～！　
+- wait:
+  - 35
+- face:
+  - 102913
+  - 2
+- print:
+  - ノゾミ
+  - おつかれさまっ。
+- wait:
+  - 25
+- print:
+  - ノゾミ
+  - |2
+
+- face:
+  - 102913
+  - 1
+- print:
+  - ノゾミ
+  - もうそろそろ来る頃かな～って思ってたんだ！
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_9004006_001
+- face:
+  - 105411
+  - 3
+- nod:
+  - 105411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ツムギ
+  - まったく、
+- wait:
+  - 25
+- print:
+  - ツムギ
+  - 騎士さんくらいのものですよ？
+- wait:
+  - 40
+- print:
+  - ツムギ
+  - |2-
+
+    私たちのリハーサル中に時間を取ってもらえるなんて。
+- wait:
+  - 55
+- print:
+  - ツムギ
+  - |2
+
+- face:
+  - 105411
+  - 1
+- print:
+  - ツムギ
+  - 光栄に思ってくださいね。
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_9004006_002
+- face:
+  - 104211
+  - 2
+- print:
+  - チカ
+  - ふふっ。
+- wait:
+  - 45
+- face:
+  - 104211
+  - 1
+- print:
+  - チカ
+  - そういうツムギも、
+- wait:
+  - 35
+- print:
+  - チカ
+  - 今日は騎士さんが来ないか
+- wait:
+  - 30
+- print:
+  - チカ
+  - |2-
+
+    会場の入り口をそわそわ気にしながら待ってたんですよ。
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_9004006_003
+- face:
+  - 105411
+  - 5
+- emotion:
+  - shy1_R
+  - 105411
+  - -110
+  - 470
+  - se_adv_emote_shy_01
+- print:
+  - ツムギ
+  - ちょっとチカさんっ！？
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_9004006_004
+- face:
+  - 104211
+  - 1
+- print:
+  - チカ
+  - ギルド管理協会から話は伺っています。
+- wait:
+  - 70
+- print:
+  - チカ
+  - |2-
+
+    必要な書類を持ってきますので、
+- wait:
+  - 40
+- print:
+  - チカ
+  - 少し待っててくださいね。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_walk_go_01
+- fadeout_all:
+  - 30
+- chara_full:
+  - 102913
+  - LC
+  - 1
+- chara_full:
+  - 105411
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- choice:
+  - 賑やかだね。
+  - 1
+- tag:
+  - 1
+- window_visible:
+  - true
+- focus:
+  - 102913
+- bust:
+  - 102913
+  - 0
+- vo:
+  - vo_adv_9004006_005
+- face:
+  - 102913
+  - 2
+- print:
+  - ノゾミ
+  - うん！　
+- wait:
+  - 20
+- face:
+  - 102913
+  - 1
+- print:
+  - ノゾミ
+  - 今度大きなステージに出演する予定があって、
+- wait:
+  - 45
+- print:
+  - ノゾミ
+  - |2-
+
+    それに向けてリハーサルしてたんだ。
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_9004006_006
+- face:
+  - 105411
+  - 1
+- print:
+  - ツムギ
+  - それで、
+- wait:
+  - 15
+- print:
+  - ツムギ
+  - 曲に合わせたライブの演出を考えるために
+- wait:
+  - 45
+- print:
+  - ツムギ
+  - |2-
+
+    アドバイザーの方をお呼びすることにしたんです。
+- wait:
+  - 40
+- print:
+  - ツムギ
+  - |2-
+
+    衣装とか演出とか、
+- wait:
+  - 35
+- print:
+  - ツムギ
+  - いろいろ参考にしたくって。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 101211
+  - LC
+  - 1
+- chara_full:
+  - 101512
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101512
+- bust:
+  - 101512
+  - 0
+- vo:
+  - vo_adv_9004006_007
+- face:
+  - 101512
+  - 1
+- print:
+  - ミサト
+  - それで
+- wait:
+  - 20
+- print:
+  - ミサト
+  - 先生たちが呼ばれたの～
+- wait:
+  - 60
+- print:
+  - ミサト
+  - |2
+
+- face:
+  - 101512
+  - 6
+- print:
+  - ミサト
+  - 私たちでお役に立てるといいんだけど。
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_9004006_008
+- face:
+  - 101211
+  - 2
+- print:
+  - ハツネ
+  - えへへ！　
+- wait:
+  - 35
+- face:
+  - 101211
+  - 1
+- print:
+  - ハツネ
+  - みんなを元気いーっぱい応援するなら
+- wait:
+  - 60
+- print:
+  - ハツネ
+  - |2-
+
+    このハツネちゃんにお任せなのだー！　
+- wait:
+  - 55
+- face:
+  - 101211
+  - 2
+- print:
+  - ハツネ
+  - きらーん☆
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 102913
+  - LC
+  - 2
+- chara_full:
+  - 105411
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 102913
+- bust:
+  - 102913
+  - 0
+- vo:
+  - vo_adv_9004006_009
+- face:
+  - 102913
+  - 2
+- print:
+  - ノゾミ
+  - 最高に盛り上がったサマーライブ……
+- wait:
+  - 60
+- print:
+  - ノゾミ
+  - |2
+
+- face:
+  - 102913
+  - 1
+- print:
+  - ノゾミ
+  - だけど、
+- wait:
+  - 25
+- print:
+  - ノゾミ
+  - 次のライブではそれを超えていかないといけないから。
+- touch: *o0
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_9004006_010
+- face:
+  - 105411
+  - 1
+- print:
+  - ツムギ
+  - まあ、
+- wait:
+  - 25
+- print:
+  - ツムギ
+  - ノゾミさんに付き合ってきたおかげで
+- wait:
+  - 30
+- print:
+  - ツムギ
+  - |2-
+
+    大抵の修羅場は乗り切れるようになってきましたけど。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 104211
+  - L
+  - 1
+- chara_full:
+  - 102913
+  - C
+  - 2
+- chara_full:
+  - 105411
+  - R
+  - 1
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- fadein_all:
+  - 45
+- window_visible:
+  - TRUE
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_9004006_011
+- face:
+  - 104211
+  - 1
+- print:
+  - チカ
+  - なんだかんだ言って、
+- wait:
+  - 40
+- print:
+  - チカ
+  - ツムギも根を詰めすぎるタイプなんですから。
+- wait:
+  - 70
+- print:
+  - チカ
+  - |2
+
+- face:
+  - 104211
+  - 2
+- print:
+  - チカ
+  - 私たちに手伝えることは手伝わせてくださいね？
+- touch: *o0
+- focus:
+  - 104211
+- bust:
+  - 104211
+  - 0
+- vo:
+  - vo_adv_9004006_012
+- face:
+  - 104211
+  - 1
+- print:
+  - チカ
+  - '{0}さん、お待たせしました。'
+- wait:
+  - 35
+- print:
+  - チカ
+  - |2
+
+- nod:
+  - 104211
+- se:
+  - se_adv_paper_move_01
+- print:
+  - チカ
+  - それではこちらの封筒をお渡ししますね。
+- touch: *o0
+- choice:
+  - ありがとう。
+  - 2
+- tag:
+  - 2
+- focus:
+  - 105411
+- bust:
+  - 105411
+  - 0
+- vo:
+  - vo_adv_9004006_013
+- face:
+  - 105411
+  - 6
+- print:
+  - ツムギ
+  - はい、
+- wait:
+  - 15
+- print:
+  - ツムギ
+  - それじゃあ騎士さんも用事が済んだでしょう？
+- wait:
+  - 30
+- print:
+  - ツムギ
+  - |2
+
+- face:
+  - 105411
+  - 3
+- print:
+  - ツムギ
+  - 私たちはライブのリハーサルに打ち合わせと
+- wait:
+  - 35
+- print:
+  - ツムギ
+  - |2-
+
+    予定がてんこ盛りなので、
+- wait:
+  - 35
+- print:
+  - ツムギ
+  - とっとと気をつけて帰ってください。
+- touch: *o0
+- focus:
+  - 102913
+- bust:
+  - 102913
+  - 0
+- vo:
+  - vo_adv_9004006_014
+- face:
+  - 102913
+  - 1
+- print:
+  - ノゾミ
+  - 次も最高のライブにしてみせるから。
+- wait:
+  - 45
+- print:
+  - ノゾミ
+  - |2-
+
+    これからも私たちのこと、
+- wait:
+  - 30
+- print:
+  - ノゾミ
+  - 見守っててね！
+- wait:
+  - 45
+- print:
+  - ノゾミ
+  - |2
+
+- face:
+  - 102913
+  - 2
+- print:
+  - ノゾミ
+  - また会場で会おうねっ！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 101211
+  - LC
+  - 2
+- chara_full:
+  - 101512
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101512
+- bust:
+  - 101512
+  - 0
+- vo:
+  - vo_adv_9004006_015
+- face:
+  - 101512
+  - 2
+- print:
+  - ミサト
+  - '{0}くんはがんばり屋さんだから、'
+- wait:
+  - 40
+- print:
+  - ミサト
+  - |2-
+
+    無理しないよう気をつけてね。
+- wait:
+  - 60
+- print:
+  - ミサト
+  - |2
+
+- face:
+  - 101512
+  - 1
+- print:
+  - ミサト
+  - 疲れたらちゃんと休憩するのよ～？
+- touch: *o0
+- focus:
+  - 101211
+- bust:
+  - 101211
+  - 0
+- vo:
+  - vo_adv_9004006_016
+- face:
+  - 101211
+  - 1
+- print:
+  - ハツネ
+  - キミに元気が出るように
+- wait:
+  - 40
+- print:
+  - ハツネ
+  - 私も全力で応援しちゃうよー！
+- wait:
+  - 75
+- print:
+  - ハツネ
+  - |2
+
+- face:
+  - 101211
+  - 2
+- pop:
+  - 101211
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - ハツネ
+  - フレーっ、
+- wait:
+  - 20
+- print:
+  - ハツネ
+  - フレーっ！　
+- wait:
+  - 25
+- print:
+  - ハツネ
+  - がんばって～♪
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - みんなの温かい応援を背に受けて、
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    {0}は次の目的地を目指すのだった。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- se_pause:
+  - amb_adv_outdoors_day_01
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

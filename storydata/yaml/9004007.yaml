@@ -1,0 +1,1094 @@
+- title:
+  - 闇医者と奇妙な患者たち
+- outline:
+  - オーエド町を訪れた{0}は、カンポーの仕入れに来ていたミツキと出会う。そこでニノンやユキ、ヨリやアカリといった急患に遭遇したのち、次の目的地を目指すのだった。
+- background:
+  - 500650
+- se:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 闇医者と奇妙な患者たち
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - カリンから依頼された手伝いを続ける{0}は、
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    オーエド町を訪れていた。
+- wait:
+  - 30
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 105111
+  - C
+  - 1
+- fadein:
+  - 105111
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M509
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_9004007_000
+- face:
+  - 105111
+  - 1
+- nod:
+  - 105111
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - ミツキ
+  - これと、
+- wait:
+  - 10
+- print:
+  - ミツキ
+  - これと、
+- wait:
+  - 30
+- print:
+  - ミツキ
+  - あとこのカンポーをあるだけちょうだい。
+- wait:
+  - 40
+- print:
+  - ミツキ
+  - |2-
+
+    いつもどおりの住所に送ってもらえると助かるわ。
+- wait:
+  - 55
+- print:
+  - ミツキ
+  - |2-
+
+    それじゃあ、お願いね。
+- touch: *o0
+- choice:
+  - こんにちは。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_9004007_001
+- face:
+  - 105111
+  - 6
+- emotion:
+  - notice1_L
+  - 105111
+  - -110
+  - 585
+  - se_adv_emote_common_01
+- print:
+  - ミツキ
+  - あら、
+- wait:
+  - 25
+- print:
+  - ミツキ
+  - '{0}君じゃない。'
+- wait:
+  - 25
+- print:
+  - ミツキ
+  - |2
+
+- face:
+  - 105111
+  - 1
+- print:
+  - ミツキ
+  - またここで会うなんて、驚きね。
+- wait:
+  - 45
+- print:
+  - ミツキ
+  - |2-
+
+    私はカンポーの仕入れに来てたんだけど、
+- wait:
+  - 50
+- print:
+  - ミツキ
+  - 君は？
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_9004007_002
+- face:
+  - 105111
+  - 6
+- print:
+  - ミツキ
+  - ふぅん……
+- wait:
+  - 45
+- print:
+  - ミツキ
+  - ギルド管理協会の……
+- wait:
+  - 75
+- print:
+  - ミツキ
+  - |2
+
+- face:
+  - 105111
+  - 1
+- print:
+  - ミツキ
+  - まったく、
+- wait:
+  - 25
+- print:
+  - ミツキ
+  - お人好しなんだから。
+- wait:
+  - 55
+- face:
+  - 105111
+  - 2
+- print:
+  - ミツキ
+  - まあ、
+- wait:
+  - 15
+- print:
+  - ミツキ
+  - それが君の良さなんだけど。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 105111
+  - 30
+- chara_full:
+  - 105111
+  - LC
+  - 6
+- chara_full:
+  - 103011
+  - R
+  - 4
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - R
+  - 30
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103011
+- bust:
+  - 103011
+  - 0
+- vo:
+  - vo_adv_9004007_003
+- face:
+  - 103011
+  - 4
+- pop:
+  - 103011
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - ニノン
+  - ショーグーーーン！！
+- wait:
+  - 15
+- print:
+  - ニノン
+  - |2-
+
+    お助けクダサーイ！！
+- touch: *o0
+- choice:
+  - なにか困ってるの？
+  - 2
+- tag:
+  - 2
+- focus:
+  - 103011
+- bust:
+  - 103011
+  - 0
+- vo:
+  - vo_adv_9004007_004
+- face:
+  - 103011
+  - 4
+- print:
+  - ニノン
+  - ハイ……
+- wait:
+  - 30
+- print:
+  - ニノン
+  - 実は
+- wait:
+  - 25
+- print:
+  - ニノン
+  - ギルドのみんなで
+- wait:
+  - 35
+- print:
+  - ニノン
+  - トージにきていたんデスが……
+- wait:
+  - 45
+- print:
+  - ニノン
+  - |2-
+
+    ユキが急に動けなくなってしまいまシタ……
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_9004007_005
+- face:
+  - 105111
+  - 6
+- print:
+  - ミツキ
+  - ……そんな目で見て、
+- wait:
+  - 30
+- print:
+  - ミツキ
+  - どうしたの？
+- wait:
+  - 50
+- print:
+  - ミツキ
+  - |2
+
+- face:
+  - 105111
+  - 4
+- print:
+  - ミツキ
+  - そういう人助けは
+- wait:
+  - 25
+- print:
+  - ミツキ
+  - 私の領分じゃないんだけど……
+- wait:
+  - 65
+- print:
+  - ミツキ
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - ミツキ
+  - はあ……
+- wait:
+  - 40
+- eye_open:
+  - True
+- print:
+  - ミツキ
+  - 君が言うなら仕方ないわね。
+- wait:
+  - 45
+- face:
+  - 105111
+  - 6
+- print:
+  - ミツキ
+  - で、
+- wait:
+  - 20
+- print:
+  - ミツキ
+  - 患者はどこ？
+- touch: *o0
+- face:
+  - 103011
+  - 6
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_9004007_006
+- face:
+  - 1
+  - 1
+- print:
+  - ？？？
+  - ここだよ、
+- wait:
+  - 15
+- print:
+  - ？？？
+  - 先生♪
+- wait:
+  - 40
+- print:
+  - ？？？
+  - |2-
+
+    それに{0}さんも。
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_9004007_007
+- face:
+  - 105111
+  - 4
+- print:
+  - ミツキ
+  - ……聞き間違いだと思いたいけど、
+- wait:
+  - 60
+- print:
+  - ミツキ
+  - |2
+
+- face:
+  - 105111
+  - 6
+- print:
+  - ミツキ
+  - この声はもしかしなくても、
+- wait:
+  - 50
+- print:
+  - ミツキ
+  - ユキよね？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 103011
+  - 30
+- chara_full:
+  - 100811
+  - R
+  - 2
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - R
+  - 45
+- fadein:
+  - 100811
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_9004007_008
+- face:
+  - 100811
+  - 2
+- emotion:
+  - note1_L
+  - 100811
+  - -90
+  - 530
+  - se_adv_emote_note_01
+- print:
+  - ユキ
+  - 正解だよ♪　
+- wait:
+  - 65
+- face:
+  - 100811
+  - 5
+- print:
+  - ユキ
+  - 水路の水面に映った
+- wait:
+  - 40
+- print:
+  - ユキ
+  - ボクの姿が
+- wait:
+  - 35
+- print:
+  - ユキ
+  - あまりにも美しくてね。
+- wait:
+  - 55
+- print:
+  - ユキ
+  - |2
+
+- face:
+  - 100811
+  - 6
+- print:
+  - ユキ
+  - 目が離せなくて、
+- wait:
+  - 35
+- print:
+  - ユキ
+  - ここから動けなくなってしまったんだ。
+- wait:
+  - 60
+- print:
+  - ユキ
+  - |2
+
+- face:
+  - 100811
+  - 1
+- print:
+  - ユキ
+  - 先生が
+- wait:
+  - 25
+- print:
+  - ユキ
+  - ボクの主治医になってくれたら
+- wait:
+  - 35
+- print:
+  - ユキ
+  - 治るような気がするんだけど♪
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_9004007_009
+- face:
+  - 105111
+  - 4
+- eye_open:
+  - False
+- print:
+  - ミツキ
+  - はあ……
+- wait:
+  - 30
+- eye_open:
+  - True
+- print:
+  - ミツキ
+  - その話は断ったでしょう？
+- wait:
+  - 55
+- print:
+  - ミツキ
+  - |2-
+
+    あんまり同じ話を繰り返すと、
+- wait:
+  - 35
+- print:
+  - ミツキ
+  - 新薬の実験につき合わせるわよ？
+- wait:
+  - 55
+- print:
+  - ミツキ
+  - |2
+
+- face:
+  - 105111
+  - 6
+- print:
+  - ミツキ
+  - それが嫌なら、
+- wait:
+  - 30
+- print:
+  - ミツキ
+  - その子を困らせないであげなさい。
+- touch: *o0
+- focus:
+  - 100811
+- bust:
+  - 100811
+  - 0
+- vo:
+  - vo_adv_9004007_010
+- face:
+  - 100811
+  - 6
+- print:
+  - ユキ
+  - もー、
+- wait:
+  - 25
+- print:
+  - ユキ
+  - 先生も強情だなぁ。
+- wait:
+  - 55
+- face:
+  - 100811
+  - 1
+- print:
+  - ユキ
+  - まあいいや。
+- wait:
+  - 20
+- print:
+  - ユキ
+  - |2-
+
+    諦めたわけじゃないけど、
+- wait:
+  - 30
+- print:
+  - ユキ
+  - 今日は引き下がることにするよ。
+- wait:
+  - 55
+- print:
+  - ユキ
+  - |2
+
+- face:
+  - 100811
+  - 2
+- print:
+  - ユキ
+  - ボクの美しさも
+- wait:
+  - 35
+- print:
+  - ユキ
+  - 充分満喫したことだし。
+- wait:
+  - 80
+- print:
+  - ユキ
+  - それじゃあね♪
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - R
+  - RC
+  - 30
+- fadeout:
+  - 100811
+  - 30
+- chara_full:
+  - 103011
+  - RC
+  - 1
+- fadein:
+  - 103011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103011
+- bust:
+  - 103011
+  - 0
+- vo:
+  - vo_adv_9004007_011
+- face:
+  - 103011
+  - 1
+- print:
+  - ニノン
+  - オオー！　
+- wait:
+  - 30
+- print:
+  - ニノン
+  - ユキが動いてくれまシター！
+- wait:
+  - 55
+- print:
+  - ニノン
+  - |2
+
+- face:
+  - 103011
+  - 2
+- print:
+  - ニノン
+  - さすがショーグン、
+- wait:
+  - 35
+- print:
+  - ニノン
+  - それにセンセイデスね！
+- touch: *o0
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_9004007_012
+- face:
+  - 105111
+  - 4
+- print:
+  - ミツキ
+  - まったく。
+- wait:
+  - 35
+- print:
+  - ミツキ
+  - こっちの頭が痛くなってきちゃうわ。
+- wait:
+  - 50
+- print:
+  - ミツキ
+  - |2
+
+- face:
+  - 105111
+  - 1
+- print:
+  - ミツキ
+  - さて、
+- wait:
+  - 30
+- print:
+  - ミツキ
+  - それじゃあそろそろ帰ろうかしら……
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+  - 1
+- fadeout_all:
+  - 30
+- chara_full:
+  - 102211
+  - LC
+  - 4
+- chara_full:
+  - 100611
+  - RC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M404
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 100611
+- bust:
+  - 100611
+  - 0
+- vo:
+  - vo_adv_9004007_013
+- face:
+  - 100611
+  - 2
+- emotion:
+  - note1_L
+  - 100611
+  - -85
+  - 545
+  - se_adv_emote_note_01
+- print:
+  - アカリ
+  - お兄ちゃ～ん♪
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_9004007_014
+- face:
+  - 102211
+  - 4
+- nod:
+  - 102211
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - ヨリ
+  - ちょっと、
+- wait:
+  - 10
+- print:
+  - ヨリ
+  - アカリ！
+- wait:
+  - 30
+- print:
+  - ヨリ
+  - |2-
+
+    やっぱりやめようよ……！
+- wait:
+  - 25
+- print:
+  - ヨリ
+  - |2-
+
+    恥ずかしいってば！！
+- touch: *o0
+- focus:
+  - 100611
+- bust:
+  - 100611
+  - 0
+- vo:
+  - vo_adv_9004007_015
+- face:
+  - 100611
+  - 1
+- print:
+  - アカリ
+  - ねえお兄ちゃん♪
+- wait:
+  - 45
+- print:
+  - アカリ
+  - |2-
+
+    こんなところで会えて、
+- wait:
+  - 30
+- print:
+  - アカリ
+  - アカリうれしいなぁ～
+- wait:
+  - 75
+- print:
+  - アカリ
+  - |2
+
+- face:
+  - 100611
+  - 4
+- print:
+  - アカリ
+  - ところでアカリたち、
+- wait:
+  - 35
+- print:
+  - アカリ
+  - ちょっと困ってて……
+- touch: *o0
+- focus:
+  - 100611
+- bust:
+  - 100611
+  - 0
+- vo:
+  - vo_adv_9004007_016
+- face:
+  - 100611
+  - 6
+- print:
+  - アカリ
+  - 実は、
+- wait:
+  - 25
+- print:
+  - アカリ
+  - 美容にいいって温泉に二人で入ったら、
+- wait:
+  - 65
+- print:
+  - アカリ
+  - |2
+
+- face:
+  - 100611
+  - 2
+- print:
+  - アカリ
+  - ただでさえかわいかったのに、
+- wait:
+  - 35
+- print:
+  - アカリ
+  - もっとかわいくなっちゃって♪
+- wait:
+  - 50
+- print:
+  - アカリ
+  - |2-
+
+    困ってるんです～♪
+- touch: *o0
+- choice:
+  - 二人ともいつもかわいいよ。
+  - 3
+- tag:
+  - 3
+- face:
+  - 102211
+  - 6
+- focus:
+  - 100611
+- bust:
+  - 100611
+  - 0
+- vo:
+  - vo_adv_9004007_017
+- face:
+  - 100611
+  - 1
+- print:
+  - アカリ
+  - 本当ですか？　
+- wait:
+  - 45
+- face:
+  - 100611
+  - 2
+- print:
+  - アカリ
+  - やった～！
+- wait:
+  - 40
+- print:
+  - アカリ
+  - |2-
+
+    ふふ、
+- wait:
+  - 30
+- face:
+  - 100611
+  - 5
+- print:
+  - アカリ
+  - これからもっともっとかわいくなっていくアカリを
+- wait:
+  - 70
+- print:
+  - アカリ
+  - |2-
+
+    見逃さないでくださいね、
+- wait:
+  - 35
+- face:
+  - 100611
+  - 2
+- print:
+  - アカリ
+  - お兄ちゃん♪
+- touch: *o0
+- focus:
+  - 102211
+- bust:
+  - 102211
+  - 0
+- vo:
+  - vo_adv_9004007_018
+- face:
+  - 102211
+  - 6
+- emotion:
+  - shy1_R
+  - 102211
+  - -135
+  - 465
+  - se_adv_emote_shy_01
+- print:
+  - ヨリ
+  - ～～～～！！
+- wait:
+  - 70
+- print:
+  - ヨリ
+  - |2-
+
+    ああ、
+- wait:
+  - 15
+- print:
+  - ヨリ
+  - もうだめ耐えらんない！
+- wait:
+  - 35
+- print:
+  - ヨリ
+  - |2
+
+- face:
+  - 102211
+  - 3
+- print:
+  - ヨリ
+  - もぉ、
+- wait:
+  - 25
+- print:
+  - ヨリ
+  - アンタもアカリを止めなさいよー！！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105111
+  - C
+  - 6
+- fadein:
+  - 105111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105111
+- bust:
+  - 105111
+  - 0
+- vo:
+  - vo_adv_9004007_019
+- face:
+  - 105111
+  - 6
+- print:
+  - ミツキ
+  - ……はあ。
+- wait:
+  - 60
+- print:
+  - ミツキ
+  - |2
+
+- face:
+  - 105111
+  - 1
+- print:
+  - ミツキ
+  - まったく、君の知り合いって
+- wait:
+  - 45
+- print:
+  - ミツキ
+  - |2-
+
+    【トワイライトキャラバン】に負けず劣らずの面白い子たちばかりね？
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 105111
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - クセの強い患者たちに苦戦するミツキの姿を目に焼き付けつつ
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    {0}は活動記録を受け取り、
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    次の目的地へ向かうのだった。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

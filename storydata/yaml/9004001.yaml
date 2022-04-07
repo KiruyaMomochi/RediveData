@@ -1,0 +1,794 @@
+- title:
+  - 秘密の計画、始動
+- outline:
+  - ギルド管理協会から連絡を受けた{0}は、年間活動記録をまとめる手伝いで各地を巡ることになる。しかしその裏で【美食殿】の面々とカリンによって秘密の計画が始動するのだった。
+- background:
+  - 500040
+- se:
+  - amb_adv_room_noise_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 秘密の計画、始動
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - ギルド管理協会から連絡を受けた
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    {0}は、カリンの元を訪れていた。
+- wait:
+  - 30
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 118511
+  - C
+  - 2
+- fadein:
+  - 118511
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M12
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 118511
+- bust:
+  - 118511
+  - 0
+- vo:
+  - vo_adv_9004001_000
+- face:
+  - 118511
+  - 2
+- nod:
+  - 118511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - カリン
+  - お待ちしてました！　
+- wait:
+  - 30
+- face:
+  - 118511
+  - 1
+- print:
+  - カリン
+  - わざわざありがとうございます。
+- wait:
+  - 30
+- print:
+  - カリン
+  - |2
+
+- face:
+  - 118511
+  - 6
+- print:
+  - カリン
+  - 実は、
+- wait:
+  - 30
+- print:
+  - カリン
+  - 少しご相談がありまして。
+- touch: *o0
+- focus:
+  - 118511
+- bust:
+  - 118511
+  - 0
+- vo:
+  - vo_adv_9004001_001
+- face:
+  - 118511
+  - 6
+- print:
+  - カリン
+  - ギルド管理協会として、
+- wait:
+  - 35
+- print:
+  - カリン
+  - |2-
+
+    昨年の活動記録をまとめる必要があるんですが……
+- wait:
+  - 75
+- print:
+  - カリン
+  - |2
+
+- face:
+  - 118511
+  - 1
+- print:
+  - カリン
+  - 調査員としてお手伝いいただける方を探しているんです。
+- touch: *o0
+- focus:
+  - 118511
+- bust:
+  - 118511
+  - 0
+- vo:
+  - vo_adv_9004001_002
+- face:
+  - 118511
+  - 1
+- print:
+  - カリン
+  - 数多くのかたがたにご協力いただく必要があるので
+- wait:
+  - 70
+- print:
+  - カリン
+  - |2-
+
+    面識の広い{0}さんに
+- wait:
+  - 35
+- print:
+  - カリン
+  - |2-
+
+    ぜひともお願いできればと思うんですが……
+- wait:
+  - 40
+- face:
+  - 118511
+  - 6
+- print:
+  - カリン
+  - いかがでしょう？
+- touch: *o0
+- choice:
+  - 僕でよければ。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 118511
+- bust:
+  - 118511
+  - 0
+- vo:
+  - vo_adv_9004001_003
+- face:
+  - 118511
+  - 2
+- print:
+  - カリン
+  - ありがとうございます♪
+- wait:
+  - 30
+- print:
+  - カリン
+  - |2
+
+- face:
+  - 118511
+  - 1
+- print:
+  - カリン
+  - それでは、
+- wait:
+  - 20
+- nod:
+  - 118511
+- se:
+  - se_adv_paper_move_01
+- print:
+  - カリン
+  - こちらが巡っていただきたい各地のリストです。
+- touch: *o0
+- focus:
+  - 118511
+- bust:
+  - 118511
+  - 0
+- vo:
+  - vo_adv_9004001_004
+- face:
+  - 118511
+  - 1
+- print:
+  - カリン
+  - '{0}さんは現地にいるみなさんから'
+- wait:
+  - 35
+- print:
+  - カリン
+  - |2-
+
+    報告書の入った封筒を受け取ってきてください。
+- touch: *o0
+- focus:
+  - 118511
+- bust:
+  - 118511
+  - 0
+- vo:
+  - vo_adv_9004001_005
+- face:
+  - 118511
+  - 1
+- print:
+  - カリン
+  - とっておきの報酬も用意していますので
+- wait:
+  - 40
+- print:
+  - カリン
+  - 頑張ってくださいね！
+- wait:
+  - 40
+- print:
+  - カリン
+  - |2
+
+- face:
+  - 118511
+  - 2
+- emotion:
+  - note1_L
+  - 118511
+  - -95
+  - 475
+  - se_adv_emote_note_01
+- print:
+  - カリン
+  - それでは、
+- wait:
+  - 25
+- print:
+  - カリン
+  - 実りある報告をお待ちしています♪
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 118511
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- window_visible:
+  - TRUE
+- bgm:
+  - stop
+  - 6
+  - 1
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - カリンから調査を依頼された{0}は
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    リストに書かれた最初の宛先を目指すのだった。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- chara_full:
+  - 105812
+  - LC
+  - 6
+- chara_full:
+  - 105913
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M31
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_9004001_006
+- face:
+  - 105812
+  - 6
+- print:
+  - ペコリーヌ
+  - ……行っちゃった、
+- wait:
+  - 35
+- print:
+  - ペコリーヌ
+  - みたいですね？
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_9004001_007
+- face:
+  - 105913
+  - 4
+- print:
+  - コッコロ
+  - 主さま……
+- wait:
+  - 45
+- nod:
+  - 105913
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - コッコロ
+  - どうかご無事をお祈りしております。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106412
+  - LC
+  - 6
+- chara_full:
+  - 106012
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_9004001_008
+- face:
+  - 106012
+  - 6
+- emotion:
+  - sweat1_R
+  - 106012
+  - 80
+  - 495
+  - se_adv_emote_sweat_01
+- print:
+  - キャル
+  - そんな大げさなことでもないでしょ。
+- wait:
+  - 50
+- print:
+  - キャル
+  - |2-
+
+    今生の別れじゃあるまいし……
+- wait:
+  - 55
+- print:
+  - キャル
+  - |2
+
+- face:
+  - 106012
+  - 4
+- print:
+  - キャル
+  - いや、
+- wait:
+  - 25
+- print:
+  - キャル
+  - アイツのドジっぷりならちょっと不安になるわね。
+- touch: *o0
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_9004001_009
+- face:
+  - 106412
+  - 6
+- print:
+  - シェフィ
+  - それで、
+- wait:
+  - 20
+- print:
+  - シェフィ
+  - カリンさん。
+- wait:
+  - 40
+- print:
+  - シェフィ
+  - |2-
+
+    {0}に秘密にしてまで
+- wait:
+  - 30
+- print:
+  - シェフィ
+  - |2-
+
+    私たちにお願いしたい事っていうのは……？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105812
+  - LC
+  - 6
+- chara_full:
+  - 118511
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 118511
+- bust:
+  - 118511
+  - 0
+- vo:
+  - vo_adv_9004001_010
+- face:
+  - 118511
+  - 1
+- print:
+  - カリン
+  - はい。
+- wait:
+  - 25
+- print:
+  - カリン
+  - 【美食殿】のみなさんにお願いしたいのは……
+- touch: *o0
+- window_visible:
+  - false
+- focus:
+  - 105812:118511
+- nod:
+  - 118511
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_9004001_011
+- face:
+  - 105812
+  - 1
+- emotion:
+  - exclamation1_R
+  - 105812
+  - 5
+  - 650
+  - se_adv_emote_common_01
+- print:
+  - ペコリーヌ
+  - なるほど！　
+- wait:
+  - 25
+- print:
+  - ペコリーヌ
+  - それは妙案ですね☆
+- touch: *o0
+- focus:
+  - 118511
+- bust:
+  - 118511
+  - 0
+- vo:
+  - vo_adv_9004001_012
+- face:
+  - 118511
+  - 1
+- print:
+  - カリン
+  - という訳で、
+- wait:
+  - 25
+- print:
+  - カリン
+  - この件に関しては
+- wait:
+  - 30
+- print:
+  - カリン
+  - |2-
+
+    まだご内密にお願いしますね？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105913
+  - LC
+  - 1
+- chara_full:
+  - 106412
+  - RC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_9004001_013
+- face:
+  - 105913
+  - 1
+- print:
+  - コッコロ
+  - それならば
+- wait:
+  - 30
+- print:
+  - コッコロ
+  - 主さまに知られるわけにはいきませんね。
+- wait:
+  - 75
+- print:
+  - コッコロ
+  - |2
+
+- face:
+  - 105913
+  - 4
+- print:
+  - コッコロ
+  - ガイド役として、
+- wait:
+  - 30
+- print:
+  - コッコロ
+  - おそばを離れるのは心苦しいですが……
+- touch: *o0
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_9004001_014
+- face:
+  - 106412
+  - 6
+- print:
+  - シェフィ
+  - それにしても……
+- wait:
+  - 40
+- print:
+  - シェフィ
+  - |2-
+
+    これって、
+- wait:
+  - 20
+- print:
+  - シェフィ
+  - ものすごい量になるんじゃないかしら？
+- wait:
+  - 55
+- print:
+  - シェフィ
+  - |2
+
+- face:
+  - 106412
+  - 2
+- print:
+  - シェフィ
+  - ちゃんと計画を立てて進めないと。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105812
+  - LC
+  - 2
+- chara_full:
+  - 106012
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_9004001_015
+- face:
+  - 105812
+  - 2
+- print:
+  - ペコリーヌ
+  - それに関してはばっちりですから、
+- wait:
+  - 35
+- print:
+  - ペコリーヌ
+  - 安心してください☆
+- wait:
+  - 45
+- print:
+  - ペコリーヌ
+  - |2
+
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - みんなで頑張れば、
+- wait:
+  - 25
+- print:
+  - ペコリーヌ
+  - きっとすぐ終わっちゃいますよ！
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_9004001_016
+- face:
+  - 106012
+  - 1
+- print:
+  - キャル
+  - せっかくだから全力でやってやろうじゃない！
+- wait:
+  - 55
+- print:
+  - キャル
+  - |2
+
+- face:
+  - 106012
+  - 2
+- print:
+  - キャル
+  - あいつのことあっと驚かせてやるんだから！
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_9004001_017
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - それじゃあ……
+- wait:
+  - 30
+- print:
+  - ペコリーヌ
+  - 『これまでとこれから計画』
+- wait:
+  - 30
+- face:
+  - 105812
+  - 2
+- print:
+  - ペコリーヌ
+  - スタートです！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - こうして{0}が受けた依頼の裏側で、
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    カリンとペコリーヌたちによる計画が秘密裏に始まるのだった。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 1
+- se_pause:
+  - amb_adv_room_noise_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0
