@@ -1,0 +1,1249 @@
+- title:
+  - 與虎群的邂逅
+- outline:
+  - '{0}和日和前去挑戰露娜之塔。來到他們身邊的，是要求同行的茉莉。日和因過去曾在鎮上看過茉莉幫助他人的樣子，所以爽快答應。最後決定三人一起挑戰露娜之塔。'
+- background:
+  - 500420
+- se:
+  - amb_adv_forest_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 與虎群的邂逅
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - '{0}和日和'
+- wait:
+  - 15
+- print:
+  - 旁白
+  - |2-
+
+    在入口仰望著露娜之塔。
+- wait:
+  - 30
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 100111
+  - C
+  - 6
+- fadein:
+  - 100111
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M156_Ver2
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_7023000_000
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - 這裡就是露娜之塔啊……
+- wait:
+  - 65
+- print:
+  - 日和
+  - |2
+
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 比我想的還大呢。
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_7023000_001
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 這裡有找回騎士先生記憶的提示吧。
+- wait:
+  - 65
+- print:
+  - 日和
+  - |2
+
+- nod:
+  - 100111
+- se:
+  - se_adv_step_leaves_move_01
+- print:
+  - 日和
+  - 好，
+- wait:
+  - 40
+- face:
+  - 100111
+  - 2
+- print:
+  - 日和
+  - 我們就努力爬吧！
+- touch: *o0
+- choice:
+  - 妳還真有幹勁呢。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_7023000_002
+- face:
+  - 100111
+  - 2
+- print:
+  - 日和
+  - 呵呵呵──
+- wait:
+  - 50
+- print:
+  - 日和
+  - |2
+
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 因為我聽說
+- wait:
+  - 20
+- print:
+  - 日和
+  - 優衣跟怜也有來過啊。
+- wait:
+  - 45
+- print:
+  - 日和
+  - |2
+
+- face:
+  - 100111
+  - 2
+- print:
+  - 日和
+  - 而且我也
+- wait:
+  - 15
+- print:
+  - 日和
+  - 想要幫助騎士先生呢。
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_7023000_003
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 那我們趕緊……
+- wait:
+  - 60
+- emotion:
+  - question1_R
+  - 100111
+  - 115
+  - 515
+  - se_adv_emote_question_01
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - 哎呀？
+- wait:
+  - 55
+- print:
+  - 日和
+  - |2-
+
+    你有沒有聽到什麼聲音？
+- touch: *o0
+- bgm:
+  - stop
+  - 5
+  - 1
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_7023000_004
+- print:
+  - ？？？
+  - ……下！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100111
+  - 30
+- chara_full:
+  - 100511
+  - L
+  - 6
+- chara_full:
+  - 100111
+  - RC
+  - 6
+- se:
+  - se_adv_step_leaves_run_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 30
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M129_Ver2_NoB
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_7023000_005
+- face:
+  - 100511
+  - 6
+- print:
+  - 茉莉
+  - 請等一下！
+- wait:
+  - 50
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100511
+  - 4
+- print:
+  - 茉莉
+  - 哈……
+- wait:
+  - 25
+- nod:
+  - 100511
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 茉莉
+  - 哈……
+- wait:
+  - 35
+- print:
+  - 茉莉
+  - 終於……
+- wait:
+  - 45
+- print:
+  - 茉莉
+  - 追上你們了……
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_7023000_006
+- face:
+  - 100111
+  - 6
+- emotion:
+  - notice1_L
+  - 100111
+  - -50
+  - 540
+  - se_adv_emote_common_01
+- print:
+  - 日和
+  - 咦？
+- wait:
+  - 35
+- print:
+  - 日和
+  - |2-
+
+    妳是【王宮騎士團】的茉莉……
+- wait:
+  - 10
+- print:
+  - 日和
+  - 對吧？
+- wait:
+  - 40
+- print:
+  - 日和
+  - |2-
+
+    怎麼了？
+- wait:
+  - 35
+- print:
+  - 日和
+  - 莫非
+- wait:
+  - 25
+- print:
+  - 日和
+  - 妳在調查某個案件？
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_7023000_007
+- face:
+  - 100511
+  - 3
+- nod:
+  - 100511
+- print:
+  - 茉莉
+  - 不是的！
+- wait:
+  - 50
+- print:
+  - 茉莉
+  - |2-
+
+    我是因為知道
+- wait:
+  - 20
+- print:
+  - 茉莉
+  - 你們要挑戰露娜之塔，
+- wait:
+  - 25
+- print:
+  - 茉莉
+  - 所以才追來的！
+- wait:
+  - 45
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100511
+  - 1
+- print:
+  - 茉莉
+  - 我希望
+- wait:
+  - 20
+- print:
+  - 茉莉
+  - 你們可以帶我一起去！
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_7023000_008
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - 妳特地追過來……
+- wait:
+  - 55
+- print:
+  - 日和
+  - 是有什麼原因嗎？
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_7023000_009
+- face:
+  - 100511
+  - 6
+- print:
+  - 茉莉
+  - 我聽小智姐她們說，
+- wait:
+  - 35
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100511
+  - 1
+- print:
+  - 茉莉
+  - 露娜之塔裡面
+- wait:
+  - 25
+- print:
+  - 茉莉
+  - 有取回
+- wait:
+  - 10
+- print:
+  - 茉莉
+  - |2-
+
+    {0}記憶的
+- wait:
+  - 35
+- print:
+  - 茉莉
+  - 提示對吧？
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_7023000_010
+- face:
+  - 100511
+  - 2
+- emotion:
+  - twinkle1_R
+  - 100511
+  - -100
+  - 465
+  - se_adv_emote_twinkle_01
+- print:
+  - 茉莉
+  - 那麼
+- wait:
+  - 25
+- print:
+  - 茉莉
+  - 我身為英雄，當然要
+- wait:
+  - 35
+- print:
+  - 茉莉
+  - 協助你們攻略塔啦！
+- wait:
+  - 50
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100511
+  - 1
+- print:
+  - 茉莉
+  - 畢竟我平時也受
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - '{0}不少照顧呢。'
+- touch: *o0
+- choice:
+  - 日和覺得呢？
+  - 2
+- choice:
+  - 會很危險喔。
+  - 3
+- tag:
+  - 2
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_7023000_011
+- face:
+  - 100111
+  - 2
+- print:
+  - 日和
+  - 我當然贊成啦！
+- wait:
+  - 55
+- print:
+  - 日和
+  - |2
+
+- nod:
+  - 100111
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 請
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 日和
+  - 多多指教囉，
+- wait:
+  - 15
+- print:
+  - 日和
+  - 茉莉！
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_7023000_012
+- face:
+  - 100511
+  - 2
+- print:
+  - 茉莉
+  - 謝謝！
+- wait:
+  - 30
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100511
+  - 1
+- print:
+  - 茉莉
+  - 我不會礙手礙腳的！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_7023000_013
+- face:
+  - 100511
+  - 3
+- print:
+  - 茉莉
+  - 希望你們不要把我當小孩子！
+- wait:
+  - 60
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100511
+  - 1
+- print:
+  - 茉莉
+  - 藉由每天的特訓，
+- wait:
+  - 30
+- print:
+  - 茉莉
+  - 我已經比上次見面時
+- wait:
+  - 35
+- print:
+  - 茉莉
+  - |2-
+
+    還要強很多了！
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_7023000_014
+- face:
+  - 100111
+  - 1
+- nod:
+  - 100111
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 日和
+  - 嗯嗯，
+- wait:
+  - 40
+- print:
+  - 日和
+  - 我也跟妳一起戰鬥過幾次，
+- wait:
+  - 60
+- print:
+  - 日和
+  - |2-
+
+    所以知道妳很可靠的。
+- wait:
+  - 50
+- print:
+  - 日和
+  - |2
+
+- face:
+  - 100111
+  - 2
+- print:
+  - 日和
+  - 請多指教囉，
+- wait:
+  - 15
+- print:
+  - 日和
+  - 茉莉。
+- touch: *o0
+- face:
+  - 100111
+  - 1
+- tag:
+  - 4
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_7023000_015
+- face:
+  - 100511
+  - 1
+- print:
+  - 茉莉
+  - 妳叫做
+- wait:
+  - 20
+- print:
+  - 茉莉
+  - 日和吧。
+- wait:
+  - 25
+- print:
+  - 茉莉
+  - |2-
+
+    雖然我們不是初次見面，
+- wait:
+  - 40
+- print:
+  - 茉莉
+  - |2-
+
+    但卻是第一次
+- wait:
+  - 35
+- print:
+  - 茉莉
+  - 這樣好好交談呢。
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_7023000_016
+- face:
+  - 100111
+  - 2
+- nod:
+  - 100111
+- print:
+  - 日和
+  - 對耶。
+- wait:
+  - 50
+- print:
+  - 日和
+  - |2
+
+- face:
+  - 100111
+  - 2
+- print:
+  - 日和
+  - 嘿嘿，
+- wait:
+  - 45
+- print:
+  - 日和
+  - 我一直
+- wait:
+  - 20
+- print:
+  - 日和
+  - 很想跟妳好好聊聊喔。
+- touch: *o0
+- face:
+  - 100111
+  - 1
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_7023000_017
+- face:
+  - 100511
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100511
+  - 25
+  - 595
+  - se_adv_emote_common_01
+- print:
+  - 茉莉
+  - 咦咦？
+- wait:
+  - 20
+- print:
+  - 茉莉
+  - 我、
+- wait:
+  - 25
+- print:
+  - 茉莉
+  - 我嗎？
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_7023000_018
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - 除了戰場，
+- wait:
+  - 40
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 我也會在
+- wait:
+  - 10
+- print:
+  - 日和
+  - |2-
+
+    蘭德索爾看到妳，
+- wait:
+  - 55
+- print:
+  - 日和
+  - 所以有點在意。
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_7023000_019
+- face:
+  - 100511
+  - 1
+- print:
+  - 茉莉
+  - 是【王宮騎士團】活動的時候嗎？
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_7023000_020
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - 我看到妳的時候只有一個人，所以應該不是。
+- wait:
+  - 80
+- print:
+  - 日和
+  - |2-
+
+    是在獸人居住區那邊……
+- wait:
+  - 60
+- print:
+  - 日和
+  - |2
+
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 妳家也在
+- wait:
+  - 15
+- print:
+  - 日和
+  - 那附近吧？
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_7023000_021
+- face:
+  - 100511
+  - 6
+- print:
+  - 茉莉
+  - 咦，
+- wait:
+  - 25
+- nod:
+  - 100511
+- face:
+  - 100511
+  - 4
+- print:
+  - 茉莉
+  - 那個
+- wait:
+  - 25
+- print:
+  - 茉莉
+  - 我不是獸人……
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_7023000_022
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 我有看到妳
+- wait:
+  - 30
+- print:
+  - 日和
+  - 幫迷路的人帶路，
+- wait:
+  - 55
+- print:
+  - 日和
+  - |2
+
+- face:
+  - 100111
+  - 2
+- print:
+  - 日和
+  - 還有幫忙
+- wait:
+  - 35
+- print:
+  - 日和
+  - 找遺失物品喔！
+- touch: *o0
+- face:
+  - 100111
+  - 1
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_7023000_023
+- face:
+  - 100511
+  - 6
+- emotion:
+  - question1_R
+  - 100511
+  - 120
+  - 450
+  - se_adv_emote_question_01
+- print:
+  - 茉莉
+  - 咦？
+- wait:
+  - 60
+- print:
+  - 茉莉
+  - 妳有看到喔？
+- wait:
+  - 50
+- print:
+  - 茉莉
+  - |2-
+
+    我完全沒發現……
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_7023000_024
+- face:
+  - 100511
+  - 6
+- nod:
+  - 100511
+- print:
+  - 茉莉
+  - 話說，
+- wait:
+  - 20
+- print:
+  - 茉莉
+  - 我也有
+- wait:
+  - 40
+- print:
+  - 茉莉
+  - 在獸人居住區
+- wait:
+  - 35
+- print:
+  - 茉莉
+  - |2-
+
+    看到過日和喔。
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_7023000_025
+- face:
+  - 100511
+  - 6
+- print:
+  - 茉莉
+  - 我記得
+- wait:
+  - 40
+- print:
+  - 茉莉
+  - 妳跟一位長輩和小孩子在一起。
+- wait:
+  - 65
+- print:
+  - 茉莉
+  - |2-
+
+    莫非……
+- wait:
+  - 30
+- face:
+  - 100511
+  - 1
+- print:
+  - 茉莉
+  - 妳跟我做了一樣的事情嗎？
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_7023000_026
+- face:
+  - 100111
+  - 2
+- print:
+  - 日和
+  - 妳說的沒錯。
+- wait:
+  - 60
+- print:
+  - 日和
+  - |2
+
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 沒想到
+- wait:
+  - 30
+- print:
+  - 日和
+  - 有人會跟我做
+- wait:
+  - 45
+- print:
+  - 日和
+  - 一樣的事，
+- wait:
+  - 40
+- print:
+  - 日和
+  - |2
+
+- emotion:
+  - note1_L
+  - 100111
+  - -70
+  - 515
+  - se_adv_emote_note_01
+- face:
+  - 100111
+  - 2
+- print:
+  - 日和
+  - 所以能跟妳一起冒險我很開心喔。
+- touch: *o0
+- face:
+  - 100111
+  - 1
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_7023000_027
+- face:
+  - 100511
+  - 1
+- print:
+  - 茉莉
+  - 日和也跟我做了一樣的事。
+- wait:
+  - 50
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100511
+  - 2
+- print:
+  - 茉莉
+  - 感覺備受鼓舞呢！
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_7023000_028
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 再次請妳多多關照喔，
+- wait:
+  - 30
+- print:
+  - 日和
+  - 茉莉。
+- wait:
+  - 35
+- print:
+  - 日和
+  - |2
+
+- face:
+  - 100111
+  - 2
+- print:
+  - 日和
+  - 我們一起協助騎士先生找回記憶吧！
+- touch: *o0
+- face:
+  - 100111
+  - 1
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_7023000_029
+- face:
+  - 100511
+  - 1
+- print:
+  - 茉莉
+  - 我才要請妳多多關照！
+- wait:
+  - 45
+- print:
+  - 茉莉
+  - |2
+
+- nod:
+  - 100511
+- face:
+  - 100511
+  - 2
+- print:
+  - 茉莉
+  - 很
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 茉莉
+  - 好，
+- wait:
+  - 25
+- print:
+  - 茉莉
+  - 那我們趕緊
+- wait:
+  - 20
+- print:
+  - 茉莉
+  - 衝吧！
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_7023000_030
+- face:
+  - 100111
+  - 2
+- pop:
+  - 100111
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 日和
+  - 喔──！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 就這樣，{0}和日和、茉莉
+- wait:
+  - 15
+- print:
+  - 旁白
+  - |2-
+
+    一起走向露娜之塔。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 1
+- se_pause:
+  - amb_adv_forest_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

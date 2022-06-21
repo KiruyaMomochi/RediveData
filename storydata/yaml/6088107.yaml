@@ -1,0 +1,264 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500354
+- se:
+  - amb_adv_outdoors_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 關於服裝
+- chara_full:
+  - 121411
+  - C
+  - 1
+- fadein:
+  - 121411
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M216
+  - 0
+  - 0
+  - 1
+  - 0.4
+- focus:
+  - 121411
+- bust:
+  - 121411
+  - 0
+- vo:
+  - vo_adv_6088107_000
+- face:
+  - 121411
+  - 1
+- emotion:
+  - twinkle1_R
+  - 121411
+  - -115
+  - 390
+  - se_adv_emote_twinkle_01
+- print:
+  - 美咲
+  - 哼哼。
+- wait:
+  - 40
+- print:
+  - 美咲
+  - 這套服裝
+- wait:
+  - 25
+- print:
+  - 美咲
+  - 怎麼樣啊？
+- wait:
+  - 45
+- print:
+  - 美咲
+  - |2-
+
+    不過呢，
+- wait:
+  - 20
+- print:
+  - 美咲
+  - 我這個人怎麼穿都好看就是了！
+- touch: &o0 []
+- choice:
+  - （發呆）
+  - 1
+  - 1
+- choice:
+  - 很可愛喔。
+  - 2
+  - 2
+- choice:
+  - 很漂亮呢。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 121411
+- bust:
+  - 121411
+  - 0
+- vo:
+  - vo_adv_6088107_001
+- face:
+  - 121411
+  - 3
+- print:
+  - 美咲
+  - 幹、
+- wait:
+  - 20
+- print:
+  - 美咲
+  - 幹嘛？
+- wait:
+  - 35
+- print:
+  - 美咲
+  - 別不吭聲，你倒是說句話啊。
+- wait:
+  - 85
+- print:
+  - 美咲
+  - |2
+
+- face:
+  - 121411
+  - 6
+- print:
+  - 美咲
+  - 很適合嗎？
+- wait:
+  - 40
+- print:
+  - 美咲
+  - 是、
+- wait:
+  - 25
+- print:
+  - 美咲
+  - 是喔。
+- wait:
+  - 35
+- face:
+  - 121411
+  - 1
+- print:
+  - 美咲
+  - 因為太適合，所以你看得出神了吧。
+- wait:
+  - 75
+- print:
+  - 美咲
+  - |2
+
+- face:
+  - 121411
+  - 2
+- print:
+  - 美咲
+  - 那我原諒你。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 121411
+- bust:
+  - 121411
+  - 0
+- vo:
+  - vo_adv_6088107_002
+- face:
+  - 121411
+  - 1
+- nod:
+  - 121411
+- print:
+  - 美咲
+  - 對吧？
+- wait:
+  - 35
+- print:
+  - 美咲
+  - 跟物產展的歡快氛圍很搭吧！
+- wait:
+  - 65
+- print:
+  - 美咲
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - 美咲
+  - 根據場合製作適切的服裝……
+- wait:
+  - 55
+- eye_open:
+  - True
+- print:
+  - 美咲
+  - 不愧是秋乃小姐。
+- wait:
+  - 40
+- print:
+  - 美咲
+  - |2
+
+- face:
+  - 121411
+  - 2
+- print:
+  - 美咲
+  - 果真是一流的商人。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 121411
+- bust:
+  - 121411
+  - 0
+- vo:
+  - vo_adv_6088107_003
+- face:
+  - 121411
+  - 6
+- print:
+  - 美咲
+  - 你用「漂亮」
+- wait:
+  - 45
+- print:
+  - 美咲
+  - 這個詞不太對吧？
+- wait:
+  - 50
+- print:
+  - 美咲
+  - |2
+
+- face:
+  - 121411
+  - 1
+- print:
+  - 美咲
+  - 不細細斟酌適當的詞彙來讚美服裝，
+- wait:
+  - 50
+- print:
+  - 美咲
+  - 可是無法討淑女歡心的喔。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - FALSE
+- fadeout:
+  - 121411
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- se_pause:
+  - amb_adv_outdoors_day_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

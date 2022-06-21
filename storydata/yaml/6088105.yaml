@@ -1,0 +1,254 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500354
+- se:
+  - amb_adv_outdoors_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 物產展
+- chara_full:
+  - 121411
+  - C
+  - 2
+- fadein:
+  - 121411
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M352
+  - 0
+  - 0
+  - 1
+  - 0.4
+- focus:
+  - 121411
+- bust:
+  - 121411
+  - 0
+- vo:
+  - vo_adv_6088105_000
+- face:
+  - 121411
+  - 2
+- emotion:
+  - note1_L
+  - 121411
+  - -110
+  - 430
+  - se_adv_emote_note_01
+- print:
+  - 美咲
+  - 來了好多客人，超級成功的呢！
+- wait:
+  - 65
+- print:
+  - 美咲
+  - |2
+
+- face:
+  - 121411
+  - 1
+- print:
+  - 美咲
+  - 不過
+- wait:
+  - 20
+- print:
+  - 美咲
+  - 還不只是這樣而已喔！
+- wait:
+  - 45
+- face:
+  - 121411
+  - 2
+- print:
+  - 美咲
+  - 我要更加把勁，
+- wait:
+  - 20
+- print:
+  - 美咲
+  - |2-
+
+    讓咲戀小姐稱讚我！
+- touch: &o0 []
+- choice:
+  - 去尋找新商品吧。
+  - 1
+  - 1
+- choice:
+  - 來辦場秀吧。
+  - 2
+  - 2
+- choice:
+  - 來個搞笑段子吧。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 121411
+- bust:
+  - 121411
+  - 0
+- vo:
+  - vo_adv_6088105_001
+- face:
+  - 121411
+  - 6
+- print:
+  - 美咲
+  - 咲戀小姐總是在販賣一些很新穎的商品呢。
+- wait:
+  - 95
+- print:
+  - 美咲
+  - |2-
+
+    看來確實有這個必要……
+- wait:
+  - 80
+- face:
+  - 121411
+  - 2
+- print:
+  - 美咲
+  - 好！
+- wait:
+  - 20
+- print:
+  - 美咲
+  - |2-
+
+    這就去尋找新商品吧！
+- wait:
+  - 50
+- print:
+  - 美咲
+  - 你也陪我一起去！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 121411
+- bust:
+  - 121411
+  - 0
+- vo:
+  - vo_adv_6088105_002
+- face:
+  - 121411
+  - 6
+- print:
+  - 美咲
+  - 你說的秀，
+- wait:
+  - 35
+- print:
+  - 美咲
+  - 是有模特兒登場的那種……？
+- wait:
+  - 50
+- print:
+  - 美咲
+  - |2
+
+- face:
+  - 121411
+  - 4
+- print:
+  - 美咲
+  - 那種東西跟物產展不搭吧？
+- wait:
+  - 70
+- print:
+  - 美咲
+  - |2
+
+- face:
+  - 121411
+  - 1
+- print:
+  - 美咲
+  - 因地制宜也是很重要的懂嗎？
+- wait:
+  - 45
+- print:
+  - 美咲
+  - 你可要記住了。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 121411
+- bust:
+  - 121411
+  - 0
+- vo:
+  - vo_adv_6088105_003
+- face:
+  - 121411
+  - 4
+- print:
+  - 美咲
+  - 如果我跟真陽小姐一樣會搞笑的話當然沒問題，
+- wait:
+  - 60
+- print:
+  - 美咲
+  - |2-
+
+    但我哪有她那種即興演出的能力啊。
+- wait:
+  - 70
+- print:
+  - 美咲
+  - |2
+
+- face:
+  - 121411
+  - 6
+- emotion:
+  - exclamation1_R
+  - 121411
+  - -10
+  - 585
+  - se_adv_emote_common_01
+- print:
+  - 美咲
+  - 不、
+- wait:
+  - 15
+- print:
+  - 美咲
+  - 不過我可不會因此就去拜真陽小姐為師喔！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - FALSE
+- fadeout:
+  - 121411
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- se_pause:
+  - amb_adv_outdoors_day_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

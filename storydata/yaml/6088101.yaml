@@ -1,0 +1,260 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500110
+- se:
+  - amb_adv_room_noise_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 成熟的淑女
+- chara_full:
+  - 105011
+  - C
+  - 2
+- fadein:
+  - 105011
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M113_Ver2
+  - 0
+  - 0
+  - 1
+  - 0.4
+- focus:
+  - 105011
+- bust:
+  - 105011
+  - 0
+- vo:
+  - vo_adv_6088101_000
+- face:
+  - 105011
+  - 2
+- print:
+  - 美咲
+  - 我要為咲戀育幼院盡一份力，
+- wait:
+  - 45
+- print:
+  - 美咲
+  - 讓咲戀小姐認可我！
+- wait:
+  - 50
+- print:
+  - 美咲
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - 美咲
+  - 而且
+- wait:
+  - 25
+- print:
+  - 美咲
+  - 咲戀小姐身邊也都是一些
+- wait:
+  - 40
+- print:
+  - 美咲
+  - 很棒的人呢。
+- wait:
+  - 50
+- print:
+  - 美咲
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 美咲
+  - 果然同類人就是會聚在一起呢。
+- touch: &o0 []
+- choice:
+  - 例如鈴莓。
+  - 1
+  - 1
+- choice:
+  - 例如美咲。
+  - 2
+  - 2
+- choice:
+  - 例如秋乃。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 105011
+- bust:
+  - 105011
+  - 0
+- vo:
+  - vo_adv_6088101_001
+- face:
+  - 105011
+  - 1
+- print:
+  - 美咲
+  - 令人放心不下的魅力也是很重要的呢。
+- wait:
+  - 75
+- print:
+  - 美咲
+  - |2
+
+- face:
+  - 105011
+  - 6
+- print:
+  - 美咲
+  - 但那可不是
+- wait:
+  - 25
+- print:
+  - 美咲
+  - 別人學得來的特質啊。
+- wait:
+  - 65
+- print:
+  - 美咲
+  - |2
+
+- face:
+  - 105011
+  - 4
+- print:
+  - 美咲
+  - 胡亂模仿的話感覺會受重傷……
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 105011
+- bust:
+  - 105011
+  - 0
+- vo:
+  - vo_adv_6088101_002
+- face:
+  - 105011
+  - 3
+- nod:
+  - 105011
+- print:
+  - 美咲
+  - 聽你這輕浮的口氣，一點都不像是真心話，
+- wait:
+  - 80
+- print:
+  - 美咲
+  - |2
+
+- face:
+  - 105011
+  - 1
+- print:
+  - 美咲
+  - 不過無所謂啦。
+- wait:
+  - 45
+- face:
+  - 105011
+  - 2
+- print:
+  - 美咲
+  - 畢竟我也是個很棒的淑女嘛！
+- wait:
+  - 60
+- print:
+  - 美咲
+  - |2-
+
+    我會坦率接受你的稱讚的！　
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 105011
+- bust:
+  - 105011
+  - 0
+- vo:
+  - vo_adv_6088101_003
+- face:
+  - 105011
+  - 6
+- print:
+  - 美咲
+  - 秋乃小姐……
+- wait:
+  - 60
+- print:
+  - 美咲
+  - 也對……
+- wait:
+  - 40
+- face:
+  - 105011
+  - 4
+- print:
+  - 美咲
+  - 她的確是個很棒的人，
+- wait:
+  - 60
+- print:
+  - 美咲
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - 美咲
+  - 但總覺得好像不是我所追求的那種成熟淑女形象……
+- wait:
+  - 100
+- print:
+  - 美咲
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 美咲
+  - 雖然……
+- wait:
+  - 40
+- print:
+  - 美咲
+  - 她確實挺棒的……
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - FALSE
+- fadeout:
+  - 105011
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- se_pause:
+  - amb_adv_room_noise_day_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

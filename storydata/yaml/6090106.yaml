@@ -1,0 +1,291 @@
+- title:
+  - お化け屋敷について
+- outline:
+  - ' '
+- background:
+  - 501132
+- amb:
+  - amb_adv_outdoors_night_01
+- ui_visible:
+  - FALSE
+- situation:
+  - お化け屋敷について
+- chara_full:
+  - 113911
+  - C
+  - 4
+- fadein:
+  - 113911
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M269_04
+  - 0
+  - 0
+  - 1
+- focus:
+  - 113911
+- bust:
+  - 113911
+  - 0
+- vo:
+  - vo_adv_6050106_000
+- face:
+  - 113911
+  - 4
+- print:
+  - ツムギ
+  - お化け屋敷、
+- wait:
+  - 40
+- eye_open:
+  - False
+- print:
+  - ツムギ
+  - お化け屋敷かぁ……
+- wait:
+  - 60
+- print:
+  - ツムギ
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - ツムギ
+  - 考え始めるといろいろと難しいものですね。
+- wait:
+  - 70
+- print:
+  - ツムギ
+  - |2
+
+- face:
+  - 113911
+  - 6
+- print:
+  - ツムギ
+  - 騎士さん、
+- wait:
+  - 25
+- print:
+  - ツムギ
+  - 何かアイデアないですか？
+- touch: &o0 []
+- choice:
+  - たくさんお客さんを呼ぶ。
+  - 1
+  - 1
+- choice:
+  - 後ろからつつく。
+  - 2
+  - 2
+- choice:
+  - 罠を仕掛ける。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 113911
+- bust:
+  - 113911
+  - 0
+- vo:
+  - vo_adv_6050106_001
+- face:
+  - 113911
+  - 4
+- emotion:
+  - gloomy1_R
+  - 113911
+  - 35
+  - 515
+  - se_adv_emote_gloomy_01
+- print:
+  - ツムギ
+  - だからそのためにどうするか……
+- wait:
+  - 75
+- face:
+  - 113911
+  - 1
+- print:
+  - ツムギ
+  - いや、
+- wait:
+  - 30
+- print:
+  - ツムギ
+  - それも大切ですね。
+- wait:
+  - 50
+- print:
+  - ツムギ
+  - |2-
+
+    まずは経験を積まないといけませんから。
+- wait:
+  - 50
+- face:
+  - 113911
+  - 6
+- print:
+  - ツムギ
+  - でも呼び込みは
+- wait:
+  - 20
+- print:
+  - ツムギ
+  - |2-
+
+    騎士さんの仕事ですよ？　
+- wait:
+  - 25
+- print:
+  - ツムギ
+  - 責任重大です。
+- wait:
+  - 30
+- face:
+  - 113911
+  - 2
+- print:
+  - ツムギ
+  - がんばってくださいね。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 113911
+- bust:
+  - 113911
+  - 0
+- vo:
+  - vo_adv_6050106_002
+- face:
+  - 113911
+  - 6
+- print:
+  - ツムギ
+  - お化け屋敷って基本的に直接接触厳禁なんですよ？
+- wait:
+  - 90
+- print:
+  - ツムギ
+  - |2
+
+- face:
+  - 113911
+  - 1
+- print:
+  - ツムギ
+  - でももし、
+- wait:
+  - 30
+- print:
+  - ツムギ
+  - レイ様にそんなことができたら……
+- wait:
+  - 55
+- face:
+  - 113911
+  - 4
+- print:
+  - ツムギ
+  - だめですね。
+- wait:
+  - 40
+- print:
+  - ツムギ
+  - |2-
+
+    気づかれて叱られる未来しか見えません。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 113911
+- bust:
+  - 113911
+  - 0
+- vo:
+  - vo_adv_6050106_003
+- face:
+  - 113911
+  - 6
+- print:
+  - ツムギ
+  - い、
+- wait:
+  - 20
+- print:
+  - ツムギ
+  - 意外と荒っぽいアイデアですね。
+- wait:
+  - 45
+- print:
+  - ツムギ
+  - |2-
+
+    え？　
+- wait:
+  - 25
+- print:
+  - ツムギ
+  - こんにゃくをほっぺに？　
+- wait:
+  - 35
+- face:
+  - 113911
+  - 4
+- print:
+  - ツムギ
+  - そ、
+- wait:
+  - 15
+- print:
+  - ツムギ
+  - そうですか……
+- wait:
+  - 45
+- print:
+  - ツムギ
+  - |2
+
+- face:
+  - 113911
+  - 1
+- print:
+  - ツムギ
+  - まぁ、
+- wait:
+  - 20
+- print:
+  - ツムギ
+  - 候補としては残しておきますね。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 113911
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

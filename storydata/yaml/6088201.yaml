@@ -1,0 +1,268 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500110
+- se:
+  - amb_adv_room_noise_day_01
+- ui_visible:
+  - false
+- situation:
+  - 成熟的淑女
+- chara_full:
+  - 102111
+  - C
+  - 6
+- fadein:
+  - 102111
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M190
+  - 0
+  - 0
+  - 1
+  - 0.4
+- focus:
+  - 102111
+- bust:
+  - 102111
+  - 0
+- vo:
+  - vo_adv_6088201_000
+- face:
+  - 102111
+  - 6
+- print:
+  - 胡桃
+  - 美咲所說的
+- wait:
+  - 30
+- print:
+  - 胡桃
+  - 成熟的淑女
+- wait:
+  - 35
+- print:
+  - 胡桃
+  - 是怎麼樣的人呢？
+- wait:
+  - 60
+- print:
+  - 胡桃
+  - |2
+
+- face:
+  - 102111
+  - 1
+- print:
+  - 胡桃
+  - 總覺得不只是像咲戀媽媽那樣的感覺……
+- touch: &o0 []
+- choice:
+  - 像秋乃小姐那樣的人。
+  - 1
+  - 1
+- choice:
+  - 像真陽小姐那樣的人。
+  - 2
+  - 2
+- choice:
+  - 像胡桃這樣的人。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 102111
+- bust:
+  - 102111
+  - 0
+- vo:
+  - vo_adv_6088201_001
+- face:
+  - 102111
+  - 2
+- print:
+  - 胡桃
+  - 一想到各種做生意的點子
+- wait:
+  - 35
+- print:
+  - 胡桃
+  - |-
+    就會立刻去執行，
+    這一點很帥氣呢。
+- wait:
+  - 120
+- print:
+  - 胡桃
+  - |2
+
+- face:
+  - 102111
+  - 6
+- print:
+  - 胡桃
+  - 美咲長大後
+- wait:
+  - 35
+- print:
+  - 胡桃
+  - 也會充滿工作熱忱嗎？
+- wait:
+  - 70
+- face:
+  - 102111
+  - 2
+- print:
+  - 胡桃
+  - 真厲害……
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 102111
+- bust:
+  - 102111
+  - 0
+- vo:
+  - vo_adv_6088201_002
+- face:
+  - 102111
+  - 6
+- emotion:
+  - exclamation1_R
+  - 102111
+  - 45
+  - 585
+  - se_adv_emote_common_01
+- print:
+  - 胡桃
+  - ……哇！？
+- wait:
+  - 35
+- print:
+  - 胡桃
+  - 說得也是。
+- wait:
+  - 30
+- print:
+  - 胡桃
+  - 真陽小姐也是個大人呢。
+- wait:
+  - 70
+- print:
+  - 胡桃
+  - |2
+
+- face:
+  - 102111
+  - 1
+- print:
+  - 胡桃
+  - 從事牧場工作的真陽小姐
+- wait:
+  - 75
+- print:
+  - 胡桃
+  - 無疑是個大人……
+- wait:
+  - 50
+- print:
+  - 胡桃
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - 胡桃
+  - 我怎麼老是忘記這點呢……
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 102111
+- bust:
+  - 102111
+  - 0
+- vo:
+  - vo_adv_6088201_003
+- face:
+  - 102111
+  - 6
+- emotion:
+  - surprise1_L
+  - 102111
+  - 190
+  - 490
+  - se_adv_emote_common_01
+- print:
+  - 胡桃
+  - 咦咦！？
+- wait:
+  - 15
+- print:
+  - 胡桃
+  - 你、
+- wait:
+  - 10
+- print:
+  - 胡桃
+  - 你說我嗎？
+- wait:
+  - 85
+- print:
+  - 胡桃
+  - |2-
+
+    啊，
+- wait:
+  - 30
+- print:
+  - 胡桃
+  - 你是指演戲時候的我吧。
+- wait:
+  - 85
+- print:
+  - 胡桃
+  - |2
+
+- face:
+  - 102111
+  - 2
+- print:
+  - 胡桃
+  - 不過
+- wait:
+  - 20
+- print:
+  - 胡桃
+  - 總覺得還是有點不好意思。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - FALSE
+- fadeout:
+  - 102111
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- se_pause:
+  - amb_adv_room_noise_day_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

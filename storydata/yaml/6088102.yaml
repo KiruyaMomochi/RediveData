@@ -1,0 +1,288 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 501510
+- se:
+  - amb_adv_outdoors_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 未來的知名女演員
+- chara_full:
+  - 121411
+  - C
+  - 6
+- fadein:
+  - 121411
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M190
+  - 0
+  - 0
+  - 1
+  - 0.4
+- focus:
+  - 121411
+- bust:
+  - 121411
+  - 0
+- vo:
+  - vo_adv_6088102_000
+- face:
+  - 121411
+  - 6
+- print:
+  - 美咲
+  - 胡桃平時那麼文靜，
+- wait:
+  - 45
+- print:
+  - 美咲
+  - |2-
+
+    但演起戲來真的很厲害耶。
+- wait:
+  - 80
+- print:
+  - 美咲
+  - 簡直像另一個人。
+- wait:
+  - 55
+- print:
+  - 美咲
+  - |2-
+
+    那就是
+- wait:
+  - 30
+- print:
+  - 美咲
+  - 女演員啊……
+- touch: &o0 []
+- choice:
+  - 美咲也是女演員。
+  - 1
+  - 1
+- choice:
+  - 搞不好真的是另一個人……
+  - 2
+  - 2
+- choice:
+  - 美咲也試試看吧。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 121411
+- bust:
+  - 121411
+  - 0
+- vo:
+  - vo_adv_6088102_001
+- face:
+  - 121411
+  - 4
+- emotion:
+  - question1_R
+  - 121411
+  - 96
+  - 445
+  - se_adv_emote_question_01
+- print:
+  - 美咲
+  - ……？
+- wait:
+  - 30
+- print:
+  - 美咲
+  - 你在胡說什麼啊。
+- wait:
+  - 35
+- print:
+  - 美咲
+  - 我怎麼可能像胡桃那樣……
+- wait:
+  - 80
+- print:
+  - 美咲
+  - |2
+
+- face:
+  - 121411
+  - 6
+- print:
+  - 美咲
+  - 啊！
+- wait:
+  - 25
+- print:
+  - 美咲
+  - 你是想說我老愛裝大人是吧！？
+- wait:
+  - 60
+- print:
+  - 美咲
+  - |2
+
+- face:
+  - 121411
+  - 3
+- print:
+  - 美咲
+  - 可惡～～
+- wait:
+  - 35
+- print:
+  - 美咲
+  - 才沒有那種事！
+- wait:
+  - 40
+- print:
+  - 美咲
+  - 我才沒有裝！
+- wait:
+  - 20
+- print:
+  - 美咲
+  - 沒有裝！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 121411
+- bust:
+  - 121411
+  - 0
+- vo:
+  - vo_adv_6088102_002
+- face:
+  - 121411
+  - 3
+- nod:
+  - 121411
+- print:
+  - 美咲
+  - 不要突然說這種可怕的話啦。
+- wait:
+  - 50
+- print:
+  - 美咲
+  - |2-
+
+    那不可能好嗎。
+- wait:
+  - 60
+- print:
+  - 美咲
+  - |2
+
+- face:
+  - 121411
+  - 4
+- print:
+  - 美咲
+  - 不可能……
+- wait:
+  - 40
+- print:
+  - 美咲
+  - 的吧？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 121411
+- bust:
+  - 121411
+  - 0
+- vo:
+  - vo_adv_6088102_003
+- face:
+  - 121411
+  - 6
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 121411
+- print:
+  - 美咲
+  - 咦！？
+- wait:
+  - 15
+- print:
+  - 美咲
+  - 我、
+- wait:
+  - 10
+- print:
+  - 美咲
+  - 我也試試？
+- wait:
+  - 30
+- print:
+  - 美咲
+  - |2
+
+- face:
+  - 121411
+  - 4
+- print:
+  - 美咲
+  - 我頂多也只在學校的才藝表演會登台過……
+- wait:
+  - 100
+- print:
+  - 美咲
+  - |2
+
+- face:
+  - 121411
+  - 6
+- print:
+  - 美咲
+  - 不過
+- wait:
+  - 35
+- print:
+  - 美咲
+  - 要是真有機會的話，
+- wait:
+  - 35
+- print:
+  - 美咲
+  - 我可能
+- wait:
+  - 30
+- print:
+  - 美咲
+  - 會想試試看吧。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - FALSE
+- fadeout:
+  - 121411
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- se_pause:
+  - amb_adv_outdoors_day_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

@@ -1,0 +1,267 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500159
+- se:
+  - amb_adv_pasture_01
+- ui_visible:
+  - false
+- situation:
+  - 未來的知名女演員
+- chara_full:
+  - 121311
+  - C
+  - 1
+- fadein:
+  - 121311
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M422
+  - 0
+  - 0
+  - 1
+  - 0.4
+- focus:
+  - 121311
+- bust:
+  - 121311
+  - 0
+- vo:
+  - vo_adv_6088202_000
+- face:
+  - 121311
+  - 1
+- print:
+  - 胡桃
+  - 跟美咲一起演出的舞台……
+- wait:
+  - 50
+- print:
+  - 胡桃
+  - |2
+
+- face:
+  - 121311
+  - 2
+- print:
+  - 胡桃
+  - 雖然靠我們自己準備各種大小事很辛苦，
+- wait:
+  - 80
+- print:
+  - 胡桃
+  - |2-
+
+    但似乎也對磨練演技有幫助。
+- wait:
+  - 75
+- print:
+  - 胡桃
+  - 但願能讓大家都看得很開心。
+- touch: &o0 []
+- choice:
+  - 真不愧是未來的知名女演員。
+  - 1
+  - 1
+- choice:
+  - 開開心心地上台演出吧。
+  - 2
+  - 2
+- choice:
+  - 也可以擔任製作人呢。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 121311
+- bust:
+  - 121311
+  - 0
+- vo:
+  - vo_adv_6088202_001
+- face:
+  - 121311
+  - 6
+- print:
+  - 胡桃
+  - 才、
+- wait:
+  - 15
+- print:
+  - 胡桃
+  - 才沒有那回事呢。
+- wait:
+  - 50
+- print:
+  - 胡桃
+  - |2-
+
+    我光是要熟悉每一個舞台就已經很吃力了。
+- wait:
+  - 120
+- print:
+  - 胡桃
+  - |2
+
+- face:
+  - 121311
+  - 2
+- print:
+  - 胡桃
+  - 不過，
+- wait:
+  - 40
+- print:
+  - 胡桃
+  - 只要盡心竭力一步一腳印走下去，
+- wait:
+  - 85
+- print:
+  - 胡桃
+  - 總會有
+- wait:
+  - 20
+- print:
+  - 胡桃
+  - 那麼一天的吧？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 121311
+- bust:
+  - 121311
+  - 0
+- vo:
+  - vo_adv_6088202_002
+- face:
+  - 121311
+  - 2
+- nod:
+  - 121311
+- print:
+  - 胡桃
+  - 要是我自己不開心，
+- wait:
+  - 40
+- print:
+  - 胡桃
+  - 就無法傳遞快樂給客人是吧。
+- wait:
+  - 85
+- print:
+  - 胡桃
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - 胡桃
+  - 嗯。
+- wait:
+  - 25
+- print:
+  - 胡桃
+  - 為了讓正式演出更有趣，
+- wait:
+  - 40
+- print:
+  - 胡桃
+  - 我得加倍練習才行。
+- wait:
+  - 65
+- print:
+  - 胡桃
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 胡桃
+  - 也得叫美咲陪我一起練習！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 121311
+- bust:
+  - 121311
+  - 0
+- vo:
+  - vo_adv_6088202_003
+- face:
+  - 121311
+  - 6
+- emotion:
+  - question1_R
+  - 121311
+  - 125
+  - 425
+  - se_adv_emote_question_01
+- print:
+  - 胡桃
+  - 製作人？
+- wait:
+  - 55
+- print:
+  - 胡桃
+  - 我、
+- wait:
+  - 15
+- print:
+  - 胡桃
+  - 我從來沒有考慮過那種事。
+- wait:
+  - 95
+- print:
+  - 胡桃
+  - |2-
+
+    哥哥
+- wait:
+  - 35
+- print:
+  - 胡桃
+  - 有認識製作人嗎？
+- wait:
+  - 80
+- print:
+  - 胡桃
+  - |2
+
+- face:
+  - 121311
+  - 1
+- print:
+  - 胡桃
+  - 果然哥哥才是最厲害的……
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - FALSE
+- fadeout:
+  - 121311
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- se_pause:
+  - amb_adv_pasture_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

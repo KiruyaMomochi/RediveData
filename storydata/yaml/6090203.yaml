@@ -1,0 +1,278 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500042
+- amb:
+  - amb_adv_room_noise_01
+- ui_visible:
+  - false
+- situation:
+  - 關於預告信
+- chara_full:
+  - 121611
+  - C
+  - 1
+- fadein:
+  - 121611
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M575A
+  - 0
+  - 0
+  - 1
+- focus:
+  - 121611
+- bust:
+  - 121611
+  - 0
+- vo:
+  - vo_adv_6090203_000
+- face:
+  - 121611
+  - 1
+- print:
+  - 祈梨
+  - 老大說過
+- wait:
+  - 60
+- print:
+  - 祈梨
+  - 預告信就像是
+- wait:
+  - 30
+- print:
+  - 祈梨
+  - 怪盜的美學吧。
+- wait:
+  - 45
+- print:
+  - 祈梨
+  - |2
+
+- face:
+  - 121611
+  - 2
+- nod:
+  - 121611
+- print:
+  - 祈梨
+  - 的確就如老大說的，
+- wait:
+  - 55
+- print:
+  - 祈梨
+  - 假如我要單獨進行怪盜活動的話，
+- wait:
+  - 65
+- print:
+  - 祈梨
+  - |2-
+
+    我會很果斷地把預告信送給目標哦！
+- touch: &o0 []
+- choice:
+  - 必須好好想要如何設計預告信呢。
+  - 1
+  - 1
+- choice:
+  - 預告信很帥氣呢！
+  - 2
+  - 2
+- choice:
+  - 預告信有什麼涵義嗎？
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 121611
+- bust:
+  - 121611
+  - 0
+- vo:
+  - vo_adv_6090203_001
+- face:
+  - 121611
+  - 2
+- eye_open:
+  - False
+- print:
+  - 祈梨
+  - 哼哼哼……
+- wait:
+  - 50
+- eye_open:
+  - True
+- print:
+  - 祈梨
+  - 其實我有在想囉！
+- wait:
+  - 60
+- print:
+  - 祈梨
+  - |2-
+
+    應該說
+- wait:
+  - 20
+- print:
+  - 祈梨
+  - 我已經
+- wait:
+  - 10
+- print:
+  - 祈梨
+  - 開始製作了！
+- wait:
+  - 45
+- print:
+  - 祈梨
+  - |2
+
+- nod:
+  - 121611
+- print:
+  - 祈梨
+  - 再等一陣子，
+- wait:
+  - 20
+- print:
+  - 祈梨
+  - 就秀出我的預告信給小哥看吧！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 121611
+- bust:
+  - 121611
+  - 0
+- vo:
+  - vo_adv_6090203_002
+- face:
+  - 121611
+  - 2
+- print:
+  - 祈梨
+  - 小哥很懂怪盜的浪漫呢！
+- wait:
+  - 85
+- print:
+  - 祈梨
+  - |2
+
+- face:
+  - 121611
+  - 1
+- print:
+  - 祈梨
+  - 目標收到預告信後加以堤防……！
+- wait:
+  - 55
+- print:
+  - 祈梨
+  - |2
+
+- face:
+  - 121611
+  - 2
+- print:
+  - 祈梨
+  - 然而，
+- wait:
+  - 20
+- print:
+  - 祈梨
+  - 怪盜仍華麗偷走東西！
+- wait:
+  - 60
+- emotion:
+  - twinkle1_R
+  - 121611
+  - -135
+  - 425
+  - se_adv_emote_twinkle_01
+- print:
+  - 祈梨
+  - 因此才令人感到興奮啊！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 121611
+- bust:
+  - 121611
+  - 0
+- vo:
+  - vo_adv_6090203_003
+- face:
+  - 121611
+  - 6
+- print:
+  - 祈梨
+  - 小哥，
+- wait:
+  - 15
+- print:
+  - 祈梨
+  - 你不懂嗎？
+- wait:
+  - 35
+- print:
+  - 祈梨
+  - |2
+
+- face:
+  - 121611
+  - 1
+- print:
+  - 祈梨
+  - 預告信……
+- wait:
+  - 60
+- face:
+  - 121611
+  - 2
+- print:
+  - 祈梨
+  - 預告信
+- wait:
+  - 20
+- print:
+  - 祈梨
+  - 非常帥氣啊！
+- wait:
+  - 45
+- print:
+  - 祈梨
+  - |2-
+
+    追求浪漫正是所謂的怪盜！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 121611
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

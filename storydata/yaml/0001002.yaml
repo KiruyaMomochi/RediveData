@@ -1,0 +1,745 @@
+- title:
+  - 新たなバトルを待ちながら
+- outline:
+  - '{0}たちがゲームの世界から帰還してしばらく経ったある日、ラビリスタが改良したゲームを持って【美食殿】のギルドハウスを訪ね、留守番をしているシェフィと一緒にゲームを遊び始める。'
+- background:
+  - 500361
+- se:
+  - amb_adv_room_noise_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 新たなバトルを待ちながら
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - 【美食殿】と【トゥインクルウィッシュ】の面々が、
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    ラビリスタの作った不思議なゲームの世界を体験してから、
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    しばらく経ったある日──
+- wait:
+  - 30
+- touch: &o0 []
+- bgm:
+  - bgm_M555
+  - 0
+  - 0
+  - 1
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_0001002_000
+- face:
+  - 1
+  - 1
+- print:
+  - ？？？
+  - すいませ〜ん、
+- wait:
+  - 35
+- print:
+  - ？？？
+  - お届け物に参りました〜
+- touch: *o0
+- window_visible:
+  - FALSE
+- chara_full:
+  - 106412
+  - C
+  - 6
+- fadein:
+  - 106412
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_0001002_001
+- face:
+  - 106412
+  - 6
+- nod:
+  - 106412
+- print:
+  - シェフィ
+  - は〜い！　
+- wait:
+  - 20
+- print:
+  - シェフィ
+  - 今開けます！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106412
+  - 30
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- background:
+  - 500360
+- wait:
+  - 15
+- se:
+  - se_adv_door_open_01
+- black_in: *o0
+- amb:
+  - amb_adv_outdoors_day_01
+- chara_full:
+  - 106812
+  - LC
+  - 1
+- chara_full:
+  - 106412
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_0001002_002
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - やっほ〜、
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - シェフィちゃん。
+- touch: *o0
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_0001002_003
+- face:
+  - 106412
+  - 2
+- emotion:
+  - notice1_L
+  - 106412
+  - -75
+  - 485
+  - se_adv_emote_common_01
+- print:
+  - シェフィ
+  - ラビリスタさん！　
+- wait:
+  - 45
+- print:
+  - シェフィ
+  - こんにちは。
+- wait:
+  - 35
+- print:
+  - シェフィ
+  - |2
+
+- face:
+  - 106412
+  - 6
+- print:
+  - シェフィ
+  - けど、
+- wait:
+  - 20
+- print:
+  - シェフィ
+  - お届け物って……？
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_0001002_004
+- face:
+  - 106812
+  - 1
+- nod:
+  - 106812
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - ラビリスタ
+  - はいこれ。
+- wait:
+  - 40
+- print:
+  - ラビリスタ
+  - この前みんなに遊んでもらったゲーム。
+- wait:
+  - 50
+- print:
+  - ラビリスタ
+  - |2-
+
+    不具合修正が終わったから、
+- wait:
+  - 15
+- print:
+  - ラビリスタ
+  - 渡しにきたんだ。
+- touch: *o0
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_0001002_005
+- face:
+  - 106412
+  - 6
+- print:
+  - シェフィ
+  - そうだったのね。
+- wait:
+  - 55
+- face:
+  - 106412
+  - 4
+- print:
+  - シェフィ
+  - ごめんなさい。
+- wait:
+  - 40
+- print:
+  - シェフィ
+  - 他のみんなは今、
+- wait:
+  - 20
+- print:
+  - シェフィ
+  - |2-
+
+    【トゥインクルウィッシュ】の人たちと出かけてて……
+- wait:
+  - 60
+- print:
+  - シェフィ
+  - |2
+
+- face:
+  - 106412
+  - 1
+- print:
+  - シェフィ
+  - 私が預かっておくわ。
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_0001002_006
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - よろしくね。
+- wait:
+  - 30
+- face:
+  - 106812
+  - 4
+- print:
+  - ラビリスタ
+  - 本当は直接謝りたかったんだけど、
+- wait:
+  - 55
+- print:
+  - ラビリスタ
+  - |2
+
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - それはまた今度にしておこうかな。
+- touch: *o0
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_0001002_007
+- face:
+  - 106412
+  - 6
+- emotion:
+  - question1_R
+  - 106412
+  - 120
+  - 395
+  - se_adv_emote_question_01
+- print:
+  - シェフィ
+  - 謝りたい……？
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_0001002_008
+- face:
+  - 106812
+  - 4
+- print:
+  - ラビリスタ
+  - うん。
+- wait:
+  - 30
+- emotion:
+  - gloomy1_R
+  - 106812
+  - 40
+  - 570
+  - se_adv_emote_gloomy_01
+- eye_open:
+  - False
+- print:
+  - ラビリスタ
+  - 実は
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - ちょ〜っとしたバグがあったんだ。
+- wait:
+  - 90
+- print:
+  - ラビリスタ
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - ラビリスタ
+  - それのせいでみんなが大変な目に遭ったのよ〜って、
+- wait:
+  - 70
+- print:
+  - ラビリスタ
+  - |2-
+
+    キャルちゃんからものすご〜く怒られちゃってさ。
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_0001002_009
+- face:
+  - 106812
+  - 4
+- print:
+  - ラビリスタ
+  - お詫びのクレープも一緒に持ってきたんだけど、
+- wait:
+  - 35
+- print:
+  - ラビリスタ
+  - |2
+
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - タイミングが悪かったみたいだね。
+- touch: *o0
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_0001002_010
+- face:
+  - 106412
+  - 6
+- print:
+  - シェフィ
+  - ……あの、
+- wait:
+  - 30
+- print:
+  - シェフィ
+  - みんなはきっと、
+- wait:
+  - 25
+- print:
+  - シェフィ
+  - |2-
+
+    もう少ししたら戻ってくるわ。
+- wait:
+  - 50
+- print:
+  - シェフィ
+  - |2
+
+- face:
+  - 106412
+  - 2
+- print:
+  - シェフィ
+  - よかったら、
+- wait:
+  - 30
+- print:
+  - シェフィ
+  - それまで待っていきませんか？
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_0001002_011
+- face:
+  - 106812
+  - 4
+- print:
+  - ラビリスタ
+  - いいの？　
+- wait:
+  - 45
+- face:
+  - 106812
+  - 1
+- nod:
+  - 106812
+- print:
+  - ラビリスタ
+  - じゃあお言葉に甘えようかな。
+- wait:
+  - 45
+- print:
+  - ラビリスタ
+  - |2-
+
+    お邪魔しま〜す。
+- touch: *o0
+- bgm:
+  - stop
+  - 3.5
+  - 1
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- background:
+  - 500361
+- wait:
+  - 30
+- black_in: *o0
+- amb:
+  - amb_adv_room_noise_01
+- chara_full:
+  - 106412
+  - LC
+  - 1
+- chara_full:
+  - 106812
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M52
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_0001002_012
+- face:
+  - 106412
+  - 1
+- nod:
+  - 106412
+- print:
+  - シェフィ
+  - ねえ、
+- wait:
+  - 15
+- print:
+  - シェフィ
+  - ラビリスタさん。
+- wait:
+  - 35
+- face:
+  - 106412
+  - 6
+- print:
+  - シェフィ
+  - このゲームって
+- wait:
+  - 35
+- print:
+  - シェフィ
+  - |-
+    みんなが
+    ユニットとして戦うゲームなのよね？
+- wait:
+  - 85
+- print:
+  - シェフィ
+  - |2
+
+- face:
+  - 106412
+  - 2
+- print:
+  - シェフィ
+  - ……私のユニットも、
+- wait:
+  - 40
+- print:
+  - シェフィ
+  - いつかみんなと一緒に戦えるのかしら？
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_0001002_013
+- face:
+  - 106812
+  - 4
+- print:
+  - ラビリスタ
+  - まだまだ試作段階だからね〜
+- wait:
+  - 55
+- print:
+  - ラビリスタ
+  - |2
+
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - その辺は
+- wait:
+  - 35
+- print:
+  - ラビリスタ
+  - またのお楽しみ
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - ってことにしておいてくれると、
+- wait:
+  - 20
+- print:
+  - ラビリスタ
+  - |2-
+
+    ラビリスタお姉さんはうれしいのでした。
+- touch: *o0
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_0001002_014
+- face:
+  - 106412
+  - 2
+- nod:
+  - 106412
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - シェフィ
+  - ええ、
+- wait:
+  - 20
+- print:
+  - シェフィ
+  - 楽しみにしておくわ。
+- wait:
+  - 50
+- print:
+  - シェフィ
+  - |2-
+
+    それじゃあ
+- wait:
+  - 20
+- print:
+  - シェフィ
+  - みんなが戻ってくる前に、
+- wait:
+  - 35
+- print:
+  - シェフィ
+  - |2-
+
+    私にも遊び方を教えてくれる？
+- touch: *o0
+- focus:
+  - 106812
+- bust:
+  - 106812
+  - 0
+- vo:
+  - vo_adv_0001002_015
+- face:
+  - 106812
+  - 1
+- print:
+  - ラビリスタ
+  - みんなをあっと驚かせたいんだね？　
+- wait:
+  - 55
+- emotion:
+  - note1_L
+  - 106812
+  - -100
+  - 550
+  - se_adv_emote_note_01
+- print:
+  - ラビリスタ
+  - いいとも。
+- wait:
+  - 25
+- print:
+  - ラビリスタ
+  - |2-
+
+    サプライズは大好きだ。
+- wait:
+  - 30
+- print:
+  - ラビリスタ
+  - それじゃあ開発者自ら、
+- wait:
+  - 50
+- print:
+  - ラビリスタ
+  - |2-
+
+    このゲームの遊び方を教えてあげよう！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - こうしてシェフィとラビリスタは、
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    ギルドハウスへ帰ってくる仲間を待ちながら、
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    真剣にゲームを遊び始めるのだった。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- se_pause:
+  - amb_adv_room_noise_day_01
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

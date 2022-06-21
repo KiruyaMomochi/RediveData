@@ -1,0 +1,714 @@
+- title:
+  - GAME START！
+- outline:
+  - 【美食殿】のギルドハウスにいた{0}の元に、【トゥインクルウィッシュ】の３人を連れてキャルがゲームを持ち帰ってくる。起動したゲームが急に光だし、全員がゲームに吸い込まれてしまう。
+- background:
+  - 500361
+- se:
+  - amb_adv_room_noise_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - GAME START！
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - ある日の【美食殿】のギルドハウス。
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    {0}は特にやることもなくのんびりと
+    くつろいでいた。
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - そんな時、出かけていたキャルが帰宅してきた。
+- wait:
+  - 30
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 106012
+  - L
+  - 1
+- chara_full:
+  - 105913
+  - RC
+  - 1
+- se:
+  - se_adv_door_open_01
+- se:
+  - se_adv_step_wood_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M321
+  - 0
+  - 0
+  - 1
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_0001001_000
+- face:
+  - 106012
+  - 2
+- print:
+  - キャル
+  - ただいまー
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_0001001_001
+- face:
+  - 105913
+  - 2
+- print:
+  - コッコロ
+  - おかえりなさいませキャルさま。
+- wait:
+  - 60
+- print:
+  - コッコロ
+  - |2
+
+- face:
+  - 105913
+  - 6
+- emotion:
+  - notice1_L
+  - 105913
+  - -60
+  - 485
+  - se_adv_emote_common_01
+- print:
+  - コッコロ
+  - おや、
+- wait:
+  - 35
+- face:
+  - 105913
+  - 2
+- print:
+  - コッコロ
+  - みなさまもご一緒だったのですね。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100213
+  - C
+  - 1
+- chara_full:
+  - 100111
+  - L
+  - 1
+- chara_full:
+  - 100311
+  - R
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100213
+- bust:
+  - 100213
+  - 0
+- vo:
+  - vo_adv_0001001_002
+- face:
+  - 100213
+  - 1
+- print:
+  - ユイ
+  - こんにちは。
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_0001001_003
+- face:
+  - 100111
+  - 2
+- pop:
+  - 100111
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - ヒヨリ
+  - おじゃましまーす！
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 1
+- vo:
+  - vo_adv_0001001_004
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - 【トゥインクルウィッシュ】のみんな！
+- wait:
+  - 20
+- print:
+  - ペコリーヌ
+  - |2
+
+- face:
+  - 105812
+  - 2
+- print:
+  - ペコリーヌ
+  - 遊びに来てくれたんですか？
+- touch: *o0
+- face:
+  - 100111
+  - 1
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_0001001_005
+- face:
+  - 100311
+  - 1
+- print:
+  - レイ
+  - ああ、
+- wait:
+  - 30
+- print:
+  - レイ
+  - さっきこの近くで偶然キャルと会って、
+- wait:
+  - 45
+- print:
+  - レイ
+  - |2-
+
+    せっかくならと招待してもらったんだ。
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_0001001_006
+- face:
+  - 100111
+  - 6
+- emotion:
+  - question1_R
+  - 100111
+  - 115
+  - 515
+  - se_adv_emote_question_01
+- print:
+  - ヒヨリ
+  - あれ？　
+- wait:
+  - 25
+- print:
+  - ヒヨリ
+  - シェフィちゃんは？
+- wait:
+  - 35
+- print:
+  - ヒヨリ
+  - |2-
+
+    お出かけ中？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105812
+  - LC
+  - 2
+- chara_full:
+  - 106012
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_0001001_007
+- face:
+  - 105812
+  - 2
+- print:
+  - ペコリーヌ
+  - シェフィちゃんはおつかいに行ってくれてるんです！
+- wait:
+  - 35
+- print:
+  - ペコリーヌ
+  - |2
+
+- face:
+  - 105812
+  - 1
+- print:
+  - ペコリーヌ
+  - 最近はよく一人であちこち出かけてるんですよ！
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_0001001_008
+- face:
+  - 106012
+  - 2
+- print:
+  - キャル
+  - シェフィが帰ってきたらすぐ遊べるように、
+- wait:
+  - 45
+- print:
+  - キャル
+  - |2-
+
+    あたしたちで先に、
+- wait:
+  - 20
+- print:
+  - キャル
+  - ゲームのルールを覚えておきましょ。
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_0001001_009
+- face:
+  - 105812
+  - 6
+- emotion:
+  - question1_R
+  - 105812
+  - 105
+  - 510
+  - se_adv_emote_question_01
+- print:
+  - ペコリーヌ
+  - ゲーム？　
+- wait:
+  - 35
+- print:
+  - ペコリーヌ
+  - ボードゲームみたいですね。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100311
+  - RC
+  - 1
+- chara_full:
+  - 100213
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100311
+- bust:
+  - 100311
+  - 0
+- vo:
+  - vo_adv_0001001_010
+- face:
+  - 100311
+  - 1
+- print:
+  - レイ
+  - どうやらそうらしい。
+- wait:
+  - 45
+- face:
+  - 100311
+  - 6
+- print:
+  - レイ
+  - キャルと会った時にも話したんだけど、
+- wait:
+  - 40
+- print:
+  - レイ
+  - |2
+
+- face:
+  - 100311
+  - 1
+- print:
+  - レイ
+  - ユイが貰ってきたものを遊ぼうとしていたのさ。
+- touch: *o0
+- focus:
+  - 100213
+- bust:
+  - 100213
+  - 0
+- vo:
+  - vo_adv_0001001_011
+- face:
+  - 100213
+  - 1
+- print:
+  - ユイ
+  - このゲーム、
+- wait:
+  - 15
+- print:
+  - ユイ
+  - 遊び方は簡単だけど、
+- wait:
+  - 35
+- print:
+  - ユイ
+  - 奥が深いみたい。
+- wait:
+  - 40
+- print:
+  - ユイ
+  - |2
+
+- face:
+  - 100213
+  - 6
+- print:
+  - ユイ
+  - ゲームってあんまり遊んだことがないから、
+- wait:
+  - 40
+- print:
+  - ユイ
+  - |2
+
+- face:
+  - 100213
+  - 1
+- print:
+  - ユイ
+  - 最初はいろんな人と遊びたいなって思ったの。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105913
+  - LC
+  - 6
+- chara_full:
+  - 106012
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_0001001_012
+- face:
+  - 105913
+  - 6
+- print:
+  - コッコロ
+  - そちらは
+- wait:
+  - 35
+- print:
+  - コッコロ
+  - 手引き書でしょうか。
+- wait:
+  - 55
+- print:
+  - コッコロ
+  - |2
+
+- nod:
+  - 105913
+- se:
+  - se_adv_paper_move_04
+- print:
+  - コッコロ
+  - ふむ……
+- wait:
+  - 40
+- print:
+  - コッコロ
+  - まずはこちらのボタンを押して、
+- wait:
+  - 60
+- print:
+  - コッコロ
+  - ゲームを起動……
+- wait:
+  - 60
+- print:
+  - コッコロ
+  - |2
+
+- face:
+  - 105913
+  - 1
+- print:
+  - コッコロ
+  - 次は参加者の手を、
+- wait:
+  - 30
+- print:
+  - コッコロ
+  - ボタンに乗せるそうです。
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_0001001_013
+- face:
+  - 106012
+  - 1
+- print:
+  - キャル
+  - 思ったよりも本格的ね……
+- wait:
+  - 60
+- print:
+  - キャル
+  - |2
+
+- face:
+  - 106012
+  - 6
+- bgm:
+  - stop
+  - 8
+  - 1
+- print:
+  - キャル
+  - ねえ。
+- wait:
+  - 30
+- print:
+  - キャル
+  - このボタン、
+- wait:
+  - 20
+- print:
+  - キャル
+  - なんかものすご〜く光りだしてない？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_magic_peco_01
+- white_out:
+  - 0.5
+  - 0.2
+- white_in: *o0
+- chara_full:
+  - 105812
+  - RC
+  - 6
+- chara_full:
+  - 100213
+  - LC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M306
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_0001001_014
+- face:
+  - 105812
+  - 6
+- print:
+  - ペコリーヌ
+  - それになんだか、
+- wait:
+  - 30
+- print:
+  - ペコリーヌ
+  - ボタンに引っ張られてる気がします！
+- wait:
+  - 35
+- print:
+  - ペコリーヌ
+  - |2
+
+- face:
+  - 105812
+  - 4
+- print:
+  - ペコリーヌ
+  - というより吸い込まれちゃってます！　
+- wait:
+  - 45
+- face:
+  - 105812
+  - 6
+- print:
+  - ペコリーヌ
+  - これは……
+- wait:
+  - 35
+- print:
+  - ペコリーヌ
+  - |2-
+
+    このままだと、
+- wait:
+  - 40
+- face:
+  - 105812
+  - 2
+- print:
+  - ペコリーヌ
+  - やばいですね……☆
+- touch: *o0
+- window_visible:
+  - false
+- face:
+  - 105812
+  - 6
+- change_window:
+  - 3
+- text_size:
+  - 60
+- shake_loop: *o0
+- window_visible:
+  - true
+- focus:
+  - 100213:105812
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_0001001_015
+- multi_talk:
+  - 100213:105812
+- face:
+  - 1
+  - 1
+- print:
+  - 全員
+  - きゃあああぁぁぁ～！
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+- window_visible:
+  - FALSE
+- change_window:
+  - 1
+- text_size:
+  - 23
+- fadeout_all:
+  - 30
+- effect:
+  - 0006
+  - se_adv_whiteout_01
+- se:
+  - se_adv_whiteout_01
+- white_out:
+  - 1
+  - 1
+- shake_delete: *o0
+- effect_delete:
+  - 0006
+- ui_visible:
+  - false
+- wait:
+  - 15
+- white_in: *o0
+- wait:
+  - 30
+- se_pause:
+  - amb_adv_room_noise_day_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

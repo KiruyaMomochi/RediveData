@@ -1,0 +1,3186 @@
+- title:
+  - 蘭法 第2話
+- outline:
+  - 蘭法來到鎮上，但卻不敢跟其他人講話，覺得很困擾。就在這時，她遇到了{0}，並且在他的協助下成功與店員對話。然而，在聽到他的稱讚後，蘭法羞得即刻逃離現場。
+- bg_color:
+  - 0
+  - 0
+  - 0
+- situation:
+  - etude　～練習曲～
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - ──【憤怒‧軍團】瓦解後
+- wait:
+  - 15
+- print:
+  - 旁白
+  - |2-
+
+    不久。
+- wait:
+  - 30
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- black_out:
+  - 1
+  - 0.5
+- background:
+  - 500032
+- wait:
+  - 15
+- black_in: *o0
+- se:
+  - amb_adv_town_day_01
+- chara_full:
+  - 118111
+  - LC
+  - 1
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 118111
+  - 45
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M533
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_000
+- face:
+  - 118111
+  - 4
+- print:
+  - 蘭法
+  - 唔……
+- wait:
+  - 15
+- print:
+  - 蘭法
+  - ……
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_001
+- face:
+  - 118111
+  - 4
+- eye_open:
+  - False
+- print:
+  - 蘭法
+  - 傷、
+- wait:
+  - 25
+- print:
+  - 蘭法
+  - 傷腦筋……
+- wait:
+  - 80
+- print:
+  - 蘭法
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 蘭法
+  - ……該怎麼辦……
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- fadeout:
+  - 118111
+  - 30
+- chara_full:
+  - 1211
+  - RC
+  - 2
+- chara_full:
+  - 118111
+  - LC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 1211
+- bust:
+  - 1211
+  - 0
+- vo:
+  - vo_adv_1181002_002
+- face:
+  - 1211
+  - 2
+- print:
+  - 土產屋店員
+  - 歡迎光臨！
+- wait:
+  - 25
+- print:
+  - 土產屋店員
+  - |2
+
+- face:
+  - 1211
+  - 1
+- print:
+  - 土產屋店員
+  - 請問妳要找什麼呢？
+- touch: *o0
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_003
+- face:
+  - 118111
+  - 6
+- pop:
+  - 118111
+- se:
+  - se_adv_rabbit_jump_01
+- print:
+  - 蘭法
+  - 啊……
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - L
+  - LC
+  - 30
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_town_day_01
+- chara_full:
+  - 118111
+  - C
+  - 4
+- fadein:
+  - 118111
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_004
+- face:
+  - 118111
+  - 4
+- emotion:
+  - gloomy1_R
+  - 118111
+  - 35
+  - 555
+  - se_adv_emote_gloomy_01
+- print:
+  - 蘭法
+  - …………
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 1
+- vo:
+  - vo_adv_1181002_005
+- face:
+  - 911
+  - 1
+- print:
+  - 飾品屋店員
+  - 歡迎光臨！
+- wait:
+  - 35
+- print:
+  - 飾品屋店員
+  - |2
+
+- face:
+  - 911
+  - 2
+- print:
+  - 飾品屋店員
+  - 我們店裡有各式各樣
+- wait:
+  - 35
+- print:
+  - 飾品屋店員
+  - 適合小姑娘配戴的飾品喔！
+- touch: *o0
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_006
+- face:
+  - 118111
+  - 6
+- pop:
+  - 118111
+- se:
+  - se_adv_rabbit_jump_01
+- print:
+  - 蘭法
+  - 啊……
+- wait:
+  - 35
+- print:
+  - 蘭法
+  - |2
+
+- face:
+  - 118111
+  - 7
+- print:
+  - 蘭法
+  - ……呃、
+- wait:
+  - 30
+- print:
+  - 蘭法
+  - 那個……
+- touch: *o0
+- focus:
+  - 911
+- bust:
+  - 911
+  - 1
+- vo:
+  - vo_adv_1181002_007
+- face:
+  - 911
+  - 2
+- print:
+  - 飾品屋店員
+  - 是，
+- wait:
+  - 15
+- print:
+  - 飾品屋店員
+  - 妳想要哪一款呢！？
+- wait:
+  - 30
+- print:
+  - 飾品屋店員
+  - |2
+
+- face:
+  - 911
+  - 1
+- se:
+  - se_adv_acccesary_give_01
+- print:
+  - 飾品屋店員
+  - 這一款
+- wait:
+  - 20
+- print:
+  - 飾品屋店員
+  - 拿來送禮也很適合喔！
+- wait:
+  - 40
+- print:
+  - 飾品屋店員
+  - |2
+
+- face:
+  - 911
+  - 2
+- print:
+  - 飾品屋店員
+  - 我會幫妳打折的～！
+- touch: *o0
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_008
+- face:
+  - 118111
+  - 4
+- emotion:
+  - sweat2_R
+  - 118111
+  - 60
+  - 565
+  - se_adv_emote_sweat_02
+- print:
+  - 蘭法
+  - 對……
+- wait:
+  - 15
+- print:
+  - 蘭法
+  - |2-
+
+    對不起……！
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 118111
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- background:
+  - 500589
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_outdoors_night_02
+- chara_full:
+  - 118111
+  - LC
+  - 1
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 118111
+  - 45
+- window_visible:
+  - TRUE
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_009
+- face:
+  - 118111
+  - 4
+- nod:
+  - 118111
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 蘭法
+  - ……唉……
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_010
+- face:
+  - 118111
+  - 4
+- eye_open:
+  - False
+- print:
+  - 蘭法
+  - ……真是的。
+- wait:
+  - 45
+- print:
+  - 蘭法
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 蘭法
+  - 我明明就……
+- wait:
+  - 70
+- print:
+  - 蘭法
+  - 不可以、
+- wait:
+  - 40
+- print:
+  - 蘭法
+  - 逃走的……
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+  - 1
+- choice:
+  - 蘭法。
+  - 1
+- tag:
+  - 1
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - TRUE
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_011
+- face:
+  - 118111
+  - 6
+- emotion:
+  - surprise1_L
+  - 118111
+  - 150
+  - 545
+  - se_adv_emote_common_01
+- print:
+  - 蘭法
+  - 嗯！？
+- touch: *o0
+- bgm:
+  - bgm_M570
+  - 0
+  - 0
+  - 0
+  - 1.5
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_012
+- face:
+  - 118111
+  - 6
+- print:
+  - 蘭法
+  - ……是……
+- wait:
+  - 40
+- print:
+  - 蘭法
+  - 是你……
+- touch: *o0
+- choice:
+  - 晚安。
+  - 2
+- tag:
+  - 2
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_013
+- face:
+  - 118111
+  - 1
+- print:
+  - 蘭法
+  - 呃，
+- wait:
+  - 15
+- nod:
+  - 118111
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 蘭法
+  - 嗯……
+- wait:
+  - 60
+- print:
+  - 蘭法
+  - |2-
+
+    晚安……
+- touch: *o0
+- choice:
+  - 妳怎麼了？
+  - 3
+- tag:
+  - 3
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_014
+- face:
+  - 118111
+  - 4
+- print:
+  - 蘭法
+  - ……呃，
+- wait:
+  - 40
+- print:
+  - 蘭法
+  - 那個……
+- wait:
+  - 60
+- print:
+  - 蘭法
+  - |2
+
+- face:
+  - 118111
+  - 7
+- print:
+  - 蘭法
+  - 我想說……
+- wait:
+  - 80
+- print:
+  - 蘭法
+  - |2-
+
+    要送個
+- wait:
+  - 45
+- print:
+  - 蘭法
+  - 禮物……
+- wait:
+  - 65
+- print:
+  - 蘭法
+  - 給美空……
+- touch: *o0
+- choice:
+  - 禮物？
+  - 4
+- tag:
+  - 4
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_015
+- face:
+  - 118111
+  - 4
+- print:
+  - 蘭法
+  - 唔，
+- wait:
+  - 20
+- nod:
+  - 118111
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 蘭法
+  - 嗯……
+- touch: *o0
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_016
+- face:
+  - 118111
+  - 4
+- eye_open:
+  - False
+- print:
+  - 蘭法
+  - 我不知道……
+- wait:
+  - 60
+- print:
+  - 蘭法
+  - |2-
+
+    該怎麼做，
+- wait:
+  - 55
+- print:
+  - 蘭法
+  - 才能……
+- wait:
+  - 45
+- print:
+  - 蘭法
+  - |2-
+
+    跟美空，
+- wait:
+  - 115
+- eye_open:
+  - True
+- print:
+  - 蘭法
+  - 和好……
+- touch: *o0
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_017
+- face:
+  - 118111
+  - 6
+- print:
+  - 蘭法
+  - 但是……
+- wait:
+  - 65
+- print:
+  - 蘭法
+  - 下次再遇到她的話，
+- wait:
+  - 70
+- print:
+  - 蘭法
+  - 我想跟她說：
+- wait:
+  - 105
+- print:
+  - 蘭法
+  - |2
+
+- face:
+  - 118111
+  - 2
+- print:
+  - 蘭法
+  - 謝謝妳，
+- wait:
+  - 80
+- print:
+  - 蘭法
+  - 願意跟我這種人、
+- wait:
+  - 115
+- print:
+  - 蘭法
+  - 當朋友……
+- wait:
+  - 150
+- print:
+  - 蘭法
+  - |2
+
+- face:
+  - 118111
+  - 1
+- print:
+  - 蘭法
+  - 我想用具體的東西，
+- wait:
+  - 50
+- print:
+  - 蘭法
+  - 來表達我的心意……
+- touch: *o0
+- choice:
+  - 感覺是個好主意。
+  - 5
+- tag:
+  - 5
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_018
+- face:
+  - 118111
+  - 2
+- nod:
+  - 118111
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 蘭法
+  - 嗯……
+- touch: *o0
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_019
+- face:
+  - 118111
+  - 7
+- print:
+  - 蘭法
+  - ……可、
+- wait:
+  - 40
+- print:
+  - 蘭法
+  - 可是……
+- wait:
+  - 65
+- print:
+  - 蘭法
+  - |2-
+
+    我……
+- wait:
+  - 45
+- print:
+  - 蘭法
+  - |2-
+
+    辦、
+- wait:
+  - 30
+- print:
+  - 蘭法
+  - 辦不到……
+- touch: *o0
+- effect:
+  - 0011
+  - se_adv_emote_gloomy_01
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_020
+- face:
+  - 118111
+  - 4
+- eye_open:
+  - False
+- print:
+  - 蘭法
+  - 只要店員、
+- wait:
+  - 55
+- print:
+  - 蘭法
+  - 一對我說話……
+- wait:
+  - 95
+- print:
+  - 蘭法
+  - |2-
+
+    我、
+- wait:
+  - 25
+- print:
+  - 蘭法
+  - 我就不由得緊張起來……
+- touch: *o0
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_021
+- face:
+  - 118111
+  - 7
+- eye_open:
+  - True
+- print:
+  - 蘭法
+  - 別說是買東西了……
+- wait:
+  - 75
+- print:
+  - 蘭法
+  - |2-
+
+    我甚至，
+- wait:
+  - 65
+- print:
+  - 蘭法
+  - 會反射性地……
+- wait:
+  - 40
+- print:
+  - 蘭法
+  - 逃走……
+- touch: *o0
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_022
+- face:
+  - 118111
+  - 4
+- print:
+  - 蘭法
+  - 明明……
+- wait:
+  - 75
+- print:
+  - 蘭法
+  - 好不容易，
+- wait:
+  - 85
+- eye_open:
+  - False
+- print:
+  - 蘭法
+  - 才跟你們
+- wait:
+  - 55
+- print:
+  - 蘭法
+  - 和好的。
+- wait:
+  - 125
+- print:
+  - 蘭法
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 蘭法
+  - 這樣的話……
+- touch: *o0
+- effect_delete:
+  - 0011
+  - 15
+- se:
+  - se_adv_hungry_01
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_023
+- face:
+  - 118111
+  - 6
+- print:
+  - 蘭法
+  - ……啊……
+- touch: *o0
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_024
+- face:
+  - 118111
+  - 5
+- emotion:
+  - shy1_R
+  - 118111
+  - -85
+  - 485
+  - se_adv_emote_shy_01
+- print:
+  - 蘭法
+  - 嗚……
+- touch: *o0
+- choice:
+  - 總之先去吃點東西吧。
+  - 6
+- tag:
+  - 6
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_025
+- face:
+  - 118111
+  - 1
+- print:
+  - 蘭法
+  - ……唔、
+- wait:
+  - 30
+- nod:
+  - 118111
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 蘭法
+  - 嗯……
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2.5
+- fadeout:
+  - 118111
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_outdoors_night_02
+  - 1
+- background:
+  - 500032
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_town_day_01
+- chara_full:
+  - 118111
+  - C
+  - 1
+- fadein:
+  - 118111
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M140_NoBell
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 414
+- bust:
+  - 414
+  - 1
+- vo:
+  - vo_adv_1181002_026
+- face:
+  - 414
+  - 1
+- print:
+  - 攤販店員1
+  - 嘿，
+- wait:
+  - 5
+- print:
+  - 攤販店員1
+  - 久等啦！
+- wait:
+  - 20
+- print:
+  - 攤販店員1
+  - |2-
+
+    兩份熱狗堡！
+- touch: *o0
+- window_visible:
+  - false
+- focus:
+  - 118111
+- se:
+  - se_adv_paper_move_05
+- se:
+  - se_adv_cloth_move_give_01
+- nod:
+  - 118111
+- wait:
+  - 15
+- window_visible:
+  - true
+- choice:
+  - 我開動了。
+  - 7
+- tag:
+  - 7
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_027
+- face:
+  - 118111
+  - 1
+- print:
+  - 蘭法
+  - 我開動了……
+- wait:
+  - 75
+- print:
+  - 蘭法
+  - |2-
+
+    啊唔……
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_eating_01
+- nod:
+  - 118111
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_028
+- face:
+  - 118111
+  - 2
+- print:
+  - 蘭法
+  - ……嗯。
+- wait:
+  - 45
+- print:
+  - 蘭法
+  - |2-
+
+    真好吃……
+- touch: *o0
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_029
+- face:
+  - 118111
+  - 2
+- emotion:
+  - note1_L
+  - 118111
+  - -110
+  - 515
+  - se_adv_emote_note_01
+- print:
+  - 蘭法
+  - ……謝謝你。
+- wait:
+  - 65
+- print:
+  - 蘭法
+  - |2-
+
+    總覺得……
+- wait:
+  - 65
+- print:
+  - 蘭法
+  - 我好像很久沒有吃過，
+- wait:
+  - 95
+- print:
+  - 蘭法
+  - |2-
+
+    像樣的食物了……
+- touch: *o0
+- choice:
+  - 那妳平常都吃些什麼？
+  - 8
+- tag:
+  - 8
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_030
+- face:
+  - 118111
+  - 1
+- print:
+  - 蘭法
+  - 平常……
+- wait:
+  - 45
+- print:
+  - 蘭法
+  - 據點裡有很多，
+- wait:
+  - 80
+- print:
+  - 蘭法
+  - |2-
+
+    阿澤爾德先生
+- wait:
+  - 125
+- print:
+  - 蘭法
+  - 留下來的食材。
+- wait:
+  - 100
+- print:
+  - 蘭法
+  - |2
+
+- face:
+  - 118111
+  - 6
+- print:
+  - 蘭法
+  - 我都是，
+- wait:
+  - 35
+- print:
+  - 蘭法
+  - 吃那些……
+- touch: *o0
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_031
+- face:
+  - 118111
+  - 5
+- print:
+  - 蘭法
+  - 但、
+- wait:
+  - 20
+- print:
+  - 蘭法
+  - 但是我……
+- wait:
+  - 50
+- print:
+  - 蘭法
+  - 對料理，
+- wait:
+  - 30
+- print:
+  - 蘭法
+  - 也是一竅不通。
+- wait:
+  - 105
+- print:
+  - 蘭法
+  - |2-
+
+    不是一下子就燒焦，
+- wait:
+  - 80
+- print:
+  - 蘭法
+  - 就是加錯調味料……
+- touch: *o0
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_032
+- face:
+  - 118111
+  - 1
+- nod:
+  - 118111
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 蘭法
+  - 可是……
+- wait:
+  - 45
+- print:
+  - 蘭法
+  - |2
+
+- face:
+  - 118111
+  - 4
+- print:
+  - 蘭法
+  - 去店裡點餐，
+- wait:
+  - 105
+- print:
+  - 蘭法
+  - 又很困難……
+- wait:
+  - 95
+- print:
+  - 蘭法
+  - 我自己一個人辦不到。
+- wait:
+  - 135
+- print:
+  - 蘭法
+  - |2
+
+- face:
+  - 118111
+  - 7
+- print:
+  - 蘭法
+  - 實在很傷腦筋……
+- touch: *o0
+- choice:
+  - 既然如此，就來我們這裡吃吧。
+  - 9
+- tag:
+  - 9
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_033
+- face:
+  - 118111
+  - 6
+- print:
+  - 蘭法
+  - 謝、
+- wait:
+  - 25
+- face:
+  - 118111
+  - 2
+- print:
+  - 蘭法
+  - 謝謝你……
+- wait:
+  - 70
+- print:
+  - 蘭法
+  - |2-
+
+    我一定會、
+- wait:
+  - 50
+- print:
+  - 蘭法
+  - 找機會去拜訪的……
+- touch: *o0
+- choice:
+  - 然後，也要學會點餐喔。
+  - 10
+- tag:
+  - 10
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_034
+- face:
+  - 118111
+  - 6
+- emotion:
+  - question1_R
+  - 118111
+  - 120
+  - 505
+  - se_adv_emote_question_01
+- print:
+  - 蘭法
+  - 咦？
+- wait:
+  - 20
+- print:
+  - 蘭法
+  - |2-
+
+    可、
+- wait:
+  - 15
+- print:
+  - 蘭法
+  - 可是……
+- wait:
+  - 30
+- face:
+  - 118111
+  - 4
+- print:
+  - 蘭法
+  - 我……
+- wait:
+  - 45
+- print:
+  - 蘭法
+  - |2-
+
+    那個……
+- touch: *o0
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_035
+- face:
+  - 118111
+  - 6
+- print:
+  - 蘭法
+  - 那、
+- wait:
+  - 35
+- print:
+  - 蘭法
+  - 那麼……
+- wait:
+  - 45
+- print:
+  - 蘭法
+  - 你願意，
+- wait:
+  - 40
+- print:
+  - 蘭法
+  - 協助我嗎？
+- wait:
+  - 75
+- print:
+  - 蘭法
+  - |2
+
+- face:
+  - 118111
+  - 7
+- print:
+  - 蘭法
+  - 為了，
+- wait:
+  - 50
+- print:
+  - 蘭法
+  - 防止我逃走……
+- wait:
+  - 110
+- print:
+  - 蘭法
+  - |2
+
+- face:
+  - 118111
+  - 1
+- print:
+  - 蘭法
+  - 請你……
+- wait:
+  - 35
+- print:
+  - 蘭法
+  - 握住我的手……
+- touch: *o0
+- choice:
+  - 嗯。
+  - 11
+- tag:
+  - 11
+- window_visible:
+  - false
+- fadeout:
+  - 118111
+  - 30
+- se:
+  - se_adv_step_concrete_move_01
+- camera_zoom:
+  - 1.2
+  - 15
+- chara_full:
+  - 118111
+  - C
+  - 2
+- fadein:
+  - 118111
+  - 30
+- se:
+  - se_adv_body_handshake_06
+- nod:
+  - 118111
+- wait:
+  - 45
+- bgm:
+  - stop
+  - 2
+  - 1
+- fadeout:
+  - 118111
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- camera_zoom:
+  - 1
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_town_day_01
+- chara_full:
+  - 118111
+  - C
+  - 1
+- fadein:
+  - 118111
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M387
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 1511
+- bust:
+  - 1511
+  - 1
+- vo:
+  - vo_adv_1181002_036
+- face:
+  - 1511
+  - 1
+- print:
+  - 攤販店員2
+  - 妳好，
+- wait:
+  - 5
+- print:
+  - 攤販店員2
+  - 歡迎光臨。
+- wait:
+  - 15
+- print:
+  - 攤販店員2
+  - |2-
+
+    需要些什麼呢？
+- touch: *o0
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_037
+- face:
+  - 118111
+  - 6
+- print:
+  - 蘭法
+  - 呃……
+- wait:
+  - 20
+- print:
+  - 蘭法
+  - 那個……
+- touch: *o0
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_038
+- face:
+  - 118111
+  - 4
+- emotion:
+  - sweat2_R
+  - 118111
+  - 60
+  - 565
+  - se_adv_emote_sweat_02
+- print:
+  - 蘭法
+  - 嗚、
+- wait:
+  - 30
+- print:
+  - 蘭法
+  - 嗚嗚……
+- touch: *o0
+- choice:
+  - 加油……！
+  - 12
+- tag:
+  - 12
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_039
+- face:
+  - 118111
+  - 6
+- print:
+  - 蘭法
+  - 請
+- wait:
+  - 50
+- print:
+  - 蘭法
+  - ……請……
+- wait:
+  - 15
+- print:
+  - 蘭法
+  - 請……
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 38
+- window_visible:
+  - true
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_040
+- face:
+  - 118111
+  - 5
+- pop:
+  - 118111
+- se:
+  - se_adv_rabbit_jump_01
+- print:
+  - 蘭法
+  - 請給我、
+- wait:
+  - 15
+- print:
+  - 蘭法
+  - 兩個……！
+- wait:
+  - 45
+- print:
+  - 蘭法
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - 蘭法
+  - 豆傻包……！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 23
+- fadeout:
+  - 118111
+  - 30
+- se:
+  - se_adv_money_give_01
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 118111
+  - C
+  - 6
+- fadein:
+  - 118111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_041
+- face:
+  - 118111
+  - 6
+- emotion:
+  - twinkle1_R
+  - 118111
+  - -110
+  - 510
+  - se_adv_emote_twinkle_01
+- print:
+  - 蘭法
+  - 買、
+- wait:
+  - 30
+- print:
+  - 蘭法
+  - 買到了……！
+- wait:
+  - 75
+- print:
+  - 蘭法
+  - |2
+
+- face:
+  - 118111
+  - 2
+- print:
+  - 蘭法
+  - 我買到了……！
+- touch: *o0
+- choice:
+  - 太好了。
+  - 13
+- tag:
+  - 13
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_042
+- face:
+  - 118111
+  - 2
+- print:
+  - 蘭法
+  - 謝謝你……
+- wait:
+  - 65
+- print:
+  - 蘭法
+  - |2-
+
+    多虧、
+- wait:
+  - 50
+- print:
+  - 蘭法
+  - 有你的幫忙……
+- touch: *o0
+- choice:
+  - 那就再去下一家吧。
+  - 14
+- tag:
+  - 14
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_043
+- face:
+  - 118111
+  - 6
+- emotion:
+  - surprise1_L
+  - 118111
+  - 150
+  - 545
+  - se_adv_emote_common_01
+- print:
+  - 蘭法
+  - 咦……！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 118111
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_town_day_01
+- chara_full:
+  - 118111
+  - C
+  - 7
+- fadein:
+  - 118111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 4911
+- bust:
+  - 4911
+  - 1
+- vo:
+  - vo_adv_1181002_044
+- face:
+  - 4911
+  - 1
+- print:
+  - 攤販店員3
+  - 歡迎光臨～
+- touch: *o0
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_045
+- face:
+  - 118111
+  - 6
+- pop:
+  - 118111
+- se:
+  - se_adv_rabbit_jump_01
+- print:
+  - 蘭法
+  - 請、
+- wait:
+  - 15
+- print:
+  - 蘭法
+  - 請給我，
+- wait:
+  - 50
+- print:
+  - 蘭法
+  - |2
+
+- face:
+  - 118111
+  - 5
+- print:
+  - 蘭法
+  - 難姆葡萄口味的、
+- wait:
+  - 30
+- eye_open:
+  - False
+- print:
+  - 蘭法
+  - 冰吉淋……！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_money_give_01
+- fadeout:
+  - 118111
+  - 30
+- wait:
+  - 10
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_town_day_01
+- chara_full:
+  - 118111
+  - C
+  - 7
+- fadein:
+  - 118111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 411
+- bust:
+  - 411
+  - 1
+- vo:
+  - vo_adv_1181002_046
+- face:
+  - 411
+  - 1
+- print:
+  - 攤販店員4
+  - 晚安，
+- wait:
+  - 20
+- print:
+  - 攤販店員4
+  - 要買什麼～？
+- touch: *o0
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_047
+- face:
+  - 118111
+  - 6
+- print:
+  - 蘭法
+  - 草莓鬆餅……
+- wait:
+  - 35
+- face:
+  - 118111
+  - 1
+- print:
+  - 蘭法
+  - 兩、
+- wait:
+  - 20
+- nod:
+  - 118111
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - 蘭法
+  - 兩份……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 118111
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_town_day_01
+- chara_full:
+  - 118111
+  - C
+  - 4
+- fadein:
+  - 118111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 1
+- vo:
+  - vo_adv_1181002_048
+- face:
+  - 1411
+  - 2
+- print:
+  - 攤販店員5
+  - 嘿！
+- wait:
+  - 5
+- print:
+  - 攤販店員5
+  - |2-
+
+    歡迎光臨！
+- wait:
+  - 25
+- print:
+  - 攤販店員5
+  - |2
+
+- face:
+  - 1411
+  - 1
+- print:
+  - 攤販店員5
+  - 要什麼？
+- touch: *o0
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_049
+- face:
+  - 118111
+  - 4
+- print:
+  - 蘭法
+  - 麵……
+- wait:
+  - 30
+- print:
+  - 蘭法
+  - |2
+
+- face:
+  - 118111
+  - 1
+- print:
+  - 蘭法
+  - 麵……
+- wait:
+  - 30
+- print:
+  - 蘭法
+  - |2
+
+- face:
+  - 118111
+  - 6
+- print:
+  - 蘭法
+  - 麵……
+- touch: *o0
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_050
+- face:
+  - 118111
+  - 6
+- nod:
+  - 118111
+- print:
+  - 蘭法
+  - 麵條偏硬蔬菜特多，
+- wait:
+  - 40
+- face:
+  - 118111
+  - 4
+- print:
+  - 蘭法
+  - 不加大蒜……！！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 118111
+  - 30
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- bg_color:
+  - 0
+  - 0
+  - 0
+- wait:
+  - 15
+- black_in: *o0
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 3
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - |-
+    …………
+    ……
+- touch: *o0
+- window_visible:
+  - FALSE
+- black_out:
+  - 1
+  - 0.5
+- background:
+  - 500022
+- wait:
+  - 15
+- black_in: *o0
+- se:
+  - amb_adv_outdoors_night_02
+- chara_full:
+  - 118111
+  - C
+  - 6
+- fadein:
+  - 118111
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M570_02
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_051
+- face:
+  - 118111
+  - 6
+- nod:
+  - 118111
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 蘭法
+  - 呼……
+- wait:
+  - 50
+- print:
+  - 蘭法
+  - |2
+
+- face:
+  - 118111
+  - 1
+- print:
+  - 蘭法
+  - 我已經……
+- wait:
+  - 35
+- print:
+  - 蘭法
+  - 吃不下了……
+- touch: *o0
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_052
+- face:
+  - 118111
+  - 1
+- print:
+  - 蘭法
+  - 不、
+- wait:
+  - 35
+- print:
+  - 蘭法
+  - 不過……
+- wait:
+  - 50
+- print:
+  - 蘭法
+  - |2
+
+- face:
+  - 118111
+  - 2
+- emotion:
+  - note1_L
+  - 118111
+  - -110
+  - 515
+  - se_adv_emote_note_01
+- print:
+  - 蘭法
+  - 呵呵。
+- wait:
+  - 65
+- print:
+  - 蘭法
+  - |2-
+
+    我學會點餐了，
+- wait:
+  - 65
+- print:
+  - 蘭法
+  - 而且都沒有逃走……
+- touch: *o0
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_053
+- face:
+  - 118111
+  - 2
+- print:
+  - 蘭法
+  - 這樣的話……
+- wait:
+  - 70
+- print:
+  - 蘭法
+  - |2-
+
+    我或許就有辦法，
+- wait:
+  - 75
+- print:
+  - 蘭法
+  - 去伴手禮店和飾品店……
+- wait:
+  - 90
+- print:
+  - 蘭法
+  - |2-
+
+    挑選
+- wait:
+  - 60
+- print:
+  - 蘭法
+  - 禮物，
+- wait:
+  - 50
+- print:
+  - 蘭法
+  - 送給美空了……
+- touch: *o0
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_054
+- face:
+  - 118111
+  - 6
+- print:
+  - 蘭法
+  - 你願意，
+- wait:
+  - 70
+- print:
+  - 蘭法
+  - 陪我
+- wait:
+  - 45
+- print:
+  - 蘭法
+  - 到最後嗎……？
+- wait:
+  - 15
+- print:
+  - 蘭法
+  - |2-
+
+    {0}。
+- touch: *o0
+- choice:
+  - 當然沒問題。
+  - 15
+- tag:
+  - 15
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- fadeout:
+  - 118111
+  - 30
+- se_pause:
+  - amb_adv_outdoors_night_02
+  - 1
+- black_out:
+  - 1
+  - 1
+- background:
+  - 500032
+- wait:
+  - 15
+- black_in: *o0
+- se:
+  - amb_adv_town_day_01
+- chara_full:
+  - 1211
+  - R
+  - 1
+- chara_full:
+  - 118111
+  - LC
+  - 1
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - RC
+  - R
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M334_Pizz
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 1211
+- bust:
+  - 1211
+  - 0
+- vo:
+  - vo_adv_1181002_055
+- face:
+  - 1211
+  - 1
+- print:
+  - 土產屋店員
+  - 歡迎光臨～♪
+- wait:
+  - 25
+- print:
+  - 土產屋店員
+  - |2-
+
+    請問妳要找什麼呢？
+- touch: *o0
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_056
+- face:
+  - 118111
+  - 6
+- emotion:
+  - sweat2_R
+  - 118111
+  - 60
+  - 565
+  - se_adv_emote_sweat_02
+- print:
+  - 蘭法
+  - 呃……
+- wait:
+  - 30
+- print:
+  - 蘭法
+  - 我想……
+- wait:
+  - 30
+- print:
+  - 蘭法
+  - |2
+
+- face:
+  - 118111
+  - 7
+- print:
+  - 蘭法
+  - 那個……
+- touch: *o0
+- choice:
+  - 加油！
+  - 16
+- tag:
+  - 16
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_057
+- face:
+  - 118111
+  - 6
+- print:
+  - 蘭法
+  - 唔、
+- wait:
+  - 40
+- face:
+  - 118111
+  - 2
+- nod:
+  - 118111
+- print:
+  - 蘭法
+  - 嗯
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 蘭法
+  - ……
+- touch: *o0
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_058
+- face:
+  - 118111
+  - 1
+- print:
+  - 蘭法
+  - 那個……
+- wait:
+  - 45
+- print:
+  - 蘭法
+  - |2-
+
+    我、
+- wait:
+  - 30
+- print:
+  - 蘭法
+  - 我想送禮物……
+- wait:
+  - 80
+- print:
+  - 蘭法
+  - |2
+
+- face:
+  - 118111
+  - 7
+- print:
+  - 蘭法
+  - 給重要
+- wait:
+  - 55
+- print:
+  - 蘭法
+  - 的人……
+- touch: *o0
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_059
+- face:
+  - 118111
+  - 6
+- print:
+  - 蘭法
+  - 有什麼……
+- wait:
+  - 55
+- face:
+  - 118111
+  - 2
+- print:
+  - 蘭法
+  - 推薦的、
+- wait:
+  - 45
+- print:
+  - 蘭法
+  - 東西嗎……？
+- touch: *o0
+- focus:
+  - 1211
+- bust:
+  - 1211
+  - 0
+- vo:
+  - vo_adv_1181002_060
+- face:
+  - 1211
+  - 2
+- nod:
+  - 1211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 土產屋店員
+  - 好的♪
+- wait:
+  - 30
+- print:
+  - 土產屋店員
+  - |2-
+
+    是要送給妳男朋友的對吧？
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_061
+- face:
+  - 118111
+  - 6
+- emotion:
+  - surprise1_L
+  - 118111
+  - 150
+  - 545
+  - se_adv_emote_common_01
+- print:
+  - 蘭法
+  - 咦……？
+- wait:
+  - 25
+- print:
+  - 蘭法
+  - |2-
+
+    男、
+- wait:
+  - 30
+- print:
+  - 蘭法
+  - 男朋友……！？
+- touch: *o0
+- bgm:
+  - bgm_M11_Ver2
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 1211
+- bust:
+  - 1211
+  - 0
+- vo:
+  - vo_adv_1181002_062
+- face:
+  - 1211
+  - 2
+- print:
+  - 土產屋店員
+  - 呵呵。
+- wait:
+  - 25
+- print:
+  - 土產屋店員
+  - |2-
+
+    妳看你們倆
+- wait:
+  - 15
+- print:
+  - 土產屋店員
+  - 手牽得這麼緊～
+- wait:
+  - 30
+- print:
+  - 土產屋店員
+  - |2-
+
+    出來約會真讓人羨慕呢～♪
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_063
+- face:
+  - 118111
+  - 5
+- print:
+  - 蘭法
+  - 約！？
+- wait:
+  - 15
+- print:
+  - 蘭法
+  - |2-
+
+    約、
+- wait:
+  - 15
+- print:
+  - 蘭法
+  - 約會……！？
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 23
+- window_visible:
+  - true
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_064
+- face:
+  - 118111
+  - 5
+- emotion:
+  - shy1_R
+  - 118111
+  - -85
+  - 485
+  - se_adv_emote_shy_01
+- eye_open:
+  - False
+- print:
+  - 蘭法
+  - 怎、
+- wait:
+  - 30
+- print:
+  - 蘭法
+  - 怎麼這樣……
+- wait:
+  - 45
+- print:
+  - 蘭法
+  - |2-
+
+    ……嗚……
+- touch: *o0
+- focus:
+  - 1211
+- bust:
+  - 1211
+  - 0
+- vo:
+  - vo_adv_1181002_065
+- face:
+  - 1211
+  - 1
+- nod:
+  - 1211
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 土產屋店員
+  - 哎呀呀～
+- wait:
+  - 30
+- print:
+  - 土產屋店員
+  - |2-
+
+    臉都紅了～
+- wait:
+  - 45
+- print:
+  - 土產屋店員
+  - |2
+
+- face:
+  - 1211
+  - 2
+- print:
+  - 土產屋店員
+  - 你女朋友
+- wait:
+  - 15
+- print:
+  - 土產屋店員
+  - 真可愛耶～♪
+- touch: *o0
+- choice:
+  - 對啊。
+  - 17
+- choice:
+  - 很可愛。
+  - 18
+- tag:
+  - 17
+- tag:
+  - 18
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_066
+- face:
+  - 118111
+  - 6
+- emotion:
+  - exclamation1_R
+  - 118111
+  - 10
+  - 655
+  - se_adv_emote_common_01
+- eye_open:
+  - True
+- print:
+  - 蘭法
+  - ！
+- wait:
+  - 30
+- print:
+  - 蘭法
+  - |2
+
+- face:
+  - 118111
+  - 5
+- print:
+  - 蘭法
+  - 唔、
+- wait:
+  - 40
+- print:
+  - 蘭法
+  - 嗚、
+- wait:
+  - 40
+- print:
+  - 蘭法
+  - 嗚嗚……
+- touch: *o0
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_067
+- face:
+  - 118111
+  - 5
+- eye_open:
+  - False
+- print:
+  - 蘭法
+  - ……嗚嗚嗚
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 蘭法
+  - ……！！
+- shake:
+  - 118111
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_magic_cmn_warp_01
+- white_out:
+  - 1
+  - 0.2
+- fadeout:
+  - 118111
+  - 15
+- white_in: *o0
+- window_visible:
+  - TRUE
+- focus:
+  - 1211
+- bust:
+  - 1211
+  - 0
+- vo:
+  - vo_adv_1181002_068
+- face:
+  - 1211
+  - 6
+- emotion:
+  - surprise1_L
+  - 1211
+  - 135
+  - 575
+  - se_adv_emote_common_01
+- print:
+  - 土產屋店員
+  - 咦！？
+- wait:
+  - 20
+- print:
+  - 土產屋店員
+  - |2-
+
+    她怎麼
+- wait:
+  - 20
+- print:
+  - 土產屋店員
+  - 消失了！？
+- touch: *o0
+- choice:
+  - 是空間跳躍的道具……！
+  - 19
+- tag:
+  - 19
+- window_visible:
+  - FALSE
+- fadeout:
+  - 1211
+  - 30
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- bg_color:
+  - 0
+  - 0
+  - 0
+- wait:
+  - 15
+- black_in: *o0
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 4
+  - 1
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - |-
+    …………
+    ……
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- black_out:
+  - 1
+  - 0.5
+- background:
+  - 501040
+- wait:
+  - 15
+- black_in: *o0
+- se:
+  - amb_adv_dungeon_01
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 在距離蘭德索爾相當遙遠的【憤怒‧軍團】據點──
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- chara_full:
+  - 118111
+  - C
+  - 4
+  - 1
+- fadein:
+  - 118111
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M358
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_069
+- face:
+  - 118111
+  - 4
+- print:
+  - 蘭法
+  - …………
+- touch: *o0
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_070
+- face:
+  - 118111
+  - 4
+- nod:
+  - 118111
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 蘭法
+  - 唉……
+- touch: *o0
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_071
+- face:
+  - 118111
+  - 4
+- eye_open:
+  - True
+- print:
+  - 蘭法
+  - ……我也真是的……
+- wait:
+  - 75
+- print:
+  - 蘭法
+  - |2-
+
+    實在、
+- wait:
+  - 45
+- print:
+  - 蘭法
+  - 太沒用了……
+- touch: *o0
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_072
+- face:
+  - 118111
+  - 7
+- print:
+  - 蘭法
+  - 沒能買到……
+- wait:
+  - 60
+- print:
+  - 蘭法
+  - 要送給美空
+- wait:
+  - 65
+- print:
+  - 蘭法
+  - 的禮物。
+- wait:
+  - 95
+- print:
+  - 蘭法
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - 蘭法
+  - 也沒能向{0}，
+- wait:
+  - 45
+- print:
+  - 蘭法
+  - 道謝……
+- touch: *o0
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_073
+- face:
+  - 118111
+  - 1
+- eye_open:
+  - True
+- print:
+  - 蘭法
+  - ……
+- touch: *o0
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_074
+- face:
+  - 118111
+  - 2
+- print:
+  - 蘭法
+  - ……不、
+- wait:
+  - 35
+- print:
+  - 蘭法
+  - 不過……
+- touch: *o0
+- focus:
+  - 118111
+- bust:
+  - 118111
+  - 0
+- vo:
+  - vo_adv_1181002_075
+- face:
+  - 118111
+  - 2
+- emotion:
+  - note1_L
+  - 118111
+  - -110
+  - 515
+  - se_adv_emote_note_01
+- print:
+  - 蘭法
+  - ……呵呵。
+- wait:
+  - 65
+- print:
+  - 蘭法
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - 蘭法
+  - 今天，
+- wait:
+  - 55
+- print:
+  - 蘭法
+  - 真的……
+- wait:
+  - 70
+- print:
+  - 蘭法
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 蘭法
+  - ……好開心喔……♪
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 118111
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- se_pause:
+  - amb_adv_dungeon_01
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

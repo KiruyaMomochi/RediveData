@@ -1,0 +1,226 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500150
+- se:
+  - amb_adv_pasture_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 老鼠們
+- chara_full:
+  - 121411
+  - C
+  - 4
+- fadein:
+  - 121411
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M567_02
+  - 0
+  - 0
+  - 1
+  - 0.4
+- focus:
+  - 121411
+- bust:
+  - 121411
+  - 0
+- vo:
+  - vo_adv_6088106_000
+- face:
+  - 121411
+  - 4
+- print:
+  - 美咲
+  - 即將失去重要的地方，
+- wait:
+  - 55
+- print:
+  - 美咲
+  - 那種心情我也很能體會……
+- wait:
+  - 60
+- print:
+  - 美咲
+  - |2
+
+- face:
+  - 121411
+  - 3
+- print:
+  - 美咲
+  - 不過還是不能做那種事啊。
+- wait:
+  - 50
+- print:
+  - 美咲
+  - 我得顧好牠們，不讓牠們騷擾人類。
+- touch: &o0 []
+- choice:
+  - 今後才是重點。
+  - 1
+  - 1
+- choice:
+  - 還得多用功讀書呢。
+  - 2
+  - 2
+- choice:
+  - 工作是最棒的。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 121411
+- bust:
+  - 121411
+  - 0
+- vo:
+  - vo_adv_6088106_001
+- face:
+  - 121411
+  - 1
+- nod:
+  - 121411
+- print:
+  - 美咲
+  - 就算做錯了，只要改過自新重來就好。
+- wait:
+  - 65
+- print:
+  - 美咲
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - 美咲
+  - 伊麗莎白牧場的人們個個都是好人，
+- wait:
+  - 55
+- print:
+  - 美咲
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 美咲
+  - 肯定會很順利的。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 121411
+- bust:
+  - 121411
+  - 0
+- vo:
+  - vo_adv_6088106_002
+- face:
+  - 121411
+  - 6
+- emotion:
+  - sweat2_R
+  - 121411
+  - 60
+  - 485
+  - se_adv_emote_sweat_02
+- print:
+  - 美咲
+  - 對、
+- wait:
+  - 25
+- print:
+  - 美咲
+  - 對啊。
+- wait:
+  - 45
+- print:
+  - 美咲
+  - 我是真的、這麼想的。
+- wait:
+  - 70
+- print:
+  - 美咲
+  - |2
+
+- face:
+  - 121411
+  - 4
+- print:
+  - 美咲
+  - 我也得、好好、用功讀書、才行。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 121411
+- bust:
+  - 121411
+  - 0
+- vo:
+  - vo_adv_6088106_003
+- face:
+  - 121411
+  - 1
+- print:
+  - 美咲
+  - 現在新工作也找到了，
+- wait:
+  - 45
+- print:
+  - 美咲
+  - 已經沒問題了。
+- wait:
+  - 45
+- print:
+  - 美咲
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - 美咲
+  - 看牠們好像很仰慕鈴小姐，
+- wait:
+  - 45
+- print:
+  - 美咲
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 美咲
+  - 應該會努力為她們效力才對。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - FALSE
+- fadeout:
+  - 121411
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- se_pause:
+  - amb_adv_pasture_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

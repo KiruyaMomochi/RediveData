@@ -1,0 +1,250 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500354
+- se:
+  - amb_adv_outdoors_day_01
+- ui_visible:
+  - false
+- situation:
+  - 關於服裝
+- chara_full:
+  - 121311
+  - C
+  - 2
+- fadein:
+  - 121311
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M216
+  - 0
+  - 0
+  - 1
+  - 0.4
+- focus:
+  - 121311
+- bust:
+  - 121311
+  - 0
+- vo:
+  - vo_adv_6088207_000
+- face:
+  - 121311
+  - 2
+- print:
+  - 胡桃
+  - 你覺得怎麼樣，
+- wait:
+  - 15
+- print:
+  - 胡桃
+  - 哥哥？
+- wait:
+  - 40
+- print:
+  - 胡桃
+  - |2-
+
+    這是秋乃小姐幫我準備的服裝。
+- wait:
+  - 65
+- print:
+  - 胡桃
+  - |2-
+
+    請說說你的感想。
+- touch: &o0 []
+- choice:
+  - 很可愛。
+  - 1
+  - 1
+- choice:
+  - 很歡樂呢。
+  - 2
+  - 2
+- choice:
+  - 很創新。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 121311
+- bust:
+  - 121311
+  - 0
+- vo:
+  - vo_adv_6088207_001
+- face:
+  - 121311
+  - 2
+- eye_open:
+  - False
+- print:
+  - 胡桃
+  - 真不愧是秋乃小姐。
+- wait:
+  - 65
+- eye_open:
+  - True
+- print:
+  - 胡桃
+  - |-
+    竟然連這種服裝都有，
+    真讓人驚訝……
+- wait:
+  - 110
+- face:
+  - 121311
+  - 6
+- print:
+  - 胡桃
+  - 咦？
+- wait:
+  - 50
+- print:
+  - 胡桃
+  - 你是指我
+- wait:
+  - 30
+- print:
+  - 胡桃
+  - 很可愛嗎？
+- wait:
+  - 50
+- print:
+  - 胡桃
+  - |2
+
+- face:
+  - 121311
+  - 5
+- print:
+  - 胡桃
+  - 請、
+- wait:
+  - 15
+- print:
+  - 胡桃
+  - 請不要突然說這種話！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 121311
+- bust:
+  - 121311
+  - 0
+- vo:
+  - vo_adv_6088207_002
+- face:
+  - 121311
+  - 2
+- nod:
+  - 121311
+- print:
+  - 胡桃
+  - 是啊！
+- wait:
+  - 20
+- print:
+  - 胡桃
+  - 在物產展上被大批客人圍繞著，
+- wait:
+  - 80
+- print:
+  - 胡桃
+  - |2-
+
+    總覺得
+- wait:
+  - 25
+- print:
+  - 胡桃
+  - 像是在參加祭典一樣。
+- wait:
+  - 90
+- print:
+  - 胡桃
+  - |2-
+
+    在這種時候，服裝也是很重要的呢。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 121311
+- bust:
+  - 121311
+  - 0
+- vo:
+  - vo_adv_6088207_003
+- face:
+  - 121311
+  - 6
+- print:
+  - 胡桃
+  - 秋乃小姐的眼光
+- wait:
+  - 35
+- print:
+  - 胡桃
+  - 果然獨到。
+- wait:
+  - 95
+- print:
+  - 胡桃
+  - |2
+
+- face:
+  - 121311
+  - 2
+- print:
+  - 胡桃
+  - 能夠發想出新點子的人真是厲害。
+- wait:
+  - 100
+- print:
+  - 胡桃
+  - |2
+
+- face:
+  - 121311
+  - 1
+- print:
+  - 胡桃
+  - 不知道我
+- wait:
+  - 20
+- print:
+  - 胡桃
+  - 是不是也有這種才能……
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - FALSE
+- fadeout:
+  - 121311
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- se_pause:
+  - amb_adv_outdoors_day_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

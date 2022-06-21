@@ -1,0 +1,308 @@
+- title:
+  - 魚釣り
+- outline:
+  - ' '
+- background:
+  - 501162
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 魚釣り
+- chara_full:
+  - 106113
+  - C
+  - 6
+- fadein:
+  - 106113
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M436_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_6056401_000
+- face:
+  - 106113
+  - 6
+- print:
+  - ムイミ
+  - 漁師のおっちゃんたちって、
+- wait:
+  - 25
+- print:
+  - ムイミ
+  - 変わった魚の釣り方するよなー。
+- wait:
+  - 55
+- print:
+  - ムイミ
+  - |2
+
+- face:
+  - 106113
+  - 4
+- print:
+  - ムイミ
+  - アタシもたまに川で釣りはするけどさ、
+- wait:
+  - 50
+- print:
+  - ムイミ
+  - |2-
+
+    結構コツが必要なんだよ……
+- touch: &o0 []
+- choice:
+  - 釣り、好きなの？
+  - 1
+  - 1
+- choice:
+  - 釣りって難しい。
+  - 2
+  - 2
+- choice:
+  - 楽しそう。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_6056401_001
+- face:
+  - 106113
+  - 1
+- print:
+  - ムイミ
+  - 好きっていうか……
+- wait:
+  - 45
+- face:
+  - 106113
+  - 2
+- print:
+  - ムイミ
+  - 腹が減った時にやるくらいだな！
+- wait:
+  - 50
+- print:
+  - ムイミ
+  - |2-
+
+    川ごとぶった斬れば、
+- wait:
+  - 25
+- print:
+  - ムイミ
+  - すぐに魚が浮いてきて……
+- wait:
+  - 65
+- print:
+  - ムイミ
+  - |2
+
+- face:
+  - 106113
+  - 6
+- emotion:
+  - question1_R
+  - 106113
+  - 115
+  - 445
+  - se_adv_emote_question_01
+- print:
+  - ムイミ
+  - へっ？
+- wait:
+  - 20
+- print:
+  - ムイミ
+  - 　それは釣りじゃない？　
+- wait:
+  - 75
+- face:
+  - 106113
+  - 4
+- print:
+  - ムイミ
+  - ……そうなのか？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_6056401_002
+- face:
+  - 106113
+  - 2
+- nod:
+  - 106113
+- print:
+  - ムイミ
+  - おお、
+- wait:
+  - 25
+- print:
+  - ムイミ
+  - オマエもそう思うか？　
+- wait:
+  - 30
+- face:
+  - 106113
+  - 4
+- print:
+  - ムイミ
+  - 陸の魔物を狙うのは簡単なんだけどな……
+- wait:
+  - 65
+- print:
+  - ムイミ
+  - |2
+
+- face:
+  - 106113
+  - 2
+- print:
+  - ムイミ
+  - 天楼覇断剣でドカーンってさ！　
+- wait:
+  - 80
+- print:
+  - ムイミ
+  - 魚だと骨も残んない時があるからな。
+- wait:
+  - 85
+- print:
+  - ムイミ
+  - |2
+
+- face:
+  - 106113
+  - 1
+- print:
+  - ムイミ
+  - いやー、
+- wait:
+  - 20
+- print:
+  - ムイミ
+  - 釣りって奥が深いよな！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 106113
+- bust:
+  - 106113
+  - 0
+- vo:
+  - vo_adv_6056401_003
+- face:
+  - 106113
+  - 2
+- print:
+  - ムイミ
+  - 今度一緒に釣るか？　
+- wait:
+  - 35
+- print:
+  - ムイミ
+  - だったらどっちが多く釣れるか、
+- wait:
+  - 30
+- print:
+  - ムイミ
+  - |2-
+
+    アタシとオマエで勝負だ！　
+- wait:
+  - 35
+- emotion:
+  - note1_L
+  - 106113
+  - -110
+  - 430
+  - se_adv_emote_note_01
+- print:
+  - ムイミ
+  - ふふっ、
+- wait:
+  - 20
+- print:
+  - ムイミ
+  - ワクワクしてきたぞ！
+- wait:
+  - 35
+- print:
+  - ムイミ
+  - |2-
+
+    アタシは天楼覇断剣で釣るからオマエは……
+- wait:
+  - 80
+- face:
+  - 106113
+  - 6
+- print:
+  - ムイミ
+  - え？　
+- wait:
+  - 15
+- print:
+  - ムイミ
+  - 反則？　
+- wait:
+  - 50
+- face:
+  - 106113
+  - 3
+- print:
+  - ムイミ
+  - ……
+- wait:
+  - 40
+- print:
+  - ムイミ
+  - 知るか！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 106113
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

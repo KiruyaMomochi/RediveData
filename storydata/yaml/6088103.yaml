@@ -1,0 +1,257 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500150
+- se:
+  - amb_adv_pasture_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 牧場
+- chara_full:
+  - 121411
+  - C
+  - 1
+- fadein:
+  - 121411
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M566
+  - 0
+  - 0
+  - 1
+  - 0.4
+- focus:
+  - 121411
+- bust:
+  - 121411
+  - 0
+- vo:
+  - vo_adv_6088103_000
+- face:
+  - 121411
+  - 1
+- print:
+  - 美咲
+  - 原以為牧場的工作
+- wait:
+  - 55
+- print:
+  - 美咲
+  - 一點都不淑女，
+- wait:
+  - 45
+- print:
+  - 美咲
+  - |2-
+
+    想不到真正嘗試過才發現是個很棒的工作呢。
+- wait:
+  - 75
+- print:
+  - 美咲
+  - |2
+
+- face:
+  - 121411
+  - 2
+- print:
+  - 美咲
+  - 作為一位成熟的淑女，就是該挑戰各種事物。
+- touch: &o0 []
+- choice:
+  - 妳跟牛混熟了呢。
+  - 1
+  - 1
+- choice:
+  - 就這麼繼續做下去吧。
+  - 2
+  - 2
+- choice:
+  - 多喝牛奶，快快長大吧。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 121411
+- bust:
+  - 121411
+  - 0
+- vo:
+  - vo_adv_6088103_001
+- face:
+  - 121411
+  - 2
+- nod:
+  - 121411
+- print:
+  - 美咲
+  - 對啊，
+- wait:
+  - 45
+- print:
+  - 美咲
+  - 成熟的淑女就連動物的心都能虜獲。
+- wait:
+  - 110
+- print:
+  - 美咲
+  - |2
+
+- face:
+  - 121411
+  - 4
+- print:
+  - 美咲
+  - ……雖然好像反倒都是
+- wait:
+  - 45
+- print:
+  - 美咲
+  - 牛在關愛我，
+- wait:
+  - 50
+- print:
+  - 美咲
+  - |2
+
+- face:
+  - 121411
+  - 6
+- print:
+  - 美咲
+  - 但我決定不去深究了。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 121411
+- bust:
+  - 121411
+  - 0
+- vo:
+  - vo_adv_6088103_002
+- face:
+  - 121411
+  - 1
+- print:
+  - 美咲
+  - 雖然那樣也不錯，
+- wait:
+  - 60
+- face:
+  - 121411
+  - 2
+- print:
+  - 美咲
+  - 但我還是
+- wait:
+  - 30
+- print:
+  - 美咲
+  - |-
+    比較想當個在城裡
+    賣力工作的淑女。
+- wait:
+  - 65
+- eye_open:
+  - False
+- print:
+  - 美咲
+  - 或許那樣也能夠幫助到牧場……
+- wait:
+  - 80
+- print:
+  - 美咲
+  - |2
+
+- face:
+  - 121411
+  - 6
+- eye_open:
+  - True
+- print:
+  - 美咲
+  - 呃，
+- wait:
+  - 25
+- print:
+  - 美咲
+  - 我是不是受秋乃小姐的影響太深了啊？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 121411
+- bust:
+  - 121411
+  - 0
+- vo:
+  - vo_adv_6088103_003
+- face:
+  - 121411
+  - 1
+- print:
+  - 美咲
+  - 多喝牛奶真的很重要呢……
+- wait:
+  - 60
+- face:
+  - 121411
+  - 3
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 121411
+- print:
+  - 美咲
+  - 唔！
+- wait:
+  - 20
+- print:
+  - 美咲
+  - 才沒有那種事咧！
+- wait:
+  - 40
+- print:
+  - 美咲
+  - |2-
+
+    你幹嘛裝傻要我要吐槽啦？
+- wait:
+  - 55
+- print:
+  - 美咲
+  - |2-
+
+    跟真陽小姐搭檔搞笑的人只要有你一個就夠了。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - FALSE
+- fadeout:
+  - 121411
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- se_pause:
+  - amb_adv_pasture_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0
