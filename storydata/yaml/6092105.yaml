@@ -1,0 +1,295 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 501050
+- amb:
+  - amb_adv_outdoors_morning_01
+- ui_visible:
+  - false
+- situation:
+  - 織姫について
+- chara_full:
+  - 113111
+  - C
+  - 4
+- fadein:
+  - 113111
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M123
+  - 0
+  - 0
+  - 1
+- focus:
+  - 113111
+- bust:
+  - 113111
+  - 0
+- vo:
+  - vo_adv_6044105_000
+- face:
+  - 113111
+  - 4
+- print:
+  - ルカ
+  - 彦星に浮気されちまって、
+- wait:
+  - 50
+- print:
+  - ルカ
+  - 織姫はかわいそうだね。
+- wait:
+  - 73
+- print:
+  - ルカ
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - ルカ
+  - 祭りを開催するためってのもあるけど……
+- wait:
+  - 60
+- print:
+  - ルカ
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - ルカ
+  - 織姫のために、
+- wait:
+  - 30
+- print:
+  - ルカ
+  - 早く問題を解決してあげないとね。
+- touch: &o0 []
+- choice:
+  - 絶対、助けてあげよう。
+  - 1
+  - 1
+- choice:
+  - 浮気ってなに？
+  - 2
+  - 2
+- choice:
+  - 彦星のこと、嫌いにならないのかな。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 113111
+- bust:
+  - 113111
+  - 0
+- vo:
+  - vo_adv_6044105_001
+- face:
+  - 113111
+  - 4
+- nod:
+  - 113111
+- print:
+  - ルカ
+  - ああ、
+- wait:
+  - 15
+- print:
+  - ルカ
+  - そうだね。
+- wait:
+  - 50
+- print:
+  - ルカ
+  - |2
+
+- face:
+  - 113111
+  - 6
+- print:
+  - ルカ
+  - 余計なお世話って言われちまうかもしれないけど……
+- wait:
+  - 75
+- print:
+  - ルカ
+  - |2
+
+- face:
+  - 113111
+  - 3
+- print:
+  - ルカ
+  - あの涙を見て放っておけるほど、
+- wait:
+  - 60
+- print:
+  - ルカ
+  - アタシは大人しい人間じゃないのさ。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 113111
+- bust:
+  - 113111
+  - 0
+- vo:
+  - vo_adv_6044105_002
+- face:
+  - 113111
+  - 6
+- emotion:
+  - surprise1_L
+  - 113111
+  - 155
+  - 570
+  - se_adv_emote_common_01
+- print:
+  - ルカ
+  - え、
+- wait:
+  - 20
+- print:
+  - ルカ
+  - そこからなのかい！？　
+- wait:
+  - 45
+- face:
+  - 113111
+  - 4
+- print:
+  - ルカ
+  - ええと、
+- wait:
+  - 35
+- print:
+  - ルカ
+  - 浮気ってのは……
+- wait:
+  - 60
+- print:
+  - ルカ
+  - |2-
+
+    こう、
+- wait:
+  - 35
+- print:
+  - ルカ
+  - 色んな女の子に
+- wait:
+  - 45
+- print:
+  - ルカ
+  - 声をかけて遊ぶってことなんだよ。
+- wait:
+  - 70
+- print:
+  - ルカ
+  - |2
+
+- face:
+  - 113111
+  - 6
+- print:
+  - ルカ
+  - まあ、
+- wait:
+  - 40
+- face:
+  - 113111
+  - 1
+- print:
+  - ルカ
+  - 素直で純粋なお前さんにゃ関係ないことさ。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 113111
+- bust:
+  - 113111
+  - 0
+- vo:
+  - vo_adv_6044105_003
+- face:
+  - 113111
+  - 4
+- eye_open:
+  - False
+- print:
+  - ルカ
+  - ……気持ちってのは
+- wait:
+  - 30
+- print:
+  - ルカ
+  - 難しいもんなんだよ。
+- wait:
+  - 65
+- print:
+  - ルカ
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - ルカ
+  - 一度好きになっちまったら、
+- wait:
+  - 45
+- print:
+  - ルカ
+  - 何かあっても嫌いになれないもんさ。
+- wait:
+  - 85
+- print:
+  - ルカ
+  - |2-
+
+    惚れちまった方が負けとは
+- wait:
+  - 40
+- print:
+  - ルカ
+  - よく言ったもんだよ、
+- wait:
+  - 30
+- face:
+  - 113111
+  - 1
+- print:
+  - ルカ
+  - まったく。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 113111
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

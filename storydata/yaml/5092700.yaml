@@ -1,0 +1,1027 @@
+- title:
+  - 究極への道
+- outline:
+  - ミヤコはプリンを食べるために新装開店したおばあさんのお店を訪ねるも、おばあさんが出かけてしまいお預けをくらう。プリンがないなら作ればいいとなり、究極のプリンを目指してプリン作りを始める。
+- background:
+  - 500370
+- se:
+  - amb_adv_room_noise_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 究極への道
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - ナレーション
+  - クリスマススイーツコンテストのあと……
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    この日もミヤコと{0}は、
+- wait:
+  - 15
+- print:
+  - ナレーション
+  - |2-
+
+    おばあさんのお店を訪れていた。
+- wait:
+  - 15
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 100711
+  - LC
+  - 7
+- chara_full:
+  - 7911
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M540
+  - 0
+  - 0
+  - 1
+  - 0.4
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_5080700_000
+- face:
+  - 100711
+  - 7
+- nod:
+  - 100711
+- print:
+  - ミヤコ
+  - おばあちゃん～！
+- wait:
+  - 50
+- print:
+  - ミヤコ
+  - |2-
+
+    ミヤコにプリン作ってなの～！　
+- wait:
+  - 65
+- print:
+  - ミヤコ
+  - お腹ぺこぺこなの～！
+- touch: *o0
+- focus:
+  - 7911
+- bust:
+  - 7911
+  - 0
+- vo:
+  - vo_adv_5080700_001
+- face:
+  - 7911
+  - 4
+- print:
+  - おばあさん
+  - ごめんねミヤコちゃん。
+- wait:
+  - 30
+- print:
+  - おばあさん
+  - |2-
+
+    おばあちゃん、
+- wait:
+  - 20
+- print:
+  - おばあさん
+  - これから買い出しに行かなきゃいけなくて。
+- wait:
+  - 50
+- print:
+  - おばあさん
+  - |2
+
+- face:
+  - 7911
+  - 1
+- print:
+  - おばあさん
+  - 帰ってきたら作ってあげるからね。
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_5080700_002
+- face:
+  - 100711
+  - 4
+- nod:
+  - 100711
+- print:
+  - ミヤコ
+  - う～……
+- wait:
+  - 35
+- print:
+  - ミヤコ
+  - わかったの。
+- wait:
+  - 30
+- print:
+  - ミヤコ
+  - |2-
+
+    待ってるから早く帰ってくるの！
+- touch: *o0
+- focus:
+  - 7911
+- bust:
+  - 7911
+  - 0
+- vo:
+  - vo_adv_5080700_003
+- face:
+  - 7911
+  - 2
+- print:
+  - おばあさん
+  - ふふ、
+- wait:
+  - 15
+- print:
+  - おばあさん
+  - わかったわ。
+- wait:
+  - 35
+- print:
+  - おばあさん
+  - |2
+
+- face:
+  - 7911
+  - 1
+- print:
+  - おばあさん
+  - お利口にして待っててちょうだいね。
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- fadeout_all:
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 100711
+  - C
+  - 3
+- fadein:
+  - 100711
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M376_02
+  - 0
+  - 0
+  - 0
+  - 0.4
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_5080700_004
+- face:
+  - 100711
+  - 3
+- print:
+  - ミヤコ
+  - ……遅いの。
+- touch: *o0
+- choice:
+  - まだ出ていったばっかりだよ？
+  - 1
+- tag:
+  - 1
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_5080700_005
+- face:
+  - 100711
+  - 3
+- emotion:
+  - anger1_R
+  - 100711
+  - -90
+  - 535
+  - se_adv_emote_anger_01
+- print:
+  - ミヤコ
+  - ミヤコが遅いって言ったら遅いの！
+- wait:
+  - 55
+- print:
+  - ミヤコ
+  - |2
+
+- face:
+  - 100711
+  - 4
+- print:
+  - ミヤコ
+  - ミヤコお腹が空いて死にそうなの！
+- touch: *o0
+- choice:
+  - ミヤコはもう……
+  - 3
+- tag:
+  - 3
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_5080700_006
+- face:
+  - 100711
+  - 3
+- pop:
+  - 100711
+- print:
+  - ミヤコ
+  - お腹空いたの～！　
+- wait:
+  - 50
+- print:
+  - ミヤコ
+  - プリンが食べたいの～！
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_5080700_007
+- face:
+  - 100711
+  - 6
+- print:
+  - ミヤコ
+  - そうだ！　
+- wait:
+  - 25
+- print:
+  - ミヤコ
+  - オマエ、
+- wait:
+  - 15
+- print:
+  - ミヤコ
+  - ミヤコのためにプリンを作るの！
+- wait:
+  - 55
+- print:
+  - ミヤコ
+  - |2
+
+- face:
+  - 100711
+  - 3
+- print:
+  - ミヤコ
+  - 材料はあるはずなの！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100711
+  - 30
+- black_out:
+  - 1
+  - 1
+- se:
+  - se_adv_cooking_lu_01
+- wait:
+  - 30
+- black_in: *o0
+- chara_full:
+  - 100711
+  - C
+  - 3
+- fadein:
+  - 100711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_5080700_008
+- face:
+  - 100711
+  - 3
+- print:
+  - ミヤコ
+  - 下手くそなの！
+- wait:
+  - 35
+- print:
+  - ミヤコ
+  - |2-
+
+    おばあちゃんはそんな風にやってなかったの！
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_5080700_009
+- face:
+  - 100711
+  - 3
+- print:
+  - ミヤコ
+  - むぅ……
+- wait:
+  - 35
+- print:
+  - ミヤコ
+  - ミヤコのほうがうまくできる気がするの。
+- wait:
+  - 80
+- print:
+  - ミヤコ
+  - |2
+
+- nod:
+  - 100711
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - ミヤコ
+  - ちょっと貸すの！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100711
+  - 30
+- se:
+  - se_adv_cooking_bowl_mix_01
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 30
+- black_in: *o0
+- chara_full:
+  - 100711
+  - C
+  - 2
+- fadein:
+  - 100711
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_5080700_010
+- face:
+  - 100711
+  - 2
+- emotion:
+  - twinkle1_R
+  - 100711
+  - -115
+  - 505
+  - se_adv_emote_twinkle_01
+- print:
+  - ミヤコ
+  - できたの！　
+- wait:
+  - 30
+- print:
+  - ミヤコ
+  - たくさん作ったの！
+- wait:
+  - 35
+- print:
+  - ミヤコ
+  - |2-
+
+    さすがミヤコなの！
+- wait:
+  - 45
+- print:
+  - ミヤコ
+  - |2
+
+- face:
+  - 100711
+  - 1
+- bgm:
+  - stop
+  - 4
+- print:
+  - ミヤコ
+  - 全部おいしくいただきますなの！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_eating_01
+- nod:
+  - 100711
+- wait:
+  - 15
+- window_visible:
+  - true
+- bgm:
+  - bgm_M277
+  - 0
+  - 0
+  - 1
+  - 0.7
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_5080700_011
+- face:
+  - 100711
+  - 7
+- print:
+  - ミヤコ
+  - …………しょっぱいの。
+- wait:
+  - 35
+- print:
+  - ミヤコ
+  - |2-
+
+    砂糖と塩を間違っちゃったみたいなの。
+- wait:
+  - 80
+- print:
+  - ミヤコ
+  - |2-
+
+    こんなのプリンじゃないの。
+- touch: *o0
+- choice:
+  - こっちの赤いプリンはおいしそう。
+  - 5
+- tag:
+  - 5
+- se:
+  - se_adv_eating_01
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_5080700_012
+- face:
+  - 100711
+  - 3
+- emotion:
+  - exclamation1_R
+  - 100711
+  - 20
+  - 645
+  - '*non'
+- print:
+  - ミヤコ
+  - あっ！　
+- wait:
+  - 15
+- print:
+  - ミヤコ
+  - ミヤコより先に食べるなんて何考えてるの！
+- touch: *o0
+- choice:
+  - 辛いっっ！！！！
+  - 7
+- tag:
+  - 7
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_5080700_013
+- face:
+  - 100711
+  - 6
+- print:
+  - ミヤコ
+  - 何言ってるの？　
+- wait:
+  - 35
+- print:
+  - ミヤコ
+  - プリンが辛いわけないの。
+- wait:
+  - 50
+- print:
+  - ミヤコ
+  - |2
+
+- face:
+  - 100711
+  - 3
+- print:
+  - ミヤコ
+  - そのプリンには
+- wait:
+  - 30
+- print:
+  - ミヤコ
+  - きれいな赤い粉を入れたからおいしいはずなの。
+- wait:
+  - 85
+- print:
+  - ミヤコ
+  - |2
+
+- face:
+  - 100711
+  - 6
+- print:
+  - ミヤコ
+  - え～～っと……
+- wait:
+  - 65
+- print:
+  - ミヤコ
+  - あ。
+- wait:
+  - 35
+- print:
+  - ミヤコ
+  - とうがらしって書いてあるの。
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_5080700_014
+- face:
+  - 100711
+  - 6
+- print:
+  - ミヤコ
+  - 危ないところだったの。
+- wait:
+  - 40
+- print:
+  - ミヤコ
+  - |2-
+
+    オマエが先に食べてくれて助かったの。
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_5080700_015
+- face:
+  - 100711
+  - 4
+- emotion:
+  - drop1_R
+  - 100711
+  - 100
+  - 640
+  - se_adv_emote_drop_01
+- print:
+  - ミヤコ
+  - うぅ～～
+- wait:
+  - 30
+- print:
+  - ミヤコ
+  - プリン作りは難しいの！
+- wait:
+  - 85
+- print:
+  - ミヤコ
+  - |2-
+
+    おいしいプリンが食べられなくて
+- wait:
+  - 65
+- print:
+  - ミヤコ
+  - ボ～っとしてきたの……
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_5080700_016
+- face:
+  - 100711
+  - 4
+- print:
+  - ミヤコ
+  - いつもオマエにプリンもらってるから、
+- wait:
+  - 70
+- print:
+  - ミヤコ
+  - |2-
+
+    だんだんオマエの顔がプリンに見えてきたの……
+- wait:
+  - 105
+- print:
+  - ミヤコ
+  - |2
+
+- face:
+  - 100711
+  - 6
+- print:
+  - ミヤコ
+  - オマエ、
+- wait:
+  - 50
+- print:
+  - ミヤコ
+  - プリン……
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_5080700_017
+- face:
+  - 100711
+  - 2
+- emotion:
+  - notice2_L
+  - 100711
+  - -105
+  - 545
+  - se_adv_emote_nortice_01
+- print:
+  - ミヤコ
+  - あっ！　
+- wait:
+  - 10
+- print:
+  - ミヤコ
+  - いいこと思いついたの！
+- wait:
+  - 35
+- print:
+  - ミヤコ
+  - |2-
+
+    さすがはミヤコなの！　
+- wait:
+  - 35
+- print:
+  - ミヤコ
+  - 天才なの！
+- touch: *o0
+- choice:
+  - ……？
+  - 9
+- tag:
+  - 9
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_5080700_018
+- face:
+  - 100711
+  - 1
+- print:
+  - ミヤコ
+  - ちょっと待ってるの！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- fadeout:
+  - 100711
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 30
+- black_in: *o0
+- chara_full:
+  - 100711
+  - C
+  - 1
+- fadein:
+  - 100711
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M536
+  - 0
+  - 0
+  - 0
+  - 0.1
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_5080700_019
+- face:
+  - 100711
+  - 1
+- emotion:
+  - twinkle1_R
+  - 100711
+  - -115
+  - 505
+  - se_adv_emote_twinkle_01
+- print:
+  - ミヤコ
+  - ──やったの！　
+- wait:
+  - 15
+- print:
+  - ミヤコ
+  - うまくいったの！
+- wait:
+  - 40
+- print:
+  - ミヤコ
+  - |2
+
+- face:
+  - 100711
+  - 2
+- print:
+  - ミヤコ
+  - ほらほら見てなの！　
+- wait:
+  - 35
+- print:
+  - ミヤコ
+  - オマエの顔をしたプリンなの。
+- wait:
+  - 45
+- print:
+  - ミヤコ
+  - |2-
+
+    おもしろいの～
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_5080700_020
+- face:
+  - 100711
+  - 1
+- print:
+  - ミヤコ
+  - オマエの顔、
+- wait:
+  - 35
+- print:
+  - ミヤコ
+  - プリンになってもマヌケなかんじなの。
+- wait:
+  - 70
+- print:
+  - ミヤコ
+  - |2-
+
+    でも香りは悪くないの。
+- wait:
+  - 50
+- face:
+  - 100711
+  - 2
+- print:
+  - ミヤコ
+  - いただきますなの～
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_5080700_021
+- face:
+  - 100711
+  - 2
+- se:
+  - se_adv_eating_01
+- nod:
+  - 100711
+- print:
+  - ミヤコ
+  - もぐもぐ。
+- wait:
+  - 45
+- face:
+  - 100711
+  - 6
+- print:
+  - ミヤコ
+  - んむむ……？　
+- wait:
+  - 40
+- print:
+  - ミヤコ
+  - こ、
+- wait:
+  - 15
+- print:
+  - ミヤコ
+  - これは……
+- wait:
+  - 30
+- print:
+  - ミヤコ
+  - びっくりなの！
+- wait:
+  - 40
+- print:
+  - ミヤコ
+  - |2-
+
+    このプリン、
+- wait:
+  - 15
+- print:
+  - ミヤコ
+  - マヌケな顔してけっこーイケるの！
+- wait:
+  - 65
+- print:
+  - ミヤコ
+  - |2
+
+- face:
+  - 100711
+  - 1
+- print:
+  - ミヤコ
+  - そのへんにあった適当な材料で作ったのに、
+- wait:
+  - 60
+- print:
+  - ミヤコ
+  - 過去最高の出来なの～！
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_5080700_022
+- face:
+  - 100711
+  - 6
+- print:
+  - ミヤコ
+  - もしかして
+- wait:
+  - 25
+- print:
+  - ミヤコ
+  - 誰かの顔を真似っこすれば、
+- wait:
+  - 70
+- print:
+  - ミヤコ
+  - |2-
+
+    おいしい究極のプリンができるの……？
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_5080700_023
+- face:
+  - 100711
+  - 1
+- pop:
+  - 100711
+- print:
+  - ミヤコ
+  - わかったのっ！
+- wait:
+  - 35
+- print:
+  - ミヤコ
+  - |2-
+
+    こうなったら…………
+- wait:
+  - 55
+- print:
+  - ミヤコ
+  - |2
+
+- face:
+  - 100711
+  - 2
+- print:
+  - ミヤコ
+  - みんなをプリンにしてやるの～～～っ！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 100711
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- bgm:
+  - stop
+  - 1
+- se_pause:
+  - amb_adv_room_noise_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

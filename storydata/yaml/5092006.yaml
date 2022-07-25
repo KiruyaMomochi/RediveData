@@ -1,0 +1,7622 @@
+- title:
+  - 大海盜的遺留之物
+- outline:
+  - 引誘出真犯人──僕人後，霞等人與寶藏守護者在激鬥中戰勝，終於打開財寶大門。但結局僅有來自海盜的訊息。了解到何謂真正的寶物後，一行人離開了島嶼。
+- background:
+  - 501580
+- se:
+  - amb_adv_room_noise_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 大海盜的遺留之物
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 事件的悲慘結果以及缺少鑰匙而無法開啟的財寶之門。
+- wait:
+  - 30
+- print:
+  - 旁白
+  - |2-
+
+    霞等人抱著陰鬱的心情迎來隔日的早晨。
+- wait:
+  - 15
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 101411
+  - LC
+  - 1
+- chara_full:
+  - 121912
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- choice:
+  - 我找到鑰匙了！
+  - 1
+- tag:
+  - 1
+- bgm:
+  - bgm_M95_Ver2
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 121912
+- bust:
+  - 121912
+  - 0
+- vo:
+  - vo_adv_5092006_000
+- face:
+  - 121912
+  - 1
+- pop:
+  - 121912
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 修特帕魯
+  - 你說什麼！
+- wait:
+  - 25
+- print:
+  - 修特帕魯
+  - 不愧事吉格魯特！
+- touch: *o0
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_001
+- face:
+  - 101411
+  - 2
+- print:
+  - 霞
+  - 你果然是最棒的助手！
+- wait:
+  - 60
+- print:
+  - 霞
+  - |2
+
+- face:
+  - 101411
+  - 1
+- print:
+  - 霞
+  - 我等不及了，
+- wait:
+  - 15
+- print:
+  - 霞
+  - 快點去那扇門的地方吧！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 121912
+  - 30
+- chara_full:
+  - 122012
+  - RC
+  - 4
+- fadein:
+  - 122012
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 122012
+- bust:
+  - 122012
+  - 0
+- vo:
+  - vo_adv_5092006_002
+- face:
+  - 122012
+  - 4
+- print:
+  - 忍
+  - 可是，
+- wait:
+  - 30
+- print:
+  - 忍
+  - 要是用這把鑰匙打不開的話……
+- touch: *o0
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_003
+- face:
+  - 101411
+  - 3
+- print:
+  - 霞
+  - 到時候就把鑰匙全部處理掉吧。
+- wait:
+  - 60
+- eye_open:
+  - False
+- print:
+  - 霞
+  - 雖然沒辦法見識到財寶很可惜，
+- wait:
+  - 40
+- print:
+  - 霞
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 霞
+  - 這種爭紛的種子必須要抹滅掉。
+- touch: *o0
+- focus:
+  - 122012
+- bust:
+  - 122012
+  - 0
+- vo:
+  - vo_adv_5092006_004
+- face:
+  - 122012
+  - 2
+- print:
+  - 忍
+  - 我也贊成。
+- wait:
+  - 50
+- print:
+  - 忍
+  - 要不是有這種東西，
+- wait:
+  - 30
+- print:
+  - 忍
+  - 也不會發生這些慘劇了呢。
+- touch: *o0
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_005
+- face:
+  - 101411
+  - 2
+- nod:
+  - 101411
+- se:
+  - se_adv_step_wood_move_01
+- print:
+  - 霞
+  - 那麼這一次
+- wait:
+  - 30
+- print:
+  - 霞
+  - 終於可以和財寶相見了！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5092006_006
+- face:
+  - 1
+  - 1
+- print:
+  - ？？？
+  - ……
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1.5
+  - 1
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_room_noise_01
+  - 1
+- background:
+  - 501550
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_mystery_03
+- chara_full:
+  - 101411
+  - C
+  - 1
+- fadein:
+  - 101411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_007
+- face:
+  - 101411
+  - 1
+- print:
+  - 霞
+  - 這個時刻終於來了，
+- wait:
+  - 20
+- print:
+  - 霞
+  - 助手先生。
+- wait:
+  - 25
+- print:
+  - 霞
+  - 轉動
+- wait:
+  - 30
+- print:
+  - 霞
+  - 最後一把鑰匙吧。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101411
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- se:
+  - se_adv_lockpick_06
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5092006_008
+- face:
+  - 1
+  - 1
+- print:
+  - ？？？
+  - ……
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 122012
+  - C
+  - 6
+- fadein:
+  - 122012
+  - 30
+- window_visible:
+  - true
+- vo_effect:
+  - 4
+- bgm:
+  - bgm_M251
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 2413
+- bust:
+  - 2413
+  - 1
+- vo:
+  - vo_adv_5092006_009
+- face:
+  - 2413
+  - 1
+- print:
+  - 骷髏老爸
+  - 搞什麼嘛，
+- wait:
+  - 30
+- print:
+  - 骷髏老爸
+  - 根本打不開啊。
+- wait:
+  - 35
+- print:
+  - 骷髏老爸
+  - 竟敢讓我們白歡喜一場，
+- wait:
+  - 30
+- print:
+  - 骷髏老爸
+  - 這個蠢小伙子。
+- touch: *o0
+- vo_effect:
+  - 0
+- focus:
+  - 122012
+- bust:
+  - 122012
+  - 0
+- vo:
+  - vo_adv_5092006_010
+- face:
+  - 122012
+  - 3
+- print:
+  - 忍
+  - 爸爸你別說了。
+- wait:
+  - 80
+- face:
+  - 122012
+  - 4
+- print:
+  - 忍
+  - 不過
+- wait:
+  - 35
+- print:
+  - 忍
+  - 這下完全束手無策了呢。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 122012
+  - 30
+- chara_full:
+  - 101411
+  - LC
+  - 4
+- chara_full:
+  - 121912
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_011
+- face:
+  - 101411
+  - 4
+- print:
+  - 霞
+  - 沒辦法，
+- wait:
+  - 30
+- print:
+  - 霞
+  - 放棄財寶吧。
+- wait:
+  - 45
+- eye_open:
+  - False
+- print:
+  - 霞
+  - 突然覺得先前的那些努力
+- wait:
+  - 35
+- print:
+  - 霞
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 霞
+  - 就像是做白工一樣。
+- touch: *o0
+- focus:
+  - 121912
+- bust:
+  - 121912
+  - 0
+- vo:
+  - vo_adv_5092006_012
+- face:
+  - 121912
+  - 4
+- print:
+  - 修特帕魯
+  - 對啊，
+- wait:
+  - 45
+- print:
+  - 修特帕魯
+  - 就連處理鑰匙都覺得好麻煩。
+- wait:
+  - 70
+- print:
+  - 修特帕魯
+  - |2
+
+- face:
+  - 121912
+  - 3
+- print:
+  - 修特帕魯
+  - 我們趕快離開
+- wait:
+  - 30
+- print:
+  - 修特帕魯
+  - 這座爛島吧。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - L
+  - LC
+  - 30
+- change:
+  - C
+  - RC
+  - 30
+- fadeout_all:
+  - 30
+- wait:
+  - 15
+- se:
+  - se_adv_step_concrete_walk_come_01
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 9.4
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5092006_013
+- face:
+  - 1
+  - 1
+- print:
+  - ？？？
+  - 礙事的傢伙們終於走了……
+- wait:
+  - 75
+- print:
+  - ？？？
+  - |2-
+
+    果然
+- wait:
+  - 40
+- print:
+  - ？？？
+  - 我才是最後的贏家。
+- touch: *o0
+- bgm:
+  - bgm_M167
+  - 0
+  - 0
+  - 1
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5092006_014
+- face:
+  - 1
+  - 1
+- print:
+  - ？？？
+  - 迪德，
+- wait:
+  - 45
+- print:
+  - ？？？
+  - 我成功啦！
+- wait:
+  - 30
+- se:
+  - se_adv_door_not_open_01
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- wait:
+  - 60
+- print:
+  - ？？？
+  - 奇怪？
+- wait:
+  - 40
+- print:
+  - ？？？
+  - 怎麼會，
+- wait:
+  - 35
+- print:
+  - ？？？
+  - 為什麼，
+- wait:
+  - 25
+- print:
+  - ？？？
+  - |2-
+
+    為什麼門打不開！
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 101411
+  - LC
+  - 1
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 101411
+  - 45
+- window_visible:
+  - true
+- bgm:
+  - bgm_M392
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_015
+- face:
+  - 101411
+  - 1
+- print:
+  - 霞
+  - 凡事急不得呢。
+- wait:
+  - 55
+- print:
+  - 霞
+  - 特別是在做某件大事之前，
+- wait:
+  - 50
+- print:
+  - 霞
+  - |2-
+
+    一定要謹慎小心。
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5092006_016
+- face:
+  - 1
+  - 1
+- print:
+  - ？？？
+  - ！？
+- wait:
+  - 25
+- print:
+  - ？？？
+  - 這、
+- wait:
+  - 35
+- print:
+  - ？？？
+  - 這把鑰匙該不會是！
+- touch: *o0
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_017
+- face:
+  - 101411
+  - 1
+- nod:
+  - 101411
+- print:
+  - 霞
+  - 你應該很清楚吧。
+- wait:
+  - 40
+- print:
+  - 霞
+  - 沒錯，
+- wait:
+  - 15
+- print:
+  - 霞
+  - 那是小木屋的鑰匙。
+- wait:
+  - 40
+- print:
+  - 霞
+  - |2-
+
+    真正的鑰匙好好地在我這裡呢。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101411
+  - 30
+- chara_full:
+  - 101411
+  - LC
+  - 1
+- chara_full:
+  - 122012
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 122012
+- bust:
+  - 122012
+  - 0
+- vo:
+  - vo_adv_5092006_018
+- face:
+  - 122012
+  - 6
+- print:
+  - 忍
+  - 我一開始還不相信，
+- wait:
+  - 60
+- print:
+  - 忍
+  - 想不到真的是他啊。
+- touch: *o0
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_019
+- face:
+  - 101411
+  - 3
+- print:
+  - 霞
+  - 對，
+- wait:
+  - 25
+- print:
+  - 霞
+  - 這一連串事件的犯人，
+- wait:
+  - 35
+- print:
+  - 霞
+  - 「海盜詛咒」的真面目就是你，
+- wait:
+  - 50
+- print:
+  - 霞
+  - |2-
+
+    僕人！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 311
+  - C
+  - 3
+- fadein:
+  - 311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_020
+- face:
+  - 311
+  - 3
+- print:
+  - 隨從
+  - 原來如此……
+- wait:
+  - 50
+- eye_open:
+  - False
+- print:
+  - 隨從
+  - 我被擺了一道呀。
+- wait:
+  - 90
+- print:
+  - 隨從
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 隨從
+  - 可是
+- wait:
+  - 50
+- print:
+  - 隨從
+  - 你是怎麼知道我是真犯人的？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 311
+  - 30
+- chara_full:
+  - 101411
+  - C
+  - 3
+- fadein:
+  - 101411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_021
+- face:
+  - 101411
+  - 3
+- print:
+  - 霞
+  - 昨天在海盜第二次出現時，
+- wait:
+  - 45
+- print:
+  - 霞
+  - 和懼怕的兩個人相比，
+- wait:
+  - 35
+- print:
+  - 霞
+  - |2-
+
+    你實在太過沉著冷靜了。
+- touch: *o0
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_022
+- face:
+  - 101411
+  - 1
+- print:
+  - 霞
+  - 簡直像是自己才是給予制裁的人一樣。
+- touch: *o0
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_023
+- face:
+  - 101411
+  - 1
+- nod:
+  - 101411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 霞
+  - 最後讓我確信的是
+- wait:
+  - 35
+- print:
+  - 霞
+  - 那個海盜。
+- wait:
+  - 50
+- print:
+  - 霞
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - 霞
+  - 原先都是假靈媒師在假扮海盜，
+- wait:
+  - 55
+- print:
+  - 霞
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 霞
+  - 可是昨天的海盜動作有一點很奇怪。
+- touch: *o0
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_024
+- face:
+  - 101411
+  - 3
+- print:
+  - 霞
+  - 之前追趕我們時的海盜動作就像人一樣，
+- wait:
+  - 85
+- print:
+  - 霞
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - 霞
+  - 相較之下，
+- wait:
+  - 25
+- print:
+  - 霞
+  - 昨晚杏奈她們看見的海盜，
+- wait:
+  - 30
+- print:
+  - 霞
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 霞
+  - 以及
+- wait:
+  - 15
+- print:
+  - 霞
+  - 昨晚出現的海盜
+- wait:
+  - 35
+- print:
+  - 霞
+  - 都毫無動作，
+- wait:
+  - 25
+- print:
+  - 霞
+  - 彷彿像亡靈一樣佇立不動。
+- touch: *o0
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_025
+- face:
+  - 101411
+  - 1
+- print:
+  - 霞
+  - 再加上杏奈講的話
+- wait:
+  - 30
+- print:
+  - 霞
+  - 才讓我察覺到不對勁的地方。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101411
+  - 30
+- se_pause:
+  - amb_adv_mystery_03
+  - 1
+- bgm:
+  - stop
+  - 1.5
+- se:
+  - se_adv_transition_sharp_01
+- white_out:
+  - 1
+  - 1
+- background:
+  - 501580
+- wait:
+  - 15
+- effect:
+  - 0087
+- se:
+  - amb_adv_room_noise_01
+- white_in: *o0
+- vo_effect:
+  - 3
+- chara_full:
+  - 101411
+  - LC
+  - 3
+- chara_full:
+  - 121912
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M418
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 121912
+- bust:
+  - 121912
+  - 0
+- vo:
+  - vo_adv_5092006_026
+- face:
+  - 121912
+  - 6
+- print:
+  - 修特帕魯
+  - 那個海盜
+- wait:
+  - 50
+- print:
+  - 修特帕魯
+  - 不斷重複同樣的警告……
+- wait:
+  - 80
+- print:
+  - 修特帕魯
+  - |2
+
+- face:
+  - 121912
+  - 4
+- print:
+  - 修特帕魯
+  - 它到底
+- wait:
+  - 20
+- print:
+  - 修特帕魯
+  - 有多恨高登他們啊。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- vo_effect:
+  - 0
+- se_pause:
+  - amb_adv_room_noise_01
+  - 1
+- se:
+  - se_adv_transition_sharp_01
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0087
+- background:
+  - 501550
+- wait:
+  - 15
+- white_in: *o0
+- se:
+  - amb_adv_mystery_03
+- chara_full:
+  - 101411
+  - C
+  - 1
+- fadein:
+  - 101411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_027
+- face:
+  - 101411
+  - 1
+- print:
+  - 霞
+  - 我和杏奈確認之後，
+- wait:
+  - 30
+- print:
+  - 霞
+  - |2-
+
+    才曉得在我和助手先生追海盜的時候
+- wait:
+  - 55
+- print:
+  - 霞
+  - 他也是講同樣的話。
+- wait:
+  - 45
+- print:
+  - 霞
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - 霞
+  - 以詛咒或惡靈來說
+- wait:
+  - 30
+- print:
+  - 霞
+  - 這也太機械化了吧。
+- touch: *o0
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_028
+- face:
+  - 101411
+  - 1
+- eye_open:
+  - True
+- print:
+  - 霞
+  - 再加上
+- wait:
+  - 15
+- print:
+  - 霞
+  - 海盜出現攻擊高登的那時候，
+- wait:
+  - 40
+- print:
+  - 霞
+  - |2-
+
+    到了這個節骨眼還有警告的必要嗎？
+- touch: *o0
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_029
+- face:
+  - 101411
+  - 1
+- nod:
+  - 101411
+- print:
+  - 霞
+  - 所以
+- wait:
+  - 25
+- print:
+  - 霞
+  - 我判斷它不是重複講同樣的話，
+- wait:
+  - 35
+- print:
+  - 霞
+  - |2-
+
+    而是只能講一樣的話。
+- touch: *o0
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_030
+- face:
+  - 101411
+  - 3
+- print:
+  - 霞
+  - 也就是說還有一個海盜。
+- wait:
+  - 50
+- print:
+  - 霞
+  - |2-
+
+    而這個海盜
+- wait:
+  - 20
+- print:
+  - 霞
+  - 就像幽魂一樣。
+- touch: *o0
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_031
+- face:
+  - 101411
+  - 1
+- print:
+  - 霞
+  - 那麼
+- wait:
+  - 15
+- print:
+  - 霞
+  - 又是誰創造出這個幽魂的呢？
+- wait:
+  - 60
+- print:
+  - 霞
+  - |2
+
+- face:
+  - 101411
+  - 5
+- print:
+  - 霞
+  - 當它出現時
+- wait:
+  - 40
+- print:
+  - 霞
+  - 必定有一個人
+- wait:
+  - 40
+- print:
+  - 霞
+  - 會在現場。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101411
+  - 30
+- chara_full:
+  - 122012
+  - C
+  - 6
+- fadein:
+  - 122012
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 122012
+- bust:
+  - 122012
+  - 0
+- vo:
+  - vo_adv_5092006_032
+- face:
+  - 122012
+  - 6
+- print:
+  - 忍
+  - 那就是
+- wait:
+  - 40
+- print:
+  - 忍
+  - 他啊。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 122012
+  - 30
+- chara_full:
+  - 101411
+  - LC
+  - 1
+- chara_full:
+  - 311
+  - RC
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_033
+- face:
+  - 101411
+  - 1
+- print:
+  - 霞
+  - 最後我真正確定
+- wait:
+  - 40
+- print:
+  - 霞
+  - 是在昨天三個人昏倒，照顧他們的時候。
+- wait:
+  - 75
+- print:
+  - 霞
+  - |2
+
+- face:
+  - 101411
+  - 3
+- print:
+  - 霞
+  - 高登和假靈媒師身上
+- wait:
+  - 35
+- print:
+  - 霞
+  - 都有極小的針孔痕跡。
+- touch: *o0
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_034
+- face:
+  - 101411
+  - 6
+- print:
+  - 霞
+  - 但是
+- wait:
+  - 20
+- print:
+  - 霞
+  - 在僕人你身上卻沒有發現到。
+- wait:
+  - 55
+- print:
+  - 霞
+  - |2
+
+- face:
+  - 101411
+  - 1
+- print:
+  - 霞
+  - 畢竟不可能給自己下毒嘛。
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_035
+- face:
+  - 311
+  - 3
+- eye_open:
+  - False
+- print:
+  - 隨從
+  - 妳明明察覺到這麼多，卻沒有去找針筒
+- wait:
+  - 110
+- print:
+  - 隨從
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 隨從
+  - 是為了引開我的注意力啊。
+- touch: *o0
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_036
+- face:
+  - 101411
+  - 2
+- print:
+  - 霞
+  - 沒有錯。
+- wait:
+  - 40
+- face:
+  - 101411
+  - 1
+- print:
+  - 霞
+  - 不過你也很厲害。
+- wait:
+  - 40
+- print:
+  - 霞
+  - |2-
+
+    針筒和關燈的機關
+- wait:
+  - 35
+- print:
+  - 霞
+  - 都是你先前準備好的吧，
+- wait:
+  - 40
+- print:
+  - 霞
+  - |2-
+
+    我會歸來以及進行推理
+- wait:
+  - 45
+- print:
+  - 霞
+  - 應該完全是你預料之外的事。
+- touch: *o0
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_037
+- face:
+  - 101411
+  - 1
+- eye_open:
+  - False
+- print:
+  - 霞
+  - 所以你才故意認罪，
+- wait:
+  - 40
+- print:
+  - 霞
+  - 假裝接受制裁
+- wait:
+  - 30
+- print:
+  - 霞
+  - 藉以從舞台退場，
+- wait:
+  - 45
+- print:
+  - 霞
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 霞
+  - 這樣的臨機應變
+- wait:
+  - 35
+- print:
+  - 霞
+  - 真的是太出色了。
+- touch: *o0
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_038
+- face:
+  - 101411
+  - 1
+- nod:
+  - 101411
+- print:
+  - 霞
+  - 祈禱也是為了
+- wait:
+  - 25
+- print:
+  - 霞
+  - 閉上眼睛，
+- wait:
+  - 20
+- print:
+  - 霞
+  - 讓眼睛習慣黑暗對吧？
+- wait:
+  - 50
+- print:
+  - 霞
+  - |2
+
+- face:
+  - 101411
+  - 2
+- print:
+  - 霞
+  - 和高登比起來你更有一手呢。
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_039
+- face:
+  - 311
+  - 3
+- eye_open:
+  - False
+- print:
+  - 隨從
+  - 哼，
+- wait:
+  - 55
+- eye_open:
+  - True
+- print:
+  - 隨從
+  - 被偵探稱讚
+- wait:
+  - 50
+- print:
+  - 隨從
+  - 我一點都高興不起來。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 121912
+  - C
+  - 6
+- fadein:
+  - 121912
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 121912
+- bust:
+  - 121912
+  - 0
+- vo:
+  - vo_adv_5092006_040
+- face:
+  - 121912
+  - 6
+- print:
+  - 修特帕魯
+  - 可是
+- wait:
+  - 30
+- print:
+  - 修特帕魯
+  - 這個男人為什麼
+- wait:
+  - 35
+- print:
+  - 修特帕魯
+  - 要做出假裝動彈不得
+- wait:
+  - 55
+- print:
+  - 修特帕魯
+  - |2-
+
+    這種拐彎抹角的事情呢？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 121912
+  - 30
+- chara_full:
+  - 101411
+  - C
+  - 6
+- fadein:
+  - 101411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_041
+- face:
+  - 101411
+  - 6
+- print:
+  - 霞
+  - 因為他打算用這種方式
+- wait:
+  - 35
+- print:
+  - 霞
+  - 藉機獨吞財寶吧。
+- wait:
+  - 65
+- print:
+  - 霞
+  - |2
+
+- face:
+  - 101411
+  - 1
+- print:
+  - 霞
+  - 我猜
+- wait:
+  - 20
+- print:
+  - 霞
+  - 最後一把鑰匙
+- wait:
+  - 25
+- print:
+  - 霞
+  - 應該是在他身上。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101411
+  - 30
+- chara_full:
+  - 121912
+  - LC
+  - 6
+- chara_full:
+  - 122012
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 121912
+- bust:
+  - 121912
+  - 0
+- vo:
+  - vo_adv_5092006_042
+- face:
+  - 121912
+  - 6
+- emotion:
+  - exclamation1_R
+  - 121912
+  - -10
+  - 610
+  - se_adv_emote_common_01
+- print:
+  - 修特帕魯
+  - 原來如此！
+- wait:
+  - 30
+- print:
+  - 修特帕魯
+  - 因為他有最後一把鑰匙，
+- wait:
+  - 45
+- print:
+  - 修特帕魯
+  - |2-
+
+    所以一聽到我們要處理其他鑰匙
+- wait:
+  - 30
+- print:
+  - 修特帕魯
+  - |2-
+
+    逼不得已
+- wait:
+  - 55
+- print:
+  - 修特帕魯
+  - 才會現身啊。
+- touch: *o0
+- focus:
+  - 122012
+- bust:
+  - 122012
+  - 0
+- vo:
+  - vo_adv_5092006_043
+- face:
+  - 122012
+  - 6
+- print:
+  - 忍
+  - 另外要是這把假鑰匙
+- wait:
+  - 70
+- print:
+  - 忍
+  - 不小心把門打開的話
+- wait:
+  - 50
+- print:
+  - 忍
+  - 他就得不到財寶了，
+- wait:
+  - 30
+- print:
+  - 忍
+  - |2-
+
+    考慮到這種可能性，
+- wait:
+  - 65
+- face:
+  - 122012
+  - 1
+- print:
+  - 忍
+  - 於是他
+- wait:
+  - 25
+- print:
+  - 忍
+  - 就不得不現身吧。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 101411
+  - LC
+  - 1
+- chara_full:
+  - 311
+  - RC
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_044
+- face:
+  - 311
+  - 3
+- print:
+  - 隨從
+  - 妳說得沒錯。
+- wait:
+  - 55
+- print:
+  - 隨從
+  - 就算一眼就能看出你們在演戲。
+- wait:
+  - 80
+- print:
+  - 隨從
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - 隨從
+  - 可惡，
+- wait:
+  - 45
+- eye_open:
+  - True
+- print:
+  - 隨從
+  - 你們幾個真的是太可恨了。
+- touch: *o0
+- bgm:
+  - stop
+  - 10.5
+  - 1
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_045
+- face:
+  - 101411
+  - 3
+- print:
+  - 霞
+  - 話說
+- wait:
+  - 20
+- print:
+  - 霞
+  - 你到底是什麼人？
+- wait:
+  - 40
+- print:
+  - 霞
+  - |2-
+
+    既然拿著最後一把鑰匙
+- wait:
+  - 35
+- print:
+  - 霞
+  - 不會只是一介僕人吧。
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_046
+- face:
+  - 311
+  - 1
+- print:
+  - 隨從
+  - 既然我們是同甘共苦過來的，
+- wait:
+  - 85
+- print:
+  - 隨從
+  - 好吧，
+- wait:
+  - 30
+- print:
+  - 隨從
+  - 我就告訴你們。
+- wait:
+  - 65
+- print:
+  - 隨從
+  - |2
+
+- face:
+  - 311
+  - 3
+- print:
+  - 隨從
+  - 我是
+- wait:
+  - 50
+- bgm:
+  - bgm_M59
+- print:
+  - 隨從
+  - 愛德華‧迪德的後裔，
+- wait:
+  - 60
+- print:
+  - 隨從
+  - |2
+
+- nod:
+  - 311
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - 隨從
+  - 我才是
+- wait:
+  - 50
+- print:
+  - 隨從
+  - 繼承財寶的正統繼任者！
+- touch: *o0
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_047
+- face:
+  - 101411
+  - 6
+- emotion:
+  - notice1_L
+  - 101411
+  - -80
+  - 530
+  - se_adv_emote_common_01
+- print:
+  - 霞
+  - 那把鑰匙……
+- wait:
+  - 40
+- print:
+  - 霞
+  - 看來應該不是在說謊呢。
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_048
+- face:
+  - 311
+  - 4
+- print:
+  - 隨從
+  - 我們一族
+- wait:
+  - 50
+- print:
+  - 隨從
+  - 早在很久以前便沒落，
+- wait:
+  - 75
+- print:
+  - 隨從
+  - 在我這一代更是過著三餐不繼的生活，
+- wait:
+  - 80
+- print:
+  - 隨從
+  - |2
+
+- face:
+  - 311
+  - 3
+- print:
+  - 隨從
+  - 我所繼承的只有
+- wait:
+  - 40
+- print:
+  - 隨從
+  - 這把迪德的鑰匙、
+- wait:
+  - 50
+- print:
+  - 隨從
+  - |2-
+
+    從鑰匙能顯現出迪德幻影的機關，
+- wait:
+  - 55
+- print:
+  - 隨從
+  - 還有一段訊息而已。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101411
+  - 30
+- chara_full:
+  - 121912
+  - LC
+  - 6
+- fadein:
+  - 121912
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 121912
+- bust:
+  - 121912
+  - 0
+- vo:
+  - vo_adv_5092006_049
+- face:
+  - 121912
+  - 6
+- emotion:
+  - question1_R
+  - 121912
+  - 85
+  - 460
+  - se_adv_emote_question_01
+- print:
+  - 修特帕魯
+  - 訊息？
+- wait:
+  - 35
+- print:
+  - 修特帕魯
+  - 你是說那段像詛咒的警告嗎？
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_050
+- face:
+  - 311
+  - 3
+- eye_open:
+  - False
+- print:
+  - 隨從
+  - 哼，
+- wait:
+  - 50
+- print:
+  - 隨從
+  - 對你們來說聽起來像是詛咒啊。
+- wait:
+  - 75
+- print:
+  - 隨從
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 隨從
+  - 還好你們自己胡亂猜測。
+- wait:
+  - 110
+- print:
+  - 隨從
+  - |2
+
+- face:
+  - 311
+  - 1
+- print:
+  - 隨從
+  - 那可是迪德
+- wait:
+  - 60
+- print:
+  - 隨從
+  - 留下來的如假包換的訊息。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- black_out:
+  - 1
+  - 1
+- bg_color:
+  - 0
+  - 0
+  - 0
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 8211
+  - C
+  - 1
+- fadein:
+  - 8211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 8211
+- bust:
+  - 8211
+  - 0
+- vo:
+  - vo_adv_5092006_051
+- face:
+  - 8211
+  - 1
+- print:
+  - 愛德華‧迪德
+  - 繼承吾之血脈者，
+- wait:
+  - 105
+- print:
+  - 愛德華‧迪德
+  - 帶著四個力量，
+- wait:
+  - 95
+- print:
+  - 愛德華‧迪德
+  - 到遙遠他方蒐集三把鑰匙吧。
+- wait:
+  - 120
+- print:
+  - 愛德華‧迪德
+  - |2-
+
+    如此，
+- wait:
+  - 45
+- print:
+  - 愛德華‧迪德
+  - 你所擁有的最後一把鑰匙
+- wait:
+  - 110
+- print:
+  - 愛德華‧迪德
+  - 便能開啟
+- wait:
+  - 50
+- print:
+  - 愛德華‧迪德
+  - 財寶大門。
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2.2
+- fadeout:
+  - 8211
+  - 30
+- black_out:
+  - 1
+  - 0.5
+- background:
+  - 501550
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 311
+  - C
+  - 4
+- fadein:
+  - 311
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M417
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_052
+- face:
+  - 311
+  - 4
+- print:
+  - 隨從
+  - 迪德往昔的幻影和這段話
+- wait:
+  - 70
+- print:
+  - 隨從
+  - |2-
+
+    讓我撐過那段痛苦的日子。
+- wait:
+  - 90
+- print:
+  - 隨從
+  - |2
+
+- face:
+  - 311
+  - 1
+- print:
+  - 隨從
+  - 我夢想總有一天要乘著自己的船出海
+- wait:
+  - 55
+- print:
+  - 隨從
+  - 找到這份財寶。
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_053
+- face:
+  - 311
+  - 4
+- print:
+  - 隨從
+  - 不過那段訊息
+- wait:
+  - 45
+- print:
+  - 隨從
+  - 因為我聽了太多次，
+- wait:
+  - 55
+- print:
+  - 隨從
+  - |2-
+
+    已經壞掉聽不清楚在說什麼了。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 311
+  - 30
+- chara_full:
+  - 121912
+  - C
+  - 6
+- fadein:
+  - 121912
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 121912
+- bust:
+  - 121912
+  - 0
+- vo:
+  - vo_adv_5092006_054
+- face:
+  - 121912
+  - 6
+- print:
+  - 修特帕魯
+  - 原來那段像詛咒的話
+- wait:
+  - 50
+- print:
+  - 修特帕魯
+  - 是這個意思啊……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 121912
+  - 30
+- chara_full:
+  - 311
+  - C
+  - 1
+- fadein:
+  - 311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_055
+- face:
+  - 311
+  - 1
+- print:
+  - 隨從
+  - 在我成長後
+- wait:
+  - 50
+- print:
+  - 隨從
+  - 便開始到高登這裡工作。
+- wait:
+  - 75
+- print:
+  - 隨從
+  - |2
+
+- face:
+  - 311
+  - 3
+- print:
+  - 隨從
+  - 如你們所見
+- wait:
+  - 35
+- print:
+  - 隨從
+  - 他是個沒藥救的奸商。
+- wait:
+  - 85
+- print:
+  - 隨從
+  - |2-
+
+    在這種傢伙底下幹活的痛苦
+- wait:
+  - 60
+- eye_open:
+  - False
+- print:
+  - 隨從
+  - 應該不難想像吧。
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_056
+- face:
+  - 311
+  - 3
+- eye_open:
+  - True
+- print:
+  - 隨從
+  - 不過只要待在他這裡
+- wait:
+  - 45
+- print:
+  - 隨從
+  - 不但手頭寬裕
+- wait:
+  - 30
+- print:
+  - 隨從
+  - 還能得到秘密情報。
+- wait:
+  - 70
+- print:
+  - 隨從
+  - |2-
+
+    為了做好尋找迪德財寶的準備
+- wait:
+  - 45
+- print:
+  - 隨從
+  - 這一切我都忍下來了。
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_057
+- face:
+  - 311
+  - 4
+- print:
+  - 隨從
+  - 但是
+- wait:
+  - 55
+- print:
+  - 隨從
+  - 命運是殘酷的。
+- wait:
+  - 70
+- face:
+  - 311
+  - 3
+- print:
+  - 隨從
+  - 發現這座島的不是我，
+- wait:
+  - 65
+- print:
+  - 隨從
+  - 是高登。
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_058
+- face:
+  - 311
+  - 3
+- nod:
+  - 311
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 隨從
+  - 而且他
+- wait:
+  - 40
+- print:
+  - 隨從
+  - 還將我這個財寶繼承人晾在一旁，
+- wait:
+  - 65
+- print:
+  - 隨從
+  - |2-
+
+    打算自己獨占所有的財寶。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 311
+  - 30
+- chara_full:
+  - 101411
+  - LC
+  - 3
+- chara_full:
+  - 311
+  - RC
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_059
+- face:
+  - 101411
+  - 3
+- print:
+  - 霞
+  - 嗯，
+- wait:
+  - 30
+- print:
+  - 霞
+  - 這就是你背叛高登的原因啊。
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_060
+- face:
+  - 311
+  - 3
+- eye_open:
+  - False
+- print:
+  - 隨從
+  - 不，
+- wait:
+  - 5
+- print:
+  - 隨從
+  - 不僅僅只有這樣。
+- wait:
+  - 55
+- eye_open:
+  - True
+- print:
+  - 隨從
+  - 他不但擅自捏造出詛咒，
+- wait:
+  - 40
+- print:
+  - 隨從
+  - |2-
+
+    還計畫在取得財寶後
+- wait:
+  - 30
+- print:
+  - 隨從
+  - |-
+    把這座島改造成
+    度假勝地。
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_061
+- face:
+  - 311
+  - 3
+- eye_open:
+  - False
+- print:
+  - 隨從
+  - 高登奪走了我的夢想，
+- wait:
+  - 50
+- print:
+  - 隨從
+  - 甚至汙衊了我珍惜的事物。
+- wait:
+  - 65
+- print:
+  - 隨從
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 隨從
+  - 我絕對饒不了他！
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_062
+- face:
+  - 311
+  - 3
+- nod:
+  - 311
+- print:
+  - 隨從
+  - 所以我
+- wait:
+  - 50
+- print:
+  - 隨從
+  - 裝作幫助高登的樣子，
+- wait:
+  - 40
+- print:
+  - 隨從
+  - 讓參加者解謎，
+- wait:
+  - 45
+- print:
+  - 隨從
+  - |2-
+
+    最後幹掉高登，
+- wait:
+  - 45
+- print:
+  - 隨從
+  - 從旁奪走一切。
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_063
+- face:
+  - 311
+  - 4
+- print:
+  - 隨從
+  - 難道
+- wait:
+  - 30
+- print:
+  - 隨從
+  - 我錯了嗎？
+- wait:
+  - 45
+- eye_open:
+  - False
+- print:
+  - 隨從
+  - 我不過是想守護
+- wait:
+  - 35
+- print:
+  - 隨從
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 隨從
+  - 我所珍惜的事物而已啊。
+- touch: *o0
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_064
+- face:
+  - 101411
+  - 4
+- print:
+  - 霞
+  - ……
+- wait:
+  - 45
+- print:
+  - 霞
+  - 我認為你有得到財寶的正當性，
+- wait:
+  - 65
+- print:
+  - 霞
+  - |2-
+
+    我也不打算和你爭奪。
+- wait:
+  - 40
+- print:
+  - 霞
+  - |2
+
+- face:
+  - 101411
+  - 1
+- print:
+  - 霞
+  - 我也能理解你為何
+- wait:
+  - 35
+- print:
+  - 霞
+  - 無法原諒高登。
+- touch: *o0
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_065
+- face:
+  - 101411
+  - 3
+- nod:
+  - 101411
+- se:
+  - se_adv_step_concrete_move_01
+- print:
+  - 霞
+  - 不過
+- wait:
+  - 25
+- print:
+  - 霞
+  - 我無法饒恕你所犯下的種種罪行。
+- wait:
+  - 55
+- print:
+  - 霞
+  - |2-
+
+    身為偵探
+- wait:
+  - 25
+- print:
+  - 霞
+  - 我是無法視而不見的。
+- touch: *o0
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_066
+- face:
+  - 101411
+  - 1
+- print:
+  - 霞
+  - 我們
+- wait:
+  - 20
+- print:
+  - 霞
+  - 就讓事情結束吧。
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_067
+- face:
+  - 311
+  - 1
+- print:
+  - 隨從
+  - ……
+- wait:
+  - 45
+- print:
+  - 隨從
+  - 果然不該找偵探來的。
+- wait:
+  - 110
+- print:
+  - 隨從
+  - |2
+
+- face:
+  - 311
+  - 3
+- print:
+  - 隨從
+  - 妳以為
+- wait:
+  - 55
+- print:
+  - 隨從
+  - 你們已經勝券在握了嗎？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101411
+  - 30
+- chara_full:
+  - 121912
+  - LC
+  - 3
+- fadein:
+  - 121912
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 121912
+- bust:
+  - 121912
+  - 0
+- vo:
+  - vo_adv_5092006_068
+- face:
+  - 121912
+  - 3
+- print:
+  - 修特帕魯
+  - 到這個節骨眼別再裝模作樣了。
+- wait:
+  - 40
+- print:
+  - 修特帕魯
+  - 真叫人看不下去！
+- touch: *o0
+- bgm:
+  - stop
+  - 16.1
+  - 1
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_069
+- face:
+  - 311
+  - 1
+- print:
+  - 隨從
+  - 你們仔細想想，
+- wait:
+  - 55
+- print:
+  - 隨從
+  - 最恐怖的大海盜
+- wait:
+  - 40
+- print:
+  - 隨從
+  - |2-
+
+    有可能只留下出現幻影的機關嗎？
+- wait:
+  - 105
+- print:
+  - 隨從
+  - |2
+
+- face:
+  - 311
+  - 3
+- print:
+  - 隨從
+  - 去吧，
+- wait:
+  - 45
+- print:
+  - 隨從
+  - 大鬧一場吧，我的祖先！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 8211
+  - C
+  - 1
+- fadein:
+  - 8211
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M167_NoIntro
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 8211
+- bust:
+  - 8211
+  - 0
+- vo:
+  - vo_adv_5092006_070
+- face:
+  - 8211
+  - 1
+- print:
+  - 海盜
+  - 繼……
+- wait:
+  - 75
+- print:
+  - 海盜
+  - 帶……
+- wait:
+  - 105
+- print:
+  - 海盜
+  - 到……
+- wait:
+  - 115
+- print:
+  - 海盜
+  - 集……
+- wait:
+  - 90
+- print:
+  - 海盜
+  - 匙……
+- wait:
+  - 65
+- print:
+  - 海盜
+  - |2-
+
+    此……
+- wait:
+  - 75
+- print:
+  - 海盜
+  - 最……
+- wait:
+  - 100
+- print:
+  - 海盜
+  - 開……
+- wait:
+  - 90
+- print:
+  - 海盜
+  - 吧……
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0009
+- se:
+  - se_adv_weapon_axe_whiff_long_01
+- fadeout:
+  - 8211
+  - 30
+- effect_delete:
+  - 0009
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 101411
+  - C
+  - 3
+- fadein:
+  - 101411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_071
+- face:
+  - 101411
+  - 3
+- print:
+  - 霞
+  - 唔！
+- wait:
+  - 25
+- print:
+  - 霞
+  - 大家
+- wait:
+  - 5
+- print:
+  - 霞
+  - 小心……
+- wait:
+  - 20
+- face:
+  - 101411
+  - 6
+- print:
+  - 霞
+  - 咦？
+- touch: *o0
+- se:
+  - se_adv_body_catch_down_01
+- choice:
+  - 哇啊！？
+  - 2
+- tag:
+  - 2
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_072
+- face:
+  - 101411
+  - 6
+- emotion:
+  - exclamation1_R
+  - 101411
+  - 0
+  - 665
+  - se_adv_emote_common_01
+- print:
+  - 霞
+  - 助手先生！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101411
+  - 30
+- chara_full:
+  - 311
+  - C
+  - 1
+- fadein:
+  - 311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_073
+- face:
+  - 311
+  - 1
+- print:
+  - 隨從
+  - 上當了吧！
+- wait:
+  - 65
+- face:
+  - 311
+  - 3
+- print:
+  - 隨從
+  - 就算是裝模作樣，
+- wait:
+  - 55
+- print:
+  - 隨從
+  - |2-
+
+    你們的注意力還是會在瞬間被拉過去。
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_074
+- face:
+  - 311
+  - 1
+- print:
+  - 隨從
+  - 不管你們有多優秀，
+- wait:
+  - 65
+- print:
+  - 隨從
+  - 有人質在就沒轍了吧？
+- wait:
+  - 85
+- print:
+  - 隨從
+  - |2
+
+- face:
+  - 311
+  - 3
+- print:
+  - 隨從
+  - 快點，
+- wait:
+  - 40
+- print:
+  - 隨從
+  - 每個人照順序把鑰匙插上去。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 311
+  - 30
+- chara_full:
+  - 122012
+  - C
+  - 4
+- fadein:
+  - 122012
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 122012
+- bust:
+  - 122012
+  - 0
+- vo:
+  - vo_adv_5092006_075
+- face:
+  - 122012
+  - 4
+- print:
+  - 忍
+  - ……
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_door_open_06
+- se:
+  - se_adv_lockpick_06
+- nod:
+  - 122012
+- wait:
+  - 15
+- fadeout:
+  - 122012
+  - 30
+- chara_full:
+  - 101411
+  - C
+  - 4
+- fadein:
+  - 101411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_076
+- face:
+  - 101411
+  - 4
+- print:
+  - 霞
+  - 助手先生……
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_door_open_06
+- se:
+  - se_adv_lockpick_06
+- nod:
+  - 101411
+- wait:
+  - 15
+- fadeout:
+  - 101411
+  - 30
+- chara_full:
+  - 121912
+  - C
+  - 4
+- fadein:
+  - 121912
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 121912
+- bust:
+  - 121912
+  - 0
+- vo:
+  - vo_adv_5092006_077
+- face:
+  - 121912
+  - 4
+- print:
+  - 修特帕魯
+  - 抱歉，
+- wait:
+  - 25
+- print:
+  - 修特帕魯
+  - 吉格魯特。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_door_open_06
+- se:
+  - se_adv_lockpick_06
+- nod:
+  - 121912
+- wait:
+  - 15
+- fadeout:
+  - 121912
+  - 30
+- chara_full:
+  - 311
+  - C
+  - 1
+- fadein:
+  - 311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_078
+- face:
+  - 311
+  - 1
+- print:
+  - 隨從
+  - 最後一把鑰匙由我來轉。
+- wait:
+  - 100
+- print:
+  - 隨從
+  - |2
+
+- face:
+  - 311
+  - 2
+- print:
+  - 隨從
+  - 哈哈哈！
+- wait:
+  - 55
+- print:
+  - 隨從
+  - 終於，
+- wait:
+  - 35
+- print:
+  - 隨從
+  - 這個時刻終於來臨了！
+- wait:
+  - 70
+- face:
+  - 311
+  - 3
+- print:
+  - 隨從
+  - 門呀，
+- wait:
+  - 40
+- print:
+  - 隨從
+  - 開啟吧！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_door_open_06
+- se:
+  - se_adv_lockpick_06
+- nod:
+  - 311
+- wait:
+  - 30
+- bgm:
+  - stop
+  - 4.4
+- emotion:
+  - dots1_R
+  - 311
+  - -90
+  - 560
+  - se_adv_emote_dots_01
+- wait:
+  - 60
+- emotion_end:
+  - 311
+- fadeout:
+  - 311
+  - 30
+- chara_full:
+  - 122012
+  - C
+  - 6
+- fadein:
+  - 122012
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 122012
+- bust:
+  - 122012
+  - 0
+- vo:
+  - vo_adv_5092006_079
+- face:
+  - 122012
+  - 6
+- print:
+  - 忍
+  - 沒有打開呢……
+- touch: *o0
+- vo_effect:
+  - 4
+- focus:
+  - 2413
+- bust:
+  - 2413
+  - 1
+- vo:
+  - vo_adv_5092006_080
+- face:
+  - 2413
+  - 1
+- print:
+  - 骷髏老爸
+  - 說不定那把鑰匙是假的呢。
+- touch: *o0
+- vo_effect:
+  - 0
+- window_visible:
+  - false
+- fadeout:
+  - 122012
+  - 30
+- chara_full:
+  - 121912
+  - LC
+  - 6
+- chara_full:
+  - 311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_081
+- face:
+  - 311
+  - 6
+- print:
+  - 隨從
+  - 那、
+- wait:
+  - 35
+- print:
+  - 隨從
+  - 那怎麼可能！
+- wait:
+  - 40
+- print:
+  - 隨從
+  - 我可是真正的子孫！
+- wait:
+  - 80
+- print:
+  - 隨從
+  - |2
+
+- face:
+  - 311
+  - 3
+- print:
+  - 隨從
+  - 可惡，
+- wait:
+  - 40
+- print:
+  - 隨從
+  - 到底是少了什麼──
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_earthquake_02_lp
+- face:
+  - 121912
+  - 6
+- face:
+  - 311
+  - 6
+- focus:
+  - 121912:311
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- window_visible:
+  - true
+- bgm:
+  - bgm_M97_Ver2
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 121912
+- bust:
+  - 121912
+  - 0
+- vo:
+  - vo_adv_5092006_082
+- face:
+  - 121912
+  - 6
+- emotion:
+  - exclamation1_R
+  - 121912
+  - -10
+  - 610
+  - se_adv_emote_common_01
+- print:
+  - 修特帕魯
+  - 這、
+- wait:
+  - 20
+- print:
+  - 修特帕魯
+  - 這陣晃動……
+- wait:
+  - 50
+- print:
+  - 修特帕魯
+  - 是地震嗎？
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5092006_083
+- face:
+  - 1
+  - 1
+- print:
+  - 愛德華‧迪德
+  - 無資格者，
+- wait:
+  - 85
+- print:
+  - 愛德華‧迪德
+  - 誤入歧途者，
+- wait:
+  - 90
+- print:
+  - 愛德華‧迪德
+  - 對汝等降下制裁……
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_084
+- face:
+  - 311
+  - 6
+- print:
+  - 隨從
+  - 這個聲音是……
+- wait:
+  - 40
+- print:
+  - 隨從
+  - 迪德……
+- wait:
+  - 65
+- print:
+  - 隨從
+  - 制裁
+- wait:
+  - 30
+- print:
+  - 隨從
+  - 是什麼意思？
+- touch: *o0
+- focus:
+  - 121912
+- bust:
+  - 121912
+  - 0
+- vo:
+  - vo_adv_5092006_085
+- face:
+  - 121912
+  - 3
+- print:
+  - 修特帕魯
+  - 小心！
+- wait:
+  - 20
+- print:
+  - 修特帕魯
+  - 從上面有什麼要來了！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se_pause:
+  - se_adv_earthquake_02_lp
+  - 8
+- se:
+  - se_adv_magic_earth_large_01
+- shake_screen: *o0
+- chara_full:
+  - 101411
+  - LC
+  - 6
+- chara_full:
+  - 121912
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 121912
+- bust:
+  - 121912
+  - 0
+- vo:
+  - vo_adv_5092006_086
+- face:
+  - 121912
+  - 4
+- print:
+  - 修特帕魯
+  - 痛死我了……
+- wait:
+  - 60
+- print:
+  - 修特帕魯
+  - 究竟是什麼……
+- wait:
+  - 70
+- face:
+  - 121912
+  - 6
+- emotion:
+  - surprise1_L
+  - 121912
+  - 125
+  - 500
+  - se_adv_emote_common_01
+- print:
+  - 修特帕魯
+  - 天啊！
+- touch: *o0
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_087
+- face:
+  - 101411
+  - 6
+- print:
+  - 霞
+  - 這真是，
+- wait:
+  - 35
+- print:
+  - 霞
+  - 太驚人了……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 16311
+  - C
+  - 1
+- fadein:
+  - 16311
+  - 30
+- se:
+  - se_adv_shadow_aura_01
+- window_visible:
+  - true
+- focus:
+  - 16311
+- bust:
+  - 16311
+  - 0
+- face:
+  - 16311
+  - 1
+- print:
+  - 寶藏守護者
+  - ……
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 16311
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 311
+  - C
+  - 6
+- fadein:
+  - 311
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 9
+  - 1
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_088
+- face:
+  - 311
+  - 6
+- print:
+  - 隨從
+  - 你、
+- wait:
+  - 45
+- print:
+  - 隨從
+  - 你是……
+- wait:
+  - 45
+- print:
+  - 隨從
+  - 愛德華‧迪德……？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 311
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 16311
+  - C
+  - 1
+- fadein:
+  - 16311
+  - 30
+- se:
+  - se_adv_violet_aura_01
+- window_visible:
+  - true
+- focus:
+  - 16311
+- bust:
+  - 16311
+  - 0
+- face:
+  - 16311
+  - 1
+- print:
+  - 寶藏守護者
+  - ……
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0009
+- se:
+  - se_adv_weapon_axe_whiff_long_01
+- fadeout:
+  - 16311
+  - 30
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- bgm:
+  - bgm_M531
+- se:
+  - se_adv_weapon_claw_hit_01
+- effect:
+  - 0028
+- wait:
+  - 15
+- background:
+  - 501550
+- se:
+  - se_adv_magic_earth_large_01
+- se:
+  - se_adv_rock_debris_02
+- shake_screen: *o0
+- chara_full:
+  - 311
+  - C
+  - 6
+- fadein:
+  - 311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_089
+- face:
+  - 311
+  - 6
+- emotion:
+  - surprise1_L
+  - 311
+  - 160
+  - 610
+  - se_adv_emote_common_01
+- print:
+  - 隨從
+  - 噫！
+- wait:
+  - 50
+- face:
+  - 311
+  - 4
+- print:
+  - 隨從
+  - 為、
+- wait:
+  - 25
+- print:
+  - 隨從
+  - 為什麼，
+- wait:
+  - 30
+- print:
+  - 隨從
+  - 我、
+- wait:
+  - 20
+- print:
+  - 隨從
+  - 我是你的……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 311
+  - 30
+- chara_full:
+  - 101411
+  - LC
+  - 6
+- chara_full:
+  - 122011
+  - RC
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 122011
+- bust:
+  - 122011
+  - 0
+- vo:
+  - vo_adv_5092006_090
+- face:
+  - 122011
+  - 3
+- print:
+  - 忍
+  - 很遺憾，
+- wait:
+  - 35
+- print:
+  - 忍
+  - 那並不是你的祖先。
+- wait:
+  - 65
+- print:
+  - 忍
+  - |2-
+
+    恐怕是由高等技術做出來的自動人偶。
+- touch: *o0
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_091
+- face:
+  - 101411
+  - 6
+- print:
+  - 霞
+  - 照這個情況來看
+- wait:
+  - 30
+- print:
+  - 霞
+  - 它應該是寶藏守護者。
+- wait:
+  - 50
+- print:
+  - 霞
+  - 不想辦法解決它的話
+- wait:
+  - 30
+- print:
+  - 霞
+  - |2-
+
+    就抵達不了財寶的所在呢。
+- wait:
+  - 55
+- face:
+  - 101411
+  - 3
+- wait:
+  - 30
+- print:
+  - 霞
+  - 束縛之徑！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0070
+  - se_adv_magic_dark_medium_01
+- wait:
+  - 30
+- background:
+  - 501550
+- chara_full:
+  - 101411
+  - C
+  - 1
+- fadein:
+  - 101411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_092
+- face:
+  - 101411
+  - 1
+- print:
+  - 霞
+  - 助手先生，快，
+- wait:
+  - 20
+- print:
+  - 霞
+  - 趁現在帶他到安全的地方──
+- touch: *o0
+- face:
+  - 101411
+  - 6
+- se:
+  - se_adv_glass_break_01
+- focus:
+  - 16311
+- bust:
+  - 16311
+  - 1
+- face:
+  - 16311
+  - 1
+- print:
+  - 寶藏守護者
+  - ……！！
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101411
+  - 30
+- chara_full:
+  - 121911
+  - C
+  - 6
+- fadein:
+  - 121911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 121911
+- bust:
+  - 121911
+  - 0
+- vo:
+  - vo_adv_5092006_093
+- face:
+  - 121911
+  - 6
+- print:
+  - 修特帕魯
+  - 竟然如此輕易地將束縛魔法給……！
+- wait:
+  - 75
+- face:
+  - 121911
+  - 3
+- se:
+  - se_adv_magic_cmn_medium_01
+- print:
+  - 修特帕魯
+  - 危險，
+- wait:
+  - 20
+- print:
+  - 修特帕魯
+  - 吉格魯特！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 121911
+  - 30
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0071
+  - se_adv_magic_fire_medium_01
+- wait:
+  - 30
+- background:
+  - 501550
+- chara_full:
+  - 16311
+  - C
+  - 1
+- fadein:
+  - 16311
+  - 30
+- se:
+  - se_adv_violet_aura_01
+- window_visible:
+  - true
+- focus:
+  - 16311
+- bust:
+  - 16311
+  - 0
+- face:
+  - 16311
+  - 1
+- print:
+  - 寶藏守護者
+  - ……
+- wait:
+  - 15
+- touch: *o0
+- focus:
+  - 121911
+- bust:
+  - 121911
+  - 1
+- vo:
+  - vo_adv_5092006_094
+- face:
+  - 121911
+  - 6
+- print:
+  - 修特帕魯
+  - 怎麼可能，
+- wait:
+  - 20
+- print:
+  - 修特帕魯
+  - 竟然毫髮無傷！
+- touch: *o0
+- se:
+  - se_adv_ominous_aura_01
+- focus:
+  - 16311
+- bust:
+  - 16311
+  - 0
+- face:
+  - 16311
+  - 1
+- print:
+  - 寶藏守護者
+  - ……！！
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- effect:
+  - 0009
+- se:
+  - se_adv_weapon_axe_whiff_long_01
+- fadeout:
+  - 16311
+  - 30
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- se:
+  - se_adv_weapon_claw_hit_01
+- effect:
+  - 0028
+- wait:
+  - 15
+- background:
+  - 501550
+- se:
+  - se_adv_magic_earth_large_01
+- se:
+  - se_adv_rock_debris_02
+- shake_screen: *o0
+- chara_full:
+  - 121911
+  - LC
+  - 4
+- chara_full:
+  - 122011
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 121911
+- bust:
+  - 121911
+  - 0
+- vo:
+  - vo_adv_5092006_095
+- face:
+  - 121911
+  - 4
+- print:
+  - 修特帕魯
+  - 哇
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 修特帕魯
+  - 啊！
+- sway:
+  - 121911
+- touch: *o0
+- focus:
+  - 122011
+- bust:
+  - 122011
+  - 0
+- vo:
+  - vo_adv_5092006_096
+- face:
+  - 122011
+  - 4
+- print:
+  - 忍
+  - 唔
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 忍
+  - 唔……
+- sway:
+  - 122011
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 101411
+  - LC
+  - 3
+- chara_full:
+  - 311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_097
+- face:
+  - 101411
+  - 3
+- print:
+  - 霞
+  - 嗯……
+- wait:
+  - 35
+- print:
+  - 霞
+  - 攻擊範圍長、
+- wait:
+  - 40
+- print:
+  - 霞
+  - 人偶特有的高可動範圍、
+- wait:
+  - 45
+- print:
+  - 霞
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - 霞
+  - 以及半吊子的攻擊根本不會受損的耐力。
+- wait:
+  - 70
+- print:
+  - 霞
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 霞
+  - 真是配做最後難關的強敵呢。
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_098
+- face:
+  - 311
+  - 6
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 311
+- print:
+  - 隨從
+  - 別在那裡慢條斯理地分析了！
+- wait:
+  - 75
+- face:
+  - 311
+  - 3
+- print:
+  - 隨從
+  - 我們怎麼可能打敗的了這種怪物！
+- wait:
+  - 50
+- print:
+  - 隨從
+  - |2-
+
+    快點逃吧！
+- touch: *o0
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_099
+- face:
+  - 101411
+  - 6
+- print:
+  - 霞
+  - 不，
+- wait:
+  - 25
+- print:
+  - 霞
+  - 要想閃躲那樣猛烈的攻擊，
+- wait:
+  - 30
+- print:
+  - 霞
+  - 讓所有人逃走比登天還難。
+- wait:
+  - 60
+- print:
+  - 霞
+  - |2
+
+- face:
+  - 101411
+  - 3
+- print:
+  - 霞
+  - 而且你不在意嗎？
+- wait:
+  - 25
+- print:
+  - 霞
+  - 你思思念念的財寶就在眼前喔。
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_100
+- face:
+  - 311
+  - 4
+- print:
+  - 隨從
+  - 唔……
+- wait:
+  - 70
+- face:
+  - 311
+  - 3
+- print:
+  - 隨從
+  - 可、
+- wait:
+  - 35
+- print:
+  - 隨從
+  - 可要是賠上性命
+- wait:
+  - 30
+- print:
+  - 隨從
+  - 那就全沒了啊！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1.5
+- fadeout_all:
+  - 30
+- chara_full:
+  - 121911
+  - LC
+  - 6
+- chara_full:
+  - 122011
+  - RC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M175_Ver2
+  - 0
+  - 0
+  - 1
+  - 0.7
+- focus:
+  - 122011
+- bust:
+  - 122011
+  - 0
+- vo:
+  - vo_adv_5092006_101
+- face:
+  - 122011
+  - 2
+- print:
+  - 忍
+  - 不用擔心。
+- wait:
+  - 30
+- print:
+  - 忍
+  - 我們能贏。
+- touch: *o0
+- focus:
+  - 121911
+- bust:
+  - 121911
+  - 0
+- vo:
+  - vo_adv_5092006_102
+- face:
+  - 121911
+  - 6
+- print:
+  - 修特帕魯
+  - 忍，
+- wait:
+  - 25
+- print:
+  - 修特帕魯
+  - 那是占卜的結果嗎？
+- touch: *o0
+- focus:
+  - 122011
+- bust:
+  - 122011
+  - 0
+- vo:
+  - vo_adv_5092006_103
+- face:
+  - 122011
+  - 2
+- nod:
+  - 122011
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 忍
+  - 不是，
+- wait:
+  - 35
+- print:
+  - 忍
+  - 只是我能肯定。
+- touch: *o0
+- focus:
+  - 121911
+- bust:
+  - 121911
+  - 0
+- vo:
+  - vo_adv_5092006_104
+- face:
+  - 121911
+  - 2
+- print:
+  - 修特帕魯
+  - 太好了，
+- wait:
+  - 50
+- print:
+  - 修特帕魯
+  - 這可是
+- wait:
+  - 25
+- print:
+  - 修特帕魯
+  - 強過一切的好消息！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 122011
+  - 30
+- chara_full:
+  - 101411
+  - RC
+  - 1
+- fadein:
+  - 101411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_105
+- face:
+  - 101411
+  - 1
+- print:
+  - 霞
+  - 話說杏奈，
+- wait:
+  - 30
+- print:
+  - 霞
+  - 妳能使用更強大的魔法嗎？
+- touch: *o0
+- focus:
+  - 121911
+- bust:
+  - 121911
+  - 0
+- vo:
+  - vo_adv_5092006_106
+- face:
+  - 121911
+  - 3
+- nod:
+  - 121911
+- se:
+  - se_adv_step_concrete_move_01
+- print:
+  - 修特帕魯
+  - 妳以為我是誰。
+- wait:
+  - 50
+- print:
+  - 修特帕魯
+  - 就讓妳瞧瞧我的壓箱寶。
+- wait:
+  - 100
+- print:
+  - 修特帕魯
+  - |2
+
+- face:
+  - 121911
+  - 4
+- print:
+  - 修特帕魯
+  - 只不過
+- wait:
+  - 30
+- print:
+  - 修特帕魯
+  - 問題是詠唱咒語的時間有點長……
+- touch: *o0
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_107
+- face:
+  - 101411
+  - 2
+- print:
+  - 霞
+  - 收到。
+- wait:
+  - 30
+- face:
+  - 101411
+  - 1
+- print:
+  - 霞
+  - 那麼助手先生，
+- wait:
+  - 20
+- print:
+  - 霞
+  - 忍，
+- wait:
+  - 20
+- print:
+  - 霞
+  - |2-
+
+    我們幾個來努力一下吧。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 122011
+  - C
+  - 2
+- fadein:
+  - 122011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 122011
+- bust:
+  - 122011
+  - 0
+- vo:
+  - vo_adv_5092006_108
+- face:
+  - 122011
+  - 2
+- print:
+  - 忍
+  - 好。
+- wait:
+  - 40
+- print:
+  - 忍
+  - 爸爸就在這邊等一下。
+- wait:
+  - 25
+- print:
+  - 忍
+  - |2-
+
+    {0}，
+- wait:
+  - 15
+- print:
+  - 忍
+  - 爸爸
+- wait:
+  - 35
+- print:
+  - 忍
+  - 就拜託你了。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 122011
+  - 30
+- window_visible:
+  - true
+- vo_effect:
+  - 4
+- focus:
+  - 2413
+- bust:
+  - 2413
+  - 1
+- vo:
+  - vo_adv_5092006_109
+- face:
+  - 2413
+  - 1
+- print:
+  - 骷髏老爸
+  - 不要太勉強啊。
+- wait:
+  - 40
+- print:
+  - 骷髏老爸
+  - 真的不行的話，
+- wait:
+  - 30
+- print:
+  - 骷髏老爸
+  - 妳一個人也要逃走……
+- touch: *o0
+- vo_effect:
+  - 0
+- window_visible:
+  - false
+- chara_full:
+  - 101411
+  - L
+  - 1
+- chara_full:
+  - 121911
+  - C
+  - 1
+- chara_full:
+  - 122011
+  - R
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- choice:
+  - 幫大家強化。
+  - 3
+- tag:
+  - 3
+- effect:
+  - 0088
+  - se_adv_magic_cmn_medium_02
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_110
+- face:
+  - 101411
+  - 1
+- print:
+  - 霞
+  - 謝謝你，助手先生。
+- wait:
+  - 25
+- print:
+  - 霞
+  - |2
+
+- face:
+  - 101411
+  - 6
+- print:
+  - 霞
+  - 啊，還有僕人，
+- wait:
+  - 40
+- print:
+  - 霞
+  - 請你拉開距離乖乖待在旁邊。
+- wait:
+  - 50
+- print:
+  - 霞
+  - |2
+
+- face:
+  - 101411
+  - 4
+- print:
+  - 霞
+  - 很抱歉，我們沒有閒功夫照顧你。
+- touch: *o0
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_111
+- face:
+  - 101411
+  - 1
+- nod:
+  - 101411
+- print:
+  - 霞
+  - 不過你不用擔心。
+- wait:
+  - 40
+- print:
+  - 霞
+  - 我是不會見死不救的。
+- wait:
+  - 50
+- print:
+  - 霞
+  - |2-
+
+    就算對方是犯人也是一樣。
+- wait:
+  - 45
+- face:
+  - 101411
+  - 2
+- print:
+  - 霞
+  - 這就是我作為偵探的作風！
+- touch: *o0
+- face:
+  - 101411
+  - 1
+- focus:
+  - 121911
+- bust:
+  - 121911
+  - 0
+- vo:
+  - vo_adv_5092006_112
+- face:
+  - 121911
+  - 1
+- print:
+  - 修特帕魯
+  - 接下來就是
+- wait:
+  - 30
+- print:
+  - 修特帕魯
+  - 僅有強者能存活的戰場。
+- wait:
+  - 70
+- print:
+  - 修特帕魯
+  - |2
+
+- face:
+  - 121911
+  - 2
+- print:
+  - 修特帕魯
+  - 不想戰鬥者就離開吧。
+- touch: *o0
+- focus:
+  - 122011
+- bust:
+  - 122011
+  - 0
+- vo:
+  - vo_adv_5092006_113
+- face:
+  - 122011
+  - 1
+- print:
+  - 忍
+  - 死亡是平等的，
+- wait:
+  - 45
+- print:
+  - 忍
+  - 它會造訪所有人。
+- wait:
+  - 70
+- face:
+  - 122011
+  - 2
+- print:
+  - 忍
+  - 可是
+- wait:
+  - 35
+- print:
+  - 忍
+  - 現在還不是你死的時候。
+- wait:
+  - 75
+- print:
+  - 忍
+  - |2-
+
+    你只要思考
+- wait:
+  - 40
+- print:
+  - 忍
+  - 今後如何活下去吧。
+- touch: *o0
+- window_visible:
+  - false
+- effect_delete:
+  - 0088
+  - 15
+- fadeout_all:
+  - 30
+- chara_full:
+  - 311
+  - C
+  - 6
+- fadein:
+  - 311
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_114
+- face:
+  - 311
+  - 6
+- print:
+  - 隨從
+  - 你們……
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1.9
+  - 1
+- fadeout:
+  - 311
+  - 30
+- black_out:
+  - 1
+  - 1
+- se_pause:
+  - amb_adv_mystery_03
+  - 1
+- bg_color:
+  - 0
+  - 0
+  - 0
+- black_out:
+  - 1
+  - 1
+- movie:
+  - 509200601
+- black_out:
+  - 1
+  - 0.3
+- background:
+  - 501550
+- wait:
+  - 15
+- black_in: *o0
+- se:
+  - amb_adv_mystery_03
+- chara_full:
+  - 101411
+  - LC
+  - 6
+- chara_full:
+  - 121912
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M14
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_115
+- face:
+  - 101411
+  - 6
+- print:
+  - 霞
+  - 竟然，
+- wait:
+  - 25
+- print:
+  - 霞
+  - 會有這種事……
+- touch: *o0
+- focus:
+  - 121912
+- bust:
+  - 121912
+  - 0
+- vo:
+  - vo_adv_5092006_116
+- face:
+  - 121912
+  - 4
+- print:
+  - 修特帕魯
+  - 振、
+- wait:
+  - 15
+- print:
+  - 修特帕魯
+  - 振作啊，
+- wait:
+  - 20
+- print:
+  - 修特帕魯
+  - 老爸殿下……
+- wait:
+  - 40
+- print:
+  - 修特帕魯
+  - 喂、
+- wait:
+  - 30
+- eye_open:
+  - FALSE
+- print:
+  - 修特帕魯
+  - 喂！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 122012
+  - C
+  - 4
+- fadein:
+  - 122012
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 122012
+- bust:
+  - 122012
+  - 0
+- vo:
+  - vo_adv_5092006_117
+- face:
+  - 122012
+  - 4
+- print:
+  - 忍
+  - 我不要……
+- wait:
+  - 35
+- print:
+  - 忍
+  - 爸爸，
+- wait:
+  - 35
+- print:
+  - 忍
+  - 爸爸！
+- wait:
+  - 45
+- print:
+  - 忍
+  - 快點，
+- wait:
+  - 30
+- eye_open:
+  - FALSE
+- print:
+  - 忍
+  - 醒過來……
+- touch: *o0
+- window_visible:
+  - false
+- eye_open:
+  - true
+- text_size:
+  - 30
+- change_window:
+  - 3
+- window_visible:
+  - true
+- vo_effect:
+  - 4
+- bgm:
+  - stop
+  - 10.2
+- focus:
+  - 2413
+- bust:
+  - 2413
+  - 1
+- vo:
+  - vo_adv_5092006_118
+- face:
+  - 2413
+  - 1
+- print:
+  - 骷髏老爸
+  - 嗚……
+- wait:
+  - 40
+- print:
+  - 骷髏老爸
+  - 喔……
+- wait:
+  - 50
+- print:
+  - 骷髏老爸
+  - 嗚喔喔喔！
+- wait:
+  - 70
+- print:
+  - 骷髏老爸
+  - 老子，
+- wait:
+  - 25
+- se:
+  - se_adv_impact_hit_02
+- print:
+  - 骷髏老爸
+  - 復活啦！
+- touch: *o0
+- vo_effect:
+  - 0
+- window_visible:
+  - false
+- text_size:
+  - 23
+- change_window:
+  - 1
+- window_visible:
+  - true
+- focus:
+  - 122012
+- bust:
+  - 122012
+  - 0
+- vo:
+  - vo_adv_5092006_119
+- face:
+  - 122012
+  - 6
+- print:
+  - 忍
+  - 啥？
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 3
+- window_visible:
+  - true
+- vo_effect:
+  - 4
+- bgm:
+  - bgm_M13_03_NoIntro
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 2413
+- bust:
+  - 2413
+  - 1
+- vo:
+  - vo_adv_5092006_120
+- face:
+  - 2413
+  - 1
+- print:
+  - 骷髏老爸
+  - 哈哈！
+- wait:
+  - 30
+- print:
+  - 骷髏老爸
+  - 力量湧上來啦！
+- wait:
+  - 40
+- print:
+  - 骷髏老爸
+  - 十幾歲的體力加上三十歲的精力！
+- wait:
+  - 80
+- print:
+  - 骷髏老爸
+  - |2-
+
+    現在的我是超級完美骷髏老爸！
+- touch: *o0
+- vo_effect:
+  - 0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- window_visible:
+  - true
+- focus:
+  - 122012
+- bust:
+  - 122012
+  - 0
+- vo:
+  - vo_adv_5092006_121
+- face:
+  - 122012
+  - 3
+- print:
+  - 忍
+  - 爸爸，
+- wait:
+  - 45
+- print:
+  - 忍
+  - 這是什麼意思？
+- wait:
+  - 50
+- print:
+  - 忍
+  - 你說變虛弱
+- wait:
+  - 40
+- print:
+  - 忍
+  - 難道是騙我的？
+- touch: *o0
+- vo_effect:
+  - 4
+- focus:
+  - 2413
+- bust:
+  - 2413
+  - 1
+- vo:
+  - vo_adv_5092006_122
+- face:
+  - 2413
+  - 1
+- print:
+  - 骷髏老爸
+  - 噫！
+- wait:
+  - 20
+- print:
+  - 骷髏老爸
+  - 妳、
+- wait:
+  - 15
+- print:
+  - 骷髏老爸
+  - 妳誤會了，忍！
+- wait:
+  - 25
+- print:
+  - 骷髏老爸
+  - 用太多力量變虛弱是真的！
+- wait:
+  - 60
+- print:
+  - 骷髏老爸
+  - |2-
+
+    只不過吸收大量的魔力後就可以馬上復活了！
+- touch: *o0
+- vo_effect:
+  - 0
+- focus:
+  - 122012
+- bust:
+  - 122012
+  - 0
+- vo:
+  - vo_adv_5092006_123
+- face:
+  - 122012
+  - 6
+- print:
+  - 忍
+  - 那不是只要拜託伊莉亞
+- wait:
+  - 50
+- print:
+  - 忍
+  - 就可以馬上解決嗎？
+- wait:
+  - 60
+- print:
+  - 忍
+  - |2
+
+- face:
+  - 122012
+  - 3
+- print:
+  - 忍
+  - 你為什麼不早點講呢？
+- touch: *o0
+- vo_effect:
+  - 4
+- focus:
+  - 2413
+- bust:
+  - 2413
+  - 1
+- vo:
+  - vo_adv_5092006_124
+- face:
+  - 2413
+  - 1
+- print:
+  - 骷髏老爸
+  - 因、
+- wait:
+  - 20
+- print:
+  - 骷髏老爸
+  - 因為……
+- wait:
+  - 30
+- print:
+  - 骷髏老爸
+  - 我變虛弱的時候
+- wait:
+  - 50
+- print:
+  - 骷髏老爸
+  - 忍那麼擔心又那麼溫柔……
+- wait:
+  - 30
+- print:
+  - 骷髏老爸
+  - |2-
+
+    我一不小心就撒了一點嬌……
+- touch: *o0
+- vo_effect:
+  - 0
+- se:
+  - se_adv_rope_creak_01
+- focus:
+  - 122012
+- bust:
+  - 122012
+  - 0
+- vo:
+  - vo_adv_5092006_125
+- face:
+  - 122012
+  - 3
+- nod:
+  - 122012
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 忍
+  - 爸爸，
+- wait:
+  - 55
+- print:
+  - 忍
+  - 你都不曉得
+- wait:
+  - 45
+- print:
+  - 忍
+  - 我都多擔心你。
+- touch: *o0
+- vo_effect:
+  - 4
+- focus:
+  - 2413
+- bust:
+  - 2413
+  - 1
+- vo:
+  - vo_adv_5092006_126
+- face:
+  - 2413
+  - 1
+- print:
+  - 骷髏老爸
+  - 啊啊啊！
+- wait:
+  - 25
+- print:
+  - 骷髏老爸
+  - 好痛，
+- wait:
+  - 15
+- print:
+  - 骷髏老爸
+  - 很痛啊，忍！
+- wait:
+  - 30
+- print:
+  - 骷髏老爸
+  - |2-
+
+    要裂開了，
+- wait:
+  - 25
+- print:
+  - 骷髏老爸
+  - 頭要裂了！
+- wait:
+  - 30
+- print:
+  - 骷髏老爸
+  - 真的會死啊啊啊啊啊！
+- touch: *o0
+- vo_effect:
+  - 0
+- focus:
+  - 122012
+- bust:
+  - 122012
+  - 0
+- vo:
+  - vo_adv_5092006_127
+- face:
+  - 122012
+  - 3
+- eye_open:
+  - False
+- print:
+  - 忍
+  - 是啊，
+- wait:
+  - 45
+- eye_open:
+  - True
+- print:
+  - 忍
+  - 你要不要去一趟地獄看看？
+- touch: *o0
+- choice:
+  - 手下留情吧。
+  - 4
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 122012
+  - 30
+- chara_full:
+  - 101411
+  - LC
+  - 6
+- chara_full:
+  - 121912
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_128
+- face:
+  - 101411
+  - 6
+- print:
+  - 霞
+  - 我能了解妳的憤怒，
+- wait:
+  - 40
+- print:
+  - 霞
+  - |2-
+
+    但實際上也是多虧父親大人我們才得救的。
+- touch: *o0
+- focus:
+  - 121912
+- bust:
+  - 121912
+  - 0
+- vo:
+  - vo_adv_5092006_129
+- face:
+  - 121912
+  - 1
+- nod:
+  - 121912
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 修特帕魯
+  - 對啊。
+- wait:
+  - 45
+- print:
+  - 修特帕魯
+  - 也是
+- wait:
+  - 30
+- print:
+  - 修特帕魯
+  - 多虧老爸殿下我們才會相遇，
+- wait:
+  - 45
+- print:
+  - 修特帕魯
+  - |2-
+
+    像這樣一起探險。
+- wait:
+  - 65
+- print:
+  - 修特帕魯
+  - |2-
+
+    應該有
+- wait:
+  - 50
+- print:
+  - 修特帕魯
+  - 斟酌的餘地吧？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 122012
+  - C
+  - 6
+- fadein:
+  - 122012
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 122012
+- bust:
+  - 122012
+  - 0
+- vo:
+  - vo_adv_5092006_130
+- face:
+  - 122012
+  - 6
+- print:
+  - 忍
+  - ……
+- wait:
+  - 85
+- face:
+  - 122012
+  - 1
+- print:
+  - 忍
+  - 既然大家這麼說
+- wait:
+  - 45
+- print:
+  - 忍
+  - 那就沒辦法了。
+- touch: *o0
+- vo_effect:
+  - 4
+- focus:
+  - 2413
+- bust:
+  - 2413
+  - 1
+- vo:
+  - vo_adv_5092006_131
+- face:
+  - 2413
+  - 1
+- print:
+  - 骷髏老爸
+  - 呼，
+- wait:
+  - 40
+- print:
+  - 骷髏老爸
+  - 得、
+- wait:
+  - 20
+- print:
+  - 骷髏老爸
+  - 得救了……
+- touch: *o0
+- vo_effect:
+  - 0
+- focus:
+  - 122012
+- bust:
+  - 122012
+  - 0
+- vo:
+  - vo_adv_5092006_132
+- face:
+  - 122012
+  - 3
+- print:
+  - 忍
+  - 回到
+- wait:
+  - 40
+- print:
+  - 忍
+  - 蘭德索爾以後我會好好念你的。
+- touch: *o0
+- vo_effect:
+  - 4
+- focus:
+  - 2413
+- bust:
+  - 2413
+  - 1
+- vo:
+  - vo_adv_5092006_133
+- face:
+  - 2413
+  - 1
+- print:
+  - 骷髏老爸
+  - 並沒有得救！
+- touch: *o0
+- vo_effect:
+  - 0
+- window_visible:
+  - false
+- fadeout:
+  - 122012
+  - 30
+- chara_full:
+  - 101411
+  - LC
+  - 1
+- chara_full:
+  - 121912
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 7
+  - 1
+- focus:
+  - 121912
+- bust:
+  - 121912
+  - 0
+- vo:
+  - vo_adv_5092006_134
+- face:
+  - 121912
+  - 1
+- nod:
+  - 121912
+- print:
+  - 修特帕魯
+  - 那麼
+- wait:
+  - 25
+- print:
+  - 修特帕魯
+  - 既然各種事情都處理好了，再來挑戰開門吧。
+- touch: *o0
+- bgm:
+  - bgm_M586
+  - 0
+  - 0
+  - 0
+  - 0.8
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_135
+- face:
+  - 101411
+  - 6
+- print:
+  - 霞
+  - 打倒守護者之後
+- wait:
+  - 35
+- print:
+  - 霞
+  - 門也沒有開啟的樣子，
+- wait:
+  - 45
+- print:
+  - 霞
+  - |2
+
+- face:
+  - 101411
+  - 3
+- print:
+  - 霞
+  - 這恐怕是有一個正確的順序吧。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 122012
+  - LC
+  - 6
+- chara_full:
+  - 311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 122012
+- bust:
+  - 122012
+  - 0
+- vo:
+  - vo_adv_5092006_136
+- face:
+  - 122012
+  - 6
+- print:
+  - 忍
+  - 請問，
+- wait:
+  - 35
+- print:
+  - 忍
+  - 迪德留下的訊息是什麼呢？
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_137
+- face:
+  - 311
+  - 1
+- print:
+  - 隨從
+  - 繼承吾之血脈者，
+- wait:
+  - 65
+- print:
+  - 隨從
+  - 帶著四個力量，
+- wait:
+  - 50
+- print:
+  - 隨從
+  - 到遙遠他方蒐集三把鑰匙吧。
+- wait:
+  - 65
+- print:
+  - 隨從
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - 隨從
+  - 如此，你所擁有的最後一把鑰匙
+- wait:
+  - 40
+- print:
+  - 隨從
+  - 便能開啟財寶大門。
+- wait:
+  - 55
+- print:
+  - 隨從
+  - 這樣。
+- wait:
+  - 55
+- print:
+  - 隨從
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 隨從
+  - 他講的每一個字我都清清楚楚地記得。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 101411
+  - C
+  - 4
+  - 1
+- fadein:
+  - 101411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_138
+- face:
+  - 101411
+  - 4
+- print:
+  - 霞
+  - 嗯……
+- wait:
+  - 30
+- print:
+  - 霞
+  - 四個力量是什麼呢？
+- wait:
+  - 60
+- print:
+  - 霞
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 霞
+  - 從前幾個關卡來看
+- wait:
+  - 30
+- print:
+  - 霞
+  - 這應該代表著某種意義。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101411
+  - 30
+- chara_full:
+  - 121912
+  - LC
+  - 6
+- chara_full:
+  - 122012
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 122012
+- bust:
+  - 122012
+  - 0
+- vo:
+  - vo_adv_5092006_139
+- face:
+  - 122012
+  - 6
+- print:
+  - 忍
+  - 先前的測驗裡，
+- wait:
+  - 50
+- print:
+  - 忍
+  - 要四個人跳舞
+- wait:
+  - 45
+- print:
+  - 忍
+  - |2-
+
+    吸引魔犬的注意力。
+- touch: *o0
+- focus:
+  - 121912
+- bust:
+  - 121912
+  - 0
+- vo:
+  - vo_adv_5092006_140
+- face:
+  - 121912
+  - 2
+- print:
+  - 修特帕魯
+  - 可別忘了
+- wait:
+  - 75
+- print:
+  - 修特帕魯
+  - 我那絕佳的魔力調整。
+- wait:
+  - 85
+- print:
+  - 修特帕魯
+  - |2
+
+- face:
+  - 121912
+  - 6
+- print:
+  - 修特帕魯
+  - 話說那個測驗也是四個人一起通關的呢。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 101411
+  - C
+  - 6
+- fadein:
+  - 101411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_141
+- face:
+  - 101411
+  - 6
+- print:
+  - 霞
+  - 四個人，
+- wait:
+  - 40
+- print:
+  - 霞
+  - 也就是說
+- wait:
+  - 75
+- print:
+  - 霞
+  - 四個力量是指……
+- touch: *o0
+- choice:
+  - 四個人同時轉動鑰匙！
+  - 5
+- tag:
+  - 5
+- bgm:
+  - stop
+  - 0.4
+- bgm:
+  - bgm_M115
+  - 0
+  - 0
+  - 1
+  - 0.2
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_142
+- face:
+  - 101411
+  - 1
+- nod:
+  - 101411
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 霞
+  - 對，
+- wait:
+  - 20
+- print:
+  - 霞
+  - 助手先生說得沒錯。
+- wait:
+  - 35
+- print:
+  - 霞
+  - |2-
+
+    所有的測驗都是以四人通關為前提。
+- wait:
+  - 65
+- print:
+  - 霞
+  - |2-
+
+    最後的大門一定也適用這個法則。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101411
+  - 30
+- chara_full:
+  - 121912
+  - LC
+  - 2
+- chara_full:
+  - 311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 121912
+- bust:
+  - 121912
+  - 0
+- vo:
+  - vo_adv_5092006_143
+- face:
+  - 121912
+  - 2
+- print:
+  - 修特帕魯
+  - 吉格魯特，做得漂亮！
+- wait:
+  - 50
+- print:
+  - 修特帕魯
+  - 快點來開門──
+- wait:
+  - 60
+- print:
+  - 修特帕魯
+  - |2
+
+- face:
+  - 121912
+  - 6
+- print:
+  - 修特帕魯
+  - 呃……
+- wait:
+  - 40
+- print:
+  - 修特帕魯
+  - 我們幾個
+- wait:
+  - 25
+- print:
+  - 修特帕魯
+  - 可以轉這個鑰匙嗎？
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_144
+- face:
+  - 311
+  - 4
+- print:
+  - 隨從
+  - 隨便你們。
+- wait:
+  - 45
+- print:
+  - 隨從
+  - 我已經沒力氣反抗了。
+- wait:
+  - 85
+- print:
+  - 隨從
+  - |2
+
+- face:
+  - 311
+  - 1
+- print:
+  - 隨從
+  - 我只想知道
+- wait:
+  - 40
+- print:
+  - 隨從
+  - 迪德的財寶
+- wait:
+  - 70
+- print:
+  - 隨從
+  - 究竟長什麼樣。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 101411
+  - C
+  - 2
+- fadein:
+  - 101411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_145
+- face:
+  - 101411
+  - 2
+- print:
+  - 霞
+  - 那當然。
+- wait:
+  - 30
+- face:
+  - 101411
+  - 1
+- print:
+  - 霞
+  - 這可是這趟旅程的最高潮，
+- wait:
+  - 50
+- print:
+  - 霞
+  - 大家一起轉吧！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5092006_146
+- face:
+  - 1
+  - 1
+- print:
+  - 霞等人
+  - 預備，轉！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_door_open_06
+- se:
+  - se_adv_lockpick_06
+- wait:
+  - 15
+- se:
+  - se_adv_magic_earth_medium_01
+- se:
+  - se_adv_door_large_open_01
+- se:
+  - se_adv_holylight_01
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- chara_full:
+  - 121912
+  - LC
+  - 1
+- chara_full:
+  - 122012
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 121912
+- bust:
+  - 121912
+  - 0
+- vo:
+  - vo_adv_5092006_147
+- face:
+  - 121912
+  - 1
+- print:
+  - 修特帕魯
+  - 和吉格魯特說的一樣！
+- wait:
+  - 50
+- face:
+  - 121912
+  - 2
+- print:
+  - 修特帕魯
+  - 終於、
+- wait:
+  - 20
+- print:
+  - 修特帕魯
+  - 終於能看到財寶了！
+- touch: *o0
+- focus:
+  - 122012
+- bust:
+  - 122012
+  - 0
+- vo:
+  - vo_adv_5092006_148
+- face:
+  - 122012
+  - 2
+- print:
+  - 忍
+  - 連我都
+- wait:
+  - 50
+- print:
+  - 忍
+  - 稍微有點興奮呢。
+- wait:
+  - 70
+- print:
+  - 忍
+  - |2-
+
+    大海盜的財寶
+- wait:
+  - 45
+- print:
+  - 忍
+  - 究竟會是……
+- wait:
+  - 75
+- face:
+  - 122012
+  - 6
+- print:
+  - 忍
+  - 咦？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 101411
+  - C
+  - 6
+- fadein:
+  - 101411
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 6.2
+  - 1
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_149
+- face:
+  - 101411
+  - 6
+- emotion:
+  - question1_R
+  - 101411
+  - 110
+  - 515
+  - se_adv_emote_question_01
+- print:
+  - 霞
+  - 奇怪？
+- wait:
+  - 25
+- print:
+  - 霞
+  - 什麼，
+- wait:
+  - 25
+- print:
+  - 霞
+  - 都沒有……？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 8211
+  - C
+  - 2
+- se:
+  - amb_adv_shadow_aura_01
+- se:
+  - se_adv_violet_aura_01
+- effect:
+  - 0041
+- fadein:
+  - 8211
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M58
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 8211
+- bust:
+  - 8211
+  - 0
+- vo:
+  - vo_adv_5092006_150
+- face:
+  - 8211
+  - 2
+- print:
+  - 愛德華‧迪德
+  - 嘿，
+- wait:
+  - 50
+- print:
+  - 愛德華‧迪德
+  - 是我。
+- wait:
+  - 75
+- print:
+  - 愛德華‧迪德
+  - 最恐怖的大海盜，
+- wait:
+  - 85
+- print:
+  - 愛德華‧迪德
+  - 愛德華‧迪德大人。
+- touch: *o0
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 1
+- vo:
+  - vo_adv_5092006_151
+- face:
+  - 101411
+  - 6
+- print:
+  - 霞
+  - 這是……
+- wait:
+  - 30
+- print:
+  - 霞
+  - 迪德的訊息。
+- touch: *o0
+- focus:
+  - 8211
+- bust:
+  - 8211
+  - 0
+- vo:
+  - vo_adv_5092006_152
+- face:
+  - 8211
+  - 4
+- print:
+  - 愛德華‧迪德
+  - 不知道你們幾個
+- wait:
+  - 45
+- print:
+  - 愛德華‧迪德
+  - 是不是我的後代子孫，
+- wait:
+  - 110
+- face:
+  - 8211
+  - 2
+- print:
+  - 愛德華‧迪德
+  - 不過恭喜你們
+- wait:
+  - 40
+- print:
+  - 愛德華‧迪德
+  - 抵達這裡。
+- touch: *o0
+- focus:
+  - 8211
+- bust:
+  - 8211
+  - 0
+- vo:
+  - vo_adv_5092006_153
+- face:
+  - 8211
+  - 3
+- print:
+  - 愛德華‧迪德
+  - 如你們所見
+- wait:
+  - 70
+- print:
+  - 愛德華‧迪德
+  - 這裡沒有什麼金銀財寶。
+- wait:
+  - 110
+- print:
+  - 愛德華‧迪德
+  - |2
+
+- face:
+  - 8211
+  - 2
+- print:
+  - 愛德華‧迪德
+  - 可是
+- wait:
+  - 60
+- print:
+  - 愛德華‧迪德
+  - 有比財寶更珍貴的東西。
+- touch: *o0
+- focus:
+  - 8211
+- bust:
+  - 8211
+  - 0
+- vo:
+  - vo_adv_5092006_154
+- face:
+  - 8211
+  - 2
+- print:
+  - 愛德華‧迪德
+  - 不懂嗎？
+- wait:
+  - 95
+- print:
+  - 愛德華‧迪德
+  - 那就是在你身旁的夥伴。
+- wait:
+  - 130
+- print:
+  - 愛德華‧迪德
+  - |2-
+
+    一路走來共患難的夥伴
+- wait:
+  - 130
+- print:
+  - 愛德華‧迪德
+  - 才是世界上最珍貴的寶物。
+- touch: *o0
+- focus:
+  - 8211
+- bust:
+  - 8211
+  - 0
+- vo:
+  - vo_adv_5092006_155
+- face:
+  - 8211
+  - 2
+- print:
+  - 愛德華‧迪德
+  - 你們要好好
+- wait:
+  - 75
+- print:
+  - 愛德華‧迪德
+  - 珍惜彼此啊。
+- wait:
+  - 90
+- print:
+  - 愛德華‧迪德
+  - 那就這樣，
+- wait:
+  - 85
+- print:
+  - 愛德華‧迪德
+  - 好好過日子吧……
+- touch: *o0
+- window_visible:
+  - false
+- effect_delete:
+  - 0041
+  - 15
+- fadeout:
+  - 8211
+  - 30
+- se_pause:
+  - amb_adv_shadow_aura_01
+  - 1
+- bgm:
+  - stop
+  - 1.8
+- se:
+  - se_adv_wind_fairy_magic_01
+- white_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- white_in: *o0
+- wait:
+  - 15
+- chara_full:
+  - 122012
+  - LC
+  - 6
+- chara_full:
+  - 311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_156
+- face:
+  - 311
+  - 6
+- print:
+  - 隨從
+  - 咦？
+- wait:
+  - 25
+- print:
+  - 隨從
+  - 這、
+- wait:
+  - 30
+- print:
+  - 隨從
+  - 這就沒了，
+- wait:
+  - 35
+- print:
+  - 隨從
+  - 嗎？
+- wait:
+  - 55
+- face:
+  - 311
+  - 4
+- print:
+  - 隨從
+  - 應該還有些什麼吧？
+- wait:
+  - 40
+- print:
+  - 隨從
+  - |2-
+
+    傳說大海盜的財寶
+- wait:
+  - 35
+- print:
+  - 隨從
+  - 就只有這樣也太誇張了！
+- touch: *o0
+- focus:
+  - 122012
+- bust:
+  - 122012
+  - 0
+- vo:
+  - vo_adv_5092006_157
+- face:
+  - 122012
+  - 4
+- print:
+  - 忍
+  - 看起來就只有這樣呢。
+- touch: *o0
+- bgm:
+  - bgm_M318
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_158
+- face:
+  - 311
+  - 4
+- eye_open:
+  - False
+- print:
+  - 隨從
+  - 怎麼會……
+- wait:
+  - 75
+- eye_open:
+  - True
+- print:
+  - 隨從
+  - 我竟然……
+- wait:
+  - 55
+- print:
+  - 隨從
+  - 為了這種東西……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 101411
+  - C
+  - 4
+- fadein:
+  - 101411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_159
+- face:
+  - 101411
+  - 4
+- emotion:
+  - sweat1_R
+  - 101411
+  - 95
+  - 495
+  - se_adv_emote_sweat_01
+- print:
+  - 霞
+  - 嗯……
+- wait:
+  - 35
+- print:
+  - 霞
+  - 用整座島嶼設下機關的結局竟然是這樣。
+- wait:
+  - 95
+- print:
+  - 霞
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - 霞
+  - 還是說這是最恐怖的大海盜竭盡全力所做的惡作劇呢……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101411
+  - 30
+- chara_full:
+  - 121912
+  - C
+  - 6
+- fadein:
+  - 121912
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 121912
+- bust:
+  - 121912
+  - 0
+- vo:
+  - vo_adv_5092006_160
+- face:
+  - 121912
+  - 6
+- print:
+  - 修特帕魯
+  - ……
+- wait:
+  - 60
+- print:
+  - 修特帕魯
+  - 嗯……
+- wait:
+  - 30
+- print:
+  - 修特帕魯
+  - 迪德應該只是想要朋友吧？
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_5092006_161
+- face:
+  - 1
+  - 1
+- print:
+  - 霞等人
+  - ！？
+- touch: *o0
+- focus:
+  - 121912
+- bust:
+  - 121912
+  - 0
+- vo:
+  - vo_adv_5092006_162
+- face:
+  - 121912
+  - 6
+- nod:
+  - 121912
+- print:
+  - 修特帕魯
+  - 在參加調查之前，
+- wait:
+  - 40
+- print:
+  - 修特帕魯
+  - 我查了關於迪德的事蹟。
+- wait:
+  - 50
+- print:
+  - 修特帕魯
+  - |2-
+
+    他的脾氣讓夥伴也感到害怕，
+- wait:
+  - 55
+- print:
+  - 修特帕魯
+  - 也多次被背叛，
+- wait:
+  - 60
+- print:
+  - 修特帕魯
+  - |2-
+
+    晚年身旁無人陪伴，
+- wait:
+  - 45
+- print:
+  - 修特帕魯
+  - 最後孤老而亡。
+- touch: *o0
+- focus:
+  - 121912
+- bust:
+  - 121912
+  - 0
+- vo:
+  - vo_adv_5092006_163
+- face:
+  - 121912
+  - 6
+- eye_open:
+  - False
+- print:
+  - 修特帕魯
+  - 擁有一切的男人
+- wait:
+  - 60
+- print:
+  - 修特帕魯
+  - 唯一無法擁有的東西。
+- wait:
+  - 80
+- print:
+  - 修特帕魯
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 修特帕魯
+  - 對迪德來說那便是財寶，
+- wait:
+  - 50
+- print:
+  - 修特帕魯
+  - 這樣想的話，在通過測驗後
+- wait:
+  - 35
+- print:
+  - 修特帕魯
+  - |2-
+
+    會有這樣的訊息也是很合理的吧？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 121912
+  - 30
+- chara_full:
+  - 101411
+  - LC
+  - 6
+- chara_full:
+  - 311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_164
+- face:
+  - 101411
+  - 6
+- print:
+  - 霞
+  - 的確，
+- wait:
+  - 20
+- print:
+  - 霞
+  - 如此。
+- wait:
+  - 35
+- print:
+  - 霞
+  - 杏奈說得沒錯。
+- wait:
+  - 55
+- print:
+  - 霞
+  - |2
+
+- face:
+  - 101411
+  - 4
+- print:
+  - 霞
+  - 嗯……
+- wait:
+  - 35
+- print:
+  - 霞
+  - 我竟然沒有想到那麼深，
+- wait:
+  - 50
+- print:
+  - 霞
+  - 看來我還有待精進呢……
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_165
+- face:
+  - 311
+  - 4
+- eye_open:
+  - False
+- print:
+  - 隨從
+  - 哈哈，
+- wait:
+  - 30
+- print:
+  - 隨從
+  - 原來如此……
+- wait:
+  - 40
+- eye_open:
+  - True
+- print:
+  - 隨從
+  - 這樣的話
+- wait:
+  - 40
+- print:
+  - 隨從
+  - |-
+    我從一開始
+    就沒有資格取得寶物。
+- wait:
+  - 90
+- print:
+  - 隨從
+  - |2
+
+- face:
+  - 311
+  - 3
+- print:
+  - 隨從
+  - 我不但利用他人，
+- wait:
+  - 40
+- print:
+  - 隨從
+  - 還一路瞞騙至今……
+- touch: *o0
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_166
+- face:
+  - 101411
+  - 3
+- print:
+  - 霞
+  - ……
+- wait:
+  - 40
+- print:
+  - 霞
+  - 你所做的事情
+- wait:
+  - 25
+- print:
+  - 霞
+  - 的確是錯誤得。
+- wait:
+  - 45
+- print:
+  - 霞
+  - |2
+
+- face:
+  - 101411
+  - 1
+- print:
+  - 霞
+  - 不過
+- wait:
+  - 25
+- print:
+  - 霞
+  - 還有重新來過的機會。
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_167
+- face:
+  - 311
+  - 6
+- print:
+  - 隨從
+  - 妳……
+- wait:
+  - 80
+- face:
+  - 311
+  - 4
+- print:
+  - 隨從
+  - 真的這麼想嗎？
+- touch: *o0
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_168
+- face:
+  - 101411
+  - 1
+- print:
+  - 霞
+  - 你在這次的事件裡沒有奪走任何人的性命。
+- wait:
+  - 90
+- print:
+  - 霞
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - 霞
+  - 如果你想的話隨時可以辦到，
+- wait:
+  - 40
+- eye_open:
+  - True
+- print:
+  - 霞
+  - 這樣做也最輕鬆。
+- touch: *o0
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_169
+- face:
+  - 101411
+  - 1
+- eye_open:
+  - False
+- print:
+  - 霞
+  - 但你並沒有跨越最後的那道線。
+- wait:
+  - 75
+- print:
+  - 霞
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 霞
+  - 希望你能贖罪，
+- wait:
+  - 40
+- print:
+  - 霞
+  - 再次回應迪德的意志。
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_170
+- face:
+  - 311
+  - 6
+- print:
+  - 隨從
+  - ……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_earthquake_02_lp
+- shake_loop: *o0
+- wait:
+  - 30
+- window_visible:
+  - true
+- vo_effect:
+  - 4
+- focus:
+  - 2413
+- bust:
+  - 2413
+  - 1
+- vo:
+  - vo_adv_5092006_171
+- face:
+  - 2413
+  - 1
+- print:
+  - 骷髏老爸
+  - 這、
+- wait:
+  - 20
+- print:
+  - 骷髏老爸
+  - 這次又是什麼！？
+- touch: *o0
+- vo_effect:
+  - 0
+- window_visible:
+  - false
+- shake_delete: *o0
+- chara_full:
+  - 101411
+  - C
+  - 3
+- fadein:
+  - 101411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_172
+- face:
+  - 101411
+  - 3
+- print:
+  - 霞
+  - 恐怕是剛才戰鬥的餘震讓大廳開始崩塌了吧。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101411
+  - 30
+- chara_full:
+  - 121912
+  - LC
+  - 6
+- chara_full:
+  - 122012
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 121912
+- bust:
+  - 121912
+  - 0
+- vo:
+  - vo_adv_5092006_173
+- face:
+  - 121912
+  - 6
+- print:
+  - 修特帕魯
+  - 嗯，
+- wait:
+  - 25
+- print:
+  - 修特帕魯
+  - 原來如此。
+- wait:
+  - 45
+- face:
+  - 121912
+  - 2
+- print:
+  - 修特帕魯
+  - 我的魔法真的是太強大了。
+- touch: *o0
+- focus:
+  - 122012
+- bust:
+  - 122012
+  - 0
+- vo:
+  - vo_adv_5092006_174
+- face:
+  - 122012
+  - 4
+- nod:
+  - 122012
+- print:
+  - 忍
+  - 沒時間老王賣瓜了。
+- wait:
+  - 45
+- print:
+  - 忍
+  - 我們快點逃出去吧。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 101411
+  - C
+  - 3
+- fadein:
+  - 101411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_175
+- face:
+  - 101411
+  - 3
+- print:
+  - 霞
+  - 嗯，
+- wait:
+  - 20
+- print:
+  - 霞
+  - 要是死在這裡就得不償失了。
+- wait:
+  - 40
+- print:
+  - 霞
+  - |2
+
+- face:
+  - 101411
+  - 6
+- emotion:
+  - exclamation1_R
+  - 101411
+  - 0
+  - 665
+  - se_adv_emote_common_01
+- print:
+  - 霞
+  - 等等，
+- wait:
+  - 15
+- print:
+  - 霞
+  - 助手先生！
+- wait:
+  - 25
+- print:
+  - 霞
+  - 你還在做什麼，
+- wait:
+  - 20
+- print:
+  - 霞
+  - 快點走了！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101411
+  - 30
+- se_pause:
+  - se_adv_earthquake_02_lp
+  - 1
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_mystery_03
+  - 1
+- background:
+  - 500403
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_outdoors_day_01
+- chara_full:
+  - 101411
+  - LC
+  - 4
+- chara_full:
+  - 311
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_176
+- face:
+  - 101411
+  - 4
+- nod:
+  - 101411
+- print:
+  - 霞
+  - 呼，
+- wait:
+  - 25
+- print:
+  - 霞
+  - 真是千鈞一髮……
+- wait:
+  - 45
+- print:
+  - 霞
+  - 看來大家都平安無事。
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_177
+- face:
+  - 311
+  - 4
+- print:
+  - 隨從
+  - 也沒有必要連我都救吧……
+- touch: *o0
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_178
+- face:
+  - 101411
+  - 1
+- print:
+  - 霞
+  - 我不是說了嗎？
+- wait:
+  - 30
+- print:
+  - 霞
+  - 我是不會見死不救的。
+- wait:
+  - 55
+- print:
+  - 霞
+  - |2-
+
+    而且最後死得華麗
+- wait:
+  - 50
+- print:
+  - 霞
+  - 這種讓犯人添光的事情
+- wait:
+  - 40
+- face:
+  - 101411
+  - 2
+- print:
+  - 霞
+  - 我是絕對不允許的。
+- touch: *o0
+- face:
+  - 101411
+  - 1
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_179
+- face:
+  - 311
+  - 1
+- print:
+  - 隨從
+  - 哈哈，
+- wait:
+  - 45
+- print:
+  - 隨從
+  - 妳在說什麼啊……
+- touch: *o0
+- choice:
+  - 請收下這個……
+  - 6
+- tag:
+  - 6
+- se:
+  - se_adv_acccesary_give_01
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_180
+- face:
+  - 311
+  - 6
+- print:
+  - 隨從
+  - 咦？
+- wait:
+  - 40
+- print:
+  - 隨從
+  - 這不是
+- wait:
+  - 65
+- print:
+  - 隨從
+  - 我的鑰匙嗎……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101411
+  - 30
+- chara_full:
+  - 121912
+  - LC
+  - 6
+- fadein:
+  - 121912
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 121912
+- bust:
+  - 121912
+  - 0
+- vo:
+  - vo_adv_5092006_181
+- face:
+  - 121912
+  - 6
+- print:
+  - 修特帕魯
+  - 你在那陣混亂中拿回來的嗎？
+- wait:
+  - 60
+- print:
+  - 修特帕魯
+  - 竟然連其他鑰匙都有。
+- wait:
+  - 50
+- print:
+  - 修特帕魯
+  - |2
+
+- face:
+  - 121912
+  - 1
+- print:
+  - 修特帕魯
+  - 你真是太能幹了，吉格魯特！
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_182
+- face:
+  - 311
+  - 1
+- print:
+  - 隨從
+  - 謝謝你。
+- wait:
+  - 50
+- eye_open:
+  - False
+- print:
+  - 隨從
+  - 不過
+- wait:
+  - 45
+- print:
+  - 隨從
+  - 我已經不需要了。
+- wait:
+  - 70
+- print:
+  - 隨從
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 隨從
+  - 其他鑰匙
+- wait:
+  - 45
+- print:
+  - 隨從
+  - 就給你們分一分吧。
+- wait:
+  - 60
+- print:
+  - 隨從
+  - |2-
+
+    你們付出這麼多心力，
+- wait:
+  - 55
+- print:
+  - 隨從
+  - 應該想要有東西留念吧？
+- touch: *o0
+- focus:
+  - 311
+- bust:
+  - 311
+  - 0
+- vo:
+  - vo_adv_5092006_183
+- face:
+  - 311
+  - 1
+- print:
+  - 隨從
+  - 就算沒有鑰匙
+- wait:
+  - 55
+- print:
+  - 隨從
+  - 我也已經繼承了迪德的意志。
+- wait:
+  - 105
+- print:
+  - 隨從
+  - |2-
+
+    在贖完罪以後，
+- wait:
+  - 75
+- print:
+  - 隨從
+  - 我打算出海。
+- wait:
+  - 115
+- print:
+  - 隨從
+  - |2
+
+- face:
+  - 311
+  - 2
+- print:
+  - 隨從
+  - 和你們一樣，
+- wait:
+  - 45
+- print:
+  - 隨從
+  - 與我最珍貴的夥伴一起。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 101411
+  - C
+  - 2
+- fadein:
+  - 101411
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 101411
+- bust:
+  - 101411
+  - 0
+- vo:
+  - vo_adv_5092006_184
+- face:
+  - 101411
+  - 2
+- print:
+  - 霞
+  - 我會祈禱那天的到來。
+- wait:
+  - 45
+- print:
+  - 霞
+  - |2
+
+- face:
+  - 101411
+  - 1
+- print:
+  - 霞
+  - 好，
+- wait:
+  - 20
+- print:
+  - 霞
+  - 回去吧。
+- wait:
+  - 25
+- print:
+  - 霞
+  - 回到我們的城市，
+- wait:
+  - 35
+- print:
+  - 霞
+  - 蘭德索爾！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 101411
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 於是充滿奇異和冒險的海盜島生活就這樣迎來了結束。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1
+  - 1
+- se_pause:
+  - amb_adv_outdoors_day_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

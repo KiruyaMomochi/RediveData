@@ -1,0 +1,3182 @@
+- title:
+  - 英雄三人組登場！
+- outline:
+  - 在夢中，茉莉等人挺身保護了一個被狗狂吠的孩子。醒來之後，茉莉發現日和早已是自己心中的英雄，並和她許下約定，下次要一起幫助他人。
+- background:
+  - 500430
+- se:
+  - amb_adv_guildhouse_mist_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 英雄三人組登場！
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 爬上塔的{0}等人抵達了某個樓層。
+- wait:
+  - 30
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 100511
+  - LC
+  - 6
+- chara_full:
+  - 100111
+  - RC
+  - 6
+- vo_effect:
+  - 3
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M157_Inside
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_7023005_000
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - 這裡好像沒有魔物。
+- wait:
+  - 70
+- print:
+  - 日和
+  - |2-
+
+    我們應該已經爬得滿高了……
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_7023005_001
+- face:
+  - 100511
+  - 6
+- emotion:
+  - notice1_L
+  - 100511
+  - -50
+  - 490
+  - se_adv_emote_common_01
+- print:
+  - 茉莉
+  - 啊！
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - 在那裡！
+- wait:
+  - 20
+- print:
+  - 茉莉
+  - 好像有東西在發光喔！
+- wait:
+  - 40
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100511
+  - 1
+- print:
+  - 茉莉
+  - 去看看吧！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - C
+  - LC
+  - 30
+- change:
+  - R
+  - RC
+  - 30
+- fadeout_all:
+  - 30
+- black_out:
+  - 1
+  - 0.5
+- bright_change:
+  - 1
+  - 50
+- still:
+  - 700100503
+- wait:
+  - 15
+- black_in: *o0
+- window_visible:
+  - true
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 1
+- vo:
+  - vo_adv_7023005_002
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - 該不會
+- wait:
+  - 15
+- print:
+  - 日和
+  - 那就是……
+- touch: *o0
+- window_visible:
+  - FALSE
+- black_out:
+  - 1
+  - 0.5
+- still:
+  - end
+- bright_change:
+  - 1
+  - 100
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 100511
+  - LC
+  - 1
+- chara_full:
+  - 100111
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- se:
+  - se_adv_comic_switch_01
+- nod:
+  - 100511
+- wait:
+  - 15
+- window_visible:
+  - TRUE
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_7023005_003
+- face:
+  - 100511
+  - 1
+- print:
+  - 茉莉
+  - 找到了！
+- wait:
+  - 50
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100511
+  - 6
+- print:
+  - 茉莉
+  - 這應該就是
+- wait:
+  - 20
+- print:
+  - 茉莉
+  - 幫助{0}找回記憶的
+- wait:
+  - 50
+- print:
+  - 茉莉
+  - |2-
+
+    線索對吧？
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_7023005_004
+- face:
+  - 100111
+  - 2
+- emotion:
+  - note1_L
+  - 100111
+  - -70
+  - 515
+  - se_adv_emote_note_01
+- print:
+  - 日和
+  - 太好了！
+- wait:
+  - 65
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 呼……
+- wait:
+  - 35
+- print:
+  - 日和
+  - 總算平安走到這裡了。
+- wait:
+  - 65
+- print:
+  - 日和
+  - |2-
+
+    只靠我們，可能沒辦法這麼順利。
+- wait:
+  - 65
+- print:
+  - 日和
+  - |2-
+
+    這都多虧了茉莉。
+- touch: *o0
+- effect:
+  - 0005
+  - se_adv_holylight_01
+- se_pause:
+  - amb_adv_guildhouse_mist_01
+  - 8
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_7023005_005
+- face:
+  - 100511
+  - 2
+- print:
+  - 茉莉
+  - 嘿嘿，
+- wait:
+  - 30
+- print:
+  - 茉莉
+  - 很高興聽見妳這麼說……
+- wait:
+  - 65
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100511
+  - 6
+- print:
+  - 茉莉
+  - 呃，
+- wait:
+  - 30
+- print:
+  - 茉莉
+  - 奇怪……？　
+- wait:
+  - 25
+- print:
+  - 茉莉
+  - 有東西在發光！
+- wait:
+  - 45
+- print:
+  - 茉莉
+  - |2-
+
+    這是……！
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_7023005_006
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - 茉莉！？
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- vo_effect:
+  - 0
+- effect:
+  - 0006
+  - se_adv_whiteout_01
+- se_pause:
+  - amb_adv_guildhouse_mist_01
+  - 1
+- white_out:
+  - 1
+  - 1
+- bg_color:
+  - 255
+  - 255
+  - 255
+- effect_delete:
+  - 0005
+- effect_delete:
+  - 0006
+- background:
+  - 510100
+- wait:
+  - 30
+- se:
+  - amb_adv_outdoors_day_01
+- white_in: *o0
+- wait:
+  - 30
+- chara_full:
+  - 100531
+  - C
+  - 2
+- fadein:
+  - 100531
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M74
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 100531
+- bust:
+  - 100531
+  - 0
+- vo:
+  - vo_adv_7023005_007
+- face:
+  - 100531
+  - 2
+- nod:
+  - 100531
+- print:
+  - 茉莉
+  - 嘿嘿……
+- wait:
+  - 40
+- print:
+  - 茉莉
+  - |2-
+
+    謝謝妳今天陪我過來！
+- touch: *o0
+- focus:
+  - 100531
+- bust:
+  - 100531
+  - 0
+- vo:
+  - vo_adv_7023005_008
+- face:
+  - 100531
+  - 6
+- print:
+  - 茉莉
+  - 多虧有妳陪我，我才能
+- wait:
+  - 50
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100531
+  - 2
+- print:
+  - 茉莉
+  - 成功買到虎虎的面具套組！
+- wait:
+  - 60
+- print:
+  - 茉莉
+  - |2-
+
+    一般來說，這只有在慶典上才買得到，是很稀有的哦！
+- touch: *o0
+- focus:
+  - 100531
+- bust:
+  - 100531
+  - 0
+- vo:
+  - vo_adv_7023005_009
+- face:
+  - 100531
+  - 2
+- print:
+  - 茉莉
+  - 保存用、實際使用、
+- wait:
+  - 55
+- print:
+  - 茉莉
+  - 傳教用，三種都湊齊了！
+- wait:
+  - 45
+- print:
+  - 茉莉
+  - |2-
+
+    不枉費我把零用錢存下來！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_dog_voice_01
+- face:
+  - 100531
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100531
+  - -15
+  - 600
+  - '*non'
+- wait:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 100531
+- bust:
+  - 100531
+  - 0
+- vo:
+  - vo_adv_7023005_010
+- face:
+  - 100531
+  - 6
+- print:
+  - 茉莉
+  - 咦？
+- wait:
+  - 25
+- print:
+  - 茉莉
+  - 好像聽到什麼聲音耶。
+- wait:
+  - 55
+- print:
+  - 茉莉
+  - |2-
+
+    是狗叫聲……
+- wait:
+  - 100
+- face:
+  - 100531
+  - 3
+- print:
+  - 茉莉
+  - 感覺事情不太單純。
+- wait:
+  - 40
+- print:
+  - 茉莉
+  - |2-
+
+    去看看吧！
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 100531
+  - 30
+- se_pause:
+  - amb_adv_outdoors_day_01
+  - 1
+- effect:
+  - 0040
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 5
+- background:
+  - 510124
+- wait:
+  - 10
+- se:
+  - amb_adv_park_day_01
+- chara_full:
+  - 100531
+  - LC
+  - 6
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 30
+- fadein:
+  - 100531
+  - 30
+- se:
+  - se_adv_dog_voice_02
+- window_visible:
+  - true
+- bgm:
+  - bgm_M180_Ver2
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 100531
+- bust:
+  - 100531
+  - 0
+- vo:
+  - vo_adv_7023005_011
+- face:
+  - 100531
+  - 6
+- print:
+  - 茉莉
+  - 有隻邊跑邊吠的狗……
+- wait:
+  - 75
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100531
+  - 4
+- print:
+  - 茉莉
+  - 發、
+- wait:
+  - 10
+- print:
+  - 茉莉
+  - 發生什麼事了？
+- touch: *o0
+- focus:
+  - 100531
+- bust:
+  - 100531
+  - 0
+- vo:
+  - vo_adv_7023005_012
+- face:
+  - 100531
+  - 1
+- emotion:
+  - exclamation1_R
+  - 100531
+  - -15
+  - 600
+  - se_adv_emote_common_01
+- print:
+  - 茉莉
+  - 啊！
+- wait:
+  - 30
+- print:
+  - 茉莉
+  - 妳看！
+- wait:
+  - 5
+- print:
+  - 茉莉
+  - 在那邊！
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_7023005_013
+- print:
+  - 小孩
+  - 嗚嗚嗚……
+- touch: *o0
+- focus:
+  - 100531
+- bust:
+  - 100531
+  - 0
+- vo:
+  - vo_adv_7023005_014
+- face:
+  - 100531
+  - 3
+- print:
+  - 茉莉
+  - 有、
+- wait:
+  - 10
+- print:
+  - 茉莉
+  - 有小孩子在哭！
+- wait:
+  - 30
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100531
+  - 6
+- print:
+  - 茉莉
+  - 是不是
+- wait:
+  - 25
+- print:
+  - 茉莉
+  - 被狗叫聲嚇到了？
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 38
+- window_visible:
+  - true
+- focus:
+  - 1811
+- bust:
+  - 1811
+  - 1
+- face:
+  - 1811
+  - 1
+- se:
+  - se_adv_dog_voice_02
+- print:
+  - 狗
+  - 汪汪！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 23
+- window_visible:
+  - true
+- focus:
+  - 100531
+- bust:
+  - 100531
+  - 0
+- vo:
+  - vo_adv_7023005_015
+- face:
+  - 100531
+  - 3
+- nod:
+  - 100531
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 茉莉
+  - 快點！
+- wait:
+  - 25
+- print:
+  - 茉莉
+  - |2-
+
+    到他那邊去看看！
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
+- window_visible:
+  - false
+- fadeout:
+  - 100531
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_park_day_01
+  - 1
+- background:
+  - 510100
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_outdoors_day_01
+- chara_full:
+  - 100132
+  - C
+  - 6
+- fadein:
+  - 100132
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M72
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 100132
+- bust:
+  - 100132
+  - 0
+- vo:
+  - vo_adv_7023005_016
+- face:
+  - 100132
+  - 6
+- emotion:
+  - question1_R
+  - 100132
+  - 90
+  - 505
+  - se_adv_emote_question_01
+- print:
+  - 日和
+  - 這是
+- wait:
+  - 15
+- print:
+  - 日和
+  - 什麼……？
+- wait:
+  - 35
+- print:
+  - 日和
+  - |2-
+
+    面具？
+- wait:
+  - 35
+- print:
+  - 日和
+  - 是有人遺失的嗎？
+- touch: *o0
+- focus:
+  - 100132
+- bust:
+  - 100132
+  - 0
+- vo:
+  - vo_adv_7023005_017
+- face:
+  - 100132
+  - 1
+- print:
+  - 日和
+  - 前面就是公園，
+- wait:
+  - 45
+- print:
+  - 日和
+  - 可能是過去玩的時候掉在路上的？
+- wait:
+  - 65
+- print:
+  - 日和
+  - |2-
+
+    好，
+- wait:
+  - 30
+- print:
+  - 日和
+  - 幫他拿過去吧。
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+- window_visible:
+  - false
+- fadeout:
+  - 100132
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_outdoors_day_01
+  - 1
+- background:
+  - 510124
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_park_day_01
+- chara_full:
+  - 100531
+  - C
+  - 6
+- fadein:
+  - 100531
+  - 30
+- window_visible:
+  - true
+- se:
+  - se_adv_dog_voice_02
+- bgm:
+  - bgm_M180_Ver3
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 100531
+- bust:
+  - 100531
+  - 0
+- vo:
+  - vo_adv_7023005_018
+- face:
+  - 100531
+  - 6
+- print:
+  - 茉莉
+  - 這隻狗……
+- wait:
+  - 50
+- print:
+  - 茉莉
+  - 正激動地到處跑。
+- wait:
+  - 85
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100531
+  - 1
+- print:
+  - 茉莉
+  - 趁現在過去找那個小孩子。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 100531
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 100531
+  - LC
+  - 1
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 30
+- fadein:
+  - 100531
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_7023005_019
+- print:
+  - 小孩
+  - 嗚嗚……
+- wait:
+  - 15
+- print:
+  - 小孩
+  - 嗚嗚……
+- touch: *o0
+- focus:
+  - 100531
+- bust:
+  - 100531
+  - 0
+- vo:
+  - vo_adv_7023005_020
+- face:
+  - 100531
+  - 1
+- nod:
+  - 100531
+- se:
+  - se_adv_step_concrete_move_01
+- print:
+  - 茉莉
+  - 你還好嗎！？
+- wait:
+  - 30
+- print:
+  - 茉莉
+  - |2-
+
+    我們來了，你可以放心囉！
+- wait:
+  - 75
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100531
+  - 4
+- print:
+  - 茉莉
+  - 發生什麼事了？
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_7023005_021
+- print:
+  - 小孩
+  - 那個，
+- wait:
+  - 35
+- print:
+  - 小孩
+  - 狗……
+- touch: *o0
+- focus:
+  - 100531
+- bust:
+  - 100531
+  - 0
+- vo:
+  - vo_adv_7023005_022
+- face:
+  - 100531
+  - 6
+- print:
+  - 茉莉
+  - 邊跑邊吠讓你很怕嗎？
+- wait:
+  - 55
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100531
+  - 3
+- print:
+  - 茉莉
+  - 我知道了！
+- wait:
+  - 20
+- print:
+  - 茉莉
+  - 包在我身上！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 38
+- window_visible:
+  - true
+- focus:
+  - 1811
+- bust:
+  - 1811
+  - 1
+- face:
+  - 1811
+  - 1
+- se:
+  - se_adv_dog_voice_02
+- print:
+  - 狗
+  - 汪汪！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 23
+- window_visible:
+  - true
+- focus:
+  - 100531
+- bust:
+  - 100531
+  - 0
+- vo:
+  - vo_adv_7023005_023
+- face:
+  - 100531
+  - 6
+- print:
+  - 茉莉
+  - 仔、
+- wait:
+  - 20
+- print:
+  - 茉莉
+  - 仔細一看，
+- wait:
+  - 50
+- print:
+  - 茉莉
+  - 這隻狗還滿大的……
+- wait:
+  - 65
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100531
+  - 4
+- print:
+  - 茉莉
+  - 被咬到應該會很痛……
+- touch: *o0
+- choice:
+  - 會怕嗎？
+  - 1
+- choice:
+  - 妳沒問題吧？
+  - 2
+- tag:
+  - 1
+- focus:
+  - 100531
+- bust:
+  - 100531
+  - 0
+- vo:
+  - vo_adv_7023005_024
+- face:
+  - 100531
+  - 4
+- print:
+  - 茉莉
+  - 是、
+- wait:
+  - 20
+- print:
+  - 茉莉
+  - 是有點可怕……
+- wait:
+  - 95
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100531
+  - 1
+- print:
+  - 茉莉
+  - 不過
+- wait:
+  - 30
+- print:
+  - 茉莉
+  - 這時候也只能拿出勇氣了……
+- touch: *o0
+- goto:
+  - 3
+- tag:
+  - 2
+- focus:
+  - 100531
+- bust:
+  - 100531
+  - 0
+- vo:
+  - vo_adv_7023005_025
+- face:
+  - 100531
+  - 1
+- print:
+  - 茉莉
+  - 當、
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - 當然沒問題！
+- wait:
+  - 50
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100531
+  - 1
+- print:
+  - 茉莉
+  - 有{0}陪我，
+- wait:
+  - 25
+- print:
+  - 茉莉
+  - |2-
+
+    怎麼能輸給牠！
+- touch: *o0
+- tag:
+  - 3
+- focus:
+  - 100531
+- bust:
+  - 100531
+  - 0
+- vo:
+  - vo_adv_7023005_026
+- face:
+  - 100531
+  - 6
+- emotion:
+  - notice2_L
+  - 100531
+  - -145
+  - 490
+  - se_adv_emote_nortice_01
+- print:
+  - 茉莉
+  - 對、
+- wait:
+  - 10
+- print:
+  - 茉莉
+  - 對了！
+- wait:
+  - 20
+- print:
+  - 茉莉
+  - |2-
+
+    這種時候就要變身……
+- wait:
+  - 60
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100531
+  - 2
+- print:
+  - 茉莉
+  - 用這個面具……
+- touch: *o0
+- face:
+  - 100531
+  - 1
+- window_visible:
+  - false
+- text_size:
+  - 38
+- window_visible:
+  - true
+- focus:
+  - 1811
+- bust:
+  - 1811
+  - 1
+- face:
+  - 1811
+  - 1
+- se:
+  - se_adv_dog_voice_02
+- print:
+  - 狗
+  - 汪汪！！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 23
+- window_visible:
+  - true
+- focus:
+  - 100531
+- bust:
+  - 100531
+  - 0
+- vo:
+  - vo_adv_7023005_027
+- face:
+  - 100531
+  - 4
+- pop:
+  - 100531
+- se:
+  - se_adv_rabbit_jump_01
+- print:
+  - 茉莉
+  - 嗚！
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - 狗、
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - 狗看向這邊了……
+- wait:
+  - 60
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100531
+  - 6
+- print:
+  - 茉莉
+  - 跑、
+- wait:
+  - 30
+- print:
+  - 茉莉
+  - 跑跑跑、
+- wait:
+  - 20
+- print:
+  - 茉莉
+  - 跑過來了欸！
+- wait:
+  - 40
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100531
+  - 1
+- print:
+  - 茉莉
+  - 要快點戴上面具變身……
+- touch: *o0
+- focus:
+  - 100531
+- bust:
+  - 100531
+  - 0
+- vo:
+  - vo_adv_7023005_028
+- face:
+  - 100531
+  - 1
+- print:
+  - 茉莉
+  - 變、
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - 變身……！！
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
+- window_visible:
+  - FALSE
+- fadeout:
+  - 100531
+  - 30
+- white_out:
+  - 1
+  - 1
+- bg_color:
+  - 255
+  - 255
+  - 255
+- still:
+  - 702300501
+- wait:
+  - 15
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- se:
+  - se_adv_comic_light_01
+- white_in: *o0
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M165
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 100132
+- bust:
+  - 100132
+  - 1
+- vo:
+  - vo_adv_7023005_029
+- face:
+  - 100132
+  - 1
+- print:
+  - 日和
+  - 變身！
+- touch: *o0
+- focus:
+  - 100531
+- bust:
+  - 100531
+  - 1
+- vo:
+  - vo_adv_7023005_030
+- face:
+  - 100531
+  - 6
+- print:
+  - 茉莉
+  - 咦？
+- wait:
+  - 25
+- print:
+  - 茉莉
+  - 什麼……
+- wait:
+  - 30
+- print:
+  - 茉莉
+  - 妳是誰？
+- touch: *o0
+- focus:
+  - 100132
+- bust:
+  - 100132
+  - 1
+- vo:
+  - vo_adv_7023005_031
+- face:
+  - 100132
+  - 4
+- print:
+  - 日和
+  - 呃……
+- wait:
+  - 35
+- face:
+  - 100132
+  - 6
+- print:
+  - 日和
+  - 這個面具是什麼面具？
+- touch: *o0
+- focus:
+  - 100531
+- bust:
+  - 100531
+  - 1
+- vo:
+  - vo_adv_7023005_032
+- face:
+  - 100531
+  - 1
+- print:
+  - 茉莉
+  - 虎虎……
+- touch: *o0
+- focus:
+  - 100132
+- bust:
+  - 100132
+  - 1
+- vo:
+  - vo_adv_7023005_033
+- face:
+  - 100132
+  - 6
+- print:
+  - 日和
+  - 我是虎虎……
+- wait:
+  - 45
+- face:
+  - 100132
+  - 1
+- print:
+  - 日和
+  - 3號！
+- wait:
+  - 25
+- print:
+  - 日和
+  - |2-
+
+    你說是吧？
+- wait:
+  - 10
+- print:
+  - 日和
+  - 2號。
+- touch: *o0
+- choice:
+  - 日和？
+  - 4
+- tag:
+  - 4
+- focus:
+  - 100132
+- bust:
+  - 100132
+  - 1
+- vo:
+  - vo_adv_7023005_034
+- face:
+  - 100132
+  - 4
+- print:
+  - 日和
+  - 才才才才、
+- wait:
+  - 15
+- print:
+  - 日和
+  - 才不是！
+- wait:
+  - 35
+- print:
+  - 日和
+  - |2
+
+- face:
+  - 100132
+  - 1
+- print:
+  - 日和
+  - 我現在是
+- wait:
+  - 15
+- print:
+  - 日和
+  - 虎虎3號！
+- wait:
+  - 40
+- print:
+  - 日和
+  - |2
+
+- face:
+  - 100132
+  - 2
+- print:
+  - 日和
+  - 為了拯救你們而趕來了！
+- touch: *o0
+- window_visible:
+  - FALSE
+- still:
+  - 702300502
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 100132
+- bust:
+  - 100132
+  - 1
+- vo:
+  - vo_adv_7023005_035
+- face:
+  - 100132
+  - 1
+- print:
+  - 日和
+  - 拜託妳了，
+- wait:
+  - 20
+- print:
+  - 日和
+  - 虎虎1號！
+- wait:
+  - 40
+- print:
+  - 日和
+  - |2
+
+- face:
+  - 100132
+  - 2
+- print:
+  - 日和
+  - 要是碰到危險，
+- wait:
+  - 20
+- print:
+  - 日和
+  - 我會支援妳的！
+- touch: *o0
+- focus:
+  - 100531
+- bust:
+  - 100531
+  - 1
+- vo:
+  - vo_adv_7023005_036
+- face:
+  - 100531
+  - 1
+- print:
+  - 茉莉
+  - 我、
+- wait:
+  - 20
+- print:
+  - 茉莉
+  - 我知道了！
+- wait:
+  - 25
+- print:
+  - 茉莉
+  - |2-
+
+    我會保護好這個孩子！
+- wait:
+  - 70
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100531
+  - 3
+- print:
+  - 茉莉
+  - 放心，
+- wait:
+  - 30
+- print:
+  - 茉莉
+  - 你別怕！
+- touch: *o0
+- focus:
+  - 100531
+- bust:
+  - 100531
+  - 1
+- vo:
+  - vo_adv_7023005_037
+- face:
+  - 100531
+  - 3
+- print:
+  - 茉莉
+  - 幫助大家，
+- wait:
+  - 45
+- print:
+  - 茉莉
+  - 為大家打氣……
+- wait:
+  - 50
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100531
+  - 2
+- print:
+  - 茉莉
+  - 這就是
+- wait:
+  - 25
+- print:
+  - 茉莉
+  - 英雄該做的事！！
+- touch: *o0
+- focus:
+  - 100132
+- bust:
+  - 100132
+  - 1
+- vo:
+  - vo_adv_7023005_038
+- face:
+  - 100132
+  - 2
+- print:
+  - 日和
+  - 萬歲、
+- wait:
+  - 20
+- print:
+  - 日和
+  - 萬歲，
+- wait:
+  - 25
+- print:
+  - 日和
+  - 1號！
+- touch: *o0
+- focus:
+  - 100531
+- bust:
+  - 100531
+  - 1
+- vo:
+  - vo_adv_7023005_039
+- face:
+  - 100531
+  - 3
+- print:
+  - 茉莉
+  - 妳的背後
+- wait:
+  - 35
+- print:
+  - 茉莉
+  - 就交給我了……！
+- wait:
+  - 45
+- print:
+  - 茉莉
+  - |2-
+
+    儘管放馬過來──！
+- touch: *o0
+- window_visible:
+  - FALSE
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0022
+- background:
+  - 510124
+- still:
+  - end
+- wait:
+  - 15
+- white_in: *o0
+- chara_full:
+  - 100531
+  - LC
+  - 6
+- chara_full:
+  - 100132
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 1811
+- bust:
+  - 1811
+  - 1
+- face:
+  - 1811
+  - 1
+- se:
+  - se_adv_dog_voice_01
+- print:
+  - 狗
+  - 汪！
+- touch: *o0
+- bgm:
+  - stop
+  - 11.9
+- focus:
+  - 100132
+- bust:
+  - 100132
+  - 0
+- vo:
+  - vo_adv_7023005_040
+- face:
+  - 100132
+  - 6
+- emotion:
+  - notice1_L
+  - 100132
+  - -80
+  - 530
+  - se_adv_emote_common_01
+- print:
+  - 日和
+  - 奇怪？
+- wait:
+  - 35
+- print:
+  - 日和
+  - 牠該不會……
+- wait:
+  - 100
+- print:
+  - 日和
+  - |2
+
+- face:
+  - 100132
+  - 1
+- print:
+  - 日和
+  - 別怕哦～
+- wait:
+  - 45
+- print:
+  - 日和
+  - 過來這邊～
+- touch: *o0
+- focus:
+  - 1811
+- bust:
+  - 1811
+  - 1
+- face:
+  - 1811
+  - 1
+- se:
+  - se_adv_dog_voice_02
+- print:
+  - 狗
+  - 汪汪！
+- touch: *o0
+- bgm:
+  - bgm_M323
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 100531
+- bust:
+  - 100531
+  - 0
+- vo:
+  - vo_adv_7023005_041
+- face:
+  - 100531
+  - 6
+- nod:
+  - 100531
+- print:
+  - 茉莉
+  - 怪了。
+- wait:
+  - 40
+- print:
+  - 茉莉
+  - 突然就安靜下來了……
+- wait:
+  - 70
+- print:
+  - 茉莉
+  - |2-
+
+    看起來好像很親3號？
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_7023005_042
+- print:
+  - 小孩
+  - 哇～
+- wait:
+  - 35
+- print:
+  - 小孩
+  - 波奇～！
+- touch: *o0
+- focus:
+  - 1811
+- bust:
+  - 1811
+  - 1
+- face:
+  - 1811
+  - 1
+- se:
+  - se_adv_dog_voice_03
+- print:
+  - 狗
+  - 嗚……
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_7023005_043
+- print:
+  - 小孩
+  - 波奇終於回來了～！
+- touch: *o0
+- focus:
+  - 100531
+- bust:
+  - 100531
+  - 0
+- vo:
+  - vo_adv_7023005_044
+- face:
+  - 100531
+  - 4
+- emotion:
+  - question1_R
+  - 100531
+  - 75
+  - 470
+  - se_adv_emote_question_01
+- print:
+  - 茉莉
+  - 呃……
+- wait:
+  - 55
+- print:
+  - 茉莉
+  - 這是什麼情況？
+- touch: *o0
+- focus:
+  - 100132
+- bust:
+  - 100132
+  - 0
+- vo:
+  - vo_adv_7023005_045
+- face:
+  - 100132
+  - 1
+- print:
+  - 日和
+  - 好像只是太興奮到處亂跑，
+- wait:
+  - 55
+- print:
+  - 日和
+  - |2-
+
+    結果小主人抓不到牠而已。
+- touch: *o0
+- focus:
+  - 100132
+- bust:
+  - 100132
+  - 0
+- vo:
+  - vo_adv_7023005_046
+- face:
+  - 100132
+  - 1
+- print:
+  - 日和
+  - 應該是因為注意到我們才跑回來的。
+- touch: *o0
+- focus:
+  - 100531
+- bust:
+  - 100531
+  - 0
+- vo:
+  - vo_adv_7023005_047
+- face:
+  - 100531
+  - 6
+- print:
+  - 茉莉
+  - 原、
+- wait:
+  - 15
+- print:
+  - 茉莉
+  - 原來是這樣……
+- wait:
+  - 60
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100531
+  - 4
+- print:
+  - 茉莉
+  - 呼……
+- wait:
+  - 45
+- print:
+  - 茉莉
+  - 能鬆一口氣了……
+- touch: *o0
+- focus:
+  - 100132
+- bust:
+  - 100132
+  - 0
+- vo:
+  - vo_adv_7023005_048
+- face:
+  - 100132
+  - 6
+- print:
+  - 日和
+  - 對了。
+- wait:
+  - 35
+- print:
+  - 日和
+  - 這個面具
+- wait:
+  - 25
+- print:
+  - 日和
+  - 應該是妳的吧？
+- wait:
+  - 35
+- print:
+  - 日和
+  - |2
+
+- face:
+  - 100132
+  - 1
+- print:
+  - 日和
+  - 我是
+- wait:
+  - 25
+- print:
+  - 日和
+  - 春咲日和。
+- wait:
+  - 45
+- print:
+  - 日和
+  - |2-
+
+    抱歉，看到它掉在地上
+- wait:
+  - 50
+- print:
+  - 日和
+  - 就擅自拿來用了。
+- touch: *o0
+- focus:
+  - 100531
+- bust:
+  - 100531
+  - 0
+- vo:
+  - vo_adv_7023005_049
+- face:
+  - 100531
+  - 6
+- nod:
+  - 100531
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - 茉莉
+  - 沒、
+- wait:
+  - 10
+- print:
+  - 茉莉
+  - 沒關係啦！
+- wait:
+  - 30
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100531
+  - 2
+- print:
+  - 茉莉
+  - 啊，
+- wait:
+  - 20
+- print:
+  - 茉莉
+  - 我叫做織原茉莉！
+- touch: *o0
+- focus:
+  - 100531
+- bust:
+  - 100531
+  - 0
+- vo:
+  - vo_adv_7023005_050
+- face:
+  - 100531
+  - 6
+- print:
+  - 茉莉
+  - 妳是{0}的朋友嗎？
+- wait:
+  - 45
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100531
+  - 2
+- print:
+  - 茉莉
+  - 謝謝妳的幫忙！
+- touch: *o0
+- face:
+  - 100531
+  - 1
+- focus:
+  - 100132
+- bust:
+  - 100132
+  - 0
+- vo:
+  - vo_adv_7023005_051
+- face:
+  - 100132
+  - 2
+- nod:
+  - 100132
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 日和
+  - 妳好，
+- wait:
+  - 15
+- print:
+  - 日和
+  - 茉莉。
+- wait:
+  - 40
+- print:
+  - 日和
+  - |2
+
+- face:
+  - 100132
+  - 6
+- print:
+  - 日和
+  - 不過，
+- wait:
+  - 25
+- print:
+  - 日和
+  - 妳不可以太逞強哦。
+- wait:
+  - 60
+- print:
+  - 日和
+  - |2
+
+- face:
+  - 100132
+  - 1
+- print:
+  - 日和
+  - 但有前輩在，應該也不需要太擔心就是了。
+- touch: *o0
+- focus:
+  - 100531
+- bust:
+  - 100531
+  - 0
+- vo:
+  - vo_adv_7023005_052
+- face:
+  - 100531
+  - 1
+- print:
+  - 茉莉
+  - 真是不好意思。
+- wait:
+  - 45
+- face:
+  - 100531
+  - 2
+- print:
+  - 茉莉
+  - 不過
+- wait:
+  - 25
+- emotion:
+  - twinkle1_R
+  - 100531
+  - -145
+  - 450
+  - se_adv_emote_twinkle_01
+- print:
+  - 茉莉
+  - 我好感動喔！
+- wait:
+  - 35
+- print:
+  - 茉莉
+  - |2-
+
+    妳的膽量！
+- wait:
+  - 20
+- print:
+  - 茉莉
+  - 判斷力！
+- wait:
+  - 25
+- print:
+  - 茉莉
+  - 正義感！
+- wait:
+  - 25
+- print:
+  - 茉莉
+  - 都值得我好好學習！
+- touch: *o0
+- face:
+  - 100531
+  - 1
+- focus:
+  - 100132
+- bust:
+  - 100132
+  - 0
+- vo:
+  - vo_adv_7023005_053
+- face:
+  - 100132
+  - 2
+- print:
+  - 日和
+  - 啊哈哈……
+- wait:
+  - 45
+- print:
+  - 日和
+  - 妳太
+- wait:
+  - 15
+- print:
+  - 日和
+  - 誇張了啦。
+- touch: *o0
+- face:
+  - 100132
+  - 1
+- focus:
+  - 100531
+- bust:
+  - 100531
+  - 0
+- vo:
+  - vo_adv_7023005_054
+- face:
+  - 100531
+  - 1
+- nod:
+  - 100531
+- print:
+  - 茉莉
+  - 才沒有！
+- wait:
+  - 50
+- print:
+  - 茉莉
+  - 多虧有妳替我加油，
+- wait:
+  - 35
+- print:
+  - 茉莉
+  - |2-
+
+    我才能面對恐懼！
+- touch: *o0
+- focus:
+  - 100531
+- bust:
+  - 100531
+  - 0
+- vo:
+  - vo_adv_7023005_055
+- face:
+  - 100531
+  - 2
+- print:
+  - 茉莉
+  - 更重要的是，
+- wait:
+  - 35
+- print:
+  - 茉莉
+  - 妳還和敵人和解了……
+- wait:
+  - 70
+- print:
+  - 茉莉
+  - 講直就像是
+- wait:
+  - 25
+- print:
+  - 茉莉
+  - 英雄一樣！
+- touch: *o0
+- face:
+  - 100531
+  - 1
+- focus:
+  - 100132
+- bust:
+  - 100132
+  - 0
+- vo:
+  - vo_adv_7023005_056
+- face:
+  - 100132
+  - 2
+- nod:
+  - 100132
+- print:
+  - 日和
+  - 啊哈哈……
+- wait:
+  - 45
+- print:
+  - 日和
+  - 過獎了～
+- wait:
+  - 55
+- print:
+  - 日和
+  - |2
+
+- face:
+  - 100132
+  - 1
+- print:
+  - 日和
+  - 我只是做自己能做的事情而已。
+- wait:
+  - 45
+- print:
+  - 日和
+  - |2-
+
+    和妳一樣。
+- touch: *o0
+- focus:
+  - 100531
+- bust:
+  - 100531
+  - 0
+- vo:
+  - vo_adv_7023005_057
+- face:
+  - 100531
+  - 6
+- print:
+  - 茉莉
+  - 和我一樣……
+- wait:
+  - 35
+- print:
+  - 茉莉
+  - 是嗎？
+- wait:
+  - 55
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100531
+  - 2
+- print:
+  - 茉莉
+  - 不過，
+- wait:
+  - 25
+- print:
+  - 茉莉
+  - 我還是很
+- wait:
+  - 30
+- print:
+  - 茉莉
+  - 佩服日和！
+- wait:
+  - 40
+- print:
+  - 茉莉
+  - |2-
+
+    佩服得五體投地──！
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+  - 1
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- effect:
+  - 0005
+  - se_adv_holylight_01
+- effect:
+  - 0006
+  - se_adv_whiteout_01
+- se_pause:
+  - amb_adv_park_day_01
+  - 1
+- white_out:
+  - 1
+  - 1
+- bg_color:
+  - 255
+  - 255
+  - 255
+- effect_delete:
+  - 0005
+- effect_delete:
+  - 0006
+- background:
+  - 500430
+- wait:
+  - 30
+- se:
+  - amb_adv_guildhouse_mist_01
+- white_in: *o0
+- vo_effect:
+  - 3
+- wait:
+  - 30
+- chara_full:
+  - 100511
+  - LC
+  - 4
+  - 1
+- chara_full:
+  - 100111
+  - RC
+  - 4
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M157_Inside
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_7023005_058
+- face:
+  - 100511
+  - 4
+- eye_open:
+  - True
+- print:
+  - 茉莉
+  - 奇、
+- wait:
+  - 40
+- print:
+  - 茉莉
+  - 奇怪……
+- wait:
+  - 65
+- print:
+  - 茉莉
+  - |2-
+
+    這裡是……
+- wait:
+  - 55
+- face:
+  - 100511
+  - 6
+- print:
+  - 茉莉
+  - 對了。
+- wait:
+  - 25
+- print:
+  - 茉莉
+  - 是露娜之塔！
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_7023005_059
+- face:
+  - 100111
+  - 4
+- eye_open:
+  - True
+- print:
+  - 日和
+  - 嗯……
+- wait:
+  - 85
+- face:
+  - 100111
+  - 6
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 日和
+  - 呼……
+- wait:
+  - 100
+- print:
+  - 日和
+  - 呼……
+- wait:
+  - 55
+- print:
+  - 日和
+  - |2
+
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 好像不小心睡著了。
+- wait:
+  - 75
+- print:
+  - 日和
+  - |2
+
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - 你們都還好嗎？
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_7023005_060
+- face:
+  - 100511
+  - 6
+- emotion:
+  - question1_R
+  - 100511
+  - 120
+  - 450
+  - se_adv_emote_question_01
+- print:
+  - 茉莉
+  - 剛剛
+- wait:
+  - 40
+- print:
+  - 茉莉
+  - 那是……
+- wait:
+  - 40
+- print:
+  - 茉莉
+  - 夢嗎？
+- wait:
+  - 60
+- print:
+  - 茉莉
+  - |2-
+
+    感覺好像和記憶有關聯……
+- wait:
+  - 70
+- face:
+  - 100511
+  - 4
+- print:
+  - 茉莉
+  - 嗯……
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_7023005_061
+- face:
+  - 100111
+  - 6
+- print:
+  - 日和
+  - 怎麼了？
+- wait:
+  - 20
+- print:
+  - 日和
+  - 茉莉。
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_7023005_062
+- face:
+  - 100511
+  - 6
+- print:
+  - 茉莉
+  - 剛才的夢
+- wait:
+  - 45
+- print:
+  - 茉莉
+  - 讓我……
+- wait:
+  - 20
+- print:
+  - 茉莉
+  - 察覺到了……
+- wait:
+  - 40
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100511
+  - 1
+- print:
+  - 茉莉
+  - 日和，
+- wait:
+  - 50
+- print:
+  - 茉莉
+  - 妳已經沒必要努力當上英雄了……
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_7023005_063
+- face:
+  - 100111
+  - 1
+- nod:
+  - 100111
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 日和
+  - 嗯嗯，
+- wait:
+  - 45
+- print:
+  - 日和
+  - 我繼續做自己就行了。
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_7023005_064
+- face:
+  - 100511
+  - 2
+- print:
+  - 茉莉
+  - 對啊！
+- wait:
+  - 25
+- print:
+  - 茉莉
+  - 繼續做自己就好！
+- wait:
+  - 35
+- print:
+  - 茉莉
+  - |2-
+
+    幫助大家、為大家打氣，
+- wait:
+  - 40
+- print:
+  - 茉莉
+  - 也算是一個英雄該做的事。
+- wait:
+  - 50
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100511
+  - 1
+- bgm:
+  - stop
+  - 5.5
+- print:
+  - 茉莉
+  - 妳能做到這點
+- wait:
+  - 30
+- print:
+  - 茉莉
+  - 就已經和我不一樣，算得上是英雄了！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M163
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_7023005_065
+- face:
+  - 100111
+  - 6
+- nod:
+  - 100111
+- print:
+  - 日和
+  - 咦？
+- wait:
+  - 45
+- print:
+  - 日和
+  - 原來
+- wait:
+  - 25
+- print:
+  - 日和
+  - 我已經是英雄了嗎！？
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 23
+- window_visible:
+  - true
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_7023005_066
+- face:
+  - 100511
+  - 6
+- print:
+  - 茉莉
+  - 所以……
+- wait:
+  - 40
+- print:
+  - 茉莉
+  - 日和，
+- wait:
+  - 20
+- face:
+  - 100511
+  - 3
+- print:
+  - 茉莉
+  - 不對……
+- wait:
+  - 30
+- print:
+  - 茉莉
+  - 師父！
+- wait:
+  - 30
+- print:
+  - 茉莉
+  - |2-
+
+    請妳收我為徒！
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_7023005_067
+- face:
+  - 100111
+  - 6
+- emotion:
+  - surprise1_L
+  - 100111
+  - 150
+  - 550
+  - se_adv_emote_common_01
+- print:
+  - 日和
+  - 什、
+- wait:
+  - 20
+- print:
+  - 日和
+  - 什麼──！？
+- wait:
+  - 40
+- print:
+  - 日和
+  - 師、
+- wait:
+  - 15
+- print:
+  - 日和
+  - 師父～！？
+- wait:
+  - 40
+- print:
+  - 日和
+  - |2
+
+- face:
+  - 100111
+  - 4
+- print:
+  - 日和
+  - 叫我師父……
+- wait:
+  - 40
+- print:
+  - 日和
+  - 這樣我會有點困擾耶～
+- wait:
+  - 40
+- print:
+  - 日和
+  - |2-
+
+    我現在還不能獨當一面啊。
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_7023005_068
+- face:
+  - 100511
+  - 4
+- print:
+  - 茉莉
+  - 不、
+- wait:
+  - 30
+- print:
+  - 茉莉
+  - 不行嗎？
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_7023005_069
+- face:
+  - 100111
+  - 4
+- print:
+  - 日和
+  - 嗯～
+- wait:
+  - 45
+- print:
+  - 日和
+  - 師父是沒辦法……
+- wait:
+  - 70
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 可以先當朋友嗎？
+- wait:
+  - 50
+- print:
+  - 日和
+  - |2-
+
+    然後，
+- wait:
+  - 15
+- print:
+  - 日和
+  - 下次碰到需要幫助的人，我們可以一起去幫忙。
+- wait:
+  - 70
+- print:
+  - 日和
+  - |2-
+
+    有困難的時候
+- wait:
+  - 50
+- print:
+  - 日和
+  - 就要互相幫助幫助嘛。
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_7023005_070
+- face:
+  - 100511
+  - 6
+- emotion:
+  - question1_R
+  - 100511
+  - 120
+  - 450
+  - se_adv_emote_question_01
+- print:
+  - 茉莉
+  - 互相幫助幫助，
+- wait:
+  - 50
+- print:
+  - 茉莉
+  - 是嗎？
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_7023005_071
+- face:
+  - 100111
+  - 2
+- print:
+  - 日和
+  - 我會當成來幫大家忙，
+- wait:
+  - 60
+- print:
+  - 日和
+  - |2-
+
+    而妳可以當成是英雄的修行。
+- wait:
+  - 60
+- print:
+  - 日和
+  - |2
+
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 休假的時候我們就一起出去
+- wait:
+  - 40
+- print:
+  - 日和
+  - 努力幫助別人，
+- wait:
+  - 40
+- print:
+  - 日和
+  - 妳覺得怎樣？
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_7023005_072
+- face:
+  - 100511
+  - 2
+- nod:
+  - 100511
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 茉莉
+  - 我知道了！
+- wait:
+  - 35
+- print:
+  - 茉莉
+  - |2-
+
+    那就
+- wait:
+  - 20
+- print:
+  - 茉莉
+  - 麻煩妳了！
+- wait:
+  - 35
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100511
+  - 1
+- print:
+  - 茉莉
+  - 到時候，
+- wait:
+  - 20
+- print:
+  - 茉莉
+  - '{0}也要一起喔！'
+- touch: *o0
+- focus:
+  - 100111
+- bust:
+  - 100111
+  - 0
+- vo:
+  - vo_adv_7023005_073
+- face:
+  - 100111
+  - 2
+- print:
+  - 日和
+  - 嗯嗯！
+- wait:
+  - 40
+- face:
+  - 100111
+  - 1
+- print:
+  - 日和
+  - 那下次
+- wait:
+  - 20
+- print:
+  - 日和
+  - 放假的時候，
+- wait:
+  - 30
+- print:
+  - 日和
+  - |2-
+
+    大家一起到城裡去吧！
+- wait:
+  - 45
+- face:
+  - 100111
+  - 2
+- print:
+  - 日和
+  - 耶～！
+- touch: *o0
+- focus:
+  - 100511
+- bust:
+  - 100511
+  - 0
+- vo:
+  - vo_adv_7023005_074
+- face:
+  - 100511
+  - 2
+- pop:
+  - 100511
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 茉莉
+  - 耶──
+- wait:
+  - 30
+- print:
+  - 茉莉
+  - ！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout_all:
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 就這樣，露娜之塔的冒險平安落幕，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - |2-
+
+    蘭德索爾誕生了一對穿著虎紋的助人雙人組。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- bgm:
+  - stop
+  - 1
+  - 1
+- se_pause:
+  - amb_adv_guildhouse_mist_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

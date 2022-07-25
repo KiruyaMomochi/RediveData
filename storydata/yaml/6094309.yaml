@@ -1,0 +1,278 @@
+- title:
+  - パレードについて
+- outline:
+  - ' '
+- background:
+  - 501132
+- amb:
+  - amb_adv_outdoors_night_01
+- ui_visible:
+  - FALSE
+- situation:
+  - パレードについて
+- chara_full:
+  - 114111
+  - C
+  - 2
+- fadein:
+  - 114111
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M135_Outside_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 114111
+- bust:
+  - 114111
+  - 0
+- vo:
+  - vo_adv_6050309_000
+- face:
+  - 114111
+  - 2
+- print:
+  - マツリ
+  - みんなで街を歩くのは楽しいッスね～
+- wait:
+  - 65
+- print:
+  - マツリ
+  - |2
+
+- face:
+  - 114111
+  - 1
+- print:
+  - マツリ
+  - お祭り、
+- wait:
+  - 15
+- print:
+  - マツリ
+  - って感じッス！
+- wait:
+  - 55
+- print:
+  - マツリ
+  - |2-
+
+    普段のパトロールもこれくらい楽しければいいんスけどね～
+- touch: &o0 []
+- choice:
+  - 気を抜いちゃだめ。
+  - 1
+  - 1
+- choice:
+  - 同じだよ。
+  - 2
+  - 2
+- choice:
+  - るんたった～
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 114111
+- bust:
+  - 114111
+  - 0
+- vo:
+  - vo_adv_6050309_001
+- face:
+  - 114111
+  - 6
+- print:
+  - マツリ
+  - もちろんパトロールはまじめにやるッスよ？
+- wait:
+  - 50
+- print:
+  - マツリ
+  - |2
+
+- nod:
+  - 114111
+- print:
+  - マツリ
+  - あ、
+- wait:
+  - 5
+- print:
+  - マツリ
+  - いや、
+- wait:
+  - 30
+- face:
+  - 114111
+  - 1
+- print:
+  - マツリ
+  - パレードも見てる人を楽しませなきゃだめッスよね。
+- wait:
+  - 90
+- print:
+  - マツリ
+  - |2
+
+- face:
+  - 114111
+  - 2
+- print:
+  - マツリ
+  - 了解ッス！　
+- wait:
+  - 30
+- print:
+  - マツリ
+  - まじめに楽しくパトロールするッス！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 114111
+- bust:
+  - 114111
+  - 0
+- vo:
+  - vo_adv_6050309_002
+- face:
+  - 114111
+  - 6
+- print:
+  - マツリ
+  - あっ、
+- wait:
+  - 25
+- face:
+  - 114111
+  - 1
+- print:
+  - マツリ
+  - 確かに
+- wait:
+  - 30
+- print:
+  - マツリ
+  - どっちも
+- wait:
+  - 25
+- print:
+  - マツリ
+  - 人の笑顔のためッスよね！
+- wait:
+  - 50
+- print:
+  - マツリ
+  - |2-
+
+    大切なことを忘れてたッス！　
+- wait:
+  - 55
+- face:
+  - 114111
+  - 2
+- print:
+  - マツリ
+  - 思い出させてくれて
+- wait:
+  - 40
+- print:
+  - マツリ
+  - 感謝ッス！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 114111
+- bust:
+  - 114111
+  - 0
+- vo:
+  - vo_adv_6050309_003
+- face:
+  - 114111
+  - 6
+- print:
+  - マツリ
+  - い、
+- wait:
+  - 30
+- print:
+  - マツリ
+  - いきなりどうしたんスか？
+- wait:
+  - 80
+- print:
+  - マツリ
+  - |2
+
+- emotion:
+  - question1_R
+  - 114111
+  - 125
+  - 435
+  - se_adv_emote_question_01
+- print:
+  - マツリ
+  - え？　
+- wait:
+  - 40
+- print:
+  - マツリ
+  - 自分もやるんスか？　
+- wait:
+  - 45
+- print:
+  - マツリ
+  - え、
+- wait:
+  - 35
+- print:
+  - マツリ
+  - えっと……
+- wait:
+  - 40
+- print:
+  - マツリ
+  - |2
+
+- face:
+  - 114111
+  - 1
+- print:
+  - マツリ
+  - る、
+- wait:
+  - 35
+- print:
+  - マツリ
+  - るんたった～？
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 114111
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

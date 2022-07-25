@@ -1,0 +1,270 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 501060
+- amb:
+  - amb_adv_outdoors_morning_01
+- ui_visible:
+  - false
+- situation:
+  - 彦星について
+- chara_full:
+  - 113311
+  - C
+  - 4
+- fadein:
+  - 113311
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M13_02_Strings
+  - 0
+  - 0
+  - 1
+- focus:
+  - 113311
+- bust:
+  - 113311
+  - 0
+- vo:
+  - vo_adv_6044206_000
+- face:
+  - 113311
+  - 4
+- print:
+  - ナナカ
+  - 彦星殿があんなにダメ人間だったとはね～
+- wait:
+  - 85
+- print:
+  - ナナカ
+  - |2
+
+- face:
+  - 113311
+  - 3
+- print:
+  - ナナカ
+  - 大体、
+- wait:
+  - 20
+- print:
+  - ナナカ
+  - 織姫ちゃんって超絶美少女がいるのに
+- wait:
+  - 70
+- print:
+  - ナナカ
+  - |2-
+
+    他の子とキャッキャウフフしたいとか贅沢極まりない！
+- touch: &o0 []
+- choice:
+  - 贅沢？
+  - 1
+  - 1
+- choice:
+  - 織姫がかわいそう。
+  - 2
+  - 2
+- choice:
+  - ナナカだったらどう？
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 113311
+- bust:
+  - 113311
+  - 0
+- vo:
+  - vo_adv_6044206_001
+- face:
+  - 113311
+  - 3
+- pop:
+  - 113311
+- print:
+  - ナナカ
+  - その通り！　
+- wait:
+  - 35
+- print:
+  - ナナカ
+  - 欲張りすぎ！　
+- wait:
+  - 20
+- print:
+  - ナナカ
+  - けしからん！
+- wait:
+  - 35
+- print:
+  - ナナカ
+  - |2-
+
+    太古の昔から、
+- wait:
+  - 30
+- print:
+  - ナナカ
+  - 欲に溺れたものは身を滅ぼすものなんじゃよ。
+- wait:
+  - 70
+- print:
+  - ナナカ
+  - |2-
+
+    というわけで彦星ーっ、
+- wait:
+  - 50
+- print:
+  - ナナカ
+  - 首を洗って待ってろよーっ！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 113311
+- bust:
+  - 113311
+  - 0
+- vo:
+  - vo_adv_6044206_002
+- face:
+  - 113311
+  - 4
+- nod:
+  - 113311
+- print:
+  - ナナカ
+  - そうだねぇ……
+- wait:
+  - 35
+- print:
+  - ナナカ
+  - |2
+
+- face:
+  - 113311
+  - 1
+- print:
+  - ナナカ
+  - というわけで
+- wait:
+  - 20
+- face:
+  - 113311
+  - 2
+- print:
+  - ナナカ
+  - ここはやっぱり魔法少女の出番だー！
+- wait:
+  - 80
+- print:
+  - ナナカ
+  - |2
+
+- face:
+  - 113311
+  - 3
+- print:
+  - ナナカ
+  - ちょっぴり刺激的な魔法の力で、
+- wait:
+  - 55
+- print:
+  - ナナカ
+  - 彦星殿を説得してやるー！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 113311
+- bust:
+  - 113311
+  - 0
+- vo:
+  - vo_adv_6044206_003
+- face:
+  - 113311
+  - 6
+- emotion:
+  - question1_R
+  - 113311
+  - 145
+  - 480
+  - se_adv_emote_question_01
+- print:
+  - ナナカ
+  - えっ、
+- wait:
+  - 10
+- print:
+  - ナナカ
+  - 私だったら？
+- wait:
+  - 35
+- print:
+  - ナナカ
+  - |2
+
+- face:
+  - 113311
+  - 4
+- print:
+  - ナナカ
+  - そりゃあ悲しい、
+- wait:
+  - 30
+- print:
+  - ナナカ
+  - と思うよ。
+- wait:
+  - 45
+- print:
+  - ナナカ
+  - やっぱり好きになった男の人には、
+- wait:
+  - 35
+- print:
+  - ナナカ
+  - |2-
+
+    自分だけを見ていてほしいっていうか……
+- wait:
+  - 55
+- face:
+  - 113311
+  - 6
+- print:
+  - ナナカ
+  - って何言わせんのさぁっ！？
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 113311
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

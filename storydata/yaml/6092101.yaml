@@ -1,0 +1,306 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 501030
+- amb:
+  - amb_adv_seaside_01
+- ui_visible:
+  - false
+- situation:
+  - 海でやること
+- chara_full:
+  - 113111
+  - C
+  - 6
+- fadein:
+  - 113111
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M381
+  - 0
+  - 0
+  - 1
+- focus:
+  - 113111
+- bust:
+  - 113111
+  - 0
+- vo:
+  - vo_adv_6044101_000
+- face:
+  - 113111
+  - 6
+- print:
+  - ルカ
+  - 海に来たのはいいけど、
+- wait:
+  - 50
+- print:
+  - ルカ
+  - 泳いでばっかりってのも疲れちまうもんだね。
+- wait:
+  - 75
+- print:
+  - ルカ
+  - |2-
+
+    何か息抜きに他のことをしたいもんだけど、
+- wait:
+  - 70
+- print:
+  - ルカ
+  - 何がいいかねぇ……
+- wait:
+  - 65
+- print:
+  - ルカ
+  - |2
+
+- face:
+  - 113111
+  - 1
+- print:
+  - ルカ
+  - お前さんは、
+- wait:
+  - 25
+- print:
+  - ルカ
+  - 何かやりたいこととかないのかい？
+- touch: &o0 []
+- choice:
+  - ヤドカリ探し。
+  - 1
+  - 1
+- choice:
+  - 砂遊び。
+  - 2
+  - 2
+- choice:
+  - 寝る。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 113111
+- bust:
+  - 113111
+  - 0
+- vo:
+  - vo_adv_6044101_001
+- face:
+  - 113111
+  - 2
+- print:
+  - ルカ
+  - ああ、
+- wait:
+  - 20
+- print:
+  - ルカ
+  - ありかもしれないね。
+- wait:
+  - 45
+- print:
+  - ルカ
+  - 多分、
+- wait:
+  - 10
+- print:
+  - ルカ
+  - この辺りに……
+- wait:
+  - 40
+- nod:
+  - 113111
+- print:
+  - ルカ
+  - よっと！
+- wait:
+  - 30
+- print:
+  - ルカ
+  - |2-
+
+    で、
+- wait:
+  - 25
+- print:
+  - ルカ
+  - 何匹捕まえるんだい？　
+- wait:
+  - 45
+- print:
+  - ルカ
+  - 腹が膨れるなら10匹くらいは……
+- wait:
+  - 60
+- print:
+  - ルカ
+  - |2
+
+- face:
+  - 113111
+  - 6
+- print:
+  - ルカ
+  - え、
+- wait:
+  - 20
+- print:
+  - ルカ
+  - 何って、
+- wait:
+  - 40
+- print:
+  - ルカ
+  - 食事用に捕まえるんじゃないのかい？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 113111
+- bust:
+  - 113111
+  - 0
+- vo:
+  - vo_adv_6044101_002
+- face:
+  - 113111
+  - 6
+- print:
+  - ルカ
+  - 砂遊びねぇ……
+- wait:
+  - 60
+- face:
+  - 113111
+  - 1
+- print:
+  - ルカ
+  - あ、
+- wait:
+  - 20
+- print:
+  - ルカ
+  - そうだ。
+- wait:
+  - 40
+- print:
+  - ルカ
+  - ちょっと試したいことがあるんだけど
+- wait:
+  - 35
+- print:
+  - ルカ
+  - |2-
+
+    山盛りに砂を積んでくれるかい？　
+- wait:
+  - 50
+- print:
+  - ルカ
+  - そう、
+- wait:
+  - 15
+- print:
+  - ルカ
+  - その感じで。
+- wait:
+  - 60
+- face:
+  - 113111
+  - 3
+- nod:
+  - 113111
+- se:
+  - se_adv_weapon_sword_whiff_01
+- print:
+  - ルカ
+  - はぁっ！
+- wait:
+  - 45
+- print:
+  - ルカ
+  - |2
+
+- face:
+  - 113111
+  - 4
+- print:
+  - ルカ
+  - ……うーん、
+- wait:
+  - 45
+- print:
+  - ルカ
+  - 刀で斬って形を整えるのは難しいみたいだね。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 113111
+- bust:
+  - 113111
+  - 0
+- vo:
+  - vo_adv_6044101_003
+- face:
+  - 113111
+  - 2
+- print:
+  - ルカ
+  - こういう日差しのいいところで寝るのも気持ちがいいんだよね。
+- wait:
+  - 85
+- print:
+  - ルカ
+  - |2
+
+- face:
+  - 113111
+  - 1
+- print:
+  - ルカ
+  - ……そういえば、
+- wait:
+  - 25
+- print:
+  - ルカ
+  - 向こうでハンモックを見たんだよ。
+- wait:
+  - 45
+- print:
+  - ルカ
+  - |2-
+
+    ちょっとのんびり揺られてこようじゃないか。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 113111
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0
