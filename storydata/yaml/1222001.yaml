@@ -1,0 +1,4022 @@
+- title:
+  - 優花梨（露營） 第1話
+- outline:
+  - 迷上露營的優花梨，帶著{0}去單日露營。他們嘗試用露營區中生長的水果製作果汁，結果優花梨加了太多能讓心情舒暢的水，最後則是醉倒了。
+- background:
+  - 500070
+- se:
+  - amb_adv_room_noise_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 能讓心情舒暢的果汁
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - '{0}送貨到【墨丘利財團】時，'
+- wait:
+  - 30
+- print:
+  - 旁白
+  - |2-
+
+    優花梨正迅速俐落地處理工作──
+- wait:
+  - 15
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 103412
+  - C
+  - 1
+- fadein:
+  - 103412
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M122
+  - 0
+  - 0
+  - 1
+- focus:
+  - 103412
+- bust:
+  - 103412
+  - 0
+- vo:
+  - vo_adv_1222001_000
+- face:
+  - 103412
+  - 1
+- nod:
+  - 103412
+- se:
+  - se_adv_book_open_01
+- print:
+  - 優花梨
+  - 好，
+- wait:
+  - 15
+- print:
+  - 優花梨
+  - 這裡的案子處理完這份文件就結案了！
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - |2
+
+- face:
+  - 103412
+  - 6
+- print:
+  - 優花梨
+  - 接下來……
+- wait:
+  - 35
+- face:
+  - 103412
+  - 4
+- print:
+  - 優花梨
+  - 唉，
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 是這筆交易啊～
+- touch: *o0
+- focus:
+  - 103412
+- bust:
+  - 103412
+  - 0
+- vo:
+  - vo_adv_1222001_001
+- face:
+  - 103412
+  - 4
+- print:
+  - 優花梨
+  - 這不管怎麼想位數都不對吧，
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - 這個訂貨量……
+- wait:
+  - 50
+- print:
+  - 優花梨
+  - |2
+
+- face:
+  - 103412
+  - 3
+- print:
+  - 優花梨
+  - 唔嗯，
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - 這個也得在這週內進行確認才行。
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - |2-
+
+    再來還有麻煩的工作──
+- touch: *o0
+- se:
+  - se_adv_door_open_01
+- choice:
+  - 我來送貨。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 103412
+- bust:
+  - 103412
+  - 0
+- vo:
+  - vo_adv_1222001_002
+- face:
+  - 103412
+  - 6
+- emotion:
+  - question1_R
+  - 103412
+  - 120
+  - 485
+  - se_adv_emote_question_01
+- print:
+  - 優花梨
+  - 咦？
+- wait:
+  - 25
+- face:
+  - 103412
+  - 1
+- print:
+  - 優花梨
+  - 啊，
+- wait:
+  - 15
+- print:
+  - 優花梨
+  - 是你啊……
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - |2-
+
+    你今天是配送的打工？
+- wait:
+  - 45
+- face:
+  - 103412
+  - 2
+- print:
+  - 優花梨
+  - 謝謝，
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - 辛苦你了。
+- touch: *o0
+- focus:
+  - 103412
+- bust:
+  - 103412
+  - 0
+- vo:
+  - vo_adv_1222001_003
+- face:
+  - 103412
+  - 4
+- print:
+  - 優花梨
+  - 可是對不起，
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - 我目前離不開手邊的工作……
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - |2-
+
+    請你去找其他人簽收。
+- wait:
+  - 30
+- face:
+  - 103412
+  - 1
+- print:
+  - 優花梨
+  - 那麼，
+- wait:
+  - 5
+- print:
+  - 優花梨
+  - 麻煩你了！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_wood_walk_go_01
+- change:
+  - LC
+  - C
+  - 30
+- fadeout:
+  - 103412
+  - 30
+- chara_full:
+  - 104811
+  - C
+  - 1
+- fadein:
+  - 104811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1222001_004
+- face:
+  - 104811
+  - 1
+- nod:
+  - 104811
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 美冬
+  - ……你好。
+- wait:
+  - 50
+- face:
+  - 104811
+  - 2
+- print:
+  - 美冬
+  - 事情就是這樣，
+- wait:
+  - 25
+- print:
+  - 美冬
+  - 我來負責簽收。
+- wait:
+  - 35
+- print:
+  - 美冬
+  - |2-
+
+    貨物能請你
+- wait:
+  - 25
+- print:
+  - 美冬
+  - 先堆在玄關那裡嗎？
+- touch: *o0
+- choice:
+  - 很忙嗎？
+  - 2
+- tag:
+  - 2
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1222001_005
+- face:
+  - 104811
+  - 6
+- emotion:
+  - question1_R
+  - 104811
+  - 100
+  - 510
+  - se_adv_emote_question_01
+- print:
+  - 美冬
+  - 嗯？
+- wait:
+  - 20
+- print:
+  - 美冬
+  - 我
+- wait:
+  - 15
+- print:
+  - 美冬
+  - 是沒有那麼忙。
+- wait:
+  - 40
+- print:
+  - 美冬
+  - |2
+
+- face:
+  - 104811
+  - 2
+- print:
+  - 美冬
+  - 不過
+- wait:
+  - 20
+- print:
+  - 美冬
+  - 優花梨……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 104811
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 103412
+  - C
+  - 4
+- fadein:
+  - 103412
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103412
+- bust:
+  - 103412
+  - 0
+- vo:
+  - vo_adv_1222001_006
+- face:
+  - 103412
+  - 4
+- emotion:
+  - gloomy1_R
+  - 103412
+  - 65
+  - 515
+  - se_adv_emote_gloomy_01
+- print:
+  - 優花梨
+  - 唔嗯，
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - 這邊的資料期限是到下週初，
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - |2-
+
+    週末有可能會來催促……
+- wait:
+  - 55
+- face:
+  - 103412
+  - 1
+- print:
+  - 優花梨
+  - 好，
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - 現在就處理掉吧！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 103412
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 104811
+  - C
+  - 6
+- fadein:
+  - 104811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1222001_007
+- face:
+  - 104811
+  - 6
+- print:
+  - 美冬
+  - ……她在以約平時的兩倍效率處理工作。
+- wait:
+  - 65
+- print:
+  - 美冬
+  - |2
+
+- face:
+  - 104811
+  - 2
+- print:
+  - 美冬
+  - 似乎是
+- wait:
+  - 15
+- print:
+  - 美冬
+  - 週末有無論如何都不想推掉的安排。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 104811
+  - 30
+- chara_full:
+  - 103211
+  - LC
+  - 1
+- chara_full:
+  - 104611
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103211
+- bust:
+  - 103211
+  - 0
+- vo:
+  - vo_adv_1222001_008
+- face:
+  - 103211
+  - 1
+- print:
+  - 秋乃
+  - 她是和你有約定吧？
+- wait:
+  - 45
+- print:
+  - 秋乃
+  - |2-
+
+    我記得
+- wait:
+  - 25
+- print:
+  - 秋乃
+  - 聽她說是
+- wait:
+  - 25
+- print:
+  - 秋乃
+  - 你們要去單日露營，
+- wait:
+  - 40
+- face:
+  - 103211
+  - 2
+- print:
+  - 秋乃
+  - 所以她才會這麼努力工作。
+- touch: *o0
+- focus:
+  - 103211
+- bust:
+  - 103211
+  - 0
+- vo:
+  - vo_adv_1222001_009
+- face:
+  - 103211
+  - 1
+- print:
+  - 秋乃
+  - 自從之前失蹤之後……
+- wait:
+  - 45
+- print:
+  - 秋乃
+  - 她好像就迷上了露營，
+- wait:
+  - 50
+- print:
+  - 秋乃
+  - |2
+
+- face:
+  - 103211
+  - 2
+- print:
+  - 秋乃
+  - 多虧如此，
+- wait:
+  - 20
+- print:
+  - 秋乃
+  - 業務正超迅速地處理中。
+- wait:
+  - 50
+- print:
+  - 秋乃
+  - 真讓人佩服♪
+- touch: *o0
+- face:
+  - 103211
+  - 1
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1222001_010
+- face:
+  - 104611
+  - 2
+- emotion:
+  - note1_L
+  - 104611
+  - -80
+  - 515
+  - se_adv_emote_note_01
+- print:
+  - 珠希
+  - 喵呵呵～
+- wait:
+  - 55
+- print:
+  - 珠希
+  - 既然優花梨工作都處理得這麼快了，
+- wait:
+  - 45
+- print:
+  - 珠希
+  - |2-
+
+    那我應該已經可以去休息了喵……？
+- wait:
+  - 65
+- print:
+  - 珠希
+  - |2
+
+- face:
+  - 104611
+  - 1
+- print:
+  - 珠希
+  - 趁現在悄悄地……
+- touch: *o0
+- face:
+  - 103211
+  - 6
+- face:
+  - 104611
+  - 6
+- focus:
+  - 103412
+- bust:
+  - 103412
+  - 1
+- vo:
+  - vo_adv_1222001_011
+- face:
+  - 103412
+  - 3
+- print:
+  - 優花梨
+  - ──珠希？
+- wait:
+  - 15
+- print:
+  - 優花梨
+  - 我全都聽到了。
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - |2-
+
+    既然妳這麼想休息的話，就讓妳去公務機關辦手續好了？
+- wait:
+  - 50
+- print:
+  - 優花梨
+  - |2-
+
+    等待的時間可以讓妳充分休息喔～
+- touch: *o0
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1222001_012
+- face:
+  - 104611
+  - 6
+- emotion:
+  - surprise1_L
+  - 104611
+  - 180
+  - 545
+  - se_adv_emote_common_01
+- print:
+  - 珠希
+  - 喵喵喵喵！？
+- wait:
+  - 15
+- print:
+  - 珠希
+  - |2
+
+- face:
+  - 104611
+  - 4
+- print:
+  - 珠希
+  - 那個拜託饒了我喵！
+- wait:
+  - 15
+- print:
+  - 珠希
+  - 我會無聊死的喵！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 103211
+  - 30
+- chara_full:
+  - 103412
+  - L
+  - 1
+- se:
+  - se_adv_step_wood_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 45
+- fadein:
+  - 103412
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 103412
+- bust:
+  - 103412
+  - 0
+- vo:
+  - vo_adv_1222001_013
+- face:
+  - 103412
+  - 1
+- print:
+  - 優花梨
+  - 是嗎？
+- wait:
+  - 30
+- face:
+  - 103412
+  - 2
+- print:
+  - 優花梨
+  - 那麼，
+- wait:
+  - 5
+- print:
+  - 優花梨
+  - 麻煩妳去外面跑業務。
+- wait:
+  - 50
+- print:
+  - 優花梨
+  - |2
+
+- face:
+  - 103412
+  - 1
+- print:
+  - 優花梨
+  - 這個商品，
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - 客戶有說過要盡快送過去給他們。
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - 麻煩妳了。
+- touch: *o0
+- window_visible:
+  - false
+- focus:
+  - 103412:104611
+- se:
+  - se_adv_body_bump_01
+- nod:
+  - 103412
+- wait:
+  - 5
+- shake:
+  - 104611
+- window_visible:
+  - true
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1222001_014
+- face:
+  - 104611
+  - 4
+- eye_open:
+  - False
+- print:
+  - 珠希
+  - 喵唔……
+- wait:
+  - 45
+- print:
+  - 珠希
+  - 打草驚蛇了喵……
+- wait:
+  - 70
+- print:
+  - 珠希
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 珠希
+  - 不過
+- wait:
+  - 25
+- print:
+  - 珠希
+  - 去外面跑業務比去公務機關
+- wait:
+  - 30
+- print:
+  - 珠希
+  - 要好多了喵……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 103211
+  - LC
+  - 1
+- chara_full:
+  - 104811
+  - RC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104811
+- bust:
+  - 104811
+  - 0
+- vo:
+  - vo_adv_1222001_015
+- face:
+  - 104811
+  - 2
+- print:
+  - 美冬
+  - 呵呵。
+- wait:
+  - 45
+- print:
+  - 美冬
+  - |2-
+
+    不過
+- wait:
+  - 15
+- print:
+  - 美冬
+  - 如果能維持現在的工作效率……
+- wait:
+  - 50
+- print:
+  - 美冬
+  - |2-
+
+    之後大家說不定就能有連假了。
+- touch: *o0
+- focus:
+  - 103211
+- bust:
+  - 103211
+  - 0
+- vo:
+  - vo_adv_1222001_016
+- face:
+  - 103211
+  - 2
+- nod:
+  - 103211
+- print:
+  - 秋乃
+  - 哎呀，
+- wait:
+  - 20
+- print:
+  - 秋乃
+  - 這不錯呢！
+- wait:
+  - 35
+- print:
+  - 秋乃
+  - |2
+
+- face:
+  - 103211
+  - 1
+- print:
+  - 秋乃
+  - 好久沒去員工旅行了……
+- wait:
+  - 40
+- face:
+  - 103211
+  - 2
+- print:
+  - 秋乃
+  - 也要評估
+- wait:
+  - 25
+- print:
+  - 秋乃
+  - 能否去度假♪
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 103412
+  - LC
+  - 1
+- chara_full:
+  - 104611
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 104611
+- bust:
+  - 104611
+  - 0
+- vo:
+  - vo_adv_1222001_017
+- face:
+  - 104611
+  - 6
+- se:
+  - se_adv_rabbit_jump_01
+- pop:
+  - 104611
+- print:
+  - 珠希
+  - 員工旅行！？
+- wait:
+  - 15
+- print:
+  - 珠希
+  - 度假！？
+- wait:
+  - 30
+- face:
+  - 104611
+  - 2
+- print:
+  - 珠希
+  - 真、
+- wait:
+  - 15
+- print:
+  - 珠希
+  - 真是多麼美妙的詞彙喵……
+- wait:
+  - 80
+- print:
+  - 珠希
+  - |2
+
+- face:
+  - 104611
+  - 1
+- print:
+  - 珠希
+  - 這樣的話，去外面跑業務根本不算什麼喵！
+- wait:
+  - 45
+- face:
+  - 104611
+  - 2
+- print:
+  - 珠希
+  - 我出去了喵～！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_wood_run_go_01
+- change:
+  - R
+  - RC
+  - 30
+- fadeout:
+  - 104611
+  - 30
+- change:
+  - C
+  - LC
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103412
+- bust:
+  - 103412
+  - 0
+- vo:
+  - vo_adv_1222001_018
+- face:
+  - 103412
+  - 6
+- emotion:
+  - sweat2_R
+  - 103412
+  - 80
+  - 515
+  - se_adv_emote_sweat_02
+- print:
+  - 優花梨
+  - 珠、
+- wait:
+  - 15
+- print:
+  - 優花梨
+  - 珠希等一下，
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - 妳忘了帶最重要的商品啊！
+- wait:
+  - 50
+- print:
+  - 優花梨
+  - |2-
+
+    我就叫妳等一下了～！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_wood_run_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 103412
+  - 30
+- chara_full:
+  - 103211
+  - C
+  - 1
+- fadein:
+  - 103211
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103211
+- bust:
+  - 103211
+  - 0
+- vo:
+  - vo_adv_1222001_019
+- face:
+  - 103211
+  - 1
+- nod:
+  - 103211
+- print:
+  - 秋乃
+  - ……總之
+- wait:
+  - 20
+- print:
+  - 秋乃
+  - 就是這麼回事。
+- wait:
+  - 35
+- print:
+  - 秋乃
+  - |2-
+
+    為了今後也能讓財團的業務順利處理下去，
+- wait:
+  - 60
+- print:
+  - 秋乃
+  - |2-
+
+    能夠請你陪優花梨
+- wait:
+  - 30
+- print:
+  - 秋乃
+  - 從事她的興趣嗎？
+- touch: *o0
+- choice:
+  - 交給我吧。
+  - 3
+- tag:
+  - 3
+- focus:
+  - 103211
+- bust:
+  - 103211
+  - 0
+- vo:
+  - vo_adv_1222001_020
+- face:
+  - 103211
+  - 2
+- print:
+  - 秋乃
+  - 呵呵，
+- wait:
+  - 25
+- print:
+  - 秋乃
+  - 交易成立。
+- wait:
+  - 50
+- print:
+  - 秋乃
+  - |2
+
+- face:
+  - 103211
+  - 1
+- print:
+  - 秋乃
+  - 到時候，
+- wait:
+  - 35
+- print:
+  - 秋乃
+  - 我也會
+- wait:
+  - 25
+- print:
+  - 秋乃
+  - 招待你去度假的。
+- wait:
+  - 50
+- print:
+  - 秋乃
+  - |2
+
+- face:
+  - 103211
+  - 2
+- print:
+  - 秋乃
+  - 麻煩你了♪
+- touch: *o0
+- bgm:
+  - stop
+  - 2.6
+  - 1
+- window_visible:
+  - false
+- fadeout:
+  - 103211
+  - 30
+- se_pause:
+  - amb_adv_room_noise_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- background:
+  - 501590
+- wait:
+  - 30
+- black_in: *o0
+- se:
+  - amb_adv_outdoors_day_01
+- chara_full:
+  - 122211
+  - C
+  - 2
+- fadein:
+  - 122211
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M53
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_021
+- face:
+  - 122211
+  - 2
+- emotion:
+  - note1_L
+  - 122211
+  - -95
+  - 485
+  - se_adv_emote_note_01
+- print:
+  - 優花梨
+  - ──呵呵呵，
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - 這一天終於到來了！
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - |2
+
+- face:
+  - 122211
+  - 1
+- print:
+  - 優花梨
+  - 我期待已久的週末單日露營！
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_022
+- face:
+  - 122211
+  - 1
+- print:
+  - 優花梨
+  - 蒼藍的天空、
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - 綠意盎然的大自然，
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - 以及清新的空氣！
+- wait:
+  - 75
+- print:
+  - 優花梨
+  - |2
+
+- face:
+  - 122211
+  - 2
+- nod:
+  - 122211
+- print:
+  - 優花梨
+  - 嗯
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 優花梨
+  - 嗯～
+- wait:
+  - 45
+- print:
+  - 優花梨
+  - 只是呼吸，
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 體內就宛如受到洗滌般地暢快！
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_023
+- face:
+  - 122211
+  - 1
+- print:
+  - 優花梨
+  - 呼啊，
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - 這裡果然很棒……
+- wait:
+  - 45
+- print:
+  - 優花梨
+  - |2-
+
+    這份遠離都市的喧囂，
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - 委身於大自然的解放感……
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_024
+- face:
+  - 122211
+  - 2
+- print:
+  - 優花梨
+  - 我把工作全部都處理完也是值得了。
+- wait:
+  - 65
+- print:
+  - 優花梨
+  - |2-
+
+    因為我現在正感受著
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 卸下身上的負擔後，前所未有的暢快感呀♪
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_025
+- face:
+  - 122211
+  - 1
+- print:
+  - 優花梨
+  - 你也每天都排滿了打工對吧？
+- wait:
+  - 50
+- print:
+  - 優花梨
+  - |2-
+
+    這週也
+- wait:
+  - 10
+- print:
+  - 優花梨
+  - 盡情在這大自然中療癒身心吧！
+- wait:
+  - 60
+- print:
+  - 優花梨
+  - |2
+
+- face:
+  - 122211
+  - 2
+- print:
+  - 優花梨
+  - 我可是也做了不少準備！
+- touch: *o0
+- bgm:
+  - stop
+  - 2.4
+- choice:
+  - 妳說準備是？
+  - 4
+- tag:
+  - 4
+- bgm:
+  - bgm_M595
+  - 0
+  - 0
+  - 1
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_026
+- face:
+  - 122211
+  - 2
+- nod:
+  - 122211
+- print:
+  - 優花梨
+  - 問得好！
+- wait:
+  - 50
+- print:
+  - 優花梨
+  - |2
+
+- face:
+  - 122211
+  - 1
+- print:
+  - 優花梨
+  - 為了能夠徹底享受這片大自然，
+- wait:
+  - 55
+- print:
+  - 優花梨
+  - |2-
+
+    所以我想改變一下今天單日露營的趣味。
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_027
+- face:
+  - 122211
+  - 1
+- print:
+  - 優花梨
+  - 你想想……
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - 這裡周圍都是森林不是嗎？
+- wait:
+  - 50
+- print:
+  - 優花梨
+  - |2-
+
+    所以
+- wait:
+  - 15
+- print:
+  - 優花梨
+  - 我想也會生長了很多新鮮的水果。
+- wait:
+  - 70
+- print:
+  - 優花梨
+  - |2
+
+- face:
+  - 122211
+  - 2
+- print:
+  - 優花梨
+  - 我想用那些水果
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 親手製作新鮮果汁試試看！
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_028
+- face:
+  - 122211
+  - 1
+- print:
+  - 優花梨
+  - 為此，我也把需要的用具都先買齊了。
+- wait:
+  - 55
+- print:
+  - 優花梨
+  - |2-
+
+    之後
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - 就剩下去採新鮮的水果當食材！
+- touch: *o0
+- choice:
+  - 好像很有趣。
+  - 5
+- tag:
+  - 5
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_029
+- face:
+  - 122211
+  - 2
+- emotion:
+  - note1_L
+  - 122211
+  - -95
+  - 485
+  - se_adv_emote_note_01
+- print:
+  - 優花梨
+  - 呵呵，
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 你可以好好期待喔。
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - |2-
+
+    我可是學會了很多果汁的食譜。
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_030
+- face:
+  - 122211
+  - 1
+- print:
+  - 優花梨
+  - 而且……
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - 如果把果汁加入能讓心情舒暢的水的原液，
+- wait:
+  - 85
+- print:
+  - 優花梨
+  - |2-
+
+    就讓像麥酒那樣享用了……
+- wait:
+  - 45
+- face:
+  - 122211
+  - 2
+- print:
+  - 優花梨
+  - 這正是一石二鳥不是嗎？
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_031
+- face:
+  - 122211
+  - 1
+- nod:
+  - 122211
+- print:
+  - 優花梨
+  - 當然，
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - 你的那份不會加能讓心情舒暢的水，放心吧。
+- wait:
+  - 70
+- print:
+  - 優花梨
+  - |2
+
+- face:
+  - 122211
+  - 8
+- print:
+  - 優花梨
+  - 因為這可是大人的口味呀♪
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_032
+- face:
+  - 122211
+  - 4
+- print:
+  - 優花梨
+  - 而且，
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - 我會好好克制自己的。
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - |2
+
+- face:
+  - 122211
+  - 1
+- print:
+  - 優花梨
+  - 只要控制好能讓心情舒暢的水的量，
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - |2-
+
+    我應該就不會像平時那樣醉倒了。
+- touch: *o0
+- choice:
+  - 真的嗎……？
+  - 6
+- tag:
+  - 6
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_033
+- face:
+  - 122211
+  - 3
+- nod:
+  - 122211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 優花梨
+  - 真是的～
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - 看你那眼神，你是不相信我對吧～？
+- wait:
+  - 60
+- print:
+  - 優花梨
+  - |2
+
+- face:
+  - 122211
+  - 4
+- print:
+  - 優花梨
+  - 不過……
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 你會這樣也是難免的……
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_034
+- face:
+  - 122211
+  - 1
+- print:
+  - 優花梨
+  - 不過沒問題！
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - 製作能讓心情舒暢的果汁，
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 只是額外的樂趣！
+- wait:
+  - 45
+- print:
+  - 優花梨
+  - |2
+
+- face:
+  - 122211
+  - 2
+- print:
+  - 優花梨
+  - 這次的計畫主要還是
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 要享用新鮮的果汁！
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_035
+- face:
+  - 122211
+  - 1
+- print:
+  - 優花梨
+  - 我不只學了食譜，
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 連水果的種類都研究了。
+- wait:
+  - 60
+- print:
+  - 優花梨
+  - |2
+
+- face:
+  - 122211
+  - 4
+- print:
+  - 優花梨
+  - 你想想……
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 這也是為了避免又去採到不能吃的東西……
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_036
+- face:
+  - 122211
+  - 1
+- nod:
+  - 122211
+- se:
+  - se_adv_step_leaves_move_01
+- print:
+  - 優花梨
+  - 就是這麼回事，
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - 所以交給我吧！
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - |2-
+
+    我們馬上去採水果吧！
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_037
+- face:
+  - 122211
+  - 2
+- print:
+  - 優花梨
+  - 我來請你喝好喝的果汁♪
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- window_visible:
+  - FALSE
+- fadeout:
+  - 122211
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_outdoors_day_01
+  - 1
+- background:
+  - 500170
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_forest_01
+- chara_full:
+  - 122211
+  - LC
+  - 1
+- se:
+  - se_adv_step_leaves_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 122211
+  - 45
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M352_02
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_038
+- face:
+  - 122211
+  - 1
+- emotion:
+  - notice1_L
+  - 122211
+  - -65
+  - 520
+  - se_adv_emote_common_01
+- print:
+  - 優花梨
+  - ──啊，
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - 這附近生長了很多莓果！
+- wait:
+  - 45
+- print:
+  - 優花梨
+  - |2-
+
+    沒想到能這麼快找到，這是個好兆頭呢！
+- touch: *o0
+- choice:
+  - 有很多種類耶……
+  - 7
+- tag:
+  - 7
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_039
+- face:
+  - 122211
+  - 2
+- print:
+  - 優花梨
+  - 呵呵，
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 你放心。
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 我有做好萬全的事前調查。
+- wait:
+  - 45
+- print:
+  - 優花梨
+  - |2-
+
+    只要看一眼就能分辨水果的種類了。
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_040
+- face:
+  - 122211
+  - 1
+- print:
+  - 優花梨
+  - 現在先找黑色表皮光滑的，
+- wait:
+  - 65
+- print:
+  - 優花梨
+  - 和紅色表皮呈顆粒狀的水果吧。
+- wait:
+  - 60
+- print:
+  - 優花梨
+  - |2-
+
+    那個分別是叫做黑醋栗和蔓越莓，
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - 是果汁的經典口味。
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_041
+- face:
+  - 122211
+  - 4
+- nod:
+  - 122211
+- print:
+  - 優花梨
+  - 啊，
+- wait:
+  - 15
+- print:
+  - 優花梨
+  - 可是如果找到了，先讓我看過一次喔。
+- wait:
+  - 60
+- print:
+  - 優花梨
+  - |2
+
+- face:
+  - 122211
+  - 1
+- print:
+  - 優花梨
+  - 因為就算顏色外型相似，
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - 也還是有不適合食用的東西。
+- touch: *o0
+- choice:
+  - 這顆水果如何？
+  - 8
+- tag:
+  - 8
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_042
+- face:
+  - 122211
+  - 6
+- emotion:
+  - question1_R
+  - 122211
+  - 130
+  - 470
+  - se_adv_emote_question_01
+- print:
+  - 優花梨
+  - 嗯？
+- wait:
+  - 30
+- face:
+  - 122211
+  - 1
+- print:
+  - 優花梨
+  - 啊，
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - 這個不是莓果，是柑橘類的水果。
+- wait:
+  - 60
+- print:
+  - 優花梨
+  - |2-
+
+    說是經典也的確是經典……
+- wait:
+  - 50
+- print:
+  - 優花梨
+  - 但這個似乎是酸味比較強的種類。
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_043
+- face:
+  - 122211
+  - 4
+- print:
+  - 優花梨
+  - 唔～～嗯……
+- wait:
+  - 40
+- face:
+  - 122211
+  - 1
+- print:
+  - 優花梨
+  - 不過
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - 那個也先採集一些起來好了。
+- wait:
+  - 45
+- print:
+  - 優花梨
+  - |2-
+
+    只要把它切成薄片放在果汁上面，
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - |2-
+
+    即使是太強的酸味一定也能成為不錯的點綴♪
+- touch: *o0
+- choice:
+  - 外觀看起來也不錯。
+  - 9
+- tag:
+  - 9
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_044
+- face:
+  - 122211
+  - 2
+- print:
+  - 優花梨
+  - 對吧對吧！？
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - |2-
+
+    像這樣下點小工夫
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - |2-
+
+    就是所謂的內行作法♪
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_045
+- face:
+  - 122211
+  - 2
+- print:
+  - 優花梨
+  - 好，
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - 照這步調來採集水果吧～！
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - |2-
+
+    要製作能讓心情舒暢的果……
+- wait:
+  - 35
+- nod:
+  - 122211
+- face:
+  - 122211
+  - 1
+- wait:
+  - 5
+- print:
+  - 優花梨
+  - 不對，
+- wait:
+  - 25
+- face:
+  - 122211
+  - 2
+- print:
+  - 優花梨
+  - 是要製作新鮮果汁囉～！
+- touch: *o0
+- bgm:
+  - stop
+  - 3.2
+- window_visible:
+  - false
+- fadeout:
+  - 122211
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 122211
+  - C
+  - 2
+- fadein:
+  - 122211
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M190
+  - 0
+  - 0
+  - 1
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_046
+- face:
+  - 122211
+  - 2
+- nod:
+  - 122211
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 優花梨
+  - 嗯！
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - 採集了不少水果呢！
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - |2
+
+- face:
+  - 122211
+  - 1
+- print:
+  - 優花梨
+  - 總之這些水果應該足夠製作兩人份的果汁了吧？
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_047
+- face:
+  - 122211
+  - 1
+- print:
+  - 優花梨
+  - ……話說，
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 就算直接吃應該也很好吃呢。
+- wait:
+  - 50
+- print:
+  - 優花梨
+  - |2-
+
+    像這個蔓越莓，
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - 感覺很適合當配麥酒的零嘴……
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_048
+- face:
+  - 122211
+  - 6
+- emotion:
+  - sweat2_R
+  - 122211
+  - 95
+  - 515
+  - se_adv_emote_sweat_02
+- print:
+  - 優花梨
+  - ……這些就等
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - 下次有機會再說吧。
+- wait:
+  - 60
+- print:
+  - 優花梨
+  - |2
+
+- face:
+  - 122211
+  - 1
+- print:
+  - 優花梨
+  - 目前先大約這些就可以了吧。
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - |2-
+
+    要是採太多也不好。
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - 嗯。
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_049
+- face:
+  - 122211
+  - 6
+- print:
+  - 優花梨
+  - 不過……
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - 採到的都是莓果和柑橘類的水果啊……
+- wait:
+  - 95
+- print:
+  - 優花梨
+  - |2
+
+- face:
+  - 122211
+  - 4
+- print:
+  - 優花梨
+  - 畢竟都是在同一個地方採到的，
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 當然都是類似的種類呢……
+- touch: *o0
+- choice:
+  - 要先回露營區嗎？
+  - 10
+- tag:
+  - 10
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_050
+- face:
+  - 122211
+  - 6
+- print:
+  - 優花梨
+  - 唔～嗯……
+- wait:
+  - 35
+- face:
+  - 122211
+  - 1
+- nod:
+  - 122211
+- print:
+  - 優花梨
+  - 不
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 優花梨
+  - ，
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - 繼續採集吧。
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - |2-
+
+    我想換個地方
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - 找找看其他種類的水果。
+- wait:
+  - 45
+- print:
+  - 優花梨
+  - |2-
+
+    反正都要做，
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - 不是會想嚐嚐各種口味比對味道嗎？
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_051
+- face:
+  - 122211
+  - 1
+- print:
+  - 優花梨
+  - 只有這樣可沒辦法說是
+- wait:
+  - 60
+- print:
+  - 優花梨
+  - 有享受過大自然。
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - |2-
+
+    要再採集更多不同種類的水果，
+- wait:
+  - 40
+- face:
+  - 122211
+  - 2
+- print:
+  - 優花梨
+  - 也要讓你好好體驗才行！
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_052
+- face:
+  - 122211
+  - 1
+- nod:
+  - 122211
+- print:
+  - 優花梨
+  - 接下來
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - 去高一點的地方看看吧！
+- wait:
+  - 55
+- print:
+  - 優花梨
+  - |2-
+
+    稍微遠一點的地方，
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - 好像有蘋果和水蜜桃樹。
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_053
+- face:
+  - 122211
+  - 2
+- print:
+  - 優花梨
+  - 我們要採遍各種大自然的恩惠，
+- wait:
+  - 60
+- print:
+  - 優花梨
+  - |2
+
+- bgm:
+  - stop
+  - 5.5
+  - 1
+- print:
+  - 優花梨
+  - 然後一起品嚐色彩繽紛的新鮮果汁吧♪
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 122211
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_forest_01
+  - 1
+- background:
+  - 501590
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_outdoors_day_01
+- chara_full:
+  - 122211
+  - C
+  - 2
+- fadein:
+  - 122211
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M180_Ver2
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_054
+- face:
+  - 122211
+  - 2
+- nod:
+  - 122211
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 優花梨
+  - ──呼，
+- wait:
+  - 25
+- face:
+  - 122211
+  - 1
+- print:
+  - 優花梨
+  - 好！
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - 有這麼多種類就完美了呢♪
+- wait:
+  - 50
+- print:
+  - 優花梨
+  - |2-
+
+    我們採到這麼多種類，甚至都能立刻開水果店了！
+- touch: *o0
+- choice:
+  - 有香甜濃郁的味道。
+  - 11
+- tag:
+  - 11
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_055
+- face:
+  - 122211
+  - 2
+- emotion:
+  - note1_L
+  - 122211
+  - -95
+  - 485
+  - se_adv_emote_note_01
+- print:
+  - 優花梨
+  - 呵呵，
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - 對啊。
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 這就是新鮮的證據。
+- wait:
+  - 55
+- print:
+  - 優花梨
+  - |2-
+
+    只是聞到水果香，
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 就有種心情舒暢的感覺……
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_056
+- face:
+  - 122211
+  - 6
+- print:
+  - 優花梨
+  - 話、
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - 話說……
+- wait:
+  - 45
+- face:
+  - 122211
+  - 4
+- print:
+  - 優花梨
+  - 我仔細再看了一下，
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - 我們採來的種類都是
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - |2-
+
+    甜度和滋味很濃郁，和能讓心情舒暢的水的原液很合的水果……
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_057
+- face:
+  - 122211
+  - 6
+- print:
+  - 優花梨
+  - 我在採集時並沒有特別去注意這部分……
+- wait:
+  - 75
+- print:
+  - 優花梨
+  - |2
+
+- face:
+  - 122211
+  - 4
+- print:
+  - 優花梨
+  - 該不會是想喝麥酒的本能，
+- wait:
+  - 50
+- print:
+  - 優花梨
+  - 讓我下意識這麼做的……？　
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_058
+- face:
+  - 122211
+  - 4
+- print:
+  - 優花梨
+  - 而且，
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - 難得採了那麼多水果。
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - 優花梨
+  - 我們得盡情享用
+- wait:
+  - 15
+- print:
+  - 優花梨
+  - 水果的美味滋味才行呢。
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 優花梨
+  - 只要控制好能讓心情舒暢的水的量，
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 就會不喝到爛醉……
+- wait:
+  - 35
+- face:
+  - 122211
+  - 1
+- print:
+  - 優花梨
+  - 不，
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - 是一定沒問題的！　
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - TRUE
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_059
+- face:
+  - 122211
+  - 2
+- print:
+  - 優花梨
+  - 那、
+- wait:
+  - 25
+- nod:
+  - 122211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 優花梨
+  - 那麼！
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - 來開始吧！
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - |2-
+
+    使用新鮮水果做出的能讓心情舒暢的果汁……
+- wait:
+  - 65
+- print:
+  - 優花梨
+  - |2
+
+- face:
+  - 122211
+  - 6
+- print:
+  - 優花梨
+  - 更正，
+- wait:
+  - 30
+- face:
+  - 122211
+  - 2
+- print:
+  - 優花梨
+  - 是來享用新鮮果汁吧！
+- touch: *o0
+- bgm:
+  - stop
+  - 2.6
+- window_visible:
+  - false
+- fadeout:
+  - 122211
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 30
+- black_in: *o0
+- chara_full:
+  - 122211
+  - C
+  - 2
+- fadein:
+  - 122211
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M422_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_060
+- face:
+  - 122211
+  - 2
+- print:
+  - 優花梨
+  - 呼、呼、呼……
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - |2-
+
+    ……
+- wait:
+  - 30
+- nod:
+  - 122211
+- print:
+  - 優花梨
+  - 嗯，
+- wait:
+  - 10
+- print:
+  - 優花梨
+  - 大概就這樣吧……
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_061
+- face:
+  - 122211
+  - 1
+- print:
+  - 優花梨
+  - 之後隔一小段時間……
+- wait:
+  - 45
+- print:
+  - 優花梨
+  - |2-
+
+    等到果汁出現層次後，
+- wait:
+  - 75
+- face:
+  - 122211
+  - 2
+- se:
+  - se_adv_drink_01
+- print:
+  - 優花梨
+  - 再倒入玻璃杯後──
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_062
+- face:
+  - 122211
+  - 2
+- emotion:
+  - twinkle1_R
+  - 122211
+  - -100
+  - 480
+  - se_adv_emote_twinkle_01
+- print:
+  - 優花梨
+  - 鏘鏘──！
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - |2-
+
+    這是雙色的新鮮果汁喔♪
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_063
+- face:
+  - 122211
+  - 1
+- print:
+  - 優花梨
+  - 最後再把切片的檸檬裝飾在杯口……
+- wait:
+  - 105
+- nod:
+  - 122211
+- print:
+  - 優花梨
+  - 好。
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - |2
+
+- face:
+  - 122211
+  - 2
+- print:
+  - 優花梨
+  - 嗯～
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - 真是美麗呢！
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_064
+- face:
+  - 122211
+  - 2
+- print:
+  - 優花梨
+  - 就像彩繪玻璃一樣閃閃發亮的……
+- wait:
+  - 45
+- print:
+  - 優花梨
+  - |2-
+
+    這完成度就算說是藝術品也不為過！
+- wait:
+  - 45
+- print:
+  - 優花梨
+  - 欸，
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - 你不這麼覺得嗎？
+- touch: *o0
+- choice:
+  - 好帥氣……！
+  - 12
+- tag:
+  - 12
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_065
+- face:
+  - 122211
+  - 5
+- emotion:
+  - exclamation1_R
+  - 122211
+  - 30
+  - 605
+  - se_adv_emote_common_01
+- print:
+  - 優花梨
+  - 好、
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - 好帥氣……？
+- wait:
+  - 55
+- print:
+  - 優花梨
+  - |2
+
+- face:
+  - 122211
+  - 1
+- print:
+  - 優花梨
+  - 你難道是在說
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - 我調果汁的樣子？
+- wait:
+  - 65
+- print:
+  - 優花梨
+  - 有這麼有模有樣嗎？
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_066
+- face:
+  - 122211
+  - 2
+- print:
+  - 優花梨
+  - 啊哈哈，
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - 真是的，
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - 你就算誇獎我也沒好處喔。
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - |2
+
+- face:
+  - 122211
+  - 1
+- print:
+  - 優花梨
+  - 不過～
+- wait:
+  - 20
+- face:
+  - 122211
+  - 8
+- print:
+  - 優花梨
+  - 是能喝到好喝的果汁啦。
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_067
+- face:
+  - 122211
+  - 2
+- print:
+  - 優花梨
+  - 嘿、
+- wait:
+  - 15
+- print:
+  - 優花梨
+  - 嘿嘿……
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - |2-
+
+    他說我很帥氣……！　
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_068
+- face:
+  - 122211
+  - 2
+- print:
+  - 優花梨
+  - 其實
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 我平時在家就會調酒呢。
+- wait:
+  - 55
+- print:
+  - 優花梨
+  - |2
+
+- face:
+  - 122211
+  - 1
+- print:
+  - 優花梨
+  - 雖然沒想過會在他面前表現給他看，
+- wait:
+  - 50
+- print:
+  - 優花梨
+  - |2-
+
+    幸好我不是只有喝，
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 也有學怎麼調酒♪　
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_069
+- face:
+  - 122211
+  - 2
+- print:
+  - 優花梨
+  - 既然有讓他看到我這麼多優點了，
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - |2-
+
+    應該足夠當成我平時露營暢飲時給他添得麻煩的謝禮……
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - TRUE
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_070
+- face:
+  - 122211
+  - 2
+- emotion:
+  - note1_L
+  - 122211
+  - -95
+  - 485
+  - se_adv_emote_note_01
+- print:
+  - 優花梨
+  - 呵呵！
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - 我也馬上幫你調你的份！
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - |2-
+
+    交給姐姐吧！
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_071
+- face:
+  - 122211
+  - 2
+- print:
+  - 優花梨
+  - ～～♪
+- wait:
+  - 180
+- print:
+  - 優花梨
+  - |2
+
+- se:
+  - se_adv_drink_01
+- bgm:
+  - stop
+  - 5.0
+  - 1
+- print:
+  - 優花梨
+  - 先倒入果汁～～～～
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - 好♪
+- touch: *o0
+- choice:
+  - 那個……不是能讓心情舒暢的水嗎……？
+  - 13
+- tag:
+  - 13
+- bgm:
+  - bgm_M274
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_072
+- face:
+  - 122211
+  - 6
+- emotion:
+  - surprise1_L
+  - 122211
+  - 165
+  - 515
+  - se_adv_emote_common_01
+- print:
+  - 優花梨
+  - ……咦？
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - 討厭，
+- wait:
+  - 15
+- print:
+  - 優花梨
+  - 糟糕了！
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - |2-
+
+    我還以為是水蜜桃果汁，
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - 不小心調成大人的口味了……
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_073
+- face:
+  - 122211
+  - 4
+- print:
+  - 優花梨
+  - 啊哈哈……
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 這杯由我負責喝。
+- wait:
+  - 45
+- print:
+  - 優花梨
+  - |2
+
+- face:
+  - 122211
+  - 6
+- print:
+  - 優花梨
+  - 你等一下，
+- wait:
+  - 15
+- print:
+  - 優花梨
+  - 我來重做你的份……！
+- touch: *o0
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_074
+- face:
+  - 122211
+  - 4
+- print:
+  - 優花梨
+  - 唔嗯？
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 我剛才
+- wait:
+  - 5
+- print:
+  - 優花梨
+  - 到底倒進了多少的原液啊……？
+- wait:
+  - 50
+- print:
+  - 優花梨
+  - |2
+
+- face:
+  - 122211
+  - 6
+- print:
+  - 優花梨
+  - 就、
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - 就算稍微濃一點，
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 只喝一杯應該沒問題吧……
+- touch: *o0
+- bgm:
+  - stop
+  - 3
+- window_visible:
+  - FALSE
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- fadeout:
+  - 122211
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 30
+- black_in: *o0
+- chara_full:
+  - 122211
+  - C
+  - 2
+- fadein:
+  - 122211
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M173_Ver2
+  - 0
+  - 0
+  - 1
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_075
+- face:
+  - 122211
+  - 2
+- nod:
+  - 122211
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 優花梨
+  - ──來，
+- wait:
+  - 10
+- print:
+  - 優花梨
+  - 讓你久等了♪
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - |2
+
+- face:
+  - 122211
+  - 1
+- print:
+  - 優花梨
+  - 這是水蜜桃和柳橙的綜合果汁。
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_076
+- face:
+  - 122211
+  - 1
+- print:
+  - 優花梨
+  - 來，
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - 飲料也都調好了……
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - |2-
+
+    差不多該來我們期待已久的乾杯了！
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_077
+- face:
+  - 122211
+  - 1
+- nod:
+  - 122211
+- print:
+  - 優花梨
+  - 啊，
+- wait:
+  - 20
+- print:
+  - 優花梨
+  - 在那之前……
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - |2
+
+- face:
+  - 122211
+  - 2
+- print:
+  - 優花梨
+  - '{0}，'
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - 今天謝謝你。
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_078
+- face:
+  - 122211
+  - 1
+- print:
+  - 優花梨
+  - 那麼大量的水果，
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - |2-
+
+    如果只有我一個人搬，等搬完天都黑了。
+- wait:
+  - 65
+- print:
+  - 優花梨
+  - 真的幫大忙了。
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_079
+- face:
+  - 122211
+  - 1
+- eye_open:
+  - False
+- print:
+  - 優花梨
+  - 不對……
+- wait:
+  - 35
+- eye_open:
+  - True
+- print:
+  - 優花梨
+  - 不是只有今天，
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - 謝謝你每週都陪我。
+- wait:
+  - 50
+- print:
+  - 優花梨
+  - |2-
+
+    多虧有和你來單日露營，
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 我工作才有了規律的步調。
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_080
+- face:
+  - 122211
+  - 2
+- print:
+  - 優花梨
+  - 所以，
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 所以這杯新鮮果汁是感謝你平時照顧的謝禮♪
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_081
+- face:
+  - 122211
+  - 2
+- emotion:
+  - note1_L
+  - 122211
+  - -95
+  - 485
+  - se_adv_emote_note_01
+- print:
+  - 優花梨
+  - 呵呵，
+- wait:
+  - 40
+- print:
+  - 優花梨
+  - 我想說要在變得微醺之前先告訴你。
+- wait:
+  - 55
+- print:
+  - 優花梨
+  - |2
+
+- face:
+  - 122211
+  - 1
+- print:
+  - 優花梨
+  - 重要的話，
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - 要在清醒時先說出來才行。
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_082
+- face:
+  - 122211
+  - 2
+- nod:
+  - 122211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 優花梨
+  - 那麼！
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - |2-
+
+    為努力工作的我們兩人
+- wait:
+  - 65
+- print:
+  - 優花梨
+  - 乾杯～！
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- window_visible:
+  - false
+- se:
+  - se_adv_glass_cheers_01
+- fadeout:
+  - 122211
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 30
+- black_in: *o0
+- chara_full:
+  - 122211
+  - C
+  - 2
+- fadein:
+  - 122211
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M596
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_083
+- face:
+  - 122211
+  - 2
+- emotion:
+  - twinkle1_R
+  - 122211
+  - -100
+  - 480
+  - se_adv_emote_twinkle_01
+- print:
+  - 優花梨
+  - 嘿嘿，
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - 嘿嘿嘿嘿……♪
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_084
+- face:
+  - 122211
+  - 2
+- print:
+  - 優花梨
+  - 啊哈～
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 果然好像有點加太多了～♪
+- wait:
+  - 65
+- print:
+  - 優花梨
+  - |2-
+
+    能讓心情舒暢的水～
+- wait:
+  - 115
+- print:
+  - 優花梨
+  - 好喝～♪
+- touch: *o0
+- choice:
+  - 原液加太多了……？
+  - 14
+- tag:
+  - 14
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_085
+- face:
+  - 122211
+  - 7
+- nod:
+  - 122211
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 優花梨
+  - 不過沒關係！
+- wait:
+  - 25
+- print:
+  - 優花梨
+  - 能讓心情舒暢所以沒關係！
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - |2-
+
+    沒有問題～！
+- wait:
+  - 65
+- face:
+  - 122211
+  - 2
+- print:
+  - 優花梨
+  - 啊呀哈哈～♪
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_086
+- face:
+  - 122211
+  - 7
+- print:
+  - 優花梨
+  - 因為你想嘛，
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 這是從大自然採集水果製作的飲料呀！
+- wait:
+  - 80
+- print:
+  - 優花梨
+  - |2-
+
+    如果不喝才更沒禮貌不是嗎～？
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_087
+- face:
+  - 122211
+  - 2
+- nod:
+  - 122211
+- se:
+  - se_adv_drink_02
+- print:
+  - 優花梨
+  - 嗯嗝、
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - 嗯呼、
+- wait:
+  - 45
+- print:
+  - 優花梨
+  - 好喝～♪
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_088
+- face:
+  - 122211
+  - 2
+- print:
+  - 優花梨
+  - 水果也還有很多～♪
+- wait:
+  - 75
+- print:
+  - 優花梨
+  - |2-
+
+    大自然的恩惠
+- wait:
+  - 35
+- print:
+  - 優花梨
+  - 有這～麼多喔～♪
+- wait:
+  - 75
+- print:
+  - 優花梨
+  - |2-
+
+    還有
+- wait:
+  - 30
+- print:
+  - 優花梨
+  - 可以做100杯果汁的量喔～♪
+- touch: *o0
+- focus:
+  - 122211
+- bust:
+  - 122211
+  - 0
+- vo:
+  - vo_adv_1222001_089
+- face:
+  - 122211
+  - 2
+- pop:
+  - 122211
+- se:
+  - se_adv_rabbit_jump_01
+- print:
+  - 優花梨
+  - 感謝大自然──！
+- wait:
+  - 85
+- print:
+  - 優花梨
+  - |2-
+
+    還有感謝你──！
+- wait:
+  - 70
+- print:
+  - 優花梨
+  - 和感謝財團的成員們──！
+- wait:
+  - 75
+- print:
+  - 優花梨
+  - |2-
+
+    啊哈、
+- wait:
+  - 10
+- print:
+  - 優花梨
+  - 啊哈哈哈──！！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 122211
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 之後，{0}揹著不知為何在到處感謝的優花梨，
+- wait:
+  - 30
+- print:
+  - 旁白
+  - |2-
+
+    回去了蘭德索爾。
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - FALSE
+- se_pause:
+  - amb_adv_outdoors_day_01
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

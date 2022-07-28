@@ -1,0 +1,4531 @@
+- title:
+  - 宮子 第9話
+- outline:
+  - 因為幽靈能力而被盯上的宮子，被黑市旅行商人抓走了。一開始沒有察覺到自己上了圈套的宮子，由於前來救她的{0}受到傷害因而怒氣爆發。
+- background:
+  - 500030
+- se:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 幽靈少女千鈞一髮！？
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 某天，在蘭德索爾。
+- wait:
+  - 15
+- print:
+  - 旁白
+  - |2-
+
+    就在{0}前往打工場所之際，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - |2-
+
+    宮子像平常一般前來吵著要布丁。
+- wait:
+  - 30
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 100711
+  - LC
+  - 6
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 100711
+  - 45
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M203
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_000
+- face:
+  - 100711
+  - 6
+- emotion:
+  - notice1_L
+  - 100711
+  - -60
+  - 540
+  - se_adv_emote_common_01
+- print:
+  - 宮子
+  - |-
+    啊──！
+    {0}，
+- wait:
+  - 15
+- print:
+  - 宮子
+  - 終於找到你了～！
+- touch: *o0
+- choice:
+  - 妳好。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_001
+- face:
+  - 100711
+  - 3
+- pop:
+  - 100711
+- print:
+  - 宮子
+  - 悠悠哉哉地打什麼招呼啦！
+- wait:
+  - 50
+- print:
+  - 宮子
+  - |2-
+
+    來，
+- wait:
+  - 20
+- print:
+  - 宮子
+  - 見到宮子就該把布丁交出來！
+- wait:
+  - 60
+- print:
+  - 宮子
+  - |2-
+
+    布～丁～！
+- wait:
+  - 40
+- print:
+  - 宮子
+  - 給～我～布～丁～～！
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_002
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - 咦？
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 你說現在正要去打工，
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 沒有布丁也沒有空？
+- wait:
+  - 75
+- print:
+  - 宮子
+  - |2
+
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - 唔～～
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 你怎麼老是這樣！
+- wait:
+  - 75
+- print:
+  - 宮子
+  - |2-
+
+    真是個派不上用場的傢伙！
+- wait:
+  - 50
+- print:
+  - 宮子
+  - 哼──！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- fadeout:
+  - 100711
+  - 30
+- chara_full:
+  - 4911
+  - C
+  - 2
+- chara_full:
+  - 1411
+  - R
+  - 1
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - C
+  - 45
+- change:
+  - RC
+  - R
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M530
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 4911
+- bust:
+  - 4911
+  - 0
+- vo:
+  - vo_adv_1007009_003
+- face:
+  - 4911
+  - 2
+- print:
+  - ？？？
+  - 看來妳很困擾啊，
+- wait:
+  - 35
+- print:
+  - ？？？
+  - 小姑娘？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100711
+  - C
+  - 6
+- fadein:
+  - 100711
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_004
+- face:
+  - 100711
+  - 6
+- emotion:
+  - question1_R
+  - 100711
+  - 120
+  - 505
+  - se_adv_emote_question_01
+- print:
+  - 宮子
+  - 嗯～？
+- wait:
+  - 30
+- print:
+  - 宮子
+  - |2-
+
+    誰啊？
+- wait:
+  - 30
+- print:
+  - 宮子
+  - |2
+
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - 人家不認識你們！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100711
+  - 30
+- chara_full:
+  - 100711
+  - LC
+  - 3
+- chara_full:
+  - 4911
+  - RC
+  - 2
+- fadein_all:
+  - 45
+- window_visible:
+  - TRUE
+- focus:
+  - 4911
+- bust:
+  - 4911
+  - 0
+- vo:
+  - vo_adv_1007009_005
+- face:
+  - 4911
+  - 2
+- nod:
+  - 4911
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 旅行商人１
+  - 哈哈，
+- wait:
+  - 30
+- print:
+  - 旅行商人１
+  - 請不必那麼緊張。
+- wait:
+  - 45
+- print:
+  - 旅行商人１
+  - |2
+
+- face:
+  - 4911
+  - 1
+- print:
+  - 旅行商人１
+  - 我們不是什麼可疑人物，
+- wait:
+  - 40
+- print:
+  - 旅行商人１
+  - 只是隨處可見的旅行商人罷了。
+- wait:
+  - 50
+- print:
+  - 旅行商人１
+  - |2
+
+- face:
+  - 4911
+  - 2
+- print:
+  - 旅行商人１
+  - 一邊買賣東西
+- wait:
+  - 30
+- print:
+  - 旅行商人１
+  - 一邊在大陸各地旅行。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 4911
+  - 30
+- chara_full:
+  - 1411
+  - RC
+  - 1
+- fadein:
+  - 1411
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1007009_006
+- face:
+  - 1411
+  - 1
+- print:
+  - 旅行商人２
+  - 當然
+- wait:
+  - 20
+- print:
+  - 旅行商人２
+  - 我們也有做食物方面的生意。
+- wait:
+  - 45
+- print:
+  - 旅行商人２
+  - |2-
+
+    然後呢……
+- wait:
+  - 20
+- face:
+  - 1411
+  - 2
+- print:
+  - 旅行商人２
+  - 剛巧進了有點珍貴的布丁。
+- wait:
+  - 55
+- print:
+  - 旅行商人２
+  - |2-
+
+    聽到小姑娘所說的話，
+- wait:
+  - 30
+- print:
+  - 旅行商人２
+  - 於是就這樣過來兜售了。
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_007
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - 宮子
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 拒絕推銷。
+- wait:
+  - 40
+- print:
+  - 宮子
+  - 人家不需要。
+- wait:
+  - 45
+- print:
+  - 宮子
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - 宮子
+  - 真是的……
+- wait:
+  - 30
+- eye_open:
+  - True
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - 呃，
+- wait:
+  - 25
+- print:
+  - 宮子
+  - 先等一下！
+- wait:
+  - 35
+- print:
+  - 宮子
+  - |2-
+
+    你剛剛說
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 布丁是嗎？
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1007009_008
+- face:
+  - 1411
+  - 2
+- nod:
+  - 1411
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 旅行商人２
+  - 是啊。
+- wait:
+  - 20
+- print:
+  - 旅行商人２
+  - |2
+
+- face:
+  - 1411
+  - 1
+- print:
+  - 旅行商人２
+  - 是以東國傳來的材料和製作方法製成的布丁。
+- wait:
+  - 75
+- print:
+  - 旅行商人２
+  - |2-
+
+    它的名字就叫──
+- wait:
+  - 40
+- face:
+  - 1411
+  - 2
+- print:
+  - 旅行商人２
+  - 極樂布丁！
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_009
+- face:
+  - 100711
+  - 6
+- emotion:
+  - surprise1_L
+  - 100711
+  - 150
+  - 545
+  - se_adv_emote_common_01
+- print:
+  - 宮子
+  - 極樂布丁！？
+- wait:
+  - 50
+- print:
+  - 宮子
+  - |2-
+
+    沒聽說過的名字……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1411
+  - 30
+- chara_full:
+  - 4911
+  - RC
+  - 1
+- fadein:
+  - 4911
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 4911
+- bust:
+  - 4911
+  - 0
+- vo:
+  - vo_adv_1007009_010
+- face:
+  - 4911
+  - 1
+- print:
+  - 旅行商人１
+  - 因為這附近沒有會做那種東西的店家啊。
+- wait:
+  - 60
+- face:
+  - 4911
+  - 2
+- print:
+  - 旅行商人１
+  - 我們試吃時也嚇了一跳。
+- wait:
+  - 50
+- print:
+  - 旅行商人１
+  - |2-
+
+    那濃厚的綠色……
+- wait:
+  - 45
+- eye_open:
+  - False
+- print:
+  - 旅行商人１
+  - 可說是入口即化的甘甜和苦味……♪
+- wait:
+  - 60
+- print:
+  - 旅行商人１
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 旅行商人１
+  - 正如其名，
+- wait:
+  - 25
+- print:
+  - 旅行商人１
+  - 吃上一口就會感到極樂般的享受。
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_011
+- face:
+  - 100711
+  - 2
+- print:
+  - 宮子
+  - 極樂享受……！
+- wait:
+  - 70
+- print:
+  - 宮子
+  - |2
+
+- emotion:
+  - twinkle1_R
+  - 100711
+  - -115
+  - 505
+  - se_adv_emote_twinkle_01
+- print:
+  - 宮子
+  - 嗯～
+- wait:
+  - 35
+- print:
+  - 宮子
+  - 感覺非常美味～♪
+- wait:
+  - 45
+- print:
+  - 宮子
+  - |2
+
+- face:
+  - 100711
+  - 1
+- print:
+  - 宮子
+  - 宮子也想吃！
+- wait:
+  - 40
+- print:
+  - 宮子
+  - 現在立即交出來～～！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 4911
+  - LC
+  - 1
+- chara_full:
+  - 1411
+  - RC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - stop
+  - 5
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1007009_012
+- face:
+  - 1411
+  - 2
+- print:
+  - 旅行商人２
+  - 嘿嘿，
+- wait:
+  - 30
+- print:
+  - 旅行商人２
+  - 這樣就對了。
+- wait:
+  - 50
+- print:
+  - 旅行商人２
+  - |2
+
+- nod:
+  - 1411
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 旅行商人２
+  - ……偷瞄。
+- touch: *o0
+- bgm:
+  - bgm_M288
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 4911
+- bust:
+  - 4911
+  - 0
+- vo:
+  - vo_adv_1007009_013
+- face:
+  - 4911
+  - 2
+- print:
+  - 旅行商人１
+  - 呵呵……
+- wait:
+  - 40
+- print:
+  - 旅行商人１
+  - |2-
+
+    小姑娘，
+- wait:
+  - 30
+- print:
+  - 旅行商人１
+  - 布丁在我們的據點。
+- wait:
+  - 40
+- print:
+  - 旅行商人１
+  - 請跟我們來吧。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - C
+  - LC
+  - 30
+- change:
+  - R
+  - RC
+  - 30
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100711
+  - C
+  - 1
+- fadein:
+  - 100711
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_014
+- face:
+  - 100711
+  - 1
+- print:
+  - 宮子
+  - 人家知道了！
+- wait:
+  - 45
+- print:
+  - 宮子
+  - |2
+
+- face:
+  - 100711
+  - 2
+- emotion:
+  - note1_L
+  - 100711
+  - -70
+  - 520
+  - se_adv_emote_note_01
+- print:
+  - 宮子
+  - 布～丁、
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 布～丁、
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 極樂布～丁～♪
+- touch: *o0
+- face:
+  - 100711
+  - 1
+- choice:
+  - 不可以跟陌生人走哦。
+  - 2
+- choice:
+  - 我也想吃。
+  - 3
+- tag:
+  - 2
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_015
+- face:
+  - 100711
+  - 1
+- print:
+  - 宮子
+  - 雖然不認識他們，
+- wait:
+  - 35
+- print:
+  - 宮子
+  - 可是人家知道他們會給我布丁！
+- wait:
+  - 40
+- print:
+  - 宮子
+  - |2
+
+- face:
+  - 100711
+  - 2
+- print:
+  - 宮子
+  - 這樣就夠了！
+- wait:
+  - 50
+- print:
+  - 宮子
+  - |2
+
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - 不行的是
+- wait:
+  - 25
+- print:
+  - 宮子
+  - 不給人家布丁的你才對喲！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_016
+- face:
+  - 100711
+  - 3
+- nod:
+  - 100711
+- print:
+  - 宮子
+  - 唔～？
+- wait:
+  - 30
+- print:
+  - 宮子
+  - |2-
+
+    你說要去打工所以沒辦法。
+- wait:
+  - 45
+- print:
+  - 宮子
+  - |2-
+
+    翹班不是好事哦！
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_017
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - …………
+- wait:
+  - 25
+- print:
+  - 宮子
+  - |2-
+
+    人家可不是因為宮子的份量會變少才那麼說的。
+- wait:
+  - 70
+- print:
+  - 宮子
+  - |2-
+
+    是真的啦。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 100711
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 100711
+  - L
+  - 1
+- chara_full:
+  - 4911
+  - RC
+  - 2
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - TRUE
+- focus:
+  - 4911
+- bust:
+  - 4911
+  - 0
+- vo:
+  - vo_adv_1007009_018
+- face:
+  - 4911
+  - 2
+- nod:
+  - 4911
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 旅行商人１
+  - 哎，
+- wait:
+  - 15
+- print:
+  - 旅行商人１
+  - 反正就是這麼回事了。
+- wait:
+  - 30
+- print:
+  - 旅行商人１
+  - |2
+
+- face:
+  - 4911
+  - 1
+- print:
+  - 旅行商人１
+  - 放棄吧，
+- wait:
+  - 15
+- print:
+  - 旅行商人１
+  - 小哥。
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_019
+- face:
+  - 100711
+  - 1
+- print:
+  - 宮子
+  - 不必擔心喲！
+- wait:
+  - 45
+- print:
+  - 宮子
+  - |2
+
+- face:
+  - 100711
+  - 2
+- print:
+  - 宮子
+  - 宮子一定會
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 連你的份也一起吃的～♪
+- touch: *o0
+- face:
+  - 100711
+  - 1
+- choice:
+  - 可是……！
+  - 5
+- tag:
+  - 5
+- window_visible:
+  - false
+- fadeout:
+  - 4911
+  - 30
+- chara_full:
+  - 1411
+  - RC
+  - 3
+- fadein:
+  - 1411
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1007009_020
+- face:
+  - 1411
+  - 3
+- print:
+  - 旅行商人２
+  - 適可而止吧。
+- wait:
+  - 30
+- print:
+  - 旅行商人２
+  - |2-
+
+    糾纏不清的傢伙可是會惹人厭的啊？
+- wait:
+  - 40
+- print:
+  - 旅行商人２
+  - |2
+
+- face:
+  - 1411
+  - 2
+- print:
+  - 旅行商人２
+  - 走吧走吧，
+- wait:
+  - 15
+- print:
+  - 旅行商人２
+  - 小姑娘。
+- wait:
+  - 25
+- print:
+  - 旅行商人２
+  - 布丁在等著妳哦。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - R
+  - RC
+  - 30
+- fadeout:
+  - 1411
+  - 30
+- change:
+  - C
+  - LC
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_021
+- face:
+  - 100711
+  - 2
+- nod:
+  - 100711
+- print:
+  - 宮子
+  - 好喲！
+- wait:
+  - 30
+- print:
+  - 宮子
+  - |2-
+
+    {0}掰掰喲～♪
+- touch: *o0
+- window_visible:
+  - false
+- change:
+  - RC
+  - C
+  - 30
+- bgm:
+  - stop
+  - 2
+  - 1
+- fadeout:
+  - 100711
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- background:
+  - 500570
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_prison_01
+- chara_full:
+  - 1411
+  - C
+  - 1
+- fadein:
+  - 1411
+  - 30
+- vo_effect:
+  - 3
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M326
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1007009_022
+- face:
+  - 1411
+  - 1
+- print:
+  - 旅行商人２
+  - 我們到啦，
+- wait:
+  - 15
+- print:
+  - 旅行商人２
+  - 小姑娘！
+- wait:
+  - 25
+- print:
+  - 旅行商人２
+  - |2
+
+- face:
+  - 1411
+  - 2
+- print:
+  - 旅行商人２
+  - 來，
+- wait:
+  - 15
+- print:
+  - 旅行商人２
+  - 快快請進！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1411
+  - 30
+- chara_full:
+  - 100711
+  - L
+  - 1
+- chara_full:
+  - 4911
+  - RC
+  - 1
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - TRUE
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_023
+- face:
+  - 100711
+  - 1
+- print:
+  - 宮子
+  - 那人家進來了～♪
+- wait:
+  - 75
+- print:
+  - 宮子
+  - |2
+
+- nod:
+  - 100711
+- face:
+  - 100711
+  - 4
+- print:
+  - 宮子
+  - 嗯～～
+- wait:
+  - 35
+- print:
+  - 宮子
+  - 好奇怪的地方喲。
+- wait:
+  - 40
+- print:
+  - 宮子
+  - 這種地方有布丁嗎？
+- wait:
+  - 60
+- print:
+  - 宮子
+  - |2
+
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - 要是敢騙人家，
+- wait:
+  - 15
+- print:
+  - 宮子
+  - 人家可不會放過你們喲！
+- touch: *o0
+- focus:
+  - 4911
+- bust:
+  - 4911
+  - 0
+- vo:
+  - vo_adv_1007009_024
+- face:
+  - 4911
+  - 2
+- print:
+  - 旅行商人１
+  - 我可沒說謊。
+- wait:
+  - 45
+- print:
+  - 旅行商人１
+  - |2-
+
+    妳看一下
+- wait:
+  - 15
+- print:
+  - 旅行商人１
+  - 對面的牢……
+- wait:
+  - 35
+- face:
+  - 4911
+  - 6
+- print:
+  - 旅行商人１
+  - 不對，箱子裡頭如何？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100711
+  - C
+  - 6
+- fadein:
+  - 100711
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_025
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - 對面那個又大又奇怪的箱子裡頭嗎？
+- wait:
+  - 110
+- print:
+  - 宮子
+  - |2
+
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - 盯……
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_026
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - 裡頭擺了好多的某種東西。
+- wait:
+  - 65
+- print:
+  - 宮子
+  - |2-
+
+    那形狀……
+- wait:
+  - 45
+- face:
+  - 100711
+  - 1
+- print:
+  - 宮子
+  - 是布丁盒子！
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 那些全都是布丁嗎？
+- wait:
+  - 60
+- print:
+  - 宮子
+  - |2-
+
+    堆得像商店一樣多！
+- wait:
+  - 35
+- face:
+  - 100711
+  - 2
+- print:
+  - 宮子
+  - 好興奮喲～♪
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_ghost_01
+- bgm:
+  - stop
+  - 3
+- fadeout:
+  - 100711
+  - 30
+- chara_full:
+  - 4911
+  - LC
+  - 1
+- chara_full:
+  - 1411
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1007009_027
+- face:
+  - 1411
+  - 6
+- nod:
+  - 1411
+- se:
+  - se_adv_step_concrete_move_01
+- print:
+  - 旅行商人２
+  - ……喂，
+- wait:
+  - 25
+- bgm:
+  - bgm_M357
+  - 0
+  - 0
+  - 1
+- print:
+  - 旅行商人２
+  - 她直接穿過鐵欄杆了。
+- wait:
+  - 40
+- print:
+  - 旅行商人２
+  - |2-
+
+    原來她真的是幽靈……
+- wait:
+  - 45
+- print:
+  - 旅行商人２
+  - |2
+
+- face:
+  - 1411
+  - 4
+- print:
+  - 旅行商人２
+  - 哎呀，
+- wait:
+  - 15
+- print:
+  - 旅行商人２
+  - 懷疑你真不好意思。
+- touch: *o0
+- focus:
+  - 4911
+- bust:
+  - 4911
+  - 0
+- vo:
+  - vo_adv_1007009_028
+- face:
+  - 4911
+  - 1
+- print:
+  - 旅行商人１
+  - 還好啦，
+- wait:
+  - 30
+- print:
+  - 旅行商人１
+  - 你會覺得是鬼話連篇我能理解。
+- wait:
+  - 45
+- print:
+  - 旅行商人１
+  - |2-
+
+    第一次看到那傢伙穿過牆壁時，
+- wait:
+  - 55
+- print:
+  - 旅行商人１
+  - |2
+
+- face:
+  - 4911
+  - 6
+- print:
+  - 旅行商人１
+  - 我可是嚇到腿都軟了。
+- touch: *o0
+- focus:
+  - 4911
+- bust:
+  - 4911
+  - 0
+- vo:
+  - vo_adv_1007009_029
+- face:
+  - 4911
+  - 2
+- print:
+  - 旅行商人１
+  - 不過
+- wait:
+  - 30
+- print:
+  - 旅行商人１
+  - 實際看過後你就懂了吧？
+- wait:
+  - 45
+- print:
+  - 旅行商人１
+  - |2-
+
+    只要抓住這傢伙，
+- wait:
+  - 25
+- print:
+  - 旅行商人１
+  - 就能當成不錯的「商品」。
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1007009_030
+- face:
+  - 1411
+  - 6
+- nod:
+  - 1411
+- print:
+  - 旅行商人２
+  - 確實如此。
+- wait:
+  - 30
+- print:
+  - 旅行商人２
+  - 要是擁有那種力量，
+- wait:
+  - 15
+- print:
+  - 旅行商人２
+  - 想做什麼壞事都沒問題。
+- wait:
+  - 30
+- print:
+  - 旅行商人２
+  - |2-
+
+    一旦變透明，
+- wait:
+  - 15
+- print:
+  - 旅行商人２
+  - 再怎麼森嚴的戒備和高明的保鑣也無用武之地。
+- wait:
+  - 80
+- print:
+  - 旅行商人２
+  - |2
+
+- face:
+  - 1411
+  - 1
+- print:
+  - 旅行商人２
+  - 雖然原本半信半疑，
+- wait:
+  - 30
+- print:
+  - 旅行商人２
+  - 同意你的提議果然是正確的……
+- wait:
+  - 55
+- face:
+  - 1411
+  - 2
+- print:
+  - 旅行商人２
+  - 嘿嘿。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 4911
+  - C
+  - 2
+- fadein:
+  - 4911
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 4911
+- bust:
+  - 4911
+  - 0
+- vo:
+  - vo_adv_1007009_031
+- face:
+  - 4911
+  - 2
+- print:
+  - 旅行商人１
+  - 呵呵……
+- wait:
+  - 30
+- print:
+  - 旅行商人１
+  - |2
+
+- face:
+  - 4911
+  - 1
+- print:
+  - 旅行商人１
+  - 那麼
+- wait:
+  - 25
+- print:
+  - 旅行商人１
+  - 也差不多該走下一步棋了。
+- wait:
+  - 45
+- print:
+  - 旅行商人１
+  - |2-
+
+    事到如今讓她逃跑那可就傷腦筋啦。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - RC
+  - C
+  - 30
+- bgm:
+  - stop
+  - 2
+  - 1
+- fadeout:
+  - 4911
+  - 30
+- effect:
+  - 0054
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 100711
+  - C
+  - 2
+- fadein:
+  - 100711
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M540_NoBell
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_032
+- face:
+  - 100711
+  - 2
+- nod:
+  - 100711
+- se:
+  - se_adv_eating_03
+- print:
+  - 宮子
+  - 嚼嚼……
+- wait:
+  - 45
+- print:
+  - 宮子
+  - |2
+
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - 唔唔唔，
+- wait:
+  - 40
+- print:
+  - 宮子
+  - 這種布丁……！
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_033
+- face:
+  - 100711
+  - 1
+- print:
+  - 宮子
+  - 感覺有甜有苦，
+- wait:
+  - 60
+- print:
+  - 宮子
+  - 卻又沒有那麼苦……
+- wait:
+  - 75
+- print:
+  - 宮子
+  - |2
+
+- emotion:
+  - heart1_R
+  - 100711
+  - 90
+  - 490
+  - se_adv_emote_heart_01
+- face:
+  - 100711
+  - 2
+- print:
+  - 宮子
+  - 和平常布丁好吃的方面不同！
+- wait:
+  - 65
+- print:
+  - 宮子
+  - |2
+
+- face:
+  - 100711
+  - 1
+- print:
+  - 宮子
+  - 這一定就是
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 所謂的風味醇厚……
+- wait:
+  - 85
+- se:
+  - se_adv_eating_03
+- face:
+  - 100711
+  - 2
+- print:
+  - 宮子
+  - 嚼嚼♪
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100711
+  - 30
+- split:
+  - 500570
+  - 5
+- split_slide:
+  - 1.3
+  - 600
+  - 15
+  - -700
+  - 50
+  - -30
+- wait:
+  - 15
+- chara_full:
+  - 100711
+  - L
+  - 1
+- chara_full:
+  - 4911
+  - R
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 4911
+- bust:
+  - 4911
+  - 0
+- vo:
+  - vo_adv_1007009_034
+- face:
+  - 4911
+  - 2
+- print:
+  - 旅行商人１
+  - 看來很對妳的胃口啊，
+- wait:
+  - 20
+- print:
+  - 旅行商人１
+  - 小姑娘。
+- wait:
+  - 45
+- print:
+  - 旅行商人１
+  - |2
+
+- face:
+  - 4911
+  - 1
+- nod:
+  - 4911
+- se:
+  - se_adv_paper_move_05
+- print:
+  - 旅行商人１
+  - ……我貼我貼。
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_035
+- face:
+  - 100711
+  - 2
+- print:
+  - 宮子
+  - 人家很中意啊！
+- wait:
+  - 30
+- print:
+  - 宮子
+  - |2-
+
+    你們
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 雖然是陌生人卻都是好人喲～♪
+- wait:
+  - 60
+- print:
+  - 宮子
+  - |2
+
+- face:
+  - 100711
+  - 6
+- bgm:
+  - stop
+  - 4
+- print:
+  - 宮子
+  - ……嗯嗯？
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 你在貼什麼？
+- touch: *o0
+- bgm:
+  - bgm_M46_Ver2
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 4911
+- bust:
+  - 4911
+  - 0
+- vo:
+  - vo_adv_1007009_036
+- face:
+  - 4911
+  - 2
+- print:
+  - 旅行商人１
+  - 我在貼護符。
+- wait:
+  - 40
+- print:
+  - 旅行商人１
+  - 這也是從東國流傳過來的物品。
+- wait:
+  - 45
+- print:
+  - 旅行商人１
+  - |2
+
+- face:
+  - 4911
+  - 1
+- print:
+  - 旅行商人１
+  - 說是對魔物啦鬼怪啦……
+- wait:
+  - 45
+- print:
+  - 旅行商人１
+  - 以及幽靈之類有效，類似魔導具的東西。
+- wait:
+  - 60
+- print:
+  - 旅行商人１
+  - |2-
+
+    只要像這樣貼上去
+- wait:
+  - 30
+- print:
+  - 旅行商人１
+  - 會形成結界什麼的，
+- wait:
+  - 40
+- print:
+  - 旅行商人１
+  - 就無法從裡頭出來了。
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 1
+- vo:
+  - vo_adv_1007009_037
+- face:
+  - 1411
+  - 2
+- print:
+  - 旅行商人２
+  - 這可是花了我不少錢哦？
+- wait:
+  - 45
+- print:
+  - 旅行商人２
+  - |2-
+
+    ──幽靈少女啊。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0054
+  - se_adv_transition_01
+- split_slide:
+  - 1.3
+  - 600
+  - 15
+  - -700
+  - -50
+  - 650
+- wait:
+  - 5
+- split:
+  - 0
+  - 0
+- wait:
+  - 15
+- chara_full:
+  - 100711
+  - C
+  - 3
+- fadein:
+  - 100711
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_038
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - 唔唔唔……？
+- wait:
+  - 45
+- print:
+  - 宮子
+  - |2
+
+- face:
+  - 100711
+  - 4
+- print:
+  - 宮子
+  - 宮子，
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 突然有種不舒服的感覺。
+- wait:
+  - 55
+- print:
+  - 宮子
+  - |2
+
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - 反正布丁也吃了，
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 人家要回去了！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 38
+- change:
+  - LC
+  - C
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_039
+- face:
+  - 100711
+  - 6
+- effect:
+  - 17
+  - se_adv_comic_punch_01
+  - 0
+  - LC
+- print:
+  - 宮子
+  - 唔喵！？
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 23
+- change:
+  - C
+  - LC
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_040
+- face:
+  - 100711
+  - 4
+- print:
+  - 宮子
+  - 嗚嗚……
+- shake:
+  - 100711
+- wait:
+  - 15
+- print:
+  - 宮子
+  - 好痛～
+- wait:
+  - 55
+- print:
+  - 宮子
+  - |2-
+
+    額頭
+- wait:
+  - 15
+- print:
+  - 宮子
+  - 撞到了啦。
+- wait:
+  - 40
+- print:
+  - 宮子
+  - |2-
+
+    真的出不去了。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100711
+  - 30
+- split:
+  - 500570
+  - 5
+- split_slide:
+  - 1.3
+  - 600
+  - 15
+  - -700
+  - 50
+  - -30
+- wait:
+  - 15
+- chara_full:
+  - 100711
+  - L
+  - 4
+- chara_full:
+  - 1411
+  - R
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1007009_041
+- face:
+  - 1411
+  - 2
+- print:
+  - 旅行商人２
+  - 哇哈哈！
+- wait:
+  - 45
+- print:
+  - 旅行商人２
+  - |2-
+
+    所以啊，
+- wait:
+  - 20
+- print:
+  - 旅行商人２
+  - 我之前不都說過了嗎！
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_042
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - 你們……！
+- wait:
+  - 50
+- print:
+  - 宮子
+  - |2
+
+- emotion:
+  - anger1_R
+  - 100711
+  - -90
+  - 535
+  - se_adv_emote_anger_01
+- print:
+  - 宮子
+  - 生氣氣──！！
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 氣死人家了！
+- wait:
+  - 30
+- print:
+  - 宮子
+  - |2-
+
+    宮子
+- wait:
+  - 15
+- print:
+  - 宮子
+  - 發怒了！
+- wait:
+  - 20
+- print:
+  - 宮子
+  - 發怒了啦～！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 1411
+  - 30
+- chara_full:
+  - 4911
+  - R
+  - 2
+- fadein:
+  - 4911
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 4911
+- bust:
+  - 4911
+  - 0
+- vo:
+  - vo_adv_1007009_043
+- face:
+  - 4911
+  - 2
+- print:
+  - 旅行商人１
+  - 哎哎，
+- wait:
+  - 20
+- print:
+  - 旅行商人１
+  - 請妳冷靜點。
+- wait:
+  - 35
+- print:
+  - 旅行商人１
+  - |2
+
+- face:
+  - 4911
+  - 1
+- print:
+  - 旅行商人１
+  - 我們只是
+- wait:
+  - 15
+- print:
+  - 旅行商人１
+  - 想和妳討論生意而已。
+- wait:
+  - 40
+- print:
+  - 旅行商人１
+  - |2-
+
+    當然
+- wait:
+  - 20
+- print:
+  - 旅行商人１
+  - 這對小姑娘來說也不是什麼壞事。
+- touch: *o0
+- focus:
+  - 4911
+- bust:
+  - 4911
+  - 0
+- vo:
+  - vo_adv_1007009_044
+- face:
+  - 4911
+  - 2
+- print:
+  - 旅行商人１
+  - 畢竟……
+- wait:
+  - 30
+- print:
+  - 旅行商人１
+  - |2-
+
+    只要稍～
+- wait:
+  - 20
+- print:
+  - 旅行商人１
+  - 微接個簡單的打工，
+- wait:
+  - 40
+- print:
+  - 旅行商人１
+  - 任何布丁都能吃到飽！
+- wait:
+  - 50
+- print:
+  - 旅行商人１
+  - |2-
+
+    就是這樣啦♪
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_045
+- face:
+  - 100711
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100711
+  - 20
+  - 645
+  - se_adv_emote_common_01
+- print:
+  - 宮子
+  - 任何布丁都能……
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 是嗎？
+- wait:
+  - 40
+- print:
+  - 宮子
+  - |2
+
+- bgm:
+  - stop
+  - 3.5
+  - 1
+- print:
+  - 宮子
+  - 詳細說給人家聽聽喲！
+- touch: *o0
+- bgm:
+  - bgm_M387
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 4911
+- bust:
+  - 4911
+  - 0
+- vo:
+  - vo_adv_1007009_046
+- face:
+  - 4911
+  - 2
+- print:
+  - 旅行商人１
+  - 嗯。
+- wait:
+  - 40
+- print:
+  - 旅行商人１
+  - 隨時都能吃到全世界的布丁，
+- wait:
+  - 20
+- print:
+  - 旅行商人１
+  - 而且想吃多少
+- wait:
+  - 10
+- print:
+  - 旅行商人１
+  - 就有多少！
+- wait:
+  - 35
+- print:
+  - 旅行商人１
+  - |2
+
+- face:
+  - 4911
+  - 6
+- print:
+  - 旅行商人１
+  - 再加上打工內容
+- wait:
+  - 20
+- print:
+  - 旅行商人１
+  - 對小姑娘妳來說都是些輕而易舉的事。
+- wait:
+  - 60
+- print:
+  - 旅行商人１
+  - |2
+
+- face:
+  - 4911
+  - 2
+- print:
+  - 旅行商人１
+  - 怎麼樣？
+- wait:
+  - 30
+- print:
+  - 旅行商人１
+  - 不只沒有壞處，
+- wait:
+  - 25
+- print:
+  - 旅行商人１
+  - 還是件好事對吧？
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_047
+- face:
+  - 100711
+  - 4
+- print:
+  - 宮子
+  - 呃呃呃……
+- wait:
+  - 60
+- print:
+  - 宮子
+  - |2-
+
+    工作麻煩死了。
+- wait:
+  - 60
+- eye_open:
+  - False
+- print:
+  - 宮子
+  - 超級麻煩的。
+- wait:
+  - 55
+- print:
+  - 宮子
+  - |2
+
+- eye_open:
+  - True
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - 可是布丁吃到飽又很迷人。
+- wait:
+  - 75
+- print:
+  - 宮子
+  - 超級超級迷人的……
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 1
+- vo:
+  - vo_adv_1007009_048
+- face:
+  - 1411
+  - 1
+- print:
+  - 旅行商人２
+  - 比起來，極樂布丁堆成的小山
+- wait:
+  - 30
+- print:
+  - 旅行商人２
+  - 根本不算什麼哦？
+- wait:
+  - 40
+- print:
+  - 旅行商人２
+  - |2
+
+- face:
+  - 1411
+  - 2
+- print:
+  - 旅行商人２
+  - 差不多每天
+- wait:
+  - 30
+- print:
+  - 旅行商人２
+  - 都能被布丁大海淹沒了！
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_049
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - 布丁大海……
+- wait:
+  - 65
+- face:
+  - 100711
+  - 2
+- emotion:
+  - note1_L
+  - 100711
+  - -70
+  - 520
+  - se_adv_emote_note_01
+- print:
+  - 宮子
+  - 唔呵呵♪
+- wait:
+  - 45
+- print:
+  - 宮子
+  - |2-
+
+    聽起來真棒～！
+- wait:
+  - 60
+- print:
+  - 宮子
+  - |2-
+
+    那片大海
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 才配得上宮子！
+- touch: *o0
+- face:
+  - 100711
+  - 1
+- focus:
+  - 4911
+- bust:
+  - 4911
+  - 0
+- vo:
+  - vo_adv_1007009_050
+- face:
+  - 4911
+  - 2
+- print:
+  - 旅行商人１
+  - 就連打工內容
+- wait:
+  - 35
+- print:
+  - 旅行商人１
+  - 都沒什麼好擔心的。
+- wait:
+  - 45
+- print:
+  - 旅行商人１
+  - |2-
+
+    只要使用小姑娘的力量。
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_051
+- face:
+  - 100711
+  - 1
+- nod:
+  - 100711
+- print:
+  - 宮子
+  - 哼哼，
+- wait:
+  - 15
+- print:
+  - 宮子
+  - 人家明白了！
+- wait:
+  - 30
+- print:
+  - 宮子
+  - |2
+
+- face:
+  - 100711
+  - 2
+- print:
+  - 宮子
+  - 宮子
+- wait:
+  - 20
+- print:
+  - 宮子
+  - 願意接那個打工～♪
+- touch: *o0
+- face:
+  - 100711
+  - 1
+- focus:
+  - 4911
+- bust:
+  - 4911
+  - 0
+- vo:
+  - vo_adv_1007009_052
+- face:
+  - 4911
+  - 2
+- print:
+  - 旅行商人１
+  - 我就知道
+- wait:
+  - 30
+- print:
+  - 旅行商人１
+  - 小姑娘妳一定會這麼說。
+- wait:
+  - 45
+- print:
+  - 旅行商人１
+  - |2-
+
+    那麼就
+- wait:
+  - 30
+- print:
+  - 旅行商人１
+  - 談妥──
+- touch: *o0
+- se:
+  - se_adv_step_concrete_run_armor_come_01
+- choice:
+  - 不可以！
+  - 6
+- tag:
+  - 6
+- face:
+  - 4911
+  - 6
+- bgm:
+  - stop
+  - 5.5
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_053
+- face:
+  - 100711
+  - 6
+- emotion:
+  - question1_R
+  - 100711
+  - 120
+  - 505
+  - se_adv_emote_question_01
+- print:
+  - 宮子
+  - '{0}？'
+- wait:
+  - 30
+- print:
+  - 宮子
+  - |2-
+
+    你怎麼會在這裡？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 4911
+  - 30
+- chara_full:
+  - 1411
+  - R
+  - 3
+- fadein:
+  - 1411
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M21
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1007009_054
+- face:
+  - 1411
+  - 3
+- print:
+  - 旅行商人２
+  - 剛剛那個小鬼……
+- wait:
+  - 65
+- print:
+  - 旅行商人２
+  - |2
+
+- face:
+  - 1411
+  - 6
+- print:
+  - 旅行商人２
+  - 居然跟過來了是嗎。
+- wait:
+  - 30
+- print:
+  - 旅行商人２
+  - |2
+
+- face:
+  - 1411
+  - 3
+- print:
+  - 旅行商人２
+  - 嘖，
+- wait:
+  - 15
+- print:
+  - 旅行商人２
+  - 我原本還想馬上連絡仲介商的。
+- touch: *o0
+- choice:
+  - 別把宮子拖下水做壞事！
+  - 7
+- tag:
+  - 7
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_055
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - 你
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 到底在說什麼啊？
+- wait:
+  - 40
+- print:
+  - 宮子
+  - |2-
+
+    我們只是要找宮子打工而已。
+- touch: *o0
+- focus:
+  - 4911
+- bust:
+  - 4911
+  - 1
+- vo:
+  - vo_adv_1007009_056
+- face:
+  - 4911
+  - 6
+- print:
+  - 旅行商人１
+  - ……偷聽可不是什麼好事啊，
+- wait:
+  - 60
+- print:
+  - 旅行商人１
+  - 小哥。
+- wait:
+  - 30
+- print:
+  - 旅行商人１
+  - |2
+
+- face:
+  - 4911
+  - 1
+- print:
+  - 旅行商人１
+  - 更何況，
+- wait:
+  - 30
+- print:
+  - 旅行商人１
+  - 我們和小姑娘的交易已經談妥了。
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_057
+- face:
+  - 100711
+  - 2
+- pop:
+  - 100711
+- print:
+  - 宮子
+  - 只要稍微接個打工
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 就可以布丁吃到飽～♪
+- wait:
+  - 60
+- print:
+  - 宮子
+  - |2
+
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - 如果要阻止人家，
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 哪怕是你，人家也絕不原諒！
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1007009_058
+- face:
+  - 1411
+  - 2
+- print:
+  - 旅行商人２
+  - 就是這樣啦，
+- wait:
+  - 20
+- print:
+  - 旅行商人２
+  - 小哥。
+- wait:
+  - 25
+- print:
+  - 旅行商人２
+  - |2-
+
+    我們可沒空陪你這種傢伙玩啊？
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_059
+- face:
+  - 100711
+  - 1
+- emotion:
+  - notice1_L
+  - 100711
+  - -60
+  - 540
+  - se_adv_emote_common_01
+- print:
+  - 宮子
+  - 啊，
+- wait:
+  - 15
+- print:
+  - 宮子
+  - 對了！
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 既然如此，
+- wait:
+  - 15
+- print:
+  - 宮子
+  - 你也一起來打工就好了！
+- wait:
+  - 60
+- print:
+  - 宮子
+  - |2-
+
+    然後把你的布丁也交給宮子！
+- wait:
+  - 80
+- print:
+  - 宮子
+  - |2
+
+- face:
+  - 100711
+  - 2
+- print:
+  - 宮子
+  - 這樣就有兩座布丁大海了～♪　
+- wait:
+  - 60
+- print:
+  - 宮子
+  - 姆呵呵♪
+- touch: *o0
+- face:
+  - 100711
+  - 1
+- window_visible:
+  - false
+- fadeout:
+  - 1411
+  - 30
+- chara_full:
+  - 4911
+  - R
+  - 2
+- fadein:
+  - 4911
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 4911
+- bust:
+  - 4911
+  - 0
+- vo:
+  - vo_adv_1007009_060
+- face:
+  - 4911
+  - 2
+- nod:
+  - 4911
+- se:
+  - se_adv_cloth_move_normal_02
+- print:
+  - 旅行商人１
+  - 哈哈哈哈！
+- wait:
+  - 45
+- print:
+  - 旅行商人１
+  - 那傢伙可不行。
+- wait:
+  - 50
+- print:
+  - 旅行商人１
+  - |2-
+
+    畢竟我們想要的商品
+- wait:
+  - 45
+- print:
+  - 旅行商人１
+  - 就只有小姑娘妳而已，
+- wait:
+  - 45
+- print:
+  - 旅行商人１
+  - |2
+
+- face:
+  - 4911
+  - 1
+- print:
+  - 旅行商人１
+  - 沒那個小鬼的事。
+- wait:
+  - 45
+- print:
+  - 旅行商人１
+  - 今天就要和他道別了。
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_061
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - ……？
+- wait:
+  - 30
+- print:
+  - 宮子
+  - |2-
+
+    宮子才不會和{0}
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 道別呢。
+- wait:
+  - 45
+- print:
+  - 宮子
+  - |2
+
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - 不准說些莫名其妙的話喲！
+- touch: *o0
+- focus:
+  - 4911
+- bust:
+  - 4911
+  - 0
+- vo:
+  - vo_adv_1007009_062
+- face:
+  - 4911
+  - 1
+- print:
+  - 旅行商人１
+  - 看來妳還搞不清楚狀況啊……
+- wait:
+  - 75
+- print:
+  - 旅行商人１
+  - |2
+
+- face:
+  - 4911
+  - 6
+- print:
+  - 旅行商人１
+  - 算了，
+- wait:
+  - 15
+- print:
+  - 旅行商人１
+  - 無妨。
+- touch: *o0
+- choice:
+  - 我馬上去救宮子！
+  - 8
+- tag:
+  - 8
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0054
+  - se_adv_transition_01
+  - 180
+- split_slide:
+  - 1.3
+  - 600
+  - 15
+  - -700
+  - -50
+  - 650
+- wait:
+  - 5
+- split:
+  - 0
+  - 0
+- wait:
+  - 15
+- bgm:
+  - stop
+  - 3.5
+  - 1
+- effect:
+  - 0009
+- se:
+  - se_adv_step_concrete_run_armor_go_01
+- camera_zoom:
+  - 1.2
+  - 5
+- wait:
+  - 15
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- camera_zoom:
+  - 1
+  - 1
+- se:
+  - se_adv_body_catch_down_01
+- effect:
+  - 0017
+- wait:
+  - 15
+- background:
+  - 500570
+- shake_loop: *o0
+- se:
+  - se_adv_body_hand_creak_01
+- wait:
+  - 30
+- shake_delete: *o0
+- chara_full:
+  - 4911
+  - LC
+  - 1
+- chara_full:
+  - 1411
+  - RC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M42_02
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1007009_063
+- face:
+  - 1411
+  - 2
+- nod:
+  - 1411
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - 旅行商人２
+  - 哼，
+- wait:
+  - 20
+- print:
+  - 旅行商人２
+  - 你想得美！
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 1
+- vo:
+  - vo_adv_1007009_064
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - '{0}！？'
+- wait:
+  - 10
+- print:
+  - 宮子
+  - |2
+
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - 你們
+- wait:
+  - 20
+- print:
+  - 宮子
+  - 快放開他！
+- touch: *o0
+- focus:
+  - 4911
+- bust:
+  - 4911
+  - 0
+- vo:
+  - vo_adv_1007009_065
+- face:
+  - 4911
+  - 6
+- print:
+  - 旅行商人１
+  - 可別太粗魯啊。
+- wait:
+  - 35
+- print:
+  - 旅行商人１
+  - |2-
+
+    要是他隨便亂動而受傷那可就傷腦筋了。
+- wait:
+  - 60
+- print:
+  - 旅行商人１
+  - |2
+
+- face:
+  - 4911
+  - 1
+- print:
+  - 旅行商人１
+  - 畢竟這種小鬼
+- wait:
+  - 30
+- print:
+  - 旅行商人１
+  - 多少也是能賣點錢的。
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1007009_066
+- face:
+  - 1411
+  - 1
+- nod:
+  - 1411
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 旅行商人２
+  - 我知道啦。
+- wait:
+  - 40
+- print:
+  - 旅行商人２
+  - |2-
+
+    封住他的嘴還能順便賺點零用錢。
+- wait:
+  - 50
+- print:
+  - 旅行商人２
+  - |2
+
+- face:
+  - 1411
+  - 2
+- print:
+  - 旅行商人２
+  - 我可不是會浪費這種機會的笨蛋。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- effect:
+  - 0054
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 100711
+  - C
+  - 6
+- fadein:
+  - 100711
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_067
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - 這些傢伙
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 無視宮子是嗎……？
+- wait:
+  - 75
+- print:
+  - 宮子
+  - |2
+
+- face:
+  - 100711
+  - 3
+- emotion:
+  - anger1_R
+  - 100711
+  - -90
+  - 535
+  - se_adv_emote_anger_01
+- print:
+  - 宮子
+  - 咕唔唔……
+- wait:
+  - 35
+- print:
+  - 宮子
+  - 人家生氣了！
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_068
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - 仔細一想，
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 把人家關在這種地方也令人生氣。
+- wait:
+  - 80
+- print:
+  - 宮子
+  - |2-
+
+    再加上對{0}做了這種過分的事……！
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_069
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - 啊。
+- wait:
+  - 40
+- print:
+  - 宮子
+  - |2-
+
+    難道說
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 這些傢伙是壞人嗎？
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_070
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - 既然如此事情就簡單了！
+- wait:
+  - 75
+- print:
+  - 宮子
+  - |2
+
+- nod:
+  - 100711
+- print:
+  - 宮子
+  - 唔～～～！
+- touch: *o0
+- bgm:
+  - stop
+  - 4
+- focus:
+  - 4911
+- bust:
+  - 4911
+  - 1
+- vo:
+  - vo_adv_1007009_071
+- face:
+  - 4911
+  - 6
+- print:
+  - 旅行商人１
+  - 怎麼了……？
+- wait:
+  - 30
+- print:
+  - 旅行商人１
+  - |2-
+
+    她到底
+- wait:
+  - 15
+- print:
+  - 旅行商人１
+  - 想做什麼……？
+- touch: *o0
+- effect:
+  - 0041
+  - se_adv_magic_dark_large_01
+- bright_change:
+  - 1
+  - 50
+- bgm:
+  - bgm_M138_Short
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_072
+- face:
+  - 100711
+  - 3
+- eye_open:
+  - False
+- print:
+  - 宮子
+  - 嗯嗯嗯嗯嗯～～～！！
+- wait:
+  - 60
+- print:
+  - 宮子
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 宮子
+  - 喲！！！
+- touch: *o0
+- window_visible:
+  - false
+- effect_delete:
+  - 0041
+  - 15
+- bright_change:
+  - 1
+  - 100
+- fadeout:
+  - 100711
+  - 30
+- se:
+  - se_adv_glass_break_01
+- white_out:
+  - 0.5
+  - 0.2
+- white_in: *o0
+- effect:
+  - 0054
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 4911
+  - LC
+  - 6
+- chara_full:
+  - 1411
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- se:
+  - se_adv_fire_torch_01
+- se:
+  - amb_adv_bonfire_01
+- window_visible:
+  - TRUE
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1007009_073
+- face:
+  - 1411
+  - 4
+- print:
+  - 旅行商人２
+  - 咿、
+- shake:
+  - 1411
+- print:
+  - 旅行商人２
+  - 咿咿咿咿咿！！！
+- wait:
+  - 15
+- print:
+  - 旅行商人２
+  - |2-
+
+    護護護、
+- wait:
+  - 15
+- print:
+  - 旅行商人２
+  - 護符竟然……！
+- wait:
+  - 15
+- print:
+  - 旅行商人２
+  - |2-
+
+    護符竟然全都
+- wait:
+  - 20
+- print:
+  - 旅行商人２
+  - 被燒掉了！？
+- touch: *o0
+- focus:
+  - 4911
+- bust:
+  - 4911
+  - 0
+- vo:
+  - vo_adv_1007009_074
+- face:
+  - 4911
+  - 6
+- print:
+  - 旅行商人１
+  - 都已經準備了那麼多都還關不住她是嗎……！？
+- wait:
+  - 60
+- print:
+  - 旅行商人１
+  - |2
+
+- face:
+  - 4911
+  - 3
+- print:
+  - 旅行商人１
+  - 可惡，
+- wait:
+  - 20
+- print:
+  - 旅行商人１
+  - 這惡靈到底有多誇張啊！！
+- touch: *o0
+- window_visible:
+  - false
+- se_pause:
+  - amb_adv_bonfire_01
+  - 8
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100711
+  - LC
+  - 3
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 100711
+  - 45
+- text_size:
+  - 38
+- window_visible:
+  - TRUE
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_075
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - …………
+- wait:
+  - 50
+- print:
+  - 宮子
+  - |2
+
+- se:
+  - se_adv_miyako_poltergeist_01
+- print:
+  - 宮子
+  - 我～
+- wait:
+  - 20
+- print:
+  - 宮子
+  - 說～
+- wait:
+  - 20
+- print:
+  - 宮子
+  - 你～
+- wait:
+  - 20
+- print:
+  - 宮子
+  - 們～～
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 100711
+  - 30
+- chara_full:
+  - 4911
+  - LC
+  - 6
+- chara_full:
+  - 1411
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- change_window:
+  - 3
+- window_visible:
+  - TRUE
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1007009_076
+- multi_talk:
+  - 4911:1411
+- face:
+  - 1
+  - 1
+- emotion:
+  - surprise1_L
+  - 4911
+  - 160
+  - 570
+  - se_adv_emote_common_01
+- emotion:
+  - surprise1_L
+  - 1411
+  - 155
+  - 615
+  - '*non'
+- print:
+  - 旅行商人們
+  - 嗚哇哇……！
+- wait:
+  - 15
+- print:
+  - 旅行商人們
+  - |2-
+
+    她、
+- wait:
+  - 15
+- print:
+  - 旅行商人們
+  - 她出來了～！！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 23
+- change_window:
+  - 1
+- fadeout_all:
+  - 30
+- chara_full:
+  - 100711
+  - C
+  - 3
+- fadein:
+  - 100711
+  - 30
+- effect:
+  - 0041
+  - se_adv_magic_dark_large_01
+- bright_change:
+  - 1
+  - 50
+- se:
+  - amb_adv_mystery_01
+- window_visible:
+  - TRUE
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_077
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - 居然敢騙宮子。
+- wait:
+  - 75
+- print:
+  - 宮子
+  - |2-
+
+    而且還對
+- wait:
+  - 30
+- print:
+  - 宮子
+  - '{0}做了過分的事……'
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_078
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - 人家感覺
+- wait:
+  - 15
+- print:
+  - 宮子
+  - 非常生氣。
+- wait:
+  - 55
+- print:
+  - 宮子
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - 宮子
+  - 真的真的……
+- wait:
+  - 45
+- eye_open:
+  - True
+- print:
+  - 宮子
+  - 非常生氣！
+- wait:
+  - 45
+- print:
+  - 宮子
+  - |2-
+
+    氣到
+- wait:
+  - 35
+- print:
+  - 宮子
+  - 不知道該怎麼辦了───！！！
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 3
+- window_visible:
+  - TRUE
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_079
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - '{0}！'
+- wait:
+  - 20
+- print:
+  - 宮子
+  - |2-
+
+    和宮子一起戰鬥吧！
+- wait:
+  - 45
+- print:
+  - 宮子
+  - |2-
+
+    把這些傢伙打得滿地找牙～！！
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- effect_delete:
+  - 0041
+  - 15
+- bright_change:
+  - 1
+  - 100
+- fadeout:
+  - 100711
+  - 30
+- chara_full:
+  - 4911
+  - LC
+  - 4
+- chara_full:
+  - 1411
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- text_size:
+  - 38
+- window_visible:
+  - TRUE
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1007009_080
+- multi_talk:
+  - 4911:1411
+- face:
+  - 1
+  - 1
+- nod:
+  - 4911
+- nod:
+  - 1411
+- print:
+  - 旅行商人們
+  - 救、
+- wait:
+  - 20
+- print:
+  - 旅行商人們
+  - 救命啊～～！！！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 23
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- fadeout_all:
+  - 30
+- se_pause:
+  - amb_adv_prison_01
+  - 1
+- se_pause:
+  - amb_adv_mystery_01
+  - 1
+- se:
+  - se_adv_magic_crash_03
+- black_out:
+  - 1
+  - 1
+- background:
+  - 500030
+- wait:
+  - 45
+- black_in: *o0
+- se:
+  - amb_adv_town_day_01
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 宮子與{0}，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - |2-
+
+    在痛痛快快地懲罰了黑市旅行商人們之後，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - |2-
+
+    再次回到了蘭德索爾的鬧區。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- vo_effect:
+  - 0
+- chara_full:
+  - 100711
+  - C
+  - 2
+- fadein:
+  - 100711
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M173_Ver2_03
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_081
+- face:
+  - 100711
+  - 2
+- nod:
+  - 100711
+- se:
+  - se_adv_eating_01
+- print:
+  - 宮子
+  - 啊～姆♪
+- wait:
+  - 55
+- print:
+  - 宮子
+  - |2-
+
+    嗯～！
+- wait:
+  - 45
+- print:
+  - 宮子
+  - 在外面吃極樂布丁
+- wait:
+  - 60
+- print:
+  - 宮子
+  - 特別美味喲～♪
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_082
+- face:
+  - 100711
+  - 3
+- print:
+  - 宮子
+  - '{0}給人家小心點搬！'
+- wait:
+  - 30
+- print:
+  - 宮子
+  - |2
+
+- face:
+  - 100711
+  - 1
+- print:
+  - 宮子
+  - 你手上拿的大量極樂布丁
+- wait:
+  - 45
+- print:
+  - 宮子
+  - 都是宮子的喲！
+- wait:
+  - 60
+- print:
+  - 宮子
+  - |2-
+
+    算是所謂的賠償費喲！
+- wait:
+  - 35
+- face:
+  - 100711
+  - 2
+- print:
+  - 宮子
+  - 是人家的合法權利
+- wait:
+  - 45
+- print:
+  - 宮子
+  - 喲！
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_083
+- face:
+  - 100711
+  - 6
+- emotion:
+  - notice1_L
+  - 100711
+  - -60
+  - 540
+  - se_adv_emote_common_01
+- print:
+  - 宮子
+  - 啊，
+- wait:
+  - 20
+- print:
+  - 宮子
+  - 不過……
+- wait:
+  - 30
+- print:
+  - 宮子
+  - |2-
+
+    感覺你也蠻努力的。
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_084
+- face:
+  - 100711
+  - 4
+- print:
+  - 宮子
+  - 嗯嗯～
+- wait:
+  - 55
+- print:
+  - 宮子
+  - 沒辦法啦。
+- wait:
+  - 40
+- print:
+  - 宮子
+  - |2
+
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - 待會可以分你一點布丁。
+- wait:
+  - 70
+- print:
+  - 宮子
+  - |2
+
+- face:
+  - 100711
+  - 1
+- print:
+  - 宮子
+  - 要感謝宮子對你這麼好喲～♪
+- touch: *o0
+- choice:
+  - 謝謝妳。
+  - 9
+- tag:
+  - 9
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_085
+- face:
+  - 100711
+  - 2
+- nod:
+  - 100711
+- print:
+  - 宮子
+  - 你知道就行了喲！
+- wait:
+  - 40
+- print:
+  - 宮子
+  - |2
+
+- face:
+  - 100711
+  - 1
+- print:
+  - 宮子
+  - 既然你知道了，
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 就交出布丁做為回禮吧！
+- wait:
+  - 55
+- print:
+  - 宮子
+  - |2
+
+- face:
+  - 100711
+  - 2
+- print:
+  - 宮子
+  - 當然
+- wait:
+  - 20
+- print:
+  - 宮子
+  - 得準備極樂布丁以外的其他布丁哦～！
+- touch: *o0
+- face:
+  - 100711
+  - 1
+- choice:
+  - 我可沒有錢。
+  - 10
+- tag:
+  - 10
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_086
+- face:
+  - 100711
+  - 1
+- print:
+  - 宮子
+  - 既然如此就去打工什麼的賺錢啊！
+- wait:
+  - 90
+- print:
+  - 宮子
+  - |2
+
+- emotion:
+  - question1_R
+  - 100711
+  - 120
+  - 505
+  - se_adv_emote_question_01
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - ……咦？
+- wait:
+  - 30
+- print:
+  - 宮子
+  - |2-
+
+    話說回來，
+- wait:
+  - 20
+- print:
+  - 宮子
+  - 你今天的打工呢？
+- touch: *o0
+- bgm:
+  - stop
+  - 1.5
+- choice:
+  - ……我忘了！
+  - 11
+- tag:
+  - 11
+- bgm:
+  - bgm_M12
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_087
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - 要是遲到，
+- wait:
+  - 30
+- print:
+  - 宮子
+  - 那部分打工薪水搞不好會被扣掉……！
+- wait:
+  - 75
+- print:
+  - 宮子
+  - |2-
+
+    那麼
+- wait:
+  - 15
+- print:
+  - 宮子
+  - 你快點去打工！
+- wait:
+  - 45
+- print:
+  - 宮子
+  - |2
+
+- face:
+  - 100711
+  - 1
+- print:
+  - 宮子
+  - 因為宮子對你很好，
+- wait:
+  - 40
+- print:
+  - 宮子
+  - 會陪你一起去哦！
+- touch: *o0
+- choice:
+  - 謝謝妳。
+  - 12
+- tag:
+  - 12
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_088
+- face:
+  - 100711
+  - 2
+- emotion:
+  - note1_L
+  - 100711
+  - -70
+  - 520
+  - se_adv_emote_note_01
+- print:
+  - 宮子
+  - 唔呵呵♪
+- wait:
+  - 30
+- print:
+  - 宮子
+  - |2-
+
+    就是說啊就是說啊！
+- wait:
+  - 40
+- print:
+  - 宮子
+  - 宮子非常照顧你的！
+- touch: *o0
+- focus:
+  - 100711
+- bust:
+  - 100711
+  - 0
+- vo:
+  - vo_adv_1007009_089
+- face:
+  - 100711
+  - 6
+- print:
+  - 宮子
+  - '{0}被欺負時人家之所以會生氣，'
+- wait:
+  - 70
+- print:
+  - 宮子
+  - |2-
+
+    也是因為宮子很照顧你的關係！
+- wait:
+  - 60
+- print:
+  - 宮子
+  - |2
+
+- face:
+  - 100711
+  - 1
+- print:
+  - 宮子
+  - ……大概
+- wait:
+  - 20
+- print:
+  - 宮子
+  - 是那樣吧！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 100711
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 陪在前往打工地點的{0}身旁，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - |2-
+
+    宮子對自身心中的情感感到有些心煩意亂。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0
