@@ -1,0 +1,295 @@
+- title:
+  - 衣装について
+- outline:
+  - ' '
+- background:
+  - 501132
+- amb:
+  - amb_adv_outdoors_night_01
+- ui_visible:
+  - FALSE
+- situation:
+  - 衣装について
+- chara_full:
+  - 114011
+  - C
+  - 1
+- fadein:
+  - 114011
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M136_Ver2
+  - 0
+  - 0
+  - 1
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050207_000
+- face:
+  - 114011
+  - 1
+- print:
+  - レイ
+  - お化け屋敷も始まって、
+- wait:
+  - 30
+- print:
+  - レイ
+  - ようやくこの衣装にも慣れてきたかな。
+- wait:
+  - 55
+- print:
+  - レイ
+  - |2
+
+- face:
+  - 114011
+  - 2
+- print:
+  - レイ
+  - ドレスに身を包んで人を驚かすなんて、
+- wait:
+  - 55
+- print:
+  - レイ
+  - |2-
+
+    なかなかできることじゃないから、
+- wait:
+  - 30
+- print:
+  - レイ
+  - 面白い経験だよ。
+- touch: &o0 []
+- choice:
+  - くせになる？
+  - 1
+  - 1
+- choice:
+  - はかなさは？
+  - 2
+  - 2
+- choice:
+  - 楽しむのが一番。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050207_001
+- face:
+  - 114011
+  - 2
+- print:
+  - レイ
+  - 少しだけ。
+- wait:
+  - 40
+- face:
+  - 114011
+  - 6
+- print:
+  - レイ
+  - あ、
+- wait:
+  - 5
+- print:
+  - レイ
+  - いや、
+- wait:
+  - 15
+- print:
+  - レイ
+  - あくまでお化け屋敷の中だけだよ。
+- wait:
+  - 40
+- print:
+  - レイ
+  - |2-
+
+    普段からいたずらするなんて……
+- wait:
+  - 60
+- face:
+  - 114011
+  - 1
+- print:
+  - レイ
+  - ああ、
+- wait:
+  - 10
+- print:
+  - レイ
+  - でも
+- wait:
+  - 30
+- print:
+  - レイ
+  - |2-
+
+    貴族の連中を相手にいたずらしてみるのは、
+- wait:
+  - 50
+- print:
+  - レイ
+  - いいかもしれないね。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050207_002
+- face:
+  - 114011
+  - 5
+- print:
+  - レイ
+  - い、
+- wait:
+  - 15
+- print:
+  - レイ
+  - 一応私なりに努力しているんだ。
+- wait:
+  - 65
+- print:
+  - レイ
+  - |2
+
+- face:
+  - 114011
+  - 4
+- print:
+  - レイ
+  - キミには通じていない、
+- wait:
+  - 45
+- print:
+  - レイ
+  - のかな？　
+- wait:
+  - 45
+- face:
+  - 114011
+  - 5
+- print:
+  - レイ
+  - えっと、
+- wait:
+  - 30
+- print:
+  - レイ
+  - じゃあ、
+- wait:
+  - 15
+- print:
+  - レイ
+  - その……
+- wait:
+  - 55
+- print:
+  - レイ
+  - |2
+
+- face:
+  - 114011
+  - 4
+- print:
+  - レイ
+  - ダメだ。
+- wait:
+  - 25
+- print:
+  - レイ
+  - キミ相手に演技なんて、
+- wait:
+  - 30
+- eye_open:
+  - False
+- print:
+  - レイ
+  - 上手くできそうにないよ。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050207_003
+- face:
+  - 114011
+  - 1
+- print:
+  - レイ
+  - ツムギもそう言っていたね。
+- wait:
+  - 45
+- print:
+  - レイ
+  - |2
+
+- face:
+  - 114011
+  - 6
+- print:
+  - レイ
+  - 最初は楽しめるわけないと思っていたけど、
+- wait:
+  - 55
+- print:
+  - レイ
+  - |2
+
+- face:
+  - 114011
+  - 2
+- print:
+  - レイ
+  - 私にも
+- wait:
+  - 30
+- print:
+  - レイ
+  - 意外といたずらっこの才能があったのかな？
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 114011
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

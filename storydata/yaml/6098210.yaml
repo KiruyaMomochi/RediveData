@@ -1,0 +1,258 @@
+- title:
+  - さよならお化け
+- outline:
+  - ' '
+- background:
+  - 501131
+- amb:
+  - amb_adv_outdoors_night_01
+- ui_visible:
+  - FALSE
+- situation:
+  - さよならお化け
+- chara_full:
+  - 114011
+  - C
+  - 6
+- fadein:
+  - 114011
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M415_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050210_000
+- face:
+  - 114011
+  - 6
+- print:
+  - レイ
+  - マシューたちはもう霊界に帰れたかな。
+- wait:
+  - 65
+- print:
+  - レイ
+  - |2
+
+- face:
+  - 114011
+  - 1
+- print:
+  - レイ
+  - あっちで元気に過ごしているといいんだけど。
+- touch: &o0 []
+- choice:
+  - 見に行く？
+  - 1
+  - 1
+- choice:
+  - 元気だよ。
+  - 2
+  - 2
+- choice:
+  - 来年また会えるよ！
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050210_001
+- face:
+  - 114011
+  - 6
+- emotion:
+  - question1_R
+  - 114011
+  - 100
+  - 495
+  - se_adv_emote_question_01
+- print:
+  - レイ
+  - え？　
+- wait:
+  - 15
+- print:
+  - レイ
+  - れ、
+- wait:
+  - 15
+- print:
+  - レイ
+  - 霊界に？
+- wait:
+  - 35
+- print:
+  - レイ
+  - |2
+
+- face:
+  - 114011
+  - 4
+- print:
+  - レイ
+  - いや、
+- wait:
+  - 20
+- print:
+  - レイ
+  - 確かにあの子たちには会いたいけど……
+- wait:
+  - 50
+- print:
+  - レイ
+  - |2-
+
+    お化けの世界に行くのは、
+- wait:
+  - 35
+- eye_open:
+  - False
+- print:
+  - レイ
+  - その、
+- wait:
+  - 25
+- print:
+  - レイ
+  - 少しだけ心の準備が……
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050210_002
+- face:
+  - 114011
+  - 2
+- print:
+  - レイ
+  - 確かに
+- wait:
+  - 35
+- print:
+  - レイ
+  - 元気じゃないあの子たちなんて想像できない。
+- wait:
+  - 55
+- print:
+  - レイ
+  - |2
+
+- face:
+  - 114011
+  - 4
+- print:
+  - レイ
+  - でも
+- wait:
+  - 30
+- print:
+  - レイ
+  - 他のお化けにいじめられていたりしないかな……
+- wait:
+  - 70
+- print:
+  - レイ
+  - |2
+
+- face:
+  - 114011
+  - 1
+- print:
+  - レイ
+  - いや、
+- wait:
+  - 25
+- print:
+  - レイ
+  - 今のあの子たちなら
+- wait:
+  - 35
+- print:
+  - レイ
+  - きっと大丈夫だよね。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050210_003
+- face:
+  - 114011
+  - 2
+- print:
+  - レイ
+  - 来年、
+- wait:
+  - 25
+- print:
+  - レイ
+  - か。
+- wait:
+  - 40
+- print:
+  - レイ
+  - あの子たちはどれくらい成長してくるかな。
+- wait:
+  - 65
+- print:
+  - レイ
+  - |2
+
+- face:
+  - 114011
+  - 1
+- print:
+  - レイ
+  - 笑われないように
+- wait:
+  - 30
+- print:
+  - レイ
+  - 私たちも努力しておかないとね。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 114011
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

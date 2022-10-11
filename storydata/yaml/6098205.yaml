@@ -1,0 +1,290 @@
+- title:
+  - ハロウィンについて
+- outline:
+  - ' '
+- background:
+  - 501132
+- amb:
+  - amb_adv_outdoors_night_01
+- ui_visible:
+  - FALSE
+- situation:
+  - ハロウィンについて
+- chara_full:
+  - 114011
+  - C
+  - 6
+- fadein:
+  - 114011
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M414_03
+  - 0
+  - 0
+  - 1
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050205_000
+- face:
+  - 114011
+  - 6
+- print:
+  - レイ
+  - ハロウィンは収穫を祝うお祭りなんだよね？
+- wait:
+  - 75
+- print:
+  - レイ
+  - |2
+
+- face:
+  - 114011
+  - 4
+- print:
+  - レイ
+  - だったら仮装をする必要はないんじゃないかな……
+- wait:
+  - 60
+- print:
+  - レイ
+  - |2
+
+- face:
+  - 114011
+  - 6
+- print:
+  - レイ
+  - いや、
+- wait:
+  - 25
+- print:
+  - レイ
+  - お化け屋敷のためっていうのは分かっているけど。
+- touch: &o0 []
+- choice:
+  - 楽しいよ？
+  - 1
+  - 1
+- choice:
+  - 堂々とすればいいんだよ。
+  - 2
+  - 2
+- choice:
+  - 交換する？
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050205_001
+- face:
+  - 114011
+  - 6
+- print:
+  - レイ
+  - 楽しい、
+- wait:
+  - 35
+- print:
+  - レイ
+  - か。
+- wait:
+  - 40
+- face:
+  - 114011
+  - 1
+- print:
+  - レイ
+  - そうだね。
+- wait:
+  - 35
+- print:
+  - レイ
+  - |2-
+
+    せっかくのお祭りを楽しまないのはもったいないね。
+- wait:
+  - 60
+- print:
+  - レイ
+  - |2
+
+- face:
+  - 114011
+  - 6
+- print:
+  - レイ
+  - でも……
+- wait:
+  - 30
+- print:
+  - レイ
+  - えっと、
+- wait:
+  - 35
+- print:
+  - レイ
+  - 女幽霊ってどんな風に楽しむのかな？
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050205_002
+- face:
+  - 114011
+  - 1
+- nod:
+  - 114011
+- print:
+  - レイ
+  - ……そうだね。
+- wait:
+  - 25
+- print:
+  - レイ
+  - ツムギが作ってくれたものなんだ。
+- wait:
+  - 40
+- print:
+  - レイ
+  - |2-
+
+    恥ずかしがることなんてないよね。
+- wait:
+  - 45
+- print:
+  - レイ
+  - |2
+
+- face:
+  - 114011
+  - 2
+- print:
+  - レイ
+  - キミのおかげで迷いが消えたよ。
+- wait:
+  - 35
+- print:
+  - レイ
+  - ありがとう。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050205_003
+- face:
+  - 114011
+  - 5
+- emotion:
+  - question1_R
+  - 114011
+  - 100
+  - 495
+  - se_adv_emote_question_01
+- print:
+  - レイ
+  - き、
+- wait:
+  - 20
+- print:
+  - レイ
+  - キミの服と？　
+- wait:
+  - 45
+- print:
+  - レイ
+  - キミにとってそれは普段着だけど、
+- wait:
+  - 35
+- print:
+  - レイ
+  - 私にとっては……
+- wait:
+  - 55
+- print:
+  - レイ
+  - |2
+
+- face:
+  - 114011
+  - 6
+- print:
+  - レイ
+  - ん？　
+- wait:
+  - 30
+- print:
+  - レイ
+  - 交換ということは、
+- wait:
+  - 35
+- print:
+  - レイ
+  - キミがこの服を着るの？
+- wait:
+  - 45
+- print:
+  - レイ
+  - |2
+
+- face:
+  - 114011
+  - 4
+- print:
+  - レイ
+  - いや、
+- wait:
+  - 20
+- print:
+  - レイ
+  - キミの意志は尊重したいけど……
+- wait:
+  - 50
+- print:
+  - レイ
+  - ね？
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 114011
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

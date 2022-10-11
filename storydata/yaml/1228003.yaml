@@ -1,0 +1,4199 @@
+- title:
+  - 禊（夏日） 第3話
+- outline:
+  - 熱帶果汁賣完了，為了尋找製作果汁的材料，禊兩人來到了海邊的洞窟。雖然遭到魔物襲擊，但靠著{0}的機智，兩人順利度過危機，成功取得了要找的水果。
+- background:
+  - 500160
+- se:
+  - amb_adv_seaside_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 寶物就是熱帶水果！
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 下了船後，{0}和禊走在海灘上，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - |2-
+
+    這時兩人看見了一家大排長龍的店面。
+- wait:
+  - 15
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- chara_full:
+  - 122811
+  - L
+  - 1
+- chara_full:
+  - 411
+  - RC
+  - 1
+- se:
+  - se_adv_step_dirt_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M609
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_000
+- face:
+  - 122811
+  - 6
+- emotion:
+  - notice1_L
+  - 122811
+  - -75
+  - 490
+  - se_adv_emote_common_01
+- print:
+  - 禊
+  - 哇～
+- wait:
+  - 35
+- print:
+  - 禊
+  - 好多人在排隊喔～
+- wait:
+  - 50
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 1
+- print:
+  - 禊
+  - 禊去問一下好了。
+- wait:
+  - 55
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 6
+- print:
+  - 禊
+  - ……欸～大姐姐，
+- wait:
+  - 20
+- print:
+  - 禊
+  - 這家店是賣什麼的呀～？
+- touch: *o0
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1228003_001
+- face:
+  - 411
+  - 1
+- print:
+  - 女性
+  - 唉呀，
+- wait:
+  - 20
+- print:
+  - 女性
+  - 你們不知道這家店的熱帶果汁嗎？
+- wait:
+  - 45
+- print:
+  - 女性
+  - |2-
+
+    現在在蘭德索爾的女生之間很流行喔。
+- wait:
+  - 65
+- print:
+  - 女性
+  - |2
+
+- face:
+  - 411
+  - 2
+- print:
+  - 女性
+  - 妳看，
+- wait:
+  - 15
+- print:
+  - 女性
+  - 這本書還有特別介紹。
+- touch: *o0
+- window_visible:
+  - false
+- focus:
+  - 122811:411
+- se:
+  - se_adv_book_open_01
+- nod:
+  - 411
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_002
+- face:
+  - 122811
+  - 1
+- print:
+  - 禊
+  - ……真的耶！
+- wait:
+  - 35
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 2
+- print:
+  - 禊
+  - 哇，
+- wait:
+  - 20
+- print:
+  - 禊
+  - 看起來好好喝～♪
+- wait:
+  - 55
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 1
+- print:
+  - 禊
+  - 哥哥，
+- wait:
+  - 20
+- print:
+  - 禊
+  - 禊也想喝喝看～！
+- touch: *o0
+- choice:
+  - 我們一起排隊吧。
+  - 1
+- tag:
+  - 1
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 122811
+  - C
+  - 1
+- fadein:
+  - 122811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_003
+- face:
+  - 122811
+  - 1
+- nod:
+  - 122811
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 禊
+  - 嗯！
+- wait:
+  - 35
+- face:
+  - 122811
+  - 2
+- print:
+  - 禊
+  - 哇～真期待～♪
+- wait:
+  - 60
+- print:
+  - 禊
+  - |2-
+
+    也要把這果汁的味道當作暑假的回憶，在發表時好好跟大家分享才行！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+  - 1
+- fadeout:
+  - 122811
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 122811
+  - C
+  - 6
+- fadein:
+  - 122811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M612
+  - 0
+  - 0
+  - 0
+  - 0.2
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_004
+- face:
+  - 122811
+  - 6
+- print:
+  - 禊
+  - ……前面還排了好多人喔～
+- wait:
+  - 60
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 1
+- print:
+  - 禊
+  - 因為太無聊了，可以對哥哥惡作劇嗎？
+- wait:
+  - 75
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 2
+- print:
+  - 禊
+  - 你看！
+- wait:
+  - 30
+- print:
+  - 禊
+  - 裝了禊特製辣椒水的
+- wait:
+  - 30
+- print:
+  - 禊
+  - 水槍──♪
+- touch: *o0
+- choice:
+  - 不可以，太危險了。
+  - 2
+- tag:
+  - 2
+- window_visible:
+  - false
+- fadeout:
+  - 122811
+  - 30
+- se:
+  - se_adv_step_dirt_move_01
+- camera_zoom:
+  - 1.3
+  - 15
+- chara_full:
+  - 122811
+  - C
+  - 6
+- fadein:
+  - 122811
+  - 30
+- se:
+  - se_adv_tickle_02
+- shake:
+  - 122811
+- window_visible:
+  - true
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_005
+- face:
+  - 122811
+  - 6
+- print:
+  - 禊
+  - 啊！
+- wait:
+  - 20
+- print:
+  - 禊
+  - 水槍被拿走了！
+- wait:
+  - 65
+- print:
+  - 禊
+  - |2
+
+- pop:
+  - 122811
+- face:
+  - 122811
+  - 3
+- print:
+  - 禊
+  - 還
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 禊
+  - 來～
+- wait:
+  - 30
+- print:
+  - 禊
+  - 還給禊啦～
+- wait:
+  - 20
+- print:
+  - 禊
+  - 哥哥～！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_magic_damage_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- choice:
+  - 刺、刺刺麻麻的……
+  - 3
+- tag:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_006
+- face:
+  - 122811
+  - 2
+- print:
+  - 禊
+  - 噗噗噗……！
+- wait:
+  - 30
+- print:
+  - 禊
+  - 啊哈哈，
+- wait:
+  - 15
+- print:
+  - 禊
+  - 中招了──！
+- wait:
+  - 45
+- print:
+  - 禊
+  - |2-
+
+    其實禊在握把的地方裝了電擊裝置～！
+- wait:
+  - 90
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 1
+- print:
+  - 禊
+  - 接下來的惡作劇是……
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+- fadeout:
+  - 122811
+  - 30
+- black_out:
+  - 1
+  - 1
+- camera_zoom:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 122811
+  - C
+  - 4
+- fadein:
+  - 122811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M129_Ver2_NoB
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_007
+- face:
+  - 122811
+  - 4
+- emotion:
+  - gloomy1_R
+  - 122811
+  - 45
+  - 490
+  - se_adv_emote_gloomy_01
+- print:
+  - 禊
+  - 惡作劇的道具已經沒了啦～
+- wait:
+  - 75
+- print:
+  - 禊
+  - 還沒輪到我們嗎～？
+- touch: *o0
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_008
+- face:
+  - 122811
+  - 4
+- eye_open:
+  - False
+- print:
+  - 禊
+  - 唉──
+- wait:
+  - 35
+- eye_open:
+  - True
+- print:
+  - 禊
+  - 好渴喔～
+- wait:
+  - 70
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 1
+- print:
+  - 禊
+  - 不過，等一下就換前面的大姐姐了！
+- wait:
+  - 50
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 2
+- print:
+  - 禊
+  - 我們就快喝到了～！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 122811
+  - 30
+- chara_full:
+  - 411
+  - LC
+  - 6
+- chara_full:
+  - 1411
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1228003_009
+- face:
+  - 411
+  - 6
+- emotion:
+  - surprise1_L
+  - 411
+  - 140
+  - 570
+  - se_adv_emote_common_01
+- print:
+  - 女性
+  - 什麼！？
+- wait:
+  - 20
+- print:
+  - 女性
+  - 賣完了～！？
+- wait:
+  - 40
+- print:
+  - 女性
+  - |2
+
+- face:
+  - 411
+  - 4
+- print:
+  - 女性
+  - 怎、
+- wait:
+  - 10
+- print:
+  - 女性
+  - 怎麼這樣，
+- wait:
+  - 35
+- print:
+  - 女性
+  - 為了喝這個，
+- wait:
+  - 10
+- print:
+  - 女性
+  - |2-
+
+    我還特地花了三個小時從鄉下跑這一趟耶～～！
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1228003_010
+- face:
+  - 1411
+  - 4
+- print:
+  - 店員
+  - 不好意思……
+- wait:
+  - 40
+- print:
+  - 店員
+  - 因為材料都用完了，
+- wait:
+  - 20
+- print:
+  - 店員
+  - 今天沒辦法做了。
+- wait:
+  - 45
+- print:
+  - 店員
+  - |2-
+
+    我們家的熱帶果汁，
+- wait:
+  - 25
+- print:
+  - 店員
+  - 用的是很珍貴的水果，
+- wait:
+  - 35
+- print:
+  - 店員
+  - |2-
+
+    必須要穿過海灣洞窟才摘採得到……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 122811
+  - C
+  - 6
+- fadein:
+  - 122811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_011
+- face:
+  - 122811
+  - 6
+- print:
+  - 禊
+  - 什麼～
+- wait:
+  - 40
+- print:
+  - 禊
+  - 不會吧～！
+- wait:
+  - 45
+- print:
+  - 禊
+  - |2-
+
+    ……
+- wait:
+  - 10
+- nod:
+  - 122811
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 禊
+  - ……吞口水。
+- wait:
+  - 40
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 4
+- print:
+  - 禊
+  - 因、
+- wait:
+  - 20
+- print:
+  - 禊
+  - 因為喝不到，
+- wait:
+  - 30
+- print:
+  - 禊
+  - 反而更想喝了啦～！
+- touch: *o0
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_012
+- face:
+  - 122811
+  - 3
+- print:
+  - 禊
+  - 哥哥也很想喝吧……！？
+- wait:
+  - 40
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 6
+- print:
+  - 禊
+  - 有沒有什麼辦法喝得到呢～？
+- touch: *o0
+- choice:
+  - 有材料的話應該可以請店家做？
+  - 4
+- tag:
+  - 4
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_013
+- face:
+  - 122811
+  - 1
+- print:
+  - 禊
+  - 對耶～
+- wait:
+  - 40
+- face:
+  - 122811
+  - 4
+- print:
+  - 禊
+  - 有材料的話一定可以請店家幫忙……
+- wait:
+  - 70
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 4
+- print:
+  - 禊
+  - 不過，話說回來，珍貴的水果啊……
+- wait:
+  - 60
+- face:
+  - 122811
+  - 6
+- print:
+  - 禊
+  - 就好像寶物一樣呢～
+- touch: *o0
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_014
+- face:
+  - 122811
+  - 4
+- print:
+  - 禊
+  - ……寶物……
+- wait:
+  - 25
+- print:
+  - 禊
+  - 寶物……
+- wait:
+  - 60
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 6
+- emotion:
+  - notice2_L
+  - 122811
+  - -115
+  - 480
+  - se_adv_emote_nortice_01
+- print:
+  - 禊
+  - 寶物……！！
+- wait:
+  - 50
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 1
+- print:
+  - 禊
+  - 對了，哥哥！！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 122811
+  - 30
+- chara_full:
+  - 411
+  - LC
+  - 4
+- chara_full:
+  - 1411
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1228003_015
+- face:
+  - 411
+  - 4
+- nod:
+  - 411
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 女性
+  - ……拜託，
+- wait:
+  - 20
+- print:
+  - 女性
+  - 能不能想想辦法？
+- wait:
+  - 45
+- print:
+  - 女性
+  - |2
+
+- face:
+  - 411
+  - 1
+- print:
+  - 女性
+  - 對、
+- wait:
+  - 15
+- print:
+  - 女性
+  - 對了，
+- wait:
+  - 20
+- print:
+  - 女性
+  - 像是去摘那種水果之類的……！
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1228003_016
+- face:
+  - 1411
+  - 4
+- print:
+  - 店員
+  - 那是不可能的……
+- wait:
+  - 60
+- print:
+  - 店員
+  - 因為，
+- wait:
+  - 15
+- print:
+  - 店員
+  - 那座洞窟有魔物出沒……
+- wait:
+  - 70
+- print:
+  - 店員
+  - |2-
+
+    只有在清晨
+- wait:
+  - 40
+- print:
+  - 店員
+  - 魔物還沒醒來的那段時間，
+- wait:
+  - 30
+- print:
+  - 店員
+  - |2-
+
+    才有機會去摘那種水果……
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1228003_017
+- face:
+  - 1411
+  - 4
+- eye_open:
+  - False
+- print:
+  - 店員
+  - ……所以很抱歉，
+- wait:
+  - 40
+- print:
+  - 店員
+  - 實在沒有辦法。
+- wait:
+  - 60
+- print:
+  - 店員
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 店員
+  - 不好意思，
+- wait:
+  - 30
+- print:
+  - 店員
+  - 排在後面的小妹妹，你們也……
+- wait:
+  - 45
+- face:
+  - 1411
+  - 6
+- print:
+  - 店員
+  - 奇怪？
+- wait:
+  - 30
+- print:
+  - 店員
+  - |2-
+
+    人不見了……
+- wait:
+  - 40
+- print:
+  - 店員
+  - 是已經回去了嗎……？
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+  - 1
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_seaside_01
+  - 1
+- background:
+  - 500240
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_cave_with_water_01
+- vo_effect:
+  - 3
+- chara_full:
+  - 122811
+  - LC
+  - 1
+- se:
+  - se_adv_step_dirt_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 122811
+  - 45
+- window_visible:
+  - true
+- bgm:
+  - bgm_M140_Ver2
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_018
+- face:
+  - 122811
+  - 2
+- print:
+  - 禊
+  - 發現洞窟～！
+- wait:
+  - 50
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 1
+- print:
+  - 禊
+  - 叔叔說的海灣洞窟，
+- wait:
+  - 40
+- print:
+  - 禊
+  - 一定就是這裡！
+- touch: *o0
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_019
+- face:
+  - 122811
+  - 1
+- print:
+  - 禊
+  - 尋寶就交給禊探險隊！
+- wait:
+  - 80
+- print:
+  - 禊
+  - |2-
+
+    探索洞窟，
+- wait:
+  - 40
+- print:
+  - 禊
+  - 尋找珍貴的水果……！
+- wait:
+  - 45
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 2
+- emotion:
+  - note1_L
+  - 122811
+  - -105
+  - 435
+  - se_adv_emote_note_01
+- print:
+  - 禊
+  - 真讓人興奮～！
+- touch: *o0
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_020
+- face:
+  - 122811
+  - 2
+- print:
+  - 禊
+  - 而且還有哥哥一起探險！
+- wait:
+  - 55
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 1
+- print:
+  - 禊
+  - 哥哥！
+- wait:
+  - 10
+- print:
+  - 禊
+  - 一定
+- wait:
+  - 15
+- print:
+  - 禊
+  - 要找到那個水果喔！
+- touch: *o0
+- choice:
+  - 交給我吧！
+  - 5
+- choice:
+  - 隊長，請多指教！
+  - 6
+- tag:
+  - 5
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_021
+- face:
+  - 122811
+  - 2
+- pop:
+  - 122811
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 禊
+  - 哦～
+- wait:
+  - 30
+- print:
+  - 禊
+  - 哥哥也幹勁十足，真開心～！
+- wait:
+  - 65
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 1
+- print:
+  - 禊
+  - 就由擔任隊長的禊來領隊，
+- wait:
+  - 50
+- print:
+  - 禊
+  - 要跟緊喔！
+- touch: *o0
+- goto:
+  - 7
+- tag:
+  - 6
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_022
+- face:
+  - 122811
+  - 1
+- nod:
+  - 122811
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 禊
+  - 嗯！
+- wait:
+  - 20
+- print:
+  - 禊
+  - 要跟在禊後面，
+- wait:
+  - 25
+- print:
+  - 禊
+  - 不要脫隊囉──！
+- touch: *o0
+- tag:
+  - 7
+- window_visible:
+  - false
+- se:
+  - se_adv_step_dirt_walk_go_01
+- change:
+  - RC
+  - C
+  - 30
+- bgm:
+  - stop
+  - 2
+- fadeout:
+  - 122811
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 122811
+  - LC
+  - 1
+- se:
+  - se_adv_step_dirt_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 122811
+  - 45
+- window_visible:
+  - true
+- bgm:
+  - bgm_M274
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_023
+- face:
+  - 122811
+  - 1
+- print:
+  - 禊
+  - 啊──
+- wait:
+  - 20
+- print:
+  - 禊
+  - 啊──
+- wait:
+  - 25
+- print:
+  - 禊
+  - 啊──！！
+- wait:
+  - 40
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 2
+- print:
+  - 禊
+  - 啊哈哈，
+- wait:
+  - 15
+- print:
+  - 禊
+  - 回音好響亮喔──！
+- wait:
+  - 50
+- print:
+  - 禊
+  - |2-
+
+    真好玩──！
+- touch: *o0
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_024
+- face:
+  - 122811
+  - 1
+- nod:
+  - 122811
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 禊
+  - 對了！
+- wait:
+  - 30
+- print:
+  - 禊
+  - 在這邊放鞭炮的話……！
+- wait:
+  - 55
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 2
+- print:
+  - 禊
+  - 嘻嘻嘻，
+- wait:
+  - 30
+- print:
+  - 禊
+  - 我丟！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_firecracker_01
+- se_effect:
+  - 3
+- white_out:
+  - 0.5
+  - 0.1
+- face:
+  - 122811
+  - 6
+- white_in: *o0
+- window_visible:
+  - true
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_025
+- face:
+  - 122811
+  - 6
+- print:
+  - 禊
+  - 哇～
+- wait:
+  - 30
+- print:
+  - 禊
+  - 好大聲──！
+- wait:
+  - 25
+- face:
+  - 122811
+  - 2
+- print:
+  - 禊
+  - 啊哈哈！！
+- touch: *o0
+- choice:
+  - ……仔細聽。
+  - 8
+- tag:
+  - 8
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_026
+- face:
+  - 122811
+  - 6
+- emotion:
+  - question1_R
+  - 122811
+  - 150
+  - 435
+  - se_adv_emote_question_01
+- print:
+  - 禊
+  - ……嗯？
+- wait:
+  - 35
+- print:
+  - 禊
+  - 有聲音嗎……？
+- wait:
+  - 55
+- print:
+  - 禊
+  - |2-
+
+    真的耶，
+- wait:
+  - 20
+- print:
+  - 禊
+  - 是什麼聲音啊……？
+- touch: *o0
+- se:
+  - se_adv_bats_01
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_027
+- face:
+  - 122811
+  - 6
+- pop:
+  - 122811
+- se:
+  - se_adv_rabbit_jump_01
+- print:
+  - 禊
+  - 哇！
+- wait:
+  - 20
+- print:
+  - 禊
+  - 是一大群蝙蝠！
+- wait:
+  - 40
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 4
+- print:
+  - 禊
+  - 對不起，吵到你們了──！？
+- wait:
+  - 45
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 6
+- print:
+  - 禊
+  - 哥哥，快逃啊──！！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_dirt_run_go_01
+- change:
+  - LC
+  - C
+  - 30
+- bgm:
+  - stop
+  - 1.5
+  - 1
+- fadeout:
+  - 122811
+  - 30
+- black_out:
+  - 1
+  - 0.5
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 122811
+  - C
+  - 4
+- fadein:
+  - 122811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M244
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_028
+- face:
+  - 122811
+  - 4
+- print:
+  - 禊
+  - 呼……
+- wait:
+  - 20
+- nod:
+  - 122811
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 禊
+  - 呼……
+- wait:
+  - 35
+- print:
+  - 禊
+  - 逃掉了～
+- wait:
+  - 70
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 6
+- print:
+  - 禊
+  - ……啊，
+- wait:
+  - 20
+- print:
+  - 禊
+  - 這裡的水都積成湖了！
+- touch: *o0
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_029
+- face:
+  - 122811
+  - 4
+- print:
+  - 禊
+  - 對喔，
+- wait:
+  - 25
+- print:
+  - 禊
+  - 哥哥不會游泳……
+- wait:
+  - 55
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 6
+- print:
+  - 禊
+  - 怎麼辦，
+- wait:
+  - 25
+- print:
+  - 禊
+  - 有沒有什麼方法呢……
+- wait:
+  - 75
+- print:
+  - 禊
+  - 嗯？
+- touch: *o0
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_030
+- face:
+  - 122811
+  - 1
+- emotion:
+  - notice1_L
+  - 122811
+  - -75
+  - 490
+  - se_adv_emote_common_01
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 禊
+  - 欸，哥哥，
+- wait:
+  - 25
+- print:
+  - 禊
+  - 你要不要試試看這個派對吹笛？
+- wait:
+  - 60
+- print:
+  - 禊
+  - |2-
+
+    用這個的話，
+- wait:
+  - 20
+- print:
+  - 禊
+  - 搞不好在水裡也能呼吸！
+- touch: *o0
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_031
+- face:
+  - 122811
+  - 2
+- print:
+  - 禊
+  - 不用怕，
+- wait:
+  - 25
+- print:
+  - 禊
+  - 頭朝上慢慢呼吸！
+- wait:
+  - 50
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 1
+- print:
+  - 禊
+  - 有危險的話，
+- wait:
+  - 15
+- print:
+  - 禊
+  - 禊會救你的！
+- touch: *o0
+- choice:
+  - 好！那就出發囉！
+  - 9
+- tag:
+  - 9
+- window_visible:
+  - false
+- fadeout:
+  - 122811
+  - 30
+- se:
+  - se_adv_water_trap_01
+- se:
+  - se_adv_water_under_01
+- bg_pan:
+  - 0
+  - 150
+  - 15
+- se:
+  - se_adv_whistle_01
+- window_visible:
+  - true
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 1
+- vo:
+  - vo_adv_1228003_032
+- face:
+  - 122811
+  - 2
+- print:
+  - 禊
+  - ……噗！
+- wait:
+  - 15
+- print:
+  - 禊
+  - 啊哈哈哈！
+- wait:
+  - 25
+- print:
+  - 禊
+  - |2-
+
+    好好笑的聲音──！！
+- wait:
+  - 50
+- print:
+  - 禊
+  - 咕嚕咕嚕咕嚕……！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 122811
+  - 30
+- bgm:
+  - stop
+  - 1.5
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_cave_with_water_01
+  - 1
+- bg_pan:
+  - 0
+  - 0
+  - 0
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_cave_with_water_01
+- chara_full:
+  - 122811
+  - C
+  - 2
+- fadein:
+  - 122811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M274_06
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_033
+- face:
+  - 122811
+  - 2
+- print:
+  - 禊
+  - 呼……
+- wait:
+  - 25
+- print:
+  - 禊
+  - 笑到禊都差點溺水了！
+- wait:
+  - 65
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 1
+- print:
+  - 禊
+  - 不過這樣就游過湖了！
+- wait:
+  - 50
+- print:
+  - 禊
+  - 接下來會遇到什麼呢～？
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_dirt_walk_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 122811
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 122811
+  - LC
+  - 1
+- se:
+  - se_adv_step_dirt_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 45
+- fadein:
+  - 122811
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_034
+- face:
+  - 122811
+  - 6
+- emotion:
+  - exclamation1_R
+  - 122811
+  - 40
+  - 590
+  - se_adv_emote_common_01
+- print:
+  - 禊
+  - 哇，
+- wait:
+  - 25
+- print:
+  - 禊
+  - 這裡的天花板長了好多刺耶！？
+- wait:
+  - 80
+- print:
+  - 禊
+  - |2-
+
+    記得爸爸有講過……
+- wait:
+  - 50
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 4
+- print:
+  - 禊
+  - 好像是叫
+- wait:
+  - 45
+- print:
+  - 禊
+  - 鐘乳石吧？
+- touch: *o0
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_035
+- face:
+  - 122811
+  - 1
+- print:
+  - 禊
+  - ……對了，
+- wait:
+  - 30
+- print:
+  - 禊
+  - 先在這些刺上弄些裂縫，
+- wait:
+  - 45
+- print:
+  - 禊
+  - |2-
+
+    等哥哥走過去的時候刺就掉下來──這樣的惡作劇好像不錯……
+- wait:
+  - 95
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 6
+- print:
+  - 禊
+  - 咦！？
+- wait:
+  - 25
+- face:
+  - 122811
+  - 2
+- print:
+  - 禊
+  - 啊哈哈，
+- wait:
+  - 25
+- print:
+  - 禊
+  - 沒事沒事！
+- touch: *o0
+- bgm:
+  - stop
+  - 4
+  - 1
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_036
+- face:
+  - 122811
+  - 6
+- nod:
+  - 122811
+- se:
+  - se_adv_step_dirt_move_01
+- print:
+  - 禊
+  - ……欸，哥哥，
+- wait:
+  - 20
+- print:
+  - 禊
+  - 你有看那邊的光線嗎？
+- wait:
+  - 65
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 1
+- bgm:
+  - bgm_M582_02
+- print:
+  - 禊
+  - 寶物一定就在那前面，對不對！？
+- touch: *o0
+- choice:
+  - 一定是這樣！
+  - 10
+- tag:
+  - 10
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_037
+- face:
+  - 122811
+  - 2
+- print:
+  - 禊
+  - 對吧！！
+- wait:
+  - 30
+- print:
+  - 禊
+  - 好，哥哥，
+- wait:
+  - 15
+- print:
+  - 禊
+  - 我們來比賽誰先跑到光線那邊！
+- wait:
+  - 60
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 1
+- print:
+  - 禊
+  - 各就各位～～～～～
+- wait:
+  - 35
+- print:
+  - 禊
+  - 預備──
+- wait:
+  - 30
+- face:
+  - 122811
+  - 2
+- pop:
+  - 122811
+- print:
+  - 禊
+  - 開
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 禊
+  - 始！！
+- touch: *o0
+- window_visible:
+  - false
+- vo_effect:
+  - 0
+- se:
+  - se_adv_step_dirt_run_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 122811
+  - 30
+- se_pause:
+  - amb_adv_cave_with_water_01
+  - 1
+- se_effect:
+  - 0
+- white_out:
+  - 1
+  - 1
+- background:
+  - 500280
+- wait:
+  - 15
+- white_in: *o0
+- se:
+  - amb_adv_seaside_01
+- chara_full:
+  - 122811
+  - LC
+  - 1
+- se:
+  - se_adv_step_dirt_run_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 30
+- fadein:
+  - 122811
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_038
+- face:
+  - 122811
+  - 1
+- print:
+  - 禊
+  - 呼、
+- wait:
+  - 25
+- nod:
+  - 122811
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 禊
+  - 呼……
+- wait:
+  - 30
+- print:
+  - 禊
+  - |2-
+
+    竟然跟得上禊得速度，
+- wait:
+  - 45
+- print:
+  - 禊
+  - 哥哥真厲害！
+- touch: *o0
+- choice:
+  - 妳看那個！
+  - 11
+- tag:
+  - 11
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_039
+- face:
+  - 122811
+  - 6
+- print:
+  - 禊
+  - 哪個……
+- wait:
+  - 40
+- face:
+  - 122811
+  - 1
+- emotion:
+  - exclamation1_R
+  - 122811
+  - 40
+  - 590
+  - se_adv_emote_common_01
+- print:
+  - 禊
+  - 啊！！
+- wait:
+  - 30
+- print:
+  - 禊
+  - 長在那棵樹上的水果！
+- wait:
+  - 50
+- print:
+  - 禊
+  - |2-
+
+    在這裡就聞得到甜甜的香氣！
+- wait:
+  - 50
+- print:
+  - 禊
+  - 一定就是那種水果沒錯！
+- wait:
+  - 55
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 2
+- print:
+  - 禊
+  - 呀呼──！！
+- wait:
+  - 20
+- print:
+  - 禊
+  - 發現寶藏──！！
+- touch: *o0
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_040
+- face:
+  - 122811
+  - 2
+- print:
+  - 禊
+  - 太好了──！
+- wait:
+  - 35
+- print:
+  - 禊
+  - 這樣就喝得到熱帶果汁了～！
+- wait:
+  - 50
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 1
+- print:
+  - 禊
+  - 那就來摘禊跟哥哥的份吧！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_bush_03
+- nod:
+  - 122811
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_041
+- face:
+  - 122811
+  - 2
+- emotion:
+  - twinkle1_R
+  - 122811
+  - -105
+  - 410
+  - se_adv_emote_twinkle_01
+- print:
+  - 禊
+  - 嗯～
+- wait:
+  - 30
+- print:
+  - 禊
+  - 看起來好好吃喔～！
+- wait:
+  - 30
+- print:
+  - 禊
+  - |2-
+
+    口水流不停了～！
+- touch: *o0
+- choice:
+  - 危險！
+  - 12
+- tag:
+  - 12
+- bgm:
+  - stop
+  - 4.5
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_042
+- face:
+  - 122811
+  - 6
+- print:
+  - 禊
+  - 咦……？
+- wait:
+  - 30
+- print:
+  - 禊
+  - |2
+
+- pop:
+  - 122811
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 禊
+  - ……哇哇！？
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 122811
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 1614
+  - C
+  - 1
+- fadein:
+  - 1614
+  - 30
+- change_window:
+  - 3
+- text_size:
+  - 50
+- bgm:
+  - bgm_M276
+  - 0
+  - 0
+  - 1
+  - 0
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - TRUE
+- focus:
+  - 1614
+- bust:
+  - 1614
+  - 0
+- face:
+  - 1614
+  - 1
+- effect:
+  - 9
+- print:
+  - 魔物
+  - ──咕喔喔喔喔喔！
+- shake_screen: *o0
+- touch: *o0
+- window_visible:
+  - FALSE
+- change_window:
+  - 1
+- text_size:
+  - 23
+- fadeout:
+  - 1614
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 122811
+  - C
+  - 6
+- fadein:
+  - 122811
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_043
+- face:
+  - 122811
+  - 6
+- print:
+  - 禊
+  - 是魔物……！！
+- wait:
+  - 40
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 1
+- print:
+  - 禊
+  - 不過，沒關係！
+- wait:
+  - 25
+- print:
+  - 禊
+  - 只要用鞭炮嚇它……
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_bag_search_01
+- nod:
+  - 122811
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_044
+- face:
+  - 122811
+  - 6
+- print:
+  - 禊
+  - 糟糕！
+- wait:
+  - 30
+- print:
+  - 禊
+  - 想到剛剛把鞭炮都用完了！！
+- touch: *o0
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_045
+- face:
+  - 122811
+  - 4
+- print:
+  - 禊
+  - 那、
+- wait:
+  - 20
+- print:
+  - 禊
+  - 那用其他的惡作劇道具……
+- wait:
+  - 45
+- se:
+  - se_adv_bag_search_01
+- nod:
+  - 122811
+- print:
+  - 禊
+  - 沒了、
+- wait:
+  - 15
+- print:
+  - 禊
+  - 沒了、
+- wait:
+  - 20
+- print:
+  - 禊
+  - |2-
+
+    那個也沒了、
+- wait:
+  - 15
+- print:
+  - 禊
+  - 這個也沒了……！
+- wait:
+  - 45
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 6
+- print:
+  - 禊
+  - ……全部都沒了──！！
+- touch: *o0
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_046
+- face:
+  - 122811
+  - 6
+- print:
+  - 禊
+  - 沙灘足球大賽、
+- wait:
+  - 25
+- print:
+  - 禊
+  - 在船上玩鬼抓人、
+- wait:
+  - 25
+- print:
+  - 禊
+  - 還有洞窟探險，
+- wait:
+  - 25
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 4
+- print:
+  - 禊
+  - 把道具全用完了～～！！
+- touch: *o0
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_047
+- face:
+  - 122811
+  - 4
+- eye_open:
+  - False
+- print:
+  - 禊
+  - 嗚嗚～
+- wait:
+  - 20
+- print:
+  - 禊
+  - 怎麼辦……
+- wait:
+  - 35
+- eye_open:
+  - True
+- print:
+  - 禊
+  - 怎麼辦……！
+- wait:
+  - 40
+- print:
+  - 禊
+  - |2-
+
+    哥哥，
+- wait:
+  - 5
+- print:
+  - 禊
+  - 該怎麼辦……！？
+- touch: *o0
+- choice:
+  - 交給我吧！
+  - 13
+- tag:
+  - 13
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_048
+- face:
+  - 122811
+  - 6
+- print:
+  - 禊
+  - 咦……？
+- wait:
+  - 30
+- emotion:
+  - notice1_L
+  - 122811
+  - -75
+  - 490
+  - se_adv_emote_common_01
+- print:
+  - 禊
+  - 啊……
+- wait:
+  - 15
+- print:
+  - 禊
+  - 那是
+- wait:
+  - 25
+- print:
+  - 禊
+  - 禊的辣椒水槍！！
+- wait:
+  - 60
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 1
+- print:
+  - 禊
+  - 對耶！
+- wait:
+  - 20
+- print:
+  - 禊
+  - 哥哥一直帶在身上！！
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 122811
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 1614
+  - C
+  - 1
+- fadein:
+  - 1614
+  - 30
+- se:
+  - se_adv_impact_water_01
+- white_out:
+  - 0.5
+  - 0.2
+- white_in: *o0
+- se:
+  - se_adv_creature_cmn_04
+- window_visible:
+  - TRUE
+- focus:
+  - 1614
+- bust:
+  - 1614
+  - 0
+- face:
+  - 1614
+  - 1
+- print:
+  - 魔物
+  - ──嘎喔喔喔喔喔！
+- sway:
+  - 1614
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 1614
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 122811
+  - C
+  - 2
+- fadein:
+  - 122811
+  - 30
+- window_visible:
+  - TRUE
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_049
+- face:
+  - 122811
+  - 2
+- print:
+  - 禊
+  - 好耶！
+- wait:
+  - 25
+- print:
+  - 禊
+  - 魔物嚇到了！
+- wait:
+  - 40
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 1
+- print:
+  - 禊
+  - 水果也已經摘到了，
+- wait:
+  - 25
+- print:
+  - 禊
+  - 趁現在快逃吧！！
+- touch: *o0
+- window_visible:
+  - FALSE
+- se:
+  - se_adv_step_dirt_run_go_01
+- change:
+  - LC
+  - C
+  - 30
+- bgm:
+  - stop
+  - 2
+  - 1
+- fadeout:
+  - 122811
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_seaside_01
+  - 1
+- background:
+  - 500161
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_seaside_02
+- chara_full:
+  - 122811
+  - C
+  - 2
+- fadein:
+  - 122811
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M98
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_050
+- face:
+  - 122811
+  - 2
+- emotion:
+  - note1_L
+  - 122811
+  - -105
+  - 435
+  - se_adv_emote_note_01
+- print:
+  - 禊
+  - 抵達──！
+- wait:
+  - 45
+- print:
+  - 禊
+  - |2-
+
+    探險大成功～！
+- touch: *o0
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_051
+- face:
+  - 122811
+  - 1
+- print:
+  - 禊
+  - 哥哥，
+- wait:
+  - 20
+- print:
+  - 禊
+  - 那我們去飲料店吧～！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_dirt_walk_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 122811
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 122811
+  - L
+  - 1
+- chara_full:
+  - 1411
+  - RC
+  - 4
+- se:
+  - se_adv_step_dirt_walk_come_01
+- wait:
+  - 15
+- change:
+  - LC
+  - L
+  - 45
+- fadein_all:
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_052
+- face:
+  - 122811
+  - 1
+- print:
+  - 禊
+  - 飲料店的叔叔──！
+- wait:
+  - 35
+- print:
+  - 禊
+  - |2-
+
+    用這個幫我們做熱帶果汁──！
+- touch: *o0
+- window_visible:
+  - false
+- focus:
+  - 1411:122811
+- se:
+  - se_adv_cloth_move_give_01
+- nod:
+  - 122811
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1228003_053
+- face:
+  - 1411
+  - 6
+- emotion:
+  - exclamation1_R
+  - 1411
+  - 10
+  - 715
+  - se_adv_emote_common_01
+- print:
+  - 店員
+  - 這、
+- wait:
+  - 30
+- print:
+  - 店員
+  - 這真是嚇我一跳……
+- wait:
+  - 50
+- print:
+  - 店員
+  - 是你們兩個人去摘回來的嗎！？
+- wait:
+  - 45
+- print:
+  - 店員
+  - |2
+
+- face:
+  - 1411
+  - 4
+- print:
+  - 店員
+  - 沒有遇到魔物嗎……！？
+- touch: *o0
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_054
+- face:
+  - 122811
+  - 1
+- print:
+  - 禊
+  - 遇到啦！
+- wait:
+  - 20
+- print:
+  - 禊
+  - 但多虧哥哥，我們順利逃跑了！
+- wait:
+  - 35
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 2
+- print:
+  - 禊
+  - 哥哥那時候很帥喔～！
+- touch: *o0
+- choice:
+  - 是禊的功勞。
+  - 14
+- tag:
+  - 14
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_055
+- face:
+  - 122811
+  - 6
+- emotion:
+  - question1_R
+  - 122811
+  - 150
+  - 435
+  - se_adv_emote_question_01
+- print:
+  - 禊
+  - 咦？
+- wait:
+  - 30
+- face:
+  - 122811
+  - 1
+- print:
+  - 禊
+  - 那把水槍是禊的沒錯……
+- wait:
+  - 75
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 2
+- print:
+  - 禊
+  - 啊哈哈！
+- wait:
+  - 25
+- print:
+  - 禊
+  - 那我們都有功勞！
+- touch: *o0
+- face:
+  - 122811
+  - 1
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1228003_056
+- face:
+  - 1411
+  - 1
+- print:
+  - 店員
+  - ……呼，
+- wait:
+  - 45
+- print:
+  - 店員
+  - 還好你們沒事，
+- wait:
+  - 45
+- print:
+  - 店員
+  - |2
+
+- face:
+  - 1411
+  - 6
+- print:
+  - 店員
+  - 你們兩個小朋友，
+- wait:
+  - 15
+- print:
+  - 店員
+  - 不可以自己跑去做那麼危險的事喔。
+- touch: *o0
+- focus:
+  - 1411
+- bust:
+  - 1411
+  - 0
+- vo:
+  - vo_adv_1228003_057
+- face:
+  - 1411
+  - 1
+- print:
+  - 店員
+  - 不過，
+- wait:
+  - 25
+- print:
+  - 店員
+  - 真虧你們摘得到水果。
+- wait:
+  - 45
+- print:
+  - 店員
+  - |2
+
+- face:
+  - 1411
+  - 2
+- print:
+  - 店員
+  - 那麼，
+- wait:
+  - 25
+- print:
+  - 店員
+  - 叔叔去做果汁，
+- wait:
+  - 30
+- print:
+  - 店員
+  - 你們稍等一下！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+- fadeout_all:
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 122811
+  - C
+  - 2
+- fadein:
+  - 122811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M121_02
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_058
+- face:
+  - 122811
+  - 2
+- emotion:
+  - twinkle1_R
+  - 122811
+  - -105
+  - 410
+  - se_adv_emote_twinkle_01
+- print:
+  - 禊
+  - 哇～
+- wait:
+  - 25
+- print:
+  - 禊
+  - 好厲害──！！
+- wait:
+  - 30
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 1
+- print:
+  - 禊
+  - 明明還沒喝就已經覺得很好喝了！
+- wait:
+  - 80
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 3
+- print:
+  - 禊
+  - ……喂，哥哥，
+- wait:
+  - 25
+- print:
+  - 禊
+  - 幹嘛一直看旁邊～？
+- touch: *o0
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_059
+- face:
+  - 122811
+  - 6
+- print:
+  - 禊
+  - 啊，
+- wait:
+  - 20
+- print:
+  - 禊
+  - 是她，
+- wait:
+  - 35
+- print:
+  - 禊
+  - 排在我們前面的大姐姐。
+- wait:
+  - 65
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 4
+- print:
+  - 禊
+  - 因為剛好賣完了，
+- wait:
+  - 25
+- print:
+  - 禊
+  - 所以她沒喝到這個果汁。
+- touch: *o0
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_060
+- face:
+  - 122811
+  - 1
+- nod:
+  - 122811
+- se:
+  - se_adv_step_dirt_move_01
+- print:
+  - 禊
+  - 欸……
+- wait:
+  - 5
+- print:
+  - 禊
+  - 哥哥，
+- wait:
+  - 20
+- print:
+  - 禊
+  - |2-
+
+    我們
+- wait:
+  - 20
+- print:
+  - 禊
+  - 分一杯果汁給大姐姐吧！
+- wait:
+  - 55
+- print:
+  - 禊
+  - |2-
+
+    禊
+- wait:
+  - 5
+- print:
+  - 禊
+  - 跟哥哥共喝一杯就好了！
+- touch: *o0
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_061
+- face:
+  - 122811
+  - 4
+- print:
+  - 禊
+  - 那個……
+- wait:
+  - 25
+- print:
+  - 禊
+  - 如果，
+- wait:
+  - 40
+- print:
+  - 禊
+  - 哥哥你不介意的話。
+- touch: *o0
+- choice:
+  - 當然可以！
+  - 15
+- tag:
+  - 15
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_062
+- face:
+  - 122811
+  - 2
+- emotion:
+  - note1_L
+  - 122811
+  - -105
+  - 435
+  - se_adv_emote_note_01
+- print:
+  - 禊
+  - 嘿嘿，
+- wait:
+  - 25
+- print:
+  - 禊
+  - 就知道哥哥會這麼說。
+- wait:
+  - 55
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 1
+- print:
+  - 禊
+  - 那麼，
+- wait:
+  - 10
+- print:
+  - 禊
+  - 我們拿去給大姐姐吧！
+- wait:
+  - 40
+- print:
+  - 禊
+  - 喂──
+- wait:
+  - 20
+- print:
+  - 禊
+  - 大姐姐──！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_dirt_run_go_01
+- change:
+  - RC
+  - C
+  - 30
+- bgm:
+  - stop
+  - 2
+  - 1
+- fadeout:
+  - 122811
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 411
+  - RC
+  - 2
+- chara_full:
+  - 122811
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M422_03
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1228003_063
+- face:
+  - 411
+  - 2
+- emotion:
+  - twinkle1_R
+  - 411
+  - -125
+  - 490
+  - se_adv_emote_twinkle_01
+- print:
+  - 女性
+  - 哇哇哇哇……
+- wait:
+  - 43
+- print:
+  - 女性
+  - 好好喝……！
+- wait:
+  - 55
+- print:
+  - 女性
+  - |2-
+
+    真不知道該怎麼謝謝你們……！
+- touch: *o0
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_064
+- face:
+  - 122811
+  - 1
+- print:
+  - 禊
+  - 不用道謝啦！
+- wait:
+  - 40
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 2
+- print:
+  - 禊
+  - 能和哥哥一起探險，
+- wait:
+  - 15
+- print:
+  - 禊
+  - 禊也很開心！
+- touch: *o0
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_065
+- face:
+  - 122811
+  - 1
+- nod:
+  - 122811
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 禊
+  - 我們呀～
+- wait:
+  - 25
+- print:
+  - 禊
+  - 一下被蝙蝠追～
+- wait:
+  - 50
+- print:
+  - 禊
+  - |2-
+
+    一下在湖裡游泳～
+- wait:
+  - 50
+- print:
+  - 禊
+  - 還穿過鐘乳石隧道，
+- wait:
+  - 60
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 2
+- print:
+  - 禊
+  - 最後還遇到守護寶藏的魔物！
+- touch: *o0
+- face:
+  - 122811
+  - 1
+- focus:
+  - 411
+- bust:
+  - 411
+  - 0
+- vo:
+  - vo_adv_1228003_066
+- face:
+  - 411
+  - 6
+- print:
+  - 女性
+  - 聽、
+- wait:
+  - 15
+- print:
+  - 女性
+  - 聽起來比想像中還辛苦呢……
+- wait:
+  - 65
+- print:
+  - 女性
+  - |2
+
+- face:
+  - 411
+  - 1
+- print:
+  - 女性
+  - 幸好你們沒事，
+- wait:
+  - 25
+- print:
+  - 女性
+  - 小小的探險家♪
+- touch: *o0
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_067
+- face:
+  - 122811
+  - 2
+- emotion:
+  - note1_L
+  - 122811
+  - -105
+  - 435
+  - se_adv_emote_note_01
+- print:
+  - 禊
+  - 嗯！！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+- fadeout_all:
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 122811
+  - C
+  - 2
+- fadein:
+  - 122811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M567
+  - 0
+  - 0
+  - 1
+  - 0.6
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_068
+- face:
+  - 122811
+  - 2
+- print:
+  - 禊
+  - 大姐姐覺得開心真是太好了！
+- wait:
+  - 60
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 1
+- print:
+  - 禊
+  - 好，
+- wait:
+  - 20
+- print:
+  - 禊
+  - 那我們也來喝吧！
+- touch: *o0
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_069
+- face:
+  - 122811
+  - 1
+- nod:
+  - 122811
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 禊
+  - 來，
+- wait:
+  - 20
+- print:
+  - 禊
+  - 這根是哥哥的吸管！
+- wait:
+  - 40
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 2
+- print:
+  - 禊
+  - 來開喝囉──！
+- touch: *o0
+- choice:
+  - 開喝囉──！
+  - 16
+- tag:
+  - 16
+- window_visible:
+  - false
+- fadeout:
+  - 122811
+  - 30
+- se:
+  - se_adv_step_dirt_move_01
+- chara_full:
+  - 122811
+  - C
+  - 1
+- scale:
+  - 122811
+  - 1.2
+  - 3
+- fadein:
+  - 122811
+  - 30
+- se:
+  - se_adv_comic_punch_02
+- effect:
+  - 0017
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- window_visible:
+  - true
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_070
+- face:
+  - 122811
+  - 6
+- print:
+  - 禊
+  - 好痛！
+- wait:
+  - 35
+- face:
+  - 122811
+  - 2
+- print:
+  - 禊
+  - 啊哈哈，
+- wait:
+  - 25
+- print:
+  - 禊
+  - 額頭撞在一起了啦～！
+- wait:
+  - 55
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 1
+- print:
+  - 禊
+  - ……重新來一次，
+- wait:
+  - 45
+- face:
+  - 122811
+  - 2
+- print:
+  - 禊
+  - 開喝囉──！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_comic_punch_02
+- effect:
+  - 0017
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- window_visible:
+  - true
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_071
+- face:
+  - 122811
+  - 2
+- print:
+  - 禊
+  - 呀哈哈！
+- wait:
+  - 20
+- print:
+  - 禊
+  - 會痛啦──！
+- wait:
+  - 50
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 1
+- print:
+  - 禊
+  - 好了啦！
+- wait:
+  - 25
+- print:
+  - 禊
+  - 這次要正常喝了～
+- wait:
+  - 55
+- print:
+  - 禊
+  - |2-
+
+    ……預備～
+- wait:
+  - 30
+- face:
+  - 122811
+  - 2
+- print:
+  - 禊
+  - 開喝囉──！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_comic_punch_02
+- effect:
+  - 0017
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- window_visible:
+  - true
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_072
+- face:
+  - 122811
+  - 2
+- print:
+  - 禊
+  - 呀哈哈哈哈！
+- wait:
+  - 30
+- print:
+  - 禊
+  - |2-
+
+    哥哥，
+- wait:
+  - 10
+- print:
+  - 禊
+  - 你額頭都撞得紅通通了啦──！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+  - 1
+- fadeout:
+  - 122811
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 122811
+  - C
+  - 1
+- fadein:
+  - 122811
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M487
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_073
+- face:
+  - 122811
+  - 1
+- nod:
+  - 122811
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 禊
+  - 啊──真好玩！
+- wait:
+  - 80
+- print:
+  - 禊
+  - |2-
+
+    欸，哥哥，
+- wait:
+  - 35
+- print:
+  - 禊
+  - 接下來……
+- wait:
+  - 45
+- face:
+  - 122811
+  - 4
+- print:
+  - 禊
+  - 呼哇…………
+- wait:
+  - 65
+- print:
+  - 禊
+  - |2-
+
+    要玩……
+- wait:
+  - 5
+- print:
+  - 禊
+  - 什麼…………
+- wait:
+  - 35
+- eye_open:
+  - False
+- print:
+  - 禊
+  - 呼哇………
+- wait:
+  - 35
+- print:
+  - 禊
+  - 呼嚕。
+- touch: *o0
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_074
+- face:
+  - 122811
+  - 4
+- print:
+  - 禊
+  - ……呼嚕。
+- touch: *o0
+- choice:
+  - 想睡覺了？
+  - 17
+- tag:
+  - 17
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_075
+- face:
+  - 122811
+  - 4
+- eye_open:
+  - True
+- print:
+  - 禊
+  - 蛤……
+- wait:
+  - 35
+- print:
+  - 禊
+  - 哥哥你在說什麼……
+- wait:
+  - 45
+- print:
+  - 禊
+  - |2-
+
+    禊還沒玩過癮……
+- wait:
+  - 60
+- eye_open:
+  - False
+- print:
+  - 禊
+  - 呼嚕。
+- touch: *o0
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_076
+- face:
+  - 122811
+  - 6
+- eye_open:
+  - True
+- emotion:
+  - exclamation1_R
+  - 122811
+  - 40
+  - 590
+  - se_adv_emote_common_01
+- print:
+  - 禊
+  - ……！！
+- wait:
+  - 30
+- print:
+  - 禊
+  - |2-
+
+    禊、
+- wait:
+  - 15
+- print:
+  - 禊
+  - 禊還不想睡還不想睡～！
+- wait:
+  - 40
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 3
+- print:
+  - 禊
+  - 哥哥，
+- wait:
+  - 10
+- print:
+  - 禊
+  - 把水槍還禊！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_cloth_move_give_01
+- nod:
+  - 122811
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 122811
+- bust:
+  - 122811
+  - 0
+- vo:
+  - vo_adv_1228003_077
+- face:
+  - 122811
+  - 6
+- se:
+  - se_adv_magic_damage_01
+- print:
+  - 禊
+  - 麻麻麻……
+- shake:
+  - 122811
+- wait:
+  - 10
+- print:
+  - 禊
+  - 刺、
+- wait:
+  - 15
+- print:
+  - 禊
+  - 刺刺麻麻～！
+- wait:
+  - 60
+- print:
+  - 禊
+  - |2
+
+- face:
+  - 122811
+  - 3
+- print:
+  - 禊
+  - 不過，
+- wait:
+  - 15
+- print:
+  - 禊
+  - 這樣就能清醒過來了……
+- wait:
+  - 60
+- se:
+  - se_adv_magic_damage_01
+- face:
+  - 122811
+  - 6
+- print:
+  - 禊
+  - 麻麻麻……！
+- shake:
+  - 122811
+- touch: *o0
+- window_visible:
+  - FALSE
+- fadeout:
+  - 122811
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - |-
+    靠著自己對自己惡作劇這種胡來的舉動，
+    禊死命地與睡意搏鬥。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - FALSE
+- se_pause:
+  - amb_adv_seaside_02
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

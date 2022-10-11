@@ -1,0 +1,254 @@
+- title:
+  - パレードについて
+- outline:
+  - ' '
+- background:
+  - 501132
+- amb:
+  - amb_adv_outdoors_night_01
+- ui_visible:
+  - FALSE
+- situation:
+  - パレードについて
+- chara_full:
+  - 114011
+  - C
+  - 6
+- fadein:
+  - 114011
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M135_Outside_02
+  - 0
+  - 0
+  - 1
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050209_000
+- face:
+  - 114011
+  - 6
+- print:
+  - レイ
+  - パレードといっても
+- wait:
+  - 20
+- print:
+  - レイ
+  - 歩くだけだと思っていたけど、
+- wait:
+  - 30
+- print:
+  - レイ
+  - |2
+
+- face:
+  - 114011
+  - 1
+- print:
+  - レイ
+  - 意外とやることがあったんだね。
+- wait:
+  - 50
+- print:
+  - レイ
+  - |2
+
+- face:
+  - 114011
+  - 2
+- print:
+  - レイ
+  - あの子たちはきちんとできていてすごかったな。
+- touch: &o0 []
+- choice:
+  - レイも立派だった。
+  - 1
+  - 1
+- choice:
+  - レイ、楽しそうだった。
+  - 2
+  - 2
+- choice:
+  - またやりたいね。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050209_001
+- face:
+  - 114011
+  - 2
+- nod:
+  - 114011
+- print:
+  - レイ
+  - そう言ってもらえるとうれしいよ。
+- wait:
+  - 45
+- print:
+  - レイ
+  - |2
+
+- face:
+  - 114011
+  - 1
+- print:
+  - レイ
+  - でもあのときは、
+- wait:
+  - 35
+- print:
+  - レイ
+  - むしろあの子たちに助けられたかな。
+- wait:
+  - 55
+- print:
+  - レイ
+  - |2
+
+- face:
+  - 114011
+  - 2
+- print:
+  - レイ
+  - ふふっ、
+- wait:
+  - 35
+- print:
+  - レイ
+  - 本当に最初の頃とは大違いだったよ。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050209_002
+- face:
+  - 114011
+  - 1
+- nod:
+  - 114011
+- print:
+  - レイ
+  - ああ。
+- wait:
+  - 25
+- print:
+  - レイ
+  - あの子たちを見ていると
+- wait:
+  - 25
+- print:
+  - レイ
+  - 自然とね。
+- wait:
+  - 35
+- print:
+  - レイ
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - レイ
+  - 本当に立派なお化けだったよ。
+- wait:
+  - 45
+- print:
+  - レイ
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - レイ
+  - たとえ怖くなくたってね。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 114011
+- bust:
+  - 114011
+  - 0
+- vo:
+  - vo_adv_6050209_003
+- face:
+  - 114011
+  - 6
+- print:
+  - レイ
+  - 次はもっと上手にできるといいな。
+- wait:
+  - 65
+- print:
+  - レイ
+  - |2
+
+- face:
+  - 114011
+  - 1
+- print:
+  - レイ
+  - なんて言うと
+- wait:
+  - 30
+- print:
+  - レイ
+  - ツムギが張り切りそうだから、
+- wait:
+  - 40
+- print:
+  - レイ
+  - |2-
+
+    少し内緒にしておこうか。
+- wait:
+  - 40
+- face:
+  - 114011
+  - 2
+- print:
+  - レイ
+  - サプライズにとっておきたいし。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 114011
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0

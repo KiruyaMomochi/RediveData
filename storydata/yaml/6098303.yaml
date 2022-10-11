@@ -1,0 +1,260 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 501193
+- amb:
+  - amb_adv_seaside_03
+- ui_visible:
+  - FALSE
+- situation:
+  - 不安な船旅
+- chara_full:
+  - 106012
+  - C
+  - 6
+- fadein:
+  - 106012
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M436
+  - 0
+  - 0
+  - 1
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_6056303_000
+- face:
+  - 106012
+  - 6
+- print:
+  - キャル
+  - カズマサのおっさんを手伝うって決めたけど、
+- wait:
+  - 50
+- print:
+  - キャル
+  - うまくいくのかしら……
+- wait:
+  - 45
+- print:
+  - キャル
+  - |2
+
+- face:
+  - 106012
+  - 4
+- print:
+  - キャル
+  - そもそも船の揺れとかあたし、
+- wait:
+  - 55
+- print:
+  - キャル
+  - 苦手だし……
+- touch: &o0 []
+- choice:
+  - 背中をさする。
+  - 1
+  - 1
+- choice:
+  - 手を握る。
+  - 2
+  - 2
+- choice:
+  - 気分転換に泳ごうか？
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_6056303_001
+- face:
+  - 106012
+  - 6
+- print:
+  - キャル
+  - べ、
+- wait:
+  - 15
+- print:
+  - キャル
+  - べつに今は気持ち悪くなってなんかないわよっ！
+- wait:
+  - 55
+- print:
+  - キャル
+  - |2
+
+- face:
+  - 106012
+  - 5
+- print:
+  - キャル
+  - で、
+- wait:
+  - 15
+- print:
+  - キャル
+  - でも……
+- wait:
+  - 25
+- face:
+  - 106012
+  - 1
+- print:
+  - キャル
+  - まぁ、
+- wait:
+  - 15
+- print:
+  - キャル
+  - 心配してくれたことには、
+- wait:
+  - 35
+- print:
+  - キャル
+  - 少しだけ感謝しとくわ。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_6056303_002
+- face:
+  - 106012
+  - 6
+- emotion:
+  - surprise1_L
+  - 106012
+  - 165
+  - 540
+  - se_adv_emote_common_01
+- print:
+  - キャル
+  - ちょ……っ！？
+- wait:
+  - 25
+- print:
+  - キャル
+  - |2-
+
+    べつに船の上が恐いとかそういうのじゃないし、
+- wait:
+  - 60
+- print:
+  - キャル
+  - |2
+
+- face:
+  - 106012
+  - 5
+- print:
+  - キャル
+  - て、
+- wait:
+  - 20
+- print:
+  - キャル
+  - 手なんか握ってもらわなくても平気なんだから！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_6056303_003
+- face:
+  - 106012
+  - 6
+- emotion:
+  - surprise1_L
+  - 106012
+  - 165
+  - 540
+  - se_adv_emote_common_01
+- print:
+  - キャル
+  - いや、
+- wait:
+  - 10
+- print:
+  - キャル
+  - さすがに冗談よね……！？
+- wait:
+  - 35
+- print:
+  - キャル
+  - |2
+
+- face:
+  - 106012
+  - 4
+- print:
+  - キャル
+  - 冬場の海に、
+- wait:
+  - 20
+- print:
+  - キャル
+  - しかもこの荒波で泳いだら大変なことになるからね！
+- wait:
+  - 70
+- print:
+  - キャル
+  - |2
+
+- face:
+  - 106012
+  - 6
+- print:
+  - キャル
+  - あんた、
+- wait:
+  - 15
+- print:
+  - キャル
+  - 絶対に泳ごうとかしないでよ！？
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 106012
+  - 30
+- amb_stop:
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - TRUE
+- end: *o0
