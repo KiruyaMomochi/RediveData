@@ -1,0 +1,261 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500010
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - false
+- situation:
+  - 目的地在哪裡
+- chara_full:
+  - 123111
+  - C
+  - 1
+- fadein:
+  - 123111
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M619
+  - 0
+  - 0
+  - 1
+  - 0.4
+- focus:
+  - 123111
+- bust:
+  - 123111
+  - 0
+- vo:
+  - vo_adv_6100103_000
+- face:
+  - 123111
+  - 1
+- print:
+  - 真步
+  - 王子先生、
+- wait:
+  - 25
+- print:
+  - 真步
+  - 王子先生。
+- wait:
+  - 35
+- print:
+  - 真步
+  - 如果下次要去旅行，
+- wait:
+  - 55
+- print:
+  - 真步
+  - |2-
+
+    您打算去哪裡呢？
+- touch: &o0 []
+- choice:
+  - 我想去真步真步王國看看。
+  - 1
+  - 1
+- choice:
+  - 去海裡呢？
+  - 2
+  - 2
+- choice:
+  - 日常生活也是冒險喔。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 123111
+- bust:
+  - 123111
+  - 0
+- vo:
+  - vo_adv_6100103_001
+- face:
+  - 123111
+  - 2
+- nod:
+  - 123111
+- print:
+  - 真步
+  - 那就去吧！
+- wait:
+  - 30
+- print:
+  - 真步
+  - 也可以現在立刻出發喔♪
+- wait:
+  - 65
+- print:
+  - 真步
+  - |2
+
+- face:
+  - 123111
+  - 1
+- print:
+  - 真步
+  - 現在這個地方，
+- wait:
+  - 45
+- print:
+  - 真步
+  - 只要有人家跟王子大人在，
+- wait:
+  - 50
+- face:
+  - 123111
+  - 2
+- print:
+  - 真步
+  - 就也是真步真步王國喔♪
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 123111
+- bust:
+  - 123111
+  - 0
+- vo:
+  - vo_adv_6100103_002
+- face:
+  - 123111
+  - 1
+- eye_open:
+  - False
+- print:
+  - 真步
+  - 跟童話世界一樣，
+- wait:
+  - 60
+- print:
+  - 真步
+  - 好令人憧憬喔。
+- wait:
+  - 60
+- print:
+  - 真步
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 真步
+  - 王子大人，
+- wait:
+  - 30
+- print:
+  - 真步
+  - 必須開始練習
+- wait:
+  - 35
+- print:
+  - 真步
+  - 游泳才行呢♪
+- wait:
+  - 55
+- face:
+  - 123111
+  - 2
+- emotion:
+  - note1_L
+  - 123111
+  - -100
+  - 450
+  - se_adv_emote_note_01
+- print:
+  - 真步
+  - 得好好努力才行♪
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 123111
+- bust:
+  - 123111
+  - 0
+- vo:
+  - vo_adv_6100103_003
+- face:
+  - 123111
+  - 1
+- eye_open:
+  - False
+- print:
+  - 真步
+  - 不管是每天的生活，
+- wait:
+  - 55
+- eye_open:
+  - True
+- print:
+  - 真步
+  - 還是出門旅行的時候。
+- wait:
+  - 55
+- nod:
+  - 123111
+- print:
+  - 真步
+  - 與
+- wait:
+  - 25
+- print:
+  - 真步
+  - 王子大人的冒險隨時
+- wait:
+  - 45
+- print:
+  - 真步
+  - |2-
+
+    都在持續當中呢。
+- wait:
+  - 75
+- print:
+  - 真步
+  - 一想成這樣，
+- wait:
+  - 40
+- print:
+  - 真步
+  - 就覺得平穩的每一天
+- wait:
+  - 50
+- face:
+  - 123111
+  - 2
+- print:
+  - 真步
+  - 也令人心跳加速呢♪
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - FALSE
+- fadeout:
+  - 123111
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

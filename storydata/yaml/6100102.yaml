@@ -1,0 +1,303 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500060
+- amb:
+  - amb_adv_room_noise_01
+- ui_visible:
+  - false
+- situation:
+  - 兩人的下午茶時間
+- chara_full:
+  - 101011
+  - C
+  - 2
+- fadein:
+  - 101011
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M107
+  - 0
+  - 0
+  - 1
+  - 0.4
+- focus:
+  - 101011
+- bust:
+  - 101011
+  - 0
+- vo:
+  - vo_adv_6100102_000
+- face:
+  - 101011
+  - 2
+- nod:
+  - 101011
+- print:
+  - 真步
+  - 王子大人、
+- wait:
+  - 25
+- print:
+  - 真步
+  - 王子大人。
+- wait:
+  - 40
+- face:
+  - 101011
+  - 1
+- print:
+  - 真步
+  - 今天的下午茶時間
+- wait:
+  - 50
+- print:
+  - 真步
+  - 要不要去跟平常不同的地方
+- wait:
+  - 40
+- print:
+  - 真步
+  - |2-
+
+    度過呢？
+- wait:
+  - 50
+- face:
+  - 101011
+  - 6
+- print:
+  - 真步
+  - 該選什麼地方
+- wait:
+  - 45
+- print:
+  - 真步
+  - 才好呢？
+- touch: &o0 []
+- choice:
+  - 選城堡當中如何？
+  - 1
+  - 1
+- choice:
+  - 去花園野餐感覺很不錯。
+  - 2
+  - 2
+- choice:
+  - 去遙遠的地方吧。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 101011
+- bust:
+  - 101011
+  - 0
+- vo:
+  - vo_adv_6100102_001
+- face:
+  - 101011
+  - 2
+- emotion:
+  - note1_L
+  - 101011
+  - -125
+  - 460
+  - se_adv_emote_note_01
+- print:
+  - 真步
+  - 城堡的茶會也很棒呢。
+- wait:
+  - 95
+- print:
+  - 真步
+  - |2
+
+- face:
+  - 101011
+  - 1
+- print:
+  - 真步
+  - 為了參加
+- wait:
+  - 35
+- print:
+  - 真步
+  - 得再換一套衣服
+- wait:
+  - 30
+- print:
+  - 真步
+  - 才行。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 101011
+- bust:
+  - 101011
+  - 0
+- vo:
+  - vo_adv_6100102_002
+- face:
+  - 101011
+  - 1
+- eye_open:
+  - False
+- print:
+  - 真步
+  - 在花香環繞下，
+- wait:
+  - 85
+- print:
+  - 真步
+  - 屬於我們兩人的下午茶時間……
+- wait:
+  - 75
+- print:
+  - 真步
+  - |2
+
+- nod:
+  - 101011
+- eye_open:
+  - True
+- print:
+  - 真步
+  - 光是想像
+- wait:
+  - 40
+- print:
+  - 真步
+  - 都要為之陶醉了。
+- wait:
+  - 70
+- print:
+  - 真步
+  - |2
+
+- face:
+  - 101011
+  - 2
+- print:
+  - 真步
+  - 要一起去摘取
+- wait:
+  - 50
+- print:
+  - 真步
+  - 浮在茶面上的花瓣喔，
+- wait:
+  - 65
+- print:
+  - 真步
+  - 王子大人♪
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 101011
+- bust:
+  - 101011
+  - 0
+- vo:
+  - vo_adv_6100102_003
+- face:
+  - 101011
+  - 6
+- print:
+  - 真步
+  - 這個……
+- wait:
+  - 30
+- print:
+  - 真步
+  - 是指人家跟王子大人
+- wait:
+  - 50
+- print:
+  - 真步
+  - 一起去遠方
+- wait:
+  - 40
+- print:
+  - 真步
+  - 旅行的意思嗎……？
+- wait:
+  - 70
+- print:
+  - 真步
+  - |2
+
+- face:
+  - 101011
+  - 1
+- print:
+  - 真步
+  - 與王子大人的
+- wait:
+  - 35
+- print:
+  - 真步
+  - 漫長的旅途……
+- wait:
+  - 70
+- print:
+  - 真步
+  - 兩人在遙遠的天空下
+- wait:
+  - 50
+- print:
+  - 真步
+  - 獨處時所喝的，
+- wait:
+  - 60
+- print:
+  - 真步
+  - |2
+
+- face:
+  - 101011
+  - 2
+- print:
+  - 真步
+  - 肯定是
+- wait:
+  - 50
+- print:
+  - 真步
+  - 充滿回憶味道
+- wait:
+  - 50
+- print:
+  - 真步
+  - 的紅茶呢……♪
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - FALSE
+- fadeout:
+  - 101011
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

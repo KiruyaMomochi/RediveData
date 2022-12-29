@@ -1,0 +1,4399 @@
+- title:
+  - 涅婭 第6話
+- outline:
+  - 卡里莎想對涅婭復仇，因此襲擊了變回史萊姆的她。此時{0}前來拯救涅婭，進而讓她回想起兩人相遇時的事。在得到強化後，涅婭恢復人形，情勢逆轉。最後，她教訓了卡里莎一頓。
+- bg_color:
+  - 0
+  - 0
+  - 0
+- situation:
+  - 小卡里莎復仇！？
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 為了調查{0}的身體，涅婭在他睡著時進行夜襲。
+- wait:
+  - 15
+- print:
+  - 旁白
+  - |2-
+
+    只不過，中途涅婭卻不知為何變回了史萊姆。她
+- wait:
+  - 15
+- print:
+  - 旁白
+  - |2-
+
+    被睡迷糊的{0}當作枕頭，就這樣過了一碗……
+- wait:
+  - 30
+- touch: &o0 []
+- bgm:
+  - bgm_M203
+  - 0
+  - 0
+  - 1
+- se:
+  - se_adv_tickle_03
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 3
+  - 1
+- print:
+  - 涅婭
+  - 噗嚕噗嚕～
+- wait:
+  - 15
+- print:
+  - 涅婭
+  - |2-
+
+    噗嚕噗嚕噗嚕～
+- touch: *o0
+- choice:
+  - 枕頭在動……
+  - 1
+- tag:
+  - 1
+- se:
+  - se_adv_tickle_01
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 3
+  - 1
+- print:
+  - 涅婭
+  - 噗嚕噗嚕噗嚕噗嚕噗嚕～
+- touch: *o0
+- choice:
+  - 睜開眼睛。
+  - 2
+- tag:
+  - 2
+- window_visible:
+  - false
+- transition:
+  - 52
+  - 1.5
+- background:
+  - 500361
+- wait:
+  - 15
+- transition_resume: *o0
+- se:
+  - amb_adv_room_noise_01
+- se:
+  - se_adv_tickle_01
+- window_visible:
+  - true
+- focus:
+  - 191615
+- bust:
+  - 191615
+  - 1
+- face:
+  - 191615
+  - 1
+- print:
+  - 涅婭
+  - 噗嚕噗嚕噗嚕～！
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_000
+- face:
+  - 123311
+  - 6
+- print:
+  - 涅婭
+  - 啊～
+- wait:
+  - 40
+- print:
+  - 涅婭
+  - |2-
+
+    小騎士終於醒了嗎～
+- wait:
+  - 60
+- print:
+  - 涅婭
+  - |2-
+
+    早呀～
+- touch: *o0
+- choice:
+  - 涅婭！？
+  - 3
+- tag:
+  - 3
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- se:
+  - se_adv_tickle_02
+- window_visible:
+  - true
+- focus:
+  - 191615
+- bust:
+  - 191615
+  - 1
+- face:
+  - 191615
+  - 1
+- print:
+  - 涅婭
+  - 噗嚕！
+- wait:
+  - 15
+- print:
+  - 涅婭
+  - 噗嚕！
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_001
+- face:
+  - 123311
+  - 4
+- print:
+  - 涅婭
+  - 沒有～錯～
+- wait:
+  - 35
+- print:
+  - 涅婭
+  - 就是我喔～
+- wait:
+  - 45
+- print:
+  - 涅婭
+  - |2-
+
+    我不曉得為什麼又變不回去了～
+- wait:
+  - 65
+- print:
+  - 涅婭
+  - |2-
+
+    Help me～
+- touch: *o0
+- choice:
+  - 為什麼妳變成史萊姆了？
+  - 4
+- tag:
+  - 4
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_002
+- face:
+  - 123311
+  - 4
+- print:
+  - 涅婭
+  - 啊～
+- wait:
+  - 20
+- print:
+  - 涅婭
+  - 對喔～
+- wait:
+  - 35
+- print:
+  - 涅婭
+  - |2-
+
+    都忘記我們說話會語言不通了～
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_003
+- face:
+  - 123311
+  - 6
+- print:
+  - 涅婭
+  - 等等喔～？
+- wait:
+  - 55
+- print:
+  - 涅婭
+  - |2-
+
+    既然這樣，
+- wait:
+  - 35
+- print:
+  - 涅婭
+  - 那我改用文字傳達意思不就好了？
+- wait:
+  - 60
+- print:
+  - 涅婭
+  - |2
+
+- face:
+  - 123311
+  - 2
+- print:
+  - 涅婭
+  - 我真是天才～
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_004
+- face:
+  - 123311
+  - 6
+- print:
+  - 涅婭
+  - 我看看～
+- wait:
+  - 55
+- print:
+  - 涅婭
+  - 拿張紙～然後用黏液～
+- wait:
+  - 90
+- print:
+  - 涅婭
+  - |2
+
+- se:
+  - se_adv_tickle_01
+- print:
+  - 涅婭
+  - 「我突然就變成史萊姆了。
+- wait:
+  - 80
+- print:
+  - 涅婭
+  - Help me～」
+- wait:
+  - 35
+- print:
+  - 涅婭
+  - 就這樣寫吧。
+- wait:
+  - 35
+- print:
+  - 涅婭
+  - |2
+
+- face:
+  - 123311
+  - 1
+- print:
+  - 涅婭
+  - 嗯，
+- wait:
+  - 30
+- print:
+  - 涅婭
+  - 差不多這樣吧～
+- touch: *o0
+- choice:
+  - ……這是在寫什麼？
+  - 5
+- tag:
+  - 5
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- se:
+  - se_adv_tickle_02
+- window_visible:
+  - true
+- focus:
+  - 191615
+- bust:
+  - 191615
+  - 1
+- face:
+  - 191615
+  - 1
+- print:
+  - 涅婭
+  - 噗嚕！？
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_005
+- face:
+  - 123311
+  - 6
+- print:
+  - 涅婭
+  - 小騎士？
+- wait:
+  - 30
+- print:
+  - 涅婭
+  - |2-
+
+    難道你其實閱讀能力不好！？
+- wait:
+  - 60
+- print:
+  - 涅婭
+  - |2
+
+- face:
+  - 123311
+  - 2
+- print:
+  - 涅婭
+  - 這樣也很口愛～♪
+- wait:
+  - 70
+- face:
+  - 123311
+  - 6
+- print:
+  - 涅婭
+  - 不！
+- wait:
+  - 25
+- print:
+  - 涅婭
+  - 現在不是想這種事的時候啦～！　
+- touch: *o0
+- choice:
+  - 涅婭，妳不打算變回人類嗎？
+  - 6
+- tag:
+  - 6
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_006
+- face:
+  - 123311
+  - 4
+- print:
+  - 涅婭
+  - 不是我不打算，
+- wait:
+  - 30
+- print:
+  - 涅婭
+  - 是我沒辦法呀～
+- wait:
+  - 55
+- print:
+  - 涅婭
+  - |2-
+
+    討厭～
+- wait:
+  - 35
+- print:
+  - 涅婭
+  - 真的哭哭耶～
+- wait:
+  - 35
+- print:
+  - 涅婭
+  - 怎麼會這樣～
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_007
+- face:
+  - 123311
+  - 6
+- print:
+  - 涅婭
+  - 啊～
+- wait:
+  - 20
+- print:
+  - 涅婭
+  - 對了對了～
+- wait:
+  - 35
+- print:
+  - 涅婭
+  - |2-
+
+    不知道改成畫圖能不能讓他懂意思～？
+- wait:
+  - 55
+- print:
+  - 涅婭
+  - 我看看喔～
+- wait:
+  - 65
+- print:
+  - 涅婭
+  - |2
+
+- se:
+  - se_adv_tickle_01
+- print:
+  - 涅婭
+  - 畫個在哭的臉～
+- touch: *o0
+- choice:
+  - 這是在畫哭泣的涅婭。
+  - 7
+- tag:
+  - 7
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- se:
+  - se_adv_tickle_01
+- window_visible:
+  - true
+- focus:
+  - 191615
+- bust:
+  - 191615
+  - 1
+- face:
+  - 191615
+  - 1
+- print:
+  - 涅婭
+  - 噗嚕！
+- wait:
+  - 15
+- print:
+  - 涅婭
+  - 噗嚕！
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_008
+- face:
+  - 123311
+  - 4
+- print:
+  - 涅婭
+  - 對對對～
+- wait:
+  - 40
+- print:
+  - 涅婭
+  - |2-
+
+    我沒辦法變回這個模樣～
+- wait:
+  - 60
+- print:
+  - 涅婭
+  - |2
+
+- se:
+  - se_adv_tickle_02
+- print:
+  - 涅婭
+  - 「打叉叉」！　
+- touch: *o0
+- choice:
+  - ……變不回去。
+  - 8
+- tag:
+  - 8
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- se:
+  - se_adv_tickle_01
+- window_visible:
+  - true
+- focus:
+  - 191615
+- bust:
+  - 191615
+  - 1
+- face:
+  - 191615
+  - 1
+- print:
+  - 涅婭
+  - 噗嚕～～～！
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_009
+- face:
+  - 123311
+  - 2
+- print:
+  - 涅婭
+  - 沒有～錯～！
+- wait:
+  - 35
+- print:
+  - 涅婭
+  - |2-
+
+    就是這樣～～～
+- touch: *o0
+- window_visible:
+  - false
+- choice:
+  - 那麼，得去找讓妳變回去的方法。
+  - 9
+- tag:
+  - 9
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- se:
+  - se_adv_tickle_02
+- window_visible:
+  - true
+- focus:
+  - 191615
+- bust:
+  - 191615
+  - 1
+- face:
+  - 191615
+  - 1
+- print:
+  - 涅婭
+  - 噗嚕～！
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_010
+- face:
+  - 123311
+  - 2
+- print:
+  - 涅婭
+  - 啊嗯～♪
+- wait:
+  - 30
+- print:
+  - 涅婭
+  - 小騎士，謝囉～
+- wait:
+  - 45
+- print:
+  - 涅婭
+  - |2-
+
+    你好可靠喔～！
+- wait:
+  - 60
+- print:
+  - 涅婭
+  - |2
+
+- face:
+  - 123311
+  - 6
+- print:
+  - 涅婭
+  - 不過～
+- wait:
+  - 50
+- bgm:
+  - stop
+  - 3.5
+  - 1
+- print:
+  - 涅婭
+  - 變回去的方法～嗎～
+- touch: *o0
+- bgm:
+  - bgm_M129_Ver2_NoB
+  - 0
+  - 0
+  - 0
+  - 0.4
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_011
+- face:
+  - 123311
+  - 6
+- print:
+  - 涅婭
+  - 又不能像之前那樣～
+- wait:
+  - 60
+- print:
+  - 涅婭
+  - |2-
+
+    去給敵人的
+- wait:
+  - 40
+- print:
+  - 涅婭
+  - 攻擊打～
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_012
+- face:
+  - 123311
+  - 4
+- print:
+  - 涅婭
+  - 不過～
+- wait:
+  - 45
+- print:
+  - 涅婭
+  - |2-
+
+    老實說，還真不知道要怎麼變回去呢～
+- wait:
+  - 85
+- print:
+  - 涅婭
+  - |2
+
+- face:
+  - 123311
+  - 4
+- print:
+  - 涅婭
+  - 或許好一段時間都變不回去啦～
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_013
+- face:
+  - 123311
+  - 4
+- print:
+  - 涅婭
+  - 嗚嗚嗚～
+- wait:
+  - 45
+- print:
+  - 涅婭
+  - |2-
+
+    如果真的這樣，會很沒勁耶～
+- wait:
+  - 65
+- print:
+  - 涅婭
+  - |2-
+
+    該～怎麼辦哪～
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- se:
+  - se_adv_tickle_02
+- window_visible:
+  - true
+- focus:
+  - 191615
+- bust:
+  - 191615
+  - 1
+- face:
+  - 191615
+  - 1
+- print:
+  - 涅婭
+  - 噗嚕嚕……
+- touch: *o0
+- choice:
+  - ……涅婭，我們到外頭去吧。
+  - 10
+- tag:
+  - 10
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_014
+- face:
+  - 123311
+  - 6
+- print:
+  - 涅婭
+  - 嗯～？
+- wait:
+  - 40
+- print:
+  - 涅婭
+  - |2-
+
+    小騎士你要去哪～？　
+- touch: *o0
+- bgm:
+  - stop
+  - 1.5
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_room_noise_01
+  - 1
+- background:
+  - 500030
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_town_day_01
+- window_visible:
+  - true
+- bgm:
+  - bgm_M376
+  - 0
+  - 0
+  - 1
+  - 0.4
+- choice:
+  - 來，鬆餅給妳。
+  - 11
+- tag:
+  - 11
+- se:
+  - se_adv_tickle_02
+- focus:
+  - 191615
+- bust:
+  - 191615
+  - 1
+- face:
+  - 191615
+  - 1
+- print:
+  - 涅婭
+  - 噗嚕……？
+- touch: *o0
+- choice:
+  - 有困難的時候就要吃美食。
+  - 12
+- tag:
+  - 12
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_015
+- face:
+  - 123311
+  - 6
+- print:
+  - 涅婭
+  - 小騎士？
+- wait:
+  - 45
+- print:
+  - 涅婭
+  - |2
+
+- face:
+  - 123311
+  - 1
+- print:
+  - 涅婭
+  - 你察覺我其實感到很苦惱了嗎～？　
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_016
+- face:
+  - 123311
+  - 2
+- print:
+  - 涅婭
+  - 果然
+- wait:
+  - 15
+- print:
+  - 涅婭
+  - 很溫柔呢～
+- wait:
+  - 50
+- print:
+  - 涅婭
+  - |2-
+
+    呵呵呵～
+- wait:
+  - 45
+- print:
+  - 涅婭
+  - |2
+
+- face:
+  - 123311
+  - 1
+- print:
+  - 涅婭
+  - 那麼，
+- wait:
+  - 30
+- print:
+  - 涅婭
+  - 我就不客氣開動囉～
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- se:
+  - se_adv_eating_01
+- window_visible:
+  - true
+- focus:
+  - 191615
+- bust:
+  - 191615
+  - 1
+- face:
+  - 191615
+  - 1
+- print:
+  - 涅婭
+  - 噗嚕嚕～♪
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_017
+- face:
+  - 123311
+  - 6
+- print:
+  - 涅婭
+  - 嗯～
+- wait:
+  - 50
+- print:
+  - 涅婭
+  - |2-
+
+    在史萊姆型態下，
+- wait:
+  - 30
+- print:
+  - 涅婭
+  - 一下子就吃完了啊～
+- wait:
+  - 70
+- print:
+  - 涅婭
+  - |2-
+
+    多謝招待～
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- choice:
+  - 那麼，開始來找變回去的方法吧。
+  - 13
+- tag:
+  - 13
+- se:
+  - se_adv_tickle_02
+- focus:
+  - 191615
+- bust:
+  - 191615
+  - 1
+- face:
+  - 191615
+  - 1
+- print:
+  - 涅婭
+  - 噗嚕！
+- touch: *o0
+- bgm:
+  - stop
+  - 1.5
+  - 1
+- window_visible:
+  - false
+- effect:
+  - 0004
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 191611
+  - C
+  - 2
+- fadein:
+  - 191611
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M334
+  - 0
+  - 0
+  - 0
+  - 0.4
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_1233006_018
+- face:
+  - 191611
+  - 2
+- print:
+  - 卡里莎
+  - 哦……
+- wait:
+  - 40
+- print:
+  - 卡里莎
+  - |2-
+
+    我正想說怎麼沒看到
+- wait:
+  - 30
+- print:
+  - 卡里莎
+  - 小黃那傢伙回來……
+- wait:
+  - 50
+- print:
+  - 卡里莎
+  - |2-
+
+    看來她好像變回史萊姆了啊？
+- touch: *o0
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_1233006_019
+- face:
+  - 191611
+  - 7
+- print:
+  - 卡里莎
+  - 哈哈……
+- wait:
+  - 25
+- nod:
+  - 191611
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 卡里莎
+  - 哈哈哈！
+- wait:
+  - 35
+- print:
+  - 卡里莎
+  - 這真是好機會。
+- wait:
+  - 40
+- print:
+  - 卡里莎
+  - |2
+
+- face:
+  - 191611
+  - 2
+- print:
+  - 卡里莎
+  - 那傢伙平時老是給我難堪，
+- wait:
+  - 50
+- print:
+  - 卡里莎
+  - |2-
+
+    現在她成了史萊姆，
+- wait:
+  - 30
+- print:
+  - 卡里莎
+  - 就完全不可能反抗我啦……！
+- touch: *o0
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_1233006_020
+- face:
+  - 191611
+  - 2
+- print:
+  - 卡里莎
+  - 我看就稍～微讓她吃點苦頭，
+- wait:
+  - 50
+- print:
+  - 卡里莎
+  - |2-
+
+    叫她明白
+- wait:
+  - 35
+- print:
+  - 卡里莎
+  - 小看我到底會是什麼下場吧！
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2.5
+- fadeout:
+  - 191611
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- background:
+  - 500010
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_town_day_01
+- window_visible:
+  - true
+- bgm:
+  - bgm_M288
+  - 0
+  - 0
+  - 1
+  - 0.4
+- choice:
+  - 我去書店打聽情報，妳等一下。
+  - 14
+- tag:
+  - 14
+- se:
+  - se_adv_tickle_02
+- focus:
+  - 191615
+- bust:
+  - 191615
+  - 1
+- face:
+  - 191615
+  - 1
+- print:
+  - 涅婭
+  - 噗嚕～
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_021
+- face:
+  - 123311
+  - 4
+- print:
+  - 涅婭
+  - 嗯～
+- wait:
+  - 40
+- print:
+  - 涅婭
+  - |2-
+
+    這個世界的書店～
+- wait:
+  - 60
+- print:
+  - 涅婭
+  - 大概也調查不出～什麼東西吧～
+- wait:
+  - 75
+- print:
+  - 涅婭
+  - |2
+
+- face:
+  - 123311
+  - 6
+- print:
+  - 涅婭
+  - 要是有辦法去問一下姊姊～就好了～
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_022
+- face:
+  - 123311
+  - 6
+- print:
+  - 涅婭
+  - 這麼說來～
+- wait:
+  - 40
+- print:
+  - 涅婭
+  - 她好像有提過～
+- wait:
+  - 50
+- print:
+  - 涅婭
+  - |2-
+
+    要變成人類的模樣～
+- wait:
+  - 60
+- print:
+  - 涅婭
+  - |2-
+
+    維持住魔力與精神之間的平衡
+- wait:
+  - 75
+- print:
+  - 涅婭
+  - 很重要之類的～
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_023
+- face:
+  - 123311
+  - 6
+- print:
+  - 涅婭
+  - 記得昨天好像～？
+- wait:
+  - 60
+- print:
+  - 涅婭
+  - |2-
+
+    因為小騎士太過口愛，害我不禁興奮起來，
+- wait:
+  - 55
+- print:
+  - 涅婭
+  - |2-
+
+    結果就變成史萊姆了哪～
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_024
+- face:
+  - 123311
+  - 6
+- print:
+  - 涅婭
+  - 姊姊她也常常說我～
+- wait:
+  - 45
+- print:
+  - 涅婭
+  - |2-
+
+    精神鍛鍊～
+- wait:
+  - 65
+- print:
+  - 涅婭
+  - 什麼的還做得不夠～
+- wait:
+  - 65
+- print:
+  - 涅婭
+  - |2
+
+- face:
+  - 123311
+  - 1
+- print:
+  - 涅婭
+  - 我看事出原因完全就是這個吧？
+- wait:
+  - 55
+- print:
+  - 涅婭
+  - 有夠好笑～
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_025
+- face:
+  - 123311
+  - 6
+- print:
+  - 涅婭
+  - 嗯、
+- wait:
+  - 20
+- print:
+  - 涅婭
+  - 嗯～
+- wait:
+  - 40
+- print:
+  - 涅婭
+  - |2-
+
+    也就是說～？
+- wait:
+  - 60
+- print:
+  - 涅婭
+  - |2-
+
+    只要讓精神穩定下來，
+- wait:
+  - 35
+- print:
+  - 涅婭
+  - 就能變回去囉～
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_026
+- face:
+  - 123311
+  - 4
+- print:
+  - 涅婭
+  - 可是那又要怎麼做呀～
+- wait:
+  - 60
+- print:
+  - 涅婭
+  - |2-
+
+    搞不懂～
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1233006_027
+- face:
+  - 1
+  - 1
+- print:
+  - ？？？
+  - ……唔，
+- wait:
+  - 15
+- print:
+  - ？？？
+  - |2-
+
+    就是現在……！
+- touch: *o0
+- se:
+  - se_adv_tickle_02
+- bgm:
+  - stop
+  - 3
+  - 1
+- focus:
+  - 191615
+- bust:
+  - 191615
+  - 1
+- face:
+  - 191615
+  - 1
+- print:
+  - 涅婭
+  - 噗嚕！？
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_catch_vege_net_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- black_out:
+  - 1
+  - 1
+- bg_color:
+  - 0
+  - 0
+  - 0
+- wait:
+  - 15
+- black_in: *o0
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- bgm:
+  - bgm_M180_Ver2
+  - 0
+  - 0
+  - 0
+  - 0.4
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_028
+- face:
+  - 123311
+  - 4
+- print:
+  - 涅婭
+  - 等等！
+- wait:
+  - 10
+- print:
+  - 涅婭
+  - |2-
+
+    我現在～
+- wait:
+  - 20
+- print:
+  - 涅婭
+  - 是不是被人給帶走啦？
+- wait:
+  - 45
+- print:
+  - 涅婭
+  - |2
+
+- face:
+  - 123311
+  - 6
+- print:
+  - 涅婭
+  - 話說，
+- wait:
+  - 25
+- print:
+  - 涅婭
+  - 剛才的聲音，該不會～
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- bgm:
+  - stop
+  - 1.5
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- background:
+  - 500890
+- wait:
+  - 15
+- black_in: *o0
+- se:
+  - amb_adv_wind_01
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1233006_029
+- face:
+  - 1
+  - 1
+- print:
+  - ？？？
+  - 看招……
+- wait:
+  - 15
+- print:
+  - ？？？
+  - 我扔！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_water_gun_01
+- se:
+  - se_adv_water_mud_sprinkle_01
+- shake_loop: *o0
+- wait:
+  - 15
+- shake_delete: *o0
+- se:
+  - se_adv_tickle_02
+- window_visible:
+  - true
+- focus:
+  - 191615
+- bust:
+  - 191615
+  - 1
+- face:
+  - 191615
+  - 1
+- print:
+  - 涅婭
+  - 噗嚕！！
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 191611
+  - C
+  - 7
+- fadein:
+  - 191611
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M387
+  - 0
+  - 0
+  - 1
+  - 0.4
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_1233006_030
+- face:
+  - 191611
+  - 7
+- nod:
+  - 191611
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 卡里莎
+  - 唷，
+- wait:
+  - 15
+- print:
+  - 卡里莎
+  - 小黃。
+- wait:
+  - 25
+- print:
+  - 卡里莎
+  - |2-
+
+    妳現在這模樣很不錯嘛～？
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_031
+- face:
+  - 123311
+  - 1
+- print:
+  - 涅婭
+  - 果然是小卡里莎呀～
+- wait:
+  - 60
+- print:
+  - 涅婭
+  - |2-
+
+    我就猜應該是你～
+- wait:
+  - 55
+- print:
+  - 涅婭
+  - 瞧你還一臉神氣的～
+- wait:
+  - 50
+- print:
+  - 涅婭
+  - |2
+
+- face:
+  - 123311
+  - 2
+- print:
+  - 涅婭
+  - ……有夠可愛～♪　
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_1233006_032
+- face:
+  - 191611
+  - 1
+- print:
+  - 卡里莎
+  - 哼，
+- wait:
+  - 15
+- print:
+  - 卡里莎
+  - 瞧妳還一副游刃有餘的樣子。
+- wait:
+  - 40
+- print:
+  - 卡里莎
+  - |2-
+
+    看來是還搞不清楚現在的狀況哪……！？
+- wait:
+  - 60
+- print:
+  - 卡里莎
+  - |2
+
+- face:
+  - 191611
+  - 3
+- print:
+  - 卡里莎
+  - 嘿，
+- wait:
+  - 15
+- print:
+  - 卡里莎
+  - 吃我這招！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_weapon_hammer_whiff_01
+- nod:
+  - 191611
+- wait:
+  - 15
+- se:
+  - se_adv_rabbit_jump_01
+- window_visible:
+  - true
+- focus:
+  - 191615
+- bust:
+  - 191615
+  - 1
+- face:
+  - 191615
+  - 1
+- print:
+  - 涅婭
+  - 咻。
+- touch: *o0
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_1233006_033
+- face:
+  - 191611
+  - 2
+- print:
+  - 卡里莎
+  - 喔？
+- wait:
+  - 15
+- print:
+  - 卡里莎
+  - 妳以為那樣躲開就行了嗎～！？
+- wait:
+  - 40
+- print:
+  - 卡里莎
+  - |2
+
+- face:
+  - 191611
+  - 1
+- print:
+  - 卡里莎
+  - 現在這可不是像平時那樣出出氣而已……
+- wait:
+  - 30
+- print:
+  - 卡里莎
+  - |2-
+
+    我是認真地想要把妳給痛扁一頓啊！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_weapon_hammer_whiff_01
+- effect:
+  - 0009
+- nod:
+  - 191611
+- effect_delete:
+  - 0009
+- wait:
+  - 15
+- fadeout:
+  - 191611
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+- wait:
+  - 15
+- effect:
+  - 0078
+  - se_adv_weapon_whip_hit_02
+- wait:
+  - 15
+- se:
+  - se_adv_tickle_01
+- window_visible:
+  - true
+- focus:
+  - 191615
+- bust:
+  - 191615
+  - 1
+- face:
+  - 191615
+  - 1
+- print:
+  - 涅婭
+  - 噗嚕嚕～！？
+- shake_text: *o0
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 191611
+  - RC
+  - 7
+- se:
+  - se_adv_step_concrete_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - RC
+  - 45
+- fadein:
+  - 191611
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_1233006_034
+- face:
+  - 191611
+  - 7
+- print:
+  - 卡里莎
+  - 哈哈！
+- wait:
+  - 20
+- print:
+  - 卡里莎
+  - 沒錯，
+- wait:
+  - 20
+- print:
+  - 卡里莎
+  - 就像這樣跟地面親久一點吧！
+- wait:
+  - 45
+- print:
+  - 卡里莎
+  - |2
+
+- face:
+  - 191611
+  - 3
+- print:
+  - 卡里莎
+  - 誰叫妳至今為止
+- wait:
+  - 10
+- print:
+  - 卡里莎
+  - 都在那邊自以為了不起啊！？
+- wait:
+  - 40
+- print:
+  - 卡里莎
+  - |2-
+
+    現在該來
+- wait:
+  - 30
+- print:
+  - 卡里莎
+  - 好好把帳算一算……
+- wait:
+  - 30
+- print:
+  - 卡里莎
+  - 了！！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_water_gun_01
+- nod:
+  - 191611
+- wait:
+  - 15
+- se:
+  - se_adv_tickle_02
+- window_visible:
+  - true
+- focus:
+  - 191615
+- bust:
+  - 191615
+  - 1
+- face:
+  - 191615
+  - 1
+- print:
+  - 涅婭
+  - 噗嚕！
+- shake_text: *o0
+- touch: *o0
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_1233006_035
+- face:
+  - 191611
+  - 7
+- print:
+  - 卡里莎
+  - 哈哈哈！
+- wait:
+  - 30
+- print:
+  - 卡里莎
+  - |2-
+
+    怎麼啦～！？
+- wait:
+  - 25
+- print:
+  - 卡里莎
+  - 被踩一下而已，沒什麼大不了的吧～？
+- wait:
+  - 45
+- print:
+  - 卡里莎
+  - |2
+
+- face:
+  - 191611
+  - 3
+- print:
+  - 卡里莎
+  - 我可是曾經差一點就被妳的大屁股給壓扁呢！！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_water_gun_01
+- se:
+  - se_adv_kick_ground_01
+- nod:
+  - 191611
+- wait:
+  - 15
+- se:
+  - se_adv_tickle_02
+- window_visible:
+  - true
+- focus:
+  - 191615
+- bust:
+  - 191615
+  - 1
+- face:
+  - 191615
+  - 1
+- print:
+  - 涅婭
+  - 噗嚕嚕嚕……！
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_036
+- face:
+  - 123311
+  - 6
+- print:
+  - 涅婭
+  - 哇～
+- wait:
+  - 35
+- print:
+  - 涅婭
+  - |2-
+
+    他整個氣到不行耶～
+- wait:
+  - 55
+- print:
+  - 涅婭
+  - |2
+
+- face:
+  - 123311
+  - 1
+- print:
+  - 涅婭
+  - 雖然因為我是史萊姆，就算被用力踩在地上磨，
+- wait:
+  - 60
+- print:
+  - 涅婭
+  - 也不覺得有怎樣啦～
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_037
+- face:
+  - 123311
+  - 6
+- print:
+  - 涅婭
+  - 不過小卡里莎他～
+- wait:
+  - 55
+- print:
+  - 涅婭
+  - |2-
+
+    感覺已經得意忘形到進入神氣模式了～
+- wait:
+  - 75
+- print:
+  - 涅婭
+  - |2-
+
+    再這樣下去，恐怕不妙呀～
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_1233006_038
+- face:
+  - 191611
+  - 3
+- print:
+  - 卡里莎
+  - 看招、
+- wait:
+  - 20
+- nod:
+  - 191611
+- se:
+  - se_adv_kick_ground_01
+- print:
+  - 卡里莎
+  - 看
+- se:
+  - se_adv_water_gun_01
+- print:
+  - 卡里莎
+  - 招！
+- wait:
+  - 35
+- print:
+  - 卡里莎
+  - |2-
+
+    這下妳搞清楚
+- wait:
+  - 25
+- print:
+  - 卡里莎
+  - 反抗我會有什麼下場沒！？
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_039
+- face:
+  - 123311
+  - 4
+- print:
+  - 涅婭
+  - 唉～
+- wait:
+  - 30
+- print:
+  - 涅婭
+  - 好沒勁～
+- wait:
+  - 50
+- print:
+  - 涅婭
+  - |2-
+
+    御姊正太攻守反過來～
+- wait:
+  - 55
+- print:
+  - 涅婭
+  - |2-
+
+    這種事情可是沒什麼市場需要的耶～
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_1233006_040
+- face:
+  - 191611
+  - 7
+- print:
+  - 卡里莎
+  - 哈哈哈哈哈……！
+- wait:
+  - 25
+- print:
+  - 卡里莎
+  - |2-
+
+    妳這樣子很不錯嘛，
+- wait:
+  - 15
+- print:
+  - 卡里莎
+  - 小黃……！
+- wait:
+  - 25
+- print:
+  - 卡里莎
+  - |2-
+
+    身體四處飛散，現在都已經變得這麼小了呢！？
+- touch: *o0
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_1233006_041
+- face:
+  - 191611
+  - 2
+- print:
+  - 卡里莎
+  - 哈哈哈！
+- wait:
+  - 20
+- print:
+  - 卡里莎
+  - 看見沒！？
+- wait:
+  - 25
+- print:
+  - 卡里莎
+  - |2-
+
+    敢瞧不起我，下場就是這樣啦！
+- wait:
+  - 40
+- print:
+  - 卡里莎
+  - |2-
+
+    聽懂了嗎，
+- wait:
+  - 30
+- face:
+  - 191611
+  - 3
+- print:
+  - 卡里莎
+  - 這個……
+- wait:
+  - 20
+- print:
+  - 卡里莎
+  - 垃圾白癡史萊姆！！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_weapon_hammer_whiff_01
+- nod:
+  - 191611
+- wait:
+  - 15
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_042
+- face:
+  - 123311
+  - 6
+- print:
+  - 涅婭
+  - ──！！
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- fadeout:
+  - 191611
+  - 30
+- se:
+  - se_adv_water_gun_01
+- se:
+  - se_adv_kick_ground_01
+- black_out:
+  - 1
+  - 0.5
+- bg_color:
+  - 0
+  - 0
+  - 0
+- wait:
+  - 15
+- black_in: *o0
+- window_visible:
+  - true
+- focus:
+  - 191615
+- bust:
+  - 191615
+  - 1
+- face:
+  - 191615
+  - 1
+- print:
+  - 涅婭
+  - …………
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- bgm:
+  - bgm_M570
+  - 0
+  - 0
+  - 0
+  - 0.4
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_043
+- face:
+  - 123311
+  - 4
+- print:
+  - 涅婭
+  - 嗯嗯～
+- wait:
+  - 50
+- print:
+  - 涅婭
+  - |2-
+
+    雖然因為不會痛，有點難掌握狀況～
+- wait:
+  - 70
+- print:
+  - 涅婭
+  - |2
+
+- face:
+  - 123311
+  - 6
+- print:
+  - 涅婭
+  - 不過我現在，
+- wait:
+  - 45
+- print:
+  - 涅婭
+  - 是不是很徹底地被打得稀巴爛啊……？
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_044
+- face:
+  - 123311
+  - 6
+- print:
+  - 涅婭
+  - 哎呀……
+- wait:
+  - 45
+- print:
+  - 涅婭
+  - |2-
+
+    這麼說來～以前～
+- wait:
+  - 50
+- print:
+  - 涅婭
+  - |2-
+
+    好像也曾在
+- wait:
+  - 35
+- print:
+  - 涅婭
+  - 史萊姆型態時陷入危機呢……
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_045
+- face:
+  - 123311
+  - 6
+- print:
+  - 涅婭
+  - 那時候，
+- wait:
+  - 35
+- print:
+  - 涅婭
+  - 有個不知道是被誰的人來救我呢～
+- wait:
+  - 75
+- print:
+  - 涅婭
+  - |2
+
+- face:
+  - 123311
+  - 1
+- print:
+  - 涅婭
+  - 記得對方是個奇怪的男生～
+- wait:
+  - 70
+- print:
+  - 涅婭
+  - |2-
+
+    竟然還問身為
+- wait:
+  - 40
+- print:
+  - 涅婭
+  - 史萊姆的我
+- wait:
+  - 35
+- print:
+  - 涅婭
+  - 「沒事吧？」……
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_046
+- face:
+  - 123311
+  - 4
+- print:
+  - 涅婭
+  - 不過，
+- wait:
+  - 40
+- print:
+  - 涅婭
+  - 那時我沒能跟他道謝～
+- wait:
+  - 60
+- print:
+  - 涅婭
+  - |2-
+
+    就那樣讓那孩子～
+- wait:
+  - 40
+- print:
+  - 涅婭
+  - 離開了……
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_047
+- face:
+  - 123311
+  - 1
+- print:
+  - 涅婭
+  - 那孩子真的是～
+- wait:
+  - 60
+- print:
+  - 涅婭
+  - 很奇怪呢……
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_048
+- face:
+  - 123311
+  - 6
+- print:
+  - 涅婭
+  - 那孩子……
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_049
+- face:
+  - 123311
+  - 6
+- print:
+  - 涅婭
+  - 嗯……？
+- wait:
+  - 55
+- print:
+  - 涅婭
+  - |2-
+
+    這麼……
+- wait:
+  - 15
+- print:
+  - 涅婭
+  - 說來……
+- wait:
+  - 50
+- print:
+  - 涅婭
+  - 那孩子……
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- black_out:
+  - 1
+  - 0.5
+- background:
+  - 500890
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 191611
+  - C
+  - 4
+- fadein:
+  - 191611
+  - 30
+- se:
+  - se_adv_body_lean_01
+- se:
+  - se_adv_cloth_move_normal_01
+- shake:
+  - 191611
+- wait:
+  - 15
+- window_visible:
+  - true
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_1233006_050
+- face:
+  - 191611
+  - 4
+- print:
+  - 卡里莎
+  - 嗚……
+- wait:
+  - 10
+- print:
+  - 卡里莎
+  - 很痛耶！
+- wait:
+  - 40
+- print:
+  - 卡里莎
+  - |2
+
+- face:
+  - 191611
+  - 3
+- print:
+  - 卡里莎
+  - 可惡！
+- wait:
+  - 15
+- print:
+  - 卡里莎
+  - 這混蛋傢伙～
+- wait:
+  - 5
+- print:
+  - 卡里莎
+  - 竟挑在這種精彩的時候來礙事！
+- touch: *o0
+- bgm:
+  - bgm_M95_Ver2
+  - 0
+  - 0
+  - 1
+  - 0.4
+- choice:
+  - 涅婭，沒事吧！？
+  - 15
+- tag:
+  - 15
+- window_visible:
+  - false
+- fadeout:
+  - 191611
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+- wait:
+  - 15
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_051
+- face:
+  - 123311
+  - 6
+- print:
+  - 涅婭
+  - 小……
+- wait:
+  - 40
+- print:
+  - 涅婭
+  - 騎士……
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_052
+- face:
+  - 123311
+  - 6
+- print:
+  - 涅婭
+  - 對耶……
+- wait:
+  - 50
+- print:
+  - 涅婭
+  - |2-
+
+    那時候，
+- wait:
+  - 30
+- print:
+  - 涅婭
+  - 像這樣救了我的……
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_053
+- face:
+  - 123311
+  - 1
+- print:
+  - 涅婭
+  - 就是小騎士……！
+- touch: *o0
+- window_visible:
+  - false
+- choice:
+  - 把涅婭的黏液收集起來。
+  - 16
+- tag:
+  - 16
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- se:
+  - se_adv_creature_slime_division_01
+- window_visible:
+  - true
+- focus:
+  - 191615
+- bust:
+  - 191615
+  - 1
+- face:
+  - 191615
+  - 1
+- print:
+  - 涅婭
+  - 噗嚕……
+- wait:
+  - 15
+- print:
+  - 涅婭
+  - |2-
+
+    噗嚕噗嚕……
+- wait:
+  - 15
+- print:
+  - 涅婭
+  - |2-
+
+    噗嚕噗嚕噗嚕～！
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_054
+- face:
+  - 123311
+  - 6
+- print:
+  - 涅婭
+  - 喔？
+- wait:
+  - 15
+- face:
+  - 123311
+  - 1
+- print:
+  - 涅婭
+  - 喔～
+- wait:
+  - 35
+- print:
+  - 涅婭
+  - |2-
+
+    身體開始再生了～
+- wait:
+  - 55
+- print:
+  - 涅婭
+  - |2
+
+- face:
+  - 123311
+  - 2
+- print:
+  - 涅婭
+  - 謝謝你～
+- wait:
+  - 20
+- print:
+  - 涅婭
+  - 小騎士♪
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- effect:
+  - 0032
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 191611
+  - C
+  - 3
+- fadein:
+  - 191611
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_1233006_055
+- face:
+  - 191611
+  - 3
+- nod:
+  - 191611
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 卡里莎
+  - 嘖……！
+- wait:
+  - 15
+- print:
+  - 卡里莎
+  - |2-
+
+    別來多管閒事！！
+- touch: *o0
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_1233006_056
+- face:
+  - 191611
+  - 1
+- print:
+  - 卡里莎
+  - 不過，
+- wait:
+  - 35
+- print:
+  - 卡里莎
+  - 也罷……！
+- wait:
+  - 40
+- print:
+  - 卡里莎
+  - |2
+
+- face:
+  - 191611
+  - 2
+- print:
+  - 卡里莎
+  - 這麼說來～
+- wait:
+  - 20
+- print:
+  - 卡里莎
+  - 之前我差點就能把你打爆那次，也是在這地方吧？
+- touch: *o0
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 0
+- vo:
+  - vo_adv_1233006_057
+- face:
+  - 191611
+  - 3
+- print:
+  - 卡里莎
+  - 既然如此，
+- wait:
+  - 40
+- print:
+  - 卡里莎
+  - 我就把你和小黃給一起擊潰吧！
+- wait:
+  - 55
+- print:
+  - 卡里莎
+  - |2-
+
+    你們該是時候搞清楚
+- wait:
+  - 40
+- print:
+  - 卡里莎
+  - 自己的立場了！！
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_weapon_hammer_whiff_01
+- effect:
+  - 0009
+- pop:
+  - 191611
+- effect_delete:
+  - 0009
+- wait:
+  - 15
+- fadeout:
+  - 191611
+  - 30
+- effect:
+  - 0032
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_058
+- face:
+  - 123311
+  - 4
+- print:
+  - 涅婭
+  - 小卡里莎你呀，
+- wait:
+  - 30
+- print:
+  - 涅婭
+  - 真是的～
+- wait:
+  - 45
+- print:
+  - 涅婭
+  - |2
+
+- face:
+  - 123311
+  - 6
+- print:
+  - 涅婭
+  - 看來這下～
+- wait:
+  - 20
+- print:
+  - 涅婭
+  - 得稍微認真一點進行處罰才行哪～
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_059
+- face:
+  - 123311
+  - 1
+- print:
+  - 涅婭
+  - 小騎士，
+- wait:
+  - 35
+- print:
+  - 涅婭
+  - 我們一起戰鬥吧～？
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- se:
+  - se_adv_tickle_01
+- window_visible:
+  - true
+- focus:
+  - 191615
+- bust:
+  - 191615
+  - 1
+- face:
+  - 191615
+  - 1
+- print:
+  - 涅婭
+  - 噗嚕嚕！
+- wait:
+  - 15
+- print:
+  - 涅婭
+  - 噗嚕嚕！
+- touch: *o0
+- choice:
+  - 嗯。一起戰鬥吧。
+  - 17
+- tag:
+  - 17
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_060
+- face:
+  - 123311
+  - 2
+- print:
+  - 涅婭
+  - 嗯呵呵♪
+- wait:
+  - 35
+- print:
+  - 涅婭
+  - |2-
+
+    我心裡想的好像還相通了呢～♪
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_061
+- face:
+  - 123311
+  - 1
+- print:
+  - 涅婭
+  - 得讓小卡里莎好好反省～
+- wait:
+  - 75
+- print:
+  - 涅婭
+  - |2-
+
+    然後快點變回原本的模樣～
+- wait:
+  - 80
+- print:
+  - 涅婭
+  - |2
+
+- face:
+  - 123311
+  - 2
+- print:
+  - 涅婭
+  - 跟小騎士
+- wait:
+  - 35
+- print:
+  - 涅婭
+  - 道謝才行呢～
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_062
+- face:
+  - 123311
+  - 6
+- print:
+  - 涅婭
+  - 不是正太什麼的～
+- wait:
+  - 55
+- print:
+  - 涅婭
+  - 發育得很好什麼的～
+- wait:
+  - 55
+- print:
+  - 涅婭
+  - |2-
+
+    雖然我之前老是在意這些事～
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_063
+- face:
+  - 123311
+  - 1
+- print:
+  - 涅婭
+  - 但小騎士現在這樣就已經
+- wait:
+  - 60
+- print:
+  - 涅婭
+  - |2-
+
+    很口愛、
+- wait:
+  - 30
+- print:
+  - 涅婭
+  - 很溫柔、
+- wait:
+  - 35
+- print:
+  - 涅婭
+  - 又好純潔，
+- wait:
+  - 50
+- print:
+  - 涅婭
+  - 總覺得好喜歡嗶……
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_064
+- face:
+  - 123311
+  - 2
+- print:
+  - 涅婭
+  - 這樣不也
+- wait:
+  - 30
+- print:
+  - 涅婭
+  - 很好嗎～？
+- touch: *o0
+- bgm:
+  - stop
+  - 2.5
+  - 1
+- choice:
+  - 強化涅婭。
+  - 18
+- tag:
+  - 18
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- effect:
+  - 0076
+  - se_adv_magic_cmn_medium_02
+- se:
+  - se_adv_tickle_02
+- window_visible:
+  - true
+- bgm:
+  - bgm_M462
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 191615
+- bust:
+  - 191615
+  - 1
+- face:
+  - 191615
+  - 1
+- print:
+  - 涅婭
+  - 噗嚕……！？
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_065
+- face:
+  - 123311
+  - 6
+- print:
+  - 涅婭
+  - 喔喔？
+- wait:
+  - 30
+- print:
+  - 涅婭
+  - |2-
+
+    這就是
+- wait:
+  - 10
+- print:
+  - 涅婭
+  - 那個嗎～？
+- wait:
+  - 40
+- print:
+  - 涅婭
+  - |2
+
+- face:
+  - 123311
+  - 1
+- print:
+  - 涅婭
+  - 小騎士的
+- wait:
+  - 25
+- print:
+  - 涅婭
+  - 公主騎士力量什麼的～？
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_066
+- face:
+  - 123311
+  - 2
+- print:
+  - 涅婭
+  - 超厲害哪～
+- wait:
+  - 50
+- print:
+  - 涅婭
+  - |2-
+
+    我現在
+- wait:
+  - 30
+- print:
+  - 涅婭
+  - 可是隻超級強的史萊姆囉～
+- wait:
+  - 55
+- print:
+  - 涅婭
+  - |2
+
+- face:
+  - 123311
+  - 5
+- print:
+  - 涅婭
+  - 而且，我還可以強烈地……
+- wait:
+  - 60
+- print:
+  - 涅婭
+  - 感受到小騎士的心～♪
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_067
+- face:
+  - 123311
+  - 2
+- print:
+  - 涅婭
+  - 嗯～♪
+- wait:
+  - 50
+- print:
+  - 涅婭
+  - |2-
+
+    現在搞不好行得通唷～！
+- wait:
+  - 65
+- print:
+  - 涅婭
+  - |2
+
+- face:
+  - 123311
+  - 1
+- print:
+  - 涅婭
+  - 不管是魔力
+- wait:
+  - 10
+- print:
+  - 涅婭
+  - 還是精神……
+- wait:
+  - 40
+- print:
+  - 涅婭
+  - 都有充到滿點的感覺～～～
+- wait:
+  - 70
+- print:
+  - 涅婭
+  - 嘿～♪
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- effect_delete:
+  - 0076
+- se:
+  - se_adv_magic_holy_medium_01
+- white_out:
+  - 1
+  - 0.5
+- bg_color:
+  - 255
+  - 255
+  - 255
+- wait:
+  - 30
+- se:
+  - se_adv_creature_slime_division_01
+- white_in: *o0
+- window_visible:
+  - true
+- focus:
+  - 191615
+- bust:
+  - 191615
+  - 1
+- face:
+  - 191615
+  - 1
+- print:
+  - 涅婭
+  - 噗嚕嚕嚕嚕嚕嚕嚕～！
+- touch: *o0
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 1
+- vo:
+  - vo_adv_1233006_068
+- face:
+  - 191611
+  - 6
+- print:
+  - 卡里莎
+  - ！？
+- wait:
+  - 15
+- print:
+  - 卡里莎
+  - 怎麼回事！？
+- wait:
+  - 20
+- print:
+  - 卡里莎
+  - |2-
+
+    小黃
+- wait:
+  - 15
+- print:
+  - 卡里莎
+  - 突然開始發光……！
+- touch: *o0
+- bgm:
+  - stop
+  - 2
+- window_visible:
+  - false
+- white_out:
+  - 1
+  - 1
+- still_unit:
+  - 123331
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- wait:
+  - 15
+- white_in: *o0
+- window_visible:
+  - true
+- bgm:
+  - bgm_M549_Short
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_069
+- face:
+  - 123311
+  - 6
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 涅婭
+  - …………呼～
+- touch: *o0
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 1
+- vo:
+  - vo_adv_1233006_070
+- face:
+  - 191611
+  - 6
+- print:
+  - 卡里莎
+  - 呃……
+- wait:
+  - 15
+- print:
+  - 卡里莎
+  - 變、
+- wait:
+  - 20
+- print:
+  - 卡里莎
+  - 變回、
+- wait:
+  - 10
+- print:
+  - 卡里莎
+  - 人類了！？
+- wait:
+  - 35
+- print:
+  - 卡里莎
+  - |2-
+
+    為什麼……！
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_071
+- face:
+  - 123311
+  - 5
+- print:
+  - 涅婭
+  - 嗯呵呵呵呵～
+- wait:
+  - 60
+- print:
+  - 涅婭
+  - |2-
+
+    究竟是～
+- wait:
+  - 25
+- print:
+  - 涅婭
+  - 為什麼呢～？
+- wait:
+  - 35
+- print:
+  - 涅婭
+  - 小卡里莎～？
+- touch: *o0
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 1
+- vo:
+  - vo_adv_1233006_072
+- face:
+  - 191611
+  - 4
+- print:
+  - 卡里莎
+  - ……唔！
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_073
+- face:
+  - 123311
+  - 1
+- print:
+  - 涅婭
+  - 奇怪～？
+- wait:
+  - 45
+- print:
+  - 涅婭
+  - |2-
+
+    小卡里莎，
+- wait:
+  - 25
+- print:
+  - 涅婭
+  - 你怎麼～在發抖呀～？
+- touch: *o0
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 1
+- vo:
+  - vo_adv_1233006_074
+- face:
+  - 191611
+  - 6
+- print:
+  - 卡里莎
+  - 我才沒在發抖！
+- wait:
+  - 30
+- print:
+  - 卡里莎
+  - |2
+
+- face:
+  - 191611
+  - 3
+- print:
+  - 卡里莎
+  - 還有別過來！
+- wait:
+  - 20
+- print:
+  - 卡里莎
+  - |2-
+
+    妳不准過來……！
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_075
+- face:
+  - 123311
+  - 5
+- print:
+  - 涅婭
+  - 啊嗯♪
+- wait:
+  - 35
+- print:
+  - 涅婭
+  - 真是的～
+- wait:
+  - 20
+- print:
+  - 涅婭
+  - 對付這麼冷淡的～
+- wait:
+  - 50
+- print:
+  - 涅婭
+  - |2
+
+- face:
+  - 123311
+  - 1
+- print:
+  - 涅婭
+  - 孩子呢～就是要……
+- wait:
+  - 70
+- face:
+  - 123311
+  - 2
+- print:
+  - 涅婭
+  - 嘿♪
+- touch: *o0
+- se:
+  - se_adv_tickle_01
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 1
+- vo:
+  - vo_adv_1233006_076
+- face:
+  - 191611
+  - 6
+- print:
+  - 卡里莎
+  - 哇！
+- wait:
+  - 10
+- print:
+  - 卡里莎
+  - 喂！
+- wait:
+  - 15
+- bgm:
+  - stop
+  - 4.0
+  - 1
+- print:
+  - 卡里莎
+  - 別亂噴黏液過來啦！
+- wait:
+  - 25
+- print:
+  - 卡里莎
+  - |2-
+
+    唔哇啊啊啊啊！？
+- touch: *o0
+- bgm:
+  - bgm_M528
+  - 0
+  - 0
+  - 0
+  - 0.4
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_077
+- face:
+  - 123311
+  - 2
+- print:
+  - 涅婭
+  - 好～
+- wait:
+  - 35
+- print:
+  - 涅婭
+  - 抓到小卡里莎了～♪
+- touch: *o0
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 1
+- vo:
+  - vo_adv_1233006_078
+- face:
+  - 191611
+  - 4
+- se:
+  - se_adv_body_hand_creak_02
+- print:
+  - 卡里莎
+  - 唔唔唔……
+- wait:
+  - 25
+- face:
+  - 191611
+  - 3
+- print:
+  - 卡里莎
+  - 放開我，
+- wait:
+  - 30
+- print:
+  - 卡里莎
+  - 妳這垃圾白癡史萊姆……！！
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_079
+- face:
+  - 123311
+  - 2
+- print:
+  - 涅婭
+  - 偏～不～♪
+- wait:
+  - 60
+- print:
+  - 涅婭
+  - |2
+
+- face:
+  - 123311
+  - 1
+- print:
+  - 涅婭
+  - 誰叫
+- wait:
+  - 15
+- print:
+  - 涅婭
+  - 小卡里莎是
+- wait:
+  - 45
+- print:
+  - 涅婭
+  - 壞‧小‧孩～
+- wait:
+  - 45
+- print:
+  - 涅婭
+  - |2-
+
+    所以就暫時維持這樣子～
+- wait:
+  - 45
+- print:
+  - 涅婭
+  - 吧～
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_080
+- face:
+  - 123311
+  - 1
+- print:
+  - 涅婭
+  - 而且話說回來，
+- wait:
+  - 55
+- print:
+  - 涅婭
+  - 小卡里莎～？
+- wait:
+  - 55
+- print:
+  - 涅婭
+  - |2-
+
+    你不是說什麼～？
+- wait:
+  - 70
+- print:
+  - 涅婭
+  - |2
+
+- face:
+  - 123311
+  - 6
+- print:
+  - 涅婭
+  - 要讓姐姐我和小騎士～
+- wait:
+  - 60
+- face:
+  - 123311
+  - 1
+- print:
+  - 涅婭
+  - 好好搞清楚什麼～？
+- touch: *o0
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 1
+- vo:
+  - vo_adv_1233006_081
+- face:
+  - 191611
+  - 4
+- print:
+  - 卡里莎
+  - ……唔！
+- wait:
+  - 15
+- print:
+  - 卡里莎
+  - 那、
+- wait:
+  - 15
+- print:
+  - 卡里莎
+  - 那是……！
+- wait:
+  - 50
+- print:
+  - 卡里莎
+  - 唔……！！
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_082
+- face:
+  - 123311
+  - 1
+- print:
+  - 涅婭
+  - 奇怪～？
+- wait:
+  - 45
+- print:
+  - 涅婭
+  - |2-
+
+    你怎麼～安靜不說話啦～？
+- wait:
+  - 55
+- print:
+  - 涅婭
+  - 嗯～？
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_083
+- face:
+  - 123311
+  - 5
+- print:
+  - 涅婭
+  - 你原本打算做些什麼～
+- wait:
+  - 70
+- print:
+  - 涅婭
+  - |2-
+
+    說來給姐姐和小騎士～
+- wait:
+  - 70
+- print:
+  - 涅婭
+  - |2-
+
+    好
+- wait:
+  - 20
+- print:
+  - 涅婭
+  - ‧好
+- wait:
+  - 20
+- print:
+  - 涅婭
+  - ‧聽
+- wait:
+  - 25
+- print:
+  - 涅婭
+  - ‧聽
+- wait:
+  - 35
+- print:
+  - 涅婭
+  - ‧看～～～呀？
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_084
+- face:
+  - 123311
+  - 1
+- print:
+  - 涅婭
+  - 說出來之後～
+- wait:
+  - 65
+- print:
+  - 涅婭
+  - |2-
+
+    就來好好道個歉吧～？
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_085
+- face:
+  - 123311
+  - 2
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 涅婭
+  - 你說是吧～
+- wait:
+  - 15
+- print:
+  - 涅婭
+  - 小騎士？
+- wait:
+  - 35
+- print:
+  - 涅婭
+  - |2-
+
+    這樣做比較好對吧～？
+- touch: *o0
+- choice:
+  - 好好跟姐姐道歉吧？
+  - 19
+- tag:
+  - 19
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 1
+- vo:
+  - vo_adv_1233006_086
+- face:
+  - 191611
+  - 3
+- print:
+  - 卡里莎
+  - 唔！！
+- wait:
+  - 15
+- print:
+  - 卡里莎
+  - |2-
+
+    別、別開玩笑了……！
+- wait:
+  - 15
+- print:
+  - 卡里莎
+  - |2-
+
+    誰要跟你們這些傢伙……！
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_087
+- face:
+  - 123311
+  - 6
+- print:
+  - 涅婭
+  - 哦……
+- wait:
+  - 55
+- print:
+  - 涅婭
+  - |2-
+
+    看來是勸不聽
+- wait:
+  - 50
+- print:
+  - 涅婭
+  - 嗎～
+- wait:
+  - 55
+- print:
+  - 涅婭
+  - |2
+
+- face:
+  - 123311
+  - 1
+- print:
+  - 涅婭
+  - 這
+- wait:
+  - 25
+- print:
+  - 涅婭
+  - ‧樣
+- wait:
+  - 20
+- print:
+  - 涅婭
+  - ‧的
+- wait:
+  - 20
+- print:
+  - 涅婭
+  - ‧話～
+- touch: *o0
+- focus:
+  - 123311
+- bust:
+  - 123311
+  - 1
+- vo:
+  - vo_adv_1233006_088
+- face:
+  - 123311
+  - 2
+- print:
+  - 涅婭
+  - 就讓你用身體來
+- wait:
+  - 50
+- print:
+  - 涅婭
+  - 好好記住教訓吧～～～？
+- wait:
+  - 40
+- print:
+  - 涅婭
+  - |2-
+
+    嗯呵呵呵呵～～～♪
+- touch: *o0
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 1
+- vo:
+  - vo_adv_1233006_089
+- face:
+  - 191611
+  - 6
+- print:
+  - 卡里莎
+  - ……唔！！
+- wait:
+  - 20
+- print:
+  - 卡里莎
+  - |2-
+
+    住手、
+- wait:
+  - 20
+- print:
+  - 卡里莎
+  - 不要……！
+- touch: *o0
+- window_visible:
+  - false
+- black_out:
+  - 1
+  - 0.5
+- effect_delete:
+  - 0022
+- bg_color:
+  - 0
+  - 0
+  - 0
+- still_unit:
+  - end
+- wait:
+  - 15
+- black_in: *o0
+- text_size:
+  - 40
+- change_window:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 191611
+- bust:
+  - 191611
+  - 1
+- vo:
+  - vo_adv_1233006_090
+- face:
+  - 191611
+  - 4
+- print:
+  - 卡里莎
+  - 嘎呀啊啊啊啊啊──────！！
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 23
+- change_window:
+  - 1
+- se_pause:
+  - amb_adv_wind_01
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

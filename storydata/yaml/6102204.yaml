@@ -1,0 +1,324 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 501860
+- amb:
+  - amb_adv_room_noise_01
+- ui_visible:
+  - false
+- situation:
+  - 同人誌販售會
+- chara_full:
+  - 123511
+  - C
+  - 2
+- fadein:
+  - 123511
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M624_04
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 123511
+- bust:
+  - 123511
+  - 0
+- vo:
+  - vo_adv_6102204_000
+- face:
+  - 123511
+  - 2
+- nod:
+  - 123511
+- print:
+  - 鈴
+  - 好～
+- wait:
+  - 30
+- print:
+  - 鈴
+  - 既然都收拾好了，
+- wait:
+  - 30
+- print:
+  - 鈴
+  - 來慢慢享受蘭祭吧。
+- wait:
+  - 40
+- print:
+  - 鈴
+  - |2
+
+- face:
+  - 123511
+  - 1
+- print:
+  - 鈴
+  - 首先，
+- wait:
+  - 20
+- print:
+  - 鈴
+  - 我們一起逛逛同人誌的攤位吧。
+- wait:
+  - 45
+- print:
+  - 鈴
+  - |2-
+
+    你有沒有
+- wait:
+  - 20
+- print:
+  - 鈴
+  - 什麼想買的刊物呢？
+- touch: &o0 []
+- choice:
+  - 我想找食譜。
+  - 1
+  - 1
+- choice:
+  - 我想要魔法少女的同人誌。
+  - 2
+  - 2
+- choice:
+  - 我想學分辨是否可食用魔物。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 123511
+- bust:
+  - 123511
+  - 0
+- vo:
+  - vo_adv_6102204_001
+- face:
+  - 123511
+  - 2
+- print:
+  - 鈴
+  - 是喔～
+- wait:
+  - 35
+- print:
+  - 鈴
+  - 食譜啊。
+- wait:
+  - 40
+- print:
+  - 鈴
+  - 感覺很有【美食殿堂】的作風呢。
+- wait:
+  - 55
+- print:
+  - 鈴
+  - |2
+
+- face:
+  - 123511
+  - 1
+- print:
+  - 鈴
+  - 如果找到了不錯的食譜，
+- wait:
+  - 25
+- print:
+  - 鈴
+  - 就煮給公會的成員吃吧。
+- wait:
+  - 55
+- print:
+  - 鈴
+  - |2-
+
+    然後，
+- wait:
+  - 15
+- print:
+  - 鈴
+  - 如果大家說好吃，
+- wait:
+  - 30
+- print:
+  - 鈴
+  - 就讓我也吃吃看。
+- wait:
+  - 35
+- face:
+  - 123511
+  - 4
+- print:
+  - 鈴
+  - 不好吃的話就不用了。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 123511
+- bust:
+  - 123511
+  - 0
+- vo:
+  - vo_adv_6102204_002
+- face:
+  - 123511
+  - 6
+- print:
+  - 鈴
+  - 我有點驚訝耶。
+- wait:
+  - 40
+- print:
+  - 鈴
+  - 沒想到
+- wait:
+  - 15
+- print:
+  - 鈴
+  - 你對魔法少女有興趣啊？
+- wait:
+  - 65
+- print:
+  - 鈴
+  - |2-
+
+    ……你說你會支持「魔法劍士Shiny★智」？
+- wait:
+  - 65
+- print:
+  - 鈴
+  - |2
+
+- nod:
+  - 123511
+- print:
+  - 鈴
+  - 那裡面
+- wait:
+  - 20
+- print:
+  - 鈴
+  - 有個少女跟小栞有點像對吧……
+- wait:
+  - 55
+- face:
+  - 123511
+  - 1
+- print:
+  - 鈴
+  - 我也買來看看好了。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 123511
+- bust:
+  - 123511
+  - 0
+- vo:
+  - vo_adv_6102204_003
+- face:
+  - 123511
+  - 4
+- print:
+  - 鈴
+  - ……乾脆不要吃魔物不是更好嗎？
+- wait:
+  - 55
+- print:
+  - 鈴
+  - |2
+
+- face:
+  - 123511
+  - 6
+- print:
+  - 鈴
+  - 嗯，是也無所謂啦。
+- wait:
+  - 40
+- print:
+  - 鈴
+  - 會有那麼冷門的同人誌嗎？
+- wait:
+  - 50
+- print:
+  - 鈴
+  - |2
+
+- face:
+  - 123511
+  - 1
+- print:
+  - 鈴
+  - 我們找找看吧。
+- wait:
+  - 50
+- face:
+  - 123511
+  - 4
+- print:
+  - 鈴
+  - ……
+- wait:
+  - 40
+- face:
+  - 123511
+  - 6
+- emotion:
+  - notice1_L
+  - 123511
+  - -80
+  - 475
+  - se_adv_emote_common_01
+- print:
+  - 鈴
+  - 呃，
+- wait:
+  - 20
+- print:
+  - 鈴
+  - 有耶，
+- wait:
+  - 20
+- print:
+  - 鈴
+  - 馬上就找到了。
+- wait:
+  - 25
+- print:
+  - 鈴
+  - 還真的有啊。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - FALSE
+- fadeout:
+  - 123511
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

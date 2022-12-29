@@ -1,0 +1,244 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500030
+- amb:
+  - amb_adv_town_day_01
+- ui_visible:
+  - false
+- situation:
+  - 特製服裝
+- chara_full:
+  - 123111
+  - C
+  - 1
+- fadein:
+  - 123111
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M619_02
+  - 0
+  - 0
+  - 1
+  - 0.4
+- focus:
+  - 123111
+- bust:
+  - 123111
+  - 0
+- vo:
+  - vo_adv_6100101_000
+- face:
+  - 123111
+  - 1
+- print:
+  - 真步
+  - 王子先生，
+- wait:
+  - 40
+- print:
+  - 真步
+  - 這套熬夜製作的洋裝
+- wait:
+  - 70
+- print:
+  - 真步
+  - 適合我嗎？
+- touch: &o0 []
+- choice:
+  - 真步公主的全新境界呢。
+  - 1
+  - 1
+- choice:
+  - 我也想要成套的衣服。
+  - 2
+  - 2
+- choice:
+  - 加上荷葉邊跟蕾絲看看？
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 123111
+- bust:
+  - 123111
+  - 0
+- vo:
+  - vo_adv_6100101_001
+- face:
+  - 123111
+  - 1
+- nod:
+  - 123111
+- print:
+  - 真步
+  - 身為真步真步王國的公主，
+- wait:
+  - 70
+- print:
+  - 真步
+  - 挑戰新的事物也是
+- wait:
+  - 70
+- print:
+  - 真步
+  - |2-
+
+    很重要的。
+- wait:
+  - 70
+- face:
+  - 123111
+  - 2
+- print:
+  - 真步
+  - 今後也同在一起
+- wait:
+  - 40
+- print:
+  - 真步
+  - 去冒險喔，
+- wait:
+  - 50
+- print:
+  - 真步
+  - 王子大人♪
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 123111
+- bust:
+  - 123111
+  - 0
+- vo:
+  - vo_adv_6100101_002
+- face:
+  - 123111
+  - 6
+- print:
+  - 真步
+  - 王子大人適合
+- wait:
+  - 45
+- print:
+  - 真步
+  - 什麼顏色呢？
+- wait:
+  - 70
+- face:
+  - 123111
+  - 1
+- print:
+  - 真步
+  - 不過，
+- wait:
+  - 35
+- print:
+  - 真步
+  - 跟人家成套嗎？
+- wait:
+  - 65
+- print:
+  - 真步
+  - |2
+
+- face:
+  - 123111
+  - 5
+- emotion:
+  - shy1_R
+  - 123111
+  - -110
+  - 430
+  - se_adv_emote_shy_01
+- print:
+  - 真步
+  - 討厭，
+- wait:
+  - 25
+- print:
+  - 真步
+  - 光是想像
+- wait:
+  - 40
+- print:
+  - 真步
+  - 臉頰就變燙了……
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 123111
+- bust:
+  - 123111
+  - 0
+- vo:
+  - vo_adv_6100101_003
+- face:
+  - 123111
+  - 1
+- nod:
+  - 123111
+- print:
+  - 真步
+  - 這或許是個好點子。
+- wait:
+  - 50
+- print:
+  - 真步
+  - 要是加上各種裝飾，
+- wait:
+  - 40
+- print:
+  - 真步
+  - 平常也能
+- wait:
+  - 35
+- print:
+  - 真步
+  - |2-
+
+    穿上這套洋裝呢。
+- wait:
+  - 70
+- face:
+  - 123111
+  - 2
+- print:
+  - 真步
+  - 王子大人，
+- wait:
+  - 35
+- print:
+  - 真步
+  - 真是好主意♪
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 123111
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

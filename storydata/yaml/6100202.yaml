@@ -1,0 +1,272 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500010
+- amb:
+  - amb_adv_room_noise_day_01
+- ui_visible:
+  - false
+- situation:
+  - 所謂的毛茸茸勝負
+- chara_full:
+  - 123211
+  - C
+  - 6
+- fadein:
+  - 123211
+  - 30
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M619_02
+  - 0
+  - 0
+  - 1
+  - 0.4
+- focus:
+  - 123211
+- bust:
+  - 123211
+  - 0
+- vo:
+  - vo_adv_6100202_000
+- face:
+  - 123211
+  - 6
+- emotion:
+  - question1_R
+  - 123211
+  - 115
+  - 440
+  - se_adv_emote_question_01
+- print:
+  - '綾音 '
+  - 欸，哥哥，
+- wait:
+  - 30
+- print:
+  - '綾音 '
+  - 莉瑪小姐說的毛茸茸勝負
+- wait:
+  - 55
+- print:
+  - '綾音 '
+  - |2-
+
+    究竟是指什麼啊？
+- touch: &o0 []
+- choice:
+  - 綾音要不要也參戰？
+  - 1
+  - 1
+- choice:
+  - 綾音要當裁判嗎？
+  - 2
+  - 2
+- choice:
+  - 莉瑪也會變得更毛茸茸而且越來越大嗎？
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 123211
+- bust:
+  - 123211
+  - 0
+- vo:
+  - vo_adv_6100202_001
+- face:
+  - 123211
+  - 6
+- emotion:
+  - surprise1_L
+  - 123211
+  - 160
+  - 480
+  - se_adv_emote_common_01
+- print:
+  - '綾音 '
+  - 咦咦！？
+- wait:
+  - 10
+- print:
+  - '綾音 '
+  - 我沒有
+- wait:
+  - 30
+- print:
+  - '綾音 '
+  - 任何毛茸茸的地方……
+- wait:
+  - 60
+- print:
+  - '綾音 '
+  - |2
+
+- face:
+  - 123211
+  - 1
+- print:
+  - '綾音 '
+  - 啊，
+- wait:
+  - 15
+- print:
+  - '綾音 '
+  - 對了，
+- wait:
+  - 30
+- print:
+  - '綾音 '
+  - 只要讓噗吉參加就行了！
+- wait:
+  - 40
+- print:
+  - '綾音 '
+  - |2
+
+- face:
+  - 123211
+  - 2
+- print:
+  - '綾音 '
+  - 欸欸，噗吉，
+- wait:
+  - 25
+- print:
+  - '綾音 '
+  - 你下次就去參加吧！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 123211
+- bust:
+  - 123211
+  - 0
+- vo:
+  - vo_adv_6100202_002
+- face:
+  - 123211
+  - 1
+- nod:
+  - 123211
+- print:
+  - '綾音 '
+  - 原來如此！
+- wait:
+  - 25
+- print:
+  - '綾音 '
+  - 所以只要由我來判斷
+- wait:
+  - 25
+- print:
+  - '綾音 '
+  - 究竟誰
+- wait:
+  - 15
+- print:
+  - '綾音 '
+  - |2-
+
+    比較毛茸茸就行了對吧！
+- wait:
+  - 40
+- print:
+  - '綾音 '
+  - |2
+
+- face:
+  - 123211
+  - 2
+- print:
+  - '綾音 '
+  - 感覺相當有趣呢！
+- wait:
+  - 40
+- print:
+  - '綾音 '
+  - 哥哥也
+- wait:
+  - 20
+- print:
+  - '綾音 '
+  - 一起當裁判吧♪
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 123211
+- bust:
+  - 123211
+  - 0
+- vo:
+  - vo_adv_6100202_003
+- face:
+  - 123211
+  - 6
+- print:
+  - '綾音 '
+  - 如果羊先生跟莉瑪小姐比賽，
+- wait:
+  - 45
+- print:
+  - '綾音 '
+  - 莉瑪小姐也會變得越來越毛茸茸
+- wait:
+  - 45
+- print:
+  - '綾音 '
+  - |2-
+
+    並且逐漸巨大化嗎！？
+- wait:
+  - 45
+- print:
+  - '綾音 '
+  - |2
+
+- face:
+  - 123211
+  - 1
+- print:
+  - '綾音 '
+  - 感、
+- wait:
+  - 10
+- print:
+  - '綾音 '
+  - 感覺有點
+- wait:
+  - 15
+- print:
+  - '綾音 '
+  - 有趣耶……！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - FALSE
+- fadeout:
+  - 123211
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

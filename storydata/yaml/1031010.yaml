@@ -1,0 +1,3795 @@
+- title:
+  - 忍 第10話
+- outline:
+  - 忍決意與{0}一起變強，於是兩人前往蘭德索爾各地進行修行。旅途中，因著謎樣惡靈的現身，以及為了鎮壓祠堂幽靈的憤怒，兩人雖然加深了彼此之間的羈絆，但忍心中卻有了一股不祥的預感。
+- background:
+  - 500010
+- se:
+  - amb_adv_town_day_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 蘭德索爾奇異遊記
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 多管閒事的阿姨所引起的騷動結束後，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - |2-
+
+    過了幾天，忍看到{0}在街上奔跑。
+- wait:
+  - 30
+- touch: &o0 []
+- window_visible:
+  - false
+- chara_full:
+  - 103111
+  - C
+  - 1
+- fadein:
+  - 103111
+  - 30
+- window_visible:
+  - true
+- vo_effect:
+  - 4
+- bgm:
+  - bgm_M203
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 2411
+- bust:
+  - 2411
+  - 1
+- vo:
+  - vo_adv_1031010_000
+- face:
+  - 2411
+  - 1
+- print:
+  - 骷髏老爸
+  - 那傢伙在做什麼啊？
+- wait:
+  - 35
+- print:
+  - 骷髏老爸
+  - 是吃了霸王餐在逃命嗎？
+- touch: *o0
+- vo_effect:
+  - 0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_001
+- face:
+  - 103111
+  - 3
+- print:
+  - 忍
+  - 他才不會做那種事。
+- wait:
+  - 75
+- print:
+  - 忍
+  - |2
+
+- face:
+  - 103111
+  - 6
+- print:
+  - 忍
+  - 但看起來也不像是
+- wait:
+  - 55
+- print:
+  - 忍
+  - 接了什麼工作的樣子……
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_run_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 103111
+  - 30
+- effect:
+  - 0004
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 103111
+  - LC
+  - 1
+- se:
+  - se_adv_step_concrete_run_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - LC
+  - 30
+- fadein:
+  - 103111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_002
+- face:
+  - 103111
+  - 1
+- nod:
+  - 103111
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 忍
+  - 你好，{0}。
+- wait:
+  - 20
+- print:
+  - 忍
+  - |2
+
+- face:
+  - 103111
+  - 6
+- print:
+  - 忍
+  - 看你跑得那麼快，
+- wait:
+  - 30
+- print:
+  - 忍
+  - 是怎麼了嗎？
+- touch: *o0
+- choice:
+  - 我正在鍛鍊自己。
+  - 1
+- tag:
+  - 1
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_003
+- face:
+  - 103111
+  - 6
+- print:
+  - 忍
+  - 鍛鍊
+- wait:
+  - 30
+- print:
+  - 忍
+  - 嗎？
+- wait:
+  - 55
+- print:
+  - 忍
+  - 為何突然想這麼做？
+- touch: *o0
+- choice:
+  - 因為前陣子我被抓，給妳添了許多麻煩……
+  - 2
+- tag:
+  - 2
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_004
+- face:
+  - 103111
+  - 6
+- emotion:
+  - sweat2_R
+  - 103111
+  - 95
+  - 530
+  - se_adv_emote_sweat_02
+- print:
+  - 忍
+  - 啊，
+- wait:
+  - 30
+- print:
+  - 忍
+  - 那又不是你的錯！
+- wait:
+  - 50
+- print:
+  - 忍
+  - |2
+
+- face:
+  - 103111
+  - 4
+- print:
+  - 忍
+  - 反倒是我太不中用，
+- wait:
+  - 45
+- print:
+  - 忍
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - 忍
+  - 才會讓你遇到那種事，
+- wait:
+  - 40
+- print:
+  - 忍
+  - 真是抱歉……
+- touch: *o0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_005
+- face:
+  - 103111
+  - 3
+- eye_open:
+  - True
+- print:
+  - 忍
+  - 我會好好守護你，
+- wait:
+  - 50
+- print:
+  - 忍
+  - 絕不再讓這種事發生。
+- touch: *o0
+- choice:
+  - 但我不喜歡老是被人守護著。
+  - 3
+- tag:
+  - 3
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_006
+- face:
+  - 103111
+  - 4
+- nod:
+  - 103111
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 忍
+  - 可、
+- wait:
+  - 20
+- print:
+  - 忍
+  - 可是……
+- touch: *o0
+- vo_effect:
+  - 4
+- focus:
+  - 2411
+- bust:
+  - 2411
+  - 1
+- vo:
+  - vo_adv_1031010_007
+- face:
+  - 2411
+  - 1
+- print:
+  - 骷髏老爸
+  - 喔喔，
+- wait:
+  - 25
+- print:
+  - 骷髏老爸
+  - 這樣很好！
+- wait:
+  - 40
+- print:
+  - 骷髏老爸
+  - 只要你稍微爭氣點，
+- wait:
+  - 40
+- print:
+  - 骷髏老爸
+  - |2-
+
+    就不必給忍添麻煩了。
+- wait:
+  - 55
+- print:
+  - 骷髏老爸
+  - |2-
+
+    你就一個人跑到世界的盡頭去吧！
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 6.2
+  - 1
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_008
+- face:
+  - 103111
+  - 4
+- print:
+  - 忍
+  - 怎麼辦，
+- wait:
+  - 35
+- print:
+  - 忍
+  - 因為我的關係，
+- wait:
+  - 35
+- print:
+  - 忍
+  - 給你增添多餘的操勞……
+- touch: *o0
+- bgm:
+  - bgm_M358
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_009
+- face:
+  - 103111
+  - 6
+- print:
+  - 忍
+  - 那天受到你的幫助，
+- wait:
+  - 55
+- print:
+  - 忍
+  - 我明明已經發誓下次要好好守護你了。
+- wait:
+  - 105
+- print:
+  - 忍
+  - |2
+
+- face:
+  - 103111
+  - 4
+- eye_open:
+  - False
+- print:
+  - 忍
+  - 這樣不行，
+- wait:
+  - 50
+- print:
+  - 忍
+  - 我得再更確實地……
+- wait:
+  - 60
+- face:
+  - 103111
+  - 3
+- eye_open:
+  - True
+- print:
+  - 忍
+  - 不，
+- wait:
+  - 35
+- print:
+  - 忍
+  - 不是這樣。
+- touch: *o0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_010
+- face:
+  - 103111
+  - 4
+- print:
+  - 忍
+  - 多管閒事的阿姨也曾說過，
+- wait:
+  - 50
+- print:
+  - 忍
+  - |2-
+
+    只想單方面地守護你是不行的。
+- wait:
+  - 85
+- print:
+  - 忍
+  - |2
+
+- face:
+  - 103111
+  - 1
+- print:
+  - 忍
+  - 我也要
+- wait:
+  - 45
+- print:
+  - 忍
+  - 多依賴你一點。
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_011
+- face:
+  - 103111
+  - 6
+- print:
+  - 忍
+  - 啊，
+- wait:
+  - 30
+- nod:
+  - 103111
+- se:
+  - se_adv_step_concrete_move_01
+- print:
+  - 忍
+  - 那個……
+- wait:
+  - 45
+- print:
+  - 忍
+  - 如果方便的話，
+- wait:
+  - 45
+- print:
+  - 忍
+  - 要不要一起來趟修行之旅呢？
+- touch: *o0
+- vo_effect:
+  - 4
+- focus:
+  - 2411
+- bust:
+  - 2411
+  - 1
+- vo:
+  - vo_adv_1031010_012
+- face:
+  - 2411
+  - 1
+- print:
+  - 骷髏老爸
+  - 妳、
+- wait:
+  - 20
+- print:
+  - 骷髏老爸
+  - 妳在說什麼啊，忍！
+- wait:
+  - 50
+- print:
+  - 骷髏老爸
+  - 這種事當然是絕對不行！
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_013
+- face:
+  - 103111
+  - 6
+- print:
+  - 忍
+  - 我、
+- wait:
+  - 20
+- print:
+  - 忍
+  - 我似乎說了很大膽的提議吧？
+- wait:
+  - 80
+- print:
+  - 忍
+  - |2
+
+- face:
+  - 103111
+  - 1
+- print:
+  - 忍
+  - 不過，
+- wait:
+  - 40
+- print:
+  - 忍
+  - 這種程度的改變肯定是有必要的。
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_014
+- face:
+  - 103111
+  - 1
+- print:
+  - 忍
+  - 鍛鍊身體是件好事，
+- wait:
+  - 70
+- print:
+  - 忍
+  - |2
+
+- face:
+  - 103111
+  - 6
+- print:
+  - 忍
+  - 但若要應付幽靈，
+- wait:
+  - 30
+- print:
+  - 忍
+  - 光只是這樣還不夠。
+- touch: *o0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_015
+- face:
+  - 103111
+  - 1
+- print:
+  - 忍
+  - 重要的是，
+- wait:
+  - 60
+- print:
+  - 忍
+  - 靈力與精神力
+- wait:
+  - 45
+- print:
+  - 忍
+  - 也得想辦法提升才行。
+- touch: *o0
+- vo_effect:
+  - 4
+- focus:
+  - 2411
+- bust:
+  - 2411
+  - 1
+- vo:
+  - vo_adv_1031010_016
+- face:
+  - 2411
+  - 1
+- print:
+  - 骷髏老爸
+  - 喂，忍。
+- wait:
+  - 35
+- print:
+  - 骷髏老爸
+  - 這可不行喔？
+- wait:
+  - 30
+- print:
+  - 骷髏老爸
+  - 我絕對不會答應的！
+- touch: *o0
+- vo_effect:
+  - 0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_017
+- face:
+  - 103111
+  - 1
+- print:
+  - 忍
+  - 我會去找尋可以同時鍛鍊這些能力的修行，
+- wait:
+  - 65
+- print:
+  - 忍
+  - |2
+
+- face:
+  - 103111
+  - 2
+- print:
+  - 忍
+  - 所以，請再給我一點時間吧。
+- touch: *o0
+- choice:
+  - 謝謝妳，這對我很有幫助。
+  - 4
+- choice:
+  - 我很高興可以跟妳一起去修行。
+  - 5
+- tag:
+  - 4
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_018
+- face:
+  - 103111
+  - 2
+- nod:
+  - 103111
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 忍
+  - 不，
+- wait:
+  - 35
+- print:
+  - 忍
+  - 這點事本來就是我該做的。
+- wait:
+  - 55
+- print:
+  - 忍
+  - |2-
+
+    只要能幫上你的忙，
+- wait:
+  - 55
+- print:
+  - 忍
+  - 我就很開心了。
+- touch: *o0
+- goto:
+  - 6
+- tag:
+  - 5
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_019
+- face:
+  - 103111
+  - 6
+- nod:
+  - 103111
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 忍
+  - 啊……
+- wait:
+  - 45
+- print:
+  - 忍
+  - 我、
+- wait:
+  - 40
+- print:
+  - 忍
+  - 我
+- wait:
+  - 30
+- print:
+  - 忍
+  - 也是。
+- wait:
+  - 55
+- face:
+  - 103111
+  - 2
+- print:
+  - 忍
+  - 我們一起加油吧……
+- touch: *o0
+- tag:
+  - 6
+- vo_effect:
+  - 4
+- focus:
+  - 2411
+- bust:
+  - 2411
+  - 1
+- vo:
+  - vo_adv_1031010_020
+- face:
+  - 2411
+  - 1
+- print:
+  - 骷髏老爸
+  - 喂，
+- wait:
+  - 15
+- print:
+  - 骷髏老爸
+  - 忍？
+- wait:
+  - 30
+- print:
+  - 骷髏老爸
+  - 妳有在聽嗎？
+- wait:
+  - 15
+- print:
+  - 骷髏老爸
+  - |2-
+
+    妳有在聽
+- wait:
+  - 20
+- print:
+  - 骷髏老爸
+  - 爸爸
+- wait:
+  - 40
+- print:
+  - 骷髏老爸
+  - 說的話嗎？
+- touch: *o0
+- vo_effect:
+  - 0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 3.5
+- fadeout:
+  - 103111
+  - 30
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 30
+- black_in: *o0
+- se:
+  - amb_adv_town_day_01
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 過了幾天後──
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 103111
+  - C
+  - 1
+- fadein:
+  - 103111
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M251
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_021
+- face:
+  - 103111
+  - 1
+- nod:
+  - 103111
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 忍
+  - 讓你久等了。
+- wait:
+  - 45
+- print:
+  - 忍
+  - 經過多方調查，
+- wait:
+  - 60
+- print:
+  - 忍
+  - |2
+
+- face:
+  - 103111
+  - 2
+- print:
+  - 忍
+  - 我終於找到最理想的修行方式了。
+- touch: *o0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_022
+- face:
+  - 103111
+  - 6
+- print:
+  - 忍
+  - 那就是東國所流傳的
+- wait:
+  - 40
+- print:
+  - 忍
+  - 「巡禮」。
+- wait:
+  - 60
+- print:
+  - 忍
+  - |2
+
+- face:
+  - 103111
+  - 1
+- print:
+  - 忍
+  - 據說
+- wait:
+  - 30
+- print:
+  - 忍
+  - 這種修行方式是
+- wait:
+  - 50
+- print:
+  - 忍
+  - |2-
+
+    走遍東國各地，
+- wait:
+  - 45
+- print:
+  - 忍
+  - 被稱為「寺廟」的神聖場所。
+- touch: *o0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_023
+- face:
+  - 103111
+  - 1
+- print:
+  - 忍
+  - 因為是長距離步行，
+- wait:
+  - 45
+- print:
+  - 忍
+  - 有助於增強體力與精神力；
+- wait:
+  - 75
+- print:
+  - 忍
+  - |2
+
+- face:
+  - 103111
+  - 2
+- print:
+  - 忍
+  - 而巡訪靈氣豐沛的場所，
+- wait:
+  - 60
+- print:
+  - 忍
+  - 相信也有助於提高靈力。
+- touch: *o0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_024
+- face:
+  - 103111
+  - 1
+- eye_open:
+  - False
+- print:
+  - 忍
+  - 只不過，
+- wait:
+  - 30
+- print:
+  - 忍
+  - 蘭德索爾境內並沒有「寺廟」。
+- wait:
+  - 60
+- print:
+  - 忍
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 忍
+  - 所以，
+- wait:
+  - 30
+- print:
+  - 忍
+  - 我想我們可以去尋訪
+- wait:
+  - 65
+- print:
+  - 忍
+  - |2-
+
+    位於海邊或山上，
+- wait:
+  - 55
+- print:
+  - 忍
+  - 靈力充足的地點來取代「寺廟」。
+- touch: *o0
+- choice:
+  - 聽起來是場很嚴苛的修行呢……
+  - 7
+- tag:
+  - 7
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_025
+- face:
+  - 103111
+  - 6
+- print:
+  - 忍
+  - 這原本就是很嚴苛的修行。
+- wait:
+  - 90
+- print:
+  - 忍
+  - |2
+
+- face:
+  - 103111
+  - 2
+- print:
+  - 忍
+  - 如果我們可以完成，
+- wait:
+  - 70
+- print:
+  - 忍
+  - 一定會有所成長。
+- touch: *o0
+- vo_effect:
+  - 4
+- focus:
+  - 2411
+- bust:
+  - 2411
+  - 1
+- vo:
+  - vo_adv_1031010_026
+- face:
+  - 2411
+  - 1
+- print:
+  - 骷髏老爸
+  - 哼，
+- wait:
+  - 30
+- print:
+  - 骷髏老爸
+  - 就你一個人在修行中曝屍荒野吧。
+- wait:
+  - 45
+- print:
+  - 骷髏老爸
+  - |2-
+
+    不，
+- wait:
+  - 30
+- print:
+  - 骷髏老爸
+  - 你現在就給我死在路邊吧。
+- touch: *o0
+- vo_effect:
+  - 0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_027
+- face:
+  - 103111
+  - 4
+- emotion:
+  - gloomy1_R
+  - 103111
+  - 60
+  - 540
+  - se_adv_emote_gloomy_01
+- print:
+  - 忍
+  - ……爸爸，
+- wait:
+  - 40
+- print:
+  - 忍
+  - 你不是已經答應了這次的修行？
+- wait:
+  - 60
+- print:
+  - 忍
+  - |2
+
+- face:
+  - 103111
+  - 1
+- print:
+  - 忍
+  - 事到如今，請不要說這種話。
+- touch: *o0
+- vo_effect:
+  - 4
+- focus:
+  - 2411
+- bust:
+  - 2411
+  - 1
+- vo:
+  - vo_adv_1031010_028
+- face:
+  - 2411
+  - 1
+- print:
+  - 骷髏老爸
+  - 我的確是答應了。
+- wait:
+  - 55
+- print:
+  - 骷髏老爸
+  - 因為只要小伙子能接受鍛鍊，
+- wait:
+  - 35
+- print:
+  - 骷髏老爸
+  - |2-
+
+    忍就不用再管他了。
+- wait:
+  - 80
+- print:
+  - 骷髏老爸
+  - |2-
+
+    但是，
+- wait:
+  - 30
+- print:
+  - 骷髏老爸
+  - 我不准妳跟小伙子兩人一起去！
+- touch: *o0
+- focus:
+  - 2411
+- bust:
+  - 2411
+  - 1
+- vo:
+  - vo_adv_1031010_029
+- face:
+  - 2411
+  - 1
+- print:
+  - 骷髏老爸
+  - 妳想想看？
+- wait:
+  - 55
+- print:
+  - 骷髏老爸
+  - 就你們兩個人待在杳無人煙的大自然之中？
+- wait:
+  - 60
+- print:
+  - 骷髏老爸
+  - |2-
+
+    身心都獲得釋放的男女會發生什麼事……
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_concrete_walk_go_01
+- change:
+  - RC
+  - C
+  - 30
+- fadeout:
+  - 103111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 2411
+- bust:
+  - 2411
+  - 1
+- vo:
+  - vo_adv_1031010_030
+- face:
+  - 2411
+  - 1
+- print:
+  - 骷髏老爸
+  - 啊啊啊──！
+- wait:
+  - 15
+- print:
+  - 骷髏老爸
+  - 我絕對不答應！
+- wait:
+  - 45
+- print:
+  - 骷髏老爸
+  - 你給我用死來賠罪吧，小伙子！
+- wait:
+  - 70
+- print:
+  - 骷髏老爸
+  - |2-
+
+    ……唔，
+- wait:
+  - 15
+- print:
+  - 骷髏老爸
+  - 咦？
+- wait:
+  - 15
+- print:
+  - 骷髏老爸
+  - 你、
+- wait:
+  - 20
+- print:
+  - 骷髏老爸
+  - 你們別丟下我啊！
+- touch: *o0
+- vo_effect:
+  - 0
+- bgm:
+  - stop
+  - 2.2
+  - 1
+- window_visible:
+  - false
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_town_day_01
+  - 1
+- background:
+  - 500170
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_forest_01
+- chara_full:
+  - 103111
+  - C
+  - 1
+- fadein:
+  - 103111
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M392_Ver2
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_031
+- face:
+  - 103111
+  - 1
+- print:
+  - 忍
+  - 第一個點是位於
+- wait:
+  - 45
+- print:
+  - 忍
+  - 這座森林深處的樹木。
+- wait:
+  - 70
+- print:
+  - 忍
+  - |2
+
+- face:
+  - 103111
+  - 6
+- print:
+  - 忍
+  - 據說那是一棵
+- wait:
+  - 30
+- print:
+  - 忍
+  - 樹齡超過千年的巨樹喔。
+- touch: *o0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_032
+- face:
+  - 103111
+  - 1
+- print:
+  - 忍
+  - 歷史悠久的樹木，
+- wait:
+  - 75
+- print:
+  - 忍
+  - 有時會有神明寄宿當中。
+- wait:
+  - 75
+- print:
+  - 忍
+  - |2
+
+- face:
+  - 103111
+  - 2
+- print:
+  - 忍
+  - 接觸這類樹木，
+- wait:
+  - 45
+- print:
+  - 忍
+  - 應該有助於靈力的提升。
+- wait:
+  - 65
+- print:
+  - 忍
+  - |2-
+
+    那麼，
+- wait:
+  - 30
+- print:
+  - 忍
+  - 我們趕快過去吧。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_step_leaves_walk_go_01
+- change:
+  - RC
+  - C
+  - 30
+- bgm:
+  - stop
+  - 3
+- fadeout:
+  - 103111
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_forest_01
+  - 1
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_forest_01
+- chara_full:
+  - 103111
+  - C
+  - 1
+- fadein:
+  - 103111
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M140_NoBell
+  - 0
+  - 0
+  - 1
+  - 0.75
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_033
+- face:
+  - 103111
+  - 1
+- print:
+  - 忍
+  - ──說到森林，
+- wait:
+  - 45
+- print:
+  - 忍
+  - 你有聽說過這種傳聞嗎？
+- wait:
+  - 85
+- print:
+  - 忍
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - 忍
+  - 在這世界上
+- wait:
+  - 50
+- print:
+  - 忍
+  - 存在著，只要一踏進去
+- wait:
+  - 45
+- print:
+  - 忍
+  - 就出不來，
+- wait:
+  - 60
+- print:
+  - 忍
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 忍
+  - 充滿怨念的
+- wait:
+  - 45
+- print:
+  - 忍
+  - 魔之森林……
+- touch: *o0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_034
+- face:
+  - 103111
+  - 2
+- nod:
+  - 103111
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 忍
+  - 呵呵，
+- wait:
+  - 45
+- print:
+  - 忍
+  - 別擔心，
+- wait:
+  - 45
+- print:
+  - 忍
+  - 這座森林是安全的。
+- wait:
+  - 60
+- print:
+  - 忍
+  - |2
+
+- face:
+  - 103111
+  - 6
+- print:
+  - 忍
+  - 只是
+- wait:
+  - 40
+- print:
+  - 忍
+  - 陰暗了點，不是那麼好走。
+- wait:
+  - 55
+- print:
+  - 忍
+  - 還請你盡可能待在我身邊。
+- touch: *o0
+- choice:
+  - 所以說，那個是？
+  - 8
+- tag:
+  - 8
+- window_visible:
+  - false
+- fadeout:
+  - 103111
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- se:
+  - se_adv_creature_cmn_group_02
+- chara_full:
+  - 1611
+  - C
+  - 1
+- chara_full:
+  - 1612
+  - L
+  - 1
+- chara_full:
+  - 1613
+  - R
+  - 1
+- wait:
+  - 15
+- bgm:
+  - stop
+  - 3.3
+  - 1
+- fadein:
+  - 1611
+  - 30
+- wait:
+  - 15
+- fadein:
+  - 1612
+  - 30
+- wait:
+  - 15
+- fadein:
+  - 1613
+  - 30
+- change_window:
+  - 3
+- text_size:
+  - 50
+- se:
+  - se_adv_creature_cmn_05
+- window_visible:
+  - true
+- bgm:
+  - bgm_M03
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1031010_035
+- face:
+  - 1
+  - 1
+- effect:
+  - 9
+- print:
+  - 惡靈們
+  - ──嘎喔喔喔！
+- shake_screen: *o0
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- fadeout_all:
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 103111
+  - C
+  - 6
+- fadein:
+  - 103111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_036
+- face:
+  - 103111
+  - 6
+- emotion:
+  - surprise1_L
+  - 103111
+  - 155
+  - 565
+  - se_adv_emote_common_01
+- print:
+  - 忍
+  - 那是惡靈……？
+- wait:
+  - 65
+- print:
+  - 忍
+  - |2-
+
+    這裡應該不會有惡靈會出現才對……
+- touch: *o0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_037
+- face:
+  - 103111
+  - 3
+- print:
+  - 忍
+  - 總之，
+- wait:
+  - 30
+- print:
+  - 忍
+  - 由我來除去那個惡靈。
+- wait:
+  - 50
+- print:
+  - 忍
+  - 你先離開這裡……
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_038
+- face:
+  - 103111
+  - 6
+- print:
+  - 忍
+  - 不對，
+- wait:
+  - 35
+- print:
+  - 忍
+  - 不是這樣。
+- wait:
+  - 50
+- print:
+  - 忍
+  - 這次的修行
+- wait:
+  - 45
+- print:
+  - 忍
+  - 是我們兩個人要一起達成。
+- wait:
+  - 70
+- print:
+  - 忍
+  - |2
+
+- face:
+  - 103111
+  - 4
+- print:
+  - 忍
+  - 如果只有我一個人戰鬥，
+- wait:
+  - 50
+- print:
+  - 忍
+  - 這樣什麼都沒有改變。
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- window_visible:
+  - true
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_039
+- face:
+  - 103111
+  - 6
+- print:
+  - 忍
+  - 不好意思，
+- wait:
+  - 45
+- print:
+  - 忍
+  - 可以麻煩你像之前那樣，
+- wait:
+  - 45
+- print:
+  - 忍
+  - |2
+
+- face:
+  - 103111
+  - 3
+- print:
+  - 忍
+  - 在我除靈時幫我強化並給予協助嗎？
+- touch: *o0
+- choice:
+  - 交給我吧！
+  - 9
+- tag:
+  - 9
+- effect:
+  - 0076
+  - se_adv_magic_cmn_medium_02
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_040
+- face:
+  - 103111
+  - 2
+- nod:
+  - 103111
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 忍
+  - 謝謝你。
+- wait:
+  - 45
+- print:
+  - 忍
+  - 那麼，我們上吧！
+- touch: *o0
+- vo_effect:
+  - 4
+- focus:
+  - 2411
+- bust:
+  - 2411
+  - 1
+- vo:
+  - vo_adv_1031010_041
+- face:
+  - 2411
+  - 1
+- print:
+  - 骷髏老爸
+  - ……
+- touch: *o0
+- vo_effect:
+  - 0
+- window_visible:
+  - false
+- effect_delete:
+  - 0076
+  - 15
+- bgm:
+  - stop
+  - 2.5
+- fadeout:
+  - 103111
+  - 30
+- se_pause:
+  - amb_adv_forest_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- background:
+  - 501030
+- wait:
+  - 15
+- black_in: *o0
+- se:
+  - amb_adv_seaside_01
+- chara_full:
+  - 103111
+  - C
+  - 6
+- fadein:
+  - 103111
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M584A
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_042
+- face:
+  - 103111
+  - 6
+- print:
+  - 忍
+  - ──我們到了。
+- wait:
+  - 40
+- print:
+  - 忍
+  - 接下來，就往位在這座海岸的洞窟前進吧。
+- wait:
+  - 75
+- print:
+  - 忍
+  - |2
+
+- face:
+  - 103111
+  - 1
+- print:
+  - 忍
+  - 那裡好像供奉著龍神的神像。
+- touch: *o0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_043
+- face:
+  - 103111
+  - 6
+- emotion:
+  - notice1_L
+  - 103111
+  - -50
+  - 530
+  - se_adv_emote_common_01
+- print:
+  - 忍
+  - 對了，你知道嗎？
+- wait:
+  - 60
+- print:
+  - 忍
+  - 海市蜃樓的產生，
+- wait:
+  - 50
+- print:
+  - 忍
+  - |2-
+
+    根據其中一種說法表示，
+- wait:
+  - 45
+- print:
+  - 忍
+  - 似乎是由巨大的蛤蜊所引起的呢。
+- wait:
+  - 80
+- print:
+  - 忍
+  - |2
+
+- face:
+  - 103111
+  - 2
+- print:
+  - 忍
+  - 巨大的蛤蜊
+- wait:
+  - 50
+- print:
+  - 忍
+  - 雖然感覺有點恐怖，
+- wait:
+  - 50
+- print:
+  - 忍
+  - 但我還是很想見識一下。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 103111
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- effect:
+  - 0077
+- se:
+  - se_adv_magic_dark_aura_01
+- wait:
+  - 45
+- window_visible:
+  - true
+- choice:
+  - 所以說，那個也是蛤蜊造成的？
+  - 10
+- tag:
+  - 10
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 1
+- vo:
+  - vo_adv_1031010_044
+- face:
+  - 103111
+  - 4
+- print:
+  - 忍
+  - ……不，
+- wait:
+  - 40
+- print:
+  - 忍
+  - 那不是海市蜃樓，
+- wait:
+  - 50
+- print:
+  - 忍
+  - 是惡靈。
+- wait:
+  - 75
+- print:
+  - 忍
+  - |2
+
+- face:
+  - 103111
+  - 1
+- print:
+  - 忍
+  - 我們一路走到這裡，不知已巡訪過多少個點了，
+- wait:
+  - 70
+- print:
+  - 忍
+  - |2-
+
+    卻總是有惡靈來襲。
+- touch: *o0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 1
+- vo:
+  - vo_adv_1031010_045
+- face:
+  - 103111
+  - 1
+- print:
+  - 忍
+  - 雖說在靈氣豐沛的地點附近，
+- wait:
+  - 50
+- print:
+  - 忍
+  - 容易有幽靈聚集，
+- wait:
+  - 75
+- print:
+  - 忍
+  - |2
+
+- face:
+  - 103111
+  - 6
+- print:
+  - 忍
+  - 但像這樣頻繁地遇到惡靈來襲，
+- wait:
+  - 70
+- print:
+  - 忍
+  - 總覺得有點不太自然。
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1.2
+  - 1
+- effect_delete:
+  - 0077
+  - 15
+- effect:
+  - 0038
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- chara_full:
+  - 1614
+  - C
+  - 1
+- fadein:
+  - 1614
+  - 30
+- change_window:
+  - 3
+- text_size:
+  - 50
+- se:
+  - se_adv_creature_cmn_01
+- window_visible:
+  - true
+- bgm:
+  - bgm_M102
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 1614
+- bust:
+  - 1614
+  - 0
+- face:
+  - 1614
+  - 1
+- effect:
+  - 9
+- print:
+  - 魔物
+  - ──嘎喔喔喔！
+- shake_screen: *o0
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- fadeout:
+  - 1614
+  - 30
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 103111
+  - C
+  - 6
+- fadein:
+  - 103111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_046
+- face:
+  - 103111
+  - 6
+- emotion:
+  - exclamation1_R
+  - 103111
+  - 30
+  - 635
+  - se_adv_emote_common_01
+- print:
+  - 忍
+  - 唔！
+- wait:
+  - 40
+- print:
+  - 忍
+  - 這次連魔物也來參一腳……
+- wait:
+  - 60
+- print:
+  - 忍
+  - |2
+
+- face:
+  - 103111
+  - 2
+- print:
+  - 忍
+  - 是受到惡靈釋放出的
+- wait:
+  - 35
+- print:
+  - 忍
+  - 不良靈氣的影響嗎？
+- wait:
+  - 55
+- print:
+  - 忍
+  - 可是──
+- touch: *o0
+- choice:
+  - 只要我們兩個人一起戰鬥就不會有問題，對吧？
+  - 11
+- tag:
+  - 11
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_047
+- face:
+  - 103111
+  - 2
+- nod:
+  - 103111
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 忍
+  - 是的。
+- wait:
+  - 35
+- print:
+  - 忍
+  - 就是這樣。
+- wait:
+  - 65
+- print:
+  - 忍
+  - 再麻煩你像之前那樣，
+- wait:
+  - 50
+- print:
+  - 忍
+  - |2-
+
+    幫我強化並協助我對抗魔物。
+- touch: *o0
+- vo_effect:
+  - 4
+- focus:
+  - 2411
+- bust:
+  - 2411
+  - 1
+- vo:
+  - vo_adv_1031010_048
+- face:
+  - 2411
+  - 1
+- print:
+  - 骷髏老爸
+  - ……
+- touch: *o0
+- vo_effect:
+  - 0
+- window_visible:
+  - false
+- fadeout:
+  - 103111
+  - 30
+- se_pause:
+  - amb_adv_seaside_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- background:
+  - 500213
+- wait:
+  - 15
+- black_in: *o0
+- se:
+  - amb_adv_outdoors_day_01
+- chara_full:
+  - 103111
+  - C
+  - 3
+- fadein:
+  - 103111
+  - 30
+- effect:
+  - 0009
+- se:
+  - se_adv_move_fast_02
+- scale:
+  - 103111
+  - 1.2
+  - 2
+  - 10
+- fadeout:
+  - 103111
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0016
+  - se_adv_weapon_sword_hit_02
+- wait:
+  - 15
+- background:
+  - 500213
+- chara_full:
+  - 1611
+  - C
+  - 1
+- chara_full:
+  - 1612
+  - L
+  - 1
+- chara_full:
+  - 1613
+  - R
+  - 1
+- fadein_all:
+  - 30
+- bgm:
+  - stop
+  - 4
+- se:
+  - se_adv_creature_cmn_04
+- window_visible:
+  - true
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1031010_049
+- face:
+  - 1
+  - 1
+- print:
+  - 惡靈們
+  - ──嘎喔喔喔！
+- touch: *o0
+- window_visible:
+  - false
+- updown:
+  - 1611
+  - 0
+  - -150
+  - 0.2
+- updown:
+  - 1612
+  - 0
+  - -150
+  - 0.2
+- updown:
+  - 1613
+  - 0
+  - -150
+  - 0.2
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_bodyfall_01
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- effect:
+  - 0038
+  - se_adv_transition_01
+- wait:
+  - 15
+- chara_full:
+  - 103111
+  - C
+  - 6
+- fadein:
+  - 103111
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M273_Ver2
+  - 0
+  - 0
+  - 1
+  - 0.25
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_050
+- face:
+  - 103111
+  - 6
+- nod:
+  - 103111
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 忍
+  - 呼……
+- wait:
+  - 50
+- print:
+  - 忍
+  - 看來這是最後一隻了。
+- wait:
+  - 65
+- face:
+  - 103111
+  - 1
+- print:
+  - 忍
+  - 辛苦你了。
+- wait:
+  - 60
+- print:
+  - 忍
+  - |2-
+
+    你已經很習慣這樣的戰鬥方式，
+- wait:
+  - 45
+- print:
+  - 忍
+  - 行動也變得靈活多了。
+- wait:
+  - 75
+- print:
+  - 忍
+  - |2-
+
+    這就是修行的成果──
+- touch: *o0
+- se:
+  - se_adv_hungry_01
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_051
+- face:
+  - 103111
+  - 6
+- print:
+  - 忍
+  - 咦……？
+- wait:
+  - 40
+- face:
+  - 103111
+  - 2
+- print:
+  - 忍
+  - 呵呵，
+- wait:
+  - 55
+- print:
+  - 忍
+  - 我們走了遠路，還一路戰鬥到這裡來，這也難怪了。
+- wait:
+  - 85
+- print:
+  - 忍
+  - |2-
+
+    目的地的祠堂離在這裡不遠。
+- wait:
+  - 60
+- print:
+  - 忍
+  - 我們先午休一下吧。
+- touch: *o0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_052
+- face:
+  - 103111
+  - 6
+- print:
+  - 忍
+  - 對了……
+- wait:
+  - 65
+- face:
+  - 103111
+  - 5
+- print:
+  - 忍
+  - 其實，
+- wait:
+  - 50
+- print:
+  - 忍
+  - 我有做了便當喔。
+- wait:
+  - 70
+- print:
+  - 忍
+  - |2-
+
+    希望菜色有合你的胃口……
+- touch: *o0
+- vo_effect:
+  - 4
+- focus:
+  - 2411
+- bust:
+  - 2411
+  - 1
+- vo:
+  - vo_adv_1031010_053
+- face:
+  - 2411
+  - 1
+- print:
+  - 骷髏老爸
+  - 咕、
+- wait:
+  - 40
+- print:
+  - 骷髏老爸
+  - 唔……
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- window_visible:
+  - true
+- focus:
+  - 2411
+- bust:
+  - 2411
+  - 1
+- vo:
+  - vo_adv_1031010_054
+- face:
+  - 2411
+  - 1
+- print:
+  - 骷髏老爸
+  - 我原以為只要小伙子受到鍛鍊，
+- wait:
+  - 45
+- print:
+  - 骷髏老爸
+  - 忍自然就會離開他，
+- wait:
+  - 80
+- print:
+  - 骷髏老爸
+  - |2-
+
+    為何我反而感到他們的默契越來越好，甚至比我與忍之間的默契還要好。
+- touch: *o0
+- focus:
+  - 2411
+- bust:
+  - 2411
+  - 1
+- vo:
+  - vo_adv_1031010_055
+- face:
+  - 2411
+  - 1
+- print:
+  - 骷髏老爸
+  - 不僅如此，是因為他已經習慣戰鬥了嗎？
+- wait:
+  - 45
+- print:
+  - 骷髏老爸
+  - 這趟旅行與其說是修行，
+- wait:
+  - 25
+- print:
+  - 骷髏老爸
+  - |2-
+
+    現在反倒越來越像是出來野餐的！
+- wait:
+  - 50
+- print:
+  - 骷髏老爸
+  - |2-
+
+    就算我能為修行讓步，
+- wait:
+  - 45
+- print:
+  - 骷髏老爸
+  - 也絕不允許他們倆曬恩愛！　
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 3
+  - 1
+- focus:
+  - 2411
+- bust:
+  - 2411
+  - 1
+- vo:
+  - vo_adv_1031010_056
+- face:
+  - 2411
+  - 1
+- print:
+  - 骷髏老爸
+  - 我已經看不下去了……
+- wait:
+  - 70
+- print:
+  - 骷髏老爸
+  - |2
+
+- bgm:
+  - bgm_M13_03_NoIntro
+- print:
+  - 骷髏老爸
+  - 喂，
+- wait:
+  - 30
+- print:
+  - 骷髏老爸
+  - 小伙子。既然你那麼愛修行，
+- wait:
+  - 40
+- print:
+  - 骷髏老爸
+  - 就由我來鍛鍊你吧！
+- touch: *o0
+- vo_effect:
+  - 0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_057
+- face:
+  - 103111
+  - 6
+- emotion:
+  - question1_R
+  - 103111
+  - 125
+  - 505
+  - se_adv_emote_question_01
+- print:
+  - 忍
+  - 爸、
+- wait:
+  - 20
+- print:
+  - 忍
+  - 爸爸？
+- wait:
+  - 30
+- print:
+  - 忍
+  - 這麼突然是怎麼了？
+- touch: *o0
+- vo_effect:
+  - 4
+- focus:
+  - 2411
+- bust:
+  - 2411
+  - 1
+- vo:
+  - vo_adv_1031010_058
+- face:
+  - 2411
+  - 1
+- print:
+  - 骷髏老爸
+  - 忍妳不要插嘴！
+- wait:
+  - 40
+- print:
+  - 骷髏老爸
+  - 走吧，小伙子！
+- wait:
+  - 45
+- print:
+  - 骷髏老爸
+  - |2-
+
+    這是你死我活的特別課程！
+- wait:
+  - 60
+- print:
+  - 骷髏老爸
+  - |2-
+
+    給我受死吧──
+- touch: *o0
+- vo_effect:
+  - 0
+- window_visible:
+  - false
+- fadeout:
+  - 103111
+  - 30
+- se:
+  - se_adv_crash_rock_01
+- shake_screen: *o0
+- effect:
+  - 14
+- chara_full:
+  - 103111
+  - C
+  - 4
+- fadein:
+  - 103111
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 8.2
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_059
+- face:
+  - 103111
+  - 4
+- print:
+  - 忍
+  - 哎呀
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 忍
+  - ……
+- shake:
+  - 103111
+- wait:
+  - 30
+- face:
+  - 103111
+  - 6
+- print:
+  - 忍
+  - 啊啊！
+- wait:
+  - 20
+- print:
+  - 忍
+  - 祠、
+- wait:
+  - 20
+- print:
+  - 忍
+  - 祠堂……
+- touch: *o0
+- vo_effect:
+  - 4
+- focus:
+  - 2411
+- bust:
+  - 2411
+  - 1
+- vo:
+  - vo_adv_1031010_060
+- face:
+  - 2411
+  - 1
+- print:
+  - 骷髏老爸
+  - 什、
+- wait:
+  - 20
+- print:
+  - 骷髏老爸
+  - 什麼？
+- wait:
+  - 30
+- print:
+  - 骷髏老爸
+  - 我什麼都還沒有做啊！
+- touch: *o0
+- vo_effect:
+  - 0
+- window_visible:
+  - false
+- fadeout:
+  - 103111
+  - 30
+- effect_delete:
+  - 0014
+  - 15
+- se:
+  - se_adv_magic_dark_aura_01
+- effect:
+  - 0077
+- window_visible:
+  - true
+- bgm:
+  - bgm_M60
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1031010_061
+- face:
+  - 1
+  - 1
+- print:
+  - 被祭祀的幽靈
+  - 打擾吾之沉眠的，是汝等這群無禮之徒嗎……！
+- wait:
+  - 65
+- print:
+  - 被祭祀的幽靈
+  - |2-
+
+    那好，
+- wait:
+  - 15
+- print:
+  - 被祭祀的幽靈
+  - 殺了汝等！
+- wait:
+  - 30
+- print:
+  - 被祭祀的幽靈
+  - 無禮之者格殺勿論！
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 103111
+  - C
+  - 1
+- fadein:
+  - 103111
+  - 30
+- window_visible:
+  - true
+- vo_effect:
+  - 4
+- focus:
+  - 2411
+- bust:
+  - 2411
+  - 1
+- vo:
+  - vo_adv_1031010_062
+- face:
+  - 2411
+  - 1
+- print:
+  - 骷髏老爸
+  - 嗚哇，
+- wait:
+  - 20
+- print:
+  - 骷髏老爸
+  - 供奉的幽靈跑出來了……
+- wait:
+  - 55
+- print:
+  - 骷髏老爸
+  - |2-
+
+    而且這傢伙
+- wait:
+  - 20
+- print:
+  - 骷髏老爸
+  - 看起來很強……
+- wait:
+  - 55
+- print:
+  - 骷髏老爸
+  - 要強行除靈嗎？
+- touch: *o0
+- vo_effect:
+  - 0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_063
+- face:
+  - 103111
+  - 3
+- nod:
+  - 103111
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - 忍
+  - 當然不行！
+- wait:
+  - 45
+- face:
+  - 103111
+  - 4
+- print:
+  - 忍
+  - 那個……
+- wait:
+  - 30
+- print:
+  - 忍
+  - 非常抱歉。
+- wait:
+  - 50
+- print:
+  - 忍
+  - |2-
+
+    我們會把祠堂修理好的，
+- wait:
+  - 45
+- print:
+  - 忍
+  - 還請原諒我們。
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1031010_064
+- face:
+  - 1
+  - 1
+- print:
+  - 被祭祀的幽靈
+  - 不成！
+- wait:
+  - 30
+- print:
+  - 被祭祀的幽靈
+  - 無禮之徒一律格殺勿論！
+- touch: *o0
+- vo_effect:
+  - 4
+- focus:
+  - 2411
+- bust:
+  - 2411
+  - 1
+- vo:
+  - vo_adv_1031010_065
+- face:
+  - 2411
+  - 1
+- print:
+  - 骷髏老爸
+  - 這、
+- wait:
+  - 30
+- print:
+  - 骷髏老爸
+  - 這傢伙還真小心眼……
+- wait:
+  - 70
+- print:
+  - 骷髏老爸
+  - |2-
+
+    沒辦法了，
+- wait:
+  - 30
+- print:
+  - 骷髏老爸
+  - 小伙子，
+- wait:
+  - 30
+- print:
+  - 骷髏老爸
+  - 你就成為祭品為我們犧牲吧。
+- touch: *o0
+- vo_effect:
+  - 0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_066
+- face:
+  - 103111
+  - 3
+- print:
+  - 忍
+  - 爸爸……？
+- touch: *o0
+- vo_effect:
+  - 4
+- focus:
+  - 2411
+- bust:
+  - 2411
+  - 1
+- vo:
+  - vo_adv_1031010_067
+- face:
+  - 2411
+  - 1
+- print:
+  - 骷髏老爸
+  - 唔！
+- wait:
+  - 20
+- print:
+  - 骷髏老爸
+  - 如果
+- wait:
+  - 10
+- print:
+  - 骷髏老爸
+  - 不這麼做的話，那傢伙根本不願原諒我們啊！
+- touch: *o0
+- vo_effect:
+  - 0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_068
+- face:
+  - 103111
+  - 6
+- print:
+  - 忍
+  - 總之，這裡由我來想辦法，
+- wait:
+  - 50
+- face:
+  - 103111
+  - 3
+- print:
+  - 忍
+  - 請爸爸安靜點。
+- touch: *o0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_069
+- face:
+  - 103111
+  - 4
+- nod:
+  - 103111
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 忍
+  - 我們一再打擾到您，
+- wait:
+  - 40
+- print:
+  - 忍
+  - 真的很抱歉。
+- wait:
+  - 60
+- print:
+  - 忍
+  - |2
+
+- face:
+  - 103111
+  - 1
+- print:
+  - 忍
+  - 雖然不知這樣是否能獲得您的諒解，
+- wait:
+  - 60
+- print:
+  - 忍
+  - 但請容我
+- wait:
+  - 45
+- print:
+  - 忍
+  - 為您跳一支舞。
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1031010_070
+- face:
+  - 1
+  - 1
+- print:
+  - 被祭祀的幽靈
+  - 跳舞？
+- wait:
+  - 40
+- print:
+  - 被祭祀的幽靈
+  - 吾長久以來在此地接受供奉，
+- wait:
+  - 55
+- print:
+  - 被祭祀的幽靈
+  - |2-
+
+    從未見過這類東西。
+- wait:
+  - 60
+- print:
+  - 被祭祀的幽靈
+  - |2-
+
+    好吧，
+- wait:
+  - 30
+- print:
+  - 被祭祀的幽靈
+  - 汝就跳來看看吧。
+- wait:
+  - 45
+- print:
+  - 被祭祀的幽靈
+  - 不過，跳完之後一樣要殺了你們！
+- touch: *o0
+- vo_effect:
+  - 4
+- focus:
+  - 2411
+- bust:
+  - 2411
+  - 1
+- vo:
+  - vo_adv_1031010_071
+- face:
+  - 2411
+  - 1
+- print:
+  - 骷髏老爸
+  - 這傢伙
+- wait:
+  - 40
+- print:
+  - 骷髏老爸
+  - 應該不是受到供奉，
+- wait:
+  - 40
+- print:
+  - 骷髏老爸
+  - 而是被封印在這裡的吧？
+- touch: *o0
+- vo_effect:
+  - 0
+- effect_delete:
+  - 0077
+  - 15
+- bgm:
+  - stop
+  - 3.7
+  - 1
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_072
+- face:
+  - 103111
+  - 1
+- print:
+  - 忍
+  - 那麼……
+- wait:
+  - 55
+- print:
+  - 忍
+  - 我要開始跳了。
+- touch: *o0
+- bgm:
+  - bgm_M392
+- effect:
+  - 0022
+  - se_adv_happy_particle_01
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_073
+- face:
+  - 103111
+  - 2
+- nod:
+  - 103111
+- se:
+  - se_adv_foley_dance_01
+- print:
+  - 忍
+  - ～～♪
+- wait:
+  - 30
+- touch: *o0
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1031010_074
+- face:
+  - 1
+  - 1
+- print:
+  - 被祭祀的幽靈
+  - 喔、
+- wait:
+  - 15
+- print:
+  - 被祭祀的幽靈
+  - 喔……
+- wait:
+  - 30
+- print:
+  - 被祭祀的幽靈
+  - 這是……
+- wait:
+  - 45
+- print:
+  - 被祭祀的幽靈
+  - 好美的舞蹈！
+- wait:
+  - 60
+- print:
+  - 被祭祀的幽靈
+  - |2-
+
+    吾之殺意
+- wait:
+  - 45
+- print:
+  - 被祭祀的幽靈
+  - 已逐漸消散……
+- touch: *o0
+- window_visible:
+  - false
+- effect_delete:
+  - 0022
+  - 15
+- bgm:
+  - stop
+  - 2.7
+- fadeout:
+  - 103111
+  - 30
+- black_out:
+  - 1
+  - 1
+- wait:
+  - 15
+- black_in: *o0
+- chara_full:
+  - 103111
+  - C
+  - 1
+- fadein:
+  - 103111
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_075
+- face:
+  - 103111
+  - 1
+- nod:
+  - 103111
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 忍
+  - 呼……
+- wait:
+  - 75
+- print:
+  - 忍
+  - 您覺得滿意嗎？
+- touch: *o0
+- bgm:
+  - bgm_M208
+  - 0
+  - 0
+  - 1
+  - 0.75
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_1031010_076
+- face:
+  - 1
+  - 1
+- print:
+  - 被祭祀的幽靈
+  - 太棒了……
+- wait:
+  - 25
+- print:
+  - 被祭祀的幽靈
+  - 實在太棒了！
+- wait:
+  - 45
+- print:
+  - 被祭祀的幽靈
+  - |2-
+
+    汝等的罪過
+- wait:
+  - 25
+- print:
+  - 被祭祀的幽靈
+  - 全都一筆勾銷吧。
+- touch: *o0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_077
+- face:
+  - 103111
+  - 2
+- print:
+  - 忍
+  - 非常謝謝您。
+- wait:
+  - 45
+- print:
+  - 忍
+  - 我們之後
+- wait:
+  - 35
+- print:
+  - 忍
+  - 也會為您修好祠堂的。
+- wait:
+  - 60
+- print:
+  - 忍
+  - |2
+
+- face:
+  - 103111
+  - 1
+- print:
+  - 忍
+  - 還請您
+- wait:
+  - 40
+- print:
+  - 忍
+  - 安穩沉眠於此吧。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_magic_dark_aura_01
+- fadeout:
+  - 103111
+  - 30
+- white_out:
+  - 1
+  - 0.5
+- white_in: *o0
+- chara_full:
+  - 103111
+  - C
+  - 1
+- fadein:
+  - 103111
+  - 30
+- window_visible:
+  - true
+- vo_effect:
+  - 4
+- focus:
+  - 2411
+- bust:
+  - 2411
+  - 1
+- vo:
+  - vo_adv_1031010_078
+- face:
+  - 2411
+  - 1
+- print:
+  - 骷髏老爸
+  - 哎呀，
+- wait:
+  - 30
+- print:
+  - 骷髏老爸
+  - 真是吃盡了苦頭呢。
+- touch: *o0
+- vo_effect:
+  - 0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_079
+- face:
+  - 103111
+  - 3
+- emotion:
+  - anger1_R
+  - 103111
+  - -85
+  - 535
+  - se_adv_emote_anger_01
+- print:
+  - 忍
+  - 你還敢說，
+- wait:
+  - 40
+- print:
+  - 忍
+  - 你以為這是誰害的？
+- touch: *o0
+- vo_effect:
+  - 4
+- focus:
+  - 2411
+- bust:
+  - 2411
+  - 1
+- vo:
+  - vo_adv_1031010_080
+- face:
+  - 2411
+  - 1
+- print:
+  - 骷髏老爸
+  - 等、
+- wait:
+  - 20
+- print:
+  - 骷髏老爸
+  - 等一下，
+- wait:
+  - 25
+- print:
+  - 骷髏老爸
+  - 我是被冤枉的！
+- wait:
+  - 30
+- print:
+  - 骷髏老爸
+  - |2-
+
+    我想
+- wait:
+  - 45
+- print:
+  - 骷髏老爸
+  - 那應該不是我造成的……
+- touch: *o0
+- vo_effect:
+  - 0
+- choice:
+  - 我認為那不是你父親做的。
+  - 12
+- tag:
+  - 12
+- face:
+  - 103111
+  - 6
+- vo_effect:
+  - 4
+- focus:
+  - 2411
+- bust:
+  - 2411
+  - 1
+- vo:
+  - vo_adv_1031010_081
+- face:
+  - 2411
+  - 1
+- print:
+  - 骷髏老爸
+  - 小伙子，
+- wait:
+  - 35
+- print:
+  - 骷髏老爸
+  - 你
+- wait:
+  - 25
+- print:
+  - 骷髏老爸
+  - 願意相信我嗎……？
+- wait:
+  - 55
+- print:
+  - 骷髏老爸
+  - |2-
+
+    那好，
+- wait:
+  - 35
+- print:
+  - 骷髏老爸
+  - 我今天就饒你不死，
+- wait:
+  - 60
+- print:
+  - 骷髏老爸
+  - 好好感謝我吧。
+- touch: *o0
+- vo_effect:
+  - 0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_082
+- face:
+  - 103111
+  - 6
+- print:
+  - 忍
+  - ……既然你這麼說，
+- wait:
+  - 70
+- face:
+  - 103111
+  - 2
+- nod:
+  - 103111
+- print:
+  - 忍
+  - 那我
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 忍
+  - 明白了。
+- touch: *o0
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_083
+- face:
+  - 103111
+  - 1
+- print:
+  - 忍
+  - 爸爸，
+- wait:
+  - 45
+- print:
+  - 忍
+  - 對不起，我懷疑了你。
+- wait:
+  - 60
+- face:
+  - 103111
+  - 3
+- print:
+  - 忍
+  - 不過，
+- wait:
+  - 30
+- print:
+  - 忍
+  - 請你不要再突然亂發脾氣了。
+- touch: *o0
+- vo_effect:
+  - 4
+- focus:
+  - 2411
+- bust:
+  - 2411
+  - 1
+- vo:
+  - vo_adv_1031010_084
+- face:
+  - 2411
+  - 1
+- print:
+  - 骷髏老爸
+  - 呃，
+- wait:
+  - 20
+- print:
+  - 骷髏老爸
+  - 我知道了……
+- wait:
+  - 30
+- print:
+  - 骷髏老爸
+  - 我會好好檢討的。
+- touch: *o0
+- vo_effect:
+  - 0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 50
+- change_window:
+  - 2
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 103111
+- bust:
+  - 103111
+  - 0
+- vo:
+  - vo_adv_1031010_085
+- face:
+  - 103111
+  - 4
+- print:
+  - 忍
+  - 話說回來，
+- wait:
+  - 30
+- print:
+  - 忍
+  - 先不提爸爸的事，
+- wait:
+  - 50
+- print:
+  - 忍
+  - 惡靈的襲擊很明顯地非常不對勁。
+- wait:
+  - 85
+- print:
+  - 忍
+  - |2
+
+- face:
+  - 103111
+  - 6
+- print:
+  - 忍
+  - 還有上次那個多管閒事的阿姨也是，
+- wait:
+  - 55
+- print:
+  - 忍
+  - 這到底是怎麼回事？　
+- touch: *o0
+- window_visible:
+  - false
+- bright_change:
+  - 1
+  - 100
+- change_window:
+  - 1
+- vo_effect:
+  - 0
+- fadeout:
+  - 103111
+  - 30
+- bg_pan:
+  - 0
+  - -170
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 雖然到最後惡靈和祠堂的謎團都沒有解開，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - |2-
+
+    但這趟巡禮姑且算是順利地完成了。
+- wait:
+  - 30
+- touch: *o0
+- window_visible:
+  - false
+- se_pause:
+  - amb_adv_outdoors_day_01
+  - 1
+- bgm:
+  - stop
+  - 1
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0

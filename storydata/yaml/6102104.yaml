@@ -1,0 +1,268 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 501860
+- amb:
+  - amb_adv_gaya_cmn_01
+- ui_visible:
+  - false
+- situation:
+  - 文化祭的亮點
+- chara_full:
+  - 123611
+  - C
+  - 2
+- fadein:
+  - 123611
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M624_03
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 123611
+- bust:
+  - 123611
+  - 0
+- vo:
+  - vo_adv_6102104_000
+- face:
+  - 123611
+  - 2
+- emotion:
+  - twinkle1_R
+  - 123611
+  - -95
+  - 480
+  - se_adv_emote_twinkle_01
+- print:
+  - 智
+  - 這場文化祭還有很多很多
+- wait:
+  - 35
+- print:
+  - 智
+  - 值得一看的地方……！
+- wait:
+  - 30
+- print:
+  - 智
+  - |2-
+
+    像是同人誌販售會、
+- wait:
+  - 40
+- print:
+  - 智
+  - 模型展示會，
+- wait:
+  - 20
+- print:
+  - 智
+  - |2-
+
+    還有直播主的脫口秀活動，我也很有興趣呢……！
+- touch: &o0 []
+- choice:
+  - 我們去逛同人誌攤位吧。
+  - 1
+  - 1
+- choice:
+  - 我們去看模型吧！
+  - 2
+  - 2
+- choice:
+  - 我們去看直播主的活動吧。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 123611
+- bust:
+  - 123611
+  - 0
+- vo:
+  - vo_adv_6102104_001
+- face:
+  - 123611
+  - 1
+- print:
+  - 智
+  - 也是。
+- wait:
+  - 25
+- print:
+  - 智
+  - |
+    畢竟【王宮騎士團】的前輩也有出攤，
+- wait:
+  - 25
+- print:
+  - 智
+  - 那個我也很好奇呢……！
+- wait:
+  - 35
+- print:
+  - 智
+  - |2
+
+- face:
+  - 123611
+  - 2
+- print:
+  - 智
+  - 而且說不定還有其他魔法少女的同人誌……！
+- wait:
+  - 45
+- pop:
+  - 123611
+- print:
+  - 智
+  - 好，
+- wait:
+  - 10
+- print:
+  - 智
+  - 走吧！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 123611
+- bust:
+  - 123611
+  - 0
+- vo:
+  - vo_adv_6102104_002
+- face:
+  - 123611
+  - 2
+- print:
+  - 智
+  - 我聽說，
+- wait:
+  - 30
+- print:
+  - 智
+  - 展示會上會展出萬聖節版的
+- wait:
+  - 20
+- print:
+  - 智
+  - |2-
+
+    鈴鈴噹模型！
+- wait:
+  - 35
+- emotion:
+  - heart1_R
+  - 123611
+  - 105
+  - 445
+  - se_adv_emote_heart_01
+- print:
+  - 智
+  - 竟然可以用360度的任意角度
+- wait:
+  - 30
+- print:
+  - 智
+  - |2-
+
+    盡情把玩穿著那套服裝的鈴鈴噹……！
+- wait:
+  - 60
+- print:
+  - 智
+  - 真是太期待了！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 123611
+- bust:
+  - 123611
+  - 0
+- vo:
+  - vo_adv_6102104_003
+- face:
+  - 123611
+  - 1
+- print:
+  - 智
+  - 嗯。
+- wait:
+  - 25
+- print:
+  - 智
+  - 我除了
+- wait:
+  - 20
+- print:
+  - 智
+  - 鏡小姐之外，
+- wait:
+  - 40
+- print:
+  - 智
+  - 其他直播主幾乎都不認識，
+- wait:
+  - 30
+- print:
+  - 智
+  - |2-
+
+    這說不定是個好機會。
+- wait:
+  - 40
+- print:
+  - 智
+  - 不知道出場的會是什麼樣的人呢？
+- wait:
+  - 40
+- print:
+  - 智
+  - |2
+
+- face:
+  - 123611
+  - 2
+- print:
+  - 智
+  - 如果很有趣的話，
+- wait:
+  - 35
+- print:
+  - 智
+  - 我會想看看那個人的直播呢。
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 123611
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0
