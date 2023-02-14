@@ -1,0 +1,266 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500200
+- amb:
+  - amb_adv_outdoors_day_01
+- ui_visible:
+  - false
+- situation:
+  - 兔子族的住所
+- chara_full:
+  - 100512
+  - C
+  - 1
+- fadein:
+  - 100512
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M632
+  - 0
+  - 0
+  - 1
+- focus:
+  - 100512
+- bust:
+  - 100512
+  - 0
+- vo:
+  - vo_adv_6104104_000
+- face:
+  - 100512
+  - 1
+- print:
+  - 茉莉
+  - 雖然在都市也有兔子族，
+- wait:
+  - 55
+- print:
+  - 茉莉
+  - |2-
+
+    但也有些兔子族在深山中過著傳統的生活呢。
+- wait:
+  - 100
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100512
+  - 6
+- print:
+  - 茉莉
+  - 像是買東西之類的
+- wait:
+  - 30
+- print:
+  - 茉莉
+  - 不會不方便嗎？
+- touch: &o0 []
+- choice:
+  - 聽說他們會沿著山坡下山去鎮上。
+  - 1
+  - 1
+- choice:
+  - 應該會有商人來吧。
+  - 2
+  - 2
+- choice:
+  - 或許是個不錯的訓練方式呢。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 100512
+- bust:
+  - 100512
+  - 0
+- vo:
+  - vo_adv_6104104_001
+- face:
+  - 100512
+  - 6
+- emotion:
+  - surprise1_L
+  - 100512
+  - 150
+  - 495
+  - se_adv_emote_common_01
+- print:
+  - 茉莉
+  - 你說沿著那種陡峭的山崖嗎？
+- wait:
+  - 75
+- print:
+  - 茉莉
+  - 真虧他們能辦到呢……
+- wait:
+  - 65
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100512
+  - 1
+- print:
+  - 茉莉
+  - 所以
+- wait:
+  - 25
+- print:
+  - 茉莉
+  - 他們有那種驚人的身體能力，
+- wait:
+  - 60
+- print:
+  - 茉莉
+  - |2-
+
+    也是多虧了山中生活啊。
+- wait:
+  - 60
+- print:
+  - 茉莉
+  - 這樣我就能理解了。
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 100512
+- bust:
+  - 100512
+  - 0
+- vo:
+  - vo_adv_6104104_002
+- face:
+  - 100512
+  - 1
+- nod:
+  - 100512
+- print:
+  - 茉莉
+  - 說得也是呢。
+- wait:
+  - 40
+- print:
+  - 茉莉
+  - 壞商人已經被我們教訓過了，
+- wait:
+  - 40
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100512
+  - 2
+- print:
+  - 茉莉
+  - 在這之後來的應該都是好商人才對。
+- wait:
+  - 70
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100512
+  - 1
+- print:
+  - 茉莉
+  - 因為有克莉絲提娜阿姨盯著，所以可以好好放心！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 100512
+- bust:
+  - 100512
+  - 0
+- vo:
+  - vo_adv_6104104_003
+- face:
+  - 100512
+  - 6
+- emotion:
+  - exclamation1_R
+  - 100512
+  - 25
+  - 595
+  - se_adv_emote_common_01
+- print:
+  - 茉莉
+  - 啊！
+- wait:
+  - 20
+- print:
+  - 茉莉
+  - 在我最近看的漫畫裡有這種場面！
+- wait:
+  - 70
+- print:
+  - 茉莉
+  - |2-
+
+    奧義的靈感
+- wait:
+  - 70
+- print:
+  - 茉莉
+  - 就隱藏在像擦地板這種日常瑣事當中。
+- wait:
+  - 90
+- print:
+  - 茉莉
+  - |2-
+
+    ……
+- wait:
+  - 45
+- face:
+  - 100512
+  - 4
+- print:
+  - 茉莉
+  - 我想
+- wait:
+  - 35
+- print:
+  - 茉莉
+  - 暫時居住在這裡看看，
+- wait:
+  - 40
+- print:
+  - 茉莉
+  - 可以嗎？
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 100512
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

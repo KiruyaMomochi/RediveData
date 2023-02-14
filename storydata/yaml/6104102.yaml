@@ -1,0 +1,282 @@
+- title:
+  - ' '
+- outline:
+  - ' '
+- background:
+  - 500130
+- amb:
+  - amb_adv_outdoors_day_01
+- ui_visible:
+  - false
+- situation:
+  - 關於克莉絲提娜
+- chara_full:
+  - 100512
+  - C
+  - 4
+- fadein:
+  - 100512
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M129_Ver2_NoB
+  - 0
+  - 0
+  - 1
+  - 0.4
+- focus:
+  - 100512
+- bust:
+  - 100512
+  - 0
+- vo:
+  - vo_adv_6104102_000
+- face:
+  - 100512
+  - 4
+- print:
+  - 茉莉
+  - 我搞不太懂
+- wait:
+  - 40
+- print:
+  - 茉莉
+  - 克莉絲提娜阿姨。
+- wait:
+  - 60
+- print:
+  - 茉莉
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - 茉莉
+  - 她算是好人
+- wait:
+  - 40
+- print:
+  - 茉莉
+  - 還是壞人啊……
+- wait:
+  - 75
+- print:
+  - 茉莉
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 茉莉
+  - 嗯──
+- wait:
+  - 40
+- face:
+  - 100512
+  - 6
+- print:
+  - 茉莉
+  - 你認為呢？
+- touch: &o0 []
+- choice:
+  - 她很帥氣呢。
+  - 1
+  - 1
+- choice:
+  - 她很強呢。
+  - 2
+  - 2
+- choice:
+  - ……她很厲害呢。
+  - 3
+  - 3
+- tag:
+  - 1
+- focus:
+  - 100512
+- bust:
+  - 100512
+  - 0
+- vo:
+  - vo_adv_6104102_001
+- face:
+  - 100512
+  - 4
+- print:
+  - 茉莉
+  - 雖然她的確是很帥氣……
+- wait:
+  - 80
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100512
+  - 6
+- print:
+  - 茉莉
+  - 但感覺並不是我希望成為的那種正義英雄呢。
+- wait:
+  - 65
+- print:
+  - 茉莉
+  - |2-
+
+    她好像比較適合
+- wait:
+  - 30
+- print:
+  - 茉莉
+  - 扮演反派角色或是暗黑英雄！
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 2
+- focus:
+  - 100512
+- bust:
+  - 100512
+  - 0
+- vo:
+  - vo_adv_6104102_002
+- face:
+  - 100512
+  - 1
+- print:
+  - 茉莉
+  - 我最近看的英雄漫畫中出現過這句台詞：
+- wait:
+  - 55
+- print:
+  - 茉莉
+  - |2-
+
+    「必須夠強才能貫徹正義！」
+- wait:
+  - 70
+- print:
+  - 茉莉
+  - |2
+
+- face:
+  - 100512
+  - 6
+- print:
+  - 茉莉
+  - 但是，
+- wait:
+  - 25
+- print:
+  - 茉莉
+  - 光有強大的力量也不行……
+- wait:
+  - 75
+- face:
+  - 100512
+  - 4
+- emotion:
+  - gloomy1_R
+  - 100512
+  - 70
+  - 480
+  - se_adv_emote_gloomy_01
+- print:
+  - 茉莉
+  - 嗯──
+- wait:
+  - 55
+- print:
+  - 茉莉
+  - 正義還真難實現啊～
+- touch: *o0
+- goto:
+  - 4
+- tag:
+  - 3
+- focus:
+  - 100512
+- bust:
+  - 100512
+  - 0
+- vo:
+  - vo_adv_6104102_003
+- face:
+  - 100512
+  - 1
+- print:
+  - 茉莉
+  - 我也有同感，
+- wait:
+  - 55
+- face:
+  - 100512
+  - 6
+- print:
+  - 茉莉
+  - 該怎麼說呢，她有一種……
+- wait:
+  - 115
+- print:
+  - 茉莉
+  - 壓迫感？
+- wait:
+  - 45
+- print:
+  - 茉莉
+  - |2-
+
+    就是不容對方置喙的震撼力。
+- wait:
+  - 85
+- print:
+  - 茉莉
+  - |2-
+
+    像之前也是……
+- wait:
+  - 40
+- emotion:
+  - exclamation1_R
+  - 100512
+  - 25
+  - 595
+  - se_adv_emote_common_01
+- print:
+  - 茉莉
+  - 呃，
+- wait:
+  - 25
+- print:
+  - 茉莉
+  - 剛說到她，她就往這邊過來了！
+- wait:
+  - 55
+- face:
+  - 100512
+  - 4
+- print:
+  - 茉莉
+  - 我們快逃！
+- touch: *o0
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 100512
+  - 30
+- bgm:
+  - stop
+  - 1
+  - 1
+- amb_stop:
+  - 1
+- black_out:
+  - 1
+  - 1
+- ui_visible:
+  - true
+- end: *o0

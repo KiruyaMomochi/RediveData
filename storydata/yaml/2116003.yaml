@@ -1,0 +1,4562 @@
+- title:
+  - 2部 第16章 第3話
+- outline:
+  - 【美食殿堂】等人暫時回到了公會小屋。凱留向大家說了霸瞳皇帝的事，而雪菲也說明了帆稀的策略。就在此時，一行人接到了拉比林斯達的聯絡，決定前去奪回巨神體內的索爾魔珠。
+- background:
+  - 500365
+- se:
+  - amb_adv_wind_01
+- bg_pan:
+  - -170
+  - 0
+- situation:
+  - 奪回索爾魔珠作戰
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - 在結束了與彌勒的人質交換，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - |2-
+
+    還有跟厄莉絲的使者們之間的戰鬥之後，
+- wait:
+  - 15
+- print:
+  - 旁白
+  - |2-
+
+    【美食殿堂】帶著無比疲倦的身心回到了公會小屋。
+- wait:
+  - 15
+- touch: &o0 []
+- window_visible:
+  - FALSE
+- se_pause:
+  - amb_adv_wind_01
+  - 1
+- black_out:
+  - 1
+  - 1
+- background:
+  - 500366
+- wait:
+  - 15
+- se:
+  - se_adv_door_open_02
+- se:
+  - amb_adv_room_noise_night_01
+- black_in: *o0
+- place:
+  - 美食殿堂公會小屋
+- chara_full:
+  - 105812
+  - LC
+  - 4
+- chara_full:
+  - 105913
+  - C
+  - 4
+- chara_full:
+  - 106012
+  - RC
+  - 4
+- chara_full:
+  - 106412
+  - R
+  - 4
+- fadein_all:
+  - 30
+- text_size:
+  - 50
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M616
+  - 0
+  - 0
+  - 1
+  - 0.5
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_2116003_000
+- multi_talk:
+  - 105812:105913:106012:106412
+- face:
+  - 1
+  - 1
+- print:
+  - 大家
+  - 「我回來了～」
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 23
+- face:
+  - 105812
+  - 6
+- face:
+  - 105913
+  - 6
+- face:
+  - 106012
+  - 6
+- face:
+  - 106412
+  - 6
+- window_visible:
+  - true
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_2116003_001
+- multi_talk:
+  - 105812:105913:106012:106412
+- face:
+  - 1
+  - 1
+- print:
+  - 大家
+  - …………
+- touch: *o0
+- window_visible:
+  - false
+- text_size:
+  - 50
+- face:
+  - 105812
+  - 4
+- face:
+  - 105913
+  - 4
+- face:
+  - 106012
+  - 4
+- face:
+  - 106412
+  - 4
+- window_visible:
+  - true
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_2116003_002
+- multi_talk:
+  - 105812:105913:106012:106412
+- face:
+  - 1
+  - 1
+- nod:
+  - 105812:105913:106012:106412
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 大家
+  - 「呼～～～」
+- touch: *o0
+- choice:
+  - 真累呢……
+  - 1
+- tag:
+  - 1
+- window_visible:
+  - false
+- text_size:
+  - 23
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105812
+  - LC
+  - 4
+- chara_full:
+  - 105913
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_2116003_003
+- face:
+  - 105812
+  - 4
+- print:
+  - 貪吃佩可
+  - 我已經
+- wait:
+  - 15
+- print:
+  - 貪吃佩可
+  - 餓到……
+- wait:
+  - 45
+- print:
+  - 貪吃佩可
+  - |2-
+
+    感覺
+- wait:
+  - 20
+- print:
+  - 貪吃佩可
+  - 前胸貼後背了……
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_2116003_004
+- face:
+  - 105913
+  - 6
+- print:
+  - 可可蘿
+  - 凱留小姐
+- wait:
+  - 35
+- print:
+  - 可可蘿
+  - 您自己回來……
+- wait:
+  - 60
+- print:
+  - 可可蘿
+  - 真的是幫大忙了。
+- wait:
+  - 65
+- print:
+  - 可可蘿
+  - |2
+
+- face:
+  - 105913
+  - 4
+- print:
+  - 可可蘿
+  - 說實話，
+- wait:
+  - 55
+- print:
+  - 可可蘿
+  - 在下等人還真沒什麼自信
+- wait:
+  - 40
+- print:
+  - 可可蘿
+  - |2-
+
+    能夠找到您……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106012
+  - RC
+  - 4
+- chara_full:
+  - 106412
+  - LC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_2116003_005
+- face:
+  - 106012
+  - 4
+- nod:
+  - 106012
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 凱留
+  - 真是的，
+- wait:
+  - 35
+- print:
+  - 凱留
+  - 別把我說得像是蹺家的貓一樣啦，可蘿仔……
+- wait:
+  - 70
+- print:
+  - 凱留
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - 凱留
+  - 因為是盡全力
+- wait:
+  - 25
+- print:
+  - 凱留
+  - 用飛行魔法飛回來的，所以我也已經精疲力盡了。
+- wait:
+  - 75
+- print:
+  - 凱留
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 凱留
+  - 我原本應該是去找雪菲的，
+- wait:
+  - 35
+- print:
+  - 凱留
+  - 結果竟然吃上這種苦頭……
+- touch: *o0
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_2116003_006
+- face:
+  - 106412
+  - 4
+- print:
+  - 雪菲
+  - ……凱留，
+- wait:
+  - 30
+- print:
+  - 雪菲
+  - 抱歉讓妳擔心了。
+- wait:
+  - 45
+- print:
+  - 雪菲
+  - |2
+
+- face:
+  - 106412
+  - 6
+- print:
+  - 雪菲
+  - 不過，
+- wait:
+  - 30
+- print:
+  - 雪菲
+  - 凱留妳那邊發生了什麼事……？
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_2116003_007
+- face:
+  - 106012
+  - 6
+- print:
+  - 凱留
+  - 啊──
+- wait:
+  - 35
+- print:
+  - 凱留
+  - 嗯──
+- wait:
+  - 40
+- face:
+  - 106012
+  - 4
+- print:
+  - 凱留
+  - 該從哪裡開始說起才好呢……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 190911
+  - RC
+  - 3
+- se:
+  - se_adv_nebia_appear_01
+- wait:
+  - 5
+- change:
+  - C
+  - RC
+  - 45
+- fadein:
+  - 190911
+  - 45
+- window_visible:
+  - true
+- focus:
+  - 190911
+- bust:
+  - 190911
+  - 0
+- vo:
+  - vo_adv_2116003_008
+- face:
+  - 190911
+  - 3
+- print:
+  - 涅比亞
+  - 喂！
+- wait:
+  - 25
+- print:
+  - 涅比亞
+  - |2-
+
+    你們幾個！
+- wait:
+  - 25
+- print:
+  - 涅比亞
+  - |2
+
+- nod:
+  - 190911
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 涅比亞
+  - 真是的！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 190911
+  - 30
+- chara_full:
+  - 105812
+  - L
+  - 6
+- chara_full:
+  - 106012
+  - R
+  - 4
+- chara_full:
+  - 105913
+  - C
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_2116003_009
+- face:
+  - 105812
+  - 6
+- emotion:
+  - notice1_L
+  - 105812
+  - -75
+  - 535
+  - se_adv_emote_common_01
+- print:
+  - 貪吃佩可
+  - 啊，
+- wait:
+  - 20
+- face:
+  - 105812
+  - 1
+- print:
+  - 貪吃佩可
+  - 涅比亞～
+- wait:
+  - 35
+- print:
+  - 貪吃佩可
+  - |2
+
+- face:
+  - 105812
+  - 2
+- print:
+  - 貪吃佩可
+  - 阿囉哈……☆
+- touch: *o0
+- choice:
+  - 總覺得好久不見了。
+  - 2
+- tag:
+  - 2
+- face:
+  - 105812
+  - 1
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_2116003_010
+- face:
+  - 106012
+  - 1
+- print:
+  - 凱留
+  - 就是說啊～
+- wait:
+  - 50
+- print:
+  - 凱留
+  - |2
+
+- face:
+  - 106012
+  - 6
+- print:
+  - 凱留
+  - 是說，
+- wait:
+  - 15
+- print:
+  - 凱留
+  - 感覺我們好像也很久沒回到這個家了吧？
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_2116003_011
+- face:
+  - 105913
+  - 6
+- nod:
+  - 105913
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 可可蘿
+  - 是的。
+- wait:
+  - 30
+- print:
+  - 可可蘿
+  - |2
+
+- face:
+  - 105913
+  - 1
+- print:
+  - 可可蘿
+  - 這陣子
+- wait:
+  - 30
+- print:
+  - 可可蘿
+  - 感覺都在四處奔波。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 190911
+  - C
+  - 3
+- fadein:
+  - 190911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 190911
+- bust:
+  - 190911
+  - 0
+- vo:
+  - vo_adv_2116003_012
+- face:
+  - 190911
+  - 3
+- pop:
+  - 190911
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 涅比亞
+  - 就是說啊！
+- wait:
+  - 30
+- print:
+  - 涅比亞
+  - |2-
+
+    你們就這樣把我丟在這裡！
+- touch: *o0
+- focus:
+  - 190911
+- bust:
+  - 190911
+  - 0
+- vo:
+  - vo_adv_2116003_013
+- face:
+  - 190911
+  - 4
+- print:
+  - 涅比亞
+  - 因為你們幾個一直都沒有回來，
+- wait:
+  - 65
+- print:
+  - 涅比亞
+  - |2-
+
+    而且鎮上好像發生了好幾次激烈的打鬥，
+- wait:
+  - 55
+- print:
+  - 涅比亞
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - 涅比亞
+  - 真的是害我擔心到
+- wait:
+  - 60
+- face:
+  - 190911
+  - 3
+- eye_open:
+  - True
+- print:
+  - 涅比亞
+  - 翅膀都快脫落了！
+- touch: *o0
+- choice:
+  - 抱歉放妳一個人在這。
+  - 3
+- tag:
+  - 3
+- focus:
+  - 190911
+- bust:
+  - 190911
+  - 0
+- vo:
+  - vo_adv_2116003_014
+- face:
+  - 190911
+  - 5
+- print:
+  - 涅比亞
+  - ……
+- wait:
+  - 30
+- print:
+  - 涅比亞
+  - |2-
+
+    知、
+- wait:
+  - 20
+- print:
+  - 涅比亞
+  - 知道錯了就好，
+- wait:
+  - 45
+- face:
+  - 190911
+  - 4
+- print:
+  - 涅比亞
+  - 真是的……
+- touch: *o0
+- focus:
+  - 190911
+- bust:
+  - 190911
+  - 0
+- vo:
+  - vo_adv_2116003_015
+- face:
+  - 190911
+  - 6
+- nod:
+  - 190911
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 涅比亞
+  - 啊啊，
+- wait:
+  - 20
+- print:
+  - 涅比亞
+  - 對了對了！
+- wait:
+  - 30
+- print:
+  - 涅比亞
+  - |2-
+
+    我都忘記說
+- wait:
+  - 15
+- print:
+  - 涅比亞
+  - 重要的話了。
+- touch: *o0
+- focus:
+  - 190911
+- bust:
+  - 190911
+  - 0
+- vo:
+  - vo_adv_2116003_016
+- face:
+  - 190911
+  - 3
+- print:
+  - 涅比亞
+  - ……歡迎回來，
+- wait:
+  - 40
+- print:
+  - 涅比亞
+  - |2
+
+- face:
+  - 190911
+  - 4
+- print:
+  - 涅比亞
+  - 大家都沒事
+- wait:
+  - 20
+- print:
+  - 涅比亞
+  - 真是太好了。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 190911
+  - 30
+- chara_full:
+  - 106412
+  - C
+  - 2
+- fadein:
+  - 106412
+  - 30.
+- window_visible:
+  - true
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_2116003_017
+- face:
+  - 106412
+  - 2
+- nod:
+  - 106412
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 雪菲
+  - ……嗯，
+- wait:
+  - 45
+- print:
+  - 雪菲
+  - |2-
+
+    我回來了。
+- touch: *o0
+- choice:
+  - 我回來了。
+  - 4
+- tag:
+  - 4
+- window_visible:
+  - false
+- fadeout:
+  - 106412
+  - 30
+- chara_full:
+  - 190011
+  - C
+  - 2
+- fadein:
+  - 190011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_2116003_018
+- face:
+  - 190011
+  - 2
+- print:
+  - 愛梅斯
+  - 我回來了～
+- wait:
+  - 50
+- print:
+  - 愛梅斯
+  - |2
+
+- face:
+  - 190011
+  - 1
+- print:
+  - 愛梅斯
+  - 這裡就是你們的公會小屋呀，
+- wait:
+  - 45
+- print:
+  - 愛梅斯
+  - |2
+
+- face:
+  - 190011
+  - 2
+- print:
+  - 愛梅斯
+  - 這房子還挺不錯的嘛♪
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 190011
+  - 30
+- chara_full:
+  - 190911
+  - C
+  - 6
+- fadein:
+  - 190911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 190911
+- bust:
+  - 190911
+  - 0
+- vo:
+  - vo_adv_2116003_019
+- face:
+  - 190911
+  - 6
+- emotion:
+  - dots1_R
+  - 190911
+  - -90
+  - 460
+  - se_adv_emote_dots_01
+- print:
+  - 涅比亞
+  - …………
+- wait:
+  - 60
+- touch: *o0
+- focus:
+  - 190911
+- bust:
+  - 190911
+  - 0
+- vo:
+  - vo_adv_2116003_020
+- face:
+  - 190911
+  - 6
+- print:
+  - 涅比亞
+  - 啊？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 190911
+  - 30
+- chara_full:
+  - 190011
+  - C
+  - 6
+- fadein:
+  - 190011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_2116003_021
+- face:
+  - 190011
+  - 6
+- print:
+  - 愛梅斯
+  - 「啊？」
+- wait:
+  - 20
+- face:
+  - 190011
+  - 1
+- print:
+  - 愛梅斯
+  - 什麼呀，
+- wait:
+  - 15
+- print:
+  - 愛梅斯
+  - 真失禮呢。
+- wait:
+  - 50
+- print:
+  - 愛梅斯
+  - |2-
+
+    我難得來了，
+- wait:
+  - 20
+- print:
+  - 愛梅斯
+  - 至少該端杯茶給我吧～？
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+  - 1
+- fadeout:
+  - 190011
+  - 30
+- chara_full:
+  - 190911
+  - C
+  - 6
+- fadein:
+  - 190911
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M274
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 190911
+- bust:
+  - 190911
+  - 0
+- vo:
+  - vo_adv_2116003_022
+- face:
+  - 190911
+  - 6
+- emotion:
+  - sweat2_R
+  - 190911
+  - 120
+  - 500
+  - se_adv_emote_sweat_02
+- print:
+  - 涅比亞
+  - 愛愛愛愛愛梅斯！
+- wait:
+  - 55
+- print:
+  - 涅比亞
+  - |2-
+
+    妳一直不連上聊天室到底是在做什麼啊
+- wait:
+  - 50
+- face:
+  - 190911
+  - 3
+- print:
+  - 涅比亞
+  - |2-
+
+    是說妳為什麼能跑出塔啊世界修正怎麼了啊！！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 190911
+  - 30
+- chara_full:
+  - 190011
+  - C
+  - 1
+- fadein:
+  - 190011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_2116003_023
+- face:
+  - 190011
+  - 1
+- print:
+  - 愛梅斯
+  - 關於那個啊～
+- wait:
+  - 30
+- print:
+  - 愛梅斯
+  - |2-
+
+    好像
+- wait:
+  - 10
+- print:
+  - 愛梅斯
+  - 有辦法解決了，
+- wait:
+  - 35
+- print:
+  - 愛梅斯
+  - |2
+
+- face:
+  - 190011
+  - 5
+- print:
+  - 愛梅斯
+  - 藉由小可可蘿給的愛♪
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 190011
+  - 30
+- chara_full:
+  - 190911
+  - C
+  - 6
+- fadein:
+  - 190911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 190911
+- bust:
+  - 190911
+  - 0
+- vo:
+  - vo_adv_2116003_024
+- face:
+  - 190911
+  - 6
+- emotion:
+  - surprise1_L
+  - 190911
+  - 180
+  - 550
+  - se_adv_emote_common_01
+- print:
+  - 涅比亞
+  - 妳說什麼──！？
+- wait:
+  - 20
+- print:
+  - 涅比亞
+  - |2
+
+- face:
+  - 190911
+  - 3
+- print:
+  - 涅比亞
+  - 我說那也太狡猾了吧！？
+- wait:
+  - 40
+- print:
+  - 涅比亞
+  - |2-
+
+    既然如此
+- wait:
+  - 25
+- print:
+  - 涅比亞
+  - 就沒什麼辦法
+- wait:
+  - 30
+- print:
+  - 涅比亞
+  - 能讓我也出去外面嗎！？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 190911
+  - 30
+- chara_full:
+  - 190011
+  - C
+  - 1
+- fadein:
+  - 190011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_2116003_025
+- face:
+  - 190011
+  - 1
+- print:
+  - 愛梅斯
+  - 這個嘛──
+- wait:
+  - 15
+- print:
+  - 愛梅斯
+  - 我也不清楚耶？
+- wait:
+  - 30
+- print:
+  - 愛梅斯
+  - |2
+
+- face:
+  - 190011
+  - 2
+- print:
+  - 愛梅斯
+  - 話說涅比亞，
+- wait:
+  - 15
+- print:
+  - 愛梅斯
+  - 妳還真小一隻呢～
+- wait:
+  - 30
+- print:
+  - 愛梅斯
+  - |2-
+
+    差不多是一口的大小吧？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 190011
+  - 30
+- chara_full:
+  - 190911
+  - C
+  - 3
+- fadein:
+  - 190911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 190911
+- bust:
+  - 190911
+  - 0
+- vo:
+  - vo_adv_2116003_026
+- face:
+  - 190911
+  - 3
+- emotion:
+  - anger1_R
+  - 190911
+  - -80
+  - 510
+  - se_adv_emote_anger_01
+- print:
+  - 涅比亞
+  - 是妳擅自變大的吧～！
+- wait:
+  - 55
+- print:
+  - 涅比亞
+  - |2-
+
+    不如說──
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 190911
+  - 15
+- chara_full:
+  - 105812
+  - C
+  - 2
+- fadein:
+  - 105812
+  - 15
+- window_visible:
+  - true
+- bgm:
+  - stop
+  - 1.6
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_2116003_027
+- face:
+  - 105812
+  - 2
+- se:
+  - se_adv_eating_01
+- nod:
+  - 105812
+- print:
+  - 貪吃佩可
+  - ……啊呣。
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 3
+- text_size:
+  - 50
+- window_visible:
+  - true
+- bgm:
+  - bgm_M534
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 190911
+- bust:
+  - 190911
+  - 1
+- vo:
+  - vo_adv_2116003_028
+- face:
+  - 190911
+  - 4
+- print:
+  - 涅比亞
+  - 呀啊啊啊！！？
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- fadeout:
+  - 105812
+  - 30
+- chara_full:
+  - 106412
+  - RC
+  - 6
+- chara_full:
+  - 105812
+  - LC
+  - 2
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_2116003_029
+- face:
+  - 106412
+  - 6
+- emotion:
+  - surprise1_L
+  - 106412
+  - 160
+  - 450
+  - se_adv_emote_common_01
+- print:
+  - 雪菲
+  - 貪吃佩可小姐！？
+- wait:
+  - 20
+- print:
+  - 雪菲
+  - |2
+
+- face:
+  - 106412
+  - 4
+- print:
+  - 雪菲
+  - 不能吃涅比亞小姐啦！
+- wait:
+  - 40
+- print:
+  - 雪菲
+  - |2-
+
+    雖然我之前也好幾次差點吃了她！
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_2116003_030
+- face:
+  - 105812
+  - 2
+- se:
+  - se_adv_eating_03
+- print:
+  - 貪吃佩可
+  - 啊呣啊呣……
+- wait:
+  - 45
+- print:
+  - 貪吃佩可
+  - |2-
+
+    好好粗哦☆
+- wait:
+  - 45
+- print:
+  - 貪吃佩可
+  - |2-
+
+    味道就像蟬煎餅一樣……♪
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 3
+- text_size:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 190911
+- bust:
+  - 190911
+  - 1
+- vo:
+  - vo_adv_2116003_031
+- face:
+  - 190911
+  - 4
+- print:
+  - 涅比亞
+  - 不要啊啊啊，
+- wait:
+  - 25
+- print:
+  - 涅比亞
+  - 翅膀真的要脫落了啦～！？！？
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- window_visible:
+  - true
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_2116003_032
+- face:
+  - 106412
+  - 6
+- print:
+  - 雪菲
+  - 一定是因為
+- wait:
+  - 30
+- print:
+  - 雪菲
+  - 她的肚子已經餓到極限了……！
+- wait:
+  - 40
+- print:
+  - 雪菲
+  - |2
+
+- face:
+  - 106412
+  - 3
+- print:
+  - 雪菲
+  - 貪吃佩可小姐，
+- wait:
+  - 25
+- print:
+  - 雪菲
+  - 要吸的話凱留可以給妳吸！
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106412
+  - 30
+- chara_full:
+  - 106012
+  - RC
+  - 6
+- fadein:
+  - 106012
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_2116003_033
+- face:
+  - 106012
+  - 6
+- emotion:
+  - surprise1_L
+  - 106012
+  - 165
+  - 540
+  - se_adv_emote_common_01
+- print:
+  - 凱留
+  - 什麼！？
+- wait:
+  - 20
+- print:
+  - 凱留
+  - |2-
+
+    喂，妳在說什麼啊！
+- wait:
+  - 25
+- face:
+  - 106012
+  - 3
+- print:
+  - 凱留
+  - 我怎麼可能願意給她吸啊！？
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_2116003_034
+- face:
+  - 105812
+  - 6
+- nod:
+  - 105812
+- se:
+  - se_adv_cloth_move_hard_01
+- print:
+  - 貪吃佩可
+  - 呸！
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - |2
+
+- face:
+  - 105812
+  - 7
+- print:
+  - 貪吃佩可
+  - 今天可以吃小凱留嗎？
+- wait:
+  - 45
+- print:
+  - 貪吃佩可
+  - |2
+
+- face:
+  - 105812
+  - 2
+- print:
+  - 貪吃佩可
+  - 好耶～
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - 小凱留～☆
+- touch: *o0
+- window_visible:
+  - false
+- change:
+  - C
+  - LC
+  - 30
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_hug_peco_01
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- change_window:
+  - 3
+- text_size:
+  - 50
+- window_visible:
+  - true
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 1
+- vo:
+  - vo_adv_2116003_035
+- face:
+  - 106012
+  - 6
+- print:
+  - 凱留
+  - 呀啊啊啊～～！！？
+- touch: *o0
+- window_visible:
+  - FALSE
+- change_window:
+  - 1
+- text_size:
+  - 23
+- se_pause:
+  - amb_adv_room_noise_night_01
+  - 1
+- bgm:
+  - stop
+  - 2.1
+  - 1
+- black_out:
+  - 1
+  - 1
+- bg_color:
+  - 0
+  - 0
+  - 0
+- wait:
+  - 15
+- black_in: *o0
+- window_visible:
+  - TRUE
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 0
+  - 1
+- print:
+  - 旁白
+  - |-
+    …………
+    ……
+- wait:
+  - 15
+- touch: *o0
+- window_visible:
+  - FALSE
+- black_out:
+  - 1
+  - 1
+- background:
+  - 500366
+- wait:
+  - 15
+- black_in: *o0
+- se:
+  - amb_adv_room_noise_night_01
+- chara_full:
+  - 105913
+  - RC
+  - 2
+- se:
+  - se_adv_step_rug_walk_come_01
+- wait:
+  - 15
+- change:
+  - C
+  - RC
+  - 45
+- fadein:
+  - 105913
+  - 45
+- window_visible:
+  - TRUE
+- bgm:
+  - bgm_M140_NoBell
+  - 0
+  - 0
+  - 0
+  - 0.5
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_2116003_036
+- face:
+  - 105913
+  - 2
+- print:
+  - 可可蘿
+  - 各位，
+- wait:
+  - 30
+- print:
+  - 可可蘿
+  - 在下泡好茶了。
+- touch: *o0
+- window_visible:
+  - false
+- se:
+  - se_adv_coffee_cup_01
+- nod:
+  - 105913
+- wait:
+  - 15
+- fadeout:
+  - 105913
+  - 30
+- chara_full:
+  - 190011
+  - RC
+  - 5
+- chara_full:
+  - 105812
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_2116003_037
+- face:
+  - 190011
+  - 5
+- emotion:
+  - note1_L
+  - 190011
+  - -80
+  - 510
+  - se_adv_emote_note_01
+- print:
+  - 愛梅斯
+  - 太棒了～♪
+- wait:
+  - 25
+- print:
+  - 愛梅斯
+  - |2-
+
+    小可可蘿泡的茶～♪
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_2116003_038
+- face:
+  - 105812
+  - 2
+- se:
+  - se_adv_eating_01
+- nod:
+  - 105812
+- print:
+  - 貪吃佩可
+  - 嚼嚼♪
+- wait:
+  - 50
+- print:
+  - 貪吃佩可
+  - |2-
+
+    茶點還有剩真是太好了☆
+- wait:
+  - 50
+- print:
+  - 貪吃佩可
+  - |2
+
+- face:
+  - 105812
+  - 1
+- print:
+  - 貪吃佩可
+  - 雖然有點潮掉就是了。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 190911
+  - C
+  - 4
+  - 1
+- fadein:
+  - 190911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 190911
+- bust:
+  - 190911
+  - 0
+- vo:
+  - vo_adv_2116003_039
+- face:
+  - 190911
+  - 4
+- print:
+  - 涅比亞
+  - 嗚
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 涅比亞
+  - 嗚……
+- shake:
+  - 190911
+- wait:
+  - 60
+- print:
+  - 涅比亞
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 涅比亞
+  - 我已經嫁不出去了……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 190911
+  - 30
+- chara_full:
+  - 106012
+  - RC
+  - 4
+- chara_full:
+  - 106412
+  - LC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_2116003_040
+- face:
+  - 106012
+  - 4
+- emotion:
+  - sweat1_R
+  - 106012
+  - 80
+  - 495
+  - se_adv_emote_sweat_01
+- print:
+  - 凱留
+  - 為什麼連我都遭殃了……
+- wait:
+  - 45
+- print:
+  - 凱留
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - 凱留
+  - 我不只是受潮，
+- wait:
+  - 45
+- print:
+  - 凱留
+  - 根本是整個人都黏答答了……
+- touch: *o0
+- eye_open:
+  - true
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_2116003_041
+- face:
+  - 106412
+  - 6
+- print:
+  - 雪菲
+  - 飯已經煮下去了，
+- wait:
+  - 15
+- print:
+  - 雪菲
+  - 請再等一下。
+- wait:
+  - 55
+- print:
+  - 雪菲
+  - |2
+
+- face:
+  - 106412
+  - 4
+- bgm:
+  - stop
+  - 4.1
+- print:
+  - 雪菲
+  - 話又說回來……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105913
+  - RC
+  - 4
+- chara_full:
+  - 105812
+  - LC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M134_03
+  - 0
+  - 0
+  - 1
+  - 0.5
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_2116003_042
+- face:
+  - 105913
+  - 4
+- print:
+  - 可可蘿
+  - ……沒想到霸瞳皇帝
+- wait:
+  - 45
+- print:
+  - 可可蘿
+  - 竟然逃獄了……
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_2116003_043
+- face:
+  - 105812
+  - 4
+- print:
+  - 貪吃佩可
+  - 虧大家
+- wait:
+  - 10
+- print:
+  - 貪吃佩可
+  - 當時那麼努力抓住他。
+- wait:
+  - 50
+- print:
+  - 貪吃佩可
+  - |2-
+
+    希望他
+- wait:
+  - 15
+- print:
+  - 貪吃佩可
+  - 不會再做出什麼壞事……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106012
+  - RC
+  - 4
+- chara_full:
+  - 106412
+  - LC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_2116003_044
+- face:
+  - 106412
+  - 6
+- print:
+  - 雪菲
+  - 但是
+- wait:
+  - 30
+- print:
+  - 雪菲
+  - 剛才凱留所說的，
+- wait:
+  - 50
+- print:
+  - 雪菲
+  - |2
+
+- face:
+  - 106412
+  - 4
+- print:
+  - 雪菲
+  - 聽起來就像是
+- wait:
+  - 20
+- print:
+  - 雪菲
+  - |2-
+
+    他在凱留面臨危機時趕來幫忙……
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_2116003_045
+- face:
+  - 106012
+  - 4
+- print:
+  - 凱留
+  - ……我也不清楚。
+- wait:
+  - 35
+- print:
+  - 凱留
+  - |2-
+
+    會認為陛下或許是來幫助我，
+- wait:
+  - 50
+- print:
+  - 凱留
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - 凱留
+  - 感覺也是我自己的
+- wait:
+  - 25
+- eye_open:
+  - True
+- print:
+  - 凱留
+  - 一廂情願……
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_2116003_046
+- face:
+  - 106012
+  - 6
+- print:
+  - 凱留
+  - ……更、
+- wait:
+  - 15
+- nod:
+  - 106012
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 凱留
+  - 更重要的是，
+- wait:
+  - 20
+- print:
+  - 凱留
+  - |2
+
+- face:
+  - 106012
+  - 3
+- print:
+  - 凱留
+  - 厄莉絲搭乘的那個超大魔物……
+- wait:
+  - 50
+- print:
+  - 凱留
+  - 那魔物
+- wait:
+  - 15
+- print:
+  - 凱留
+  - 大概是有史以來最難對付的敵人。
+- wait:
+  - 40
+- print:
+  - 凱留
+  - |2
+
+- face:
+  - 106012
+  - 4
+- print:
+  - 凱留
+  - 我認為即使是陛下，
+- wait:
+  - 25
+- print:
+  - 凱留
+  - 以他剛出牢籠的狀態是無法阻止那魔物的……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105913
+  - RC
+  - 4
+- chara_full:
+  - 105812
+  - LC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_2116003_047
+- face:
+  - 105812
+  - 4
+- print:
+  - 貪吃佩可
+  - 依妳所說的來看……
+- wait:
+  - 50
+- print:
+  - 貪吃佩可
+  - |2-
+
+    不論是厄莉絲小姐
+- wait:
+  - 5
+- print:
+  - 貪吃佩可
+  - 還是彌勒，
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - |2-
+
+    似乎
+- wait:
+  - 15
+- print:
+  - 貪吃佩可
+  - 都還完全不打算放棄呢……
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_2116003_048
+- face:
+  - 105913
+  - 4
+- print:
+  - 可可蘿
+  - 我們保管的索爾魔珠
+- wait:
+  - 55
+- print:
+  - 可可蘿
+  - |2-
+
+    也被厄莉絲搶走了。
+- wait:
+  - 60
+- print:
+  - 可可蘿
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - 可可蘿
+  - 主人，
+- wait:
+  - 45
+- eye_open:
+  - True
+- print:
+  - 可可蘿
+  - 真的非常抱歉……
+- touch: *o0
+- choice:
+  - 別放在心上。
+  - 5
+- choice:
+  - 光是妳們能保住一命就足夠了。
+  - 6
+- tag:
+  - 5
+- tag:
+  - 6
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106012
+  - RC
+  - 4
+- chara_full:
+  - 106412
+  - LC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_2116003_049
+- face:
+  - 106012
+  - 4
+- print:
+  - 凱留
+  - 並非用來與彌勒交涉的
+- wait:
+  - 35
+- print:
+  - 凱留
+  - 真索爾魔珠，
+- wait:
+  - 15
+- print:
+  - 凱留
+  - |2-
+
+    因為
+- wait:
+  - 25
+- print:
+  - 凱留
+  - 是分散給大家來保管，
+- wait:
+  - 35
+- print:
+  - 凱留
+  - |2-
+
+    所以沒遇到厄莉絲的
+- wait:
+  - 40
+- print:
+  - 凱留
+  - 我們幾個的份還留著，不過……
+- touch: *o0
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_2116003_050
+- face:
+  - 106412
+  - 6
+- print:
+  - 雪菲
+  - 如果要登上塔頂，
+- wait:
+  - 50
+- print:
+  - 雪菲
+  - 然後展開拉比林斯達小姐的計畫，
+- wait:
+  - 70
+- print:
+  - 雪菲
+  - |2
+
+- face:
+  - 106412
+  - 1
+- print:
+  - 雪菲
+  - 那就必須回收被奪走的索爾魔珠材行呢……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106012
+  - R
+  - 4
+- chara_full:
+  - 105812
+  - L
+  - 4
+- chara_full:
+  - 105913
+  - C
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bust:
+  - 0
+  - 0
+- vo:
+  - vo_adv_2116003_051
+- face:
+  - 1
+  - 1
+- print:
+  - 大家
+  - …………
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 190911
+  - C
+  - 6
+- fadein:
+  - 190911
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 190911
+- bust:
+  - 190911
+  - 0
+- vo:
+  - vo_adv_2116003_052
+- face:
+  - 190911
+  - 6
+- print:
+  - 涅比亞
+  - 我、
+- wait:
+  - 15
+- nod:
+  - 190911
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 涅比亞
+  - 我說啊，
+- wait:
+  - 35
+- print:
+  - 涅比亞
+  - |2
+
+- face:
+  - 190911
+  - 4
+- print:
+  - 涅比亞
+  - 雖然這樣說
+- wait:
+  - 25
+- print:
+  - 涅比亞
+  - 很像是在說喪氣話……
+- wait:
+  - 40
+- print:
+  - 涅比亞
+  - |2-
+
+    但是你們
+- wait:
+  - 35
+- print:
+  - 涅比亞
+  - 贏得了嗎……？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 190911
+  - 30
+- chara_full:
+  - 190011
+  - C
+  - 4
+- fadein:
+  - 190011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_2116003_053
+- face:
+  - 190011
+  - 4
+- print:
+  - 愛梅斯
+  - ……我能明白妳為什麼會氣餒，
+- wait:
+  - 50
+- print:
+  - 愛梅斯
+  - |2-
+
+    畢竟在我們嚮導小妖精看來，
+- wait:
+  - 35
+- eye_open:
+  - False
+- print:
+  - 愛梅斯
+  - 米奈娃
+- wait:
+  - 10
+- print:
+  - 愛梅斯
+  - 就像是神一般的存在。
+- wait:
+  - 60
+- print:
+  - 愛梅斯
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 愛梅斯
+  - 如今她卻被厄莉絲掌控，
+- wait:
+  - 30
+- print:
+  - 愛梅斯
+  - 變成了我們的敵人呢……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 190011
+  - 30
+- chara_full:
+  - 105812
+  - LC
+  - 4
+- chara_full:
+  - 106412
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_2116003_054
+- face:
+  - 105812
+  - 4
+- print:
+  - 貪吃佩可
+  - 厄莉絲小姐……
+- wait:
+  - 45
+- print:
+  - 貪吃佩可
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - 貪吃佩可
+  - 老實說，
+- wait:
+  - 35
+- print:
+  - 貪吃佩可
+  - 之前對抗她時，我感覺根本束手無策。
+- wait:
+  - 80
+- print:
+  - 貪吃佩可
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 貪吃佩可
+  - 就連贊恩先生和阿澤爾德先生
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - 都無法與她抗衡……
+- touch: *o0
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_2116003_055
+- face:
+  - 106412
+  - 4
+- print:
+  - 雪菲
+  - …………
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106012
+  - RC
+  - 4
+- chara_full:
+  - 105913
+  - LC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_2116003_056
+- face:
+  - 106012
+  - 4
+- print:
+  - 凱留
+  - 而且……
+- wait:
+  - 35
+- print:
+  - 凱留
+  - 竟然連帆稀都輸給了她，
+- wait:
+  - 30
+- print:
+  - 凱留
+  - 真是難以置信。
+- wait:
+  - 40
+- print:
+  - 凱留
+  - |2-
+
+    這是真的嗎？
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_2116003_057
+- face:
+  - 105913
+  - 1
+- nod:
+  - 105913
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 可可蘿
+  - 雖然當下
+- wait:
+  - 30
+- print:
+  - 可可蘿
+  - 我們也沒有在場，
+- wait:
+  - 60
+- print:
+  - 可可蘿
+  - |2
+
+- face:
+  - 105913
+  - 4
+- print:
+  - 可可蘿
+  - 但是十之八九……
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106412
+  - C
+  - 1
+- bgm:
+  - stop
+  - 3.3
+  - 1
+- fadein:
+  - 106412
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_2116003_058
+- face:
+  - 106412
+  - 1
+- print:
+  - 雪菲
+  - ……帆稀。
+- wait:
+  - 55
+- print:
+  - 雪菲
+  - |2
+
+- bgm:
+  - bgm_M417
+- print:
+  - 雪菲
+  - 她之前幫助我
+- wait:
+  - 40
+- print:
+  - 雪菲
+  - 達成龍人族的
+- wait:
+  - 45
+- print:
+  - 雪菲
+  - 「覺醒」，
+- wait:
+  - 60
+- print:
+  - 雪菲
+  - |2
+
+- face:
+  - 106412
+  - 6
+- print:
+  - 雪菲
+  - 當時
+- wait:
+  - 20
+- print:
+  - 雪菲
+  - 我跟她聊了很多……
+- touch: *o0
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_2116003_059
+- face:
+  - 106412
+  - 1
+- print:
+  - 雪菲
+  - 「當然，
+- wait:
+  - 25
+- print:
+  - 雪菲
+  - 我是打算贏下跟厄莉絲的戰鬥。
+- wait:
+  - 60
+- print:
+  - 雪菲
+  - |2-
+
+    但是即使我輸了，
+- wait:
+  - 45
+- print:
+  - 雪菲
+  - 我也會拚盡最後的力氣，
+- wait:
+  - 35
+- print:
+  - 雪菲
+  - |2-
+
+    試著把厄莉絲和米奈娃分離」
+- wait:
+  - 75
+- face:
+  - 106412
+  - 6
+- print:
+  - 雪菲
+  - ……她之前
+- wait:
+  - 20
+- print:
+  - 雪菲
+  - 曾這麼說。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106412
+  - 30
+- chara_full:
+  - 105913
+  - LC
+  - 6
+- chara_full:
+  - 106412
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_2116003_060
+- face:
+  - 105913
+  - 6
+- print:
+  - 可可蘿
+  - 分離……
+- wait:
+  - 65
+- print:
+  - 可可蘿
+  - |2
+
+- face:
+  - 105913
+  - 4
+- print:
+  - 可可蘿
+  - 那種事
+- wait:
+  - 25
+- print:
+  - 可可蘿
+  - 是有可能的嗎？
+- touch: *o0
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_2116003_061
+- face:
+  - 106412
+  - 6
+- nod:
+  - 106412
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 雪菲
+  - 呃，
+- wait:
+  - 30
+- print:
+  - 雪菲
+  - 帆稀她
+- wait:
+  - 20
+- print:
+  - 雪菲
+  - 是個能辦到各種事的人，
+- wait:
+  - 55
+- print:
+  - 雪菲
+  - |2
+
+- face:
+  - 106412
+  - 1
+- print:
+  - 雪菲
+  - 聽說在這之中，
+- wait:
+  - 50
+- face:
+  - 106412
+  - 6
+- print:
+  - 雪菲
+  - 有一種招式能夠干涉對方的……
+- wait:
+  - 40
+- print:
+  - 雪菲
+  - |2-
+
+    像是心靈
+- wait:
+  - 45
+- print:
+  - 雪菲
+  - 或是精神
+- wait:
+  - 35
+- print:
+  - 雪菲
+  - 之類的事物。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 190011
+  - C
+  - 1
+- fadein:
+  - 190011
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 190011
+- bust:
+  - 190011
+  - 0
+- vo:
+  - vo_adv_2116003_062
+- face:
+  - 190011
+  - 1
+- print:
+  - 愛梅斯
+  - 那就是所謂的「駭入」吧。
+- wait:
+  - 45
+- print:
+  - 愛梅斯
+  - |2
+
+- face:
+  - 190011
+  - 6
+- print:
+  - 愛梅斯
+  - 雖然我並不清楚就是了。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 190011
+  - 30
+- chara_full:
+  - 106412
+  - C
+  - 1
+- fadein:
+  - 106412
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_2116003_063
+- face:
+  - 106412
+  - 1
+- nod:
+  - 106412
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 雪菲
+  - 嗯。
+- wait:
+  - 50
+- face:
+  - 106412
+  - 4
+- print:
+  - 雪菲
+  - 因為我是，呃……
+- wait:
+  - 50
+- print:
+  - 雪菲
+  - 米奈娃的
+- wait:
+  - 25
+- print:
+  - 雪菲
+  - 「末端裝置」對吧？
+- wait:
+  - 55
+- print:
+  - 雪菲
+  - |2
+
+- face:
+  - 106412
+  - 1
+- print:
+  - 雪菲
+  - 所以
+- wait:
+  - 35
+- print:
+  - 雪菲
+  - 在我跟米奈娃＝厄莉絲之間，
+- wait:
+  - 75
+- print:
+  - 雪菲
+  - |2-
+
+    似乎有著肉眼所看不見、
+- wait:
+  - 10
+- print:
+  - 雪菲
+  - 用來駭入的連結。
+- touch: *o0
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_2116003_064
+- face:
+  - 106412
+  - 1
+- print:
+  - 雪菲
+  - 帆稀在調查了我的身體以後，
+- wait:
+  - 55
+- print:
+  - 雪菲
+  - 好像不只是妨礙了對方的駭入，
+- wait:
+  - 65
+- print:
+  - 雪菲
+  - |2-
+
+    還反過來
+- wait:
+  - 30
+- print:
+  - 雪菲
+  - 讓我們能駭入厄莉絲。
+- touch: *o0
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_2116003_065
+- face:
+  - 106412
+  - 6
+- print:
+  - 雪菲
+  - 不如說……
+- wait:
+  - 35
+- print:
+  - 雪菲
+  - 她願意藏匿我、
+- wait:
+  - 55
+- print:
+  - 雪菲
+  - 幫助我覺醒，
+- wait:
+  - 55
+- print:
+  - 雪菲
+  - |2-
+
+    似乎都是因為看上了我作為「末端裝置」的機能。
+- wait:
+  - 90
+- print:
+  - 雪菲
+  - |2
+
+- face:
+  - 106412
+  - 2
+- print:
+  - 雪菲
+  - 但是，
+- wait:
+  - 40
+- print:
+  - 雪菲
+  - 對我來說……
+- wait:
+  - 35
+- print:
+  - 雪菲
+  - 這也是求之不得的。
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106412
+  - 30
+- chara_full:
+  - 105913
+  - LC
+  - 6
+- chara_full:
+  - 106012
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_2116003_066
+- face:
+  - 105913
+  - 6
+- print:
+  - 可可蘿
+  - 那麼……
+- wait:
+  - 55
+- print:
+  - 可可蘿
+  - 只要帆稀小姐的
+- wait:
+  - 30
+- print:
+  - 可可蘿
+  - 「駭入」成功，
+- wait:
+  - 55
+- print:
+  - 可可蘿
+  - |2
+
+- face:
+  - 105913
+  - 2
+- bgm:
+  - stop
+  - 5.3
+- print:
+  - 可可蘿
+  - 或許就有機會
+- wait:
+  - 45
+- print:
+  - 可可蘿
+  - 能反擊厄莉絲了對吧？
+- touch: *o0
+- bgm:
+  - bgm_M335A
+  - 0
+  - 0
+  - 1
+  - 0.7
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_2116003_067
+- face:
+  - 106012
+  - 6
+- nod:
+  - 106012
+- se:
+  - se_adv_cloth_move_normal_01
+- print:
+  - 凱留
+  - ……原來如此。
+- wait:
+  - 40
+- print:
+  - 凱留
+  - |2-
+
+    那時候
+- wait:
+  - 25
+- print:
+  - 凱留
+  - 彌勒和厄莉絲在討論的就是──
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se_pause:
+  - amb_adv_room_noise_night_01
+  - 1
+- white_out:
+  - 1
+  - 1
+- effect:
+  - 0087
+- background:
+  - 500135
+- wait:
+  - 15
+- se:
+  - se_adv_transition_sharp_01
+- se:
+  - amb_adv_fire_02
+- white_in: *o0
+- chara_full:
+  - 192613
+  - C
+  - 1
+- fadein:
+  - 192613
+  - 30
+- vo_effect:
+  - 3
+- window_visible:
+  - true
+- focus:
+  - 192613
+- bust:
+  - 192613
+  - 0
+- vo:
+  - vo_adv_2116003_068
+- face:
+  - 192613
+  - 1
+- print:
+  - 彌勒
+  - 是的。
+- wait:
+  - 55
+- eye_open:
+  - False
+- print:
+  - 彌勒
+  - 而且這東西
+- wait:
+  - 20
+- print:
+  - 彌勒
+  - 原本就沒有意志。
+- wait:
+  - 70
+- print:
+  - 彌勒
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 彌勒
+  - 對於和米奈娃失去連線的厄莉絲小姐而言
+- wait:
+  - 55
+- print:
+  - 彌勒
+  - |2-
+
+    正好是個助力，對吧？
+- touch: *o0
+- window_visible:
+  - false
+- vo_effect:
+  - 0
+- fadeout:
+  - 192613
+  - 30
+- se_pause:
+  - amb_adv_fire_02
+  - 1
+- white_out:
+  - 1
+  - 1
+- effect_delete:
+  - 0087
+- background:
+  - 500366
+- wait:
+  - 15
+- se:
+  - amb_adv_room_noise_night_01
+- white_in: *o0
+- chara_full:
+  - 106012
+  - C
+  - 4
+- fadein:
+  - 106012
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_2116003_069
+- face:
+  - 106012
+  - 4
+- print:
+  - 凱留
+  - 雖然沒有完全如同預期般
+- wait:
+  - 35
+- print:
+  - 凱留
+  - 將她們分離，
+- wait:
+  - 35
+- print:
+  - 凱留
+  - |2
+
+- face:
+  - 106012
+  - 1
+- print:
+  - 凱留
+  - 但帆稀的那個駭入
+- wait:
+  - 20
+- print:
+  - 凱留
+  - |2-
+
+    看來多少有點效果。
+- touch: *o0
+- choice:
+  - 帆稀……
+  - 7
+- tag:
+  - 7
+- window_visible:
+  - false
+- fadeout:
+  - 106012
+  - 30
+- chara_full:
+  - 106412
+  - RC
+  - 1
+- chara_full:
+  - 105812
+  - LC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_2116003_070
+- face:
+  - 106412
+  - 1
+- print:
+  - 雪菲
+  - ……這可是帆稀小姐
+- wait:
+  - 30
+- print:
+  - 雪菲
+  - 賭上性命創造出的機會，
+- wait:
+  - 85
+- print:
+  - 雪菲
+  - |2
+
+- face:
+  - 106412
+  - 3
+- print:
+  - 雪菲
+  - 我們
+- wait:
+  - 35
+- print:
+  - 雪菲
+  - 絕對不能白白浪費掉。
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_2116003_071
+- face:
+  - 105812
+  - 3
+- nod:
+  - 105812
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 貪吃佩可
+  - 嗯，
+- wait:
+  - 20
+- print:
+  - 貪吃佩可
+  - 這是當然的！
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_2116003_072
+- face:
+  - 105812
+  - 6
+- print:
+  - 貪吃佩可
+  - ……話說回來……
+- touch: *o0
+- choice:
+  - 雪菲，身體還好嗎？
+  - 8
+- tag:
+  - 8
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_2116003_073
+- face:
+  - 106412
+  - 6
+- emotion:
+  - question1_R
+  - 106412
+  - 120
+  - 395
+  - se_adv_emote_question_01
+- print:
+  - 雪菲
+  - 咦？
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 1.8
+  - 1
+- fadeout_all:
+  - 30
+- chara_full:
+  - 105913
+  - LC
+  - 1
+- chara_full:
+  - 106012
+  - RC
+  - 4
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- bgm:
+  - bgm_M322
+  - 0
+  - 0
+  - 0
+  - 0.6
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_2116003_074
+- face:
+  - 105913
+  - 1
+- print:
+  - 可可蘿
+  - 是啊。
+- wait:
+  - 45
+- print:
+  - 可可蘿
+  - 在下聽嘉夜小姐說過，
+- wait:
+  - 30
+- print:
+  - 可可蘿
+  - |2-
+
+    龍人族的覺醒
+- wait:
+  - 35
+- print:
+  - 可可蘿
+  - 原本應該是要耗費時間鍛鍊而成的。
+- wait:
+  - 85
+- print:
+  - 可可蘿
+  - |2
+
+- face:
+  - 105913
+  - 4
+- print:
+  - 可可蘿
+  - 既然您硬是去使用這股力量……
+- touch: *o0
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_2116003_075
+- face:
+  - 106012
+  - 4
+- print:
+  - 凱留
+  - 不只是使用了不熟悉的力量，
+- wait:
+  - 40
+- print:
+  - 凱留
+  - 妳還跟妳的哥哥打了一場……
+- wait:
+  - 60
+- print:
+  - 凱留
+  - |2-
+
+    妳應該
+- wait:
+  - 25
+- print:
+  - 凱留
+  - 非常勉強自己吧？
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106412
+  - RC
+  - 6
+- chara_full:
+  - 105812
+  - LC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_2116003_076
+- face:
+  - 106412
+  - 6
+- nod:
+  - 106412
+- se:
+  - se_adv_stepadd_cloth_norm_01_move_01
+- print:
+  - 雪菲
+  - ……沒有
+- wait:
+  - 35
+- face:
+  - 106412
+  - 2
+- print:
+  - 雪菲
+  - 這回事。
+- wait:
+  - 40
+- print:
+  - 雪菲
+  - |2-
+
+    我想大家跟彌勒還有厄莉絲的使者們戰鬥，
+- wait:
+  - 20
+- print:
+  - 雪菲
+  - 一定也相當辛苦。
+- wait:
+  - 95
+- print:
+  - 雪菲
+  - |2-
+
+    而且……
+- touch: *o0
+- focus:
+  - 106412
+- bust:
+  - 106412
+  - 0
+- vo:
+  - vo_adv_2116003_077
+- face:
+  - 106412
+  - 2
+- print:
+  - 雪菲
+  - 如果是為了
+- wait:
+  - 45
+- print:
+  - 雪菲
+  - 再次跟大家像這樣聚在一起，
+- wait:
+  - 60
+- print:
+  - 雪菲
+  - |2
+
+- eye_open:
+  - False
+- print:
+  - 雪菲
+  - 不管多辛苦我都熬得過去。
+- wait:
+  - 70
+- eye_open:
+  - True
+- print:
+  - 雪菲
+  - 我是這麼想的。
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_2116003_078
+- face:
+  - 105812
+  - 1
+- print:
+  - 貪吃佩可
+  - 小雪菲……☆
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_magic_cmn_search_01
+- effect:
+  - 0035
+- wait:
+  - 60
+- chara_full:
+  - 105812
+  - LC
+  - 6
+- chara_full:
+  - 105913
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_2116003_079
+- face:
+  - 105812
+  - 6
+- emotion:
+  - question1_R
+  - 105812
+  - 105
+  - 510
+  - se_adv_emote_question_01
+- print:
+  - 貪吃佩可
+  - ……咦？
+- touch: *o0
+- bgm:
+  - stop
+  - 3.3
+- choice:
+  - 通訊魔法？
+  - 9
+- tag:
+  - 9
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_2116003_080
+- face:
+  - 105913
+  - 6
+- emotion:
+  - notice1_L
+  - 105913
+  - -60
+  - 485
+  - se_adv_emote_common_01
+- print:
+  - 可可蘿
+  - 這是……
+- wait:
+  - 45
+- bgm:
+  - bgm_M307
+  - 0
+  - 0
+  - 1
+- print:
+  - 可可蘿
+  - 拉比林斯達小姐？
+- touch: *o0
+- focus:
+  - 106811
+- bust:
+  - 106811
+  - 1
+- vo:
+  - vo_adv_2116003_081
+- face:
+  - 106811
+  - 2
+- print:
+  - 拉比林斯達
+  - 嗨，
+- wait:
+  - 20
+- print:
+  - 拉比林斯達
+  - |2-
+
+    大家都在嗎～？
+- touch: *o0
+- focus:
+  - 105913
+- bust:
+  - 105913
+  - 0
+- vo:
+  - vo_adv_2116003_082
+- face:
+  - 105913
+  - 1
+- nod:
+  - 105913
+- se:
+  - se_adv_cloth_move_give_01
+- print:
+  - 可可蘿
+  - 是的。
+- wait:
+  - 40
+- print:
+  - 可可蘿
+  - |2
+
+- face:
+  - 105913
+  - 6
+- print:
+  - 可可蘿
+  - 雖然優衣小姐她們
+- wait:
+  - 30
+- print:
+  - 可可蘿
+  - 暫時先回自己的公會小屋了……
+- touch: *o0
+- focus:
+  - 105812
+- bust:
+  - 105812
+  - 0
+- vo:
+  - vo_adv_2116003_083
+- face:
+  - 105812
+  - 6
+- print:
+  - 貪吃佩可
+  - 拉比林斯達小姐那邊
+- wait:
+  - 30
+- print:
+  - 貪吃佩可
+  - 現在狀況如何？
+- touch: *o0
+- focus:
+  - 106811
+- bust:
+  - 106811
+  - 1
+- vo:
+  - vo_adv_2116003_084
+- face:
+  - 106811
+  - 6
+- print:
+  - 拉比林斯達
+  - 咦？
+- wait:
+  - 30
+- print:
+  - 拉比林斯達
+  - |2
+
+- face:
+  - 106811
+  - 1
+- print:
+  - 拉比林斯達
+  - 現在？
+- wait:
+  - 30
+- print:
+  - 拉比林斯達
+  - |2-
+
+    這個嘛──
+- touch: *o0
+- window_visible:
+  - false
+- bgm:
+  - stop
+  - 2
+  - 1
+- fadeout_all:
+  - 30
+- se:
+  - se_adv_transition_whoosh_small_out
+- transition:
+  - 18
+  - 0.5
+- se_pause:
+  - amb_adv_room_noise_night_01
+  - 1
+- background:
+  - 500135
+- wait:
+  - 15
+- se:
+  - se_adv_transition_whoosh_small_in
+- transition_resume: *o0
+- se:
+  - amb_adv_fire_02
+- chara_full:
+  - 107111
+  - C
+  - 3
+- fadein:
+  - 107111
+  - 30
+- se:
+  - se_adv_effect_roundtable_01
+- white_out:
+  - 1
+  - 0.5
+- effect:
+  - 0108
+- white_in: *o0
+- change_window:
+  - 3
+- text_size:
+  - 50
+- window_visible:
+  - true
+- bgm:
+  - bgm_M124_NoIntro
+- focus:
+  - 107111
+- bust:
+  - 107111
+  - 0
+- vo:
+  - vo_adv_2116003_085
+- face:
+  - 107111
+  - 3
+- print:
+  - 克莉絲
+  - 「呼──」
+- touch: *o0
+- window_visible:
+  - false
+- effect_delete:
+  - 0108
+  - 5
+- effect:
+  - 0009
+- se:
+  - se_adv_move_fast_02
+- scale:
+  - 107111
+  - 1.2
+  - 1
+  - 10
+- fadeout:
+  - 107111
+  - 10
+- effect_delete:
+  - 0009
+- chara_full:
+  - 107312
+  - C
+  - 3
+- fadein:
+  - 107312
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 107312
+- bust:
+  - 107312
+  - 0
+- vo:
+  - vo_adv_2116003_086
+- face:
+  - 107312
+  - 3
+- print:
+  - 拉基拉基
+  - 「唔喔喔！」
+- touch: *o0
+- window_visible:
+  - false
+- change_window:
+  - 1
+- text_size:
+  - 23
+- effect:
+  - 0009
+- se:
+  - se_adv_move_fast_02
+- scale:
+  - 107312
+  - 1.2
+  - 4
+  - 10
+- fadeout:
+  - 107312
+  - 10
+- effect_delete:
+  - 0009
+- bg_color:
+  - 0
+  - 0
+  - 0
+- effect:
+  - 0033
+  - se_adv_twilight_battle_full_02
+- wait:
+  - 15
+- effect:
+  - 0001
+  - '@non'
+- effect:
+  - 0003
+  - se_adv_weapon_punch_hit_02
+- effect:
+  - 0045
+- wait:
+  - 5
+- effect:
+  - 0001
+  - '@non'
+  - 90
+- wait:
+  - 5
+- effect:
+  - 0001
+  - '@non'
+  - 45
+- wait:
+  - 5
+- se:
+  - se_adv_weapon_punch_hit_04
+- effect:
+  - 0019
+- effect:
+  - 0045
+- wait:
+  - 15
+- background:
+  - 500135
+- se:
+  - se_adv_explosion_house_01
+- se:
+  - se_adv_earthquake_02
+- shake_screen: *o0
+- se:
+  - se_adv_earthquake_01_short
+- window_visible:
+  - true
+- focus:
+  - 0
+- bust:
+  - 0
+  - 0
+- face:
+  - 3
+  - 1
+- print:
+  - 終炎巨神
+  - ……
+- wait:
+  - 25
+- touch: *o0
+- window_visible:
+  - false
+- chara_full:
+  - 107312
+  - C
+  - 1
+- fadein:
+  - 107312
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 107312
+- bust:
+  - 107312
+  - 0
+- vo:
+  - vo_adv_2116003_087
+- face:
+  - 107312
+  - 1
+- print:
+  - 拉基拉基
+  - 「……果然
+- wait:
+  - 30
+- print:
+  - 拉基拉基
+  - 打擊和斬擊
+- wait:
+  - 30
+- print:
+  - 拉基拉基
+  - 頂多只能稍稍牽制它一下。」
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 107312
+  - 30
+- chara_full:
+  - 107111
+  - LC
+  - 3
+- chara_full:
+  - 107011
+  - RC
+  - 1
+- fadein_all:
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 107111
+- bust:
+  - 107111
+  - 0
+- vo:
+  - vo_adv_2116003_088
+- face:
+  - 107111
+  - 3
+- print:
+  - 克莉絲提娜
+  - 「不僅如此，
+- wait:
+  - 20
+- print:
+  - 克莉絲提娜
+  - 越是靠近就越是熱得受不了。
+- wait:
+  - 45
+- print:
+  - 克莉絲提娜
+  - |2-
+
+    簡直就跟蒸汽浴一樣。」
+- touch: *o0
+- focus:
+  - 107011
+- bust:
+  - 107011
+  - 0
+- vo:
+  - vo_adv_2116003_089
+- face:
+  - 107011
+  - 1
+- eye_open:
+  - False
+- print:
+  - 似似花
+  - 「這種氣溫下，
+- wait:
+  - 30
+- print:
+  - 似似花
+  - 一般人只要吸一口氣就會使得肺部潰爛。
+- wait:
+  - 75
+- print:
+  - 似似花
+  - |2
+
+- eye_open:
+  - True
+- print:
+  - 似似花
+  - 即使是我們，
+- wait:
+  - 35
+- print:
+  - 似似花
+  - 正面承受那傢伙發出的熱浪
+- wait:
+  - 55
+- print:
+  - 似似花
+  - 也會立刻死亡喔。」
+- touch: *o0
+- focus:
+  - 107111
+- bust:
+  - 107111
+  - 0
+- vo:
+  - vo_adv_2116003_090
+- face:
+  - 107111
+  - 1
+- se:
+  - se_adv_weapon_sword_set_03
+- nod:
+  - 107111
+- print:
+  - 克莉絲提娜
+  - 「放心，
+- wait:
+  - 30
+- print:
+  - 克莉絲提娜
+  - 陛下會告訴我們它攻擊的時機。
+- wait:
+  - 55
+- print:
+  - 克莉絲提娜
+  - |2
+
+- face:
+  - 107111
+  - 2
+- print:
+  - 克莉絲提娜
+  - 我們只要針對那時機
+- wait:
+  - 30
+- print:
+  - 克莉絲提娜
+  - 進行絕對性的迴避就行了……☆」
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106914
+  - C
+  - 4
+- fadein:
+  - 106914
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106914
+- bust:
+  - 106914
+  - 0
+- vo:
+  - vo_adv_2116003_091
+- face:
+  - 106914
+  - 4
+- print:
+  - 霸瞳皇帝
+  - 「你們幾個，
+- wait:
+  - 35
+- print:
+  - 霸瞳皇帝
+  - 別白白浪費力量。
+- wait:
+  - 55
+- print:
+  - 霸瞳皇帝
+  - |2
+
+- face:
+  - 106914
+  - 1
+- print:
+  - 霸瞳皇帝
+  - 誓約女君來輔助我的運算，
+- wait:
+  - 50
+- print:
+  - 霸瞳皇帝
+  - |2-
+
+    跳躍王去確定座標，
+- wait:
+  - 50
+- print:
+  - 霸瞳皇帝
+  - 還有──」
+- touch: *o0
+- window_visible:
+  - false
+- fadeout:
+  - 106914
+  - 30
+- se_pause:
+  - amb_adv_fire_02
+  - 1
+- black_out:
+  - 1
+  - 1
+- background:
+  - 500366
+- wait:
+  - 15
+- black_in: *o0
+- se:
+  - amb_adv_room_noise_night_01
+- chara_full:
+  - 105812
+  - LC
+  - 6
+- chara_full:
+  - 105913
+  - RC
+  - 6
+- fadein_all:
+  - 30
+- se:
+  - se_adv_magic_earth_large_02
+- se:
+  - se_adv_earthquake_02
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
+- window_visible:
+  - true
+- focus:
+  - 106811
+- bust:
+  - 106811
+  - 1
+- vo:
+  - vo_adv_2116003_092
+- face:
+  - 106811
+  - 6
+- print:
+  - 拉比林斯達
+  - 嗯──
+- wait:
+  - 35
+- print:
+  - 拉比林斯達
+  - |2
+
+- face:
+  - 106811
+  - 2
+- print:
+  - 拉比林斯達
+  - 現在
+- wait:
+  - 45
+- print:
+  - 拉比林斯達
+  - 應該可以說是打得如火如荼吧～
+- touch: *o0
+- focus:
+  - 106914
+- bust:
+  - 106914
+  - 1
+- vo:
+  - vo_adv_2116003_093
+- face:
+  - 106914
+  - 3
+- print:
+  - 霸瞳皇帝
+  - 「晶！
+- wait:
+  - 30
+- print:
+  - 霸瞳皇帝
+  - |2-
+
+    妳在摸什麼魚啊！？
+- wait:
+  - 30
+- print:
+  - 霸瞳皇帝
+  - |2
+
+- face:
+  - 106914
+  - 1
+- print:
+  - 霸瞳皇帝
+  - 要拖住大塊頭的話，
+- wait:
+  - 15
+- print:
+  - 霸瞳皇帝
+  - 妳的權能是最合適的吧！」
+- touch: *o0
+- focus:
+  - 106811
+- bust:
+  - 106811
+  - 1
+- vo:
+  - vo_adv_2116003_094
+- face:
+  - 106811
+  - 2
+- print:
+  - 拉比林斯達
+  - 啊哈哈，
+- wait:
+  - 10
+- print:
+  - 拉比林斯達
+  - |2-
+
+    被罵了♪
+- touch: *o0
+- window_visible:
+  - false
+- fadeout_all:
+  - 30
+- chara_full:
+  - 106012
+  - C
+  - 6
+- fadein:
+  - 106012
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106012
+- bust:
+  - 106012
+  - 0
+- vo:
+  - vo_adv_2116003_095
+- face:
+  - 106012
+  - 6
+- emotion:
+  - surprise1_L
+  - 106012
+  - 165
+  - 540
+  - se_adv_emote_common_01
+- print:
+  - 凱留
+  - 剛才的聲音是──
+- wait:
+  - 40
+- print:
+  - 凱留
+  - 陛下！？
+- wait:
+  - 30
+- print:
+  - 凱留
+  - |2
+
+- face:
+  - 106012
+  - 4
+- print:
+  - 凱留
+  - 陛下他
+- wait:
+  - 15
+- print:
+  - 凱留
+  - 竟然跟其他七冠攜手合作……
+- touch: *o0
+- focus:
+  - 106811
+- bust:
+  - 106811
+  - 1
+- vo:
+  - vo_adv_2116003_096
+- face:
+  - 106811
+  - 2
+- print:
+  - 拉比林斯達
+  - 呃──
+- wait:
+  - 45
+- print:
+  - 拉比林斯達
+  - |2-
+
+    總之，
+- wait:
+  - 25
+- print:
+  - 拉比林斯達
+  - 我簡單說一下希望大家去做的事喔。
+- touch: *o0
+- choice:
+  - 我們該怎麼做？
+  - 10
+- choice:
+  - 不管什麼事我們都做！
+  - 11
+- tag:
+  - 10
+- tag:
+  - 11
+- window_visible:
+  - false
+- fadeout:
+  - 106012
+  - 30
+- window_visible:
+  - true
+- focus:
+  - 106811
+- bust:
+  - 106811
+  - 1
+- vo:
+  - vo_adv_2116003_097
+- face:
+  - 106811
+  - 2
+- print:
+  - 拉比林斯達
+  - ──謝謝。
+- wait:
+  - 25
+- print:
+  - 拉比林斯達
+  - |2-
+
+    那麼，
+- wait:
+  - 20
+- print:
+  - 拉比林斯達
+  - 我希望你們能在我們對付它的期間……
+- touch: *o0
+- focus:
+  - 106811
+- bust:
+  - 106811
+  - 1
+- vo:
+  - vo_adv_2116003_098
+- face:
+  - 106811
+  - 2
+- print:
+  - 拉比林斯達
+  - 入侵到
+- wait:
+  - 25
+- print:
+  - 拉比林斯達
+  - 這個魔物的體內，
+- wait:
+  - 65
+- print:
+  - 拉比林斯達
+  - |2-
+
+    然後取回被當成核心的
+- wait:
+  - 15
+- print:
+  - 拉比林斯達
+  - 八顆索爾魔珠。
+- touch: *o0
+- window_visible:
+  - FALSE
+- se_pause:
+  - amb_adv_room_noise_night_01
+  - 1
+- bgm:
+  - stop
+  - 1
+- black_out:
+  - 1
+  - 1
+- end: *o0
