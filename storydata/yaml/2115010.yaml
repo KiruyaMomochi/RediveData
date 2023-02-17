@@ -992,7 +992,7 @@
   - 0
   - 0
   - 0
-  - 0.6
+  - 0.7
 - focus:
   - 192011
 - bust:
@@ -2115,16 +2115,17 @@
   - C
   - 4
   - 1
-- fadein:
-  - 180611
-  - 30
-- window_visible:
-  - true
 - bgm:
   - bgm_M60
   - 0
   - 0
   - 1
+  - 0.3
+- fadein:
+  - 180611
+  - 30
+- window_visible:
+  - true
 - focus:
   - 180611
 - bust:
@@ -3120,7 +3121,7 @@
   - True
 - bgm:
   - stop
-  - 5
+  - 3.5
   - 1
 - print:
   - 彌勒
@@ -3134,56 +3135,28 @@
   - 192613
 - wait:
   - 15
-- fadeout:
-  - 192613
-  - 30
-- bg_pan:
-  - 0
-  - -150
-  - 15
-- chara_full:
-  - 16111
-  - C
-  - 1
-- fadein:
-  - 16111
-  - 30
-- bgm:
-  - bgm_M531
-- se:
-  - se_adv_earthquake_01_short
 - window_visible:
   - true
+- bgm:
+  - bgm_M531
+  - 0
+  - 0
+  - 0
+  - 0.5
 - focus:
   - 16111
 - bust:
   - 16111
-  - 0
+  - 1
 - face:
   - 16111
   - 1
 - print:
   - 終炎巨神
-  - ……
-- touch: *o0
-- window_visible:
-  - false
-- fadeout:
-  - 16111
-  - 30
-- bg_pan:
-  - -150
-  - 0
+  - ──……
+- wait:
   - 15
-- chara_full:
-  - 192613
-  - C
-  - 1
-- fadein:
-  - 192613
-  - 30
-- window_visible:
-  - true
+- touch: *o0
 - focus:
   - 192613
 - bust:
@@ -3323,6 +3296,8 @@
 - print:
   - 終炎巨神
   - ……！
+- wait:
+  - 15
 - touch: *o0
 - focus:
   - 192613
@@ -3827,10 +3802,20 @@
 - fadeout:
   - 192613
   - 30
+- se:
+  - se_adv_earthquake_02
+- shake_loop: *o0
+- wait:
+  - 30
+- shake_delete: *o0
 - black_out:
   - 1
   - 1
 - bg_color:
+  - 0
+  - 0
+  - 0
+- bg_pan:
   - 0
   - 0
   - 0
@@ -3854,9 +3839,9 @@
   - 1
 - print:
   - 終炎巨神
-  - ……！
+  - ──……！
 - wait:
-  - 15
+  - 25
 - touch: *o0
 - window_visible:
   - false
@@ -4628,12 +4613,12 @@
   - 0
   - 0
 - movie:
-  - 211001002
+  - 211501001
 - black_out:
   - 1
   - 0.5
 - movie:
-  - 211001080
+  - 211501080
 - black_out:
   - 1
   - 1
@@ -4650,7 +4635,7 @@
   - 1
   - 1
 - movie:
-  - 211001081
+  - 211501081
 - black_out:
   - 1
   - 1

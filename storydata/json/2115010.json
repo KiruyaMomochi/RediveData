@@ -3197,7 +3197,7 @@
       "0",
       "0",
       "0",
-      "0.6"
+      "0.7"
     ],
     "number": 9
   },
@@ -6828,6 +6828,18 @@
     "number": 68
   },
   {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M60",
+      "0",
+      "0",
+      "1",
+      "0.3"
+    ],
+    "number": 9
+  },
+  {
     "command": "fadein",
     "category": 2,
     "args": [
@@ -6843,17 +6855,6 @@
       "true"
     ],
     "number": 41
-  },
-  {
-    "command": "bgm",
-    "category": 1,
-    "args": [
-      "bgm_M60",
-      "0",
-      "0",
-      "1"
-    ],
-    "number": 9
   },
   {
     "command": "focus",
@@ -10090,7 +10091,7 @@
     "category": 1,
     "args": [
       "stop",
-      "5",
+      "3.5",
       "1"
     ],
     "number": 9
@@ -10143,66 +10144,24 @@
     "number": 13
   },
   {
-    "command": "fadeout",
-    "category": 2,
-    "args": [
-      "192613",
-      "30"
-    ],
-    "number": 19
-  },
-  {
-    "command": "bg_pan",
-    "category": 1,
-    "args": [
-      "0",
-      "-150",
-      "15"
-    ],
-    "number": 86
-  },
-  {
-    "command": "chara_full",
-    "category": 1,
-    "args": [
-      "16111",
-      "C",
-      "1"
-    ],
-    "number": 68
-  },
-  {
-    "command": "fadein",
-    "category": 2,
-    "args": [
-      "16111",
-      "30"
-    ],
-    "number": 18
-  },
-  {
-    "command": "bgm",
-    "category": 1,
-    "args": [
-      "bgm_M531"
-    ],
-    "number": 9
-  },
-  {
-    "command": "se",
-    "category": 1,
-    "args": [
-      "se_adv_earthquake_01_short"
-    ],
-    "number": 26
-  },
-  {
     "command": "window_visible",
     "category": 1,
     "args": [
       "true"
     ],
     "number": 41
+  },
+  {
+    "command": "bgm",
+    "category": 1,
+    "args": [
+      "bgm_M531",
+      "0",
+      "0",
+      "0",
+      "0.5"
+    ],
+    "number": 9
   },
   {
     "command": "focus",
@@ -10217,7 +10176,7 @@
     "category": 1,
     "args": [
       "16111",
-      "0"
+      "1"
     ],
     "number": 50
   },
@@ -10235,69 +10194,23 @@
     "category": 1,
     "args": [
       "終炎巨神",
-      "\u2026\u2026"
+      "\u2500\u2500\u2026\u2026"
     ],
     "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
   },
   {
     "command": "touch",
     "category": 1,
     "args": [],
     "number": 10
-  },
-  {
-    "command": "window_visible",
-    "category": 1,
-    "args": [
-      "false"
-    ],
-    "number": 41
-  },
-  {
-    "command": "fadeout",
-    "category": 2,
-    "args": [
-      "16111",
-      "30"
-    ],
-    "number": 19
-  },
-  {
-    "command": "bg_pan",
-    "category": 1,
-    "args": [
-      "-150",
-      "0",
-      "15"
-    ],
-    "number": 86
-  },
-  {
-    "command": "chara_full",
-    "category": 1,
-    "args": [
-      "192613",
-      "C",
-      "1"
-    ],
-    "number": 68
-  },
-  {
-    "command": "fadein",
-    "category": 2,
-    "args": [
-      "192613",
-      "30"
-    ],
-    "number": 18
-  },
-  {
-    "command": "window_visible",
-    "category": 1,
-    "args": [
-      "true"
-    ],
-    "number": 41
   },
   {
     "command": "focus",
@@ -10735,6 +10648,14 @@
       "\u2026\u2026！"
     ],
     "number": 6
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "15"
+    ],
+    "number": 13
   },
   {
     "command": "touch",
@@ -12365,6 +12286,34 @@
     "number": 19
   },
   {
+    "command": "se",
+    "category": 1,
+    "args": [
+      "se_adv_earthquake_02"
+    ],
+    "number": 26
+  },
+  {
+    "command": "shake_loop",
+    "category": 1,
+    "args": [],
+    "number": 76
+  },
+  {
+    "command": "wait",
+    "category": 1,
+    "args": [
+      "30"
+    ],
+    "number": 13
+  },
+  {
+    "command": "shake_delete",
+    "category": 1,
+    "args": [],
+    "number": 77
+  },
+  {
     "command": "black_out",
     "category": 1,
     "args": [
@@ -12382,6 +12331,16 @@
       "0"
     ],
     "number": 70
+  },
+  {
+    "command": "bg_pan",
+    "category": 1,
+    "args": [
+      "0",
+      "0",
+      "0"
+    ],
+    "number": 86
   },
   {
     "command": "wait",
@@ -12453,7 +12412,7 @@
     "category": 1,
     "args": [
       "終炎巨神",
-      "\u2026\u2026！"
+      "\u2500\u2500\u2026\u2026！"
     ],
     "number": 6
   },
@@ -12461,7 +12420,7 @@
     "command": "wait",
     "category": 1,
     "args": [
-      "15"
+      "25"
     ],
     "number": 13
   },
@@ -15006,7 +14965,7 @@
     "command": "movie",
     "category": 1,
     "args": [
-      "211001002"
+      "211501001"
     ],
     "number": 46
   },
@@ -15023,7 +14982,7 @@
     "command": "movie",
     "category": 1,
     "args": [
-      "211001080"
+      "211501080"
     ],
     "number": 46
   },
@@ -15087,7 +15046,7 @@
     "command": "movie",
     "category": 1,
     "args": [
-      "211001081"
+      "211501081"
     ],
     "number": 46
   },

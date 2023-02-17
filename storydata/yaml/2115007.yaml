@@ -30,14 +30,14 @@
   - 旁白
   - |2-
 
-    【王宮騎士團】的成員
+    【王宮騎士團】的成員，
 - wait:
   - 15
 - print:
   - 旁白
   - |2-
 
-    為了保護市民各自奮戰中。
+    正為了保護市民各自奮戰中。
 - wait:
   - 15
 - touch: &o0 []
@@ -217,7 +217,7 @@
   - vo_adv_2115007_002
 - face:
   - 103711
-  - 3
+  - 6
 - print:
   - 智
   - 茉莉，
@@ -1667,10 +1667,6 @@
   - true
 - bgm:
   - bgm_M627_Short_02
-  - 0
-  - 0
-  - 0
-  - 0.5
 - focus:
   - 106714
 - bust:
@@ -2991,10 +2987,10 @@
   - 1
   - 1
 - print:
-  - 怜、祈梨
+  - 祈梨、怜
   - |-
-    「──榮耀暴風雨！」
     「──龍之咆嘯！」
+    「──榮耀暴風雨！」
 - touch: *o0
 - window_visible:
   - false
@@ -3170,10 +3166,10 @@
   - 1
   - 1
 - print:
-  - 日和、嘉夜
+  - 嘉夜、日和
   - |-
-    「──日和熾炎猛擊！」
     「──龍人終結之拳！」
+    「──日和熾炎猛擊！」
 - touch: *o0
 - window_visible:
   - false
@@ -4087,6 +4083,8 @@
   - se_adv_magic_damage_01
 - effect:
   - 0045
+- shake:
+  - 192711
 - window_visible:
   - true
 - focus:
@@ -4196,6 +4194,8 @@
   - se_adv_magic_damage_01
 - effect:
   - 0045
+- shake:
+  - 192711
 - window_visible:
   - true
 - focus:
@@ -4336,10 +4336,6 @@
   - 愛梅斯
   - 變成「末端裝置」了……
 - touch: *o0
-- bgm:
-  - stop
-  - 2.5
-  - 1
 - choice:
   - 休想繼續這樣下去……！
   - 2
@@ -4347,10 +4343,32 @@
   - 2
 - window_visible:
   - false
+- fadeout:
+  - 190011
+  - 30
+- effect:
+  - 0039
+  - se_adv_transition_01
+  - 180
+- wait:
+  - 15
+- bgm:
+  - stop
+  - 2
+  - 1
+- chara_full:
+  - 192711
+  - C
+  - 1
+- fadein:
+  - 192711
+  - 30
+- wait:
+  - 15
 - bgm:
   - bgm_M300
 - fadeout:
-  - 190011
+  - 192711
   - 30
 - effect:
   - 0009
@@ -4457,7 +4475,7 @@
   - 20
 - print:
   - 愛梅斯
-  - 被關入假角色的靈魂，
+  - 被關入假定角色的靈魂，
 - wait:
   - 40
 - print:
@@ -4648,11 +4666,21 @@
   - se_adv_transition_01
 - wait:
   - 15
+- chara_full:
+  - 192711
+  - C
+  - 1
+- fadein:
+  - 192711
+  - 30
 - choice:
   - ──喝啊啊啊啊！
   - 4
 - tag:
   - 4
+- fadeout:
+  - 192711
+  - 30
 - effect:
   - 0009
 - se:
